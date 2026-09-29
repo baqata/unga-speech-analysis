@@ -73,7 +73,7 @@ One point per fragment or speech, 10 bytes each, stored one column after another
 
 ### `alignment/<year>.json` (lazy, per year)
 
-`{ "<iso3>": { overall: {...}, unodc: {...} \| null } }`, and `alignment/all.json` for all years, where each country is the mean of its speech vectors. A speech's vector is the mean of its fragments' vectors; whole-speech embeddings are not used.
+`{ "<iso3>": { overall: {...}, unodc: {...} \| null } }`, and `alignment/all.json` for all years, where each country is the mean of its speech vectors. A speech's vector is the mean of its fragments' vectors.
 
 Each of `overall` and `unodc` holds:
 - `top`: `[[iso3, pct, raw], ...]`, the five most similar countries;

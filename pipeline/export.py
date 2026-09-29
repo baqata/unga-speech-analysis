@@ -297,9 +297,8 @@ def make_layout(kind: str, refit: bool = False) -> dict:
         ids = f_ids
         input_hash = f_man["input_hash"]
     else:
-        # A speech goes where the mean of its mapped fragments' vectors goes. Its whole-text vector would crowd
-        # the speeches of a year into one spot: on the 387 speeches of 2024 and 2026 it spread them over 0.57 and
-        # 0.48 of the fragments' extent on the two axes, the mean of their fragments over 0.78 and 0.66.
+        # A speech goes where the mean of its mapped fragments' vectors goes. This spreads each year's speeches by
+        # subject: the 387 speeches of 2024 and 2026 spread over 0.78 and 0.66 of the fragments' extent on the two axes.
         fxy = load_layout("fragments", f_ids, f_man["input_hash"])
         x_map = unit_rows(np.asarray(f_emb[rows], dtype=np.float32))
         owner, ids = pd.factorize(cer.loc[f_ids, "speech_id"].to_numpy())

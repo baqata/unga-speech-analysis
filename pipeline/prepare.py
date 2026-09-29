@@ -494,9 +494,7 @@ def write_report(path: Path, speeches: pd.DataFrame, fragments: pd.DataFrame,
       f"tokens (Harrier, no special tokens): {int(sp.n_tokens.sum()):,} in speeches, "
       f"{int(fr.n_tokens.sum()):,} in fragments")
     w(f"- Longest speech: {sp.loc[sp.n_tokens.idxmax(), 'speech_id']} "
-      f"({int(sp.n_tokens.max()):,} tokens); speeches over 8,192 tokens: "
-      f"{int((sp.n_tokens > 8192).sum())}, over 16,384: {int((sp.n_tokens > 16384).sum())}, "
-      f"over 32,768: {int((sp.n_tokens > 32768).sum())}")
+      f"({int(sp.n_tokens.max()):,} tokens)")
     w(f"- Layouts: {', '.join(f'{k}: {v:,}' for k, v in sp.layout.value_counts().items())} "
       f"('tidy' = taken from the agents' tidy copy in data/tidy/TXT; all others are cleaned "
       f"from the source files here)")

@@ -67,30 +67,16 @@ def make_fragments(n_speeches=12, per_speech=6, seed=0) -> pd.DataFrame:
     return df.sample(frac=1, random_state=seed).reset_index(drop=True)
 
 
-def make_speeches() -> pd.DataFrame:
-    lengths = [300, 900, 1200, 2500, 4000, 5000, 7000, 9000, 12000, 26000]
-    return pd.DataFrame({
-        "speech_id": [f"S{i:02d}_{i + 1:02d}_{1950 + i}" for i in range(len(lengths))],
-        "iso3": [f"S{i:02d}" for i in range(len(lengths))],
-        "session": range(1, len(lengths) + 1), "year": range(1950, 1950 + len(lengths)),
-        "source": "ungdc_v14",
-        "text_clean": [f"Speech {i} about the rule of law." for i in range(len(lengths))],
-        "n_words": [n // 2 for n in lengths], "n_tokens": lengths,
-        "n_fragments": 3})
-
-
 @pytest.fixture
 def env(tmp_path, monkeypatch):
     """Redirect all pipeline paths to a temp dir, use small shards, reset the fake."""
     monkeypatch.setattr(config, "FRAGMENTS", tmp_path / "fragments.parquet")
-    monkeypatch.setattr(config, "SPEECHES", tmp_path / "speeches.parquet")
     monkeypatch.setattr(config, "EMB_DIR", tmp_path / "emb")
     monkeypatch.setattr(config, "LOGS", tmp_path / "logs")
     monkeypatch.setattr(embed, "SHARD_MAX_ITEMS", 10)
     FakeEncoder.calls = []
     FakeEncoder.interrupt_after = None
     make_fragments().to_parquet(config.FRAGMENTS, index=False)
-    make_speeches().to_parquet(config.SPEECHES, index=False)
     return tmp_path
 
 
@@ -120,11 +106,13 @@ def test_plan_orders_by_length_and_respects_budget(env):
 
 
 def test_plan_runs_long_items_alone(env):
-    df = embed.load_input("speeches")
-    plan = embed.make_plan(df, "speeches", token_budget=16384)
+    df = embed.load_input("fragments")
+    df.loc[:2, "n_tokens"] = embed.ALONE_TOKENS  # two of them would fit the budget together
+    plan = embed.make_plan(df, "fragments", token_budget=2 * embed.ALONE_TOKENS)
     sizes = plan.groupby("batch")["n_tokens"].agg(["size", "max"])
+    assert (sizes["max"] >= embed.ALONE_TOKENS).sum() == 3
     assert (sizes.loc[sizes["max"] >= embed.ALONE_TOKENS, "size"] == 1).all()
-    assert (sizes["size"] > 1).any()  # short speeches are still batched
+    assert (sizes["size"] > 1).any()  # short items are still batched
 
 
 def test_plan_is_deterministic_and_independent_of_row_order(env):
@@ -255,7 +243,8 @@ def test_concurrent_run_is_refused(env):
             run_fake("fragments", token_budget=1000)
         assert embed.main(["finalize", "fragments"]) == 1
         assert FakeEncoder.calls == []
-        run_fake("speeches")  # the lock is per kind
+        embed.snapshot("fragments.late", years=[1950])
+        run_fake("fragments.late")  # the lock is per kind: a part has its own
     run_fake("fragments", token_budget=1000)  # released when the holder exits
     embed.finalize("fragments")
 
@@ -316,26 +305,12 @@ def test_item_failing_everywhere_does_not_stop_the_run(env):
         embed.finalize("fragments")
 
 
-def test_speeches_are_keyed_by_speech_id(env):
-    run_fake("speeches")
-    manifest = embed.finalize("speeches")
-    keys = pd.read_parquet(embed.final_paths("speeches")["keys"])
-    src = pd.read_parquet(config.SPEECHES)
-    assert list(keys.columns) == ["row", "speech_id", "n_tokens", "device"]
-    assert keys["speech_id"].tolist() == sorted(src["speech_id"])
-    emb = np.load(embed.final_paths("speeches")["embeddings"]).astype(np.float32)
-    text = src.set_index("speech_id").loc[keys["speech_id"], "text_clean"]
-    assert np.abs(emb - np.stack([fake_vector(t) for t in text])).max() < 2e-3
-    long_batches = [texts for _, texts in FakeEncoder.calls if len(texts) == 1]
-    assert len(long_batches) >= int((src["n_tokens"] >= embed.ALONE_TOKENS).sum())
-    assert manifest["keys"] == ["speech_id"]
-
-
 def test_status_reports_progress(env, capsys):
     run_fake("fragments", token_budget=1000, limit=5)
+    embed.snapshot("fragments.late", years=[1950])
     assert embed.main(["status"]) == 0
     out = capsys.readouterr().out
-    assert "fragments:" in out and "speeches:" in out and "no plan yet" in out
+    assert "fragments:" in out and "fragments.late:" in out and "no plan yet" in out
     assert "input: " in out and "(unchanged)" in out and "finalized: no" in out
 
 
@@ -491,14 +466,6 @@ def test_snapshot_is_frozen_once_planned(env):
         embed.snapshot("fragments.late", years=LATE)
     with pytest.raises(embed.EmbedError, match="not a part"):
         embed.snapshot("fragments", years=LATE)
-
-
-def test_speech_parts(env):
-    embed_part("speeches", "stable", exclude_years=[1955])
-    embed_part("speeches", "late", years=[1955])
-    embed.assemble("speeches", ["stable", "late"])
-    keys = pd.read_parquet(embed.final_paths("speeches")["keys"])
-    assert list(keys["speech_id"]) == sorted(pd.read_parquet(config.SPEECHES)["speech_id"])
 
 
 def test_cli_accepts_parts(env):
