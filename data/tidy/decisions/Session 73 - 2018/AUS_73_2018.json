@@ -1,0 +1,112 @@
+{
+ "id": "AUS_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  16,
+  22,
+  25,
+  28,
+  31,
+  35,
+  38,
+  40,
+  48,
+  52,
+  59,
+  69,
+  73,
+  75,
+  79,
+  87
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "Indo- Pacific",
+   "Indo-Pacific",
+   "hyphen"
+  ],
+  [
+   28,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ],
+  [
+   36,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ],
+  [
+   56,
+   "Indo- Pacific",
+   "Indo-Pacific",
+   "hyphen"
+  ],
+  [
+   69,
+   "Asia- Pacific",
+   "Asia-Pacific",
+   "hyphen"
+  ],
+  [
+   85,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   88,
+   "twentieth- century",
+   "twentieth-century",
+   "hyphen"
+  ],
+  [
+   89,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d03458cc3178a69478bd41c7910c2c028335b630",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2210,
+  "words_out": 2200,
+  "retention": 0.9955,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   89,
+   98,
+   126,
+   156,
+   72,
+   74,
+   70,
+   95,
+   122,
+   52,
+   183,
+   66,
+   173,
+   187,
+   92,
+   77,
+   114,
+   189,
+   165
+  ],
+  "warnings": []
+ }
+}

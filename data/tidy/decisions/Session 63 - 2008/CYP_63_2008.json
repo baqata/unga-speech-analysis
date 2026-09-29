@@ -1,0 +1,63 @@
+{
+ "id": "CYP_63_2008",
+ "drop": [
+  [
+   86,
+   86,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  29,
+  49,
+  66,
+  87,
+  100,
+  121,
+  140,
+  157,
+  170,
+  182
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2ffb6d9df4b7f12f9b54a77916c9c2a77ac93229",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 188,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1498,
+  "words_out": 1489,
+  "retention": 0.994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   71,
+   155,
+   140,
+   129,
+   157,
+   101,
+   158,
+   162,
+   150,
+   110,
+   103,
+   53
+  ],
+  "warnings": [
+   "procedural drop [86,86] in the middle of the speech"
+  ]
+ }
+}

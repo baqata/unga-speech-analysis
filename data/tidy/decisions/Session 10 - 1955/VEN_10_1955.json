@@ -1,0 +1,116 @@
+{
+ "id": "VEN_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  10,
+  15,
+  22,
+  27,
+  30,
+  34,
+  38,
+  42,
+  44,
+  48,
+  53,
+  57,
+  60,
+  66,
+  70,
+  72,
+  74,
+  78,
+  81
+ ],
+ "cer": [
+  81
+ ],
+ "fix": [
+  [
+   27,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   50,
+   "arc",
+   "are",
+   "ocr"
+  ],
+  [
+   62,
+   "work economic",
+   "world economic",
+   "ocr"
+  ],
+  [
+   62,
+   "Soda",
+   "Social",
+   "ocr"
+  ],
+  [
+   71,
+   "Inter- American",
+   "Inter-American",
+   "hyphen"
+  ],
+  [
+   71,
+   " how",
+   " show",
+   "ocr"
+  ],
+  [
+   71,
+   " o-operation",
+   " co-operation",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba1acb9d0a265eb97e874c211b1eb522e3079d11",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 24
+  },
+  "words_in": 2540,
+  "words_out": 2533,
+  "retention": 0.9972,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   189,
+   129,
+   129,
+   179,
+   177,
+   129,
+   139,
+   136,
+   153,
+   74,
+   123,
+   91,
+   81,
+   111,
+   136,
+   84,
+   161,
+   87,
+   92,
+   90,
+   43
+  ],
+  "warnings": []
+ }
+}

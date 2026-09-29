@@ -1,0 +1,47 @@
+{
+ "id": "MRT_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  37,
+  58,
+  68,
+  94,
+  104,
+  121,
+  144
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "087df216843b372079a3dce3fbf1f9fb0f217383",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1193,
+  "words_out": 1191,
+  "retention": 0.9983,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   149,
+   143,
+   147,
+   83,
+   197,
+   86,
+   127,
+   195,
+   64
+  ],
+  "warnings": []
+ }
+}

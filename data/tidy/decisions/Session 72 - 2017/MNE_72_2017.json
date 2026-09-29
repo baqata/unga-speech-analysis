@@ -1,0 +1,64 @@
+{
+ "id": "MNE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  16,
+  18,
+  21,
+  27,
+  30,
+  34,
+  37,
+  39,
+  41,
+  43,
+  47
+ ],
+ "cer": [
+  47
+ ],
+ "fix": [
+  [
+   20,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6f6afd949540b2ea7817f7a08b66c3cc2dbcfdd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1338,
+  "words_out": 1337,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   78,
+   76,
+   158,
+   76,
+   62,
+   74,
+   115,
+   78,
+   85,
+   71,
+   84,
+   65,
+   64,
+   80,
+   171
+  ],
+  "warnings": []
+ }
+}

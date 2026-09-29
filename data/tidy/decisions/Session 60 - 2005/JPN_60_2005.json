@@ -1,0 +1,140 @@
+{
+ "id": "JPN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  30,
+  46,
+  65,
+  82,
+  96,
+  105,
+  114,
+  123,
+  131,
+  139,
+  151,
+  164,
+  176,
+  193,
+  207,
+  215
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "leadersí",
+   "leaders’",
+   "encoding"
+  ],
+  [
+   82,
+   "Koreaís",
+   "Korea’s",
+   "encoding"
+  ],
+  [
+   89,
+   "Peopleís",
+   "People’s",
+   "encoding"
+  ],
+  [
+   123,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   124,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   146,
+   "Africansí",
+   "Africans’",
+   "encoding"
+  ],
+  [
+   161,
+   "ìHealth",
+   "“Health",
+   "encoding"
+  ],
+  [
+   161,
+   "Developmentî",
+   "Development”",
+   "encoding"
+  ],
+  [
+   162,
+   "ìforgotten",
+   "“forgotten",
+   "encoding"
+  ],
+  [
+   162,
+   "crisesî",
+   "crises”",
+   "encoding"
+  ],
+  [
+   202,
+   "ìenemy",
+   "“enemy",
+   "encoding"
+  ],
+  [
+   202,
+   "Stateî",
+   "State”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c21de29f41b8fe945abd8959800eb6219c420c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1714,
+  "words_out": 1709,
+  "retention": 0.9971,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   63,
+   73,
+   88,
+   115,
+   151,
+   121,
+   110,
+   69,
+   64,
+   65,
+   64,
+   73,
+   90,
+   108,
+   97,
+   143,
+   99,
+   71,
+   45
+  ],
+  "warnings": []
+ }
+}

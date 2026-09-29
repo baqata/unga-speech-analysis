@@ -1,0 +1,58 @@
+{
+ "id": "LAO_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  19,
+  26,
+  27,
+  29,
+  35,
+  38,
+  42,
+  46
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "2016- 2020",
+   "2016-2020",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "376de5c06916cd5bf002e76561938f30081422ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1516,
+  "words_out": 1515,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   73,
+   141,
+   85,
+   156,
+   178,
+   72,
+   63,
+   183,
+   110,
+   175,
+   195,
+   84
+  ],
+  "warnings": []
+ }
+}

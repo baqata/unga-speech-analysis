@@ -1,0 +1,104 @@
+{
+ "id": "CUB_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  5,
+  7,
+  10,
+  15,
+  19,
+  22,
+  25,
+  30,
+  37,
+  39,
+  42,
+  45,
+  49,
+  51,
+  56,
+  60,
+  63,
+  67,
+  69,
+  70,
+  73,
+  75
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "‘",
+   "",
+   "ocr"
+  ],
+  [
+   33,
+   "[item 67]",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "hope- from",
+   "hope from",
+   "spacing"
+  ],
+  [
+   63,
+   "comers",
+   "corners",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "409be81073543fb046a3341070fe260566e9afab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3440,
+  "words_out": 3432,
+  "retention": 0.9977,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   27,
+   116,
+   69,
+   155,
+   80,
+   160,
+   182,
+   115,
+   159,
+   203,
+   162,
+   88,
+   156,
+   157,
+   147,
+   100,
+   232,
+   95,
+   105,
+   173,
+   101,
+   202,
+   170,
+   105,
+   173
+  ],
+  "warnings": []
+ }
+}

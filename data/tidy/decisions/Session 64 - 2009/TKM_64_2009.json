@@ -1,0 +1,73 @@
+{
+ "id": "TKM_64_2009",
+ "drop": [
+  [
+   162,
+   163,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  28,
+  45,
+  57,
+  67,
+  89,
+  104,
+  118,
+  132,
+  148,
+  164,
+  185,
+  200,
+  218,
+  236,
+  260
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa227bb5ca8d8299214a96e5e51890d4ca662e38",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 280,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2131,
+  "words_out": 2124,
+  "retention": 0.9967,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   83,
+   126,
+   125,
+   92,
+   77,
+   164,
+   105,
+   104,
+   112,
+   126,
+   108,
+   167,
+   119,
+   151,
+   137,
+   179,
+   149
+  ],
+  "warnings": [
+   "procedural drop [162,163] in the middle of the speech"
+  ]
+ }
+}

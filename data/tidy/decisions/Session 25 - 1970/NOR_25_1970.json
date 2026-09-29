@@ -1,0 +1,70 @@
+{
+ "id": "NOR_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  13,
+  21,
+  28,
+  34,
+  39,
+  46,
+  52,
+  55,
+  61,
+  67,
+  78,
+  81,
+  86,
+  91
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38970d89c4d7a582751d097a0959ad9ea7a10cd4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2241,
+  "words_out": 2241,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   51,
+   109,
+   158,
+   183,
+   154,
+   136,
+   123,
+   152,
+   111,
+   76,
+   108,
+   148,
+   268,
+   115,
+   106,
+   142,
+   101
+  ],
+  "warnings": []
+ }
+}

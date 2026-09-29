@@ -1,0 +1,256 @@
+{
+ "id": "ROU_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  24,
+  41,
+  59,
+  73,
+  85,
+  93,
+  101,
+  113,
+  138,
+  152,
+  166,
+  179,
+  194,
+  207,
+  219,
+  228,
+  235,
+  241,
+  249,
+  266,
+  284,
+  291,
+  300,
+  310,
+  318,
+  328,
+  344,
+  358,
+  366,
+  385,
+  403,
+  426,
+  438,
+  450,
+  460,
+  481,
+  491,
+  501,
+  514,
+  525,
+  553,
+  566
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   " Ml ",
+   " full ",
+   "ocr"
+  ],
+  [
+   11,
+   "peoples. ,",
+   "peoples.",
+   "ocr"
+  ],
+  [
+   60,
+   "Ceaugescu",
+   "Ceausescu",
+   "ocr"
+  ],
+  [
+   75,
+   "right',",
+   "right\",",
+   "ocr"
+  ],
+  [
+   101,
+   "double- edged",
+   "double-edged",
+   "spacing"
+  ],
+  [
+   181,
+   "situation. in",
+   "situation in",
+   "ocr"
+  ],
+  [
+   184,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   257,
+   "disarmamentóin",
+   "disarmament—in",
+   "encoding"
+  ],
+  [
+   258,
+   "disarmamentóare",
+   "disarmament—are",
+   "encoding"
+  ],
+  [
+   267,
+   "plane and",
+   "planet and",
+   "ocr"
+  ],
+  [
+   275,
+   "of strongly",
+   "out strongly",
+   "ocr"
+  ],
+  [
+   336,
+   "medium- range",
+   "medium-range",
+   "spacing"
+  ],
+  [
+   378,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   400,
+   "mediaóradio",
+   "media—radio",
+   "encoding"
+  ],
+  [
+   400,
+   "pressóin",
+   "press—in",
+   "encoding"
+  ],
+  [
+   419,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   454,
+   "inthe",
+   "in the",
+   "merged_word"
+  ],
+  [
+   467,
+   "forceóan",
+   "force—an",
+   "encoding"
+  ],
+  [
+   470,
+   "resourcesósuch",
+   "resources—such",
+   "encoding"
+  ],
+  [
+   485,
+   "reflectea",
+   "reflected",
+   "ocr"
+  ],
+  [
+   493,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   503,
+   "id 1985",
+   "in 1985",
+   "ocr"
+  ],
+  [
+   519,
+   "continentsand",
+   "continents and",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "The word apartheid is missing in unit 495 (\"policy of and racial discrimination\").",
+ "unitizer_version": 1,
+ "sha1": "39dc0ec967da16bc8c45e1aa72fbbecc52df7c7c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 573,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5691,
+  "words_out": 5636,
+  "retention": 0.9903,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   77,
+   158,
+   181,
+   180,
+   139,
+   130,
+   81,
+   76,
+   132,
+   250,
+   141,
+   139,
+   132,
+   157,
+   125,
+   116,
+   91,
+   74,
+   61,
+   63,
+   172,
+   185,
+   78,
+   91,
+   103,
+   77,
+   100,
+   165,
+   129,
+   72,
+   188,
+   158,
+   214,
+   98,
+   126,
+   105,
+   194,
+   103,
+   86,
+   120,
+   113,
+   275,
+   116,
+   65
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

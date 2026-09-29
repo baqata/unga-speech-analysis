@@ -1,0 +1,129 @@
+{
+ "id": "BHR_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  9,
+  11,
+  13,
+  17,
+  20,
+  22,
+  28,
+  30,
+  32,
+  37,
+  42,
+  44,
+  46,
+  50,
+  56,
+  60,
+  64,
+  69,
+  71,
+  75,
+  81,
+  84,
+  88,
+  92,
+  94,
+  96,
+  99,
+  102,
+  107
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  11
+ ],
+ "fix": [
+  [
+   0,
+   "thirty- second",
+   "thirty-second",
+   "hyphen"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   29,
+   "unless \\ e put",
+   "unless we put",
+   "ocr"
+  ],
+  [
+   37,
+   "the- United",
+   "the United",
+   "ocr"
+  ],
+  [
+   81,
+   "repress;",
+   "repressive",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a70a714f7a99a0411d081145ba5ca93f7620f93",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3674,
+  "words_out": 3668,
+  "retention": 0.9984,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   75,
+   43,
+   68,
+   121,
+   81,
+   54,
+   106,
+   111,
+   120,
+   198,
+   99,
+   100,
+   213,
+   136,
+   67,
+   83,
+   96,
+   218,
+   117,
+   160,
+   100,
+   80,
+   78,
+   134,
+   134,
+   120,
+   137,
+   122,
+   107,
+   100,
+   63,
+   173,
+   54
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "id": "BDI_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  40,
+  52,
+  72,
+  90,
+  108,
+  120,
+  127,
+  154,
+  168,
+  182,
+  193,
+  209,
+  223,
+  271,
+  294,
+  319
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   176,
+   "apolitical",
+   "a political",
+   "merged_word"
+  ],
+  [
+   210,
+   "Apr'",
+   "April",
+   "ocr"
+  ],
+  [
+   220,
+   "face So",
+   "face to",
+   "ocr"
+  ],
+  [
+   307,
+   "Amsha",
+   "Arusha",
+   "ocr"
+  ],
+  [
+   312,
+   "CAU",
+   "OAU",
+   "ocr"
+  ],
+  [
+   313,
+   "sub- regional",
+   "sub-regional",
+   "spacing"
+  ],
+  [
+   317,
+   "whit",
+   "with",
+   "ocr"
+  ],
+  [
+   317,
+   "sub- regional",
+   "sub-regional",
+   "spacing"
+  ],
+  [
+   321,
+   "guideour",
+   "guide our",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "No sentence boundary falls at a line start between units 223 and 270, so that paragraph stays long.",
+ "unitizer_version": 1,
+ "sha1": "4ad217ce94415541fa0879595869e3ccf69f0802",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 345,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 1
+  },
+  "words_in": 3521,
+  "words_out": 3521,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   220,
+   200,
+   117,
+   207,
+   179,
+   181,
+   116,
+   72,
+   257,
+   127,
+   140,
+   123,
+   176,
+   161,
+   495,
+   233,
+   254,
+   263
+  ],
+  "warnings": [
+   "paragraph at unit 223 has 495 words"
+  ]
+ }
+}

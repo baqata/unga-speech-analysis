@@ -1,0 +1,53 @@
+{
+ "id": "COM_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  38,
+  53,
+  70,
+  87,
+  114,
+  136,
+  149,
+  167,
+  177
+ ],
+ "cer": [
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "07c5958e6761fb866c48be552aa4ce5f4ae1d3ba",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1500,
+  "words_out": 1497,
+  "retention": 0.998,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   79,
+   109,
+   124,
+   126,
+   133,
+   151,
+   209,
+   170,
+   116,
+   159,
+   79,
+   42
+  ],
+  "warnings": []
+ }
+}

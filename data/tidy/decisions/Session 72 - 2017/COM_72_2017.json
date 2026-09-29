@@ -1,0 +1,70 @@
+{
+ "id": "COM_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  17,
+  25,
+  30,
+  34,
+  39,
+  43,
+  49,
+  52,
+  57,
+  63,
+  66,
+  68,
+  72
+ ],
+ "cer": [
+  0,
+  5,
+  72
+ ],
+ "fix": [
+  [
+   34,
+   "load- shedding",
+   "load-shedding",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f868c3c536b5358846017247aaba30c8a820d33c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2061,
+  "words_out": 2060,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   216,
+   115,
+   160,
+   100,
+   143,
+   159,
+   78,
+   153,
+   89,
+   148,
+   127,
+   138,
+   139,
+   82,
+   91,
+   87,
+   35
+  ],
+  "warnings": []
+ }
+}

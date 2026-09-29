@@ -1,0 +1,63 @@
+{
+ "id": "SYC_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  23,
+  38,
+  45,
+  59,
+  77,
+  90,
+  108,
+  120,
+  130,
+  141,
+  146,
+  160
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [
+  [
+   15,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e692dd2b559494e5f0f2a719c0b95fa447912697",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1416,
+  "words_out": 1415,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   112,
+   72,
+   123,
+   65,
+   112,
+   150,
+   116,
+   132,
+   100,
+   78,
+   96,
+   46,
+   121,
+   92
+  ],
+  "warnings": []
+ }
+}

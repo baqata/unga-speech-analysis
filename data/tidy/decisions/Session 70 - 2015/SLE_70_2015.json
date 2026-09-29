@@ -1,0 +1,80 @@
+{
+ "id": "SLE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  19,
+  23,
+  27,
+  30,
+  36,
+  43,
+  45,
+  48,
+  54,
+  59,
+  63,
+  69,
+  73,
+  77,
+  82,
+  89,
+  94,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   88,
+   "systems ,",
+   "systems,",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "293446252d0959a466885cfa71e419ea7bb999b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2508,
+  "words_out": 2499,
+  "retention": 0.9964,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   72,
+   61,
+   124,
+   183,
+   97,
+   122,
+   103,
+   142,
+   170,
+   76,
+   88,
+   132,
+   97,
+   92,
+   124,
+   93,
+   123,
+   169,
+   177,
+   95,
+   138,
+   21
+  ],
+  "warnings": []
+ }
+}

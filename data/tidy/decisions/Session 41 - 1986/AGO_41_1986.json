@@ -1,0 +1,120 @@
+{
+ "id": "AGO_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  4,
+  6,
+  9,
+  14,
+  18,
+  20,
+  26,
+  27,
+  29,
+  33,
+  35,
+  38,
+  40,
+  46,
+  48,
+  51,
+  52,
+  54,
+  57,
+  59,
+  63,
+  65,
+  72,
+  74
+ ],
+ "cer": [
+  0,
+  1,
+  2
+ ],
+ "fix": [
+  [
+   1,
+   "e. number",
+   "a number",
+   "ocr"
+  ],
+  [
+   8,
+   "economicdevelopment",
+   "economic development",
+   "merged_word"
+  ],
+  [
+   21,
+   ", .which",
+   ", which",
+   "ocr"
+  ],
+  [
+   26,
+   "during^ the",
+   "during the",
+   "ocr"
+  ],
+  [
+   27,
+   "SouthAfrican",
+   "South African",
+   "merged_word"
+  ],
+  [
+   52,
+   "Baads",
+   "Heads",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dbbf361b4bede81af52436e5b96abed62e3dcbbb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2506,
+  "words_out": 2508,
+  "retention": 1.0008,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   42,
+   38,
+   78,
+   81,
+   83,
+   140,
+   94,
+   76,
+   190,
+   77,
+   66,
+   95,
+   67,
+   118,
+   96,
+   191,
+   113,
+   130,
+   55,
+   65,
+   82,
+   56,
+   108,
+   88,
+   101,
+   64,
+   114
+  ],
+  "warnings": []
+ }
+}

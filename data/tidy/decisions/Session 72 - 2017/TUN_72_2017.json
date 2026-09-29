@@ -1,0 +1,70 @@
+{
+ "id": "TUN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  15,
+  17,
+  20,
+  23,
+  26,
+  29,
+  31,
+  33,
+  36,
+  39,
+  41,
+  42,
+  48,
+  52
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a024ac4958742fc38f7edee409132a646b5c7c3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1756,
+  "words_out": 1755,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   91,
+   89,
+   133,
+   91,
+   66,
+   63,
+   131,
+   122,
+   63,
+   80,
+   81,
+   117,
+   86,
+   108,
+   79,
+   159,
+   135,
+   61
+  ],
+  "warnings": []
+ }
+}

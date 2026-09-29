@@ -1,0 +1,91 @@
+{
+ "id": "LTU_48_1993",
+ "drop": [
+  [
+   66,
+   66,
+   "header_footer"
+  ],
+  [
+   158,
+   158,
+   "header_footer"
+  ],
+  [
+   256,
+   256,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  19,
+  33,
+  48,
+  67,
+  81,
+  99,
+  113,
+  131,
+  151,
+  172,
+  192,
+  202,
+  212,
+  223,
+  240,
+  259,
+  272,
+  293,
+  299,
+  317,
+  324
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The Security Council proposal at units 259 and 293 is repeated in different wording in the record; both kept.",
+ "unitizer_version": 1,
+ "sha1": "3318f614809b1910bc4cdecd0caac559756be5bc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 342,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2971,
+  "words_out": 2951,
+  "retention": 0.9933,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   30,
+   133,
+   118,
+   119,
+   160,
+   122,
+   152,
+   128,
+   156,
+   174,
+   174,
+   167,
+   94,
+   89,
+   102,
+   144,
+   148,
+   112,
+   196,
+   47,
+   166,
+   59,
+   161
+  ],
+  "warnings": []
+ }
+}

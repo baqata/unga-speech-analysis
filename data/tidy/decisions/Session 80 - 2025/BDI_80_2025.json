@@ -1,0 +1,78 @@
+{
+ "id": "BDI_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   74,
+   74,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  13,
+  20,
+  26,
+  31,
+  41,
+  46,
+  53,
+  58,
+  64,
+  73
+ ],
+ "cer": [
+  1,
+  73
+ ],
+ "fix": [
+  [
+   1,
+   "Néderchimier",
+   "Ndayishimiye",
+   "asr_name"
+  ],
+  [
+   55,
+   "Erzelwini",
+   "Ezulwini",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19a4a5bfd2e35198c3289fff02dd21109daf5a3a",
+ "layout": "single",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1716,
+  "words_out": 1681,
+  "retention": 0.9796,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   216,
+   127,
+   177,
+   150,
+   117,
+   229,
+   96,
+   140,
+   106,
+   133,
+   183,
+   7
+  ],
+  "warnings": []
+ }
+}

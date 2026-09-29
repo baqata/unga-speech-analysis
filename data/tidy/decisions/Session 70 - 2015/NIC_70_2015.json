@@ -1,0 +1,65 @@
+{
+ "id": "NIC_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  19,
+  22,
+  27,
+  29,
+  33,
+  35,
+  39,
+  43,
+  45,
+  49
+ ],
+ "cer": [
+  0,
+  49
+ ],
+ "fix": [
+  [
+   41,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95fc232047b11a818d5c0fc85b78ccd8d8b6e2af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1443,
+  "words_out": 1440,
+  "retention": 0.9979,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   70,
+   96,
+   116,
+   147,
+   89,
+   174,
+   51,
+   108,
+   65,
+   128,
+   161,
+   65,
+   143,
+   27
+  ],
+  "warnings": []
+ }
+}

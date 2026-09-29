@@ -1,0 +1,211 @@
+{
+ "id": "CHL_10_1955",
+ "drop": [
+  [
+   62,
+   62,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  21,
+  25,
+  27,
+  30,
+  33,
+  37,
+  44,
+  48,
+  53,
+  56,
+  57,
+  63,
+  70,
+  72,
+  77,
+  79,
+  83,
+  87,
+  92,
+  98,
+  102,
+  109,
+  113,
+  115,
+  120,
+  123,
+  126,
+  130,
+  132,
+  136,
+  139,
+  144,
+  149,
+  153,
+  156
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   " 1",
+   "",
+   "label"
+  ],
+  [
+   9,
+   "die",
+   "the",
+   "ocr"
+  ],
+  [
+   10,
+   "us;",
+   "us.",
+   "ocr"
+  ],
+  [
+   21,
+   "admissiorLof",
+   "admission of",
+   "ocr"
+  ],
+  [
+   23,
+   "cf",
+   "of",
+   "ocr"
+  ],
+  [
+   43,
+   "criterion,",
+   "criterion.",
+   "ocr"
+  ],
+  [
+   46,
+   "die",
+   "the",
+   "ocr"
+  ],
+  [
+   54,
+   "rostrum,",
+   "rostrum.",
+   "ocr"
+  ],
+  [
+   56,
+   "(ECLA),",
+   "(ECLA).",
+   "ocr"
+  ],
+  [
+   68,
+   "foe",
+   "be",
+   "ocr"
+  ],
+  [
+   72,
+   "Development;",
+   "Development.",
+   "ocr"
+  ],
+  [
+   93,
+   "riot",
+   "not",
+   "ocr"
+  ],
+  [
+   120,
+   "LCLA",
+   "ECLA",
+   "ocr"
+  ],
+  [
+   132,
+   " I",
+   "",
+   "label"
+  ],
+  [
+   133,
+   " j",
+   "",
+   "label"
+  ],
+  [
+   147,
+   "arid",
+   "and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a5fc24a1929b83b2e0968ca8dc2d73bced28de0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 45
+  },
+  "words_in": 4723,
+  "words_out": 4720,
+  "retention": 0.9994,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   180,
+   170,
+   159,
+   231,
+   155,
+   71,
+   94,
+   117,
+   99,
+   149,
+   97,
+   122,
+   113,
+   73,
+   121,
+   174,
+   54,
+   101,
+   85,
+   107,
+   126,
+   82,
+   187,
+   101,
+   126,
+   70,
+   105,
+   120,
+   88,
+   87,
+   115,
+   94,
+   188,
+   130,
+   138,
+   183,
+   146,
+   115,
+   47
+  ],
+  "warnings": []
+ }
+}

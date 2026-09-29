@@ -1,0 +1,101 @@
+{
+ "id": "CHN_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  18,
+  27,
+  37,
+  44,
+  50,
+  54,
+  60,
+  67,
+  80,
+  89,
+  96,
+  103,
+  111,
+  120,
+  130,
+  134,
+  140,
+  145,
+  153,
+  160
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "[Ibid., para. 23.]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "ingroups",
+   "in groups",
+   "merged_word"
+  ],
+  [
+   106,
+   ", But",
+   ". But",
+   "ocr"
+  ],
+  [
+   129,
+   "Organization1 s",
+   "Organization's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement by the representative of the Republic of China (Taiwan).",
+ "unitizer_version": 1,
+ "sha1": "7a2604395cd7cc44bca96dfe14254c9c73879675",
+ "layout": "lines",
+ "stats": {
+  "n_units": 166,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 33
+  },
+  "words_in": 3900,
+  "words_out": 3896,
+  "retention": 0.999,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   90,
+   133,
+   178,
+   237,
+   224,
+   172,
+   161,
+   124,
+   199,
+   252,
+   226,
+   175,
+   188,
+   150,
+   156,
+   232,
+   177,
+   139,
+   124,
+   130,
+   144,
+   147,
+   138
+  ],
+  "warnings": []
+ }
+}

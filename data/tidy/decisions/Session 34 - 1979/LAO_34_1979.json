@@ -1,0 +1,186 @@
+{
+ "id": "LAO_34_1979",
+ "drop": [
+  [
+   39,
+   39,
+   "noise"
+  ],
+  [
+   67,
+   67,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  9,
+  14,
+  17,
+  22,
+  27,
+  31,
+  34,
+  41,
+  44,
+  48,
+  53,
+  57,
+  63,
+  68,
+  70,
+  73,
+  79,
+  85,
+  88,
+  93,
+  95,
+  102,
+  105,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "that m this",
+   "that in this",
+   "ocr"
+  ],
+  [
+   3,
+   "Vice- Presidents",
+   "Vice-Presidents",
+   "spacing"
+  ],
+  [
+   11,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   13,
+   "community 9f",
+   "community of",
+   "ocr"
+  ],
+  [
+   16,
+   "experience as proved",
+   "experience has proved",
+   "ocr"
+  ],
+  [
+   18,
+   " [Beijing]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "hard- won",
+   "hard-won",
+   "spacing"
+  ],
+  [
+   20,
+   "Futhermore",
+   "Furthermore",
+   "ocr"
+  ],
+  [
+   21,
+   "on7 January",
+   "on 7 January",
+   "merged_word"
+  ],
+  [
+   36,
+   "treaty16",
+   "treaty",
+   "ocr"
+  ],
+  [
+   44,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ],
+  [
+   60,
+   "' 'Hands",
+   "\"Hands",
+   "ocr"
+  ],
+  [
+   70,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   83,
+   "good- neighbourly",
+   "good-neighbourly",
+   "spacing"
+  ],
+  [
+   107,
+   "be-cause",
+   "because",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 39 is a footnote on the Egypt-Israel treaty that splits a sentence and is dropped as noise.",
+ "unitizer_version": 1,
+ "sha1": "3d4adf4775b8f5ec496405909489cc6decd8a400",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "noise": 1,
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 54
+  },
+  "words_in": 3873,
+  "words_out": 3842,
+  "retention": 0.992,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   213,
+   60,
+   231,
+   98,
+   232,
+   144,
+   188,
+   74,
+   149,
+   88,
+   113,
+   157,
+   109,
+   246,
+   130,
+   119,
+   124,
+   134,
+   173,
+   105,
+   129,
+   142,
+   240,
+   96,
+   234,
+   114
+  ],
+  "warnings": []
+ }
+}

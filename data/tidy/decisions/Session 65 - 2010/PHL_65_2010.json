@@ -1,0 +1,45 @@
+{
+ "id": "PHL_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  27,
+  37,
+  55,
+  72,
+  91,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f13e87b9b2caab23a620991216e579c267e4339d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1075,
+  "words_out": 1074,
+  "retention": 0.9991,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   29,
+   177,
+   89,
+   155,
+   149,
+   142,
+   137,
+   196
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "LKA_64_2009",
+ "drop": [
+  [
+   205,
+   206,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  21,
+  36,
+  48,
+  63,
+  83,
+  101,
+  113,
+  134,
+  152,
+  164,
+  183,
+  195,
+  218,
+  232,
+  251,
+  271,
+  292,
+  311,
+  324,
+  340
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b18ad272c867cfcff2944d91a90de2dca0cf6853",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 359,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 3
+  },
+  "words_in": 2670,
+  "words_out": 2660,
+  "retention": 0.9963,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   42,
+   104,
+   114,
+   93,
+   121,
+   152,
+   133,
+   88,
+   165,
+   120,
+   87,
+   153,
+   99,
+   143,
+   96,
+   141,
+   149,
+   165,
+   130,
+   101,
+   115,
+   149
+  ],
+  "warnings": [
+   "procedural drop [205,206] in the middle of the speech"
+  ]
+ }
+}

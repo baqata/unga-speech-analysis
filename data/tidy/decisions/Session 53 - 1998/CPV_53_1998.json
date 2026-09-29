@@ -1,0 +1,108 @@
+{
+ "id": "CPV_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  22,
+  38,
+  54,
+  67,
+  81,
+  96,
+  118,
+  132,
+  142,
+  155,
+  170,
+  182,
+  199,
+  211,
+  224,
+  234,
+  242,
+  261,
+  272
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "populations?",
+   "populations’",
+   "encoding"
+  ],
+  [
+   84,
+   "countries?",
+   "countries’",
+   "encoding"
+  ],
+  [
+   127,
+   "UNITA?s",
+   "UNITA’s",
+   "encoding"
+  ],
+  [
+   180,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   204,
+   "planet?s",
+   "planet’s",
+   "encoding"
+  ],
+  [
+   210,
+   "people?s",
+   "people’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b08bcdf75ca27075af3e0fd8407fa238ddc7481a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 279,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2292,
+  "words_out": 2290,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   113,
+   56,
+   127,
+   130,
+   102,
+   120,
+   138,
+   184,
+   115,
+   80,
+   112,
+   123,
+   95,
+   135,
+   101,
+   105,
+   79,
+   64,
+   165,
+   91,
+   55
+  ],
+  "warnings": []
+ }
+}

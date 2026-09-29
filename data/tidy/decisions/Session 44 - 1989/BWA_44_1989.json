@@ -1,0 +1,105 @@
+{
+ "id": "BWA_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  16,
+  22,
+  27,
+  32,
+  35,
+  38,
+  44,
+  48,
+  56,
+  61,
+  67,
+  71,
+  79,
+  88,
+  97,
+  109,
+  118,
+  129,
+  135,
+  141,
+  148,
+  153,
+  160,
+  166,
+  168
+ ],
+ "cer": [
+  0,
+  168
+ ],
+ "fix": [
+  [
+   76,
+   "do ,o to",
+   "do so to",
+   "ocr"
+  ],
+  [
+   82,
+   "RMAMO",
+   "RENAMO",
+   "ocr"
+  ],
+  [
+   86,
+   "REM WO",
+   "RENAMO",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 118 lacks words between 'into power' and 'give full political rights'.",
+ "unitizer_version": 1,
+ "sha1": "73a6b760d9f404ebda357c50f89be4a39768db13",
+ "layout": "lines",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3163,
+  "words_out": 3162,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   90,
+   101,
+   114,
+   139,
+   110,
+   118,
+   58,
+   90,
+   108,
+   81,
+   150,
+   118,
+   97,
+   72,
+   152,
+   180,
+   107,
+   198,
+   133,
+   182,
+   112,
+   103,
+   169,
+   87,
+   137,
+   91,
+   46,
+   19
+  ],
+  "warnings": []
+ }
+}

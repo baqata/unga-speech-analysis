@@ -1,0 +1,48 @@
+{
+ "id": "PAN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  18,
+  25,
+  36,
+  41,
+  47
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   " (see A/75/PV.7, annex XIII)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e42e2ad45f235d38a33befa282ba400ed8a9d0f3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1115,
+  "words_out": 1111,
+  "retention": 0.9964,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   153,
+   123,
+   67,
+   216,
+   188,
+   78,
+   134,
+   152
+  ],
+  "warnings": []
+ }
+}

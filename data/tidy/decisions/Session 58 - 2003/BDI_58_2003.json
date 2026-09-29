@@ -1,0 +1,113 @@
+{
+ "id": "BDI_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  27,
+  45,
+  62,
+  85,
+  112,
+  126,
+  137,
+  159,
+  169,
+  189,
+  210,
+  220,
+  233,
+  248,
+  260,
+  271,
+  282,
+  294
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   47,
+   "libÈration",
+   "libération",
+   "encoding"
+  ],
+  [
+   47,
+   "LibÈration",
+   "Libération",
+   "encoding"
+  ],
+  [
+   49,
+   "la dÈfense",
+   "la défense",
+   "encoding"
+  ],
+  [
+   49,
+   "dÈfense",
+   "défense",
+   "encoding"
+  ],
+  [
+   49,
+   "dÈmocratie",
+   "démocratie",
+   "encoding"
+  ],
+  [
+   50,
+   "dÈmocratie",
+   "démocratie",
+   "encoding"
+  ],
+  [
+   98,
+   "libÈration",
+   "libération",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "039b000ca54a675753d46c5af09ee8384dd112d7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 303,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2282,
+  "words_out": 2279,
+  "retention": 0.9987,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   89,
+   118,
+   132,
+   122,
+   190,
+   194,
+   103,
+   76,
+   182,
+   80,
+   154,
+   145,
+   68,
+   90,
+   106,
+   85,
+   85,
+   92,
+   92,
+   76
+  ],
+  "warnings": []
+ }
+}

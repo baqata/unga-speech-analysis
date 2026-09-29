@@ -1,0 +1,49 @@
+{
+ "id": "SWZ_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  39,
+  60,
+  76,
+  98,
+  119,
+  127,
+  140,
+  152,
+  165
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb847addaff237755fc4df8c2c451dd67bf2a14e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1370,
+  "words_out": 1368,
+  "retention": 0.9985,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   94,
+   223,
+   167,
+   112,
+   175,
+   163,
+   59,
+   115,
+   107,
+   103,
+   50
+  ],
+  "warnings": []
+ }
+}

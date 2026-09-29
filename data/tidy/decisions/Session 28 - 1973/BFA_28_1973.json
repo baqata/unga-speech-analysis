@@ -1,0 +1,186 @@
+{
+ "id": "BFA_28_1973",
+ "drop": [
+  [
+   95,
+   95,
+   "noise"
+  ],
+  [
+   140,
+   140,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  13,
+  18,
+  21,
+  25,
+  33,
+  35,
+  41,
+  44,
+  51,
+  54,
+  64,
+  68,
+  72,
+  74,
+  81,
+  90,
+  94,
+  100,
+  103,
+  107,
+  111,
+  116,
+  120,
+  124,
+  132,
+  141,
+  149,
+  158,
+  163,
+  168
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   ".May",
+   "May",
+   "ocr"
+  ],
+  [
+   71,
+   ".diplomatic",
+   "diplomatic",
+   "ocr"
+  ],
+  [
+   81,
+   "die Helsinki",
+   "the Helsinki",
+   "ocr"
+  ],
+  [
+   105,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "Rows",
+   "flows",
+   "ocr"
+  ],
+  [
+   110,
+   "goals1",
+   "goals",
+   "ocr"
+  ],
+  [
+   120,
+   "s-'stem",
+   "system",
+   "ocr"
+  ],
+  [
+   123,
+   "formulated..",
+   "formulated.",
+   "ocr"
+  ],
+  [
+   134,
+   " [FAOJ",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "piece.\"1o",
+   "piece.\"",
+   "ocr"
+  ],
+  [
+   151,
+   "of' their",
+   "of their",
+   "ocr"
+  ],
+  [
+   152,
+   "Sudano- Sahelian",
+   "Sudano-Sahelian",
+   "spacing"
+  ],
+  [
+   161,
+   "1 shall",
+   "I shall",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b824fe54ef9b28d3400f4792b8327b802132f8f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 55
+  },
+  "words_in": 5371,
+  "words_out": 5323,
+  "retention": 0.9911,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   195,
+   249,
+   216,
+   163,
+   130,
+   259,
+   81,
+   142,
+   96,
+   175,
+   106,
+   244,
+   118,
+   112,
+   76,
+   216,
+   175,
+   133,
+   174,
+   126,
+   147,
+   114,
+   166,
+   148,
+   141,
+   255,
+   211,
+   259,
+   234,
+   152,
+   197,
+   113
+  ],
+  "warnings": []
+ }
+}

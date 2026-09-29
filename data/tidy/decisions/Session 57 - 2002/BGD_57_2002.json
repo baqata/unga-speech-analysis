@@ -1,0 +1,55 @@
+{
+ "id": "BGD_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  23,
+  37,
+  51,
+  63,
+  81,
+  102,
+  124,
+  152,
+  168,
+  182,
+  199
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "da56f39cc09db3220baecc93fddb4856405043e5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1673,
+  "words_out": 1669,
+  "retention": 0.9976,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   102,
+   84,
+   114,
+   103,
+   101,
+   146,
+   160,
+   143,
+   213,
+   113,
+   107,
+   140,
+   143
+  ],
+  "warnings": []
+ }
+}

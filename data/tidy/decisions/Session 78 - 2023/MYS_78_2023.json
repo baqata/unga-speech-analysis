@@ -1,0 +1,124 @@
+{
+ "id": "MYS_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  23,
+  28,
+  36,
+  43,
+  47,
+  51,
+  59,
+  64,
+  70,
+  75
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "ago. the",
+   "ago, the",
+   "ocr"
+  ],
+  [
+   16,
+   "crisis.",
+   "crisis,",
+   "ocr"
+  ],
+  [
+   28,
+   "Afghanistan.",
+   "Afghanistan,",
+   "ocr"
+  ],
+  [
+   31,
+   "part.",
+   "part,",
+   "ocr"
+  ],
+  [
+   32,
+   "people-to- people",
+   "people-to-people",
+   "hyphen"
+  ],
+  [
+   40,
+   "end.",
+   "end,",
+   "ocr"
+  ],
+  [
+   47,
+   "low- carbon",
+   "low-carbon",
+   "hyphen"
+  ],
+  [
+   51,
+   "or. worse",
+   "or, worse",
+   "ocr"
+  ],
+  [
+   65,
+   "intercultural. inter-civilizational",
+   "intercultural, inter-civilizational",
+   "ocr"
+  ],
+  [
+   70,
+   "year.",
+   "year,",
+   "ocr"
+  ],
+  [
+   71,
+   "Madani. a",
+   "Madani, a",
+   "ocr"
+  ],
+  [
+   73,
+   "20. the Group of 77. the",
+   "20, the Group of 77, the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e6d26cdb4131ae34a072c89712c6eec0734ac11",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1653,
+  "words_out": 1651,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   158,
+   154,
+   200,
+   91,
+   129,
+   171,
+   66,
+   115,
+   153,
+   95,
+   111,
+   154,
+   54
+  ],
+  "warnings": []
+ }
+}

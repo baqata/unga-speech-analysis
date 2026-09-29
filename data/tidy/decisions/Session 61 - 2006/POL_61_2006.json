@@ -1,0 +1,51 @@
+{
+ "id": "POL_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  36,
+  51,
+  73,
+  94,
+  113,
+  134,
+  156,
+  176,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ebda79b25a8270993d6545e787c895a94cc2b55",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1693,
+  "words_out": 1692,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   112,
+   155,
+   124,
+   175,
+   169,
+   155,
+   164,
+   176,
+   162,
+   140,
+   160
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "LIE_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  32,
+  42,
+  60,
+  67,
+  87,
+  100,
+  121,
+  134,
+  148,
+  163,
+  173,
+  189,
+  201,
+  217
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "predecessor.",
+   "predecessor,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad896b3b4419dda0033127636fc3410abf7ebbdf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 231,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2508,
+  "words_out": 2506,
+  "retention": 0.9992,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   171,
+   164,
+   112,
+   206,
+   74,
+   227,
+   130,
+   237,
+   148,
+   129,
+   142,
+   113,
+   187,
+   129,
+   180,
+   157
+  ],
+  "warnings": []
+ }
+}

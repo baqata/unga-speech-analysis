@@ -1,0 +1,135 @@
+{
+ "id": "ZWE_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  21,
+  27,
+  30,
+  33,
+  36,
+  40,
+  45,
+  50,
+  56,
+  63,
+  65,
+  70,
+  72,
+  73,
+  77,
+  81,
+  83,
+  90,
+  94,
+  100,
+  102,
+  108,
+  113,
+  120
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   50,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   52,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   54,
+   "predict-able",
+   "predictable",
+   "hyphen"
+  ],
+  [
+   75,
+   "with and opportunity",
+   "with an opportunity",
+   "ocr"
+  ],
+  [
+   101,
+   "balance- of-payments",
+   "balance-of-payments",
+   "hyphen"
+  ],
+  [
+   101,
+   "countries, in fact,",
+   "countries. In fact,",
+   "ocr"
+  ],
+  [
+   106,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ],
+  [
+   109,
+   "sub- Saharan",
+   "sub-Saharan",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f93d94146ca7d56288d9c8f9d181b1714830b18",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3846,
+  "words_out": 3841,
+  "retention": 0.9987,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   141,
+   197,
+   155,
+   159,
+   165,
+   66,
+   114,
+   106,
+   197,
+   198,
+   98,
+   211,
+   163,
+   80,
+   183,
+   208,
+   52,
+   149,
+   151,
+   82,
+   166,
+   105,
+   162,
+   99,
+   101,
+   103,
+   136,
+   94
+  ],
+  "warnings": []
+ }
+}

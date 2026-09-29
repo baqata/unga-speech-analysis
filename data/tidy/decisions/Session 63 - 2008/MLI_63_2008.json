@@ -1,0 +1,50 @@
+{
+ "id": "MLI_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  46,
+  58,
+  84,
+  112,
+  124,
+  145,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90671246712337663b7aa30fd9320018698bd536",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2,
+   "job_number": 2
+  },
+  "words_in": 1454,
+  "words_out": 1451,
+  "retention": 0.9979,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   57,
+   140,
+   163,
+   89,
+   195,
+   215,
+   86,
+   179,
+   188,
+   139
+  ],
+  "warnings": []
+ }
+}

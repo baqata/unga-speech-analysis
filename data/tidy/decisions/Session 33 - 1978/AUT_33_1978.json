@@ -1,0 +1,123 @@
+{
+ "id": "AUT_33_1978",
+ "drop": [
+  [
+   136,
+   136,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  18,
+  21,
+  26,
+  32,
+  38,
+  41,
+  48,
+  54,
+  57,
+  66,
+  69,
+  73,
+  76,
+  80,
+  86,
+  93,
+  95,
+  101,
+  110,
+  113,
+  121,
+  126,
+  130,
+  135,
+  141,
+  147
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   31,
+   " filth meeting, paras. 106-119]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "!t seems",
+   "It seems",
+   "ocr"
+  ],
+  [
+   40,
+   "crossroad?",
+   "crossroads",
+   "ocr"
+  ],
+  [
+   139,
+   "are bull awaiting",
+   "are still awaiting",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 136 is a stray footnote.",
+ "unitizer_version": 1,
+ "sha1": "6a6c03f4063730a294c214f29ebf76d980bd8bbc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3495,
+  "words_out": 3471,
+  "retention": 0.9931,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   113,
+   79,
+   108,
+   71,
+   61,
+   91,
+   133,
+   159,
+   92,
+   91,
+   133,
+   82,
+   198,
+   104,
+   92,
+   86,
+   101,
+   127,
+   179,
+   69,
+   112,
+   187,
+   72,
+   213,
+   102,
+   110,
+   110,
+   117,
+   183,
+   96
+  ],
+  "warnings": []
+ }
+}

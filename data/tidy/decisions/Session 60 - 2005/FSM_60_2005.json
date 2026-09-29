@@ -1,0 +1,51 @@
+{
+ "id": "FSM_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  24,
+  48,
+  76,
+  99,
+  110,
+  135,
+  146,
+  156,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e262afac76ae86b4979ca77fc2c350adc0267a49",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1428,
+  "words_out": 1427,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   70,
+   109,
+   206,
+   223,
+   195,
+   80,
+   206,
+   89,
+   78,
+   111,
+   60
+  ],
+  "warnings": []
+ }
+}

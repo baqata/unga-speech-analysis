@@ -1,0 +1,91 @@
+{
+ "id": "KHM_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  12,
+  15,
+  18,
+  21,
+  22,
+  24,
+  26,
+  28,
+  31,
+  33,
+  35,
+  39,
+  41,
+  46,
+  49,
+  51,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "tension,",
+   "tension.",
+   "ocr"
+  ],
+  [
+   42,
+   "increasing-",
+   "increasing.",
+   "ocr"
+  ],
+  [
+   46,
+   "deep Satisfaction",
+   "deep satisfaction",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7e9eed5bd7489b5ae88989912806ac02f9b6e2d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 30
+  },
+  "words_in": 2168,
+  "words_out": 2165,
+  "retention": 0.9986,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   132,
+   100,
+   63,
+   133,
+   113,
+   82,
+   60,
+   66,
+   141,
+   71,
+   124,
+   147,
+   66,
+   74,
+   153,
+   78,
+   153,
+   91,
+   84,
+   87,
+   147
+  ],
+  "warnings": []
+ }
+}

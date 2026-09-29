@@ -1,0 +1,90 @@
+{
+ "id": "HRV_76_2021",
+ "drop": [
+  [
+   73,
+   74,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  16,
+  18,
+  23,
+  27,
+  31,
+  38,
+  46,
+  49,
+  54,
+  58,
+  62,
+  69,
+  75,
+  80,
+  83,
+  88,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "South- Eastern",
+   "South-Eastern",
+   "spacing"
+  ],
+  [
+   76,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "787a190b2537b7d59f7730614cc94b87f895a839",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 2157,
+  "words_out": 2146,
+  "retention": 0.9949,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   78,
+   141,
+   93,
+   62,
+   113,
+   78,
+   115,
+   161,
+   124,
+   102,
+   102,
+   80,
+   62,
+   130,
+   146,
+   125,
+   93,
+   109,
+   92,
+   140
+  ],
+  "warnings": [
+   "procedural drop [73,74] in the middle of the speech"
+  ]
+ }
+}

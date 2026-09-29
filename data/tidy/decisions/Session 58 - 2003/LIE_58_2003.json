@@ -1,0 +1,56 @@
+{
+ "id": "LIE_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  41,
+  50,
+  70,
+  83,
+  92,
+  112,
+  126,
+  135,
+  143
+ ],
+ "cer": [],
+ "fix": [
+  [
+   28,
+   "d''tre",
+   "d'être",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db1902fe04e309e3f446783e4e55ad32f596c981",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1292,
+  "words_out": 1291,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   147,
+   203,
+   68,
+   169,
+   110,
+   66,
+   160,
+   122,
+   74,
+   74,
+   98
+  ],
+  "warnings": []
+ }
+}

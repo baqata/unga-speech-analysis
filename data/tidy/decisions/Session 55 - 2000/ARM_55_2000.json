@@ -1,0 +1,61 @@
+{
+ "id": "ARM_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  33,
+  48,
+  72,
+  84,
+  100,
+  115,
+  131,
+  155,
+  173,
+  187,
+  217,
+  225,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52a58f590e17244fcd20d15d631d56b0fe48d279",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 243,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1893,
+  "words_out": 1892,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   65,
+   114,
+   96,
+   109,
+   178,
+   96,
+   116,
+   116,
+   128,
+   196,
+   138,
+   111,
+   233,
+   62,
+   116,
+   18
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "LTU_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  42,
+  58,
+  73,
+  87,
+  100,
+  113
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2e0edd413eb83098a8a1257bfb57d1dcb9366d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 987,
+  "words_out": 986,
+  "retention": 0.999,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   145,
+   190,
+   129,
+   103,
+   100,
+   102,
+   91,
+   126
+  ],
+  "warnings": []
+ }
+}

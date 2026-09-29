@@ -1,0 +1,106 @@
+{
+ "id": "MNG_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  10,
+  12,
+  15,
+  18,
+  22,
+  26,
+  28,
+  33,
+  37,
+  40,
+  43,
+  49,
+  54,
+  56,
+  60,
+  62,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   19,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   25,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   12,
+   " (resolution 60/16, fifth preambular paragraph)",
+   "",
+   "label"
+  ],
+  [
+   13,
+   " {ibid., sixth preambular paragraph)",
+   "",
+   "label"
+  ],
+  [
+   14,
+   " {ibid., seventh preambular paragraph)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "476a0fb6bb4be8337a7cb4bebab01f8065e17a9b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2476,
+  "words_out": 2457,
+  "retention": 0.9923,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   36,
+   162,
+   215,
+   88,
+   136,
+   112,
+   91,
+   82,
+   147,
+   74,
+   186,
+   139,
+   110,
+   98,
+   169,
+   122,
+   66,
+   128,
+   64,
+   179,
+   53
+  ],
+  "warnings": []
+ }
+}

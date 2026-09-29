@@ -1,0 +1,80 @@
+{
+ "id": "POL_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  14,
+  20,
+  24,
+  30,
+  37,
+  43,
+  49,
+  58,
+  63,
+  73,
+  79,
+  87,
+  95,
+  102,
+  105,
+  112
+ ],
+ "cer": [],
+ "fix": [
+  [
+   24,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   33,
+   "Wo are now",
+   "We are now",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "916145a9d186cc96c33efcfaaf9109e3c4098706",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3025,
+  "words_out": 3024,
+  "retention": 0.9997,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   222,
+   131,
+   118,
+   90,
+   149,
+   76,
+   185,
+   112,
+   163,
+   146,
+   217,
+   109,
+   275,
+   119,
+   190,
+   211,
+   154,
+   69,
+   197,
+   91
+  ],
+  "warnings": []
+ }
+}

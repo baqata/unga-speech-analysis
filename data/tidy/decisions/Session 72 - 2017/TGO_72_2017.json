@@ -1,0 +1,88 @@
+{
+ "id": "TGO_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  14,
+  17,
+  20,
+  23,
+  26,
+  30,
+  33,
+  36,
+  39,
+  42,
+  47,
+  52,
+  56,
+  59,
+  65,
+  67,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "public- school",
+   "public-school",
+   "hyphen"
+  ],
+  [
+   35,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   73,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6ab41ad4c34ea752fc148ea20457187ea448fcf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2506,
+  "words_out": 2503,
+  "retention": 0.9988,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   166,
+   124,
+   69,
+   91,
+   88,
+   108,
+   118,
+   132,
+   123,
+   77,
+   91,
+   82,
+   152,
+   181,
+   213,
+   185,
+   74,
+   139,
+   76,
+   174,
+   40
+  ],
+  "warnings": []
+ }
+}

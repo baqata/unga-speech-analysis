@@ -1,0 +1,133 @@
+{
+ "id": "BEL_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  12,
+  15,
+  18,
+  23,
+  28,
+  31,
+  39,
+  43,
+  47,
+  51,
+  54,
+  58,
+  65,
+  69,
+  76,
+  79,
+  82,
+  85,
+  89,
+  95
+ ],
+ "cer": [
+  0,
+  2,
+  9
+ ],
+ "fix": [
+  [
+   1,
+   " [A/9601 and Add.I]",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "peace- loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   28,
+   " [ACP]",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "resulting*",
+   "resulting,",
+   "ocr"
+  ],
+  [
+   42,
+   " {resolution 3202 (S-VI), para. X 2]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "1 would",
+   "I would",
+   "ocr"
+  ],
+  [
+   73,
+   "[Ibid., para. 105.]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   78,
+   " [Ibid., para. 109. ]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2f81fc0b9fc18cc745ff9204bbdc5ad8675fd48",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 34
+  },
+  "words_in": 2934,
+  "words_out": 2911,
+  "retention": 0.9922,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   89,
+   206,
+   91,
+   76,
+   70,
+   114,
+   125,
+   87,
+   183,
+   175,
+   128,
+   141,
+   122,
+   133,
+   189,
+   141,
+   175,
+   92,
+   105,
+   96,
+   92,
+   176,
+   105
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "BDI_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  26,
+  39,
+  54,
+  72,
+  90,
+  101,
+  126,
+  148,
+  165,
+  180,
+  201,
+  225,
+  250,
+  274,
+  303,
+  319
+ ],
+ "cer": [
+  0,
+  17
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fbd10fc99d5b941c74dcf00223fd541d05ce26a2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 332,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2597,
+  "words_out": 2594,
+  "retention": 0.9988,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   131,
+   75,
+   106,
+   124,
+   127,
+   137,
+   83,
+   207,
+   167,
+   135,
+   116,
+   161,
+   187,
+   197,
+   196,
+   224,
+   119,
+   102
+  ],
+  "warnings": []
+ }
+}

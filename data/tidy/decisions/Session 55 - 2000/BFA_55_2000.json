@@ -1,0 +1,51 @@
+{
+ "id": "BFA_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  40,
+  52,
+  78,
+  102,
+  118,
+  139,
+  156,
+  180,
+  195
+ ],
+ "cer": [
+  22
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "242d763b65455367bb74feadc8be1004cc6098e2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1577,
+  "words_out": 1576,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   178,
+   136,
+   95,
+   219,
+   181,
+   126,
+   173,
+   134,
+   170,
+   112,
+   52
+  ],
+  "warnings": []
+ }
+}

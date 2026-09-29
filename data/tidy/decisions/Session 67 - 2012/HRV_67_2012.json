@@ -1,0 +1,90 @@
+{
+ "id": "HRV_67_2012",
+ "drop": [
+  [
+   233,
+   280,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  19,
+  35,
+  53,
+  64,
+  75,
+  93,
+  111,
+  122,
+  145,
+  163,
+  174,
+  190,
+  207,
+  217,
+  286,
+  302,
+  310,
+  319,
+  328
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   139,
+   "f lows",
+   "flows",
+   "split_word"
+  ],
+  [
+   232,
+   "of human rights at the universal level remains one of",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 232-280 repeat units 184-232 word for word; the repetition is removed.",
+ "unitizer_version": 1,
+ "sha1": "779a16ef98aaaed82da75097d5be89e90d2969e2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 337,
+  "units_dropped": {
+   "repeat": 48
+  },
+  "prestrip": {},
+  "words_in": 2667,
+  "words_out": 2289,
+  "retention": 0.8583,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   23,
+   123,
+   120,
+   140,
+   91,
+   101,
+   141,
+   146,
+   85,
+   202,
+   136,
+   79,
+   125,
+   133,
+   72,
+   152,
+   132,
+   66,
+   69,
+   76,
+   77
+  ],
+  "warnings": []
+ }
+}

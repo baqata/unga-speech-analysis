@@ -1,0 +1,53 @@
+{
+ "id": "COD_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  25,
+  35,
+  55,
+  67,
+  79,
+  94,
+  107
+ ],
+ "cer": [
+  0,
+  107
+ ],
+ "fix": [
+  [
+   12,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d5f83926adb79de8156a3960c5174dfbd561d671",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 950,
+  "words_out": 948,
+  "retention": 0.9979,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   69,
+   110,
+   84,
+   169,
+   109,
+   91,
+   127,
+   112,
+   77
+  ],
+  "warnings": []
+ }
+}

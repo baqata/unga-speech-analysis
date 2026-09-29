@@ -1,0 +1,76 @@
+{
+ "id": "PRK_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  18,
+  41,
+  55,
+  75,
+  89,
+  102,
+  120,
+  130,
+  143,
+  155,
+  169,
+  179,
+  194,
+  210,
+  231,
+  240
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   67,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ],
+  [
+   206,
+   "stif le",
+   "stifle",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "969b0c601656afa1ad64eb3e3c4494c75565fa52",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2032,
+  "words_out": 2028,
+  "retention": 0.998,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   30,
+   120,
+   200,
+   109,
+   160,
+   106,
+   112,
+   135,
+   73,
+   117,
+   99,
+   115,
+   88,
+   125,
+   142,
+   166,
+   66,
+   65
+  ],
+  "warnings": []
+ }
+}

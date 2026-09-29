@@ -1,0 +1,191 @@
+{
+ "id": "ECU_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  6,
+  9,
+  13,
+  18,
+  20,
+  23,
+  25,
+  28,
+  35,
+  38,
+  42,
+  45,
+  47,
+  50,
+  53,
+  57,
+  58,
+  59,
+  60,
+  66,
+  68,
+  71,
+  72,
+  75,
+  76,
+  77,
+  80,
+  82,
+  84,
+  87,
+  91,
+  92,
+  94,
+  97,
+  101,
+  103
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   15,
+   "more that $334",
+   "more than $334",
+   "ocr"
+  ],
+  [
+   21,
+   "Atomic Club .",
+   "Atomic Club.",
+   "spacing"
+  ],
+  [
+   25,
+   "expenditures .",
+   "expenditures.",
+   "spacing"
+  ],
+  [
+   34,
+   "latter- being",
+   "latter being",
+   "ocr"
+  ],
+  [
+   35,
+   "1952; This",
+   "1952. This",
+   "ocr"
+  ],
+  [
+   37,
+   "well- known",
+   "well-known",
+   "hyphen"
+  ],
+  [
+   58,
+   "Washington ,",
+   "Washington,",
+   "spacing"
+  ],
+  [
+   64,
+   "be— violation",
+   "be—violation",
+   "spacing"
+  ],
+  [
+   64,
+   "country' concerned",
+   "country concerned",
+   "ocr"
+  ],
+  [
+   66,
+   "must not. therefore,",
+   "must not, therefore,",
+   "ocr"
+  ],
+  [
+   88,
+   "it's action",
+   "its action",
+   "ocr"
+  ],
+  [
+   93,
+   "exercise- of",
+   "exercise of",
+   "ocr"
+  ],
+  [
+   95,
+   "region is the very moment",
+   "region at the very moment",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5d0f9138ef96d5fa3ef4c84456bd92f92fcd7b09",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 50
+  },
+  "words_in": 4178,
+  "words_out": 4173,
+  "retention": 0.9988,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   52,
+   29,
+   44,
+   90,
+   184,
+   212,
+   188,
+   75,
+   110,
+   70,
+   106,
+   191,
+   187,
+   137,
+   111,
+   60,
+   73,
+   84,
+   123,
+   101,
+   69,
+   43,
+   183,
+   105,
+   85,
+   67,
+   123,
+   53,
+   80,
+   111,
+   113,
+   95,
+   89,
+   137,
+   46,
+   69,
+   160,
+   144,
+   63,
+   111
+  ],
+  "warnings": []
+ }
+}

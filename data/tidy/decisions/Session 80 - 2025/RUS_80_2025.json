@@ -1,0 +1,99 @@
+{
+ "id": "RUS_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   121,
+   121,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  8,
+  12,
+  17,
+  26,
+  31,
+  35,
+  41,
+  45,
+  51,
+  56,
+  65,
+  72,
+  81,
+  85,
+  94,
+  103,
+  108,
+  112,
+  120
+ ],
+ "cer": [
+  120
+ ],
+ "fix": [
+  [
+   1,
+   "FEDERATION FOREIGN MINISTER LAVROV, ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "FOREIGN MINISTER LAVROV, MINISTER FOR FOREIGN AFFAIRS OF THE RUSSIAN ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "MINISTER FOR FOREIGN AFFAIRS OF THE RUSSIAN FEDERATION ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 1 began with a repeated on-screen caption naming the speaker, removed with label fixes applied in order.",
+ "unitizer_version": 1,
+ "sha1": "33343015bbcfdf2bf660a8a5340d00b66806fbba",
+ "layout": "single",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2994,
+  "words_out": 2942,
+  "retention": 0.9826,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   162,
+   85,
+   144,
+   184,
+   86,
+   127,
+   150,
+   110,
+   183,
+   92,
+   220,
+   205,
+   208,
+   111,
+   159,
+   229,
+   140,
+   135,
+   207,
+   5
+  ],
+  "warnings": []
+ }
+}

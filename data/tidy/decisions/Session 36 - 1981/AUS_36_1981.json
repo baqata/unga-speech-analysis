@@ -1,0 +1,123 @@
+{
+ "id": "AUS_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  11,
+  15,
+  21,
+  26,
+  33,
+  38,
+  43,
+  48,
+  53,
+  58,
+  66,
+  68,
+  70,
+  72,
+  76,
+  80,
+  84,
+  87,
+  93,
+  98,
+  107,
+  110,
+  116,
+  120,
+  125,
+  128,
+  133,
+  137,
+  140,
+  144,
+  150
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "Assembly.This",
+   "Assembly. This",
+   "spacing"
+  ],
+  [
+   56,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   57,
+   "Common Bind",
+   "Common Fund",
+   "ocr"
+  ],
+  [
+   44,
+   "pie served",
+   "preserved",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b5cc908651988c1c826fc55a6af010230249768",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3493,
+  "words_out": 3493,
+  "retention": 1.0,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   75,
+   44,
+   128,
+   76,
+   106,
+   106,
+   173,
+   90,
+   122,
+   171,
+   119,
+   110,
+   166,
+   69,
+   63,
+   60,
+   109,
+   85,
+   128,
+   77,
+   138,
+   86,
+   203,
+   77,
+   131,
+   64,
+   110,
+   81,
+   96,
+   69,
+   71,
+   102,
+   136,
+   52
+  ],
+  "warnings": []
+ }
+}

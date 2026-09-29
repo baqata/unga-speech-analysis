@@ -1,0 +1,116 @@
+{
+ "id": "URY_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  11,
+  16,
+  19,
+  22,
+  25,
+  31,
+  34,
+  39,
+  41,
+  46,
+  53,
+  55,
+  59,
+  60,
+  62,
+  66,
+  68,
+  71,
+  76,
+  78
+ ],
+ "cer": [
+  78
+ ],
+ "fix": [
+  [
+   3,
+   "restored? all",
+   "restored, all",
+   "ocr"
+  ],
+  [
+   14,
+   "(A/40/PV.6, p. 12)",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "must, be",
+   "must be",
+   "ocr"
+  ],
+  [
+   39,
+   "environment-,",
+   "environment,",
+   "ocr"
+  ],
+  [
+   61,
+   "1 am referring",
+   "I am referring",
+   "ocr"
+  ],
+  [
+   62,
+   "unheeded, First",
+   "unheeded. First",
+   "ocr"
+  ],
+  [
+   71,
+   "the Resulting",
+   "the resulting",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "286ab90e2cc08bf040715552e8982be50e6c9456",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2710,
+  "words_out": 2707,
+  "retention": 0.9989,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   139,
+   139,
+   138,
+   122,
+   82,
+   96,
+   66,
+   189,
+   136,
+   172,
+   91,
+   183,
+   145,
+   116,
+   102,
+   113,
+   100,
+   136,
+   68,
+   73,
+   148,
+   81,
+   72
+  ],
+  "warnings": []
+ }
+}

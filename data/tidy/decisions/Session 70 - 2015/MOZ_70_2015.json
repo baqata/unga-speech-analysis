@@ -1,0 +1,66 @@
+{
+ "id": "MOZ_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  18,
+  24,
+  29,
+  35,
+  42,
+  45,
+  49,
+  55,
+  58,
+  64,
+  72,
+  77,
+  80,
+  85
+ ],
+ "cer": [],
+ "fix": [
+  [
+   28,
+   "infant- mortality",
+   "infant-mortality",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5efd0565f070ad5dae00877338a66f6e989fbcd7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1901,
+  "words_out": 1895,
+  "retention": 0.9968,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   91,
+   139,
+   128,
+   163,
+   113,
+   101,
+   182,
+   67,
+   137,
+   138,
+   79,
+   105,
+   145,
+   113,
+   76,
+   76,
+   42
+  ],
+  "warnings": []
+ }
+}

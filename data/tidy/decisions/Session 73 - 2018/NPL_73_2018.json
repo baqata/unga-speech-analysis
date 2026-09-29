@@ -1,0 +1,94 @@
+{
+ "id": "NPL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  16,
+  25,
+  32,
+  41,
+  50,
+  54,
+  59,
+  66,
+  78,
+  83,
+  90,
+  100,
+  107,
+  113,
+  124,
+  129,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "foreign- policy",
+   "foreign-policy",
+   "hyphen"
+  ],
+  [
+   119,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ],
+  [
+   122,
+   "conflict- resolution",
+   "conflict-resolution",
+   "hyphen"
+  ],
+  [
+   133,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8db5a61bf591402b8e395e0fb89800f2a09ab117",
+ "layout": "lines",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2635,
+  "words_out": 2629,
+  "retention": 0.9977,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   154,
+   124,
+   100,
+   159,
+   121,
+   187,
+   128,
+   91,
+   87,
+   136,
+   193,
+   106,
+   110,
+   176,
+   122,
+   95,
+   173,
+   107,
+   147,
+   113
+  ],
+  "warnings": []
+ }
+}

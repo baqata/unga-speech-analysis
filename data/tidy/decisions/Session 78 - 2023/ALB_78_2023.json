@@ -1,0 +1,152 @@
+{
+ "id": "ALB_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  17,
+  26,
+  34,
+  43,
+  50,
+  55,
+  61,
+  69,
+  73,
+  80,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "1955. when",
+   "1955, when",
+   "ocr"
+  ],
+  [
+   7,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   9,
+   "Currently.",
+   "Currently,",
+   "ocr"
+  ],
+  [
+   11,
+   "Balkans.",
+   "Balkans,",
+   "ocr"
+  ],
+  [
+   17,
+   "history.",
+   "history,",
+   "ocr"
+  ],
+  [
+   22,
+   "context.",
+   "context,",
+   "ocr"
+  ],
+  [
+   24,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   30,
+   "However.",
+   "However,",
+   "ocr"
+  ],
+  [
+   40,
+   "size.",
+   "size,",
+   "ocr"
+  ],
+  [
+   49,
+   "war. which",
+   "war, which",
+   "ocr"
+  ],
+  [
+   55,
+   "2030. in",
+   "2030, in",
+   "ocr"
+  ],
+  [
+   57,
+   "SDGs. mainstreaming",
+   "SDGs, mainstreaming",
+   "ocr"
+  ],
+  [
+   76,
+   "is. above all. a",
+   "is, above all, a",
+   "ocr"
+  ],
+  [
+   81,
+   "State.",
+   "State,",
+   "ocr"
+  ],
+  [
+   87,
+   "1912. my",
+   "1912, my",
+   "ocr"
+  ],
+  [
+   88,
+   "Currently.",
+   "Currently,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8340c4d22940b576ce4c5e9b7d09bbaef938c37",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1700,
+  "words_out": 1700,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   37,
+   150,
+   129,
+   113,
+   119,
+   140,
+   161,
+   102,
+   134,
+   121,
+   70,
+   105,
+   141,
+   178
+  ],
+  "warnings": []
+ }
+}

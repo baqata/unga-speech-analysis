@@ -1,0 +1,68 @@
+{
+ "id": "VEN_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  34,
+  52,
+  76,
+  96,
+  112,
+  117,
+  125,
+  143,
+  161,
+  175,
+  187,
+  198,
+  214
+ ],
+ "cer": [
+  0,
+  9,
+  112
+ ],
+ "fix": [
+  [
+   41,
+   "Fr'as",
+   "Frías",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "48355f93afd492846ea0170658c72bfc6fb55575",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 232,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1858,
+  "words_out": 1857,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   81,
+   212,
+   149,
+   185,
+   145,
+   129,
+   38,
+   71,
+   144,
+   144,
+   123,
+   92,
+   87,
+   120,
+   137
+  ],
+  "warnings": []
+ }
+}

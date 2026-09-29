@@ -1,0 +1,114 @@
+{
+ "id": "UGA_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  13,
+  19,
+  29,
+  39,
+  48,
+  57,
+  62,
+  68,
+  76,
+  80,
+  85,
+  91,
+  98,
+  103,
+  110,
+  116,
+  119,
+  126,
+  131,
+  135,
+  139,
+  145,
+  151
+ ],
+ "cer": [
+  0,
+  3,
+  57
+ ],
+ "fix": [
+  [
+   20,
+   "we do mot see",
+   "we do not see",
+   "ocr"
+  ],
+  [
+   21,
+   "can toe scrapped",
+   "can be scrapped",
+   "ocr"
+  ],
+  [
+   70,
+   "That in why",
+   "That is why",
+   "ocr"
+  ],
+  [
+   122,
+   "international' life",
+   "international life",
+   "ocr"
+  ],
+  [
+   89,
+   " [210 (1965)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e512cd51ec0da369f4674981aa33eeac27c68156",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 3536,
+  "words_out": 3492,
+  "retention": 0.9876,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   58,
+   114,
+   134,
+   171,
+   162,
+   183,
+   189,
+   161,
+   94,
+   170,
+   194,
+   106,
+   118,
+   149,
+   160,
+   79,
+   185,
+   140,
+   55,
+   132,
+   105,
+   90,
+   100,
+   131,
+   154,
+   158
+  ],
+  "warnings": []
+ }
+}

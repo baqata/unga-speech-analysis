@@ -1,0 +1,58 @@
+{
+ "id": "HTI_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  19,
+  24
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "he greatly",
+   "be greatly",
+   "ocr"
+  ],
+  [
+   12,
+   "account able",
+   "accountable",
+   "split_word"
+  ],
+  [
+   14,
+   "solutions,",
+   "solutions.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a20de979804ca17fb17f904101c58d174634925",
+ "layout": "lines",
+ "stats": {
+  "n_units": 25,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 9
+  },
+  "words_in": 873,
+  "words_out": 871,
+  "retention": 0.9977,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   156,
+   192,
+   196,
+   131,
+   133,
+   63
+  ],
+  "warnings": []
+ }
+}

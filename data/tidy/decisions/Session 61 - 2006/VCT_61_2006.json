@@ -1,0 +1,64 @@
+{
+ "id": "VCT_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  21,
+  37,
+  57,
+  72,
+  92,
+  101,
+  112,
+  123,
+  142,
+  158,
+  173,
+  187,
+  202,
+  215,
+  220
+ ],
+ "cer": [
+  0,
+  215
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08e4b9c84903346d2ff23756f4c5aa5ccca72f69",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 231,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1840,
+  "words_out": 1838,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   72,
+   105,
+   137,
+   153,
+   118,
+   150,
+   63,
+   79,
+   83,
+   156,
+   136,
+   123,
+   107,
+   113,
+   106,
+   42,
+   95
+  ],
+  "warnings": []
+ }
+}

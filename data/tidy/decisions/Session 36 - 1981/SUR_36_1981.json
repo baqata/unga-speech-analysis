@@ -1,0 +1,259 @@
+{
+ "id": "SUR_36_1981",
+ "drop": [
+  [
+   52,
+   52,
+   "noise"
+  ],
+  [
+   56,
+   56,
+   "noise"
+  ],
+  [
+   60,
+   60,
+   "noise"
+  ],
+  [
+   63,
+   63,
+   "noise"
+  ],
+  [
+   67,
+   67,
+   "noise"
+  ],
+  [
+   70,
+   70,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  6,
+  12,
+  14,
+  21,
+  26,
+  28,
+  33,
+  36,
+  38,
+  40,
+  42,
+  46,
+  49,
+  53,
+  57,
+  61,
+  64,
+  68,
+  71,
+  75,
+  81,
+  83,
+  88,
+  90,
+  95,
+  99,
+  103,
+  106,
+  108,
+  114,
+  117,
+  125,
+  128,
+  133,
+  137,
+  140,
+  143,
+  145,
+  148,
+  150,
+  154,
+  156,
+  157
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   7,
+   "sub regional",
+   "subregional",
+   "split_word"
+  ],
+  [
+   16,
+   "that arc based",
+   "that are based",
+   "ocr"
+  ],
+  [
+   22,
+   "peace and.security",
+   "peace and security",
+   "ocr"
+  ],
+  [
+   25,
+   "peace and .security",
+   "peace and security",
+   "ocr"
+  ],
+  [
+   41,
+   " [CARICOM]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "their c independent",
+   "their own independent",
+   "ocr"
+  ],
+  [
+   50,
+   "Is is indeed",
+   "It is indeed",
+   "ocr"
+  ],
+  [
+   75,
+   " [resolution S1012]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "but Upon",
+   "but upon",
+   "ocr"
+  ],
+  [
+   88,
+   "from, the",
+   "from the",
+   "ocr"
+  ],
+  [
+   92,
+   "favors • the",
+   "favors the",
+   "ocr"
+  ],
+  [
+   93,
+   "The .developing",
+   "The developing",
+   "ocr"
+  ],
+  [
+   97,
+   "a decline, in",
+   "a decline in",
+   "ocr"
+  ],
+  [
+   104,
+   "the \"relevant",
+   "the relevant",
+   "ocr"
+  ],
+  [
+   109,
+   "Commission.4 That",
+   "Commission. That",
+   "ocr"
+  ],
+  [
+   133,
+   "However;",
+   "However,",
+   "ocr"
+  ],
+  [
+   134,
+   "approach singe",
+   "approach since",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd94b4cff081545a36e71db07fd5ba93e5ec8c2a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 160,
+  "units_dropped": {
+   "noise": 6
+  },
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 4725,
+  "words_out": 4707,
+  "retention": 0.9962,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   80,
+   51,
+   35,
+   154,
+   69,
+   144,
+   125,
+   64,
+   131,
+   97,
+   75,
+   61,
+   76,
+   116,
+   109,
+   63,
+   82,
+   82,
+   65,
+   100,
+   78,
+   114,
+   130,
+   69,
+   118,
+   77,
+   160,
+   156,
+   161,
+   97,
+   76,
+   207,
+   69,
+   222,
+   81,
+   141,
+   118,
+   81,
+   66,
+   64,
+   114,
+   82,
+   166,
+   106,
+   81,
+   94
+  ],
+  "warnings": []
+ }
+}

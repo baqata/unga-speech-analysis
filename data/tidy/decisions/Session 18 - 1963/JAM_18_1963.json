@@ -1,0 +1,95 @@
+{
+ "id": "JAM_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  15,
+  18,
+  23,
+  25,
+  30,
+  38,
+  40,
+  43,
+  47,
+  52,
+  57,
+  61,
+  66,
+  71,
+  77,
+  83,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   ", Our country",
+   ". Our country",
+   "ocr"
+  ],
+  [
+   38,
+   " (1145th meeting)",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "countries,",
+   "countries.",
+   "ocr"
+  ],
+  [
+   67,
+   "axe parts",
+   "are parts",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a544d7a45173c058fdf77e0b6f2b377db39d3e0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 22
+  },
+  "words_in": 2662,
+  "words_out": 2657,
+  "retention": 0.9981,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   93,
+   144,
+   191,
+   110,
+   167,
+   92,
+   170,
+   216,
+   129,
+   85,
+   60,
+   139,
+   143,
+   142,
+   149,
+   119,
+   113,
+   215,
+   98,
+   82
+  ],
+  "warnings": []
+ }
+}

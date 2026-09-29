@@ -1,0 +1,72 @@
+{
+ "id": "TCD_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  30,
+  45,
+  53,
+  64,
+  73,
+  90,
+  111,
+  122,
+  137,
+  147,
+  158,
+  176,
+  188,
+  195
+ ],
+ "cer": [],
+ "fix": [
+  [
+   165,
+   "f led",
+   "fled",
+   "split_word"
+  ],
+  [
+   167,
+   "f loods",
+   "floods",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e41177bb276d8933ab0a5c61e1ecb4843b47797",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1731,
+  "words_out": 1727,
+  "retention": 0.9977,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   66,
+   80,
+   102,
+   122,
+   69,
+   81,
+   73,
+   143,
+   180,
+   92,
+   134,
+   82,
+   95,
+   161,
+   122,
+   59,
+   66
+  ],
+  "warnings": []
+ }
+}

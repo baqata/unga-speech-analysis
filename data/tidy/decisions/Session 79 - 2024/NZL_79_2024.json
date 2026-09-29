@@ -1,0 +1,47 @@
+{
+ "id": "NZL_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  14,
+  20,
+  28,
+  37,
+  46,
+  56,
+  64,
+  77
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 25 prints 'MDr.' before the Singaporean minister's name; left as printed.",
+ "unitizer_version": 1,
+ "sha1": "61ea845ccba4cfa3228649d30be406f7d14428c9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1727,
+  "words_out": 1726,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   151,
+   69,
+   80,
+   151,
+   192,
+   159,
+   153,
+   213,
+   164,
+   249,
+   145
+  ],
+  "warnings": []
+ }
+}

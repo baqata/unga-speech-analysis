@@ -1,0 +1,63 @@
+{
+ "id": "ALB_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  42,
+  55,
+  71,
+  79,
+  88,
+  99,
+  120,
+  133,
+  146,
+  163,
+  184,
+  205,
+  221,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b81494280f2a3b8042eccd4d5e6a38d9c59b0595",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1820,
+  "words_out": 1813,
+  "retention": 0.9962,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   82,
+   72,
+   152,
+   99,
+   118,
+   62,
+   68,
+   85,
+   157,
+   91,
+   106,
+   111,
+   160,
+   158,
+   139,
+   89,
+   64
+  ],
+  "warnings": []
+ }
+}

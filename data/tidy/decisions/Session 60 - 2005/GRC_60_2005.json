@@ -1,0 +1,55 @@
+{
+ "id": "GRC_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  31,
+  48,
+  61,
+  77,
+  88,
+  98,
+  111,
+  126,
+  145,
+  154,
+  166
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a5682a95794d0a508ca60f6ea3e5432a6ba204ac",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1330,
+  "words_out": 1327,
+  "retention": 0.9977,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   85,
+   136,
+   127,
+   102,
+   123,
+   86,
+   73,
+   102,
+   114,
+   147,
+   70,
+   95,
+   67
+  ],
+  "warnings": []
+ }
+}

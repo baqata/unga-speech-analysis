@@ -1,0 +1,69 @@
+{
+ "id": "IDN_80_2025",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   131,
+   131,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  7,
+  13,
+  23,
+  29,
+  36,
+  50,
+  59,
+  67,
+  80,
+  96,
+  103,
+  109,
+  121
+ ],
+ "cer": [
+  3,
+  121
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af6b84cbb166a13edd38b5c2a180721c56013019",
+ "layout": "single",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1873,
+  "words_out": 1817,
+  "retention": 0.9701,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   45,
+   139,
+   204,
+   75,
+   106,
+   175,
+   102,
+   116,
+   213,
+   162,
+   96,
+   204,
+   148,
+   32
+  ],
+  "warnings": []
+ }
+}

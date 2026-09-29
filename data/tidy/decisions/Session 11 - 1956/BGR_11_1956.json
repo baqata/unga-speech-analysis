@@ -1,0 +1,137 @@
+{
+ "id": "BGR_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  13,
+  17,
+  21,
+  25,
+  30,
+  31,
+  33,
+  43,
+  51,
+  56,
+  59,
+  67,
+  73,
+  76,
+  81,
+  84,
+  87,
+  92,
+  95,
+  99,
+  105,
+  107,
+  111,
+  118,
+  120,
+  124
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "polity",
+   "policy",
+   "ocr"
+  ],
+  [
+   24,
+   "It is dear",
+   "It is clear",
+   "ocr"
+  ],
+  [
+   24,
+   "net wanting",
+   "not wanting",
+   "ocr"
+  ],
+  [
+   27,
+   "fake",
+   "take",
+   "ocr"
+  ],
+  [
+   37,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   43,
+   "_",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "has came",
+   "has come",
+   "ocr"
+  ],
+  [
+   108,
+   "at is making",
+   "it is making",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66978beb9ee66a67b53607c2854865446b0fad7a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 41
+  },
+  "words_in": 4169,
+  "words_out": 4165,
+  "retention": 0.999,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   166,
+   220,
+   89,
+   95,
+   111,
+   99,
+   135,
+   151,
+   90,
+   70,
+   237,
+   152,
+   170,
+   125,
+   203,
+   234,
+   72,
+   204,
+   87,
+   105,
+   170,
+   78,
+   146,
+   213,
+   90,
+   158,
+   175,
+   81,
+   128,
+   111
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "CYP_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  19,
+  25,
+  28,
+  32,
+  34,
+  38,
+  43,
+  46,
+  48,
+  50,
+  58,
+  60,
+  62,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "thatmultilateralism",
+   "that multilateralism",
+   "merged_word"
+  ],
+  [
+   36,
+   "Crans- Montana",
+   "Crans-Montana",
+   "hyphen"
+  ],
+  [
+   46,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   59,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   61,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a689c6ae05f1d9d4a24b54725eb28c0407a5ff3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2309,
+  "words_out": 2306,
+  "retention": 0.9987,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   113,
+   97,
+   75,
+   74,
+   127,
+   157,
+   168,
+   121,
+   86,
+   146,
+   197,
+   121,
+   96,
+   63,
+   227,
+   123,
+   90,
+   147,
+   78
+  ],
+  "warnings": []
+ }
+}

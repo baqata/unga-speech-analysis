@@ -1,0 +1,148 @@
+{
+ "id": "DZA_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  25,
+  37,
+  48,
+  65,
+  76,
+  90,
+  113,
+  124,
+  136,
+  152,
+  168,
+  181,
+  198,
+  218,
+  245,
+  265,
+  282,
+  298,
+  309,
+  325,
+  344,
+  363,
+  377,
+  396,
+  416,
+  436,
+  450,
+  472,
+  483,
+  502
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   91,
+   "thePLO",
+   "the PLO",
+   "merged_word"
+  ],
+  [
+   189,
+   "to. the",
+   "to the",
+   "ocr"
+  ],
+  [
+   256,
+   "geo- strategic",
+   "geo-strategic",
+   "spacing"
+  ],
+  [
+   272,
+   "incompatiblewith",
+   "incompatible with",
+   "merged_word"
+  ],
+  [
+   305,
+   "ted ay",
+   "today",
+   "split_word"
+  ],
+  [
+   340,
+   "t^",
+   "to",
+   "ocr"
+  ],
+  [
+   362,
+   "productof",
+   "product of",
+   "merged_word"
+  ],
+  [
+   418,
+   "sub regional",
+   "sub-regional",
+   "spacing"
+  ],
+  [
+   419,
+   "good-neighbor-liness",
+   "good-neighborliness",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Source lines are lost or scrambled in places (units 131-134, 202, 346, 483-489); text kept as is.",
+ "unitizer_version": 1,
+ "sha1": "40bb43610d637141ad9dd311d56f587105c87dfd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 512,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3728,
+  "words_out": 3728,
+  "retention": 1.0,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   113,
+   67,
+   89,
+   81,
+   124,
+   82,
+   110,
+   167,
+   80,
+   93,
+   118,
+   116,
+   89,
+   129,
+   160,
+   192,
+   138,
+   127,
+   109,
+   83,
+   100,
+   134,
+   138,
+   104,
+   130,
+   139,
+   141,
+   105,
+   174,
+   79,
+   143,
+   74
+  ],
+  "warnings": []
+ }
+}

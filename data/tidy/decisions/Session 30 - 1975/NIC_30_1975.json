@@ -1,0 +1,163 @@
+{
+ "id": "NIC_30_1975",
+ "drop": [
+  [
+   35,
+   35,
+   "presider"
+  ],
+  [
+   58,
+   58,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  12,
+  14,
+  19,
+  22,
+  25,
+  27,
+  29,
+  31,
+  36,
+  41,
+  43,
+  46,
+  49,
+  52,
+  55,
+  61,
+  66,
+  71
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   20,
+   "jeing",
+   "being",
+   "ocr"
+  ],
+  [
+   23,
+   "i.me",
+   "time",
+   "ocr"
+  ],
+  [
+   23,
+   "initiative\"",
+   "initiatives",
+   "ocr"
+  ],
+  [
+   25,
+   "wa»",
+   "was",
+   "ocr"
+  ],
+  [
+   28,
+   "results.\"5",
+   "results.\"",
+   "ocr"
+  ],
+  [
+   28,
+   " [resolution 3362 (S-Vll)]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "DigitiZed by Dag HammarSkjold Library",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "th^ United",
+   "the United",
+   "ocr"
+  ],
+  [
+   30,
+   "juridical!",
+   "juridical",
+   "ocr"
+  ],
+  [
+   43,
+   " [A/C.IIL.708]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "dele-gation",
+   "delegation",
+   "hyphen"
+  ],
+  [
+   66,
+   " [AII002I]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 29 had a library footer printed into the sentence; after its removal the damaged words \"COnstl progressive./\" remain and cannot be repaired without adding letters.",
+ "unitizer_version": 1,
+ "sha1": "74909f13b98c31167dee36d343e0c9c0a1ec9e1b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "presider": 1,
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 2561,
+  "words_out": 2528,
+  "retention": 0.9871,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   127,
+   75,
+   104,
+   74,
+   76,
+   88,
+   104,
+   98,
+   118,
+   95,
+   118,
+   77,
+   116,
+   70,
+   127,
+   155,
+   170,
+   121,
+   176,
+   168,
+   122,
+   149
+  ],
+  "warnings": [
+   "presider drop [35,35] in the middle of the speech"
+  ]
+ }
+}

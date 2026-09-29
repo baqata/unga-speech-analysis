@@ -1,0 +1,90 @@
+{
+ "id": "GHA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  18,
+  27,
+  30,
+  32,
+  39,
+  44,
+  47,
+  49,
+  53,
+  56,
+  59,
+  62,
+  72,
+  74,
+  79,
+  87,
+  90,
+  96,
+  104,
+  110,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   80,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   114,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "354ca7a17f8a010f411d20790bdee00dce401e40",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2665,
+  "words_out": 2661,
+  "retention": 0.9985,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   28,
+   138,
+   124,
+   159,
+   95,
+   80,
+   119,
+   116,
+   133,
+   72,
+   108,
+   55,
+   80,
+   68,
+   177,
+   61,
+   155,
+   145,
+   63,
+   120,
+   164,
+   156,
+   135,
+   110
+  ],
+  "warnings": []
+ }
+}

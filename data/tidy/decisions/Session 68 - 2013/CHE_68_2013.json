@@ -1,0 +1,57 @@
+{
+ "id": "CHE_68_2013",
+ "drop": [
+  [
+   47,
+   51,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  19,
+  29,
+  37,
+  44,
+  70,
+  90,
+  99,
+  110,
+  121,
+  143,
+  157
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "Units 47-51 are the standard verbatim-record footer inserted mid-sentence.",
+ "unitizer_version": 1,
+ "sha1": "fb7c9960b6aa4d516e0b3a8a4c049774100b927b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {
+   "header_footer": 5
+  },
+  "prestrip": {},
+  "words_in": 1432,
+  "words_out": 1356,
+  "retention": 0.9469,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   140,
+   72,
+   72,
+   55,
+   164,
+   167,
+   82,
+   97,
+   90,
+   188,
+   129,
+   100
+  ],
+  "warnings": []
+ }
+}

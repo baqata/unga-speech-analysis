@@ -1,0 +1,58 @@
+{
+ "id": "MWI_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  12,
+  15,
+  17,
+  19,
+  24,
+  29,
+  32,
+  35
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "co operation",
+   "cooperation",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c31d7580b7ad857c2c91598765b831048ed5aa05",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1521,
+  "words_out": 1518,
+  "retention": 0.998,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   72,
+   85,
+   122,
+   83,
+   157,
+   268,
+   102,
+   143,
+   177,
+   120,
+   78,
+   111
+  ],
+  "warnings": []
+ }
+}

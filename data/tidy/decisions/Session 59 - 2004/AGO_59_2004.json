@@ -1,0 +1,59 @@
+{
+ "id": "AGO_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  28,
+  42,
+  62,
+  76,
+  89,
+  107,
+  129,
+  143,
+  167,
+  185,
+  201,
+  209
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "The text stops after a series of questions on terrorism, apparently before the end of the statement.",
+ "unitizer_version": 1,
+ "sha1": "c082c895a39b4d8652ccfd08c0203110133978a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1727,
+  "words_out": 1726,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   94,
+   110,
+   111,
+   157,
+   104,
+   98,
+   128,
+   170,
+   120,
+   168,
+   146,
+   123,
+   68,
+   129
+  ],
+  "warnings": []
+ }
+}

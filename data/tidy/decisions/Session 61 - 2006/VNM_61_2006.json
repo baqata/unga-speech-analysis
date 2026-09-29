@@ -1,0 +1,53 @@
+{
+ "id": "VNM_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  41,
+  52,
+  69,
+  83,
+  99,
+  117,
+  127,
+  143,
+  161,
+  174
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6063cf75df25da696a7368e0f702e99c7da01d20",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1449,
+  "words_out": 1448,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   147,
+   169,
+   83,
+   133,
+   109,
+   111,
+   142,
+   81,
+   114,
+   138,
+   102,
+   119
+  ],
+  "warnings": []
+ }
+}

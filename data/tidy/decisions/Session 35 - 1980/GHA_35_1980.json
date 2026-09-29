@@ -1,0 +1,132 @@
+{
+ "id": "GHA_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  14,
+  18,
+  23,
+  30,
+  34,
+  38,
+  42,
+  48,
+  53,
+  58,
+  64,
+  68,
+  72,
+  79,
+  83,
+  88,
+  91,
+  97,
+  102,
+  107,
+  112,
+  115
+ ],
+ "cer": [
+  0,
+  6,
+  11,
+  14,
+  18
+ ],
+ "fix": [
+  [
+   10,
+   "lieu-tenants",
+   "lieutenants",
+   "hyphen"
+  ],
+  [
+   43,
+   "Middle Hast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   52,
+   "extend of the",
+   "extent of the",
+   "ocr"
+  ],
+  [
+   59,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "! refer",
+   "I refer",
+   "ocr"
+  ],
+  [
+   69,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "economic -cooperation",
+   "economic cooperation",
+   "spacing"
+  ],
+  [
+   100,
+   "self- reliance",
+   "self-reliance",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "065680f302187096b1e9ac06f445df6bf2de3a20",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3427,
+  "words_out": 3423,
+  "retention": 0.9988,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   153,
+   121,
+   103,
+   87,
+   160,
+   173,
+   114,
+   124,
+   117,
+   139,
+   139,
+   134,
+   154,
+   113,
+   123,
+   164,
+   141,
+   175,
+   93,
+   213,
+   149,
+   155,
+   140,
+   116,
+   123
+  ],
+  "warnings": []
+ }
+}

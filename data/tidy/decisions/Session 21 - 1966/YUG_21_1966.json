@@ -1,0 +1,108 @@
+{
+ "id": "YUG_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  5,
+  10,
+  16,
+  27,
+  33,
+  38,
+  41,
+  45,
+  50,
+  55,
+  60,
+  64,
+  69,
+  73,
+  78,
+  83,
+  90,
+  99,
+  102,
+  109,
+  118
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   11,
+   "U Thant.,",
+   "U Thant,",
+   "ocr"
+  ],
+  [
+   31,
+   "Organization.- In",
+   "Organization. In",
+   "ocr"
+  ],
+  [
+   34,
+   "ai-ouse",
+   "arouse",
+   "ocr"
+  ],
+  [
+   57,
+   "neither, war",
+   "neither war",
+   "ocr"
+  ],
+  [
+   59,
+   "anew era",
+   "a new era",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf3307839b5f778f72125e632f6204fce918891f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2660,
+  "words_out": 2626,
+  "retention": 0.9872,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   57,
+   26,
+   27,
+   132,
+   122,
+   216,
+   145,
+   105,
+   112,
+   74,
+   131,
+   113,
+   101,
+   131,
+   104,
+   71,
+   81,
+   131,
+   145,
+   177,
+   77,
+   157,
+   142,
+   49
+  ],
+  "warnings": []
+ }
+}

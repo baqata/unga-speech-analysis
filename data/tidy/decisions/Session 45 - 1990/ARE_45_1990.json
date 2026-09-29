@@ -1,0 +1,95 @@
+{
+ "id": "ARE_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  20,
+  25,
+  29,
+  33,
+  41,
+  45,
+  51,
+  57,
+  61,
+  68,
+  75,
+  82,
+  88,
+  94,
+  97,
+  102,
+  106
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   45,
+   "Sight from",
+   "Right from",
+   "ocr"
+  ],
+  [
+   59,
+   "sane authority",
+   "same authority",
+   "ocr"
+  ],
+  [
+   96,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   110,
+   "tie United",
+   "the United",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c589c39cc5e6bd8654017ab292cddf906223a710",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3145,
+  "words_out": 3145,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   176,
+   71,
+   188,
+   136,
+   120,
+   103,
+   133,
+   226,
+   98,
+   150,
+   201,
+   159,
+   143,
+   190,
+   203,
+   108,
+   141,
+   98,
+   149,
+   164,
+   188
+  ],
+  "warnings": []
+ }
+}

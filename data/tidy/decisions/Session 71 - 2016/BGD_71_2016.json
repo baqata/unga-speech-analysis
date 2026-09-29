@@ -1,0 +1,63 @@
+{
+ "id": "BGD_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  23,
+  28,
+  32,
+  37,
+  41,
+  48,
+  57,
+  59,
+  63,
+  71,
+  79,
+  84,
+  89,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c64bf21f2b38f00ec2a0b498efc4098f3adbf6fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1842,
+  "words_out": 1839,
+  "retention": 0.9984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   95,
+   210,
+   88,
+   89,
+   85,
+   86,
+   64,
+   110,
+   196,
+   75,
+   56,
+   135,
+   126,
+   115,
+   94,
+   129,
+   86
+  ],
+  "warnings": []
+ }
+}

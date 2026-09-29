@@ -1,0 +1,81 @@
+{
+ "id": "FRA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  22,
+  26,
+  30,
+  33,
+  38,
+  41,
+  48,
+  52,
+  57,
+  61,
+  66,
+  72,
+  78,
+  84,
+  89,
+  94
+ ],
+ "cer": [
+  0,
+  94
+ ],
+ "fix": [
+  [
+   68,
+   "^During",
+   "During",
+   "markup"
+  ],
+  [
+   91,
+   "de-termination",
+   "determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "805cc878bd2f99bc89c0effa04badfeace0620cf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2182,
+  "words_out": 2182,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   14,
+   83,
+   160,
+   136,
+   123,
+   116,
+   96,
+   136,
+   67,
+   114,
+   86,
+   159,
+   103,
+   87,
+   187,
+   152,
+   126,
+   129,
+   106,
+   2
+  ],
+  "warnings": []
+ }
+}

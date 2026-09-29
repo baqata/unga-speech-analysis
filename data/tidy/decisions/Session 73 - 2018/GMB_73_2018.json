@@ -1,0 +1,93 @@
+{
+ "id": "GMB_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  15,
+  19,
+  23,
+  30,
+  37,
+  45,
+  50,
+  56,
+  60,
+  64,
+  68
+ ],
+ "cer": [
+  0,
+  68
+ ],
+ "fix": [
+  [
+   16,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ],
+  [
+   17,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   28,
+   "self- sufficient",
+   "self-sufficient",
+   "hyphen"
+  ],
+  [
+   46,
+   "cross- border",
+   "cross-border",
+   "hyphen"
+  ],
+  [
+   49,
+   "cross- border",
+   "cross-border",
+   "hyphen"
+  ],
+  [
+   69,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43fcf7ecf3d1aade2a5d22b63582ceab65b76db4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1737,
+  "words_out": 1731,
+  "retention": 0.9965,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   104,
+   135,
+   146,
+   130,
+   89,
+   138,
+   175,
+   156,
+   136,
+   172,
+   95,
+   92,
+   77,
+   86
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "BEN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  20,
+  23,
+  29,
+  32,
+  38,
+  43,
+  48,
+  50,
+  54,
+  57,
+  59,
+  61,
+  65,
+  69,
+  72,
+  83,
+  86
+ ],
+ "cer": [
+  6
+ ],
+ "fix": [
+  [
+   25,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ],
+  [
+   67,
+   "nuclear- weapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b9fb3ef38e6fb990f86a76c0fbc11798cc66ffb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2072,
+  "words_out": 2070,
+  "retention": 0.999,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   113,
+   104,
+   139,
+   63,
+   107,
+   111,
+   106,
+   79,
+   115,
+   69,
+   136,
+   92,
+   80,
+   68,
+   88,
+   173,
+   81,
+   198,
+   80,
+   68
+  ],
+  "warnings": []
+ }
+}

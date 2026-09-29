@@ -1,0 +1,137 @@
+{
+ "id": "MEX_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  9,
+  14,
+  17,
+  21,
+  24,
+  31,
+  33,
+  37,
+  42,
+  50,
+  54,
+  57,
+  61,
+  63,
+  67,
+  68,
+  73,
+  77,
+  81,
+  84,
+  87,
+  89,
+  92,
+  95,
+  97,
+  105,
+  108,
+  115
+ ],
+ "cer": [
+  0,
+  3,
+  8,
+  67
+ ],
+ "fix": [
+  [
+   4,
+   "should, next",
+   "should next",
+   "ocr"
+  ],
+  [
+   22,
+   "similar fate, Resolution",
+   "similar fate. Resolution",
+   "ocr"
+  ],
+  [
+   53,
+   "so much,",
+   "so much.",
+   "ocr"
+  ],
+  [
+   54,
+   " [1884 (XVIII)]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "years and years,",
+   "years and years.",
+   "ocr"
+  ],
+  [
+   99,
+   "away should",
+   "a way should",
+   "merged_word"
+  ],
+  [
+   111,
+   "distressing, To solve",
+   "distressing. To solve",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49cb27f9bcaac00573d6e38a790faad97fad4748",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3122,
+  "words_out": 3077,
+  "retention": 0.9856,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   48,
+   90,
+   34,
+   122,
+   113,
+   121,
+   66,
+   191,
+   81,
+   119,
+   113,
+   179,
+   64,
+   82,
+   118,
+   65,
+   154,
+   42,
+   131,
+   74,
+   61,
+   121,
+   82,
+   83,
+   62,
+   116,
+   61,
+   152,
+   72,
+   145,
+   115
+  ],
+  "warnings": []
+ }
+}

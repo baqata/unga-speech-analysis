@@ -1,0 +1,60 @@
+{
+ "id": "STP_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  15,
+  23,
+  27,
+  31,
+  36,
+  45,
+  52,
+  55,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   59,
+   "S ao",
+   "Sao",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ef5bf4c506ab9eecbc25dfeb2f4b289a98a2a26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1378,
+  "words_out": 1377,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   59,
+   116,
+   89,
+   115,
+   203,
+   82,
+   89,
+   97,
+   160,
+   147,
+   88,
+   60,
+   72
+  ],
+  "warnings": []
+ }
+}

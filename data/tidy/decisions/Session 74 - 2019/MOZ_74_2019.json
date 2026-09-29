@@ -1,0 +1,91 @@
+{
+ "id": "MOZ_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  9,
+  12,
+  14,
+  16,
+  19,
+  23,
+  26,
+  28,
+  32,
+  34,
+  36,
+  37,
+  39,
+  44,
+  46,
+  49,
+  54
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   14,
+   "conflict- prevention",
+   "conflict-prevention",
+   "hyphen"
+  ],
+  [
+   23,
+   "cross- cutting",
+   "cross-cutting",
+   "hyphen"
+  ],
+  [
+   34,
+   "early- warning",
+   "early-warning",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "54b8713033249c17f386e4b224a5dc911453a18a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2189,
+  "words_out": 2186,
+  "retention": 0.9986,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   150,
+   62,
+   105,
+   92,
+   134,
+   84,
+   60,
+   99,
+   130,
+   124,
+   93,
+   164,
+   68,
+   81,
+   61,
+   80,
+   169,
+   90,
+   88,
+   181,
+   71
+  ],
+  "warnings": []
+ }
+}

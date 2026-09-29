@@ -1,0 +1,141 @@
+{
+ "id": "LUX_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   128,
+   130,
+   "presider"
+  ],
+  [
+   131,
+   131,
+   "noise"
+  ]
+ ],
+ "para": [
+  4,
+  6,
+  13,
+  24,
+  32,
+  38,
+  48,
+  60,
+  65,
+  73,
+  78,
+  85,
+  92,
+  104,
+  109,
+  117,
+  127
+ ],
+ "cer": [
+  4,
+  127
+ ],
+ "fix": [
+  [
+   4,
+   "Khalilou",
+   "Khalilur",
+   "asr_name"
+  ],
+  [
+   84,
+   "conviction. our conviction",
+   "conviction. Our conviction",
+   "asr_term"
+  ],
+  [
+   10,
+   "people. and",
+   "people. And",
+   "asr_term"
+  ],
+  [
+   69,
+   "action. as",
+   "action as",
+   "asr_term"
+  ],
+  [
+   107,
+   "landlocked. but",
+   "landlocked. But",
+   "asr_term"
+  ],
+  [
+   114,
+   "world. but",
+   "world but",
+   "asr_term"
+  ],
+  [
+   119,
+   "make. because",
+   "make. Because",
+   "asr_term"
+  ],
+  [
+   124,
+   "challenge. but",
+   "challenge. But",
+   "asr_term"
+  ],
+  [
+   13,
+   "First, this",
+   "This",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Pause text at units 2-3 dropped; units 129-130 introduce the next speaker (France). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 84 'conviction. our conviction' -> 'conviction. Our conviction' (said twice; capital restored). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 10 'people. and' -> 'people. And'; unit 69 'action. as' -> 'action as'; unit 107 'landlocked. but' -> 'landlocked. But'; unit 114 'world. but' -> 'world but'; unit 119 'make. because' -> 'make. Because'; unit 124 'challenge. but' -> 'challenge. But'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 13 'First, this' -> 'This' (both decodes lack 'First,' and hear 'This' clearly (1.00/0.99) after a pause following 'trust.'; ES 'Esta es mi primera intervención' has no 'first' before it; an anticipation of 'first' invented in the pause)",
+ "unitizer_version": 1,
+ "sha1": "69e99bc6c5392a207e1194ed6251cbb443dfd0d7",
+ "layout": "single",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {
+   "presider": 5,
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 2166,
+  "words_out": 2082,
+  "retention": 0.9612,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   39,
+   92,
+   188,
+   116,
+   97,
+   131,
+   174,
+   114,
+   154,
+   71,
+   182,
+   130,
+   182,
+   74,
+   129,
+   207,
+   2
+  ],
+  "warnings": []
+ }
+}

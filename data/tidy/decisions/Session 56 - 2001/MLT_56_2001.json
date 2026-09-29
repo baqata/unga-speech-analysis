@@ -1,0 +1,70 @@
+{
+ "id": "MLT_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  41,
+  59,
+  70,
+  89,
+  99,
+  112,
+  131,
+  156,
+  179,
+  203,
+  215,
+  228,
+  244,
+  263,
+  275
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "l1",
+   "11",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82482c3fe1d6dfd59b2e7ab408375994fe4fd7f3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 292,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2358,
+  "words_out": 2357,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   115,
+   234,
+   129,
+   100,
+   153,
+   82,
+   109,
+   138,
+   204,
+   188,
+   195,
+   98,
+   94,
+   122,
+   155,
+   101,
+   140
+  ],
+  "warnings": []
+ }
+}

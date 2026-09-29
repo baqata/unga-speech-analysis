@@ -1,0 +1,144 @@
+{
+ "id": "MLI_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ],
+  [
+   1,
+   2,
+   "presider"
+  ],
+  [
+   142,
+   142,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  7,
+  10,
+  15,
+  18,
+  21,
+  24,
+  29,
+  33,
+  37,
+  42,
+  48,
+  52,
+  57,
+  61,
+  63,
+  72,
+  80,
+  86,
+  92,
+  99,
+  102,
+  106,
+  111,
+  116,
+  131,
+  137
+ ],
+ "cer": [
+  3,
+  137
+ ],
+ "fix": [
+  [
+   3,
+   "Esimi Goyta",
+   "Assimi Goïta",
+   "asr_name"
+  ],
+  [
+   7,
+   "AAS Confederation",
+   "AES Confederation",
+   "asr_name"
+  ],
+  [
+   62,
+   "Ezzouini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   62,
+   "CERT Declaration",
+   "Sirte Declaration",
+   "asr_name"
+  ],
+  [
+   85,
+   "Acemo Goita",
+   "Assimi Goïta",
+   "asr_name"
+  ],
+  [
+   99,
+   "International Course of Justice",
+   "International Court of Justice",
+   "asr_name"
+  ],
+  [
+   100,
+   "International Course of Justice",
+   "International Court of Justice",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 111-113 repeat the same appeal three times by the speaker's own announcement and are kept.",
+ "unitizer_version": 1,
+ "sha1": "796a35936a565b95db6ae2dfd11ebf9bfbf0aca5",
+ "layout": "single",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {
+   "noise": 1,
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3954,
+  "words_out": 3880,
+  "retention": 0.9813,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   225,
+   94,
+   150,
+   136,
+   107,
+   137,
+   155,
+   178,
+   120,
+   120,
+   115,
+   89,
+   136,
+   131,
+   87,
+   187,
+   176,
+   183,
+   151,
+   165,
+   129,
+   146,
+   123,
+   118,
+   243,
+   188,
+   91
+  ],
+  "warnings": []
+ }
+}

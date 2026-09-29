@@ -1,0 +1,127 @@
+{
+ "id": "CPV_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   67,
+   67,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  10,
+  16,
+  26,
+  34,
+  44,
+  50,
+  59,
+  66
+ ],
+ "cer": [
+  66
+ ],
+ "fix": [
+  [
+   6,
+   "Morabaza",
+   "Morabeza",
+   "asr_term"
+  ],
+  [
+   7,
+   "Amilka",
+   "Amilcar",
+   "asr_name"
+  ],
+  [
+   20,
+   "UN initiative",
+   "UN80 initiative",
+   "asr_name"
+  ],
+  [
+   23,
+   "Ezovini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   23,
+   "CERT",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   46,
+   "EOSIS",
+   "AOSIS",
+   "asr_name"
+  ],
+  [
+   66,
+   "thank you for the intervention of the Creole of Cabo Verde.",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "cordiality, cordiality,",
+   "cordiality,",
+   "asr_term"
+  ],
+  [
+   11,
+   "conflicts. international",
+   "conflicts. International",
+   "asr_term"
+  ],
+  [
+   36,
+   "here. the",
+   "here. The",
+   "asr_term"
+  ],
+  [
+   10,
+   "United States",
+   "United Nations",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Cabo Verdean Creole (presider's closing remark); Spanish channel confirms moraveza/Morabeza, Amilcar Cabral (unit 59), Naciones Unidas, delincuencia transnacional, iniciativa ONU80, consenso de Ezulwini y declaracion de Sirte, OSIS/AOSIS. Gap recovery (v4) added 'thank you for the intervention of the Creole of Cabo Verde.' after the closing thanks, the presiding officer's words before the dropped presider line (label). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 6 'cordiality, cordiality,' -> 'cordiality,'. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 13 repair of 'national crimes' withdrawn (four re-decodes hear 'and national crimes' (p 0.99-1.00), with no room for 'trans-' between 'and' and 'national': the English interpreter's wording; 'la delincuencia transnacional' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 11 'conflicts. international' -> 'conflicts. International'; unit 36 'here. the' -> 'here. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 7 unit 10 'United States' -> 'United Nations' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'United States' (decodes 1.00 / 1.00, the UN transcript; forced scoring 'States' -0.0 vs 'Nations' -11.4), which does not fit 'reaffirms its faith in the United States in dialogue among nations'; the Spanish 'reafirma su fe en las Naciones Unidas, en el diálogo entre naciones' shows 'United Nations')",
+ "unitizer_version": 1,
+ "sha1": "bd9b92211693e432ada58fc754b443967248d605",
+ "layout": "single",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1379,
+  "words_out": 1312,
+  "retention": 0.9514,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   167,
+   89,
+   163,
+   160,
+   180,
+   180,
+   120,
+   160,
+   85,
+   8
+  ],
+  "warnings": []
+ }
+}

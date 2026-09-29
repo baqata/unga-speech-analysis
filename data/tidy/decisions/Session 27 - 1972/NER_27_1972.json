@@ -1,0 +1,110 @@
+{
+ "id": "NER_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  21,
+  24,
+  31,
+  34,
+  38,
+  40,
+  43,
+  45,
+  51,
+  56,
+  59,
+  61,
+  64,
+  66,
+  69
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   " [OCAMJ",
+   "",
+   "label"
+  ],
+  [
+   35,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "injustice",
+   "in justice",
+   "split_word"
+  ],
+  [
+   47,
+   "Utrechi",
+   "Utrecht",
+   "ocr"
+  ],
+  [
+   59,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   " [UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "far- reaching",
+   "far-reaching",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2086561858ea6b4b26db628df01f53d00c84c5ef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2175,
+  "words_out": 2170,
+  "retention": 0.9977,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   178,
+   65,
+   129,
+   140,
+   99,
+   129,
+   93,
+   138,
+   100,
+   141,
+   73,
+   165,
+   158,
+   92,
+   104,
+   97,
+   130,
+   98,
+   41
+  ],
+  "warnings": []
+ }
+}

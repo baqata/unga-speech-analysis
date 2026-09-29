@@ -1,0 +1,89 @@
+{
+ "id": "LSO_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  18,
+  22,
+  25,
+  28,
+  32,
+  35,
+  40,
+  43,
+  50,
+  55,
+  65,
+  69,
+  76,
+  80,
+  86,
+  90,
+  96,
+  100,
+  104,
+  109,
+  117,
+  124
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   105,
+   "create rem for",
+   "create room for",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3101b044d94ba35e8769d382e87e2a8392eceb6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3035,
+  "words_out": 3035,
+  "retention": 1.0,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   111,
+   92,
+   140,
+   147,
+   87,
+   105,
+   87,
+   148,
+   83,
+   107,
+   199,
+   127,
+   105,
+   178,
+   105,
+   152,
+   76,
+   118,
+   59,
+   140,
+   81,
+   100,
+   143,
+   163,
+   167,
+   15
+  ],
+  "warnings": []
+ }
+}

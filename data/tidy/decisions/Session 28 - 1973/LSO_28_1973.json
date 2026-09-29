@@ -1,0 +1,148 @@
+{
+ "id": "LSO_28_1973",
+ "drop": [
+  [
+   19,
+   19,
+   "noise"
+  ],
+  [
+   49,
+   49,
+   "noise"
+  ],
+  [
+   57,
+   58,
+   "noise"
+  ],
+  [
+   71,
+   72,
+   "noise"
+  ],
+  [
+   75,
+   75,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  21,
+  24,
+  29,
+  31,
+  33,
+  39,
+  43,
+  46,
+  50,
+  59,
+  65,
+  67,
+  73,
+  76,
+  78,
+  82,
+  85,
+  89,
+  92
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   4,
+   "Germany s",
+   "Germanys",
+   "ocr"
+  ],
+  [
+   33,
+   "o+ socio",
+   "of socio",
+   "ocr"
+  ],
+  [
+   46,
+   "envisaged-in",
+   "envisaged in",
+   "ocr"
+  ],
+  [
+   61,
+   "the . pivot",
+   "the pivot",
+   "ocr"
+  ],
+  [
+   74,
+   "the Imilitary",
+   "the military",
+   "ocr"
+  ],
+  [
+   80,
+   "observed' that",
+   "observed that",
+   "ocr"
+  ],
+  [
+   93,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a69bb69f6f0ae910f7ea47da3e31c2a68c1dd905",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "noise": 7
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 2775,
+  "words_out": 2762,
+  "retention": 0.9953,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   62,
+   139,
+   81,
+   164,
+   115,
+   125,
+   76,
+   84,
+   263,
+   168,
+   106,
+   172,
+   186,
+   134,
+   126,
+   130,
+   111,
+   73,
+   123,
+   66,
+   96,
+   111,
+   51
+  ],
+  "warnings": []
+ }
+}

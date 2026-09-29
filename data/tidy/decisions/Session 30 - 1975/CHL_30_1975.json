@@ -1,0 +1,195 @@
+{
+ "id": "CHL_30_1975",
+ "drop": [
+  [
+   122,
+   122,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  14,
+  24,
+  29,
+  33,
+  37,
+  42,
+  47,
+  50,
+  54,
+  56,
+  59,
+  65,
+  71,
+  76,
+  80,
+  83,
+  85,
+  88,
+  91,
+  95,
+  100,
+  101,
+  109,
+  112,
+  117,
+  123,
+  126,
+  133,
+  138,
+  146,
+  150,
+  158,
+  163,
+  167,
+  170,
+  171,
+  174,
+  176,
+  178,
+  180
+ ],
+ "cer": [
+  180
+ ],
+ "fix": [
+  [
+   7,
+   "living,",
+   "living.",
+   "ocr"
+  ],
+  [
+   24,
+   "ad new",
+   "all new",
+   "ocr"
+  ],
+  [
+   40,
+   " [.s^e Al 10192, annex]",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "she persons",
+   "the persons",
+   "ocr"
+  ],
+  [
+   72,
+   " [resolution 2200 A (XXI), annex]",
+   "",
+   "label"
+  ],
+  [
+   100,
+   " [resolution 2200 A (XXI), annex]",
+   "",
+   "label"
+  ],
+  [
+   133,
+   "non- traditional",
+   "non-traditional",
+   "hyphen"
+  ],
+  [
+   145,
+   "1973,",
+   "1973.",
+   "ocr"
+  ],
+  [
+   155,
+   "pro-gramme",
+   "programme",
+   "hyphen"
+  ],
+  [
+   161,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   170,
+   "1 should",
+   "I should",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2791797b1f90fc3f150a901263f5a837b34d9ae0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 76
+  },
+  "words_in": 6044,
+  "words_out": 6014,
+  "retention": 0.995,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   82,
+   137,
+   142,
+   121,
+   259,
+   184,
+   126,
+   147,
+   164,
+   139,
+   164,
+   142,
+   94,
+   145,
+   178,
+   153,
+   173,
+   125,
+   115,
+   74,
+   121,
+   78,
+   110,
+   172,
+   63,
+   235,
+   103,
+   109,
+   120,
+   108,
+   153,
+   174,
+   238,
+   146,
+   208,
+   147,
+   155,
+   85,
+   158,
+   78,
+   129,
+   79,
+   101,
+   80
+  ],
+  "warnings": [
+   "procedural drop [122,122] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "JOR_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  9,
+  13,
+  16,
+  18,
+  20,
+  23,
+  26,
+  28,
+  33,
+  35,
+  43,
+  45,
+  47,
+  50,
+  53,
+  59,
+  63,
+  66,
+  76,
+  80,
+  84,
+  89,
+  95,
+  100,
+  107,
+  112,
+  119
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   19,
+   "as; to",
+   "as to",
+   "ocr"
+  ],
+  [
+   53,
+   "call, of right",
+   "call of right",
+   "ocr"
+  ],
+  [
+   75,
+   "flocked, there",
+   "flocked there",
+   "ocr"
+  ],
+  [
+   103,
+   "and ether problems",
+   "and other problems",
+   "ocr"
+  ],
+  [
+   103,
+   "quiet said in",
+   "quiet and in",
+   "ocr"
+  ],
+  [
+   87,
+   " [A/ 4132]",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "League,",
+   "League.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d23c93ced79f19f76f03ba981b23d55d72b0e24",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 3229,
+  "words_out": 3227,
+  "retention": 0.9994,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   58,
+   60,
+   97,
+   71,
+   104,
+   74,
+   63,
+   91,
+   67,
+   78,
+   77,
+   122,
+   72,
+   215,
+   64,
+   82,
+   83,
+   98,
+   145,
+   72,
+   100,
+   162,
+   115,
+   121,
+   138,
+   131,
+   116,
+   196,
+   141,
+   161,
+   53
+  ],
+  "warnings": []
+ }
+}

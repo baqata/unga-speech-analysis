@@ -1,0 +1,95 @@
+{
+ "id": "VUT_75_2020",
+ "drop": [
+  [
+   4,
+   4,
+   "heading"
+  ],
+  [
+   10,
+   10,
+   "heading"
+  ],
+  [
+   34,
+   34,
+   "heading"
+  ],
+  [
+   80,
+   80,
+   "heading"
+  ],
+  [
+   99,
+   99,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  11,
+  17,
+  24,
+  27,
+  35,
+  44,
+  51,
+  54,
+  61,
+  68,
+  74,
+  76,
+  81,
+  91,
+  93,
+  100,
+  106
+ ],
+ "cer": [
+  0,
+  6,
+  106
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d44f40fe2bb8fa1b468eead18241c7484da4d047",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {
+   "heading": 5
+  },
+  "prestrip": {},
+  "words_in": 2231,
+  "words_out": 2219,
+  "retention": 0.9946,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   36,
+   103,
+   139,
+   162,
+   76,
+   118,
+   174,
+   126,
+   127,
+   155,
+   143,
+   131,
+   67,
+   110,
+   230,
+   47,
+   100,
+   165,
+   10
+  ],
+  "warnings": []
+ }
+}

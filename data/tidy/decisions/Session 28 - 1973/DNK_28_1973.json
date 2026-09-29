@@ -1,0 +1,110 @@
+{
+ "id": "DNK_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  16,
+  20,
+  23,
+  28,
+  33,
+  36,
+  41,
+  47,
+  52,
+  58,
+  62,
+  64,
+  68,
+  72,
+  77,
+  80,
+  81,
+  88,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "the, face",
+   "the face",
+   "ocr"
+  ],
+  [
+   30,
+   "oar",
+   "our",
+   "ocr"
+  ],
+  [
+   44,
+   "stagnation-has",
+   "stagnation has",
+   "ocr"
+  ],
+  [
+   63,
+   "Organization?",
+   "Organization",
+   "ocr"
+  ],
+  [
+   71,
+   "counter- terror",
+   "counter-terror",
+   "spacing"
+  ],
+  [
+   80,
+   "on' Tariffs",
+   "on Tariffs",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "adbb95d5ee85724e575dfe6edd6ac7d1e64bacee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2555,
+  "words_out": 2552,
+  "retention": 0.9988,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   68,
+   155,
+   143,
+   152,
+   121,
+   120,
+   134,
+   73,
+   150,
+   151,
+   107,
+   104,
+   109,
+   73,
+   130,
+   117,
+   126,
+   85,
+   60,
+   173,
+   122,
+   79
+  ],
+  "warnings": []
+ }
+}

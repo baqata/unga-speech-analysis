@@ -1,0 +1,288 @@
+{
+ "id": "GHA_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  17,
+  19,
+  23,
+  28,
+  30,
+  32,
+  35,
+  37,
+  41,
+  42,
+  47,
+  51,
+  56,
+  63,
+  65,
+  68,
+  71,
+  75,
+  78,
+  81,
+  83,
+  87,
+  89,
+  92,
+  94,
+  96,
+  99,
+  101,
+  105,
+  109,
+  111,
+  114,
+  115,
+  119,
+  122,
+  124,
+  129,
+  133,
+  136
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "special pride, and",
+   "special pride and",
+   "ocr"
+  ],
+  [
+   4,
+   "in the.",
+   "in the",
+   "ocr"
+  ],
+  [
+   11,
+   "determination, to",
+   "determination to",
+   "ocr"
+  ],
+  [
+   15,
+   "the, achievement",
+   "the achievement",
+   "ocr"
+  ],
+  [
+   17,
+   "Colonialism",
+   "colonialism",
+   "ocr"
+  ],
+  [
+   17,
+   "the, fortifications",
+   "the fortifications",
+   "ocr"
+  ],
+  [
+   17,
+   "winds, of",
+   "winds of",
+   "ocr"
+  ],
+  [
+   19,
+   "Is not",
+   "is not",
+   "ocr"
+  ],
+  [
+   22,
+   "dearly",
+   "clearly",
+   "ocr"
+  ],
+  [
+   33,
+   "Equally In",
+   "Equally in",
+   "ocr"
+  ],
+  [
+   43,
+   "South, West",
+   "South West",
+   "ocr"
+  ],
+  [
+   47,
+   "already, ruthless operation, of",
+   "already ruthless operation of",
+   "ocr"
+  ],
+  [
+   48,
+   "territories: of",
+   "territories of",
+   "ocr"
+  ],
+  [
+   50,
+   "in, accordance",
+   "in accordance",
+   "ocr"
+  ],
+  [
+   51,
+   "new, strategies",
+   "new strategies",
+   "ocr"
+  ],
+  [
+   57,
+   "interference, in",
+   "interference in",
+   "ocr"
+  ],
+  [
+   61,
+   "if We",
+   "if we",
+   "ocr"
+  ],
+  [
+   61,
+   "sufficiently, far-reaching",
+   "sufficiently far-reaching",
+   "ocr"
+  ],
+  [
+   62,
+   "in, a spirit",
+   "in a spirit",
+   "ocr"
+  ],
+  [
+   68,
+   "only, are",
+   "only are",
+   "ocr"
+  ],
+  [
+   72,
+   "attempt, to",
+   "attempt to",
+   "ocr"
+  ],
+  [
+   87,
+   "United Nations.",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   88,
+   "(XVI), These",
+   "(XVI). These",
+   "ocr"
+  ],
+  [
+   89,
+   "the, European",
+   "the European",
+   "ocr"
+  ],
+  [
+   94,
+   "minimize, the",
+   "minimize the",
+   "ocr"
+  ],
+  [
+   109,
+   "threats; It",
+   "threats. It",
+   "ocr"
+  ],
+  [
+   109,
+   "legitimately, be",
+   "legitimately be",
+   "ocr"
+  ],
+  [
+   118,
+   "[Ibid., para. 85.1",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 4-5 and 87-88 are single sentences split by a stray period; the period is removed.",
+ "unitizer_version": 1,
+ "sha1": "4d0c7a3c5ff19d0abe2fb6e2072bee513292a8ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 38
+  },
+  "words_in": 5495,
+  "words_out": 5482,
+  "retention": 0.9976,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   105,
+   101,
+   138,
+   98,
+   120,
+   124,
+   84,
+   118,
+   130,
+   102,
+   81,
+   150,
+   68,
+   207,
+   190,
+   128,
+   267,
+   102,
+   127,
+   73,
+   156,
+   163,
+   148,
+   95,
+   167,
+   97,
+   122,
+   118,
+   143,
+   137,
+   59,
+   106,
+   123,
+   135,
+   144,
+   97,
+   138,
+   190,
+   60,
+   235,
+   144,
+   168,
+   24
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

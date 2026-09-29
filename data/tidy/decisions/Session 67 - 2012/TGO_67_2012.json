@@ -1,0 +1,77 @@
+{
+ "id": "TGO_67_2012",
+ "drop": [
+  [
+   204,
+   205,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  24,
+  32,
+  40,
+  53,
+  74,
+  83,
+  92,
+  102,
+  117,
+  130,
+  143,
+  154,
+  173,
+  187,
+  194,
+  206,
+  221,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3fc3808ba0e575ba0383ea90a139b4f58db42b00",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 2158,
+  "words_out": 2148,
+  "retention": 0.9954,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   116,
+   88,
+   66,
+   71,
+   122,
+   167,
+   76,
+   69,
+   85,
+   118,
+   116,
+   120,
+   92,
+   152,
+   119,
+   73,
+   91,
+   115,
+   162,
+   130
+  ],
+  "warnings": [
+   "procedural drop [204,205] in the middle of the speech"
+  ]
+ }
+}

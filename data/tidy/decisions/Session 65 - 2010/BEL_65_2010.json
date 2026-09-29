@@ -1,0 +1,55 @@
+{
+ "id": "BEL_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  36,
+  50,
+  63,
+  81,
+  94,
+  113,
+  121,
+  138,
+  153,
+  165,
+  190,
+  206
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "The Afghanistan passage begins inside unit 172, so it stays in the paragraph on impunity.",
+ "unitizer_version": 1,
+ "sha1": "ced40c0648158da1e2fe67b09261b6d2bf6ddd31",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1670,
+  "words_out": 1665,
+  "retention": 0.997,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   129,
+   157,
+   100,
+   101,
+   132,
+   103,
+   155,
+   71,
+   126,
+   109,
+   90,
+   193,
+   126,
+   73
+  ],
+  "warnings": []
+ }
+}

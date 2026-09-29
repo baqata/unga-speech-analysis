@@ -1,0 +1,180 @@
+{
+ "id": "ISR_40_1985",
+ "drop": [
+  [
+   126,
+   126,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  11,
+  13,
+  16,
+  21,
+  26,
+  31,
+  40,
+  48,
+  53,
+  56,
+  64,
+  68,
+  72,
+  76,
+  79,
+  84,
+  86,
+  90,
+  93,
+  98,
+  100,
+  104,
+  108,
+  112,
+  116,
+  121,
+  127,
+  130,
+  132,
+  133,
+  138,
+  140
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "He are not",
+   "We are not",
+   "ocr"
+  ],
+  [
+   51,
+   "we roust fight",
+   "we must fight",
+   "ocr"
+  ],
+  [
+   55,
+   "January 1935",
+   "January 1985",
+   "ocr"
+  ],
+  [
+   76,
+   "Middle Bast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   77,
+   "the use. of",
+   "the use of",
+   "ocr"
+  ],
+  [
+   79,
+   "conventional arras",
+   "conventional arms",
+   "ocr"
+  ],
+  [
+   82,
+   "Middle Bast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   82,
+   "binding'",
+   "binding",
+   "ocr"
+  ],
+  [
+   102,
+   "whatsoever. .We",
+   "whatsoever. We",
+   "ocr"
+  ],
+  [
+   103,
+   "He shall continue to do so untiA",
+   "We shall continue to do so until",
+   "ocr"
+  ],
+  [
+   108,
+   "tJe are",
+   "We are",
+   "ocr"
+  ],
+  [
+   124,
+   "He are ready",
+   "We are ready",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a55e3bddaf6da99e52149d1fbd31c0ddc59b959f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3445,
+  "words_out": 3444,
+  "retention": 0.9997,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   51,
+   119,
+   76,
+   97,
+   63,
+   74,
+   100,
+   131,
+   116,
+   192,
+   136,
+   98,
+   68,
+   175,
+   74,
+   86,
+   125,
+   60,
+   120,
+   67,
+   96,
+   73,
+   136,
+   95,
+   91,
+   113,
+   132,
+   105,
+   85,
+   111,
+   54,
+   57,
+   34,
+   91,
+   74,
+   69
+  ],
+  "warnings": []
+ }
+}

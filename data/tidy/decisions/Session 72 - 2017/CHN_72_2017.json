@@ -1,0 +1,88 @@
+{
+ "id": "CHN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  16,
+  22,
+  28,
+  31,
+  35,
+  42,
+  55,
+  62,
+  68,
+  76,
+  80,
+  89,
+  97,
+  103,
+  106
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   "long- overdue",
+   "long-overdue",
+   "hyphen"
+  ],
+  [
+   33,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   59,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ],
+  [
+   70,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f77e7aa14a01a464c5e6abb532248b771f520f38",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2408,
+  "words_out": 2404,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   123,
+   156,
+   113,
+   158,
+   127,
+   71,
+   95,
+   155,
+   256,
+   160,
+   111,
+   205,
+   57,
+   157,
+   160,
+   112,
+   73,
+   115
+  ],
+  "warnings": []
+ }
+}

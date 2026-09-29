@@ -1,0 +1,60 @@
+{
+ "id": "KGZ_75_2020",
+ "drop": [
+  [
+   0,
+   2,
+   "procedural"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  9,
+  20,
+  25,
+  31,
+  38,
+  47,
+  61,
+  69,
+  73,
+  77
+ ],
+ "cer": [
+  3,
+  77
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b546458f0358cadfaff798d693efb67db556756c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "procedural": 3
+  },
+  "prestrip": {},
+  "words_in": 1098,
+  "words_out": 1072,
+  "retention": 0.9763,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   4,
+   82,
+   159,
+   70,
+   87,
+   94,
+   139,
+   190,
+   105,
+   69,
+   68,
+   5
+  ],
+  "warnings": []
+ }
+}

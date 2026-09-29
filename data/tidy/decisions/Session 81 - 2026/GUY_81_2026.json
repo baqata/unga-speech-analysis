@@ -1,0 +1,214 @@
+{
+ "id": "GUY_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   118,
+   118,
+   "noise"
+  ],
+  [
+   119,
+   120,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  11,
+  19,
+  27,
+  32,
+  39,
+  44,
+  49,
+  57,
+  62,
+  68,
+  73,
+  77,
+  84,
+  90,
+  106,
+  109,
+  115
+ ],
+ "cer": [
+  2,
+  115
+ ],
+ "fix": [
+  [
+   10,
+   "mountain death",
+   "mounting debt",
+   "asr_term"
+  ],
+  [
+   28,
+   "Ghani",
+   "Guyana",
+   "asr_name"
+  ],
+  [
+   84,
+   "Our Excellency",
+   "Her Excellency",
+   "asr_term"
+  ],
+  [
+   84,
+   "Carlyne Rodrigues Burkett",
+   "Carolyn Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   87,
+   "requires special",
+   "acquires special",
+   "asr_term"
+  ],
+  [
+   87,
+   "its national order",
+   "the international order",
+   "asr_term"
+  ],
+  [
+   90,
+   "Carolyn Rodriguez Burkett",
+   "Carolyn Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   93,
+   "defining every challenge",
+   "defying every challenge",
+   "asr_term"
+  ],
+  [
+   105,
+   "Colin Rodríguez",
+   "Carolyn Rodrigues",
+   "asr_name"
+  ],
+  [
+   107,
+   "Carlin Rodríguez-Borquette",
+   "Carolyn Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   112,
+   "a united nations",
+   "a United Nations",
+   "asr_name"
+  ],
+  [
+   6,
+   "upheld. the",
+   "upheld. The",
+   "asr_term"
+  ],
+  [
+   24,
+   "civilians. and",
+   "civilians and",
+   "asr_term"
+  ],
+  [
+   69,
+   "rise. multilateralism",
+   "rise. Multilateralism",
+   "asr_term"
+  ],
+  [
+   72,
+   "it. we",
+   "it. We",
+   "asr_term"
+  ],
+  [
+   80,
+   "habitual. leadership",
+   "habitual. Leadership",
+   "asr_term"
+  ],
+  [
+   93,
+   "barriers. an",
+   "barriers. An",
+   "asr_term"
+  ],
+  [
+   105,
+   "Nations. in",
+   "Nations. In",
+   "asr_term"
+  ],
+  [
+   116,
+   "humanity. may",
+   "humanity. May",
+   "asr_term"
+  ],
+  [
+   8,
+   "argue",
+   "argued",
+   "asr_term"
+  ],
+  [
+   116,
+   "worth all",
+   "wherewithal",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Candidate Carolyn Rodrigues-Birkett per Government of Guyana and Spanish 'Caroline Rodríguez Birquet'; terms per Spanish 'crisis de deuda', 'la excelentísima', 'adquiere', 'orden internacional', 'desafió'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 6 'upheld. the' -> 'upheld. The'; unit 24 'civilians. and' -> 'civilians and'; unit 69 'rise. multilateralism' -> 'rise. Multilateralism'; unit 72 'it. we' -> 'it. We'; unit 80 'habitual. leadership' -> 'habitual. Leadership'; unit 93 'barriers. an' -> 'barriers. An'; unit 105 'Nations. in' -> 'Nations. In'; unit 116 'humanity. may' -> 'humanity. May'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 8 'argue' -> 'argued' (the sentence reports what he said one year ago ('I stood ... and reminded'), so present 'argue' does not fit; the -d merges with 'that' (decodes 'argue' only 0.60 / 0.71); ES 'También afirmé'); spot 25 unit 116 'worth all' -> 'wherewithal' (same sounds; 'give us all the worth all to build nations' does not fit; decodes weak ('worth of to' / 'worth all to', 0.37-0.73); UN 'wherewithal'); spot 26 unit 118 dropped (noise) (recovered 'Thank you.' at 1525.0-1530.8 in the applause: re-decode from 1521 s runs 'God bless you. On behalf of the' with nothing between; from 1519.5 s ends at 'bless you.'; only the re-decode from 1518 s writes 'Thank you' (0.43) at 1522.7, before the unit; ES 'Que Dios los bendiga. Muchas gracias' renders 'I thank you and God bless you')",
+ "unitizer_version": 1,
+ "sha1": "74c13f2c4d8ac3f6b3bbe8885313f19c9f8273b0",
+ "layout": "single",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2701,
+  "words_out": 2643,
+  "retention": 0.9785,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   157,
+   185,
+   148,
+   134,
+   93,
+   202,
+   160,
+   83,
+   176,
+   117,
+   94,
+   198,
+   69,
+   152,
+   154,
+   238,
+   67,
+   172,
+   44
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

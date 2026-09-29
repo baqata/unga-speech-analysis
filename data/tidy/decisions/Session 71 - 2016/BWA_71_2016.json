@@ -1,0 +1,61 @@
+{
+ "id": "BWA_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  10,
+  16,
+  19,
+  22,
+  26,
+  31,
+  35,
+  39,
+  42,
+  45,
+  50,
+  54,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2d13df7af66c69a2fae8adb1458ce3c96b993730",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1807,
+  "words_out": 1807,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   58,
+   71,
+   63,
+   54,
+   199,
+   123,
+   81,
+   87,
+   99,
+   87,
+   115,
+   86,
+   100,
+   122,
+   145,
+   136,
+   181
+  ],
+  "warnings": []
+ }
+}

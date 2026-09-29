@@ -1,0 +1,82 @@
+{
+ "id": "FIN_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  19,
+  25,
+  31,
+  38,
+  41,
+  48,
+  53,
+  59,
+  63,
+  68,
+  75,
+  84,
+  92,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   " [A/670l/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "Weapons In Latin",
+   "Weapons in Latin",
+   "ocr"
+  ],
+  [
+   79,
+   "to he a",
+   "to be a",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "96e0e875f447221aaeaf3433e4e63b48ab7a1c2a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2311,
+  "words_out": 2288,
+  "retention": 0.99,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   149,
+   108,
+   101,
+   137,
+   101,
+   166,
+   117,
+   156,
+   123,
+   155,
+   87,
+   133,
+   127,
+   175,
+   121,
+   137,
+   195
+  ],
+  "warnings": []
+ }
+}

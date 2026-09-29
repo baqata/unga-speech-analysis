@@ -1,0 +1,126 @@
+{
+ "id": "DMA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   167,
+   167,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  7,
+  18,
+  25,
+  33,
+  42,
+  55,
+  70,
+  79,
+  86,
+  94,
+  105,
+  109,
+  123,
+  132,
+  139,
+  145,
+  151,
+  159,
+  162,
+  165
+ ],
+ "cer": [
+  3,
+  165
+ ],
+ "fix": [
+  [
+   12,
+   "in equality",
+   "inequality",
+   "asr_term"
+  ],
+  [
+   28,
+   "fierer",
+   "fairer",
+   "asr_term"
+  ],
+  [
+   154,
+   "justice",
+   "injustice",
+   "asr_term"
+  ],
+  [
+   161,
+   "fierer",
+   "fairer",
+   "asr_term"
+  ],
+  [
+   126,
+   "trust. trust.",
+   "trust.",
+   "asr_term"
+  ],
+  [
+   101,
+   "like. resilient",
+   "like. Resilient",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in English; Spanish channel confirms desigualdad, mas justos, la injusticia; unit 160 ends with the fragment 'words with action.' where the Spanish carries a longer closing passage not in the English transcript. Gap recovery (v4) restored the passage the English had lost at 25:29-25:44 ('Mr. President, let this 81st session be remembered as the moment when we collectively renewed our faith in cooperation and matched our... words with action'; Spanish 'que este octogésimo primer periodo de sesiones quede en el recuerdo como el momento en el que entre todos renovamos nuestra confianza en la cooperación'); it opens the closing paragraph; gap_suspected removed. A lone 'Thank you.' at 00:24 (no thanks in the Spanish): noise. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 126 'trust. trust.' -> 'trust.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 101 'like. resilient' -> 'like. Resilient'",
+ "unitizer_version": 1,
+ "sha1": "2877d799ded3f13814e14335ac95c6fa5de13b45",
+ "layout": "single",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2539,
+  "words_out": 2489,
+  "retention": 0.9803,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   56,
+   143,
+   153,
+   119,
+   154,
+   153,
+   191,
+   115,
+   107,
+   139,
+   141,
+   75,
+   136,
+   104,
+   120,
+   109,
+   145,
+   167,
+   62,
+   88,
+   12
+  ],
+  "warnings": []
+ }
+}

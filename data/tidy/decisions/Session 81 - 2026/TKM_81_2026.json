@@ -1,0 +1,144 @@
+{
+ "id": "TKM_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   61,
+   62,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  10,
+  13,
+  18,
+  23,
+  25,
+  29,
+  33,
+  37,
+  41,
+  47,
+  52,
+  56,
+  60
+ ],
+ "cer": [
+  1,
+  60
+ ],
+ "fix": [
+  [
+   1,
+   "i don't know ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Berdumuhamedov",
+   "Berdimuhamedov",
+   "asr_name"
+  ],
+  [
+   3,
+   "Khalilul Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   4,
+   "Anna-Lena",
+   "Annalena",
+   "asr_name"
+  ],
+  [
+   5,
+   "concreted",
+   "concerted",
+   "asr_term"
+  ],
+  [
+   18,
+   "Ashgabar",
+   "Ashgabat",
+   "asr_name"
+  ],
+  [
+   32,
+   "accessing progress",
+   "assessing progress",
+   "asr_term"
+  ],
+  [
+   42,
+   "severally",
+   "severely",
+   "asr_term"
+  ],
+  [
+   32,
+   "connectivity. a",
+   "connectivity. A",
+   "asr_term"
+  ],
+  [
+   40,
+   "regions. excellencies,",
+   "regions. Excellencies,",
+   "asr_term"
+  ],
+  [
+   24,
+   "Minister",
+   "Ministry",
+   "asr_name"
+  ],
+  [
+   31,
+   "and Initiative",
+   "at the Initiative",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "'i don't know' in unit 1 invented over the walk (no Spanish counterpart); Serdar Berdimuhamedov, Khalilur Rahman, Annalena Baerbock, Ashgabat per Spanish and un.org; concertada, evaluar, gravemente per Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 32 'connectivity. a' -> 'connectivity. A'; unit 40 'regions. excellencies,' -> 'regions. Excellencies,'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 8 unit 24 'Minister' -> 'Ministry' (decodes 'Minister' 0.67 / 0.79, which sounds alike; an institute belongs to 'the Ministry of Foreign Affairs of Turkmenistan' (the Institute of International Relations of the MFA); UN 'Ministry'); spot 9 unit 31 'and Initiative' -> 'at the Initiative' (heard 1 'at the initiative' (0.58 / 0.85), heard 2 'and' 0.46; 'The Proclamation and Initiative for Turkmenistan of the ... Decade' does not fit; ES 'La proclamación a iniciativa Turkmenistán del decenio'; 'and' alone is not unique)",
+ "unitizer_version": 1,
+ "sha1": "bf9093f9051dd7762e81bffa649e3340c5c89080",
+ "layout": "single",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1625,
+  "words_out": 1590,
+  "retention": 0.9785,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   102,
+   158,
+   70,
+   133,
+   103,
+   68,
+   88,
+   111,
+   115,
+   121,
+   172,
+   113,
+   108,
+   122,
+   6
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "id": "TGO_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  18,
+  21,
+  29,
+  31,
+  34,
+  37,
+  40,
+  43,
+  46,
+  50,
+  55,
+  59,
+  63,
+  66,
+  68,
+  71,
+  75,
+  78,
+  80,
+  82,
+  88,
+  91,
+  93,
+  96
+ ],
+ "cer": [
+  4,
+  9,
+  13
+ ],
+ "fix": [
+  [
+   1,
+   "the - Rassemblement",
+   "the Rassemblement",
+   "ocr"
+  ],
+  [
+   14,
+   "it is my pleasant",
+   "It is my pleasant",
+   "ocr"
+  ],
+  [
+   14,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   16,
+   "Since 1 come",
+   "Since I come",
+   "ocr"
+  ],
+  [
+   17,
+   "as 1 welcome",
+   "as I welcome",
+   "ocr"
+  ],
+  [
+   35,
+   "Indiana",
+   "Indians",
+   "ocr"
+  ],
+  [
+   40,
+   " [.SW^FO]",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "with drawn",
+   "withdrawn",
+   "split_word"
+  ],
+  [
+   54,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "frame work",
+   "framework",
+   "split_word"
+  ],
+  [
+   63,
+   " [resolution 35/6]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "sometimes .-minds us",
+   "sometimes reminds us",
+   "ocr"
+  ],
+  [
+   80,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   82,
+   "m tum",
+   "in turn",
+   "ocr"
+  ],
+  [
+   91,
+   "international al peace",
+   "international peace",
+   "ocr"
+  ],
+  [
+   95,
+   "problems— those",
+   "problems—those",
+   "spacing"
+  ],
+  [
+   97,
+   "the United Nations,",
+   "the United Nations.",
+   "ocr"
+  ],
+  [
+   98,
+   "of ail.",
+   "of all.",
+   "ocr"
+  ],
+  [
+   101,
+   "thirty- seventh",
+   "thirty-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 35-36 are garbled with words missing ('representation ' representation', 'development of In fact').",
+ "unitizer_version": 1,
+ "sha1": "2fe0d2170644fa6d3c3ba05db0143c9dc5d2d739",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 55
+  },
+  "words_in": 3641,
+  "words_out": 3625,
+  "retention": 0.9956,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   122,
+   178,
+   141,
+   208,
+   129,
+   224,
+   82,
+   109,
+   157,
+   98,
+   92,
+   103,
+   207,
+   116,
+   105,
+   105,
+   135,
+   78,
+   165,
+   147,
+   54,
+   91,
+   113,
+   169,
+   129,
+   63,
+   127,
+   178
+  ],
+  "warnings": []
+ }
+}

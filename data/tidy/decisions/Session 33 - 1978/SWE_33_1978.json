@@ -1,0 +1,293 @@
+{
+ "id": "SWE_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  6,
+  12,
+  19,
+  30,
+  34,
+  40,
+  47,
+  56,
+  65,
+  74,
+  79,
+  82,
+  89,
+  96,
+  101,
+  110,
+  112,
+  118,
+  125,
+  129,
+  138,
+  143,
+  147,
+  153,
+  160,
+  167,
+  174,
+  178,
+  189,
+  194,
+  201,
+  204,
+  209,
+  218,
+  222,
+  223,
+  228,
+  235,
+  238,
+  244,
+  251,
+  256,
+  262
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   15,
+   "being, persecuted",
+   "being persecuted",
+   "ocr"
+  ],
+  [
+   16,
+   "living m deepest",
+   "living in deepest",
+   "ocr"
+  ],
+  [
+   24,
+   "347 ",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "Obviou5ly",
+   "Obviously",
+   "ocr"
+  ],
+  [
+   96,
+   "362 ",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "hope ;hat",
+   "hope that",
+   "ocr"
+  ],
+  [
+   100,
+   "side by aide",
+   "side by side",
+   "ocr"
+  ],
+  [
+   101,
+   "only he durable",
+   "only be durable",
+   "ocr"
+  ],
+  [
+   107,
+   "will lie evacuated",
+   "will be evacuated",
+   "ocr"
+  ],
+  [
+   111,
+   "must lie spared",
+   "must be spared",
+   "ocr"
+  ],
+  [
+   116,
+   "20",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "non proliferation",
+   "non-proliferation",
+   "ocr"
+  ],
+  [
+   128,
+   "detents",
+   "detente",
+   "ocr"
+  ],
+  [
+   132,
+   "verifications measures",
+   "verification measures",
+   "ocr"
+  ],
+  [
+   139,
+   "outride",
+   "outside",
+   "ocr"
+  ],
+  [
+   163,
+   "prevent- proliferation",
+   "prevent proliferation",
+   "ocr"
+  ],
+  [
+   169,
+   "conference n particularly",
+   "conference on particularly",
+   "ocr"
+  ],
+  [
+   176,
+   "arms :ace",
+   "arms race",
+   "ocr"
+  ],
+  [
+   190,
+   "energy-such",
+   "energy—such",
+   "ocr"
+  ],
+  [
+   203,
+   "States, Awareness",
+   "States. Awareness",
+   "ocr"
+  ],
+  [
+   204,
+   "for till people",
+   "for all people",
+   "ocr"
+  ],
+  [
+   208,
+   "bean painfully",
+   "been painfully",
+   "ocr"
+  ],
+  [
+   213,
+   "Conference on international Economic \"o-operation",
+   "Conference on International Economic Co-operation",
+   "ocr"
+  ],
+  [
+   229,
+   "programme,,.",
+   "programmes.",
+   "ocr"
+  ],
+  [
+   231,
+   "must lie made useful, Women",
+   "must be made useful. Women",
+   "ocr"
+  ],
+  [
+   263,
+   "oppression -indeed",
+   "oppression—indeed",
+   "ocr"
+  ],
+  [
+   263,
+   "solidarity serves",
+   "solidarity—serves",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 250 breaks off at 'a convention against'; the rest of the sentence is missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "c631aee3007b1b8efb3b19a9250c6c271d341d89",
+ "layout": "lines",
+ "stats": {
+  "n_units": 269,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 69
+  },
+  "words_in": 5191,
+  "words_out": 5179,
+  "retention": 0.9977,
+  "n_paragraphs": 47,
+  "paragraph_words": [
+   47,
+   43,
+   41,
+   66,
+   124,
+   106,
+   154,
+   90,
+   131,
+   134,
+   157,
+   160,
+   165,
+   109,
+   75,
+   207,
+   119,
+   123,
+   138,
+   62,
+   143,
+   90,
+   66,
+   137,
+   102,
+   92,
+   110,
+   105,
+   148,
+   123,
+   47,
+   188,
+   84,
+   170,
+   91,
+   75,
+   148,
+   75,
+   43,
+   73,
+   142,
+   62,
+   115,
+   124,
+   100,
+   135,
+   140
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "USA_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  21,
+  25,
+  29,
+  33,
+  36,
+  39,
+  43,
+  47,
+  57,
+  61,
+  67,
+  81,
+  86,
+  90,
+  98,
+  104,
+  108,
+  113,
+  121,
+  126
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   41,
+   "In 13 October",
+   "On 13 October",
+   "ocr"
+  ],
+  [
+   46,
+   " [Af3272]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "Israel,",
+   "Israel.",
+   "ocr"
+  ],
+  [
+   47,
+   "hostilities, The",
+   "hostilities. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "94470f4e7c0fc0a20c916092880f0b1e3c99053a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 2619,
+  "words_out": 2615,
+  "retention": 0.9985,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   50,
+   127,
+   112,
+   159,
+   63,
+   108,
+   73,
+   94,
+   64,
+   116,
+   120,
+   199,
+   62,
+   132,
+   224,
+   92,
+   67,
+   159,
+   108,
+   81,
+   84,
+   138,
+   100,
+   83
+  ],
+  "warnings": []
+ }
+}

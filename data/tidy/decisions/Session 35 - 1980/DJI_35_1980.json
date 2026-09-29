@@ -1,0 +1,143 @@
+{
+ "id": "DJI_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  17,
+  19,
+  23,
+  26,
+  28,
+  32,
+  35,
+  39,
+  43,
+  45,
+  49,
+  56,
+  60,
+  63,
+  66,
+  69,
+  74,
+  76,
+  78,
+  83,
+  85,
+  88,
+  91,
+  96,
+  99,
+  102,
+  105,
+  108
+ ],
+ "cer": [
+  0,
+  5,
+  10,
+  17
+ ],
+ "fix": [
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   25,
+   "Ai Fez",
+   "At Fez",
+   "ocr"
+  ],
+  [
+   27,
+   "Palestinian' people",
+   "Palestinian people",
+   "ocr"
+  ],
+  [
+   41,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   48,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "have- nots",
+   "have-nots",
+   "spacing"
+  ],
+  [
+   67,
+   "1980.'",
+   "1980.",
+   "ocr"
+  ],
+  [
+   85,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba788483781f33bd6ab16802d2e009fcb6bbf081",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3596,
+  "words_out": 3589,
+  "retention": 0.9981,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   114,
+   154,
+   226,
+   48,
+   128,
+   123,
+   81,
+   81,
+   118,
+   129,
+   114,
+   75,
+   120,
+   240,
+   138,
+   91,
+   51,
+   154,
+   91,
+   99,
+   82,
+   138,
+   88,
+   139,
+   86,
+   139,
+   106,
+   120,
+   115,
+   111,
+   90
+  ],
+  "warnings": []
+ }
+}

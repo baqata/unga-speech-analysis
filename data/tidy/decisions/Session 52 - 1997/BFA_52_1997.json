@@ -1,0 +1,78 @@
+{
+ "id": "BFA_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  36,
+  57,
+  74,
+  89,
+  103,
+  122,
+  131,
+  143,
+  154,
+  171,
+  195,
+  213,
+  237
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   205,
+   " [Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   206,
+   "General Assembly, Fifty-first Session, Plenary",
+   "",
+   "label"
+  ],
+  [
+   207,
+   "Meetings, 20th meeting, p. 24]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c74d1f7eda014d8e24bcd1bd86725c07e54e755b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2103,
+  "words_out": 2087,
+  "retention": 0.9924,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   104,
+   174,
+   177,
+   134,
+   128,
+   118,
+   152,
+   80,
+   113,
+   96,
+   151,
+   202,
+   121,
+   203,
+   134
+  ],
+  "warnings": []
+ }
+}

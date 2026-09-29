@@ -1,0 +1,104 @@
+{
+ "id": "BRB_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  16,
+  24,
+  30,
+  35,
+  39,
+  46,
+  52,
+  62,
+  67,
+  71,
+  74,
+  80,
+  83,
+  90,
+  100,
+  109,
+  117,
+  120,
+  125,
+  132,
+  136,
+  143,
+  151,
+  156,
+  164
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   29,
+   "they t persist",
+   "they persist",
+   "ocr"
+  ],
+  [
+   44,
+   "-the United",
+   "the United",
+   "ocr"
+  ],
+  [
+   114,
+   "Chatter",
+   "Charter",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c467a43d1e95d81cd6ab3b1c4a54371b8f8a4cc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 4528,
+  "words_out": 4525,
+  "retention": 0.9993,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   69,
+   169,
+   224,
+   204,
+   208,
+   145,
+   102,
+   150,
+   223,
+   220,
+   173,
+   113,
+   109,
+   235,
+   120,
+   201,
+   181,
+   135,
+   194,
+   100,
+   111,
+   185,
+   117,
+   153,
+   155,
+   200,
+   213,
+   116
+  ],
+  "warnings": []
+ }
+}

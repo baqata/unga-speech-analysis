@@ -1,0 +1,182 @@
+{
+ "id": "SGP_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  16,
+  22,
+  28,
+  32,
+  39,
+  46,
+  50,
+  56,
+  61,
+  69,
+  71,
+  75,
+  83,
+  90
+ ],
+ "cer": [
+  0,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   2,
+   "col leagues",
+   "colleagues",
+   "split_word"
+  ],
+  [
+   4,
+   "thirty- fifth",
+   "thirty-fifth",
+   "ocr"
+  ],
+  [
+   5,
+   "Commonwealth-,",
+   "Commonwealth,",
+   "ocr"
+  ],
+  [
+   5,
+   "Organization. /",
+   "Organization.",
+   "ocr"
+  ],
+  [
+   7,
+   "thirty- sixth",
+   "thirty-sixth",
+   "ocr"
+  ],
+  [
+   14,
+   "every where",
+   "everywhere",
+   "split_word"
+  ],
+  [
+   14,
+   "Second* World",
+   "Second World",
+   "ocr"
+  ],
+  [
+   25,
+   "be hind",
+   "behind",
+   "split_word"
+  ],
+  [
+   58,
+   "re-spect",
+   "respect",
+   "hyphen"
+  ],
+  [
+   59,
+   "sub-scribes",
+   "subscribes",
+   "hyphen"
+  ],
+  [
+   60,
+   "stake armed",
+   "take armed",
+   "ocr"
+  ],
+  [
+   60,
+   "dis agreements",
+   "disagreements",
+   "split_word"
+  ],
+  [
+   61,
+   "regard, to",
+   "regard to",
+   "ocr"
+  ],
+  [
+   64,
+   "against a violators",
+   "against a violator",
+   "ocr"
+  ],
+  [
+   70,
+   "with out",
+   "without",
+   "split_word"
+  ],
+  [
+   79,
+   "en-shrined",
+   "enshrined",
+   "hyphen"
+  ],
+  [
+   86,
+   "they arc not",
+   "they are not",
+   "ocr"
+  ],
+  [
+   88,
+   "attention op these",
+   "attention on these",
+   "ocr"
+  ],
+  [
+   90,
+   "United, Nations",
+   "United Nations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c198cf93d3b6b76435e063e84bc2f3cd41e65ba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2086,
+  "words_out": 2075,
+  "retention": 0.9947,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   92,
+   38,
+   38,
+   160,
+   127,
+   129,
+   88,
+   109,
+   150,
+   92,
+   180,
+   97,
+   172,
+   63,
+   127,
+   175,
+   170,
+   68
+  ],
+  "warnings": []
+ }
+}

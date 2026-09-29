@@ -1,0 +1,116 @@
+{
+ "id": "DZA_44_1989",
+ "drop": [
+  [
+   25,
+   25,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  6,
+  7,
+  10,
+  17,
+  19,
+  23,
+  26,
+  31,
+  34,
+  36,
+  40,
+  42,
+  45,
+  47,
+  50,
+  53,
+  56,
+  58,
+  60,
+  63,
+  68,
+  72
+ ],
+ "cer": [
+  0,
+  1,
+  6
+ ],
+ "fix": [
+  [
+   23,
+   "Mahgreb.-",
+   "Mahgreb",
+   "ocr"
+  ],
+  [
+   34,
+   "Adjtoc",
+   "Ad Hoc",
+   "ocr"
+  ],
+  [
+   70,
+   "washes to express",
+   "wishes to express",
+   "ocr"
+  ],
+  [
+   45,
+   "AS an",
+   "as an",
+   "ocr"
+  ],
+  [
+   55,
+   "(1987) .",
+   "(1987).",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc49b595315534db8fd59755830a433172588311",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2322,
+  "words_out": 2321,
+  "retention": 0.9996,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   45,
+   104,
+   42,
+   82,
+   160,
+   73,
+   135,
+   89,
+   171,
+   93,
+   71,
+   135,
+   70,
+   99,
+   83,
+   97,
+   95,
+   68,
+   67,
+   74,
+   99,
+   131,
+   155,
+   83
+  ],
+  "warnings": []
+ }
+}

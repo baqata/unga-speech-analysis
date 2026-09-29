@@ -1,0 +1,127 @@
+{
+ "id": "LSO_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  19,
+  27,
+  33,
+  37,
+  45,
+  49,
+  53,
+  62,
+  70,
+  75,
+  79,
+  83,
+  85,
+  89
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "permits me",
+   "permit me",
+   "ocr"
+  ],
+  [
+   8,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   11,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   14,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   27,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   34,
+   "East West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   41,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   49,
+   "Iraqi Iranian",
+   "Iraqi-Iranian",
+   "spacing"
+  ],
+  [
+   51,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   79,
+   " [ANC]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68d79655434c9ed5ad4da9e220411278f5a5f695",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2350,
+  "words_out": 2341,
+  "retention": 0.9962,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   145,
+   161,
+   112,
+   156,
+   203,
+   162,
+   77,
+   132,
+   75,
+   105,
+   182,
+   170,
+   106,
+   125,
+   146,
+   93,
+   126,
+   65
+  ],
+  "warnings": []
+ }
+}

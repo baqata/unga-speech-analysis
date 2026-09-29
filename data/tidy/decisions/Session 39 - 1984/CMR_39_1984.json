@@ -1,0 +1,163 @@
+{
+ "id": "CMR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  19,
+  21,
+  23,
+  28,
+  33,
+  36,
+  41,
+  46,
+  51,
+  55,
+  58,
+  65,
+  70,
+  78,
+  80,
+  83,
+  86,
+  89,
+  92,
+  95,
+  99,
+  100,
+  107,
+  111,
+  116,
+  122,
+  126,
+  129,
+  135,
+  141,
+  145,
+  149,
+  154,
+  159,
+  163
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "the- well-deserved",
+   "the well-deserved",
+   "ocr"
+  ],
+  [
+   42,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   " [ANC]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "beneficiaries—-with",
+   "beneficiaries—with",
+   "ocr"
+  ],
+  [
+   74,
+   "ail those",
+   "all those",
+   "ocr"
+  ],
+  [
+   94,
+   "non-interference hi the",
+   "non-interference in the",
+   "ocr"
+  ],
+  [
+   98,
+   "inherent in me current",
+   "inherent in the current",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9fa29a543ca139e14946af2e7564c41537c812b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 62
+  },
+  "words_in": 5496,
+  "words_out": 5492,
+  "retention": 0.9993,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   162,
+   170,
+   148,
+   141,
+   112,
+   80,
+   125,
+   134,
+   121,
+   134,
+   199,
+   178,
+   184,
+   93,
+   238,
+   151,
+   211,
+   68,
+   77,
+   141,
+   110,
+   83,
+   135,
+   146,
+   65,
+   176,
+   134,
+   196,
+   150,
+   129,
+   87,
+   142,
+   162,
+   137,
+   102,
+   219,
+   147,
+   119,
+   186
+  ],
+  "warnings": []
+ }
+}

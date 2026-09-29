@@ -1,0 +1,195 @@
+{
+ "id": "CHL_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  23,
+  26,
+  30,
+  34,
+  43,
+  47,
+  49,
+  52,
+  55,
+  60,
+  63,
+  66,
+  69,
+  74,
+  78,
+  84,
+  86,
+  88,
+  96,
+  99,
+  104,
+  106,
+  110,
+  112,
+  115,
+  120,
+  124,
+  128,
+  133,
+  136,
+  138,
+  142,
+  146,
+  149,
+  153,
+  159,
+  164,
+  169,
+  176
+ ],
+ "cer": [
+  0,
+  169
+ ],
+ "fix": [
+  [
+   4,
+   "hone sty",
+   "honesty",
+   "split_word"
+  ],
+  [
+   23,
+   "ail developing",
+   "all developing",
+   "ocr"
+  ],
+  [
+   55,
+   "United Sates",
+   "United States",
+   "ocr"
+  ],
+  [
+   56,
+   "America;,",
+   "America,",
+   "ocr"
+  ],
+  [
+   59,
+   "the“cumulative",
+   "the “cumulative",
+   "spacing"
+  ],
+  [
+   66,
+   "\"rays",
+   "ways",
+   "ocr"
+  ],
+  [
+   87,
+   "Maritian",
+   "Maritain",
+   "ocr"
+  ],
+  [
+   91,
+   "American.",
+   "American",
+   "ocr"
+  ],
+  [
+   98,
+   "rights*",
+   "rights,",
+   "ocr"
+  ],
+  [
+   98,
+   "entirety .",
+   "entirety.",
+   "spacing"
+  ],
+  [
+   117,
+   "other ( countries",
+   "other countries",
+   "ocr"
+  ],
+  [
+   139,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   148,
+   "ah abstract",
+   "an abstract",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b2479bc919a0bfb810df59099e126b154e64cea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 5493,
+  "words_out": 5489,
+  "retention": 0.9993,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   52,
+   193,
+   125,
+   222,
+   93,
+   139,
+   116,
+   187,
+   145,
+   74,
+   103,
+   76,
+   197,
+   72,
+   78,
+   98,
+   150,
+   118,
+   150,
+   118,
+   114,
+   186,
+   147,
+   138,
+   93,
+   128,
+   108,
+   96,
+   145,
+   115,
+   224,
+   154,
+   82,
+   73,
+   133,
+   150,
+   65,
+   111,
+   178,
+   79,
+   105,
+   277,
+   82
+  ],
+  "warnings": []
+ }
+}

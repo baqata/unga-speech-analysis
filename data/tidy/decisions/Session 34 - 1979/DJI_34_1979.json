@@ -1,0 +1,110 @@
+{
+ "id": "DJI_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  15,
+  20,
+  28,
+  35,
+  40,
+  44,
+  53,
+  57,
+  62,
+  67,
+  71,
+  75,
+  79,
+  83
+ ],
+ "cer": [
+  0,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   30,
+   "political',",
+   "political,",
+   "ocr"
+  ],
+  [
+   49,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "1978.'",
+   "1978.",
+   "ocr"
+  ],
+  [
+   61,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   67,
+   "Nations.2 The",
+   "Nations. The",
+   "ocr"
+  ],
+  [
+   68,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b627c118e6299c03728710d07f720e1f6ffd722",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2645,
+  "words_out": 2640,
+  "retention": 0.9981,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   138,
+   126,
+   88,
+   151,
+   163,
+   177,
+   214,
+   122,
+   171,
+   205,
+   104,
+   131,
+   149,
+   212,
+   150,
+   130,
+   91,
+   118
+  ],
+  "warnings": []
+ }
+}

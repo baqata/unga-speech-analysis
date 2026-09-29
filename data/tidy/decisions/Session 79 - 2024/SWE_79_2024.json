@@ -1,0 +1,62 @@
+{
+ "id": "SWE_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  18,
+  24,
+  34,
+  43,
+  52,
+  60,
+  63,
+  68,
+  71,
+  75,
+  80,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   " (see A/79/ PV.9)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "212036cd2a523b0bd80c0a276fcdf89ec964a300",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1890,
+  "words_out": 1885,
+  "retention": 0.9974,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   82,
+   136,
+   194,
+   122,
+   183,
+   206,
+   145,
+   160,
+   75,
+   85,
+   79,
+   93,
+   86,
+   111,
+   128
+  ],
+  "warnings": []
+ }
+}

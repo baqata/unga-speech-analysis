@@ -1,0 +1,49 @@
+{
+ "id": "EST_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  26,
+  47,
+  75,
+  97,
+  108,
+  126,
+  143,
+  157
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "940b63f872e96ecc5fe72f72a96e38f0ef45dd72",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1227,
+  "words_out": 1226,
+  "retention": 0.9992,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   52,
+   142,
+   168,
+   212,
+   153,
+   79,
+   150,
+   124,
+   104,
+   42
+  ],
+  "warnings": []
+ }
+}

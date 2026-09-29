@@ -1,0 +1,55 @@
+{
+ "id": "SOM_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  36,
+  59,
+  80,
+  105,
+  128,
+  147,
+  170,
+  183,
+  200,
+  222,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "065e2b8487fa0ef37cd62aed191324ea990f22fb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 250,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1855,
+  "words_out": 1852,
+  "retention": 0.9984,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   129,
+   143,
+   161,
+   159,
+   191,
+   174,
+   135,
+   160,
+   105,
+   129,
+   156,
+   141,
+   69
+  ],
+  "warnings": []
+ }
+}

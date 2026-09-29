@@ -1,0 +1,49 @@
+{
+ "id": "FIN_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  24,
+  33,
+  44,
+  63,
+  80,
+  104,
+  127,
+  144
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e96a0e6f9ab9ad7a5a3ddb3ea68ac52137cccd5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1219,
+  "words_out": 1218,
+  "retention": 0.9992,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   54,
+   132,
+   74,
+   89,
+   137,
+   128,
+   177,
+   163,
+   116,
+   148
+  ],
+  "warnings": []
+ }
+}

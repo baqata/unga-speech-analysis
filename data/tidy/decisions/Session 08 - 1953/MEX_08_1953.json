@@ -1,0 +1,101 @@
+{
+ "id": "MEX_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  18,
+  22,
+  29,
+  36,
+  39,
+  46,
+  51,
+  54,
+  60,
+  63,
+  67,
+  72,
+  76,
+  83,
+  86,
+  92,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   39,
+   "self- government",
+   "self-government",
+   "hyphen"
+  ],
+  [
+   60,
+   "(VII).",
+   "(VII)",
+   "ocr"
+  ],
+  [
+   86,
+   "hich",
+   "which",
+   "ocr"
+  ],
+  [
+   93,
+   "reasonable,",
+   "reasonable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e735fe91f6f16c36778e54abecd586641b11f264",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 39
+  },
+  "words_in": 3634,
+  "words_out": 3629,
+  "retention": 0.9986,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   202,
+   163,
+   191,
+   172,
+   234,
+   174,
+   165,
+   291,
+   248,
+   126,
+   181,
+   143,
+   117,
+   189,
+   125,
+   197,
+   141,
+   280,
+   261,
+   29
+  ],
+  "warnings": []
+ }
+}

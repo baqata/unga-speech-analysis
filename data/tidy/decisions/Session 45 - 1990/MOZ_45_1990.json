@@ -1,0 +1,104 @@
+{
+ "id": "MOZ_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  16,
+  18,
+  22,
+  30,
+  35,
+  40,
+  42,
+  47,
+  50,
+  54,
+  58,
+  63,
+  69,
+  71,
+  74,
+  77,
+  80,
+  83,
+  86,
+  91,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "us., Serious",
+   "us. Serious",
+   "ocr"
+  ],
+  [
+   36,
+   "nay be",
+   "may be",
+   "ocr"
+  ],
+  [
+   38,
+   "AHC",
+   "ANC",
+   "ocr"
+  ],
+  [
+   56,
+   "people. '",
+   "people.",
+   "encoding"
+  ],
+  [
+   87,
+   "o£",
+   "of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "42c79fb3f62a9a9c5bc121e7bf879f0a0d9873ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2929,
+  "words_out": 2928,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   217,
+   207,
+   98,
+   122,
+   238,
+   207,
+   133,
+   47,
+   160,
+   118,
+   112,
+   98,
+   131,
+   185,
+   62,
+   151,
+   85,
+   92,
+   74,
+   51,
+   139,
+   153,
+   48
+  ],
+  "warnings": []
+ }
+}

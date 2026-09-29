@@ -1,0 +1,111 @@
+{
+ "id": "TGO_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   175,
+   177,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  7,
+  14,
+  27,
+  43,
+  49,
+  52,
+  57,
+  69,
+  80,
+  89,
+  111,
+  116,
+  122,
+  124,
+  130,
+  139,
+  148,
+  157,
+  163,
+  174
+ ],
+ "cer": [
+  1,
+  4,
+  174
+ ],
+ "fix": [
+  [
+   1,
+   "the ATF Session",
+   "the 80th Session",
+   "asr_term"
+  ],
+  [
+   1,
+   "Excellency, Foreign Minister Zimna Nyazingbi, the",
+   "Excellency, Faure Essozimna Gnassingbé, the",
+   "asr_name"
+  ],
+  [
+   1,
+   "Madam Annaleka",
+   "Madam Annalena",
+   "asr_name"
+  ],
+  [
+   1,
+   "this ATF Session",
+   "this 80th Session",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 124 is the speaker's French original leaking before the interpretation and is kept; unit 175 'Muchas gracias.' is taken as the presiding officer's.",
+ "unitizer_version": 1,
+ "sha1": "27186eb820b4249cf27386ea95a7b641c7da35c4",
+ "layout": "single",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 3185,
+  "words_out": 3143,
+  "retention": 0.9868,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   151,
+   76,
+   129,
+   192,
+   213,
+   159,
+   71,
+   110,
+   196,
+   237,
+   117,
+   212,
+   65,
+   120,
+   109,
+   148,
+   164,
+   158,
+   167,
+   158,
+   188,
+   3
+  ],
+  "warnings": []
+ }
+}

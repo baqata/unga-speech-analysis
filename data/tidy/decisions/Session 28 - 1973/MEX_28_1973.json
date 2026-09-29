@@ -1,0 +1,256 @@
+{
+ "id": "MEX_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  16,
+  19,
+  21,
+  27,
+  30,
+  34,
+  38,
+  40,
+  42,
+  44,
+  46,
+  49,
+  52,
+  56,
+  58,
+  62,
+  64,
+  65,
+  67,
+  68,
+  70,
+  72,
+  74,
+  76,
+  81,
+  84,
+  89,
+  92,
+  96,
+  99,
+  109,
+  114,
+  115,
+  116,
+  121,
+  127
+ ],
+ "cer": [
+  0,
+  27
+ ],
+ "fix": [
+  [
+   0,
+   " [OPANAL]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "one , persecuted",
+   "one persecuted",
+   "ocr"
+  ],
+  [
+   18,
+   "situation, .",
+   "situation.",
+   "ocr"
+  ],
+  [
+   19,
+   "countries — , whose",
+   "countries — whose",
+   "ocr"
+  ],
+  [
+   26,
+   "end,",
+   "end.",
+   "ocr"
+  ],
+  [
+   45,
+   "Domingo,1 have",
+   "Domingo, have",
+   "ocr"
+  ],
+  [
+   45,
+   "zone1',",
+   "zone\",",
+   "ocr"
+  ],
+  [
+   45,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   " [A/9141-DC/236]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [resolution 1378 (XIV)}",
+   "",
+   "label"
+  ],
+  [
+   63,
+   " [A/9191]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "Tlatelolco2 —",
+   "Tlatelolco —",
+   "ocr"
+  ],
+  [
+   78,
+   " [FAO]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "products, They",
+   "products. They",
+   "ocr"
+  ],
+  [
+   82,
+   " [GAIT]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   " [IMF]",
+   "",
+   "label"
+  ],
+  [
+   85,
+   "L6pez",
+   "López",
+   "ocr"
+  ],
+  [
+   89,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "States.3 The",
+   "States. The",
+   "ocr"
+  ],
+  [
+   91,
+   "Committee.''",
+   "Committee.",
+   "ocr"
+  ],
+  [
+   114,
+   "trade,",
+   "trade.",
+   "ocr"
+  ],
+  [
+   119,
+   "war, Let",
+   "war. Let",
+   "ocr"
+  ],
+  [
+   52,
+   " [resolution 2602E(XXIV)]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [resolution 2602 E (XXIV)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c05fd054f0307f019344b1f147f6850d5432ba7c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 51
+  },
+  "words_in": 4226,
+  "words_out": 4203,
+  "retention": 0.9946,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   132,
+   217,
+   103,
+   100,
+   108,
+   114,
+   66,
+   64,
+   125,
+   101,
+   74,
+   103,
+   83,
+   148,
+   72,
+   150,
+   150,
+   181,
+   127,
+   62,
+   113,
+   67,
+   124,
+   82,
+   94,
+   114,
+   172,
+   100,
+   122,
+   168,
+   114,
+   97,
+   115,
+   70,
+   63,
+   92,
+   88,
+   95,
+   33
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

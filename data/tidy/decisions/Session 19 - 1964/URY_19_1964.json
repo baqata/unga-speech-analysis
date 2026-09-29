@@ -1,0 +1,172 @@
+{
+ "id": "URY_19_1964",
+ "drop": [
+  [
+   15,
+   15,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  10,
+  12,
+  16,
+  20,
+  22,
+  26,
+  32,
+  33,
+  36,
+  37,
+  39,
+  42,
+  44,
+  46,
+  49,
+  52,
+  55,
+  60,
+  63,
+  67,
+  69,
+  71,
+  75,
+  78,
+  81,
+  85,
+  90,
+  93,
+  95,
+  100,
+  108,
+  109,
+  114,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "the Anglo- Saxon system",
+   "the Anglo-Saxon system",
+   "hyphen"
+  ],
+  [
+   30,
+   "that Anglo- Saxon law",
+   "that Anglo-Saxon law",
+   "hyphen"
+  ],
+  [
+   34,
+   "Council oi’ even",
+   "Council or even",
+   "ocr"
+  ],
+  [
+   68,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   72,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   81,
+   "only lay virtue",
+   "only by virtue",
+   "ocr"
+  ],
+  [
+   84,
+   "owner ship",
+   "ownership",
+   "split_word"
+  ],
+  [
+   92,
+   "also toy the",
+   "also by the",
+   "ocr"
+  ],
+  [
+   99,
+   "territorial, integrity",
+   "territorial integrity",
+   "ocr"
+  ],
+  [
+   117,
+   "Secretary-General',",
+   "Secretary-General,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1b8f93f15a5b05e4a275469f52a8a5e393b71089",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 5244,
+  "words_out": 5238,
+  "retention": 0.9989,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   193,
+   162,
+   77,
+   64,
+   70,
+   166,
+   84,
+   157,
+   178,
+   72,
+   220,
+   62,
+   116,
+   155,
+   71,
+   122,
+   179,
+   121,
+   161,
+   232,
+   96,
+   115,
+   224,
+   93,
+   178,
+   88,
+   180,
+   240,
+   226,
+   160,
+   127,
+   199,
+   272,
+   56,
+   143,
+   116,
+   63
+  ],
+  "warnings": []
+ }
+}

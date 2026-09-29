@@ -1,0 +1,88 @@
+{
+ "id": "BFA_72_2017",
+ "drop": [
+  [
+   35,
+   35,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  11,
+  14,
+  18,
+  25,
+  30,
+  36,
+  39,
+  45,
+  52,
+  55,
+  59
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   27,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   48,
+   "Nuclear-Test- Ban",
+   "Nuclear-Test-Ban",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "88dd850cd972c108fa1a216d501249596588b6a3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1772,
+  "words_out": 1762,
+  "retention": 0.9944,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   78,
+   90,
+   122,
+   115,
+   80,
+   126,
+   197,
+   142,
+   147,
+   98,
+   124,
+   192,
+   89,
+   92,
+   70
+  ],
+  "warnings": [
+   "procedural drop [35,35] in the middle of the speech"
+  ]
+ }
+}

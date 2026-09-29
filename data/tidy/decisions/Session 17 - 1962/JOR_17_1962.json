@@ -1,0 +1,123 @@
+{
+ "id": "JOR_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  11,
+  14,
+  17,
+  21,
+  24,
+  30,
+  33,
+  35,
+  37,
+  40,
+  42,
+  45,
+  48,
+  52,
+  55,
+  59,
+  65,
+  67,
+  69,
+  74,
+  78,
+  82,
+  86,
+  89,
+  92,
+  95,
+  99,
+  103,
+  107
+ ],
+ "cer": [
+  4,
+  69,
+  74,
+  107
+ ],
+ "fix": [
+  [
+   18,
+   "progress,",
+   "progress.",
+   "ocr"
+  ],
+  [
+   31,
+   "criteria;",
+   "criteria,",
+   "ocr"
+  ],
+  [
+   89,
+   "Committee, will",
+   "Committee will",
+   "ocr"
+  ],
+  [
+   107,
+   "we. shall",
+   "we shall",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c52ac1542c2ff19dc41d7d46965885cfa5c3c77c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3589,
+  "words_out": 3589,
+  "retention": 1.0,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   98,
+   77,
+   85,
+   174,
+   106,
+   81,
+   156,
+   102,
+   140,
+   91,
+   96,
+   85,
+   126,
+   99,
+   128,
+   67,
+   114,
+   65,
+   168,
+   136,
+   117,
+   79,
+   143,
+   161,
+   128,
+   104,
+   102,
+   100,
+   89,
+   98,
+   117,
+   119,
+   38
+  ],
+  "warnings": []
+ }
+}

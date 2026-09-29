@@ -1,0 +1,61 @@
+{
+ "id": "JOR_62_2007",
+ "drop": [
+  [
+   11,
+   11,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  23,
+  32,
+  51,
+  63,
+  80,
+  95,
+  116,
+  128,
+  143,
+  154,
+  176
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "252708fbe953b466346257d771630f3297c643f3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1485,
+  "words_out": 1479,
+  "retention": 0.996,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   97,
+   83,
+   77,
+   168,
+   104,
+   127,
+   112,
+   162,
+   98,
+   117,
+   85,
+   165,
+   84
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "BGR_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  32,
+  56,
+  80,
+  92,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d7f7a538f5484b9d89671cec71d2b60261a3fa2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 979,
+  "words_out": 978,
+  "retention": 0.999,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   57,
+   189,
+   200,
+   191,
+   102,
+   142,
+   97
+  ],
+  "warnings": []
+ }
+}

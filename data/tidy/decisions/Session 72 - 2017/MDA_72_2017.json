@@ -1,0 +1,70 @@
+{
+ "id": "MDA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  15,
+  18,
+  21,
+  25,
+  28,
+  31,
+  34,
+  35,
+  38,
+  41,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "integritye",
+   "integrity",
+   "ocr"
+  ],
+  [
+   45,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a370d30277b5e5ae0009b65a6438784edd9eb88",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1631,
+  "words_out": 1630,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   112,
+   145,
+   85,
+   62,
+   85,
+   83,
+   181,
+   103,
+   89,
+   99,
+   63,
+   95,
+   77,
+   178,
+   173
+  ],
+  "warnings": []
+ }
+}

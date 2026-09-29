@@ -1,0 +1,76 @@
+{
+ "id": "YEM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   57,
+   65,
+   "repeat"
+  ],
+  [
+   66,
+   69,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  8,
+  15,
+  24,
+  28,
+  33,
+  36,
+  44,
+  49,
+  55
+ ],
+ "cer": [
+  2,
+  55
+ ],
+ "fix": [
+  [
+   3,
+   "Anna-Lene Eberbog",
+   "Annalena Baerbock",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 56 to 65 are a loop of 'Thank you.' during applause; the first is kept and the rest dropped as repeat.",
+ "unitizer_version": 1,
+ "sha1": "96396d32386561d50065dec176e2c4f75306776e",
+ "layout": "single",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "presider": 6,
+   "repeat": 9
+  },
+  "prestrip": {},
+  "words_in": 1728,
+  "words_out": 1645,
+  "retention": 0.952,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   125,
+   109,
+   242,
+   215,
+   90,
+   180,
+   122,
+   242,
+   146,
+   161,
+   13
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "id": "NOR_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  13,
+  18,
+  24,
+  28,
+  31,
+  34,
+  37,
+  41,
+  45,
+  47,
+  50,
+  54,
+  57,
+  60,
+  63,
+  71,
+  75,
+  77,
+  80,
+  87,
+  91,
+  94,
+  98,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   44,
+   " [see A/C.5/L.793 and Corr.1 and Add.1 and 2]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "the like, It is",
+   "the like. It is",
+   "ocr"
+  ],
+  [
+   53,
+   "Secretary-General,",
+   "Secretary-General.",
+   "ocr"
+  ],
+  [
+   56,
+   "upon them,",
+   "upon them.",
+   "ocr"
+  ],
+  [
+   62,
+   "work of the United Nations,",
+   "work of the United Nations.",
+   "ocr"
+  ],
+  [
+   88,
+   "theinspiringpossibiliti.es",
+   "the inspiring possibilities",
+   "merged_word"
+  ],
+  [
+   94,
+   "education, Education",
+   "education. Education",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e74e96ec238736aacbbf1b8b857250552de08b26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 38
+  },
+  "words_in": 3208,
+  "words_out": 3202,
+  "retention": 0.9981,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   37,
+   132,
+   65,
+   100,
+   142,
+   200,
+   94,
+   73,
+   98,
+   93,
+   92,
+   165,
+   100,
+   85,
+   146,
+   74,
+   83,
+   132,
+   246,
+   126,
+   98,
+   95,
+   168,
+   126,
+   74,
+   136,
+   132,
+   90
+  ],
+  "warnings": []
+ }
+}

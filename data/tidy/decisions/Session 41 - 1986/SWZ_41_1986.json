@@ -1,0 +1,89 @@
+{
+ "id": "SWZ_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  7,
+  10,
+  13,
+  16,
+  20,
+  24,
+  29,
+  34,
+  38,
+  42,
+  47,
+  54
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   24,
+   "ray Government",
+   "my Government",
+   "ocr"
+  ],
+  [
+   30,
+   "M/ delegation",
+   "My delegation",
+   "ocr"
+  ],
+  [
+   55,
+   "united Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   56,
+   "Member s",
+   "Members",
+   "split_word"
+  ],
+  [
+   56,
+   "united Nations",
+   "United Nations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "24ade35fd9814ef05d9246451192602293e538f7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1334,
+  "words_out": 1333,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   102,
+   39,
+   92,
+   70,
+   53,
+   66,
+   66,
+   97,
+   116,
+   93,
+   101,
+   71,
+   130,
+   181,
+   56
+  ],
+  "warnings": []
+ }
+}

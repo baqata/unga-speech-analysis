@@ -1,0 +1,86 @@
+{
+ "id": "AGO_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  4,
+  7,
+  11,
+  13,
+  17,
+  21,
+  23,
+  27,
+  30,
+  33,
+  37,
+  40,
+  43,
+  47,
+  49,
+  53
+ ],
+ "cer": [
+  2,
+  4,
+  53
+ ],
+ "fix": [
+  [
+   5,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   37,
+   "CERT",
+   "Sirte",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0054c639493aa98e5d5b25fddc49c973ecb623d9",
+ "layout": "single",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2739,
+  "words_out": 2706,
+  "retention": 0.988,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   21,
+   71,
+   172,
+   227,
+   164,
+   182,
+   195,
+   203,
+   196,
+   205,
+   159,
+   146,
+   142,
+   147,
+   193,
+   126,
+   146,
+   11
+  ],
+  "warnings": []
+ }
+}

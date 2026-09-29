@@ -1,0 +1,138 @@
+{
+ "id": "ECU_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  9,
+  12,
+  16,
+  20,
+  24,
+  28,
+  32,
+  36,
+  38,
+  40,
+  47,
+  51,
+  56,
+  61,
+  69,
+  71,
+  77,
+  81,
+  85,
+  88,
+  91,
+  92,
+  94,
+  98,
+  101,
+  102,
+  106,
+  108,
+  113,
+  118,
+  122,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "tom by",
+   "torn by",
+   "ocr"
+  ],
+  [
+   49,
+   "violation, of",
+   "violation of",
+   "ocr"
+  ],
+  [
+   49,
+   "it is, absurd",
+   "it is absurd",
+   "ocr"
+  ],
+  [
+   63,
+   " [A/8701lAdd.l, p. 3]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "concern- that",
+   "concern that",
+   "ocr"
+  ],
+  [
+   89,
+   "adjacent! to",
+   "adjacent to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0701d4002b6b539635d843beb99b260661568fc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 4920,
+  "words_out": 4911,
+  "retention": 0.9982,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   66,
+   128,
+   90,
+   84,
+   153,
+   216,
+   104,
+   116,
+   154,
+   100,
+   111,
+   113,
+   61,
+   206,
+   131,
+   173,
+   182,
+   227,
+   62,
+   244,
+   229,
+   159,
+   149,
+   177,
+   78,
+   109,
+   155,
+   142,
+   114,
+   120,
+   80,
+   142,
+   140,
+   150,
+   87,
+   159
+  ],
+  "warnings": []
+ }
+}

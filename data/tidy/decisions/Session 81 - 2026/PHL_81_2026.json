@@ -1,0 +1,123 @@
+{
+ "id": "PHL_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   83,
+   83,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  13,
+  19,
+  29,
+  36,
+  46,
+  54,
+  61,
+  64,
+  70,
+  73,
+  75,
+  82
+ ],
+ "cer": [
+  82
+ ],
+ "fix": [
+  [
+   2,
+   "Now you can take the There's an additional measure of... die ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "tear of the fabric",
+   "tear at the fabric",
+   "asr_term"
+  ],
+  [
+   4,
+   "Their political competition",
+   "Geopolitical competition",
+   "asr_term"
+  ],
+  [
+   30,
+   "accessible SDG targets",
+   "assessable SDG targets",
+   "asr_term"
+  ],
+  [
+   52,
+   "endured many others",
+   "injured many others",
+   "asr_term"
+  ],
+  [
+   68,
+   "apartheid in all forms",
+   "apartheid and all forms",
+   "asr_term"
+  ],
+  [
+   2,
+   "uncertainty. and",
+   "uncertainty and",
+   "asr_term"
+  ],
+  [
+   38,
+   "divides. but",
+   "divides. But",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Hall chatter glued to the start of unit 2 removed; 'competencia geopolítica', 'evaluables' and 'y de todas las formas' per the Spanish; the stray full stop after 'uncertainty' in unit 2 is left as transcribed. Main-agent audit: unit 2 full stop after 'relentless uncertainty' is the second pass's segment end; the sentence runs on ('and deep unpredictability'). Unit 62 '90% of global data' kept (p 1.00 in three re-decodes; the speaker's own words; Spanish '99%'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 38 'divides. but' -> 'divides. But'. Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 2 false stop removed without a mark (re-decode runs on, 'uncertainty@37.5 and@38.2 deep').",
+ "unitizer_version": 1,
+ "sha1": "d62c5283f5d8db9d9093ce71ca9e64cbe897f79d",
+ "layout": "single",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1581,
+  "words_out": 1539,
+  "retention": 0.9734,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   115,
+   67,
+   138,
+   146,
+   129,
+   172,
+   142,
+   168,
+   84,
+   93,
+   73,
+   48,
+   160,
+   4
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "BDI_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  21,
+  23,
+  31,
+  38,
+  43,
+  46,
+  52,
+  55,
+  62,
+  67,
+  71,
+  75
+ ],
+ "cer": [
+  0,
+  75
+ ],
+ "fix": [
+  [
+   63,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "779ef83b06ff408319237051e9ba9cae62a22bd9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1790,
+  "words_out": 1788,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   128,
+   93,
+   118,
+   168,
+   62,
+   135,
+   153,
+   165,
+   67,
+   124,
+   99,
+   144,
+   118,
+   89,
+   114,
+   11
+  ],
+  "warnings": []
+ }
+}

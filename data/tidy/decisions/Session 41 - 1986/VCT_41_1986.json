@@ -1,0 +1,50 @@
+{
+ "id": "VCT_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  9,
+  12,
+  15
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "ay delegation's",
+   "my delegation's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9736dea9d87176faadc0bd82d55a655c81e25b02",
+ "layout": "lines",
+ "stats": {
+  "n_units": 18,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 462,
+  "words_out": 462,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   79,
+   41,
+   48,
+   68,
+   54,
+   75,
+   97
+  ],
+  "warnings": []
+ }
+}

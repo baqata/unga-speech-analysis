@@ -1,0 +1,55 @@
+{
+ "id": "PER_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  28,
+  51,
+  68,
+  92,
+  117,
+  132,
+  156,
+  175,
+  192,
+  212,
+  236
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e9fc8752ec49dee9ca1b8c706d34704eaabab1e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1937,
+  "words_out": 1936,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   49,
+   165,
+   195,
+   141,
+   187,
+   191,
+   119,
+   189,
+   151,
+   134,
+   167,
+   171,
+   77
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "BRN_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  10,
+  15,
+  19,
+  31,
+  34,
+  41,
+  48,
+  58,
+  60,
+  67,
+  70,
+  74,
+  79,
+  88,
+  93
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "say warmest",
+   "my warmest",
+   "ocr"
+  ],
+  [
+   11,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   12,
+   "successes!",
+   "successes:",
+   "ocr"
+  ],
+  [
+   39,
+   "Indeed>",
+   "Indeed,",
+   "ocr"
+  ],
+  [
+   44,
+   "the. high",
+   "the high",
+   "ocr"
+  ],
+  [
+   70,
+   "ray duty",
+   "my duty",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac60f9299150c75330f384a1203e7b68cecb5ee0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1818,
+  "words_out": 1818,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   35,
+   140,
+   86,
+   87,
+   237,
+   99,
+   107,
+   138,
+   120,
+   31,
+   97,
+   64,
+   88,
+   104,
+   144,
+   129,
+   40
+  ],
+  "warnings": []
+ }
+}

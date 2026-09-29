@@ -1,0 +1,154 @@
+{
+ "id": "ECU_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   3,
+   3,
+   "noise"
+  ],
+  [
+   58,
+   59,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  18,
+  23,
+  29,
+  34,
+  38,
+  49,
+  53,
+  57
+ ],
+ "cer": [
+  2,
+  57
+ ],
+ "fix": [
+  [
+   16,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   44,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   20,
+   "elicit",
+   "illicit",
+   "asr_term"
+  ],
+  [
+   4,
+   "of ecuador",
+   "of Ecuador",
+   "asr_name"
+  ],
+  [
+   8,
+   "the united nations",
+   "the United Nations",
+   "asr_name"
+  ],
+  [
+   48,
+   "the charter and",
+   "the Charter and",
+   "asr_name"
+  ],
+  [
+   6,
+   "across several",
+   "crossed several",
+   "interp"
+  ],
+  [
+   29,
+   "same logic",
+   "same logistics",
+   "interp"
+  ],
+  [
+   38,
+   "As Lindsay's",
+   "Excellencies,",
+   "asr_term"
+  ],
+  [
+   40,
+   "our organisation",
+   "our generation",
+   "interp"
+  ],
+  [
+   8,
+   "continents. criminals",
+   "continents. Criminals",
+   "asr_term"
+  ],
+  [
+   19,
+   "flourish. and",
+   "flourish. And",
+   "asr_term"
+  ],
+  [
+   8,
+   "among with",
+   "with",
+   "asr_term"
+  ],
+  [
+   18,
+   "into",
+   "in",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 37 opens with an unclear transcription ('As Lindsay's'), left as is. Bilingual review (r02), speaker's words or evidence: unit 5 'across several' -> 'crossed several' (cruzaron varios países); unit 28 'same logic' -> 'same logistics' (la misma logística); unit 37 \"As Lindsay's\" -> 'Excellencies,' (Excelencias); unit 39 'our organisation' -> 'our generation' (la tarea de nuestra generación) (unit numbers before gap recovery). Gap recovery added 'Here we go.', heard in the silence before the speech: noise. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'continents. criminals' -> 'continents. Criminals'; unit 19 'flourish. and' -> 'flourish. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 8 'among with' -> 'with' (invented word: both decodes go 'cooperate@186.5 with@187.1' with no room between; 'cooperate among with one another' does not fit; ES 'cooperen entre sí'); spot 13 unit 18 'into' -> 'in' (decodes hear 'into' only at 0.42 / 0.49; 'an end into itself' does not fit the idiom; sounds alike; ES 'un fin en sí mismo')",
+ "unitizer_version": 1,
+ "sha1": "f73e68c9e560695c4f1318c0c1225106924b84cf",
+ "layout": "single",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1273,
+  "words_out": 1209,
+  "retention": 0.9497,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   2,
+   273,
+   167,
+   137,
+   87,
+   157,
+   70,
+   188,
+   75,
+   49,
+   4
+  ],
+  "warnings": []
+ }
+}

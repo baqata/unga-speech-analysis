@@ -1,0 +1,66 @@
+{
+ "id": "DZA_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  27,
+  42,
+  71,
+  87,
+  103
+ ],
+ "cer": [],
+ "fix": [
+  [
+   52,
+   "peopleís",
+   "people’s",
+   "encoding"
+  ],
+  [
+   74,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   80,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   95,
+   "Israelís",
+   "Israel’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7fd17bd8aeedcf4e4b2130a96a1fa3d212517e6b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 918,
+  "words_out": 918,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   111,
+   108,
+   125,
+   236,
+   118,
+   122,
+   98
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "id": "STP_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   73,
+   73,
+   "presider"
+  ],
+  [
+   74,
+   74,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  5,
+  10,
+  18,
+  25,
+  31,
+  37,
+  45,
+  48,
+  56,
+  61,
+  67,
+  72
+ ],
+ "cer": [
+  1,
+  2,
+  72
+ ],
+ "fix": [
+  [
+   1,
+   "Hold up here at half hour frame스� punches consistently divine rocking Baba ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "Santo Mare",
+   "São Tomé",
+   "asr_name"
+  ],
+  [
+   2,
+   "Kadilur Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   3,
+   "Baerbuck",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   18,
+   "Saint-Tomé",
+   "São Tomé",
+   "asr_name"
+  ],
+  [
+   36,
+   "Santo Men",
+   "São Tomé and",
+   "asr_name"
+  ],
+  [
+   39,
+   "St. Tomei",
+   "São Tomé",
+   "asr_name"
+  ],
+  [
+   40,
+   "Villanova",
+   "Vila Nova",
+   "asr_name"
+  ],
+  [
+   46,
+   "they need. ",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "Santo Man principio",
+   "São Tomé and Príncipe",
+   "asr_name"
+  ],
+  [
+   57,
+   "Saint-Omé-en-Princepi",
+   "São Tomé and Príncipe",
+   "asr_name"
+  ],
+  [
+   59,
+   "resolutions. ",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "Santomén",
+   "São Tomé and",
+   "asr_name"
+  ],
+  [
+   62,
+   "São Tomé-Prince",
+   "São Tomé and Príncipe",
+   "asr_name"
+  ],
+  [
+   5,
+   "force",
+   "forced",
+   "asr_term"
+  ],
+  [
+   41,
+   "St. Tomé",
+   "São Tomé",
+   "asr_name"
+  ],
+  [
+   44,
+   "St. Tomé",
+   "São Tomé",
+   "asr_name"
+  ],
+  [
+   44,
+   "in that",
+   "aimed at",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Names per Spanish channel (Santo Tomé y Príncipe, Kalilur Rahman, Vilanova) and official sources: PGA Khalilur Rahman, Annalena Baerbock, President Carlos Vila Nova; unit 1 opens with text invented in silence. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 5 'force' -> 'forced' (decodes 'force' 0.21 / 'forced' 0.73; 'force displacement' does not fit; ES 'desplazamientos forzados'); spot 20 unit 41 'St. Tomé' -> 'São Tomé' (country name; decodes 'Saint-Thome' (0.32 / 0.77) as elsewhere in the speech, where it is already written 'Sao Tome'; ES 'el pueblo santo otomense'; UN 'Sao Tome'); spot 21 unit 44 'St. Tomé' -> 'São Tomé' (country name; decodes 'St. Thomae' / 'Saint-Thome' (0.55 / 0.90); ES 'Santo Tome y Principe reafirma'; UN 'Sao Tome'; the speech elsewhere writes 'Sao Tome'); spot 22 unit 44 'in that' -> 'aimed at' (both decodes hear 'aimed at' (0.93 / 0.98, 'at' 1.00); 'reforms in that strengthening' does not fit; ES 'las reformas destinadas a fortalecer')",
+ "unitizer_version": 1,
+ "sha1": "4a4edb54c0bd268306016cad27364e827a904b53",
+ "layout": "single",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1880,
+  "words_out": 1840,
+  "retention": 0.9787,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   44,
+   97,
+   122,
+   178,
+   131,
+   184,
+   135,
+   238,
+   75,
+   179,
+   151,
+   179,
+   123,
+   4
+  ],
+  "warnings": []
+ }
+}

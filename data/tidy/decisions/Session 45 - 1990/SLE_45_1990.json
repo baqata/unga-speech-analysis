@@ -1,0 +1,110 @@
+{
+ "id": "SLE_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  12,
+  17,
+  20,
+  27,
+  30,
+  35,
+  40,
+  43,
+  52,
+  56,
+  63,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   8,
+   "us end look",
+   "us and look",
+   "ocr"
+  ],
+  [
+   13,
+   "Berlin Hall",
+   "Berlin Wall",
+   "ocr"
+  ],
+  [
+   21,
+   "(AHC)",
+   "(ANC)",
+   "ocr"
+  ],
+  [
+   21,
+   "the tread",
+   "the trend",
+   "ocr"
+  ],
+  [
+   24,
+   "napped out",
+   "mapped out",
+   "ocr"
+  ],
+  [
+   29,
+   "He hope",
+   "We hope",
+   "ocr"
+  ],
+  [
+   43,
+   "cold-war contest",
+   "cold-war context",
+   "ocr"
+  ],
+  [
+   59,
+   "five years.",
+   "five years,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "36698f015b9bb2bb85450a1cebac1be624207d2d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2037,
+  "words_out": 2037,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   256,
+   62,
+   137,
+   108,
+   210,
+   110,
+   142,
+   112,
+   78,
+   248,
+   94,
+   159,
+   136,
+   185
+  ],
+  "warnings": []
+ }
+}

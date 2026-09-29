@@ -1,0 +1,171 @@
+{
+ "id": "SWE_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  12,
+  15,
+  19,
+  21,
+  23,
+  27,
+  34,
+  37,
+  41,
+  47,
+  53,
+  62,
+  66,
+  72,
+  75,
+  80,
+  85,
+  91,
+  93,
+  96,
+  99,
+  106,
+  112,
+  116,
+  119
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "settlement -of",
+   "settlement of",
+   "ocr"
+  ],
+  [
+   7,
+   "eighty- five",
+   "eighty-five",
+   "split_word"
+  ],
+  [
+   7,
+   "the Court, of these",
+   "the Court. Of these",
+   "ocr"
+  ],
+  [
+   8,
+   "No fewer that",
+   "No fewer than",
+   "ocr"
+  ],
+  [
+   8,
+   "of the Court,",
+   "of the Court.",
+   "ocr"
+  ],
+  [
+   11,
+   "course if a",
+   "course of a",
+   "ocr"
+  ],
+  [
+   12,
+   "fact; that",
+   "fact that",
+   "ocr"
+  ],
+  [
+   48,
+   "State's",
+   "States",
+   "ocr"
+  ],
+  [
+   52,
+   "should, adopt",
+   "should adopt",
+   "ocr"
+  ],
+  [
+   62,
+   " [agenda item 61]",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "widen i^ knowledge",
+   "widen its knowledge",
+   "ocr"
+  ],
+  [
+   74,
+   "work., My",
+   "work. My",
+   "ocr"
+  ],
+  [
+   84,
+   "ice ill Soviet",
+   "ice in Soviet",
+   "ocr"
+  ],
+  [
+   86,
+   "shall 1 dwell",
+   "shall I dwell",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd245c6c6361c03a91d62b03b983349bd3235d0f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 35
+  },
+  "words_in": 3789,
+  "words_out": 3779,
+  "retention": 0.9974,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   94,
+   83,
+   94,
+   88,
+   141,
+   82,
+   64,
+   92,
+   141,
+   207,
+   64,
+   143,
+   163,
+   126,
+   229,
+   86,
+   164,
+   172,
+   181,
+   159,
+   247,
+   73,
+   107,
+   90,
+   238,
+   131,
+   120,
+   87,
+   113
+  ],
+  "warnings": []
+ }
+}

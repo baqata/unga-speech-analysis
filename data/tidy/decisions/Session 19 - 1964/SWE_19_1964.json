@@ -1,0 +1,114 @@
+{
+ "id": "SWE_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  16,
+  17,
+  22,
+  25,
+  29,
+  33,
+  37,
+  39,
+  44,
+  56,
+  62,
+  66,
+  73,
+  81,
+  86,
+  90,
+  98,
+  104,
+  111,
+  116,
+  121,
+  127,
+  133,
+  140,
+  142
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   " [A/5801/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "report, Most",
+   "report. Most",
+   "ocr"
+  ],
+  [
+   34,
+   "[A/5730], They",
+   "[A/5730]. They",
+   "ocr"
+  ],
+  [
+   64,
+   "vital Importance",
+   "vital importance",
+   "ocr"
+  ],
+  [
+   85,
+   "have, confirmed",
+   "have confirmed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3881efe443a91137f0e4167fa63851756d564ea6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3570,
+  "words_out": 3568,
+  "retention": 0.9994,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   71,
+   139,
+   183,
+   83,
+   118,
+   69,
+   86,
+   81,
+   130,
+   55,
+   133,
+   192,
+   127,
+   113,
+   208,
+   152,
+   97,
+   80,
+   166,
+   135,
+   182,
+   176,
+   125,
+   197,
+   145,
+   169,
+   69,
+   87
+  ],
+  "warnings": []
+ }
+}

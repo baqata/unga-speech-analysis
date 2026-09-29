@@ -1,0 +1,51 @@
+{
+ "id": "MDA_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  40,
+  57,
+  73,
+  94,
+  110,
+  124,
+  136,
+  148,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18170fa34c24f8bd4e857d942e026341512ccc57",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1333,
+  "words_out": 1332,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   162,
+   139,
+   123,
+   141,
+   167,
+   121,
+   115,
+   98,
+   103,
+   116,
+   47
+  ],
+  "warnings": []
+ }
+}

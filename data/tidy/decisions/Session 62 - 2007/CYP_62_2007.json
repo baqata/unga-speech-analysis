@@ -1,0 +1,66 @@
+{
+ "id": "CYP_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  36,
+  60,
+  75,
+  93,
+  112,
+  129,
+  147,
+  171,
+  186,
+  197,
+  222
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "(see )",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "Ã -",
+   "à-",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "Removed the leftover of a document reference, '(see )', after the tool stripped its symbol.",
+ "unitizer_version": 1,
+ "sha1": "42df6a2e0f41d89078e6e03ff8145c8dc5394555",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 11
+  },
+  "words_in": 1889,
+  "words_out": 1882,
+  "retention": 0.9963,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   155,
+   123,
+   186,
+   119,
+   143,
+   148,
+   132,
+   143,
+   209,
+   119,
+   86,
+   205,
+   114
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "COG_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  13,
+  17,
+  22,
+  26,
+  29,
+  35,
+  40,
+  46,
+  50
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e3c1ec17b1075866d219fb4c27c69e399f1e8f0e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1778,
+  "words_out": 1776,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   109,
+   107,
+   124,
+   96,
+   103,
+   140,
+   172,
+   113,
+   224,
+   132,
+   176,
+   126,
+   154
+  ],
+  "warnings": []
+ }
+}

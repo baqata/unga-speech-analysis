@@ -1,0 +1,65 @@
+{
+ "id": "AZE_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  27,
+  40,
+  54,
+  76,
+  92,
+  118,
+  132,
+  148,
+  175
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   117,
+   "(para. 3)",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "(para. 4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e904a362bce9774522ce68155c330453f05c7259",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 195,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2,
+   "job_number": 2
+  },
+  "words_in": 1431,
+  "words_out": 1420,
+  "retention": 0.9923,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   92,
+   112,
+   106,
+   106,
+   159,
+   117,
+   176,
+   92,
+   110,
+   199,
+   151
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "SDN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  27,
+  38,
+  56,
+  77,
+  90,
+  105,
+  117,
+  129,
+  141,
+  156,
+  167,
+  178,
+  191,
+  201,
+  214,
+  221,
+  229,
+  247,
+  255,
+  266,
+  274,
+  285,
+  298,
+  308,
+  315,
+  323
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   68,
+   "Council'\",",
+   "Council's",
+   "ocr"
+  ],
+  [
+   72,
+   "fully,.",
+   "fully,",
+   "ocr"
+  ],
+  [
+   74,
+   "are if the",
+   "are of the",
+   "ocr"
+  ],
+  [
+   232,
+   "a'l",
+   "all",
+   "ocr"
+  ],
+  [
+   256,
+   "United, Arab",
+   "United Arab",
+   "ocr"
+  ],
+  [
+   289,
+   "the the",
+   "the",
+   "ocr"
+  ],
+  [
+   295,
+   "This.",
+   "This",
+   "ocr"
+  ],
+  [
+   304,
+   "view.-",
+   "view,",
+   "ocr"
+  ],
+  [
+   312,
+   "resulted.",
+   "resulted,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 179 ends 'a bitter civil' and unit 180 begins 'They': a word (likely 'war.') is missing in the source.",
+ "unitizer_version": 1,
+ "sha1": "110c87da244359608076d9c3936c080ed1be3818",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 331,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3720,
+  "words_out": 3719,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   115,
+   196,
+   134,
+   213,
+   212,
+   148,
+   172,
+   147,
+   140,
+   138,
+   161,
+   119,
+   123,
+   141,
+   118,
+   144,
+   73,
+   99,
+   207,
+   93,
+   135,
+   84,
+   116,
+   139,
+   109,
+   80,
+   82,
+   81
+  ],
+  "warnings": []
+ }
+}

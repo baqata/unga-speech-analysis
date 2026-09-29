@@ -1,0 +1,62 @@
+{
+ "id": "CPV_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  49,
+  61,
+  82,
+  98,
+  129,
+  155,
+  175,
+  192,
+  225,
+  249,
+  260,
+  272,
+  293,
+  305
+ ],
+ "cer": [
+  0,
+  25
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "98eef5606fecd6f11a83a112b751b8233da235af",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 310,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2401,
+  "words_out": 2396,
+  "retention": 0.9979,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   200,
+   188,
+   98,
+   162,
+   120,
+   231,
+   203,
+   133,
+   126,
+   253,
+   188,
+   79,
+   103,
+   169,
+   103,
+   40
+  ],
+  "warnings": []
+ }
+}

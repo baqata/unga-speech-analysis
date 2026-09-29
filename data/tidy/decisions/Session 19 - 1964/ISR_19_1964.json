@@ -1,0 +1,221 @@
+{
+ "id": "ISR_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ],
+  [
+   131,
+   131,
+   "noise"
+  ],
+  [
+   178,
+   178,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  3,
+  9,
+  15,
+  21,
+  25,
+  30,
+  35,
+  38,
+  45,
+  50,
+  56,
+  60,
+  66,
+  72,
+  74,
+  80,
+  85,
+  90,
+  94,
+  98,
+  101,
+  109,
+  113,
+  117,
+  121,
+  128,
+  132,
+  136,
+  140,
+  146,
+  150,
+  156,
+  160,
+  167,
+  171,
+  174,
+  179,
+  185,
+  191,
+  195,
+  204,
+  207,
+  215
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   3,
+   "re view",
+   "review",
+   "split_word"
+  ],
+  [
+   24,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   24,
+   " [A/ 5801/Add.l, p. 1]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "unfilfilled",
+   "unfulfilled",
+   "ocr"
+  ],
+  [
+   46,
+   "or i use",
+   "or use",
+   "ocr"
+  ],
+  [
+   62,
+   "freedom end dissent",
+   "freedom and dissent",
+   "ocr"
+  ],
+  [
+   64,
+   "great- Power",
+   "great-Power",
+   "hyphen"
+  ],
+  [
+   73,
+   " [A/5751 and A/5757 and Add.l]",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "themes,",
+   "themes.",
+   "ocr"
+  ],
+  [
+   84,
+   "destruction,",
+   "destruction.",
+   "ocr"
+  ],
+  [
+   93,
+   "than chose of",
+   "than those of",
+   "ocr"
+  ],
+  [
+   175,
+   "upnold",
+   "uphold",
+   "ocr"
+  ],
+  [
+   177,
+   "lsrael's",
+   "Israel's",
+   "ocr"
+  ],
+  [
+   184,
+   "actions oi",
+   "actions of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "037793c61a7203fad4ba66087ff8e38027209aed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 67
+  },
+  "words_in": 5281,
+  "words_out": 5264,
+  "retention": 0.9968,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   72,
+   115,
+   116,
+   111,
+   113,
+   137,
+   106,
+   94,
+   134,
+   131,
+   117,
+   160,
+   105,
+   101,
+   64,
+   169,
+   105,
+   128,
+   135,
+   106,
+   121,
+   156,
+   98,
+   77,
+   106,
+   135,
+   96,
+   63,
+   92,
+   119,
+   111,
+   119,
+   112,
+   149,
+   113,
+   176,
+   105,
+   139,
+   136,
+   103,
+   156,
+   83,
+   174,
+   206
+  ],
+  "warnings": []
+ }
+}

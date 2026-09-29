@@ -1,0 +1,72 @@
+{
+ "id": "CZE_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  15,
+  18,
+  28,
+  34,
+  41,
+  46,
+  52,
+  55,
+  59,
+  62,
+  68,
+  75,
+  78,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   57,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   58,
+   "late,",
+   "late.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d39fcdfa95a0d20a5942322fbef0a3a3a75ab265",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1913,
+  "words_out": 1912,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   87,
+   83,
+   93,
+   96,
+   146,
+   141,
+   131,
+   126,
+   149,
+   98,
+   127,
+   96,
+   145,
+   111,
+   73,
+   156,
+   54
+  ],
+  "warnings": []
+ }
+}

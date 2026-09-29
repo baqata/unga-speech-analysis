@@ -1,0 +1,57 @@
+{
+ "id": "AND_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  20,
+  37,
+  60,
+  86,
+  103,
+  117,
+  137,
+  155,
+  174,
+  181,
+  191,
+  215
+ ],
+ "cer": [
+  215
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e84842d08c4ecf1caf52e19ce4d66e687b47f19",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1691,
+  "words_out": 1689,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   94,
+   62,
+   125,
+   174,
+   205,
+   130,
+   109,
+   156,
+   138,
+   137,
+   56,
+   76,
+   186,
+   41
+  ],
+  "warnings": []
+ }
+}

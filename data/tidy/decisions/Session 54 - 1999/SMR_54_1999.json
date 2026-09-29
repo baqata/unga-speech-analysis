@@ -1,0 +1,52 @@
+{
+ "id": "SMR_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  21,
+  43,
+  55,
+  70,
+  86,
+  104,
+  126,
+  142,
+  158
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1158de7d7d6236609a5fd41a61e79eb05fdcbaea",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1381,
+  "words_out": 1380,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   68,
+   100,
+   177,
+   91,
+   122,
+   131,
+   146,
+   175,
+   134,
+   131,
+   105
+  ],
+  "warnings": []
+ }
+}

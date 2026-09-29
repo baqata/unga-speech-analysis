@@ -1,0 +1,92 @@
+{
+ "id": "IRQ_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  12,
+  17,
+  22,
+  30,
+  38,
+  40,
+  44,
+  48,
+  51,
+  57,
+  62,
+  66,
+  70,
+  77,
+  81,
+  88,
+  92,
+  94,
+  99,
+  105,
+  113,
+  114
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   92,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   99,
+   "in dissociable",
+   "indissociable",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14509e97ceca66ab6e44a1d0193fe558d85d5c53",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3747,
+  "words_out": 3746,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   100,
+   195,
+   100,
+   122,
+   143,
+   180,
+   184,
+   75,
+   115,
+   111,
+   146,
+   208,
+   84,
+   143,
+   117,
+   168,
+   110,
+   232,
+   206,
+   69,
+   211,
+   224,
+   222,
+   77,
+   204
+  ],
+  "warnings": []
+ }
+}

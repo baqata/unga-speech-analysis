@@ -1,0 +1,81 @@
+{
+ "id": "ZWE_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  21,
+  33,
+  46,
+  56,
+  76,
+  87,
+  97,
+  116,
+  138,
+  153,
+  166,
+  185,
+  204,
+  216,
+  235,
+  248,
+  263,
+  275,
+  288
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   173,
+   "SecretaryGeneral's",
+   "Secretary-General's",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56e368604a4203b6b217502109ff0d1b9d303342",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 304,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2370,
+  "words_out": 2370,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   50,
+   25,
+   82,
+   111,
+   101,
+   82,
+   167,
+   79,
+   77,
+   142,
+   157,
+   112,
+   106,
+   159,
+   142,
+   94,
+   133,
+   103,
+   108,
+   102,
+   104,
+   134
+  ],
+  "warnings": []
+ }
+}

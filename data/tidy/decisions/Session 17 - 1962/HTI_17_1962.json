@@ -1,0 +1,96 @@
+{
+ "id": "HTI_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  5,
+  8,
+  12,
+  17,
+  19,
+  22,
+  25,
+  26,
+  30,
+  38,
+  41,
+  42,
+  43,
+  46,
+  49,
+  53,
+  57,
+  59,
+  61,
+  65
+ ],
+ "cer": [
+  0,
+  65
+ ],
+ "fix": [
+  [
+   1,
+   "age,",
+   "age.",
+   "ocr"
+  ],
+  [
+   52,
+   "supported In",
+   "supported in",
+   "ocr"
+  ],
+  [
+   53,
+   "Independence",
+   "independence",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e74ba4db7f1790a9f30b16e487bd8f541c66cde",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 2676,
+  "words_out": 2676,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   65,
+   115,
+   91,
+   106,
+   127,
+   167,
+   145,
+   124,
+   87,
+   91,
+   140,
+   224,
+   74,
+   100,
+   62,
+   107,
+   100,
+   285,
+   131,
+   88,
+   89,
+   89,
+   69
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "MLI_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  22,
+  30,
+  42,
+  57,
+  70,
+  85,
+  93,
+  102,
+  114,
+  133,
+  146,
+  159,
+  173,
+  181,
+  192,
+  203
+ ],
+ "cer": [
+  0,
+  8,
+  22
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e42278b7e2a23b916cc03df2579f415986230815",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 210,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1614,
+  "words_out": 1610,
+  "retention": 0.9975,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   63,
+   113,
+   60,
+   90,
+   113,
+   100,
+   109,
+   59,
+   68,
+   96,
+   144,
+   98,
+   102,
+   108,
+   66,
+   82,
+   79,
+   60
+  ],
+  "warnings": []
+ }
+}

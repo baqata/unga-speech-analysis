@@ -1,0 +1,108 @@
+{
+ "id": "BHR_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  14,
+  17,
+  19,
+  22,
+  27,
+  30,
+  36,
+  40,
+  46,
+  50,
+  53,
+  59,
+  64,
+  67,
+  70,
+  73,
+  76,
+  80,
+  82,
+  86,
+  88,
+  91,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "State or Bahrain",
+   "State of Bahrain",
+   "ocr"
+  ],
+  [
+   53,
+   "Rights .3 In",
+   "Rights. In",
+   "ocr"
+  ],
+  [
+   54,
+   "A11 parties",
+   "All parties",
+   "ocr"
+  ],
+  [
+   78,
+   "147; ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bfb06e1c6c6e8af6ccb081a002ded41f477ad457",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3001,
+  "words_out": 2999,
+  "retention": 0.9993,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   147,
+   97,
+   87,
+   105,
+   95,
+   97,
+   80,
+   151,
+   126,
+   184,
+   149,
+   157,
+   126,
+   57,
+   239,
+   135,
+   84,
+   79,
+   90,
+   97,
+   129,
+   69,
+   96,
+   98,
+   73,
+   61,
+   91
+  ],
+  "warnings": []
+ }
+}

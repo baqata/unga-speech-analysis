@@ -1,0 +1,76 @@
+{
+ "id": "JOR_48_1993",
+ "drop": [
+  [
+   134,
+   134,
+   "header_footer"
+  ],
+  [
+   229,
+   229,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  17,
+  27,
+  41,
+  55,
+  65,
+  77,
+  88,
+  105,
+  121,
+  138,
+  153,
+  173,
+  196,
+  219,
+  237,
+  256
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b9aacfb4c7946c77e37693af730e9826e11f9345",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2352,
+  "words_out": 2336,
+  "retention": 0.9932,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   75,
+   67,
+   108,
+   116,
+   127,
+   84,
+   112,
+   91,
+   152,
+   137,
+   144,
+   144,
+   173,
+   198,
+   214,
+   157,
+   177,
+   60
+  ],
+  "warnings": []
+ }
+}

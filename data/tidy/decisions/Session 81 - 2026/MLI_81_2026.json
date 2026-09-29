@@ -1,0 +1,309 @@
+{
+ "id": "MLI_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   3,
+   "noise"
+  ],
+  [
+   99,
+   99,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  9,
+  13,
+  15,
+  21,
+  28,
+  30,
+  35,
+  39,
+  43,
+  46,
+  49,
+  53,
+  58,
+  62,
+  65,
+  73,
+  78,
+  88,
+  93,
+  98
+ ],
+ "cer": [
+  4,
+  43,
+  98
+ ],
+ "fix": [
+  [
+   4,
+   "President Trump, ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Asimigoyta",
+   "Assimi Goïta",
+   "asr_name"
+  ],
+  [
+   10,
+   "Ali,",
+   "Mali,",
+   "asr_name"
+  ],
+  [
+   10,
+   "Modi Bo Keta",
+   "Modibo Keita",
+   "asr_name"
+  ],
+  [
+   10,
+   "the Salon",
+   "Ceylon",
+   "asr_name"
+  ],
+  [
+   17,
+   "Israel",
+   "the Sahel",
+   "asr_name"
+  ],
+  [
+   21,
+   "ARM",
+   "arm",
+   "asr_term"
+  ],
+  [
+   29,
+   "Malia",
+   "Malian",
+   "asr_term"
+  ],
+  [
+   30,
+   "Taur",
+   "Traoré",
+   "asr_name"
+  ],
+  [
+   30,
+   "Asimek Goita",
+   "Assimi Goïta",
+   "asr_name"
+  ],
+  [
+   30,
+   "Abdurrahman Tiani",
+   "Abdourahamane Tiani",
+   "asr_name"
+  ],
+  [
+   31,
+   "Yameh",
+   "Niamey",
+   "asr_name"
+  ],
+  [
+   45,
+   "Kamara",
+   "Camara",
+   "asr_name"
+  ],
+  [
+   47,
+   "Inter-Mali and",
+   "Inter-Malian",
+   "asr_term"
+  ],
+  [
+   51,
+   "Malikura",
+   "Mali Kura",
+   "asr_name"
+  ],
+  [
+   52,
+   "Somalian",
+   "Malian",
+   "asr_name"
+  ],
+  [
+   64,
+   "Palatinean",
+   "Palestinian",
+   "asr_name"
+  ],
+  [
+   87,
+   "Asimi Guota",
+   "Assimi Goïta",
+   "asr_name"
+  ],
+  [
+   93,
+   "multi-arital",
+   "multilateral",
+   "asr_term"
+  ],
+  [
+   52,
+   "illegitimate",
+   "legitimate",
+   "asr_term"
+  ],
+  [
+   14,
+   "world. in",
+   "world in",
+   "asr_term"
+  ],
+  [
+   27,
+   "yoke. terrorism",
+   "yoke. Terrorism",
+   "asr_term"
+  ],
+  [
+   29,
+   "populations. regional",
+   "populations. Regional",
+   "asr_term"
+  ],
+  [
+   49,
+   "negotiable. is",
+   "negotiable. Is",
+   "asr_term"
+  ],
+  [
+   4,
+   "states",
+   "state",
+   "asr_term"
+  ],
+  [
+   4,
+   "governments",
+   "government",
+   "asr_term"
+  ],
+  [
+   11,
+   "Transformation,",
+   "Managing Transformation,",
+   "slip"
+  ],
+  [
+   22,
+   "Ukraine's",
+   "Following Ukraine's",
+   "asr_term"
+  ],
+  [
+   25,
+   "In",
+   "Given",
+   "asr_term"
+  ],
+  [
+   31,
+   "said",
+   "as",
+   "asr_term"
+  ],
+  [
+   34,
+   "Mali delegation",
+   "Malian delegation",
+   "asr_term"
+  ],
+  [
+   34,
+   "act,",
+   "Excellency",
+   "asr_term"
+  ],
+  [
+   47,
+   "Dialogue on",
+   "Dialogue and",
+   "asr_term"
+  ],
+  [
+   34,
+   "his Excellency",
+   "His Excellency",
+   "asr_term"
+  ],
+  [
+   34,
+   "Traore",
+   "Traoré",
+   "asr_name"
+  ],
+  [
+   22,
+   "state is interference",
+   "state its interference",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 1-3 and 'President Trump' invented over the walk (audio re-decode); names per Spanish booth and official sources (Assimi Goita, Modibo Keita, Ceilan, el Sahel, Ibrahim Traore, Abdourahamane Tiani, Niamey, Sadio Camara, dialogo intermaliense, Vision Mali Kura 2063, poblacion maliense); unit 52 'illegitimate' vs Spanish 'legitimas' left for audio check. Main-agent audit (the audio re-decoded at the spots the batch listed as unsure): unit 52 'illegitimate' -> 'legitimate' (the re-decodes differ ('illegitimate' p 0.88, 'legitimate' p 0.56); the Spanish booth 'las aspiraciones legítimas de la población maliense'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 14 'world. in' -> 'world in'; unit 27 'yoke. terrorism' -> 'yoke. Terrorism'; unit 29 'populations. regional' -> 'populations. Regional'; unit 49 'negotiable. is' -> 'negotiable. Is'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 4 'states' -> 'state' (both decodes hear 'state' (0.74 / 0.73); ES 'jefes de Estado y de Gobierno'; fixed title 'heads of State and Government'); spot 2 unit 4 'governments' -> 'government' (both decodes clearly hear 'government,' (0.94 / 0.94); ES 'y de Gobierno'; fixed title); spot 5 unit 11 'Transformation,' -> 'Managing Transformation,' (2026 exception for a dropped word: both decodes clearly hear a word before 'Transformation' (0.97 / 0.99), as does the UN transcript; slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): the English interpreter said 'Supporting' (forced scoring rules out 'Managing', -11.4 vs -26.3), but the session theme is 'Restoring Trust, Managing Transformation' (un.org/en/ga/81), as the Spanish 'gestionar la transformación' says); spot 7 unit 22 'Ukraine's' -> 'Following Ukraine's' (2026 exception: both decodes clearly hear 'Following' (0.97 / 0.97) after a pause; ES 'Tras las primeras declaraciones de Ucrania'); spot 9 unit 25 'In' -> 'Given' (both decodes clearly hear 'Given our history' (1.00 / 0.98); the first syllable was swallowed; 'Given our history, the international community ... cannot just remain silent' fits the argument); spot 15 unit 31 'said' -> 'as' (neither decode hears 'said' ('States to take' / 'States, so to take'); 'so said to take' does not fit; 'so as to' fits; ES 'para tomar las riendas'); spot 16 unit 34 'Mali delegation' -> 'Malian delegation' (both decodes clearly hear 'Malian' (0.93 / 0.90); ES 'La delegación de Malí'; 'Mali' alone is not unique in the unit); spot 17 unit 34 'act,' -> 'Excellency' (decodes 'act,' only 0.19 / 0.16; 'his act, Mr. Traore' does not fit; ES 'el excelentísimo señor ... Traoré'); spot 21 unit 47 'Dialogue on' -> 'Dialogue and' (both decodes hear 'and' (0.63 / 0.61); ES 'del diálogo intermaliense y la Carta Nacional' names two separate references; 'on' alone is not unique in the unit). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: paragraph start at unit 17 removed: unit 17 ('That's the case in the Sahel') is the example for unit 16's point; unit 34 'His Excellency' capitalised and 'Traore' -> 'Traoré' as in unit 30 (Spanish 'el excelentísimo señor Karamoko Jean-Marie Traoré'); unit 22 'state is interference' -> 'state its interference' under the second 2026 exception (slip, user decision 2026-09-29): forced scoring confirms the English interpreter said 'is' ('its' -6.1 against -1.4), which does not fit 'reiterated the highest level of state is interference in Africa', and the Spanish 'su injerencia' shows 'its'.",
+ "unitizer_version": 1,
+ "sha1": "8d2c693e794b296821121d7efd7274aa05f6e319",
+ "layout": "single",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 2650,
+  "words_out": 2613,
+  "retention": 0.986,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   163,
+   116,
+   125,
+   181,
+   239,
+   87,
+   166,
+   118,
+   112,
+   97,
+   89,
+   127,
+   187,
+   86,
+   65,
+   177,
+   78,
+   134,
+   106,
+   157,
+   3
+  ],
+  "warnings": [
+   "36 fixes"
+  ]
+ }
+}

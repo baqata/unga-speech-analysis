@@ -1,0 +1,126 @@
+{
+ "id": "JOR_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  12,
+  14,
+  17,
+  21,
+  26,
+  32,
+  38,
+  41,
+  48,
+  51,
+  55,
+  60,
+  62,
+  68,
+  71,
+  74,
+  76,
+  81,
+  85,
+  88,
+  91,
+  95,
+  97,
+  98,
+  101
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   16,
+   "was!",
+   "was",
+   "ocr"
+  ],
+  [
+   16,
+   " [resolutions 3201 (S-VI) and 3202 (S-V1)\\",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "between , this",
+   "between this",
+   "ocr"
+  ],
+  [
+   69,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   " [resolution 3263 {XXIX)]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "Nations, However",
+   "Nations. However",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8691ea5e6fab7301135ed9b3324b6f1dc1eef42",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 37
+  },
+  "words_in": 3223,
+  "words_out": 3205,
+  "retention": 0.9944,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   95,
+   95,
+   88,
+   159,
+   92,
+   109,
+   118,
+   179,
+   187,
+   154,
+   105,
+   169,
+   87,
+   105,
+   81,
+   65,
+   192,
+   99,
+   83,
+   61,
+   163,
+   115,
+   98,
+   87,
+   84,
+   69,
+   79,
+   135,
+   52
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "SWE_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  18,
+  24,
+  31,
+  39,
+  47,
+  52,
+  56,
+  62,
+  68,
+  72,
+  79,
+  85,
+  93,
+  98,
+  104,
+  112,
+  114
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "gained, sufficient",
+   "gained sufficient",
+   "ocr"
+  ],
+  [
+   40,
+   "number ,of",
+   "number of",
+   "ocr"
+  ],
+  [
+   57,
+   "Inter-national",
+   "International",
+   "hyphen"
+  ],
+  [
+   70,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ],
+  [
+   100,
+   "GuinearBissau",
+   "Guinea-Bissau",
+   "ocr"
+  ],
+  [
+   103,
+   "the .framework",
+   "the framework",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c47fdc42454886df1a9034d39b4cc581b6360cd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2657,
+  "words_out": 2652,
+  "retention": 0.9981,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   109,
+   121,
+   133,
+   67,
+   133,
+   171,
+   152,
+   156,
+   118,
+   79,
+   159,
+   154,
+   75,
+   167,
+   92,
+   179,
+   105,
+   91,
+   130,
+   54,
+   207
+  ],
+  "warnings": []
+ }
+}

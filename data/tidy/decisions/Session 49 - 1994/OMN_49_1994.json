@@ -1,0 +1,117 @@
+{
+ "id": "OMN_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  24,
+  32,
+  41,
+  54,
+  64,
+  70,
+  88,
+  107,
+  115,
+  123,
+  141,
+  151,
+  164,
+  173,
+  192,
+  205,
+  223,
+  256,
+  265,
+  287,
+  292,
+  306,
+  321,
+  331,
+  342,
+  353,
+  364,
+  374,
+  383
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   71,
+   "Palestinian-lsraeli",
+   "Palestinian-Israeli",
+   "ocr"
+  ],
+  [
+   75,
+   "Palestinian-lsraeli",
+   "Palestinian-Israeli",
+   "ocr"
+  ],
+  [
+   109,
+   "Jordan-lsraeli",
+   "Jordan-Israeli",
+   "ocr"
+  ],
+  [
+   388,
+   "sill undermine",
+   "still undermine",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "473025eedfb4f00611aa2f245b6285508a186c77",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 392,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3361,
+  "words_out": 3357,
+  "retention": 0.9988,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   113,
+   88,
+   65,
+   79,
+   104,
+   75,
+   57,
+   157,
+   159,
+   70,
+   66,
+   159,
+   81,
+   116,
+   80,
+   166,
+   104,
+   149,
+   293,
+   77,
+   193,
+   43,
+   114,
+   137,
+   87,
+   90,
+   91,
+   97,
+   86,
+   78,
+   83
+  ],
+  "warnings": []
+ }
+}

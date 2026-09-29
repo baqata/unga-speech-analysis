@@ -1,0 +1,250 @@
+{
+ "id": "ATG_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "repeat"
+  ],
+  [
+   157,
+   157,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  13,
+  22,
+  28,
+  35,
+  44,
+  49,
+  54,
+  62,
+  68,
+  79,
+  91,
+  99,
+  104,
+  115,
+  126,
+  134,
+  137,
+  142,
+  152
+ ],
+ "cer": [
+  2,
+  10
+ ],
+ "fix": [
+  [
+   10,
+   "Gautas",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   16,
+   "Gutierrez",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   27,
+   "Marbuda",
+   "Barbuda",
+   "asr_name"
+  ],
+  [
+   35,
+   "Maria Fernandez Espinosa",
+   "María Fernanda Espinosa",
+   "asr_name"
+  ],
+  [
+   42,
+   "Maria Fernandez Espinosa",
+   "María Fernanda Espinosa",
+   "asr_name"
+  ],
+  [
+   53,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   76,
+   "BB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   77,
+   "CIDS",
+   "SIDS",
+   "asr_name"
+  ],
+  [
+   82,
+   "arms",
+   "harms",
+   "asr_term"
+  ],
+  [
+   83,
+   "given overwhelmingly",
+   "driven overwhelmingly",
+   "asr_term"
+  ],
+  [
+   85,
+   "repertory",
+   "reparatory",
+   "asr_term"
+  ],
+  [
+   86,
+   "Repertory",
+   "Reparatory",
+   "asr_term"
+  ],
+  [
+   98,
+   "an iHealth",
+   "an eye health",
+   "asr_term"
+  ],
+  [
+   98,
+   "integrates iHealth",
+   "integrates eye health",
+   "asr_term"
+  ],
+  [
+   106,
+   "Abbas",
+   "ABAS",
+   "asr_name"
+  ],
+  [
+   114,
+   "Barbito",
+   "Barbuda",
+   "asr_name"
+  ],
+  [
+   114,
+   "in civil",
+   "in Sevilla",
+   "asr_name"
+  ],
+  [
+   51,
+   "optional. it",
+   "optional. It",
+   "asr_term"
+  ],
+  [
+   67,
+   "sovereignty. its",
+   "sovereignty its",
+   "asr_term"
+  ],
+  [
+   104,
+   "change. the",
+   "change. The",
+   "asr_term"
+  ],
+  [
+   121,
+   "peace. the",
+   "peace. The",
+   "asr_term"
+  ],
+  [
+   126,
+   "Council. its",
+   "Council. Its",
+   "asr_term"
+  ],
+  [
+   141,
+   "clear. to",
+   "clear. To",
+   "asr_term"
+  ],
+  [
+   15,
+   "and island",
+   "an island",
+   "asr_term"
+  ],
+  [
+   133,
+   "SID",
+   "SIDS",
+   "asr_name"
+  ],
+  [
+   29,
+   "capability",
+   "stability",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 1 repeats the greeting of unit 2 (audio holds it once); Guterres, Maria Fernanda Espinosa, UN80, BBNJ, Sevilla per Spanish channel; estabilidad, danos, motivados, reparatoria, salud ocular per Spanish. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 29 repair of 'capability' withdrawn (the speaker's English, heard at p 1.00 in three re-decodes; 'la estabilidad internacional' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 51 'optional. it' -> 'optional. It'; unit 67 'sovereignty. its' -> 'sovereignty its'; unit 104 'change. the' -> 'change. The'; unit 121 'peace. the' -> 'peace. The'; unit 126 'Council. its' -> 'Council. Its'; unit 141 'clear. to' -> 'clear. To'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 15 'and island' -> 'an island' (both decodes hear 'an' (0.61 / 0.72); 'livelihoods disappeared, and island community was brought' does not fit; ES 'Una comunidad isleña'; 'and' alone is not unique (inside 'island')); spot 29 unit 133 'SID' -> 'SIDS' (both decodes hear 'SIDS' (0.44 / 0.50); the group is SIDS, as elsewhere in the speech; UN 'SIDS seat'). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 29 the speaker said 'undermine international capability' (three re-decodes p 1.00), which does not fit; the Spanish 'socavan la estabilidad internacional' shows 'stability'.",
+ "unitizer_version": 1,
+ "sha1": "de159b603963f81db79869a7bf82723d6a321803",
+ "layout": "single",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {
+   "presider": 2,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 2344,
+  "words_out": 2306,
+  "retention": 0.9838,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   50,
+   94,
+   51,
+   75,
+   93,
+   79,
+   113,
+   87,
+   99,
+   103,
+   110,
+   112,
+   157,
+   178,
+   95,
+   177,
+   146,
+   144,
+   66,
+   88,
+   107,
+   82
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

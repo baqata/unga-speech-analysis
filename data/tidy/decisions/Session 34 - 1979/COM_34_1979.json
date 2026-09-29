@@ -1,0 +1,99 @@
+{
+ "id": "COM_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  13,
+  19,
+  21,
+  27,
+  32,
+  35,
+  38,
+  43,
+  46,
+  50,
+  55,
+  58,
+  62,
+  66,
+  71,
+  77,
+  82,
+  85,
+  89,
+  92,
+  96,
+  98
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   19,
+   "Re-public",
+   "Republic",
+   "hyphen"
+  ],
+  [
+   91,
+   "Re-public",
+   "Republic",
+   "hyphen"
+  ],
+  [
+   67,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa3881ffe23464a8adcff757a8ac7dbc15174c34",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3206,
+  "words_out": 3205,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   186,
+   49,
+   201,
+   196,
+   114,
+   149,
+   159,
+   147,
+   104,
+   145,
+   103,
+   134,
+   183,
+   98,
+   181,
+   76,
+   116,
+   155,
+   96,
+   114,
+   102,
+   145,
+   154,
+   54,
+   44
+  ],
+  "warnings": []
+ }
+}

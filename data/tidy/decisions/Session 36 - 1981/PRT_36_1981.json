@@ -1,0 +1,231 @@
+{
+ "id": "PRT_36_1981",
+ "drop": [
+  [
+   24,
+   24,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  10,
+  12,
+  15,
+  18,
+  21,
+  25,
+  29,
+  32,
+  35,
+  38,
+  39,
+  42,
+  47,
+  49,
+  52,
+  58,
+  65,
+  69,
+  71,
+  76,
+  84,
+  88,
+  92,
+  95,
+  101,
+  104,
+  106,
+  108,
+  111,
+  114,
+  117
+ ],
+ "cer": [
+  0,
+  3,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   2,
+   "have teen marked",
+   "have been marked",
+   "ocr"
+  ],
+  [
+   8,
+   "amongst\" us",
+   "amongst us",
+   "ocr"
+  ],
+  [
+   15,
+   "intervention, persists",
+   "intervention persists",
+   "ocr"
+  ],
+  [
+   16,
+   "politically and juridical",
+   "politically and juridically",
+   "ocr"
+  ],
+  [
+   17,
+   "June 13 for",
+   "June for",
+   "ocr"
+  ],
+  [
+   21,
+   " [resolution 2625 (XXV)}",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "perspective*",
+   "perspective,",
+   "ocr"
+  ],
+  [
+   40,
+   "1979\" served",
+   "1979 served",
+   "ocr"
+  ],
+  [
+   41,
+   "negotiaions",
+   "negotiations",
+   "ocr"
+  ],
+  [
+   42,
+   " [resolution S10/2]",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "nuclear .and",
+   "nuclear and",
+   "ocr"
+  ],
+  [
+   49,
+   "Regional tensions",
+   "regional tensions",
+   "ocr"
+  ],
+  [
+   56,
+   "southern.",
+   "southern",
+   "ocr"
+  ],
+  [
+   63,
+   "Israel, We",
+   "Israel. We",
+   "ocr"
+  ],
+  [
+   66,
+   "that' the",
+   "that the",
+   "ocr"
+  ],
+  [
+   67,
+   "the, efforts",
+   "the efforts",
+   "ocr"
+  ],
+  [
+   67,
+   "EEC—that",
+   "EEC that",
+   "ocr"
+  ],
+  [
+   72,
+   "its. external",
+   "its external",
+   "ocr"
+  ],
+  [
+   105,
+   "preserve*!",
+   "presented",
+   "ocr"
+  ],
+  [
+   105,
+   "Rights.15",
+   "Rights.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82c3c2c7d70df5c666cde4ac49081eb73a8349d1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3638,
+  "words_out": 3632,
+  "retention": 0.9984,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   116,
+   68,
+   59,
+   67,
+   72,
+   89,
+   143,
+   79,
+   123,
+   96,
+   71,
+   80,
+   61,
+   63,
+   88,
+   153,
+   61,
+   112,
+   143,
+   225,
+   170,
+   69,
+   142,
+   231,
+   139,
+   85,
+   70,
+   102,
+   110,
+   71,
+   83,
+   64,
+   80,
+   143,
+   104
+  ],
+  "warnings": []
+ }
+}

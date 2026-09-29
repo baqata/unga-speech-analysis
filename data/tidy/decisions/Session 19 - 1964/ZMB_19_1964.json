@@ -1,0 +1,127 @@
+{
+ "id": "ZMB_19_1964",
+ "drop": [
+  [
+   42,
+   42,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  20,
+  22,
+  24,
+  31,
+  38,
+  41,
+  45,
+  48,
+  60,
+  67,
+  73,
+  78,
+  80,
+  86,
+  93,
+  99
+ ],
+ "cer": [
+  0,
+  99
+ ],
+ "fix": [
+  [
+   2,
+   "can,",
+   "can.",
+   "ocr"
+  ],
+  [
+   6,
+   "what Is right",
+   "what is right",
+   "ocr"
+  ],
+  [
+   16,
+   "that It was",
+   "that it was",
+   "ocr"
+  ],
+  [
+   40,
+   "non- alignment",
+   "non-alignment",
+   "ocr"
+  ],
+  [
+   50,
+   "of' non-violence",
+   "of non-violence",
+   "ocr"
+  ],
+  [
+   62,
+   "Y00 million",
+   "700 million",
+   "ocr"
+  ],
+  [
+   63,
+   "the Implications",
+   "the implications",
+   "ocr"
+  ],
+  [
+   67,
+   "Southern Africa.",
+   "Southern Africa,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4af0ba69521f4351eabb2875788944d00332fe44",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2665,
+  "words_out": 2663,
+  "retention": 0.9992,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   84,
+   139,
+   122,
+   188,
+   104,
+   123,
+   160,
+   175,
+   91,
+   102,
+   75,
+   272,
+   119,
+   156,
+   118,
+   63,
+   172,
+   211,
+   124,
+   65
+  ],
+  "warnings": []
+ }
+}

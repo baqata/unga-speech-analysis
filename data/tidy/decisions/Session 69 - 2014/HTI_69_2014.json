@@ -1,0 +1,67 @@
+{
+ "id": "HTI_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  18,
+  27,
+  47,
+  58,
+  75,
+  89,
+  106,
+  122,
+  130,
+  145,
+  152,
+  168,
+  176,
+  187
+ ],
+ "cer": [
+  10,
+  18
+ ],
+ "fix": [
+  [
+   39,
+   "problens",
+   "problems",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2771c70143062903108758ae0639b22af333d469",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1644,
+  "words_out": 1643,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   75,
+   66,
+   65,
+   179,
+   93,
+   131,
+   111,
+   127,
+   129,
+   72,
+   135,
+   58,
+   131,
+   66,
+   91,
+   114
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "SMR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  18,
+  22,
+  25,
+  28,
+  30,
+  35,
+  44,
+  49,
+  51,
+  59,
+  63,
+  68,
+  73,
+  75,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   19,
+   "protect ,which",
+   "protect, which",
+   "spacing"
+  ],
+  [
+   49,
+   "century- old",
+   "century-old",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67f8eeb84f8aedfb35b26021478f372aa999b66d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2109,
+  "words_out": 2106,
+  "retention": 0.9986,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   94,
+   95,
+   109,
+   103,
+   128,
+   94,
+   116,
+   65,
+   65,
+   122,
+   204,
+   82,
+   68,
+   150,
+   140,
+   109,
+   112,
+   69,
+   68,
+   113
+  ],
+  "warnings": []
+ }
+}

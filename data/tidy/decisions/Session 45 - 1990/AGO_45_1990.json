@@ -1,0 +1,128 @@
+{
+ "id": "AGO_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  14,
+  18,
+  22,
+  24,
+  27,
+  31,
+  34,
+  36,
+  39,
+  42,
+  47,
+  52,
+  56,
+  58,
+  62,
+  64,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "guest",
+   "quest",
+   "ocr"
+  ],
+  [
+   17,
+   "Lave",
+   "have",
+   "ocr"
+  ],
+  [
+   21,
+   "UMITA",
+   "UNITA",
+   "ocr"
+  ],
+  [
+   40,
+   "oil Kuwait",
+   "of Kuwait",
+   "ocr"
+  ],
+  [
+   48,
+   "mort",
+   "most",
+   "ocr"
+  ],
+  [
+   50,
+   "every stop",
+   "every step",
+   "ocr"
+  ],
+  [
+   52,
+   "recant",
+   "recent",
+   "ocr"
+  ],
+  [
+   54,
+   "e decline",
+   "a decline",
+   "ocr"
+  ],
+  [
+   58,
+   "recently^",
+   "recently,",
+   "ocr"
+  ],
+  [
+   58,
+   "is Eastern",
+   "in Eastern",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "114a857d079932e969b359443d9d6b89bdb20b70",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2729,
+  "words_out": 2729,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   216,
+   193,
+   111,
+   155,
+   150,
+   75,
+   111,
+   148,
+   127,
+   100,
+   96,
+   129,
+   173,
+   209,
+   181,
+   90,
+   179,
+   75,
+   82,
+   129
+  ],
+  "warnings": []
+ }
+}

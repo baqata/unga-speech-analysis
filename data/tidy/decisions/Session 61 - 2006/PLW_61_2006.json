@@ -1,0 +1,61 @@
+{
+ "id": "PLW_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  26,
+  44,
+  64,
+  82,
+  95,
+  108,
+  129,
+  145,
+  154,
+  166
+ ],
+ "cer": [
+  0,
+  166
+ ],
+ "fix": [
+  [
+   153,
+   "(A/60/PV.100, p. 6 )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81442c533d868bc54ff921b82176806f0f71f556",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1321,
+  "words_out": 1316,
+  "retention": 0.9962,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   71,
+   134,
+   136,
+   154,
+   157,
+   97,
+   93,
+   166,
+   121,
+   62,
+   94,
+   31
+  ],
+  "warnings": []
+ }
+}

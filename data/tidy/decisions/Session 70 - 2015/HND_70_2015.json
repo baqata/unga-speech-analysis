@@ -1,0 +1,45 @@
+{
+ "id": "HND_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  13,
+  21
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd64adc9aabf7e3daae271f86299a7e3fc24f057",
+ "layout": "lines",
+ "stats": {
+  "n_units": 23,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 2
+  },
+  "words_in": 639,
+  "words_out": 638,
+  "retention": 0.9984,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   79,
+   133,
+   138,
+   175,
+   113
+  ],
+  "warnings": []
+ }
+}

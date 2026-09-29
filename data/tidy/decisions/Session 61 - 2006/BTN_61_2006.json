@@ -1,0 +1,57 @@
+{
+ "id": "BTN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  39,
+  53,
+  65,
+  75,
+  86,
+  103,
+  116,
+  121,
+  128,
+  141,
+  158
+ ],
+ "cer": [
+  0,
+  121,
+  158
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "798deb8e5d433ef8c0520b54f2f60f8c407cd824",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1227,
+  "words_out": 1222,
+  "retention": 0.9959,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   184,
+   114,
+   102,
+   96,
+   69,
+   92,
+   134,
+   88,
+   41,
+   55,
+   108,
+   132,
+   7
+  ],
+  "warnings": []
+ }
+}

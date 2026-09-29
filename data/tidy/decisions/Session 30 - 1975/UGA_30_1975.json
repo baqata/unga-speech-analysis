@@ -1,0 +1,409 @@
+{
+ "id": "UGA_30_1975",
+ "drop": [
+  [
+   4,
+   4,
+   "procedural"
+  ],
+  [
+   272,
+   272,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  16,
+  20,
+  25,
+  27,
+  32,
+  39,
+  42,
+  44,
+  47,
+  50,
+  55,
+  58,
+  61,
+  69,
+  71,
+  76,
+  81,
+  84,
+  90,
+  92,
+  96,
+  101,
+  105,
+  109,
+  115,
+  121,
+  125,
+  128,
+  135,
+  140,
+  144,
+  150,
+  156,
+  162,
+  166,
+  172,
+  177,
+  182,
+  188,
+  191,
+  197,
+  208,
+  213,
+  218,
+  221,
+  225,
+  230,
+  232,
+  239,
+  244,
+  248,
+  251,
+  254,
+  261,
+  265,
+  268,
+  273,
+  278,
+  281,
+  285,
+  286,
+  294,
+  302,
+  313,
+  318,
+  323,
+  330,
+  337
+ ],
+ "cer": [
+  0,
+  5,
+  8,
+  12
+ ],
+ "fix": [
+  [
+   14,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   23,
+   "stage.",
+   "stage,",
+   "ocr"
+  ],
+  [
+   26,
+   "problems, The",
+   "problems. The",
+   "ocr"
+  ],
+  [
+   31,
+   "Assembly.3",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   57,
+   "sustain, The",
+   "sustain. The",
+   "ocr"
+  ],
+  [
+   61,
+   " [MPLA ]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   " [FNL4]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "{UNITA]",
+   "[UNITA]",
+   "ocr"
+  ],
+  [
+   61,
+   " [UNITA]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "Libertafao",
+   "Libertacao",
+   "ocr"
+  ],
+  [
+   61,
+   "aIndependencia",
+   "a Independencia",
+   "spacing"
+  ],
+  [
+   90,
+   " [SPUP]",
+   "",
+   "label"
+  ],
+  [
+   90,
+   " [SDP]",
+   "",
+   "label"
+  ],
+  [
+   92,
+   " 356",
+   "",
+   "label"
+  ],
+  [
+   112,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   142,
+   "soWe",
+   "solve",
+   "ocr"
+  ],
+  [
+   143,
+   "its . enormous",
+   "its enormous",
+   "ocr"
+  ],
+  [
+   143,
+   "greatest change",
+   "greatest chance",
+   "ocr"
+  ],
+  [
+   156,
+   "1 am",
+   "I am",
+   "ocr"
+  ],
+  [
+   171,
+   "created, As",
+   "created. As",
+   "ocr"
+  ],
+  [
+   181,
+   "notjust",
+   "not just",
+   "merged_word"
+  ],
+  [
+   186,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   188,
+   "or. creed",
+   "or creed",
+   "ocr"
+  ],
+  [
+   223,
+   " [CIA]",
+   "",
+   "label"
+  ],
+  [
+   231,
+   "tor Christians",
+   "for Christians",
+   "ocr"
+  ],
+  [
+   234,
+   "ail the",
+   "all the",
+   "ocr"
+  ],
+  [
+   239,
+   "out, To",
+   "out. To",
+   "ocr"
+  ],
+  [
+   242,
+   "mis-understandings",
+   "misunderstandings",
+   "hyphen"
+  ],
+  [
+   245,
+   "Africa, Apartheid",
+   "Africa. Apartheid",
+   "ocr"
+  ],
+  [
+   250,
+   "wish lo restate",
+   "wish to restate",
+   "ocr"
+  ],
+  [
+   251,
+   "131 ",
+   "",
+   "label"
+  ],
+  [
+   259,
+   "United Spates",
+   "United States",
+   "ocr"
+  ],
+  [
+   261,
+   "leave)",
+   "leave",
+   "ocr"
+  ],
+  [
+   286,
+   "Mr. AMIN (Uganda): ",
+   "",
+   "label"
+  ],
+  [
+   310,
+   "Imyselfhave",
+   "I myself have",
+   "merged_word"
+  ],
+  [
+   313,
+   "'42. ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The Permanent Representative read the President's statement (units 5-285); his one-line introduction (unit 4) was dropped as procedural. Units 0-3 and 286-339 are the President's own words, and the speaker label at unit 286 was removed. Unit 231 keeps \"had he honor\" (a lost letter).",
+ "unitizer_version": 1,
+ "sha1": "3bd1e3707556e00f16fa446f7be6b462d39837b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 340,
+  "units_dropped": {
+   "procedural": 1,
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 74
+  },
+  "words_in": 9226,
+  "words_out": 9168,
+  "retention": 0.9937,
+  "n_paragraphs": 72,
+  "paragraph_words": [
+   105,
+   137,
+   125,
+   122,
+   121,
+   79,
+   120,
+   204,
+   171,
+   91,
+   77,
+   99,
+   90,
+   153,
+   117,
+   59,
+   228,
+   63,
+   161,
+   141,
+   77,
+   157,
+   72,
+   79,
+   114,
+   138,
+   81,
+   137,
+   204,
+   139,
+   117,
+   174,
+   103,
+   158,
+   130,
+   157,
+   195,
+   167,
+   155,
+   90,
+   142,
+   147,
+   225,
+   205,
+   190,
+   104,
+   138,
+   106,
+   101,
+   161,
+   62,
+   146,
+   73,
+   125,
+   112,
+   107,
+   136,
+   117,
+   115,
+   99,
+   158,
+   99,
+   238,
+   18,
+   172,
+   174,
+   200,
+   87,
+   72,
+   69,
+   88,
+   75
+  ],
+  "warnings": [
+   "36 fixes"
+  ]
+ }
+}

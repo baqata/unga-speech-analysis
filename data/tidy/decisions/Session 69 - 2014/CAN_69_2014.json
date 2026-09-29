@@ -1,0 +1,65 @@
+{
+ "id": "CAN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  20,
+  33,
+  44,
+  54,
+  65,
+  83,
+  94,
+  102,
+  117,
+  132,
+  146,
+  156,
+  168,
+  183,
+  199,
+  210
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c9e1d8c54287ba48fc2e6f4b3181b41bb7c8dd8a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 217,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 15
+  },
+  "words_in": 1845,
+  "words_out": 1843,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   16,
+   152,
+   116,
+   92,
+   84,
+   97,
+   151,
+   98,
+   63,
+   121,
+   135,
+   110,
+   80,
+   114,
+   114,
+   137,
+   93,
+   70
+  ],
+  "warnings": []
+ }
+}

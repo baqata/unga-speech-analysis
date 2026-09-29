@@ -1,0 +1,68 @@
+{
+ "id": "SVN_60_2005",
+ "drop": [
+  [
+   8,
+   9,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  19,
+  28,
+  41,
+  56,
+  69,
+  83,
+  96,
+  110,
+  129,
+  144,
+  158,
+  175,
+  195
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "70a7bc729e7dbf3f2089952c1574c586e2f36c6f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1683,
+  "words_out": 1676,
+  "retention": 0.9958,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   66,
+   77,
+   73,
+   98,
+   112,
+   97,
+   108,
+   98,
+   103,
+   151,
+   113,
+   108,
+   143,
+   168,
+   161
+  ],
+  "warnings": []
+ }
+}

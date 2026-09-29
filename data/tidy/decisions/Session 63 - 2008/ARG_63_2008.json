@@ -1,0 +1,53 @@
+{
+ "id": "ARG_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  48,
+  68,
+  89,
+  101,
+  119,
+  134,
+  152,
+  173,
+  189,
+  208,
+  234
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7b15900bb22f661487fbb53b0841c0be95c9a24e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 255,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2176,
+  "words_out": 2176,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   164,
+   236,
+   155,
+   174,
+   110,
+   149,
+   120,
+   152,
+   177,
+   141,
+   179,
+   231,
+   188
+  ],
+  "warnings": []
+ }
+}

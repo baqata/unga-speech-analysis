@@ -1,0 +1,64 @@
+{
+ "id": "GHA_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  42,
+  53,
+  66,
+  82,
+  100,
+  117,
+  137,
+  163,
+  177,
+  200,
+  214,
+  234
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   130,
+   "troop- contributing",
+   "troop-contributing",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2ab462bc9f8c46ae705d1d55203a07dd06f4d3a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2023,
+  "words_out": 2021,
+  "retention": 0.999,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   166,
+   196,
+   99,
+   113,
+   129,
+   153,
+   157,
+   184,
+   216,
+   111,
+   177,
+   118,
+   177,
+   25
+  ],
+  "warnings": []
+ }
+}

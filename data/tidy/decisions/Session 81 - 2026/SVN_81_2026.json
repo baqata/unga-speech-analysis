@@ -1,0 +1,209 @@
+{
+ "id": "SVN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   120,
+   120,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  12,
+  20,
+  24,
+  33,
+  40,
+  50,
+  56,
+  62,
+  71,
+  77,
+  89,
+  97,
+  103,
+  109,
+  114
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "team",
+   "theme",
+   "asr_term"
+  ],
+  [
+   24,
+   "season",
+   "session",
+   "asr_term"
+  ],
+  [
+   49,
+   "carrying less",
+   "caring less",
+   "asr_term"
+  ],
+  [
+   49,
+   "carrying more",
+   "caring more",
+   "asr_term"
+  ],
+  [
+   54,
+   "coward",
+   "cover",
+   "asr_term"
+  ],
+  [
+   77,
+   "fragmented",
+   "flagrant",
+   "asr_term"
+  ],
+  [
+   80,
+   "Dzemilov",
+   "Dzhemilev",
+   "asr_name"
+  ],
+  [
+   47,
+   "Not 17,",
+   "Not 70,",
+   "asr_term"
+  ],
+  [
+   57,
+   "the autoresystemic repression",
+   "the authorities' systemic repression",
+   "asr_term"
+  ],
+  [
+   10,
+   "mechanism. legal mechanism",
+   "mechanism. Legal mechanism",
+   "asr_term"
+  ],
+  [
+   11,
+   "lawyers, lawyers,",
+   "lawyers,",
+   "asr_term"
+  ],
+  [
+   81,
+   "Russia Russia",
+   "Russia",
+   "asr_term"
+  ],
+  [
+   11,
+   "Society. the",
+   "Society. The",
+   "asr_term"
+  ],
+  [
+   39,
+   "same. but",
+   "same. But",
+   "asr_term"
+  ],
+  [
+   108,
+   "states. distinguished",
+   "states. Distinguished",
+   "asr_term"
+  ],
+  [
+   111,
+   "all? for",
+   "all? For",
+   "asr_term"
+  ],
+  [
+   65,
+   "instrument",
+   "instruments",
+   "asr_term"
+  ],
+  [
+   66,
+   "ruled",
+   "rule",
+   "asr_term"
+  ],
+  [
+   73,
+   "and seeks",
+   "that seeks",
+   "asr_term"
+  ],
+  [
+   89,
+   "territory. responsible",
+   "territory. Those responsible",
+   "asr_term"
+  ],
+  [
+   97,
+   "and trusted",
+   "entrusted",
+   "asr_term"
+  ],
+  [
+   101,
+   "ruined",
+   "ruining",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish channel confirms tema, sesion, nos importe menos, tapadera, violacion patente; Crimean Tatar leader Mustafa Dzhemilev (Wikipedia). Main-agent audit: unit 47 first number unsure in three decodes (p 0.40-0.83) and 'no 70' in the Spanish, so 'Not 70,'; the second '17' is heard at p 0.98-0.99 and kept (the Spanish has 'ni 71'); unit 57 'represión sistémica de las autoridades'. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 10 'mechanism. legal mechanism' -> 'mechanism. Legal mechanism' (said twice; capital restored); unit 11 'lawyers, lawyers,' -> 'lawyers,' (the word before 'lawyers' is unclear in five re-decodes ('lawyers', 'players', 'clients', p 0.19-0.46); the Spanish booth has 'juristas' once); unit 81 'Russia Russia' -> 'Russia'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 11 'Society. the' -> 'Society. The'; unit 39 'same. but' -> 'same. But'; unit 89 'territory. responsible' -> 'territory. Responsible'; unit 108 'states. distinguished' -> 'states. Distinguished'; unit 111 'all? for' -> 'all? For'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 16 unit 65 'instrument' -> 'instruments' (heard 2 'instruments' 0.46 (heard 1 'instrument' 0.39); 'Procedures and institutions become instrument of' does not fit; ES 'se convierten en instrumentos'); spot 17 unit 66 'ruled' -> 'rule' (heard 1 'rule' 0.74 (heard 2 'ruled' 0.45); the contrast is 'rule of law' vs 'rule by law'; ES 'el imperio por la ley'); spot 18 unit 73 'and seeks' -> 'that seeks' (both decodes hear 'then' (0.69 / 0.66), not 'and'; 'under a system, and seeks complete control' does not fit; ES 'un sistema que intenta controlar'; 'and' alone is not unique); spot 19 unit 89 'territory. responsible' -> 'territory. Those responsible' (2026 exception: both decodes hear 'Those' clearly (0.98 / 0.98); ES 'Los responsables deben hacer frente a la justicia'; replaces the existing repair 'territory. responsible' -> 'territory. Responsible'); spot 22 unit 97 'and trusted' -> 'entrusted' (both decodes hear 'entrusted' (0.75 / 0.73); 'and trusted with a special responsibility' does not fit; sounds alike); spot 24 unit 101 'ruined' -> 'ruining' (decodes 'ruined' only 0.53 / 0.67; 'It is ruined the world order' does not fit; sounds alike; UN 'ruining')",
+ "unitizer_version": 1,
+ "sha1": "358213924f48958ee8717270a82c28c4c0955c01",
+ "layout": "single",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2047,
+  "words_out": 1997,
+  "retention": 0.9756,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   60,
+   116,
+   150,
+   122,
+   83,
+   79,
+   100,
+   145,
+   117,
+   89,
+   109,
+   138,
+   151,
+   107,
+   77,
+   155,
+   119,
+   80
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

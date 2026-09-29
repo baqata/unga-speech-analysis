@@ -1,0 +1,60 @@
+{
+ "id": "SYR_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  11,
+  16,
+  19,
+  24,
+  29,
+  32,
+  38,
+  41,
+  45,
+  48
+ ],
+ "cer": [
+  6
+ ],
+ "fix": [
+  [
+   20,
+   "United,",
+   "United",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7c202154a934fb9a78f08f21d79c7d3221fb20c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1604,
+  "words_out": 1604,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   160,
+   68,
+   125,
+   158,
+   120,
+   162,
+   151,
+   74,
+   201,
+   100,
+   143,
+   98,
+   44
+  ],
+  "warnings": []
+ }
+}

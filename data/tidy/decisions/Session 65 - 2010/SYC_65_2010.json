@@ -1,0 +1,53 @@
+{
+ "id": "SYC_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  20,
+  37,
+  50,
+  67,
+  82,
+  100,
+  113,
+  130,
+  149,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60e7796ffa2cff7ce62af947d8d8fe0162c60f99",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1515,
+  "words_out": 1512,
+  "retention": 0.998,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   64,
+   108,
+   135,
+   104,
+   138,
+   119,
+   155,
+   103,
+   138,
+   161,
+   160,
+   127
+  ],
+  "warnings": []
+ }
+}

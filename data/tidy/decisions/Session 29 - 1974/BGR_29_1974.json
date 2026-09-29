@@ -1,0 +1,170 @@
+{
+ "id": "BGR_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  16,
+  19,
+  23,
+  26,
+  29,
+  37,
+  42,
+  46,
+  48,
+  52,
+  54,
+  59,
+  66,
+  69,
+  72,
+  74,
+  76,
+  78,
+  82,
+  84,
+  88,
+  95,
+  99,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "Coroperation",
+   "Co-operation",
+   "ocr"
+  ],
+  [
+   36,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   41,
+   "peQple",
+   "people",
+   "ocr"
+  ],
+  [
+   52,
+   "problem.1",
+   "problem.",
+   "ocr"
+  ],
+  [
+   65,
+   "the* world",
+   "the world",
+   "ocr"
+  ],
+  [
+   71,
+   " [resolution 2373 (XXII), annex)",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "mi the",
+   "on the",
+   "ocr"
+  ],
+  [
+   71,
+   " [resolution 2660 (XXV)}",
+   "",
+   "label"
+  ],
+  [
+   72,
+   " [item 103]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   "world/ For",
+   "world. For",
+   "ocr"
+  ],
+  [
+   95,
+   "placQ",
+   "place",
+   "ocr"
+  ],
+  [
+   98,
+   "all- round",
+   "all-round",
+   "spacing"
+  ],
+  [
+   100,
+   "in conducted",
+   "is conducted",
+   "ocr"
+  ],
+  [
+   71,
+   "annex],",
+   "annex].",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33edb47152b83c27ddfc3f9b97cf6509cf9c3cc4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3209,
+  "words_out": 3180,
+  "retention": 0.991,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   81,
+   131,
+   119,
+   139,
+   107,
+   123,
+   73,
+   73,
+   211,
+   113,
+   95,
+   80,
+   111,
+   109,
+   148,
+   162,
+   79,
+   128,
+   102,
+   113,
+   66,
+   152,
+   99,
+   88,
+   174,
+   65,
+   187,
+   52
+  ],
+  "warnings": []
+ }
+}

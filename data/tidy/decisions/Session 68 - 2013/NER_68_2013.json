@@ -1,0 +1,68 @@
+{
+ "id": "NER_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  15,
+  43,
+  52,
+  66,
+  77,
+  91,
+  107,
+  130,
+  148,
+  158,
+  168,
+  180,
+  194,
+  197
+ ],
+ "cer": [
+  0,
+  8,
+  197
+ ],
+ "fix": [
+  [
+   113,
+   "task.We",
+   "task. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec1fa2161d527214bee51857d3be95cbdd2f1ede",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1578,
+  "words_out": 1577,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   60,
+   57,
+   215,
+   60,
+   100,
+   77,
+   108,
+   122,
+   198,
+   155,
+   83,
+   78,
+   96,
+   120,
+   25,
+   23
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "PAK_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  15,
+  17,
+  21,
+  23,
+  28,
+  32,
+  36,
+  44,
+  52,
+  55,
+  60,
+  67,
+  71,
+  76,
+  85,
+  89,
+  92,
+  97,
+  99,
+  104,
+  110,
+  116,
+  118,
+  122,
+  126,
+  130,
+  133
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "thirty- eighth",
+   "thirty-eighth",
+   "hyphen"
+  ],
+  [
+   10,
+   "accordant",
+   "accordance",
+   "ocr"
+  ],
+  [
+   16,
+   "East- West",
+   "East-West",
+   "hyphen"
+  ],
+  [
+   39,
+   "self- perpetuating",
+   "self-perpetuating",
+   "hyphen"
+  ],
+  [
+   64,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ],
+  [
+   64,
+   "\"",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   91,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   113,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   124,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   132,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "An italic word (apartheid) is lost in unit 110.",
+ "unitizer_version": 1,
+ "sha1": "6bfbb8b79b717a85226fd581bb8faba9607e1387",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 3837,
+  "words_out": 3828,
+  "retention": 0.9977,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   86,
+   128,
+   78,
+   115,
+   90,
+   80,
+   88,
+   123,
+   81,
+   157,
+   164,
+   273,
+   65,
+   148,
+   137,
+   98,
+   118,
+   289,
+   74,
+   115,
+   157,
+   86,
+   182,
+   165,
+   204,
+   76,
+   107,
+   91,
+   89,
+   79,
+   85
+  ],
+  "warnings": []
+ }
+}

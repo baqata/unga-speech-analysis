@@ -1,0 +1,162 @@
+{
+ "id": "FJI_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   165,
+   167,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  15,
+  21,
+  26,
+  33,
+  41,
+  46,
+  56,
+  60,
+  65,
+  71,
+  77,
+  82,
+  96,
+  105,
+  114,
+  119,
+  123,
+  132,
+  137,
+  142,
+  146,
+  151,
+  154,
+  163
+ ],
+ "cer": [
+  2,
+  163
+ ],
+ "fix": [
+  [
+   3,
+   "Annalena Birok",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   99,
+   "BB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   100,
+   "in Niche",
+   "in Nice",
+   "asr_name"
+  ],
+  [
+   107,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   112,
+   "Antigua-Babuda",
+   "Antigua-Barbuda",
+   "asr_name"
+  ],
+  [
+   112,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   114,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   115,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   117,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   119,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   121,
+   "P-SIDs",
+   "P-SIDS",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "86661e0717152180285a8a5519cd7bf7268e032f",
+ "layout": "single",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {
+   "presider": 5
+  },
+  "prestrip": {},
+  "words_in": 3002,
+  "words_out": 2906,
+  "retention": 0.968,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   55,
+   107,
+   124,
+   129,
+   125,
+   118,
+   121,
+   91,
+   123,
+   107,
+   62,
+   91,
+   133,
+   92,
+   183,
+   154,
+   131,
+   154,
+   84,
+   171,
+   92,
+   107,
+   79,
+   70,
+   62,
+   135,
+   6
+  ],
+  "warnings": []
+ }
+}

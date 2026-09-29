@@ -1,0 +1,65 @@
+{
+ "id": "MEX_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  13,
+  23,
+  28,
+  31,
+  34,
+  43,
+  50,
+  55,
+  59,
+  63,
+  68,
+  75,
+  77
+ ],
+ "cer": [
+  77
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "835badacba342565c3c0690587fe693806254621",
+ "layout": "single",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1851,
+  "words_out": 1830,
+  "retention": 0.9887,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   170,
+   168,
+   154,
+   97,
+   95,
+   92,
+   175,
+   166,
+   112,
+   72,
+   134,
+   132,
+   219,
+   36,
+   8
+  ],
+  "warnings": []
+ }
+}

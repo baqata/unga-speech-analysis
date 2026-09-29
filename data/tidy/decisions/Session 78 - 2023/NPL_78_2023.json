@@ -1,0 +1,150 @@
+{
+ "id": "NPL_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15,
+  20,
+  24,
+  28,
+  32,
+  38,
+  45,
+  55,
+  65,
+  70,
+  73,
+  77,
+  87,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General.",
+   "Secretary-General,",
+   "ocr"
+  ],
+  [
+   8,
+   "centuries- old",
+   "centuries-old",
+   "hyphen"
+  ],
+  [
+   9,
+   "on. we",
+   "on, we",
+   "ocr"
+  ],
+  [
+   11,
+   "2015. an",
+   "2015, an",
+   "ocr"
+  ],
+  [
+   12,
+   "women.",
+   "women,",
+   "ocr"
+  ],
+  [
+   18,
+   "Accord.",
+   "Accord,",
+   "ocr"
+  ],
+  [
+   33,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   34,
+   "LDCs. we",
+   "LDCs, we",
+   "ocr"
+  ],
+  [
+   49,
+   "end. we",
+   "end, we",
+   "ocr"
+  ],
+  [
+   52,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   57,
+   "Libya.",
+   "Libya,",
+   "ocr"
+  ],
+  [
+   68,
+   "Pacific.",
+   "Pacific,",
+   "ocr"
+  ],
+  [
+   75,
+   "Safe.",
+   "Safe,",
+   "ocr"
+  ],
+  [
+   82,
+   "commitment.",
+   "commitment,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91e0233186656d4ec10a25a9ba481a99be72e539",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1926,
+  "words_out": 1923,
+  "retention": 0.9984,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   74,
+   98,
+   123,
+   60,
+   75,
+   99,
+   101,
+   77,
+   156,
+   119,
+   207,
+   155,
+   88,
+   61,
+   65,
+   189,
+   152,
+   24
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,274 @@
+{
+ "id": "COL_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   4,
+   4,
+   "noise"
+  ],
+  [
+   131,
+   132,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  7,
+  15,
+  23,
+  27,
+  35,
+  40,
+  43,
+  50,
+  56,
+  62,
+  70,
+  72,
+  75,
+  83,
+  90,
+  93,
+  101,
+  106,
+  109,
+  118,
+  121,
+  127,
+  130
+ ],
+ "cer": [
+  2,
+  130
+ ],
+ "fix": [
+  [
+   94,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   129,
+   "Columbia",
+   "Colombia",
+   "asr_name"
+  ],
+  [
+   92,
+   "multinaturalism",
+   "multilateralism",
+   "asr_term"
+  ],
+  [
+   2,
+   "Esprilla",
+   "Espriella",
+   "asr_name"
+  ],
+  [
+   74,
+   "corporation",
+   "cooperation",
+   "asr_term"
+  ],
+  [
+   90,
+   "that i wish",
+   "that I wish",
+   "asr_term"
+  ],
+  [
+   90,
+   "what i mean",
+   "what I mean",
+   "asr_term"
+  ],
+  [
+   90,
+   "that i'm not",
+   "that I'm not",
+   "asr_term"
+  ],
+  [
+   90,
+   "am i talking",
+   "am I talking",
+   "asr_term"
+  ],
+  [
+   90,
+   "necessary i'm",
+   "necessary I'm",
+   "asr_term"
+  ],
+  [
+   14,
+   "natural resources",
+   "natural tragedies",
+   "interp"
+  ],
+  [
+   42,
+   "its roots",
+   "its routes",
+   "interp"
+  ],
+  [
+   92,
+   "isn't compatible",
+   "isn't incompatible",
+   "interp"
+  ],
+  [
+   2,
+   "The half is again The four year old",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "economy. economy.",
+   "economy.",
+   "asr_term"
+  ],
+  [
+   111,
+   "for for",
+   "for",
+   "asr_term"
+  ],
+  [
+   38,
+   "extortionists. a",
+   "extortionists. A",
+   "asr_term"
+  ],
+  [
+   42,
+   "groups. that",
+   "groups. That",
+   "asr_term"
+  ],
+  [
+   45,
+   "enough. a",
+   "enough. A",
+   "asr_term"
+  ],
+  [
+   49,
+   "enough. we",
+   "enough. We",
+   "asr_term"
+  ],
+  [
+   74,
+   "results. and",
+   "results. And",
+   "asr_term"
+  ],
+  [
+   80,
+   "problems. eight",
+   "problems. Eight",
+   "asr_term"
+  ],
+  [
+   84,
+   "so. but",
+   "so. But",
+   "asr_term"
+  ],
+  [
+   90,
+   "transition. there's",
+   "transition. There's",
+   "asr_term"
+  ],
+  [
+   92,
+   "them. loving",
+   "them. Loving",
+   "asr_term"
+  ],
+  [
+   106,
+   "ahead. we",
+   "ahead. We",
+   "asr_term"
+  ],
+  [
+   120,
+   "Colombians. with",
+   "Colombians. With",
+   "asr_term"
+  ],
+  [
+   126,
+   "potential. a",
+   "potential. A",
+   "asr_term"
+  ],
+  [
+   66,
+   "Mompos Bolívar",
+   "Mompós, Bolívar",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech delivered by the Vice President reading the President's message; units 2-3 are the Vice President's protocol words (cer), unit 4 starts the President's message. Bilingual review (r02), speaker's words or evidence: unit 13 'natural resources' -> 'natural tragedies' (tragedias naturales); unit 41 'its roots' -> 'its routes' (Sus rutas); unit 91 \"isn't compatible\" -> \"isn't incompatible\" (no es incompatible) (unit numbers before gap recovery). Gap recovery added 'Le he pedido.', Spanish floor audio repeating the next sentence: noise; and (v4) 'The half is again The four year old', noise heard before the speech and glued to the salutation (label). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 58 'economy. economy.' -> 'economy.'; unit 111 'for for' -> 'for'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 38 'extortionists. a' -> 'extortionists. A'; unit 42 'groups. that' -> 'groups. That'; unit 45 'enough. a' -> 'enough. A'; unit 49 'enough. we' -> 'enough. We'; unit 74 'results. and' -> 'results. And'; unit 80 'problems. eight' -> 'problems. Eight'; unit 84 'so. but' -> 'so. But'; unit 90 'transition. there's' -> 'transition. There's'; unit 92 'them. loving' -> 'them. Loving'; unit 106 'ahead. we' -> 'ahead. We'; unit 120 'Colombians. with' -> 'Colombians. With'; unit 126 'potential. a' -> 'potential. A'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 9 unit 66 'Mompos Bolívar' -> 'Mompós, Bolívar' (the town is Mompós (DANE name; also Santa Cruz de Mompox) in the department of Bolívar, written like 'Ubaté, Cundinamarca' and 'Pasto, Nariño' in the next sentences; ES 'Montpós Bolívar')",
+ "unitizer_version": 1,
+ "sha1": "4139dd03e04714bb1ab681f377ec660bab1a8f51",
+ "layout": "single",
+ "stats": {
+  "n_units": 133,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2860,
+  "words_out": 2789,
+  "retention": 0.9752,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   76,
+   49,
+   142,
+   91,
+   86,
+   121,
+   84,
+   140,
+   85,
+   107,
+   88,
+   123,
+   92,
+   76,
+   195,
+   151,
+   179,
+   138,
+   93,
+   142,
+   164,
+   130,
+   138,
+   95,
+   4
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

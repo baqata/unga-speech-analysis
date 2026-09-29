@@ -1,0 +1,166 @@
+{
+ "id": "BLR_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  14,
+  17,
+  19,
+  22,
+  25,
+  29,
+  35,
+  39,
+  46,
+  50,
+  52,
+  58,
+  64,
+  65,
+  68,
+  73,
+  76,
+  79,
+  81,
+  84,
+  88,
+  94,
+  98,
+  102,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "SSRI wish",
+   "SSR I wish",
+   "merged_word"
+  ],
+  [
+   2,
+   "thirty- fourth",
+   "thirty-fourth",
+   "hyphen"
+  ],
+  [
+   13,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   18,
+   "to light for",
+   "to fight for",
+   "ocr"
+  ],
+  [
+   33,
+   "hegemony m international",
+   "hegemony in international",
+   "ocr"
+  ],
+  [
+   51,
+   "entitled' 'Adoption",
+   "entitled \"Adoption",
+   "ocr"
+  ],
+  [
+   53,
+   "nuclear- weapons",
+   "nuclear-weapons",
+   "hyphen"
+  ],
+  [
+   57,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   60,
+   "region as recently",
+   "region has recently",
+   "ocr"
+  ],
+  [
+   69,
+   "pro- imperialist",
+   "pro-imperialist",
+   "hyphen"
+  ],
+  [
+   89,
+   "[CMEA]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "metal- working",
+   "metal-working",
+   "hyphen"
+  ],
+  [
+   108,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fcb34a0018971f6eddf35af7f0ea5b254e4291e5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 4156,
+  "words_out": 4150,
+  "retention": 0.9986,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   94,
+   170,
+   99,
+   127,
+   93,
+   67,
+   105,
+   115,
+   226,
+   264,
+   154,
+   216,
+   165,
+   100,
+   185,
+   177,
+   92,
+   103,
+   154,
+   136,
+   165,
+   79,
+   110,
+   161,
+   257,
+   119,
+   156,
+   131,
+   130
+  ],
+  "warnings": []
+ }
+}

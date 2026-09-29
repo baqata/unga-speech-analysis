@@ -1,0 +1,106 @@
+{
+ "id": "ZWE_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  28,
+  43,
+  57,
+  71,
+  87,
+  101,
+  115,
+  136,
+  148,
+  160,
+  185,
+  205
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   83,
+   "ìinconvenientî",
+   "“inconvenient”",
+   "encoding"
+  ],
+  [
+   104,
+   "man ó or one woman ó one",
+   "man — or one woman — one",
+   "encoding"
+  ],
+  [
+   108,
+   "people ó Afro-Americans ó of",
+   "people — Afro-Americans — of",
+   "encoding"
+  ],
+  [
+   113,
+   "black ó African-American ó President",
+   "black — African-American — President",
+   "encoding"
+  ],
+  [
+   129,
+   "harvest ó",
+   "harvest —",
+   "encoding"
+  ],
+  [
+   206,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   208,
+   "countryís",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34eec1366480f9eb86bb4676994294738abc2738",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 211,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1685,
+  "words_out": 1684,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   116,
+   115,
+   134,
+   112,
+   106,
+   118,
+   102,
+   122,
+   185,
+   82,
+   95,
+   194,
+   156,
+   47
+  ],
+  "warnings": []
+ }
+}

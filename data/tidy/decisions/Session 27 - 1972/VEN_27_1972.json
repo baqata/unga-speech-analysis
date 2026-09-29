@@ -1,0 +1,131 @@
+{
+ "id": "VEN_27_1972",
+ "drop": [
+  [
+   44,
+   44,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  12,
+  15,
+  18,
+  23,
+  27,
+  30,
+  34,
+  37,
+  45,
+  52,
+  55,
+  57,
+  60,
+  63,
+  66,
+  71,
+  74,
+  79,
+  83,
+  89,
+  92,
+  98,
+  102,
+  107,
+  118,
+  120,
+  124,
+  127,
+  131
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "UThant",
+   "U Thant",
+   "merged_word"
+  ],
+  [
+   28,
+   "man's, life",
+   "man's life",
+   "ocr"
+  ],
+  [
+   40,
+   "• \"In",
+   "\"In",
+   "ocr"
+  ],
+  [
+   42,
+   "procedures\"",
+   "procedures",
+   "ocr"
+  ],
+  [
+   42,
+   "so on\"",
+   "so on",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c19fec6b98f1bbed2f9c11c91dbfb7c31d1d006",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 48
+  },
+  "words_in": 3350,
+  "words_out": 3345,
+  "retention": 0.9985,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   200,
+   118,
+   64,
+   96,
+   106,
+   132,
+   91,
+   117,
+   95,
+   113,
+   118,
+   85,
+   71,
+   96,
+   69,
+   65,
+   145,
+   86,
+   87,
+   186,
+   116,
+   75,
+   153,
+   115,
+   117,
+   212,
+   65,
+   106,
+   80,
+   83,
+   83
+  ],
+  "warnings": []
+ }
+}

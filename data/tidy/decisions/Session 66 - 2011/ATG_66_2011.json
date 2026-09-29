@@ -1,0 +1,77 @@
+{
+ "id": "ATG_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  40,
+  54,
+  70,
+  100,
+  127,
+  153,
+  173,
+  198,
+  220,
+  243,
+  260,
+  277,
+  298,
+  315,
+  341,
+  350,
+  380,
+  396
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   46,
+   "realization, Given",
+   "realization. Given",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6b4d798cbdeef6ec02d3500e37f94079bf8efaa7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 410,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 4
+  },
+  "words_in": 3233,
+  "words_out": 3227,
+  "retention": 0.9981,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   151,
+   157,
+   120,
+   143,
+   240,
+   206,
+   217,
+   143,
+   183,
+   182,
+   170,
+   135,
+   126,
+   170,
+   135,
+   210,
+   61,
+   226,
+   126,
+   126
+  ],
+  "warnings": []
+ }
+}

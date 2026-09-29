@@ -1,0 +1,140 @@
+{
+ "id": "GAB_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  21,
+  27,
+  29,
+  31,
+  41,
+  46,
+  54,
+  57,
+  61,
+  67,
+  70,
+  74,
+  77,
+  82,
+  86,
+  93,
+  96,
+  102,
+  106,
+  110,
+  115,
+  122,
+  125,
+  130,
+  135,
+  138,
+  140,
+  144,
+  147
+ ],
+ "cer": [
+  0,
+  4,
+  8
+ ],
+ "fix": [
+  [
+   65,
+   "Genera]",
+   "General",
+   "ocr"
+  ],
+  [
+   71,
+   " [A/L.433 and Add.",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "1-3]",
+   "",
+   "label"
+  ],
+  [
+   103,
+   "United Nations, While",
+   "United Nations. While",
+   "ocr"
+  ],
+  [
+   103,
+   "it bus never",
+   "it has never",
+   "ocr"
+  ],
+  [
+   104,
+   "United Nations, Moreover,",
+   "United Nations. Moreover,",
+   "ocr"
+  ],
+  [
+   129,
+   "does It",
+   "does it",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f2072d7ffb633f9cf4d4ce3cbab24d5ad7cc4e2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4376,
+  "words_out": 4325,
+  "retention": 0.9883,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   147,
+   133,
+   148,
+   263,
+   184,
+   83,
+   108,
+   217,
+   133,
+   210,
+   102,
+   74,
+   152,
+   94,
+   127,
+   90,
+   140,
+   104,
+   147,
+   83,
+   152,
+   174,
+   89,
+   150,
+   221,
+   88,
+   128,
+   149,
+   60,
+   63,
+   112,
+   65,
+   135
+  ],
+  "warnings": []
+ }
+}

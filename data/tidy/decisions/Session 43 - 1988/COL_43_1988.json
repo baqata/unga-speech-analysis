@@ -1,0 +1,68 @@
+{
+ "id": "COL_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  15,
+  18,
+  20,
+  24,
+  28,
+  30,
+  34,
+  37,
+  41,
+  43
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "ate the ones",
+   "are the ones",
+   "ocr"
+  ],
+  [
+   18,
+   "Charter, We",
+   "Charter. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61948c65a21591dcabb5f530ce459ba6a348bbef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1642,
+  "words_out": 1639,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   52,
+   51,
+   160,
+   260,
+   81,
+   109,
+   146,
+   124,
+   93,
+   164,
+   90,
+   131,
+   83,
+   95
+  ],
+  "warnings": []
+ }
+}

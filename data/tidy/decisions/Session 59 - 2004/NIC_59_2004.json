@@ -1,0 +1,51 @@
+{
+ "id": "NIC_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  28,
+  47,
+  63,
+  82,
+  96,
+  110,
+  124,
+  140,
+  154,
+  171
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9af99112d0bee50463c5c37c101124392fb8021a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1431,
+  "words_out": 1430,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   99,
+   125,
+   153,
+   137,
+   144,
+   107,
+   109,
+   100,
+   122,
+   106,
+   129,
+   99
+  ],
+  "warnings": []
+ }
+}

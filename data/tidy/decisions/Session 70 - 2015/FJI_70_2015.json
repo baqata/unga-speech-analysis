@@ -1,0 +1,75 @@
+{
+ "id": "FJI_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  18,
+  26,
+  30,
+  36,
+  44,
+  49,
+  58,
+  63,
+  71,
+  77,
+  82,
+  91,
+  95,
+  98,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   67,
+   "low- lying",
+   "low-lying",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a47575050b73fb343d048f1d1fce287c11c718f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 6
+  },
+  "words_in": 2396,
+  "words_out": 2395,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   61,
+   98,
+   129,
+   98,
+   121,
+   88,
+   102,
+   178,
+   129,
+   174,
+   115,
+   162,
+   145,
+   133,
+   211,
+   92,
+   94,
+   162,
+   103
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "BEL_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  25,
+  40,
+  58,
+  69,
+  81,
+  91,
+  120,
+  129,
+  147,
+  164,
+  176,
+  195,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d79cbb841ed21936684ef3eb49d24be8db48727c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 211,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1784,
+  "words_out": 1782,
+  "retention": 0.9989,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   27,
+   187,
+   123,
+   141,
+   95,
+   105,
+   83,
+   251,
+   63,
+   154,
+   158,
+   104,
+   156,
+   72,
+   63
+  ],
+  "warnings": []
+ }
+}

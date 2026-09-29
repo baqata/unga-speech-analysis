@@ -1,0 +1,80 @@
+{
+ "id": "SWZ_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  12,
+  18,
+  24,
+  32,
+  34,
+  36,
+  38,
+  43,
+  49,
+  52,
+  56,
+  62,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   13,
+   "cross- cutting",
+   "cross-cutting",
+   "hyphen"
+  ],
+  [
+   55,
+   "17-29407 11/29 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "58f42f317d201b4cb0d8b4f31f086d921ab08a98",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1762,
+  "words_out": 1758,
+  "retention": 0.9977,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   82,
+   80,
+   77,
+   75,
+   171,
+   159,
+   135,
+   77,
+   87,
+   61,
+   152,
+   138,
+   75,
+   92,
+   129,
+   79,
+   89
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "NOR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  7,
+  16,
+  26,
+  30,
+  41,
+  50,
+  55,
+  63,
+  70,
+  77,
+  86,
+  90,
+  94,
+  102
+ ],
+ "cer": [
+  0,
+  102
+ ],
+ "fix": [
+  [
+   89,
+   "cross- border",
+   "cross-border",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bacc340d3d42bff46014d6cc8a3484038a94d9b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1523,
+  "words_out": 1522,
+  "retention": 0.9993,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   2,
+   73,
+   77,
+   127,
+   133,
+   85,
+   121,
+   109,
+   97,
+   115,
+   68,
+   119,
+   128,
+   73,
+   108,
+   85,
+   2
+  ],
+  "warnings": []
+ }
+}

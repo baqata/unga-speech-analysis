@@ -1,0 +1,94 @@
+{
+ "id": "KEN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  17,
+  24,
+  29,
+  34,
+  38,
+  42,
+  45,
+  51,
+  58,
+  63,
+  65,
+  71,
+  77,
+  80,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   44,
+   "whole-of- Government",
+   "whole-of-Government",
+   "hyphen"
+  ],
+  [
+   55,
+   "least- funded",
+   "least-funded",
+   "hyphen"
+  ],
+  [
+   66,
+   "much- needed",
+   "much-needed",
+   "hyphen"
+  ],
+  [
+   70,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   79,
+   "much- needed",
+   "much-needed",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b601f4edb0162d1cc17b59675077cc8de8a6bec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2104,
+  "words_out": 2099,
+  "retention": 0.9976,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   139,
+   115,
+   141,
+   145,
+   113,
+   113,
+   111,
+   89,
+   74,
+   151,
+   150,
+   113,
+   65,
+   144,
+   139,
+   112,
+   88,
+   97
+  ],
+  "warnings": []
+ }
+}

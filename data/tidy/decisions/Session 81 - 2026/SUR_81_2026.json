@@ -1,0 +1,136 @@
+{
+ "id": "SUR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   88,
+   88,
+   "noise"
+  ],
+  [
+   89,
+   89,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  7,
+  11,
+  19,
+  26,
+  32,
+  37,
+  45,
+  55,
+  64,
+  73,
+  76,
+  80
+ ],
+ "cer": [
+  2,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "commenced",
+   "commends",
+   "asr_term"
+  ],
+  [
+   7,
+   "rustrum",
+   "rostrum",
+   "asr_term"
+  ],
+  [
+   16,
+   "Our developments",
+   "Other developments",
+   "asr_term"
+  ],
+  [
+   59,
+   "Who We Here",
+   "Hoe wij hier",
+   "asr_name"
+  ],
+  [
+   59,
+   "Te Samen Kwame",
+   "ook samenkwamen",
+   "asr_name"
+  ],
+  [
+   60,
+   "Who We",
+   "Hoe wij",
+   "asr_name"
+  ],
+  [
+   60,
+   "Samen Verder Gaan",
+   "samen verder gaan",
+   "asr_name"
+  ],
+  [
+   87,
+   "Grantanyi",
+   "Grantangi",
+   "asr_name"
+  ],
+  [
+   23,
+   "plea",
+   "plead",
+   "asr_term"
+  ],
+  [
+   35,
+   "of the of",
+   "of",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Heritage Month theme 'Hoe wij hier ook samenkwamen, hoe wij samen verder gaan' (gov.sr); Grantangi is Sranan Tongo for thank you (Wikipedia, Sranan Tongo); Spanish confirms agradece and Otras cuestiones. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 23 'plea' -> 'plead' (both decodes hear 'plead' (0.56 / 0.61); the noun 'plea' does not fit 'We plea for'; ES 'Pedimos'); spot 8 unit 35 'of the of' -> 'of' (invented words: both decodes hear 'movement of skilled people' with nothing between (445.2 / 445.5 s, p 1.00); ES 'desplazamiento de personas capacitadas'); spot 11 unit 50 earlier repair of 'national resources' undone (unsure resolved: the audio contradicts the earlier repair 'natural resources': both decodes hear 'national' (0.93 / 0.96), as does the UN transcript; forced scoring 'national' -9.6 vs 'natural' -15.2; the Spanish channel names neither ('los recursos'); 'national resources' fits the sentence as said, so the revert stands whatever is decided on slips). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: paragraph start at unit 50 removed: 'I stated that' reports what the speaker said last year, the words that close unit 49, and units 45-54 all concern the forests.",
+ "unitizer_version": 1,
+ "sha1": "6885790c021e253237c5da8af2ac2870b1f67e6b",
+ "layout": "single",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1645,
+  "words_out": 1591,
+  "retention": 0.9672,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   10,
+   110,
+   139,
+   143,
+   123,
+   97,
+   101,
+   128,
+   184,
+   152,
+   162,
+   67,
+   75,
+   100
+  ],
+  "warnings": []
+ }
+}

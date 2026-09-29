@@ -1,0 +1,157 @@
+{
+ "id": "IRN_27_1972",
+ "drop": [
+  [
+   84,
+   84,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  18,
+  23,
+  25,
+  27,
+  30,
+  34,
+  40,
+  43,
+  46,
+  50,
+  55,
+  60,
+  62,
+  67,
+  72,
+  79,
+  88,
+  94,
+  98,
+  102,
+  105,
+  110,
+  113
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   10,
+   "UThant",
+   "U Thant",
+   "merged_word"
+  ],
+  [
+   11,
+   "Hie rigid",
+   "The rigid",
+   "ocr"
+  ],
+  [
+   25,
+   "realism*",
+   "realism.",
+   "ocr"
+  ],
+  [
+   41,
+   "for u political",
+   "for a political",
+   "ocr"
+  ],
+  [
+   48,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   61,
+   " [1940th meeting, para 116]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "hiospheric",
+   "biospheric",
+   "ocr"
+  ],
+  [
+   80,
+   "by ail the",
+   "by all the",
+   "ocr"
+  ],
+  [
+   93,
+   "aiso",
+   "also",
+   "ocr"
+  ],
+  [
+   110,
+   " [A/8791 and Add.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "591dfe1ee3950f17d78dcd1e0136d027e971cedf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3280,
+  "words_out": 3245,
+  "retention": 0.9893,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   123,
+   189,
+   176,
+   162,
+   81,
+   104,
+   110,
+   81,
+   115,
+   124,
+   80,
+   114,
+   134,
+   102,
+   63,
+   145,
+   154,
+   165,
+   229,
+   137,
+   130,
+   107,
+   133,
+   68,
+   74,
+   145
+  ],
+  "warnings": []
+ }
+}

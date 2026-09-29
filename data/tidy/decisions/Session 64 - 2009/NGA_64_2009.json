@@ -1,0 +1,63 @@
+{
+ "id": "NGA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  30,
+  40,
+  54,
+  74,
+  91,
+  118,
+  140,
+  151,
+  171,
+  184,
+  205,
+  230,
+  249,
+  264,
+  287
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3be9c35258c66b2dd47ae41d6559e7262705ab9d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 297,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2371,
+  "words_out": 2368,
+  "retention": 0.9987,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   93,
+   150,
+   80,
+   110,
+   160,
+   129,
+   219,
+   185,
+   77,
+   168,
+   106,
+   178,
+   208,
+   148,
+   107,
+   170,
+   80
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "id": "RWA_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  5,
+  8,
+  12,
+  14,
+  20,
+  24,
+  28,
+  35,
+  41,
+  46,
+  49,
+  53,
+  59,
+  63,
+  69,
+  74,
+  80,
+  86,
+  99,
+  108,
+  118,
+  123,
+  132,
+  138
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "Soviet Union, We see",
+   "Soviet Union. We see",
+   "ocr"
+  ],
+  [
+   29,
+   "World's knowledge",
+   "world's knowledge",
+   "ocr"
+  ],
+  [
+   45,
+   "Even If",
+   "Even if",
+   "ocr"
+  ],
+  [
+   60,
+   "it Independence",
+   "it independence",
+   "ocr"
+  ],
+  [
+   64,
+   "should Intervene",
+   "should intervene",
+   "ocr"
+  ],
+  [
+   76,
+   " [No, 10/63]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "often Invisible",
+   "often invisible",
+   "ocr"
+  ],
+  [
+   118,
+   "surprising Is",
+   "surprising is",
+   "ocr"
+  ],
+  [
+   118,
+   "Government Is the",
+   "Government is the",
+   "ocr"
+  ],
+  [
+   126,
+   "will net see",
+   "will not see",
+   "ocr"
+  ],
+  [
+   130,
+   "victim: are",
+   "victims are",
+   "ocr"
+  ],
+  [
+   131,
+   "apparent is the address",
+   "apparent in the address",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d9214d4244e32a087be9daef4665ef60f05e19a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 32
+  },
+  "words_in": 3826,
+  "words_out": 3824,
+  "retention": 0.9995,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   44,
+   101,
+   102,
+   86,
+   72,
+   96,
+   166,
+   104,
+   107,
+   157,
+   191,
+   104,
+   128,
+   130,
+   149,
+   128,
+   208,
+   141,
+   168,
+   93,
+   243,
+   179,
+   151,
+   153,
+   226,
+   168,
+   229
+  ],
+  "warnings": []
+ }
+}

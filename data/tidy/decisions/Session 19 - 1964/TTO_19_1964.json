@@ -1,0 +1,104 @@
+{
+ "id": "TTO_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  13,
+  16,
+  22,
+  24,
+  27,
+  33,
+  39,
+  42,
+  46,
+  50,
+  54,
+  59,
+  63,
+  69,
+  74,
+  79,
+  82,
+  91,
+  92,
+  96,
+  99,
+  102,
+  103
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   69,
+   "Mr.’ President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   88,
+   "World War H",
+   "World War II",
+   "ocr"
+  ],
+  [
+   100,
+   "imp>y",
+   "imply",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ef4eb3958653b9b1328171e78c5057e0c1770a6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 3323,
+  "words_out": 3323,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   179,
+   77,
+   69,
+   151,
+   167,
+   148,
+   88,
+   100,
+   219,
+   139,
+   82,
+   84,
+   180,
+   137,
+   152,
+   67,
+   134,
+   148,
+   184,
+   74,
+   238,
+   60,
+   95,
+   84,
+   76,
+   66,
+   125
+  ],
+  "warnings": []
+ }
+}

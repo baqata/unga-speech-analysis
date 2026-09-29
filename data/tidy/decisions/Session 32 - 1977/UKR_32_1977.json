@@ -1,0 +1,146 @@
+{
+ "id": "UKR_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  18,
+  26,
+  29,
+  30,
+  33,
+  37,
+  40,
+  44,
+  48,
+  57,
+  63,
+  67,
+  70,
+  75,
+  80,
+  88,
+  93,
+  96,
+  99,
+  101,
+  105,
+  108
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "indicates-and",
+   "indicates—and",
+   "ocr"
+  ],
+  [
+   20,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   23,
+   "Jinked",
+   "linked",
+   "ocr"
+  ],
+  [
+   35,
+   "spirit-of",
+   "spirit of",
+   "ocr"
+  ],
+  [
+   36,
+   "war-and",
+   "war—and",
+   "ocr"
+  ],
+  [
+   36,
+   "Union-is",
+   "Union—is",
+   "ocr"
+  ],
+  [
+   43,
+   "session.5 The",
+   "session. The",
+   "markup"
+  ],
+  [
+   45,
+   "and. figuratively",
+   "and figuratively",
+   "ocr"
+  ],
+  [
+   72,
+   "Organization-the",
+   "Organization—the",
+   "ocr"
+  ],
+  [
+   72,
+   "Palestine- must",
+   "Palestine—must",
+   "ocr"
+  ],
+  [
+   110,
+   "which, are",
+   "which are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 32 lacks a closing full stop and unit 33 lacks a verb ('we are confident, be conducive') in the source.",
+ "unitizer_version": 1,
+ "sha1": "cefa3267e17b134903fe089a78cdfe181ef7fe1f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3577,
+  "words_out": 3576,
+  "retention": 0.9997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   83,
+   150,
+   120,
+   146,
+   227,
+   112,
+   83,
+   98,
+   169,
+   81,
+   190,
+   126,
+   254,
+   214,
+   107,
+   67,
+   150,
+   142,
+   276,
+   150,
+   117,
+   73,
+   79,
+   128,
+   113,
+   121
+  ],
+  "warnings": []
+ }
+}

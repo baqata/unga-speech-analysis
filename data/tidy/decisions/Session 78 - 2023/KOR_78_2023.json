@@ -1,0 +1,156 @@
+{
+ "id": "KOR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  14,
+  27,
+  36,
+  41,
+  47,
+  54,
+  61,
+  65,
+  69,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Lie. the",
+   "Lie, the",
+   "ocr"
+  ],
+  [
+   4,
+   "(1950). intervening in the war. remains",
+   "(1950), intervening in the war, remains",
+   "ocr"
+  ],
+  [
+   5,
+   "70 years.",
+   "70 years,",
+   "ocr"
+  ],
+  [
+   16,
+   "use. energy",
+   "use, energy",
+   "ocr"
+  ],
+  [
+   20,
+   "As a result.",
+   "As a result,",
+   "ocr"
+  ],
+  [
+   38,
+   "To that end.",
+   "To that end,",
+   "ocr"
+  ],
+  [
+   41,
+   "Next.",
+   "Next,",
+   "ocr"
+  ],
+  [
+   48,
+   "(Al)",
+   "(AI)",
+   "ocr"
+  ],
+  [
+   48,
+   "use. is",
+   "use, is",
+   "ocr"
+  ],
+  [
+   50,
+   "of Al and",
+   "of AI and",
+   "ocr"
+  ],
+  [
+   52,
+   "of Al governance",
+   "of AI governance",
+   "ocr"
+  ],
+  [
+   52,
+   "global Al forum",
+   "global AI forum",
+   "ocr"
+  ],
+  [
+   53,
+   "on Al being",
+   "on AI being",
+   "ocr"
+  ],
+  [
+   67,
+   "law. along",
+   "law, along",
+   "ocr"
+  ],
+  [
+   67,
+   "freedom.",
+   "freedom,",
+   "ocr"
+  ],
+  [
+   71,
+   "hub. leading",
+   "hub, leading",
+   "ocr"
+  ],
+  [
+   72,
+   "Without Busan.",
+   "Without Busan,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9cb903a98a00dd77dc0d73b0485f408738bdc320",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1777,
+  "words_out": 1777,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   38,
+   158,
+   156,
+   218,
+   143,
+   104,
+   89,
+   192,
+   113,
+   163,
+   111,
+   212,
+   80
+  ],
+  "warnings": []
+ }
+}

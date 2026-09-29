@@ -1,0 +1,43 @@
+{
+ "id": "RWA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  25,
+  43,
+  62,
+  78,
+  104,
+  117
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "936016dac33d2619c4123e8c1711955f0116150e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1040,
+  "words_out": 1040,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   101,
+   88,
+   137,
+   143,
+   121,
+   203,
+   103,
+   144
+  ],
+  "warnings": []
+ }
+}

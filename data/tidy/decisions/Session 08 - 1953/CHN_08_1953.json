@@ -1,0 +1,107 @@
+{
+ "id": "CHN_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  33,
+  39,
+  46,
+  57,
+  60,
+  67,
+  75,
+  82,
+  86,
+  91,
+  104,
+  108,
+  122,
+  133
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "Mr. TSIANG (China):",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "years- foolish",
+   "years-foolish",
+   "hyphen"
+  ],
+  [
+   21,
+   "tie",
+   "the",
+   "ocr"
+  ],
+  [
+   35,
+   ".and",
+   "and",
+   "ocr"
+  ],
+  [
+   52,
+   "language of religion",
+   "language or religion",
+   "ocr"
+  ],
+  [
+   53,
+   "is'",
+   "is",
+   "ocr"
+  ],
+  [
+   90,
+   "Indo- China",
+   "Indo-China",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "16d21407ab8425b4fc8fbb700a2fb937815fdf8a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 20
+  },
+  "words_in": 3090,
+  "words_out": 3084,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   199,
+   194,
+   274,
+   155,
+   156,
+   336,
+   120,
+   155,
+   126,
+   163,
+   93,
+   131,
+   273,
+   124,
+   210,
+   258,
+   117
+  ],
+  "warnings": [
+   "paragraph at unit 46 has 336 words"
+  ]
+ }
+}

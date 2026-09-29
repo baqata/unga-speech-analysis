@@ -1,0 +1,93 @@
+{
+ "id": "TCD_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  19,
+  26,
+  29,
+  34,
+  40,
+  45,
+  53,
+  62,
+  66,
+  68,
+  70,
+  72
+ ],
+ "cer": [
+  0,
+  68
+ ],
+ "fix": [
+  [
+   8,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "can. be",
+   "can be",
+   "ocr"
+  ],
+  [
+   49,
+   "vain'",
+   "vain",
+   "ocr"
+  ],
+  [
+   66,
+   "* The",
+   "The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb473b36f37a8b18541455470e403c1e33ce1eaf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2209,
+  "words_out": 2205,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   161,
+   84,
+   155,
+   168,
+   212,
+   135,
+   155,
+   139,
+   145,
+   160,
+   211,
+   139,
+   83,
+   102,
+   67,
+   89
+  ],
+  "warnings": []
+ }
+}

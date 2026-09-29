@@ -1,0 +1,75 @@
+{
+ "id": "TUV_61_2006",
+ "drop": [
+  [
+   69,
+   69,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  21,
+  40,
+  55,
+  70,
+  82,
+  95,
+  105,
+  127,
+  140,
+  151,
+  166,
+  180,
+  191,
+  209,
+  225,
+  238
+ ],
+ "cer": [
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a01113c7e4de5f75f76a766197fc99d3a7d4adf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1890,
+  "words_out": 1883,
+  "retention": 0.9963,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   57,
+   113,
+   147,
+   122,
+   109,
+   86,
+   94,
+   75,
+   167,
+   89,
+   92,
+   120,
+   119,
+   76,
+   131,
+   121,
+   105,
+   60
+  ],
+  "warnings": [
+   "procedural drop [69,69] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,346 @@
+{
+ "id": "COG_16_1961",
+ "drop": [
+  [
+   58,
+   58,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  13,
+  15,
+  18,
+  22,
+  25,
+  28,
+  33,
+  41,
+  42,
+  47,
+  51,
+  54,
+  60,
+  62,
+  65,
+  71,
+  75,
+  80,
+  86,
+  88,
+  94,
+  101,
+  108,
+  115,
+  119,
+  124,
+  128,
+  134,
+  139,
+  143,
+  146,
+  148,
+  154,
+  159,
+  162,
+  167
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "have Accumulated",
+   "have accumulated",
+   "ocr"
+  ],
+  [
+   6,
+   "Berlin'",
+   "Berlin",
+   "ocr"
+  ],
+  [
+   16,
+   "sign, of",
+   "sign of",
+   "ocr"
+  ],
+  [
+   19,
+   "than an end",
+   "that an end",
+   "ocr"
+  ],
+  [
+   32,
+   "feet On the",
+   "feet on the",
+   "ocr"
+  ],
+  [
+   40,
+   "S3.",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "Africa - may",
+   "Africa may",
+   "ocr"
+  ],
+  [
+   65,
+   "94: ",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "throughout, the",
+   "throughout the",
+   "ocr"
+  ],
+  [
+   73,
+   "verse 6f",
+   "verse of",
+   "ocr"
+  ],
+  [
+   79,
+   "true)",
+   "true",
+   "ocr"
+  ],
+  [
+   79,
+   "booklets..",
+   "booklets.",
+   "ocr"
+  ],
+  [
+   80,
+   "constantly . occurring",
+   "constantly occurring",
+   "ocr"
+  ],
+  [
+   80,
+   "Whose",
+   "whose",
+   "ocr"
+  ],
+  [
+   81,
+   "a. pass",
+   "a pass",
+   "ocr"
+  ],
+  [
+   86,
+   "106.. ",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "independence,,",
+   "independence,",
+   "ocr"
+  ],
+  [
+   93,
+   "To Whom",
+   "To whom",
+   "ocr"
+  ],
+  [
+   100,
+   "hot speak",
+   "not speak",
+   "ocr"
+  ],
+  [
+   108,
+   "officials.,",
+   "officials,",
+   "ocr"
+  ],
+  [
+   127,
+   "lining",
+   "living",
+   "ocr"
+  ],
+  [
+   132,
+   "122« ",
+   "",
+   "label"
+  ],
+  [
+   136,
+   "He-Went",
+   "He went",
+   "ocr"
+  ],
+  [
+   138,
+   "Ms fallen",
+   "has fallen",
+   "ocr"
+  ],
+  [
+   139,
+   "124, ",
+   "",
+   "label"
+  ],
+  [
+   141,
+   "125, ",
+   "",
+   "label"
+  ],
+  [
+   143,
+   "126, ",
+   "",
+   "label"
+  ],
+  [
+   144,
+   "127, ",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "128, ",
+   "",
+   "label"
+  ],
+  [
+   146,
+   "129, ",
+   "",
+   "label"
+  ],
+  [
+   147,
+   "130, ",
+   "",
+   "label"
+  ],
+  [
+   148,
+   "131, ",
+   "",
+   "label"
+  ],
+  [
+   157,
+   "In this not",
+   "Is this not",
+   "ocr"
+  ],
+  [
+   161,
+   "of\" the",
+   "of the",
+   "ocr"
+  ],
+  [
+   162,
+   ".principle",
+   "principle",
+   "ocr"
+  ],
+  [
+   114,
+   "professor,",
+   "professor.",
+   "ocr"
+  ],
+  [
+   147,
+   "extinction,",
+   "extinction.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing after unit 89, where the source breaks off mid-sentence.",
+ "unitizer_version": 1,
+ "sha1": "6d0d9327c07e389e39fa0e2fdd4eabff863896b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 7,
+   "paragraph_number": 60
+  },
+  "words_in": 5365,
+  "words_out": 5333,
+  "retention": 0.994,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   100,
+   95,
+   95,
+   186,
+   91,
+   168,
+   95,
+   99,
+   110,
+   194,
+   221,
+   70,
+   164,
+   118,
+   105,
+   104,
+   79,
+   83,
+   221,
+   117,
+   108,
+   184,
+   84,
+   191,
+   130,
+   224,
+   184,
+   94,
+   115,
+   102,
+   119,
+   138,
+   140,
+   119,
+   107,
+   132,
+   227,
+   102,
+   171,
+   147
+  ],
+  "warnings": [
+   "37 fixes"
+  ]
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "VUT_76_2021",
+ "drop": [
+  [
+   5,
+   5,
+   "heading"
+  ],
+  [
+   20,
+   20,
+   "heading"
+  ],
+  [
+   35,
+   35,
+   "heading"
+  ],
+  [
+   82,
+   82,
+   "heading"
+  ],
+  [
+   97,
+   97,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  12,
+  21,
+  27,
+  36,
+  41,
+  49,
+  54,
+  59,
+  62,
+  69,
+  74,
+  80,
+  83,
+  87,
+  91,
+  98,
+  107
+ ],
+ "cer": [
+  0,
+  7,
+  107
+ ],
+ "fix": [
+  [
+   14,
+   "High -Level",
+   "High-Level",
+   "spacing"
+  ],
+  [
+   24,
+   "record- breaking",
+   "record-breaking",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a2f087a43e4b20b4bcd52c70f34fc31df372a47",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {
+   "heading": 5
+  },
+  "prestrip": {},
+  "words_in": 2315,
+  "words_out": 2303,
+  "retention": 0.9948,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   36,
+   103,
+   192,
+   136,
+   169,
+   89,
+   168,
+   103,
+   145,
+   119,
+   178,
+   155,
+   173,
+   69,
+   91,
+   112,
+   99,
+   163,
+   3
+  ],
+  "warnings": []
+ }
+}

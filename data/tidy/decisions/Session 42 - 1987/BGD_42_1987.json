@@ -1,0 +1,47 @@
+{
+ "id": "BGD_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  17,
+  21,
+  32
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   19,
+   "tight",
+   "right",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d2d9a81d8b27f704841f023253958aa967c46248",
+ "layout": "lines",
+ "stats": {
+  "n_units": 34,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 783,
+  "words_out": 781,
+  "retention": 0.9974,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   100,
+   117,
+   128,
+   136,
+   251,
+   49
+  ],
+  "warnings": []
+ }
+}

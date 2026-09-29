@@ -1,0 +1,68 @@
+{
+ "id": "SDN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  31,
+  46,
+  60,
+  71,
+  97,
+  111,
+  136,
+  158,
+  180,
+  197,
+  219,
+  241,
+  262,
+  285
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   192,
+   " (see SG/2165)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9cc74cc5fc17dd89f7b945de34be638fe6363cb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 294,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2242,
+  "words_out": 2236,
+  "retention": 0.9973,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   95,
+   124,
+   122,
+   113,
+   82,
+   201,
+   105,
+   201,
+   168,
+   171,
+   128,
+   156,
+   162,
+   166,
+   177,
+   65
+  ],
+  "warnings": []
+ }
+}

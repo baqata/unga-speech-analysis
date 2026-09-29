@@ -1,0 +1,82 @@
+{
+ "id": "CRI_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  13,
+  20,
+  24,
+  29,
+  33,
+  38,
+  40,
+  45,
+  48,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "with ,",
+   "with",
+   "ocr"
+  ],
+  [
+   7,
+   "comer",
+   "corner",
+   "ocr"
+  ],
+  [
+   24,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   51,
+   "freedom,",
+   "freedom.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7f0ff3316c45e6274ff3ee0137f2c0bf1bcd669",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 1773,
+  "words_out": 1772,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   48,
+   129,
+   118,
+   162,
+   124,
+   124,
+   172,
+   143,
+   146,
+   80,
+   160,
+   114,
+   142,
+   110
+  ],
+  "warnings": []
+ }
+}

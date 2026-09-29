@@ -1,0 +1,98 @@
+{
+ "id": "ARG_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15,
+  20,
+  26,
+  35,
+  37,
+  39,
+  45,
+  48,
+  54,
+  60,
+  65,
+  71,
+  74
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "upfolding",
+   "unfolding",
+   "ocr"
+  ],
+  [
+   33,
+   "has.",
+   "has",
+   "ocr"
+  ],
+  [
+   38,
+   "cautions",
+   "cautious",
+   "ocr"
+  ],
+  [
+   64,
+   "world,",
+   "world.",
+   "ocr"
+  ],
+  [
+   70,
+   "draft,",
+   "draft",
+   "ocr"
+  ],
+  [
+   70,
+   "help,",
+   "help",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09e872c07575ea143475ab822f421f3f8d73d7c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 2803,
+  "words_out": 2803,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   111,
+   130,
+   211,
+   125,
+   186,
+   208,
+   214,
+   93,
+   119,
+   214,
+   127,
+   210,
+   208,
+   227,
+   221,
+   113,
+   86
+  ],
+  "warnings": []
+ }
+}

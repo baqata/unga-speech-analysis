@@ -1,0 +1,58 @@
+{
+ "id": "MEX_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  11,
+  14,
+  17,
+  19,
+  24,
+  28,
+  31,
+  35
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea9b0d818da9cc923b662972890e1b0356d52018",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1393,
+  "words_out": 1392,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   17,
+   106,
+   131,
+   101,
+   191,
+   106,
+   112,
+   125,
+   93,
+   102,
+   167,
+   141
+  ],
+  "warnings": []
+ }
+}

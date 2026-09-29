@@ -1,0 +1,95 @@
+{
+ "id": "FIN_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  19,
+  29,
+  34,
+  40,
+  46,
+  49,
+  53,
+  63,
+  68,
+  73,
+  85
+ ],
+ "cer": [
+  0,
+  46
+ ],
+ "fix": [
+  [
+   0,
+   "28.",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   28,
+   "voluntarily' placed",
+   "voluntarily placed",
+   "ocr"
+  ],
+  [
+   57,
+   "Eighteen- Nation",
+   "Eighteen-Nation",
+   "hyphen"
+  ],
+  [
+   71,
+   "less- developed",
+   "less-developed",
+   "hyphen"
+  ],
+  [
+   69,
+   " [resolution 1995 (XIX)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb1a2d24b3619717c2666e36459d74dfe1cc4692",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2090,
+  "words_out": 2070,
+  "retention": 0.9904,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   93,
+   90,
+   101,
+   90,
+   234,
+   135,
+   192,
+   114,
+   80,
+   88,
+   234,
+   106,
+   99,
+   235,
+   179
+  ],
+  "warnings": []
+ }
+}

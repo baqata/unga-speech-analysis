@@ -1,0 +1,94 @@
+{
+ "id": "VAT_67_2012",
+ "drop": [
+  [
+   155,
+   156,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  29,
+  43,
+  71,
+  103,
+  113,
+  122,
+  134,
+  146,
+  157,
+  172,
+  189,
+  199,
+  216,
+  224,
+  233,
+  258,
+  270,
+  280,
+  295,
+  308
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   44,
+   "conf lictive",
+   "conflictive",
+   "split_word"
+  ],
+  [
+   90,
+   "(resolution 67/1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d4d5205735f3aee4e5792892ed962dd11548b01",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 334,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 2773,
+  "words_out": 2762,
+  "retention": 0.996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   51,
+   191,
+   115,
+   236,
+   244,
+   81,
+   79,
+   103,
+   98,
+   75,
+   120,
+   171,
+   72,
+   133,
+   59,
+   80,
+   214,
+   101,
+   90,
+   113,
+   110,
+   226
+  ],
+  "warnings": [
+   "procedural drop [155,156] in the middle of the speech"
+  ]
+ }
+}

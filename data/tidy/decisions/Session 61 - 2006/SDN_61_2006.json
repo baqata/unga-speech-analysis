@@ -1,0 +1,97 @@
+{
+ "id": "SDN_61_2006",
+ "drop": [
+  [
+   0,
+   4,
+   "presider"
+  ],
+  [
+   171,
+   172,
+   "procedural"
+  ]
+ ],
+ "para": [
+  5,
+  19,
+  29,
+  43,
+  66,
+  81,
+  107,
+  130,
+  150,
+  173,
+  182,
+  198,
+  217,
+  237,
+  250,
+  271,
+  290,
+  316,
+  331,
+  344,
+  367,
+  382
+ ],
+ "cer": [
+  5
+ ],
+ "fix": [
+  [
+   5,
+   "President Al-Bashir: ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7bd7b7387efc3957d2423956972b4d3749d90fd1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 406,
+  "units_dropped": {
+   "presider": 5,
+   "procedural": 2
+  },
+  "prestrip": {
+   "language_note": 1,
+   "job_number": 4
+  },
+  "words_in": 3144,
+  "words_out": 3096,
+  "retention": 0.9847,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   108,
+   73,
+   113,
+   183,
+   108,
+   209,
+   175,
+   159,
+   157,
+   77,
+   117,
+   147,
+   156,
+   87,
+   154,
+   145,
+   201,
+   115,
+   107,
+   187,
+   117,
+   201
+  ],
+  "warnings": [
+   "procedural drop [171,172] in the middle of the speech"
+  ]
+ }
+}

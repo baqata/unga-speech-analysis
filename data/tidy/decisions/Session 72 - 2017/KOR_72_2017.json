@@ -1,0 +1,94 @@
+{
+ "id": "KOR_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  19,
+  24,
+  29,
+  34,
+  37,
+  43,
+  50,
+  54,
+  60,
+  65,
+  67,
+  74,
+  81,
+  84,
+  91,
+  98,
+  102,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   2,
+   "expectt",
+   "expect",
+   "ocr"
+  ],
+  [
+   13,
+   "reflectedthe",
+   "reflected the",
+   "merged_word"
+  ],
+  [
+   34,
+   "15- fold",
+   "15-fold",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba1e1feb1df380b6b146fb91f71d307612b7ec22",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2579,
+  "words_out": 2578,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   163,
+   119,
+   160,
+   82,
+   116,
+   106,
+   123,
+   212,
+   103,
+   113,
+   123,
+   169,
+   72,
+   144,
+   142,
+   72,
+   151,
+   146,
+   111,
+   108,
+   43
+  ],
+  "warnings": []
+ }
+}

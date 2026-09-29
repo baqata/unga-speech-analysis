@@ -1,0 +1,66 @@
+{
+ "id": "GNB_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  32,
+  45,
+  60,
+  88,
+  104,
+  122,
+  140,
+  169,
+  180,
+  192,
+  206,
+  225,
+  240,
+  253,
+  270
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ebccfa703e17c984ebc5b25a2b684dc3ae5a898",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 289,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2285,
+  "words_out": 2283,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   105,
+   71,
+   103,
+   115,
+   219,
+   142,
+   143,
+   147,
+   240,
+   90,
+   85,
+   106,
+   152,
+   117,
+   97,
+   124,
+   155
+  ],
+  "warnings": []
+ }
+}

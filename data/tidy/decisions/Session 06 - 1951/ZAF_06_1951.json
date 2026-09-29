@@ -1,0 +1,102 @@
+{
+ "id": "ZAF_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  7,
+  11,
+  18,
+  20,
+  25,
+  27,
+  34,
+  39,
+  46,
+  51,
+  58,
+  67,
+  70,
+  72,
+  75,
+  82,
+  88,
+  94,
+  102,
+  104,
+  108
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "stand,",
+   "stand",
+   "ocr"
+  ],
+  [
+   38,
+   "hope,",
+   "hope",
+   "ocr"
+  ],
+  [
+   83,
+   "definite:",
+   "definite",
+   "ocr"
+  ],
+  [
+   111,
+   " me ",
+   " the ",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61c143e7cd3063ac8c57158d37509e45c98be20f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 3755,
+  "words_out": 3755,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   55,
+   96,
+   143,
+   143,
+   132,
+   88,
+   150,
+   106,
+   141,
+   146,
+   188,
+   183,
+   188,
+   231,
+   146,
+   122,
+   110,
+   235,
+   244,
+   246,
+   257,
+   65,
+   164,
+   176
+  ],
+  "warnings": []
+ }
+}

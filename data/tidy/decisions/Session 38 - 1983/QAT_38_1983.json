@@ -1,0 +1,101 @@
+{
+ "id": "QAT_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15,
+  18,
+  19,
+  23,
+  29,
+  32,
+  38,
+  39,
+  42,
+  45,
+  49,
+  54,
+  59
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   1,
+   "tins important",
+   "this important",
+   "ocr"
+  ],
+  [
+   9,
+   "Iran- Iraq",
+   "Iran-Iraq",
+   "hyphen"
+  ],
+  [
+   18,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   35,
+   "Al- Jaber",
+   "Al-Jaber",
+   "hyphen"
+  ],
+  [
+   38,
+   "Muslin blood",
+   "Muslim blood",
+   "ocr"
+  ],
+  [
+   49,
+   "had .a negative",
+   "had a negative",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5065626128f26022e2fdd2bc95c5fdc83be4445e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 1954,
+  "words_out": 1951,
+  "retention": 0.9985,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   119,
+   173,
+   72,
+   116,
+   133,
+   109,
+   125,
+   168,
+   108,
+   143,
+   81,
+   82,
+   104,
+   112,
+   145,
+   125,
+   36
+  ],
+  "warnings": []
+ }
+}

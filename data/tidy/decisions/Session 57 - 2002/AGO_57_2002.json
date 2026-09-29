@@ -1,0 +1,53 @@
+{
+ "id": "AGO_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  20,
+  32,
+  46,
+  74,
+  81,
+  97,
+  120,
+  140,
+  157
+ ],
+ "cer": [
+  0,
+  74,
+  157
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d1b631294e04ff9ed7c1a5451a2e533745a056d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 160,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1244,
+  "words_out": 1242,
+  "retention": 0.9984,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   43,
+   108,
+   84,
+   112,
+   213,
+   61,
+   135,
+   179,
+   156,
+   129,
+   22
+  ],
+  "warnings": []
+ }
+}

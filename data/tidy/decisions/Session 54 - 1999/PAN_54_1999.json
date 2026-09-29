@@ -1,0 +1,75 @@
+{
+ "id": "PAN_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  40,
+  51,
+  69,
+  87,
+  104,
+  124,
+  145,
+  154,
+  165,
+  177,
+  186,
+  194,
+  207,
+  221,
+  231,
+  241
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   30,
+   "Bol'var",
+   "Bolívar",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c29f09e45214a1dd29afd71fe983013d173ec081",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 243,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2084,
+  "words_out": 2081,
+  "retention": 0.9986,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   108,
+   106,
+   119,
+   100,
+   154,
+   157,
+   132,
+   175,
+   178,
+   77,
+   98,
+   99,
+   75,
+   68,
+   128,
+   118,
+   87,
+   89,
+   13
+  ],
+  "warnings": []
+ }
+}

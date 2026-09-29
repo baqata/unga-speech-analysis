@@ -1,0 +1,47 @@
+{
+ "id": "GNB_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  43,
+  61,
+  79,
+  95,
+  116,
+  130,
+  151
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c4fbbaf7910947638c47a55527179798f677ca7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 173,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1361,
+  "words_out": 1357,
+  "retention": 0.9971,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   157,
+   182,
+   132,
+   150,
+   128,
+   171,
+   112,
+   154,
+   171
+  ],
+  "warnings": []
+ }
+}

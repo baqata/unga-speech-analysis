@@ -1,0 +1,90 @@
+{
+ "id": "LUX_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  18,
+  25,
+  30,
+  42,
+  46,
+  53,
+  61,
+  68,
+  83,
+  93,
+  99,
+  103,
+  110,
+  114,
+  118,
+  131,
+  139,
+  143,
+  149,
+  162,
+  166
+ ],
+ "cer": [],
+ "fix": [
+  [
+   91,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   17,
+   " (resolutions ES-11/1, ES-11/2 and ES-11/3)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb68ebfdcc1902bd5c98f68cb9027d4dda0e8aa8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 3316,
+  "words_out": 3307,
+  "retention": 0.9973,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   68,
+   123,
+   109,
+   95,
+   132,
+   110,
+   186,
+   97,
+   131,
+   170,
+   174,
+   243,
+   222,
+   93,
+   83,
+   114,
+   69,
+   112,
+   175,
+   174,
+   104,
+   97,
+   192,
+   91,
+   143
+  ],
+  "warnings": []
+ }
+}

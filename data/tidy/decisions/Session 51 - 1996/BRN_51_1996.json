@@ -1,0 +1,47 @@
+{
+ "id": "BRN_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  20,
+  44,
+  56,
+  76,
+  97,
+  118,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0dafffdceed2168e2395f5fc3d81cb81c239034",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1359,
+  "words_out": 1357,
+  "retention": 0.9985,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   55,
+   120,
+   214,
+   110,
+   187,
+   178,
+   196,
+   188,
+   109
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "id": "BFA_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  15,
+  18,
+  22,
+  27,
+  34,
+  37,
+  39,
+  44,
+  49,
+  52,
+  55,
+  58
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "ray delegation",
+   "my delegation",
+   "ocr"
+  ],
+  [
+   3,
+   "see you.",
+   "see you,",
+   "ocr"
+  ],
+  [
+   6,
+   "predecessor.",
+   "predecessor,",
+   "ocr"
+  ],
+  [
+   35,
+   "roust",
+   "must",
+   "ocr"
+  ],
+  [
+   40,
+   "He understand",
+   "We understand",
+   "ocr"
+  ],
+  [
+   42,
+   "bring out people",
+   "bring our people",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35054dd7440a50b26d8ab9800125ac6442ba0ffe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1655,
+  "words_out": 1655,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   106,
+   75,
+   55,
+   119,
+   68,
+   145,
+   159,
+   167,
+   67,
+   67,
+   143,
+   187,
+   67,
+   110,
+   114,
+   6
+  ],
+  "warnings": []
+ }
+}

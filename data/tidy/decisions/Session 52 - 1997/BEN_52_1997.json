@@ -1,0 +1,86 @@
+{
+ "id": "BEN_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  41,
+  62,
+  80,
+  99,
+  109,
+  130,
+  144,
+  164,
+  179,
+  194,
+  204,
+  214,
+  238,
+  252,
+  264,
+  276,
+  289,
+  300,
+  311
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   48,
+   "(A/51/950, Letter of Transmittal, first paragraph)",
+   "",
+   "label"
+  ],
+  [
+   53,
+   " (ibid.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9017d02bc876d2637411f45b995847d1c7582349",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 326,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2674,
+  "words_out": 2665,
+  "retention": 0.9966,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   92,
+   86,
+   168,
+   145,
+   142,
+   158,
+   79,
+   176,
+   113,
+   167,
+   138,
+   122,
+   83,
+   88,
+   197,
+   97,
+   107,
+   100,
+   101,
+   101,
+   88,
+   117
+  ],
+  "warnings": []
+ }
+}

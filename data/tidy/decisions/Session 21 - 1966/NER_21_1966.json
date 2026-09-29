@@ -1,0 +1,142 @@
+{
+ "id": "NER_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  11,
+  16,
+  22,
+  25,
+  30,
+  33,
+  38,
+  43,
+  52,
+  60,
+  65,
+  70,
+  75,
+  78,
+  81,
+  85,
+  91,
+  93,
+  97,
+  100,
+  108,
+  115,
+  122,
+  125,
+  130
+ ],
+ "cer": [
+  0,
+  4,
+  115
+ ],
+ "fix": [
+  [
+   1,
+   "associate.my",
+   "associate my",
+   "ocr"
+  ],
+  [
+   18,
+   "that;",
+   "that:",
+   "ocr"
+  ],
+  [
+   20,
+   "that;",
+   "that:",
+   "ocr"
+  ],
+  [
+   23,
+   "plans* W§ believe",
+   "plans. We believe",
+   "ocr"
+  ],
+  [
+   32,
+   "5; per cent",
+   "5 per cent",
+   "ocr"
+  ],
+  [
+   57,
+   "mus, be",
+   "must be",
+   "ocr"
+  ],
+  [
+   92,
+   "elsewhere, The permanent",
+   "elsewhere. The permanent",
+   "ocr"
+  ],
+  [
+   94,
+   "Char her,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   123,
+   "Mr.Secretary-General",
+   "Mr. Secretary-General",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b08a0330b2878e60de34464caf8c896fadd7350",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3769,
+  "words_out": 3736,
+  "retention": 0.9912,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   80,
+   57,
+   88,
+   96,
+   100,
+   177,
+   120,
+   143,
+   90,
+   189,
+   151,
+   252,
+   171,
+   117,
+   97,
+   142,
+   86,
+   64,
+   94,
+   199,
+   64,
+   188,
+   100,
+   192,
+   237,
+   208,
+   86,
+   90,
+   58
+  ],
+  "warnings": []
+ }
+}

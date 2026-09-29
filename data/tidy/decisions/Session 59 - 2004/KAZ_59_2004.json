@@ -1,0 +1,87 @@
+{
+ "id": "KAZ_59_2004",
+ "drop": [
+  [
+   95,
+   96,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  24,
+  38,
+  49,
+  59,
+  76,
+  97,
+  112,
+  133,
+  143,
+  157,
+  174,
+  193,
+  210,
+  221,
+  230,
+  251,
+  262,
+  281,
+  293,
+  310,
+  323,
+  338
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b0603462b8a79a8b83aeb1bf4446d333ddf91196",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 342,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2621,
+  "words_out": 2609,
+  "retention": 0.9954,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   42,
+   135,
+   104,
+   77,
+   87,
+   130,
+   140,
+   107,
+   166,
+   76,
+   108,
+   131,
+   155,
+   130,
+   84,
+   70,
+   139,
+   83,
+   153,
+   88,
+   140,
+   113,
+   120,
+   31
+  ],
+  "warnings": [
+   "procedural drop [95,96] in the middle of the speech"
+  ]
+ }
+}

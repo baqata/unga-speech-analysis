@@ -1,0 +1,95 @@
+{
+ "id": "CPV_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  16,
+  18,
+  21,
+  23,
+  25,
+  28,
+  30,
+  33,
+  38,
+  43,
+  47,
+  49,
+  53,
+  56,
+  58,
+  60,
+  62,
+  66
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   4,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   16,
+   "Caps Verde",
+   "Cape Verde",
+   "ocr"
+  ],
+  [
+   17,
+   "pence",
+   "peace",
+   "ocr"
+  ],
+  [
+   42,
+   "went",
+   "want",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ce0fbee11d4a74871725edb1d2148104b67ad5a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2252,
+  "words_out": 2252,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   124,
+   108,
+   151,
+   98,
+   118,
+   61,
+   120,
+   116,
+   75,
+   67,
+   143,
+   101,
+   105,
+   96,
+   159,
+   146,
+   113,
+   76,
+   62,
+   129,
+   84
+  ],
+  "warnings": []
+ }
+}

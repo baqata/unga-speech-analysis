@@ -1,0 +1,123 @@
+{
+ "id": "PAN_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  14,
+  16,
+  20,
+  23,
+  26,
+  29,
+  33,
+  35,
+  42,
+  44,
+  46,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "extendmy",
+   "extend my",
+   "spacing"
+  ],
+  [
+   5,
+   "defects, The important",
+   "defects. The important",
+   "ocr"
+  ],
+  [
+   6,
+   "th?",
+   "the",
+   "ocr"
+  ],
+  [
+   7,
+   "l against",
+   "1 against",
+   "ocr"
+  ],
+  [
+   18,
+   "yeairs",
+   "years",
+   "ocr"
+  ],
+  [
+   23,
+   "1971,1 addressed",
+   "1971, I addressed",
+   "ocr"
+  ],
+  [
+   26,
+   "Panama.",
+   "Panama,",
+   "ocr"
+  ],
+  [
+   27,
+   "a- the",
+   "at the",
+   "ocr"
+  ],
+  [
+   30,
+   "a4 a world",
+   "as a world",
+   "ocr"
+  ],
+  [
+   37,
+   "ca. not",
+   "cannot",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "786193c7b6c1db530dcf86da0c91b83ef00e57d9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 19
+  },
+  "words_in": 1933,
+  "words_out": 1931,
+  "retention": 0.999,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   51,
+   197,
+   142,
+   145,
+   76,
+   136,
+   147,
+   156,
+   105,
+   157,
+   81,
+   195,
+   82,
+   77,
+   131,
+   53
+  ],
+  "warnings": []
+ }
+}

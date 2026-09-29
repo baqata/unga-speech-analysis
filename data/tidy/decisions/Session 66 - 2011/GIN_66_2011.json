@@ -1,0 +1,65 @@
+{
+ "id": "GIN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  18,
+  26,
+  42,
+  55,
+  64,
+  74,
+  85,
+  94,
+  103,
+  120,
+  135,
+  149,
+  165,
+  182,
+  191,
+  199
+ ],
+ "cer": [
+  199
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd5bc897da23122845478ef3592afcaf314d70dc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1563,
+  "words_out": 1559,
+  "retention": 0.9974,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   62,
+   82,
+   62,
+   118,
+   94,
+   66,
+   70,
+   76,
+   67,
+   69,
+   126,
+   109,
+   109,
+   118,
+   130,
+   77,
+   64,
+   60
+  ],
+  "warnings": []
+ }
+}

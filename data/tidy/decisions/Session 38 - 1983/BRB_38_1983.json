@@ -1,0 +1,110 @@
+{
+ "id": "BRB_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  27,
+  31,
+  33,
+  36,
+  41,
+  43,
+  46,
+  50,
+  55,
+  58,
+  63,
+  69,
+  78,
+  83,
+  87,
+  91,
+  97,
+  101,
+  109,
+  114,
+  124,
+  137,
+  143,
+  149
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Mr. Ilueca",
+   "Mr. Illueca",
+   "ocr"
+  ],
+  [
+   48,
+   "contact g up",
+   "contact group",
+   "ocr"
+  ],
+  [
+   124,
+   "ail its",
+   "all its",
+   "ocr"
+  ],
+  [
+   142,
+   "tom and bleeding",
+   "torn and bleeding",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd2d48612befabb5c4b2a9ba754477cd27a48d17",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3398,
+  "words_out": 3397,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   125,
+   161,
+   80,
+   205,
+   113,
+   99,
+   118,
+   85,
+   77,
+   93,
+   90,
+   117,
+   66,
+   127,
+   119,
+   186,
+   100,
+   56,
+   113,
+   164,
+   140,
+   143,
+   120,
+   192,
+   197,
+   114,
+   68,
+   129
+  ],
+  "warnings": []
+ }
+}

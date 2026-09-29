@@ -1,0 +1,85 @@
+{
+ "id": "NOR_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  15,
+  20,
+  29,
+  35,
+  40,
+  45,
+  48,
+  53,
+  56,
+  60,
+  63,
+  67,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "in should",
+   "it should",
+   "ocr"
+  ],
+  [
+   39,
+   "peace instrument,",
+   "peace instrument.",
+   "ocr"
+  ],
+  [
+   60,
+   "countries, It is",
+   "countries. It is",
+   "ocr"
+  ],
+  [
+   67,
+   " [A/1304]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "673bf4137ed98c9f70fd680d5dedba5a0fad2ed4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 16
+  },
+  "words_in": 2224,
+  "words_out": 2223,
+  "retention": 0.9996,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   218,
+   118,
+   79,
+   142,
+   207,
+   151,
+   174,
+   170,
+   87,
+   177,
+   98,
+   117,
+   169,
+   121,
+   96,
+   99
+  ],
+  "warnings": []
+ }
+}

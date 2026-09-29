@@ -1,0 +1,85 @@
+{
+ "id": "MLT_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  15,
+  18,
+  22,
+  28,
+  33,
+  38,
+  42,
+  45,
+  47,
+  51,
+  53,
+  57,
+  59,
+  66,
+  72
+ ],
+ "cer": [
+  0,
+  72
+ ],
+ "fix": [
+  [
+   41,
+   "motive.,",
+   "motive.",
+   "ocr"
+  ],
+  [
+   47,
+   "it has, reared",
+   "it has reared",
+   "ocr"
+  ],
+  [
+   72,
+   "1 would",
+   "I would",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3df4eb1f68cf0d5a1057399726b93615f56856a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 1899,
+  "words_out": 1899,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   75,
+   109,
+   114,
+   85,
+   114,
+   120,
+   123,
+   71,
+   140,
+   94,
+   71,
+   108,
+   74,
+   106,
+   108,
+   175,
+   145,
+   67
+  ],
+  "warnings": []
+ }
+}

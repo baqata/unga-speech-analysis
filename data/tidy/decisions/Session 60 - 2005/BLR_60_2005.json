@@ -1,0 +1,41 @@
+{
+ "id": "BLR_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  31,
+  61,
+  87,
+  114,
+  135
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "187741ad7001707fd7f21a8a10d6fc4ec4d559a5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1260,
+  "words_out": 1258,
+  "retention": 0.9984,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   107,
+   148,
+   254,
+   223,
+   222,
+   177,
+   127
+  ],
+  "warnings": []
+ }
+}

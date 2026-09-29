@@ -1,0 +1,133 @@
+{
+ "id": "WSM_36_1981",
+ "drop": [
+  [
+   83,
+   83,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  6,
+  11,
+  15,
+  20,
+  24,
+  28,
+  35,
+  41,
+  49,
+  54,
+  61,
+  67,
+  71,
+  74,
+  76,
+  81,
+  85,
+  88,
+  92
+ ],
+ "cer": [
+  0,
+  1,
+  5,
+  6
+ ],
+ "fix": [
+  [
+   1,
+   "Riidiger",
+   "Rudiger",
+   "ocr"
+  ],
+  [
+   25,
+   "this? regard",
+   "this regard",
+   "ocr"
+  ],
+  [
+   44,
+   "beg(tn",
+   "began",
+   "ocr"
+  ],
+  [
+   52,
+   "Angola it be",
+   "Angola to be",
+   "ocr"
+  ],
+  [
+   62,
+   "have* suffered",
+   "have suffered",
+   "ocr"
+  ],
+  [
+   82,
+   " [see AI36I534, annex II, AHGI Res.",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "superior , and",
+   "superior, and",
+   "ocr"
+  ],
+  [
+   95,
+   "security :guarantees",
+   "security guarantees",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1352ec5b2e9899999e5b52b61d0eb2c877dd4e1c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2523,
+  "words_out": 2509,
+  "retention": 0.9945,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   41,
+   74,
+   33,
+   113,
+   148,
+   148,
+   76,
+   94,
+   155,
+   175,
+   211,
+   159,
+   124,
+   74,
+   85,
+   54,
+   71,
+   165,
+   71,
+   96,
+   149,
+   193
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "MLI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  32,
+  42,
+  58,
+  76,
+  95,
+  105,
+  122,
+  139,
+  147,
+  158,
+  172,
+  183,
+  195,
+  208,
+  225
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   81,
+   "(see S/2012/42)",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "(see S/PV.6709)",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "f low",
+   "flow",
+   "split_word"
+  ],
+  [
+   110,
+   "f lee",
+   "flee",
+   "split_word"
+  ],
+  [
+   189,
+   "f loods",
+   "floods",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0efab42bc2923710c5c6f66c62409ff7e418fae2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 236,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1952,
+  "words_out": 1945,
+  "retention": 0.9964,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   255,
+   83,
+   125,
+   156,
+   144,
+   87,
+   138,
+   133,
+   66,
+   87,
+   128,
+   88,
+   94,
+   112,
+   153,
+   96
+  ],
+  "warnings": []
+ }
+}

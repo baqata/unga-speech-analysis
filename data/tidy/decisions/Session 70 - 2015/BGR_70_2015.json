@@ -1,0 +1,80 @@
+{
+ "id": "BGR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  12,
+  18,
+  22,
+  30,
+  35,
+  40,
+  43,
+  48,
+  52,
+  59,
+  63,
+  68,
+  72,
+  78,
+  83,
+  87,
+  96
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "Secretary- General’s",
+   "Secretary-General’s",
+   "hyphen"
+  ],
+  [
+   70,
+   "Israeli- Palestinian",
+   "Israeli-Palestinian",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "78d0aed65898ee6d6b6930e981a56dd61b0385b2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1866,
+  "words_out": 1862,
+  "retention": 0.9979,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   46,
+   118,
+   122,
+   106,
+   97,
+   91,
+   70,
+   60,
+   110,
+   82,
+   134,
+   72,
+   78,
+   99,
+   127,
+   100,
+   73,
+   129,
+   148
+  ],
+  "warnings": []
+ }
+}

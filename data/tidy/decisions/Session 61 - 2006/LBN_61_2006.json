@@ -1,0 +1,72 @@
+{
+ "id": "LBN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  41,
+  50,
+  64,
+  78,
+  88,
+  105,
+  122,
+  136,
+  148,
+  165,
+  184,
+  195,
+  204,
+  221,
+  229
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   214,
+   " (ibid)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "87a1b573386e82bd014886d26e486478cf368eb0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1956,
+  "words_out": 1952,
+  "retention": 0.998,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   74,
+   131,
+   124,
+   79,
+   111,
+   116,
+   73,
+   139,
+   141,
+   116,
+   102,
+   143,
+   157,
+   86,
+   72,
+   109,
+   69,
+   110
+  ],
+  "warnings": []
+ }
+}

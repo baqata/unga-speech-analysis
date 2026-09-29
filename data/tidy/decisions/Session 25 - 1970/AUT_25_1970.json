@@ -1,0 +1,131 @@
+{
+ "id": "AUT_25_1970",
+ "drop": [
+  [
+   51,
+   51,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  11,
+  12,
+  18,
+  22,
+  26,
+  29,
+  34,
+  37,
+  39,
+  41,
+  43,
+  47,
+  48,
+  50,
+  55,
+  63,
+  67,
+  70,
+  74,
+  78,
+  82,
+  85,
+  91,
+  93,
+  97,
+  102,
+  105,
+  108,
+  111,
+  115,
+  119,
+  124
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   11,
+   "world, I believe",
+   "world. I believe",
+   "ocr"
+  ],
+  [
+   26,
+   " [A 17922]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "1946. which",
+   "1946, which",
+   "ocr"
+  ],
+  [
+   93,
+   "Nations , city",
+   "Nations city",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 51 is a printed footnote inside the text and is dropped.",
+ "unitizer_version": 1,
+ "sha1": "3bb3adfa2a0fb24f4ea504156e760c3ede555e01",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 4284,
+  "words_out": 4260,
+  "retention": 0.9944,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   210,
+   97,
+   125,
+   149,
+   95,
+   155,
+   119,
+   140,
+   89,
+   113,
+   75,
+   96,
+   104,
+   90,
+   110,
+   110,
+   248,
+   151,
+   109,
+   112,
+   112,
+   107,
+   79,
+   178,
+   91,
+   121,
+   169,
+   135,
+   91,
+   90,
+   145,
+   150,
+   188,
+   107
+  ],
+  "warnings": []
+ }
+}

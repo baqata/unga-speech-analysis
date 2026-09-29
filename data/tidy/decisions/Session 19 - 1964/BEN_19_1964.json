@@ -1,0 +1,137 @@
+{
+ "id": "BEN_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  15,
+  22,
+  24,
+  30,
+  35,
+  39,
+  42,
+  46,
+  52,
+  58,
+  60,
+  66,
+  73,
+  77,
+  80,
+  86,
+  90,
+  91,
+  95,
+  101,
+  107,
+  116,
+  120,
+  122,
+  130,
+  132
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "a|] milestone",
+   "a milestone",
+   "ocr"
+  ],
+  [
+   10,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   62,
+   "still i under",
+   "still under",
+   "ocr"
+  ],
+  [
+   75,
+   "the j police",
+   "the police",
+   "ocr"
+  ],
+  [
+   76,
+   "are I horrified",
+   "are horrified",
+   "ocr"
+  ],
+  [
+   109,
+   "our, purchasing",
+   "our purchasing",
+   "ocr"
+  ],
+  [
+   110,
+   "end/ of",
+   "end of",
+   "ocr"
+  ],
+  [
+   120,
+   "pre- j investment",
+   "pre-investment",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6c33d11eac7d9942e1859964101b38d1a7ae828",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 46
+  },
+  "words_in": 3636,
+  "words_out": 3630,
+  "retention": 0.9983,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   200,
+   65,
+   138,
+   164,
+   81,
+   147,
+   138,
+   138,
+   89,
+   85,
+   157,
+   117,
+   63,
+   184,
+   152,
+   122,
+   69,
+   162,
+   89,
+   42,
+   125,
+   111,
+   155,
+   203,
+   129,
+   100,
+   161,
+   119,
+   125
+  ],
+  "warnings": []
+ }
+}

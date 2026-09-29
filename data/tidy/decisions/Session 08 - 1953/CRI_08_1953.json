@@ -1,0 +1,124 @@
+{
+ "id": "CRI_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  6,
+  12,
+  14,
+  17,
+  21,
+  30,
+  35,
+  42,
+  47,
+  50,
+  53,
+  57,
+  61,
+  67,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "the-settlement",
+   "the settlement",
+   "spacing"
+  ],
+  [
+   19,
+   "its,",
+   "its",
+   "ocr"
+  ],
+  [
+   25,
+   "concessions,",
+   "concessions",
+   "ocr"
+  ],
+  [
+   34,
+   "Charter,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   40,
+   "that-",
+   "that",
+   "ocr"
+  ],
+  [
+   47,
+   "[resolution 711 (VII)}",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "[434 meeting]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "peoples'",
+   "peoples",
+   "ocr"
+  ],
+  [
+   62,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   74,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a4657bd5bedc7c7a0eedf7b890b4272928aa651",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 2685,
+  "words_out": 2680,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   114,
+   55,
+   109,
+   96,
+   105,
+   178,
+   256,
+   162,
+   204,
+   173,
+   165,
+   122,
+   165,
+   212,
+   209,
+   171,
+   184
+  ],
+  "warnings": []
+ }
+}

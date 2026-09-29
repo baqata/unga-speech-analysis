@@ -1,0 +1,100 @@
+{
+ "id": "KEN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  45,
+  66,
+  78,
+  91,
+  111,
+  131,
+  141,
+  154,
+  163,
+  182,
+  199,
+  214,
+  224,
+  235,
+  246,
+  260,
+  277,
+  298,
+  326,
+  346,
+  352,
+  363
+ ],
+ "cer": [
+  0,
+  10,
+  346
+ ],
+ "fix": [
+  [
+   57,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   65,
+   " (S/PV.3896, p. 5)",
+   "",
+   "label"
+  ],
+  [
+   352,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b2a8e3bb9391af998021d752d4b4b940a64a0f8c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 372,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3010,
+  "words_out": 3005,
+  "retention": 0.9983,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   79,
+   66,
+   210,
+   174,
+   94,
+   97,
+   147,
+   168,
+   87,
+   115,
+   79,
+   161,
+   135,
+   117,
+   77,
+   89,
+   82,
+   118,
+   137,
+   172,
+   232,
+   164,
+   42,
+   86,
+   77
+  ],
+  "warnings": []
+ }
+}

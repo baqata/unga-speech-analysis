@@ -1,0 +1,73 @@
+{
+ "id": "COM_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  14,
+  21,
+  26,
+  30,
+  34,
+  42,
+  46,
+  50,
+  55,
+  57,
+  67,
+  71
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "£or",
+   "for",
+   "ocr"
+  ],
+  [
+   49,
+   "(FIO)",
+   "(PLO)",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed398d98ef53be0b5ba92460d2b4999ecb1531c4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1826,
+  "words_out": 1826,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   107,
+   64,
+   77,
+   114,
+   248,
+   110,
+   72,
+   101,
+   176,
+   141,
+   123,
+   122,
+   48,
+   202,
+   92,
+   29
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "LAO_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  16,
+  21,
+  23,
+  26,
+  29,
+  33,
+  36,
+  39,
+  44,
+  47,
+  50,
+  55,
+  58
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "ASEAN- led",
+   "ASEAN-led",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33806719bb5f070c261b4c33bc6418ce3142c456",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 1725,
+  "words_out": 1720,
+  "retention": 0.9971,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   97,
+   96,
+   128,
+   101,
+   99,
+   91,
+   105,
+   118,
+   159,
+   104,
+   91,
+   103,
+   80,
+   81,
+   89,
+   84,
+   94
+  ],
+  "warnings": []
+ }
+}

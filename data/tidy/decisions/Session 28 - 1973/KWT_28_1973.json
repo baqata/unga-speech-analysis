@@ -1,0 +1,88 @@
+{
+ "id": "KWT_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  11,
+  13,
+  17,
+  18,
+  19,
+  23,
+  24,
+  28,
+  30
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   12,
+   "its-national",
+   "its national",
+   "ocr"
+  ],
+  [
+   18,
+   "recognized.7 The",
+   "recognized. The",
+   "ocr"
+  ],
+  [
+   20,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "in ail fields",
+   "in all fields",
+   "ocr"
+  ],
+  [
+   29,
+   "to' acknowledge",
+   "to acknowledge",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "63e26737b8a16b412e0034a5d139e6c43aa6cfd0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 32,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 19
+  },
+  "words_in": 1269,
+  "words_out": 1266,
+  "retention": 0.9976,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   78,
+   80,
+   92,
+   78,
+   85,
+   82,
+   135,
+   103,
+   138,
+   151,
+   90,
+   80,
+   74
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "KIR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  35,
+  50,
+  62,
+  75,
+  85,
+  94,
+  108,
+  122,
+  139,
+  148,
+  171
+ ],
+ "cer": [
+  0,
+  11,
+  171
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a258aed255e78fa2964cd03ea2bb7bf9c888896",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1390,
+  "words_out": 1389,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   79,
+   78,
+   109,
+   111,
+   91,
+   115,
+   79,
+   68,
+   107,
+   114,
+   132,
+   72,
+   169,
+   65
+  ],
+  "warnings": []
+ }
+}

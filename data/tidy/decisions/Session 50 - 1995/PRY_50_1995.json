@@ -1,0 +1,98 @@
+{
+ "id": "PRY_50_1995",
+ "drop": [
+  [
+   151,
+   209,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  16,
+  30,
+  53,
+  65,
+  87,
+  105,
+  119,
+  136,
+  210,
+  230,
+  247,
+  263,
+  280,
+  293,
+  315,
+  330,
+  342,
+  362,
+  374,
+  391,
+  407,
+  415,
+  425
+ ],
+ "cer": [
+  0,
+  4,
+  8
+ ],
+ "fix": [
+  [
+   111,
+   "agencies.My",
+   "agencies. My",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 151-209 repeat units 92-150 word for word; the second copy is dropped.",
+ "unitizer_version": 1,
+ "sha1": "ee67084428014c368cc5c9ea00a05b2ed19928f7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 436,
+  "units_dropped": {
+   "repeat": 59
+  },
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 3694,
+  "words_out": 3200,
+  "retention": 0.8663,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   28,
+   33,
+   71,
+   126,
+   188,
+   109,
+   187,
+   146,
+   111,
+   143,
+   124,
+   148,
+   144,
+   151,
+   146,
+   102,
+   174,
+   135,
+   103,
+   167,
+   111,
+   133,
+   143,
+   77,
+   90,
+   110
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "ERI_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  16,
+  20,
+  23,
+  26,
+  29,
+  31,
+  35,
+  39
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "all- around",
+   "all-around",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6a725a038436f5b84b29be4bc58aeff5dc7dcb5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1069,
+  "words_out": 1068,
+  "retention": 0.9991,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   24,
+   204,
+   154,
+   96,
+   84,
+   102,
+   100,
+   54,
+   85,
+   113,
+   52
+  ],
+  "warnings": []
+ }
+}

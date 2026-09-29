@@ -1,0 +1,64 @@
+{
+ "id": "BTN_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  22,
+  27,
+  30,
+  38,
+  42,
+  48,
+  56,
+  63,
+  69,
+  74,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   46,
+   "is OP the right",
+   "is on the right",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f95d96a0692eacac04641566f37bc095b83b562b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 1998,
+  "words_out": 1997,
+  "retention": 0.9995,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   178,
+   163,
+   197,
+   146,
+   55,
+   185,
+   95,
+   149,
+   141,
+   126,
+   217,
+   128,
+   145,
+   72
+  ],
+  "warnings": []
+ }
+}

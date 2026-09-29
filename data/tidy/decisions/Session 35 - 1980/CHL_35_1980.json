@@ -1,0 +1,102 @@
+{
+ "id": "CHL_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  18,
+  25,
+  31,
+  38,
+  41,
+  46,
+  51,
+  54,
+  57,
+  62,
+  68,
+  73,
+  77,
+  83,
+  89,
+  94,
+  98,
+  101,
+  104,
+  109,
+  113,
+  116,
+  120,
+  122
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   67,
+   "en-shrined",
+   "enshrined",
+   "hyphen"
+  ],
+  [
+   105,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   114,
+   "19526",
+   "1952",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ace052f9627ea5953b02ff0a7b026e861fb77b1e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 77
+  },
+  "words_in": 3961,
+  "words_out": 3961,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   171,
+   193,
+   137,
+   206,
+   174,
+   196,
+   73,
+   190,
+   175,
+   120,
+   61,
+   128,
+   158,
+   184,
+   109,
+   213,
+   156,
+   212,
+   138,
+   72,
+   117,
+   181,
+   152,
+   150,
+   135,
+   98,
+   62
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "ZMB_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  17,
+  25,
+  30,
+  36,
+  42,
+  45,
+  51,
+  55,
+  57,
+  64,
+  67,
+  70,
+  72,
+  79,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   52,
+   " (The Holy Bible, Isaiah, 2:4)",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "heavy- handed",
+   "heavy-handed",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c37dc6bf9e81a493184c2bb796eed53ddac2cca9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2348,
+  "words_out": 2341,
+  "retention": 0.997,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   105,
+   138,
+   200,
+   185,
+   160,
+   114,
+   183,
+   69,
+   166,
+   97,
+   70,
+   128,
+   109,
+   94,
+   61,
+   169,
+   130,
+   163
+  ],
+  "warnings": []
+ }
+}

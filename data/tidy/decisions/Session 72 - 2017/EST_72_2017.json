@@ -1,0 +1,78 @@
+{
+ "id": "EST_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  19,
+  23,
+  28,
+  34,
+  40,
+  43,
+  51,
+  56,
+  60,
+  65,
+  74,
+  79,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   32,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   58,
+   "gender- based",
+   "gender-based",
+   "hyphen"
+  ],
+  [
+   59,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "899a67b45e3d14e0fdf37e2f3f31ebb06c77829d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2034,
+  "words_out": 2031,
+  "retention": 0.9985,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   105,
+   117,
+   89,
+   113,
+   78,
+   127,
+   97,
+   160,
+   95,
+   150,
+   94,
+   116,
+   121,
+   122,
+   146,
+   106,
+   195
+  ],
+  "warnings": []
+ }
+}

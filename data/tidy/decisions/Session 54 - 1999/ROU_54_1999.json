@@ -1,0 +1,70 @@
+{
+ "id": "ROU_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  31,
+  47,
+  58,
+  66,
+  80,
+  94,
+  105,
+  123,
+  141,
+  154,
+  170,
+  181,
+  194,
+  216,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   118,
+   "[John Maynard Keynes, “The End of Laissez-Faire”]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1acb7034dfff3729ccae15b19ff4e0aadfa0ada8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2013,
+  "words_out": 2004,
+  "retention": 0.9955,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   110,
+   168,
+   137,
+   82,
+   65,
+   122,
+   129,
+   85,
+   158,
+   146,
+   108,
+   133,
+   91,
+   124,
+   182,
+   113,
+   51
+  ],
+  "warnings": []
+ }
+}

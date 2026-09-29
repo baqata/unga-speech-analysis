@@ -1,0 +1,53 @@
+{
+ "id": "PRK_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  32,
+  44,
+  65,
+  85,
+  109,
+  123,
+  147,
+  167,
+  192,
+  219
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2cf6bdfdf097eeaafe9eb14a1a4b11c93e94a158",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1903,
+  "words_out": 1902,
+  "retention": 0.9995,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   55,
+   210,
+   111,
+   184,
+   153,
+   193,
+   114,
+   187,
+   166,
+   192,
+   216,
+   121
+  ],
+  "warnings": []
+ }
+}

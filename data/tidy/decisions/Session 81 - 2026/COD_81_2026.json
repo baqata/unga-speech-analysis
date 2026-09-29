@@ -1,0 +1,228 @@
+{
+ "id": "COD_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   155,
+   156,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  9,
+  14,
+  23,
+  29,
+  31,
+  39,
+  47,
+  55,
+  64,
+  73,
+  78,
+  88,
+  95,
+  102,
+  113,
+  118,
+  126,
+  130,
+  142,
+  147,
+  154
+ ],
+ "cer": [
+  2,
+  154
+ ],
+ "fix": [
+  [
+   2,
+   "Chisekedi-Chulambo",
+   "Tshisekedi Tshilombo",
+   "asr_name"
+  ],
+  [
+   28,
+   "Ezelwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   28,
+   "CIRT",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   30,
+   "Juliana Amatolomumba",
+   "Juliana Amato Lumumba",
+   "asr_name"
+  ],
+  [
+   37,
+   "AFCM23",
+   "AFC/M23",
+   "asr_name"
+  ],
+  [
+   40,
+   "signed to Washington",
+   "signed in Washington",
+   "asr_term"
+  ],
+  [
+   52,
+   "PONUSCO",
+   "MONUSCO",
+   "asr_name"
+  ],
+  [
+   107,
+   "Bundibugio",
+   "Bundibugyo",
+   "asr_name"
+  ],
+  [
+   128,
+   "Jamena",
+   "N'Djamena",
+   "asr_name"
+  ],
+  [
+   137,
+   "SEVIA",
+   "Sevilla",
+   "asr_name"
+  ],
+  [
+   137,
+   "collateral",
+   "multilateral",
+   "asr_term"
+  ],
+  [
+   101,
+   "conflict. conflict.",
+   "conflict.",
+   "asr_term"
+  ],
+  [
+   16,
+   "equilibria. and",
+   "equilibria. And",
+   "asr_term"
+  ],
+  [
+   28,
+   "Declaration. that",
+   "Declaration. That",
+   "asr_term"
+  ],
+  [
+   35,
+   "dispersed. women",
+   "dispersed. Women",
+   "asr_term"
+  ],
+  [
+   40,
+   "2025. the",
+   "2025 the",
+   "asr_term"
+  ],
+  [
+   51,
+   "verification. regular",
+   "verification regular",
+   "asr_term"
+  ],
+  [
+   62,
+   "complementary. because",
+   "complementary. Because",
+   "asr_term"
+  ],
+  [
+   91,
+   "implementation. the",
+   "implementation. The",
+   "asr_term"
+  ],
+  [
+   126,
+   "Corridor. which",
+   "Corridor which",
+   "asr_term"
+  ],
+  [
+   128,
+   "crisis. following",
+   "crisis. Following",
+   "asr_term"
+  ],
+  [
+   112,
+   "prevention of",
+   "prevention or",
+   "asr_term"
+  ],
+  [
+   137,
+   "grid and",
+   "greater",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in French; names checked against the speakers list (Tshisekedi), Spanish channel (Sirte, AFC M23, MONUSCO, Washington, Sevilla, bancos multilaterales, Yamena) and published sources (Ezulwini Consensus; Juliana Amato Lumumba, DRC OIF candidate per Forbes Afrique; Bundibugyo ebolavirus). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 101 'conflict. conflict.' -> 'conflict.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'equilibria. and' -> 'equilibria. And'; unit 28 'Declaration. that' -> 'Declaration. That'; unit 35 'dispersed. women' -> 'dispersed. Women'; unit 40 '2025. the' -> '2025 the'; unit 51 'verification. regular' -> 'verification regular'; unit 62 'complementary. because' -> 'complementary. Because'; unit 91 'implementation. the' -> 'implementation. The'; unit 126 'Corridor. which' -> 'Corridor which'; unit 128 'crisis. following' -> 'crisis. Following'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 15 unit 112 'prevention of' -> 'prevention or' (decode 2 hears 'or' 0.98 (decode 1 'of' 0.87); 'Centers for Disease control and prevention of the Africa CDC' does not fit, 'or the Africa CDC' introduces the acronym; sounds alike); spot 22 unit 137 'grid and' -> 'greater' ('grid and mobilization' does not fit; decodes are unclear ('freedom' 0.09 / 'good and' 0.09-0.45); sounds like 'greater'; ES 'una movilización acrecentada de los bancos multilaterales')",
+ "unitizer_version": 1,
+ "sha1": "fa2521cd23c2dfcb75283430b08eef453c52f8f8",
+ "layout": "single",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 3654,
+  "words_out": 3593,
+  "retention": 0.9833,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   137,
+   91,
+   199,
+   155,
+   166,
+   119,
+   185,
+   182,
+   248,
+   226,
+   218,
+   87,
+   180,
+   213,
+   165,
+   211,
+   105,
+   107,
+   105,
+   192,
+   135,
+   165,
+   2
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

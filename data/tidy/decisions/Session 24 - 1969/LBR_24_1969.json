@@ -1,0 +1,150 @@
+{
+ "id": "LBR_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  43,
+  62,
+  71,
+  86,
+  106,
+  117,
+  129,
+  149,
+  167,
+  180,
+  209,
+  232,
+  255,
+  274,
+  284,
+  312,
+  322,
+  338,
+  348,
+  365,
+  383,
+  391,
+  409,
+  427,
+  446,
+  455,
+  473
+ ],
+ "cer": [
+  0,
+  23,
+  43
+ ],
+ "fix": [
+  [
+   71,
+   "such.an",
+   "such an",
+   "spacing"
+  ],
+  [
+   97,
+   "unable.",
+   "unable",
+   "ocr"
+  ],
+  [
+   239,
+   "South Africa, The",
+   "South Africa. The",
+   "ocr"
+  ],
+  [
+   337,
+   "control“",
+   "control”",
+   "ocr"
+  ],
+  [
+   337,
+   " [1698th meeting, para, 59]",
+   "",
+   "label"
+  ],
+  [
+   349,
+   "the whole,",
+   "the whole",
+   "ocr"
+  ],
+  [
+   382,
+   " [A/7601/Add.1, paras. 40-43]",
+   "",
+   "label"
+  ],
+  [
+   384,
+   " [resolution",
+   "",
+   "label"
+  ],
+  [
+   385,
+   "2006 (XIX)] ",
+   "",
+   "label"
+  ],
+  [
+   431,
+   " [see resolution 2411 (XXIII)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "570e52e95d398f33bbe73996d79b17158e613fb9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 483,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4228,
+  "words_out": 4168,
+  "retention": 0.9858,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   188,
+   159,
+   169,
+   78,
+   132,
+   173,
+   103,
+   96,
+   188,
+   168,
+   129,
+   234,
+   205,
+   200,
+   152,
+   83,
+   255,
+   88,
+   135,
+   85,
+   151,
+   148,
+   56,
+   151,
+   165,
+   150,
+   79,
+   157,
+   91
+  ],
+  "warnings": []
+ }
+}

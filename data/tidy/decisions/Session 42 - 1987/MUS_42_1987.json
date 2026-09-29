@@ -1,0 +1,112 @@
+{
+ "id": "MUS_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  18,
+  25,
+  30,
+  32,
+  37,
+  43,
+  49,
+  53,
+  57,
+  59,
+  62,
+  65,
+  70,
+  74,
+  78,
+  83,
+  88,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "Illegal",
+   "illegal",
+   "ocr"
+  ],
+  [
+   45,
+   "unanimity.",
+   "unanimity,",
+   "ocr"
+  ],
+  [
+   49,
+   "we fish",
+   "we wish",
+   "ocr"
+  ],
+  [
+   49,
+   ":heir",
+   "their",
+   "ocr"
+  ],
+  [
+   61,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   78,
+   "He in the",
+   "We in the",
+   "ocr"
+  ],
+  [
+   81,
+   "(IMP)",
+   "(IMF)",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ecaf51d0c5d42c216b40123a88c5120d6be80f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2618,
+  "words_out": 2618,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   135,
+   115,
+   141,
+   203,
+   141,
+   60,
+   147,
+   157,
+   155,
+   129,
+   88,
+   74,
+   115,
+   59,
+   121,
+   134,
+   159,
+   135,
+   173,
+   140,
+   37
+  ],
+  "warnings": []
+ }
+}

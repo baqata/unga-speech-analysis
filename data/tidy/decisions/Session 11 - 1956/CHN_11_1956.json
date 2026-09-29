@@ -1,0 +1,97 @@
+{
+ "id": "CHN_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  11,
+  19,
+  30,
+  35,
+  41,
+  46,
+  52,
+  60,
+  64,
+  69,
+  77,
+  81,
+  85,
+  91,
+  98,
+  101,
+  107,
+  113,
+  117,
+  121,
+  129,
+  137,
+  143,
+  150,
+  156
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "crisis m the",
+   "crisis in the",
+   "ocr"
+  ],
+  [
+   26,
+   "being-done",
+   "being done",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "967248c41404dd6798ccb1418ada65be74de7f89",
+ "layout": "lines",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 34
+  },
+  "words_in": 3135,
+  "words_out": 3133,
+  "retention": 0.9994,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   40,
+   233,
+   169,
+   195,
+   91,
+   72,
+   112,
+   66,
+   167,
+   125,
+   51,
+   132,
+   115,
+   79,
+   124,
+   118,
+   102,
+   115,
+   123,
+   106,
+   92,
+   135,
+   157,
+   98,
+   151,
+   93,
+   72
+  ],
+  "warnings": []
+ }
+}

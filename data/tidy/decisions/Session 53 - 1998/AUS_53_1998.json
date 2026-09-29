@@ -1,0 +1,157 @@
+{
+ "id": "AUS_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  24,
+  42,
+  53,
+  81,
+  103,
+  117,
+  126,
+  140,
+  152,
+  164,
+  177,
+  195,
+  213,
+  226,
+  243,
+  261,
+  279,
+  293,
+  304,
+  326,
+  350,
+  366
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "Australiaâs",
+   "Australia’s",
+   "encoding"
+  ],
+  [
+   25,
+   "Australiaâs",
+   "Australia’s",
+   "encoding"
+  ],
+  [
+   105,
+   "Peopleâs",
+   "People’s",
+   "encoding"
+  ],
+  [
+   121,
+   "Australiaâs",
+   "Australia’s",
+   "encoding"
+  ],
+  [
+   130,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   189,
+   "Treatyâs",
+   "Treaty’s",
+   "encoding"
+  ],
+  [
+   218,
+   "Treatyâs",
+   "Treaty’s",
+   "encoding"
+  ],
+  [
+   235,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   243,
+   "communityâs",
+   "community’s",
+   "encoding"
+  ],
+  [
+   266,
+   "Secretary-Generalâs",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   304,
+   "yearâs",
+   "year’s",
+   "encoding"
+  ],
+  [
+   313,
+   "Australiaâs",
+   "Australia’s",
+   "encoding"
+  ],
+  [
+   328,
+   "Australiaâs",
+   "Australia’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38779bbe80c15dd881b71b61c0e5c6b4fa29416a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 389,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 29,
+   "page_number": 4
+  },
+  "words_in": 3343,
+  "words_out": 3337,
+  "retention": 0.9982,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   120,
+   96,
+   155,
+   110,
+   206,
+   182,
+   123,
+   84,
+   120,
+   106,
+   108,
+   98,
+   162,
+   167,
+   99,
+   148,
+   148,
+   146,
+   124,
+   97,
+   205,
+   208,
+   133,
+   192
+  ],
+  "warnings": []
+ }
+}

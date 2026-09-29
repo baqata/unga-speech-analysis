@@ -1,0 +1,127 @@
+{
+ "id": "IND_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  10,
+  21,
+  34,
+  42,
+  53,
+  60,
+  69,
+  80,
+  87,
+  92,
+  99,
+  108,
+  110
+ ],
+ "cer": [
+  1,
+  108
+ ],
+ "fix": [
+  [
+   109,
+   "mission life",
+   "Mission LiFE",
+   "asr_name"
+  ],
+  [
+   118,
+   " of External Affairs of India for his contribution.",
+   "",
+   "label"
+  ],
+  [
+   118,
+   " applause I thank the Minister",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "goodwill. or goodwill.",
+   "goodwill.",
+   "asr_term"
+  ],
+  [
+   107,
+   "process. the",
+   "process. The",
+   "asr_term"
+  ],
+  [
+   8,
+   "theirs. most",
+   "theirs. Those most",
+   "asr_term"
+  ],
+  [
+   9,
+   "through",
+   "to",
+   "asr_term"
+  ],
+  [
+   55,
+   "insured",
+   "ensured",
+   "asr_term"
+  ],
+  [
+   68,
+   "Biofuel",
+   "Biofuels",
+   "asr_name"
+  ],
+  [
+   86,
+   "India world",
+   "endeavor",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Presiding officer's thanks glued to the closing unit removed with a label fix; Mission LiFE is India's Lifestyle for Environment initiative. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 33 'goodwill. or goodwill.' -> 'goodwill.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'theirs. most' -> 'theirs. Most'; unit 107 'process. the' -> 'process. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 8 'theirs. most' -> 'theirs. Those most' (2026 exception: both decodes hear 'Those' clearly (0.99 / 0.99); ES 'Los que más sufren el impacto'; old is the existing repair's old); spot 2 unit 9 'through' -> 'to' (decodes 'through' weak (0.55 / 0.48); 'face up through the true state of affairs' does not fit; the idiom is 'face up to'); spot 4 unit 55 'insured' -> 'ensured' (homophone; ES 'son elementos asegurados' (secured, provided); 'housing are insured' does not fit the delivery-of-services sentence); spot 5 unit 68 'Biofuel' -> 'Biofuels' (official name of the India-led initiative is the Global Biofuels Alliance (launched at the G20 New Delhi summit, 2023); decode 2 hears 'Biofuels' (0.84)); spot 7 unit 86 'India world' -> 'endeavor' ('that India world' does not fit; decode 2 hears 'endeavor' (0.69), decode 1 'India world' weak (0.38); UN 'endeavour'; American spelling as elsewhere in this transcript)",
+ "unitizer_version": 1,
+ "sha1": "bfd8dd0a8bf3c65edc5b0fb89504327e4ad44609",
+ "layout": "single",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1698,
+  "words_out": 1667,
+  "retention": 0.9817,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   13,
+   113,
+   181,
+   174,
+   110,
+   130,
+   126,
+   154,
+   168,
+   99,
+   85,
+   84,
+   99,
+   38,
+   93
+  ],
+  "warnings": []
+ }
+}

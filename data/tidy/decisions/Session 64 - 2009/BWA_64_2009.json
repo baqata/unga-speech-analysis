@@ -1,0 +1,70 @@
+{
+ "id": "BWA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  39,
+  63,
+  82,
+  98,
+  119,
+  136,
+  160,
+  177,
+  200,
+  221,
+  237
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "(resolution 60/1,",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "para. 146)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b03e881391895a7beb02289cf7eb4f00185c8ac1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1947,
+  "words_out": 1941,
+  "retention": 0.9969,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   73,
+   72,
+   148,
+   196,
+   147,
+   125,
+   161,
+   150,
+   182,
+   139,
+   172,
+   157,
+   132,
+   87
+  ],
+  "warnings": []
+ }
+}

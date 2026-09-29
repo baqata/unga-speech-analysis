@@ -1,0 +1,88 @@
+{
+ "id": "DJI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  28,
+  39,
+  54,
+  71,
+  80,
+  96,
+  117,
+  127,
+  149,
+  163,
+  179,
+  190,
+  207,
+  216,
+  229,
+  239,
+  253,
+  270,
+  289
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   60,
+   "f loods",
+   "floods",
+   "split_word"
+  ],
+  [
+   89,
+   "f loods",
+   "floods",
+   "split_word"
+  ],
+  [
+   296,
+   "self lessness",
+   "selflessness",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "be809cdf2cb7b1460458a7ba093ea8cc8b2a5af2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 297,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2458,
+  "words_out": 2451,
+  "retention": 0.9972,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   99,
+   119,
+   84,
+   120,
+   143,
+   68,
+   143,
+   158,
+   88,
+   184,
+   120,
+   129,
+   96,
+   145,
+   73,
+   104,
+   94,
+   114,
+   135,
+   166,
+   69
+  ],
+  "warnings": []
+ }
+}

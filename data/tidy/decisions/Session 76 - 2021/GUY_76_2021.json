@@ -1,0 +1,90 @@
+{
+ "id": "GUY_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  14,
+  16,
+  21,
+  30,
+  37,
+  45,
+  51,
+  58,
+  66,
+  73,
+  84,
+  89,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "low-tying",
+   "low-lying",
+   "ocr"
+  ],
+  [
+   59,
+   "low- lying",
+   "low-lying",
+   "spacing"
+  ],
+  [
+   67,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   81,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   84,
+   "Palestinian- Israeli",
+   "Palestinian-Israeli",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ce72884887c40599aa2d623be48356fd7150336",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2341,
+  "words_out": 2337,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   67,
+   132,
+   90,
+   80,
+   105,
+   216,
+   155,
+   223,
+   143,
+   146,
+   130,
+   155,
+   201,
+   99,
+   246,
+   149
+  ],
+  "warnings": []
+ }
+}

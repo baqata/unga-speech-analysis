@@ -1,0 +1,119 @@
+{
+ "id": "MYS_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  12,
+  16,
+  19,
+  22,
+  28,
+  31,
+  38,
+  44,
+  48,
+  50,
+  57,
+  61,
+  64,
+  70,
+  72,
+  76,
+  82,
+  85,
+  92,
+  95,
+  99,
+  101
+ ],
+ "cer": [
+  0,
+  99
+ ],
+ "fix": [
+  [
+   15,
+   "[PLO]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "/",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   58,
+   "on I September",
+   "on 1 September",
+   "ocr"
+  ],
+  [
+   82,
+   "agenda b to",
+   "agenda is to",
+   "ocr"
+  ],
+  [
+   94,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "An italic word (apartheid) is lost between units 50 and 51.",
+ "unitizer_version": 1,
+ "sha1": "e06f502f53bf328f9e12f2b1363fc2f460c5fb9a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2749,
+  "words_out": 2745,
+  "retention": 0.9985,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   60,
+   165,
+   72,
+   116,
+   142,
+   134,
+   143,
+   89,
+   178,
+   141,
+   120,
+   57,
+   155,
+   136,
+   68,
+   159,
+   109,
+   75,
+   145,
+   72,
+   130,
+   50,
+   109,
+   50,
+   70
+  ],
+  "warnings": []
+ }
+}

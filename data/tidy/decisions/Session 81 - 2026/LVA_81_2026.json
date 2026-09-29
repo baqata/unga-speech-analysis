@@ -1,0 +1,160 @@
+{
+ "id": "LVA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   126,
+   126,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  14,
+  25,
+  35,
+  46,
+  61,
+  71,
+  78,
+  90,
+  98,
+  103,
+  115,
+  125
+ ],
+ "cer": [
+  2,
+  125
+ ],
+ "fix": [
+  [
+   2,
+   "Mm hmm 簡易 Awesome John Wells mm ",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "heard",
+   "heart",
+   "asr_term"
+  ],
+  [
+   45,
+   "withdraw",
+   "redraw",
+   "asr_term"
+  ],
+  [
+   84,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   90,
+   "Excellency's",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   117,
+   "reminds",
+   "remains",
+   "asr_term"
+  ],
+  [
+   66,
+   "can't stop",
+   "can stop",
+   "asr_term"
+  ],
+  [
+   13,
+   "away. instability",
+   "away. Instability",
+   "asr_term"
+  ],
+  [
+   26,
+   "principles. sovereignty,",
+   "principles. Sovereignty,",
+   "asr_term"
+  ],
+  [
+   81,
+   "hold. not",
+   "hold. Not",
+   "asr_term"
+  ],
+  [
+   101,
+   "violated. and",
+   "violated. And",
+   "asr_term"
+  ],
+  [
+   105,
+   "families. their",
+   "families their",
+   "asr_term"
+  ],
+  [
+   122,
+   "not. and",
+   "not. And",
+   "asr_term"
+  ],
+  [
+   24,
+   "faith.",
+   "fate.",
+   "asr_term"
+  ],
+  [
+   49,
+   "sized",
+   "seized",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Pause text glued to unit 1 (presider, dropped) and unit 2 removed; fate, heart, redraw, UN80 and 'remains' per Spanish; unit 66 'It can't stop its attacks' kept although Spanish says 'Puede detener' (audio check requested). Main-agent audio check: unit 66 'It can't stop its attacks' -> 'It can stop': Whisper is unsure (p 0.77-0.82) of a stressed 'can' in a run of parallel sentences ('Russia can end it. It can stop its attacks. It can withdraw its forces. It can leave...'); Spanish 'Puede detener sus ataques'. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 24 repair of 'shared faith' withdrawn (the speaker's English, heard at p 0.96-0.98 in three re-decodes: 'increasingly a shared faith'; 'un destino compartido' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 13 'away. instability' -> 'away. Instability'; unit 26 'principles. sovereignty,' -> 'principles. Sovereignty,'; unit 81 'hold. not' -> 'hold. Not'; unit 101 'violated. and' -> 'violated. And'; unit 105 'families. their' -> 'families their'; unit 122 'not. and' -> 'not. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 24 'faith.' -> 'fate.' (the UN transcript hears 'fate', so the audio is not settled (forced scoring 'faith' -0.9 vs 'fate' -2.0); 'a shared fate' is what the next sentence ('when we share the same boat, we need something that holds us together') argues, and ES reads 'un destino compartido'); spot 5 unit 49 'sized' -> 'seized' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'sized' (decodes 0.82 / 0.83, the UN transcript; forced scoring -2.3 vs -8.8); 'Territory sized by force' does not fit, and the Spanish 'territorios que se incautan por la fuerza' shows 'seized')",
+ "unitizer_version": 1,
+ "sha1": "031356cc7aa30baf5f66ca0191ec567d81dfaff5",
+ "layout": "single",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1456,
+  "words_out": 1398,
+  "retention": 0.9602,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   45,
+   163,
+   96,
+   106,
+   123,
+   107,
+   70,
+   163,
+   137,
+   56,
+   64,
+   130,
+   134,
+   4
+  ],
+  "warnings": []
+ }
+}

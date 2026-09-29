@@ -1,0 +1,116 @@
+{
+ "id": "SGP_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  14,
+  20,
+  25,
+  34,
+  40,
+  45,
+  52,
+  57,
+  60,
+  65,
+  71,
+  77,
+  84,
+  89,
+  96,
+  102,
+  109,
+  114,
+  125,
+  130,
+  137,
+  143
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "re-quires",
+   "requires",
+   "hyphen"
+  ],
+  [
+   23,
+   "Crisis,'\"",
+   "Crisis,",
+   "ocr"
+  ],
+  [
+   42,
+   "100, armed",
+   "100 armed",
+   "ocr"
+  ],
+  [
+   56,
+   "disproportion-ate",
+   "disproportionate",
+   "hyphen"
+  ],
+  [
+   109,
+   "national-ism",
+   "nationalism",
+   "hyphen"
+  ],
+  [
+   127,
+   "export- oriented",
+   "export-oriented",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ae38d8a0b9d6ae1d285d5e7a0637f1512fcb8da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2966,
+  "words_out": 2965,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   80,
+   85,
+   137,
+   140,
+   143,
+   95,
+   105,
+   117,
+   152,
+   118,
+   75,
+   88,
+   134,
+   86,
+   154,
+   106,
+   113,
+   129,
+   163,
+   125,
+   164,
+   95,
+   124,
+   151,
+   86
+  ],
+  "warnings": []
+ }
+}

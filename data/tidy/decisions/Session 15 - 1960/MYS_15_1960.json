@@ -1,0 +1,125 @@
+{
+ "id": "MYS_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  15,
+  19,
+  24,
+  26,
+  30,
+  33,
+  37,
+  38,
+  45,
+  51,
+  54,
+  60,
+  66,
+  70,
+  78,
+  83,
+  90,
+  93,
+  96,
+  101,
+  107,
+  110,
+  117,
+  121,
+  125,
+  127,
+  135
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   " [1474 (ES-IV)]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   " [see A/4444]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "Assembly,",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   95,
+   "nations,",
+   "nations.",
+   "ocr"
+  ],
+  [
+   114,
+   "social mid cultural",
+   "social and cultural",
+   "ocr"
+  ],
+  [
+   76,
+   " [see A/4418 and Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "88eb9626ec889d8a0fd3f833b63825d781af3072",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 34
+  },
+  "words_in": 4282,
+  "words_out": 4270,
+  "retention": 0.9972,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   142,
+   230,
+   108,
+   202,
+   76,
+   199,
+   98,
+   133,
+   79,
+   188,
+   201,
+   122,
+   172,
+   150,
+   100,
+   188,
+   126,
+   165,
+   136,
+   80,
+   148,
+   226,
+   93,
+   206,
+   121,
+   142,
+   112,
+   208,
+   119
+  ],
+  "warnings": []
+ }
+}

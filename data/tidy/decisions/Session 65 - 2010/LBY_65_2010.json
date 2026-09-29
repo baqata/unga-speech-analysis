@@ -1,0 +1,55 @@
+{
+ "id": "LBY_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  26,
+  34,
+  49,
+  58,
+  66,
+  78,
+  91,
+  101,
+  113,
+  129,
+  138
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a390cd7d53710fd6a11a4770c6d893b91b8705df",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1165,
+  "words_out": 1163,
+  "retention": 0.9983,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   56,
+   153,
+   66,
+   131,
+   74,
+   66,
+   94,
+   96,
+   85,
+   102,
+   119,
+   82,
+   39
+  ],
+  "warnings": []
+ }
+}

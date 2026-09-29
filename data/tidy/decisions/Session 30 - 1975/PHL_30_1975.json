@@ -1,0 +1,98 @@
+{
+ "id": "PHL_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  13,
+  16,
+  21,
+  25,
+  29,
+  35,
+  40,
+  42,
+  46,
+  49,
+  54,
+  55,
+  59,
+  62,
+  65,
+  70,
+  72,
+  76,
+  78,
+  82,
+  85,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "__ Much",
+   "Much",
+   "ocr"
+  ],
+  [
+   37,
+   " [see resolution 2626 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "desire tor",
+   "desire for",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "802aa82cc502a78f651b42d62a926522861362d6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2402,
+  "words_out": 2388,
+  "retention": 0.9942,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   103,
+   138,
+   102,
+   66,
+   113,
+   63,
+   102,
+   118,
+   178,
+   63,
+   95,
+   65,
+   126,
+   62,
+   87,
+   70,
+   83,
+   101,
+   60,
+   91,
+   121,
+   111,
+   78,
+   90,
+   102
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "CAF_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  39,
+  67,
+  90,
+  117,
+  142,
+  162,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68068e4ccd905d27c37d86ca0037d495cf208673",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1447,
+  "words_out": 1445,
+  "retention": 0.9986,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   154,
+   145,
+   197,
+   180,
+   211,
+   204,
+   160,
+   118,
+   76
+  ],
+  "warnings": []
+ }
+}

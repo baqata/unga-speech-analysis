@@ -1,0 +1,65 @@
+{
+ "id": "LIE_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  15,
+  29,
+  46,
+  55,
+  63,
+  71,
+  91,
+  118,
+  134,
+  141,
+  159,
+  170
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   18,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea5387685198cf2b800177ada35a9f175729e3ef",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1660,
+  "words_out": 1657,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   51,
+   74,
+   117,
+   148,
+   80,
+   70,
+   70,
+   185,
+   243,
+   133,
+   62,
+   159,
+   105,
+   160
+  ],
+  "warnings": []
+ }
+}

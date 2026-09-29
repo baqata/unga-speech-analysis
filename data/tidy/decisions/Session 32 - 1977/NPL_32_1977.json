@@ -1,0 +1,119 @@
+{
+ "id": "NPL_32_1977",
+ "drop": [
+  [
+   70,
+   70,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  11,
+  15,
+  21,
+  25,
+  28,
+  31,
+  33,
+  39,
+  46,
+  48,
+  53,
+  57,
+  60,
+  66,
+  71,
+  77,
+  80,
+  83,
+  87,
+  92,
+  94,
+  99,
+  103,
+  107
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   30,
+   "Nigeria,2 s is",
+   "Nigeria, is",
+   "ocr"
+  ],
+  [
+   74,
+   "affected'",
+   "affected",
+   "ocr"
+  ],
+  [
+   77,
+   "240. ",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "resources .",
+   "resources.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a67e44aae079e0d1736093344a828e8304aed9c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 3027,
+  "words_out": 3023,
+  "retention": 0.9987,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   107,
+   59,
+   57,
+   90,
+   80,
+   156,
+   77,
+   101,
+   99,
+   74,
+   172,
+   124,
+   55,
+   85,
+   87,
+   62,
+   169,
+   72,
+   159,
+   96,
+   97,
+   94,
+   144,
+   72,
+   159,
+   164,
+   108,
+   204
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "id": "TUR_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  16,
+  22,
+  28,
+  34,
+  40,
+  45,
+  55,
+  61,
+  68,
+  77,
+  81,
+  91,
+  98,
+  101,
+  106,
+  110,
+  118,
+  125,
+  129,
+  135,
+  140,
+  146,
+  151,
+  156,
+  164,
+  172,
+  179,
+  184,
+  187
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   53,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   59,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   105,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   156,
+   "Security- building",
+   "Security-building",
+   "hyphen"
+  ],
+  [
+   160,
+   "force- reduction",
+   "force-reduction",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "439eb483852415d8c8b293ce9fa0a58ba393604c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 4067,
+  "words_out": 4062,
+  "retention": 0.9988,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   72,
+   61,
+   171,
+   114,
+   101,
+   119,
+   146,
+   93,
+   222,
+   113,
+   159,
+   140,
+   116,
+   193,
+   164,
+   103,
+   146,
+   79,
+   149,
+   143,
+   89,
+   85,
+   150,
+   110,
+   137,
+   114,
+   170,
+   157,
+   147,
+   101,
+   97,
+   101
+  ],
+  "warnings": []
+ }
+}

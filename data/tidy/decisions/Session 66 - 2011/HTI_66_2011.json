@@ -1,0 +1,58 @@
+{
+ "id": "HTI_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  18,
+  32,
+  42,
+  57,
+  69,
+  81,
+  90,
+  105,
+  122,
+  132,
+  152,
+  170
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a522c4a79141b5ee2e1b20713269bc24e30a554",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1587,
+  "words_out": 1583,
+  "retention": 0.9975,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   55,
+   97,
+   127,
+   90,
+   121,
+   107,
+   96,
+   68,
+   127,
+   141,
+   80,
+   153,
+   170,
+   151
+  ],
+  "warnings": []
+ }
+}

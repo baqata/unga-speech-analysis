@@ -1,0 +1,92 @@
+{
+ "id": "YUG_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  16,
+  20,
+  25,
+  34,
+  40,
+  46,
+  49,
+  54,
+  57,
+  63,
+  67,
+  70,
+  78,
+  81,
+  84,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   8,
+   "every-thing",
+   "everything",
+   "hyphen"
+  ],
+  [
+   52,
+   "trans-port",
+   "transport",
+   "hyphen"
+  ],
+  [
+   77,
+   "serve, the",
+   "serve the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c3b9e00b73c5b40b8138396db58e9a3037a63975",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2654,
+  "words_out": 2653,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   162,
+   236,
+   139,
+   136,
+   172,
+   245,
+   159,
+   120,
+   102,
+   139,
+   127,
+   145,
+   87,
+   96,
+   213,
+   109,
+   102,
+   72,
+   92
+  ],
+  "warnings": []
+ }
+}

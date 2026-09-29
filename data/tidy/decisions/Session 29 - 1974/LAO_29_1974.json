@@ -1,0 +1,136 @@
+{
+ "id": "LAO_29_1974",
+ "drop": [
+  [
+   28,
+   28,
+   "noise"
+  ],
+  [
+   32,
+   32,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  10,
+  14,
+  19,
+  23,
+  29,
+  33,
+  38,
+  40,
+  46,
+  48,
+  52,
+  54,
+  57
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "cause Of",
+   "cause of",
+   "ocr"
+  ],
+  [
+   11,
+   "In'",
+   "In",
+   "ocr"
+  ],
+  [
+   16,
+   "environment..",
+   "environment.",
+   "ocr"
+  ],
+  [
+   20,
+   "as .we",
+   "as we",
+   "ocr"
+  ],
+  [
+   22,
+   "a. sacred",
+   "a sacred",
+   "ocr"
+  ],
+  [
+   23,
+   "~by",
+   "by",
+   "ocr"
+  ],
+  [
+   42,
+   "Soupha nouvong",
+   "Souphanouvong",
+   "split_word"
+  ],
+  [
+   47,
+   "Government*",
+   "Government",
+   "ocr"
+  ],
+  [
+   48,
+   "concord, internationally",
+   "concord. Internationally",
+   "ocr"
+  ],
+  [
+   53,
+   "to* overcome",
+   "to overcome",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e5848d4929ff5a6bfce6d980639841418976686c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2231,
+  "words_out": 2228,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   106,
+   141,
+   100,
+   175,
+   155,
+   108,
+   196,
+   88,
+   189,
+   127,
+   204,
+   128,
+   185,
+   98,
+   111,
+   117
+  ],
+  "warnings": []
+ }
+}

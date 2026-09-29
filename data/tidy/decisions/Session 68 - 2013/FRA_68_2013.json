@@ -1,0 +1,66 @@
+{
+ "id": "FRA_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  19,
+  27,
+  40,
+  51,
+  63,
+  77,
+  89,
+  106,
+  128,
+  146,
+  164,
+  186,
+  196,
+  211,
+  222
+ ],
+ "cer": [],
+ "fix": [
+  [
+   119,
+   ".eita",
+   "Keita",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a865fcb711303c2fdab4d6bc5e427ae80aa8869d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1958,
+  "words_out": 1957,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   65,
+   85,
+   65,
+   118,
+   88,
+   107,
+   116,
+   104,
+   140,
+   191,
+   156,
+   135,
+   174,
+   84,
+   126,
+   94,
+   109
+  ],
+  "warnings": []
+ }
+}

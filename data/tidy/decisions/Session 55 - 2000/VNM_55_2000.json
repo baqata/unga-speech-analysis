@@ -1,0 +1,62 @@
+{
+ "id": "VNM_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  18,
+  34,
+  48,
+  67,
+  86,
+  105,
+  121,
+  148,
+  161,
+  179,
+  200
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   159,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06dd7973025cff1ce9fd354623402aa346feaae3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1632,
+  "words_out": 1630,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   43,
+   95,
+   121,
+   114,
+   133,
+   156,
+   139,
+   127,
+   213,
+   98,
+   138,
+   172,
+   81
+  ],
+  "warnings": []
+ }
+}

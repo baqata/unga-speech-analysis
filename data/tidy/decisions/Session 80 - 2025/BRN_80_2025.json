@@ -1,0 +1,77 @@
+{
+ "id": "BRN_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  9,
+  17,
+  23,
+  32,
+  40,
+  52,
+  57,
+  65,
+  74,
+  82
+ ],
+ "cer": [
+  1,
+  82
+ ],
+ "fix": [
+  [
+   5,
+   "Babok",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   7,
+   "Filimon",
+   "Philemon",
+   "asr_name"
+  ],
+  [
+   26,
+   "FIALAC",
+   "FEALAC",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "625625a9adebec5af46ef5cca5e6aafd03407af3",
+ "layout": "single",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1321,
+  "words_out": 1301,
+  "retention": 0.9849,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   112,
+   132,
+   111,
+   182,
+   126,
+   182,
+   103,
+   125,
+   94,
+   130,
+   4
+  ],
+  "warnings": []
+ }
+}

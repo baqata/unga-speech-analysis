@@ -1,0 +1,231 @@
+{
+ "id": "ETH_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  12,
+  17,
+  22,
+  29,
+  36,
+  40,
+  43,
+  46,
+  49,
+  53,
+  57,
+  61,
+  66,
+  68,
+  72,
+  75,
+  82,
+  90,
+  92,
+  98,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "[item 18]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "[resolution 390 A (V)]",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "[376 meeting]",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "[382nd meting]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "[A/C.1/ 725]",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "conferance",
+   "conference",
+   "ocr"
+  ],
+  [
+   3,
+   "matter,",
+   "matter",
+   "ocr"
+  ],
+  [
+   3,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   8,
+   "finder",
+   "under",
+   "ocr"
+  ],
+  [
+   25,
+   "consent,”",
+   "consent.”",
+   "ocr"
+  ],
+  [
+   25,
+   "noting",
+   "nothing",
+   "ocr"
+  ],
+  [
+   39,
+   "tile",
+   "the",
+   "ocr"
+  ],
+  [
+   39,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   39,
+   "of.",
+   "of",
+   "ocr"
+  ],
+  [
+   48,
+   "Article,",
+   "Article.",
+   "ocr"
+  ],
+  [
+   51,
+   "duly",
+   "duty",
+   "ocr"
+  ],
+  [
+   56,
+   "rood",
+   "food",
+   "ocr"
+  ],
+  [
+   56,
+   "thought,",
+   "thought.",
+   "ocr"
+  ],
+  [
+   58,
+   "suggestions,",
+   "suggestions.",
+   "ocr"
+  ],
+  [
+   61,
+   "award,",
+   "award.",
+   "ocr"
+  ],
+  [
+   67,
+   "Charter,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   90,
+   "contributions,",
+   "contributions.",
+   "ocr"
+  ],
+  [
+   92,
+   "add",
+   "and",
+   "ocr"
+  ],
+  [
+   94,
+   "contribution;",
+   "contribution",
+   "ocr"
+  ],
+  [
+   106,
+   "restore,",
+   "restore",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "837dabee57b716615025e9e3819b3037e6468423",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 27
+  },
+  "words_in": 3437,
+  "words_out": 3423,
+  "retention": 0.9959,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   150,
+   258,
+   74,
+   112,
+   121,
+   150,
+   233,
+   142,
+   146,
+   193,
+   121,
+   97,
+   105,
+   99,
+   227,
+   95,
+   169,
+   113,
+   127,
+   171,
+   104,
+   177,
+   66,
+   173
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

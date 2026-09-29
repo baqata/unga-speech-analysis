@@ -1,0 +1,75 @@
+{
+ "id": "DZA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  21,
+  37,
+  47,
+  55,
+  74,
+  92,
+  110,
+  123,
+  140,
+  151,
+  177,
+  190,
+  199,
+  222,
+  233
+ ],
+ "cer": [
+  0,
+  233
+ ],
+ "fix": [
+  [
+   98,
+   "unf lagging",
+   "unflagging",
+   "split_word"
+  ],
+  [
+   215,
+   "Boutef lika",
+   "Bouteflika",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89fcc16f16a4dc00eb845f75cfde1a9a98ec7dd3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1902,
+  "words_out": 1898,
+  "retention": 0.9979,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   58,
+   107,
+   138,
+   76,
+   58,
+   159,
+   139,
+   139,
+   121,
+   134,
+   95,
+   212,
+   103,
+   76,
+   182,
+   82,
+   19
+  ],
+  "warnings": []
+ }
+}

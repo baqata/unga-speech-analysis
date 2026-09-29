@@ -1,0 +1,166 @@
+{
+ "id": "LAO_16_1961",
+ "drop": [
+  [
+   100,
+   100,
+   "noise"
+  ],
+  [
+   130,
+   130,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  18,
+  24,
+  29,
+  37,
+  48,
+  59,
+  62,
+  69,
+  76,
+  78,
+  83,
+  90,
+  95,
+  99,
+  105,
+  109,
+  120,
+  131,
+  138
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Council,!/when",
+   "Council, when",
+   "ocr"
+  ],
+  [
+   11,
+   "While",
+   "while",
+   "ocr"
+  ],
+  [
+   35,
+   "strengthen'",
+   "strengthen",
+   "ocr"
+  ],
+  [
+   56,
+   "crime-to",
+   "crime to",
+   "ocr"
+  ],
+  [
+   83,
+   "In Laos",
+   "in Laos",
+   "ocr"
+  ],
+  [
+   87,
+   ".three",
+   "three",
+   "ocr"
+  ],
+  [
+   92,
+   "Geneva,?/",
+   "Geneva,",
+   "ocr"
+  ],
+  [
+   105,
+   "01.",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "\", The",
+   "\". The",
+   "ocr"
+  ],
+  [
+   107,
+   "/countries",
+   "countries",
+   "ocr"
+  ],
+  [
+   120,
+   "country; The",
+   "country. The",
+   "ocr"
+  ],
+  [
+   125,
+   "peoples want",
+   "people want",
+   "ocr"
+  ],
+  [
+   126,
+   "const..",
+   "constant",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 100 is a footnote printed inside a sentence and is dropped.",
+ "unitizer_version": 1,
+ "sha1": "645b516fcdcd11c7db0a3633e43d6762738c28c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 23
+  },
+  "words_in": 3579,
+  "words_out": 3564,
+  "retention": 0.9958,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   216,
+   81,
+   227,
+   187,
+   126,
+   213,
+   185,
+   259,
+   112,
+   126,
+   166,
+   97,
+   122,
+   210,
+   172,
+   107,
+   109,
+   128,
+   225,
+   205,
+   204,
+   87
+  ],
+  "warnings": []
+ }
+}

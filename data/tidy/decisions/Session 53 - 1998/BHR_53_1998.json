@@ -1,0 +1,140 @@
+{
+ "id": "BHR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  25,
+  41,
+  48,
+  69,
+  82,
+  93,
+  106,
+  117,
+  128,
+  138,
+  150,
+  171,
+  195,
+  208,
+  226,
+  244,
+  263,
+  295,
+  303,
+  314,
+  329,
+  339,
+  358
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   78,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   79,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   96,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   167,
+   "individual?s",
+   "individual’s",
+   "encoding"
+  ],
+  [
+   175,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   187,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   261,
+   "State?s",
+   "State’s",
+   "encoding"
+  ],
+  [
+   273,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   303,
+   "world?s",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d6bb778655224c97ee76c3cdecb73bf9ddd540b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 368,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3149,
+  "words_out": 3148,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   121,
+   93,
+   134,
+   64,
+   180,
+   105,
+   100,
+   108,
+   89,
+   91,
+   91,
+   101,
+   176,
+   204,
+   114,
+   162,
+   155,
+   171,
+   278,
+   72,
+   86,
+   125,
+   81,
+   158,
+   89
+  ],
+  "warnings": []
+ }
+}

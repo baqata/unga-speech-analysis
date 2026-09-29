@@ -1,0 +1,54 @@
+{
+ "id": "BFA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  17,
+  21,
+  26,
+  28,
+  32,
+  36,
+  41,
+  44,
+  48
+ ],
+ "cer": [
+  0,
+  48
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "843b71f2a4fe4d0cc2a8572e8c9c713053c5a000",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1200,
+  "words_out": 1197,
+  "retention": 0.9975,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   71,
+   146,
+   137,
+   115,
+   132,
+   71,
+   71,
+   91,
+   161,
+   88,
+   72,
+   42
+  ],
+  "warnings": []
+ }
+}

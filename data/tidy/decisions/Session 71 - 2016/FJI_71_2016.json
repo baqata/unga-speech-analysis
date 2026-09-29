@@ -1,0 +1,79 @@
+{
+ "id": "FJI_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  15,
+  19,
+  23,
+  26,
+  28,
+  35,
+  40,
+  43,
+  45,
+  52,
+  57,
+  59,
+  61,
+  63,
+  65,
+  69,
+  72,
+  75
+ ],
+ "cer": [
+  0,
+  75
+ ],
+ "fix": [
+  [
+   14,
+   "habitats.We",
+   "habitats. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "403280e05a4299f504f9758c45bf83bea7901a0d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2236,
+  "words_out": 2237,
+  "retention": 1.0004,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   113,
+   149,
+   102,
+   95,
+   89,
+   107,
+   93,
+   67,
+   135,
+   150,
+   121,
+   81,
+   107,
+   104,
+   75,
+   64,
+   99,
+   74,
+   131,
+   83,
+   110,
+   88
+  ],
+  "warnings": []
+ }
+}

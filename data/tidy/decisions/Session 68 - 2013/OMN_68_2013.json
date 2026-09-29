@@ -1,0 +1,62 @@
+{
+ "id": "OMN_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  33,
+  46,
+  64,
+  71,
+  87,
+  101,
+  120,
+  144,
+  157,
+  171
+ ],
+ "cer": [
+  0,
+  9,
+  171
+ ],
+ "fix": [
+  [
+   11,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "005610fdb170ac2fd952f23d0f9c606e51878653",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1378,
+  "words_out": 1377,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   70,
+   76,
+   105,
+   103,
+   129,
+   56,
+   126,
+   114,
+   153,
+   184,
+   100,
+   105,
+   56
+  ],
+  "warnings": []
+ }
+}

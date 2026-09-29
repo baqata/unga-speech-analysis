@@ -1,0 +1,113 @@
+{
+ "id": "BTN_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  8,
+  13,
+  18,
+  24,
+  28,
+  33,
+  35,
+  38,
+  43,
+  46,
+  48,
+  53,
+  62,
+  67,
+  76,
+  80
+ ],
+ "cer": [
+  0,
+  1,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "Majes y",
+   "Majesty",
+   "ocr"
+  ],
+  [
+   0,
+   "Wang chuck",
+   "Wangchuck",
+   "split_word"
+  ],
+  [
+   4,
+   "to. place",
+   "to place",
+   "ocr"
+  ],
+  [
+   16,
+   "of the new..",
+   "of the news.",
+   "ocr"
+  ],
+  [
+   66,
+   "(WHD)",
+   "(WHO)",
+   "ocr"
+  ],
+  [
+   66,
+   "UNFEft",
+   "UNFPA",
+   "ocr"
+  ],
+  [
+   80,
+   "Uhifced",
+   "United",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d930c72cfaa73ffcb813557017afdb78aafcfcdb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2032,
+  "words_out": 2030,
+  "retention": 0.999,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   39,
+   86,
+   47,
+   46,
+   139,
+   131,
+   143,
+   97,
+   95,
+   50,
+   90,
+   81,
+   64,
+   70,
+   88,
+   209,
+   149,
+   182,
+   101,
+   123
+  ],
+  "warnings": []
+ }
+}

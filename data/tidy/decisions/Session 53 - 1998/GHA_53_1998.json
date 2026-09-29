@@ -1,0 +1,123 @@
+{
+ "id": "GHA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  26,
+  42,
+  53,
+  70,
+  84,
+  92,
+  116,
+  142,
+  154,
+  166,
+  181,
+  193,
+  218,
+  235,
+  248,
+  268
+ ],
+ "cer": [
+  0,
+  10,
+  268
+ ],
+ "fix": [
+  [
+   34,
+   "Womenâs",
+   "Women’s",
+   "encoding"
+  ],
+  [
+   136,
+   "regionâs",
+   "region’s",
+   "encoding"
+  ],
+  [
+   149,
+   "populationâs",
+   "population’s",
+   "encoding"
+  ],
+  [
+   181,
+   "delegationâs",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   197,
+   "dâêtre",
+   "d’être",
+   "encoding"
+  ],
+  [
+   202,
+   "Peopleâs",
+   "People’s",
+   "encoding"
+  ],
+  [
+   225,
+   "Conventionâs",
+   "Convention’s",
+   "encoding"
+  ],
+  [
+   269,
+   "delegationâs",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   276,
+   "Organizationâs",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d176b6b3d8a4358cae1a31beb91abf721d2635ce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 285,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 14,
+   "page_number": 3
+  },
+  "words_in": 2399,
+  "words_out": 2398,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   89,
+   128,
+   131,
+   89,
+   136,
+   124,
+   77,
+   208,
+   234,
+   93,
+   95,
+   130,
+   103,
+   203,
+   144,
+   102,
+   171,
+   141
+  ],
+  "warnings": []
+ }
+}

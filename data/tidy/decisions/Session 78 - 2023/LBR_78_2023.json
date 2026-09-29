@@ -1,0 +1,120 @@
+{
+ "id": "LBR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  18,
+  23,
+  29,
+  30,
+  37,
+  41,
+  45,
+  48,
+  52
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Korosi. on",
+   "Korosi, on",
+   "ocr"
+  ],
+  [
+   10,
+   "SDGs. by",
+   "SDGs, by",
+   "ocr"
+  ],
+  [
+   11,
+   "debate. “Rebuilding",
+   "debate, “Rebuilding",
+   "ocr"
+  ],
+  [
+   11,
+   "all.” adequately",
+   "all,” adequately",
+   "ocr"
+  ],
+  [
+   19,
+   "12 months.",
+   "12 months,",
+   "ocr"
+  ],
+  [
+   32,
+   "ago. on the occasion of my first address to the General Assembly. we",
+   "ago, on the occasion of my first address to the General Assembly, we",
+   "ocr"
+  ],
+  [
+   41,
+   "free. fair",
+   "free, fair",
+   "ocr"
+  ],
+  [
+   44,
+   "me. as",
+   "me, as",
+   "ocr"
+  ],
+  [
+   47,
+   "too. will",
+   "too, will",
+   "ocr"
+  ],
+  [
+   51,
+   "can. and",
+   "can, and",
+   "ocr"
+  ],
+  [
+   52,
+   "family. Liberia",
+   "family, Liberia",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6cc99f2aeba346dcabe9d48bf455177379f58505",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1426,
+  "words_out": 1425,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   201,
+   181,
+   113,
+   91,
+   117,
+   61,
+   140,
+   103,
+   108,
+   92,
+   94,
+   124
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "id": "LIE_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   102,
+   103,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  8,
+  12,
+  20,
+  26,
+  35,
+  42,
+  51,
+  59,
+  64,
+  73,
+  82,
+  87,
+  95,
+  101
+ ],
+ "cer": [
+  101
+ ],
+ "fix": [
+  [
+   3,
+   "TO HAVE SECRETARY DUFA 식福 Original ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Lichtenstein",
+   "Liechtenstein",
+   "asr_name"
+  ],
+  [
+   25,
+   "investment. ",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "VITO",
+   "veto",
+   "asr_term"
+  ],
+  [
+   61,
+   "You have made",
+   "We have made",
+   "asr_term"
+  ],
+  [
+   64,
+   "Lichtenstein",
+   "Liechtenstein",
+   "asr_name"
+  ],
+  [
+   90,
+   "dubious price",
+   "dubious prize",
+   "asr_term"
+  ],
+  [
+   91,
+   "Lichtenstein",
+   "Liechtenstein",
+   "asr_name"
+  ],
+  [
+   100,
+   "Lichtenstein",
+   "Liechtenstein",
+   "asr_name"
+  ],
+  [
+   49,
+   "organization. that",
+   "organization that",
+   "asr_term"
+  ],
+  [
+   54,
+   "on. and",
+   "on and",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Invented pause text at unit 2 and glued to unit 3 removed; veto initiative, 'We have made' and 'prize' per Spanish; unit 25 doubled 'investment.' is a decode echo. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 49 'organization. that' -> 'organization that'; unit 54 'on. and' -> 'on and'",
+ "unitizer_version": 1,
+ "sha1": "752ba0c4f670b49ef349caa89e31172b5df55b8d",
+ "layout": "single",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2132,
+  "words_out": 2058,
+  "retention": 0.9653,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   150,
+   73,
+   146,
+   100,
+   183,
+   181,
+   172,
+   167,
+   83,
+   232,
+   126,
+   101,
+   196,
+   146,
+   2
+  ],
+  "warnings": []
+ }
+}

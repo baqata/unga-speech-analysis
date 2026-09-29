@@ -1,0 +1,86 @@
+{
+ "id": "SAU_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  27,
+  48,
+  67,
+  80,
+  94,
+  107,
+  122,
+  147,
+  168,
+  182,
+  200,
+  223,
+  251,
+  274,
+  286,
+  308,
+  328,
+  350,
+  360,
+  378
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   384,
+   "(The Holy Koran, IX:105)",
+   "",
+   "label"
+  ],
+  [
+   161,
+   "terri tories",
+   "territories",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "751da0eb7a5a377a1e745c6561eedbde66723b4d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 385,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3227,
+  "words_out": 3221,
+  "retention": 0.9981,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   142,
+   86,
+   168,
+   165,
+   110,
+   120,
+   109,
+   128,
+   207,
+   172,
+   129,
+   157,
+   199,
+   251,
+   197,
+   108,
+   185,
+   153,
+   169,
+   77,
+   154,
+   35
+  ],
+  "warnings": []
+ }
+}

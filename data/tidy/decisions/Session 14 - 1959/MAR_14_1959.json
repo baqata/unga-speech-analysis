@@ -1,0 +1,163 @@
+{
+ "id": "MAR_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  12,
+  14,
+  17,
+  19,
+  22,
+  28,
+  31,
+  38,
+  41,
+  43,
+  46,
+  53,
+  57,
+  60,
+  65,
+  70,
+  73,
+  74,
+  77,
+  79,
+  83,
+  86,
+  89,
+  92,
+  95,
+  99,
+  102,
+  105,
+  109,
+  112,
+  116,
+  118,
+  123,
+  126,
+  131,
+  134
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "questions Which",
+   "questions which",
+   "ocr"
+  ],
+  [
+   45,
+   " [see A/4183]",
+   "",
+   "label"
+  ],
+  [
+   106,
+   " [ 814th meeting]",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "African Country",
+   "African country",
+   "ocr"
+  ],
+  [
+   72,
+   "countries, likely",
+   "countries likely",
+   "ocr"
+  ],
+  [
+   74,
+   "the# could",
+   "they could",
+   "ocr"
+  ],
+  [
+   76,
+   "getting, rid",
+   "getting rid",
+   "ocr"
+  ],
+  [
+   91,
+   "offices,",
+   "offices.",
+   "ocr"
+  ],
+  [
+   120,
+   "the fact of decisions",
+   "the face of decisions",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9725ca4091da03bce4dde8e99fbd85bb7442e93a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 47
+  },
+  "words_in": 4606,
+  "words_out": 4601,
+  "retention": 0.9989,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   93,
+   89,
+   102,
+   93,
+   97,
+   98,
+   61,
+   100,
+   211,
+   127,
+   188,
+   108,
+   87,
+   85,
+   203,
+   95,
+   115,
+   155,
+   155,
+   101,
+   84,
+   110,
+   79,
+   99,
+   103,
+   106,
+   88,
+   100,
+   116,
+   79,
+   96,
+   137,
+   77,
+   98,
+   98,
+   220,
+   79,
+   156,
+   148,
+   165
+  ],
+  "warnings": []
+ }
+}

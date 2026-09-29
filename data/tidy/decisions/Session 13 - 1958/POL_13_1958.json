@@ -1,0 +1,145 @@
+{
+ "id": "POL_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  15,
+  21,
+  25,
+  28,
+  36,
+  39,
+  44,
+  50,
+  59,
+  64,
+  69,
+  73,
+  79,
+  85,
+  94,
+  101,
+  104
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "International scene",
+   "international scene",
+   "ocr"
+  ],
+  [
+   10,
+   "elsewhere, I have",
+   "elsewhere. I have",
+   "ocr"
+  ],
+  [
+   15,
+   "Intervention",
+   "intervention",
+   "ocr"
+  ],
+  [
+   16,
+   " [resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   19,
+   " [A/3984/ Rev.1]",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "It Is",
+   "It is",
+   "ocr"
+  ],
+  [
+   24,
+   "methods)",
+   "methods,",
+   "ocr"
+  ],
+  [
+   30,
+   "for rise",
+   "for use",
+   "ocr"
+  ],
+  [
+   35,
+   "Inescapable",
+   "inescapable",
+   "ocr"
+  ],
+  [
+   52,
+   "even If",
+   "even if",
+   "ocr"
+  ],
+  [
+   56,
+   "Interest",
+   "interest",
+   "ocr"
+  ],
+  [
+   65,
+   "]. which",
+   "], which",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef474fff05bc2e36686df6197c9ad45a95f4f730",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 35
+  },
+  "words_in": 3014,
+  "words_out": 3007,
+  "retention": 0.9977,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   98,
+   65,
+   93,
+   124,
+   90,
+   148,
+   121,
+   97,
+   207,
+   102,
+   117,
+   149,
+   202,
+   134,
+   113,
+   135,
+   187,
+   188,
+   231,
+   208,
+   116,
+   82
+  ],
+  "warnings": []
+ }
+}

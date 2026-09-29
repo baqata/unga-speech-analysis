@@ -1,0 +1,53 @@
+{
+ "id": "DEU_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  42,
+  58,
+  90,
+  120,
+  142,
+  158,
+  180,
+  206,
+  219,
+  239,
+  254
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f3794d393617445e01d64cc693167bc61e85848",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2136,
+  "words_out": 2136,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   170,
+   145,
+   129,
+   235,
+   236,
+   168,
+   126,
+   160,
+   205,
+   94,
+   154,
+   118,
+   196
+  ],
+  "warnings": []
+ }
+}

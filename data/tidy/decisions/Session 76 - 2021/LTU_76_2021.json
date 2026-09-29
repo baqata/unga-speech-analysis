@@ -1,0 +1,64 @@
+{
+ "id": "LTU_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  18,
+  23,
+  27,
+  36,
+  40,
+  47,
+  51,
+  56,
+  59,
+  62,
+  66,
+  70,
+  78
+ ],
+ "cer": [],
+ "fix": [
+  [
+   69,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34ab9b86158ba08606dc06ce3cb680fae104a2dd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1704,
+  "words_out": 1701,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   118,
+   80,
+   107,
+   142,
+   64,
+   149,
+   105,
+   129,
+   80,
+   89,
+   59,
+   99,
+   101,
+   104,
+   148,
+   127
+  ],
+  "warnings": []
+ }
+}

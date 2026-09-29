@@ -1,0 +1,131 @@
+{
+ "id": "TUR_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  15,
+  18,
+  26,
+  30,
+  38,
+  45,
+  54,
+  58,
+  63,
+  69,
+  77,
+  82,
+  87,
+  92,
+  96,
+  103,
+  106,
+  115,
+  122,
+  129,
+  136,
+  145
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   41,
+   "will- pave",
+   "will pave",
+   "ocr"
+  ],
+  [
+   53,
+   "potential clangers",
+   "potential dangers",
+   "ocr"
+  ],
+  [
+   55,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   86,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   "un-abatable",
+   "unabatable",
+   "hyphen"
+  ],
+  [
+   96,
+   "con-fronted",
+   "confronted",
+   "hyphen"
+  ],
+  [
+   110,
+   "large- scale",
+   "large-scale",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1c112f8e48cec7e427a340e6ff40159d536d1e2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 53
+  },
+  "words_in": 3895,
+  "words_out": 3891,
+  "retention": 0.999,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   87,
+   117,
+   116,
+   126,
+   77,
+   200,
+   98,
+   172,
+   182,
+   174,
+   221,
+   94,
+   162,
+   239,
+   81,
+   162,
+   139,
+   106,
+   172,
+   56,
+   179,
+   190,
+   249,
+   217,
+   205,
+   70
+  ],
+  "warnings": []
+ }
+}

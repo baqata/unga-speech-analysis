@@ -1,0 +1,82 @@
+{
+ "id": "SEN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  11,
+  14,
+  17,
+  20,
+  25,
+  29,
+  31,
+  36,
+  39,
+  43,
+  45,
+  49,
+  54,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ],
+  [
+   40,
+   "2016.I",
+   "2016. I",
+   "spacing"
+  ],
+  [
+   58,
+   "(A/54/PV.94, pp. 3-4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8fc7ac445204691aaf3caabf3089d8c49e4b336b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1812,
+  "words_out": 1809,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   102,
+   98,
+   88,
+   81,
+   94,
+   111,
+   74,
+   159,
+   127,
+   91,
+   139,
+   80,
+   148,
+   67,
+   112,
+   95,
+   91,
+   52
+  ],
+  "warnings": []
+ }
+}

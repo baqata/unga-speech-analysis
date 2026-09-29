@@ -1,0 +1,52 @@
+{
+ "id": "NLD_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  13,
+  19,
+  23
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "\"We",
+   "We",
+   "ocr"
+  ],
+  [
+   20,
+   "are.",
+   "are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5d9c32c499b7c23b7f8cf1ed15b62f7643df1852",
+ "layout": "lines",
+ "stats": {
+  "n_units": 27,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 728,
+  "words_out": 728,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   86,
+   93,
+   89,
+   85,
+   143,
+   115,
+   117
+  ],
+  "warnings": []
+ }
+}

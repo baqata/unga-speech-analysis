@@ -1,0 +1,85 @@
+{
+ "id": "SAU_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  13,
+  15,
+  18,
+  21,
+  26,
+  29,
+  35,
+  39,
+  42,
+  45,
+  49,
+  56,
+  58,
+  62
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "membership-a",
+   "membership—a",
+   "ocr"
+  ],
+  [
+   19,
+   "a5 defined",
+   "as defined",
+   "ocr"
+  ],
+  [
+   49,
+   "peace \"based",
+   "peace based",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cae4c051bcc09ae9fc11dda0c4790a860f7de83c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2308,
+  "words_out": 2308,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   144,
+   76,
+   102,
+   116,
+   83,
+   99,
+   93,
+   230,
+   140,
+   237,
+   106,
+   95,
+   69,
+   102,
+   181,
+   96,
+   120,
+   219
+  ],
+  "warnings": []
+ }
+}

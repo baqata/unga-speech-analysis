@@ -1,0 +1,71 @@
+{
+ "id": "TON_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  21,
+  30,
+  45,
+  58,
+  69,
+  87,
+  105,
+  120,
+  132,
+  148,
+  168,
+  188
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   6,
+   "Diess",
+   "Deiss",
+   "ocr"
+  ],
+  [
+   63,
+   "(S/PRST/2011/15*)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac3844346e5d9209912edc007f2180a99fb0cdef",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1531,
+  "words_out": 1525,
+  "retention": 0.9961,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   101,
+   69,
+   71,
+   109,
+   103,
+   88,
+   143,
+   150,
+   120,
+   108,
+   139,
+   150,
+   141,
+   33
+  ],
+  "warnings": []
+ }
+}

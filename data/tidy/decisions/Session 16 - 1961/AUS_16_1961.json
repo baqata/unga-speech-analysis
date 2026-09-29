@@ -1,0 +1,255 @@
+{
+ "id": "AUS_16_1961",
+ "drop": [
+  [
+   65,
+   65,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  14,
+  20,
+  27,
+  36,
+  41,
+  54,
+  61,
+  69,
+  73,
+  82,
+  90,
+  97,
+  105,
+  112,
+  118,
+  126,
+  131,
+  137,
+  144,
+  151,
+  156,
+  162,
+  167,
+  172,
+  178,
+  182,
+  190,
+  197,
+  204,
+  211,
+  215,
+  222,
+  225,
+  234,
+  243,
+  252
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Is a",
+   "is a",
+   "ocr"
+  ],
+  [
+   10,
+   "It Is largely",
+   "it is largely",
+   "ocr"
+  ],
+  [
+   19,
+   "Mr, Kennedy",
+   "Mr. Kennedy",
+   "ocr"
+  ],
+  [
+   40,
+   "I 'am",
+   "I am",
+   "ocr"
+  ],
+  [
+   44,
+   "b^",
+   "be",
+   "ocr"
+  ],
+  [
+   90,
+   "his happened",
+   "has happened",
+   "ocr"
+  ],
+  [
+   128,
+   "Mr, Hammarskjold",
+   "Mr. Hammarskjold",
+   "ocr"
+  ],
+  [
+   144,
+   "There, are",
+   "There are",
+   "ocr"
+  ],
+  [
+   194,
+   "take Its place",
+   "take its place",
+   "ocr"
+  ],
+  [
+   203,
+   "- Zealand",
+   "Zealand",
+   "ocr"
+  ],
+  [
+   204,
+   "109, ",
+   "",
+   "label"
+  ],
+  [
+   210,
+   "hag been",
+   "has been",
+   "ocr"
+  ],
+  [
+   212,
+   " [1016th meet-ting]",
+   "",
+   "label"
+  ],
+  [
+   222,
+   "112, ",
+   "",
+   "label"
+  ],
+  [
+   223,
+   "conference U which",
+   "conference which",
+   "ocr"
+  ],
+  [
+   225,
+   "possible In a",
+   "possible in a",
+   "ocr"
+  ],
+  [
+   233,
+   "to he held",
+   "to be held",
+   "ocr"
+  ],
+  [
+   235,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   240,
+   "countries In the",
+   "countries in the",
+   "ocr"
+  ],
+  [
+   251,
+   "the -victims",
+   "the victims",
+   "ocr"
+  ],
+  [
+   35,
+   "today,",
+   "today.",
+   "ocr"
+  ],
+  [
+   130,
+   "nature,",
+   "nature.",
+   "ocr"
+  ],
+  [
+   161,
+   "power,",
+   "power.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5dacfea4b019d993382202eed506994d396172d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 38
+  },
+  "words_in": 6482,
+  "words_out": 6443,
+  "retention": 0.994,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   114,
+   258,
+   172,
+   119,
+   229,
+   149,
+   239,
+   186,
+   190,
+   147,
+   290,
+   146,
+   205,
+   210,
+   188,
+   137,
+   253,
+   127,
+   210,
+   180,
+   193,
+   94,
+   134,
+   112,
+   190,
+   108,
+   106,
+   147,
+   161,
+   169,
+   163,
+   130,
+   227,
+   118,
+   188,
+   205,
+   162,
+   87
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

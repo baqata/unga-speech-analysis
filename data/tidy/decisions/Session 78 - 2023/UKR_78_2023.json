@@ -1,0 +1,154 @@
+{
+ "id": "UKR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  24,
+  32,
+  43,
+  52,
+  61,
+  72,
+  76,
+  83,
+  90,
+  95
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "war. the final war. was",
+   "war, the final war, was",
+   "ocr"
+  ],
+  [
+   18,
+   "war. the",
+   "war, the",
+   "ocr"
+  ],
+  [
+   19,
+   "now. our",
+   "now, our",
+   "ocr"
+  ],
+  [
+   20,
+   "all. of",
+   "all, of",
+   "ocr"
+  ],
+  [
+   27,
+   "now. when",
+   "now, when",
+   "ocr"
+  ],
+  [
+   39,
+   "it. and",
+   "it, and",
+   "ocr"
+  ],
+  [
+   53,
+   "decade.",
+   "decade,",
+   "ocr"
+  ],
+  [
+   59,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ],
+  [
+   66,
+   "God. people",
+   "God, people",
+   "ocr"
+  ],
+  [
+   69,
+   "Morocco.",
+   "Morocco,",
+   "ocr"
+  ],
+  [
+   74,
+   "one. but",
+   "one, but",
+   "ocr"
+  ],
+  [
+   76,
+   "annex I).",
+   "annex I),",
+   "ocr"
+  ],
+  [
+   76,
+   "(see A/77/PV.7. annex I)",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "Indonesia.",
+   "Indonesia,",
+   "ocr"
+  ],
+  [
+   88,
+   "happens.",
+   "happens,",
+   "ocr"
+  ],
+  [
+   91,
+   "Hiroshima.",
+   "Hiroshima,",
+   "ocr"
+  ],
+  [
+   95,
+   "war.",
+   "war,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e507c439d061feb8f212bed1da8dab41e69986b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1570,
+  "words_out": 1565,
+  "retention": 0.9968,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   170,
+   109,
+   95,
+   154,
+   139,
+   119,
+   109,
+   192,
+   95,
+   77,
+   142,
+   93,
+   71
+  ],
+  "warnings": []
+ }
+}

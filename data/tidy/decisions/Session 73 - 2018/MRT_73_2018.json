@@ -1,0 +1,62 @@
+{
+ "id": "MRT_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  16,
+  19,
+  26,
+  30,
+  39,
+  46,
+  49,
+  54,
+  58,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   46,
+   " (see A/73/PV.4 and 5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0415b52908a10784aedd8c44535fbf21070e31bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1848,
+  "words_out": 1844,
+  "retention": 0.9978,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   146,
+   96,
+   138,
+   97,
+   86,
+   208,
+   117,
+   238,
+   173,
+   89,
+   140,
+   91,
+   166,
+   59
+  ],
+  "warnings": []
+ }
+}

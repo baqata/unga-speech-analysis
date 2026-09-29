@@ -1,0 +1,62 @@
+{
+ "id": "GIN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  26,
+  40,
+  56,
+  73,
+  90,
+  106,
+  120,
+  132,
+  144,
+  160,
+  173,
+  193,
+  201,
+  224
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e43b7a132fbb49dda27d165ffd9ac4fd0171c76a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1772,
+  "words_out": 1770,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   123,
+   80,
+   99,
+   120,
+   124,
+   131,
+   127,
+   103,
+   87,
+   77,
+   129,
+   95,
+   152,
+   63,
+   170,
+   90
+  ],
+  "warnings": []
+ }
+}

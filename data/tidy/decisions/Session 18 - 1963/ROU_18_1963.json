@@ -1,0 +1,152 @@
+{
+ "id": "ROU_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  13,
+  18,
+  22,
+  27,
+  32,
+  34,
+  36,
+  40,
+  43,
+  49,
+  52,
+  56,
+  61,
+  67,
+  72,
+  78,
+  82,
+  87,
+  90,
+  94,
+  99,
+  103,
+  108,
+  113,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   " [ibid., par a. 72]",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "resource's",
+   "resources",
+   "ocr"
+  ],
+  [
+   19,
+   "It was In this",
+   "It was in this",
+   "ocr"
+  ],
+  [
+   29,
+   " (see 1208th meeting, para. 130)",
+   "",
+   "label"
+  ],
+  [
+   33,
+   " (ibid., para. 137)",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "Germany, In this",
+   "Germany. In this",
+   "ocr"
+  ],
+  [
+   51,
+   " [item 74],",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "humanity,",
+   "humanity.",
+   "ocr"
+  ],
+  [
+   97,
+   "many- sided",
+   "many-sided",
+   "spacing"
+  ],
+  [
+   101,
+   "15,8 per",
+   "15.8 per",
+   "ocr"
+  ],
+  [
+   115,
+   " [item 47]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "00e05c5f717965caaad718fc999f8cbea2174820",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3554,
+  "words_out": 3489,
+  "retention": 0.9817,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   35,
+   181,
+   143,
+   141,
+   125,
+   95,
+   193,
+   72,
+   82,
+   120,
+   105,
+   167,
+   91,
+   105,
+   206,
+   125,
+   112,
+   131,
+   104,
+   133,
+   108,
+   132,
+   137,
+   112,
+   108,
+   137,
+   152,
+   137
+  ],
+  "warnings": []
+ }
+}

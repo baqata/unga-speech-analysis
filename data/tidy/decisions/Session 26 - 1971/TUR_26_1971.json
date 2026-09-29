@@ -1,0 +1,208 @@
+{
+ "id": "TUR_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  8,
+  13,
+  18,
+  23,
+  27,
+  31,
+  33,
+  39,
+  50,
+  53,
+  56,
+  62,
+  66,
+  70,
+  73,
+  79,
+  87,
+  89,
+  93,
+  96,
+  99,
+  102,
+  107,
+  110
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "President^ Edvard",
+   "President, Edvard",
+   "ocr"
+  ],
+  [
+   3,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   10,
+   "talking place",
+   "taking place",
+   "ocr"
+  ],
+  [
+   10,
+   "problems, The Moscow",
+   "problems. The Moscow",
+   "ocr"
+  ],
+  [
+   24,
+   "to \"Ambassador",
+   "to Ambassador",
+   "ocr"
+  ],
+  [
+   27,
+   "feeling cf sorrow",
+   "feeling of sorrow",
+   "ocr"
+  ],
+  [
+   28,
+   "our Organization,",
+   "our Organization.",
+   "ocr"
+  ],
+  [
+   32,
+   "interested- ill greet",
+   "interested- will greet",
+   "ocr"
+  ],
+  [
+   37,
+   " [UNFICYP]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "125. ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   " [A/8457-DC/234, annex A]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "noticeably .",
+   "noticeably.",
+   "spacing"
+  ],
+  [
+   72,
+   "one jman",
+   "one man",
+   "ocr"
+  ],
+  [
+   76,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   " [item 41]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "non- reciprocal",
+   "non-reciprocal",
+   "hyphen"
+  ],
+  [
+   86,
+   "arrangement .",
+   "arrangement.",
+   "spacing"
+  ],
+  [
+   90,
+   "be-tween",
+   "between",
+   "hyphen"
+  ],
+  [
+   110,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   111,
+   " [Al8401lAdcU, para. 139]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 39-43 interleave two columns: the end of the Middle East passage ('...in his difficult' at unit 24, then 'mission.', 'We do hope that the co-ordinated efforts of all parties and the realistic attitude of the Arab Republic of Egypt will pave the way to a just settlement') is mixed line by line with the opening of the disarmament passage ('We proclaimed the 1970s as the Disarmament Decade. One cannot underestimate the importance of this issue. It concerns not only progress towards a better world, but also the very survival of mankind.'). Kept in source order; unit 24 therefore ends without its last word.",
+ "unitizer_version": 1,
+ "sha1": "cbeaa9f052b2f162274e0fc915664ab70ab7513a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3038,
+  "words_out": 3019,
+  "retention": 0.9937,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   85,
+   35,
+   108,
+   127,
+   132,
+   127,
+   130,
+   133,
+   60,
+   201,
+   188,
+   73,
+   85,
+   135,
+   119,
+   122,
+   104,
+   117,
+   136,
+   62,
+   129,
+   118,
+   74,
+   91,
+   169,
+   85,
+   74
+  ],
+  "warnings": []
+ }
+}

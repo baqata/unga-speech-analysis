@@ -1,0 +1,165 @@
+{
+ "id": "GBR_30_1975",
+ "drop": [
+  [
+   70,
+   70,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  14,
+  22,
+  32,
+  35,
+  40,
+  44,
+  47,
+  52,
+  56,
+  59,
+  61,
+  64,
+  71,
+  84,
+  90,
+  96,
+  101,
+  108,
+  116,
+  119
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   43,
+   "solution,",
+   "solution.",
+   "ocr"
+  ],
+  [
+   44,
+   "Wald- heim",
+   "Waldheim",
+   "hyphen"
+  ],
+  [
+   48,
+   "itself, Therefore",
+   "itself. Therefore",
+   "ocr"
+  ],
+  [
+   53,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   72,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   90,
+   " [A!",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "10241, annex]",
+   "",
+   "label"
+  ],
+  [
+   95,
+   " [A/10243, annex]",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "pro-duce",
+   "produce",
+   "hyphen"
+  ],
+  [
+   108,
+   "[IAEA],",
+   "[IAEA].",
+   "ocr"
+  ],
+  [
+   108,
+   " [IAEA]",
+   "",
+   "label"
+  ],
+  [
+   117,
+   "non- proliferation",
+   "non-proliferation",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a456c5635fcd9eb8a79b1b59e067bd25cdef5b5b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3218,
+  "words_out": 3206,
+  "retention": 0.9963,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   107,
+   93,
+   77,
+   191,
+   192,
+   229,
+   83,
+   124,
+   82,
+   110,
+   134,
+   132,
+   117,
+   93,
+   72,
+   133,
+   234,
+   138,
+   97,
+   148,
+   179,
+   168,
+   84,
+   189
+  ],
+  "warnings": []
+ }
+}

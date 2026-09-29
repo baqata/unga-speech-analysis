@@ -1,0 +1,212 @@
+{
+ "id": "LKA_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   109,
+   109,
+   "noise"
+  ],
+  [
+   110,
+   111,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  11,
+  17,
+  21,
+  26,
+  32,
+  38,
+  41,
+  48,
+  53,
+  65,
+  68,
+  70,
+  74,
+  78,
+  84,
+  89,
+  91,
+  97,
+  103,
+  108
+ ],
+ "cer": [
+  1,
+  108
+ ],
+ "fix": [
+  [
+   2,
+   "Khalilu Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   2,
+   "Season",
+   "Session",
+   "asr_term"
+  ],
+  [
+   4,
+   "Baibok",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   4,
+   "18th",
+   "80th",
+   "asr_term"
+  ],
+  [
+   13,
+   "Andrakumar Adhisanayaka",
+   "Anura Kumara Dissanayake",
+   "asr_name"
+  ],
+  [
+   23,
+   " it.",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "carbon utility",
+   "carbon neutrality",
+   "asr_term"
+  ],
+  [
+   41,
+   "Perrin",
+   "peril",
+   "asr_term"
+  ],
+  [
+   46,
+   "Disanayaka",
+   "Dissanayake",
+   "asr_name"
+  ],
+  [
+   51,
+   "should see",
+   "should seek",
+   "asr_term"
+  ],
+  [
+   67,
+   "vote-on",
+   "war-torn",
+   "asr_term"
+  ],
+  [
+   72,
+   "civil commitment",
+   "Sevilla Commitment",
+   "asr_name"
+  ],
+  [
+   78,
+   "helped save",
+   "helped shape",
+   "asr_term"
+  ],
+  [
+   90,
+   "the rest of",
+   "the arrest of",
+   "asr_term"
+  ],
+  [
+   102,
+   "UN-8",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   65,
+   "peacekeeping. in",
+   "peacekeeping in",
+   "asr_term"
+  ],
+  [
+   88,
+   "interference. substantial",
+   "interference. Substantial",
+   "asr_term"
+  ],
+  [
+   9,
+   "outpays",
+   "outpace",
+   "asr_term"
+  ],
+  [
+   21,
+   "Dittwa",
+   "Ditwah",
+   "asr_name"
+  ],
+  [
+   10,
+   "resolve",
+   "serve",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Khalilur Rahman, Baerbock and UN80 as in earlier batches (un.org); President Anura Kumara Dissanayake (Spanish Anura Kumara Dishanaika; official name); octogesimo, neutralidad carbonica, atender, buscar, asoladas por la guerra, Compromiso de Sevilla, moldear, arresto per Spanish. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 10 repair of 'resolve' withdrawn (the speaker's English, heard at p 0.98-0.99 in three re-decodes; it does not sound like 'serve'; 'atender' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 65 'peacekeeping. in' -> 'peacekeeping in'; unit 88 'interference. substantial' -> 'interference. Substantial'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 9 'outpays' -> 'outpace' ('outpays' sounds the same as 'outpace' but does not fit; ES 'Crisis humanitarias que rebasan la disponibilidad de recursos'); spot 6 unit 21 'Dittwa' -> 'Ditwah' (Cyclone Ditwah struck Sri Lanka in November 2025 (published name); decodes 'Dithwa' 0.64/0.61, ES 'Ditwa'; ours and UN 'Dittha' misspell it). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 10 said 'distant from the people they are meant to resolve' (p 0.98-0.99), which does not fit; the Spanish 'la gente a la que tienen que atender' shows 'serve'.",
+ "unitizer_version": 1,
+ "sha1": "c680d4df0fa071b04b01e52c6c72a8503e69e6f9",
+ "layout": "single",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2307,
+  "words_out": 2276,
+  "retention": 0.9866,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   99,
+   116,
+   114,
+   101,
+   75,
+   71,
+   129,
+   96,
+   134,
+   95,
+   196,
+   89,
+   60,
+   80,
+   92,
+   136,
+   117,
+   61,
+   120,
+   165,
+   125,
+   5
+  ],
+  "warnings": []
+ }
+}

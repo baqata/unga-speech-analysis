@@ -1,0 +1,54 @@
+{
+ "id": "SVK_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  17,
+  23,
+  27,
+  30,
+  34,
+  37,
+  43,
+  49
+ ],
+ "cer": [
+  0,
+  49
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e0e9aace0fe4d2ff76e49d6f8a4b8de53b3228e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1003,
+  "words_out": 1003,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   16,
+   85,
+   68,
+   97,
+   82,
+   72,
+   109,
+   93,
+   98,
+   70,
+   107,
+   104,
+   2
+  ],
+  "warnings": []
+ }
+}

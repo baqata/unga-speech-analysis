@@ -1,0 +1,49 @@
+{
+ "id": "BEL_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  42,
+  56,
+  81,
+  96,
+  125,
+  141,
+  157,
+  178,
+  199
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "400a8ca25c7d0e294ff4d6ed01b90a3d31174aa9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1694,
+  "words_out": 1692,
+  "retention": 0.9988,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   169,
+   131,
+   102,
+   207,
+   124,
+   216,
+   143,
+   123,
+   158,
+   154,
+   165
+  ],
+  "warnings": []
+ }
+}

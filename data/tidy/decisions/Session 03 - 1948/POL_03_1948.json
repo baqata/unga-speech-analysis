@@ -1,0 +1,98 @@
+{
+ "id": "POL_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  15,
+  19,
+  23,
+  29,
+  35,
+  39,
+  45,
+  49,
+  59,
+  62,
+  71,
+  79,
+  83,
+  88,
+  95,
+  98,
+  103,
+  110,
+  117,
+  124,
+  130
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "of me problem",
+   "of the problem",
+   "ocr"
+  ],
+  [
+   15,
+   "19 48",
+   "1948",
+   "spacing"
+  ],
+  [
+   113,
+   "expanses",
+   "expenses",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "e99d4d3814f3a1bc286da7f12e0e1007f932a22e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3808,
+  "words_out": 3806,
+  "retention": 0.9995,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   69,
+   167,
+   189,
+   108,
+   120,
+   113,
+   148,
+   210,
+   131,
+   177,
+   137,
+   261,
+   60,
+   190,
+   212,
+   105,
+   98,
+   164,
+   88,
+   135,
+   133,
+   190,
+   247,
+   191,
+   163
+  ],
+  "warnings": []
+ }
+}

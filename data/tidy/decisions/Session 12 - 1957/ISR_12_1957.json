@@ -1,0 +1,144 @@
+{
+ "id": "ISR_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  14,
+  25,
+  32,
+  35,
+  39,
+  44,
+  48,
+  52,
+  59,
+  69,
+  70,
+  75,
+  79,
+  85,
+  89,
+  91,
+  94,
+  100,
+  107,
+  117,
+  122,
+  126,
+  135,
+  140,
+  146,
+  152,
+  157,
+  163,
+  175,
+  185,
+  189,
+  194
+ ],
+ "cer": [
+  0,
+  189
+ ],
+ "fix": [
+  [
+   6,
+   "is it rot tragic",
+   "is it not tragic",
+   "ocr"
+  ],
+  [
+   34,
+   "Their failed",
+   "They failed",
+   "ocr"
+  ],
+  [
+   60,
+   "destroying Israel,",
+   "destroying Israel.",
+   "ocr"
+  ],
+  [
+   71,
+   " [682nd meeting, para. 181",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "But tins figure",
+   "But this figure",
+   "ocr"
+  ],
+  [
+   173,
+   "Middle last",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   194,
+   "struggle, or achievement",
+   "struggle, of achievement",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19a6d4fba41e0a194675f16860c82da4512a77c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 41
+  },
+  "words_in": 4996,
+  "words_out": 4992,
+  "retention": 0.9992,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   129,
+   178,
+   107,
+   298,
+   137,
+   88,
+   69,
+   144,
+   113,
+   70,
+   211,
+   282,
+   88,
+   187,
+   117,
+   185,
+   79,
+   65,
+   68,
+   144,
+   129,
+   247,
+   182,
+   81,
+   235,
+   108,
+   129,
+   140,
+   147,
+   174,
+   150,
+   165,
+   91,
+   150,
+   105
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "id": "MAR_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  19,
+  26,
+  33,
+  41,
+  48,
+  55,
+  60,
+  67,
+  71,
+  79,
+  82,
+  86,
+  90,
+  97,
+  101,
+  106
+ ],
+ "cer": [
+  12,
+  106
+ ],
+ "fix": [
+  [
+   1,
+   "threat of' a",
+   "threat of a",
+   "ocr"
+  ],
+  [
+   7,
+   "the mist powerful",
+   "the most powerful",
+   "ocr"
+  ],
+  [
+   25,
+   "therefore! that",
+   "therefore, that",
+   "ocr"
+  ],
+  [
+   40,
+   "the Interests of",
+   "the interests of",
+   "ocr"
+  ],
+  [
+   94,
+   "but It is",
+   "but it is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a5654b4b0f39415be57a5be69149afeec1595268",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3362,
+  "words_out": 3332,
+  "retention": 0.9911,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   157,
+   181,
+   224,
+   148,
+   186,
+   196,
+   216,
+   186,
+   195,
+   189,
+   123,
+   243,
+   236,
+   70,
+   102,
+   297,
+   121,
+   148,
+   114
+  ],
+  "warnings": []
+ }
+}

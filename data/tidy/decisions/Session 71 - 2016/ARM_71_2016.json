@@ -1,0 +1,55 @@
+{
+ "id": "ARM_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  15,
+  24,
+  26,
+  30,
+  33,
+  35,
+  38,
+  44,
+  49,
+  53,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dfea7dfc2bfcdd0e95290ed53036c7db381b46bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1524,
+  "words_out": 1516,
+  "retention": 0.9948,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   46,
+   162,
+   101,
+   192,
+   72,
+   109,
+   93,
+   78,
+   63,
+   142,
+   150,
+   106,
+   120,
+   82
+  ],
+  "warnings": []
+ }
+}

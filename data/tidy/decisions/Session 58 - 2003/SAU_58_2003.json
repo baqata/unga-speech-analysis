@@ -1,0 +1,64 @@
+{
+ "id": "SAU_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  31,
+  49,
+  61,
+  87,
+  109,
+  123,
+  140,
+  158,
+  175,
+  192,
+  216,
+  225
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "d''tre",
+   "d'être",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9288321662c5e8f31062ac42523ee76ca648c0fc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 236,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1878,
+  "words_out": 1876,
+  "retention": 0.9989,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   139,
+   126,
+   136,
+   94,
+   195,
+   156,
+   117,
+   131,
+   147,
+   143,
+   139,
+   188,
+   73,
+   92
+  ],
+  "warnings": []
+ }
+}

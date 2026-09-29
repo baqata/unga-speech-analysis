@@ -1,0 +1,312 @@
+{
+ "id": "RUS_27_1972",
+ "drop": [
+  [
+   29,
+   29,
+   "noise"
+  ],
+  [
+   132,
+   132,
+   "procedural"
+  ],
+  [
+   244,
+   244,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  18,
+  21,
+  27,
+  32,
+  37,
+  42,
+  49,
+  52,
+  56,
+  63,
+  66,
+  69,
+  73,
+  80,
+  85,
+  89,
+  94,
+  99,
+  101,
+  104,
+  107,
+  111,
+  118,
+  123,
+  126,
+  133,
+  137,
+  140,
+  143,
+  146,
+  152,
+  157,
+  163,
+  165,
+  169,
+  175,
+  179,
+  183,
+  189,
+  195,
+  198,
+  200,
+  204,
+  210,
+  211,
+  215,
+  221,
+  227,
+  236,
+  239,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   "peace- building",
+   "peace-building",
+   "spacing"
+  ],
+  [
+   15,
+   ".external",
+   "external",
+   "ocr"
+  ],
+  [
+   16,
+   "Twenty- fourth",
+   "Twenty-fourth",
+   "spacing"
+  ],
+  [
+   46,
+   "- Our",
+   "Our",
+   "ocr"
+  ],
+  [
+   46,
+   "wife a different",
+   "with a different",
+   "ocr"
+  ],
+  [
+   56,
+   "oh the eve",
+   "on the eve",
+   "ocr"
+  ],
+  [
+   65,
+   "TTiose",
+   "Those",
+   "ocr"
+  ],
+  [
+   71,
+   "70 ",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "stockpiling bf",
+   "stockpiling of",
+   "ocr"
+  ],
+  [
+   83,
+   "weapons js",
+   "weapons is",
+   "ocr"
+  ],
+  [
+   88,
+   " [Article 2]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "79. ",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "80. ",
+   "",
+   "label"
+  ],
+  [
+   103,
+   "the: use",
+   "the use",
+   "ocr"
+  ],
+  [
+   140,
+   "basis \"of it",
+   "basis of it",
+   "ocr"
+  ],
+  [
+   159,
+   "Viet-Nam. put",
+   "Viet-Nam, put",
+   "ocr"
+  ],
+  [
+   204,
+   " [item 26]",
+   "",
+   "label"
+  ],
+  [
+   210,
+   " [item 35]",
+   "",
+   "label"
+  ],
+  [
+   210,
+   ", This",
+   ". This",
+   "ocr"
+  ],
+  [
+   219,
+   " [item 37]",
+   "",
+   "label"
+  ],
+  [
+   230,
+   " [A/8752 and Add.",
+   "",
+   "label"
+  ],
+  [
+   231,
+   "1-10]",
+   "",
+   "label"
+  ],
+  [
+   243,
+   "139, ",
+   "",
+   "label"
+  ],
+  [
+   247,
+   "by. the",
+   "by the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6b560eee0a0d5929ebf46a36a1d7c98602665ed2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {
+   "noise": 2,
+   "procedural": 1
+  },
+  "prestrip": {
+   "paragraph_number": 98
+  },
+  "words_in": 7638,
+  "words_out": 7564,
+  "retention": 0.9903,
+  "n_paragraphs": 55,
+  "paragraph_words": [
+   141,
+   84,
+   129,
+   174,
+   94,
+   172,
+   123,
+   205,
+   141,
+   195,
+   72,
+   138,
+   190,
+   73,
+   72,
+   150,
+   189,
+   146,
+   195,
+   205,
+   160,
+   85,
+   89,
+   110,
+   101,
+   207,
+   185,
+   91,
+   171,
+   106,
+   85,
+   125,
+   86,
+   189,
+   148,
+   188,
+   70,
+   126,
+   151,
+   98,
+   152,
+   177,
+   182,
+   84,
+   76,
+   123,
+   132,
+   62,
+   151,
+   181,
+   154,
+   236,
+   103,
+   154,
+   138
+  ],
+  "warnings": [
+   "procedural drop [132,132] in the middle of the speech",
+   "25 fixes"
+  ]
+ }
+}

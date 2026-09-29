@@ -1,0 +1,47 @@
+{
+ "id": "OMN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  36,
+  55,
+  69,
+  85,
+  108,
+  127,
+  151
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5dc36cca99fa4cce8c409d0dc783eb0df67329a7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1242,
+  "words_out": 1241,
+  "retention": 0.9992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   109,
+   173,
+   151,
+   112,
+   119,
+   184,
+   151,
+   182,
+   60
+  ],
+  "warnings": []
+ }
+}

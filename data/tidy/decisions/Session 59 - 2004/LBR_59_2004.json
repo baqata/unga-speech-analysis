@@ -1,0 +1,62 @@
+{
+ "id": "LBR_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  26,
+  46,
+  68,
+  78,
+  90,
+  100,
+  122,
+  143,
+  153,
+  164,
+  181,
+  197,
+  211
+ ],
+ "cer": [],
+ "fix": [
+  [
+   27,
+   "singed",
+   "signed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4fb60af1f33e0dfdc87c2d5fa28ecf743445c01",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1723,
+  "words_out": 1720,
+  "retention": 0.9983,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   196,
+   138,
+   137,
+   75,
+   96,
+   78,
+   169,
+   153,
+   83,
+   81,
+   129,
+   123,
+   119,
+   143
+  ],
+  "warnings": []
+ }
+}

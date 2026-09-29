@@ -1,0 +1,62 @@
+{
+ "id": "SVK_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  19,
+  32,
+  41,
+  50,
+  60,
+  66,
+  70,
+  76
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   15,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "540aa67d4b6ecffbd514b7228c79d952e3b093ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1358,
+  "words_out": 1357,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   61,
+   120,
+   67,
+   84,
+   122,
+   114,
+   152,
+   162,
+   134,
+   62,
+   100,
+   179
+  ],
+  "warnings": []
+ }
+}

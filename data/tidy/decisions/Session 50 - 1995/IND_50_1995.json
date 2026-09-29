@@ -1,0 +1,110 @@
+{
+ "id": "IND_50_1995",
+ "drop": [
+  [
+   166,
+   166,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  32,
+  51,
+  75,
+  91,
+  117,
+  135,
+  145,
+  154,
+  167,
+  183,
+  194,
+  202,
+  218,
+  228,
+  241,
+  257,
+  271,
+  281,
+  299,
+  308,
+  324,
+  341,
+  355,
+  370,
+  380,
+  390,
+  397
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   414,
+   "(Plenary Verbatim Records, Third Session, General",
+   "",
+   "label"
+  ],
+  [
+   415,
+   "Assembly, 154th meeting, p. 16)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eab30eccd776145c3babb354eaa4c48860e4db9d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 420,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3690,
+  "words_out": 3671,
+  "retention": 0.9949,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   74,
+   227,
+   166,
+   214,
+   146,
+   229,
+   132,
+   77,
+   70,
+   110,
+   142,
+   105,
+   66,
+   146,
+   79,
+   106,
+   149,
+   132,
+   93,
+   146,
+   79,
+   132,
+   152,
+   119,
+   133,
+   74,
+   105,
+   78,
+   190
+  ],
+  "warnings": [
+   "procedural drop [166,166] in the middle of the speech"
+  ]
+ }
+}

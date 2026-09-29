@@ -1,0 +1,106 @@
+{
+ "id": "SSD_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  9,
+  13,
+  17,
+  20,
+  25,
+  28,
+  34,
+  39,
+  44,
+  48,
+  51,
+  53,
+  56,
+  59,
+  62,
+  67,
+  70,
+  75
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   19,
+   "thirty- second",
+   "thirty-second",
+   "hyphen"
+  ],
+  [
+   51,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   58,
+   "grass- roots",
+   "grass-roots",
+   "hyphen"
+  ],
+  [
+   5,
+   " (see A/73/PV.4 et seq.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "25c086892f5d2c92fc93b3de3a5d37166b800d38",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2372,
+  "words_out": 2361,
+  "retention": 0.9954,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   103,
+   78,
+   46,
+   70,
+   138,
+   158,
+   127,
+   217,
+   87,
+   202,
+   132,
+   90,
+   101,
+   112,
+   61,
+   85,
+   67,
+   92,
+   100,
+   89,
+   154,
+   52
+  ],
+  "warnings": []
+ }
+}

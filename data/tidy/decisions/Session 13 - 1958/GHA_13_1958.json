@@ -1,0 +1,185 @@
+{
+ "id": "GHA_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  15,
+  17,
+  22,
+  28,
+  34,
+  37,
+  39,
+  40,
+  42,
+  43,
+  44,
+  45,
+  47,
+  49,
+  54,
+  58,
+  62,
+  71,
+  75,
+  81,
+  83,
+  86,
+  91,
+  97,
+  101,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "Africa, land",
+   "Africa, and",
+   "ocr"
+  ],
+  [
+   23,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   24,
+   "in-Africa",
+   "in Africa",
+   "ocr"
+  ],
+  [
+   36,
+   "frat",
+   "that",
+   "ocr"
+  ],
+  [
+   40,
+   "peoples'",
+   "peoples",
+   "ocr"
+  ],
+  [
+   41,
+   "among. ourselves",
+   "among ourselves",
+   "ocr"
+  ],
+  [
+   51,
+   "‘Africa",
+   "Africa",
+   "ocr"
+  ],
+  [
+   51,
+   " [resolution 1148.",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "(XII)].",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "Isa",
+   "Is a",
+   "spacing"
+  ],
+  [
+   63,
+   "States'",
+   "States",
+   "ocr"
+  ],
+  [
+   66,
+   ".and",
+   "and",
+   "ocr"
+  ],
+  [
+   76,
+   "by. the",
+   "by the",
+   "ocr"
+  ],
+  [
+   84,
+   "lasting;",
+   "lasting",
+   "ocr"
+  ],
+  [
+   86,
+   "[resolution 1155 (XII).",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "squalor, In",
+   "squalor. In",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9520ca24477925476d4020fe42d7115b050d4e22",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 39
+  },
+  "words_in": 3611,
+  "words_out": 3603,
+  "retention": 0.9978,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   81,
+   97,
+   147,
+   74,
+   126,
+   155,
+   142,
+   116,
+   74,
+   94,
+   94,
+   116,
+   121,
+   103,
+   81,
+   63,
+   135,
+   153,
+   89,
+   295,
+   167,
+   152,
+   101,
+   98,
+   177,
+   197,
+   97,
+   168,
+   90
+  ],
+  "warnings": []
+ }
+}

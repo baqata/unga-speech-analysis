@@ -1,0 +1,230 @@
+{
+ "id": "PRT_20_1965",
+ "drop": [
+  [
+   171,
+   171,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  19,
+  23,
+  30,
+  36,
+  44,
+  54,
+  57,
+  65,
+  75,
+  82,
+  89,
+  96,
+  101,
+  110,
+  120,
+  126,
+  132,
+  140,
+  147,
+  153,
+  160,
+  166,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "the; heartfelt",
+   "the heartfelt",
+   "ocr"
+  ],
+  [
+   7,
+   "reports Of the",
+   "reports of the",
+   "ocr"
+  ],
+  [
+   14,
+   "the hi^h hopes",
+   "the high hopes",
+   "ocr"
+  ],
+  [
+   14,
+   "in 19S3",
+   "in 1963",
+   "ocr"
+  ],
+  [
+   27,
+   "forces it the world",
+   "forces in the world",
+   "ocr"
+  ],
+  [
+   34,
+   "to yield, solid",
+   "to yield solid",
+   "ocr"
+  ],
+  [
+   38,
+   "forceful, and vivid",
+   "forceful and vivid",
+   "ocr"
+  ],
+  [
+   51,
+   "you, are bound",
+   "you are bound",
+   "ocr"
+  ],
+  [
+   60,
+   "works is one direction",
+   "works in one direction",
+   "ocr"
+  ],
+  [
+   68,
+   "XII], The conflict",
+   "XII]. The conflict",
+   "ocr"
+  ],
+  [
+   79,
+   "had ’ to be",
+   "had to be",
+   "ocr"
+  ],
+  [
+   80,
+   "stating chat it",
+   "stating that it",
+   "ocr"
+  ],
+  [
+   98,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   112,
+   "before the.",
+   "before the",
+   "ocr"
+  ],
+  [
+   113,
+   "Attorney- General",
+   "Attorney-General",
+   "hyphen"
+  ],
+  [
+   122,
+   "proposal empower inf the",
+   "proposal empowering the",
+   "ocr"
+  ],
+  [
+   159,
+   "a doctrim valid",
+   "a doctrine valid",
+   "ocr"
+  ],
+  [
+   5,
+   " [A/600l/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   13,
+   " [ibid. section I]",
+   "",
+   "label"
+  ],
+  [
+   14,
+   " [Ibid., section H]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   " [Ibid., section IV]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   " [Ibid., section I]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   " [Ibid., section XII]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 171 ('We all agree for world peace.') is a garbled repeat of the preceding sentence and was dropped.",
+ "unitizer_version": 1,
+ "sha1": "9ffe9f4662361d01f2efde5f164e46f7c021d01a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {
+   "repeat": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4427,
+  "words_out": 4372,
+  "retention": 0.9876,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   99,
+   172,
+   231,
+   91,
+   200,
+   232,
+   171,
+   273,
+   105,
+   206,
+   251,
+   146,
+   162,
+   189,
+   113,
+   209,
+   216,
+   139,
+   130,
+   140,
+   178,
+   106,
+   203,
+   86,
+   70,
+   254
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

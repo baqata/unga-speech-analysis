@@ -1,0 +1,77 @@
+{
+ "id": "VEN_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   96,
+   97,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  13,
+  21,
+  24,
+  34,
+  38,
+  47,
+  54,
+  60,
+  68,
+  74,
+  81,
+  86,
+  95
+ ],
+ "cer": [
+  95
+ ],
+ "fix": [
+  [
+   59,
+   "Pedro Caribe",
+   "Petrocaribe",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "675c6bf455945b69cfea5405efc70cc1be3f496f",
+ "layout": "single",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2025,
+  "words_out": 1986,
+  "retention": 0.9807,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   107,
+   103,
+   206,
+   133,
+   175,
+   67,
+   216,
+   137,
+   155,
+   133,
+   169,
+   142,
+   86,
+   154,
+   3
+  ],
+  "warnings": []
+ }
+}

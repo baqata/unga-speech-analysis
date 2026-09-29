@@ -1,0 +1,60 @@
+{
+ "id": "PAN_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  11,
+  16
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "139.",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Ibis",
+   "this",
+   "ocr"
+  ],
+  [
+   11,
+   "hew",
+   "new",
+   "ocr"
+  ],
+  [
+   12,
+   "anti",
+   "and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e47c8e48e0b652c5ecf76cd2519f4a7efd8bf0ce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 20,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 4
+  },
+  "words_in": 614,
+  "words_out": 613,
+  "retention": 0.9984,
+  "n_paragraphs": 4,
+  "paragraph_words": [
+   223,
+   86,
+   168,
+   136
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "TCD_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  9,
+  15,
+  18,
+  21,
+  24,
+  34,
+  39,
+  42,
+  47,
+  50,
+  55,
+  60,
+  62,
+  64,
+  67
+ ],
+ "cer": [
+  0,
+  2,
+  6
+ ],
+ "fix": [
+  [
+   62,
+   "pi ogress",
+   "progress",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fe1d1e00a7c15c19d4ed987281bcf891b93aa6fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2407,
+  "words_out": 2402,
+  "retention": 0.9979,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   98,
+   161,
+   85,
+   139,
+   169,
+   116,
+   111,
+   135,
+   233,
+   161,
+   124,
+   180,
+   80,
+   132,
+   144,
+   78,
+   85,
+   101,
+   70
+  ],
+  "warnings": []
+ }
+}

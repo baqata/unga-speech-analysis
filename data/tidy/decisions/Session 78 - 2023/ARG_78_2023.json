@@ -1,0 +1,134 @@
+{
+ "id": "ARG_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  16,
+  26,
+  34,
+  40,
+  43,
+  49,
+  53,
+  57,
+  62,
+  66,
+  72,
+  74,
+  77,
+  83,
+  87,
+  92,
+  97,
+  103,
+  108
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "on. claiming",
+   "on, claiming",
+   "ocr"
+  ],
+  [
+   8,
+   "House.",
+   "House,",
+   "ocr"
+  ],
+  [
+   14,
+   "out. perhaps",
+   "out, perhaps",
+   "ocr"
+  ],
+  [
+   27,
+   "so. and",
+   "so, and",
+   "ocr"
+  ],
+  [
+   29,
+   "Ironically.",
+   "Ironically,",
+   "ocr"
+  ],
+  [
+   30,
+   "war. and",
+   "war, and",
+   "ocr"
+  ],
+  [
+   50,
+   "example.",
+   "example,",
+   "ocr"
+  ],
+  [
+   78,
+   "was. the",
+   "was, the",
+   "ocr"
+  ],
+  [
+   87,
+   "1992. at",
+   "1992, at",
+   "ocr"
+  ],
+  [
+   87,
+   "1994. at",
+   "1994, at",
+   "ocr"
+  ],
+  [
+   102,
+   "31/49. as",
+   "31/49, as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bea351b868db97ba112fc03464a1d99a4a5e64c9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2237,
+  "words_out": 2237,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   149,
+   120,
+   146,
+   139,
+   98,
+   66,
+   132,
+   77,
+   98,
+   142,
+   73,
+   89,
+   52,
+   57,
+   139,
+   74,
+   122,
+   105,
+   156,
+   128,
+   75
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "BRN_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  23,
+  41,
+  56,
+  67,
+  83
+ ],
+ "cer": [
+  0,
+  83
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fb3cc332d69499fac65c23b34ae0644c2d5c04d7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 767,
+  "words_out": 763,
+  "retention": 0.9948,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   44,
+   145,
+   153,
+   129,
+   93,
+   139,
+   60
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "MWI_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  26,
+  47,
+  64,
+  76,
+  90,
+  104,
+  118,
+  136,
+  145,
+  154,
+  171,
+  191,
+  202,
+  216
+ ],
+ "cer": [
+  0,
+  17
+ ],
+ "fix": [
+  [
+   177,
+   "fumigation.",
+   "fumigation,",
+   "ocr"
+  ],
+  [
+   180,
+   "guestions",
+   "questions",
+   "ocr"
+  ],
+  [
+   219,
+   "enacted. Parliament",
+   "enacted, Parliament",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a9722a624ba7cc91009708680a122fd3cbdc100",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2618,
+  "words_out": 2618,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   180,
+   101,
+   234,
+   188,
+   143,
+   140,
+   162,
+   152,
+   205,
+   100,
+   105,
+   191,
+   226,
+   123,
+   161,
+   207
+  ],
+  "warnings": []
+ }
+}

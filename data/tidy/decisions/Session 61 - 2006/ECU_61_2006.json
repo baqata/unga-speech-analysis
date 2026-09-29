@@ -1,0 +1,59 @@
+{
+ "id": "ECU_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  31,
+  49,
+  61,
+  74,
+  92,
+  105,
+  115,
+  131,
+  143,
+  156,
+  170,
+  179,
+  196,
+  215
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "401af8a672c089b2afd5012d1706a8c6f21a61a2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 225,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1683,
+  "words_out": 1681,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   66,
+   182,
+   132,
+   78,
+   91,
+   147,
+   104,
+   76,
+   117,
+   80,
+   94,
+   104,
+   64,
+   127,
+   142,
+   77
+  ],
+  "warnings": []
+ }
+}

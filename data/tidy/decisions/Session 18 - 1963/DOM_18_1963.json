@@ -1,0 +1,90 @@
+{
+ "id": "DOM_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  10,
+  17,
+  19,
+  31,
+  40,
+  51,
+  56,
+  58,
+  62,
+  70,
+  73,
+  79,
+  82,
+  85,
+  88,
+  91,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "posts.-His",
+   "posts. His",
+   "ocr"
+  ],
+  [
+   74,
+   "must he",
+   "must be",
+   "ocr"
+  ],
+  [
+   91,
+   "ail international",
+   "all international",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "559709a46204344e09b3cf404b004b5b407d53fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3424,
+  "words_out": 3425,
+  "retention": 1.0003,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   227,
+   147,
+   99,
+   168,
+   101,
+   198,
+   192,
+   233,
+   171,
+   74,
+   216,
+   177,
+   141,
+   217,
+   131,
+   146,
+   125,
+   194,
+   330,
+   138
+  ],
+  "warnings": [
+   "paragraph at unit 91 has 330 words"
+  ]
+ }
+}

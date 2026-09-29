@@ -1,0 +1,49 @@
+{
+ "id": "PAK_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  39,
+  48,
+  66,
+  80,
+  99,
+  107,
+  123,
+  134,
+  145
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7d2431f5645244e2e1940b27899609e821fb089",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1227,
+  "words_out": 1227,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   173,
+   157,
+   68,
+   148,
+   123,
+   151,
+   65,
+   110,
+   82,
+   72,
+   78
+  ],
+  "warnings": []
+ }
+}

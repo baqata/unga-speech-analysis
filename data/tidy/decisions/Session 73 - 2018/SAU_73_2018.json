@@ -1,0 +1,55 @@
+{
+ "id": "SAU_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  18,
+  23,
+  31,
+  33,
+  37,
+  42,
+  46,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 3 ends mid-sentence with a comma after the Secretary-General tribute; the rest of the sentence is missing from the record.",
+ "unitizer_version": 1,
+ "sha1": "5e69b9a54a445a74d08f47a009057427d56279db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1297,
+  "words_out": 1295,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   81,
+   148,
+   74,
+   91,
+   83,
+   122,
+   139,
+   93,
+   121,
+   99,
+   70,
+   125,
+   49
+  ],
+  "warnings": []
+ }
+}

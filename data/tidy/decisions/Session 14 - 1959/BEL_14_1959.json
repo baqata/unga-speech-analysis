@@ -1,0 +1,133 @@
+{
+ "id": "BEL_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  17,
+  22,
+  26,
+  32,
+  35,
+  42,
+  48,
+  52,
+  60,
+  62,
+  70,
+  77,
+  79,
+  82,
+  90,
+  94,
+  98,
+  103,
+  106,
+  112,
+  116,
+  120,
+  122,
+  130
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "But-we",
+   "But we",
+   "ocr"
+  ],
+  [
+   21,
+   "our duly",
+   "our duty",
+   "ocr"
+  ],
+  [
+   51,
+   "partial, disarmament",
+   "partial disarmament",
+   "ocr"
+  ],
+  [
+   59,
+   "must he made",
+   "must be made",
+   "ocr"
+  ],
+  [
+   62,
+   "statement,",
+   "statement.",
+   "ocr"
+  ],
+  [
+   68,
+   "Human Eights",
+   "Human Rights",
+   "ocr"
+  ],
+  [
+   77,
+   "this' Assembly",
+   "this Assembly",
+   "ocr"
+  ],
+  [
+   80,
+   "also, establish",
+   "also establish",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f03ef54c99136958bc44ef04eb3343820bfff19f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 133,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 32
+  },
+  "words_in": 3062,
+  "words_out": 3063,
+  "retention": 1.0003,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   105,
+   138,
+   153,
+   117,
+   108,
+   139,
+   71,
+   116,
+   119,
+   102,
+   135,
+   68,
+   181,
+   97,
+   69,
+   93,
+   109,
+   50,
+   94,
+   124,
+   95,
+   174,
+   113,
+   107,
+   62,
+   229,
+   95
+  ],
+  "warnings": []
+ }
+}

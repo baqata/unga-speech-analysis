@@ -1,0 +1,84 @@
+{
+ "id": "BEL_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  10,
+  16,
+  21,
+  24,
+  29,
+  33,
+  37,
+  40,
+  44,
+  46,
+  53,
+  59,
+  66,
+  70,
+  76,
+  80,
+  89,
+  93,
+  103,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   38,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   45,
+   "203 0",
+   "2030",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27ea2914c85c4bfdd0b7e4405fbfc503d3fe4cdf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2108,
+  "words_out": 2107,
+  "retention": 0.9995,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   136,
+   70,
+   82,
+   67,
+   97,
+   123,
+   56,
+   77,
+   74,
+   67,
+   62,
+   100,
+   102,
+   181,
+   108,
+   93,
+   91,
+   103,
+   113,
+   184,
+   81,
+   40
+  ],
+  "warnings": []
+ }
+}

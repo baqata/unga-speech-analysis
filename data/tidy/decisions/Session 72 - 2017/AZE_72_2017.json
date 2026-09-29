@@ -1,0 +1,70 @@
+{
+ "id": "AZE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  13,
+  20,
+  27,
+  33,
+  37,
+  40,
+  45,
+  50,
+  54,
+  58,
+  66,
+  72,
+  82,
+  89
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   "counter- attack",
+   "counter-attack",
+   "hyphen"
+  ],
+  [
+   88,
+   "East- West",
+   "East-West",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a021ee94c4fa75303e94de4b23a463205c65b6c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1863,
+  "words_out": 1861,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   148,
+   87,
+   78,
+   122,
+   95,
+   78,
+   78,
+   120,
+   104,
+   102,
+   124,
+   191,
+   124,
+   191,
+   138,
+   81
+  ],
+  "warnings": []
+ }
+}

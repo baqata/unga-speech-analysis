@@ -1,0 +1,99 @@
+{
+ "id": "TLS_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  14,
+  18,
+  25,
+  31,
+  33,
+  38,
+  44,
+  49,
+  55,
+  57,
+  60
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "Timor- Leste",
+   "Timor-Leste",
+   "hyphen"
+  ],
+  [
+   1,
+   "Timor- Leste",
+   "Timor-Leste",
+   "hyphen"
+  ],
+  [
+   16,
+   "Timor- Leste",
+   "Timor-Leste",
+   "hyphen"
+  ],
+  [
+   40,
+   "Timor- Leste",
+   "Timor-Leste",
+   "hyphen"
+  ],
+  [
+   20,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   36,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   42,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd276b6751e9c03d1bf683a80a4ca90d87236fe9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1691,
+  "words_out": 1684,
+  "retention": 0.9959,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   75,
+   168,
+   153,
+   84,
+   171,
+   157,
+   71,
+   133,
+   163,
+   117,
+   121,
+   77,
+   84,
+   110
+  ],
+  "warnings": []
+ }
+}

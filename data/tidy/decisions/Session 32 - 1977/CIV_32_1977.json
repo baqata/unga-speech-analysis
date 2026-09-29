@@ -1,0 +1,206 @@
+{
+ "id": "CIV_32_1977",
+ "drop": [
+  [
+   126,
+   126,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  5,
+  7,
+  9,
+  13,
+  17,
+  18,
+  20,
+  23,
+  26,
+  27,
+  31,
+  35,
+  39,
+  41,
+  42,
+  46,
+  49,
+  53,
+  55,
+  57,
+  60,
+  62,
+  63,
+  68,
+  71,
+  72,
+  74,
+  76,
+  80,
+  85,
+  86,
+  88,
+  89,
+  93,
+  98,
+  100,
+  102,
+  104,
+  105,
+  107,
+  108,
+  110,
+  114,
+  118,
+  123,
+  125,
+  127,
+  130,
+  132
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   11,
+   "say-that",
+   "say that",
+   "ocr"
+  ],
+  [
+   32,
+   "promote .the",
+   "promote the",
+   "ocr"
+  ],
+  [
+   60,
+   "set up - by",
+   "set up by",
+   "ocr"
+  ],
+  [
+   86,
+   "aware \"of",
+   "aware of",
+   "ocr"
+  ],
+  [
+   87,
+   "so far-as",
+   "so far as",
+   "ocr"
+  ],
+  [
+   91,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   96,
+   "Houphouet- Boigny",
+   "Houphouet-Boigny",
+   "hyphen"
+  ],
+  [
+   130,
+   "157 ",
+   "",
+   "label"
+  ],
+  [
+   130,
+   "the. ideal",
+   "the ideal",
+   "ocr"
+  ],
+  [
+   133,
+   "3ll",
+   "all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ccf70d0698e86211a976de339bab855b8be848df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 5019,
+  "words_out": 5016,
+  "retention": 0.9994,
+  "n_paragraphs": 52,
+  "paragraph_words": [
+   75,
+   105,
+   43,
+   81,
+   64,
+   176,
+   132,
+   45,
+   136,
+   133,
+   94,
+   64,
+   118,
+   160,
+   128,
+   88,
+   61,
+   174,
+   108,
+   105,
+   75,
+   67,
+   134,
+   81,
+   73,
+   81,
+   89,
+   95,
+   81,
+   85,
+   93,
+   132,
+   65,
+   75,
+   73,
+   137,
+   153,
+   83,
+   102,
+   85,
+   58,
+   87,
+   60,
+   121,
+   146,
+   118,
+   137,
+   80,
+   40,
+   51,
+   74,
+   95
+  ],
+  "warnings": []
+ }
+}

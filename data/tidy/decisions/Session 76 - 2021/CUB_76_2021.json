@@ -1,0 +1,87 @@
+{
+ "id": "CUB_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  12,
+  15,
+  19,
+  25,
+  29,
+  32,
+  35,
+  37,
+  41,
+  46,
+  50,
+  54,
+  60,
+  68,
+  72,
+  74
+ ],
+ "cer": [
+  0,
+  74
+ ],
+ "fix": [
+  [
+   10,
+   "of2021",
+   "of 2021",
+   "spacing"
+  ],
+  [
+   27,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   69,
+   "military- industrial",
+   "military-industrial",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7fff92d52896d058fd7b658381a133ed17c4ca4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2192,
+  "words_out": 2191,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   5,
+   102,
+   110,
+   85,
+   85,
+   148,
+   148,
+   135,
+   92,
+   116,
+   83,
+   71,
+   164,
+   141,
+   122,
+   182,
+   232,
+   99,
+   67,
+   4
+  ],
+  "warnings": []
+ }
+}

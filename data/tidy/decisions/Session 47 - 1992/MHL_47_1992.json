@@ -1,0 +1,56 @@
+{
+ "id": "MHL_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  24,
+  40,
+  49,
+  64,
+  85,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   4,
+   "predecessor. Ambassador",
+   "predecessor, Ambassador",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38daf3bc7f8e8f69d9c779a8814a34c91178d3ac",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1214,
+  "words_out": 1214,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   72,
+   199,
+   189,
+   103,
+   172,
+   244,
+   149,
+   86
+  ],
+  "warnings": []
+ }
+}

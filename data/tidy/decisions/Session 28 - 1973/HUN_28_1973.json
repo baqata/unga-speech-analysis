@@ -1,0 +1,179 @@
+{
+ "id": "HUN_28_1973",
+ "drop": [
+  [
+   59,
+   59,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  14,
+  21,
+  26,
+  32,
+  38,
+  44,
+  50,
+  53,
+  60,
+  66,
+  72,
+  79,
+  85,
+  92,
+  97,
+  103,
+  110,
+  117,
+  120,
+  126,
+  131,
+  135,
+  139,
+  143,
+  149,
+  153,
+  159,
+  163,
+  171,
+  174,
+  179,
+  181,
+  187,
+  189,
+  195,
+  199,
+  206,
+  213,
+  216,
+  219,
+  223,
+  231,
+  238,
+  245
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "the .Middle",
+   "the Middle",
+   "ocr"
+  ],
+  [
+   8,
+   "General \"Assembly.",
+   "General Assembly.",
+   "ocr"
+  ],
+  [
+   84,
+   "Vie'-Nam",
+   "Viet-Nam",
+   "ocr"
+  ],
+  [
+   158,
+   "EI Moudjahid",
+   "El Moudjahid",
+   "ocr"
+  ],
+  [
+   174,
+   " [A/9191]",
+   "",
+   "label"
+  ],
+  [
+   196,
+   "did .not",
+   "did not",
+   "ocr"
+  ],
+  [
+   199,
+   "one. of",
+   "one of",
+   "ocr"
+  ],
+  [
+   222,
+   "to. offer",
+   "to offer",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Source columns out of order around units 32-61: unit 33 ('in an illegal state.') continues unit 58 ('I might say it was'), so the Viet-Nam passage reads out of sequence; units kept in source order.",
+ "unitizer_version": 1,
+ "sha1": "b80180c24cdb1a617161cbea08a9bbe9606b90b4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 60
+  },
+  "words_in": 6353,
+  "words_out": 6332,
+  "retention": 0.9967,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   190,
+   209,
+   177,
+   174,
+   147,
+   134,
+   188,
+   93,
+   64,
+   137,
+   142,
+   152,
+   167,
+   171,
+   136,
+   129,
+   117,
+   113,
+   198,
+   112,
+   152,
+   102,
+   126,
+   112,
+   149,
+   156,
+   131,
+   147,
+   92,
+   161,
+   87,
+   153,
+   78,
+   148,
+   80,
+   156,
+   129,
+   147,
+   165,
+   99,
+   64,
+   143,
+   240,
+   156,
+   125,
+   84
+  ],
+  "warnings": []
+ }
+}

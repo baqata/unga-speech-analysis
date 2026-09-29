@@ -1,0 +1,214 @@
+{
+ "id": "SWE_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  17,
+  22,
+  28,
+  37,
+  41,
+  44,
+  48,
+  53,
+  56,
+  62,
+  68,
+  77,
+  86,
+  89,
+  94,
+  100,
+  104,
+  108,
+  113,
+  118,
+  123,
+  127,
+  133,
+  141,
+  142,
+  152,
+  158,
+  165,
+  170,
+  176,
+  182,
+  185,
+  191,
+  196,
+  199,
+  202
+ ],
+ "cer": [
+  0,
+  6,
+  9
+ ],
+ "fix": [
+  [
+   14,
+   "than over",
+   "than ever",
+   "ocr"
+  ],
+  [
+   17,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   74,
+   "roust",
+   "must",
+   "ocr"
+  ],
+  [
+   77,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   81,
+   "the the Security",
+   "the Security",
+   "ocr"
+  ],
+  [
+   82,
+   "member states",
+   "Member States",
+   "ocr"
+  ],
+  [
+   90,
+   "this year -among",
+   "this year - among",
+   "spacing"
+  ],
+  [
+   92,
+   "197S",
+   "1978",
+   "ocr"
+  ],
+  [
+   100,
+   "South west Africa",
+   "South West Africa",
+   "ocr"
+  ],
+  [
+   101,
+   "various united Nations",
+   "various United Nations",
+   "ocr"
+  ],
+  [
+   112,
+   "right to for a state",
+   "right to form a state",
+   "ocr"
+  ],
+  [
+   117,
+   "same timer external",
+   "same time external",
+   "ocr"
+  ],
+  [
+   138,
+   "United States ant!",
+   "United States and",
+   "ocr"
+  ],
+  [
+   144,
+   "leads be increased",
+   "leads to increased",
+   "ocr"
+  ],
+  [
+   179,
+   "relief .is",
+   "relief is",
+   "spacing"
+  ],
+  [
+   188,
+   "of united Nations",
+   "of United Nations",
+   "ocr"
+  ],
+  [
+   192,
+   "collective financial problems responsibility",
+   "collective financial responsibility",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 60 (\"binary chemical weapons\") and 69-70 (\"are a cause of grave concern.\") lose text from the source at the joins.",
+ "unitizer_version": 1,
+ "sha1": "f00ba7018d06c242df60984fd1a7126ccdd7fc29",
+ "layout": "lines",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4227,
+  "words_out": 4226,
+  "retention": 0.9998,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   90,
+   67,
+   78,
+   106,
+   111,
+   110,
+   182,
+   65,
+   94,
+   69,
+   95,
+   103,
+   152,
+   101,
+   154,
+   173,
+   88,
+   138,
+   122,
+   97,
+   96,
+   98,
+   71,
+   127,
+   109,
+   104,
+   148,
+   44,
+   164,
+   141,
+   120,
+   116,
+   93,
+   116,
+   117,
+   91,
+   89,
+   84,
+   70,
+   33
+  ],
+  "warnings": []
+ }
+}

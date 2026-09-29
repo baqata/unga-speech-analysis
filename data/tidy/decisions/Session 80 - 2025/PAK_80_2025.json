@@ -1,0 +1,138 @@
+{
+ "id": "PAK_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   125,
+   125,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  7,
+  14,
+  23,
+  32,
+  41,
+  45,
+  53,
+  62,
+  71,
+  74,
+  87,
+  91,
+  96,
+  100,
+  106,
+  112,
+  117,
+  119,
+  122
+ ],
+ "cer": [
+  2,
+  122
+ ],
+ "fix": [
+  [
+   2,
+   "cy, Prime Minister Shibaz Sharif, Prime Minister Shibaz Sharif, Prime Minister S",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "llenhibaz Sharif, Prime Minister Shibaz Sharif, Prime Minister Shibaz Sharif, Pr",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Exceime Minister Shibaz Sharif, Prime Minister Shibaz Sharif, Prime Minister Shi",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "our baz Sharif, Prime Minister Shibaz Sharif, Prime Minister Shibaz Sharif, Prim",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "u, Ye Minister Shibaz Sharif, Prime Minister Shibaz Sharif, Prime Minister Shiba",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "k yoz Sharif, Prime Minister Shibaz Sharif, Prime Minister Shibaz Sharif, Prime ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "ThanMinister Shibaz Sharif, Prime Minister Shibaz Sharif, ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Annalena Barbour",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   14,
+   "Pahelgam",
+   "Pahalgam",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 opened with an ASR loop repeating 'Prime Minister Shibaz Sharif' 17 times after 'Thank you, Your Excellency'; the first seven label fixes remove it and only work in the listed order.",
+ "unitizer_version": 1,
+ "sha1": "f886cad97cc17316359d5bfd35c3d2edefa7d542",
+ "layout": "single",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2497,
+  "words_out": 2372,
+  "retention": 0.9499,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   40,
+   61,
+   99,
+   190,
+   169,
+   150,
+   62,
+   142,
+   182,
+   180,
+   66,
+   215,
+   82,
+   98,
+   72,
+   142,
+   155,
+   128,
+   51,
+   77,
+   11
+  ],
+  "warnings": []
+ }
+}

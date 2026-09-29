@@ -1,0 +1,64 @@
+{
+ "id": "AUT_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  25,
+  47,
+  61,
+  78,
+  92,
+  119,
+  136,
+  146,
+  164,
+  184,
+  195,
+  207,
+  221,
+  233,
+  251
+ ],
+ "cer": [
+  0,
+  17
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "48398ca96914ab6cb7c6c731a33922e1dc03a926",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2053,
+  "words_out": 2049,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   133,
+   65,
+   171,
+   116,
+   133,
+   101,
+   192,
+   136,
+   87,
+   147,
+   150,
+   81,
+   88,
+   123,
+   98,
+   155,
+   73
+  ],
+  "warnings": []
+ }
+}

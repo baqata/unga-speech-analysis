@@ -1,0 +1,157 @@
+{
+ "id": "URY_35_1980",
+ "drop": [
+  [
+   31,
+   31,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  6,
+  13,
+  17,
+  20,
+  26,
+  35,
+  43,
+  47,
+  48,
+  50,
+  54,
+  57,
+  60,
+  64,
+  65,
+  68,
+  71,
+  73,
+  80,
+  85,
+  90,
+  95,
+  100,
+  106,
+  114,
+  121,
+  125,
+  133,
+  139,
+  140
+ ],
+ "cer": [
+  0,
+  139
+ ],
+ "fix": [
+  [
+   5,
+   "from ail peoples",
+   "from all peoples",
+   "ocr"
+  ],
+  [
+   6,
+   "my Government;",
+   "my Government,",
+   "ocr"
+  ],
+  [
+   20,
+   "Assembly6",
+   "Assembly",
+   "ocr"
+  ],
+  [
+   85,
+   "seems hot to",
+   "seems not to",
+   "ocr"
+  ],
+  [
+   122,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "this Held",
+   "this field",
+   "ocr"
+  ],
+  [
+   129,
+   "It has, already",
+   "It has already",
+   "ocr"
+  ],
+  [
+   135,
+   "approve ail",
+   "approve all",
+   "ocr"
+  ],
+  [
+   139,
+   "Secretary General",
+   "Secretary-General",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cccb3ae2a0aec97aff13cfda2fa0cb891a1c8851",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 56
+  },
+  "words_in": 5366,
+  "words_out": 5363,
+  "retention": 0.9994,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   204,
+   77,
+   160,
+   187,
+   162,
+   186,
+   287,
+   278,
+   117,
+   65,
+   127,
+   210,
+   126,
+   55,
+   115,
+   198,
+   105,
+   101,
+   129,
+   253,
+   190,
+   187,
+   131,
+   149,
+   187,
+   254,
+   252,
+   149,
+   292,
+   231,
+   56,
+   143
+  ],
+  "warnings": []
+ }
+}

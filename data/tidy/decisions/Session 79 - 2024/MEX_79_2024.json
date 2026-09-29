@@ -1,0 +1,80 @@
+{
+ "id": "MEX_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  10,
+  15,
+  17,
+  23,
+  31,
+  37,
+  42,
+  46,
+  48,
+  56,
+  60,
+  66,
+  70,
+  71,
+  78,
+  83,
+  87,
+  89,
+  93,
+  96
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   68,
+   "abductio n",
+   "abduction",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f821d69971e67bc3bb5853ae1074e54e3d3cbb06",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2658,
+  "words_out": 2653,
+  "retention": 0.9981,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   36,
+   71,
+   94,
+   116,
+   64,
+   159,
+   118,
+   167,
+   122,
+   104,
+   85,
+   180,
+   97,
+   142,
+   149,
+   37,
+   197,
+   112,
+   88,
+   103,
+   154,
+   105,
+   153
+  ],
+  "warnings": []
+ }
+}

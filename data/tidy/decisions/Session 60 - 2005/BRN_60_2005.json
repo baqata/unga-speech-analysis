@@ -1,0 +1,53 @@
+{
+ "id": "BRN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  21,
+  42,
+  52,
+  75,
+  94,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dba3a66fec5bf2f6e5f7eec560ab608c7d697fc2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_number": 2
+  },
+  "words_in": 1085,
+  "words_out": 1083,
+  "retention": 0.9982,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   32,
+   133,
+   192,
+   78,
+   184,
+   142,
+   195,
+   127
+  ],
+  "warnings": []
+ }
+}

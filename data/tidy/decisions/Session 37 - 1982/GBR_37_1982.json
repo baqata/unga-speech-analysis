@@ -1,0 +1,136 @@
+{
+ "id": "GBR_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  46,
+  68,
+  80,
+  95,
+  104,
+  121,
+  136,
+  148,
+  170,
+  185,
+  200,
+  213,
+  220,
+  236,
+  250,
+  270,
+  293,
+  299,
+  312,
+  321,
+  346
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   74,
+   "approved,^",
+   "approved,",
+   "encoding"
+  ],
+  [
+   81,
+   "rooted put",
+   "rooted out",
+   "ocr"
+  ],
+  [
+   90,
+   "Hague/",
+   "Hague,",
+   "ocr"
+  ],
+  [
+   90,
+   "Tokyo?",
+   "Tokyo",
+   "ocr"
+  ],
+  [
+   100,
+   "deliberate^",
+   "deliberately",
+   "ocr"
+  ],
+  [
+   268,
+   "and. in",
+   "and in",
+   "ocr"
+  ],
+  [
+   335,
+   "Cur conviction",
+   "Our conviction",
+   "ocr"
+  ],
+  [
+   347,
+   "sha31",
+   "shall",
+   "ocr"
+  ],
+  [
+   348,
+   "acid we",
+   "and we",
+   "ocr"
+  ],
+  [
+   349,
+   "world, in this",
+   "world. In this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "31ff171f13493a969d5cf75e8d799019e042f35b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 358,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3831,
+  "words_out": 3798,
+  "retention": 0.9914,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   120,
+   170,
+   211,
+   249,
+   137,
+   144,
+   95,
+   163,
+   159,
+   126,
+   216,
+   163,
+   144,
+   157,
+   77,
+   177,
+   145,
+   219,
+   255,
+   62,
+   138,
+   92,
+   250,
+   129
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "COL_59_2004",
+ "drop": [
+  [
+   183,
+   184,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  37,
+  51,
+  68,
+  86,
+  106,
+  123,
+  147,
+  159,
+  168,
+  185,
+  200,
+  213
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "104b1f0034e98c0ea977c4ce4d5e629cd1dad2cf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 222,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1748,
+  "words_out": 1740,
+  "retention": 0.9954,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   105,
+   183,
+   116,
+   141,
+   135,
+   159,
+   138,
+   179,
+   95,
+   76,
+   118,
+   117,
+   104,
+   74
+  ],
+  "warnings": [
+   "procedural drop [183,184] in the middle of the speech"
+  ]
+ }
+}

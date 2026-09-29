@@ -1,0 +1,55 @@
+{
+ "id": "VAT_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  19,
+  28,
+  45,
+  64,
+  77,
+  86,
+  104,
+  119,
+  136,
+  160,
+  174
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a16d70eaf2d6eb7531e214f77cde48443c21a8a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1425,
+  "words_out": 1425,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   40,
+   100,
+   79,
+   147,
+   163,
+   114,
+   69,
+   145,
+   113,
+   120,
+   193,
+   99,
+   43
+  ],
+  "warnings": []
+ }
+}

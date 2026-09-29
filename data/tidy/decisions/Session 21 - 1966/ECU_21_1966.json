@@ -1,0 +1,134 @@
+{
+ "id": "ECU_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  15,
+  19,
+  26,
+  31,
+  38,
+  42,
+  50,
+  55,
+  64,
+  66,
+  71,
+  77,
+  83,
+  87,
+  94,
+  99,
+  102,
+  110,
+  113,
+  116,
+  118,
+  122,
+  128,
+  132,
+  135,
+  139,
+  145,
+  154,
+  162,
+  171,
+  174
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "mankind, I should",
+   "mankind. I should",
+   "ocr"
+  ],
+  [
+   59,
+   "Viet-Nam, While",
+   "Viet-Nam. While",
+   "ocr"
+  ],
+  [
+   73,
+   "objective, Ecuador's",
+   "objective. Ecuador's",
+   "ocr"
+  ],
+  [
+   93,
+   "violating them, Ecuador,",
+   "violating them. Ecuador,",
+   "ocr"
+  ],
+  [
+   144,
+   "Convention, I express",
+   "Convention. I express",
+   "ocr"
+  ],
+  [
+   152,
+   "begun,",
+   "begun.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd8271d08c9115d6d6576c715cb33e77041fd81a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4820,
+  "words_out": 4777,
+  "retention": 0.9911,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   60,
+   97,
+   211,
+   114,
+   238,
+   141,
+   190,
+   143,
+   144,
+   133,
+   190,
+   89,
+   93,
+   164,
+   159,
+   84,
+   210,
+   127,
+   61,
+   240,
+   82,
+   94,
+   71,
+   101,
+   128,
+   89,
+   72,
+   124,
+   166,
+   221,
+   194,
+   291,
+   117,
+   139
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "THA_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   147,
+   148,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  10,
+  17,
+  28,
+  36,
+  43,
+  54,
+  62,
+  71,
+  79,
+  87,
+  92,
+  98,
+  105,
+  109,
+  120,
+  125,
+  132,
+  138,
+  146
+ ],
+ "cer": [
+  1,
+  146
+ ],
+ "fix": [
+  [
+   71,
+   "the seaside is still fragile",
+   "the ceasefire is still fragile",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a68886eac07a9b0411ddde184cea2a36d019b87",
+ "layout": "single",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2477,
+  "words_out": 2445,
+  "retention": 0.9871,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   32,
+   164,
+   130,
+   139,
+   114,
+   81,
+   161,
+   116,
+   153,
+   127,
+   188,
+   135,
+   113,
+   123,
+   81,
+   170,
+   94,
+   94,
+   103,
+   123,
+   4
+  ],
+  "warnings": []
+ }
+}

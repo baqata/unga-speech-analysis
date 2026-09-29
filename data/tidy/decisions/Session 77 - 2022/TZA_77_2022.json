@@ -1,0 +1,88 @@
+{
+ "id": "TZA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13,
+  16,
+  18,
+  20,
+  23,
+  26,
+  30,
+  37,
+  42,
+  44,
+  49,
+  54,
+  57,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   21,
+   "post- COVID",
+   "post-COVID",
+   "hyphen"
+  ],
+  [
+   32,
+   "debt- sustainability",
+   "debt-sustainability",
+   "hyphen"
+  ],
+  [
+   0,
+   "Sarnia",
+   "Samia",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ad28f9a63e55072b5dbb2089e12615db625dd76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1697,
+  "words_out": 1694,
+  "retention": 0.9982,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   157,
+   91,
+   71,
+   104,
+   72,
+   66,
+   63,
+   96,
+   68,
+   94,
+   129,
+   134,
+   66,
+   138,
+   114,
+   66,
+   82,
+   83
+  ],
+  "warnings": []
+ }
+}

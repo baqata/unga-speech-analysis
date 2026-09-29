@@ -1,0 +1,98 @@
+{
+ "id": "BRA_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  14,
+  18,
+  27,
+  28,
+  31,
+  37,
+  43,
+  48,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "[392nd meeting}",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "not:",
+   "not",
+   "ocr"
+  ],
+  [
+   10,
+   "salutary,",
+   "salutary.",
+   "ocr"
+  ],
+  [
+   17,
+   "natural,",
+   "natural",
+   "ocr"
+  ],
+  [
+   21,
+   "ray",
+   "my",
+   "ocr"
+  ],
+  [
+   31,
+   "reeds",
+   "needs",
+   "ocr"
+  ],
+  [
+   39,
+   "ill",
+   "in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2dff386e83b9e1ce5ecd2fa124a800c299ada8b8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 1899,
+  "words_out": 1897,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   89,
+   95,
+   194,
+   121,
+   192,
+   229,
+   73,
+   106,
+   236,
+   198,
+   171,
+   64,
+   129
+  ],
+  "warnings": []
+ }
+}

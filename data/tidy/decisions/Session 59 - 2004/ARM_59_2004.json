@@ -1,0 +1,53 @@
+{
+ "id": "ARM_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  24,
+  38,
+  49,
+  72,
+  92,
+  105,
+  120,
+  144,
+  167,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c9bd1a85a98435b183e0d62b98032dd2d6c15f3e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 188,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1433,
+  "words_out": 1428,
+  "retention": 0.9965,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   43,
+   145,
+   93,
+   89,
+   176,
+   144,
+   93,
+   120,
+   174,
+   180,
+   88,
+   83
+  ],
+  "warnings": []
+ }
+}

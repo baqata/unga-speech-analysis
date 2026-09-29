@@ -1,0 +1,50 @@
+{
+ "id": "KHM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  14,
+  17,
+  20,
+  22,
+  25
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "Iran- United States",
+   "Iran-United States",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a63cecb638ff2a111ecac4cb8c3b69f73982b2f3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 787,
+  "words_out": 784,
+  "retention": 0.9962,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   42,
+   132,
+   126,
+   130,
+   62,
+   69,
+   93,
+   130
+  ],
+  "warnings": []
+ }
+}

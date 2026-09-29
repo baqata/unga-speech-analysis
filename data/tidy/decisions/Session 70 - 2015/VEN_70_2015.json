@@ -1,0 +1,95 @@
+{
+ "id": "VEN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  11,
+  15,
+  20,
+  23,
+  24,
+  32,
+  48,
+  64,
+  69,
+  72,
+  78,
+  88,
+  92,
+  96,
+  99,
+  102,
+  107,
+  115,
+  120,
+  125,
+  131,
+  138,
+  143
+ ],
+ "cer": [
+  143
+ ],
+ "fix": [
+  [
+   3,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ],
+  [
+   105,
+   "twenty-first- century",
+   "twenty-first-century",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d0a016fafbcf413dda87f5f37d65c4f26545b5fe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 3,
+   "page_header": 8
+  },
+  "words_in": 3414,
+  "words_out": 3410,
+  "retention": 0.9988,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   213,
+   102,
+   71,
+   125,
+   147,
+   70,
+   117,
+   144,
+   266,
+   159,
+   139,
+   117,
+   99,
+   225,
+   93,
+   120,
+   103,
+   117,
+   125,
+   208,
+   134,
+   139,
+   87,
+   87,
+   200,
+   3
+  ],
+  "warnings": []
+ }
+}

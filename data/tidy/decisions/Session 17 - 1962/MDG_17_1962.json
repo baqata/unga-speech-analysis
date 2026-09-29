@@ -1,0 +1,181 @@
+{
+ "id": "MDG_17_1962",
+ "drop": [
+  [
+   59,
+   59,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  21,
+  26,
+  28,
+  32,
+  37,
+  44,
+  48,
+  51,
+  58,
+  61,
+  67,
+  72,
+  75,
+  80,
+  82,
+  85,
+  89,
+  92
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   "law-of",
+   "law of",
+   "ocr"
+  ],
+  [
+   9,
+   "that joined",
+   "they joined",
+   "ocr"
+  ],
+  [
+   10,
+   "tile United",
+   "the United",
+   "ocr"
+  ],
+  [
+   17,
+   "of federalist",
+   "on federalist",
+   "ocr"
+  ],
+  [
+   17,
+   "succeed, in",
+   "succeed in",
+   "ocr"
+  ],
+  [
+   22,
+   "highest-level",
+   "highest level",
+   "ocr"
+  ],
+  [
+   34,
+   " [See A/5170, annex]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "tinder",
+   "under",
+   "ocr"
+  ],
+  [
+   46,
+   "ready,",
+   "ready.",
+   "ocr"
+  ],
+  [
+   48,
+   "maintenance, of",
+   "maintenance of",
+   "ocr"
+  ],
+  [
+   51,
+   "powerful;",
+   "powerful,",
+   "ocr"
+  ],
+  [
+   52,
+   "result-of",
+   "result of",
+   "ocr"
+  ],
+  [
+   54,
+   "associated, African",
+   "associated African",
+   "ocr"
+  ],
+  [
+   55,
+   "our Industrialization",
+   "our industrialization",
+   "ocr"
+  ],
+  [
+   58,
+   " [resolution 1710",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "weapons,",
+   "weapons.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 34 appears to have lost text between 'safeguarded in' and 'should have been exercised'.",
+ "unitizer_version": 1,
+ "sha1": "364a1d437904bdedfab90711ea510a50f2304c9e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2857,
+  "words_out": 2850,
+  "retention": 0.9975,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   153,
+   160,
+   113,
+   118,
+   142,
+   76,
+   149,
+   190,
+   216,
+   131,
+   141,
+   240,
+   86,
+   149,
+   110,
+   62,
+   160,
+   67,
+   72,
+   119,
+   112,
+   84
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "NZL_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  12,
+  17,
+  29,
+  40,
+  46,
+  49,
+  58,
+  64,
+  74,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Tend koutou",
+   "Tena koutou",
+   "ocr"
+  ],
+  [
+   58,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   68,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03245ef96e2b12911b7bc3667573721c7a3d8900",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1533,
+  "words_out": 1531,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   28,
+   72,
+   135,
+   80,
+   193,
+   175,
+   107,
+   77,
+   140,
+   98,
+   145,
+   163,
+   118
+  ],
+  "warnings": []
+ }
+}

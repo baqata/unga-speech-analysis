@@ -1,0 +1,131 @@
+{
+ "id": "QAT_32_1977",
+ "drop": [
+  [
+   42,
+   42,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  11,
+  13,
+  17,
+  19,
+  21,
+  23,
+  27,
+  28,
+  35,
+  38,
+  40,
+  46,
+  49,
+  54,
+  58,
+  60,
+  61,
+  67,
+  71,
+  75,
+  79
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   11,
+   "3236 , 3375 , 3379",
+   "3236, 3375, 3379",
+   "spacing"
+  ],
+  [
+   13,
+   "Middle Hast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   13,
+   "homeland* self-determination",
+   "homeland, self-determination",
+   "ocr"
+  ],
+  [
+   33,
+   "Qatar- believe",
+   "Qatar believe",
+   "ocr"
+  ],
+  [
+   60,
+   "measure's",
+   "measures",
+   "ocr"
+  ],
+  [
+   65,
+   "of (lie use",
+   "of the use",
+   "ocr"
+  ],
+  [
+   74,
+   "third- world",
+   "third-world",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89a81f271230975c04e3558251a337d2e12313a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3141,
+  "words_out": 3137,
+  "retention": 0.9987,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   113,
+   133,
+   150,
+   84,
+   114,
+   204,
+   73,
+   108,
+   66,
+   126,
+   75,
+   229,
+   116,
+   92,
+   128,
+   97,
+   114,
+   197,
+   80,
+   112,
+   191,
+   109,
+   150,
+   170,
+   106
+  ],
+  "warnings": []
+ }
+}

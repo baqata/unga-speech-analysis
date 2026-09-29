@@ -1,0 +1,196 @@
+{
+ "id": "AND_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  17,
+  21,
+  26,
+  29,
+  43,
+  49,
+  51,
+  55,
+  58,
+  62,
+  66,
+  70,
+  75,
+  79,
+  82,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Korosi. who. in",
+   "Korosi, who, in",
+   "ocr"
+  ],
+  [
+   4,
+   "own. because",
+   "own, because",
+   "ocr"
+  ],
+  [
+   9,
+   "61.000",
+   "61,000",
+   "ocr"
+  ],
+  [
+   9,
+   "2022. the",
+   "2022, the",
+   "ocr"
+  ],
+  [
+   12,
+   "end. major",
+   "end, major",
+   "ocr"
+  ],
+  [
+   12,
+   "is. rather",
+   "is, rather",
+   "ocr"
+  ],
+  [
+   21,
+   "Yemen.",
+   "Yemen,",
+   "ocr"
+  ],
+  [
+   22,
+   "Pakistan.",
+   "Pakistan,",
+   "ocr"
+  ],
+  [
+   30,
+   "July.",
+   "July,",
+   "ocr"
+  ],
+  [
+   33,
+   "me. as",
+   "me, as",
+   "ocr"
+  ],
+  [
+   33,
+   "Government.",
+   "Government,",
+   "ocr"
+  ],
+  [
+   34,
+   "Reig. spoke",
+   "Reig, spoke",
+   "ocr"
+  ],
+  [
+   41,
+   "(A/47/PV.108. p. 18).",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "2030. which",
+   "2030, which",
+   "ocr"
+  ],
+  [
+   50,
+   "all. and",
+   "all, and",
+   "ocr"
+  ],
+  [
+   52,
+   "civic- mindedness. democracy",
+   "civic-mindedness, democracy",
+   "ocr"
+  ],
+  [
+   57,
+   "COVID-19. and",
+   "COVID-19, and",
+   "ocr"
+  ],
+  [
+   67,
+   "ton. allowing",
+   "ton, allowing",
+   "ocr"
+  ],
+  [
+   77,
+   "and. in that regard.",
+   "and, in that regard,",
+   "ocr"
+  ],
+  [
+   81,
+   "2024. for",
+   "2024, for",
+   "ocr"
+  ],
+  [
+   85,
+   "sum. all",
+   "sum, all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "359a2db18666700c09a133b2a9dc81187299f6d2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2503,
+  "words_out": 2499,
+  "retention": 0.9984,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   139,
+   201,
+   142,
+   66,
+   73,
+   86,
+   95,
+   287,
+   170,
+   109,
+   144,
+   128,
+   101,
+   137,
+   121,
+   130,
+   61,
+   126,
+   110,
+   73
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

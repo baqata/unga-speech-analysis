@@ -1,0 +1,74 @@
+{
+ "id": "URY_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  18,
+  26,
+  30,
+  34,
+  38,
+  40,
+  43,
+  48,
+  53,
+  55,
+  58,
+  60,
+  63,
+  67
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "of2022",
+   "of 2022",
+   "spacing"
+  ],
+  [
+   50,
+   "in in the",
+   "in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "20e7d430432f32fa5b4d31bfc2e2bb4289a7d2c9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1879,
+  "words_out": 1879,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   108,
+   88,
+   109,
+   165,
+   161,
+   94,
+   110,
+   148,
+   63,
+   117,
+   146,
+   127,
+   76,
+   72,
+   64,
+   91,
+   73,
+   67
+  ],
+  "warnings": []
+ }
+}

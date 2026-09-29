@@ -1,0 +1,80 @@
+{
+ "id": "BLZ_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  39,
+  53,
+  73,
+  83,
+  101,
+  109,
+  128,
+  139,
+  163,
+  176,
+  193,
+  219,
+  236,
+  267,
+  286,
+  305,
+  323
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   64,
+   " (A/49/94 of 14 March 1994)",
+   "",
+   "label"
+  ],
+  [
+   301,
+   " (The Bible, Psalms 8:2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3c90dd9b395b359eca46f7263f5fe3a1ce2aa9ce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 341,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2860,
+  "words_out": 2849,
+  "retention": 0.9962,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   79,
+   251,
+   118,
+   139,
+   87,
+   154,
+   74,
+   158,
+   92,
+   188,
+   94,
+   142,
+   232,
+   143,
+   264,
+   154,
+   170,
+   141,
+   169
+  ],
+  "warnings": []
+ }
+}

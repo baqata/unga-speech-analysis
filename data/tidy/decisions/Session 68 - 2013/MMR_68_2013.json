@@ -1,0 +1,70 @@
+{
+ "id": "MMR_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  32,
+  44,
+  63,
+  89,
+  97,
+  119,
+  132,
+  152,
+  165,
+  179,
+  196,
+  207,
+  216,
+  236,
+  246
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f30035b4d1615308bb261e25b5fe5b0dd7640752",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 255,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2007,
+  "words_out": 2005,
+  "retention": 0.999,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   86,
+   94,
+   78,
+   97,
+   143,
+   182,
+   63,
+   180,
+   121,
+   144,
+   112,
+   110,
+   116,
+   87,
+   72,
+   160,
+   79,
+   81
+  ],
+  "warnings": []
+ }
+}

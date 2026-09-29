@@ -1,0 +1,64 @@
+{
+ "id": "BLZ_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  33,
+  56,
+  77,
+  95,
+  115,
+  131,
+  145,
+  160,
+  172,
+  186,
+  201,
+  221
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   227,
+   "amore",
+   "a more",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3bfb65c31d0c3be1599b1026ff3f617b2dc8054a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1855,
+  "words_out": 1852,
+  "retention": 0.9984,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   70,
+   192,
+   175,
+   172,
+   121,
+   154,
+   131,
+   126,
+   123,
+   99,
+   109,
+   134,
+   172,
+   74
+  ],
+  "warnings": []
+ }
+}

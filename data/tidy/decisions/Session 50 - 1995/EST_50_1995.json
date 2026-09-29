@@ -1,0 +1,53 @@
+{
+ "id": "EST_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  18,
+  30,
+  43,
+  51,
+  61,
+  79,
+  88,
+  101,
+  116,
+  127
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "511286c299020d25baa8c52a60aa5a7cdb49e78f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1066,
+  "words_out": 1064,
+  "retention": 0.9981,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   34,
+   121,
+   89,
+   107,
+   67,
+   71,
+   146,
+   65,
+   107,
+   129,
+   90,
+   38
+  ],
+  "warnings": []
+ }
+}

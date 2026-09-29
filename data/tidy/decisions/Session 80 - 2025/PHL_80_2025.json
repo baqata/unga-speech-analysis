@@ -1,0 +1,83 @@
+{
+ "id": "PHL_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   110,
+   110,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  10,
+  23,
+  31,
+  34,
+  39,
+  45,
+  52,
+  58,
+  65,
+  76,
+  83,
+  91,
+  101,
+  109
+ ],
+ "cer": [
+  109
+ ],
+ "fix": [
+  [
+   32,
+   "BARM",
+   "BARMM",
+   "asr_name"
+  ],
+  [
+   50,
+   "agility criteria",
+   "eligibility criteria",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ce711606c70717cae61eb4520ea4f63e6940b68",
+ "layout": "single",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1978,
+  "words_out": 1945,
+  "retention": 0.9833,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   183,
+   155,
+   182,
+   71,
+   84,
+   103,
+   117,
+   84,
+   138,
+   168,
+   150,
+   155,
+   162,
+   189,
+   4
+  ],
+  "warnings": []
+ }
+}

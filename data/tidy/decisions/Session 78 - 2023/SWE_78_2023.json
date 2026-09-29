@@ -1,0 +1,138 @@
+{
+ "id": "SWE_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  19,
+  29,
+  32,
+  40,
+  44,
+  51,
+  54,
+  60,
+  68,
+  81,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "Sea. deliberately",
+   "Sea, deliberately",
+   "ocr"
+  ],
+  [
+   4,
+   "so. Russia",
+   "so, Russia",
+   "ocr"
+  ],
+  [
+   8,
+   "law.",
+   "law,",
+   "ocr"
+  ],
+  [
+   10,
+   "happen.",
+   "happen,",
+   "ocr"
+  ],
+  [
+   15,
+   "right.",
+   "right,",
+   "ocr"
+  ],
+  [
+   19,
+   "law. including",
+   "law, including",
+   "ocr"
+  ],
+  [
+   38,
+   "SDGs. working",
+   "SDGs, working",
+   "ocr"
+  ],
+  [
+   47,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   54,
+   "technologies. including",
+   "technologies, including",
+   "ocr"
+  ],
+  [
+   58,
+   "Rwanda.",
+   "Rwanda,",
+   "ocr"
+  ],
+  [
+   68,
+   "months.",
+   "months,",
+   "ocr"
+  ],
+  [
+   74,
+   "years.",
+   "years,",
+   "ocr"
+  ],
+  [
+   79,
+   "act. which",
+   "act, which",
+   "ocr"
+  ],
+  [
+   92,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b575eec340990321f631bc190271b06673b1a974",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1651,
+  "words_out": 1649,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   159,
+   118,
+   78,
+   143,
+   66,
+   156,
+   67,
+   120,
+   60,
+   100,
+   136,
+   216,
+   98,
+   132
+  ],
+  "warnings": []
+ }
+}

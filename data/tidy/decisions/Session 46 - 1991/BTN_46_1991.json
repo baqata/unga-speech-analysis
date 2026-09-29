@@ -1,0 +1,126 @@
+{
+ "id": "BTN_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  16,
+  20,
+  29,
+  40,
+  50,
+  57,
+  60,
+  63,
+  68,
+  76,
+  88,
+  98,
+  101,
+  107,
+  114,
+  119,
+  126,
+  129
+ ],
+ "cer": [
+  0,
+  4,
+  16
+ ],
+ "fix": [
+  [
+   26,
+   "daily, The",
+   "daily. The",
+   "ocr"
+  ],
+  [
+   26,
+   "Soviet Onion",
+   "Soviet Union",
+   "ocr"
+  ],
+  [
+   35,
+   "(A/45/1, p. 2) ",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "ruler.",
+   "ruler,",
+   "ocr"
+  ],
+  [
+   69,
+   "Asian Rations",
+   "Asian Nations",
+   "ocr"
+  ],
+  [
+   117,
+   "Bio de Janeiro",
+   "Rio de Janeiro",
+   "ocr"
+  ],
+  [
+   118,
+   "He hope",
+   "We hope",
+   "ocr"
+  ],
+  [
+   120,
+   "He take",
+   "We take",
+   "ocr"
+  ],
+  [
+   124,
+   "(UNICBF)",
+   "(UNICEF)",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dc970c6f8d16b0544c746459356a99db85e242ec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2629,
+  "words_out": 2626,
+  "retention": 0.9989,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   118,
+   152,
+   110,
+   97,
+   127,
+   159,
+   164,
+   141,
+   62,
+   54,
+   79,
+   176,
+   176,
+   232,
+   64,
+   114,
+   96,
+   103,
+   215,
+   71,
+   116
+  ],
+  "warnings": []
+ }
+}

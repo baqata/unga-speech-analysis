@@ -1,0 +1,245 @@
+{
+ "id": "DZA_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   110,
+   111,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  13,
+  18,
+  20,
+  23,
+  29,
+  34,
+  40,
+  46,
+  52,
+  57,
+  62,
+  68,
+  72,
+  76,
+  78,
+  82,
+  85,
+  91,
+  97,
+  100,
+  105
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   26,
+   "the the balances",
+   "the balances",
+   "asr_term"
+  ],
+  [
+   45,
+   "Al-Quds as Sharif",
+   "Al-Quds al-Sharif",
+   "asr_name"
+  ],
+  [
+   72,
+   "India",
+   "Algeria",
+   "asr_name"
+  ],
+  [
+   73,
+   "Abdelmageed Tabun",
+   "Abdelmadjid Tebboune",
+   "asr_name"
+  ],
+  [
+   75,
+   "There are",
+   "They are",
+   "asr_term"
+  ],
+  [
+   86,
+   "Abdelmageed Tabbouni",
+   "Abdelmadjid Tebboune",
+   "asr_name"
+  ],
+  [
+   18,
+   "system. it",
+   "system. It",
+   "asr_term"
+  ],
+  [
+   22,
+   "itself. this",
+   "itself. This",
+   "asr_term"
+  ],
+  [
+   28,
+   "war. as",
+   "war as",
+   "asr_term"
+  ],
+  [
+   35,
+   "history. not",
+   "history. Not",
+   "asr_term"
+  ],
+  [
+   43,
+   "solution. that",
+   "solution. That",
+   "asr_term"
+  ],
+  [
+   80,
+   "Nations. and",
+   "Nations and",
+   "asr_term"
+  ],
+  [
+   81,
+   "nation. only",
+   "nation. Only",
+   "asr_term"
+  ],
+  [
+   84,
+   "people. based",
+   "people. Based",
+   "asr_term"
+  ],
+  [
+   87,
+   "advice. advancement.",
+   "advancement.",
+   "asr_term"
+  ],
+  [
+   104,
+   "politics. our",
+   "politics. Our",
+   "asr_term"
+  ],
+  [
+   107,
+   "whims. let",
+   "whims. Let",
+   "asr_term"
+  ],
+  [
+   50,
+   "They",
+   "Algeria",
+   "asr_name"
+  ],
+  [
+   54,
+   "unable",
+   "enabled",
+   "asr_term"
+  ],
+  [
+   58,
+   "Algeria stresses",
+   "First Algeria stresses",
+   "asr_term"
+  ],
+  [
+   70,
+   "collective The",
+   "collective",
+   "asr_term"
+  ],
+  [
+   77,
+   "challenges. will",
+   "challenges. We will",
+   "asr_term"
+  ],
+  [
+   99,
+   "states, that",
+   "states, and that",
+   "asr_term"
+  ],
+  [
+   20,
+   "prevents us",
+   "presents us",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 1 invented over the walk to the podium; Khalilur Rahman, Al-Quds al-Sharif, Argelia (unit 72), President Tebboune per Spanish channel and official spelling. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 18 'system. it' -> 'system. It'; unit 22 'itself. this' -> 'itself. This'; unit 28 'war. as' -> 'war as'; unit 35 'history. not' -> 'history. Not'; unit 43 'solution. that' -> 'solution. That'; unit 77 'challenges. will' -> 'challenges. Will'; unit 80 'Nations. and' -> 'Nations and'; unit 81 'nation. only' -> 'nation. Only'; unit 84 'people. based' -> 'people. Based'; unit 87 'advice. advancement.' -> 'advancement.' (two re-decodes hear 'national advancement' once (p 0.95-0.98)); unit 104 'politics. our' -> 'politics. Our'; unit 107 'whims. let' -> 'whims. Let'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 20 'prevents us' -> 'presents us' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'prevents' (decodes 1.00 / 1.00, the UN transcript; forced scoring -0.0 vs 'presents' -8.8); 'prevents us with a fundamental question' does not fit, the Spanish 'sino también una cuestión fundamental' has the theme raise a question, and 'presents us with' is the evident counterpart); spot 5 unit 50 'They' -> 'Algeria' (both decodes hear 'Algeria' 1.00 where the first pass wrote 'They'; forced scoring 'Algeria will continue' -4.1 vs 'They will continue' -14.1; UN 'Algeria'; 'They' has no antecedent; ES 'Seguiremos apoyando'); spot 7 unit 54 'unable' -> 'enabled' (decodes 'unable' only 0.77 / 0.86; 'decolonization ends when people are unable to exercise their rights' contradicts the argument; sounds alike; ES 'la descolonización termina cuando se permite a los pueblos el ejercicio de los derechos'); spot 8 unit 58 'Algeria stresses' -> 'First Algeria stresses' (2026 exception: both decodes hear 'first' 0.96 / 0.95; ES 'Primero, Argelia resalta'; comma not added); spot 11 unit 70 'collective The' -> 'collective' (doubled article: both decodes hear 'collective memory' (1149.5 / 1149.9 s) with no second 'The'); spot 13 unit 77 'challenges. will' -> 'challenges. We will' (2026 exception, inside the existing repair: both decodes hear 'We' 0.98 / 0.99; ES 'Tendremos la mano' (first person plural)); spot 15 unit 99 'states, that' -> 'states, and that' (2026 exception: decodes hear 'and' 0.84 / 1.00; ES 'preservar la soberanía de los Estados y convierta esta revolución')",
+ "unitizer_version": 1,
+ "sha1": "a9eac67f4e59c96a366cb2faf94b2cf88df9a3f0",
+ "layout": "single",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3035,
+  "words_out": 2936,
+  "retention": 0.9674,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   152,
+   74,
+   133,
+   130,
+   99,
+   121,
+   88,
+   228,
+   155,
+   110,
+   120,
+   171,
+   120,
+   109,
+   84,
+   106,
+   117,
+   115,
+   157,
+   143,
+   115,
+   140,
+   149
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

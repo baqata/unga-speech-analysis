@@ -1,0 +1,96 @@
+{
+ "id": "RWA_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   90,
+   90,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  16,
+  24,
+  27,
+  33,
+  38,
+  46,
+  54,
+  60,
+  67,
+  72,
+  80,
+  86,
+  89
+ ],
+ "cer": [
+  1,
+  89
+ ],
+ "fix": [
+  [
+   1,
+   "Annalena Barboc",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   4,
+   "Annalena Barboc",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   5,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   87,
+   "UN Feed for Purpose",
+   "UN Fit for Purpose",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21a017a6e567cd8d92ceaa5b81efaf0f1df63dca",
+ "layout": "single",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1792,
+  "words_out": 1756,
+  "retention": 0.9799,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   75,
+   170,
+   199,
+   59,
+   128,
+   109,
+   106,
+   162,
+   162,
+   174,
+   102,
+   113,
+   101,
+   93,
+   3
+  ],
+  "warnings": []
+ }
+}

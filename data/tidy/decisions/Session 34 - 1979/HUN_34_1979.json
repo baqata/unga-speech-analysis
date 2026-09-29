@@ -1,0 +1,58 @@
+{
+ "id": "HUN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  9,
+  13,
+  16,
+  18,
+  22,
+  27
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   " [PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 1 breaks off mid-sentence and resumes in a passage on Kampuchea, so text appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "96ab0b7157124804e91d881756b78a706d89980b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 11
+  },
+  "words_in": 937,
+  "words_out": 936,
+  "retention": 0.9989,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   36,
+   91,
+   51,
+   66,
+   132,
+   82,
+   68,
+   194,
+   141,
+   75
+  ],
+  "warnings": []
+ }
+}

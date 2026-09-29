@@ -1,0 +1,54 @@
+{
+ "id": "LAO_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  19,
+  24,
+  26,
+  31,
+  34,
+  39,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6d3b63d41583ec51a581ee8a39f70155c70c668",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1341,
+  "words_out": 1340,
+  "retention": 0.9993,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   55,
+   186,
+   176,
+   143,
+   64,
+   154,
+   115,
+   189,
+   179,
+   79
+  ],
+  "warnings": []
+ }
+}

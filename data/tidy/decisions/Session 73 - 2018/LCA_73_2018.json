@@ -1,0 +1,82 @@
+{
+ "id": "LCA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  20,
+  25,
+  29,
+  32,
+  36,
+  42,
+  50,
+  53,
+  57,
+  61,
+  67,
+  70,
+  76,
+  79,
+  82,
+  85,
+  89,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   12,
+   "self- evident",
+   "self-evident",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a061aa8f984bcf56b4711c3ab75a966b91f54da9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2271,
+  "words_out": 2269,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   136,
+   116,
+   132,
+   131,
+   104,
+   70,
+   112,
+   147,
+   165,
+   74,
+   84,
+   116,
+   91,
+   70,
+   128,
+   69,
+   71,
+   114,
+   137,
+   87,
+   115
+  ],
+  "warnings": []
+ }
+}

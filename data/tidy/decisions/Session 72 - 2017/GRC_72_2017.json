@@ -1,0 +1,66 @@
+{
+ "id": "GRC_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  14,
+  16,
+  20,
+  23,
+  25,
+  27,
+  33,
+  38,
+  42,
+  46,
+  51,
+  54,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   47,
+   "good- neighbourly",
+   "good-neighbourly",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8aad6ed0e36902f2b978127226cacdb713fde682",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1717,
+  "words_out": 1716,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   57,
+   106,
+   116,
+   82,
+   106,
+   117,
+   91,
+   101,
+   157,
+   108,
+   67,
+   86,
+   185,
+   117,
+   169,
+   51
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "DNK_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  16,
+  24,
+  27,
+  32,
+  36,
+  40,
+  45,
+  49,
+  57,
+  63,
+  69,
+  75
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "Assembly,",
+   "Assembly.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d5c9726b212fa752b5088e735c4501b02589cd2d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2021,
+  "words_out": 2016,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   123,
+   107,
+   128,
+   162,
+   98,
+   149,
+   103,
+   157,
+   121,
+   128,
+   148,
+   153,
+   150,
+   191,
+   98
+  ],
+  "warnings": []
+ }
+}

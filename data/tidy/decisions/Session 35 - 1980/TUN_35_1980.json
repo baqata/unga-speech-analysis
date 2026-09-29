@@ -1,0 +1,123 @@
+{
+ "id": "TUN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  17,
+  21,
+  29,
+  37,
+  45,
+  49,
+  55,
+  63,
+  64,
+  68,
+  71,
+  75,
+  80,
+  83,
+  87
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "1956,'",
+   "1956,",
+   "ocr"
+  ],
+  [
+   11,
+   "represents, the",
+   "represents the",
+   "ocr"
+  ],
+  [
+   30,
+   "every-where",
+   "everywhere",
+   "hyphen"
+  ],
+  [
+   37,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   49,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   54,
+   "some-times",
+   "sometimes",
+   "hyphen"
+  ],
+  [
+   69,
+   "Zion-ism",
+   "Zionism",
+   "hyphen"
+  ],
+  [
+   71,
+   "com-munity",
+   "community",
+   "hyphen"
+  ],
+  [
+   74,
+   "cohesive- ness",
+   "cohesiveness",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cdb5dbf6b49809c6ed8db1875dc0fa3be15a03bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2948,
+  "words_out": 2946,
+  "retention": 0.9993,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   126,
+   133,
+   140,
+   211,
+   90,
+   225,
+   270,
+   237,
+   131,
+   129,
+   201,
+   72,
+   123,
+   119,
+   93,
+   216,
+   87,
+   100,
+   243
+  ],
+  "warnings": []
+ }
+}

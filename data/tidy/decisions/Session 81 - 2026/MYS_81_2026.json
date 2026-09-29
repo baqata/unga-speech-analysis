@@ -1,0 +1,255 @@
+{
+ "id": "MYS_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   101,
+   101,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  6,
+  17,
+  23,
+  35,
+  45,
+  53,
+  59,
+  68,
+  75,
+  82,
+  89,
+  95,
+  97
+ ],
+ "cer": [
+  2,
+  4,
+  95
+ ],
+ "fix": [
+  [
+   2,
+   "Ready for Lab dum ding 되는데Turn Samsung Cliff Wallace ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "join orders",
+   "join others",
+   "asr_term"
+  ],
+  [
+   4,
+   "Khalilu Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   5,
+   "Dr. Khalilu,",
+   "Dr. Khalilur,",
+   "asr_name"
+  ],
+  [
+   10,
+   "armed control",
+   "arms control",
+   "asr_term"
+  ],
+  [
+   11,
+   "institution, Canada.",
+   "institutions can adapt.",
+   "asr_term"
+  ],
+  [
+   19,
+   "count the date",
+   "count the dead",
+   "asr_term"
+  ],
+  [
+   26,
+   "children met orphans",
+   "children made orphans",
+   "asr_term"
+  ],
+  [
+   30,
+   "primitive actions",
+   "punitive actions",
+   "asr_term"
+  ],
+  [
+   36,
+   "the coming Saudi",
+   "the shortcomings of the",
+   "asr_term"
+  ],
+  [
+   44,
+   "Secretary Council",
+   "Security Council",
+   "asr_name"
+  ],
+  [
+   49,
+   "armed race",
+   "arms race",
+   "asr_term"
+  ],
+  [
+   50,
+   "overtreat, overused",
+   "overt threats of use of",
+   "asr_term"
+  ],
+  [
+   52,
+   "cause correctness",
+   "course correct",
+   "asr_term"
+  ],
+  [
+   67,
+   "take infrastructure",
+   "tech infrastructure",
+   "asr_term"
+  ],
+  [
+   70,
+   "Bab Al-Madad",
+   "Bab al-Mandab",
+   "asr_name"
+  ],
+  [
+   85,
+   "this whole",
+   "this hall",
+   "asr_term"
+  ],
+  [
+   94,
+   "ill will act",
+   "it will act",
+   "asr_term"
+  ],
+  [
+   94,
+   "forgotten then",
+   "forgotten them",
+   "asr_term"
+  ],
+  [
+   99,
+   "silences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   83,
+   "began. began.",
+   "began.",
+   "asr_term"
+  ],
+  [
+   14,
+   "today. and",
+   "today. And",
+   "asr_term"
+  ],
+  [
+   51,
+   "AI. and",
+   "AI and",
+   "asr_term"
+  ],
+  [
+   68,
+   "begin. technologies",
+   "begin. Technologies",
+   "asr_term"
+  ],
+  [
+   74,
+   "abandoned. or",
+   "abandoned. Or",
+   "asr_term"
+  ],
+  [
+   94,
+   "act. that",
+   "act. That",
+   "asr_term"
+  ],
+  [
+   74,
+   "paths",
+   "path",
+   "asr_term"
+  ],
+  [
+   91,
+   "rule",
+   "ruled",
+   "asr_term"
+  ],
+  [
+   23,
+   "research statistics",
+   "recite statistics",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 opens with invented second-pass text, removed by label; Khalilur Rahman is the PGA of the 81st session (UN); repairs per the Spanish channel ('control de armas', 'adaptarse', 'muertos', 'recitar', 'punitivas', 'carencias', 'amenazas claras de uso', 'corregir el rumbo', 'Babel Mandeb', 'sala', 'les ha olvidado'). Main-agent audit: unit 50 'overt threats of use of' confirmed: re-decodes place 'overtreat' at 352.7-353.8 s and 'overused' at 353.8-355.1 s (p 0.59-0.81), the sounds of 'overt threats' and 'of use of'; Spanish 'amenazas claras de uso de'. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 83 'began. began.' -> 'began.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 14 'today. and' -> 'today. And'; unit 51 'AI. and' -> 'AI and'; unit 68 'begin. technologies' -> 'begin. Technologies'; unit 74 'abandoned. or' -> 'abandoned. Or'; unit 94 'act. that' -> 'act. That'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 23 'research statistics' -> 'recite statistics' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'research' (decodes and four re-decodes 0.76-0.90, the UN transcript; forced scoring -11.7 vs 'recite' -19.1); 'will not stand here and research statistics that everyone in this hall already knows' does not fit, and the Spanish 'no vamos a estar aquí para recitar las estadísticas' shows 'recite'); spot 20 unit 74 'paths' -> 'path' (both decodes hear 'path' (0.78 / 0.48), decode 1 as 'That path must not'; ES 'hemos de ir pues por esta vía'); spot 25 unit 91 'rule' -> 'ruled' (final -d merges with 'by' (decodes 'rule' 0.94 / 0.95); 'a world rule by power alone' does not fit; ES 'un mundo en el que solo el poder cuente')",
+ "unitizer_version": 1,
+ "sha1": "9a9ae6d94fe29817719fa25d20517b752d487e65",
+ "layout": "single",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1485,
+  "words_out": 1452,
+  "retention": 0.9778,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   4,
+   54,
+   129,
+   79,
+   143,
+   148,
+   116,
+   76,
+   145,
+   137,
+   93,
+   88,
+   137,
+   49,
+   54
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "DNK_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  35,
+  63,
+  84,
+  94,
+  111,
+  136,
+  165,
+  180,
+  194
+ ],
+ "cer": [
+  180
+ ],
+ "fix": [
+  [
+   3,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "97a383af1d894ee4f91e2b9643d269660d16f570",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1777,
+  "words_out": 1770,
+  "retention": 0.9961,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   76,
+   197,
+   214,
+   157,
+   76,
+   142,
+   200,
+   215,
+   127,
+   117,
+   249
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "DOM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  19,
+  29,
+  43,
+  51,
+  66,
+  75,
+  89,
+  101,
+  110,
+  123,
+  134,
+  145,
+  155,
+  164,
+  173,
+  185,
+  201,
+  213,
+  229,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "f lora",
+   "flora",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d98b2b9c925fdbf813aa291283c7ddb009aa4d79",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 250,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2039,
+  "words_out": 2035,
+  "retention": 0.998,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   20,
+   108,
+   81,
+   125,
+   68,
+   126,
+   70,
+   117,
+   100,
+   78,
+   115,
+   115,
+   91,
+   70,
+   65,
+   65,
+   103,
+   125,
+   98,
+   135,
+   78,
+   82
+  ],
+  "warnings": []
+ }
+}

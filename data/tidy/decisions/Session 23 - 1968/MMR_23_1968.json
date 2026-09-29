@@ -1,0 +1,72 @@
+{
+ "id": "MMR_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  12,
+  18,
+  23,
+  28,
+  34,
+  37,
+  43,
+  47,
+  51,
+  56,
+  59
+ ],
+ "cer": [
+  0,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   5,
+   "element fur their",
+   "element for their",
+   "ocr"
+  ],
+  [
+   26,
+   "Assembly. |",
+   "Assembly.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3e90c8c0c6897a1934988aa4adf36dbec7f53a8c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2077,
+  "words_out": 2061,
+  "retention": 0.9923,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   137,
+   109,
+   108,
+   70,
+   233,
+   181,
+   192,
+   161,
+   108,
+   213,
+   124,
+   137,
+   148,
+   73,
+   67
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "PSE_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  39,
+  56,
+  79,
+  101,
+  120,
+  137,
+  158,
+  171,
+  198,
+  213,
+  232,
+  252,
+  266
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   258,
+   " (see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c8a6e151a44c0600a43be7209882fe3ad7fe0e6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 280,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2215,
+  "words_out": 2213,
+  "retention": 0.9991,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   165,
+   142,
+   119,
+   171,
+   183,
+   153,
+   142,
+   170,
+   99,
+   208,
+   118,
+   147,
+   161,
+   113,
+   122
+  ],
+  "warnings": []
+ }
+}

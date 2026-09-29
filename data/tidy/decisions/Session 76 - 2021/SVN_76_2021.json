@@ -1,0 +1,56 @@
+{
+ "id": "SVN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  16,
+  21,
+  27,
+  32,
+  37,
+  41,
+  45,
+  50,
+  54,
+  57
+ ],
+ "cer": [],
+ "fix": [
+  [
+   56,
+   "regular- budget",
+   "regular-budget",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55d09e143c40f73cb9671f0ba726232c99897243",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1263,
+  "words_out": 1262,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   139,
+   140,
+   126,
+   115,
+   100,
+   116,
+   82,
+   126,
+   100,
+   78,
+   65,
+   75
+  ],
+  "warnings": []
+ }
+}

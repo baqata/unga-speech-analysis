@@ -1,0 +1,220 @@
+{
+ "id": "CHL_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   155,
+   155,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  10,
+  20,
+  29,
+  43,
+  49,
+  53,
+  62,
+  70,
+  75,
+  79,
+  89,
+  102,
+  112,
+  120,
+  134,
+  142,
+  154
+ ],
+ "cer": [
+  2,
+  154
+ ],
+ "fix": [
+  [
+   68,
+   "Magallan",
+   "Magellan",
+   "asr_name"
+  ],
+  [
+   19,
+   "stencil",
+   "standstill",
+   "asr_term"
+  ],
+  [
+   32,
+   "induce",
+   "reduce",
+   "asr_term"
+  ],
+  [
+   69,
+   "bio-oceanic",
+   "bi-oceanic",
+   "asr_term"
+  ],
+  [
+   27,
+   "six years",
+   "six months",
+   "interp"
+  ],
+  [
+   35,
+   "through their ports",
+   "through the door",
+   "interp"
+  ],
+  [
+   66,
+   "productor",
+   "producer",
+   "interp"
+  ],
+  [
+   94,
+   "taxes that",
+   "rates that",
+   "interp"
+  ],
+  [
+   107,
+   "too quick to act",
+   "too slow to act",
+   "interp"
+  ],
+  [
+   117,
+   "we now have",
+   "we would have",
+   "interp"
+  ],
+  [
+   138,
+   "at that time in 1945",
+   "at that time",
+   "interp"
+  ],
+  [
+   54,
+   "change. change",
+   "change. Change",
+   "asr_term"
+  ],
+  [
+   72,
+   "we have we have",
+   "we have",
+   "interp"
+  ],
+  [
+   109,
+   "countries. countries.",
+   "countries.",
+   "asr_term"
+  ],
+  [
+   8,
+   "Antarctic. the",
+   "Antarctic. The",
+   "asr_term"
+  ],
+  [
+   19,
+   "it. investment",
+   "it. Investment",
+   "asr_term"
+  ],
+  [
+   48,
+   "decreased. we",
+   "decreased. We",
+   "asr_term"
+  ],
+  [
+   63,
+   "day. you",
+   "day. You",
+   "asr_term"
+  ],
+  [
+   72,
+   "sovereignty. neither",
+   "sovereignty. Neither",
+   "asr_term"
+  ],
+  [
+   94,
+   "arrive. entire",
+   "arrive. Entire",
+   "asr_term"
+  ],
+  [
+   151,
+   "that. but",
+   "that but",
+   "asr_term"
+  ],
+  [
+   94,
+   "settling",
+   "settle in",
+   "asr_term"
+  ],
+  [
+   145,
+   "Chile as",
+   "Chile is",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Bilingual review (r02), speaker's words or evidence: unit 27 'six years' -> 'six months' (Llevamos seis meses); unit 35 'through their ports' -> 'through the door' (se entra por la puerta); unit 66 'productor' -> 'producer' (primer productor); unit 94 'taxes that' -> 'rates that' (tasas que no bajan); unit 107 'too quick to act' -> 'too slow to act' (ejecuta con lentitud); unit 117 'we now have' -> 'we would have' (de lograrlo); unit 138 'at that time in 1945' -> 'at that time' (Entonces éramos 7 millones (no year said)). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 54 'change. change' -> 'change. Change' (said twice; capital restored); unit 72 'we have we have' -> 'we have' (inside a segment; the re-decodes differ and the Spanish has it once); unit 109 'countries. countries.' -> 'countries.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'Antarctic. the' -> 'Antarctic. The'; unit 19 'it. investment' -> 'it. Investment'; unit 48 'decreased. we' -> 'decreased. We'; unit 63 'day. you' -> 'day. You'; unit 72 'sovereignty. neither' -> 'sovereignty. Neither'; unit 94 'arrive. entire' -> 'arrive. Entire'; unit 151 'that. but' -> 'that but'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 16 unit 94 'settling' -> 'settle in' (both decodes hear 'settle in' (0.71 / 0.76, 'in' 0.99 / 0.98); 'seen stagnation settling for wars' does not fit; sounds alike); spot 31 unit 145 'Chile as' -> 'Chile is' (decode 1 hears 'is' (0.88), decode 2 'as' (0.80); 'Chile as getting back on its feet' does not fit; sounds alike; ES 'Un país que se está levantando')",
+ "unitizer_version": 1,
+ "sha1": "d5868ff847f49af529b7d2b59c0c74cfc6a1ac74",
+ "layout": "single",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2653,
+  "words_out": 2601,
+  "retention": 0.9804,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   79,
+   137,
+   106,
+   137,
+   172,
+   111,
+   74,
+   166,
+   154,
+   159,
+   117,
+   154,
+   199,
+   200,
+   180,
+   223,
+   93,
+   138,
+   2
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

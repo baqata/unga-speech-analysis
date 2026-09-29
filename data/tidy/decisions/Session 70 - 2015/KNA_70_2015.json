@@ -1,0 +1,84 @@
+{
+ "id": "KNA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  18,
+  24,
+  27,
+  32,
+  35,
+  39,
+  44,
+  49,
+  56,
+  58,
+  62,
+  67,
+  72,
+  74,
+  77,
+  80
+ ],
+ "cer": [
+  0,
+  80
+ ],
+ "fix": [
+  [
+   11,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   57,
+   "mother- to-child",
+   "mother-to-child",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7c650c8c52031bc5eb3f9982c41a9bfd4e2eea7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 4
+  },
+  "words_in": 1922,
+  "words_out": 1918,
+  "retention": 0.9979,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   75,
+   129,
+   66,
+   160,
+   156,
+   68,
+   97,
+   62,
+   90,
+   94,
+   100,
+   159,
+   70,
+   118,
+   120,
+   100,
+   51,
+   105,
+   87,
+   11
+  ],
+  "warnings": []
+ }
+}

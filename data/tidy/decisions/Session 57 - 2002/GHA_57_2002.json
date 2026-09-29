@@ -1,0 +1,74 @@
+{
+ "id": "GHA_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  31,
+  47,
+  62,
+  76,
+  88,
+  105,
+  121,
+  135,
+  148,
+  168,
+  177,
+  189,
+  201,
+  206
+ ],
+ "cer": [
+  201
+ ],
+ "fix": [
+  [
+   179,
+   "Childrenës",
+   "Children's",
+   "encoding"
+  ],
+  [
+   188,
+   "Ghanaës",
+   "Ghana's",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33e82e4d41b43abc56edb07210213379f5e5ee07",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 218,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1790,
+  "words_out": 1788,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   146,
+   119,
+   131,
+   129,
+   115,
+   100,
+   132,
+   123,
+   113,
+   100,
+   162,
+   73,
+   96,
+   101,
+   35,
+   113
+  ],
+  "warnings": []
+ }
+}

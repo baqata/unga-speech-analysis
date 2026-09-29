@@ -1,0 +1,63 @@
+{
+ "id": "SLB_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  30,
+  45,
+  61,
+  73,
+  83,
+  92,
+  109,
+  130,
+  143,
+  159,
+  169,
+  187,
+  206,
+  225,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b78420d1ba8a7cab9b75d1604d2e1713609f6d9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1971,
+  "words_out": 1968,
+  "retention": 0.9985,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   121,
+   118,
+   100,
+   115,
+   93,
+   73,
+   63,
+   122,
+   155,
+   96,
+   118,
+   72,
+   133,
+   144,
+   154,
+   167,
+   124
+  ],
+  "warnings": []
+ }
+}

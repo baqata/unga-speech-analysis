@@ -1,0 +1,116 @@
+{
+ "id": "KWT_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  14,
+  21,
+  26,
+  32,
+  36,
+  42,
+  47,
+  50,
+  54,
+  58,
+  63,
+  66,
+  74,
+  79,
+  85,
+  88,
+  90,
+  96,
+  102,
+  107,
+  113,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "one if has",
+   "one it has",
+   "ocr"
+  ],
+  [
+   23,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ],
+  [
+   24,
+   "have m the past",
+   "have in the past",
+   "ocr"
+  ],
+  [
+   46,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   78,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   84,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c1bcea94e097ded064e717074c1d08120b9f3eb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3315,
+  "words_out": 3310,
+  "retention": 0.9985,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   143,
+   68,
+   176,
+   166,
+   97,
+   118,
+   121,
+   133,
+   169,
+   84,
+   91,
+   125,
+   155,
+   68,
+   212,
+   137,
+   151,
+   151,
+   96,
+   157,
+   155,
+   136,
+   161,
+   66,
+   174
+  ],
+  "warnings": []
+ }
+}

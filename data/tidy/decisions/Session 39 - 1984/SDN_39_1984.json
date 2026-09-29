@@ -1,0 +1,107 @@
+{
+ "id": "SDN_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  19,
+  23,
+  29,
+  33,
+  35,
+  39,
+  42,
+  47,
+  54,
+  56,
+  62,
+  65,
+  72,
+  76,
+  82,
+  87,
+  90,
+  91,
+  94,
+  98,
+  99,
+  106,
+  111,
+  115,
+  120
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   71,
+   "Sowe-to",
+   "Soweto",
+   "hyphen"
+  ],
+  [
+   72,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   93,
+   "com-munity",
+   "community",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 51 and 54 appear to lack a word in the source.",
+ "unitizer_version": 1,
+ "sha1": "05d8ec62bb3217482a2ce3f5fad725cb9a6333c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3495,
+  "words_out": 3494,
+  "retention": 0.9997,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   101,
+   75,
+   127,
+   152,
+   118,
+   134,
+   108,
+   73,
+   95,
+   91,
+   110,
+   143,
+   109,
+   162,
+   67,
+   165,
+   92,
+   142,
+   100,
+   104,
+   57,
+   240,
+   153,
+   62,
+   194,
+   135,
+   137,
+   101,
+   147
+  ],
+  "warnings": []
+ }
+}

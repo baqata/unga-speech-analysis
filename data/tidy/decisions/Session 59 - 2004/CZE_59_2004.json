@@ -1,0 +1,53 @@
+{
+ "id": "CZE_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  20,
+  39,
+  58,
+  78,
+  98,
+  110,
+  124,
+  142,
+  161,
+  187
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0305cad389899934339140cd33ab954a6482e09",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1571,
+  "words_out": 1569,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   49,
+   101,
+   153,
+   150,
+   160,
+   156,
+   101,
+   120,
+   138,
+   151,
+   192,
+   98
+  ],
+  "warnings": []
+ }
+}

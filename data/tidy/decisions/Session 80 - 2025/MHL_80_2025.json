@@ -1,0 +1,73 @@
+{
+ "id": "MHL_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   79,
+   79,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  12,
+  19,
+  25,
+  30,
+  35,
+  44,
+  55,
+  59,
+  65,
+  70,
+  78
+ ],
+ "cer": [
+  78
+ ],
+ "fix": [
+  [
+   18,
+   "57 Stroke 26",
+   "57/26",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "99eb35b43878d7985343314cf1712bf72f4e456b",
+ "layout": "single",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1900,
+  "words_out": 1845,
+  "retention": 0.9711,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   103,
+   158,
+   199,
+   160,
+   135,
+   166,
+   166,
+   214,
+   76,
+   142,
+   149,
+   173,
+   4
+  ],
+  "warnings": []
+ }
+}

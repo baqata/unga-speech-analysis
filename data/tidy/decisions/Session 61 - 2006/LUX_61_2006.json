@@ -1,0 +1,77 @@
+{
+ "id": "LUX_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  43,
+  57,
+  67,
+  79,
+  88,
+  105,
+  123,
+  145,
+  161,
+  174,
+  195,
+  210,
+  223,
+  234,
+  254,
+  271,
+  282,
+  299
+ ],
+ "cer": [
+  271
+ ],
+ "fix": [
+  [
+   51,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2cec4fb1d14f86be9ed1feb586f74d4b0e416bc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 306,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 4
+  },
+  "words_in": 2438,
+  "words_out": 2431,
+  "retention": 0.9971,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   169,
+   163,
+   115,
+   76,
+   103,
+   73,
+   142,
+   130,
+   169,
+   125,
+   95,
+   163,
+   118,
+   102,
+   84,
+   158,
+   132,
+   100,
+   152,
+   62
+  ],
+  "warnings": []
+ }
+}

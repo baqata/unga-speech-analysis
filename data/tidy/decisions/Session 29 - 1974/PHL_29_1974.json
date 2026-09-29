@@ -1,0 +1,282 @@
+{
+ "id": "PHL_29_1974",
+ "drop": [
+  [
+   92,
+   92,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  18,
+  24,
+  30,
+  35,
+  39,
+  44,
+  48,
+  53,
+  57,
+  64,
+  67,
+  70,
+  75,
+  77,
+  84,
+  88,
+  93,
+  97,
+  102,
+  106,
+  110,
+  117,
+  120,
+  126,
+  131,
+  136,
+  140,
+  146,
+  152,
+  157,
+  160,
+  165
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   8,
+   "Philip pine",
+   "Philippine",
+   "split_word"
+  ],
+  [
+   30,
+   "up heaval",
+   "upheaval",
+   "split_word"
+  ],
+  [
+   36,
+   "not' deter",
+   "not deter",
+   "ocr"
+  ],
+  [
+   40,
+   "sec tors",
+   "sectors",
+   "split_word"
+  ],
+  [
+   44,
+   "hap less",
+   "hapless",
+   "split_word"
+  ],
+  [
+   60,
+   " [resolution 2626 (XXV)\\",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "manufactures,",
+   "manufactures.",
+   "ocr"
+  ],
+  [
+   61,
+   "Philip pines",
+   "Philippines",
+   "split_word"
+  ],
+  [
+   61,
+   "wide spread",
+   "widespread",
+   "split_word"
+  ],
+  [
+   69,
+   "100. ",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "con sider",
+   "consider",
+   "split_word"
+  ],
+  [
+   76,
+   "withdraw ; from",
+   "withdraw from",
+   "ocr"
+  ],
+  [
+   81,
+   "con firmed",
+   "confirmed",
+   "split_word"
+  ],
+  [
+   81,
+   "deter mine",
+   "determine",
+   "split_word"
+  ],
+  [
+   82,
+   "Palestine\".2",
+   "Palestine\".",
+   "ocr"
+  ],
+  [
+   83,
+   "subject j again",
+   "subject again",
+   "ocr"
+  ],
+  [
+   85,
+   "relation ships",
+   "relationships",
+   "split_word"
+  ],
+  [
+   88,
+   "(he People's",
+   "the People's",
+   "ocr"
+  ],
+  [
+   89,
+   "- Republic",
+   "Republic",
+   "ocr"
+  ],
+  [
+   104,
+   "all. mankind",
+   "all mankind",
+   "ocr"
+  ],
+  [
+   137,
+   "under take",
+   "undertake",
+   "split_word"
+  ],
+  [
+   147,
+   "system,",
+   "system.",
+   "ocr"
+  ],
+  [
+   155,
+   "working-",
+   "working.",
+   "ocr"
+  ],
+  [
+   156,
+   "govern mental",
+   "governmental",
+   "split_word"
+  ],
+  [
+   159,
+   "sup-port",
+   "support",
+   "hyphen"
+  ],
+  [
+   163,
+   "be come",
+   "become",
+   "split_word"
+  ],
+  [
+   167,
+   "be fore",
+   "before",
+   "split_word"
+  ],
+  [
+   114,
+   " [resolution 2200 A (XXI), annex]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1586a7419d0908faeba37f6e95ecbeacb69c84e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 60
+  },
+  "words_in": 4806,
+  "words_out": 4778,
+  "retention": 0.9942,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   131,
+   88,
+   70,
+   169,
+   139,
+   131,
+   127,
+   112,
+   102,
+   142,
+   182,
+   109,
+   223,
+   72,
+   108,
+   113,
+   72,
+   212,
+   71,
+   128,
+   142,
+   162,
+   123,
+   112,
+   185,
+   96,
+   123,
+   139,
+   160,
+   131,
+   195,
+   163,
+   201,
+   102,
+   102,
+   141
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

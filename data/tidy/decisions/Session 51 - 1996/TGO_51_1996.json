@@ -1,0 +1,80 @@
+{
+ "id": "TGO_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  35,
+  45,
+  66,
+  77,
+  94,
+  112,
+  131,
+  159,
+  187,
+  197,
+  209,
+  223,
+  243,
+  260,
+  277,
+  303,
+  325,
+  338,
+  351,
+  363
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   72,
+   "(resolution 50/6, first para.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "677aecee78835e0d9425b59ed02638b9ab2a55cc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 368,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3048,
+  "words_out": 3040,
+  "retention": 0.9974,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   173,
+   122,
+   78,
+   190,
+   82,
+   142,
+   147,
+   161,
+   239,
+   233,
+   87,
+   97,
+   110,
+   145,
+   140,
+   134,
+   210,
+   180,
+   119,
+   112,
+   96,
+   43
+  ],
+  "warnings": []
+ }
+}

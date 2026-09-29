@@ -1,0 +1,107 @@
+{
+ "id": "COG_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  17,
+  21,
+  23,
+  26,
+  33,
+  36,
+  39,
+  44,
+  48,
+  52,
+  58,
+  63,
+  71,
+  74,
+  76,
+  80,
+  87,
+  90,
+  93,
+  100,
+  106,
+  111,
+  114
+ ],
+ "cer": [
+  0,
+  111
+ ],
+ "fix": [
+  [
+   20,
+   " [2253 (ES-V) and 2254 (ES-V)]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "sanctions' serve",
+   "sanctions serve",
+   "ocr"
+  ],
+  [
+   73,
+   "14 February 1967, But we",
+   "14 February 1967. But we",
+   "ocr"
+  ],
+  [
+   81,
+   "their Vassal Governments",
+   "their vassal Governments",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "534ecdc07fe6e83ea669d3e69890f4d11e0c9b1d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3155,
+  "words_out": 3109,
+  "retention": 0.9854,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   274,
+   94,
+   97,
+   117,
+   83,
+   93,
+   171,
+   128,
+   91,
+   81,
+   91,
+   120,
+   112,
+   106,
+   166,
+   104,
+   68,
+   91,
+   170,
+   107,
+   73,
+   165,
+   137,
+   141,
+   103,
+   126
+  ],
+  "warnings": []
+ }
+}

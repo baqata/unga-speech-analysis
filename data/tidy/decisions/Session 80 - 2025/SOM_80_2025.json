@@ -1,0 +1,76 @@
+{
+ "id": "SOM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   74,
+   74,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  11,
+  19,
+  24,
+  27,
+  33,
+  37,
+  43,
+  48,
+  55,
+  61,
+  69,
+  73
+ ],
+ "cer": [
+  2,
+  73
+ ],
+ "fix": [
+  [
+   3,
+   "ADT",
+   "80th",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dcece4affee2712557245336e645ebfb89d93f6c",
+ "layout": "single",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1786,
+  "words_out": 1736,
+  "retention": 0.972,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   55,
+   179,
+   186,
+   130,
+   107,
+   151,
+   100,
+   154,
+   135,
+   156,
+   97,
+   175,
+   108,
+   3
+  ],
+  "warnings": []
+ }
+}

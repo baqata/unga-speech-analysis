@@ -1,0 +1,96 @@
+{
+ "id": "URY_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  21,
+  37,
+  48,
+  58,
+  74,
+  88,
+  98,
+  113,
+  127,
+  146,
+  165
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "ourselves ó",
+   "ourselves —",
+   "encoding"
+  ],
+  [
+   34,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   80,
+   "Haiti ó",
+   "Haiti —",
+   "encoding"
+  ],
+  [
+   102,
+   "victims ó",
+   "victims —",
+   "encoding"
+  ],
+  [
+   139,
+   "markets ó",
+   "markets —",
+   "encoding"
+  ],
+  [
+   140,
+   "open ó",
+   "open —",
+   "encoding"
+  ],
+  [
+   163,
+   "trade ó",
+   "trade —",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fbfd2b9eaee0d0fb0bb0d393353348db596d0e76",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1503,
+  "words_out": 1503,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   69,
+   114,
+   132,
+   91,
+   85,
+   128,
+   115,
+   88,
+   141,
+   109,
+   164,
+   163,
+   104
+  ],
+  "warnings": []
+ }
+}

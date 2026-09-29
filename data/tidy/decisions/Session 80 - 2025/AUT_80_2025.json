@@ -1,0 +1,63 @@
+{
+ "id": "AUT_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   91,
+   91,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  3,
+  14,
+  20,
+  31,
+  39,
+  51,
+  57,
+  73,
+  86,
+  90
+ ],
+ "cer": [
+  1,
+  90
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "514410e816570fe3a90cfe6d953de8f964bed1bc",
+ "layout": "single",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1413,
+  "words_out": 1382,
+  "retention": 0.9781,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   29,
+   184,
+   115,
+   179,
+   151,
+   216,
+   100,
+   152,
+   184,
+   68,
+   4
+  ],
+  "warnings": []
+ }
+}

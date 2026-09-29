@@ -1,0 +1,96 @@
+{
+ "id": "NLD_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  17,
+  25,
+  31,
+  40,
+  45,
+  53,
+  57,
+  62,
+  69,
+  74,
+  83,
+  88,
+  95,
+  102,
+  108,
+  115,
+  122,
+  129,
+  135
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "”,",
+   "”.",
+   "ocr"
+  ],
+  [
+   18,
+   "us-towards",
+   "us towards",
+   "spacing"
+  ],
+  [
+   42,
+   "Francisco,",
+   "Francisco.",
+   "ocr"
+  ],
+  [
+   108,
+   "4L ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a9989f03d4987de99212a3def7b2296cf5427e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 3214,
+  "words_out": 3209,
+  "retention": 0.9984,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   165,
+   89,
+   98,
+   139,
+   103,
+   152,
+   167,
+   186,
+   76,
+   179,
+   158,
+   95,
+   262,
+   130,
+   171,
+   170,
+   119,
+   212,
+   99,
+   211,
+   184,
+   44
+  ],
+  "warnings": []
+ }
+}

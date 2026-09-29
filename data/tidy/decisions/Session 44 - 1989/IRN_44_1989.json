@@ -1,0 +1,89 @@
+{
+ "id": "IRN_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  11,
+  16,
+  22,
+  30,
+  34,
+  37,
+  41,
+  46,
+  50,
+  53,
+  59,
+  63,
+  70,
+  79,
+  84,
+  90,
+  94,
+  96,
+  102
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   15,
+   "bio Powers",
+   "big Powers",
+   "ocr"
+  ],
+  [
+   102,
+   "1 hope",
+   "I hope",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 99 breaks off mid-sentence ('territorial') before the closing section.",
+ "unitizer_version": 1,
+ "sha1": "b13bebd5aa8001225bdd7d7304cf3cc2c913ab59",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2917,
+  "words_out": 2917,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   57,
+   37,
+   109,
+   107,
+   147,
+   191,
+   217,
+   116,
+   142,
+   122,
+   166,
+   116,
+   104,
+   119,
+   86,
+   166,
+   167,
+   153,
+   175,
+   127,
+   86,
+   189,
+   18
+  ],
+  "warnings": []
+ }
+}

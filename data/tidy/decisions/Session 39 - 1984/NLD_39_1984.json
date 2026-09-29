@@ -1,0 +1,201 @@
+{
+ "id": "NLD_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  14,
+  18,
+  23,
+  29,
+  37,
+  44,
+  52,
+  56,
+  60,
+  63,
+  65,
+  70,
+  74,
+  78,
+  84,
+  88,
+  91,
+  99,
+  101,
+  107,
+  111,
+  118,
+  123,
+  130,
+  132
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "life m larger",
+   "life in larger",
+   "ocr"
+  ],
+  [
+   15,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   22,
+   "in tum",
+   "in turn",
+   "ocr"
+  ],
+  [
+   22,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   40,
+   "Secretary General’s",
+   "Secretary-General’s",
+   "spacing"
+  ],
+  [
+   40,
+   "Organization,'",
+   "Organization,",
+   "ocr"
+  ],
+  [
+   42,
+   "Secretary General's",
+   "Secretary-General's",
+   "spacing"
+  ],
+  [
+   48,
+   "play m the",
+   "play in the",
+   "ocr"
+  ],
+  [
+   62,
+   "secretary General’s",
+   "Secretary-General’s",
+   "ocr"
+  ],
+  [
+   64,
+   " [see A/39/562]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "East West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   95,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   100,
+   "Secondly^",
+   "Secondly,",
+   "ocr"
+  ],
+  [
+   102,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   102,
+   "industrial Development",
+   "Industrial Development",
+   "ocr"
+  ],
+  [
+   111,
+   "secretary General’s",
+   "Secretary-General’s",
+   "ocr"
+  ],
+  [
+   111,
+   " [see A/39/1]",
+   "",
+   "label"
+  ],
+  [
+   130,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   131,
+   "secretary General",
+   "Secretary-General",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech refers to the European Community statement delivered by Ireland.",
+ "unitizer_version": 1,
+ "sha1": "6836f78ead88cd9e4c3ef142e4c1b7f9c88037ab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 3381,
+  "words_out": 3366,
+  "retention": 0.9956,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   111,
+   80,
+   184,
+   94,
+   119,
+   167,
+   153,
+   188,
+   160,
+   119,
+   108,
+   91,
+   74,
+   111,
+   96,
+   118,
+   163,
+   85,
+   78,
+   163,
+   67,
+   156,
+   92,
+   168,
+   102,
+   162,
+   83,
+   74
+  ],
+  "warnings": []
+ }
+}

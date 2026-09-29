@@ -1,0 +1,82 @@
+{
+ "id": "SLE_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  18,
+  24,
+  29,
+  38,
+  44,
+  50,
+  59,
+  67,
+  73,
+  79,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "high- level",
+   "high-level",
+   "spacing"
+  ],
+  [
+   31,
+   "Civil- society",
+   "Civil-society",
+   "spacing"
+  ],
+  [
+   34,
+   "seditious- libel",
+   "seditious-libel",
+   "spacing"
+  ],
+  [
+   92,
+   "post- COVID",
+   "post-COVID",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d28812733547031e6347ef26194a2bfcd5162fbe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2135,
+  "words_out": 2131,
+  "retention": 0.9981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   160,
+   147,
+   104,
+   87,
+   124,
+   120,
+   105,
+   158,
+   110,
+   194,
+   189,
+   125,
+   121,
+   150,
+   237
+  ],
+  "warnings": []
+ }
+}

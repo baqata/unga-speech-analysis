@@ -1,0 +1,102 @@
+{
+ "id": "MMR_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  24,
+  34,
+  40,
+  48,
+  54,
+  61,
+  70,
+  74,
+  85,
+  93,
+  98,
+  105,
+  109,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "a dear manifestation",
+   "a clear manifestation",
+   "ocr"
+  ],
+  [
+   17,
+   "of Burma.",
+   "of Burma,",
+   "ocr"
+  ],
+  [
+   37,
+   "Peopled Republic",
+   "People's Republic",
+   "ocr"
+  ],
+  [
+   77,
+   "has wort more",
+   "has won more",
+   "ocr"
+  ],
+  [
+   108,
+   "fulfilled,",
+   "fulfilled.",
+   "ocr"
+  ],
+  [
+   60,
+   " [A/4418 and Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7d4156049d99a1a9e3d202b07eab490a569254ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 3051,
+  "words_out": 3047,
+  "retention": 0.9987,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   77,
+   144,
+   176,
+   291,
+   215,
+   137,
+   227,
+   146,
+   153,
+   233,
+   100,
+   221,
+   205,
+   145,
+   182,
+   116,
+   158,
+   121
+  ],
+  "warnings": []
+ }
+}

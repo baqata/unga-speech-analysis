@@ -1,0 +1,70 @@
+{
+ "id": "AFG_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  11,
+  13,
+  16,
+  18,
+  20,
+  26,
+  29
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "ambition that to",
+   "ambition than to",
+   "ocr"
+  ],
+  [
+   23,
+   "last fifth years",
+   "last fifty years",
+   "ocr"
+  ],
+  [
+   29,
+   "if ether conciliatory",
+   "if other conciliatory",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "507d89b87bd7934229f233ff0a214c862ce00932",
+ "layout": "lines",
+ "stats": {
+  "n_units": 34,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 11
+  },
+  "words_in": 1009,
+  "words_out": 1009,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   64,
+   113,
+   77,
+   104,
+   65,
+   75,
+   65,
+   71,
+   180,
+   84,
+   111
+  ],
+  "warnings": []
+ }
+}

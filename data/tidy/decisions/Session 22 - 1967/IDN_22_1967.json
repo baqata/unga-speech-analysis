@@ -1,0 +1,80 @@
+{
+ "id": "IDN_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  25,
+  30,
+  34,
+  42,
+  50,
+  60,
+  65,
+  69,
+  73,
+  84,
+  90,
+  98,
+  104,
+  114,
+  119,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "embodied In our",
+   "embodied in our",
+   "ocr"
+  ],
+  [
+   61,
+   "as well .as",
+   "as well as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "75137eb73065465a5a30550ede5a852a388d166b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2743,
+  "words_out": 2714,
+  "retention": 0.9894,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   118,
+   106,
+   127,
+   175,
+   98,
+   100,
+   133,
+   142,
+   230,
+   128,
+   88,
+   84,
+   246,
+   109,
+   127,
+   81,
+   208,
+   158,
+   75,
+   181
+  ],
+  "warnings": []
+ }
+}

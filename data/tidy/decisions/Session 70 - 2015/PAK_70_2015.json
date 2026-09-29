@@ -1,0 +1,68 @@
+{
+ "id": "PAK_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  14,
+  22,
+  27,
+  34,
+  39,
+  49,
+  50,
+  59,
+  65,
+  78,
+  85,
+  92,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d991e8b9030b45d3122a57021b1a4e572df3fa26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1736,
+  "words_out": 1735,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   55,
+   75,
+   94,
+   167,
+   121,
+   131,
+   77,
+   158,
+   34,
+   144,
+   98,
+   167,
+   135,
+   147,
+   102,
+   30
+  ],
+  "warnings": []
+ }
+}

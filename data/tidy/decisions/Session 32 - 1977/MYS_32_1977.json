@@ -1,0 +1,95 @@
+{
+ "id": "MYS_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  8,
+  12,
+  13,
+  18,
+  22,
+  30,
+  35,
+  40,
+  46,
+  49,
+  50,
+  54,
+  58,
+  62,
+  64,
+  69
+ ],
+ "cer": [
+  0,
+  4,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   2,
+   "President, .is",
+   "President, is",
+   "ocr"
+  ],
+  [
+   8,
+   "Members, Malaysia",
+   "Members. Malaysia",
+   "ocr"
+  ],
+  [
+   28,
+   "from .being",
+   "from being",
+   "ocr"
+  ],
+  [
+   57,
+   "1 would",
+   "I would",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17ebeb60f1d8fa4d902bbf635bd563b9561371c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 1733,
+  "words_out": 1733,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   106,
+   33,
+   48,
+   98,
+   44,
+   107,
+   78,
+   127,
+   100,
+   82,
+   113,
+   99,
+   63,
+   133,
+   76,
+   110,
+   73,
+   143,
+   100
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": "NLD_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  25,
+  29,
+  34,
+  42,
+  51,
+  58,
+  61,
+  66,
+  70,
+  75,
+  83,
+  86,
+  91,
+  94,
+  100,
+  105,
+  113,
+  118,
+  125,
+  134,
+  137
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "bring, official",
+   "bring official",
+   "ocr"
+  ],
+  [
+   26,
+   "chis session",
+   "this session",
+   "ocr"
+  ],
+  [
+   26,
+   "words in expected",
+   "words is expected",
+   "ocr"
+  ],
+  [
+   37,
+   " [AI8001 /Add.",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "1 and Corr.",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "1] ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "anew possibility",
+   "a new possibility",
+   "merged_word"
+  ],
+  [
+   68,
+   "non- nuclear-weapon",
+   "non-nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   68,
+   "non- proliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   70,
+   "nuclear- weapons",
+   "nuclear-weapons",
+   "hyphen"
+  ],
+  [
+   71,
+   "non- nuclear-weapon",
+   "non-nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   72,
+   "non- proliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   76,
+   " [A/8001/Add.",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "1 and Corr.1, para. 20]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "organ?: of",
+   "organs of",
+   "ocr"
+  ],
+  [
+   101,
+   "Nether-lands",
+   "Netherlands",
+   "hyphen"
+  ],
+  [
+   105,
+   " [1310th meeting j",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "189a0543a59b791db0df92cb1188a104a56c4e98",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3820,
+  "words_out": 3796,
+  "retention": 0.9937,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   242,
+   214,
+   134,
+   254,
+   128,
+   100,
+   167,
+   184,
+   165,
+   94,
+   133,
+   167,
+   142,
+   174,
+   83,
+   145,
+   87,
+   218,
+   153,
+   183,
+   90,
+   165,
+   175,
+   92,
+   107
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "PHL_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  32,
+  52,
+  82,
+  107,
+  128,
+  143,
+  172,
+  204,
+  218
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2740725aa7368383185b5433af073057d8046925",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "job_number": 3
+  },
+  "words_in": 1723,
+  "words_out": 1721,
+  "retention": 0.9988,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   42,
+   201,
+   152,
+   229,
+   187,
+   162,
+   114,
+   220,
+   238,
+   104,
+   72
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "id": "LBR_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  14,
+  16,
+  19,
+  26,
+  31,
+  37,
+  41,
+  46,
+  50,
+  53,
+  54,
+  58,
+  66,
+  73,
+  78,
+  82,
+  85
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   7,
+   "thirty- fifth",
+   "thirty-fifth",
+   "spacing"
+  ],
+  [
+   19,
+   "today.\"",
+   "today.",
+   "ocr"
+  ],
+  [
+   24,
+   "circumstances \"which",
+   "circumstances which",
+   "ocr"
+  ],
+  [
+   27,
+   "15; ",
+   "",
+   "label"
+  ],
+  [
+   38,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "favorFable",
+   "favorable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c0f84305068f14a0600ce86666f810af0e28a01",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 2313,
+  "words_out": 2306,
+  "retention": 0.997,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   50,
+   122,
+   115,
+   115,
+   62,
+   74,
+   161,
+   174,
+   115,
+   151,
+   127,
+   88,
+   84,
+   93,
+   98,
+   164,
+   149,
+   107,
+   113,
+   71,
+   73
+  ],
+  "warnings": []
+ }
+}

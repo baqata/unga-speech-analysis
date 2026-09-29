@@ -1,0 +1,96 @@
+{
+ "id": "SOM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  18,
+  26,
+  40,
+  56,
+  64,
+  78,
+  100,
+  123,
+  144,
+  157,
+  173,
+  186,
+  208,
+  227,
+  237,
+  250,
+  266
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "f lag f lying",
+   "flag flying",
+   "split_word"
+  ],
+  [
+   41,
+   "self less",
+   "selfless",
+   "split_word"
+  ],
+  [
+   198,
+   "conf luence",
+   "confluence",
+   "split_word"
+  ],
+  [
+   210,
+   "f leeing",
+   "fleeing",
+   "split_word"
+  ],
+  [
+   222,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3515d0d1328cfa81451454de8e93f65331771d6a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 281,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2462,
+  "words_out": 2455,
+  "retention": 0.9972,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   41,
+   101,
+   84,
+   125,
+   133,
+   62,
+   133,
+   177,
+   190,
+   190,
+   126,
+   136,
+   108,
+   185,
+   171,
+   99,
+   104,
+   157,
+   133
+  ],
+  "warnings": []
+ }
+}

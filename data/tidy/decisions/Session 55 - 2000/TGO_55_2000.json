@@ -1,0 +1,93 @@
+{
+ "id": "TGO_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  13,
+  26,
+  54,
+  67,
+  94,
+  115,
+  125,
+  137,
+  145,
+  156,
+  174,
+  188,
+  198,
+  218
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   61,
+   "LomÈ",
+   "Lomé",
+   "encoding"
+  ],
+  [
+   68,
+   "LomÈ",
+   "Lomé",
+   "encoding"
+  ],
+  [
+   183,
+   "LomÈ",
+   "Lomé",
+   "encoding"
+  ],
+  [
+   75,
+   "`the",
+   "‘the",
+   "encoding"
+  ],
+  [
+   208,
+   "`does",
+   "‘does",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02eb307fe8d981a5e27c520c5b69296cdc560b51",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 236,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1832,
+  "words_out": 1827,
+  "retention": 0.9973,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   83,
+   21,
+   107,
+   216,
+   109,
+   196,
+   157,
+   77,
+   97,
+   67,
+   89,
+   136,
+   118,
+   85,
+   141,
+   128
+  ],
+  "warnings": []
+ }
+}

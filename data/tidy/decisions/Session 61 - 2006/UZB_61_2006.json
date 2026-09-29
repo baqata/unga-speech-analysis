@@ -1,0 +1,51 @@
+{
+ "id": "UZB_61_2006",
+ "drop": [
+  [
+   112,
+   112,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  31,
+  41,
+  56,
+  81,
+  95,
+  113
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cf067929ad945a20dc8aa087f4352219ec5f50d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 879,
+  "words_out": 866,
+  "retention": 0.9852,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   103,
+   116,
+   73,
+   126,
+   182,
+   88,
+   125,
+   53
+  ],
+  "warnings": []
+ }
+}

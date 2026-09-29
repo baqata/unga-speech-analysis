@@ -1,0 +1,96 @@
+{
+ "id": "CYP_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  32,
+  46,
+  62,
+  76,
+  89,
+  105,
+  123,
+  136,
+  147,
+  165,
+  181,
+  189,
+  211,
+  226,
+  239,
+  248,
+  261,
+  276,
+  291,
+  312,
+  332
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   173,
+   "Denktas¸",
+   "Denktaş",
+   "encoding"
+  ],
+  [
+   244,
+   "Cyprus?s",
+   "Cyprus’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d3c782096b533ef2bd5f51ae25fb9fb307e8281",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 340,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2848,
+  "words_out": 2844,
+  "retention": 0.9986,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   63,
+   112,
+   77,
+   117,
+   127,
+   105,
+   115,
+   132,
+   150,
+   113,
+   89,
+   169,
+   148,
+   72,
+   164,
+   126,
+   111,
+   85,
+   109,
+   127,
+   113,
+   185,
+   164,
+   71
+  ],
+  "warnings": []
+ }
+}

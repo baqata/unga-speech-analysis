@@ -1,0 +1,53 @@
+{
+ "id": "JPN_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  30,
+  42,
+  52,
+  77,
+  92,
+  103,
+  126,
+  152,
+  164,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30417cb13f78a61d92fd7a712c9473c5d1f0b50f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1504,
+  "words_out": 1502,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   91,
+   153,
+   92,
+   76,
+   196,
+   108,
+   77,
+   185,
+   175,
+   102,
+   122,
+   125
+  ],
+  "warnings": []
+ }
+}

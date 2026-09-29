@@ -1,0 +1,135 @@
+{
+ "id": "JAM_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   144,
+   144,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  14,
+  24,
+  31,
+  42,
+  54,
+  62,
+  74,
+  83,
+  94,
+  100,
+  111,
+  114,
+  121,
+  124,
+  131
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   18,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   25,
+   "Rodriguez Burkett",
+   "Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   84,
+   "or wider",
+   "our wider",
+   "asr_term"
+  ],
+  [
+   98,
+   "fuel",
+   "fewer",
+   "asr_term"
+  ],
+  [
+   26,
+   "Our candidacy",
+   "Her candidacy",
+   "asr_term"
+  ],
+  [
+   99,
+   " and the government of the United States.",
+   "",
+   "label"
+  ],
+  [
+   121,
+   " of the public's administration.",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "crowding",
+   "crowd in",
+   "asr_term"
+  ],
+  [
+   103,
+   "logistical, is",
+   "logistical, operational resources",
+   "asr_term"
+  ],
+  [
+   132,
+   "active responsibility",
+   "acted responsibly",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish 'ONU 80' and 'reducir los delitos'; Carolyn Rodrigues-Birkett is Guyana's Secretary-General candidate; stray fragments ending units 99 and 121 kept as possibly spoken (absent from the Spanish). Main-agent audio check: unit 26 'Our candidacy' -> 'Her candidacy' (re-decodes hear 'Her', p 0.31-0.61; Spanish 'Su candidatura'; the candidacy of Carolyn Rodrigues-Birkett in unit 25). Units 99 and 121 end with 3-second first-pass segments ('and the government of the United States.', 'of the public's administration.') that no re-decode hears ('retire in paradise. Mr. President, nowhere...', 'reconciliation. Jamaica not only supported...') and the Spanish lacks: speech-to-text inventions, removed (label). Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 51 'crowding' -> 'crowd in' (same sound; decodes 'crowding' only 0.75 / 0.82; 'crowding investment' breaks the list of infinitives 'to drive ..., to coordinate ..., crowd in investment'; 'crowd in investment' is the standard term); spot 5 unit 103 'logistical, is' -> 'logistical, operational resources' (both decodes hear 'operational resources necessary' (1.00 / 1.00); 'is' is the tail of 'resources' misheard; 'operational' restored under the 2026 exception with ES 'financiero, logístico y operativo'; UN 'and' heard only at 0.73 / 0.62, so not restored; 'is' alone is not unique (in 'This')); spot 9 unit 132 'active responsibility' -> 'acted responsibly' (both decodes hear 'acted' (0.74 / 0.73); 'countries that have active responsibility are not penalized' does not fit; ES 'cuando los países actúan con responsabilidad'; UN 'acted responsibly')",
+ "unitizer_version": 1,
+ "sha1": "d11ae291ac9a89bf50b434ff824eb3fd51bfd940",
+ "layout": "single",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2222,
+  "words_out": 2180,
+  "retention": 0.9811,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   76,
+   122,
+   137,
+   109,
+   132,
+   189,
+   116,
+   246,
+   122,
+   129,
+   111,
+   157,
+   57,
+   89,
+   69,
+   89,
+   230
+  ],
+  "warnings": []
+ }
+}

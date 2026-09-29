@@ -1,0 +1,123 @@
+{
+ "id": "ISR_80_2025",
+ "drop": [
+  [
+   0,
+   7,
+   "presider"
+  ],
+  [
+   386,
+   386,
+   "presider"
+  ]
+ ],
+ "para": [
+  8,
+  21,
+  31,
+  39,
+  52,
+  58,
+  66,
+  80,
+  88,
+  101,
+  109,
+  131,
+  140,
+  158,
+  175,
+  188,
+  197,
+  214,
+  227,
+  240,
+  262,
+  280,
+  286,
+  294,
+  315,
+  333,
+  346,
+  354,
+  361,
+  368,
+  375,
+  385
+ ],
+ "cer": [
+  385
+ ],
+ "fix": [
+  [
+   16,
+   "Yihya",
+   "Yahya",
+   "asr_name"
+  ],
+  [
+   33,
+   "Yihya",
+   "Yahya",
+   "asr_name"
+  ],
+  [
+   39,
+   "Rising Line",
+   "Rising Lion",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Hostage names in units 81-87 are left as transcribed.",
+ "unitizer_version": 1,
+ "sha1": "e104d7165b1c37c494bcd3a5f14cc92353912d8c",
+ "layout": "single",
+ "stats": {
+  "n_units": 387,
+  "units_dropped": {
+   "presider": 9
+  },
+  "prestrip": {},
+  "words_in": 4567,
+  "words_out": 4484,
+  "retention": 0.9818,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   175,
+   110,
+   64,
+   165,
+   94,
+   72,
+   112,
+   71,
+   158,
+   118,
+   216,
+   187,
+   184,
+   230,
+   145,
+   169,
+   179,
+   146,
+   172,
+   187,
+   174,
+   90,
+   105,
+   195,
+   218,
+   170,
+   131,
+   134,
+   82,
+   81,
+   146,
+   4
+  ],
+  "warnings": []
+ }
+}

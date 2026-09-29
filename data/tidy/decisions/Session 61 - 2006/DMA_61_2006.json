@@ -1,0 +1,64 @@
+{
+ "id": "DMA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  26,
+  42,
+  55,
+  74,
+  100,
+  108,
+  124,
+  134,
+  155,
+  183,
+  199,
+  208,
+  226,
+  240,
+  250
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7e740d13ac84b34121aedce963719094792cd45a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2029,
+  "words_out": 2028,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   90,
+   115,
+   130,
+   99,
+   148,
+   205,
+   59,
+   115,
+   68,
+   160,
+   199,
+   129,
+   71,
+   141,
+   110,
+   85,
+   104
+  ],
+  "warnings": []
+ }
+}

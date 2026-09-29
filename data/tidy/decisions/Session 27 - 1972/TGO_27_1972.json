@@ -1,0 +1,90 @@
+{
+ "id": "TGO_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  15,
+  19,
+  22,
+  26,
+  31,
+  37,
+  42,
+  44,
+  47,
+  50,
+  53,
+  58,
+  63,
+  68,
+  71,
+  77,
+  82,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   49,
+   " [UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "tKe",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a190b4d6ccc1654009f71844be2b04fd79c80be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2663,
+  "words_out": 2658,
+  "retention": 0.9981,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   231,
+   104,
+   96,
+   117,
+   116,
+   92,
+   124,
+   172,
+   134,
+   76,
+   72,
+   78,
+   88,
+   145,
+   158,
+   135,
+   153,
+   118,
+   142,
+   149,
+   158
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "id": "PRY_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  14,
+  16,
+  17,
+  20,
+  22,
+  25,
+  28,
+  32,
+  36,
+  38,
+  42,
+  47,
+  54,
+  60,
+  63,
+  66,
+  69,
+  75,
+  77,
+  83,
+  91,
+  94,
+  98,
+  103
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   9,
+   "which, confront",
+   "which confront",
+   "ocr"
+  ],
+  [
+   24,
+   "liter national",
+   "international",
+   "ocr"
+  ],
+  [
+   30,
+   "manufacture Of such",
+   "manufacture of such",
+   "ocr"
+  ],
+  [
+   34,
+   "nation Whose",
+   "nation whose",
+   "ocr"
+  ],
+  [
+   36,
+   "has •been",
+   "has been",
+   "ocr"
+  ],
+  [
+   37,
+   "Security Council, We",
+   "Security Council. We",
+   "ocr"
+  ],
+  [
+   37,
+   "await With",
+   "await with",
+   "ocr"
+  ],
+  [
+   37,
+   "thiB",
+   "this",
+   "ocr"
+  ],
+  [
+   62,
+   "under standing",
+   "understanding",
+   "split_word"
+  ],
+  [
+   80,
+   "by ether speakers",
+   "by other speakers",
+   "ocr"
+  ],
+  [
+   89,
+   "[817th meeting, paras. 123-127.]",
+   "",
+   "label"
+  ],
+  [
+   92,
+   "forward, so ably",
+   "forward so ably",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "78566d52552027d9aedbdd5225c63027245648aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 3503,
+  "words_out": 3495,
+  "retention": 0.9977,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   90,
+   122,
+   156,
+   144,
+   132,
+   66,
+   102,
+   93,
+   96,
+   142,
+   185,
+   112,
+   89,
+   95,
+   152,
+   167,
+   158,
+   134,
+   89,
+   97,
+   189,
+   72,
+   129,
+   152,
+   148,
+   149,
+   179,
+   56
+  ],
+  "warnings": []
+ }
+}

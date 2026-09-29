@@ -1,0 +1,139 @@
+{
+ "id": "BFA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  19,
+  23,
+  26,
+  30,
+  34,
+  40,
+  44,
+  46,
+  53,
+  56,
+  60,
+  71,
+  75,
+  78,
+  81,
+  86,
+  90,
+  93,
+  96,
+  98,
+  102,
+  104,
+  109,
+  112,
+  118,
+  123,
+  126,
+  131,
+  133
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   6,
+   "ad-mission",
+   "admission",
+   "hyphen"
+  ],
+  [
+   42,
+   "self- sufficiency",
+   "self-sufficiency",
+   "hyphen"
+  ],
+  [
+   86,
+   "year2000",
+   "year 2000",
+   "merged_word"
+  ],
+  [
+   88,
+   "the' construction",
+   "the construction",
+   "ocr"
+  ],
+  [
+   93,
+   "last- minute",
+   "last-minute",
+   "hyphen"
+  ],
+  [
+   128,
+   "bar-gaining",
+   "bargaining",
+   "hyphen"
+  ],
+  [
+   133,
+   "who nave faith",
+   "who have faith",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f027e50427fa96d0a646fd1e95031075eca19910",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 53
+  },
+  "words_in": 4106,
+  "words_out": 4105,
+  "retention": 0.9998,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   101,
+   129,
+   101,
+   150,
+   125,
+   112,
+   97,
+   100,
+   141,
+   124,
+   72,
+   251,
+   68,
+   112,
+   186,
+   100,
+   92,
+   103,
+   212,
+   127,
+   129,
+   110,
+   107,
+   128,
+   81,
+   139,
+   115,
+   185,
+   198,
+   67,
+   137,
+   103,
+   103
+  ],
+  "warnings": []
+ }
+}

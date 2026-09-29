@@ -1,0 +1,60 @@
+{
+ "id": "MEX_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  26,
+  34,
+  49,
+  63,
+  71,
+  81,
+  93,
+  105,
+  119,
+  141,
+  156,
+  169
+ ],
+ "cer": [],
+ "fix": [
+  [
+   146,
+   "audicity",
+   "audacity",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0feb7dc82bf8ef8790be111f817f586331098600",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1444,
+  "words_out": 1440,
+  "retention": 0.9972,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   128,
+   70,
+   70,
+   117,
+   117,
+   68,
+   77,
+   103,
+   101,
+   121,
+   176,
+   142,
+   95,
+   55
+  ],
+  "warnings": []
+ }
+}

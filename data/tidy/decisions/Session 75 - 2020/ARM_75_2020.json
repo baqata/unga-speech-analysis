@@ -1,0 +1,56 @@
+{
+ "id": "ARM_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  20,
+  27,
+  34,
+  42,
+  46,
+  54,
+  59,
+  63,
+  67
+ ],
+ "cer": [
+  0,
+  67
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a83cdbe334ec8481cf8850d94fcc68b5b112fc89",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1481,
+  "words_out": 1481,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   10,
+   93,
+   92,
+   117,
+   138,
+   152,
+   166,
+   188,
+   56,
+   161,
+   122,
+   113,
+   71,
+   2
+  ],
+  "warnings": []
+ }
+}

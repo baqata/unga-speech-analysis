@@ -1,0 +1,102 @@
+{
+ "id": "GIN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   40,
+   40,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  7,
+  12,
+  15,
+  17,
+  25,
+  32,
+  36,
+  39
+ ],
+ "cer": [
+  3,
+  39
+ ],
+ "fix": [
+  [
+   15,
+   "Simandu",
+   "Simandou",
+   "asr_name"
+  ],
+  [
+   17,
+   "Simandu",
+   "Simandou",
+   "asr_name"
+  ],
+  [
+   18,
+   "Simandu",
+   "Simandou",
+   "asr_name"
+  ],
+  [
+   24,
+   "Simandu",
+   "Simandou",
+   "asr_name"
+  ],
+  [
+   15,
+   "useful useful",
+   "useful",
+   "asr_term"
+  ],
+  [
+   15,
+   "factor. and",
+   "factor. And",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Lone 'Thank you.' before the speech dropped as noise; Simandou is the project's official spelling (Government of Guinea, Simandou 2040). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 15 'useful useful' -> 'useful' (the second 'useful' is heard at p 0.33-0.46). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 15 'factor. and' -> 'factor. And'",
+ "unitizer_version": 1,
+ "sha1": "9f94255263d1ab5a31382664e2d28bc44c321e5e",
+ "layout": "single",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1124,
+  "words_out": 1074,
+  "retention": 0.9555,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   142,
+   167,
+   97,
+   200,
+   169,
+   111,
+   85,
+   98,
+   5
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "TLS_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  39,
+  60,
+  87,
+  98,
+  119,
+  139,
+  154,
+  168,
+  179,
+  191,
+  201,
+  210,
+  225,
+  234,
+  245
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed2b24cf410bc1df7aa809e463265c14f5686dcf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1975,
+  "words_out": 1975,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   143,
+   151,
+   170,
+   217,
+   70,
+   142,
+   151,
+   119,
+   115,
+   89,
+   97,
+   71,
+   72,
+   128,
+   71,
+   81,
+   88
+  ],
+  "warnings": []
+ }
+}

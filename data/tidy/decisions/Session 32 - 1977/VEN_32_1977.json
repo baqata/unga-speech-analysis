@@ -1,0 +1,165 @@
+{
+ "id": "VEN_32_1977",
+ "drop": [
+  [
+   3,
+   3,
+   "noise"
+  ],
+  [
+   113,
+   113,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  15,
+  20,
+  24,
+  29,
+  32,
+  41,
+  44,
+  46,
+  49,
+  56,
+  58,
+  61,
+  63,
+  66,
+  68,
+  73,
+  77,
+  79,
+  83,
+  84,
+  91,
+  93,
+  99,
+  103,
+  110,
+  117
+ ],
+ "cer": [
+  0,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   1,
+   "1 know",
+   "I know",
+   "ocr"
+  ],
+  [
+   22,
+   "America— which",
+   "America—which",
+   "spacing"
+  ],
+  [
+   22,
+   "success- permits",
+   "success—permits",
+   "ocr"
+  ],
+  [
+   24,
+   "we. made",
+   "we made",
+   "ocr"
+  ],
+  [
+   38,
+   "limited .",
+   "limited.",
+   "spacing"
+  ],
+  [
+   44,
+   "world-nuclear",
+   "world—nuclear",
+   "ocr"
+  ],
+  [
+   85,
+   "as -shameful",
+   "as shameful",
+   "ocr"
+  ],
+  [
+   88,
+   "to. condemn",
+   "to condemn",
+   "ocr"
+  ],
+  [
+   90,
+   "Corporations, '' have",
+   "Corporations, have",
+   "markup"
+  ],
+  [
+   109,
+   "sovereignty .",
+   "sovereignty.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 3 and 113 are footnotes printed inside the text; dropped. Unit 83 reads 'capable or Facing' in the source.",
+ "unitizer_version": 1,
+ "sha1": "2f01c2ab8546ea8249e8b6a0e20e5599cf2d1827",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3761,
+  "words_out": 3721,
+  "retention": 0.9894,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   130,
+   76,
+   109,
+   129,
+   110,
+   100,
+   159,
+   103,
+   188,
+   83,
+   67,
+   123,
+   164,
+   94,
+   135,
+   63,
+   109,
+   108,
+   190,
+   171,
+   70,
+   95,
+   70,
+   243,
+   80,
+   138,
+   106,
+   204,
+   237,
+   67
+  ],
+  "warnings": []
+ }
+}

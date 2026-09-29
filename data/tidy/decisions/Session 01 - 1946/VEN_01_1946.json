@@ -1,0 +1,58 @@
+{
+ "id": "VEN_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  11,
+  14,
+  16,
+  18,
+  23,
+  28,
+  31,
+  32,
+  37
+ ],
+ "cer": [],
+ "fix": [
+  [
+   33,
+   "vis-a- vis",
+   "vis-a-vis",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18d3247f00746de50e70c33ffe834a85cdf7d2e4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1793,
+  "words_out": 1792,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   187,
+   166,
+   101,
+   82,
+   111,
+   97,
+   119,
+   168,
+   254,
+   149,
+   71,
+   197,
+   90
+  ],
+  "warnings": []
+ }
+}

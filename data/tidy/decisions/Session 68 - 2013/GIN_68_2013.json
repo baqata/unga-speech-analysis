@@ -1,0 +1,79 @@
+{
+ "id": "GIN_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  18,
+  36,
+  45,
+  54,
+  63,
+  75,
+  87,
+  102,
+  114,
+  119,
+  136,
+  147,
+  158,
+  170,
+  180,
+  190,
+  201
+ ],
+ "cer": [
+  0,
+  18
+ ],
+ "fix": [
+  [
+   22,
+   "Organization, .",
+   "Organization.",
+   "spacing"
+  ],
+  [
+   34,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1da5dca14e6dcdbb2abb10417e52ece16f5b3cb8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1687,
+  "words_out": 1684,
+  "retention": 0.9982,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   45,
+   104,
+   154,
+   71,
+   71,
+   69,
+   82,
+   88,
+   113,
+   88,
+   48,
+   141,
+   80,
+   89,
+   90,
+   72,
+   78,
+   89,
+   112
+  ],
+  "warnings": []
+ }
+}

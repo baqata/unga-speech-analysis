@@ -1,0 +1,118 @@
+{
+ "id": "AFG_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  6,
+  10,
+  13,
+  16,
+  20,
+  25,
+  27,
+  31,
+  35,
+  37,
+  42,
+  46,
+  50,
+  54,
+  60,
+  63,
+  66,
+  69,
+  75
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   13,
+   "threat-to",
+   "threat to",
+   "ocr"
+  ],
+  [
+   31,
+   "the, position",
+   "the position",
+   "ocr"
+  ],
+  [
+   45,
+   "can he said",
+   "can be said",
+   "ocr"
+  ],
+  [
+   61,
+   "foe peoples",
+   "the peoples",
+   "ocr"
+  ],
+  [
+   62,
+   "others,",
+   "others.",
+   "ocr"
+  ],
+  [
+   64,
+   " [1474 (ES-IV)]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   " [A/4390 and Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "710bc5720c6a41555e44f2a3c4292087415f6c05",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 25
+  },
+  "words_in": 2352,
+  "words_out": 2348,
+  "retention": 0.9983,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   52,
+   64,
+   103,
+   111,
+   104,
+   128,
+   117,
+   126,
+   99,
+   84,
+   124,
+   62,
+   98,
+   108,
+   157,
+   84,
+   175,
+   84,
+   124,
+   77,
+   149,
+   118
+  ],
+  "warnings": []
+ }
+}

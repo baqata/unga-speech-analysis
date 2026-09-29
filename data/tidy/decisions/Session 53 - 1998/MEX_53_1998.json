@@ -1,0 +1,101 @@
+{
+ "id": "MEX_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  40,
+  56,
+  67,
+  84,
+  101,
+  119,
+  129,
+  144,
+  167,
+  192,
+  209,
+  222,
+  238,
+  255
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   26,
+   "Mexicoâs",
+   "Mexico’s",
+   "encoding"
+  ],
+  [
+   61,
+   "Mexicoâs",
+   "Mexico’s",
+   "encoding"
+  ],
+  [
+   90,
+   "Mexicoâs",
+   "Mexico’s",
+   "encoding"
+  ],
+  [
+   159,
+   "Councilâs",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   177,
+   "Councilâs",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   182,
+   "Councilâs",
+   "Council’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18211f2a6dc7192ee0abba538c8aac4f52abc287",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 274,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2314,
+  "words_out": 2313,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   88,
+   77,
+   170,
+   140,
+   94,
+   154,
+   152,
+   148,
+   75,
+   115,
+   198,
+   214,
+   128,
+   114,
+   138,
+   150,
+   158
+  ],
+  "warnings": []
+ }
+}

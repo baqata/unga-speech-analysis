@@ -1,0 +1,66 @@
+{
+ "id": "ARG_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  43,
+  61,
+  78,
+  96,
+  119,
+  139,
+  160,
+  189,
+  209,
+  222,
+  245,
+  274,
+  290,
+  307,
+  335,
+  362
+ ],
+ "cer": [
+  362
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "48b2f2ab2022f1d192750d9e94e9cb0e7105fe2c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 371,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 4
+  },
+  "words_in": 3214,
+  "words_out": 3213,
+  "retention": 0.9997,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   191,
+   173,
+   159,
+   145,
+   155,
+   187,
+   168,
+   176,
+   252,
+   178,
+   105,
+   204,
+   241,
+   144,
+   156,
+   240,
+   252,
+   87
+  ],
+  "warnings": []
+ }
+}

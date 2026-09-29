@@ -1,0 +1,78 @@
+{
+ "id": "BRA_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  13,
+  16,
+  20,
+  25,
+  27,
+  31,
+  34,
+  36,
+  42
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "the-major",
+   "the major",
+   "spacing"
+  ],
+  [
+   34,
+   "lasting-'world",
+   "lasting world",
+   "spacing"
+  ],
+  [
+   35,
+   "young,",
+   "young",
+   "ocr"
+  ],
+  [
+   40,
+   "activities^",
+   "activities",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e741d86e3792406a311e881e91fbd45c3eb66c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1514,
+  "words_out": 1516,
+  "retention": 1.0013,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   177,
+   87,
+   214,
+   101,
+   155,
+   105,
+   110,
+   129,
+   96,
+   68,
+   210,
+   64
+  ],
+  "warnings": []
+ }
+}

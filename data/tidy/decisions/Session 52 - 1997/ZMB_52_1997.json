@@ -1,0 +1,73 @@
+{
+ "id": "ZMB_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  21,
+  30,
+  45,
+  57,
+  82,
+  92,
+  110,
+  118,
+  133,
+  146,
+  154,
+  165,
+  176,
+  186,
+  200,
+  219
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [
+  [
+   84,
+   "Oslo.",
+   "Oslo,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa727d97f378fc6e134f08e138c7b7e897dc0f59",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1862,
+  "words_out": 1861,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   113,
+   58,
+   77,
+   125,
+   99,
+   204,
+   78,
+   157,
+   67,
+   119,
+   93,
+   65,
+   82,
+   82,
+   74,
+   120,
+   164,
+   84
+  ],
+  "warnings": []
+ }
+}

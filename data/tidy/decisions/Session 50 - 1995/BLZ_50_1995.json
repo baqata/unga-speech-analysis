@@ -1,0 +1,80 @@
+{
+ "id": "BLZ_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  31,
+  50,
+  62,
+  76,
+  89,
+  105,
+  114,
+  125,
+  140,
+  160,
+  173,
+  189,
+  207,
+  224,
+  236,
+  247,
+  256,
+  276,
+  291,
+  305
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   253,
+   "decision- making",
+   "decision-making",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb395cb64dfe661bedc31533c8d3dc6436e2d4b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 311,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2544,
+  "words_out": 2543,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   117,
+   147,
+   158,
+   105,
+   110,
+   89,
+   134,
+   71,
+   101,
+   114,
+   161,
+   116,
+   124,
+   143,
+   141,
+   98,
+   86,
+   71,
+   161,
+   119,
+   128,
+   49
+  ],
+  "warnings": []
+ }
+}

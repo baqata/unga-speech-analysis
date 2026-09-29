@@ -1,0 +1,84 @@
+{
+ "id": "DEU_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  16,
+  21,
+  25,
+  32,
+  36,
+  44,
+  47,
+  51,
+  54,
+  58,
+  65,
+  72,
+  77,
+  81,
+  88
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "self- sustaining",
+   "self-sustaining",
+   "spacing"
+  ],
+  [
+   57,
+   "second- largest",
+   "second-largest",
+   "spacing"
+  ],
+  [
+   69,
+   "self- determined",
+   "self-determined",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae68396600bc362e3aba1addb1fab7f26d9143e8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2082,
+  "words_out": 2079,
+  "retention": 0.9986,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   88,
+   97,
+   79,
+   122,
+   113,
+   71,
+   152,
+   107,
+   183,
+   95,
+   58,
+   91,
+   95,
+   157,
+   137,
+   95,
+   100,
+   116,
+   123
+  ],
+  "warnings": []
+ }
+}

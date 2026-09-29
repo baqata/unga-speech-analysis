@@ -1,0 +1,84 @@
+{
+ "id": "DNK_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  16,
+  23,
+  26,
+  31,
+  34,
+  38,
+  42,
+  47,
+  51,
+  56,
+  60,
+  65,
+  71,
+  79,
+  83,
+  88,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   86,
+   "them-to",
+   "them to",
+   "spacing"
+  ],
+  [
+   89,
+   "others-feel",
+   "others feel",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08f5906d45bbb7caaf755b3308669a4d595379cb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2804,
+  "words_out": 2806,
+  "retention": 1.0007,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   52,
+   150,
+   100,
+   100,
+   160,
+   86,
+   106,
+   149,
+   129,
+   168,
+   155,
+   110,
+   163,
+   188,
+   111,
+   94,
+   194,
+   138,
+   152,
+   83,
+   218
+  ],
+  "warnings": []
+ }
+}

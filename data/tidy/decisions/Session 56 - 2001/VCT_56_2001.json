@@ -1,0 +1,47 @@
+{
+ "id": "VCT_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  27,
+  50,
+  72,
+  93,
+  120,
+  133,
+  160
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e61eeefd5a22390845507de58f994f5eba353370",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1500,
+  "words_out": 1500,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   130,
+   93,
+   177,
+   200,
+   184,
+   234,
+   98,
+   226,
+   158
+  ],
+  "warnings": []
+ }
+}

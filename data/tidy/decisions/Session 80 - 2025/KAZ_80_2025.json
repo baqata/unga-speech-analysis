@@ -1,0 +1,85 @@
+{
+ "id": "KAZ_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   142,
+   142,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  16,
+  23,
+  29,
+  41,
+  45,
+  55,
+  63,
+  72,
+  80,
+  85,
+  92,
+  97,
+  104,
+  114,
+  125,
+  137,
+  141
+ ],
+ "cer": [
+  141
+ ],
+ "fix": [
+  [
+   50,
+   "Abraham Echoes",
+   "Abraham Accords",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5d5e2312bc4af72d995ae8c704d9540b2b6c4333",
+ "layout": "single",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2381,
+  "words_out": 2332,
+  "retention": 0.9794,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   105,
+   171,
+   141,
+   101,
+   152,
+   80,
+   155,
+   123,
+   152,
+   151,
+   97,
+   107,
+   81,
+   119,
+   136,
+   190,
+   193,
+   74,
+   4
+  ],
+  "warnings": []
+ }
+}

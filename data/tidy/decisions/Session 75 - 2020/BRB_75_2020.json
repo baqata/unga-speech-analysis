@@ -1,0 +1,72 @@
+{
+ "id": "BRB_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  18,
+  21,
+  27,
+  30,
+  35,
+  39,
+  45,
+  49,
+  52,
+  57,
+  60,
+  63,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   48,
+   "driver,",
+   "driver.",
+   "ocr"
+  ],
+  [
+   51,
+   "marginalized,",
+   "marginalized.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c70d5c8b4005de2da7c508e15deceba34d97d2d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1882,
+  "words_out": 1882,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   107,
+   154,
+   197,
+   100,
+   120,
+   87,
+   111,
+   103,
+   219,
+   91,
+   121,
+   112,
+   98,
+   113,
+   113,
+   36
+  ],
+  "warnings": []
+ }
+}

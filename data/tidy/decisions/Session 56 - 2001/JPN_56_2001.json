@@ -1,0 +1,45 @@
+{
+ "id": "JPN_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  41,
+  65,
+  85,
+  100,
+  121,
+  130
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "530298c393af841bc578fb331c0696bf027e40ba",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1030,
+  "words_out": 1029,
+  "retention": 0.999,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   163,
+   163,
+   176,
+   158,
+   103,
+   158,
+   74,
+   34
+  ],
+  "warnings": []
+ }
+}

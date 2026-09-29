@@ -1,0 +1,90 @@
+{
+ "id": "AZE_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  16,
+  19,
+  26,
+  28,
+  32,
+  37,
+  39,
+  44,
+  47,
+  50,
+  52,
+  56,
+  60,
+  61,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Muhammad- Bande",
+   "Muhammad-Bande",
+   "hyphen"
+  ],
+  [
+   29,
+   "Azerbaij an",
+   "Azerbaijan",
+   "split_word"
+  ],
+  [
+   37,
+   "Azerbaij an",
+   "Azerbaijan",
+   "split_word"
+  ],
+  [
+   63,
+   "earliest- possible",
+   "earliest-possible",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a6fbf1f11920f4a0849da9a37c5196ef4f9641f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1961,
+  "words_out": 1957,
+  "retention": 0.998,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   105,
+   116,
+   125,
+   99,
+   80,
+   153,
+   73,
+   75,
+   119,
+   45,
+   112,
+   78,
+   94,
+   97,
+   133,
+   139,
+   64,
+   96,
+   154
+  ],
+  "warnings": []
+ }
+}

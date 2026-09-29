@@ -1,0 +1,63 @@
+{
+ "id": "OMN_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   43,
+   43,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  5,
+  11,
+  14,
+  17,
+  23,
+  27,
+  29,
+  35,
+  41
+ ],
+ "cer": [
+  1,
+  41
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "da0b2ee80193d06c31734d837250b7669a2bba72",
+ "layout": "single",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1145,
+  "words_out": 1118,
+  "retention": 0.9764,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   19,
+   75,
+   144,
+   100,
+   61,
+   225,
+   113,
+   84,
+   99,
+   185,
+   13
+  ],
+  "warnings": []
+ }
+}

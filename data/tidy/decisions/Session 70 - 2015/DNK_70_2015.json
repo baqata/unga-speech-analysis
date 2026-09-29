@@ -1,0 +1,62 @@
+{
+ "id": "DNK_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  20,
+  30,
+  36,
+  38,
+  41,
+  47,
+  56,
+  61,
+  66,
+  70,
+  76,
+  80,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   38,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a0cdf3d052130027ce795162616e03bbf2071ce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1537,
+  "words_out": 1534,
+  "retention": 0.998,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   88,
+   129,
+   123,
+   125,
+   74,
+   90,
+   76,
+   168,
+   108,
+   102,
+   85,
+   122,
+   75,
+   90,
+   79
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "CMR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  37,
+  55,
+  70,
+  91,
+  106,
+  123,
+  140,
+  162,
+  178
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Statement read on behalf of the President; the reader's framing sentences are kept.",
+ "unitizer_version": 1,
+ "sha1": "f06fc1f51c8c55cdc02c2bb2c844da633a72ef8a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1444,
+  "words_out": 1443,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   137,
+   153,
+   129,
+   120,
+   162,
+   137,
+   128,
+   130,
+   170,
+   126,
+   51
+  ],
+  "warnings": []
+ }
+}

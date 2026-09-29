@@ -1,0 +1,181 @@
+{
+ "id": "HUN_22_1967",
+ "drop": [
+  [
+   24,
+   24,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  13,
+  22,
+  27,
+  31,
+  34,
+  36,
+  44,
+  52,
+  59,
+  63,
+  71,
+  74,
+  80,
+  88,
+  94,
+  97,
+  101,
+  105,
+  110,
+  113,
+  119,
+  125,
+  132,
+  140,
+  145,
+  149,
+  161
+ ],
+ "cer": [
+  6,
+  13
+ ],
+ "fix": [
+  [
+   2,
+   "even though Incompletely",
+   "even though incompletely",
+   "ocr"
+  ],
+  [
+   26,
+   " [ibid.]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "deepest- rooted",
+   "deepest-rooted",
+   "hyphen"
+  ],
+  [
+   30,
+   "confronting UB today",
+   "confronting us today",
+   "ocr"
+  ],
+  [
+   33,
+   "Viet-Nam, Having heard",
+   "Viet-Nam. Having heard",
+   "ocr"
+  ],
+  [
+   42,
+   "miscalculation, behind",
+   "miscalculation behind",
+   "ocr"
+  ],
+  [
+   69,
+   "crime in Itself",
+   "crime in itself",
+   "ocr"
+  ],
+  [
+   76,
+   "taken Into",
+   "taken into",
+   "ocr"
+  ],
+  [
+   78,
+   "peaceful Life",
+   "peaceful life",
+   "ocr"
+  ],
+  [
+   90,
+   "worse, It will",
+   "worse, it will",
+   "ocr"
+  ],
+  [
+   99,
+   "Twenty- two",
+   "Twenty-two",
+   "hyphen"
+  ],
+  [
+   103,
+   "in Europe, The existence",
+   "in Europe. The existence",
+   "ocr"
+  ],
+  [
+   111,
+   "at Kinshasa, That Organization",
+   "at Kinshasa. That Organization",
+   "ocr"
+  ],
+  [
+   112,
+   "resolutions On the",
+   "resolutions on the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 24 is only the source reference of the quotation (A/6701/Add.1, para. 1) and was dropped.",
+ "unitizer_version": 1,
+ "sha1": "9b3b537682d899e72cf335c5e243bdf4c0ed129e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 5
+  },
+  "words_in": 4368,
+  "words_out": 4327,
+  "retention": 0.9906,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   96,
+   192,
+   160,
+   136,
+   123,
+   183,
+   113,
+   184,
+   196,
+   178,
+   92,
+   241,
+   81,
+   125,
+   208,
+   149,
+   73,
+   128,
+   130,
+   158,
+   103,
+   173,
+   178,
+   182,
+   190,
+   145,
+   110,
+   220,
+   80
+  ],
+  "warnings": []
+ }
+}

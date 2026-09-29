@@ -1,0 +1,72 @@
+{
+ "id": "LKA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  17,
+  21,
+  25,
+  31,
+  36,
+  39,
+  45,
+  54,
+  58
+ ],
+ "cer": [
+  58
+ ],
+ "fix": [
+  [
+   23,
+   "manace",
+   "menace",
+   "ocr"
+  ],
+  [
+   48,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ],
+  [
+   58,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "31abee110c721b4195ba24e492780786ba94ac89",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1465,
+  "words_out": 1463,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   82,
+   90,
+   112,
+   143,
+   119,
+   73,
+   152,
+   118,
+   91,
+   180,
+   185,
+   93,
+   25
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "HTI_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  9,
+  10,
+  13,
+  18,
+  23,
+  28,
+  33,
+  36,
+  40,
+  43,
+  48
+ ],
+ "cer": [
+  0,
+  5,
+  9
+ ],
+ "fix": [
+  [
+   18,
+   "Western, economy.'",
+   "Western economy.",
+   "ocr"
+  ],
+  [
+   20,
+   "c6ntroI",
+   "control",
+   "ocr"
+  ],
+  [
+   45,
+   "Jean- Claude",
+   "Jean-Claude",
+   "spacing"
+  ],
+  [
+   47,
+   "' 'The",
+   "\"The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f94fc67e597ea254021bb0584f7fb2aaa78aa276",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 1741,
+  "words_out": 1739,
+  "retention": 0.9989,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   165,
+   68,
+   129,
+   55,
+   149,
+   143,
+   194,
+   159,
+   130,
+   78,
+   145,
+   145,
+   139,
+   40
+  ],
+  "warnings": []
+ }
+}

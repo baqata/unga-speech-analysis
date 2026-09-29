@@ -1,0 +1,81 @@
+{
+ "id": "QAT_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  9,
+  11,
+  14,
+  17,
+  23,
+  26,
+  30,
+  34,
+  40,
+  45,
+  51,
+  54,
+  56
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "Amerasingjhe",
+   "Amerasinghe",
+   "ocr"
+  ],
+  [
+   17,
+   " [resolution 2734 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "dream of ail the",
+   "dream of all the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "652a50871a16a7ab5b0492a5c1f3711d76d2ff3a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2052,
+  "words_out": 2049,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   123,
+   112,
+   114,
+   88,
+   174,
+   167,
+   136,
+   77,
+   163,
+   104,
+   152,
+   163,
+   177,
+   109,
+   90,
+   100
+  ],
+  "warnings": []
+ }
+}

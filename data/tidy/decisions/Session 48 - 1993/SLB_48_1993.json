@@ -1,0 +1,157 @@
+{
+ "id": "SLB_48_1993",
+ "drop": [
+  [
+   28,
+   28,
+   "header_footer"
+  ],
+  [
+   118,
+   118,
+   "header_footer"
+  ],
+  [
+   208,
+   208,
+   "header_footer"
+  ],
+  [
+   305,
+   305,
+   "header_footer"
+  ],
+  [
+   401,
+   401,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  23,
+  31,
+  48,
+  70,
+  78,
+  93,
+  108,
+  121,
+  141,
+  154,
+  170,
+  183,
+  190,
+  202,
+  222,
+  233,
+  243,
+  261,
+  277,
+  287,
+  300,
+  318,
+  334,
+  356,
+  370,
+  382,
+  391,
+  402,
+  424,
+  436,
+  446,
+  452,
+  456
+ ],
+ "cer": [
+  0,
+  452
+ ],
+ "fix": [
+  [
+   77,
+   "(ibid.)",
+   "",
+   "label"
+  ],
+  [
+   174,
+   "(Official Records of the General",
+   "",
+   "label"
+  ],
+  [
+   175,
+   "Assembly, Forty-eight Session, Plenary Meetings, 6th",
+   "",
+   "label"
+  ],
+  [
+   176,
+   "Meeting, p. 15)",
+   "",
+   "label"
+  ],
+  [
+   180,
+   "(ibid., p. 15)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ca47fa17fa29706bc6dd47131a2178dbab72fe6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 469,
+  "units_dropped": {
+   "header_footer": 5
+  },
+  "prestrip": {},
+  "words_in": 3933,
+  "words_out": 3876,
+  "retention": 0.9855,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   85,
+   108,
+   72,
+   142,
+   192,
+   58,
+   125,
+   133,
+   104,
+   165,
+   121,
+   142,
+   80,
+   65,
+   90,
+   166,
+   98,
+   88,
+   164,
+   137,
+   91,
+   102,
+   123,
+   118,
+   172,
+   118,
+   99,
+   79,
+   77,
+   170,
+   108,
+   86,
+   54,
+   35,
+   109
+  ],
+  "warnings": []
+ }
+}

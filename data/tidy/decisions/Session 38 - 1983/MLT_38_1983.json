@@ -1,0 +1,253 @@
+{
+ "id": "MLT_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  14,
+  17,
+  21,
+  24,
+  26,
+  29,
+  32,
+  35,
+  37,
+  39,
+  41,
+  45,
+  47,
+  52,
+  55,
+  57,
+  59,
+  63,
+  66,
+  68,
+  70,
+  71,
+  76,
+  79,
+  82,
+  85,
+  88,
+  91,
+  95,
+  101,
+  106,
+  109,
+  115,
+  120,
+  123,
+  129,
+  136,
+  139,
+  143,
+  147,
+  151,
+  153,
+  156,
+  158,
+  162,
+  167,
+  172,
+  174,
+  177,
+  179
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   7,
+   "the/ demand",
+   "they demand",
+   "ocr"
+  ],
+  [
+   17,
+   "military Held",
+   "military field",
+   "ocr"
+  ],
+  [
+   27,
+   ",",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "Mediterranean an.",
+   "Mediterranean.",
+   "ocr"
+  ],
+  [
+   40,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   42,
+   "All cur actions",
+   "All our actions",
+   "ocr"
+  ],
+  [
+   67,
+   "[332 ",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "a lumber of",
+   "a number of",
+   "ocr"
+  ],
+  [
+   71,
+   "follow- up",
+   "follow-up",
+   "hyphen"
+  ],
+  [
+   120,
+   "modem dry-docks",
+   "modern dry-docks",
+   "ocr"
+  ],
+  [
+   120,
+   "grain- storage",
+   "grain-storage",
+   "hyphen"
+  ],
+  [
+   123,
+   "the they-seventh",
+   "the thirty-seventh",
+   "ocr"
+  ],
+  [
+   125,
+   "Govemment-to-Govemment",
+   "Government-to-Government",
+   "ocr"
+  ],
+  [
+   126,
+   "[EEC]",
+   "",
+   "label"
+  ],
+  [
+   130,
+   "economic Held",
+   "economic field",
+   "ocr"
+  ],
+  [
+   134,
+   "another se ; of",
+   "another set of",
+   "ocr"
+  ],
+  [
+   144,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   155,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   164,
+   "which/the",
+   "which the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "64f03d5f630aaaff458af12853d191885943c6a3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 78
+  },
+  "words_in": 5879,
+  "words_out": 5869,
+  "retention": 0.9983,
+  "n_paragraphs": 54,
+  "paragraph_words": [
+   80,
+   61,
+   85,
+   198,
+   96,
+   106,
+   86,
+   59,
+   66,
+   87,
+   70,
+   66,
+   134,
+   94,
+   85,
+   74,
+   171,
+   128,
+   80,
+   119,
+   78,
+   89,
+   63,
+   83,
+   63,
+   162,
+   101,
+   108,
+   123,
+   78,
+   110,
+   158,
+   175,
+   179,
+   84,
+   140,
+   119,
+   109,
+   235,
+   197,
+   132,
+   161,
+   121,
+   109,
+   65,
+   88,
+   98,
+   114,
+   94,
+   160,
+   70,
+   98,
+   77,
+   83
+  ],
+  "warnings": []
+ }
+}

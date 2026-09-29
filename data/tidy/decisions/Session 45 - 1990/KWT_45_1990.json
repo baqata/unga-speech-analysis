@@ -1,0 +1,70 @@
+{
+ "id": "KWT_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  17,
+  22,
+  26,
+  29,
+  36,
+  41,
+  46,
+  50,
+  53,
+  57,
+  61,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "it. .",
+   "it.",
+   "ocr"
+  ],
+  [
+   73,
+   " (The Holy Koran. XLVII:7)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4519b4fb57bebe2017040f3680ae026b9e65ca9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2255,
+  "words_out": 2250,
+  "retention": 0.9978,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   281,
+   136,
+   183,
+   216,
+   106,
+   126,
+   175,
+   80,
+   137,
+   159,
+   105,
+   143,
+   87,
+   117,
+   199
+  ],
+  "warnings": []
+ }
+}

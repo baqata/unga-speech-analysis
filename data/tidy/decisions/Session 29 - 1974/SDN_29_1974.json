@@ -1,0 +1,177 @@
+{
+ "id": "SDN_29_1974",
+ "drop": [
+  [
+   49,
+   49,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  13,
+  23,
+  30,
+  33,
+  38,
+  43,
+  50,
+  53,
+  64,
+  67,
+  76,
+  81,
+  91,
+  106,
+  113,
+  121,
+  127,
+  138,
+  144,
+  149,
+  156,
+  168,
+  176,
+  188,
+  196,
+  207,
+  218,
+  221,
+  230,
+  234,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "turning- points",
+   "turning-points",
+   "spacing"
+  ],
+  [
+   7,
+   "Waterloo, The",
+   "Waterloo. The",
+   "ocr"
+  ],
+  [
+   52,
+   "some-times",
+   "sometimes",
+   "hyphen"
+  ],
+  [
+   65,
+   "un-replenished",
+   "unreplenished",
+   "hyphen"
+  ],
+  [
+   70,
+   "un-substantiated",
+   "unsubstantiated",
+   "hyphen"
+  ],
+  [
+   89,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   90,
+   "hot like",
+   "not like",
+   "ocr"
+  ],
+  [
+   96,
+   "catastrophe- bound",
+   "catastrophe-bound",
+   "spacing"
+  ],
+  [
+   141,
+   "out view",
+   "our view",
+   "ocr"
+  ],
+  [
+   197,
+   "and' Caetano",
+   "and Caetano",
+   "ocr"
+  ],
+  [
+   200,
+   "J wish",
+   "I wish",
+   "ocr"
+  ],
+  [
+   227,
+   "Chatter",
+   "Charter",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30cccb18f3c1280166932f9c65501cf3e805d65a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 33
+  },
+  "words_in": 4780,
+  "words_out": 4774,
+  "retention": 0.9987,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   139,
+   181,
+   187,
+   177,
+   99,
+   102,
+   91,
+   80,
+   98,
+   220,
+   110,
+   137,
+   154,
+   141,
+   201,
+   135,
+   154,
+   109,
+   160,
+   137,
+   127,
+   130,
+   188,
+   139,
+   206,
+   95,
+   214,
+   143,
+   110,
+   220,
+   112,
+   160,
+   118
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "TCD_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  21,
+  46,
+  57,
+  75,
+  88,
+  99,
+  108,
+  119,
+  139,
+  151,
+  162,
+  181,
+  192,
+  201
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f37d5e16cf9c92aa2dee265610910e208c633d6b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1643,
+  "words_out": 1643,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   116,
+   54,
+   192,
+   87,
+   148,
+   108,
+   81,
+   70,
+   93,
+   162,
+   99,
+   84,
+   143,
+   86,
+   61,
+   59
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "ERI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  14,
+  17,
+  19,
+  24
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9035d92a5cefb4e410d4711e43b6bb287d3ec21",
+ "layout": "lines",
+ "stats": {
+  "n_units": 28,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 827,
+  "words_out": 826,
+  "retention": 0.9988,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   46,
+   146,
+   165,
+   159,
+   87,
+   115,
+   108
+  ],
+  "warnings": []
+ }
+}

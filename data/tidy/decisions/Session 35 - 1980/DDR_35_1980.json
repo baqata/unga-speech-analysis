@@ -1,0 +1,98 @@
+{
+ "id": "DDR_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  21,
+  24,
+  30,
+  37,
+  41,
+  47,
+  55,
+  62,
+  67,
+  72,
+  76,
+  83,
+  90,
+  97,
+  103,
+  104,
+  115,
+  124,
+  131,
+  137,
+  145
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "country .",
+   "country.",
+   "spacing"
+  ],
+  [
+   92,
+   "agreements6",
+   "agreements",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e591afea9986845fd9df9b159d9a74486aea1c2c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3380,
+  "words_out": 3377,
+  "retention": 0.9991,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   88,
+   105,
+   161,
+   132,
+   76,
+   156,
+   150,
+   102,
+   113,
+   180,
+   187,
+   129,
+   112,
+   88,
+   141,
+   215,
+   150,
+   156,
+   40,
+   160,
+   162,
+   194,
+   131,
+   175,
+   74
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "EGY_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  11,
+  18,
+  23,
+  27,
+  31,
+  37,
+  43,
+  45,
+  49,
+  51,
+  53,
+  56,
+  59,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "alo",
+   "also",
+   "ocr"
+  ],
+  [
+   55,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0369236f32b367b009457d5a9b7ff24297072d28",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2127,
+  "words_out": 2126,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   40,
+   153,
+   152,
+   147,
+   169,
+   180,
+   94,
+   130,
+   145,
+   162,
+   86,
+   88,
+   81,
+   71,
+   120,
+   78,
+   133,
+   97
+  ],
+  "warnings": []
+ }
+}

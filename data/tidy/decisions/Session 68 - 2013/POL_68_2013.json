@@ -1,0 +1,70 @@
+{
+ "id": "POL_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  22,
+  38,
+  57,
+  79,
+  91,
+  100,
+  110,
+  121,
+  136,
+  149,
+  173,
+  190,
+  208,
+  227,
+  239,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   57,
+   "Thisis",
+   "This is",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08029ef5766be91d7121568c378d977425e6f810",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2164,
+  "words_out": 2162,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   28,
+   157,
+   142,
+   167,
+   189,
+   98,
+   67,
+   84,
+   95,
+   130,
+   111,
+   200,
+   131,
+   136,
+   146,
+   99,
+   76,
+   106
+  ],
+  "warnings": []
+ }
+}

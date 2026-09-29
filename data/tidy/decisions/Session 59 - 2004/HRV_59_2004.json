@@ -1,0 +1,53 @@
+{
+ "id": "HRV_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  29,
+  46,
+  71,
+  83,
+  91,
+  104,
+  118,
+  133,
+  151,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79784b991a27f8fdba91b54d0e407e602198fefb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1408,
+  "words_out": 1402,
+  "retention": 0.9957,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   81,
+   154,
+   137,
+   188,
+   100,
+   62,
+   95,
+   103,
+   123,
+   129,
+   149,
+   81
+  ],
+  "warnings": []
+ }
+}

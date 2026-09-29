@@ -1,0 +1,112 @@
+{
+ "id": "YEM_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  16,
+  19,
+  25,
+  28,
+  33,
+  36,
+  39,
+  45,
+  50,
+  54,
+  61,
+  68,
+  71,
+  79,
+  82,
+  90,
+  95,
+  96
+ ],
+ "cer": [
+  0,
+  4,
+  8
+ ],
+ "fix": [
+  [
+   31,
+   "op Palestinian",
+   "on Palestinian",
+   "ocr"
+  ],
+  [
+   40,
+   "Palestinan",
+   "Palestinian",
+   "ocr"
+  ],
+  [
+   59,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "Inter-national",
+   "International",
+   "hyphen"
+  ],
+  [
+   70,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   74,
+   "as its expresses",
+   "as it expresses",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2091d4888d273b21d3bb9882ae2659ca34c21b4e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3593,
+  "words_out": 3590,
+  "retention": 0.9992,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   135,
+   148,
+   113,
+   162,
+   129,
+   247,
+   127,
+   201,
+   151,
+   123,
+   183,
+   148,
+   190,
+   268,
+   154,
+   122,
+   240,
+   85,
+   312,
+   155,
+   81,
+   116
+  ],
+  "warnings": []
+ }
+}

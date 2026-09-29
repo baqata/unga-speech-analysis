@@ -1,0 +1,47 @@
+{
+ "id": "ARE_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  33,
+  53,
+  63,
+  85,
+  94,
+  117,
+  130,
+  144
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "edbac4510b598e3f01a4acdbf59a0259f51d763b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1126,
+  "words_out": 1125,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   76,
+   170,
+   153,
+   82,
+   177,
+   70,
+   170,
+   93,
+   92,
+   42
+  ],
+  "warnings": []
+ }
+}

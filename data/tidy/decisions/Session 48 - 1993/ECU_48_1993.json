@@ -1,0 +1,98 @@
+{
+ "id": "ECU_48_1993",
+ "drop": [
+  [
+   32,
+   32,
+   "header_footer"
+  ],
+  [
+   125,
+   125,
+   "header_footer"
+  ],
+  [
+   217,
+   217,
+   "header_footer"
+  ],
+  [
+   311,
+   311,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  22,
+  43,
+  54,
+  73,
+  82,
+  95,
+  102,
+  111,
+  126,
+  146,
+  156,
+  167,
+  178,
+  185,
+  194,
+  207,
+  225,
+  246,
+  269,
+  290,
+  306,
+  320
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a164163737cf44d1c3d8d63b87d0d24d97c8b7f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 336,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2866,
+  "words_out": 2838,
+  "retention": 0.9902,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   37,
+   139,
+   157,
+   99,
+   162,
+   81,
+   102,
+   51,
+   75,
+   116,
+   155,
+   92,
+   89,
+   92,
+   63,
+   81,
+   107,
+   153,
+   178,
+   207,
+   196,
+   141,
+   117,
+   148
+  ],
+  "warnings": []
+ }
+}

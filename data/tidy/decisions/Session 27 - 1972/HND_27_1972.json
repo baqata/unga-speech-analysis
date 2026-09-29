@@ -1,0 +1,95 @@
+{
+ "id": "HND_27_1972",
+ "drop": [
+  [
+   3,
+   3,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  16,
+  20,
+  26,
+  30,
+  36,
+  40,
+  43,
+  46,
+  49,
+  52,
+  55,
+  57,
+  64,
+  68,
+  69
+ ],
+ "cer": [
+  4,
+  69
+ ],
+ "fix": [
+  [
+   5,
+   "Trepczyriski",
+   "Trepczynski",
+   "ocr"
+  ],
+  [
+   52,
+   " [A/8721, annex I, sect.",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "2]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0bf9c94cf8b98adf936946a5ef6ffb248d891e5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2136,
+  "words_out": 2130,
+  "retention": 0.9972,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   97,
+   82,
+   112,
+   95,
+   116,
+   210,
+   115,
+   219,
+   133,
+   56,
+   83,
+   121,
+   144,
+   105,
+   90,
+   127,
+   121,
+   85,
+   19
+  ],
+  "warnings": []
+ }
+}

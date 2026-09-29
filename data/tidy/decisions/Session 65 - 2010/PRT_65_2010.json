@@ -1,0 +1,61 @@
+{
+ "id": "PRT_65_2010",
+ "drop": [
+  [
+   111,
+   112,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  21,
+  37,
+  59,
+  80,
+  94,
+  113,
+  129,
+  146,
+  165,
+  185,
+  205
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "Units 111-112 are a meeting-record line noting that a Vice-President took the Chair.",
+ "unitizer_version": 1,
+ "sha1": "7abdcd1d54b4d80f1174dd9a9b280915427f6f58",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1760,
+  "words_out": 1752,
+  "retention": 0.9955,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   166,
+   109,
+   167,
+   154,
+   106,
+   139,
+   128,
+   119,
+   181,
+   148,
+   155,
+   180
+  ],
+  "warnings": [
+   "procedural drop [111,112] in the middle of the speech"
+  ]
+ }
+}

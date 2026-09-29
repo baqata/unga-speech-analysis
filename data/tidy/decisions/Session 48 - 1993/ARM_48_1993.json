@@ -1,0 +1,95 @@
+{
+ "id": "ARM_48_1993",
+ "drop": [
+  [
+   56,
+   56,
+   "header_footer"
+  ],
+  [
+   152,
+   152,
+   "header_footer"
+  ],
+  [
+   247,
+   247,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  14,
+  22,
+  38,
+  45,
+  65,
+  77,
+  88,
+  97,
+  105,
+  118,
+  132,
+  140,
+  160,
+  177,
+  184,
+  195,
+  206,
+  227,
+  241
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   162,
+   "peace--",
+   "peace-",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76ca9b755243a25ebc6a6e822b0b9888c4f8d5ce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 258,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2179,
+  "words_out": 2157,
+  "retention": 0.9899,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   84,
+   31,
+   61,
+   144,
+   63,
+   166,
+   105,
+   92,
+   76,
+   71,
+   101,
+   120,
+   68,
+   147,
+   141,
+   53,
+   86,
+   88,
+   188,
+   128,
+   144
+  ],
+  "warnings": []
+ }
+}

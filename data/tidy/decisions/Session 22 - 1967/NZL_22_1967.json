@@ -1,0 +1,116 @@
+{
+ "id": "NZL_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  16,
+  21,
+  29,
+  37,
+  40,
+  46,
+  53,
+  61,
+  65,
+  72,
+  77,
+  87,
+  90,
+  93,
+  99,
+  104,
+  111,
+  115,
+  123,
+  129,
+  137,
+  142
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "for signature, A large",
+   "for signature. A large",
+   "ocr"
+  ],
+  [
+   13,
+   "weapon States, We must",
+   "weapon States. We must",
+   "ocr"
+  ],
+  [
+   36,
+   "as sure",
+   "assure",
+   "ocr"
+  ],
+  [
+   91,
+   " [A/6701/Add.1, para. 163]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "States\", It is",
+   "States\". It is",
+   "ocr"
+  ],
+  [
+   141,
+   "should net merely",
+   "should not merely",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "04d8c24e96a8e5622aa6340b3847f8f884bea631",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3174,
+  "words_out": 3143,
+  "retention": 0.9902,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   54,
+   133,
+   207,
+   137,
+   129,
+   207,
+   65,
+   124,
+   138,
+   119,
+   101,
+   85,
+   146,
+   205,
+   84,
+   114,
+   85,
+   77,
+   163,
+   87,
+   185,
+   145,
+   138,
+   125,
+   90
+  ],
+  "warnings": []
+ }
+}

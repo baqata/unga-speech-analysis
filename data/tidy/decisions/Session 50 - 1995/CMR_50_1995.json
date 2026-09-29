@@ -1,0 +1,92 @@
+{
+ "id": "CMR_50_1995",
+ "drop": [
+  [
+   67,
+   67,
+   "header_footer"
+  ],
+  [
+   162,
+   162,
+   "header_footer"
+  ],
+  [
+   258,
+   258,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  25,
+  39,
+  49,
+  63,
+  78,
+  91,
+  104,
+  122,
+  139,
+  153,
+  166,
+  182,
+  203,
+  223,
+  241,
+  252,
+  270,
+  295,
+  305,
+  317
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "939443f6577f749ea6416e62405e0071a7e2e9f1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2642,
+  "words_out": 2626,
+  "retention": 0.9939,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   147,
+   63,
+   109,
+   90,
+   111,
+   119,
+   102,
+   108,
+   151,
+   141,
+   96,
+   95,
+   129,
+   172,
+   172,
+   147,
+   95,
+   163,
+   215,
+   83,
+   110,
+   8
+  ],
+  "warnings": []
+ }
+}

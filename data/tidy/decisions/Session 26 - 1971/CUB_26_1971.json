@@ -1,0 +1,176 @@
+{
+ "id": "CUB_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  18,
+  23,
+  27,
+  29,
+  30,
+  32,
+  36,
+  44,
+  48,
+  52,
+  59,
+  62,
+  66,
+  70,
+  77,
+  81,
+  85,
+  88,
+  95,
+  98,
+  102,
+  103,
+  106
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "San Francisco,",
+   "San Francisco.",
+   "ocr"
+  ],
+  [
+   3,
+   ",the",
+   "the",
+   "ocr"
+  ],
+  [
+   23,
+   "people, That",
+   "people. That",
+   "ocr"
+  ],
+  [
+   26,
+   "VietNam",
+   "Viet-Nam",
+   "merged_word"
+  ],
+  [
+   31,
+   "its , second",
+   "its second",
+   "ocr"
+  ],
+  [
+   33,
+   ".serious",
+   "serious",
+   "ocr"
+  ],
+  [
+   38,
+   "step.,",
+   "step,",
+   "ocr"
+  ],
+  [
+   39,
+   "cne",
+   "one",
+   "ocr"
+  ],
+  [
+   51,
+   "im-mortal",
+   "immortal",
+   "hyphen"
+  ],
+  [
+   71,
+   "Zimbabwe,",
+   "Zimbabwe.",
+   "ocr"
+  ],
+  [
+   73,
+   "[A/8441 and Add J] ",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "rights,",
+   "rights.",
+   "ocr"
+  ],
+  [
+   79,
+   "Korea, Implementation",
+   "Korea. Implementation",
+   "ocr"
+  ],
+  [
+   83,
+   "[A/L.630 and Add J]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "forcer*",
+   "forces",
+   "ocr"
+  ],
+  [
+   98,
+   "economically,",
+   "economically.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fcad37637df5d1a6a9578c39caa28e87e2c8c61a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3490,
+  "words_out": 3481,
+  "retention": 0.9974,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   193,
+   182,
+   103,
+   149,
+   200,
+   115,
+   81,
+   119,
+   207,
+   175,
+   119,
+   146,
+   189,
+   80,
+   144,
+   111,
+   229,
+   144,
+   101,
+   69,
+   151,
+   99,
+   105,
+   79,
+   113,
+   78
+  ],
+  "warnings": []
+ }
+}

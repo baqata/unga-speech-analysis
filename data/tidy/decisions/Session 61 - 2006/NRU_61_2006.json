@@ -1,0 +1,63 @@
+{
+ "id": "NRU_61_2006",
+ "drop": [
+  [
+   54,
+   55,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  17,
+  32,
+  48,
+  61,
+  77,
+  98,
+  107,
+  127,
+  147,
+  174,
+  192
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5997cbb05af794f5e24d39f7178877d270896cea",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1466,
+  "words_out": 1455,
+  "retention": 0.9925,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   115,
+   125,
+   121,
+   85,
+   134,
+   158,
+   65,
+   141,
+   145,
+   192,
+   143,
+   31
+  ],
+  "warnings": [
+   "procedural drop [54,55] in the middle of the speech"
+  ]
+ }
+}

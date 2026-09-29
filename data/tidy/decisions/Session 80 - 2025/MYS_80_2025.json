@@ -1,0 +1,79 @@
+{
+ "id": "MYS_80_2025",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  21,
+  28,
+  35,
+  42,
+  51,
+  55,
+  60,
+  68,
+  76,
+  85
+ ],
+ "cer": [
+  0,
+  85
+ ],
+ "fix": [
+  [
+   0,
+   "Now, I give the floor to His Excellency, Mr. Mohamed Hassan, ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Minister of Foreign Affairs of Malaysia ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "Philip Moon Yang",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   51,
+   "five-point concessions",
+   "five-point consensus",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 began with the presiding officer's introduction, removed with label fixes.",
+ "unitizer_version": 1,
+ "sha1": "03388b7147ff63577e688787689c1e1d74c3423a",
+ "layout": "single",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1430,
+  "words_out": 1412,
+  "retention": 0.9874,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   47,
+   139,
+   146,
+   112,
+   93,
+   110,
+   151,
+   94,
+   98,
+   124,
+   172,
+   121,
+   5
+  ],
+  "warnings": []
+ }
+}

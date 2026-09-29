@@ -1,0 +1,126 @@
+{
+ "id": "ESP_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  32,
+  44,
+  57,
+  84,
+  103,
+  114,
+  124,
+  139,
+  158,
+  175,
+  192,
+  201,
+  220,
+  229,
+  235,
+  254
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "Union?s",
+   "Union’s",
+   "encoding"
+  ],
+  [
+   54,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   78,
+   "Spain?s",
+   "Spain’s",
+   "encoding"
+  ],
+  [
+   116,
+   "Minister?s",
+   "Minister’s",
+   "encoding"
+  ],
+  [
+   150,
+   "community?s",
+   "community’s",
+   "encoding"
+  ],
+  [
+   155,
+   "India?s",
+   "India’s",
+   "encoding"
+  ],
+  [
+   156,
+   "Pakistan?s",
+   "Pakistan’s",
+   "encoding"
+  ],
+  [
+   175,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   214,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   222,
+   "Milosevic´",
+   "Milosevic",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9513bc061c2a6870fd7de260d558462f71b376aa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2125,
+  "words_out": 2121,
+  "retention": 0.9981,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   106,
+   165,
+   93,
+   109,
+   239,
+   158,
+   89,
+   74,
+   104,
+   143,
+   137,
+   140,
+   73,
+   151,
+   70,
+   50,
+   153,
+   67
+  ],
+  "warnings": []
+ }
+}

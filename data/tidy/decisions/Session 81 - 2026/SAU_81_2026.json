@@ -1,0 +1,143 @@
+{
+ "id": "SAU_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   3,
+   "noise"
+  ],
+  [
+   75,
+   75,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  9,
+  12,
+  17,
+  22,
+  30,
+  33,
+  38,
+  41,
+  48,
+  53,
+  57,
+  63,
+  67,
+  70
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "Mr. Khalil al-Rahman",
+   "Mr. Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   19,
+   "For most among them",
+   "Foremost among them",
+   "asr_term"
+  ],
+  [
+   19,
+   "Strait of Harmos",
+   "Strait of Hormuz",
+   "asr_name"
+  ],
+  [
+   19,
+   "Babel-Mendab Strait",
+   "Bab el-Mandeb Strait",
+   "asr_name"
+  ],
+  [
+   20,
+   "Strait of Harmos",
+   "Strait of Hormuz",
+   "asr_name"
+  ],
+  [
+   24,
+   "for most among them",
+   "foremost among them",
+   "asr_term"
+  ],
+  [
+   37,
+   "Babylonian Lepstrait",
+   "Bab el-Mandeb Strait",
+   "asr_name"
+  ],
+  [
+   44,
+   "Ta'af agreement",
+   "Taif Agreement",
+   "asr_name"
+  ],
+  [
+   26,
+   "comprehensively",
+   "comprehensive",
+   "asr_term"
+  ],
+  [
+   30,
+   "false state",
+   "forced",
+   "asr_term"
+  ],
+  [
+   7,
+   "81st session",
+   "80th session",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 1-3 invented text before the speech. Spanish 'Estrecho de Hormuz'; Taif Agreement (Lebanon, 1989). Main-agent audit, kept as heard: unit 7 '81st session' (p 0.98; the interpreter's slip, Annalena Baerbock presided over the 80th; Spanish '82º'), unit 34 '$29 billion' ('billion' p 0.99; Spanish '29 millones'). Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 26 'comprehensively' -> 'comprehensive' (both decodes hear 'comprehensive,' (1.00 / 1.00) in a list 'comprehensive, effective and sustainable'; ES lists adjectives 'sostenible, cabal y viable'); spot 5 unit 30 'false state' -> 'forced' ('attempts at false state displacement' does not fit; sounds like 'forced'; UN 'forced displacement'; decodes 'false state' only 0.83 / 0.69; ES 'el desplazamiento masivo' confirms displacement of people, not a state). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 7 said 'her presidency of the 81st session' (p 0.98); Annalena Baerbock presided over the 80th session, and unit 5 congratulates the President of the 81st; the Spanish booth's '82º' is its own slip.",
+ "unitizer_version": 1,
+ "sha1": "1c5f7ff513e8849f10a69e6c8ea3b29bbd95cb37",
+ "layout": "single",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 1823,
+  "words_out": 1771,
+  "retention": 0.9715,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   130,
+   99,
+   112,
+   124,
+   173,
+   104,
+   135,
+   69,
+   166,
+   98,
+   109,
+   134,
+   86,
+   113,
+   119
+  ],
+  "warnings": []
+ }
+}

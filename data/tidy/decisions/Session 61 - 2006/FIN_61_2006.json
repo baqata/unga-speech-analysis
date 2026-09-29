@@ -1,0 +1,69 @@
+{
+ "id": "FIN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  18,
+  29,
+  46,
+  57,
+  72,
+  87,
+  98,
+  113,
+  130,
+  148,
+  165,
+  181,
+  197,
+  213,
+  231,
+  245,
+  262
+ ],
+ "cer": [
+  0,
+  10,
+  262
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6fcef15ff3506e0681825b7fb9dd1b4d0c41d393",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2023,
+  "words_out": 2022,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   69,
+   62,
+   77,
+   143,
+   73,
+   108,
+   107,
+   85,
+   111,
+   130,
+   123,
+   130,
+   132,
+   116,
+   107,
+   124,
+   118,
+   138,
+   69
+  ],
+  "warnings": []
+ }
+}

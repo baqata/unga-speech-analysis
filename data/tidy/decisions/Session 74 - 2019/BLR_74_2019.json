@@ -1,0 +1,62 @@
+{
+ "id": "BLR_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  20,
+  23,
+  27,
+  33,
+  39,
+  44,
+  51,
+  60,
+  67,
+  75,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "full- fledged",
+   "full-fledged",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12a31f4012e90c2c3dea8b2a82c631ac0299ff6d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2277,
+  "words_out": 2276,
+  "retention": 0.9996,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   93,
+   119,
+   147,
+   226,
+   108,
+   178,
+   183,
+   123,
+   120,
+   174,
+   150,
+   102,
+   225,
+   188,
+   140
+  ],
+  "warnings": []
+ }
+}

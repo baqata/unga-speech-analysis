@@ -1,0 +1,89 @@
+{
+ "id": "UKR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  18,
+  21,
+  29,
+  41,
+  49,
+  56,
+  63,
+  68,
+  77,
+  84,
+  94,
+  102,
+  109,
+  116,
+  126,
+  133,
+  147,
+  159
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   16,
+   "1945.1 am",
+   "1945. I am",
+   "ocr"
+  ],
+  [
+   75,
+   "equality,genuine",
+   "equality, genuine",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c175c37c90faafee04088dfa94dcee7744398bfc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 6,
+   "language_note": 2
+  },
+  "words_in": 2755,
+  "words_out": 2753,
+  "retention": 0.9993,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   53,
+   143,
+   154,
+   77,
+   101,
+   172,
+   125,
+   118,
+   177,
+   130,
+   138,
+   134,
+   180,
+   150,
+   140,
+   101,
+   129,
+   116,
+   174,
+   165,
+   76
+  ],
+  "warnings": []
+ }
+}

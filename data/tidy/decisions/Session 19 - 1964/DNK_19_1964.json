@@ -1,0 +1,127 @@
+{
+ "id": "DNK_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  11,
+  17,
+  20,
+  24,
+  26,
+  30,
+  35,
+  38,
+  41,
+  46,
+  49,
+  53,
+  57,
+  61,
+  64,
+  68,
+  72,
+  76,
+  80,
+  85,
+  89,
+  96,
+  102,
+  107,
+  113,
+  119,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "y et",
+   "yet",
+   "split_word"
+  ],
+  [
+   13,
+   "bat —",
+   "but —",
+   "ocr"
+  ],
+  [
+   15,
+   "get stock",
+   "get stuck",
+   "ocr"
+  ],
+  [
+   17,
+   "peace. lt gives",
+   "peace. It gives",
+   "ocr"
+  ],
+  [
+   85,
+   "Trade and 'Development",
+   "Trade and Development",
+   "ocr"
+  ],
+  [
+   107,
+   "customs duly",
+   "customs duty",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27e9711e4be8449b24269c76bfd85288938a787d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 51
+  },
+  "words_in": 3830,
+  "words_out": 3826,
+  "retention": 0.999,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   30,
+   142,
+   170,
+   179,
+   125,
+   102,
+   77,
+   118,
+   131,
+   133,
+   107,
+   156,
+   111,
+   116,
+   137,
+   152,
+   84,
+   158,
+   105,
+   143,
+   211,
+   120,
+   101,
+   148,
+   138,
+   174,
+   140,
+   145,
+   128,
+   45
+  ],
+  "warnings": []
+ }
+}

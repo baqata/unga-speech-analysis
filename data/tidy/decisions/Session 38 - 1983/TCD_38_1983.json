@@ -1,0 +1,123 @@
+{
+ "id": "TCD_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  17,
+  22,
+  25,
+  30,
+  32,
+  36,
+  42,
+  48,
+  51,
+  55,
+  59,
+  63,
+  66,
+  71,
+  74,
+  78,
+  83,
+  88,
+  93,
+  100,
+  103,
+  107,
+  112,
+  115,
+  117,
+  121
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "tact;",
+   "tact,",
+   "ocr"
+  ],
+  [
+   51,
+   "1983appealing",
+   "1983 appealing",
+   "merged_word"
+  ],
+  [
+   87,
+   "domination^",
+   "domination,",
+   "ocr"
+  ],
+  [
+   97,
+   "Habr6",
+   "Habre",
+   "ocr"
+  ],
+  [
+   101,
+   "Habr6",
+   "Habre",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd0facd039edefe0944cea26bac5d46436f40eea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 59
+  },
+  "words_in": 3602,
+  "words_out": 3603,
+  "retention": 1.0003,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   96,
+   111,
+   100,
+   109,
+   100,
+   158,
+   85,
+   127,
+   58,
+   90,
+   206,
+   116,
+   151,
+   156,
+   136,
+   91,
+   102,
+   83,
+   133,
+   163,
+   167,
+   123,
+   160,
+   194,
+   90,
+   70,
+   85,
+   99,
+   102,
+   90,
+   52
+  ],
+  "warnings": []
+ }
+}

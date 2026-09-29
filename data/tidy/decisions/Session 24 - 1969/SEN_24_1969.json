@@ -1,0 +1,97 @@
+{
+ "id": "SEN_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  17,
+  35,
+  53,
+  74,
+  97,
+  112,
+  135,
+  147,
+  156,
+  180,
+  195,
+  214,
+  234,
+  251
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   67,
+   "estate“",
+   "estate”",
+   "ocr"
+  ],
+  [
+   124,
+   "5 per cent, It",
+   "5 per cent. It",
+   "ocr"
+  ],
+  [
+   160,
+   "engendered.",
+   "engendered",
+   "ocr"
+  ],
+  [
+   198,
+   "all ate aware",
+   "all are aware",
+   "ocr"
+  ],
+  [
+   231,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   247,
+   "we age all",
+   "we are all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a64aa1ac3d86b0c0099240e281684b72a8b0bc01",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2440,
+  "words_out": 2410,
+  "retention": 0.9877,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   102,
+   43,
+   164,
+   163,
+   194,
+   194,
+   140,
+   212,
+   109,
+   86,
+   216,
+   129,
+   174,
+   186,
+   151,
+   147
+  ],
+  "warnings": []
+ }
+}

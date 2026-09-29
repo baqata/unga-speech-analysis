@@ -1,0 +1,86 @@
+{
+ "id": "ZWE_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  15,
+  19,
+  21,
+  25,
+  27,
+  30,
+  33,
+  38,
+  42,
+  47,
+  53,
+  59
+ ],
+ "cer": [
+  0,
+  6,
+  59
+ ],
+ "fix": [
+  [
+   6,
+   "75 th",
+   "75th",
+   "spacing"
+  ],
+  [
+   18,
+   "macro- economic",
+   "macro-economic",
+   "hyphen"
+  ],
+  [
+   39,
+   "1 st",
+   "1st",
+   "spacing"
+  ],
+  [
+   57,
+   "andstable",
+   "and stable",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "783f2c21ae2b4f407d932e49145ce6349b528792",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1262,
+  "words_out": 1260,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   42,
+   77,
+   95,
+   52,
+   95,
+   67,
+   78,
+   80,
+   74,
+   82,
+   128,
+   102,
+   84,
+   137,
+   64,
+   3
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "SLV_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  31,
+  42,
+  56,
+  72,
+  88,
+  99,
+  112,
+  121,
+  134,
+  146,
+  158,
+  170,
+  182,
+  199,
+  211,
+  220,
+  236,
+  250
+ ],
+ "cer": [],
+ "fix": [
+  [
+   75,
+   "f lowering",
+   "flowering",
+   "split_word"
+  ],
+  [
+   157,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ],
+  [
+   172,
+   "f lows",
+   "flows",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed960e4d3231713aec0b143cbc343b790778caf6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2246,
+  "words_out": 2243,
+  "retention": 0.9987,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   101,
+   155,
+   94,
+   127,
+   141,
+   128,
+   94,
+   95,
+   73,
+   118,
+   110,
+   110,
+   120,
+   106,
+   167,
+   95,
+   72,
+   136,
+   118,
+   83
+  ],
+  "warnings": []
+ }
+}

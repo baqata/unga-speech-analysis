@@ -1,0 +1,87 @@
+{
+ "id": "BRB_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  14,
+  19,
+  26,
+  34,
+  42,
+  50,
+  51,
+  58,
+  65,
+  68,
+  71,
+  74,
+  77,
+  81,
+  87,
+  91,
+  95,
+  101,
+  102
+ ],
+ "cer": [
+  0,
+  50
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   96,
+   "money- laundering",
+   "money-laundering",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "20924fbdb51c4ddce665b25974e851ea87c75f8c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2644,
+  "words_out": 2639,
+  "retention": 0.9981,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   109,
+   90,
+   188,
+   135,
+   218,
+   134,
+   153,
+   160,
+   32,
+   135,
+   133,
+   91,
+   97,
+   62,
+   90,
+   99,
+   192,
+   109,
+   106,
+   123,
+   42,
+   141
+  ],
+  "warnings": []
+ }
+}

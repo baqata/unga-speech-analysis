@@ -1,0 +1,109 @@
+{
+ "id": "GTM_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  14,
+  15,
+  18,
+  21,
+  26,
+  27,
+  31,
+  37,
+  40,
+  45,
+  48,
+  50,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "are. resolved",
+   "are resolved",
+   "ocr"
+  ],
+  [
+   8,
+   "economic'",
+   "economic",
+   "ocr"
+  ],
+  [
+   14,
+   "progress,",
+   "progress.",
+   "ocr"
+  ],
+  [
+   20,
+   "1 am",
+   "I am",
+   "ocr"
+  ],
+  [
+   26,
+   "development,",
+   "development.",
+   "ocr"
+  ],
+  [
+   50,
+   "Resources, I feel",
+   "Resources. I feel",
+   "ocr"
+  ],
+  [
+   50,
+   "Nations Chapter",
+   "Nations Charter",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "25604034211f461f5093ca5bb4a506cf36343ef5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 25
+  },
+  "words_in": 2448,
+  "words_out": 2448,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   112,
+   188,
+   97,
+   147,
+   138,
+   65,
+   187,
+   162,
+   187,
+   74,
+   133,
+   195,
+   168,
+   198,
+   141,
+   107,
+   89,
+   60
+  ],
+  "warnings": []
+ }
+}

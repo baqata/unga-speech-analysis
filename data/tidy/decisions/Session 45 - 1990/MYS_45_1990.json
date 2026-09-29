@@ -1,0 +1,105 @@
+{
+ "id": "MYS_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13,
+  20,
+  23,
+  29,
+  33,
+  36,
+  44,
+  50,
+  57,
+  63,
+  68,
+  75,
+  80,
+  88,
+  93,
+  99,
+  107,
+  114,
+  122
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   9,
+   "would, 1 in",
+   "would, in",
+   "ocr"
+  ],
+  [
+   10,
+   "both ' challenges",
+   "both challenges",
+   "ocr"
+  ],
+  [
+   33,
+   "the\" United",
+   "the United",
+   "ocr"
+  ],
+  [
+   74,
+   "Consequences",
+   "consequences",
+   "ocr"
+  ],
+  [
+   103,
+   "secondly,,",
+   "secondly,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bf75369ffd64df7b14b76bb4288939409cab63ef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3151,
+  "words_out": 3149,
+  "retention": 0.9994,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   104,
+   77,
+   57,
+   108,
+   209,
+   88,
+   159,
+   107,
+   81,
+   152,
+   184,
+   228,
+   207,
+   163,
+   130,
+   109,
+   159,
+   89,
+   109,
+   215,
+   146,
+   172,
+   96
+  ],
+  "warnings": []
+ }
+}

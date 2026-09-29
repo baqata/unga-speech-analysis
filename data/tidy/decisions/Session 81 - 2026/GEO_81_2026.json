@@ -1,0 +1,108 @@
+{
+ "id": "GEO_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   55,
+   56,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  9,
+  13,
+  20,
+  24,
+  31,
+  37,
+  44,
+  48,
+  52,
+  54
+ ],
+ "cer": [
+  2,
+  54
+ ],
+ "fix": [
+  [
+   15,
+   "Osatian",
+   "Ossetian",
+   "asr_name"
+  ],
+  [
+   27,
+   "three trade",
+   "free trade",
+   "asr_term"
+  ],
+  [
+   28,
+   "Anaclia",
+   "Anaklia",
+   "asr_name"
+  ],
+  [
+   35,
+   "FTI",
+   "FDI",
+   "asr_term"
+  ],
+  [
+   36,
+   "CFTI",
+   "FDI",
+   "asr_term"
+  ],
+  [
+   49,
+   "UN-AT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   30,
+   "diversify",
+   "diversified",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Free trade per Spanish 'libre comercio'; Anaklia deep sea port per Georgian government; UN80 per Spanish 'iniciativa 1-80'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 30 'diversify' -> 'diversified' (both decodes hear 'diversified' (0.89 / 0.84); 'secure, resilient and diversify digital links' does not fit; sounds alike)",
+ "unitizer_version": 1,
+ "sha1": "76fd0413408345602636b6d184268ac62e1af4d7",
+ "layout": "single",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1187,
+  "words_out": 1141,
+  "retention": 0.9612,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   38,
+   101,
+   100,
+   132,
+   84,
+   166,
+   149,
+   180,
+   73,
+   79,
+   35,
+   4
+  ],
+  "warnings": []
+ }
+}

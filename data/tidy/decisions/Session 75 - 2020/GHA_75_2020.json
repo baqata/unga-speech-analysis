@@ -1,0 +1,57 @@
+{
+ "id": "GHA_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  12,
+  15,
+  17,
+  20,
+  23,
+  25,
+  29,
+  32,
+  39,
+  41,
+  44,
+  48
+ ],
+ "cer": [
+  48
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ef917d434781d1fdac15533ed8c51d79df10137",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1517,
+  "words_out": 1517,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   63,
+   199,
+   63,
+   83,
+   118,
+   87,
+   83,
+   69,
+   170,
+   102,
+   193,
+   64,
+   94,
+   103,
+   26
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,355 @@
+{
+ "id": "ISR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   5,
+   "noise"
+  ],
+  [
+   6,
+   7,
+   "presider"
+  ],
+  [
+   8,
+   8,
+   "noise"
+  ],
+  [
+   69,
+   69,
+   "noise"
+  ],
+  [
+   108,
+   108,
+   "noise"
+  ],
+  [
+   384,
+   384,
+   "presider"
+  ]
+ ],
+ "para": [
+  9,
+  12,
+  23,
+  30,
+  44,
+  61,
+  70,
+  79,
+  93,
+  109,
+  117,
+  128,
+  139,
+  154,
+  174,
+  185,
+  197,
+  206,
+  216,
+  233,
+  245,
+  262,
+  274,
+  292,
+  312,
+  329,
+  341,
+  349,
+  356,
+  367,
+  374,
+  381
+ ],
+ "cer": [
+  381
+ ],
+ "fix": [
+  [
+   28,
+   "Oshara",
+   "Al-Sharaa",
+   "asr_name"
+  ],
+  [
+   42,
+   "Golod",
+   "Golan",
+   "asr_name"
+  ],
+  [
+   127,
+   "Def",
+   "Deif",
+   "asr_name"
+  ],
+  [
+   143,
+   "shin bed",
+   "Shin Bet",
+   "asr_name"
+  ],
+  [
+   154,
+   "Netanyahu Shukrun",
+   "Netanel Shukrun",
+   "asr_name"
+  ],
+  [
+   161,
+   "Nerya",
+   "Neria",
+   "asr_name"
+  ],
+  [
+   164,
+   "Nerya's",
+   "Neria's",
+   "asr_name"
+  ],
+  [
+   166,
+   "Nerya",
+   "Neria",
+   "asr_name"
+  ],
+  [
+   170,
+   "Neriah",
+   "Neria",
+   "asr_name"
+  ],
+  [
+   223,
+   " figured on this.\"",
+   "",
+   "label"
+  ],
+  [
+   246,
+   "polo",
+   "polio",
+   "asr_term"
+  ],
+  [
+   274,
+   "Hassan Piker",
+   "Hasan Piker",
+   "asr_name"
+  ],
+  [
+   277,
+   "filled",
+   "filmed",
+   "asr_term"
+  ],
+  [
+   341,
+   "us all",
+   "this hall",
+   "asr_term"
+  ],
+  [
+   347,
+   "bethlem",
+   "Bethlehem",
+   "asr_name"
+  ],
+  [
+   347,
+   "percent christian",
+   "percent Christian",
+   "asr_name"
+  ],
+  [
+   347,
+   "the christians",
+   "the Christians",
+   "asr_name"
+  ],
+  [
+   347,
+   "palestinian authority",
+   "Palestinian Authority",
+   "asr_name"
+  ],
+  [
+   347,
+   "percent muslim",
+   "percent Muslim",
+   "asr_name"
+  ],
+  [
+   376,
+   "steal",
+   "steel",
+   "asr_term"
+  ],
+  [
+   300,
+   "them. them.",
+   "them.",
+   "asr_term"
+  ],
+  [
+   305,
+   "the the",
+   "the",
+   "asr_term"
+  ],
+  [
+   206,
+   "an affront",
+   "an eighth front",
+   "asr_term"
+  ],
+  [
+   15,
+   "you. devastating",
+   "you. Devastating",
+   "asr_term"
+  ],
+  [
+   32,
+   "are. that",
+   "are. That",
+   "asr_term"
+  ],
+  [
+   43,
+   "territories. it's",
+   "territories. It's",
+   "asr_term"
+  ],
+  [
+   43,
+   "time? they",
+   "time? They",
+   "asr_term"
+  ],
+  [
+   61,
+   "mind. the",
+   "mind. The",
+   "asr_term"
+  ],
+  [
+   142,
+   "that. stand",
+   "that. I won't stand",
+   "asr_term"
+  ],
+  [
+   190,
+   "future. and",
+   "future. Left and",
+   "asr_term"
+  ],
+  [
+   240,
+   "that is so much",
+   "That it stole much",
+   "asr_term"
+  ],
+  [
+   347,
+   "succeeding. in",
+   "succeeding. In",
+   "asr_term"
+  ],
+  [
+   37,
+   "They're",
+   "Their",
+   "asr_term"
+  ],
+  [
+   38,
+   "Brace",
+   "Braced",
+   "asr_term"
+  ],
+  [
+   70,
+   "win",
+   "when",
+   "asr_term"
+  ],
+  [
+   148,
+   "It's not",
+   "What",
+   "asr_term"
+  ],
+  [
+   373,
+   "Jews",
+   "Jew",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Lone 'Thank you.'/'God save!' in pauses and applause dropped as noise; Al-Sharaa per UN speakers list; Netanel Shukrun and Neria Leiter per Times of Israel and VINnews (Sept. 2026); Spanish confirms Shin Bet, filmó, otra guerra, sala. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 300 'them. them.' -> 'them.'; unit 305 'the the' -> 'the'. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 206 'an affront' -> 'an eighth front' (was 'another front'; four re-decodes hear 'an eight-front to this war' ('eight' p 0.31-0.60, 'front' p 0.87-0.92) right after 'a seven-front war'; the Spanish booth 'otra guerra'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 15 'you. devastating' -> 'you. Devastating'; unit 32 'are. that' -> 'are. That'; unit 43 'territories. it's' -> 'territories. It's'; unit 43 'time? they' -> 'time? They'; unit 61 'mind. the' -> 'mind. The'; unit 142 'that. stand' -> 'that. I won't stand' (two re-decodes hear 'I can't stand that. I won't stand for vigilantism' (p 0.99-1.00)); unit 190 'future. and' -> 'future. Left and' (two re-decodes hear 'one future, left and right' (p 0.99)); unit 240 'that is so much' -> 'That it stole much' (two re-decodes hear 'That it stole much of the food' (p 0.94-0.98)); unit 347 'succeeding. in' -> 'succeeding. In'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 37 'They're' -> 'Their' (homophone; 'They're colonies. Brace the entire globe.' does not fit; decodes over the phrase hear 'Their colonies braced' (0.61 / 0.89); ES 'atravesando el mundo con colonialismo' (their colonies spanned the globe)); spot 6 unit 38 'Brace' -> 'Braced' (decodes from 305.7 hear 'braced' (0.64 / 0.72); the -d merges with 'the'; imperative 'Brace the entire globe' does not fit; ES 'atravesando el mundo'); spot 10 unit 70 'win' -> 'when' (both decodes hear 'And when we did,' (0.89 / 0.92); ES 'Y cuando lo logramos'); spot 19 unit 148 'It's not' -> 'What' (both decodes hear 'What a distortion.' (0.99 / 1.00); ES 'qué distorsión, es una obsesión'; ours inverts the meaning); spot 38 unit 373 'Jews' -> 'Jew' (quotation of Mark Twain, 'Concerning the Jews' (1899): 'The Jew saw them all, beat them all, and is now what he always was'; decodes' 'Jews saw' (0.98) is 'Jew' merged with the s of 'saw'; plural does not fit 'is ... he always was')",
+ "unitizer_version": 1,
+ "sha1": "1da6b0088af59c6b5b7317e522e3adf4c27c0877",
+ "layout": "single",
+ "stats": {
+  "n_units": 385,
+  "units_dropped": {
+   "presider": 5,
+   "noise": 7
+  },
+  "prestrip": {},
+  "words_in": 4097,
+  "words_out": 4012,
+  "retention": 0.9793,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   30,
+   155,
+   81,
+   211,
+   145,
+   72,
+   133,
+   159,
+   110,
+   108,
+   92,
+   91,
+   138,
+   257,
+   128,
+   102,
+   110,
+   100,
+   126,
+   137,
+   166,
+   112,
+   157,
+   167,
+   176,
+   137,
+   192,
+   90,
+   118,
+   139,
+   64,
+   9
+  ],
+  "warnings": [
+   "37 fixes"
+  ]
+ }
+}

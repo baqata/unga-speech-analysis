@@ -1,0 +1,51 @@
+{
+ "id": "AGO_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  25,
+  35,
+  55,
+  70,
+  99,
+  109,
+  124,
+  135,
+  155
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a8ea9a94c60f0566e46c79f51bdb72238600873c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1210,
+  "words_out": 1207,
+  "retention": 0.9975,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   84,
+   98,
+   77,
+   139,
+   117,
+   210,
+   70,
+   110,
+   77,
+   159,
+   66
+  ],
+  "warnings": []
+ }
+}

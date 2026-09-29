@@ -1,0 +1,68 @@
+{
+ "id": "GRD_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  28,
+  38,
+  58,
+  74,
+  88,
+  111,
+  138,
+  152,
+  162,
+  177,
+  192
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   86,
+   "wellstructured",
+   "well-structured",
+   "hyphen"
+  ],
+  [
+   184,
+   "1t",
+   "It",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0601fb5d8f29f045dd5223ab3b5f2aed0b316db6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1474,
+  "words_out": 1471,
+  "retention": 0.998,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   115,
+   65,
+   82,
+   151,
+   122,
+   102,
+   156,
+   191,
+   103,
+   66,
+   123,
+   130,
+   65
+  ],
+  "warnings": []
+ }
+}

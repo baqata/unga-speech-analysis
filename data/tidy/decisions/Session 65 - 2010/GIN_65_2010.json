@@ -1,0 +1,61 @@
+{
+ "id": "GIN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  33,
+  54,
+  68,
+  84,
+  95,
+  108,
+  117,
+  134,
+  144,
+  158,
+  167,
+  180,
+  199,
+  210
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc3694664a0dc457cb3c6945b9c46f61bff76011",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1760,
+  "words_out": 1757,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   179,
+   75,
+   161,
+   113,
+   125,
+   80,
+   106,
+   72,
+   132,
+   69,
+   101,
+   72,
+   92,
+   139,
+   89,
+   152
+  ],
+  "warnings": []
+ }
+}

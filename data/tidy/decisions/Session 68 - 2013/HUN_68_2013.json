@@ -1,0 +1,53 @@
+{
+ "id": "HUN_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  31,
+  44,
+  56,
+  84,
+  104,
+  118,
+  130,
+  145,
+  153,
+  165
+ ],
+ "cer": [
+  165
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d034f7295936328d52a18dfeea9e676c74def32",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1372,
+  "words_out": 1371,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   69,
+   81,
+   107,
+   105,
+   103,
+   232,
+   152,
+   98,
+   94,
+   116,
+   69,
+   97,
+   48
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "STP_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  26,
+  35,
+  43,
+  55,
+  62,
+  77,
+  88,
+  105,
+  121,
+  136,
+  152,
+  157
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "&ea",
+   "area",
+   "ocr"
+  ],
+  [
+   14,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "b en",
+   "been",
+   "split_word"
+  ],
+  [
+   38,
+   ".choice",
+   "choice",
+   "ocr"
+  ],
+  [
+   41,
+   "for'",
+   "for",
+   "ocr"
+  ],
+  [
+   45,
+   "the'",
+   "the",
+   "ocr"
+  ],
+  [
+   63,
+   "inter-nationalist",
+   "internationalist",
+   "hyphen"
+  ],
+  [
+   64,
+   "inthe",
+   "in the",
+   "merged_word"
+  ],
+  [
+   73,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   81,
+   "pre-texts",
+   "pretexts",
+   "hyphen"
+  ],
+  [
+   87,
+   "dignity .",
+   "dignity.",
+   "spacing"
+  ],
+  [
+   96,
+   "Its",
+   "its",
+   "ocr"
+  ],
+  [
+   123,
+   "we))",
+   "well",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "truncated_start"
+ ],
+ "note": "Speech starts without its opening paragraphs; units 136-139 and 152-154 interleave and duplicate text from adjacent columns.",
+ "unitizer_version": 1,
+ "sha1": "4e090416da0949ce20dd66d1a56f1fb33a1a56ba",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1605,
+  "words_out": 1582,
+  "retention": 0.9857,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   116,
+   143,
+   89,
+   84,
+   117,
+   73,
+   151,
+   97,
+   164,
+   146,
+   141,
+   171,
+   52,
+   38
+  ],
+  "warnings": []
+ }
+}

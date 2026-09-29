@@ -1,0 +1,100 @@
+{
+ "id": "HND_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  11,
+  12,
+  15,
+  19,
+  21,
+  26,
+  32,
+  35,
+  37,
+  40,
+  42,
+  48,
+  51,
+  57,
+  65
+ ],
+ "cer": [
+  0,
+  2,
+  11
+ ],
+ "fix": [
+  [
+   11,
+   " [A/9001/Add. 1]",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   34,
+   " [OAS]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   " [2133rdmeeting]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9f07b2b246e1b73c0f0e06a3fb92cc98fe81be1a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2315,
+  "words_out": 2309,
+  "retention": 0.9974,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   63,
+   127,
+   98,
+   133,
+   43,
+   108,
+   120,
+   88,
+   116,
+   232,
+   129,
+   77,
+   105,
+   71,
+   173,
+   157,
+   175,
+   197,
+   97
+  ],
+  "warnings": []
+ }
+}

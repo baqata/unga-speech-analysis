@@ -1,0 +1,83 @@
+{
+ "id": "MUS_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  18,
+  24,
+  32,
+  38,
+  41,
+  44,
+  49,
+  57,
+  68,
+  77,
+  81,
+  86
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   2,
+   "played to Guatemala",
+   "played by Guatemala",
+   "ocr"
+  ],
+  [
+   45,
+   " (resolution 2373 (XXII))",
+   "",
+   "label"
+  ],
+  [
+   51,
+   " (A/7183 and Add.1)",
+   "",
+   "label"
+  ],
+  [
+   54,
+   " (A/C.1/L.433)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5bbbdc3273a339686a87bebf1becb626837a9aa0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2246,
+  "words_out": 2218,
+  "retention": 0.9875,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   165,
+   121,
+   158,
+   184,
+   198,
+   142,
+   97,
+   67,
+   103,
+   169,
+   222,
+   270,
+   137,
+   99,
+   86
+  ],
+  "warnings": []
+ }
+}

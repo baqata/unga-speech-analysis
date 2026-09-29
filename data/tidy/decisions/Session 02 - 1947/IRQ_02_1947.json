@@ -1,0 +1,110 @@
+{
+ "id": "IRQ_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  16,
+  23,
+  28,
+  34,
+  37,
+  40,
+  43,
+  52,
+  58,
+  61,
+  66,
+  72
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   6,
+   "arc one",
+   "are one",
+   "ocr"
+  ],
+  [
+   14,
+   "nation, m taking",
+   "nation, in taking",
+   "ocr"
+  ],
+  [
+   17,
+   "tire privilege",
+   "the privilege",
+   "ocr"
+  ],
+  [
+   18,
+   "desirable tiling",
+   "desirable thing",
+   "ocr"
+  ],
+  [
+   44,
+   "unscaworthy",
+   "unseaworthy",
+   "ocr"
+  ],
+  [
+   56,
+   "Some arc known",
+   "Some are known",
+   "ocr"
+  ],
+  [
+   71,
+   "self- interest",
+   "self-interest",
+   "hyphen"
+  ],
+  [
+   71,
+   "we. shall",
+   "we shall",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0fc1a514b84bdb63e03159e9a8ca0a825d85339d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1920,
+  "words_out": 1918,
+  "retention": 0.999,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   177,
+   167,
+   90,
+   197,
+   118,
+   80,
+   70,
+   103,
+   72,
+   200,
+   172,
+   113,
+   165,
+   164,
+   30
+  ],
+  "warnings": []
+ }
+}

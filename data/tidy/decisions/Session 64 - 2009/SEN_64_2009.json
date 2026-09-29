@@ -1,0 +1,96 @@
+{
+ "id": "SEN_64_2009",
+ "drop": [
+  [
+   61,
+   61,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  19,
+  37,
+  53,
+  74,
+  98,
+  126,
+  143,
+  169,
+  188,
+  209,
+  233,
+  259,
+  274,
+  291,
+  309,
+  328,
+  347,
+  373
+ ],
+ "cer": [
+  19
+ ],
+ "fix": [
+  [
+   279,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   280,
+   ")",
+   "",
+   "label"
+  ],
+  [
+   308,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "842a0d8f471e68c62184bc7afd42f0903b553ae2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 385,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 3082,
+  "words_out": 3067,
+  "retention": 0.9951,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   156,
+   142,
+   126,
+   165,
+   191,
+   232,
+   148,
+   192,
+   153,
+   169,
+   192,
+   199,
+   118,
+   146,
+   133,
+   144,
+   154,
+   204,
+   103
+  ],
+  "warnings": [
+   "procedural drop [61,61] in the middle of the speech"
+  ]
+ }
+}

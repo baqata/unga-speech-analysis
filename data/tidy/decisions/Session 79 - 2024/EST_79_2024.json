@@ -1,0 +1,76 @@
+{
+ "id": "EST_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  16,
+  25,
+  33,
+  40,
+  42,
+  46,
+  52,
+  60,
+  65,
+  67,
+  73,
+  79,
+  85,
+  89,
+  93,
+  99,
+  105
+ ],
+ "cer": [],
+ "fix": [
+  [
+   52,
+   " (resolution ES‑11/1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3bb547c70c4982a3fe6b3b7cb65794ab8f3aed65",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2221,
+  "words_out": 2217,
+  "retention": 0.9982,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   103,
+   61,
+   81,
+   159,
+   172,
+   159,
+   158,
+   74,
+   81,
+   119,
+   105,
+   66,
+   93,
+   90,
+   141,
+   132,
+   77,
+   88,
+   104,
+   105,
+   49
+  ],
+  "warnings": []
+ }
+}

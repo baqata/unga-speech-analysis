@@ -1,0 +1,60 @@
+{
+ "id": "ROU_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  31,
+  52,
+  61,
+  82,
+  101,
+  121,
+  148,
+  166,
+  189,
+  215,
+  236,
+  263,
+  273
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3618fa99b7c91f214b0a9a37ddb21167c5bfd79d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "job_number": 3
+  },
+  "words_in": 2182,
+  "words_out": 2177,
+  "retention": 0.9977,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   38,
+   194,
+   164,
+   84,
+   176,
+   155,
+   155,
+   212,
+   129,
+   173,
+   203,
+   151,
+   219,
+   81,
+   43
+  ],
+  "warnings": []
+ }
+}

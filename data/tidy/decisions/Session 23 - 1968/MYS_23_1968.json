@@ -1,0 +1,140 @@
+{
+ "id": "MYS_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  18,
+  21,
+  25,
+  30,
+  34,
+  38,
+  43,
+  46,
+  51,
+  55,
+  59,
+  63,
+  69,
+  72,
+  77,
+  83,
+  87,
+  94,
+  101,
+  106,
+  109,
+  115,
+  123,
+  127,
+  135,
+  138,
+  144,
+  149
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Mr, Arenales",
+   "Mr. Arenales",
+   "ocr"
+  ],
+  [
+   11,
+   " [A/7201/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "words. that",
+   "words that",
+   "ocr"
+  ],
+  [
+   70,
+   "should “be vigilant",
+   "should be vigilant",
+   "ocr"
+  ],
+  [
+   72,
+   "Charter VII",
+   "Chapter VII",
+   "ocr"
+  ],
+  [
+   101,
+   "These arc some",
+   "These are some",
+   "ocr"
+  ],
+  [
+   144,
+   "to lock before",
+   "to look before",
+   "ocr"
+  ],
+  [
+   147,
+   "we locked on",
+   "we looked on",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cadb16775c6c917a937fbdaecbb783325b813aac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4124,
+  "words_out": 4088,
+  "retention": 0.9913,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   165,
+   83,
+   83,
+   87,
+   150,
+   132,
+   157,
+   151,
+   148,
+   68,
+   125,
+   177,
+   108,
+   165,
+   170,
+   105,
+   116,
+   123,
+   122,
+   166,
+   139,
+   159,
+   58,
+   111,
+   171,
+   128,
+   230,
+   102,
+   171,
+   111,
+   107
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "id": "GTM_19_1964",
+ "drop": [
+  [
+   5,
+   5,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  14,
+  18,
+  21,
+  28,
+  33,
+  40,
+  42,
+  48,
+  52,
+  54,
+  61,
+  65,
+  69,
+  72,
+  74,
+  79,
+  84,
+  89,
+  92,
+  96,
+  100,
+  106,
+  110,
+  114,
+  119,
+  123,
+  126,
+  127,
+  128,
+  130,
+  133,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "returnyear",
+   "return year",
+   "merged_word"
+  ],
+  [
+   11,
+   "deep- rooted",
+   "deep-rooted",
+   "hyphen"
+  ],
+  [
+   48,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ],
+  [
+   57,
+   "of-educational",
+   "of educational",
+   "ocr"
+  ],
+  [
+   61,
+   "Ministers,",
+   "Ministers.",
+   "ocr"
+  ],
+  [
+   70,
+   "above- mentioned",
+   "above-mentioned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "53645bcfd721133b382674c0366ae87fb8dc8430",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 4729,
+  "words_out": 4727,
+  "retention": 0.9996,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   105,
+   227,
+   79,
+   140,
+   105,
+   69,
+   146,
+   86,
+   158,
+   90,
+   132,
+   102,
+   95,
+   164,
+   169,
+   129,
+   159,
+   78,
+   113,
+   111,
+   113,
+   81,
+   165,
+   198,
+   242,
+   217,
+   174,
+   136,
+   97,
+   138,
+   103,
+   68,
+   111,
+   165,
+   79,
+   183
+  ],
+  "warnings": []
+ }
+}

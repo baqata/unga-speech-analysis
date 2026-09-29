@@ -1,0 +1,140 @@
+{
+ "id": "SEN_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  7,
+  13,
+  21,
+  23,
+  32,
+  36,
+  45,
+  54,
+  63,
+  68,
+  71
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   33,
+   "severe commitment",
+   "Sevilla Commitment",
+   "asr_name"
+  ],
+  [
+   61,
+   "Ezelwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   65,
+   "Macky Sal",
+   "Macky Sall",
+   "asr_name"
+  ],
+  [
+   77,
+   " on behalf of the assembly I wish to thank",
+   "",
+   "label"
+  ],
+  [
+   77,
+   " the president of the Republic of Senegal",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Assembly. moreover",
+   "Assembly. Moreover",
+   "asr_term"
+  ],
+  [
+   5,
+   "challenges. against",
+   "challenges. Against",
+   "asr_term"
+  ],
+  [
+   13,
+   "security. in",
+   "security. In",
+   "asr_term"
+  ],
+  [
+   18,
+   "borders. in",
+   "borders. In",
+   "asr_term"
+  ],
+  [
+   21,
+   "sub-region. of",
+   "sub-region. Of",
+   "asr_term"
+  ],
+  [
+   40,
+   "so. in",
+   "so. In",
+   "asr_term"
+  ],
+  [
+   71,
+   "might. that",
+   "might. That",
+   "asr_term"
+  ],
+  [
+   75,
+   "world. and",
+   "world. And",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech delivered in French, so both channels are interpretations; Spanish confirms Acuerdo de Sevilla and Silwini; Macky Sall is Senegal's former President (speakers list context, gadebate). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'Assembly. moreover' -> 'Assembly. Moreover'; unit 5 'challenges. against' -> 'challenges. Against'; unit 13 'security. in' -> 'security. In'; unit 18 'borders. in' -> 'borders. In'; unit 21 'sub-region. of' -> 'sub-region. Of'; unit 40 'so. in' -> 'so. In'; unit 71 'might. that' -> 'might. That'; unit 75 'world. and' -> 'world. And'",
+ "unitizer_version": 1,
+ "sha1": "c2d20a4bae2c705e166b92d507076a5759582930",
+ "layout": "single",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1759,
+  "words_out": 1709,
+  "retention": 0.9716,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   33,
+   141,
+   135,
+   172,
+   93,
+   84,
+   139,
+   216,
+   178,
+   165,
+   86,
+   56,
+   211
+  ],
+  "warnings": []
+ }
+}

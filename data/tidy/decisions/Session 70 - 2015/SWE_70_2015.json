@@ -1,0 +1,66 @@
+{
+ "id": "SWE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  21,
+  27,
+  29,
+  32,
+  38,
+  41,
+  46,
+  50,
+  55,
+  59,
+  65,
+  71
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1e74188190999993a484e486999d7255301360c9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1466,
+  "words_out": 1461,
+  "retention": 0.9966,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   87,
+   107,
+   85,
+   113,
+   91,
+   79,
+   79,
+   95,
+   88,
+   109,
+   69,
+   139,
+   73,
+   113,
+   72,
+   62
+  ],
+  "warnings": []
+ }
+}

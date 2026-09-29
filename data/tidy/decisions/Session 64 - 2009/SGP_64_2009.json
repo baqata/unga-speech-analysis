@@ -1,0 +1,49 @@
+{
+ "id": "SGP_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  38,
+  59,
+  83,
+  105,
+  116,
+  138,
+  163,
+  181,
+  210
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba49f0b6268f6acb3395872a7c8f32c097db7b51",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 231,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1837,
+  "words_out": 1836,
+  "retention": 0.9995,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   145,
+   136,
+   158,
+   199,
+   167,
+   83,
+   174,
+   196,
+   157,
+   225,
+   196
+  ],
+  "warnings": []
+ }
+}

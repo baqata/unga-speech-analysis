@@ -1,0 +1,102 @@
+{
+ "id": "USA_47_1992",
+ "drop": [
+  [
+   14,
+   14,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  20,
+  30,
+  39,
+  47,
+  57,
+  68,
+  79,
+  86,
+  94,
+  105,
+  115,
+  137,
+  153,
+  165,
+  175,
+  182,
+  191,
+  202,
+  215,
+  228,
+  242,
+  254,
+  265,
+  280,
+  292
+ ],
+ "cer": [],
+ "fix": [
+  [
+   188,
+   "any any",
+   "any",
+   "ocr"
+  ],
+  [
+   281,
+   "building -£ stronger",
+   "building a stronger",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 281 prints '-£' where the article 'a' stands; repaired as encoding damage.",
+ "unitizer_version": 1,
+ "sha1": "a18e439491b579294ba94a79970aac055579d53c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 305,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {
+   "encoding": 1
+  },
+  "words_in": 3273,
+  "words_out": 3266,
+  "retention": 0.9979,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   125,
+   103,
+   122,
+   110,
+   85,
+   109,
+   104,
+   130,
+   81,
+   83,
+   121,
+   102,
+   199,
+   166,
+   138,
+   99,
+   79,
+   95,
+   105,
+   133,
+   142,
+   159,
+   143,
+   106,
+   147,
+   136,
+   144
+  ],
+  "warnings": []
+ }
+}

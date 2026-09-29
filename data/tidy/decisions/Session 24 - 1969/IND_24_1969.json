@@ -1,0 +1,101 @@
+{
+ "id": "IND_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  22,
+  32,
+  43,
+  60,
+  83,
+  93,
+  106,
+  123,
+  139,
+  156,
+  187,
+  205,
+  222,
+  241,
+  253,
+  267,
+  282,
+  295,
+  308,
+  327,
+  341,
+  355,
+  375,
+  386
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   242,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   274,
+   "world: merely",
+   "world merely",
+   "ocr"
+  ],
+  [
+   312,
+   "to: the",
+   "to the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca7d8493ad9245bc1b60a1e585cb2d83f527fed2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 415,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3743,
+  "words_out": 3698,
+  "retention": 0.988,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   83,
+   119,
+   98,
+   103,
+   134,
+   205,
+   89,
+   104,
+   141,
+   139,
+   160,
+   286,
+   161,
+   138,
+   169,
+   101,
+   131,
+   145,
+   113,
+   106,
+   171,
+   126,
+   115,
+   182,
+   91,
+   288
+  ],
+  "warnings": []
+ }
+}

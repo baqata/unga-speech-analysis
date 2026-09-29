@@ -1,0 +1,206 @@
+{
+ "id": "ARG_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  11,
+  15,
+  21,
+  24,
+  26,
+  27,
+  32,
+  37,
+  46,
+  49,
+  52,
+  54,
+  58,
+  62,
+  68,
+  79,
+  80,
+  84,
+  88,
+  97,
+  99,
+  102,
+  111,
+  113,
+  117,
+  121,
+  125,
+  128,
+  133,
+  136,
+  138,
+  141,
+  143,
+  146,
+  150,
+  152,
+  155,
+  159,
+  162,
+  167,
+  170
+ ],
+ "cer": [
+  0,
+  6,
+  167,
+  170
+ ],
+ "fix": [
+  [
+   17,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   21,
+   "T wish",
+   "I wish",
+   "ocr"
+  ],
+  [
+   52,
+   " [resolution 3202 (S-K/J]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "I November",
+   "1 November",
+   "ocr"
+  ],
+  [
+   129,
+   " [see A19704]",
+   "",
+   "label"
+  ],
+  [
+   134,
+   " [resolution 3201 (S-Vl)}",
+   "",
+   "label"
+  ],
+  [
+   150,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   164,
+   " [Al960IIAdd.I]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "our economies,",
+   "our economies.",
+   "ocr"
+  ],
+  [
+   116,
+   "may be discussed,",
+   "may be discussed.",
+   "ocr"
+  ],
+  [
+   145,
+   "marine environment,",
+   "marine environment.",
+   "ocr"
+  ],
+  [
+   149,
+   "developing countries,",
+   "developing countries.",
+   "ocr"
+  ],
+  [
+   154,
+   "the third world,",
+   "the third world.",
+   "ocr"
+  ],
+  [
+   166,
+   "in this question,",
+   "in this question.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a3f07486ccf3a7d12b9bf302ea00851a54ab15f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 64
+  },
+  "words_in": 5778,
+  "words_out": 5766,
+  "retention": 0.9979,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   211,
+   101,
+   98,
+   141,
+   221,
+   195,
+   95,
+   91,
+   138,
+   210,
+   193,
+   103,
+   74,
+   109,
+   135,
+   100,
+   129,
+   245,
+   61,
+   90,
+   93,
+   176,
+   97,
+   134,
+   151,
+   65,
+   189,
+   214,
+   106,
+   72,
+   153,
+   172,
+   71,
+   153,
+   144,
+   142,
+   74,
+   112,
+   153,
+   146,
+   109,
+   162,
+   77,
+   61
+  ],
+  "warnings": []
+ }
+}

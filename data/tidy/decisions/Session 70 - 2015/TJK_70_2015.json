@@ -1,0 +1,79 @@
+{
+ "id": "TJK_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  11,
+  15,
+  24,
+  28,
+  30,
+  34,
+  38,
+  41,
+  43,
+  47,
+  54,
+  58,
+  62,
+  65,
+  66
+ ],
+ "cer": [
+  0,
+  65
+ ],
+ "fix": [
+  [
+   28,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   63,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af403165170b0c23c4e8349bbd2a67facbfae363",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2072,
+  "words_out": 2068,
+  "retention": 0.9981,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   30,
+   164,
+   121,
+   107,
+   189,
+   101,
+   68,
+   124,
+   145,
+   106,
+   46,
+   104,
+   172,
+   131,
+   89,
+   142,
+   51,
+   178
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "VEN_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  11,
+  19,
+  22,
+  31,
+  33,
+  38,
+  41,
+  45,
+  49
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "of,",
+   "of",
+   "ocr"
+  ],
+  [
+   8,
+   " id ",
+   " ",
+   "ocr"
+  ],
+  [
+   8,
+   "With",
+   "with",
+   "ocr"
+  ],
+  [
+   9,
+   "stated,",
+   "stated",
+   "ocr"
+  ],
+  [
+   44,
+   "extremely,",
+   "extremely",
+   "ocr"
+  ],
+  [
+   48,
+   "considered.as",
+   "considered as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e3dabf4f4e46bf6adc57599d643d4285f26db6f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1893,
+  "words_out": 1891,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   129,
+   108,
+   101,
+   228,
+   231,
+   85,
+   254,
+   162,
+   183,
+   88,
+   144,
+   112,
+   66
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "PAN_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  17,
+  20,
+  25,
+  32,
+  37,
+  40,
+  47
+ ],
+ "cer": [
+  0,
+  47
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "256d746cb31577e87076e1b7006072939a8c5dae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1100,
+  "words_out": 1100,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   33,
+   123,
+   134,
+   96,
+   138,
+   176,
+   169,
+   65,
+   162,
+   4
+  ],
+  "warnings": []
+ }
+}

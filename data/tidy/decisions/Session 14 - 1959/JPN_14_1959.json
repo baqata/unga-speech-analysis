@@ -1,0 +1,98 @@
+{
+ "id": "JPN_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  14,
+  19,
+  22,
+  25,
+  29,
+  33,
+  37,
+  45,
+  48,
+  51,
+  54,
+  60,
+  69,
+  74,
+  78,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   " [resolution 1252 B (XIII)]",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "bur efforts",
+   "our efforts",
+   "ocr"
+  ],
+  [
+   18,
+   "or hi interfere",
+   "or to interfere",
+   "ocr"
+  ],
+  [
+   25,
+   "distrust, between",
+   "distrust between",
+   "ocr"
+  ],
+  [
+   28,
+   "itself,",
+   "itself.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d888e04c14e2791cc196cf15e21764d3b111ef0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2459,
+  "words_out": 2455,
+  "retention": 0.9984,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   73,
+   92,
+   154,
+   139,
+   105,
+   66,
+   104,
+   146,
+   131,
+   239,
+   81,
+   121,
+   143,
+   153,
+   246,
+   146,
+   116,
+   131,
+   69
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "HUN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  33,
+  48,
+  68,
+  88,
+  105,
+  119,
+  139,
+  155,
+  177,
+  190,
+  206,
+  216,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   33,
+   "Today?s",
+   "Today’s",
+   "encoding"
+  ],
+  [
+   70,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   100,
+   "Hungary?s",
+   "Hungary’s",
+   "encoding"
+  ],
+  [
+   114,
+   "community?s",
+   "community’s",
+   "encoding"
+  ],
+  [
+   175,
+   "community?s",
+   "community’s",
+   "encoding"
+  ],
+  [
+   200,
+   "community?s",
+   "community’s",
+   "encoding"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "A printed line appears to be missing between units 197 and 198 (sentence breaks off after 'in the service').",
+ "unitizer_version": 1,
+ "sha1": "cf6da5d69b7c4155b553199e9cb38bb4d65cafd7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2110,
+  "words_out": 2109,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   71,
+   147,
+   74,
+   116,
+   167,
+   192,
+   153,
+   117,
+   166,
+   131,
+   186,
+   106,
+   136,
+   85,
+   117,
+   145
+  ],
+  "warnings": []
+ }
+}

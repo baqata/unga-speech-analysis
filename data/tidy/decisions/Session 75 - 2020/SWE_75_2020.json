@@ -1,0 +1,159 @@
+{
+ "id": "SWE_75_2020",
+ "drop": [
+  [
+   24,
+   26,
+   "header_footer"
+  ],
+  [
+   50,
+   52,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  3,
+  13,
+  19,
+  30,
+  36,
+  40,
+  46,
+  55,
+  67,
+  72,
+  80,
+  89,
+  95,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   8,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   9,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   10,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   11,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   63,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   64,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   65,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   66,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   102,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   103,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   59,
+   "up-holding",
+   "upholding",
+   "hyphen"
+  ],
+  [
+   87,
+   "op-position",
+   "opposition",
+   "hyphen"
+  ],
+  [
+   94,
+   "follow- on",
+   "follow-on",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c793f7cc0b6aa0f56fb696198395e093b0544d4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {
+   "header_footer": 6
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1584,
+  "words_out": 1566,
+  "retention": 0.9886,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   1,
+   68,
+   124,
+   79,
+   119,
+   149,
+   81,
+   125,
+   80,
+   163,
+   78,
+   133,
+   130,
+   84,
+   85,
+   67
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "THA_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  15,
+  24,
+  28,
+  32,
+  37,
+  40,
+  44,
+  47,
+  48,
+  55,
+  60,
+  71,
+  77,
+  82,
+  85,
+  89,
+  95,
+  98,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "This year, 1983,",
+   "This year, 1988,",
+   "ocr"
+  ],
+  [
+   9,
+   "accommodation·,",
+   "accommodation,",
+   "ocr"
+  ],
+  [
+   9,
+   "Security Council·,",
+   "Security Council,",
+   "ocr"
+  ],
+  [
+   33,
+   "remain implemented",
+   "remain unimplemented",
+   "ocr"
+  ],
+  [
+   38,
+   "Ito this end",
+   "To this end",
+   "ocr"
+  ],
+  [
+   44,
+   "Kampuchea„ Mr.",
+   "Kampuchea, Mr.",
+   "ocr"
+  ],
+  [
+   57,
+   "Soviet Social is t Republics",
+   "Soviet Socialist Republics",
+   "ocr"
+  ],
+  [
+   61,
+   "o£ mass",
+   "of mass",
+   "ocr"
+  ],
+  [
+   74,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 101 reads \"We have our full support\", apparently for \"He has our full support\"; kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "1da7ca72a8ee654499dd19be913c946a134c9d14",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2383,
+  "words_out": 2381,
+  "retention": 0.9992,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   138,
+   171,
+   97,
+   220,
+   108,
+   62,
+   70,
+   86,
+   99,
+   90,
+   44,
+   162,
+   130,
+   207,
+   85,
+   98,
+   70,
+   66,
+   136,
+   76,
+   100,
+   66
+  ],
+  "warnings": []
+ }
+}

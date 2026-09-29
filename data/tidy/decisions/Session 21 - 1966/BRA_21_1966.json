@@ -1,0 +1,220 @@
+{
+ "id": "BRA_21_1966",
+ "drop": [
+  [
+   0,
+   0,
+   "header_footer"
+  ],
+  [
+   2,
+   2,
+   "header_footer"
+  ],
+  [
+   5,
+   5,
+   "header_footer"
+  ],
+  [
+   8,
+   8,
+   "header_footer"
+  ],
+  [
+   10,
+   10,
+   "header_footer"
+  ],
+  [
+   12,
+   12,
+   "header_footer"
+  ],
+  [
+   15,
+   15,
+   "header_footer"
+  ],
+  [
+   19,
+   19,
+   "header_footer"
+  ],
+  [
+   22,
+   22,
+   "header_footer"
+  ],
+  [
+   28,
+   28,
+   "header_footer"
+  ],
+  [
+   32,
+   32,
+   "header_footer"
+  ],
+  [
+   36,
+   36,
+   "header_footer"
+  ],
+  [
+   40,
+   40,
+   "header_footer"
+  ],
+  [
+   44,
+   44,
+   "header_footer"
+  ],
+  [
+   49,
+   49,
+   "header_footer"
+  ],
+  [
+   53,
+   53,
+   "header_footer"
+  ],
+  [
+   56,
+   56,
+   "header_footer"
+  ],
+  [
+   64,
+   64,
+   "header_footer"
+  ],
+  [
+   69,
+   69,
+   "header_footer"
+  ],
+  [
+   71,
+   71,
+   "header_footer"
+  ],
+  [
+   76,
+   76,
+   "header_footer"
+  ],
+  [
+   84,
+   84,
+   "header_footer"
+  ],
+  [
+   91,
+   91,
+   "header_footer"
+  ],
+  [
+   97,
+   97,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  9,
+  13,
+  20,
+  23,
+  29,
+  33,
+  37,
+  41,
+  50,
+  54,
+  57,
+  65,
+  70,
+  77,
+  82,
+  85,
+  92,
+  98,
+  104,
+  109
+ ],
+ "cer": [
+  1,
+  6
+ ],
+ "fix": [
+  [
+   33,
+   "Powers, Non-proliferation",
+   "Powers. Non-proliferation",
+   "ocr"
+  ],
+  [
+   34,
+   "all- important",
+   "all-important",
+   "hyphen"
+  ],
+  [
+   60,
+   "postponement, It would",
+   "postponement. It would",
+   "ocr"
+  ],
+  [
+   81,
+   "now apart",
+   "now a part",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "Record paragraph numbers are separate units in this single-line layout and are dropped because the tool did not remove them.",
+ "unitizer_version": 1,
+ "sha1": "f57c8f3299a956f8fa87ba16ea32e4ba0f219518",
+ "layout": "single",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {
+   "header_footer": 24
+  },
+  "prestrip": {},
+  "words_in": 3585,
+  "words_out": 3561,
+  "retention": 0.9933,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   146,
+   83,
+   101,
+   207,
+   127,
+   144,
+   107,
+   148,
+   177,
+   238,
+   125,
+   67,
+   275,
+   152,
+   208,
+   232,
+   92,
+   236,
+   172,
+   188,
+   161,
+   175
+  ],
+  "warnings": []
+ }
+}

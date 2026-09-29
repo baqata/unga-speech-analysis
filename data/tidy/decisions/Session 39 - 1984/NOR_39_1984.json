@@ -1,0 +1,103 @@
+{
+ "id": "NOR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  9,
+  14,
+  19,
+  24,
+  28,
+  31,
+  34,
+  39,
+  44,
+  49,
+  58,
+  64,
+  69,
+  75,
+  85,
+  94,
+  101,
+  109
+ ],
+ "cer": [
+  0,
+  109
+ ],
+ "fix": [
+  [
+   8,
+   "interdependency- cy",
+   "interdependency",
+   "hyphen"
+  ],
+  [
+   39,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   46,
+   "Concrete",
+   "concrete",
+   "ocr"
+  ],
+  [
+   75,
+   "AH our",
+   "All our",
+   "ocr"
+  ],
+  [
+   78,
+   "IMF.'",
+   "IMF.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 68 appears to lack the word apartheid in the source.",
+ "unitizer_version": 1,
+ "sha1": "5dd3eb9c3f170645650c71d8cee018a7ad7b3a81",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2271,
+  "words_out": 2268,
+  "retention": 0.9987,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   67,
+   97,
+   102,
+   126,
+   114,
+   98,
+   132,
+   81,
+   68,
+   86,
+   85,
+   111,
+   133,
+   113,
+   60,
+   132,
+   219,
+   145,
+   175,
+   92,
+   32
+  ],
+  "warnings": []
+ }
+}

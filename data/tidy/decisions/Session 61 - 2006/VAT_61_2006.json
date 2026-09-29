@@ -1,0 +1,59 @@
+{
+ "id": "VAT_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  29,
+  38,
+  55,
+  68,
+  86,
+  96,
+  119,
+  136,
+  159,
+  169,
+  184,
+  209,
+  226
+ ],
+ "cer": [
+  226
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2998cb73cf590a58fdf65bb8b7127c974f6a244c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 232,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1909,
+  "words_out": 1908,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   94,
+   130,
+   66,
+   145,
+   107,
+   140,
+   85,
+   193,
+   136,
+   201,
+   87,
+   127,
+   200,
+   150,
+   47
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "SEN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  15,
+  20,
+  24,
+  27,
+  31,
+  34,
+  37,
+  41,
+  44,
+  50,
+  56,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "post- World",
+   "post-World",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dbbdf4c52fed1e71d1e32d39ef567331085d6335",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1686,
+  "words_out": 1685,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   50,
+   155,
+   116,
+   80,
+   92,
+   100,
+   70,
+   119,
+   81,
+   77,
+   87,
+   89,
+   158,
+   143,
+   181,
+   87
+  ],
+  "warnings": []
+ }
+}

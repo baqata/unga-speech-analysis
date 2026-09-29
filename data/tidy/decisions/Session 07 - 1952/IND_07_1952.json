@@ -1,0 +1,223 @@
+{
+ "id": "IND_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  23,
+  28,
+  31,
+  34,
+  37,
+  40,
+  46,
+  53
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   "17,",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "18,",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "19,",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "20,",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "it,",
+   "it.",
+   "ocr"
+  ],
+  [
+   4,
+   "Korea,",
+   "Korea.",
+   "ocr"
+  ],
+  [
+   7,
+   "country,",
+   "country.",
+   "ocr"
+  ],
+  [
+   12,
+   "matter,",
+   "matter.",
+   "ocr"
+  ],
+  [
+   13,
+   "question,",
+   "question",
+   "ocr"
+  ],
+  [
+   17,
+   "speed,",
+   "speed.",
+   "ocr"
+  ],
+  [
+   17,
+   "Non- Self-Governing",
+   "Non-Self-Governing",
+   "spacing"
+  ],
+  [
+   18,
+   "under-freedom",
+   "under freedom",
+   "spacing"
+  ],
+  [
+   20,
+   "speech;",
+   "speech",
+   "ocr"
+  ],
+  [
+   20,
+   "in,",
+   "in",
+   "ocr"
+  ],
+  [
+   27,
+   "peoples”,",
+   "peoples”.",
+   "ocr"
+  ],
+  [
+   30,
+   "responsibilities,",
+   "responsibilities.",
+   "ocr"
+  ],
+  [
+   30,
+   "areas,",
+   "areas.",
+   "ocr"
+  ],
+  [
+   33,
+   "ell",
+   "all",
+   "ocr"
+  ],
+  [
+   35,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   35,
+   "us,",
+   "us.",
+   "ocr"
+  ],
+  [
+   37,
+   "wish,",
+   "wish",
+   "ocr"
+  ],
+  [
+   38,
+   "election,",
+   "election.",
+   "ocr"
+  ],
+  [
+   46,
+   "anti",
+   "and",
+   "ocr"
+  ],
+  [
+   49,
+   ",by",
+   "by",
+   "ocr"
+  ],
+  [
+   50,
+   ".and",
+   "and",
+   "ocr"
+  ],
+  [
+   54,
+   "failure,",
+   "failure.",
+   "ocr"
+  ],
+  [
+   56,
+   "bring",
+   "being",
+   "ocr"
+  ],
+  [
+   57,
+   "me",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "98a7259c80b11ca8bca777b16e083993a68aa957",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 12
+  },
+  "words_in": 1874,
+  "words_out": 1870,
+  "retention": 0.9979,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   156,
+   136,
+   158,
+   244,
+   174,
+   101,
+   108,
+   167,
+   112,
+   146,
+   216,
+   152
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

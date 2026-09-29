@@ -1,0 +1,57 @@
+{
+ "id": "BLZ_66_2011",
+ "drop": [
+  [
+   76,
+   76,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  22,
+  52,
+  63,
+  99,
+  123,
+  150,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67514d8874729ad9dc120605696bd495c22dc8ea",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1311,
+  "words_out": 1299,
+  "retention": 0.9908,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   80,
+   114,
+   217,
+   93,
+   255,
+   179,
+   187,
+   97,
+   77
+  ],
+  "warnings": [
+   "procedural drop [76,76] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "id": "BEN_28_1973",
+ "drop": [
+  [
+   77,
+   77,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  20,
+  25,
+  36,
+  43,
+  48,
+  53,
+  57,
+  61,
+  66,
+  71,
+  73,
+  78,
+  83,
+  90,
+  93,
+  95,
+  99,
+  102,
+  111,
+  116,
+  125,
+  129,
+  133,
+  140,
+  148,
+  155,
+  160
+ ],
+ "cer": [
+  12,
+  20
+ ],
+ "fix": [
+  [
+   15,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "an-end",
+   "an end",
+   "ocr"
+  ],
+  [
+   55,
+   "peoples..",
+   "peoples.",
+   "ocr"
+  ],
+  [
+   79,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "\"apartheid'",
+   "\"apartheid\"",
+   "ocr"
+  ],
+  [
+   96,
+   ", always",
+   "always",
+   "ocr"
+  ],
+  [
+   141,
+   " [FAO]",
+   "",
+   "label"
+  ],
+  [
+   147,
+   "- good",
+   "good",
+   "ocr"
+  ],
+  [
+   161,
+   "I nave",
+   "I have",
+   "ocr"
+  ],
+  [
+   163,
+   "I of one",
+   "of one",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c981190ee085772f90d8d13b82a0db4c77f5e9c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 50
+  },
+  "words_in": 5307,
+  "words_out": 5296,
+  "retention": 0.9979,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   181,
+   163,
+   99,
+   301,
+   155,
+   283,
+   187,
+   182,
+   188,
+   153,
+   89,
+   176,
+   137,
+   95,
+   161,
+   161,
+   135,
+   124,
+   102,
+   145,
+   95,
+   201,
+   165,
+   219,
+   137,
+   162,
+   195,
+   214,
+   213,
+   216,
+   262
+  ],
+  "warnings": []
+ }
+}

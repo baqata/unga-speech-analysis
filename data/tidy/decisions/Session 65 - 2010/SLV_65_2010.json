@@ -1,0 +1,53 @@
+{
+ "id": "SLV_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  26,
+  49,
+  74,
+  90,
+  109,
+  130,
+  152,
+  167,
+  186,
+  202,
+  218
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1bd736227c2df75d49feeefa3045a5e2e02b1588",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1966,
+  "words_out": 1965,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   85,
+   145,
+   193,
+   209,
+   129,
+   175,
+   195,
+   176,
+   111,
+   139,
+   118,
+   121,
+   169
+  ],
+  "warnings": []
+ }
+}

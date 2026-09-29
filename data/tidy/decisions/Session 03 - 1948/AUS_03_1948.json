@@ -1,0 +1,60 @@
+{
+ "id": "AUS_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  19,
+  23,
+  29,
+  38,
+  41,
+  46,
+  48,
+  56,
+  59
+ ],
+ "cer": [
+  59
+ ],
+ "fix": [
+  [
+   56,
+   "o tackle",
+   "to tackle",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "8bccee7dd87a27252474bcc9cc6941531e1211ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1758,
+  "words_out": 1757,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   126,
+   164,
+   289,
+   127,
+   167,
+   227,
+   68,
+   177,
+   79,
+   201,
+   62,
+   70
+  ],
+  "warnings": []
+ }
+}

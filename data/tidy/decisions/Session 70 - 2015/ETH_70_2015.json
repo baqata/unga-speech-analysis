@@ -1,0 +1,52 @@
+{
+ "id": "ETH_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  14,
+  19,
+  29,
+  34,
+  42,
+  46,
+  51
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "83a66e3b11385befc0a480ccee077fc78d977fd4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1481,
+  "words_out": 1479,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   76,
+   93,
+   98,
+   81,
+   163,
+   157,
+   177,
+   188,
+   181,
+   106,
+   113,
+   46
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "id": "MOZ_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   89,
+   89,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  8,
+  13,
+  21,
+  24,
+  29,
+  34,
+  38,
+  43,
+  49,
+  54,
+  61,
+  66,
+  69,
+  75,
+  77,
+  80,
+  82
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "Kalilur",
+   "Khalilur",
+   "asr_name"
+  ],
+  [
+   5,
+   "your exercise.",
+   "Your Excellencies,",
+   "asr_term"
+  ],
+  [
+   7,
+   "Barboak",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   10,
+   "law of force",
+   "law over force",
+   "asr_term"
+  ],
+  [
+   10,
+   "hope of fear",
+   "hope over fear",
+   "asr_term"
+  ],
+  [
+   12,
+   "the merging",
+   "the margins",
+   "asr_term"
+  ],
+  [
+   13,
+   "protected worlds",
+   "protracted wars",
+   "asr_term"
+  ],
+  [
+   24,
+   "Mozambical",
+   "Mozambican",
+   "asr_name"
+  ],
+  [
+   37,
+   "Saharui",
+   "Saharawi",
+   "asr_name"
+  ],
+  [
+   39,
+   "co-service",
+   "coercive",
+   "asr_term"
+  ],
+  [
+   46,
+   "financial accreditation",
+   "financial architecture",
+   "asr_term"
+  ],
+  [
+   51,
+   "SADAC",
+   "SADC",
+   "asr_name"
+  ],
+  [
+   66,
+   "23rd Agenda",
+   "2030 Agenda",
+   "asr_name"
+  ],
+  [
+   77,
+   "UN aid initiative",
+   "UN80 initiative",
+   "asr_name"
+  ],
+  [
+   79,
+   "Esulwini consensus",
+   "Ezulwini consensus",
+   "asr_name"
+  ],
+  [
+   79,
+   "search declaration",
+   "Sirte declaration",
+   "asr_name"
+  ],
+  [
+   10,
+   "fear. fear.",
+   "fear.",
+   "asr_term"
+  ],
+  [
+   22,
+   "development. today",
+   "development today",
+   "asr_term"
+  ],
+  [
+   49,
+   "necessary. with",
+   "necessary. With",
+   "asr_term"
+  ],
+  [
+   63,
+   "people. and",
+   "people and",
+   "asr_term"
+  ],
+  [
+   78,
+   "results. reforms",
+   "results. Reforms",
+   "asr_term"
+  ],
+  [
+   79,
+   "exists. and",
+   "exists and",
+   "asr_term"
+  ],
+  [
+   81,
+   "received. an",
+   "received. An",
+   "asr_term"
+  ],
+  [
+   16,
+   "and significance",
+   "significance",
+   "asr_term"
+  ],
+  [
+   34,
+   "analyze",
+   "underlies",
+   "asr_term"
+  ],
+  [
+   66,
+   "debt, limited",
+   "debt, and limited",
+   "asr_term"
+  ],
+  [
+   63,
+   "productive challenges",
+   "productive chains",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 is a lone 'Thank you.' in the walk to the podium; Khalilur Rahman and Annalena Baerbock are the PGAs of the 81st and 80th sessions (UN); repairs per the Spanish channel ('por sobre', 'periferia', 'guerras prolongadas', 'reorganización', 'espíritu', 'coercitivas', 'arquitectura', 'cadenas de producción', 'Agenda 2030', 'ONU-80', 'Zuluini', 'CIRTE'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 10 'fear. fear.' -> 'fear.'. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 63 repair of 'productive challenges' withdrawn (three re-decodes hear 'challenges' (p 1.00), which does not sound like 'chains': the English interpreter's wording; 'cadenas de producción' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 22 'development. today' -> 'development today'; unit 49 'necessary. with' -> 'necessary. With'; unit 63 'people. and' -> 'people and'; unit 78 'results. reforms' -> 'results. Reforms'; unit 79 'exists. and' -> 'exists and'; unit 81 'received. an' -> 'received. An'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 14 earlier repair of 'the organization of the value chains' undone (the audio contradicts the earlier repair 'reorganization': both decodes and four re-decodes hear 'organization' (0.94 to 0.99), as does the UN transcript; forced scoring 'organization' -5.1 vs 'reorganization' -15.5 and 're-organization' -19.3 (no 're' syllable under either tokenization); Portuguese speech, so the Spanish 'reorganización' cannot correct the English booth; the sentence reads well; back to 'the organization of the value chains'); spot 9 unit 16 'and significance' -> 'significance' (invented word: both decodes clearly hear 'important significance' with nothing between (1.00 / 0.99-1.00); 'important and significance' does not fit); spot 11 unit 25 earlier repair of 'in this period' undone (the audio contradicts the earlier repair 'in this spirit': both decodes hear 'period' (1.00 / 0.98), as does the UN transcript; forced scoring 'period' -3.7 vs 'spirit' -11.0; a different word; MOZ is a Portuguese speech, so 'espíritu' is the Spanish booth's wording and interp does not apply; 'in this period' fits the sentence; back to 'in this period' (replaces the run's line, which cancelled the repair with old = new)); spot 15 unit 34 'analyze' -> 'underlies' (decodes 'analyze' only 0.65 / 0.59; sounds like 'underlies'; 'this that analyze the support' does not fit; ES 'Este principio es la base de nuestra defensa'); spot 28 unit 66 'debt, limited' -> 'debt, and limited' (2026 exception: both decodes clearly hear 'and' (1.00 / 1.00); ES 'un aumento de la deuda y acceso limitado'). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 63 said 'integrates productive challenges' (three re-decodes p 1.00), which does not fit; the Spanish 'integrando cadenas de producción' shows 'chains'.",
+ "unitizer_version": 1,
+ "sha1": "68e47a868c84b36df9cb4e88c60ec44bb3f1f216",
+ "layout": "single",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2406,
+  "words_out": 2353,
+  "retention": 0.978,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   100,
+   118,
+   162,
+   83,
+   125,
+   143,
+   78,
+   132,
+   149,
+   152,
+   230,
+   163,
+   97,
+   161,
+   69,
+   143,
+   104,
+   144
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

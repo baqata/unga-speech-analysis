@@ -1,0 +1,96 @@
+{
+ "id": "UGA_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  29,
+  43,
+  58,
+  79,
+  110,
+  127,
+  150,
+  174,
+  187,
+  204,
+  220,
+  235,
+  251,
+  271,
+  281,
+  305,
+  317
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   121,
+   "régime and.",
+   "régime and",
+   "ocr"
+  ],
+  [
+   219,
+   "Should",
+   "should",
+   "ocr"
+  ],
+  [
+   223,
+   "peace“",
+   "peace”",
+   "ocr"
+  ],
+  [
+   229,
+   "by, the",
+   "by the",
+   "ocr"
+  ],
+  [
+   298,
+   "deal.",
+   "deal",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08e08a34d6f1c40068ed0027b50e2eb59c36e8c2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 332,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3031,
+  "words_out": 3007,
+  "retention": 0.9921,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   49,
+   208,
+   135,
+   125,
+   201,
+   285,
+   157,
+   203,
+   219,
+   117,
+   162,
+   156,
+   138,
+   146,
+   171,
+   88,
+   215,
+   95,
+   137
+  ],
+  "warnings": []
+ }
+}

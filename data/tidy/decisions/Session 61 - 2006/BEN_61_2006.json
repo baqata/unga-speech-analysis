@@ -1,0 +1,50 @@
+{
+ "id": "BEN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  29,
+  47,
+  61,
+  79,
+  100,
+  114,
+  133,
+  143
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc23f6524ad99410e9a090a0229262ab67756e7e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1141,
+  "words_out": 1141,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   121,
+   101,
+   137,
+   119,
+   143,
+   154,
+   105,
+   144,
+   81,
+   36
+  ],
+  "warnings": []
+ }
+}

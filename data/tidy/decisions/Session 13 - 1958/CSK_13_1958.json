@@ -1,0 +1,321 @@
+{
+ "id": "CSK_13_1958",
+ "drop": [
+  [
+   22,
+   22,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  18,
+  23,
+  27,
+  32,
+  34,
+  39,
+  43,
+  49,
+  54,
+  58,
+  60,
+  64,
+  70,
+  73,
+  78,
+  81,
+  86,
+  88,
+  93,
+  98,
+  103,
+  108,
+  111,
+  114,
+  119,
+  123,
+  128,
+  133,
+  136,
+  141,
+  144,
+  149,
+  155,
+  159,
+  164,
+  168,
+  172,
+  175,
+  179,
+  184,
+  188,
+  192,
+  195,
+  200,
+  203,
+  207,
+  212
+ ],
+ "cer": [],
+ "fix": [
+  [
+   30,
+   "'allies",
+   "allies",
+   "ocr"
+  ],
+  [
+   46,
+   "period,",
+   "period.",
+   "ocr"
+  ],
+  [
+   56,
+   "of'",
+   "of",
+   "ocr"
+  ],
+  [
+   57,
+   "L am",
+   "I am",
+   "ocr"
+  ],
+  [
+   57,
+   "Force,",
+   "Force.",
+   "ocr"
+  ],
+  [
+   59,
+   "much- tried",
+   "much-tried",
+   "hyphen"
+  ],
+  [
+   61,
+   "the. international",
+   "the international",
+   "ocr"
+  ],
+  [
+   67,
+   "l8",
+   "18",
+   "ocr"
+  ],
+  [
+   71,
+   "prevent-the",
+   "prevent the",
+   "ocr"
+  ],
+  [
+   75,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   82,
+   "devised, The",
+   "devised. The",
+   "ocr"
+  ],
+  [
+   86,
+   "[agenda item 701.",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   96,
+   "[agenda Item 72]",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "problem,",
+   "problem.",
+   "ocr"
+  ],
+  [
+   114,
+   "setup",
+   "set up",
+   "spacing"
+  ],
+  [
+   128,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   129,
+   "'recent",
+   "recent",
+   "ocr"
+  ],
+  [
+   142,
+   "Warsaw Fact",
+   "Warsaw Pact",
+   "ocr"
+  ],
+  [
+   142,
+   "anon-aggression",
+   "a non-aggression",
+   "spacing"
+  ],
+  [
+   153,
+   "1b",
+   "is",
+   "ocr"
+  ],
+  [
+   158,
+   "[A/3847 and Add.1]",
+   "",
+   "label"
+  ],
+  [
+   179,
+   "[resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   184,
+   "[A/3934/ Rev. 1. annex 1]",
+   "",
+   "label"
+  ],
+  [
+   185,
+   "[ibid.. annex II].",
+   "",
+   "label"
+  ],
+  [
+   187,
+   "statement. Mr.",
+   "statement, Mr.",
+   "ocr"
+  ],
+  [
+   207,
+   "• ",
+   "",
+   "markup"
+  ],
+  [
+   210,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   210,
+   "on ' ensuring",
+   "on ensuring",
+   "ocr"
+  ],
+  [
+   211,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 175-214 are Czechoslovakia's second statement in the general debate, on the Near East; kept as the country's statement.",
+ "unitizer_version": 1,
+ "sha1": "164ad50593b204b1772d0f99ab6eabc6a9f4c857",
+ "layout": "lines",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 89
+  },
+  "words_in": 7239,
+  "words_out": 7213,
+  "retention": 0.9964,
+  "n_paragraphs": 51,
+  "paragraph_words": [
+   75,
+   135,
+   161,
+   197,
+   141,
+   153,
+   159,
+   78,
+   189,
+   170,
+   219,
+   163,
+   138,
+   91,
+   134,
+   176,
+   136,
+   126,
+   83,
+   223,
+   93,
+   157,
+   184,
+   174,
+   202,
+   98,
+   70,
+   217,
+   112,
+   146,
+   171,
+   122,
+   156,
+   110,
+   241,
+   189,
+   103,
+   174,
+   138,
+   101,
+   78,
+   134,
+   174,
+   120,
+   95,
+   120,
+   127,
+   141,
+   87,
+   115,
+   117
+  ],
+  "warnings": [
+   "30 fixes"
+  ]
+ }
+}

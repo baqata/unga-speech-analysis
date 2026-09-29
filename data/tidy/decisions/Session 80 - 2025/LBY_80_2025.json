@@ -1,0 +1,63 @@
+{
+ "id": "LBY_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   55,
+   55,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  10,
+  17,
+  23,
+  29,
+  35,
+  38,
+  41,
+  45,
+  52
+ ],
+ "cer": [
+  2,
+  52
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8055dfb8a727df62d44576c0e414a61107506240",
+ "layout": "single",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1235,
+  "words_out": 1178,
+  "retention": 0.9538,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   55,
+   137,
+   163,
+   107,
+   125,
+   100,
+   71,
+   108,
+   107,
+   180,
+   25
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "CHE_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  24,
+  39,
+  50,
+  74,
+  84,
+  97,
+  115,
+  138,
+  157,
+  166,
+  181
+ ],
+ "cer": [
+  6
+ ],
+ "fix": [
+  [
+   58,
+   "Ö",
+   "…",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "07de8c693258fe4f19631c46bf636ecf7b45f41d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1470,
+  "words_out": 1468,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   45,
+   150,
+   116,
+   91,
+   192,
+   69,
+   98,
+   151,
+   174,
+   141,
+   78,
+   105,
+   58
+  ],
+  "warnings": []
+ }
+}

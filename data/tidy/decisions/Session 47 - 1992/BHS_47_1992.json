@@ -1,0 +1,80 @@
+{
+ "id": "BHS_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  38,
+  55,
+  70,
+  88,
+  103,
+  113,
+  127,
+  144,
+  167,
+  180,
+  201,
+  211,
+  224,
+  238,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   101,
+   ":an no",
+   "can no",
+   "ocr"
+  ],
+  [
+   145,
+   "wore than",
+   "more than",
+   "ocr"
+  ],
+  [
+   153,
+   "Tins can",
+   "This can",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd9c43e6ca3280e80d0cf108da7d86daa4b70e1c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2984,
+  "words_out": 2984,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   185,
+   232,
+   207,
+   168,
+   187,
+   164,
+   109,
+   157,
+   201,
+   242,
+   135,
+   228,
+   111,
+   137,
+   146,
+   196,
+   179
+  ],
+  "warnings": []
+ }
+}

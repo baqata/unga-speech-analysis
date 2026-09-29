@@ -1,0 +1,163 @@
+{
+ "id": "NOR_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   2,
+   "noise"
+  ],
+  [
+   178,
+   178,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  12,
+  28,
+  37,
+  41,
+  52,
+  62,
+  72,
+  77,
+  89,
+  93,
+  97,
+  106,
+  117,
+  122,
+  128,
+  137,
+  147,
+  155,
+  161,
+  168,
+  177
+ ],
+ "cer": [
+  177
+ ],
+ "fix": [
+  [
+   6,
+   "montars",
+   "monsters",
+   "asr_term"
+  ],
+  [
+   16,
+   "power matches",
+   "power matters",
+   "asr_term"
+  ],
+  [
+   34,
+   "scorch of war",
+   "scourge of war",
+   "asr_term"
+  ],
+  [
+   54,
+   "diverse resources",
+   "divert resources",
+   "asr_term"
+  ],
+  [
+   86,
+   "Klauswitz",
+   "Clausewitz",
+   "asr_name"
+  ],
+  [
+   147,
+   "The fence of",
+   "The defence of",
+   "asr_term"
+  ],
+  [
+   149,
+   "has no turn",
+   "has now turned",
+   "asr_term"
+  ],
+  [
+   36,
+   "powers. powers.",
+   "powers.",
+   "asr_term"
+  ],
+  [
+   145,
+   "potentials. potentials.",
+   "potentials.",
+   "asr_term"
+  ],
+  [
+   162,
+   "forget. when",
+   "forget. When",
+   "asr_term"
+  ],
+  [
+   113,
+   "state",
+   "states",
+   "asr_term"
+  ],
+  [
+   124,
+   "seat",
+   "seats",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Clausewitz per the Spanish 'Klausewitz'; terms per the Spanish (importa, flagelo, desvían, defensa, se ha invertido). Main-agent tail check: the first pass skipped 'not technology. The danger is' inside a segment (905.4-909.0), reversing the Secretary-General's point; spliced back from four re-decodes (p 0.83-1.00) and the Spanish 'el peligro no es la tecnologia'; decisions carried over (units 138-139 now two sentences). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 36 'powers. powers.' -> 'powers.'; unit 145 'potentials. potentials.' -> 'potentials.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 162 'forget. when' -> 'forget. When'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 15 unit 113 'state' -> 'states' (decodes 'state' only at 0.69 / 0.72 before 'are' (s-liaison); 'we, the member state, are the owners' does not fit; ES 'nosotros, los Estados miembros, somos'); spot 16 unit 124 'seat' -> 'seats' (decodes unclear ('seated' 0.55 / 'seat' 0.48); 'among the permanent seat' does not fit; ES 'entre los puestos permanentes')",
+ "unitizer_version": 1,
+ "sha1": "27c884752f92e64388f62505abf3eb6c0e20da2f",
+ "layout": "single",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2351,
+  "words_out": 2302,
+  "retention": 0.9792,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   131,
+   176,
+   123,
+   59,
+   149,
+   114,
+   154,
+   75,
+   155,
+   74,
+   67,
+   123,
+   108,
+   88,
+   89,
+   159,
+   133,
+   107,
+   76,
+   85,
+   55,
+   2
+  ],
+  "warnings": []
+ }
+}

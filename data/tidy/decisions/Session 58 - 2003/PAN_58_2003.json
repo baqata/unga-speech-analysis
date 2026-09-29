@@ -1,0 +1,68 @@
+{
+ "id": "PAN_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  25,
+  42,
+  63,
+  81,
+  98,
+  115,
+  137,
+  154,
+  175,
+  189,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Rodr'guez",
+   "Rodríguez",
+   "encoding"
+  ],
+  [
+   85,
+   "Asunci n",
+   "Asunción",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5759c6ea1737ac75ab6e59979242d0e3c5ffd35d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1900,
+  "words_out": 1899,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   90,
+   105,
+   146,
+   161,
+   148,
+   129,
+   141,
+   174,
+   137,
+   154,
+   107,
+   184,
+   223
+  ],
+  "warnings": []
+ }
+}

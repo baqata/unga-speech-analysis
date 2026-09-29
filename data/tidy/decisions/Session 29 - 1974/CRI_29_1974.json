@@ -1,0 +1,199 @@
+{
+ "id": "CRI_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  18,
+  20,
+  23,
+  30,
+  35,
+  41,
+  44,
+  48,
+  50,
+  54,
+  57,
+  63,
+  66,
+  68,
+  72,
+  78,
+  80,
+  83,
+  86,
+  88,
+  91,
+  95,
+  99,
+  106,
+  108,
+  112,
+  115,
+  119,
+  123,
+  128,
+  136,
+  140,
+  145
+ ],
+ "cer": [
+  0,
+  4,
+  9,
+  18,
+  140
+ ],
+ "fix": [
+  [
+   2,
+   "herd",
+   "heard",
+   "ocr"
+  ],
+  [
+   17,
+   "[Al9601lAdd.l, p. 6]",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "my not",
+   "may not",
+   "ocr"
+  ],
+  [
+   52,
+   "two- thirds-majority",
+   "two-thirds-majority",
+   "spacing"
+  ],
+  [
+   64,
+   "medium- sized",
+   "medium-sized",
+   "spacing"
+  ],
+  [
+   86,
+   "com-promise",
+   "compromise",
+   "hyphen"
+  ],
+  [
+   92,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   104,
+   "nation^",
+   "nation.",
+   "ocr"
+  ],
+  [
+   105,
+   "[Ibid, para. 56 and 57]",
+   "",
+   "label"
+  ],
+  [
+   111,
+   "to And lasting",
+   "to find lasting",
+   "ocr"
+  ],
+  [
+   118,
+   "thiL",
+   "this",
+   "ocr"
+  ],
+  [
+   128,
+   "th?",
+   "the",
+   "ocr"
+  ],
+  [
+   129,
+   "th?",
+   "the",
+   "ocr"
+  ],
+  [
+   143,
+   " [ibid., para. 60]",
+   "",
+   "label"
+  ],
+  [
+   144,
+   " [ibid. ]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5733bd859d51366fba9761d1e02cdaec0d05aed9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 6,
+   "paragraph_number": 56
+  },
+  "words_in": 4639,
+  "words_out": 4610,
+  "retention": 0.9937,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   120,
+   160,
+   89,
+   151,
+   60,
+   106,
+   203,
+   166,
+   226,
+   104,
+   147,
+   89,
+   177,
+   102,
+   156,
+   87,
+   88,
+   77,
+   135,
+   77,
+   84,
+   95,
+   79,
+   130,
+   110,
+   118,
+   172,
+   89,
+   105,
+   104,
+   183,
+   90,
+   112,
+   175,
+   174,
+   150,
+   120
+  ],
+  "warnings": []
+ }
+}

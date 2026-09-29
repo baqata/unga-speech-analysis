@@ -1,0 +1,60 @@
+{
+ "id": "ALB_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  33,
+  46,
+  59,
+  69,
+  99,
+  123,
+  131,
+  141,
+  163,
+  174,
+  196,
+  210,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34b698fe1e2183f061d627c41a575ae7f082a7dc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "job_number": 3
+  },
+  "words_in": 1995,
+  "words_out": 1994,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   108,
+   142,
+   106,
+   91,
+   81,
+   256,
+   176,
+   58,
+   83,
+   176,
+   89,
+   179,
+   109,
+   172,
+   168
+  ],
+  "warnings": []
+ }
+}

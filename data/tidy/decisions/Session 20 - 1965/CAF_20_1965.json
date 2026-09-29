@@ -1,0 +1,111 @@
+{
+ "id": "CAF_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  21,
+  26,
+  32,
+  38,
+  41,
+  46,
+  51,
+  57,
+  61,
+  65,
+  71,
+  76,
+  81,
+  89,
+  96,
+  101,
+  105,
+  110,
+  117
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   10,
+   "Quaison-Saokey",
+   "Quaison-Sackey",
+   "ocr"
+  ],
+  [
+   13,
+   "Republio",
+   "Republic",
+   "ocr"
+  ],
+  [
+   34,
+   "thirds of. the",
+   "thirds of the",
+   "ocr"
+  ],
+  [
+   64,
+   "must' be",
+   "must be",
+   "ocr"
+  ],
+  [
+   112,
+   "Meersoh",
+   "Meersch",
+   "ocr"
+  ],
+  [
+   72,
+   " [agenda item 23]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59b1ff94bdf7eeb0392be832f0443149b68bebde",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2773,
+  "words_out": 2731,
+  "retention": 0.9849,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   191,
+   126,
+   209,
+   106,
+   131,
+   114,
+   58,
+   105,
+   107,
+   93,
+   72,
+   134,
+   126,
+   137,
+   96,
+   120,
+   126,
+   149,
+   95,
+   132,
+   180,
+   124
+  ],
+  "warnings": []
+ }
+}

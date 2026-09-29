@@ -1,0 +1,70 @@
+{
+ "id": "COG_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  24,
+  43,
+  59,
+  73,
+  97,
+  109,
+  125,
+  134,
+  146,
+  153,
+  166,
+  187,
+  205,
+  216,
+  224,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "f loor",
+   "floor",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c0820bfb9f47a7db87f052bc6fa0929da8bcc094",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 244,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1998,
+  "words_out": 1993,
+  "retention": 0.9975,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   29,
+   162,
+   163,
+   140,
+   108,
+   200,
+   100,
+   126,
+   71,
+   102,
+   65,
+   94,
+   167,
+   152,
+   90,
+   61,
+   108,
+   55
+  ],
+  "warnings": []
+ }
+}

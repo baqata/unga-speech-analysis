@@ -1,0 +1,65 @@
+{
+ "id": "LTU_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  29,
+  51,
+  63,
+  86,
+  108,
+  119,
+  135,
+  155,
+  181,
+  201,
+  210
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   227,
+   "good- neighbourly",
+   "good-neighbourly",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "556944f7af664666578d6b16585b256001d16d74",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 232,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1907,
+  "words_out": 1905,
+  "retention": 0.999,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   27,
+   50,
+   169,
+   179,
+   104,
+   209,
+   174,
+   86,
+   126,
+   146,
+   229,
+   166,
+   65,
+   175
+  ],
+  "warnings": []
+ }
+}

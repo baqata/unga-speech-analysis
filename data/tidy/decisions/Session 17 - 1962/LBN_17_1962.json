@@ -1,0 +1,120 @@
+{
+ "id": "LBN_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  13,
+  17,
+  20,
+  22,
+  24,
+  28,
+  30,
+  36,
+  39,
+  42,
+  44,
+  47,
+  49,
+  56,
+  62,
+  66,
+  73,
+  76,
+  79,
+  84,
+  86,
+  88,
+  92,
+  97,
+  100
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   7,
+   "epic, struggle",
+   "epic struggle",
+   "ocr"
+  ],
+  [
+   21,
+   "preference,",
+   "preference.",
+   "ocr"
+  ],
+  [
+   24,
+   "assistance of.",
+   "assistance of",
+   "ocr"
+  ],
+  [
+   29,
+   " [A/5201/ Add.l, p. 3]",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "countries;",
+   "countries",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "50cce6d7e5bc2d6ee75aa681e7a793e1aba6d5a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 37
+  },
+  "words_in": 3090,
+  "words_out": 3077,
+  "retention": 0.9958,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   125,
+   59,
+   124,
+   140,
+   101,
+   85,
+   81,
+   163,
+   101,
+   58,
+   109,
+   99,
+   103,
+   63,
+   84,
+   77,
+   120,
+   112,
+   79,
+   156,
+   133,
+   80,
+   166,
+   100,
+   75,
+   157,
+   130,
+   98,
+   99
+  ],
+  "warnings": []
+ }
+}

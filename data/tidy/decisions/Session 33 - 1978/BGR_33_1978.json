@@ -1,0 +1,114 @@
+{
+ "id": "BGR_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  17,
+  23,
+  27,
+  29,
+  33,
+  36,
+  41,
+  44,
+  46,
+  48,
+  52,
+  55,
+  57,
+  60,
+  64,
+  66,
+  68,
+  72,
+  77,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you or. your",
+   "you on your",
+   "ocr"
+  ],
+  [
+   19,
+   "S80 billion",
+   "$80 billion",
+   "ocr"
+  ],
+  [
+   37,
+   " /resolution S-10/2/",
+   "",
+   "label"
+  ],
+  [
+   42,
+   " [A/33/241]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "128-. ",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "th2 Soviet",
+   "the Soviet",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b8102febb1c5f768e23ffe795b12b99c8d7d441",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2771,
+  "words_out": 2766,
+  "retention": 0.9982,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   59,
+   121,
+   75,
+   257,
+   208,
+   114,
+   98,
+   117,
+   111,
+   144,
+   99,
+   94,
+   64,
+   152,
+   72,
+   88,
+   63,
+   131,
+   126,
+   73,
+   140,
+   187,
+   115,
+   58
+  ],
+  "warnings": []
+ }
+}

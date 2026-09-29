@@ -1,0 +1,233 @@
+{
+ "id": "DOM_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  12,
+  17,
+  19,
+  22,
+  27,
+  33,
+  36,
+  41,
+  47,
+  56,
+  57,
+  60,
+  63,
+  67,
+  69,
+  73,
+  82,
+  86,
+  90,
+  91,
+  98,
+  101,
+  105,
+  108,
+  113,
+  118,
+  122,
+  129
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Dominican;",
+   "Dominican",
+   "ocr"
+  ],
+  [
+   10,
+   "care- taker",
+   "care-taker",
+   "hyphen"
+  ],
+  [
+   10,
+   "moaning",
+   "meaning",
+   "ocr"
+  ],
+  [
+   18,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   24,
+   "campaign:",
+   "campaign",
+   "ocr"
+  ],
+  [
+   25,
+   "a' new",
+   "a new",
+   "ocr"
+  ],
+  [
+   26,
+   "[A/520i/Add.l, page3.]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "Will",
+   "will",
+   "ocr"
+  ],
+  [
+   32,
+   "ones-who’",
+   "ones who",
+   "ocr"
+  ],
+  [
+   46,
+   "solo",
+   "sole",
+   "ocr"
+  ],
+  [
+   48,
+   "was. said",
+   "was said",
+   "ocr"
+  ],
+  [
+   61,
+   "thei",
+   "the",
+   "ocr"
+  ],
+  [
+   65,
+   "hive",
+   "have",
+   "ocr"
+  ],
+  [
+   73,
+   "apolitical",
+   "a political",
+   "split_word"
+  ],
+  [
+   73,
+   "Sino- Soviet",
+   "Sino-Soviet",
+   "hyphen"
+  ],
+  [
+   73,
+   "rights;",
+   "rights",
+   "ocr"
+  ],
+  [
+   90,
+   "'all",
+   "all",
+   "ocr"
+  ],
+  [
+   90,
+   "Marxist-Leninist.",
+   "Marxist-Leninist",
+   "ocr"
+  ],
+  [
+   96,
+   "inter- American",
+   "inter-American",
+   "hyphen"
+  ],
+  [
+   101,
+   "which;",
+   "which,",
+   "ocr"
+  ],
+  [
+   102,
+   "foil;",
+   "for",
+   "ocr"
+  ],
+  [
+   103,
+   "as\"",
+   "as",
+   "ocr"
+  ],
+  [
+   125,
+   "no peace",
+   "not peace",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Long quotations of the Punta del Este resolution and the Washington communique are kept as printed; unit 73 is a single long unit and cannot be split.",
+ "unitizer_version": 1,
+ "sha1": "ec84b22f3e748957db87f597642e2c66e8f7cfae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 5100,
+  "words_out": 5095,
+  "retention": 0.999,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   154,
+   210,
+   88,
+   222,
+   89,
+   86,
+   203,
+   166,
+   140,
+   211,
+   164,
+   224,
+   70,
+   107,
+   79,
+   113,
+   95,
+   117,
+   576,
+   162,
+   149,
+   157,
+   206,
+   103,
+   235,
+   145,
+   211,
+   259,
+   158,
+   147,
+   49
+  ],
+  "warnings": [
+   "paragraph at unit 73 has 576 words",
+   "23 fixes"
+  ]
+ }
+}

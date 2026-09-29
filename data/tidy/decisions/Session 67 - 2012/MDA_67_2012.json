@@ -1,0 +1,78 @@
+{
+ "id": "MDA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  29,
+  43,
+  58,
+  71,
+  99,
+  112,
+  124,
+  137,
+  149,
+  157,
+  172,
+  184,
+  195,
+  214
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   165,
+   "(A/67/PV.3)",
+   "",
+   "label"
+  ],
+  [
+   222,
+   "(see resolution 66/288,",
+   "",
+   "label"
+  ],
+  [
+   223,
+   "annex)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d30895aa90211a02db242f9cc1ef4d8795b0bb98",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1857,
+  "words_out": 1851,
+  "retention": 0.9968,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   110,
+   126,
+   138,
+   134,
+   103,
+   221,
+   100,
+   87,
+   101,
+   87,
+   62,
+   116,
+   90,
+   76,
+   149,
+   151
+  ],
+  "warnings": []
+ }
+}

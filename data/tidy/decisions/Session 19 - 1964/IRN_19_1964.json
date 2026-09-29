@@ -1,0 +1,115 @@
+{
+ "id": "IRN_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  7,
+  12,
+  15,
+  18,
+  23,
+  28,
+  33,
+  38,
+  41,
+  44,
+  47,
+  49,
+  53,
+  57,
+  59,
+  63,
+  66,
+  69
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   11,
+   "communities,",
+   "communities.",
+   "ocr"
+  ],
+  [
+   18,
+   "concerning, reliable",
+   "concerning reliable",
+   "ocr"
+  ],
+  [
+   43,
+   "forever,",
+   "forever.",
+   "ocr"
+  ],
+  [
+   47,
+   "unity Indispensable",
+   "unity indispensable",
+   "ocr"
+  ],
+  [
+   60,
+   "twenty-bight",
+   "twenty-eight",
+   "ocr"
+  ],
+  [
+   65,
+   "session,,",
+   "session,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b47d6a0adbdc0578eb77afcb9aa4964ec84976a5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 28
+  },
+  "words_in": 2557,
+  "words_out": 2556,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   93,
+   139,
+   107,
+   113,
+   98,
+   201,
+   94,
+   119,
+   146,
+   108,
+   105,
+   153,
+   86,
+   206,
+   149,
+   82,
+   185,
+   135,
+   133,
+   104
+  ],
+  "warnings": []
+ }
+}

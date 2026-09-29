@@ -1,0 +1,115 @@
+{
+ "id": "EST_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  23,
+  27,
+  33,
+  39,
+  44,
+  52,
+  57,
+  60,
+  65,
+  68,
+  72,
+  76
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   2,
+   "Peres de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   14,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   23,
+   "It will fall",
+   "it will fail",
+   "ocr"
+  ],
+  [
+   26,
+   "He hope",
+   "We hope",
+   "ocr"
+  ],
+  [
+   35,
+   "sovereignty, Estonia",
+   "sovereignty. Estonia",
+   "ocr"
+  ],
+  [
+   35,
+   "preserve actually",
+   "preserve mutually",
+   "ocr"
+  ],
+  [
+   40,
+   "that fall to",
+   "that fail to",
+   "ocr"
+  ],
+  [
+   57,
+   "the. prevailing",
+   "then prevailing",
+   "ocr"
+  ],
+  [
+   78,
+   "He wish",
+   "We wish",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a207cce63ca4cb1526a77ac33831c2ecf5b199b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1889,
+  "words_out": 1889,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   130,
+   156,
+   98,
+   192,
+   73,
+   171,
+   134,
+   126,
+   164,
+   119,
+   82,
+   104,
+   80,
+   107,
+   89,
+   64
+  ],
+  "warnings": []
+ }
+}

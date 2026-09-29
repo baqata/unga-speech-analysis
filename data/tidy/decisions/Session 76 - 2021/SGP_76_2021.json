@@ -1,0 +1,70 @@
+{
+ "id": "SGP_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  16,
+  25,
+  30,
+  37,
+  39,
+  50,
+  55,
+  59,
+  65,
+  69,
+  72,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- fifth",
+   "seventy-fifth",
+   "spacing"
+  ],
+  [
+   57,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41eda2783fa7b7b091d0ba0f135d8b7a0d0ca135",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1874,
+  "words_out": 1871,
+  "retention": 0.9984,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   43,
+   169,
+   177,
+   171,
+   143,
+   166,
+   71,
+   173,
+   108,
+   81,
+   151,
+   66,
+   103,
+   84,
+   165
+  ],
+  "warnings": []
+ }
+}

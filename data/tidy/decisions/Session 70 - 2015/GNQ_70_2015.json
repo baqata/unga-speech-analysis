@@ -1,0 +1,61 @@
+{
+ "id": "GNQ_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  11,
+  15,
+  19,
+  21,
+  25,
+  30,
+  34,
+  36,
+  39
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   6,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2a3a0ae299dd3aecd6b8aebc46539be3ec9238f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 40,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1329,
+  "words_out": 1328,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   45,
+   225,
+   113,
+   136,
+   89,
+   89,
+   124,
+   131,
+   133,
+   100,
+   99,
+   44
+  ],
+  "warnings": []
+ }
+}

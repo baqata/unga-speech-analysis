@@ -1,0 +1,82 @@
+{
+ "id": "ETH_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  14,
+  20,
+  24,
+  27,
+  32,
+  35,
+  41,
+  44,
+  48,
+  53,
+  62,
+  63,
+  67,
+  71,
+  75,
+  80,
+  83,
+  88,
+  91,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   94,
+   "Its resolutions",
+   "its resolutions",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 91 lacks the period before 'The same is true'; left as printed.",
+ "unitizer_version": 1,
+ "sha1": "dbd3e934b3ed5d91b43deaf1cf83e83c777eefc8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 3249,
+  "words_out": 3246,
+  "retention": 0.9991,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   34,
+   235,
+   153,
+   142,
+   139,
+   158,
+   99,
+   78,
+   205,
+   90,
+   135,
+   130,
+   241,
+   70,
+   170,
+   188,
+   115,
+   173,
+   76,
+   227,
+   130,
+   181,
+   77
+  ],
+  "warnings": []
+ }
+}

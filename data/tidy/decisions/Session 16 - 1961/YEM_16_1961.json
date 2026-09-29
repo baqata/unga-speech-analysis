@@ -1,0 +1,117 @@
+{
+ "id": "YEM_16_1961",
+ "drop": [
+  [
+   64,
+   64,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  15,
+  20,
+  27,
+  32,
+  39,
+  46,
+  50,
+  54,
+  57,
+  61,
+  66
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   2,
+   "Indefatigable",
+   "indefatigable",
+   "ocr"
+  ],
+  [
+   5,
+   ".bestowed",
+   "bestowed",
+   "ocr"
+  ],
+  [
+   10,
+   "soil,",
+   "soil.",
+   "ocr"
+  ],
+  [
+   14,
+   "recognized,",
+   "recognized.",
+   "ocr"
+  ],
+  [
+   27,
+   "Conference,-?/",
+   "Conference,",
+   "ocr"
+  ],
+  [
+   29,
+   "Algeria.\"-^",
+   "Algeria.\"",
+   "ocr"
+  ],
+  [
+   45,
+   "64. ",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "ban-^",
+   "ban",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 64 is a footnote.",
+ "unitizer_version": 1,
+ "sha1": "850d5a5d6da21f623af93f64478ab2a8fc9f67dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2018,
+  "words_out": 1999,
+  "retention": 0.9906,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   159,
+   69,
+   125,
+   102,
+   87,
+   183,
+   164,
+   175,
+   173,
+   149,
+   151,
+   92,
+   106,
+   89,
+   175
+  ],
+  "warnings": []
+ }
+}

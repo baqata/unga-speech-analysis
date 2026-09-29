@@ -1,0 +1,66 @@
+{
+ "id": "PRT_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  15,
+  18,
+  21,
+  26,
+  31,
+  33,
+  39,
+  44,
+  47,
+  53,
+  57,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "16-29415 3/30 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c56bc6c96f1fcf860d3f52e21c3bdadd024dd2b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1678,
+  "words_out": 1676,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   104,
+   90,
+   66,
+   144,
+   108,
+   91,
+   135,
+   156,
+   66,
+   125,
+   112,
+   84,
+   139,
+   114,
+   81,
+   61
+  ],
+  "warnings": []
+ }
+}

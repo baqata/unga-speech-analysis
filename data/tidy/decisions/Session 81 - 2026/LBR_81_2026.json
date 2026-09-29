@@ -1,0 +1,305 @@
+{
+ "id": "LBR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   53,
+   53,
+   "noise"
+  ],
+  [
+   65,
+   65,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  6,
+  7,
+  11,
+  18,
+  21,
+  29,
+  35,
+  46,
+  59,
+  64
+ ],
+ "cer": [
+  3,
+  64
+ ],
+ "fix": [
+  [
+   3,
+   "Kalira Radman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   3,
+   "per them",
+   "President",
+   "asr_term"
+  ],
+  [
+   5,
+   "Annalena Bebel",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   5,
+   "principal leadership",
+   "principled leadership",
+   "asr_term"
+  ],
+  [
+   8,
+   "the vision",
+   "the division",
+   "asr_term"
+  ],
+  [
+   16,
+   "physically",
+   "fiscally",
+   "asr_term"
+  ],
+  [
+   17,
+   "The cause of preventing",
+   "The cost of preventing",
+   "asr_term"
+  ],
+  [
+   17,
+   "plays this comprising",
+   "pales in comparison to",
+   "asr_term"
+  ],
+  [
+   17,
+   "the cause of building",
+   "the cost of rebuilding",
+   "asr_term"
+  ],
+  [
+   20,
+   "put security",
+   "port security",
+   "asr_term"
+  ],
+  [
+   21,
+   "shacks",
+   "shocks",
+   "asr_term"
+  ],
+  [
+   25,
+   "day reflect",
+   "today reflect",
+   "asr_term"
+  ],
+  [
+   28,
+   "reshoring",
+   "restoring",
+   "asr_term"
+  ],
+  [
+   29,
+   "Arrest Agenda",
+   "ARREST Agenda",
+   "asr_name"
+  ],
+  [
+   32,
+   "carbon sick",
+   "carbon sink",
+   "asr_term"
+  ],
+  [
+   44,
+   "cause abiding",
+   "calls for binding",
+   "asr_term"
+  ],
+  [
+   49,
+   "age efficient",
+   "agile efficient",
+   "asr_term"
+  ],
+  [
+   55,
+   "African motor",
+   "African model",
+   "asr_term"
+  ],
+  [
+   59,
+   "aid of the first",
+   "81st",
+   "asr_term"
+  ],
+  [
+   61,
+   "journey for civil",
+   "journey from civil",
+   "asr_term"
+  ],
+  [
+   63,
+   "our nation",
+   "all nations",
+   "asr_term"
+  ],
+  [
+   18,
+   "accorting",
+   "narcotics",
+   "asr_term"
+  ],
+  [
+   20,
+   "support, encodes God's",
+   "support in Coast Guard",
+   "asr_term"
+  ],
+  [
+   3,
+   "the the",
+   "the",
+   "asr_term"
+  ],
+  [
+   6,
+   "attention. trust",
+   "attention. Trust",
+   "asr_term"
+  ],
+  [
+   19,
+   "cartels. ourselves.",
+   "cartels ourselves.",
+   "asr_term"
+  ],
+  [
+   29,
+   "Development. which",
+   "Development which",
+   "asr_term"
+  ],
+  [
+   4,
+   "Liberia for",
+   "Liberia's full",
+   "asr_term"
+  ],
+  [
+   5,
+   "Our",
+   "Her",
+   "asr_term"
+  ],
+  [
+   10,
+   "intensify",
+   "intensifying",
+   "asr_term"
+  ],
+  [
+   42,
+   "Intelligence. nation",
+   "Intelligence. Developing nations",
+   "asr_term"
+  ],
+  [
+   52,
+   "permanency",
+   "permanent seat",
+   "asr_term"
+  ],
+  [
+   55,
+   "do. or",
+   "",
+   "asr_term"
+  ],
+  [
+   63,
+   "united nation",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   63,
+   "trust to",
+   "trust through",
+   "asr_term"
+  ],
+  [
+   55,
+   "to what we",
+   "toward",
+   "asr_term"
+  ],
+  [
+   50,
+   "article",
+   "Africa",
+   "slip"
+  ],
+  [
+   16,
+   "preventive democracy",
+   "preventive diplomacy",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Lone 'Thank you.' in pauses (units 2, 53) dropped; recovered units 54-55 (Security Council reform) match the Spanish; repairs per Spanish (diplomacy, fiscally, cost/pales in comparison, port security, binding, Africa, model); ARREST Agenda for Inclusive Development is Liberia's national plan; unit 20 'encodes God's surveillance' is the coast guard (Spanish 'guardacostas') but the wording is not recoverable and is left. Main-agent audio check: unit 18 'illicit accorting trafficking' -> 'illicit narcotics trafficking' (re-decodes unsure, 'accordion' p 0.45-0.48; Spanish 'el tráfico de estupefacientes ilícitos en corredores marítimos'); unit 20 'encodes God's surveillance' -> 'in Coast Guard surveillance' (re-decodes from 355 and 358 s hear 'in Coast Guard surveillance', 'Guard' p 0.97-0.98; Spanish 'guardacostas'). Kept as heard: unit 7 'only four nations' (p 0.97-1.00; the Spanish interpreter added 'africanos'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 3 'the the' -> 'the'. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 16 repair of 'preventive democracy' withdrawn (the speaker's English, heard at p 1.00 in three re-decodes, against the common phrase 'preventive diplomacy', so the audio holds it; 'la diplomacia preventiva' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 6 'attention. trust' -> 'attention. Trust'; unit 19 'cartels. ourselves.' -> 'cartels ourselves.'; unit 29 'Development. which' -> 'Development which'; unit 42 'Intelligence. nation' -> 'Intelligence. Nation'; unit 55 'do. or' -> 'do. Or'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 4 'Liberia for' -> 'Liberia's full' (decode 1 hears 'Liberia's full' (0.75/0.96), decode 2 'Liberia for' (for 0.28); 'Liberia for support' does not fit; ES 'contará con todo el apoyo de Liberia'); spot 3 unit 5 'Our' -> 'Her' (decodes 'Our' weak (0.56/0.76); 'Our Excellency' does not fit the formula for Annalena Baerbock; ES 'la excelentísima Annalena Barbok'); spot 12 unit 10 'intensify' -> 'intensifying' (decode 1 hears 'intensifying' (0.63), decode 2 'intensify' (0.85); 'intensify' breaks the list 'strengthening ... ensuring ... supporting'; ES 'intensificando la lucha'); spot 30 unit 42 'Intelligence. nation' -> 'Intelligence. Developing nations' (2026 exception: both decodes hear 'Developing nations' (0.89/0.86, 0.84/0.77); ES 'Las naciones en desarrollo no deben quedar atrás'; written over the existing capital repair); spot 33 unit 50 'article' -> 'Africa' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'article' (decodes 0.92 / 0.81, four re-decodes, the UN transcript; forced scoring -3.4 vs 'Africa' -15.9); 'article is home to 1.5 billion people' does not fit, and the Spanish 'En África viven 1.500 millones de personas' shows 'Africa'); spot 34 unit 52 'permanency' -> 'permanent seat' (decode 2 hears 'permanent seat' (0.77/0.94), decode 1 'permanency' (0.67); sounds alike; ES 'ni siquiera un escaño permanente'); spot 35 unit 55 'do. or' -> '', 'to what we' -> 'toward' (both decodes hear only 'toward' (0.93 / 0.63) after 'advances us'; 'to what we do. or' is not heard and does not fit; ES 'nos empujan hacia las negociaciones basadas en texto'; written as a removal of 'do. or' that replaces the earlier capital fix, plus 'to what we' -> 'toward', since one repair of five words is refused); spot 39 unit 63 'united nation' -> 'United Nations' (decodes 'united nation' weak (0.57/0.65, 0.58/0.70); the closing echoes the theme 'a United Nations that delivers'; ES 'comprometidos con unas Naciones Unidas que no sólo delibere'); spot 40 unit 63 'trust to' -> 'trust through' (decode 1 hears 'through' (0.48), decode 2 'to' (0.72); 'restore trust to results' does not fit; ES 'que recupere la confianza a través de los resultados'). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 16 said 'preventive democracy, mediation, and early warning' (p 1.00); the Spanish 'la diplomacia preventiva, la mediación y la alerta temprana' shows 'diplomacy'.",
+ "unitizer_version": 1,
+ "sha1": "6b9c7c825506f00149ae241a49935b6ea34069d7",
+ "layout": "single",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 1264,
+  "words_out": 1208,
+  "retention": 0.9557,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   76,
+   75,
+   108,
+   95,
+   93,
+   165,
+   116,
+   158,
+   181,
+   139,
+   2
+  ],
+  "warnings": [
+   "38 fixes"
+  ]
+ }
+}

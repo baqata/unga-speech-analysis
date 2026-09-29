@@ -1,0 +1,132 @@
+{
+ "id": "AUT_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  8,
+  10,
+  14,
+  18,
+  22,
+  25,
+  29,
+  33,
+  37,
+  40,
+  44,
+  49,
+  56,
+  61,
+  65,
+  68,
+  73,
+  77
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   0,
+   "6f",
+   "of",
+   "ocr"
+  ],
+  [
+   3,
+   "Leo- poldo",
+   "Leopoldo",
+   "spacing"
+  ],
+  [
+   3,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   14,
+   "non- permanent",
+   "non-permanent",
+   "spacing"
+  ],
+  [
+   18,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   21,
+   "oi international",
+   "of international",
+   "ocr"
+  ],
+  [
+   29,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   57,
+   " [resolution 2200 A (XXI), annexJ",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "twenty- fifth",
+   "twenty-fifth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3c5b2c8a49f8dc7ff869175f411f7167b73b75c7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 35
+  },
+  "words_in": 2589,
+  "words_out": 2579,
+  "retention": 0.9961,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   110,
+   60,
+   101,
+   33,
+   83,
+   123,
+   151,
+   162,
+   143,
+   104,
+   206,
+   76,
+   75,
+   129,
+   147,
+   162,
+   129,
+   122,
+   71,
+   165,
+   108,
+   119
+  ],
+  "warnings": []
+ }
+}

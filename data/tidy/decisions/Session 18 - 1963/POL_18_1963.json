@@ -1,0 +1,169 @@
+{
+ "id": "POL_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  17,
+  24,
+  29,
+  33,
+  39,
+  44,
+  46,
+  52,
+  56,
+  62,
+  67,
+  72,
+  74,
+  78,
+  84,
+  88,
+  92,
+  97,
+  101,
+  106,
+  112,
+  115,
+  120,
+  125,
+  128,
+  131,
+  138,
+  143,
+  145,
+  149,
+  152,
+  155,
+  161,
+  163,
+  171
+ ],
+ "cer": [
+  171
+ ],
+ "fix": [
+  [
+   4,
+   "For It is",
+   "For it is",
+   "ocr"
+  ],
+  [
+   5,
+   "a\" détente\"",
+   "a \"détente\"",
+   "spacing"
+  ],
+  [
+   8,
+   "aeon-test",
+   "a contest",
+   "ocr"
+  ],
+  [
+   60,
+   "anon-aggression",
+   "a non-aggression",
+   "merged_word"
+  ],
+  [
+   82,
+   "so fax as",
+   "so far as",
+   "ocr"
+  ],
+  [
+   93,
+   "Republic, Poland, however",
+   "Republic. Poland, however",
+   "ocr"
+  ],
+  [
+   127,
+   "metropolis,",
+   "metropolis.",
+   "ocr"
+  ],
+  [
+   162,
+   "respected, Poland fully",
+   "respected. Poland fully",
+   "ocr"
+  ],
+  [
+   163,
+   "Nations, For the",
+   "Nations. For the",
+   "ocr"
+  ],
+  [
+   170,
+   "support,",
+   "support.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7b8a1f4bd887328e84e849d9d79d2c7b8499dc68",
+ "layout": "lines",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 53
+  },
+  "words_in": 4666,
+  "words_out": 4668,
+  "retention": 1.0004,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   183,
+   61,
+   152,
+   73,
+   145,
+   121,
+   85,
+   130,
+   124,
+   78,
+   108,
+   93,
+   130,
+   110,
+   205,
+   78,
+   148,
+   148,
+   106,
+   118,
+   118,
+   156,
+   85,
+   159,
+   75,
+   141,
+   155,
+   80,
+   88,
+   134,
+   127,
+   90,
+   128,
+   118,
+   91,
+   113,
+   65,
+   209,
+   140
+  ],
+  "warnings": []
+ }
+}

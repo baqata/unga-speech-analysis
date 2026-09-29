@@ -1,0 +1,86 @@
+{
+ "id": "ROU_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  18,
+  22,
+  26,
+  28,
+  34,
+  42,
+  46,
+  52,
+  57,
+  61,
+  64,
+  68,
+  72,
+  75,
+  78,
+  85,
+  91,
+  93
+ ],
+ "cer": [
+  0,
+  91,
+  93
+ ],
+ "fix": [
+  [
+   27,
+   "forward- looking",
+   "forward-looking",
+   "hyphen"
+  ],
+  [
+   93,
+   "attention !",
+   "attention!",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "463c075f86e2e93b2835ce3aaf5ede8035353667",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1944,
+  "words_out": 1942,
+  "retention": 0.999,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   13,
+   120,
+   87,
+   90,
+   108,
+   103,
+   77,
+   116,
+   194,
+   101,
+   75,
+   100,
+   69,
+   61,
+   113,
+   81,
+   70,
+   62,
+   118,
+   146,
+   33,
+   5
+  ],
+  "warnings": []
+ }
+}

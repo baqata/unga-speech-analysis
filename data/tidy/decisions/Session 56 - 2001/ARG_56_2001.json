@@ -1,0 +1,50 @@
+{
+ "id": "ARG_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  24,
+  54,
+  87,
+  102,
+  137,
+  153,
+  184,
+  206
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1889fca9bc770ec18288bedfe081b741046b7aec",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1614,
+  "words_out": 1612,
+  "retention": 0.9988,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   79,
+   110,
+   236,
+   251,
+   105,
+   276,
+   129,
+   230,
+   176,
+   20
+  ],
+  "warnings": []
+ }
+}

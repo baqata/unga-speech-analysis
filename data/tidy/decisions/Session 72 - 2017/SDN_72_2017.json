@@ -1,0 +1,86 @@
+{
+ "id": "SDN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  7,
+  10,
+  14,
+  16,
+  19,
+  23,
+  29,
+  32,
+  35,
+  40,
+  44,
+  47,
+  50,
+  56,
+  64,
+  68,
+  71,
+  74,
+  77,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "alognside",
+   "alongside",
+   "ocr"
+  ],
+  [
+   50,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6b7c1c1a1018d3f528908d6bbe4a7b99e0771d42",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2324,
+  "words_out": 2323,
+  "retention": 0.9996,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   86,
+   95,
+   60,
+   121,
+   120,
+   81,
+   100,
+   70,
+   172,
+   103,
+   78,
+   144,
+   131,
+   91,
+   80,
+   159,
+   138,
+   81,
+   66,
+   117,
+   67,
+   103,
+   60
+  ],
+  "warnings": []
+ }
+}

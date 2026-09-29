@@ -1,0 +1,74 @@
+{
+ "id": "HRV_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  59,
+  74,
+  87,
+  102,
+  117,
+  131,
+  155,
+  176,
+  189,
+  208,
+  227,
+  249,
+  274,
+  299,
+  309,
+  328
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   186,
+   "security- building",
+   "security-building",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "57118b846221214684ab158ef9b8d809a601fd65",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 347,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2801,
+  "words_out": 2798,
+  "retention": 0.9989,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   102,
+   167,
+   229,
+   130,
+   111,
+   126,
+   114,
+   109,
+   202,
+   154,
+   99,
+   158,
+   151,
+   160,
+   190,
+   196,
+   87,
+   155,
+   158
+  ],
+  "warnings": []
+ }
+}

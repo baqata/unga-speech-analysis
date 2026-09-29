@@ -1,0 +1,201 @@
+{
+ "id": "POL_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   172,
+   172,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  12,
+  18,
+  26,
+  30,
+  35,
+  41,
+  47,
+  50,
+  59,
+  65,
+  77,
+  81,
+  88,
+  97,
+  101,
+  114,
+  120,
+  129,
+  130,
+  138,
+  147,
+  153,
+  159,
+  166
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "President Trump, ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   " Thank you.",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "distinguished",
+   "Distinguished",
+   "asr_term"
+  ],
+  [
+   11,
+   "funded",
+   "founded",
+   "asr_term"
+  ],
+  [
+   20,
+   "original scene",
+   "original sin",
+   "asr_term"
+  ],
+  [
+   97,
+   "africa asia and latin america",
+   "Africa Asia and Latin America",
+   "asr_name"
+  ],
+  [
+   140,
+   "prisoned",
+   "present",
+   "asr_term"
+  ],
+  [
+   29,
+   "name. and",
+   "name and",
+   "asr_term"
+  ],
+  [
+   37,
+   "dominate. and",
+   "dominate. And",
+   "asr_term"
+  ],
+  [
+   48,
+   "Atlantic. in",
+   "Atlantic. In",
+   "asr_term"
+  ],
+  [
+   97,
+   "century. for",
+   "century. For",
+   "asr_term"
+  ],
+  [
+   129,
+   "stewards. just",
+   "stewards. Just",
+   "asr_term"
+  ],
+  [
+   152,
+   "ambitions. for",
+   "ambitions. For",
+   "asr_term"
+  ],
+  [
+   24,
+   "would",
+   "we",
+   "asr_term"
+  ],
+  [
+   58,
+   "becomes",
+   "it becomes",
+   "asr_term"
+  ],
+  [
+   73,
+   "It",
+   "That",
+   "asr_term"
+  ],
+  [
+   88,
+   "Europe",
+   "Central Europe",
+   "asr_name"
+  ],
+  [
+   129,
+   "careful",
+   "care for",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2: 'President Trump' and 'Thank you.' are invented (not heard on re-decode); 'Distinguished' kept as the speaker's first word. 11 Spanish 'fundada'; 20 Spanish 'pecado original'; 140 Spanish 'habían estado presentes'. Main-agent audit: unit 159 'order based on truth' kept as heard (p 1.00 at every start; Spanish 'basado en la ley'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 29 'name. and' -> 'name and'; unit 37 'dominate. and' -> 'dominate. And'; unit 48 'Atlantic. in' -> 'Atlantic. In'; unit 97 'century. for' -> 'century. For'; unit 129 'stewards. just' -> 'stewards. Just'; unit 152 'ambitions. for' -> 'ambitions. For'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 24 'would' -> 'we' (decodes hear 'we' (0.78 / 0.56), not 'would'; ES 'devolvamos'; 'as the international community, would restore' lacks its subject); spot 4 unit 58 'becomes' -> 'it becomes' (2026 exception: both decodes clearly hear 'it becomes' (0.99 / 1.00); ES 'esto se convierte en una invitación'); spot 6 unit 73 'It' -> 'That' (both decodes clearly hear 'That is why' (0.98 / 0.99); ES 'Por ello es que'; 'It is why' does not fit); spot 7 unit 88 'Europe' -> 'Central Europe' (2026 exception: both decodes clearly hear 'Central Europe' (1.00 / 1.00); ES 'Europa Central es cofundadora de la iniciativa de los tres mares'); spot 9 unit 129 'careful' -> 'care for' (same sound; both decodes hear 'Care for nature' (0.96/0.86, 0.95/0.77); ES 'La atención de la naturaleza'; 'fanatics careful nature' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "130ff0ac437b4c7e91a4c4775170cc4c570895c9",
+ "layout": "single",
+ "stats": {
+  "n_units": 173,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3498,
+  "words_out": 3448,
+  "retention": 0.9857,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   34,
+   135,
+   118,
+   152,
+   72,
+   171,
+   123,
+   110,
+   72,
+   178,
+   157,
+   177,
+   109,
+   147,
+   166,
+   113,
+   224,
+   114,
+   170,
+   122,
+   186,
+   139,
+   162,
+   93,
+   117,
+   87
+  ],
+  "warnings": []
+ }
+}

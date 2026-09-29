@@ -1,0 +1,97 @@
+{
+ "id": "ECU_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  15,
+  21,
+  24,
+  27,
+  30,
+  36,
+  45,
+  48,
+  54,
+  62,
+  69,
+  73,
+  81,
+  85,
+  89,
+  92,
+  101
+ ],
+ "cer": [
+  101
+ ],
+ "fix": [
+  [
+   43,
+   ", The absence",
+   ". The absence",
+   "ocr"
+  ],
+  [
+   47,
+   "bases,",
+   "bases.",
+   "ocr"
+  ],
+  [
+   91,
+   "Jiménez,",
+   "Jiménez.",
+   "ocr"
+  ],
+  [
+   94,
+   "alive,",
+   "alive.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e3d77148252975ddaf4c3ad30e7182a7d6f386a8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 26
+  },
+  "words_in": 2899,
+  "words_out": 2898,
+  "retention": 0.9997,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   148,
+   172,
+   86,
+   95,
+   166,
+   83,
+   114,
+   105,
+   149,
+   225,
+   82,
+   221,
+   179,
+   165,
+   132,
+   161,
+   107,
+   115,
+   117,
+   212,
+   64
+  ],
+  "warnings": []
+ }
+}

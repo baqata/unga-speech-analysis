@@ -1,0 +1,117 @@
+{
+ "id": "PAN_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  7,
+  13,
+  20,
+  26,
+  30,
+  34,
+  43,
+  46,
+  54,
+  64,
+  67,
+  72,
+  75,
+  80,
+  83,
+  85,
+  88,
+  90,
+  93,
+  95,
+  98,
+  100,
+  103,
+  106,
+  111
+ ],
+ "cer": [
+  0,
+  1,
+  106,
+  111
+ ],
+ "fix": [
+  [
+   0,
+   "Mr- Samir",
+   "Mr. Samir",
+   "ocr"
+  ],
+  [
+   51,
+   "not became",
+   "not become",
+   "ocr"
+  ],
+  [
+   82,
+   "will, We are",
+   "will. We are",
+   "ocr"
+  ],
+  [
+   94,
+   "ox equality",
+   "or equality",
+   "ocr"
+  ],
+  [
+   94,
+   "to he defeated",
+   "to be defeated",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7d0594d398768dafde928ab5572629bc642bc8f3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2693,
+  "words_out": 2693,
+  "retention": 1.0,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   44,
+   27,
+   135,
+   128,
+   141,
+   130,
+   89,
+   61,
+   154,
+   71,
+   208,
+   179,
+   62,
+   131,
+   52,
+   94,
+   94,
+   56,
+   82,
+   71,
+   77,
+   88,
+   107,
+   75,
+   60,
+   93,
+   68,
+   116
+  ],
+  "warnings": []
+ }
+}

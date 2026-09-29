@@ -1,0 +1,151 @@
+{
+ "id": "GTM_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  15,
+  19,
+  22,
+  26,
+  29,
+  33,
+  36,
+  40,
+  42,
+  53,
+  62,
+  67,
+  70,
+  74,
+  77,
+  79,
+  83,
+  85,
+  89,
+  94,
+  99,
+  106,
+  108,
+  111,
+  116,
+  119,
+  122,
+  125,
+  130,
+  132,
+  137,
+  140,
+  142,
+  147
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ],
+  [
+   6,
+   "at .the",
+   "at the",
+   "spacing"
+  ],
+  [
+   8,
+   "•under",
+   "under",
+   "encoding"
+  ],
+  [
+   27,
+   "aspiration*",
+   "aspirations",
+   "ocr"
+  ],
+  [
+   75,
+   "nor may. congressmen",
+   "nor may congressmen",
+   "ocr"
+  ],
+  [
+   75,
+   "other numbers of",
+   "other members of",
+   "ocr"
+  ],
+  [
+   101,
+   "ail social",
+   "all social",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 8 breaks off mid-sentence ('to accelerate') before unit 9; text appears to be missing there.",
+ "unitizer_version": 1,
+ "sha1": "5b3131c1c76586ce878c26ba4fbb5ba2f84a2129",
+ "layout": "lines",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 85
+  },
+  "words_in": 4234,
+  "words_out": 4233,
+  "retention": 0.9998,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   186,
+   93,
+   123,
+   73,
+   90,
+   96,
+   127,
+   100,
+   134,
+   63,
+   101,
+   105,
+   204,
+   125,
+   65,
+   94,
+   66,
+   103,
+   61,
+   121,
+   85,
+   143,
+   214,
+   129,
+   128,
+   62,
+   116,
+   173,
+   88,
+   119,
+   77,
+   138,
+   52,
+   112,
+   105,
+   88,
+   148,
+   126
+  ],
+  "warnings": []
+ }
+}

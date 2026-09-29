@@ -1,0 +1,53 @@
+{
+ "id": "GNB_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  17,
+  27,
+  40,
+  58,
+  67,
+  78,
+  93,
+  115,
+  144,
+  151
+ ],
+ "cer": [
+  0,
+  7,
+  93
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85fbed88696881892aaed3d58dd5c1bfee760bb0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1245,
+  "words_out": 1244,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   58,
+   79,
+   76,
+   100,
+   137,
+   75,
+   76,
+   107,
+   158,
+   214,
+   48,
+   116
+  ],
+  "warnings": []
+ }
+}

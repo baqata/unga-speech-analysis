@@ -1,0 +1,183 @@
+{
+ "id": "BEL_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  12,
+  16,
+  20,
+  23,
+  28,
+  31,
+  35,
+  41,
+  46,
+  48,
+  52,
+  56,
+  62,
+  71,
+  74,
+  77,
+  83,
+  87,
+  92,
+  98,
+  101,
+  103,
+  107,
+  110,
+  113,
+  117,
+  128,
+  135,
+  138,
+  144,
+  146,
+  153,
+  160,
+  164,
+  167,
+  170
+ ],
+ "cer": [
+  160,
+  164,
+  167
+ ],
+ "fix": [
+  [
+   5,
+   "does got mention",
+   "does not mention",
+   "ocr"
+  ],
+  [
+   28,
+   "agreement oil the",
+   "agreement on the",
+   "ocr"
+  ],
+  [
+   35,
+   "mOte",
+   "more",
+   "ocr"
+  ],
+  [
+   36,
+   "iesQlution",
+   "resolution",
+   "ocr"
+  ],
+  [
+   36,
+   " [resolution 2817 (%XVI)J",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "arty draft",
+   "any draft",
+   "ocr"
+  ],
+  [
+   42,
+   "iii 1968",
+   "in 1968",
+   "ocr"
+  ],
+  [
+   44,
+   "oUr",
+   "our",
+   "ocr"
+  ],
+  [
+   62,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   83,
+   "^Organization",
+   "Organization",
+   "ocr"
+  ],
+  [
+   91,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   132,
+   "hence forth",
+   "henceforth",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d35e5d181fe2db616a390bfc30c1676fb56eb1d6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 58
+  },
+  "words_in": 4590,
+  "words_out": 4574,
+  "retention": 0.9965,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   68,
+   161,
+   130,
+   124,
+   80,
+   100,
+   121,
+   112,
+   90,
+   139,
+   127,
+   73,
+   133,
+   67,
+   207,
+   231,
+   83,
+   62,
+   133,
+   85,
+   112,
+   117,
+   121,
+   90,
+   100,
+   128,
+   132,
+   104,
+   181,
+   142,
+   89,
+   143,
+   96,
+   224,
+   179,
+   71,
+   92,
+   109,
+   18
+  ],
+  "warnings": []
+ }
+}

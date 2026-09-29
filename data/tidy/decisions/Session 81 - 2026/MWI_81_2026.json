@@ -1,0 +1,266 @@
+{
+ "id": "MWI_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   3,
+   "noise"
+  ],
+  [
+   101,
+   102,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  8,
+  13,
+  21,
+  28,
+  34,
+  39,
+  46,
+  51,
+  55,
+  63,
+  68,
+  71,
+  76,
+  81,
+  86,
+  90,
+  100
+ ],
+ "cer": [
+  4,
+  100
+ ],
+ "fix": [
+  [
+   4,
+   "You're going to want to talk to me about this newery when you see the base of ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "the numbers in the middle and what you want to get is ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "that you don't want to see the ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   4,
+   "Mtarika",
+   "Mutharika",
+   "asr_name"
+  ],
+  [
+   5,
+   "at one session",
+   "81st session",
+   "asr_term"
+  ],
+  [
+   23,
+   "community exporters",
+   "commodity exporters",
+   "asr_term"
+  ],
+  [
+   26,
+   "predatory deaths",
+   "predatory debts",
+   "asr_term"
+  ],
+  [
+   32,
+   "robots",
+   "robust",
+   "asr_term"
+  ],
+  [
+   40,
+   "diseminate",
+   "decimate",
+   "asr_term"
+  ],
+  [
+   40,
+   "hardwood",
+   "hard-won",
+   "asr_term"
+  ],
+  [
+   44,
+   "air warning",
+   "early warning",
+   "asr_term"
+  ],
+  [
+   52,
+   "Esluene",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   57,
+   "this period",
+   "this spirit",
+   "asr_term"
+  ],
+  [
+   57,
+   "Chizumira",
+   "Chizumila",
+   "asr_name"
+  ],
+  [
+   58,
+   "Chizumira",
+   "Chizumila",
+   "asr_name"
+  ],
+  [
+   60,
+   "Yujirane Chizumira",
+   "Tujilane Chizumila",
+   "asr_name"
+  ],
+  [
+   64,
+   "health separation",
+   "healthy population",
+   "asr_term"
+  ],
+  [
+   68,
+   "wavers",
+   "waivers",
+   "asr_term"
+  ],
+  [
+   72,
+   "family",
+   "firmly",
+   "asr_term"
+  ],
+  [
+   78,
+   "cause",
+   "calls",
+   "asr_term"
+  ],
+  [
+   80,
+   "intolerance. tolerance.",
+   "intolerance.",
+   "asr_term"
+  ],
+  [
+   96,
+   "the device",
+   "the divide",
+   "asr_term"
+  ],
+  [
+   97,
+   "this first session",
+   "this 81st session",
+   "asr_term"
+  ],
+  [
+   68,
+   "restricted technology transferred",
+   "unrestricted technology transfer",
+   "asr_term"
+  ],
+  [
+   10,
+   "eroded. global",
+   "eroded. Global",
+   "asr_term"
+  ],
+  [
+   74,
+   "right. true",
+   "right. True",
+   "asr_term"
+  ],
+  [
+   95,
+   "people. but",
+   "people. But",
+   "asr_term"
+  ],
+  [
+   6,
+   "his",
+   "its",
+   "asr_term"
+  ],
+  [
+   40,
+   "waste",
+   "worse",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 1-3 and the words before the greeting in unit 4 invented over the walk; President Arthur Peter Mutharika and Justice Tujilane Chizumila (African Court judge) per Spanish and official sources; Ezulwini Consensus; repairs per Spanish (81o, productos basicos, deuda, robusta, diezman, alerta temprana, espiritu, poblacion sana, exenciones, firmemente, llamados, colmar las diferencias). Main-agent audit (the audio re-decoded at the spots the batch listed as unsure): unit 68 'restricted technology transferred' -> 'unrestricted technology transfer' (the speaker's English; the re-decodes hear 'and restricted' (p 0.95-1.00) with 0.9 s between 'and' and 'restricted', where the negative prefix is lost at the word junction as in other speeches' 'illegal', and 'transfer'/'transferred' at p 0.37-0.50; the Spanish booth 'transferencias tecnológicas sin restricciones'; the sentence lists what health security demands, with intellectual property waivers). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 10 'eroded. global' -> 'eroded. Global'; unit 74 'right. true' -> 'right. True'; unit 95 'people. but' -> 'people. But'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 6 'his' -> 'its' (decodes hear 'its' (0.36 / 0.61); 'Malawi pledges his full support' does not fit; sounds alike; ES 'le promete toda su cooperación'); spot 10 unit 40 'waste' -> 'worse' (decodes split 'worse' 0.56 / 'waste' 0.69; 'make waste food insecurity' does not fit; 'make worse food insecurity' fits; sounds alike)",
+ "unitizer_version": 1,
+ "sha1": "b658761c066daf0f8e1d858bb74a48c80a9db4ab",
+ "layout": "single",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 2130,
+  "words_out": 2030,
+  "retention": 0.9531,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   86,
+   101,
+   159,
+   105,
+   113,
+   80,
+   190,
+   67,
+   79,
+   232,
+   94,
+   92,
+   107,
+   102,
+   116,
+   127,
+   173,
+   7
+  ],
+  "warnings": [
+   "30 fixes"
+  ]
+ }
+}

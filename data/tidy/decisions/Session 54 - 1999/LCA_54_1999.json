@@ -1,0 +1,82 @@
+{
+ "id": "LCA_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  41,
+  51,
+  65,
+  88,
+  106,
+  123,
+  132,
+  144,
+  157,
+  171,
+  182,
+  198,
+  215,
+  232,
+  252,
+  267
+ ],
+ "cer": [],
+ "fix": [
+  [
+   231,
+   "(supra)",
+   "",
+   "label"
+  ],
+  [
+   240,
+   "(Oliver Goldsmith, The Deserted Village)",
+   "",
+   "label"
+  ],
+  [
+   273,
+   "(The Second Coming)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03afd4f54287eb93562599a36eee49b1134f3b09",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 274,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2307,
+  "words_out": 2293,
+  "retention": 0.9939,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   139,
+   203,
+   90,
+   136,
+   204,
+   132,
+   147,
+   76,
+   91,
+   115,
+   114,
+   90,
+   131,
+   135,
+   138,
+   161,
+   143,
+   48
+  ],
+  "warnings": []
+ }
+}

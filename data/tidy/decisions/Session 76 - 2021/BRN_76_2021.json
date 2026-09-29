@@ -1,0 +1,64 @@
+{
+ "id": "BRN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  18,
+  24,
+  28,
+  34,
+  42,
+  47,
+  50
+ ],
+ "cer": [
+  0,
+  6,
+  50
+ ],
+ "fix": [
+  [
+   15,
+   "low- income",
+   "low-income",
+   "spacing"
+  ],
+  [
+   46,
+   "prel967",
+   "pre1967",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d7b3d5d7edb98ba45ddf9712486eadf493cd5d04",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1198,
+  "words_out": 1197,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   18,
+   92,
+   114,
+   105,
+   169,
+   115,
+   156,
+   211,
+   144,
+   71,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "NIC_55_2000",
+ "drop": [
+  [
+   166,
+   170,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  22,
+  35,
+  51,
+  64,
+  83,
+  95,
+  120,
+  137,
+  160,
+  171,
+  181,
+  193,
+  207,
+  217,
+  236,
+  262,
+  280
+ ],
+ "cer": [
+  0,
+  12,
+  280
+ ],
+ "fix": [
+  [
+   165,
+   "Similarly, my country, convinced of the",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The Western Sahara sentence (units 160-165) is repeated in a second translation (units 165-170); the repeat was removed and the first occurrence kept.",
+ "unitizer_version": 1,
+ "sha1": "9d1d792c1aaaf7265621da35c12707506c5e01f6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 286,
+  "units_dropped": {
+   "repeat": 5
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2226,
+  "words_out": 2178,
+  "retention": 0.9784,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   94,
+   72,
+   104,
+   133,
+   101,
+   143,
+   95,
+   189,
+   134,
+   192,
+   47,
+   69,
+   88,
+   98,
+   82,
+   132,
+   198,
+   154,
+   53
+  ],
+  "warnings": []
+ }
+}

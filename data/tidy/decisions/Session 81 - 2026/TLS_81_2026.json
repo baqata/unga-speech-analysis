@@ -1,0 +1,338 @@
+{
+ "id": "TLS_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   167,
+   167,
+   "noise"
+  ],
+  [
+   168,
+   168,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  11,
+  21,
+  30,
+  39,
+  44,
+  51,
+  54,
+  57,
+  59,
+  62,
+  67,
+  78,
+  88,
+  99,
+  110,
+  115,
+  122,
+  127,
+  137,
+  149,
+  162,
+  166
+ ],
+ "cer": [
+  2,
+  166
+ ],
+ "fix": [
+  [
+   18,
+   "Apertise",
+   "apartheid",
+   "asr_term"
+  ],
+  [
+   21,
+   "whole",
+   "hall",
+   "asr_term"
+  ],
+  [
+   57,
+   "more or less",
+   "Timor-Leste",
+   "asr_name"
+  ],
+  [
+   66,
+   "inducting",
+   "indicting",
+   "asr_term"
+  ],
+  [
+   95,
+   "wall",
+   "world",
+   "asr_term"
+  ],
+  [
+   106,
+   "Statementship",
+   "Statesmanship",
+   "asr_term"
+  ],
+  [
+   108,
+   "Renatation",
+   "the United Nations",
+   "asr_name"
+  ],
+  [
+   112,
+   "Butros Butros Ghali",
+   "Boutros Boutros-Ghali",
+   "asr_name"
+  ],
+  [
+   114,
+   "requer",
+   "record",
+   "asr_term"
+  ],
+  [
+   122,
+   "Dilley",
+   "Dili",
+   "asr_name"
+  ],
+  [
+   123,
+   "Kailala Shanana Guzmão",
+   "Kay Rala Xanana Gusmão",
+   "asr_name"
+  ],
+  [
+   125,
+   "Dility More Less",
+   "Dili, Timor-Leste",
+   "asr_name"
+  ],
+  [
+   139,
+   "the more or less",
+   "Timor-Leste",
+   "asr_name"
+  ],
+  [
+   143,
+   "wall",
+   "world",
+   "asr_term"
+  ],
+  [
+   143,
+   "Lothar",
+   "laughter",
+   "asr_term"
+  ],
+  [
+   67,
+   "of the wall",
+   "of the world",
+   "asr_term"
+  ],
+  [
+   72,
+   "the wall outside",
+   "the world outside",
+   "asr_term"
+  ],
+  [
+   96,
+   "believe the wall is",
+   "believe the world is",
+   "asr_term"
+  ],
+  [
+   114,
+   "the face of",
+   "defence of",
+   "asr_term"
+  ],
+  [
+   165,
+   "compassion. but",
+   "compassion. But",
+   "asr_term"
+  ],
+  [
+   20,
+   "Ukraine. a",
+   "Ukraine. A",
+   "asr_term"
+  ],
+  [
+   29,
+   "war. dismantle",
+   "war. Dismantle",
+   "asr_term"
+  ],
+  [
+   142,
+   "us? by",
+   "us? By",
+   "asr_term"
+  ],
+  [
+   16,
+   "families",
+   "famines",
+   "asr_term"
+  ],
+  [
+   28,
+   "Arsenal is",
+   "Arsenal",
+   "asr_term"
+  ],
+  [
+   29,
+   "Iran-Israel-Israel",
+   "Iran-Israel-U.S.",
+   "asr_term"
+  ],
+  [
+   31,
+   "walk",
+   "walked",
+   "asr_term"
+  ],
+  [
+   46,
+   "unwarrant",
+   "unwarranted",
+   "asr_term"
+  ],
+  [
+   56,
+   "from diesel",
+   "conducive",
+   "asr_term"
+  ],
+  [
+   66,
+   "too",
+   "to",
+   "asr_term"
+  ],
+  [
+   73,
+   "shows",
+   "chose",
+   "asr_term"
+  ],
+  [
+   89,
+   "halt",
+   "hold",
+   "asr_term"
+  ],
+  [
+   112,
+   "return",
+   "three terms",
+   "asr_term"
+  ],
+  [
+   131,
+   "major-powered",
+   "major powers",
+   "asr_term"
+  ],
+  [
+   140,
+   "Olgiton",
+   "Olgita",
+   "asr_name"
+  ],
+  [
+   143,
+   "else has",
+   "else's",
+   "asr_term"
+  ],
+  [
+   155,
+   "Melchizedek",
+   "Melkyvido",
+   "asr_name"
+  ],
+  [
+   76,
+   "life in our",
+   "live in our",
+   "asr_term"
+  ],
+  [
+   115,
+   "island development",
+   "island developing",
+   "asr_term"
+  ],
+  [
+   125,
+   "playing",
+   "planned",
+   "asr_term"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Spanish confirms apartheid, hall de las naciones, Timor-Leste, el mundo es guerra, Creemos un mundo, carta de la ONU, Dili; PM Kay Rala Xanana Gusmao (official name); unit 9 lost 'Mr. President of the' before 'General Assembly' and unit 165 lost 'not as a passive emotion'. Main-agent audit (re-decoding): the speaker's 'world' is heard as 'wall' throughout (Spanish 'mundo' in units 95 and 143; re-decode hears 'world' p 0.97 in unit 96), so units 67, 72, 96 read 'world'; unit 114 'in the face of' (p 0.89-0.91) = 'in defence of' (Spanish 'en defensa de los derechos humanos'); unit 165 'not as a passive emotion' (Spanish) falls in a 7 s stretch re-decodes hear as silence, so not restored (gap_suspected kept). Kept as heard: unit 2 'I'm going to speak to Antonio Guterres' (p 0.92-1.00 from four start points), unit 9 (re-decodes hear 'General Assembly, I congratulate you' right after 'need.'), unit 112 'continuous return', unit 113 '27-2032'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 20 'Ukraine. a' -> 'Ukraine. A'; unit 29 'war. dismantle' -> 'war. Dismantle'; unit 142 'us? by' -> 'us? By'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 16 'families' -> 'famines' (unsure resolved: the audio is not settled (decodes 'families' 0.24 / 'feminism' 0.64; the UN transcript hears 'famine'; forced scoring feminism -4.5, families -6.5, famine -9.8, famines -11.0); neither 'families' nor 'feminism' fits the list of wars, and the published text (Tatoli, remarks at the 81st session) reads 'wars of partition and famines in South Asia'; the Spanish channel omits the item); spot 4 unit 28 'Arsenal is' -> 'Arsenal' (invented word at a segment boundary: both decodes hear 'Arsenal estimate to be' with nothing between ('Arsenal' 327.3 s, p 0.92 / 0.85; 'estimate' 327.7 s)); spot 5 unit 29 'Iran-Israel-Israel' -> 'Iran-Israel-U.S.' (unsure resolved: the doubled 'Israel' does not fit; the third element is unclear (decodes '-Israel' 0.44 / '-Iswar' 0.42, re-decodes 0.57 / 0.51 / 0.54; the UN transcript hears 'years', consistent with a quick 'U.S.'); forced scoring does not settle it (Israel -8.3, years -11.9, us -16.3); the published text (Tatoli, remarks at the 81st session) reads 'the ongoing Iran/Israel/US war'; written in the speech's own 'Cuba-U.S.' style; the Spanish channel does not render the phrase); spot 8 unit 31 'walk' -> 'walked' (both decodes hear 'walked' (0.87 / 0.92); past narrative of 30 June 2019; sounds alike); spot 15 unit 46 'unwarrant' -> 'unwarranted' (decodes 'unwarrant' (0.50-0.76), the final -ed lost before 'attacks'; 'unwarrant' is not an adjective; UN 'unwarranted'); spot 19 unit 56 'from diesel' -> 'conducive' (decodes 'from district' / 'from diesel' (0.15-0.47); 'an environment from diesel to normal ... relations' does not fit; sounds like 'conducive'; ES 'un ámbito conducente a relaciones duraderas'); spot 27 unit 66 'too' -> 'to' (homophone: 'that you are accomplices too' does not fit; 'accomplices to' completes 'wars and deaths that you are accomplices to'; UN 'to'); spot 31 unit 73 'shows' -> 'chose' (decodes 'shows' (0.74 / 0.63), which sounds like 'chose'; 'a life she never shows' does not fit a girl pregnant by her attacker; UN 'chose'); spot 37 unit 89 'halt' -> 'hold' (decodes split 'halt' 0.50 / 'hold' 0.44; 'a ceasefire must halt' does not fit; ES 'se tiene que mantener el cese al fuego'; sounds alike); spot 38 unit 112 'return' -> 'three terms' (unsure resolved: 'continuous return' does not fit; the span is a TH-stopped 'three terms' (decodes 'return' 0.90 / 0.96; the UN transcript hears 'three-term'); forced scoring ties ('three terms' -18.7, 'return' -18.8, 'three-term' -20.1); the published text (Tatoli, remarks at the 81st session) reads 'an unprecedented continuous 3 terms (Boutros Boutros-Ghali 1992-1996, Kofi Annan 1997-2006)' and the Spanish channel has 'tres mandatos seguidos', so the plural is kept); spot 54 unit 131 'major-powered' -> 'major powers' (decodes hear 'powers' (0.62 / 0.62; heard 2 'major powers,'); 'major-powered development partners' does not fit; ES 'y las grandes potencias'; the comma and the weakly heard 'and' (0.45 / 0.42) are not added); spot 59 unit 140 'Olgiton' -> 'Olgita' (name checked against the published text (Tatoli, remarks at the 81st session), which credits the poem to 'Olgita, 16'; the Spanish channel has 'Olguita'; the decodes and the UN transcript ('Olgitan', 0.56 / 0.46) render the same name); spot 60 unit 143 'else has' -> 'else's' (decodes hear 'else is' (0.58 / 0.51), not 'has'; 'else is' sounds as 'else's'; ES 'por el odio de otros'; UN 'someone else's hatred'); spot 64 unit 155 'Melchizedek' -> 'Melkyvido' (unsure resolved: name checked against the published text (Tatoli, remarks at the 81st session), which credits the poem to 'Melkyvido, 12'; the UN transcript has 'Melky Vido' and the Spanish channel 'Melquibido'; 'Melchizedek' (decodes 0.67 / 0.64) is the recogniser's nearest known name). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 76 'life' -> 'live' (UN transcript 'live'; decodes split, 'life' p 0.88 and 'live' p 0.63-0.73; forced scoring 2.0 nats apart for the same sound; published text 'We see it every day, live, in our pockets'); unit 115 'development' -> 'developing' (UN transcript 'developing'; decodes p 0.60-0.81, forced scoring 2.3 nats; published text and unit 136 'small island developing state'); unit 125 'playing' -> 'planned' (forced scoring 2.0 nats; published text 'planned for Dili', Spanish 'que tendrá lugar en Dili'); unit 153 'only' kept: the UN transcript also hears 'only', forced scoring prefers it by 2.6 nats, the Spanish has neither word ('Pienso que la paz') and 'only' fits the sentence, although the published text reads 'always'.",
+ "unitizer_version": 1,
+ "sha1": "cc1eb42cb012705e86467fb0b0005c62f79e0f7e",
+ "layout": "single",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3125,
+  "words_out": 3068,
+  "retention": 0.9818,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   265,
+   204,
+   166,
+   101,
+   108,
+   104,
+   86,
+   58,
+   90,
+   53,
+   95,
+   188,
+   136,
+   174,
+   154,
+   102,
+   128,
+   147,
+   179,
+   243,
+   183,
+   96,
+   8
+  ],
+  "warnings": [
+   "40 fixes"
+  ]
+ }
+}

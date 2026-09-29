@@ -1,0 +1,129 @@
+{
+ "id": "BHR_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  16,
+  20,
+  22,
+  25,
+  28,
+  32,
+  35,
+  38,
+  40,
+  44,
+  48,
+  53,
+  56,
+  61,
+  65,
+  68,
+  73,
+  76,
+  80,
+  87,
+  90
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   " [A/33/1]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "aims arc",
+   "aims are",
+   "ocr"
+  ],
+  [
+   21,
+   "political aid economic",
+   "political and economic",
+   "ocr"
+  ],
+  [
+   25,
+   "fee problem",
+   "the problem",
+   "ocr"
+  ],
+  [
+   32,
+   "m3ans",
+   "means",
+   "ocr"
+  ],
+  [
+   55,
+   "we > consider",
+   "we consider",
+   "ocr"
+  ],
+  [
+   73,
+   " /resolution S-10/2J",
+   "",
+   "label"
+  ],
+  [
+   80,
+   " [see resolutions 3201 (S-Vl) and 3202 (S-VI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77d97fe352518fabdb507b83d0200abc74272d0a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3464,
+  "words_out": 3453,
+  "retention": 0.9968,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   161,
+   97,
+   158,
+   86,
+   140,
+   91,
+   72,
+   86,
+   137,
+   177,
+   134,
+   63,
+   144,
+   179,
+   156,
+   110,
+   157,
+   134,
+   152,
+   192,
+   157,
+   105,
+   240,
+   124,
+   201
+  ],
+  "warnings": []
+ }
+}

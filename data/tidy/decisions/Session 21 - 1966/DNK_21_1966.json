@@ -1,0 +1,102 @@
+{
+ "id": "DNK_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  17,
+  22,
+  28,
+  36,
+  40,
+  46,
+  54,
+  57,
+  61,
+  69,
+  76,
+  79,
+  81,
+  85
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "confidence,",
+   "confidence.",
+   "ocr"
+  ],
+  [
+   24,
+   "There are:",
+   "These are:",
+   "ocr"
+  ],
+  [
+   24,
+   "South Viet- Nam",
+   "South Viet-Nam",
+   "hyphen"
+  ],
+  [
+   56,
+   " [2054 (XX)]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "considered, Those",
+   "considered. Those",
+   "ocr"
+  ],
+  [
+   80,
+   "|",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "proposal [by",
+   "proposal by",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2fb2e9d1ff978b90890be963ee53cad71d8802b2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2167,
+  "words_out": 2138,
+  "retention": 0.9866,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   222,
+   69,
+   64,
+   90,
+   135,
+   197,
+   121,
+   123,
+   201,
+   109,
+   85,
+   162,
+   180,
+   84,
+   67,
+   125,
+   104
+  ],
+  "warnings": []
+ }
+}

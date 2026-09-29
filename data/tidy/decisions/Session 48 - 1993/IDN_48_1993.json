@@ -1,0 +1,174 @@
+{
+ "id": "IDN_48_1993",
+ "drop": [
+  [
+   13,
+   13,
+   "header_footer"
+  ],
+  [
+   109,
+   109,
+   "header_footer"
+  ],
+  [
+   207,
+   207,
+   "header_footer"
+  ],
+  [
+   305,
+   305,
+   "header_footer"
+  ],
+  [
+   403,
+   403,
+   "header_footer"
+  ],
+  [
+   500,
+   500,
+   "header_footer"
+  ],
+  [
+   594,
+   594,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  25,
+  37,
+  56,
+  80,
+  93,
+  117,
+  127,
+  140,
+  166,
+  180,
+  194,
+  217,
+  228,
+  252,
+  267,
+  283,
+  298,
+  313,
+  323,
+  331,
+  354,
+  365,
+  380,
+  395,
+  408,
+  425,
+  435,
+  459,
+  467,
+  481,
+  491,
+  501,
+  524,
+  555,
+  572,
+  583
+ ],
+ "cer": [
+  0,
+  14,
+  354
+ ],
+ "fix": [
+  [
+   54,
+   " (The New York Times, 20 August 1993,",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "p. A 29, \"Don’t Make the U.N.’s Job Harder\")",
+   "",
+   "label"
+  ],
+  [
+   133,
+   "concern.As",
+   "concern. As",
+   "spacing"
+  ],
+  [
+   493,
+   "longterm",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   505,
+   "lowermiddle-income",
+   "lower-middle-income",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7fe98fb0115634ca4753907bc8a3991ae714150c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 601,
+  "units_dropped": {
+   "header_footer": 7
+  },
+  "prestrip": {},
+  "words_in": 5054,
+  "words_out": 4994,
+  "retention": 0.9881,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   99,
+   85,
+   108,
+   138,
+   204,
+   99,
+   202,
+   88,
+   101,
+   209,
+   128,
+   110,
+   188,
+   102,
+   204,
+   128,
+   140,
+   124,
+   123,
+   85,
+   72,
+   180,
+   92,
+   125,
+   121,
+   99,
+   143,
+   89,
+   198,
+   70,
+   116,
+   92,
+   82,
+   206,
+   255,
+   139,
+   97,
+   153
+  ],
+  "warnings": []
+ }
+}

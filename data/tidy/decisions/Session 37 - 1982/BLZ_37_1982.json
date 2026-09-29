@@ -1,0 +1,98 @@
+{
+ "id": "BLZ_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  30,
+  51,
+  73,
+  96,
+  121,
+  135,
+  152,
+  169,
+  196,
+  208,
+  227,
+  242,
+  260,
+  286,
+  297,
+  309
+ ],
+ "cer": [
+  30
+ ],
+ "fix": [
+  [
+   41,
+   "Mm",
+   "him",
+   "ocr"
+  ],
+  [
+   43,
+   "taxes",
+   "takes",
+   "ocr"
+  ],
+  [
+   85,
+   "a§",
+   "as",
+   "ocr"
+  ],
+  [
+   87,
+   "Mack",
+   "black",
+   "ocr"
+  ],
+  [
+   144,
+   "217 ",
+   "",
+   "label"
+  ],
+  [
+   164,
+   "Mme Minister",
+   "Prime Minister",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d43a5fd4457397b32c38496bdb04c6cbc0d30834",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2304,
+  "words_out": 2271,
+  "retention": 0.9857,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   223,
+   160,
+   147,
+   170,
+   163,
+   99,
+   119,
+   123,
+   168,
+   80,
+   129,
+   103,
+   131,
+   193,
+   74,
+   89,
+   100
+  ],
+  "warnings": []
+ }
+}

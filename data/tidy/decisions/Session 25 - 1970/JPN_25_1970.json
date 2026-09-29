@@ -1,0 +1,139 @@
+{
+ "id": "JPN_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  19,
+  24,
+  27,
+  31,
+  38,
+  47,
+  52,
+  55,
+  60,
+  68,
+  73,
+  76,
+  81,
+  89,
+  96,
+  100,
+  103,
+  105,
+  108,
+  113
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   15,
+   "Indo- Chinese",
+   "Indo-Chinese",
+   "hyphen"
+  ],
+  [
+   34,
+   "ever- changing",
+   "ever-changing",
+   "hyphen"
+  ],
+  [
+   35,
+   "It Is",
+   "It is",
+   "ocr"
+  ],
+  [
+   38,
+   " [A/8001/ Add.",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "1 and Corr.1, para.1]",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "[Ibid]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   " [ibid]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "this world.",
+   "this world",
+   "ocr"
+  ],
+  [
+   70,
+   "was leached",
+   "was reached",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9edf1524e70c6e20024b05608600ef4534be8927",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3308,
+  "words_out": 3296,
+  "retention": 0.9964,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   59,
+   133,
+   87,
+   244,
+   147,
+   83,
+   140,
+   169,
+   186,
+   117,
+   95,
+   158,
+   188,
+   201,
+   102,
+   155,
+   200,
+   227,
+   152,
+   125,
+   75,
+   102,
+   98,
+   53
+  ],
+  "warnings": []
+ }
+}

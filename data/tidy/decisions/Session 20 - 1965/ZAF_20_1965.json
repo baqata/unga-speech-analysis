@@ -1,0 +1,134 @@
+{
+ "id": "ZAF_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  17,
+  20,
+  28,
+  38,
+  41,
+  46,
+  52,
+  59,
+  67,
+  74,
+  78,
+  83,
+  87,
+  92,
+  99,
+  104,
+  114,
+  124,
+  129
+ ],
+ "cer": [
+  7
+ ],
+ "fix": [
+  [
+   5,
+   "every, intention",
+   "every intention",
+   "ocr"
+  ],
+  [
+   8,
+   "United Nations, The General",
+   "United Nations. The General",
+   "ocr"
+  ],
+  [
+   11,
+   "in, 1945",
+   "in 1945",
+   "ocr"
+  ],
+  [
+   30,
+   "Republic of South.",
+   "Republic of South",
+   "ocr"
+  ],
+  [
+   37,
+   "no place, This vision",
+   "no place. This vision",
+   "ocr"
+  ],
+  [
+   54,
+   "in 1945, There are",
+   "in 1945. There are",
+   "ocr"
+  ],
+  [
+   66,
+   "those Issues continue",
+   "those issues continue",
+   "ocr"
+  ],
+  [
+   80,
+   "their Ideology",
+   "their ideology",
+   "ocr"
+  ],
+  [
+   98,
+   "There maybe other",
+   "There may be other",
+   "merged_word"
+  ],
+  [
+   134,
+   "specialized^ fields",
+   "specialized fields",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c89f6f496f1fc31087475c161fc3bb05bac37ada",
+ "layout": "lines",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 3478,
+  "words_out": 3445,
+  "retention": 0.9905,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   146,
+   93,
+   165,
+   160,
+   182,
+   244,
+   130,
+   106,
+   211,
+   169,
+   163,
+   172,
+   130,
+   174,
+   109,
+   116,
+   158,
+   105,
+   224,
+   169,
+   103,
+   216
+  ],
+  "warnings": []
+ }
+}

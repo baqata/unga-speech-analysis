@@ -1,0 +1,93 @@
+{
+ "id": "KWT_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   95,
+   95,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  13,
+  16,
+  21,
+  30,
+  37,
+  40,
+  47,
+  55,
+  59,
+  67,
+  75,
+  81,
+  89,
+  94
+ ],
+ "cer": [
+  2,
+  3,
+  94
+ ],
+ "fix": [
+  [
+   3,
+   "Baerbocker",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   8,
+   "UNGAAT",
+   "UNGA80",
+   "asr_term"
+  ],
+  [
+   37,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e335f099bbcb91d8ef224174c7c2ffcfbc01eeda",
+ "layout": "single",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2298,
+  "words_out": 2246,
+  "retention": 0.9774,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   9,
+   173,
+   86,
+   131,
+   226,
+   216,
+   108,
+   136,
+   160,
+   204,
+   150,
+   175,
+   154,
+   197,
+   112,
+   9
+  ],
+  "warnings": []
+ }
+}

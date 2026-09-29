@@ -1,0 +1,66 @@
+{
+ "id": "SVK_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  19,
+  34,
+  55,
+  71,
+  87,
+  96,
+  114,
+  123,
+  135,
+  148,
+  158,
+  171,
+  177,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   179,
+   "ensusre",
+   "ensure",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "25f73343783086e18b690e75bcc134231ce4d7ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1668,
+  "words_out": 1668,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   32,
+   122,
+   133,
+   196,
+   123,
+   137,
+   77,
+   164,
+   66,
+   89,
+   101,
+   73,
+   108,
+   43,
+   116,
+   88
+  ],
+  "warnings": []
+ }
+}

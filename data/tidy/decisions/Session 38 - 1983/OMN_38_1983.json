@@ -1,0 +1,92 @@
+{
+ "id": "OMN_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  18,
+  20,
+  22,
+  24,
+  30,
+  34,
+  40,
+  45,
+  53,
+  57,
+  62,
+  64,
+  68,
+  73,
+  76,
+  79,
+  86,
+  92,
+  95,
+  98,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   31,
+   "HI.",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0fddffaed64deae585671421fa928dd5216e47b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3163,
+  "words_out": 3159,
+  "retention": 0.9987,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   148,
+   130,
+   117,
+   89,
+   87,
+   61,
+   76,
+   157,
+   109,
+   137,
+   168,
+   191,
+   160,
+   139,
+   75,
+   176,
+   165,
+   109,
+   146,
+   128,
+   177,
+   112,
+   101,
+   138,
+   63
+  ],
+  "warnings": []
+ }
+}

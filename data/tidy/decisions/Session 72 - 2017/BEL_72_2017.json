@@ -1,0 +1,64 @@
+{
+ "id": "BEL_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  16,
+  19,
+  26,
+  29,
+  35,
+  40,
+  51,
+  59,
+  67,
+  75,
+  82,
+  90,
+  93
+ ],
+ "cer": [],
+ "fix": [
+  [
+   28,
+   "ever- pertinent",
+   "ever-pertinent",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0bcd850e7adaebfffa180e21ac643a64e03b0d65",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1882,
+  "words_out": 1881,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   106,
+   77,
+   137,
+   85,
+   144,
+   67,
+   113,
+   80,
+   153,
+   154,
+   129,
+   132,
+   94,
+   187,
+   87,
+   136
+  ],
+  "warnings": []
+ }
+}

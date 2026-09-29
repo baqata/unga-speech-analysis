@@ -1,0 +1,187 @@
+{
+ "id": "MCO_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   93,
+   94,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  11,
+  14,
+  21,
+  30,
+  39,
+  49,
+  53,
+  61,
+  66,
+  71,
+  77,
+  87,
+  92
+ ],
+ "cer": [
+  2,
+  11,
+  92
+ ],
+ "fix": [
+  [
+   26,
+   "ukraine",
+   "Ukraine",
+   "asr_name"
+  ],
+  [
+   26,
+   "middle east",
+   "Middle East",
+   "asr_name"
+  ],
+  [
+   26,
+   "sudan",
+   "Sudan",
+   "asr_name"
+  ],
+  [
+   26,
+   "sahel",
+   "Sahel",
+   "asr_name"
+  ],
+  [
+   66,
+   "his serene highness",
+   "His Serene Highness",
+   "asr_name"
+  ],
+  [
+   66,
+   "prince albert ii",
+   "Prince Albert II",
+   "asr_name"
+  ],
+  [
+   66,
+   "monaco",
+   "Monaco",
+   "asr_name"
+  ],
+  [
+   16,
+   "Right.",
+   "When might makes right,",
+   "asr_term"
+  ],
+  [
+   17,
+   "It is the smallest",
+   "it is the smallest",
+   "asr_term"
+  ],
+  [
+   26,
+   "multinational bodies",
+   "multilateral bodies",
+   "asr_term"
+  ],
+  [
+   26,
+   "being called",
+   "been called",
+   "asr_term"
+  ],
+  [
+   66,
+   "multinational trust",
+   "multilateral trust",
+   "asr_term"
+  ],
+  [
+   6,
+   "responsibility. because",
+   "responsibility. Because",
+   "asr_term"
+  ],
+  [
+   9,
+   "alone. unique",
+   "alone. Unique",
+   "asr_term"
+  ],
+  [
+   20,
+   "pillars. peace",
+   "pillars. Peace",
+   "asr_term"
+  ],
+  [
+   26,
+   "facts. our",
+   "facts. Our",
+   "asr_term"
+  ],
+  [
+   52,
+   "Programme. through",
+   "Programme. Through",
+   "asr_term"
+  ],
+  [
+   66,
+   "stands. ladies",
+   "stands. Ladies",
+   "asr_term"
+  ],
+  [
+   89,
+   "fulfil. being",
+   "fulfil. Being",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 16 'Right.' is the tail of a sentence the second pass only partly caught (Spanish 'Cuando la fuerza pretende crear el derecho'); kept. Main-agent audit, re-decoded from three starts: 03:01 'When might makes right, it is the smallest states' (p 1.00 at every start; Spanish 'Cuando la fuerza pretende crear el derecho'), restored into units 16-17, gap_suspected removed; 'multilateral bodies' and 'multilateral trust' (decodes differ or p about 0.7; Spanish 'multilaterales', 'multilateralismo'); 'been called into question' (p 0.93 or more). Unit 58 'calls on the real leaders of the United Nations' kept as heard (p 1.00 at every start; the Spanish interpreter has 'una verdadera refundación'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 6 'responsibility. because' -> 'responsibility. Because'; unit 9 'alone. unique' -> 'alone. Unique'; unit 20 'pillars. peace' -> 'pillars. Peace'; unit 26 'facts. our' -> 'facts. Our'; unit 52 'Programme. through' -> 'Programme. Through'; unit 66 'stands. ladies' -> 'stands. Ladies'; unit 89 'fulfil. being' -> 'fulfil. Being'",
+ "unitizer_version": 1,
+ "sha1": "905b7977e684d7b9b26a5dc4e1b925e0fce93a5e",
+ "layout": "single",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1989,
+  "words_out": 1933,
+  "retention": 0.9718,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   19,
+   194,
+   68,
+   91,
+   210,
+   145,
+   196,
+   116,
+   155,
+   87,
+   159,
+   129,
+   171,
+   191,
+   2
+  ],
+  "warnings": []
+ }
+}

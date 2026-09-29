@@ -1,0 +1,65 @@
+{
+ "id": "KIR_64_2009",
+ "drop": [
+  [
+   46,
+   46,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  28,
+  47,
+  60,
+  72,
+  85,
+  99,
+  116,
+  133,
+  146,
+  162,
+  184
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cca97efe1cea5860a97644ea3d90d6e29a0ef57",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1641,
+  "words_out": 1634,
+  "retention": 0.9957,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   105,
+   132,
+   152,
+   99,
+   86,
+   118,
+   119,
+   160,
+   131,
+   93,
+   128,
+   176,
+   135
+  ],
+  "warnings": [
+   "procedural drop [46,46] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+# Raw sources (public elsewhere or not ours to redistribute)
+dataverse_files/
+*.pdf
+branding/
+data/audio/
+data/sources/
+data/interim/
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+node_modules/
+# Tidy corpus copy (derived text) and working files
+data/tidy/TXT/
+data/tidy/work/
+.claude/launch.json

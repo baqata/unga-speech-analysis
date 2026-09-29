@@ -1,0 +1,57 @@
+{
+ "id": "DMA_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  17,
+  25,
+  33,
+  38,
+  44,
+  50,
+  56,
+  60,
+  63,
+  64,
+  69
+ ],
+ "cer": [
+  0,
+  60,
+  69
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "857274005b9c4d75caa1685fad920fbcd8a0fcf8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1534,
+  "words_out": 1534,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   82,
+   175,
+   83,
+   208,
+   142,
+   142,
+   102,
+   115,
+   133,
+   84,
+   104,
+   56,
+   105,
+   3
+  ],
+  "warnings": []
+ }
+}

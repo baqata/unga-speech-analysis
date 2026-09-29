@@ -1,0 +1,295 @@
+{
+ "id": "MDG_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  39,
+  57,
+  77,
+  93,
+  111,
+  120,
+  142,
+  160,
+  180,
+  201,
+  219,
+  233,
+  254,
+  329,
+  347,
+  363,
+  380,
+  416,
+  432,
+  449,
+  474,
+  515
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   42,
+   "short lived",
+   "short-lived",
+   "spacing"
+  ],
+  [
+   71,
+   "well being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   71,
+   "non white",
+   "non-white",
+   "spacing"
+  ],
+  [
+   88,
+   "anti African",
+   "anti-African",
+   "spacing"
+  ],
+  [
+   135,
+   "large scale",
+   "large-scale",
+   "spacing"
+  ],
+  [
+   161,
+   "of the front",
+   "of the front-",
+   "spacing"
+  ],
+  [
+   166,
+   "the non",
+   "the non-",
+   "spacing"
+  ],
+  [
+   185,
+   "the fifty",
+   "the fifty-",
+   "spacing"
+  ],
+  [
+   195,
+   "emerged '",
+   "emerged",
+   "ocr"
+  ],
+  [
+   200,
+   "POLISARIO,",
+   "POLISARIO.",
+   "ocr"
+  ],
+  [
+   226,
+   "double talk",
+   "double-talk",
+   "spacing"
+  ],
+  [
+   239,
+   "in tum",
+   "in turn",
+   "ocr"
+  ],
+  [
+   255,
+   "the Secretary",
+   "the Secretary-",
+   "spacing"
+  ],
+  [
+   262,
+   "Beginís",
+   "Begin's",
+   "encoding"
+  ],
+  [
+   290,
+   "non aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   296,
+   "En this",
+   "In this",
+   "ocr"
+  ],
+  [
+   299,
+   "non aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   317,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   321,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   350,
+   "to self",
+   "to self-",
+   "spacing"
+  ],
+  [
+   362,
+   "imperia list",
+   "imperialist",
+   "split_word"
+  ],
+  [
+   377,
+   "nuclear non",
+   "nuclear non-",
+   "spacing"
+  ],
+  [
+   383,
+   "nuclear weapon free",
+   "nuclear-weapon-free",
+   "spacing"
+  ],
+  [
+   389,
+   "non aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   397,
+   "non aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   445,
+   "UnitedNations",
+   "United Nations",
+   "merged_word"
+  ],
+  [
+   454,
+   "present day",
+   "present-day",
+   "spacing"
+  ],
+  [
+   469,
+   "decision making",
+   "decision-making",
+   "spacing"
+  ],
+  [
+   499,
+   "decision making",
+   "decision-making",
+   "spacing"
+  ],
+  [
+   514,
+   "comer stone",
+   "corner stone",
+   "ocr"
+  ],
+  [
+   516,
+   "open minded",
+   "open-minded",
+   "spacing"
+  ],
+  [
+   523,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   530,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   532,
+   "SecurityCouncil",
+   "Security Council",
+   "merged_word"
+  ],
+  [
+   538,
+   "whole hearted",
+   "whole-hearted",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Few line-initial sentence starts, so paragraphs at units 254 and 474 are long; the word apartheid is missing at unit 66.",
+ "unitizer_version": 1,
+ "sha1": "6df73d866ac1efcdbae40ad93a91f58a8754fdca",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 541,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4089,
+  "words_out": 4061,
+  "retention": 0.9932,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   130,
+   160,
+   142,
+   163,
+   114,
+   129,
+   70,
+   153,
+   133,
+   150,
+   162,
+   135,
+   107,
+   165,
+   569,
+   146,
+   118,
+   120,
+   266,
+   117,
+   125,
+   183,
+   312,
+   192
+  ],
+  "warnings": [
+   "paragraph at unit 254 has 569 words",
+   "36 fixes"
+  ]
+ }
+}

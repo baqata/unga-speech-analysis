@@ -1,0 +1,80 @@
+{
+ "id": "MCO_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  17,
+  21,
+  25,
+  30,
+  37,
+  40,
+  45,
+  50,
+  60,
+  64
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "great- great",
+   "great-great",
+   "hyphen"
+  ],
+  [
+   16,
+   "well- thought",
+   "well-thought",
+   "hyphen"
+  ],
+  [
+   55,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   60,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af9d02a4f23a444d9687ab3340ac35da9cd6afc1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1624,
+  "words_out": 1620,
+  "retention": 0.9975,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   133,
+   142,
+   91,
+   88,
+   109,
+   120,
+   116,
+   129,
+   63,
+   125,
+   119,
+   180,
+   105,
+   100
+  ],
+  "warnings": []
+ }
+}

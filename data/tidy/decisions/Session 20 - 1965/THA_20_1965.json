@@ -1,0 +1,158 @@
+{
+ "id": "THA_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  13,
+  18,
+  21,
+  25,
+  29,
+  34,
+  42,
+  49,
+  54,
+  62,
+  68,
+  72,
+  77,
+  80,
+  85,
+  90,
+  93,
+  105,
+  110,
+  116,
+  122,
+  126,
+  128,
+  134,
+  138,
+  143,
+  149,
+  154,
+  159,
+  165,
+  169,
+  173,
+  178
+ ],
+ "cer": [
+  0,
+  5,
+  178
+ ],
+ "fix": [
+  [
+   5,
+   "to the. outgoing",
+   "to the outgoing",
+   "ocr"
+  ],
+  [
+   9,
+   "in a-most",
+   "in a most",
+   "ocr"
+  ],
+  [
+   26,
+   "we re quoted he re",
+   "were quoted here",
+   "split_word"
+  ],
+  [
+   45,
+   "with ah ambitious",
+   "with an ambitious",
+   "ocr"
+  ],
+  [
+   46,
+   "and uniformed world",
+   "and uninformed world",
+   "ocr"
+  ],
+  [
+   67,
+   "fabricate changes",
+   "fabricate charges",
+   "ocr"
+  ],
+  [
+   95,
+   "to reply on",
+   "to rely on",
+   "ocr"
+  ],
+  [
+   111,
+   "between two-countries",
+   "between two countries",
+   "ocr"
+  ],
+  [
+   179,
+   "His Holiness Pope.",
+   "His Holiness Pope",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 44 and 88 appear to lack words mid-sentence ('had to face, after the so-called liberating tentacles'; 'beyond South-East Asia, to similar aggressive attacks'); kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "8abef71c8aadf7973fd404f0b03969377e1973be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4689,
+  "words_out": 4651,
+  "retention": 0.9919,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   77,
+   72,
+   135,
+   175,
+   78,
+   79,
+   117,
+   128,
+   261,
+   182,
+   137,
+   199,
+   137,
+   121,
+   117,
+   70,
+   109,
+   135,
+   60,
+   265,
+   146,
+   195,
+   137,
+   96,
+   94,
+   127,
+   100,
+   176,
+   156,
+   140,
+   126,
+   99,
+   132,
+   98,
+   112,
+   63
+  ],
+  "warnings": []
+ }
+}

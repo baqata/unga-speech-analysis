@@ -1,0 +1,139 @@
+{
+ "id": "KWT_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  14,
+  18,
+  22,
+  25,
+  30,
+  33,
+  36,
+  40,
+  43,
+  45,
+  48,
+  53,
+  56
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   6,
+   "Korosi. throughout",
+   "Korosi, throughout",
+   "ocr"
+  ],
+  [
+   7,
+   "Furthermore.",
+   "Furthermore,",
+   "ocr"
+  ],
+  [
+   12,
+   "(A/75/982). which",
+   "(A/75/982), which",
+   "ocr"
+  ],
+  [
+   17,
+   "2008. a",
+   "2008, a",
+   "ocr"
+  ],
+  [
+   21,
+   "good- neighbourly",
+   "good-neighbourly",
+   "hyphen"
+  ],
+  [
+   22,
+   "(1993). which",
+   "(1993), which",
+   "ocr"
+  ],
+  [
+   23,
+   "162. in",
+   "162, in",
+   "ocr"
+  ],
+  [
+   24,
+   "law. which",
+   "law, which",
+   "ocr"
+  ],
+  [
+   32,
+   "end. including",
+   "end, including",
+   "ocr"
+  ],
+  [
+   34,
+   "(2015). in",
+   "(2015), in",
+   "ocr"
+  ],
+  [
+   35,
+   "Syrian- owned",
+   "Syrian-owned",
+   "hyphen"
+  ],
+  [
+   44,
+   "way. foreign",
+   "way, foreign",
+   "ocr"
+  ],
+  [
+   54,
+   "law. international humanitarian law. international",
+   "law, international humanitarian law, international",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b3e5e89be7af3a66d73dcc25bd5d19599e50fb8b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1872,
+  "words_out": 1869,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   110,
+   110,
+   161,
+   156,
+   112,
+   146,
+   145,
+   79,
+   115,
+   155,
+   80,
+   78,
+   95,
+   158,
+   120,
+   49
+  ],
+  "warnings": []
+ }
+}

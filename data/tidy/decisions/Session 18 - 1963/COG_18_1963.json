@@ -1,0 +1,108 @@
+{
+ "id": "COG_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  18,
+  21,
+  27,
+  34,
+  41,
+  44,
+  46,
+  50,
+  55,
+  60,
+  64,
+  66,
+  69,
+  74,
+  77,
+  85,
+  90,
+  92,
+  99,
+  103,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "party,",
+   "party.",
+   "ocr"
+  ],
+  [
+   29,
+   "clone",
+   "done",
+   "ocr"
+  ],
+  [
+   38,
+   "ox to",
+   "or to",
+   "ocr"
+  ],
+  [
+   41,
+   "well,",
+   "well.",
+   "ocr"
+  ],
+  [
+   79,
+   "edifice,",
+   "edifice.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech by the Congo (Brazzaville).",
+ "unitizer_version": 1,
+ "sha1": "5a4fcd7158dfedb0f7e68c164dfbc1310539e55c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3465,
+  "words_out": 3464,
+  "retention": 0.9997,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   137,
+   149,
+   167,
+   111,
+   179,
+   192,
+   189,
+   173,
+   94,
+   123,
+   166,
+   194,
+   129,
+   103,
+   124,
+   105,
+   130,
+   249,
+   165,
+   81,
+   199,
+   100,
+   81,
+   124
+  ],
+  "warnings": []
+ }
+}

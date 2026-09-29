@@ -1,0 +1,128 @@
+{
+ "id": "ALB_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  14,
+  17,
+  22,
+  25,
+  31,
+  34,
+  37,
+  40,
+  43,
+  51,
+  64,
+  69,
+  73,
+  78,
+  85,
+  91,
+  94,
+  97,
+  100,
+  103,
+  109,
+  113,
+  118,
+  123,
+  125,
+  130
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   " [A/C.",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "1/793] ",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "about and. carrying",
+   "about and carrying",
+   "ocr"
+  ],
+  [
+   36,
+   "believe than an",
+   "believe that an",
+   "ocr"
+  ],
+  [
+   50,
+   "United Nations,",
+   "United Nations.",
+   "ocr"
+  ],
+  [
+   51,
+   "easily Increase",
+   "easily increase",
+   "ocr"
+  ],
+  [
+   101,
+   "of tine People",
+   "of the People",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "829c62bce4551299097f9186922ba45c471e72ba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3541,
+  "words_out": 3536,
+  "retention": 0.9986,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   71,
+   215,
+   104,
+   94,
+   104,
+   113,
+   119,
+   113,
+   83,
+   93,
+   64,
+   201,
+   251,
+   128,
+   89,
+   100,
+   176,
+   142,
+   144,
+   99,
+   86,
+   140,
+   161,
+   108,
+   126,
+   112,
+   96,
+   161,
+   43
+  ],
+  "warnings": []
+ }
+}

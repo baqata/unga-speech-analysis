@@ -1,0 +1,76 @@
+{
+ "id": "GMB_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  17,
+  23,
+  29,
+  31,
+  37,
+  41,
+  47,
+  51,
+  53,
+  61,
+  66,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "never- ending",
+   "never-ending",
+   "hyphen"
+  ],
+  [
+   30,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   55,
+   "cost-of- living",
+   "cost-of-living",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d48c47846705cacb844b238bc8f8bf406485f8d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1610,
+  "words_out": 1606,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   135,
+   139,
+   122,
+   145,
+   139,
+   89,
+   116,
+   100,
+   131,
+   67,
+   82,
+   109,
+   97,
+   89,
+   46
+  ],
+  "warnings": []
+ }
+}

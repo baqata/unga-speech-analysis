@@ -1,0 +1,78 @@
+{
+ "id": "SMR_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  18,
+  24,
+  27,
+  34,
+  38,
+  45,
+  53,
+  59,
+  65,
+  71,
+  75,
+  78
+ ],
+ "cer": [
+  0,
+  2,
+  78
+ ],
+ "fix": [
+  [
+   43,
+   "disability- inclusive",
+   "disability-inclusive",
+   "hyphen"
+  ],
+  [
+   55,
+   "large- scale",
+   "large-scale",
+   "hyphen"
+  ],
+  [
+   60,
+   "Food- related",
+   "Food-related",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5740dfd32200dd329017ac89755933cadbccf888",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1983,
+  "words_out": 1980,
+  "retention": 0.9985,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   8,
+   127,
+   206,
+   176,
+   115,
+   188,
+   122,
+   219,
+   162,
+   148,
+   173,
+   161,
+   98,
+   75,
+   2
+  ],
+  "warnings": []
+ }
+}

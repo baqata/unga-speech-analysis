@@ -1,0 +1,120 @@
+{
+ "id": "COL_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  14,
+  18,
+  25,
+  30,
+  33,
+  36,
+  41,
+  49,
+  53,
+  58,
+  61,
+  64,
+  67,
+  70,
+  73,
+  76,
+  80,
+  85,
+  92,
+  98,
+  102,
+  106
+ ],
+ "cer": [
+  0,
+  3,
+  13
+ ],
+ "fix": [
+  [
+   22,
+   "the mere successful",
+   "the more successful",
+   "ocr"
+  ],
+  [
+   28,
+   "suffered -by",
+   "suffered by",
+   "ocr"
+  ],
+  [
+   55,
+   "special, priority",
+   "special priority",
+   "ocr"
+  ],
+  [
+   15,
+   " [resolution 1995 (XIX)]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   " [A/5963]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   " [resolution 1991 B (XVIII)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9bdf37b00b2fa36cf4eb1004e0e31d842b237cb9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4
+  },
+  "words_in": 3325,
+  "words_out": 3285,
+  "retention": 0.988,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   106,
+   135,
+   61,
+   39,
+   160,
+   162,
+   126,
+   82,
+   136,
+   164,
+   261,
+   132,
+   156,
+   81,
+   96,
+   87,
+   50,
+   86,
+   104,
+   134,
+   169,
+   196,
+   194,
+   161,
+   146,
+   61
+  ],
+  "warnings": []
+ }
+}

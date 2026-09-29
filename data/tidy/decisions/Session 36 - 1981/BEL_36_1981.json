@@ -1,0 +1,110 @@
+{
+ "id": "BEL_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  13,
+  21,
+  26,
+  28,
+  34,
+  39,
+  46,
+  54,
+  57,
+  59,
+  61,
+  68,
+  71,
+  74,
+  76,
+  81,
+  87,
+  93,
+  98,
+  102,
+  105,
+  107,
+  110,
+  115
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   115,
+   " [A/36/1]",
+   "",
+   "label"
+  ],
+  [
+   110,
+   "<he",
+   "the",
+   "ocr"
+  ],
+  [
+   110,
+   "Jink",
+   "link",
+   "ocr"
+  ],
+  [
+   30,
+   "ether methods",
+   "other methods",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7c633e99cdb5e810e484f83c7d8ed5bc3403c68",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 39
+  },
+  "words_in": 3006,
+  "words_out": 3004,
+  "retention": 0.9993,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   88,
+   86,
+   168,
+   223,
+   84,
+   79,
+   114,
+   165,
+   137,
+   134,
+   77,
+   87,
+   65,
+   184,
+   79,
+   122,
+   94,
+   106,
+   167,
+   128,
+   102,
+   69,
+   102,
+   61,
+   110,
+   98,
+   75
+  ],
+  "warnings": []
+ }
+}

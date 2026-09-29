@@ -1,0 +1,76 @@
+{
+ "id": "DNK_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  15,
+  17,
+  20,
+  24,
+  28,
+  34,
+  43,
+  47,
+  54,
+  63,
+  68,
+  72,
+  78,
+  83,
+  85
+ ],
+ "cer": [],
+ "fix": [
+  [
+   45,
+   "early- warning",
+   "early-warning",
+   "hyphen"
+  ],
+  [
+   80,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "671a938b54af70b4915f6f409a6779a188bbf3af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1873,
+  "words_out": 1867,
+  "retention": 0.9968,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   64,
+   62,
+   78,
+   71,
+   79,
+   146,
+   81,
+   78,
+   138,
+   143,
+   138,
+   135,
+   156,
+   87,
+   92,
+   111,
+   130,
+   62,
+   16
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "SEN_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  35,
+  47,
+  61,
+  74,
+  88,
+  105,
+  117,
+  138,
+  162,
+  173,
+  189,
+  208,
+  221,
+  251,
+  267,
+  283,
+  295,
+  312,
+  330
+ ],
+ "cer": [
+  0,
+  18
+ ],
+ "fix": [
+  [
+   139,
+   "Yal·",
+   "Yalá",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "056e48ce854d8bb6aca1f1043f7de93be6af1cc5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 340,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2638,
+  "words_out": 2634,
+  "retention": 0.9985,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   139,
+   127,
+   99,
+   105,
+   108,
+   102,
+   114,
+   88,
+   167,
+   181,
+   91,
+   118,
+   156,
+   92,
+   238,
+   123,
+   118,
+   101,
+   149,
+   141,
+   77
+  ],
+  "warnings": []
+ }
+}

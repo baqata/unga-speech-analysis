@@ -1,0 +1,74 @@
+{
+ "id": "YEM_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  10,
+  15,
+  19,
+  22,
+  28,
+  35,
+  39,
+  44
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   " I",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "especially’",
+   "especially",
+   "ocr"
+  ],
+  [
+   33,
+   "rates",
+   "races",
+   "ocr"
+  ],
+  [
+   34,
+   "”,",
+   "”.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5b9e276189364c484aee8530b909f550bbd203a5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 13
+  },
+  "words_in": 1286,
+  "words_out": 1285,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   131,
+   126,
+   83,
+   129,
+   118,
+   90,
+   127,
+   207,
+   71,
+   133,
+   70
+  ],
+  "warnings": []
+ }
+}

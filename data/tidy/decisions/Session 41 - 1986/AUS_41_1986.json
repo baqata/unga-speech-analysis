@@ -1,0 +1,103 @@
+{
+ "id": "AUS_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  9,
+  12,
+  16,
+  21,
+  25,
+  28,
+  35,
+  39,
+  46,
+  50,
+  59,
+  65,
+  72,
+  78,
+  86,
+  90,
+  98,
+  101,
+  108,
+  117,
+  123,
+  131
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   34,
+   "Mow we",
+   "Now we",
+   "ocr"
+  ],
+  [
+   51,
+   "Secretary-General*,",
+   "Secretary-General;",
+   "ocr"
+  ],
+  [
+   57,
+   "Thorssen",
+   "Thorsson",
+   "ocr"
+  ],
+  [
+   124,
+   "instance*,",
+   "instance;",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a6169d9649a5a57ad364e3eaa5cc04cbd1802196",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3420,
+  "words_out": 3420,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   48,
+   33,
+   118,
+   112,
+   77,
+   85,
+   112,
+   76,
+   199,
+   123,
+   159,
+   131,
+   223,
+   103,
+   195,
+   143,
+   162,
+   161,
+   228,
+   103,
+   157,
+   238,
+   138,
+   166,
+   130
+  ],
+  "warnings": []
+ }
+}

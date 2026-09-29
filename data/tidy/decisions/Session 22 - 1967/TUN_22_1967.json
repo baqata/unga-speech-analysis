@@ -1,0 +1,173 @@
+{
+ "id": "TUN_22_1967",
+ "drop": [
+  [
+   91,
+   91,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  14,
+  20,
+  24,
+  26,
+  30,
+  35,
+  39,
+  43,
+  45,
+  50,
+  54,
+  59,
+  64,
+  70,
+  73,
+  78,
+  81,
+  89,
+  93,
+  103,
+  108,
+  111,
+  115,
+  119,
+  126,
+  132,
+  134
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "delegation Is highly",
+   "delegation is highly",
+   "ocr"
+  ],
+  [
+   1,
+   "General Assembly, We have",
+   "General Assembly. We have",
+   "ocr"
+  ],
+  [
+   1,
+   "United Nations, Your country",
+   "United Nations. Your country",
+   "ocr"
+  ],
+  [
+   29,
+   "attitude Is in",
+   "attitude is in",
+   "ocr"
+  ],
+  [
+   77,
+   "and In fact",
+   "and in fact",
+   "ocr"
+  ],
+  [
+   85,
+   " [A/ 6701/Add.1, para. 61]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   " [Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "It Is discouraging",
+   "It is discouraging",
+   "ocr"
+  ],
+  [
+   99,
+   "which’ the",
+   "which the",
+   "ocr"
+  ],
+  [
+   110,
+   "should he corrected",
+   "should be corrected",
+   "ocr"
+  ],
+  [
+   113,
+   "are Inadequacies",
+   "are inadequacies",
+   "ocr"
+  ],
+  [
+   131,
+   "constipate an",
+   "constitute an",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "unit 91 is a bare reference unit, dropped",
+ "unitizer_version": 1,
+ "sha1": "f40666039888292b80b4c234f052b59df908bd19",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4087,
+  "words_out": 4036,
+  "retention": 0.9875,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   105,
+   53,
+   107,
+   128,
+   155,
+   111,
+   206,
+   174,
+   137,
+   152,
+   82,
+   78,
+   131,
+   87,
+   133,
+   120,
+   188,
+   94,
+   176,
+   100,
+   156,
+   90,
+   199,
+   98,
+   82,
+   121,
+   103,
+   211,
+   195,
+   68,
+   196
+  ],
+  "warnings": []
+ }
+}

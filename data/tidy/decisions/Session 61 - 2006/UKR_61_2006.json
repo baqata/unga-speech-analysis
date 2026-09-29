@@ -1,0 +1,72 @@
+{
+ "id": "UKR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  44,
+  63,
+  85,
+  103,
+  113,
+  125,
+  156,
+  179,
+  206,
+  218,
+  243,
+  254,
+  265,
+  286,
+  299
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   281,
+   " (resolution S-26/2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "690ff5e9b1928b78c955e4d7128d33ce44c7d8fa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 308,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2403,
+  "words_out": 2398,
+  "retention": 0.9979,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   117,
+   92,
+   127,
+   149,
+   164,
+   132,
+   78,
+   90,
+   233,
+   176,
+   197,
+   88,
+   211,
+   89,
+   94,
+   164,
+   105,
+   92
+  ],
+  "warnings": []
+ }
+}

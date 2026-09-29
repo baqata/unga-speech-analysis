@@ -1,0 +1,67 @@
+{
+ "id": "GAB_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  32,
+  49,
+  61,
+  79,
+  93,
+  109,
+  126,
+  139,
+  152,
+  166,
+  177,
+  194,
+  209
+ ],
+ "cer": [
+  0,
+  209
+ ],
+ "fix": [
+  [
+   146,
+   "(resolution 66/288)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "df9c9468290052eb2c64db2a6fbed8d26f6b6b38",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1704,
+  "words_out": 1701,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   96,
+   92,
+   87,
+   136,
+   93,
+   147,
+   114,
+   136,
+   128,
+   91,
+   93,
+   114,
+   86,
+   140,
+   117,
+   31
+  ],
+  "warnings": []
+ }
+}

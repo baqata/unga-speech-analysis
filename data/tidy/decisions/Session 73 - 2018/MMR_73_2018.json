@@ -1,0 +1,80 @@
+{
+ "id": "MMR_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  21,
+  25,
+  31,
+  35,
+  36,
+  38,
+  42,
+  47,
+  56,
+  59,
+  65,
+  73,
+  76
+ ],
+ "cer": [
+  35
+ ],
+ "fix": [
+  [
+   59,
+   " (A/HRC/39/64)",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "beginning, At",
+   "beginning. At",
+   "ocr"
+  ],
+  [
+   74,
+   "Under- Secretary-General",
+   "Under-Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc2bb9b8aee1e597abc379676de4fbe49fbcfd19",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1900,
+  "words_out": 1898,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   129,
+   81,
+   70,
+   178,
+   86,
+   108,
+   110,
+   34,
+   61,
+   71,
+   137,
+   199,
+   72,
+   172,
+   201,
+   139,
+   50
+  ],
+  "warnings": []
+ }
+}

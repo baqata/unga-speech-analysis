@@ -1,0 +1,106 @@
+{
+ "id": "URY_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  13,
+  19,
+  22,
+  26,
+  29,
+  30,
+  35,
+  39,
+  43,
+  47,
+  50,
+  54,
+  56,
+  57,
+  60,
+  64,
+  69,
+  72,
+  79,
+  82,
+  87
+ ],
+ "cer": [],
+ "fix": [
+  [
+   54,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   64,
+   "deep- seated",
+   "deep-seated",
+   "hyphen"
+  ],
+  [
+   12,
+   "andstrengthen",
+   "and strengthen",
+   "merged_word"
+  ],
+  [
+   62,
+   "itsimplementation",
+   "its implementation",
+   "merged_word"
+  ],
+  [
+   32,
+   "humankind .",
+   "humankind.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "92b3695626375f89695ded71f1ebfa6cd7df5a63",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2618,
+  "words_out": 2617,
+  "retention": 0.9996,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   79,
+   92,
+   114,
+   160,
+   151,
+   93,
+   94,
+   92,
+   68,
+   137,
+   97,
+   76,
+   104,
+   80,
+   150,
+   74,
+   69,
+   126,
+   92,
+   80,
+   81,
+   209,
+   92,
+   170,
+   37
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "MYS_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  27,
+  38,
+  51,
+  62,
+  72,
+  95,
+  109,
+  121,
+  131,
+  141,
+  155,
+  173,
+  188,
+  197,
+  213,
+  221,
+  237,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   64,
+   "(The",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "Holy Koran II:256)",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "(ibid., CIX:6)",
+   "",
+   "label"
+  ],
+  [
+   206,
+   "communities.The",
+   "communities. The",
+   "spacing"
+  ],
+  [
+   220,
+   "(ibid., II:143)",
+   "",
+   "label"
+  ],
+  [
+   243,
+   "peace.That",
+   "peace. That",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43387c3c1c92295ea165ac42f86f2d08fcd5d1b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2230,
+  "words_out": 2224,
+  "retention": 0.9973,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   28,
+   46,
+   168,
+   88,
+   107,
+   101,
+   84,
+   197,
+   117,
+   100,
+   79,
+   86,
+   116,
+   140,
+   119,
+   78,
+   139,
+   72,
+   136,
+   121,
+   102
+  ],
+  "warnings": []
+ }
+}

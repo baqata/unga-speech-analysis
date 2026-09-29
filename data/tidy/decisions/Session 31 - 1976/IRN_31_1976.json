@@ -1,0 +1,124 @@
+{
+ "id": "IRN_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  16,
+  21,
+  25,
+  29,
+  33,
+  38,
+  42,
+  44,
+  47,
+  51,
+  59,
+  63,
+  69,
+  73,
+  78,
+  83,
+  91,
+  94,
+  98,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Mr, President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   4,
+   "re-iterate",
+   "reiterate",
+   "hyphen"
+  ],
+  [
+   16,
+   "United, Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   58,
+   "there Is no",
+   "there is no",
+   "ocr"
+  ],
+  [
+   72,
+   "energy- related",
+   "energy-related",
+   "spacing"
+  ],
+  [
+   78,
+   "las continued",
+   "has continued",
+   "ocr"
+  ],
+  [
+   80,
+   " f OPEC/",
+   "",
+   "label"
+  ],
+  [
+   104,
+   " [A/31/242]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ddad5ff049aa4740223d1d1b42faaeff14af192",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3053,
+  "words_out": 3049,
+  "retention": 0.9987,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   183,
+   159,
+   96,
+   153,
+   77,
+   91,
+   109,
+   110,
+   163,
+   89,
+   92,
+   123,
+   235,
+   128,
+   186,
+   98,
+   130,
+   163,
+   161,
+   82,
+   153,
+   195,
+   73
+  ],
+  "warnings": []
+ }
+}

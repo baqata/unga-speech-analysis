@@ -1,0 +1,57 @@
+{
+ "id": "THA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  34,
+  44,
+  54,
+  66,
+  88,
+  101,
+  110,
+  128,
+  144,
+  161,
+  172,
+  189
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0881d3e28d4f288164a29301276e4514ee251bcc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 205,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1585,
+  "words_out": 1580,
+  "retention": 0.9968,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   72,
+   193,
+   70,
+   77,
+   101,
+   169,
+   88,
+   66,
+   120,
+   133,
+   135,
+   94,
+   129,
+   133
+  ],
+  "warnings": []
+ }
+}

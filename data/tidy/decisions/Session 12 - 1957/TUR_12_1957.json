@@ -1,0 +1,77 @@
+{
+ "id": "TUR_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  13,
+  17,
+  21,
+  27,
+  32,
+  35,
+  45,
+  48,
+  52,
+  59,
+  63,
+  66,
+  68,
+  73
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   28,
+   "the- maintenance",
+   "the maintenance",
+   "ocr"
+  ],
+  [
+   54,
+   " [A/ 3594/Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "73e60ad8884ac0666fbfd355dd5acaf5860a2b0d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2282,
+  "words_out": 2280,
+  "retention": 0.9991,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   118,
+   117,
+   91,
+   126,
+   95,
+   166,
+   242,
+   81,
+   254,
+   109,
+   163,
+   170,
+   122,
+   89,
+   60,
+   139,
+   138
+  ],
+  "warnings": []
+ }
+}

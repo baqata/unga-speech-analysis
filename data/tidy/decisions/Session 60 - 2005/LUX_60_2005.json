@@ -1,0 +1,66 @@
+{
+ "id": "LUX_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  37,
+  51,
+  66,
+  90,
+  107,
+  119,
+  135,
+  153,
+  163,
+  186,
+  208,
+  226,
+  239
+ ],
+ "cer": [],
+ "fix": [
+  [
+   106,
+   " (Human Development Report 2005, p. 1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "938a4482ebdbe5f9766092b3448fd8f7f2344d60",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2112,
+  "words_out": 2102,
+  "retention": 0.9953,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   68,
+   149,
+   118,
+   136,
+   197,
+   121,
+   97,
+   139,
+   124,
+   80,
+   183,
+   173,
+   153,
+   98,
+   186
+  ],
+  "warnings": []
+ }
+}

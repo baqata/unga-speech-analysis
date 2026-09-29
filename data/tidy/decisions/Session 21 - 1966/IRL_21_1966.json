@@ -1,0 +1,124 @@
+{
+ "id": "IRL_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  16,
+  21,
+  25,
+  29,
+  33,
+  35,
+  37,
+  40,
+  45,
+  52,
+  55,
+  63
+ ],
+ "cer": [],
+ "fix": [
+  [
+   27,
+   "law- in all",
+   "law in all",
+   "ocr"
+  ],
+  [
+   30,
+   "should lie considered",
+   "should be considered",
+   "ocr"
+  ],
+  [
+   34,
+   " (1075th plenary meeting]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "could in* arrived",
+   "could be arrived",
+   "ocr"
+  ],
+  [
+   38,
+   "to in bound",
+   "to be bound",
+   "ocr"
+  ],
+  [
+   39,
+   "might lie more",
+   "might be more",
+   "ocr"
+  ],
+  [
+   43,
+   "the nest hope",
+   "the best hope",
+   "ocr"
+  ],
+  [
+   51,
+   "anti on the",
+   "and on the",
+   "ocr"
+  ],
+  [
+   52,
+   "promote?",
+   "promote",
+   "ocr"
+  ],
+  [
+   56,
+   "19G6",
+   "1966",
+   "ocr"
+  ],
+  [
+   56,
+   "19G5",
+   "1965",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "63fdbe2211878b0795b9528105f31aee55f348e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 2396,
+  "words_out": 2375,
+  "retention": 0.9912,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   226,
+   135,
+   166,
+   160,
+   97,
+   140,
+   121,
+   63,
+   62,
+   191,
+   185,
+   272,
+   99,
+   305,
+   153
+  ],
+  "warnings": []
+ }
+}

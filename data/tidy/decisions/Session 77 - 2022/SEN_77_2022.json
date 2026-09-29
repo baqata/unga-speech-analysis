@@ -1,0 +1,49 @@
+{
+ "id": "SEN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  18,
+  22,
+  24,
+  26,
+  30,
+  32,
+  35
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6480ef3c2c943ccbe62db6100102fa6c42d3d11",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1360,
+  "words_out": 1360,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   49,
+   148,
+   134,
+   147,
+   161,
+   86,
+   73,
+   143,
+   84,
+   107,
+   228
+  ],
+  "warnings": []
+ }
+}

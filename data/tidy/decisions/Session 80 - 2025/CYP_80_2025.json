@@ -1,0 +1,67 @@
+{
+ "id": "CYP_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  11,
+  17,
+  28,
+  38,
+  45,
+  53,
+  63,
+  66,
+  77,
+  80,
+  89,
+  95,
+  101,
+  111,
+  114
+ ],
+ "cer": [
+  114
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e21467afaa241f025d82a6d24c7af782cf0d4f1",
+ "layout": "single",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1964,
+  "words_out": 1932,
+  "retention": 0.9837,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   148,
+   128,
+   167,
+   162,
+   117,
+   167,
+   114,
+   81,
+   215,
+   73,
+   147,
+   114,
+   66,
+   149,
+   80,
+   4
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "SUR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  20,
+  27,
+  31,
+  34,
+  36,
+  40,
+  44
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "226f07bcfe567cc040a361e332399bb08922bedd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1283,
+  "words_out": 1281,
+  "retention": 0.9984,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   130,
+   129,
+   131,
+   154,
+   183,
+   86,
+   78,
+   73,
+   81,
+   147,
+   89
+  ],
+  "warnings": []
+ }
+}

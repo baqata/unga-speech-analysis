@@ -1,0 +1,126 @@
+{
+ "id": "DJI_50_1995",
+ "drop": [
+  [
+   28,
+   28,
+   "header_footer"
+  ],
+  [
+   125,
+   125,
+   "header_footer"
+  ],
+  [
+   220,
+   220,
+   "header_footer"
+  ],
+  [
+   316,
+   316,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  24,
+  40,
+  55,
+  70,
+  83,
+  104,
+  122,
+  141,
+  152,
+  164,
+  176,
+  186,
+  197,
+  221,
+  238,
+  254,
+  273,
+  293,
+  307,
+  322,
+  340,
+  350,
+  362,
+  374,
+  392
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   352,
+   " (Official Records",
+   "",
+   "label"
+  ],
+  [
+   353,
+   "of the General Assembly, Fiftieth Session, Plenary",
+   "",
+   "label"
+  ],
+  [
+   354,
+   "Meetings, 1st meeting, p. 6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d0eb98a35555e638724d7c47cfbd7cf35950cc67",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 395,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3320,
+  "words_out": 3282,
+  "retention": 0.9886,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   78,
+   123,
+   149,
+   131,
+   136,
+   107,
+   179,
+   153,
+   150,
+   94,
+   98,
+   95,
+   84,
+   103,
+   207,
+   152,
+   129,
+   144,
+   163,
+   115,
+   114,
+   147,
+   84,
+   90,
+   92,
+   146,
+   19
+  ],
+  "warnings": []
+ }
+}

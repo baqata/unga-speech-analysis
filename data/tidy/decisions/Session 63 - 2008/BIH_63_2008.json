@@ -1,0 +1,75 @@
+{
+ "id": "BIH_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  27,
+  41,
+  55,
+  70,
+  85,
+  100,
+  109,
+  129,
+  140,
+  153,
+  168
+ ],
+ "cer": [
+  0,
+  168
+ ],
+ "fix": [
+  [
+   47,
+   "(para. 292)",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "(para. 297)",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "(article 41)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9eae09ced7717c51add6ba6f76edc33c09cb7d4c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1445,
+  "words_out": 1435,
+  "retention": 0.9931,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   64,
+   149,
+   104,
+   109,
+   107,
+   118,
+   114,
+   87,
+   138,
+   96,
+   102,
+   118,
+   129
+  ],
+  "warnings": []
+ }
+}

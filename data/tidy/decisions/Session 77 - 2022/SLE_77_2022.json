@@ -1,0 +1,68 @@
+{
+ "id": "SLE_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  18,
+  23,
+  30,
+  33,
+  37,
+  40,
+  43,
+  49,
+  54,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   32,
+   "self- sufficiency",
+   "self-sufficiency",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "45ed957969e66336720bc48a67eeeb3189c16bc9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1611,
+  "words_out": 1608,
+  "retention": 0.9981,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   171,
+   103,
+   126,
+   100,
+   178,
+   94,
+   129,
+   64,
+   72,
+   182,
+   117,
+   68,
+   204
+  ],
+  "warnings": []
+ }
+}

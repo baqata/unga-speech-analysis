@@ -1,0 +1,113 @@
+{
+ "id": "QAT_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  16,
+  18,
+  23,
+  27,
+  33,
+  36,
+  38,
+  42,
+  44,
+  47,
+  52,
+  55
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   3,
+   "thirty eighth",
+   "thirty-eighth",
+   "spacing"
+  ],
+  [
+   4,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   6,
+   "day end is",
+   "day and is",
+   "ocr"
+  ],
+  [
+   10,
+   "At \"he same",
+   "At the same",
+   "ocr"
+  ],
+  [
+   11,
+   "Secretary General’s",
+   "Secretary-General’s",
+   "spacing"
+  ],
+  [
+   11,
+   "ail laws",
+   "all laws",
+   "ocr"
+  ],
+  [
+   41,
+   "from7",
+   "from 7",
+   "spacing"
+  ],
+  [
+   55,
+   "establish'",
+   "establish",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 20 breaks off mid-sentence and unit 21 starts a new sentence, suggesting lost text.",
+ "unitizer_version": 1,
+ "sha1": "2f5b325d2deb978110c91de2498e7689ab7c165f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2123,
+  "words_out": 2121,
+  "retention": 0.9991,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   189,
+   130,
+   168,
+   108,
+   115,
+   151,
+   143,
+   157,
+   104,
+   55,
+   132,
+   111,
+   87,
+   151,
+   142,
+   178
+  ],
+  "warnings": []
+ }
+}

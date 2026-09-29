@@ -1,0 +1,62 @@
+{
+ "id": "NIC_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  31,
+  42,
+  55,
+  70,
+  92,
+  118,
+  131,
+  145,
+  159,
+  184,
+  204,
+  215,
+  238,
+  250
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19418d3bfd118d0c3e7371d9bbf44e0a3baf9ab3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1993,
+  "words_out": 1992,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   62,
+   55,
+   130,
+   74,
+   91,
+   112,
+   174,
+   196,
+   112,
+   98,
+   115,
+   187,
+   160,
+   92,
+   177,
+   99,
+   58
+  ],
+  "warnings": []
+ }
+}

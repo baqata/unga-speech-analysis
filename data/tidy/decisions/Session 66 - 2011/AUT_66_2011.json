@@ -1,0 +1,53 @@
+{
+ "id": "AUT_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  36,
+  47,
+  61,
+  79,
+  89,
+  108,
+  122,
+  137,
+  156,
+  168,
+  192
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01b9e695492b9209da8ff79d9ec555f1bc86fbd5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1529,
+  "words_out": 1528,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   88,
+   179,
+   86,
+   124,
+   140,
+   74,
+   139,
+   123,
+   119,
+   142,
+   86,
+   181,
+   47
+  ],
+  "warnings": []
+ }
+}

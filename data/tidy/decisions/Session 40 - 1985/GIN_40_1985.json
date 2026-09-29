@@ -1,0 +1,100 @@
+{
+ "id": "GIN_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  11,
+  13,
+  15,
+  17,
+  19,
+  22,
+  24,
+  26,
+  29,
+  31,
+  33,
+  35,
+  37,
+  42,
+  45
+ ],
+ "cer": [
+  2,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   16,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   17,
+   "hotbeds-of",
+   "hotbeds of",
+   "ocr"
+  ],
+  [
+   26,
+   "also Reserve",
+   "also deserve",
+   "ocr"
+  ],
+  [
+   33,
+   "a- new",
+   "a new",
+   "ocr"
+  ],
+  [
+   34,
+   "^here",
+   "There",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7390e3a6122dba07a99cb029a22d70bc56a9f8ce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1651,
+  "words_out": 1652,
+  "retention": 1.0006,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   79,
+   66,
+   63,
+   80,
+   98,
+   89,
+   89,
+   84,
+   80,
+   90,
+   74,
+   75,
+   55,
+   69,
+   107,
+   73,
+   63,
+   97,
+   111,
+   110
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "GHA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  32,
+  48,
+  61,
+  75,
+  85,
+  103,
+  116,
+  135,
+  142,
+  162,
+  171
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "46e2d8fa8b6f8971cc55d19a0f2166ccb7432306",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 195,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1504,
+  "words_out": 1502,
+  "retention": 0.9987,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   71,
+   70,
+   112,
+   132,
+   98,
+   104,
+   80,
+   141,
+   103,
+   133,
+   51,
+   158,
+   64,
+   185
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "URY_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  37,
+  62,
+  82,
+  103,
+  124,
+  147,
+  168,
+  181,
+  206,
+  218,
+  230,
+  241,
+  254
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   255,
+   " (Readers",
+   "",
+   "label"
+  ],
+  [
+   256,
+   "Digest, October 1958)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f9180feff1e53d0517f88fd359c18a594a7c3568",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 259,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2316,
+  "words_out": 2310,
+  "retention": 0.9974,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   77,
+   133,
+   125,
+   233,
+   176,
+   192,
+   188,
+   204,
+   183,
+   97,
+   212,
+   108,
+   122,
+   103,
+   118,
+   39
+  ],
+  "warnings": []
+ }
+}

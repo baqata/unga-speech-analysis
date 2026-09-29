@@ -1,0 +1,315 @@
+{
+ "id": "JPN_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  16,
+  18,
+  21,
+  28,
+  31,
+  34,
+  39,
+  41,
+  46,
+  48,
+  51,
+  54,
+  57,
+  58,
+  61,
+  65,
+  69,
+  73,
+  77,
+  81,
+  84,
+  87,
+  90,
+  95,
+  99,
+  104,
+  108,
+  115,
+  120,
+  122
+ ],
+ "cer": [
+  0,
+  6,
+  8
+ ],
+ "fix": [
+  [
+   0,
+   "1 wish",
+   "I wish",
+   "ocr"
+  ],
+  [
+   0,
+   "twenty- sixth",
+   "twenty-sixth",
+   "hyphen"
+  ],
+  [
+   2,
+   "' who",
+   "who",
+   "ocr"
+  ],
+  [
+   6,
+   "session..",
+   "session.",
+   "ocr"
+  ],
+  [
+   7,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "merged_word"
+  ],
+  [
+   18,
+   "VietNam",
+   "Viet-Nam",
+   "merged_word"
+  ],
+  [
+   24,
+   " [1877th meeting/",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "40. ",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "46. ",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   39,
+   " [ibid,, paras. 6181]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "refrain, from",
+   "refrain from",
+   "ocr"
+  ],
+  [
+   41,
+   "Assembly „",
+   "Assembly,",
+   "ocr"
+  ],
+  [
+   47,
+   " [item 90]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   " [1913th meeting/",
+   "",
+   "label"
+  ],
+  [
+   51,
+   ", A number",
+   ". A number",
+   "ocr"
+  ],
+  [
+   57,
+   " [AfL.632 and Add.l and 2]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " [A/L.633 and Add.l and 2]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "the Government of the Republic of China,",
+   "the Government of the Republic of China.",
+   "ocr"
+  ],
+  [
+   64,
+   "SouthEast",
+   "South-East",
+   "merged_word"
+  ],
+  [
+   68,
+   "SecretaryGeneral U Than!",
+   "Secretary-General U Thant",
+   "ocr"
+  ],
+  [
+   68,
+   " [A/8401/AddJ, para, 40]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "ana redouble",
+   "and redouble",
+   "ocr"
+  ],
+  [
+   71,
+   "reach, a just",
+   "reach a just",
+   "ocr"
+  ],
+  [
+   83,
+   "peaceful means,",
+   "peaceful means.",
+   "ocr"
+  ],
+  [
+   86,
+   ",'he",
+   "the",
+   "ocr"
+  ],
+  [
+   91,
+   " /resolution 2626 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   "and'the",
+   "and the",
+   "ocr"
+  ],
+  [
+   95,
+   "1975.1 wish",
+   "1975. I wish",
+   "ocr"
+  ],
+  [
+   99,
+   " [UNCTAD1",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "out m the",
+   "out in the",
+   "ocr"
+  ],
+  [
+   115,
+   "is. highly",
+   "is highly",
+   "ocr"
+  ],
+  [
+   121,
+   "by (Ml",
+   "by Oil",
+   "ocr"
+  ],
+  [
+   121,
+   "InterGovernmental",
+   "Inter-Governmental",
+   "merged_word"
+  ],
+  [
+   122,
+   "the form for",
+   "the forum for",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Two columns are interleaved in the source: unit 33 mixes the start of the sentence 'The peoples of Asia, who for long years lived under gunfire, grieved at the division of their motherlands, or' (whose end is unit 20, 'feared involvement in war...') with 'First of all, I believe that, in strengthening our Organization, the possibility of reviewing the Charter itself' (whose end is unit 38, 'should not be ruled out.'). The fragments are kept in place: unit 20 inside the paragraph from unit 18, unit 33 at the end of the paragraph from unit 31, unit 38 at the end of the paragraph from unit 34.",
+ "unitizer_version": 1,
+ "sha1": "8256a93d5877ee74f910290f413825990daa53a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 47
+  },
+  "words_in": 4226,
+  "words_out": 4192,
+  "retention": 0.992,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   123,
+   69,
+   93,
+   149,
+   94,
+   69,
+   201,
+   64,
+   103,
+   148,
+   91,
+   174,
+   83,
+   74,
+   93,
+   102,
+   107,
+   85,
+   93,
+   140,
+   144,
+   151,
+   150,
+   117,
+   134,
+   144,
+   171,
+   155,
+   179,
+   158,
+   170,
+   138,
+   86,
+   140
+  ],
+  "warnings": [
+   "35 fixes"
+  ]
+ }
+}

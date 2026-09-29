@@ -1,0 +1,207 @@
+{
+ "id": "JAM_36_1981",
+ "drop": [
+  [
+   125,
+   125,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  12,
+  16,
+  19,
+  23,
+  25,
+  28,
+  33,
+  36,
+  38,
+  39,
+  44,
+  47,
+  50,
+  61,
+  67,
+  72,
+  75,
+  81,
+  86,
+  92,
+  95,
+  99,
+  103,
+  107,
+  111,
+  115,
+  118,
+  121,
+  126,
+  131,
+  133,
+  136,
+  139,
+  142,
+  145,
+  147,
+  149,
+  151,
+  152,
+  155
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   1,
+   "Mr.Riidiger",
+   "Mr. Rudiger",
+   "ocr"
+  ],
+  [
+   41,
+   "threaten Ae very",
+   "threaten the very",
+   "ocr"
+  ],
+  [
+   42,
+   "Hie nuclear",
+   "The nuclear",
+   "ocr"
+  ],
+  [
+   50,
+   "year \"in the",
+   "year in the",
+   "ocr"
+  ],
+  [
+   53,
+   "statesmanship?",
+   "statesmanship",
+   "ocr"
+  ],
+  [
+   70,
+   " [SW4P0]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "the , restrictive",
+   "the restrictive",
+   "ocr"
+  ],
+  [
+   114,
+   "<their",
+   "their",
+   "ocr"
+  ],
+  [
+   129,
+   "diversification..",
+   "diversification.",
+   "ocr"
+  ],
+  [
+   134,
+   " [see A/36/333 and Corr.l]",
+   "",
+   "label"
+  ],
+  [
+   144,
+   "malnutrition.\"'",
+   "malnutrition.\"",
+   "ocr"
+  ],
+  [
+   146,
+   "an most cases",
+   "in most cases",
+   "ocr"
+  ],
+  [
+   150,
+   "ah early",
+   "an early",
+   "ocr"
+  ],
+  [
+   156,
+   "hunger* fear",
+   "hunger, fear",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "75fd9cbc28f902f9d7f66bc6386f9faa5ac79717",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 3939,
+  "words_out": 3929,
+  "retention": 0.9975,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   112,
+   156,
+   112,
+   105,
+   123,
+   67,
+   71,
+   148,
+   68,
+   72,
+   51,
+   114,
+   59,
+   59,
+   208,
+   122,
+   82,
+   60,
+   116,
+   94,
+   98,
+   61,
+   78,
+   74,
+   79,
+   126,
+   101,
+   131,
+   81,
+   103,
+   87,
+   104,
+   101,
+   86,
+   79,
+   127,
+   63,
+   61,
+   64,
+   61,
+   78,
+   87
+  ],
+  "warnings": []
+ }
+}

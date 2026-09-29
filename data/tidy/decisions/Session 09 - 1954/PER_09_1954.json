@@ -1,0 +1,168 @@
+{
+ "id": "PER_09_1954",
+ "drop": [
+  [
+   17,
+   17,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  18,
+  22,
+  25,
+  28,
+  32,
+  37,
+  40,
+  43,
+  45,
+  53,
+  57,
+  62,
+  65,
+  68,
+  75,
+  79,
+  87,
+  92,
+  97,
+  104,
+  106,
+  110,
+  112,
+  115,
+  117,
+  118,
+  121,
+  124,
+  133
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "modern • diplomat",
+   "modern diplomat",
+   "ocr"
+  ],
+  [
+   2,
+   "I fed",
+   "I feel",
+   "ocr"
+  ],
+  [
+   36,
+   "dear consciousness",
+   "clear consciousness",
+   "ocr"
+  ],
+  [
+   39,
+   "0f",
+   "of",
+   "ocr"
+  ],
+  [
+   44,
+   "Charter,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   46,
+   "some-, times",
+   "sometimes",
+   "ocr"
+  ],
+  [
+   57,
+   "notable,",
+   "notable",
+   "ocr"
+  ],
+  [
+   71,
+   "hat interpretation",
+   "that interpretation",
+   "ocr"
+  ],
+  [
+   72,
+   "bat peace",
+   "that peace",
+   "ocr"
+  ],
+  [
+   122,
+   "principles, On",
+   "principles. On",
+   "ocr"
+  ],
+  [
+   122,
+   "'Charter",
+   "Charter",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "87bab121f36ca37139e65b1f1791e420a6819d96",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 4276,
+  "words_out": 4273,
+  "retention": 0.9993,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   175,
+   176,
+   210,
+   129,
+   134,
+   78,
+   120,
+   184,
+   83,
+   110,
+   66,
+   226,
+   113,
+   155,
+   186,
+   67,
+   158,
+   138,
+   243,
+   145,
+   99,
+   176,
+   66,
+   110,
+   66,
+   105,
+   61,
+   73,
+   158,
+   135,
+   167,
+   161
+  ],
+  "warnings": []
+ }
+}

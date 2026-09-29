@@ -1,0 +1,49 @@
+{
+ "id": "ARG_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  29,
+  42,
+  65,
+  85,
+  113,
+  131,
+  152,
+  176
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9f1d1ed38cd960bf4abe680dd983e4faefe4e85",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1503,
+  "words_out": 1499,
+  "retention": 0.9973,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   52,
+   185,
+   106,
+   176,
+   140,
+   243,
+   142,
+   176,
+   197,
+   82
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "id": "AUT_26_1971",
+ "drop": [
+  [
+   58,
+   58,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  13,
+  18,
+  25,
+  34,
+  37,
+  41,
+  45,
+  48,
+  52,
+  57,
+  61,
+  63,
+  65,
+  71,
+  75,
+  81,
+  85,
+  91,
+  94,
+  97,
+  103
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "Hambro, The",
+   "Hambro. The",
+   "ocr"
+  ],
+  [
+   12,
+   "politics,",
+   "politics.",
+   "ocr"
+  ],
+  [
+   37,
+   "ihe Security",
+   "the Security",
+   "ocr"
+  ],
+  [
+   40,
+   "consideration, I am",
+   "consideration. I am",
+   "ocr"
+  ],
+  [
+   43,
+   "destruction, Austria",
+   "destruction. Austria",
+   "ocr"
+  ],
+  [
+   44,
+   "192,5",
+   "1925",
+   "ocr"
+  ],
+  [
+   46,
+   "Non-ProHferation",
+   "Non-Proliferation",
+   "ocr"
+  ],
+  [
+   51,
+   "armament?;.",
+   "armament.",
+   "ocr"
+  ],
+  [
+   56,
+   "conference,",
+   "conference.",
+   "ocr"
+  ],
+  [
+   62,
+   "tile German-speaking",
+   "the German-speaking",
+   "ocr"
+  ],
+  [
+   81,
+   "ply",
+   "play",
+   "ocr"
+  ],
+  [
+   86,
+   "abuse.,",
+   "abuse.",
+   "ocr"
+  ],
+  [
+   88,
+   "the- younger",
+   "the younger",
+   "ocr"
+  ],
+  [
+   95,
+   "[IAEA] ",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "[UNIDO] ",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "above- mentioned",
+   "above-mentioned",
+   "hyphen"
+  ],
+  [
+   102,
+   "fulfilled,",
+   "fulfilled.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "abf4b39b3db433db794cb31ba8313bd9871cec17",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 42
+  },
+  "words_in": 3250,
+  "words_out": 3195,
+  "retention": 0.9831,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   64,
+   126,
+   84,
+   127,
+   144,
+   206,
+   172,
+   122,
+   150,
+   207,
+   86,
+   142,
+   147,
+   71,
+   100,
+   76,
+   216,
+   110,
+   127,
+   120,
+   143,
+   60,
+   90,
+   136,
+   169
+  ],
+  "warnings": []
+ }
+}

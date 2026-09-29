@@ -1,0 +1,94 @@
+{
+ "id": "BLZ_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  17,
+  24,
+  30,
+  35,
+  39,
+  42,
+  46,
+  51,
+  55,
+  59,
+  65,
+  73,
+  79,
+  83,
+  86,
+  91,
+  100,
+  106,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   41,
+   "debt- service",
+   "debt-service",
+   "hyphen"
+  ],
+  [
+   92,
+   "make-or- break",
+   "make-or-break",
+   "hyphen"
+  ],
+  [
+   102,
+   "post- 2020",
+   "post-2020",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f6da14f2d59bdb4fcfbc1665eea9cc59b5ba7a9e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2323,
+  "words_out": 2319,
+  "retention": 0.9983,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   70,
+   95,
+   129,
+   137,
+   96,
+   136,
+   111,
+   75,
+   83,
+   99,
+   86,
+   85,
+   115,
+   133,
+   132,
+   76,
+   70,
+   112,
+   175,
+   126,
+   78,
+   100
+  ],
+  "warnings": []
+ }
+}

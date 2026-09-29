@@ -1,0 +1,104 @@
+{
+ "id": "LAO_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  13,
+  16,
+  20,
+  26,
+  33,
+  40,
+  48,
+  54,
+  60,
+  65,
+  78,
+  83,
+  90
+ ],
+ "cer": [
+  0,
+  3,
+  6,
+  13,
+  90
+ ],
+ "fix": [
+  [
+   24,
+   "ail Africa",
+   "all Africa",
+   "ocr"
+  ],
+  [
+   35,
+   "flame sofa",
+   "flame of a",
+   "ocr"
+  ],
+  [
+   48,
+   "Government- Recently",
+   "Government. Recently",
+   "ocr"
+  ],
+  [
+   79,
+   "Viet-Nan",
+   "Viet-Nam",
+   "ocr"
+  ],
+  [
+   89,
+   "death-knoll",
+   "death-knell",
+   "ocr"
+  ],
+  [
+   94,
+   "the • crises",
+   "the crises",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49131cc1330c7625521d7de4e207a10835a08524",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2336,
+  "words_out": 2318,
+  "retention": 0.9923,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   45,
+   97,
+   51,
+   126,
+   62,
+   101,
+   80,
+   163,
+   213,
+   208,
+   155,
+   126,
+   108,
+   306,
+   144,
+   134,
+   199
+  ],
+  "warnings": []
+ }
+}

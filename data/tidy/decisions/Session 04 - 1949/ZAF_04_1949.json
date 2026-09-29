@@ -1,0 +1,114 @@
+{
+ "id": "ZAF_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  17,
+  25,
+  29,
+  38,
+  47,
+  50,
+  54,
+  59,
+  65,
+  70,
+  73,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "from.",
+   "from",
+   "ocr"
+  ],
+  [
+   47,
+   "task, Mr. Jooste",
+   "task. Mr. Jooste",
+   "ocr"
+  ],
+  [
+   52,
+   "increase-the",
+   "increase the",
+   "spacing"
+  ],
+  [
+   57,
+   "well, as",
+   "well as",
+   "ocr"
+  ],
+  [
+   59,
+   "'from",
+   "from",
+   "ocr"
+  ],
+  [
+   71,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   84,
+   " (222nd meeting)",
+   "",
+   "label"
+  ],
+  [
+   85,
+   "that.it",
+   "that it",
+   "ocr"
+  ],
+  [
+   87,
+   "fake place",
+   "take place",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "1798a7de6bc64fdcd8ac6557326f9febc9f635bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 2378,
+  "words_out": 2377,
+  "retention": 0.9996,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   133,
+   192,
+   235,
+   200,
+   110,
+   238,
+   222,
+   106,
+   79,
+   145,
+   141,
+   93,
+   93,
+   223,
+   167
+  ],
+  "warnings": []
+ }
+}

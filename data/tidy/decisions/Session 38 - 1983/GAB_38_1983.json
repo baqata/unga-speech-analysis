@@ -1,0 +1,95 @@
+{
+ "id": "GAB_38_1983",
+ "drop": [
+  [
+   1,
+   1,
+   "header_footer"
+  ],
+  [
+   80,
+   80,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  18,
+  21,
+  28,
+  33,
+  35,
+  38,
+  43,
+  46,
+  49,
+  54,
+  60,
+  63,
+  70,
+  73,
+  76,
+  81,
+  84,
+  86
+ ],
+ "cer": [
+  0,
+  84,
+  86
+ ],
+ "fix": [
+  [
+   27,
+   "Red Cress",
+   "Red Cross",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Congratulations to the President and predecessor come at the end of the speech.",
+ "unitizer_version": 1,
+ "sha1": "49bcae509d44b00a2aae3cec7c09806c5ee44f9c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2998,
+  "words_out": 2996,
+  "retention": 0.9993,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   111,
+   175,
+   121,
+   155,
+   98,
+   166,
+   161,
+   82,
+   117,
+   157,
+   141,
+   104,
+   163,
+   124,
+   155,
+   176,
+   118,
+   157,
+   161,
+   78,
+   76,
+   200
+  ],
+  "warnings": []
+ }
+}

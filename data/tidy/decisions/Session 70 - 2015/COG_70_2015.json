@@ -1,0 +1,71 @@
+{
+ "id": "COG_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  15,
+  20,
+  23,
+  27,
+  29,
+  35,
+  37,
+  39,
+  41,
+  45,
+  49
+ ],
+ "cer": [
+  0,
+  35
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   44,
+   "All- Africa",
+   "All-Africa",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "594445b5de67f6aefc9b1f09b624de6eb00734aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1576,
+  "words_out": 1572,
+  "retention": 0.9975,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   128,
+   168,
+   130,
+   129,
+   87,
+   155,
+   71,
+   176,
+   110,
+   78,
+   65,
+   105,
+   97,
+   73
+  ],
+  "warnings": []
+ }
+}

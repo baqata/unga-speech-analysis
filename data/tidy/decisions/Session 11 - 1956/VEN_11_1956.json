@@ -1,0 +1,80 @@
+{
+ "id": "VEN_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  11,
+  14,
+  18,
+  22,
+  27,
+  32,
+  33,
+  36,
+  42,
+  45,
+  48,
+  53,
+  55,
+  57,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "its, sympathy",
+   "its sympathy",
+   "ocr"
+  ],
+  [
+   45,
+   "Venezuela, is convinced",
+   "Venezuela is convinced",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "242a99847afbf78cbe5d4cbdbdf3ed75eb5c60fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 1950,
+  "words_out": 1949,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   89,
+   60,
+   105,
+   98,
+   113,
+   75,
+   110,
+   166,
+   176,
+   71,
+   77,
+   175,
+   75,
+   130,
+   89,
+   99,
+   85,
+   119,
+   37
+  ],
+  "warnings": []
+ }
+}

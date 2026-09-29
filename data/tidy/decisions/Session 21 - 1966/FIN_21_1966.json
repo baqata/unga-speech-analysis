@@ -1,0 +1,63 @@
+{
+ "id": "FIN_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  17,
+  26,
+  33,
+  38,
+  44,
+  55,
+  59,
+  64,
+  68,
+  75,
+  80
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   43,
+   "existence,",
+   "existence.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc46b447d142470deeeeadf09aab3d774d7aba98",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1695,
+  "words_out": 1674,
+  "retention": 0.9876,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   59,
+   56,
+   134,
+   219,
+   158,
+   102,
+   168,
+   220,
+   102,
+   102,
+   95,
+   99,
+   101,
+   59
+  ],
+  "warnings": []
+ }
+}

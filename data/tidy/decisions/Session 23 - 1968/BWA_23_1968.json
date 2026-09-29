@@ -1,0 +1,84 @@
+{
+ "id": "BWA_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  13,
+  17,
+  26,
+  34,
+  43,
+  49,
+  52,
+  62,
+  68,
+  73,
+  80,
+  86,
+  93,
+  95,
+  99,
+  102,
+  112
+ ],
+ "cer": [
+  0,
+  5,
+  10
+ ],
+ "fix": [
+  [
+   10,
+   "df independence",
+   "of independence",
+   "ocr"
+  ],
+  [
+   99,
+   "Asa developing",
+   "As a developing",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "72cfa0d907dbda78c2adad57a88ca6f15bf861c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2664,
+  "words_out": 2633,
+  "retention": 0.9884,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   86,
+   120,
+   51,
+   116,
+   164,
+   196,
+   177,
+   141,
+   147,
+   234,
+   147,
+   103,
+   122,
+   72,
+   183,
+   65,
+   143,
+   77,
+   182,
+   107
+  ],
+  "warnings": []
+ }
+}

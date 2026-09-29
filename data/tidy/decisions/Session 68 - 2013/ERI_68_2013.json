@@ -1,0 +1,53 @@
+{
+ "id": "ERI_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  29,
+  42,
+  52,
+  63,
+  90,
+  111,
+  123,
+  140,
+  159,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d47110f1e757d3ec76597e84f3a557cdb917389e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1472,
+  "words_out": 1471,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   38,
+   103,
+   88,
+   111,
+   88,
+   92,
+   208,
+   173,
+   97,
+   118,
+   145,
+   130,
+   80
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "id": "UKR_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  13,
+  18,
+  24,
+  30,
+  34,
+  40,
+  47,
+  54,
+  61,
+  66,
+  70,
+  74,
+  84,
+  88,
+  92,
+  100,
+  106,
+  110,
+  114,
+  118,
+  122,
+  126,
+  131,
+  137,
+  142,
+  146,
+  154,
+  158,
+  164
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "went onto say",
+   "went on to say",
+   "spacing"
+  ],
+  [
+   26,
+   "iron, steal, rolled",
+   "iron, steel, rolled",
+   "ocr"
+  ],
+  [
+   36,
+   "the Unite Stations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   39,
+   "Ukrainian SSF",
+   "Ukrainian SSR",
+   "ocr"
+  ],
+  [
+   84,
+   "coexistence of Stages",
+   "coexistence of States",
+   "ocr"
+  ],
+  [
+   95,
+   "was. impossible",
+   "was impossible",
+   "ocr"
+  ],
+  [
+   113,
+   " [DC/112, annex 7]",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "discontinued immediately,",
+   "discontinued immediately.",
+   "ocr"
+  ],
+  [
+   123,
+   "rejecting tire Soviet",
+   "rejecting the Soviet",
+   "ocr"
+  ],
+  [
+   124,
+   "[DC/113, annex 5], ",
+   "",
+   "label"
+  ],
+  [
+   152,
+   "a net: method",
+   "a new method",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "890e5e52428136b250a54b0f4516bfd16ba45060",
+ "layout": "lines",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 50
+  },
+  "words_in": 5019,
+  "words_out": 5012,
+  "retention": 0.9986,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   42,
+   92,
+   145,
+   133,
+   123,
+   176,
+   222,
+   109,
+   189,
+   173,
+   209,
+   215,
+   193,
+   109,
+   142,
+   225,
+   112,
+   174,
+   131,
+   140,
+   103,
+   161,
+   178,
+   174,
+   179,
+   101,
+   191,
+   186,
+   127,
+   175,
+   131,
+   169,
+   83
+  ],
+  "warnings": []
+ }
+}

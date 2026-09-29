@@ -1,0 +1,187 @@
+{
+ "id": "LUX_29_1974",
+ "drop": [
+  [
+   13,
+   13,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  10,
+  14,
+  18,
+  22,
+  26,
+  31,
+  33,
+  35,
+  37,
+  42,
+  48,
+  54,
+  57,
+  60,
+  65,
+  69,
+  76,
+  79,
+  82,
+  84,
+  88,
+  91,
+  96,
+  99,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "to-wards",
+   "towards",
+   "hyphen"
+  ],
+  [
+   6,
+   "the' disengagement",
+   "the disengagement",
+   "ocr"
+  ],
+  [
+   24,
+   "else-where",
+   "elsewhere",
+   "hyphen"
+  ],
+  [
+   25,
+   "con-tribute",
+   "contribute",
+   "hyphen"
+  ],
+  [
+   27,
+   " [A I96011Add.",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "I, sect.",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "VII]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "conflicts 1 have",
+   "conflicts I have",
+   "ocr"
+  ],
+  [
+   31,
+   "on. increasing",
+   "on increasing",
+   "ocr"
+  ],
+  [
+   41,
+   "Further-more",
+   "Furthermore",
+   "hyphen"
+  ],
+  [
+   55,
+   ".union",
+   "union",
+   "ocr"
+  ],
+  [
+   73,
+   "reaction ,",
+   "reaction,",
+   "spacing"
+  ],
+  [
+   82,
+   "Pro-gramme",
+   "Programme",
+   "hyphen"
+  ],
+  [
+   82,
+   " [resolution 3202 (S-Vl)]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "pro-gramme",
+   "programme",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "607b23808ae4139980c4af4b0aa17d54462d2bb3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 43
+  },
+  "words_in": 3221,
+  "words_out": 3211,
+  "retention": 0.9969,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   112,
+   74,
+   104,
+   150,
+   197,
+   106,
+   114,
+   149,
+   104,
+   89,
+   75,
+   80,
+   109,
+   145,
+   114,
+   89,
+   145,
+   136,
+   104,
+   173,
+   113,
+   127,
+   84,
+   93,
+   66,
+   98,
+   74,
+   112,
+   75
+  ],
+  "warnings": []
+ }
+}

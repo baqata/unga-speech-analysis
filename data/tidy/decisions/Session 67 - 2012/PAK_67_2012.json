@@ -1,0 +1,76 @@
+{
+ "id": "PAK_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  24,
+  40,
+  57,
+  69,
+  90,
+  109,
+  128,
+  140,
+  154,
+  169,
+  190,
+  208,
+  218,
+  229,
+  246,
+  268
+ ],
+ "cer": [
+  13
+ ],
+ "fix": [
+  [
+   52,
+   "community.The",
+   "community. The",
+   "spacing"
+  ],
+  [
+   267,
+   "(A/51/PV.20, p.4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d5c1c7dfd51df4969ccb9561ea5bd21ea52a5878",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 273,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2266,
+  "words_out": 2265,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   110,
+   90,
+   140,
+   134,
+   87,
+   179,
+   160,
+   146,
+   116,
+   104,
+   124,
+   164,
+   153,
+   84,
+   98,
+   148,
+   186,
+   42
+  ],
+  "warnings": []
+ }
+}

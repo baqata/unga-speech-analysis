@@ -1,0 +1,96 @@
+{
+ "id": "HTI_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  14,
+  18,
+  21,
+  24,
+  28,
+  34,
+  39,
+  46,
+  51,
+  55,
+  56,
+  58,
+  62,
+  66,
+  70,
+  74,
+  77,
+  83,
+  86,
+  91,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "effectivelyattain",
+   "effectively attain",
+   "merged_word"
+  ],
+  [
+   68,
+   "long- neglected",
+   "long-neglected",
+   "hyphen"
+  ],
+  [
+   71,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4894059b527685d15c30e1af7845d7e83240d5b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2488,
+  "words_out": 2487,
+  "retention": 0.9996,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   27,
+   107,
+   63,
+   182,
+   80,
+   88,
+   95,
+   94,
+   169,
+   131,
+   128,
+   107,
+   78,
+   67,
+   73,
+   146,
+   112,
+   112,
+   83,
+   108,
+   143,
+   79,
+   75,
+   94,
+   46
+  ],
+  "warnings": []
+ }
+}

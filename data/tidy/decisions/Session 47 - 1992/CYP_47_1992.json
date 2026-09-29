@@ -1,0 +1,78 @@
+{
+ "id": "CYP_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  48,
+  65,
+  84,
+  103,
+  124,
+  138,
+  158,
+  165,
+  179,
+  198,
+  215,
+  238,
+  256
+ ],
+ "cer": [
+  158
+ ],
+ "fix": [
+  [
+   66,
+   "mobilised'",
+   "mobilised.",
+   "ocr"
+  ],
+  [
+   156,
+   " (A/47/1.",
+   "",
+   "label"
+  ],
+  [
+   157,
+   "para. 9)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "950021bff6f8eef04195a3fe6cadfc95fab98a24",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3006,
+  "words_out": 3001,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   116,
+   228,
+   183,
+   195,
+   205,
+   205,
+   257,
+   174,
+   195,
+   88,
+   154,
+   203,
+   199,
+   237,
+   201,
+   161
+  ],
+  "warnings": []
+ }
+}

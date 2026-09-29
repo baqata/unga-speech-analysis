@@ -1,0 +1,80 @@
+{
+ "id": "FJI_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  15,
+  16,
+  22,
+  27,
+  31,
+  35,
+  40,
+  45,
+  50,
+  55,
+  61,
+  65,
+  67,
+  70,
+  74
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   60,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82f1efef376ef5f347ea477b3b93ff4c40683933",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2084,
+  "words_out": 2082,
+  "retention": 0.999,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   61,
+   81,
+   127,
+   115,
+   45,
+   140,
+   98,
+   120,
+   122,
+   180,
+   94,
+   122,
+   141,
+   142,
+   125,
+   86,
+   104,
+   119,
+   60
+  ],
+  "warnings": []
+ }
+}

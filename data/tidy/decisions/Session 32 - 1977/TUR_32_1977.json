@@ -1,0 +1,188 @@
+{
+ "id": "TUR_32_1977",
+ "drop": [
+  [
+   49,
+   49,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  6,
+  7,
+  8,
+  14,
+  21,
+  29,
+  32,
+  36,
+  38,
+  40,
+  45,
+  50,
+  53,
+  58,
+  61,
+  66,
+  70,
+  72,
+  75,
+  80,
+  85,
+  88,
+  89,
+  97,
+  106,
+  110,
+  113,
+  116,
+  119,
+  123,
+  128,
+  130
+ ],
+ "cer": [
+  0,
+  5,
+  6,
+  7,
+  8
+ ],
+ "fix": [
+  [
+   26,
+   "Conference, in Support",
+   "Conference in Support",
+   "ocr"
+  ],
+  [
+   37,
+   "strife,\" provoke",
+   "strife, provoke",
+   "ocr"
+  ],
+  [
+   48,
+   "v/ill",
+   "will",
+   "ocr"
+  ],
+  [
+   57,
+   "techniques-to",
+   "techniques—to",
+   "ocr"
+  ],
+  [
+   57,
+   "weapons -could",
+   "weapons—could",
+   "ocr"
+  ],
+  [
+   68,
+   "agreements-although",
+   "agreements—although",
+   "ocr"
+  ],
+  [
+   68,
+   "nature-were",
+   "nature—were",
+   "ocr"
+  ],
+  [
+   71,
+   "aw assumption",
+   "an assumption",
+   "ocr"
+  ],
+  [
+   85,
+   "developing- world",
+   "developing world",
+   "ocr"
+  ],
+  [
+   88,
+   "ought-to",
+   "ought to",
+   "ocr"
+  ],
+  [
+   88,
+   "the. concept",
+   "the concept",
+   "ocr"
+  ],
+  [
+   126,
+   "present'",
+   "present",
+   "ocr"
+  ],
+  [
+   130,
+   "ail Member",
+   "all Member",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 122 and 125 lack a full stop between sentences in the source.",
+ "unitizer_version": 1,
+ "sha1": "1a2c63351e522f1aeb8d29465f6db93d208aadae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 133,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3606,
+  "words_out": 3605,
+  "retention": 0.9997,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   110,
+   47,
+   32,
+   31,
+   138,
+   294,
+   211,
+   62,
+   127,
+   77,
+   58,
+   101,
+   102,
+   83,
+   177,
+   59,
+   127,
+   118,
+   76,
+   87,
+   119,
+   114,
+   83,
+   63,
+   214,
+   208,
+   74,
+   62,
+   63,
+   65,
+   92,
+   134,
+   71,
+   126
+  ],
+  "warnings": []
+ }
+}

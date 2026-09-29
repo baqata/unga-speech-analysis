@@ -1,0 +1,94 @@
+{
+ "id": "IRL_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  13,
+  20,
+  24,
+  28,
+  36,
+  41,
+  48,
+  51,
+  56,
+  60,
+  69,
+  75,
+  79,
+  85,
+  88,
+  95,
+  101,
+  103,
+  106,
+  108
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   105,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   107,
+   "twenty-first -century",
+   "twenty-first-century",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "84faa960ba34771eb39579a06bc52939f5b8d95c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2413,
+  "words_out": 2409,
+  "retention": 0.9983,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   84,
+   111,
+   63,
+   100,
+   123,
+   63,
+   82,
+   152,
+   69,
+   149,
+   60,
+   93,
+   101,
+   123,
+   137,
+   89,
+   145,
+   71,
+   133,
+   99,
+   70,
+   113,
+   72,
+   107
+  ],
+  "warnings": []
+ }
+}

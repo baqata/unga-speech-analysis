@@ -1,0 +1,81 @@
+{
+ "id": "AUT_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  19,
+  24,
+  31,
+  37,
+  42,
+  49,
+  54,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "bent wishes",
+   "best wishes",
+   "ocr"
+  ],
+  [
+   18,
+   "be Important",
+   "be important",
+   "ocr"
+  ],
+  [
+   25,
+   "crucial Importance",
+   "crucial importance",
+   "ocr"
+  ],
+  [
+   60,
+   "prove Itself",
+   "prove itself",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "305a26eed04cde882c5ea18d9027e4e4c69e53f0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 18
+  },
+  "words_in": 1698,
+  "words_out": 1698,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   137,
+   120,
+   115,
+   91,
+   101,
+   110,
+   157,
+   132,
+   133,
+   164,
+   140,
+   192,
+   106
+  ],
+  "warnings": []
+ }
+}

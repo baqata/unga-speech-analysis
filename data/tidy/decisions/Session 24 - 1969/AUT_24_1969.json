@@ -1,0 +1,92 @@
+{
+ "id": "AUT_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  46,
+  61,
+  80,
+  104,
+  123,
+  143,
+  157,
+  177,
+  203,
+  221,
+  234,
+  249,
+  272,
+  289
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "[resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   135,
+   " [A/7601/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   138,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   201,
+   "wish. to",
+   "wish to",
+   "ocr"
+  ],
+  [
+   207,
+   " [A/7601/Add.1] ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 131 reads 'Australian Government' where the Austrian Government is evidently meant; left as in the source.",
+ "unitizer_version": 1,
+ "sha1": "c9f96b2a5e69c0e6ba514ede73658e7e50735604",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 2732,
+  "words_out": 2690,
+  "retention": 0.9846,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   181,
+   205,
+   132,
+   174,
+   202,
+   164,
+   170,
+   124,
+   189,
+   217,
+   152,
+   114,
+   128,
+   205,
+   145,
+   188
+  ],
+  "warnings": []
+ }
+}

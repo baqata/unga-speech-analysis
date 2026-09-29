@@ -1,0 +1,78 @@
+{
+ "id": "VCT_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  21,
+  26,
+  32,
+  53,
+  72,
+  81,
+  100,
+  122,
+  133,
+  151,
+  165,
+  178,
+  194,
+  212,
+  231,
+  256,
+  267,
+  278
+ ],
+ "cer": [
+  15,
+  21,
+  26
+ ],
+ "fix": [
+  [
+   58,
+   "Arab-lsraeli",
+   "Arab-Israeli",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "755cbfb4f917806db1df5bf5bbfc1f7ca9f2beef",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 286,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2337,
+  "words_out": 2332,
+  "retention": 0.9979,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   118,
+   53,
+   30,
+   57,
+   186,
+   156,
+   80,
+   178,
+   178,
+   93,
+   134,
+   123,
+   97,
+   122,
+   138,
+   138,
+   206,
+   94,
+   83,
+   68
+  ],
+  "warnings": []
+ }
+}

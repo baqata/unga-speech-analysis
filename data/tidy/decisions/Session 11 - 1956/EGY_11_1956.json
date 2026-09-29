@@ -1,0 +1,115 @@
+{
+ "id": "EGY_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  14,
+  18,
+  25,
+  32,
+  38,
+  44,
+  47,
+  50,
+  56,
+  61,
+  67,
+  69,
+  76,
+  83,
+  88,
+  98,
+  104,
+  108,
+  115
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "j ",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "the5",
+   "the",
+   "ocr"
+  ],
+  [
+   12,
+   "[8/3645]",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "[S/327S]r",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "made_",
+   "made",
+   "ocr"
+  ],
+  [
+   38,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   45,
+   "lessen",
+   "lesson",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ebe2c6643c8b8e15cf937f69e1567666b2f30940",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 40
+  },
+  "words_in": 3799,
+  "words_out": 3791,
+  "retention": 0.9979,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   240,
+   200,
+   167,
+   197,
+   160,
+   154,
+   229,
+   235,
+   96,
+   106,
+   200,
+   264,
+   226,
+   74,
+   248,
+   112,
+   148,
+   194,
+   224,
+   105,
+   109,
+   103
+  ],
+  "warnings": []
+ }
+}

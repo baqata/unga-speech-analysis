@@ -1,0 +1,104 @@
+{
+ "id": "CHL_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  25,
+  34,
+  45,
+  58,
+  67,
+  76,
+  84,
+  91,
+  102,
+  112,
+  122,
+  131,
+  137,
+  145,
+  151,
+  159,
+  167
+ ],
+ "cer": [
+  167
+ ],
+ "fix": [
+  [
+   3,
+   "Maestral",
+   "Mistral",
+   "asr_name"
+  ],
+  [
+   5,
+   "Maestral",
+   "Mistral",
+   "asr_name"
+  ],
+  [
+   107,
+   "BB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   117,
+   "Dominion 1",
+   "Domain 1",
+   "asr_name"
+  ],
+  [
+   137,
+   "Bachelet-Gerier",
+   "Bachelet Jeria",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "54ac7d46d2bbf8bdd616b9b924169d40eebf616c",
+ "layout": "single",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2965,
+  "words_out": 2934,
+  "retention": 0.9895,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   139,
+   190,
+   138,
+   132,
+   160,
+   230,
+   182,
+   122,
+   178,
+   211,
+   168,
+   182,
+   168,
+   111,
+   132,
+   193,
+   145,
+   150,
+   3
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "MKD_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  25,
+  42,
+  54,
+  64,
+  75,
+  86,
+  111,
+  123,
+  146
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4cc615e047e7e8a2e2af6c7ecaabdade89d85de9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1203,
+  "words_out": 1201,
+  "retention": 0.9983,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   88,
+   122,
+   140,
+   95,
+   76,
+   80,
+   96,
+   189,
+   83,
+   180,
+   52
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "id": "LKA_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  16,
+  20,
+  25,
+  32,
+  39,
+  44,
+  47,
+  50,
+  52,
+  58,
+  62,
+  66,
+  74,
+  81,
+  89,
+  93,
+  97,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   5,
+   "thirty- eighth",
+   "thirty-eighth",
+   "hyphen"
+  ],
+  [
+   9,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   19,
+   "under* negotiation",
+   "under negotiation",
+   "ocr"
+  ],
+  [
+   43,
+   "there-fore",
+   "therefore",
+   "hyphen"
+  ],
+  [
+   59,
+   "van-guard",
+   "vanguard",
+   "hyphen"
+  ],
+  [
+   65,
+   "TP Secretary-General's",
+   "The Secretary-General's",
+   "ocr"
+  ],
+  [
+   90,
+   "all- party",
+   "all-party",
+   "hyphen"
+  ],
+  [
+   95,
+   "terror-ism",
+   "terrorism",
+   "hyphen"
+  ],
+  [
+   96,
+   " [resolution 38/130]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93be11949bbb8307a1464c7de4cbb50e8926d381",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 2641,
+  "words_out": 2635,
+  "retention": 0.9977,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   178,
+   93,
+   103,
+   106,
+   114,
+   134,
+   159,
+   121,
+   61,
+   92,
+   60,
+   189,
+   108,
+   144,
+   216,
+   175,
+   110,
+   137,
+   81,
+   97,
+   157
+  ],
+  "warnings": []
+ }
+}

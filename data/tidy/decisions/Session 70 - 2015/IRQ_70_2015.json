@@ -1,0 +1,61 @@
+{
+ "id": "IRQ_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  16,
+  18,
+  22,
+  26,
+  35,
+  39,
+  44,
+  49,
+  51,
+  53,
+  57,
+  63,
+  70
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d7c44326b375793e89e2edbc15bed0d31817360",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1766,
+  "words_out": 1762,
+  "retention": 0.9977,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   126,
+   93,
+   72,
+   144,
+   79,
+   109,
+   73,
+   151,
+   89,
+   161,
+   119,
+   64,
+   69,
+   78,
+   98,
+   134,
+   103
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "MLT_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  15,
+  17,
+  21,
+  27,
+  30,
+  39,
+  42,
+  48,
+  53,
+  57,
+  61,
+  65,
+  70,
+  73
+ ],
+ "cer": [],
+ "fix": [
+  [
+   47,
+   "fall ing",
+   "falling",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "80486a512682c19cdaa79639b015523617f32617",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1849,
+  "words_out": 1846,
+  "retention": 0.9984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   84,
+   118,
+   141,
+   74,
+   71,
+   122,
+   64,
+   219,
+   54,
+   125,
+   102,
+   86,
+   94,
+   118,
+   144,
+   115,
+   115
+  ],
+  "warnings": []
+ }
+}

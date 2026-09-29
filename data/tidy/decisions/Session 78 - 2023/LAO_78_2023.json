@@ -1,0 +1,104 @@
+{
+ "id": "LAO_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  14,
+  18,
+  20,
+  24,
+  26,
+  29,
+  33,
+  39,
+  42,
+  48,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "outset. I",
+   "outset, I",
+   "ocr"
+  ],
+  [
+   10,
+   "end. the",
+   "end, the",
+   "ocr"
+  ],
+  [
+   24,
+   "(SDGs). the",
+   "(SDGs), the",
+   "ocr"
+  ],
+  [
+   30,
+   "SDGs. my",
+   "SDGs, my",
+   "ocr"
+  ],
+  [
+   33,
+   "SDGs. our",
+   "SDGs, our",
+   "ocr"
+  ],
+  [
+   40,
+   "re source-driven",
+   "resource-driven",
+   "split_word"
+  ],
+  [
+   47,
+   "end. our",
+   "end, our",
+   "ocr"
+  ],
+  [
+   52,
+   "2024. the",
+   "2024, the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ecae5932e7561bf03b54e498e6a40ef33975efd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1571,
+  "words_out": 1570,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   36,
+   127,
+   181,
+   98,
+   85,
+   143,
+   82,
+   87,
+   94,
+   182,
+   103,
+   148,
+   152,
+   52
+  ],
+  "warnings": []
+ }
+}

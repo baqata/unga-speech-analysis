@@ -1,0 +1,159 @@
+{
+ "id": "CHL_29_1974",
+ "drop": [
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   98,
+   98,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  15,
+  20,
+  25,
+  28,
+  32,
+  38,
+  43,
+  48,
+  51,
+  55,
+  57,
+  65,
+  68,
+  71,
+  74,
+  76,
+  79,
+  83,
+  86,
+  90,
+  92,
+  96,
+  100,
+  105,
+  109,
+  112,
+  117,
+  122,
+  125
+ ],
+ "cer": [
+  25,
+  55,
+  125
+ ],
+ "fix": [
+  [
+   22,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   52,
+   "new we",
+   "now we",
+   "ocr"
+  ],
+  [
+   97,
+   "attack*",
+   "attacks",
+   "ocr"
+  ],
+  [
+   102,
+   "Com-missioner",
+   "Commissioner",
+   "hyphen"
+  ],
+  [
+   109,
+   "Inter- American",
+   "Inter-American",
+   "spacing"
+  ],
+  [
+   113,
+   "cases.11",
+   "cases.\"",
+   "ocr"
+  ],
+  [
+   114,
+   "super-vision",
+   "supervision",
+   "hyphen"
+  ],
+  [
+   54,
+   "adjacent sea,",
+   "adjacent sea.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ba19bb8d71663684203e7478149cde5ffefb528",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3540,
+  "words_out": 3526,
+  "retention": 0.996,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   187,
+   99,
+   53,
+   109,
+   135,
+   117,
+   85,
+   68,
+   172,
+   137,
+   78,
+   127,
+   109,
+   57,
+   202,
+   69,
+   86,
+   69,
+   80,
+   108,
+   108,
+   63,
+   110,
+   78,
+   110,
+   114,
+   161,
+   120,
+   75,
+   162,
+   140,
+   79,
+   59
+  ],
+  "warnings": []
+ }
+}

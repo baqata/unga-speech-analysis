@@ -1,0 +1,98 @@
+{
+ "id": "ALB_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  19,
+  23,
+  26,
+  30,
+  33,
+  38,
+  42,
+  49,
+  55,
+  58,
+  67,
+  74,
+  79,
+  85,
+  89,
+  94,
+  96,
+  100,
+  102,
+  109,
+  114,
+  119,
+  122
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "modem civilization",
+   "modern civilization",
+   "ocr"
+  ],
+  [
+   49,
+   "Kosovo.That",
+   "Kosovo. That",
+   "spacing"
+  ],
+  [
+   120,
+   "modem system",
+   "modern system",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ed81151985a4912204c96a702b4ca079d2b53b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3859,
+  "words_out": 3860,
+  "retention": 1.0003,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   88,
+   165,
+   212,
+   139,
+   87,
+   133,
+   100,
+   164,
+   170,
+   169,
+   207,
+   86,
+   236,
+   178,
+   159,
+   142,
+   231,
+   150,
+   172,
+   71,
+   82,
+   190,
+   182,
+   130,
+   75,
+   142
+  ],
+  "warnings": []
+ }
+}

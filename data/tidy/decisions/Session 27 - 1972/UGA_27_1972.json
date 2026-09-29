@@ -1,0 +1,217 @@
+{
+ "id": "UGA_27_1972",
+ "drop": [
+  [
+   11,
+   11,
+   "noise"
+  ],
+  [
+   117,
+   117,
+   "noise"
+  ],
+  [
+   120,
+   120,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  16,
+  19,
+  25,
+  31,
+  34,
+  37,
+  46,
+  52,
+  54,
+  57,
+  63,
+  67,
+  73,
+  80,
+  86,
+  88,
+  93,
+  99,
+  101,
+  107,
+  111,
+  113,
+  116,
+  121,
+  125,
+  128,
+  130,
+  136,
+  143,
+  147,
+  151,
+  155,
+  161,
+  166,
+  167,
+  172,
+  178,
+  184,
+  189,
+  194,
+  199,
+  204,
+  208,
+  212
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "oil this",
+   "on this",
+   "ocr"
+  ],
+  [
+   4,
+   "ho eqUal",
+   "no equal",
+   "ocr"
+  ],
+  [
+   6,
+   "a Stable",
+   "a stable",
+   "ocr"
+  ],
+  [
+   8,
+   "ate still",
+   "are still",
+   "ocr"
+  ],
+  [
+   8,
+   "Would",
+   "would",
+   "ocr"
+  ],
+  [
+   10,
+   "peace, It",
+   "peace, it",
+   "ocr"
+  ],
+  [
+   12,
+   "under- He",
+   "underlie",
+   "ocr"
+  ],
+  [
+   43,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   118,
+   " [2042nd meeting/",
+   "",
+   "label"
+  ],
+  [
+   154,
+   "the. problem",
+   "the problem",
+   "ocr"
+  ],
+  [
+   157,
+   "Ungandan",
+   "Ugandan",
+   "ocr"
+  ],
+  [
+   212,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3b615b1599c0c9e2647491888463568c149de80e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 56
+  },
+  "words_in": 5439,
+  "words_out": 5428,
+  "retention": 0.998,
+  "n_paragraphs": 48,
+  "paragraph_words": [
+   59,
+   119,
+   167,
+   88,
+   81,
+   153,
+   89,
+   66,
+   66,
+   202,
+   144,
+   86,
+   80,
+   130,
+   69,
+   134,
+   120,
+   133,
+   92,
+   114,
+   159,
+   66,
+   126,
+   78,
+   78,
+   92,
+   104,
+   124,
+   99,
+   84,
+   151,
+   133,
+   135,
+   117,
+   104,
+   138,
+   116,
+   65,
+   153,
+   189,
+   168,
+   95,
+   138,
+   128,
+   151,
+   75,
+   97,
+   73
+  ],
+  "warnings": []
+ }
+}

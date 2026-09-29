@@ -1,0 +1,90 @@
+{
+ "id": "ALB_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  33,
+  48,
+  74,
+  88,
+  110,
+  121,
+  131,
+  153,
+  178,
+  197,
+  223,
+  236,
+  260,
+  282,
+  308,
+  317
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   157,
+   "UNMIKís",
+   "UNMIK’s",
+   "encoding"
+  ],
+  [
+   276,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   284,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   288,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56582243dca702422d174f67063d727f066f6bda",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 325,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2475,
+  "words_out": 2474,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   126,
+   114,
+   113,
+   199,
+   114,
+   169,
+   83,
+   63,
+   165,
+   188,
+   155,
+   195,
+   105,
+   189,
+   166,
+   189,
+   70,
+   71
+  ],
+  "warnings": []
+ }
+}

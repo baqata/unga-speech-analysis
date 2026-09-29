@@ -1,0 +1,58 @@
+{
+ "id": "NLD_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  22,
+  30,
+  39,
+  50,
+  54,
+  67
+ ],
+ "cer": [
+  67
+ ],
+ "fix": [
+  [
+   0,
+   "[PM] ",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "low- lying",
+   "low-lying",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aff93369795865cf2ca448c1dbe53f6af64b4587",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 910,
+  "words_out": 908,
+  "retention": 0.9978,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   89,
+   106,
+   62,
+   112,
+   117,
+   145,
+   89,
+   186,
+   2
+  ],
+  "warnings": []
+ }
+}

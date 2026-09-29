@@ -1,0 +1,215 @@
+{
+ "id": "GRC_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  16,
+  24,
+  30,
+  37,
+  40,
+  49,
+  58,
+  63,
+  68,
+  73,
+  77,
+  82,
+  89,
+  97,
+  100,
+  105,
+  110,
+  115,
+  122,
+  127,
+  134,
+  139,
+  144,
+  148,
+  151,
+  157
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "sold",
+   "said",
+   "ocr"
+  ],
+  [
+   21,
+   "ago, Mr. Lange",
+   "ago. Mr. Lange",
+   "ocr"
+  ],
+  [
+   21,
+   "pf",
+   "of",
+   "ocr"
+  ],
+  [
+   28,
+   "case sunder",
+   "cases under",
+   "spacing"
+  ],
+  [
+   30,
+   "war, But",
+   "war. But",
+   "ocr"
+  ],
+  [
+   33,
+   "Important, it la",
+   "Important. It is",
+   "ocr"
+  ],
+  [
+   60,
+   "future, France",
+   "future. France",
+   "ocr"
+  ],
+  [
+   64,
+   "of- colonialism",
+   "of colonialism",
+   "ocr"
+  ],
+  [
+   65,
+   "abavidoned",
+   "abandoned",
+   "ocr"
+  ],
+  [
+   66,
+   "ail.",
+   "all.",
+   "ocr"
+  ],
+  [
+   67,
+   "[1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "regimes, The",
+   "regimes. The",
+   "ocr"
+  ],
+  [
+   85,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   115,
+   "under, the",
+   "under the",
+   "ocr"
+  ],
+  [
+   117,
+   "Governement",
+   "Government",
+   "ocr"
+  ],
+  [
+   131,
+   "hi presenting",
+   "in presenting",
+   "ocr"
+  ],
+  [
+   133,
+   "[756th meeting. para. 59] ",
+   "",
+   "label"
+  ],
+  [
+   143,
+   "[Ibid., para. 9.]",
+   "",
+   "label"
+  ],
+  [
+   144,
+   "Charter, May",
+   "Charter. May",
+   "ocr"
+  ],
+  [
+   146,
+   "self- government",
+   "self-government",
+   "hyphen"
+  ],
+  [
+   157,
+   "he called",
+   "be called",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f131b972cb5c7419de7eea2a45548d38edcdb1b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 7,
+   "paragraph_number": 40
+  },
+  "words_in": 4120,
+  "words_out": 4108,
+  "retention": 0.9971,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   123,
+   166,
+   148,
+   233,
+   169,
+   156,
+   116,
+   167,
+   146,
+   103,
+   251,
+   138,
+   154,
+   121,
+   122,
+   171,
+   79,
+   115,
+   124,
+   149,
+   186,
+   127,
+   163,
+   69,
+   134,
+   120,
+   114,
+   119,
+   125
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "id": "NAM_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  7,
+  10,
+  13,
+  22,
+  29,
+  34,
+  40,
+  43,
+  48,
+  53,
+  56,
+  61,
+  65,
+  75
+ ],
+ "cer": [
+  1,
+  75
+ ],
+ "fix": [
+  [
+   9,
+   "Samsa Fisuna Nyoma",
+   "Sam Shafiishuna Nujoma",
+   "asr_name"
+  ],
+  [
+   17,
+   "original Inductive",
+   "Regional Indicative",
+   "asr_term"
+  ],
+  [
+   40,
+   "UN aid initiative",
+   "UN80 initiative",
+   "asr_name"
+  ],
+  [
+   49,
+   "Rwanda and Nairobi",
+   "Luanda and Nairobi",
+   "asr_name"
+  ],
+  [
+   53,
+   "Azulwine",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   53,
+   "the third declaration",
+   "the Sirte Declaration",
+   "asr_name"
+  ],
+  [
+   54,
+   "the path for the future",
+   "the Pact for the Future",
+   "asr_term"
+  ],
+  [
+   57,
+   "unilaterally cohesive measures",
+   "unilateral coercive measures",
+   "asr_term"
+  ],
+  [
+   62,
+   "adversary opinion",
+   "advisory opinion",
+   "asr_term"
+  ],
+  [
+   62,
+   "international community of justice",
+   "International Court of Justice",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2dad8fee0fee10a21044e1ced206e84bc0e1c989",
+ "layout": "single",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1709,
+  "words_out": 1694,
+  "retention": 0.9912,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   4,
+   158,
+   69,
+   106,
+   231,
+   111,
+   111,
+   139,
+   50,
+   68,
+   139,
+   105,
+   117,
+   108,
+   171,
+   7
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "NRU_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  12,
+  16,
+  19,
+  24,
+  32,
+  35,
+  40,
+  44,
+  51,
+  55,
+  59,
+  63,
+  69,
+  78
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   55,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ],
+  [
+   58,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d352e8df6eb4d4284ae965d256c7de3fb9a62bb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1890,
+  "words_out": 1888,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   78,
+   76,
+   73,
+   81,
+   66,
+   79,
+   86,
+   171,
+   87,
+   125,
+   104,
+   139,
+   95,
+   90,
+   119,
+   152,
+   144,
+   123
+  ],
+  "warnings": []
+ }
+}

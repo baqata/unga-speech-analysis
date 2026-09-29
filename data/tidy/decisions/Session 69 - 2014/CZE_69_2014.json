@@ -1,0 +1,62 @@
+{
+ "id": "CZE_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  29,
+  43,
+  53,
+  64,
+  84,
+  101,
+  111,
+  124,
+  138,
+  153,
+  167,
+  179,
+  185
+ ],
+ "cer": [],
+ "fix": [
+  [
+   82,
+   "Tomá.",
+   "Tomáš",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43f6a0ccbb26cd00da6da428675e9dc62792d53f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1584,
+  "words_out": 1581,
+  "retention": 0.9981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   73,
+   161,
+   107,
+   87,
+   88,
+   173,
+   126,
+   68,
+   110,
+   109,
+   134,
+   107,
+   101,
+   48,
+   89
+  ],
+  "warnings": []
+ }
+}

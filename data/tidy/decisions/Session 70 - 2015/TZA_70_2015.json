@@ -1,0 +1,101 @@
+{
+ "id": "TZA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  19,
+  26,
+  32,
+  38,
+  41,
+  51,
+  58,
+  65,
+  72,
+  78,
+  83,
+  86
+ ],
+ "cer": [
+  0,
+  4,
+  78
+ ],
+ "fix": [
+  [
+   0,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   4,
+   "sixty- ninth",
+   "sixty-ninth",
+   "hyphen"
+  ],
+  [
+   7,
+   "sixty- ninth",
+   "sixty-ninth",
+   "hyphen"
+  ],
+  [
+   47,
+   "skills- development",
+   "skills-development",
+   "hyphen"
+  ],
+  [
+   61,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ],
+  [
+   65,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa135cc5a2963e7137195faec5e1f41b07d37388",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 4
+  },
+  "words_in": 1885,
+  "words_out": 1877,
+  "retention": 0.9958,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   94,
+   50,
+   118,
+   140,
+   150,
+   150,
+   93,
+   80,
+   172,
+   139,
+   153,
+   136,
+   107,
+   139,
+   78,
+   78
+  ],
+  "warnings": []
+ }
+}

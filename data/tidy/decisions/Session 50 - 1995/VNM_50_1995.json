@@ -1,0 +1,82 @@
+{
+ "id": "VNM_50_1995",
+ "drop": [
+  [
+   185,
+   185,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  15,
+  25,
+  36,
+  55,
+  74,
+  98,
+  124,
+  140,
+  154,
+  186,
+  214,
+  226,
+  241,
+  258,
+  274,
+  293,
+  315,
+  330,
+  339
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d342fe0fa4db7afcb7a1fb0705af273de6baa507",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 355,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3070,
+  "words_out": 3061,
+  "retention": 0.9971,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   62,
+   57,
+   104,
+   99,
+   149,
+   157,
+   196,
+   215,
+   132,
+   128,
+   296,
+   253,
+   97,
+   121,
+   152,
+   145,
+   174,
+   196,
+   112,
+   66,
+   150
+  ],
+  "warnings": [
+   "procedural drop [185,185] in the middle of the speech"
+  ]
+ }
+}

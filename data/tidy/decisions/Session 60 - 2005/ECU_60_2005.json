@@ -1,0 +1,52 @@
+{
+ "id": "ECU_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  36,
+  54,
+  65,
+  84,
+  107,
+  120,
+  139,
+  157,
+  171,
+  183
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "97d76b32e9101ab3d389f211bdd237ed053093d6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1533,
+  "words_out": 1531,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   76,
+   211,
+   164,
+   81,
+   147,
+   177,
+   96,
+   175,
+   144,
+   112,
+   90,
+   58
+  ],
+  "warnings": []
+ }
+}

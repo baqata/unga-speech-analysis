@@ -1,0 +1,143 @@
+{
+ "id": "SEN_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  16,
+  27,
+  30,
+  57,
+  67,
+  77,
+  92,
+  105,
+  121,
+  136,
+  145,
+  157,
+  173,
+  189,
+  201,
+  211,
+  231,
+  249,
+  259,
+  280
+ ],
+ "cer": [
+  0,
+  9,
+  16,
+  27
+ ],
+ "fix": [
+  [
+   73,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ],
+  [
+   75,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ],
+  [
+   82,
+   "LomÈ",
+   "Lomé",
+   "encoding"
+  ],
+  [
+   122,
+   "LomÈ",
+   "Lomé",
+   "encoding"
+  ],
+  [
+   132,
+   "LomÈ",
+   "Lomé",
+   "encoding"
+  ],
+  [
+   128,
+   "MaÓtre",
+   "Maître",
+   "encoding"
+  ],
+  [
+   141,
+   "MaÓtre",
+   "Maître",
+   "encoding"
+  ],
+  [
+   96,
+   "`since",
+   "‘since",
+   "encoding"
+  ],
+  [
+   228,
+   "`African",
+   "‘African",
+   "encoding"
+  ],
+  [
+   284,
+   "`Hope",
+   "‘Hope",
+   "encoding"
+  ],
+  [
+   257,
+   "l.6",
+   "1.6",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d81ca25d840f786dca9e13167be0079703fe1eb7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 289,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2267,
+  "words_out": 2263,
+  "retention": 0.9982,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   65,
+   48,
+   96,
+   18,
+   213,
+   74,
+   88,
+   125,
+   89,
+   116,
+   114,
+   70,
+   105,
+   139,
+   123,
+   84,
+   73,
+   157,
+   149,
+   75,
+   172,
+   70
+  ],
+  "warnings": []
+ }
+}

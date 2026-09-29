@@ -1,0 +1,58 @@
+{
+ "id": "ZWE_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  17,
+  25,
+  29,
+  37,
+  44,
+  50,
+  54,
+  57,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "accelerated. in",
+   "accelerated, in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f122ffdbac82ef9f63f5b491993af6ebf0ac037d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1468,
+  "words_out": 1468,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   135,
+   122,
+   152,
+   158,
+   90,
+   198,
+   131,
+   124,
+   94,
+   101,
+   52,
+   111
+  ],
+  "warnings": []
+ }
+}

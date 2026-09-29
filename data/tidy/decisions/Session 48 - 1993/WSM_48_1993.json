@@ -1,0 +1,112 @@
+{
+ "id": "WSM_48_1993",
+ "drop": [
+  [
+   73,
+   73,
+   "header_footer"
+  ],
+  [
+   168,
+   168,
+   "header_footer"
+  ],
+  [
+   263,
+   263,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  24,
+  29,
+  45,
+  59,
+  69,
+  80,
+  88,
+  99,
+  113,
+  123,
+  133,
+  143,
+  153,
+  163,
+  171,
+  179,
+  196,
+  212,
+  223,
+  235,
+  243,
+  257,
+  272,
+  281,
+  290,
+  305,
+  314
+ ],
+ "cer": [
+  0,
+  13,
+  24
+ ],
+ "fix": [
+  [
+   150,
+   "areessential",
+   "are essential",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a89e4baba9533289e4ab1c9638e8a6bdfc7fb9f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 320,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2789,
+  "words_out": 2767,
+  "retention": 0.9921,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   104,
+   105,
+   39,
+   148,
+   128,
+   92,
+   92,
+   71,
+   105,
+   130,
+   86,
+   79,
+   89,
+   92,
+   83,
+   59,
+   72,
+   140,
+   141,
+   103,
+   110,
+   70,
+   123,
+   112,
+   69,
+   78,
+   123,
+   72,
+   52
+  ],
+  "warnings": []
+ }
+}

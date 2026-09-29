@@ -1,0 +1,94 @@
+{
+ "id": "PNG_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  9,
+  14,
+  17,
+  22,
+  27,
+  33,
+  37,
+  41,
+  46,
+  51,
+  54,
+  61,
+  66,
+  71,
+  77,
+  82,
+  85
+ ],
+ "cer": [
+  0,
+  2,
+  4
+ ],
+ "fix": [
+  [
+   20,
+   "toss of lives",
+   "loss of lives",
+   "ocr"
+  ],
+  [
+   38,
+   "Act 1 998",
+   "Act 1998",
+   "spacing"
+  ],
+  [
+   47,
+   "(2020- 2040)",
+   "(2020-2040)",
+   "hyphen"
+  ],
+  [
+   64,
+   "as welt as",
+   "as well as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff52731af95af369a9eb2f21f1d3de93300fc3bd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2405,
+  "words_out": 2403,
+  "retention": 0.9992,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   26,
+   76,
+   113,
+   186,
+   101,
+   109,
+   142,
+   172,
+   112,
+   103,
+   124,
+   98,
+   68,
+   229,
+   131,
+   137,
+   146,
+   120,
+   99,
+   111
+  ],
+  "warnings": []
+ }
+}

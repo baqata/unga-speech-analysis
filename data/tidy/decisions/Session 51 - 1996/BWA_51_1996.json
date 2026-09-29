@@ -1,0 +1,60 @@
+{
+ "id": "BWA_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  35,
+  45,
+  57,
+  84,
+  106,
+  114,
+  134,
+  158,
+  175,
+  188,
+  214,
+  227,
+  235
+ ],
+ "cer": [
+  0,
+  235
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e56d610bc0e9bcd3a0e6516acca03a29777bd2c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1969,
+  "words_out": 1965,
+  "retention": 0.998,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   161,
+   105,
+   94,
+   98,
+   225,
+   182,
+   64,
+   154,
+   185,
+   138,
+   110,
+   205,
+   103,
+   67,
+   74
+  ],
+  "warnings": []
+ }
+}

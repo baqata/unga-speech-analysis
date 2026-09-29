@@ -1,0 +1,76 @@
+{
+ "id": "ARG_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  33,
+  42,
+  56,
+  68,
+  85,
+  101,
+  110,
+  127,
+  146,
+  157,
+  176,
+  198,
+  212,
+  223,
+  237,
+  253,
+  269,
+  281,
+  293
+ ],
+ "cer": [],
+ "fix": [
+  [
+   228,
+   "days.For",
+   "days. For",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f20292b290dc9e1e9bc70852e4b3749cb2dfb43",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 307,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2581,
+  "words_out": 2581,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   174,
+   112,
+   84,
+   127,
+   89,
+   151,
+   131,
+   74,
+   135,
+   157,
+   94,
+   161,
+   184,
+   108,
+   88,
+   124,
+   131,
+   130,
+   100,
+   97,
+   130
+  ],
+  "warnings": []
+ }
+}

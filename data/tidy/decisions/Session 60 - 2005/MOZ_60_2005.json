@@ -1,0 +1,78 @@
+{
+ "id": "MOZ_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  33,
+  53,
+  66,
+  77,
+  87,
+  98,
+  110,
+  123,
+  132,
+  158,
+  170,
+  184,
+  196,
+  204,
+  215,
+  226
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   199,
+   "Palestine ó",
+   "Palestine —",
+   "encoding"
+  ],
+  [
+   199,
+   "region ó",
+   "region —",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b7ae42c2bbb5aded3430fd118d2dafbf8afbb4e7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1757,
+  "words_out": 1749,
+  "retention": 0.9954,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   143,
+   107,
+   166,
+   89,
+   72,
+   71,
+   87,
+   84,
+   97,
+   65,
+   194,
+   87,
+   103,
+   92,
+   60,
+   85,
+   84,
+   63
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "MRT_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  16,
+  22,
+  28,
+  32,
+  37,
+  42,
+  46,
+  53,
+  54
+ ],
+ "cer": [
+  0,
+  53
+ ],
+ "fix": [
+  [
+   4,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   20,
+   "Berlin Hall",
+   "Berlin Wall",
+   "ocr"
+  ],
+  [
+   21,
+   "give then",
+   "give them",
+   "ocr"
+  ],
+  [
+   24,
+   "part, -,",
+   "part,",
+   "encoding"
+  ],
+  [
+   27,
+   "Arab contest",
+   "Arab context",
+   "ocr"
+  ],
+  [
+   27,
+   "only contest",
+   "only context",
+   "ocr"
+  ],
+  [
+   30,
+   "α serious",
+   "a serious",
+   "encoding"
+  ],
+  [
+   46,
+   "Quid",
+   "Ould",
+   "ocr"
+  ],
+  [
+   53,
+   "end mitigating",
+   "and mitigating",
+   "ocr"
+  ],
+  [
+   57,
+   "¿n",
+   "in",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a8cacc1ec6ccc0d467ea968f1a7c4a5f414cf21c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1554,
+  "words_out": 1553,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   184,
+   110,
+   120,
+   122,
+   137,
+   128,
+   136,
+   133,
+   139,
+   221,
+   42,
+   81
+  ],
+  "warnings": []
+ }
+}

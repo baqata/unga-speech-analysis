@@ -1,0 +1,51 @@
+{
+ "id": "CMR_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  41,
+  55,
+  77,
+  108,
+  134,
+  156,
+  174,
+  206
+ ],
+ "cer": [
+  0,
+  41,
+  55
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae84b442983c03120e7a8d5893324edf150b6123",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1782,
+  "words_out": 1781,
+  "retention": 0.9994,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   95,
+   250,
+   110,
+   188,
+   225,
+   222,
+   184,
+   161,
+   248,
+   98
+  ],
+  "warnings": []
+ }
+}

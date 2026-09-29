@@ -1,0 +1,110 @@
+{
+ "id": "NLD_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  17,
+  21,
+  31,
+  35,
+  38,
+  45,
+  51,
+  60,
+  66,
+  71,
+  76,
+  81,
+  87,
+  90,
+  96,
+  103,
+  107,
+  109,
+  113,
+  117,
+  121,
+  131,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "that . in",
+   "that in",
+   "ocr"
+  ],
+  [
+   33,
+   "(OEQA)",
+   "(OEOA)",
+   "ocr"
+  ],
+  [
+   75,
+   "cot tent",
+   "content",
+   "ocr"
+  ],
+  [
+   94,
+   "auturcn",
+   "autumn",
+   "ocr"
+  ],
+  [
+   131,
+   "ban cn chemical",
+   "ban on chemical",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9919925090791edbb2a143dc0885a64a06fdd755",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3316,
+  "words_out": 3314,
+  "retention": 0.9994,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   106,
+   109,
+   183,
+   71,
+   129,
+   121,
+   80,
+   139,
+   111,
+   153,
+   116,
+   129,
+   129,
+   148,
+   155,
+   97,
+   163,
+   160,
+   136,
+   57,
+   100,
+   77,
+   84,
+   182,
+   82,
+   297
+  ],
+  "warnings": []
+ }
+}

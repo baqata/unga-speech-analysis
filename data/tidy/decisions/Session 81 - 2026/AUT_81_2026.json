@@ -1,0 +1,133 @@
+{
+ "id": "AUT_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   115,
+   115,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  11,
+  20,
+  26,
+  31,
+  39,
+  43,
+  53,
+  64,
+  79,
+  96,
+  106
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   50,
+   "still. still.",
+   "still.",
+   "asr_term"
+  ],
+  [
+   12,
+   "together. that",
+   "together. That",
+   "asr_term"
+  ],
+  [
+   42,
+   "Sudan. in",
+   "Sudan in",
+   "asr_term"
+  ],
+  [
+   100,
+   "dialogue. is",
+   "dialogue. Dialogue is",
+   "asr_term"
+  ],
+  [
+   114,
+   "control. responsibility",
+   "control. Responsibility",
+   "asr_term"
+  ],
+  [
+   12,
+   "answers",
+   "answer",
+   "asr_term"
+  ],
+  [
+   16,
+   "whole",
+   "hall",
+   "asr_term"
+  ],
+  [
+   16,
+   "are kept",
+   "agreements are kept",
+   "asr_term"
+  ],
+  [
+   75,
+   "But That",
+   "But",
+   "asr_term"
+  ],
+  [
+   83,
+   "exist. to",
+   "exist. Negotiations to",
+   "asr_term"
+  ],
+  [
+   97,
+   "to",
+   "the",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Presider's thanks at the end of unit 114 removed with a label fix. Gap recovery (main agent): the speaker's second 'Thank you.' joins unit 114; the presiding officer's thanks became unit 115, dropped as presider. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 50 'still. still.' -> 'still.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 12 'together. that' -> 'together. That'; unit 42 'Sudan. in' -> 'Sudan in'; unit 83 'exist. to' -> 'exist. To'; unit 100 'dialogue. is' -> 'dialogue. Dialogue is' (the word lost at a segment join; two re-decodes hear 'dialogue. Dialogue is not' (p 1.00), the Spanish booth 'El diálogo no significa'); unit 114 'control. responsibility' -> 'control. Responsibility'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 12 'answers' -> 'answer' (decodes 'answer' 0.67 / 0.95; 'That answers secured' does not fit; ES 'Gracias a esa respuesta'); spot 4 unit 16 'whole' -> 'hall' (decodes 'whole' 0.52 / 0.57 but 'countries in this whole' does not fit; sounds alike; ES 'los países aquí presentes'; UN 'hall'); spot 5 unit 16 'are kept' -> 'agreements are kept' (2026 exception: both decodes hear 'agreements' at 1.00; ES 'en el que los acuerdos se cumplan'); spot 8 unit 75 'But That' -> 'But' (both decodes clearly lack it ('But' 565.4 s, 'a' 565.8 s at 0.98 / 0.96); 'But That a machine' does not fit; ES 'pero una máquina'); spot 9 unit 83 'exist. to' -> 'exist. Negotiations to' (2026 exception: both decodes hear 'Negotiations' at 0.99; ES 'negociaciones para restablecer la independencia de Austria'; replaces the existing repair 'exist. to' -> 'exist. To'); spot 10 unit 97 'to' -> 'the' (decodes 'to' only 0.41 / 0.47; 'make emerging technologies to protection of civilians ... priorities' does not fit the list; ES 'de las tecnologías emergentes, de la protección de los civiles'; UN 'the protection')",
+ "unitizer_version": 1,
+ "sha1": "e99939910b31a3791ceb82f8f12086f9956b571a",
+ "layout": "single",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1648,
+  "words_out": 1617,
+  "retention": 0.9812,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   10,
+   133,
+   152,
+   110,
+   84,
+   148,
+   84,
+   94,
+   164,
+   173,
+   204,
+   150,
+   111
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "SSD_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   167,
+   167,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  16,
+  26,
+  37,
+  46,
+  51,
+  61,
+  69,
+  77,
+  83,
+  93,
+  98,
+  104,
+  109,
+  118,
+  124,
+  131,
+  136,
+  146,
+  149,
+  155,
+  163
+ ],
+ "cer": [
+  2,
+  163
+ ],
+ "fix": [
+  [
+   92,
+   "by UNIMIS, the",
+   "by UNMISS, the",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Section titles read aloud by the speaker (units 26, 37, 83, 124, 136) are kept as spoken.",
+ "unitizer_version": 1,
+ "sha1": "b22bb03605aadf31379ace7b1450c85eaad5239e",
+ "layout": "single",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3136,
+  "words_out": 3083,
+  "retention": 0.9831,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   113,
+   196,
+   197,
+   206,
+   169,
+   103,
+   175,
+   133,
+   155,
+   126,
+   178,
+   74,
+   160,
+   109,
+   155,
+   108,
+   154,
+   71,
+   161,
+   57,
+   107,
+   153,
+   23
+  ],
+  "warnings": []
+ }
+}

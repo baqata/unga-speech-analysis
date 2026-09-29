@@ -1,0 +1,93 @@
+{
+ "id": "SDN_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  20,
+  38,
+  51,
+  73,
+  83,
+  95,
+  109,
+  118,
+  134,
+  161,
+  175,
+  186,
+  204,
+  218,
+  232,
+  255,
+  273,
+  287,
+  315,
+  330,
+  346,
+  360,
+  377,
+  416,
+  441
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   457,
+   "(The Holy Koran, XVI:125).",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 377-415 form one paragraph over 320 words: no unit in that span starts a sentence.",
+ "unitizer_version": 1,
+ "sha1": "5fbd39314f9fb370b6ab271ceee0f67412c0038c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 458,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 3917,
+  "words_out": 3909,
+  "retention": 0.998,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   57,
+   107,
+   150,
+   110,
+   191,
+   89,
+   106,
+   114,
+   83,
+   143,
+   227,
+   128,
+   87,
+   156,
+   107,
+   111,
+   197,
+   155,
+   114,
+   235,
+   137,
+   152,
+   120,
+   145,
+   356,
+   220,
+   112
+  ],
+  "warnings": [
+   "paragraph at unit 377 has 356 words"
+  ]
+ }
+}

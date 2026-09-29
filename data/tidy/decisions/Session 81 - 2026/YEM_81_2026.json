@@ -1,0 +1,194 @@
+{
+ "id": "YEM_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   114,
+   114,
+   "noise"
+  ],
+  [
+   115,
+   115,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  14,
+  22,
+  28,
+  35,
+  42,
+  49,
+  57,
+  62,
+  66,
+  76,
+  81,
+  90,
+  96,
+  102,
+  106,
+  113
+ ],
+ "cer": [
+  2,
+  113
+ ],
+ "fix": [
+  [
+   2,
+   "Majesty's",
+   "Majesties",
+   "asr_term"
+  ],
+  [
+   5,
+   "minds",
+   "mines",
+   "asr_term"
+  ],
+  [
+   49,
+   "a security",
+   "a secure sea",
+   "asr_term"
+  ],
+  [
+   66,
+   "Sada'a",
+   "Saada",
+   "asr_name"
+  ],
+  [
+   66,
+   "Ibn Damar",
+   "Ibb and Dhamar",
+   "asr_name"
+  ],
+  [
+   78,
+   "Orn of Africa",
+   "Horn of Africa",
+   "asr_name"
+  ],
+  [
+   105,
+   "Bab al-Mandab",
+   "Bab al-Mandeb",
+   "asr_name"
+  ],
+  [
+   23,
+   "without Without",
+   "without",
+   "asr_term"
+  ],
+  [
+   95,
+   "the the",
+   "the",
+   "asr_term"
+  ],
+  [
+   37,
+   "them. its",
+   "them. Its",
+   "asr_term"
+  ],
+  [
+   62,
+   "militias. in",
+   "militias in",
+   "asr_term"
+  ],
+  [
+   88,
+   "law. international",
+   "law. International",
+   "asr_term"
+  ],
+  [
+   102,
+   "development. and",
+   "development. And",
+   "asr_term"
+  ],
+  [
+   103,
+   "September. we",
+   "September. We",
+   "asr_term"
+  ],
+  [
+   10,
+   "with international",
+   "with all international",
+   "asr_term"
+  ],
+  [
+   70,
+   "to state",
+   "the state",
+   "asr_term"
+  ],
+  [
+   93,
+   "On",
+   "From",
+   "asr_term"
+  ],
+  [
+   97,
+   "the peace promoting",
+   "promoting",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Majestades, minas, un mar seguro and cuerno de Africa per Spanish; Saada, Ibb and Dhamar are Yemeni governorates under Houthi control; Bab al-Mandeb spelled as elsewhere in the speech. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 23 'without Without' -> 'without'; unit 95 'the the' -> 'the'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 37 'them. its' -> 'them. Its'; unit 62 'militias. in' -> 'militias in'; unit 88 'law. international' -> 'law. International'; unit 102 'development. and' -> 'development. And'; unit 103 'September. we' -> 'September. We'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 7 unit 10 'with international' -> 'with all international' (2026 exception: both decodes hear 'all' (0.94 / 0.95); ES 'en todas las iniciativas internacionales y regionales'); spot 23 unit 70 'to state' -> 'the state' (decodes 'to' 0.34 / 0.35, not clear; 'taken hostage to state and its institutions' does not fit, 'taken hostage the state' does and sounds alike; UN 'the'); spot 29 unit 93 'On' -> 'From' (both decodes hear 'From this podium' (0.98 / 0.99) at the sentence start, where ours clipped the onset; ES 'Desde esta tribuna'); spot 30 unit 97 'the peace promoting' -> 'promoting' (invented words: both decodes go 'and promoting stability' with nothing between (1127.2 -> 1127.9 s); ES 'proteger a los civiles y promover la'; 'and the peace promoting' does not fit); spot 36 unit 114 dropped (noise) (lone 'Thank you.' after the last sentence: two re-decodes (probe_kw at 1275 / 1277 s) go 'upon you all.@1279.8' then silence to the presider's 'On behalf of the General Assembly' at 1288.2; ES ends 'que Dios les bendiga' with no thanks)",
+ "unitizer_version": 1,
+ "sha1": "5157401c27097a6488fe48ad2b5828ea6aa1eed0",
+ "layout": "single",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2352,
+  "words_out": 2286,
+  "retention": 0.9719,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   17,
+   164,
+   154,
+   193,
+   67,
+   108,
+   194,
+   130,
+   119,
+   71,
+   60,
+   181,
+   110,
+   210,
+   138,
+   142,
+   127,
+   92,
+   9
+  ],
+  "warnings": []
+ }
+}

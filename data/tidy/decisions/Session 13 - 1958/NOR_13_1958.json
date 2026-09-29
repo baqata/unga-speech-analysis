@@ -1,0 +1,259 @@
+{
+ "id": "NOR_13_1958",
+ "drop": [
+  [
+   39,
+   39,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  17,
+  20,
+  24,
+  32,
+  36,
+  40,
+  43,
+  45,
+  52,
+  56,
+  61,
+  64,
+  67,
+  74,
+  81,
+  85,
+  88,
+  94,
+  95,
+  99,
+  102
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "non-interference,",
+   "non-interference.",
+   "ocr"
+  ],
+  [
+   15,
+   "solutions, The",
+   "solutions. The",
+   "ocr"
+  ],
+  [
+   15,
+   "the ground, of",
+   "the ground of",
+   "ocr"
+  ],
+  [
+   20,
+   " [A/3844/Add.",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "1]",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "spathic",
+   "specific",
+   "ocr"
+  ],
+  [
+   23,
+   "roach",
+   "reach",
+   "ocr"
+  ],
+  [
+   37,
+   "Instance",
+   "instance",
+   "ocr"
+  ],
+  [
+   38,
+   "surprise » attacks",
+   "surprise attacks",
+   "ocr"
+  ],
+  [
+   41,
+   "It both",
+   "it both",
+   "ocr"
+  ],
+  [
+   41,
+   "at General follow",
+   "at Geneva follow",
+   "ocr"
+  ],
+  [
+   41,
+   "workout",
+   "work out",
+   "spacing"
+  ],
+  [
+   41,
+   "nuclear, weapons",
+   "nuclear weapons",
+   "ocr"
+  ],
+  [
+   42,
+   "Issues",
+   "issues",
+   "ocr"
+  ],
+  [
+   54,
+   " [A/3P38]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "]. and",
+   "] and",
+   "ocr"
+  ],
+  [
+   70,
+   "wo are",
+   "we are",
+   "ocr"
+  ],
+  [
+   70,
+   "be not effectively",
+   "be met effectively",
+   "ocr"
+  ],
+  [
+   73,
+   "employment, it goes",
+   "employment. It goes",
+   "ocr"
+  ],
+  [
+   73,
+   "the lead,",
+   "the lead.",
+   "ocr"
+  ],
+  [
+   89,
+   "now landing agency",
+   "new lending agency",
+   "ocr"
+  ],
+  [
+   96,
+   "sonie",
+   "some",
+   "ocr"
+  ],
+  [
+   102,
+   "Secretary-General.,",
+   "Secretary-General,",
+   "ocr"
+  ],
+  [
+   103,
+   "As. one",
+   "As one",
+   "ocr"
+  ],
+  [
+   105,
+   "this and",
+   "this end",
+   "ocr"
+  ],
+  [
+   105,
+   "unturned,",
+   "unturned.",
+   "ocr"
+  ],
+  [
+   9,
+   " [resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   10,
+   " [A/3934/ Rev.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 39 is a stray paragraph number ('55.') the tool missed. Unit 69 breaks off mid-sentence ('lack of co-ordination of national'); the rest of the sentence is missing from the source, so units 67-73 stay in one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "381c9ceac863b9c8875bab4af97ec193738578c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 34
+  },
+  "words_in": 3457,
+  "words_out": 3441,
+  "retention": 0.9954,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   132,
+   170,
+   92,
+   225,
+   136,
+   112,
+   215,
+   170,
+   86,
+   112,
+   80,
+   206,
+   185,
+   129,
+   102,
+   117,
+   218,
+   149,
+   110,
+   79,
+   136,
+   45,
+   162,
+   101,
+   172
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

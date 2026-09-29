@@ -1,0 +1,64 @@
+{
+ "id": "STP_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  39,
+  51,
+  67,
+  74,
+  91,
+  101,
+  115,
+  125,
+  134,
+  148,
+  156,
+  165
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   136,
+   "our-country",
+   "our country",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed1d8e0ddd4578985da707f31519ef799bffe4a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2052,
+  "words_out": 2053,
+  "retention": 1.0005,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   152,
+   136,
+   158,
+   133,
+   173,
+   72,
+   200,
+   107,
+   159,
+   124,
+   95,
+   168,
+   89,
+   96,
+   191
+  ],
+  "warnings": []
+ }
+}

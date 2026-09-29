@@ -1,0 +1,123 @@
+{
+ "id": "LBN_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  10,
+  15,
+  20,
+  24,
+  27,
+  32,
+  38,
+  42,
+  47,
+  55,
+  59,
+  62,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "grape",
+   "grace",
+   "ocr"
+  ],
+  [
+   5,
+   "whale",
+   "whole",
+   "ocr"
+  ],
+  [
+   5,
+   " [337th and 338th meetings]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "nation?",
+   "nations",
+   "ocr"
+  ],
+  [
+   33,
+   "(fie",
+   "the",
+   "ocr"
+  ],
+  [
+   45,
+   "ff",
+   "If",
+   "ocr"
+  ],
+  [
+   46,
+   " q ",
+   " a ",
+   "ocr"
+  ],
+  [
+   52,
+   " or ",
+   " of ",
+   "ocr"
+  ],
+  [
+   55,
+   " g ",
+   " a ",
+   "ocr"
+  ],
+  [
+   65,
+   "comprehension,",
+   "comprehension.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef61fdd6f15782f17e5ac75665c65e43f803b1f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 2267,
+  "words_out": 2263,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   73,
+   260,
+   100,
+   139,
+   204,
+   158,
+   70,
+   173,
+   177,
+   168,
+   102,
+   172,
+   134,
+   107,
+   192,
+   34
+  ],
+  "warnings": []
+ }
+}

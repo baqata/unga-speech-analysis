@@ -1,0 +1,66 @@
+{
+ "id": "CHE_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  14,
+  18,
+  22,
+  25,
+  34,
+  39,
+  43,
+  49,
+  57,
+  60,
+  66
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   61,
+   "zero- sum",
+   "zero-sum",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6cfff17f9406cf0ff82a71ae96213912352342d0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1560,
+  "words_out": 1558,
+  "retention": 0.9987,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   176,
+   163,
+   64,
+   100,
+   75,
+   53,
+   145,
+   100,
+   71,
+   147,
+   161,
+   63,
+   122,
+   118
+  ],
+  "warnings": []
+ }
+}

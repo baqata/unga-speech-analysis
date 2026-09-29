@@ -1,0 +1,74 @@
+{
+ "id": "NER_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  11,
+  14,
+  18,
+  23,
+  25,
+  29,
+  32,
+  33,
+  38,
+  42,
+  46,
+  49,
+  52,
+  56,
+  59,
+  63,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- sixth",
+   "seventy-sixth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "846ecdc99c9ec1cd0c711c099bf13f1b2ab36649",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2293,
+  "words_out": 2292,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   142,
+   177,
+   69,
+   87,
+   175,
+   177,
+   58,
+   147,
+   86,
+   61,
+   111,
+   98,
+   124,
+   72,
+   122,
+   152,
+   72,
+   120,
+   121,
+   121
+  ],
+  "warnings": []
+ }
+}

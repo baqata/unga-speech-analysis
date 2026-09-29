@@ -1,0 +1,77 @@
+{
+ "id": "KNA_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  11,
+  19,
+  22,
+  26,
+  34,
+  43,
+  48,
+  53,
+  55,
+  59,
+  67,
+  72,
+  76,
+  80,
+  85
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   25,
+   "Organization -hat it",
+   "Organization that it",
+   "ocr"
+  ],
+  [
+   35,
+   "united Nations and Organization of African unity",
+   "United Nations and Organization of African Unity",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4bdacc861070c2031aa2af978c82ed0c67190447",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2314,
+  "words_out": 2314,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   43,
+   71,
+   170,
+   164,
+   88,
+   130,
+   141,
+   256,
+   106,
+   117,
+   68,
+   69,
+   246,
+   168,
+   101,
+   162,
+   109,
+   105
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "PRK_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  31,
+  44,
+  55,
+  68,
+  87,
+  99,
+  110,
+  124,
+  135,
+  152,
+  173,
+  192
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab0ae569e7fbe41e4587eff9782dc033d2897280",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1564,
+  "words_out": 1558,
+  "retention": 0.9962,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   34,
+   100,
+   102,
+   109,
+   90,
+   102,
+   154,
+   105,
+   89,
+   106,
+   83,
+   122,
+   163,
+   137,
+   62
+  ],
+  "warnings": []
+ }
+}

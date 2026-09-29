@@ -1,0 +1,88 @@
+{
+ "id": "DOM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  12,
+  16,
+  20,
+  24,
+  26,
+  29,
+  31,
+  38,
+  39,
+  41,
+  46,
+  51,
+  55
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   29,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   36,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   39,
+   "Port- au-Prince",
+   "Port-au-Prince",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e2e7dadf4cbf3240946a187e3dcb1f7ad83f2bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1736,
+  "words_out": 1732,
+  "retention": 0.9977,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   92,
+   72,
+   80,
+   86,
+   110,
+   68,
+   122,
+   100,
+   127,
+   74,
+   244,
+   79,
+   74,
+   105,
+   101,
+   100,
+   98
+  ],
+  "warnings": []
+ }
+}

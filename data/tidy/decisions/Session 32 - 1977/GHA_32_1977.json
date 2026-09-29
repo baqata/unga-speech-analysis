@@ -1,0 +1,167 @@
+{
+ "id": "GHA_32_1977",
+ "drop": [
+  [
+   128,
+   128,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  10,
+  14,
+  19,
+  22,
+  24,
+  27,
+  29,
+  33,
+  36,
+  39,
+  45,
+  47,
+  51,
+  55,
+  58,
+  66,
+  71,
+  74,
+  79,
+  82,
+  88,
+  91,
+  95,
+  100,
+  103,
+  109,
+  116,
+  123,
+  129,
+  135
+ ],
+ "cer": [
+  0,
+  8,
+  10,
+  14,
+  55,
+  91
+ ],
+ "fix": [
+  [
+   3,
+   "By 'this",
+   "By this",
+   "ocr"
+  ],
+  [
+   3,
+   "represented .here",
+   "represented here",
+   "ocr"
+  ],
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   12,
+   "third- world",
+   "third-world",
+   "hyphen"
+  ],
+  [
+   25,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ],
+  [
+   26,
+   "resp9nsibility",
+   "responsibility",
+   "ocr"
+  ],
+  [
+   46,
+   "non- acceptability",
+   "non-acceptability",
+   "hyphen"
+  ],
+  [
+   101,
+   "parties -that",
+   "parties that",
+   "ocr"
+  ],
+  [
+   105,
+   "non-oil- producing",
+   "non-oil-producing",
+   "hyphen"
+  ],
+  [
+   131,
+   "agreement, to",
+   "agreement to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 128 stray paragraph number dropped.",
+ "unitizer_version": 1,
+ "sha1": "0a9c79b6934cfe1f66e60a282d949f0c176d6e75",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 4360,
+  "words_out": 4354,
+  "retention": 0.9986,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   243,
+   64,
+   118,
+   177,
+   108,
+   73,
+   76,
+   84,
+   122,
+   125,
+   101,
+   153,
+   68,
+   99,
+   105,
+   117,
+   234,
+   131,
+   100,
+   112,
+   100,
+   158,
+   132,
+   128,
+   128,
+   75,
+   250,
+   259,
+   232,
+   168,
+   161,
+   153
+  ],
+  "warnings": []
+ }
+}

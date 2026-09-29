@@ -1,0 +1,204 @@
+{
+ "id": "COG_43_1988",
+ "drop": [
+  [
+   54,
+   54,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  13,
+  18,
+  22,
+  25,
+  27,
+  30,
+  34,
+  37,
+  40,
+  45,
+  49,
+  55,
+  59,
+  62,
+  70,
+  79,
+  81,
+  84,
+  88,
+  91,
+  96,
+  100,
+  104,
+  106,
+  110,
+  112,
+  116,
+  119
+ ],
+ "cer": [
+  9,
+  13,
+  18
+ ],
+ "fix": [
+  [
+   0,
+   "process, of",
+   "process of",
+   "ocr"
+  ],
+  [
+   3,
+   "that, the highest",
+   "that the highest",
+   "ocr"
+  ],
+  [
+   5,
+   "goals·,",
+   "goals:",
+   "ocr"
+  ],
+  [
+   6,
+   "total o annihilation",
+   "total annihilation",
+   "ocr"
+  ],
+  [
+   17,
+   "predecessor. Comrade",
+   "predecessor, Comrade",
+   "ocr"
+  ],
+  [
+   49,
+   "genera,",
+   "general",
+   "ocr"
+  ],
+  [
+   68,
+   "Government,",
+   "Government.",
+   "ocr"
+  ],
+  [
+   74,
+   "ray country",
+   "my country",
+   "ocr"
+  ],
+  [
+   76,
+   "Sassou-Nguesao",
+   "Sassou-Nguesso",
+   "ocr"
+  ],
+  [
+   82,
+   "(SWAГО)",
+   "(SWAPO)",
+   "encoding"
+  ],
+  [
+   89,
+   "CAO",
+   "OAU",
+   "ocr"
+  ],
+  [
+   93,
+   "Intermediate- Range",
+   "Intermediate-Range",
+   "spacing"
+  ],
+  [
+   104,
+   "M Hoc",
+   "Ad Hoc",
+   "ocr"
+  ],
+  [
+   106,
+   "ray delegation",
+   "my delegation",
+   "ocr"
+  ],
+  [
+   116,
+   "quite, rightly",
+   "quite rightly",
+   "ocr"
+  ],
+  [
+   117,
+   "survive r the",
+   "survive the",
+   "ocr"
+  ],
+  [
+   118,
+   "success,",
+   "success.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fbed3b84872887261766b945cf67e50274860a0c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3615,
+  "words_out": 3608,
+  "retention": 0.9981,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   95,
+   142,
+   80,
+   54,
+   169,
+   197,
+   74,
+   80,
+   106,
+   67,
+   99,
+   88,
+   116,
+   99,
+   132,
+   118,
+   120,
+   217,
+   229,
+   117,
+   82,
+   90,
+   116,
+   115,
+   119,
+   95,
+   73,
+   117,
+   61,
+   79,
+   129,
+   133
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "JAM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  14,
+  16,
+  22,
+  29,
+  35,
+  43,
+  47,
+  53,
+  58,
+  66,
+  74,
+  79,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b4df4a552b93a5a46d51ef93b8545dfb604b14a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2114,
+  "words_out": 2113,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   53,
+   86,
+   186,
+   76,
+   139,
+   167,
+   136,
+   174,
+   121,
+   150,
+   126,
+   213,
+   130,
+   101,
+   138,
+   117
+  ],
+  "warnings": []
+ }
+}

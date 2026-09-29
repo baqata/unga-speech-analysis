@@ -1,0 +1,112 @@
+{
+ "id": "SWE_30_1975",
+ "drop": [
+  [
+   25,
+   25,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  17,
+  20,
+  26,
+  32,
+  38,
+  41,
+  47,
+  53,
+  56,
+  61,
+  65,
+  70,
+  75,
+  80,
+  86,
+  89,
+  93,
+  99,
+  104,
+  107,
+  112,
+  115,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   41,
+   "tile United",
+   "the United",
+   "ocr"
+  ],
+  [
+   49,
+   "his-toric",
+   "historic",
+   "hyphen"
+  ],
+  [
+   113,
+   "talks, But",
+   "talks. But",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c54c7f044f106705f3756ba7606381aef1359e9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2742,
+  "words_out": 2732,
+  "retention": 0.9964,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   76,
+   76,
+   78,
+   127,
+   84,
+   110,
+   111,
+   92,
+   64,
+   97,
+   106,
+   71,
+   130,
+   111,
+   123,
+   83,
+   112,
+   141,
+   95,
+   73,
+   105,
+   120,
+   80,
+   94,
+   79,
+   183,
+   111
+  ],
+  "warnings": [
+   "procedural drop [25,25] in the middle of the speech"
+  ]
+ }
+}

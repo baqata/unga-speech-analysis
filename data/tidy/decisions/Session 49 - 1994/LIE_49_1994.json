@@ -1,0 +1,62 @@
+{
+ "id": "LIE_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  29,
+  51,
+  77,
+  89,
+  111,
+  120,
+  139,
+  155,
+  170,
+  185,
+  202
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   173,
+   "autonomy\" .",
+   "autonomy\".",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34f287157f96e3ceda2ec6d2774d7ee051a9b060",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 210,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1815,
+  "words_out": 1813,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   66,
+   194,
+   196,
+   218,
+   109,
+   190,
+   74,
+   173,
+   128,
+   124,
+   123,
+   151,
+   67
+  ],
+  "warnings": []
+ }
+}

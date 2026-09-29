@@ -1,0 +1,124 @@
+{
+ "id": "JOR_28_1973",
+ "drop": [
+  [
+   16,
+   16,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  13,
+  17,
+  22,
+  25,
+  31,
+  34,
+  37,
+  44,
+  47,
+  52,
+  57,
+  61,
+  66,
+  71,
+  76,
+  78,
+  80,
+  84,
+  88,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "victim,",
+   "victims",
+   "ocr"
+  ],
+  [
+   58,
+   "solution. the",
+   "solution. The",
+   "ocr"
+  ],
+  [
+   64,
+   "ferocity. it",
+   "ferocity. It",
+   "ocr"
+  ],
+  [
+   92,
+   "Assembly, to",
+   "Assembly to",
+   "ocr"
+  ],
+  [
+   93,
+   "end, it",
+   "end it",
+   "ocr"
+  ],
+  [
+   40,
+   " [2253 (ES-V)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 72 ('The Charter of the aggression against States...') has visibly lost words; units 60 and 65 are also damaged.",
+ "unitizer_version": 1,
+ "sha1": "f726137d7bcba1847f3ab5b23995662e99162aaf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2612,
+  "words_out": 2602,
+  "retention": 0.9962,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   108,
+   70,
+   109,
+   99,
+   67,
+   111,
+   88,
+   123,
+   117,
+   75,
+   176,
+   91,
+   118,
+   83,
+   147,
+   147,
+   99,
+   94,
+   137,
+   67,
+   145,
+   88,
+   122,
+   121
+  ],
+  "warnings": []
+ }
+}

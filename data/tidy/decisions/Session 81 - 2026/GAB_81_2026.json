@@ -1,0 +1,148 @@
+{
+ "id": "GAB_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   44,
+   45,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  11,
+  18,
+  23,
+  27,
+  31,
+  38,
+  42,
+  43
+ ],
+ "cer": [
+  2,
+  43
+ ],
+ "fix": [
+  [
+   3,
+   "Oligine Gemma",
+   "Oligui Nguema",
+   "asr_name"
+  ],
+  [
+   4,
+   "u n antonio guterres",
+   "UN António Guterres",
+   "asr_name"
+  ],
+  [
+   4,
+   "gabonese republic",
+   "Gabonese Republic",
+   "asr_name"
+  ],
+  [
+   4,
+   "united nations charter",
+   "United Nations Charter",
+   "asr_name"
+  ],
+  [
+   10,
+   "gabon once",
+   "Gabon once",
+   "asr_name"
+  ],
+  [
+   10,
+   "the moroccan sahara",
+   "the Moroccan Sahara",
+   "asr_name"
+  ],
+  [
+   10,
+   "under moroccan sovereignty",
+   "under Moroccan sovereignty",
+   "asr_name"
+  ],
+  [
+   10,
+   "mr president",
+   "Mr President",
+   "asr_term"
+  ],
+  [
+   17,
+   "Brice-Clotaire-Oligi Ngema",
+   "Brice Clotaire Oligui Nguema",
+   "asr_name"
+  ],
+  [
+   27,
+   "opportunities, opportunities,",
+   "opportunities,",
+   "asr_term"
+  ],
+  [
+   4,
+   "cooperation. as",
+   "cooperation. As",
+   "asr_term"
+  ],
+  [
+   6,
+   "crises. armed",
+   "crises. Armed",
+   "asr_term"
+  ],
+  [
+   10,
+   "integrity. against",
+   "integrity. Against",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech in French; President Brice Clotaire Oligui Nguema per Gabonese presidency; capitals restored in unpunctuated stretches. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 27 'opportunities, opportunities,' -> 'opportunities,'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'cooperation. as' -> 'cooperation. As'; unit 6 'crises. armed' -> 'crises. Armed'; unit 10 'integrity. against' -> 'integrity. Against'",
+ "unitizer_version": 1,
+ "sha1": "07ba7303daa27bcbaa179f6e58551e403db03d93",
+ "layout": "single",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1240,
+  "words_out": 1181,
+  "retention": 0.9524,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   61,
+   214,
+   128,
+   174,
+   137,
+   92,
+   124,
+   128,
+   72,
+   49,
+   2
+  ],
+  "warnings": []
+ }
+}

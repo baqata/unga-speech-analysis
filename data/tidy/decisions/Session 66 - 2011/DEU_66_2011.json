@@ -1,0 +1,64 @@
+{
+ "id": "DEU_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  38,
+  63,
+  73,
+  96,
+  121,
+  129,
+  153,
+  169,
+  190
+ ],
+ "cer": [
+  121
+ ],
+ "fix": [
+  [
+   77,
+   "(see )",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae7f7bc6f4dd5c00ede76c8f3f5606b9df555dbd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1636,
+  "words_out": 1629,
+  "retention": 0.9957,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   153,
+   147,
+   207,
+   85,
+   167,
+   206,
+   74,
+   197,
+   131,
+   172,
+   90
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "STP_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  10,
+  13,
+  16,
+  20,
+  24,
+  26,
+  30,
+  32,
+  35,
+  37,
+  39,
+  41,
+  46
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "Israeli- Palestinian",
+   "Israeli-Palestinian",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "655a65472e6982f2f64e071263a2c12238422a8e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1685,
+  "words_out": 1684,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   195,
+   96,
+   65,
+   131,
+   106,
+   83,
+   122,
+   56,
+   191,
+   86,
+   78,
+   76,
+   67,
+   72,
+   132,
+   128
+  ],
+  "warnings": []
+ }
+}

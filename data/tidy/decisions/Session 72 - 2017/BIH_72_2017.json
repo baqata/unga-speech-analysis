@@ -1,0 +1,90 @@
+{
+ "id": "BIH_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  15,
+  21,
+  28,
+  32,
+  36,
+  40,
+  43,
+  50,
+  56,
+  60,
+  63,
+  67,
+  70,
+  75,
+  78,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ],
+  [
+   29,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   33,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   34,
+   "17-29389 13/27 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "201b8b2a94b806f61404c101b4c576f5ff10dcb4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2269,
+  "words_out": 2262,
+  "retention": 0.9969,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   130,
+   128,
+   138,
+   151,
+   111,
+   118,
+   114,
+   95,
+   64,
+   148,
+   156,
+   104,
+   78,
+   107,
+   82,
+   177,
+   122,
+   142,
+   97
+  ],
+  "warnings": []
+ }
+}

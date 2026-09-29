@@ -1,0 +1,134 @@
+{
+ "id": "NZL_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  16,
+  21,
+  28,
+  32,
+  40,
+  48,
+  55,
+  61,
+  66,
+  72,
+  75,
+  80,
+  87,
+  91,
+  98,
+  102,
+  109,
+  112,
+  116,
+  122,
+  130,
+  135,
+  139,
+  147,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "\"",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "Non- Proliferation",
+   "Non-Proliferation",
+   "hyphen"
+  ],
+  [
+   56,
+   "gross Rational product",
+   "gross national product",
+   "ocr"
+  ],
+  [
+   62,
+   "[OFCD]",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "system.\"",
+   "system.",
+   "ocr"
+  ],
+  [
+   95,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   118,
+   "modem view",
+   "modern view",
+   "ocr"
+  ],
+  [
+   121,
+   "longer- term",
+   "longer-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2bf7fbe20df4745c6833219ad7d19733b3fff649",
+ "layout": "lines",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3633,
+  "words_out": 3629,
+  "retention": 0.9989,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   80,
+   163,
+   134,
+   98,
+   145,
+   95,
+   193,
+   159,
+   165,
+   157,
+   101,
+   109,
+   80,
+   106,
+   169,
+   134,
+   171,
+   134,
+   133,
+   94,
+   106,
+   146,
+   146,
+   100,
+   79,
+   213,
+   132,
+   87
+  ],
+  "warnings": []
+ }
+}

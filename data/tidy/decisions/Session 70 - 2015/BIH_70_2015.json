@@ -1,0 +1,74 @@
+{
+ "id": "BIH_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  15,
+  19,
+  24,
+  27,
+  30,
+  34,
+  37,
+  42,
+  44,
+  49,
+  53,
+  57,
+  64,
+  72
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   69,
+   "o fthe",
+   "of the",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "74ce543c0e6052e5923ebfa3781e9131adc284af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 2046,
+  "words_out": 2041,
+  "retention": 0.9976,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   179,
+   85,
+   106,
+   101,
+   125,
+   136,
+   108,
+   111,
+   57,
+   119,
+   86,
+   163,
+   96,
+   94,
+   184,
+   201,
+   90
+  ],
+  "warnings": []
+ }
+}

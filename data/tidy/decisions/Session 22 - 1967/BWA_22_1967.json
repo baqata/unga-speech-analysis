@@ -1,0 +1,150 @@
+{
+ "id": "BWA_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  16,
+  20,
+  26,
+  31,
+  37,
+  41,
+  53,
+  61,
+  66,
+  74,
+  82,
+  88,
+  93,
+  101,
+  106,
+  112
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "twenty- second",
+   "twenty-second",
+   "hyphen"
+  ],
+  [
+   27,
+   "later, I would, however",
+   "later. I would, however",
+   "ocr"
+  ],
+  [
+   33,
+   "Cur belief",
+   "Our belief",
+   "ocr"
+  ],
+  [
+   42,
+   "General Assembly, This question",
+   "General Assembly. This question",
+   "ocr"
+  ],
+  [
+   51,
+   "as It is today",
+   "as it is today",
+   "ocr"
+  ],
+  [
+   52,
+   " [1481st meeting, paras. 31-33.]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "about change, Botswana",
+   "about change. Botswana",
+   "ocr"
+  ],
+  [
+   65,
+   " [Article IX]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "us In this",
+   "us in this",
+   "ocr"
+  ],
+  [
+   95,
+   "what 1 say",
+   "what I say",
+   "ocr"
+  ],
+  [
+   102,
+   "obvious, 1 should",
+   "obvious, I should",
+   "ocr"
+  ],
+  [
+   105,
+   "robes Is not",
+   "robes is not",
+   "ocr"
+  ],
+  [
+   107,
+   "economic independence, We are",
+   "economic independence. We are",
+   "ocr"
+  ],
+  [
+   114,
+   "their own, If only",
+   "their own. If only",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4a946d21e9368422bc4cb3a5eb982c0ac52779c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2936,
+  "words_out": 2901,
+  "retention": 0.9881,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   136,
+   134,
+   120,
+   93,
+   151,
+   153,
+   150,
+   141,
+   284,
+   187,
+   130,
+   210,
+   174,
+   177,
+   139,
+   128,
+   86,
+   135,
+   173
+  ],
+  "warnings": []
+ }
+}

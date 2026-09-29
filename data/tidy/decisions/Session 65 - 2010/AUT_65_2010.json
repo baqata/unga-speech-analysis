@@ -1,0 +1,61 @@
+{
+ "id": "AUT_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  38,
+  54,
+  67,
+  76,
+  102,
+  114,
+  129,
+  143,
+  162,
+  176,
+  205,
+  217,
+  228,
+  257,
+  273
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad4c0f57d18c5262356c9ffbdf75cd2cd7b77620",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2133,
+  "words_out": 2130,
+  "retention": 0.9986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   137,
+   160,
+   109,
+   104,
+   75,
+   216,
+   97,
+   117,
+   99,
+   145,
+   111,
+   217,
+   86,
+   81,
+   232,
+   118,
+   26
+  ],
+  "warnings": []
+ }
+}

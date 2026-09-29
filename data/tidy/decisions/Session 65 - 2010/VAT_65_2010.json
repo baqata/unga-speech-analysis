@@ -1,0 +1,69 @@
+{
+ "id": "VAT_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  25,
+  36,
+  50,
+  62,
+  71,
+  89,
+  103,
+  122,
+  139,
+  163,
+  173,
+  189,
+  201,
+  214,
+  226,
+  240,
+  255,
+  269
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The reflection on the 65 years of the United Nations begins inside unit 8, within the greeting paragraph, and continues at unit 14.",
+ "unitizer_version": 1,
+ "sha1": "5673a7047414bfc36c1e61d93ce5b01ff4f41940",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 286,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2260,
+  "words_out": 2258,
+  "retention": 0.9991,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   116,
+   94,
+   96,
+   107,
+   93,
+   81,
+   146,
+   113,
+   137,
+   130,
+   184,
+   74,
+   122,
+   94,
+   103,
+   86,
+   110,
+   119,
+   114,
+   139
+  ],
+  "warnings": []
+ }
+}

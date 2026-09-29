@@ -1,0 +1,100 @@
+{
+ "id": "TGO_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  14,
+  22,
+  29,
+  34,
+  39,
+  46,
+  52,
+  58,
+  62,
+  66,
+  70,
+  74,
+  78,
+  86,
+  94,
+  99,
+  108,
+  119,
+  126,
+  132,
+  137
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   69,
+   "give birth",
+   "gave birth",
+   "ocr"
+  ],
+  [
+   75,
+   "Deere s No.",
+   "Decree No.",
+   "ocr"
+  ],
+  [
+   97,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "995533d7f14e4004124979b05e112003c19af1fe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3020,
+  "words_out": 2968,
+  "retention": 0.9828,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   62,
+   47,
+   58,
+   133,
+   126,
+   141,
+   82,
+   71,
+   122,
+   122,
+   106,
+   64,
+   74,
+   81,
+   142,
+   117,
+   222,
+   205,
+   62,
+   196,
+   236,
+   173,
+   146,
+   77,
+   103
+  ],
+  "warnings": []
+ }
+}

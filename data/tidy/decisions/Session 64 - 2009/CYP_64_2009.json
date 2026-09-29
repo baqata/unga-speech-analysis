@@ -1,0 +1,60 @@
+{
+ "id": "CYP_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  48,
+  64,
+  80,
+  102,
+  114,
+  128,
+  145,
+  167,
+  189,
+  202,
+  217,
+  225
+ ],
+ "cer": [
+  0,
+  225
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "363f36e44e7dc70aa26dbe3b7387bab36b5e0c96",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1847,
+  "words_out": 1845,
+  "retention": 0.9989,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   83,
+   92,
+   199,
+   124,
+   128,
+   187,
+   101,
+   108,
+   134,
+   183,
+   187,
+   98,
+   129,
+   70,
+   22
+  ],
+  "warnings": []
+ }
+}

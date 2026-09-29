@@ -1,0 +1,200 @@
+{
+ "id": "COG_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  5,
+  6,
+  9,
+  16,
+  18,
+  22,
+  26,
+  28,
+  32,
+  34,
+  36,
+  38,
+  42,
+  44,
+  49,
+  54,
+  60,
+  64,
+  68,
+  69,
+  73,
+  84,
+  89,
+  93,
+  96,
+  104,
+  110,
+  113,
+  115,
+  121,
+  122,
+  130,
+  134,
+  138,
+  144,
+  149,
+  151,
+  155,
+  167,
+  170,
+  173
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "the- first",
+   "the first",
+   "ocr"
+  ],
+  [
+   21,
+   "1973. thus",
+   "1973, thus",
+   "ocr"
+  ],
+  [
+   43,
+   "note\" that",
+   "note that",
+   "ocr"
+  ],
+  [
+   43,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   53,
+   "hall in. the",
+   "hall in the",
+   "ocr"
+  ],
+  [
+   72,
+   "summit, meeting",
+   "summit meeting",
+   "ocr"
+  ],
+  [
+   89,
+   " [A/8791 and Add.l]",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "command*. in",
+   "command, in",
+   "ocr"
+  ],
+  [
+   103,
+   "has. already",
+   "has already",
+   "ocr"
+  ],
+  [
+   133,
+   "then- exploitation",
+   "their exploitation",
+   "ocr"
+  ],
+  [
+   134,
+   "aware'-of",
+   "aware of",
+   "ocr"
+  ],
+  [
+   142,
+   "dis-parities",
+   "disparities",
+   "hyphen"
+  ],
+  [
+   157,
+   "over-populated, That",
+   "over-populated. That",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "383aa2a2c0e89adfc16c5785d0113a955d3cfe55",
+ "layout": "lines",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 57
+  },
+  "words_in": 5809,
+  "words_out": 5799,
+  "retention": 0.9983,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   103,
+   49,
+   38,
+   36,
+   108,
+   223,
+   57,
+   158,
+   136,
+   104,
+   229,
+   97,
+   110,
+   70,
+   184,
+   159,
+   124,
+   144,
+   165,
+   140,
+   145,
+   134,
+   231,
+   229,
+   188,
+   149,
+   90,
+   197,
+   168,
+   91,
+   81,
+   146,
+   65,
+   147,
+   143,
+   171,
+   173,
+   157,
+   77,
+   91,
+   236,
+   85,
+   96,
+   75
+  ],
+  "warnings": []
+ }
+}

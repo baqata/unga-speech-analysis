@@ -1,0 +1,106 @@
+{
+ "id": "KEN_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  17,
+  23,
+  35,
+  38,
+  41,
+  46,
+  48,
+  53,
+  56,
+  65,
+  69,
+  75,
+  84,
+  87,
+  91,
+  106,
+  110,
+  117,
+  121,
+  126,
+  131,
+  137,
+  141,
+  149
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "world, It",
+   "world. It",
+   "ocr"
+  ],
+  [
+   71,
+   "creed Is",
+   "creed is",
+   "ocr"
+  ],
+  [
+   123,
+   "5",
+   "",
+   "label"
+  ],
+  [
+   128,
+   "nations! jurisdiction",
+   "national jurisdiction",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0938468aab5d9057af628980305fc16d1f82b83d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3371,
+  "words_out": 3365,
+  "retention": 0.9982,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   105,
+   254,
+   109,
+   215,
+   141,
+   102,
+   107,
+   93,
+   112,
+   86,
+   201,
+   60,
+   149,
+   180,
+   61,
+   75,
+   240,
+   80,
+   154,
+   98,
+   133,
+   129,
+   125,
+   75,
+   209,
+   72
+  ],
+  "warnings": []
+ }
+}

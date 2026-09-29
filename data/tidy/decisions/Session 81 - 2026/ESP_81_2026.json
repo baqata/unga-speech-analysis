@@ -1,0 +1,139 @@
+{
+ "id": "ESP_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   97,
+   97,
+   "noise"
+  ],
+  [
+   98,
+   99,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  10,
+  18,
+  23,
+  31,
+  34,
+  44,
+  49,
+  52,
+  60,
+  65,
+  69,
+  74,
+  81,
+  88,
+  96
+ ],
+ "cer": [
+  96
+ ],
+ "fix": [
+  [
+   65,
+   "like Clara Campo Amor",
+   "like Clara Campoamor",
+   "asr_name"
+  ],
+  [
+   65,
+   "of Clara Campo Amor",
+   "of Clara Campoamor",
+   "asr_name"
+  ],
+  [
+   74,
+   "to regular",
+   "irregular",
+   "asr_term"
+  ],
+  [
+   33,
+   "played played",
+   "played",
+   "asr_term"
+  ],
+  [
+   52,
+   "for for",
+   "for",
+   "interp"
+  ],
+  [
+   66,
+   "that I believe.",
+   "that",
+   "interp"
+  ],
+  [
+   21,
+   "rubble. over",
+   "rubble. Over",
+   "asr_term"
+  ],
+  [
+   31,
+   "act. the",
+   "act. The",
+   "asr_term"
+  ],
+  [
+   54,
+   "woman. because,",
+   "woman. Because,",
+   "asr_term"
+  ],
+  [
+   18,
+   "gain",
+   "game",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; speaker says Clara Campoamor and crisis de migracion irregular; no interp repair needed. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 33 'played played' -> 'played'; unit 52 'for for' -> 'for' (inside a segment; the interpreter's repeat, the Spanish has it once); unit 66 'that I believe.' -> 'that' (the interpreter began 'I believe' again after a pause (unit 67); the Spanish has it once). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 21 'rubble. over' -> 'rubble. Over'; unit 31 'act. the' -> 'act. The'; unit 54 'woman. because,' -> 'woman. Because,'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 18 'gain' -> 'game' (both decodes hear 'game' (0.97 / 0.84); 'zero-sum gain' is a mishearing; ES 'un juego de suma cero'; UN 'game')",
+ "unitizer_version": 1,
+ "sha1": "808baaf99f05efaeaa5103b24865c9339e054e93",
+ "layout": "single",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2338,
+  "words_out": 2278,
+  "retention": 0.9743,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   191,
+   152,
+   177,
+   146,
+   173,
+   111,
+   213,
+   77,
+   142,
+   71,
+   213,
+   160,
+   151,
+   117,
+   180,
+   4
+  ],
+  "warnings": []
+ }
+}

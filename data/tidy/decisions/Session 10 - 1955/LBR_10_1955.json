@@ -1,0 +1,67 @@
+{
+ "id": "LBR_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  12,
+  16,
+  20,
+  24,
+  28
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "continents,",
+   "continents.",
+   "ocr"
+  ],
+  [
+   15,
+   "Geneva,",
+   "Geneva.",
+   "ocr"
+  ],
+  [
+   27,
+   "toll inhuman",
+   "toll in human",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "672ab99e989fefb5a75f2ddd79d1e86552204d54",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 13
+  },
+  "words_in": 1183,
+  "words_out": 1184,
+  "retention": 1.0008,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   48,
+   124,
+   91,
+   212,
+   223,
+   144,
+   119,
+   189,
+   34
+  ],
+  "warnings": []
+ }
+}

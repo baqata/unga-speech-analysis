@@ -1,0 +1,104 @@
+{
+ "id": "EST_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  16,
+  24,
+  31,
+  33,
+  38,
+  41,
+  44,
+  53,
+  58,
+  63,
+  69,
+  73,
+  78,
+  81,
+  88,
+  93,
+  96,
+  102,
+  106,
+  113
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   28,
+   "Russian- occupied",
+   "Russian-occupied",
+   "hyphen"
+  ],
+  [
+   37,
+   "long- overdue",
+   "long-overdue",
+   "hyphen"
+  ],
+  [
+   42,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   94,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "deb165f7c8fa28e9c50a23a10986e10d7b9c11bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2325,
+  "words_out": 2317,
+  "retention": 0.9966,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   130,
+   60,
+   104,
+   99,
+   112,
+   111,
+   80,
+   102,
+   112,
+   84,
+   121,
+   89,
+   99,
+   82,
+   69,
+   92,
+   65,
+   139,
+   65,
+   74,
+   110,
+   65,
+   119,
+   134
+  ],
+  "warnings": []
+ }
+}

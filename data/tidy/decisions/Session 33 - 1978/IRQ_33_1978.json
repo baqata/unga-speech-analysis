@@ -1,0 +1,243 @@
+{
+ "id": "IRQ_33_1978",
+ "drop": [
+  [
+   111,
+   111,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  7,
+  9,
+  13,
+  16,
+  19,
+  24,
+  27,
+  31,
+  35,
+  41,
+  45,
+  52,
+  57,
+  63,
+  69,
+  72,
+  74,
+  80,
+  85,
+  91,
+  97,
+  106,
+  109,
+  113,
+  119,
+  124,
+  129,
+  132,
+  134,
+  136,
+  142,
+  145,
+  148
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "? ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "and -independence",
+   "and independence",
+   "ocr"
+  ],
+  [
+   16,
+   "responsive .o the",
+   "responsive to the",
+   "ocr"
+  ],
+  [
+   16,
+   "failed m performing",
+   "failed in performing",
+   "ocr"
+  ],
+  [
+   25,
+   " [resolution 2200 A (XXI)]",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "Civil and\" Political",
+   "Civil and Political",
+   "ocr"
+  ],
+  [
+   29,
+   "enhancing\" their",
+   "enhancing their",
+   "ocr"
+  ],
+  [
+   31,
+   "United .Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   34,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   36,
+   "oil- producing",
+   "oil-producing",
+   "spacing"
+  ],
+  [
+   48,
+   "92 ",
+   "",
+   "label"
+  ],
+  [
+   69,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "based-on",
+   "based on",
+   "ocr"
+  ],
+  [
+   80,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   106,
+   "in order. -",
+   "in order.",
+   "ocr"
+  ],
+  [
+   107,
+   "and. economic",
+   "and economic",
+   "ocr"
+  ],
+  [
+   113,
+   "found'",
+   "found",
+   "ocr"
+  ],
+  [
+   124,
+   "US. ",
+   "",
+   "label"
+  ],
+  [
+   132,
+   "acquisition'",
+   "acquisition",
+   "ocr"
+  ],
+  [
+   136,
+   "und security",
+   "and security",
+   "ocr"
+  ],
+  [
+   141,
+   "' General",
+   "General",
+   "ocr"
+  ],
+  [
+   143,
+   "and -health",
+   "and health",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0a4eab0f233402dbf1da2c0c89ec21b094a9630",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 4859,
+  "words_out": 4836,
+  "retention": 0.9953,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   190,
+   106,
+   102,
+   146,
+   88,
+   113,
+   154,
+   121,
+   190,
+   173,
+   172,
+   62,
+   140,
+   135,
+   113,
+   164,
+   88,
+   58,
+   189,
+   189,
+   171,
+   171,
+   228,
+   99,
+   127,
+   173,
+   143,
+   136,
+   64,
+   91,
+   68,
+   135,
+   95,
+   86,
+   356
+  ],
+  "warnings": [
+   "paragraph at unit 148 has 356 words",
+   "22 fixes"
+  ]
+ }
+}

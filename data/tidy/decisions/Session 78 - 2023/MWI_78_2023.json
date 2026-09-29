@@ -1,0 +1,140 @@
+{
+ "id": "MWI_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  16,
+  19,
+  26,
+  32,
+  36,
+  40,
+  48
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "us. but",
+   "us, but",
+   "ocr"
+  ],
+  [
+   4,
+   "day. are",
+   "day, are",
+   "ocr"
+  ],
+  [
+   15,
+   "SDG 2. to",
+   "SDG 2, to",
+   "ocr"
+  ],
+  [
+   15,
+   "SDG 3. to",
+   "SDG 3, to",
+   "ocr"
+  ],
+  [
+   15,
+   "SDG 4. to",
+   "SDG 4, to",
+   "ocr"
+  ],
+  [
+   15,
+   "SDG 6. and",
+   "SDG 6, and",
+   "ocr"
+  ],
+  [
+   16,
+   "Now. while",
+   "Now, while",
+   "ocr"
+  ],
+  [
+   19,
+   "here.",
+   "here,",
+   "ocr"
+  ],
+  [
+   21,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   23,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   24,
+   "1.000. displacing",
+   "1,000, displacing",
+   "ocr"
+  ],
+  [
+   27,
+   "and. most",
+   "and, most",
+   "ocr"
+  ],
+  [
+   28,
+   "(LDCs).",
+   "(LDCs),",
+   "ocr"
+  ],
+  [
+   33,
+   "SDGs. you",
+   "SDGs, you",
+   "ocr"
+  ],
+  [
+   46,
+   "such.",
+   "such,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a962b7922328fba7a0784c6074542961b86e74bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1444,
+  "words_out": 1444,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   114,
+   109,
+   85,
+   151,
+   101,
+   172,
+   95,
+   141,
+   131,
+   135,
+   210
+  ],
+  "warnings": []
+ }
+}

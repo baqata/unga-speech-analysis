@@ -1,0 +1,76 @@
+{
+ "id": "BLZ_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  30,
+  51,
+  74,
+  100,
+  120,
+  141,
+  156,
+  178,
+  195,
+  209,
+  226,
+  239,
+  254,
+  263,
+  273
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   285,
+   "(The",
+   "",
+   "label"
+  ],
+  [
+   286,
+   "Holy Bible, Isaiah 2:4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60918428819720aa6488afce268b281117872f97",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 288,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2522,
+  "words_out": 2515,
+  "retention": 0.9972,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   76,
+   175,
+   185,
+   198,
+   212,
+   165,
+   171,
+   142,
+   190,
+   164,
+   132,
+   143,
+   126,
+   135,
+   89,
+   93,
+   119
+  ],
+  "warnings": []
+ }
+}

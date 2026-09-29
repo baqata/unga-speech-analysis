@@ -1,0 +1,140 @@
+{
+ "id": "HUN_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  14,
+  18,
+  26,
+  28,
+  32,
+  34,
+  38,
+  44,
+  47,
+  50,
+  52,
+  54,
+  58,
+  61,
+  62,
+  64,
+  66,
+  69,
+  72,
+  74,
+  77,
+  80,
+  81,
+  86,
+  90,
+  93,
+  99,
+  102,
+  106,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "I? this",
+   "Is this",
+   "ocr"
+  ],
+  [
+   44,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   67,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   80,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   86,
+   "long- drawn-out",
+   "long-drawn-out",
+   "hyphen"
+  ],
+  [
+   90,
+   "based on. mutual",
+   "based on mutual",
+   "ocr"
+  ],
+  [
+   73,
+   "[PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1bc725181c125515d3c796c089b95cc090a6158",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3181,
+  "words_out": 3176,
+  "retention": 0.9984,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   68,
+   85,
+   77,
+   194,
+   88,
+   145,
+   62,
+   114,
+   62,
+   86,
+   141,
+   104,
+   110,
+   90,
+   71,
+   99,
+   84,
+   64,
+   90,
+   58,
+   89,
+   88,
+   74,
+   84,
+   106,
+   46,
+   153,
+   110,
+   89,
+   140,
+   97,
+   93,
+   65,
+   50
+  ],
+  "warnings": []
+ }
+}

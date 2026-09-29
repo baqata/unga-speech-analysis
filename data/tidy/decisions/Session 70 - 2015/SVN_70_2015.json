@@ -1,0 +1,51 @@
+{
+ "id": "SVN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  12,
+  15,
+  21,
+  25,
+  34,
+  40,
+  47,
+  51,
+  54
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91634d1e23ab81849476b683f5287f24c5c0eab1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1391,
+  "words_out": 1389,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   87,
+   142,
+   74,
+   76,
+   162,
+   98,
+   207,
+   175,
+   129,
+   71,
+   67,
+   101
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "RUS_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  19,
+  27,
+  33,
+  39,
+  42,
+  45,
+  48,
+  50,
+  56,
+  60,
+  64,
+  68,
+  73,
+  78,
+  82,
+  88
+ ],
+ "cer": [],
+ "fix": [
+  [
+   45,
+   "Waffen- SS",
+   "Waffen-SS",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f853d6e1fcc7536691f9eb281f34e298c17864af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2381,
+  "words_out": 2378,
+  "retention": 0.9987,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   129,
+   101,
+   144,
+   127,
+   165,
+   166,
+   139,
+   83,
+   82,
+   97,
+   76,
+   123,
+   101,
+   113,
+   141,
+   133,
+   136,
+   110,
+   147,
+   65
+  ],
+  "warnings": []
+ }
+}

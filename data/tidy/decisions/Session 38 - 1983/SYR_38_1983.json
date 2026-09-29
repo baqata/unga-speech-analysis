@@ -1,0 +1,133 @@
+{
+ "id": "SYR_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  8,
+  11,
+  15,
+  19,
+  22,
+  28,
+  34,
+  43,
+  46,
+  51,
+  57,
+  62,
+  67,
+  71,
+  75,
+  86,
+  88,
+  94,
+  98,
+  101,
+  102
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   28,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   29,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   48,
+   "modem version",
+   "modern version",
+   "ocr"
+  ],
+  [
+   53,
+   "ill- fated",
+   "ill-fated",
+   "hyphen"
+  ],
+  [
+   56,
+   "aircraft- carriers",
+   "aircraft-carriers",
+   "hyphen"
+  ],
+  [
+   57,
+   "m' '1ary presence",
+   "military presence",
+   "ocr"
+  ],
+  [
+   58,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   105,
+   "155.",
+   "",
+   "label"
+  ],
+  [
+   107,
+   ".",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6557fca2526158f7548f40e24f17e04a707db086",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3192,
+  "words_out": 3184,
+  "retention": 0.9975,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   71,
+   22,
+   156,
+   92,
+   125,
+   78,
+   99,
+   130,
+   154,
+   197,
+   153,
+   117,
+   196,
+   142,
+   124,
+   160,
+   152,
+   231,
+   116,
+   153,
+   159,
+   130,
+   85,
+   142
+  ],
+  "warnings": []
+ }
+}

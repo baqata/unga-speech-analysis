@@ -1,0 +1,46 @@
+{
+ "id": "HTI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  38,
+  54,
+  70,
+  86,
+  98,
+  106,
+  121
+ ],
+ "cer": [
+  0,
+  121
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bdfa0dab37f977df17feb732bbae993d7d86a758",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1100,
+  "words_out": 1100,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   169,
+   167,
+   127,
+   143,
+   139,
+   102,
+   65,
+   137,
+   51
+  ],
+  "warnings": []
+ }
+}

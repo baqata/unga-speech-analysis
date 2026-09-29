@@ -1,0 +1,55 @@
+{
+ "id": "MCO_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  21,
+  25,
+  29,
+  35,
+  40,
+  46,
+  49,
+  54,
+  59
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7dc080f0a98cf6b63e868e32dae2f82f9dfa48af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1697,
+  "words_out": 1692,
+  "retention": 0.9971,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   112,
+   108,
+   126,
+   135,
+   131,
+   120,
+   158,
+   110,
+   101,
+   172,
+   100,
+   128,
+   83,
+   108
+  ],
+  "warnings": []
+ }
+}

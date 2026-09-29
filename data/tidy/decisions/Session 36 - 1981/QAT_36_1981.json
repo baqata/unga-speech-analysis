@@ -1,0 +1,139 @@
+{
+ "id": "QAT_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  11,
+  14,
+  17,
+  21,
+  24,
+  28,
+  33,
+  34,
+  39,
+  44,
+  50,
+  52,
+  54,
+  57,
+  59,
+  62
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  62
+ ],
+ "fix": [
+  [
+   8,
+   "It .is",
+   "It is",
+   "ocr"
+  ],
+  [
+   8,
+   "cold was;",
+   "cold war,",
+   "ocr"
+  ],
+  [
+   8,
+   "and ? threat",
+   "and a threat",
+   "ocr"
+  ],
+  [
+   19,
+   "Islamic Conflict",
+   "Islamic Conference",
+   "ocr"
+  ],
+  [
+   19,
+   "Nations.and",
+   "Nations and",
+   "ocr"
+  ],
+  [
+   23,
+   "self-determination , in",
+   "self-determination in",
+   "ocr"
+  ],
+  [
+   23,
+   " \\BJjO]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "Eahd",
+   "Fahd",
+   "ocr"
+  ],
+  [
+   42,
+   "dialog'",
+   "dialog",
+   "ocr"
+  ],
+  [
+   54,
+   "themselves. *",
+   "themselves.",
+   "ocr"
+  ],
+  [
+   55,
+   "The .flow",
+   "The flow",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33f33d5b4994ef9cccd428f63e373ae5cbf9c18b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 1939,
+  "words_out": 1934,
+  "retention": 0.9974,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   57,
+   88,
+   48,
+   121,
+   101,
+   74,
+   129,
+   105,
+   142,
+   181,
+   51,
+   110,
+   108,
+   160,
+   66,
+   73,
+   109,
+   68,
+   104,
+   39
+  ],
+  "warnings": []
+ }
+}

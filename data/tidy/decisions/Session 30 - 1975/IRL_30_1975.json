@@ -1,0 +1,252 @@
+{
+ "id": "IRL_30_1975",
+ "drop": [
+  [
+   103,
+   103,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  12,
+  14,
+  17,
+  21,
+  23,
+  26,
+  30,
+  33,
+  36,
+  42,
+  46,
+  55,
+  59,
+  63,
+  65,
+  69,
+  72,
+  74,
+  78,
+  81,
+  84,
+  86,
+  93,
+  105,
+  106,
+  108,
+  112,
+  115,
+  120,
+  127,
+  130,
+  133,
+  137,
+  140,
+  145,
+  150,
+  155,
+  159
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "May ] welcome",
+   "May I welcome",
+   "ocr"
+  ],
+  [
+   13,
+   "nation- States",
+   "nation-States",
+   "hyphen"
+  ],
+  [
+   18,
+   "Organ-ization",
+   "Organization",
+   "hyphen"
+  ],
+  [
+   18,
+   "ot the",
+   "of the",
+   "ocr"
+  ],
+  [
+   24,
+   "consequences, Rightly",
+   "consequences. Rightly",
+   "ocr"
+  ],
+  [
+   37,
+   "1 mentioned",
+   "I mentioned",
+   "ocr"
+  ],
+  [
+   41,
+   "order,",
+   "order.",
+   "ocr"
+  ],
+  [
+   47,
+   "union,",
+   "union.",
+   "ocr"
+  ],
+  [
+   51,
+   "we. like",
+   "we, like",
+   "ocr"
+  ],
+  [
+   51,
+   "need far",
+   "need for",
+   "ocr"
+  ],
+  [
+   55,
+   "(hat",
+   "that",
+   "ocr"
+  ],
+  [
+   57,
+   "lo which",
+   "to which",
+   "ocr"
+  ],
+  [
+   59,
+   "1 have",
+   "I have",
+   "ocr"
+  ],
+  [
+   72,
+   "commit-ment",
+   "commitment",
+   "hyphen"
+  ],
+  [
+   76,
+   " [resolution 3362 (S-V/I)]",
+   "",
+   "label"
+  ],
+  [
+   90,
+   " [resolution 2373 (XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   102,
+   " [IAEA]",
+   "",
+   "label"
+  ],
+  [
+   102,
+   " [AI10/68 and Coir.I and Add.l]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "non-nuclear- weapon",
+   "non-nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   129,
+   " [AS 10260, para. /5]",
+   "",
+   "label"
+  ],
+  [
+   141,
+   "proclaimed . our",
+   "proclaimed our",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c79442ec509711cb8dc291202995333b65f27e5d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 50
+  },
+  "words_in": 5374,
+  "words_out": 5352,
+  "retention": 0.9959,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   126,
+   88,
+   76,
+   84,
+   83,
+   99,
+   122,
+   75,
+   111,
+   131,
+   138,
+   96,
+   253,
+   205,
+   283,
+   226,
+   101,
+   99,
+   131,
+   89,
+   101,
+   97,
+   122,
+   78,
+   94,
+   193,
+   188,
+   130,
+   74,
+   60,
+   98,
+   114,
+   163,
+   99,
+   106,
+   138,
+   82,
+   153,
+   212,
+   165,
+   172,
+   97
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

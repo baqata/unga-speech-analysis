@@ -1,0 +1,78 @@
+{
+ "id": "MDG_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  15,
+  19,
+  22,
+  29,
+  33,
+  40,
+  44,
+  50,
+  56,
+  63,
+  68,
+  71,
+  75,
+  79
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   31,
+   "in Africa, We have",
+   "in Africa. We have",
+   "ocr"
+  ],
+  [
+   32,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c07268ac9d1fa8886296ea13f24667981494ffc0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1759,
+  "words_out": 1731,
+  "retention": 0.9841,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   238,
+   83,
+   94,
+   91,
+   142,
+   88,
+   135,
+   138,
+   91,
+   117,
+   118,
+   71,
+   62,
+   106,
+   82,
+   75
+  ],
+  "warnings": []
+ }
+}

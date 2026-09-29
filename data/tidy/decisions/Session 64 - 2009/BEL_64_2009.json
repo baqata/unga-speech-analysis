@@ -1,0 +1,66 @@
+{
+ "id": "BEL_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  33,
+  57,
+  64,
+  88,
+  112,
+  143,
+  163,
+  182
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "(see )",
+   "",
+   "label"
+  ],
+  [
+   177,
+   "(Press release",
+   "",
+   "label"
+  ],
+  [
+   178,
+   "SG/SM/10425)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ef1de79ed09ff1d4ebefa124fe480711b1da69c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1554,
+  "words_out": 1547,
+  "retention": 0.9955,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   103,
+   156,
+   169,
+   57,
+   182,
+   170,
+   235,
+   161,
+   142,
+   172
+  ],
+  "warnings": []
+ }
+}

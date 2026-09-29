@@ -1,0 +1,131 @@
+{
+ "id": "NAM_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  31,
+  52,
+  63,
+  76,
+  94,
+  108,
+  119,
+  136,
+  154,
+  169,
+  181,
+  197,
+  213,
+  230,
+  241,
+  258,
+  270,
+  287,
+  302,
+  317,
+  332,
+  347,
+  357,
+  381
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   11,
+   "Namibiaís",
+   "Namibia’s",
+   "encoding"
+  ],
+  [
+   171,
+   "continentís",
+   "continent’s",
+   "encoding"
+  ],
+  [
+   181,
+   "Namibiaís",
+   "Namibia’s",
+   "encoding"
+  ],
+  [
+   227,
+   "Instituteís",
+   "Institute’s",
+   "encoding"
+  ],
+  [
+   242,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   255,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   259,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   282,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c506683124cfbe1a24ed0a5a56aa6292b7e4d42",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 390,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2870,
+  "words_out": 2864,
+  "retention": 0.9979,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   109,
+   134,
+   162,
+   80,
+   79,
+   135,
+   97,
+   85,
+   134,
+   133,
+   108,
+   90,
+   110,
+   127,
+   116,
+   91,
+   119,
+   87,
+   126,
+   115,
+   112,
+   116,
+   97,
+   70,
+   156,
+   76
+  ],
+  "warnings": []
+ }
+}

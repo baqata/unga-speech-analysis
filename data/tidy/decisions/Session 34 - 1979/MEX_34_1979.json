@@ -1,0 +1,138 @@
+{
+ "id": "MEX_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  9,
+  18,
+  23,
+  30,
+  31,
+  38,
+  45,
+  52,
+  56,
+  63,
+  69,
+  75,
+  79,
+  86,
+  90,
+  95,
+  100,
+  104,
+  108,
+  111,
+  115,
+  120,
+  127,
+  131
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   9,
+   "under-stand",
+   "understand",
+   "hyphen"
+  ],
+  [
+   50,
+   "nature- want",
+   "nature—want",
+   "spacing"
+  ],
+  [
+   51,
+   "raw material, They",
+   "raw material. They",
+   "ocr"
+  ],
+  [
+   65,
+   "hard-tip-overcome",
+   "hard-to-overcome",
+   "ocr"
+  ],
+  [
+   68,
+   "to- do so",
+   "to do so",
+   "ocr"
+  ],
+  [
+   70,
+   "petroleum- producing",
+   "petroleum-producing",
+   "spacing"
+  ],
+  [
+   88,
+   "how-ever",
+   "however",
+   "hyphen"
+  ],
+  [
+   124,
+   "follow- up",
+   "follow-up",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79f28f04b59b451d081a2dc9fe3dc9a51927c275",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 71
+  },
+  "words_in": 4032,
+  "words_out": 4027,
+  "retention": 0.9988,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   77,
+   87,
+   171,
+   183,
+   170,
+   112,
+   165,
+   105,
+   184,
+   149,
+   147,
+   226,
+   186,
+   165,
+   124,
+   142,
+   142,
+   183,
+   149,
+   113,
+   188,
+   98,
+   115,
+   185,
+   232,
+   126,
+   103
+  ],
+  "warnings": []
+ }
+}

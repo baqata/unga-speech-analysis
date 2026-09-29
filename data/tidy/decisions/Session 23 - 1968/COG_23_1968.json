@@ -1,0 +1,90 @@
+{
+ "id": "COG_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  14,
+  20,
+  26,
+  30,
+  33,
+  39,
+  45,
+  48,
+  51,
+  56,
+  60,
+  64,
+  68,
+  72,
+  75,
+  80,
+  84,
+  92,
+  99,
+  109,
+  111
+ ],
+ "cer": [
+  0,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   8,
+   "nappy",
+   "happy",
+   "ocr"
+  ],
+  [
+   96,
+   "force, Resolution",
+   "force. Resolution",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5919be07ec5e7b5b449db6b8a6db0ff52eafcb0a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3185,
+  "words_out": 3154,
+  "retention": 0.9903,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   130,
+   46,
+   159,
+   214,
+   195,
+   141,
+   146,
+   126,
+   139,
+   94,
+   102,
+   87,
+   83,
+   89,
+   213,
+   97,
+   66,
+   130,
+   77,
+   215,
+   178,
+   271,
+   74,
+   82
+  ],
+  "warnings": []
+ }
+}

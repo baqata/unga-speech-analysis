@@ -1,0 +1,138 @@
+{
+ "id": "CMR_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  13,
+  17,
+  21,
+  23,
+  26,
+  29,
+  31,
+  34,
+  36,
+  40,
+  48,
+  51,
+  57,
+  63,
+  65,
+  67,
+  72,
+  76,
+  83,
+  86,
+  88,
+  91,
+  95,
+  99,
+  104
+ ],
+ "cer": [
+  0,
+  5,
+  9
+ ],
+ "fix": [
+  [
+   6,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   28,
+   "[resolution 33/206]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "comer-stones",
+   "corner-stones",
+   "ocr"
+  ],
+  [
+   50,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   55,
+   "reed from",
+   "freed from",
+   "ocr"
+  ],
+  [
+   66,
+   "large- scale",
+   "large-scale",
+   "hyphen"
+  ],
+  [
+   86,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   86,
+   "' 'provide",
+   "\"provide",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "581fa69b5e53eda068bf1bbeacd42b1a3e78d73b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 56
+  },
+  "words_in": 3462,
+  "words_out": 3454,
+  "retention": 0.9977,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   182,
+   112,
+   74,
+   98,
+   143,
+   107,
+   78,
+   90,
+   152,
+   95,
+   113,
+   73,
+   113,
+   179,
+   93,
+   173,
+   180,
+   84,
+   107,
+   141,
+   115,
+   163,
+   126,
+   73,
+   112,
+   125,
+   139,
+   163,
+   51
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "id": "USA_05_1950",
+ "drop": [
+  [
+   132,
+   132,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  13,
+  18,
+  21,
+  28,
+  34,
+  39,
+  42,
+  46,
+  49,
+  51,
+  55,
+  59,
+  63,
+  67,
+  72,
+  80,
+  83,
+  88,
+  96,
+  101,
+  104,
+  108,
+  113,
+  117,
+  120,
+  124,
+  129,
+  133,
+  140,
+  145,
+  152,
+  155,
+  161,
+  164,
+  168,
+  172,
+  179,
+  185,
+  188,
+  191,
+  194,
+  202
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "Nations, Five",
+   "Nations. Five",
+   "ocr"
+  ],
+  [
+   67,
+   "and\" this",
+   "and this",
+   "ocr"
+  ],
+  [
+   83,
+   " [A/1304]",
+   "",
+   "label"
+  ],
+  [
+   103,
+   "•ready",
+   "ready",
+   "ocr"
+  ],
+  [
+   113,
+   ", .and",
+   ", and",
+   "ocr"
+  ],
+  [
+   139,
+   "successful,",
+   "successful.",
+   "ocr"
+  ],
+  [
+   140,
+   "Stabeli",
+   "Stabell",
+   "ocr"
+  ],
+  [
+   160,
+   "individual, farmer",
+   "individual farmer",
+   "ocr"
+  ],
+  [
+   167,
+   "us. to",
+   "us to",
+   "ocr"
+  ],
+  [
+   168,
+   "such, means",
+   "such means",
+   "ocr"
+  ],
+  [
+   169,
+   "this, experience",
+   "this experience",
+   "ocr"
+  ],
+  [
+   171,
+   "vibrant, symbol",
+   "vibrant symbol",
+   "ocr"
+  ],
+  [
+   176,
+   "a, consequence",
+   "a consequence",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b351cbafa981abe3508fbed2b0d74ead1332066c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 72
+  },
+  "words_in": 5146,
+  "words_out": 5144,
+  "retention": 0.9996,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   70,
+   106,
+   111,
+   65,
+   124,
+   122,
+   79,
+   71,
+   61,
+   68,
+   50,
+   119,
+   98,
+   75,
+   140,
+   118,
+   255,
+   110,
+   132,
+   150,
+   140,
+   119,
+   60,
+   116,
+   122,
+   113,
+   134,
+   133,
+   77,
+   150,
+   159,
+   142,
+   108,
+   210,
+   79,
+   124,
+   89,
+   156,
+   119,
+   92,
+   107,
+   126,
+   189,
+   156
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "id": "MAR_34_1979",
+ "drop": [
+  [
+   5,
+   5,
+   "header_footer"
+  ],
+  [
+   112,
+   160,
+   "repeat"
+  ],
+  [
+   162,
+   163,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  12,
+  17,
+  20,
+  23,
+  25,
+  30,
+  33,
+  39,
+  42,
+  45,
+  47,
+  53,
+  58,
+  62,
+  66,
+  69,
+  73,
+  77,
+  81,
+  86,
+  90,
+  95,
+  100,
+  105,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   15,
+   "long- suffering",
+   "long-suffering",
+   "spacing"
+  ],
+  [
+   43,
+   "dis-armament",
+   "disarmament",
+   "hyphen"
+  ],
+  [
+   63,
+   "in-habitants",
+   "inhabitants",
+   "hyphen"
+  ],
+  [
+   71,
+   "focal- point",
+   "focal-point",
+   "spacing"
+  ],
+  [
+   72,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "over-come",
+   "overcome",
+   "hyphen"
+  ],
+  [
+   75,
+   "ad-ministration",
+   "administration",
+   "hyphen"
+  ],
+  [
+   78,
+   "formed a banner",
+   "formed a barrier",
+   "ocr"
+  ],
+  [
+   92,
+   "Co-operation15 was",
+   "Co-operation was",
+   "ocr"
+  ],
+  [
+   100,
+   "to tum this",
+   "to turn this",
+   "ocr"
+  ],
+  [
+   102,
+   "re-sources",
+   "resources",
+   "hyphen"
+  ],
+  [
+   106,
+   "backwardness,",
+   "backwardness.",
+   "ocr"
+  ],
+  [
+   107,
+   "stumbling- block",
+   "stumbling-block",
+   "spacing"
+  ],
+  [
+   109,
+   "be-come",
+   "become",
+   "hyphen"
+  ],
+  [
+   161,
+   "188. ",
+   "",
+   "label"
+  ],
+  [
+   164,
+   "Requirements",
+   "requirements",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 112-160 and 162-163 repeat units 62-111 (unit 113 splices the start of the closing paragraph onto the tail of unit 62) and are dropped; the closing paragraph continues from unit 161 to unit 164.",
+ "unitizer_version": 1,
+ "sha1": "583a851ec0482eedd343e25fb88d0641cdd8460e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {
+   "header_footer": 1,
+   "repeat": 51
+  },
+  "prestrip": {
+   "paragraph_number": 91
+  },
+  "words_in": 6791,
+  "words_out": 4771,
+  "retention": 0.7025,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   185,
+   171,
+   98,
+   240,
+   127,
+   116,
+   163,
+   259,
+   105,
+   165,
+   116,
+   166,
+   122,
+   183,
+   169,
+   210,
+   180,
+   158,
+   232,
+   113,
+   111,
+   214,
+   145,
+   195,
+   198,
+   210,
+   194,
+   226
+  ],
+  "warnings": [
+   "retention 0.70 < 0.85"
+  ]
+ }
+}

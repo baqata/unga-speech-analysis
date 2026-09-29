@@ -1,0 +1,228 @@
+{
+ "id": "TGO_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  36,
+  44,
+  53,
+  80,
+  99,
+  135,
+  147,
+  157,
+  188,
+  200,
+  237,
+  244,
+  271,
+  287,
+  303,
+  324,
+  342,
+  372,
+  381,
+  392,
+  404,
+  427,
+  446,
+  462
+ ],
+ "cer": [
+  15,
+  36,
+  44
+ ],
+ "fix": [
+  [
+   24,
+   "out-standing",
+   "outstanding",
+   "hyphen"
+  ],
+  [
+   48,
+   "storm- tossed",
+   "storm-tossed",
+   "spacing"
+  ],
+  [
+   85,
+   "eco-nomies",
+   "economies",
+   "hyphen"
+  ],
+  [
+   116,
+   "coun-tries",
+   "countries",
+   "hyphen"
+  ],
+  [
+   168,
+   "homeland, We",
+   "homeland. We",
+   "ocr"
+  ],
+  [
+   181,
+   "There Ss",
+   "There is",
+   "ocr"
+  ],
+  [
+   182,
+   "double'",
+   "double",
+   "ocr"
+  ],
+  [
+   188,
+   "its pact",
+   "its part",
+   "ocr"
+  ],
+  [
+   190,
+   "continue;",
+   "continues",
+   "ocr"
+  ],
+  [
+   215,
+   "comers",
+   "corners",
+   "ocr"
+  ],
+  [
+   267,
+   "ail his",
+   "all his",
+   "ocr"
+  ],
+  [
+   282,
+   "[PLO]",
+   "",
+   "label"
+  ],
+  [
+   328,
+   "pretextóan",
+   "pretext—an",
+   "encoding"
+  ],
+  [
+   328,
+   "thatówhich",
+   "that—which",
+   "encoding"
+  ],
+  [
+   351,
+   "gun-fire",
+   "gunfire",
+   "hyphen"
+  ],
+  [
+   357,
+   "manifestóresolutely",
+   "manifest—resolutely",
+   "encoding"
+  ],
+  [
+   397,
+   "pro-posals",
+   "proposals",
+   "hyphen"
+  ],
+  [
+   398,
+   "Kim 11 Sung",
+   "Kim Il Sung",
+   "ocr"
+  ],
+  [
+   405,
+   " [6Mt/]",
+   "",
+   "label"
+  ],
+  [
+   411,
+   "eventsóand",
+   "events—and",
+   "encoding"
+  ],
+  [
+   412,
+   "Republicóhave",
+   "Republic—have",
+   "encoding"
+  ],
+  [
+   451,
+   "213.. ",
+   "",
+   "label"
+  ],
+  [
+   465,
+   "Byadema",
+   "Eyadema",
+   "ocr"
+  ],
+  [
+   471,
+   "nations. \"That",
+   "nations.\" That",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "A word is missing after \"Since the\" in unit 354; paragraph 211 is misnumbered 213 in the source.",
+ "unitizer_version": 1,
+ "sha1": "3174d95a0de5360416ff9b1a87139565004c25a1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 476,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3560,
+  "words_out": 3523,
+  "retention": 0.9896,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   115,
+   152,
+   55,
+   64,
+   196,
+   143,
+   280,
+   82,
+   64,
+   230,
+   87,
+   287,
+   48,
+   203,
+   133,
+   107,
+   152,
+   127,
+   229,
+   68,
+   81,
+   91,
+   187,
+   133,
+   105,
+   104
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

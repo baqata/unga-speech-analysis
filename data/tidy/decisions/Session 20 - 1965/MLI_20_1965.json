@@ -1,0 +1,228 @@
+{
+ "id": "MLI_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  15,
+  22,
+  30,
+  34,
+  42,
+  48,
+  57,
+  65,
+  71,
+  75,
+  80,
+  84,
+  90,
+  100,
+  106,
+  118,
+  124,
+  128,
+  134,
+  140,
+  144,
+  147,
+  153,
+  157,
+  166
+ ],
+ "cer": [
+  0,
+  4,
+  124
+ ],
+ "fix": [
+  [
+   1,
+   "of Mall,",
+   "of Mali,",
+   "ocr"
+  ],
+  [
+   5,
+   "Quatson-Sackey",
+   "Quaison-Sackey",
+   "ocr"
+  ],
+  [
+   14,
+   "peoples, Nothing",
+   "peoples. Nothing",
+   "ocr"
+  ],
+  [
+   19,
+   "aggression, Imposed",
+   "aggression, imposed",
+   "ocr"
+  ],
+  [
+   29,
+   "Hitler, That",
+   "Hitler. That",
+   "ocr"
+  ],
+  [
+   54,
+   "Nations, All the",
+   "Nations. All the",
+   "ocr"
+  ],
+  [
+   58,
+   "rights In the",
+   "rights in the",
+   "ocr"
+  ],
+  [
+   63,
+   "[item 91], The",
+   "[item 91]. The",
+   "ocr"
+  ],
+  [
+   73,
+   "Human Eights",
+   "Human Rights",
+   "ocr"
+  ],
+  [
+   81,
+   "that Specialize",
+   "that specialize",
+   "ocr"
+  ],
+  [
+   82,
+   "Chinese Influence",
+   "Chinese influence",
+   "ocr"
+  ],
+  [
+   86,
+   "its Sovereignty",
+   "its sovereignty",
+   "ocr"
+  ],
+  [
+   101,
+   "re suit",
+   "result",
+   "split_word"
+  ],
+  [
+   108,
+   " (resolution 1514(XV)]",
+   "",
+   "label"
+  ],
+  [
+   158,
+   "are Inviolable",
+   "are inviolable",
+   "ocr"
+  ],
+  [
+   163,
+   "colonies.",
+   "colonies,",
+   "ocr"
+  ],
+  [
+   31,
+   " [A/6001/Add.1, sect. XII.]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   " [Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   56,
+   " [see A/5971 and Add.1 and 2]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   " [item 91]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   " [see A/5931]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   " [see A/5977]",
+   "",
+   "label"
+  ],
+  [
+   56,
+   " (item 102)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2b3780f780607c1b0494f5dd2b6186131de7634",
+ "layout": "lines",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4784,
+  "words_out": 4724,
+  "retention": 0.9875,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   135,
+   141,
+   144,
+   180,
+   204,
+   247,
+   100,
+   189,
+   133,
+   296,
+   226,
+   114,
+   103,
+   125,
+   147,
+   154,
+   231,
+   143,
+   272,
+   160,
+   106,
+   159,
+   203,
+   96,
+   110,
+   143,
+   122,
+   164,
+   177
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

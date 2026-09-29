@@ -1,0 +1,162 @@
+{
+ "id": "ECU_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  13,
+  15,
+  19,
+  22,
+  30,
+  34,
+  36,
+  40,
+  41,
+  47,
+  52,
+  56,
+  60,
+  65,
+  68,
+  71,
+  76,
+  77,
+  80,
+  84,
+  92,
+  96,
+  100,
+  105,
+  110,
+  114,
+  116,
+  119,
+  123,
+  129,
+  132,
+  139
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   5,
+   "rules, So",
+   "rules. So",
+   "ocr"
+  ],
+  [
+   12,
+   "can peak",
+   "can speak",
+   "ocr"
+  ],
+  [
+   12,
+   "twenty- five",
+   "twenty-five",
+   "hyphen"
+  ],
+  [
+   20,
+   " [1839th meeting, para 45]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "at. distances",
+   "at distances",
+   "ocr"
+  ],
+  [
+   30,
+   " [A/8001/Add.",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "1 and Corr.1] ",
+   "",
+   "label"
+  ],
+  [
+   46,
+   " [Ibid., para. 48]",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "accordance, with",
+   "accordance with",
+   "ocr"
+  ],
+  [
+   114,
+   " [see resolution 2222 (XXI)j",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f02debf0a55023f52b1fe07a11ac585bca89e385",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 48
+  },
+  "words_in": 4594,
+  "words_out": 4572,
+  "retention": 0.9952,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   192,
+   145,
+   165,
+   104,
+   162,
+   111,
+   183,
+   134,
+   100,
+   102,
+   71,
+   169,
+   128,
+   155,
+   108,
+   151,
+   93,
+   137,
+   174,
+   61,
+   93,
+   93,
+   144,
+   163,
+   107,
+   79,
+   171,
+   112,
+   151,
+   102,
+   129,
+   213,
+   105,
+   162,
+   103
+  ],
+  "warnings": []
+ }
+}

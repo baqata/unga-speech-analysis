@@ -1,0 +1,72 @@
+{
+ "id": "SUR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  30,
+  45,
+  63,
+  78,
+  88,
+  109,
+  123,
+  136,
+  154,
+  175,
+  191,
+  204,
+  218,
+  228
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   52,
+   "East. .",
+   "East.",
+   "ocr"
+  ],
+  [
+   196,
+   "(resolution 66/2, annex)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ccf5f2142781d203e3d5f8066fac2b9460fe2625",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1854,
+  "words_out": 1849,
+  "retention": 0.9973,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   109,
+   131,
+   112,
+   151,
+   138,
+   83,
+   173,
+   121,
+   95,
+   144,
+   168,
+   128,
+   85,
+   113,
+   65,
+   33
+  ],
+  "warnings": []
+ }
+}

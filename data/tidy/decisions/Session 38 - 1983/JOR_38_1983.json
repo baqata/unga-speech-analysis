@@ -1,0 +1,125 @@
+{
+ "id": "JOR_38_1983",
+ "drop": [
+  [
+   29,
+   29,
+   "header_footer"
+  ],
+  [
+   37,
+   37,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  18,
+  22,
+  27,
+  30,
+  38,
+  47,
+  55,
+  59,
+  65,
+  69,
+  77,
+  82,
+  85,
+  86,
+  89,
+  91,
+  95,
+  100,
+  104,
+  107,
+  112,
+  118,
+  123,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "international , economic",
+   "international economic",
+   "spacing"
+  ],
+  [
+   69,
+   "comer- stone",
+   "corner-stone",
+   "ocr"
+  ],
+  [
+   122,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   74,
+   "[PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 28 breaks off at 'regional alliances and international' before a page break; the next words are missing.",
+ "unitizer_version": 1,
+ "sha1": "def050b759cf6ad561278fccfe3d3f50a7f8e01f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3709,
+  "words_out": 3703,
+  "retention": 0.9984,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   109,
+   111,
+   137,
+   114,
+   161,
+   133,
+   104,
+   176,
+   235,
+   220,
+   105,
+   163,
+   158,
+   274,
+   156,
+   96,
+   44,
+   83,
+   50,
+   136,
+   99,
+   159,
+   85,
+   145,
+   147,
+   142,
+   70,
+   91
+  ],
+  "warnings": []
+ }
+}

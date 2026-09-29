@@ -1,0 +1,124 @@
+{
+ "id": "NLD_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  16,
+  20,
+  25,
+  28,
+  34,
+  40,
+  48,
+  55,
+  61,
+  64,
+  70,
+  74,
+  77,
+  82,
+  90,
+  98,
+  100,
+  103,
+  106,
+  112,
+  114,
+  119,
+  122
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "SO. ",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "taut most",
+   "but most",
+   "ocr"
+  ],
+  [
+   46,
+   "may foe well",
+   "may be well",
+   "ocr"
+  ],
+  [
+   46,
+   "multi- nuclear",
+   "multi-nuclear",
+   "hyphen"
+  ],
+  [
+   73,
+   "in Home",
+   "in Rome",
+   "ocr"
+  ],
+  [
+   120,
+   "[A/5801/Add.1, sect.",
+   "",
+   "label"
+  ],
+  [
+   121,
+   "IV.]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e01864f8998bf5a06e652c8c302e0fbd23ff8bf4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3476,
+  "words_out": 3471,
+  "retention": 0.9986,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   142,
+   137,
+   196,
+   117,
+   121,
+   107,
+   205,
+   181,
+   188,
+   185,
+   130,
+   110,
+   193,
+   84,
+   70,
+   100,
+   229,
+   184,
+   71,
+   68,
+   103,
+   200,
+   69,
+   145,
+   81,
+   55
+  ],
+  "warnings": []
+ }
+}

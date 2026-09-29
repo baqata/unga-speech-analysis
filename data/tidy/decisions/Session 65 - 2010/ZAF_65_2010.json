@@ -1,0 +1,74 @@
+{
+ "id": "ZAF_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  27,
+  40,
+  50,
+  75,
+  88,
+  97,
+  108,
+  113,
+  123,
+  145,
+  163,
+  176,
+  185,
+  194,
+  206,
+  217,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   167,
+   " (see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ebede7105256a97405f78fcb3beeb560193147ef",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1873,
+  "words_out": 1867,
+  "retention": 0.9968,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   78,
+   119,
+   92,
+   83,
+   196,
+   107,
+   64,
+   92,
+   35,
+   83,
+   176,
+   137,
+   105,
+   70,
+   68,
+   101,
+   87,
+   130,
+   44
+  ],
+  "warnings": []
+ }
+}

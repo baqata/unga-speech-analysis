@@ -1,0 +1,53 @@
+{
+ "id": "HUN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  26,
+  45,
+  62,
+  77,
+  87,
+  101,
+  115,
+  137,
+  146,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f9c4009b9f675ae82095ea04af764f340d37839b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 166,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1306,
+  "words_out": 1305,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   66,
+   141,
+   142,
+   135,
+   121,
+   78,
+   113,
+   109,
+   173,
+   72,
+   117,
+   38
+  ],
+  "warnings": []
+ }
+}

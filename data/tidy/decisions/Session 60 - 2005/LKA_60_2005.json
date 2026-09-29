@@ -1,0 +1,102 @@
+{
+ "id": "LKA_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  31,
+  45,
+  64,
+  73,
+  91,
+  115,
+  129,
+  145,
+  157,
+  166,
+  181,
+  196,
+  205,
+  223,
+  236,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Lankaís",
+   "Lanka’s",
+   "encoding"
+  ],
+  [
+   28,
+   " (Official Records of the General",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "Assembly, Eleventh Session, Plenary Meetings,",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "590th meeting, para. 42)",
+   "",
+   "label"
+  ],
+  [
+   107,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   208,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39b0cc80a2c1cf4518528ac2076bb72c33069651",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2031,
+  "words_out": 2014,
+  "retention": 0.9916,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   58,
+   177,
+   109,
+   158,
+   70,
+   152,
+   183,
+   111,
+   141,
+   97,
+   70,
+   114,
+   106,
+   66,
+   144,
+   103,
+   66,
+   89
+  ],
+  "warnings": []
+ }
+}

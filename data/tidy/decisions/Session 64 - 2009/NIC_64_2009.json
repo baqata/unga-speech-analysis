@@ -1,0 +1,57 @@
+{
+ "id": "NIC_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  30,
+  51,
+  79,
+  100,
+  124,
+  143,
+  158,
+  183,
+  200,
+  214,
+  242,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aac09e4de244108340a3d5aeea007236966f48ad",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2094,
+  "words_out": 2094,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   59,
+   167,
+   168,
+   215,
+   159,
+   184,
+   147,
+   114,
+   199,
+   146,
+   116,
+   227,
+   76,
+   117
+  ],
+  "warnings": []
+ }
+}

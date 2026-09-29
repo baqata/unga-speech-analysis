@@ -1,0 +1,100 @@
+{
+ "id": "HND_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  10,
+  13,
+  15,
+  19,
+  24,
+  25,
+  27,
+  30,
+  34,
+  38,
+  41,
+  43,
+  45,
+  48,
+  52,
+  53,
+  55
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "small Stales",
+   "small States",
+   "ocr"
+  ],
+  [
+   25,
+   "junta which rales it",
+   "junta which rules it",
+   "ocr"
+  ],
+  [
+   34,
+   "re cognize",
+   "recognize",
+   "split_word"
+  ],
+  [
+   43,
+   "2 3 January",
+   "23 January",
+   "spacing"
+  ],
+  [
+   48,
+   " [ECLA]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "293c86a01a16ecc21c07261851e3de36d1dbc8c4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2192,
+  "words_out": 2189,
+  "retention": 0.9986,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   97,
+   194,
+   80,
+   84,
+   96,
+   64,
+   93,
+   169,
+   69,
+   88,
+   94,
+   127,
+   137,
+   137,
+   123,
+   48,
+   117,
+   132,
+   69,
+   70,
+   101
+  ],
+  "warnings": []
+ }
+}

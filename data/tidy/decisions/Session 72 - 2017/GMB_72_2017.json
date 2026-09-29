@@ -1,0 +1,94 @@
+{
+ "id": "GMB_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  13,
+  17,
+  20,
+  25,
+  32,
+  35,
+  40,
+  43,
+  49,
+  52,
+  57,
+  60,
+  63,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "Israeli- Palestinian",
+   "Israeli-Palestinian",
+   "hyphen"
+  ],
+  [
+   50,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   51,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   53,
+   "17-29281 13/24 ",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "long- overdue",
+   "long-overdue",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "566ad897886324594d2c35576da77ca4359485a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1696,
+  "words_out": 1690,
+  "retention": 0.9965,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   61,
+   82,
+   99,
+   136,
+   117,
+   70,
+   113,
+   145,
+   63,
+   105,
+   80,
+   156,
+   52,
+   120,
+   66,
+   73,
+   74,
+   78
+  ],
+  "warnings": []
+ }
+}

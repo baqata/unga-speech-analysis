@@ -1,0 +1,65 @@
+{
+ "id": "CAF_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  10,
+  14,
+  16,
+  19,
+  22,
+  24,
+  28,
+  29,
+  32,
+  38,
+  41,
+  44
+ ],
+ "cer": [
+  2,
+  8
+ ],
+ "fix": [
+  [
+   40,
+   "right s",
+   "rights",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c81ebab3224d79ac0cc41c5fe0bc9a0938dff4bb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1767,
+  "words_out": 1762,
+  "retention": 0.9972,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   99,
+   196,
+   78,
+   183,
+   73,
+   152,
+   88,
+   127,
+   142,
+   65,
+   133,
+   175,
+   84,
+   111,
+   56
+  ],
+  "warnings": []
+ }
+}

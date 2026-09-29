@@ -1,0 +1,55 @@
+{
+ "id": "ROU_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  44,
+  61,
+  77,
+  98,
+  107,
+  124,
+  137,
+  151,
+  160,
+  177,
+  191,
+  202
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ee9a51b8c454ef9a273ee8458f2f96a0603d043",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1666,
+  "words_out": 1664,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   196,
+   142,
+   135,
+   126,
+   146,
+   75,
+   120,
+   103,
+   104,
+   76,
+   122,
+   103,
+   81,
+   135
+  ],
+  "warnings": []
+ }
+}

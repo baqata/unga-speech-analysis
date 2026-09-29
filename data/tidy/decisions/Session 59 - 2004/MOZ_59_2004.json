@@ -1,0 +1,94 @@
+{
+ "id": "MOZ_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  42,
+  54,
+  69,
+  84,
+  102,
+  115,
+  131,
+  147,
+  159,
+  168,
+  190,
+  212,
+  227,
+  241,
+  257
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   127,
+   "peopleís",
+   "people’s",
+   "encoding"
+  ],
+  [
+   136,
+   "peopleís",
+   "people’s",
+   "encoding"
+  ],
+  [
+   170,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   181,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   267,
+   "peoples ó hope",
+   "peoples — hope",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "48074f5f99d528acb312ebbbd8ea6d1eb4a0aaae",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2032,
+  "words_out": 2030,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   166,
+   154,
+   94,
+   113,
+   114,
+   138,
+   98,
+   115,
+   117,
+   99,
+   64,
+   153,
+   153,
+   102,
+   105,
+   130,
+   115
+  ],
+  "warnings": []
+ }
+}

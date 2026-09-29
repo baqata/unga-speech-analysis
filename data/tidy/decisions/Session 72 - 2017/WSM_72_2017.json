@@ -1,0 +1,91 @@
+{
+ "id": "WSM_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  17,
+  21,
+  26,
+  29,
+  38,
+  41,
+  45,
+  48,
+  52,
+  56,
+  59,
+  65,
+  68,
+  70,
+  75,
+  81,
+  84,
+  87,
+  91,
+  94,
+  96
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   68,
+   "forty- eighth",
+   "forty-eighth",
+   "hyphen"
+  ],
+  [
+   82,
+   "twenty- third",
+   "twenty-third",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76ccebda40a61289b8cd354167649b590cdc217c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2612,
+  "words_out": 2610,
+  "retention": 0.9992,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   124,
+   64,
+   117,
+   97,
+   83,
+   116,
+   111,
+   172,
+   85,
+   87,
+   79,
+   127,
+   146,
+   89,
+   158,
+   75,
+   71,
+   162,
+   114,
+   112,
+   71,
+   111,
+   80,
+   77,
+   82
+  ],
+  "warnings": []
+ }
+}

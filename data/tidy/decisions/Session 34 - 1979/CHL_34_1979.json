@@ -1,0 +1,108 @@
+{
+ "id": "CHL_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  13,
+  16,
+  19,
+  24,
+  26,
+  28,
+  33,
+  36,
+  38,
+  41,
+  47,
+  52,
+  54,
+  59,
+  65,
+  69,
+  79,
+  81,
+  87,
+  90,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "ail disputes",
+   "all disputes",
+   "ocr"
+  ],
+  [
+   23,
+   "medium- tonnage",
+   "medium-tonnage",
+   "hyphen"
+  ],
+  [
+   24,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   33,
+   "contra-diction",
+   "contradiction",
+   "hyphen"
+  ],
+  [
+   48,
+   "back-ground",
+   "background",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "97193c51e1fad555b8cc016154ef836d6d7a0383",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3283,
+  "words_out": 3279,
+  "retention": 0.9988,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   244,
+   121,
+   192,
+   111,
+   140,
+   164,
+   86,
+   81,
+   141,
+   114,
+   83,
+   58,
+   167,
+   171,
+   56,
+   148,
+   141,
+   125,
+   298,
+   90,
+   202,
+   81,
+   107,
+   158
+  ],
+  "warnings": []
+ }
+}

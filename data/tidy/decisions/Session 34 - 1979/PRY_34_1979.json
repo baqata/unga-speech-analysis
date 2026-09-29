@@ -1,0 +1,83 @@
+{
+ "id": "PRY_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  16,
+  18,
+  21,
+  27,
+  31,
+  33,
+  38,
+  40,
+  42,
+  44,
+  47,
+  48,
+  50
+ ],
+ "cer": [
+  0,
+  48
+ ],
+ "fix": [
+  [
+   7,
+   "self- preservation",
+   "self-preservation",
+   "spacing"
+  ],
+  [
+   23,
+   "ac-cording",
+   "according",
+   "hyphen"
+  ],
+  [
+   45,
+   "to- international",
+   "to international",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4aa686a6ebc316b7647ff3544c11766f798a4d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2037,
+  "words_out": 2036,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   142,
+   138,
+   129,
+   197,
+   48,
+   95,
+   183,
+   152,
+   130,
+   176,
+   75,
+   130,
+   112,
+   115,
+   75,
+   62,
+   77
+  ],
+  "warnings": []
+ }
+}

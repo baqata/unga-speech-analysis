@@ -1,0 +1,53 @@
+{
+ "id": "CRI_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  26,
+  41,
+  63,
+  91,
+  111,
+  138,
+  172,
+  189,
+  218,
+  240,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a1b24738e9097de92bedf998ebc9cf36dfe44105",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 272,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2164,
+  "words_out": 2164,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   203,
+   123,
+   167,
+   232,
+   157,
+   230,
+   256,
+   143,
+   227,
+   160,
+   120,
+   146
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "MRT_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  26,
+  46,
+  58,
+  72,
+  90,
+  111,
+  135
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ee39ff3d09cf8506f7dfc7d7026aeee91926e38",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1095,
+  "words_out": 1093,
+  "retention": 0.9982,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   194,
+   151,
+   96,
+   113,
+   150,
+   155,
+   185,
+   49
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "GUY_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  14,
+  17,
+  21,
+  24,
+  27,
+  29,
+  35,
+  38,
+  41,
+  44,
+  49,
+  52,
+  54,
+  59,
+  67,
+  71,
+  72,
+  76,
+  80,
+  84,
+  88
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   38,
+   "oil- producing",
+   "oil-producing",
+   "hyphen"
+  ],
+  [
+   49,
+   "health- service",
+   "health-service",
+   "hyphen"
+  ],
+  [
+   50,
+   "health- care",
+   "health-care",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56c4f52397ef40431790f42a988a9ebb24f4030f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2659,
+  "words_out": 2653,
+  "retention": 0.9977,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   91,
+   90,
+   71,
+   81,
+   98,
+   67,
+   91,
+   95,
+   80,
+   93,
+   126,
+   130,
+   64,
+   141,
+   118,
+   98,
+   73,
+   100,
+   204,
+   141,
+   62,
+   105,
+   122,
+   99,
+   89,
+   124
+  ],
+  "warnings": []
+ }
+}

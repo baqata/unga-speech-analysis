@@ -1,0 +1,77 @@
+{
+ "id": "MLT_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  18,
+  23,
+  27,
+  31,
+  35,
+  45,
+  48,
+  53,
+  58,
+  72,
+  79,
+  89,
+  94,
+  101,
+  105,
+  110,
+  115
+ ],
+ "cer": [],
+ "fix": [
+  [
+   56,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2983d4b185f8e340aeb94728d5dccc3c75fd5cb8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 6
+  },
+  "words_in": 2422,
+  "words_out": 2417,
+  "retention": 0.9979,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   66,
+   103,
+   146,
+   88,
+   98,
+   88,
+   80,
+   116,
+   140,
+   60,
+   71,
+   142,
+   221,
+   99,
+   162,
+   118,
+   158,
+   154,
+   140,
+   111,
+   56
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "id": "TZA_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  16,
+  19,
+  23,
+  26,
+  29,
+  37,
+  44,
+  47,
+  54,
+  59,
+  63,
+  67,
+  71,
+  75,
+  81,
+  87,
+  90,
+  94,
+  98,
+  104,
+  110,
+  113,
+  121,
+  126,
+  132,
+  138,
+  139
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   8,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   "the Government of",
+   "the Government of …",
+   "ocr"
+  ],
+  [
+   17,
+   "region— significant",
+   "region—significant",
+   "spacing"
+  ],
+  [
+   28,
+   "and. not",
+   "and not",
+   "ocr"
+  ],
+  [
+   30,
+   "cm offer",
+   "can offer",
+   "ocr"
+  ],
+  [
+   50,
+   "UNlTA",
+   "UNITA",
+   "ocr"
+  ],
+  [
+   53,
+   "Five., and",
+   "Five, and",
+   "ocr"
+  ],
+  [
+   77,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   79,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   100,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   124,
+   "is la essential",
+   "is an essential",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 13 breaks off at 'the Government of' (ellipsis added); unit 53 opens with garbled 'In it is,'.",
+ "unitizer_version": 1,
+ "sha1": "421e6f3135bd32c7af3484ce6a53a48c83d54471",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 3931,
+  "words_out": 3927,
+  "retention": 0.999,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   162,
+   162,
+   61,
+   86,
+   120,
+   116,
+   65,
+   170,
+   203,
+   86,
+   197,
+   113,
+   89,
+   102,
+   116,
+   92,
+   166,
+   165,
+   91,
+   139,
+   105,
+   125,
+   159,
+   71,
+   196,
+   148,
+   176,
+   210,
+   44,
+   192
+  ],
+  "warnings": []
+ }
+}

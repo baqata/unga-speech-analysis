@@ -1,0 +1,222 @@
+{
+ "id": "KGZ_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   144,
+   145,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  5,
+  14,
+  23,
+  32,
+  45,
+  51,
+  55,
+  62,
+  67,
+  71,
+  81,
+  90,
+  96,
+  102,
+  112,
+  119,
+  126,
+  132,
+  143
+ ],
+ "cer": [
+  4,
+  143
+ ],
+ "fix": [
+  [
+   4,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   50,
+   "MERTA",
+   "matter",
+   "asr_term"
+  ],
+  [
+   70,
+   "founding",
+   "funding",
+   "asr_term"
+  ],
+  [
+   99,
+   "Bishkekom",
+   "Bishkek",
+   "asr_name"
+  ],
+  [
+   104,
+   "Issycul",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   108,
+   "Isikul",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   112,
+   "Isikul",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   113,
+   "Isikul",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   117,
+   "Issykul",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   121,
+   "Isikul",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   121,
+   "RLC",
+   "Aral Sea",
+   "asr_name"
+  ],
+  [
+   124,
+   "Issykul",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   126,
+   "AMANAD",
+   "Amanat",
+   "asr_term"
+  ],
+  [
+   128,
+   "Ezekiel",
+   "Issyk-Kul",
+   "asr_name"
+  ],
+  [
+   128,
+   "amonade",
+   "amanat",
+   "asr_term"
+  ],
+  [
+   134,
+   "change. safe,",
+   "change. Safe,",
+   "asr_term"
+  ],
+  [
+   28,
+   "permanencies",
+   "permanent seats",
+   "asr_term"
+  ],
+  [
+   124,
+   "efforts. our",
+   "",
+   "asr_term"
+  ],
+  [
+   121,
+   "ago, The",
+   "ago, the",
+   "asr_term"
+  ],
+  [
+   19,
+   "started",
+   "stated",
+   "slip"
+  ],
+  [
+   136,
+   "31st",
+   "35th",
+   "slip"
+  ],
+  [
+   63,
+   "international affairs",
+   "internal affairs",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Khalilur Rahman is the PGA of the 81st session; Issyk-Kul, Aral Sea, Amanat, afirmé, la cuestión, asuntos internos, poner fin and 35º aniversario per the Spanish channel (independence 1991). Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 63 repair of 'international affairs' withdrawn (three re-decodes hear 'international' (p 1.00), two syllables longer than 'internal': the English interpreter's wording; 'los asuntos internos' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 124 'efforts. our' -> 'efforts. Our'; unit 134 'change. safe,' -> 'change. Safe,'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 19 'started' -> 'stated' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'started' (decodes 0.89 / 0.91, the UN transcript; forced scoring -3.2 vs 'stated' -12.5); 'I started with confidence that Kyrgyzstan is among those states' does not fit, and the Spanish 'firmé con confianza que' (speech-to-text for 'afirmé') shows 'stated'); spot 4 unit 28 'permanencies' -> 'permanent seats' (both decodes hear 'permanent seats' (0.54 / 0.74, 'seats' 0.97 / 0.98); ES 'dos puestos permanentes'); spot 19 unit 67 earlier repair of 'hold' undone (the audio contradicts the earlier repair 'halt' (the run wrote this revert; confirmed by the main agent): both decodes hear 'to hold funding' (1.00 / 1.00), as does the UN transcript; forced scoring 'hold' -5.9 vs 'halt' -11.8; the Spanish 'poner fin' renders the meaning of a speech not delivered in Spanish; back to 'hold'); spot 35 unit 124 'efforts. our' -> '' (both decodes clearly hear 'support our initiative to' with no 'efforts. our' ('our' 1188.0, 'initiative' 1188.3, 1.00); ES 'para que apoyen nuestra iniciativa'; old is the existing repair's old; intended result 'support our initiative' with one space); spot 36 unit 136 '31st' -> '35th' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said '31st' (decodes 0.98 / 0.95, the UN transcript; forced scoring -1.8 vs '35th' -9.7); Kyrgyzstan became independent in 1991, so 2026 is the 35th anniversary, as the Spanish 'el 35º aniversario' says). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 63 said 'interference to the international affairs of sovereign states' (three re-decodes p 1.00); the Spanish 'injerencia en los asuntos internos de otros estados soberanos' shows 'internal'.",
+ "unitizer_version": 1,
+ "sha1": "62ede80e702114c2d5b73d88f8f43a580837f1ea",
+ "layout": "single",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2791,
+  "words_out": 2735,
+  "retention": 0.9799,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   47,
+   190,
+   214,
+   166,
+   185,
+   174,
+   125,
+   147,
+   115,
+   103,
+   211,
+   118,
+   100,
+   127,
+   190,
+   120,
+   147,
+   90,
+   159,
+   7
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "FRA_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  44,
+  57,
+  70,
+  83,
+  100,
+  113,
+  130,
+  141,
+  150,
+  159,
+  172,
+  196,
+  215,
+  229,
+  242,
+  259,
+  276,
+  284
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   84,
+   "dÈmarche",
+   "démarche",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fed92010bba1c0c7e6a80daa7788a17d9d82c25c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 294,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2397,
+  "words_out": 2396,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   64,
+   114,
+   172,
+   112,
+   113,
+   114,
+   146,
+   112,
+   142,
+   101,
+   70,
+   69,
+   106,
+   185,
+   150,
+   116,
+   105,
+   125,
+   134,
+   64,
+   82
+  ],
+  "warnings": []
+ }
+}

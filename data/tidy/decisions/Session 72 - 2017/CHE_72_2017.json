@@ -1,0 +1,64 @@
+{
+ "id": "CHE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  14,
+  20,
+  26,
+  35,
+  41,
+  50,
+  54,
+  57,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   31,
+   "water- related",
+   "water-related",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e3b839bc54d0d061bba366014ee9439e0b390ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1265,
+  "words_out": 1263,
+  "retention": 0.9984,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   34,
+   142,
+   79,
+   91,
+   126,
+   185,
+   107,
+   179,
+   71,
+   59,
+   146,
+   44
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "id": "HND_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  13,
+  17,
+  21,
+  24,
+  27,
+  32,
+  35,
+  38,
+  41,
+  44,
+  48,
+  52,
+  56,
+  61,
+  62,
+  64,
+  66,
+  75,
+  82,
+  83,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "01 mankind",
+   "of mankind",
+   "ocr"
+  ],
+  [
+   16,
+   "be-cause",
+   "because",
+   "hyphen"
+  ],
+  [
+   17,
+   "brought to ear",
+   "brought to bear",
+   "ocr"
+  ],
+  [
+   29,
+   " [OAS]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "self- defence",
+   "self-defence",
+   "spacing"
+  ],
+  [
+   59,
+   "that-the",
+   "that the",
+   "ocr"
+  ],
+  [
+   63,
+   "in-corporation",
+   "incorporation",
+   "hyphen"
+  ],
+  [
+   64,
+   "Inter- American",
+   "Inter-American",
+   "spacing"
+  ],
+  [
+   71,
+   "part s of",
+   "parts of",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7b374a98cd3b8ebe01a0d7ac66232aed18a9dde",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 3615,
+  "words_out": 3612,
+  "retention": 0.9992,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   137,
+   117,
+   277,
+   183,
+   159,
+   100,
+   193,
+   146,
+   135,
+   132,
+   73,
+   149,
+   175,
+   204,
+   158,
+   217,
+   64,
+   116,
+   113,
+   144,
+   199,
+   56,
+   140,
+   225
+  ],
+  "warnings": []
+ }
+}

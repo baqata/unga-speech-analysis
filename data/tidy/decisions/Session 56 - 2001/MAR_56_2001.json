@@ -1,0 +1,61 @@
+{
+ "id": "MAR_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  33,
+  45,
+  62,
+  79,
+  97,
+  112,
+  120,
+  129,
+  143,
+  166,
+  187,
+  206,
+  220,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ecc22dc2b015175b35588eb15baf3b749f5f937b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2050,
+  "words_out": 2048,
+  "retention": 0.999,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   123,
+   147,
+   95,
+   139,
+   143,
+   149,
+   120,
+   61,
+   66,
+   113,
+   181,
+   176,
+   151,
+   114,
+   147,
+   123
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "EST_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  16,
+  30,
+  43,
+  68,
+  78,
+  96,
+  110,
+  120,
+  128,
+  140,
+  152,
+  173,
+  189,
+  211,
+  224,
+  239
+ ],
+ "cer": [],
+ "fix": [
+  [
+   76,
+   "(ibid.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e15ac1199adf0dec4be02b4960d6ac7eaaa5c6bc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2017,
+  "words_out": 2012,
+  "retention": 0.9975,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   65,
+   60,
+   109,
+   114,
+   181,
+   87,
+   147,
+   116,
+   78,
+   68,
+   93,
+   94,
+   175,
+   126,
+   172,
+   116,
+   137,
+   74
+  ],
+  "warnings": []
+ }
+}

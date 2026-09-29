@@ -1,0 +1,94 @@
+{
+ "id": "ARG_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  12,
+  14,
+  16,
+  20,
+  27,
+  31,
+  36,
+  39,
+  45,
+  48,
+  52,
+  57,
+  66,
+  69,
+  72,
+  75,
+  77,
+  80,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Eastland",
+   "East and",
+   "merged_word"
+  ],
+  [
+   33,
+   "States,",
+   "States.",
+   "ocr"
+  ],
+  [
+   42,
+   "Iso-called",
+   "so-called",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77e14cd598c309b5650eb88ef7be09ededa037ff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3021,
+  "words_out": 3021,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   108,
+   113,
+   148,
+   119,
+   62,
+   102,
+   118,
+   202,
+   236,
+   135,
+   119,
+   120,
+   153,
+   121,
+   116,
+   197,
+   86,
+   106,
+   81,
+   92,
+   129,
+   147,
+   211
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "BRN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  30,
+  44,
+  55,
+  69
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d396bd6e48e094e068257a075c32047f909a9b8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 637,
+  "words_out": 637,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   79,
+   82,
+   87,
+   112,
+   99,
+   125,
+   53
+  ],
+  "warnings": []
+ }
+}

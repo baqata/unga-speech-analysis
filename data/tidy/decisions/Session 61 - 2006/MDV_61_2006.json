@@ -1,0 +1,76 @@
+{
+ "id": "MDV_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  19,
+  29,
+  47,
+  65,
+  85,
+  98,
+  124,
+  139,
+  156,
+  170,
+  184,
+  194
+ ],
+ "cer": [
+  6
+ ],
+ "fix": [
+  [
+   154,
+   " (The Holy",
+   "",
+   "label"
+  ],
+  [
+   155,
+   "Koran, VI:151)",
+   "",
+   "label"
+  ],
+  [
+   162,
+   " (ibid. XVI:90)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41f3411271f56d641acffb434f61d20403b4ae3c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1592,
+  "words_out": 1585,
+  "retention": 0.9956,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   46,
+   108,
+   74,
+   145,
+   152,
+   145,
+   96,
+   209,
+   114,
+   137,
+   106,
+   111,
+   75,
+   67
+  ],
+  "warnings": []
+ }
+}

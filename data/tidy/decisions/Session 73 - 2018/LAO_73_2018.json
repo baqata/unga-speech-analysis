@@ -1,0 +1,68 @@
+{
+ "id": "LAO_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  18,
+  20,
+  23,
+  27,
+  28,
+  34,
+  37,
+  40,
+  42,
+  47
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "post- disaster",
+   "post-disaster",
+   "hyphen"
+  ],
+  [
+   25,
+   "drug- control",
+   "drug-control",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1fb61abafe3bac189f7f2d58c44b486568180e47",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1459,
+  "words_out": 1457,
+  "retention": 0.9986,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   90,
+   98,
+   83,
+   177,
+   68,
+   100,
+   125,
+   64,
+   171,
+   99,
+   114,
+   67,
+   99,
+   102
+  ],
+  "warnings": []
+ }
+}

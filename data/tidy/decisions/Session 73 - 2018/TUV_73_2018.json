@@ -1,0 +1,88 @@
+{
+ "id": "TUV_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  15,
+  20,
+  27,
+  33,
+  39,
+  44,
+  48,
+  52,
+  54,
+  57,
+  64,
+  70,
+  76,
+  81,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   3,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ],
+  [
+   52,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   52,
+   "crises, We",
+   "crises. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d38efa18b03135139d6f6f4537517556a015a24",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2223,
+  "words_out": 2219,
+  "retention": 0.9982,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   151,
+   107,
+   160,
+   133,
+   187,
+   91,
+   139,
+   105,
+   122,
+   78,
+   98,
+   73,
+   185,
+   110,
+   180,
+   101,
+   140,
+   59
+  ],
+  "warnings": []
+ }
+}

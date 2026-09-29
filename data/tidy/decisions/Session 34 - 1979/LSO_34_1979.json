@@ -1,0 +1,121 @@
+{
+ "id": "LSO_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  17,
+  22,
+  30,
+  35,
+  40,
+  45,
+  51,
+  56,
+  61,
+  65,
+  70,
+  76,
+  84,
+  87,
+  91,
+  94,
+  101,
+  108,
+  113,
+  118,
+  122,
+  126,
+  130,
+  135
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "well- deserved",
+   "well-deserved",
+   "spacing"
+  ],
+  [
+   66,
+   "un-abating",
+   "unabating",
+   "hyphen"
+  ],
+  [
+   77,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   117,
+   "1979; the",
+   "1979, the",
+   "ocr"
+  ],
+  [
+   132,
+   "mission' '",
+   "mission\"",
+   "ocr"
+  ],
+  [
+   132,
+   "my county",
+   "my country",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8747429cf5e475787ccd4557b426d8fb566fc6d2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 3518,
+  "words_out": 3515,
+  "retention": 0.9991,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   91,
+   149,
+   188,
+   113,
+   170,
+   122,
+   107,
+   133,
+   171,
+   99,
+   127,
+   102,
+   109,
+   145,
+   195,
+   109,
+   133,
+   84,
+   125,
+   179,
+   120,
+   133,
+   83,
+   64,
+   97,
+   182,
+   185
+  ],
+  "warnings": []
+ }
+}

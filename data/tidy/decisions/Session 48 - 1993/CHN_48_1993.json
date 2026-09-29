@@ -1,0 +1,112 @@
+{
+ "id": "CHN_48_1993",
+ "drop": [
+  [
+   87,
+   87,
+   "header_footer"
+  ],
+  [
+   184,
+   184,
+   "header_footer"
+  ],
+  [
+   281,
+   281,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  21,
+  29,
+  39,
+  52,
+  69,
+  82,
+  100,
+  112,
+  125,
+  135,
+  148,
+  158,
+  172,
+  190,
+  206,
+  234,
+  243,
+  251,
+  272,
+  295,
+  312,
+  320,
+  329,
+  345,
+  362
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   102,
+   "thought-provokinq",
+   "thought-provoking",
+   "ocr"
+  ],
+  [
+   266,
+   "non-nuclearweapon",
+   "non-nuclear-weapon",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f59eb04b4382cf3df5f91e815f119f2bee2c938c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 366,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 3146,
+  "words_out": 3125,
+  "retention": 0.9933,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   101,
+   92,
+   71,
+   82,
+   97,
+   142,
+   99,
+   145,
+   92,
+   105,
+   84,
+   115,
+   85,
+   123,
+   147,
+   135,
+   241,
+   75,
+   66,
+   212,
+   182,
+   162,
+   67,
+   81,
+   145,
+   150,
+   29
+  ],
+  "warnings": []
+ }
+}

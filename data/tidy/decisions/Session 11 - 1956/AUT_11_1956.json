@@ -1,0 +1,94 @@
+{
+ "id": "AUT_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  10,
+  16,
+  24,
+  31,
+  35,
+  42,
+  44,
+  51,
+  55,
+  60,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "the-cold",
+   "the cold",
+   "spacing"
+  ],
+  [
+   4,
+   "Nations, After",
+   "Nations. After",
+   "ocr"
+  ],
+  [
+   9,
+   "rear",
+   "year",
+   "ocr"
+  ],
+  [
+   15,
+   "obligation,",
+   "obligation.",
+   "ocr"
+  ],
+  [
+   61,
+   "bien",
+   "been",
+   "ocr"
+  ],
+  [
+   68,
+   "not t",
+   "not",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e96448c976558db21ebeb5eaf7cfc5bff657d8cb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1835,
+  "words_out": 1834,
+  "retention": 0.9995,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   38,
+   182,
+   192,
+   115,
+   123,
+   177,
+   82,
+   124,
+   73,
+   203,
+   103,
+   146,
+   112,
+   164
+  ],
+  "warnings": []
+ }
+}

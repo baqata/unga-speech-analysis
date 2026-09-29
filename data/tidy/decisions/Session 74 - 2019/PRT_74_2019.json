@@ -1,0 +1,66 @@
+{
+ "id": "PRT_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  15,
+  20,
+  22,
+  24,
+  27,
+  29,
+  31,
+  35,
+  38,
+  41,
+  43,
+  47
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   " (E/CN.5/2019/L.3)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc5eabe378b8d069c75677a7c70a1d39566cc39a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1634,
+  "words_out": 1633,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   111,
+   136,
+   102,
+   135,
+   152,
+   77,
+   81,
+   124,
+   63,
+   83,
+   122,
+   104,
+   79,
+   64,
+   89,
+   111
+  ],
+  "warnings": []
+ }
+}

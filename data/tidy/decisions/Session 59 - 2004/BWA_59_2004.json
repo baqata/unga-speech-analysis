@@ -1,0 +1,65 @@
+{
+ "id": "BWA_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  33,
+  56,
+  70,
+  81,
+  106,
+  122,
+  146,
+  165,
+  187,
+  204,
+  226,
+  246
+ ],
+ "cer": [
+  0,
+  21
+ ],
+ "fix": [
+  [
+   5,
+   "1 assure",
+   "I assure",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "713e364d43b1889bcd8a81f9e5251f449a2b31bf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2038,
+  "words_out": 2036,
+  "retention": 0.999,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   172,
+   100,
+   195,
+   114,
+   85,
+   183,
+   131,
+   202,
+   153,
+   177,
+   119,
+   174,
+   163,
+   68
+  ],
+  "warnings": []
+ }
+}

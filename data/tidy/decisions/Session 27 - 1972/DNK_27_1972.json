@@ -1,0 +1,138 @@
+{
+ "id": "DNK_27_1972",
+ "drop": [
+  [
+   46,
+   46,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  18,
+  27,
+  33,
+  39,
+  45,
+  52,
+  56,
+  61,
+  64,
+  68,
+  72,
+  76,
+  82,
+  87,
+  91,
+  95,
+  99,
+  108,
+  119,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "16 ",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "would be' to",
+   "would be to",
+   "ocr"
+  ],
+  [
+   55,
+   "take rm active",
+   "take an active",
+   "ocr"
+  ],
+  [
+   59,
+   "the. massive",
+   "the massive",
+   "ocr"
+  ],
+  [
+   65,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   69,
+   "the. present",
+   "the present",
+   "ocr"
+  ],
+  [
+   90,
+   " [VNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   92,
+   " [GATTJ",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "in. their",
+   "in their",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1801c14b0e7699ef31e94707257b0f8f4f62aa7f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3382,
+  "words_out": 3359,
+  "retention": 0.9932,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   147,
+   143,
+   161,
+   186,
+   197,
+   160,
+   171,
+   199,
+   83,
+   138,
+   80,
+   98,
+   92,
+   77,
+   149,
+   85,
+   159,
+   137,
+   126,
+   216,
+   237,
+   190,
+   128
+  ],
+  "warnings": []
+ }
+}

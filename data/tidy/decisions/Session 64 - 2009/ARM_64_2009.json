@@ -1,0 +1,53 @@
+{
+ "id": "ARM_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  24,
+  36,
+  48,
+  65,
+  85,
+  95,
+  118,
+  139,
+  153,
+  185
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c410aa7d3cd5249a749e0f62b46147897caa3d74",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 195,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1502,
+  "words_out": 1500,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   62,
+   124,
+   101,
+   90,
+   129,
+   156,
+   75,
+   168,
+   164,
+   113,
+   246,
+   72
+  ],
+  "warnings": []
+ }
+}

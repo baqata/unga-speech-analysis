@@ -1,0 +1,54 @@
+{
+ "id": "ZMB_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  34,
+  50,
+  64,
+  77,
+  87,
+  98,
+  118,
+  129,
+  150
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c938610dae01cb05fbed1c506cf359ebb76dfcbd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1224,
+  "words_out": 1218,
+  "retention": 0.9951,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   76,
+   73,
+   119,
+   138,
+   114,
+   91,
+   75,
+   85,
+   152,
+   80,
+   165,
+   50
+  ],
+  "warnings": []
+ }
+}

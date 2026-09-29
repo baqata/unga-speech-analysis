@@ -1,0 +1,72 @@
+{
+ "id": "COD_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  13,
+  17,
+  20,
+  23,
+  28,
+  32,
+  37,
+  43,
+  49,
+  53,
+  57,
+  64,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "jsE.pj",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "activity.Mister",
+   "activity. Mister",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "57be377d0e0c1ab6ae308123bf96262b738c797f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2402,
+  "words_out": 2403,
+  "retention": 1.0004,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   137,
+   129,
+   179,
+   170,
+   111,
+   103,
+   141,
+   116,
+   150,
+   170,
+   152,
+   203,
+   185,
+   207,
+   169,
+   81
+  ],
+  "warnings": []
+ }
+}

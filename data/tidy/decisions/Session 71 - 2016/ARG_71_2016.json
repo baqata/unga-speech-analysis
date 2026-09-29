@@ -1,0 +1,66 @@
+{
+ "id": "ARG_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  15,
+  20,
+  26,
+  33,
+  37,
+  41,
+  46,
+  53,
+  59,
+  67,
+  71,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   80,
+   "30/56 16-29296 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3adf9eb5b11238134c8d5510894ffc42c1284f8b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1672,
+  "words_out": 1670,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   21,
+   63,
+   72,
+   119,
+   110,
+   111,
+   98,
+   98,
+   89,
+   113,
+   154,
+   136,
+   150,
+   108,
+   155,
+   73
+  ],
+  "warnings": []
+ }
+}

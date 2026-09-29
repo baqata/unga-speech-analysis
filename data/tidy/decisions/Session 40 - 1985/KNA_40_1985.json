@@ -1,0 +1,114 @@
+{
+ "id": "KNA_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  13,
+  17,
+  21,
+  26,
+  28,
+  30,
+  35,
+  38,
+  43,
+  45,
+  48,
+  52,
+  55
+ ],
+ "cer": [
+  0,
+  3,
+  6
+ ],
+ "fix": [
+  [
+   10,
+   "weather, we, have",
+   "weather, we have",
+   "ocr"
+  ],
+  [
+   12,
+   "Within. days",
+   "Within days",
+   "ocr"
+  ],
+  [
+   16,
+   "trafficking in Illegal drugs",
+   "trafficking in illegal drugs",
+   "ocr"
+  ],
+  [
+   24,
+   "the Charter o\" the",
+   "the Charter of the",
+   "ocr"
+  ],
+  [
+   40,
+   "the United states of America",
+   "the United States of America",
+   "ocr"
+  ],
+  [
+   42,
+   "impact on cat program",
+   "impact on our program",
+   "ocr"
+  ],
+  [
+   47,
+   "United Nations 'could",
+   "United Nations could",
+   "ocr"
+  ],
+  [
+   49,
+   "earnestly \"aspire",
+   "earnestly aspire",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "00ec0a75fc7a1d4d688b6c0bdb23ca9655ab3d6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1766,
+  "words_out": 1766,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   135,
+   97,
+   66,
+   91,
+   115,
+   106,
+   70,
+   128,
+   114,
+   58,
+   160,
+   60,
+   138,
+   81,
+   135,
+   100,
+   68,
+   44
+  ],
+  "warnings": []
+ }
+}

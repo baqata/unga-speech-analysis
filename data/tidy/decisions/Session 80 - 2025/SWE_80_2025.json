@@ -1,0 +1,66 @@
+{
+ "id": "SWE_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  11,
+  17,
+  24,
+  30,
+  35,
+  44,
+  50,
+  57,
+  69,
+  75,
+  88,
+  95,
+  107
+ ],
+ "cer": [
+  1,
+  107
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 1 'I thank you.' is taken as the speaker's thanks on reaching the rostrum.",
+ "unitizer_version": 1,
+ "sha1": "c0066b26066a5880ea07a58732a4a71b3ad3a1e0",
+ "layout": "single",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1622,
+  "words_out": 1605,
+  "retention": 0.9895,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   3,
+   130,
+   117,
+   135,
+   97,
+   80,
+   134,
+   86,
+   101,
+   170,
+   66,
+   192,
+   117,
+   174,
+   3
+  ],
+  "warnings": []
+ }
+}

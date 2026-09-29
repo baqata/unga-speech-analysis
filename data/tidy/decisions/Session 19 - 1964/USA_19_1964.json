@@ -1,0 +1,187 @@
+{
+ "id": "USA_19_1964",
+ "drop": [
+  [
+   133,
+   133,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  13,
+  16,
+  20,
+  23,
+  26,
+  30,
+  33,
+  35,
+  39,
+  45,
+  48,
+  52,
+  58,
+  64,
+  67,
+  73,
+  78,
+  84,
+  88,
+  95,
+  101,
+  104,
+  110,
+  114,
+  119,
+  124,
+  128,
+  136,
+  141,
+  146,
+  150,
+  158,
+  160,
+  164,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "Twenty, years",
+   "Twenty years",
+   "ocr"
+  ],
+  [
+   43,
+   "hero calling",
+   "here calling",
+   "ocr"
+  ],
+  [
+   47,
+   "life frequency",
+   "like frequency",
+   "ocr"
+  ],
+  [
+   54,
+   "1 assume",
+   "I assume",
+   "ocr"
+  ],
+  [
+   77,
+   "toward a, weaker",
+   "toward a weaker",
+   "ocr"
+  ],
+  [
+   84,
+   "\"troika.\" to",
+   "\"troika\" to",
+   "ocr"
+  ],
+  [
+   100,
+   "(1315th meeting, para. 15.)",
+   "",
+   "label"
+  ],
+  [
+   117,
+   "to be * able",
+   "to be able",
+   "ocr"
+  ],
+  [
+   123,
+   "com-' plaints",
+   "complaints",
+   "ocr"
+  ],
+  [
+   139,
+   "the dignify of",
+   "the dignity of",
+   "ocr"
+  ],
+  [
+   140,
+   "v/hat",
+   "what",
+   "ocr"
+  ],
+  [
+   162,
+   "a prior worth",
+   "a price worth",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34799002798ce6e67f644fb9d394152dd645797d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 173,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 79
+  },
+  "words_in": 5516,
+  "words_out": 5504,
+  "retention": 0.9978,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   145,
+   103,
+   124,
+   137,
+   110,
+   126,
+   107,
+   144,
+   72,
+   123,
+   135,
+   145,
+   177,
+   133,
+   162,
+   157,
+   101,
+   150,
+   112,
+   255,
+   132,
+   222,
+   206,
+   56,
+   169,
+   170,
+   188,
+   179,
+   107,
+   176,
+   165,
+   119,
+   165,
+   154,
+   104,
+   215,
+   111,
+   148
+  ],
+  "warnings": []
+ }
+}

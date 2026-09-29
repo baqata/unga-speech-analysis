@@ -1,0 +1,61 @@
+{
+ "id": "MAR_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  41,
+  60,
+  82,
+  93,
+  109,
+  122,
+  140,
+  158,
+  169,
+  192,
+  204,
+  223,
+  238,
+  266
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c52907836cc9eab0bb2919d446232f01e69ae16f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 283,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2146,
+  "words_out": 2144,
+  "retention": 0.9991,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   141,
+   176,
+   150,
+   162,
+   75,
+   126,
+   93,
+   131,
+   138,
+   81,
+   176,
+   88,
+   136,
+   117,
+   226,
+   128
+  ],
+  "warnings": []
+ }
+}

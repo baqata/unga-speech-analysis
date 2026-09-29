@@ -1,0 +1,106 @@
+{
+ "id": "EGY_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   124,
+   124,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  11,
+  19,
+  23,
+  27,
+  33,
+  39,
+  44,
+  53,
+  60,
+  67,
+  76,
+  82,
+  89,
+  98,
+  106,
+  112,
+  120,
+  123
+ ],
+ "cer": [
+  1,
+  123
+ ],
+ "fix": [
+  [
+   90,
+   "AIEA",
+   "IAEA",
+   "asr_name"
+  ],
+  [
+   93,
+   "fatal compli",
+   "fait accompli",
+   "asr_term"
+  ],
+  [
+   100,
+   "Zalwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   100,
+   "SIRT",
+   "Sirte",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1e4bbc9b683dd2479e9d1490c3470a18458cf64d",
+ "layout": "single",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2261,
+  "words_out": 2225,
+  "retention": 0.9841,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   28,
+   160,
+   109,
+   93,
+   148,
+   103,
+   79,
+   71,
+   152,
+   134,
+   130,
+   133,
+   89,
+   141,
+   205,
+   165,
+   124,
+   121,
+   35,
+   5
+  ],
+  "warnings": []
+ }
+}

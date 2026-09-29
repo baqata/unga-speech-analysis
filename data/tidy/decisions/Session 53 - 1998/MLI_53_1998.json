@@ -1,0 +1,75 @@
+{
+ "id": "MLI_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  19,
+  43,
+  63,
+  81,
+  103,
+  117,
+  142,
+  173,
+  188,
+  200,
+  221,
+  244,
+  262,
+  275,
+  282,
+  291,
+  302
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   278,
+   "Matre",
+   "Maître",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c5a9b22439fb2e0fe0aee955009ed9ebbdc1e0b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 317,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2610,
+  "words_out": 2606,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   118,
+   53,
+   184,
+   168,
+   168,
+   173,
+   101,
+   199,
+   248,
+   102,
+   108,
+   177,
+   196,
+   155,
+   109,
+   56,
+   80,
+   86,
+   125
+  ],
+  "warnings": []
+ }
+}

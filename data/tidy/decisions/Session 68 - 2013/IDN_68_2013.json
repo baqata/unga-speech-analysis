@@ -1,0 +1,62 @@
+{
+ "id": "IDN_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  43,
+  57,
+  66,
+  74,
+  88,
+  103,
+  115,
+  137
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ],
+  [
+   106,
+   "shareone",
+   "share one",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ad27cb8c3d2186be0fc8297f36a0648b6c58978",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1065,
+  "words_out": 1066,
+  "retention": 1.0009,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   63,
+   125,
+   133,
+   105,
+   74,
+   63,
+   105,
+   111,
+   94,
+   170,
+   23
+  ],
+  "warnings": []
+ }
+}

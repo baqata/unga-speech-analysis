@@ -1,0 +1,57 @@
+{
+ "id": "ECU_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  42,
+  61,
+  71,
+  86,
+  105,
+  119,
+  131,
+  151,
+  169,
+  182,
+  203,
+  218
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "25759460fe8ab3c7f2c33d0294873a86339aa3b0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 231,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1858,
+  "words_out": 1854,
+  "retention": 0.9978,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   86,
+   180,
+   80,
+   158,
+   90,
+   124,
+   163,
+   106,
+   88,
+   158,
+   146,
+   101,
+   151,
+   114,
+   109
+  ],
+  "warnings": []
+ }
+}

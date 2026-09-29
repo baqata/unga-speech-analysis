@@ -1,0 +1,214 @@
+{
+ "id": "AZE_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  14,
+  23,
+  30,
+  38,
+  46,
+  53,
+  59,
+  65,
+  79,
+  86,
+  90,
+  96,
+  100,
+  107,
+  115,
+  119,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "President. His",
+   "President, His",
+   "ocr"
+  ],
+  [
+   1,
+   "Korosi. for",
+   "Korosi, for",
+   "ocr"
+  ],
+  [
+   2,
+   "continue s",
+   "continues",
+   "split_word"
+  ],
+  [
+   2,
+   "challenge s",
+   "challenges",
+   "split_word"
+  ],
+  [
+   3,
+   "all. regardless",
+   "all, regardless",
+   "ocr"
+  ],
+  [
+   23,
+   "that.",
+   "that,",
+   "ocr"
+  ],
+  [
+   26,
+   "donor.",
+   "donor,",
+   "ocr"
+  ],
+  [
+   28,
+   "2020.",
+   "2020,",
+   "ocr"
+  ],
+  [
+   35,
+   "2023. one",
+   "2023, one",
+   "ocr"
+  ],
+  [
+   51,
+   "2020. armed",
+   "2020, armed",
+   "ocr"
+  ],
+  [
+   57,
+   "end.",
+   "end,",
+   "ocr"
+  ],
+  [
+   61,
+   "However.",
+   "However,",
+   "ocr"
+  ],
+  [
+   65,
+   "response.",
+   "response,",
+   "ocr"
+  ],
+  [
+   70,
+   "outposts.",
+   "outposts,",
+   "ocr"
+  ],
+  [
+   71,
+   "vehicles.",
+   "vehicles,",
+   "ocr"
+  ],
+  [
+   72,
+   "pieces.",
+   "pieces,",
+   "ocr"
+  ],
+  [
+   83,
+   "point.",
+   "point,",
+   "ocr"
+  ],
+  [
+   90,
+   "end. it",
+   "end, it",
+   "ocr"
+  ],
+  [
+   102,
+   "2020.",
+   "2020,",
+   "ocr"
+  ],
+  [
+   105,
+   "it. we",
+   "it, we",
+   "ocr"
+  ],
+  [
+   115,
+   "1991.",
+   "1991,",
+   "ocr"
+  ],
+  [
+   116,
+   "300.000",
+   "300,000",
+   "ocr"
+  ],
+  [
+   121,
+   "particular.",
+   "particular,",
+   "ocr"
+  ],
+  [
+   122,
+   "law. and",
+   "law, and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bdaba92129168975c985e4ea6b304b64e2e67821",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2738,
+  "words_out": 2736,
+  "retention": 0.9993,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   37,
+   128,
+   121,
+   187,
+   104,
+   176,
+   154,
+   239,
+   160,
+   150,
+   197,
+   155,
+   80,
+   154,
+   93,
+   167,
+   162,
+   108,
+   66,
+   98
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

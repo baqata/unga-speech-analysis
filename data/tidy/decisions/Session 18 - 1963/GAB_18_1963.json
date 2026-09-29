@@ -1,0 +1,88 @@
+{
+ "id": "GAB_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  17,
+  23,
+  27,
+  35,
+  45,
+  54,
+  59,
+  66,
+  72,
+  75,
+  83,
+  88,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   ", But",
+   ". But",
+   "ocr"
+  ],
+  [
+   6,
+   "this,",
+   "this.",
+   "ocr"
+  ],
+  [
+   84,
+   "mission,",
+   "mission.",
+   "ocr"
+  ],
+  [
+   89,
+   "ref erring",
+   "referring",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08264fecc06daf19093cc987f93693a592add7c3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 3027,
+  "words_out": 3026,
+  "retention": 0.9997,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   153,
+   147,
+   173,
+   135,
+   147,
+   111,
+   231,
+   264,
+   199,
+   108,
+   205,
+   236,
+   110,
+   296,
+   179,
+   195,
+   137
+  ],
+  "warnings": []
+ }
+}

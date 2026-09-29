@@ -1,0 +1,58 @@
+{
+ "id": "CHE_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   68,
+   69,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  11,
+  16,
+  25,
+  34,
+  45,
+  51,
+  57,
+  66
+ ],
+ "cer": [
+  66
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81b98f64c638a089efba2f2ca0ece76a29bf70a8",
+ "layout": "single",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1293,
+  "words_out": 1240,
+  "retention": 0.959,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   170,
+   146,
+   145,
+   186,
+   172,
+   133,
+   112,
+   173,
+   3
+  ],
+  "warnings": []
+ }
+}

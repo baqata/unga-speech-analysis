@@ -1,0 +1,84 @@
+{
+ "id": "NLD_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  27,
+  43,
+  58,
+  74,
+  86,
+  96,
+  114,
+  130,
+  146,
+  165,
+  180,
+  192
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "f led",
+   "fled",
+   "split_word"
+  ],
+  [
+   6,
+   "f led",
+   "fled",
+   "split_word"
+  ],
+  [
+   12,
+   "f led",
+   "fled",
+   "split_word"
+  ],
+  [
+   192,
+   "Мedya",
+   "Medya",
+   "ocr"
+  ],
+  [
+   202,
+   "Мedya",
+   "Medya",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e72a635d038805df7947f76cf1446490bbae67f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1661,
+  "words_out": 1657,
+  "retention": 0.9976,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   155,
+   82,
+   140,
+   119,
+   111,
+   101,
+   80,
+   142,
+   110,
+   115,
+   146,
+   120,
+   96,
+   140
+  ],
+  "warnings": []
+ }
+}

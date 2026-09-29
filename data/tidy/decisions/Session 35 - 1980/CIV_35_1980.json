@@ -1,0 +1,94 @@
+{
+ "id": "CIV_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  19,
+  23,
+  26,
+  31,
+  35,
+  41,
+  46,
+  48,
+  54,
+  60,
+  63,
+  65,
+  70,
+  72,
+  78,
+  80,
+  84,
+  90,
+  97,
+  99,
+  102
+ ],
+ "cer": [
+  0,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   54,
+   "security -if",
+   "security if",
+   "ocr"
+  ],
+  [
+   74,
+   "lt leads",
+   "It leads",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a829e205898be0a8baac7c915e3c15bd96c53df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3186,
+  "words_out": 3185,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   196,
+   84,
+   125,
+   167,
+   125,
+   100,
+   152,
+   95,
+   132,
+   142,
+   98,
+   173,
+   175,
+   96,
+   78,
+   147,
+   99,
+   189,
+   84,
+   127,
+   154,
+   136,
+   74,
+   61,
+   176
+  ],
+  "warnings": []
+ }
+}

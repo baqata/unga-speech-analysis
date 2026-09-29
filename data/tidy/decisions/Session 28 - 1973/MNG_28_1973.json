@@ -1,0 +1,126 @@
+{
+ "id": "MNG_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  11,
+  14,
+  17,
+  19,
+  24,
+  27,
+  31,
+  36,
+  42,
+  47,
+  50,
+  54,
+  59,
+  63,
+  65,
+  69,
+  74,
+  76,
+  81,
+  85,
+  87,
+  90,
+  96,
+  101,
+  104,
+  108
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "process* of",
+   "process of",
+   "ocr"
+  ],
+  [
+   51,
+   "extremist^",
+   "extremists",
+   "ocr"
+  ],
+  [
+   54,
+   "like the peoples",
+   "Like the peoples",
+   "ocr"
+  ],
+  [
+   58,
+   "and. broad",
+   "and broad",
+   "ocr"
+  ],
+  [
+   63,
+   " [resolution 2134 (XXV))",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "countries..",
+   "countries.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ce7c677d69d1d6822905eba4911522f968030c1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 57
+  },
+  "words_in": 3740,
+  "words_out": 3734,
+  "retention": 0.9984,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   101,
+   101,
+   65,
+   139,
+   95,
+   92,
+   98,
+   147,
+   88,
+   135,
+   146,
+   174,
+   147,
+   82,
+   146,
+   210,
+   100,
+   77,
+   149,
+   159,
+   75,
+   147,
+   120,
+   91,
+   79,
+   239,
+   174,
+   90,
+   164,
+   104
+  ],
+  "warnings": []
+ }
+}

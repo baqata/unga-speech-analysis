@@ -1,0 +1,118 @@
+{
+ "id": "KOR_48_1993",
+ "drop": [
+  [
+   77,
+   77,
+   "header_footer"
+  ],
+  [
+   168,
+   168,
+   "header_footer"
+  ],
+  [
+   260,
+   260,
+   "header_footer"
+  ],
+  [
+   350,
+   350,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  16,
+  26,
+  46,
+  63,
+  84,
+  102,
+  116,
+  141,
+  161,
+  188,
+  202,
+  211,
+  224,
+  246,
+  263,
+  276,
+  299,
+  320,
+  343
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   38,
+   " (Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "General Assembly, Second Session, Plenary Meeting,\"",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "128th meeting, p. 1442)",
+   "",
+   "label"
+  ],
+  [
+   166,
+   "post--",
+   "post-",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "155be9ce0e9d551dace7f34e371b5574222d7066",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 357,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2947,
+  "words_out": 2904,
+  "retention": 0.9854,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   48,
+   78,
+   79,
+   155,
+   152,
+   171,
+   144,
+   117,
+   202,
+   158,
+   200,
+   114,
+   71,
+   111,
+   172,
+   137,
+   106,
+   179,
+   187,
+   202,
+   121
+  ],
+  "warnings": []
+ }
+}

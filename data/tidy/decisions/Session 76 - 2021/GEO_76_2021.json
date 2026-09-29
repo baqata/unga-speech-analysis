@@ -1,0 +1,68 @@
+{
+ "id": "GEO_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  15,
+  22,
+  30,
+  39,
+  45,
+  52,
+  60,
+  68,
+  74,
+  82,
+  89,
+  99
+ ],
+ "cer": [],
+ "fix": [
+  [
+   43,
+   "Euro- Atlantic",
+   "Euro-Atlantic",
+   "spacing"
+  ],
+  [
+   80,
+   "world- class",
+   "world-class",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd8a550a91d099c0b41daa8430fc6ca184253ab8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2094,
+  "words_out": 2092,
+  "retention": 0.999,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   175,
+   157,
+   194,
+   155,
+   209,
+   94,
+   136,
+   159,
+   93,
+   189,
+   144,
+   138,
+   185,
+   64
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "ISL_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  13,
+  18,
+  23,
+  28,
+  31,
+  35,
+  44
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   11,
+   "have new gathered",
+   "have now gathered",
+   "ocr"
+  ],
+  [
+   15,
+   "Internationally",
+   "internationally",
+   "ocr"
+  ],
+  [
+   28,
+   "involved In",
+   "involved in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "10ae13bf56cfd332ec3968b322fd798a86fea95c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1126,
+  "words_out": 1126,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   38,
+   75,
+   69,
+   138,
+   83,
+   137,
+   100,
+   81,
+   76,
+   199,
+   130
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "id": "ZAF_27_1972",
+ "drop": [
+  [
+   23,
+   23,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  19,
+  24,
+  31,
+  32,
+  39,
+  45,
+  51,
+  56,
+  65,
+  71,
+  82,
+  90,
+  94,
+  99,
+  104,
+  107,
+  112
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   9,
+   "theft- fore",
+   "therefore",
+   "ocr"
+  ],
+  [
+   43,
+   "to out mutual",
+   "to our mutual",
+   "ocr"
+  ],
+  [
+   54,
+   "President- for-life",
+   "President-for-life",
+   "spacing"
+  ],
+  [
+   103,
+   "south African",
+   "South African",
+   "ocr"
+  ],
+  [
+   114,
+   "relations, with",
+   "relations with",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8c0c8e08e59c9b2e676c396566662c8149390a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2966,
+  "words_out": 2962,
+  "retention": 0.9987,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   89,
+   118,
+   71,
+   102,
+   161,
+   144,
+   183,
+   60,
+   158,
+   104,
+   128,
+   117,
+   234,
+   150,
+   130,
+   185,
+   97,
+   136,
+   138,
+   116,
+   183,
+   158
+  ],
+  "warnings": []
+ }
+}

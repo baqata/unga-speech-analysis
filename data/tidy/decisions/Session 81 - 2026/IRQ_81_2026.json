@@ -1,0 +1,188 @@
+{
+ "id": "IRQ_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   29,
+   29,
+   "noise"
+  ],
+  [
+   35,
+   35,
+   "noise"
+  ],
+  [
+   45,
+   46,
+   "noise"
+  ],
+  [
+   49,
+   49,
+   "noise"
+  ],
+  [
+   59,
+   59,
+   "noise"
+  ],
+  [
+   72,
+   72,
+   "noise"
+  ],
+  [
+   73,
+   73,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  6,
+  11,
+  16,
+  19,
+  26,
+  27,
+  31,
+  40,
+  48,
+  56,
+  62,
+  65,
+  69,
+  71
+ ],
+ "cer": [
+  3,
+  71
+ ],
+ "fix": [
+  [
+   26,
+   " here's the clean system so we can off the Сttar",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "steli",
+   "stele",
+   "asr_term"
+  ],
+  [
+   50,
+   "Hamurabi",
+   "Hammurabi",
+   "asr_name"
+  ],
+  [
+   27,
+   "refining refining",
+   "refining",
+   "asr_term"
+  ],
+  [
+   36,
+   "because Because",
+   "because",
+   "asr_term"
+  ],
+  [
+   27,
+   "reserves. our",
+   "reserves. Our",
+   "asr_term"
+  ],
+  [
+   37,
+   "stability. from",
+   "stability. From",
+   "asr_term"
+  ],
+  [
+   15,
+   "represent are moving on",
+   "represent",
+   "asr_term"
+  ],
+  [
+   17,
+   "redouble",
+   "redoubled",
+   "asr_term"
+  ],
+  [
+   34,
+   "industry, energy",
+   "industry, and energy",
+   "asr_term"
+  ],
+  [
+   47,
+   "street",
+   "trade",
+   "asr_term"
+  ],
+  [
+   48,
+   "people's",
+   "peoples",
+   "asr_term"
+  ],
+  [
+   15,
+   "track as they represent",
+   "",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Stray second-pass words before the speech, in pauses at 08:53 and 15:24 (no Spanish speech there) and lone 'Thank you.' in applause removed; Spanish 'estela del rey Babilonio Hammurabi'. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 27 'refining refining' -> 'refining'; unit 36 'because Because' -> 'because'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 27 'reserves. our' -> 'reserves. Our'; unit 37 'stability. from' -> 'stability. From'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 15 'represent are moving on' -> 'represent', 'track as they represent' -> '' (the run's removal of the words repeated at a segment boundary ('are moving on track as they represent', seven words, refused by the tool as a rewrite), written as two removals of up to four words: both decodes hear 'as they represent the basis' once (0.99-1.00); ES 'están avanzando adecuadamente, ya que representan' once); spot 3 unit 17 'redouble' -> 'redoubled' ('a redouble determination' does not fit, an adjective is needed; the final -d merges with 'determination' (decodes 'redouble' 0.82 / 0.87); UN 'redoubled'); spot 5 unit 34 'industry, energy' -> 'industry, and energy' (2026 exception: both decodes hear 'and' clearly (1.00 / 1.00); ES 'la industria y la energía'); spot 7 unit 47 'street' -> 'trade' (decodes 'street' only 0.72 / 0.60; 'complex street corridors' does not fit trade passage through Iraq; ES 'corredores comerciales'); spot 8 unit 48 'people's' -> 'peoples' (same sound; possessive 'the people's, their security' does not fit; ES 'con los pueblos, con su seguridad'); spot 10 unit 72 dropped (noise) (recovered 'Thank you.' at 1293.1-1298.5 in the applause: both evidence decodes end at 'you all.' (1289.8); re-decode from 1287.5 s hears nothing after 'upon you all.'; re-decode from 1286 s writes 'Thank you' (0.52) at 1290.4, before the unit, with a collapsed timestamp; ES ends 'sean con ustedes.' without 'gracias')",
+ "unitizer_version": 1,
+ "sha1": "56eb0606ec7a61fa4f8c510a7da009e1035dfe07",
+ "layout": "single",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 8
+  },
+  "prestrip": {},
+  "words_in": 1834,
+  "words_out": 1729,
+  "retention": 0.9427,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   42,
+   74,
+   109,
+   119,
+   108,
+   153,
+   92,
+   177,
+   185,
+   143,
+   161,
+   117,
+   95,
+   75,
+   69,
+   10
+  ],
+  "warnings": []
+ }
+}

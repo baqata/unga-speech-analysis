@@ -1,0 +1,66 @@
+{
+ "id": "COD_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  29,
+  42,
+  56,
+  71,
+  80,
+  96,
+  107,
+  117,
+  138,
+  147,
+  163,
+  176,
+  189
+ ],
+ "cer": [
+  0,
+  7,
+  176
+ ],
+ "fix": [
+  [
+   11,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d635ed6e8c12a805260d6974985530c6d5b7e43",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1585,
+  "words_out": 1581,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   63,
+   192,
+   96,
+   108,
+   100,
+   77,
+   123,
+   91,
+   79,
+   173,
+   69,
+   116,
+   115,
+   110,
+   69
+  ],
+  "warnings": []
+ }
+}

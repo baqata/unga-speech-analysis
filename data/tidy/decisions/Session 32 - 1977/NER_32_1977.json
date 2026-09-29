@@ -1,0 +1,213 @@
+{
+ "id": "NER_32_1977",
+ "drop": [
+  [
+   114,
+   114,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  9,
+  11,
+  13,
+  14,
+  22,
+  24,
+  28,
+  31,
+  39,
+  45,
+  50,
+  52,
+  58,
+  60,
+  63,
+  68,
+  73,
+  79,
+  80,
+  84,
+  89,
+  93,
+  96,
+  103,
+  111,
+  115,
+  118,
+  121,
+  126,
+  128,
+  137
+ ],
+ "cer": [
+  3,
+  137
+ ],
+ "fix": [
+  [
+   13,
+   "keeping- with",
+   "keeping with",
+   "ocr"
+  ],
+  [
+   22,
+   "it resist on",
+   "it rests on",
+   "ocr"
+  ],
+  [
+   22,
+   "positive non- alignment",
+   "positive non-alignment",
+   "hyphen"
+  ],
+  [
+   22,
+   "that non- alignment",
+   "that non-alignment",
+   "hyphen"
+  ],
+  [
+   22,
+   "our- national",
+   "our national",
+   "ocr"
+  ],
+  [
+   24,
+   "socio-economic 'integration",
+   "socio-economic integration",
+   "ocr"
+  ],
+  [
+   24,
+   "sub region",
+   "subregion",
+   "split_word"
+  ],
+  [
+   25,
+   "QAU",
+   "OAU",
+   "ocr"
+  ],
+  [
+   26,
+   "liberate it ' only",
+   "liberate it only",
+   "ocr"
+  ],
+  [
+   28,
+   "Caribbean'",
+   "Caribbean",
+   "ocr"
+  ],
+  [
+   45,
+   "OAIJ",
+   "OAU",
+   "ocr"
+  ],
+  [
+   48,
+   "Government if the OAU",
+   "Government of the OAU",
+   "ocr"
+  ],
+  [
+   66,
+   "500,000 ions",
+   "500,000 tons",
+   "ocr"
+  ],
+  [
+   72,
+   "rights^",
+   "rights",
+   "ocr"
+  ],
+  [
+   72,
+   "full, responsibilities",
+   "full responsibilities",
+   "ocr"
+  ],
+  [
+   97,
+   "338(1973}",
+   "338 (1973)",
+   "ocr"
+  ],
+  [
+   105,
+   "effort is will",
+   "effort will",
+   "ocr"
+  ],
+  [
+   124,
+   "except dough intermediaries",
+   "except through intermediaries",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 124 has an illegible word (\"The great n?: are\") left as found.",
+ "unitizer_version": 1,
+ "sha1": "a62eed7fad59f8db67b3eb0e293a51df8f673a30",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 4279,
+  "words_out": 4274,
+  "retention": 0.9988,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   118,
+   170,
+   79,
+   87,
+   86,
+   208,
+   83,
+   173,
+   83,
+   176,
+   119,
+   178,
+   54,
+   171,
+   120,
+   151,
+   236,
+   182,
+   176,
+   67,
+   75,
+   135,
+   119,
+   97,
+   187,
+   227,
+   55,
+   111,
+   154,
+   115,
+   46,
+   206,
+   30
+  ],
+  "warnings": []
+ }
+}

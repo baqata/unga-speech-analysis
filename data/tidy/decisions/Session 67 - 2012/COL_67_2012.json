@@ -1,0 +1,66 @@
+{
+ "id": "COL_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  29,
+  38,
+  51,
+  60,
+  68,
+  82,
+  90,
+  111,
+  121,
+  133,
+  147,
+  164,
+  176,
+  191
+ ],
+ "cer": [],
+ "fix": [
+  [
+   53,
+   "brief ly",
+   "briefly",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9968a2ee9263a926acbaa8c09a1b883e1868f9ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1716,
+  "words_out": 1714,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   114,
+   127,
+   60,
+   121,
+   75,
+   58,
+   107,
+   69,
+   182,
+   86,
+   95,
+   122,
+   133,
+   110,
+   148,
+   107
+  ],
+  "warnings": []
+ }
+}

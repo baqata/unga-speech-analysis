@@ -1,0 +1,76 @@
+{
+ "id": "IND_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  15,
+  21,
+  26,
+  30,
+  35,
+  39,
+  46,
+  49,
+  53,
+  59,
+  65,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "modern- day",
+   "modern-day",
+   "spacing"
+  ],
+  [
+   14,
+   "all- pervasive",
+   "all-pervasive",
+   "spacing"
+  ],
+  [
+   36,
+   "ever- changing",
+   "ever-changing",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1eb79bc059649dcbb962d0a90ff86c468761eca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1571,
+  "words_out": 1568,
+  "retention": 0.9981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   87,
+   168,
+   104,
+   126,
+   130,
+   66,
+   130,
+   71,
+   133,
+   62,
+   69,
+   104,
+   78,
+   168,
+   72
+  ],
+  "warnings": []
+ }
+}

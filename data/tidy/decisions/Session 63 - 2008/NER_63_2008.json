@@ -1,0 +1,67 @@
+{
+ "id": "NER_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  26,
+  52,
+  74,
+  97,
+  109,
+  125,
+  145,
+  160,
+  176,
+  184,
+  210,
+  221,
+  230,
+  240,
+  263,
+  273
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6cff77deeb8756fff9963694fcae9e1b3db15e5e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 292,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 3,
+   "job_number": 3
+  },
+  "words_in": 2252,
+  "words_out": 2247,
+  "retention": 0.9978,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   127,
+   74,
+   206,
+   169,
+   170,
+   86,
+   125,
+   148,
+   124,
+   116,
+   60,
+   197,
+   96,
+   72,
+   77,
+   176,
+   74,
+   150
+  ],
+  "warnings": []
+ }
+}

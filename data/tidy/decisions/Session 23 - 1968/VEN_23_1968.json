@@ -1,0 +1,99 @@
+{
+ "id": "VEN_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  21,
+  24,
+  35,
+  39,
+  43,
+  49,
+  52,
+  55,
+  63,
+  70,
+  80,
+  83,
+  90,
+  96,
+  101,
+  104,
+  110,
+  118,
+  125,
+  133,
+  139
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   24,
+   " [resolution 1961 (XVIII)]",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "their Opposition",
+   "their opposition",
+   "ocr"
+  ],
+  [
+   81,
+   "name; and",
+   "name, and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aceb71bd8fe014a05d2b823a9501187486cb350f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3135,
+  "words_out": 3091,
+  "retention": 0.986,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   147,
+   82,
+   66,
+   242,
+   62,
+   237,
+   66,
+   111,
+   188,
+   58,
+   79,
+   175,
+   122,
+   134,
+   71,
+   173,
+   132,
+   111,
+   68,
+   154,
+   145,
+   132,
+   139,
+   117,
+   80
+  ],
+  "warnings": []
+ }
+}

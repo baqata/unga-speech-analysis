@@ -1,0 +1,100 @@
+{
+ "id": "KEN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  16,
+  21,
+  26,
+  29,
+  35,
+  41,
+  45,
+  50,
+  53,
+  56,
+  60,
+  62,
+  67,
+  72,
+  77,
+  80,
+  83,
+  88,
+  93,
+  98,
+  102,
+  106,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   64,
+   "system,ic",
+   "systemic",
+   "ocr"
+  ],
+  [
+   72,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   101,
+   "toan",
+   "to an",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3b1589b2aa4c4c5bf41c28b5e0f88d53589adfc5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2817,
+  "words_out": 2813,
+  "retention": 0.9986,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   75,
+   75,
+   122,
+   167,
+   118,
+   127,
+   69,
+   162,
+   92,
+   134,
+   146,
+   75,
+   75,
+   93,
+   83,
+   96,
+   142,
+   108,
+   69,
+   109,
+   108,
+   139,
+   112,
+   96,
+   84,
+   89,
+   48
+  ],
+  "warnings": []
+ }
+}

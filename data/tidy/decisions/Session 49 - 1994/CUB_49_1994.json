@@ -1,0 +1,75 @@
+{
+ "id": "CUB_49_1994",
+ "drop": [
+  [
+   13,
+   13,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  17,
+  21,
+  28,
+  33,
+  37,
+  40,
+  44,
+  49,
+  53,
+  56,
+  64,
+  71,
+  74,
+  79,
+  85,
+  89
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cbe8b551634ff2fda2f108a917b3f2e21b490885",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2738,
+  "words_out": 2731,
+  "retention": 0.9974,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   155,
+   136,
+   124,
+   101,
+   132,
+   186,
+   136,
+   167,
+   142,
+   115,
+   144,
+   127,
+   85,
+   195,
+   163,
+   92,
+   148,
+   121,
+   117,
+   145
+  ],
+  "warnings": [
+   "procedural drop [13,13] in the middle of the speech"
+  ]
+ }
+}

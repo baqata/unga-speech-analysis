@@ -1,0 +1,75 @@
+{
+ "id": "UGA_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  27,
+  35,
+  45,
+  54,
+  59,
+  65,
+  72,
+  76,
+  81,
+  90,
+  97
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   19,
+   "Out goal",
+   "Our goal",
+   "ocr"
+  ],
+  [
+   51,
+   "The Stage",
+   "The stage",
+   "ocr"
+  ],
+  [
+   85,
+   " [242 (1967)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43cd47191d6ccc66922925d840246b6860c59a77",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1916,
+  "words_out": 1899,
+  "retention": 0.9911,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   59,
+   115,
+   278,
+   133,
+   211,
+   177,
+   112,
+   92,
+   129,
+   85,
+   100,
+   160,
+   115,
+   133
+  ],
+  "warnings": []
+ }
+}

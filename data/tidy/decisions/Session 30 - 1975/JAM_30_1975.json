@@ -1,0 +1,130 @@
+{
+ "id": "JAM_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  14,
+  18,
+  24,
+  27,
+  30,
+  35,
+  38,
+  42,
+  44,
+  51,
+  53,
+  57,
+  61,
+  65,
+  73,
+  78,
+  86,
+  90
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   1,
+   "Algeria, To",
+   "Algeria. To",
+   "ocr"
+  ],
+  [
+   1,
+   "Boute- flika",
+   "Bouteflika",
+   "hyphen"
+  ],
+  [
+   9,
+   "personality, It",
+   "personality. It",
+   "ocr"
+  ],
+  [
+   18,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   45,
+   "Assembly, Undoubtedly",
+   "Assembly. Undoubtedly",
+   "ocr"
+  ],
+  [
+   61,
+   "economic, adjustments",
+   "economic adjustments",
+   "ocr"
+  ],
+  [
+   76,
+   "forth-coming",
+   "forthcoming",
+   "hyphen"
+  ],
+  [
+   86,
+   "subject, He",
+   "subject. He",
+   "ocr"
+  ],
+  [
+   89,
+   "it.\"3",
+   "it.\"",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c5862610cfe4bbda7482ea6ccc16b4be0c865838",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 2832,
+  "words_out": 2830,
+  "retention": 0.9993,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   113,
+   100,
+   140,
+   110,
+   164,
+   115,
+   79,
+   99,
+   130,
+   120,
+   131,
+   67,
+   182,
+   109,
+   129,
+   122,
+   154,
+   235,
+   173,
+   180,
+   148,
+   30
+  ],
+  "warnings": []
+ }
+}

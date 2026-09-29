@@ -1,0 +1,86 @@
+{
+ "id": "PAK_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  25,
+  37,
+  51,
+  68,
+  91,
+  101,
+  132,
+  151,
+  161,
+  184,
+  202,
+  211,
+  229,
+  238,
+  259,
+  273,
+  293
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   63,
+   "(Security Council",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "resolution 122 (1957), second preambular paragraph)",
+   "",
+   "label"
+  ],
+  [
+   128,
+   "(resolution 122 (1957), operative para. 1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ce47b569969f713dda776e3434cac8ef7de2d02",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 307,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2561,
+  "words_out": 2544,
+  "retention": 0.9934,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   21,
+   195,
+   93,
+   110,
+   128,
+   155,
+   82,
+   254,
+   156,
+   89,
+   194,
+   151,
+   75,
+   157,
+   85,
+   187,
+   117,
+   162,
+   133
+  ],
+  "warnings": []
+ }
+}

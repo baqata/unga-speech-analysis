@@ -1,0 +1,212 @@
+{
+ "id": "CUB_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  18,
+  23,
+  29,
+  34,
+  39,
+  48,
+  60,
+  64,
+  72,
+  78,
+  84,
+  89,
+  96,
+  101,
+  105,
+  109,
+  112,
+  118,
+  123,
+  126,
+  130,
+  135,
+  141,
+  151,
+  160,
+  170,
+  177,
+  184,
+  190,
+  192,
+  197,
+  201,
+  206,
+  208,
+  217,
+  225,
+  231,
+  235,
+  242
+ ],
+ "cer": [
+  8
+ ],
+ "fix": [
+  [
+   4,
+   "anti- Cuban",
+   "anti-Cuban",
+   "hyphen"
+  ],
+  [
+   32,
+   "echoes Of",
+   "echoes of",
+   "ocr"
+  ],
+  [
+   55,
+   "Gir6n",
+   "Girón",
+   "ocr"
+  ],
+  [
+   63,
+   "self- sacrificing",
+   "self-sacrificing",
+   "hyphen"
+  ],
+  [
+   70,
+   "Republic of, Viet-Nam",
+   "Republic of Viet-Nam",
+   "ocr"
+  ],
+  [
+   75,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   77,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   79,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   82,
+   ".declaration",
+   "declaration",
+   "ocr"
+  ],
+  [
+   94,
+   "TshombS",
+   "Tshombé",
+   "ocr"
+  ],
+  [
+   102,
+   "minority'",
+   "minority",
+   "ocr"
+  ],
+  [
+   203,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   234,
+   "the' Cuban",
+   "the Cuban",
+   "ocr"
+  ],
+  [
+   237,
+   "own' strength",
+   "own strength",
+   "ocr"
+  ],
+  [
+   241,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   87,
+   " [A/5977]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Closing sentence is partly garbled in the source (words missing around 'Playa Giron'); kept as is.",
+ "unitizer_version": 1,
+ "sha1": "1a0d65d70d1bd9378cb5eb4319a54a03814cc6ba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 5747,
+  "words_out": 5671,
+  "retention": 0.9868,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   174,
+   88,
+   152,
+   152,
+   99,
+   113,
+   323,
+   190,
+   167,
+   77,
+   203,
+   120,
+   157,
+   80,
+   121,
+   88,
+   99,
+   120,
+   69,
+   175,
+   146,
+   65,
+   94,
+   59,
+   98,
+   179,
+   130,
+   282,
+   182,
+   159,
+   189,
+   65,
+   145,
+   131,
+   132,
+   64,
+   225,
+   133,
+   126,
+   80,
+   141,
+   79
+  ],
+  "warnings": [
+   "paragraph at unit 35 has 323 words"
+  ]
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "KIR_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  32,
+  46,
+  62,
+  72,
+  86,
+  95,
+  104,
+  115,
+  131,
+  144,
+  153,
+  163,
+  182,
+  200,
+  214,
+  221
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [
+  [
+   15,
+   "Jeremi..",
+   "Jeremić.",
+   "encoding"
+  ],
+  [
+   187,
+   "ago.We",
+   "ago. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30118502d7647f5bed341d92f144d8143573aef5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 236,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2064,
+  "words_out": 2062,
+  "retention": 0.999,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   126,
+   146,
+   116,
+   151,
+   96,
+   135,
+   76,
+   69,
+   101,
+   138,
+   122,
+   69,
+   94,
+   156,
+   161,
+   121,
+   50,
+   135
+  ],
+  "warnings": []
+ }
+}

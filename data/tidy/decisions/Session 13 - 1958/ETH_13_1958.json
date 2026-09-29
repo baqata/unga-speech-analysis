@@ -1,0 +1,96 @@
+{
+ "id": "ETH_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  16,
+  24,
+  28,
+  32,
+  34,
+  39,
+  43,
+  51,
+  57,
+  60,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "bum",
+   "been",
+   "ocr"
+  ],
+  [
+   22,
+   "he a non-fighting",
+   "be a non-fighting",
+   "ocr"
+  ],
+  [
+   23,
+   "[A/3844/Add.1. p. 2]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "[A/3844'/ Add.l. p. 4]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "will, not",
+   "will not",
+   "ocr"
+  ],
+  [
+   44,
+   "[693rd meeting para. 97]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "620a7de2b14ef477463103027c11d7443d111b29",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 2300,
+  "words_out": 2289,
+  "retention": 0.9952,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   123,
+   146,
+   172,
+   94,
+   258,
+   183,
+   131,
+   74,
+   196,
+   138,
+   200,
+   205,
+   82,
+   239,
+   48
+  ],
+  "warnings": []
+ }
+}

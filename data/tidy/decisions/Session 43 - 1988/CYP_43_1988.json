@@ -1,0 +1,222 @@
+{
+ "id": "CYP_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  7,
+  10,
+  12,
+  16,
+  18,
+  22,
+  25,
+  29,
+  33,
+  38,
+  43,
+  49,
+  52,
+  56,
+  61,
+  64,
+  68,
+  76,
+  81,
+  85,
+  95,
+  101,
+  104,
+  109,
+  112
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   13,
+   "united Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   16,
+   "fortuitous. ' It",
+   "fortuitous. It",
+   "ocr"
+  ],
+  [
+   29,
+   "member ship",
+   "membership",
+   "split_word"
+  ],
+  [
+   34,
+   ".freed",
+   "freed",
+   "ocr"
+  ],
+  [
+   39,
+   "unit/ and",
+   "unity and",
+   "ocr"
+  ],
+  [
+   42,
+   "Human Rights; I",
+   "Human Rights, I",
+   "ocr"
+  ],
+  [
+   44,
+   "Ti-s ¡resumed",
+   "The resumed",
+   "ocr"
+  ],
+  [
+   45,
+   "the\" Cyprus",
+   "the Cyprus",
+   "ocr"
+  ],
+  [
+   47,
+   "the Pain elements",
+   "the main elements",
+   "ocr"
+  ],
+  [
+   48,
+   "WE, for",
+   "We, for",
+   "ocr"
+  ],
+  [
+   49,
+   "and 1 reiterate",
+   "and I reiterate",
+   "ocr"
+  ],
+  [
+   52,
+   "the pact of",
+   "the part of",
+   "ocr"
+  ],
+  [
+   56,
+   "Mediterranean, Progress",
+   "Mediterranean. Progress",
+   "ocr"
+  ],
+  [
+   58,
+   "Cyprus ace",
+   "Cyprus are",
+   "ocr"
+  ],
+  [
+   60,
+   "Increased Interest",
+   "increased interest",
+   "ocr"
+  ],
+  [
+   61,
+   "Moet developing",
+   "Most developing",
+   "ocr"
+  ],
+  [
+   61,
+   "leant developed",
+   "least developed",
+   "ocr"
+  ],
+  [
+   75,
+   "can to said",
+   "can be said",
+   "ocr"
+  ],
+  [
+   81,
+   "mote favourable",
+   "more favourable",
+   "ocr"
+  ],
+  [
+   87,
+   "of Innocent",
+   "of innocent",
+   "ocr"
+  ],
+  [
+   104,
+   "What, can",
+   "What can",
+   "ocr"
+  ],
+  [
+   107,
+   "apart free raising",
+   "apart from raising",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 61 breaks off mid-sentence ('basic needs'); the rest of the sentence is missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "7a08b64662a6214a2d732d3a7fae8cb1dc342752",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3017,
+  "words_out": 3015,
+  "retention": 0.9993,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   57,
+   28,
+   71,
+   86,
+   84,
+   83,
+   70,
+   64,
+   92,
+   86,
+   91,
+   90,
+   186,
+   144,
+   88,
+   88,
+   186,
+   109,
+   122,
+   211,
+   129,
+   130,
+   221,
+   112,
+   70,
+   100,
+   83,
+   134
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "id": "MRT_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  19,
+  23,
+  26,
+  30,
+  33,
+  36,
+  38,
+  40,
+  43,
+  45,
+  51,
+  54,
+  56,
+  63,
+  68,
+  71,
+  75,
+  78,
+  80,
+  81,
+  84,
+  86
+ ],
+ "cer": [
+  0,
+  5,
+  10,
+  80
+ ],
+ "fix": [
+  [
+   2,
+   "Saudi Arabic",
+   "Saudi Arabia",
+   "ocr"
+  ],
+  [
+   10,
+   "event end we",
+   "event and we",
+   "ocr"
+  ],
+  [
+   31,
+   "May 199 3",
+   "May 1991",
+   "ocr"
+  ],
+  [
+   32,
+   "He welcome",
+   "We welcome",
+   "ocr"
+  ],
+  [
+   61,
+   "It this is",
+   "If this is",
+   "ocr"
+  ],
+  [
+   69,
+   "our President.",
+   "our President,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "784258ee0a782bab9f97a356870576f2a274a80e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2270,
+  "words_out": 2269,
+  "retention": 0.9996,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   105,
+   132,
+   116,
+   115,
+   92,
+   66,
+   103,
+   90,
+   63,
+   62,
+   64,
+   98,
+   63,
+   150,
+   98,
+   70,
+   147,
+   86,
+   63,
+   95,
+   56,
+   63,
+   51,
+   61,
+   52,
+   108
+  ],
+  "warnings": []
+ }
+}

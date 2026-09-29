@@ -1,0 +1,55 @@
+{
+ "id": "TCD_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  41,
+  54,
+  64,
+  84,
+  107,
+  117,
+  131,
+  159,
+  177,
+  191,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a42a1b2af3f473b39c6925701e7a4b75841f8e9d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1757,
+  "words_out": 1755,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   143,
+   171,
+   106,
+   89,
+   160,
+   192,
+   93,
+   109,
+   239,
+   146,
+   114,
+   95,
+   98
+  ],
+  "warnings": []
+ }
+}

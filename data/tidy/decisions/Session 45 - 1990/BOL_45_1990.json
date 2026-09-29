@@ -1,0 +1,98 @@
+{
+ "id": "BOL_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  18,
+  24,
+  28,
+  32,
+  37,
+  40,
+  41,
+  47,
+  49,
+  59,
+  63,
+  66,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "Berlin Hall",
+   "Berlin Wall",
+   "ocr"
+  ],
+  [
+   26,
+   " Bolivia",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "44,228",
+   "44/228",
+   "ocr"
+  ],
+  [
+   43,
+   "is the new",
+   "in the new",
+   "ocr"
+  ],
+  [
+   51,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   69,
+   " Bolivia",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 26 and 69 carry a stray running header word 'Bolivia' inside the sentence.",
+ "unitizer_version": 1,
+ "sha1": "4e0de30b0b5350743f722cdc75ac9e363954832a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2210,
+  "words_out": 2208,
+  "retention": 0.9991,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   138,
+   118,
+   156,
+   117,
+   159,
+   155,
+   94,
+   133,
+   115,
+   74,
+   191,
+   90,
+   224,
+   122,
+   82,
+   200,
+   40
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "id": "AFG_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  30,
+  76,
+  103,
+  115,
+  148,
+  158,
+  174,
+  192,
+  220,
+  246,
+  280,
+  311,
+  341,
+  360,
+  399,
+  411,
+  456,
+  486
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "precognition",
+   "recognition",
+   "ocr"
+  ],
+  [
+   58,
+   "present- day",
+   "present-day",
+   "spacing"
+  ],
+  [
+   171,
+   "how rallying",
+   "now rallying",
+   "ocr"
+  ],
+  [
+   271,
+   "haltthe",
+   "halt the",
+   "merged_word"
+  ],
+  [
+   390,
+   "fU.t",
+   "full",
+   "ocr"
+  ],
+  [
+   457,
+   "adequatetransport",
+   "adequate transport",
+   "merged_word"
+  ],
+  [
+   495,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   497,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc669c6cb04c28094d5c087bcb0bf75d518fa214",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 505,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3518,
+  "words_out": 3516,
+  "retention": 0.9994,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   231,
+   336,
+   205,
+   85,
+   222,
+   70,
+   116,
+   124,
+   192,
+   193,
+   241,
+   214,
+   203,
+   131,
+   250,
+   75,
+   314,
+   196,
+   118
+  ],
+  "warnings": [
+   "paragraph at unit 30 has 336 words"
+  ]
+ }
+}

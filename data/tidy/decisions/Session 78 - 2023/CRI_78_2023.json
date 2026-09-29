@@ -1,0 +1,110 @@
+{
+ "id": "CRI_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  20,
+  28,
+  31,
+  40,
+  46,
+  52,
+  56,
+  63,
+  67
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "Ukraine.",
+   "Ukraine,",
+   "ocr"
+  ],
+  [
+   19,
+   "and. together",
+   "and, together",
+   "ocr"
+  ],
+  [
+   25,
+   "Therefore.",
+   "Therefore,",
+   "ocr"
+  ],
+  [
+   31,
+   "Rica.",
+   "Rica,",
+   "ocr"
+  ],
+  [
+   35,
+   "But. as",
+   "But, as",
+   "ocr"
+  ],
+  [
+   36,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   45,
+   "now. when",
+   "now, when",
+   "ocr"
+  ],
+  [
+   54,
+   "why. for",
+   "why, for",
+   "ocr"
+  ],
+  [
+   59,
+   "2024. to",
+   "2024, to",
+   "ocr"
+  ],
+  [
+   59,
+   "and. above all. implementation",
+   "and, above all, implementation",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9cdcdea086d4f5f89c7ecda67bdbab70ade12139",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1523,
+  "words_out": 1523,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   137,
+   106,
+   151,
+   183,
+   69,
+   154,
+   152,
+   128,
+   99,
+   219,
+   104,
+   21
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "UKR_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  30,
+  48,
+  60,
+  83,
+  95,
+  108,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b699dc3bd4225656e53c22ec9f068806eb60cca",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 1
+  },
+  "words_in": 1023,
+  "words_out": 1018,
+  "retention": 0.9951,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   64,
+   180,
+   142,
+   87,
+   179,
+   98,
+   102,
+   106,
+   60
+  ],
+  "warnings": []
+ }
+}

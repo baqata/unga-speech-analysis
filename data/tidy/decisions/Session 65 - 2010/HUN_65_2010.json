@@ -1,0 +1,53 @@
+{
+ "id": "HUN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  32,
+  48,
+  68,
+  87,
+  97,
+  116,
+  135,
+  153,
+  166,
+  182,
+  192
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "baaa09b296963cce25ed5618cd48de090ad98577",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1556,
+  "words_out": 1555,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   93,
+   152,
+   118,
+   148,
+   149,
+   79,
+   143,
+   141,
+   127,
+   81,
+   128,
+   79,
+   117
+  ],
+  "warnings": []
+ }
+}

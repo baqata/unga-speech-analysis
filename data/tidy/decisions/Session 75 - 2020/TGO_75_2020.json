@@ -1,0 +1,58 @@
+{
+ "id": "TGO_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  15,
+  23,
+  28,
+  32,
+  36,
+  40,
+  44,
+  49
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   47,
+   "non- State",
+   "non-State",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d2c8c2acd368b4f44491adfaad64df82beec7a13",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1557,
+  "words_out": 1556,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   84,
+   120,
+   106,
+   133,
+   225,
+   154,
+   116,
+   126,
+   141,
+   87,
+   130,
+   134
+  ],
+  "warnings": []
+ }
+}

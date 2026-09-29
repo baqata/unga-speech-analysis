@@ -1,0 +1,114 @@
+{
+ "id": "MDG_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  28,
+  38,
+  48,
+  68,
+  77,
+  96,
+  112,
+  121,
+  138,
+  154,
+  168
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   14,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   25,
+   "administrationís",
+   "administration’s",
+   "encoding"
+  ],
+  [
+   43,
+   "Madagascarís",
+   "Madagascar’s",
+   "encoding"
+  ],
+  [
+   81,
+   "Todayís",
+   "Today’s",
+   "encoding"
+  ],
+  [
+   88,
+   "Africanís",
+   "African’s",
+   "encoding"
+  ],
+  [
+   127,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   134,
+   "Madagascarís",
+   "Madagascar’s",
+   "encoding"
+  ],
+  [
+   159,
+   "ìMarshall",
+   "“Marshall",
+   "encoding"
+  ],
+  [
+   160,
+   "Planî",
+   "Plan”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2824ab75b1befb3cf24f473604bc7241b931f95a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1378,
+  "words_out": 1376,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   91,
+   111,
+   78,
+   81,
+   159,
+   76,
+   155,
+   127,
+   71,
+   146,
+   139,
+   122,
+   20
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "BTN_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  15,
+  19,
+  23,
+  31,
+  38,
+  41,
+  47,
+  54,
+  59
+ ],
+ "cer": [
+  0,
+  19
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40cba530acef763d486f82d79228dc02a12932bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1100,
+  "words_out": 1096,
+  "retention": 0.9964,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   10,
+   62,
+   160,
+   63,
+   83,
+   127,
+   108,
+   77,
+   107,
+   106,
+   102,
+   91
+  ],
+  "warnings": []
+ }
+}

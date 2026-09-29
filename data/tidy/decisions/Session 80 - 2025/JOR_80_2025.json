@@ -1,0 +1,65 @@
+{
+ "id": "JOR_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   73,
+   73,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  7,
+  13,
+  21,
+  31,
+  36,
+  45,
+  51,
+  58,
+  69,
+  72
+ ],
+ "cer": [
+  2,
+  72
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db2bf192dfb24a3599bfc1f1071eff06eb15dac4",
+ "layout": "single",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1241,
+  "words_out": 1189,
+  "retention": 0.9581,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   9,
+   70,
+   128,
+   83,
+   174,
+   80,
+   170,
+   60,
+   173,
+   172,
+   68,
+   2
+  ],
+  "warnings": []
+ }
+}

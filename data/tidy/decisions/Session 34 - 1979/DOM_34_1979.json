@@ -1,0 +1,131 @@
+{
+ "id": "DOM_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  11,
+  15,
+  18,
+  22,
+  24,
+  27,
+  31,
+  36,
+  40,
+  43,
+  45,
+  47,
+  52,
+  56,
+  58,
+  62,
+  66,
+  72,
+  74
+ ],
+ "cer": [
+  0,
+  72
+ ],
+ "fix": [
+  [
+   13,
+   " [UNDRO]",
+   "",
+   "label"
+  ],
+  [
+   26,
+   " [CMS]",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "con-sequence",
+   "consequence",
+   "hyphen"
+  ],
+  [
+   29,
+   "multiple- warhead",
+   "multiple-warhead",
+   "spacing"
+  ],
+  [
+   29,
+   "missies",
+   "missiles",
+   "ocr"
+  ],
+  [
+   53,
+   "Inter- American",
+   "Inter-American",
+   "spacing"
+  ],
+  [
+   59,
+   "ex- ort",
+   "exhort",
+   "ocr"
+  ],
+  [
+   64,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   76,
+   "comer-stone",
+   "corner-stone",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d96e5697cd495c0c11552c6c52750e3c146d19bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3259,
+  "words_out": 3253,
+  "retention": 0.9982,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   136,
+   109,
+   103,
+   172,
+   225,
+   165,
+   194,
+   63,
+   139,
+   197,
+   213,
+   159,
+   112,
+   84,
+   124,
+   185,
+   192,
+   82,
+   163,
+   70,
+   165,
+   64,
+   137
+  ],
+  "warnings": []
+ }
+}

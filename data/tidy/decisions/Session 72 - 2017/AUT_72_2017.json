@@ -1,0 +1,68 @@
+{
+ "id": "AUT_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  17,
+  20,
+  32,
+  43,
+  49,
+  56,
+  59,
+  63,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "took at",
+   "look at",
+   "ocr"
+  ],
+  [
+   58,
+   "number- one",
+   "number-one",
+   "hyphen"
+  ],
+  [
+   63,
+   "achievementin",
+   "achievement in",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5ad38343d6625616bd87db71133e57ccbf7871c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1316,
+  "words_out": 1316,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   117,
+   96,
+   112,
+   82,
+   140,
+   173,
+   124,
+   139,
+   64,
+   78,
+   94,
+   97
+  ],
+  "warnings": []
+ }
+}

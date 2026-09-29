@@ -1,0 +1,124 @@
+{
+ "id": "BGR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  29,
+  46,
+  60,
+  75,
+  93,
+  109,
+  120,
+  135,
+  145,
+  163,
+  173,
+  185,
+  204,
+  217,
+  232,
+  251,
+  259,
+  279,
+  291,
+  311,
+  333,
+  348,
+  364,
+  381
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   125,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   127,
+   "Bulgaria?s",
+   "Bulgaria’s",
+   "encoding"
+  ],
+  [
+   227,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   240,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   278,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   367,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   382,
+   "country?s",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a3f4eb89ce5970acac017ef96af1bc47a1e66d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 388,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 3152,
+  "words_out": 3145,
+  "retention": 0.9978,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   97,
+   117,
+   141,
+   114,
+   118,
+   149,
+   138,
+   90,
+   134,
+   90,
+   143,
+   80,
+   85,
+   151,
+   107,
+   123,
+   160,
+   65,
+   165,
+   96,
+   162,
+   190,
+   121,
+   130,
+   124,
+   55
+  ],
+  "warnings": []
+ }
+}

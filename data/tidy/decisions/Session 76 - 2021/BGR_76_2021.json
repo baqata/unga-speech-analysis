@@ -1,0 +1,78 @@
+{
+ "id": "BGR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  18,
+  26,
+  34,
+  37,
+  43,
+  44,
+  48,
+  53,
+  57
+ ],
+ "cer": [
+  0,
+  2,
+  57
+ ],
+ "fix": [
+  [
+   13,
+   "• to prevent",
+   "to prevent",
+   "markup"
+  ],
+  [
+   14,
+   "• to focus",
+   "to focus",
+   "markup"
+  ],
+  [
+   16,
+   "• to accelerate",
+   "to accelerate",
+   "markup"
+  ],
+  [
+   17,
+   "• to combat",
+   "to combat",
+   "markup"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "826a50393d1699e02ed0c16ba81aa3f3cea3899c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1279,
+  "words_out": 1275,
+  "retention": 0.9969,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   13,
+   96,
+   184,
+   168,
+   172,
+   89,
+   161,
+   31,
+   128,
+   128,
+   101,
+   4
+  ],
+  "warnings": []
+ }
+}

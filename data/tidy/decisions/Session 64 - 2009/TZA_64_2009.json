@@ -1,0 +1,62 @@
+{
+ "id": "TZA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  24,
+  43,
+  66,
+  88,
+  107,
+  123,
+  139,
+  153,
+  171,
+  184,
+  195,
+  212,
+  230,
+  244
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6fccd5e52d0ed35d9e6e2c10d793d3143a18616a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2082,
+  "words_out": 2080,
+  "retention": 0.999,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   105,
+   156,
+   178,
+   191,
+   156,
+   126,
+   120,
+   117,
+   140,
+   113,
+   103,
+   143,
+   156,
+   101,
+   95
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "MRT_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  12,
+  17,
+  20,
+  22,
+  25,
+  29,
+  31,
+  34,
+  41,
+  45,
+  47,
+  49,
+  53
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   54,
+   " (The Holy Koran, L III: 31-41).",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "you*",
+   "you.",
+   "ocr"
+  ],
+  [
+   53,
+   "nothing Rit what",
+   "nothing But what",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d05433b073a6300b1b025cefb3698014abe5e810",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1580,
+  "words_out": 1574,
+  "retention": 0.9962,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   93,
+   49,
+   194,
+   111,
+   62,
+   59,
+   114,
+   119,
+   75,
+   110,
+   198,
+   121,
+   85,
+   67,
+   81,
+   36
+  ],
+  "warnings": []
+ }
+}

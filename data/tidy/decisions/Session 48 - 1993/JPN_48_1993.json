@@ -1,0 +1,70 @@
+{
+ "id": "JPN_48_1993",
+ "drop": [
+  [
+   218,
+   218,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  15,
+  38,
+  43,
+  60,
+  79,
+  97,
+  107,
+  129,
+  147,
+  155,
+  170,
+  187,
+  199,
+  213,
+  231
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a826f447f2b01d299d6aa153a9fc9fac912dcd06",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 2065,
+  "words_out": 2058,
+  "retention": 0.9966,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   64,
+   51,
+   206,
+   44,
+   140,
+   160,
+   163,
+   85,
+   184,
+   151,
+   67,
+   122,
+   134,
+   102,
+   124,
+   144,
+   117
+  ],
+  "warnings": []
+ }
+}

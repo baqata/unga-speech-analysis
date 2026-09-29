@@ -1,0 +1,64 @@
+{
+ "id": "COL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  25,
+  30,
+  34,
+  40,
+  44,
+  51,
+  54,
+  60,
+  64,
+  67,
+  73,
+  78
+ ],
+ "cer": [],
+ "fix": [
+  [
+   68,
+   "elevatingthis",
+   "elevating this",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f6a2a48156c27389c43b6f7ec160a1399396314",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1778,
+  "words_out": 1779,
+  "retention": 1.0006,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   143,
+   120,
+   130,
+   189,
+   130,
+   72,
+   89,
+   89,
+   112,
+   116,
+   145,
+   74,
+   55,
+   146,
+   118,
+   51
+  ],
+  "warnings": []
+ }
+}

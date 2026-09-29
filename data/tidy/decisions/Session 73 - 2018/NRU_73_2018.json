@@ -1,0 +1,65 @@
+{
+ "id": "NRU_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  18,
+  24,
+  28,
+  41,
+  49,
+  54,
+  60,
+  67,
+  76,
+  80,
+  85,
+  87
+ ],
+ "cer": [
+  0,
+  85
+ ],
+ "fix": [
+  [
+   77,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c4f7124a4450ca69c2a3a7f08f7b1f52a24c41b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1770,
+  "words_out": 1767,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   60,
+   115,
+   155,
+   108,
+   105,
+   212,
+   116,
+   139,
+   134,
+   123,
+   163,
+   109,
+   96,
+   47,
+   85
+  ],
+  "warnings": []
+ }
+}

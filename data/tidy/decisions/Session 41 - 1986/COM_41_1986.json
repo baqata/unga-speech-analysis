@@ -1,0 +1,89 @@
+{
+ "id": "COM_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  11,
+  20,
+  23,
+  26,
+  32,
+  35,
+  42,
+  44,
+  47,
+  49,
+  53,
+  55,
+  58,
+  60,
+  63,
+  66,
+  68,
+  72,
+  73,
+  76
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   24,
+   "ray country",
+   "my country",
+   "ocr"
+  ],
+  [
+   14,
+   "being\" reduced",
+   "being reduced",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f4e3d82ae9288480b13a178999245d78ceabfb4f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2233,
+  "words_out": 2233,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   112,
+   65,
+   77,
+   91,
+   168,
+   93,
+   88,
+   89,
+   99,
+   172,
+   81,
+   84,
+   86,
+   117,
+   71,
+   94,
+   57,
+   79,
+   113,
+   80,
+   102,
+   64,
+   82,
+   69
+  ],
+  "warnings": []
+ }
+}

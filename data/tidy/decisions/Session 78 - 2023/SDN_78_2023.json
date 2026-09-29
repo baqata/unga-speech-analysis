@@ -1,0 +1,131 @@
+{
+ "id": "SDN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  16,
+  24,
+  31,
+  36,
+  39,
+  44,
+  49,
+  52,
+  58,
+  64,
+  70
+ ],
+ "cer": [
+  0,
+  36,
+  64,
+  70
+ ],
+ "fix": [
+  [
+   0,
+   "Sudan. I",
+   "Sudan, I",
+   "ocr"
+  ],
+  [
+   10,
+   "Tawila.",
+   "Tawila,",
+   "ocr"
+  ],
+  [
+   11,
+   "Mornei.",
+   "Mornei,",
+   "ocr"
+  ],
+  [
+   21,
+   "day. we",
+   "day, we",
+   "ocr"
+  ],
+  [
+   31,
+   "Nevertheless.",
+   "Nevertheless,",
+   "ocr"
+  ],
+  [
+   33,
+   "war. a war",
+   "war, a war",
+   "ocr"
+  ],
+  [
+   49,
+   "Al-Nur. so",
+   "Al-Nur, so",
+   "ocr"
+  ],
+  [
+   58,
+   "conclude.",
+   "conclude,",
+   "ocr"
+  ],
+  [
+   64,
+   "conclusion.",
+   "conclusion,",
+   "ocr"
+  ],
+  [
+   65,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   66,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   71,
+   "us. supported",
+   "us, supported",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1b65cc7444793b4ac4be2557bee60b3a8d708df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1521,
+  "words_out": 1520,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   60,
+   131,
+   141,
+   181,
+   89,
+   98,
+   77,
+   103,
+   102,
+   69,
+   137,
+   171,
+   93,
+   68
+  ],
+  "warnings": []
+ }
+}

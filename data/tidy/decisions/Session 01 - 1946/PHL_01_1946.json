@@ -1,0 +1,72 @@
+{
+ "id": "PHL_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  16,
+  24,
+  29,
+  37,
+  44,
+  49,
+  55,
+  60,
+  67,
+  73,
+  76,
+  92,
+  98,
+  100,
+  106
+ ],
+ "cer": [],
+ "fix": [
+  [
+   98,
+   "world,",
+   "world",
+   "ocr"
+  ],
+  [
+   105,
+   "tiling",
+   "thing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a3ed4e63508e765e6afdca153c7a99962e5a5db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2392,
+  "words_out": 2392,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   125,
+   184,
+   165,
+   118,
+   196,
+   179,
+   142,
+   145,
+   139,
+   170,
+   111,
+   83,
+   203,
+   145,
+   58,
+   137,
+   92
+  ],
+  "warnings": []
+ }
+}

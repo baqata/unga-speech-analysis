@@ -1,0 +1,118 @@
+{
+ "id": "GMB_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  19,
+  25,
+  30,
+  40,
+  46,
+  53,
+  58,
+  64,
+  67,
+  70,
+  78,
+  87,
+  91,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Korosi. for",
+   "Korosi, for",
+   "ocr"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   11,
+   "it. first",
+   "it, first",
+   "ocr"
+  ],
+  [
+   18,
+   "(EDC)",
+   "(LDC)",
+   "ocr"
+  ],
+  [
+   24,
+   "sum. we",
+   "sum, we",
+   "ocr"
+  ],
+  [
+   36,
+   "ask. considering",
+   "ask, considering",
+   "ocr"
+  ],
+  [
+   58,
+   "in 2017.",
+   "in 2017,",
+   "ocr"
+  ],
+  [
+   64,
+   "law. peace",
+   "law, peace",
+   "ocr"
+  ],
+  [
+   76,
+   "Secretary- General’s",
+   "Secretary-General’s",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3763498cf7d9ac3961b3758bce25e57183869d4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2113,
+  "words_out": 2111,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   94,
+   84,
+   110,
+   144,
+   138,
+   119,
+   217,
+   119,
+   151,
+   96,
+   87,
+   80,
+   81,
+   165,
+   172,
+   94,
+   67,
+   93
+  ],
+  "warnings": []
+ }
+}

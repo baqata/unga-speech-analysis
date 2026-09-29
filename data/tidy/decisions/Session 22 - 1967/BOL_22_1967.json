@@ -1,0 +1,118 @@
+{
+ "id": "BOL_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  16,
+  22,
+  26,
+  33,
+  42,
+  47,
+  51,
+  54,
+  61,
+  65,
+  68,
+  71,
+  76,
+  80,
+  84,
+  89,
+  95,
+  102,
+  106,
+  110,
+  113,
+  120,
+  123,
+  126
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   37,
+   "situation 1 have",
+   "situation I have",
+   "ocr"
+  ],
+  [
+   57,
+   "this Is that",
+   "this is that",
+   "ocr"
+  ],
+  [
+   60,
+   "but It seems",
+   "but it seems",
+   "ocr"
+  ],
+  [
+   60,
+   "or In international",
+   "or in international",
+   "ocr"
+  ],
+  [
+   67,
+   "of Industry",
+   "of industry",
+   "ocr"
+  ],
+  [
+   91,
+   "will he judged",
+   "will be judged",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a86988b921e2e83e961b096b85d1659caad07989",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3185,
+  "words_out": 3149,
+  "retention": 0.9887,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   171,
+   166,
+   73,
+   175,
+   96,
+   160,
+   168,
+   107,
+   84,
+   76,
+   215,
+   106,
+   86,
+   68,
+   105,
+   122,
+   115,
+   127,
+   126,
+   176,
+   91,
+   62,
+   81,
+   143,
+   66,
+   91,
+   93
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "LSO_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  27,
+  36,
+  45,
+  56,
+  64,
+  80,
+  99,
+  117,
+  125,
+  136,
+  148,
+  162,
+  171
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   90,
+   "context Of",
+   "context of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "278cb8f73c634023664fb30b3dc9c5dc609e8451",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2002,
+  "words_out": 2001,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   178,
+   114,
+   101,
+   100,
+   120,
+   93,
+   165,
+   206,
+   190,
+   79,
+   126,
+   126,
+   158,
+   92,
+   153
+  ],
+  "warnings": []
+ }
+}

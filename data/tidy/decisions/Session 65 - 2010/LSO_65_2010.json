@@ -1,0 +1,64 @@
+{
+ "id": "LSO_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  30,
+  42,
+  50,
+  61,
+  76,
+  92,
+  101,
+  112,
+  121,
+  138,
+  155
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   75,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d0b7aff8ae70367b99a0a504113dc43f412e8144",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1379,
+  "words_out": 1377,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   62,
+   81,
+   105,
+   111,
+   67,
+   96,
+   121,
+   129,
+   60,
+   86,
+   63,
+   125,
+   127,
+   144
+  ],
+  "warnings": []
+ }
+}

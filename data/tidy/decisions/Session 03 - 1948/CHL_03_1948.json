@@ -1,0 +1,72 @@
+{
+ "id": "CHL_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  22,
+  27,
+  32,
+  38,
+  40,
+  46,
+  51,
+  53,
+  58,
+  62,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   " (S/69 6)",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "would, be",
+   "would be",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "9a96d1d96aa6e663b65a84607324d8b18ad7a2ba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1939,
+  "words_out": 1932,
+  "retention": 0.9964,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   73,
+   91,
+   144,
+   169,
+   146,
+   146,
+   183,
+   65,
+   178,
+   133,
+   88,
+   163,
+   123,
+   77,
+   153
+  ],
+  "warnings": []
+ }
+}

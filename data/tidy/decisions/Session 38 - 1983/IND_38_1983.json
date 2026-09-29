@@ -1,0 +1,138 @@
+{
+ "id": "IND_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  14,
+  21,
+  26,
+  31,
+  38,
+  43,
+  52,
+  59,
+  69,
+  78,
+  82,
+  92,
+  98,
+  106,
+  110,
+  111,
+  116,
+  121,
+  124,
+  130,
+  139,
+  149,
+  153,
+  156
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   31,
+   "cost- effectiveness",
+   "cost-effectiveness",
+   "hyphen"
+  ],
+  [
+   54,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   82,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   95,
+   "[SPK4PO]",
+   "[SWAPO]",
+   "ocr"
+  ],
+  [
+   121,
+   "self- respect",
+   "self-respect",
+   "hyphen"
+  ],
+  [
+   159,
+   "reactions m the",
+   "reactions in the",
+   "ocr"
+  ],
+  [
+   95,
+   "[SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   100,
+   "[PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e141da9e74a65f51e7dd388925cab8a783ea8626",
+ "layout": "lines",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3203,
+  "words_out": 3196,
+  "retention": 0.9978,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   77,
+   104,
+   106,
+   156,
+   98,
+   88,
+   125,
+   81,
+   116,
+   148,
+   185,
+   178,
+   124,
+   222,
+   127,
+   123,
+   64,
+   39,
+   72,
+   91,
+   47,
+   146,
+   165,
+   221,
+   64,
+   82,
+   147
+  ],
+  "warnings": []
+ }
+}

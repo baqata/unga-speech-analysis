@@ -1,0 +1,99 @@
+{
+ "id": "THA_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  12,
+  16,
+  19,
+  27,
+  31,
+  37,
+  42,
+  44,
+  48,
+  53,
+  55,
+  59,
+  62,
+  65,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "and. military",
+   "and military",
+   "ocr"
+  ],
+  [
+   32,
+   "[A/2663)",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   50,
+   "[A/2665].",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "in. all",
+   "in all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2743ce1add5a4f6c921e711caf7ff145710e697d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 29
+  },
+  "words_in": 2089,
+  "words_out": 2084,
+  "retention": 0.9976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   89,
+   119,
+   82,
+   70,
+   115,
+   118,
+   137,
+   164,
+   185,
+   107,
+   61,
+   169,
+   138,
+   88,
+   121,
+   93,
+   74,
+   74,
+   80
+  ],
+  "warnings": []
+ }
+}

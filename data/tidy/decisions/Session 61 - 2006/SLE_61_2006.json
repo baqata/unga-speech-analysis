@@ -1,0 +1,51 @@
+{
+ "id": "SLE_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  28,
+  39,
+  57,
+  66,
+  79,
+  93,
+  105,
+  123,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7051da0aa7bf16794b578cdf7735bf7b0080be9f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1139,
+  "words_out": 1138,
+  "retention": 0.9991,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   103,
+   111,
+   90,
+   127,
+   64,
+   99,
+   107,
+   97,
+   143,
+   160,
+   37
+  ],
+  "warnings": []
+ }
+}

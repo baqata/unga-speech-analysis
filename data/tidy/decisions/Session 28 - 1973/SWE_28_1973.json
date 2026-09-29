@@ -1,0 +1,191 @@
+{
+ "id": "SWE_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  19,
+  22,
+  30,
+  37,
+  41,
+  46,
+  49,
+  54,
+  57,
+  60,
+  63,
+  69,
+  73,
+  79,
+  88,
+  93,
+  100,
+  107,
+  113,
+  118,
+  128,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "\"untouched",
+   "untouched",
+   "ocr"
+  ],
+  [
+   27,
+   "clement",
+   "element",
+   "ocr"
+  ],
+  [
+   29,
+   "16. ",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "I At",
+   "At",
+   "ocr"
+  ],
+  [
+   51,
+   "1",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "non- combatants",
+   "non-combatants",
+   "spacing"
+  ],
+  [
+   62,
+   "high- velocity",
+   "high-velocity",
+   "spacing"
+  ],
+  [
+   69,
+   " [A/9061]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   78,
+   "32. ",
+   "",
+   "label"
+  ],
+  [
+   84,
+   " [see resolution 2200 A (XXI)]",
+   "",
+   "label"
+  ],
+  [
+   112,
+   "«. safe",
+   "a safe",
+   "ocr"
+  ],
+  [
+   121,
+   "create, reserves",
+   "create reserves",
+   "ocr"
+  ],
+  [
+   122,
+   "Director- General",
+   "Director-General",
+   "spacing"
+  ],
+  [
+   122,
+   " [FAO\\",
+   "",
+   "label"
+  ],
+  [
+   126,
+   "long- term",
+   "long-term",
+   "spacing"
+  ],
+  [
+   138,
+   "Organization»increasingly",
+   "Organization increasingly",
+   "ocr"
+  ],
+  [
+   139,
+   "I between",
+   "between",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9383d819f2845d8ced7ea8a14317b2bbdcd88a15",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 3196,
+  "words_out": 3175,
+  "retention": 0.9934,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   71,
+   98,
+   84,
+   154,
+   79,
+   173,
+   187,
+   72,
+   122,
+   92,
+   96,
+   65,
+   83,
+   105,
+   131,
+   130,
+   124,
+   193,
+   107,
+   133,
+   111,
+   90,
+   100,
+   195,
+   161,
+   219
+  ],
+  "warnings": []
+ }
+}

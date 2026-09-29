@@ -1,0 +1,82 @@
+{
+ "id": "IRQ_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  29,
+  46,
+  57,
+  70,
+  79,
+  91,
+  104,
+  114,
+  135,
+  150,
+  159,
+  170,
+  186,
+  197,
+  206,
+  224,
+  240,
+  258,
+  266
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "codifi cation",
+   "codification",
+   "split_word"
+  ],
+  [
+   115,
+   "diffi culties",
+   "difficulties",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85f1d59c67f7c03b217a4e5023d9fb1f5dabac9a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 276,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2326,
+  "words_out": 2323,
+  "retention": 0.9987,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   69,
+   173,
+   136,
+   81,
+   110,
+   70,
+   103,
+   109,
+   86,
+   194,
+   122,
+   84,
+   98,
+   128,
+   99,
+   65,
+   161,
+   131,
+   152,
+   65,
+   87
+  ],
+  "warnings": []
+ }
+}

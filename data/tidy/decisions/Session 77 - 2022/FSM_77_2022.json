@@ -1,0 +1,96 @@
+{
+ "id": "FSM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  15,
+  18,
+  22,
+  28,
+  32,
+  36,
+  42,
+  46,
+  51,
+  56,
+  60,
+  64,
+  68,
+  72,
+  76,
+  79,
+  82,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   15,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   22,
+   "CO- emissions",
+   "CO2 emissions",
+   "ocr"
+  ],
+  [
+   60,
+   "Deep- Sea",
+   "Deep-Sea",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7becd5c85523565364ed001419334cec6ae01707",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2401,
+  "words_out": 2398,
+  "retention": 0.9988,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   140,
+   135,
+   135,
+   96,
+   133,
+   64,
+   139,
+   73,
+   109,
+   128,
+   117,
+   142,
+   115,
+   94,
+   115,
+   109,
+   111,
+   94,
+   98,
+   83,
+   87,
+   81
+  ],
+  "warnings": []
+ }
+}

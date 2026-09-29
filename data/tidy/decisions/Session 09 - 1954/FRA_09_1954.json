@@ -1,0 +1,101 @@
+{
+ "id": "FRA_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  17,
+  20,
+  25,
+  29,
+  33,
+  40,
+  44,
+  52,
+  57,
+  65,
+  70,
+  74,
+  81,
+  84,
+  91,
+  94,
+  97,
+  100,
+  103,
+  106
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "hisorically",
+   "historically",
+   "ocr"
+  ],
+  [
+   19,
+   "j",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "Mendes- France",
+   "Mendes-France",
+   "spacing"
+  ],
+  [
+   56,
+   "[DC/53, annex 9]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c1ef68e159e26873bc33ecbd7c7b4b11ff1d45f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 30
+  },
+  "words_in": 3341,
+  "words_out": 3336,
+  "retention": 0.9985,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   131,
+   65,
+   157,
+   156,
+   89,
+   155,
+   124,
+   132,
+   228,
+   133,
+   169,
+   107,
+   177,
+   126,
+   208,
+   255,
+   72,
+   170,
+   95,
+   102,
+   89,
+   108,
+   157,
+   131
+  ],
+  "warnings": []
+ }
+}

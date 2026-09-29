@@ -1,0 +1,134 @@
+{
+ "id": "COL_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13,
+  18,
+  21,
+  25,
+  28,
+  32,
+  40,
+  45,
+  50,
+  58,
+  60,
+  64,
+  68,
+  73,
+  77,
+  83,
+  89,
+  93,
+  99,
+  103,
+  105,
+  111,
+  116,
+  118
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "the Mood has",
+   "the blood has",
+   "ocr"
+  ],
+  [
+   25,
+   "Satellite of nor and",
+   "Satellite of none and",
+   "ocr"
+  ],
+  [
+   52,
+   "w&=fare",
+   "warfare",
+   "ocr"
+  ],
+  [
+   94,
+   "knock- in g",
+   "knocking",
+   "split_word"
+  ],
+  [
+   110,
+   "their dear,",
+   "their clear,",
+   "ocr"
+  ],
+  [
+   116,
+   "were Hot human",
+   "were not human",
+   "ocr"
+  ],
+  [
+   118,
+   "T6vo6djr6",
+   "Tévoédjrè",
+   "ocr"
+  ],
+  [
+   119,
+   "not even Ms most",
+   "not even his most",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dc354ae85e97518a1771e4348b01b4edf694c766",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3738,
+  "words_out": 3732,
+  "retention": 0.9984,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   113,
+   138,
+   92,
+   117,
+   157,
+   76,
+   146,
+   105,
+   128,
+   230,
+   126,
+   157,
+   178,
+   69,
+   101,
+   109,
+   161,
+   86,
+   174,
+   155,
+   141,
+   202,
+   142,
+   86,
+   149,
+   103,
+   139,
+   152
+  ],
+  "warnings": []
+ }
+}

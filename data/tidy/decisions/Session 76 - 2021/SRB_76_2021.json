@@ -1,0 +1,74 @@
+{
+ "id": "SRB_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  17,
+  21,
+  24,
+  29,
+  34,
+  39,
+  42,
+  46,
+  52,
+  57,
+  60,
+  64,
+  69,
+  72,
+  74,
+  78,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   76,
+   "rule-of- law",
+   "rule-of-law",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1b28e7af47ac032c7c011d4606622e0b6ac62945",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2176,
+  "words_out": 2175,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   73,
+   150,
+   122,
+   154,
+   77,
+   130,
+   98,
+   140,
+   120,
+   92,
+   131,
+   96,
+   90,
+   89,
+   105,
+   123,
+   82,
+   72,
+   88,
+   143
+  ],
+  "warnings": []
+ }
+}

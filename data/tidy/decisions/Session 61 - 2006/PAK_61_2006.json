@@ -1,0 +1,53 @@
+{
+ "id": "PAK_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  25,
+  38,
+  50,
+  63,
+  78,
+  97,
+  121,
+  139,
+  162,
+  181
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f07942ea01b6b1c82ce94921781af12552e827f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1537,
+  "words_out": 1534,
+  "retention": 0.998,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   49,
+   128,
+   93,
+   96,
+   107,
+   113,
+   133,
+   177,
+   128,
+   198,
+   141,
+   171
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "MDG_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  18,
+  24,
+  29,
+  36,
+  42,
+  46,
+  50,
+  58,
+  63,
+  70,
+  75,
+  80
+ ],
+ "cer": [
+  0,
+  70
+ ],
+ "fix": [
+  [
+   9,
+   "its-voice",
+   "its voice",
+   "hyphen"
+  ],
+  [
+   15,
+   "been Stated",
+   "been stated",
+   "ocr"
+  ],
+  [
+   44,
+   "attempts, at",
+   "attempts at",
+   "ocr"
+  ],
+  [
+   76,
+   " [see A/5937]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   " (agenda item 94)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4776664bd05f4ae7175d25d04cbf9613faf9cbed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 1892,
+  "words_out": 1866,
+  "retention": 0.9863,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   210,
+   145,
+   127,
+   140,
+   131,
+   97,
+   97,
+   99,
+   238,
+   85,
+   157,
+   101,
+   102,
+   137
+  ],
+  "warnings": []
+ }
+}

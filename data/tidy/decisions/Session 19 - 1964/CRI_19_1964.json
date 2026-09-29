@@ -1,0 +1,91 @@
+{
+ "id": "CRI_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  18,
+  21,
+  25,
+  28,
+  31,
+  40,
+  45,
+  52,
+  57,
+  63,
+  65
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "CostaRica",
+   "Costa Rica",
+   "merged_word"
+  ],
+  [
+   21,
+   "bur activity",
+   "our activity",
+   "ocr"
+  ],
+  [
+   25,
+   "not, wish",
+   "not wish",
+   "ocr"
+  ],
+  [
+   25,
+   "express mg",
+   "expressing",
+   "ocr"
+  ],
+  [
+   40,
+   "Trade and, Development",
+   "Trade and Development",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf35d56aba01440ab425e109b1cbe37ae0998b17",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 2379,
+  "words_out": 2378,
+  "retention": 0.9996,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   75,
+   175,
+   194,
+   254,
+   121,
+   172,
+   133,
+   93,
+   227,
+   196,
+   204,
+   205,
+   211,
+   73,
+   45
+  ],
+  "warnings": []
+ }
+}

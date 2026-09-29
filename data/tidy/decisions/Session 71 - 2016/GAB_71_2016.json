@@ -1,0 +1,74 @@
+{
+ "id": "GAB_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  16,
+  22,
+  25,
+  35,
+  39,
+  46,
+  49,
+  53,
+  57,
+  62,
+  68,
+  71,
+  76,
+  81,
+  86,
+  89
+ ],
+ "cer": [
+  0,
+  22,
+  89
+ ],
+ "fix": [
+  [
+   43,
+   "intitiatives",
+   "initiatives",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f162e8e989e07ab36551a0708a8320859810ce3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2149,
+  "words_out": 2147,
+  "retention": 0.9991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   81,
+   156,
+   150,
+   114,
+   90,
+   170,
+   90,
+   156,
+   68,
+   89,
+   96,
+   165,
+   140,
+   100,
+   90,
+   80,
+   105,
+   70,
+   137
+  ],
+  "warnings": []
+ }
+}

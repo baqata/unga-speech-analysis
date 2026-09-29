@@ -1,0 +1,70 @@
+{
+ "id": "HND_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  22,
+  28,
+  33,
+  38,
+  42,
+  47,
+  57,
+  61,
+  62,
+  69,
+  73,
+  76,
+  80,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   46,
+   "fifth- largest",
+   "fifth-largest",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab8a806c9b947803c5a4d41e56c418933337cf7e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2225,
+  "words_out": 2224,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   146,
+   133,
+   108,
+   163,
+   143,
+   130,
+   125,
+   120,
+   173,
+   197,
+   77,
+   71,
+   193,
+   98,
+   100,
+   112,
+   108,
+   27
+  ],
+  "warnings": []
+ }
+}

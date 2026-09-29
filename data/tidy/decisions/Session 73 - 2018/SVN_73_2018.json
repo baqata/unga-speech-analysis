@@ -1,0 +1,66 @@
+{
+ "id": "SVN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  18,
+  22,
+  26,
+  31,
+  35,
+  41,
+  47,
+  49,
+  52,
+  56
+ ],
+ "cer": [],
+ "fix": [
+  [
+   41,
+   "basedonthe",
+   "based on the",
+   "merged_word"
+  ],
+  [
+   41,
+   "Treatyonthe",
+   "Treaty on the",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "add6b7b44fd912bac863c287f1108e7802ea6263",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1253,
+  "words_out": 1256,
+  "retention": 1.0024,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   90,
+   71,
+   70,
+   124,
+   124,
+   80,
+   115,
+   62,
+   103,
+   128,
+   62,
+   60,
+   101,
+   66
+  ],
+  "warnings": []
+ }
+}

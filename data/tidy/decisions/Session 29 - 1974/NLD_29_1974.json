@@ -1,0 +1,215 @@
+{
+ "id": "NLD_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  16,
+  19,
+  24,
+  27,
+  31,
+  35,
+  38,
+  41,
+  44,
+  50,
+  53,
+  56,
+  59,
+  62,
+  67,
+  71,
+  74,
+  82,
+  85,
+  89,
+  93,
+  101,
+  104,
+  111,
+  114,
+  117,
+  121,
+  126,
+  129,
+  134,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "risk;",
+   "risk",
+   "ocr"
+  ],
+  [
+   13,
+   "iJreat",
+   "great",
+   "ocr"
+  ],
+  [
+   16,
+   "1973.4 Subsequent",
+   "1973. Subsequent",
+   "ocr"
+  ],
+  [
+   21,
+   "concerned, The",
+   "concerned. The",
+   "ocr"
+  ],
+  [
+   25,
+   " [UNFICYP]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "so are of",
+   "source of",
+   "ocr"
+  ],
+  [
+   35,
+   "arms, race",
+   "arms race",
+   "ocr"
+  ],
+  [
+   38,
+   "54. ",
+   "",
+   "label"
+  ],
+  [
+   39,
+   " [AI9601I Add.I, sect.",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "X], ",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "the. situation",
+   "the situation",
+   "ocr"
+  ],
+  [
+   52,
+   "ensure.that",
+   "ensure that",
+   "ocr"
+  ],
+  [
+   52,
+   " [Al960llAdd.l, sect. VI.]",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "Intel national",
+   "International",
+   "ocr"
+  ],
+  [
+   82,
+   "*of",
+   "of",
+   "ocr"
+  ],
+  [
+   119,
+   "work 4 of",
+   "work of",
+   "ocr"
+  ],
+  [
+   119,
+   "'calls",
+   "calls",
+   "ocr"
+  ],
+  [
+   119,
+   " [AI960llAdd.l, sect.",
+   "",
+   "label"
+  ],
+  [
+   120,
+   "XII]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d150f8e32f2e7f6efed9deede443266d44863c6d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 39
+  },
+  "words_in": 3657,
+  "words_out": 3636,
+  "retention": 0.9943,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   43,
+   83,
+   107,
+   109,
+   119,
+   127,
+   107,
+   99,
+   74,
+   86,
+   104,
+   101,
+   139,
+   97,
+   68,
+   71,
+   67,
+   148,
+   87,
+   76,
+   147,
+   97,
+   83,
+   100,
+   186,
+   81,
+   153,
+   83,
+   69,
+   96,
+   149,
+   80,
+   97,
+   90,
+   213
+  ],
+  "warnings": []
+ }
+}

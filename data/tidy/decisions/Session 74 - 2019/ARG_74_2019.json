@@ -1,0 +1,56 @@
+{
+ "id": "ARG_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  11,
+  14,
+  19,
+  24,
+  28,
+  33,
+  40,
+  46,
+  50
+ ],
+ "cer": [],
+ "fix": [
+  [
+   42,
+   " (A/HRC/41/18/ Add.1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e40292bece5ce1941a0c3a320dc7d274939e581e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1721,
+  "words_out": 1719,
+  "retention": 0.9988,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   171,
+   187,
+   78,
+   87,
+   142,
+   134,
+   158,
+   123,
+   205,
+   145,
+   144,
+   145
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "id": "COD_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  9,
+  14,
+  18,
+  20,
+  24,
+  27,
+  29,
+  34,
+  45,
+  50,
+  54,
+  58,
+  64,
+  70
+ ],
+ "cer": [
+  0,
+  2,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   2,
+   "Peres de Cuellar",
+   "Perez de Cuellar",
+   "ocr"
+  ],
+  [
+   3,
+   "U Than t",
+   "U Thant",
+   "split_word"
+  ],
+  [
+   38,
+   "promising·,",
+   "promising;",
+   "ocr"
+  ],
+  [
+   41,
+   "I960",
+   "1960",
+   "ocr"
+  ],
+  [
+   52,
+   "ate linked",
+   "are linked",
+   "ocr"
+  ],
+  [
+   60,
+   "rostrum?",
+   "rostrum:",
+   "ocr"
+  ],
+  [
+   72,
+   "head ' held",
+   "head held",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b0aaf12bfffe75d2730187db001ea8fd47c429ff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2480,
+  "words_out": 2475,
+  "retention": 0.998,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   106,
+   141,
+   85,
+   63,
+   168,
+   174,
+   79,
+   163,
+   116,
+   68,
+   182,
+   199,
+   168,
+   129,
+   188,
+   133,
+   197,
+   116
+  ],
+  "warnings": []
+ }
+}

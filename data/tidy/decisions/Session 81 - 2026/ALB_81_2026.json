@@ -1,0 +1,129 @@
+{
+ "id": "ALB_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   162,
+   162,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  11,
+  24,
+  35,
+  46,
+  56,
+  64,
+  70,
+  76,
+  86,
+  96,
+  110,
+  113,
+  122,
+  130,
+  136,
+  144,
+  159
+ ],
+ "cer": [],
+ "fix": [
+  [
+   40,
+   "Diela",
+   "Diella",
+   "asr_name"
+  ],
+  [
+   8,
+   "citizen? imitate",
+   "citizen imitate",
+   "asr_term"
+  ],
+  [
+   63,
+   "reality. and",
+   "reality. And",
+   "asr_term"
+  ],
+  [
+   76,
+   "reach. for",
+   "reach. For",
+   "asr_term"
+  ],
+  [
+   87,
+   "late. and",
+   "late. And",
+   "asr_term"
+  ],
+  [
+   96,
+   "slowed. or",
+   "slowed or",
+   "asr_term"
+  ],
+  [
+   131,
+   "controls. algorithms",
+   "controls. Algorithms",
+   "asr_term"
+  ],
+  [
+   135,
+   "machines. between",
+   "machines. Between",
+   "asr_term"
+  ],
+  [
+   149,
+   "met",
+   "made",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "AI minister Diella confirmed by Albanian Government (kryeministria.al). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'citizen? imitate' -> 'citizen imitate'; unit 63 'reality. and' -> 'reality. And'; unit 76 'reach. for' -> 'reach. For'; unit 87 'late. and' -> 'late. And'; unit 96 'slowed. or' -> 'slowed or'; unit 131 'controls. algorithms' -> 'controls. Algorithms'; unit 135 'machines. between' -> 'machines. Between'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 10 unit 149 'met' -> 'made' (decodes 'met' 0.89 / 0.82 but 'has met its own modest choice' does not fit; sounds alike; ES 'ha hecho su modesta decisión'; UN 'made')",
+ "unitizer_version": 1,
+ "sha1": "5468f185e1ea135c9bea86cfeb937f4ed1915d9c",
+ "layout": "single",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2327,
+  "words_out": 2276,
+  "retention": 0.9781,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   161,
+   159,
+   159,
+   130,
+   122,
+   128,
+   89,
+   110,
+   155,
+   134,
+   142,
+   61,
+   129,
+   132,
+   137,
+   124,
+   181,
+   23
+  ],
+  "warnings": []
+ }
+}

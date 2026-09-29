@@ -1,0 +1,119 @@
+{
+ "id": "CHN_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  16,
+  37,
+  53,
+  73,
+  84,
+  96,
+  110,
+  118,
+  136,
+  148,
+  165,
+  173,
+  185,
+  197,
+  209,
+  220,
+  233,
+  243,
+  257,
+  283,
+  301,
+  311,
+  317,
+  328,
+  343,
+  359,
+  371
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   31,
+   "and is allies",
+   "and its allies",
+   "ocr"
+  ],
+  [
+   78,
+   "firmness end patience",
+   "firmness and patience",
+   "ocr"
+  ],
+  [
+   274,
+   "series: of",
+   "series of",
+   "ocr"
+  ],
+  [
+   281,
+   "the Chinese.",
+   "the Chinese",
+   "ocr"
+  ],
+  [
+   303,
+   "swept away an",
+   "swept away and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f9a329e16a887e8008e47b79264af1cac6e262a1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 381,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3566,
+  "words_out": 3532,
+  "retention": 0.9905,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   83,
+   65,
+   203,
+   150,
+   189,
+   110,
+   103,
+   122,
+   77,
+   165,
+   123,
+   149,
+   70,
+   98,
+   112,
+   103,
+   80,
+   115,
+   103,
+   120,
+   218,
+   171,
+   93,
+   65,
+   107,
+   146,
+   167,
+   126,
+   99
+  ],
+  "warnings": []
+ }
+}

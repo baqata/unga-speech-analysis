@@ -1,0 +1,54 @@
+{
+ "id": "GNB_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  14,
+  20,
+  27
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   13,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "647ce367cdcc90b880e3d4be215e5e0a1aa0cbbb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 730,
+  "words_out": 728,
+  "retention": 0.9973,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   51,
+   122,
+   102,
+   57,
+   171,
+   165,
+   60
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "ZAF_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  18,
+  22,
+  25,
+  34,
+  38,
+  41,
+  45,
+  47,
+  50,
+  55,
+  57,
+  60,
+  63,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "needed by. other",
+   "needed by other",
+   "ocr"
+  ],
+  [
+   62,
+   "stage on. documents",
+   "stage on documents",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e48317aceac1d17855fbb98ceaf4b866f004ce54",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2102,
+  "words_out": 2102,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   143,
+   166,
+   162,
+   121,
+   133,
+   178,
+   118,
+   77,
+   160,
+   92,
+   76,
+   78,
+   86,
+   130,
+   77,
+   177,
+   128
+  ],
+  "warnings": []
+ }
+}

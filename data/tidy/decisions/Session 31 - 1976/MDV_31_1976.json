@@ -1,0 +1,146 @@
+{
+ "id": "MDV_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  17,
+  23,
+  29,
+  34,
+  37,
+  40,
+  46,
+  50,
+  55,
+  58,
+  60,
+  63,
+  67,
+  71
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "of .his",
+   "of his",
+   "ocr"
+  ],
+  [
+   1,
+   "acknowledgeent",
+   "acknowledgement",
+   "ocr"
+  ],
+  [
+   1,
+   "Bandara naike",
+   "Bandaranaike",
+   "split_word"
+  ],
+  [
+   6,
+   "gre stings",
+   "greetings",
+   "ocr"
+  ],
+  [
+   8,
+   "reaffirm fee commitment",
+   "reaffirm the commitment",
+   "ocr"
+  ],
+  [
+   14,
+   "the -United",
+   "the United",
+   "ocr"
+  ],
+  [
+   22,
+   "for $ flourishing",
+   "for a flourishing",
+   "ocr"
+  ],
+  [
+   32,
+   "USSRthat",
+   "USSR that",
+   "merged_word"
+  ],
+  [
+   45,
+   "Holy Races",
+   "Holy Places",
+   "ocr"
+  ],
+  [
+   48,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   59,
+   " [see A]31[237]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   " [see AI31[197, annex IV]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   "Ameraszighe",
+   "Amerasinghe",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5d2441e26020f48f19e5daa2d4717829f64f9215",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 22
+  },
+  "words_in": 2044,
+  "words_out": 2034,
+  "retention": 0.9951,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   152,
+   169,
+   130,
+   129,
+   141,
+   147,
+   126,
+   100,
+   108,
+   161,
+   107,
+   86,
+   80,
+   66,
+   67,
+   92,
+   89,
+   84
+  ],
+  "warnings": []
+ }
+}

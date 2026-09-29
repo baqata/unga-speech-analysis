@@ -1,0 +1,163 @@
+{
+ "id": "SLV_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   2,
+   "noise"
+  ],
+  [
+   33,
+   33,
+   "noise"
+  ],
+  [
+   94,
+   95,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  13,
+  19,
+  23,
+  34,
+  38,
+  43,
+  50,
+  56,
+  59,
+  63,
+  69,
+  72,
+  75,
+  76,
+  82,
+  88,
+  93
+ ],
+ "cer": [
+  3,
+  93
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary General Your Excellencies Ladies and Gentlemen ",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "with with",
+   "with",
+   "asr_term"
+  ],
+  [
+   76,
+   "lessons. lessons.",
+   "lessons.",
+   "asr_term"
+  ],
+  [
+   8,
+   "here. right",
+   "here. Right",
+   "asr_term"
+  ],
+  [
+   19,
+   "humanity. regardless",
+   "humanity regardless",
+   "asr_term"
+  ],
+  [
+   50,
+   "challenges. and",
+   "challenges. And",
+   "asr_term"
+  ],
+  [
+   56,
+   "point. in",
+   "point. In",
+   "asr_term"
+  ],
+  [
+   65,
+   "sustainable. and",
+   "sustainable. And",
+   "asr_term"
+  ],
+  [
+   71,
+   "crises. and",
+   "crises. And",
+   "asr_term"
+  ],
+  [
+   75,
+   "dignity. however",
+   "dignity. However",
+   "asr_term"
+  ],
+  [
+   90,
+   "this. we're",
+   "this. We're",
+   "asr_term"
+  ],
+  [
+   39,
+   "face faced",
+   "face",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; unit 4 repeats the greeting of unit 3 from a second decode (label); unit 33 'Thank you.' is a stray decode over applause; no interpreter slips in numbers, dates or names found against the Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'here. right' -> 'here. Right'; unit 19 'humanity. regardless' -> 'humanity regardless'; unit 50 'challenges. and' -> 'challenges. And'; unit 56 'point. in' -> 'point. In'; unit 65 'sustainable. and' -> 'sustainable. And'; unit 71 'crises. and' -> 'crises. And'; unit 75 'dignity. however' -> 'dignity. However'; unit 90 'this. we're' -> 'this. We're'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 7 unit 39 'face faced' -> 'face' (both decodes hear 'face so much' with no 'faced' (1.00 / 1.00); 'faced' is a doubled word at the interpreter's restart)",
+ "unitizer_version": 1,
+ "sha1": "45e054f0e12e0891181ce594f9cf146fa4272abb",
+ "layout": "single",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 2105,
+  "words_out": 2061,
+  "retention": 0.9791,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   12,
+   180,
+   104,
+   154,
+   170,
+   70,
+   189,
+   102,
+   154,
+   152,
+   121,
+   109,
+   69,
+   76,
+   108,
+   92,
+   109,
+   81,
+   9
+  ],
+  "warnings": []
+ }
+}

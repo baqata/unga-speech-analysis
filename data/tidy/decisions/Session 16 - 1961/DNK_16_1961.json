@@ -1,0 +1,152 @@
+{
+ "id": "DNK_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  18,
+  26,
+  31,
+  35,
+  39,
+  44,
+  47,
+  53,
+  58,
+  62,
+  71,
+  74,
+  80,
+  84,
+  90,
+  93,
+  96
+ ],
+ "cer": [
+  0,
+  93
+ ],
+ "fix": [
+  [
+   3,
+   "ha s",
+   "has",
+   "split_word"
+  ],
+  [
+   4,
+   "age.",
+   "ago.",
+   "ocr"
+  ],
+  [
+   15,
+   "Naiions",
+   "Nations",
+   "ocr"
+  ],
+  [
+   17,
+   "and. spirit",
+   "and spirit",
+   "ocr"
+  ],
+  [
+   26,
+   "92, ",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "II;",
+   "It",
+   "ocr"
+  ],
+  [
+   45,
+   ".the",
+   "the",
+   "ocr"
+  ],
+  [
+   55,
+   "tb.3",
+   "the",
+   "ocr"
+  ],
+  [
+   78,
+   " [OECD]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "we/ Welcome",
+   "we welcome",
+   "ocr"
+  ],
+  [
+   80,
+   "cspme",
+   "come",
+   "ocr"
+  ],
+  [
+   90,
+   "in>",
+   "in",
+   "ocr"
+  ],
+  [
+   95,
+   "/Spain",
+   "Spain",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f6f9a7f5fff4a9f177d5cf10e39c25bf291d5365",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 38
+  },
+  "words_in": 2594,
+  "words_out": 2587,
+  "retention": 0.9973,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   66,
+   114,
+   84,
+   154,
+   185,
+   126,
+   114,
+   139,
+   152,
+   108,
+   173,
+   116,
+   108,
+   228,
+   96,
+   139,
+   126,
+   123,
+   127,
+   89,
+   20
+  ],
+  "warnings": []
+ }
+}

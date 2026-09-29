@@ -1,0 +1,85 @@
+{
+ "id": "QAT_48_1993",
+ "drop": [
+  [
+   16,
+   16,
+   "header_footer"
+  ],
+  [
+   116,
+   116,
+   "header_footer"
+  ],
+  [
+   215,
+   215,
+   "header_footer"
+  ],
+  [
+   314,
+   314,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  35,
+  59,
+  84,
+  108,
+  124,
+  146,
+  169,
+  177,
+  201,
+  233,
+  241,
+  251,
+  264,
+  276,
+  309
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ebe47c794c822e9f75f2e5edefda83600bd1c0a1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 324,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2928,
+  "words_out": 2899,
+  "retention": 0.9901,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   116,
+   173,
+   220,
+   232,
+   215,
+   133,
+   201,
+   208,
+   63,
+   239,
+   282,
+   73,
+   87,
+   115,
+   107,
+   304,
+   131
+  ],
+  "warnings": []
+ }
+}

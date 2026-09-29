@@ -1,0 +1,61 @@
+{
+ "id": "CYP_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  22,
+  38,
+  52,
+  64,
+  88,
+  103,
+  118,
+  130,
+  144,
+  166,
+  181,
+  196,
+  207,
+  224
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d66898be03371cf2f31620f6498d66b4fff545e1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1858,
+  "words_out": 1858,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   19,
+   146,
+   130,
+   113,
+   89,
+   188,
+   117,
+   118,
+   90,
+   106,
+   173,
+   132,
+   121,
+   85,
+   146,
+   85
+  ],
+  "warnings": []
+ }
+}

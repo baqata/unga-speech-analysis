@@ -1,0 +1,64 @@
+{
+ "id": "DOM_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  39,
+  61,
+  74,
+  86,
+  96,
+  106,
+  125,
+  146,
+  163,
+  175,
+  189,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   135,
+   "Mej'a",
+   "Mejía",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27b26c7ce5ca73e9dfefbfe9428ca96f46a575f8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1717,
+  "words_out": 1709,
+  "retention": 0.9953,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   112,
+   194,
+   181,
+   117,
+   90,
+   93,
+   71,
+   139,
+   152,
+   132,
+   95,
+   101,
+   125,
+   107
+  ],
+  "warnings": []
+ }
+}

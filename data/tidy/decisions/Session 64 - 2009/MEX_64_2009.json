@@ -1,0 +1,49 @@
+{
+ "id": "MEX_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  35,
+  49,
+  58,
+  77,
+  98,
+  124,
+  139,
+  162,
+  182
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f6410128b2d28348f39a6ae4ee5e72c3eec8b9c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1397,
+  "words_out": 1394,
+  "retention": 0.9979,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   137,
+   103,
+   96,
+   74,
+   141,
+   171,
+   194,
+   103,
+   174,
+   160,
+   41
+  ],
+  "warnings": []
+ }
+}

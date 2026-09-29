@@ -1,0 +1,55 @@
+{
+ "id": "JPN_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  42,
+  64,
+  92,
+  110,
+  138,
+  166,
+  179,
+  188,
+  210,
+  238,
+  267
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81fb59598a65346e19a6c803cf40c89d8c1b29eb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2292,
+  "words_out": 2292,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   99,
+   232,
+   172,
+   243,
+   158,
+   233,
+   239,
+   106,
+   80,
+   182,
+   228,
+   233,
+   87
+  ],
+  "warnings": []
+ }
+}

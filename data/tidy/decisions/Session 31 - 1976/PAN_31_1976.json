@@ -1,0 +1,295 @@
+{
+ "id": "PAN_31_1976",
+ "drop": [
+  [
+   2,
+   3,
+   "other_speaker"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  13,
+  14,
+  19,
+  24,
+  29,
+  34,
+  39,
+  42,
+  46,
+  50,
+  53,
+  57,
+  60,
+  62,
+  66,
+  70,
+  73,
+  78,
+  81,
+  82,
+  85,
+  92,
+  98,
+  100,
+  103,
+  106,
+  109,
+  115,
+  117,
+  122,
+  124,
+  127,
+  132,
+  136,
+  146
+ ],
+ "cer": [
+  4,
+  12
+ ],
+ "fix": [
+  [
+   0,
+   "1956.4 At",
+   "1956. At",
+   "ocr"
+  ],
+  [
+   4,
+   "have .served",
+   "have served",
+   "ocr"
+  ],
+  [
+   8,
+   "for fever",
+   "forever",
+   "ocr"
+  ],
+  [
+   9,
+   "justice; human",
+   "justice, human",
+   "ocr"
+  ],
+  [
+   10,
+   " [1st meeting/",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "Revolutionaiy",
+   "Revolutionary",
+   "ocr"
+  ],
+  [
+   12,
+   "Vice- President",
+   "Vice-President",
+   "spacing"
+  ],
+  [
+   31,
+   "out-standing",
+   "outstanding",
+   "hyphen"
+  ],
+  [
+   42,
+   " [resolution 3212 (XXIX)]",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "will by joined",
+   "will be joined",
+   "ocr"
+  ],
+  [
+   59,
+   "We are please to",
+   "We are pleased to",
+   "ocr"
+  ],
+  [
+   60,
+   " [item 117]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "continent\", At that",
+   "continent\". At that",
+   "ocr"
+  ],
+  [
+   68,
+   "12 years! ago",
+   "12 years ago",
+   "ocr"
+  ],
+  [
+   78,
+   " [OAS]",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "between them.7 This",
+   "between them. This",
+   "ocr"
+  ],
+  [
+   82,
+   "Anglo- Panamanian",
+   "Anglo-Panamanian",
+   "spacing"
+  ],
+  [
+   89,
+   "and. Washington",
+   "and Washington",
+   "ocr"
+  ],
+  [
+   91,
+   "April 3,1964",
+   "April 3, 1964",
+   "spacing"
+  ],
+  [
+   102,
+   "Secretary' of State",
+   "Secretary of State",
+   "ocr"
+  ],
+  [
+   104,
+   "of 'many resolutions",
+   "of many resolutions",
+   "ocr"
+  ],
+  [
+   109,
+   "of' non-aligned",
+   "of non-aligned",
+   "ocr"
+  ],
+  [
+   113,
+   "Nan- Aligned",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   114,
+   " [See A/311197, annex I, paras. 110-113. J",
+   "",
+   "label"
+  ],
+  [
+   128,
+   " filth meeting]",
+   "",
+   "label"
+  ],
+  [
+   132,
+   "aimed struggle",
+   "armed struggle",
+   "ocr"
+  ],
+  [
+   132,
+   "in the.",
+   "in the",
+   "ocr"
+  ],
+  [
+   136,
+   "the Major of Miami",
+   "the Mayor of Miami",
+   "ocr"
+  ],
+  [
+   141,
+   "be lighting men",
+   "be fighting men",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 2-3 hold a sentence displaced from the Myanmar statement (it belongs before MMR_31_1976 unit 86) together with this statement's footnote 4; both units were dropped.",
+ "unitizer_version": 1,
+ "sha1": "1ce700f09420067601b22a4bb060086eb0c11428",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {
+   "other_speaker": 2
+  },
+  "prestrip": {
+   "encoding": 1,
+   "meeting_ref": 2,
+   "paragraph_number": 69
+  },
+  "words_in": 5685,
+  "words_out": 5636,
+  "retention": 0.9914,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   109,
+   203,
+   175,
+   54,
+   51,
+   127,
+   174,
+   205,
+   189,
+   126,
+   127,
+   196,
+   167,
+   128,
+   155,
+   174,
+   151,
+   126,
+   175,
+   109,
+   152,
+   129,
+   163,
+   111,
+   143,
+   195,
+   97,
+   160,
+   196,
+   92,
+   200,
+   109,
+   145,
+   131,
+   120,
+   127,
+   151,
+   198,
+   96
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

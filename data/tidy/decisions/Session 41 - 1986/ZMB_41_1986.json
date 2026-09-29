@@ -1,0 +1,110 @@
+{
+ "id": "ZMB_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  14,
+  19,
+  22,
+  24,
+  30,
+  32,
+  36,
+  48,
+  52,
+  53,
+  57,
+  61,
+  63,
+  70,
+  75,
+  81,
+  84,
+  87,
+  91
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "profeJoms",
+   "problems",
+   "ocr"
+  ],
+  [
+   11,
+   "united Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   29,
+   "Wiited",
+   "United",
+   "ocr"
+  ],
+  [
+   38,
+   "apartheid.The",
+   "apartheid. The",
+   "spacing"
+  ],
+  [
+   48,
+   "those efforts.",
+   "those efforts,",
+   "ocr"
+  ],
+  [
+   53,
+   "united States",
+   "United States",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c117b0648dd9cd37d7d2a7a6c0bedeceed553aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2433,
+  "words_out": 2434,
+  "retention": 1.0004,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   66,
+   136,
+   88,
+   109,
+   121,
+   73,
+   56,
+   132,
+   64,
+   106,
+   234,
+   122,
+   59,
+   90,
+   79,
+   105,
+   147,
+   161,
+   121,
+   77,
+   79,
+   62,
+   147
+  ],
+  "warnings": []
+ }
+}

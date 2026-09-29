@@ -1,0 +1,154 @@
+{
+ "id": "POL_02_1947",
+ "drop": [
+  [
+   97,
+   97,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  18,
+  22,
+  27,
+  32,
+  37,
+  41,
+  44,
+  49,
+  54,
+  57,
+  59,
+  64,
+  72,
+  78,
+  82,
+  87,
+  91,
+  100,
+  104,
+  105,
+  107,
+  114,
+  118
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "session,. statesmen",
+   "session, statesmen",
+   "ocr"
+  ],
+  [
+   6,
+   "— -and",
+   "— and",
+   "ocr"
+  ],
+  [
+   25,
+   "compli cations",
+   "complications",
+   "split_word"
+  ],
+  [
+   45,
+   "find »a",
+   "find a",
+   "ocr"
+  ],
+  [
+   53,
+   "UNRRÀ",
+   "UNRRA",
+   "ocr"
+  ],
+  [
+   54,
+   "Nations -and",
+   "Nations and",
+   "ocr"
+  ],
+  [
+   56,
+   "and 'who",
+   "and who",
+   "ocr"
+  ],
+  [
+   67,
+   "the' great",
+   "the great",
+   "ocr"
+  ],
+  [
+   91,
+   "only ‘ relatively",
+   "only relatively",
+   "ocr"
+  ],
+  [
+   102,
+   "long-ago",
+   "long ago",
+   "hyphen"
+  ],
+  [
+   117,
+   "will' receive",
+   "will receive",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40a49478cc98c99cd21c671e6bf514efb931b563",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3707,
+  "words_out": 3705,
+  "retention": 0.9995,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   91,
+   158,
+   181,
+   110,
+   159,
+   177,
+   98,
+   130,
+   149,
+   74,
+   175,
+   173,
+   118,
+   95,
+   127,
+   180,
+   230,
+   103,
+   98,
+   81,
+   219,
+   134,
+   118,
+   79,
+   197,
+   132,
+   119
+  ],
+  "warnings": []
+ }
+}

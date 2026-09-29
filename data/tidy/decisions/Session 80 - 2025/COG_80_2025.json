@@ -1,0 +1,64 @@
+{
+ "id": "COG_80_2025",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   81,
+   81,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  7,
+  14,
+  20,
+  23,
+  30,
+  38,
+  41,
+  47,
+  60,
+  70,
+  79
+ ],
+ "cer": [
+  79
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "86318c6cc860bd1a09e8be6e8266baa84dc4b7ad",
+ "layout": "single",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1615,
+  "words_out": 1554,
+  "retention": 0.9622,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   129,
+   143,
+   128,
+   77,
+   166,
+   176,
+   72,
+   109,
+   203,
+   200,
+   146,
+   5
+  ],
+  "warnings": []
+ }
+}

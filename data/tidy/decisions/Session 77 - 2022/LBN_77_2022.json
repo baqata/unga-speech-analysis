@@ -1,0 +1,74 @@
+{
+ "id": "LBN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  16,
+  19,
+  25,
+  30,
+  35,
+  37,
+  40,
+  44,
+  47,
+  54,
+  60,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "long- overdue",
+   "long-overdue",
+   "hyphen"
+  ],
+  [
+   49,
+   "open- border",
+   "open-border",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7b2f05429be0af8ac6138883dd03f651acdc519",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2026,
+  "words_out": 2024,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   77,
+   78,
+   136,
+   85,
+   88,
+   95,
+   181,
+   124,
+   113,
+   85,
+   85,
+   126,
+   141,
+   162,
+   172,
+   126,
+   150
+  ],
+  "warnings": []
+ }
+}

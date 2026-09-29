@@ -1,0 +1,273 @@
+{
+ "id": "RUS_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  16,
+  23,
+  32,
+  40,
+  45,
+  53,
+  57,
+  65,
+  75,
+  84,
+  88,
+  97,
+  103,
+  115,
+  125,
+  131,
+  133,
+  138,
+  149,
+  157,
+  167,
+  172,
+  178,
+  186,
+  191,
+  200,
+  208,
+  218,
+  226,
+  231,
+  235,
+  242,
+  245,
+  254,
+  261,
+  265,
+  277,
+  285,
+  289,
+  294,
+  298,
+  304,
+  311,
+  314,
+  317,
+  327,
+  331,
+  337
+ ],
+ "cer": [
+  0,
+  314
+ ],
+ "fix": [
+  [
+   5,
+   "UnitedNations",
+   "United Nations",
+   "merged_word"
+  ],
+  [
+   7,
+   "Charterwasbeing",
+   "Charter was being",
+   "merged_word"
+  ],
+  [
+   9,
+   "the Ideals",
+   "the ideals",
+   "ocr"
+  ],
+  [
+   26,
+   "lip service, What",
+   "lip service. What",
+   "ocr"
+  ],
+  [
+   34,
+   "elections In Viet-Nam",
+   "elections in Viet-Nam",
+   "ocr"
+  ],
+  [
+   37,
+   "world It may",
+   "world it may",
+   "ocr"
+  ],
+  [
+   37,
+   "affected In one",
+   "affected in one",
+   "ocr"
+  ],
+  [
+   48,
+   "has. been",
+   "has been",
+   "ocr"
+  ],
+  [
+   49,
+   "natural plan;",
+   "natural plan:",
+   "ocr"
+  ],
+  [
+   66,
+   "are committed;",
+   "are committed,",
+   "ocr"
+  ],
+  [
+   85,
+   " [A/6393 and Corr.",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "1]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "a basic, instrument",
+   "a basic instrument",
+   "ocr"
+  ],
+  [
+   95,
+   "Power shave",
+   "Powers have",
+   "ocr"
+  ],
+  [
+   118,
+   "thereof,",
+   "thereof.",
+   "ocr"
+  ],
+  [
+   132,
+   "[A/6399], The",
+   "[A/6399]. The",
+   "ocr"
+  ],
+  [
+   132,
+   "world tension,",
+   "world tension.",
+   "ocr"
+  ],
+  [
+   196,
+   "European security,",
+   "European security.",
+   "ocr"
+  ],
+  [
+   225,
+   "want disarmament,",
+   "want disarmament.",
+   "ocr"
+  ],
+  [
+   257,
+   "all States, This",
+   "all States. This",
+   "ocr"
+  ],
+  [
+   292,
+   "very must to",
+   "very much to",
+   "ocr"
+  ],
+  [
+   303,
+   "[A/6394], We",
+   "[A/6394]. We",
+   "ocr"
+  ],
+  [
+   340,
+   "confidence In the",
+   "confidence in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b6f424f0794b3b2b5733013a57754bfd0f60274",
+ "layout": "lines",
+ "stats": {
+  "n_units": 341,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 7399,
+  "words_out": 7288,
+  "retention": 0.985,
+  "n_paragraphs": 51,
+  "paragraph_words": [
+   42,
+   165,
+   156,
+   149,
+   161,
+   153,
+   140,
+   192,
+   69,
+   134,
+   167,
+   227,
+   60,
+   206,
+   108,
+   185,
+   176,
+   135,
+   82,
+   137,
+   202,
+   175,
+   191,
+   130,
+   136,
+   179,
+   141,
+   200,
+   134,
+   185,
+   162,
+   101,
+   108,
+   176,
+   85,
+   174,
+   156,
+   123,
+   183,
+   153,
+   114,
+   112,
+   62,
+   210,
+   140,
+   91,
+   45,
+   175,
+   85,
+   177,
+   139
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

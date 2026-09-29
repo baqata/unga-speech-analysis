@@ -1,0 +1,65 @@
+{
+ "id": "SEN_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  19,
+  30,
+  49,
+  60,
+  73,
+  96,
+  109,
+  130,
+  146,
+  161,
+  174,
+  182,
+  201,
+  220,
+  236,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bde275aff7a14f388ca6273273a98c58fe06878d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2263,
+  "words_out": 2261,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   81,
+   72,
+   90,
+   148,
+   96,
+   120,
+   199,
+   118,
+   185,
+   147,
+   122,
+   123,
+   64,
+   160,
+   165,
+   131,
+   105,
+   135
+  ],
+  "warnings": []
+ }
+}

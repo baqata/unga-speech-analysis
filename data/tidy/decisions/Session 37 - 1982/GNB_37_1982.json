@@ -1,0 +1,222 @@
+{
+ "id": "GNB_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  38,
+  59,
+  82,
+  112,
+  130,
+  246,
+  341,
+  391,
+  456
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   13,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   28,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   30,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   39,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   46,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   55,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   74,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   88,
+   "quiterecent",
+   "quite recent",
+   "merged_word"
+  ],
+  [
+   106,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   139,
+   "southern pail",
+   "southern part",
+   "ocr"
+  ],
+  [
+   204,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   205,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   211,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   229,
+   "deep its",
+   "keep its",
+   "ocr"
+  ],
+  [
+   261,
+   "Portuguese speaking",
+   "Portuguese-speaking",
+   "spacing"
+  ],
+  [
+   265,
+   "thirty sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   277,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   289,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   301,
+   "comers tone",
+   "cornerstone",
+   "ocr"
+  ],
+  [
+   302,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   327,
+   "South East and South West",
+   "South-East and South-West",
+   "spacing"
+  ],
+  [
+   328,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   395,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   406,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   413,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   421,
+   "four year",
+   "four-year",
+   "spacing"
+  ],
+  [
+   459,
+   "Guinea Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts; paragraphs at 130, 246, 341 and 391 stay long.",
+ "unitizer_version": 1,
+ "sha1": "b23a018bad081ec250aec93b647b178e804ff67c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 469,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3453,
+  "words_out": 3429,
+  "retention": 0.993,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   287,
+   150,
+   170,
+   221,
+   124,
+   848,
+   691,
+   355,
+   485,
+   98
+  ],
+  "warnings": [
+   "paragraph at unit 130 has 848 words",
+   "paragraph at unit 246 has 691 words",
+   "paragraph at unit 341 has 355 words",
+   "paragraph at unit 391 has 485 words",
+   "28 fixes"
+  ]
+ }
+}

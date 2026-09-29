@@ -1,0 +1,159 @@
+{
+ "id": "MMR_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  8,
+  11,
+  16,
+  20,
+  21,
+  25,
+  27,
+  29,
+  32,
+  36,
+  40,
+  45,
+  48,
+  52,
+  55,
+  59,
+  61,
+  66,
+  68,
+  72,
+  76,
+  79,
+  82,
+  86,
+  88
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   6,
+   "ta expect",
+   "to expect",
+   "ocr"
+  ],
+  [
+   19,
+   "superPowers",
+   "super-Powers",
+   "merged_word"
+  ],
+  [
+   33,
+   "give u reasonable",
+   "give a reasonable",
+   "ocr"
+  ],
+  [
+   34,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   42,
+   " [A/8457-DC/234, annex A]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "possess\"\"",
+   "possess",
+   "ocr"
+  ],
+  [
+   57,
+   "\"non- space\"",
+   "\"non-space\"",
+   "hyphen"
+  ],
+  [
+   70,
+   "resources to, that",
+   "resources to that",
+   "ocr"
+  ],
+  [
+   71,
+   "it is lot for",
+   "it is not for",
+   "ocr"
+  ],
+  [
+   76,
+   "have, been seize.d",
+   "have been seized",
+   "ocr"
+  ],
+  [
+   81,
+   "needs or the",
+   "needs of the",
+   "ocr"
+  ],
+  [
+   86,
+   "dimension'",
+   "dimension",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d02e248a1c13a0b36460dd8bde104caaa31cc632",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 2931,
+  "words_out": 2920,
+  "retention": 0.9962,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   149,
+   53,
+   151,
+   112,
+   109,
+   130,
+   91,
+   124,
+   87,
+   91,
+   67,
+   138,
+   101,
+   165,
+   90,
+   69,
+   69,
+   94,
+   80,
+   122,
+   79,
+   159,
+   101,
+   94,
+   100,
+   164,
+   73,
+   58
+  ],
+  "warnings": []
+ }
+}

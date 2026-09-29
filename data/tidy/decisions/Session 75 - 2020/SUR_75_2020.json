@@ -1,0 +1,74 @@
+{
+ "id": "SUR_75_2020",
+ "drop": [
+  [
+   1,
+   1,
+   "heading"
+  ],
+  [
+   32,
+   32,
+   "heading"
+  ],
+  [
+   41,
+   41,
+   "heading"
+  ],
+  [
+   46,
+   46,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  10,
+  15,
+  19,
+  23,
+  33,
+  37,
+  42,
+  47,
+  54
+ ],
+ "cer": [
+  0,
+  2,
+  54
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f4e8603fc7359df4d16bdc6772fecece143ea0c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {
+   "heading": 4
+  },
+  "prestrip": {},
+  "words_in": 1233,
+  "words_out": 1220,
+  "retention": 0.9895,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   28,
+   137,
+   113,
+   119,
+   93,
+   215,
+   94,
+   136,
+   77,
+   205,
+   3
+  ],
+  "warnings": []
+ }
+}

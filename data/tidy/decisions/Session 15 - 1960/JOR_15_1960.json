@@ -1,0 +1,128 @@
+{
+ "id": "JOR_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  18,
+  23,
+  27,
+  37,
+  43,
+  47,
+  52,
+  59,
+  65,
+  68,
+  74,
+  79,
+  85,
+  89,
+  95,
+  102,
+  108,
+  113
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   " [resolution 1474 (ES-IV)]",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "which! can",
+   "which can",
+   "ocr"
+  ],
+  [
+   37,
+   "concept, of",
+   "concept of",
+   "ocr"
+  ],
+  [
+   40,
+   "honestly, believe",
+   "honestly believe",
+   "ocr"
+  ],
+  [
+   40,
+   "into I action",
+   "into action",
+   "ocr"
+  ],
+  [
+   65,
+   "damage bur economy",
+   "damage our economy",
+   "ocr"
+  ],
+  [
+   89,
+   "97: ",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "from? it",
+   "from it",
+   "ocr"
+  ],
+  [
+   77,
+   " [1237 (ES-III)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc977f43b3f11bcbba483738dc02f8bda691470b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3156,
+  "words_out": 3143,
+  "retention": 0.9959,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   94,
+   143,
+   92,
+   160,
+   167,
+   135,
+   202,
+   197,
+   149,
+   92,
+   161,
+   181,
+   124,
+   178,
+   113,
+   233,
+   128,
+   128,
+   122,
+   173,
+   112,
+   59
+  ],
+  "warnings": []
+ }
+}

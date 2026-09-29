@@ -1,0 +1,72 @@
+{
+ "id": "CYP_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  19,
+  25,
+  30,
+  34,
+  37,
+  40,
+  46,
+  48,
+  52,
+  54,
+  57,
+  60
+ ],
+ "cer": [],
+ "fix": [
+  [
+   56,
+   "1 sincerely",
+   "I sincerely",
+   "ocr"
+  ],
+  [
+   59,
+   "much- needed",
+   "much-needed",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8366d6f9fae61abd7672fe442019259ca0791d0b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1975,
+  "words_out": 1970,
+  "retention": 0.9975,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   122,
+   191,
+   86,
+   177,
+   149,
+   105,
+   87,
+   70,
+   123,
+   104,
+   80,
+   248,
+   162,
+   114,
+   111,
+   41
+  ],
+  "warnings": []
+ }
+}

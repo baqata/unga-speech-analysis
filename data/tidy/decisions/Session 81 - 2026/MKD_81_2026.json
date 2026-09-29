@@ -1,0 +1,233 @@
+{
+ "id": "MKD_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   190,
+   191,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  19,
+  33,
+  38,
+  49,
+  63,
+  76,
+  79,
+  85,
+  93,
+  101,
+  112,
+  124,
+  127,
+  139,
+  147,
+  157,
+  164,
+  172,
+  177,
+  182,
+  189
+ ],
+ "cer": [
+  189
+ ],
+ "fix": [
+  [
+   70,
+   "Doug Hammershield",
+   "Dag Hammarskjöld",
+   "asr_name"
+  ],
+  [
+   103,
+   "health truths",
+   "half-truths",
+   "asr_term"
+  ],
+  [
+   144,
+   "the Asian",
+   "the Aegean",
+   "asr_name"
+  ],
+  [
+   144,
+   "roots",
+   "routes",
+   "asr_term"
+  ],
+  [
+   147,
+   "definitely",
+   "differently",
+   "asr_term"
+  ],
+  [
+   150,
+   "Responsibility policy",
+   "Responsible policy",
+   "asr_term"
+  ],
+  [
+   171,
+   "more than",
+   "modern",
+   "asr_term"
+  ],
+  [
+   179,
+   "to live",
+   "to leave",
+   "asr_term"
+  ],
+  [
+   182,
+   "2014",
+   "2040",
+   "asr_term"
+  ],
+  [
+   185,
+   "of you",
+   "of few",
+   "asr_term"
+  ],
+  [
+   10,
+   "force. more",
+   "force. More",
+   "asr_term"
+  ],
+  [
+   69,
+   "rules. because",
+   "rules. Because",
+   "asr_term"
+  ],
+  [
+   95,
+   "power. that",
+   "power. That",
+   "asr_term"
+  ],
+  [
+   119,
+   "changing. security",
+   "changing. Security",
+   "asr_term"
+  ],
+  [
+   121,
+   "most. because",
+   "most. Because",
+   "asr_term"
+  ],
+  [
+   125,
+   "exist. our",
+   "exist. Our",
+   "asr_term"
+  ],
+  [
+   125,
+   "trust. and",
+   "trust and",
+   "asr_term"
+  ],
+  [
+   144,
+   "Europe. to",
+   "Europe to",
+   "asr_term"
+  ],
+  [
+   185,
+   "argument. a",
+   "argument. A",
+   "asr_term"
+  ],
+  [
+   19,
+   "Well, 33",
+   "33",
+   "asr_term"
+  ],
+  [
+   76,
+   "in being",
+   "is being",
+   "asr_term"
+  ],
+  [
+   119,
+   "histories",
+   "history is",
+   "asr_term"
+  ],
+  [
+   144,
+   "Adriatic Union,",
+   "Adriatic-Ionian,",
+   "asr_name"
+  ],
+  [
+   153,
+   "social",
+   "socially",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Repairs per the Spanish channel ('verdades a medias', 'Egeo', 'rutas', 'de manera diferente', 'soberanía moderna', 'se marchen', '2040', 'unos pocos') and unit 2 for 2040. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 10 'force. more' -> 'force. More'; unit 69 'rules. because' -> 'rules. Because'; unit 95 'power. that' -> 'power. That'; unit 119 'changing. security' -> 'changing. Security'; unit 121 'most. because' -> 'most. Because'; unit 125 'exist. our' -> 'exist. Our'; unit 125 'trust. and' -> 'trust and'; unit 144 'Europe. to' -> 'Europe to'; unit 185 'argument. a' -> 'argument. A'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 19 'Well, 33' -> '33' (word heard in a pause: both decodes go 'survival.' (191.9) to 'Thirty-three' (193.4) with nothing between; ES 'Han pasado 33 años' has no counterpart); spot 8 unit 76 'in being' -> 'is being' (decodes 'in' only 0.56 / 0.69; 'trust ... in being jeopardized' does not fit; ES 'la confianza ... se ve amenazada'; 'in' alone is not unique in the unit); spot 14 unit 119 'histories' -> 'history is' ('history's' misheard as 'histories'; both decodes hear 'history is' (0.82/0.90, 0.79/0.91); ES 'la historia se acelera'); spot 18 unit 144 'Adriatic Union,' -> 'Adriatic-Ionian,' (the UN transcript hears 'Ionian', so the audio is not settled (Macedonian 'Јонско' puts a y before the vowel, and the scoring of 'I|onian' is distorted by its split); 'Adriatic Union' names nothing in a list of seas (Black Sea, Aegean), the corridors named run to the Adriatic-Ionian coast of Albania, and ES lists seas ('mares Adriático, Negro, Egeo'); the macro-region's name); spot 21 unit 153 'social' -> 'socially' ('make it social unsustainable' does not fit; sounds alike; ES 'si la hacemos socialmente insostenible'; decodes 'social' 0.79 / 0.87 run into the next word)",
+ "unitizer_version": 1,
+ "sha1": "f72fe19fd569420d6656bdc6a89af34a11820dcf",
+ "layout": "single",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 3234,
+  "words_out": 3174,
+  "retention": 0.9814,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   142,
+   137,
+   155,
+   76,
+   122,
+   171,
+   180,
+   79,
+   149,
+   156,
+   174,
+   178,
+   176,
+   132,
+   197,
+   182,
+   165,
+   110,
+   110,
+   101,
+   116,
+   159,
+   7
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "PHL_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  18,
+  21,
+  25,
+  30,
+  36,
+  42,
+  45,
+  49,
+  56,
+  64,
+  69,
+  74,
+  79,
+  83,
+  88,
+  93,
+  98,
+  103
+ ],
+ "cer": [],
+ "fix": [
+  [
+   41,
+   "Article B9",
+   "Article 39",
+   "ocr"
+  ],
+  [
+   41,
+   "Article A3",
+   "Article 43",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "27d1d6428fc8368e81347a9bc27e41cf5e094027",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3038,
+  "words_out": 3038,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   152,
+   200,
+   177,
+   86,
+   110,
+   174,
+   152,
+   223,
+   101,
+   150,
+   163,
+   196,
+   179,
+   126,
+   121,
+   112,
+   101,
+   122,
+   145,
+   103,
+   145
+  ],
+  "warnings": []
+ }
+}

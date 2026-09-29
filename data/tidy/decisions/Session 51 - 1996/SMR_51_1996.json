@@ -1,0 +1,51 @@
+{
+ "id": "SMR_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  33,
+  45,
+  63,
+  80,
+  107,
+  116,
+  126,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e74b7536181fc82701f0ff71995dab62329ba1d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1235,
+  "words_out": 1231,
+  "retention": 0.9968,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   81,
+   86,
+   92,
+   100,
+   154,
+   131,
+   223,
+   78,
+   80,
+   132,
+   74
+  ],
+  "warnings": []
+ }
+}

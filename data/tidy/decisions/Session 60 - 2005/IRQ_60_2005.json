@@ -1,0 +1,98 @@
+{
+ "id": "IRQ_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  26,
+  37,
+  50,
+  64,
+  80,
+  94,
+  109,
+  124,
+  139,
+  154,
+  164,
+  183,
+  192,
+  206
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   30,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   69,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   128,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   131,
+   "Saddamís",
+   "Saddam’s",
+   "encoding"
+  ],
+  [
+   159,
+   "Decemberís",
+   "December’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ad875e2b6a92e59f319539dea36703eed80e743",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1875,
+  "words_out": 1874,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   72,
+   144,
+   83,
+   119,
+   109,
+   144,
+   107,
+   117,
+   113,
+   130,
+   124,
+   89,
+   175,
+   72,
+   129,
+   147
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "HRV_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  32,
+  48,
+  58,
+  68,
+  79,
+  90,
+  101,
+  119,
+  128
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f43213ce54a561f67b14e7855e1d51416b07830d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1203,
+  "words_out": 1201,
+  "retention": 0.9983,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   138,
+   146,
+   149,
+   80,
+   88,
+   82,
+   96,
+   100,
+   164,
+   75,
+   83
+  ],
+  "warnings": []
+ }
+}

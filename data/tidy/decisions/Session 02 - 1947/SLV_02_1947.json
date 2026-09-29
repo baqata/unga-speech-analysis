@@ -1,0 +1,112 @@
+{
+ "id": "SLV_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  18,
+  22,
+  26,
+  28,
+  30,
+  33,
+  39,
+  42,
+  45,
+  48,
+  50,
+  54,
+  57,
+  62
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "the nest world",
+   "the next world",
+   "ocr"
+  ],
+  [
+   18,
+   "a hew general",
+   "a new general",
+   "ocr"
+  ],
+  [
+   28,
+   "Organization, A guarantee",
+   "Organization. A guarantee",
+   "ocr"
+  ],
+  [
+   33,
+   "refershould",
+   "refer should",
+   "merged_word"
+  ],
+  [
+   35,
+   "one comer",
+   "one corner",
+   "ocr"
+  ],
+  [
+   41,
+   "were bur enemies",
+   "were our enemies",
+   "ocr"
+  ],
+  [
+   44,
+   "world- wide",
+   "world-wide",
+   "hyphen"
+  ],
+  [
+   54,
+   "maturity; To",
+   "maturity. To",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 19 breaks off mid-sentence after 'any one of the five great'; the rest of the sentence is missing.",
+ "unitizer_version": 1,
+ "sha1": "9b4fd71e78221f60a9694d200ceda9f7a66403ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2073,
+  "words_out": 2073,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   148,
+   60,
+   129,
+   127,
+   145,
+   123,
+   87,
+   121,
+   112,
+   226,
+   141,
+   65,
+   160,
+   88,
+   98,
+   113,
+   75,
+   55
+  ],
+  "warnings": []
+ }
+}

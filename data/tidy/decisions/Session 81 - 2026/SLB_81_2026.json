@@ -1,0 +1,171 @@
+{
+ "id": "SLB_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   169,
+   169,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  6,
+  11,
+  16,
+  23,
+  29,
+  37,
+  40,
+  49,
+  56,
+  63,
+  65,
+  68,
+  73,
+  81,
+  87,
+  91,
+  99,
+  103,
+  112,
+  118,
+  123,
+  129,
+  133,
+  137,
+  141,
+  147,
+  152,
+  160
+ ],
+ "cer": [
+  6
+ ],
+ "fix": [
+  [
+   56,
+   "Myla",
+   "Maila",
+   "asr_name"
+  ],
+  [
+   80,
+   "Foreign Fisheries Agency",
+   "Forum Fisheries Agency",
+   "asr_name"
+  ],
+  [
+   83,
+   "BB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   93,
+   "South-South Corporation",
+   "South-South Cooperation",
+   "asr_term"
+  ],
+  [
+   134,
+   "Maui Nui",
+   "Maohi Nui",
+   "asr_name"
+  ],
+  [
+   138,
+   "with Kanda",
+   "with candour",
+   "asr_term"
+  ],
+  [
+   144,
+   "peace. the",
+   "peace. The",
+   "asr_term"
+  ],
+  [
+   150,
+   "stand. that",
+   "stand. That",
+   "asr_term"
+  ],
+  [
+   154,
+   "enemies. he",
+   "enemies. He",
+   "asr_term"
+  ],
+  [
+   24,
+   "and energy",
+   "an energy",
+   "asr_term"
+  ],
+  [
+   166,
+   "Island",
+   "Islands",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Cyclone Maila, April 2026 (BoM, World Bank); Pacific Islands Forum Fisheries Agency (Spanish 'foro de organismos de pesca'); BBNJ agreement (Spanish 'BNJ'); Maohi Nui (Spanish 'mao inui'); 138 Spanish 'con franqueza'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 144 'peace. the' -> 'peace. The'; unit 150 'stand. that' -> 'stand. That'; unit 154 'enemies. he' -> 'enemies. He'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 24 'and energy' -> 'an energy' (both decodes hear 'conflicts, an energy crisis' ('an' 0.98 / 0.90); list reading, ES 'Los conflictos armados prolongados, la crisis energetica y las interrupciones'); spot 10 unit 166 'Island' -> 'Islands' (country name 'Solomon Islands'; final s merges with following 'stands' (decodes 'Island' 0.88 / 0.83); ES 'las Islas Salomon'; the speech elsewhere says 'Solomon Islands')",
+ "unitizer_version": 1,
+ "sha1": "c308f9640356a4897d0df266f7d9adf7caa66794",
+ "layout": "single",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3389,
+  "words_out": 3341,
+  "retention": 0.9858,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   88,
+   112,
+   101,
+   119,
+   180,
+   166,
+   67,
+   154,
+   80,
+   101,
+   150,
+   68,
+   134,
+   104,
+   122,
+   86,
+   163,
+   68,
+   132,
+   149,
+   128,
+   101,
+   76,
+   77,
+   138,
+   88,
+   153,
+   121,
+   115
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "ITA_19_1964",
+ "drop": [
+  [
+   38,
+   38,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  12,
+  14,
+  17,
+  20,
+  22,
+  24,
+  28,
+  31,
+  34,
+  39,
+  46,
+  49,
+  50,
+  55,
+  57,
+  60,
+  62,
+  65,
+  67,
+  70,
+  74,
+  77,
+  79,
+  81,
+  87,
+  90,
+  92,
+  96,
+  99,
+  105,
+  108,
+  113,
+  116,
+  118
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   76,
+   "forces, All",
+   "forces. All",
+   "ocr"
+  ],
+  [
+   82,
+   "re affirmed",
+   "reaffirmed",
+   "split_word"
+  ],
+  [
+   87,
+   "Developement",
+   "Development",
+   "ocr"
+  ],
+  [
+   91,
+   "that, In spite",
+   "that, in spite",
+   "ocr"
+  ],
+  [
+   115,
+   "Sub- Commission",
+   "Sub-Commission",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2233ba6b3eb3b713d86508557ba61c8097ad683a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 51
+  },
+  "words_in": 4245,
+  "words_out": 4239,
+  "retention": 0.9986,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   152,
+   134,
+   52,
+   178,
+   145,
+   138,
+   88,
+   82,
+   92,
+   85,
+   106,
+   97,
+   104,
+   172,
+   119,
+   69,
+   169,
+   86,
+   75,
+   73,
+   95,
+   92,
+   110,
+   108,
+   147,
+   110,
+   77,
+   165,
+   70,
+   118,
+   143,
+   91,
+   137,
+   105,
+   141,
+   114,
+   91,
+   109
+  ],
+  "warnings": []
+ }
+}

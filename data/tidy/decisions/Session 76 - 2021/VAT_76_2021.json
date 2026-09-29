@@ -1,0 +1,250 @@
+{
+ "id": "VAT_76_2021",
+ "drop": [
+  [
+   14,
+   14,
+   "heading"
+  ],
+  [
+   16,
+   19,
+   "noise"
+  ],
+  [
+   30,
+   30,
+   "heading"
+  ],
+  [
+   37,
+   41,
+   "noise"
+  ],
+  [
+   42,
+   42,
+   "heading"
+  ],
+  [
+   51,
+   51,
+   "heading"
+  ],
+  [
+   64,
+   64,
+   "noise"
+  ],
+  [
+   79,
+   79,
+   "heading"
+  ],
+  [
+   82,
+   85,
+   "noise"
+  ],
+  [
+   97,
+   97,
+   "heading"
+  ],
+  [
+   106,
+   107,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  15,
+  23,
+  26,
+  31,
+  43,
+  52,
+  58,
+  63,
+  66,
+  74,
+  77,
+  80,
+  89,
+  91,
+  98,
+  105,
+  114
+ ],
+ "cer": [
+  0,
+  114
+ ],
+ "fix": [
+  [
+   4,
+   "1",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "2",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "3",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "4",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "5",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "6",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "7",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "8",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "9",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "10",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "11",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "12",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "13",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "14",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "15",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "16",
+   "",
+   "label"
+  ],
+  [
+   103,
+   "17",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "17 Pope Francis, Meeting with the Representatives of the Ecumenical ",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "Council of Churches and some Jewish communities in Hungary, 12 September 2021 ",
+   "",
+   "label"
+  ],
+  [
+   112,
+   "18",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Footnote blocks and footnote markers removed; section headings dropped.",
+ "unitizer_version": 1,
+ "sha1": "edde20d9247ca02f14718ae7300e9b9caecbf69c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "heading": 6,
+   "noise": 16
+  },
+  "prestrip": {},
+  "words_in": 2625,
+  "words_out": 2389,
+  "retention": 0.9101,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   22,
+   133,
+   98,
+   114,
+   80,
+   81,
+   114,
+   172,
+   182,
+   142,
+   137,
+   72,
+   178,
+   102,
+   89,
+   104,
+   132,
+   131,
+   122,
+   180,
+   4
+  ],
+  "warnings": []
+ }
+}

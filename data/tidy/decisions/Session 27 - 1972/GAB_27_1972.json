@@ -1,0 +1,84 @@
+{
+ "id": "GAB_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  14,
+  19,
+  25,
+  30,
+  36,
+  39,
+  41,
+  44,
+  47,
+  51
+ ],
+ "cer": [
+  0,
+  7,
+  9
+ ],
+ "fix": [
+  [
+   0,
+   "om- warmest",
+   "our warmest",
+   "ocr"
+  ],
+  [
+   7,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   14,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c28e1ae677f9ef65d882b7e558fc1bbeef78c77",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 1770,
+  "words_out": 1767,
+  "retention": 0.9983,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   103,
+   131,
+   57,
+   154,
+   213,
+   127,
+   194,
+   164,
+   109,
+   100,
+   97,
+   112,
+   99,
+   107
+  ],
+  "warnings": []
+ }
+}

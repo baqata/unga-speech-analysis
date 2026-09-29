@@ -1,0 +1,95 @@
+{
+ "id": "NLD_12_1957",
+ "drop": [
+  [
+   7,
+   7,
+   "header_footer"
+  ],
+  [
+   14,
+   14,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  8,
+  15,
+  18,
+  21,
+  27,
+  31,
+  38,
+  42,
+  48,
+  54,
+  61,
+  69,
+  73,
+  81,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "in the in the history",
+   "in the history",
+   "ocr"
+  ],
+  [
+   6,
+   "community, I could think of no mere fitting",
+   "community. I could think of no more fitting",
+   "ocr"
+  ],
+  [
+   80,
+   "Middle East,",
+   "Middle East.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a505abe6c46ed4025a6d3891be1a1c12fe450deb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 2125,
+  "words_out": 2121,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   86,
+   141,
+   173,
+   97,
+   77,
+   115,
+   90,
+   141,
+   120,
+   128,
+   137,
+   185,
+   171,
+   160,
+   200,
+   50,
+   50
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "id": "JAM_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ],
+  [
+   24,
+   24,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  8,
+  11,
+  13,
+  16,
+  20,
+  27,
+  30,
+  32,
+  35,
+  40,
+  42,
+  46,
+  49,
+  53,
+  56,
+  58,
+  61,
+  67,
+  72,
+  76,
+  81,
+  88,
+  93,
+  96,
+  100,
+  106,
+  109,
+  113,
+  120
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   10,
+   "for his for his",
+   "for his",
+   "ocr"
+  ],
+  [
+   12,
+   "with,",
+   "with.",
+   "ocr"
+  ],
+  [
+   14,
+   "Prom",
+   "From",
+   "ocr"
+  ],
+  [
+   22,
+   "Council, would",
+   "Council would",
+   "ocr"
+  ],
+  [
+   25,
+   "Jamaica, does",
+   "Jamaica does",
+   "ocr"
+  ],
+  [
+   29,
+   "Charter- given",
+   "Charter-given",
+   "hyphen"
+  ],
+  [
+   39,
+   "give give",
+   "give",
+   "ocr"
+  ],
+  [
+   45,
+   "end oi",
+   "end of",
+   "ocr"
+  ],
+  [
+   54,
+   "cur people",
+   "our people",
+   "ocr"
+  ],
+  [
+   78,
+   "Since then.",
+   "Since then,",
+   "ocr"
+  ],
+  [
+   113,
+   "Next.",
+   "Next,",
+   "ocr"
+  ],
+  [
+   119,
+   "battle, Jamaica",
+   "battle. Jamaica",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc8ccf6222daf17378b3e21043c5b7f6fefb4859",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3815,
+  "words_out": 3806,
+  "retention": 0.9976,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   161,
+   114,
+   127,
+   104,
+   132,
+   134,
+   175,
+   99,
+   83,
+   132,
+   124,
+   72,
+   118,
+   102,
+   104,
+   79,
+   70,
+   103,
+   136,
+   101,
+   90,
+   94,
+   219,
+   187,
+   80,
+   117,
+   218,
+   88,
+   130,
+   162,
+   151
+  ],
+  "warnings": []
+ }
+}

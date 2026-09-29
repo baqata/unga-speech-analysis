@@ -1,0 +1,118 @@
+{
+ "id": "ROU_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  18,
+  24,
+  30,
+  36,
+  44,
+  49,
+  56
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "We. the",
+   "We, the",
+   "ocr"
+  ],
+  [
+   8,
+   "war.",
+   "war,",
+   "ocr"
+  ],
+  [
+   16,
+   "course.",
+   "course,",
+   "ocr"
+  ],
+  [
+   21,
+   "ports.",
+   "ports,",
+   "ocr"
+  ],
+  [
+   24,
+   "actor.",
+   "actor,",
+   "ocr"
+  ],
+  [
+   26,
+   "war. we",
+   "war, we",
+   "ocr"
+  ],
+  [
+   28,
+   "in. and making a contribution to.",
+   "in, and making a contribution to,",
+   "ocr"
+  ],
+  [
+   47,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   51,
+   "Rights. Romania",
+   "Rights, Romania",
+   "ocr"
+  ],
+  [
+   52,
+   "law. non-discrimination",
+   "law, non-discrimination",
+   "ocr"
+  ],
+  [
+   53,
+   "for. and the promotion of. international",
+   "for, and the promotion of, international",
+   "ocr"
+  ],
+  [
+   54,
+   "example.",
+   "example,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c81dcc1fef016ab34ba94d4f0909380ae94e760c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1143,
+  "words_out": 1143,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   96,
+   166,
+   93,
+   81,
+   83,
+   130,
+   186,
+   84,
+   176,
+   48
+  ],
+  "warnings": []
+ }
+}

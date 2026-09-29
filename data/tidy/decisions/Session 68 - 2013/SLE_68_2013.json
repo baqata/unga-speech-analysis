@@ -1,0 +1,73 @@
+{
+ "id": "SLE_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  43,
+  58,
+  71,
+  90,
+  106,
+  117,
+  135,
+  150,
+  159,
+  175,
+  187,
+  206,
+  223,
+  235,
+  253,
+  262,
+  273
+ ],
+ "cer": [
+  0,
+  273
+ ],
+ "fix": [
+  [
+   16,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 10-279 quote the President's message read out by the Foreign Minister; paragraph starts follow the opening quotation marks.",
+ "unitizer_version": 1,
+ "sha1": "c39f716924fc2890db811c5780364e51d04490f9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 280,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1966,
+  "words_out": 1961,
+  "retention": 0.9975,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   185,
+   115,
+   103,
+   96,
+   126,
+   116,
+   73,
+   128,
+   95,
+   60,
+   109,
+   81,
+   133,
+   127,
+   89,
+   129,
+   71,
+   76,
+   49
+  ],
+  "warnings": []
+ }
+}

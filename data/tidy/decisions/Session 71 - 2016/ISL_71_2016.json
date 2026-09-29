@@ -1,0 +1,62 @@
+{
+ "id": "ISL_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  21,
+  27,
+  34,
+  40,
+  44,
+  47,
+  54,
+  63,
+  72,
+  76,
+  81,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   67,
+   "W are",
+   "We are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e3c6b0281675b2eacabd9918c4312ff238afcd4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1622,
+  "words_out": 1622,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   117,
+   137,
+   112,
+   120,
+   102,
+   104,
+   77,
+   64,
+   117,
+   128,
+   156,
+   51,
+   111,
+   104,
+   122
+  ],
+  "warnings": []
+ }
+}

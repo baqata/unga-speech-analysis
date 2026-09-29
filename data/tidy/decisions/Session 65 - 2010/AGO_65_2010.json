@@ -1,0 +1,54 @@
+{
+ "id": "AGO_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  35,
+  61,
+  86,
+  105,
+  134,
+  146,
+  164,
+  177,
+  194,
+  212
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb49f856cf5b6b822bca9f38480c7cdee1b5f012",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1729,
+  "words_out": 1726,
+  "retention": 0.9983,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   94,
+   187,
+   191,
+   174,
+   154,
+   231,
+   92,
+   140,
+   93,
+   151,
+   135,
+   84
+  ],
+  "warnings": []
+ }
+}

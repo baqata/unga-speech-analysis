@@ -1,0 +1,85 @@
+{
+ "id": "SLB_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  16,
+  21,
+  26,
+  31,
+  35,
+  40,
+  43,
+  49,
+  53,
+  56,
+  64
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   19,
+   "tom apart",
+   "torn apart",
+   "ocr"
+  ],
+  [
+   36,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   60,
+   "United Ns ;;<ins Secretariat",
+   "United Nations Secretariat",
+   "ocr"
+  ],
+  [
+   61,
+   "pas t",
+   "past",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e12a38a9ef28e7ba05a6041e1369efa5c149b8d1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 1706,
+  "words_out": 1702,
+  "retention": 0.9977,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   151,
+   78,
+   128,
+   122,
+   108,
+   108,
+   137,
+   87,
+   93,
+   90,
+   169,
+   116,
+   61,
+   196,
+   58
+  ],
+  "warnings": []
+ }
+}

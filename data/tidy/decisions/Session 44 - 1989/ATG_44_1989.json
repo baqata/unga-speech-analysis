@@ -1,0 +1,121 @@
+{
+ "id": "ATG_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  11,
+  19,
+  25,
+  36,
+  43,
+  46,
+  56,
+  58,
+  71,
+  75,
+  79,
+  84,
+  89,
+  96,
+  103,
+  109,
+  112,
+  120,
+  124,
+  130,
+  133,
+  137,
+  140,
+  145
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   9,
+   "r a is on d'etre",
+   "raison d'etre",
+   "spacing"
+  ],
+  [
+   55,
+   "mu3t",
+   "must",
+   "ocr"
+  ],
+  [
+   87,
+   "ft ere",
+   "there",
+   "ocr"
+  ],
+  [
+   150,
+   "multilatra1",
+   "multilateral",
+   "ocr"
+  ],
+  [
+   110,
+   "Secretary-Genera'",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   11,
+   "twin-is land",
+   "twin-island",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a8a4f9923750b3158340226579bec54fd12fd7c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3772,
+  "words_out": 3767,
+  "retention": 0.9987,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   109,
+   87,
+   82,
+   67,
+   249,
+   128,
+   276,
+   162,
+   121,
+   238,
+   50,
+   272,
+   83,
+   133,
+   145,
+   118,
+   150,
+   180,
+   144,
+   66,
+   164,
+   100,
+   110,
+   60,
+   77,
+   67,
+   122,
+   207
+  ],
+  "warnings": []
+ }
+}

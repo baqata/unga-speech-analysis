@@ -1,0 +1,76 @@
+{
+ "id": "SVK_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  19,
+  24,
+  32,
+  37,
+  41,
+  44,
+  50,
+  56,
+  60,
+  67,
+  71,
+  74,
+  82,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   36,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ],
+  [
+   40,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "84e061c5e5c834a6a8387ccd1ef9f3342945a9e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 1903,
+  "words_out": 1899,
+  "retention": 0.9979,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   98,
+   148,
+   102,
+   111,
+   79,
+   135,
+   105,
+   69,
+   75,
+   181,
+   124,
+   71,
+   148,
+   115,
+   84,
+   86,
+   69,
+   99
+  ],
+  "warnings": []
+ }
+}

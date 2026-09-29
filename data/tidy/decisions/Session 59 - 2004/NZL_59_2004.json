@@ -1,0 +1,72 @@
+{
+ "id": "NZL_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  42,
+  58,
+  67,
+  88,
+  108,
+  130,
+  143,
+  159,
+  175,
+  185,
+  202,
+  220,
+  230
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "(see )",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "51452f26f398966056a8615c84eada975144fad8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1840,
+  "words_out": 1834,
+  "retention": 0.9967,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   89,
+   157,
+   67,
+   126,
+   69,
+   152,
+   136,
+   175,
+   115,
+   119,
+   137,
+   72,
+   134,
+   137,
+   75,
+   74
+  ],
+  "warnings": []
+ }
+}

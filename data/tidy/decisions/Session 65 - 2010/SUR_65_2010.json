@@ -1,0 +1,57 @@
+{
+ "id": "SUR_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  40,
+  52,
+  69,
+  90,
+  103,
+  118,
+  136,
+  154,
+  172,
+  189,
+  201,
+  211
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91a4d026d878ad87ed42bc2bca716e642df5fc67",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1730,
+  "words_out": 1728,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   168,
+   122,
+   98,
+   126,
+   171,
+   109,
+   110,
+   136,
+   154,
+   147,
+   122,
+   82,
+   80,
+   103
+  ],
+  "warnings": []
+ }
+}

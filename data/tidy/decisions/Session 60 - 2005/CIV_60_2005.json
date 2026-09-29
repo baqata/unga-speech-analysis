@@ -1,0 +1,65 @@
+{
+ "id": "CIV_60_2005",
+ "drop": [
+  [
+   15,
+   16,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  17,
+  37,
+  61,
+  80,
+  107,
+  125,
+  140,
+  153,
+  167,
+  182,
+  199,
+  223,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82c93268bb43d5b2ad20db46c4d7f4d20d69b1a0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1938,
+  "words_out": 1929,
+  "retention": 0.9954,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   110,
+   167,
+   196,
+   147,
+   213,
+   147,
+   111,
+   100,
+   111,
+   101,
+   134,
+   184,
+   133,
+   75
+  ],
+  "warnings": []
+ }
+}

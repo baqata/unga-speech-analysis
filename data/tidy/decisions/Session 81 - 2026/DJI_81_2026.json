@@ -1,0 +1,156 @@
+{
+ "id": "DJI_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   66,
+   66,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  8,
+  15,
+  19,
+  23,
+  25,
+  31,
+  34,
+  41,
+  44,
+  50,
+  58,
+  60,
+  65
+ ],
+ "cer": [
+  1,
+  65
+ ],
+ "fix": [
+  [
+   1,
+   "Gale",
+   "Guelleh",
+   "asr_name"
+  ],
+  [
+   11,
+   "Markazai",
+   "Markazi",
+   "asr_name"
+  ],
+  [
+   31,
+   "Baba Mandib",
+   "Bab el-Mandeb",
+   "asr_name"
+  ],
+  [
+   46,
+   "SEBIER",
+   "Sevilla",
+   "asr_name"
+  ],
+  [
+   62,
+   "antonio gutteres",
+   "António Guterres",
+   "asr_name"
+  ],
+  [
+   62,
+   "i should",
+   "I should",
+   "asr_term"
+  ],
+  [
+   62,
+   "ismael omar guele",
+   "Ismail Omar Guelleh",
+   "asr_name"
+  ],
+  [
+   62,
+   "u n",
+   "UN",
+   "asr_name"
+  ],
+  [
+   1,
+   "I like the play. you and I know I have a lot of people",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "finance. finance.",
+   "finance.",
+   "asr_term"
+  ],
+  [
+   45,
+   "space. access",
+   "space. Access",
+   "asr_term"
+  ],
+  [
+   59,
+   "states. their",
+   "states. Their",
+   "asr_term"
+  ],
+  [
+   62,
+   "together. any",
+   "together. Any",
+   "asr_term"
+  ],
+  [
+   60,
+   "enhances",
+   "enhance its",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Interpreted speech; names checked: President Ismail Omar Guelleh, Markazi refugee site in Obock (Spanish Marsaki), Bab el-Mandeb (Spanish Babel-Mander), Sevilla Commitment (Spanish compromiso de Sevilla), Antonio Guterres. Gap recovery (v4) added hall chatter before the speech, glued to the first sentence (label) and to the dropped presider line. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 40 'finance. finance.' -> 'finance.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 45 'space. access' -> 'space. Access'; unit 59 'states. their' -> 'states. Their'; unit 62 'together. any' -> 'together. Any'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 60 'enhances' -> 'enhance its' (decodes 'enhances' 0.88 / 0.84 is the run-together sound of 'enhance its'; 'supports efforts to adapt the UN ... and enhances effectiveness' does not fit; ES 'y reforzar su eficacia')",
+ "unitizer_version": 1,
+ "sha1": "161bf519bac4c12c175c1a83c4fe7cb7566d40c5",
+ "layout": "single",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1716,
+  "words_out": 1661,
+  "retention": 0.9679,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   104,
+   107,
+   153,
+   111,
+   86,
+   55,
+   174,
+   83,
+   131,
+   84,
+   132,
+   149,
+   94,
+   196,
+   2
+  ],
+  "warnings": []
+ }
+}

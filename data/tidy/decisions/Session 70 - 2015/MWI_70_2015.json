@@ -1,0 +1,71 @@
+{
+ "id": "MWI_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  20,
+  24,
+  29,
+  32,
+  35,
+  40,
+  41,
+  44,
+  49,
+  53,
+  59
+ ],
+ "cer": [
+  0,
+  59
+ ],
+ "fix": [
+  [
+   41,
+   "gender- based",
+   "gender-based",
+   "hyphen"
+  ],
+  [
+   53,
+   "cross- cutting",
+   "cross-cutting",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "600c23bcadbcdbe944f89783c56e0e696051f81f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1525,
+  "words_out": 1522,
+  "retention": 0.998,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   122,
+   154,
+   205,
+   99,
+   139,
+   103,
+   88,
+   116,
+   62,
+   95,
+   124,
+   82,
+   126,
+   7
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "SWE_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  29,
+  40,
+  49,
+  62,
+  78,
+  99,
+  113,
+  144,
+  167,
+  184
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49ebe6f784e188b5ec2efb59c6dd8953f8e7bd97",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1496,
+  "words_out": 1495,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   124,
+   106,
+   84,
+   66,
+   106,
+   130,
+   174,
+   102,
+   251,
+   165,
+   132,
+   55
+  ],
+  "warnings": []
+ }
+}

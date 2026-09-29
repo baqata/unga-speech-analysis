@@ -1,0 +1,74 @@
+{
+ "id": "LBY_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  11,
+  16,
+  19,
+  23,
+  30,
+  38,
+  43,
+  47,
+  50,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   22,
+   "ourmilitary",
+   "our military",
+   "merged_word"
+  ],
+  [
+   46,
+   "thirty- fourth",
+   "thirty-fourth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c23c857085291790ef8082ee88f577a02e1c7cf1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1614,
+  "words_out": 1613,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   87,
+   99,
+   94,
+   81,
+   123,
+   106,
+   155,
+   147,
+   134,
+   116,
+   118,
+   77,
+   124,
+   152
+  ],
+  "warnings": []
+ }
+}

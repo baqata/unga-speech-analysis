@@ -1,0 +1,63 @@
+{
+ "id": "BOL_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  36,
+  51,
+  77,
+  92,
+  110,
+  132,
+  143,
+  169,
+  191,
+  201,
+  224,
+  242,
+  253,
+  275,
+  284
+ ],
+ "cer": [
+  284
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a93935b54758d4a6f01e46e6664a2e1a279f847",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 288,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2382,
+  "words_out": 2380,
+  "retention": 0.9992,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   152,
+   140,
+   126,
+   225,
+   116,
+   142,
+   191,
+   94,
+   213,
+   178,
+   87,
+   172,
+   162,
+   88,
+   180,
+   84,
+   30
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "HND_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  26,
+  41,
+  55,
+  74,
+  90,
+  108,
+  117,
+  126,
+  142,
+  165,
+  176,
+  193,
+  206,
+  221,
+  238,
+  252
+ ],
+ "cer": [
+  252
+ ],
+ "fix": [
+  [
+   67,
+   "vis-‡-vis",
+   "vis-à-vis",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de717276df97a2d9ce198920a105d91934b78be2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2151,
+  "words_out": 2150,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   146,
+   76,
+   119,
+   123,
+   151,
+   147,
+   141,
+   77,
+   74,
+   147,
+   179,
+   96,
+   133,
+   109,
+   137,
+   147,
+   121,
+   27
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "id": "ZMB_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  17,
+  23,
+  27,
+  33,
+  36,
+  39,
+  41,
+  45,
+  49,
+  51,
+  55,
+  59,
+  62,
+  66,
+  70,
+  73,
+  76,
+  79,
+  82,
+  85,
+  86,
+  89,
+  94,
+  98,
+  100,
+  103,
+  109,
+  115,
+  121,
+  125,
+  129,
+  131,
+  135,
+  140,
+  142,
+  146,
+  149
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   10,
+   "Chad, .southern",
+   "Chad, southern",
+   "ocr"
+  ],
+  [
+   11,
+   "East- West",
+   "East-West",
+   "hyphen"
+  ],
+  [
+   14,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   16,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   21,
+   "AH these",
+   "All these",
+   "ocr"
+  ],
+  [
+   27,
+   "Unite resources",
+   "finite resources",
+   "ocr"
+  ],
+  [
+   34,
+   "East- West",
+   "East-West",
+   "hyphen"
+  ],
+  [
+   40,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   49,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   53,
+   "Belgrade/ The",
+   "Belgrade. The",
+   "ocr"
+  ],
+  [
+   85,
+   "1972.S We",
+   "1972. We",
+   "markup"
+  ],
+  [
+   106,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   120,
+   "& quick",
+   "a quick",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Italic word (apartheid) apparently lost in units 143 and 146, possibly also 147.",
+ "unitizer_version": 1,
+ "sha1": "ddd4c34cccd894f8fae3445706a1741d9acfe16c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 4062,
+  "words_out": 4055,
+  "retention": 0.9983,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   52,
+   104,
+   109,
+   153,
+   90,
+   71,
+   139,
+   81,
+   103,
+   62,
+   87,
+   118,
+   85,
+   189,
+   129,
+   100,
+   94,
+   99,
+   65,
+   60,
+   61,
+   58,
+   79,
+   59,
+   82,
+   92,
+   114,
+   55,
+   94,
+   132,
+   122,
+   134,
+   131,
+   98,
+   62,
+   81,
+   202,
+   60,
+   139,
+   127,
+   83
+  ],
+  "warnings": []
+ }
+}

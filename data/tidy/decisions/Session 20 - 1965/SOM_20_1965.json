@@ -1,0 +1,150 @@
+{
+ "id": "SOM_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  16,
+  22,
+  31,
+  35,
+  43,
+  50,
+  53,
+  63,
+  70,
+  77,
+  85,
+  89,
+  96,
+  102,
+  110,
+  118,
+  123,
+  128,
+  133,
+  140,
+  144
+ ],
+ "cer": [
+  0,
+  9,
+  13
+ ],
+ "fix": [
+  [
+   11,
+   "more difficult that this",
+   "more difficult than this",
+   "ocr"
+  ],
+  [
+   14,
+   "United Nations .",
+   "United Nations.",
+   "spacing"
+  ],
+  [
+   45,
+   "Middle Ease",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   75,
+   "and Common to them",
+   "and common to them",
+   "ocr"
+  ],
+  [
+   81,
+   "to dragon interminably",
+   "to drag on interminably",
+   "merged_word"
+  ],
+  [
+   116,
+   "essential, of that on-site",
+   "essential, or that on-site",
+   "ocr"
+  ],
+  [
+   119,
+   "emanated, from",
+   "emanated from",
+   "ocr"
+  ],
+  [
+   119,
+   "and Government, of the",
+   "and Government of the",
+   "ocr"
+  ],
+  [
+   121,
+   "within, the zone",
+   "within the zone",
+   "ocr"
+  ],
+  [
+   126,
+   "even a. temporary",
+   "even a temporary",
+   "ocr"
+  ],
+  [
+   126,
+   "begin to, implement",
+   "begin to implement",
+   "ocr"
+  ],
+  [
+   130,
+   "being we aliened by",
+   "being weakened by",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4c02d68f6f82743d9d17f544b47d5ad74eb066d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3660,
+  "words_out": 3631,
+  "retention": 0.9921,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   179,
+   96,
+   71,
+   163,
+   194,
+   110,
+   194,
+   201,
+   124,
+   200,
+   147,
+   175,
+   191,
+   93,
+   126,
+   148,
+   166,
+   228,
+   160,
+   131,
+   122,
+   169,
+   108,
+   135
+  ],
+  "warnings": []
+ }
+}

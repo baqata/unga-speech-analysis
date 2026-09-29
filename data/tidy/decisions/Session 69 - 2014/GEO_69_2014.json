@@ -1,0 +1,79 @@
+{
+ "id": "GEO_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  28,
+  41,
+  49,
+  59,
+  68,
+  80,
+  93,
+  101,
+  117,
+  145,
+  153,
+  165,
+  174,
+  183,
+  190,
+  206,
+  227,
+  245,
+  259,
+  280,
+  293,
+  309
+ ],
+ "cer": [
+  28
+ ],
+ "fix": [],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text jumps at unit 127 ('a twenty-first-s we pursue'); words are missing in the source.",
+ "unitizer_version": 1,
+ "sha1": "f4321e7758e95c5a5d879101f82183e89cccc952",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2594,
+  "words_out": 2590,
+  "retention": 0.9985,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   99,
+   142,
+   102,
+   72,
+   81,
+   65,
+   95,
+   114,
+   70,
+   116,
+   210,
+   67,
+   98,
+   68,
+   78,
+   61,
+   127,
+   162,
+   149,
+   104,
+   172,
+   112,
+   144,
+   82
+  ],
+  "warnings": []
+ }
+}

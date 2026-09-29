@@ -1,0 +1,48 @@
+{
+ "id": "UGA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  23,
+  33,
+  45,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "well- paying",
+   "well-paying",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2bbd2b5b4481271f2027f3ef32e2f7a504b61d51",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 910,
+  "words_out": 909,
+  "retention": 0.9989,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   85,
+   134,
+   176,
+   193,
+   189,
+   83,
+   49
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "TUN_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  31,
+  62,
+  73,
+  85,
+  100,
+  123,
+  138,
+  160,
+  174,
+  187,
+  205,
+  219,
+  240,
+  261
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a128c67ae25a1e18f3bb78366440fdd456b3976",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 276,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2100,
+  "words_out": 2097,
+  "retention": 0.9986,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   115,
+   137,
+   227,
+   90,
+   81,
+   116,
+   169,
+   112,
+   167,
+   105,
+   98,
+   131,
+   110,
+   168,
+   161,
+   110
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "KAZ_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  30,
+  39,
+  59,
+  67,
+  85,
+  102,
+  126,
+  152,
+  173,
+  193,
+  208,
+  230
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   7,
+   "with to",
+   "wish to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f3a83986e4036a63b27a71fcb6ce8178d73c348",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2011,
+  "words_out": 2009,
+  "retention": 0.999,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   58,
+   30,
+   151,
+   71,
+   158,
+   65,
+   160,
+   142,
+   185,
+   202,
+   159,
+   153,
+   127,
+   176,
+   172
+  ],
+  "warnings": []
+ }
+}

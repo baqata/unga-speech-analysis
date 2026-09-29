@@ -1,0 +1,145 @@
+{
+ "id": "NLD_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  19,
+  24,
+  27,
+  33,
+  37,
+  42,
+  48,
+  58,
+  62,
+  69,
+  72,
+  77,
+  80,
+  87,
+  100,
+  103,
+  107,
+  108
+ ],
+ "cer": [
+  107,
+  108
+ ],
+ "fix": [
+  [
+   11,
+   "people In a",
+   "people in a",
+   "ocr"
+  ],
+  [
+   17,
+   " [article 110]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "Secretary- General's",
+   "Secretary-General's",
+   "hyphen"
+  ],
+  [
+   31,
+   "And In this",
+   "And in this",
+   "ocr"
+  ],
+  [
+   34,
+   "Secretary- General's",
+   "Secretary-General's",
+   "hyphen"
+  ],
+  [
+   34,
+   "attention, U Thant",
+   "attention. U Thant",
+   "ocr"
+  ],
+  [
+   58,
+   "in the question of Southern",
+   "In the question of Southern",
+   "ocr"
+  ],
+  [
+   73,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   76,
+   "yet he seriously",
+   "yet be seriously",
+   "ocr"
+  ],
+  [
+   83,
+   "we heed not",
+   "we need not",
+   "ocr"
+  ],
+  [
+   89,
+   "twenty- one",
+   "twenty-one",
+   "hyphen"
+  ],
+  [
+   100,
+   "prosperity,",
+   "prosperity.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1036e1a685be008d984702f7ede286b410aa6d8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 2570,
+  "words_out": 2539,
+  "retention": 0.9879,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   81,
+   132,
+   311,
+   134,
+   54,
+   98,
+   85,
+   61,
+   147,
+   243,
+   88,
+   149,
+   84,
+   94,
+   62,
+   151,
+   311,
+   96,
+   81,
+   35,
+   42
+  ],
+  "warnings": []
+ }
+}

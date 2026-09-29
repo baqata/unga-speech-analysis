@@ -1,0 +1,64 @@
+{
+ "id": "RWA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  14,
+  19,
+  26,
+  31,
+  38,
+  41,
+  43
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "regard. I",
+   "regard, I",
+   "ocr"
+  ],
+  [
+   33,
+   "urgently.",
+   "urgently,",
+   "ocr"
+  ],
+  [
+   43,
+   "conclusion. I",
+   "conclusion, I",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2d66f88fc8fc84108f2a0e311b7f147e234ed32a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 805,
+  "words_out": 805,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   104,
+   107,
+   69,
+   63,
+   100,
+   125,
+   83,
+   69,
+   60,
+   25
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "DNK_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  19,
+  30,
+  36,
+  43,
+  52,
+  56,
+  63,
+  67,
+  71,
+  78
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   16,
+   "2019- 2021",
+   "2019-2021",
+   "hyphen"
+  ],
+  [
+   19,
+   "follow- up",
+   "follow-up",
+   "hyphen"
+  ],
+  [
+   23,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   25,
+   "developing- country",
+   "developing-country",
+   "hyphen"
+  ],
+  [
+   29,
+   "country- level",
+   "country-level",
+   "hyphen"
+  ],
+  [
+   41,
+   "public- private",
+   "public-private",
+   "hyphen"
+  ],
+  [
+   43,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca89a53d4b6f0447b20bc5780dea51cc81af81bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1705,
+  "words_out": 1697,
+  "retention": 0.9953,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   67,
+   172,
+   112,
+   219,
+   135,
+   160,
+   175,
+   131,
+   128,
+   104,
+   91,
+   153,
+   50
+  ],
+  "warnings": []
+ }
+}

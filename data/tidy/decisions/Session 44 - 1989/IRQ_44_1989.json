@@ -1,0 +1,95 @@
+{
+ "id": "IRQ_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  6,
+  11,
+  14,
+  21,
+  23,
+  25,
+  30,
+  33,
+  36,
+  38,
+  43,
+  45,
+  47,
+  52,
+  55,
+  60,
+  64,
+  67,
+  68,
+  70
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   19,
+   "1989* we",
+   "1989; we",
+   "ocr"
+  ],
+  [
+   23,
+   "guarantees..",
+   "guarantees.",
+   "ocr"
+  ],
+  [
+   44,
+   "aggress ion",
+   "aggression",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e0588c61274e08b1ce9576858d6c09dbcf85170",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2793,
+  "words_out": 2792,
+  "retention": 0.9996,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   75,
+   34,
+   64,
+   85,
+   192,
+   169,
+   211,
+   99,
+   132,
+   142,
+   138,
+   90,
+   95,
+   172,
+   104,
+   140,
+   169,
+   108,
+   157,
+   128,
+   89,
+   73,
+   104,
+   22
+  ],
+  "warnings": []
+ }
+}

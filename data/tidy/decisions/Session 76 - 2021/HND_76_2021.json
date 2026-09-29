@@ -1,0 +1,92 @@
+{
+ "id": "HND_76_2021",
+ "drop": [
+  [
+   46,
+   47,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  15,
+  20,
+  26,
+  34,
+  40,
+  48,
+  56,
+  60,
+  67,
+  71,
+  75,
+  83,
+  91,
+  95,
+  101,
+  109,
+  112,
+  116,
+  119,
+  125
+ ],
+ "cer": [],
+ "fix": [
+  [
+   116,
+   "self- confessed",
+   "self-confessed",
+   "spacing"
+  ],
+  [
+   124,
+   "then- Vice-President",
+   "then-Vice-President",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8daf660f906d4ef95cd1bcef0b0d78167bf05337",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 3277,
+  "words_out": 3268,
+  "retention": 0.9973,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   211,
+   127,
+   129,
+   107,
+   171,
+   138,
+   140,
+   247,
+   106,
+   164,
+   106,
+   80,
+   170,
+   202,
+   64,
+   178,
+   198,
+   119,
+   155,
+   160,
+   199,
+   97
+  ],
+  "warnings": [
+   "procedural drop [46,47] in the middle of the speech"
+  ]
+ }
+}

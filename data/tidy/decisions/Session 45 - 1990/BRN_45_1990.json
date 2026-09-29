@@ -1,0 +1,62 @@
+{
+ "id": "BRN_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  16,
+  21,
+  27,
+  30,
+  36,
+  40,
+  43,
+  48
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   45,
+   "arc",
+   "are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "88164e5499a1608decec65bda230da0fb6491282",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1164,
+  "words_out": 1164,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   86,
+   85,
+   138,
+   114,
+   129,
+   81,
+   123,
+   101,
+   90,
+   112,
+   105
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "ARE_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  32,
+  52,
+  69,
+  82,
+  95,
+  101,
+  119,
+  139,
+  148,
+  164,
+  174,
+  183,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   151,
+   "inf luential",
+   "influential",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6344cc53bef9797713df8551a782459a48cdb456",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1606,
+  "words_out": 1604,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   113,
+   136,
+   169,
+   145,
+   104,
+   105,
+   46,
+   143,
+   150,
+   67,
+   132,
+   78,
+   79,
+   66,
+   71
+  ],
+  "warnings": []
+ }
+}

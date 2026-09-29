@@ -1,0 +1,66 @@
+{
+ "id": "PSE_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  27,
+  40,
+  58,
+  73,
+  89,
+  108,
+  128,
+  147,
+  156,
+  173,
+  187,
+  199,
+  213,
+  231,
+  251,
+  271
+ ],
+ "cer": [
+  0,
+  17
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f6b7afd636ad5dd1b19852dda6c1c8fe38b20094",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 283,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2294,
+  "words_out": 2294,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   127,
+   81,
+   103,
+   150,
+   116,
+   132,
+   166,
+   162,
+   157,
+   67,
+   142,
+   112,
+   100,
+   105,
+   147,
+   166,
+   159,
+   102
+  ],
+  "warnings": []
+ }
+}

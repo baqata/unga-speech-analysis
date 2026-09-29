@@ -1,0 +1,83 @@
+{
+ "id": "LSO_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  20,
+  24,
+  28,
+  32,
+  37,
+  42,
+  46,
+  54,
+  59,
+  62,
+  69,
+  71,
+  76,
+  85,
+  88,
+  93
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   35,
+   "security- sector",
+   "security-sector",
+   "hyphen"
+  ],
+  [
+   41,
+   "wantto",
+   "want to",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "42715f4ec59089e8c80f4a62fa1469523cbb961f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2479,
+  "words_out": 2479,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   86,
+   95,
+   74,
+   84,
+   117,
+   100,
+   94,
+   102,
+   127,
+   208,
+   131,
+   174,
+   113,
+   77,
+   141,
+   93,
+   130,
+   203,
+   64,
+   117,
+   149
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "TZA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   81,
+   81,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  10,
+  14,
+  18,
+  24,
+  28,
+  36,
+  39,
+  43,
+  47,
+  51,
+  57,
+  63,
+  69,
+  76,
+  79
+ ],
+ "cer": [
+  2,
+  69,
+  79
+ ],
+ "fix": [
+  [
+   2,
+   "Khalil",
+   "Khalilur",
+   "asr_name"
+  ],
+  [
+   5,
+   "Samia Suluhasan",
+   "Samia Suluhu Hassan",
+   "asr_name"
+  ],
+  [
+   8,
+   "successively",
+   "successfully",
+   "asr_term"
+  ],
+  [
+   15,
+   "UNAT",
+   "UN80",
+   "asr_term"
+  ],
+  [
+   16,
+   "UNAT",
+   "UN80",
+   "asr_term"
+  ],
+  [
+   30,
+   "Samia Suluhassan",
+   "Samia Suluhu Hassan",
+   "asr_name"
+  ],
+  [
+   44,
+   "conveying",
+   "convening",
+   "asr_term"
+  ],
+  [
+   50,
+   "unquivocal",
+   "unequivocal",
+   "asr_term"
+  ],
+  [
+   56,
+   ". security",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "Tanzanians'",
+   "Tanzania's",
+   "asr_name"
+  ],
+  [
+   73,
+   "Muhammad",
+   "Mohammed",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Names per Spanish channel (Samia Suluhu Hassan, Halilur Rahman, ONU 80, convocar) and the UN (Deputy Secretary-General Amina J. Mohammed); repeated 'security.' removed in unit 56.",
+ "unitizer_version": 1,
+ "sha1": "56cb74c038674d7f39e93bcbefcc4f671fb62c30",
+ "layout": "single",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1940,
+  "words_out": 1888,
+  "retention": 0.9732,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   144,
+   123,
+   95,
+   106,
+   92,
+   148,
+   71,
+   128,
+   131,
+   114,
+   144,
+   205,
+   115,
+   163,
+   102,
+   7
+  ],
+  "warnings": []
+ }
+}

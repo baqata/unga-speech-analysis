@@ -1,0 +1,158 @@
+{
+ "id": "IND_22_1967",
+ "drop": [
+  [
+   9,
+   9,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  15,
+  22,
+  29,
+  35,
+  45,
+  49,
+  56,
+  63,
+  67,
+  74,
+  77,
+  84,
+  92,
+  96,
+  102,
+  108,
+  115,
+  122,
+  125,
+  129,
+  135,
+  140,
+  146,
+  151,
+  157
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "[A/6701/Add.1, para. 148.J ",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "fields I of human",
+   "fields of human",
+   "ocr"
+  ],
+  [
+   17,
+   "thousands j of",
+   "thousands of",
+   "ocr"
+  ],
+  [
+   44,
+   " [Ibid., para. 49]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "most Immediate",
+   "most immediate",
+   "ocr"
+  ],
+  [
+   78,
+   "die catalogue",
+   "the catalogue",
+   "ocr"
+  ],
+  [
+   82,
+   "in power, India joins",
+   "in power. India joins",
+   "ocr"
+  ],
+  [
+   82,
+   "stage Is being",
+   "stage is being",
+   "ocr"
+  ],
+  [
+   100,
+   "effective International control",
+   "effective international control",
+   "ocr"
+  ],
+  [
+   107,
+   "acceptable International",
+   "acceptable international",
+   "ocr"
+  ],
+  [
+   134,
+   " [A/670l/Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 9 is only the source reference of a quotation (ibid., para. 150) and was dropped.",
+ "unitizer_version": 1,
+ "sha1": "7d9065a3622e0a5b27678cfbcdd3a2f184cd80ab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3735,
+  "words_out": 3694,
+  "retention": 0.989,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   127,
+   243,
+   119,
+   92,
+   179,
+   190,
+   87,
+   112,
+   144,
+   99,
+   185,
+   77,
+   213,
+   139,
+   108,
+   127,
+   147,
+   147,
+   159,
+   83,
+   96,
+   171,
+   102,
+   162,
+   98,
+   158,
+   130
+  ],
+  "warnings": []
+ }
+}

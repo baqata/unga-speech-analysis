@@ -1,0 +1,140 @@
+{
+ "id": "IRN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  37,
+  49,
+  71,
+  83,
+  104,
+  117,
+  133,
+  146,
+  169,
+  192,
+  207,
+  219,
+  235,
+  251,
+  264,
+  283,
+  302,
+  328,
+  339,
+  351,
+  365,
+  378,
+  390,
+  401,
+  412,
+  429,
+  438
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "todayís",
+   "today’s",
+   "encoding"
+  ],
+  [
+   30,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   66,
+   "(The Holy Koran, XIII:11)",
+   "",
+   "label"
+  ],
+  [
+   164,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   356,
+   "Iranís",
+   "Iran’s",
+   "encoding"
+  ],
+  [
+   367,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   390,
+   "Iranís",
+   "Iran’s",
+   "encoding"
+  ],
+  [
+   396,
+   "Iranís",
+   "Iran’s",
+   "encoding"
+  ],
+  [
+   399,
+   "Iranís",
+   "Iran’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "31a1349ebaac81490abde5cb7f7c58ad031c4a74",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 453,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 3563,
+  "words_out": 3556,
+  "retention": 0.998,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   170,
+   120,
+   110,
+   159,
+   98,
+   154,
+   107,
+   134,
+   112,
+   171,
+   177,
+   116,
+   98,
+   129,
+   143,
+   103,
+   140,
+   141,
+   204,
+   87,
+   93,
+   118,
+   101,
+   93,
+   86,
+   77,
+   125,
+   67,
+   123
+  ],
+  "warnings": []
+ }
+}

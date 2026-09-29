@@ -1,0 +1,112 @@
+{
+ "id": "HTI_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  22,
+  45,
+  56,
+  69,
+  85,
+  103,
+  122,
+  143,
+  164,
+  177,
+  192,
+  200,
+  219,
+  237,
+  253,
+  266,
+  285,
+  304
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   59,
+   "other,",
+   "other.",
+   "ocr"
+  ],
+  [
+   60,
+   "Justice. Hoffe,",
+   "Justice, Hoffe,",
+   "ocr"
+  ],
+  [
+   121,
+   "too long,",
+   "too long.",
+   "ocr"
+  ],
+  [
+   178,
+   "Ouousque tandem abutere. Catilina.",
+   "Quousque tandem abutere, Catilina,",
+   "ocr"
+  ],
+  [
+   220,
+   "resistance,",
+   "resistance.",
+   "ocr"
+  ],
+  [
+   223,
+   "dear,",
+   "dear.",
+   "ocr"
+  ],
+  [
+   305,
+   "macoutes. all",
+   "macoutes, all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03b60a91be7026992669d0d9ff9035acff7e492f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 316,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2
+  },
+  "words_in": 3426,
+  "words_out": 3426,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   113,
+   99,
+   244,
+   118,
+   147,
+   161,
+   190,
+   238,
+   208,
+   247,
+   134,
+   169,
+   79,
+   165,
+   164,
+   162,
+   159,
+   249,
+   238,
+   142
+  ],
+  "warnings": []
+ }
+}

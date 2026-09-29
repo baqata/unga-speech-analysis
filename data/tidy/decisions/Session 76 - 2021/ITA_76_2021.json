@@ -1,0 +1,72 @@
+{
+ "id": "ITA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  19,
+  28,
+  35,
+  39,
+  49,
+  55,
+  62,
+  72,
+  80,
+  86,
+  91,
+  96,
+  100,
+  107,
+  112,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "large- scale",
+   "large-scale",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27cc296200ba3ff52ea94e3fb9cbbcfccc75c343",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2503,
+  "words_out": 2502,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   13,
+   129,
+   92,
+   144,
+   131,
+   62,
+   199,
+   110,
+   168,
+   225,
+   120,
+   177,
+   95,
+   105,
+   86,
+   163,
+   121,
+   163,
+   199
+  ],
+  "warnings": []
+ }
+}

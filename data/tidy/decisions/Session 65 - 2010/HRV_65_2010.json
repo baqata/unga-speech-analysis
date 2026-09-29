@@ -1,0 +1,64 @@
+{
+ "id": "HRV_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  24,
+  46,
+  57,
+  67,
+  89,
+  100,
+  113,
+  131,
+  140,
+  148,
+  167,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   150,
+   " (64/298)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6df66e7969b8a15996318cd3df6f755efcffe5e3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1545,
+  "words_out": 1533,
+  "retention": 0.9922,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   73,
+   117,
+   177,
+   86,
+   77,
+   167,
+   88,
+   98,
+   146,
+   74,
+   66,
+   154,
+   77,
+   133
+  ],
+  "warnings": []
+ }
+}

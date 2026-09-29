@@ -1,0 +1,103 @@
+{
+ "id": "SGP_28_1973",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  7,
+  12,
+  18,
+  21,
+  26,
+  32,
+  34,
+  38,
+  40,
+  48,
+  55,
+  57,
+  60,
+  65,
+  71,
+  74,
+  81,
+  85,
+  88,
+  94,
+  99
+ ],
+ "cer": [
+  1,
+  4
+ ],
+ "fix": [
+  [
+   18,
+   "which' have",
+   "which have",
+   "ocr"
+  ],
+  [
+   28,
+   "believe. - that",
+   "believe that",
+   "ocr"
+  ],
+  [
+   54,
+   "time- bombs",
+   "time-bombs",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8fb8c46c834f8951fe18c0c340df98747f32eed5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2764,
+  "words_out": 2761,
+  "retention": 0.9989,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   107,
+   92,
+   95,
+   127,
+   72,
+   170,
+   108,
+   86,
+   142,
+   64,
+   194,
+   113,
+   75,
+   105,
+   161,
+   149,
+   69,
+   160,
+   75,
+   83,
+   144,
+   177,
+   193
+  ],
+  "warnings": []
+ }
+}

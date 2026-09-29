@@ -1,0 +1,267 @@
+{
+ "id": "ISR_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  16,
+  21,
+  30,
+  37,
+  42,
+  45,
+  52,
+  55,
+  58,
+  63,
+  70,
+  75,
+  78,
+  87,
+  95,
+  98,
+  104,
+  110,
+  119,
+  123,
+  128,
+  134,
+  140,
+  148,
+  156,
+  167,
+  173,
+  179,
+  182,
+  186,
+  195,
+  202,
+  206,
+  214,
+  219,
+  223,
+  233,
+  240,
+  247
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "bean organic",
+   "be an organic",
+   "merged_word"
+  ],
+  [
+   18,
+   "slow, Indeed",
+   "slow. Indeed",
+   "ocr"
+  ],
+  [
+   19,
+   "o n",
+   "on",
+   "split_word"
+  ],
+  [
+   19,
+   " [A/9001/Add.",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "1]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "[2126th meeting, para. 60.1",
+   "",
+   "label"
+  ],
+  [
+   37,
+   " [A/9001/ Add.",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "1, p. 5]",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "Mr, Kissinger",
+   "Mr. Kissinger",
+   "ocr"
+  ],
+  [
+   44,
+   "involved\",",
+   "involved\".",
+   "ocr"
+  ],
+  [
+   54,
+   "East,",
+   "East.",
+   "ocr"
+  ],
+  [
+   55,
+   "II million",
+   "11 million",
+   "ocr"
+  ],
+  [
+   90,
+   "Jordan, We",
+   "Jordan. We",
+   "ocr"
+  ],
+  [
+   91,
+   "1971.5 The",
+   "1971. The",
+   "ocr"
+  ],
+  [
+   109,
+   "lo celebrate",
+   "to celebrate",
+   "ocr"
+  ],
+  [
+   118,
+   "death,",
+   "death.",
+   "ocr"
+  ],
+  [
+   119,
+   "lo insist",
+   "to insist",
+   "ocr"
+  ],
+  [
+   139,
+   "new. hegemonies",
+   "new hegemonies",
+   "ocr"
+  ],
+  [
+   147,
+   "negotiation,",
+   "negotiation.",
+   "ocr"
+  ],
+  [
+   154,
+   "line, The",
+   "line. The",
+   "ocr"
+  ],
+  [
+   181,
+   "agenda,",
+   "agenda.",
+   "ocr"
+  ],
+  [
+   185,
+   "theme,",
+   "theme.",
+   "ocr"
+  ],
+  [
+   199,
+   "propaganda,",
+   "propaganda.",
+   "ocr"
+  ],
+  [
+   210,
+   "meaning, It",
+   "meaning. It",
+   "ocr"
+  ],
+  [
+   216,
+   "a, proud",
+   "a proud",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8405661d6b74ae5570da6aa6eddfd1f7b6b43d8c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 48
+  },
+  "words_in": 5866,
+  "words_out": 5850,
+  "retention": 0.9973,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   41,
+   97,
+   237,
+   110,
+   163,
+   140,
+   106,
+   97,
+   229,
+   112,
+   97,
+   141,
+   168,
+   76,
+   115,
+   174,
+   209,
+   112,
+   205,
+   187,
+   191,
+   84,
+   81,
+   132,
+   70,
+   148,
+   121,
+   249,
+   164,
+   145,
+   76,
+   91,
+   219,
+   163,
+   88,
+   194,
+   96,
+   149,
+   182,
+   128,
+   236,
+   27
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

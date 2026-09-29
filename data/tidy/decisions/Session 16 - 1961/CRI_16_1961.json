@@ -1,0 +1,141 @@
+{
+ "id": "CRI_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  10,
+  16,
+  22,
+  27,
+  32,
+  38,
+  42,
+  47,
+  57,
+  60,
+  64,
+  71,
+  80,
+  86,
+  96,
+  104
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "placed'",
+   "placed",
+   "ocr"
+  ],
+  [
+   4,
+   "justice/",
+   "justice",
+   "ocr"
+  ],
+  [
+   7,
+   "hand,,",
+   "hand,",
+   "ocr"
+  ],
+  [
+   17,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   21,
+   "this'",
+   "this",
+   "ocr"
+  ],
+  [
+   23,
+   "member ship",
+   "membership",
+   "split_word"
+  ],
+  [
+   33,
+   "or States",
+   "of States",
+   "ocr"
+  ],
+  [
+   50,
+   "brave ' people",
+   "brave people",
+   "ocr"
+  ],
+  [
+   66,
+   "Mr, Kennedy",
+   "Mr. Kennedy",
+   "ocr"
+  ],
+  [
+   74,
+   "raking- over",
+   "raking-over",
+   "hyphen"
+  ],
+  [
+   81,
+   "coffee;,",
+   "coffee,",
+   "ocr"
+  ],
+  [
+   96,
+   " [item 84]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3bb4097e4d6328d2ee454c94a5d1c9287ba1e762",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 14
+  },
+  "words_in": 3532,
+  "words_out": 3526,
+  "retention": 0.9983,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   53,
+   189,
+   162,
+   185,
+   266,
+   167,
+   174,
+   215,
+   96,
+   133,
+   291,
+   103,
+   167,
+   201,
+   286,
+   199,
+   268,
+   199,
+   172
+  ],
+  "warnings": []
+ }
+}

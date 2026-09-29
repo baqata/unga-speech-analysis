@@ -1,0 +1,243 @@
+{
+ "id": "IND_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  14,
+  19,
+  26,
+  31,
+  36,
+  39,
+  51,
+  58,
+  66,
+  74,
+  79,
+  85,
+  89,
+  92,
+  96,
+  102,
+  108,
+  113,
+  118,
+  126,
+  130,
+  133,
+  138,
+  146,
+  153,
+  157,
+  163,
+  167,
+  173,
+  177,
+  179,
+  187,
+  191,
+  197,
+  202,
+  205,
+  212,
+  217,
+  221,
+  224,
+  229,
+  238,
+  245,
+  251,
+  256,
+  260,
+  264,
+  268,
+  271,
+  275,
+  279
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   14,
+   "Assembly'\" on",
+   "Assembly on",
+   "ocr"
+  ],
+  [
+   26,
+   " [A/39/1]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   67,
+   "Nuclear- weapon",
+   "Nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   75,
+   "five- continent",
+   "five-continent",
+   "hyphen"
+  ],
+  [
+   75,
+   " [A/39/277]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   "six- Power",
+   "six-Power",
+   "hyphen"
+  ],
+  [
+   88,
+   "de-serves",
+   "deserves",
+   "hyphen"
+  ],
+  [
+   114,
+   "md only",
+   "and only",
+   "ocr"
+  ],
+  [
+   131,
+   "Conference.'",
+   "Conference.",
+   "ocr"
+  ],
+  [
+   142,
+   "Secretary- General's",
+   "Secretary-General's",
+   "hyphen"
+  ],
+  [
+   179,
+   " [resolution 38/10]",
+   "",
+   "label"
+  ],
+  [
+   189,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   216,
+   "less m nominal",
+   "less in nominal",
+   "ocr"
+  ],
+  [
+   231,
+   "Countries\" provides",
+   "Countries provides",
+   "ocr"
+  ],
+  [
+   252,
+   "w\\der",
+   "wider",
+   "ocr"
+  ],
+  [
+   271,
+   "silver .jubilee",
+   "silver jubilee",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 158 skips text mid-sentence (after 'abhorrent system of') and unit 176 lacks the opening word of the quotation.",
+ "unitizer_version": 1,
+ "sha1": "762c88cd405e145e377b95c3170c47c7e44ce986",
+ "layout": "lines",
+ "stats": {
+  "n_units": 290,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 61
+  },
+  "words_in": 7477,
+  "words_out": 7467,
+  "retention": 0.9987,
+  "n_paragraphs": 54,
+  "paragraph_words": [
+   113,
+   122,
+   61,
+   203,
+   188,
+   151,
+   155,
+   99,
+   183,
+   140,
+   190,
+   172,
+   123,
+   162,
+   95,
+   70,
+   91,
+   185,
+   169,
+   147,
+   125,
+   203,
+   137,
+   100,
+   135,
+   195,
+   205,
+   115,
+   176,
+   104,
+   141,
+   92,
+   74,
+   161,
+   162,
+   105,
+   130,
+   78,
+   168,
+   143,
+   65,
+   136,
+   137,
+   220,
+   162,
+   140,
+   206,
+   99,
+   128,
+   101,
+   57,
+   93,
+   101,
+   254
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "AUT_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  32,
+  53,
+  64,
+  85,
+  101,
+  124,
+  134,
+  159,
+  177,
+  190,
+  204,
+  218,
+  237,
+  264,
+  272,
+  298
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d8e1143b4cbbb55336d690a64da04fc632934175",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2516,
+  "words_out": 2512,
+  "retention": 0.9984,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   66,
+   192,
+   179,
+   93,
+   161,
+   131,
+   181,
+   78,
+   190,
+   154,
+   109,
+   116,
+   121,
+   149,
+   217,
+   58,
+   217,
+   100
+  ],
+  "warnings": []
+ }
+}

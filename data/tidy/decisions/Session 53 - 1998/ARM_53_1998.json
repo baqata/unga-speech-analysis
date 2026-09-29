@@ -1,0 +1,80 @@
+{
+ "id": "ARM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  22,
+  34,
+  54,
+  69,
+  77,
+  101,
+  120,
+  132,
+  140,
+  149,
+  159
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   116,
+   "region?s",
+   "region’s",
+   "encoding"
+  ],
+  [
+   142,
+   "Karabakh?s",
+   "Karabakh’s",
+   "encoding"
+  ],
+  [
+   143,
+   "Azerbaijan?s",
+   "Azerbaijan’s",
+   "encoding"
+  ],
+  [
+   171,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c28e4a449e77ffa683bf5e391d2fd169db97dbec",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1419,
+  "words_out": 1417,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   75,
+   107,
+   86,
+   155,
+   131,
+   61,
+   204,
+   151,
+   93,
+   69,
+   73,
+   78,
+   134
+  ],
+  "warnings": []
+ }
+}

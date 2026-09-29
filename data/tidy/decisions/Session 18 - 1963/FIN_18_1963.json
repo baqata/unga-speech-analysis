@@ -1,0 +1,69 @@
+{
+ "id": "FIN_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  11,
+  15,
+  20,
+  24,
+  26,
+  30,
+  34,
+  36,
+  41,
+  46
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "and. the",
+   "and the",
+   "ocr"
+  ],
+  [
+   33,
+   "force In",
+   "force in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d6dcf9f632016a51fd8ed342f18d7fd3898a7a0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 12
+  },
+  "words_in": 1442,
+  "words_out": 1442,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   55,
+   94,
+   156,
+   97,
+   128,
+   152,
+   86,
+   121,
+   122,
+   74,
+   99,
+   150,
+   108
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "MHL_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  16,
+  32,
+  56,
+  75,
+  91,
+  100,
+  121,
+  148
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "068a9f310c6f0c7b8d312147e37103686c5a958c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1268,
+  "words_out": 1268,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   14,
+   109,
+   123,
+   181,
+   163,
+   118,
+   65,
+   161,
+   204,
+   130
+  ],
+  "warnings": []
+ }
+}

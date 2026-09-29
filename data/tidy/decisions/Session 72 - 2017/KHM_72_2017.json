@@ -1,0 +1,72 @@
+{
+ "id": "KHM_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  13,
+  17,
+  20,
+  24,
+  28,
+  31,
+  35,
+  38,
+  43,
+  48,
+  52,
+  55,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "low- carbon",
+   "low-carbon",
+   "hyphen"
+  ],
+  [
+   28,
+   "26/27 17-29722 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "72a0c4504064a76dc5153338490bbad9fd6564da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1630,
+  "words_out": 1627,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   82,
+   167,
+   76,
+   111,
+   105,
+   129,
+   66,
+   79,
+   73,
+   104,
+   82,
+   127,
+   121,
+   99,
+   137,
+   69
+  ],
+  "warnings": []
+ }
+}

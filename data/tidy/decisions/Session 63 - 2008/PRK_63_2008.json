@@ -1,0 +1,63 @@
+{
+ "id": "PRK_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  16,
+  35,
+  48,
+  62,
+  73,
+  83,
+  98,
+  110,
+  123,
+  135,
+  149,
+  157,
+  170,
+  183,
+  201
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd512f3a46f88f70fa43007d2a363e7d7d13cfcc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1727,
+  "words_out": 1723,
+  "retention": 0.9977,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   52,
+   65,
+   141,
+   106,
+   109,
+   92,
+   74,
+   108,
+   105,
+   98,
+   92,
+   107,
+   66,
+   101,
+   115,
+   139,
+   153
+  ],
+  "warnings": []
+ }
+}

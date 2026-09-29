@@ -1,0 +1,74 @@
+{
+ "id": "CAN_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  17,
+  25,
+  36,
+  47,
+  61,
+  68,
+  76,
+  84,
+  91,
+  102,
+  111,
+  117,
+  125,
+  130
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "al so",
+   "also",
+   "split_word"
+  ],
+  [
+   73,
+   "other s.",
+   "others.",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e4de68c494f1b2d527ea4f620b502e6bee13e1ef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2199,
+  "words_out": 2195,
+  "retention": 0.9982,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   112,
+   88,
+   218,
+   141,
+   207,
+   133,
+   167,
+   100,
+   100,
+   92,
+   113,
+   189,
+   127,
+   79,
+   154,
+   80,
+   95
+  ],
+  "warnings": []
+ }
+}

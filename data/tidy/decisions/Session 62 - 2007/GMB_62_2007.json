@@ -1,0 +1,75 @@
+{
+ "id": "GMB_62_2007",
+ "drop": [
+  [
+   240,
+   240,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  27,
+  47,
+  58,
+  71,
+  82,
+  101,
+  120,
+  131,
+  148,
+  159,
+  170,
+  187,
+  203,
+  213,
+  225,
+  241,
+  260
+ ],
+ "cer": [
+  0,
+  9,
+  260
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91284335f0f477b0d10dfbd864deb1a4d924b54e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2074,
+  "words_out": 2067,
+  "retention": 0.9966,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   71,
+   147,
+   157,
+   79,
+   101,
+   95,
+   146,
+   153,
+   77,
+   136,
+   93,
+   89,
+   133,
+   137,
+   82,
+   95,
+   121,
+   147,
+   8
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "YEM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  19,
+  40,
+  69,
+  96,
+  124,
+  151,
+  168,
+  185,
+  199,
+  222
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   5,
+   "sessionâs",
+   "session’s",
+   "encoding"
+  ],
+  [
+   35,
+   "societyâs",
+   "society’s",
+   "encoding"
+  ],
+  [
+   103,
+   "Administrationâs",
+   "Administration’s",
+   "encoding"
+  ],
+  [
+   114,
+   "Governmentâs",
+   "Government’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "706b03ba2a30339f6db4bc8154c7512ae8aea2b0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 1,
+   "page_number": 3
+  },
+  "words_in": 1859,
+  "words_out": 1856,
+  "retention": 0.9984,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   55,
+   106,
+   154,
+   230,
+   208,
+   221,
+   226,
+   136,
+   144,
+   114,
+   207,
+   55
+  ],
+  "warnings": []
+ }
+}

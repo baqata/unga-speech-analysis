@@ -1,0 +1,64 @@
+{
+ "id": "LBR_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  21,
+  34,
+  42,
+  47,
+  56,
+  64,
+  68,
+  72,
+  75,
+  80,
+  81
+ ],
+ "cer": [
+  80
+ ],
+ "fix": [
+  [
+   82,
+   "tire present",
+   "the present",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39e8b6303442eea0e1bf119cc5c85baf46f7a0bd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1946,
+  "words_out": 1946,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   161,
+   170,
+   211,
+   204,
+   195,
+   123,
+   208,
+   163,
+   93,
+   109,
+   84,
+   122,
+   38,
+   65
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "id": "MRT_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  15,
+  39,
+  52,
+  69,
+  90,
+  109,
+  125,
+  135,
+  153,
+  168,
+  183,
+  202,
+  229,
+  237,
+  246
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   0,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   18,
+   "(A/51/950), ",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   45,
+   "delegation?s",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   81,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   89,
+   "countries?",
+   "countries’",
+   "encoding"
+  ],
+  [
+   95,
+   "Sid?Ahmed",
+   "Sid’Ahmed",
+   "encoding"
+  ],
+  [
+   97,
+   "citizens?",
+   "citizens’",
+   "encoding"
+  ],
+  [
+   110,
+   "people?s",
+   "people’s",
+   "encoding"
+  ],
+  [
+   115,
+   "citizens?",
+   "citizens’",
+   "encoding"
+  ],
+  [
+   210,
+   "country?s",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "764ecdaaaa8b8bd42eedddd0a37b6adb7083cda5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 259,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2101,
+  "words_out": 2100,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   69,
+   50,
+   201,
+   112,
+   136,
+   172,
+   140,
+   122,
+   80,
+   158,
+   130,
+   114,
+   146,
+   224,
+   68,
+   77,
+   101
+  ],
+  "warnings": []
+ }
+}

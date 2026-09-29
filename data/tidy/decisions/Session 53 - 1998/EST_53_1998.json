@@ -1,0 +1,82 @@
+{
+ "id": "EST_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  23,
+  34,
+  55,
+  69,
+  83,
+  100,
+  109,
+  117,
+  127
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "delegation?s",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   33,
+   "Estonia?s",
+   "Estonia’s",
+   "encoding"
+  ],
+  [
+   39,
+   "Estonia?s",
+   "Estonia’s",
+   "encoding"
+  ],
+  [
+   70,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   77,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3422689f5b8c02b89c322fde4588029ed1847c0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1111,
+  "words_out": 1110,
+  "retention": 0.9991,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   60,
+   143,
+   103,
+   172,
+   122,
+   114,
+   123,
+   74,
+   71,
+   83,
+   45
+  ],
+  "warnings": []
+ }
+}

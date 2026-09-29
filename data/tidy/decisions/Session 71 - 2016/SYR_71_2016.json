@@ -1,0 +1,78 @@
+{
+ "id": "SYR_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  18,
+  23,
+  27,
+  32,
+  35,
+  39,
+  44,
+  47,
+  53,
+  56,
+  60,
+  66,
+  68,
+  72,
+  74
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "A1-Qaida",
+   "Al-Qaida",
+   "ocr"
+  ],
+  [
+   67,
+   "destructon",
+   "destruction",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1f9310a99c5e3951107f6de52f5f4ee9f0c449e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2036,
+  "words_out": 2036,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   75,
+   106,
+   126,
+   120,
+   89,
+   148,
+   144,
+   93,
+   97,
+   80,
+   101,
+   148,
+   109,
+   125,
+   186,
+   65,
+   83,
+   56,
+   85
+  ],
+  "warnings": []
+ }
+}

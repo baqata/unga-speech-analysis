@@ -1,0 +1,61 @@
+{
+ "id": "TUN_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  43,
+  53,
+  74,
+  92,
+  105,
+  120,
+  140,
+  159,
+  177,
+  192,
+  206,
+  224,
+  243
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43eeae3c51e2b471bb59fade2dc5bf58b517cc7f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2000,
+  "words_out": 1998,
+  "retention": 0.999,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   123,
+   85,
+   133,
+   69,
+   165,
+   139,
+   100,
+   116,
+   156,
+   157,
+   147,
+   121,
+   102,
+   135,
+   143,
+   107
+  ],
+  "warnings": []
+ }
+}

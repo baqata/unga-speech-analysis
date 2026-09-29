@@ -1,0 +1,76 @@
+{
+ "id": "TUN_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13,
+  21,
+  25,
+  27,
+  34,
+  42,
+  45,
+  52,
+  57,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "dedication,",
+   "dedication.",
+   "ocr"
+  ],
+  [
+   13,
+   "to ore of",
+   "to one of",
+   "ocr"
+  ],
+  [
+   64,
+   "action o£ this",
+   "action of this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a5167b216018d39e08c4fa734f6b1f58254311a7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2259,
+  "words_out": 2259,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   168,
+   114,
+   138,
+   136,
+   160,
+   149,
+   120,
+   235,
+   214,
+   142,
+   229,
+   160,
+   108,
+   186
+  ],
+  "warnings": []
+ }
+}

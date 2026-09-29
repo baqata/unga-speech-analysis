@@ -1,0 +1,50 @@
+{
+ "id": "HND_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  11,
+  14,
+  17,
+  22
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "\"organizations",
+   "organizations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7dd61617bf91474ff388da9c1f05a200729d98a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 24,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 747,
+  "words_out": 747,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   108,
+   90,
+   97,
+   116,
+   74,
+   84,
+   104,
+   74
+  ],
+  "warnings": []
+ }
+}

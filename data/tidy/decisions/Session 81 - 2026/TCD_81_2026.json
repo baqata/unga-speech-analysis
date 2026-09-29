@@ -1,0 +1,161 @@
+{
+ "id": "TCD_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   60,
+   60,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  3,
+  9,
+  17,
+  21,
+  24,
+  26,
+  30,
+  37,
+  46,
+  50,
+  51,
+  52,
+  58
+ ],
+ "cer": [
+  1,
+  3,
+  58
+ ],
+ "fix": [
+  [
+   1,
+   "Sheridan armiesFO 약 flashSMGA The President of the United Nations ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Mohamed Idris Dibi-Indo",
+   "Mahamat Idriss Déby Itno",
+   "asr_name"
+  ],
+  [
+   4,
+   "term. ",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "Lack",
+   "Lake",
+   "asr_term"
+  ],
+  [
+   20,
+   "Ezelwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   20,
+   "Silt",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   25,
+   "Mohamed Idris Debi Itno",
+   "Mahamat Idriss Déby Itno",
+   "asr_name"
+  ],
+  [
+   36,
+   "CHAD",
+   "Chad",
+   "asr_name"
+  ],
+  [
+   38,
+   "conflict. ",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "Enadi",
+   "Ennedi",
+   "asr_name"
+  ],
+  [
+   49,
+   "CHAD",
+   "Chad",
+   "asr_name"
+  ],
+  [
+   50,
+   "Chan",
+   "Chad",
+   "asr_name"
+  ],
+  [
+   50,
+   "Daimed",
+   "Damietta",
+   "asr_name"
+  ],
+  [
+   50,
+   "Damietta. we",
+   "Damietta. We",
+   "asr_term"
+  ],
+  [
+   51,
+   "Gaza. sticking",
+   "Gaza. Sticking",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Head of state Marshal Mahamat Idriss Deby Itno (official name); Spanish confirms Zulwini, declaracion de CIRTE, lago Chad, Enedi Este, puerto egipcio de Damiet; garbled opening and mistimed salutation removed. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 50 'Damietta. we' -> 'Damietta. We'; unit 51 'Gaza. sticking' -> 'Gaza. Sticking'",
+ "unitizer_version": 1,
+ "sha1": "11d81e1de5360b1a2a58f91ac4e389ff01d86243",
+ "layout": "single",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1665,
+  "words_out": 1624,
+  "retention": 0.9754,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   62,
+   156,
+   109,
+   94,
+   233,
+   76,
+   63,
+   200,
+   183,
+   89,
+   119,
+   83,
+   147,
+   10
+  ],
+  "warnings": []
+ }
+}

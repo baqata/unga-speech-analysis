@@ -1,0 +1,121 @@
+{
+ "id": "NER_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  11,
+  17,
+  22,
+  25,
+  30,
+  33,
+  38,
+  40,
+  43,
+  49,
+  53,
+  55,
+  58,
+  62,
+  68,
+  71,
+  73,
+  76
+ ],
+ "cer": [
+  0,
+  73
+ ],
+ "fix": [
+  [
+   8,
+   "vigil, ice·, hence",
+   "vigilance; hence",
+   "ocr"
+  ],
+  [
+   18,
+   "accept, on the other.",
+   "accept, on the other,",
+   "ocr"
+  ],
+  [
+   22,
+   "I refer o the",
+   "I refer to the",
+   "ocr"
+  ],
+  [
+   27,
+   "Mr, Javier",
+   "Mr. Javier",
+   "ocr"
+  ],
+  [
+   31,
+   "super- · Powers",
+   "super-Powers",
+   "ocr"
+  ],
+  [
+   42,
+   "necessity he safeguarded",
+   "necessity be safeguarded",
+   "ocr"
+  ],
+  [
+   45,
+   "weapons ~ nuclear",
+   "weapons - nuclear",
+   "ocr"
+  ],
+  [
+   76,
+   "In conclusion;",
+   "In conclusion,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 18-19 are one sentence split across a line break; unit 37 keeps \"almost It years\" as printed.",
+ "unitizer_version": 1,
+ "sha1": "004360fa00b1936ec9518da1037cde243dcaf2ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2295,
+  "words_out": 2292,
+  "retention": 0.9987,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   103,
+   70,
+   142,
+   64,
+   129,
+   139,
+   95,
+   160,
+   80,
+   173,
+   64,
+   67,
+   121,
+   138,
+   85,
+   89,
+   104,
+   207,
+   85,
+   91,
+   47,
+   39
+  ],
+  "warnings": []
+ }
+}

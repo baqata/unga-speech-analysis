@@ -1,0 +1,107 @@
+{
+ "id": "IRQ_49_1994",
+ "drop": [
+  [
+   19,
+   19,
+   "header_footer"
+  ],
+  [
+   114,
+   114,
+   "header_footer"
+  ],
+  [
+   208,
+   208,
+   "header_footer"
+  ],
+  [
+   303,
+   303,
+   "header_footer"
+  ],
+  [
+   401,
+   401,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  23,
+  36,
+  54,
+  73,
+  94,
+  117,
+  124,
+  147,
+  170,
+  190,
+  213,
+  226,
+  241,
+  257,
+  271,
+  283,
+  312,
+  333,
+  344,
+  358,
+  368,
+  391,
+  409
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b4706691a3efe4e9031a766d88544eb495f0052",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 422,
+  "units_dropped": {
+   "header_footer": 5
+  },
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 3639,
+  "words_out": 3615,
+  "retention": 0.9934,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   47,
+   145,
+   108,
+   168,
+   161,
+   182,
+   183,
+   64,
+   220,
+   195,
+   177,
+   185,
+   125,
+   137,
+   140,
+   100,
+   98,
+   246,
+   188,
+   93,
+   135,
+   75,
+   199,
+   138,
+   106
+  ],
+  "warnings": []
+ }
+}

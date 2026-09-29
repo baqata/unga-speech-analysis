@@ -1,0 +1,153 @@
+{
+ "id": "VCT_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  14,
+  18,
+  22,
+  26,
+  31,
+  35,
+  39,
+  43,
+  47,
+  54,
+  56,
+  59,
+  64,
+  71,
+  75,
+  82,
+  86,
+  91,
+  94
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   1,
+   "We ate very",
+   "We are very",
+   "ocr"
+  ],
+  [
+   6,
+   "United Nations,",
+   "United Nations.",
+   "ocr"
+  ],
+  [
+   16,
+   "We called for",
+   "He called for",
+   "ocr"
+  ],
+  [
+   18,
+   "we ate at",
+   "we are at",
+   "ocr"
+  ],
+  [
+   20,
+   "President ¡Reagan",
+   "President Reagan",
+   "ocr"
+  ],
+  [
+   25,
+   "laurels) the hope",
+   "laurels; the hope",
+   "ocr"
+  ],
+  [
+   38,
+   "based ort Israel's",
+   "based on Israel's",
+   "ocr"
+  ],
+  [
+   53,
+   "we ate mindful",
+   "we are mindful",
+   "ocr"
+  ],
+  [
+   57,
+   "roust by now",
+   "must by now",
+   "ocr"
+  ],
+  [
+   60,
+   "ate archipelagic",
+   "are archipelagic",
+   "ocr"
+  ],
+  [
+   62,
+   "financial flews",
+   "financial flows",
+   "ocr"
+  ],
+  [
+   88,
+   "mast be",
+   "must be",
+   "ocr"
+  ],
+  [
+   98,
+   "generous·, where",
+   "generous; where",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 50 (\"have nothing to do with\") appears to invert the intended sense; kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "1df55ab4af34828f5504c407cc308ad70e99b055",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2336,
+  "words_out": 2336,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   71,
+   131,
+   62,
+   148,
+   110,
+   82,
+   110,
+   74,
+   74,
+   68,
+   88,
+   137,
+   189,
+   70,
+   66,
+   174,
+   112,
+   71,
+   81,
+   81,
+   113,
+   94,
+   130
+  ],
+  "warnings": []
+ }
+}

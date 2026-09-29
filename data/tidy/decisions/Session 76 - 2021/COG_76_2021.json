@@ -1,0 +1,60 @@
+{
+ "id": "COG_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  13,
+  19,
+  23,
+  25,
+  29,
+  31,
+  34,
+  37,
+  40,
+  44,
+  46
+ ],
+ "cer": [],
+ "fix": [
+  [
+   23,
+   "civil- society",
+   "civil-society",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c54469df151a4f48982a265be956ba252b13110a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1524,
+  "words_out": 1523,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   146,
+   168,
+   85,
+   145,
+   140,
+   79,
+   105,
+   87,
+   100,
+   74,
+   118,
+   118,
+   62,
+   96
+  ],
+  "warnings": []
+ }
+}

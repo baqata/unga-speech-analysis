@@ -1,0 +1,84 @@
+{
+ "id": "SGP_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  15,
+  22,
+  27,
+  35,
+  39,
+  42,
+  46,
+  49,
+  53,
+  60,
+  67,
+  74,
+  81,
+  86,
+  91,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "care and ,",
+   "care and,",
+   "spacing"
+  ],
+  [
+   66,
+   "sustainability- linked",
+   "sustainability-linked",
+   "hyphen"
+  ],
+  [
+   88,
+   "zero- sum",
+   "zero-sum",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b392df72327d48e10cfb86fdfddb83f4745c4587",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2008,
+  "words_out": 2004,
+  "retention": 0.998,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   45,
+   118,
+   143,
+   104,
+   115,
+   137,
+   89,
+   70,
+   73,
+   93,
+   79,
+   123,
+   136,
+   125,
+   130,
+   76,
+   98,
+   84,
+   166
+  ],
+  "warnings": []
+ }
+}

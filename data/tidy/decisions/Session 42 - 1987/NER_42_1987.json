@@ -1,0 +1,177 @@
+{
+ "id": "NER_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  15,
+  18,
+  21,
+  23,
+  28,
+  33,
+  41,
+  46,
+  51,
+  55,
+  58,
+  62,
+  65,
+  70,
+  72,
+  77,
+  84,
+  89,
+  94,
+  97,
+  104,
+  107,
+  113,
+  117,
+  119
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   16,
+   "which ail the",
+   "which all the",
+   "ocr"
+  ],
+  [
+   29,
+   "Oman Bongo",
+   "Omar Bongo",
+   "ocr"
+  ],
+  [
+   50,
+   "(19í(7)",
+   "(1987)",
+   "ocr"
+  ],
+  [
+   50,
+   "both patties",
+   "both parties",
+   "ocr"
+  ],
+  [
+   51,
+   "diddle East",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   56,
+   "solution or the",
+   "solution of the",
+   "ocr"
+  ],
+  [
+   70,
+   "observers or this",
+   "observers of this",
+   "ocr"
+  ],
+  [
+   71,
+   "United states",
+   "United States",
+   "ocr"
+  ],
+  [
+   76,
+   "6 0 per",
+   "60 per",
+   "spacing"
+  ],
+  [
+   82,
+   "the dent problem",
+   "the debt problem",
+   "ocr"
+  ],
+  [
+   91,
+   "Assembly, However",
+   "Assembly. However",
+   "ocr"
+  ],
+  [
+   100,
+   "19B7",
+   "1987",
+   "ocr"
+  ],
+  [
+   112,
+   "the Sanel",
+   "the Sahel",
+   "ocr"
+  ],
+  [
+   119,
+   "These ate",
+   "These are",
+   "ocr"
+  ],
+  [
+   122,
+   " (A/36/PV.25, p.27)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b130d54f9f5be3b78a0dc1bd0f29b5234854641f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3635,
+  "words_out": 3632,
+  "retention": 0.9992,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   234,
+   97,
+   117,
+   136,
+   85,
+   99,
+   79,
+   124,
+   192,
+   137,
+   158,
+   144,
+   111,
+   133,
+   105,
+   96,
+   156,
+   111,
+   156,
+   127,
+   98,
+   137,
+   80,
+   135,
+   124,
+   169,
+   116,
+   60,
+   116
+  ],
+  "warnings": []
+ }
+}

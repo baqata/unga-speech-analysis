@@ -1,0 +1,86 @@
+{
+ "id": "GNB_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  12,
+  15,
+  19,
+  23,
+  28,
+  31,
+  34
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "(UHSO)",
+   "(UNSO)",
+   "ocr"
+  ],
+  [
+   9,
+   "CIŁSS",
+   "CILSS",
+   "encoding"
+  ],
+  [
+   15,
+   "wad brothers",
+   "and brothers",
+   "ocr"
+  ],
+  [
+   21,
+   "in a complex",
+   "is a complex",
+   "ocr"
+  ],
+  [
+   28,
+   "off the",
+   "of the",
+   "ocr"
+  ],
+  [
+   34,
+   "Peres",
+   "Perez",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db60ac7494bbc7049e1b4d313d262e95879b3b97",
+ "layout": "lines",
+ "stats": {
+  "n_units": 37,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1240,
+  "words_out": 1240,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   62,
+   78,
+   121,
+   139,
+   132,
+   162,
+   100,
+   129,
+   117,
+   93,
+   107
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "id": "THA_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  10,
+  12,
+  17,
+  22,
+  25,
+  30,
+  33,
+  38,
+  40,
+  46,
+  52,
+  56,
+  57,
+  63,
+  67,
+  69
+ ],
+ "cer": [
+  0,
+  1,
+  10,
+  69
+ ],
+ "fix": [
+  [
+   38,
+   "Bio- Circular",
+   "Bio-Circular",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c66266f1aa2d02e0c0db6abc337126e0f6ec7847",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1840,
+  "words_out": 1839,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   2,
+   28,
+   198,
+   57,
+   118,
+   96,
+   96,
+   112,
+   78,
+   178,
+   78,
+   155,
+   202,
+   64,
+   65,
+   158,
+   78,
+   74,
+   2
+  ],
+  "warnings": []
+ }
+}

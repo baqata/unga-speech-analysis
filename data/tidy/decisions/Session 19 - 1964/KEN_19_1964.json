@@ -1,0 +1,141 @@
+{
+ "id": "KEN_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  10,
+  14,
+  21,
+  25,
+  27,
+  34,
+  38,
+  41,
+  45,
+  48,
+  54,
+  58,
+  63,
+  67,
+  70,
+  76,
+  81,
+  83,
+  86,
+  92,
+  96,
+  107
+ ],
+ "cer": [
+  1,
+  67
+ ],
+ "fix": [
+  [
+   9,
+   "no less that",
+   "no less than",
+   "ocr"
+  ],
+  [
+   10,
+   "stated:\"The",
+   "stated: \"The",
+   "spacing"
+  ],
+  [
+   11,
+   "self- respect",
+   "self-respect",
+   "hyphen"
+  ],
+  [
+   35,
+   "tendering",
+   "rendering",
+   "ocr"
+  ],
+  [
+   59,
+   "Non-Aligned.",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   61,
+   "[A/5763, sect.",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "I.]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "peace'",
+   "peace",
+   "ocr"
+  ],
+  [
+   76,
+   "world.",
+   "world,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79f3a781160ca52e22ef71d7650e9df4a7cc01dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2917,
+  "words_out": 2911,
+  "retention": 0.9979,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   146,
+   153,
+   146,
+   132,
+   74,
+   115,
+   163,
+   97,
+   96,
+   77,
+   123,
+   158,
+   144,
+   124,
+   103,
+   77,
+   160,
+   128,
+   125,
+   71,
+   140,
+   94,
+   217,
+   48
+  ],
+  "warnings": []
+ }
+}

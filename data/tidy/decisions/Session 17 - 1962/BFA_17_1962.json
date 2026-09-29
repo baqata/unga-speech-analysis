@@ -1,0 +1,237 @@
+{
+ "id": "BFA_17_1962",
+ "drop": [
+  [
+   182,
+   182,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  19,
+  23,
+  30,
+  35,
+  38,
+  43,
+  45,
+  52,
+  60,
+  63,
+  67,
+  70,
+  76,
+  83,
+  91,
+  97,
+  101,
+  105,
+  109,
+  116,
+  122,
+  127,
+  134,
+  139,
+  146,
+  151,
+  156,
+  159,
+  161,
+  166,
+  173,
+  176,
+  183,
+  192,
+  197
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "like all",
+   "Like all",
+   "ocr"
+  ],
+  [
+   15,
+   "questions(",
+   "questions",
+   "ocr"
+  ],
+  [
+   19,
+   "34., ",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "/cold",
+   "\"cold",
+   "ocr"
+  ],
+  [
+   40,
+   "all,",
+   "all.",
+   "ocr"
+  ],
+  [
+   64,
+   "wants-but",
+   "wants but",
+   "ocr"
+  ],
+  [
+   66,
+   "South, The",
+   "South. The",
+   "ocr"
+  ],
+  [
+   80,
+   "so-choose",
+   "so choose",
+   "ocr"
+  ],
+  [
+   81,
+   "if will",
+   "it will",
+   "ocr"
+  ],
+  [
+   101,
+   "The;",
+   "The",
+   "ocr"
+  ],
+  [
+   120,
+   "fail.",
+   "fall.",
+   "ocr"
+  ],
+  [
+   144,
+   "And disperse",
+   "and disperse",
+   "ocr"
+  ],
+  [
+   145,
+   "world.:",
+   "world.",
+   "ocr"
+  ],
+  [
+   151,
+   "shout",
+   "about",
+   "ocr"
+  ],
+  [
+   151,
+   "Guinea, In",
+   "Guinea. In",
+   "ocr"
+  ],
+  [
+   154,
+   "Papuans, The",
+   "Papuans. The",
+   "ocr"
+  ],
+  [
+   168,
+   "be. no",
+   "be no",
+   "ocr"
+  ],
+  [
+   176,
+   "to. join",
+   "to join",
+   "ocr"
+  ],
+  [
+   179,
+   "consist sin",
+   "consists in",
+   "split_word"
+  ],
+  [
+   192,
+   "illustrious.",
+   "illustrious",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1663117bce2db56e6b367ae594713e425435413",
+ "layout": "lines",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 51
+  },
+  "words_in": 5430,
+  "words_out": 5423,
+  "retention": 0.9987,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   91,
+   143,
+   138,
+   141,
+   142,
+   235,
+   128,
+   103,
+   145,
+   81,
+   151,
+   184,
+   129,
+   109,
+   83,
+   121,
+   159,
+   165,
+   102,
+   183,
+   171,
+   118,
+   186,
+   217,
+   86,
+   159,
+   95,
+   154,
+   109,
+   142,
+   106,
+   73,
+   108,
+   168,
+   274,
+   151,
+   136,
+   220,
+   17
+  ],
+  "warnings": []
+ }
+}

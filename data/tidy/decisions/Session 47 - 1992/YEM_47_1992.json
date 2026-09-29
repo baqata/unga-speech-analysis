@@ -1,0 +1,80 @@
+{
+ "id": "YEM_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  24,
+  34,
+  42,
+  53,
+  69,
+  79,
+  91,
+  104,
+  115,
+  124,
+  140,
+  156,
+  165,
+  178,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   138,
+   "consonant, with",
+   "consonant with",
+   "ocr"
+  ],
+  [
+   146,
+   "the, peace",
+   "the peace",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "927e5fec375db633782dcb4ca169759eb5e6e132",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 205,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2300,
+  "words_out": 2300,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   116,
+   148,
+   106,
+   90,
+   123,
+   194,
+   116,
+   128,
+   141,
+   136,
+   101,
+   190,
+   183,
+   94,
+   153,
+   125,
+   156
+  ],
+  "warnings": []
+ }
+}

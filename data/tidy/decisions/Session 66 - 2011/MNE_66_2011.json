@@ -1,0 +1,73 @@
+{
+ "id": "MNE_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  20,
+  32,
+  41,
+  65,
+  81,
+  92,
+  104,
+  124,
+  134,
+  146,
+  156,
+  172,
+  182,
+  199,
+  221,
+  236,
+  245,
+  256,
+  271
+ ],
+ "cer": [
+  0,
+  5,
+  271
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66ee5dbbaef5ddbadd2dced736b1a687facaece1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2052,
+  "words_out": 2051,
+  "retention": 0.9995,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   36,
+   114,
+   98,
+   68,
+   172,
+   109,
+   70,
+   95,
+   136,
+   75,
+   95,
+   69,
+   134,
+   69,
+   144,
+   153,
+   112,
+   63,
+   78,
+   108,
+   53
+  ],
+  "warnings": []
+ }
+}

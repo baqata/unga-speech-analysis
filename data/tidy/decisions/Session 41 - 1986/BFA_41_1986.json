@@ -1,0 +1,186 @@
+{
+ "id": "BFA_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  5,
+  11,
+  14,
+  22,
+  25,
+  27,
+  30,
+  35,
+  40,
+  45,
+  54,
+  56,
+  60,
+  62,
+  64,
+  69,
+  72,
+  77,
+  81,
+  84,
+  86,
+  91,
+  95,
+  101,
+  106,
+  109,
+  112,
+  118,
+  122,
+  127,
+  130,
+  134,
+  137,
+  141,
+  144,
+  145,
+  147,
+  150,
+  152
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "greeit",
+   "great",
+   "ocr"
+  ],
+  [
+   10,
+   "bears e special",
+   "bears a special",
+   "ocr"
+  ],
+  [
+   22,
+   "more and mere",
+   "more and more",
+   "ocr"
+  ],
+  [
+   25,
+   "He were",
+   "We were",
+   "ocr"
+  ],
+  [
+   35,
+   "men hit",
+   "been hit",
+   "ocr"
+  ],
+  [
+   43,
+   "sore or less",
+   "more or less",
+   "ocr"
+  ],
+  [
+   48,
+   "Charteris",
+   "Charter is",
+   "merged_word"
+  ],
+  [
+   58,
+   "coHsprehensive",
+   "comprehensive",
+   "ocr"
+  ],
+  [
+   119,
+   " (&/39/BV.20, p. 3)",
+   "",
+   "label"
+  ],
+  [
+   122,
+   "done suck",
+   "done much",
+   "ocr"
+  ],
+  [
+   132,
+   "UNICEP",
+   "UNICEF",
+   "ocr"
+  ],
+  [
+   144,
+   "recommendations*",
+   "recommendations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37bcb4e3e8853e51ef101a8e0e8587bcb55a5222",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4256,
+  "words_out": 4254,
+  "retention": 0.9995,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   100,
+   43,
+   62,
+   124,
+   114,
+   204,
+   76,
+   64,
+   91,
+   126,
+   170,
+   175,
+   239,
+   66,
+   80,
+   76,
+   65,
+   76,
+   57,
+   105,
+   103,
+   126,
+   61,
+   95,
+   118,
+   95,
+   76,
+   136,
+   67,
+   185,
+   134,
+   160,
+   67,
+   116,
+   64,
+   96,
+   120,
+   54,
+   54,
+   82,
+   72,
+   60
+  ],
+  "warnings": []
+ }
+}

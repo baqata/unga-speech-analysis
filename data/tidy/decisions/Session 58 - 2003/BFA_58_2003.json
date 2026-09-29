@@ -1,0 +1,85 @@
+{
+ "id": "BFA_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  35,
+  55,
+  67,
+  84,
+  98,
+  119,
+  133,
+  146,
+  160,
+  171,
+  180,
+  193
+ ],
+ "cer": [
+  10,
+  21
+ ],
+ "fix": [
+  [
+   68,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ],
+  [
+   72,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ],
+  [
+   81,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ],
+  [
+   129,
+   "d''tre",
+   "d'être",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dc0950994092b2b37abc7ac759e6eb6d7dcd9d99",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1622,
+  "words_out": 1618,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   68,
+   88,
+   122,
+   155,
+   103,
+   143,
+   109,
+   184,
+   117,
+   111,
+   101,
+   79,
+   71,
+   104,
+   63
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "VEN_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  16,
+  20,
+  24,
+  30,
+  36,
+  38,
+  41,
+  43,
+  48,
+  55,
+  61,
+  65,
+  72,
+  78,
+  90,
+  94,
+  102,
+  105,
+  111,
+  119,
+  121,
+  123,
+  126,
+  128,
+  136,
+  142,
+  145,
+  151,
+  154
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "pro-claimed",
+   "proclaimed",
+   "hyphen"
+  ],
+  [
+   20,
+   "the 'e is",
+   "there is",
+   "ocr"
+  ],
+  [
+   40,
+   "Would",
+   "would",
+   "ocr"
+  ],
+  [
+   105,
+   "under-standing",
+   "understanding",
+   "hyphen"
+  ],
+  [
+   108,
+   "lie",
+   "be",
+   "ocr"
+  ],
+  [
+   113,
+   "relation-ships",
+   "relationships",
+   "hyphen"
+  ],
+  [
+   113,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   153,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0609f8b7bcea32a21affb47e75d89d2a32e477b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 51
+  },
+  "words_in": 3698,
+  "words_out": 3696,
+  "retention": 0.9995,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   94,
+   146,
+   69,
+   106,
+   112,
+   103,
+   139,
+   152,
+   75,
+   90,
+   83,
+   99,
+   97,
+   80,
+   104,
+   166,
+   125,
+   162,
+   96,
+   125,
+   116,
+   117,
+   186,
+   80,
+   61,
+   84,
+   105,
+   167,
+   161,
+   101,
+   145,
+   95,
+   55
+  ],
+  "warnings": []
+ }
+}

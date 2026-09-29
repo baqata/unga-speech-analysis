@@ -1,0 +1,180 @@
+{
+ "id": "BLR_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  19,
+  22,
+  25,
+  28,
+  33,
+  37,
+  43,
+  48,
+  61,
+  66,
+  71,
+  75,
+  81,
+  84,
+  87,
+  92,
+  97,
+  100,
+  103,
+  108,
+  111,
+  114,
+  119,
+  124,
+  126,
+  127,
+  131,
+  136,
+  139,
+  142,
+  143,
+  146,
+  147
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   ". ",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "Nations..",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   30,
+   "so-calledF",
+   "so-called",
+   "ocr"
+  ],
+  [
+   44,
+   "tHs",
+   "this",
+   "ocr"
+  ],
+  [
+   45,
+   " [AlC.lIL.513]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "8",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "9",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "*he",
+   "the",
+   "ocr"
+  ],
+  [
+   82,
+   "Charter, In",
+   "Charter. In",
+   "ocr"
+  ],
+  [
+   91,
+   ".questions",
+   "questions",
+   "ocr"
+  ],
+  [
+   125,
+   " [A 18074]",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "pr do not",
+   "or do not",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The quoted seven-point list of the draft declaration is kept with its lead-in sentence as one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "4a19c7440a83866ad0958f8fb0b35a35f6581203",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 61
+  },
+  "words_in": 5567,
+  "words_out": 5550,
+  "retention": 0.9969,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   112,
+   90,
+   188,
+   101,
+   152,
+   91,
+   111,
+   91,
+   211,
+   136,
+   217,
+   252,
+   310,
+   290,
+   163,
+   186,
+   189,
+   187,
+   97,
+   210,
+   127,
+   86,
+   111,
+   123,
+   101,
+   144,
+   132,
+   162,
+   112,
+   76,
+   198,
+   160,
+   136,
+   149,
+   67,
+   87,
+   103,
+   92
+  ],
+  "warnings": []
+ }
+}

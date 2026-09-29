@@ -1,0 +1,118 @@
+{
+ "id": "FRA_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  18,
+  25,
+  34,
+  39,
+  47,
+  53,
+  56,
+  60,
+  66,
+  73,
+  78,
+  82,
+  87,
+  90,
+  97,
+  101,
+  107,
+  116,
+  122,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   " (136th meeting)",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "previous your",
+   "previous year",
+   "ocr"
+  ],
+  [
+   83,
+   " (139th meeting)",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "USSR, authorities",
+   "USSR authorities",
+   "ocr"
+  ],
+  [
+   106,
+   "to 1 share",
+   "to share",
+   "ocr"
+  ],
+  [
+   114,
+   "all, France",
+   "all. France",
+   "ocr"
+  ],
+  [
+   122,
+   " (l44th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "2f99f57a21405ca48b3677e585986cd3b443508d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3340,
+  "words_out": 3331,
+  "retention": 0.9973,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   150,
+   226,
+   121,
+   153,
+   210,
+   159,
+   213,
+   166,
+   81,
+   121,
+   137,
+   126,
+   114,
+   121,
+   108,
+   80,
+   209,
+   132,
+   160,
+   188,
+   111,
+   175,
+   70
+  ],
+  "warnings": []
+ }
+}

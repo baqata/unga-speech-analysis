@@ -1,0 +1,118 @@
+{
+ "id": "BLZ_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  16,
+  23,
+  26,
+  28,
+  32,
+  36,
+  40,
+  45,
+  47,
+  50,
+  55,
+  60,
+  62,
+  65,
+  70,
+  73,
+  78,
+  80,
+  83,
+  86,
+  90,
+  96,
+  101
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   13,
+   "(ANDS)",
+   "(AIDS)",
+   "ocr"
+  ],
+  [
+   14,
+   "com tries",
+   "countries",
+   "split_word"
+  ],
+  [
+   15,
+   "19803",
+   "1980s",
+   "ocr"
+  ],
+  [
+   35,
+   "Cur economies",
+   "Our economies",
+   "ocr"
+  ],
+  [
+   48,
+   "Eequipulas",
+   "Esquipulas",
+   "ocr"
+  ],
+  [
+   70,
+   "(CARICCK)",
+   "(CARICOM)",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68a1789e32e130d839df87bef628606368fd9cf2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2776,
+  "words_out": 2775,
+  "retention": 0.9996,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   65,
+   62,
+   62,
+   189,
+   138,
+   71,
+   70,
+   68,
+   111,
+   128,
+   132,
+   64,
+   116,
+   171,
+   163,
+   58,
+   76,
+   145,
+   70,
+   132,
+   65,
+   113,
+   63,
+   72,
+   128,
+   126,
+   117
+  ],
+  "warnings": []
+ }
+}

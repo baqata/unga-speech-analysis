@@ -1,0 +1,158 @@
+{
+ "id": "FSM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  36,
+  55,
+  68,
+  84,
+  98,
+  109,
+  126,
+  146,
+  157,
+  164,
+  180,
+  195,
+  212,
+  222,
+  242,
+  267,
+  282,
+  310,
+  326,
+  336,
+  347,
+  361,
+  373
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "Forum?s",
+   "Forum’s",
+   "encoding"
+  ],
+  [
+   63,
+   "region?s",
+   "region’s",
+   "encoding"
+  ],
+  [
+   75,
+   "Vanuatu?s",
+   "Vanuatu’s",
+   "encoding"
+  ],
+  [
+   99,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   102,
+   "Forum?s",
+   "Forum’s",
+   "encoding"
+  ],
+  [
+   215,
+   "Forum?s",
+   "Forum’s",
+   "encoding"
+  ],
+  [
+   323,
+   "Let?s",
+   "Let’s",
+   "encoding"
+  ],
+  [
+   328,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   331,
+   "planet?s",
+   "planet’s",
+   "encoding"
+  ],
+  [
+   347,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   349,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   356,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   366,
+   "world?s",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18d8c7cdc4a7aeaac0fc917662142d3696ee2931",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 388,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 3246,
+  "words_out": 3240,
+  "retention": 0.9982,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   151,
+   141,
+   154,
+   97,
+   133,
+   110,
+   96,
+   139,
+   146,
+   81,
+   67,
+   140,
+   117,
+   147,
+   85,
+   181,
+   226,
+   122,
+   224,
+   148,
+   84,
+   101,
+   123,
+   99,
+   128
+  ],
+  "warnings": []
+ }
+}

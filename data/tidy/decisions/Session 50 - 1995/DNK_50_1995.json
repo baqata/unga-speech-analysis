@@ -1,0 +1,64 @@
+{
+ "id": "DNK_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  34,
+  46,
+  55,
+  65,
+  82,
+  100,
+  117,
+  137,
+  149,
+  171,
+  178,
+  197,
+  212
+ ],
+ "cer": [],
+ "fix": [
+  [
+   137,
+   "Middle Fast",
+   "Middle East",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1eac6ccd0b95b53f30a1b003aa50ca6fe1245d22",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 222,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1736,
+  "words_out": 1735,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   101,
+   156,
+   98,
+   75,
+   67,
+   131,
+   141,
+   138,
+   140,
+   103,
+   182,
+   57,
+   153,
+   125,
+   68
+  ],
+  "warnings": []
+ }
+}

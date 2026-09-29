@@ -1,0 +1,99 @@
+{
+ "id": "TZA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   59,
+   59,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  12,
+  18,
+  23,
+  31,
+  35,
+  44,
+  50,
+  53,
+  58
+ ],
+ "cer": [
+  58
+ ],
+ "fix": [
+  [
+   15,
+   "the UN-AIDS reform",
+   "the UN80 reform",
+   "asr_name"
+  ],
+  [
+   18,
+   "the Ezulwini concessors",
+   "the Ezulwini Consensus",
+   "asr_name"
+  ],
+  [
+   33,
+   "concession of financing",
+   "concessional financing",
+   "asr_term"
+  ],
+  [
+   40,
+   "Samia Sulu Hassan",
+   "Samia Suluhu Hassan",
+   "asr_name"
+  ],
+  [
+   41,
+   "clean cookie",
+   "clean cooking",
+   "asr_term"
+  ],
+  [
+   44,
+   "unilateral cohesive measures",
+   "unilateral coercive measures",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "942b983a57fdc135914c6b9834db6755fb76f5f1",
+ "layout": "single",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1513,
+  "words_out": 1459,
+  "retention": 0.9643,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   95,
+   165,
+   114,
+   147,
+   159,
+   122,
+   218,
+   142,
+   125,
+   169,
+   3
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "id": "COD_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   135,
+   135,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  13,
+  21,
+  26,
+  28,
+  36,
+  46,
+  51,
+  57,
+  63,
+  76,
+  82,
+  86,
+  94,
+  102,
+  106,
+  113,
+  120,
+  125,
+  129,
+  132
+ ],
+ "cer": [
+  2,
+  132
+ ],
+ "fix": [
+  [
+   18,
+   "Azovini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   18,
+   "CERT",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   46,
+   "Ruchuru",
+   "Rutshuru",
+   "asr_name"
+  ],
+  [
+   60,
+   "Lawanda",
+   "Luanda",
+   "asr_name"
+  ],
+  [
+   60,
+   "Lorenzo",
+   "Lourenço",
+   "asr_name"
+  ],
+  [
+   93,
+   "ACABA",
+   "Aqaba",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d41ba71b95f135f3f2902de19b31fa0b18fdb49",
+ "layout": "single",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3356,
+  "words_out": 3303,
+  "retention": 0.9842,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   146,
+   211,
+   209,
+   180,
+   83,
+   168,
+   144,
+   143,
+   180,
+   210,
+   199,
+   185,
+   78,
+   201,
+   181,
+   136,
+   162,
+   160,
+   117,
+   124,
+   63,
+   23
+  ],
+  "warnings": []
+ }
+}

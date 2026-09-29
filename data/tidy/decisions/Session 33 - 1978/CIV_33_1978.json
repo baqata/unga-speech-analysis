@@ -1,0 +1,146 @@
+{
+ "id": "CIV_33_1978",
+ "drop": [
+  [
+   77,
+   77,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  11,
+  14,
+  19,
+  22,
+  25,
+  29,
+  33,
+  36,
+  39,
+  43,
+  45,
+  50,
+  52,
+  57,
+  60,
+  64,
+  69,
+  70,
+  74,
+  78,
+  82,
+  86,
+  91,
+  94,
+  96,
+  97,
+  101,
+  107
+ ],
+ "cer": [
+  0,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   9,
+   "In spit? of",
+   "In spite of",
+   "ocr"
+  ],
+  [
+   69,
+   "arriving ?t a",
+   "arriving at a",
+   "ocr"
+  ],
+  [
+   79,
+   " [resolution S-10/2]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "able t > disarm",
+   "able to disarm",
+   "ocr"
+  ],
+  [
+   94,
+   " [resolutions 3201 (S-VI) and 3202 (S-VI)J",
+   "",
+   "label"
+  ],
+  [
+   94,
+   " [resolution 3362(S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "progress or fundamental",
+   "progress on fundamental",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 77 is a leftover paragraph number.",
+ "unitizer_version": 1,
+ "sha1": "a86586c263415fb808510eb76a187a98377c289e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 54
+  },
+  "words_in": 3842,
+  "words_out": 3830,
+  "retention": 0.9969,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   153,
+   115,
+   64,
+   72,
+   169,
+   174,
+   70,
+   92,
+   115,
+   169,
+   145,
+   102,
+   140,
+   84,
+   128,
+   97,
+   151,
+   129,
+   164,
+   170,
+   109,
+   123,
+   102,
+   134,
+   99,
+   134,
+   108,
+   117,
+   66,
+   121,
+   127,
+   87
+  ],
+  "warnings": []
+ }
+}

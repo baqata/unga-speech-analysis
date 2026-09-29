@@ -1,0 +1,47 @@
+{
+ "id": "KEN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  30,
+  50,
+  63,
+  72,
+  85,
+  101
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b036cef80da44193d840e3a8e258e5a45e16ac15",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 852,
+  "words_out": 852,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   77,
+   64,
+   92,
+   162,
+   98,
+   72,
+   96,
+   121,
+   70
+  ],
+  "warnings": []
+ }
+}

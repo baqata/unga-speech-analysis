@@ -1,0 +1,202 @@
+{
+ "id": "IRN_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  11,
+  16,
+  18,
+  23,
+  27,
+  36,
+  43,
+  45,
+  50,
+  58,
+  64,
+  67,
+  73,
+  80,
+  87,
+  89,
+  94,
+  100,
+  103,
+  104,
+  106,
+  109,
+  114,
+  118,
+  121,
+  127,
+  130,
+  132,
+  137,
+  142,
+  145,
+  151,
+  157,
+  160,
+  164,
+  168,
+  171,
+  177,
+  179,
+  184,
+  189,
+  192
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   18,
+   "under-lined",
+   "underlined",
+   "hyphen"
+  ],
+  [
+   37,
+   "Al- Khalil",
+   "Al-Khalil",
+   "hyphen"
+  ],
+  [
+   56,
+   "third- world",
+   "third-world",
+   "hyphen"
+  ],
+  [
+   59,
+   "imperial- minded",
+   "imperial-minded",
+   "hyphen"
+  ],
+  [
+   103,
+   "two- year-long",
+   "two-year-long",
+   "hyphen"
+  ],
+  [
+   108,
+   "1925,\" as",
+   "1925, as",
+   "ocr"
+  ],
+  [
+   114,
+   "region m particular",
+   "region in particular",
+   "ocr"
+  ],
+  [
+   152,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   162,
+   "re- emergence",
+   "re-emergence",
+   "hyphen"
+  ],
+  [
+   173,
+   "waterways m the",
+   "waterways in the",
+   "ocr"
+  ],
+  [
+   181,
+   "1944,' and",
+   "1944, and",
+   "ocr"
+  ],
+  [
+   182,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   195,
+   "imperial- minded",
+   "imperial-minded",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Opens with a Koranic quotation; unit 108 is a single 330-word enumeration; the last sentence lacks a final period.",
+ "unitizer_version": 1,
+ "sha1": "eee5a3c3a676ed0064c81a8d73ccdea74f7704b5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 6697,
+  "words_out": 6687,
+  "retention": 0.9985,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   46,
+   59,
+   184,
+   65,
+   160,
+   109,
+   164,
+   180,
+   244,
+   184,
+   122,
+   163,
+   210,
+   201,
+   109,
+   191,
+   169,
+   211,
+   101,
+   147,
+   184,
+   115,
+   131,
+   141,
+   332,
+   179,
+   153,
+   92,
+   148,
+   102,
+   89,
+   129,
+   191,
+   112,
+   175,
+   179,
+   140,
+   104,
+   117,
+   113,
+   188,
+   66,
+   190,
+   110,
+   81,
+   107
+  ],
+  "warnings": [
+   "paragraph at unit 107 has 332 words"
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "LTU_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  26,
+  39,
+  48,
+  58,
+  75,
+  93,
+  113,
+  126
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1f7f51230cee93295a6ff3985b973cb03cc275a5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1080,
+  "words_out": 1080,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   50,
+   69,
+   89,
+   101,
+   69,
+   85,
+   121,
+   135,
+   156,
+   98,
+   107
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "RWA_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  12,
+  17,
+  20,
+  23,
+  27,
+  34,
+  37,
+  42,
+  48,
+  50,
+  55,
+  62,
+  64,
+  68,
+  71,
+  75,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   59,
+   "resolution.",
+   "resolution",
+   "ocr"
+  ],
+  [
+   78,
+   "twenty- five",
+   "twenty-five",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b55a13a5e7ae97905a6d501121a7054a822ba4b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2838,
+  "words_out": 2837,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   150,
+   130,
+   137,
+   89,
+   158,
+   146,
+   130,
+   89,
+   187,
+   111,
+   126,
+   160,
+   135,
+   161,
+   191,
+   134,
+   115,
+   162,
+   124,
+   89,
+   113
+  ],
+  "warnings": []
+ }
+}

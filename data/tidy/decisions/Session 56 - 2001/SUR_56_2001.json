@@ -1,0 +1,67 @@
+{
+ "id": "SUR_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  24,
+  38,
+  48,
+  65,
+  80,
+  90,
+  107,
+  121,
+  136,
+  153,
+  171,
+  185,
+  199
+ ],
+ "cer": [
+  0,
+  185
+ ],
+ "fix": [
+  [
+   96,
+   "$l",
+   "$1",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81265fbba6a60e917f3444dcede60d358ef103e3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1657,
+  "words_out": 1655,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   80,
+   106,
+   109,
+   73,
+   142,
+   108,
+   75,
+   150,
+   123,
+   118,
+   127,
+   134,
+   121,
+   109,
+   80
+  ],
+  "warnings": []
+ }
+}

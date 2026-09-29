@@ -1,0 +1,47 @@
+{
+ "id": "STP_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  33,
+  51,
+  72,
+  86,
+  99,
+  131,
+  159
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6af5ad7660bda29f2a3a60e4f916e4ef491e6f4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1404,
+  "words_out": 1402,
+  "retention": 0.9986,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   82,
+   186,
+   147,
+   162,
+   115,
+   98,
+   243,
+   225,
+   144
+  ],
+  "warnings": []
+ }
+}

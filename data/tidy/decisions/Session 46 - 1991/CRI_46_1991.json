@@ -1,0 +1,141 @@
+{
+ "id": "CRI_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  19,
+  24,
+  30,
+  37,
+  44,
+  49,
+  55,
+  59,
+  64,
+  68,
+  71,
+  80,
+  84,
+  88,
+  92,
+  99,
+  104,
+  108,
+  110
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   24,
+   "conflicts ore over",
+   "conflicts are over",
+   "ocr"
+  ],
+  [
+   34,
+   "the participation.",
+   "the participation,",
+   "ocr"
+  ],
+  [
+   35,
+   "Inter alia,",
+   "inter alia,",
+   "ocr"
+  ],
+  [
+   42,
+   "Me firmly",
+   "We firmly",
+   "ocr"
+  ],
+  [
+   48,
+   "not or y",
+   "not only",
+   "ocr"
+  ],
+  [
+   61,
+   "-ill States",
+   "all States",
+   "ocr"
+  ],
+  [
+   68,
+   "manner, is the",
+   "manner, in the",
+   "ocr"
+  ],
+  [
+   80,
+   "United Stations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   85,
+   " (A/43/PV.72, p. 23)",
+   "",
+   "label"
+  ],
+  [
+   112,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   112,
+   ":>f war",
+   "of war",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "228a3f26a6298057abb6c49af2b2abc09a0bfc0d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3208,
+  "words_out": 3204,
+  "retention": 0.9988,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   118,
+   117,
+   108,
+   158,
+   82,
+   160,
+   196,
+   180,
+   160,
+   129,
+   148,
+   115,
+   104,
+   85,
+   199,
+   170,
+   110,
+   126,
+   191,
+   140,
+   152,
+   84,
+   172
+  ],
+  "warnings": []
+ }
+}

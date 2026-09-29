@@ -1,0 +1,90 @@
+{
+ "id": "KWT_67_2012",
+ "drop": [
+  [
+   207,
+   207,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  17,
+  44,
+  56,
+  71,
+  86,
+  102,
+  118,
+  133,
+  152,
+  171,
+  191,
+  208,
+  235,
+  253,
+  264,
+  284
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "f laws",
+   "flaws",
+   "split_word"
+  ],
+  [
+   89,
+   "growth.In",
+   "growth. In",
+   "spacing"
+  ],
+  [
+   230,
+   "(A/63/PV.46, p. 10)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38f709492611162601732447d312be53c24746d7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2461,
+  "words_out": 2449,
+  "retention": 0.9951,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   139,
+   235,
+   97,
+   129,
+   123,
+   134,
+   130,
+   112,
+   166,
+   160,
+   164,
+   124,
+   218,
+   151,
+   87,
+   169,
+   111
+  ],
+  "warnings": [
+   "procedural drop [207,207] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "ARM_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  34,
+  48,
+  66,
+  88,
+  113,
+  133,
+  150,
+  165,
+  177,
+  199,
+  223
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60dfc4945650552024c7a210ca157290869694ef",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1843,
+  "words_out": 1840,
+  "retention": 0.9984,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   62,
+   200,
+   118,
+   138,
+   156,
+   180,
+   156,
+   117,
+   120,
+   89,
+   169,
+   198,
+   137
+  ],
+  "warnings": []
+ }
+}

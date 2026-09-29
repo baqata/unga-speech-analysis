@@ -1,0 +1,109 @@
+{
+ "id": "THA_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  20,
+  23,
+  27,
+  30,
+  33,
+  36,
+  40,
+  47,
+  51,
+  56,
+  59,
+  63,
+  67,
+  72,
+  75,
+  78,
+  81,
+  85,
+  88,
+  91,
+  94,
+  97,
+  100
+ ],
+ "cer": [
+  0,
+  100
+ ],
+ "fix": [
+  [
+   17,
+   "by-another",
+   "by another",
+   "ocr"
+  ],
+  [
+   54,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "multi- faceted",
+   "multi-faceted",
+   "spacing"
+  ],
+  [
+   103,
+   "UThant",
+   "U Thant",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03e0c28fce23db1a919a0877b978718abe1baa3c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2994,
+  "words_out": 2994,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   104,
+   104,
+   162,
+   175,
+   97,
+   117,
+   115,
+   67,
+   96,
+   133,
+   144,
+   111,
+   162,
+   78,
+   104,
+   78,
+   155,
+   117,
+   81,
+   73,
+   104,
+   100,
+   107,
+   99,
+   86,
+   75,
+   150
+  ],
+  "warnings": []
+ }
+}

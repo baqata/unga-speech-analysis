@@ -1,0 +1,157 @@
+{
+ "id": "FSM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  13,
+  22,
+  28,
+  34,
+  38,
+  45,
+  54,
+  60,
+  67,
+  72,
+  78,
+  82,
+  90
+ ],
+ "cer": [
+  2,
+  90
+ ],
+ "fix": [
+  [
+   10,
+   "UN AD Initiative",
+   "UN80 Initiative",
+   "asr_name"
+  ],
+  [
+   36,
+   "PB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   37,
+   "PB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   38,
+   "My Cronyshia",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   39,
+   "My Cronyshia",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   42,
+   "my Cronyshia",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   54,
+   "my Cronyshia",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   61,
+   "my Cronyshian Constitution",
+   "Micronesian Constitution",
+   "asr_name"
+  ],
+  [
+   64,
+   "Oneara",
+   "Honiara",
+   "asr_name"
+  ],
+  [
+   67,
+   "my Cronyshian",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   71,
+   "My Cronyshian",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   72,
+   "my Cronyshian",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   76,
+   "my Cronyshian's",
+   "Micronesia's",
+   "asr_name"
+  ],
+  [
+   78,
+   "my Cronyshian",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   84,
+   "My Cronyshian",
+   "Micronesia",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b229e97fda92d1a04268ded7db12ed2e535e56f",
+ "layout": "single",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1865,
+  "words_out": 1816,
+  "retention": 0.9737,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   120,
+   108,
+   205,
+   137,
+   130,
+   70,
+   131,
+   136,
+   139,
+   144,
+   110,
+   156,
+   87,
+   140,
+   3
+  ],
+  "warnings": []
+ }
+}

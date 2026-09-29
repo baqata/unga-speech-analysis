@@ -1,0 +1,51 @@
+{
+ "id": "MMR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  34,
+  58,
+  71,
+  92,
+  112,
+  134,
+  148,
+  163,
+  174
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8159416d49a1e726c55250ea2deaafbf9f7c93a1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1389,
+  "words_out": 1388,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   126,
+   135,
+   201,
+   91,
+   172,
+   150,
+   172,
+   107,
+   105,
+   87,
+   42
+  ],
+  "warnings": []
+ }
+}

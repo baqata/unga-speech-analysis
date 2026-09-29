@@ -1,0 +1,75 @@
+{
+ "id": "BRA_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  20,
+  25,
+  31,
+  39,
+  45,
+  50,
+  56,
+  62,
+  67,
+  71,
+  76,
+  82,
+  87
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   27,
+   "para- graph",
+   "paragraph",
+   "hyphen"
+  ],
+  [
+   76,
+   "that. there",
+   "that there",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efd611eb45ec83bf68ec93920eac42d1b14f8267",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2138,
+  "words_out": 2119,
+  "retention": 0.9911,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   132,
+   73,
+   139,
+   123,
+   99,
+   152,
+   166,
+   134,
+   155,
+   85,
+   133,
+   137,
+   120,
+   134,
+   149,
+   105,
+   83
+  ],
+  "warnings": []
+ }
+}

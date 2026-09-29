@@ -1,0 +1,80 @@
+{
+ "id": "GAB_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  16,
+  18,
+  20,
+  22,
+  25,
+  29,
+  35,
+  40,
+  46,
+  49,
+  52,
+  55,
+  61,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ],
+  [
+   43,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   65,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bda397ffbcac2038662674eac57a3884918eb1c1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1817,
+  "words_out": 1814,
+  "retention": 0.9983,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   99,
+   94,
+   208,
+   73,
+   70,
+   70,
+   75,
+   153,
+   119,
+   114,
+   166,
+   90,
+   73,
+   105,
+   154,
+   82,
+   69
+  ],
+  "warnings": []
+ }
+}

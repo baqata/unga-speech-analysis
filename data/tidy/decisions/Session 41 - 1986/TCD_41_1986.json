@@ -1,0 +1,83 @@
+{
+ "id": "TCD_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  8,
+  12,
+  17,
+  19,
+  25,
+  35,
+  38,
+  39,
+  43,
+  48,
+  51,
+  56,
+  58,
+  61,
+  68,
+  71,
+  75,
+  77
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   58,
+   "ray delegation",
+   "my delegation",
+   "ocr"
+  ],
+  [
+   49,
+   "people..",
+   "people.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "715f563d0e2fb8a64f2ef94dcaa04bd6c8fcf2a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2149,
+  "words_out": 2149,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   101,
+   51,
+   103,
+   136,
+   106,
+   98,
+   162,
+   227,
+   79,
+   45,
+   105,
+   121,
+   91,
+   145,
+   60,
+   76,
+   194,
+   65,
+   84,
+   66,
+   34
+  ],
+  "warnings": []
+ }
+}

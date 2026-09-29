@@ -1,0 +1,153 @@
+{
+ "id": "MDG_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  5,
+  8,
+  11,
+  18,
+  24,
+  27,
+  31,
+  35,
+  40,
+  44,
+  49,
+  56,
+  60,
+  67,
+  71,
+  77,
+  83,
+  86,
+  89,
+  90,
+  95,
+  98
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  5,
+  8,
+  86,
+  89,
+  90
+ ],
+ "fix": [
+  [
+   3,
+   "United Nations, Your",
+   "United Nations. Your",
+   "ocr"
+  ],
+  [
+   19,
+   "backorder",
+   "back order",
+   "merged_word"
+  ],
+  [
+   25,
+   "Malaysia, Are not",
+   "Malaysia. Are not",
+   "ocr"
+  ],
+  [
+   41,
+   "spoken out'",
+   "spoken out",
+   "ocr"
+  ],
+  [
+   41,
+   "Unity'",
+   "Unity",
+   "ocr"
+  ],
+  [
+   42,
+   "flopped",
+   "flouted",
+   "ocr"
+  ],
+  [
+   47,
+   " [resolution 1711 (XVI)]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "Government, A special",
+   "Government. A special",
+   "ocr"
+  ],
+  [
+   64,
+   " [94]",
+   "",
+   "label"
+  ],
+  [
+   66,
+   " [2103B (XX)]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "may. in",
+   "may, in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14fb134ac8d6120dadf9ce9ff5d2f096c72ec02d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 2459,
+  "words_out": 2428,
+  "retention": 0.9874,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   57,
+   48,
+   40,
+   134,
+   124,
+   165,
+   124,
+   114,
+   64,
+   141,
+   187,
+   126,
+   114,
+   157,
+   57,
+   113,
+   95,
+   76,
+   125,
+   70,
+   45,
+   25,
+   77,
+   60,
+   90
+  ],
+  "warnings": []
+ }
+}

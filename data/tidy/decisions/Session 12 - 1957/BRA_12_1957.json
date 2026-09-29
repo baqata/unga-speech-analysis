@@ -1,0 +1,76 @@
+{
+ "id": "BRA_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  11,
+  13,
+  16,
+  25,
+  29,
+  33,
+  39,
+  45,
+  52,
+  54,
+  58
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   46,
+   "financial Resources",
+   "financial resources",
+   "ocr"
+  ],
+  [
+   48,
+   "It Is natural",
+   "It is natural",
+   "ocr"
+  ],
+  [
+   53,
+   " [A/3594 and Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9db0c4d25c7df3bcd4bd15e4d7e5ea9071f2fb68",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1690,
+  "words_out": 1687,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   57,
+   229,
+   70,
+   61,
+   50,
+   241,
+   115,
+   128,
+   128,
+   165,
+   215,
+   84,
+   94,
+   50
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "id": "NER_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  16,
+  19,
+  21,
+  23,
+  26,
+  29,
+  31,
+  32,
+  35,
+  39,
+  41,
+  43,
+  44,
+  46,
+  49,
+  51,
+  55,
+  59,
+  65,
+  67,
+  69,
+  71,
+  75,
+  79,
+  82,
+  86,
+  98,
+  104,
+  108,
+  110,
+  114,
+  121,
+  124,
+  127,
+  129,
+  134,
+  138,
+  139,
+  142,
+  145,
+  148
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   14,
+   "Inter mediate-Range",
+   "Intermediate-Range",
+   "split_word"
+  ],
+  [
+   16,
+   "attainments}",
+   "attainments;",
+   "ocr"
+  ],
+  [
+   29,
+   "(SHAFO)",
+   "(SWAPO)",
+   "ocr"
+  ],
+  [
+   29,
+   "SHAFO leaders",
+   "SWAPO leaders",
+   "ocr"
+  ],
+  [
+   31,
+   "435 (1578)",
+   "435 (1978)",
+   "ocr"
+  ],
+  [
+   31,
+   "of Its choice",
+   "of its choice",
+   "ocr"
+  ],
+  [
+   32,
+   "persists, The new",
+   "persists. The new",
+   "ocr"
+  ],
+  [
+   33,
+   "be Misled",
+   "be misled",
+   "ocr"
+  ],
+  [
+   40,
+   "Mandela, Today",
+   "Mandela. Today",
+   "ocr"
+  ],
+  [
+   42,
+   "Mozambique,",
+   "Mozambique.",
+   "ocr"
+  ],
+  [
+   67,
+   "country„ We",
+   "country. We",
+   "ocr"
+  ],
+  [
+   54,
+   "implementation} otherwise",
+   "implementation; otherwise",
+   "ocr"
+  ],
+  [
+   87,
+   "Last year.",
+   "Last year,",
+   "ocr"
+  ],
+  [
+   115,
+   "o£ debt",
+   "of debt",
+   "ocr"
+  ],
+  [
+   127,
+   "1 should like",
+   "I should like",
+   "ocr"
+  ],
+  [
+   150,
+   "our. undertaking",
+   "our undertaking",
+   "ocr"
+  ],
+  [
+   141,
+   "up apolitical system",
+   "up a political system",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af5d05633fec223ae38aba6b2e9f689affeabe4b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4859,
+  "words_out": 4859,
+  "retention": 1.0,
+  "n_paragraphs": 45,
+  "paragraph_words": [
+   181,
+   142,
+   63,
+   131,
+   88,
+   67,
+   127,
+   131,
+   85,
+   84,
+   69,
+   73,
+   90,
+   122,
+   80,
+   88,
+   103,
+   106,
+   61,
+   137,
+   146,
+   104,
+   77,
+   97,
+   70,
+   76,
+   82,
+   97,
+   125,
+   210,
+   155,
+   99,
+   75,
+   102,
+   238,
+   121,
+   130,
+   73,
+   176,
+   82,
+   60,
+   123,
+   129,
+   102,
+   82
+  ],
+  "warnings": []
+ }
+}

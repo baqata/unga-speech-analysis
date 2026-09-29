@@ -1,0 +1,74 @@
+{
+ "id": "PRT_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  15,
+  17,
+  21,
+  24,
+  28,
+  33,
+  40,
+  44,
+  52,
+  55,
+  59,
+  64,
+  68,
+  71,
+  76,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "necessart",
+   "necessary",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "Source text stops mid-sentence at the end of unit 82.",
+ "unitizer_version": 1,
+ "sha1": "3f59277d46d667323cabe096d97df4cbb9932186",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1938,
+  "words_out": 1938,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   141,
+   107,
+   121,
+   68,
+   82,
+   123,
+   62,
+   96,
+   134,
+   122,
+   141,
+   69,
+   94,
+   128,
+   105,
+   76,
+   121,
+   101,
+   47
+  ],
+  "warnings": []
+ }
+}

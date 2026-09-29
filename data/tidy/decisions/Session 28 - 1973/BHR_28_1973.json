@@ -1,0 +1,97 @@
+{
+ "id": "BHR_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  24,
+  26,
+  32,
+  36,
+  42,
+  46,
+  51,
+  55,
+  60,
+  65,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   " [resolution 2758 (XXVI)/",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "has-been",
+   "has been",
+   "ocr"
+  ],
+  [
+   13,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   17,
+   "policy, of",
+   "policy of",
+   "ocr"
+  ],
+  [
+   27,
+   "ii this",
+   "in this",
+   "ocr"
+  ],
+  [
+   37,
+   "amount-is",
+   "amount is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d3612c26cd2b60ae44650ce67c3472bd2ca3b23",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19,
+   "page_number": 1
+  },
+  "words_in": 1881,
+  "words_out": 1876,
+  "retention": 0.9973,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   112,
+   166,
+   173,
+   264,
+   98,
+   128,
+   76,
+   162,
+   104,
+   133,
+   83,
+   111,
+   83,
+   105,
+   78
+  ],
+  "warnings": []
+ }
+}

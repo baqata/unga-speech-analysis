@@ -1,0 +1,97 @@
+{
+ "id": "MWI_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  7,
+  12,
+  13,
+  17,
+  22,
+  29,
+  33,
+  40,
+  45,
+  47,
+  50,
+  56,
+  62,
+  67,
+  73,
+  76,
+  81,
+  84,
+  88,
+  91,
+  94
+ ],
+ "cer": [
+  0,
+  6,
+  7,
+  94
+ ],
+ "fix": [
+  [
+   63,
+   "are- concerned",
+   "are concerned",
+   "ocr"
+  ],
+  [
+   74,
+   " [EEC]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "peace-and",
+   "peace and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37906ed39e8bb8e930fe004076b32dc98f9d0359",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2424,
+  "words_out": 2424,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   99,
+   40,
+   128,
+   73,
+   99,
+   121,
+   132,
+   73,
+   151,
+   93,
+   46,
+   115,
+   126,
+   156,
+   100,
+   194,
+   112,
+   124,
+   117,
+   138,
+   84,
+   77,
+   26
+  ],
+  "warnings": []
+ }
+}

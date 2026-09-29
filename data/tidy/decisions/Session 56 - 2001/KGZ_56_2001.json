@@ -1,0 +1,66 @@
+{
+ "id": "KGZ_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  34,
+  53,
+  61,
+  75,
+  89,
+  116,
+  129,
+  147,
+  160,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "IbraimovI",
+   "Ibraimov I",
+   "merged_word"
+  ],
+  [
+   0,
+   "Osmonakun Ibraimov",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aef5b3469879f1f5dda4db5fb690377c4d7bc8ec",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1416,
+  "words_out": 1413,
+  "retention": 0.9979,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   114,
+   157,
+   166,
+   58,
+   101,
+   109,
+   217,
+   99,
+   143,
+   91,
+   104,
+   54
+  ],
+  "warnings": []
+ }
+}

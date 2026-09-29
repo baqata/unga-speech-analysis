@@ -1,0 +1,91 @@
+{
+ "id": "TUN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  8,
+  12,
+  17,
+  20,
+  22,
+  27,
+  29,
+  34,
+  40,
+  42,
+  44,
+  47,
+  50,
+  54,
+  59
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   5,
+   "consensus- based",
+   "consensus-based",
+   "hyphen"
+  ],
+  [
+   14,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ],
+  [
+   38,
+   "consensus- based",
+   "consensus-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d33ef194e9a4fad0d74b3848a4aea01b94dcadaa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1856,
+  "words_out": 1850,
+  "retention": 0.9968,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   63,
+   27,
+   136,
+   124,
+   175,
+   101,
+   49,
+   161,
+   77,
+   90,
+   139,
+   90,
+   70,
+   133,
+   89,
+   133,
+   131,
+   62
+  ],
+  "warnings": []
+ }
+}

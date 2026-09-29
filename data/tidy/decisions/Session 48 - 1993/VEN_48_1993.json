@@ -1,0 +1,81 @@
+{
+ "id": "VEN_48_1993",
+ "drop": [
+  [
+   53,
+   53,
+   "header_footer"
+  ],
+  [
+   147,
+   147,
+   "header_footer"
+  ],
+  [
+   245,
+   245,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  25,
+  38,
+  54,
+  64,
+  75,
+  85,
+  94,
+  102,
+  113,
+  129,
+  150,
+  165,
+  186,
+  202,
+  219,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2121a0fb146d408af3935ee3e88c05187304d627",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 250,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2152,
+  "words_out": 2132,
+  "retention": 0.9907,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   94,
+   131,
+   109,
+   137,
+   87,
+   99,
+   79,
+   74,
+   71,
+   107,
+   128,
+   149,
+   124,
+   187,
+   141,
+   147,
+   91,
+   177
+  ],
+  "warnings": []
+ }
+}

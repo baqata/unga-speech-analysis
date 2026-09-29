@@ -1,0 +1,160 @@
+{
+ "id": "KEN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  23,
+  28,
+  34,
+  39,
+  45,
+  48,
+  51,
+  54,
+  63,
+  70,
+  73,
+  76,
+  79,
+  85,
+  89,
+  92,
+  96,
+  101,
+  107,
+  113,
+  119,
+  124,
+  127,
+  136
+ ],
+ "cer": [
+  0,
+  3,
+  8
+ ],
+ "fix": [
+  [
+   53,
+   "South- North",
+   "South-North",
+   "spacing"
+  ],
+  [
+   53,
+   "1972,'",
+   "1972,",
+   "ocr"
+  ],
+  [
+   65,
+   "fool proof",
+   "foolproof",
+   "split_word"
+  ],
+  [
+   65,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   69,
+   "non- proliferation",
+   "non-proliferation",
+   "spacing"
+  ],
+  [
+   70,
+   "16, ",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "17, ",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "sea, Of",
+   "sea. Of",
+   "ocr"
+  ],
+  [
+   106,
+   "decision,",
+   "decision.",
+   "ocr"
+  ],
+  [
+   112,
+   "sources,",
+   "sources.",
+   "ocr"
+  ],
+  [
+   134,
+   "wilt",
+   "will",
+   "ocr"
+  ],
+  [
+   134,
+   "world, The",
+   "world. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad737ceb3339752a9ecce350642e32cd14c9966e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3592,
+  "words_out": 3586,
+  "retention": 0.9983,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   77,
+   106,
+   90,
+   208,
+   146,
+   125,
+   71,
+   192,
+   59,
+   80,
+   95,
+   162,
+   170,
+   126,
+   115,
+   115,
+   150,
+   114,
+   113,
+   82,
+   156,
+   185,
+   182,
+   169,
+   133,
+   88,
+   226,
+   51
+  ],
+  "warnings": []
+ }
+}

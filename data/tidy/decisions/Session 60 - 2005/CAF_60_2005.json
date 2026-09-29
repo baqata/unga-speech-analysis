@@ -1,0 +1,57 @@
+{
+ "id": "CAF_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  44,
+  61,
+  91,
+  113,
+  150,
+  169,
+  182,
+  195,
+  215,
+  228,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de4092ac2c3bd531e284427b4aecb8b11eab3ebb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2139,
+  "words_out": 2136,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   179,
+   175,
+   149,
+   226,
+   174,
+   331,
+   160,
+   109,
+   102,
+   166,
+   93,
+   164,
+   108
+  ],
+  "warnings": [
+   "paragraph at unit 113 has 331 words"
+  ]
+ }
+}

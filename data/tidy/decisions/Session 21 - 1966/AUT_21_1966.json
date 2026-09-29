@@ -1,0 +1,164 @@
+{
+ "id": "AUT_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  17,
+  21,
+  27,
+  39,
+  48,
+  52,
+  56,
+  62,
+  66,
+  69,
+  76,
+  81,
+  84,
+  87,
+  95,
+  98,
+  103,
+  106,
+  114,
+  119,
+  126,
+  130,
+  133,
+  139,
+  144,
+  149,
+  153,
+  157,
+  160
+ ],
+ "cer": [
+  0,
+  5,
+  11
+ ],
+ "fix": [
+  [
+   19,
+   "Charter, The great",
+   "Charter. The great",
+   "ocr"
+  ],
+  [
+   43,
+   "it. clear",
+   "it clear",
+   "ocr"
+  ],
+  [
+   58,
+   "issues‘of",
+   "issues of",
+   "ocr"
+  ],
+  [
+   71,
+   "[see items 89 and 91]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "12], My",
+   "12]. My",
+   "ocr"
+  ],
+  [
+   82,
+   ".of",
+   "of",
+   "ocr"
+  ],
+  [
+   86,
+   "SouthWestAfrica",
+   "South West Africa",
+   "merged_word"
+  ],
+  [
+   97,
+   "1961, The object",
+   "1961. The object",
+   "ocr"
+  ],
+  [
+   134,
+   "Programme, In the same",
+   "Programme. In the same",
+   "ocr"
+  ],
+  [
+   140,
+   "Conference, We have",
+   "Conference. We have",
+   "ocr"
+  ],
+  [
+   143,
+   "involved,",
+   "involved.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7dba2831583cdbfb5d64565d050e2862ea946b66",
+ "layout": "lines",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4649,
+  "words_out": 4592,
+  "retention": 0.9877,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   113,
+   112,
+   68,
+   171,
+   140,
+   153,
+   308,
+   204,
+   82,
+   106,
+   171,
+   134,
+   81,
+   289,
+   133,
+   118,
+   78,
+   204,
+   142,
+   143,
+   101,
+   160,
+   139,
+   219,
+   60,
+   98,
+   142,
+   213,
+   117,
+   88,
+   69,
+   100,
+   136
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "EGY_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  29,
+  46,
+  61,
+  80,
+  97,
+  105,
+  127,
+  134,
+  150,
+  168,
+  179,
+  196,
+  211,
+  237,
+  257,
+  272,
+  284,
+  296,
+  307,
+  319,
+  341,
+  361,
+  371,
+  388,
+  408,
+  416,
+  440,
+  454
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   262,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   323,
+   "Israel?s",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   354,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   357,
+   "Israel?s",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   376,
+   "Israel?s",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   436,
+   "continent?s",
+   "continent’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68d9b3a13be44ede1e0b1a8019af6f2fc0e7e260",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 459,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 4013,
+  "words_out": 4005,
+  "retention": 0.998,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   139,
+   110,
+   149,
+   137,
+   158,
+   149,
+   76,
+   200,
+   66,
+   141,
+   153,
+   89,
+   144,
+   137,
+   217,
+   164,
+   130,
+   117,
+   108,
+   112,
+   98,
+   195,
+   175,
+   90,
+   148,
+   177,
+   71,
+   195,
+   116,
+   44
+  ],
+  "warnings": []
+ }
+}

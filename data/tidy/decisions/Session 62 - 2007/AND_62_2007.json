@@ -1,0 +1,57 @@
+{
+ "id": "AND_62_2007",
+ "drop": [
+  [
+   66,
+   66,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  19,
+  35,
+  48,
+  67,
+  87,
+  100,
+  115,
+  135,
+  155,
+  172
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "29c4b9a524a58f8ac9559c59fd401d11220b0ffd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1482,
+  "words_out": 1475,
+  "retention": 0.9953,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   145,
+   129,
+   92,
+   158,
+   163,
+   91,
+   137,
+   163,
+   157,
+   142,
+   98
+  ],
+  "warnings": [
+   "procedural drop [66,66] in the middle of the speech"
+  ]
+ }
+}

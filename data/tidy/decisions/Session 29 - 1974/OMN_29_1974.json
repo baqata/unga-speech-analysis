@@ -1,0 +1,100 @@
+{
+ "id": "OMN_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  16,
+  22,
+  28,
+  30,
+  33,
+  39,
+  43,
+  46,
+  50,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "an d racial",
+   "and racial",
+   "spacing"
+  ],
+  [
+   16,
+   "Middle Fast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   22,
+   " [AI98I7]",
+   "",
+   "label"
+  ],
+  [
+   27,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "in (the",
+   "in the",
+   "ocr"
+  ],
+  [
+   52,
+   "OUF part",
+   "our part",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c781ea6a5fac8331ea33a8aa3f67d119eb67589e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 1869,
+  "words_out": 1862,
+  "retention": 0.9963,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   179,
+   99,
+   174,
+   94,
+   173,
+   194,
+   69,
+   64,
+   167,
+   106,
+   127,
+   167,
+   157,
+   92
+  ],
+  "warnings": []
+ }
+}

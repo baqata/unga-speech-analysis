@@ -1,0 +1,74 @@
+{
+ "id": "KOR_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  19,
+  32,
+  50,
+  70,
+  95,
+  116,
+  127,
+  142,
+  157,
+  177,
+  193,
+  206,
+  224,
+  247,
+  270,
+  290,
+  315
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0fe0624e447df8d3130c6b8ef9eff5f068628d07",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 330,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2703,
+  "words_out": 2694,
+  "retention": 0.9967,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   63,
+   94,
+   104,
+   157,
+   168,
+   210,
+   163,
+   96,
+   130,
+   115,
+   154,
+   120,
+   98,
+   146,
+   192,
+   198,
+   158,
+   200,
+   128
+  ],
+  "warnings": []
+ }
+}

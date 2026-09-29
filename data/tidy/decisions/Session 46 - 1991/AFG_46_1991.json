@@ -1,0 +1,182 @@
+{
+ "id": "AFG_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  12,
+  20,
+  25,
+  31,
+  38,
+  41,
+  43,
+  53,
+  58,
+  63,
+  69,
+  70,
+  76,
+  80,
+  81,
+  86,
+  90,
+  92,
+  96,
+  99,
+  102,
+  104,
+  108,
+  112,
+  115,
+  120,
+  125,
+  128,
+  131,
+  135,
+  139,
+  145,
+  148,
+  150,
+  152,
+  155
+ ],
+ "cer": [
+  0,
+  4,
+  80
+ ],
+ "fix": [
+  [
+   6,
+   "Haw York",
+   "New York",
+   "ocr"
+  ],
+  [
+   15,
+   "He must",
+   "We must",
+   "ocr"
+  ],
+  [
+   30,
+   "there Is no",
+   "there is no",
+   "ocr"
+  ],
+  [
+   69,
+   "Mijahideen",
+   "Mujahideen",
+   "ocr"
+  ],
+  [
+   85,
+   "car people",
+   "our people",
+   "ocr"
+  ],
+  [
+   89,
+   "aside' the",
+   "aside the",
+   "ocr"
+  ],
+  [
+   89,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   92,
+   "Iran.",
+   "Iran,",
+   "ocr"
+  ],
+  [
+   93,
+   "namely.",
+   "namely,",
+   "ocr"
+  ],
+  [
+   132,
+   "out mutually",
+   "our mutually",
+   "ocr"
+  ],
+  [
+   140,
+   "Kiaus",
+   "Klaus",
+   "ocr"
+  ],
+  [
+   153,
+   "all countries.",
+   "all countries,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 56 and 98 appear to have words missing in the source.",
+ "unitizer_version": 1,
+ "sha1": "99b364bc3619d1ec3040c4fc4af6336b0abff5c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4338,
+  "words_out": 4338,
+  "retention": 1.0,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   125,
+   62,
+   78,
+   124,
+   153,
+   185,
+   128,
+   173,
+   103,
+   66,
+   237,
+   120,
+   136,
+   171,
+   66,
+   113,
+   118,
+   53,
+   159,
+   191,
+   81,
+   86,
+   108,
+   73,
+   66,
+   103,
+   90,
+   56,
+   67,
+   136,
+   96,
+   56,
+   119,
+   112,
+   129,
+   83,
+   63,
+   92,
+   64,
+   97
+  ],
+  "warnings": []
+ }
+}

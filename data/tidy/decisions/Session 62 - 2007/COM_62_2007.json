@@ -1,0 +1,72 @@
+{
+ "id": "COM_62_2007",
+ "drop": [
+  [
+   79,
+   79,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  25,
+  45,
+  65,
+  80,
+  105,
+  129,
+  143,
+  158,
+  173,
+  185,
+  212,
+  232,
+  242,
+  247,
+  275
+ ],
+ "cer": [
+  0,
+  158
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The closing passage announced as spoken in Arabic is kept as the speaker's.",
+ "unitizer_version": 1,
+ "sha1": "83f41a4eaac0f4bcfff00b547cd37d780de57ae4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 289,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2287,
+  "words_out": 2281,
+  "retention": 0.9974,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   126,
+   80,
+   135,
+   158,
+   106,
+   196,
+   181,
+   119,
+   113,
+   115,
+   97,
+   227,
+   161,
+   86,
+   46,
+   214,
+   121
+  ],
+  "warnings": [
+   "procedural drop [79,79] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "id": "DOM_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   85,
+   85,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  5,
+  10,
+  17,
+  25,
+  31,
+  39,
+  44,
+  51,
+  55,
+  59,
+  62,
+  68,
+  75,
+  79,
+  83
+ ],
+ "cer": [
+  3,
+  83
+ ],
+ "fix": [
+  [
+   21,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   25,
+   "security council",
+   "Security Council",
+   "asr_name"
+  ],
+  [
+   27,
+   "This year",
+   "A year ago",
+   "interp"
+  ],
+  [
+   37,
+   "banned",
+   "gang",
+   "interp"
+  ],
+  [
+   40,
+   "Kenskoff",
+   "Kenscoff",
+   "asr_name"
+  ],
+  [
+   46,
+   "gangs. and",
+   "gangs. And",
+   "asr_term"
+  ],
+  [
+   62,
+   "rights",
+   "direct",
+   "asr_term"
+  ],
+  [
+   63,
+   "billion. and",
+   "billion. And",
+   "asr_term"
+  ],
+  [
+   67,
+   "Mexico and Latin",
+   "Mexico in Latin",
+   "asr_term"
+  ],
+  [
+   72,
+   "Pat for",
+   "Pact for",
+   "asr_name"
+  ],
+  [
+   72,
+   "GDP. and",
+   "GDP and",
+   "asr_term"
+  ],
+  [
+   77,
+   "tourism. following",
+   "tourism. Following",
+   "asr_term"
+  ],
+  [
+   77,
+   "climate change",
+   "climate finance",
+   "interp"
+  ],
+  [
+   79,
+   "unity. with",
+   "unity. With",
+   "asr_term"
+  ],
+  [
+   79,
+   "united nations",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   66,
+   "investment and new",
+   "investment in new",
+   "asr_term"
+  ],
+  [
+   77,
+   "in this in this",
+   "in this",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish (Luis Abinader); the Spanish channel is the speaker's own voice. Audio filed by the UN library as 81_DR_*.mp3. Unit 2 is hall chatter before the salutation. interp: u27 'Hace un año afirmé desde esta misma tribuna'; u37 'una fuerza de supresión de bandas' (the Gang Suppression Force of resolution 2793); u77 'que el financiamiento climático llegue'. Left unrepaired (over the tool's limit for a repair): u77 'the UN General Assembly and the Assembly for the Environment have adopted', where the speaker says 'la Asamblea de las Naciones Unidas para el Medio Ambiente adoptó' (the UN Environment Assembly). asr_name: u21 'la iniciativa ONU 80' (the UN80 Initiative; the UN machine transcript also hears 'UNAT'); u40 Kenscoff (commune in Haiti; UN transcript spelling); u72 'Pacto para el Futuro'. asr_term: u62 'inversión extranjera directa' (UN transcript 'foreign direct investment'); u67 'solo alcanzada por México en América Latina' (UN transcript 'Mexico in Latin America'). Kept as the interpreter's words: u45 self-correction 'only funded up to a fifth of and only has up to a fifth rather'; u52-53 future tense for the speaker's past; u71 'GDP' for 'ingreso per cápita'; u68-69 restart. The speaker's 'Solo exige cumplir lo que ya se tomó, en meses y no en años' (after u50) is not in the English (the UN transcript lacks it too). Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 10 unit 66 'investment and new' -> 'investment in new' (both decodes hear 'in' (0.57 / 0.61), not 'and'; speaker 'la inversión en nuevas infraestructuras'; UN 'investment in new infrastructure'); spot 17 unit 77 'in this in this' -> 'in this' (doubled by speech-to-text: two decodes (720, 721.5 s) and a probe hear 'In this vein' once at p 1.00; UN has it once)",
+ "unitizer_version": 1,
+ "sha1": "f3fe070249b606af247bb8cefb5187b2f263a00d",
+ "layout": "single",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1780,
+  "words_out": 1727,
+  "retention": 0.9702,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   75,
+   101,
+   123,
+   102,
+   158,
+   67,
+   125,
+   78,
+   168,
+   87,
+   113,
+   111,
+   171,
+   157,
+   11
+  ],
+  "warnings": []
+ }
+}

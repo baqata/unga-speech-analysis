@@ -1,0 +1,86 @@
+{
+ "id": "MDA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  28,
+  51,
+  78,
+  93,
+  116,
+  136,
+  157,
+  183,
+  207,
+  227,
+  244
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   83,
+   "one?s",
+   "one’s",
+   "encoding"
+  ],
+  [
+   203,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   253,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   259,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "386c00840ccd76698d9b5d266c527ab32c234827",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2186,
+  "words_out": 2184,
+  "retention": 0.9991,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   102,
+   143,
+   188,
+   233,
+   117,
+   186,
+   152,
+   170,
+   212,
+   225,
+   170,
+   143,
+   143
+  ],
+  "warnings": []
+ }
+}

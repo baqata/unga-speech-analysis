@@ -1,0 +1,66 @@
+{
+ "id": "NZL_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  10,
+  15,
+  20,
+  25,
+  30,
+  33,
+  40,
+  46,
+  51,
+  58,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   63,
+   "Latin- America",
+   "Latin America",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "17fae9f0d28840f8900bf8ac08668a0b8c049106",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1872,
+  "words_out": 1872,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   23,
+   117,
+   110,
+   76,
+   182,
+   147,
+   105,
+   156,
+   120,
+   137,
+   139,
+   110,
+   190,
+   174,
+   86
+  ],
+  "warnings": []
+ }
+}

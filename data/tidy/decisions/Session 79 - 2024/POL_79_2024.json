@@ -1,0 +1,52 @@
+{
+ "id": "POL_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  14,
+  23,
+  29,
+  34,
+  42,
+  47,
+  53
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "2029– 2031",
+   "2029–2031",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ebd4bc3ebdb279d0c1d6a6160096ab328c86d57",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1322,
+  "words_out": 1321,
+  "retention": 0.9992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   61,
+   245,
+   180,
+   132,
+   112,
+   150,
+   147,
+   133,
+   161
+  ],
+  "warnings": []
+ }
+}

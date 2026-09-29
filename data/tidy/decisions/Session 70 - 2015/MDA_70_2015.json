@@ -1,0 +1,82 @@
+{
+ "id": "MDA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  9,
+  15,
+  18,
+  19,
+  23,
+  26,
+  32,
+  38,
+  44,
+  46,
+  50,
+  53,
+  56,
+  59,
+  63,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "( resolution 70/1)",
+   "(resolution 70/1)",
+   "spacing"
+  ],
+  [
+   3,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a8c79fbccd9dc38dc626e324d6f79f9e0af2abc0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2132,
+  "words_out": 2128,
+  "retention": 0.9981,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   29,
+   115,
+   86,
+   90,
+   139,
+   137,
+   70,
+   128,
+   84,
+   140,
+   121,
+   124,
+   68,
+   101,
+   92,
+   111,
+   127,
+   120,
+   141,
+   105
+  ],
+  "warnings": []
+ }
+}

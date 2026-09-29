@@ -1,0 +1,122 @@
+{
+ "id": "AFG_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  34,
+  62,
+  73,
+  101,
+  111,
+  128,
+  149,
+  168,
+  183,
+  196,
+  207,
+  228,
+  251,
+  260,
+  280
+ ],
+ "cer": [],
+ "fix": [
+  [
+   107,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   128,
+   "Taliban?s",
+   "Taliban’s",
+   "encoding"
+  ],
+  [
+   131,
+   "Taliban?s",
+   "Taliban’s",
+   "encoding"
+  ],
+  [
+   150,
+   "girls?",
+   "girls’",
+   "encoding"
+  ],
+  [
+   169,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   179,
+   "Taliban?s",
+   "Taliban’s",
+   "encoding"
+  ],
+  [
+   183,
+   "Taliban?s",
+   "Taliban’s",
+   "encoding"
+  ],
+  [
+   256,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   278,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   286,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b70e278b9e421a7332385f601c426bfe6f946527",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2382,
+  "words_out": 2378,
+  "retention": 0.9983,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   139,
+   139,
+   225,
+   97,
+   226,
+   74,
+   144,
+   158,
+   147,
+   131,
+   117,
+   89,
+   161,
+   173,
+   67,
+   137,
+   154
+  ],
+  "warnings": []
+ }
+}

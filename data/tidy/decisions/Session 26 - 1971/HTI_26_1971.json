@@ -1,0 +1,233 @@
+{
+ "id": "HTI_26_1971",
+ "drop": [
+  [
+   111,
+   111,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  10,
+  13,
+  18,
+  20,
+  23,
+  26,
+  28,
+  30,
+  33,
+  39,
+  44,
+  48,
+  51,
+  54,
+  58,
+  61,
+  63,
+  66,
+  70,
+  75,
+  77,
+  80,
+  84,
+  90,
+  93,
+  95,
+  98,
+  101,
+  105,
+  108,
+  113
+ ],
+ "cer": [
+  0,
+  3,
+  6
+ ],
+ "fix": [
+  [
+   4,
+   "our -sessions",
+   "our sessions",
+   "ocr"
+  ],
+  [
+   17,
+   "to dl nations",
+   "to all nations",
+   "ocr"
+  ],
+  [
+   21,
+   "Restoration ,of",
+   "Restoration of",
+   "ocr"
+  ],
+  [
+   30,
+   " [resolution 2544 {XXIV)]",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "sven",
+   "even",
+   "ocr"
+  ],
+  [
+   34,
+   "Mmn Kampf",
+   "Mein Kampf",
+   "ocr"
+  ],
+  [
+   36,
+   "tr put",
+   "to put",
+   "ocr"
+  ],
+  [
+   37,
+   "17.",
+   "",
+   "label"
+  ],
+  [
+   38,
+   " [1938th meeting/",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "23, ",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "pries of coffee",
+   "price of coffee",
+   "ocr"
+  ],
+  [
+   47,
+   "Hie assistance",
+   "The assistance",
+   "ocr"
+  ],
+  [
+   57,
+   "national effort,",
+   "national effort.",
+   "ocr"
+  ],
+  [
+   61,
+   "Haitian' Government",
+   "Haitian Government",
+   "ocr"
+  ],
+  [
+   69,
+   "the . great",
+   "the great",
+   "ocr"
+  ],
+  [
+   72,
+   "\".1",
+   "\".",
+   "ocr"
+  ],
+  [
+   73,
+   "and wailing,",
+   "and wailing.",
+   "ocr"
+  ],
+  [
+   74,
+   "ot the",
+   "of the",
+   "ocr"
+  ],
+  [
+   74,
+   "whp",
+   "who",
+   "ocr"
+  ],
+  [
+   89,
+   "mere deadly",
+   "more deadly",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Source page order is jumbled: unit 27 ('the Organization of African Unity H.E. Moktar Ould Daddah, in condemning...') is the displaced end of the sentence cut off at unit 38 ('...so eloquently by the President of'). The fragment is kept in place inside the paragraph that starts at unit 26.",
+ "unitizer_version": 1,
+ "sha1": "c4fb71344ca94cf5ae0af4ba09352d6fa12eb8db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 55,
+   "page_number": 1
+  },
+  "words_in": 4455,
+  "words_out": 4425,
+  "retention": 0.9933,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   99,
+   58,
+   107,
+   218,
+   118,
+   193,
+   116,
+   136,
+   117,
+   106,
+   104,
+   115,
+   223,
+   164,
+   93,
+   89,
+   109,
+   112,
+   152,
+   92,
+   73,
+   132,
+   199,
+   87,
+   156,
+   192,
+   170,
+   120,
+   86,
+   81,
+   176,
+   74,
+   110,
+   143,
+   105
+  ],
+  "warnings": []
+ }
+}

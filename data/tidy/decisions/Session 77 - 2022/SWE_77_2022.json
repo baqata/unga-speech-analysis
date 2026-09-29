@@ -1,0 +1,72 @@
+{
+ "id": "SWE_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  15,
+  22,
+  27,
+  33,
+  38,
+  44,
+  50,
+  54,
+  61,
+  66,
+  76,
+  85
+ ],
+ "cer": [],
+ "fix": [
+  [
+   28,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   74,
+   "2025- 2026",
+   "2025-2026",
+   "hyphen"
+  ],
+  [
+   84,
+   "Nations- appointed",
+   "Nations-appointed",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2ee8e1af3ebdded151ae974d30f5a615c19ce0b9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1759,
+  "words_out": 1756,
+  "retention": 0.9983,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   165,
+   93,
+   112,
+   96,
+   164,
+   92,
+   137,
+   88,
+   75,
+   160,
+   117,
+   157,
+   190,
+   110
+  ],
+  "warnings": []
+ }
+}

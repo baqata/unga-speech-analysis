@@ -1,0 +1,317 @@
+{
+ "id": "UKR_13_1958",
+ "drop": [
+  [
+   27,
+   27,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  8,
+  17,
+  21,
+  24,
+  28,
+  35,
+  39,
+  42,
+  46,
+  51,
+  55,
+  57,
+  60,
+  65,
+  67,
+  70,
+  74,
+  77,
+  81,
+  85,
+  89,
+  94,
+  96,
+  99,
+  105,
+  110,
+  113,
+  118,
+  120,
+  122,
+  129,
+  133,
+  137,
+  142,
+  146,
+  148,
+  151,
+  157,
+  164,
+  168,
+  174,
+  177,
+  180,
+  185,
+  191,
+  194,
+  201,
+  205
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "into Outer space",
+   "into outer space",
+   "ocr"
+  ],
+  [
+   5,
+   "of die great",
+   "of the great",
+   "ocr"
+  ],
+  [
+   6,
+   "is Still not",
+   "is still not",
+   "ocr"
+  ],
+  [
+   19,
+   "Ah example",
+   "An example",
+   "ocr"
+  ],
+  [
+   56,
+   "common sense,",
+   "common sense.",
+   "ocr"
+  ],
+  [
+   72,
+   "countries o2 the",
+   "countries of the",
+   "ocr"
+  ],
+  [
+   78,
+   " [1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "the -present",
+   "the present",
+   "ocr"
+  ],
+  [
+   89,
+   "on Implementation",
+   "on implementation",
+   "ocr"
+  ],
+  [
+   102,
+   "new inform.",
+   "new in form.",
+   "merged_word"
+  ],
+  [
+   104,
+   "Was it hot",
+   "Was it not",
+   "ocr"
+  ],
+  [
+   108,
+   "its Sovereignty Over",
+   "its sovereignty over",
+   "ocr"
+  ],
+  [
+   117,
+   "ill- treat",
+   "ill-treat",
+   "hyphen"
+  ],
+  [
+   131,
+   "French: minister",
+   "French minister",
+   "ocr"
+  ],
+  [
+   132,
+   " [Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   134,
+   "States, if that",
+   "States. If that",
+   "ocr"
+  ],
+  [
+   136,
+   "and. it alone",
+   "and it alone",
+   "ocr"
+  ],
+  [
+   146,
+   "applied Over",
+   "applied over",
+   "ocr"
+  ],
+  [
+   148,
+   "corner-atone",
+   "corner-stone",
+   "ocr"
+  ],
+  [
+   149,
+   "Bundeswehr. armed",
+   "Bundeswehr, armed",
+   "ocr"
+  ],
+  [
+   151,
+   "th6",
+   "the",
+   "ocr"
+  ],
+  [
+   177,
+   "USSF",
+   "USSR",
+   "ocr"
+  ],
+  [
+   191,
+   " [A/3920 and Add.",
+   "",
+   "label"
+  ],
+  [
+   192,
+   "1] ",
+   "",
+   "label"
+  ],
+  [
+   203,
+   "different= countries",
+   "different countries",
+   "ocr"
+  ],
+  [
+   204,
+   "solve, important",
+   "solve important",
+   "ocr"
+  ],
+  [
+   206,
+   "Powers; to",
+   "Powers to",
+   "ocr"
+  ],
+  [
+   206,
+   "United-Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   207,
+   "It. is",
+   "It is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 27 ('11.') is a stray paragraph number left in the view, dropped as header_footer.",
+ "unitizer_version": 1,
+ "sha1": "e01e54a50c55b6b1e5d0432b229757acf927887d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 62
+  },
+  "words_in": 5813,
+  "words_out": 5799,
+  "retention": 0.9976,
+  "n_paragraphs": 52,
+  "paragraph_words": [
+   80,
+   67,
+   75,
+   146,
+   133,
+   102,
+   122,
+   62,
+   168,
+   103,
+   81,
+   73,
+   97,
+   119,
+   71,
+   80,
+   115,
+   62,
+   78,
+   101,
+   78,
+   132,
+   121,
+   144,
+   176,
+   64,
+   96,
+   143,
+   101,
+   107,
+   120,
+   67,
+   81,
+   133,
+   125,
+   135,
+   104,
+   187,
+   80,
+   139,
+   150,
+   175,
+   91,
+   129,
+   80,
+   132,
+   130,
+   161,
+   91,
+   151,
+   146,
+   95
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

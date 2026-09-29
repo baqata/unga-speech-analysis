@@ -1,0 +1,297 @@
+{
+ "id": "SYC_36_1981",
+ "drop": [
+  [
+   23,
+   23,
+   "noise"
+  ],
+  [
+   34,
+   34,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  11,
+  15,
+  17,
+  18,
+  24,
+  27,
+  31,
+  33,
+  38,
+  41,
+  46,
+  49,
+  53,
+  58,
+  60,
+  65,
+  68,
+  75,
+  79,
+  83,
+  86,
+  89,
+  91,
+  97,
+  98,
+  100,
+  102,
+  105,
+  110,
+  116,
+  118,
+  121,
+  124,
+  129,
+  133,
+  138,
+  142
+ ],
+ "cer": [
+  6,
+  8
+ ],
+ "fix": [
+  [
+   2,
+   "which' cherish",
+   "which cherish",
+   "ocr"
+  ],
+  [
+   20,
+   "Western' Sahara",
+   "Western Sahara",
+   "ocr"
+  ],
+  [
+   20,
+   "and others,",
+   "and others.",
+   "ocr"
+  ],
+  [
+   22,
+   "78. ",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "the Piling minority",
+   "the ruling minority",
+   "ocr"
+  ],
+  [
+   27,
+   "(XXI) in.",
+   "(XXI) in",
+   "ocr"
+  ],
+  [
+   29,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   " [resolution ES8/2]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "In this, context",
+   "In this context",
+   "ocr"
+  ],
+  [
+   45,
+   "September. ^",
+   "September.",
+   "ocr"
+  ],
+  [
+   46,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "Genera!",
+   "General",
+   "ocr"
+  ],
+  [
+   53,
+   " [resolution 351169 A]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "withdrawal, of",
+   "withdrawal of",
+   "ocr"
+  ],
+  [
+   59,
+   "have Succeeded",
+   "have succeeded",
+   "ocr"
+  ],
+  [
+   70,
+   "852 bombers",
+   "B-52 bombers",
+   "ocr"
+  ],
+  [
+   75,
+   " [resolution 34180 B]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "as a. Zone",
+   "as a Zone",
+   "ocr"
+  ],
+  [
+   79,
+   "man oeuvres",
+   "manoeuvres",
+   "split_word"
+  ],
+  [
+   84,
+   "result o? a",
+   "result of a",
+   "ocr"
+  ],
+  [
+   87,
+   "Gloriousness",
+   "Glorieuses",
+   "ocr"
+  ],
+  [
+   100,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   100,
+   ">This is",
+   ". This is",
+   "ocr"
+  ],
+  [
+   118,
+   "Earabundo",
+   "Farabundo",
+   "ocr"
+  ],
+  [
+   119,
+   "statement,8 which",
+   "statement, which",
+   "ocr"
+  ],
+  [
+   131,
+   "justice is trade",
+   "justice in trade",
+   "ocr"
+  ],
+  [
+   121,
+   " [resolution 33/71H]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d3402d1848d6c616147faf2fa73f02d058007cb1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 59
+  },
+  "words_in": 4814,
+  "words_out": 4791,
+  "retention": 0.9952,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   115,
+   78,
+   54,
+   72,
+   140,
+   78,
+   94,
+   131,
+   94,
+   103,
+   67,
+   217,
+   86,
+   167,
+   115,
+   154,
+   138,
+   130,
+   127,
+   64,
+   153,
+   115,
+   107,
+   114,
+   135,
+   102,
+   193,
+   69,
+   87,
+   103,
+   76,
+   207,
+   147,
+   72,
+   127,
+   169,
+   163,
+   82,
+   112,
+   128,
+   106
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "BGR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  16,
+  20,
+  22,
+  26,
+  30,
+  33,
+  40,
+  44,
+  47,
+  52,
+  55,
+  58
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "246e4155ef35cf989e333a901c335daced69caf6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1518,
+  "words_out": 1517,
+  "retention": 0.9993,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   133,
+   92,
+   74,
+   118,
+   82,
+   62,
+   152,
+   83,
+   101,
+   144,
+   79,
+   86,
+   89,
+   85,
+   69,
+   68
+  ],
+  "warnings": []
+ }
+}

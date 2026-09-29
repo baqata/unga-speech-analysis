@@ -1,0 +1,115 @@
+{
+ "id": "CSK_10_1955",
+ "drop": [
+  [
+   67,
+   67,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  10,
+  16,
+  20,
+  25,
+  29,
+  34,
+  40,
+  45,
+  46,
+  51,
+  59,
+  64,
+  71,
+  74,
+  77,
+  80,
+  83,
+  87,
+  96,
+  101,
+  104,
+  109,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   " I",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "Europe,",
+   "Europe.",
+   "ocr"
+  ],
+  [
+   39,
+   "Germany,",
+   "Germany.",
+   "ocr"
+  ],
+  [
+   45,
+   "Europe,",
+   "Europe.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d0df596a751b8c1e35535881037fbd6222efcecc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 57
+  },
+  "words_in": 3784,
+  "words_out": 3781,
+  "retention": 0.9992,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   31,
+   147,
+   177,
+   207,
+   110,
+   180,
+   142,
+   212,
+   196,
+   194,
+   80,
+   159,
+   180,
+   141,
+   181,
+   104,
+   128,
+   127,
+   94,
+   96,
+   216,
+   194,
+   88,
+   150,
+   183,
+   64
+  ],
+  "warnings": []
+ }
+}

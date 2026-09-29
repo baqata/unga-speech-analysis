@@ -1,0 +1,176 @@
+{
+ "id": "CIV_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  10,
+  16,
+  21,
+  25,
+  28,
+  31,
+  38,
+  45,
+  50,
+  53,
+  59,
+  62,
+  65,
+  68,
+  71,
+  76,
+  85,
+  88,
+  93,
+  101,
+  106,
+  110,
+  113,
+  119,
+  125,
+  131,
+  133,
+  141,
+  144,
+  149,
+  154,
+  156
+ ],
+ "cer": [
+  0,
+  2,
+  131,
+  156
+ ],
+ "fix": [
+  [
+   8,
+   "petroleum- producing",
+   "petroleum-producing",
+   "spacing"
+  ],
+  [
+   52,
+   "5K",
+   "be",
+   "ocr"
+  ],
+  [
+   54,
+   "19473",
+   "1947",
+   "ocr"
+  ],
+  [
+   65,
+   "the* territories",
+   "the territories",
+   "ocr"
+  ],
+  [
+   93,
+   "s able",
+   "stable",
+   "ocr"
+  ],
+  [
+   95,
+   "totaT",
+   "total",
+   "ocr"
+  ],
+  [
+   103,
+   "must net prevail",
+   "must not prevail",
+   "ocr"
+  ],
+  [
+   125,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   131,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   141,
+   " [FRELIMO]",
+   "",
+   "label"
+  ],
+  [
+   142,
+   " [OAS]",
+   "",
+   "label"
+  ],
+  [
+   27,
+   " [resolution 3202 (S-Vl)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8254909fd188b9383555920368b3257c2ad7eca5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 54
+  },
+  "words_in": 4315,
+  "words_out": 4306,
+  "retention": 0.9979,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   90,
+   31,
+   196,
+   206,
+   191,
+   108,
+   103,
+   108,
+   159,
+   128,
+   159,
+   65,
+   143,
+   81,
+   73,
+   89,
+   89,
+   123,
+   202,
+   155,
+   130,
+   139,
+   164,
+   94,
+   91,
+   92,
+   155,
+   107,
+   88,
+   137,
+   148,
+   137,
+   169,
+   69,
+   87
+  ],
+  "warnings": []
+ }
+}

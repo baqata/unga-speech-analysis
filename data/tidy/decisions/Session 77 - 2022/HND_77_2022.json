@@ -1,0 +1,66 @@
+{
+ "id": "HND_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  9,
+  11,
+  14,
+  21,
+  24,
+  30,
+  37,
+  41,
+  43,
+  46
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "self- interest",
+   "self-interest",
+   "hyphen"
+  ],
+  [
+   39,
+   "foreign- currency",
+   "foreign-currency",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b06b779d8963a0be6686a62bacc2a55882fb9d92",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1371,
+  "words_out": 1369,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   67,
+   87,
+   79,
+   112,
+   60,
+   83,
+   129,
+   79,
+   122,
+   159,
+   84,
+   75,
+   126,
+   107
+  ],
+  "warnings": []
+ }
+}

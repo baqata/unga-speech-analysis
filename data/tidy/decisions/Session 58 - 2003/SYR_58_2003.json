@@ -1,0 +1,80 @@
+{
+ "id": "SYR_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  33,
+  47,
+  66,
+  88,
+  113,
+  129,
+  150,
+  170,
+  184,
+  201,
+  216,
+  233,
+  245,
+  266,
+  284,
+  298,
+  311
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   173,
+   "dÈmarche",
+   "démarche",
+   "encoding"
+  ],
+  [
+   273,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1839463e6824b6fd5546ba5108bad804b2023a43",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 328,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2573,
+  "words_out": 2571,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   168,
+   97,
+   115,
+   151,
+   167,
+   201,
+   132,
+   153,
+   158,
+   113,
+   137,
+   123,
+   139,
+   98,
+   155,
+   140,
+   96,
+   101,
+   127
+  ],
+  "warnings": []
+ }
+}

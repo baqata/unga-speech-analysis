@@ -1,0 +1,69 @@
+{
+ "id": "DJI_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  38,
+  66,
+  89,
+  109,
+  127,
+  141,
+  159,
+  184,
+  197,
+  214,
+  232
+ ],
+ "cer": [
+  0,
+  232
+ ],
+ "fix": [
+  [
+   173,
+   "(A/HRC/12/48,",
+   "",
+   "label"
+  ],
+  [
+   174,
+   "para. 1893)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81b9919931ac7d442b45a9ff7a1ca2bca930785a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 239,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1880,
+  "words_out": 1877,
+  "retention": 0.9984,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   86,
+   208,
+   218,
+   178,
+   157,
+   133,
+   107,
+   158,
+   185,
+   109,
+   143,
+   141,
+   54
+  ],
+  "warnings": []
+ }
+}

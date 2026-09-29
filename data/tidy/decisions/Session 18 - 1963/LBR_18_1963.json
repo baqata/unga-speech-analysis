@@ -1,0 +1,156 @@
+{
+ "id": "LBR_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  20,
+  24,
+  31,
+  37,
+  44,
+  47,
+  53,
+  57,
+  60,
+  63,
+  67,
+  72,
+  77,
+  83,
+  91,
+  97,
+  101,
+  109,
+  112,
+  116,
+  120,
+  125,
+  131,
+  135,
+  142,
+  147,
+  152,
+  158,
+  164
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "trust Is",
+   "trust is",
+   "ocr"
+  ],
+  [
+   20,
+   "underground,",
+   "underground.",
+   "ocr"
+  ],
+  [
+   68,
+   "prices or raw",
+   "prices of raw",
+   "ocr"
+  ],
+  [
+   86,
+   "[Ibid., para. 2.]",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "[Ibid., para. 39.]",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "Council,",
+   "Council.",
+   "ocr"
+  ],
+  [
+   132,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   138,
+   "apartheid ad a",
+   "apartheid as a",
+   "ocr"
+  ],
+  [
+   138,
+   "human- rights",
+   "human-rights",
+   "spacing"
+  ],
+  [
+   157,
+   "one- fourth",
+   "one-fourth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5bf435776e6e14087dd6558aee12fae0d1e92c69",
+ "layout": "lines",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5
+  },
+  "words_in": 4325,
+  "words_out": 4251,
+  "retention": 0.9829,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   117,
+   203,
+   135,
+   152,
+   135,
+   173,
+   116,
+   245,
+   94,
+   136,
+   112,
+   74,
+   74,
+   73,
+   116,
+   151,
+   79,
+   125,
+   131,
+   104,
+   166,
+   101,
+   109,
+   126,
+   116,
+   155,
+   128,
+   162,
+   104,
+   110,
+   190,
+   144,
+   95
+  ],
+  "warnings": []
+ }
+}

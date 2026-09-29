@@ -1,0 +1,201 @@
+{
+ "id": "USA_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  19,
+  25,
+  31,
+  38,
+  43,
+  48,
+  51,
+  54,
+  62,
+  67,
+  70,
+  74,
+  78,
+  80,
+  86,
+  90,
+  98,
+  103,
+  106,
+  110,
+  115,
+  120,
+  126,
+  130,
+  139,
+  147,
+  152,
+  157,
+  160,
+  166,
+  169,
+  174,
+  180,
+  183,
+  186,
+  190,
+  193,
+  197,
+  201,
+  205,
+  208,
+  215,
+  222,
+  228,
+  233
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   52,
+   "Viet- Nam",
+   "Viet-Nam",
+   "split_word"
+  ],
+  [
+   63,
+   "his country, from his exile",
+   "his country. From his exile",
+   "ocr"
+  ],
+  [
+   63,
+   "tragic Story",
+   "tragic story",
+   "ocr"
+  ],
+  [
+   82,
+   "in Seeking",
+   "in seeking",
+   "ocr"
+  ],
+  [
+   85,
+   "peaceful change,",
+   "peaceful change.",
+   "ocr"
+  ],
+  [
+   89,
+   "Soviet Union, The Western",
+   "Soviet Union. The Western",
+   "ocr"
+  ],
+  [
+   99,
+   "modus Vivendi",
+   "modus vivendi",
+   "ocr"
+  ],
+  [
+   104,
+   "brings, These",
+   "brings. These",
+   "ocr"
+  ],
+  [
+   142,
+   "radio- activity",
+   "radio-activity",
+   "split_word"
+  ],
+  [
+   150,
+   "would fc j growing",
+   "would be a growing",
+   "ocr"
+  ],
+  [
+   171,
+   "Soviet 'advancement",
+   "Soviet advancement",
+   "ocr"
+  ],
+  [
+   235,
+   "let us Strive",
+   "let us strive",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e9ac49a59b6697e9862d146d8b0b65ab4176d529",
+ "layout": "lines",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 75
+  },
+  "words_in": 5504,
+  "words_out": 5500,
+  "retention": 0.9993,
+  "n_paragraphs": 49,
+  "paragraph_words": [
+   61,
+   106,
+   114,
+   143,
+   130,
+   130,
+   138,
+   115,
+   109,
+   77,
+   106,
+   197,
+   112,
+   87,
+   145,
+   94,
+   75,
+   128,
+   148,
+   184,
+   108,
+   103,
+   87,
+   121,
+   104,
+   145,
+   96,
+   125,
+   159,
+   85,
+   110,
+   88,
+   122,
+   87,
+   86,
+   114,
+   66,
+   70,
+   130,
+   100,
+   143,
+   100,
+   75,
+   71,
+   112,
+   128,
+   146,
+   132,
+   88
+  ],
+  "warnings": []
+ }
+}

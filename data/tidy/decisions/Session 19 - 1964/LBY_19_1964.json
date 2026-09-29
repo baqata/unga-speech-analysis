@@ -1,0 +1,152 @@
+{
+ "id": "LBY_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  8,
+  11,
+  15,
+  20,
+  26,
+  29,
+  33,
+  36,
+  41,
+  45,
+  48,
+  51,
+  55,
+  62,
+  65,
+  68,
+  72,
+  74,
+  77,
+  79,
+  81,
+  86,
+  89,
+  94,
+  96,
+  101,
+  107,
+  109
+ ],
+ "cer": [
+  1,
+  8,
+  109
+ ],
+ "fix": [
+  [
+   23,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   50,
+   " [A/ 5813, para. 9]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "\", This",
+   "\". This",
+   "ocr"
+  ],
+  [
+   55,
+   "Organize n",
+   "Organization",
+   "ocr"
+  ],
+  [
+   78,
+   "principle or one",
+   "principle of one",
+   "ocr"
+  ],
+  [
+   79,
+   "oi*r",
+   "our",
+   "ocr"
+  ],
+  [
+   85,
+   "Member Staten",
+   "Member States",
+   "ocr"
+  ],
+  [
+   96,
+   " [resolutions 1991 A and B (XVIII)]",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "‘n",
+   "in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "416773601a974c6b3f0689cbcae0289f3bd0ac14",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3594,
+  "words_out": 3571,
+  "retention": 0.9936,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   186,
+   69,
+   138,
+   170,
+   149,
+   114,
+   171,
+   93,
+   138,
+   118,
+   88,
+   184,
+   134,
+   151,
+   138,
+   67,
+   118,
+   108,
+   97,
+   94,
+   91,
+   138,
+   96,
+   161,
+   77,
+   148,
+   148,
+   65,
+   122
+  ],
+  "warnings": []
+ }
+}

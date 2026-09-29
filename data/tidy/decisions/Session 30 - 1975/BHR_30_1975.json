@@ -1,0 +1,122 @@
+{
+ "id": "BHR_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  9,
+  15,
+  20,
+  25,
+  27,
+  30,
+  36,
+  40,
+  47,
+  55,
+  60,
+  63,
+  66,
+  69,
+  71,
+  74,
+  80,
+  87,
+  91,
+  96,
+  104,
+  108,
+  113,
+  116,
+  120,
+  123,
+  128,
+  133,
+  136
+ ],
+ "cer": [
+  0,
+  1,
+  128
+ ],
+ "fix": [
+  [
+   19,
+   "{Declaration",
+   "Declaration",
+   "ocr"
+  ],
+  [
+   37,
+   "ir. recent",
+   "in recent",
+   "ocr"
+  ],
+  [
+   108,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "'he",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 4 breaks off mid-sentence before a new paragraph; text appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "ca71304083660857e97cb6ac1b072fac59060e29",
+ "layout": "lines",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 4291,
+  "words_out": 4268,
+  "retention": 0.9946,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   52,
+   68,
+   256,
+   175,
+   178,
+   178,
+   72,
+   92,
+   152,
+   100,
+   203,
+   189,
+   143,
+   99,
+   146,
+   123,
+   135,
+   121,
+   176,
+   174,
+   149,
+   123,
+   176,
+   87,
+   155,
+   65,
+   116,
+   145,
+   157,
+   146,
+   71,
+   46
+  ],
+  "warnings": []
+ }
+}

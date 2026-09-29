@@ -1,0 +1,66 @@
+{
+ "id": "SLB_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  28,
+  39,
+  58,
+  81,
+  90,
+  106,
+  115,
+  128,
+  147,
+  161,
+  170,
+  188,
+  206,
+  225,
+  235,
+  250
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2d0cb152242208dbcfb648c86a269335fbcf5e17",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2054,
+  "words_out": 2053,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   108,
+   104,
+   86,
+   149,
+   166,
+   65,
+   126,
+   74,
+   99,
+   153,
+   115,
+   79,
+   139,
+   148,
+   174,
+   75,
+   120,
+   73
+  ],
+  "warnings": []
+ }
+}

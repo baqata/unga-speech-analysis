@@ -1,0 +1,55 @@
+{
+ "id": "PAN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  27,
+  40,
+  61,
+  70,
+  88,
+  108,
+  132,
+  150,
+  167,
+  176,
+  196
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "795e17de36f48e90c071349bed9cd0c79fa7e79c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1674,
+  "words_out": 1674,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   58,
+   152,
+   98,
+   155,
+   79,
+   139,
+   151,
+   197,
+   140,
+   133,
+   71,
+   161,
+   140
+  ],
+  "warnings": []
+ }
+}

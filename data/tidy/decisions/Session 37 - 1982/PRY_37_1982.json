@@ -1,0 +1,158 @@
+{
+ "id": "PRY_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  22,
+  32,
+  41,
+  62,
+  165
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "well recognized",
+   "well-recognized",
+   "spacing"
+  ],
+  [
+   4,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   24,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   25,
+   "single mindedness",
+   "single-mindedness",
+   "spacing"
+  ],
+  [
+   33,
+   " Car ",
+   " for ",
+   "ocr"
+  ],
+  [
+   37,
+   "Rope",
+   "hope",
+   "ocr"
+  ],
+  [
+   37,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   44,
+   "well being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   80,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   92,
+   "counties",
+   "countries",
+   "ocr"
+  ],
+  [
+   101,
+   "react the",
+   "reach the",
+   "ocr"
+  ],
+  [
+   112,
+   " hi ",
+   " in ",
+   "ocr"
+  ],
+  [
+   145,
+   "history, In",
+   "history. In",
+   "ocr"
+  ],
+  [
+   152,
+   "the well",
+   "the well-",
+   "spacing"
+  ],
+  [
+   165,
+   "land locked",
+   "land-locked",
+   "spacing"
+  ],
+  [
+   172,
+   "land locked",
+   "land-locked",
+   "spacing"
+  ],
+  [
+   175,
+   "Ally",
+   "fully",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with no line-initial sentence starts between units 66 and 164, so that passage (Afghanistan to the landlocked-country claim) forms one very long paragraph.",
+ "unitizer_version": 1,
+ "sha1": "e4dd02d406568b245afa02892fb78180e57dcd7e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 1
+  },
+  "words_in": 2159,
+  "words_out": 2148,
+  "retention": 0.9949,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   43,
+   105,
+   85,
+   114,
+   99,
+   213,
+   1103,
+   386
+  ],
+  "warnings": [
+   "paragraph at unit 62 has 1103 words",
+   "paragraph at unit 165 has 386 words"
+  ]
+ }
+}

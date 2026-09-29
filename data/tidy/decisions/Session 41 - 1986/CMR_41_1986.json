@@ -1,0 +1,153 @@
+{
+ "id": "CMR_41_1986",
+ "drop": [
+  [
+   135,
+   135,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13,
+  22,
+  26,
+  29,
+  32,
+  34,
+  37,
+  39,
+  41,
+  43,
+  45,
+  46,
+  48,
+  50,
+  53,
+  57,
+  60,
+  63,
+  66,
+  69,
+  77,
+  80,
+  84,
+  87,
+  91,
+  94,
+  95,
+  97,
+  102,
+  105,
+  108,
+  111,
+  120,
+  124,
+  126,
+  129,
+  131,
+  132
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   41,
+   "SKAPO",
+   "SWAPO",
+   "ocr"
+  ],
+  [
+   97,
+   "amcng",
+   "among",
+   "ocr"
+  ],
+  [
+   126,
+   "freauently",
+   "frequently",
+   "ocr"
+  ],
+  [
+   129,
+   "multilateralism..",
+   "multilateralism.",
+   "ocr"
+  ],
+  [
+   131,
+   "ir.anagement",
+   "management",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 135 held stray words displaced from the closing sentence; dropped as noise.",
+ "unitizer_version": 1,
+ "sha1": "3a3c6b6dbab234a78aec18aeab40303cad179e92",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "language_note": 1
+  },
+  "words_in": 4375,
+  "words_out": 4368,
+  "retention": 0.9984,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   73,
+   59,
+   68,
+   48,
+   199,
+   120,
+   94,
+   107,
+   109,
+   124,
+   86,
+   116,
+   62,
+   71,
+   94,
+   105,
+   49,
+   89,
+   174,
+   110,
+   109,
+   105,
+   95,
+   195,
+   97,
+   159,
+   98,
+   107,
+   98,
+   77,
+   66,
+   139,
+   101,
+   60,
+   92,
+   230,
+   132,
+   108,
+   79,
+   126,
+   54,
+   84
+  ],
+  "warnings": []
+ }
+}

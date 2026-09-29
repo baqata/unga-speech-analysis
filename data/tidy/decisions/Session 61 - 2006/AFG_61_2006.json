@@ -1,0 +1,51 @@
+{
+ "id": "AFG_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  39,
+  57,
+  73,
+  84,
+  101,
+  112,
+  127,
+  140
+ ],
+ "cer": [
+  140
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d30b48dca6d941043ed09e7e8155fb17720808a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1182,
+  "words_out": 1181,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   71,
+   126,
+   91,
+   150,
+   132,
+   85,
+   119,
+   69,
+   98,
+   101,
+   139
+  ],
+  "warnings": []
+ }
+}

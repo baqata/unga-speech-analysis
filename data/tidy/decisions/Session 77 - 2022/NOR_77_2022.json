@@ -1,0 +1,90 @@
+{
+ "id": "NOR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  22,
+  27,
+  33,
+  37,
+  43,
+  46,
+  50,
+  54,
+  59,
+  67,
+  74,
+  78,
+  85,
+  89,
+  94
+ ],
+ "cer": [],
+ "fix": [
+  [
+   47,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   63,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   83,
+   " (Security Council resolution 2601 (2021))",
+   "",
+   "label"
+  ],
+  [
+   83,
+   " (Security Council resolution 2634 (2022))",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c79c3d9207356e8b94644a3237b08ebfff6568bd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1763,
+  "words_out": 1751,
+  "retention": 0.9932,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   82,
+   122,
+   60,
+   102,
+   90,
+   83,
+   71,
+   111,
+   61,
+   90,
+   90,
+   89,
+   151,
+   162,
+   60,
+   102,
+   91,
+   102,
+   32
+  ],
+  "warnings": []
+ }
+}

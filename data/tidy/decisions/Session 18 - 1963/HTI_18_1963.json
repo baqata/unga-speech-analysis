@@ -1,0 +1,124 @@
+{
+ "id": "HTI_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  16,
+  20,
+  25,
+  26,
+  29,
+  33,
+  37,
+  40,
+  44,
+  49,
+  54,
+  56,
+  59,
+  63,
+  69,
+  72,
+  79,
+  85,
+  88,
+  93,
+  97
+ ],
+ "cer": [
+  0,
+  97
+ ],
+ "fix": [
+  [
+   21,
+   "a part from",
+   "apart from",
+   "split_word"
+  ],
+  [
+   24,
+   "continent,",
+   "continent.",
+   "ocr"
+  ],
+  [
+   29,
+   "world,",
+   "world.",
+   "ocr"
+  ],
+  [
+   62,
+   "United with",
+   "united with",
+   "ocr"
+  ],
+  [
+   84,
+   "Investment",
+   "investment",
+   "ocr"
+  ],
+  [
+   84,
+   "Increase",
+   "increase",
+   "ocr"
+  ],
+  [
+   92,
+   "Haiti an",
+   "Haitian",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2d3b901de521f17e51b659015a14e0180d6a39d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 32
+  },
+  "words_in": 3691,
+  "words_out": 3689,
+  "retention": 0.9995,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   103,
+   196,
+   161,
+   122,
+   151,
+   172,
+   67,
+   108,
+   140,
+   178,
+   69,
+   197,
+   150,
+   155,
+   76,
+   141,
+   172,
+   201,
+   71,
+   205,
+   157,
+   206,
+   215,
+   185,
+   91
+  ],
+  "warnings": []
+ }
+}

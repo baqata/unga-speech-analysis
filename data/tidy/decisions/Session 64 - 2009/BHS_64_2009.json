@@ -1,0 +1,51 @@
+{
+ "id": "BHS_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  32,
+  49,
+  69,
+  85,
+  109,
+  127,
+  144,
+  169,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f5f9f82048da68921f556689c11f2bd4920ea233",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1592,
+  "words_out": 1590,
+  "retention": 0.9987,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   72,
+   177,
+   133,
+   161,
+   117,
+   193,
+   137,
+   122,
+   194,
+   198,
+   86
+  ],
+  "warnings": []
+ }
+}

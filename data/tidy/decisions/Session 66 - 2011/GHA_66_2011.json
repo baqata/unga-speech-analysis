@@ -1,0 +1,62 @@
+{
+ "id": "GHA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  32,
+  56,
+  72,
+  84,
+  99,
+  112,
+  129,
+  156,
+  172,
+  193,
+  209,
+  220,
+  229
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9948ffe5db6c8ead25e10776d7014992defb7964",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1827,
+  "words_out": 1824,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   50,
+   68,
+   119,
+   195,
+   129,
+   89,
+   116,
+   97,
+   126,
+   217,
+   114,
+   166,
+   131,
+   91,
+   75,
+   41
+  ],
+  "warnings": []
+ }
+}

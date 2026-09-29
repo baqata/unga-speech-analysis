@@ -1,0 +1,57 @@
+{
+ "id": "VEN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  20,
+  30,
+  40,
+  58,
+  72,
+  87,
+  98,
+  119,
+  137,
+  147,
+  161,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5237a965dbd7402955c4a4f3b8283ea539cec6d7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 195,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1496,
+  "words_out": 1492,
+  "retention": 0.9973,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   26,
+   123,
+   77,
+   80,
+   147,
+   110,
+   120,
+   87,
+   163,
+   131,
+   70,
+   99,
+   149,
+   110
+  ],
+  "warnings": []
+ }
+}

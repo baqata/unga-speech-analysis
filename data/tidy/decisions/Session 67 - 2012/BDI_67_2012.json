@@ -1,0 +1,67 @@
+{
+ "id": "BDI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  38,
+  62,
+  81,
+  104,
+  117,
+  135,
+  152,
+  168,
+  188,
+  205,
+  220,
+  233,
+  241
+ ],
+ "cer": [
+  0,
+  241
+ ],
+ "fix": [
+  [
+   160,
+   "Вurundi",
+   "Burundi",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "362e8bf26cca552ef371ade482e73f66c961a9c1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2007,
+  "words_out": 2007,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   81,
+   113,
+   121,
+   198,
+   149,
+   187,
+   105,
+   146,
+   147,
+   126,
+   159,
+   144,
+   125,
+   112,
+   66,
+   28
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "NER_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  12,
+  18,
+  21,
+  25,
+  32,
+  37,
+  40,
+  44,
+  48
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2d494a0ae03b96542ba3bd0d6e0b872665f2096",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1503,
+  "words_out": 1502,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   73,
+   173,
+   66,
+   96,
+   187,
+   120,
+   96,
+   160,
+   171,
+   64,
+   114,
+   134,
+   48
+  ],
+  "warnings": []
+ }
+}

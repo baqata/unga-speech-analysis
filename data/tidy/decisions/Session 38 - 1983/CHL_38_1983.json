@@ -1,0 +1,110 @@
+{
+ "id": "CHL_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  17,
+  22,
+  26,
+  29,
+  33,
+  37,
+  40,
+  43,
+  47,
+  54,
+  58,
+  61,
+  63,
+  67,
+  71,
+  75,
+  78,
+  82,
+  87,
+  93,
+  98,
+  101,
+  105,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "been-able",
+   "been able",
+   "ocr"
+  ],
+  [
+   44,
+   "of the, United",
+   "of the United",
+   "ocr"
+  ],
+  [
+   79,
+   "this Held",
+   "this field",
+   "ocr"
+  ],
+  [
+   102,
+   "as 1277",
+   "as 1977",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "28b5c64124419bbed89b8c79e41ec39fb394505b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 63
+  },
+  "words_in": 3681,
+  "words_out": 3682,
+  "retention": 1.0003,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   230,
+   113,
+   120,
+   179,
+   206,
+   107,
+   81,
+   142,
+   115,
+   78,
+   73,
+   143,
+   188,
+   143,
+   96,
+   90,
+   118,
+   115,
+   115,
+   69,
+   124,
+   210,
+   183,
+   189,
+   76,
+   97,
+   210,
+   72
+  ],
+  "warnings": []
+ }
+}

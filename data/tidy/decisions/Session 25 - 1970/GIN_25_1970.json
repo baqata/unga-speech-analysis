@@ -1,0 +1,99 @@
+{
+ "id": "GIN_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  19,
+  27,
+  32,
+  36,
+  41,
+  45,
+  50,
+  54,
+  60,
+  66,
+  67,
+  73,
+  75,
+  76,
+  78,
+  84,
+  93,
+  97
+ ],
+ "cer": [
+  66,
+  97
+ ],
+ "fix": [
+  [
+   26,
+   "nations,\"",
+   "nations.\"",
+   "ocr"
+  ],
+  [
+   43,
+   "the'",
+   "the",
+   "ocr"
+  ],
+  [
+   56,
+   "of750",
+   "of 750",
+   "spacing"
+  ],
+  [
+   64,
+   "countries.The",
+   "countries. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "900bf5f9f68d360c71d2b8ee236d93b56c6a7891",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3233,
+  "words_out": 3233,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   145,
+   241,
+   146,
+   223,
+   219,
+   106,
+   114,
+   150,
+   138,
+   146,
+   120,
+   184,
+   175,
+   24,
+   140,
+   100,
+   92,
+   131,
+   167,
+   233,
+   176,
+   63
+  ],
+  "warnings": []
+ }
+}

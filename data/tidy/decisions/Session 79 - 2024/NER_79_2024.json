@@ -1,0 +1,59 @@
+{
+ "id": "NER_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  15,
+  18,
+  25,
+  27,
+  30,
+  33,
+  38,
+  42,
+  47
+ ],
+ "cer": [
+  0,
+  47
+ ],
+ "fix": [
+  [
+   14,
+   "t o",
+   "to",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02a781ca735f31de24faf896676be7d756b6bcd2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1363,
+  "words_out": 1362,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   62,
+   144,
+   156,
+   111,
+   177,
+   115,
+   72,
+   77,
+   146,
+   81,
+   154,
+   67
+  ],
+  "warnings": []
+ }
+}

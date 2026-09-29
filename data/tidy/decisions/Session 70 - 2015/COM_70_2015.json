@@ -1,0 +1,72 @@
+{
+ "id": "COM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  16,
+  21,
+  26,
+  28,
+  32,
+  34,
+  37,
+  42,
+  46,
+  49
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "ecosуstems",
+   "ecosystems",
+   "encoding"
+  ],
+  [
+   36,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "811968b2b07240444a6571a4589533bcef893b57",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1798,
+  "words_out": 1795,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   126,
+   120,
+   95,
+   109,
+   103,
+   110,
+   189,
+   84,
+   168,
+   82,
+   112,
+   158,
+   90,
+   95,
+   154
+  ],
+  "warnings": []
+ }
+}

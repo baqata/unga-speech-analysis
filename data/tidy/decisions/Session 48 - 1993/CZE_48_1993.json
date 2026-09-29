@@ -1,0 +1,113 @@
+{
+ "id": "CZE_48_1993",
+ "drop": [
+  [
+   41,
+   41,
+   "header_footer"
+  ],
+  [
+   136,
+   136,
+   "header_footer"
+  ],
+  [
+   231,
+   231,
+   "header_footer"
+  ],
+  [
+   327,
+   327,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  20,
+  36,
+  50,
+  60,
+  71,
+  88,
+  99,
+  107,
+  126,
+  139,
+  151,
+  169,
+  181,
+  191,
+  201,
+  215,
+  228,
+  242,
+  256,
+  274,
+  282,
+  299,
+  321
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   165,
+   "Commission.T h i s",
+   "Commission. This",
+   "spacing"
+  ],
+  [
+   176,
+   "non--",
+   "non-",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21221eb32929f2173bf7a047532f7c378748f3bc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 335,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2879,
+  "words_out": 2849,
+  "retention": 0.9896,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   32,
+   133,
+   128,
+   119,
+   91,
+   94,
+   160,
+   102,
+   66,
+   170,
+   100,
+   102,
+   157,
+   113,
+   101,
+   76,
+   116,
+   113,
+   108,
+   116,
+   146,
+   68,
+   133,
+   184,
+   121
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "LIE_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  18,
+  22,
+  28,
+  30,
+  37,
+  41,
+  46,
+  50,
+  56,
+  61
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17c719242893ae5856e3783bd5c3251c2afa198f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1568,
+  "words_out": 1568,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   130,
+   79,
+   63,
+   161,
+   105,
+   140,
+   69,
+   128,
+   87,
+   91,
+   105,
+   105,
+   139,
+   166
+  ],
+  "warnings": []
+ }
+}

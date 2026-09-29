@@ -1,0 +1,94 @@
+{
+ "id": "BRA_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  37,
+  52,
+  68,
+  77,
+  89,
+  107,
+  119,
+  142,
+  165,
+  180,
+  193,
+  207,
+  215,
+  233,
+  251,
+  262,
+  277,
+  297,
+  311,
+  324,
+  331,
+  350
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   190,
+   "bf:",
+   "be",
+   "ocr"
+  ],
+  [
+   285,
+   "presence. President",
+   "presence, President",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9f59f2aeb7675d93b5689d981df93d840b1faeb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 357,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3819,
+  "words_out": 3818,
+  "retention": 0.9997,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   162,
+   235,
+   160,
+   180,
+   108,
+   136,
+   181,
+   127,
+   230,
+   245,
+   160,
+   122,
+   167,
+   87,
+   215,
+   176,
+   103,
+   167,
+   210,
+   162,
+   141,
+   80,
+   189,
+   75
+  ],
+  "warnings": []
+ }
+}

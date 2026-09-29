@@ -1,0 +1,59 @@
+{
+ "id": "KOR_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  14,
+  17,
+  21,
+  27,
+  32,
+  38,
+  46,
+  48,
+  54,
+  59,
+  70,
+  73
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e82f7ee59d21ae1ba2054fc190d119e3ab787936",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1743,
+  "words_out": 1742,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   69,
+   86,
+   60,
+   89,
+   64,
+   85,
+   77,
+   111,
+   144,
+   165,
+   74,
+   170,
+   141,
+   203,
+   87,
+   117
+  ],
+  "warnings": []
+ }
+}

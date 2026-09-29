@@ -1,0 +1,108 @@
+{
+ "id": "MDG_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  13,
+  16,
+  20,
+  28,
+  31,
+  38,
+  43,
+  47,
+  50,
+  53,
+  61,
+  64,
+  67,
+  71,
+  76,
+  80,
+  84,
+  86,
+  89,
+  93,
+  99,
+  106,
+  110,
+  116,
+  119,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "osculation",
+   "oscillation",
+   "ocr"
+  ],
+  [
+   88,
+   "raw- material",
+   "raw-material",
+   "hyphen"
+  ],
+  [
+   124,
+   "the peonies",
+   "the peoples",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c78f3db2077b58740e7e8a7a355809699662848",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 4017,
+  "words_out": 4016,
+  "retention": 0.9998,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   163,
+   121,
+   141,
+   92,
+   95,
+   104,
+   131,
+   108,
+   195,
+   121,
+   102,
+   115,
+   168,
+   200,
+   173,
+   96,
+   160,
+   171,
+   132,
+   161,
+   84,
+   90,
+   131,
+   139,
+   175,
+   116,
+   213,
+   79,
+   148,
+   92
+  ],
+  "warnings": []
+ }
+}

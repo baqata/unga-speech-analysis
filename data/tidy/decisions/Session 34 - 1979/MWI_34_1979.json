@@ -1,0 +1,132 @@
+{
+ "id": "MWI_34_1979",
+ "drop": [
+  [
+   58,
+   58,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  14,
+  20,
+  25,
+  28,
+  35,
+  38,
+  42,
+  46,
+  50,
+  54,
+  59,
+  64,
+  69,
+  75,
+  79,
+  82,
+  87,
+  91,
+  97,
+  101,
+  107,
+  113
+ ],
+ "cer": [
+  0,
+  5,
+  113
+ ],
+ "fix": [
+  [
+   1,
+   "in-deed",
+   "indeed",
+   "hyphen"
+  ],
+  [
+   14,
+   "a Lessening",
+   "a lessening",
+   "ocr"
+  ],
+  [
+   18,
+   "goes,' 'It",
+   "goes, \"It",
+   "ocr"
+  ],
+  [
+   18,
+   "fight''",
+   "fight\"",
+   "ocr"
+  ],
+  [
+   27,
+   "Assembly,",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   31,
+   "Territory, It",
+   "Territory. It",
+   "ocr"
+  ],
+  [
+   73,
+   "Treaty, The",
+   "Treaty. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a870c0635a6cd7fbd68175d99d5c3cbb68030565",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3157,
+  "words_out": 3154,
+  "retention": 0.999,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   141,
+   159,
+   70,
+   151,
+   139,
+   86,
+   200,
+   116,
+   133,
+   155,
+   142,
+   69,
+   101,
+   109,
+   122,
+   124,
+   109,
+   125,
+   159,
+   92,
+   166,
+   125,
+   143,
+   135,
+   83
+  ],
+  "warnings": []
+ }
+}

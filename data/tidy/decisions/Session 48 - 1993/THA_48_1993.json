@@ -1,0 +1,88 @@
+{
+ "id": "THA_48_1993",
+ "drop": [
+  [
+   60,
+   60,
+   "header_footer"
+  ],
+  [
+   157,
+   157,
+   "header_footer"
+  ],
+  [
+   252,
+   252,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  32,
+  42,
+  51,
+  64,
+  90,
+  106,
+  120,
+  140,
+  154,
+  168,
+  189,
+  196,
+  208,
+  228,
+  237,
+  247,
+  257,
+  268,
+  287,
+  293
+ ],
+ "cer": [
+  0,
+  293
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "16078a04b051094dc2417d8603d31f6e8da922e5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2439,
+  "words_out": 2419,
+  "retention": 0.9918,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   263,
+   85,
+   81,
+   100,
+   211,
+   138,
+   112,
+   167,
+   119,
+   102,
+   167,
+   58,
+   93,
+   161,
+   70,
+   82,
+   62,
+   82,
+   160,
+   61,
+   45
+  ],
+  "warnings": []
+ }
+}

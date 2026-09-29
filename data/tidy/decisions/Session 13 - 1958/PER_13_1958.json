@@ -1,0 +1,262 @@
+{
+ "id": "PER_13_1958",
+ "drop": [
+  [
+   3,
+   3,
+   "header_footer"
+  ],
+  [
+   44,
+   44,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  20,
+  24,
+  29,
+  30,
+  35,
+  39,
+  45,
+  53,
+  59,
+  65,
+  70,
+  75,
+  77,
+  81,
+  87,
+  90,
+  93,
+  95,
+  99,
+  100,
+  104,
+  107,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "Its purpose",
+   "its purpose",
+   "ocr"
+  ],
+  [
+   2,
+   "Impunity",
+   "impunity",
+   "ocr"
+  ],
+  [
+   6,
+   "alter Irreconcilable",
+   "after irreconcilable",
+   "ocr"
+  ],
+  [
+   9,
+   "Indeed",
+   "indeed",
+   "ocr"
+  ],
+  [
+   17,
+   "Independence",
+   "independence",
+   "ocr"
+  ],
+  [
+   22,
+   "but. with",
+   "but with",
+   "ocr"
+  ],
+  [
+   25,
+   "lust-named",
+   "last-named",
+   "ocr"
+  ],
+  [
+   30,
+   "Important",
+   "important",
+   "ocr"
+  ],
+  [
+   36,
+   "but It",
+   "but it",
+   "ocr"
+  ],
+  [
+   37,
+   "International control",
+   "international control",
+   "ocr"
+  ],
+  [
+   38,
+   "Incident",
+   "incident",
+   "ocr"
+  ],
+  [
+   38,
+   "happen,",
+   "happen.",
+   "ocr"
+  ],
+  [
+   40,
+   "Is the. most",
+   "is the most",
+   "ocr"
+  ],
+  [
+   45,
+   "ration",
+   "nation",
+   "ocr"
+  ],
+  [
+   49,
+   "Irrigation",
+   "irrigation",
+   "ocr"
+  ],
+  [
+   52,
+   "America,",
+   "America.",
+   "ocr"
+  ],
+  [
+   58,
+   "International trade",
+   "international trade",
+   "ocr"
+  ],
+  [
+   64,
+   "Latin- American",
+   "Latin-American",
+   "hyphen"
+  ],
+  [
+   71,
+   "In this",
+   "in this",
+   "ocr"
+  ],
+  [
+   81,
+   "idea, of",
+   "idea of",
+   "ocr"
+  ],
+  [
+   89,
+   "Inflation",
+   "inflation",
+   "ocr"
+  ],
+  [
+   95,
+   "the-first",
+   "the first",
+   "ocr"
+  ],
+  [
+   98,
+   "men In",
+   "men in",
+   "ocr"
+  ],
+  [
+   99,
+   "Dulles, Notwithstanding",
+   "Dulles. Notwithstanding",
+   "ocr"
+  ],
+  [
+   103,
+   "Integration which Is",
+   "integration which is",
+   "ocr"
+  ],
+  [
+   103,
+   "trade,",
+   "trade.",
+   "ocr"
+  ],
+  [
+   105,
+   "Latin- American",
+   "Latin-American",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 3 and 44 are stray paragraph numbers ('89.', '98.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "15917153e97fe783f69b9da7dccde4ec11a6afa4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 4172,
+  "words_out": 4163,
+  "retention": 0.9978,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   187,
+   103,
+   149,
+   125,
+   164,
+   157,
+   217,
+   61,
+   144,
+   227,
+   153,
+   267,
+   180,
+   177,
+   156,
+   222,
+   116,
+   150,
+   208,
+   93,
+   103,
+   123,
+   112,
+   70,
+   142,
+   142,
+   129,
+   86
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

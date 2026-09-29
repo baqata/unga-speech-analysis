@@ -1,0 +1,64 @@
+{
+ "id": "NIC_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  17,
+  19,
+  22,
+  25,
+  30,
+  33,
+  37,
+  42,
+  48
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   38,
+   " [AI1943]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fba20b94f8eb00bf2946e0be7225ce3d949145c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 25
+  },
+  "words_in": 2038,
+  "words_out": 2034,
+  "retention": 0.998,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   109,
+   196,
+   128,
+   166,
+   128,
+   152,
+   159,
+   189,
+   187,
+   152,
+   131,
+   174,
+   163
+  ],
+  "warnings": []
+ }
+}

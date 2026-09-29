@@ -1,0 +1,64 @@
+{
+ "id": "PER_48_1993",
+ "drop": [
+  [
+   25,
+   25,
+   "header_footer"
+  ],
+  [
+   116,
+   116,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  20,
+  33,
+  40,
+  52,
+  60,
+  68,
+  86,
+  94,
+  105,
+  119,
+  128
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1babffbbe0eade0033de37f8aaf24c72cf9fed1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 1288,
+  "words_out": 1275,
+  "retention": 0.9899,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   100,
+   66,
+   100,
+   60,
+   105,
+   63,
+   68,
+   166,
+   71,
+   100,
+   116,
+   82,
+   178
+  ],
+  "warnings": []
+ }
+}

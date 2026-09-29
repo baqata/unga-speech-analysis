@@ -1,0 +1,56 @@
+{
+ "id": "MKD_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  39,
+  53,
+  64,
+  83,
+  97,
+  110,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   135,
+   "national- minority",
+   "national-minority",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4a7905ee1d56caa8c1a2313ff33ea76d099d9aee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1220,
+  "words_out": 1218,
+  "retention": 0.9984,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   43,
+   104,
+   180,
+   118,
+   92,
+   158,
+   100,
+   105,
+   252,
+   66
+  ],
+  "warnings": []
+ }
+}

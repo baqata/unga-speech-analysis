@@ -1,0 +1,71 @@
+{
+ "id": "ETH_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  19,
+  36,
+  46,
+  66,
+  76,
+  91,
+  106,
+  118,
+  127,
+  138,
+  147,
+  160,
+  168,
+  188,
+  198
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   126,
+   "()",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "104ecd038d09b0006a9889eab8585acf8a75abb9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1689,
+  "words_out": 1686,
+  "retention": 0.9982,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   93,
+   60,
+   144,
+   84,
+   158,
+   85,
+   117,
+   123,
+   109,
+   67,
+   92,
+   74,
+   113,
+   71,
+   172,
+   92,
+   32
+  ],
+  "warnings": []
+ }
+}

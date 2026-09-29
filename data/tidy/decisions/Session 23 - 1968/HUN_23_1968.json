@@ -1,0 +1,100 @@
+{
+ "id": "HUN_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  19,
+  22,
+  26,
+  29,
+  32,
+  40,
+  47,
+  52,
+  56,
+  60,
+  70,
+  77,
+  81,
+  85,
+  89,
+  98,
+  102,
+  109,
+  116,
+  125,
+  138,
+  148,
+  152
+ ],
+ "cer": [
+  152
+ ],
+ "fix": [
+  [
+   32,
+   "in cur debate",
+   "in our debate",
+   "ocr"
+  ],
+  [
+   135,
+   "not orly",
+   "not only",
+   "ocr"
+  ],
+  [
+   141,
+   "In, the present",
+   "In the present",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "626a0c106a1e736f3c24b50acedf4124aafd0f68",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3561,
+  "words_out": 3532,
+  "retention": 0.9919,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   76,
+   174,
+   162,
+   86,
+   80,
+   74,
+   81,
+   150,
+   142,
+   122,
+   148,
+   92,
+   211,
+   181,
+   104,
+   96,
+   93,
+   238,
+   113,
+   163,
+   162,
+   147,
+   222,
+   229,
+   81,
+   105
+  ],
+  "warnings": []
+ }
+}

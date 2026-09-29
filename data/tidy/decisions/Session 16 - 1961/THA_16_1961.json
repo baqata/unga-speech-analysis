@@ -1,0 +1,219 @@
+{
+ "id": "THA_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  16,
+  18,
+  21,
+  25,
+  28,
+  30,
+  35,
+  39,
+  44,
+  49,
+  53,
+  57,
+  61,
+  62,
+  65,
+  68,
+  75,
+  81,
+  84,
+  90,
+  92,
+  96,
+  103,
+  105,
+  111,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "ejection",
+   "election",
+   "ocr"
+  ],
+  [
+   6,
+   "tile promotion",
+   "the promotion",
+   "ocr"
+  ],
+  [
+   17,
+   "abetter",
+   "a better",
+   "ocr"
+  ],
+  [
+   22,
+   "committed",
+   "committee",
+   "ocr"
+  ],
+  [
+   22,
+   "composed or",
+   "composed of",
+   "ocr"
+  ],
+  [
+   35,
+   "that - something",
+   "that something",
+   "ocr"
+  ],
+  [
+   42,
+   "I could",
+   "could",
+   "ocr"
+  ],
+  [
+   60,
+   "Assembly,",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   62,
+   "Is simple",
+   "is simple",
+   "ocr"
+  ],
+  [
+   64,
+   "progress-.",
+   "progress.",
+   "ocr"
+  ],
+  [
+   67,
+   "frames,",
+   "frames",
+   "ocr"
+  ],
+  [
+   83,
+   "futures",
+   "future",
+   "ocr"
+  ],
+  [
+   90,
+   "share ,n",
+   "share in",
+   "ocr"
+  ],
+  [
+   95,
+   "economic ,",
+   "economic,",
+   "ocr"
+  ],
+  [
+   100,
+   "members,",
+   "members",
+   "ocr"
+  ],
+  [
+   112,
+   "Victim",
+   "victim",
+   "ocr"
+  ],
+  [
+   117,
+   "us$",
+   "us,",
+   "ocr"
+  ],
+  [
+   118,
+   "United.",
+   "United",
+   "ocr"
+  ],
+  [
+   119,
+   "heard, This",
+   "heard. This",
+   "ocr"
+  ],
+  [
+   120,
+   "doubt I as",
+   "doubt as",
+   "ocr"
+  ],
+  [
+   120,
+   "we 1 choose",
+   "we choose",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3da7a8ab6960a8933fdc9bebbc163d4b19ee0bcb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 3843,
+  "words_out": 3839,
+  "retention": 0.999,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   95,
+   120,
+   101,
+   163,
+   81,
+   167,
+   136,
+   92,
+   85,
+   129,
+   172,
+   171,
+   145,
+   121,
+   121,
+   102,
+   95,
+   107,
+   128,
+   157,
+   110,
+   73,
+   170,
+   97,
+   183,
+   150,
+   72,
+   172,
+   197,
+   127
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "CYP_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  30,
+  43,
+  53,
+  65,
+  73,
+  91,
+  105,
+  121,
+  135,
+  146,
+  163,
+  180,
+  194,
+  203,
+  214,
+  230,
+  242,
+  254,
+  278
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   184,
+   "Denktas¸",
+   "Denktaş",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5451f44a891cdfbd064ac49aa8a97e6bc929b27e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 283,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2345,
+  "words_out": 2340,
+  "retention": 0.9979,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   69,
+   166,
+   115,
+   81,
+   97,
+   70,
+   147,
+   119,
+   126,
+   114,
+   95,
+   145,
+   142,
+   120,
+   65,
+   83,
+   125,
+   109,
+   96,
+   216,
+   40
+  ],
+  "warnings": []
+ }
+}

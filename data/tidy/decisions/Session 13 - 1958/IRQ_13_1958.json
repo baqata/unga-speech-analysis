@@ -1,0 +1,198 @@
+{
+ "id": "IRQ_13_1958",
+ "drop": [
+  [
+   92,
+   92,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  8,
+  12,
+  17,
+  22,
+  27,
+  32,
+  38,
+  45,
+  51,
+  55,
+  57,
+  63,
+  66,
+  68,
+  70,
+  76,
+  81,
+  85,
+  89,
+  96,
+  98,
+  102,
+  104,
+  109,
+  111,
+  119,
+  122,
+  128,
+  129,
+  134
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "Mr. JAWAD (Iraq): ",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "as- the",
+   "as the",
+   "ocr"
+  ],
+  [
+   33,
+   "widely- spread",
+   "widely-spread",
+   "hyphen"
+  ],
+  [
+   41,
+   "Who",
+   "who",
+   "ocr"
+  ],
+  [
+   47,
+   "Independent",
+   "independent",
+   "ocr"
+  ],
+  [
+   47,
+   "Interests",
+   "interests",
+   "ocr"
+  ],
+  [
+   50,
+   "existence,",
+   "existence.",
+   "ocr"
+  ],
+  [
+   52,
+   "on In",
+   "on in",
+   "ocr"
+  ],
+  [
+   57,
+   "region, of",
+   "region of",
+   "ocr"
+  ],
+  [
+   83,
+   "now world",
+   "new world",
+   "ocr"
+  ],
+  [
+   96,
+   "paradoxical, for",
+   "paradoxical for",
+   "ocr"
+  ],
+  [
+   104,
+   "[A/3934/ Rev.1]",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "[resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "August 1953",
+   "August 1958",
+   "ocr"
+  ],
+  [
+   110,
+   "of. those",
+   "of those",
+   "ocr"
+  ],
+  [
+   132,
+   "decision,'",
+   "decision,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 92 is a stray paragraph number ('29.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "83cb730cb651df263d5ac30e39fe1393cadf3987",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 4285,
+  "words_out": 4274,
+  "retention": 0.9974,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   129,
+   103,
+   75,
+   112,
+   163,
+   206,
+   242,
+   119,
+   144,
+   150,
+   200,
+   106,
+   62,
+   119,
+   97,
+   63,
+   66,
+   156,
+   163,
+   146,
+   78,
+   161,
+   63,
+   104,
+   50,
+   142,
+   99,
+   260,
+   142,
+   209,
+   54,
+   212,
+   79
+  ],
+  "warnings": []
+ }
+}

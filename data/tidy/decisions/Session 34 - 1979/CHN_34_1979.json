@@ -1,0 +1,164 @@
+{
+ "id": "CHN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  14,
+  16,
+  27,
+  33,
+  42,
+  47,
+  49,
+  54,
+  60,
+  62,
+  70,
+  78,
+  86,
+  91,
+  98,
+  108,
+  115,
+  120,
+  124,
+  128,
+  136,
+  144,
+  148,
+  159,
+  166,
+  172,
+  181,
+  185,
+  187,
+  192,
+  194,
+  199,
+  205,
+  211,
+  216
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "backward-ness",
+   "backwardness",
+   "hyphen"
+  ],
+  [
+   47,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   69,
+   "behind-the- scenes",
+   "behind-the-scenes",
+   "hyphen"
+  ],
+  [
+   70,
+   "Indo- Chinese",
+   "Indo-Chinese",
+   "hyphen"
+  ],
+  [
+   81,
+   "well now",
+   "well known",
+   "ocr"
+  ],
+  [
+   96,
+   "Indo- Chinese",
+   "Indo-Chinese",
+   "hyphen"
+  ],
+  [
+   107,
+   "Kim II Sung",
+   "Kim Il Sung",
+   "ocr"
+  ],
+  [
+   160,
+   "Dis-armament",
+   "Disarmament",
+   "hyphen"
+  ],
+  [
+   161,
+   "Dis-armament",
+   "Disarmament",
+   "hyphen"
+  ],
+  [
+   196,
+   "and aid a good",
+   "and laid a good",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cece27873cd4765515f7381bbcae3b59c7d38244",
+ "layout": "lines",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 5681,
+  "words_out": 5675,
+  "retention": 0.9989,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   87,
+   262,
+   73,
+   228,
+   106,
+   147,
+   152,
+   96,
+   143,
+   156,
+   82,
+   219,
+   211,
+   237,
+   142,
+   191,
+   226,
+   153,
+   126,
+   120,
+   113,
+   274,
+   227,
+   110,
+   244,
+   163,
+   129,
+   143,
+   172,
+   91,
+   116,
+   67,
+   136,
+   128,
+   140,
+   114,
+   151
+  ],
+  "warnings": []
+ }
+}

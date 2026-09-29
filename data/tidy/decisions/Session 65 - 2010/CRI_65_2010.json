@@ -1,0 +1,61 @@
+{
+ "id": "CRI_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  17,
+  37,
+  59,
+  77,
+  86,
+  108,
+  119,
+  136,
+  146,
+  163,
+  181,
+  196,
+  212,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38d2020373b8c3c349cc3950b6c60528da673e01",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1974,
+  "words_out": 1974,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   44,
+   86,
+   163,
+   180,
+   144,
+   65,
+   175,
+   93,
+   130,
+   76,
+   126,
+   139,
+   122,
+   110,
+   154,
+   167
+  ],
+  "warnings": []
+ }
+}

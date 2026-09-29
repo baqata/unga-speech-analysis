@@ -1,0 +1,74 @@
+{
+ "id": "ARE_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  13,
+  18,
+  21,
+  25,
+  27,
+  30,
+  33,
+  39,
+  42,
+  45,
+  49,
+  53,
+  56,
+  60,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44a4e3c46efeba055cb29c84f9cc56f994273b6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1845,
+  "words_out": 1844,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   54,
+   91,
+   102,
+   132,
+   144,
+   90,
+   93,
+   63,
+   63,
+   79,
+   152,
+   119,
+   89,
+   90,
+   122,
+   79,
+   104,
+   103,
+   75
+  ],
+  "warnings": []
+ }
+}

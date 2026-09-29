@@ -1,0 +1,74 @@
+{
+ "id": "CHN_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  15,
+  21,
+  25,
+  32,
+  36,
+  46,
+  52,
+  60,
+  66,
+  73,
+  81,
+  85,
+  95
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "the< international",
+   "the international",
+   "ocr"
+  ],
+  [
+   59,
+   " [A/1377]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4222303ba353b18080f1281ed93618678f9a3717",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2400,
+  "words_out": 2399,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   86,
+   99,
+   151,
+   102,
+   173,
+   75,
+   135,
+   164,
+   263,
+   91,
+   186,
+   102,
+   103,
+   186,
+   67,
+   222,
+   194
+  ],
+  "warnings": []
+ }
+}

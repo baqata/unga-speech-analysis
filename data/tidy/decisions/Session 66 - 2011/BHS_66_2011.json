@@ -1,0 +1,67 @@
+{
+ "id": "BHS_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  34,
+  56,
+  87,
+  104,
+  124,
+  143,
+  163,
+  183,
+  208,
+  228,
+  254,
+  283,
+  294
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   256,
+   "(resolutions S-26/2 and 60/262)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db4f628652b4ee4ac601e66cf7c7fe36139760dc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 3
+  },
+  "words_in": 2457,
+  "words_out": 2439,
+  "retention": 0.9927,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   115,
+   150,
+   152,
+   255,
+   141,
+   149,
+   134,
+   135,
+   146,
+   196,
+   166,
+   208,
+   200,
+   82,
+   210
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "NOR_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  23,
+  35,
+  50,
+  59,
+  72,
+  84,
+  95,
+  108,
+  119,
+  129,
+  146
+ ],
+ "cer": [],
+ "fix": [
+  [
+   52,
+   " (5th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0fc3179b960bad0c33a6341e73c5bba157f85444",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1279,
+  "words_out": 1276,
+  "retention": 0.9977,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   107,
+   82,
+   98,
+   121,
+   64,
+   97,
+   101,
+   102,
+   108,
+   103,
+   71,
+   133,
+   89
+  ],
+  "warnings": []
+ }
+}

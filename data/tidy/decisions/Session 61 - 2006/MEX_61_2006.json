@@ -1,0 +1,55 @@
+{
+ "id": "MEX_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  29,
+  43,
+  59,
+  77,
+  96,
+  115,
+  125,
+  138,
+  151,
+  167,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5748a74d38fd64f1bd4ec1cea1ea1179e1bd6a92",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1576,
+  "words_out": 1574,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   82,
+   121,
+   113,
+   114,
+   156,
+   153,
+   168,
+   82,
+   118,
+   102,
+   124,
+   86,
+   155
+  ],
+  "warnings": []
+ }
+}

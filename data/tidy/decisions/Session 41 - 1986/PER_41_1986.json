@@ -1,0 +1,124 @@
+{
+ "id": "PER_41_1986",
+ "drop": [
+  [
+   11,
+   12,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  7,
+  10,
+  13,
+  14,
+  19,
+  22,
+  25,
+  30,
+  34,
+  36,
+  39,
+  41,
+  44,
+  47,
+  50,
+  54,
+  57,
+  61,
+  62,
+  63,
+  70,
+  72,
+  74
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   23,
+   "Bonilia",
+   "Bonilla",
+   "ocr"
+  ],
+  [
+   33,
+   "Non-illigned",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   34,
+   "development* We",
+   "development. We",
+   "ocr"
+  ],
+  [
+   52,
+   "territories*",
+   "territories;",
+   "ocr"
+  ],
+  [
+   57,
+   "Con tad or a",
+   "Contadora",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae350760b88831cf9c40de8b4a0d7bb23410c80f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 2986,
+  "words_out": 2976,
+  "retention": 0.9967,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   92,
+   33,
+   96,
+   120,
+   122,
+   74,
+   58,
+   210,
+   113,
+   173,
+   185,
+   94,
+   165,
+   104,
+   70,
+   82,
+   128,
+   138,
+   139,
+   72,
+   83,
+   64,
+   57,
+   285,
+   84,
+   102,
+   33
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "id": "KWT_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  10,
+  14,
+  17,
+  20,
+  24,
+  28,
+  30,
+  34,
+  38,
+  45,
+  48,
+  51,
+  56,
+  59,
+  61,
+  67,
+  72,
+  76,
+  79,
+  85,
+  93,
+  99,
+  103,
+  108
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   6,
+   "join tin.",
+   "join the",
+   "ocr"
+  ],
+  [
+   17,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   33,
+   "politico economic",
+   "politico-economic",
+   "spacing"
+  ],
+  [
+   48,
+   "vita!",
+   "vital",
+   "ocr"
+  ],
+  [
+   53,
+   "conflict m the",
+   "conflict in the",
+   "ocr"
+  ],
+  [
+   54,
+   "Nations :s founded",
+   "Nations is founded",
+   "ocr"
+  ],
+  [
+   56,
+   "in me Conference",
+   "in the Conference",
+   "ocr"
+  ],
+  [
+   66,
+   "pre texts",
+   "pretexts",
+   "split_word"
+  ],
+  [
+   81,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   86,
+   "refusal;,",
+   "refusal,",
+   "ocr"
+  ],
+  [
+   99,
+   "present in national",
+   "present international",
+   "split_word"
+  ],
+  [
+   107,
+   "North South",
+   "North-South",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 86 lacks a word after 'racial discrimination and'.",
+ "unitizer_version": 1,
+ "sha1": "582fb6776eb8d3e405a6acccf108bf6dd85a26fc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3865,
+  "words_out": 3857,
+  "retention": 0.9979,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   226,
+   90,
+   126,
+   121,
+   133,
+   110,
+   159,
+   119,
+   219,
+   187,
+   120,
+   151,
+   137,
+   150,
+   184,
+   103,
+   198,
+   172,
+   153,
+   90,
+   153,
+   220,
+   105,
+   184,
+   129,
+   118
+  ],
+  "warnings": []
+ }
+}

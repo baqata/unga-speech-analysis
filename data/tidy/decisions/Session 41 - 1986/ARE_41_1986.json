@@ -1,0 +1,115 @@
+{
+ "id": "ARE_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  13,
+  17,
+  23,
+  26,
+  28,
+  34,
+  38,
+  39,
+  42,
+  46,
+  47,
+  51,
+  54,
+  58,
+  63,
+  68,
+  71,
+  72,
+  74,
+  76,
+  81,
+  83,
+  86,
+  90,
+  91
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   15,
+   "alsc",
+   "also",
+   "ocr"
+  ],
+  [
+   60,
+   "(SWAPO) * and",
+   "(SWAPO) and",
+   "ocr"
+  ],
+  [
+   72,
+   "Centadora",
+   "Contadora",
+   "ocr"
+  ],
+  [
+   84,
+   "eguality",
+   "equality",
+   "ocr"
+  ],
+  [
+   90,
+   "so] ring",
+   "solving",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fb45987b544fc3daaa283e6cb0b931631f7fe156",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2550,
+  "words_out": 2548,
+  "retention": 0.9992,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   76,
+   84,
+   156,
+   61,
+   105,
+   83,
+   65,
+   155,
+   64,
+   63,
+   119,
+   106,
+   64,
+   91,
+   56,
+   125,
+   112,
+   114,
+   86,
+   72,
+   63,
+   75,
+   110,
+   88,
+   90,
+   110,
+   58,
+   97
+  ],
+  "warnings": []
+ }
+}

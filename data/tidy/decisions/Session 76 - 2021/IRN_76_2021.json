@@ -1,0 +1,83 @@
+{
+ "id": "IRN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  10,
+  15,
+  18,
+  22,
+  26,
+  29,
+  32,
+  38,
+  41,
+  46,
+  50,
+  56,
+  59,
+  64,
+  69,
+  80,
+  82,
+  86
+ ],
+ "cer": [
+  0,
+  86
+ ],
+ "fix": [
+  [
+   6,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   39,
+   "wake- up",
+   "wake-up",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3056ef20be6a042f10b7482bb4003fe76f4fe813",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2008,
+  "words_out": 2006,
+  "retention": 0.999,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   64,
+   100,
+   67,
+   103,
+   65,
+   91,
+   78,
+   89,
+   99,
+   143,
+   94,
+   126,
+   120,
+   130,
+   70,
+   116,
+   111,
+   184,
+   62,
+   80,
+   14
+  ],
+  "warnings": []
+ }
+}

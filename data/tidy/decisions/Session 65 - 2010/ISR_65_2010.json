@@ -1,0 +1,56 @@
+{
+ "id": "ISR_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  37,
+  50,
+  70,
+  87,
+  96,
+  109,
+  128,
+  139,
+  150
+ ],
+ "cer": [],
+ "fix": [
+  [
+   157,
+   " (Isaiah 2:4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c59e307964f5b17f8e0934c710eeadd4af3fc2ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1363,
+  "words_out": 1360,
+  "retention": 0.9978,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   167,
+   167,
+   123,
+   158,
+   130,
+   78,
+   111,
+   152,
+   92,
+   87,
+   95
+  ],
+  "warnings": []
+ }
+}

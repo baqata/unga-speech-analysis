@@ -1,0 +1,172 @@
+{
+ "id": "SGP_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  14,
+  19,
+  23,
+  32,
+  40,
+  47,
+  51,
+  57,
+  60,
+  68,
+  76,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "but. quite",
+   "but, quite",
+   "ocr"
+  ],
+  [
+   10,
+   "human- made",
+   "human-made",
+   "hyphen"
+  ],
+  [
+   17,
+   "city-State. and",
+   "city-State, and",
+   "ocr"
+  ],
+  [
+   32,
+   "Secondly.",
+   "Secondly,",
+   "ocr"
+  ],
+  [
+   46,
+   "(A/78/ PV.4, p. 5)",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "Al will",
+   "AI will",
+   "ocr"
+  ],
+  [
+   47,
+   "Al-enabled",
+   "AI-enabled",
+   "ocr"
+  ],
+  [
+   51,
+   "War. the",
+   "War, the",
+   "ocr"
+  ],
+  [
+   56,
+   "AL Singapore",
+   "AI Singapore",
+   "ocr"
+  ],
+  [
+   56,
+   "on Al to",
+   "on AI to",
+   "ocr"
+  ],
+  [
+   58,
+   "2021-2025. which",
+   "2021-2025, which",
+   "ocr"
+  ],
+  [
+   58,
+   "AL Singapore",
+   "AI Singapore",
+   "ocr"
+  ],
+  [
+   62,
+   "city-State.",
+   "city-State,",
+   "ocr"
+  ],
+  [
+   64,
+   "2022.",
+   "2022,",
+   "ocr"
+  ],
+  [
+   69,
+   "so. as",
+   "so, as",
+   "ocr"
+  ],
+  [
+   72,
+   "week.",
+   "week,",
+   "ocr"
+  ],
+  [
+   74,
+   "today.",
+   "today,",
+   "ocr"
+  ],
+  [
+   76,
+   "AI. cybersecurity",
+   "AI, cybersecurity",
+   "ocr"
+  ],
+  [
+   79,
+   "law. and",
+   "law, and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59609171e7b27d4cb1f7029afc5931cbb8bdebb9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1859,
+  "words_out": 1854,
+  "retention": 0.9973,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   64,
+   120,
+   116,
+   118,
+   84,
+   165,
+   167,
+   156,
+   84,
+   128,
+   108,
+   153,
+   160,
+   132,
+   99
+  ],
+  "warnings": []
+ }
+}

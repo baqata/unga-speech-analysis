@@ -1,0 +1,164 @@
+{
+ "id": "GRC_36_1981",
+ "drop": [
+  [
+   79,
+   79,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  12,
+  17,
+  19,
+  28,
+  32,
+  35,
+  40,
+  43,
+  46,
+  49,
+  53,
+  57,
+  62,
+  65,
+  70,
+  74,
+  77,
+  81,
+  86
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   3,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   10,
+   "IVvo events",
+   "Two events",
+   "ocr"
+  ],
+  [
+   15,
+   "itsArab",
+   "its Arab",
+   "spacing"
+  ],
+  [
+   17,
+   "question, 1 should",
+   "question, I should",
+   "ocr"
+  ],
+  [
+   34,
+   "the* basic",
+   "the basic",
+   "ocr"
+  ],
+  [
+   36,
+   "the ' cruel",
+   "the cruel",
+   "ocr"
+  ],
+  [
+   69,
+   "population, /continue",
+   "population, continue",
+   "ocr"
+  ],
+  [
+   69,
+   "of. some",
+   "of some",
+   "ocr"
+  ],
+  [
+   74,
+   "TUrkish",
+   "Turkish",
+   "ocr"
+  ],
+  [
+   78,
+   "SecretaryGen eral",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   78,
+   " [see AI36I1, sect.",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "thirty- sixth",
+   "thirty-sixth",
+   "hyphen"
+  ],
+  [
+   12,
+   " [PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9178edf0fd0ab38a90c210a9e3599cce4d51efcf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 34
+  },
+  "words_in": 2561,
+  "words_out": 2554,
+  "retention": 0.9973,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   69,
+   113,
+   70,
+   145,
+   199,
+   93,
+   207,
+   87,
+   97,
+   135,
+   81,
+   92,
+   122,
+   95,
+   95,
+   119,
+   96,
+   120,
+   88,
+   98,
+   91,
+   105,
+   137
+  ],
+  "warnings": []
+ }
+}

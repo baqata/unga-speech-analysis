@@ -1,0 +1,190 @@
+{
+ "id": "AFG_26_1971",
+ "drop": [
+  [
+   129,
+   129,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  19,
+  24,
+  30,
+  38,
+  41,
+  46,
+  50,
+  56,
+  61,
+  63,
+  66,
+  69,
+  74,
+  77,
+  79,
+  82,
+  85,
+  90,
+  93,
+  97,
+  101,
+  103,
+  107,
+  110,
+  114,
+  119,
+  120,
+  124,
+  131
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   9,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   16,
+   "peace,",
+   "peace.",
+   "ocr"
+  ],
+  [
+   57,
+   "a' o",
+   "also",
+   "ocr"
+  ],
+  [
+   66,
+   "ant-",
+   "and",
+   "ocr"
+  ],
+  [
+   77,
+   "of-our",
+   "of our",
+   "ocr"
+  ],
+  [
+   80,
+   "Afghanistan, Since",
+   "Afghanistan. Since",
+   "ocr"
+  ],
+  [
+   88,
+   "action- programs",
+   "action-programs",
+   "hyphen"
+  ],
+  [
+   90,
+   "tf i",
+   "the",
+   "ocr"
+  ],
+  [
+   99,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   102,
+   ";.rd",
+   "and",
+   "ocr"
+  ],
+  [
+   106,
+   "development,",
+   "development.",
+   "ocr"
+  ],
+  [
+   119,
+   "A ",
+   "",
+   "label"
+  ],
+  [
+   120,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   121,
+   "world,",
+   "world.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a8bcdd101a798d7b2f392aaf5e91aa1eec435846",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 48
+  },
+  "words_in": 3997,
+  "words_out": 3966,
+  "retention": 0.9922,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   113,
+   91,
+   175,
+   180,
+   139,
+   225,
+   232,
+   103,
+   140,
+   111,
+   126,
+   121,
+   78,
+   123,
+   72,
+   110,
+   98,
+   122,
+   98,
+   65,
+   122,
+   98,
+   141,
+   115,
+   68,
+   98,
+   74,
+   143,
+   139,
+   61,
+   154,
+   135,
+   96
+  ],
+  "warnings": []
+ }
+}

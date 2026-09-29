@@ -1,0 +1,95 @@
+{
+ "id": "ARM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   105,
+   105,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  12,
+  15,
+  20,
+  24,
+  29,
+  36,
+  39,
+  45,
+  50,
+  55,
+  59,
+  62,
+  66,
+  76,
+  88,
+  92,
+  99,
+  101,
+  104
+ ],
+ "cer": [
+  104
+ ],
+ "fix": [
+  [
+   36,
+   "TripRoot",
+   "Trip Route",
+   "asr_name"
+  ],
+  [
+   37,
+   "TripRoot",
+   "Trip Route",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4adedc8149a174b69c6f1146dc62e7263aa3ec01",
+ "layout": "single",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2885,
+  "words_out": 2838,
+  "retention": 0.9837,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   131,
+   90,
+   153,
+   229,
+   166,
+   142,
+   159,
+   79,
+   157,
+   106,
+   152,
+   111,
+   133,
+   105,
+   212,
+   216,
+   139,
+   193,
+   110,
+   53,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "NZL_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  13,
+  20,
+  24,
+  31,
+  36,
+  41,
+  49,
+  53,
+  58,
+  62,
+  66,
+  71,
+  74
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   " (222nd meeting)",
+   "",
+   "label"
+  ],
+  [
+   17,
+   "maimed",
+   "manned",
+   "ocr"
+  ],
+  [
+   60,
+   "on ,a",
+   "on a",
+   "ocr"
+  ],
+  [
+   72,
+   " (222nd meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "df4e03c697506ebd61e691e8c64a2b147f86b904",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 2428,
+  "words_out": 2424,
+  "retention": 0.9984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   79,
+   111,
+   168,
+   116,
+   182,
+   146,
+   166,
+   110,
+   154,
+   173,
+   113,
+   155,
+   162,
+   162,
+   193,
+   104,
+   130
+  ],
+  "warnings": []
+ }
+}

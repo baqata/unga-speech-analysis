@@ -1,0 +1,142 @@
+{
+ "id": "URY_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  13,
+  22,
+  29,
+  39,
+  50,
+  53
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "again.",
+   "again,",
+   "ocr"
+  ],
+  [
+   6,
+   "ago. to",
+   "ago, to",
+   "ocr"
+  ],
+  [
+   6,
+   "law. with",
+   "law, with",
+   "ocr"
+  ],
+  [
+   13,
+   "law. which",
+   "law, which",
+   "ocr"
+  ],
+  [
+   20,
+   "and. at",
+   "and, at",
+   "ocr"
+  ],
+  [
+   22,
+   "speech.",
+   "speech,",
+   "ocr"
+  ],
+  [
+   24,
+   "speech.",
+   "speech,",
+   "ocr"
+  ],
+  [
+   25,
+   "(A/76/PV6, p.20)",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "one. today",
+   "one, today",
+   "ocr"
+  ],
+  [
+   28,
+   "and. of course",
+   "and, of course",
+   "ocr"
+  ],
+  [
+   35,
+   "ago.",
+   "ago,",
+   "ocr"
+  ],
+  [
+   38,
+   "way. as",
+   "way, as",
+   "ocr"
+  ],
+  [
+   38,
+   "and. obviously",
+   "and, obviously",
+   "ocr"
+  ],
+  [
+   39,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   40,
+   "that.",
+   "that,",
+   "ocr"
+  ],
+  [
+   45,
+   "Obviously.",
+   "Obviously,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "adbc67b9cf8f493d6ad84ce409b8aca0e288eda6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1019,
+  "words_out": 1017,
+  "retention": 0.998,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   34,
+   110,
+   126,
+   148,
+   93,
+   213,
+   190,
+   67,
+   36
+  ],
+  "warnings": []
+ }
+}

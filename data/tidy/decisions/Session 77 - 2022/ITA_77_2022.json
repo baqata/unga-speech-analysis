@@ -1,0 +1,88 @@
+{
+ "id": "ITA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  12,
+  16,
+  21,
+  26,
+  31,
+  38,
+  43,
+  49,
+  52,
+  56,
+  60,
+  64,
+  68,
+  72,
+  75,
+  79,
+  83,
+  92,
+  95
+ ],
+ "cer": [],
+ "fix": [
+  [
+   51,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   51,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   61,
+   " (see A/43/ PV.72)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7e1b0fa557608b7bdc343f0b20b6064bd33b4929",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2091,
+  "words_out": 2087,
+  "retention": 0.9981,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   73,
+   63,
+   106,
+   98,
+   112,
+   91,
+   125,
+   158,
+   131,
+   114,
+   76,
+   62,
+   72,
+   121,
+   93,
+   66,
+   81,
+   83,
+   96,
+   143,
+   68,
+   55
+  ],
+  "warnings": []
+ }
+}

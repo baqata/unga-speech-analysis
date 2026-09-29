@@ -1,0 +1,112 @@
+{
+ "id": "GUY_77_2022",
+ "drop": [
+  [
+   30,
+   30,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  17,
+  22,
+  26,
+  31,
+  35,
+  40,
+  43,
+  49,
+  53,
+  57,
+  61,
+  65,
+  69,
+  74,
+  79,
+  84,
+  90,
+  94,
+  95,
+  102,
+  105,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "food- insecure",
+   "food-insecure",
+   "hyphen"
+  ],
+  [
+   73,
+   "higher- priced",
+   "higher-priced",
+   "hyphen"
+  ],
+  [
+   105,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e58ee902704c694cd462a14e2e02097cfda113ae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2605,
+  "words_out": 2594,
+  "retention": 0.9958,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   75,
+   100,
+   76,
+   76,
+   76,
+   129,
+   94,
+   66,
+   81,
+   99,
+   76,
+   118,
+   78,
+   108,
+   105,
+   123,
+   61,
+   90,
+   146,
+   159,
+   111,
+   94,
+   80,
+   141,
+   61,
+   109,
+   62
+  ],
+  "warnings": [
+   "procedural drop [30,30] in the middle of the speech"
+  ]
+ }
+}

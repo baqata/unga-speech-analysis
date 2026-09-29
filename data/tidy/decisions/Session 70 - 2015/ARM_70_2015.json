@@ -1,0 +1,75 @@
+{
+ "id": "ARM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  14,
+  20,
+  26,
+  29,
+  32,
+  35,
+  39,
+  41,
+  48,
+  52,
+  56,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   22,
+   "oil- based",
+   "oil-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4989409e62174dd9fbab1e237588c08bb2aa554f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 2
+  },
+  "words_in": 1524,
+  "words_out": 1522,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   39,
+   102,
+   72,
+   114,
+   148,
+   152,
+   78,
+   77,
+   66,
+   130,
+   59,
+   132,
+   102,
+   69,
+   131,
+   51
+  ],
+  "warnings": []
+ }
+}

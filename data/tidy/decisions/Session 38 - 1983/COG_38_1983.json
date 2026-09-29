@@ -1,0 +1,106 @@
+{
+ "id": "COG_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  11,
+  14,
+  18,
+  21,
+  27,
+  32,
+  36,
+  39,
+  42,
+  46,
+  51,
+  54,
+  59,
+  62,
+  66,
+  67,
+  69,
+  71,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "work or the",
+   "work of the",
+   "ocr"
+  ],
+  [
+   24,
+   " tQ4U]",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "which s viewed",
+   "which is viewed",
+   "ocr"
+  ],
+  [
+   39,
+   " J[y4/?d/7]",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "[PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e10639b98721adf4db33b0c1295a5e6cf774918",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 51
+  },
+  "words_in": 3031,
+  "words_out": 3026,
+  "retention": 0.9984,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   191,
+   92,
+   75,
+   192,
+   102,
+   154,
+   106,
+   213,
+   152,
+   152,
+   166,
+   159,
+   130,
+   197,
+   89,
+   140,
+   115,
+   139,
+   63,
+   111,
+   92,
+   72,
+   124
+  ],
+  "warnings": []
+ }
+}

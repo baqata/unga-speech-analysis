@@ -1,0 +1,219 @@
+{
+ "id": "JAM_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  68,
+  101,
+  166,
+  178,
+  188,
+  232,
+  278,
+  287,
+  302,
+  324,
+  339
+ ],
+ "cer": [],
+ "fix": [
+  [
+   27,
+   "art At",
+   "are at",
+   "ocr"
+  ],
+  [
+   33,
+   "by passing",
+   "by-passing",
+   "spacing"
+  ],
+  [
+   37,
+   "long held",
+   "long-held",
+   "spacing"
+  ],
+  [
+   52,
+   "output",
+   "ought",
+   "ocr"
+  ],
+  [
+   61,
+   "itsability",
+   "its ability",
+   "merged_word"
+  ],
+  [
+   68,
+   "non aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   69,
+   "anti colonial",
+   "anti-colonial",
+   "spacing"
+  ],
+  [
+   71,
+   "peace keeping",
+   "peace-keeping",
+   "spacing"
+  ],
+  [
+   91,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   91,
+   " [/37/V]",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "Member. State",
+   "Member State",
+   "ocr"
+  ],
+  [
+   116,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   188,
+   "age old",
+   "age-old",
+   "spacing"
+  ],
+  [
+   228,
+   "recession prone",
+   "recession-prone",
+   "spacing"
+  ],
+  [
+   231,
+   "post independence",
+   "post-independence",
+   "spacing"
+  ],
+  [
+   268,
+   "self defeating",
+   "self-defeating",
+   "spacing"
+  ],
+  [
+   277,
+   "export led",
+   "export-led",
+   "spacing"
+  ],
+  [
+   292,
+   "quotasóan",
+   "quotas—an",
+   "encoding"
+  ],
+  [
+   298,
+   "short term",
+   "short-term",
+   "spacing"
+  ],
+  [
+   301,
+   "under utilized",
+   "under-utilized",
+   "spacing"
+  ],
+  [
+   310,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   311,
+   "non conventional",
+   "non-conventional",
+   "spacing"
+  ],
+  [
+   315,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   328,
+   "world wide",
+   "world-wide",
+   "spacing"
+  ],
+  [
+   350,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   353,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   363,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts; greetings turn to substance mid-line at unit 14 and several paragraphs stay long; unit 130 has lost the word apartheid.",
+ "unitizer_version": 1,
+ "sha1": "3211e4f3142faf38cd5628039da52347831f5313",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 368,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3969,
+  "words_out": 3952,
+  "retention": 0.9957,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   752,
+   358,
+   687,
+   129,
+   98,
+   497,
+   490,
+   88,
+   154,
+   231,
+   165,
+   303
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 752 words",
+   "paragraph at unit 68 has 358 words",
+   "paragraph at unit 101 has 687 words",
+   "paragraph at unit 188 has 497 words",
+   "paragraph at unit 232 has 490 words",
+   "27 fixes"
+  ]
+ }
+}

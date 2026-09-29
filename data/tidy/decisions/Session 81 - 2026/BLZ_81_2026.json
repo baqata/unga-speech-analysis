@@ -1,0 +1,220 @@
+{
+ "id": "BLZ_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   113,
+   113,
+   "repeat"
+  ],
+  [
+   164,
+   164,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  20,
+  31,
+  41,
+  50,
+  58,
+  72,
+  84,
+  92,
+  95,
+  107,
+  118,
+  128,
+  131,
+  135,
+  143,
+  153,
+  161
+ ],
+ "cer": [
+  2,
+  161
+ ],
+ "fix": [
+  [
+   11,
+   "chapter",
+   "Charter",
+   "asr_term"
+  ],
+  [
+   45,
+   "obstructions",
+   "abstractions",
+   "asr_term"
+  ],
+  [
+   57,
+   "fail short",
+   "fall short",
+   "asr_term"
+  ],
+  [
+   61,
+   "repertory",
+   "reparatory",
+   "asr_term"
+  ],
+  [
+   98,
+   "grongs",
+   "grounds",
+   "asr_term"
+  ],
+  [
+   131,
+   "55",
+   "45",
+   "asr_term"
+  ],
+  [
+   133,
+   "9th",
+   "night",
+   "asr_term"
+  ],
+  [
+   134,
+   "inviability",
+   "inviolability",
+   "asr_term"
+  ],
+  [
+   136,
+   "Sarastun",
+   "Sarstoon",
+   "asr_name"
+  ],
+  [
+   145,
+   "Our Excellency",
+   "Her Excellency",
+   "asr_term"
+  ],
+  [
+   145,
+   "Caroline Rodriguez Brickett",
+   "Carolyn Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   6,
+   "depends. depends.",
+   "depends.",
+   "asr_term"
+  ],
+  [
+   120,
+   "journey, journey,",
+   "journey,",
+   "asr_term"
+  ],
+  [
+   21,
+   "coastlines. communities",
+   "coastlines communities",
+   "asr_term"
+  ],
+  [
+   52,
+   "tomorrow. but",
+   "tomorrow. But",
+   "asr_term"
+  ],
+  [
+   65,
+   "last. if",
+   "last. If",
+   "asr_term"
+  ],
+  [
+   67,
+   "not. the",
+   "not. The",
+   "asr_term"
+  ],
+  [
+   136,
+   "Guatemala. in",
+   "Guatemala. In",
+   "asr_term"
+  ],
+  [
+   145,
+   "Guyana. a",
+   "Guyana. A",
+   "asr_term"
+  ],
+  [
+   147,
+   "results. small",
+   "results. Small",
+   "asr_term"
+  ],
+  [
+   141,
+   "We at least",
+   "Belize",
+   "asr_name"
+  ],
+  [
+   141,
+   "request",
+   "requests",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish channel confirms Carta, abstracciones, se quedara corto, justicia reparadora, 45 anos (independence 1981), la noche del 23 de septiembre, inviolabilidad; Sarstoon River is the Belize-Guatemala border river; Carolyn Rodrigues-Birkett is Guyana's SG nominee (Guyana Chronicle, Al Jazeera). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 6 'depends. depends.' -> 'depends.'; unit 113 dropped as a repeat; unit 120 'journey, journey,' -> 'journey,'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 21 'coastlines. communities' -> 'coastlines communities'; unit 52 'tomorrow. but' -> 'tomorrow. But'; unit 65 'last. if' -> 'last. If'; unit 67 'not. the' -> 'not. The'; unit 136 'Guatemala. in' -> 'Guatemala. In'; unit 145 'Guyana. a' -> 'Guyana. A'; unit 147 'results. small' -> 'results. Small'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 17 unit 141 'We at least' -> 'Belize' (one indistinct word before 'further': decodes 'We'll at least' (We'll 0.32/0.42, at 0.22/0.15), shifted decodes 'Belize' 0.66/0.46, re-decodes 1134-1136.8 s 'We'll please' / 'Belize' 0.51 / 'We please' / 'Police' (all low); 'at least' not heard in re-decodes and absent from ES 'Pedimos además'; preceding sentence in ES 'Belice, pues, insta a' shows the speaker's 'Belize' subject); spot 18 unit 141 'request' -> 'requests' (goes with spot 17 ('Belize further requests'): shifted decodes hear 'requests' 0.83 / 0.81, re-decode 0.73; apply only together with spot 17)",
+ "unitizer_version": 1,
+ "sha1": "eda84427f167be2981f8b5523870943a5fa94989",
+ "layout": "single",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {
+   "presider": 3,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 2435,
+  "words_out": 2361,
+  "retention": 0.9696,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   26,
+   201,
+   139,
+   101,
+   93,
+   138,
+   192,
+   158,
+   149,
+   64,
+   140,
+   139,
+   168,
+   45,
+   95,
+   186,
+   176,
+   138,
+   13
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

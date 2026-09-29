@@ -1,0 +1,57 @@
+{
+ "id": "SWE_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  22,
+  36,
+  53,
+  70,
+  87,
+  102,
+  123,
+  146,
+  167,
+  183,
+  204,
+  224
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1aba00303b3309f443288490cfd59608d3a0dd7e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1916,
+  "words_out": 1912,
+  "retention": 0.9979,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   12,
+   168,
+   124,
+   149,
+   116,
+   140,
+   104,
+   171,
+   187,
+   170,
+   116,
+   161,
+   163,
+   131
+  ],
+  "warnings": []
+ }
+}

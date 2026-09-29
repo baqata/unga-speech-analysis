@@ -1,0 +1,394 @@
+{
+ "id": "SAU_14_1959",
+ "drop": [
+  [
+   258,
+   258,
+   "repeat"
+  ],
+  [
+   259,
+   259,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  20,
+  27,
+  39,
+  42,
+  52,
+  57,
+  62,
+  69,
+  74,
+  79,
+  87,
+  95,
+  101,
+  109,
+  112,
+  116,
+  122,
+  132,
+  139,
+  142,
+  146,
+  153,
+  157,
+  164,
+  169,
+  173,
+  180,
+  184,
+  187,
+  192,
+  198,
+  205,
+  210,
+  218,
+  234,
+  247,
+  253,
+  263,
+  267,
+  271,
+  276,
+  282,
+  291,
+  299,
+  307,
+  312,
+  316,
+  325,
+  328,
+  330,
+  333,
+  337,
+  345,
+  348,
+  355,
+  363,
+  369,
+  377,
+  383,
+  390
+ ],
+ "cer": [
+  8
+ ],
+ "fix": [
+  [
+   72,
+   "homeland, hi stressing",
+   "homeland. In stressing",
+   "ocr"
+  ],
+  [
+   83,
+   "disappointment of, Israel",
+   "disappointment of Israel",
+   "ocr"
+  ],
+  [
+   85,
+   "representative of Israel, Israel's",
+   "representative of Israel. Israel's",
+   "ocr"
+  ],
+  [
+   115,
+   "Its Smells",
+   "It smells",
+   "ocr"
+  ],
+  [
+   127,
+   "United Sates",
+   "United States",
+   "ocr"
+  ],
+  [
+   131,
+   "indifference,",
+   "indifference.",
+   "ocr"
+  ],
+  [
+   132,
+   "itself, hi his book",
+   "itself. In his book",
+   "ocr"
+  ],
+  [
+   133,
+   "not tQ the",
+   "not to the",
+   "ocr"
+  ],
+  [
+   142,
+   "an end, Israel",
+   "an end. Israel",
+   "ocr"
+  ],
+  [
+   148,
+   "unleashed Under",
+   "unleashed under",
+   "ocr"
+  ],
+  [
+   156,
+   " [181 (II)]",
+   "",
+   "label"
+  ],
+  [
+   157,
+   "If is against",
+   "It is against",
+   "ocr"
+  ],
+  [
+   164,
+   "own making, Israel",
+   "own making. Israel",
+   "ocr"
+  ],
+  [
+   180,
+   "the (people",
+   "the people",
+   "ocr"
+  ],
+  [
+   180,
+   "independence, The",
+   "independence. The",
+   "ocr"
+  ],
+  [
+   182,
+   "Council. & British",
+   "Council. British",
+   "ocr"
+  ],
+  [
+   186,
+   "their land,",
+   "their land.",
+   "ocr"
+  ],
+  [
+   203,
+   "historic; life",
+   "historic life",
+   "ocr"
+  ],
+  [
+   213,
+   "matter, in a mine",
+   "matter. In a mine",
+   "ocr"
+  ],
+  [
+   217,
+   "self- determination;",
+   "self-determination;",
+   "split_word"
+  ],
+  [
+   218,
+   "99, ",
+   "",
+   "label"
+  ],
+  [
+   218,
+   "in, his",
+   "in his",
+   "ocr"
+  ],
+  [
+   271,
+   "Gaulle Sets",
+   "Gaulle sets",
+   "ocr"
+  ],
+  [
+   272,
+   "himself,",
+   "himself.",
+   "ocr"
+  ],
+  [
+   281,
+   "down W complete",
+   "down to complete",
+   "ocr"
+  ],
+  [
+   296,
+   "the. prospects",
+   "the prospects",
+   "ocr"
+  ],
+  [
+   303,
+   "game\".",
+   "game\",",
+   "ocr"
+  ],
+  [
+   315,
+   " [194 (III)]",
+   "",
+   "label"
+  ],
+  [
+   316,
+   "to dragon up",
+   "to drag on up",
+   "merged_word"
+  ],
+  [
+   319,
+   " [A/4132, chap, I, sect.",
+   "",
+   "label"
+  ],
+  [
+   320,
+   "10 (c)],",
+   "",
+   "label"
+  ],
+  [
+   324,
+   "our duly",
+   "our duty",
+   "ocr"
+  ],
+  [
+   351,
+   " [181 (II)]",
+   "",
+   "label"
+  ],
+  [
+   364,
+   "Palestine* Secondly",
+   "Palestine. Secondly",
+   "ocr"
+  ],
+  [
+   369,
+   "132, ",
+   "",
+   "label"
+  ],
+  [
+   376,
+   "[A/4132/Add.1, p. 5.j ",
+   "",
+   "label"
+  ],
+  [
+   383,
+   "133, ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The President interrupted the speaker at unit 258 (his words are not in the source): unit 258 is the cut-off start of the sentence restarted in full at unit 260 and is dropped as a repeat; unit 259 is the speaker's labelled reply to the President and is dropped as procedural.",
+ "unitizer_version": 1,
+ "sha1": "f4cb0a64b0c3b2d4ba1c7964e4f1d3f24ec2ecb7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 392,
+  "units_dropped": {
+   "repeat": 1,
+   "procedural": 1
+  },
+  "prestrip": {
+   "meeting_ref": 6,
+   "paragraph_number": 67
+  },
+  "words_in": 8601,
+  "words_out": 8550,
+  "retention": 0.9941,
+  "n_paragraphs": 62,
+  "paragraph_words": [
+   148,
+   173,
+   142,
+   240,
+   66,
+   159,
+   106,
+   99,
+   137,
+   125,
+   108,
+   177,
+   156,
+   79,
+   186,
+   126,
+   98,
+   76,
+   209,
+   211,
+   105,
+   114,
+   204,
+   133,
+   148,
+   106,
+   180,
+   112,
+   121,
+   95,
+   93,
+   138,
+   117,
+   89,
+   211,
+   248,
+   175,
+   131,
+   162,
+   115,
+   94,
+   208,
+   161,
+   237,
+   141,
+   136,
+   133,
+   125,
+   220,
+   89,
+   77,
+   66,
+   107,
+   156,
+   78,
+   121,
+   179,
+   124,
+   172,
+   112,
+   136,
+   60
+  ],
+  "warnings": [
+   "procedural drop [259,259] in the middle of the speech",
+   "37 fixes"
+  ]
+ }
+}

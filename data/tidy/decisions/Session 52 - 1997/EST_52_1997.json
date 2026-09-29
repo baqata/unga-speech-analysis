@@ -1,0 +1,72 @@
+{
+ "id": "EST_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  31,
+  45,
+  60,
+  71,
+  79,
+  87,
+  104,
+  121,
+  132,
+  145,
+  165,
+  182
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   188,
+   " [Thomas Hardy, The Dynasts, pt. II, Spirit",
+   "",
+   "label"
+  ],
+  [
+   189,
+   "Sinister]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a518223acb839b495410647f30cf237920e5e5bc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1566,
+  "words_out": 1557,
+  "retention": 0.9943,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   76,
+   119,
+   67,
+   115,
+   127,
+   84,
+   77,
+   68,
+   145,
+   143,
+   87,
+   98,
+   159,
+   138,
+   54
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "AFG_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  24,
+  37,
+  48,
+  59,
+  76,
+  91,
+  105,
+  123,
+  133,
+  142,
+  159,
+  168
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d792bbed076cc43664d849e8884c35a780aec52",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1547,
+  "words_out": 1545,
+  "retention": 0.9987,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   87,
+   120,
+   102,
+   92,
+   96,
+   161,
+   127,
+   124,
+   131,
+   77,
+   78,
+   151,
+   81,
+   118
+  ],
+  "warnings": []
+ }
+}

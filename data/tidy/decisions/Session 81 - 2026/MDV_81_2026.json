@@ -1,0 +1,281 @@
+{
+ "id": "MDV_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   142,
+   142,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  5,
+  8,
+  17,
+  29,
+  38,
+  52,
+  64,
+  71,
+  77,
+  88,
+  94,
+  104,
+  112,
+  119,
+  127,
+  136
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "The President, Sweetלא Szlang meerằ Git ",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "Baibook",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   6,
+   "world's law",
+   "words alone",
+   "asr_term"
+  ],
+  [
+   10,
+   "a form in the importance",
+   "affirming the importance",
+   "asr_term"
+  ],
+  [
+   15,
+   "the Morris",
+   "the Maldives",
+   "asr_name"
+  ],
+  [
+   28,
+   "The modus",
+   "The Maldives",
+   "asr_name"
+  ],
+  [
+   32,
+   "in security",
+   "insecurity",
+   "asr_term"
+  ],
+  [
+   49,
+   "The Maoists",
+   "The Maldives",
+   "asr_name"
+  ],
+  [
+   54,
+   "For cities",
+   "For SIDS",
+   "asr_name"
+  ],
+  [
+   55,
+   "For cities",
+   "For SIDS",
+   "asr_name"
+  ],
+  [
+   68,
+   "turn others",
+   "turn ABAS",
+   "asr_name"
+  ],
+  [
+   68,
+   "for seeds",
+   "for SIDS",
+   "asr_name"
+  ],
+  [
+   69,
+   "Videoièrement analyzed video можемlang đếnē有 הפ无 ",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "memoirau panarz nationwide GET SUPPORT PyŞuur ",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "Moizu",
+   "Muizzu",
+   "asr_name"
+  ],
+  [
+   72,
+   "the Mauds",
+   "the Maldives",
+   "asr_name"
+  ],
+  [
+   79,
+   "the Mauds",
+   "the Maldives",
+   "asr_name"
+  ],
+  [
+   79,
+   "Broward platform",
+   "Borrowers' Platform",
+   "asr_name"
+  ],
+  [
+   81,
+   "CIDs, credit agency",
+   "SIDS, greater agency",
+   "asr_term"
+  ],
+  [
+   86,
+   "Moiz's",
+   "Muizzu's",
+   "asr_name"
+  ],
+  [
+   92,
+   "global roles",
+   "global rules",
+   "asr_term"
+  ],
+  [
+   99,
+   "in seats",
+   "in SIDS",
+   "asr_name"
+  ],
+  [
+   100,
+   "programed countries",
+   "programme countries",
+   "asr_term"
+  ],
+  [
+   107,
+   "Seats must",
+   "SIDS must",
+   "asr_name"
+  ],
+  [
+   128,
+   "The MODIS",
+   "The Maldives",
+   "asr_name"
+  ],
+  [
+   129,
+   "status freedom tools",
+   "state's freedom to choose",
+   "asr_term"
+  ],
+  [
+   136,
+   "the Mauds",
+   "the Maldives",
+   "asr_name"
+  ],
+  [
+   16,
+   "future. a",
+   "future. A",
+   "asr_term"
+  ],
+  [
+   75,
+   "choices. technology",
+   "choices. Technology",
+   "asr_term"
+  ],
+  [
+   126,
+   "immense. the",
+   "immense. The",
+   "asr_term"
+  ],
+  [
+   74,
+   "Maldives",
+   "Maldivians",
+   "asr_name"
+  ],
+  [
+   84,
+   "solve",
+   "serve",
+   "asr_term"
+  ],
+  [
+   129,
+   "our",
+   "a",
+   "asr_term"
+  ],
+  [
+   5,
+   "High Excellency",
+   "Her Excellency",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 3 and 69 carry invented second-pass text, removed by label; Annalena Baerbock (PGA 80th session), President Mohamed Muizzu, the Borrowers' Platform, ABAS and SIDS ('PEID' in Spanish) per the Spanish channel and UN sources; 'words alone', 'rules', 'state's freedom to choose' per Spanish 'palabras', 'reglas', 'libertad de elegir'. Main-agent audit: unit 115 '2027-2029' kept (p 0.98-1.00; the speaker's own words; ECOSOC terms run three years). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'future. a' -> 'future. A'; unit 75 'choices. technology' -> 'choices. Technology'; unit 126 'immense. the' -> 'immense. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 5 'High Excellency' -> 'Her Excellency' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'High' (decodes 0.97 / 0.91, the UN transcript; forced scoring -6.8 vs 'Her' -15.2), not a form of address; the Spanish '... señora Annalena Baerbock' shows 'Her'); spot 16 unit 74 'Maldives' -> 'Maldivians' (decode 1 hears 'Maldivians.' (0.85), decode 2 'Maldives' (0.76); 'built by Maldives' does not fit; ES 'lo construirán los ciudadanos de Maldivas'); spot 21 unit 84 'solve' -> 'serve' (decodes split 'solve' 0.79 / 'serve' 0.41; sounds alike; 'solve national needs' does not fit; ES 'Las alianzas deben atender a las necesidades nacionales'); spot 29 unit 129 'our' -> 'a' (both decodes hear 'as status' (as 0.51/0.67), i.e. 'a state's', not 'our'; ES '¿Esta decisión amplía la libertad de elegir un Estado?'; UN 'a status'; the existing repair of 'status freedom tools' stays)",
+ "unitizer_version": 1,
+ "sha1": "ce77ccf598742f4a05c68794e58d290cd12a985e",
+ "layout": "single",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1887,
+  "words_out": 1808,
+  "retention": 0.9581,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   5,
+   104,
+   145,
+   150,
+   114,
+   168,
+   122,
+   100,
+   90,
+   145,
+   78,
+   131,
+   76,
+   102,
+   123,
+   102,
+   53
+  ],
+  "warnings": [
+   "34 fixes"
+  ]
+ }
+}

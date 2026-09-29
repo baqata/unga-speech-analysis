@@ -1,0 +1,68 @@
+{
+ "id": "GIN_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  29,
+  41,
+  58,
+  71,
+  80,
+  99,
+  110,
+  126,
+  136,
+  150,
+  160,
+  169,
+  179,
+  186,
+  207
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   111,
+   "(resolution 66/288, annex)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b8e0ebaa7a5219b9001ee467611003c8e25f3b70",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1630,
+  "words_out": 1626,
+  "retention": 0.9975,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   128,
+   101,
+   88,
+   126,
+   107,
+   68,
+   153,
+   88,
+   113,
+   75,
+   102,
+   76,
+   63,
+   80,
+   66,
+   158,
+   34
+  ],
+  "warnings": []
+ }
+}

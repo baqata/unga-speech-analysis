@@ -1,0 +1,76 @@
+{
+ "id": "PER_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  17,
+  26,
+  43,
+  68,
+  83,
+  103,
+  122,
+  135,
+  155,
+  174,
+  196,
+  215,
+  227,
+  242,
+  260,
+  275
+ ],
+ "cer": [
+  0,
+  8,
+  12
+ ],
+ "fix": [
+  [
+   45,
+   "on l",
+   "on 1",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb96e71d038858fa1bc67d58234f2dee00a5ae05",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 284,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2290,
+  "words_out": 2290,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   61,
+   34,
+   32,
+   70,
+   152,
+   194,
+   118,
+   147,
+   154,
+   109,
+   170,
+   168,
+   170,
+   162,
+   99,
+   117,
+   142,
+   126,
+   65
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "LVA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  24,
+  45,
+  54,
+  74,
+  83,
+  95,
+  113,
+  129,
+  149
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "Latviaâs",
+   "Latvia’s",
+   "encoding"
+  ],
+  [
+   77,
+   "Latviaâs",
+   "Latvia’s",
+   "encoding"
+  ],
+  [
+   81,
+   "Latviaâs",
+   "Latvia’s",
+   "encoding"
+  ],
+  [
+   84,
+   "Latviaâs",
+   "Latvia’s",
+   "encoding"
+  ],
+  [
+   124,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71006f6173c5b5c41c7d0f1de9c615de9bddef8c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 5,
+   "page_number": 1
+  },
+  "words_in": 1290,
+  "words_out": 1289,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   34,
+   159,
+   164,
+   75,
+   174,
+   67,
+   96,
+   152,
+   133,
+   183,
+   52
+  ],
+  "warnings": []
+ }
+}

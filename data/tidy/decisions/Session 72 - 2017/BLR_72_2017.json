@@ -1,0 +1,54 @@
+{
+ "id": "BLR_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  24,
+  37,
+  48,
+  57,
+  62,
+  66,
+  70,
+  75
+ ],
+ "cer": [],
+ "fix": [
+  [
+   56,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26082bda3eafbd3c3c9e3e3092403609a356e4c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1718,
+  "words_out": 1717,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   179,
+   257,
+   130,
+   242,
+   218,
+   178,
+   126,
+   157,
+   72,
+   110,
+   48
+  ],
+  "warnings": []
+ }
+}

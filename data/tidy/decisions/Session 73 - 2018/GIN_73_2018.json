@@ -1,0 +1,108 @@
+{
+ "id": "GIN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  13,
+  17,
+  21,
+  25,
+  28,
+  31,
+  33,
+  35,
+  40,
+  43,
+  46,
+  49,
+  53,
+  57,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   12,
+   "(A/58/PV.7, p.3)",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "eighty- second",
+   "eighty-second",
+   "hyphen"
+  ],
+  [
+   29,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ],
+  [
+   31,
+   "forward- looking",
+   "forward-looking",
+   "hyphen"
+  ],
+  [
+   59,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "168029f359f58115b6553b15ad0d7301e6785e5d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1788,
+  "words_out": 1780,
+  "retention": 0.9955,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   125,
+   74,
+   124,
+   111,
+   76,
+   109,
+   111,
+   83,
+   91,
+   63,
+   90,
+   112,
+   80,
+   91,
+   63,
+   117,
+   81,
+   117,
+   62
+  ],
+  "warnings": []
+ }
+}

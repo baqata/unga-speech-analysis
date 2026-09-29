@@ -1,0 +1,159 @@
+{
+ "id": "JPN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  26,
+  43,
+  60,
+  79,
+  93,
+  101,
+  113,
+  119,
+  135,
+  152,
+  164,
+  185,
+  199,
+  214,
+  222,
+  239,
+  248,
+  266,
+  284,
+  311
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   85,
+   "Brazilâs",
+   "Brazil’s",
+   "encoding"
+  ],
+  [
+   108,
+   "Franceâs",
+   "France’s",
+   "encoding"
+  ],
+  [
+   126,
+   "Japanâs",
+   "Japan’s",
+   "encoding"
+  ],
+  [
+   147,
+   "Japanâs",
+   "Japan’s",
+   "encoding"
+  ],
+  [
+   208,
+   "countriesâ",
+   "countries’",
+   "encoding"
+  ],
+  [
+   219,
+   "countriesâ",
+   "countries’",
+   "encoding"
+  ],
+  [
+   243,
+   "Peopleâs",
+   "People’s",
+   "encoding"
+  ],
+  [
+   246,
+   "Japanâs",
+   "Japan’s",
+   "encoding"
+  ],
+  [
+   248,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   249,
+   "peopleâs",
+   "people’s",
+   "encoding"
+  ],
+  [
+   273,
+   "Stateâs",
+   "State’s",
+   "encoding"
+  ],
+  [
+   274,
+   "Japanâs",
+   "Japan’s",
+   "encoding"
+  ],
+  [
+   285,
+   "yearâs",
+   "year’s",
+   "encoding"
+  ],
+  [
+   325,
+   "Japanâs",
+   "Japan’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f44ab9c3cf34f9c0699a0d74e9eabba52776e6c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 331,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 2,
+   "page_number": 3
+  },
+  "words_in": 2771,
+  "words_out": 2762,
+  "retention": 0.9968,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   67,
+   152,
+   144,
+   136,
+   159,
+   112,
+   69,
+   98,
+   43,
+   141,
+   143,
+   103,
+   181,
+   106,
+   119,
+   69,
+   145,
+   67,
+   129,
+   156,
+   245,
+   178
+  ],
+  "warnings": []
+ }
+}

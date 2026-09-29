@@ -1,0 +1,63 @@
+{
+ "id": "SSD_66_2011",
+ "drop": [
+  [
+   23,
+   23,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  24,
+  39,
+  53,
+  73,
+  92,
+  103,
+  116,
+  130,
+  141,
+  157
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca01995cb45590e0d2f812eda2db35d72692a273",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1343,
+  "words_out": 1337,
+  "retention": 0.9955,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   61,
+   135,
+   138,
+   113,
+   173,
+   152,
+   88,
+   102,
+   116,
+   100,
+   124,
+   35
+  ],
+  "warnings": [
+   "procedural drop [23,23] in the middle of the speech"
+  ]
+ }
+}

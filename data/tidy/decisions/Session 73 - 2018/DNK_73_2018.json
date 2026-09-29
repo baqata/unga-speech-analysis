@@ -1,0 +1,80 @@
+{
+ "id": "DNK_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  10,
+  20,
+  25,
+  31,
+  37,
+  39,
+  46,
+  57,
+  64,
+  69,
+  75,
+  79,
+  85,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   59,
+   "much- needed",
+   "much-needed",
+   "hyphen"
+  ],
+  [
+   84,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a92c913acf36ba16e76738d99fd37b5ba31ef1db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1629,
+  "words_out": 1625,
+  "retention": 0.9975,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   34,
+   75,
+   102,
+   134,
+   102,
+   86,
+   98,
+   67,
+   136,
+   166,
+   153,
+   57,
+   104,
+   80,
+   91,
+   62,
+   78
+  ],
+  "warnings": []
+ }
+}

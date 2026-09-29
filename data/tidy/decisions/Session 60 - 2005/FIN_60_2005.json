@@ -1,0 +1,58 @@
+{
+ "id": "FIN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  17,
+  34,
+  49,
+  67,
+  76,
+  97,
+  126,
+  148,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e6dbc20ae4227c7522f5b76cec54fcdbcb15f3c4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1347,
+  "words_out": 1344,
+  "retention": 0.9978,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   46,
+   96,
+   148,
+   121,
+   143,
+   76,
+   164,
+   204,
+   182,
+   119,
+   45
+  ],
+  "warnings": []
+ }
+}

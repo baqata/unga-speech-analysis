@@ -1,0 +1,55 @@
+{
+ "id": "COM_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  25,
+  45,
+  59,
+  72,
+  88,
+  113,
+  129,
+  148,
+  170,
+  188
+ ],
+ "cer": [
+  0,
+  188
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a08509745678c87231c7a30551fe55a3e9b9d8e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "job_number": 2
+  },
+  "words_in": 1560,
+  "words_out": 1559,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   22,
+   172,
+   160,
+   108,
+   107,
+   133,
+   204,
+   139,
+   156,
+   162,
+   137,
+   59
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "KAZ_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  14,
+  19,
+  24,
+  29,
+  34,
+  42,
+  45,
+  51,
+  54,
+  57,
+  60,
+  63,
+  67,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   "nuclear- weapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6dffae0b1ca9fc09097a0fa39d54831c5d34a3dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1640,
+  "words_out": 1639,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   158,
+   70,
+   165,
+   104,
+   140,
+   130,
+   144,
+   76,
+   102,
+   70,
+   54,
+   82,
+   87,
+   64,
+   84,
+   109
+  ],
+  "warnings": []
+ }
+}

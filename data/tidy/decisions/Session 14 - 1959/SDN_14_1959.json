@@ -1,0 +1,273 @@
+{
+ "id": "SDN_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  13,
+  17,
+  20,
+  25,
+  30,
+  35,
+  42,
+  47,
+  51,
+  55,
+  60,
+  65,
+  71,
+  75,
+  80,
+  83,
+  89,
+  93,
+  96,
+  98,
+  101,
+  106,
+  109,
+  118,
+  120,
+  125,
+  128,
+  131,
+  134,
+  142,
+  151,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "to save, succeeding",
+   "to save succeeding",
+   "ocr"
+  ],
+  [
+   6,
+   "and Worth",
+   "and worth",
+   "ocr"
+  ],
+  [
+   11,
+   "peace,\" This",
+   "peace.\" This",
+   "ocr"
+  ],
+  [
+   21,
+   "human Conscience",
+   "human conscience",
+   "ocr"
+  ],
+  [
+   43,
+   "of the.",
+   "of the",
+   "ocr"
+  ],
+  [
+   45,
+   "deliberately; we think,",
+   "deliberately, we think,",
+   "ocr"
+  ],
+  [
+   50,
+   "Constantinople, Convention",
+   "Constantinople Convention",
+   "ocr"
+  ],
+  [
+   51,
+   " 1806th meeting]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "the, refugees",
+   "the refugees",
+   "ocr"
+  ],
+  [
+   54,
+   "irrelevant.i",
+   "irrelevant.",
+   "ocr"
+  ],
+  [
+   55,
+   "Sahara.,",
+   "Sahara.",
+   "ocr"
+  ],
+  [
+   57,
+   "the. present",
+   "the present",
+   "ocr"
+  ],
+  [
+   60,
+   "people of, the",
+   "people of the",
+   "ocr"
+  ],
+  [
+   63,
+   "not alone, in this,",
+   "not alone in this,",
+   "ocr"
+  ],
+  [
+   68,
+   "their, well-being",
+   "their well-being",
+   "ocr"
+  ],
+  [
+   70,
+   "sacred” If",
+   "sacred” if",
+   "ocr"
+  ],
+  [
+   73,
+   "is. an",
+   "is an",
+   "ocr"
+  ],
+  [
+   82,
+   " [DC/144]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "in dignify",
+   "in dignity",
+   "ocr"
+  ],
+  [
+   90,
+   "property .",
+   "property.",
+   "ocr"
+  ],
+  [
+   97,
+   "power-to order",
+   "power to order",
+   "ocr"
+  ],
+  [
+   100,
+   "maintenance, of",
+   "maintenance of",
+   "ocr"
+  ],
+  [
+   106,
+   " agenda item 61",
+   "",
+   "label"
+  ],
+  [
+   126,
+   "Government, will",
+   "Government will",
+   "ocr"
+  ],
+  [
+   128,
+   "I am. gratified",
+   "I am gratified",
+   "ocr"
+  ],
+  [
+   128,
+   " [IBRD]",
+   "",
+   "label"
+  ],
+  [
+   153,
+   "this hew offspring",
+   "this new offspring",
+   "ocr"
+  ],
+  [
+   157,
+   "fill a. real",
+   "fill a real",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 150 ('The success we have achieved will not makers fail to realize...') runs two sentences together; text appears lost within it.",
+ "unitizer_version": 1,
+ "sha1": "ebacccd9eeb4199fde5cbf58aa0af9789122cbda",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 42
+  },
+  "words_in": 4660,
+  "words_out": 4651,
+  "retention": 0.9981,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   125,
+   127,
+   213,
+   109,
+   108,
+   146,
+   157,
+   138,
+   134,
+   87,
+   106,
+   131,
+   161,
+   193,
+   157,
+   140,
+   123,
+   99,
+   163,
+   90,
+   115,
+   79,
+   98,
+   126,
+   175,
+   200,
+   65,
+   167,
+   86,
+   109,
+   75,
+   197,
+   211,
+   162,
+   79
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

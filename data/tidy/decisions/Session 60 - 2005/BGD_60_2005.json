@@ -1,0 +1,90 @@
+{
+ "id": "BGD_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  26,
+  39,
+  53,
+  76,
+  101,
+  108,
+  119,
+  137,
+  159,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   26,
+   "todayís",
+   "today’s",
+   "encoding"
+  ],
+  [
+   143,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   156,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   170,
+   "Bangladeshís",
+   "Bangladesh’s",
+   "encoding"
+  ],
+  [
+   183,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f52117e87a5e0fe3c45d90710fcdc07bad068ca9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1447,
+  "words_out": 1444,
+  "retention": 0.9979,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   44,
+   166,
+   98,
+   99,
+   179,
+   199,
+   47,
+   85,
+   139,
+   158,
+   134,
+   96
+  ],
+  "warnings": []
+ }
+}

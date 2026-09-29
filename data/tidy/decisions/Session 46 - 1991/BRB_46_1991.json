@@ -1,0 +1,128 @@
+{
+ "id": "BRB_46_1991",
+ "drop": [
+  [
+   43,
+   43,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  9,
+  15,
+  18,
+  22,
+  28,
+  33,
+  40,
+  44,
+  49,
+  52,
+  54,
+  57,
+  61,
+  64,
+  70,
+  74,
+  77,
+  85,
+  88,
+  95,
+  99,
+  103
+ ],
+ "cer": [
+  0,
+  2,
+  9
+ ],
+ "fix": [
+  [
+   9,
+   "predecessor.",
+   "predecessor,",
+   "ocr"
+  ],
+  [
+   13,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   51,
+   "CABICOM",
+   "CARICOM",
+   "ocr"
+  ],
+  [
+   54,
+   "leaf week's",
+   "last week's",
+   "ocr"
+  ],
+  [
+   54,
+   "landscape, The",
+   "landscape. The",
+   "ocr"
+  ],
+  [
+   59,
+   "He also",
+   "We also",
+   "ocr"
+  ],
+  [
+   86,
+   "Uruguay Sound",
+   "Uruguay Round",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "04cbfc567ab950967febb923bc2e31ea9f7bc3ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 2808,
+  "words_out": 2805,
+  "retention": 0.9989,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   52,
+   185,
+   126,
+   105,
+   116,
+   166,
+   158,
+   195,
+   107,
+   144,
+   85,
+   81,
+   122,
+   85,
+   77,
+   159,
+   135,
+   68,
+   137,
+   71,
+   154,
+   94,
+   87,
+   96
+  ],
+  "warnings": []
+ }
+}

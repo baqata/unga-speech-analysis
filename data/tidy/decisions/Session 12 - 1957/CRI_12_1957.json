@@ -1,0 +1,71 @@
+{
+ "id": "CRI_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  19,
+  21,
+  23,
+  26,
+  29,
+  33,
+  36,
+  40,
+  44,
+  46,
+  48,
+  54
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   2,
+   "high- minded",
+   "high-minded",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cceea405d0a4e5141aa06f4845c879aad1c2ad9a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 2009,
+  "words_out": 1999,
+  "retention": 0.995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   105,
+   133,
+   106,
+   159,
+   141,
+   84,
+   86,
+   90,
+   99,
+   157,
+   108,
+   124,
+   127,
+   119,
+   168,
+   131,
+   62
+  ],
+  "warnings": []
+ }
+}

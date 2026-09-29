@@ -1,0 +1,49 @@
+{
+ "id": "PRY_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  32,
+  61,
+  93,
+  122,
+  147,
+  172,
+  199,
+  222
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e69c1eb3a65a6e001027a9de84903ed6050cb770",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1967,
+  "words_out": 1966,
+  "retention": 0.9995,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   61,
+   193,
+   246,
+   244,
+   230,
+   190,
+   208,
+   225,
+   172,
+   197
+  ],
+  "warnings": []
+ }
+}

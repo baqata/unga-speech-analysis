@@ -1,0 +1,53 @@
+{
+ "id": "MCO_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  24,
+  38,
+  53,
+  62,
+  74,
+  91,
+  109,
+  125,
+  136,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56dbdd30e508daff56d21927debe38ea9af9a8b2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1228,
+  "words_out": 1226,
+  "retention": 0.9984,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   36,
+   153,
+   121,
+   114,
+   71,
+   85,
+   131,
+   150,
+   121,
+   86,
+   107,
+   51
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "ZMB_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  18,
+  26,
+  30,
+  35,
+  45,
+  52,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   29,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   52,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d959b9283d687accb2f4d7167b86476c9a3c4bba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1526,
+  "words_out": 1523,
+  "retention": 0.998,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   78,
+   96,
+   88,
+   116,
+   200,
+   95,
+   132,
+   199,
+   212,
+   135,
+   172
+  ],
+  "warnings": []
+ }
+}

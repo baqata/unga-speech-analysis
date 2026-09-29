@@ -1,0 +1,55 @@
+{
+ "id": "SLE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  27,
+  43,
+  60,
+  72,
+  91,
+  109,
+  136,
+  147,
+  164,
+  189,
+  219
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "219d5312c51fbbc483af2400d9e6dd0db31cff0c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 222,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1669,
+  "words_out": 1667,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   115,
+   81,
+   119,
+   130,
+   97,
+   152,
+   141,
+   214,
+   81,
+   121,
+   182,
+   217,
+   17
+  ],
+  "warnings": []
+ }
+}

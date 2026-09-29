@@ -1,0 +1,52 @@
+{
+ "id": "UZB_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  32,
+  50,
+  69,
+  83,
+  101,
+  112,
+  121
+ ],
+ "cer": [],
+ "fix": [
+  [
+   93,
+   "highter",
+   "higher",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b9eb999645bed471150e1231fff5c863e2aee5d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 964,
+  "words_out": 960,
+  "retention": 0.9959,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   116,
+   126,
+   135,
+   131,
+   112,
+   132,
+   94,
+   77,
+   37
+  ],
+  "warnings": []
+ }
+}

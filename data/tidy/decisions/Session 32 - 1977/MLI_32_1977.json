@@ -1,0 +1,190 @@
+{
+ "id": "MLI_32_1977",
+ "drop": [
+  [
+   26,
+   26,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  15,
+  20,
+  21,
+  27,
+  30,
+  34,
+  37,
+  41,
+  46,
+  49,
+  50,
+  54,
+  58,
+  62,
+  69,
+  71,
+  75,
+  79,
+  81,
+  86,
+  90,
+  92,
+  96,
+  100,
+  104,
+  106,
+  109,
+  115,
+  117,
+  120,
+  121,
+  123,
+  127,
+  132,
+  133,
+  137,
+  138,
+  141,
+  146,
+  150,
+  153,
+  157,
+  161
+ ],
+ "cer": [
+  0,
+  4,
+  9,
+  12,
+  15
+ ],
+ "fix": [
+  [
+   33,
+   "are! —for",
+   "are!—for",
+   "spacing"
+  ],
+  [
+   34,
+   "over- armament",
+   "over-armament",
+   "hyphen"
+  ],
+  [
+   50,
+   "Because- of",
+   "Because of",
+   "ocr"
+  ],
+  [
+   61,
+   "West Rank",
+   "West Bank",
+   "ocr"
+  ],
+  [
+   87,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   106,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ],
+  [
+   116,
+   "we .do",
+   "we do",
+   "ocr"
+  ],
+  [
+   132,
+   "1977,s have",
+   "1977, have",
+   "ocr"
+  ],
+  [
+   157,
+   "-To do this",
+   "To do this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 65 omits the name of the newspaper quoted (\"to the , the official organ\").",
+ "unitizer_version": 1,
+ "sha1": "7c51ea13c11f64bdff87f6451f04c768ff1a0a5c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 75
+  },
+  "words_in": 4963,
+  "words_out": 4957,
+  "retention": 0.9988,
+  "n_paragraphs": 47,
+  "paragraph_words": [
+   162,
+   76,
+   71,
+   106,
+   154,
+   49,
+   118,
+   85,
+   111,
+   98,
+   109,
+   155,
+   84,
+   79,
+   128,
+   198,
+   154,
+   199,
+   83,
+   118,
+   112,
+   88,
+   120,
+   116,
+   74,
+   102,
+   103,
+   87,
+   53,
+   112,
+   185,
+   67,
+   80,
+   66,
+   62,
+   99,
+   106,
+   53,
+   135,
+   45,
+   132,
+   148,
+   80,
+   66,
+   129,
+   109,
+   91
+  ],
+  "warnings": []
+ }
+}

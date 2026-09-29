@@ -1,0 +1,133 @@
+{
+ "id": "GMB_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  25,
+  36,
+  49,
+  64,
+  72,
+  91,
+  107,
+  121,
+  138,
+  154,
+  162,
+  182,
+  190,
+  200,
+  215,
+  230,
+  250,
+  271,
+  295,
+  307,
+  317,
+  326,
+  345,
+  355,
+  368,
+  392,
+  401,
+  411,
+  428,
+  444,
+  455,
+  466,
+  480,
+  490
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   54,
+   "SouthSouth",
+   "South-South",
+   "hyphen"
+  ],
+  [
+   71,
+   "socioeconomic",
+   "socio-economic",
+   "hyphen"
+  ],
+  [
+   128,
+   "interand",
+   "inter- and",
+   "hyphen"
+  ],
+  [
+   388,
+   "drugtraffickers",
+   "drug-traffickers",
+   "hyphen"
+  ],
+  [
+   403,
+   "antipersonnel",
+   "anti-personnel",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "043eb55ec797495b17b3641654bb2af9c48c67bb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 508,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 6
+  },
+  "words_in": 4395,
+  "words_out": 4396,
+  "retention": 1.0002,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   102,
+   110,
+   96,
+   117,
+   139,
+   75,
+   146,
+   131,
+   120,
+   148,
+   130,
+   71,
+   169,
+   69,
+   82,
+   123,
+   140,
+   172,
+   196,
+   204,
+   108,
+   88,
+   85,
+   168,
+   89,
+   111,
+   196,
+   71,
+   88,
+   152,
+   147,
+   91,
+   83,
+   120,
+   88,
+   171
+  ],
+  "warnings": []
+ }
+}

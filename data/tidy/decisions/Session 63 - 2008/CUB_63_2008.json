@@ -1,0 +1,65 @@
+{
+ "id": "CUB_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  15,
+  26,
+  46,
+  64,
+  90,
+  104,
+  122,
+  145,
+  154,
+  173,
+  194,
+  209,
+  222,
+  235,
+  247,
+  272
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1622ae1bb32534148f01834cc50dcc1dbfe36034",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 287,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2254,
+  "words_out": 2252,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   21,
+   102,
+   87,
+   146,
+   146,
+   187,
+   119,
+   141,
+   169,
+   69,
+   151,
+   172,
+   117,
+   95,
+   106,
+   100,
+   204,
+   120
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "BGD_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   108,
+   109,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  13,
+  21,
+  26,
+  32,
+  36,
+  44,
+  54,
+  61,
+  69,
+  72,
+  80,
+  91,
+  98,
+  105
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   4,
+   "Enelena",
+   "Annalena",
+   "asr_name"
+  ],
+  [
+   7,
+   "july august",
+   "July August",
+   "asr_name"
+  ],
+  [
+   7,
+   "bangladesh is now",
+   "Bangladesh is now",
+   "asr_name"
+  ],
+  [
+   11,
+   "Zia Rahman",
+   "Ziaur Rahman",
+   "asr_name"
+  ],
+  [
+   11,
+   "Khalidazia",
+   "Khaleda Zia",
+   "asr_name"
+  ],
+  [
+   52,
+   "Tista",
+   "Teesta",
+   "asr_name"
+  ],
+  [
+   52,
+   "Podda",
+   "Padma",
+   "asr_name"
+  ],
+  [
+   15,
+   "crises. and",
+   "crises. Wars and",
+   "asr_term"
+  ],
+  [
+   56,
+   "three-hour",
+   "three-R",
+   "asr_term"
+  ],
+  [
+   92,
+   "technology The",
+   "technology",
+   "asr_term"
+  ],
+  [
+   28,
+   "conflict, prevention",
+   "conflict prevention",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Annalena Baerbock and Padma per Spanish channel; Ziaur Rahman, Khaleda Zia and Teesta Master Plan per standard published spellings. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 15 'crises. and' -> 'crises. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 15 'crises. and' -> 'crises. Wars and' (2026 exception: both decodes hear 'Wars' at 0.98; ES 'Las guerras y los conflictos'; replaces the existing repair 'crises. and' -> 'crises. And'); spot 7 unit 56 'three-hour' -> 'three-R' (decodes 'three-hour' (hour 0.95), the sound of 'three-R'; 'a three-hour strategy' does not fit; the strategy is 'recovery, restoration and reconstruction'; UN 'three R strategy'); spot 13 unit 92 'technology The' -> 'technology' (invented word: both decodes go 'technology transfer' (heard 2 1097.2 / 1097.8 s, p 1.00) with no room between; 'technology The transfer' does not fit; ES 'transferencia de tecnología'). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 28 speech-to-text comma removed from 'conflict prevention' (Spanish 'la prevención de los conflictos').",
+ "unitizer_version": 1,
+ "sha1": "127be5951a16d63165beaa770d7e9f8973bcff34",
+ "layout": "single",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2318,
+  "words_out": 2260,
+  "retention": 0.975,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   99,
+   191,
+   162,
+   112,
+   145,
+   58,
+   157,
+   215,
+   175,
+   183,
+   93,
+   150,
+   172,
+   144,
+   171,
+   33
+  ],
+  "warnings": []
+ }
+}

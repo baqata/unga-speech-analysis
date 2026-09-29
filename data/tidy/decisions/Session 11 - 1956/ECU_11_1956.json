@@ -1,0 +1,90 @@
+{
+ "id": "ECU_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  13,
+  16,
+  21,
+  24,
+  27,
+  30,
+  36,
+  41,
+  43,
+  47,
+  52,
+  56,
+  61,
+  65,
+  68,
+  71,
+  77,
+  84,
+  91
+ ],
+ "cer": [
+  0,
+  2,
+  91
+ ],
+ "fix": [
+  [
+   77,
+   "137",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "living, Ecuador",
+   "living. Ecuador",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49a9d0ee561a896fe8989de91a7e4b271aed295a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3513,
+  "words_out": 3507,
+  "retention": 0.9983,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   135,
+   82,
+   198,
+   240,
+   103,
+   221,
+   148,
+   127,
+   121,
+   139,
+   144,
+   135,
+   135,
+   180,
+   162,
+   189,
+   81,
+   91,
+   106,
+   222,
+   208,
+   268,
+   72
+  ],
+  "warnings": []
+ }
+}

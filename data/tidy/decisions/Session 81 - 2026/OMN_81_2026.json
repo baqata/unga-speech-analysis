@@ -1,0 +1,106 @@
+{
+ "id": "OMN_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   24,
+   25,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  7,
+  12,
+  15,
+  16,
+  17,
+  19,
+  20,
+  21,
+  23
+ ],
+ "cer": [
+  2,
+  23
+ ],
+ "fix": [
+  [
+   2,
+   "Kali. al-Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   17,
+   "Moskut plan",
+   "Muscat plan",
+   "asr_name"
+  ],
+  [
+   16,
+   "states. we",
+   "states. We",
+   "asr_term"
+  ],
+  [
+   18,
+   "partnerships. in",
+   "partnerships in",
+   "asr_term"
+  ],
+  [
+   19,
+   "goals. we",
+   "goals. We",
+   "asr_term"
+  ],
+  [
+   20,
+   "economy. through",
+   "economy through",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Khalilur Rahman, President of the General Assembly (Spanish 'Kalilur Rahman'); Muscat plan per the Spanish 'plan de Moscate' and the city named in the same unit. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'states. we' -> 'states. We'; unit 18 'partnerships. in' -> 'partnerships in'; unit 19 'goals. we' -> 'goals. We'; unit 20 'economy. through' -> 'economy through'",
+ "unitizer_version": 1,
+ "sha1": "2c0ccbf905fbee143a28807e56a14b867e312d13",
+ "layout": "single",
+ "stats": {
+  "n_units": 26,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 977,
+  "words_out": 928,
+  "retention": 0.9498,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   49,
+   132,
+   137,
+   78,
+   120,
+   75,
+   101,
+   97,
+   51,
+   74,
+   14
+  ],
+  "warnings": []
+ }
+}

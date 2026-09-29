@@ -1,0 +1,61 @@
+{
+ "id": "PAK_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  29,
+  50,
+  63,
+  76,
+  89,
+  108,
+  120,
+  131,
+  148,
+  158,
+  180,
+  198,
+  221,
+  240
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The closing passage begins inside unit 261, so it stays in the paragraph on national economic reform.",
+ "unitizer_version": 1,
+ "sha1": "03e9c96b910d6c85b71d185ca3e5d6c8c16c6175",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2024,
+  "words_out": 2016,
+  "retention": 0.996,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   87,
+   141,
+   163,
+   96,
+   99,
+   100,
+   147,
+   100,
+   79,
+   130,
+   71,
+   155,
+   129,
+   168,
+   139,
+   212
+  ],
+  "warnings": []
+ }
+}

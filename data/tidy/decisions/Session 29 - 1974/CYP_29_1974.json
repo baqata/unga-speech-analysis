@@ -1,0 +1,125 @@
+{
+ "id": "CYP_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  17,
+  23,
+  26,
+  33,
+  45,
+  50,
+  54,
+  60,
+  66,
+  71,
+  75,
+  81,
+  88,
+  95,
+  99,
+  105,
+  109,
+  121,
+  131,
+  136
+ ],
+ "cer": [
+  0,
+  136
+ ],
+ "fix": [
+  [
+   64,
+   "fails accomplish",
+   "faits accomplis",
+   "ocr"
+  ],
+  [
+   87,
+   "3960",
+   "1960",
+   "ocr"
+  ],
+  [
+   98,
+   ";n practice",
+   "in practice",
+   "ocr"
+  ],
+  [
+   105,
+   "ore part",
+   "one part",
+   "ocr"
+  ],
+  [
+   113,
+   "think 1 should",
+   "think I should",
+   "ocr"
+  ],
+  [
+   130,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   139,
+   " [UNFICYP]",
+   "",
+   "label"
+  ],
+  [
+   141,
+   "appreciatijbn",
+   "appreciation",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40aa464f85e1150358c63a5b06894e45bac1c65d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3620,
+  "words_out": 3618,
+  "retention": 0.9994,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   108,
+   225,
+   111,
+   149,
+   91,
+   137,
+   243,
+   131,
+   154,
+   182,
+   158,
+   134,
+   135,
+   161,
+   183,
+   149,
+   99,
+   175,
+   81,
+   237,
+   223,
+   128,
+   224
+  ],
+  "warnings": []
+ }
+}

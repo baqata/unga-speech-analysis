@@ -1,0 +1,54 @@
+{
+ "id": "ROU_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  23,
+  30,
+  36,
+  40,
+  47,
+  52,
+  54
+ ],
+ "cer": [
+  54
+ ],
+ "fix": [
+  [
+   32,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "014cde54c9d9e7b2d600ac77c83c87eb98a43a73",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1219,
+  "words_out": 1216,
+  "retention": 0.9975,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   139,
+   218,
+   162,
+   131,
+   126,
+   69,
+   114,
+   114,
+   99,
+   44
+  ],
+  "warnings": []
+ }
+}

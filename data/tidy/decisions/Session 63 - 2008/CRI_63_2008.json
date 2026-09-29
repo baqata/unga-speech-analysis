@@ -1,0 +1,53 @@
+{
+ "id": "CRI_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  27,
+  47,
+  59,
+  87,
+  104,
+  126,
+  137,
+  153,
+  175,
+  193
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4895bb54fe0f887f916548d529c045a9be89be5c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1762,
+  "words_out": 1762,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   70,
+   157,
+   183,
+   114,
+   244,
+   153,
+   183,
+   87,
+   140,
+   200,
+   162,
+   69
+  ],
+  "warnings": []
+ }
+}

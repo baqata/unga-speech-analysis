@@ -1,0 +1,84 @@
+{
+ "id": "ARG_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  31,
+  44,
+  58,
+  64,
+  67,
+  72,
+  77,
+  89,
+  96,
+  110,
+  120,
+  129,
+  145,
+  150,
+  156,
+  166
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "witno8sing",
+   "witnessing",
+   "ocr"
+  ],
+  [
+   29,
+   "Guellar",
+   "Cuellar",
+   "ocr"
+  ],
+  [
+   133,
+   "thy work",
+   "the work",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "627d6c51ff3907d431a64af36bc5017f68ab1866",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2615,
+  "words_out": 2613,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   130,
+   117,
+   126,
+   175,
+   203,
+   160,
+   96,
+   91,
+   191,
+   164,
+   105,
+   172,
+   113,
+   155,
+   209,
+   56,
+   74,
+   137,
+   139
+  ],
+  "warnings": []
+ }
+}

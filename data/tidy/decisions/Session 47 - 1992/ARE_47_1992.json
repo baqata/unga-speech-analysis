@@ -1,0 +1,148 @@
+{
+ "id": "ARE_47_1992",
+ "drop": [
+  [
+   3,
+   3,
+   "header_footer"
+  ],
+  [
+   82,
+   100,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  13,
+  17,
+  23,
+  25,
+  28,
+  29,
+  35,
+  41,
+  46,
+  50,
+  52,
+  57,
+  62,
+  66,
+  69,
+  76,
+  102,
+  103,
+  109,
+  115,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "to you.",
+   "to you,",
+   "ocr"
+  ],
+  [
+   4,
+   "He wish",
+   "We wish",
+   "ocr"
+  ],
+  [
+   31,
+   "namely.",
+   "namely,",
+   "ocr"
+  ],
+  [
+   68,
+   "He also",
+   "We also",
+   "ocr"
+  ],
+  [
+   74,
+   "He have",
+   "We have",
+   "ocr"
+  ],
+  [
+   75,
+   "He commend",
+   "We commend",
+   "ocr"
+  ],
+  [
+   79,
+   "He, like",
+   "We, like",
+   "ocr"
+  ],
+  [
+   81,
+   "He call",
+   "We call",
+   "ocr"
+  ],
+  [
+   113,
+   "say. this",
+   "say, this",
+   "ocr"
+  ],
+  [
+   121,
+   "\"He need",
+   "\"We need",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 82-100 repeat units 63-81 in the source.",
+ "unitizer_version": 1,
+ "sha1": "d2f16c79f7fb6ff0339cd4cbe6927f26365c8705",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {
+   "header_footer": 1,
+   "repeat": 19
+  },
+  "prestrip": {},
+  "words_in": 3692,
+  "words_out": 3192,
+  "retention": 0.8646,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   211,
+   114,
+   135,
+   221,
+   83,
+   124,
+   105,
+   139,
+   174,
+   167,
+   138,
+   91,
+   145,
+   169,
+   85,
+   100,
+   201,
+   177,
+   66,
+   179,
+   148,
+   118,
+   102
+  ],
+  "warnings": []
+ }
+}

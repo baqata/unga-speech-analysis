@@ -1,0 +1,86 @@
+{
+ "id": "ESP_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  14,
+  18,
+  25,
+  28,
+  32,
+  37,
+  41,
+  46,
+  49,
+  55,
+  60,
+  68,
+  74,
+  81,
+  86,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   77,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   83,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee3f5b818d76f4b3cb0b101433d60586e01b45ec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2193,
+  "words_out": 2187,
+  "retention": 0.9973,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   56,
+   88,
+   115,
+   67,
+   89,
+   127,
+   65,
+   96,
+   121,
+   64,
+   147,
+   90,
+   133,
+   152,
+   179,
+   100,
+   136,
+   93,
+   175,
+   94
+  ],
+  "warnings": []
+ }
+}

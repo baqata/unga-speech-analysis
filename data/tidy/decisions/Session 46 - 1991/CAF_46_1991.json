@@ -1,0 +1,96 @@
+{
+ "id": "CAF_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  14,
+  17,
+  23,
+  26,
+  29,
+  32,
+  36,
+  38,
+  42,
+  45
+ ],
+ "cer": [
+  3,
+  6,
+  8
+ ],
+ "fix": [
+  [
+   14,
+   "in thin respect",
+   "in this respect",
+   "ocr"
+  ],
+  [
+   15,
+   "Korean peninsula.",
+   "Korean peninsula,",
+   "ocr"
+  ],
+  [
+   17,
+   "that name spirit",
+   "that same spirit",
+   "ocr"
+  ],
+  [
+   26,
+   "set end pursued",
+   "set and pursued",
+   "ocr"
+  ],
+  [
+   27,
+   "areas ~ security",
+   "areas - security",
+   "ocr"
+  ],
+  [
+   40,
+   "debt, servicing",
+   "debt servicing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca417afa7ac91100bd633997b6988831e7d42c76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1717,
+  "words_out": 1717,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   165,
+   105,
+   108,
+   92,
+   130,
+   79,
+   167,
+   76,
+   123,
+   105,
+   133,
+   74,
+   132,
+   109,
+   119
+  ],
+  "warnings": []
+ }
+}

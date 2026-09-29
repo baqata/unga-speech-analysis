@@ -1,0 +1,78 @@
+{
+ "id": "BDI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  19,
+  25,
+  27,
+  30,
+  34,
+  39,
+  42,
+  47,
+  51,
+  54,
+  57,
+  60,
+  64,
+  68,
+  73,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   28,
+   "Musongati- Gitega",
+   "Musongati-Gitega",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17eed1ab0e8073c9c1848e8b8469b6f9d1642a78",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2290,
+  "words_out": 2288,
+  "retention": 0.9991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   215,
+   164,
+   137,
+   148,
+   106,
+   101,
+   120,
+   159,
+   78,
+   110,
+   148,
+   65,
+   88,
+   87,
+   92,
+   118,
+   126,
+   135,
+   91
+  ],
+  "warnings": []
+ }
+}

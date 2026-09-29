@@ -1,0 +1,151 @@
+{
+ "id": "SYR_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  21,
+  29,
+  32,
+  35,
+  41,
+  43,
+  48,
+  52,
+  56,
+  64,
+  71,
+  76,
+  80,
+  84,
+  90,
+  93,
+  98,
+  103,
+  110,
+  117,
+  126,
+  134,
+  140,
+  149,
+  155,
+  160,
+  169,
+  176,
+  181,
+  183,
+  193,
+  197,
+  205
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "power, politics",
+   "power politics",
+   "ocr"
+  ],
+  [
+   74,
+   "South- East",
+   "South-East",
+   "hyphen"
+  ],
+  [
+   90,
+   "oar",
+   "our",
+   "ocr"
+  ],
+  [
+   93,
+   "Word War",
+   "World War",
+   "ocr"
+  ],
+  [
+   110,
+   "[611 (VII) and 612 (VII)]",
+   "",
+   "label"
+  ],
+  [
+   122,
+   "Tunisia,",
+   "Tunisian",
+   "ocr"
+  ],
+  [
+   148,
+   "v ar",
+   "war",
+   "ocr"
+  ],
+  [
+   174,
+   "non-self- liquidating",
+   "non-self-liquidating",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "535654a3f2c430267ecbfc5d6821a99e5feea651",
+ "layout": "lines",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 47
+  },
+  "words_in": 4915,
+  "words_out": 4906,
+  "retention": 0.9982,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   76,
+   145,
+   150,
+   131,
+   193,
+   83,
+   111,
+   148,
+   82,
+   159,
+   99,
+   119,
+   233,
+   109,
+   128,
+   127,
+   99,
+   102,
+   82,
+   112,
+   135,
+   167,
+   135,
+   143,
+   243,
+   99,
+   191,
+   126,
+   88,
+   220,
+   167,
+   95,
+   62,
+   236,
+   98,
+   149,
+   64
+  ],
+  "warnings": []
+ }
+}

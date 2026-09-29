@@ -1,0 +1,138 @@
+{
+ "id": "COD_33_1978",
+ "drop": [
+  [
+   68,
+   68,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  22,
+  26,
+  29,
+  35,
+  39,
+  41,
+  44,
+  47,
+  51,
+  54,
+  58,
+  60,
+  65,
+  69,
+  72,
+  79,
+  83,
+  92,
+  96,
+  99,
+  102,
+  106,
+  111,
+  113,
+  116,
+  119,
+  122,
+  125,
+  128,
+  131,
+  136,
+  143,
+  148
+ ],
+ "cer": [
+  0,
+  5,
+  148
+ ],
+ "fix": [
+  [
+   5,
+   " [A/33/1J",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "d'Estaing,1 8 so",
+   "d'Estaing, so",
+   "ocr"
+  ],
+  [
+   46,
+   " [AI33/241, annex, addendum]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   " /see resolution 2602 E (XXIV)j.",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 68 is a leftover paragraph number.",
+ "unitizer_version": 1,
+ "sha1": "867efa4dd97888fb3d9e25b164c4a39914e3b645",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 66
+  },
+  "words_in": 4315,
+  "words_out": 4301,
+  "retention": 0.9968,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   142,
+   144,
+   88,
+   193,
+   108,
+   105,
+   158,
+   87,
+   87,
+   111,
+   114,
+   114,
+   80,
+   157,
+   76,
+   109,
+   78,
+   118,
+   202,
+   149,
+   161,
+   127,
+   105,
+   127,
+   154,
+   95,
+   88,
+   95,
+   97,
+   65,
+   79,
+   109,
+   85,
+   132,
+   168,
+   156,
+   38
+  ],
+  "warnings": []
+ }
+}

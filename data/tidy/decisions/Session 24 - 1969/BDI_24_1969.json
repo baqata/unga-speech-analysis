@@ -1,0 +1,134 @@
+{
+ "id": "BDI_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  30,
+  54,
+  71,
+  89,
+  131,
+  157,
+  181,
+  198,
+  220,
+  237,
+  248,
+  277,
+  309,
+  330,
+  347,
+  361,
+  379,
+  395,
+  415,
+  430,
+  439,
+  461,
+  479,
+  493,
+  517,
+  542
+ ],
+ "cer": [
+  0,
+  13,
+  30,
+  54,
+  542
+ ],
+ "fix": [
+  [
+   5,
+   "guidance than a",
+   "guidance that a",
+   "ocr"
+  ],
+  [
+   18,
+   " [see resolution 1746(XVI)]",
+   "",
+   "label"
+  ],
+  [
+   257,
+   "fo prepare",
+   "to prepare",
+   "ocr"
+  ],
+  [
+   276,
+   "he assisted",
+   "the assisted",
+   "ocr"
+  ],
+  [
+   293,
+   "of exports",
+   "of experts",
+   "ocr"
+  ],
+  [
+   367,
+   "ojectives",
+   "objectives",
+   "ocr"
+  ],
+  [
+   492,
+   " [242 (1967)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d3bd63fd6b5464b88d49f44c41e317af0f7a3473",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 545,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 4682,
+  "words_out": 4627,
+  "retention": 0.9883,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   110,
+   140,
+   223,
+   143,
+   153,
+   368,
+   232,
+   199,
+   150,
+   167,
+   152,
+   90,
+   253,
+   266,
+   168,
+   143,
+   116,
+   151,
+   130,
+   156,
+   121,
+   77,
+   182,
+   154,
+   133,
+   205,
+   222,
+   23
+  ],
+  "warnings": [
+   "paragraph at unit 89 has 368 words"
+  ]
+ }
+}

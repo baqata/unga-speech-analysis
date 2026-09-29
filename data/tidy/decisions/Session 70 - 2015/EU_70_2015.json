@@ -1,0 +1,43 @@
+{
+ "id": "EU_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  15,
+  25,
+  32,
+  39,
+  42
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5b20565348a5b2d2ab77dfc0cd37dd3975c6fc3e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1025,
+  "words_out": 1025,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   109,
+   108,
+   85,
+   194,
+   151,
+   172,
+   68,
+   138
+  ],
+  "warnings": []
+ }
+}

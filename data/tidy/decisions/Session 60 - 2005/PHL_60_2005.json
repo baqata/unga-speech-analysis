@@ -1,0 +1,77 @@
+{
+ "id": "PHL_60_2005",
+ "drop": [
+  [
+   21,
+   22,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  23,
+  35,
+  48,
+  64,
+  80,
+  92,
+  107,
+  120,
+  135,
+  155,
+  169,
+  186,
+  202,
+  215,
+  229,
+  243,
+  254,
+  263
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "24f12a247b4cee03808e3cde026f5db3a7fcb084",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 279,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2143,
+  "words_out": 2128,
+  "retention": 0.993,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   46,
+   113,
+   93,
+   100,
+   135,
+   123,
+   98,
+   109,
+   90,
+   97,
+   152,
+   105,
+   136,
+   128,
+   101,
+   110,
+   102,
+   82,
+   76,
+   132
+  ],
+  "warnings": []
+ }
+}

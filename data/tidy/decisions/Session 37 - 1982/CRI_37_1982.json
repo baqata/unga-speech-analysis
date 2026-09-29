@@ -1,0 +1,143 @@
+{
+ "id": "CRI_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  38,
+  55,
+  77,
+  97,
+  121,
+  138,
+  161,
+  168,
+  183,
+  205,
+  233,
+  252,
+  277,
+  299,
+  321,
+  337,
+  354,
+  375,
+  406,
+  429,
+  450,
+  463,
+  500,
+  519,
+  545,
+  558,
+  568
+ ],
+ "cer": [
+  0,
+  568
+ ],
+ "fix": [
+  [
+   27,
+   "to; do",
+   "to do",
+   "ocr"
+  ],
+  [
+   135,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   141,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   186,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   205,
+   "114. ",
+   "",
+   "label"
+  ],
+  [
+   247,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   274,
+   "be' come",
+   "become",
+   "ocr"
+  ],
+  [
+   307,
+   "infer a//a",
+   "inter alia",
+   "ocr"
+  ],
+  [
+   426,
+   "pro-, motion",
+   "promotion",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Paragraph 463 is a single quoted peace-plan list and is kept whole.",
+ "unitizer_version": 1,
+ "sha1": "d94f1d4b3c59471b9d679062e51ad793051d3f32",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 573,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5928,
+  "words_out": 5923,
+  "retention": 0.9992,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   151,
+   255,
+   176,
+   231,
+   215,
+   254,
+   195,
+   239,
+   74,
+   150,
+   233,
+   280,
+   202,
+   259,
+   233,
+   213,
+   161,
+   186,
+   215,
+   285,
+   249,
+   191,
+   132,
+   354,
+   197,
+   291,
+   142,
+   107,
+   53
+  ],
+  "warnings": [
+   "paragraph at unit 463 has 354 words"
+  ]
+ }
+}

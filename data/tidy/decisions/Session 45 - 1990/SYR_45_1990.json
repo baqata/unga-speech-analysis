@@ -1,0 +1,114 @@
+{
+ "id": "SYR_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  14,
+  17,
+  23,
+  26,
+  30,
+  35,
+  38,
+  41,
+  44,
+  48
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "gives roe",
+   "gives me",
+   "ocr"
+  ],
+  [
+   5,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   9,
+   "I& a few",
+   "In a few",
+   "ocr"
+  ],
+  [
+   24,
+   "attached and occupied",
+   "attacked and occupied",
+   "ocr"
+  ],
+  [
+   25,
+   "policies,",
+   "policies.",
+   "ocr"
+  ],
+  [
+   28,
+   "East and Hest",
+   "East and West",
+   "ocr"
+  ],
+  [
+   29,
+   "between then",
+   "between them",
+   "ocr"
+  ],
+  [
+   36,
+   "333 (1973)",
+   "338 (1973)",
+   "ocr"
+  ],
+  [
+   37,
+   "night fee",
+   "might be",
+   "ocr"
+  ],
+  [
+   39,
+   "Stat·",
+   "State",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ddd8b8ab0d55e0acea6ce56bb074a3bc88b56c3f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1746,
+  "words_out": 1746,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   178,
+   185,
+   112,
+   101,
+   240,
+   82,
+   174,
+   108,
+   136,
+   106,
+   125,
+   90,
+   109
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "BRA_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  12,
+  13,
+  17,
+  19,
+  22,
+  25,
+  29,
+  33,
+  36,
+  40,
+  43,
+  46,
+  53,
+  59,
+  62,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "13r ",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "it.",
+   "it",
+   "ocr"
+  ],
+  [
+   51,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   59,
+   "net",
+   "not",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9cbbc5debd1191d89a42ec2ed323ac6a992540b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 2256,
+  "words_out": 2251,
+  "retention": 0.9978,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   136,
+   79,
+   115,
+   127,
+   80,
+   115,
+   95,
+   66,
+   96,
+   150,
+   141,
+   87,
+   106,
+   88,
+   66,
+   213,
+   234,
+   113,
+   111,
+   33
+  ],
+  "warnings": []
+ }
+}

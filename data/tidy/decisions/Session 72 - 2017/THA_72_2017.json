@@ -1,0 +1,72 @@
+{
+ "id": "THA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  16,
+  19,
+  24,
+  30,
+  33,
+  41,
+  45,
+  50,
+  57,
+  60,
+  67,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "mother- to-child",
+   "mother-to-child",
+   "hyphen"
+  ],
+  [
+   66,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "944011028fae1ded316a5658dbf0eea1927b712d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1519,
+  "words_out": 1517,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   60,
+   61,
+   92,
+   114,
+   89,
+   113,
+   101,
+   75,
+   157,
+   66,
+   93,
+   150,
+   87,
+   135,
+   70,
+   54
+  ],
+  "warnings": []
+ }
+}

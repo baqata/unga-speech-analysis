@@ -1,0 +1,118 @@
+{
+ "id": "NZL_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  18,
+  25,
+  29,
+  33,
+  45,
+  53,
+  59,
+  67,
+  72,
+  79,
+  85,
+  91,
+  96,
+  101,
+  104,
+  112,
+  119,
+  124,
+  127,
+  134,
+  141,
+  146,
+  151,
+  154,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "be-fore",
+   "before",
+   "hyphen"
+  ],
+  [
+   53,
+   "producers, There",
+   "producers. There",
+   "ocr"
+  ],
+  [
+   104,
+   "L turn",
+   "I turn",
+   "ocr"
+  ],
+  [
+   105,
+   "back-ground",
+   "background",
+   "hyphen"
+  ],
+  [
+   152,
+   "in -Zambia",
+   "in Zambia",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3c65b96b9d1275589030cb35c32988bb15bd2771",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3736,
+  "words_out": 3729,
+  "retention": 0.9981,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   83,
+   123,
+   112,
+   140,
+   196,
+   121,
+   68,
+   170,
+   147,
+   111,
+   125,
+   124,
+   172,
+   124,
+   141,
+   128,
+   118,
+   95,
+   139,
+   205,
+   102,
+   74,
+   178,
+   163,
+   158,
+   137,
+   107,
+   95,
+   73
+  ],
+  "warnings": []
+ }
+}

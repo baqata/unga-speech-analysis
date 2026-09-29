@@ -1,0 +1,99 @@
+{
+ "id": "IRN_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  19,
+  21,
+  28,
+  37,
+  43,
+  48,
+  51,
+  57,
+  59,
+  62,
+  70,
+  76
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   6,
+   "the - Members",
+   "the Members",
+   "ocr"
+  ],
+  [
+   9,
+   "leached",
+   "reached",
+   "ocr"
+  ],
+  [
+   15,
+   "Arab- Israeli",
+   "Arab-Israeli",
+   "spacing"
+  ],
+  [
+   34,
+   " [resolution S-10/2]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "the-promotion",
+   "the promotion",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c4e4caa159469c39571b4ec8182da7adb6b0dda1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2248,
+  "words_out": 2241,
+  "retention": 0.9969,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   127,
+   109,
+   142,
+   161,
+   77,
+   178,
+   213,
+   174,
+   117,
+   87,
+   158,
+   98,
+   159,
+   185,
+   176,
+   80
+  ],
+  "warnings": []
+ }
+}

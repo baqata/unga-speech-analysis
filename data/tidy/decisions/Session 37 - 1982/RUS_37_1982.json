@@ -1,0 +1,216 @@
+{
+ "id": "RUS_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  20,
+  28,
+  36,
+  48,
+  59,
+  63,
+  68,
+  78,
+  81,
+  93,
+  103,
+  107,
+  113,
+  117,
+  125,
+  132,
+  139,
+  149,
+  156,
+  164,
+  173,
+  180,
+  188,
+  195,
+  202,
+  211,
+  216,
+  225,
+  235,
+  240,
+  249,
+  255,
+  261,
+  265,
+  276,
+  286,
+  293,
+  306,
+  313
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "fight",
+   "right",
+   "ocr"
+  ],
+  [
+   101,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "of modernizing",
+   "or modernizing",
+   "ocr"
+  ],
+  [
+   150,
+   "member ;",
+   "members",
+   "ocr"
+  ],
+  [
+   150,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   177,
+   "other-wise",
+   "otherwise",
+   "hyphen"
+  ],
+  [
+   190,
+   "Chat",
+   "that",
+   "ocr"
+  ],
+  [
+   193,
+   "land- based",
+   "land-based",
+   "spacing"
+  ],
+  [
+   213,
+   " ii ",
+   " it ",
+   "ocr"
+  ],
+  [
+   214,
+   "medium- range",
+   "medium-range",
+   "spacing"
+  ],
+  [
+   230,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   231,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   231,
+   " [see A/371243]",
+   "",
+   "label"
+  ],
+  [
+   234,
+   "inclusion",
+   "conclusion",
+   "ocr"
+  ],
+  [
+   271,
+   "out-side",
+   "outside",
+   "hyphen"
+  ],
+  [
+   302,
+   "business like",
+   "business-like",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9bdfd777ab453a985a5c00405b5a414977e56edc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 7461,
+  "words_out": 7450,
+  "retention": 0.9985,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   65,
+   138,
+   282,
+   190,
+   166,
+   220,
+   226,
+   93,
+   137,
+   209,
+   78,
+   237,
+   249,
+   112,
+   168,
+   91,
+   233,
+   144,
+   168,
+   281,
+   153,
+   188,
+   192,
+   172,
+   242,
+   196,
+   193,
+   185,
+   86,
+   230,
+   262,
+   105,
+   267,
+   114,
+   109,
+   103,
+   230,
+   232,
+   143,
+   243,
+   216,
+   102
+  ],
+  "warnings": []
+ }
+}

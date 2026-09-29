@@ -1,0 +1,196 @@
+{
+ "id": "SOM_27_1972",
+ "drop": [
+  [
+   19,
+   19,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  11,
+  17,
+  20,
+  25,
+  32,
+  34,
+  38,
+  45,
+  51,
+  55,
+  58,
+  63,
+  65,
+  69,
+  73,
+  79,
+  84,
+  87,
+  89,
+  93,
+  97,
+  101,
+  103,
+  109,
+  112,
+  119,
+  124,
+  128,
+  133,
+  137,
+  139,
+  144,
+  147,
+  151,
+  156
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "the' past",
+   "the past",
+   "ocr"
+  ],
+  [
+   14,
+   " [item 35]",
+   "",
+   "label"
+  ],
+  [
+   17,
+   "be-tween",
+   "between",
+   "hyphen"
+  ],
+  [
+   24,
+   "friend-ship",
+   "friendship",
+   "hyphen"
+  ],
+  [
+   33,
+   "weaHned",
+   "weakened",
+   "ocr"
+  ],
+  [
+   60,
+   "Nov/,",
+   "Now,",
+   "ocr"
+  ],
+  [
+   70,
+   "not*",
+   "not",
+   "ocr"
+  ],
+  [
+   91,
+   "Was most",
+   "was most",
+   "ocr"
+  ],
+  [
+   93,
+   " [A/8791 and Add.l ]",
+   "",
+   "label"
+  ],
+  [
+   95,
+   " [A/8791/Add.lJ",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "The*General",
+   "The General",
+   "ocr"
+  ],
+  [
+   110,
+   "qjid",
+   "and",
+   "ocr"
+  ],
+  [
+   116,
+   "no, just",
+   "not just",
+   "ocr"
+  ],
+  [
+   131,
+   " [UNCURK]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d33e824423e53efc5fffb71295ecf98b93cc88c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 5629,
+  "words_out": 5614,
+  "retention": 0.9973,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   106,
+   210,
+   181,
+   142,
+   179,
+   221,
+   186,
+   141,
+   229,
+   154,
+   169,
+   119,
+   175,
+   109,
+   129,
+   125,
+   196,
+   203,
+   122,
+   116,
+   126,
+   142,
+   143,
+   98,
+   136,
+   105,
+   200,
+   123,
+   102,
+   186,
+   148,
+   103,
+   152,
+   129,
+   111,
+   193,
+   205
+  ],
+  "warnings": []
+ }
+}

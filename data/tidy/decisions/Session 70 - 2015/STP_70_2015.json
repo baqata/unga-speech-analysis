@@ -1,0 +1,74 @@
+{
+ "id": "STP_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  11,
+  16,
+  21,
+  24,
+  29,
+  32,
+  34,
+  36,
+  45,
+  49,
+  52,
+  55,
+  61,
+  63
+ ],
+ "cer": [
+  0,
+  1,
+  9
+ ],
+ "fix": [
+  [
+   27,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4c382e8c0d98583c9100239c686cc44ff57ac59",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1827,
+  "words_out": 1823,
+  "retention": 0.9978,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   29,
+   69,
+   147,
+   48,
+   107,
+   182,
+   71,
+   120,
+   70,
+   78,
+   74,
+   204,
+   142,
+   119,
+   115,
+   159,
+   57,
+   32
+  ],
+  "warnings": []
+ }
+}

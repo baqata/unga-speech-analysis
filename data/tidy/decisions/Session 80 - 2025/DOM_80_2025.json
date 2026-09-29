@@ -1,0 +1,71 @@
+{
+ "id": "DOM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   83,
+   84,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  6,
+  13,
+  19,
+  25,
+  29,
+  33,
+  38,
+  46,
+  55,
+  61,
+  67,
+  77,
+  82
+ ],
+ "cer": [
+  2,
+  82
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2c944ca45fdac78f83254ac6de5d8f3f0caa8f65",
+ "layout": "single",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1594,
+  "words_out": 1539,
+  "retention": 0.9655,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   37,
+   93,
+   127,
+   105,
+   116,
+   77,
+   77,
+   87,
+   231,
+   196,
+   82,
+   105,
+   163,
+   39,
+   4
+  ],
+  "warnings": []
+ }
+}

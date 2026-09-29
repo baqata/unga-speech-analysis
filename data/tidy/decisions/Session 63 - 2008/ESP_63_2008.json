@@ -1,0 +1,63 @@
+{
+ "id": "ESP_63_2008",
+ "drop": [
+  [
+   52,
+   53,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  22,
+  36,
+  54,
+  70,
+  85,
+  104,
+  120,
+  137,
+  151,
+  162,
+  172,
+  183
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d878f8c9e1debe9f47e28f8e9c9788f83b1566dd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1550,
+  "words_out": 1543,
+  "retention": 0.9955,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   165,
+   122,
+   134,
+   129,
+   129,
+   170,
+   127,
+   132,
+   115,
+   92,
+   80,
+   95,
+   53
+  ],
+  "warnings": [
+   "procedural drop [52,53] in the middle of the speech"
+  ]
+ }
+}

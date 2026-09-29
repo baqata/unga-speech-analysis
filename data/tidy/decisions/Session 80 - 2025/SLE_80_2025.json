@@ -1,0 +1,158 @@
+{
+ "id": "SLE_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   138,
+   138,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  12,
+  18,
+  23,
+  34,
+  37,
+  45,
+  54,
+  66,
+  75,
+  81,
+  87,
+  94,
+  100,
+  110,
+  117,
+  128,
+  137
+ ],
+ "cer": [
+  2,
+  137
+ ],
+ "fix": [
+  [
+   4,
+   "Excellency Firmino-Young",
+   "Excellency Philemon Yang",
+   "asr_name"
+  ],
+  [
+   18,
+   "Nations chapter",
+   "Nations Charter",
+   "asr_term"
+  ],
+  [
+   20,
+   "Chair of Equal Authority",
+   "Chair of ECOWAS Authority",
+   "asr_name"
+  ],
+  [
+   24,
+   "Samilti Magai",
+   "Sir Milton Margai",
+   "asr_name"
+  ],
+  [
+   59,
+   "UNAMSI",
+   "UNAMSIL",
+   "asr_name"
+  ],
+  [
+   84,
+   "BBNG",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   85,
+   "BBNG",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   94,
+   "Highest Estate",
+   "Heads of State",
+   "asr_term"
+  ],
+  [
+   107,
+   "Nations Chapter",
+   "Nations Charter",
+   "asr_term"
+  ],
+  [
+   121,
+   "Ezo-Ini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   121,
+   "SAC",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   126,
+   "Ezo-Ini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   126,
+   "SAC",
+   "Sirte",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1c069f110fd0c1c7dd49941b7047e28a1fdd1f7",
+ "layout": "single",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2156,
+  "words_out": 2109,
+  "retention": 0.9782,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   77,
+   94,
+   71,
+   106,
+   124,
+   67,
+   96,
+   83,
+   182,
+   126,
+   80,
+   128,
+   118,
+   99,
+   193,
+   131,
+   204,
+   128,
+   2
+  ],
+  "warnings": []
+ }
+}

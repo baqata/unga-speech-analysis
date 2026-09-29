@@ -1,0 +1,164 @@
+{
+ "id": "RWA_29_1974",
+ "drop": [
+  [
+   167,
+   167,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  15,
+  22,
+  24,
+  27,
+  33,
+  36,
+  41,
+  49,
+  52,
+  57,
+  59,
+  62,
+  68,
+  74,
+  79,
+  85,
+  89,
+  93,
+  97,
+  101,
+  104,
+  108,
+  112,
+  116,
+  120,
+  125,
+  129,
+  132,
+  135,
+  140,
+  144,
+  152,
+  159,
+  165
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   21,
+   "ar.d",
+   "and",
+   "ocr"
+  ],
+  [
+   25,
+   "whole, We",
+   "whole. We",
+   "ocr"
+  ],
+  [
+   53,
+   "and .our",
+   "and our",
+   "ocr"
+  ],
+  [
+   106,
+   "th; assistance",
+   "the assistance",
+   "ocr"
+  ],
+  [
+   107,
+   "plan /or",
+   "plan for",
+   "ocr"
+  ],
+  [
+   124,
+   "may 1 add",
+   "may I add",
+   "ocr"
+  ],
+  [
+   124,
+   "live stock",
+   "livestock",
+   "split_word"
+  ],
+  [
+   126,
+   "the \"welfare",
+   "the welfare",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c08bfd7d6fe8dfd421b9bc7a5e71798ed191fa7f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 50
+  },
+  "words_in": 4911,
+  "words_out": 4909,
+  "retention": 0.9996,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   206,
+   135,
+   86,
+   82,
+   189,
+   90,
+   121,
+   126,
+   83,
+   213,
+   128,
+   68,
+   159,
+   81,
+   106,
+   123,
+   164,
+   168,
+   165,
+   130,
+   102,
+   85,
+   118,
+   97,
+   163,
+   187,
+   94,
+   103,
+   131,
+   160,
+   68,
+   93,
+   129,
+   130,
+   204,
+   180,
+   119,
+   123
+  ],
+  "warnings": []
+ }
+}

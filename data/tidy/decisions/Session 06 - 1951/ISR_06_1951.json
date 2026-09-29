@@ -1,0 +1,94 @@
+{
+ "id": "ISR_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  10,
+  14,
+  16,
+  25,
+  29,
+  39,
+  47,
+  57,
+  61,
+  67,
+  71,
+  79,
+  85,
+  90,
+  98,
+  104,
+  108,
+  111
+ ],
+ "cer": [
+  111
+ ],
+ "fix": [
+  [
+   49,
+   " . ",
+   " ",
+   "ocr"
+  ],
+  [
+   75,
+   "in dispensability",
+   "indispensability",
+   "split_word"
+  ],
+  [
+   94,
+   "modem",
+   "modern",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The opening passage answering the representatives of Iraq and Lebanon is part of the Israeli statement and is kept.",
+ "unitizer_version": 1,
+ "sha1": "a27cc11d725827e524290cb95cbf1c652b9f0004",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 3535,
+  "words_out": 3533,
+  "retention": 0.9994,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   175,
+   363,
+   95,
+   180,
+   164,
+   109,
+   180,
+   123,
+   201,
+   122,
+   234,
+   197,
+   88,
+   173,
+   155,
+   135,
+   125,
+   196,
+   204,
+   105,
+   130,
+   79
+  ],
+  "warnings": [
+   "paragraph at unit 3 has 363 words"
+  ]
+ }
+}

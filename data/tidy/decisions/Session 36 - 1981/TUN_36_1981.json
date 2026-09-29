@@ -1,0 +1,185 @@
+{
+ "id": "TUN_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  7,
+  10,
+  11,
+  13,
+  17,
+  19,
+  21,
+  25,
+  30,
+  33,
+  34,
+  36,
+  40,
+  43,
+  46,
+  50,
+  52,
+  54,
+  57,
+  61,
+  65,
+  68,
+  76,
+  78,
+  84,
+  87,
+  90,
+  93,
+  96,
+  100,
+  103,
+  106,
+  110
+ ],
+ "cer": [
+  0,
+  3,
+  6,
+  7,
+  10
+ ],
+ "fix": [
+  [
+   0,
+   "to.be",
+   "to be",
+   "ocr"
+  ],
+  [
+   6,
+   "defenseF",
+   "defense",
+   "ocr"
+  ],
+  [
+   17,
+   "the tight of",
+   "the right of",
+   "ocr"
+  ],
+  [
+   20,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   20,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   " [resolution ES8/2]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "which'Tunisia",
+   "which Tunisia",
+   "ocr"
+  ],
+  [
+   62,
+   "pointed but",
+   "pointed out",
+   "ocr"
+  ],
+  [
+   73,
+   "even fester",
+   "even faster",
+   "ocr"
+  ],
+  [
+   94,
+   "drawn up.6 The",
+   "drawn up. The",
+   "ocr"
+  ],
+  [
+   104,
+   "themselVes",
+   "themselves",
+   "ocr"
+  ],
+  [
+   108,
+   "I .hope",
+   "I hope",
+   "ocr"
+  ],
+  [
+   111,
+   "refusing ta",
+   "refusing to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc674b8be94e087c12433fab82ba8816440fbd8a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 56
+  },
+  "words_in": 4106,
+  "words_out": 4104,
+  "retention": 0.9995,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   170,
+   53,
+   46,
+   77,
+   38,
+   93,
+   133,
+   105,
+   110,
+   158,
+   146,
+   90,
+   75,
+   61,
+   126,
+   78,
+   66,
+   160,
+   86,
+   95,
+   96,
+   149,
+   154,
+   86,
+   286,
+   113,
+   147,
+   156,
+   141,
+   113,
+   124,
+   81,
+   122,
+   136,
+   150,
+   84
+  ],
+  "warnings": []
+ }
+}

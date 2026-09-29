@@ -1,0 +1,85 @@
+{
+ "id": "GRD_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  11,
+  16,
+  21,
+  27,
+  30,
+  35,
+  40,
+  45,
+  50,
+  53,
+  56,
+  60
+ ],
+ "cer": [
+  0,
+  4,
+  5,
+  60
+ ],
+ "fix": [
+  [
+   14,
+   "community,such",
+   "community, such",
+   "spacing"
+  ],
+  [
+   30,
+   "example,we",
+   "example, we",
+   "spacing"
+  ],
+  [
+   35,
+   "therefore,utilizing",
+   "therefore, utilizing",
+   "spacing"
+  ],
+  [
+   38,
+   "stakeholders,with",
+   "stakeholders, with",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f4e595627c093b3ded95bdcc947fea14aacc82d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1354,
+  "words_out": 1358,
+  "retention": 1.003,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   9,
+   27,
+   99,
+   135,
+   103,
+   128,
+   60,
+   107,
+   144,
+   135,
+   141,
+   68,
+   77,
+   122,
+   3
+  ],
+  "warnings": []
+ }
+}

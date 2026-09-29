@@ -1,0 +1,70 @@
+{
+ "id": "EST_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  23,
+  37,
+  52,
+  60,
+  77,
+  91,
+  111,
+  129,
+  138,
+  157,
+  175,
+  187,
+  198,
+  212
+ ],
+ "cer": [],
+ "fix": [
+  [
+   107,
+   "(resolution 20/8)",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "f low",
+   "flow",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4143b4df6f2cee1e91bee4d4ac0667f65a5f9a56",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1854,
+  "words_out": 1851,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   92,
+   90,
+   121,
+   125,
+   69,
+   140,
+   108,
+   165,
+   149,
+   77,
+   144,
+   145,
+   94,
+   106,
+   117,
+   109
+  ],
+  "warnings": []
+ }
+}

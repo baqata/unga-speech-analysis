@@ -1,0 +1,62 @@
+{
+ "id": "CHL_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  14,
+  17,
+  21,
+  23,
+  27,
+  32,
+  35,
+  40,
+  43,
+  46,
+  50
+ ],
+ "cer": [],
+ "fix": [
+  [
+   42,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e96bcf267e034f0c0faf93b3aefc89fb6f345ab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1296,
+  "words_out": 1293,
+  "retention": 0.9977,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   71,
+   103,
+   115,
+   79,
+   68,
+   89,
+   93,
+   85,
+   103,
+   75,
+   133,
+   55,
+   61,
+   81,
+   82
+  ],
+  "warnings": []
+ }
+}

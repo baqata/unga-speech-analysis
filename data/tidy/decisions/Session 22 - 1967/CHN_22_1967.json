@@ -1,0 +1,130 @@
+{
+ "id": "CHN_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  27,
+  32,
+  39,
+  44,
+  51,
+  56,
+  61,
+  68,
+  73,
+  81,
+  88,
+  92,
+  99,
+  106,
+  112,
+  120,
+  130,
+  135,
+  141,
+  144,
+  148,
+  153,
+  160
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "to Imagine",
+   "to imagine",
+   "ocr"
+  ],
+  [
+   20,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   41,
+   "has Just",
+   "has just",
+   "ocr"
+  ],
+  [
+   105,
+   "people's war*",
+   "people's war\"",
+   "ocr"
+  ],
+  [
+   140,
+   "magnanimity,",
+   "magnanimity.",
+   "ocr"
+  ],
+  [
+   142,
+   "their International relations",
+   "their international relations",
+   "ocr"
+  ],
+  [
+   149,
+   "on Justice",
+   "on justice",
+   "ocr"
+  ],
+  [
+   163,
+   "the Charter, Let us",
+   "the Charter. Let us",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "455648e4d8c0d11e86e13ef2b54090afc0c790af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3158,
+  "words_out": 3127,
+  "retention": 0.9902,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   74,
+   75,
+   100,
+   267,
+   116,
+   124,
+   108,
+   155,
+   93,
+   89,
+   125,
+   123,
+   129,
+   97,
+   71,
+   115,
+   147,
+   111,
+   80,
+   185,
+   107,
+   106,
+   115,
+   67,
+   92,
+   139,
+   117
+  ],
+  "warnings": []
+ }
+}

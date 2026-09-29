@@ -1,0 +1,299 @@
+{
+ "id": "SUR_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  56,
+  85,
+  128,
+  134,
+  152,
+  173,
+  196,
+  244,
+  332,
+  376,
+  389,
+  397,
+  404,
+  412,
+  421
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   11,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   23,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   25,
+   "the Secretary",
+   "the Secretary-",
+   "split_word"
+  ],
+  [
+   42,
+   "ether States",
+   "other States",
+   "ocr"
+  ],
+  [
+   62,
+   "non alignment",
+   "non-alignment",
+   "spacing"
+  ],
+  [
+   64,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   64,
+   "non interference",
+   "non-interference",
+   "spacing"
+  ],
+  [
+   64,
+   "non intervention",
+   "non-intervention",
+   "spacing"
+  ],
+  [
+   70,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   82,
+   "against 3 sister",
+   "against a sister",
+   "ocr"
+  ],
+  [
+   88,
+   "clear cut",
+   "clear-cut",
+   "spacing"
+  ],
+  [
+   92,
+   "compromise oriented",
+   "compromise-oriented",
+   "spacing"
+  ],
+  [
+   101,
+   "East West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   113,
+   "A11",
+   "All",
+   "ocr"
+  ],
+  [
+   163,
+   "to self",
+   "to self-",
+   "spacing"
+  ],
+  [
+   191,
+   "it is a matter",
+   "It is a matter",
+   "ocr"
+  ],
+  [
+   197,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   197,
+   "the Indo",
+   "the Indo-",
+   "spacing"
+  ],
+  [
+   199,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   228,
+   "super Powers",
+   "super-Powers",
+   "spacing"
+  ],
+  [
+   257,
+   "know how",
+   "know-how",
+   "spacing"
+  ],
+  [
+   270,
+   "Government to Government",
+   "Government-to-Government",
+   "spacing"
+  ],
+  [
+   275,
+   "vis a vis",
+   "vis-a-vis",
+   "spacing"
+  ],
+  [
+   291,
+   "decision making",
+   "decision-making",
+   "spacing"
+  ],
+  [
+   307,
+   "tradebarriers",
+   "trade barriers",
+   "merged_word"
+  ],
+  [
+   314,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   318,
+   "sub regional",
+   "sub-regional",
+   "spacing"
+  ],
+  [
+   330,
+   "sea bed",
+   "sea-bed",
+   "spacing"
+  ],
+  [
+   334,
+   "sea bed",
+   "sea-bed",
+   "spacing"
+  ],
+  [
+   340,
+   "sea bed",
+   "sea-bed",
+   "spacing"
+  ],
+  [
+   366,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   373,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   376,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   381,
+   "well known",
+   "well-known",
+   "spacing"
+  ],
+  [
+   391,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   391,
+   "Activities'\"",
+   "Activities",
+   "ocr"
+  ],
+  [
+   408,
+   "ay Government",
+   "my Government",
+   "ocr"
+  ],
+  [
+   423,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text without paragraph breaks; some long paragraphs kept where no line-initial sentence start exists; \"Attire\" in unit 204 left unrepaired.",
+ "unitizer_version": 1,
+ "sha1": "5ef875eecec41fd51967c12c1bfe0b11b2d6bd42",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 427,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4478,
+  "words_out": 4445,
+  "retention": 0.9926,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   588,
+   287,
+   469,
+   65,
+   188,
+   218,
+   248,
+   489,
+   893,
+   470,
+   133,
+   78,
+   64,
+   91,
+   97,
+   67
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 588 words",
+   "paragraph at unit 85 has 469 words",
+   "paragraph at unit 196 has 489 words",
+   "paragraph at unit 244 has 893 words",
+   "paragraph at unit 332 has 470 words",
+   "39 fixes"
+  ]
+ }
+}

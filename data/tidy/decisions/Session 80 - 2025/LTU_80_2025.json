@@ -1,0 +1,77 @@
+{
+ "id": "LTU_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   101,
+   101,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  14,
+  24,
+  37,
+  48,
+  56,
+  64,
+  73,
+  82,
+  87,
+  94,
+  100
+ ],
+ "cer": [
+  100
+ ],
+ "fix": [
+  [
+   5,
+   "Luthania",
+   "Lithuania",
+   "asr_name"
+  ],
+  [
+   94,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a0458e7edbcbafaf7b4b137c497d15f3cacf396",
+ "layout": "single",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1586,
+  "words_out": 1537,
+  "retention": 0.9691,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   189,
+   172,
+   179,
+   156,
+   86,
+   123,
+   141,
+   179,
+   89,
+   119,
+   100,
+   4
+  ],
+  "warnings": []
+ }
+}

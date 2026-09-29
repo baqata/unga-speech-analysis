@@ -1,0 +1,74 @@
+{
+ "id": "KGZ_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  25,
+  41,
+  57,
+  68,
+  80,
+  102,
+  112,
+  123,
+  132,
+  150,
+  160
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "SecretaryGeneral’s",
+   "Secretary-General’s",
+   "hyphen"
+  ],
+  [
+   106,
+   "nonproliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   141,
+   "nuclear- weapons",
+   "nuclear-weapons",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "adcfa6e9d2fd4470372524d098d8e22868039326",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1381,
+  "words_out": 1380,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   104,
+   112,
+   138,
+   118,
+   90,
+   99,
+   173,
+   92,
+   94,
+   64,
+   136,
+   78,
+   82
+  ],
+  "warnings": []
+ }
+}

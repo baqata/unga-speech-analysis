@@ -1,0 +1,92 @@
+{
+ "id": "IND_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  16,
+  22,
+  30,
+  38,
+  43,
+  47,
+  51,
+  54,
+  58,
+  64,
+  68,
+  76,
+  83,
+  86,
+  96,
+  100,
+  105,
+  110,
+  115,
+  123,
+  134,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   100,
+   "self- defeating",
+   "self-defeating",
+   "hyphen"
+  ],
+  [
+   131,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e8de62c12e86b719c1a0b81ad563c98c891ec3b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2545,
+  "words_out": 2543,
+  "retention": 0.9992,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   50,
+   68,
+   140,
+   103,
+   124,
+   129,
+   87,
+   62,
+   93,
+   79,
+   94,
+   151,
+   114,
+   146,
+   79,
+   69,
+   141,
+   78,
+   65,
+   86,
+   73,
+   114,
+   240,
+   124,
+   34
+  ],
+  "warnings": []
+ }
+}

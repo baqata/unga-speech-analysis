@@ -1,0 +1,86 @@
+{
+ "id": "COL_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  17,
+  23,
+  27,
+  33,
+  36,
+  45,
+  54,
+  60,
+  66,
+  74,
+  80,
+  87,
+  90,
+  94,
+  101,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   89,
+   "carry oat",
+   "carry out",
+   "ocr"
+  ],
+  [
+   92,
+   "understanding oil the part",
+   "understanding on the part",
+   "ocr"
+  ],
+  [
+   108,
+   "well-being-,",
+   "well-being,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "111c1d7ba3f5d67d20d9a4865d9b92e62d71ef57",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3052,
+  "words_out": 3028,
+  "retention": 0.9921,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   224,
+   87,
+   168,
+   135,
+   101,
+   193,
+   70,
+   259,
+   187,
+   188,
+   175,
+   227,
+   147,
+   164,
+   96,
+   121,
+   196,
+   149,
+   141
+  ],
+  "warnings": []
+ }
+}

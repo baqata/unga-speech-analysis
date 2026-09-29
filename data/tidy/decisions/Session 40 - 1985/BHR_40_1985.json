@@ -1,0 +1,145 @@
+{
+ "id": "BHR_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  11,
+  12,
+  16,
+  22,
+  24,
+  27,
+  33,
+  36,
+  38,
+  42,
+  45,
+  47,
+  50,
+  55,
+  57,
+  60,
+  61,
+  67,
+  69,
+  73,
+  76,
+  80,
+  84,
+  87,
+  89,
+  93,
+  97,
+  103,
+  105,
+  110
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "m .pleasure",
+   "me pleasure",
+   "ocr"
+  ],
+  [
+   2,
+   "in c carrying",
+   "in carrying",
+   "ocr"
+  ],
+  [
+   31,
+   "member ship",
+   "membership",
+   "split_word"
+  ],
+  [
+   35,
+   "(UNIGBF)",
+   "(UNICEF)",
+   "ocr"
+  ],
+  [
+   58,
+   "roost of",
+   "most of",
+   "ocr"
+  ],
+  [
+   67,
+   "- The Iraq",
+   "The Iraq",
+   "markup"
+  ],
+  [
+   79,
+   "It still . subjects",
+   "It still subjects",
+   "ocr"
+  ],
+  [
+   98,
+   "which^ under",
+   "which, under",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ffd311079e86357841c0f0c7865ed6373436873",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3424,
+  "words_out": 3420,
+  "retention": 0.9988,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   105,
+   74,
+   74,
+   62,
+   61,
+   135,
+   195,
+   88,
+   99,
+   136,
+   66,
+   60,
+   88,
+   62,
+   54,
+   99,
+   154,
+   77,
+   68,
+   58,
+   149,
+   103,
+   118,
+   88,
+   85,
+   77,
+   79,
+   85,
+   103,
+   81,
+   247,
+   68,
+   185,
+   137
+  ],
+  "warnings": []
+ }
+}

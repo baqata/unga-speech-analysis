@@ -1,0 +1,114 @@
+{
+ "id": "SVK_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  29,
+  44,
+  66,
+  76,
+  92,
+  104,
+  121,
+  130,
+  147,
+  168,
+  183,
+  194,
+  215,
+  227,
+  238,
+  252
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "yearís",
+   "year’s",
+   "encoding"
+  ],
+  [
+   57,
+   "everyoneís",
+   "everyone’s",
+   "encoding"
+  ],
+  [
+   90,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   103,
+   "Organizationís",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   112,
+   "Slovakiaís",
+   "Slovakia’s",
+   "encoding"
+  ],
+  [
+   165,
+   "summitís",
+   "summit’s",
+   "encoding"
+  ],
+  [
+   220,
+   "todayís",
+   "today’s",
+   "encoding"
+  ],
+  [
+   239,
+   "countryís",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76b963dcd85132c126180289cf549f81b1eed794",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 275,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2191,
+  "words_out": 2189,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   83,
+   161,
+   118,
+   188,
+   73,
+   124,
+   86,
+   127,
+   76,
+   135,
+   161,
+   122,
+   92,
+   167,
+   93,
+   89,
+   107,
+   187
+  ],
+  "warnings": []
+ }
+}

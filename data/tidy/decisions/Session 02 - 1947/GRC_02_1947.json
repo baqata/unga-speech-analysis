@@ -1,0 +1,58 @@
+{
+ "id": "GRC_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  12,
+  15,
+  19,
+  22,
+  27,
+  33,
+  40,
+  48,
+  56
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "of die",
+   "of the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9a3dcb4599e6ae2aa4ccfddc03591a62710b01e9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1646,
+  "words_out": 1646,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   82,
+   94,
+   62,
+   106,
+   94,
+   156,
+   157,
+   169,
+   107,
+   120,
+   209,
+   186,
+   104
+  ],
+  "warnings": []
+ }
+}

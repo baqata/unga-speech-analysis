@@ -1,0 +1,88 @@
+{
+ "id": "HRV_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  20,
+  24,
+  30,
+  36,
+  40,
+  45,
+  51,
+  58,
+  62,
+  67,
+  72,
+  74,
+  78,
+  86,
+  91,
+  95,
+  101,
+  106,
+  112,
+  119
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "well- informed",
+   "well-informed",
+   "hyphen"
+  ],
+  [
+   47,
+   "well- established",
+   "well-established",
+   "hyphen"
+  ],
+  [
+   89,
+   "water- supply",
+   "water-supply",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbacf94233302e6a9d707b814b7273ea5b59c6b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2796,
+  "words_out": 2793,
+  "retention": 0.9989,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   136,
+   129,
+   145,
+   110,
+   141,
+   82,
+   122,
+   69,
+   139,
+   121,
+   112,
+   192,
+   61,
+   135,
+   188,
+   104,
+   114,
+   161,
+   124,
+   166,
+   157,
+   85
+  ],
+  "warnings": []
+ }
+}

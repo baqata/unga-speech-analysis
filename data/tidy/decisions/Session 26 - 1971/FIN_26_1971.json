@@ -1,0 +1,220 @@
+{
+ "id": "FIN_26_1971",
+ "drop": [
+  [
+   24,
+   24,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  15,
+  19,
+  25,
+  31,
+  32,
+  33,
+  35,
+  37,
+  40,
+  43,
+  47,
+  50,
+  53,
+  57,
+  61,
+  66,
+  73,
+  77,
+  81,
+  83,
+  85,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "UThant",
+   "U Thant",
+   "spacing"
+  ],
+  [
+   8,
+   "eyes, In",
+   "eyes. In",
+   "ocr"
+  ],
+  [
+   28,
+   "a(negative",
+   "a negative",
+   "ocr"
+  ],
+  [
+   31,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "merged_word"
+  ],
+  [
+   31,
+   "Organization, The Finnish",
+   "Organization. The Finnish",
+   "ocr"
+  ],
+  [
+   32,
+   "wj'l",
+   "will",
+   "ocr"
+  ],
+  [
+   32,
+   "purpose, Finland",
+   "purpose. Finland",
+   "ocr"
+  ],
+  [
+   35,
+   "snable",
+   "enable",
+   "ocr"
+  ],
+  [
+   37,
+   "of VietNam",
+   "of Viet-Nam",
+   "merged_word"
+  ],
+  [
+   37,
+   "the VietNamese",
+   "the Viet-Namese",
+   "merged_word"
+  ],
+  [
+   38,
+   "3ndoChina",
+   "Indo-China",
+   "ocr"
+  ],
+  [
+   39,
+   "prolonged war,",
+   "prolonged war.",
+   "ocr"
+  ],
+  [
+   45,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "merged_word"
+  ],
+  [
+   54,
+   "about, a change",
+   "about a change",
+   "ocr"
+  ],
+  [
+   56,
+   "Africa, It is",
+   "Africa. It is",
+   "ocr"
+  ],
+  [
+   58,
+   "South , Africa's",
+   "South Africa's",
+   "ocr"
+  ],
+  [
+   60,
+   ".provide",
+   "provide",
+   "ocr"
+  ],
+  [
+   76,
+   " [Af8491J",
+   "",
+   "label"
+  ],
+  [
+   78,
+   " [A/8457 DC/234, annex AJ",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "disarmament, They",
+   "disarmament. They",
+   "ocr"
+  ],
+  [
+   80,
+   "peacc",
+   "peace",
+   "ocr"
+  ],
+  [
+   83,
+   "structure, A larger",
+   "structure. A larger",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6e9aaafaa969ea188c365b987ab2146edbfb482",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2651,
+  "words_out": 2640,
+  "retention": 0.9959,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   159,
+   203,
+   95,
+   171,
+   122,
+   82,
+   94,
+   89,
+   92,
+   126,
+   98,
+   101,
+   77,
+   99,
+   146,
+   87,
+   79,
+   170,
+   67,
+   126,
+   72,
+   83,
+   108,
+   94
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

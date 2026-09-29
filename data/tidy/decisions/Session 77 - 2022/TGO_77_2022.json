@@ -1,0 +1,96 @@
+{
+ "id": "TGO_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  15,
+  20,
+  23,
+  30,
+  32,
+  37,
+  38,
+  40,
+  42,
+  44,
+  50,
+  54,
+  58,
+  63,
+  70,
+  74,
+  77,
+  81,
+  90,
+  93,
+  97,
+  101,
+  106,
+  109
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   37,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7bab83a18fb26e00e75f2dafff088cf9b663df6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2814,
+  "words_out": 2810,
+  "retention": 0.9986,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   92,
+   96,
+   170,
+   96,
+   80,
+   161,
+   65,
+   166,
+   61,
+   78,
+   62,
+   63,
+   128,
+   67,
+   106,
+   92,
+   133,
+   100,
+   116,
+   100,
+   178,
+   106,
+   89,
+   100,
+   122,
+   91,
+   92
+  ],
+  "warnings": []
+ }
+}

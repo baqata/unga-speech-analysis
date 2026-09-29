@@ -1,0 +1,106 @@
+{
+ "id": "DDR_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  9,
+  17,
+  22,
+  26,
+  30,
+  35,
+  40,
+  46,
+  50,
+  55,
+  58,
+  66,
+  74,
+  78,
+  83,
+  85,
+  87,
+  90,
+  95,
+  101,
+  106,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   67,
+   "Fear the sake",
+   "For the sake",
+   "ocr"
+  ],
+  [
+   46,
+   "September 1987.-",
+   "September 1987 -",
+   "ocr"
+  ],
+  [
+   77,
+   "supports then.",
+   "supports them.",
+   "ocr"
+  ],
+  [
+   77,
+   "Organizations'",
+   "Organization's",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 82 breaks off mid-sentence ('and all') before a new topic at unit 83; text appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "4d223c6cac353f4e4cbbc5be4a1a2da06d762d71",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3074,
+  "words_out": 3075,
+  "retention": 1.0003,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   23,
+   101,
+   86,
+   152,
+   191,
+   111,
+   123,
+   95,
+   147,
+   128,
+   147,
+   166,
+   140,
+   64,
+   175,
+   163,
+   97,
+   100,
+   98,
+   79,
+   80,
+   169,
+   127,
+   151,
+   70,
+   92
+  ],
+  "warnings": []
+ }
+}

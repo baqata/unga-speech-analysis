@@ -1,0 +1,133 @@
+{
+ "id": "UKR_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  17,
+  22,
+  25,
+  30,
+  33,
+  36,
+  39,
+  44,
+  48,
+  54,
+  57,
+  59,
+  64,
+  66,
+  69,
+  74,
+  79,
+  82,
+  85,
+  88,
+  90,
+  92,
+  97,
+  102,
+  106,
+  108,
+  113
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   "'hat",
+   "that",
+   "ocr"
+  ],
+  [
+   55,
+   "b;",
+   "by",
+   "ocr"
+  ],
+  [
+   70,
+   "japan",
+   "Japan",
+   "ocr"
+  ],
+  [
+   76,
+   "between.",
+   "between",
+   "ocr"
+  ],
+  [
+   92,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   97,
+   "one- third",
+   "one-third",
+   "hyphen"
+  ],
+  [
+   104,
+   "a. stop",
+   "a stop",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3138de5973e8b5979340a7153fbef43ca11dbc93",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 33
+  },
+  "words_in": 3843,
+  "words_out": 3839,
+  "retention": 0.999,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   79,
+   135,
+   118,
+   147,
+   117,
+   132,
+   131,
+   71,
+   121,
+   96,
+   239,
+   107,
+   153,
+   139,
+   88,
+   187,
+   86,
+   148,
+   163,
+   130,
+   123,
+   117,
+   129,
+   87,
+   87,
+   153,
+   193,
+   93,
+   77,
+   123,
+   70
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "id": "KAZ_48_1993",
+ "drop": [
+  [
+   37,
+   37,
+   "header_footer"
+  ],
+  [
+   134,
+   134,
+   "header_footer"
+  ],
+  [
+   229,
+   229,
+   "header_footer"
+  ],
+  [
+   297,
+   297,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  10,
+  27,
+  53,
+  66,
+  94,
+  110,
+  130,
+  153,
+  172,
+  182,
+  204,
+  230,
+  255,
+  274,
+  286
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ecec05afebea291061d019d01c496321fb5089d3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 311,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2674,
+  "words_out": 2646,
+  "retention": 0.9895,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   42,
+   46,
+   149,
+   229,
+   108,
+   242,
+   143,
+   183,
+   185,
+   174,
+   83,
+   158,
+   214,
+   225,
+   170,
+   93,
+   202
+  ],
+  "warnings": []
+ }
+}

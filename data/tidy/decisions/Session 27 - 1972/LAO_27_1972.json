@@ -1,0 +1,96 @@
+{
+ "id": "LAO_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  20,
+  22,
+  27,
+  32,
+  41,
+  47,
+  56,
+  61,
+  67,
+  71,
+  77,
+  86,
+  92,
+  98,
+  101,
+  103
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "of\" Laos",
+   "of Laos",
+   "ocr"
+  ],
+  [
+   10,
+   "ever- increasing",
+   "ever-increasing",
+   "spacing"
+  ],
+  [
+   45,
+   "dis-placed",
+   "displaced",
+   "hyphen"
+  ],
+  [
+   47,
+   "ail about",
+   "all about",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a70f9e58940f57777db3a09cd8a22747fd088a4a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 19
+  },
+  "words_in": 2718,
+  "words_out": 2717,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   151,
+   144,
+   110,
+   142,
+   72,
+   134,
+   135,
+   181,
+   122,
+   193,
+   74,
+   184,
+   113,
+   155,
+   196,
+   192,
+   133,
+   96,
+   70,
+   120
+  ],
+  "warnings": []
+ }
+}

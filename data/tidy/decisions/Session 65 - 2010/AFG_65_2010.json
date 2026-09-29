@@ -1,0 +1,58 @@
+{
+ "id": "AFG_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  24,
+  41,
+  60,
+  76,
+  86,
+  107,
+  129,
+  149,
+  162,
+  182,
+  195,
+  205
+ ],
+ "cer": [
+  0,
+  205
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "125bd587f5a83856d7a1cda9b4f7e4bba36fa9cc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1629,
+  "words_out": 1625,
+  "retention": 0.9975,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   34,
+   147,
+   112,
+   152,
+   112,
+   82,
+   150,
+   152,
+   146,
+   100,
+   143,
+   94,
+   83,
+   118
+  ],
+  "warnings": []
+ }
+}

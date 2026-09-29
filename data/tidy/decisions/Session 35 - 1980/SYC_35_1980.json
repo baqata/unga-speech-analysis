@@ -1,0 +1,132 @@
+{
+ "id": "SYC_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  16,
+  19,
+  23,
+  25,
+  29,
+  32,
+  36,
+  40,
+  44,
+  48,
+  51,
+  53,
+  58,
+  61,
+  64,
+  69,
+  74,
+  79,
+  81,
+  84,
+  86,
+  88,
+  93,
+  96,
+  99,
+  103,
+  105,
+  109,
+  114,
+  117,
+  119
+ ],
+ "cer": [
+  0,
+  3,
+  6
+ ],
+ "fix": [
+  [
+   20,
+   "Ren6",
+   "Rene",
+   "ocr"
+  ],
+  [
+   20,
+   "State .or",
+   "State or",
+   "ocr"
+  ],
+  [
+   22,
+   "position .ye want",
+   "position we want",
+   "ocr"
+  ],
+  [
+   40,
+   "of ail islands",
+   "of all islands",
+   "ocr"
+  ],
+  [
+   66,
+   "rostrum\" we",
+   "rostrum we",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf1e246d2e2030b5fbfefc8501af0265ba835636",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 53
+  },
+  "words_in": 3819,
+  "words_out": 3819,
+  "retention": 1.0,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   83,
+   120,
+   162,
+   106,
+   109,
+   135,
+   51,
+   73,
+   109,
+   117,
+   130,
+   141,
+   143,
+   86,
+   77,
+   120,
+   124,
+   68,
+   135,
+   118,
+   108,
+   64,
+   103,
+   252,
+   74,
+   182,
+   113,
+   71,
+   93,
+   75,
+   99,
+   143,
+   90,
+   60,
+   85
+  ],
+  "warnings": []
+ }
+}

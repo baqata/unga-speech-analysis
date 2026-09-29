@@ -1,0 +1,150 @@
+{
+ "id": "PAN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   81,
+   81,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  6,
+  12,
+  16,
+  22,
+  24,
+  28,
+  32,
+  36,
+  40,
+  45,
+  47,
+  50,
+  54,
+  57,
+  64,
+  69,
+  74,
+  77,
+  80
+ ],
+ "cer": [
+  2,
+  80
+ ],
+ "fix": [
+  [
+   46,
+   "is one on",
+   "is won on",
+   "asr_term"
+  ],
+  [
+   47,
+   "young man, minister",
+   "young man, vice-minister",
+   "interp"
+  ],
+  [
+   49,
+   "Cesar Alcuerre",
+   "César Pereira",
+   "interp"
+  ],
+  [
+   49,
+   " What is happening in Hormuz?",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "Our contribution",
+   "Our conclusion",
+   "interp"
+  ],
+  [
+   7,
+   "safely. also",
+   "safely. Also",
+   "asr_term"
+  ],
+  [
+   22,
+   "recovered. and",
+   "recovered. And",
+   "asr_term"
+  ],
+  [
+   46,
+   "ground. when",
+   "ground when",
+   "asr_term"
+  ],
+  [
+   48,
+   "ours. and",
+   "ours. And",
+   "asr_term"
+  ],
+  [
+   53,
+   "world. the",
+   "world. The",
+   "asr_term"
+  ],
+  [
+   70,
+   "peace. that",
+   "peace that",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish: 'siendo un joven vicecanciller'; 'el doctor César Pereira'; 'Nuestra conclusión es inequívoca'; invented first-pass words 'What is happening in Hormuz?' removed; unit 81 (speaker's 'Muchas gracias' glued to the presiding officer's thanks) dropped whole. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 7 'safely. also' -> 'safely. Also'; unit 22 'recovered. and' -> 'recovered. And'; unit 46 'ground. when' -> 'ground when'; unit 48 'ours. and' -> 'ours. And'; unit 53 'world. the' -> 'world. The'; unit 70 'peace. that' -> 'peace that'",
+ "unitizer_version": 1,
+ "sha1": "fce524502c0671138ae479a062dfe89a66cd85f3",
+ "layout": "single",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2205,
+  "words_out": 2148,
+  "retention": 0.9741,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   5,
+   75,
+   149,
+   116,
+   132,
+   115,
+   135,
+   88,
+   112,
+   117,
+   89,
+   53,
+   180,
+   155,
+   71,
+   135,
+   81,
+   120,
+   104,
+   112,
+   4
+  ],
+  "warnings": []
+ }
+}

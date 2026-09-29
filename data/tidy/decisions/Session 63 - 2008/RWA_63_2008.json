@@ -1,0 +1,41 @@
+{
+ "id": "RWA_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  24,
+  34,
+  47,
+  57,
+  72
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a6de19c3ff79b8849c8ecf48677e0b427d272f0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 622,
+  "words_out": 621,
+  "retention": 0.9984,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   77,
+   104,
+   70,
+   108,
+   66,
+   119,
+   77
+  ],
+  "warnings": []
+ }
+}

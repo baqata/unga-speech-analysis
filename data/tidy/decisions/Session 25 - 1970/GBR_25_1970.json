@@ -1,0 +1,112 @@
+{
+ "id": "GBR_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  16,
+  21,
+  26,
+  33,
+  39,
+  44,
+  47,
+  57,
+  62,
+  66,
+  70,
+  75,
+  81,
+  85,
+  91,
+  99,
+  103,
+  107,
+  111,
+  112
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "we reply",
+   "we rely",
+   "ocr"
+  ],
+  [
+   34,
+   "Germany\",",
+   "Germany,",
+   "ocr"
+  ],
+  [
+   38,
+   "West, It",
+   "West. It",
+   "ocr"
+  ],
+  [
+   42,
+   " [1842nd meeting,",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   97,
+   " [ibid]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2e31e0c77a1a61ee4d6cf6acfa1b1227d640101",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2920,
+  "words_out": 2915,
+  "retention": 0.9983,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   153,
+   95,
+   170,
+   101,
+   141,
+   133,
+   171,
+   94,
+   66,
+   172,
+   129,
+   122,
+   100,
+   100,
+   165,
+   118,
+   144,
+   186,
+   92,
+   139,
+   129,
+   62,
+   133
+  ],
+  "warnings": []
+ }
+}

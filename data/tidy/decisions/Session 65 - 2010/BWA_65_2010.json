@@ -1,0 +1,51 @@
+{
+ "id": "BWA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  30,
+  52,
+  62,
+  75,
+  89,
+  110,
+  119,
+  141,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "072a1fc9b2fa8ee83ca6b970e3d7d6e3e6725bc7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1318,
+  "words_out": 1317,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   69,
+   161,
+   155,
+   73,
+   88,
+   98,
+   156,
+   71,
+   181,
+   216,
+   49
+  ],
+  "warnings": []
+ }
+}

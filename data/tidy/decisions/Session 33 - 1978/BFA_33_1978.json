@@ -1,0 +1,138 @@
+{
+ "id": "BFA_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  16,
+  22,
+  29,
+  32,
+  38,
+  45,
+  49,
+  55,
+  59,
+  64,
+  68,
+  71,
+  74,
+  78,
+  81,
+  93,
+  99,
+  103,
+  109,
+  112
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   28,
+   "Ill ",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "113 ",
+   "",
+   "label"
+  ],
+  [
+   30,
+   " [resolution 3057 (XXVIII)]",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "Soum Africa",
+   "South Africa",
+   "ocr"
+  ],
+  [
+   52,
+   "122 ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "123 ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "124 ",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "S500 billion",
+   "$500 billion",
+   "ocr"
+  ],
+  [
+   64,
+   "127 ",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "with mo that",
+   "with me that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3e3a94915b97118e1b84f95a13a1732868518084",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 3194,
+  "words_out": 3181,
+  "retention": 0.9959,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   91,
+   135,
+   155,
+   200,
+   142,
+   115,
+   120,
+   161,
+   147,
+   153,
+   101,
+   146,
+   126,
+   127,
+   97,
+   136,
+   148,
+   268,
+   178,
+   135,
+   141,
+   105,
+   54
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "SAU_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  15,
+  19,
+  25,
+  27,
+  31,
+  33,
+  36,
+  43,
+  48,
+  53,
+  55,
+  63,
+  66,
+  68,
+  72,
+  75,
+  80,
+  87,
+  93
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   "also. be",
+   "also be",
+   "ocr"
+  ],
+  [
+   9,
+   "among, more",
+   "among more",
+   "ocr"
+  ],
+  [
+   79,
+   "being' redoubled",
+   "being redoubled",
+   "ocr"
+  ],
+  [
+   84,
+   "Islam..",
+   "Islam.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "597f8b6e38edfa0a0476bca5c55e26ae6ed583fc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2782,
+  "words_out": 2782,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   154,
+   91,
+   124,
+   115,
+   195,
+   174,
+   92,
+   75,
+   68,
+   96,
+   148,
+   115,
+   135,
+   64,
+   187,
+   80,
+   93,
+   105,
+   75,
+   166,
+   162,
+   77,
+   191
+  ],
+  "warnings": []
+ }
+}

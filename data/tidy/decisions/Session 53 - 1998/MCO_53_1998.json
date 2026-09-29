@@ -1,0 +1,104 @@
+{
+ "id": "MCO_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  15,
+  27,
+  39,
+  52,
+  78,
+  102,
+  114,
+  130,
+  156,
+  181,
+  199,
+  221,
+  240,
+  254,
+  264,
+  278,
+  303,
+  319,
+  340,
+  357,
+  373,
+  396
+ ],
+ "cer": [
+  0,
+  11,
+  319
+ ],
+ "fix": [
+  [
+   137,
+   "People?s",
+   "People’s",
+   "encoding"
+  ],
+  [
+   287,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   317,
+   "prosecutor?s",
+   "prosecutor’s",
+   "encoding"
+  ],
+  [
+   335,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f04a37c365b899ad957da7e109bb428301da9f3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 402,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 3379,
+  "words_out": 3378,
+  "retention": 0.9997,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   96,
+   34,
+   106,
+   99,
+   118,
+   212,
+   203,
+   101,
+   136,
+   235,
+   201,
+   150,
+   182,
+   159,
+   127,
+   84,
+   121,
+   199,
+   126,
+   168,
+   150,
+   136,
+   187,
+   48
+  ],
+  "warnings": []
+ }
+}

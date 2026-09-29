@@ -1,0 +1,142 @@
+{
+ "id": "BWA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  9,
+  12,
+  15,
+  22,
+  27,
+  32,
+  39,
+  46,
+  49,
+  55,
+  58,
+  65,
+  68,
+  72,
+  81,
+  88,
+  96,
+  103,
+  105,
+  112,
+  116,
+  120,
+  124,
+  127,
+  131,
+  137
+ ],
+ "cer": [
+  0,
+  9,
+  12
+ ],
+ "fix": [
+  [
+   0,
+   "thirty- fourth",
+   "thirty-fourth",
+   "hyphen"
+  ],
+  [
+   36,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ],
+  [
+   46,
+   "ac-cession",
+   "accession",
+   "hyphen"
+  ],
+  [
+   46,
+   "in-dependence",
+   "independence",
+   "hyphen"
+  ],
+  [
+   48,
+   "last- ditch",
+   "last-ditch",
+   "hyphen"
+  ],
+  [
+   96,
+   "Communique'",
+   "Communique",
+   "ocr"
+  ],
+  [
+   104,
+   "commit-tees",
+   "committees",
+   "hyphen"
+  ],
+  [
+   115,
+   "un-necessary",
+   "unnecessary",
+   "hyphen"
+  ],
+  [
+   126,
+   "root- causes",
+   "root-causes",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81d058db68dd36f2516d368a6f354e2aecfd822b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3829,
+  "words_out": 3825,
+  "retention": 0.999,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   189,
+   62,
+   55,
+   102,
+   180,
+   159,
+   91,
+   145,
+   182,
+   86,
+   163,
+   66,
+   190,
+   101,
+   110,
+   268,
+   175,
+   185,
+   228,
+   106,
+   141,
+   111,
+   157,
+   94,
+   87,
+   145,
+   149,
+   98
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "id": "IRQ_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  12,
+  19,
+  23,
+  27,
+  29,
+  35,
+  36,
+  40,
+  44,
+  49,
+  52,
+  57,
+  65,
+  71,
+  76,
+  82,
+  88,
+  94,
+  98,
+  103,
+  107,
+  113,
+  119,
+  123,
+  126,
+  137,
+  141,
+  148,
+  152,
+  155,
+  161,
+  166,
+  170,
+  175,
+  178,
+  181
+ ],
+ "cer": [
+  0,
+  35
+ ],
+ "fix": [
+  [
+   44,
+   "wars, Iraq",
+   "wars. Iraq",
+   "ocr"
+  ],
+  [
+   55,
+   "fraternité, France",
+   "fraternité. France",
+   "ocr"
+  ],
+  [
+   109,
+   "events, Iraq",
+   "events. Iraq",
+   "ocr"
+  ],
+  [
+   130,
+   "tern Lories",
+   "territories",
+   "ocr"
+  ],
+  [
+   135,
+   "history, Soviet",
+   "history. Soviet",
+   "ocr"
+  ],
+  [
+   149,
+   "connotation, Words",
+   "connotation. Words",
+   "ocr"
+  ],
+  [
+   149,
+   "peoples, We must",
+   "peoples. We must",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bf174f7ba34cb2bb25b2115598b470bf965f3eec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 51
+  },
+  "words_in": 5487,
+  "words_out": 5484,
+  "retention": 0.9995,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   99,
+   180,
+   94,
+   132,
+   184,
+   226,
+   63,
+   137,
+   44,
+   153,
+   164,
+   150,
+   102,
+   144,
+   233,
+   156,
+   79,
+   209,
+   208,
+   193,
+   97,
+   141,
+   147,
+   120,
+   171,
+   78,
+   91,
+   282,
+   144,
+   110,
+   188,
+   90,
+   144,
+   138,
+   110,
+   207,
+   97,
+   88,
+   91
+  ],
+  "warnings": []
+ }
+}

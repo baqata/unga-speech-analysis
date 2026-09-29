@@ -1,0 +1,82 @@
+{
+ "id": "TJK_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  16,
+  19,
+  22,
+  26,
+  32,
+  37,
+  46,
+  48,
+  52,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   14,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   38,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ],
+  [
+   54,
+   "2018- 2028",
+   "2018-2028",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "595c0b659f9a8d7cee630a3325fd02e860bcbc59",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1705,
+  "words_out": 1700,
+  "retention": 0.9971,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   107,
+   99,
+   83,
+   111,
+   73,
+   148,
+   89,
+   80,
+   146,
+   128,
+   238,
+   93,
+   92,
+   120,
+   93
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "MWI_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  25,
+  38,
+  44,
+  50,
+  53,
+  55,
+  60,
+  63,
+  66,
+  70,
+  79,
+  82,
+  87,
+  92,
+  95,
+  99,
+  104,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef897119e3bb9c4d86117eaef6a2b39aaa07646e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1853,
+  "words_out": 1852,
+  "retention": 0.9995,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   61,
+   110,
+   202,
+   147,
+   72,
+   86,
+   60,
+   70,
+   70,
+   74,
+   69,
+   102,
+   127,
+   67,
+   74,
+   74,
+   64,
+   78,
+   101,
+   82,
+   62
+  ],
+  "warnings": []
+ }
+}

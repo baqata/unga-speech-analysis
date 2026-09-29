@@ -1,0 +1,132 @@
+{
+ "id": "BWA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  13,
+  17,
+  19,
+  22,
+  24,
+  27,
+  34,
+  40,
+  42,
+  47,
+  51,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "end. the",
+   "end, the",
+   "ocr"
+  ],
+  [
+   16,
+   "prevention. preparedness",
+   "prevention, preparedness",
+   "ocr"
+  ],
+  [
+   18,
+   "end. the",
+   "end, the",
+   "ocr"
+  ],
+  [
+   20,
+   "and. on",
+   "and, on",
+   "ocr"
+  ],
+  [
+   33,
+   "Botswana. we",
+   "Botswana, we",
+   "ocr"
+  ],
+  [
+   37,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   38,
+   "African.",
+   "African,",
+   "ocr"
+  ],
+  [
+   44,
+   "self- determination. albeit",
+   "self-determination, albeit",
+   "ocr"
+  ],
+  [
+   47,
+   "2014-2024. followed",
+   "2014-2024, followed",
+   "ocr"
+  ],
+  [
+   49,
+   "LLDCs. which",
+   "LLDCs, which",
+   "ocr"
+  ],
+  [
+   52,
+   "LLDCs. with",
+   "LLDCs, with",
+   "ocr"
+  ],
+  [
+   53,
+   "Secretary- General. development",
+   "Secretary-General, development",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b2a46bc35d089a8bff3bcc6d72cb2423518da35",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1487,
+  "words_out": 1485,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   85,
+   128,
+   62,
+   85,
+   102,
+   96,
+   91,
+   66,
+   90,
+   115,
+   94,
+   63,
+   117,
+   129,
+   119,
+   43
+  ],
+  "warnings": []
+ }
+}

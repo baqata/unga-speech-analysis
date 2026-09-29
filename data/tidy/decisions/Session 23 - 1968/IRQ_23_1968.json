@@ -1,0 +1,82 @@
+{
+ "id": "IRQ_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  17,
+  26,
+  36,
+  45,
+  50,
+  56,
+  64,
+  67,
+  72,
+  80,
+  84,
+  90,
+  93,
+  99,
+  107,
+  111,
+  120,
+  127
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   ".[Ibid., para.1]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "have nut created",
+   "have not created",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2572a2f63f081cb64c849b5574270e1653571894",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3115,
+  "words_out": 3078,
+  "retention": 0.9881,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   132,
+   101,
+   244,
+   225,
+   232,
+   218,
+   191,
+   122,
+   212,
+   63,
+   102,
+   210,
+   82,
+   197,
+   58,
+   110,
+   167,
+   71,
+   153,
+   119,
+   69
+  ],
+  "warnings": []
+ }
+}

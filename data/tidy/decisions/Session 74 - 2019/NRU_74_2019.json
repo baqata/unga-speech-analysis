@@ -1,0 +1,101 @@
+{
+ "id": "NRU_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  16,
+  19,
+  23,
+  27,
+  29,
+  33,
+  38,
+  46,
+  52,
+  57,
+  64,
+  68,
+  72,
+  76,
+  81,
+  85,
+  90
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   7,
+   "(A/74/PV.3, p. 1).",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "voluntary- national- review",
+   "voluntary-national-review",
+   "hyphen"
+  ],
+  [
+   58,
+   "best- managed",
+   "best-managed",
+   "hyphen"
+  ],
+  [
+   86,
+   "sea- level",
+   "sea-level",
+   "hyphen"
+  ],
+  [
+   93,
+   " (see A/74/ PV.3)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f716f32cb4c04a14d09c0bccd4d0db488d24d3e2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2344,
+  "words_out": 2334,
+  "retention": 0.9957,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   89,
+   70,
+   99,
+   144,
+   69,
+   103,
+   109,
+   71,
+   67,
+   135,
+   120,
+   137,
+   109,
+   177,
+   93,
+   112,
+   160,
+   90,
+   99,
+   123,
+   158
+  ],
+  "warnings": []
+ }
+}

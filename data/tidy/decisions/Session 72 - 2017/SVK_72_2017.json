@@ -1,0 +1,64 @@
+{
+ "id": "SVK_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  10,
+  14,
+  17,
+  22,
+  26,
+  31,
+  35,
+  40,
+  45,
+  48,
+  54,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d17d8d0c512ec362e1267033bfad02920c7e8a8e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1504,
+  "words_out": 1503,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   34,
+   107,
+   108,
+   117,
+   62,
+   81,
+   124,
+   129,
+   92,
+   72,
+   133,
+   77,
+   116,
+   164,
+   87
+  ],
+  "warnings": []
+ }
+}

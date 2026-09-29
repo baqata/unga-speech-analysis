@@ -1,0 +1,167 @@
+{
+ "id": "SLE_29_1974",
+ "drop": [
+  [
+   51,
+   51,
+   "noise"
+  ],
+  [
+   56,
+   56,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  14,
+  19,
+  21,
+  27,
+  31,
+  32,
+  41,
+  44,
+  46,
+  52,
+  57,
+  62,
+  64,
+  71,
+  76,
+  80,
+  82,
+  85,
+  87,
+  91,
+  96,
+  100,
+  104
+ ],
+ "cer": [
+  0,
+  104
+ ],
+ "fix": [
+  [
+   3,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   8,
+   "ever- increasing",
+   "ever-increasing",
+   "spacing"
+  ],
+  [
+   11,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   19,
+   "long , as",
+   "long as",
+   "ocr"
+  ],
+  [
+   37,
+   "discussions , with",
+   "discussions with",
+   "ocr"
+  ],
+  [
+   39,
+   "schools- or",
+   "schools, or",
+   "ocr"
+  ],
+  [
+   44,
+   "high! jcost",
+   "high cost",
+   "ocr"
+  ],
+  [
+   48,
+   "Namibian. issue",
+   "Namibian issue",
+   "ocr"
+  ],
+  [
+   59,
+   "that.",
+   "that",
+   "ocr"
+  ],
+  [
+   97,
+   "do ail",
+   "do all",
+   "ocr"
+  ],
+  [
+   98,
+   "wisdom, Of",
+   "wisdom, of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "720089df1ad02e9844dc729212dd205d648e6e4a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 33
+  },
+  "words_in": 3004,
+  "words_out": 2996,
+  "retention": 0.9973,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   216,
+   104,
+   86,
+   104,
+   164,
+   120,
+   77,
+   158,
+   109,
+   132,
+   111,
+   123,
+   79,
+   104,
+   187,
+   136,
+   101,
+   111,
+   108,
+   126,
+   120,
+   107,
+   107,
+   158,
+   48
+  ],
+  "warnings": []
+ }
+}

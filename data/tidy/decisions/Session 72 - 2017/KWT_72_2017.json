@@ -1,0 +1,81 @@
+{
+ "id": "KWT_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  20,
+  24,
+  26,
+  29,
+  32,
+  33,
+  36,
+  38,
+  42,
+  48,
+  50,
+  53,
+  59,
+  63,
+  65
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   48,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59fe9df69331349ffd6b5e4b4351b3392ee7bd25",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2274,
+  "words_out": 2270,
+  "retention": 0.9982,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   91,
+   189,
+   141,
+   86,
+   123,
+   148,
+   78,
+   102,
+   86,
+   77,
+   96,
+   84,
+   125,
+   150,
+   76,
+   123,
+   166,
+   145,
+   111,
+   73
+  ],
+  "warnings": []
+ }
+}

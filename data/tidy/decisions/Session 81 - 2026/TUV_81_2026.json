@@ -1,0 +1,218 @@
+{
+ "id": "TUV_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   95,
+   95,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  7,
+  12,
+  16,
+  24,
+  28,
+  39,
+  42,
+  48,
+  55,
+  64,
+  71,
+  76,
+  82,
+  85,
+  86,
+  92
+ ],
+ "cer": [
+  1,
+  92
+ ],
+ "fix": [
+  [
+   1,
+   "I request protocol to escort His Excellency and invite him ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "to address the Assembly. keep using now ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Baibok",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   6,
+   "lust",
+   "loss",
+   "asr_term"
+  ],
+  [
+   23,
+   "actors",
+   "hectares",
+   "asr_term"
+  ],
+  [
+   27,
+   "Arc",
+   "Ark",
+   "asr_name"
+  ],
+  [
+   39,
+   "sought-for",
+   "shortfall",
+   "asr_term"
+  ],
+  [
+   40,
+   "SGGs",
+   "SDGs",
+   "asr_term"
+  ],
+  [
+   40,
+   "SGG 14",
+   "SDG 14",
+   "asr_term"
+  ],
+  [
+   41,
+   "to value cause on",
+   "Tuvalu calls on",
+   "asr_name"
+  ],
+  [
+   46,
+   "Dasiriki",
+   "Tassiriki",
+   "asr_name"
+  ],
+  [
+   50,
+   "Educate",
+   "Adequate",
+   "asr_term"
+  ],
+  [
+   51,
+   "lost and",
+   "loss and",
+   "asr_term"
+  ],
+  [
+   62,
+   "BB&J",
+   "BBNJ",
+   "asr_term"
+  ],
+  [
+   63,
+   "BB&J",
+   "BBNJ",
+   "asr_term"
+  ],
+  [
+   74,
+   "To value us",
+   "Tuvalu has",
+   "asr_name"
+  ],
+  [
+   84,
+   "CUPA",
+   "Cuba",
+   "asr_name"
+  ],
+  [
+   93,
+   "Fafadai Lassi",
+   "Fakafetai lasi",
+   "asr_term"
+  ],
+  [
+   93,
+   "Motetua",
+   "mo te Atua",
+   "asr_term"
+  ],
+  [
+   21,
+   "protects people, protects people,",
+   "protects people,",
+   "asr_term"
+  ],
+  [
+   28,
+   "Tuvalu. because",
+   "Tuvalu. Because",
+   "asr_term"
+  ],
+  [
+   71,
+   "change. but",
+   "change but",
+   "asr_term"
+  ],
+  [
+   74,
+   "endorse",
+   "endorsed",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Presider line and noise 'keep using now' removed from unit 1; Tassiriki Call (fossilfueltreaty.org) and Tuvalu Digital Ark (digitalark.tuvalu.tv); other repairs per Spanish (Baerbock, perdida, hectareas, adecuada, Tuvalu pide/ha apoyado, Cuba); closing is the motto 'Tuvalu mo te Atua'. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 21 'protects people, protects people,' -> 'protects people,'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 28 'Tuvalu. because' -> 'Tuvalu. Because'; unit 71 'change. but' -> 'change but'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 30 unit 74 'endorse' -> 'endorsed' (heard 1 'has therefore endorsed' (0.90), heard 2 'endorse' 0.68; 'Tuvalu has therefore endorse' does not fit; ES 'Tuvalu ha apoyado'). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: paragraph start at unit 85, since unit 85 on Security Council reform is a complete point that neither neighbour shares (units 82-84 concern the measures against Cuba, unit 86 opens the conclusion).",
+ "unitizer_version": 1,
+ "sha1": "08733138b7bc2040478d4c60fe1853505e2259cb",
+ "layout": "single",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2321,
+  "words_out": 2273,
+  "retention": 0.9793,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   71,
+   70,
+   113,
+   113,
+   151,
+   90,
+   192,
+   112,
+   209,
+   165,
+   201,
+   201,
+   115,
+   160,
+   77,
+   35,
+   160,
+   38
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "ECU_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  11,
+  16,
+  20,
+  25,
+  28,
+  32,
+  41,
+  46,
+  52,
+  56,
+  60,
+  63,
+  68,
+  74,
+  80,
+  84,
+  88,
+  94,
+  100,
+  104,
+  108,
+  111
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing between units 100 and 101 (the sentence on relations with Africa breaks off and resumes mid-way through a summit name).",
+ "unitizer_version": 1,
+ "sha1": "91367d63492e8dc56252353313bd5ff99cc621a4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2729,
+  "words_out": 2727,
+  "retention": 0.9993,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   51,
+   139,
+   120,
+   140,
+   100,
+   110,
+   137,
+   173,
+   99,
+   158,
+   89,
+   89,
+   87,
+   112,
+   115,
+   95,
+   96,
+   98,
+   165,
+   141,
+   74,
+   124,
+   134,
+   81
+  ],
+  "warnings": []
+ }
+}

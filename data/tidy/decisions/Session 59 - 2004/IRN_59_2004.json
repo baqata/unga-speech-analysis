@@ -1,0 +1,62 @@
+{
+ "id": "IRN_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  29,
+  50,
+  62,
+  72,
+  83,
+  108,
+  125,
+  137,
+  154,
+  173,
+  190,
+  198
+ ],
+ "cer": [],
+ "fix": [
+  [
+   57,
+   "ego",
+   "ago",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c6e3edf9315e219f8e7dc7fd2e989ce3ffc3d91",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1609,
+  "words_out": 1604,
+  "retention": 0.9969,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   159,
+   68,
+   166,
+   104,
+   87,
+   82,
+   194,
+   134,
+   97,
+   126,
+   141,
+   130,
+   50,
+   66
+  ],
+  "warnings": []
+ }
+}

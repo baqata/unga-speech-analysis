@@ -1,0 +1,59 @@
+{
+ "id": "BRN_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  14,
+  20,
+  27,
+  35,
+  40,
+  44,
+  49,
+  53
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   2,
+   "and 1 are",
+   "and I are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61cdd0361c9ca06851c8000bb00e92642cbc0023",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1313,
+  "words_out": 1313,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   78,
+   51,
+   105,
+   107,
+   107,
+   159,
+   152,
+   82,
+   135,
+   121,
+   109,
+   107
+  ],
+  "warnings": []
+ }
+}

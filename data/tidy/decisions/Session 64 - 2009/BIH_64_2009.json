@@ -1,0 +1,73 @@
+{
+ "id": "BIH_64_2009",
+ "drop": [
+  [
+   39,
+   40,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  41,
+  54,
+  77,
+  91,
+  109,
+  131,
+  144,
+  163,
+  173,
+  184,
+  201,
+  218,
+  244,
+  256,
+  280
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09854f58d46c24851eae5896bc6511ebdb7b7683",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2285,
+  "words_out": 2272,
+  "retention": 0.9943,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   119,
+   189,
+   95,
+   184,
+   108,
+   144,
+   174,
+   101,
+   150,
+   72,
+   88,
+   116,
+   134,
+   182,
+   89,
+   171,
+   156
+  ],
+  "warnings": [
+   "procedural drop [39,40] in the middle of the speech"
+  ]
+ }
+}

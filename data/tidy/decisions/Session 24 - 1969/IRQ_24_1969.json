@@ -1,0 +1,128 @@
+{
+ "id": "IRQ_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  57,
+  76,
+  98,
+  117,
+  135,
+  157,
+  173,
+  194,
+  212,
+  220,
+  241,
+  251,
+  266,
+  278,
+  291,
+  324,
+  330,
+  343,
+  367,
+  375,
+  386,
+  396,
+  415,
+  433,
+  443
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "its. 1967",
+   "its 1967",
+   "ocr"
+  ],
+  [
+   87,
+   "Council. on",
+   "Council, on",
+   "ocr"
+  ],
+  [
+   175,
+   "who ave resisting",
+   "who are resisting",
+   "ocr"
+  ],
+  [
+   178,
+   "world .and",
+   "world and",
+   "spacing"
+  ],
+  [
+   265,
+   "conventious",
+   "conventions",
+   "ocr"
+  ],
+  [
+   338,
+   "of. American",
+   "of American",
+   "ocr"
+  ],
+  [
+   373,
+   "and. to",
+   "and to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e6352bdd954eb05aec930cb7911c7a8d270f4e6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 461,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 4148,
+  "words_out": 4108,
+  "retention": 0.9904,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   120,
+   165,
+   231,
+   175,
+   188,
+   161,
+   166,
+   202,
+   145,
+   183,
+   159,
+   77,
+   185,
+   93,
+   127,
+   103,
+   115,
+   302,
+   61,
+   118,
+   207,
+   69,
+   101,
+   80,
+   168,
+   165,
+   77,
+   165
+  ],
+  "warnings": []
+ }
+}

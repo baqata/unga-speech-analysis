@@ -1,0 +1,51 @@
+{
+ "id": "PSE_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  28,
+  50,
+  72,
+  83,
+  106,
+  134,
+  152,
+  164,
+  176
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e474f6ccab7397953de6e1a5c4a5210afb9fe6a8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1535,
+  "words_out": 1531,
+  "retention": 0.9974,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   117,
+   102,
+   186,
+   170,
+   91,
+   177,
+   223,
+   146,
+   88,
+   113,
+   118
+  ],
+  "warnings": []
+ }
+}

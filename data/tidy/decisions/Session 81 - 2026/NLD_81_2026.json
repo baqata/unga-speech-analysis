@@ -1,0 +1,127 @@
+{
+ "id": "NLD_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   43,
+   43,
+   "noise"
+  ],
+  [
+   120,
+   120,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  18,
+  31,
+  35,
+  45,
+  52,
+  56,
+  62,
+  71,
+  81,
+  92,
+  102,
+  108,
+  111,
+  118
+ ],
+ "cer": [
+  118
+ ],
+ "fix": [
+  [
+   26,
+   "thought us",
+   "taught us",
+   "asr_term"
+  ],
+  [
+   67,
+   "forced fires",
+   "forest fires",
+   "asr_term"
+  ],
+  [
+   113,
+   "Margraite",
+   "Margraten",
+   "asr_name"
+  ],
+  [
+   114,
+   "epithet",
+   "epitaph",
+   "asr_term"
+  ],
+  [
+   31,
+   "too. start",
+   "too. Start",
+   "asr_term"
+  ],
+  [
+   78,
+   "world. and",
+   "world and",
+   "asr_term"
+  ],
+  [
+   80,
+   "supply. and",
+   "supply. And",
+   "asr_term"
+  ],
+  [
+   110,
+   "out. the",
+   "out. The",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Netherlands American Cemetery at Margraten (Spanish 'Margraten'); forest fires per 'incendios forestales'; unit 44 continues the sentence of unit 42 ('Because ...'), so the ICC paragraph runs to 44. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 31 'too. start' -> 'too. Start'; unit 78 'world. and' -> 'world and'; unit 80 'supply. and' -> 'supply. And'; unit 110 'out. the' -> 'out. The'",
+ "unitizer_version": 1,
+ "sha1": "7edb94c3f40d54c96b207a8d9a3699e760c32a26",
+ "layout": "single",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2025,
+  "words_out": 1961,
+  "retention": 0.9684,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   115,
+   175,
+   172,
+   116,
+   170,
+   97,
+   84,
+   77,
+   156,
+   164,
+   149,
+   184,
+   75,
+   108,
+   113,
+   6
+  ],
+  "warnings": []
+ }
+}

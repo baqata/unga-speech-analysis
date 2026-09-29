@@ -1,0 +1,56 @@
+{
+ "id": "CZE_67_2012",
+ "drop": [
+  [
+   11,
+   12,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  27,
+  41,
+  50,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "f leeing",
+   "fleeing",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60e318e2a48f152d1d0dcb2f716b5f0392486951",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 706,
+  "words_out": 696,
+  "retention": 0.9858,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   79,
+   109,
+   127,
+   71,
+   188,
+   122
+  ],
+  "warnings": [
+   "procedural drop [11,12] in the middle of the speech"
+  ]
+ }
+}

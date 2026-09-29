@@ -1,0 +1,82 @@
+{
+ "id": "LKA_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  15,
+  20,
+  26,
+  33,
+  35,
+  41,
+  46,
+  49,
+  52,
+  56,
+  61,
+  66,
+  73,
+  80,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "Conference,' as",
+   "Conference, as",
+   "ocr"
+  ],
+  [
+   62,
+   "has deceived a recognition",
+   "has received a recognition",
+   "ocr"
+  ],
+  [
+   81,
+   "But 1 cannot",
+   "But I cannot",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 56-84 address the July 1983 communal violence in Sri Lanka.",
+ "unitizer_version": 1,
+ "sha1": "19927d66cd2b6a98582eac3e3256fec0fe42b70e",
+ "layout": "single",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2786,
+  "words_out": 2786,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   120,
+   187,
+   101,
+   167,
+   204,
+   207,
+   87,
+   210,
+   152,
+   63,
+   65,
+   95,
+   233,
+   139,
+   231,
+   205,
+   152,
+   168
+  ],
+  "warnings": []
+ }
+}

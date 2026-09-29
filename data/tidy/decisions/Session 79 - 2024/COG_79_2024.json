@@ -1,0 +1,49 @@
+{
+ "id": "COG_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  15,
+  21,
+  26,
+  30,
+  33,
+  38,
+  43
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b7c782e46042afe6c10a8c890102d5852142e146",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1275,
+  "words_out": 1273,
+  "retention": 0.9984,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   43,
+   123,
+   68,
+   177,
+   158,
+   140,
+   77,
+   76,
+   146,
+   147,
+   118
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "DEU_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  38,
+  53,
+  66,
+  74,
+  84,
+  104,
+  123,
+  131,
+  149,
+  163
+ ],
+ "cer": [],
+ "fix": [
+  [
+   62,
+   "conf lagration",
+   "conflagration",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "045210f92034489415f775e717a4353e15d2d9eb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1488,
+  "words_out": 1484,
+  "retention": 0.9973,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   148,
+   172,
+   129,
+   117,
+   69,
+   73,
+   164,
+   166,
+   72,
+   151,
+   124,
+   99
+  ],
+  "warnings": []
+ }
+}

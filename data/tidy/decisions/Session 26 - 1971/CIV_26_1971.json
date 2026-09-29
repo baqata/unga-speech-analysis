@@ -1,0 +1,182 @@
+{
+ "id": "CIV_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  15,
+  19,
+  26,
+  28,
+  33,
+  37,
+  43,
+  47,
+  48,
+  52,
+  55,
+  56,
+  63,
+  66,
+  68,
+  73,
+  79,
+  83,
+  86,
+  89,
+  95,
+  98,
+  104,
+  109,
+  114,
+  119,
+  120,
+  128,
+  129,
+  133,
+  136,
+  139,
+  141,
+  147,
+  151,
+  157,
+  160
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "tind",
+   "find",
+   "ocr"
+  ],
+  [
+   7,
+   "84* ",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "die Territories",
+   "the Territories",
+   "ocr"
+  ],
+  [
+   35,
+   "[resolution 1514 (XV}]",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "out critical",
+   "our critical",
+   "ocr"
+  ],
+  [
+   48,
+   "if?",
+   "is",
+   "ocr"
+  ],
+  [
+   51,
+   "citizens of South Africa,",
+   "citizens of South Africa.",
+   "ocr"
+  ],
+  [
+   76,
+   "purchased, gold",
+   "purchased gold",
+   "ocr"
+  ],
+  [
+   78,
+   "Africa, Beside the' victims",
+   "Africa. Beside the victims",
+   "ocr"
+  ],
+  [
+   113,
+   "the' occupied",
+   "the occupied",
+   "ocr"
+  ],
+  [
+   144,
+   "c complementary",
+   "complementary",
+   "ocr"
+  ],
+  [
+   152,
+   "final}/",
+   "finally",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4aee686b5200d8be9f9c858dc431ddde9f247c27",
+ "layout": "lines",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 4701,
+  "words_out": 4693,
+  "retention": 0.9983,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   129,
+   126,
+   182,
+   80,
+   158,
+   97,
+   97,
+   136,
+   108,
+   100,
+   92,
+   128,
+   100,
+   68,
+   143,
+   116,
+   69,
+   140,
+   240,
+   93,
+   132,
+   65,
+   194,
+   86,
+   191,
+   124,
+   105,
+   97,
+   72,
+   145,
+   41,
+   88,
+   97,
+   97,
+   77,
+   191,
+   160,
+   189,
+   89,
+   51
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "NRU_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  53,
+  61,
+  78,
+  92,
+  120,
+  137,
+  151
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c9eca265d8810ad86d388fd70894d8f547be9f6b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1313,
+  "words_out": 1312,
+  "retention": 0.9992,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   76,
+   162,
+   164,
+   73,
+   147,
+   104,
+   221,
+   144,
+   115,
+   106
+  ],
+  "warnings": []
+ }
+}

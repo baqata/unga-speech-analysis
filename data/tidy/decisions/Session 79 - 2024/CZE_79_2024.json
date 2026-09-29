@@ -1,0 +1,48 @@
+{
+ "id": "CZE_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  20,
+  30,
+  36,
+  44,
+  51
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   " (see A/78/ PV.5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ba9255a918c9c2345e4266325679c8e15c5add8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1095,
+  "words_out": 1090,
+  "retention": 0.9954,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   138,
+   110,
+   156,
+   161,
+   130,
+   160,
+   161,
+   74
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "id": "NER_39_1984",
+ "drop": [
+  [
+   86,
+   86,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  16,
+  19,
+  24,
+  27,
+  31,
+  35,
+  38,
+  41,
+  44,
+  49,
+  54,
+  58,
+  60,
+  69,
+  77,
+  81,
+  89,
+  92,
+  94
+ ],
+ "cer": [
+  0,
+  4,
+  10
+ ],
+ "fix": [
+  [
+   15,
+   "inevitable— which",
+   "inevitable—which",
+   "spacing"
+  ],
+  [
+   37,
+   "direction,",
+   "direction.",
+   "ocr"
+  ],
+  [
+   44,
+   "world peace, Therefore",
+   "world peace. Therefore",
+   "ocr"
+  ],
+  [
+   45,
+   "the Ml and",
+   "the full and",
+   "ocr"
+  ],
+  [
+   47,
+   "till",
+   "and",
+   "ocr"
+  ],
+  [
+   48,
+   "wed known",
+   "well known",
+   "ocr"
+  ],
+  [
+   67,
+   "fallen, In real",
+   "fallen, in real",
+   "ocr"
+  ],
+  [
+   67,
+   "1945, Thus",
+   "1945. Thus",
+   "ocr"
+  ],
+  [
+   67,
+   "famished",
+   "furnished",
+   "ocr"
+  ],
+  [
+   76,
+   "draught",
+   "drought",
+   "ocr"
+  ],
+  [
+   78,
+   "pained anything",
+   "gained anything",
+   "ocr"
+  ],
+  [
+   93,
+   "expectantly— they",
+   "expectantly—they",
+   "spacing"
+  ],
+  [
+   94,
+   " [CILSS]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4a2c0fff635bf28462934db76edb1fc6c6642d5e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3297,
+  "words_out": 3290,
+  "retention": 0.9979,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   123,
+   158,
+   129,
+   125,
+   137,
+   127,
+   76,
+   109,
+   165,
+   129,
+   157,
+   97,
+   229,
+   125,
+   148,
+   72,
+   208,
+   231,
+   213,
+   181,
+   79,
+   140,
+   132
+  ],
+  "warnings": []
+ }
+}

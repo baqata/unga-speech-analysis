@@ -1,0 +1,62 @@
+{
+ "id": "CIV_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  13,
+  16,
+  19,
+  26,
+  31,
+  38,
+  41,
+  45,
+  49,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   "2016- 2020",
+   "2016-2020",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "16a7997abe0c7f4a3060efaaa4b48635aaebbabd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1544,
+  "words_out": 1543,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   66,
+   124,
+   87,
+   71,
+   98,
+   92,
+   178,
+   121,
+   198,
+   87,
+   107,
+   119,
+   70,
+   125
+  ],
+  "warnings": []
+ }
+}

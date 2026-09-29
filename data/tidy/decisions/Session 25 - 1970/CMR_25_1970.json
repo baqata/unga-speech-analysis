@@ -1,0 +1,117 @@
+{
+ "id": "CMR_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  10,
+  12,
+  15,
+  19,
+  22,
+  24,
+  30,
+  32,
+  37,
+  42,
+  44,
+  48,
+  51,
+  55,
+  59,
+  64,
+  69,
+  72
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   0,
+   ": ",
+   "",
+   "label"
+  ],
+  [
+   26,
+   " [resolution 1904 (XVII1)]",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "\\ the resolution",
+   "; the resolution",
+   "ocr"
+  ],
+  [
+   30,
+   "a.negative",
+   "a negative",
+   "ocr"
+  ],
+  [
+   44,
+   "useless ness",
+   "uselessness",
+   "split_word"
+  ],
+  [
+   49,
+   "men*",
+   "mere",
+   "ocr"
+  ],
+  [
+   26,
+   " [resolution 217 A (III)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27040b649bb341f41e84892d17286ddb068f1f20",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 2814,
+  "words_out": 2799,
+  "retention": 0.9947,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   130,
+   67,
+   117,
+   111,
+   103,
+   170,
+   159,
+   145,
+   88,
+   226,
+   108,
+   191,
+   101,
+   87,
+   141,
+   136,
+   98,
+   155,
+   151,
+   153,
+   84,
+   78
+  ],
+  "warnings": []
+ }
+}

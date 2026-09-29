@@ -1,0 +1,108 @@
+{
+ "id": "SMR_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   124,
+   125,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  10,
+  16,
+  20,
+  27,
+  37,
+  46,
+  50,
+  58,
+  65,
+  72,
+  76,
+  83,
+  89,
+  92,
+  101,
+  107,
+  111,
+  120,
+  123
+ ],
+ "cer": [
+  1,
+  123
+ ],
+ "fix": [
+  [
+   1,
+   "80th Section",
+   "80th Session",
+   "asr_term"
+  ],
+  [
+   91,
+   "panel on AEI",
+   "panel on AI",
+   "asr_term"
+  ],
+  [
+   91,
+   "understanding of AEI",
+   "understanding of AI",
+   "asr_term"
+  ],
+  [
+   117,
+   "The UN-AIDS initiative",
+   "The UN80 initiative",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "919e4e97618c6a41515b10962f0da635b86fccbb",
+ "layout": "single",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2745,
+  "words_out": 2702,
+  "retention": 0.9843,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   105,
+   138,
+   155,
+   96,
+   157,
+   175,
+   132,
+   130,
+   137,
+   103,
+   169,
+   95,
+   194,
+   141,
+   124,
+   134,
+   166,
+   78,
+   187,
+   84,
+   2
+  ],
+  "warnings": []
+ }
+}

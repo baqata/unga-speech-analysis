@@ -1,0 +1,96 @@
+{
+ "id": "IDN_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  13,
+  15,
+  18,
+  23,
+  29,
+  34,
+  41,
+  48,
+  50,
+  59,
+  61,
+  65,
+  70,
+  75,
+  78,
+  81,
+  84,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "faculties,",
+   "faculties.",
+   "ocr"
+  ],
+  [
+   12,
+   "traits,",
+   "traits.",
+   "ocr"
+  ],
+  [
+   12,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   89,
+   "therefore.",
+   "therefore",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a54a7cca58ad0e856499ef26a0714c2173432bd3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 2983,
+  "words_out": 2979,
+  "retention": 0.9987,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   41,
+   112,
+   179,
+   65,
+   110,
+   190,
+   228,
+   194,
+   164,
+   202,
+   104,
+   224,
+   57,
+   117,
+   83,
+   114,
+   129,
+   210,
+   119,
+   179,
+   158
+  ],
+  "warnings": []
+ }
+}

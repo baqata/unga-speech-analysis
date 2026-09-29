@@ -1,0 +1,152 @@
+{
+ "id": "SLB_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   168,
+   168,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  14,
+  19,
+  25,
+  34,
+  40,
+  48,
+  54,
+  58,
+  65,
+  72,
+  78,
+  81,
+  86,
+  94,
+  103,
+  108,
+  120,
+  128,
+  137,
+  149,
+  150,
+  157,
+  166
+ ],
+ "cer": [
+  2,
+  166
+ ],
+ "fix": [
+  [
+   4,
+   "Mr. Phil Moniang",
+   "Mr. Philemon Yang",
+   "asr_name"
+  ],
+  [
+   6,
+   "Eight Years and More",
+   "Eighty Years and More",
+   "asr_term"
+  ],
+  [
+   46,
+   "ega omnis",
+   "erga omnes",
+   "asr_term"
+  ],
+  [
+   57,
+   "eight years and more",
+   "eighty years and more",
+   "asr_term"
+  ],
+  [
+   79,
+   "continental self-submissions",
+   "continental shelf submissions",
+   "asr_term"
+  ],
+  [
+   79,
+   "Continental Self,",
+   "Continental Shelf,",
+   "asr_name"
+  ],
+  [
+   87,
+   "The path of the future",
+   "The Pact of the Future",
+   "asr_term"
+  ],
+  [
+   103,
+   "the UN Aid Initiative",
+   "the UN80 Initiative",
+   "asr_name"
+  ],
+  [
+   104,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   115,
+   "tax-based negotiations",
+   "text-based negotiations",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "284791ea9c66474404a9052bb7936561c4d7bb05",
+ "layout": "single",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3378,
+  "words_out": 3333,
+  "retention": 0.9867,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   107,
+   184,
+   92,
+   102,
+   134,
+   156,
+   184,
+   161,
+   95,
+   104,
+   168,
+   118,
+   80,
+   100,
+   130,
+   151,
+   106,
+   182,
+   148,
+   187,
+   226,
+   15,
+   186,
+   197,
+   20
+  ],
+  "warnings": []
+ }
+}

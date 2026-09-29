@@ -1,0 +1,67 @@
+{
+ "id": "MKD_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  38,
+  43,
+  62,
+  85,
+  97,
+  107,
+  116,
+  134,
+  157,
+  177,
+  203,
+  216,
+  225,
+  238,
+  249
+ ],
+ "cer": [
+  0,
+  38,
+  107
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3c9114a3a29a55f832838e62128eff2cb741a39e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2233,
+  "words_out": 2230,
+  "retention": 0.9987,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   44,
+   121,
+   151,
+   42,
+   157,
+   201,
+   111,
+   91,
+   79,
+   153,
+   183,
+   182,
+   227,
+   121,
+   80,
+   114,
+   106,
+   67
+  ],
+  "warnings": []
+ }
+}

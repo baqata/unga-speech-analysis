@@ -1,0 +1,72 @@
+{
+ "id": "DOM_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  36,
+  55,
+  72,
+  94,
+  113,
+  130,
+  145,
+  160,
+  173,
+  188
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "begin. Sir,",
+   "begin, Sir,",
+   "ocr"
+  ],
+  [
+   8,
+   "diplomat.",
+   "diplomat,",
+   "ocr"
+  ],
+  [
+   79,
+   "COUP",
+   "coup",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f51718456fe23ff42e131430f7f35ff30faff33",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2276,
+  "words_out": 2276,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   129,
+   127,
+   149,
+   217,
+   191,
+   229,
+   226,
+   201,
+   175,
+   174,
+   151,
+   180,
+   127
+  ],
+  "warnings": []
+ }
+}

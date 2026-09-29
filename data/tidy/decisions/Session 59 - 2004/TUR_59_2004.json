@@ -1,0 +1,110 @@
+{
+ "id": "TUR_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  23,
+  34,
+  45,
+  65,
+  79,
+  90,
+  104,
+  115,
+  135,
+  151,
+  171,
+  182,
+  198,
+  212,
+  228,
+  242,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   93,
+   "Annanís",
+   "Annan’s",
+   "encoding"
+  ],
+  [
+   95,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ],
+  [
+   130,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ],
+  [
+   153,
+   "ìfrozenî",
+   "“frozen”",
+   "encoding"
+  ],
+  [
+   210,
+   "Iraqís",
+   "Iraq’s",
+   "encoding"
+  ],
+  [
+   223,
+   "Iraqís",
+   "Iraq’s",
+   "encoding"
+  ],
+  [
+   226,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b05206ceb25d148386e03a59237be69947c48f97",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2012,
+  "words_out": 2007,
+  "retention": 0.9975,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   52,
+   111,
+   76,
+   87,
+   154,
+   112,
+   89,
+   104,
+   90,
+   142,
+   121,
+   146,
+   80,
+   120,
+   104,
+   144,
+   103,
+   103,
+   69
+  ],
+  "warnings": []
+ }
+}

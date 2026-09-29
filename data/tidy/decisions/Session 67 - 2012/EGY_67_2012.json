@@ -1,0 +1,96 @@
+{
+ "id": "EGY_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  44,
+  60,
+  75,
+  95,
+  112,
+  128,
+  150,
+  167,
+  188,
+  205,
+  214,
+  233,
+  253,
+  271,
+  287,
+  300,
+  309,
+  317,
+  330,
+  353,
+  366,
+  383
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   34,
+   "f leeting",
+   "fleeting",
+   "split_word"
+  ],
+  [
+   258,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ],
+  [
+   367,
+   "brief ly",
+   "briefly",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "51feadcea4f95baef818408966cf3f30dc5d90a4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 398,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3382,
+  "words_out": 3379,
+  "retention": 0.9991,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   107,
+   147,
+   103,
+   122,
+   120,
+   161,
+   143,
+   156,
+   193,
+   140,
+   182,
+   150,
+   79,
+   165,
+   166,
+   149,
+   146,
+   103,
+   72,
+   76,
+   109,
+   187,
+   115,
+   145,
+   143
+  ],
+  "warnings": []
+ }
+}

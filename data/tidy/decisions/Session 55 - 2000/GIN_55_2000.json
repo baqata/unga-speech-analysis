@@ -1,0 +1,62 @@
+{
+ "id": "GIN_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  33,
+  57,
+  78,
+  95,
+  106,
+  119,
+  132,
+  142,
+  152,
+  169,
+  183,
+  192,
+  218,
+  229
+ ],
+ "cer": [
+  0,
+  15
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81d0e927cce077171723870eea7ea9ad4b830866",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1853,
+  "words_out": 1851,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   119,
+   129,
+   199,
+   170,
+   140,
+   82,
+   97,
+   105,
+   90,
+   83,
+   137,
+   98,
+   72,
+   201,
+   90,
+   39
+  ],
+  "warnings": []
+ }
+}

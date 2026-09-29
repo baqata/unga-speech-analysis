@@ -1,0 +1,103 @@
+{
+ "id": "MMR_09_1954",
+ "drop": [
+  [
+   114,
+   114,
+   "noise"
+  ],
+  [
+   119,
+   119,
+   "noise"
+  ],
+  [
+   123,
+   123,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  13,
+  17,
+  24,
+  36,
+  46,
+  53,
+  57,
+  64,
+  70,
+  81,
+  92,
+  94,
+  100,
+  102,
+  111,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   ".thus",
+   "this",
+   "ocr"
+  ],
+  [
+   112,
+   "fad",
+   "fact",
+   "ocr"
+  ],
+  [
+   128,
+   "have.",
+   "have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fcc2a924f368bb20dca2322c722bcdcee993d199",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 17
+  },
+  "words_in": 3296,
+  "words_out": 3290,
+  "retention": 0.9982,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   115,
+   195,
+   112,
+   228,
+   286,
+   189,
+   223,
+   163,
+   203,
+   187,
+   243,
+   276,
+   81,
+   161,
+   112,
+   179,
+   218,
+   119
+  ],
+  "warnings": []
+ }
+}

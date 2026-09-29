@@ -1,0 +1,70 @@
+{
+ "id": "NOR_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  18,
+  25,
+  30,
+  37,
+  39,
+  42,
+  47,
+  50,
+  58,
+  65,
+  71,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   53,
+   "wayit",
+   "way it",
+   "merged_word"
+  ],
+  [
+   61,
+   "conflict- related",
+   "conflict-related",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2837ce71998ec4560ab2aade9b66849c482671c7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1658,
+  "words_out": 1658,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   23,
+   52,
+   216,
+   105,
+   72,
+   153,
+   70,
+   88,
+   101,
+   99,
+   194,
+   131,
+   142,
+   145,
+   67
+  ],
+  "warnings": []
+ }
+}

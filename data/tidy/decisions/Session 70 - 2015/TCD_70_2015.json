@@ -1,0 +1,79 @@
+{
+ "id": "TCD_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  10,
+  12,
+  18,
+  20,
+  22,
+  26,
+  29,
+  32,
+  36,
+  39,
+  45,
+  50,
+  54,
+  59,
+  60,
+  65,
+  68,
+  70
+ ],
+ "cer": [
+  59,
+  68
+ ],
+ "fix": [
+  [
+   29,
+   "Israeli- Palestinian",
+   "Israeli-Palestinian",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3843e3d4958917c0d776c5c8a8d6050c933052c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1751,
+  "words_out": 1746,
+  "retention": 0.9971,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   83,
+   93,
+   75,
+   58,
+   188,
+   63,
+   70,
+   105,
+   79,
+   84,
+   81,
+   69,
+   125,
+   81,
+   92,
+   69,
+   47,
+   102,
+   91,
+   51,
+   40
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "ARE_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  10,
+  16,
+  19,
+  23,
+  25,
+  28,
+  31,
+  32,
+  36,
+  39,
+  43,
+  48,
+  51
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   6,
+   "Emirates 1 should",
+   "Emirates I should",
+   "ocr"
+  ],
+  [
+   14,
+   "hoped tor",
+   "hoped for",
+   "ocr"
+  ],
+  [
+   15,
+   "Israeli- Egyptian",
+   "Israeli-Egyptian",
+   "hyphen"
+  ],
+  [
+   21,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d6cde6347be2261131932a0ed52874a5cbca282",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2033,
+  "words_out": 2031,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   176,
+   51,
+   144,
+   100,
+   247,
+   80,
+   164,
+   65,
+   107,
+   73,
+   63,
+   143,
+   144,
+   119,
+   209,
+   99,
+   47
+  ],
+  "warnings": []
+ }
+}

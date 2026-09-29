@@ -1,0 +1,76 @@
+{
+ "id": "AFG_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  36,
+  44,
+  57,
+  73,
+  86,
+  94,
+  102,
+  112,
+  132
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   13,
+   "Afghanistanís",
+   "Afghanistan’s",
+   "encoding"
+  ],
+  [
+   29,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   70,
+   "Afghanistanís",
+   "Afghanistan’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ced9eb7095a5b3fe70ecd7255c288a59e59b6c9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1094,
+  "words_out": 1094,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   114,
+   94,
+   77,
+   61,
+   95,
+   122,
+   104,
+   54,
+   70,
+   67,
+   150,
+   86
+  ],
+  "warnings": []
+ }
+}

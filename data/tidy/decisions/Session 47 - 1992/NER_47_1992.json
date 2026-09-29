@@ -1,0 +1,131 @@
+{
+ "id": "NER_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  15,
+  20,
+  23,
+  26,
+  32,
+  35,
+  41,
+  46,
+  50,
+  54,
+  62,
+  66,
+  69,
+  72,
+  75,
+  78,
+  80
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   2,
+   "He should",
+   "We should",
+   "ocr"
+  ],
+  [
+   3,
+   "predecessor.",
+   "predecessor,",
+   "ocr"
+  ],
+  [
+   21,
+   "He witness",
+   "We witness",
+   "ocr"
+  ],
+  [
+   29,
+   "Gulf/",
+   "Gulf,",
+   "ocr"
+  ],
+  [
+   34,
+   "(1992). as",
+   "(1992), as",
+   "ocr"
+  ],
+  [
+   35,
+   "guest",
+   "quest",
+   "ocr"
+  ],
+  [
+   41,
+   "1986/",
+   "1986,",
+   "ocr"
+  ],
+  [
+   59,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   68,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   81,
+   "He are",
+   "We are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f477ae1ff4360398a9575d4d7a3c41f28671e27e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2182,
+  "words_out": 2182,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   149,
+   100,
+   137,
+   99,
+   129,
+   83,
+   98,
+   133,
+   81,
+   134,
+   109,
+   89,
+   110,
+   118,
+   107,
+   65,
+   79,
+   73,
+   67,
+   95,
+   127
+  ],
+  "warnings": []
+ }
+}

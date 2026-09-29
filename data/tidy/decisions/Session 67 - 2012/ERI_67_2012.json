@@ -1,0 +1,52 @@
+{
+ "id": "ERI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  29,
+  57,
+  66,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "(A/67/2)",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "f louted",
+   "flouted",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2fd779d734088f31496df0c974b8b20c7337e421",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 740,
+  "words_out": 738,
+  "retention": 0.9973,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   128,
+   116,
+   221,
+   73,
+   100,
+   100
+  ],
+  "warnings": []
+ }
+}

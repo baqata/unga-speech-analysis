@@ -1,0 +1,97 @@
+{
+ "id": "GIN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  47,
+  59,
+  73,
+  83,
+  98,
+  114,
+  134,
+  153,
+  166,
+  187,
+  203,
+  225,
+  244
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   2,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   6,
+   "tangible -results",
+   "tangible results",
+   "ocr"
+  ],
+  [
+   86,
+   "Biopatong",
+   "Boipatong",
+   "ocr"
+  ],
+  [
+   89,
+   "South african",
+   "South African",
+   "ocr"
+  ],
+  [
+   109,
+   "d'lvoire",
+   "d'Ivoire",
+   "ocr"
+  ],
+  [
+   208,
+   "guest",
+   "quest",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1f8777de43b00e850a6a1702266fc7617b23e868",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2679,
+  "words_out": 2679,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   153,
+   230,
+   123,
+   147,
+   102,
+   154,
+   177,
+   209,
+   214,
+   131,
+   215,
+   168,
+   231,
+   211,
+   134
+  ],
+  "warnings": []
+ }
+}

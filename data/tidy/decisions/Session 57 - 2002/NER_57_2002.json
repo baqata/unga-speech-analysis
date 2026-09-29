@@ -1,0 +1,61 @@
+{
+ "id": "NER_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  43,
+  56,
+  70,
+  83,
+  98,
+  113,
+  123,
+  135,
+  154,
+  174,
+  185,
+  195,
+  212,
+  231
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93eb45ad6769797ce9ba3275df9cec85f7c4b7eb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1996,
+  "words_out": 1993,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   178,
+   167,
+   112,
+   106,
+   103,
+   115,
+   116,
+   77,
+   100,
+   143,
+   163,
+   87,
+   77,
+   139,
+   143,
+   167
+  ],
+  "warnings": []
+ }
+}

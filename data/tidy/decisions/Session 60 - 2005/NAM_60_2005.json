@@ -1,0 +1,80 @@
+{
+ "id": "NAM_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  23,
+  31,
+  45,
+  60,
+  68,
+  82,
+  91,
+  108,
+  126,
+  141,
+  157
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "delegationís",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   24,
+   "Namibiaís",
+   "Namibia’s",
+   "encoding"
+  ],
+  [
+   77,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   158,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66a7f40e00b0e835fe7c54eff7792d26881bb9c3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 166,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1273,
+  "words_out": 1272,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   59,
+   111,
+   72,
+   107,
+   118,
+   68,
+   108,
+   69,
+   119,
+   125,
+   120,
+   123,
+   73
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "YUG_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  35,
+  56,
+  65,
+  77,
+  91
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 91 breaks off mid-sentence ('not only for us in Serbia and') and the next sentence starts; text appears to be missing in the source. Left as printed.",
+ "unitizer_version": 1,
+ "sha1": "72769ef8780ea276a41db2646a5a6d77ca295663",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 907,
+  "words_out": 907,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   160,
+   166,
+   186,
+   84,
+   107,
+   121,
+   83
+  ],
+  "warnings": []
+ }
+}

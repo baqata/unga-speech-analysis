@@ -1,0 +1,75 @@
+{
+ "id": "HTI_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  6,
+  11,
+  15,
+  21,
+  23,
+  28,
+  33,
+  37,
+  42,
+  48,
+  52,
+  54,
+  57
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   13,
+   "much- hoped-for",
+   "much-hoped-for",
+   "hyphen"
+  ],
+  [
+   40,
+   "infant- mortality",
+   "infant-mortality",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a13aa39edc1aa1518d985336a457a577afe2173a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1593,
+  "words_out": 1586,
+  "retention": 0.9956,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   49,
+   84,
+   89,
+   87,
+   111,
+   123,
+   92,
+   116,
+   111,
+   107,
+   109,
+   131,
+   80,
+   59,
+   85,
+   153
+  ],
+  "warnings": []
+ }
+}

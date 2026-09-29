@@ -1,0 +1,260 @@
+{
+ "id": "KWT_33_1978",
+ "drop": [
+  [
+   85,
+   85,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  22,
+  27,
+  30,
+  32,
+  38,
+  43,
+  49,
+  51,
+  56,
+  60,
+  64,
+  70,
+  74,
+  76,
+  77,
+  84,
+  88,
+  90,
+  94,
+  96,
+  100,
+  108,
+  115,
+  124,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you/ election",
+   "your election",
+   "ocr"
+  ],
+  [
+   2,
+   "thirty- second",
+   "thirty-second",
+   "spacing"
+  ],
+  [
+   2,
+   "that 6. the",
+   "that of the",
+   "ocr"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   3,
+   "countries,",
+   "countries.",
+   "ocr"
+  ],
+  [
+   4,
+   "reach,",
+   "reach.",
+   "ocr"
+  ],
+  [
+   10,
+   "The .decrease",
+   "The decrease",
+   "ocr"
+  ],
+  [
+   14,
+   "all -Members",
+   "all Members",
+   "ocr"
+  ],
+  [
+   21,
+   "cessation, of",
+   "cessation of",
+   "ocr"
+  ],
+  [
+   22,
+   "on\" the",
+   "on the",
+   "ocr"
+  ],
+  [
+   43,
+   "majority'.",
+   "majority.",
+   "ocr"
+  ],
+  [
+   44,
+   "bondage,",
+   "bondage.",
+   "ocr"
+  ],
+  [
+   48,
+   "Africa,",
+   "Africa.",
+   "ocr"
+  ],
+  [
+   54,
+   "the .Middle",
+   "the Middle",
+   "ocr"
+  ],
+  [
+   55,
+   "are. bound",
+   "are bound",
+   "ocr"
+  ],
+  [
+   56,
+   "and. tranquillity",
+   "and tranquillity",
+   "ocr"
+  ],
+  [
+   58,
+   "problem, Yet",
+   "problem. Yet",
+   "ocr"
+  ],
+  [
+   60,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   61,
+   "in, its",
+   "in its",
+   "ocr"
+  ],
+  [
+   63,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   71,
+   "rights, inhere are",
+   "rights. There are",
+   "ocr"
+  ],
+  [
+   86,
+   "people - of",
+   "people of",
+   "ocr"
+  ],
+  [
+   87,
+   "durable\" peace",
+   "durable peace",
+   "ocr"
+  ],
+  [
+   88,
+   "resolution,?",
+   "resolutions",
+   "ocr"
+  ],
+  [
+   119,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   123,
+   "they ate",
+   "they are",
+   "ocr"
+  ],
+  [
+   127,
+   "nations,",
+   "nations.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7253caf431749e8c610d19d3cc5b0c0abcafd99a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 3823,
+  "words_out": 3813,
+  "retention": 0.9974,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   199,
+   129,
+   120,
+   129,
+   149,
+   133,
+   77,
+   136,
+   107,
+   208,
+   56,
+   142,
+   163,
+   89,
+   175,
+   164,
+   68,
+   169,
+   141,
+   130,
+   75,
+   137,
+   66,
+   76,
+   231,
+   211,
+   180,
+   88,
+   65
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

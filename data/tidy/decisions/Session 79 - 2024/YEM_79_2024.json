@@ -1,0 +1,60 @@
+{
+ "id": "YEM_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  9,
+  12,
+  17,
+  21,
+  24,
+  27,
+  29,
+  32,
+  35,
+  39
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   "t he",
+   "the",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "07cf91f40def27ff1b83e26479c802ed23e4feb4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1796,
+  "words_out": 1795,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   96,
+   95,
+   69,
+   72,
+   179,
+   204,
+   176,
+   136,
+   125,
+   114,
+   146,
+   134,
+   167,
+   82
+  ],
+  "warnings": []
+ }
+}

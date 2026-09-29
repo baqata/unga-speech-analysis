@@ -1,0 +1,104 @@
+{
+ "id": "TCD_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  14,
+  17,
+  21,
+  24,
+  25,
+  27,
+  32,
+  37,
+  39,
+  44,
+  45,
+  47,
+  49,
+  52,
+  56,
+  62,
+  65,
+  67,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   20,
+   "seventy- fifth",
+   "seventy-fifth",
+   "hyphen"
+  ],
+  [
+   20,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   37,
+   "A1 Thani",
+   "Al Thani",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "044aec4be808039f8ab5c2ff3f41c87d87b45c8b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2269,
+  "words_out": 2263,
+  "retention": 0.9974,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   90,
+   109,
+   134,
+   97,
+   118,
+   140,
+   107,
+   72,
+   60,
+   154,
+   124,
+   122,
+   82,
+   70,
+   72,
+   128,
+   86,
+   100,
+   91,
+   107,
+   73,
+   113,
+   14
+  ],
+  "warnings": []
+ }
+}

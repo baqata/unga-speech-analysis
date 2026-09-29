@@ -1,0 +1,62 @@
+{
+ "id": "SLV_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  18,
+  21,
+  26,
+  31,
+  34,
+  38,
+  40,
+  46,
+  52,
+  54
+ ],
+ "cer": [],
+ "fix": [
+  [
+   50,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37e8bb901f472985a0f72f4732cf919cda7b7793",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1589,
+  "words_out": 1588,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   94,
+   105,
+   129,
+   100,
+   68,
+   150,
+   103,
+   104,
+   127,
+   71,
+   108,
+   192,
+   87,
+   150
+  ],
+  "warnings": []
+ }
+}

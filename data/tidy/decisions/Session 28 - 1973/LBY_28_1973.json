@@ -1,0 +1,122 @@
+{
+ "id": "LBY_28_1973",
+ "drop": [
+  [
+   71,
+   71,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  16,
+  20,
+  25,
+  29,
+  34,
+  36,
+  40,
+  43,
+  49,
+  51,
+  55,
+  60,
+  63,
+  66,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "aggression? within",
+   "aggressions within",
+   "ocr"
+  ],
+  [
+   23,
+   "Stat<. ,",
+   "States,",
+   "ocr"
+  ],
+  [
+   23,
+   "inter, ion",
+   "intention",
+   "ocr"
+  ],
+  [
+   31,
+   "Solutions",
+   "solutions",
+   "ocr"
+  ],
+  [
+   38,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   49,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   49,
+   "the:- efforts",
+   "their efforts",
+   "ocr"
+  ],
+  [
+   49,
+   "the, major",
+   "the major",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "46d3a7e9a11bb06d33350d87e7c91df743fb3d07",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2231,
+  "words_out": 2225,
+  "retention": 0.9973,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   132,
+   115,
+   206,
+   98,
+   169,
+   127,
+   140,
+   67,
+   164,
+   76,
+   187,
+   75,
+   109,
+   148,
+   77,
+   97,
+   168,
+   70
+  ],
+  "warnings": []
+ }
+}

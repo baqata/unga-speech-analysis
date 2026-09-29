@@ -1,0 +1,64 @@
+{
+ "id": "FIN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  16,
+  21,
+  27,
+  35,
+  44,
+  54,
+  58,
+  66,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "result- oriented",
+   "result-oriented",
+   "hyphen"
+  ],
+  [
+   75,
+   "17-29389 3/27 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "22e88f492dd13e568705e9119b7509b9057f3e85",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1286,
+  "words_out": 1283,
+  "retention": 0.9977,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   46,
+   138,
+   126,
+   65,
+   104,
+   134,
+   129,
+   125,
+   72,
+   112,
+   149,
+   83
+  ],
+  "warnings": []
+ }
+}

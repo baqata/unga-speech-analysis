@@ -1,0 +1,138 @@
+{
+ "id": "THA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  46,
+  60,
+  80,
+  91,
+  103,
+  123,
+  145,
+  158,
+  172,
+  195,
+  205,
+  224,
+  236,
+  255,
+  264,
+  277,
+  293,
+  311,
+  333
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   158,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   158,
+   "ln today",
+   "In today",
+   "ocr"
+  ],
+  [
+   171,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   189,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   205,
+   "Thailand?s",
+   "Thailand’s",
+   "encoding"
+  ],
+  [
+   215,
+   "children?s",
+   "children’s",
+   "encoding"
+  ],
+  [
+   229,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   243,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   293,
+   "Thailand?s",
+   "Thailand’s",
+   "encoding"
+  ],
+  [
+   301,
+   "delegation?s",
+   "delegation’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2ad5a5759d8191d5a2451e24ab25378ecd06dd0b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 348,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2930,
+  "words_out": 2929,
+  "retention": 0.9997,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   145,
+   246,
+   121,
+   184,
+   97,
+   105,
+   187,
+   176,
+   96,
+   116,
+   192,
+   81,
+   152,
+   106,
+   142,
+   80,
+   113,
+   135,
+   149,
+   181,
+   125
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "TUR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  33,
+  45,
+  58,
+  91,
+  112,
+  124,
+  134,
+  143,
+  154,
+  162,
+  173,
+  184,
+  196,
+  204,
+  219,
+  228,
+  240,
+  248,
+  265,
+  274,
+  284,
+  299,
+  312,
+  322,
+  334,
+  343
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   80,
+   "f lag",
+   "flag",
+   "split_word"
+  ],
+  [
+   131,
+   "brief ly",
+   "briefly",
+   "split_word"
+  ],
+  [
+   208,
+   "f led",
+   "fled",
+   "split_word"
+  ],
+  [
+   290,
+   "f lag",
+   "flag",
+   "split_word"
+  ],
+  [
+   291,
+   "f lying",
+   "flying",
+   "split_word"
+  ],
+  [
+   295,
+   "f lag",
+   "flag",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cbc1aadc206c6b612d462375455b7860904c78b8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 358,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 3069,
+  "words_out": 3062,
+  "retention": 0.9977,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   47,
+   94,
+   147,
+   99,
+   106,
+   316,
+   169,
+   103,
+   72,
+   75,
+   90,
+   80,
+   96,
+   94,
+   93,
+   62,
+   130,
+   78,
+   92,
+   69,
+   164,
+   76,
+   79,
+   124,
+   103,
+   84,
+   99,
+   81,
+   140
+  ],
+  "warnings": []
+ }
+}

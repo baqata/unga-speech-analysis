@@ -1,0 +1,74 @@
+{
+ "id": "GHA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  11,
+  17,
+  23,
+  29,
+  32,
+  37,
+  41,
+  46,
+  50,
+  56,
+  58,
+  64,
+  66,
+  69,
+  72,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f9ea8fa5ef27ae0e0bd58b4a53d03b663016076",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2080,
+  "words_out": 2079,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   51,
+   67,
+   136,
+   104,
+   178,
+   136,
+   69,
+   142,
+   165,
+   91,
+   99,
+   163,
+   67,
+   190,
+   72,
+   67,
+   76,
+   146,
+   60
+  ],
+  "warnings": []
+ }
+}

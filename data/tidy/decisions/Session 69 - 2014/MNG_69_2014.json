@@ -1,0 +1,76 @@
+{
+ "id": "MNG_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  30,
+  44,
+  68,
+  87,
+  99,
+  115,
+  134,
+  154,
+  175,
+  192
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   90,
+   "Permanent",
+   "",
+   "encoding"
+  ],
+  [
+   91,
+   "Representativeiority",
+   "priority",
+   "encoding"
+  ],
+  [
+   120,
+   "Permanent Representativeior",
+   "prior",
+   "encoding"
+  ],
+  [
+   161,
+   "Permanent Representativeiorities",
+   "priorities",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "A text-expansion substitution in the source replaced \"pr\" with \"Permanent Representative\" in units 90-91, 120 and 161 (priority, prior, priorities); repaired as processing debris.",
+ "unitizer_version": 1,
+ "sha1": "d47a84e8013a7172671f4a6e02bbfbf3ecd39805",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1502,
+  "words_out": 1497,
+  "retention": 0.9967,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   53,
+   180,
+   102,
+   174,
+   139,
+   91,
+   137,
+   132,
+   148,
+   149,
+   141,
+   51
+  ],
+  "warnings": []
+ }
+}

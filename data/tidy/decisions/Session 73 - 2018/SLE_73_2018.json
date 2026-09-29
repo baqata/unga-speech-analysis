@@ -1,0 +1,97 @@
+{
+ "id": "SLE_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  10,
+  13,
+  17,
+  21,
+  26,
+  30,
+  33,
+  38,
+  42,
+  46,
+  50,
+  52,
+  55,
+  58,
+  63,
+  68,
+  71,
+  74,
+  81,
+  85,
+  89
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   30,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ],
+  [
+   86,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea40020a83afd3f8483970e29d91390e602051ce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2427,
+  "words_out": 2424,
+  "retention": 0.9988,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   25,
+   96,
+   114,
+   65,
+   74,
+   85,
+   113,
+   116,
+   125,
+   99,
+   100,
+   155,
+   68,
+   71,
+   67,
+   92,
+   82,
+   114,
+   99,
+   79,
+   68,
+   166,
+   100,
+   164,
+   87
+  ],
+  "warnings": []
+ }
+}

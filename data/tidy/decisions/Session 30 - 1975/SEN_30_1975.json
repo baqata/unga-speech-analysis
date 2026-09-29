@@ -1,0 +1,181 @@
+{
+ "id": "SEN_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  12,
+  14,
+  19,
+  23,
+  27,
+  31,
+  33,
+  34,
+  36,
+  39,
+  41,
+  46,
+  49,
+  53,
+  57,
+  60,
+  65,
+  72,
+  75,
+  78,
+  82,
+  85,
+  87,
+  90,
+  91,
+  96,
+  99,
+  105,
+  109,
+  112,
+  116,
+  121,
+  125,
+  128,
+  131,
+  135,
+  137
+ ],
+ "cer": [
+  0,
+  3,
+  7
+ ],
+ "fix": [
+  [
+   10,
+   "lndependencia",
+   "Independencia",
+   "ocr"
+  ],
+  [
+   10,
+   " [PAIGC]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "1971,4",
+   "1971,",
+   "ocr"
+  ],
+  [
+   46,
+   "Internationa]",
+   "International",
+   "ocr"
+  ],
+  [
+   84,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "adopted,5",
+   "adopted,",
+   "ocr"
+  ],
+  [
+   93,
+   "problem-,",
+   "problem:",
+   "ocr"
+  ],
+  [
+   101,
+   "i>ea",
+   "Sea",
+   "ocr"
+  ],
+  [
+   109,
+   " [UNJ DO]",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "ot the",
+   "of the",
+   "ocr"
+  ],
+  [
+   113,
+   "Feace",
+   "Peace",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 113 keeps \"ear y\" and \"Women s\" (lost letters) and a lost full stop after \"1975\"; none can be repaired without adding characters.",
+ "unitizer_version": 1,
+ "sha1": "67fc9e06ea2640ae94f6791d9cb878cd8ae4cf9a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 67,
+   "page_number": 1
+  },
+  "words_in": 5256,
+  "words_out": 5243,
+  "retention": 0.9975,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   75,
+   156,
+   154,
+   96,
+   104,
+   173,
+   150,
+   117,
+   146,
+   79,
+   64,
+   94,
+   93,
+   82,
+   136,
+   120,
+   148,
+   181,
+   132,
+   116,
+   180,
+   123,
+   94,
+   125,
+   218,
+   155,
+   138,
+   96,
+   175,
+   103,
+   190,
+   129,
+   110,
+   201,
+   126,
+   120,
+   111,
+   77,
+   141,
+   92,
+   123
+  ],
+  "warnings": []
+ }
+}

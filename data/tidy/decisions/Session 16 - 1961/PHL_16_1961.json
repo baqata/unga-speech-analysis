@@ -1,0 +1,145 @@
+{
+ "id": "PHL_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  9,
+  13,
+  18,
+  28,
+  31,
+  34,
+  38,
+  45,
+  48,
+  54,
+  60,
+  67,
+  69,
+  77,
+  82,
+  86,
+  91,
+  96,
+  100
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  9,
+  100
+ ],
+ "fix": [
+  [
+   16,
+   ".Secretary-General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   22,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   28,
+   "assuming;",
+   "assuming",
+   "ocr"
+  ],
+  [
+   30,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   44,
+   "toward?",
+   "toward",
+   "ocr"
+  ],
+  [
+   47,
+   "the'",
+   "the",
+   "ocr"
+  ],
+  [
+   48,
+   "country*,",
+   "country,",
+   "ocr"
+  ],
+  [
+   55,
+   "that-",
+   "that",
+   "ocr"
+  ],
+  [
+   65,
+   "Stage",
+   "stage",
+   "ocr"
+  ],
+  [
+   68,
+   "decade;",
+   "decade.",
+   "ocr"
+  ],
+  [
+   91,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de51786270c82d3ed6678c71b794153b00e3d79e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 2863,
+  "words_out": 2858,
+  "retention": 0.9983,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   86,
+   32,
+   72,
+   88,
+   161,
+   288,
+   111,
+   156,
+   131,
+   204,
+   81,
+   147,
+   200,
+   135,
+   90,
+   215,
+   152,
+   91,
+   87,
+   169,
+   142,
+   20
+  ],
+  "warnings": []
+ }
+}

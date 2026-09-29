@@ -1,0 +1,121 @@
+{
+ "id": "BGR_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  9,
+  14,
+  16,
+  18,
+  23,
+  25,
+  30,
+  34,
+  37,
+  40,
+  46,
+  50,
+  52,
+  54,
+  60,
+  62,
+  69,
+  74,
+  78,
+  80,
+  85,
+  87,
+  90,
+  96,
+  98,
+  100
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "his I election",
+   "his election",
+   "ocr"
+  ],
+  [
+   5,
+   "a year I ago",
+   "a year ago",
+   "ocr"
+  ],
+  [
+   7,
+   "as s accidental",
+   "as accidental",
+   "ocr"
+  ],
+  [
+   9,
+   "but I stress",
+   "but stress",
+   "ocr"
+  ],
+  [
+   98,
+   "also .called",
+   "also called",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5084fab28baeac5b20c652bc72e74b6979f42917",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 3651,
+  "words_out": 3628,
+  "retention": 0.9937,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   110,
+   40,
+   106,
+   97,
+   209,
+   66,
+   77,
+   162,
+   95,
+   176,
+   133,
+   150,
+   80,
+   141,
+   144,
+   69,
+   69,
+   160,
+   127,
+   241,
+   160,
+   99,
+   127,
+   154,
+   85,
+   80,
+   161,
+   86,
+   109,
+   115
+  ],
+  "warnings": []
+ }
+}

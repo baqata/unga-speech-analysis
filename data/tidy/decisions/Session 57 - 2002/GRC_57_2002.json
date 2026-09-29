@@ -1,0 +1,70 @@
+{
+ "id": "GRC_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  28,
+  45,
+  56,
+  71,
+  87,
+  106,
+  123,
+  136,
+  152,
+  172,
+  190,
+  200,
+  211
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "(See",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "A/57/PV.2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c2dc841be0d4b7f4f703028e8ec2111aea6c51dd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1750,
+  "words_out": 1747,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   112,
+   87,
+   138,
+   99,
+   128,
+   128,
+   148,
+   139,
+   112,
+   126,
+   160,
+   124,
+   78,
+   90,
+   78
+  ],
+  "warnings": []
+ }
+}

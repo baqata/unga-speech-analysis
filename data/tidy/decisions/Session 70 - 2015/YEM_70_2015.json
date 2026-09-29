@@ -1,0 +1,68 @@
+{
+ "id": "YEM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  16,
+  24,
+  29,
+  36,
+  43,
+  49,
+  53,
+  60,
+  65,
+  72,
+  77
+ ],
+ "cer": [
+  0,
+  77
+ ],
+ "fix": [
+  [
+   51,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33c6c7a3abe176ffc269a8479dda782966c0585a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 4
+  },
+  "words_in": 1688,
+  "words_out": 1687,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   34,
+   116,
+   94,
+   128,
+   150,
+   123,
+   154,
+   149,
+   114,
+   107,
+   150,
+   92,
+   145,
+   65,
+   66
+  ],
+  "warnings": []
+ }
+}

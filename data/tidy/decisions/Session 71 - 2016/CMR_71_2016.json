@@ -1,0 +1,43 @@
+{
+ "id": "CMR_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  15,
+  20,
+  25,
+  32,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a62c2bb73adc5af9ceaeb1e4f1523ef230e7ea11",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 917,
+  "words_out": 914,
+  "retention": 0.9967,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   161,
+   113,
+   76,
+   95,
+   87,
+   128,
+   149,
+   105
+  ],
+  "warnings": []
+ }
+}

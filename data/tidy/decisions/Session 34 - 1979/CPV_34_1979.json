@@ -1,0 +1,159 @@
+{
+ "id": "CPV_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  9,
+  14,
+  18,
+  21,
+  25,
+  29,
+  36,
+  40,
+  43,
+  47,
+  51,
+  54,
+  59,
+  61,
+  62,
+  64,
+  67,
+  69,
+  75,
+  77,
+  79,
+  84,
+  86,
+  90,
+  93,
+  97
+ ],
+ "cer": [
+  9,
+  14,
+  18,
+  25
+ ],
+ "fix": [
+  [
+   7,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   15,
+   "Re-public",
+   "Republic",
+   "hyphen"
+  ],
+  [
+   21,
+   "position' 'at",
+   "position \"at",
+   "ocr"
+  ],
+  [
+   21,
+   "continents''",
+   "continents\"",
+   "ocr"
+  ],
+  [
+   22,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "spacing"
+  ],
+  [
+   36,
+   " [SWAFO]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "deep- seated",
+   "deep-seated",
+   "spacing"
+  ],
+  [
+   46,
+   "con-science",
+   "conscience",
+   "hyphen"
+  ],
+  [
+   59,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "safe-guard",
+   "safeguard",
+   "hyphen"
+  ],
+  [
+   63,
+   " [SALT]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec2fc54664f04e6f63c115ec1289950a843313c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 61
+  },
+  "words_in": 4165,
+  "words_out": 4159,
+  "retention": 0.9986,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   80,
+   177,
+   126,
+   149,
+   170,
+   129,
+   126,
+   159,
+   118,
+   252,
+   147,
+   89,
+   151,
+   192,
+   135,
+   192,
+   104,
+   65,
+   141,
+   135,
+   139,
+   200,
+   140,
+   96,
+   168,
+   76,
+   158,
+   133,
+   137,
+   75
+  ],
+  "warnings": []
+ }
+}

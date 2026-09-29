@@ -1,0 +1,66 @@
+{
+ "id": "TUV_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  15,
+  30,
+  40,
+  52,
+  63,
+  79,
+  88,
+  99,
+  115,
+  135,
+  148,
+  163,
+  180,
+  194,
+  205,
+  216
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cb270b5d62cc6223f261a318d4a5dda6dcef89f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1869,
+  "words_out": 1866,
+  "retention": 0.9984,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   44,
+   71,
+   124,
+   92,
+   105,
+   85,
+   129,
+   76,
+   82,
+   130,
+   149,
+   98,
+   117,
+   128,
+   118,
+   89,
+   86,
+   143
+  ],
+  "warnings": []
+ }
+}

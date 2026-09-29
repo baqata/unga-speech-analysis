@@ -1,0 +1,63 @@
+{
+ "id": "ESP_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  19,
+  45,
+  65,
+  79,
+  90,
+  117,
+  136,
+  159,
+  172,
+  183,
+  203,
+  218,
+  237,
+  246,
+  264
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1787fbe51868d5ef4798dbfdbc5e1723e05d091",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 283,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2211,
+  "words_out": 2208,
+  "retention": 0.9986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   34,
+   121,
+   192,
+   161,
+   103,
+   90,
+   219,
+   151,
+   175,
+   108,
+   82,
+   170,
+   122,
+   127,
+   66,
+   133,
+   154
+  ],
+  "warnings": []
+ }
+}

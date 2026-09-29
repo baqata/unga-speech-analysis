@@ -1,0 +1,52 @@
+{
+ "id": "SVN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  46,
+  59,
+  82,
+  104,
+  126,
+  142,
+  160,
+  173,
+  197
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a1b1897ff8f1ad1534bf48d95680513ca00baaa1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 3
+  },
+  "words_in": 1727,
+  "words_out": 1720,
+  "retention": 0.9959,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   174,
+   182,
+   98,
+   174,
+   182,
+   168,
+   110,
+   137,
+   108,
+   197,
+   190
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "BWA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  30,
+  40,
+  65,
+  77,
+  100,
+  131,
+  163,
+  190,
+  210,
+  239,
+  269,
+  300
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d43ef784af9fc06c5ef81c5706f947dd8534418d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2314,
+  "words_out": 2312,
+  "retention": 0.9991,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   123,
+   100,
+   72,
+   191,
+   90,
+   179,
+   234,
+   246,
+   198,
+   160,
+   222,
+   203,
+   225,
+   69
+  ],
+  "warnings": []
+ }
+}

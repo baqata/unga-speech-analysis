@@ -1,0 +1,260 @@
+{
+ "id": "KEN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   200,
+   200,
+   "presider"
+  ],
+  [
+   201,
+   201,
+   "noise"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  14,
+  20,
+  27,
+  42,
+  51,
+  60,
+  65,
+  73,
+  80,
+  89,
+  98,
+  102,
+  111,
+  117,
+  125,
+  136,
+  143,
+  154,
+  164,
+  174,
+  181,
+  184,
+  190,
+  198
+ ],
+ "cer": [
+  181,
+  198
+ ],
+ "fix": [
+  [
+   3,
+   "couch",
+   "scourge",
+   "asr_term"
+  ],
+  [
+   13,
+   "disassembly",
+   "this assembly",
+   "asr_term"
+  ],
+  [
+   13,
+   "covered",
+   "governed",
+   "asr_term"
+  ],
+  [
+   31,
+   "quadripled",
+   "quadrupled",
+   "asr_term"
+  ],
+  [
+   36,
+   "Hunker",
+   "Hunger",
+   "asr_term"
+  ],
+  [
+   135,
+   "government value",
+   "garment value",
+   "asr_term"
+  ],
+  [
+   135,
+   "treated area",
+   "free trade area",
+   "asr_term"
+  ],
+  [
+   137,
+   "Lamo",
+   "Lamu",
+   "asr_name"
+  ],
+  [
+   188,
+   "deaths",
+   "debts",
+   "asr_term"
+  ],
+  [
+   160,
+   "negotiations. negotiations",
+   "negotiations. Those negotiations",
+   "asr_term"
+  ],
+  [
+   4,
+   "small. and",
+   "small. And",
+   "asr_term"
+  ],
+  [
+   7,
+   "dependency. cooperation",
+   "dependency. Cooperation",
+   "asr_term"
+  ],
+  [
+   13,
+   "rule. decolonization",
+   "rule. Decolonization",
+   "asr_term"
+  ],
+  [
+   62,
+   "convenient. every",
+   "convenient. Every",
+   "asr_term"
+  ],
+  [
+   87,
+   "2024. developing",
+   "2024. Developing",
+   "asr_term"
+  ],
+  [
+   91,
+   "service. and",
+   "service and",
+   "asr_term"
+  ],
+  [
+   135,
+   "brand. cotton",
+   "brand. Cotton",
+   "asr_term"
+  ],
+  [
+   43,
+   "conflict, peace",
+   "peace",
+   "asr_term"
+  ],
+  [
+   74,
+   "as",
+   "at",
+   "asr_term"
+  ],
+  [
+   82,
+   "Confrance has there",
+   "confronts us there",
+   "asr_term"
+  ],
+  [
+   127,
+   "fast",
+   "vast",
+   "asr_term"
+  ],
+  [
+   128,
+   "Africa continental",
+   "African continental",
+   "asr_name"
+  ],
+  [
+   135,
+   "Africa continental",
+   "African continental",
+   "asr_name"
+  ],
+  [
+   138,
+   "billion. dollars,",
+   "billion,",
+   "asr_term"
+  ],
+  [
+   193,
+   "capital-served",
+   "capital serve",
+   "asr_term"
+  ],
+  [
+   27,
+   "digits",
+   "decades",
+   "slip"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Spanish confirms flagelo, gobernados, ocho decenios, prendas de vestir, libre comercio, Lamu, deudas; unit 201 after the presider is a misplaced stray decode of the phrase missing from unit 105. Main-agent audio check: unit 105 'The question, therefore, is available.' is what the English audio holds at 17:01 (p 0.96-1.00); the missing words ('not simply whether finance is') occur in the audio file itself at 32:59, after the presiding officer's closing thanks (unit 201): a splice fault in the UN recording. They cannot be moved back, so unit 201 stays dropped and gap_suspected stays. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 160 'negotiations. negotiations' -> 'negotiations. Those negotiations' (both re-decodes hear 'negotiations. Those negotiations began' (p 0.98)). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'small. and' -> 'small. And'; unit 7 'dependency. cooperation' -> 'dependency. Cooperation'; unit 13 'rule. decolonization' -> 'rule. Decolonization'; unit 62 'convenient. every' -> 'convenient. Every'; unit 87 '2024. developing' -> '2024. Developing'; unit 91 'service. and' -> 'service and'; unit 135 'brand. cotton' -> 'brand. Cotton'; unit 138 'billion. dollars,' -> 'billion dollars,'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 27 'digits' -> 'decades' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'eight digits' (decodes 0.95 / 0.95, four re-decodes 0.91-0.94, the UN transcript; forced scoring -8.5 vs 'decades' -15.9), which does not fit 'the highest number of documented incidences in eight digits of global conflict data'; the Spanish 'en los ocho decenios' shows 'decades'); spot 3 unit 43 'conflict, peace' -> 'peace' (repeated word: both decodes hear 'defend peace' with no second 'conflict' (0.98-1.00); ES 'prevenir el conflicto, defender la paz'; 'conflict,' alone occurs twice in the unit); spot 5 unit 74 'as' -> 'at' (both decodes hear 'at' (0.71 / 0.58); 'speak for itself as San Francisco' does not fit; ES 'no pudo hablar en San Francisco'); spot 6 unit 82 'Confrance has there' -> 'confronts us there' (both decodes hear 'there,' (0.94 / 0.91), as does UN; the existing repair's 'here' followed the Spanish interpreter ('aquí'), which cannot prove wording in an English-delivered speech; 'confronts us' kept; old is the existing repair's old); spot 10 unit 127 'fast' -> 'vast' (same sound; 'fast mineral wealth' does not fit; ES 'enormes riquezas minerales'; decodes write 'fast' (0.85 / 0.84)); spot 11 unit 128 'Africa continental' -> 'African continental' (official name is the African Continental Free Trade Area (AfCFTA); 'Africa'/'African' before 'continental' is the same sound; decodes 'Africa' only 0.67 / 0.69); spot 12 unit 135 'Africa continental' -> 'African continental' (official name African Continental Free Trade Area (AfCFTA); decodes 'Africa' 0.77 / 0.77; ES 'El área de libre comercio continental de África'); spot 13 unit 138 'billion. dollars,' -> 'billion,' ('dollars' doubled at a segment boundary after '$16 billion': both decodes hear '$16 billion, its' (1.00) with no second 'dollars'; ES '16 mil millones de dólares. Su significado'; old is the existing repair's old); spot 15 unit 193 'capital-served' -> 'capital serve' (both decodes hear 'capital -serve' (0.70 / 0.69); 'makes capital-served development' does not fit; ES 'que el capital sirva al desarrollo')",
+ "unitizer_version": 1,
+ "sha1": "5c755db1129fcb8c4cf87affd54a8040751efaf2",
+ "layout": "single",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3014,
+  "words_out": 2947,
+  "retention": 0.9778,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   105,
+   107,
+   114,
+   88,
+   155,
+   117,
+   124,
+   61,
+   86,
+   93,
+   143,
+   91,
+   70,
+   119,
+   80,
+   129,
+   183,
+   144,
+   133,
+   140,
+   160,
+   156,
+   73,
+   91,
+   175,
+   10
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

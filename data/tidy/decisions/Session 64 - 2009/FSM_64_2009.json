@@ -1,0 +1,59 @@
+{
+ "id": "FSM_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  24,
+  38,
+  58,
+  78,
+  92,
+  101,
+  116,
+  127,
+  143,
+  157,
+  171,
+  181,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "99abc4b1943e94da885a932bde72a6057941d709",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1631,
+  "words_out": 1629,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   43,
+   147,
+   105,
+   162,
+   163,
+   98,
+   66,
+   120,
+   87,
+   110,
+   111,
+   103,
+   84,
+   89,
+   141
+  ],
+  "warnings": []
+ }
+}

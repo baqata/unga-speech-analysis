@@ -1,0 +1,138 @@
+{
+ "id": "MLT_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  15,
+  23,
+  27,
+  31,
+  38,
+  44,
+  50,
+  53,
+  57,
+  60,
+  67,
+  72,
+  74,
+  77,
+  83,
+  88,
+  92,
+  94,
+  98,
+  104,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   4,
+   "Mr, Perez",
+   "Mr. Perez",
+   "ocr"
+  ],
+  [
+   4,
+   "problems, such",
+   "problems; such",
+   "ocr"
+  ],
+  [
+   10,
+   "nations/",
+   "nations,",
+   "ocr"
+  ],
+  [
+   29,
+   "deserves, we",
+   "deserves; we",
+   "ocr"
+  ],
+  [
+   32,
+   "we Intend",
+   "we intend",
+   "ocr"
+  ],
+  [
+   48,
+   "ignored}",
+   "ignored;",
+   "ocr"
+  ],
+  [
+   61,
+   "The Importance",
+   "The importance",
+   "ocr"
+  ],
+  [
+   67,
+   "ate foreseen",
+   "are foreseen",
+   "ocr"
+  ],
+  [
+   102,
+   "the International community",
+   "the international community",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "313a24c69b77553be75e93ffcb41f732ddf73f56",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3397,
+  "words_out": 3397,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   166,
+   167,
+   60,
+   109,
+   236,
+   111,
+   88,
+   244,
+   173,
+   162,
+   197,
+   102,
+   96,
+   177,
+   147,
+   78,
+   62,
+   175,
+   114,
+   104,
+   71,
+   120,
+   214,
+   153,
+   71
+  ],
+  "warnings": []
+ }
+}

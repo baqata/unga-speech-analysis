@@ -1,0 +1,76 @@
+{
+ "id": "CYP_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  7,
+  12,
+  17,
+  21,
+  24,
+  27,
+  30,
+  34,
+  40,
+  43,
+  47,
+  51,
+  53,
+  56,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   " (ibid)",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " (ibid. p. 26)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d6dd8109b512100536077fc7b8e58c7dbed9a54",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2223,
+  "words_out": 2216,
+  "retention": 0.9969,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   25,
+   174,
+   100,
+   127,
+   113,
+   111,
+   60,
+   109,
+   172,
+   144,
+   190,
+   109,
+   125,
+   110,
+   144,
+   103,
+   194,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "id": "UGA_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  53,
+  68,
+  83,
+  111,
+  133,
+  146,
+  260,
+  284
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   12,
+   "count y",
+   "country",
+   "split_word"
+  ],
+  [
+   14,
+   "well deserved",
+   "well-deserved",
+   "spacing"
+  ],
+  [
+   20,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   30,
+   "to well",
+   "to well-",
+   "spacing"
+  ],
+  [
+   37,
+   "clear cut",
+   "clear-cut",
+   "spacing"
+  ],
+  [
+   49,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   51,
+   "make believe",
+   "make-believe",
+   "spacing"
+  ],
+  [
+   53,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   89,
+   "front line",
+   "front-line",
+   "spacing"
+  ],
+  [
+   106,
+   "long standing",
+   "long-standing",
+   "spacing"
+  ],
+  [
+   114,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   122,
+   "betterthan",
+   "better than",
+   "merged_word"
+  ],
+  [
+   139,
+   "Korea wards",
+   "Korea towards",
+   "ocr"
+  ],
+  [
+   156,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   166,
+   "tor effective",
+   "for effective",
+   "ocr"
+  ],
+  [
+   167,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   183,
+   "proceedon",
+   "proceed on",
+   "merged_word"
+  ],
+  [
+   220,
+   "the thirty",
+   "the thirty-",
+   "spacing"
+  ],
+  [
+   233,
+   "the thirty",
+   "the thirty-",
+   "spacing"
+  ],
+  [
+   239,
+   "last year?",
+   "last year",
+   "ocr"
+  ],
+  [
+   245,
+   "sofar",
+   "so far",
+   "merged_word"
+  ],
+  [
+   254,
+   "counties",
+   "countries",
+   "ocr"
+  ],
+  [
+   260,
+   "39. ",
+   "",
+   "label"
+  ],
+  [
+   263,
+   "self reliance",
+   "self-reliance",
+   "spacing"
+  ],
+  [
+   266,
+   "Mie Economic",
+   "the Economic",
+   "ocr"
+  ],
+  [
+   270,
+   "escalation if",
+   "escalation of",
+   "ocr"
+  ],
+  [
+   276,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   281,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   292,
+   "re arming With",
+   "re-arming with",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts, so some paragraphs are long; a word is missing after \"economic\" in unit 191.",
+ "unitizer_version": 1,
+ "sha1": "d8c845cef25087e020f4d69f774169e4f62412c4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3321,
+  "words_out": 3303,
+  "retention": 0.9946,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   576,
+   153,
+   155,
+   298,
+   245,
+   144,
+   1201,
+   249,
+   282
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 576 words",
+   "paragraph at unit 146 has 1201 words",
+   "30 fixes"
+  ]
+ }
+}

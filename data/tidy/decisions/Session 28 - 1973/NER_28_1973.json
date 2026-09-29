@@ -1,0 +1,134 @@
+{
+ "id": "NER_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  12,
+  15,
+  20,
+  24,
+  27,
+  30,
+  33,
+  38,
+  42,
+  44,
+  47,
+  51,
+  59,
+  61,
+  64,
+  69,
+  72,
+  76,
+  81,
+  87,
+  89,
+  94,
+  97
+ ],
+ "cer": [
+  0,
+  3,
+  6
+ ],
+ "fix": [
+  [
+   3,
+   "our .support",
+   "our support",
+   "ocr"
+  ],
+  [
+   5,
+   "by. us",
+   "by us",
+   "ocr"
+  ],
+  [
+   15,
+   "ago.\" Indeed",
+   "ago. Indeed",
+   "ocr"
+  ],
+  [
+   41,
+   "PAIGC8 whom",
+   "PAIGC whom",
+   "ocr"
+  ],
+  [
+   58,
+   "Hamani,",
+   "Hamani.",
+   "ocr"
+  ],
+  [
+   87,
+   "6ur",
+   "our",
+   "ocr"
+  ],
+  [
+   91,
+   "world, financial",
+   "world financial",
+   "ocr"
+  ],
+  [
+   63,
+   " [UNCTAD]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e86758a348febdb63e954dd1017767e4b179ca0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3210,
+  "words_out": 3208,
+  "retention": 0.9994,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   102,
+   77,
+   117,
+   69,
+   109,
+   119,
+   130,
+   128,
+   65,
+   92,
+   148,
+   193,
+   101,
+   85,
+   118,
+   239,
+   69,
+   111,
+   148,
+   135,
+   105,
+   154,
+   136,
+   122,
+   151,
+   121,
+   64
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "id": "EGY_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  17,
+  21,
+  25,
+  30,
+  38,
+  43,
+  49,
+  51,
+  57,
+  62,
+  66,
+  71,
+  78,
+  82,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   50,
+   " [181 (II)]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " [A,/1323]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [181 (II)]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [303(IV)]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "world peace,",
+   "world peace.",
+   "ocr"
+  ],
+  [
+   81,
+   "political_ pressure",
+   "political pressure",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad534a228d7916b3df5fdb075381046085a1e387",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 2882,
+  "words_out": 2876,
+  "retention": 0.9979,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   70,
+   86,
+   140,
+   133,
+   112,
+   178,
+   147,
+   186,
+   157,
+   224,
+   71,
+   195,
+   214,
+   116,
+   103,
+   241,
+   191,
+   153,
+   159
+  ],
+  "warnings": []
+ }
+}

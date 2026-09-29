@@ -1,0 +1,264 @@
+{
+ "id": "LKA_33_1978",
+ "drop": [
+  [
+   169,
+   169,
+   "noise"
+  ],
+  [
+   189,
+   190,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  15,
+  23,
+  36,
+  39,
+  40,
+  44,
+  55,
+  61,
+  68,
+  72,
+  77,
+  85,
+  91,
+  96,
+  108,
+  118,
+  124,
+  126,
+  134,
+  141,
+  144,
+  147,
+  152,
+  161,
+  165,
+  173,
+  177,
+  180,
+  185,
+  191,
+  194,
+  200,
+  203,
+  211
+ ],
+ "cer": [
+  0,
+  9,
+  15,
+  23,
+  36,
+  39
+ ],
+ "fix": [
+  [
+   4,
+   "in .international",
+   "in international",
+   "ocr"
+  ],
+  [
+   6,
+   ". will",
+   "will",
+   "ocr"
+  ],
+  [
+   6,
+   "'conducting",
+   "conducting",
+   "ocr"
+  ],
+  [
+   10,
+   "President, Representatives",
+   "President. Representatives",
+   "ocr"
+  ],
+  [
+   25,
+   "and. harmony",
+   "and harmony",
+   "ocr"
+  ],
+  [
+   28,
+   "-all mankind",
+   "all mankind",
+   "ocr"
+  ],
+  [
+   30,
+   "learn or the",
+   "learn of the",
+   "ocr"
+  ],
+  [
+   53,
+   "limited, number",
+   "limited number",
+   "ocr"
+  ],
+  [
+   57,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "order,, No",
+   "order. No",
+   "ocr"
+  ],
+  [
+   65,
+   " [resolution 32/88J",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "18",
+   "",
+   "label"
+  ],
+  [
+   79,
+   " [see A/331235 and Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   125,
+   " [see resolution 32/86]",
+   "",
+   "label"
+  ],
+  [
+   125,
+   ", We",
+   ". We",
+   "ocr"
+  ],
+  [
+   133,
+   "\"hear not",
+   "hear not",
+   "ocr"
+  ],
+  [
+   179,
+   "20",
+   "",
+   "label"
+  ],
+  [
+   179,
+   " [see A/.33/256, para. 10]",
+   "",
+   "label"
+  ],
+  [
+   181,
+   "require'",
+   "require",
+   "ocr"
+  ],
+  [
+   181,
+   " [ibid., annex, para. 83]",
+   "",
+   "label"
+  ],
+  [
+   187,
+   "attach'",
+   "attach",
+   "ocr"
+  ],
+  [
+   187,
+   "21",
+   "",
+   "label"
+  ],
+  [
+   188,
+   ", .particularly",
+   ", particularly",
+   "ocr"
+  ],
+  [
+   188,
+   "resources..",
+   "resources.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Footnote text (units 169, 189-190) dropped; inline footnote markers removed.",
+ "unitizer_version": 1,
+ "sha1": "4352cb49e3dd0a9d34eb42c1bc8223d96ff1aeaa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 4071,
+  "words_out": 3959,
+  "retention": 0.9725,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   66,
+   53,
+   60,
+   152,
+   45,
+   43,
+   91,
+   186,
+   157,
+   159,
+   66,
+   128,
+   175,
+   106,
+   85,
+   201,
+   177,
+   126,
+   70,
+   119,
+   60,
+   50,
+   62,
+   90,
+   158,
+   93,
+   190,
+   98,
+   77,
+   131,
+   101,
+   74,
+   129,
+   72,
+   140,
+   169
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

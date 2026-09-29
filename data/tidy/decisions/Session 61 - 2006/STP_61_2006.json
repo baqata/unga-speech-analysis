@@ -1,0 +1,59 @@
+{
+ "id": "STP_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  34,
+  44,
+  59,
+  69,
+  82,
+  92,
+  113,
+  136,
+  158,
+  173,
+  190,
+  206,
+  226
+ ],
+ "cer": [
+  20
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f2840a17256e21d2a01bea1eec36c9e680580b5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1977,
+  "words_out": 1974,
+  "retention": 0.9985,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   170,
+   116,
+   90,
+   149,
+   84,
+   120,
+   75,
+   170,
+   181,
+   176,
+   125,
+   126,
+   128,
+   165,
+   99
+  ],
+  "warnings": []
+ }
+}

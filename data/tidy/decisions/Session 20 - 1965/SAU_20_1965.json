@@ -1,0 +1,96 @@
+{
+ "id": "SAU_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  15,
+  21,
+  26,
+  32,
+  41,
+  50,
+  58,
+  67,
+  78,
+  85,
+  91,
+  94,
+  99,
+  106,
+  114
+ ],
+ "cer": [
+  0,
+  2,
+  114
+ ],
+ "fix": [
+  [
+   1,
+   "155 ",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "Charter, In other",
+   "Charter. In other",
+   "ocr"
+  ],
+  [
+   33,
+   "hositilities",
+   "hostilities",
+   "ocr"
+  ],
+  [
+   47,
+   "it. appears",
+   "it appears",
+   "ocr"
+  ],
+  [
+   87,
+   "black Spot",
+   "black spot",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "783e275b964aa13d18ae7c0e148940794d42e8ee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2735,
+  "words_out": 2702,
+  "retention": 0.9879,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   91,
+   156,
+   152,
+   140,
+   101,
+   160,
+   162,
+   214,
+   142,
+   173,
+   252,
+   217,
+   201,
+   84,
+   107,
+   164,
+   167,
+   19
+  ],
+  "warnings": []
+ }
+}

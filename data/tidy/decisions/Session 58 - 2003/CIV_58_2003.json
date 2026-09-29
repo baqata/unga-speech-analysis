@@ -1,0 +1,69 @@
+{
+ "id": "CIV_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  40,
+  53,
+  66,
+  83,
+  105,
+  131,
+  151,
+  163,
+  170,
+  191,
+  206,
+  220,
+  246,
+  255,
+  272,
+  292,
+  308
+ ],
+ "cer": [
+  0,
+  20,
+  163
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "11fbe3d829967d54b6cf3f83f53e4fabcd93d58a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 328,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2507,
+  "words_out": 2501,
+  "retention": 0.9976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   154,
+   161,
+   103,
+   97,
+   132,
+   170,
+   202,
+   148,
+   89,
+   52,
+   158,
+   108,
+   107,
+   207,
+   69,
+   112,
+   150,
+   122,
+   160
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "PHL_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  9,
+  11,
+  13,
+  16,
+  20,
+  27,
+  31,
+  35,
+  41,
+  44,
+  48,
+  50,
+  54,
+  60,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   " ape",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "A stray token \"ape\" at the end of unit 7 is extraction debris and is removed.",
+ "unitizer_version": 1,
+ "sha1": "0528e8c2e80ebadfb8999e4294c200acab9212e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 6
+  },
+  "words_in": 2100,
+  "words_out": 2096,
+  "retention": 0.9981,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   120,
+   64,
+   76,
+   64,
+   116,
+   66,
+   112,
+   90,
+   192,
+   124,
+   94,
+   190,
+   113,
+   117,
+   65,
+   115,
+   150,
+   77,
+   151
+  ],
+  "warnings": []
+ }
+}

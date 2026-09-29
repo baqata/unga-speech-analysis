@@ -1,0 +1,135 @@
+{
+ "id": "MAR_28_1973",
+ "drop": [
+  [
+   27,
+   27,
+   "noise"
+  ],
+  [
+   31,
+   31,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  12,
+  15,
+  17,
+  19,
+  23,
+  28,
+  33,
+  37,
+  40,
+  44,
+  46,
+  48,
+  50,
+  55,
+  57,
+  60,
+  62,
+  65,
+  69,
+  70,
+  72
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "be-able",
+   "be able",
+   "ocr"
+  ],
+  [
+   14,
+   "Cuba. .The",
+   "Cuba. The",
+   "ocr"
+  ],
+  [
+   17,
+   "exclusion. even",
+   "exclusion, even",
+   "ocr"
+  ],
+  [
+   28,
+   "vis-4-vis",
+   "vis-à-vis",
+   "ocr"
+  ],
+  [
+   32,
+   "into-Arab",
+   "into Arab",
+   "ocr"
+  ],
+  [
+   35,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   50,
+   "well- understood",
+   "well-understood",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af870a7a7fcaf752f3b0d7d383756200cf1a152e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 3047,
+  "words_out": 3045,
+  "retention": 0.9993,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   118,
+   79,
+   285,
+   231,
+   87,
+   90,
+   115,
+   119,
+   168,
+   118,
+   121,
+   129,
+   62,
+   105,
+   84,
+   218,
+   105,
+   156,
+   114,
+   119,
+   161,
+   78,
+   76,
+   107
+  ],
+  "warnings": []
+ }
+}

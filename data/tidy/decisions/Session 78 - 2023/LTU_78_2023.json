@@ -1,0 +1,84 @@
+{
+ "id": "LTU_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  16,
+  26,
+  30,
+  36,
+  39,
+  47,
+  56,
+  65,
+  73
+ ],
+ "cer": [],
+ "fix": [
+  [
+   17,
+   "Europe.",
+   "Europe,",
+   "ocr"
+  ],
+  [
+   18,
+   "Asia.",
+   "Asia,",
+   "ocr"
+  ],
+  [
+   34,
+   "Meanwhile.",
+   "Meanwhile,",
+   "ocr"
+  ],
+  [
+   47,
+   "very beginning.",
+   "very beginning,",
+   "ocr"
+  ],
+  [
+   60,
+   "Later.",
+   "Later,",
+   "ocr"
+  ],
+  [
+   62,
+   "Finally.",
+   "Finally,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9ff2180d72ad574073be16a4c8516aa3bfcaf41",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1294,
+  "words_out": 1294,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   125,
+   132,
+   131,
+   104,
+   91,
+   89,
+   164,
+   140,
+   120,
+   87,
+   111
+  ],
+  "warnings": []
+ }
+}

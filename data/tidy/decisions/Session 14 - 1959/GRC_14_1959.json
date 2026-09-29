@@ -1,0 +1,215 @@
+{
+ "id": "GRC_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  20,
+  25,
+  32,
+  36,
+  39,
+  48,
+  55,
+  62,
+  70,
+  80,
+  84,
+  88,
+  95,
+  98,
+  108,
+  113,
+  120,
+  129,
+  137,
+  141,
+  147,
+  153
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "MThis",
+   "This",
+   "ocr"
+  ],
+  [
+   40,
+   "cannot- be",
+   "cannot be",
+   "ocr"
+  ],
+  [
+   52,
+   "security,",
+   "security.",
+   "ocr"
+  ],
+  [
+   55,
+   "urgent duly",
+   "urgent duty",
+   "ocr"
+  ],
+  [
+   59,
+   "bring do fruition",
+   "bring to fruition",
+   "ocr"
+  ],
+  [
+   62,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   68,
+   "59, ",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   69,
+   "relative, responsibilities",
+   "relative responsibilities",
+   "ocr"
+  ],
+  [
+   72,
+   "found; even",
+   "found even",
+   "ocr"
+  ],
+  [
+   72,
+   " [A/4132/Add,1]",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "haying",
+   "having",
+   "ocr"
+  ],
+  [
+   84,
+   "Charter, That",
+   "Charter. That",
+   "ocr"
+  ],
+  [
+   84,
+   "to. a notion",
+   "to a notion",
+   "ocr"
+  ],
+  [
+   88,
+   "we. all",
+   "we all",
+   "ocr"
+  ],
+  [
+   92,
+   "certain, progress",
+   "certain progress",
+   "ocr"
+  ],
+  [
+   102,
+   "Ab is",
+   "As is",
+   "ocr"
+  ],
+  [
+   125,
+   " [8G9thmeeting]",
+   "",
+   "label"
+  ],
+  [
+   134,
+   "matter, of",
+   "matter of",
+   "ocr"
+  ],
+  [
+   150,
+   "it is in",
+   "It is in",
+   "ocr"
+  ],
+  [
+   151,
+   "pertain",
+   "certain",
+   "ocr"
+  ],
+  [
+   154,
+   "will. be",
+   "will be",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 96 runs 'the General' straight into 'resolution recommended'; words appear to be missing.",
+ "unitizer_version": 1,
+ "sha1": "878dae915b05532f735698a7f1cc00a4ec62b5fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 35
+  },
+  "words_in": 3812,
+  "words_out": 3803,
+  "retention": 0.9976,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   149,
+   159,
+   151,
+   110,
+   171,
+   92,
+   91,
+   200,
+   156,
+   159,
+   223,
+   216,
+   99,
+   110,
+   168,
+   80,
+   173,
+   158,
+   221,
+   217,
+   145,
+   84,
+   200,
+   183,
+   88
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

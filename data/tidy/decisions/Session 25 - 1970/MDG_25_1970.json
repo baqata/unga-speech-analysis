@@ -1,0 +1,106 @@
+{
+ "id": "MDG_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  15,
+  18,
+  22,
+  26,
+  29,
+  33,
+  35,
+  38,
+  40,
+  43,
+  46,
+  49,
+  51,
+  55,
+  58,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "twenty--fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   0,
+   "the'General",
+   "the General",
+   "ocr"
+  ],
+  [
+   5,
+   "that 1 shall",
+   "that I shall",
+   "ocr"
+  ],
+  [
+   6,
+   "intervention ism",
+   "interventionism",
+   "split_word"
+  ],
+  [
+   12,
+   " [A/8001/Add.1 and Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee7f7d060b0eec344626e13f1d65fb0785172341",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2625,
+  "words_out": 2616,
+  "retention": 0.9966,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   168,
+   192,
+   94,
+   134,
+   102,
+   177,
+   188,
+   155,
+   104,
+   77,
+   142,
+   197,
+   138,
+   93,
+   111,
+   77,
+   139,
+   126,
+   94,
+   108
+  ],
+  "warnings": []
+ }
+}

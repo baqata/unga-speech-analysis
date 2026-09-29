@@ -1,0 +1,57 @@
+{
+ "id": "CRI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  14,
+  22,
+  27,
+  32,
+  35,
+  41,
+  46,
+  50,
+  53,
+  55,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ed5dbbea4e72fd9eda25471e985e2cb6616ca3c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1809,
+  "words_out": 1807,
+  "retention": 0.9989,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   34,
+   108,
+   115,
+   169,
+   168,
+   141,
+   136,
+   85,
+   148,
+   133,
+   115,
+   104,
+   81,
+   65,
+   205
+  ],
+  "warnings": []
+ }
+}

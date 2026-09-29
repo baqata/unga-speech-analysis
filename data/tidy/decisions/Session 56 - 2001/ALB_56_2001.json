@@ -1,0 +1,58 @@
+{
+ "id": "ALB_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  44,
+  56,
+  76,
+  94,
+  113,
+  131,
+  146,
+  165,
+  196,
+  216
+ ],
+ "cer": [],
+ "fix": [
+  [
+   171,
+   "Gˆteborg",
+   "Göteborg",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e704fcb603aa29790cd5ba7a4ab68a78a2a1cc4a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 230,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1817,
+  "words_out": 1815,
+  "retention": 0.9989,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   121,
+   256,
+   87,
+   143,
+   144,
+   145,
+   152,
+   128,
+   136,
+   240,
+   152,
+   111
+  ],
+  "warnings": []
+ }
+}

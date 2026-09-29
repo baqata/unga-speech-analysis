@@ -1,0 +1,148 @@
+{
+ "id": "SUR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  15,
+  20,
+  24,
+  29,
+  32,
+  36,
+  38,
+  41,
+  43,
+  46,
+  48,
+  51,
+  54,
+  58,
+  63,
+  66,
+  70,
+  74,
+  82,
+  86,
+  90,
+  92,
+  95,
+  101,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   20,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   28,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   36,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   49,
+   "an' extraneous",
+   "and extraneous",
+   "ocr"
+  ],
+  [
+   50,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   50,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   " [ANC]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "thirty- fifth",
+   "thirty-fifth",
+   "hyphen"
+  ],
+  [
+   84,
+   "the markers of",
+   "the markets of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c61c53b0e37af13c26e46d8842379c2e77a38d9d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 54
+  },
+  "words_in": 3513,
+  "words_out": 3505,
+  "retention": 0.9977,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   186,
+   111,
+   109,
+   109,
+   123,
+   128,
+   100,
+   95,
+   138,
+   61,
+   121,
+   97,
+   92,
+   91,
+   149,
+   110,
+   116,
+   144,
+   107,
+   125,
+   135,
+   171,
+   113,
+   89,
+   74,
+   86,
+   209,
+   168,
+   148
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "HTI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  16,
+  21,
+  24,
+  29,
+  32,
+  35,
+  39,
+  42,
+  47,
+  54,
+  60,
+  63,
+  69,
+  74,
+  80,
+  86,
+  90,
+  93,
+  96,
+  101,
+  105,
+  107,
+  114,
+  120
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   39,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   113,
+   "Port-au- Prince",
+   "Port-au-Prince",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d889041516494313eae3ffaecec39a552cb90af1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2975,
+  "words_out": 2971,
+  "retention": 0.9987,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   144,
+   90,
+   74,
+   87,
+   77,
+   74,
+   135,
+   130,
+   79,
+   91,
+   92,
+   123,
+   141,
+   130,
+   106,
+   88,
+   119,
+   133,
+   114,
+   98,
+   77,
+   83,
+   125,
+   102,
+   77,
+   145,
+   121,
+   116
+  ],
+  "warnings": []
+ }
+}

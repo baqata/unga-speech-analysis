@@ -1,0 +1,53 @@
+{
+ "id": "CYP_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  33,
+  56,
+  70,
+  89,
+  110,
+  141,
+  164,
+  184,
+  205
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "134e45df220318a0c767eb80944fc6c30ff42cdf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1778,
+  "words_out": 1773,
+  "retention": 0.9972,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   27,
+   51,
+   183,
+   165,
+   111,
+   165,
+   180,
+   250,
+   195,
+   154,
+   171,
+   121
+  ],
+  "warnings": []
+ }
+}

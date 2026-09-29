@@ -1,0 +1,74 @@
+{
+ "id": "VUT_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  20,
+  28,
+  35,
+  39,
+  43,
+  50,
+  57,
+  63,
+  69,
+  74,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "Russia- Ukraine",
+   "Russia-Ukraine",
+   "hyphen"
+  ],
+  [
+   76,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   76,
+   " (see A/77/ PV.4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76ceb6610ba72bdbff37aae0804b699aaf4da0d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1960,
+  "words_out": 1955,
+  "retention": 0.9974,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   157,
+   123,
+   162,
+   207,
+   141,
+   194,
+   108,
+   147,
+   178,
+   85,
+   142,
+   148,
+   66,
+   97
+  ],
+  "warnings": []
+ }
+}

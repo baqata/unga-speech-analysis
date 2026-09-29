@@ -1,0 +1,78 @@
+{
+ "id": "KOR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  17,
+  22,
+  25,
+  31,
+  36,
+  40,
+  45,
+  50,
+  55,
+  58,
+  64,
+  67,
+  69,
+  75,
+  77,
+  80,
+  83,
+  87
+ ],
+ "cer": [],
+ "fix": [
+  [
+   53,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "92f0892c730eb426039df99dd417acd4ea2835fa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2130,
+  "words_out": 2129,
+  "retention": 0.9995,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   61,
+   97,
+   130,
+   91,
+   112,
+   82,
+   93,
+   91,
+   109,
+   109,
+   112,
+   138,
+   71,
+   152,
+   72,
+   97,
+   117,
+   64,
+   88,
+   61,
+   71,
+   111
+  ],
+  "warnings": []
+ }
+}

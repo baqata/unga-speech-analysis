@@ -1,0 +1,107 @@
+{
+ "id": "MOZ_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  22,
+  40,
+  59,
+  71,
+  87,
+  109,
+  137,
+  152,
+  168,
+  180,
+  202,
+  220,
+  234,
+  247,
+  261,
+  269,
+  278,
+  288,
+  310,
+  325,
+  345
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   20,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   83,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   132,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   141,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   315,
+   "everyone?s",
+   "everyone’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c639f6db00668c8e3a577a5997d6c1b45c388c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 354,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2912,
+  "words_out": 2912,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   111,
+   68,
+   157,
+   150,
+   79,
+   130,
+   169,
+   238,
+   123,
+   134,
+   110,
+   182,
+   138,
+   125,
+   111,
+   121,
+   65,
+   80,
+   76,
+   181,
+   121,
+   165,
+   78
+  ],
+  "warnings": []
+ }
+}

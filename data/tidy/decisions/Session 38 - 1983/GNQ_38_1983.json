@@ -1,0 +1,147 @@
+{
+ "id": "GNQ_38_1983",
+ "drop": [
+  [
+   11,
+   11,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  6,
+  12,
+  14,
+  16,
+  18,
+  24,
+  27,
+  29,
+  31,
+  34,
+  37,
+  39,
+  42,
+  47,
+  49,
+  53,
+  55,
+  57,
+  61,
+  64,
+  66,
+  69,
+  72,
+  74,
+  76,
+  81,
+  84,
+  88
+ ],
+ "cer": [
+  5,
+  6
+ ],
+ "fix": [
+  [
+   17,
+   "cur country",
+   "our country",
+   "ocr"
+  ],
+  [
+   31,
+   "four comers",
+   "four corners",
+   "ocr"
+  ],
+  [
+   35,
+   "Mack South Africans",
+   "black South Africans",
+   "ocr"
+  ],
+  [
+   36,
+   "concern &t such",
+   "concern at such",
+   "ocr"
+  ],
+  [
+   64,
+   "[PLC]",
+   "[PLO]",
+   "ocr"
+  ],
+  [
+   69,
+   "peace and liability",
+   "peace and stability",
+   "ocr"
+  ],
+  [
+   72,
+   "1972.'",
+   "1972.",
+   "ocr"
+  ],
+  [
+   64,
+   "[PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d0afbf74a44d063bd9a5744fbbeba11ea3d94b9c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3389,
+  "words_out": 3387,
+  "retention": 0.9994,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   150,
+   91,
+   186,
+   104,
+   96,
+   85,
+   175,
+   171,
+   125,
+   121,
+   158,
+   100,
+   72,
+   84,
+   191,
+   126,
+   92,
+   64,
+   90,
+   108,
+   80,
+   85,
+   107,
+   101,
+   83,
+   77,
+   121,
+   140,
+   112,
+   92
+  ],
+  "warnings": []
+ }
+}

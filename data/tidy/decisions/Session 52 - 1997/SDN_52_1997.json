@@ -1,0 +1,83 @@
+{
+ "id": "SDN_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  22,
+  47,
+  60,
+  74,
+  88,
+  102,
+  120,
+  135,
+  147,
+  176,
+  198,
+  216,
+  225,
+  240,
+  249,
+  279,
+  298,
+  308
+ ],
+ "cer": [
+  0,
+  15
+ ],
+ "fix": [
+  [
+   306,
+   "(The Holy Koran,",
+   "",
+   "label"
+  ],
+  [
+   307,
+   "II:136).",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49ad8beb1b1eb15e9af24ddd2151e59b3af40dab",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 324,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2681,
+  "words_out": 2674,
+  "retention": 0.9974,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   113,
+   56,
+   197,
+   105,
+   112,
+   125,
+   111,
+   149,
+   133,
+   96,
+   247,
+   179,
+   162,
+   77,
+   130,
+   74,
+   254,
+   150,
+   71,
+   133
+  ],
+  "warnings": []
+ }
+}

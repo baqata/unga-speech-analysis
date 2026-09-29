@@ -1,0 +1,102 @@
+{
+ "id": "GHA_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  17,
+  35,
+  45,
+  71,
+  82,
+  90,
+  101,
+  114,
+  123,
+  131,
+  140,
+  158,
+  170,
+  178,
+  187,
+  198,
+  214,
+  227,
+  246,
+  258,
+  268,
+  277,
+  289
+ ],
+ "cer": [
+  289
+ ],
+ "fix": [
+  [
+   1,
+   "today`s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   131,
+   "Unfortunately.",
+   "Unfortunately,",
+   "ocr"
+  ],
+  [
+   147,
+   "Al-Shabaab.",
+   "Al-Shabaab,",
+   "ocr"
+  ],
+  [
+   253,
+   "area",
+   "are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a20afc027be770552cd039e3e44c69cbcb1df35a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 296,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2538,
+  "words_out": 2534,
+  "retention": 0.9984,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   84,
+   66,
+   162,
+   81,
+   219,
+   106,
+   69,
+   106,
+   110,
+   77,
+   60,
+   75,
+   149,
+   103,
+   73,
+   69,
+   90,
+   126,
+   109,
+   172,
+   96,
+   79,
+   78,
+   116,
+   59
+  ],
+  "warnings": []
+ }
+}

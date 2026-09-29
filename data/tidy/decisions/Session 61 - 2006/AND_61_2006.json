@@ -1,0 +1,61 @@
+{
+ "id": "AND_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  27,
+  39,
+  55,
+  74,
+  86,
+  107,
+  124,
+  135,
+  150,
+  165,
+  182,
+  192,
+  202,
+  218
+ ],
+ "cer": [
+  218
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1f6e3fc7f5fb1d4c9ea0029990aabb8f6c8d746",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 225,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1896,
+  "words_out": 1893,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   136,
+   91,
+   98,
+   132,
+   160,
+   97,
+   164,
+   140,
+   93,
+   129,
+   134,
+   147,
+   82,
+   80,
+   148,
+   62
+  ],
+  "warnings": []
+ }
+}

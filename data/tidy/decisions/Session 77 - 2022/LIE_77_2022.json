@@ -1,0 +1,54 @@
+{
+ "id": "LIE_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  18,
+  21,
+  26,
+  34,
+  43,
+  50,
+  58
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   " (resolution ES-11/1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7b798f0bec3be84dd67db3edced5ace07b3da33f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1449,
+  "words_out": 1443,
+  "retention": 0.9959,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   109,
+   138,
+   177,
+   88,
+   115,
+   154,
+   188,
+   234,
+   174,
+   66
+  ],
+  "warnings": []
+ }
+}

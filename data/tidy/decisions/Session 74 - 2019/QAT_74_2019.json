@@ -1,0 +1,94 @@
+{
+ "id": "QAT_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  14,
+  16,
+  18,
+  20,
+  23,
+  27,
+  30,
+  34,
+  38,
+  44,
+  48,
+  51,
+  55,
+  61,
+  65,
+  69,
+  73,
+  76,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   3,
+   "cross- border",
+   "cross-border",
+   "hyphen"
+  ],
+  [
+   63,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f16a7568a878ec9727ea196ce7601ee435b47443",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2514,
+  "words_out": 2509,
+  "retention": 0.998,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   83,
+   123,
+   120,
+   94,
+   100,
+   86,
+   113,
+   108,
+   134,
+   104,
+   130,
+   125,
+   118,
+   88,
+   105,
+   91,
+   135,
+   152,
+   138,
+   118,
+   77,
+   132,
+   35
+  ],
+  "warnings": []
+ }
+}

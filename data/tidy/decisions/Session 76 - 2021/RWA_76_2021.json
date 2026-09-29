@@ -1,0 +1,71 @@
+{
+ "id": "RWA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  22,
+  28
+ ],
+ "cer": [
+  0,
+  28
+ ],
+ "fix": [
+  [
+   0,
+   "• Excellency",
+   "Excellency",
+   "markup"
+  ],
+  [
+   1,
+   "• Excellency",
+   "Excellency",
+   "markup"
+  ],
+  [
+   2,
+   "• Excellencies",
+   "Excellencies",
+   "markup"
+  ],
+  [
+   3,
+   "• Distinguished",
+   "Distinguished",
+   "markup"
+  ],
+  [
+   25,
+   "fact- based",
+   "fact-based",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8de9b354d04ec54d328650828e30cdb826166e78",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 492,
+  "words_out": 487,
+  "retention": 0.9898,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   20,
+   113,
+   113,
+   92,
+   143,
+   6
+  ],
+  "warnings": []
+ }
+}

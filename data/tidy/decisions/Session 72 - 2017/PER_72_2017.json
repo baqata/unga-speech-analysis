@@ -1,0 +1,48 @@
+{
+ "id": "PER_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  16,
+  20,
+  23,
+  28
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "theCharter",
+   "the Charter",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f29e4f3716febbfdf111b2807453fdbac7df1a3c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 859,
+  "words_out": 860,
+  "retention": 1.0012,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   76,
+   128,
+   94,
+   113,
+   85,
+   138,
+   190,
+   36
+  ],
+  "warnings": []
+ }
+}

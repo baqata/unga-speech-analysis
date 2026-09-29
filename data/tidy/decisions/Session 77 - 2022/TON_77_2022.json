@@ -1,0 +1,114 @@
+{
+ "id": "TON_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  15,
+  21,
+  32,
+  38,
+  42,
+  45,
+  52,
+  57,
+  60,
+  64,
+  74,
+  80,
+  83,
+  88,
+  94,
+  97,
+  101,
+  104,
+  107,
+  111,
+  116,
+  121,
+  124,
+  129
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   63,
+   "risk- informed",
+   "risk-informed",
+   "hyphen"
+  ],
+  [
+   73,
+   "NCD- related",
+   "NCD-related",
+   "hyphen"
+  ],
+  [
+   119,
+   "sea- level",
+   "sea-level",
+   "hyphen"
+  ],
+  [
+   59,
+   "Tonga ain our",
+   "Tonga in our",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a75935a9bb37e15d078b07ddba0272399342bc0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2551,
+  "words_out": 2547,
+  "retention": 0.9984,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   104,
+   106,
+   68,
+   74,
+   83,
+   152,
+   99,
+   68,
+   82,
+   122,
+   72,
+   61,
+   64,
+   178,
+   79,
+   67,
+   107,
+   124,
+   64,
+   99,
+   48,
+   87,
+   64,
+   70,
+   104,
+   100,
+   133,
+   68
+  ],
+  "warnings": []
+ }
+}

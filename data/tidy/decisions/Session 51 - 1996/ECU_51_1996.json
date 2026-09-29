@@ -1,0 +1,72 @@
+{
+ "id": "ECU_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  28,
+  41,
+  61,
+  84,
+  94,
+  123,
+  151,
+  161,
+  172,
+  181,
+  199,
+  211,
+  233,
+  248,
+  265,
+  285
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   156,
+   "Rosal'a",
+   "Rosalía",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d51beea6fb1d25956ba39d83069f54b773d31c59",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 299,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2429,
+  "words_out": 2423,
+  "retention": 0.9975,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   110,
+   126,
+   104,
+   166,
+   182,
+   78,
+   216,
+   208,
+   80,
+   85,
+   64,
+   156,
+   96,
+   179,
+   115,
+   153,
+   187,
+   118
+  ],
+  "warnings": []
+ }
+}

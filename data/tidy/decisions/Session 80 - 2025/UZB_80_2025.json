@@ -1,0 +1,128 @@
+{
+ "id": "UZB_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   42,
+   42,
+   "repeat"
+  ],
+  [
+   86,
+   87,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  12,
+  20,
+  28,
+  36,
+  40,
+  46,
+  51,
+  56,
+  60,
+  65,
+  73,
+  79,
+  83,
+  85
+ ],
+ "cer": [
+  2,
+  85
+ ],
+ "fix": [
+  [
+   2,
+   "His Excellency Shafqat Mirziyev, President of the Republic of Uzbekistan ",
+   "",
+   "label"
+  ],
+  [
+   10,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   26,
+   "the By the year 2030, we intend to join ",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "ECOSOL",
+   "ECOSOC",
+   "asr_name"
+  ],
+  [
+   61,
+   "RLC",
+   "Aral Sea",
+   "asr_name"
+  ],
+  [
+   62,
+   "RLC",
+   "Aral Sea",
+   "asr_name"
+  ],
+  [
+   63,
+   "RLC",
+   "Aral Sea",
+   "asr_name"
+  ],
+  [
+   65,
+   "a water-scarce city",
+   "water scarcity",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "The name and title before the unit 2 greeting and the repeated opening words of unit 26 are removed with label fixes; unit 42 repeats unit 41.",
+ "unitizer_version": 1,
+ "sha1": "7a0e286e507a451e9d2df5001a556cef78bd0cd0",
+ "layout": "single",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {
+   "presider": 4,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 1736,
+  "words_out": 1634,
+  "retention": 0.9412,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   33,
+   157,
+   201,
+   138,
+   163,
+   130,
+   94,
+   77,
+   91,
+   76,
+   81,
+   126,
+   130,
+   88,
+   41,
+   8
+  ],
+  "warnings": []
+ }
+}

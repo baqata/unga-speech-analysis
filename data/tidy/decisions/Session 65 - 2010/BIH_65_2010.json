@@ -1,0 +1,43 @@
+{
+ "id": "BIH_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  46,
+  71,
+  86,
+  107,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "288913c90a47e3efc03ede0009291ef7bd10d7d0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1026,
+  "words_out": 1026,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   167,
+   204,
+   191,
+   117,
+   171,
+   119,
+   57
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "CRI_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   92,
+   92,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  3,
+  8,
+  20,
+  29,
+  37,
+  45,
+  52,
+  59,
+  63,
+  70,
+  77,
+  82,
+  89,
+  91
+ ],
+ "cer": [
+  1,
+  91
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ffd03679cc344c68757bddd8b99021c84ad76e4",
+ "layout": "single",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1734,
+  "words_out": 1701,
+  "retention": 0.981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   40,
+   96,
+   226,
+   169,
+   160,
+   115,
+   105,
+   156,
+   67,
+   112,
+   145,
+   142,
+   135,
+   31,
+   2
+  ],
+  "warnings": []
+ }
+}

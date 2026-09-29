@@ -1,0 +1,64 @@
+{
+ "id": "BRN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  15,
+  20,
+  25,
+  29,
+  32,
+  37,
+  40,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   29,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "012164aff0e14b24612988be78a6f7caa6052a58",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1146,
+  "words_out": 1144,
+  "retention": 0.9983,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   155,
+   67,
+   105,
+   90,
+   74,
+   114,
+   109,
+   85,
+   84,
+   99,
+   115,
+   47
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "BTN_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   10,
+   10,
+   "repeat"
+  ],
+  [
+   166,
+   167,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  13,
+  23,
+  37,
+  49,
+  57,
+  70,
+  85,
+  96,
+  106,
+  124,
+  135,
+  144,
+  155,
+  165
+ ],
+ "cer": [
+  165
+ ],
+ "fix": [
+  [
+   6,
+   "Jigmi Kessel Namge Wong Chok",
+   "Jigme Khesar Namgyel Wangchuck",
+   "asr_name"
+  ],
+  [
+   9,
+   "Gaelifu",
+   "Gelephu",
+   "asr_name"
+  ],
+  [
+   16,
+   "Gailifu",
+   "Gelephu",
+   "asr_name"
+  ],
+  [
+   16,
+   " are.",
+   "",
+   "label"
+  ],
+  [
+   157,
+   "Califu",
+   "Gelephu",
+   "asr_name"
+  ],
+  [
+   165,
+   "Tashi Dile",
+   "Tashi Delek",
+   "asr_term"
+  ],
+  [
+   34,
+   "nature? and",
+   "nature? And",
+   "asr_term"
+  ],
+  [
+   67,
+   "children. our",
+   "children our",
+   "asr_term"
+  ],
+  [
+   95,
+   "GMC. and",
+   "GMC and",
+   "asr_term"
+  ],
+  [
+   163,
+   "co-founders. because",
+   "co-founders. Because",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "King Jigme Khesar Namgyel Wangchuck and Gelephu Mindfulness City per official Bhutanese sources (gmc.bt); stray 'are.' after unit 15's sentence is speech-to-text debris; 'Thank you.' at unit 2 precedes the speaker's start and is treated as the presiding officer's. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 34 'nature? and' -> 'nature? And'; unit 67 'children. our' -> 'children our'; unit 95 'GMC. and' -> 'GMC and'; unit 163 'co-founders. because' -> 'co-founders. Because'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 10 dropped (repeat) (both decodes hear 'City.' then a single 'G.M.C.' (90.3-91.9 s) before 'And my sales pitch'; unit 9 already ends 'City, GMC.', so unit 10 'G.M.C.' doubles it at a segment boundary; ES has one 'GMC, por sus siglas')",
+ "unitizer_version": 1,
+ "sha1": "eec4e721947a05873fbbbdce46dc25074b58ddcd",
+ "layout": "single",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {
+   "presider": 5,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 1853,
+  "words_out": 1797,
+  "retention": 0.9698,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   90,
+   92,
+   134,
+   212,
+   82,
+   112,
+   154,
+   114,
+   181,
+   157,
+   119,
+   98,
+   158,
+   85,
+   9
+  ],
+  "warnings": []
+ }
+}

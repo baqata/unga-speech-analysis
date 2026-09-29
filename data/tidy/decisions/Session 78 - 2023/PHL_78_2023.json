@@ -1,0 +1,142 @@
+{
+ "id": "PHL_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  19,
+  24,
+  28,
+  34,
+  38,
+  45,
+  47,
+  52,
+  55,
+  58,
+  62,
+  65,
+  70,
+  74,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "War. conflicts",
+   "War, conflicts",
+   "ocr"
+  ],
+  [
+   10,
+   "law. which",
+   "law, which",
+   "ocr"
+  ],
+  [
+   14,
+   "Sea. in",
+   "Sea, in",
+   "ocr"
+  ],
+  [
+   20,
+   "Sea. which",
+   "Sea, which",
+   "ocr"
+  ],
+  [
+   20,
+   "Sea. declaring",
+   "Sea, declaring",
+   "ocr"
+  ],
+  [
+   22,
+   "free. open",
+   "free, open",
+   "ocr"
+  ],
+  [
+   24,
+   "War. the",
+   "War, the",
+   "ocr"
+  ],
+  [
+   28,
+   "year.",
+   "year,",
+   "ocr"
+  ],
+  [
+   33,
+   "law. exploit",
+   "law, exploit",
+   "ocr"
+  ],
+  [
+   38,
+   "ago. the",
+   "ago, the",
+   "ocr"
+  ],
+  [
+   46,
+   "2024. the",
+   "2024, the",
+   "ocr"
+  ],
+  [
+   48,
+   "well- integrated",
+   "well-integrated",
+   "hyphen"
+  ],
+  [
+   62,
+   "Romulo. a",
+   "Romulo, a",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President of the Philippines.",
+ "unitizer_version": 1,
+ "sha1": "1406195cc614ace5d78ceb22d8610cf67c1e2195",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2138,
+  "words_out": 2137,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   115,
+   162,
+   233,
+   193,
+   105,
+   121,
+   99,
+   195,
+   79,
+   115,
+   82,
+   83,
+   79,
+   114,
+   103,
+   84,
+   114,
+   61
+  ],
+  "warnings": []
+ }
+}

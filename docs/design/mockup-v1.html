@@ -1,0 +1,454 @@
+<meta charset="utf-8">
+<title>Voces de la Asamblea</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#F3F6F9; --panel:#FFFFFF; --ink:#0E2233; --ink-2:#3F5263; --muted:#6A7B8B; --line:#D9E2EA; --line-2:#EDF2F6;
+  --un:#009EDB; --un-text:#0077B8; --chip:#E3EDF6;
+  --s1:#0077B8; --s2:#CF3F0B; --s3:#9A58AF; --world:#6A7B8B;
+  --dot:#CAD4DC; --dot-theme:#86BFE0;
+  --q0:#E3EDF6; --q1:#B9DAEE; --q2:#6CBDE6; --q3:#1E90C8; --q4:#004987; --nodata:#EEF1F4; --land-line:#FFFFFF;
+  --sans:"Roboto", "Helvetica Neue", Arial, sans-serif; --cond:"Roboto Condensed", "Arial Narrow", "Roboto", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A131B; --panel:#101B25; --ink:#E7EEF4; --ink-2:#B8C5D1; --muted:#8497A8; --line:#223340; --line-2:#182631;
+    --un:#009EDB; --un-text:#4FBDEA; --chip:#16303F;
+    --s1:#009EDB; --s2:#E0701C; --s3:#A868BE; --world:#9AAABA;
+    --dot:#263744; --dot-theme:#1D5E86;
+    --q0:#17303F; --q1:#1B4D6B; --q2:#0B77AB; --q3:#33B3E6; --q4:#A9DEF6; --nodata:#16222C; --land-line:#101B25;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A131B; --panel:#101B25; --ink:#E7EEF4; --ink-2:#B8C5D1; --muted:#8497A8; --line:#223340; --line-2:#182631;
+  --un:#009EDB; --un-text:#4FBDEA; --chip:#16303F;
+  --s1:#009EDB; --s2:#E0701C; --s3:#A868BE; --world:#9AAABA;
+  --dot:#263744; --dot-theme:#1D5E86;
+  --q0:#17303F; --q1:#1B4D6B; --q2:#0B77AB; --q3:#33B3E6; --q4:#A9DEF6; --nodata:#16222C; --land-line:#101B25;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font:14px/1.45 var(--sans); padding-inline:16px; padding-block:0 40px}
+.wrap{max-width:1360px; margin:0 auto}
+header.top{display:flex; align-items:flex-end; justify-content:space-between; gap:16px; padding-block:22px 14px; border-bottom:3px solid var(--un)}
+.lockup{font:600 12px/1 var(--cond); letter-spacing:.09em; text-transform:uppercase; color:var(--un-text)}
+h1{font:700 34px/1.05 var(--cond); margin:6px 0 4px; letter-spacing:-.01em; text-wrap:balance}
+.sub{color:var(--ink-2); margin:0}
+.badge{font:600 11px/1 var(--cond); letter-spacing:.08em; text-transform:uppercase; color:var(--muted); border:1px solid var(--line); padding:6px 8px; border-radius:3px; white-space:nowrap}
+
+.controls{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--bg); display:flex; flex-wrap:wrap; gap:14px 22px; align-items:flex-end; padding-block:12px}
+.ctl{display:flex; flex-direction:column; gap:5px}
+.ctl > span{font:600 11px/1 var(--cond); letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.slots{display:flex; gap:8px; flex-wrap:wrap}
+.slot{display:flex; align-items:center; gap:6px; background:var(--panel); border:1px solid var(--line); border-radius:4px; padding:0 4px 0 8px; height:34px}
+.slot i{width:10px; height:10px; border-radius:50%; flex:none}
+select{font:500 13px var(--sans); color:var(--ink); background:transparent; border:0; height:32px; max-width:190px; cursor:pointer}
+.slot select:focus-visible, .theme:focus-visible, button:focus-visible, input:focus-visible{outline:2px solid var(--un); outline-offset:2px}
+.theme{background:var(--panel); border:1px solid var(--line); border-radius:4px; padding:0 6px; height:34px; min-width:230px}
+.years{display:flex; align-items:center; gap:10px; background:var(--panel); border:1px solid var(--line); border-radius:4px; height:34px; padding:0 10px 0 4px}
+.years button{font:600 12px var(--cond); letter-spacing:.04em; border:0; border-radius:3px; padding:5px 9px; cursor:pointer; background:transparent; color:var(--ink-2)}
+.years button[aria-pressed="true"]{background:var(--chip); color:var(--un-text)}
+.years input{width:210px; accent-color:var(--un)}
+.years output{font:700 15px var(--cond); min-width:40px; font-variant-numeric:tabular-nums}
+
+.kpis{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-block:6px 16px}
+.kpi{background:var(--panel); border:1px solid var(--line); border-radius:4px; padding:12px 14px; display:flex; flex-direction:column; gap:2px; border-top:3px solid var(--c, var(--world))}
+.kpi .who{font:600 13px var(--cond); letter-spacing:.02em; color:var(--ink-2)}
+.kpi .val{font:700 30px/1.1 var(--cond); font-variant-numeric:tabular-nums}
+.kpi .cmp{font-size:12.5px; color:var(--muted)}
+.kpi .cmp b{color:var(--ink); font-weight:600}
+
+.grid{display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:16px}
+.col{display:flex; flex-direction:column; gap:16px; min-width:0}
+.panel{background:var(--panel); border:1px solid var(--line); border-radius:4px; padding:14px 16px; min-width:0; position:relative}
+.panel h2{font:700 18px/1.2 var(--cond); margin:0; text-wrap:balance}
+.panel .hint{color:var(--muted); font-size:12.5px; margin:2px 0 10px}
+#semWrap{position:relative; height:620px}
+#sem{width:100%; height:100%; display:block; cursor:crosshair; touch-action:none}
+.legend{display:flex; flex-wrap:wrap; gap:6px 14px; font-size:12.5px; color:var(--ink-2); margin-top:8px}
+.legend span{display:inline-flex; align-items:center; gap:6px}
+.legend i{width:9px; height:9px; border-radius:50%}
+#world svg, #trend svg{display:block; width:100%; height:auto}
+.scale{display:flex; align-items:center; gap:0; font-size:11.5px; color:var(--muted); margin-top:6px; flex-wrap:wrap}
+.scale i{width:34px; height:9px; margin-right:2px}
+.scale em{font-style:normal; margin-right:10px; margin-left:4px}
+.tip{position:absolute; pointer-events:none; background:var(--ink); color:var(--panel); font-size:12.5px; padding:6px 9px; border-radius:3px; white-space:nowrap; z-index:10; opacity:0; transition:opacity .08s}
+.tip b{font-weight:600}
+.bottom{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); gap:16px; margin-top:16px}
+.tabs{display:flex; gap:6px; margin-bottom:6px; flex-wrap:wrap}
+.tabs button{font:600 12.5px var(--cond); background:transparent; color:var(--ink-2); border:1px solid var(--line); border-radius:3px; padding:5px 10px; cursor:pointer; display:inline-flex; gap:6px; align-items:center}
+.tabs button i{width:8px; height:8px; border-radius:50%}
+.tabs button[aria-pressed="true"]{border-color:var(--ink-2); color:var(--ink)}
+#cloud{height:300px}
+#cloud svg{width:100%; height:100%; display:block}
+.quotes{display:flex; flex-direction:column; gap:10px}
+.quote{border-left:3px solid var(--c); padding:2px 0 2px 12px}
+.quote .meta{font:600 12.5px var(--cond); letter-spacing:.02em; color:var(--ink-2); display:flex; gap:8px; align-items:center}
+.quote .meta small{font:600 10px var(--cond); letter-spacing:.08em; color:var(--muted); border:1px solid var(--line); border-radius:2px; padding:1px 4px}
+.quote p{margin:4px 0 0; font-size:13.5px; line-height:1.5; max-width:72ch}
+.empty{color:var(--muted); font-size:13px; padding:20px 0}
+footer{color:var(--muted); font-size:12px; margin-top:22px; border-top:1px solid var(--line); padding-top:10px}
+@media (max-width:980px){ .grid,.bottom{grid-template-columns:minmax(0,1fr)} .kpis{grid-template-columns:repeat(2,minmax(0,1fr))} #semWrap{height:460px} }
+@media (max-width:520px){ h1{font-size:27px} .years input{width:120px} .theme{min-width:0; width:100%} .ctl{width:100%} #semWrap{height:380px} header.top{flex-direction:column; align-items:flex-start} }
+@media (prefers-reduced-motion: reduce){ .tip{transition:none} }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="lockup">UNODC · Región Andina y Cono Sur</div>
+      <h1>Voces de la Asamblea</h1>
+      <p class="sub">Lo que dicen los países en el Debate General de la ONU, 1946–2025</p>
+    </div>
+    <div class="badge">Maqueta · datos preliminares</div>
+  </header>
+
+  <section class="controls" aria-label="Filtros">
+    <label class="ctl"><span>Comparar</span>
+      <div class="slots">
+        <div class="slot"><i style="background:var(--s1)"></i><select id="slot0" aria-label="Selección 1"></select></div>
+        <div class="slot"><i style="background:var(--s2)"></i><select id="slot1" aria-label="Selección 2"></select></div>
+        <div class="slot"><i style="background:var(--s3)"></i><select id="slot2" aria-label="Selección 3"></select></div>
+      </div>
+    </label>
+    <label class="ctl"><span>Tema</span><select id="theme" class="theme"></select></label>
+    <div class="ctl"><span>Año</span>
+      <div class="years">
+        <button id="allYears" aria-pressed="true">Todos</button>
+        <input id="year" type="range" min="1946" max="2025" value="2025" aria-label="Año">
+        <output id="yearOut">—</output>
+      </div>
+    </div>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="Resumen"></section>
+
+  <div class="grid">
+    <section class="panel">
+      <h2>Mapa de conversaciones</h2>
+      <p class="hint">Cada punto es un fragmento de un discurso. Puntos cercanos hablan de lo mismo.</p>
+      <div id="semWrap"><canvas id="sem"></canvas><div class="tip" id="semTip"></div></div>
+      <div class="legend" id="semLegend"></div>
+    </section>
+    <div class="col">
+      <section class="panel" id="worldPanel">
+        <h2 id="worldTitle">¿Dónde se habla más del tema?</h2>
+        <p class="hint" id="worldHint"></p>
+        <div id="world"></div>
+        <div class="scale" id="worldScale"></div>
+        <div class="tip" id="worldTip"></div>
+      </section>
+      <section class="panel" id="trendPanel">
+        <h2>¿Cómo ha cambiado?</h2>
+        <p class="hint">Porcentaje del discurso dedicado al tema, promedio de 3 años</p>
+        <div id="trend"></div>
+        <div class="tip" id="trendTip"></div>
+      </section>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <section class="panel">
+      <h2>Palabras que los distinguen</h2>
+      <p class="hint">Más grande = la usan más que el resto del mundo al hablar del tema</p>
+      <div class="tabs" id="cloudTabs"></div>
+      <div id="cloud"></div>
+    </section>
+    <section class="panel">
+      <h2>Lo que dicen</h2>
+      <p class="hint">Fragmentos originales, en inglés</p>
+      <div class="quotes" id="quotes"></div>
+    </section>
+  </div>
+
+  <footer>Fuente: UN General Debate Corpus (Jankin, Baturo y Dasandi 2025; Baturo, Dasandi y Mikhaylov 2017). Maqueta con un modelo de texto simplificado; las cifras cambiarán en la versión final.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.7/d3.layout.cloud.min.js"></script>
+<script id="data" type="application/json">/*DATA*/</script>
+<script id="geo" type="application/json">/*GEO*/</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('data').textContent);
+const G = JSON.parse(document.getElementById('geo').textContent);
+const Y0 = 1946, Y1 = 2025;
+const nf = new Intl.NumberFormat('es', {maximumFractionDigits: 1, minimumFractionDigits: 1});
+const pct = v => v == null || isNaN(v) ? '—' : nf.format(v * 100) + ' %';
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+// ---------- decode ----------
+const bin = Uint8Array.from(atob(D.points), c => c.charCodeAt(0));
+const N = bin.length / 8, dv = new DataView(bin.buffer);
+const PX = new Float32Array(N), PY = new Float32Array(N), PS = new Uint16Array(N), PK = new Uint8Array(N), PF = new Uint8Array(N);
+for (let i = 0; i < N; i++) { const o = i * 8; PX[i] = dv.getUint16(o, true) / 65535; PY[i] = 1 - dv.getUint16(o + 2, true) / 65535; PS[i] = dv.getUint16(o + 4, true); PK[i] = bin[o + 6]; PF[i] = bin[o + 7]; }
+const SC = D.speeches.map(s => s[0]), SY = D.speeches.map(s => s[1]), ST = D.speeches.map(s => s[2]);
+const MC = D.speeches.map((_, i) => D.mc[i] || null);
+const byCountry = D.countries.map(() => []);
+SC.forEach((c, i) => byCountry[c].push(i));
+
+// ---------- selection options ----------
+const OPTS = [{v: '', label: '— Ninguno —'}]
+  .concat(D.groups.map(g => ({v: 'g:' + g.id, label: g.name, members: new Set(g.members)})))
+  .concat(D.countries.map((c, i) => ({v: 'c:' + c.iso, label: c.name, members: new Set([i]), country: true}))
+    .sort((a, b) => a.label.localeCompare(b.label, 'es')));
+const OPT = Object.fromEntries(OPTS.map(o => [o.v, o]));
+const state = {slots: ['g:ROCOL', 'g:BRICS', 'g:UE'], theme: 'all', year: null, cloudSlot: 0};
+['slot0', 'slot1', 'slot2'].forEach((id, s) => {
+  const el = document.getElementById(id);
+  const g1 = document.createElement('optgroup'); g1.label = 'Grupos';
+  const g2 = document.createElement('optgroup'); g2.label = 'Países';
+  const none = new Option(OPTS[0].label, ''); el.append(none, g1, g2);
+  OPTS.slice(1).forEach(o => (o.country ? g2 : g1).append(new Option(o.label, o.v)));
+  el.value = state.slots[s];
+  el.addEventListener('change', () => { state.slots[s] = el.value; update(); });
+});
+const themeEl = document.getElementById('theme');
+themeEl.append(new Option('Todo lo relacionado con UNODC', 'all'));
+D.mandate.forEach((m, j) => themeEl.append(new Option(m, String(j))));
+themeEl.addEventListener('change', () => { state.theme = themeEl.value; update(); });
+const yearEl = document.getElementById('year'), yearOut = document.getElementById('yearOut'), allBtn = document.getElementById('allYears');
+yearEl.addEventListener('input', () => { state.year = +yearEl.value; update(); });
+allBtn.addEventListener('click', () => { state.year = null; update(); });
+
+const themeIdx = () => state.theme === 'all' ? D.mandate.map((_, j) => j) : [+state.theme];
+const themeName = () => state.theme === 'all' ? 'temas UNODC' : D.mandate[+state.theme].toLowerCase();
+const inPeriod = y => state.year == null || y === state.year;
+const active = () => state.slots.map((v, s) => ({s, v, o: OPT[v]})).filter(x => x.v);
+const slotColor = s => css('--s' + (s + 1));
+function share(i, T) { const m = MC[i]; if (!m || !ST[i]) return 0; let n = 0; for (const j of T) n += m[j]; return n / ST[i]; }
+function meanShare(pred, T) { let a = 0, n = 0; for (let i = 0; i < SC.length; i++) if (pred(i) && ST[i]) { a += share(i, T); n++; } return n ? a / n : null; }
+
+// ---------- KPIs ----------
+function drawKpis() {
+  const T = themeIdx();
+  const w = meanShare(i => inPeriod(SY[i]), T);
+  const per = state.year ?? 'todos los años';
+  const tiles = active().map(({s, o}) => {
+    const v = meanShare(i => o.members.has(SC[i]) && inPeriod(SY[i]), T);
+    const r = v != null && w ? v / w : null;
+    return `<div class="kpi" style="--c:var(--s${s + 1})"><div class="who">${o.label}</div><div class="val">${pct(v)}</div>
+      <div class="cmp">${r == null ? 'Sin discursos en el periodo' : `<b>${nf.format(r)}×</b> el promedio mundial`}</div></div>`;
+  });
+  tiles.push(`<div class="kpi"><div class="who">Mundo</div><div class="val">${pct(w)}</div><div class="cmp">del discurso habla de ${themeName()} · ${per}</div></div>`);
+  document.getElementById('kpis').innerHTML = tiles.join('');
+}
+
+// ---------- semantic map (canvas) ----------
+const cv = document.getElementById('sem'), ctx = cv.getContext('2d'), wrap = document.getElementById('semWrap');
+let tf = d3.zoomIdentity, cw = 0, ch = 0, PAD = 18;
+let ptSlot = new Int8Array(N);
+const qt = d3.quadtree().x(i => PX[i]).y(i => PY[i]).addAll(d3.range(N));
+function resize() {
+  const r = wrap.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+  cw = r.width; ch = r.height; cv.width = cw * dpr; cv.height = ch * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+const sx = x => tf.applyX(PAD + x * (cw - 2 * PAD)), sy = y => tf.applyY(PAD + y * (ch - 2 * PAD));
+function computeSlots() {
+  const act = active().map(a => ({...a, size: a.o.members.size})).sort((a, b) => a.size - b.size || a.s - b.s);
+  const cSlot = new Int8Array(D.countries.length).fill(-1);
+  for (const a of act.slice().reverse()) for (const c of a.o.members) cSlot[c] = a.s;
+  for (const a of act) for (const c of a.o.members) if (a.size <= (act.find(x => x.s === cSlot[c])?.size ?? 1e9)) cSlot[c] = a.s;
+  for (let i = 0; i < N; i++) { const s = PS[i]; ptSlot[i] = inPeriod(SY[s]) ? cSlot[SC[s]] : -1; }
+}
+function drawSem() {
+  ctx.clearRect(0, 0, cw, ch);
+  const T = new Set(themeIdx()), r = Math.max(1.1, Math.min(2.4, 1.1 * Math.sqrt(tf.k)));
+  const layers = [[css('--dot'), i => ptSlot[i] < 0 && !T.has(PF[i]), r], [css('--dot-theme'), i => ptSlot[i] < 0 && T.has(PF[i]), r]];
+  [2, 1, 0].forEach(s => layers.push([slotColor(s), i => ptSlot[i] === s, r + 0.3, state.year ? 1 : 0.55]));
+  for (const [col, pred, rad, alpha = 1] of layers) {
+    ctx.globalAlpha = alpha; ctx.fillStyle = col; ctx.beginPath();
+    for (let i = 0; i < N; i++) if (pred(i)) { const x = sx(PX[i]), y = sy(PY[i]); if (x > -3 && x < cw + 3 && y > -3 && y < ch + 3) ctx.rect(x - rad, y - rad, rad * 2, rad * 2); }
+    ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  // labels: greedy, larger clusters first
+  const placed = [], ink = css('--ink'), ink2 = css('--ink-2'), bg = css('--panel');
+  const cents = D.centroids.slice().sort((a, b) => (b[0] === 18) - (a[0] === 18) || b[3] - a[3]);
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  for (const [k, x, y] of cents) {
+    const X = sx(x), Y = sy(1 - y), label = D.macro[k], mand = k === 18;
+    ctx.font = `${mand ? 700 : 600} ${mand ? 13 : 11.5}px "Roboto Condensed", "Arial Narrow", sans-serif`;
+    const w = ctx.measureText(label).width + 8, h = mand ? 18 : 15;
+    const box = [X - w / 2, Y - h / 2, X + w / 2, Y + h / 2];
+    if (box[0] < 0 || box[2] > cw || box[1] < 0 || box[3] > ch) continue;
+    if (placed.some(b => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) continue;
+    placed.push(box);
+    ctx.lineWidth = 3.5; ctx.strokeStyle = bg; ctx.lineJoin = 'round'; ctx.strokeText(label, X, Y);
+    ctx.fillStyle = mand ? css('--un-text') : ink2; ctx.fillText(label, X, Y);
+  }
+}
+d3.select(cv).call(d3.zoom().scaleExtent([1, 14]).on('zoom', e => { tf = e.transform; drawSem(); }));
+const semTip = document.getElementById('semTip');
+cv.addEventListener('mousemove', e => {
+  const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+  const dx = (tf.invertX(mx) - PAD) / (cw - 2 * PAD), dy = (tf.invertY(my) - PAD) / (ch - 2 * PAD);
+  const rad = 7 / (tf.k * (cw - 2 * PAD));
+  const i = qt.find(dx, dy, rad);
+  if (i == null) { semTip.style.opacity = 0; return; }
+  const s = PS[i], c = D.countries[SC[s]];
+  const topic = PF[i] !== 255 ? D.mandate[PF[i]] : D.macro[PK[i]];
+  semTip.innerHTML = `<b>${c.name}</b> · ${SY[s]}<br>${topic}`;
+  semTip.style.left = Math.min(mx + 12, cw - 180) + 'px'; semTip.style.top = (my + 12) + 'px'; semTip.style.opacity = 1;
+});
+cv.addEventListener('mouseleave', () => semTip.style.opacity = 0);
+function drawSemLegend() {
+  const items = active().map(({s, o}) => `<span><i style="background:var(--s${s + 1})"></i>${o.label}</span>`);
+  items.push(`<span><i style="background:var(--dot-theme)"></i>${state.theme === 'all' ? 'Temas UNODC' : D.mandate[+state.theme]}</span>`);
+  items.push(`<span><i style="background:var(--dot)"></i>Resto del mundo</span>`);
+  document.getElementById('semLegend').innerHTML = items.join('');
+}
+
+// ---------- world map ----------
+const feats = topojson.feature(G, G.objects.countries).features.filter(f => f.id !== '010');
+const numIdx = Object.fromEntries(D.countries.map((c, i) => [c.num, i]));
+const worldEl = document.getElementById('world'), worldTip = document.getElementById('worldTip');
+const WW = 640, WH = 330;
+const proj = d3.geoEqualEarth().fitExtent([[4, 4], [WW - 4, WH - 4]], {type: 'FeatureCollection', features: feats});
+const path = d3.geoPath(proj);
+const wsvg = d3.select(worldEl).append('svg').attr('viewBox', `0 0 ${WW} ${WH}`).attr('role', 'img').attr('aria-label', 'Mapa mundial');
+const wpaths = wsvg.append('g').selectAll('path').data(feats).join('path').attr('d', path);
+const wsel = wsvg.append('g');
+function drawWorld() {
+  const T = themeIdx();
+  const val = D.countries.map((_, c) => { const sp = byCountry[c].filter(i => inPeriod(SY[i]) && ST[i]); return sp.length ? d3.mean(sp, i => share(i, T)) : null; });
+  const vals = val.filter(v => v != null && v > 0);
+  const qs = vals.length ? d3.scaleQuantile().domain(vals).range([1, 2, 3, 4]).quantiles() : [];
+  const cols = ['--q0', '--q1', '--q2', '--q3', '--q4'].map(css);
+  const colOf = v => v == null ? css('--nodata') : v === 0 ? cols[0] : cols[1 + d3.bisectRight(qs, v)];
+  wpaths.attr('fill', f => colOf(val[numIdx[f.id]] ?? null)).attr('stroke', css('--land-line')).attr('stroke-width', 0.4);
+  // selection outlines
+  const outl = [];
+  active().forEach(({s, o}) => feats.forEach(f => { const c = numIdx[f.id]; if (c != null && o.members.has(c)) outl.push({f, s, n: o.members.size}); }));
+  outl.sort((a, b) => b.n - a.n);
+  wsel.selectAll('path').data(outl).join('path').attr('d', d => path(d.f)).attr('fill', 'none').attr('stroke', d => slotColor(d.s)).attr('stroke-width', 1.4).attr('pointer-events', 'none');
+  wpaths.on('mousemove', (e, f) => {
+    const c = numIdx[f.id]; if (c == null) return;
+    const r = document.getElementById('worldPanel').getBoundingClientRect();
+    worldTip.innerHTML = `<b>${D.countries[c].name}</b><br>${val[c] == null ? 'Sin discurso' : pct(val[c])}`;
+    worldTip.style.left = Math.min(e.clientX - r.left + 12, r.width - 150) + 'px'; worldTip.style.top = (e.clientY - r.top + 12) + 'px'; worldTip.style.opacity = 1;
+  }).on('mouseleave', () => worldTip.style.opacity = 0);
+  document.getElementById('worldTitle').textContent = state.theme === 'all' ? '¿Dónde se habla más de temas UNODC?' : `¿Dónde se habla más de ${themeName()}?`;
+  document.getElementById('worldHint').textContent = state.year ? `Año ${state.year}` : 'Promedio 1946–2025';
+  const lab = ['0 %'].concat(qs.map((q, j) => j === 0 ? 'menos' : '')).concat(['más']);
+  document.getElementById('worldScale').innerHTML = cols.map((c, j) => `<i style="background:${c}"></i>`).join('') +
+    `<em>de menos a más</em><i style="background:${css('--nodata')}"></i><em>sin discurso</em>`;
+}
+
+// ---------- trend ----------
+const TW = 640, TH = 250, M = {t: 12, r: 92, b: 24, l: 40};
+const tsvg = d3.select('#trend').append('svg').attr('viewBox', `0 0 ${TW} ${TH}`).attr('role', 'img').attr('aria-label', 'Evolución en el tiempo');
+const tx = d3.scaleLinear().domain([Y0, Y1]).range([M.l, TW - M.r]);
+const ty = d3.scaleLinear().range([TH - M.b, M.t]);
+const gGrid = tsvg.append('g'), gAx = tsvg.append('g'), gLines = tsvg.append('g'), gMark = tsvg.append('g'), gHover = tsvg.append('g');
+const trendTip = document.getElementById('trendTip');
+function seriesFor(pred, T) {
+  const byY = d3.range(Y0, Y1 + 1).map(y => { const a = []; return a; });
+  for (let i = 0; i < SC.length; i++) if (ST[i] && pred(i)) byY[SY[i] - Y0].push(share(i, T));
+  const raw = byY.map(a => a.length ? d3.mean(a) : null);
+  return raw.map((_, k) => { const w = [raw[k - 1], raw[k], raw[k + 1]].filter(v => v != null); return raw[k] == null ? null : d3.mean(w); });
+}
+let series = [];
+function drawTrend() {
+  const T = themeIdx();
+  series = active().map(({s, o}) => ({name: o.label, col: slotColor(s), v: seriesFor(i => o.members.has(SC[i]), T)}));
+  series.push({name: 'Mundo', col: css('--world'), v: seriesFor(() => true, T), dash: '4 3'});
+  const mx = d3.max(series, s => d3.max(s.v)) || 0.01;
+  ty.domain([0, mx * 1.08]).nice(4);
+  const ink2 = css('--ink-2'), line2 = css('--line-2'), muted = css('--muted');
+  gGrid.selectAll('line').data(ty.ticks(4)).join('line').attr('x1', M.l).attr('x2', TW - M.r).attr('y1', d => ty(d)).attr('y2', d => ty(d)).attr('stroke', line2);
+  gAx.selectAll('*').remove();
+  gAx.selectAll('text.y').data(ty.ticks(4)).join('text').attr('class', 'y').attr('x', M.l - 6).attr('y', d => ty(d)).attr('dy', '0.32em').attr('text-anchor', 'end').attr('fill', muted).attr('font-size', 11).text(d => nf.format(d * 100).replace(',0', '') + '%');
+  gAx.selectAll('text.x').data([1950, 1970, 1990, 2010, 2025]).join('text').attr('class', 'x').attr('x', d => tx(d)).attr('y', TH - 6).attr('text-anchor', 'middle').attr('fill', muted).attr('font-size', 11).text(d => d);
+  const line = d3.line().defined(d => d != null).x((d, k) => tx(Y0 + k)).y(d => ty(d)).curve(d3.curveMonotoneX);
+  gLines.selectAll('path').data(series).join('path').attr('fill', 'none').attr('stroke', d => d.col).attr('stroke-width', d => d.dash ? 1.6 : 2).attr('stroke-dasharray', d => d.dash || null).attr('d', d => line(d.v));
+  // direct labels at the end, de-overlapped
+  const ends = series.map(s => { let k = s.v.length - 1; while (k > 0 && s.v[k] == null) k--; return {s, y: ty(s.v[k] ?? 0), x: tx(Y0 + k)}; }).sort((a, b) => a.y - b.y);
+  for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 13) ends[k].y = ends[k - 1].y + 13;
+  gLines.selectAll('text').data(ends).join('text').attr('x', TW - M.r + 6).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('fill', ink2).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => d.s.name.length > 14 ? d.s.name.slice(0, 13) + '…' : d.s.name);
+  gMark.selectAll('*').remove();
+  if (state.year) gMark.append('line').attr('x1', tx(state.year)).attr('x2', tx(state.year)).attr('y1', M.t).attr('y2', TH - M.b).attr('stroke', css('--ink')).attr('stroke-width', 1).attr('stroke-dasharray', '2 3');
+}
+tsvg.on('mousemove', e => {
+  const [mx] = d3.pointer(e); const y = Math.round(tx.invert(mx)); if (y < Y0 || y > Y1) return;
+  gHover.selectAll('line').data([y]).join('line').attr('x1', tx(y)).attr('x2', tx(y)).attr('y1', M.t).attr('y2', TH - M.b).attr('stroke', css('--muted')).attr('stroke-width', 1);
+  gHover.selectAll('circle').data(series.filter(s => s.v[y - Y0] != null)).join('circle').attr('cx', tx(y)).attr('cy', s => ty(s.v[y - Y0])).attr('r', 4).attr('fill', s => s.col).attr('stroke', css('--panel')).attr('stroke-width', 2);
+  const r = document.getElementById('trendPanel').getBoundingClientRect(), svgR = tsvg.node().getBoundingClientRect();
+  trendTip.innerHTML = `<b>${y}</b><br>` + series.map(s => `${s.name}: ${pct(s.v[y - Y0])}`).join('<br>');
+  const px = svgR.left - r.left + tx(y) * svgR.width / TW;
+  trendTip.style.left = (px > r.width * 0.6 ? px - 170 : px + 12) + 'px'; trendTip.style.top = '60px'; trendTip.style.opacity = 1;
+}).on('mouseleave', () => { gHover.selectAll('*').remove(); trendTip.style.opacity = 0; });
+
+// ---------- word cloud ----------
+const cloudEl = document.getElementById('cloud');
+let cloudRun = 0;
+function termWeights(pred, T) {
+  const acc = new Map();
+  for (let i = 0; i < SC.length; i++) {
+    if (!pred(i)) continue;
+    for (const j of T) { const w = D.words[i + '|' + j]; if (w) for (const [t, v] of w) acc.set(t, (acc.get(t) || 0) + v); }
+  }
+  return acc;
+}
+function drawCloud() {
+  const act = active();
+  if (!act.find(a => a.s === state.cloudSlot)) state.cloudSlot = act[0]?.s ?? 0;
+  document.getElementById('cloudTabs').innerHTML = act.map(({s, o}) => `<button data-s="${s}" aria-pressed="${s === state.cloudSlot}"><i style="background:var(--s${s + 1})"></i>${o.label}</button>`).join('');
+  document.querySelectorAll('#cloudTabs button').forEach(b => b.onclick = () => { state.cloudSlot = +b.dataset.s; drawCloud(); });
+  const a = act.find(x => x.s === state.cloudSlot);
+  cloudEl.innerHTML = '';
+  if (!a) { cloudEl.innerHTML = '<div class="empty">Elige una selección.</div>'; return; }
+  const T = themeIdx();
+  const sel = termWeights(i => a.o.members.has(SC[i]) && inPeriod(SY[i]), T);
+  const all = termWeights(i => inPeriod(SY[i]), T);
+  const sS = d3.sum(sel.values()), sA = d3.sum(all.values());
+  if (!sS) { cloudEl.innerHTML = `<div class="empty">${a.o.label} no habló de este tema en el periodo elegido.</div>`; return; }
+  const scored = [...sel].map(([t, v]) => { const ratio = (v / sS) / (((all.get(t) || 0) + 1) / sA); return {t: D.vocab[t], v, sc: Math.log1p(v) * Math.log2(1 + ratio)}; })
+    .sort((x, y) => y.sc - x.sc).slice(0, 45);
+  const mx = d3.max(scored, d => d.sc), mn = d3.min(scored, d => d.sc);
+  const size = d3.scaleSqrt().domain([mn, mx]).range([12, 40]);
+  const r = cloudEl.getBoundingClientRect(), run = ++cloudRun;
+  d3.layout.cloud().size([r.width, r.height]).words(scored.map(d => ({text: d.t, size: size(d.sc), sc: d.sc})))
+    .padding(3).rotate(0).font('Roboto Condensed').fontWeight(700).fontSize(d => d.size).random(() => 0.5)
+    .on('end', ws => {
+      if (run !== cloudRun) return;
+      const ink = css('--ink'), ink2 = css('--muted');
+      const svg = d3.select(cloudEl).append('svg').attr('viewBox', `0 0 ${r.width} ${r.height}`);
+      svg.append('g').attr('transform', `translate(${r.width / 2},${r.height / 2})`).selectAll('text').data(ws).join('text')
+        .attr('text-anchor', 'middle').attr('transform', d => `translate(${d.x},${d.y})`).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif')
+        .attr('font-weight', 700).attr('font-size', d => d.size).attr('fill', d => d.size > 24 ? ink : ink2).text(d => d.text);
+    }).start();
+}
+
+// ---------- quotes ----------
+function drawQuotes() {
+  const T = themeIdx(), out = [], used = new Set();
+  for (const {s, o} of active()) {
+    const cand = [];
+    for (const c of o.members) for (const i of byCountry[c]) if (inPeriod(SY[i])) for (const j of T) { const x = D.excerpts[i + '|' + j]; if (x) cand.push({i, j, x, s}); }
+    cand.sort((a, b) => SY[b.i] - SY[a.i] || (MC[b.i][b.j] - MC[a.i][a.j]));
+    const pick = cand.find(q => !used.has(SC[q.i]));
+    if (pick) { used.add(SC[pick.i]); out.push(pick); }
+  }
+  document.getElementById('quotes').innerHTML = out.length ? out.map(q => `<div class="quote" style="--c:var(--s${q.s + 1})"><div class="meta">${D.countries[SC[q.i]].name} · ${SY[q.i]} <small>EN</small></div><p>“${q.x}”</p></div>`).join('')
+    : '<div class="empty">No hay fragmentos sobre este tema para la selección y el periodo elegidos.</div>';
+}
+
+function update() {
+  allBtn.setAttribute('aria-pressed', state.year == null);
+  yearOut.textContent = state.year ?? '—';
+  computeSlots(); drawKpis(); drawSem(); drawSemLegend(); drawWorld(); drawTrend(); drawCloud(); drawQuotes();
+}
+resize(); update();
+let rt; new ResizeObserver(() => { clearTimeout(rt); rt = setTimeout(() => { resize(); drawSem(); drawCloud(); }, 120); }).observe(wrap);
+const redraw = () => update();
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redraw);
+new MutationObserver(redraw).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+document.fonts?.ready.then(() => { drawSem(); drawCloud(); });
+})();
+</script>

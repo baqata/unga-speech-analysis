@@ -1,0 +1,201 @@
+{
+ "id": "ECU_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  10,
+  14,
+  18,
+  21,
+  25,
+  31,
+  37,
+  41,
+  45,
+  51,
+  54,
+  58,
+  65,
+  67,
+  69,
+  73,
+  79
+ ],
+ "cer": [
+  79
+ ],
+ "fix": [
+  [
+   41,
+   "13,",
+   "",
+   "label"
+  ],
+  [
+   10,
+   "[379 meeting]",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "to,",
+   "to",
+   "ocr"
+  ],
+  [
+   3,
+   "States;",
+   "States",
+   "ocr"
+  ],
+  [
+   4,
+   "heard,",
+   "heard.",
+   "ocr"
+  ],
+  [
+   9,
+   "describing;",
+   "describing,",
+   "ocr"
+  ],
+  [
+   12,
+   "problems-brought",
+   "problems brought",
+   "spacing"
+  ],
+  [
+   14,
+   "byStates",
+   "by States",
+   "merged_word"
+  ],
+  [
+   16,
+   "this.",
+   "this",
+   "ocr"
+  ],
+  [
+   18,
+   "hot",
+   "not",
+   "ocr"
+  ],
+  [
+   22,
+   "should,",
+   "should",
+   "ocr"
+  ],
+  [
+   26,
+   "of.",
+   "of",
+   "ocr"
+  ],
+  [
+   37,
+   "Chatter",
+   "Charter",
+   "ocr"
+  ],
+  [
+   39,
+   "to,",
+   "to",
+   "ocr"
+  ],
+  [
+   40,
+   "trends,",
+   "trends.",
+   "ocr"
+  ],
+  [
+   41,
+   "Morocco,",
+   "Morocco.",
+   "ocr"
+  ],
+  [
+   49,
+   "forked",
+   "worked",
+   "ocr"
+  ],
+  [
+   50,
+   "civilization,",
+   "civilization.",
+   "ocr"
+  ],
+  [
+   50,
+   "tinder",
+   "under",
+   "ocr"
+  ],
+  [
+   52,
+   "desire;",
+   "desire.",
+   "ocr"
+  ],
+  [
+   69,
+   "{or",
+   "for",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d16503a4b0acc5660e344b178de8c7a65a0c61a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 16
+  },
+  "words_in": 3491,
+  "words_out": 3484,
+  "retention": 0.998,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   101,
+   266,
+   141,
+   82,
+   219,
+   125,
+   157,
+   181,
+   266,
+   170,
+   148,
+   246,
+   290,
+   83,
+   111,
+   198,
+   144,
+   77,
+   191,
+   191,
+   97
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

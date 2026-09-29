@@ -1,0 +1,53 @@
+{
+ "id": "MAR_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  15,
+  21,
+  29,
+  32,
+  38,
+  42,
+  46,
+  52,
+  58
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eeaedfa5741da431086e908f3de484f2b2916cfb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2060,
+  "words_out": 2060,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   93,
+   231,
+   72,
+   152,
+   244,
+   94,
+   224,
+   183,
+   169,
+   243,
+   221,
+   134
+  ],
+  "warnings": []
+ }
+}

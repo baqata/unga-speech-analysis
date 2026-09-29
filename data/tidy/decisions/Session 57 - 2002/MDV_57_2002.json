@@ -1,0 +1,60 @@
+{
+ "id": "MDV_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  32,
+  50,
+  67,
+  79,
+  95,
+  105,
+  129,
+  153,
+  168,
+  183
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   190,
+   "O1rganization",
+   "Organization",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f4398a7d0df7a2cde57cbdffd8756c2da4904dc0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1509,
+  "words_out": 1506,
+  "retention": 0.998,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   143,
+   108,
+   139,
+   124,
+   88,
+   113,
+   71,
+   173,
+   191,
+   111,
+   117,
+   128
+  ],
+  "warnings": []
+ }
+}

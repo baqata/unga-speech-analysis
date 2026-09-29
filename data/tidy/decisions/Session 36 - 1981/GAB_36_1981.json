@@ -1,0 +1,122 @@
+{
+ "id": "GAB_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  16,
+  19,
+  22,
+  24,
+  27,
+  30,
+  35,
+  38,
+  41,
+  47,
+  51,
+  58,
+  63,
+  68,
+  73,
+  76,
+  79
+ ],
+ "cer": [
+  11,
+  16,
+  19
+ ],
+ "fix": [
+  [
+   57,
+   " [see resolution 2602 E (XXIV)]",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "Hie Gabonese",
+   "The Gabonese",
+   "ocr"
+  ],
+  [
+   17,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   24,
+   "subjects .of",
+   "subjects of",
+   "ocr"
+  ],
+  [
+   26,
+   "SoufE African",
+   "South African",
+   "ocr"
+  ],
+  [
+   27,
+   " [CMC/]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "it's latest",
+   "its latest",
+   "ocr"
+  ],
+  [
+   46,
+   "(1973). .",
+   "(1973).",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "569ef1b7334a02b6956f4d8dba1de4459d466c8d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47,
+   "page_number": 1,
+   "page_header": 1
+  },
+  "words_in": 2985,
+  "words_out": 2978,
+  "retention": 0.9977,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   155,
+   161,
+   149,
+   91,
+   86,
+   106,
+   151,
+   187,
+   238,
+   152,
+   85,
+   263,
+   172,
+   174,
+   145,
+   174,
+   188,
+   131,
+   56,
+   114
+  ],
+  "warnings": []
+ }
+}

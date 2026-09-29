@@ -1,0 +1,140 @@
+{
+ "id": "FRA_48_1993",
+ "drop": [
+  [
+   10,
+   10,
+   "header_footer"
+  ],
+  [
+   103,
+   103,
+   "header_footer"
+  ],
+  [
+   196,
+   196,
+   "header_footer"
+  ],
+  [
+   288,
+   288,
+   "header_footer"
+  ],
+  [
+   375,
+   375,
+   "header_footer"
+  ],
+  [
+   422,
+   422,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  22,
+  33,
+  54,
+  65,
+  79,
+  88,
+  106,
+  129,
+  139,
+  158,
+  171,
+  197,
+  205,
+  219,
+  234,
+  239,
+  246,
+  254,
+  275,
+  284,
+  296,
+  308,
+  318,
+  329,
+  346,
+  354,
+  371,
+  380,
+  398,
+  410,
+  423
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   300,
+   "tailormade",
+   "tailor-made",
+   "hyphen"
+  ],
+  [
+   306,
+   "peacekeeping",
+   "peace-keeping",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae86bc43d9a78df6dc07b4045374060d1d1ff925",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 441,
+  "units_dropped": {
+   "header_footer": 6
+  },
+  "prestrip": {},
+  "words_in": 3840,
+  "words_out": 3801,
+  "retention": 0.9898,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   79,
+   101,
+   105,
+   184,
+   101,
+   120,
+   76,
+   153,
+   218,
+   99,
+   173,
+   111,
+   203,
+   67,
+   108,
+   123,
+   48,
+   60,
+   69,
+   186,
+   68,
+   95,
+   109,
+   89,
+   83,
+   139,
+   64,
+   161,
+   66,
+   155,
+   120,
+   108,
+   160
+  ],
+  "warnings": []
+ }
+}

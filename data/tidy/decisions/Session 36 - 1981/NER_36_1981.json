@@ -1,0 +1,215 @@
+{
+ "id": "NER_36_1981",
+ "drop": [
+  [
+   115,
+   115,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  7,
+  14,
+  17,
+  21,
+  23,
+  28,
+  32,
+  36,
+  40,
+  43,
+  48,
+  54,
+  56,
+  58,
+  62,
+  65,
+  69,
+  74,
+  77,
+  82,
+  85,
+  86,
+  90,
+  92,
+  95,
+  97,
+  103,
+  106,
+  108,
+  112,
+  116,
+  121,
+  125,
+  128,
+  131,
+  133,
+  137,
+  142,
+  147
+ ],
+ "cer": [
+  14,
+  17,
+  21,
+  147
+ ],
+ "fix": [
+  [
+   12,
+   "to. take",
+   "to take",
+   "ocr"
+  ],
+  [
+   37,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "the. future",
+   "the future",
+   "ocr"
+  ],
+  [
+   64,
+   "Cancan",
+   "Cancun",
+   "ocr"
+  ],
+  [
+   66,
+   "Paris,1 which",
+   "Paris, which",
+   "ocr"
+  ],
+  [
+   68,
+   "borrowing. furthermore",
+   "borrowing. Furthermore",
+   "ocr"
+  ],
+  [
+   75,
+   " [QAU]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "can^",
+   "can",
+   "ocr"
+  ],
+  [
+   96,
+   "so,~I",
+   "so, I",
+   "ocr"
+  ],
+  [
+   105,
+   "not. to",
+   "not to",
+   "ocr"
+  ],
+  [
+   108,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "have. suffered",
+   "have suffered",
+   "ocr"
+  ],
+  [
+   108,
+   "AMca",
+   "Africa",
+   "ocr"
+  ],
+  [
+   137,
+   "for j peace",
+   "for peace",
+   "ocr"
+  ],
+  [
+   137,
+   "bring, about",
+   "bring about",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "121d498c2b4a5e093eaf74e41f66183da7bedeee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 5212,
+  "words_out": 5202,
+  "retention": 0.9981,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   84,
+   130,
+   70,
+   159,
+   155,
+   83,
+   49,
+   131,
+   121,
+   128,
+   186,
+   122,
+   119,
+   183,
+   96,
+   63,
+   168,
+   113,
+   201,
+   182,
+   80,
+   128,
+   185,
+   79,
+   127,
+   92,
+   98,
+   107,
+   226,
+   97,
+   101,
+   180,
+   107,
+   111,
+   165,
+   67,
+   71,
+   117,
+   99,
+   111,
+   153,
+   158
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "DOM_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  14,
+  18,
+  21,
+  27,
+  30,
+  34,
+  39,
+  44,
+  49,
+  53,
+  58,
+  64,
+  68
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "2024. in",
+   "2024, in",
+   "ocr"
+  ],
+  [
+   21,
+   "be. the",
+   "be, the",
+   "ocr"
+  ],
+  [
+   24,
+   "matter.",
+   "matter,",
+   "ocr"
+  ],
+  [
+   32,
+   "all. attend",
+   "all, attend",
+   "ocr"
+  ],
+  [
+   44,
+   "2021. our",
+   "2021, our",
+   "ocr"
+  ],
+  [
+   45,
+   "it. owing",
+   "it, owing",
+   "ocr"
+  ],
+  [
+   49,
+   "Undoubtedly.",
+   "Undoubtedly,",
+   "ocr"
+  ],
+  [
+   57,
+   "law. to",
+   "law, to",
+   "ocr"
+  ],
+  [
+   60,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   63,
+   "now. because",
+   "now, because",
+   "ocr"
+  ],
+  [
+   67,
+   "do. because",
+   "do, because",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2c7f481ad1bb14310a727cd94caa1c3f518f7af1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1890,
+  "words_out": 1888,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   123,
+   115,
+   140,
+   80,
+   85,
+   110,
+   91,
+   98,
+   137,
+   130,
+   179,
+   109,
+   142,
+   137,
+   96,
+   116
+  ],
+  "warnings": []
+ }
+}

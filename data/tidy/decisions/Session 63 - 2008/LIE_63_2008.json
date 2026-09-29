@@ -1,0 +1,53 @@
+{
+ "id": "LIE_63_2008",
+ "drop": [
+  [
+   101,
+   102,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  19,
+  43,
+  63,
+  89,
+  110,
+  134,
+  149
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89e820a5242f5df83a13a79a3a48226252d1aca4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1278,
+  "words_out": 1266,
+  "retention": 0.9906,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   157,
+   187,
+   164,
+   204,
+   158,
+   205,
+   114,
+   77
+  ],
+  "warnings": [
+   "procedural drop [101,102] in the middle of the speech"
+  ]
+ }
+}

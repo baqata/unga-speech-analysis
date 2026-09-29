@@ -1,0 +1,49 @@
+{
+ "id": "AUT_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  20,
+  26,
+  30,
+  34,
+  40,
+  43,
+  49,
+  55
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "027adfbf91745042af661bfa543d0395de7b980a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1235,
+  "words_out": 1235,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   77,
+   68,
+   78,
+   190,
+   100,
+   85,
+   67,
+   155,
+   80,
+   108,
+   99,
+   128
+  ],
+  "warnings": []
+ }
+}

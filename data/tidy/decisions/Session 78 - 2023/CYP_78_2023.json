@@ -1,0 +1,242 @@
+{
+ "id": "CYP_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  17,
+  26,
+  31,
+  39,
+  44,
+  47,
+  54,
+  63,
+  67,
+  77,
+  81,
+  88,
+  93,
+  102,
+  105,
+  109,
+  120
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "1946. in",
+   "1946, in",
+   "ocr"
+  ],
+  [
+   0,
+   "war. which",
+   "war, which",
+   "ocr"
+  ],
+  [
+   4,
+   "War. which",
+   "War, which",
+   "ocr"
+  ],
+  [
+   20,
+   "training.",
+   "training,",
+   "ocr"
+  ],
+  [
+   33,
+   "1974.",
+   "1974,",
+   "ocr"
+  ],
+  [
+   34,
+   "then.",
+   "then,",
+   "ocr"
+  ],
+  [
+   35,
+   "on. it",
+   "on, it",
+   "ocr"
+  ],
+  [
+   39,
+   "1973. only",
+   "1973, only",
+   "ocr"
+  ],
+  [
+   46,
+   "law. which",
+   "law, which",
+   "ocr"
+  ],
+  [
+   47,
+   "Varosha. the",
+   "Varosha, the",
+   "ocr"
+  ],
+  [
+   48,
+   "1974.",
+   "1974,",
+   "ocr"
+  ],
+  [
+   54,
+   "Cyprus.",
+   "Cyprus,",
+   "ocr"
+  ],
+  [
+   58,
+   "York.",
+   "York,",
+   "ocr"
+  ],
+  [
+   65,
+   "not. and never will be. another",
+   "not, and never will be, another",
+   "ocr"
+  ],
+  [
+   83,
+   "Cypriots.",
+   "Cypriots,",
+   "ocr"
+  ],
+  [
+   84,
+   "Cypriots.",
+   "Cypriots,",
+   "ocr"
+  ],
+  [
+   85,
+   "Maronites.",
+   "Maronites,",
+   "ocr"
+  ],
+  [
+   88,
+   "by. as",
+   "by, as",
+   "ocr"
+  ],
+  [
+   90,
+   "so. the",
+   "so, the",
+   "ocr"
+  ],
+  [
+   92,
+   "and. in doing so. contribute",
+   "and, in doing so, contribute",
+   "ocr"
+  ],
+  [
+   97,
+   "act. at",
+   "act, at",
+   "ocr"
+  ],
+  [
+   99,
+   "end.",
+   "end,",
+   "ocr"
+  ],
+  [
+   104,
+   "of. and response to. sexual",
+   "of, and response to, sexual",
+   "ocr"
+  ],
+  [
+   105,
+   "1946.",
+   "1946,",
+   "ocr"
+  ],
+  [
+   112,
+   "Egypt.",
+   "Egypt,",
+   "ocr"
+  ],
+  [
+   113,
+   "Israel.",
+   "Israel,",
+   "ocr"
+  ],
+  [
+   114,
+   "Jordan.",
+   "Jordan,",
+   "ocr"
+  ],
+  [
+   115,
+   "Lebanon.",
+   "Lebanon,",
+   "ocr"
+  ],
+  [
+   119,
+   "all. is",
+   "all, is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca37d6f7d45a0782a9da373407be3e6df45eb1ce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2487,
+  "words_out": 2487,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   82,
+   127,
+   145,
+   171,
+   117,
+   116,
+   81,
+   114,
+   127,
+   178,
+   116,
+   152,
+   94,
+   147,
+   161,
+   183,
+   99,
+   65,
+   170,
+   42
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

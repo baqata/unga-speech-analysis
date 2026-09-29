@@ -1,0 +1,172 @@
+{
+ "id": "KNA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   174,
+   174,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  11,
+  18,
+  28,
+  38,
+  43,
+  48,
+  54,
+  64,
+  74,
+  85,
+  94,
+  100,
+  110,
+  116,
+  120,
+  130,
+  141,
+  147,
+  153,
+  165,
+  173
+ ],
+ "cer": [
+  2,
+  173
+ ],
+ "fix": [
+  [
+   2,
+   "Navigians",
+   "Nevisians",
+   "asr_name"
+  ],
+  [
+   39,
+   "CISA",
+   "SISA",
+   "asr_name"
+  ],
+  [
+   40,
+   "CISA",
+   "SISA",
+   "asr_name"
+  ],
+  [
+   43,
+   "CISA",
+   "SISA",
+   "asr_name"
+  ],
+  [
+   52,
+   "The sister vision",
+   "The SISA vision",
+   "asr_name"
+  ],
+  [
+   65,
+   "MBI",
+   "MVI",
+   "asr_term"
+  ],
+  [
+   67,
+   "MBI",
+   "MVI",
+   "asr_term"
+  ],
+  [
+   71,
+   "MBI",
+   "MVI",
+   "asr_term"
+  ],
+  [
+   72,
+   "MBI",
+   "MVI",
+   "asr_term"
+  ],
+  [
+   78,
+   "Sekitsa Nevis",
+   "St Kitts and Nevis",
+   "asr_name"
+  ],
+  [
+   94,
+   "Gavi",
+   "Garvey",
+   "asr_name"
+  ],
+  [
+   134,
+   "the OS and",
+   "the OAS and",
+   "asr_name"
+  ],
+  [
+   147,
+   "this 18th,",
+   "this 80th,",
+   "asr_term"
+  ],
+  [
+   147,
+   "18th session",
+   "80th session",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9c5a57929183a949805b173904508d5b8cbfc45",
+ "layout": "single",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3174,
+  "words_out": 3101,
+  "retention": 0.977,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   53,
+   98,
+   106,
+   162,
+   180,
+   117,
+   108,
+   118,
+   163,
+   159,
+   162,
+   137,
+   130,
+   159,
+   97,
+   105,
+   198,
+   184,
+   153,
+   145,
+   180,
+   185,
+   2
+  ],
+  "warnings": []
+ }
+}

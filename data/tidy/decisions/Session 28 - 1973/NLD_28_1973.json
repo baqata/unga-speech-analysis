@@ -1,0 +1,149 @@
+{
+ "id": "NLD_28_1973",
+ "drop": [
+  [
+   61,
+   61,
+   "noise"
+  ],
+  [
+   128,
+   128,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  7,
+  17,
+  24,
+  25,
+  31,
+  36,
+  43,
+  47,
+  56,
+  62,
+  65,
+  69,
+  75,
+  80,
+  86,
+  93,
+  99,
+  106,
+  109,
+  112,
+  117,
+  123,
+  129,
+  135,
+  140
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "in cue world",
+   "in the world",
+   "ocr"
+  ],
+  [
+   41,
+   "way of- life",
+   "way of life",
+   "ocr"
+  ],
+  [
+   56,
+   "prosperous,\"",
+   "prosperous,",
+   "ocr"
+  ],
+  [
+   67,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   79,
+   "Self- reliance",
+   "Self-reliance",
+   "spacing"
+  ],
+  [
+   124,
+   " 14",
+   "",
+   "label"
+  ],
+  [
+   135,
+   "article S",
+   "article 5",
+   "ocr"
+  ],
+  [
+   135,
+   " [see resolution 2200 A (XXI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59755080194cfc3d7252cd53093217486005631d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 3540,
+  "words_out": 3529,
+  "retention": 0.9969,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   133,
+   113,
+   190,
+   180,
+   75,
+   120,
+   99,
+   194,
+   99,
+   136,
+   136,
+   88,
+   122,
+   97,
+   110,
+   135,
+   197,
+   127,
+   162,
+   86,
+   104,
+   109,
+   129,
+   134,
+   228,
+   156,
+   70
+  ],
+  "warnings": []
+ }
+}

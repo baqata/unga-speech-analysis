@@ -1,0 +1,145 @@
+{
+ "id": "KHM_46_1991",
+ "drop": [
+  [
+   14,
+   24,
+   "other_speaker"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  8,
+  9,
+  12,
+  30,
+  33,
+  35,
+  37,
+  41,
+  44,
+  46,
+  47,
+  54,
+  58,
+  63,
+  67,
+  69,
+  71
+ ],
+ "cer": [
+  2,
+  3,
+  8,
+  9,
+  12,
+  41,
+  44,
+  46
+ ],
+ "fix": [
+  [
+   2,
+   "President, of",
+   "President of",
+   "ocr"
+  ],
+  [
+   3,
+   "satisfaction.",
+   "satisfaction,",
+   "ocr"
+  ],
+  [
+   25,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   28,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   41,
+   "Asian Nations.",
+   "Asian Nations,",
+   "ocr"
+  ],
+  [
+   51,
+   "Hew Zealand",
+   "New Zealand",
+   "ocr"
+  ],
+  [
+   62,
+   "seIf-determination",
+   "self-determination",
+   "ocr"
+  ],
+  [
+   63,
+   "Kim II Sung",
+   "Kim Il Sung",
+   "ocr"
+  ],
+  [
+   64,
+   "Me are",
+   "We are",
+   "ocr"
+  ],
+  [
+   72,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 14-24 are a passage from Ghana's statement spliced in after unit 13, which breaks off mid-sentence; unit 62 also begins mid-sentence, so Cambodia's text is missing at both points.",
+ "unitizer_version": 1,
+ "sha1": "a7758d5a6bb9b53c59b72481d2b854d8b7aad1e5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {
+   "other_speaker": 11
+  },
+  "prestrip": {},
+  "words_in": 2123,
+  "words_out": 1852,
+  "retention": 0.8724,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   108,
+   39,
+   58,
+   38,
+   90,
+   211,
+   152,
+   102,
+   72,
+   123,
+   92,
+   61,
+   72,
+   168,
+   75,
+   111,
+   101,
+   74,
+   57,
+   48
+  ],
+  "warnings": []
+ }
+}

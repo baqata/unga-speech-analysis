@@ -1,0 +1,80 @@
+{
+ "id": "TTO_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  44,
+  70,
+  83,
+  94,
+  111,
+  124,
+  134,
+  142,
+  153,
+  172,
+  188,
+  203,
+  221,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "(A/67/PV.6, p. 4)",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "(A/PV.1122, para. 126)",
+   "",
+   "label"
+  ],
+  [
+   148,
+   "(resolution 66/2, annex)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "54abacdd371339337dfed50846ba589982f6fe13",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2000,
+  "words_out": 1990,
+  "retention": 0.995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   73,
+   113,
+   143,
+   206,
+   112,
+   94,
+   137,
+   107,
+   77,
+   64,
+   78,
+   174,
+   128,
+   112,
+   141,
+   164,
+   67
+  ],
+  "warnings": []
+ }
+}

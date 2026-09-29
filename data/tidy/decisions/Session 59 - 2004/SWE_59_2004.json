@@ -1,0 +1,90 @@
+{
+ "id": "SWE_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  30,
+  38,
+  60,
+  70,
+  86,
+  95,
+  108,
+  116,
+  132,
+  146,
+  157,
+  168,
+  177,
+  193,
+  208,
+  218,
+  230
+ ],
+ "cer": [],
+ "fix": [
+  [
+   84,
+   "freedom ó",
+   "freedom —",
+   "encoding"
+  ],
+  [
+   152,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   194,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   216,
+   "workersí",
+   "workers’",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "525ee89d3278256cd15af18255920b7143c810cc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1860,
+  "words_out": 1859,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   148,
+   109,
+   65,
+   181,
+   69,
+   139,
+   78,
+   96,
+   71,
+   113,
+   110,
+   80,
+   77,
+   73,
+   130,
+   114,
+   82,
+   89,
+   35
+  ],
+  "warnings": []
+ }
+}

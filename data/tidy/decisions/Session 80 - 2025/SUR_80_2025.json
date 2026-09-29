@@ -1,0 +1,81 @@
+{
+ "id": "SUR_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  10,
+  17,
+  24,
+  32,
+  40,
+  45,
+  52,
+  57,
+  62,
+  67,
+  71,
+  76,
+  80,
+  89,
+  96,
+  101,
+  105
+ ],
+ "cer": [
+  2,
+  105
+ ],
+ "fix": [
+  [
+   38,
+   "the CARI composition",
+   "the CARICOM position",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2ca53cf5ad25243f6e5ced27590ce21c7314ede5",
+ "layout": "single",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2095,
+  "words_out": 2063,
+  "retention": 0.9847,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   70,
+   127,
+   119,
+   124,
+   185,
+   189,
+   82,
+   98,
+   116,
+   126,
+   88,
+   100,
+   94,
+   85,
+   129,
+   157,
+   103,
+   62,
+   9
+  ],
+  "warnings": []
+ }
+}

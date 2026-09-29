@@ -1,0 +1,50 @@
+{
+ "id": "GRC_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  17,
+  24,
+  28,
+  30
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   " [A/1377]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38f5067bfdae6d7f71b65c68e2a0f0f8dfb9e2f2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 40,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 1247,
+  "words_out": 1246,
+  "retention": 0.9992,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   155,
+   174,
+   202,
+   71,
+   217,
+   141,
+   67,
+   219
+  ],
+  "warnings": []
+ }
+}

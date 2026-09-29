@@ -1,0 +1,68 @@
+{
+ "id": "SGP_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  14,
+  25,
+  31,
+  34,
+  42,
+  47,
+  55,
+  58,
+  62,
+  69,
+  74,
+  82,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "Singapore ,",
+   "Singapore,",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "055b8448030a27181754e1f43e34cf377874cc9e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2026,
+  "words_out": 2014,
+  "retention": 0.9941,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   76,
+   77,
+   81,
+   105,
+   219,
+   88,
+   66,
+   196,
+   130,
+   175,
+   62,
+   68,
+   132,
+   95,
+   136,
+   215,
+   93
+  ],
+  "warnings": []
+ }
+}

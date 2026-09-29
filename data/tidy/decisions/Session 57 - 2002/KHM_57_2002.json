@@ -1,0 +1,54 @@
+{
+ "id": "KHM_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  36,
+  52,
+  68,
+  78,
+  99,
+  113,
+  133,
+  148,
+  167
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b2ae601643054d98788476c2224b48a65dd75e7b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 2
+  },
+  "words_in": 1480,
+  "words_out": 1474,
+  "retention": 0.9959,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   105,
+   106,
+   69,
+   131,
+   121,
+   79,
+   160,
+   117,
+   148,
+   130,
+   160,
+   148
+  ],
+  "warnings": []
+ }
+}

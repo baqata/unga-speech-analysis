@@ -1,0 +1,66 @@
+{
+ "id": "LVA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  34,
+  48,
+  67,
+  77,
+  90,
+  105,
+  114,
+  123,
+  134,
+  153,
+  170,
+  185
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   71,
+   "(A/HRC/RES/S-16/1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3147b5dc12cc4d80064c7c5163c3a26ed22e8079",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1478,
+  "words_out": 1469,
+  "retention": 0.9939,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   90,
+   100,
+   87,
+   109,
+   144,
+   65,
+   110,
+   117,
+   59,
+   69,
+   93,
+   151,
+   123,
+   124,
+   28
+  ],
+  "warnings": []
+ }
+}

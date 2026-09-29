@@ -1,0 +1,76 @@
+{
+ "id": "ATG_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  17,
+  23,
+  30,
+  35,
+  39,
+  43,
+  46,
+  51,
+  55,
+  58,
+  65,
+  73,
+  77,
+  80,
+  84,
+  88,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   37,
+   "performance.I",
+   "performance. I",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "195bf5ad8d8b97657198a55b3cd88e6ea204fd6b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2272,
+  "words_out": 2272,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   164,
+   121,
+   79,
+   139,
+   134,
+   133,
+   152,
+   90,
+   88,
+   82,
+   84,
+   81,
+   132,
+   154,
+   104,
+   76,
+   116,
+   112,
+   167,
+   64
+  ],
+  "warnings": []
+ }
+}

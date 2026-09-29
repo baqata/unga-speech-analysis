@@ -1,0 +1,71 @@
+{
+ "id": "KOR_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  34,
+  45,
+  58,
+  71,
+  86,
+  98,
+  117,
+  132,
+  145,
+  162,
+  179,
+  189,
+  204,
+  213,
+  222,
+  236,
+  245,
+  262
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d529f177a811af80b7d5dab1bd24d7ee29bf229",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 272,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2213,
+  "words_out": 2205,
+  "retention": 0.9964,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   69,
+   85,
+   129,
+   84,
+   106,
+   95,
+   125,
+   89,
+   144,
+   125,
+   105,
+   129,
+   152,
+   86,
+   112,
+   74,
+   74,
+   109,
+   73,
+   143,
+   97
+  ],
+  "warnings": []
+ }
+}

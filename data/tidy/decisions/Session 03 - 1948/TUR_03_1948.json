@@ -1,0 +1,43 @@
+{
+ "id": "TUR_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  12,
+  19,
+  21,
+  24
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "308063e2e343e8f76a1d94a83c4c90aa6ffb13e5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 25,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 817,
+  "words_out": 817,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   128,
+   95,
+   138,
+   58,
+   206,
+   64,
+   81,
+   47
+  ],
+  "warnings": []
+ }
+}

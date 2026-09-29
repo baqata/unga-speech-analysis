@@ -1,0 +1,86 @@
+{
+ "id": "SAU_29_1974",
+ "drop": [
+  [
+   21,
+   21,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  10,
+  11,
+  13,
+  16,
+  19,
+  26,
+  30,
+  35,
+  41
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "have /or",
+   "have for",
+   "ocr"
+  ],
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   30,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   36,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89c482e5c6d0ce92e7fad996b9f0c32a634e71ce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1452,
+  "words_out": 1450,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   155,
+   91,
+   75,
+   79,
+   138,
+   117,
+   72,
+   149,
+   116,
+   169,
+   151,
+   138
+  ],
+  "warnings": []
+ }
+}

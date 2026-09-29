@@ -1,0 +1,61 @@
+{
+ "id": "FSM_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  24,
+  41,
+  50,
+  71,
+  85,
+  94,
+  105,
+  114,
+  122,
+  132,
+  155,
+  171,
+  181,
+  192
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90845b9181fd37594ff1b1592fdde636082ba9b4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1585,
+  "words_out": 1579,
+  "retention": 0.9962,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   74,
+   110,
+   137,
+   77,
+   163,
+   112,
+   73,
+   88,
+   71,
+   59,
+   77,
+   166,
+   114,
+   86,
+   84,
+   88
+  ],
+  "warnings": []
+ }
+}

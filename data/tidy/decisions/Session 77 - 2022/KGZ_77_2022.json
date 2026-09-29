@@ -1,0 +1,82 @@
+{
+ "id": "KGZ_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  11,
+  19,
+  23,
+  26,
+  32,
+  37,
+  43,
+  48,
+  55,
+  60,
+  68,
+  73,
+  77,
+  80,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   23,
+   "border- regulation",
+   "border-regulation",
+   "hyphen"
+  ],
+  [
+   81,
+   "Good- Neighbourliness",
+   "Good-Neighbourliness",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0647ac04a5fe2363fbedf5b0debb89cd9c87c44d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2196,
+  "words_out": 2193,
+  "retention": 0.9986,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   92,
+   136,
+   157,
+   218,
+   93,
+   104,
+   64,
+   135,
+   138,
+   163,
+   126,
+   144,
+   166,
+   121,
+   98,
+   63,
+   91,
+   84
+  ],
+  "warnings": []
+ }
+}

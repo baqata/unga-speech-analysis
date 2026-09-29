@@ -1,0 +1,58 @@
+{
+ "id": "LIE_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  18,
+  24,
+  30,
+  38,
+  45,
+  53,
+  60,
+  64,
+  69,
+  75
+ ],
+ "cer": [],
+ "fix": [
+  [
+   53,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c748fee7eb5b8cde2fea744bdf3941033c6e5c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1611,
+  "words_out": 1608,
+  "retention": 0.9981,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   164,
+   80,
+   162,
+   125,
+   90,
+   98,
+   121,
+   152,
+   99,
+   102,
+   137,
+   112,
+   166
+  ],
+  "warnings": []
+ }
+}

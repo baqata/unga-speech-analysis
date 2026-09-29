@@ -1,0 +1,129 @@
+{
+ "id": "JOR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  32,
+  40,
+  49,
+  65,
+  86,
+  100,
+  109,
+  124,
+  135,
+  153,
+  172,
+  194,
+  206,
+  216,
+  225,
+  242,
+  256,
+  268,
+  286,
+  300,
+  311,
+  327,
+  342,
+  353,
+  363
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   120,
+   "UNRWA?s",
+   "UNRWA’s",
+   "encoding"
+  ],
+  [
+   130,
+   "UNRWA?s",
+   "UNRWA’s",
+   "encoding"
+  ],
+  [
+   132,
+   "UNRWA?s",
+   "UNRWA’s",
+   "encoding"
+  ],
+  [
+   177,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   228,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   309,
+   "Jordan?s",
+   "Jordan’s",
+   "encoding"
+  ],
+  [
+   361,
+   "States?",
+   "States’",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01d106fbbc7c82d3fc2244703f71a7ad2eb76e97",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 374,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3140,
+  "words_out": 3138,
+  "retention": 0.9994,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   61,
+   81,
+   126,
+   61,
+   77,
+   134,
+   182,
+   116,
+   73,
+   127,
+   99,
+   149,
+   167,
+   176,
+   98,
+   82,
+   74,
+   147,
+   127,
+   112,
+   152,
+   111,
+   85,
+   124,
+   126,
+   90,
+   81,
+   100
+  ],
+  "warnings": []
+ }
+}

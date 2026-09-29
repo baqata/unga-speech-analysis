@@ -1,0 +1,157 @@
+{
+ "id": "BRA_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  12,
+  20,
+  26,
+  31,
+  34,
+  37,
+  39,
+  43,
+  44,
+  46,
+  48,
+  51,
+  53,
+  56,
+  64,
+  67,
+  70,
+  73,
+  76,
+  80,
+  86,
+  90,
+  93,
+  96,
+  99,
+  102,
+  109,
+  113,
+  116,
+  118,
+  122,
+  126,
+  132,
+  138
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  138
+ ],
+ "fix": [
+  [
+   132,
+   "- Looking",
+   "Looking",
+   "encoding"
+  ],
+  [
+   93,
+   "EI Salvador",
+   "El Salvador",
+   "ocr"
+  ],
+  [
+   118,
+   "H)f",
+   "of",
+   "ocr"
+  ],
+  [
+   117,
+   "condition?",
+   "conditions",
+   "ocr"
+  ],
+  [
+   108,
+   "^Africa",
+   "Africa",
+   "encoding"
+  ],
+  [
+   27,
+   "m sight",
+   "in sight",
+   "ocr"
+  ],
+  [
+   75,
+   "Slates",
+   "States",
+   "ocr"
+  ],
+  [
+   117,
+   " [PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eec8fd18eff48212ba8a56eb694508755c0d46ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 3761,
+  "words_out": 3759,
+  "retention": 0.9995,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   71,
+   47,
+   99,
+   140,
+   173,
+   115,
+   108,
+   84,
+   112,
+   62,
+   65,
+   70,
+   84,
+   88,
+   82,
+   90,
+   91,
+   204,
+   112,
+   82,
+   110,
+   46,
+   84,
+   70,
+   85,
+   56,
+   103,
+   71,
+   82,
+   185,
+   134,
+   77,
+   115,
+   85,
+   138,
+   132,
+   156,
+   51
+  ],
+  "warnings": []
+ }
+}

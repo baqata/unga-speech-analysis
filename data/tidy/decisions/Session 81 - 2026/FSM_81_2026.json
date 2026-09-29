@@ -1,0 +1,218 @@
+{
+ "id": "FSM_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   88,
+   88,
+   "repeat"
+  ],
+  [
+   89,
+   90,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  12,
+  16,
+  23,
+  28,
+  35,
+  40,
+  45,
+  50,
+  53,
+  60,
+  65,
+  67,
+  70,
+  78,
+  80,
+  83,
+  87
+ ],
+ "cer": [
+  4,
+  87
+ ],
+ "fix": [
+  [
+   4,
+   "ETEC ama Select didatory ",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "chest",
+   "just",
+   "asr_term"
+  ],
+  [
+   41,
+   "factor-borne",
+   "vector-borne",
+   "asr_term"
+  ],
+  [
+   48,
+   "BPNJ agreement",
+   "BBNJ agreement",
+   "asr_name"
+  ],
+  [
+   48,
+   "implement the BPNJ",
+   "implement the BBNJ",
+   "asr_name"
+  ],
+  [
+   49,
+   "Indonesia",
+   "Micronesia",
+   "asr_name"
+  ],
+  [
+   49,
+   "PB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   54,
+   "Chuk",
+   "Chuuk",
+   "asr_name"
+  ],
+  [
+   70,
+   "MFI",
+   "MVI",
+   "asr_name"
+  ],
+  [
+   72,
+   "UNAD",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   75,
+   "UN-AID",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   78,
+   "SITS",
+   "SIDS",
+   "asr_name"
+  ],
+  [
+   82,
+   "card rails",
+   "guardrails",
+   "asr_term"
+  ],
+  [
+   5,
+   "Camerade.",
+   "Kamorale.",
+   "asr_name"
+  ],
+  [
+   86,
+   "Camarale,",
+   "Kamorale,",
+   "asr_name"
+  ],
+  [
+   27,
+   "crisis. crisis.",
+   "crisis.",
+   "asr_term"
+  ],
+  [
+   74,
+   "communities. communities.",
+   "communities.",
+   "asr_term"
+  ],
+  [
+   53,
+   "communities. marine",
+   "communities. Marine",
+   "asr_term"
+  ],
+  [
+   22,
+   "shared",
+   "share",
+   "asr_term"
+  ],
+  [
+   81,
+   "heightened",
+   "heighten",
+   "asr_term"
+  ],
+  [
+   49,
+   "sea-based",
+   "area-based",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Unintelligible pre-speech audio removed from unit 4; fixes per Spanish channel (justa, vectores, BBNJ, Micronesia colabora, basadas en zonas, ONU-80, salvaguardas); Chuuk State per FSM government. Main-agent greeting sweep: 'Kamorale', the FSM national greeting since 2024 (gov.fm, Osaka Expo 2025; Spanish channel 'Camorale'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 27 'crisis. crisis.' -> 'crisis.'; unit 74 'communities. communities.' -> 'communities.'; unit 88 dropped as a repeat. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 53 'communities. marine' -> 'communities. Marine'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 22 'shared' -> 'share' (both decodes hear 'share' (0.83 / 0.77); 'enhance cooperation, shared technology, and support' needs the verb; ES 'compartir tecnologías'); spot 5 unit 49 'sea-based' -> 'area-based' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'sea-based' (decodes 0.98-1.00, the UN transcript; forced scoring 'sea' -0.1 vs 'area' -14.1); the BBNJ Agreement's term is 'area-based management tools', as the Spanish 'herramientas de gestión basadas en zonas' says); spot 13 unit 81 'heightened' -> 'heighten' (decodes hear 'heightened' only at 0.27 / 0.27; 'may increase inequalities and further heightened exposure' does not fit; sounds alike; ES 'acrecentar aún más la exposición'; UN 'heighten')",
+ "unitizer_version": 1,
+ "sha1": "fb55453eac13ad94e037cc3fbc2f301badc68804",
+ "layout": "single",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 2,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 1846,
+  "words_out": 1773,
+  "retention": 0.9605,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   178,
+   69,
+   121,
+   100,
+   101,
+   95,
+   113,
+   110,
+   67,
+   166,
+   102,
+   66,
+   84,
+   169,
+   52,
+   84,
+   93,
+   3
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

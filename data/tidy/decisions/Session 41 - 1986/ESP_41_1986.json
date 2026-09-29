@@ -1,0 +1,92 @@
+{
+ "id": "ESP_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  14,
+  16,
+  18,
+  22,
+  27,
+  30,
+  33,
+  41,
+  48,
+  50,
+  53,
+  55,
+  60,
+  63,
+  65,
+  70,
+  73,
+  76,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   48,
+   "Prom our",
+   "From our",
+   "ocr"
+  ],
+  [
+   60,
+   "aqain",
+   "again",
+   "ocr"
+  ],
+  [
+   64,
+   "forc«",
+   "force",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 2 breaks off at 'indefatigable work of the' and unit 3 starts a new sentence; the end of the tribute to the Secretary-General appears lost in the source.",
+ "unitizer_version": 1,
+ "sha1": "70903f08e3dca0371c18402d603652bf25bddb38",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2229,
+  "words_out": 2228,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   255,
+   69,
+   65,
+   62,
+   135,
+   128,
+   71,
+   110,
+   136,
+   220,
+   98,
+   83,
+   60,
+   131,
+   69,
+   57,
+   85,
+   85,
+   54,
+   95,
+   70
+  ],
+  "warnings": []
+ }
+}

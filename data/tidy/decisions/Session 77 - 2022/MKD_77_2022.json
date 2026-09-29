@@ -1,0 +1,96 @@
+{
+ "id": "MKD_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  16,
+  21,
+  28,
+  33,
+  36,
+  39,
+  45,
+  50,
+  57,
+  61,
+  67,
+  69,
+  73,
+  79,
+  83,
+  89,
+  95,
+  101,
+  103,
+  105,
+  108
+ ],
+ "cer": [
+  105
+ ],
+ "fix": [
+  [
+   1,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ],
+  [
+   71,
+   "forward- looking",
+   "forward-looking",
+   "hyphen"
+  ],
+  [
+   38,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8d542a49ae3b845474ce94e2ff1377a587b7135",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2854,
+  "words_out": 2851,
+  "retention": 0.9989,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   75,
+   165,
+   77,
+   151,
+   119,
+   115,
+   110,
+   64,
+   91,
+   96,
+   125,
+   183,
+   81,
+   135,
+   74,
+   134,
+   183,
+   91,
+   167,
+   147,
+   97,
+   93,
+   77,
+   90,
+   111
+  ],
+  "warnings": []
+ }
+}

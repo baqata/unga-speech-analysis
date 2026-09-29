@@ -1,0 +1,133 @@
+{
+ "id": "TCD_29_1974",
+ "drop": [
+  [
+   7,
+   7,
+   "noise"
+  ],
+  [
+   26,
+   26,
+   "noise"
+  ],
+  [
+   32,
+   32,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  11,
+  14,
+  16,
+  20,
+  27,
+  33,
+  36,
+  39,
+  42,
+  45,
+  50,
+  55,
+  59,
+  63,
+  66,
+  69,
+  74,
+  82,
+  85
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   6,
+   "151. ",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "\"die daily",
+   "die daily",
+   "ocr"
+  ],
+  [
+   61,
+   "develop, a",
+   "develop a",
+   "ocr"
+  ],
+  [
+   64,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   68,
+   "Di-rector",
+   "Director",
+   "hyphen"
+  ],
+  [
+   75,
+   "infra-structures",
+   "infrastructures",
+   "hyphen"
+  ],
+  [
+   82,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ddca6dfc656cf01a9bceac5fd8efd34fd66d915c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2468,
+  "words_out": 2463,
+  "retention": 0.998,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   166,
+   120,
+   85,
+   75,
+   116,
+   142,
+   98,
+   95,
+   113,
+   93,
+   122,
+   150,
+   141,
+   91,
+   105,
+   120,
+   94,
+   85,
+   198,
+   153,
+   101
+  ],
+  "warnings": []
+ }
+}

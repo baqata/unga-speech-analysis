@@ -1,0 +1,117 @@
+{
+ "id": "ISL_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  16,
+  21,
+  26,
+  30,
+  34,
+  37,
+  41,
+  47,
+  49,
+  52,
+  56,
+  59,
+  72,
+  76,
+  84,
+  87,
+  92,
+  95
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   19,
+   " [AIIOOOI/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "of , arms",
+   "of arms",
+   "ocr"
+  ],
+  [
+   69,
+   "rj Fourthly",
+   "Fourthly",
+   "ocr"
+  ],
+  [
+   69,
+   "fiillv",
+   "fully",
+   "ocr"
+  ],
+  [
+   72,
+   "28 ",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "con tent",
+   "content",
+   "split_word"
+  ],
+  [
+   99,
+   "success,",
+   "success.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77c657c2f64677306f92b8cf64b09dc420995e79",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2673,
+  "words_out": 2664,
+  "retention": 0.9966,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   65,
+   113,
+   95,
+   135,
+   119,
+   149,
+   93,
+   85,
+   138,
+   188,
+   57,
+   69,
+   94,
+   83,
+   287,
+   93,
+   155,
+   120,
+   156,
+   119,
+   161
+  ],
+  "warnings": []
+ }
+}

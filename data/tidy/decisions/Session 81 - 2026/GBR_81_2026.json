@@ -1,0 +1,145 @@
+{
+ "id": "GBR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   172,
+   172,
+   "noise"
+  ],
+  [
+   173,
+   173,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  15,
+  21,
+  33,
+  42,
+  48,
+  52,
+  58,
+  61,
+  68,
+  73,
+  79,
+  87,
+  98,
+  102,
+  113,
+  117,
+  128,
+  141,
+  144,
+  150,
+  155,
+  164,
+  171
+ ],
+ "cer": [
+  171
+ ],
+ "fix": [
+  [
+   2,
+   "Quick ",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "American agencies",
+   "Russian agencies",
+   "asr_name"
+  ],
+  [
+   17,
+   "power power",
+   "power",
+   "asr_term"
+  ],
+  [
+   41,
+   "law. and",
+   "law. And",
+   "asr_term"
+  ],
+  [
+   60,
+   "threat. to",
+   "threat to",
+   "asr_term"
+  ],
+  [
+   101,
+   "themselves. and",
+   "themselves and",
+   "asr_term"
+  ],
+  [
+   110,
+   "slaves. in",
+   "slaves in",
+   "asr_term"
+  ],
+  [
+   166,
+   "this. you",
+   "this. You",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Hall word 'Quick' removed from the start of unit 2. Main-agent audit: unit 27 'American agencies' -> 'Russian agencies' (asr_name): re-decoding hears 'Russian' (p 0.98), the Spanish has 'Agencias rusas' and the passage is about Russian interference. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 17 'power power' -> 'power'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 41 'law. and' -> 'law. And'; unit 60 'threat. to' -> 'threat to'; unit 101 'themselves. and' -> 'themselves and'; unit 110 'slaves. in' -> 'slaves in'; unit 166 'this. you' -> 'this. You'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 172 dropped (noise) (lone 'Thank you.' after the speech: a probe (1314 / 1316 s) hears 'Thank you very much indeed.' ending 1317.7 s and nothing until the presider at 1331.9 s; the Spanish has a single 'Muchas gracias.')",
+ "unitizer_version": 1,
+ "sha1": "6c3efcf4e006bd3720df7a16daad8ec40bc40eb2",
+ "layout": "single",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3092,
+  "words_out": 3014,
+  "retention": 0.9748,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   107,
+   131,
+   77,
+   195,
+   164,
+   113,
+   135,
+   149,
+   72,
+   86,
+   119,
+   95,
+   105,
+   199,
+   92,
+   160,
+   74,
+   182,
+   199,
+   72,
+   92,
+   75,
+   170,
+   146,
+   5
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "ECU_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  43,
+  56,
+  64,
+  77,
+  90,
+  105,
+  115,
+  128,
+  136,
+  148,
+  161,
+  173,
+  195,
+  203,
+  218,
+  232,
+  248,
+  267,
+  279,
+  296,
+  311,
+  327
+ ],
+ "cer": [
+  0,
+  327
+ ],
+ "fix": [
+  [
+   158,
+   "and a-",
+   "and a",
+   "ocr"
+  ],
+  [
+   247,
+   "pre-emptory",
+   "peremptory",
+   "ocr"
+  ],
+  [
+   254,
+   "are Other",
+   "are other",
+   "ocr"
+  ],
+  [
+   257,
+   "force it: international",
+   "force in international",
+   "ocr"
+  ],
+  [
+   301,
+   "hijacking - or",
+   "hijacking or",
+   "ocr"
+  ],
+  [
+   322,
+   "science“",
+   "science”",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f932f5424faf7781e0d04b67555cd68537ae8df",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 335,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2988,
+  "words_out": 2958,
+  "retention": 0.99,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   162,
+   212,
+   114,
+   64,
+   111,
+   122,
+   132,
+   86,
+   112,
+   76,
+   105,
+   114,
+   110,
+   197,
+   73,
+   141,
+   123,
+   151,
+   156,
+   105,
+   152,
+   135,
+   143,
+   62
+  ],
+  "warnings": []
+ }
+}

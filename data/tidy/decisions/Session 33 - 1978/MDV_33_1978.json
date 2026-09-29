@@ -1,0 +1,77 @@
+{
+ "id": "MDV_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  6,
+  10,
+  18,
+  26,
+  35,
+  38,
+  42,
+  47,
+  49,
+  53,
+  58
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "thirty\" second",
+   "thirty-second",
+   "ocr"
+  ],
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   5,
+   " /A/33/1J",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71637358974dc6806eb265eb2d795f115eb52bb9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1692,
+  "words_out": 1689,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   105,
+   51,
+   55,
+   124,
+   131,
+   202,
+   172,
+   74,
+   129,
+   172,
+   69,
+   98,
+   111,
+   196
+  ],
+  "warnings": []
+ }
+}

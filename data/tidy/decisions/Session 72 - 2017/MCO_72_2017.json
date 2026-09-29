@@ -1,0 +1,72 @@
+{
+ "id": "MCO_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  15,
+  19,
+  24,
+  27,
+  29,
+  33,
+  34,
+  45,
+  49,
+  55,
+  59,
+  66,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   47,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e5b34dcb7f2c4025726206d3894948db1ec9369",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1719,
+  "words_out": 1717,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   120,
+   76,
+   88,
+   94,
+   83,
+   65,
+   128,
+   31,
+   166,
+   112,
+   200,
+   136,
+   218,
+   69,
+   51
+  ],
+  "warnings": []
+ }
+}

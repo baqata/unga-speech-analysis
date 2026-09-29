@@ -1,0 +1,117 @@
+{
+ "id": "CRI_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  10,
+  13,
+  16,
+  22,
+  25,
+  27,
+  30,
+  33,
+  35,
+  40,
+  43,
+  49,
+  55,
+  58,
+  60,
+  64,
+  65,
+  69,
+  72,
+  75,
+  78,
+  81,
+  85,
+  89
+ ],
+ "cer": [
+  0,
+  89
+ ],
+ "fix": [
+  [
+   19,
+   "a waiting",
+   "awaiting",
+   "split_word"
+  ],
+  [
+   24,
+   " [OAS]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "316. ",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "the\" legitimate",
+   "the legitimate",
+   "ocr"
+  ],
+  [
+   71,
+   "'scourge",
+   "scourge",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc1722bd0c371ebb4c6a16550e70f5c6766b6f25",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 66
+  },
+  "words_in": 3679,
+  "words_out": 3676,
+  "retention": 0.9992,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   71,
+   141,
+   86,
+   200,
+   110,
+   146,
+   196,
+   145,
+   69,
+   126,
+   135,
+   122,
+   145,
+   153,
+   173,
+   201,
+   105,
+   126,
+   153,
+   63,
+   171,
+   134,
+   92,
+   123,
+   98,
+   206,
+   127,
+   59
+  ],
+  "warnings": []
+ }
+}

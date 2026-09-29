@@ -1,0 +1,132 @@
+{
+ "id": "KEN_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  17,
+  24,
+  30,
+  34,
+  41,
+  47,
+  56,
+  61,
+  71,
+  77,
+  82,
+  92,
+  97,
+  104,
+  107,
+  120,
+  125,
+  133,
+  140,
+  151,
+  161,
+  166,
+  172,
+  183,
+  187,
+  193,
+  199,
+  205,
+  208
+ ],
+ "cer": [
+  0,
+  6,
+  208
+ ],
+ "fix": [
+  [
+   82,
+   "174, ",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "Namibia. and",
+   "Namibia and",
+   "ocr"
+  ],
+  [
+   79,
+   "desire; which",
+   "desire, which",
+   "ocr"
+  ],
+  [
+   114,
+   "waging at: inhuman",
+   "waging an inhuman",
+   "ocr"
+  ],
+  [
+   158,
+   "achieving 2 just",
+   "achieving a just",
+   "ocr"
+  ],
+  [
+   189,
+   "session Of UNCTAD",
+   "session of UNCTAD",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60acdd71b39508125e4c63bb4b0387224a4a4bc4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4189,
+  "words_out": 4154,
+  "retention": 0.9916,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   117,
+   56,
+   115,
+   128,
+   108,
+   67,
+   146,
+   100,
+   194,
+   114,
+   191,
+   211,
+   104,
+   210,
+   100,
+   150,
+   69,
+   242,
+   62,
+   144,
+   143,
+   234,
+   154,
+   110,
+   130,
+   190,
+   68,
+   140,
+   111,
+   107,
+   65,
+   74
+  ],
+  "warnings": []
+ }
+}

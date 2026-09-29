@@ -1,0 +1,94 @@
+{
+ "id": "FIN_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  19,
+  25,
+  33,
+  39,
+  45,
+  50,
+  64,
+  74,
+  78,
+  85,
+  90,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "but. can",
+   "but can",
+   "ocr"
+  ],
+  [
+   84,
+   "close: study",
+   "close study",
+   "ocr"
+  ],
+  [
+   86,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   90,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   92,
+   "He support",
+   "We support",
+   "ocr"
+  ],
+  [
+   101,
+   "How, as",
+   "Now, as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69e2cb1717bf6453083a3374cbe30af917ebf8ec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1829,
+  "words_out": 1829,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   92,
+   88,
+   157,
+   108,
+   101,
+   104,
+   86,
+   96,
+   183,
+   209,
+   128,
+   142,
+   97,
+   129,
+   109
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "ISL_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  31,
+  39,
+  51,
+  65,
+  85,
+  96,
+  109,
+  124,
+  134,
+  148,
+  162,
+  177,
+  193,
+  205,
+  215
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "Nations.'",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   43,
+   "however. United",
+   "however, United",
+   "ocr"
+  ],
+  [
+   78,
+   "cleansing\"-",
+   "cleansing\".",
+   "ocr"
+  ],
+  [
+   132,
+   "choose\"-",
+   "choose\".",
+   "ocr"
+  ],
+  [
+   209,
+   "is'a",
+   "is a",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7919b5a1019580221ce5f07b7b82987cc2b71b7d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 232,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2506,
+  "words_out": 2507,
+  "retention": 1.0004,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   76,
+   74,
+   187,
+   82,
+   126,
+   150,
+   204,
+   114,
+   149,
+   174,
+   93,
+   158,
+   161,
+   153,
+   169,
+   125,
+   107,
+   205
+  ],
+  "warnings": []
+ }
+}

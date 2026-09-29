@@ -1,0 +1,70 @@
+{
+ "id": "IDN_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  31,
+  42,
+  52,
+  85,
+  104,
+  122,
+  137,
+  147,
+  156,
+  170,
+  178,
+  187
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   160,
+   "conf luence",
+   "confluence",
+   "split_word"
+  ],
+  [
+   189,
+   "conf luence",
+   "confluence",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4b3d9270b78f743b3b76ca4ad19d23a8029e4895",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1704,
+  "words_out": 1702,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   37,
+   100,
+   112,
+   90,
+   78,
+   255,
+   167,
+   155,
+   126,
+   69,
+   76,
+   122,
+   75,
+   66,
+   174
+  ],
+  "warnings": []
+ }
+}

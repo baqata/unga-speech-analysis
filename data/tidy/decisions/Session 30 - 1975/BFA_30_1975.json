@@ -1,0 +1,142 @@
+{
+ "id": "BFA_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  5,
+  7,
+  11,
+  14,
+  16,
+  18,
+  25,
+  31,
+  37,
+  41,
+  44,
+  49,
+  53,
+  58,
+  64,
+  67,
+  69,
+  72,
+  74,
+  77,
+  79,
+  84,
+  86,
+  89,
+  92
+ ],
+ "cer": [
+  1,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   15,
+   "factors.for",
+   "factors for",
+   "ocr"
+  ],
+  [
+   27,
+   "'",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "Korea,",
+   "Korea.",
+   "ocr"
+  ],
+  [
+   75,
+   "■on",
+   "on",
+   "markup"
+  ],
+  [
+   77,
+   "! ",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "■ ",
+   "",
+   "markup"
+  ],
+  [
+   82,
+   "profitability.calculations",
+   "profitability calculations",
+   "ocr"
+  ],
+  [
+   55,
+   " [resolution 3261 E (XXIX)]",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "encounter, Only",
+   "encounter. Only",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "87009e90aa1014dbba93110c27ba51dba247c190",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 50
+  },
+  "words_in": 3233,
+  "words_out": 3223,
+  "retention": 0.9969,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   55,
+   102,
+   76,
+   62,
+   89,
+   143,
+   124,
+   59,
+   157,
+   173,
+   215,
+   135,
+   112,
+   151,
+   94,
+   107,
+   171,
+   102,
+   90,
+   120,
+   82,
+   90,
+   64,
+   153,
+   96,
+   70,
+   211,
+   120
+  ],
+  "warnings": []
+ }
+}

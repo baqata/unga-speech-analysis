@@ -1,0 +1,92 @@
+{
+ "id": "MRT_48_1993",
+ "drop": [
+  [
+   88,
+   88,
+   "header_footer"
+  ],
+  [
+   186,
+   186,
+   "header_footer"
+  ],
+  [
+   283,
+   283,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  27,
+  53,
+  65,
+  82,
+  107,
+  118,
+  135,
+  152,
+  163,
+  171,
+  187,
+  203,
+  225,
+  244,
+  271,
+  281,
+  292,
+  304,
+  318,
+  326,
+  342
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "935e847f89b146c8d2af13021df2dbcc3311e8bb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 358,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 3215,
+  "words_out": 3193,
+  "retention": 0.9932,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   118,
+   109,
+   238,
+   101,
+   147,
+   215,
+   107,
+   147,
+   156,
+   91,
+   73,
+   145,
+   145,
+   214,
+   169,
+   247,
+   97,
+   86,
+   101,
+   127,
+   66,
+   137,
+   157
+  ],
+  "warnings": []
+ }
+}

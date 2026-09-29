@@ -1,0 +1,43 @@
+{
+ "id": "COG_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  20,
+  26,
+  32,
+  36
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a99cc475ad147b5ce7f05b05f6bba1fb2209d65",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 779,
+  "words_out": 779,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   97,
+   86,
+   163,
+   72,
+   131,
+   128,
+   91,
+   11
+  ],
+  "warnings": []
+ }
+}

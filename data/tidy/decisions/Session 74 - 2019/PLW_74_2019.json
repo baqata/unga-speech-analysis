@@ -1,0 +1,92 @@
+{
+ "id": "PLW_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  17,
+  20,
+  28,
+  33,
+  38,
+  41,
+  44,
+  47,
+  51,
+  56,
+  61,
+  64,
+  66,
+  77,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "(A/49/PV.89, p.5)",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "near- universal",
+   "near-universal",
+   "hyphen"
+  ],
+  [
+   16,
+   "low- carbon",
+   "low-carbon",
+   "hyphen"
+  ],
+  [
+   42,
+   "ocean- based",
+   "ocean-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "423a68d314279b97af9105a767d4a288e1e446e0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2125,
+  "words_out": 2120,
+  "retention": 0.9976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   106,
+   106,
+   96,
+   127,
+   66,
+   136,
+   87,
+   182,
+   92,
+   79,
+   102,
+   103,
+   126,
+   153,
+   84,
+   99,
+   228,
+   80,
+   68
+  ],
+  "warnings": []
+ }
+}

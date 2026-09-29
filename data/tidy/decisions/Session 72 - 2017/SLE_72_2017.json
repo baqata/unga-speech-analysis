@@ -1,0 +1,94 @@
+{
+ "id": "SLE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  14,
+  15,
+  18,
+  22,
+  26,
+  31,
+  34,
+  37,
+  40,
+  44,
+  46,
+  50,
+  54,
+  57,
+  60,
+  63,
+  66,
+  69,
+  71,
+  74,
+  79
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   35,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   42,
+   "post- conflict",
+   "post-conflict",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9baee27bb25e22bd1f5147c53c1e0b9bd9a90c98",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2513,
+  "words_out": 2510,
+  "retention": 0.9988,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   155,
+   126,
+   71,
+   68,
+   77,
+   95,
+   162,
+   84,
+   82,
+   91,
+   98,
+   107,
+   114,
+   144,
+   148,
+   76,
+   94,
+   101,
+   75,
+   105,
+   78,
+   98,
+   121,
+   140
+  ],
+  "warnings": []
+ }
+}

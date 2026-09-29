@@ -1,0 +1,206 @@
+{
+ "id": "SOM_28_1973",
+ "drop": [
+  [
+   160,
+   160,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  15,
+  20,
+  25,
+  27,
+  31,
+  36,
+  42,
+  44,
+  46,
+  50,
+  55,
+  58,
+  60,
+  65,
+  67,
+  71,
+  74,
+  80,
+  85,
+  88,
+  92,
+  93,
+  95,
+  100,
+  105,
+  107,
+  110,
+  113,
+  116,
+  123,
+  127,
+  133,
+  134,
+  137,
+  140,
+  145,
+  147,
+  154,
+  157,
+  159,
+  163,
+  165,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "security, The",
+   "security. The",
+   "ocr"
+  ],
+  [
+   10,
+   "of [OAU] at",
+   "of OAU at",
+   "ocr"
+  ],
+  [
+   21,
+   "a I frantic",
+   "a frantic",
+   "ocr"
+  ],
+  [
+   43,
+   "the. philosophy",
+   "the philosophy",
+   "ocr"
+  ],
+  [
+   49,
+   "and-non-citizens",
+   "and non-citizens",
+   "ocr"
+  ],
+  [
+   82,
+   "that ' a",
+   "that a",
+   "ocr"
+  ],
+  [
+   92,
+   " [UNCURK]",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "ii is",
+   "it is",
+   "ocr"
+  ],
+  [
+   110,
+   "most' able",
+   "most able",
+   "ocr"
+  ],
+  [
+   148,
+   "Committee\" since",
+   "Committee since",
+   "ocr"
+  ],
+  [
+   159,
+   "414. ",
+   "",
+   "label"
+  ],
+  [
+   165,
+   "whatever \"causes",
+   "whatever causes",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "46abee5e1456dc14c467d9b96b7cec42e7d703c4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 173,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 64,
+   "page_number": 1
+  },
+  "words_in": 5692,
+  "words_out": 5666,
+  "retention": 0.9954,
+  "n_paragraphs": 47,
+  "paragraph_words": [
+   162,
+   136,
+   187,
+   65,
+   137,
+   152,
+   81,
+   113,
+   119,
+   201,
+   82,
+   91,
+   135,
+   159,
+   145,
+   63,
+   149,
+   64,
+   134,
+   121,
+   192,
+   148,
+   85,
+   81,
+   73,
+   75,
+   132,
+   117,
+   92,
+   96,
+   94,
+   143,
+   182,
+   97,
+   144,
+   85,
+   95,
+   172,
+   135,
+   96,
+   196,
+   102,
+   82,
+   133,
+   92,
+   103,
+   128
+  ],
+  "warnings": []
+ }
+}

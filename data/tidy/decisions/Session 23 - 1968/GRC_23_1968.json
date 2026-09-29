@@ -1,0 +1,93 @@
+{
+ "id": "GRC_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  11,
+  16,
+  22,
+  28,
+  35,
+  37,
+  42,
+  48,
+  54,
+  58,
+  63,
+  66,
+  72,
+  77,
+  84,
+  92,
+  99,
+  105,
+  110,
+  114
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   " [A/7201 and Add.1]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "friendship With",
+   "friendship with",
+   "ocr"
+  ],
+  [
+   70,
+   "dangerous. confusion",
+   "dangerous confusion",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "296a9cbe9dcbd48a984fa6a40552223a4b36d686",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2878,
+  "words_out": 2830,
+  "retention": 0.9833,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   86,
+   37,
+   113,
+   155,
+   192,
+   116,
+   279,
+   71,
+   99,
+   115,
+   118,
+   116,
+   112,
+   92,
+   140,
+   101,
+   171,
+   166,
+   163,
+   106,
+   120,
+   101,
+   61
+  ],
+  "warnings": []
+ }
+}

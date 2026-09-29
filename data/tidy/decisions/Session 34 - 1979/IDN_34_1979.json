@@ -1,0 +1,128 @@
+{
+ "id": "IDN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  11,
+  18,
+  24,
+  29,
+  34,
+  39,
+  43,
+  49,
+  57,
+  60,
+  63,
+  72,
+  76,
+  85,
+  89,
+  96,
+  99,
+  105,
+  112,
+  115,
+  119,
+  125,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "ex-amine",
+   "examine",
+   "hyphen"
+  ],
+  [
+   10,
+   "com-munity",
+   "community",
+   "hyphen"
+  ],
+  [
+   19,
+   "far- reaching",
+   "far-reaching",
+   "spacing"
+  ],
+  [
+   28,
+   "questions or national",
+   "questions of national",
+   "ocr"
+  ],
+  [
+   47,
+   "systems, At",
+   "systems. At",
+   "ocr"
+  ],
+  [
+   50,
+   "railed to heed",
+   "failed to heed",
+   "ocr"
+  ],
+  [
+   59,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   116,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "94e0294370344aaf1613fb915d8962ad744a7068",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3906,
+  "words_out": 3903,
+  "retention": 0.9992,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   230,
+   116,
+   183,
+   200,
+   129,
+   176,
+   99,
+   91,
+   196,
+   175,
+   82,
+   117,
+   253,
+   104,
+   194,
+   109,
+   212,
+   74,
+   221,
+   200,
+   136,
+   141,
+   196,
+   79,
+   190
+  ],
+  "warnings": []
+ }
+}

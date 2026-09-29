@@ -1,0 +1,53 @@
+{
+ "id": "CHE_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  33,
+  52,
+  65,
+  80,
+  94,
+  107,
+  119,
+  130,
+  142,
+  159
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad734d1826ff6c37d51413f518ff0eea1e6099e5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1307,
+  "words_out": 1307,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   84,
+   180,
+   154,
+   98,
+   117,
+   124,
+   99,
+   94,
+   79,
+   97,
+   130,
+   51
+  ],
+  "warnings": []
+ }
+}

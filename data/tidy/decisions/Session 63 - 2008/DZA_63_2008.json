@@ -1,0 +1,62 @@
+{
+ "id": "DZA_63_2008",
+ "drop": [
+  [
+   19,
+   19,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  31,
+  39,
+  48,
+  62,
+  80,
+  98,
+  110,
+  126,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c30ba8b52cc49d3956dc9a044cce323b5182df54",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_header": 2,
+   "job_number": 2
+  },
+  "words_in": 1184,
+  "words_out": 1177,
+  "retention": 0.9941,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   60,
+   159,
+   52,
+   64,
+   118,
+   155,
+   158,
+   82,
+   125,
+   76,
+   128
+  ],
+  "warnings": [
+   "procedural drop [19,19] in the middle of the speech"
+  ]
+ }
+}

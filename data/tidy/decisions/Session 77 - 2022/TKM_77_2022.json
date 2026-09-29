@@ -1,0 +1,68 @@
+{
+ "id": "TKM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  9,
+  13,
+  16,
+  19,
+  21,
+  24,
+  26,
+  28,
+  30,
+  32,
+  33,
+  35,
+  38
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "(SDGs) .",
+   "(SDGs).",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac6e3f7ee96b3344f58a51984ae80420d673fb19",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1532,
+  "words_out": 1531,
+  "retention": 0.9993,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   89,
+   72,
+   102,
+   72,
+   144,
+   89,
+   95,
+   86,
+   99,
+   61,
+   101,
+   90,
+   129,
+   60,
+   98,
+   86,
+   58
+  ],
+  "warnings": []
+ }
+}

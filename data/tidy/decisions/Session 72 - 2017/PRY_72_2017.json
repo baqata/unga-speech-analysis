@@ -1,0 +1,84 @@
+{
+ "id": "PRY_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  13,
+  16,
+  18,
+  21,
+  24,
+  28,
+  32,
+  36,
+  39,
+  43,
+  47,
+  52,
+  57,
+  61,
+  65,
+  70,
+  74,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "hydraoelectric",
+   "hydroelectric",
+   "ocr"
+  ],
+  [
+   17,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee0706dcf23074575cdbd3f95159ecb4f3bab25e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2291,
+  "words_out": 2290,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   162,
+   63,
+   107,
+   96,
+   82,
+   79,
+   68,
+   110,
+   112,
+   117,
+   108,
+   126,
+   93,
+   170,
+   84,
+   127,
+   112,
+   120,
+   98,
+   86,
+   80
+  ],
+  "warnings": []
+ }
+}

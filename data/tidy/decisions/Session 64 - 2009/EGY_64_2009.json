@@ -1,0 +1,73 @@
+{
+ "id": "EGY_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  24,
+  37,
+  62,
+  80,
+  102,
+  123,
+  141,
+  153,
+  174,
+  191,
+  214,
+  237,
+  262,
+  285,
+  298,
+  324
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   171,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a4ec851f5deade492a28fbd8250e80af2124d66",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 337,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 4
+  },
+  "words_in": 2652,
+  "words_out": 2649,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   73,
+   121,
+   105,
+   193,
+   140,
+   157,
+   152,
+   156,
+   105,
+   165,
+   146,
+   158,
+   181,
+   183,
+   193,
+   117,
+   194,
+   110
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "id": "NIC_27_1972",
+ "drop": [
+  [
+   37,
+   37,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  11,
+  17,
+  19,
+  21,
+  24,
+  26,
+  30,
+  33,
+  35,
+  38,
+  42,
+  47,
+  51,
+  54,
+  57,
+  60,
+  63,
+  66,
+  68,
+  74,
+  75,
+  76,
+  80,
+  82,
+  84,
+  85,
+  87,
+  91,
+  93,
+  97,
+  99,
+  105
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   12,
+   "1970. he said",
+   "1970, he said",
+   "ocr"
+  ],
+  [
+   35,
+   "Witliin",
+   "Within",
+   "ocr"
+  ],
+  [
+   53,
+   "determination' to",
+   "determination to",
+   "ocr"
+  ],
+  [
+   76,
+   " [A/8721, annex I, sect.",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "2J",
+   "",
+   "label"
+  ],
+  [
+   107,
+   "Let vs",
+   "Let us",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5b9520e6c7e4c7552a80a1daa4caa9e681498620",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 54
+  },
+  "words_in": 4329,
+  "words_out": 4322,
+  "retention": 0.9984,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   89,
+   123,
+   175,
+   143,
+   161,
+   109,
+   102,
+   111,
+   129,
+   134,
+   99,
+   62,
+   62,
+   131,
+   132,
+   118,
+   132,
+   131,
+   193,
+   96,
+   151,
+   124,
+   165,
+   73,
+   92,
+   136,
+   105,
+   96,
+   111,
+   97,
+   141,
+   65,
+   96,
+   90,
+   235,
+   113
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "NER_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  16,
+  18,
+  22,
+  25,
+  30,
+  35,
+  41,
+  46,
+  47,
+  51,
+  53,
+  57,
+  60,
+  64,
+  67,
+  71,
+  75,
+  77
+ ],
+ "cer": [
+  0,
+  16,
+  77
+ ],
+ "fix": [
+  [
+   3,
+   "success- full",
+   "successful",
+   "ocr"
+  ],
+  [
+   4,
+   "the- active",
+   "the active",
+   "ocr"
+  ],
+  [
+   48,
+   "the i same",
+   "the same",
+   "ocr"
+  ],
+  [
+   51,
+   "stale-mate",
+   "stalemate",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67275ff7805b63dfdf2f67efbd5ba835af54d066",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3039,
+  "words_out": 3035,
+  "retention": 0.9987,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   189,
+   148,
+   87,
+   160,
+   62,
+   175,
+   119,
+   152,
+   178,
+   227,
+   147,
+   61,
+   181,
+   75,
+   154,
+   166,
+   150,
+   157,
+   169,
+   126,
+   48,
+   104
+  ],
+  "warnings": []
+ }
+}

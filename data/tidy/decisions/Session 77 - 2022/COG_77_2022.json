@@ -1,0 +1,70 @@
+{
+ "id": "COG_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  11,
+  15,
+  19,
+  30,
+  34,
+  38,
+  43,
+  46,
+  53,
+  56
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "consensus- based",
+   "consensus-based",
+   "hyphen"
+  ],
+  [
+   42,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   56,
+   "(see A/77.PV.6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a607a3012593cef48b5a60e05aa572b17461a35",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1538,
+  "words_out": 1534,
+  "retention": 0.9974,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   130,
+   95,
+   109,
+   121,
+   68,
+   136,
+   136,
+   107,
+   174,
+   97,
+   191,
+   85,
+   85
+  ],
+  "warnings": []
+ }
+}

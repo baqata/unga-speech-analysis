@@ -1,0 +1,72 @@
+{
+ "id": "BGR_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  24,
+  45,
+  59,
+  74,
+  95,
+  104,
+  113,
+  127,
+  149,
+  175,
+  192,
+  213,
+  223
+ ],
+ "cer": [
+  9
+ ],
+ "fix": [
+  [
+   4,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   5,
+   ")",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Removed the leftover of a document reference, '(see )', after the tool stripped its symbol.",
+ "unitizer_version": 1,
+ "sha1": "bcd3d648d795c7b7af0d9ea01f9365aaff169d50",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1
+  },
+  "words_in": 1787,
+  "words_out": 1783,
+  "retention": 0.9978,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   76,
+   115,
+   152,
+   111,
+   106,
+   157,
+   74,
+   70,
+   96,
+   161,
+   210,
+   117,
+   167,
+   78,
+   93
+  ],
+  "warnings": []
+ }
+}

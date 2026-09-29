@@ -1,0 +1,74 @@
+{
+ "id": "CPV_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   55,
+   56,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  8,
+  16,
+  21,
+  29,
+  34,
+  45,
+  50,
+  54
+ ],
+ "cer": [
+  2,
+  54
+ ],
+ "fix": [
+  [
+   17,
+   "AeOSIS",
+   "AOSIS",
+   "asr_name"
+  ],
+  [
+   20,
+   "OASIS",
+   "AOSIS",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "684245d884cfcf73e72f0f30112a07d2e81f040a",
+ "layout": "single",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1060,
+  "words_out": 998,
+  "retention": 0.9415,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   42,
+   157,
+   141,
+   85,
+   119,
+   73,
+   118,
+   168,
+   91,
+   4
+  ],
+  "warnings": []
+ }
+}

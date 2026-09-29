@@ -1,0 +1,74 @@
+{
+ "id": "CPV_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  30,
+  39,
+  62,
+  74,
+  89,
+  103,
+  115,
+  131,
+  143,
+  159,
+  172,
+  185,
+  198,
+  210,
+  226,
+  242,
+  251,
+  261
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   153,
+   "f light",
+   "flight",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3690276b616c2be35d91a84a4a2a1005659fe82b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2231,
+  "words_out": 2230,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   154,
+   95,
+   71,
+   216,
+   111,
+   121,
+   117,
+   102,
+   135,
+   101,
+   119,
+   119,
+   102,
+   99,
+   87,
+   140,
+   112,
+   79,
+   87,
+   63
+  ],
+  "warnings": []
+ }
+}

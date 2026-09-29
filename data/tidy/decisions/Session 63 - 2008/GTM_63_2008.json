@@ -1,0 +1,55 @@
+{
+ "id": "GTM_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  20,
+  47,
+  60,
+  71,
+  87,
+  110,
+  123,
+  144,
+  158,
+  169,
+  182
+ ],
+ "cer": [
+  13
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab44beeac371a85b64957dcdb022a58acd6da3cb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1658,
+  "words_out": 1658,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   102,
+   54,
+   218,
+   111,
+   93,
+   130,
+   202,
+   107,
+   170,
+   132,
+   100,
+   102,
+   137
+  ],
+  "warnings": []
+ }
+}

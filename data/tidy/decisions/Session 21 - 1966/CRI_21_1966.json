@@ -1,0 +1,71 @@
+{
+ "id": "CRI_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  17,
+  22,
+  25,
+  31,
+  34,
+  37,
+  43,
+  49,
+  56,
+  58,
+  61,
+  66
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   18,
+   "done, Heavy",
+   "done. Heavy",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5eafe12c5a9c8b24224783e873b32c770febdd4f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2124,
+  "words_out": 2104,
+  "retention": 0.9906,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   134,
+   89,
+   197,
+   163,
+   72,
+   141,
+   92,
+   134,
+   85,
+   88,
+   98,
+   187,
+   168,
+   77,
+   80,
+   161,
+   138
+  ],
+  "warnings": []
+ }
+}

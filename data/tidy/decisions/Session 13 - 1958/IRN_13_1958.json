@@ -1,0 +1,141 @@
+{
+ "id": "IRN_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  17,
+  20,
+  26,
+  29,
+  36,
+  37,
+  40,
+  43,
+  47,
+  50,
+  56,
+  59,
+  62,
+  65,
+  67,
+  71,
+  74,
+  79,
+  82,
+  86,
+  91,
+  94,
+  96,
+  104
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "[1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "problem?",
+   "problem",
+   "ocr"
+  ],
+  [
+   15,
+   "living,",
+   "living.",
+   "ocr"
+  ],
+  [
+   27,
+   "development,",
+   "development.",
+   "ocr"
+  ],
+  [
+   28,
+   "tire arms",
+   "the arms",
+   "ocr"
+  ],
+  [
+   35,
+   "13 still",
+   "is still",
+   "ocr"
+  ],
+  [
+   64,
+   "studios",
+   "studies",
+   "ocr"
+  ],
+  [
+   87,
+   "incresing",
+   "increasing",
+   "ocr"
+  ],
+  [
+   103,
+   "world,\"",
+   "world.\"",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "88e82dc36973fbb414961d6bd5062515008ea066",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 38
+  },
+  "words_in": 3488,
+  "words_out": 3479,
+  "retention": 0.9974,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   108,
+   150,
+   147,
+   206,
+   127,
+   183,
+   149,
+   222,
+   51,
+   64,
+   106,
+   125,
+   98,
+   151,
+   77,
+   123,
+   92,
+   71,
+   110,
+   129,
+   177,
+   108,
+   107,
+   139,
+   104,
+   82,
+   195,
+   78
+  ],
+  "warnings": []
+ }
+}

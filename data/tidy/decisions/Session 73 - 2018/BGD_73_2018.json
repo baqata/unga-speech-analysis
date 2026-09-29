@@ -1,0 +1,100 @@
+{
+ "id": "BGD_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  22,
+  37,
+  43,
+  50,
+  58,
+  63,
+  65,
+  67,
+  78,
+  83,
+  89,
+  94,
+  104,
+  109,
+  122,
+  133,
+  138,
+  145,
+  156,
+  164
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "zero- tolerance",
+   "zero-tolerance",
+   "hyphen"
+  ],
+  [
+   89,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   140,
+   "public- service",
+   "public-service",
+   "hyphen"
+  ],
+  [
+   153,
+   "water- centric",
+   "water-centric",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "208bffc32b2c35406cfb39eee5bd8533d8534714",
+ "layout": "lines",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2894,
+  "words_out": 2888,
+  "retention": 0.9979,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   61,
+   156,
+   155,
+   202,
+   121,
+   131,
+   126,
+   74,
+   51,
+   81,
+   171,
+   81,
+   111,
+   113,
+   127,
+   71,
+   215,
+   174,
+   96,
+   134,
+   176,
+   134,
+   127
+  ],
+  "warnings": []
+ }
+}

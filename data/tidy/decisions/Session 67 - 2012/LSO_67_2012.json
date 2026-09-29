@@ -1,0 +1,78 @@
+{
+ "id": "LSO_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  27,
+  36,
+  44,
+  56,
+  67,
+  75,
+  94,
+  128,
+  141,
+  153,
+  169,
+  178,
+  186,
+  203,
+  213,
+  221,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   189,
+   "f loods",
+   "floods",
+   "split_word"
+  ],
+  [
+   192,
+   "f loods",
+   "floods",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d301efe1f253bb414b5dbabc80c161db635019ba",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 239,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2003,
+  "words_out": 2001,
+  "retention": 0.999,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   63,
+   161,
+   73,
+   67,
+   98,
+   105,
+   64,
+   163,
+   295,
+   95,
+   103,
+   136,
+   73,
+   65,
+   144,
+   81,
+   62,
+   99,
+   54
+  ],
+  "warnings": []
+ }
+}

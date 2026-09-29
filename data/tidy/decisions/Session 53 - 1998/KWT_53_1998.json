@@ -1,0 +1,149 @@
+{
+ "id": "KWT_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  24,
+  43,
+  57,
+  73,
+  84,
+  94,
+  117,
+  126,
+  136,
+  150,
+  164,
+  213,
+  220,
+  245,
+  257,
+  267,
+  274,
+  290,
+  302,
+  312,
+  328,
+  341,
+  355,
+  366,
+  381,
+  401
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   6,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   7,
+   "delegation?s",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   178,
+   "Iraq?s",
+   "Iraq’s",
+   "encoding"
+  ],
+  [
+   198,
+   "Iraq?s",
+   "Iraq’s",
+   "encoding"
+  ],
+  [
+   229,
+   "Iraq?s",
+   "Iraq’s",
+   "encoding"
+  ],
+  [
+   232,
+   "Iraq?s",
+   "Iraq’s",
+   "encoding"
+  ],
+  [
+   267,
+   "Kuwait?s",
+   "Kuwait’s",
+   "encoding"
+  ],
+  [
+   284,
+   "Israel?s",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   305,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   350,
+   "Iran?s",
+   "Iran’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "Paragraph 164 is long because it keeps a quoted GCC summit statement with its lead-in.",
+ "unitizer_version": 1,
+ "sha1": "7295d56566efb214f8274dda045a89e5b990152d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 414,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3486,
+  "words_out": 3483,
+  "retention": 0.9991,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   111,
+   92,
+   173,
+   112,
+   136,
+   81,
+   78,
+   180,
+   77,
+   91,
+   122,
+   128,
+   407,
+   61,
+   217,
+   104,
+   92,
+   60,
+   131,
+   101,
+   86,
+   130,
+   110,
+   115,
+   92,
+   126,
+   157,
+   113
+  ],
+  "warnings": [
+   "paragraph at unit 164 has 407 words"
+  ]
+ }
+}

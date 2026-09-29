@@ -1,0 +1,70 @@
+{
+ "id": "PLW_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  37,
+  56,
+  67,
+  75,
+  94,
+  103,
+  115,
+  127,
+  138,
+  160,
+  170,
+  185,
+  203,
+  213
+ ],
+ "cer": [],
+ "fix": [
+  [
+   210,
+   "toour",
+   "to our",
+   "merged_word"
+  ],
+  [
+   217,
+   "modem",
+   "modern",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a010a52304e671434ecb8417c69ad52365e986c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1892,
+  "words_out": 1891,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   177,
+   143,
+   158,
+   96,
+   74,
+   163,
+   87,
+   116,
+   91,
+   104,
+   186,
+   77,
+   107,
+   152,
+   86,
+   74
+  ],
+  "warnings": []
+ }
+}

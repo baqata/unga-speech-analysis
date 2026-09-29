@@ -1,0 +1,202 @@
+{
+ "id": "PRY_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  10,
+  14,
+  16,
+  19,
+  21,
+  24,
+  26,
+  29,
+  32,
+  35,
+  39,
+  42,
+  45,
+  50,
+  51,
+  57,
+  62,
+  65,
+  67,
+  69,
+  73,
+  77,
+  80,
+  87,
+  89,
+  94,
+  96,
+  99,
+  104,
+  111,
+  115,
+  122,
+  125,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "no .small",
+   "no small",
+   "ocr"
+  ],
+  [
+   39,
+   " [resolutions 3201 (S-VI) and 3202",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "(S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   " [resolution 3281 (XXIX)]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "path ot future",
+   "path of future",
+   "ocr"
+  ],
+  [
+   87,
+   "43 ",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "44 ",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "45 ",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "all, these",
+   "all these",
+   "ocr"
+  ],
+  [
+   95,
+   "and! terms Chat",
+   "and terms that",
+   "ocr"
+  ],
+  [
+   100,
+   "affairs From",
+   "affairs from",
+   "ocr"
+  ],
+  [
+   103,
+   "alt civilized",
+   "all civilized",
+   "ocr"
+  ],
+  [
+   111,
+   "53. ",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "modernization of. the",
+   "modernization of the",
+   "ocr"
+  ],
+  [
+   123,
+   "their rote",
+   "their role",
+   "ocr"
+  ],
+  [
+   130,
+   "subjection.1",
+   "subjection.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 88 and 90 keep OCR damage (\"Sen only\", \"Viet NamNow Sin the south\") that cannot be repaired without adding letters.",
+ "unitizer_version": 1,
+ "sha1": "d8dfbb79ca448f8e487bec304dd2ecb44eaff35c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 57
+  },
+  "words_in": 3824,
+  "words_out": 3811,
+  "retention": 0.9966,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   119,
+   91,
+   139,
+   70,
+   77,
+   63,
+   87,
+   71,
+   97,
+   66,
+   80,
+   106,
+   62,
+   114,
+   78,
+   103,
+   126,
+   67,
+   111,
+   130,
+   85,
+   63,
+   82,
+   120,
+   87,
+   115,
+   178,
+   64,
+   148,
+   84,
+   75,
+   146,
+   121,
+   116,
+   150,
+   153,
+   73,
+   94
+  ],
+  "warnings": []
+ }
+}

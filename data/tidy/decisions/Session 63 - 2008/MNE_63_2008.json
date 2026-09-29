@@ -1,0 +1,48 @@
+{
+ "id": "MNE_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  41,
+  65,
+  83,
+  112,
+  124,
+  142,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "999b4d8e767629fc499c215efc891cc457a9f042",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "job_number": 2
+  },
+  "words_in": 1194,
+  "words_out": 1191,
+  "retention": 0.9975,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   128,
+   177,
+   167,
+   127,
+   216,
+   83,
+   136,
+   120,
+   37
+  ],
+  "warnings": []
+ }
+}

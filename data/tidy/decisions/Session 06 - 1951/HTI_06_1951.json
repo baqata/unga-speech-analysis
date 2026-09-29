@@ -1,0 +1,59 @@
+{
+ "id": "HTI_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  11,
+  14,
+  17,
+  20,
+  24,
+  29,
+  35,
+  37,
+  47,
+  48,
+  52,
+  56
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c50eae3efe7c4a714fa96e785f2d91c70d51b0ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 2557,
+  "words_out": 2554,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   107,
+   153,
+   183,
+   81,
+   92,
+   179,
+   241,
+   135,
+   231,
+   170,
+   171,
+   215,
+   49,
+   178,
+   160,
+   209
+  ],
+  "warnings": []
+ }
+}

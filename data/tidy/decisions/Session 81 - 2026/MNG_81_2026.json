@@ -1,0 +1,193 @@
+{
+ "id": "MNG_81_2026",
+ "drop": [
+  [
+   0,
+   5,
+   "presider"
+  ],
+  [
+   85,
+   85,
+   "noise"
+  ],
+  [
+   86,
+   87,
+   "presider"
+  ]
+ ],
+ "para": [
+  6,
+  7,
+  10,
+  15,
+  19,
+  23,
+  29,
+  30,
+  34,
+  39,
+  43,
+  47,
+  51,
+  55,
+  59,
+  64,
+  67,
+  72,
+  76,
+  80,
+  84
+ ],
+ "cer": [
+  6,
+  29,
+  84
+ ],
+ "fix": [
+  [
+   22,
+   "Mongoya",
+   "Mongolia",
+   "asr_name"
+  ],
+  [
+   22,
+   "cloth Bennett ",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "VASA",
+   "Awaza",
+   "asr_name"
+  ],
+  [
+   48,
+   "Mongoyan",
+   "Mongolian",
+   "asr_name"
+  ],
+  [
+   49,
+   "Mongoya's",
+   "Mongolia's",
+   "asr_name"
+  ],
+  [
+   49,
+   "afferestation",
+   "afforestation",
+   "asr_term"
+  ],
+  [
+   59,
+   "step-action agenda",
+   "Steppe Action Agenda",
+   "asr_name"
+  ],
+  [
+   77,
+   "inter-Elia",
+   "inter alia",
+   "asr_term"
+  ],
+  [
+   79,
+   "Kotwitch",
+   "Kotwicz",
+   "asr_name"
+  ],
+  [
+   79,
+   "Ilhang",
+   "Ilkhan",
+   "asr_name"
+  ],
+  [
+   8,
+   "Soyonbo",
+   "Soyombo",
+   "asr_name"
+  ],
+  [
+   14,
+   "as stronger",
+   "a stronger",
+   "asr_term"
+  ],
+  [
+   15,
+   "multipolar principle",
+   "multi-pillared principle",
+   "asr_term"
+  ],
+  [
+   28,
+   "representing",
+   "presenting",
+   "asr_term"
+  ],
+  [
+   45,
+   "budgets",
+   "budget",
+   "asr_term"
+  ],
+  [
+   47,
+   "remain",
+   "remained",
+   "asr_term"
+  ],
+  [
+   76,
+   "men",
+   "man",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Awaza Programme of Action for LLDCs (Spanish 'Aguaza'); Steppe Action Agenda per Spanish 'Estepas' and UNCCD COP17 reports (nature.org); Władysław Kotwicz, Mongolist, and Öljeitü, Ilkhan, wrote to Philip IV in 1305; unit 22 carries invented second-pass text, removed by label. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 8 'Soyonbo' -> 'Soyombo' (decode 2 hears 'soyombo' (0.65); the national symbol on Mongolia's flag is the Soyombo (standard spelling); ES 'sollo hombro'); spot 3 unit 14 'as stronger' -> 'a stronger' (both decodes hear 'a stronger' (0.90 / 0.88); ES 'Una ONU más fuerte'; 'as stronger United Nations' does not fit); spot 4 unit 15 'multipolar principle' -> 'multi-pillared principle' (both decodes hear 'multi-pillared' (0.72 / 0.80); ES 'un principio multipilar'; 'multipolar' alone also matches 'multipolarity' in the unit); spot 7 unit 28 'representing' -> 'presenting' (decode 2 hears 'presenting' (0.35), decode 1 'representing' (0.80); 'representing its candidature' does not fit; ES 'presentamos nuestra candidatura'); spot 16 unit 45 'budgets' -> 'budget' (both decodes clearly hear 'budget' (0.96 / 0.99); ES 'este presupuesto ingente'); spot 17 unit 47 'remain' -> 'remained' (both decodes clearly hear 'remained' (1.00 / 1.00); 'has remain' is ungrammatical); spot 29 unit 76 'men' -> 'man' (decodes 'men' only 0.47 / 0.41; Chinggis Khan's epithet is 'Man of the Millennium' (singular); 'men of the millennium' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "3cea8c1045e41551d613e601c051bfb58fdd48f7",
+ "layout": "single",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {
+   "presider": 8,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3009,
+  "words_out": 2916,
+  "retention": 0.9691,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   52,
+   123,
+   137,
+   176,
+   188,
+   213,
+   52,
+   102,
+   165,
+   156,
+   159,
+   132,
+   135,
+   100,
+   168,
+   104,
+   180,
+   124,
+   216,
+   229,
+   5
+  ],
+  "warnings": []
+ }
+}

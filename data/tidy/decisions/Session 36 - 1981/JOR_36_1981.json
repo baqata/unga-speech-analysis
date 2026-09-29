@@ -1,0 +1,173 @@
+{
+ "id": "JOR_36_1981",
+ "drop": [
+  [
+   28,
+   28,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  17,
+  23,
+  25,
+  29,
+  32,
+  35,
+  39,
+  46,
+  48,
+  50,
+  57,
+  65,
+  70,
+  75,
+  82,
+  88,
+  91,
+  93,
+  98,
+  100,
+  104,
+  111,
+  113,
+  115,
+  118,
+  125
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "problems-.",
+   "problems.",
+   "ocr"
+  ],
+  [
+   10,
+   "moral' commitment",
+   "moral commitment",
+   "ocr"
+  ],
+  [
+   26,
+   "challenges..",
+   "challenges.",
+   "ocr"
+  ],
+  [
+   43,
+   "occupAtion",
+   "occupation",
+   "ocr"
+  ],
+  [
+   49,
+   "those J have",
+   "those I have",
+   "ocr"
+  ],
+  [
+   49,
+   "is .the Middle",
+   "is the Middle",
+   "ocr"
+  ],
+  [
+   51,
+   "1967,3 immediately",
+   "1967, immediately",
+   "ocr"
+  ],
+  [
+   92,
+   "June.6 Furthermore",
+   "June. Furthermore",
+   "ocr"
+  ],
+  [
+   97,
+   "thePLO",
+   "the PLO",
+   "merged_word"
+  ],
+  [
+   98,
+   "llinis",
+   "Tunis",
+   "ocr"
+  ],
+  [
+   112,
+   "which,, place",
+   "which place",
+   "ocr"
+  ],
+  [
+   112,
+   "wayof",
+   "way of",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f77612e5732154da29791eef3cd79cf9fa69da7c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 38,
+   "page_number": 1
+  },
+  "words_in": 3686,
+  "words_out": 3687,
+  "retention": 1.0003,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   88,
+   149,
+   127,
+   127,
+   190,
+   93,
+   81,
+   68,
+   67,
+   143,
+   180,
+   74,
+   67,
+   186,
+   264,
+   158,
+   178,
+   156,
+   155,
+   62,
+   91,
+   170,
+   131,
+   126,
+   190,
+   84,
+   52,
+   84,
+   123,
+   23
+  ],
+  "warnings": []
+ }
+}

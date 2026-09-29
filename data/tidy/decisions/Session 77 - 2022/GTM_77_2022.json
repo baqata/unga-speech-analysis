@@ -1,0 +1,92 @@
+{
+ "id": "GTM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  11,
+  14,
+  19,
+  27,
+  35,
+  39,
+  44,
+  47,
+  53,
+  55,
+  61,
+  70,
+  72,
+  75,
+  78,
+  81,
+  88,
+  91,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "again, This",
+   "again. This",
+   "ocr"
+  ],
+  [
+   45,
+   "(see A/76/ PV.6)",
+   "",
+   "label"
+  ],
+  [
+   70,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7daab838342b2b3654e4db9b7f3a5ac7f99d2442",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2670,
+  "words_out": 2666,
+  "retention": 0.9985,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   41,
+   118,
+   92,
+   62,
+   92,
+   140,
+   178,
+   210,
+   133,
+   121,
+   102,
+   156,
+   73,
+   144,
+   208,
+   72,
+   80,
+   102,
+   147,
+   118,
+   95,
+   107,
+   75
+  ],
+  "warnings": []
+ }
+}

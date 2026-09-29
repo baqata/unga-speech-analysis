@@ -1,0 +1,70 @@
+{
+ "id": "SLB_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  38,
+  49,
+  65,
+  88,
+  106,
+  118,
+  130,
+  144,
+  152,
+  170,
+  194,
+  210,
+  230,
+  249,
+  264
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   210,
+   "communiquÈ",
+   "communiqué",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8fcca1e9707318173ad08ec8457dc2dcec73ea9a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2129,
+  "words_out": 2127,
+  "retention": 0.9991,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   176,
+   109,
+   74,
+   123,
+   187,
+   121,
+   89,
+   93,
+   117,
+   71,
+   137,
+   187,
+   124,
+   153,
+   138,
+   126,
+   102
+  ],
+  "warnings": []
+ }
+}

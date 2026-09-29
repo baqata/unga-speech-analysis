@@ -1,0 +1,168 @@
+{
+ "id": "BGD_30_1975",
+ "drop": [
+  [
+   28,
+   28,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  11,
+  15,
+  19,
+  23,
+  29,
+  34,
+  39,
+  43,
+  47,
+  50,
+  52,
+  55,
+  58,
+  65,
+  67,
+  74,
+  78,
+  81,
+  84,
+  89,
+  94,
+  97,
+  100,
+  108,
+  114,
+  121,
+  124,
+  130
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "striye",
+   "strive",
+   "ocr"
+  ],
+  [
+   9,
+   "third- world",
+   "third-world",
+   "hyphen"
+  ],
+  [
+   14,
+   "it,",
+   "it.",
+   "ocr"
+  ],
+  [
+   29,
+   " [S/ILI]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "t<) be",
+   "to be",
+   "ocr"
+  ],
+  [
+   33,
+   "Non- Proliferation",
+   "Non-Proliferation",
+   "hyphen"
+  ],
+  [
+   35,
+   "non- nuclear",
+   "non-nuclear",
+   "hyphen"
+  ],
+  [
+   47,
+   "non-nuclear- weapon",
+   "non-nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   48,
+   "nuclear- weapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ],
+  [
+   48,
+   ",1 under",
+   ", under",
+   "ocr"
+  ],
+  [
+   117,
+   "re-sources",
+   "resources",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b5262316d3e0905dd82874790f2347549c99ac74",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 41,
+   "page_number": 1
+  },
+  "words_in": 3394,
+  "words_out": 3382,
+  "retention": 0.9965,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   75,
+   42,
+   188,
+   120,
+   127,
+   101,
+   100,
+   155,
+   150,
+   77,
+   92,
+   134,
+   67,
+   62,
+   90,
+   120,
+   71,
+   144,
+   130,
+   94,
+   98,
+   109,
+   95,
+   96,
+   60,
+   233,
+   116,
+   150,
+   94,
+   153,
+   39
+  ],
+  "warnings": []
+ }
+}

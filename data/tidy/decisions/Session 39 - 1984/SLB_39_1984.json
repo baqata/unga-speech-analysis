@@ -1,0 +1,116 @@
+{
+ "id": "SLB_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  17,
+  20,
+  25,
+  29,
+  34,
+  39,
+  43,
+  47,
+  51,
+  54,
+  57,
+  60,
+  62,
+  69,
+  74,
+  81,
+  85,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   " m the adjacent",
+   " in the adjacent",
+   "ocr"
+  ],
+  [
+   39,
+   "nuclear- free",
+   "nuclear-free",
+   "hyphen"
+  ],
+  [
+   45,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   61,
+   "self- perpetuation",
+   "self-perpetuation",
+   "hyphen"
+  ],
+  [
+   67,
+   "would he advanced",
+   "would be advanced",
+   "ocr"
+  ],
+  [
+   70,
+   "settlers- -are",
+   "settlers—are",
+   "ocr"
+  ],
+  [
+   76,
+   "ail the",
+   "all the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c96ca77e9fa114a214a5484445d5c90dc19a6c95",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2598,
+  "words_out": 2595,
+  "retention": 0.9988,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   152,
+   158,
+   112,
+   81,
+   73,
+   80,
+   97,
+   90,
+   166,
+   156,
+   79,
+   150,
+   81,
+   118,
+   134,
+   65,
+   236,
+   128,
+   137,
+   120,
+   126,
+   56
+  ],
+  "warnings": []
+ }
+}

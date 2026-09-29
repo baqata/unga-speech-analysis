@@ -1,0 +1,80 @@
+{
+ "id": "ITA_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  36,
+  44,
+  53,
+  66,
+  85,
+  97,
+  120,
+  134,
+  146,
+  154,
+  164,
+  172,
+  181,
+  197,
+  212,
+  223,
+  238,
+  250
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "Hammarskj.ld",
+   "Hammarskjöld",
+   "encoding"
+  ],
+  [
+   16,
+   "Hammarskj.ld",
+   "Hammarskjöld",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "05aba7037a40c92bc6809f844a9fe568bbb29ba5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2384,
+  "words_out": 2384,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   186,
+   147,
+   80,
+   85,
+   115,
+   172,
+   115,
+   220,
+   116,
+   111,
+   74,
+   87,
+   67,
+   67,
+   144,
+   131,
+   109,
+   124,
+   111,
+   123
+  ],
+  "warnings": []
+ }
+}

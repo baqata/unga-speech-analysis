@@ -1,0 +1,76 @@
+{
+ "id": "MDG_67_2012",
+ "drop": [
+  [
+   58,
+   59,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  35,
+  50,
+  60,
+  73,
+  92,
+  104,
+  117,
+  125,
+  134,
+  149,
+  159,
+  170
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   "f lux",
+   "flux",
+   "split_word"
+  ],
+  [
+   133,
+   "stif ling",
+   "stifling",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9e3561163d4ac41cbb0414ca355cbbc62a7ef010",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 1557,
+  "words_out": 1547,
+  "retention": 0.9936,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   66,
+   238,
+   126,
+   78,
+   100,
+   149,
+   107,
+   102,
+   75,
+   70,
+   137,
+   85,
+   94,
+   120
+  ],
+  "warnings": [
+   "procedural drop [58,59] in the middle of the speech"
+  ]
+ }
+}

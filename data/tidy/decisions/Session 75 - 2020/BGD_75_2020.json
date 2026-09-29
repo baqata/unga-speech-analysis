@@ -1,0 +1,77 @@
+{
+ "id": "BGD_75_2020",
+ "drop": [
+  [
+   0,
+   1,
+   "procedural"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  13,
+  17,
+  24,
+  27,
+  31,
+  37,
+  41,
+  48,
+  54,
+  59,
+  64,
+  68,
+  73,
+  78,
+  86,
+  93,
+  96,
+  103,
+  109
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a229cae61a157e75f02e744b6733cea98b3946e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 2039,
+  "words_out": 2029,
+  "retention": 0.9951,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   34,
+   140,
+   109,
+   143,
+   74,
+   98,
+   72,
+   80,
+   130,
+   136,
+   99,
+   69,
+   120,
+   74,
+   85,
+   132,
+   110,
+   110,
+   94,
+   105,
+   15
+  ],
+  "warnings": []
+ }
+}

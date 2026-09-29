@@ -1,0 +1,49 @@
+{
+ "id": "LTU_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  30,
+  45,
+  57,
+  78,
+  91,
+  114,
+  127,
+  136
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd5534e30cd5f06a174d3274940464b736b859c2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1103,
+  "words_out": 1102,
+  "retention": 0.9991,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   84,
+   80,
+   69,
+   106,
+   94,
+   145,
+   109,
+   165,
+   105,
+   65,
+   80
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "LBY_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  10,
+  12,
+  14,
+  17,
+  22,
+  24,
+  27,
+  36,
+  39,
+  42,
+  49,
+  51,
+  54,
+  57,
+  58,
+  61,
+  63,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "Z am certain",
+   "I am certain",
+   "ocr"
+  ],
+  [
+   42,
+   "^ministration",
+   "Administration",
+   "ocr"
+  ],
+  [
+   70,
+   "Choudiury's",
+   "Choudhury's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f009183bc5d16776ce7132dd5df7ed31e7fa6296",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2074,
+  "words_out": 2074,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   40,
+   64,
+   91,
+   69,
+   86,
+   91,
+   104,
+   65,
+   65,
+   228,
+   88,
+   94,
+   139,
+   131,
+   67,
+   137,
+   60,
+   87,
+   56,
+   75,
+   147
+  ],
+  "warnings": []
+ }
+}

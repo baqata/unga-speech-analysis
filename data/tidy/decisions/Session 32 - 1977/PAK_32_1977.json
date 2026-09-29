@@ -1,0 +1,164 @@
+{
+ "id": "PAK_32_1977",
+ "drop": [
+  [
+   105,
+   105,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  16,
+  20,
+  21,
+  24,
+  27,
+  37,
+  42,
+  46,
+  48,
+  53,
+  57,
+  60,
+  64,
+  69,
+  74,
+  79,
+  84,
+  90,
+  93,
+  102,
+  107,
+  110,
+  115,
+  120,
+  127,
+  132,
+  138,
+  144,
+  148,
+  154
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   10,
+   "With Pakistan",
+   "Within Pakistan",
+   "ocr"
+  ],
+  [
+   24,
+   "Palestinian-people",
+   "Palestinian people",
+   "ocr"
+  ],
+  [
+   33,
+   "creation withdrawal from occupied territories as also to the ",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "leg3l",
+   "legal",
+   "ocr"
+  ],
+  [
+   44,
+   "People s Organization",
+   "People's Organization",
+   "ocr"
+  ],
+  [
+   79,
+   "FORATO -",
+   "FORATOM -",
+   "ocr"
+  ],
+  [
+   81,
+   "renounce .",
+   "renounce.",
+   "spacing"
+  ],
+  [
+   107,
+   "nuclear-weapon- free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ],
+  [
+   155,
+   "must-be",
+   "must—be",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "891ed00782a9edd7017881d4511e8fb893531a76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 38
+  },
+  "words_in": 4214,
+  "words_out": 4192,
+  "retention": 0.9948,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   119,
+   80,
+   117,
+   66,
+   63,
+   130,
+   42,
+   96,
+   142,
+   236,
+   171,
+   117,
+   97,
+   68,
+   92,
+   79,
+   110,
+   125,
+   141,
+   167,
+   65,
+   143,
+   97,
+   162,
+   135,
+   68,
+   121,
+   115,
+   231,
+   149,
+   138,
+   105,
+   181,
+   78,
+   146
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "id": "SWE_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  16,
+  22,
+  26,
+  31,
+  35,
+  39,
+  41,
+  48,
+  54,
+  59,
+  63,
+  67,
+  72,
+  76,
+  80,
+  84,
+  93,
+  96,
+  101,
+  106,
+  110,
+  113,
+  118,
+  122,
+  128,
+  131,
+  135,
+  138,
+  140,
+  145,
+  150,
+  154,
+  161,
+  165,
+  172
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "United nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   2,
+   "Palae",
+   "Palme",
+   "ocr"
+  ],
+  [
+   4,
+   "°We",
+   "\"We",
+   "ocr"
+  ],
+  [
+   5,
+   "la id",
+   "laid",
+   "split_word"
+  ],
+  [
+   6,
+   "And, More",
+   "And, more",
+   "ocr"
+  ],
+  [
+   7,
+   "(A/40/PV.",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "43, p. 64) ",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "sanctions.- with content; scope",
+   "sanctions - with content, scope",
+   "ocr"
+  ],
+  [
+   39,
+   "csf",
+   "of",
+   "ocr"
+  ],
+  [
+   84,
+   "Cover meant",
+   "Government",
+   "ocr"
+  ],
+  [
+   84,
+   "Earope",
+   "Europe",
+   "ocr"
+  ],
+  [
+   114,
+   "res pons ib ility",
+   "responsibility",
+   "spacing"
+  ],
+  [
+   138,
+   "(LaEA)",
+   "(IAEA)",
+   "ocr"
+  ],
+  [
+   139,
+   "Wbrld",
+   "World",
+   "ocr"
+  ],
+  [
+   165,
+   "was-.",
+   "was:",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae2716b9aaeebc773c849097a1decaa9e2b4a8f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3432,
+  "words_out": 3423,
+  "retention": 0.9974,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   131,
+   82,
+   68,
+   95,
+   90,
+   75,
+   66,
+   73,
+   63,
+   93,
+   70,
+   90,
+   74,
+   73,
+   108,
+   66,
+   102,
+   78,
+   176,
+   95,
+   57,
+   100,
+   71,
+   64,
+   87,
+   114,
+   110,
+   57,
+   100,
+   62,
+   75,
+   136,
+   114,
+   95,
+   162,
+   79,
+   86,
+   86
+  ],
+  "warnings": []
+ }
+}

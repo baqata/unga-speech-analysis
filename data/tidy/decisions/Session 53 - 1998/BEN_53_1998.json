@@ -1,0 +1,96 @@
+{
+ "id": "BEN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  35,
+  46,
+  55,
+  67,
+  74,
+  87,
+  95,
+  103,
+  117,
+  135,
+  153,
+  168,
+  182,
+  196,
+  207,
+  227
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   88,
+   " (A/52/871)",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   101,
+   "Netanyahu?s",
+   "Netanyahu’s",
+   "encoding"
+  ],
+  [
+   176,
+   "Children?s",
+   "Children’s",
+   "encoding"
+  ],
+  [
+   199,
+   "days?",
+   "days’",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed74cd1ae57babc780903f4cd5039cdc5a46100e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2059,
+  "words_out": 2058,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   158,
+   149,
+   96,
+   81,
+   121,
+   61,
+   111,
+   64,
+   71,
+   115,
+   153,
+   159,
+   135,
+   108,
+   121,
+   94,
+   182,
+   79
+  ],
+  "warnings": []
+ }
+}

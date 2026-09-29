@@ -1,0 +1,101 @@
+{
+ "id": "ZAF_05_1950",
+ "drop": [
+  [
+   90,
+   90,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  15,
+  19,
+  23,
+  25,
+  30,
+  34,
+  39,
+  41,
+  48,
+  53,
+  58,
+  62,
+  66,
+  75,
+  81,
+  87,
+  91,
+  96
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "115 ",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "127, ",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "128, ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Leftover paragraph numbers (115, 127, 128, 130) are removed by hand because apply does not strip them here.",
+ "unitizer_version": 1,
+ "sha1": "3e93bd53a6ccb9f8d621c0f7b2a78a448213db77",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 17
+  },
+  "words_in": 3033,
+  "words_out": 3029,
+  "retention": 0.9987,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   82,
+   77,
+   107,
+   139,
+   128,
+   151,
+   80,
+   225,
+   159,
+   154,
+   89,
+   264,
+   130,
+   132,
+   104,
+   126,
+   215,
+   172,
+   210,
+   96,
+   134,
+   55
+  ],
+  "warnings": []
+ }
+}

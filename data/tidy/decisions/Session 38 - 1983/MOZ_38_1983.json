@@ -1,0 +1,175 @@
+{
+ "id": "MOZ_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  12,
+  13,
+  16,
+  22,
+  26,
+  29,
+  36,
+  40,
+  43,
+  46,
+  53,
+  57,
+  61,
+  69,
+  76,
+  78,
+  82,
+  84,
+  86,
+  90,
+  95,
+  98,
+  100,
+  105,
+  108,
+  111,
+  116,
+  118,
+  121,
+  124,
+  127
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "thirty- eighth",
+   "thirty-eighth",
+   "hyphen"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   18,
+   "ad forms",
+   "all forms",
+   "ocr"
+  ],
+  [
+   19,
+   "ma/ have",
+   "may have",
+   "ocr"
+  ],
+  [
+   25,
+   ".strongly",
+   "strongly",
+   "ocr"
+  ],
+  [
+   52,
+   "discuss ail",
+   "discuss all",
+   "ocr"
+  ],
+  [
+   64,
+   "POLISARIO,2 in",
+   "POLISARIO, in",
+   "ocr"
+  ],
+  [
+   65,
+   "[see",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   85,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   88,
+   "six- point",
+   "six-point",
+   "hyphen"
+  ],
+  [
+   99,
+   "in ill other",
+   "in all other",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 23 breaks off before a lost word (apartheid).",
+ "unitizer_version": 1,
+ "sha1": "0ede67e5eaf00f10cc6c1a64b76e0a6afa9ecbe0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3662,
+  "words_out": 3656,
+  "retention": 0.9984,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   79,
+   101,
+   124,
+   71,
+   58,
+   78,
+   82,
+   150,
+   65,
+   173,
+   129,
+   77,
+   104,
+   186,
+   132,
+   121,
+   192,
+   149,
+   83,
+   81,
+   65,
+   74,
+   153,
+   114,
+   139,
+   65,
+   93,
+   71,
+   104,
+   148,
+   75,
+   106,
+   98,
+   113,
+   3
+  ],
+  "warnings": []
+ }
+}

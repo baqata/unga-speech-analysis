@@ -1,0 +1,51 @@
+{
+ "id": "ESP_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  39,
+  64,
+  74,
+  88,
+  106,
+  122,
+  136,
+  150,
+  163,
+  178
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3de5fd3620c9c32972962d3247069f3fe7ba3d9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1551,
+  "words_out": 1550,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   116,
+   189,
+   191,
+   82,
+   100,
+   135,
+   125,
+   115,
+   104,
+   100,
+   117,
+   176
+  ],
+  "warnings": []
+ }
+}

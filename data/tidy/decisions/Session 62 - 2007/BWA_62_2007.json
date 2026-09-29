@@ -1,0 +1,53 @@
+{
+ "id": "BWA_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  38,
+  59,
+  78,
+  103,
+  128,
+  144,
+  168,
+  188,
+  200,
+  215,
+  229,
+  243
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6f8abc2ad4762414db9c393fb0b98e73fed8599",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2009,
+  "words_out": 2005,
+  "retention": 0.998,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   152,
+   142,
+   173,
+   152,
+   200,
+   183,
+   122,
+   184,
+   148,
+   96,
+   105,
+   126,
+   93,
+   129
+  ],
+  "warnings": []
+ }
+}

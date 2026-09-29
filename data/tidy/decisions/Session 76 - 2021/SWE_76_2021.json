@@ -1,0 +1,65 @@
+{
+ "id": "SWE_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  16,
+  22,
+  26,
+  32,
+  36,
+  40,
+  48,
+  53,
+  59,
+  63,
+  70,
+  77
+ ],
+ "cer": [
+  0,
+  77
+ ],
+ "fix": [
+  [
+   29,
+   "rules- based",
+   "rules-based",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ca7c304d28ce8c601910c8f3a8a959a71278965",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1399,
+  "words_out": 1398,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   1,
+   130,
+   162,
+   100,
+   55,
+   87,
+   63,
+   69,
+   116,
+   118,
+   123,
+   105,
+   137,
+   130,
+   2
+  ],
+  "warnings": []
+ }
+}

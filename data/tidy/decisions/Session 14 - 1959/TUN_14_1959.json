@@ -1,0 +1,191 @@
+{
+ "id": "TUN_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  15,
+  20,
+  23,
+  26,
+  31,
+  34,
+  37,
+  39,
+  42,
+  44,
+  49,
+  50,
+  54,
+  59,
+  61,
+  65,
+  70,
+  77,
+  80,
+  87,
+  93,
+  99,
+  103,
+  110,
+  115,
+  117,
+  121,
+  126,
+  128,
+  131,
+  132,
+  133,
+  135,
+  142,
+  147,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "protest, against",
+   "protest against",
+   "ocr"
+  ],
+  [
+   26,
+   "Le Monde. on",
+   "Le Monde on",
+   "ocr"
+  ],
+  [
+   26,
+   "of -French",
+   "of French",
+   "ocr"
+  ],
+  [
+   41,
+   "people s",
+   "peoples",
+   "split_word"
+  ],
+  [
+   49,
+   "1959.- My",
+   "1959. My",
+   "ocr"
+  ],
+  [
+   54,
+   "much- desired",
+   "much-desired",
+   "split_word"
+  ],
+  [
+   68,
+   "self- determination",
+   "self-determination",
+   "split_word"
+  ],
+  [
+   68,
+   "rule to, determine",
+   "rule to determine",
+   "ocr"
+  ],
+  [
+   70,
+   "keen Interest",
+   "keen interest",
+   "ocr"
+  ],
+  [
+   81,
+   "achieve Independence",
+   "achieve independence",
+   "ocr"
+  ],
+  [
+   100,
+   "and. depredation",
+   "and depredation",
+   "ocr"
+  ],
+  [
+   113,
+   "with, a",
+   "with a",
+   "ocr"
+  ],
+  [
+   114,
+   "self- determination",
+   "self-determination",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "50927fccf2bb2153faaf573f38c4f4c32ed1d13e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 53
+  },
+  "words_in": 5098,
+  "words_out": 5092,
+  "retention": 0.9988,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   154,
+   152,
+   95,
+   80,
+   153,
+   145,
+   97,
+   99,
+   161,
+   114,
+   107,
+   86,
+   123,
+   75,
+   152,
+   84,
+   163,
+   141,
+   89,
+   123,
+   182,
+   190,
+   70,
+   242,
+   119,
+   184,
+   127,
+   129,
+   171,
+   64,
+   129,
+   161,
+   94,
+   98,
+   82,
+   83,
+   93,
+   89,
+   211,
+   88,
+   93
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "FSM_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  28,
+  39,
+  57,
+  73,
+  85,
+  105,
+  116,
+  128,
+  137,
+  150,
+  163,
+  178
+ ],
+ "cer": [
+  0,
+  178
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e853e7efa729a59bbd292908f9b47f71c75f2fd3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1398,
+  "words_out": 1397,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   148,
+   70,
+   88,
+   146,
+   127,
+   86,
+   149,
+   73,
+   91,
+   69,
+   92,
+   97,
+   121,
+   40
+  ],
+  "warnings": []
+ }
+}

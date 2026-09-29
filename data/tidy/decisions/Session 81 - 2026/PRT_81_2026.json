@@ -1,0 +1,107 @@
+{
+ "id": "PRT_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   60,
+   61,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  10,
+  15,
+  26,
+  36,
+  43,
+  47,
+  56
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   15,
+   "armed",
+   "harmed",
+   "asr_term"
+  ],
+  [
+   41,
+   "at the Autoset",
+   "at the outset",
+   "asr_term"
+  ],
+  [
+   12,
+   "end. we",
+   "end. We",
+   "asr_term"
+  ],
+  [
+   14,
+   "essence. excellencies,",
+   "essence. Excellencies,",
+   "asr_term"
+  ],
+  [
+   42,
+   "deployed. we",
+   "deployed. We",
+   "asr_term"
+  ],
+  [
+   57,
+   "response. and",
+   "response. And",
+   "asr_term"
+  ],
+  [
+   58,
+   "world. and",
+   "world. And",
+   "asr_term"
+  ],
+  [
+   22,
+   "productive",
+   "protractive",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "15: 'armed' does not fit; Spanish 'afectan a todos nuestros pueblos. Todos'; 41: Spanish 'en primer lugar'. Main-agent audit: unit 15 'harmed' kept (re-decodes hear 'armed' at p 0.73-0.90; the sentence before is 'are affecting all our peoples'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 12 'end. we' -> 'end. We'; unit 14 'essence. excellencies,' -> 'essence. Excellencies,'; unit 42 'deployed. we' -> 'deployed. We'; unit 57 'response. and' -> 'response. And'; unit 58 'world. and' -> 'world. And'. Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 22 'productive' -> 'protractive': forced scoring does not settle 'productive' (-7.5) against 'protractive' (-8.6), decodes hear 'productive' at p 0.42-0.63 and once 'protractive' at p 0.70, and 'protracted' (-12.4) is not what the interpreter said; 'productive conflicts' does not fit, and the speaker's 'conflitos que se arrastam' (RTP) and the Spanish 'conflictos que continúan' give the sense of 'protractive'.",
+ "unitizer_version": 1,
+ "sha1": "e736c4ea99b4b3dde8c820650d11224bc4ca619b",
+ "layout": "single",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1324,
+  "words_out": 1265,
+  "retention": 0.9554,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   44,
+   140,
+   133,
+   233,
+   136,
+   214,
+   88,
+   163,
+   114
+  ],
+  "warnings": []
+ }
+}

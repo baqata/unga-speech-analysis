@@ -1,0 +1,92 @@
+{
+ "id": "MWI_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  44,
+  61,
+  71,
+  86,
+  107,
+  126,
+  137,
+  155,
+  168,
+  177,
+  194,
+  203,
+  214,
+  226
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   111,
+   "Kingdomís",
+   "Kingdom’s",
+   "encoding"
+  ],
+  [
+   157,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   161,
+   "NEPADís",
+   "NEPAD’s",
+   "encoding"
+  ],
+  [
+   166,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   218,
+   "worldís",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bcd9ed109838840223ca9a20214ccc8ce6359b1c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1844,
+  "words_out": 1841,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   175,
+   189,
+   129,
+   79,
+   112,
+   165,
+   140,
+   87,
+   135,
+   102,
+   67,
+   141,
+   71,
+   81,
+   100,
+   68
+  ],
+  "warnings": []
+ }
+}

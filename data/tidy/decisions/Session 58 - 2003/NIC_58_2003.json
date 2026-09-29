@@ -1,0 +1,59 @@
+{
+ "id": "NIC_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  30,
+  51,
+  64,
+  82,
+  102,
+  112,
+  125,
+  141,
+  156,
+  169,
+  188,
+  201
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c86cced4905a04b628ac574a2d9ee26a4d4726c9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1590,
+  "words_out": 1589,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   40,
+   84,
+   105,
+   162,
+   99,
+   143,
+   156,
+   78,
+   94,
+   117,
+   116,
+   105,
+   152,
+   113,
+   25
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "IRL_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  16,
+  18,
+  20,
+  27,
+  31,
+  35,
+  37,
+  44,
+  49,
+  52,
+  59,
+  63,
+  67,
+  74,
+  77,
+  81,
+  86,
+  90,
+  95,
+  100,
+  105,
+  109,
+  113,
+  115
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "weapons,",
+   "weapons.",
+   "ocr"
+  ],
+  [
+   24,
+   ", I can think",
+   ". I can think",
+   "ocr"
+  ],
+  [
+   26,
+   "prevent It",
+   "prevent it",
+   "ocr"
+  ],
+  [
+   29,
+   "Immediate",
+   "immediate",
+   "ocr"
+  ],
+  [
+   38,
+   "happen If",
+   "happen if",
+   "ocr"
+  ],
+  [
+   76,
+   ", I submit",
+   ". I submit",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2442e47a7fb7da5da3ddb540888d715be9a649f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 32
+  },
+  "words_in": 4388,
+  "words_out": 4386,
+  "retention": 0.9995,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   168,
+   174,
+   126,
+   70,
+   86,
+   104,
+   299,
+   157,
+   125,
+   82,
+   238,
+   213,
+   114,
+   181,
+   127,
+   139,
+   178,
+   182,
+   138,
+   220,
+   176,
+   197,
+   165,
+   189,
+   150,
+   182,
+   96,
+   110
+  ],
+  "warnings": []
+ }
+}

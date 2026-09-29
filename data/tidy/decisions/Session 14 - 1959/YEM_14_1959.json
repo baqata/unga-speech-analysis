@@ -1,0 +1,159 @@
+{
+ "id": "YEM_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  15,
+  21,
+  29,
+  35,
+  41,
+  49,
+  53,
+  58,
+  63,
+  66,
+  72,
+  77,
+  83,
+  86,
+  91,
+  97,
+  100,
+  108,
+  113,
+  120,
+  126,
+  134,
+  139,
+  145
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "establishment, of",
+   "establishment of",
+   "ocr"
+  ],
+  [
+   38,
+   "smell. of oil",
+   "smell of oil",
+   "ocr"
+  ],
+  [
+   51,
+   "this, rostrum",
+   "this rostrum",
+   "ocr"
+  ],
+  [
+   65,
+   "the. rest",
+   "the rest",
+   "ocr"
+  ],
+  [
+   75,
+   "Arab properly",
+   "Arab property",
+   "ocr"
+  ],
+  [
+   76,
+   " [see A/4225]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   " [A/4121 and Corr.1, Annex]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "Assembly, resolution",
+   "Assembly resolution",
+   "ocr"
+  ],
+  [
+   79,
+   " [resolution 194 (III)]",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "increased, shipping",
+   "increased shipping",
+   "ocr"
+  ],
+  [
+   94,
+   "Nothing if further",
+   "Nothing is further",
+   "ocr"
+  ],
+  [
+   97,
+   "the. olive",
+   "the olive",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b52489b8156771841ab96011bc354ac7d5469759",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 36
+  },
+  "words_in": 3238,
+  "words_out": 3228,
+  "retention": 0.9969,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   55,
+   153,
+   66,
+   176,
+   118,
+   140,
+   79,
+   152,
+   169,
+   90,
+   106,
+   87,
+   76,
+   121,
+   114,
+   122,
+   90,
+   90,
+   145,
+   72,
+   143,
+   112,
+   125,
+   144,
+   169,
+   133,
+   105,
+   76
+  ],
+  "warnings": []
+ }
+}

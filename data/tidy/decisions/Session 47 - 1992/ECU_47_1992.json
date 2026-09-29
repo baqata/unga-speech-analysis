@@ -1,0 +1,68 @@
+{
+ "id": "ECU_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  36,
+  53,
+  74,
+  92,
+  108,
+  125,
+  147,
+  157,
+  174,
+  194,
+  207,
+  219,
+  230,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   229,
+   "enable'",
+   "enable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c960b93b6ca8eb448b20e104e07e81f75dd375d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3013,
+  "words_out": 3012,
+  "retention": 0.9997,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   92,
+   128,
+   167,
+   204,
+   231,
+   201,
+   191,
+   193,
+   240,
+   110,
+   184,
+   233,
+   150,
+   152,
+   140,
+   231,
+   165
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "DZA_34_1979",
+ "drop": [
+  [
+   93,
+   158,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  22,
+  25,
+  31,
+  36,
+  43,
+  47,
+  53,
+  56,
+  61,
+  67,
+  74,
+  81,
+  89,
+  159,
+  162,
+  169,
+  172,
+  176,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "root- cause",
+   "root-cause",
+   "spacing"
+  ],
+  [
+   46,
+   "such .as",
+   "such as",
+   "ocr"
+  ],
+  [
+   48,
+   "32/ 174",
+   "32/174",
+   "spacing"
+  ],
+  [
+   52,
+   "Stales",
+   "States",
+   "ocr"
+  ],
+  [
+   62,
+   "\"order' '",
+   "\"order\"",
+   "ocr"
+  ],
+  [
+   170,
+   "home-land",
+   "homeland",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 93-158 repeat units 27-92 (unit 93 splices the start of unit 159 onto the tail of unit 27) and are dropped as a duplicated passage.",
+ "unitizer_version": 1,
+ "sha1": "49543bb0d235b8d3c8d734ade8f50e6d2d870321",
+ "layout": "lines",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {
+   "repeat": 66
+  },
+  "prestrip": {
+   "paragraph_number": 83
+  },
+  "words_in": 6071,
+  "words_out": 3972,
+  "retention": 0.6543,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   156,
+   133,
+   130,
+   98,
+   230,
+   107,
+   203,
+   140,
+   238,
+   153,
+   207,
+   152,
+   130,
+   124,
+   163,
+   223,
+   234,
+   172,
+   130,
+   208,
+   121,
+   238,
+   126,
+   156
+  ],
+  "warnings": [
+   "retention 0.65 < 0.85"
+  ]
+ }
+}

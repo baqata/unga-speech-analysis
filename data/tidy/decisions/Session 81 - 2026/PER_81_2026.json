@@ -1,0 +1,176 @@
+{
+ "id": "PER_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   77,
+   78,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  6,
+  10,
+  14,
+  19,
+  23,
+  28,
+  34,
+  40,
+  46,
+  52,
+  55,
+  61,
+  63,
+  68,
+  76
+ ],
+ "cer": [
+  4,
+  76
+ ],
+ "fix": [
+  [
+   8,
+   "Capachnyan",
+   "Qhapaq Ñan",
+   "asr_name"
+  ],
+  [
+   52,
+   "has so",
+   "has sown",
+   "asr_term"
+  ],
+  [
+   23,
+   "country's policies",
+   "country's politics",
+   "interp"
+  ],
+  [
+   62,
+   "and torturers into",
+   "and perpetrators into",
+   "interp"
+  ],
+  [
+   62,
+   "of the torturer",
+   "of the criminal",
+   "interp"
+  ],
+  [
+   18,
+   "people. the",
+   "people. The",
+   "asr_term"
+  ],
+  [
+   31,
+   "people. in",
+   "people. In",
+   "asr_term"
+  ],
+  [
+   34,
+   "killing. consequently",
+   "killing. Consequently",
+   "asr_term"
+  ],
+  [
+   40,
+   "enough. if",
+   "enough if",
+   "asr_term"
+  ],
+  [
+   52,
+   "classroom. they",
+   "classroom. They",
+   "asr_term"
+  ],
+  [
+   54,
+   "fear. this",
+   "fear. This",
+   "asr_term"
+  ],
+  [
+   62,
+   "process. the",
+   "process. The",
+   "asr_term"
+  ],
+  [
+   31,
+   "cease",
+   "see",
+   "asr_term"
+  ],
+  [
+   34,
+   "forces supporting",
+   "forces in supporting",
+   "asr_term"
+  ],
+  [
+   35,
+   "But Peru",
+   "Peru",
+   "asr_term"
+  ],
+  [
+   40,
+   "will",
+   "we'll",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Bilingual review (r02), speaker's words or evidence: unit 21 \"country's policies\" -> \"country's politics\" (tres décadas en la política de mi país); unit 60 'and torturers into' -> 'and perpetrators into' (a los victimarios en protegidos); unit 60 'of the torturer' -> 'of the criminal' (la impunidad del delincuente) (unit numbers before gap recovery). Gap recovery (v4) added hall chatter heard before the speech ('I can't do that, I can't.', 'Thank you.'): noise. The English pause at 00:44-00:58 is the interpreter waiting; nothing lost. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 18 'people. the' -> 'people. The'; unit 31 'people. in' -> 'people. In'; unit 34 'killing. consequently' -> 'killing. Consequently'; unit 40 'enough. if' -> 'enough if'; unit 52 'classroom. they' -> 'classroom. They'; unit 54 'fear. this' -> 'fear. This'; unit 62 'process. the' -> 'process. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 31 'cease' -> 'see' (decodes 'cease' only 0.65 / 0.70; the UN transcript hears 'see' and forced scoring prefers it ('see' -6.6, 'cease' -10.7, nothing there -13.9), so the interpreter said a word; 'no possibility to see surrender or to sign peace treaties' matches the speaker's 'no existe la posibilidad de rendirse ni firmar tratados de paz', 'cease surrender' does not); spot 5 unit 34 'forces supporting' -> 'forces in supporting' (2026 exception: both decodes hear 'in' (0.76 / 0.79), as does the UN transcript, and forced scoring prefers it (-5.8 vs -7.8); the speaker says 'las Fuerzas Armadas, en apoyo a la Policía Nacional'); spot 6 unit 35 'But Peru' -> 'Peru' (invented word: both decodes go 'Pact,' to 'Peru' with no word between; the UN transcript has none; the speaker has no 'pero' ('Compromiso Regional de Santiago el Perú se ha incorporado')); spot 7 unit 40 'will' -> 'we'll' (same sound (decodes 'will' 0.55 / 0.77; scoring cannot part them); the UN transcript hears 'we'll'; 'these organizations will do that' makes the criminals the subject, while the speaker's 'Reprimir a estas organizaciones con toda la fuerza de la ley' makes the State act)",
+ "unitizer_version": 1,
+ "sha1": "2272f8e2d44d68c58bb4dea70180bca39a0a32b9",
+ "layout": "single",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 1967,
+  "words_out": 1908,
+  "retention": 0.97,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   38,
+   91,
+   82,
+   132,
+   89,
+   142,
+   178,
+   202,
+   171,
+   120,
+   141,
+   63,
+   167,
+   160,
+   130,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "ZAF_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  24,
+  36,
+  56,
+  64,
+  93,
+  105,
+  128,
+  142,
+  152,
+  165,
+  181,
+  192,
+  202,
+  213,
+  230,
+  241,
+  258,
+  270,
+  282
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   255,
+   "(Official",
+   "",
+   "label"
+  ],
+  [
+   256,
+   "Records of the General Assembly, Fiftieth",
+   "",
+   "label"
+  ],
+  [
+   257,
+   "Session, Plenary Meetings, 37th meeting, p. 6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b4f90d42f745cd0395c93dfd50e75ab7acd2b59b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 292,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2368,
+  "words_out": 2346,
+  "retention": 0.9907,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   86,
+   119,
+   93,
+   159,
+   69,
+   226,
+   106,
+   188,
+   120,
+   69,
+   107,
+   125,
+   82,
+   75,
+   95,
+   131,
+   96,
+   113,
+   102,
+   89,
+   96
+  ],
+  "warnings": []
+ }
+}

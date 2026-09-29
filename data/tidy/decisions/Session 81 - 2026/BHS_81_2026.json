@@ -1,0 +1,158 @@
+{
+ "id": "BHS_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   192,
+   192,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  11,
+  28,
+  46,
+  64,
+  77,
+  92,
+  100,
+  106,
+  120,
+  135,
+  142,
+  154,
+  160,
+  165,
+  174,
+  181,
+  190
+ ],
+ "cer": [
+  2,
+  190
+ ],
+ "fix": [
+  [
+   2,
+   "Khalila Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   46,
+   "Milos",
+   "Melos",
+   "asr_name"
+  ],
+  [
+   50,
+   "Milos",
+   "Melos",
+   "asr_name"
+  ],
+  [
+   56,
+   "commerce leaders",
+   "Commonwealth leaders",
+   "asr_name"
+  ],
+  [
+   76,
+   "has me lost",
+   "is Melos",
+   "asr_name"
+  ],
+  [
+   120,
+   "context",
+   "contest",
+   "asr_term"
+  ],
+  [
+   132,
+   "who I use",
+   "who uses",
+   "asr_term"
+  ],
+  [
+   141,
+   "Stephen Beru",
+   "Stephen Bereaux",
+   "asr_name"
+  ],
+  [
+   161,
+   "tourism",
+   "terrorism",
+   "asr_term"
+  ],
+  [
+   155,
+   "Karen Rodriguez-Purkett",
+   "Carolyn Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   8,
+   "equal. and",
+   "equal. And",
+   "asr_term"
+  ],
+  [
+   132,
+   "terms. those",
+   "terms. Those",
+   "asr_term"
+  ],
+  [
+   89,
+   "inherit. it.",
+   "inherit.",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Melos, Commonwealth, carrera, banderas, terrorismo per Spanish channel; Stephen Bereaux per Bahamas MFA (mofa.gov.bs); Carolyn Rodrigues Birkett per UN SG candidacy letter (un.org); PGA Khalilur Rahman per un.org. Name aligned with the other 2026 speeches: Carolyn Rodrigues-Birkett, hyphenated as in Guyanese outlets (News Room Guyana 12 Jun 2026, Guyana Chronicle 23 Sep 2026). Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 129 repair of 'flights' withdrawn (the speaker's English, heard at p 0.92-0.97 in three re-decodes: 'It does not arrive with ships and flights'; 'con banderas' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'equal. and' -> 'equal. And'; unit 89 'inherit. it.' -> 'inherit it.'; unit 132 'terms. those' -> 'terms. Those'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 15 unit 89 'inherit. it.' -> 'inherit.' (invented word after the sentence: both decodes end 'inherit.' (p 1.00) and go straight to 'Defending'; ES 'que un día heredarán.'; replaces the existing repair 'inherit. it.' -> 'inherit it.')",
+ "unitizer_version": 1,
+ "sha1": "d25bd5eca6f195107de5b7b64c36d59091ba4495",
+ "layout": "single",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2364,
+  "words_out": 2309,
+  "retention": 0.9767,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   25,
+   90,
+   170,
+   149,
+   209,
+   149,
+   139,
+   102,
+   90,
+   141,
+   214,
+   152,
+   156,
+   80,
+   67,
+   158,
+   117,
+   95,
+   6
+  ],
+  "warnings": []
+ }
+}

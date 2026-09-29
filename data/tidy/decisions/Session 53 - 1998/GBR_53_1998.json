@@ -1,0 +1,86 @@
+{
+ "id": "GBR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  41,
+  48,
+  58,
+  74,
+  91,
+  101,
+  110,
+  120,
+  130,
+  143,
+  151,
+  165,
+  175,
+  185,
+  195,
+  213,
+  221,
+  234,
+  246,
+  257,
+  271
+ ],
+ "cer": [],
+ "fix": [
+  [
+   187,
+   "Milosevic´",
+   "Milosevic",
+   "encoding"
+  ],
+  [
+   212,
+   "Milosevic´",
+   "Milosevic",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "049a95a47b49abed19f13406dc58d6b0e50cc47f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 289,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2556,
+  "words_out": 2553,
+  "retention": 0.9988,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   171,
+   161,
+   61,
+   83,
+   129,
+   148,
+   91,
+   77,
+   90,
+   86,
+   116,
+   79,
+   116,
+   89,
+   107,
+   85,
+   160,
+   63,
+   129,
+   112,
+   102,
+   125,
+   173
+  ],
+  "warnings": []
+ }
+}

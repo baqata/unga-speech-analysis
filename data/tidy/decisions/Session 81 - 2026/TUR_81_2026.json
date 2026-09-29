@@ -1,0 +1,167 @@
+{
+ "id": "TUR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   181,
+   186,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  11,
+  14,
+  21,
+  31,
+  37,
+  45,
+  53,
+  56,
+  64,
+  69,
+  76,
+  81,
+  87,
+  93,
+  99,
+  102,
+  108,
+  118,
+  128,
+  137,
+  149,
+  156,
+  161,
+  171,
+  175
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "President Trump, ",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "Hermes",
+   "Hormuz",
+   "asr_name"
+  ],
+  [
+   100,
+   "end. to an ",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "ANU",
+   "Anew",
+   "asr_name"
+  ],
+  [
+   128,
+   "drive",
+   "derive",
+   "asr_term"
+  ],
+  [
+   179,
+   "may god",
+   "may God",
+   "asr_name"
+  ],
+  [
+   179,
+   "i pray i invite",
+   "I pray I invite",
+   "asr_term"
+  ],
+  [
+   9,
+   "Palestine. and",
+   "Palestine and",
+   "asr_term"
+  ],
+  [
+   65,
+   "five. friends",
+   "five. Friends",
+   "asr_term"
+  ],
+  [
+   102,
+   "thanks its",
+   "thanks to its",
+   "asr_term"
+  ],
+  [
+   116,
+   "13th of",
+   "30th of",
+   "asr_term"
+  ],
+  [
+   171,
+   "Erdoğan is",
+   "Erdoğan as",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "'President Trump' at the salutation is an ASR invention per main-agent re-decode; Strait of Hormuz per Spanish; Asia Anew is Turkiye's regional initiative; unit 100 repeated 'to an end.' removed; hall chatter after the presider's thanks dropped. Main-agent audit: unit 144 '5.8 trillion plates' kept as the English interpreter's words (p 0.93-0.98 in two decodes; the Spanish interpreter says 'millones'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 9 'Palestine. and' -> 'Palestine and'; unit 65 'five. friends' -> 'five. Friends'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 16 unit 102 'thanks its' -> 'thanks to its' (2026 exception: both decodes hear 'to' clearly (1.00 / 1.00); ES 'gracias a su industria de defensa y su economía resiliente' renders 'thanks to' for both items); spot 17 unit 116 '13th of' -> '30th of' (decodes split '13th' 0.77 / '30th' 0.76; ES 'en octubre' has no day; published report of the speech (Daily Sabah, https://www.dailysabah.com/politics/diplomacy/erdogan-urges-world-to-pressure-israel-end-gaza-bloodshed-at-unga) says the OTS summit is in Ankara on 30 October; '13th' alone is not unique in the unit); spot 23 unit 171 'Erdoğan is' -> 'Erdoğan as' (both decodes clearly hear 'Erdoğan, as the president' ('as' 0.97 / 0.97), which sounds like 'is'; ES 'yo como presidente de una nación')",
+ "unitizer_version": 1,
+ "sha1": "c3c769f4c7965b1bf5f4c8fac467b776c812bc94",
+ "layout": "single",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {
+   "presider": 8
+  },
+  "prestrip": {},
+  "words_in": 3714,
+  "words_out": 3644,
+  "retention": 0.9812,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   142,
+   146,
+   150,
+   104,
+   181,
+   100,
+   102,
+   140,
+   64,
+   122,
+   213,
+   163,
+   122,
+   96,
+   106,
+   136,
+   74,
+   122,
+   170,
+   182,
+   150,
+   231,
+   142,
+   85,
+   161,
+   94,
+   146
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "id": "MLT_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  20,
+  37,
+  48,
+  60,
+  75,
+  104,
+  129,
+  154,
+  180,
+  203,
+  213,
+  226,
+  240,
+  253,
+  277,
+  300,
+  315,
+  331,
+  356,
+  375,
+  394,
+  424,
+  446,
+  460,
+  469,
+  492
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "humankind?s",
+   "humankind’s",
+   "encoding"
+  ],
+  [
+   56,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   58,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   67,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   67,
+   " (A/53/PV.7, p. 11)",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "humanity?s",
+   "humanity’s",
+   "encoding"
+  ],
+  [
+   217,
+   "Charter?s",
+   "Charter’s",
+   "encoding"
+  ],
+  [
+   243,
+   "Malta?s",
+   "Malta’s",
+   "encoding"
+  ],
+  [
+   275,
+   "fathers?",
+   "fathers’",
+   "encoding"
+  ],
+  [
+   364,
+   "General?s",
+   "General’s",
+   "encoding"
+  ],
+  [
+   408,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   432,
+   "Charter?s",
+   "Charter’s",
+   "encoding"
+  ],
+  [
+   486,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   507,
+   "fathers?",
+   "fathers’",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e7781d7e66239309c67e249d3bd01eca05a166c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 511,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 4165,
+  "words_out": 4157,
+  "retention": 0.9981,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   56,
+   99,
+   156,
+   98,
+   107,
+   116,
+   225,
+   223,
+   215,
+   225,
+   175,
+   71,
+   115,
+   126,
+   110,
+   212,
+   182,
+   126,
+   129,
+   199,
+   119,
+   154,
+   234,
+   166,
+   111,
+   76,
+   176,
+   156
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "id": "BHS_48_1993",
+ "drop": [
+  [
+   22,
+   22,
+   "header_footer"
+  ],
+  [
+   116,
+   116,
+   "header_footer"
+  ],
+  [
+   209,
+   209,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  25,
+  36,
+  42,
+  57,
+  63,
+  79,
+  100,
+  120,
+  136,
+  143,
+  152,
+  172,
+  190,
+  204,
+  219,
+  234,
+  247,
+  267
+ ],
+ "cer": [
+  25,
+  36,
+  42,
+  57
+ ],
+ "fix": [
+  [
+   52,
+   " (The",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "Holy Bible, Matthew 2:15) ",
+   "",
+   "label"
+  ],
+  [
+   254,
+   "paradise.We",
+   "paradise. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f48d78a43492a233de9fd012b747444d22f7f3d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 269,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2258,
+  "words_out": 2233,
+  "retention": 0.9889,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   202,
+   97,
+   42,
+   114,
+   58,
+   148,
+   172,
+   162,
+   139,
+   56,
+   73,
+   149,
+   149,
+   111,
+   121,
+   120,
+   117,
+   191,
+   12
+  ],
+  "warnings": []
+ }
+}

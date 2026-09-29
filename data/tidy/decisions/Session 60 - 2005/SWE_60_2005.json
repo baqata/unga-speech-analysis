@@ -1,0 +1,66 @@
+{
+ "id": "SWE_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  37,
+  50,
+  69,
+  81,
+  95,
+  108,
+  117,
+  139,
+  155,
+  174
+ ],
+ "cer": [],
+ "fix": [
+  [
+   90,
+   "Secretary-Generalís",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   161,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ead42f6a5c738f3193d816c2efa76e39f2d23a2b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 188,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1506,
+  "words_out": 1501,
+  "retention": 0.9967,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   80,
+   111,
+   113,
+   104,
+   142,
+   102,
+   111,
+   101,
+   81,
+   169,
+   116,
+   156,
+   115
+  ],
+  "warnings": []
+ }
+}

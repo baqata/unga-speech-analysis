@@ -1,0 +1,43 @@
+{
+ "id": "HND_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  5,
+  11,
+  14,
+  17,
+  19
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b29ee536bfa12d1f6e8322186054b3561bdfa7be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 21,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 9
+  },
+  "words_in": 1102,
+  "words_out": 1097,
+  "retention": 0.9955,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   159,
+   103,
+   68,
+   211,
+   132,
+   229,
+   91,
+   104
+  ],
+  "warnings": []
+ }
+}

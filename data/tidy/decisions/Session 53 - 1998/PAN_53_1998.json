@@ -1,0 +1,92 @@
+{
+ "id": "PAN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  29,
+  42,
+  62,
+  92,
+  103,
+  120,
+  138,
+  157,
+  167,
+  186,
+  197,
+  223,
+  243
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   17,
+   "Organizationâs",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   78,
+   "Childrenâs",
+   "Children’s",
+   "encoding"
+  ],
+  [
+   85,
+   "Secretary-Generalâs",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   127,
+   "Secretary-Generalâs",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   199,
+   "yearâs",
+   "year’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5ca8eb58d5c74ce9484ed3a2b492b5dc234b4eb2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 5,
+   "page_number": 3
+  },
+  "words_in": 2118,
+  "words_out": 2115,
+  "retention": 0.9986,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   53,
+   170,
+   106,
+   152,
+   232,
+   90,
+   139,
+   155,
+   163,
+   80,
+   146,
+   86,
+   208,
+   174,
+   161
+  ],
+  "warnings": []
+ }
+}

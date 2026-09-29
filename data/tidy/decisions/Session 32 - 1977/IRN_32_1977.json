@@ -1,0 +1,110 @@
+{
+ "id": "IRN_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  5,
+  11,
+  16,
+  21,
+  26,
+  31,
+  37,
+  40,
+  43,
+  49,
+  54,
+  61,
+  66,
+  70,
+  74,
+  80,
+  83,
+  85
+ ],
+ "cer": [
+  0,
+  2,
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "on this election",
+   "on his election",
+   "ocr"
+  ],
+  [
+   5,
+   "briefly,",
+   "briefly.",
+   "ocr"
+  ],
+  [
+   12,
+   "peace, We hope",
+   "peace. We hope",
+   "ocr"
+  ],
+  [
+   30,
+   "use of. force",
+   "use of force",
+   "ocr"
+  ],
+  [
+   66,
+   "CAN",
+   "can",
+   "ocr"
+  ],
+  [
+   85,
+   "countries- least developed , developing , or developed —all",
+   "countries—least developed, developing, or developed—all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c3eab06e402492bc56f9fa8ad617681c604772a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 2442,
+  "words_out": 2438,
+  "retention": 0.9984,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   57,
+   53,
+   41,
+   133,
+   130,
+   132,
+   134,
+   130,
+   161,
+   59,
+   106,
+   155,
+   171,
+   165,
+   161,
+   117,
+   116,
+   148,
+   100,
+   82,
+   87
+  ],
+  "warnings": []
+ }
+}

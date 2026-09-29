@@ -1,0 +1,155 @@
+{
+ "id": "DJI_36_1981",
+ "drop": [
+  [
+   80,
+   80,
+   "noise"
+  ],
+  [
+   83,
+   83,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  10,
+  13,
+  18,
+  20,
+  23,
+  25,
+  31,
+  35,
+  41,
+  44,
+  48,
+  51,
+  55,
+  59,
+  62,
+  66,
+  70,
+  73,
+  76,
+  81,
+  84
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   "Mi. President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   5,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   11,
+   "the' problems",
+   "the problems",
+   "ocr"
+  ],
+  [
+   30,
+   "lead ^tangible",
+   "lead to tangible",
+   "ocr"
+  ],
+  [
+   36,
+   "TTie",
+   "The",
+   "ocr"
+  ],
+  [
+   42,
+   "Hie premeditated",
+   "The premeditated",
+   "ocr"
+  ],
+  [
+   43,
+   "in-intentioned",
+   "ill-intentioned",
+   "ocr"
+  ],
+  [
+   50,
+   "Eahd",
+   "Fahd",
+   "ocr"
+  ],
+  [
+   57,
+   "raise .n outcry",
+   "raise an outcry",
+   "ocr"
+  ],
+  [
+   61,
+   "movements.7 We",
+   "movements. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4b0bb7e9e50b5d4fbaec986f55266c2a42cc9e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 2714,
+  "words_out": 2713,
+  "retention": 0.9996,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   77,
+   79,
+   51,
+   104,
+   102,
+   115,
+   51,
+   108,
+   51,
+   183,
+   134,
+   181,
+   150,
+   160,
+   100,
+   105,
+   115,
+   132,
+   114,
+   161,
+   82,
+   77,
+   119,
+   80,
+   82
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "id": "SWE_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  22,
+  25,
+  42,
+  56,
+  71,
+  84,
+  99,
+  117,
+  131,
+  147,
+  164,
+  183,
+  195,
+  218,
+  238,
+  254,
+  274,
+  289,
+  310
+ ],
+ "cer": [
+  0,
+  22
+ ],
+ "fix": [
+  [
+   7,
+   "General?s",
+   "General’s",
+   "encoding"
+  ],
+  [
+   60,
+   "one?s",
+   "one’s",
+   "encoding"
+  ],
+  [
+   163,
+   "(Perpetual Peace)",
+   "",
+   "label"
+  ],
+  [
+   178,
+   "Sweden?s",
+   "Sweden’s",
+   "encoding"
+  ],
+  [
+   297,
+   "today?s",
+   "today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "676a44bf3bcce89c41bbca4c3867d6ef5e376e37",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 326,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2586,
+  "words_out": 2580,
+  "retention": 0.9977,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   69,
+   117,
+   21,
+   116,
+   111,
+   126,
+   102,
+   116,
+   142,
+   109,
+   126,
+   139,
+   137,
+   95,
+   190,
+   149,
+   134,
+   172,
+   109,
+   168,
+   132
+  ],
+  "warnings": []
+ }
+}

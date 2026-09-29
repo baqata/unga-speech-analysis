@@ -1,0 +1,64 @@
+{
+ "id": "MMR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  24,
+  35,
+  52,
+  62,
+  72,
+  88,
+  96,
+  113,
+  131,
+  147,
+  165,
+  175,
+  185
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   185,
+   "brief ly",
+   "briefly",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f3a81cdcbb91ba350a2cddd7607d8d99d277feaf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1610,
+  "words_out": 1606,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   112,
+   70,
+   85,
+   127,
+   91,
+   80,
+   126,
+   72,
+   126,
+   153,
+   122,
+   133,
+   94,
+   82,
+   133
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "NZL_63_2008",
+ "drop": [
+  [
+   81,
+   82,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  27,
+  40,
+  50,
+  60,
+  83,
+  98,
+  107,
+  116,
+  133,
+  147,
+  166,
+  181
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "05861123e0492317854c3e25f1f0a5f8bbe3ae07",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1510,
+  "words_out": 1499,
+  "retention": 0.9927,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   112,
+   87,
+   99,
+   65,
+   72,
+   166,
+   110,
+   66,
+   62,
+   129,
+   106,
+   161,
+   124,
+   140
+  ],
+  "warnings": [
+   "procedural drop [81,82] in the middle of the speech"
+  ]
+ }
+}

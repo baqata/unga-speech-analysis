@@ -1,0 +1,45 @@
+{
+ "id": "SVK_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  41,
+  63,
+  74,
+  91,
+  106,
+  128,
+  144
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fe24e6866e3c547fcc69a5dbf3aa49e71bc37d1a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1204,
+  "words_out": 1203,
+  "retention": 0.9992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   117,
+   182,
+   170,
+   86,
+   130,
+   113,
+   183,
+   110,
+   112
+  ],
+  "warnings": []
+ }
+}

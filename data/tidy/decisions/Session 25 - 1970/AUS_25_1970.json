@@ -1,0 +1,177 @@
+{
+ "id": "AUS_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  19,
+  22,
+  28,
+  33,
+  38,
+  41,
+  49,
+  54,
+  56,
+  59,
+  67,
+  74,
+  81,
+  87,
+  91,
+  93,
+  98,
+  103,
+  108,
+  111,
+  116,
+  121,
+  123,
+  129,
+  133,
+  140,
+  145,
+  151,
+  154,
+  157,
+  161,
+  164,
+  170,
+  175,
+  179,
+  182,
+  186,
+  189,
+  192
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "victory ,",
+   "victory,",
+   "spacing"
+  ],
+  [
+   20,
+   "'he future",
+   "the future",
+   "ocr"
+  ],
+  [
+   26,
+   "We cm",
+   "We can",
+   "ocr"
+  ],
+  [
+   51,
+   "is. no",
+   "is no",
+   "ocr"
+  ],
+  [
+   105,
+   "oft the",
+   "of the",
+   "ocr"
+  ],
+  [
+   134,
+   "twenty- five",
+   "twenty-five",
+   "hyphen"
+  ],
+  [
+   136,
+   "kind,",
+   "kind.",
+   "ocr"
+  ],
+  [
+   154,
+   "cur experience",
+   "our experience",
+   "ocr"
+  ],
+  [
+   169,
+   "VietMam",
+   "VietNam",
+   "ocr"
+  ],
+  [
+   193,
+   "ether",
+   "other",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7ec221ffcba1f24b3e0f84a97642afaf6286a83",
+ "layout": "lines",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 71
+  },
+  "words_in": 5131,
+  "words_out": 5122,
+  "retention": 0.9982,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   114,
+   113,
+   136,
+   167,
+   108,
+   147,
+   62,
+   138,
+   105,
+   209,
+   132,
+   66,
+   98,
+   218,
+   205,
+   150,
+   153,
+   113,
+   102,
+   155,
+   130,
+   151,
+   93,
+   175,
+   126,
+   70,
+   150,
+   87,
+   130,
+   132,
+   125,
+   92,
+   100,
+   131,
+   76,
+   108,
+   71,
+   142,
+   69,
+   77,
+   67,
+   61,
+   68
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "GBR_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  21,
+  28,
+  35,
+  39,
+  45,
+  52,
+  59,
+  63,
+  66,
+  71,
+  74,
+  80,
+  83,
+  87,
+  91
+ ],
+ "cer": [],
+ "fix": [
+  [
+   23,
+   "self- interest",
+   "self-interest",
+   "hyphen"
+  ],
+  [
+   95,
+   " (A/55/PV.105, p.3)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "563866860d23ae482befddf2097b55e390b0d4c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2706,
+  "words_out": 2703,
+  "retention": 0.9989,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   184,
+   158,
+   79,
+   112,
+   189,
+   180,
+   117,
+   146,
+   128,
+   187,
+   152,
+   95,
+   89,
+   130,
+   101,
+   170,
+   89,
+   101,
+   130,
+   166
+  ],
+  "warnings": []
+ }
+}

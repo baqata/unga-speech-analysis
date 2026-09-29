@@ -1,0 +1,325 @@
+{
+ "id": "BEL_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   214,
+   214,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  9,
+  21,
+  34,
+  48,
+  62,
+  71,
+  81,
+  95,
+  102,
+  114,
+  118,
+  132,
+  142,
+  162,
+  171,
+  180,
+  190,
+  197,
+  203,
+  213
+ ],
+ "cer": [
+  213
+ ],
+ "fix": [
+  [
+   1,
+   "Maurice Martelink",
+   "Maurice Maeterlinck",
+   "asr_name"
+  ],
+  [
+   1,
+   "the blind",
+   "The Blind",
+   "asr_name"
+  ],
+  [
+   23,
+   "Martelling",
+   "Maeterlinck",
+   "asr_name"
+  ],
+  [
+   34,
+   "playing",
+   "play",
+   "asr_term"
+  ],
+  [
+   34,
+   "the blind",
+   "The Blind",
+   "asr_name"
+  ],
+  [
+   65,
+   "scared",
+   "scarred",
+   "asr_term"
+  ],
+  [
+   72,
+   "asked the world",
+   "has walked",
+   "asr_term"
+  ],
+  [
+   72,
+   "for horrors",
+   "for hours",
+   "asr_term"
+  ],
+  [
+   75,
+   "to good defending",
+   "to cut the funding",
+   "asr_term"
+  ],
+  [
+   85,
+   "Chilt",
+   "Scheldt",
+   "asr_name"
+  ],
+  [
+   97,
+   "Sabaed Mandate",
+   "Bab el-Mandeb",
+   "asr_name"
+  ],
+  [
+   97,
+   "Maraca",
+   "Malacca",
+   "asr_name"
+  ],
+  [
+   99,
+   "a trade",
+   "a strait",
+   "asr_term"
+  ],
+  [
+   110,
+   "scorers",
+   "scourges",
+   "asr_term"
+  ],
+  [
+   112,
+   "rights to",
+   "rights too",
+   "asr_term"
+  ],
+  [
+   119,
+   "BB&G",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   125,
+   "ICS",
+   "high seas",
+   "asr_term"
+  ],
+  [
+   126,
+   "BB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   155,
+   "at an end",
+   "hand in hand",
+   "asr_term"
+  ],
+  [
+   161,
+   "too old",
+   "to hold",
+   "asr_term"
+  ],
+  [
+   162,
+   "18th",
+   "80th",
+   "asr_term"
+  ],
+  [
+   186,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   190,
+   "Paul Henri Sparks",
+   "Paul-Henri Spaak",
+   "asr_name"
+  ],
+  [
+   203,
+   "Maurice Martelink's",
+   "Maurice Maeterlinck's",
+   "asr_name"
+  ],
+  [
+   203,
+   "the blind",
+   "The Blind",
+   "asr_name"
+  ],
+  [
+   208,
+   "international love",
+   "international law",
+   "asr_term"
+  ],
+  [
+   37,
+   "bearings. bearings.",
+   "bearings.",
+   "asr_term"
+  ],
+  [
+   43,
+   "difficult. difficult.",
+   "difficult.",
+   "asr_term"
+  ],
+  [
+   57,
+   "interests. interests.",
+   "interests.",
+   "asr_term"
+  ],
+  [
+   207,
+   "are We are",
+   "are",
+   "asr_term"
+  ],
+  [
+   81,
+   "violence. it",
+   "violence. It",
+   "asr_term"
+  ],
+  [
+   117,
+   "responsibility. to",
+   "responsibility to",
+   "asr_term"
+  ],
+  [
+   141,
+   "itself. sees",
+   "itself. Sees",
+   "asr_term"
+  ],
+  [
+   200,
+   "peace. being",
+   "peace. Being",
+   "asr_term"
+  ],
+  [
+   7,
+   "orders",
+   "others",
+   "asr_term"
+  ],
+  [
+   65,
+   "In so",
+   "and so",
+   "asr_term"
+  ],
+  [
+   74,
+   "food? there",
+   "food? That there",
+   "asr_term"
+  ],
+  [
+   85,
+   "setting",
+   "sailing",
+   "asr_term"
+  ],
+  [
+   175,
+   "continent. that",
+   "continent. They",
+   "asr_term"
+  ],
+  [
+   175,
+   "rests",
+   "rest",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Maeterlinck's play The Blind (Les Aveugles; Nobel 1911) and Paul-Henri Spaak, first PGA, per published sources; Scheldt, Bab el-Mandeb, Malacca, BBNJ, alta mar, 80 años (ICJ), ONU-80, estrecho, lacras, de la par, derecho internacional confirmed by the Spanish channel. Unit 72 per Spanish 'a la madre que lleva andando horas'; unit 75 per Spanish 'hemos decidido recortar su financiación'. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 37 'bearings. bearings.' -> 'bearings.'; unit 43 'difficult. difficult.' -> 'difficult.'; unit 57 'interests. interests.' -> 'interests.'; unit 207 'are We are' -> 'are'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 74 'food? there' -> 'food? There'; unit 81 'violence. it' -> 'violence. It'; unit 117 'responsibility. to' -> 'responsibility to'; unit 141 'itself. sees' -> 'itself. Sees'; unit 175 'continent. that' -> 'continent. That'; unit 200 'peace. being' -> 'peace. Being'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 7 'orders' -> 'others' (decodes 'orders' 0.81 / 0.85 but 'where the orders are' does not fit; sounds alike; ES 'dónde están los otros'); spot 10 unit 65 'In so' -> 'and so' (both decodes hear 'and so' (and 1.00); 'Haiti, In so many other places' does not fit; sounds alike; 'In' alone is not unique in the unit); spot 13 unit 74 'food? there' -> 'food? That there' (2026 exception: both decodes hear 'That' at 0.98; ES 'que le decimos a una familia ... que no se van a entregar mañana'; replaces the existing repair 'food? there' -> 'food? There'); spot 17 unit 85 'setting' -> 'sailing' (decodes 'setting' 0.57 / 0.75 but 'ships setting up the river' does not fit; sounds alike; ES 'los barcos que venían por el río'; UN 'sailing'); spot 37 unit 175 'continent. that' -> 'continent. They', 'rests' -> 'rest' (the run's repair split in two so it does not overlap the earlier sentence-break repair: decodes 'They rest' (They 0.60 / 0.46, rest 0.91 / 0.88); ES 'Reposan sobre una convicción')",
+ "unitizer_version": 1,
+ "sha1": "fa41f3f99e2ccd0b7f89725e42036da0c4279ee8",
+ "layout": "single",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2982,
+  "words_out": 2935,
+  "retention": 0.9842,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   111,
+   141,
+   183,
+   187,
+   209,
+   88,
+   152,
+   186,
+   147,
+   231,
+   78,
+   200,
+   151,
+   207,
+   116,
+   134,
+   105,
+   89,
+   131,
+   86,
+   3
+  ],
+  "warnings": [
+   "40 fixes"
+  ]
+ }
+}

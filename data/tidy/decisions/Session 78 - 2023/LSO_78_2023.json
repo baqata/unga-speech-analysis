@@ -1,0 +1,126 @@
+{
+ "id": "LSO_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  16,
+  20,
+  22,
+  27,
+  30,
+  35,
+  37,
+  45,
+  48,
+  53,
+  59,
+  64,
+  67,
+  72,
+  78,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "deep- rooted",
+   "deep-rooted",
+   "hyphen"
+  ],
+  [
+   0,
+   "can. and",
+   "can, and",
+   "ocr"
+  ],
+  [
+   8,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   12,
+   "1945. when",
+   "1945, when",
+   "ocr"
+  ],
+  [
+   22,
+   "Moreover.",
+   "Moreover,",
+   "ocr"
+  ],
+  [
+   31,
+   "ago. in",
+   "ago, in",
+   "ocr"
+  ],
+  [
+   39,
+   "In that regard.",
+   "In that regard,",
+   "ocr"
+  ],
+  [
+   69,
+   "global community.",
+   "global community,",
+   "ocr"
+  ],
+  [
+   82,
+   "1945. the",
+   "1945, the",
+   "ocr"
+  ],
+  [
+   83,
+   "Yes. the",
+   "Yes, the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "df18bfeea635ec524f99c4aa24353e12d120e37b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1880,
+  "words_out": 1877,
+  "retention": 0.9984,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   86,
+   71,
+   84,
+   131,
+   101,
+   64,
+   87,
+   79,
+   91,
+   84,
+   148,
+   77,
+   80,
+   129,
+   114,
+   70,
+   110,
+   129,
+   67,
+   75
+  ],
+  "warnings": []
+ }
+}

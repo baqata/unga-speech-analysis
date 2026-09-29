@@ -1,0 +1,143 @@
+{
+ "id": "SLV_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  9,
+  12,
+  14,
+  16,
+  18,
+  22,
+  24,
+  26,
+  31,
+  34,
+  36,
+  37,
+  39,
+  41,
+  43,
+  45,
+  49,
+  51,
+  54,
+  56,
+  60,
+  64,
+  68,
+  72,
+  74,
+  75,
+  77,
+  79,
+  81,
+  85,
+  91,
+  94,
+  97
+ ],
+ "cer": [
+  0,
+  3,
+  7,
+  9
+ ],
+ "fix": [
+  [
+   25,
+   "we ail receive",
+   "we all receive",
+   "ocr"
+  ],
+  [
+   30,
+   "soon- factors",
+   "so on- factors",
+   "merged_word"
+  ],
+  [
+   44,
+   "agency, This",
+   "agency. This",
+   "ocr"
+  ],
+  [
+   62,
+   "relations, We",
+   "relations. We",
+   "ocr"
+  ],
+  [
+   89,
+   "inter-nationally",
+   "internationally",
+   "hyphen"
+  ],
+  [
+   92,
+   "SALT 11",
+   "SALT II",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f42e797ebc0f4c4e345acb11d39e660c8595e165",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3768,
+  "words_out": 3764,
+  "retention": 0.9989,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   139,
+   75,
+   89,
+   76,
+   134,
+   107,
+   70,
+   86,
+   158,
+   61,
+   73,
+   169,
+   69,
+   63,
+   107,
+   69,
+   61,
+   84,
+   136,
+   122,
+   85,
+   132,
+   116,
+   119,
+   204,
+   88,
+   77,
+   67,
+   62,
+   107,
+   69,
+   67,
+   127,
+   171,
+   134,
+   129,
+   62
+  ],
+  "warnings": []
+ }
+}

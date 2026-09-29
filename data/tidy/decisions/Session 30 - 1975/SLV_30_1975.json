@@ -1,0 +1,91 @@
+{
+ "id": "SLV_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  11,
+  18,
+  21,
+  25,
+  28,
+  32,
+  34,
+  36,
+  39,
+  43,
+  46,
+  49,
+  53,
+  58
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   13,
+   "world, Therefore",
+   "world. Therefore",
+   "ocr"
+  ],
+  [
+   23,
+   "crisis, It",
+   "crisis. It",
+   "ocr"
+  ],
+  [
+   32,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ],
+  [
+   51,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "abef6d7aca662352ca926129f79d931d0bc10828",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2042,
+  "words_out": 2031,
+  "retention": 0.9946,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   80,
+   117,
+   124,
+   115,
+   211,
+   121,
+   124,
+   85,
+   112,
+   63,
+   85,
+   91,
+   109,
+   142,
+   94,
+   154,
+   142,
+   62
+  ],
+  "warnings": []
+ }
+}

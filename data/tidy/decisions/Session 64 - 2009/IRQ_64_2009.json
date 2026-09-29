@@ -1,0 +1,65 @@
+{
+ "id": "IRQ_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  26,
+  48,
+  59,
+  70,
+  82,
+  98,
+  113,
+  123,
+  138,
+  153,
+  170,
+  187,
+  207,
+  223,
+  236,
+  247
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3779205f31d577cf447a4a31db121af7f0c5c566",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2021,
+  "words_out": 2017,
+  "retention": 0.998,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   90,
+   103,
+   170,
+   86,
+   86,
+   99,
+   138,
+   116,
+   69,
+   111,
+   101,
+   131,
+   136,
+   153,
+   117,
+   111,
+   78,
+   122
+  ],
+  "warnings": []
+ }
+}

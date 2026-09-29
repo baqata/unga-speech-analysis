@@ -1,0 +1,62 @@
+{
+ "id": "BGD_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  38,
+  57,
+  82,
+  97,
+  109,
+  139,
+  152,
+  181,
+  194,
+  203,
+  217,
+  231,
+  253,
+  278
+ ],
+ "cer": [
+  0,
+  278
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a06a3fa2172691019b08bd5a38252b84cbcd5c86",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 280,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2145,
+  "words_out": 2143,
+  "retention": 0.9991,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   112,
+   174,
+   137,
+   182,
+   120,
+   101,
+   235,
+   107,
+   227,
+   93,
+   67,
+   101,
+   112,
+   180,
+   186,
+   9
+  ],
+  "warnings": []
+ }
+}

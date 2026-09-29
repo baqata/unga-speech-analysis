@@ -1,0 +1,64 @@
+{
+ "id": "URY_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  27,
+  46,
+  65,
+  86,
+  98,
+  113,
+  126,
+  138,
+  150,
+  164,
+  181,
+  203,
+  218,
+  230
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "in to be",
+   "is to be",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6a7215c0255e6babb85a9df858492db8470b87e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1878,
+  "words_out": 1878,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   200,
+   153,
+   134,
+   144,
+   96,
+   116,
+   92,
+   100,
+   95,
+   110,
+   128,
+   161,
+   121,
+   90,
+   138
+  ],
+  "warnings": []
+ }
+}

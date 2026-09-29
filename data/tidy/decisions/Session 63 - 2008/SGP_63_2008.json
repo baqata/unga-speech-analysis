@@ -1,0 +1,63 @@
+{
+ "id": "SGP_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  25,
+  36,
+  47,
+  66,
+  83,
+  98,
+  110,
+  126,
+  137,
+  155,
+  176,
+  190,
+  204,
+  222,
+  236,
+  248
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3fd36db822471c2137d00e58e86f6a911bd3b8e2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 269,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2160,
+  "words_out": 2159,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   114,
+   75,
+   92,
+   81,
+   165,
+   140,
+   117,
+   102,
+   138,
+   85,
+   142,
+   169,
+   95,
+   110,
+   146,
+   114,
+   103,
+   171
+  ],
+  "warnings": []
+ }
+}

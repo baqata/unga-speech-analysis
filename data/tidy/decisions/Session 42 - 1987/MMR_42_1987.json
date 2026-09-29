@@ -1,0 +1,86 @@
+{
+ "id": "MMR_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  13,
+  17,
+  21,
+  28,
+  31,
+  38,
+  43,
+  47,
+  53,
+  57,
+  66,
+  71,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Assembly, The",
+   "Assembly. The",
+   "ocr"
+  ],
+  [
+   0,
+   "guidance, I",
+   "guidance. I",
+   "ocr"
+  ],
+  [
+   14,
+   "Chatter",
+   "Charter",
+   "ocr"
+  ],
+  [
+   52,
+   "year ř adopted",
+   "year adopted",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2ebbc28c3757cf75f96418e27a149d5b810380cc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2353,
+  "words_out": 2352,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   74,
+   136,
+   92,
+   123,
+   116,
+   101,
+   167,
+   110,
+   182,
+   121,
+   149,
+   165,
+   133,
+   213,
+   182,
+   215,
+   73
+  ],
+  "warnings": []
+ }
+}

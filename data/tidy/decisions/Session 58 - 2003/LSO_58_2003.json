@@ -1,0 +1,72 @@
+{
+ "id": "LSO_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  29,
+  40,
+  57,
+  69,
+  81,
+  91,
+  108,
+  126,
+  150,
+  159,
+  172,
+  188,
+  199,
+  208,
+  224,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   223,
+   "d''tre",
+   "d'être",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55f35536796a593bdc5208184faef21e866eef4d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2151,
+  "words_out": 2148,
+  "retention": 0.9986,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   42,
+   192,
+   91,
+   131,
+   94,
+   92,
+   79,
+   139,
+   144,
+   193,
+   74,
+   107,
+   128,
+   94,
+   73,
+   127,
+   132,
+   216
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "id": "WSM_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   3,
+   6,
+   "noise"
+  ],
+  [
+   18,
+   18,
+   "noise"
+  ],
+  [
+   111,
+   111,
+   "presider"
+  ],
+  [
+   112,
+   112,
+   "presider"
+  ]
+ ],
+ "para": [
+  7,
+  11,
+  12,
+  23,
+  28,
+  35,
+  44,
+  51,
+  57,
+  63,
+  77,
+  79,
+  82,
+  89,
+  97,
+  103,
+  105
+ ],
+ "cer": [
+  7,
+  11,
+  103
+ ],
+ "fix": [
+  [
+   7,
+   "lea tua",
+   "le Atua",
+   "asr_term"
+  ],
+  [
+   7,
+   "saa moa",
+   "Samoa",
+   "asr_term"
+  ],
+  [
+   8,
+   "saa moa",
+   "Samoa",
+   "asr_term"
+  ],
+  [
+   8,
+   "lea tua",
+   "le Atua",
+   "asr_term"
+  ],
+  [
+   11,
+   "Kalula Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   12,
+   "a united nation",
+   "a United Nations",
+   "asr_term"
+  ],
+  [
+   22,
+   "the far Samoa",
+   "the fa'a Samoa",
+   "asr_term"
+  ],
+  [
+   27,
+   "we've resolved",
+   "with resolve",
+   "asr_term"
+  ],
+  [
+   30,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   33,
+   "We also more",
+   "While Samoa",
+   "asr_name"
+  ],
+  [
+   34,
+   "Akein's",
+   "against",
+   "asr_term"
+  ],
+  [
+   36,
+   "seeds",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   53,
+   "MBI",
+   "MVI",
+   "asr_term"
+  ],
+  [
+   57,
+   "Samoan's",
+   "Samoa's",
+   "asr_name"
+  ],
+  [
+   74,
+   "BB&J",
+   "BBNJ",
+   "asr_term"
+  ],
+  [
+   75,
+   "APIA",
+   "Apia",
+   "asr_name"
+  ],
+  [
+   83,
+   "seeds",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   102,
+   "Iyonga",
+   "aiga",
+   "asr_term"
+  ],
+  [
+   103,
+   "Antonia Kuterres",
+   "Antonio Guterres",
+   "asr_name"
+  ],
+  [
+   22,
+   "faith. such",
+   "faith such",
+   "asr_term"
+  ],
+  [
+   59,
+   "fuels. successive",
+   "fuels. Successive",
+   "asr_term"
+  ],
+  [
+   77,
+   "trafficking. including",
+   "trafficking including",
+   "asr_term"
+  ],
+  [
+   89,
+   "country. steadfast",
+   "country steadfast",
+   "asr_term"
+  ],
+  [
+   22,
+   "underbearing",
+   "underpinned",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 7-10 are the speaker's untranslated Samoan greeting: 'O le Atua mo Samoa. O Samoa mo le Atua.' per main agent's Polynesian re-decode, units 9-10 kept as heard because decodes disagree; unit 110 is the Samoan farewell 'Soifua ma ia manuia' (beehive.govt.nz, Samoa Observer); aiga per Spanish 'la AIGA o la familia'; ONU 80, Si bien Samoa reafirma, PIDS, BNJ, Guterres per Spanish; President Khalilur Rahman per un.org. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 22 'faith. such' -> 'faith such'; unit 59 'fuels. successive' -> 'fuels. Successive'; unit 77 'trafficking. including' -> 'trafficking including'; unit 89 'country. steadfast' -> 'country. Steadfast'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 7 unit 18 dropped (noise) (lone 'What?' in a pause: both decodes and three re-decodes (probe_kw at 122 / 123 / 124 s) go 'restored?@125.3 Can@126.8' with nothing between; ES '¿Se puede restaurar la confianza?' then the next question, no counterpart); spot 8 unit 22 'underbearing' -> 'underpinned' (decodes unclear ('underbearing' 0.51 / 'underbidden' 0.49); 'this is underbearing by the core values' does not fit, 'underpinned by' does and sounds alike); spot 26 unit 111 dropped (presider) ('Thank you.' at 1016.5 s comes 4.4 s after the speaker's closing 'Soifua ma ia manuia' and runs straight into the presider's 'I thank the Deputy Prime Minister of ...' (1017.8 s) in both decodes; ES ends with the Samoan closing and no thanks; it is the presiding officer's word). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 89 false stop removed without a mark (re-decode 'country,@830.2 steadfast'; Spanish 'un país de paz comprometido con'); paragraph start at unit 77, since units 77-78 on transnational crime and illicit drugs are a complete point that neither neighbour shares.",
+ "unitizer_version": 1,
+ "sha1": "48e11a33e94c4b0613a7965e93e15566e895599d",
+ "layout": "single",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "presider": 5,
+   "noise": 5
+  },
+  "prestrip": {},
+  "words_in": 1626,
+  "words_out": 1555,
+  "retention": 0.9563,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   21,
+   25,
+   123,
+   79,
+   111,
+   154,
+   99,
+   126,
+   135,
+   186,
+   39,
+   66,
+   85,
+   120,
+   93,
+   40,
+   53
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

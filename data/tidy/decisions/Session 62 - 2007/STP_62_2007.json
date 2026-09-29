@@ -1,0 +1,51 @@
+{
+ "id": "STP_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  31,
+  40,
+  51,
+  63,
+  77,
+  95,
+  115,
+  127,
+  141,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f2072549260708ec667132b435df304e99772415",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1358,
+  "words_out": 1358,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   130,
+   109,
+   79,
+   83,
+   100,
+   112,
+   156,
+   185,
+   95,
+   119,
+   175,
+   15
+  ],
+  "warnings": []
+ }
+}

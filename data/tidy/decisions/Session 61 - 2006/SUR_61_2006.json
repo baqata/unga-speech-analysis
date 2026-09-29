@@ -1,0 +1,45 @@
+{
+ "id": "SUR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  35,
+  58,
+  78,
+  97,
+  111,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba428aac5c69ab0d28616546f3e78e5a89154ecf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1028,
+  "words_out": 1023,
+  "retention": 0.9951,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   124,
+   145,
+   166,
+   151,
+   146,
+   89,
+   93,
+   109
+  ],
+  "warnings": []
+ }
+}

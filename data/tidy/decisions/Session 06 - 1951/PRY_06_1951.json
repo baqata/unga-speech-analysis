@@ -1,0 +1,50 @@
+{
+ "id": "PRY_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  14,
+  16,
+  19,
+  23
+ ],
+ "cer": [],
+ "fix": [
+  [
+   23,
+   "in.",
+   "in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3967e180f136cec283537c6df24ff87c5e2188aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 25,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 1214,
+  "words_out": 1212,
+  "retention": 0.9984,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   143,
+   152,
+   159,
+   144,
+   158,
+   123,
+   206,
+   127
+  ],
+  "warnings": []
+ }
+}

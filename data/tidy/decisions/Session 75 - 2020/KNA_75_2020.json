@@ -1,0 +1,113 @@
+{
+ "id": "KNA_75_2020",
+ "drop": [
+  [
+   20,
+   20,
+   "heading"
+  ],
+  [
+   30,
+   30,
+   "heading"
+  ],
+  [
+   39,
+   39,
+   "heading"
+  ],
+  [
+   41,
+   41,
+   "heading"
+  ],
+  [
+   47,
+   47,
+   "heading"
+  ],
+  [
+   54,
+   54,
+   "heading"
+  ],
+  [
+   60,
+   60,
+   "heading"
+  ],
+  [
+   63,
+   63,
+   "heading"
+  ],
+  [
+   69,
+   69,
+   "heading"
+  ],
+  [
+   83,
+   83,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  6,
+  7,
+  11,
+  19,
+  27,
+  35,
+  38,
+  48,
+  55,
+  61,
+  64,
+  70,
+  82,
+  92
+ ],
+ "cer": [
+  0,
+  92
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e886122c143c369c1f171c61fb0494801713024f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {
+   "heading": 10
+  },
+  "prestrip": {},
+  "words_in": 1877,
+  "words_out": 1843,
+  "retention": 0.9819,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   14,
+   129,
+   119,
+   109,
+   78,
+   141,
+   154,
+   50,
+   153,
+   94,
+   122,
+   66,
+   138,
+   263,
+   210,
+   3
+  ],
+  "warnings": []
+ }
+}

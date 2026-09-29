@@ -1,0 +1,60 @@
+{
+ "id": "JOR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  17,
+  22,
+  26,
+  32,
+  37,
+  41,
+  50,
+  57,
+  59,
+  64,
+  72
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   " (The Holy Koran, VII:156)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9b5e5316ab97fb2c961c193a9b006eefbae6867",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1399,
+  "words_out": 1395,
+  "retention": 0.9971,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   128,
+   80,
+   64,
+   97,
+   61,
+   117,
+   70,
+   73,
+   135,
+   95,
+   55,
+   113,
+   197,
+   110
+  ],
+  "warnings": []
+ }
+}

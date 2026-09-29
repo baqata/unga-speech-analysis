@@ -1,0 +1,146 @@
+{
+ "id": "PHL_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  8,
+  15,
+  19,
+  26,
+  35,
+  42,
+  47,
+  51,
+  57,
+  60,
+  67,
+  69,
+  73,
+  80,
+  86,
+  89
+ ],
+ "cer": [
+  0,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   10,
+   "earths 2",
+   "earth 2",
+   "ocr"
+  ],
+  [
+   29,
+   "(A/C.R/43/L.19) .",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "balance.!",
+   "balance.\"",
+   "ocr"
+  ],
+  [
+   31,
+   " (ibid.) .",
+   "",
+   "label"
+  ],
+  [
+   32,
+   " (ibid.).",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "debt-re duct ion",
+   "debt-reduction",
+   "split_word"
+  ],
+  [
+   69,
+   "goods? goods",
+   "goods; goods",
+   "ocr"
+  ],
+  [
+   71,
+   "question*, if",
+   "question: if",
+   "ocr"
+  ],
+  [
+   82,
+   "owes 41.3 trillion",
+   "owes $1.3 trillion",
+   "ocr"
+  ],
+  [
+   82,
+   "up to 41,000",
+   "up to $1,000",
+   "ocr"
+  ],
+  [
+   84,
+   "over 314,000",
+   "over $14,000",
+   "ocr"
+  ],
+  [
+   85,
+   "15 9 Members",
+   "159 Members",
+   "ocr"
+  ],
+  [
+   88,
+   "(A/C.2/43/L.19, para, (a))",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7d9c2660de4add736a1c66cb1d4d7d7b3a521002",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2255,
+  "words_out": 2244,
+  "retention": 0.9951,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   97,
+   58,
+   30,
+   232,
+   96,
+   215,
+   258,
+   167,
+   123,
+   93,
+   108,
+   92,
+   125,
+   65,
+   94,
+   125,
+   131,
+   102,
+   33
+  ],
+  "warnings": []
+ }
+}

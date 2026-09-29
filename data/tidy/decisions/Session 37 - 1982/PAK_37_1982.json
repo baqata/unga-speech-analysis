@@ -1,0 +1,252 @@
+{
+ "id": "PAK_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  30,
+  37,
+  53,
+  62,
+  69,
+  78,
+  88,
+  94,
+  112,
+  122,
+  130,
+  147,
+  163,
+  172,
+  184,
+  194,
+  203,
+  214,
+  225,
+  228,
+  240,
+  246,
+  256,
+  263,
+  271,
+  278,
+  285,
+  294,
+  305,
+  319,
+  327,
+  339,
+  348,
+  362,
+  374,
+  382,
+  391
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "ejection",
+   "election",
+   "ocr"
+  ],
+  [
+   7,
+   "1 should",
+   "I should",
+   "ocr"
+  ],
+  [
+   20,
+   "anarchy .",
+   "anarchy.",
+   "spacing"
+  ],
+  [
+   32,
+   "as ted to",
+   "as led to",
+   "ocr"
+  ],
+  [
+   35,
+   "adjust and",
+   "a just and",
+   "merged_word"
+  ],
+  [
+   66,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   92,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   95,
+   "forthe",
+   "for the",
+   "merged_word"
+  ],
+  [
+   145,
+   "white preserving",
+   "while preserving",
+   "ocr"
+  ],
+  [
+   160,
+   "a/id",
+   "and",
+   "ocr"
+  ],
+  [
+   165,
+   "tosses",
+   "losses",
+   "ocr"
+  ],
+  [
+   165,
+   "this was has",
+   "this war has",
+   "ocr"
+  ],
+  [
+   175,
+   "consistency",
+   "consistently",
+   "ocr"
+  ],
+  [
+   186,
+   "peoples; Joint",
+   "peoples. Joint",
+   "ocr"
+  ],
+  [
+   211,
+   "well For",
+   "well for",
+   "ocr"
+  ],
+  [
+   214,
+   "consistency",
+   "consistently",
+   "ocr"
+  ],
+  [
+   244,
+   " PO]",
+   "",
+   "label"
+  ],
+  [
+   265,
+   "non-first-u )",
+   "non-first-use",
+   "ocr"
+  ],
+  [
+   289,
+   "sections;",
+   "sections",
+   "ocr"
+  ],
+  [
+   305,
+   "White",
+   "While",
+   "ocr"
+  ],
+  [
+   318,
+   "towering",
+   "lowering",
+   "ocr"
+  ],
+  [
+   320,
+   "property designed",
+   "properly designed",
+   "ocr"
+  ],
+  [
+   326,
+   "community. ,",
+   "community.",
+   "ocr"
+  ],
+  [
+   353,
+   "S-Vl",
+   "S-VI",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Words are missing in units 220 (\"that unfortunate and\") and 229 (apartheid dropped).",
+ "unitizer_version": 1,
+ "sha1": "960fe1e3464754ce827235a9266d9db347f8da13",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 403,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3947,
+  "words_out": 3904,
+  "retention": 0.9891,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   184,
+   126,
+   74,
+   148,
+   93,
+   61,
+   88,
+   103,
+   51,
+   166,
+   99,
+   77,
+   159,
+   167,
+   94,
+   125,
+   95,
+   83,
+   112,
+   107,
+   34,
+   124,
+   54,
+   103,
+   60,
+   86,
+   64,
+   63,
+   73,
+   97,
+   146,
+   76,
+   115,
+   88,
+   125,
+   113,
+   75,
+   82,
+   114
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

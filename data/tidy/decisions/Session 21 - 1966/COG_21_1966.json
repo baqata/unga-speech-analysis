@@ -1,0 +1,129 @@
+{
+ "id": "COG_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  15,
+  18,
+  23,
+  28,
+  31,
+  35,
+  38,
+  45,
+  50,
+  55,
+  59,
+  63,
+  69,
+  75,
+  79,
+  83,
+  87,
+  91,
+  95,
+  102,
+  109,
+  113,
+  117,
+  122,
+  130,
+  134,
+  138,
+  140
+ ],
+ "cer": [
+  0,
+  140
+ ],
+ "fix": [
+  [
+   25,
+   "Paul VT",
+   "Paul VI",
+   "ocr"
+  ],
+  [
+   27,
+   "Viet-Nam, On the contrary",
+   "Viet-Nam. On the contrary",
+   "ocr"
+  ],
+  [
+   46,
+   "concealing - its",
+   "concealing its",
+   "ocr"
+  ],
+  [
+   88,
+   "drawn up.",
+   "drawn up,",
+   "ocr"
+  ],
+  [
+   108,
+   "United States,",
+   "United States.",
+   "ocr"
+  ],
+  [
+   116,
+   "circumstances ’ can",
+   "circumstances can",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "daf40c712e4afaf1d49eacf7cb07117179f451fe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3638,
+  "words_out": 3592,
+  "retention": 0.9874,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   191,
+   107,
+   108,
+   129,
+   148,
+   139,
+   101,
+   106,
+   81,
+   160,
+   122,
+   107,
+   110,
+   109,
+   92,
+   119,
+   73,
+   109,
+   103,
+   84,
+   75,
+   149,
+   146,
+   112,
+   101,
+   117,
+   148,
+   106,
+   103,
+   76,
+   161
+  ],
+  "warnings": []
+ }
+}

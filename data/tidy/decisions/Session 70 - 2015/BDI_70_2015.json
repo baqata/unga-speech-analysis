@@ -1,0 +1,111 @@
+{
+ "id": "BDI_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  12,
+  17,
+  22,
+  25,
+  30,
+  37,
+  39,
+  43,
+  47,
+  50,
+  53,
+  56,
+  61,
+  64,
+  70,
+  74,
+  76,
+  82,
+  85,
+  88,
+  91,
+  93,
+  94
+ ],
+ "cer": [
+  0,
+  2,
+  5,
+  94
+ ],
+ "fix": [
+  [
+   3,
+   "sixty- ninth",
+   "sixty-ninth",
+   "hyphen"
+  ],
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   82,
+   "troop- contributing",
+   "troop-contributing",
+   "hyphen"
+  ],
+  [
+   91,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a40d4d5e4a2f693d019081e43decdbb5feb5afc1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2522,
+  "words_out": 2518,
+  "retention": 0.9984,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   59,
+   97,
+   75,
+   73,
+   118,
+   110,
+   78,
+   97,
+   168,
+   62,
+   90,
+   97,
+   95,
+   100,
+   121,
+   113,
+   73,
+   113,
+   122,
+   82,
+   218,
+   88,
+   75,
+   74,
+   67,
+   47,
+   6
+  ],
+  "warnings": []
+ }
+}

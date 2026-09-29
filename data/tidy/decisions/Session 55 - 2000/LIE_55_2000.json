@@ -1,0 +1,52 @@
+{
+ "id": "LIE_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  54,
+  71,
+  90,
+  103,
+  132
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "`culture",
+   "‘culture",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a547861c73a065acc4849e70f8b1322d4828cdc6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1114,
+  "words_out": 1113,
+  "retention": 0.9991,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   79,
+   81,
+   274,
+   137,
+   142,
+   106,
+   216,
+   78
+  ],
+  "warnings": []
+ }
+}

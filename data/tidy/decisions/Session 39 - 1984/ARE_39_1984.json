@@ -1,0 +1,103 @@
+{
+ "id": "ARE_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  16,
+  20,
+  26,
+  31,
+  35,
+  39,
+  42,
+  45,
+  52,
+  54,
+  59,
+  60,
+  66,
+  68,
+  74,
+  78,
+  82
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   23,
+   "die adoption",
+   "the adoption",
+   "ocr"
+  ],
+  [
+   23,
+   "Ocean is a Zone",
+   "Ocean as a Zone",
+   "ocr"
+  ],
+  [
+   25,
+   "mv country",
+   "my country",
+   "ocr"
+  ],
+  [
+   57,
+   "settlement or those",
+   "settlement of those",
+   "ocr"
+  ],
+  [
+   61,
+   "printed out",
+   "pointed out",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec66beaacb8e26b8b1c71afaa58539c0b488798d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2841,
+  "words_out": 2839,
+  "retention": 0.9993,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   88,
+   133,
+   146,
+   153,
+   192,
+   194,
+   131,
+   176,
+   153,
+   150,
+   116,
+   164,
+   67,
+   151,
+   65,
+   197,
+   54,
+   120,
+   157,
+   201,
+   31
+  ],
+  "warnings": []
+ }
+}

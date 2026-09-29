@@ -1,0 +1,167 @@
+{
+ "id": "BWA_33_1978",
+ "drop": [
+  [
+   11,
+   19,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  20,
+  22,
+  26,
+  29,
+  31,
+  36,
+  37,
+  41,
+  45,
+  47,
+  52,
+  56,
+  59,
+  64,
+  69,
+  71,
+  75,
+  78,
+  83,
+  88,
+  93,
+  100,
+  106,
+  110
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   20,
+   "32/174, It is",
+   "32/174. It is",
+   "ocr"
+  ],
+  [
+   22,
+   "would Lunch the",
+   "would launch the",
+   "ocr"
+  ],
+  [
+   26,
+   " [resolution 2626 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "21„ ",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "escalation or' the",
+   "escalation of the",
+   "ocr"
+  ],
+  [
+   73,
+   "internationally accented solution",
+   "internationally accepted solution",
+   "ocr"
+  ],
+  [
+   73,
+   "could lie made",
+   "could be made",
+   "ocr"
+  ],
+  [
+   76,
+   "the QAU",
+   "the OAU",
+   "ocr"
+  ],
+  [
+   79,
+   "we are ho closer",
+   "we are no closer",
+   "ocr"
+  ],
+  [
+   109,
+   "against 4partheid",
+   "against Apartheid",
+   "ocr"
+  ],
+  [
+   55,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   " [SWAPO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "truncated_start"
+ ],
+ "note": "Opening remarks to the President are missing; record paragraph 4 repeats paragraph 3 and is dropped.",
+ "unitizer_version": 1,
+ "sha1": "8be6d430d38f18a86fc3b34b3d7308243d2c1ac3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {
+   "repeat": 9
+  },
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 3219,
+  "words_out": 3127,
+  "retention": 0.9714,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   52,
+   59,
+   81,
+   102,
+   119,
+   112,
+   67,
+   123,
+   71,
+   124,
+   116,
+   60,
+   158,
+   113,
+   97,
+   187,
+   178,
+   63,
+   158,
+   105,
+   103,
+   208,
+   131,
+   158,
+   128,
+   135,
+   119
+  ],
+  "warnings": []
+ }
+}

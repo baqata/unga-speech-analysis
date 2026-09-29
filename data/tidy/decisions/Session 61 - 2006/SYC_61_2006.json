@@ -1,0 +1,44 @@
+{
+ "id": "SYC_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  36,
+  54,
+  75,
+  84,
+  111
+ ],
+ "cer": [
+  0,
+  111
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d0ed9e6c20f8975de43051e7ee8083c95225a6d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 926,
+  "words_out": 924,
+  "retention": 0.9978,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   122,
+   158,
+   140,
+   168,
+   74,
+   229,
+   33
+  ],
+  "warnings": []
+ }
+}

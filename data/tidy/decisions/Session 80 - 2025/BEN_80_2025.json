@@ -1,0 +1,121 @@
+{
+ "id": "BEN_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  10,
+  18,
+  25,
+  33,
+  37,
+  40,
+  48,
+  56,
+  60,
+  66,
+  73,
+  78,
+  81
+ ],
+ "cer": [
+  1,
+  81
+ ],
+ "fix": [
+  [
+   1,
+   "Tallon",
+   "Talon",
+   "asr_name"
+  ],
+  [
+   2,
+   "Helena",
+   "Annalena",
+   "asr_name"
+  ],
+  [
+   51,
+   "Lalland",
+   "Talon",
+   "asr_name"
+  ],
+  [
+   64,
+   "Kotonou",
+   "Cotonou",
+   "asr_name"
+  ],
+  [
+   65,
+   "Kotonou",
+   "Cotonou",
+   "asr_name"
+  ],
+  [
+   67,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   69,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   76,
+   "Ezelwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   76,
+   "Serta",
+   "Sirte",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e09223b846193f06ce13285fb53729d628606ef8",
+ "layout": "single",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2006,
+  "words_out": 1989,
+  "retention": 0.9915,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   143,
+   154,
+   134,
+   183,
+   163,
+   171,
+   78,
+   177,
+   204,
+   99,
+   167,
+   157,
+   109,
+   48,
+   2
+  ],
+  "warnings": []
+ }
+}

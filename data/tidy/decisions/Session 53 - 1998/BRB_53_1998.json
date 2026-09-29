@@ -1,0 +1,116 @@
+{
+ "id": "BRB_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  28,
+  43,
+  62,
+  77,
+  86,
+  111,
+  133,
+  148,
+  162,
+  188,
+  203,
+  215,
+  232,
+  243,
+  254,
+  267,
+  277
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   41,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   44,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   49,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   68,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   124,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   237,
+   "countries?",
+   "countries’",
+   "encoding"
+  ],
+  [
+   249,
+   "donors?",
+   "donors’",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5df9df2ecbcea4efc7bd9feddec990cc4c13380e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 292,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2398,
+  "words_out": 2395,
+  "retention": 0.9987,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   80,
+   143,
+   121,
+   162,
+   131,
+   80,
+   190,
+   178,
+   131,
+   136,
+   211,
+   117,
+   96,
+   136,
+   91,
+   91,
+   106,
+   81,
+   114
+  ],
+  "warnings": []
+ }
+}

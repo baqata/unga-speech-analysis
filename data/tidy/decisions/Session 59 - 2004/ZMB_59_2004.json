@@ -1,0 +1,103 @@
+{
+ "id": "ZMB_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  15,
+  34,
+  55,
+  80,
+  90,
+  103,
+  124,
+  147,
+  172,
+  191
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   25,
+   "Zambiaís",
+   "Zambia’s",
+   "encoding"
+  ],
+  [
+   84,
+   "Quartetís",
+   "Quartet’s",
+   "encoding"
+  ],
+  [
+   94,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   121,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   157,
+   "Hammarskjild",
+   "Hammarskjöld",
+   "ocr"
+  ],
+  [
+   166,
+   "Livingstoneís",
+   "Livingstone’s",
+   "encoding"
+  ],
+  [
+   167,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   188,
+   "Refugeesí",
+   "Refugees’",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95e3f0f90b955b5f45dae9871b22092cc5d634c8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1529,
+  "words_out": 1527,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   20,
+   96,
+   146,
+   160,
+   191,
+   86,
+   90,
+   163,
+   187,
+   199,
+   145,
+   44
+  ],
+  "warnings": []
+ }
+}

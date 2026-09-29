@@ -1,0 +1,56 @@
+{
+ "id": "SUR_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  43,
+  72,
+  93,
+  115,
+  138,
+  149,
+  164,
+  171,
+  180,
+  191
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d8e6fac7c696c1d8083b87d43c0278610de02ae",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1534,
+  "words_out": 1529,
+  "retention": 0.9967,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   65,
+   71,
+   184,
+   227,
+   160,
+   167,
+   177,
+   89,
+   125,
+   53,
+   60,
+   82,
+   69
+  ],
+  "warnings": []
+ }
+}

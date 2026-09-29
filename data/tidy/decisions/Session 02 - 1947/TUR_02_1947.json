@@ -1,0 +1,90 @@
+{
+ "id": "TUR_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  16,
+  21,
+  24,
+  26,
+  29,
+  32
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "But hew issues",
+   "But new issues",
+   "ocr"
+  ],
+  [
+   4,
+   "if is the most",
+   "it is the most",
+   "ocr"
+  ],
+  [
+   5,
+   "constituent dements",
+   "constituent elements",
+   "ocr"
+  ],
+  [
+   6,
+   "the ‘purposes",
+   "the purposes",
+   "ocr"
+  ],
+  [
+   25,
+   "being tom by",
+   "being torn by",
+   "ocr"
+  ],
+  [
+   25,
+   "been aide to",
+   "been able to",
+   "ocr"
+  ],
+  [
+   31,
+   "whole worn,",
+   "whole world,",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 24 breaks off after 'among them the Greek'; the end of the sentence is missing.",
+ "unitizer_version": 1,
+ "sha1": "9ec3c5b70d2594bf9f7146aa16523f128bc6e8f6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 33,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1126,
+  "words_out": 1126,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   127,
+   167,
+   82,
+   119,
+   158,
+   112,
+   78,
+   131,
+   103,
+   49
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "SOM_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  23,
+  37,
+  49,
+  65,
+  75,
+  83,
+  101,
+  113,
+  131,
+  140,
+  151
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   120,
+   "l0",
+   "10",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ea70cd6a7dbaaa3e418a136bdc494dbd450bc2a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1346,
+  "words_out": 1343,
+  "retention": 0.9978,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   92,
+   87,
+   108,
+   99,
+   127,
+   83,
+   59,
+   160,
+   108,
+   149,
+   80,
+   88,
+   103
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "BWA_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  22,
+  35,
+  51,
+  63,
+  75,
+  84,
+  99,
+  111,
+  122,
+  144,
+  168,
+  186,
+  204,
+  219
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   41,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d300d4c7bfc20deeebd74d92975cc900be163c40",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1837,
+  "words_out": 1834,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   105,
+   84,
+   106,
+   128,
+   100,
+   108,
+   75,
+   117,
+   100,
+   90,
+   182,
+   186,
+   140,
+   156,
+   124,
+   33
+  ],
+  "warnings": []
+ }
+}

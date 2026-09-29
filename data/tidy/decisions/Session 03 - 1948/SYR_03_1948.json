@@ -1,0 +1,94 @@
+{
+ "id": "SYR_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  13,
+  20,
+  23,
+  31,
+  33,
+  39,
+  43,
+  47,
+  51,
+  58,
+  65,
+  69,
+  72,
+  77,
+  83,
+  88,
+  95,
+  101,
+  106,
+  113
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   46,
+   "Article A3",
+   "Article 43",
+   "ocr"
+  ],
+  [
+   65,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   82,
+   "wore being",
+   "were being",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "92eead7df72c141d8abd43ade9c9aab75d7eff5a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3235,
+  "words_out": 3235,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   113,
+   65,
+   133,
+   182,
+   76,
+   167,
+   68,
+   154,
+   105,
+   179,
+   107,
+   160,
+   145,
+   141,
+   113,
+   156,
+   237,
+   94,
+   166,
+   175,
+   153,
+   220,
+   126
+  ],
+  "warnings": []
+ }
+}

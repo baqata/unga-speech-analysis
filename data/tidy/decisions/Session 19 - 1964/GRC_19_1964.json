@@ -1,0 +1,115 @@
+{
+ "id": "GRC_19_1964",
+ "drop": [
+  [
+   5,
+   5,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  15,
+  21,
+  25,
+  30,
+  37,
+  41,
+  45,
+  50,
+  56,
+  59,
+  61,
+  64,
+  69,
+  72,
+  74,
+  76,
+  80,
+  82,
+  87,
+  92,
+  96,
+  101
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "Mr. COSTOPOULOS (Greece) (translated from French): ",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "attention, A decision",
+   "attention. A decision",
+   "ocr"
+  ],
+  [
+   82,
+   "not expected",
+   "not excepted",
+   "ocr"
+  ],
+  [
+   101,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6115089424c907a70a7f659e6155fefbb57fe75f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3221,
+  "words_out": 3213,
+  "retention": 0.9975,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   153,
+   70,
+   113,
+   102,
+   176,
+   88,
+   150,
+   170,
+   186,
+   137,
+   152,
+   202,
+   91,
+   72,
+   72,
+   122,
+   110,
+   85,
+   98,
+   139,
+   87,
+   151,
+   130,
+   102,
+   172,
+   83
+  ],
+  "warnings": []
+ }
+}

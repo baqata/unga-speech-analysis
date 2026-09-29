@@ -1,0 +1,47 @@
+{
+ "id": "POL_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  35,
+  49,
+  60,
+  86,
+  109,
+  129,
+  142,
+  159
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1f20e196e72e7b5f28ce295853f56a33b1af3946",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1441,
+  "words_out": 1441,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   167,
+   136,
+   128,
+   102,
+   227,
+   183,
+   171,
+   120,
+   150,
+   57
+  ],
+  "warnings": []
+ }
+}

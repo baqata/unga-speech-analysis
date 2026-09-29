@@ -1,0 +1,135 @@
+{
+ "id": "SEN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  10,
+  19,
+  24,
+  27,
+  34,
+  40,
+  43,
+  46,
+  52
+ ],
+ "cer": [
+  0,
+  52
+ ],
+ "fix": [
+  [
+   0,
+   "Senegal. I",
+   "Senegal, I",
+   "ocr"
+  ],
+  [
+   5,
+   "Safe.",
+   "Safe,",
+   "ocr"
+  ],
+  [
+   11,
+   "2017.",
+   "2017,",
+   "ocr"
+  ],
+  [
+   15,
+   "Consequently.",
+   "Consequently,",
+   "ocr"
+  ],
+  [
+   27,
+   "Likewise. Senegal",
+   "Likewise, Senegal",
+   "ocr"
+  ],
+  [
+   27,
+   "1961. one",
+   "1961, one",
+   "ocr"
+  ],
+  [
+   27,
+   "independence. President",
+   "independence, President",
+   "ocr"
+  ],
+  [
+   35,
+   "increasing.",
+   "increasing,",
+   "ocr"
+  ],
+  [
+   39,
+   "2023. to",
+   "2023, to",
+   "ocr"
+  ],
+  [
+   40,
+   "low- carbon",
+   "low-carbon",
+   "hyphen"
+  ],
+  [
+   46,
+   "2024.",
+   "2024,",
+   "ocr"
+  ],
+  [
+   48,
+   "April.",
+   "April,",
+   "ocr"
+  ],
+  [
+   52,
+   "people.",
+   "people,",
+   "ocr"
+  ],
+  [
+   55,
+   "dialogue.",
+   "dialogue,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e2dfaac02ac32629971c0a378d70b7787ad6adf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1237,
+  "words_out": 1233,
+  "retention": 0.9968,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   43,
+   121,
+   197,
+   149,
+   79,
+   150,
+   103,
+   114,
+   109,
+   89,
+   79
+  ],
+  "warnings": []
+ }
+}

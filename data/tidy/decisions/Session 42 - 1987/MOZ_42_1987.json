@@ -1,0 +1,229 @@
+{
+ "id": "MOZ_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  13,
+  20,
+  24,
+  30,
+  32,
+  36,
+  40,
+  46,
+  47,
+  56,
+  58,
+  64,
+  68,
+  73,
+  76,
+  80,
+  84,
+  87,
+  92,
+  94,
+  100,
+  103,
+  106,
+  108,
+  110,
+  115,
+  118,
+  120,
+  126,
+  132,
+  136,
+  143,
+  147
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   "Sir, you are",
+   "Sir. You are",
+   "ocr"
+  ],
+  [
+   5,
+   "Huraayun",
+   "Humayun",
+   "ocr"
+  ],
+  [
+   11,
+   "We brought",
+   "He brought",
+   "ocr"
+  ],
+  [
+   13,
+   "(WR)",
+   "(VOR)",
+   "ocr"
+  ],
+  [
+   15,
+   "criminal Intent",
+   "criminal intent",
+   "ocr"
+  ],
+  [
+   23,
+   "d is in formation",
+   "disinformation",
+   "spacing"
+  ],
+  [
+   25,
+   "demonstrated.",
+   "demonstrated,",
+   "ocr"
+  ],
+  [
+   27,
+   "Mozambique, Despite",
+   "Mozambique. Despite",
+   "ocr"
+  ],
+  [
+   38,
+   "Rhodesia, It",
+   "Rhodesia. It",
+   "ocr"
+  ],
+  [
+   38,
+   "Portuguese array",
+   "Portuguese army",
+   "ocr"
+  ],
+  [
+   40,
+   "Mozambicane",
+   "Mozambicans",
+   "ocr"
+  ],
+  [
+   43,
+   "As a result.",
+   "As a result,",
+   "ocr"
+  ],
+  [
+   45,
+   "Mozambicane",
+   "Mozambicans",
+   "ocr"
+  ],
+  [
+   46,
+   "country, without",
+   "country. Without",
+   "ocr"
+  ],
+  [
+   51,
+   "Tanzaniane",
+   "Tanzanians",
+   "ocr"
+  ],
+  [
+   51,
+   "with Mozambicane",
+   "with Mozambicans",
+   "ocr"
+  ],
+  [
+   60,
+   "$OS",
+   "$US",
+   "ocr"
+  ],
+  [
+   68,
+   "exporters!",
+   "exporters;",
+   "ocr"
+  ],
+  [
+   72,
+   "Furthermore#",
+   "Furthermore,",
+   "ocr"
+  ],
+  [
+   92,
+   "(ÄNC)",
+   "(ANC)",
+   "ocr"
+  ],
+  [
+   130,
+   "№e People's",
+   "The People's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0befb4e0cf9245825c1a70f58d8dcfa9f8c91ec5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4476,
+  "words_out": 4473,
+  "retention": 0.9993,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   140,
+   131,
+   68,
+   160,
+   139,
+   187,
+   93,
+   86,
+   98,
+   122,
+   56,
+   165,
+   194,
+   105,
+   107,
+   192,
+   121,
+   112,
+   150,
+   73,
+   157,
+   90,
+   168,
+   93,
+   86,
+   75,
+   82,
+   132,
+   97,
+   69,
+   141,
+   159,
+   136,
+   154,
+   114,
+   221
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

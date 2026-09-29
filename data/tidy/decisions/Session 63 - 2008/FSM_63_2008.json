@@ -1,0 +1,61 @@
+{
+ "id": "FSM_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  30,
+  46,
+  66,
+  81,
+  90,
+  108,
+  117,
+  126,
+  139,
+  159,
+  176,
+  191,
+  207
+ ],
+ "cer": [
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33dc71e565de489c2cba646daa9aeeb56ca098fa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 211,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1674,
+  "words_out": 1673,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   75,
+   80,
+   70,
+   121,
+   150,
+   126,
+   73,
+   151,
+   65,
+   78,
+   100,
+   163,
+   138,
+   115,
+   129,
+   39
+  ],
+  "warnings": []
+ }
+}

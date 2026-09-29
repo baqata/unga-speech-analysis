@@ -1,0 +1,208 @@
+{
+ "id": "MLT_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  18,
+  20,
+  27,
+  31,
+  35,
+  37,
+  40,
+  45,
+  50,
+  54,
+  59,
+  63,
+  65,
+  68,
+  74,
+  79,
+  83,
+  86,
+  90,
+  93,
+  96,
+  101,
+  106,
+  110,
+  113,
+  117,
+  124,
+  128,
+  130,
+  133,
+  138,
+  145,
+  147,
+  153,
+  159,
+  164,
+  168,
+  174,
+  178,
+  183,
+  187,
+  189,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "3GC,000",
+   "300,000",
+   "ocr"
+  ],
+  [
+   39,
+   "Hie Iraqi",
+   "The Iraqi",
+   "ocr"
+  ],
+  [
+   62,
+   "eroding'",
+   "eroding",
+   "ocr"
+  ],
+  [
+   65,
+   " [see item 69 j]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "but. we",
+   "but we",
+   "ocr"
+  ],
+  [
+   90,
+   "not . only",
+   "not only",
+   "ocr"
+  ],
+  [
+   102,
+   "the' order",
+   "the order",
+   "ocr"
+  ],
+  [
+   108,
+   "influence.carry",
+   "influence carry",
+   "ocr"
+  ],
+  [
+   109,
+   "Hie spread",
+   "The spread",
+   "ocr"
+  ],
+  [
+   116,
+   "Because.,",
+   "Because,",
+   "ocr"
+  ],
+  [
+   117,
+   "1 gave",
+   "I gave",
+   "ocr"
+  ],
+  [
+   117,
+   " [see 28th meeting]",
+   "",
+   "label"
+  ],
+  [
+   172,
+   "the .breakdown",
+   "the breakdown",
+   "ocr"
+  ],
+  [
+   190,
+   "Security ,Council",
+   "Security Council",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b19f64d0ef89a701ca36de5eb28279e2e1969420",
+ "layout": "lines",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 67
+  },
+  "words_in": 4745,
+  "words_out": 4737,
+  "retention": 0.9983,
+  "n_paragraphs": 47,
+  "paragraph_words": [
+   109,
+   78,
+   101,
+   114,
+   60,
+   122,
+   87,
+   100,
+   82,
+   61,
+   96,
+   124,
+   72,
+   118,
+   96,
+   60,
+   118,
+   190,
+   162,
+   96,
+   77,
+   79,
+   68,
+   75,
+   102,
+   106,
+   81,
+   96,
+   118,
+   136,
+   72,
+   60,
+   98,
+   106,
+   179,
+   68,
+   118,
+   112,
+   81,
+   70,
+   133,
+   85,
+   125,
+   72,
+   80,
+   158,
+   136
+  ],
+  "warnings": []
+ }
+}

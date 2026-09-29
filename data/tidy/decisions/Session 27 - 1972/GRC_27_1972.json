@@ -1,0 +1,96 @@
+{
+ "id": "GRC_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  13,
+  16,
+  18,
+  24,
+  28,
+  30,
+  34,
+  35,
+  39,
+  40,
+  43,
+  45,
+  49,
+  53
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   33,
+   "solution,",
+   "solution.",
+   "ocr"
+  ],
+  [
+   40,
+   "twenty- fifth",
+   "twenty-fifth",
+   "spacing"
+  ],
+  [
+   42,
+   "world,",
+   "world.",
+   "ocr"
+  ],
+  [
+   51,
+   "peace,",
+   "peace.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fec04bf1da1500e1de458d212703266ebe59f257",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2166,
+  "words_out": 2157,
+  "retention": 0.9958,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   134,
+   116,
+   151,
+   111,
+   118,
+   83,
+   103,
+   154,
+   80,
+   146,
+   70,
+   137,
+   78,
+   149,
+   103,
+   124,
+   155,
+   145
+  ],
+  "warnings": []
+ }
+}

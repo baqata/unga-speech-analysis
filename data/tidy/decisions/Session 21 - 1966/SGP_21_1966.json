@@ -1,0 +1,102 @@
+{
+ "id": "SGP_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  18,
+  23,
+  27,
+  32,
+  35,
+  39,
+  49,
+  60,
+  69,
+  73,
+  76,
+  83,
+  87,
+  89,
+  93,
+  98,
+  102
+ ],
+ "cer": [
+  0,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   34,
+   "Southest",
+   "Southeast",
+   "ocr"
+  ],
+  [
+   41,
+   "It Is",
+   "It is",
+   "ocr"
+  ],
+  [
+   42,
+   "theUnited",
+   "the United",
+   "merged_word"
+  ],
+  [
+   52,
+   "at Its",
+   "at its",
+   "ocr"
+  ],
+  [
+   103,
+   "will he improved",
+   "will be improved",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "afd1e9e15273421a0106af6a11a769ee31067aff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2309,
+  "words_out": 2287,
+  "retention": 0.9905,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   81,
+   53,
+   75,
+   115,
+   127,
+   102,
+   121,
+   85,
+   98,
+   208,
+   256,
+   158,
+   79,
+   61,
+   174,
+   93,
+   77,
+   76,
+   110,
+   71,
+   67
+  ],
+  "warnings": []
+ }
+}

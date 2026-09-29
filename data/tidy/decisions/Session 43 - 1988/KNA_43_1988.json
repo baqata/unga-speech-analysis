@@ -1,0 +1,154 @@
+{
+ "id": "KNA_43_1988",
+ "drop": [
+  [
+   50,
+   50,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  5,
+  6,
+  8,
+  16,
+  23,
+  28,
+  31,
+  38,
+  42,
+  47,
+  51,
+  53,
+  57,
+  64,
+  69,
+  73,
+  78,
+  85,
+  88,
+  93,
+  95,
+  102,
+  104,
+  108,
+  112,
+  120
+ ],
+ "cer": [
+  0,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "to you.",
+   "to you,",
+   "ocr"
+  ],
+  [
+   7,
+   "peoples·,",
+   "peoples,",
+   "encoding"
+  ],
+  [
+   39,
+   "POLIS AR 10",
+   "POLISARIO",
+   "ocr"
+  ],
+  [
+   43,
+   "United Nations Flan",
+   "United Nations Plan",
+   "ocr"
+  ],
+  [
+   46,
+   "member ship",
+   "membership",
+   "split_word"
+  ],
+  [
+   48,
+   "the tight of",
+   "the right of",
+   "ocr"
+  ],
+  [
+   75,
+   "sanctions ate having",
+   "sanctions are having",
+   "ocr"
+  ],
+  [
+   98,
+   "Snail islands",
+   "Small islands",
+   "ocr"
+  ],
+  [
+   116,
+   "waste -·",
+   "waste -",
+   "encoding"
+  ],
+  [
+   123,
+   "a was: on",
+   "a war on",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eb77fc981f4d31fde79cfcb61cc6b406b7f5e31e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3025,
+  "words_out": 3021,
+  "retention": 0.9987,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   99,
+   42,
+   49,
+   108,
+   138,
+   177,
+   146,
+   61,
+   133,
+   102,
+   140,
+   88,
+   73,
+   89,
+   135,
+   107,
+   70,
+   144,
+   149,
+   104,
+   90,
+   66,
+   160,
+   61,
+   91,
+   81,
+   161,
+   157
+  ],
+  "warnings": []
+ }
+}

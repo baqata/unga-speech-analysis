@@ -1,0 +1,307 @@
+{
+ "id": "PRY_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   169,
+   169,
+   "noise"
+  ],
+  [
+   170,
+   170,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  10,
+  16,
+  26,
+  37,
+  45,
+  56,
+  63,
+  68,
+  76,
+  79,
+  85,
+  97,
+  109,
+  121,
+  125,
+  132,
+  140,
+  147,
+  152,
+  157,
+  165,
+  168
+ ],
+ "cer": [
+  3,
+  168
+ ],
+ "fix": [
+  [
+   85,
+   "multinaturalism",
+   "multilateralism",
+   "asr_term"
+  ],
+  [
+   3,
+   "Capino",
+   "Scappini",
+   "asr_name"
+  ],
+  [
+   62,
+   "el-Mandab",
+   "el-Mandeb",
+   "asr_name"
+  ],
+  [
+   65,
+   "homos",
+   "Hormuz",
+   "asr_name"
+  ],
+  [
+   4,
+   "that i wholeheartedly",
+   "that I wholeheartedly",
+   "asr_term"
+  ],
+  [
+   4,
+   "why i have",
+   "why I have",
+   "asr_term"
+  ],
+  [
+   65,
+   "but i wish",
+   "but I wish",
+   "asr_term"
+  ],
+  [
+   65,
+   "worse i'm",
+   "worse I'm",
+   "asr_term"
+  ],
+  [
+   65,
+   "the indo-pacific",
+   "the Indo-Pacific",
+   "asr_name"
+  ],
+  [
+   65,
+   "the taiwan strait",
+   "the Taiwan Strait",
+   "asr_name"
+  ],
+  [
+   68,
+   "and i want",
+   "and I want",
+   "asr_term"
+  ],
+  [
+   68,
+   "here paraguay is",
+   "here Paraguay is",
+   "asr_name"
+  ],
+  [
+   68,
+   "issue paraguay",
+   "issue Paraguay",
+   "asr_name"
+  ],
+  [
+   68,
+   "and i say",
+   "and I say",
+   "asr_term"
+  ],
+  [
+   68,
+   "with taiwan not",
+   "with Taiwan not",
+   "asr_name"
+  ],
+  [
+   68,
+   "with taiwan because",
+   "with Taiwan because",
+   "asr_name"
+  ],
+  [
+   78,
+   "but i fear",
+   "but I fear",
+   "asr_term"
+  ],
+  [
+   78,
+   "so i ask",
+   "so I ask",
+   "asr_term"
+  ],
+  [
+   78,
+   "a united nations for all",
+   "a United Nations for all",
+   "asr_name"
+  ],
+  [
+   118,
+   "As his holiness,",
+   "As His Holiness,",
+   "asr_name"
+  ],
+  [
+   135,
+   "its democracy",
+   "its geography",
+   "interp"
+  ],
+  [
+   167,
+   "a united nation that",
+   "a United Nations that",
+   "interp"
+  ],
+  [
+   90,
+   "Manuel Gondrao.",
+   "Manuel Gondra.",
+   "asr_name"
+  ],
+  [
+   4,
+   "all. it's",
+   "all. It's",
+   "asr_term"
+  ],
+  [
+   14,
+   "disappears. human",
+   "disappears. Human",
+   "asr_term"
+  ],
+  [
+   19,
+   "Caracas. despite",
+   "Caracas despite",
+   "asr_term"
+  ],
+  [
+   49,
+   "rights. to",
+   "rights. To",
+   "asr_term"
+  ],
+  [
+   68,
+   "21st. the",
+   "21st. The",
+   "asr_term"
+  ],
+  [
+   78,
+   "help. but",
+   "help. But",
+   "asr_term"
+  ],
+  [
+   82,
+   "changed. and",
+   "changed. And",
+   "asr_term"
+  ],
+  [
+   93,
+   "decision. the",
+   "decision. The",
+   "asr_term"
+  ],
+  [
+   96,
+   "1945. only",
+   "1945. Only",
+   "asr_term"
+  ],
+  [
+   124,
+   "speeches. that",
+   "speeches. That",
+   "asr_term"
+  ],
+  [
+   151,
+   "children. and",
+   "children. And",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Bilingual review (r02), speaker's words or evidence: unit 113 'As his holiness,' -> 'As His Holiness,' (title of the Pope); unit 130 'its democracy' -> 'its geography' (un pueblo que no eligió su geografía); unit 162 'a united nation that' -> 'a United Nations that' (unas Naciones Unidas que cumplen para todos) (unit numbers before gap recovery). Gap recovery restored 852-877 s ('The United Nations remains indispensable' to the Manuel Gondra quote), which Whisper had skipped; it matches the Spanish channel. It also added (v4) two lone 'Thank you.' units, before the speech and after the speaker's closing 'Thank you very much' (no thanks in the Spanish at either point): noise. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'all. it's' -> 'all. It's'; unit 14 'disappears. human' -> 'disappears. Human'; unit 19 'Caracas. despite' -> 'Caracas despite'; unit 49 'rights. to' -> 'rights. To'; unit 68 '21st. the' -> '21st. The'; unit 78 'help. but' -> 'help. But'; unit 82 'changed. and' -> 'changed. And'; unit 93 'decision. the' -> 'decision. The'; unit 96 '1945. only' -> '1945. Only'; unit 124 'speeches. that' -> 'speeches. That'; unit 151 'children. and' -> 'children. And'",
+ "unitizer_version": 1,
+ "sha1": "831e573b419ee76340d935e569c1fbc115539cc0",
+ "layout": "single",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 3261,
+  "words_out": 3204,
+  "retention": 0.9825,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   17,
+   183,
+   149,
+   122,
+   192,
+   87,
+   183,
+   118,
+   136,
+   212,
+   175,
+   82,
+   270,
+   141,
+   202,
+   156,
+   85,
+   158,
+   97,
+   70,
+   176,
+   114,
+   75,
+   4
+  ],
+  "warnings": [
+   "34 fixes"
+  ]
+ }
+}

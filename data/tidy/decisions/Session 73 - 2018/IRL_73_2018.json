@@ -1,0 +1,126 @@
+{
+ "id": "IRL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  19,
+  22,
+  26,
+  33,
+  37,
+  46,
+  56,
+  59,
+  64,
+  69,
+  74,
+  80,
+  86,
+  95,
+  102,
+  105,
+  111,
+  114,
+  117,
+  121,
+  123,
+  125,
+  130,
+  133,
+  138,
+  140,
+  151
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "Africa,whose",
+   "Africa, whose",
+   "spacing"
+  ],
+  [
+   26,
+   "outward- looking",
+   "outward-looking",
+   "hyphen"
+  ],
+  [
+   34,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   60,
+   "gender- based",
+   "gender-based",
+   "hyphen"
+  ],
+  [
+   64,
+   "arms- control",
+   "arms-control",
+   "hyphen"
+  ],
+  [
+   127,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4af730714e1f2a5f170fb01ce8b01291e386186e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 3625,
+  "words_out": 3619,
+  "retention": 0.9983,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   100,
+   141,
+   107,
+   116,
+   89,
+   146,
+   220,
+   127,
+   160,
+   205,
+   70,
+   103,
+   119,
+   113,
+   141,
+   133,
+   144,
+   150,
+   89,
+   128,
+   91,
+   70,
+   76,
+   72,
+   74,
+   129,
+   98,
+   107,
+   86,
+   174,
+   41
+  ],
+  "warnings": []
+ }
+}

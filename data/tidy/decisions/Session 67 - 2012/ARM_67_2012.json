@@ -1,0 +1,72 @@
+{
+ "id": "ARM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  22,
+  32,
+  42,
+  53,
+  64,
+  81,
+  93,
+  108,
+  126,
+  140,
+  155,
+  164,
+  178,
+  198
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ],
+  [
+   83,
+   "f lies",
+   "flies",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c8731291c25bbfb18d84dbc9ede74b870884b7d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1628,
+  "words_out": 1623,
+  "retention": 0.9969,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   41,
+   122,
+   76,
+   85,
+   81,
+   89,
+   136,
+   98,
+   135,
+   138,
+   107,
+   131,
+   74,
+   118,
+   161,
+   31
+  ],
+  "warnings": []
+ }
+}

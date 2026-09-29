@@ -1,0 +1,104 @@
+{
+ "id": "MYS_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  15,
+  17,
+  23,
+  25,
+  29,
+  35,
+  40,
+  47,
+  51,
+  53,
+  56,
+  59,
+  62,
+  68,
+  70,
+  71,
+  74,
+  77,
+  81,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "allegation.that",
+   "allegation that",
+   "spacing"
+  ],
+  [
+   26,
+   "to do . nothing",
+   "to do nothing",
+   "ocr"
+  ],
+  [
+   45,
+   "the receiver * The challenge",
+   "the receiver. The challenge",
+   "ocr"
+  ],
+  [
+   52,
+   "non-use of force.,",
+   "non-use of force,",
+   "ocr"
+  ],
+  [
+   79,
+   "could be .more",
+   "could be more",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "daf458740d660fa624090c599fe4cbdfce752368",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2440,
+  "words_out": 2439,
+  "retention": 0.9996,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   104,
+   90,
+   148,
+   80,
+   149,
+   80,
+   75,
+   125,
+   140,
+   137,
+   135,
+   78,
+   82,
+   92,
+   107,
+   131,
+   54,
+   60,
+   126,
+   73,
+   129,
+   77,
+   167
+  ],
+  "warnings": []
+ }
+}

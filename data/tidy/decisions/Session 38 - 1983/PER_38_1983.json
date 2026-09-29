@@ -1,0 +1,120 @@
+{
+ "id": "PER_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  18,
+  22,
+  26,
+  31,
+  36,
+  39,
+  42,
+  47,
+  50,
+  51,
+  56,
+  61,
+  64,
+  69,
+  74,
+  76,
+  80,
+  87,
+  93,
+  98,
+  103,
+  106,
+  109,
+  113,
+  121,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "thirty- fifth",
+   "thirty-fifth",
+   "hyphen"
+  ],
+  [
+   21,
+   "P6rez Esquivel",
+   "Pérez Esquivel",
+   "ocr"
+  ],
+  [
+   27,
+   "has Been",
+   "has been",
+   "ocr"
+  ],
+  [
+   78,
+   "There-, fore,",
+   "Therefore,",
+   "ocr"
+  ],
+  [
+   91,
+   "capital- exporting",
+   "capital-exporting",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a45a286f4ed028ecd68605ab323b23ab070df5e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3957,
+  "words_out": 3954,
+  "retention": 0.9992,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   135,
+   183,
+   171,
+   147,
+   108,
+   109,
+   181,
+   190,
+   78,
+   84,
+   222,
+   76,
+   74,
+   150,
+   128,
+   110,
+   142,
+   143,
+   85,
+   86,
+   159,
+   141,
+   110,
+   149,
+   122,
+   123,
+   143,
+   218,
+   79,
+   108
+  ],
+  "warnings": []
+ }
+}

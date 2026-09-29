@@ -1,0 +1,114 @@
+{
+ "id": "IRQ_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  12,
+  17,
+  20,
+  22,
+  26,
+  31,
+  33,
+  34,
+  39,
+  40,
+  46,
+  51,
+  57,
+  62,
+  66,
+  68,
+  74,
+  78,
+  79,
+  81,
+  82,
+  83,
+  84,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "He can say",
+   "We can say",
+   "ocr"
+  ],
+  [
+   7,
+   "end of'",
+   "end of",
+   "ocr"
+  ],
+  [
+   7,
+   "Harsaw",
+   "Warsaw",
+   "ocr"
+  ],
+  [
+   49,
+   "Somalia/",
+   "Somalia,",
+   "ocr"
+  ],
+  [
+   64,
+   "\"civilians\"/",
+   "\"civilians\",",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6796f39d648687cc18d7d7e8a8195146df76163",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3580,
+  "words_out": 3580,
+  "retention": 1.0,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   65,
+   147,
+   107,
+   91,
+   178,
+   112,
+   81,
+   175,
+   188,
+   132,
+   81,
+   208,
+   73,
+   185,
+   223,
+   177,
+   168,
+   203,
+   115,
+   128,
+   120,
+   79,
+   65,
+   92,
+   93,
+   93,
+   119,
+   82
+  ],
+  "warnings": []
+ }
+}

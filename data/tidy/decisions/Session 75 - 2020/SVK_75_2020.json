@@ -1,0 +1,59 @@
+{
+ "id": "SVK_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  16,
+  23,
+  31,
+  36,
+  42,
+  46,
+  53,
+  57
+ ],
+ "cer": [
+  0,
+  57
+ ],
+ "fix": [
+  [
+   26,
+   "seethe common",
+   "see the common",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db56f7cb755597412e0972ed36936e9cd8a94d6d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 960,
+  "words_out": 961,
+  "retention": 1.001,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   13,
+   94,
+   55,
+   82,
+   99,
+   119,
+   103,
+   106,
+   86,
+   99,
+   103,
+   2
+  ],
+  "warnings": []
+ }
+}

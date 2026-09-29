@@ -1,0 +1,45 @@
+{
+ "id": "QAT_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  22,
+  42,
+  58,
+  67,
+  80,
+  91,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2dcd74c8a5b439efa74087ffaf0c86e501d4cad5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 955,
+  "words_out": 953,
+  "retention": 0.9979,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   86,
+   84,
+   181,
+   108,
+   70,
+   100,
+   86,
+   82,
+   156
+  ],
+  "warnings": []
+ }
+}

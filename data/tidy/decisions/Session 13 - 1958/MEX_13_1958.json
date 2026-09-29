@@ -1,0 +1,327 @@
+{
+ "id": "MEX_13_1958",
+ "drop": [
+  [
+   152,
+   152,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  21,
+  28,
+  32,
+  39,
+  43,
+  48,
+  51,
+  55,
+  60,
+  62,
+  64,
+  66,
+  69,
+  73,
+  80,
+  81,
+  85,
+  91,
+  93,
+  95,
+  98,
+  102,
+  107,
+  111,
+  115,
+  117,
+  126,
+  133,
+  140,
+  146,
+  153,
+  158,
+  162,
+  167,
+  171
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "Increasingly",
+   "increasingly",
+   "ocr"
+  ],
+  [
+   55,
+   "to, refer",
+   "to refer",
+   "ocr"
+  ],
+  [
+   57,
+   "made-by",
+   "made by",
+   "ocr"
+  ],
+  [
+   58,
+   "great.",
+   "great",
+   "ocr"
+  ],
+  [
+   64,
+   "Towers",
+   "Powers",
+   "ocr"
+  ],
+  [
+   64,
+   "]. for",
+   "] for",
+   "ocr"
+  ],
+  [
+   66,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   73,
+   "]. we",
+   "], we",
+   "ocr"
+  ],
+  [
+   73,
+   " [A/3844/Add.l. p. 2]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   " [A/3838. para. 55 (a)]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "persons, The",
+   "persons. The",
+   "ocr"
+  ],
+  [
+   78,
+   "Ibid. chap.",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "VII. para. 54.",
+   "",
+   "label"
+  ],
+  [
+   92,
+   "area, Our",
+   "area. Our",
+   "ocr"
+  ],
+  [
+   93,
+   " [A/3934/ Rev. 1]",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "Come",
+   "come",
+   "ocr"
+  ],
+  [
+   106,
+   "variable' content",
+   "variable content",
+   "ocr"
+  ],
+  [
+   116,
+   "States, Naturally",
+   "States. Naturally",
+   "ocr"
+  ],
+  [
+   117,
+   "If, we",
+   "If we",
+   "ocr"
+  ],
+  [
+   118,
+   "in his forum",
+   "in this forum",
+   "ocr"
+  ],
+  [
+   120,
+   "Incalculable",
+   "incalculable",
+   "ocr"
+  ],
+  [
+   121,
+   "Relegation \"of",
+   "delegation of",
+   "ocr"
+  ],
+  [
+   121,
+   "be Said",
+   "be said",
+   "ocr"
+  ],
+  [
+   121,
+   "would not be\" legal",
+   "would not be legal",
+   "ocr"
+  ],
+  [
+   127,
+   "maybe summarized",
+   "may be summarized",
+   "spacing"
+  ],
+  [
+   129,
+   "concluding. agreements",
+   "concluding agreements",
+   "ocr"
+  ],
+  [
+   129,
+   "Stale",
+   "State",
+   "ocr"
+  ],
+  [
+   130,
+   "settle, Consequently",
+   "settle. Consequently",
+   "ocr"
+  ],
+  [
+   134,
+   "Utile",
+   "little",
+   "ocr"
+  ],
+  [
+   139,
+   "copper,",
+   "copper.",
+   "ocr"
+  ],
+  [
+   143,
+   "eliminating, excessive",
+   "eliminating excessive",
+   "ocr"
+  ],
+  [
+   145,
+   "effectiveness, Similarly",
+   "effectiveness. Similarly",
+   "ocr"
+  ],
+  [
+   145,
+   "the-situation",
+   "the situation",
+   "ocr"
+  ],
+  [
+   148,
+   "be. justifiable",
+   "be justifiable",
+   "ocr"
+  ],
+  [
+   153,
+   "oh the third",
+   "on the third",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 152 is a stray paragraph number ('108.') the tool missed. Unit 28 has an unreadable passage ('we are u 3 that') left as printed.",
+ "unitizer_version": 1,
+ "sha1": "11dd0ce62c16bcf7890a11a8fbe60b226d198831",
+ "layout": "lines",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 56
+  },
+  "words_in": 6278,
+  "words_out": 6259,
+  "retention": 0.997,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   81,
+   179,
+   250,
+   176,
+   111,
+   184,
+   86,
+   116,
+   113,
+   201,
+   177,
+   139,
+   151,
+   225,
+   156,
+   159,
+   205,
+   80,
+   149,
+   204,
+   135,
+   146,
+   146,
+   214,
+   218,
+   120,
+   130,
+   121,
+   269,
+   278,
+   258,
+   170,
+   186,
+   145,
+   173,
+   181,
+   104,
+   123
+  ],
+  "warnings": [
+   "35 fixes"
+  ]
+ }
+}

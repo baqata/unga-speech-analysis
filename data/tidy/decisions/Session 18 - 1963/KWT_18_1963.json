@@ -1,0 +1,91 @@
+{
+ "id": "KWT_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  17,
+  21,
+  26,
+  33,
+  40,
+  45,
+  50,
+  55,
+  60,
+  64,
+  70,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   ", I want",
+   ". I want",
+   "ocr"
+  ],
+  [
+   5,
+   ", Finally",
+   ". Finally",
+   "ocr"
+  ],
+  [
+   7,
+   "well- balanced",
+   "well-balanced",
+   "spacing"
+  ],
+  [
+   23,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   62,
+   "countries,",
+   "countries.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eecd2a4f37cde807402dd3681e296cc0f22f0834",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 19
+  },
+  "words_in": 2214,
+  "words_out": 2207,
+  "retention": 0.9968,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   222,
+   188,
+   197,
+   118,
+   141,
+   147,
+   173,
+   190,
+   122,
+   133,
+   110,
+   112,
+   128,
+   70,
+   156
+  ],
+  "warnings": []
+ }
+}

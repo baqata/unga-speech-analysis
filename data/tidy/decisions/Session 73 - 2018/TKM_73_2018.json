@@ -1,0 +1,73 @@
+{
+ "id": "TKM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  20,
+  25,
+  33,
+  38,
+  42
+ ],
+ "cer": [
+  0,
+  42
+ ],
+ "fix": [
+  [
+   14,
+   "full- fledged",
+   "full-fledged",
+   "hyphen"
+  ],
+  [
+   17,
+   "Afghanistan- Pakistan",
+   "Afghanistan-Pakistan",
+   "hyphen"
+  ],
+  [
+   24,
+   "high- quality",
+   "high-quality",
+   "hyphen"
+  ],
+  [
+   43,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb72f561011e01033d559e1a107138e430f0fedf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1227,
+  "words_out": 1223,
+  "retention": 0.9967,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   66,
+   108,
+   144,
+   189,
+   135,
+   230,
+   155,
+   127,
+   69
+  ],
+  "warnings": []
+ }
+}

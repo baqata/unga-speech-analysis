@@ -1,0 +1,108 @@
+{
+ "id": "TTO_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  11,
+  14,
+  18,
+  23,
+  27,
+  30,
+  32,
+  40,
+  45,
+  48,
+  53,
+  57,
+  60,
+  63,
+  68,
+  75,
+  79,
+  82,
+  92,
+  96,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "If has now",
+   "It has now",
+   "ocr"
+  ],
+  [
+   45,
+   "Inter- American",
+   "Inter-American",
+   "hyphen"
+  ],
+  [
+   65,
+   "con-sequences",
+   "consequences",
+   "hyphen"
+  ],
+  [
+   80,
+   "United .Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   97,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba320fad96ebe9e0783784d455b19404a24e9034",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3311,
+  "words_out": 3306,
+  "retention": 0.9985,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   152,
+   190,
+   66,
+   88,
+   107,
+   171,
+   138,
+   101,
+   100,
+   231,
+   170,
+   92,
+   160,
+   72,
+   103,
+   73,
+   203,
+   171,
+   123,
+   117,
+   273,
+   124,
+   117,
+   164
+  ],
+  "warnings": []
+ }
+}

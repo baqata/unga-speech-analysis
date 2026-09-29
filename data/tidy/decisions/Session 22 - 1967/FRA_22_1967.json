@@ -1,0 +1,142 @@
+{
+ "id": "FRA_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  21,
+  27,
+  34,
+  37,
+  43,
+  46,
+  50,
+  59,
+  62,
+  65,
+  70,
+  77,
+  83,
+  87,
+  90,
+  93,
+  97,
+  102,
+  106,
+  110,
+  120,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "i.e,,",
+   "i.e.,",
+   "ocr"
+  ],
+  [
+   36,
+   "Thai is true",
+   "That is true",
+   "ocr"
+  ],
+  [
+   39,
+   "or ion suitable",
+   "or unsuitable",
+   "ocr"
+  ],
+  [
+   40,
+   "world markets, That had",
+   "world markets. That had",
+   "ocr"
+  ],
+  [
+   69,
+   " [resolution 2252 (ES-V)]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   " [resolutions 2253 (ES-V) and 2254 (ES-V)]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "decisive Initiative",
+   "decisive initiative",
+   "ocr"
+  ],
+  [
+   105,
+   "prospect Is a",
+   "prospect is a",
+   "ocr"
+  ],
+  [
+   116,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   122,
+   "world today, I have also",
+   "world today. I have also",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a05178546e6a3921641607a11295cf9cd67790bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3473,
+  "words_out": 3431,
+  "retention": 0.9879,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   127,
+   160,
+   177,
+   182,
+   124,
+   166,
+   52,
+   211,
+   82,
+   100,
+   192,
+   103,
+   75,
+   163,
+   198,
+   151,
+   85,
+   89,
+   82,
+   70,
+   108,
+   126,
+   86,
+   237,
+   87,
+   198
+  ],
+  "warnings": []
+ }
+}

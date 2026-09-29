@@ -1,0 +1,67 @@
+{
+ "id": "ECU_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  29,
+  43,
+  59,
+  75,
+  90,
+  109,
+  128,
+  148,
+  165,
+  186,
+  200,
+  209,
+  226,
+  238,
+  253,
+  262,
+  280
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d76d796025e26dd4069dc8a313d674ffaee3c29e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 285,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2315,
+  "words_out": 2311,
+  "retention": 0.9983,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   75,
+   147,
+   125,
+   135,
+   137,
+   110,
+   148,
+   151,
+   157,
+   143,
+   180,
+   110,
+   71,
+   140,
+   99,
+   117,
+   81,
+   148,
+   37
+  ],
+  "warnings": []
+ }
+}

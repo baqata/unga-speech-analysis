@@ -1,0 +1,239 @@
+{
+ "id": "POL_31_1976",
+ "drop": [
+  [
+   38,
+   38,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  14,
+  19,
+  24,
+  29,
+  37,
+  43,
+  47,
+  52,
+  57,
+  61,
+  65,
+  73,
+  78,
+  84,
+  87,
+  88,
+  91,
+  96,
+  99,
+  103,
+  105,
+  111,
+  114,
+  121,
+  123
+ ],
+ "cer": [
+  0,
+  123
+ ],
+ "fix": [
+  [
+   6,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   7,
+   "the aims race",
+   "the arms race",
+   "ocr"
+  ],
+  [
+   12,
+   "multi-lateral",
+   "multilateral",
+   "hyphen"
+  ],
+  [
+   24,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   28,
+   "This, initiative",
+   "This initiative",
+   "ocr"
+  ],
+  [
+   29,
+   " [CMEA]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   ". .We are",
+   ". We are",
+   "ocr"
+  ],
+  [
+   43,
+   " [See AI31I197, annex I, para. 25]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "who ate bent",
+   "who are bent",
+   "ocr"
+  ],
+  [
+   49,
+   "of Subversive propaganda",
+   "of subversive propaganda",
+   "ocr"
+  ],
+  [
+   52,
+   "pose A direct",
+   "pose a direct",
+   "ocr"
+  ],
+  [
+   54,
+   "of tho reason",
+   "of the region",
+   "ocr"
+  ],
+  [
+   59,
+   "ration-ale",
+   "rationale",
+   "hyphen"
+  ],
+  [
+   66,
+   "Nations, Li numerous",
+   "Nations, in numerous",
+   "ocr"
+  ],
+  [
+   71,
+   "or. even",
+   "or even",
+   "ocr"
+  ],
+  [
+   73,
+   " [see A/31/27, annex I]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "nuclear expositions",
+   "nuclear explosions",
+   "ocr"
+  ],
+  [
+   78,
+   " [see AI31/27]",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "Disarmament iii Geneva",
+   "Disarmament in Geneva",
+   "ocr"
+  ],
+  [
+   87,
+   "5 Sec Official Records of the General Assembly, Twenty-sixth ",
+   "",
+   "label"
+  ],
+  [
+   87,
+   " Session, Annexes, agenda item 97, document A/8491.",
+   "",
+   "label"
+  ],
+  [
+   97,
+   " /resolution 3508 (XXX)]",
+   "",
+   "label"
+  ],
+  [
+   109,
+   " [A/31/111]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 87 holds the statement's paragraph 65, displaced by the page layout; it belongs before unit 69, whose opening fragment completes its last sentence. Its interleaved footnote 5 was removed with label fixes, and footnote 3 (unit 38) was dropped.",
+ "unitizer_version": 1,
+ "sha1": "2535d390872e18feba3452d5d034ae0637d8fdc1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 3433,
+  "words_out": 3379,
+  "retention": 0.9843,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   88,
+   66,
+   166,
+   94,
+   147,
+   138,
+   138,
+   190,
+   126,
+   159,
+   145,
+   141,
+   122,
+   124,
+   184,
+   133,
+   159,
+   69,
+   20,
+   105,
+   140,
+   94,
+   74,
+   66,
+   158,
+   63,
+   132,
+   69,
+   69
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

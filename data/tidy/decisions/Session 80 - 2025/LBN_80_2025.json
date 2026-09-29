@@ -1,0 +1,89 @@
+{
+ "id": "LBN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   103,
+   104,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  14,
+  18,
+  29,
+  37,
+  43,
+  48,
+  53,
+  59,
+  68,
+  76,
+  81,
+  84,
+  87,
+  89,
+  95,
+  102
+ ],
+ "cer": [
+  102
+ ],
+ "fix": [
+  [
+   7,
+   "Charles Malick",
+   "Charles Malik",
+   "asr_name"
+  ],
+  [
+   57,
+   "Ambassador Tambarak",
+   "Ambassador Tom Barrack",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "274bd251ea230914288a57edaa8d43803fcd571e",
+ "layout": "single",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2459,
+  "words_out": 2404,
+  "retention": 0.9776,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   182,
+   177,
+   104,
+   169,
+   175,
+   111,
+   106,
+   116,
+   166,
+   155,
+   208,
+   141,
+   104,
+   119,
+   110,
+   141,
+   117,
+   3
+  ],
+  "warnings": []
+ }
+}

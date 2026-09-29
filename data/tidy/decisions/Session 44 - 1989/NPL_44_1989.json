@@ -1,0 +1,165 @@
+{
+ "id": "NPL_44_1989",
+ "drop": [
+  [
+   128,
+   128,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  7,
+  10,
+  15,
+  17,
+  22,
+  27,
+  33,
+  37,
+  40,
+  44,
+  47,
+  50,
+  54,
+  57,
+  60,
+  65,
+  68,
+  70,
+  74,
+  77,
+  79,
+  80,
+  83,
+  86,
+  89,
+  91,
+  94,
+  104,
+  109,
+  114,
+  117,
+  119,
+  122
+ ],
+ "cer": [
+  0,
+  1,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   3,
+   "com try",
+   "country",
+   "split_word"
+  ],
+  [
+   8,
+   "Mt. Javier",
+   "Mr. Javier",
+   "ocr"
+  ],
+  [
+   16,
+   "a\\d other",
+   "and other",
+   "ocr"
+  ],
+  [
+   56,
+   "Paraguay-",
+   "Paraguay.",
+   "ocr"
+  ],
+  [
+   79,
+   "Israel, lb this",
+   "Israel. To this",
+   "ocr"
+  ],
+  [
+   118,
+   "(UNIŒP)",
+   "(UNICEF)",
+   "ocr"
+  ],
+  [
+   123,
+   "relations/ which",
+   "relations, which",
+   "ocr"
+  ],
+  [
+   127,
+   "44-yeac-old",
+   "44-year-old",
+   "ocr"
+  ],
+  [
+   102,
+   "knew-hew",
+   "know-how",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "466544babec5f40be7bb613e58b7700be54566f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 4023,
+  "words_out": 3980,
+  "retention": 0.9893,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   45,
+   97,
+   50,
+   78,
+   118,
+   80,
+   154,
+   133,
+   192,
+   135,
+   77,
+   251,
+   85,
+   108,
+   123,
+   133,
+   75,
+   109,
+   62,
+   72,
+   123,
+   101,
+   80,
+   82,
+   66,
+   82,
+   88,
+   61,
+   124,
+   289,
+   110,
+   119,
+   78,
+   52,
+   115,
+   233
+  ],
+  "warnings": []
+ }
+}

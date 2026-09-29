@@ -1,0 +1,108 @@
+{
+ "id": "BGR_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  12,
+  15,
+  23,
+  29,
+  33,
+  36,
+  42,
+  44,
+  49,
+  57,
+  66,
+  71,
+  74,
+  77,
+  81,
+  85,
+  91,
+  98,
+  100,
+  107,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "Zhivkovt",
+   "Zhivkov",
+   "ocr"
+  ],
+  [
+   26,
+   "overoome",
+   "overcome",
+   "ocr"
+  ],
+  [
+   37,
+   "tesing",
+   "testing",
+   "ocr"
+  ],
+  [
+   66,
+   "ny country",
+   "my country",
+   "ocr"
+  ],
+  [
+   80,
+   "fpr",
+   "for",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7dd2777c8eec8c49764e769a21c97d99e2223c29",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3106,
+  "words_out": 3106,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   52,
+   95,
+   58,
+   111,
+   93,
+   159,
+   202,
+   108,
+   83,
+   150,
+   70,
+   100,
+   198,
+   162,
+   65,
+   119,
+   90,
+   102,
+   152,
+   180,
+   173,
+   54,
+   169,
+   100,
+   261
+  ],
+  "warnings": []
+ }
+}

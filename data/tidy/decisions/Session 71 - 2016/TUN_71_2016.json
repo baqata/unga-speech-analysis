@@ -1,0 +1,64 @@
+{
+ "id": "TUN_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  13,
+  18,
+  23,
+  26,
+  29,
+  36,
+  38,
+  44,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "unprecented",
+   "unprecedented",
+   "ocr"
+  ],
+  [
+   25,
+   "osbtacles",
+   "obstacles",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5fa787fbcf606870bfcfe9f516c844a1b092149a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1358,
+  "words_out": 1358,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   111,
+   94,
+   109,
+   125,
+   93,
+   70,
+   76,
+   156,
+   61,
+   137,
+   173,
+   153
+  ],
+  "warnings": []
+ }
+}

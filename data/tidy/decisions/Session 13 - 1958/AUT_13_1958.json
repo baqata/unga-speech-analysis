@@ -1,0 +1,98 @@
+{
+ "id": "AUT_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  10,
+  15,
+  19,
+  25,
+  31,
+  35,
+  42
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "cur",
+   "our",
+   "ocr"
+  ],
+  [
+   14,
+   "-other",
+   "other",
+   "ocr"
+  ],
+  [
+   28,
+   "sent",
+   "seat",
+   "ocr"
+  ],
+  [
+   34,
+   "requirements,",
+   "requirements.",
+   "ocr"
+  ],
+  [
+   36,
+   "Assembly, The",
+   "Assembly. The",
+   "ocr"
+  ],
+  [
+   37,
+   "realty",
+   "really",
+   "ocr"
+  ],
+  [
+   39,
+   "at ulterior",
+   "of ulterior",
+   "ocr"
+  ],
+  [
+   4,
+   "[resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c74099f5681d4b1f01713775088360c6c223c067",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 10
+  },
+  "words_in": 1361,
+  "words_out": 1357,
+  "retention": 0.9971,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   60,
+   141,
+   175,
+   150,
+   95,
+   218,
+   142,
+   110,
+   212,
+   54
+  ],
+  "warnings": []
+ }
+}

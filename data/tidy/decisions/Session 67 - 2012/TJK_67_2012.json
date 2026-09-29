@@ -1,0 +1,55 @@
+{
+ "id": "TJK_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  36,
+  52,
+  67,
+  76,
+  88,
+  101,
+  116,
+  127,
+  150,
+  178
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 166 continues mid-line with 'International Year of Water Cooperation, initiated by Tajikistan, which coincides...'; the opening of that sentence is missing from the source and the fragment stays in the preceding paragraph.",
+ "unitizer_version": 1,
+ "sha1": "d1e7bcc367a983b80900c1cb957d391e07972d84",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1444,
+  "words_out": 1444,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   84,
+   94,
+   97,
+   123,
+   113,
+   69,
+   93,
+   100,
+   114,
+   102,
+   181,
+   222,
+   52
+  ],
+  "warnings": []
+ }
+}

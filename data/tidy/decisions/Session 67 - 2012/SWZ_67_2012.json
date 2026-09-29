@@ -1,0 +1,72 @@
+{
+ "id": "SWZ_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  26,
+  43,
+  63,
+  79,
+  90,
+  106,
+  120,
+  131,
+  140,
+  157,
+  166,
+  183,
+  198,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "(A/67/1)",
+   "",
+   "label"
+  ],
+  [
+   153,
+   "f lights",
+   "flights",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b891727dffa467ea68a35712ba24ab9d3eec148c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1873,
+  "words_out": 1871,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   160,
+   63,
+   129,
+   167,
+   130,
+   88,
+   161,
+   116,
+   104,
+   75,
+   148,
+   75,
+   133,
+   144,
+   112,
+   66
+  ],
+  "warnings": []
+ }
+}

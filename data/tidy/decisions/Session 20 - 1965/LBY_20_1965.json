@@ -1,0 +1,104 @@
+{
+ "id": "LBY_20_1965",
+ "drop": [
+  [
+   99,
+   99,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  16,
+  19,
+  22,
+  26,
+  34,
+  38,
+  41,
+  44,
+  50,
+  55,
+  60,
+  69,
+  76,
+  84,
+  92,
+  97,
+  102,
+  106,
+  110,
+  117,
+  122
+ ],
+ "cer": [
+  0,
+  8,
+  122
+ ],
+ "fix": [
+  [
+   59,
+   "Ah entire",
+   "An entire",
+   "ocr"
+  ],
+  [
+   78,
+   "the Middle.",
+   "the Middle",
+   "ocr"
+  ],
+  [
+   108,
+   "necessary fur any",
+   "necessary for any",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 99 is a garbled repeat of the preceding sentence and was dropped.",
+ "unitizer_version": 1,
+ "sha1": "6f62a326ba5fc94b393556ffef1eb554f694eec9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {
+   "repeat": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2886,
+  "words_out": 2831,
+  "retention": 0.9809,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   161,
+   149,
+   121,
+   95,
+   117,
+   177,
+   97,
+   56,
+   79,
+   168,
+   109,
+   106,
+   181,
+   146,
+   171,
+   144,
+   109,
+   98,
+   82,
+   121,
+   163,
+   115,
+   66
+  ],
+  "warnings": []
+ }
+}

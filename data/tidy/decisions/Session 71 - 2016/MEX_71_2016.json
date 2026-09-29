@@ -1,0 +1,72 @@
+{
+ "id": "MEX_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  17,
+  20,
+  24,
+  27,
+  30,
+  34,
+  37,
+  41,
+  44,
+  49,
+  53,
+  58,
+  62,
+  68
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   " (see A/71/ PV.4B)",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "Ssenate",
+   "Senate",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "74daf7d1b02d4ecc6cee5ce8e42abb808135e393",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1572,
+  "words_out": 1569,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   64,
+   169,
+   159,
+   74,
+   106,
+   84,
+   61,
+   94,
+   94,
+   107,
+   57,
+   71,
+   75,
+   96,
+   76,
+   117,
+   65
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "id": "ITA_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   2,
+   "noise"
+  ],
+  [
+   135,
+   137,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  15,
+  24,
+  31,
+  40,
+  45,
+  57,
+  68,
+  73,
+  79,
+  87,
+  98,
+  107,
+  115,
+  124
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "Giorgio Maloney",
+   "Giorgia Meloni",
+   "asr_name"
+  ],
+  [
+   6,
+   "Poglio",
+   "Pope Leo",
+   "asr_name"
+  ],
+  [
+   41,
+   "Matei",
+   "Mattei",
+   "asr_name"
+  ],
+  [
+   106,
+   " light.",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "change. change",
+   "change. Change",
+   "asr_term"
+  ],
+  [
+   15,
+   "crises. nor",
+   "crises. Nor",
+   "asr_term"
+  ],
+  [
+   42,
+   "sector. producing",
+   "sector. Producing",
+   "asr_term"
+  ],
+  [
+   75,
+   "dialogue. because",
+   "dialogue. Because",
+   "asr_term"
+  ],
+  [
+   114,
+   "in among",
+   "in fighting among",
+   "asr_term"
+  ],
+  [
+   127,
+   "With",
+   "Amid",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Second-pass nonsense during the presider's introduction dropped as noise and closing hall chatter as presider; Spanish 'El Papa León XIV' and 'Plan Matei' (Italy's Mattei Plan for Africa); Meloni is Italy's Prime Minister. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 23 'change. change' -> 'change. Change' (said twice; capital restored). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 15 'crises. nor' -> 'crises. Nor'; unit 42 'sector. producing' -> 'sector. Producing'; unit 75 'dialogue. because' -> 'dialogue. Because'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 12 unit 114 'in among' -> 'in fighting among' (2026 exception: 'fighting' heard by both decodes (0.80 / 0.72) and by three re-decodes from 828/829/830 s (0.77 / 0.85 / 0.98); ES 'luchando por ejemplo contra la práctica horrenda'; the connector ('and' / 'in', about 0.5) is not clear, so ours 'in' is kept and no comma is added); spot 15 unit 127 'With' -> 'Amid' (both decodes hear 'Amid the ruins' (0.98 / 0.98); ES 'Entre las ruinas'; 'With the ruins' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "b4ba7d43abc059d2d71ad3918a81f94a9ee7b592",
+ "layout": "single",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2327,
+  "words_out": 2209,
+  "retention": 0.9493,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   174,
+   184,
+   155,
+   130,
+   139,
+   178,
+   128,
+   86,
+   128,
+   108,
+   163,
+   149,
+   165,
+   172,
+   150
+  ],
+  "warnings": []
+ }
+}

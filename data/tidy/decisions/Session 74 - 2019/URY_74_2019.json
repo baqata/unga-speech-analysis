@@ -1,0 +1,104 @@
+{
+ "id": "URY_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  11,
+  13,
+  16,
+  18,
+  22,
+  25,
+  28,
+  34,
+  37,
+  42,
+  44,
+  47,
+  50,
+  56,
+  58,
+  63,
+  66,
+  72,
+  75,
+  78,
+  86,
+  89,
+  92,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   64,
+   "lowest- income",
+   "lowest-income",
+   "hyphen"
+  ],
+  [
+   73,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "060365a875d6827ddb78a273391df28430b78d43",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2992,
+  "words_out": 2989,
+  "retention": 0.999,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   121,
+   96,
+   73,
+   124,
+   87,
+   97,
+   78,
+   144,
+   72,
+   105,
+   128,
+   69,
+   113,
+   107,
+   86,
+   69,
+   115,
+   81,
+   135,
+   79,
+   138,
+   175,
+   123,
+   164,
+   71,
+   114,
+   88,
+   137
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "MRT_63_2008",
+ "drop": [
+  [
+   93,
+   93,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  37,
+  65,
+  94,
+  118,
+  146,
+  176,
+  203,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6bd47d2176a876dd6ee616e8f1b0658c83ddd1fd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1983,
+  "words_out": 1975,
+  "retention": 0.996,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   131,
+   169,
+   224,
+   207,
+   193,
+   213,
+   237,
+   222,
+   231,
+   148
+  ],
+  "warnings": [
+   "procedural drop [93,93] in the middle of the speech"
+  ]
+ }
+}

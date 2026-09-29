@@ -1,0 +1,167 @@
+{
+ "id": "COG_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  14,
+  18,
+  22,
+  26,
+  29,
+  34,
+  36,
+  39,
+  44,
+  48,
+  49,
+  60,
+  65,
+  71,
+  76,
+  81,
+  86,
+  88,
+  90,
+  93,
+  96,
+  98,
+  105,
+  109,
+  112,
+  115,
+  118,
+  122
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "own. national",
+   "own national",
+   "ocr"
+  ],
+  [
+   8,
+   "Assembly Rail",
+   "Assembly Hall",
+   "ocr"
+  ],
+  [
+   9,
+   "to. retain",
+   "to retain",
+   "ocr"
+  ],
+  [
+   16,
+   "pre- colonial",
+   "pre-colonial",
+   "hyphen"
+  ],
+  [
+   48,
+   "engineers mid builders",
+   "engineers and builders",
+   "ocr"
+  ],
+  [
+   92,
+   "matter or urgency",
+   "matter of urgency",
+   "ocr"
+  ],
+  [
+   92,
+   "Argola",
+   "Angola",
+   "ocr"
+  ],
+  [
+   93,
+   "46 .",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "him.,",
+   "him,",
+   "ocr"
+  ],
+  [
+   106,
+   "to, work",
+   "to work",
+   "ocr"
+  ],
+  [
+   107,
+   "recognize, the",
+   "recognize the",
+   "ocr"
+  ],
+  [
+   112,
+   "machine- gunned",
+   "machine-gunned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "083bac5aa3244d32a5760d08156e5fde67a343c3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 56
+  },
+  "words_in": 4302,
+  "words_out": 4296,
+  "retention": 0.9986,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   158,
+   202,
+   148,
+   133,
+   128,
+   163,
+   104,
+   82,
+   121,
+   106,
+   132,
+   177,
+   115,
+   90,
+   343,
+   183,
+   138,
+   148,
+   91,
+   73,
+   99,
+   110,
+   117,
+   92,
+   74,
+   247,
+   185,
+   74,
+   119,
+   132,
+   181,
+   31
+  ],
+  "warnings": [
+   "paragraph at unit 49 has 343 words"
+  ]
+ }
+}

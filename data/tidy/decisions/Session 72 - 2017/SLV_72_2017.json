@@ -1,0 +1,76 @@
+{
+ "id": "SLV_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  12,
+  15,
+  19,
+  21,
+  25,
+  29,
+  32,
+  35,
+  38,
+  42,
+  44,
+  47,
+  49,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   4,
+   "consensus- building",
+   "consensus-building",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dfd538dd9d944bb473ce85ff01ace0830008e203",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1486,
+  "words_out": 1484,
+  "retention": 0.9987,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   82,
+   77,
+   61,
+   79,
+   109,
+   92,
+   60,
+   109,
+   80,
+   93,
+   73,
+   131,
+   99,
+   65,
+   80,
+   60,
+   85,
+   49
+  ],
+  "warnings": []
+ }
+}

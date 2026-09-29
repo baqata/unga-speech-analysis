@@ -1,0 +1,55 @@
+{
+ "id": "IDN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  40,
+  63,
+  76,
+  87,
+  101,
+  125,
+  137,
+  146,
+  163,
+  175,
+  184,
+  210
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2197ff15359d0d2fddf9863ce3585228cebae0d0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1794,
+  "words_out": 1791,
+  "retention": 0.9983,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   155,
+   156,
+   189,
+   99,
+   95,
+   108,
+   177,
+   88,
+   64,
+   142,
+   103,
+   74,
+   213,
+   128
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "RWA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  19,
+  22,
+  25,
+  29
+ ],
+ "cer": [],
+ "fix": [
+  [
+   17,
+   "end- to",
+   "end-to",
+   "hyphen"
+  ],
+  [
+   23,
+   "High- quality",
+   "High-quality",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12753e1655c5045d14ab43b5dd556cadb3bffeb6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 30,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 679,
+  "words_out": 676,
+  "retention": 0.9956,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   80,
+   113,
+   77,
+   130,
+   70,
+   74,
+   94,
+   38
+  ],
+  "warnings": []
+ }
+}

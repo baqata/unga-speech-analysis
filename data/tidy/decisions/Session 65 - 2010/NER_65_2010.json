@@ -1,0 +1,72 @@
+{
+ "id": "NER_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  30,
+  50,
+  62,
+  87,
+  109,
+  129,
+  149,
+  176,
+  184,
+  198,
+  209,
+  218,
+  233,
+  251,
+  266,
+  282,
+  298
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   281,
+   " (A/CONF.212/L.1/Rev.1*)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bf0196c33fcc5b68b7bf25c289d2b7ce5afe6e46",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2507,
+  "words_out": 2500,
+  "retention": 0.9972,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   237,
+   164,
+   94,
+   203,
+   165,
+   151,
+   158,
+   223,
+   68,
+   127,
+   84,
+   71,
+   127,
+   136,
+   107,
+   112,
+   117,
+   156
+  ],
+  "warnings": []
+ }
+}

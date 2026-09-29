@@ -1,0 +1,98 @@
+{
+ "id": "HUN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   92,
+   92,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  12,
+  21,
+  28,
+  42,
+  48,
+  53,
+  59,
+  69,
+  78,
+  83,
+  91
+ ],
+ "cer": [
+  3,
+  91
+ ],
+ "fix": [
+  [
+   60,
+   "Growth",
+   "Drought",
+   "asr_term"
+  ],
+  [
+   60,
+   "wood",
+   "food",
+   "asr_term"
+  ],
+  [
+   80,
+   "voter system",
+   "water system",
+   "asr_term"
+  ],
+  [
+   18,
+   "governed today",
+   "govern today",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Stray 'Thank you.' in the pause dropped as noise; drought, food, water per Spanish 'sequía', 'alimentos', 'sistema de agua potable'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 18 'governed today' -> 'govern today' ('governed today' does not fit the yesterday/today/tomorrow sequence; ES 'quienes gobiernan ahora'; decodes 'governed' 0.90 / 0.70 is the same sound; 'governed' occurs twice so 'today' keeps old unique)",
+ "unitizer_version": 1,
+ "sha1": "f827683951d886ece0b04386790450ef3c937646",
+ "layout": "single",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1261,
+  "words_out": 1218,
+  "retention": 0.9659,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   18,
+   115,
+   126,
+   86,
+   213,
+   95,
+   75,
+   81,
+   118,
+   111,
+   76,
+   97,
+   7
+  ],
+  "warnings": []
+ }
+}

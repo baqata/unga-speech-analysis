@@ -1,0 +1,104 @@
+{
+ "id": "PRY_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  33,
+  47,
+  57,
+  68,
+  84,
+  96,
+  110,
+  120,
+  130,
+  139,
+  150,
+  164
+ ],
+ "cer": [],
+ "fix": [
+  [
+   17,
+   "díÍtre",
+   "d’être",
+   "encoding"
+  ],
+  [
+   42,
+   "become ó a",
+   "become — a",
+   "encoding"
+  ],
+  [
+   94,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   127,
+   "natureís",
+   "nature’s",
+   "encoding"
+  ],
+  [
+   137,
+   "administrationís",
+   "administration’s",
+   "encoding"
+  ],
+  [
+   157,
+   "Similarly ó and in keeping with Paraguayís",
+   "Similarly — and in keeping with Paraguay’s",
+   "encoding"
+  ],
+  [
+   158,
+   "Nations ó we",
+   "Nations — we",
+   "encoding"
+  ],
+  [
+   167,
+   "worldís",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3b48403dfa0504d38c74d4a94bf4e2233f75aad2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1337,
+  "words_out": 1336,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   129,
+   136,
+   108,
+   71,
+   76,
+   126,
+   91,
+   99,
+   85,
+   72,
+   69,
+   75,
+   100,
+   99
+  ],
+  "warnings": []
+ }
+}

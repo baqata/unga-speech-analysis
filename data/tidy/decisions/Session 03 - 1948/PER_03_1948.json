@@ -1,0 +1,124 @@
+{
+ "id": "PER_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  11,
+  14,
+  20,
+  23,
+  28,
+  30,
+  34,
+  39,
+  45,
+  48,
+  52,
+  55,
+  59,
+  65,
+  69,
+  72,
+  75,
+  78,
+  81,
+  83,
+  88,
+  91
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "hounds",
+   "bounds",
+   "ocr"
+  ],
+  [
+   55,
+   " (E/CN.",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "12/72)",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " (E/CN.",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "12/66)",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "Gareia-Sayan",
+   "Garcia-Sayan",
+   "ocr"
+  ],
+  [
+   84,
+   "Geneva,",
+   "Geneva.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "ae086d9d49283bd6b328a9c9c32209cbda6bd9b9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3363,
+  "words_out": 3354,
+  "retention": 0.9973,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   52,
+   84,
+   100,
+   112,
+   117,
+   189,
+   91,
+   185,
+   130,
+   160,
+   223,
+   190,
+   78,
+   164,
+   118,
+   118,
+   208,
+   160,
+   84,
+   111,
+   102,
+   95,
+   61,
+   165,
+   57,
+   200
+  ],
+  "warnings": []
+ }
+}

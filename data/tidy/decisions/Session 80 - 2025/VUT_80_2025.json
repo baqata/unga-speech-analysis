@@ -1,0 +1,88 @@
+{
+ "id": "VUT_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   69,
+   70,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  12,
+  17,
+  21,
+  28,
+  33,
+  42,
+  46,
+  51,
+  56,
+  60,
+  66,
+  68
+ ],
+ "cer": [
+  1,
+  68
+ ],
+ "fix": [
+  [
+   4,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   41,
+   "of seeds like",
+   "of SIDS like",
+   "asr_term"
+  ],
+  [
+   56,
+   "cohesive economic measures",
+   "coercive economic measures",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c87d1294960f874a85ec34d6e5be61e344b8237",
+ "layout": "single",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1602,
+  "words_out": 1566,
+  "retention": 0.9775,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   125,
+   157,
+   69,
+   87,
+   114,
+   123,
+   185,
+   74,
+   159,
+   164,
+   63,
+   168,
+   76,
+   2
+  ],
+  "warnings": []
+ }
+}

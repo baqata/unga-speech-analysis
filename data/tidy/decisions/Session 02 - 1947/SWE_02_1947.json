@@ -1,0 +1,72 @@
+{
+ "id": "SWE_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  17,
+  24,
+  30,
+  36,
+  41
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "Bulgaria.",
+   "Bulgaria,",
+   "ocr"
+  ],
+  [
+   16,
+   "will lie fully",
+   "will be fully",
+   "ocr"
+  ],
+  [
+   17,
+   "one. year",
+   "one year",
+   "ocr"
+  ],
+  [
+   18,
+   "which arc now",
+   "which are now",
+   "ocr"
+  ],
+  [
+   22,
+   "the.",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7bb2b70e74f37ac79f4ee7a6a314fd7b87e5e8dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1155,
+  "words_out": 1155,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   181,
+   149,
+   94,
+   168,
+   170,
+   175,
+   124,
+   94
+  ],
+  "warnings": []
+ }
+}

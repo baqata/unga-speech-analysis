@@ -1,0 +1,152 @@
+{
+ "id": "CAN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  17,
+  31,
+  35,
+  46,
+  49,
+  54,
+  59,
+  64,
+  69,
+  77,
+  81,
+  87,
+  96,
+  105,
+  110,
+  117,
+  122,
+  129,
+  132,
+  139,
+  147,
+  154,
+  163,
+  166,
+  171,
+  181,
+  188
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "'We the peoples",
+   "\"We the peoples",
+   "ocr"
+  ],
+  [
+   36,
+   "self- imposed",
+   "self-imposed",
+   "hyphen"
+  ],
+  [
+   95,
+   "resolution ' of",
+   "resolution of",
+   "ocr"
+  ],
+  [
+   97,
+   "Bora from",
+   "Born from",
+   "ocr"
+  ],
+  [
+   97,
+   "be-tween",
+   "between",
+   "hyphen"
+  ],
+  [
+   108,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   129,
+   "out- including",
+   "out—including",
+   "ocr"
+  ],
+  [
+   144,
+   "paragraph l(i)",
+   "paragraph 1(i)",
+   "ocr"
+  ],
+  [
+   155,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   165,
+   "self- improvement",
+   "self-improvement",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 184 breaks off mid-sentence ('if we are'); text appears to be missing before unit 185.",
+ "unitizer_version": 1,
+ "sha1": "c6c3873ef88004cdc1304b46d52c1183de98c930",
+ "layout": "lines",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3982,
+  "words_out": 3976,
+  "retention": 0.9985,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   108,
+   169,
+   121,
+   215,
+   107,
+   182,
+   77,
+   111,
+   129,
+   78,
+   126,
+   136,
+   94,
+   138,
+   142,
+   148,
+   101,
+   128,
+   99,
+   126,
+   90,
+   113,
+   188,
+   153,
+   219,
+   102,
+   115,
+   211,
+   153,
+   97
+  ],
+  "warnings": []
+ }
+}

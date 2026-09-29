@@ -1,0 +1,92 @@
+{
+ "id": "AFG_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  11,
+  13,
+  17,
+  18,
+  21,
+  23,
+  25,
+  32,
+  34,
+  36,
+  40,
+  42,
+  45,
+  47,
+  51,
+  58,
+  61,
+  64,
+  68,
+  71,
+  72,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "statement. Sir",
+   "statement, Sir",
+   "ocr"
+  ],
+  [
+   28,
+   "countries.*",
+   "countries.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d711556850dc739811ddc6676d389eeda18288b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2733,
+  "words_out": 2733,
+  "retention": 1.0,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   65,
+   105,
+   97,
+   119,
+   76,
+   154,
+   71,
+   97,
+   67,
+   71,
+   221,
+   100,
+   95,
+   136,
+   54,
+   80,
+   62,
+   81,
+   130,
+   68,
+   103,
+   161,
+   87,
+   46,
+   187,
+   200
+  ],
+  "warnings": []
+ }
+}

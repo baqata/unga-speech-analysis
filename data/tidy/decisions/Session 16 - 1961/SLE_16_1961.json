@@ -1,0 +1,81 @@
+{
+ "id": "SLE_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  11,
+  18,
+  23,
+  28,
+  34,
+  37,
+  43,
+  47,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "our. firm",
+   "our firm",
+   "ocr"
+  ],
+  [
+   34,
+   "lie truly",
+   "be truly",
+   "ocr"
+  ],
+  [
+   43,
+   "War, In",
+   "War. In",
+   "ocr"
+  ],
+  [
+   43,
+   "-we",
+   "we",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "04e852fc1bc6a19e0432874a16723122234e5ac4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 12
+  },
+  "words_in": 1707,
+  "words_out": 1707,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   128,
+   93,
+   133,
+   93,
+   207,
+   84,
+   126,
+   240,
+   78,
+   172,
+   179,
+   73,
+   101
+  ],
+  "warnings": []
+ }
+}

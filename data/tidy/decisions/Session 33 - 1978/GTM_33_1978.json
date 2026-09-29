@@ -1,0 +1,292 @@
+{
+ "id": "GTM_33_1978",
+ "drop": [
+  [
+   90,
+   91,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  14,
+  18,
+  23,
+  28,
+  32,
+  35,
+  40,
+  43,
+  46,
+  51,
+  52,
+  60,
+  63,
+  69,
+  73,
+  80,
+  82,
+  86,
+  93,
+  98,
+  102,
+  107,
+  113,
+  117,
+  122,
+  128,
+  131,
+  138,
+  141,
+  147,
+  154,
+  160,
+  164,
+  169,
+  174,
+  181,
+  185,
+  188,
+  192,
+  196,
+  200,
+  201,
+  207
+ ],
+ "cer": [
+  0,
+  4,
+  207
+ ],
+ "fix": [
+  [
+   4,
+   "-88. ",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "delegation, greets",
+   "delegation greets",
+   "ocr"
+  ],
+  [
+   16,
+   "Guatemala if to",
+   "Guatemala is to",
+   "ocr"
+  ],
+  [
+   24,
+   "8",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "for. some",
+   "for some",
+   "ocr"
+  ],
+  [
+   41,
+   " [OAS]",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "quite dear",
+   "quite clear",
+   "ocr"
+  ],
+  [
+   46,
+   "to ail nations",
+   "to all nations",
+   "ocr"
+  ],
+  [
+   47,
+   "a. form",
+   "a form",
+   "ocr"
+  ],
+  [
+   48,
+   "tire just",
+   "the just",
+   "ocr"
+  ],
+  [
+   50,
+   "Hid sea-bed",
+   "the sea-bed",
+   "ocr"
+  ],
+  [
+   52,
+   "recant",
+   "recent",
+   "ocr"
+  ],
+  [
+   64,
+   "technical: cooperation",
+   "technical cooperation",
+   "ocr"
+  ],
+  [
+   65,
+   "system,",
+   "system.",
+   "ocr"
+  ],
+  [
+   67,
+   "countries,",
+   "countries.",
+   "ocr"
+  ],
+  [
+   68,
+   "regions,",
+   "regions.",
+   "ocr"
+  ],
+  [
+   75,
+   "level, The",
+   "level. The",
+   "ocr"
+  ],
+  [
+   81,
+   "9",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "10",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "earned out",
+   "carried out",
+   "ocr"
+  ],
+  [
+   108,
+   "14",
+   "",
+   "label"
+  ],
+  [
+   124,
+   "resolves/,",
+   "resolved,",
+   "ocr"
+  ],
+  [
+   160,
+   "1 s",
+   "",
+   "label"
+  ],
+  [
+   183,
+   "to-reject",
+   "to reject",
+   "ocr"
+  ],
+  [
+   199,
+   "18",
+   "",
+   "label"
+  ],
+  [
+   207,
+   "hops",
+   "hope",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Footnote text (units 90-91) dropped; inline footnote markers removed.",
+ "unitizer_version": 1,
+ "sha1": "0e09473e5f306b82c6d9afe6ac82cac8d817d445",
+ "layout": "lines",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 90
+  },
+  "words_in": 7242,
+  "words_out": 7165,
+  "retention": 0.9894,
+  "n_paragraphs": 47,
+  "paragraph_words": [
+   121,
+   107,
+   123,
+   105,
+   108,
+   217,
+   154,
+   158,
+   143,
+   129,
+   86,
+   159,
+   201,
+   63,
+   233,
+   144,
+   207,
+   153,
+   196,
+   133,
+   159,
+   155,
+   182,
+   135,
+   129,
+   164,
+   118,
+   215,
+   234,
+   122,
+   285,
+   163,
+   169,
+   181,
+   190,
+   112,
+   111,
+   107,
+   254,
+   96,
+   100,
+   155,
+   213,
+   131,
+   81,
+   195,
+   69
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

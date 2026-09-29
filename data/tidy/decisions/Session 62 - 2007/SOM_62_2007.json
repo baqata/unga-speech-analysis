@@ -1,0 +1,56 @@
+{
+ "id": "SOM_62_2007",
+ "drop": [
+  [
+   28,
+   28,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  29,
+  53,
+  65,
+  81,
+  95,
+  107,
+  122
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60f54cc922a92d59872171826b34444f1db7a1db",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 998,
+  "words_out": 991,
+  "retention": 0.993,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   122,
+   95,
+   193,
+   87,
+   111,
+   120,
+   86,
+   113,
+   64
+  ],
+  "warnings": [
+   "procedural drop [28,28] in the middle of the speech"
+  ]
+ }
+}

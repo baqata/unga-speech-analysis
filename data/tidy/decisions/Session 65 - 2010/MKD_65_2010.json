@@ -1,0 +1,53 @@
+{
+ "id": "MKD_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  41,
+  57,
+  81,
+  101,
+  119,
+  142,
+  156,
+  178,
+  191
+ ],
+ "cer": [
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "048de10e6b602de9f4c319545bfe35c064a9cbb6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1594,
+  "words_out": 1593,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   93,
+   83,
+   159,
+   125,
+   182,
+   165,
+   145,
+   180,
+   104,
+   181,
+   110,
+   66
+  ],
+  "warnings": []
+ }
+}

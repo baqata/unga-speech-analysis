@@ -1,0 +1,69 @@
+{
+ "id": "MDA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  26,
+  39,
+  58,
+  73,
+  94,
+  111,
+  121,
+  143,
+  161,
+  185,
+  197,
+  215,
+  227,
+  252,
+  264,
+  276,
+  300,
+  314
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a41ed41bd543dc5224fcb62eb8316d5f3a28e93a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2385,
+  "words_out": 2378,
+  "retention": 0.9971,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   92,
+   111,
+   92,
+   137,
+   110,
+   153,
+   116,
+   74,
+   163,
+   125,
+   176,
+   96,
+   129,
+   83,
+   182,
+   88,
+   93,
+   186,
+   100,
+   72
+  ],
+  "warnings": []
+ }
+}

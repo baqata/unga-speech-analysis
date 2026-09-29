@@ -1,0 +1,60 @@
+{
+ "id": "PSE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  44,
+  71,
+  84,
+  106,
+  132,
+  151,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   108,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   109,
+   ")",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0d48e4660eb7b1cce1e00fbf263253b10a113b1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1473,
+  "words_out": 1471,
+  "retention": 0.9986,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   120,
+   228,
+   206,
+   109,
+   182,
+   197,
+   146,
+   185,
+   98
+  ],
+  "warnings": []
+ }
+}

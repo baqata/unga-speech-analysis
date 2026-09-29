@@ -1,0 +1,162 @@
+{
+ "id": "NPL_36_1981",
+ "drop": [
+  [
+   122,
+   122,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  4,
+  5,
+  6,
+  7,
+  15,
+  18,
+  21,
+  25,
+  32,
+  36,
+  40,
+  43,
+  49,
+  53,
+  59,
+  64,
+  69,
+  73,
+  80,
+  85,
+  92,
+  97,
+  100,
+  104,
+  106,
+  110,
+  114,
+  117
+ ],
+ "cer": [
+  0,
+  1,
+  4,
+  5,
+  6
+ ],
+ "fix": [
+  [
+   8,
+   "interventions, in",
+   "interventions in",
+   "ocr"
+  ],
+  [
+   31,
+   "oasis dimly,",
+   "oasis dimly",
+   "ocr"
+  ],
+  [
+   42,
+   " [see A/361333 and Corr.l]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "Action.7",
+   "Action.",
+   "ocr"
+  ],
+  [
+   54,
+   "I* is",
+   "It is",
+   "ocr"
+  ],
+  [
+   66,
+   " [resolution S10/2]",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "disarmament, have",
+   "disarmament have",
+   "ocr"
+  ],
+  [
+   95,
+   "Indiscriminate, and",
+   "Indiscriminate and",
+   "ocr"
+  ],
+  [
+   104,
+   "United.Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   112,
+   "bilateral*",
+   "bilateral,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d2fe89e2b1ccada69ee4cfd03f559a821ca2712d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3081,
+  "words_out": 3075,
+  "retention": 0.9981,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   36,
+   72,
+   36,
+   48,
+   29,
+   145,
+   83,
+   75,
+   107,
+   200,
+   91,
+   125,
+   77,
+   144,
+   108,
+   139,
+   123,
+   147,
+   117,
+   153,
+   92,
+   160,
+   143,
+   83,
+   107,
+   65,
+   86,
+   113,
+   97,
+   74
+  ],
+  "warnings": []
+ }
+}

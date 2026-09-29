@@ -1,0 +1,75 @@
+{
+ "id": "TON_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  16,
+  20,
+  22,
+  28,
+  33,
+  35,
+  37,
+  41,
+  45,
+  49,
+  53,
+  59,
+  64,
+  72,
+  75
+ ],
+ "cer": [
+  0,
+  75
+ ],
+ "fix": [
+  [
+   13,
+   "non-commuicable",
+   "non-communicable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0276170c45712dcf1d04f9faf0016e4d7848898b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2213,
+  "words_out": 2213,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   123,
+   117,
+   68,
+   193,
+   111,
+   97,
+   178,
+   127,
+   84,
+   65,
+   149,
+   78,
+   113,
+   121,
+   174,
+   79,
+   143,
+   104,
+   89
+  ],
+  "warnings": []
+ }
+}

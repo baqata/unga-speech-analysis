@@ -1,0 +1,125 @@
+{
+ "id": "IRQ_22_1967",
+ "drop": [
+  [
+   51,
+   51,
+   "noise"
+  ],
+  [
+   54,
+   54,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  11,
+  15,
+  18,
+  24,
+  32,
+  35,
+  40,
+  43,
+  56,
+  60,
+  66,
+  73,
+  79,
+  92,
+  99,
+  104,
+  111,
+  115,
+  121,
+  129,
+  133,
+  139,
+  146,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   " [ibid., para. 151]",
+   "",
+   "label"
+  ],
+  [
+   25,
+   " (item 94)",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "from outside\", I wonder",
+   "from outside\". I wonder",
+   "ocr"
+  ],
+  [
+   97,
+   "Arch States",
+   "Arab States",
+   "ocr"
+  ],
+  [
+   128,
+   " [2253 (ES-V) and 2254 (ES-V)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 51 and 54 are only the source references of quotations (A/6701/Add.1, paras. 47 and 49) and were dropped.",
+ "unitizer_version": 1,
+ "sha1": "676fc62afde7cfe4933c160fd506d64140f1e294",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 4
+  },
+  "words_in": 3634,
+  "words_out": 3583,
+  "retention": 0.986,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   158,
+   90,
+   103,
+   79,
+   151,
+   173,
+   82,
+   139,
+   67,
+   247,
+   109,
+   179,
+   160,
+   88,
+   215,
+   197,
+   152,
+   184,
+   99,
+   118,
+   190,
+   106,
+   154,
+   138,
+   98,
+   107
+  ],
+  "warnings": []
+ }
+}

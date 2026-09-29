@@ -1,0 +1,212 @@
+{
+ "id": "SOM_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  8,
+  12,
+  15,
+  18,
+  23,
+  25,
+  32,
+  35,
+  38,
+  44,
+  46,
+  48,
+  51,
+  54,
+  59,
+  63,
+  66,
+  70,
+  74,
+  78,
+  80,
+  83,
+  90,
+  94,
+  97,
+  100,
+  102,
+  110
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   3,
+   "country avid to",
+   "country and to",
+   "ocr"
+  ],
+  [
+   30,
+   "the, world",
+   "the world",
+   "ocr"
+  ],
+  [
+   32,
+   "free- for-all",
+   "free-for-all",
+   "hyphen"
+  ],
+  [
+   34,
+   "permissible meant;",
+   "permissible means",
+   "ocr"
+  ],
+  [
+   44,
+   "may well fee",
+   "may well be",
+   "ocr"
+  ],
+  [
+   48,
+   "convinced that, the",
+   "convinced that the",
+   "ocr"
+  ],
+  [
+   49,
+   "in* the",
+   "in the",
+   "ocr"
+  ],
+  [
+   71,
+   "on Strategic",
+   "on strategic",
+   "ocr"
+  ],
+  [
+   73,
+   "has A special",
+   "has a special",
+   "ocr"
+  ],
+  [
+   74,
+   "73. ",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "in Africa,",
+   "In Africa,",
+   "ocr"
+  ],
+  [
+   77,
+   "is, confident",
+   "is confident",
+   "ocr"
+  ],
+  [
+   77,
+   "their or/n solution",
+   "their own solution",
+   "ocr"
+  ],
+  [
+   78,
+   "the Application",
+   "the application",
+   "ocr"
+  ],
+  [
+   85,
+   "freedom. in its",
+   "freedom in its",
+   "ocr"
+  ],
+  [
+   86,
+   "solution, To pretend",
+   "solution. To pretend",
+   "ocr"
+  ],
+  [
+   99,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   99,
+   "strife,",
+   "strife.",
+   "ocr"
+  ],
+  [
+   100,
+   "form' of",
+   "form of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e201e5aeead9bb5b0fc2b3a49ba1f3aa519984e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3371,
+  "words_out": 3366,
+  "retention": 0.9985,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   140,
+   85,
+   130,
+   90,
+   131,
+   128,
+   80,
+   179,
+   105,
+   68,
+   144,
+   59,
+   92,
+   88,
+   127,
+   147,
+   98,
+   101,
+   148,
+   134,
+   84,
+   73,
+   111,
+   178,
+   114,
+   123,
+   77,
+   75,
+   157,
+   100
+  ],
+  "warnings": []
+ }
+}

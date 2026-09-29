@@ -1,0 +1,164 @@
+{
+ "id": "ROU_19_1964",
+ "drop": [
+  [
+   36,
+   36,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  13,
+  16,
+  18,
+  24,
+  29,
+  33,
+  41,
+  45,
+  49,
+  53,
+  58,
+  61,
+  63,
+  70,
+  72,
+  75,
+  79,
+  83,
+  86,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   8,
+   "peaceful meant:",
+   "peaceful means",
+   "ocr"
+  ],
+  [
+   8,
+   "State,",
+   "State.",
+   "ocr"
+  ],
+  [
+   13,
+   "a ’grave",
+   "a grave",
+   "ocr"
+  ],
+  [
+   39,
+   "receive fa a",
+   "receive in a",
+   "ocr"
+  ],
+  [
+   44,
+   "would j have",
+   "would have",
+   "ocr"
+  ],
+  [
+   58,
+   "demands chat",
+   "demands that",
+   "ocr"
+  ],
+  [
+   59,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   60,
+   "made oy the",
+   "made by the",
+   "ocr"
+  ],
+  [
+   67,
+   "is pausing",
+   "is causing",
+   "ocr"
+  ],
+  [
+   75,
+   " [A/5801/Add.l, sect.",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "IV]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   "exclusive properly",
+   "exclusive property",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ddfc7df22317906fe07831b84b5bc4466aaadc41",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 51
+  },
+  "words_in": 3035,
+  "words_out": 3028,
+  "retention": 0.9977,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   140,
+   88,
+   125,
+   137,
+   87,
+   68,
+   235,
+   212,
+   155,
+   162,
+   188,
+   129,
+   72,
+   158,
+   120,
+   65,
+   195,
+   60,
+   120,
+   117,
+   129,
+   95,
+   119,
+   52
+  ],
+  "warnings": []
+ }
+}

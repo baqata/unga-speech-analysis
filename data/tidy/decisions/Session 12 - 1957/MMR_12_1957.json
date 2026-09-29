@@ -1,0 +1,58 @@
+{
+ "id": "MMR_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  16,
+  19,
+  29,
+  38,
+  43,
+  51,
+  59,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "will not doubt be",
+   "will no doubt be",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "df8cc71201bb882a6a96c70915e1d9bd730d4c47",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 1659,
+  "words_out": 1659,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   178,
+   102,
+   142,
+   85,
+   197,
+   245,
+   163,
+   128,
+   122,
+   196,
+   101
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "id": "VCT_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  17,
+  21,
+  30,
+  34,
+  44,
+  50,
+  56,
+  64,
+  70,
+  72,
+  76,
+  83,
+  86,
+  92,
+  96,
+  106,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   8,
+   "us. an",
+   "us, an",
+   "ocr"
+  ],
+  [
+   10,
+   "too. that",
+   "too, that",
+   "ocr"
+  ],
+  [
+   14,
+   "case.",
+   "case,",
+   "ocr"
+  ],
+  [
+   23,
+   "periphery.",
+   "periphery,",
+   "ocr"
+  ],
+  [
+   32,
+   "not. and cannot reasonably be. agents",
+   "not, and cannot reasonably be, agents",
+   "ocr"
+  ],
+  [
+   34,
+   "process.",
+   "process,",
+   "ocr"
+  ],
+  [
+   45,
+   "law. that",
+   "law, that",
+   "ocr"
+  ],
+  [
+   45,
+   "Cuba.",
+   "Cuba,",
+   "ocr"
+  ],
+  [
+   50,
+   "China.",
+   "China,",
+   "ocr"
+  ],
+  [
+   62,
+   "Africa.",
+   "Africa,",
+   "ocr"
+  ],
+  [
+   64,
+   "2.0. which",
+   "2.0, which",
+   "ocr"
+  ],
+  [
+   64,
+   "(CARICOM). the",
+   "(CARICOM), the",
+   "ocr"
+  ],
+  [
+   64,
+   "(CELAC). the",
+   "(CELAC), the",
+   "ocr"
+  ],
+  [
+   72,
+   "2015. at",
+   "2015, at",
+   "ocr"
+  ],
+  [
+   76,
+   "SDGs.",
+   "SDGs,",
+   "ocr"
+  ],
+  [
+   83,
+   "States.",
+   "States,",
+   "ocr"
+  ],
+  [
+   93,
+   "Ukraine.",
+   "Ukraine,",
+   "ocr"
+  ],
+  [
+   96,
+   "America.",
+   "America,",
+   "ocr"
+  ],
+  [
+   100,
+   "addition.",
+   "addition,",
+   "ocr"
+  ],
+  [
+   103,
+   "Union.",
+   "Union,",
+   "ocr"
+  ],
+  [
+   104,
+   "CELAC. the",
+   "CELAC, the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d291886b588b5c7ae9d45f417803da4b675424da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2596,
+  "words_out": 2596,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   73,
+   125,
+   131,
+   166,
+   132,
+   139,
+   198,
+   156,
+   99,
+   173,
+   193,
+   65,
+   99,
+   108,
+   79,
+   145,
+   61,
+   159,
+   190,
+   105
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

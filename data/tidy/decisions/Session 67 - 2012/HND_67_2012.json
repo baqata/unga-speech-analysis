@@ -1,0 +1,64 @@
+{
+ "id": "HND_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  31,
+  42,
+  52,
+  62,
+  75,
+  87,
+  97,
+  111,
+  125,
+  137,
+  159,
+  171,
+  179
+ ],
+ "cer": [],
+ "fix": [
+  [
+   109,
+   "f light",
+   "flight",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "969420dcfab5ac38e0e030a0ce688ad98a17e6ef",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1578,
+  "words_out": 1577,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   82,
+   91,
+   92,
+   93,
+   94,
+   76,
+   110,
+   98,
+   95,
+   104,
+   122,
+   98,
+   201,
+   100,
+   61,
+   60
+  ],
+  "warnings": []
+ }
+}

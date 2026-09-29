@@ -1,0 +1,73 @@
+{
+ "id": "PHL_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  19,
+  24,
+  29,
+  34,
+  40,
+  46,
+  50,
+  55
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "Philippine aim to",
+   "Philippine claim to",
+   "ocr"
+  ],
+  [
+   27,
+   " [A 17982, para. 16]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "interest in this",
+   "interest is this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6aff3bdf5e999a37ebaca77b73795fc788156a13",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 34
+  },
+  "words_in": 1753,
+  "words_out": 1747,
+  "retention": 0.9966,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   151,
+   206,
+   207,
+   96,
+   158,
+   152,
+   105,
+   139,
+   155,
+   105,
+   138,
+   135
+  ],
+  "warnings": []
+ }
+}

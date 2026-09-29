@@ -1,0 +1,68 @@
+{
+ "id": "SLV_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  15,
+  21,
+  24,
+  29,
+  34,
+  38,
+  39,
+  46,
+  52,
+  55
+ ],
+ "cer": [],
+ "fix": [
+  [
+   27,
+   "that,",
+   "that",
+   "ocr"
+  ],
+  [
+   55,
+   "tb",
+   "to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fe57e1a9e58edadfb213045e3aab448ac89b1058",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1958,
+  "words_out": 1955,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   117,
+   238,
+   105,
+   180,
+   225,
+   65,
+   169,
+   134,
+   150,
+   42,
+   181,
+   193,
+   83,
+   73
+  ],
+  "warnings": []
+ }
+}

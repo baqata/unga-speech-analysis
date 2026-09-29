@@ -1,0 +1,118 @@
+{
+ "id": "PHL_19_1964",
+ "drop": [
+  [
+   93,
+   93,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  13,
+  18,
+  22,
+  28,
+  35,
+  39,
+  43,
+  46,
+  51,
+  56,
+  65,
+  69,
+  71,
+  75,
+  79,
+  81,
+  85,
+  94,
+  98,
+  103,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "to t-ay",
+   "to say",
+   "ocr"
+  ],
+  [
+   43,
+   "clear- cut",
+   "clear-cut",
+   "hyphen"
+  ],
+  [
+   44,
+   "having cone that",
+   "having done that",
+   "ocr"
+  ],
+  [
+   53,
+   "make-the United",
+   "make the United",
+   "ocr"
+  ],
+  [
+   57,
+   "make- believe",
+   "make-believe",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52c885639d9856629a766e19da624ddb346c0657",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3308,
+  "words_out": 3305,
+  "retention": 0.9991,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   81,
+   81,
+   139,
+   151,
+   153,
+   131,
+   177,
+   130,
+   136,
+   124,
+   91,
+   90,
+   136,
+   178,
+   169,
+   93,
+   114,
+   154,
+   59,
+   142,
+   203,
+   116,
+   129,
+   168,
+   160
+  ],
+  "warnings": []
+ }
+}

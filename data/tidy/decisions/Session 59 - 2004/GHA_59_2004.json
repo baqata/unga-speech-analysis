@@ -1,0 +1,104 @@
+{
+ "id": "GHA_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  23,
+  35,
+  53,
+  69,
+  84,
+  98,
+  114,
+  123,
+  134,
+  146,
+  158,
+  174,
+  190,
+  203,
+  216,
+  226,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   102,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   111,
+   "CÙte díIvoire",
+   "Côte d’Ivoire",
+   "encoding"
+  ],
+  [
+   139,
+   "countriesí",
+   "countries’",
+   "encoding"
+  ],
+  [
+   183,
+   "Ghanaís",
+   "Ghana’s",
+   "encoding"
+  ],
+  [
+   197,
+   "Ghanaís",
+   "Ghana’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5217e99402c7fb735cbe6af07a4f008c90d88f09",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1838,
+  "words_out": 1835,
+  "retention": 0.9984,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   62,
+   120,
+   94,
+   141,
+   121,
+   126,
+   99,
+   122,
+   73,
+   80,
+   82,
+   85,
+   124,
+   108,
+   97,
+   97,
+   81,
+   73,
+   50
+  ],
+  "warnings": []
+ }
+}

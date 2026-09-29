@@ -1,0 +1,122 @@
+{
+ "id": "CHN_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  17,
+  20,
+  32,
+  40,
+  43,
+  48,
+  54,
+  57,
+  65,
+  69,
+  76,
+  81,
+  87,
+  94,
+  101,
+  106,
+  110,
+  112,
+  113,
+  122,
+  125,
+  131,
+  137,
+  139,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "only be resolutely",
+   "only by resolutely",
+   "ocr"
+  ],
+  [
+   16,
+   "alt manifestations",
+   "all manifestations",
+   "ocr"
+  ],
+  [
+   74,
+   "depend? on",
+   "depends on",
+   "ocr"
+  ],
+  [
+   79,
+   "Kim 11 Sung",
+   "Kim Il Sung",
+   "ocr"
+  ],
+  [
+   114,
+   "international pence",
+   "international peace",
+   "ocr"
+  ],
+  [
+   127,
+   "in Match",
+   "in March",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3fbda1afad6bbadf545eb4fdbd725ce4a4afa3ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 4104,
+  "words_out": 4104,
+  "retention": 1.0,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   157,
+   176,
+   93,
+   75,
+   245,
+   244,
+   151,
+   157,
+   133,
+   102,
+   214,
+   81,
+   186,
+   130,
+   140,
+   157,
+   156,
+   92,
+   159,
+   46,
+   59,
+   231,
+   92,
+   206,
+   126,
+   64,
+   241,
+   191
+  ],
+  "warnings": []
+ }
+}

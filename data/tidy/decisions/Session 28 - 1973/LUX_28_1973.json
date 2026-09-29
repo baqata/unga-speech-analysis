@@ -1,0 +1,84 @@
+{
+ "id": "LUX_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  14,
+  18,
+  21,
+  25,
+  28,
+  32,
+  34,
+  36,
+  40,
+  46,
+  51,
+  55,
+  60,
+  62,
+  68,
+  70
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   7,
+   "today7 one",
+   "today one",
+   "ocr"
+  ],
+  [
+   9,
+   "conflicts, Thanks",
+   "conflicts. Thanks",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1e59c6574adef4004d32b972c535a09b53a6c029",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 28
+  },
+  "words_in": 2372,
+  "words_out": 2369,
+  "retention": 0.9987,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   94,
+   143,
+   135,
+   102,
+   198,
+   120,
+   81,
+   108,
+   163,
+   70,
+   78,
+   114,
+   175,
+   146,
+   110,
+   145,
+   80,
+   154,
+   88,
+   65
+  ],
+  "warnings": []
+ }
+}

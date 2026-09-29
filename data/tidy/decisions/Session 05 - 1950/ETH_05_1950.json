@@ -1,0 +1,89 @@
+{
+ "id": "ETH_05_1950",
+ "drop": [
+  [
+   31,
+   31,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  17,
+  22,
+  25,
+  28,
+  32,
+  37,
+  41,
+  45,
+  49,
+  54,
+  58,
+  62,
+  64,
+  71,
+  76,
+  83
+ ],
+ "cer": [],
+ "fix": [
+  [
+   56,
+   "avoid ?",
+   "avoid?",
+   "spacing"
+  ],
+  [
+   73,
+   "on tire agenda",
+   "on the agenda",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7d06a309b53456a2aa0c2ae4efb9ec51015354b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 30
+  },
+  "words_in": 2668,
+  "words_out": 2666,
+  "retention": 0.9993,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   127,
+   104,
+   158,
+   166,
+   160,
+   97,
+   127,
+   118,
+   195,
+   106,
+   150,
+   113,
+   168,
+   166,
+   116,
+   78,
+   147,
+   139,
+   127,
+   104
+  ],
+  "warnings": []
+ }
+}

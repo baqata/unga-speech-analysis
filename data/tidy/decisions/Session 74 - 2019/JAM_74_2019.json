@@ -1,0 +1,72 @@
+{
+ "id": "JAM_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  16,
+  20,
+  22,
+  27,
+  31,
+  37,
+  44,
+  50,
+  54,
+  60,
+  66,
+  69,
+  73,
+  79,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   52,
+   "Ocean- Based",
+   "Ocean-Based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b31bf65e4362e3469679af2a199f822ca24ca7b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2151,
+  "words_out": 2150,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   59,
+   72,
+   102,
+   85,
+   94,
+   61,
+   155,
+   140,
+   158,
+   180,
+   162,
+   105,
+   110,
+   155,
+   101,
+   87,
+   141,
+   119,
+   64
+  ],
+  "warnings": []
+ }
+}

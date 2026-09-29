@@ -1,0 +1,55 @@
+{
+ "id": "DMA_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  31,
+  47,
+  62,
+  80,
+  96,
+  114,
+  129,
+  141,
+  156,
+  163,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d14912a994c4ec4dc8f2b29b54936d7e3530dcf0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1573,
+  "words_out": 1571,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   106,
+   150,
+   140,
+   137,
+   158,
+   133,
+   140,
+   135,
+   105,
+   134,
+   50,
+   111,
+   72
+  ],
+  "warnings": []
+ }
+}

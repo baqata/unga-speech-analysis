@@ -1,0 +1,99 @@
+{
+ "id": "BEN_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  14,
+  19,
+  22,
+  27,
+  33,
+  37,
+  43,
+  49,
+  52,
+  58,
+  66,
+  72,
+  81,
+  87,
+  94,
+  99,
+  105,
+  110,
+  120
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   120,
+   "U Thani",
+   "U Thant",
+   "ocr"
+  ],
+  [
+   20,
+   "different’ political",
+   "different political",
+   "ocr"
+  ],
+  [
+   29,
+   "whose tight",
+   "whose right",
+   "ocr"
+  ],
+  [
+   115,
+   " [agenda item 92 — see document A/7183 and Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a89dc7cae5725a7b8c7151f6a4e7d0d46ca4e432",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3100,
+  "words_out": 3056,
+  "retention": 0.9858,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   136,
+   42,
+   181,
+   121,
+   72,
+   171,
+   160,
+   125,
+   126,
+   141,
+   84,
+   104,
+   222,
+   117,
+   313,
+   119,
+   104,
+   97,
+   126,
+   128,
+   251,
+   116
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "SVN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   121,
+   121,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  16,
+  23,
+  26,
+  34,
+  42,
+  50,
+  56,
+  68,
+  77,
+  85,
+  92,
+  102,
+  112,
+  120
+ ],
+ "cer": [
+  2,
+  120
+ ],
+ "fix": [
+  [
+   37,
+   "Juskogin's norms",
+   "Jus cogens norms",
+   "asr_term"
+  ],
+  [
+   38,
+   "Juskogin's norms",
+   "jus cogens norms",
+   "asr_term"
+  ],
+  [
+   75,
+   "the band-aid",
+   "the Band Aid",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "238d52b8f58936ba234cd37f2ab9d5f65abcc33b",
+ "layout": "single",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1901,
+  "words_out": 1855,
+  "retention": 0.9758,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   31,
+   98,
+   125,
+   151,
+   98,
+   134,
+   143,
+   117,
+   89,
+   139,
+   105,
+   146,
+   93,
+   106,
+   197,
+   76,
+   7
+  ],
+  "warnings": []
+ }
+}

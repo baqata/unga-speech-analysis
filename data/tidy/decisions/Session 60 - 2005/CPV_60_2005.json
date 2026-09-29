@@ -1,0 +1,49 @@
+{
+ "id": "CPV_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  26,
+  51,
+  64,
+  81,
+  106,
+  123,
+  147
+ ],
+ "cer": [
+  0,
+  147
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c23aeb31403c5fbd3ea26429138db82ef3c524d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_number": 1
+  },
+  "words_in": 1304,
+  "words_out": 1301,
+  "retention": 0.9977,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   47,
+   134,
+   200,
+   100,
+   139,
+   207,
+   132,
+   198,
+   144
+  ],
+  "warnings": []
+ }
+}

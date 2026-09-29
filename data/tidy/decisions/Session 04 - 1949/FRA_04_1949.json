@@ -1,0 +1,108 @@
+{
+ "id": "FRA_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  14,
+  20,
+  25,
+  30,
+  35,
+  40,
+  45,
+  51,
+  54,
+  58,
+  63,
+  67,
+  70,
+  74,
+  77,
+  82,
+  90,
+  93,
+  101,
+  104,
+  110,
+  115
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "an. end",
+   "an end",
+   "ocr"
+  ],
+  [
+   32,
+   "promote, agreements",
+   "promote agreements",
+   "ocr"
+  ],
+  [
+   72,
+   "the. situation",
+   "the situation",
+   "ocr"
+  ],
+  [
+   85,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   113,
+   " (220th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "a646c468946795f5dfa3c9b4969c74cdaeee218e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3527,
+  "words_out": 3523,
+  "retention": 0.9989,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   197,
+   151,
+   177,
+   174,
+   110,
+   154,
+   108,
+   146,
+   166,
+   138,
+   153,
+   96,
+   120,
+   93,
+   187,
+   129,
+   174,
+   236,
+   85,
+   186,
+   99,
+   125,
+   180,
+   139
+  ],
+  "warnings": []
+ }
+}

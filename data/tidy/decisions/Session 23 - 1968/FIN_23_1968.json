@@ -1,0 +1,112 @@
+{
+ "id": "FIN_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  23,
+  27,
+  36,
+  41,
+  47,
+  54,
+  60,
+  64,
+  68,
+  74,
+  78,
+  85,
+  91,
+  96,
+  102,
+  108,
+  114
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "threat cf force",
+   "threat of force",
+   "ocr"
+  ],
+  [
+   29,
+   "them, As the",
+   "them. As the",
+   "ocr"
+  ],
+  [
+   72,
+   "successful Conclusion",
+   "successful conclusion",
+   "ocr"
+  ],
+  [
+   79,
+   "divided rations",
+   "divided nations",
+   "ocr"
+  ],
+  [
+   80,
+   "Governments :n these",
+   "Governments in these",
+   "ocr"
+  ],
+  [
+   21,
+   " [Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "[A/7201/Add.1, para. 174.] .",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "58046ff6678041ae2cd61ada8faff815a5dc9ef1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2238,
+  "words_out": 2210,
+  "retention": 0.9875,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   78,
+   184,
+   120,
+   158,
+   192,
+   82,
+   82,
+   112,
+   111,
+   95,
+   82,
+   66,
+   80,
+   107,
+   102,
+   67,
+   172,
+   99,
+   91,
+   130
+  ],
+  "warnings": []
+ }
+}

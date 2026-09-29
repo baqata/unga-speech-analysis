@@ -1,0 +1,78 @@
+{
+ "id": "LBR_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  15,
+  18,
+  23,
+  31,
+  36,
+  42,
+  48,
+  54,
+  58,
+  62,
+  68,
+  70,
+  75,
+  80,
+  85,
+  91,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "these 5ears",
+   "these years",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 70 opens 'This is a problem that gravely concerns my Government' with no antecedent; the passage introducing the question of dependent peoples appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "401ee19227a3a829e6d783231bbcb5d7c5fa0b6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2388,
+  "words_out": 2388,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   92,
+   104,
+   134,
+   73,
+   114,
+   156,
+   136,
+   125,
+   211,
+   142,
+   167,
+   98,
+   123,
+   66,
+   97,
+   85,
+   116,
+   142,
+   103,
+   104
+  ],
+  "warnings": []
+ }
+}

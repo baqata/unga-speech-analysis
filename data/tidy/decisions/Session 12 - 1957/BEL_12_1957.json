@@ -1,0 +1,131 @@
+{
+ "id": "BEL_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  12,
+  19,
+  24,
+  28,
+  33,
+  38,
+  45,
+  49,
+  55,
+  61,
+  66,
+  74,
+  80,
+  86,
+  87,
+  93,
+  97,
+  101,
+  106,
+  111,
+  113,
+  115,
+  116,
+  121,
+  124,
+  127
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "same time,",
+   "same time.",
+   "ocr"
+  ],
+  [
+   38,
+   "mention if what",
+   "mention of what",
+   "ocr"
+  ],
+  [
+   64,
+   "rights o; mankind",
+   "rights of mankind",
+   "ocr"
+  ],
+  [
+   68,
+   "stronger that the",
+   "stronger than the",
+   "ocr"
+  ],
+  [
+   112,
+   "large- scale",
+   "large-scale",
+   "spacing"
+  ],
+  [
+   113,
+   "at Its present",
+   "at its present",
+   "ocr"
+  ],
+  [
+   120,
+   "ref erred",
+   "referred",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40f9b4bdc175a4eb18a1a15a5ee8c9f3c1fae7ef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 39
+  },
+  "words_in": 3451,
+  "words_out": 3449,
+  "retention": 0.9994,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   24,
+   82,
+   145,
+   182,
+   147,
+   91,
+   107,
+   103,
+   178,
+   108,
+   162,
+   155,
+   111,
+   169,
+   116,
+   150,
+   79,
+   122,
+   83,
+   138,
+   131,
+   143,
+   63,
+   89,
+   86,
+   214,
+   97,
+   88,
+   86
+  ],
+  "warnings": []
+ }
+}

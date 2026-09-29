@@ -1,0 +1,130 @@
+{
+ "id": "TUN_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  17,
+  21,
+  26,
+  32,
+  35,
+  38,
+  42,
+  46,
+  52,
+  57,
+  63,
+  69,
+  72,
+  79,
+  87,
+  93,
+  98,
+  103,
+  110,
+  113,
+  122,
+  128,
+  136,
+  147,
+  151,
+  157,
+  160,
+  163,
+  166,
+  171,
+  176,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "Information",
+   "information",
+   "ocr"
+  ],
+  [
+   58,
+   "Itself",
+   "itself",
+   "ocr"
+  ],
+  [
+   64,
+   "Inadequacy",
+   "inadequacy",
+   "ocr"
+  ],
+  [
+   143,
+   "thirty- two",
+   "thirty-two",
+   "spacing"
+  ],
+  [
+   152,
+   "the. scope",
+   "the scope",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "434f9bba9b9bd4658314581bc28fd33e61810e26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 4692,
+  "words_out": 4631,
+  "retention": 0.987,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   159,
+   101,
+   139,
+   105,
+   82,
+   147,
+   98,
+   88,
+   158,
+   138,
+   157,
+   117,
+   182,
+   129,
+   60,
+   174,
+   208,
+   184,
+   100,
+   123,
+   163,
+   71,
+   126,
+   169,
+   214,
+   219,
+   78,
+   129,
+   136,
+   90,
+   87,
+   130,
+   113,
+   94,
+   163
+  ],
+  "warnings": []
+ }
+}

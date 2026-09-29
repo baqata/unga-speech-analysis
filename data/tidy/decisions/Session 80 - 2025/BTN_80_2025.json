@@ -1,0 +1,94 @@
+{
+ "id": "BTN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   92,
+   92,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  12,
+  21,
+  31,
+  50,
+  60,
+  67,
+  80,
+  87,
+  90
+ ],
+ "cer": [
+  2,
+  90
+ ],
+ "fix": [
+  [
+   61,
+   "Gelifu",
+   "Gelephu",
+   "asr_name"
+  ],
+  [
+   63,
+   "Gelifu",
+   "Gelephu",
+   "asr_name"
+  ],
+  [
+   65,
+   "Gelifu",
+   "Gelephu",
+   "asr_name"
+  ],
+  [
+   67,
+   "Gelifu",
+   "Gelephu",
+   "asr_name"
+  ],
+  [
+   74,
+   "Gelifu",
+   "Gelephu",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "608ee8a390f215f733e3072dc9764a599e42c7f5",
+ "layout": "single",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1389,
+  "words_out": 1340,
+  "retention": 0.9647,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   35,
+   128,
+   155,
+   137,
+   193,
+   129,
+   111,
+   175,
+   190,
+   79,
+   8
+  ],
+  "warnings": []
+ }
+}

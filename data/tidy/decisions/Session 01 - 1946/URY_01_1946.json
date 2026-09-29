@@ -1,0 +1,69 @@
+{
+ "id": "URY_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  12,
+  15,
+  20,
+  27,
+  31,
+  34,
+  35,
+  36,
+  37,
+  41,
+  42,
+  44
+ ],
+ "cer": [
+  0,
+  34,
+  36,
+  41
+ ],
+ "fix": [
+  [
+   39,
+   "north,",
+   "north.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76a2ede2def3cb9c653c614b4e5bbd3161b57c4f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1465,
+  "words_out": 1465,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   59,
+   97,
+   117,
+   146,
+   75,
+   117,
+   176,
+   126,
+   79,
+   44,
+   41,
+   44,
+   123,
+   68,
+   63,
+   90
+  ],
+  "warnings": []
+ }
+}

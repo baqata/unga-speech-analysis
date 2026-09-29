@@ -1,0 +1,58 @@
+{
+ "id": "AND_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  21,
+  35,
+  55,
+  66,
+  83,
+  93,
+  123,
+  146,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   134,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "194cc5b9fa786747569d790ee090be5028d12678",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1301,
+  "words_out": 1298,
+  "retention": 0.9977,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   29,
+   134,
+   105,
+   162,
+   88,
+   132,
+   80,
+   218,
+   186,
+   114,
+   50
+  ],
+  "warnings": []
+ }
+}

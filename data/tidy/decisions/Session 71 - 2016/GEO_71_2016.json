@@ -1,0 +1,70 @@
+{
+ "id": "GEO_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  15,
+  23,
+  29,
+  33,
+  38,
+  46,
+  49,
+  56,
+  62,
+  71,
+  81,
+  85,
+  96,
+  100,
+  104,
+  113
+ ],
+ "cer": [],
+ "fix": [
+  [
+   58,
+   "heath-care",
+   "health-care",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb7fafa3ffac6613788b1848ff6a33f001c02634",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2337,
+  "words_out": 2337,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   148,
+   77,
+   116,
+   143,
+   140,
+   87,
+   98,
+   124,
+   63,
+   142,
+   136,
+   165,
+   155,
+   85,
+   204,
+   62,
+   102,
+   189,
+   101
+  ],
+  "warnings": []
+ }
+}

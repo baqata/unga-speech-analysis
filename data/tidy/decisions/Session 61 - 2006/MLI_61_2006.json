@@ -1,0 +1,80 @@
+{
+ "id": "MLI_61_2006",
+ "drop": [
+  [
+   81,
+   82,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  21,
+  40,
+  50,
+  62,
+  83,
+  107,
+  129,
+  148,
+  163,
+  173,
+  183,
+  205,
+  225,
+  240,
+  254,
+  263,
+  286,
+  300
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c5e7b583e9ca731a9905e0e47080b694c4e2d23d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 310,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2439,
+  "words_out": 2427,
+  "retention": 0.9951,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   75,
+   79,
+   162,
+   88,
+   93,
+   145,
+   187,
+   186,
+   151,
+   103,
+   75,
+   82,
+   168,
+   148,
+   115,
+   108,
+   77,
+   184,
+   113,
+   88
+  ],
+  "warnings": [
+   "procedural drop [81,82] in the middle of the speech"
+  ]
+ }
+}

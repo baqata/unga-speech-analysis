@@ -1,0 +1,104 @@
+{
+ "id": "MYS_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  30,
+  40,
+  50,
+  66,
+  84,
+  98,
+  110,
+  122,
+  132,
+  150,
+  162,
+  171,
+  181,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "moderates (see",
+   "moderates.",
+   "spacing"
+  ],
+  [
+   6,
+   "A/65/PV.19). ",
+   "",
+   "label"
+  ],
+  [
+   96,
+   " (ibid., V:32)",
+   "",
+   "label"
+  ],
+  [
+   97,
+   " (ibid., II:256)",
+   "",
+   "label"
+  ],
+  [
+   117,
+   " (ibid., II:143)",
+   "",
+   "label"
+  ],
+  [
+   93,
+   " (The Holy Koran,",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "VIII:61) ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17f5c786fcf5c08600247f9a4b837509662b02f6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1725,
+  "words_out": 1713,
+  "retention": 0.993,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   34,
+   60,
+   163,
+   76,
+   89,
+   123,
+   136,
+   129,
+   112,
+   109,
+   94,
+   129,
+   96,
+   77,
+   84,
+   79,
+   123
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "KEN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  17,
+  27,
+  45,
+  56,
+  76,
+  94,
+  107,
+  124,
+  137,
+  149,
+  175,
+  184,
+  193
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "ìIn",
+   "“In",
+   "encoding"
+  ],
+  [
+   14,
+   "freedomî",
+   "freedom”",
+   "encoding"
+  ],
+  [
+   51,
+   "ìwe",
+   "“we",
+   "encoding"
+  ],
+  [
+   54,
+   "rightsî",
+   "rights”",
+   "encoding"
+  ],
+  [
+   122,
+   "Organizationís",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   124,
+   "Secretary-Generalís",
+   "Secretary-General’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67a01acc77c2448ef02663c6a4591bc238df55c4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1491,
+  "words_out": 1484,
+  "retention": 0.9953,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   43,
+   100,
+   79,
+   139,
+   80,
+   148,
+   122,
+   96,
+   115,
+   86,
+   82,
+   189,
+   64,
+   68,
+   73
+  ],
+  "warnings": []
+ }
+}

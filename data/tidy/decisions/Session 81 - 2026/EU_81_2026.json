@@ -1,0 +1,129 @@
+{
+ "id": "EU_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  11,
+  16,
+  22,
+  31,
+  38,
+  47,
+  56,
+  62,
+  68,
+  78,
+  88
+ ],
+ "cer": [
+  2,
+  88
+ ],
+ "fix": [
+  [
+   25,
+   "Partners Forum",
+   "partners from",
+   "asr_term"
+  ],
+  [
+   31,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   4,
+   "today. alone",
+   "today. Alone",
+   "asr_term"
+  ],
+  [
+   9,
+   "equality. multilateralism",
+   "equality. Multilateralism",
+   "asr_term"
+  ],
+  [
+   21,
+   "accountable. the",
+   "accountable. The",
+   "asr_term"
+  ],
+  [
+   33,
+   "law. following",
+   "law. Following",
+   "asr_term"
+  ],
+  [
+   37,
+   "everywhere. in",
+   "everywhere. In",
+   "asr_term"
+  ],
+  [
+   49,
+   "clear. the",
+   "clear. The",
+   "asr_term"
+  ],
+  [
+   67,
+   "trade. and",
+   "trade. And",
+   "asr_term"
+  ],
+  [
+   61,
+   "will depend on",
+   "will determine",
+   "interp"
+  ],
+  [
+   77,
+   "by 2027",
+   "of 2027",
+   "interp"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in three languages: English to about 323 s, a third language, probably French, to about 603 s (both channels interpret), and Spanish from unit 56 to unit 82 (604-870 s; the Spanish channel leads the English by 2-4 s and carries the speaker's Portuguese forms 'construindo', 'Mercosul'), then English again from unit 83 (the English leads; 'Let us reinvest' has no Spanish counterpart). Units 56-82 were checked against the speaker's Spanish under interp (validation v2 of 09-28, read by the main agent 09-29): unit 61 'will depend on' -> 'will determine' (speaker: 'De este compromiso dependerá la solidez del sistema multilateral del mañana'; the English reversed the dependency); unit 77 'by 2027' -> 'of 2027' (speaker: 'sobre los objetivos de desarrollo sostenible de 2027, debe ser un punto de inflexión', re-decoded p 0.98-0.99; the 2027 SDG Summit, not a deadline; Consilium text 'The 2027 Sustainable Development Goals Summit must be a turning point'). Left as interpreted, since a repair cannot add words: unit 63 omits the speaker's 'ni establecer esferas de influencia' (spheres of influence); unit 66 omits Indonesia ('Filipinas, Indonesia, Mercosul y México'); unit 75 omits 'desde infraestructuras sostenibles'; no presiding-officer closing in the recording. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'today. alone' -> 'today. Alone'; unit 9 'equality. multilateralism' -> 'equality. Multilateralism'; unit 21 'accountable. the' -> 'accountable. The'; unit 33 'law. following' -> 'law. Following'; unit 37 'everywhere. in' -> 'everywhere. In'; unit 49 'clear. the' -> 'clear. The'; unit 67 'trade. and' -> 'trade. And'",
+ "unitizer_version": 1,
+ "sha1": "1c749be156fb5084783d6dcd282f4ec764b677cd",
+ "layout": "single",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1457,
+  "words_out": 1423,
+  "retention": 0.9767,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   12,
+   106,
+   87,
+   101,
+   184,
+   133,
+   170,
+   188,
+   140,
+   116,
+   136,
+   46,
+   4
+  ],
+  "warnings": []
+ }
+}

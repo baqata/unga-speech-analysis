@@ -1,0 +1,86 @@
+{
+ "id": "CAF_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  25,
+  43,
+  63,
+  75,
+  97,
+  115,
+  134,
+  145,
+  161,
+  172,
+  182
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   52,
+   " (A/47/277)",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "(A/50/60), ",
+   "",
+   "label"
+  ],
+  [
+   113,
+   " (A/52/871,",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "para. 37)",
+   "",
+   "label"
+  ],
+  [
+   205,
+   " (ibid.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f3ea4672292c60f97821512b422f9ec8da1de8b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1708,
+  "words_out": 1699,
+  "retention": 0.9947,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   76,
+   124,
+   158,
+   158,
+   104,
+   192,
+   136,
+   161,
+   96,
+   128,
+   90,
+   76,
+   200
+  ],
+  "warnings": []
+ }
+}

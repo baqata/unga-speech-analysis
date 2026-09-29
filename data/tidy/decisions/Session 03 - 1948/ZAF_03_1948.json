@@ -1,0 +1,70 @@
+{
+ "id": "ZAF_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  15,
+  19,
+  24,
+  32,
+  37,
+  44,
+  48,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "Charier",
+   "Charter",
+   "ocr"
+  ],
+  [
+   19,
+   "bad been",
+   "had been",
+   "ocr"
+  ],
+  [
+   45,
+   "bad been",
+   "had been",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "0602bcd3ae9e859e8a5075281e51f2c372357f4b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1597,
+  "words_out": 1597,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   58,
+   170,
+   193,
+   122,
+   196,
+   160,
+   142,
+   219,
+   135,
+   130,
+   72
+  ],
+  "warnings": []
+ }
+}

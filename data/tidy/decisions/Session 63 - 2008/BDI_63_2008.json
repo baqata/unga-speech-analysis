@@ -1,0 +1,53 @@
+{
+ "id": "BDI_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  40,
+  60,
+  74,
+  89,
+  106,
+  121,
+  145,
+  172,
+  194,
+  208
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d168a663bf2bfbc4677ab60d7a0a2b4ce1544e68",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1627,
+  "words_out": 1624,
+  "retention": 0.9982,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   152,
+   165,
+   144,
+   111,
+   118,
+   140,
+   97,
+   186,
+   205,
+   169,
+   94,
+   43
+  ],
+  "warnings": []
+ }
+}

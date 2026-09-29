@@ -1,0 +1,105 @@
+{
+ "id": "MWI_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  12,
+  16,
+  19,
+  22,
+  25,
+  30,
+  35,
+  38,
+  40,
+  43,
+  48,
+  50,
+  57,
+  59,
+  61,
+  65,
+  71,
+  75,
+  79,
+  83,
+  87,
+  93,
+  98,
+  101
+ ],
+ "cer": [
+  0,
+  4,
+  10,
+  101
+ ],
+ "fix": [
+  [
+   37,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ],
+  [
+   39,
+   "tree and",
+   "free and",
+   "ocr"
+  ],
+  [
+   53,
+   "has.not",
+   "has not",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c881e32291d7ea670b317402f24bed11e4f5bb05",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3144,
+  "words_out": 3137,
+  "retention": 0.9978,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   147,
+   161,
+   70,
+   122,
+   67,
+   129,
+   89,
+   122,
+   164,
+   111,
+   82,
+   61,
+   180,
+   64,
+   160,
+   61,
+   108,
+   185,
+   180,
+   112,
+   95,
+   75,
+   92,
+   181,
+   142,
+   78,
+   99
+  ],
+  "warnings": []
+ }
+}

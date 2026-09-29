@@ -1,0 +1,114 @@
+{
+ "id": "COL_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  18,
+  22,
+  28,
+  33,
+  40,
+  45,
+  51,
+  55,
+  57,
+  62,
+  69,
+  76,
+  82,
+  87,
+  92,
+  96,
+  100,
+  104,
+  111,
+  118,
+  124,
+  127
+ ],
+ "cer": [
+  127
+ ],
+ "fix": [
+  [
+   14,
+   "history. of",
+   "history of",
+   "ocr"
+  ],
+  [
+   22,
+   "with he task",
+   "with the task",
+   "ocr"
+  ],
+  [
+   51,
+   "ail their",
+   "all their",
+   "ocr"
+  ],
+  [
+   67,
+   "For tie first",
+   "For the first",
+   "ocr"
+  ],
+  [
+   102,
+   "the United.",
+   "the United",
+   "ocr"
+  ],
+  [
+   113,
+   "world. even",
+   "world, even",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81cc0ffa7deba990221f28c1697895a9cb2d6fd9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4070,
+  "words_out": 4038,
+  "retention": 0.9921,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   152,
+   159,
+   122,
+   137,
+   196,
+   195,
+   222,
+   135,
+   186,
+   110,
+   142,
+   217,
+   140,
+   141,
+   164,
+   159,
+   139,
+   133,
+   119,
+   200,
+   223,
+   248,
+   198,
+   62,
+   139
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "SMR_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  19,
+  23,
+  25,
+  28,
+  31,
+  34,
+  38,
+  43,
+  47,
+  50,
+  54,
+  57,
+  62,
+  66,
+  68,
+  71,
+  74,
+  76,
+  80,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   21,
+   " (A/72/1)",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   71,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   81,
+   "nuclear- weapons",
+   "nuclear-weapons",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2c9e3fe3ddb3f5d75e43d242a9f0f9d100fca440",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2369,
+  "words_out": 2364,
+  "retention": 0.9979,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   135,
+   99,
+   188,
+   107,
+   63,
+   87,
+   82,
+   72,
+   121,
+   118,
+   111,
+   94,
+   80,
+   72,
+   106,
+   105,
+   74,
+   118,
+   87,
+   72,
+   125,
+   136,
+   112
+  ],
+  "warnings": []
+ }
+}

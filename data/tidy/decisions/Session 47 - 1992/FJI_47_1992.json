@@ -1,0 +1,84 @@
+{
+ "id": "FJI_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  28,
+  45,
+  61,
+  78,
+  93,
+  111,
+  133,
+  153,
+  172,
+  195,
+  214,
+  230,
+  242,
+  257
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   124,
+   "a. small",
+   "a small",
+   "ocr"
+  ],
+  [
+   164,
+   "and.social",
+   "and social",
+   "ocr"
+  ],
+  [
+   247,
+   "France'^",
+   "France's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e50ee5715e7d5c3d532bf9d4538eccb2ede4d90",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2946,
+  "words_out": 2946,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   145,
+   157,
+   200,
+   193,
+   188,
+   156,
+   191,
+   250,
+   212,
+   184,
+   250,
+   222,
+   182,
+   130,
+   154,
+   132
+  ],
+  "warnings": []
+ }
+}

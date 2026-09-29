@@ -1,0 +1,145 @@
+{
+ "id": "NGA_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  9,
+  11,
+  16,
+  20,
+  24,
+  26,
+  31,
+  33,
+  36,
+  40,
+  44,
+  48,
+  50,
+  53,
+  57,
+  59,
+  62,
+  64,
+  67,
+  71,
+  75,
+  80,
+  83,
+  86,
+  91,
+  94,
+  100,
+  102,
+  106
+ ],
+ "cer": [
+  0,
+  5,
+  7,
+  9
+ ],
+ "fix": [
+  [
+   5,
+   "1 should",
+   "I should",
+   "ocr"
+  ],
+  [
+   22,
+   " [resolution ES8/2]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   " .relations",
+   " relations",
+   "ocr"
+  ],
+  [
+   57,
+   "all. countries",
+   "all countries",
+   "ocr"
+  ],
+  [
+   63,
+   "A? contemporary",
+   "As contemporary",
+   "ocr"
+  ],
+  [
+   63,
+   "have Additionally been",
+   "have traditionally been",
+   "ocr"
+  ],
+  [
+   91,
+   "the* great",
+   "the great",
+   "ocr"
+  ],
+  [
+   101,
+   " [see resolution S1012]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fe1c36d7005dc6b56837750cc58d308f53417d66",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3623,
+  "words_out": 3616,
+  "retention": 0.9981,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   142,
+   96,
+   63,
+   56,
+   142,
+   87,
+   149,
+   103,
+   191,
+   126,
+   83,
+   114,
+   131,
+   120,
+   109,
+   111,
+   127,
+   95,
+   96,
+   101,
+   93,
+   94,
+   97,
+   143,
+   107,
+   51,
+   96,
+   113,
+   209,
+   71,
+   154,
+   146
+  ],
+  "warnings": []
+ }
+}

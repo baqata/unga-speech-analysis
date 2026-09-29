@@ -1,0 +1,131 @@
+{
+ "id": "CHL_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  17,
+  24,
+  27,
+  32,
+  38,
+  42,
+  50,
+  57,
+  64,
+  72,
+  78,
+  81,
+  87,
+  91,
+  98,
+  103,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "grateful, to",
+   "grateful to",
+   "ocr"
+  ],
+  [
+   5,
+   "through, him",
+   "through him",
+   "ocr"
+  ],
+  [
+   13,
+   "in dependence",
+   "independence",
+   "spacing"
+  ],
+  [
+   34,
+   "oar own",
+   "our own",
+   "ocr"
+  ],
+  [
+   39,
+   "act at all",
+   "not at all",
+   "ocr"
+  ],
+  [
+   67,
+   "bf",
+   "of",
+   "ocr"
+  ],
+  [
+   68,
+   "them,",
+   "them.",
+   "ocr"
+  ],
+  [
+   71,
+   "dignity,",
+   "dignity.",
+   "ocr"
+  ],
+  [
+   82,
+   "last- war",
+   "last war",
+   "ocr"
+  ],
+  [
+   100,
+   "146, ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "84237d009328be2a769c1fcd2bbd9d72f36de111",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 2921,
+  "words_out": 2918,
+  "retention": 0.999,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   169,
+   162,
+   160,
+   163,
+   62,
+   100,
+   181,
+   101,
+   179,
+   148,
+   186,
+   193,
+   214,
+   107,
+   149,
+   129,
+   162,
+   163,
+   113,
+   77
+  ],
+  "warnings": []
+ }
+}

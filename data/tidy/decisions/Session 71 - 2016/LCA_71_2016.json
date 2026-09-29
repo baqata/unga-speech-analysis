@@ -1,0 +1,56 @@
+{
+ "id": "LCA_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  16,
+  20,
+  25,
+  29,
+  32,
+  36,
+  39,
+  46,
+  55
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   "16-29811 5/52 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3de191ef91f755f29846f07a6530fb64e5f63907",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1412,
+  "words_out": 1410,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   122,
+   118,
+   155,
+   103,
+   127,
+   85,
+   93,
+   75,
+   111,
+   134,
+   150,
+   137
+  ],
+  "warnings": []
+ }
+}

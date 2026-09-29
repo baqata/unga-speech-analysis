@@ -1,0 +1,161 @@
+{
+ "id": "MEX_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  15,
+  20,
+  23,
+  27,
+  33,
+  37,
+  44,
+  46,
+  51,
+  57,
+  62,
+  68,
+  71,
+  75,
+  79,
+  83,
+  86,
+  94,
+  100,
+  103,
+  108,
+  114,
+  116,
+  122,
+  125,
+  128,
+  131,
+  135,
+  138,
+  142,
+  145,
+  148,
+  150,
+  155,
+  159,
+  161
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "\"man, in the street\"",
+   "\"man in the street\"",
+   "ocr"
+  ],
+  [
+   59,
+   "mode rating",
+   "moderating",
+   "split_word"
+  ],
+  [
+   80,
+   "December 1951, The",
+   "December 1951. The",
+   "ocr"
+  ],
+  [
+   93,
+   "[447th meeting. para. 89.]",
+   "",
+   "label"
+  ],
+  [
+   99,
+   " [resolution 190(111)]",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "freeman-kind",
+   "free mankind",
+   "ocr"
+  ],
+  [
+   132,
+   "still for below",
+   "still far below",
+   "ocr"
+  ],
+  [
+   134,
+   "Latin, America",
+   "Latin America",
+   "ocr"
+  ],
+  [
+   160,
+   "power and. influence",
+   "power and influence",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40aa008412cbc706a4fd5e95b0e582b03fb3fe8e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 166,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 71
+  },
+  "words_in": 6327,
+  "words_out": 6315,
+  "retention": 0.9981,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   139,
+   108,
+   230,
+   210,
+   170,
+   115,
+   250,
+   191,
+   197,
+   68,
+   266,
+   244,
+   244,
+   197,
+   108,
+   105,
+   161,
+   141,
+   96,
+   163,
+   211,
+   106,
+   243,
+   174,
+   117,
+   142,
+   103,
+   117,
+   193,
+   159,
+   148,
+   187,
+   118,
+   154,
+   108,
+   187,
+   166,
+   67,
+   212
+  ],
+  "warnings": []
+ }
+}

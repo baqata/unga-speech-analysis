@@ -1,0 +1,100 @@
+{
+ "id": "CAN_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  14,
+  23,
+  28,
+  36,
+  42,
+  45,
+  51,
+  55,
+  62,
+  67,
+  75,
+  81,
+  87,
+  92,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   " (136th meeting)",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "hack and",
+   "back and",
+   "ocr"
+  ],
+  [
+   45,
+   "bad suffered",
+   "had suffered",
+   "ocr"
+  ],
+  [
+   66,
+   "I additional",
+   "additional",
+   "ocr"
+  ],
+  [
+   81,
+   " (143rd meeting)",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "law ox",
+   "law of",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "a815c645f971305e92dde7268dc4d06db6d7db4a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2896,
+  "words_out": 2891,
+  "retention": 0.9983,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   244,
+   144,
+   218,
+   163,
+   189,
+   165,
+   107,
+   230,
+   190,
+   205,
+   122,
+   170,
+   173,
+   151,
+   137,
+   126,
+   157
+  ],
+  "warnings": []
+ }
+}

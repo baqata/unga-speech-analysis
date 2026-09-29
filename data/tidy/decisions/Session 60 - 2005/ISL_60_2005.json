@@ -1,0 +1,41 @@
+{
+ "id": "ISL_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  47,
+  59,
+  77,
+  95
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a4d4d9c736ddfadb796b55a28a406d8491b02c1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 795,
+  "words_out": 793,
+  "retention": 0.9975,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   84,
+   129,
+   149,
+   91,
+   144,
+   122,
+   74
+  ],
+  "warnings": []
+ }
+}

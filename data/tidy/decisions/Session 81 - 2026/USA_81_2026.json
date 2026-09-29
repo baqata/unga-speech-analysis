@@ -1,0 +1,206 @@
+{
+ "id": "USA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   339,
+   340,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  14,
+  22,
+  30,
+  38,
+  42,
+  52,
+  60,
+  66,
+  78,
+  85,
+  94,
+  112,
+  120,
+  127,
+  136,
+  147,
+  153,
+  158,
+  165,
+  177,
+  191,
+  200,
+  215,
+  223,
+  230,
+  239,
+  242,
+  245,
+  261,
+  266,
+  272,
+  280,
+  285,
+  301,
+  314,
+  322,
+  327,
+  336
+ ],
+ "cer": [
+  3,
+  336
+ ],
+ "fix": [
+  [
+   3,
+   "The President,",
+   "Mr. President,",
+   "asr_term"
+  ],
+  [
+   240,
+   "Ruta",
+   "Rutte",
+   "asr_name"
+  ],
+  [
+   261,
+   "Walz",
+   "Waltz",
+   "asr_name"
+  ],
+  [
+   16,
+   "record. the",
+   "record. The",
+   "asr_term"
+  ],
+  [
+   45,
+   "fester. they",
+   "fester. They",
+   "asr_term"
+  ],
+  [
+   50,
+   "world. working",
+   "world. Working",
+   "asr_term"
+  ],
+  [
+   65,
+   "shield. if",
+   "shield. If",
+   "asr_term"
+  ],
+  [
+   114,
+   "before. top-of-the-line",
+   "before. Top-of-the-line",
+   "asr_term"
+  ],
+  [
+   304,
+   "warming. and",
+   "warming. And",
+   "asr_term"
+  ],
+  [
+   307,
+   "borders. whoever",
+   "borders. Whoever",
+   "asr_term"
+  ],
+  [
+   313,
+   "Revolution. many",
+   "Revolution. Many",
+   "asr_term"
+  ],
+  [
+   285,
+   "here and after",
+   "hereinafter",
+   "asr_term"
+  ],
+  [
+   77,
+   "whole",
+   "hall",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in English; opening 'Mr. President' per main-agent re-decode (Spanish 'senor presidente'); NATO Secretary General Mark Rutte and Ambassador Mike Waltz by name; the speaker's own 'Thank you.' at units 111 and 134 kept. Main-agent audit: units 70 '72,000', 78 '159 ships' and 88 'more co-sponsors' kept as the speaker's words (p 0.98-1.00 in two decodes each; the Spanish interpreter differs). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'record. the' -> 'record. The'; unit 45 'fester. they' -> 'fester. They'; unit 50 'world. working' -> 'world. Working'; unit 65 'shield. if' -> 'shield. If'; unit 114 'before. top-of-the-line' -> 'before. Top-of-the-line'; unit 304 'warming. and' -> 'warming. And'; unit 307 'borders. whoever' -> 'borders. Whoever'; unit 313 'Revolution. many' -> 'Revolution. Many'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 24 unit 285 'here and after' -> 'hereinafter' (same sounds (decodes 'here and after'); 'here and after officially called superintelligence' does not fit, 'hereinafter officially called' does; UN 'hereinafter'). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 77 'whole' -> 'hall': forced scoring ties 'this hall' (-12.8) and 'this whole' (-13.0), while the UN transcript's 'as a whole' (-18.7) and 'this whole world' (-20.2) are not heard; 'any nation in this hall' fits, and the speaker says 'this hall' in unit 127.",
+ "unitizer_version": 1,
+ "sha1": "f73908935237e1d053faaa4e25b7bfc171de1913",
+ "layout": "single",
+ "stats": {
+  "n_units": 341,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 5228,
+  "words_out": 5170,
+  "retention": 0.9889,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   37,
+   97,
+   192,
+   84,
+   126,
+   70,
+   206,
+   133,
+   131,
+   204,
+   70,
+   136,
+   213,
+   145,
+   118,
+   111,
+   182,
+   139,
+   87,
+   146,
+   105,
+   210,
+   142,
+   183,
+   78,
+   124,
+   196,
+   71,
+   65,
+   145,
+   84,
+   127,
+   99,
+   142,
+   156,
+   190,
+   126,
+   106,
+   176,
+   18
+  ],
+  "warnings": []
+ }
+}

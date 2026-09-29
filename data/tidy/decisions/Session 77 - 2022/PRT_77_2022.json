@@ -1,0 +1,71 @@
+{
+ "id": "PRT_77_2022",
+ "drop": [
+  [
+   34,
+   34,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  17,
+  21,
+  24,
+  28,
+  31,
+  35,
+  40,
+  44,
+  49,
+  51,
+  56,
+  59,
+  63,
+  68
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39f20d3b6246a2562795177d0f0d0b99e84759b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1706,
+  "words_out": 1701,
+  "retention": 0.9971,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   61,
+   129,
+   124,
+   101,
+   120,
+   87,
+   106,
+   110,
+   78,
+   119,
+   79,
+   112,
+   60,
+   121,
+   77,
+   86,
+   85,
+   46
+  ],
+  "warnings": [
+   "procedural drop [34,34] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "CHN_04_1949",
+ "drop": [
+  [
+   68,
+   69,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  14,
+  22,
+  28,
+  32,
+  35,
+  42,
+  45,
+  50,
+  54,
+  57
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "tile moral",
+   "the moral",
+   "ocr"
+  ],
+  [
+   21,
+   "Russian' empire",
+   "Russian empire",
+   "ocr"
+  ],
+  [
+   35,
+   "China, had",
+   "China had",
+   "ocr"
+  ],
+  [
+   42,
+   "people. the",
+   "people, the",
+   "ocr"
+  ],
+  [
+   42,
+   "country, They",
+   "country. They",
+   "ocr"
+  ],
+  [
+   49,
+   "Chinese, communists",
+   "Chinese communists",
+   "ocr"
+  ],
+  [
+   59,
+   "the.",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "a380403be659baeb820747cf11d46b3ba2650307",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1682,
+  "words_out": 1625,
+  "retention": 0.9661,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   146,
+   116,
+   140,
+   186,
+   101,
+   76,
+   149,
+   99,
+   158,
+   79,
+   107,
+   268
+  ],
+  "warnings": []
+ }
+}

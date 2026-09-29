@@ -1,0 +1,96 @@
+{
+ "id": "QAT_28_1973",
+ "drop": [
+  [
+   45,
+   45,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  13,
+  15,
+  18,
+  22,
+  28,
+  30,
+  31,
+  36,
+  40,
+  42,
+  46
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "dignity .to",
+   "dignity to",
+   "ocr"
+  ],
+  [
+   30,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   40,
+   "and. their",
+   "and their",
+   "ocr"
+  ],
+  [
+   41,
+   "(XXVI)\\ As",
+   "(XXVI). As",
+   "ocr"
+  ],
+  [
+   41,
+   " [resolution 2832 (XXVI)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ec9d977638aa950696d79f343979719e9a71209",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1751,
+  "words_out": 1746,
+  "retention": 0.9971,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   128,
+   178,
+   110,
+   84,
+   118,
+   125,
+   199,
+   138,
+   91,
+   204,
+   83,
+   95,
+   147,
+   46
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "PRK_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  30,
+  46,
+  57,
+  68,
+  83,
+  111,
+  124,
+  138,
+  155,
+  169,
+  180,
+  191,
+  199,
+  220
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "dÈtente",
+   "détente",
+   "encoding"
+  ],
+  [
+   75,
+   "ìOur",
+   "“Our",
+   "encoding"
+  ],
+  [
+   76,
+   "itselfî",
+   "itself”",
+   "encoding"
+  ],
+  [
+   99,
+   "ìaxis",
+   "“axis",
+   "encoding"
+  ],
+  [
+   99,
+   "evilî",
+   "evil”",
+   "encoding"
+  ],
+  [
+   151,
+   "ìaction",
+   "“action",
+   "encoding"
+  ],
+  [
+   151,
+   "actionî",
+   "action”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3abc993d33fc7b603be0b146919dfa4c79b0b4e0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1775,
+  "words_out": 1771,
+  "retention": 0.9977,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   108,
+   117,
+   105,
+   95,
+   90,
+   113,
+   228,
+   99,
+   113,
+   139,
+   113,
+   83,
+   84,
+   63,
+   165,
+   56
+  ],
+  "warnings": []
+ }
+}

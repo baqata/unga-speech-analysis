@@ -1,0 +1,80 @@
+{
+ "id": "CAN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  11,
+  15,
+  21,
+  23,
+  26,
+  30,
+  35,
+  39,
+  44,
+  47,
+  52,
+  61,
+  64,
+  69,
+  74,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   62,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   69,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1b571413adb4a57ed6cb7af96a5de75c378248c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2259,
+  "words_out": 2252,
+  "retention": 0.9969,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   30,
+   134,
+   119,
+   128,
+   192,
+   88,
+   103,
+   110,
+   147,
+   132,
+   145,
+   118,
+   97,
+   155,
+   58,
+   84,
+   176,
+   73,
+   163
+  ],
+  "warnings": []
+ }
+}

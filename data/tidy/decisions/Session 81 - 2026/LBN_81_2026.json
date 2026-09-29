@@ -1,0 +1,149 @@
+{
+ "id": "LBN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   115,
+   115,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  13,
+  22,
+  34,
+  39,
+  49,
+  59,
+  65,
+  71,
+  76,
+  83,
+  86,
+  93,
+  96,
+  98,
+  110,
+  114
+ ],
+ "cer": [
+  114
+ ],
+ "fix": [
+  [
+   35,
+   "bitter future",
+   "better future",
+   "asr_term"
+  ],
+  [
+   93,
+   "situation or region",
+   "situation our region",
+   "asr_term"
+  ],
+  [
+   95,
+   "supply change",
+   "supply chains",
+   "asr_term"
+  ],
+  [
+   2,
+   "Secretary",
+   "Mr. President, Mr. Secretary",
+   "asr_term"
+  ],
+  [
+   2,
+   "restoring the ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "all, the The more",
+   "all, the more",
+   "asr_term"
+  ],
+  [
+   109,
+   "of of",
+   "of",
+   "asr_term"
+  ],
+  [
+   41,
+   "inherited. paralyzed",
+   "inherited. Paralyzed",
+   "asr_term"
+  ],
+  [
+   70,
+   "therefore? is",
+   "therefore is",
+   "asr_term"
+  ],
+  [
+   13,
+   "profound and",
+   "profound",
+   "asr_term"
+  ],
+  [
+   75,
+   "functions,",
+   "functions, and",
+   "asr_term"
+  ],
+  [
+   112,
+   "wanted",
+   "want it",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech interpreted into English; Spanish consistent on names and numbers (resolutions 1701 and 2790, 1949 Armistice). Main-agent tail check: unit 2 lost 'Mr. President, Mr.' at 28.8-29.9 (three re-decodes, President p 0.97-0.98; Spanish 'Senor presidente, senor secretario general'); 'restoring the' is a second decode of 'restoring' (label) and 'the The' a segment-boundary double. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 109 'of of' -> 'of'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 41 'inherited. paralyzed' -> 'inherited. Paralyzed'; unit 70 'therefore? is' -> 'therefore is'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 13 'profound and' -> 'profound' (both decodes lack 'and' (profound@176.8 1.00, transformations@177.2 0.91/0.93); 'profound and transformations' is an invented word; ES 'las transformaciones tan importantes'); spot 8 unit 75 'functions,' -> 'functions, and' (2026 exception: both decodes hear 'and' clearly (1.00/1.00) after 'functions,'; ES 'de las funciones de enlace y garantizaría'); spot 13 unit 112 'wanted' -> 'want it' ('want it' and 'wanted' sound alike (decodes 'wanted' 0.96/0.94); 'we wanted to be a more representative ... organization' does not fit the subject (the UN); ES 'porque queremos que sea una organización más representativa')",
+ "unitizer_version": 1,
+ "sha1": "9b8995de7702a55eeaca775cc67f80f3b0c7f328",
+ "layout": "single",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2533,
+  "words_out": 2478,
+  "retention": 0.9783,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   117,
+   156,
+   155,
+   263,
+   81,
+   215,
+   218,
+   133,
+   120,
+   170,
+   156,
+   79,
+   175,
+   72,
+   80,
+   184,
+   101,
+   3
+  ],
+  "warnings": []
+ }
+}

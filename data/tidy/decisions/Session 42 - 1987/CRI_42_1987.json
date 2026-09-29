@@ -1,0 +1,180 @@
+{
+ "id": "CRI_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  19,
+  27,
+  36,
+  43,
+  50,
+  61,
+  67,
+  70,
+  77,
+  93,
+  101,
+  106,
+  111,
+  117,
+  126,
+  128,
+  137
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "America}",
+   "America;",
+   "ocr"
+  ],
+  [
+   22,
+   "foe",
+   "for",
+   "ocr"
+  ],
+  [
+   39,
+   "roust",
+   "must",
+   "ocr"
+  ],
+  [
+   42,
+   "tights",
+   "rights",
+   "ocr"
+  ],
+  [
+   45,
+   "estimated}",
+   "estimated;",
+   "ocr"
+  ],
+  [
+   46,
+   "to long",
+   "so long",
+   "ocr"
+  ],
+  [
+   64,
+   "International",
+   "international",
+   "ocr"
+  ],
+  [
+   68,
+   "-they",
+   "they",
+   "ocr"
+  ],
+  [
+   71,
+   "ate unable",
+   "are unable",
+   "ocr"
+  ],
+  [
+   94,
+   "In a",
+   "in a",
+   "ocr"
+  ],
+  [
+   105,
+   "International",
+   "international",
+   "ocr"
+  ],
+  [
+   106,
+   ".Islands",
+   "Islands",
+   "ocr"
+  ],
+  [
+   108,
+   "Independence",
+   "independence",
+   "ocr"
+  ],
+  [
+   110,
+   "Intensification",
+   "intensification",
+   "ocr"
+  ],
+  [
+   112,
+   "In disarmament",
+   "in disarmament",
+   "ocr"
+  ],
+  [
+   113,
+   "In every",
+   "in every",
+   "ocr"
+  ],
+  [
+   114,
+   "In force",
+   "in force",
+   "ocr"
+  ],
+  [
+   116,
+   "Imperialistic",
+   "imperialistic",
+   "ocr"
+  ],
+  [
+   117,
+   "lt.",
+   "it.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae72ddf84d7eff63dfce617e63c1a270d05047ee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2465,
+  "words_out": 2464,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   104,
+   73,
+   161,
+   140,
+   115,
+   118,
+   159,
+   190,
+   100,
+   89,
+   127,
+   201,
+   191,
+   78,
+   100,
+   111,
+   136,
+   93,
+   99,
+   79
+  ],
+  "warnings": []
+ }
+}

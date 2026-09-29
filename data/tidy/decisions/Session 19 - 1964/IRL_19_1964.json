@@ -1,0 +1,165 @@
+{
+ "id": "IRL_19_1964",
+ "drop": [
+  [
+   57,
+   57,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  10,
+  15,
+  16,
+  20,
+  24,
+  27,
+  30,
+  32,
+  36,
+  38,
+  41,
+  43,
+  45,
+  48,
+  51,
+  55,
+  58,
+  62,
+  66,
+  69,
+  71,
+  75,
+  77,
+  82,
+  84,
+  87,
+  90,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   " (1287th meeting]",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "their, admission",
+   "their admission",
+   "ocr"
+  ],
+  [
+   8,
+   "i.962",
+   "1962",
+   "ocr"
+  ],
+  [
+   17,
+   "at; San",
+   "at San",
+   "ocr"
+  ],
+  [
+   18,
+   "Peace”resolution",
+   "Peace” resolution",
+   "spacing"
+  ],
+  [
+   23,
+   "strengthened In",
+   "strengthened in",
+   "ocr"
+  ],
+  [
+   29,
+   "be- interpreted",
+   "be interpreted",
+   "ocr"
+  ],
+  [
+   37,
+   "well^ have",
+   "well have",
+   "ocr"
+  ],
+  [
+   37,
+   "holocaust^ and",
+   "holocaust and",
+   "ocr"
+  ],
+  [
+   86,
+   "it. is",
+   "it is",
+   "ocr"
+  ],
+  [
+   94,
+   "countries,",
+   "countries.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab5bc57445ebedf529ce78f914caa53fccc7201e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 31
+  },
+  "words_in": 4065,
+  "words_out": 4061,
+  "retention": 0.999,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   175,
+   90,
+   159,
+   95,
+   178,
+   231,
+   146,
+   117,
+   101,
+   182,
+   72,
+   104,
+   145,
+   109,
+   114,
+   66,
+   174,
+   108,
+   177,
+   166,
+   148,
+   132,
+   190,
+   132,
+   184,
+   115,
+   120,
+   110,
+   95,
+   126
+  ],
+  "warnings": []
+ }
+}

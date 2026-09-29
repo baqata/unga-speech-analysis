@@ -1,0 +1,72 @@
+{
+ "id": "AUT_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  13,
+  23,
+  29,
+  32,
+  38,
+  42,
+  50,
+  61,
+  73,
+  79,
+  90,
+  97,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   71,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b8b215876fa53cf7ed865e42168a7e7cdb290261",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 1958,
+  "words_out": 1956,
+  "retention": 0.999,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   28,
+   161,
+   171,
+   123,
+   70,
+   103,
+   89,
+   124,
+   212,
+   226,
+   105,
+   208,
+   92,
+   155,
+   89
+  ],
+  "warnings": []
+ }
+}

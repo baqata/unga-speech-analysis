@@ -1,0 +1,167 @@
+{
+ "id": "UGA_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ],
+  [
+   135,
+   135,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  9,
+  15,
+  19,
+  22,
+  25,
+  28,
+  30,
+  35,
+  38,
+  40,
+  49,
+  53,
+  55,
+  61,
+  68,
+  71,
+  76,
+  78,
+  81,
+  84,
+  92,
+  97,
+  103,
+  109,
+  112,
+  114,
+  118,
+  120,
+  125,
+  130,
+  132,
+  134
+ ],
+ "cer": [
+  1,
+  5,
+  134
+ ],
+ "fix": [
+  [
+   2,
+   "special, significance",
+   "special significance",
+   "ocr"
+  ],
+  [
+   5,
+   "dignity find political",
+   "dignity and political",
+   "ocr"
+  ],
+  [
+   11,
+   "ha3",
+   "has",
+   "ocr"
+  ],
+  [
+   97,
+   "mankind Is",
+   "mankind is",
+   "ocr"
+  ],
+  [
+   102,
+   "situation,",
+   "situation.",
+   "ocr"
+  ],
+  [
+   103,
+   "operations; The question",
+   "operations. The question",
+   "ocr"
+  ],
+  [
+   106,
+   "medium, nations",
+   "medium nations",
+   "ocr"
+  ],
+  [
+   123,
+   "urgency,",
+   "urgency.",
+   "ocr"
+  ],
+  [
+   134,
+   "194. ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d5c41cc52bd24362fb649825b6436465515b5fa7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 4015,
+  "words_out": 4012,
+  "retention": 0.9993,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   141,
+   162,
+   129,
+   100,
+   132,
+   126,
+   93,
+   81,
+   147,
+   79,
+   83,
+   208,
+   95,
+   89,
+   204,
+   128,
+   90,
+   147,
+   68,
+   70,
+   107,
+   126,
+   138,
+   136,
+   169,
+   151,
+   84,
+   134,
+   68,
+   89,
+   227,
+   68,
+   56,
+   87
+  ],
+  "warnings": []
+ }
+}

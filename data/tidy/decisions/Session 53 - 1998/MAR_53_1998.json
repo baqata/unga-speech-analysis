@@ -1,0 +1,95 @@
+{
+ "id": "MAR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  21,
+  36,
+  53,
+  70,
+  83,
+  100,
+  119,
+  130,
+  146,
+  161,
+  172,
+  194,
+  214,
+  227
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   39,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   53,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   70,
+   "Israel?s",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   184,
+   "Morocco?s",
+   "Morocco’s",
+   "encoding"
+  ],
+  [
+   219,
+   "region?s",
+   "region’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7e129d9e1318a0da95a55f2ac3651b6587222e56",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1925,
+  "words_out": 1923,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   65,
+   59,
+   67,
+   118,
+   125,
+   145,
+   106,
+   146,
+   154,
+   85,
+   127,
+   122,
+   96,
+   179,
+   169,
+   111,
+   49
+  ],
+  "warnings": []
+ }
+}

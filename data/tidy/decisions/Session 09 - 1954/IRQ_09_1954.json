@@ -1,0 +1,121 @@
+{
+ "id": "IRQ_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  22,
+  25,
+  27,
+  34,
+  39,
+  40,
+  46,
+  49,
+  51,
+  61,
+  70,
+  77,
+  81,
+  84,
+  101,
+  107,
+  118,
+  128,
+  132,
+  140
+ ],
+ "cer": [
+  39
+ ],
+ "fix": [
+  [
+   17,
+   "dung",
+   "clung",
+   "ocr"
+  ],
+  [
+   32,
+   "-It",
+   "It",
+   "ocr"
+  ],
+  [
+   33,
+   "must- be",
+   "must be",
+   "spacing"
+  ],
+  [
+   68,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   91,
+   "properly",
+   "property",
+   "ocr"
+  ],
+  [
+   110,
+   "[resolution 181 B (II)]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "—",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4cc7e4f7afe8d496579395820564291275a640e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 24
+  },
+  "words_in": 3545,
+  "words_out": 3538,
+  "retention": 0.998,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   98,
+   129,
+   93,
+   189,
+   79,
+   97,
+   128,
+   111,
+   64,
+   180,
+   70,
+   100,
+   245,
+   257,
+   126,
+   80,
+   100,
+   277,
+   170,
+   254,
+   247,
+   178,
+   213,
+   53
+  ],
+  "warnings": []
+ }
+}

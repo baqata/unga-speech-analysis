@@ -1,0 +1,87 @@
+{
+ "id": "CAF_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  12,
+  16,
+  19,
+  24,
+  29,
+  35,
+  41,
+  46,
+  56,
+  62,
+  65,
+  68,
+  71,
+  77,
+  85,
+  89,
+  94,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   34,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   41,
+   "important- matters",
+   "important matters",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fdc42850e8c3d0c5243630b1dd3b5cfd490b61a3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 46
+  },
+  "words_in": 3512,
+  "words_out": 3512,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   201,
+   152,
+   106,
+   110,
+   191,
+   180,
+   185,
+   145,
+   212,
+   183,
+   148,
+   243,
+   170,
+   94,
+   117,
+   87,
+   158,
+   231,
+   122,
+   155,
+   138,
+   184
+  ],
+  "warnings": []
+ }
+}

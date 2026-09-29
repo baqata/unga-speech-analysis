@@ -1,0 +1,113 @@
+{
+ "id": "DOM_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  6,
+  7,
+  8,
+  12,
+  14,
+  17,
+  19,
+  21,
+  25,
+  29,
+  31,
+  34,
+  38,
+  40,
+  42,
+  45,
+  49,
+  52,
+  55,
+  59,
+  61,
+  65,
+  67,
+  69,
+  73,
+  76,
+  78
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   14,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   20,
+   "'he. case",
+   "the case",
+   "ocr"
+  ],
+  [
+   29,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   62,
+   "long age",
+   "long ago",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7f3556e923f233839ee3060f609591489b4b940",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3626,
+  "words_out": 3623,
+  "retention": 0.9992,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   318,
+   48,
+   103,
+   84,
+   154,
+   111,
+   95,
+   122,
+   77,
+   141,
+   143,
+   112,
+   154,
+   143,
+   110,
+   109,
+   102,
+   187,
+   91,
+   125,
+   205,
+   108,
+   162,
+   67,
+   101,
+   100,
+   101,
+   144,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "id": "YMD_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  11,
+  16,
+  20,
+  23,
+  27,
+  33,
+  35,
+  42,
+  43,
+  47,
+  50,
+  54,
+  60,
+  63,
+  67,
+  71,
+  76,
+  81,
+  83,
+  87,
+  91,
+  98,
+  101,
+  104
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   33,
+   "peace- loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   41,
+   "harmfiil",
+   "harmful",
+   "ocr"
+  ],
+  [
+   43,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ],
+  [
+   49,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "forward tr an",
+   "forward to an",
+   "ocr"
+  ],
+  [
+   85,
+   "it s important",
+   "it is important",
+   "ocr"
+  ],
+  [
+   99,
+   "genuine'",
+   "genuine",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 contains a misread word (\"will she international peace\").",
+ "unitizer_version": 1,
+ "sha1": "ceb33ed4d921a3bdb7185c531c08611c0992a5d1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3168,
+  "words_out": 3164,
+  "retention": 0.9987,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   158,
+   101,
+   103,
+   158,
+   147,
+   124,
+   83,
+   113,
+   55,
+   158,
+   41,
+   73,
+   89,
+   100,
+   135,
+   104,
+   225,
+   155,
+   134,
+   129,
+   79,
+   129,
+   93,
+   187,
+   92,
+   74,
+   125
+  ],
+  "warnings": []
+ }
+}

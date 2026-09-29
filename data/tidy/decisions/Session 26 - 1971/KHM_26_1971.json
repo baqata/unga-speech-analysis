@@ -1,0 +1,214 @@
+{
+ "id": "KHM_26_1971",
+ "drop": [
+  [
+   7,
+   7,
+   "presider"
+  ],
+  [
+   103,
+   103,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15,
+  20,
+  25,
+  30,
+  35,
+  39,
+  41,
+  44,
+  49,
+  54,
+  59,
+  60,
+  62,
+  67,
+  71,
+  74,
+  76,
+  79,
+  83,
+  85,
+  89,
+  92,
+  95,
+  102,
+  104
+ ],
+ "cer": [
+  0,
+  4,
+  8,
+  12
+ ],
+ "fix": [
+  [
+   8,
+   "gloving",
+   "glowing",
+   "ocr"
+  ],
+  [
+   8,
+   "Secretary-General',",
+   "Secretary-General,",
+   "ocr"
+  ],
+  [
+   14,
+   "we i-being",
+   "well-being",
+   "ocr"
+  ],
+  [
+   21,
+   "176: ",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "have Income scarce",
+   "have become scarce",
+   "ocr"
+  ],
+  [
+   41,
+   "14' May",
+   "14 May",
+   "ocr"
+  ],
+  [
+   43,
+   "Hud",
+   "Hue",
+   "ocr"
+  ],
+  [
+   49,
+   "Khmej",
+   "Khmer",
+   "ocr"
+  ],
+  [
+   53,
+   "tH utmost",
+   "the utmost",
+   "ocr"
+  ],
+  [
+   62,
+   "^f the",
+   "of the",
+   "ocr"
+  ],
+  [
+   64,
+   "hostess",
+   "hostages",
+   "ocr"
+  ],
+  [
+   71,
+   "194- ",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "of\" Sihanouk",
+   "of Sihanouk",
+   "ocr"
+  ],
+  [
+   90,
+   "Tine,",
+   "True,",
+   "ocr"
+  ],
+  [
+   102,
+   "203 ",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "end, Journalists",
+   "end. Journalists",
+   "ocr"
+  ],
+  [
+   102,
+   "have a recorded",
+   "have recorded",
+   "ocr"
+  ],
+  [
+   105,
+   "it is only desire",
+   "its only desire",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6fdf659f0c59a939c930da06475d0705b624ea1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {
+   "presider": 1,
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 33
+  },
+  "words_in": 3565,
+  "words_out": 3546,
+  "retention": 0.9947,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   141,
+   112,
+   120,
+   126,
+   154,
+   160,
+   214,
+   76,
+   157,
+   88,
+   127,
+   196,
+   139,
+   140,
+   60,
+   65,
+   141,
+   128,
+   91,
+   104,
+   68,
+   67,
+   82,
+   175,
+   145,
+   107,
+   208,
+   70,
+   85
+  ],
+  "warnings": []
+ }
+}

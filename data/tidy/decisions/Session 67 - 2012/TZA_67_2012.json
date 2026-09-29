@@ -1,0 +1,104 @@
+{
+ "id": "TZA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  29,
+  48,
+  69,
+  88,
+  97,
+  104,
+  115,
+  123,
+  137,
+  147,
+  166,
+  177,
+  192,
+  206
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "A/67/PV.1)",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "(resolution 55/2)",
+   "",
+   "label"
+  ],
+  [
+   100,
+   "(MDGs).Three",
+   "(MDGs). Three",
+   "spacing"
+  ],
+  [
+   202,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   203,
+   "A/66/PV.15)",
+   "",
+   "label"
+  ],
+  [
+   214,
+   "(resolution 2625 (XXV))",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d59219200281a0ef6da654aa2fe2b2ed11ce94e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1730,
+  "words_out": 1721,
+  "retention": 0.9948,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   133,
+   90,
+   139,
+   186,
+   166,
+   70,
+   66,
+   88,
+   68,
+   109,
+   66,
+   161,
+   79,
+   123,
+   109,
+   68
+  ],
+  "warnings": []
+ }
+}

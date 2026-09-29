@@ -1,0 +1,84 @@
+{
+ "id": "HTI_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   123,
+   123,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  13,
+  27,
+  35,
+  45,
+  51,
+  58,
+  62,
+  71,
+  77,
+  83,
+  87,
+  92,
+  98,
+  104,
+  112,
+  122
+ ],
+ "cer": [
+  2,
+  122
+ ],
+ "fix": [
+  [
+   76,
+   "BINU",
+   "BINUH",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dde07b73063399cf13683ce5596a0f8758fc7db3",
+ "layout": "single",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2486,
+  "words_out": 2420,
+  "retention": 0.9735,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   131,
+   200,
+   175,
+   115,
+   159,
+   97,
+   142,
+   129,
+   186,
+   167,
+   104,
+   92,
+   118,
+   135,
+   146,
+   133,
+   189,
+   2
+  ],
+  "warnings": []
+ }
+}

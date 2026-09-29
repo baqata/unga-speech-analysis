@@ -1,0 +1,97 @@
+{
+ "id": "SLE_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  23,
+  32,
+  42,
+  61,
+  87,
+  98,
+  122,
+  133,
+  151,
+  163,
+  187,
+  198,
+  220,
+  236,
+  256,
+  268
+ ],
+ "cer": [
+  0,
+  15
+ ],
+ "fix": [
+  [
+   24,
+   " [A/7601/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "Significant",
+   "significant",
+   "ocr"
+  ],
+  [
+   74,
+   "these.",
+   "these",
+   "ocr"
+  ],
+  [
+   200,
+   "[242 (1967)] ",
+   "",
+   "label"
+  ],
+  [
+   215,
+   "should. be",
+   "should be",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c34ad5439cc481f5fe1d8ae4f6f77f5f99cb5b5d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 283,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2570,
+  "words_out": 2546,
+  "retention": 0.9907,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   131,
+   74,
+   86,
+   91,
+   157,
+   236,
+   102,
+   211,
+   94,
+   170,
+   101,
+   224,
+   95,
+   195,
+   136,
+   165,
+   118,
+   160
+  ],
+  "warnings": []
+ }
+}

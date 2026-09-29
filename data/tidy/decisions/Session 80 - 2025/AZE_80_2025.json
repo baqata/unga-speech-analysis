@@ -1,0 +1,65 @@
+{
+ "id": "AZE_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  12,
+  18,
+  23,
+  30,
+  37,
+  46,
+  54,
+  67,
+  75,
+  82,
+  88,
+  91,
+  101
+ ],
+ "cer": [
+  101
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f78b9cb54523d3f84163552e6151589ff78dc7d6",
+ "layout": "single",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1832,
+  "words_out": 1801,
+  "retention": 0.9831,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   60,
+   131,
+   122,
+   90,
+   151,
+   189,
+   166,
+   193,
+   208,
+   133,
+   122,
+   68,
+   48,
+   118,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "ZAF_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  31,
+  42,
+  59,
+  83,
+  102,
+  111,
+  122,
+  131,
+  146,
+  158,
+  163,
+  170
+ ],
+ "cer": [
+  0,
+  131
+ ],
+ "fix": [
+  [
+   8,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "20efd7c46d4a531f4a00da4faa148ba6856cddd7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1458,
+  "words_out": 1455,
+  "retention": 0.9979,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   85,
+   80,
+   85,
+   78,
+   134,
+   183,
+   154,
+   80,
+   80,
+   76,
+   119,
+   90,
+   36,
+   67,
+   108
+  ],
+  "warnings": []
+ }
+}

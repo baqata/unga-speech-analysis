@@ -1,0 +1,53 @@
+{
+ "id": "NLD_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  34,
+  55,
+  80,
+  92,
+  109,
+  123,
+  145,
+  161,
+  178,
+  197,
+  215
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1594c3b3b3790cb51dfdb9e0735079eb8d8559ba",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 230,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1962,
+  "words_out": 1957,
+  "retention": 0.9975,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   123,
+   165,
+   184,
+   207,
+   100,
+   142,
+   116,
+   179,
+   141,
+   147,
+   167,
+   152,
+   134
+  ],
+  "warnings": []
+ }
+}

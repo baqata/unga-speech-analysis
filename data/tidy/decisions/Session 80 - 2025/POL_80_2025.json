@@ -1,0 +1,88 @@
+{
+ "id": "POL_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   147,
+   147,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  7,
+  16,
+  21,
+  30,
+  37,
+  43,
+  50,
+  56,
+  62,
+  69,
+  76,
+  84,
+  91,
+  100,
+  103,
+  110,
+  117,
+  122,
+  130,
+  140,
+  146
+ ],
+ "cer": [
+  2,
+  4,
+  146
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Units 2-3 are the President's own English remarks before switching to Polish, which is then interpreted.",
+ "unitizer_version": 1,
+ "sha1": "2ec7b36141edb5a1cba81e527ee7da7985da184e",
+ "layout": "single",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3014,
+  "words_out": 2966,
+  "retention": 0.9841,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   41,
+   51,
+   187,
+   67,
+   192,
+   178,
+   132,
+   107,
+   136,
+   97,
+   129,
+   142,
+   180,
+   153,
+   172,
+   61,
+   193,
+   205,
+   96,
+   143,
+   218,
+   81,
+   5
+  ],
+  "warnings": []
+ }
+}

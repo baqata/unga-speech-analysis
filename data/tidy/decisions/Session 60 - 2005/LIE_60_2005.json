@@ -1,0 +1,63 @@
+{
+ "id": "LIE_60_2005",
+ "drop": [
+  [
+   119,
+   120,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  21,
+  34,
+  47,
+  56,
+  69,
+  84,
+  100,
+  121,
+  137,
+  153,
+  171
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e01a00691469937dca523001aaf02cd92c43e9d4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1494,
+  "words_out": 1481,
+  "retention": 0.9913,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   86,
+   85,
+   106,
+   115,
+   72,
+   109,
+   126,
+   136,
+   147,
+   137,
+   131,
+   155,
+   76
+  ],
+  "warnings": [
+   "procedural drop [119,120] in the middle of the speech"
+  ]
+ }
+}

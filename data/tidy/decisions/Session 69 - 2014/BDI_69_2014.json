@@ -1,0 +1,90 @@
+{
+ "id": "BDI_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  37,
+  50,
+  62,
+  76,
+  85,
+  95,
+  106,
+  119,
+  134,
+  144,
+  159,
+  173,
+  194,
+  205,
+  222,
+  242,
+  251,
+  276,
+  286,
+  292
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   138,
+   "Commmission",
+   "Commission",
+   "ocr"
+  ],
+  [
+   159,
+   "Recon.iliation",
+   "Reconciliation",
+   "ocr"
+  ],
+  [
+   190,
+   "coverning",
+   "covering",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "74d6c992cfcf151f28c510ee0f845ab5b8db782d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 308,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2445,
+  "words_out": 2437,
+  "retention": 0.9967,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   120,
+   174,
+   95,
+   98,
+   116,
+   78,
+   83,
+   96,
+   94,
+   133,
+   70,
+   129,
+   103,
+   158,
+   82,
+   129,
+   158,
+   70,
+   198,
+   83,
+   55,
+   115
+  ],
+  "warnings": []
+ }
+}

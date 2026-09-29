@@ -1,0 +1,138 @@
+{
+ "id": "SAU_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  13,
+  15,
+  18,
+  21,
+  24,
+  28,
+  30,
+  34,
+  38,
+  42,
+  46,
+  49,
+  53,
+  57,
+  60,
+  65,
+  70,
+  73,
+  79,
+  86,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "4he",
+   "the",
+   "ocr"
+  ],
+  [
+   17,
+   "lslam",
+   "Islam",
+   "ocr"
+  ],
+  [
+   18,
+   "In tact",
+   "In fact",
+   "ocr"
+  ],
+  [
+   20,
+   "' 'Thus",
+   "\"Thus",
+   "ocr"
+  ],
+  [
+   27,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   32,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   41,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   52,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   58,
+   "race of Israeli",
+   "face of Israeli",
+   "ocr"
+  ],
+  [
+   69,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f1e1eec97ff1c33bba64d84d8ea88fef6e8bef1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3120,
+  "words_out": 3114,
+  "retention": 0.9981,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   182,
+   142,
+   100,
+   62,
+   82,
+   88,
+   103,
+   142,
+   61,
+   195,
+   147,
+   188,
+   121,
+   156,
+   94,
+   128,
+   80,
+   184,
+   156,
+   122,
+   226,
+   193,
+   109,
+   53
+  ],
+  "warnings": []
+ }
+}

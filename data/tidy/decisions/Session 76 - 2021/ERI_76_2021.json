@@ -1,0 +1,57 @@
+{
+ "id": "ERI_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  16,
+  18,
+  22,
+  27,
+  32,
+  36,
+  39,
+  42,
+  45,
+  49
+ ],
+ "cer": [
+  0,
+  4,
+  49
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8fad09f16dd3edf2df69e674d7f9de081577c01d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1241,
+  "words_out": 1241,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   22,
+   104,
+   62,
+   154,
+   79,
+   105,
+   140,
+   148,
+   91,
+   86,
+   71,
+   116,
+   60,
+   3
+  ],
+  "warnings": []
+ }
+}

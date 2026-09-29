@@ -1,0 +1,94 @@
+{
+ "id": "CAN_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  22,
+  29,
+  32,
+  38,
+  41,
+  49,
+  57,
+  64,
+  68,
+  72,
+  75,
+  79,
+  83,
+  88,
+  94,
+  97
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "proved, effective",
+   "proved effective",
+   "ocr"
+  ],
+  [
+   82,
+   "Nations.,",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   83,
+   "few defence",
+   "for defence",
+   "ocr"
+  ],
+  [
+   88,
+   " (226th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "0146b604fdef8164ad01e17498781cab189800c3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2924,
+  "words_out": 2922,
+  "retention": 0.9993,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   181,
+   165,
+   131,
+   215,
+   219,
+   124,
+   167,
+   104,
+   190,
+   172,
+   178,
+   125,
+   103,
+   158,
+   114,
+   189,
+   100,
+   120,
+   81,
+   86
+  ],
+  "warnings": []
+ }
+}

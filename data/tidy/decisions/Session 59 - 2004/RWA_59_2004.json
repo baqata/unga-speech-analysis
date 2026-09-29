@@ -1,0 +1,82 @@
+{
+ "id": "RWA_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  33,
+  52,
+  70,
+  78,
+  93,
+  115,
+  126,
+  137,
+  155,
+  165,
+  185,
+  199
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   89,
+   "today ó just",
+   "today — just",
+   "encoding"
+  ],
+  [
+   103,
+   "Rwandaís",
+   "Rwanda’s",
+   "encoding"
+  ],
+  [
+   113,
+   "people ó men, women and children ó",
+   "people — men, women and children —",
+   "encoding"
+  ],
+  [
+   200,
+   "díÍtre",
+   "d’être",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dde983be49fe331234076a54683ed37aebb7a06f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1740,
+  "words_out": 1738,
+  "retention": 0.9989,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   99,
+   144,
+   152,
+   133,
+   68,
+   129,
+   163,
+   95,
+   86,
+   149,
+   84,
+   163,
+   115,
+   158
+  ],
+  "warnings": []
+ }
+}

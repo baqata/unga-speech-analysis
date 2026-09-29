@@ -1,0 +1,72 @@
+{
+ "id": "ZAF_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  33,
+  59,
+  83,
+  103,
+  124,
+  141,
+  162,
+  177,
+  186,
+  215,
+  236,
+  251,
+  274
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   129,
+   " (resolution 1 (I), para. 5 (c))",
+   "",
+   "label"
+  ],
+  [
+   213,
+   "“ cannot",
+   "“cannot",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f1de852f4408e1ef409b0a389036f1055776fd3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2518,
+  "words_out": 2511,
+  "retention": 0.9972,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   122,
+   152,
+   200,
+   201,
+   181,
+   194,
+   120,
+   177,
+   138,
+   75,
+   200,
+   185,
+   116,
+   197,
+   253
+  ],
+  "warnings": []
+ }
+}

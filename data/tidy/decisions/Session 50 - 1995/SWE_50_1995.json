@@ -1,0 +1,98 @@
+{
+ "id": "SWE_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  28,
+  40,
+  54,
+  67,
+  80,
+  89,
+  96,
+  107,
+  118,
+  130,
+  146,
+  155,
+  165,
+  181,
+  189,
+  202,
+  212,
+  225,
+  239,
+  263,
+  271,
+  285,
+  302,
+  316
+ ],
+ "cer": [],
+ "fix": [
+  [
+   64,
+   " (Official Records of the General",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "Assembly, Fortieth Session, Plenary Meetings, 43rd",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "meeting, p. 64)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dede5696d09d48b86241f3d027cb074b872c2c94",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 334,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2690,
+  "words_out": 2674,
+  "retention": 0.9941,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   98,
+   113,
+   101,
+   128,
+   95,
+   114,
+   70,
+   63,
+   91,
+   75,
+   97,
+   124,
+   70,
+   63,
+   125,
+   68,
+   93,
+   86,
+   117,
+   111,
+   187,
+   73,
+   118,
+   137,
+   103,
+   154
+  ],
+  "warnings": []
+ }
+}

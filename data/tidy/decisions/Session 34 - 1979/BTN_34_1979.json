@@ -1,0 +1,104 @@
+{
+ "id": "BTN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  10,
+  14,
+  17,
+  22,
+  27,
+  32,
+  37,
+  42,
+  48,
+  54,
+  57,
+  62,
+  66,
+  71,
+  75
+ ],
+ "cer": [
+  0,
+  4,
+  8
+ ],
+ "fix": [
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   21,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   40,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   45,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   61,
+   "oil- producing",
+   "oil-producing",
+   "hyphen"
+  ],
+  [
+   76,
+   "self- respect",
+   "self-respect",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "611fe86c39cd28f07cbad95b61f894104aee5374",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2032,
+  "words_out": 2026,
+  "retention": 0.997,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   144,
+   116,
+   79,
+   112,
+   78,
+   80,
+   170,
+   119,
+   86,
+   119,
+   154,
+   144,
+   88,
+   147,
+   119,
+   82,
+   83,
+   106
+  ],
+  "warnings": []
+ }
+}

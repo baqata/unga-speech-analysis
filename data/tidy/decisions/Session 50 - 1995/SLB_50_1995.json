@@ -1,0 +1,93 @@
+{
+ "id": "SLB_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  18,
+  20,
+  33,
+  48,
+  58,
+  88,
+  113,
+  122,
+  136,
+  145,
+  164,
+  192,
+  204,
+  217,
+  237
+ ],
+ "cer": [
+  0,
+  9,
+  13,
+  18
+ ],
+ "fix": [
+  [
+   43,
+   " (A/50/1,",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "para. 182)",
+   "",
+   "label"
+  ],
+  [
+   196,
+   " (A/CONF.167/9, annex",
+   "",
+   "label"
+  ],
+  [
+   197,
+   "I, part one, section III, para. 1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "859ad5d25cd8bd5a70deefd1df153bb794456a6d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1994,
+  "words_out": 1974,
+  "retention": 0.99,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   74,
+   26,
+   36,
+   18,
+   117,
+   99,
+   74,
+   241,
+   229,
+   69,
+   116,
+   70,
+   149,
+   214,
+   79,
+   112,
+   163,
+   88
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "BIH_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  20,
+  35,
+  46,
+  57,
+  75,
+  89,
+  105,
+  120,
+  138,
+  156,
+  171,
+  190,
+  205
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   116,
+   "Karadzic´",
+   "Karadzic",
+   "encoding"
+  ],
+  [
+   116,
+   "Mladic´",
+   "Mladic",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "acf301a24e36406c1625ce477d0ff6f1a535cd9b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 218,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1924,
+  "words_out": 1920,
+  "retention": 0.9979,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   52,
+   144,
+   139,
+   91,
+   104,
+   160,
+   114,
+   132,
+   123,
+   158,
+   169,
+   128,
+   157,
+   138,
+   111
+  ],
+  "warnings": []
+ }
+}

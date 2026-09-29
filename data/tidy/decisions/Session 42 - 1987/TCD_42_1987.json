@@ -1,0 +1,136 @@
+{
+ "id": "TCD_42_1987",
+ "drop": [
+  [
+   101,
+   101,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  16,
+  20,
+  22,
+  27,
+  32,
+  38,
+  44,
+  51,
+  54,
+  56,
+  62,
+  70,
+  73,
+  77,
+  80,
+  82,
+  85,
+  91,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   "and Prance",
+   "and France",
+   "ocr"
+  ],
+  [
+   33,
+   "the OACJ",
+   "the OAU",
+   "ocr"
+  ],
+  [
+   42,
+   "19S5",
+   "1985",
+   "ocr"
+  ],
+  [
+   45,
+   "3 5 per cent",
+   "35 per cent",
+   "spacing"
+  ],
+  [
+   75,
+   "this year.",
+   "this year,",
+   "ocr"
+  ],
+  [
+   76,
+   "stated; '\"The",
+   "stated; \"The",
+   "ocr"
+  ],
+  [
+   77,
+   "Chad'.",
+   "Chad.",
+   "ocr"
+  ],
+  [
+   81,
+   "590 (1987) ,",
+   "598 (1987),",
+   "ocr"
+  ],
+  [
+   86,
+   "of\" all",
+   "of all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd22e81ad777f544225a5c9891ac3d3a3ed0a492",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2844,
+  "words_out": 2841,
+  "retention": 0.9989,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   166,
+   127,
+   121,
+   96,
+   115,
+   97,
+   163,
+   77,
+   166,
+   154,
+   185,
+   87,
+   70,
+   142,
+   181,
+   73,
+   103,
+   86,
+   54,
+   69,
+   179,
+   147,
+   183
+  ],
+  "warnings": []
+ }
+}

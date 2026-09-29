@@ -1,0 +1,61 @@
+{
+ "id": "ERI_49_1994",
+ "drop": [
+  [
+   71,
+   71,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  15,
+  27,
+  39,
+  53,
+  72,
+  80,
+  99,
+  121,
+  130,
+  153
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc98c902fbdab5af88a81e5268df7052e28d7db7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1356,
+  "words_out": 1351,
+  "retention": 0.9963,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   41,
+   88,
+   96,
+   106,
+   114,
+   157,
+   68,
+   147,
+   179,
+   81,
+   184,
+   90
+  ],
+  "warnings": []
+ }
+}

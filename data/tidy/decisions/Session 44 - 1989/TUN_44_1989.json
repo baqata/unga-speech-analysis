@@ -1,0 +1,105 @@
+{
+ "id": "TUN_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  17,
+  20,
+  22,
+  24,
+  27,
+  31,
+  34,
+  39,
+  41,
+  44,
+  47,
+  49,
+  51,
+  55,
+  57,
+  64,
+  67,
+  69,
+  70,
+  76,
+  79,
+  81
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   14,
+   "A1 Abidine",
+   "Al Abidine",
+   "ocr"
+  ],
+  [
+   22,
+   "effect .on",
+   "effect on",
+   "ocr"
+  ],
+  [
+   41,
+   "ail its",
+   "all its",
+   "ocr"
+  ],
+  [
+   59,
+   "life. narcotic drugs",
+   "life. Narcotic drugs",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ba85b740992bcb3b990d6535708294c499a9f9b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3263,
+  "words_out": 3263,
+  "retention": 1.0,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   135,
+   174,
+   164,
+   165,
+   69,
+   95,
+   95,
+   127,
+   146,
+   126,
+   152,
+   79,
+   160,
+   142,
+   96,
+   71,
+   157,
+   108,
+   272,
+   61,
+   115,
+   94,
+   244,
+   90,
+   75,
+   51
+  ],
+  "warnings": []
+ }
+}

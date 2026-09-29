@@ -1,0 +1,58 @@
+{
+ "id": "COG_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  23,
+  41,
+  67,
+  86,
+  97,
+  124,
+  145,
+  173,
+  195,
+  211,
+  238,
+  258
+ ],
+ "cer": [
+  0,
+  15
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c5f8d3629f520525936eaa4e59453131459b12ce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2290,
+  "words_out": 2288,
+  "retention": 0.9991,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   124,
+   73,
+   155,
+   238,
+   146,
+   92,
+   235,
+   182,
+   220,
+   188,
+   137,
+   227,
+   162,
+   109
+  ],
+  "warnings": []
+ }
+}

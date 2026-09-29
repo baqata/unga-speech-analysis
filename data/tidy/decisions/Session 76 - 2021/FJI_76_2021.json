@@ -1,0 +1,103 @@
+{
+ "id": "FJI_76_2021",
+ "drop": [
+  [
+   9,
+   9,
+   "heading"
+  ],
+  [
+   42,
+   42,
+   "heading"
+  ],
+  [
+   53,
+   53,
+   "heading"
+  ],
+  [
+   76,
+   76,
+   "heading"
+  ],
+  [
+   86,
+   86,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  10,
+  13,
+  17,
+  25,
+  30,
+  36,
+  43,
+  45,
+  48,
+  54,
+  61,
+  77,
+  87,
+  95,
+  100
+ ],
+ "cer": [
+  0,
+  100
+ ],
+ "fix": [
+  [
+   54,
+   "climate- fuelled",
+   "climate-fuelled",
+   "spacing"
+  ],
+  [
+   79,
+   "high- value",
+   "high-value",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91daba95872ef6dd5d79dde8ef6a9f8b2e9f055c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "heading": 5
+  },
+  "prestrip": {},
+  "words_in": 1863,
+  "words_out": 1844,
+  "retention": 0.9898,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   26,
+   121,
+   105,
+   60,
+   143,
+   106,
+   156,
+   137,
+   77,
+   84,
+   128,
+   92,
+   210,
+   127,
+   143,
+   125,
+   4
+  ],
+  "warnings": []
+ }
+}

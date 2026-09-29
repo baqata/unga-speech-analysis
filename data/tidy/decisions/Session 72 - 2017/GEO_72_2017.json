@@ -1,0 +1,122 @@
+{
+ "id": "GEO_72_2017",
+ "drop": [
+  [
+   13,
+   17,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  23,
+  34,
+  39,
+  42,
+  47,
+  52,
+  56,
+  61,
+  64,
+  67,
+  75,
+  81,
+  83,
+  87,
+  90,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "2/42 17-29597 ",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "cargo- transit",
+   "cargo-transit",
+   "hyphen"
+  ],
+  [
+   60,
+   "well- known",
+   "well-known",
+   "hyphen"
+  ],
+  [
+   71,
+   "razor- wire",
+   "razor-wire",
+   "hyphen"
+  ],
+  [
+   74,
+   "17-29597 3/42 ",
+   "",
+   "label"
+  ],
+  [
+   92,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ],
+  [
+   101,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c3bf188530d47e287ec6f34210e226ce525ea733",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "header_footer": 5
+  },
+  "prestrip": {
+   "see_ref": 1,
+   "md_rule": 2,
+   "page_header": 2
+  },
+  "words_in": 2103,
+  "words_out": 2013,
+  "retention": 0.9572,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   86,
+   91,
+   109,
+   110,
+   162,
+   132,
+   99,
+   110,
+   102,
+   103,
+   114,
+   65,
+   70,
+   162,
+   89,
+   71,
+   79,
+   62,
+   87,
+   110
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "TUR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  5,
+  11,
+  23,
+  26,
+  33,
+  37,
+  41,
+  46,
+  54,
+  59,
+  71,
+  76,
+  84,
+  92,
+  98,
+  106,
+  116,
+  119,
+  123,
+  133,
+  138
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   23,
+   "6,000.Meanwhile",
+   "6,000. Meanwhile",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2c36d57e54cf64ed044a803ea2d84e437f3b4517",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 6
+  },
+  "words_in": 2714,
+  "words_out": 2715,
+  "retention": 1.0004,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   18,
+   42,
+   74,
+   131,
+   184,
+   89,
+   137,
+   70,
+   88,
+   112,
+   149,
+   84,
+   185,
+   91,
+   172,
+   136,
+   120,
+   133,
+   210,
+   91,
+   75,
+   176,
+   121,
+   27
+  ],
+  "warnings": []
+ }
+}

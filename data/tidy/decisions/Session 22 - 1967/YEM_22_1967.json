@@ -1,0 +1,101 @@
+{
+ "id": "YEM_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  18,
+  27,
+  35,
+  42,
+  46,
+  54,
+  63,
+  66,
+  73,
+  80,
+  82,
+  86,
+  90,
+  94,
+  100,
+  105,
+  111,
+  116,
+  120,
+  123
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "twenty-second, session",
+   "twenty-second session",
+   "ocr"
+  ],
+  [
+   22,
+   "and. neither",
+   "and neither",
+   "ocr"
+  ],
+  [
+   52,
+   " [2253 (ES-V) and 2254 (ES-V)]",
+   "",
+   "label"
+  ],
+  [
+   117,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab08e0cb650b977ced4b20e57cb0dbd3be03ed98",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3058,
+  "words_out": 3021,
+  "retention": 0.9879,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   71,
+   71,
+   110,
+   192,
+   210,
+   159,
+   176,
+   73,
+   91,
+   188,
+   165,
+   198,
+   152,
+   68,
+   87,
+   189,
+   108,
+   108,
+   76,
+   121,
+   102,
+   134,
+   82,
+   90
+  ],
+  "warnings": []
+ }
+}

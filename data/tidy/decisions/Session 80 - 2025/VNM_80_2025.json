@@ -1,0 +1,92 @@
+{
+ "id": "VNM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   56,
+   56,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  13,
+  19,
+  25,
+  28,
+  33,
+  38,
+  42,
+  45,
+  51,
+  53,
+  55
+ ],
+ "cer": [
+  2,
+  55
+ ],
+ "fix": [
+  [
+   2,
+   "18th Session",
+   "80th Session",
+   "asr_term"
+  ],
+  [
+   4,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   17,
+   "18th anniversary",
+   "80th anniversary",
+   "asr_term"
+  ],
+  [
+   35,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b778d4ed4e6fa71ceaa0e5ace2210790ab088a70",
+ "layout": "single",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1508,
+  "words_out": 1457,
+  "retention": 0.9662,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   69,
+   189,
+   140,
+   155,
+   92,
+   156,
+   118,
+   101,
+   90,
+   151,
+   105,
+   88,
+   3
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "THA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  17,
+  22,
+  29,
+  38,
+  47,
+  49,
+  53,
+  55,
+  62,
+  69,
+  73,
+  75,
+  80,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   9,
+   "human- centred",
+   "human-centred",
+   "hyphen"
+  ],
+  [
+   19,
+   "nuclear- weapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ],
+  [
+   47,
+   "2019- 2023",
+   "2019-2023",
+   "hyphen"
+  ],
+  [
+   59,
+   "thirty- second",
+   "thirty-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab93c3bbb52b6e65c428eedca9dba59fe2d99331",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2051,
+  "words_out": 2046,
+  "retention": 0.9976,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   173,
+   97,
+   150,
+   79,
+   99,
+   214,
+   249,
+   92,
+   153,
+   62,
+   130,
+   112,
+   119,
+   59,
+   84,
+   121,
+   53
+  ],
+  "warnings": []
+ }
+}

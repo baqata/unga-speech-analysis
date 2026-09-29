@@ -1,0 +1,76 @@
+{
+ "id": "GEO_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  29,
+  43,
+  59,
+  76,
+  93,
+  113,
+  130,
+  153,
+  162,
+  179,
+  198,
+  216,
+  225,
+  241,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   " (A/51/950,",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "para. 1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "65c402a7921f0c31e68b7e970db56d4ea4b6ed3d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 259,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2156,
+  "words_out": 2152,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   89,
+   152,
+   106,
+   130,
+   148,
+   151,
+   165,
+   128,
+   185,
+   75,
+   142,
+   155,
+   158,
+   74,
+   132,
+   72,
+   90
+  ],
+  "warnings": []
+ }
+}

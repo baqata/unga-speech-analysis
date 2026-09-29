@@ -1,0 +1,89 @@
+{
+ "id": "RWA_54_1999",
+ "drop": [
+  [
+   222,
+   222,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  16,
+  27,
+  43,
+  55,
+  71,
+  88,
+  99,
+  110,
+  127,
+  140,
+  152,
+  162,
+  182,
+  197,
+  209,
+  223,
+  232
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   176,
+   "(S/PV.4046",
+   "",
+   "label"
+  ],
+  [
+   177,
+   "(Resumption 1) and S/PV.4049 (Resumption 2))",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ae06df66fdde6d766e840897bae5c185baebca6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2018,
+  "words_out": 1999,
+  "retention": 0.9906,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   51,
+   87,
+   93,
+   143,
+   102,
+   132,
+   128,
+   98,
+   98,
+   144,
+   113,
+   103,
+   76,
+   156,
+   127,
+   107,
+   110,
+   78,
+   53
+  ],
+  "warnings": []
+ }
+}

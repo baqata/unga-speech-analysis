@@ -1,0 +1,84 @@
+{
+ "id": "ECU_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  14,
+  18,
+  20,
+  21,
+  24,
+  27,
+  33,
+  37,
+  41,
+  44,
+  48,
+  52,
+  54,
+  55
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   " [SELA]",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "Roldds",
+   "Roldós",
+   "ocr"
+  ],
+  [
+   14,
+   "Rold6s",
+   "Roldós",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d3445ea6cf0a88c20be8343be1fc7ebd30ae3c15",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2275,
+  "words_out": 2274,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   190,
+   214,
+   66,
+   100,
+   203,
+   127,
+   63,
+   129,
+   83,
+   169,
+   186,
+   141,
+   96,
+   125,
+   193,
+   48,
+   64,
+   77
+  ],
+  "warnings": []
+ }
+}

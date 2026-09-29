@@ -1,0 +1,76 @@
+{
+ "id": "BEL_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  25,
+  32,
+  38,
+  43,
+  46,
+  50,
+  56,
+  60,
+  62,
+  69,
+  74,
+  81,
+  85
+ ],
+ "cer": [],
+ "fix": [
+  [
+   40,
+   "q.re",
+   "are",
+   "ocr"
+  ],
+  [
+   41,
+   "only,",
+   "only",
+   "ocr"
+  ],
+  [
+   53,
+   "in,",
+   "in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39ea3f4a886bd93dc34fc6184adec56ab1da793f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2501,
+  "words_out": 2501,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   120,
+   201,
+   220,
+   183,
+   226,
+   173,
+   96,
+   94,
+   170,
+   109,
+   99,
+   178,
+   193,
+   200,
+   90,
+   149
+  ],
+  "warnings": []
+ }
+}

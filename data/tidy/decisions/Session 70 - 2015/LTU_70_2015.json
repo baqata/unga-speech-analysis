@@ -1,0 +1,41 @@
+{
+ "id": "LTU_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  20,
+  24,
+  30,
+  35
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "73a4f55580fa37fc76ef4b4db9ab4a44877b43b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 796,
+  "words_out": 796,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   137,
+   107,
+   170,
+   104,
+   83,
+   101,
+   94
+  ],
+  "warnings": []
+ }
+}

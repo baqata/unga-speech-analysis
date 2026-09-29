@@ -1,0 +1,139 @@
+{
+ "id": "NGA_32_1977",
+ "drop": [
+  [
+   0,
+   0,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  9,
+  11,
+  15,
+  18,
+  22,
+  25,
+  31,
+  34,
+  39,
+  43,
+  49,
+  56,
+  59,
+  61,
+  63,
+  66,
+  71,
+  74,
+  79,
+  81,
+  84
+ ],
+ "cer": [
+  1,
+  84
+ ],
+ "fix": [
+  [
+   4,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   13,
+   "decade- and-a-half",
+   "decade-and-a-half",
+   "hyphen"
+  ],
+  [
+   17,
+   "present- day",
+   "present-day",
+   "hyphen"
+  ],
+  [
+   46,
+   "and-pay",
+   "and pay",
+   "ocr"
+  ],
+  [
+   53,
+   "doubted— that",
+   "doubted—that",
+   "spacing"
+  ],
+  [
+   69,
+   "as We are",
+   "as we are",
+   "ocr"
+  ],
+  [
+   75,
+   "tile restoration",
+   "the restoration",
+   "ocr"
+  ],
+  [
+   75,
+   "order, Here again",
+   "order. Here again",
+   "ocr"
+  ],
+  [
+   77,
+   "in the under",
+   "in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "378f237f58fb7daef4873d45423b140c26a6a2d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 3197,
+  "words_out": 3192,
+  "retention": 0.9984,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   154,
+   159,
+   114,
+   169,
+   125,
+   134,
+   120,
+   145,
+   146,
+   139,
+   135,
+   216,
+   198,
+   168,
+   89,
+   90,
+   167,
+   189,
+   88,
+   211,
+   67,
+   118,
+   51
+  ],
+  "warnings": []
+ }
+}

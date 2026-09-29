@@ -1,0 +1,74 @@
+{
+ "id": "HUN_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  17,
+  39,
+  59,
+  71,
+  83,
+  102,
+  127,
+  152,
+  174,
+  199,
+  215
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "fifty—fourth",
+   "fifty-fourth",
+   "ocr"
+  ],
+  [
+   8,
+   "twenty—first",
+   "twenty-first",
+   "ocr"
+  ],
+  [
+   13,
+   "ever—growing",
+   "ever-growing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bae0945f1b3d282f0b7e874c37e073333b0439e9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1861,
+  "words_out": 1857,
+  "retention": 0.9979,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   50,
+   84,
+   177,
+   162,
+   88,
+   98,
+   158,
+   212,
+   216,
+   182,
+   201,
+   145,
+   84
+  ],
+  "warnings": []
+ }
+}

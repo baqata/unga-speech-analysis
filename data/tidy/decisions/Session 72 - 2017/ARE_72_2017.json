@@ -1,0 +1,70 @@
+{
+ "id": "ARE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  16,
+  20,
+  26,
+  35,
+  42,
+  44,
+  48,
+  50,
+  55,
+  58,
+  63,
+  65,
+  71,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "Arab- Islamic-American",
+   "Arab-Islamic-American",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e25eae4dfd47b67bc081f82a3ec95951f7379fe4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2188,
+  "words_out": 2187,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   128,
+   88,
+   76,
+   172,
+   108,
+   140,
+   225,
+   213,
+   57,
+   123,
+   91,
+   127,
+   85,
+   145,
+   91,
+   165,
+   69,
+   84
+  ],
+  "warnings": []
+ }
+}

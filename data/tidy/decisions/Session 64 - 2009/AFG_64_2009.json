@@ -1,0 +1,51 @@
+{
+ "id": "AFG_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  25,
+  37,
+  45,
+  62,
+  79,
+  111,
+  125,
+  141,
+  153
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0379425fa1debe440c03536ba5d62f580252cffb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1176,
+  "words_out": 1176,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   47,
+   139,
+   91,
+   65,
+   135,
+   116,
+   235,
+   93,
+   107,
+   87,
+   61
+  ],
+  "warnings": []
+ }
+}

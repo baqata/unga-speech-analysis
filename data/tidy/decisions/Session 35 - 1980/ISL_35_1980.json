@@ -1,0 +1,76 @@
+{
+ "id": "ISL_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  16,
+  18,
+  26,
+  32,
+  39,
+  44,
+  47,
+  53,
+  57,
+  63,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   28,
+   "is .no",
+   "is no",
+   "ocr"
+  ],
+  [
+   55,
+   "economic: issues",
+   "economic issues",
+   "ocr"
+  ],
+  [
+   62,
+   "individuals,",
+   "individuals.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c5cd8a67895aaf13b751589aeac1705291b6c4ee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1740,
+  "words_out": 1740,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   78,
+   110,
+   175,
+   51,
+   185,
+   153,
+   151,
+   101,
+   95,
+   129,
+   138,
+   104,
+   168,
+   102
+  ],
+  "warnings": []
+ }
+}

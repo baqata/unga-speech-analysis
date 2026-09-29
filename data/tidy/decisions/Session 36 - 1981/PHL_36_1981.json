@@ -1,0 +1,220 @@
+{
+ "id": "PHL_36_1981",
+ "drop": [
+  [
+   24,
+   24,
+   "noise"
+  ],
+  [
+   30,
+   30,
+   "noise"
+  ],
+  [
+   48,
+   49,
+   "noise"
+  ],
+  [
+   53,
+   53,
+   "noise"
+  ],
+  [
+   57,
+   57,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  8,
+  10,
+  13,
+  17,
+  20,
+  23,
+  25,
+  31,
+  35,
+  38,
+  41,
+  44,
+  50,
+  54,
+  59,
+  62,
+  69,
+  75,
+  77,
+  81,
+  87,
+  90,
+  94,
+  100,
+  104,
+  107,
+  112,
+  117,
+  121,
+  125,
+  129,
+  132,
+  136,
+  138,
+  142
+ ],
+ "cer": [
+  6,
+  8,
+  10,
+  142
+ ],
+ "fix": [
+  [
+   3,
+   "the. reading",
+   "the reading",
+   "ocr"
+  ],
+  [
+   12,
+   " [ibid.]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "all of Us.",
+   "all of us.",
+   "ocr"
+  ],
+  [
+   55,
+   "conclusive'.",
+   "conclusive.",
+   "ocr"
+  ],
+  [
+   64,
+   "to the.",
+   "to the",
+   "ocr"
+  ],
+  [
+   65,
+   "economies, of",
+   "economies of",
+   "ocr"
+  ],
+  [
+   83,
+   "In OUJ: view",
+   "In our view",
+   "ocr"
+  ],
+  [
+   97,
+   "0 Charter",
+   "Charter",
+   "ocr"
+  ],
+  [
+   101,
+   "war-torn county",
+   "war-torn country",
+   "ocr"
+  ],
+  [
+   105,
+   "Conference.1 The",
+   "Conference. The",
+   "ocr"
+  ],
+  [
+   124,
+   "draft convention. if",
+   "draft convention.",
+   "ocr"
+  ],
+  [
+   135,
+   "must b dynamic",
+   "must be dynamic",
+   "ocr"
+  ],
+  [
+   139,
+   "every comer",
+   "every corner",
+   "ocr"
+  ],
+  [
+   142,
+   "crisis,",
+   "crisis.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "75033b11d31b1a94d64c2b7c302fc314ab31e434",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {
+   "noise": 6
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 35
+  },
+  "words_in": 3313,
+  "words_out": 3302,
+  "retention": 0.9967,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   111,
+   76,
+   62,
+   91,
+   70,
+   66,
+   94,
+   42,
+   66,
+   94,
+   94,
+   113,
+   103,
+   102,
+   77,
+   95,
+   74,
+   146,
+   106,
+   80,
+   77,
+   136,
+   82,
+   62,
+   157,
+   56,
+   59,
+   110,
+   112,
+   100,
+   121,
+   88,
+   81,
+   72,
+   69,
+   100,
+   58
+  ],
+  "warnings": []
+ }
+}

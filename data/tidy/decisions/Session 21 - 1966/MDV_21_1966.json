@@ -1,0 +1,78 @@
+{
+ "id": "MDV_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  8,
+  11,
+  13,
+  21,
+  28,
+  33,
+  41,
+  44,
+  50,
+  56,
+  66
+ ],
+ "cer": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  8,
+  11
+ ],
+ "fix": [
+  [
+   31,
+   "surprising Is",
+   "surprising is",
+   "ocr"
+  ],
+  [
+   60,
+   "says;",
+   "says:",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cabff8fc5336971cd1707a99812ba67c2dfd02ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1583,
+  "words_out": 1563,
+  "retention": 0.9874,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   43,
+   35,
+   43,
+   31,
+   132,
+   75,
+   84,
+   130,
+   124,
+   104,
+   161,
+   60,
+   143,
+   135,
+   197,
+   66
+  ],
+  "warnings": []
+ }
+}

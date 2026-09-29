@@ -1,0 +1,68 @@
+{
+ "id": "GBR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  13,
+  15,
+  18,
+  21,
+  27,
+  33,
+  39,
+  42,
+  44,
+  49,
+  54,
+  61,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   43,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f6c8470e20de9cee5995f9f78d47bb7061be5964",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1767,
+  "words_out": 1766,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   67,
+   66,
+   66,
+   105,
+   78,
+   91,
+   85,
+   147,
+   109,
+   183,
+   100,
+   77,
+   88,
+   166,
+   134,
+   141,
+   63
+  ],
+  "warnings": []
+ }
+}

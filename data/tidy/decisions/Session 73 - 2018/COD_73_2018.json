@@ -1,0 +1,54 @@
+{
+ "id": "COD_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  14,
+  19,
+  25,
+  26,
+  29
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e17917f40b0692f8d95e41b151ee345e40a6660",
+ "layout": "lines",
+ "stats": {
+  "n_units": 34,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1230,
+  "words_out": 1229,
+  "retention": 0.9992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   118,
+   112,
+   90,
+   155,
+   179,
+   182,
+   90,
+   133,
+   170
+  ],
+  "warnings": []
+ }
+}

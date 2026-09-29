@@ -1,0 +1,45 @@
+{
+ "id": "NOR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  29,
+  47,
+  67,
+  80,
+  94,
+  113,
+  122
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9a6c377e6cf5e9f7e86f0d73f012ee4bacb952a6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1115,
+  "words_out": 1112,
+  "retention": 0.9973,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   152,
+   68,
+   149,
+   172,
+   99,
+   110,
+   165,
+   69,
+   128
+  ],
+  "warnings": []
+ }
+}

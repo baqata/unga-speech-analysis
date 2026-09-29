@@ -1,0 +1,120 @@
+{
+ "id": "BHS_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  15,
+  23,
+  31,
+  35,
+  42,
+  45,
+  51,
+  57,
+  62,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "ago. just",
+   "ago, just",
+   "ocr"
+  ],
+  [
+   25,
+   "(see A/PV.2049). his",
+   "(see A/PV.2049), his",
+   "ocr"
+  ],
+  [
+   27,
+   "Moreover.",
+   "Moreover,",
+   "ocr"
+  ],
+  [
+   29,
+   "Pindling. our",
+   "Pindling, our",
+   "ocr"
+  ],
+  [
+   34,
+   "on. until",
+   "on, until",
+   "ocr"
+  ],
+  [
+   53,
+   "Nam. there",
+   "Nam, there",
+   "ocr"
+  ],
+  [
+   57,
+   "Finally.",
+   "Finally,",
+   "ocr"
+  ],
+  [
+   66,
+   "1973. we",
+   "1973, we",
+   "ocr"
+  ],
+  [
+   72,
+   "“1492.",
+   "“1492,",
+   "ocr"
+  ],
+  [
+   75,
+   "“1973. we",
+   "“1973, we",
+   "ocr"
+  ],
+  [
+   84,
+   "Now. more",
+   "Now, more",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0569835f45fd2260e63f3a07d3cfdec9b622140c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1628,
+  "words_out": 1626,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   73,
+   150,
+   88,
+   150,
+   183,
+   88,
+   130,
+   77,
+   128,
+   161,
+   141,
+   71,
+   186
+  ],
+  "warnings": []
+ }
+}

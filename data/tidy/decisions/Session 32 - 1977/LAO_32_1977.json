@@ -1,0 +1,103 @@
+{
+ "id": "LAO_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  9,
+  17,
+  23,
+  24,
+  27,
+  30,
+  33,
+  37,
+  40,
+  42,
+  45,
+  51,
+  55,
+  57,
+  60
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  6,
+  23,
+  60
+ ],
+ "fix": [
+  [
+   11,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   23,
+   "prize, peace",
+   "prize peace",
+   "ocr"
+  ],
+  [
+   28,
+   "war. of",
+   "war of",
+   "ocr"
+  ],
+  [
+   33,
+   "South-East.",
+   "South-East",
+   "ocr"
+  ],
+  [
+   55,
+   "ago-old",
+   "age-old",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9f0b1e2700c984883ae7f85fb5ad3acea132dec6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 1888,
+  "words_out": 1887,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   21,
+   58,
+   47,
+   101,
+   244,
+   184,
+   82,
+   87,
+   99,
+   120,
+   111,
+   81,
+   71,
+   121,
+   173,
+   118,
+   47,
+   101,
+   21
+  ],
+  "warnings": []
+ }
+}

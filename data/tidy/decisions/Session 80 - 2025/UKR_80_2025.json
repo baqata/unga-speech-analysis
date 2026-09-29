@@ -1,0 +1,87 @@
+{
+ "id": "UKR_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   168,
+   168,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  10,
+  19,
+  28,
+  39,
+  45,
+  53,
+  61,
+  68,
+  78,
+  94,
+  101,
+  107,
+  116,
+  122,
+  136,
+  140,
+  146,
+  154,
+  166
+ ],
+ "cer": [
+  166
+ ],
+ "fix": [
+  [
+   22,
+   "Not Kansudan,",
+   "Not Sudan,",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 139 'just France and weapons' is left as transcribed; the recurring phrase 'friends and weapons' (units 13, 97) is probably meant.",
+ "unitizer_version": 1,
+ "sha1": "ba272ecb9a2307fa6a38ffc5982cbfda01fa1cea",
+ "layout": "single",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2216,
+  "words_out": 2173,
+  "retention": 0.9806,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   79,
+   102,
+   108,
+   110,
+   64,
+   99,
+   119,
+   92,
+   135,
+   191,
+   165,
+   93,
+   142,
+   78,
+   183,
+   89,
+   84,
+   124,
+   110,
+   6
+  ],
+  "warnings": []
+ }
+}

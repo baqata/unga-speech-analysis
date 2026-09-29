@@ -1,0 +1,178 @@
+{
+ "id": "BRB_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  10,
+  13,
+  14,
+  15,
+  16,
+  22,
+  25,
+  29,
+  33,
+  34,
+  37,
+  39,
+  43,
+  46,
+  48,
+  51,
+  54,
+  56,
+  59,
+  63,
+  65,
+  70,
+  74,
+  79,
+  81,
+  85,
+  87,
+  89,
+  92,
+  94,
+  97,
+  101,
+  107,
+  110,
+  111,
+  116,
+  119
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   20,
+   "lit similar vein",
+   "In similar vein",
+   "ocr"
+  ],
+  [
+   22,
+   "all-this",
+   "all this",
+   "ocr"
+  ],
+  [
+   26,
+   "of indeed",
+   "or indeed",
+   "ocr"
+  ],
+  [
+   30,
+   "snail States",
+   "small States",
+   "ocr"
+  ],
+  [
+   42,
+   "He can only",
+   "We can only",
+   "ocr"
+  ],
+  [
+   55,
+   "aggress ion",
+   "aggression",
+   "split_word"
+  ],
+  [
+   95,
+   "raid-decade",
+   "mid-decade",
+   "ocr"
+  ],
+  [
+   109,
+   "He have split the atom)",
+   "We have split the atom;",
+   "ocr"
+  ],
+  [
+   110,
+   "Luther Ring",
+   "Luther King",
+   "ocr"
+  ],
+  [
+   74,
+   " (A/36/PV. 11, p. 57)",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "a large number of countries",
+   "A large number of countries",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06d2a3c072b98d563348ae3fb773c5994cf506dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3785,
+  "words_out": 3774,
+  "retention": 0.9971,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   81,
+   58,
+   56,
+   66,
+   103,
+   71,
+   100,
+   25,
+   130,
+   62,
+   151,
+   102,
+   41,
+   195,
+   76,
+   83,
+   94,
+   89,
+   107,
+   95,
+   78,
+   79,
+   91,
+   67,
+   114,
+   113,
+   140,
+   90,
+   128,
+   73,
+   70,
+   88,
+   90,
+   101,
+   111,
+   110,
+   103,
+   34,
+   122,
+   110,
+   77
+  ],
+  "warnings": []
+ }
+}

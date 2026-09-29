@@ -1,0 +1,43 @@
+{
+ "id": "RWA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  26,
+  40,
+  51,
+  62,
+  76,
+  86
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef6280b83662bddc656289bb22fef85eae68b7d1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 725,
+  "words_out": 724,
+  "retention": 0.9986,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   94,
+   106,
+   121,
+   87,
+   87,
+   101,
+   79,
+   49
+  ],
+  "warnings": []
+ }
+}

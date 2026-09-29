@@ -1,0 +1,114 @@
+{
+ "id": "MUS_30_1975",
+ "drop": [
+  [
+   37,
+   37,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  7,
+  8,
+  11,
+  15,
+  21,
+  22,
+  26,
+  30,
+  33,
+  38,
+  41,
+  44,
+  48
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   13,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   16,
+   "While < demanding",
+   "While demanding",
+   "ocr"
+  ],
+  [
+   22,
+   "world, My",
+   "world. My",
+   "ocr"
+  ],
+  [
+   24,
+   "minimize \"the",
+   "minimize the",
+   "ocr"
+  ],
+  [
+   28,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   32,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "and*",
+   "and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "011bdcff62c80d697014605a4a5c0cdb06df6f34",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "md_bold": 1,
+   "paragraph_number": 20
+  },
+  "words_in": 1519,
+  "words_out": 1508,
+  "retention": 0.9928,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   84,
+   58,
+   60,
+   69,
+   88,
+   90,
+   168,
+   73,
+   121,
+   147,
+   86,
+   117,
+   109,
+   88,
+   102,
+   48
+  ],
+  "warnings": []
+ }
+}

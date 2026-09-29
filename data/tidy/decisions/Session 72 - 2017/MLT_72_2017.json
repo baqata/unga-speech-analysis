@@ -1,0 +1,60 @@
+{
+ "id": "MLT_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  17,
+  21,
+  27,
+  34,
+  38,
+  43,
+  47,
+  53
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   "gender- balanced",
+   "gender-balanced",
+   "hyphen"
+  ],
+  [
+   51,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4df275bdd3da90de51c3700a7e80c39e7bef6c3a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1247,
+  "words_out": 1245,
+  "retention": 0.9984,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   105,
+   94,
+   190,
+   92,
+   93,
+   132,
+   104,
+   77,
+   70,
+   159,
+   129
+  ],
+  "warnings": []
+ }
+}

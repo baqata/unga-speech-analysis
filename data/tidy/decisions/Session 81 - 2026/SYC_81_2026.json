@@ -1,0 +1,186 @@
+{
+ "id": "SYC_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   88,
+   89,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  9,
+  14,
+  23,
+  34,
+  41,
+  52,
+  63,
+  71,
+  75,
+  81
+ ],
+ "cer": [
+  3,
+  4
+ ],
+ "fix": [
+  [
+   18,
+   "democracy",
+   "diplomacy",
+   "asr_term"
+  ],
+  [
+   22,
+   "uniting nation",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   44,
+   "developed",
+   "developing",
+   "asr_term"
+  ],
+  [
+   44,
+   "whole",
+   "hall",
+   "asr_term"
+  ],
+  [
+   55,
+   "strengthen",
+   "threaten",
+   "asr_term"
+  ],
+  [
+   61,
+   "CISHA",
+   "Seychelles",
+   "asr_name"
+  ],
+  [
+   62,
+   "lost and damaged",
+   "loss and damage",
+   "asr_term"
+  ],
+  [
+   65,
+   "BBNG",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   67,
+   "seeds",
+   "SIDS",
+   "asr_name"
+  ],
+  [
+   67,
+   "servile",
+   "Sevilla",
+   "asr_name"
+  ],
+  [
+   68,
+   "that sustainability",
+   "debt sustainability",
+   "asr_term"
+  ],
+  [
+   68,
+   "death",
+   "debt",
+   "asr_term"
+  ],
+  [
+   72,
+   "whitening",
+   "widening",
+   "asr_term"
+  ],
+  [
+   86,
+   "united nations",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   26,
+   "international law. international law.",
+   "international law.",
+   "asr_term"
+  ],
+  [
+   21,
+   "practical. ambitious",
+   "practical ambitious",
+   "asr_term"
+  ],
+  [
+   68,
+   "survival. will",
+   "survival. We",
+   "asr_term"
+  ],
+  [
+   46,
+   "under-reported",
+   "unreported",
+   "slip"
+  ],
+  [
+   61,
+   "intergenerational crisis",
+   "intergenerational justice",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish channel confirms: diplomacia de principios, unas Naciones Unidas, Estado insular en desarrollo, este salon, amenaza, Seychelles, perdidas y danos, BNJ, SIDs, compromiso de Sevilla, deuda, ahondar la brecha. Main-agent audit: unit 61 'crisis' at p 0.81-0.89 in three decodes; Spanish 'la justicia intergeneracional'. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 26 'international law. international law.' -> 'international law.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 21 'practical. ambitious' -> 'practical ambitious'; unit 68 'survival. will' -> 'survival. Will'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 46 'under-reported' -> 'unreported' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'under-reported' (decodes 0.90 / 0.88, the UN transcript; forced scoring -2.6 vs -6.9); the fixed term is 'illegal, unreported and unregulated fishing', as the Spanish 'la pesca ilegal, no regulada y no declarada' says); spot 6 unit 61 'intergenerational crisis' -> 'intergenerational justice' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'crisis' (decodes 0.93 / 0.93, the UN transcript; forced scoring -1.8 vs 'justice' -14.0); 'climate action is rooted in international law, equity and intergenerational crisis' does not fit, and the Spanish 'del derecho internacional, de la equidad y la justicia intergeneracional' shows 'justice'); spot 10 unit 68 'survival. will' -> 'survival. We' (both decodes hear 'We' (0.98 / 0.99); 'Will require' has no subject; ES 'Necesitamos'; replaces the existing repair 'survival. will' -> 'survival. Will')",
+ "unitizer_version": 1,
+ "sha1": "3b81b0f3274c4156f3ae79a06eb6dd015874fea3",
+ "layout": "single",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1309,
+  "words_out": 1252,
+  "retention": 0.9565,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   10,
+   98,
+   76,
+   95,
+   158,
+   93,
+   162,
+   134,
+   137,
+   75,
+   116,
+   98
+  ],
+  "warnings": []
+ }
+}

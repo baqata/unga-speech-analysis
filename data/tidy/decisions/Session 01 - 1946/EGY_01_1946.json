@@ -1,0 +1,116 @@
+{
+ "id": "EGY_01_1946",
+ "drop": [
+  [
+   47,
+   47,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  6,
+  11,
+  14,
+  20,
+  25,
+  28,
+  32,
+  38,
+  42,
+  48,
+  52,
+  57,
+  60,
+  62,
+  67,
+  71,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   7,
+   "which.",
+   "which",
+   "ocr"
+  ],
+  [
+   18,
+   "Nations,",
+   "Nations",
+   "ocr"
+  ],
+  [
+   29,
+   "foreign,",
+   "foreign",
+   "ocr"
+  ],
+  [
+   54,
+   "freely,",
+   "freely",
+   "ocr"
+  ],
+  [
+   59,
+   "Council.",
+   "Council",
+   "ocr"
+  ],
+  [
+   72,
+   "the,",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a421a628e34d8a515c606acf75a6428494f35d9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2669,
+  "words_out": 2668,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   40,
+   161,
+   156,
+   138,
+   163,
+   180,
+   137,
+   196,
+   192,
+   107,
+   151,
+   145,
+   185,
+   92,
+   101,
+   166,
+   115,
+   177,
+   66
+  ],
+  "warnings": []
+ }
+}

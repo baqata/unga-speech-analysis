@@ -1,0 +1,126 @@
+{
+ "id": "BGD_48_1993",
+ "drop": [
+  [
+   21,
+   21,
+   "header_footer"
+  ],
+  [
+   116,
+   116,
+   "header_footer"
+  ],
+  [
+   213,
+   213,
+   "header_footer"
+  ],
+  [
+   311,
+   311,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  19,
+  32,
+  42,
+  57,
+  68,
+  76,
+  89,
+  97,
+  112,
+  129,
+  143,
+  150,
+  166,
+  174,
+  199,
+  211,
+  230,
+  255,
+  272,
+  282,
+  292,
+  316,
+  331,
+  344,
+  350,
+  363
+ ],
+ "cer": [
+  13,
+  19
+ ],
+ "fix": [
+  [
+   359,
+   " (Official Records",
+   "",
+   "label"
+  ],
+  [
+   360,
+   "of the General Assembly, Eleventh Special Session, 3rd",
+   "",
+   "label"
+  ],
+  [
+   361,
+   "plenary meeting, para. 46)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd6f15f5d9948bcb485360639edc65759c4e93bd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 383,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 3282,
+  "words_out": 3242,
+  "retention": 0.9878,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   108,
+   51,
+   106,
+   81,
+   124,
+   101,
+   64,
+   120,
+   73,
+   144,
+   129,
+   118,
+   53,
+   132,
+   68,
+   211,
+   90,
+   154,
+   210,
+   158,
+   85,
+   81,
+   216,
+   125,
+   110,
+   50,
+   94,
+   186
+  ],
+  "warnings": []
+ }
+}

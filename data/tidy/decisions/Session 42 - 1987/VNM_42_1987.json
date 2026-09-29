@@ -1,0 +1,126 @@
+{
+ "id": "VNM_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  14,
+  17,
+  20,
+  22,
+  24,
+  35,
+  37,
+  40,
+  44,
+  47,
+  51,
+  53,
+  55,
+  58,
+  60,
+  64,
+  69,
+  74,
+  79,
+  82,
+  85,
+  89,
+  93,
+  95,
+  100,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "technological revolution.",
+   "technological revolution,",
+   "ocr"
+  ],
+  [
+   28,
+   "The letter's",
+   "The latter's",
+   "ocr"
+  ],
+  [
+   34,
+   "most United",
+   "most united",
+   "ocr"
+  ],
+  [
+   54,
+   "Indo-Sri Lankana",
+   "Indo-Sri Lankan",
+   "ocr"
+  ],
+  [
+   56,
+   "Cyprus-Our",
+   "Cyprus. Our",
+   "ocr"
+  ],
+  [
+   92,
+   "some force:",
+   "some forces",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "unit 51 breaks off after 'the situation there is undergoing'",
+ "unitizer_version": 1,
+ "sha1": "34a6a491c81fb35ad3acbd8d06068e4228154d0d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3904,
+  "words_out": 3905,
+  "retention": 1.0003,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   128,
+   121,
+   76,
+   159,
+   98,
+   81,
+   181,
+   62,
+   208,
+   124,
+   133,
+   139,
+   105,
+   120,
+   131,
+   75,
+   146,
+   100,
+   190,
+   187,
+   150,
+   194,
+   149,
+   66,
+   184,
+   141,
+   106,
+   168,
+   85,
+   98
+  ],
+  "warnings": []
+ }
+}

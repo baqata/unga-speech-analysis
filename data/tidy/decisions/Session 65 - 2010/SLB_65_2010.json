@@ -1,0 +1,59 @@
+{
+ "id": "SLB_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  46,
+  62,
+  76,
+  94,
+  107,
+  121,
+  129,
+  153,
+  168,
+  181,
+  196,
+  223,
+  244
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The acknowledgement of development partners begins inside unit 251, so it stays in the paragraph on the Conference on the Least Developed Countries.",
+ "unitizer_version": 1,
+ "sha1": "facb0ea72bfbd9e620c2df68bb1f69a43b68678d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1967,
+  "words_out": 1966,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   157,
+   184,
+   121,
+   109,
+   133,
+   88,
+   116,
+   57,
+   186,
+   105,
+   108,
+   115,
+   199,
+   147,
+   141
+  ],
+  "warnings": []
+ }
+}

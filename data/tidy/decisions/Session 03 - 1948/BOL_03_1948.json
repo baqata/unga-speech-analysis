@@ -1,0 +1,108 @@
+{
+ "id": "BOL_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  17,
+  21,
+  23,
+  28,
+  33,
+  35,
+  39,
+  43,
+  53,
+  57
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "Gould",
+   "Could",
+   "ocr"
+  ],
+  [
+   10,
+   "«Now,",
+   "«No»,",
+   "ocr"
+  ],
+  [
+   12,
+   "exercised.”",
+   "exercised.",
+   "ocr"
+  ],
+  [
+   20,
+   "co-operation, Reaching",
+   "co-operation. Reaching",
+   "ocr"
+  ],
+  [
+   23,
+   "du Reis",
+   "du Rels",
+   "ocr"
+  ],
+  [
+   28,
+   "du Reis",
+   "du Rels",
+   "ocr"
+  ],
+  [
+   46,
+   "du Reis",
+   "du Rels",
+   "ocr"
+  ],
+  [
+   53,
+   "du Reis",
+   "du Rels",
+   "ocr"
+  ],
+  [
+   59,
+   "1989",
+   "1939",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "987e80a7e7f528d17e9e2f9aa4e28a760a6db362",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1772,
+  "words_out": 1772,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   233,
+   109,
+   132,
+   156,
+   66,
+   145,
+   125,
+   94,
+   96,
+   146,
+   202,
+   152,
+   116
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "id": "MCO_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  24,
+  33,
+  54,
+  69,
+  80,
+  101,
+  115,
+  124,
+  139,
+  152,
+  166,
+  179,
+  191,
+  202
+ ],
+ "cer": [
+  24
+ ],
+ "fix": [
+  [
+   41,
+   "Monacoís",
+   "Monaco’s",
+   "encoding"
+  ],
+  [
+   95,
+   "Monacoís",
+   "Monaco’s",
+   "encoding"
+  ],
+  [
+   113,
+   "mobilized`",
+   "mobilized",
+   "ocr"
+  ],
+  [
+   188,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   189,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   208,
+   "systemís",
+   "system’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e86593d7530ce8fb7a47e6bb0821114b4c2ca14",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1636,
+  "words_out": 1635,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   76,
+   116,
+   81,
+   153,
+   101,
+   83,
+   143,
+   115,
+   72,
+   112,
+   116,
+   111,
+   97,
+   99,
+   83,
+   77
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "SWE_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  30,
+  39,
+  50,
+  66,
+  91,
+  107,
+  123,
+  134,
+  151,
+  160,
+  175,
+  191,
+  203
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b4574f870c0e18b2fda6d910fb2623a9c8dc7c93",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1780,
+  "words_out": 1779,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   139,
+   107,
+   81,
+   95,
+   146,
+   219,
+   148,
+   130,
+   95,
+   138,
+   68,
+   126,
+   116,
+   96,
+   75
+  ],
+  "warnings": []
+ }
+}

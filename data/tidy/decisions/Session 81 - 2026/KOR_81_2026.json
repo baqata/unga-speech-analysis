@@ -1,0 +1,130 @@
+{
+ "id": "KOR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   97,
+   97,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  10,
+  17,
+  25,
+  31,
+  37,
+  45,
+  51,
+  58,
+  65,
+  71,
+  77,
+  82,
+  85,
+  91,
+  96
+ ],
+ "cer": [
+  2,
+  96
+ ],
+ "fix": [
+  [
+   12,
+   "Doug Hammersholt",
+   "Dag Hammarskjöld",
+   "asr_name"
+  ],
+  [
+   17,
+   "life",
+   "light",
+   "asr_term"
+  ],
+  [
+   64,
+   "Semaul",
+   "Saemaul",
+   "asr_name"
+  ],
+  [
+   65,
+   "koreas",
+   "Koreas",
+   "asr_name"
+  ],
+  [
+   65,
+   "u n",
+   "UN",
+   "asr_name"
+  ],
+  [
+   13,
+   "disaster? is",
+   "disaster? Is",
+   "asr_term"
+  ],
+  [
+   65,
+   "about. thirty-five",
+   "about. Thirty-five",
+   "asr_term"
+  ],
+  [
+   42,
+   "virtual",
+   "virtuous",
+   "slip"
+  ],
+  [
+   41,
+   "2030",
+   "2035",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Second Secretary-General Dag Hammarskjöld; Spanish 'fuente de luz'; 'pacemaker' in unit 84 is the President's own term and is kept. Main-agent audio check: unit 41 '2030 nationally determined contributions' is what the English interpreter said (p 1.00, 3 re-decodes); the Spanish interpreter says 2035 (Korea's 2035 NDC); kept as heard, since interp applies only to speeches delivered in Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 13 'disaster? is' -> 'disaster? Is'; unit 65 'about. thirty-five' -> 'about. Thirty-five'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 7 unit 42 'virtual' -> 'virtuous' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'virtual' (decodes 1.00 / 0.98, the UN transcript; forced scoring -0.8 vs -8.4); the expression is 'a virtuous cycle', as the Spanish 'creando un círculo virtuoso' says). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 41 the English interpreter said 'announced its 2030 nationally determined contributions' (p 1.00, three re-decodes); the Spanish says 'para 2035', and the Republic of Korea's NDC announced in November 2025 and submitted to the UNFCCC is its 2035 NDC.",
+ "unitizer_version": 1,
+ "sha1": "4d9a795bbf9ce62cc81c85fccf562460771323d3",
+ "layout": "single",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2328,
+  "words_out": 2278,
+  "retention": 0.9785,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   82,
+   126,
+   155,
+   182,
+   106,
+   171,
+   131,
+   148,
+   153,
+   166,
+   206,
+   108,
+   136,
+   113,
+   164,
+   126,
+   5
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "LBN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  34,
+  54,
+  63,
+  76,
+  88,
+  99,
+  108,
+  120,
+  128,
+  138,
+  146,
+  160,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   " (6389th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5ba417c0d109ac3f1eadb0bfa4c9c5a77c4fc754",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1465,
+  "words_out": 1458,
+  "retention": 0.9952,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   67,
+   105,
+   85,
+   162,
+   76,
+   92,
+   85,
+   91,
+   66,
+   91,
+   65,
+   73,
+   71,
+   107,
+   92,
+   130
+  ],
+  "warnings": []
+ }
+}

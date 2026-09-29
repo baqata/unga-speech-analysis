@@ -1,0 +1,70 @@
+{
+ "id": "GNQ_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  27,
+  40,
+  56,
+  77,
+  87,
+  96,
+  111,
+  120
+ ],
+ "cer": [
+  0,
+  6,
+  14
+ ],
+ "fix": [
+  [
+   15,
+   "Secretary: General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   33,
+   "and his.",
+   "and his",
+   "ocr"
+  ],
+  [
+   104,
+   "proclaimed. itself",
+   "proclaimed itself",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The speech ends after a list of territories without closing words; the record may be truncated.",
+ "unitizer_version": 1,
+ "sha1": "af4de1e0efd4905ecfc7f6bb45de10cc099a0f69",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1163,
+  "words_out": 1148,
+  "retention": 0.9871,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   53,
+   70,
+   123,
+   111,
+   148,
+   184,
+   82,
+   81,
+   135,
+   88,
+   73
+  ],
+  "warnings": []
+ }
+}

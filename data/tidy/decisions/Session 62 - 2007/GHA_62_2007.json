@@ -1,0 +1,60 @@
+{
+ "id": "GHA_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  28,
+  38,
+  58,
+  68,
+  79,
+  97,
+  111,
+  127,
+  143,
+  154,
+  172,
+  183,
+  203,
+  214
+ ],
+ "cer": [
+  0,
+  214
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "98677c759e6a8e80df7effd04d05de008f83db47",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 218,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1643,
+  "words_out": 1640,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   38,
+   185,
+   83,
+   145,
+   77,
+   89,
+   128,
+   104,
+   125,
+   121,
+   83,
+   122,
+   85,
+   153,
+   75,
+   27
+  ],
+  "warnings": []
+ }
+}

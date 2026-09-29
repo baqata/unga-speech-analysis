@@ -1,0 +1,254 @@
+{
+ "id": "KHM_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  30,
+  48,
+  61,
+  77,
+  99,
+  120,
+  137,
+  150,
+  159,
+  177,
+  198,
+  209,
+  221,
+  236,
+  252,
+  267,
+  284,
+  294,
+  305,
+  322,
+  337,
+  356,
+  381,
+  397,
+  408,
+  425,
+  440,
+  448,
+  472,
+  493,
+  507
+ ],
+ "cer": [
+  11
+ ],
+ "fix": [
+  [
+   5,
+   "1979,'",
+   "1979,",
+   "ocr"
+  ],
+  [
+   16,
+   "thirty- sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   42,
+   "Coot",
+   "foot",
+   "ocr"
+  ],
+  [
+   54,
+   "everyone —including",
+   "everyone—including",
+   "spacing"
+  ],
+  [
+   105,
+   "non- communist",
+   "non-communist",
+   "spacing"
+  ],
+  [
+   122,
+   "companion-in-arms ,",
+   "companion-in-arms,",
+   "spacing"
+  ],
+  [
+   147,
+   "anything ,",
+   "anything,",
+   "spacing"
+  ],
+  [
+   148,
+   "finished ,",
+   "finished,",
+   "spacing"
+  ],
+  [
+   149,
+   "irreversible .",
+   "irreversible.",
+   "spacing"
+  ],
+  [
+   151,
+   "1 have",
+   "I have",
+   "ocr"
+  ],
+  [
+   166,
+   "ft has",
+   "it has",
+   "ocr"
+  ],
+  [
+   173,
+   "so tar",
+   "so far",
+   "ocr"
+  ],
+  [
+   181,
+   "thatare",
+   "that are",
+   "merged_word"
+  ],
+  [
+   201,
+   "liberty .",
+   "liberty.",
+   "spacing"
+  ],
+  [
+   275,
+   "Aslong",
+   "As long",
+   "merged_word"
+  ],
+  [
+   278,
+   "fail accompli",
+   "fait accompli",
+   "ocr"
+  ],
+  [
+   295,
+   "sought —and",
+   "sought—and",
+   "spacing"
+  ],
+  [
+   363,
+   "Asia .",
+   "Asia.",
+   "spacing"
+  ],
+  [
+   391,
+   "Kampuchea .",
+   "Kampuchea.",
+   "spacing"
+  ],
+  [
+   395,
+   "an/1",
+   "and",
+   "ocr"
+  ],
+  [
+   400,
+   "non- aggression",
+   "non-aggression",
+   "spacing"
+  ],
+  [
+   425,
+   "fail accompli",
+   "fait accompli",
+   "ocr"
+  ],
+  [
+   447,
+   "major, importance",
+   "major importance",
+   "ocr"
+  ],
+  [
+   479,
+   "people .",
+   "people.",
+   "spacing"
+  ],
+  [
+   505,
+   "[PLO] ",
+   "",
+   "label"
+  ],
+  [
+   533,
+   " [SWAPO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "Speech stops after paragraph 56 on Namibia; words lost at units 247 and 371.",
+ "unitizer_version": 1,
+ "sha1": "26c84841ae5dca0a631c9e55bbce9188e7ae2830",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 536,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3986,
+  "words_out": 3918,
+  "retention": 0.9829,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   93,
+   133,
+   132,
+   91,
+   118,
+   161,
+   159,
+   129,
+   91,
+   66,
+   135,
+   153,
+   81,
+   89,
+   109,
+   112,
+   117,
+   118,
+   67,
+   77,
+   138,
+   114,
+   144,
+   165,
+   120,
+   80,
+   125,
+   111,
+   65,
+   179,
+   158,
+   94,
+   194
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

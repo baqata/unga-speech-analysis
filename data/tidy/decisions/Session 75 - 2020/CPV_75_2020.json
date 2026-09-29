@@ -1,0 +1,55 @@
+{
+ "id": "CPV_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  16,
+  22,
+  27,
+  32,
+  38,
+  42,
+  44,
+  48,
+  50
+ ],
+ "cer": [
+  0,
+  8,
+  50
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2240d7897d10ef3e9f7d3af6313dd55c71dadd65",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1319,
+  "words_out": 1319,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   10,
+   154,
+   128,
+   105,
+   84,
+   139,
+   142,
+   157,
+   90,
+   62,
+   157,
+   87,
+   4
+  ],
+  "warnings": []
+ }
+}

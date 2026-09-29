@@ -1,0 +1,98 @@
+{
+ "id": "ZAF_49_1994",
+ "drop": [
+  [
+   30,
+   31,
+   "header_footer"
+  ],
+  [
+   123,
+   124,
+   "header_footer"
+  ],
+  [
+   214,
+   215,
+   "header_footer"
+  ],
+  [
+   306,
+   307,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  32,
+  46,
+  55,
+  73,
+  86,
+  101,
+  120,
+  135,
+  146,
+  157,
+  168,
+  187,
+  204,
+  218,
+  239,
+  248,
+  265,
+  279,
+  303,
+  314,
+  319
+ ],
+ "cer": [
+  314
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c1d5786a664e4936d7a97d43691c16cfe9a6fbfd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 330,
+  "units_dropped": {
+   "header_footer": 8
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2877,
+  "words_out": 2840,
+  "retention": 0.9871,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   101,
+   154,
+   121,
+   78,
+   152,
+   117,
+   122,
+   168,
+   119,
+   108,
+   109,
+   109,
+   170,
+   151,
+   105,
+   205,
+   73,
+   144,
+   115,
+   203,
+   72,
+   43,
+   101
+  ],
+  "warnings": []
+ }
+}

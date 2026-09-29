@@ -1,0 +1,114 @@
+{
+ "id": "CRI_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   3,
+   "noise"
+  ],
+  [
+   70,
+   71,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  5,
+  16,
+  21,
+  28,
+  31,
+  37,
+  41,
+  45,
+  48,
+  58,
+  66
+ ],
+ "cer": [
+  4,
+  66
+ ],
+ "fix": [
+  [
+   20,
+   "results. results.",
+   "results.",
+   "asr_term"
+  ],
+  [
+   48,
+   "Rebecca Greenspan",
+   "Rebeca Grynspan",
+   "asr_name"
+  ],
+  [
+   57,
+   "Rebecca Greenspan",
+   "Rebeca Grynspan",
+   "asr_name"
+  ],
+  [
+   41,
+   "principles. as",
+   "principles. As",
+   "asr_term"
+  ],
+  [
+   51,
+   "outside. and",
+   "outside. And",
+   "asr_term"
+  ],
+  [
+   64,
+   "peace. the",
+   "peace. The",
+   "asr_term"
+  ],
+  [
+   17,
+   "So, multilateralism",
+   "Multilateralism",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; units 1-3 invented over the walk to the podium; Rebeca Grynspan per un.org candidate list. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 41 'principles. as' -> 'principles. As'; unit 51 'outside. and' -> 'outside. And'; unit 64 'peace. the' -> 'peace. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 17 'So, multilateralism' -> 'Multilateralism' (invented word: both decodes go from 'all.' to 'Multilateralism' (0.99) with no 'So'; the speaker's Spanish 'El multilateralismo es una necesidad' has none)",
+ "unitizer_version": 1,
+ "sha1": "a99da75a9334617bff609602151e1bba3cc562de",
+ "layout": "single",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 1241,
+  "words_out": 1180,
+  "retention": 0.9508,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   21,
+   132,
+   104,
+   100,
+   64,
+   125,
+   71,
+   150,
+   66,
+   177,
+   133,
+   37
+  ],
+  "warnings": []
+ }
+}

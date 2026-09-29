@@ -1,0 +1,248 @@
+{
+ "id": "PNG_36_1981",
+ "drop": [
+  [
+   23,
+   23,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  16,
+  22,
+  28,
+  31,
+  35,
+  39,
+  42,
+  46,
+  50,
+  53,
+  64,
+  70,
+  77,
+  83,
+  90,
+  96,
+  100,
+  103,
+  105,
+  110,
+  115,
+  119,
+  125,
+  132
+ ],
+ "cer": [
+  0,
+  3,
+  8
+ ],
+ "fix": [
+  [
+   0,
+   "joins, previous",
+   "joins previous",
+   "ocr"
+  ],
+  [
+   4,
+   "historic ind joyous",
+   "historic and joyous",
+   "ocr"
+  ],
+  [
+   8,
+   "congratulations'",
+   "congratulations",
+   "ocr"
+  ],
+  [
+   14,
+   "cease tc be",
+   "cease to be",
+   "ocr"
+  ],
+  [
+   24,
+   "nucbar",
+   "nuclear",
+   "ocr"
+  ],
+  [
+   27,
+   "theg use",
+   "their use",
+   "ocr"
+  ],
+  [
+   41,
+   "conduct,",
+   "conduct.",
+   "ocr"
+  ],
+  [
+   48,
+   "draw, the",
+   "draw the",
+   "ocr"
+  ],
+  [
+   51,
+   "Melane sian",
+   "Melanesian",
+   "split_word"
+  ],
+  [
+   84,
+   "181: ",
+   "",
+   "label"
+  ],
+  [
+   85,
+   "does riot",
+   "does not",
+   "ocr"
+  ],
+  [
+   91,
+   "Conference.13 My",
+   "Conference. My",
+   "ocr"
+  ],
+  [
+   92,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   " [see A/361498]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "Kampucitean",
+   "Kampuchean",
+   "ocr"
+  ],
+  [
+   101,
+   "of. an",
+   "of an",
+   "ocr"
+  ],
+  [
+   101,
+   "on. the",
+   "on the",
+   "ocr"
+  ],
+  [
+   102,
+   "trade ii? primary",
+   "trade in primary",
+   "ocr"
+  ],
+  [
+   104,
+   "has '\"noted",
+   "has noted",
+   "ocr"
+  ],
+  [
+   105,
+   "report.14 The",
+   "report. The",
+   "ocr"
+  ],
+  [
+   108,
+   "develop^ ing",
+   "developing",
+   "ocr"
+  ],
+  [
+   111,
+   "marked^",
+   "marked",
+   "ocr"
+  ],
+  [
+   115,
+   "like, to",
+   "like to",
+   "ocr"
+  ],
+  [
+   117,
+   "would requite",
+   "would require",
+   "ocr"
+  ],
+  [
+   131,
+   "1982.,",
+   "1982.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eb00c89edc3f50566619778afc6b42283033a958",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 3526,
+  "words_out": 3503,
+  "retention": 0.9935,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   72,
+   107,
+   108,
+   70,
+   111,
+   113,
+   98,
+   123,
+   124,
+   73,
+   77,
+   144,
+   89,
+   201,
+   96,
+   134,
+   181,
+   180,
+   208,
+   98,
+   104,
+   70,
+   166,
+   107,
+   146,
+   168,
+   252,
+   83
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "id": "NPL_30_1975",
+ "drop": [
+  [
+   51,
+   51,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  15,
+  18,
+  21,
+  23,
+  29,
+  33,
+  37,
+  42,
+  46,
+  48,
+  52,
+  55,
+  58,
+  61,
+  63,
+  67,
+  70,
+  73,
+  78,
+  80,
+  85,
+  88,
+  91,
+  95,
+  100,
+  102,
+  105,
+  108,
+  112,
+  117,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "19723",
+   "1972",
+   "ocr"
+  ],
+  [
+   32,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   47,
+   " [AjC.ll 1068, annex I]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "full- fledged",
+   "full-fledged",
+   "hyphen"
+  ],
+  [
+   64,
+   "Justice.4",
+   "Justice.",
+   "ocr"
+  ],
+  [
+   82,
+   " [resolutions 3201 (S-VI) and3202 (S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   101,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   103,
+   "countries, The",
+   "countries. The",
+   "ocr"
+  ],
+  [
+   103,
+   " [see AH0112, para. 287]",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "No n-Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   104,
+   " [jee AH0217 and Corr.I, annex, p. 34]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "favor, It",
+   "favor. It",
+   "ocr"
+  ],
+  [
+   106,
+   "[and-locked",
+   "land-locked",
+   "ocr"
+  ],
+  [
+   109,
+   "countries*",
+   "countries.",
+   "ocr"
+  ],
+  [
+   116,
+   "* concluded",
+   "concluded",
+   "ocr"
+  ],
+  [
+   116,
+   " [25.M/it meeting, ptira, 7J6]",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "solutions,",
+   "solutions.",
+   "ocr"
+  ],
+  [
+   37,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   74,
+   " [UNIDO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing at units 15-17 (the Sinai sentence runs into the next, and unit 16 breaks off before unit 17) and at units 35-37 (unit 36 is a scrambled line ending mid-sentence).",
+ "unitizer_version": 1,
+ "sha1": "1c1676fceabb7dc769f1121cea93b672e66f6f42",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 45
+  },
+  "words_in": 3976,
+  "words_out": 3936,
+  "retention": 0.9899,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   133,
+   96,
+   124,
+   117,
+   97,
+   65,
+   69,
+   116,
+   101,
+   57,
+   123,
+   102,
+   83,
+   120,
+   87,
+   139,
+   95,
+   71,
+   165,
+   60,
+   95,
+   180,
+   81,
+   160,
+   97,
+   129,
+   174,
+   135,
+   73,
+   171,
+   151,
+   134,
+   167,
+   112,
+   57
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "CIV_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  35,
+  53,
+  75,
+  99,
+  131,
+  151,
+  174,
+  203,
+  221
+ ],
+ "cer": [
+  0,
+  20
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb782e081ce17509320230941d076c9f6df0bb9a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1789,
+  "words_out": 1788,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   146,
+   121,
+   143,
+   168,
+   186,
+   247,
+   140,
+   173,
+   220,
+   135,
+   109
+  ],
+  "warnings": []
+ }
+}

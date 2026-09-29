@@ -1,0 +1,58 @@
+{
+ "id": "BRN_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  24,
+  38,
+  50,
+  71,
+  84,
+  100,
+  110
+ ],
+ "cer": [
+  0,
+  6,
+  110
+ ],
+ "fix": [
+  [
+   4,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f6b3b8ed8cc2a1530bb26363ab23446d6f0defb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 959,
+  "words_out": 954,
+  "retention": 0.9948,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   49,
+   47,
+   95,
+   115,
+   86,
+   163,
+   122,
+   129,
+   82,
+   66
+  ],
+  "warnings": []
+ }
+}

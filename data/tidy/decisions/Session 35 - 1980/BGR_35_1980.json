@@ -1,0 +1,100 @@
+{
+ "id": "BGR_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  16,
+  22,
+  28,
+  34,
+  39,
+  42,
+  49,
+  51,
+  55,
+  58,
+  59,
+  63,
+  69,
+  72,
+  75,
+  81,
+  83,
+  88,
+  92,
+  95,
+  98,
+  104,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   43,
+   "issues arc",
+   "issues are",
+   "ocr"
+  ],
+  [
+   59,
+   " [item 120)",
+   "",
+   "label"
+  ],
+  [
+   92,
+   " [SWAPO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41f2c2d2b96be22bcceacee74f03da602e14d263",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 3710,
+  "words_out": 3707,
+  "retention": 0.9992,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   137,
+   188,
+   86,
+   188,
+   173,
+   175,
+   195,
+   111,
+   194,
+   178,
+   136,
+   135,
+   109,
+   117,
+   212,
+   130,
+   63,
+   222,
+   61,
+   208,
+   114,
+   99,
+   72,
+   193,
+   72,
+   139
+  ],
+  "warnings": []
+ }
+}

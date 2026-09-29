@@ -1,0 +1,66 @@
+{
+ "id": "VUT_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  19,
+  25,
+  30,
+  34,
+  38,
+  44,
+  51,
+  54,
+  60,
+  65,
+  68,
+  72,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09658e7623b8bebfb4d6057db864d0f574a0dcf2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1918,
+  "words_out": 1917,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   130,
+   156,
+   140,
+   168,
+   107,
+   112,
+   88,
+   153,
+   165,
+   59,
+   132,
+   128,
+   66,
+   108,
+   97,
+   108
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "CMR_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  42,
+  62,
+  76,
+  94,
+  112,
+  120,
+  147,
+  169,
+  182,
+  206,
+  223,
+  246
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "29d04a7040eddffa8626fb10851145ce26f75533",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2108,
+  "words_out": 2103,
+  "retention": 0.9976,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   189,
+   151,
+   148,
+   113,
+   127,
+   131,
+   64,
+   209,
+   181,
+   94,
+   188,
+   139,
+   184,
+   185
+  ],
+  "warnings": []
+ }
+}

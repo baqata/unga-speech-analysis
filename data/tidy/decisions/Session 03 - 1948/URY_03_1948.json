@@ -1,0 +1,50 @@
+{
+ "id": "URY_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  15,
+  21,
+  23,
+  27,
+  31
+ ],
+ "cer": [],
+ "fix": [
+  [
+   32,
+   "an. empty",
+   "an empty",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "bbb13139d98946b6294d9756e65e6cdee71a06aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 36,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1034,
+  "words_out": 1034,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   133,
+   201,
+   102,
+   181,
+   95,
+   77,
+   114,
+   131
+  ],
+  "warnings": []
+ }
+}

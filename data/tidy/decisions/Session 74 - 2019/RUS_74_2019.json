@@ -1,0 +1,102 @@
+{
+ "id": "RUS_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  17,
+  23,
+  25,
+  30,
+  35,
+  39,
+  41,
+  46,
+  48,
+  52,
+  60,
+  63,
+  67,
+  71,
+  74,
+  78,
+  85,
+  87,
+  89,
+  94,
+  98,
+  105
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "closed- format",
+   "closed-format",
+   "hyphen"
+  ],
+  [
+   48,
+   "decades- old",
+   "decades-old",
+   "hyphen"
+  ],
+  [
+   50,
+   "Nuclear- Test-Ban",
+   "Nuclear-Test-Ban",
+   "hyphen"
+  ],
+  [
+   53,
+   "land- based",
+   "land-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f080920a41e862034067c74af62ef2995d676e95",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2994,
+  "words_out": 2986,
+  "retention": 0.9973,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   114,
+   203,
+   162,
+   99,
+   159,
+   63,
+   132,
+   137,
+   164,
+   64,
+   186,
+   72,
+   106,
+   173,
+   75,
+   109,
+   83,
+   82,
+   93,
+   106,
+   79,
+   67,
+   141,
+   123,
+   168,
+   26
+  ],
+  "warnings": []
+ }
+}

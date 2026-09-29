@@ -1,0 +1,70 @@
+{
+ "id": "AND_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  27,
+  46,
+  66,
+  96,
+  113,
+  137,
+  153,
+  170,
+  182,
+  206,
+  222,
+  242
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   156,
+   "(see )",
+   "",
+   "label"
+  ],
+  [
+   255,
+   "()",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76ed6365efdadc8a6050cacf0edc175963701c2d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2106,
+  "words_out": 2097,
+  "retention": 0.9957,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   39,
+   179,
+   172,
+   160,
+   228,
+   129,
+   204,
+   139,
+   137,
+   94,
+   207,
+   127,
+   164,
+   118
+  ],
+  "warnings": []
+ }
+}

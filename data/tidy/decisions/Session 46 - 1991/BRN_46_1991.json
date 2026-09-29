@@ -1,0 +1,102 @@
+{
+ "id": "BRN_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  16,
+  21,
+  29,
+  35,
+  41,
+  44,
+  50,
+  56,
+  61,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Genera]",
+   "General",
+   "ocr"
+  ],
+  [
+   11,
+   "has not. yet",
+   "has not yet",
+   "ocr"
+  ],
+  [
+   35,
+   "I fun also",
+   "I am also",
+   "ocr"
+  ],
+  [
+   50,
+   "making aura",
+   "making sure",
+   "ocr"
+  ],
+  [
+   64,
+   "He should",
+   "We should",
+   "ocr"
+  ],
+  [
+   65,
+   "He should",
+   "We should",
+   "ocr"
+  ],
+  [
+   69,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   71,
+   "He can",
+   "We can",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f97bebf6370add5ae473cff5db3f6dc86abc036",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1364,
+  "words_out": 1364,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   118,
+   71,
+   133,
+   93,
+   101,
+   102,
+   110,
+   78,
+   108,
+   163,
+   90,
+   107,
+   90
+  ],
+  "warnings": []
+ }
+}

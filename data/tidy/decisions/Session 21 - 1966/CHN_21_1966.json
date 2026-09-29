@@ -1,0 +1,124 @@
+{
+ "id": "CHN_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  15,
+  27,
+  34,
+  40,
+  47,
+  54,
+  62,
+  67,
+  73,
+  82,
+  90,
+  96,
+  102,
+  109,
+  117,
+  125,
+  128,
+  136,
+  143,
+  150,
+  158,
+  165,
+  171,
+  176,
+  180,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "war-tom",
+   "war-torn",
+   "ocr"
+  ],
+  [
+   126,
+   " [14-16 June 1966]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "Tire People’s",
+   "The People’s",
+   "ocr"
+  ],
+  [
+   144,
+   "Mac Tse-tung",
+   "Mao Tse-tung",
+   "ocr"
+  ],
+  [
+   159,
+   "“anti- Party”",
+   "“anti-Party”",
+   "hyphen"
+  ],
+  [
+   192,
+   "better- standards",
+   "better standards",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f5ae58b94b8dba2255fd3e31ea5853d4d286b4e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 3676,
+  "words_out": 3624,
+  "retention": 0.9859,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   59,
+   96,
+   150,
+   177,
+   105,
+   123,
+   168,
+   137,
+   108,
+   94,
+   107,
+   121,
+   131,
+   149,
+   115,
+   124,
+   171,
+   142,
+   97,
+   150,
+   80,
+   111,
+   151,
+   127,
+   123,
+   91,
+   72,
+   234,
+   111
+  ],
+  "warnings": []
+ }
+}

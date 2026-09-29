@@ -1,0 +1,80 @@
+{
+ "id": "OMN_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  13,
+  17,
+  20,
+  23,
+  28,
+  30,
+  34,
+  37,
+  41,
+  45,
+  48
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   7,
+   "150 ",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "intervening'",
+   "intervening,",
+   "ocr"
+  ],
+  [
+   36,
+   "come to. be",
+   "come to be",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b3ab712e29b489761bacb4967c359ca2ad6cbfe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 19
+  },
+  "words_in": 1609,
+  "words_out": 1605,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   71,
+   99,
+   84,
+   145,
+   145,
+   180,
+   79,
+   113,
+   98,
+   96,
+   135,
+   108,
+   103,
+   92,
+   57
+  ],
+  "warnings": []
+ }
+}

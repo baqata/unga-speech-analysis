@@ -1,0 +1,188 @@
+{
+ "id": "AUS_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  18,
+  23,
+  30,
+  38,
+  44,
+  51,
+  60,
+  66,
+  72,
+  78,
+  85,
+  95,
+  99,
+  102,
+  108,
+  116,
+  124,
+  127,
+  132,
+  135,
+  144,
+  149,
+  159,
+  168,
+  177,
+  183,
+  189,
+  192,
+  197,
+  204,
+  210,
+  217,
+  224,
+  229
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "office, Our two",
+   "office. Our two",
+   "ocr"
+  ],
+  [
+   1,
+   "and' other",
+   "and other",
+   "ocr"
+  ],
+  [
+   22,
+   "setback, Such",
+   "setback. Such",
+   "ocr"
+  ],
+  [
+   63,
+   "tor the time",
+   "for the time",
+   "ocr"
+  ],
+  [
+   65,
+   "whole, Viet-Nam",
+   "whole. Viet-Nam",
+   "ocr"
+  ],
+  [
+   91,
+   "unfortunately.",
+   "unfortunately,",
+   "ocr"
+  ],
+  [
+   107,
+   "support,",
+   "support.",
+   "ocr"
+  ],
+  [
+   115,
+   "election, \"Liberation\"",
+   "election. \"Liberation\"",
+   "ocr"
+  ],
+  [
+   131,
+   "overhangs'",
+   "overhangs",
+   "ocr"
+  ],
+  [
+   167,
+   "considerations*,",
+   "considerations,",
+   "ocr"
+  ],
+  [
+   167,
+   "the belonging to a Member State of ",
+   "",
+   "label"
+  ],
+  [
+   180,
+   "Australia, We have",
+   "Australia. We have",
+   "ocr"
+  ],
+  [
+   190,
+   "Rhodesia, It was",
+   "Rhodesia. It was",
+   "ocr"
+  ],
+  [
+   190,
+   "today, Australia has",
+   "today. Australia has",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "A printed repetition inside unit 167 is removed with a label fix.",
+ "unitizer_version": 1,
+ "sha1": "ae3ebc6640ba64de137628e69ef53ac14005a960",
+ "layout": "lines",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 5298,
+  "words_out": 5252,
+  "retention": 0.9913,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   181,
+   101,
+   142,
+   161,
+   217,
+   161,
+   129,
+   208,
+   159,
+   190,
+   163,
+   136,
+   116,
+   123,
+   94,
+   63,
+   133,
+   232,
+   139,
+   85,
+   74,
+   132,
+   119,
+   81,
+   174,
+   287,
+   190,
+   103,
+   124,
+   87,
+   137,
+   152,
+   109,
+   108,
+   179,
+   91,
+   172
+  ],
+  "warnings": []
+ }
+}

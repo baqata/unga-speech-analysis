@@ -1,0 +1,82 @@
+{
+ "id": "SAU_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  21,
+  36,
+  41,
+  61,
+  80,
+  105,
+  122,
+  149,
+  159,
+  183,
+  210,
+  222,
+  234,
+  243,
+  258,
+  268,
+  282,
+  291,
+  314
+ ],
+ "cer": [
+  0,
+  14,
+  21,
+  36,
+  314
+ ],
+ "fix": [
+  [
+   313,
+   "(The Holy Koran, V:2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1bbc3fe8d12e14fd060bec7b56830ac40f7db6a0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 316,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2471,
+  "words_out": 2464,
+  "retention": 0.9972,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   105,
+   52,
+   116,
+   33,
+   151,
+   150,
+   186,
+   124,
+   211,
+   82,
+   204,
+   204,
+   103,
+   97,
+   80,
+   130,
+   71,
+   109,
+   66,
+   179,
+   11
+  ],
+  "warnings": []
+ }
+}

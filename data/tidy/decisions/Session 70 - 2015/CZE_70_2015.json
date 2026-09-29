@@ -1,0 +1,41 @@
+{
+ "id": "CZE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  17,
+  24,
+  30
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91a9d49bd5c426a38c8d6da94968d8847890bf7f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 36,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 690,
+  "words_out": 690,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   120,
+   48,
+   80,
+   69,
+   154,
+   121,
+   98
+  ],
+  "warnings": []
+ }
+}

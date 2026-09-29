@@ -1,0 +1,99 @@
+{
+ "id": "MAR_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  17,
+  21,
+  25,
+  29,
+  34,
+  36,
+  41,
+  46,
+  48,
+  53,
+  54,
+  56,
+  59,
+  63,
+  65,
+  66,
+  68,
+  74,
+  80,
+  83,
+  85
+ ],
+ "cer": [
+  7
+ ],
+ "fix": [
+  [
+   6,
+   "fulfil extent",
+   "full extent",
+   "ocr"
+  ],
+  [
+   72,
+   "racismc",
+   "racism",
+   "ocr"
+  ],
+  [
+   81,
+   "pleaders",
+   "leaders",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4468a3ee487d4d6be8502b74ccf9082d3993628d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 31
+  },
+  "words_in": 3117,
+  "words_out": 3117,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   83,
+   125,
+   203,
+   168,
+   108,
+   125,
+   97,
+   148,
+   109,
+   131,
+   161,
+   71,
+   177,
+   72,
+   115,
+   83,
+   152,
+   97,
+   81,
+   118,
+   201,
+   199,
+   107,
+   109,
+   77
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "id": "TZA_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  19,
+  24,
+  27,
+  34,
+  40,
+  45,
+  54,
+  57,
+  65,
+  72,
+  79,
+  97,
+  106,
+  109,
+  119,
+  130,
+  138,
+  148,
+  153,
+  157,
+  162
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "with, great hope",
+   "with great hope",
+   "ocr"
+  ],
+  [
+   15,
+   "readiness .and",
+   "readiness and",
+   "ocr"
+  ],
+  [
+   21,
+   "and.collectively",
+   "and collectively",
+   "ocr"
+  ],
+  [
+   59,
+   "SociarCouncil",
+   "Social Council",
+   "ocr"
+  ],
+  [
+   95,
+   "continue 'there",
+   "continue there",
+   "ocr"
+  ],
+  [
+   104,
+   "within J he powers",
+   "within the powers",
+   "ocr"
+  ],
+  [
+   137,
+   "such’ activities",
+   "such activities",
+   "ocr"
+  ],
+  [
+   144,
+   "and hot words",
+   "and not words",
+   "ocr"
+  ],
+  [
+   147,
+   "flout- the",
+   "flout the",
+   "ocr"
+  ],
+  [
+   25,
+   " [A/6001/ Add.1, section 1]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   " [A/5986, para. 20]",
+   "",
+   "label"
+  ],
+  [
+   52,
+   " [see A/5975]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 72 and 115 appear to lack words mid-sentence ('it should have with the new institution'; 'freedom-and-peace-loving system of the exploitation of man by man'); kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "59b58ec0797cc9411481b2f217d7bc897adfd800",
+ "layout": "lines",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3809,
+  "words_out": 3768,
+  "retention": 0.9892,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   52,
+   168,
+   164,
+   162,
+   95,
+   160,
+   144,
+   129,
+   264,
+   99,
+   153,
+   154,
+   128,
+   313,
+   198,
+   68,
+   244,
+   237,
+   197,
+   199,
+   111,
+   70,
+   130,
+   129
+  ],
+  "warnings": []
+ }
+}

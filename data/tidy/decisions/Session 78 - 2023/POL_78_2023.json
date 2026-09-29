@@ -1,0 +1,318 @@
+{
+ "id": "POL_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  13,
+  20,
+  29,
+  38,
+  50,
+  55,
+  62,
+  67,
+  79,
+  83,
+  89,
+  92,
+  102,
+  115,
+  117,
+  121,
+  134,
+  138,
+  140,
+  143,
+  146,
+  151
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   1,
+   "Sir. on",
+   "Sir, on",
+   "ocr"
+  ],
+  [
+   2,
+   "Korosi. in",
+   "Korosi, in",
+   "ocr"
+  ],
+  [
+   9,
+   "Britain.",
+   "Britain,",
+   "ocr"
+  ],
+  [
+   11,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   22,
+   "1939.",
+   "1939,",
+   "ocr"
+  ],
+  [
+   23,
+   "homeland.",
+   "homeland,",
+   "ocr"
+  ],
+  [
+   26,
+   "1939. we",
+   "1939, we",
+   "ocr"
+  ],
+  [
+   28,
+   "war. better",
+   "war, better",
+   "ocr"
+  ],
+  [
+   29,
+   "War.",
+   "War,",
+   "ocr"
+  ],
+  [
+   34,
+   "Ukraine.",
+   "Ukraine,",
+   "ocr"
+  ],
+  [
+   39,
+   "Poland.",
+   "Poland,",
+   "ocr"
+  ],
+  [
+   41,
+   "who. a dozen years ago. was",
+   "who, a dozen years ago, was",
+   "ocr"
+  ],
+  [
+   42,
+   "point.",
+   "point,",
+   "ocr"
+  ],
+  [
+   44,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   50,
+   "Headquarters.",
+   "Headquarters,",
+   "ocr"
+  ],
+  [
+   60,
+   "who. following",
+   "who, following",
+   "ocr"
+  ],
+  [
+   70,
+   "us. but",
+   "us, but",
+   "ocr"
+  ],
+  [
+   71,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   74,
+   "We. as",
+   "We, as",
+   "ocr"
+  ],
+  [
+   82,
+   "and. primarily",
+   "and, primarily",
+   "ocr"
+  ],
+  [
+   85,
+   "end. as",
+   "end, as",
+   "ocr"
+  ],
+  [
+   89,
+   "often.",
+   "often,",
+   "ocr"
+  ],
+  [
+   91,
+   "2025. will",
+   "2025, will",
+   "ocr"
+  ],
+  [
+   95,
+   "years.",
+   "years,",
+   "ocr"
+  ],
+  [
+   98,
+   "need.",
+   "need,",
+   "ocr"
+  ],
+  [
+   104,
+   "Syria.",
+   "Syria,",
+   "ocr"
+  ],
+  [
+   105,
+   "Iraq.",
+   "Iraq,",
+   "ocr"
+  ],
+  [
+   106,
+   "Lebanon.",
+   "Lebanon,",
+   "ocr"
+  ],
+  [
+   113,
+   "2022. we",
+   "2022, we",
+   "ocr"
+  ],
+  [
+   114,
+   "Lebanon. Afghanistan. Tajikistan",
+   "Lebanon, Afghanistan, Tajikistan",
+   "ocr"
+  ],
+  [
+   123,
+   "war. many",
+   "war, many",
+   "ocr"
+  ],
+  [
+   130,
+   "aid. including",
+   "aid, including",
+   "ocr"
+  ],
+  [
+   140,
+   "2024- 2026",
+   "2024-2026",
+   "hyphen"
+  ],
+  [
+   145,
+   "all. whether",
+   "all, whether",
+   "ocr"
+  ],
+  [
+   146,
+   "refugees.",
+   "refugees,",
+   "ocr"
+  ],
+  [
+   150,
+   "war. the",
+   "war, the",
+   "ocr"
+  ],
+  [
+   150,
+   "day. all",
+   "day, all",
+   "ocr"
+  ],
+  [
+   151,
+   "2025. the",
+   "2025, the",
+   "ocr"
+  ],
+  [
+   152,
+   "and. ultimately",
+   "and, ultimately",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "875b01af703dbbf782559cf2c285fa99cf16c1c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2567,
+  "words_out": 2565,
+  "retention": 0.9992,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   74,
+   181,
+   110,
+   127,
+   117,
+   155,
+   75,
+   125,
+   99,
+   146,
+   110,
+   145,
+   63,
+   115,
+   153,
+   71,
+   61,
+   148,
+   84,
+   73,
+   106,
+   79,
+   78,
+   70
+  ],
+  "warnings": [
+   "40 fixes"
+  ]
+ }
+}

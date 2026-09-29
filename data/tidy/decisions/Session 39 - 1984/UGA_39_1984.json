@@ -1,0 +1,93 @@
+{
+ "id": "UGA_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  22,
+  32,
+  38,
+  42,
+  47,
+  52,
+  56,
+  64,
+  68,
+  72,
+  77,
+  81,
+  85,
+  92,
+  95,
+  103,
+  106,
+  110
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   5,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   11,
+   "all, It is",
+   "all. It is",
+   "ocr"
+  ],
+  [
+   72,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0d95153d639e8a8c9149ca07087574a296f9c8b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 2620,
+  "words_out": 2616,
+  "retention": 0.9985,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   99,
+   144,
+   97,
+   154,
+   199,
+   136,
+   119,
+   94,
+   85,
+   110,
+   191,
+   87,
+   61,
+   157,
+   96,
+   122,
+   127,
+   82,
+   172,
+   93,
+   98,
+   93
+  ],
+  "warnings": []
+ }
+}

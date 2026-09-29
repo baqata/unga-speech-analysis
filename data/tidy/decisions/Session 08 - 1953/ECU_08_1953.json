@@ -1,0 +1,137 @@
+{
+ "id": "ECU_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  15,
+  18,
+  20,
+  29,
+  35,
+  38,
+  42,
+  45,
+  50,
+  54,
+  60,
+  65,
+  68,
+  74,
+  77,
+  83,
+  86,
+  90,
+  96,
+  98,
+  101,
+  105,
+  108,
+  112,
+  113,
+  116,
+  121,
+  126
+ ],
+ "cer": [
+  126
+ ],
+ "fix": [
+  [
+   1,
+   "difficulties;",
+   "difficulties,",
+   "ocr"
+  ],
+  [
+   16,
+   "confussion",
+   "confusion",
+   "ocr"
+  ],
+  [
+   16,
+   "Charter,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   42,
+   "[A/2404],",
+   "[A/2404].",
+   "ocr"
+  ],
+  [
+   60,
+   "[resolution 622 A (VII) ]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "[resolution 416 A (XIV)]",
+   "",
+   "label"
+  ],
+  [
+   110,
+   "welfare.",
+   "welfare",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b4b16e371ebbc90c9f7e317d9b18b877975cf29e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 42
+  },
+  "words_in": 4820,
+  "words_out": 4808,
+  "retention": 0.9975,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   75,
+   163,
+   146,
+   225,
+   151,
+   136,
+   257,
+   155,
+   140,
+   130,
+   90,
+   138,
+   144,
+   218,
+   206,
+   103,
+   211,
+   109,
+   187,
+   118,
+   156,
+   216,
+   161,
+   90,
+   113,
+   89,
+   123,
+   96,
+   157,
+   207,
+   206,
+   92
+  ],
+  "warnings": []
+ }
+}

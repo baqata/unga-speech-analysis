@@ -1,0 +1,74 @@
+{
+ "id": "QAT_67_2012",
+ "drop": [
+  [
+   177,
+   178,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  27,
+  42,
+  53,
+  63,
+  76,
+  86,
+  103,
+  122,
+  142,
+  151,
+  163,
+  179,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   126,
+   "stif ling",
+   "stifling",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0fe9874265b64ca8a9473ee269c8b932cb03c354",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 1783,
+  "words_out": 1775,
+  "retention": 0.9955,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   98,
+   136,
+   121,
+   96,
+   92,
+   114,
+   85,
+   147,
+   176,
+   164,
+   97,
+   100,
+   118,
+   134,
+   97
+  ],
+  "warnings": [
+   "procedural drop [177,178] in the middle of the speech"
+  ]
+ }
+}

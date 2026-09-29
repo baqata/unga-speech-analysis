@@ -1,0 +1,196 @@
+{
+ "id": "BEN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  10,
+  12,
+  13,
+  18,
+  20,
+  24,
+  29,
+  34,
+  37,
+  41,
+  43,
+  47,
+  52,
+  57,
+  59,
+  64,
+  69,
+  70,
+  73,
+  77,
+  80,
+  83,
+  84,
+  85,
+  88,
+  92,
+  93,
+  95,
+  101,
+  103,
+  107,
+  111,
+  114,
+  117,
+  121,
+  124,
+  126,
+  128,
+  133,
+  140,
+  146,
+  149
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   8,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   18,
+   "un-workability",
+   "unworkability",
+   "hyphen"
+  ],
+  [
+   33,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   64,
+   "Smith- Muzorewa",
+   "Smith-Muzorewa",
+   "hyphen"
+  ],
+  [
+   72,
+   "com-munity",
+   "community",
+   "hyphen"
+  ],
+  [
+   76,
+   "[OAU]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "[SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "[NATO]",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   112,
+   "Israel- must",
+   "Israel must",
+   "ocr"
+  ],
+  [
+   124,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   129,
+   "[SALT]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a6168316a015056b8d13a65f5b3ab65e18ae7909",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 71
+  },
+  "words_in": 5936,
+  "words_out": 5928,
+  "retention": 0.9987,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   115,
+   172,
+   174,
+   96,
+   118,
+   71,
+   141,
+   141,
+   93,
+   208,
+   147,
+   108,
+   156,
+   93,
+   166,
+   148,
+   137,
+   99,
+   141,
+   149,
+   69,
+   144,
+   135,
+   140,
+   160,
+   95,
+   62,
+   97,
+   144,
+   79,
+   110,
+   190,
+   85,
+   140,
+   119,
+   125,
+   165,
+   140,
+   138,
+   62,
+   64,
+   161,
+   247,
+   173,
+   118,
+   93
+  ],
+  "warnings": []
+ }
+}

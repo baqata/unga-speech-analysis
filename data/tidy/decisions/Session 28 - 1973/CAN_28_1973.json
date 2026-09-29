@@ -1,0 +1,93 @@
+{
+ "id": "CAN_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  19,
+  26,
+  30,
+  36,
+  45,
+  53,
+  59,
+  68,
+  72,
+  78,
+  82,
+  87,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   42,
+   "arc at issue",
+   "are at issue",
+   "ocr"
+  ],
+  [
+   48,
+   " [FAO]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "been' transforming",
+   "been transforming",
+   "ocr"
+  ],
+  [
+   80,
+   "Conference- Exposition",
+   "Conference-Exposition",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d41ec18f4a81ee9ae2bd9656cf944a71c73c454",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 2213,
+  "words_out": 2204,
+  "retention": 0.9959,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   154,
+   139,
+   210,
+   139,
+   70,
+   94,
+   179,
+   201,
+   119,
+   171,
+   121,
+   159,
+   125,
+   107,
+   90,
+   126
+  ],
+  "warnings": []
+ }
+}

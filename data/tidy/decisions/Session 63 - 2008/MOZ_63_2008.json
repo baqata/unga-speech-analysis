@@ -1,0 +1,55 @@
+{
+ "id": "MOZ_63_2008",
+ "drop": [
+  [
+   90,
+   91,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  18,
+  41,
+  63,
+  92,
+  115,
+  142,
+  167
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c47f57719a43d633900cd837c303949ee4be2cc0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1316,
+  "words_out": 1305,
+  "retention": 0.9916,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   130,
+   173,
+   162,
+   212,
+   182,
+   227,
+   189,
+   30
+  ],
+  "warnings": [
+   "procedural drop [90,91] in the middle of the speech"
+  ]
+ }
+}

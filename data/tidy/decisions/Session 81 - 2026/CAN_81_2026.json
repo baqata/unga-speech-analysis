@@ -1,0 +1,144 @@
+{
+ "id": "CAN_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   116,
+   116,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  12,
+  24,
+  31,
+  44,
+  49,
+  58,
+  63,
+  66,
+  72,
+  77,
+  85,
+  95,
+  97,
+  102,
+  114
+ ],
+ "cer": [
+  1,
+  114
+ ],
+ "fix": [
+  [
+   7,
+   "Macmillan",
+   "MacMillan",
+   "asr_name"
+  ],
+  [
+   72,
+   "Near a",
+   "Nearer",
+   "asr_term"
+  ],
+  [
+   115,
+   "miglèche",
+   "meegwetch",
+   "asr_term"
+  ],
+  [
+   110,
+   "Nations, nations,",
+   "Nations,",
+   "asr_term"
+  ],
+  [
+   26,
+   "trustworthy. to",
+   "trustworthy. To",
+   "asr_term"
+  ],
+  [
+   74,
+   "hope. throughout",
+   "hope. Throughout",
+   "asr_term"
+  ],
+  [
+   75,
+   "Islamophobia. which",
+   "Islamophobia which",
+   "asr_term"
+  ],
+  [
+   95,
+   "need. in",
+   "need. In",
+   "asr_term"
+  ],
+  [
+   39,
+   "Last",
+   "This",
+   "asr_term"
+  ],
+  [
+   71,
+   "behavior. at",
+   "behavior. Here at",
+   "asr_term"
+  ],
+  [
+   94,
+   "obstacle",
+   "obstacle to peace",
+   "asr_term"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Words missing in units 26 ('to a policy of values-based realism', Spanish 'el Canada seguira con su politica') and 94 ('an obstacle' then new sentence, Spanish 'un obstaculo para la paz'); historian Margaret MacMillan; Spanish 'mas cerca de casa' for Nearer home; closing 'meegwetch' is the Anishinaabe thanks used by Canadian ministers. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 110 'Nations, nations,' -> 'Nations,'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 26 'trustworthy. to' -> 'trustworthy. To'; unit 71 'behavior. at' -> 'behavior. At'; unit 74 'hope. throughout' -> 'hope. Throughout'; unit 75 'Islamophobia. which' -> 'Islamophobia which'; unit 95 'need. in' -> 'need. In'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 39 'Last' -> 'This' (five decodes hear 'This' (0.42-0.91), none 'Last'; forced scoring 'This year' -8.6, 'Last year' -11.1, 'In the last year' -14.7; 'has secured' needs 'This year'; UN 'This year'; ES 'En el último año' does not contradict); spot 7 unit 71 'behavior. at' -> 'behavior. Here at' (2026 exception, inside the existing repair: both decodes hear 'Here' 0.99; ES 'y aquí en las Naciones Unidas'); spot 10 unit 94 'obstacle' -> 'obstacle to peace' (2026 exception: both decodes hear 'to peace.' 1.00; ES 'un obstáculo para la paz'; the missing full stop is not added)",
+ "unitizer_version": 1,
+ "sha1": "e3b7fd78f81e6f06a732535b0510de2c329349e5",
+ "layout": "single",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2057,
+  "words_out": 2033,
+  "retention": 0.9883,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   7,
+   110,
+   218,
+   151,
+   195,
+   81,
+   151,
+   104,
+   68,
+   124,
+   150,
+   145,
+   208,
+   72,
+   75,
+   170,
+   4
+  ],
+  "warnings": []
+ }
+}

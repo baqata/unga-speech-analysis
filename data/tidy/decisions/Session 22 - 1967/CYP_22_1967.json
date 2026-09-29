@@ -1,0 +1,122 @@
+{
+ "id": "CYP_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  16,
+  21,
+  27,
+  32,
+  40,
+  47,
+  52,
+  58,
+  63,
+  70,
+  82,
+  90,
+  94,
+  101,
+  106,
+  109,
+  116,
+  128,
+  138,
+  142,
+  152,
+  158,
+  168,
+  174,
+  179
+ ],
+ "cer": [
+  16
+ ],
+ "fix": [
+  [
+   39,
+   "[Ibid., para. 45.]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   77,
+   " [Ibid., para. 148.]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   " [1426th meeting, paras. 40-43]",
+   "",
+   "label"
+  ],
+  [
+   127,
+   "cannot; deceive",
+   "cannot deceive",
+   "ocr"
+  ],
+  [
+   183,
+   "must succeed, If it fails",
+   "must succeed. If it fails",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55be995710244cabc8d8c1a392f37178574128a4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 4229,
+  "words_out": 4169,
+  "retention": 0.9858,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   100,
+   146,
+   169,
+   173,
+   166,
+   119,
+   115,
+   112,
+   106,
+   164,
+   128,
+   127,
+   253,
+   154,
+   120,
+   166,
+   145,
+   81,
+   179,
+   196,
+   219,
+   87,
+   255,
+   164,
+   170,
+   114,
+   105,
+   136
+  ],
+  "warnings": []
+ }
+}

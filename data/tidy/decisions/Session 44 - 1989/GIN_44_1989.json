@@ -1,0 +1,132 @@
+{
+ "id": "GIN_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  8,
+  14,
+  17,
+  19,
+  21,
+  24,
+  28,
+  31,
+  35,
+  40,
+  43,
+  44,
+  48,
+  55,
+  58,
+  64,
+  70,
+  72,
+  75,
+  79,
+  85
+ ],
+ "cer": [
+  0,
+  1,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "for roe",
+   "for me",
+   "ocr"
+  ],
+  [
+   0,
+   "to the. Assembly",
+   "to the Assembly",
+   "ocr"
+  ],
+  [
+   4,
+   "1S80",
+   "1980",
+   "ocr"
+  ],
+  [
+   27,
+   "Comorion",
+   "Comorian",
+   "ocr"
+  ],
+  [
+   37,
+   "auspices or the",
+   "auspices of the",
+   "ocr"
+  ],
+  [
+   45,
+   "con temporary",
+   "contemporary",
+   "split_word"
+  ],
+  [
+   64,
+   "face of. poverty",
+   "face of poverty",
+   "ocr"
+  ],
+  [
+   84,
+   "character is tic",
+   "characteristic",
+   "split_word"
+  ],
+  [
+   75,
+   "I new turn",
+   "I now turn",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b000c022b266b68c29289b5cab13292474e4847e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2462,
+  "words_out": 2459,
+  "retention": 0.9988,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   30,
+   101,
+   52,
+   170,
+   74,
+   63,
+   93,
+   68,
+   110,
+   134,
+   157,
+   144,
+   121,
+   73,
+   83,
+   204,
+   106,
+   138,
+   163,
+   65,
+   62,
+   70,
+   128,
+   50
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "id": "HUN_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  11,
+  16,
+  22,
+  29,
+  33,
+  35,
+  37,
+  42,
+  45,
+  51,
+  56,
+  64,
+  67,
+  71,
+  75,
+  81,
+  85,
+  88,
+  90,
+  95,
+  98,
+  103,
+  106,
+  112,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "victia",
+   "victis",
+   "ocr"
+  ],
+  [
+   5,
+   "15-yoar-old",
+   "15-year-old",
+   "ocr"
+  ],
+  [
+   22,
+   "Municipal all actions",
+   "Municipal elections",
+   "ocr"
+  ],
+  [
+   35,
+   "rights· In",
+   "rights. In",
+   "encoding"
+  ],
+  [
+   43,
+   "-·",
+   "-",
+   "encoding"
+  ],
+  [
+   45,
+   "CSC&",
+   "CSCE",
+   "ocr"
+  ],
+  [
+   70,
+   "as wall",
+   "as well",
+   "ocr"
+  ],
+  [
+   88,
+   "contest",
+   "context",
+   "ocr"
+  ],
+  [
+   93,
+   "contest",
+   "context",
+   "ocr"
+  ],
+  [
+   99,
+   "а dramatic",
+   "a dramatic",
+   "encoding"
+  ],
+  [
+   112,
+   "Peres",
+   "Perez",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "696f09830cc6745f801369d256c0c8f10f996d29",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3389,
+  "words_out": 3388,
+  "retention": 0.9997,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   54,
+   228,
+   167,
+   168,
+   166,
+   155,
+   59,
+   162,
+   86,
+   90,
+   199,
+   132,
+   193,
+   109,
+   92,
+   119,
+   178,
+   75,
+   86,
+   73,
+   184,
+   110,
+   79,
+   106,
+   147,
+   115,
+   56
+  ],
+  "warnings": []
+ }
+}

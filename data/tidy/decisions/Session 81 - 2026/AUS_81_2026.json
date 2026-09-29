@@ -1,0 +1,146 @@
+{
+ "id": "AUS_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   34,
+   34,
+   "noise"
+  ],
+  [
+   113,
+   113,
+   "noise"
+  ],
+  [
+   114,
+   114,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  11,
+  18,
+  24,
+  30,
+  35,
+  42,
+  45,
+  52,
+  61,
+  69,
+  77,
+  81,
+  83,
+  88,
+  92,
+  95,
+  99,
+  104,
+  112
+ ],
+ "cer": [
+  112
+ ],
+ "fix": [
+  [
+   10,
+   "humanity. in",
+   "humanity in",
+   "asr_term"
+  ],
+  [
+   10,
+   "meaning. by",
+   "meaning by",
+   "asr_term"
+  ],
+  [
+   68,
+   "His",
+   "Its",
+   "asr_term"
+  ],
+  [
+   85,
+   "Frankham",
+   "Frankcom",
+   "asr_name"
+  ],
+  [
+   99,
+   "share. and",
+   "share and",
+   "asr_term"
+  ],
+  [
+   101,
+   "Takiyah",
+   "Türkiye",
+   "asr_name"
+  ],
+  [
+   110,
+   "conflict. and",
+   "conflict and",
+   "asr_term"
+  ],
+  [
+   43,
+   "change",
+   "Climate change",
+   "asr_term"
+  ],
+  [
+   56,
+   "perspectives. strongly",
+   "perspectives working strongly",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Re-tidied 09-29 by the main agent on the full speech: the library audio stopped at 6:18, so both channels were cut from the UN Web TV recording of the meeting (Kaltura 1_nowzwrds, 38935-40175 s; the old file matches it from 16.9 s). Unit 1 opens with stray words from the gap pass, inside the dropped presider text; 34 lone 'Thank you.' in a pause (no thanks in the Spanish) and 113 'APPLAUSE Thank you.' after the closing are noise. Sentence breaks: 10 x2, 99, 110 (stop removed where the words finish the sentence). 68 'His purpose' -> 'Its' (the digital duty of care). Names: Zomi Frankcom, the World Central Kitchen worker killed in Gaza on 1 April 2024 (ABC News 2 Apr 2024; Spanish 'Somi Francom'); Türkiye, COP31 President and host, Australia President of Negotiations, Pacific pre-COP in Fiji and Tuvalu (pm.gov.au, DCCEEW; Spanish 'presidencia turquilla'). Left for the cross-check: 43 'attention. change' and 56 'perspectives. strongly' (dropped words). The Spanish at 13:05 has a sentence against hatred and antisemitism that neither English transcript holds. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 43 'change' -> 'Climate change' (2026 exception: both decodes hear 'Climate' clearly (0.99 / 0.99); ES 'el cambio climático'; UN 'Climate change'); spot 3 unit 56 'perspectives. strongly' -> 'perspectives working strongly' (2026 exception: both decodes hear 'working' clearly (0.99 / 1.00) and a comma, not a stop; ES 'vamos a trabajar juntos'; UN 'working strongly together'; the stop split one sentence (guideline sentence-break rule))",
+ "unitizer_version": 1,
+ "sha1": "3dd2507124a97e10d141c4cadec2a9ddcb71b305",
+ "layout": "single",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2379,
+  "words_out": 2300,
+  "retention": 0.9668,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   239,
+   155,
+   121,
+   94,
+   75,
+   136,
+   67,
+   98,
+   209,
+   118,
+   131,
+   81,
+   80,
+   108,
+   119,
+   73,
+   111,
+   135,
+   147,
+   3
+  ],
+  "warnings": []
+ }
+}

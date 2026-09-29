@@ -1,0 +1,94 @@
+{
+ "id": "IRL_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   148,
+   148,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  13,
+  18,
+  26,
+  37,
+  48,
+  59,
+  67,
+  73,
+  81,
+  86,
+  96,
+  101,
+  109,
+  116,
+  125,
+  129,
+  138,
+  147
+ ],
+ "cer": [
+  2,
+  147
+ ],
+ "fix": [
+  [
+   12,
+   "Dike Hammarskjöld",
+   "Dag Hammarskjöld",
+   "asr_name"
+  ],
+  [
+   57,
+   "Baghmut",
+   "Bakhmut",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a629950895fd10cf07e445e3e3e4fa05da5b43fd",
+ "layout": "single",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2433,
+  "words_out": 2392,
+  "retention": 0.9831,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   15,
+   183,
+   104,
+   141,
+   155,
+   188,
+   132,
+   131,
+   103,
+   148,
+   113,
+   187,
+   93,
+   112,
+   74,
+   137,
+   88,
+   103,
+   179,
+   6
+  ],
+  "warnings": []
+ }
+}

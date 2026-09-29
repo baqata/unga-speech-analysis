@@ -1,0 +1,107 @@
+{
+ "id": "MOZ_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  10,
+  12,
+  18,
+  21,
+  25,
+  27,
+  32,
+  35,
+  39,
+  41,
+  44,
+  49,
+  55,
+  58,
+  65,
+  70,
+  72,
+  78,
+  80,
+  84
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "ha3 presided",
+   "has presided",
+   "ocr"
+  ],
+  [
+   6,
+   "East and Heat",
+   "East and West",
+   "ocr"
+  ],
+  [
+   20,
+   "(A/45/PV, 13, p, 53)",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "Uruguay Sound",
+   "Uruguay Round",
+   "ocr"
+  ],
+  [
+   36,
+   "8outh Africa",
+   "South Africa",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd4a1dd3d43e56cbb9ea2e84df451f66e3fee4e0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2455,
+  "words_out": 2452,
+  "retention": 0.9988,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   71,
+   114,
+   113,
+   65,
+   94,
+   158,
+   91,
+   149,
+   64,
+   134,
+   72,
+   125,
+   107,
+   84,
+   89,
+   123,
+   68,
+   141,
+   87,
+   55,
+   168,
+   87,
+   110,
+   83
+  ],
+  "warnings": []
+ }
+}

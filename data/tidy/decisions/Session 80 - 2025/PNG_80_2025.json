@@ -1,0 +1,78 @@
+{
+ "id": "PNG_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   128,
+   128,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  13,
+  19,
+  25,
+  36,
+  46,
+  58,
+  63,
+  72,
+  81,
+  89,
+  102,
+  110,
+  125
+ ],
+ "cer": [
+  2,
+  125
+ ],
+ "fix": [
+  [
+   2,
+   "88th Session",
+   "80th Session",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab5711311227aa19d0ccf1921b266c0f23c87c0c",
+ "layout": "single",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2118,
+  "words_out": 2063,
+  "retention": 0.974,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   92,
+   151,
+   119,
+   117,
+   176,
+   200,
+   164,
+   72,
+   108,
+   126,
+   154,
+   177,
+   151,
+   235,
+   21
+  ],
+  "warnings": []
+ }
+}

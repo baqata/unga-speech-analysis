@@ -1,0 +1,66 @@
+{
+ "id": "GNQ_64_2009",
+ "drop": [
+  [
+   21,
+   22,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  32,
+  45,
+  60,
+  71,
+  84,
+  105,
+  122,
+  135,
+  155,
+  166,
+  180
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db7789b71a98bbd040665b8db796688cb1b66f76",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1476,
+  "words_out": 1467,
+  "retention": 0.9939,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   108,
+   131,
+   100,
+   112,
+   82,
+   101,
+   153,
+   137,
+   95,
+   159,
+   82,
+   119,
+   88
+  ],
+  "warnings": [
+   "procedural drop [21,22] in the middle of the speech"
+  ]
+ }
+}

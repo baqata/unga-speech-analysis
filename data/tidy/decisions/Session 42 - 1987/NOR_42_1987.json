@@ -1,0 +1,130 @@
+{
+ "id": "NOR_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  14,
+  16,
+  23,
+  26,
+  29,
+  36,
+  41,
+  48,
+  52,
+  59,
+  63,
+  65,
+  70,
+  72,
+  78,
+  81,
+  83,
+  87,
+  90,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "We ate meeting",
+   "We are meeting",
+   "ocr"
+  ],
+  [
+   7,
+   "Secretary-Gen et al has",
+   "Secretary-General has",
+   "ocr"
+  ],
+  [
+   8,
+   "(P/42/1, p. 2) ",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "issues Is the",
+   "issues is the",
+   "ocr"
+  ],
+  [
+   21,
+   "threatens International",
+   "threatens international",
+   "ocr"
+  ],
+  [
+   23,
+   "environment} and",
+   "environment; and",
+   "ocr"
+  ],
+  [
+   37,
+   "one—time",
+   "one-time",
+   "ocr"
+  ],
+  [
+   56,
+   "becoming Increasingly",
+   "becoming increasingly",
+   "ocr"
+  ],
+  [
+   61,
+   "EOOSOC",
+   "ECOSOC",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f06752020f8af70d461742efa08cc4ad19b4ac9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2530,
+  "words_out": 2525,
+  "retention": 0.998,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   34,
+   101,
+   128,
+   83,
+   54,
+   112,
+   123,
+   110,
+   176,
+   92,
+   155,
+   102,
+   157,
+   148,
+   66,
+   143,
+   66,
+   167,
+   86,
+   78,
+   68,
+   73,
+   91,
+   112
+  ],
+  "warnings": []
+ }
+}

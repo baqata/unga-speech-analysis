@@ -1,0 +1,80 @@
+{
+ "id": "JOR_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  16,
+  23,
+  30,
+  33,
+  39,
+  47,
+  51,
+  55,
+  60,
+  65,
+  69,
+  74,
+  79,
+  84,
+  88,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "one of ,the main",
+   "one of the main",
+   "ocr"
+  ],
+  [
+   80,
+   "are «he statements",
+   "are the statements",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a1d83f27583b0fd030827c779bdd49f40dc30aa5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3018,
+  "words_out": 3018,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   159,
+   208,
+   89,
+   253,
+   283,
+   161,
+   121,
+   189,
+   154,
+   81,
+   233,
+   114,
+   93,
+   150,
+   101,
+   159,
+   137,
+   162,
+   171
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,360 @@
+{
+ "id": "GTM_30_1975",
+ "drop": [
+  [
+   52,
+   52,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  6,
+  9,
+  11,
+  14,
+  17,
+  19,
+  21,
+  22,
+  27,
+  30,
+  33,
+  37,
+  40,
+  44,
+  47,
+  51,
+  54,
+  57,
+  62,
+  71,
+  78,
+  82,
+  85,
+  87,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   " [EEC]",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "69 ",
+   "",
+   "label"
+  ],
+  [
+   41,
+   ". Colonial",
+   "Colonial",
+   "ocr"
+  ],
+  [
+   44,
+   "6.'",
+   "6.",
+   "ocr"
+  ],
+  [
+   46,
+   "1 would",
+   "I would",
+   "ocr"
+  ],
+  [
+   50,
+   "coexistence\".3",
+   "coexistence\".",
+   "ocr"
+  ],
+  [
+   53,
+   "Slates",
+   "States",
+   "ocr"
+  ],
+  [
+   53,
+   "as. an",
+   "as an",
+   "ocr"
+  ],
+  [
+   53,
+   "representative;,",
+   "representative,",
+   "ocr"
+  ],
+  [
+   53,
+   "am attempt",
+   "an attempt",
+   "ocr"
+  ],
+  [
+   54,
+   "committee*",
+   "committees",
+   "ocr"
+  ],
+  [
+   54,
+   " |CA<!.V]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "1955. in",
+   "1955, in",
+   "ocr"
+  ],
+  [
+   55,
+   "and. hence",
+   "and, hence",
+   "ocr"
+  ],
+  [
+   55,
+   "Slates",
+   "States",
+   "ocr"
+  ],
+  [
+   55,
+   "Guayana.",
+   "Guayana,",
+   "ocr"
+  ],
+  [
+   56,
+   "1^74",
+   "1974",
+   "ocr"
+  ],
+  [
+   56,
+   "fn this",
+   "In this",
+   "ocr"
+  ],
+  [
+   57,
+   "HI Salvador",
+   "El Salvador",
+   "ocr"
+  ],
+  [
+   57,
+   "slate-merit",
+   "statement",
+   "ocr"
+  ],
+  [
+   57,
+   "(he meeting",
+   "the meeting",
+   "ocr"
+  ],
+  [
+   58,
+   " [Ai22cJ6\\",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "or making",
+   "of making",
+   "ocr"
+  ],
+  [
+   59,
+   "thai",
+   "that",
+   "ocr"
+  ],
+  [
+   60,
+   "HI Salvador.",
+   "El Salvador,",
+   "ocr"
+  ],
+  [
+   61,
+   "lo record",
+   "to record",
+   "ocr"
+  ],
+  [
+   64,
+   "Belize. hut",
+   "Belize, but",
+   "ocr"
+  ],
+  [
+   65,
+   "l be idea",
+   "the idea",
+   "ocr"
+  ],
+  [
+   65,
+   "fours of",
+   "Court of",
+   "ocr"
+  ],
+  [
+   65,
+   "u* agree",
+   "to agree",
+   "ocr"
+  ],
+  [
+   65,
+   "he followed",
+   "be followed",
+   "ocr"
+  ],
+  [
+   67,
+   "deadlock.,",
+   "deadlock,",
+   "ocr"
+  ],
+  [
+   70,
+   "people*",
+   "peoples",
+   "ocr"
+  ],
+  [
+   71,
+   "96, ",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "front different",
+   "from different",
+   "ocr"
+  ],
+  [
+   71,
+   "inhabitant's",
+   "inhabitants",
+   "ocr"
+  ],
+  [
+   73,
+   "own. for",
+   "own, for",
+   "ocr"
+  ],
+  [
+   75,
+   "Hit these",
+   "But these",
+   "ocr"
+  ],
+  [
+   76,
+   "lo that CJovernmeni,",
+   "to that Government.",
+   "ocr"
+  ],
+  [
+   78,
+   "effort*",
+   "efforts",
+   "ocr"
+  ],
+  [
+   80,
+   ".in end",
+   "an end",
+   "ocr"
+  ],
+  [
+   80,
+   "force,",
+   "force.",
+   "ocr"
+  ],
+  [
+   83,
+   "itself. in",
+   "itself, in",
+   "ocr"
+  ],
+  [
+   83,
+   "Slate",
+   "State",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 53-83 have heavy OCR damage; a few garbled words (e.g. \"mIuimw\", \"195?\") are left unrepaired, and the date in unit 57 is cut off in the source.",
+ "unitizer_version": 1,
+ "sha1": "9e23eb9017f300d7845343fcf31dfaffbb4db085",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 3925,
+  "words_out": 3909,
+  "retention": 0.9959,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   197,
+   142,
+   102,
+   115,
+   83,
+   97,
+   148,
+   123,
+   129,
+   66,
+   203,
+   134,
+   121,
+   140,
+   91,
+   155,
+   115,
+   135,
+   207,
+   169,
+   132,
+   234,
+   193,
+   102,
+   107,
+   107,
+   144,
+   218
+  ],
+  "warnings": [
+   "44 fixes"
+  ]
+ }
+}

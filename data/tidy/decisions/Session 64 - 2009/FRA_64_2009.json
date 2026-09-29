@@ -1,0 +1,51 @@
+{
+ "id": "FRA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  23,
+  33,
+  44,
+  63,
+  78,
+  92,
+  110,
+  122,
+  141,
+  154
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c3549b74c7e2dd3c243ac6412cd1ad58aa05a0ce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1477,
+  "words_out": 1476,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   114,
+   79,
+   96,
+   97,
+   167,
+   134,
+   121,
+   153,
+   111,
+   164,
+   119,
+   121
+  ],
+  "warnings": []
+ }
+}

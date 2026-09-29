@@ -1,0 +1,192 @@
+{
+ "id": "KHM_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   5,
+   5,
+   "repeat"
+  ],
+  [
+   74,
+   76,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  10,
+  18,
+  23,
+  28,
+  34,
+  41,
+  45,
+  50,
+  59,
+  67,
+  73
+ ],
+ "cer": [
+  4,
+  73
+ ],
+ "fix": [
+  [
+   4,
+   " Excellencies, distinguished delegates.",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "Khalilou Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   8,
+   "Anelela",
+   "Annalena",
+   "asr_name"
+  ],
+  [
+   8,
+   "ADF",
+   "80th",
+   "asr_term"
+  ],
+  [
+   12,
+   "the war has",
+   "the world has",
+   "asr_term"
+  ],
+  [
+   25,
+   "Somdai Dek-Chu",
+   "Samdech Techo",
+   "asr_name"
+  ],
+  [
+   26,
+   "shade",
+   "shape",
+   "asr_term"
+  ],
+  [
+   27,
+   "period",
+   "spirit",
+   "asr_term"
+  ],
+  [
+   29,
+   "unexploding",
+   "unexploded",
+   "asr_term"
+  ],
+  [
+   36,
+   "Fusian",
+   "Fuxian",
+   "asr_name"
+  ],
+  [
+   43,
+   "unclosed",
+   "UNCLOS",
+   "asr_name"
+  ],
+  [
+   44,
+   "Somdai Mahababha Thabadai Hunmanet",
+   "Samdech Moha Borvor Thipadei Hun Manet",
+   "asr_name"
+  ],
+  [
+   49,
+   "consideration",
+   "conciliation",
+   "asr_term"
+  ],
+  [
+   54,
+   "camp centre",
+   "scam centre",
+   "asr_term"
+  ],
+  [
+   57,
+   "UNDOC",
+   "UNODC",
+   "asr_name"
+  ],
+  [
+   20,
+   "means. sovereign",
+   "means. Sovereign",
+   "asr_term"
+  ],
+  [
+   17,
+   "is all need",
+   "also needs",
+   "asr_term"
+  ],
+  [
+   17,
+   "principle,",
+   "principled,",
+   "asr_term"
+  ],
+  [
+   26,
+   "share",
+   "shared",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Salutation decoded twice (unit 5 repeat); Fuxian Consensus per China MFA press release of 29 Dec 2025; UNCLOS per Spanish Convemar; octogésimo, El mundo, Con este espíritu, conciliación and centros de estafas per Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 20 'means. sovereign' -> 'means. Sovereign'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 17 'is all need' -> 'also needs' ('But it is all need a United Nations' does not fit; 'it's also needs' and 'it is all need' are the same sounds; ES 'pero también necesita'; decodes weak and split ('is all need' 0.59-0.86 / 'is only a' 0.41)); spot 5 unit 17 'principle,' -> 'principled,' (same sound; 'because it is principle, representative, effective' needs an adjective; decodes 'principle,' only 0.71 / 0.66; ES 'porque cuenta con principios'); spot 8 unit 26 'share' -> 'shared' (same sound (the -d merges with 'border'); 'our share border' does not fit; ES 'nuestra frontera compartida'; decodes 'share' only 0.75 / 0.61)",
+ "unitizer_version": 1,
+ "sha1": "8dc77027437495bb55e1f42e23c76ff343233f12",
+ "layout": "single",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {
+   "presider": 5,
+   "noise": 2,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 1584,
+  "words_out": 1489,
+  "retention": 0.94,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   137,
+   168,
+   71,
+   115,
+   100,
+   211,
+   114,
+   116,
+   153,
+   177,
+   120,
+   7
+  ],
+  "warnings": []
+ }
+}

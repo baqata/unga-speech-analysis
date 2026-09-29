@@ -1,0 +1,71 @@
+{
+ "id": "ZMB_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  21,
+  37,
+  54,
+  64,
+  75,
+  94,
+  103,
+  112,
+  128,
+  139,
+  151,
+  161,
+  182,
+  204,
+  214,
+  226,
+  234,
+  256,
+  267
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c45b9c17bfce8d4434eb608f76b18003df73d15b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 275,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2156,
+  "words_out": 2155,
+  "retention": 0.9995,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   47,
+   96,
+   135,
+   114,
+   78,
+   88,
+   177,
+   76,
+   78,
+   107,
+   96,
+   86,
+   78,
+   165,
+   164,
+   71,
+   98,
+   64,
+   181,
+   88,
+   68
+  ],
+  "warnings": []
+ }
+}

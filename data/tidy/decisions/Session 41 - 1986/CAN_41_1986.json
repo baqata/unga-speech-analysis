@@ -1,0 +1,100 @@
+{
+ "id": "CAN_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  18,
+  34,
+  44,
+  49,
+  53,
+  61,
+  68,
+  75,
+  78,
+  82,
+  88,
+  91,
+  100,
+  106,
+  115,
+  120,
+  126
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   67,
+   "mind,",
+   "mind.",
+   "ocr"
+  ],
+  [
+   2,
+   "ray first",
+   "my first",
+   "ocr"
+  ],
+  [
+   94,
+   "negotiations.Those",
+   "negotiations. Those",
+   "spacing"
+  ],
+  [
+   94,
+   "system.*",
+   "system.",
+   "ocr"
+  ],
+  [
+   74,
+   "security,",
+   "security.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0900b8ef8a69802e9122bcb520c15bbce8f7ac8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 6
+  },
+  "words_in": 2565,
+  "words_out": 2566,
+  "retention": 1.0004,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   56,
+   148,
+   188,
+   236,
+   150,
+   81,
+   58,
+   115,
+   122,
+   202,
+   76,
+   90,
+   115,
+   91,
+   213,
+   113,
+   184,
+   111,
+   116,
+   101
+  ],
+  "warnings": []
+ }
+}

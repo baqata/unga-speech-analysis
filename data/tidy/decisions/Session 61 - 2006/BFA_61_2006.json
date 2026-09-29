@@ -1,0 +1,56 @@
+{
+ "id": "BFA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  17,
+  38,
+  51,
+  63,
+  73,
+  91,
+  101,
+  110,
+  129,
+  138,
+  147
+ ],
+ "cer": [
+  0,
+  138
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "748143687ed1ab90b490372007f7542a4aa94ae8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1246,
+  "words_out": 1245,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   69,
+   65,
+   166,
+   103,
+   101,
+   81,
+   137,
+   91,
+   79,
+   149,
+   71,
+   77,
+   56
+  ],
+  "warnings": []
+ }
+}

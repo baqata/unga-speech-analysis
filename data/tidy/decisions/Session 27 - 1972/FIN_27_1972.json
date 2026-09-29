@@ -1,0 +1,92 @@
+{
+ "id": "FIN_27_1972",
+ "drop": [
+  [
+   41,
+   41,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  12,
+  16,
+  20,
+  23,
+  27,
+  31,
+  33,
+  39,
+  44,
+  50,
+  56,
+  59,
+  63,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   61,
+   "We . must",
+   "We must",
+   "ocr"
+  ],
+  [
+   65,
+   "rote",
+   "role",
+   "ocr"
+  ],
+  [
+   16,
+   " [A/8701/Add-l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1bfa1ede118dbac62e904c4970029a089fe9b6a4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 1959,
+  "words_out": 1953,
+  "retention": 0.9969,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   74,
+   131,
+   86,
+   84,
+   109,
+   141,
+   76,
+   76,
+   137,
+   66,
+   192,
+   118,
+   104,
+   127,
+   73,
+   113,
+   144,
+   102
+  ],
+  "warnings": []
+ }
+}

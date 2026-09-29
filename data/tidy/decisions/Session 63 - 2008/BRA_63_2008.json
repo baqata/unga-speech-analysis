@@ -1,0 +1,55 @@
+{
+ "id": "BRA_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  20,
+  42,
+  67,
+  79,
+  92,
+  116,
+  127,
+  149,
+  167,
+  176,
+  188
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aed5c15a67de399370fe82320c7447f0671a1b03",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1607,
+  "words_out": 1607,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   27,
+   129,
+   172,
+   214,
+   81,
+   104,
+   180,
+   91,
+   172,
+   136,
+   73,
+   100,
+   128
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "id": "BOL_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   144,
+   145,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  5,
+  9,
+  16,
+  19,
+  30,
+  37,
+  48,
+  57,
+  62,
+  68,
+  74,
+  82,
+  87,
+  93,
+  101,
+  109,
+  120,
+  127,
+  134,
+  140
+ ],
+ "cer": [
+  3,
+  140
+ ],
+ "fix": [
+  [
+   110,
+   "Pan and",
+   "Pando and",
+   "asr_name"
+  ],
+  [
+   141,
+   "home and",
+   "homeland",
+   "asr_term"
+  ],
+  [
+   9,
+   "in 2026",
+   "in 2025",
+   "interp"
+  ],
+  [
+   66,
+   "strong future",
+   "strong present",
+   "interp"
+  ],
+  [
+   84,
+   "God on earth",
+   "goddess of the earth",
+   "interp"
+  ],
+  [
+   9,
+   "the The",
+   "the",
+   "asr_term"
+  ],
+  [
+   4,
+   "unity. that",
+   "unity that",
+   "asr_term"
+  ],
+  [
+   36,
+   "trafficking. and",
+   "trafficking. And",
+   "asr_term"
+  ],
+  [
+   83,
+   "that. reforestation",
+   "that. Reforestation",
+   "asr_term"
+  ],
+  [
+   76,
+   "world as",
+   "world, but as",
+   "asr_term"
+  ],
+  [
+   98,
+   "billion or",
+   "billion, $2 billion or",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Bilingual review (r02), speaker's words or evidence: unit 8 'in 2026' -> 'in 2025' (el año pasado, 2025); unit 65 'strong future' -> 'strong present' (un presente firme y fuerte); unit 83 'God on earth' -> 'goddess of the earth' (la diosa de la tierra) (unit numbers before gap recovery). Gap recovery (v2, v4) restored the salutation and 'it is a great honor to be with you for the first time as Constitutional President of Bolivia' ('Es un gran honor para estar con ustedes por primera vez como Presidente Constitucional de Bolivia'), which Whisper had skipped behind a 'Thank you.' stretched over 00:30-00:59; a courtesy paragraph. The stretched 'Thank you.' is noise (no thanks in the Spanish). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 9 'the The' -> 'the'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'unity. that' -> 'unity that'; unit 36 'trafficking. and' -> 'trafficking. And'; unit 83 'that. reforestation' -> 'that. Reforestation'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 7 unit 76 'world as' -> 'world, but as' (2026 exception: both decodes hear 'but' (0.99 / 0.98); ES 'abrirnos al mundo, pero como sociedad'); spot 12 unit 98 'billion or' -> 'billion, $2 billion or' (2026 exception: decodes '$1, $2 or $3' ('$2' 0.95) and 'one, two or three' ('two' 1.00); ES 'mil, dos mil o tres mil millones de dólares')",
+ "unitizer_version": 1,
+ "sha1": "9b943830730ab3386092528125f784b2470304b3",
+ "layout": "single",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2531,
+  "words_out": 2477,
+  "retention": 0.9787,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   30,
+   102,
+   124,
+   118,
+   96,
+   134,
+   123,
+   164,
+   181,
+   77,
+   111,
+   74,
+   132,
+   137,
+   100,
+   159,
+   100,
+   224,
+   110,
+   54,
+   111,
+   16
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "ITA_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  27,
+  37,
+  58,
+  72,
+  80,
+  94,
+  103,
+  116,
+  131,
+  141,
+  154
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6da320a5bd3d0307ea70d330a9c638de2ef22b4e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1295,
+  "words_out": 1293,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   138,
+   68,
+   77,
+   159,
+   120,
+   64,
+   114,
+   66,
+   96,
+   120,
+   77,
+   111,
+   83
+  ],
+  "warnings": []
+ }
+}

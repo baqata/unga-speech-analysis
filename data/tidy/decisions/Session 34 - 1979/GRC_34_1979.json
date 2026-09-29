@@ -1,0 +1,93 @@
+{
+ "id": "GRC_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  18,
+  21,
+  24,
+  29,
+  34,
+  37,
+  44,
+  49,
+  52,
+  57,
+  59,
+  61,
+  67,
+  73,
+  78,
+  80,
+  85
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "you nave",
+   "you have",
+   "ocr"
+  ],
+  [
+   35,
+   "far- reaching",
+   "far-reaching",
+   "spacing"
+  ],
+  [
+   46,
+   "Non- Use",
+   "Non-Use",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1f6eb6737bca8987ab028d6c68e498b4d346cb15",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2769,
+  "words_out": 2767,
+  "retention": 0.9993,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   143,
+   134,
+   108,
+   146,
+   120,
+   96,
+   97,
+   145,
+   134,
+   97,
+   155,
+   153,
+   89,
+   168,
+   48,
+   100,
+   227,
+   137,
+   112,
+   85,
+   154,
+   119
+  ],
+  "warnings": []
+ }
+}

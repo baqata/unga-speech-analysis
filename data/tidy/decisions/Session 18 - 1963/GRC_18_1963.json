@@ -1,0 +1,78 @@
+{
+ "id": "GRC_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  14,
+  19,
+  24,
+  29,
+  32,
+  34,
+  41,
+  45,
+  50,
+  57,
+  67,
+  77,
+  83,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   ", The Greek",
+   ". The Greek",
+   "ocr"
+  ],
+  [
+   72,
+   "theft",
+   "their",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4a422990adf04142dc440bdd62e72aa3017079e2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2553,
+  "words_out": 2553,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   67,
+   93,
+   137,
+   147,
+   163,
+   161,
+   134,
+   101,
+   87,
+   205,
+   148,
+   139,
+   227,
+   207,
+   182,
+   144,
+   100,
+   111
+  ],
+  "warnings": []
+ }
+}

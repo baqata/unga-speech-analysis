@@ -1,0 +1,118 @@
+{
+ "id": "IND_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  17,
+  24,
+  28,
+  32,
+  36,
+  42,
+  50,
+  57,
+  62,
+  68,
+  70,
+  74,
+  79,
+  82,
+  90,
+  94,
+  99,
+  106,
+  111,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "dis- cussed",
+   "discussed",
+   "hyphen"
+  ],
+  [
+   35,
+   " (139th meeting)",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "self- government",
+   "self-government",
+   "hyphen"
+  ],
+  [
+   50,
+   "et present",
+   "at present",
+   "ocr"
+  ],
+  [
+   53,
+   " (141st meeting)",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " (85th meeting)",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "Wain",
+   "Main",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "19b8e6e61701f75810af5a237a3ca7bd89fb354d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3329,
+  "words_out": 3320,
+  "retention": 0.9973,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   88,
+   177,
+   144,
+   179,
+   134,
+   86,
+   95,
+   203,
+   189,
+   228,
+   123,
+   114,
+   104,
+   103,
+   90,
+   66,
+   204,
+   130,
+   142,
+   235,
+   123,
+   249,
+   114
+  ],
+  "warnings": []
+ }
+}

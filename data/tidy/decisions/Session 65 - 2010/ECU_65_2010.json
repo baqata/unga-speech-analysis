@@ -1,0 +1,63 @@
+{
+ "id": "ECU_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  31,
+  49,
+  70,
+  94,
+  116,
+  137,
+  153,
+  172,
+  187
+ ],
+ "cer": [],
+ "fix": [
+  [
+   178,
+   " (Song of",
+   "",
+   "label"
+  ],
+  [
+   179,
+   "Myself)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "04707d2fb6b7e05de091ec26c5ebf677705aa145",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1623,
+  "words_out": 1620,
+  "retention": 0.9982,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   84,
+   154,
+   144,
+   173,
+   187,
+   176,
+   166,
+   133,
+   151,
+   136,
+   116
+  ],
+  "warnings": []
+ }
+}

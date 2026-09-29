@@ -1,0 +1,279 @@
+{
+ "id": "NAM_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   77,
+   77,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  10,
+  15,
+  17,
+  20,
+  29,
+  36,
+  42,
+  46,
+  50,
+  52,
+  59,
+  63,
+  66,
+  72
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   8,
+   "intended with image",
+   "inundated with image",
+   "asr_term"
+  ],
+  [
+   15,
+   "Azurwine",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   15,
+   "CERTA",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   16,
+   "a rule to trust",
+   "erode trust",
+   "asr_term"
+  ],
+  [
+   29,
+   "hulkans",
+   "hurricanes",
+   "asr_term"
+  ],
+  [
+   42,
+   "Namibian Germany",
+   "Namibia and Germany",
+   "asr_name"
+  ],
+  [
+   44,
+   "PEC for",
+   "Pact for",
+   "asr_name"
+  ],
+  [
+   45,
+   "PEC for",
+   "Pact for",
+   "asr_name"
+  ],
+  [
+   49,
+   "pottery",
+   "poultry",
+   "asr_term"
+  ],
+  [
+   56,
+   "constant with",
+   "consistent with",
+   "asr_term"
+  ],
+  [
+   57,
+   "Mineral's",
+   "MINURSO's",
+   "asr_name"
+  ],
+  [
+   58,
+   "Pulsario",
+   "Polisario",
+   "asr_name"
+  ],
+  [
+   64,
+   "Deben",
+   "Durban",
+   "asr_name"
+  ],
+  [
+   66,
+   "Guterresi",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   67,
+   "Park for",
+   "Pact for",
+   "asr_name"
+  ],
+  [
+   73,
+   "materialism",
+   "multilateralism",
+   "asr_term"
+  ],
+  [
+   2,
+   "eighth session",
+   "81st session",
+   "asr_term"
+  ],
+  [
+   3,
+   "eighth session",
+   "80th session",
+   "asr_term"
+  ],
+  [
+   13,
+   "over eight years",
+   "over eighty years",
+   "asr_term"
+  ],
+  [
+   69,
+   "no man has served",
+   "no woman has served",
+   "asr_term"
+  ],
+  [
+   18,
+   "positively positively",
+   "positively",
+   "asr_term"
+  ],
+  [
+   22,
+   "poverty. poverty.",
+   "poverty.",
+   "asr_term"
+  ],
+  [
+   36,
+   "as as",
+   "as",
+   "asr_term"
+  ],
+  [
+   63,
+   "journey. a journey",
+   "journey. A journey",
+   "asr_term"
+  ],
+  [
+   15,
+   "realities. the",
+   "realities. The",
+   "asr_term"
+  ],
+  [
+   16,
+   "long. and",
+   "long and",
+   "asr_term"
+  ],
+  [
+   60,
+   "Gaza. the",
+   "Gaza. The",
+   "asr_term"
+  ],
+  [
+   62,
+   "terrorism. from",
+   "terrorism. From",
+   "asr_term"
+  ],
+  [
+   10,
+   "eighth first",
+   "81st",
+   "asr_term"
+  ],
+  [
+   50,
+   "cognizant",
+   "cognizance",
+   "asr_term"
+  ],
+  [
+   52,
+   "united nation",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   66,
+   "congratulate",
+   "congratulates",
+   "asr_term"
+  ],
+  [
+   73,
+   "Namibia remain",
+   "Namibia will remain",
+   "asr_term"
+  ],
+  [
+   75,
+   "if effectively",
+   "effectively",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Names and terms per the Spanish channel ('Zulwini', 'CIRTE', 'erosionan', 'huracanes', 'Namibia y Alemania', 'Pacto para el Futuro', 'avícolas', 'Polisario', 'Durban', 'multilateralismo'); MINURSO is the UN mission for the Western Sahara referendum. Units 2, 3, 13 and 69 left as heard pending an audio check (see report). Main-agent audit, re-decoded from three starts: the speaker's 'eighty-first', 'eightieth' and 'eighty' are heard as 'eighth' (unit 2 'eighth first', p 0.49 and 0.44; unit 3 '8th', p 0.73; unit 13 'eight', p 0.91-0.98, but the same pronunciation, the Spanish 'más de 80 años' and the UN's 81 years call for 'eighty'); Spanish '81º' and '80º' (the 80th session was chaired by Annalena Baerbock, 'her commendable leadership'). Unit 69 'no woman has served as Secretary General' ('man' p 0.69-0.74; Spanish 'no ha habido una secretaria general'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 18 'positively positively' -> 'positively'; unit 22 'poverty. poverty.' -> 'poverty.'; unit 36 'as as' -> 'as'; unit 63 'journey. a journey' -> 'journey. A journey' (said twice; capital restored). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 15 'realities. the' -> 'realities. The'; unit 16 'long. and' -> 'long and'; unit 60 'Gaza. the' -> 'Gaza. The'; unit 62 'terrorism. from' -> 'terrorism. From'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 10 unit 10 'eighth first' -> '81st' (decodes 'eighth first' / 'eighth -first' = 'eighty-first'; the 81st session is the one whose theme is quoted); spot 23 unit 50 'cognizant' -> 'cognizance' (decodes 'cognizant' only 0.62 / 0.66; 'takes cognizant of' does not fit, the idiom is 'takes cognizance of'; sounds alike); spot 26 unit 52 'united nation' -> 'United Nations' (both decodes hear 'nations' (0.57 / 0.70); ES 'Unas Naciones Unidas que cumplan para todos'; the session theme 'A United Nations that delivers for all'); spot 33 unit 66 'congratulate' -> 'congratulates' (both decodes hear 'congratulates' (0.90 / 0.81); ES 'Namibia felicita'; final s merges with 'the'); spot 38 unit 73 'Namibia remain' -> 'Namibia will remain' (2026 exception: both decodes clearly hear 'will' (0.98 / 0.98); ES 'seguiremos siendo un socio constructivo' (future)); spot 39 unit 75 'if effectively' -> 'effectively' (invented word: both decodes clearly go 'trust,' (0.99 / 1.00) to 'effectively' (0.99) with nothing between; ES 'restablecer la confianza gestionar de manera eficaz'; 'if' alone is not unique)",
+ "unitizer_version": 1,
+ "sha1": "1b47d1ca4c9c107589328a5c2d13779e3a5f4050",
+ "layout": "single",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1951,
+  "words_out": 1895,
+  "retention": 0.9713,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   43,
+   99,
+   108,
+   89,
+   97,
+   213,
+   165,
+   181,
+   120,
+   105,
+   54,
+   178,
+   145,
+   96,
+   124,
+   78
+  ],
+  "warnings": [
+   "34 fixes"
+  ]
+ }
+}

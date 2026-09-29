@@ -1,0 +1,112 @@
+{
+ "id": "AND_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  20,
+  34,
+  41,
+  57,
+  72,
+  88,
+  97,
+  113,
+  125,
+  143,
+  156,
+  175,
+  188,
+  203,
+  218,
+  228,
+  247,
+  265,
+  275,
+  286,
+  301
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Andorra?s",
+   "Andorra’s",
+   "encoding"
+  ],
+  [
+   11,
+   "Andorra?s",
+   "Andorra’s",
+   "encoding"
+  ],
+  [
+   18,
+   "Andorra?s",
+   "Andorra’s",
+   "encoding"
+  ],
+  [
+   138,
+   " (The Holy Bible, Leviticus",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "19:18)",
+   "",
+   "label"
+  ],
+  [
+   281,
+   "Iraq?s",
+   "Iraq’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3680a562e4497ff49bc35bbf72c95381ab44813c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 308,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2574,
+  "words_out": 2565,
+  "retention": 0.9965,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   57,
+   95,
+   118,
+   64,
+   136,
+   124,
+   131,
+   79,
+   127,
+   100,
+   130,
+   111,
+   182,
+   111,
+   135,
+   126,
+   83,
+   158,
+   144,
+   70,
+   89,
+   136,
+   59
+  ],
+  "warnings": []
+ }
+}

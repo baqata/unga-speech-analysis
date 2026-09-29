@@ -1,0 +1,124 @@
+{
+ "id": "BGR_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  22,
+  29,
+  34,
+  39,
+  44,
+  53,
+  59,
+  64,
+  70,
+  76,
+  85,
+  89,
+  97,
+  100,
+  106,
+  113,
+  117,
+  122,
+  128,
+  134,
+  140,
+  143,
+  150,
+  157,
+  162,
+  166
+ ],
+ "cer": [
+  166
+ ],
+ "fix": [
+  [
+   2,
+   "State,,",
+   "State,",
+   "ocr"
+  ],
+  [
+   50,
+   "of: such",
+   "of such",
+   "ocr"
+  ],
+  [
+   95,
+   "tie withdrawal",
+   "the withdrawal",
+   "ocr"
+  ],
+  [
+   71,
+   " [see 1412th and 1562nd meetings]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   " [A/7184 and Add.1 and 2]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   " [A/7182 and Add.1 to 4]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33a55dc482110ada4e6374ee0366c2242dbddc1c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4
+  },
+  "words_in": 4079,
+  "words_out": 4010,
+  "retention": 0.9831,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   164,
+   126,
+   194,
+   162,
+   109,
+   146,
+   105,
+   206,
+   182,
+   135,
+   111,
+   177,
+   223,
+   127,
+   152,
+   135,
+   168,
+   134,
+   84,
+   97,
+   124,
+   122,
+   162,
+   69,
+   194,
+   146,
+   81,
+   92,
+   83
+  ],
+  "warnings": []
+ }
+}

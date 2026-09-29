@@ -1,0 +1,92 @@
+{
+ "id": "BRA_30_1975",
+ "drop": [
+  [
+   60,
+   60,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  18,
+  22,
+  27,
+  30,
+  37,
+  40,
+  46,
+  52,
+  56,
+  61,
+  67,
+  72,
+  75,
+  79,
+  83
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   6,
+   "will .be",
+   "will be",
+   "ocr"
+  ],
+  [
+   58,
+   "form a vision",
+   "from a vision",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21815cc3349dc52d98f05037b32981c1654c9405",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 24
+  },
+  "words_in": 2509,
+  "words_out": 2504,
+  "retention": 0.998,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   105,
+   101,
+   109,
+   114,
+   83,
+   158,
+   201,
+   128,
+   187,
+   77,
+   179,
+   170,
+   94,
+   130,
+   134,
+   146,
+   89,
+   109,
+   100,
+   90
+  ],
+  "warnings": []
+ }
+}

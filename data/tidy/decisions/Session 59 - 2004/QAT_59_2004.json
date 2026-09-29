@@ -1,0 +1,63 @@
+{
+ "id": "QAT_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  33,
+  51,
+  65,
+  78,
+  95,
+  109,
+  119,
+  129,
+  156,
+  167,
+  179,
+  195,
+  225,
+  247,
+  259
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0aa4a2cd48c0f478126a430750fe9787405ce9eb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2161,
+  "words_out": 2161,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   132,
+   120,
+   147,
+   111,
+   94,
+   125,
+   108,
+   81,
+   70,
+   210,
+   94,
+   91,
+   129,
+   237,
+   167,
+   98,
+   147
+  ],
+  "warnings": []
+ }
+}

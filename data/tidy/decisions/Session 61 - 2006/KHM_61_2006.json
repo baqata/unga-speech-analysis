@@ -1,0 +1,52 @@
+{
+ "id": "KHM_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  32,
+  47,
+  60,
+  74,
+  83,
+  105,
+  122,
+  137
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc290b1a793a6a7e1ec1ebd38cd00e7a48a91ba0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1231,
+  "words_out": 1231,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   75,
+   75,
+   110,
+   116,
+   93,
+   129,
+   71,
+   181,
+   128,
+   128,
+   125
+  ],
+  "warnings": []
+ }
+}

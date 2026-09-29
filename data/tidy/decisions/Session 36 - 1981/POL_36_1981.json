@@ -1,0 +1,161 @@
+{
+ "id": "POL_36_1981",
+ "drop": [
+  [
+   101,
+   101,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  20,
+  22,
+  25,
+  27,
+  31,
+  35,
+  40,
+  44,
+  47,
+  50,
+  56,
+  59,
+  62,
+  69,
+  71,
+  77,
+  79,
+  82,
+  86,
+  88,
+  92,
+  102,
+  108
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "policy cf detente",
+   "policy of detente",
+   "ocr"
+  ],
+  [
+   34,
+   "great * assistance",
+   "great assistance",
+   "ocr"
+  ],
+  [
+   42,
+   "Poland\", a credible ally of its friends,\" that",
+   "Poland, a credible ally of its friends, that",
+   "ocr"
+  ],
+  [
+   43,
+   "indispensable, factor",
+   "indispensable factor",
+   "ocr"
+  ],
+  [
+   45,
+   "United States, It would",
+   "United States. It would",
+   "ocr"
+  ],
+  [
+   48,
+   "has. shown",
+   "has shown",
+   "ocr"
+  ],
+  [
+   73,
+   "our Opinion",
+   "our opinion",
+   "ocr"
+  ],
+  [
+   74,
+   " [see A/36/86, annexes I and //]",
+   "",
+   "label"
+  ],
+  [
+   85,
+   "in (the world",
+   "in the world",
+   "ocr"
+  ],
+  [
+   85,
+   "of Hying",
+   "of living",
+   "ocr"
+  ],
+  [
+   86,
+   "Organizations after",
+   "Organization is after",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6645e04264ecd32cdee8bbfd6b35ac53f3fbdcb6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 36
+  },
+  "words_in": 3077,
+  "words_out": 3066,
+  "retention": 0.9964,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   130,
+   158,
+   121,
+   111,
+   150,
+   93,
+   69,
+   80,
+   99,
+   101,
+   100,
+   69,
+   91,
+   90,
+   180,
+   95,
+   86,
+   171,
+   76,
+   140,
+   61,
+   71,
+   112,
+   64,
+   73,
+   228,
+   132,
+   115
+  ],
+  "warnings": []
+ }
+}

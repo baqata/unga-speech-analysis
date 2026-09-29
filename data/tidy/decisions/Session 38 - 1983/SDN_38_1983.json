@@ -1,0 +1,121 @@
+{
+ "id": "SDN_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  18,
+  23,
+  26,
+  28,
+  32,
+  37,
+  40,
+  45,
+  50,
+  56,
+  59,
+  63,
+  65,
+  67,
+  70,
+  74,
+  77,
+  79,
+  83,
+  88
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   35,
+   "[PLO]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "Saddle East",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   55,
+   "[SHK4PO]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "then- basic",
+   "their basic",
+   "ocr"
+  ],
+  [
+   82,
+   "Plan of Action^ and",
+   "Plan of Action and",
+   "markup"
+  ],
+  [
+   82,
+   "Programme of Action/ The",
+   "Programme of Action. The",
+   "ocr"
+  ],
+  [
+   85,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6149a58908ebfdb8ac836cca2ec0c742ed99df11",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3121,
+  "words_out": 3118,
+  "retention": 0.999,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   88,
+   102,
+   118,
+   109,
+   169,
+   100,
+   75,
+   114,
+   171,
+   99,
+   111,
+   163,
+   220,
+   113,
+   136,
+   72,
+   67,
+   127,
+   140,
+   94,
+   233,
+   193,
+   183,
+   121
+  ],
+  "warnings": []
+ }
+}

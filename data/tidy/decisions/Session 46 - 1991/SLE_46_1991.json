@@ -1,0 +1,120 @@
+{
+ "id": "SLE_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  13,
+  18,
+  20,
+  23,
+  29,
+  33,
+  36,
+  39,
+  43,
+  45,
+  49,
+  55,
+  59,
+  64,
+  67,
+  73,
+  76,
+  82
+ ],
+ "cer": [
+  0,
+  4,
+  76
+ ],
+ "fix": [
+  [
+   55,
+   "coopers on",
+   "cooperation",
+   "ocr"
+  ],
+  [
+   56,
+   "He shall fall again",
+   "We shall fail again",
+   "ocr"
+  ],
+  [
+   58,
+   "He call upon",
+   "We call upon",
+   "ocr"
+  ],
+  [
+   66,
+   "helplessly an, every",
+   "helplessly as, every",
+   "ocr"
+  ],
+  [
+   71,
+   "that win contribute",
+   "that will contribute",
+   "ocr"
+  ],
+  [
+   76,
+   "the alms and",
+   "the aims and",
+   "ocr"
+  ],
+  [
+   77,
+   "Peirez",
+   "Perez",
+   "ocr"
+  ],
+  [
+   83,
+   " (A/46/1, p. 22)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb199dcffd40fcf9e8e113b104cce18b26e14731",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2420,
+  "words_out": 2416,
+  "retention": 0.9983,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   136,
+   163,
+   77,
+   134,
+   65,
+   74,
+   144,
+   112,
+   114,
+   91,
+   145,
+   63,
+   148,
+   145,
+   131,
+   110,
+   71,
+   192,
+   116,
+   111,
+   74
+  ],
+  "warnings": []
+ }
+}

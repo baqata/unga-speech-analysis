@@ -1,0 +1,99 @@
+{
+ "id": "SWZ_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  15,
+  18,
+  23,
+  28,
+  32,
+  36,
+  38,
+  42,
+  46,
+  48,
+  52,
+  59,
+  64,
+  67,
+  73,
+  76,
+  79,
+  82,
+  86,
+  91,
+  94,
+  99
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   14,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ],
+  [
+   67,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   92,
+   "all ethers",
+   "all others",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cdfb9b6a7a80a2c06adc5c2f05176d27c3630d40",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 2642,
+  "words_out": 2640,
+  "retention": 0.9992,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   197,
+   107,
+   89,
+   76,
+   97,
+   118,
+   73,
+   99,
+   82,
+   105,
+   120,
+   93,
+   122,
+   126,
+   142,
+   64,
+   130,
+   68,
+   68,
+   93,
+   80,
+   122,
+   89,
+   178,
+   102
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "NAM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  18,
+  32,
+  40,
+  56,
+  72,
+  101,
+  110,
+  126,
+  135,
+  150,
+  160,
+  192,
+  204,
+  220,
+  247,
+  254,
+  267,
+  296,
+  311,
+  320,
+  334,
+  339,
+  357,
+  370,
+  394,
+  407
+ ],
+ "cer": [
+  0,
+  7,
+  18,
+  32
+ ],
+ "fix": [
+  [
+   31,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ],
+  [
+   56,
+   "Africaâs",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   92,
+   "Todayâs",
+   "Today’s",
+   "encoding"
+  ],
+  [
+   107,
+   "Programmeâs",
+   "Programme’s",
+   "encoding"
+  ],
+  [
+   127,
+   "peopleâs",
+   "people’s",
+   "encoding"
+  ],
+  [
+   165,
+   "SADCâs",
+   "SADC’s",
+   "encoding"
+  ],
+  [
+   228,
+   "UNITAâs",
+   "UNITA’s",
+   "encoding"
+  ],
+  [
+   265,
+   "Namibiaâs",
+   "Namibia’s",
+   "encoding"
+  ],
+  [
+   330,
+   "Africaâs",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   348,
+   "Africaâs",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   386,
+   "Namibiaâs",
+   "Namibia’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66f2a3ec29104450dfce93d3040d2b85efd66960",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 414,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 15,
+   "page_number": 4
+  },
+  "words_in": 3454,
+  "words_out": 3451,
+  "retention": 0.9991,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   56,
+   93,
+   115,
+   63,
+   138,
+   148,
+   229,
+   67,
+   138,
+   81,
+   128,
+   82,
+   251,
+   100,
+   137,
+   223,
+   58,
+   104,
+   232,
+   116,
+   76,
+   135,
+   47,
+   156,
+   109,
+   194,
+   118,
+   57
+  ],
+  "warnings": []
+ }
+}

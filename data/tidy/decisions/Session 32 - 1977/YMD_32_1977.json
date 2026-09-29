@@ -1,0 +1,112 @@
+{
+ "id": "YMD_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  15,
+  23,
+  28,
+  33,
+  36,
+  42,
+  48,
+  52,
+  56,
+  61,
+  69,
+  71,
+  74,
+  77,
+  78
+ ],
+ "cer": [
+  0,
+  3,
+  77
+ ],
+ "fix": [
+  [
+   7,
+   "skeikhdoms",
+   "sheikhdoms",
+   "ocr"
+  ],
+  [
+   10,
+   "many-its",
+   "many—its",
+   "ocr"
+  ],
+  [
+   24,
+   "now. well",
+   "now well",
+   "ocr"
+  ],
+  [
+   48,
+   "This- session",
+   "This session",
+   "ocr"
+  ],
+  [
+   57,
+   "or. people",
+   "or people",
+   "ocr"
+  ],
+  [
+   61,
+   "Peace j and",
+   "Peace and",
+   "ocr"
+  ],
+  [
+   77,
+   "Waldehim",
+   "Waldheim",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea654140bb471f12939f021007e6ee97c3fc386f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2111,
+  "words_out": 2110,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   75,
+   66,
+   129,
+   108,
+   192,
+   112,
+   126,
+   69,
+   110,
+   208,
+   127,
+   74,
+   129,
+   245,
+   133,
+   94,
+   67,
+   22,
+   24
+  ],
+  "warnings": []
+ }
+}

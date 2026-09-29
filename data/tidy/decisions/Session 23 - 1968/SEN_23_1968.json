@@ -1,0 +1,117 @@
+{
+ "id": "SEN_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  16,
+  22,
+  27,
+  35,
+  42,
+  50,
+  56,
+  64,
+  70,
+  76,
+  85,
+  90,
+  94,
+  100
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   25,
+   "pauperization cf",
+   "pauperization of",
+   "ocr"
+  ],
+  [
+   54,
+   "Viet-Nara",
+   "Viet-Nam",
+   "ocr"
+  ],
+  [
+   65,
+   "patient Will",
+   "patient will",
+   "ocr"
+  ],
+  [
+   72,
+   "we. have",
+   "we have",
+   "ocr"
+  ],
+  [
+   90,
+   " [cf.A/C.2/L.1002]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   " [General Assembly resolution 2373 (XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "Ali the",
+   "All the",
+   "ocr"
+  ],
+  [
+   104,
+   "not. only",
+   "not only",
+   "ocr"
+  ],
+  [
+   107,
+   "the CAU",
+   "the OAU",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1cd9eb9564ed19253cc733607201679380726315",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2615,
+  "words_out": 2580,
+  "retention": 0.9866,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   164,
+   94,
+   151,
+   204,
+   153,
+   203,
+   175,
+   123,
+   149,
+   154,
+   157,
+   135,
+   167,
+   102,
+   131,
+   121,
+   197
+  ],
+  "warnings": []
+ }
+}

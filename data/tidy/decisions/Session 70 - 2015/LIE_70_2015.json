@@ -1,0 +1,60 @@
+{
+ "id": "LIE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  15,
+  24,
+  31,
+  41,
+  47,
+  55,
+  64,
+  69,
+  75,
+  79
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "United Nations- led",
+   "United Nations-led",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e34a218b77c6897a2c38c7bed1713c768176e5f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1602,
+  "words_out": 1599,
+  "retention": 0.9981,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   85,
+   103,
+   118,
+   127,
+   119,
+   232,
+   97,
+   139,
+   151,
+   127,
+   124,
+   60,
+   117
+  ],
+  "warnings": []
+ }
+}

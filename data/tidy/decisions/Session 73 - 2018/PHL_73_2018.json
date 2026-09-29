@@ -1,0 +1,62 @@
+{
+ "id": "PHL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  11,
+  16,
+  22,
+  26,
+  32,
+  38,
+  44,
+  48,
+  50,
+  54,
+  60,
+  66,
+  72
+ ],
+ "cer": [],
+ "fix": [
+  [
+   46,
+   "thathave",
+   "that have",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c155ab00bd586ed1ba0a3c21d83aeef2e7cb3f66",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1543,
+  "words_out": 1544,
+  "retention": 1.0006,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   127,
+   82,
+   96,
+   142,
+   69,
+   98,
+   150,
+   72,
+   85,
+   93,
+   83,
+   159,
+   108,
+   129,
+   51
+  ],
+  "warnings": []
+ }
+}

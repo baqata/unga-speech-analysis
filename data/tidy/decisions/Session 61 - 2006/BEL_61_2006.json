@@ -1,0 +1,66 @@
+{
+ "id": "BEL_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  35,
+  55,
+  73,
+  89,
+  105,
+  125,
+  143,
+  154,
+  169,
+  186,
+  204,
+  216,
+  233
+ ],
+ "cer": [
+  233
+ ],
+ "fix": [
+  [
+   37,
+   " (see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a47944413a7589304670d965bd38fee905d9dca4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1876,
+  "words_out": 1873,
+  "retention": 0.9984,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   83,
+   187,
+   151,
+   133,
+   127,
+   135,
+   151,
+   138,
+   88,
+   118,
+   152,
+   139,
+   92,
+   122,
+   57
+  ],
+  "warnings": []
+ }
+}

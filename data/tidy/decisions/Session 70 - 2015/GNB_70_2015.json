@@ -1,0 +1,61 @@
+{
+ "id": "GNB_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  14,
+  19,
+  25,
+  31,
+  33,
+  35,
+  41,
+  45
+ ],
+ "cer": [
+  0,
+  45
+ ],
+ "fix": [
+  [
+   38,
+   "Israeli- Palestinian",
+   "Israeli-Palestinian",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0695ed430bae5b783eb1fd273f32c0135e5a2f3e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1351,
+  "words_out": 1348,
+  "retention": 0.9978,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   139,
+   117,
+   95,
+   79,
+   153,
+   143,
+   127,
+   47,
+   77,
+   195,
+   116,
+   60
+  ],
+  "warnings": []
+ }
+}

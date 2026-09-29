@@ -1,0 +1,76 @@
+{
+ "id": "NIC_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  15,
+  20,
+  23,
+  29,
+  32,
+  38,
+  43,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   33,
+   "Seventy- three",
+   "Seventy-three",
+   "hyphen"
+  ],
+  [
+   34,
+   " (see A/63/ PV.1)",
+   "",
+   "label"
+  ],
+  [
+   37,
+   " (A/63/PV.105, p.32)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cd15f4301affbaab997e6fbd5f3e32c33697bfaf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1436,
+  "words_out": 1429,
+  "retention": 0.9951,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   22,
+   166,
+   120,
+   129,
+   160,
+   91,
+   136,
+   86,
+   177,
+   130,
+   112,
+   100
+  ],
+  "warnings": []
+ }
+}

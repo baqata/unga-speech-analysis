@@ -1,0 +1,60 @@
+{
+ "id": "MDA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  18,
+  20,
+  25,
+  28,
+  32,
+  36,
+  39,
+  44,
+  56,
+  63
+ ],
+ "cer": [],
+ "fix": [
+  [
+   64,
+   "human- made",
+   "human-made",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89fd07d5e15b656fc2265213202fc2215651d2cf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1278,
+  "words_out": 1277,
+  "retention": 0.9992,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   63,
+   100,
+   76,
+   161,
+   65,
+   81,
+   73,
+   64,
+   106,
+   61,
+   89,
+   141,
+   121,
+   76
+  ],
+  "warnings": []
+ }
+}

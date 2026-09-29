@@ -1,0 +1,132 @@
+{
+ "id": "LUX_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  5,
+  8,
+  13,
+  16,
+  19,
+  22,
+  26,
+  28,
+  31,
+  36,
+  37,
+  38,
+  40,
+  43,
+  46,
+  49,
+  51,
+  54,
+  56,
+  58,
+  62,
+  66,
+  68,
+  73,
+  77,
+  79,
+  81,
+  84,
+  87,
+  90,
+  92,
+  97
+ ],
+ "cer": [
+  0,
+  1,
+  2
+ ],
+ "fix": [
+  [
+   12,
+   "ewer before",
+   "ever before",
+   "ocr"
+  ],
+  [
+   16,
+   "ray Government's",
+   "my Government's",
+   "ocr"
+  ],
+  [
+   32,
+   "principles X give",
+   "principles I give",
+   "ocr"
+  ],
+  [
+   62,
+   "Bast-West",
+   "East-West",
+   "ocr"
+  ],
+  [
+   90,
+   "sty intention",
+   "my intention",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2ce52d7b642ad62ae9572b26dc91e718c2ec9896",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1
+  },
+  "words_in": 3055,
+  "words_out": 3055,
+  "retention": 1.0,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   37,
+   44,
+   84,
+   80,
+   148,
+   77,
+   107,
+   97,
+   125,
+   81,
+   67,
+   138,
+   74,
+   91,
+   48,
+   68,
+   76,
+   69,
+   62,
+   89,
+   85,
+   55,
+   103,
+   151,
+   81,
+   121,
+   93,
+   64,
+   92,
+   75,
+   100,
+   117,
+   69,
+   112,
+   75
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "POL_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  7,
+  14,
+  18,
+  21,
+  25,
+  30,
+  34,
+  37,
+  39,
+  43,
+  49,
+  52,
+  59,
+  63,
+  68,
+  72,
+  75,
+  78,
+  87,
+  93,
+  96,
+  98,
+  104,
+  111,
+  122
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "session Of the",
+   "session of the",
+   "ocr"
+  ],
+  [
+   5,
+   "some Influence",
+   "some influence",
+   "ocr"
+  ],
+  [
+   8,
+   "facts Is becoming",
+   "facts is becoming",
+   "ocr"
+  ],
+  [
+   15,
+   "al jo mean",
+   "also mean",
+   "ocr"
+  ],
+  [
+   37,
+   "future International",
+   "future international",
+   "ocr"
+  ],
+  [
+   49,
+   "most Important",
+   "most important",
+   "ocr"
+  ],
+  [
+   72,
+   "proposal matte here",
+   "proposal made here",
+   "ocr"
+  ],
+  [
+   95,
+   "must.be",
+   "must be",
+   "ocr"
+  ],
+  [
+   116,
+   "too, .that",
+   "too, that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a695c3b13a2f6cd277d32f4697d6fe06ca77ea24",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3275,
+  "words_out": 3274,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   58,
+   136,
+   84,
+   149,
+   76,
+   116,
+   104,
+   132,
+   163,
+   95,
+   79,
+   106,
+   140,
+   99,
+   178,
+   134,
+   133,
+   79,
+   73,
+   81,
+   211,
+   94,
+   85,
+   73,
+   165,
+   203,
+   188,
+   40
+  ],
+  "warnings": []
+ }
+}

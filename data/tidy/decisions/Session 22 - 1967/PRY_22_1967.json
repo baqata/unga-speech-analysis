@@ -1,0 +1,76 @@
+{
+ "id": "PRY_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  15,
+  20,
+  25,
+  31,
+  38,
+  42,
+  49,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   24,
+   "this threat, When more",
+   "this threat. When more",
+   "ocr"
+  ],
+  [
+   24,
+   "will he even",
+   "will be even",
+   "ocr"
+  ],
+  [
+   53,
+   "time Is drawing",
+   "time is drawing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b47af2174d0dbbdce1c37b1eec791880f5940569",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1620,
+  "words_out": 1602,
+  "retention": 0.9889,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   123,
+   79,
+   100,
+   133,
+   158,
+   120,
+   238,
+   185,
+   89,
+   136,
+   128,
+   113
+  ],
+  "warnings": []
+ }
+}

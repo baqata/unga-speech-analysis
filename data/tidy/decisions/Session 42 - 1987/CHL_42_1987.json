@@ -1,0 +1,138 @@
+{
+ "id": "CHL_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  8,
+  12,
+  14,
+  18,
+  21,
+  30,
+  32,
+  39,
+  42,
+  46,
+  53,
+  56,
+  59,
+  65,
+  69,
+  73,
+  78,
+  82,
+  85,
+  88,
+  93,
+  101,
+  107,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "process, if",
+   "process. If",
+   "ocr"
+  ],
+  [
+   34,
+   "ate",
+   "are",
+   "ocr"
+  ],
+  [
+   34,
+   "new following",
+   "now following",
+   "ocr"
+  ],
+  [
+   46,
+   "Intervention",
+   "intervention",
+   "ocr"
+  ],
+  [
+   52,
+   "not wealth",
+   "nor wealth",
+   "ocr"
+  ],
+  [
+   53,
+   "plans, in",
+   "plans. In",
+   "ocr"
+  ],
+  [
+   56,
+   "non-intervention, in",
+   "non-intervention. In",
+   "ocr"
+  ],
+  [
+   84,
+   "Imbalance",
+   "imbalance",
+   "ocr"
+  ],
+  [
+   95,
+   "Prom",
+   "From",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f31a6b994b6b17131cd5cb246492d27f7573bc8b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3247,
+  "words_out": 3247,
+  "retention": 1.0,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   72,
+   58,
+   93,
+   111,
+   117,
+   67,
+   102,
+   128,
+   180,
+   89,
+   173,
+   91,
+   113,
+   159,
+   70,
+   102,
+   177,
+   98,
+   116,
+   102,
+   150,
+   82,
+   119,
+   156,
+   218,
+   105,
+   93,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "ROU_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  10,
+  14,
+  15,
+  17,
+  18,
+  20,
+  24,
+  27,
+  33,
+  35,
+  41,
+  44,
+  45,
+  50,
+  54,
+  58,
+  60,
+  64,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "capital, lb this end",
+   "capital. To this end",
+   "ocr"
+  ],
+  [
+   17,
+   "economy*",
+   "economy.",
+   "ocr"
+  ],
+  [
+   22,
+   "the: \"responsibility",
+   "the \"responsibility",
+   "ocr"
+  ],
+  [
+   25,
+   "\"today, mindful",
+   "Today, mindful",
+   "ocr"
+  ],
+  [
+   50,
+   "bank s —",
+   "banks -",
+   "ocr"
+  ],
+  [
+   62,
+   "the IMP,",
+   "the IMF,",
+   "ocr"
+  ],
+  [
+   62,
+   "$ 32 billion",
+   "$32 billion",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc8ae43fa11066c2baf8086cafde69595b5b9f1a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2473,
+  "words_out": 2471,
+  "retention": 0.9992,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   43,
+   165,
+   102,
+   114,
+   69,
+   69,
+   95,
+   61,
+   135,
+   124,
+   251,
+   64,
+   204,
+   97,
+   64,
+   129,
+   139,
+   110,
+   60,
+   132,
+   70,
+   174
+  ],
+  "warnings": []
+ }
+}

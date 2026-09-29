@@ -1,0 +1,96 @@
+{
+ "id": "ARG_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  19,
+  25,
+  33,
+  40,
+  44,
+  49,
+  57,
+  66,
+  73,
+  81,
+  88,
+  92,
+  95,
+  97,
+  104,
+  108,
+  112,
+  114,
+  123
+ ],
+ "cer": [],
+ "fix": [
+  [
+   55,
+   "peace- loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   58,
+   "duly",
+   "duty",
+   "ocr"
+  ],
+  [
+   61,
+   "the. war",
+   "the war",
+   "ocr"
+  ],
+  [
+   64,
+   "brings dial",
+   "beings that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1112cbb207be71243b751d4829a36673495129d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3364,
+  "words_out": 3363,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   129,
+   88,
+   99,
+   162,
+   171,
+   173,
+   117,
+   171,
+   120,
+   235,
+   220,
+   174,
+   173,
+   192,
+   135,
+   118,
+   76,
+   157,
+   126,
+   97,
+   103,
+   198,
+   129
+  ],
+  "warnings": []
+ }
+}

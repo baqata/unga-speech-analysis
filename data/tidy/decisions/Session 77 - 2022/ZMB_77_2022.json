@@ -1,0 +1,78 @@
+{
+ "id": "ZMB_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  16,
+  21,
+  31,
+  33,
+  39,
+  44,
+  47,
+  56,
+  63,
+  73,
+  76,
+  85,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- sixth",
+   "seventy-sixth",
+   "hyphen"
+  ],
+  [
+   27,
+   "Drug- resistant",
+   "Drug-resistant",
+   "hyphen"
+  ],
+  [
+   89,
+   "long- overdue",
+   "long-overdue",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db859d3c56b4e66be7bcbd2527fe5159a3a7e741",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2292,
+  "words_out": 2288,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   75,
+   180,
+   184,
+   128,
+   218,
+   87,
+   180,
+   142,
+   76,
+   182,
+   182,
+   219,
+   73,
+   161,
+   143,
+   58
+  ],
+  "warnings": []
+ }
+}

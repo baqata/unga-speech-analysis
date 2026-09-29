@@ -1,0 +1,108 @@
+{
+ "id": "POL_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  16,
+  22,
+  30,
+  36,
+  39,
+  43,
+  51,
+  57,
+  63,
+  69,
+  75,
+  81,
+  84,
+  93,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   9,
+   "moment. yet",
+   "moment. Yet",
+   "ocr"
+  ],
+  [
+   10,
+   "there fact",
+   "the fact",
+   "ocr"
+  ],
+  [
+   34,
+   "global. here",
+   "global. Here",
+   "ocr"
+  ],
+  [
+   38,
+   " (resolution 2625 (XXV), annex, para. 1)",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "According got the",
+   "According to the",
+   "ocr"
+  ],
+  [
+   99,
+   "th apolitical",
+   "the political",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "606e91c23bfa0b6ce16259249e726dfe1f9d3511",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2459,
+  "words_out": 2453,
+  "retention": 0.9976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   54,
+   52,
+   198,
+   138,
+   144,
+   207,
+   200,
+   104,
+   75,
+   150,
+   111,
+   132,
+   98,
+   185,
+   109,
+   61,
+   178,
+   142,
+   115
+  ],
+  "warnings": []
+ }
+}

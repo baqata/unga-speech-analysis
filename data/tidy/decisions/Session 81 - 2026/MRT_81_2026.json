@@ -1,0 +1,213 @@
+{
+ "id": "MRT_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "repeat"
+  ],
+  [
+   80,
+   80,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  10,
+  15,
+  21,
+  25,
+  27,
+  31,
+  35,
+  37,
+  43,
+  49,
+  54,
+  61,
+  68,
+  70,
+  75,
+  79
+ ],
+ "cer": [
+  1,
+  4,
+  79
+ ],
+ "fix": [
+  [
+   1,
+   " God the compassionate, the merciful.",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Khalidul Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   6,
+   "Annalena Barbark",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   8,
+   "Wild-Ghazwani",
+   "Ould Ghazouani",
+   "asr_name"
+  ],
+  [
+   24,
+   "UN-AT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   26,
+   "Will Draswani",
+   "Ould Ghazouani",
+   "asr_name"
+  ],
+  [
+   57,
+   "palestinian calls",
+   "Palestinian cause",
+   "asr_term"
+  ],
+  [
+   68,
+   "Harmas",
+   "Hormuz",
+   "asr_name"
+  ],
+  [
+   16,
+   "weakness. weakness.",
+   "weakness.",
+   "asr_term"
+  ],
+  [
+   10,
+   "century. they",
+   "century. They",
+   "asr_term"
+  ],
+  [
+   21,
+   "necessity. to",
+   "necessity to",
+   "asr_term"
+  ],
+  [
+   30,
+   "society. to",
+   "society. To",
+   "asr_term"
+  ],
+  [
+   36,
+   "investment. our",
+   "investment. Our",
+   "asr_term"
+  ],
+  [
+   41,
+   "internationally. this",
+   "internationally. This",
+   "asr_term"
+  ],
+  [
+   48,
+   "rights. the",
+   "rights the",
+   "asr_term"
+  ],
+  [
+   57,
+   "solution. paradoxically",
+   "solution. Paradoxically",
+   "asr_term"
+  ],
+  [
+   57,
+   "agenda. at",
+   "agenda. At",
+   "asr_term"
+  ],
+  [
+   68,
+   "parties. we",
+   "parties. We",
+   "asr_term"
+  ],
+  [
+   69,
+   "security. we",
+   "security. We",
+   "asr_term"
+  ],
+  [
+   75,
+   "effort. the",
+   "effort. The",
+   "asr_term"
+  ],
+  [
+   73,
+   "And we",
+   "We",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Invocation said once (second decode removed from unit 1 and unit 2 dropped); Khalilur Rahman and Annalena Baerbock are the PGAs of the 81st and 80th sessions (UN); President Mohamed Ould Ghazouani of Mauritania (official name); UN80 Initiative; Hormuz and 'causa palestina' per Spanish. Main-agent audit: the invocation joins the salutation paragraph (it ends in a comma and runs into 'Your Excellency, Mr. President'; both ceremonial). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 16 'weakness. weakness.' -> 'weakness.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 10 'century. they' -> 'century. They'; unit 21 'necessity. to' -> 'necessity to'; unit 30 'society. to' -> 'society. To'; unit 36 'investment. our' -> 'investment. Our'; unit 41 'internationally. this' -> 'internationally. This'; unit 48 'rights. the' -> 'rights the'; unit 57 'solution. paradoxically' -> 'solution. Paradoxically'; unit 57 'agenda. at' -> 'agenda. At'; unit 68 'parties. we' -> 'parties. We'; unit 69 'security. we' -> 'security. We'; unit 75 'effort. the' -> 'effort. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 8 unit 73 'And we' -> 'We' (invented word: both decodes clearly go 'moment.' (1344.4) to 'We' (1345.7 / 1346.2, 1.00) with nothing between; the unit then starts with 'We')",
+ "unitizer_version": 1,
+ "sha1": "2bad3e172b69a54a15c87904c11eedb8b3d829fd",
+ "layout": "single",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {
+   "presider": 2,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 2123,
+  "words_out": 2073,
+  "retention": 0.9764,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   42,
+   152,
+   134,
+   75,
+   94,
+   110,
+   72,
+   86,
+   84,
+   168,
+   119,
+   183,
+   234,
+   133,
+   144,
+   81,
+   151,
+   11
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

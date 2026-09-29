@@ -1,0 +1,183 @@
+{
+ "id": "KEN_28_1973",
+ "drop": [
+  [
+   174,
+   174,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  16,
+  17,
+  20,
+  31,
+  39,
+  42,
+  44,
+  47,
+  53,
+  59,
+  64,
+  71,
+  79,
+  85,
+  90,
+  94,
+  97,
+  99,
+  103,
+  105,
+  112,
+  117,
+  120,
+  127,
+  129,
+  136,
+  140,
+  146,
+  151,
+  155,
+  159,
+  163,
+  171,
+  175,
+  180,
+  185
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   2,
+   "newly- elected",
+   "newly-elected",
+   "spacing"
+  ],
+  [
+   11,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "spacing"
+  ],
+  [
+   24,
+   "peace- building",
+   "peace-building",
+   "spacing"
+  ],
+  [
+   42,
+   "defeated ,the",
+   "defeated, the",
+   "ocr"
+  ],
+  [
+   71,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   72,
+   " [see A/9330 and Corr.",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "1, pp. 36-38]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   "freedom- loving",
+   "freedom-loving",
+   "spacing"
+  ],
+  [
+   99,
+   " [OA U]",
+   "",
+   "label"
+  ],
+  [
+   171,
+   " [UNEP]",
+   "",
+   "label"
+  ],
+  [
+   182,
+   "God- given",
+   "God-given",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "92ed166104b61834c2634678136a66bc0abba231",
+ "layout": "lines",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 53
+  },
+  "words_in": 4270,
+  "words_out": 4253,
+  "retention": 0.996,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   137,
+   91,
+   178,
+   127,
+   83,
+   190,
+   222,
+   112,
+   100,
+   72,
+   114,
+   97,
+   104,
+   149,
+   148,
+   137,
+   125,
+   77,
+   98,
+   61,
+   94,
+   74,
+   136,
+   91,
+   66,
+   150,
+   65,
+   118,
+   68,
+   142,
+   77,
+   65,
+   76,
+   80,
+   152,
+   87,
+   116,
+   125,
+   49
+  ],
+  "warnings": []
+ }
+}

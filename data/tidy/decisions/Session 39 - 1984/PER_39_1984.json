@@ -1,0 +1,119 @@
+{
+ "id": "PER_39_1984",
+ "drop": [
+  [
+   31,
+   32,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  10,
+  20,
+  26,
+  33,
+  38,
+  40,
+  43,
+  48,
+  53,
+  62,
+  69,
+  73,
+  76
+ ],
+ "cer": [
+  69
+ ],
+ "fix": [
+  [
+   4,
+   "Ore might",
+   "One might",
+   "ocr"
+  ],
+  [
+   22,
+   "capita!",
+   "capital",
+   "ocr"
+  ],
+  [
+   34,
+   "money— not",
+   "money—not",
+   "spacing"
+  ],
+  [
+   44,
+   "war— and",
+   "war—and",
+   "spacing"
+  ],
+  [
+   57,
+   "well- thought-out",
+   "well-thought-out",
+   "hyphen"
+  ],
+  [
+   73,
+   "continent, An",
+   "continent. An",
+   "ocr"
+  ],
+  [
+   73,
+   "Malvinas, Peace",
+   "Malvinas. Peace",
+   "ocr"
+  ],
+  [
+   75,
+   "independence— and",
+   "independence—and",
+   "spacing"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 13 breaks off mid-sentence and the text resumes with a new sentence, suggesting lost text.",
+ "unitizer_version": 1,
+ "sha1": "81c0be586fc32059087f2c84852846c780512e4e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 22,
+   "page_number": 1
+  },
+  "words_in": 2171,
+  "words_out": 2165,
+  "retention": 0.9972,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   189,
+   63,
+   198,
+   255,
+   178,
+   141,
+   118,
+   164,
+   92,
+   94,
+   179,
+   109,
+   111,
+   127,
+   147
+  ],
+  "warnings": []
+ }
+}

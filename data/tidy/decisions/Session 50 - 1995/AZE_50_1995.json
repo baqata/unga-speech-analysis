@@ -1,0 +1,83 @@
+{
+ "id": "AZE_50_1995",
+ "drop": [
+  [
+   47,
+   47,
+   "header_footer"
+  ],
+  [
+   143,
+   143,
+   "header_footer"
+  ],
+  [
+   240,
+   240,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  32,
+  51,
+  71,
+  88,
+  112,
+  124,
+  137,
+  160,
+  178,
+  196,
+  209,
+  227,
+  256,
+  279,
+  295,
+  318
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "716361b891a1d3f154995d7d55e8bb7cfd9bc88a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 327,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2443,
+  "words_out": 2424,
+  "retention": 0.9922,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   122,
+   113,
+   127,
+   159,
+   125,
+   182,
+   85,
+   103,
+   161,
+   124,
+   138,
+   99,
+   125,
+   203,
+   185,
+   117,
+   178,
+   78
+  ],
+  "warnings": []
+ }
+}

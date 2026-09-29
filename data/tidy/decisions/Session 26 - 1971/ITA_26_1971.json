@@ -1,0 +1,278 @@
+{
+ "id": "ITA_26_1971",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ],
+  [
+   21,
+   21,
+   "repeat"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  8,
+  14,
+  19,
+  23,
+  28,
+  33,
+  39,
+  43,
+  45,
+  46,
+  51,
+  55,
+  60,
+  64,
+  69,
+  72,
+  77,
+  80,
+  85,
+  88,
+  92,
+  95,
+  100,
+  103,
+  107,
+  109,
+  113,
+  117,
+  120,
+  123,
+  126,
+  128,
+  130,
+  133,
+  136
+ ],
+ "cer": [
+  1,
+  5
+ ],
+ "fix": [
+  [
+   18,
+   "setbacks;",
+   "setbacks,",
+   "ocr"
+  ],
+  [
+   22,
+   "156. ",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "Mr. President, on behalf of the Italian delegation I am very ",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "Organization, It is Consistent",
+   "Organization. It is consistent",
+   "ocr"
+  ],
+  [
+   26,
+   "universaUty",
+   "universality",
+   "ocr"
+  ],
+  [
+   28,
+   " [A/8401/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "and interests,",
+   "and interests.",
+   "ocr"
+  ],
+  [
+   41,
+   "1946, Since",
+   "1946. Since",
+   "ocr"
+  ],
+  [
+   41,
+   "same lines,",
+   "same lines.",
+   "ocr"
+  ],
+  [
+   56,
+   "third world,",
+   "third world.",
+   "ocr"
+  ],
+  [
+   64,
+   "cf possible",
+   "of possible",
+   "ocr"
+  ],
+  [
+   64,
+   "by aft agreement",
+   "by an agreement",
+   "ocr"
+  ],
+  [
+   73,
+   "Hie European",
+   "The European",
+   "ocr"
+  ],
+  [
+   81,
+   " [A/8457-DCI234, annex A]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   "tH part",
+   "the part",
+   "ocr"
+  ],
+  [
+   99,
+   "solution, The benefits",
+   "solution. The benefits",
+   "ocr"
+  ],
+  [
+   104,
+   "135, ",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "discrimination ,",
+   "discrimination,",
+   "spacing"
+  ],
+  [
+   110,
+   "tho United",
+   "the United",
+   "ocr"
+  ],
+  [
+   116,
+   "by writing all",
+   "by uniting all",
+   "ocr"
+  ],
+  [
+   122,
+   "will- have",
+   "will have",
+   "ocr"
+  ],
+  [
+   126,
+   "have, suffered",
+   "have suffered",
+   "ocr"
+  ],
+  [
+   127,
+   "problem.of",
+   "problem of",
+   "ocr"
+  ],
+  [
+   131,
+   " [1950th meetingJ",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   109,
+   " [resolution 2106 A (XX)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "28dcf7c2d063e0aa41351d124ad89c7e65db5e2f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {
+   "noise": 1,
+   "repeat": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 49
+  },
+  "words_in": 4415,
+  "words_out": 4379,
+  "retention": 0.9918,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   155,
+   92,
+   108,
+   102,
+   104,
+   175,
+   142,
+   164,
+   193,
+   105,
+   71,
+   137,
+   71,
+   115,
+   134,
+   138,
+   82,
+   123,
+   193,
+   89,
+   76,
+   111,
+   99,
+   188,
+   103,
+   160,
+   82,
+   128,
+   82,
+   86,
+   158,
+   70,
+   109,
+   95,
+   113,
+   96,
+   130
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

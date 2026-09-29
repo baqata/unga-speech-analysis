@@ -1,0 +1,136 @@
+{
+ "id": "ARG_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  12,
+  15,
+  19,
+  24,
+  26,
+  29,
+  33,
+  40,
+  44,
+  46,
+  51,
+  53,
+  56,
+  62,
+  65,
+  72,
+  75,
+  78,
+  81,
+  88,
+  96,
+  103,
+  108,
+  112,
+  115,
+  121,
+  127
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   52,
+   "community, Argentina wants",
+   "community. Argentina wants",
+   "ocr"
+  ],
+  [
+   74,
+   "(QATT)",
+   "(GATT)",
+   "ocr"
+  ],
+  [
+   102,
+   "they wore accepting",
+   "they were accepting",
+   "ocr"
+  ],
+  [
+   122,
+   "policy hut also",
+   "policy but also",
+   "ocr"
+  ],
+  [
+   128,
+   "Charter, In striving",
+   "Charter. In striving",
+   "ocr"
+  ],
+  [
+   128,
+   "man, Argentina today",
+   "man. Argentina today",
+   "ocr"
+  ],
+  [
+   128,
+   "International coexistence",
+   "international coexistence",
+   "ocr"
+  ],
+  [
+   94,
+   "the Importance",
+   "the importance",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab2b5d7b56482430456cdcd5c87b17d82a58e577",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3201,
+  "words_out": 3167,
+  "retention": 0.9894,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   82,
+   196,
+   61,
+   71,
+   107,
+   127,
+   66,
+   65,
+   92,
+   158,
+   76,
+   88,
+   155,
+   73,
+   80,
+   142,
+   81,
+   152,
+   71,
+   63,
+   86,
+   141,
+   149,
+   156,
+   83,
+   97,
+   80,
+   133,
+   118,
+   118
+  ],
+  "warnings": []
+ }
+}

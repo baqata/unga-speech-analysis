@@ -1,0 +1,94 @@
+{
+ "id": "GRC_09_1954",
+ "drop": [
+  [
+   66,
+   66,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  14,
+  22,
+  30,
+  34,
+  38,
+  42,
+  49,
+  53,
+  56,
+  60,
+  62,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "Apart,",
+   "Apart",
+   "ocr"
+  ],
+  [
+   47,
+   ".strong",
+   "strong",
+   "ocr"
+  ],
+  [
+   52,
+   "arrangements..",
+   "arrangements.",
+   "ocr"
+  ],
+  [
+   64,
+   "out backing",
+   "our backing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "20a0a3862fca30a883ec79102db62ac4653cc38b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 2177,
+  "words_out": 2172,
+  "retention": 0.9977,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   66,
+   155,
+   66,
+   113,
+   250,
+   202,
+   131,
+   214,
+   139,
+   255,
+   111,
+   114,
+   117,
+   70,
+   90,
+   79
+  ],
+  "warnings": []
+ }
+}

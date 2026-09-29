@@ -1,0 +1,104 @@
+{
+ "id": "ECU_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  11,
+  16,
+  21,
+  24,
+  25,
+  26,
+  29,
+  32,
+  35,
+  36,
+  39,
+  42,
+  48,
+  51,
+  52,
+  53,
+  56,
+  57,
+  58,
+  60,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "fact ox its",
+   "fact of its",
+   "ocr"
+  ],
+  [
+   18,
+   "State„4",
+   "State,",
+   "ocr"
+  ],
+  [
+   54,
+   "122 years. from",
+   "122 years from",
+   "ocr"
+  ],
+  [
+   54,
+   "1026",
+   "1826",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56f2de51b213a4a73d3b42ae652d598378e5873e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3003,
+  "words_out": 3003,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   45,
+   150,
+   134,
+   146,
+   170,
+   232,
+   196,
+   105,
+   87,
+   114,
+   139,
+   121,
+   101,
+   169,
+   92,
+   165,
+   131,
+   98,
+   96,
+   116,
+   65,
+   87,
+   110,
+   79,
+   55
+  ],
+  "warnings": []
+ }
+}

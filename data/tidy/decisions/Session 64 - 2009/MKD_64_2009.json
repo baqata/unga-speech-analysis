@@ -1,0 +1,55 @@
+{
+ "id": "MKD_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  34,
+  51,
+  64,
+  92,
+  107,
+  121,
+  148,
+  169,
+  185,
+  194,
+  215
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d2234a35c54cd32f4fe7adf07a7a2199473c5d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1778,
+  "words_out": 1776,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   151,
+   126,
+   135,
+   98,
+   227,
+   114,
+   109,
+   202,
+   171,
+   138,
+   74,
+   163,
+   68
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "id": "COG_28_1973",
+ "drop": [
+  [
+   26,
+   26,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  13,
+  18,
+  21,
+  27,
+  29,
+  32,
+  39,
+  43,
+  51,
+  58,
+  63,
+  68,
+  74,
+  78,
+  82,
+  87,
+  93,
+  95,
+  99
+ ],
+ "cer": [
+  99
+ ],
+ "fix": [
+  [
+   1,
+   "rostrum.5 At",
+   "rostrum. At",
+   "ocr"
+  ],
+  [
+   2,
+   "87: ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "ail the",
+   "all the",
+   "ocr"
+  ],
+  [
+   6,
+   "to. us",
+   "to us",
+   "ocr"
+  ],
+  [
+   10,
+   "vainly, to",
+   "vainly to",
+   "ocr"
+  ],
+  [
+   11,
+   "Paris.6 It",
+   "Paris. It",
+   "ocr"
+  ],
+  [
+   42,
+   "support, it",
+   "support it",
+   "ocr"
+  ],
+  [
+   46,
+   "domination..",
+   "domination.",
+   "ocr"
+  ],
+  [
+   51,
+   "thought- out",
+   "thought-out",
+   "spacing"
+  ],
+  [
+   60,
+   "Palestine.",
+   "Palestine,",
+   "ocr"
+  ],
+  [
+   94,
+   "'-intellectual",
+   "intellectual",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ddfb233e86fd50da4e954a4618e66c180cdec73f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3428,
+  "words_out": 3425,
+  "retention": 0.9991,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   91,
+   82,
+   122,
+   139,
+   196,
+   87,
+   168,
+   103,
+   120,
+   158,
+   170,
+   185,
+   176,
+   135,
+   183,
+   245,
+   238,
+   119,
+   150,
+   180,
+   68,
+   130,
+   180
+  ],
+  "warnings": []
+ }
+}

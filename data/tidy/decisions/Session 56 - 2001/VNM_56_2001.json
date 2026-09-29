@@ -1,0 +1,45 @@
+{
+ "id": "VNM_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  35,
+  67,
+  91,
+  107,
+  146,
+  162
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Units 107-145 form one long paragraph with no unit-initial sentence start to split at.",
+ "unitizer_version": 1,
+ "sha1": "9abb843de2ffb1487955afb486e00e82c770fcbd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1456,
+  "words_out": 1454,
+  "retention": 0.9986,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   55,
+   222,
+   246,
+   177,
+   130,
+   291,
+   117,
+   216
+  ],
+  "warnings": []
+ }
+}

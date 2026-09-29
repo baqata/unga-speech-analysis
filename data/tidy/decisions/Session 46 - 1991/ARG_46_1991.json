@@ -1,0 +1,122 @@
+{
+ "id": "ARG_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  12,
+  15,
+  20,
+  25,
+  29,
+  32,
+  37,
+  40,
+  41,
+  45,
+  48,
+  54,
+  59,
+  64,
+  69,
+  76,
+  80,
+  84,
+  88,
+  92,
+  96
+ ],
+ "cer": [
+  0,
+  1,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   19,
+   "19S9",
+   "1989",
+   "ocr"
+  ],
+  [
+   24,
+   "He can say",
+   "We can say",
+   "ocr"
+  ],
+  [
+   34,
+   "He have",
+   "We have",
+   "ocr"
+  ],
+  [
+   68,
+   "This it an",
+   "This is an",
+   "ocr"
+  ],
+  [
+   77,
+   "He will",
+   "We will",
+   "ocr"
+  ],
+  [
+   92,
+   "I with to",
+   "I wish to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8576789802fae225983e97c9a2b0b76969ab1385",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2735,
+  "words_out": 2735,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   41,
+   85,
+   72,
+   88,
+   76,
+   119,
+   118,
+   126,
+   102,
+   156,
+   81,
+   58,
+   124,
+   74,
+   144,
+   137,
+   141,
+   114,
+   182,
+   103,
+   107,
+   134,
+   145,
+   91,
+   117
+  ],
+  "warnings": []
+ }
+}

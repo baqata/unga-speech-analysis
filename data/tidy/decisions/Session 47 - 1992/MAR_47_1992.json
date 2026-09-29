@@ -1,0 +1,114 @@
+{
+ "id": "MAR_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  20,
+  37,
+  52,
+  66,
+  83,
+  101,
+  122,
+  134,
+  146,
+  158,
+  170,
+  187,
+  203,
+  224,
+  245,
+  260,
+  281,
+  301,
+  319
+ ],
+ "cer": [
+  0,
+  9,
+  20
+ ],
+ "fix": [
+  [
+   42,
+   "a. foothold",
+   "a foothold",
+   "ocr"
+  ],
+  [
+   98,
+   "mere than",
+   "more than",
+   "ocr"
+  ],
+  [
+   112,
+   "a. more",
+   "a more",
+   "ocr"
+  ],
+  [
+   176,
+   "since them",
+   "since then",
+   "ocr"
+  ],
+  [
+   250,
+   "‚Ä¢ sensitivities",
+   "sensitivities",
+   "ocr"
+  ],
+  [
+   253,
+   "! The historic",
+   "The historic",
+   "ocr"
+  ],
+  [
+   255,
+   "t Security",
+   "Security",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e412168a15e21ebd1641e68f391eec7da2a3486b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 329,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3621,
+  "words_out": 3617,
+  "retention": 0.9989,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   96,
+   128,
+   182,
+   166,
+   155,
+   178,
+   202,
+   252,
+   133,
+   136,
+   135,
+   140,
+   200,
+   179,
+   222,
+   212,
+   170,
+   221,
+   210,
+   175,
+   125
+  ],
+  "warnings": []
+ }
+}

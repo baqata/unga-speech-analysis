@@ -1,0 +1,133 @@
+{
+ "id": "DNK_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  13,
+  22,
+  36,
+  43,
+  46,
+  50,
+  56,
+  60,
+  65,
+  71,
+  72,
+  78,
+  83,
+  87,
+  89,
+  91,
+  93,
+  98,
+  101,
+  104
+ ],
+ "cer": [
+  4,
+  7
+ ],
+ "fix": [
+  [
+   7,
+   "Djibouti— our",
+   "Djibouti—our",
+   "spacing"
+  ],
+  [
+   16,
+   "plan. .The",
+   "plan. The",
+   "ocr"
+  ],
+  [
+   38,
+   "338(1973)",
+   "338 (1973)",
+   "spacing"
+  ],
+  [
+   65,
+   "pursuit, of",
+   "pursuit of",
+   "ocr"
+  ],
+  [
+   67,
+   "non- proliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   71,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   75,
+   "developed— military",
+   "developed—military",
+   "spacing"
+  ],
+  [
+   76,
+   "done' to",
+   "done to",
+   "ocr"
+  ],
+  [
+   80,
+   "was leached",
+   "was reached",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "470bb746f51d62b0b7e7c75e2e39ad26d7e7520e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 2781,
+  "words_out": 2778,
+  "retention": 0.9989,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   122,
+   59,
+   58,
+   120,
+   228,
+   224,
+   164,
+   118,
+   91,
+   205,
+   116,
+   107,
+   171,
+   76,
+   147,
+   134,
+   67,
+   70,
+   90,
+   58,
+   119,
+   83,
+   53,
+   98
+  ],
+  "warnings": []
+ }
+}

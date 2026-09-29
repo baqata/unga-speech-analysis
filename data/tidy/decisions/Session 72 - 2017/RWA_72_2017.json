@@ -1,0 +1,42 @@
+{
+ "id": "RWA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  20,
+  23
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "head- on",
+   "head-on",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6c21add87a896b908e5051b71054bc00ccbf29e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 24,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 540,
+  "words_out": 539,
+  "retention": 0.9981,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   115,
+   131,
+   188,
+   76,
+   29
+  ],
+  "warnings": []
+ }
+}

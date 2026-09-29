@@ -1,0 +1,127 @@
+{
+ "id": "GRC_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  17,
+  23,
+  26,
+  31,
+  37,
+  40,
+  44,
+  49,
+  54,
+  57,
+  60,
+  71,
+  75,
+  77,
+  81,
+  84,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   40,
+   "have dipped into",
+   "have slipped into",
+   "ocr"
+  ],
+  [
+   44,
+   "of die Greek",
+   "of the Greek",
+   "ocr"
+  ],
+  [
+   46,
+   " [8th meeting, para. 221J",
+   "",
+   "label"
+  ],
+  [
+   49,
+   " [ibid.,para. 223J",
+   "",
+   "label"
+  ],
+  [
+   72,
+   " [A/31/1 /Add",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "1, sect.",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "Ill J. ",
+   "",
+   "label"
+  ],
+  [
+   74,
+   " [ 11th meetingJ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d9df550621be0de7fe594d21ebb3847f2cd8e55",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 2762,
+  "words_out": 2745,
+  "retention": 0.9938,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   123,
+   134,
+   148,
+   120,
+   143,
+   73,
+   203,
+   166,
+   87,
+   170,
+   146,
+   153,
+   72,
+   98,
+   209,
+   127,
+   81,
+   154,
+   143,
+   113,
+   82
+  ],
+  "warnings": []
+ }
+}

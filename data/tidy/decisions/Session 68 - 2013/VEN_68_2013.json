@@ -1,0 +1,109 @@
+{
+ "id": "VEN_68_2013",
+ "drop": [
+  [
+   20,
+   20,
+   "header_footer"
+  ],
+  [
+   104,
+   104,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  21,
+  35,
+  54,
+  62,
+  72,
+  90,
+  99,
+  120,
+  129,
+  144,
+  156,
+  164,
+  173,
+  195,
+  212,
+  218,
+  234
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "March (see",
+   "March.",
+   "spacing"
+  ],
+  [
+   103,
+   "Rousseff (see",
+   "Rousseff.",
+   "spacing"
+  ],
+  [
+   140,
+   " (see A/61/",
+   "",
+   "label"
+  ],
+  [
+   141,
+   "PV.12)",
+   "",
+   "label"
+  ],
+  [
+   188,
+   " (A/PV.1209, p. 5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Verbatim-record references the tool missed are removed; units 20 and 104 held only reference remainders.",
+ "unitizer_version": 1,
+ "sha1": "470ee3204ed537a0a36d53ac7b0406692c5270ea",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2085,
+  "words_out": 2075,
+  "retention": 0.9952,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   46,
+   126,
+   130,
+   165,
+   75,
+   80,
+   151,
+   79,
+   158,
+   75,
+   130,
+   115,
+   66,
+   87,
+   178,
+   131,
+   48,
+   135,
+   100
+  ],
+  "warnings": []
+ }
+}

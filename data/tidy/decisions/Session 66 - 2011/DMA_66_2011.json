@@ -1,0 +1,59 @@
+{
+ "id": "DMA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  49,
+  68,
+  100,
+  109,
+  131,
+  157,
+  172,
+  198,
+  224,
+  236,
+  258,
+  281,
+  305
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efd3410904b903def24d7cf96a3166fcef23c079",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2455,
+  "words_out": 2449,
+  "retention": 0.9976,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   162,
+   234,
+   154,
+   257,
+   77,
+   159,
+   194,
+   104,
+   203,
+   204,
+   89,
+   169,
+   169,
+   178,
+   96
+  ],
+  "warnings": []
+ }
+}

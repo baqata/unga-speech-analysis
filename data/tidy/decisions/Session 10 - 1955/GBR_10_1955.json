@@ -1,0 +1,118 @@
+{
+ "id": "GBR_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  16,
+  26,
+  29,
+  33,
+  38,
+  43,
+  50,
+  54,
+  60,
+  66,
+  71,
+  75,
+  81,
+  87,
+  96,
+  103,
+  108,
+  114,
+  122,
+  128,
+  135
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   10,
+   "”,",
+   "”.",
+   "ocr"
+  ],
+  [
+   23,
+   "Europe,",
+   "Europe.",
+   "ocr"
+  ],
+  [
+   50,
+   "Bums",
+   "Burns",
+   "ocr"
+  ],
+  [
+   67,
+   "membership,",
+   "membership.",
+   "ocr"
+  ],
+  [
+   102,
+   "^",
+   "",
+   "label"
+  ],
+  [
+   125,
+   " [Af2979, annex I]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f5f5104bce05b20462fc5b9f0546973b85d12f1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 6,
+   "paragraph_number": 50
+  },
+  "words_in": 3505,
+  "words_out": 3496,
+  "retention": 0.9974,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   85,
+   84,
+   203,
+   87,
+   185,
+   92,
+   119,
+   127,
+   143,
+   113,
+   103,
+   218,
+   148,
+   92,
+   81,
+   111,
+   120,
+   191,
+   146,
+   168,
+   158,
+   177,
+   218,
+   140,
+   187
+  ],
+  "warnings": []
+ }
+}

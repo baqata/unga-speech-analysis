@@ -1,0 +1,80 @@
+{
+ "id": "BRB_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  17,
+  21,
+  24,
+  28,
+  31,
+  37,
+  41,
+  45,
+  50,
+  54,
+  59,
+  63,
+  66,
+  69,
+  72,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "high- performance",
+   "high-performance",
+   "hyphen"
+  ],
+  [
+   70,
+   "Pro- Vice",
+   "Pro-Vice",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e216721cb8143345530467a41e7689946448525",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2268,
+  "words_out": 2252,
+  "retention": 0.9929,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   138,
+   121,
+   131,
+   131,
+   124,
+   121,
+   87,
+   119,
+   109,
+   98,
+   119,
+   128,
+   142,
+   98,
+   103,
+   147,
+   136,
+   102,
+   98
+  ],
+  "warnings": []
+ }
+}

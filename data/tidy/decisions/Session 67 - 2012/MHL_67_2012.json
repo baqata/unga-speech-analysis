@@ -1,0 +1,80 @@
+{
+ "id": "MHL_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  23,
+  35,
+  44,
+  56,
+  67,
+  82,
+  96,
+  110,
+  128,
+  139,
+  153,
+  165,
+  193,
+  202
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "f lag",
+   "flag",
+   "split_word"
+  ],
+  [
+   7,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ],
+  [
+   87,
+   "(A/HRC/21/48/Add.1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad05cdae35f4152f509aa31b74d6f0ec78e876d4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 210,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1789,
+  "words_out": 1785,
+  "retention": 0.9978,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   13,
+   68,
+   105,
+   105,
+   91,
+   93,
+   92,
+   126,
+   114,
+   122,
+   151,
+   100,
+   111,
+   106,
+   244,
+   72,
+   72
+  ],
+  "warnings": []
+ }
+}

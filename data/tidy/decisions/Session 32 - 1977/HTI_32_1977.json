@@ -1,0 +1,144 @@
+{
+ "id": "HTI_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  12,
+  16,
+  18,
+  21,
+  26,
+  28,
+  34,
+  37,
+  42,
+  45,
+  49,
+  52,
+  57,
+  60,
+  61,
+  63,
+  66,
+  68,
+  78,
+  82,
+  87,
+  96,
+  98,
+  101,
+  104,
+  107,
+  111,
+  115
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "316. ",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "are .convinced",
+   "are convinced",
+   "ocr"
+  ],
+  [
+   42,
+   "Soviet- American",
+   "Soviet-American",
+   "hyphen"
+  ],
+  [
+   45,
+   "242(1967)",
+   "242 (1967)",
+   "spacing"
+  ],
+  [
+   45,
+   "338(1973)",
+   "338 (1973)",
+   "spacing"
+  ],
+  [
+   60,
+   "mankind: It urges",
+   "mankind. It urges",
+   "ocr"
+  ],
+  [
+   89,
+   "SI6 million",
+   "$16 million",
+   "ocr"
+  ],
+  [
+   109,
+   "no longer by any doubt",
+   "no longer be any doubt",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Surviving paragraph number removed from unit 5.",
+ "unitizer_version": 1,
+ "sha1": "d9a107de96541c5bc920123ca6be49058da406cd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3506,
+  "words_out": 3506,
+  "retention": 1.0,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   77,
+   26,
+   67,
+   157,
+   100,
+   56,
+   146,
+   125,
+   83,
+   193,
+   70,
+   113,
+   139,
+   100,
+   80,
+   131,
+   131,
+   67,
+   71,
+   154,
+   58,
+   253,
+   113,
+   124,
+   208,
+   86,
+   90,
+   80,
+   116,
+   104,
+   77,
+   111
+  ],
+  "warnings": []
+ }
+}

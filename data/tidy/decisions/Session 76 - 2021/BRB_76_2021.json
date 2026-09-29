@@ -1,0 +1,68 @@
+{
+ "id": "BRB_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  16,
+  19,
+  23,
+  31,
+  35,
+  38,
+  40,
+  46,
+  51,
+  56,
+  58,
+  60,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "S9.3",
+   "$9.3",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "947bd3d91cce14e675001d57bac9ca4e7dd10f47",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 1795,
+  "words_out": 1792,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   33,
+   162,
+   169,
+   96,
+   120,
+   160,
+   129,
+   80,
+   103,
+   167,
+   109,
+   108,
+   77,
+   69,
+   130,
+   80
+  ],
+  "warnings": []
+ }
+}

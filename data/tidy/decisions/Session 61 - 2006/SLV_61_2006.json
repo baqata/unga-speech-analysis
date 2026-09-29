@@ -1,0 +1,81 @@
+{
+ "id": "SLV_61_2006",
+ "drop": [
+  [
+   193,
+   193,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  31,
+  56,
+  72,
+  93,
+  103,
+  125,
+  136,
+  153,
+  167,
+  194,
+  213,
+  227,
+  254,
+  274,
+  301,
+  317,
+  331,
+  351,
+  374
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e6f810d8c99accf1126487e094a2011c2a384a15",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 403,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 3120,
+  "words_out": 3109,
+  "retention": 0.9965,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   99,
+   116,
+   211,
+   126,
+   165,
+   85,
+   173,
+   84,
+   127,
+   112,
+   216,
+   135,
+   104,
+   203,
+   142,
+   196,
+   138,
+   107,
+   141,
+   197,
+   232
+  ],
+  "warnings": [
+   "procedural drop [193,193] in the middle of the speech"
+  ]
+ }
+}

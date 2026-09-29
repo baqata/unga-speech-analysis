@@ -1,0 +1,73 @@
+{
+ "id": "MDA_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  35,
+  59,
+  70,
+  87,
+  98,
+  117,
+  128,
+  146,
+  170,
+  178,
+  194,
+  205,
+  214
+ ],
+ "cer": [
+  0,
+  205
+ ],
+ "fix": [
+  [
+   51,
+   "ratification[n",
+   "ratification",
+   "ocr"
+  ],
+  [
+   222,
+   "(A/57/1; para. 230)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6d9153ef96cbf77a5f499b30c3a5328d481b4e6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1681,
+  "words_out": 1676,
+  "retention": 0.997,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   106,
+   162,
+   174,
+   79,
+   123,
+   82,
+   142,
+   78,
+   130,
+   190,
+   65,
+   121,
+   74,
+   68,
+   82
+  ],
+  "warnings": []
+ }
+}

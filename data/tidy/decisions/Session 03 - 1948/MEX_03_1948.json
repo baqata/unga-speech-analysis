@@ -1,0 +1,80 @@
+{
+ "id": "MEX_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  15,
+  19,
+  23,
+  25,
+  28,
+  32,
+  35,
+  37,
+  40,
+  44,
+  56,
+  60
+ ],
+ "cer": [],
+ "fix": [
+  [
+   30,
+   "in, the",
+   "in the",
+   "ocr"
+  ],
+  [
+   55,
+   "resolves;",
+   "resolves:",
+   "ocr"
+  ],
+  [
+   56,
+   "the' spirit",
+   "the spirit",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person; the proposed draft resolution is quoted in full and its preamble, one sentence, stays in one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "c19360df197bc82c1f14aaad5c9667505d04e872",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2445,
+  "words_out": 2444,
+  "retention": 0.9996,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   147,
+   129,
+   221,
+   107,
+   116,
+   153,
+   137,
+   116,
+   157,
+   156,
+   94,
+   115,
+   136,
+   326,
+   275,
+   59
+  ],
+  "warnings": [
+   "paragraph at unit 44 has 326 words"
+  ]
+ }
+}

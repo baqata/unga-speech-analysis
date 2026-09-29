@@ -1,0 +1,128 @@
+{
+ "id": "MDV_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  12,
+  14,
+  16,
+  20,
+  25,
+  27,
+  31,
+  35,
+  43,
+  49,
+  54,
+  58,
+  60,
+  63,
+  67,
+  72,
+  80,
+  86,
+  90,
+  94,
+  100,
+  102,
+  105
+ ],
+ "cer": [
+  0,
+  2,
+  5
+ ],
+ "fix": [
+  [
+   7,
+   "15K, ",
+   "",
+   "label"
+  ],
+  [
+   7,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   36,
+   "haw any",
+   "have any",
+   "ocr"
+  ],
+  [
+   70,
+   "the culls of",
+   "the calls of",
+   "ocr"
+  ],
+  [
+   71,
+   "Sectary-General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   103,
+   "Countries s would",
+   "Countries would",
+   "ocr"
+  ],
+  [
+   104,
+   "round- table",
+   "round-table",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a52c1b970d691857bbdd9fc4c416d1d19fd9cc0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3204,
+  "words_out": 3199,
+  "retention": 0.9984,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   55,
+   90,
+   84,
+   113,
+   109,
+   92,
+   75,
+   124,
+   87,
+   121,
+   131,
+   224,
+   123,
+   129,
+   136,
+   98,
+   99,
+   112,
+   149,
+   148,
+   138,
+   114,
+   111,
+   130,
+   117,
+   136,
+   154
+  ],
+  "warnings": []
+ }
+}

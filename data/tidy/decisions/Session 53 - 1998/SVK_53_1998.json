@@ -1,0 +1,98 @@
+{
+ "id": "SVK_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  32,
+  49,
+  60,
+  74,
+  87,
+  115,
+  129,
+  143,
+  161,
+  168,
+  183,
+  197,
+  213,
+  226
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   91,
+   "Slovakia?s",
+   "Slovakia’s",
+   "encoding"
+  ],
+  [
+   126,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   141,
+   "Slovakia?s",
+   "Slovakia’s",
+   "encoding"
+  ],
+  [
+   204,
+   "Court?s",
+   "Court’s",
+   "encoding"
+  ],
+  [
+   205,
+   "Gabcˇ'kovo",
+   "Gabčíkovo",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "64be97578f2933ebb04eed3959714f2200fbf32f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1879,
+  "words_out": 1877,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   82,
+   184,
+   138,
+   94,
+   116,
+   104,
+   195,
+   113,
+   102,
+   139,
+   58,
+   123,
+   103,
+   124,
+   113,
+   89
+  ],
+  "warnings": []
+ }
+}

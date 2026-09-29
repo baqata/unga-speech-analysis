@@ -1,0 +1,77 @@
+{
+ "id": "GRD_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  18,
+  22,
+  28,
+  35,
+  36,
+  42,
+  47,
+  51,
+  53,
+  57,
+  59,
+  61,
+  65,
+  67
+ ],
+ "cer": [
+  0,
+  35
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   25,
+   "2022- 2024",
+   "2022-2024",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6867b8467deef56569a706d96007ed14aabec503",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1939,
+  "words_out": 1937,
+  "retention": 0.999,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   189,
+   131,
+   110,
+   86,
+   94,
+   173,
+   170,
+   41,
+   144,
+   122,
+   105,
+   73,
+   66,
+   64,
+   106,
+   101,
+   64,
+   98
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "MYS_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  39,
+  52,
+  78,
+  95,
+  107,
+  115,
+  126,
+  142,
+  156,
+  164,
+  188,
+  204,
+  225,
+  242,
+  248,
+  256,
+  268,
+  289,
+  304,
+  325,
+  345,
+  361,
+  380
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   162,
+   "intra- Palestinian",
+   "intra-Palestinian",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca596cb161cd861bd691d66d4a67f5afa4d97ff1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 388,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 3366,
+  "words_out": 3364,
+  "retention": 0.9994,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   51,
+   133,
+   150,
+   106,
+   221,
+   154,
+   106,
+   65,
+   96,
+   141,
+   130,
+   67,
+   211,
+   136,
+   172,
+   145,
+   62,
+   80,
+   96,
+   196,
+   130,
+   182,
+   175,
+   119,
+   166,
+   74
+  ],
+  "warnings": []
+ }
+}

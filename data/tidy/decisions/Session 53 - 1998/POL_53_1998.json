@@ -1,0 +1,111 @@
+{
+ "id": "POL_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  16,
+  37,
+  56,
+  64,
+  81,
+  96,
+  119,
+  133,
+  141,
+  152,
+  162,
+  172,
+  188,
+  209,
+  223,
+  235,
+  250,
+  268,
+  282,
+  289,
+  298,
+  318,
+  340
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   24,
+   "nation?s",
+   "nation’s",
+   "encoding"
+  ],
+  [
+   125,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   138,
+   "Members?",
+   "Members’",
+   "encoding"
+  ],
+  [
+   221,
+   "Earth?s",
+   "Earth’s",
+   "encoding"
+  ],
+  [
+   301,
+   "world?s",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "971f507c737a94144a431349bc41d47fa845bb50",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 346,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3008,
+  "words_out": 3004,
+  "retention": 0.9987,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   76,
+   51,
+   184,
+   180,
+   73,
+   133,
+   120,
+   189,
+   129,
+   79,
+   108,
+   92,
+   85,
+   138,
+   188,
+   115,
+   98,
+   134,
+   154,
+   130,
+   63,
+   72,
+   180,
+   178,
+   55
+  ],
+  "warnings": []
+ }
+}

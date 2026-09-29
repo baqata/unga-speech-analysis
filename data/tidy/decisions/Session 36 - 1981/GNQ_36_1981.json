@@ -1,0 +1,122 @@
+{
+ "id": "GNQ_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  13,
+  18,
+  21,
+  24,
+  31,
+  34,
+  41,
+  43,
+  48,
+  52,
+  55,
+  59,
+  66,
+  69,
+  74,
+  77,
+  82,
+  85,
+  88,
+  90,
+  93
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   2,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   11,
+   "the' crisis",
+   "the crisis",
+   "ocr"
+  ],
+  [
+   22,
+   "himself-.",
+   "himself.",
+   "ocr"
+  ],
+  [
+   44,
+   "development'.'",
+   "development\".",
+   "ocr"
+  ],
+  [
+   50,
+   "pressure., It",
+   "pressure. It",
+   "ocr"
+  ],
+  [
+   58,
+   "during, that",
+   "during that",
+   "ocr"
+  ],
+  [
+   84,
+   "it. the political",
+   "it, the political",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "87b28810c992c661320200ae88033bd35b53564c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 3321,
+  "words_out": 3320,
+  "retention": 0.9997,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   84,
+   152,
+   243,
+   217,
+   124,
+   128,
+   149,
+   75,
+   160,
+   114,
+   220,
+   118,
+   84,
+   199,
+   203,
+   120,
+   124,
+   118,
+   256,
+   130,
+   93,
+   85,
+   74,
+   50
+  ],
+  "warnings": []
+ }
+}

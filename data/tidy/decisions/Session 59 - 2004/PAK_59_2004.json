@@ -1,0 +1,110 @@
+{
+ "id": "PAK_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  33,
+  50,
+  65,
+  75,
+  95,
+  103,
+  115,
+  129,
+  140,
+  155,
+  167,
+  182,
+  192,
+  206,
+  217,
+  229,
+  240
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "peoplesí",
+   "peoples’",
+   "encoding"
+  ],
+  [
+   114,
+   "Asia ó for",
+   "Asia — for",
+   "encoding"
+  ],
+  [
+   156,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   162,
+   "well ó and",
+   "well — and",
+   "encoding"
+  ],
+  [
+   163,
+   "success ó the",
+   "success — the",
+   "encoding"
+  ],
+  [
+   172,
+   "planet ó a quarter of the worldís population ó",
+   "planet — a quarter of the world’s population —",
+   "encoding"
+  ],
+  [
+   202,
+   "worldís",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01cc8105ff7e4bf99874c359858f271a0b866849",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1937,
+  "words_out": 1935,
+  "retention": 0.999,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   71,
+   169,
+   136,
+   114,
+   71,
+   162,
+   74,
+   103,
+   101,
+   96,
+   128,
+   91,
+   121,
+   71,
+   109,
+   75,
+   86,
+   89,
+   68
+  ],
+  "warnings": []
+ }
+}

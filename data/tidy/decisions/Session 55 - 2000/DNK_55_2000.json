@@ -1,0 +1,64 @@
+{
+ "id": "DNK_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  44,
+  53,
+  75,
+  94,
+  107,
+  120,
+  151,
+  169,
+  185,
+  199,
+  216
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   163,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "258825bf2b51c1144fc536310f1e26626b8764a1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 222,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1711,
+  "words_out": 1708,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   45,
+   70,
+   207,
+   73,
+   166,
+   132,
+   101,
+   94,
+   227,
+   156,
+   136,
+   118,
+   135,
+   48
+  ],
+  "warnings": []
+ }
+}

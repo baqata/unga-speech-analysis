@@ -1,0 +1,187 @@
+{
+ "id": "URY_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  10,
+  14,
+  19,
+  23,
+  26,
+  31,
+  37,
+  40,
+  43,
+  47,
+  50,
+  57,
+  59,
+  67,
+  77,
+  80,
+  82,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   57,
+   "96;",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "103.",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Smaller",
+   "smaller",
+   "ocr"
+  ],
+  [
+   7,
+   "tip",
+   "up",
+   "ocr"
+  ],
+  [
+   7,
+   "-the",
+   "the",
+   "ocr"
+  ],
+  [
+   13,
+   "Charter,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   38,
+   "could.be",
+   "could be",
+   "spacing"
+  ],
+  [
+   38,
+   "in.",
+   "in",
+   "ocr"
+  ],
+  [
+   39,
+   "Would",
+   "would",
+   "ocr"
+  ],
+  [
+   40,
+   "them,",
+   "them",
+   "ocr"
+  ],
+  [
+   45,
+   "repelled,",
+   "repelled",
+   "ocr"
+  ],
+  [
+   61,
+   "Was",
+   "was",
+   "ocr"
+  ],
+  [
+   62,
+   "to-the",
+   "to the",
+   "spacing"
+  ],
+  [
+   71,
+   "Will",
+   "will",
+   "ocr"
+  ],
+  [
+   77,
+   "Success",
+   "success",
+   "ocr"
+  ],
+  [
+   77,
+   "die",
+   "the",
+   "ocr"
+  ],
+  [
+   79,
+   "idea!",
+   "idea",
+   "ocr"
+  ],
+  [
+   83,
+   "If",
+   "if",
+   "ocr"
+  ],
+  [
+   85,
+   "of,",
+   "of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "baa710263362aa5d4968e329b0ee2002aeca456a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 20
+  },
+  "words_in": 3529,
+  "words_out": 3527,
+  "retention": 0.9994,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   130,
+   106,
+   145,
+   131,
+   227,
+   188,
+   193,
+   179,
+   116,
+   298,
+   209,
+   90,
+   142,
+   104,
+   203,
+   87,
+   245,
+   265,
+   111,
+   77,
+   184,
+   97
+  ],
+  "warnings": []
+ }
+}

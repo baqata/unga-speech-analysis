@@ -1,0 +1,147 @@
+{
+ "id": "SYR_33_1978",
+ "drop": [
+  [
+   26,
+   26,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  11,
+  12,
+  16,
+  17,
+  24,
+  27,
+  30,
+  37,
+  40,
+  44,
+  45,
+  50,
+  52,
+  57,
+  60,
+  63,
+  66,
+  69,
+  73,
+  76,
+  78,
+  81,
+  88,
+  97,
+  100,
+  102,
+  104
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "wisdom..",
+   "wisdom.",
+   "ocr"
+  ],
+  [
+   3,
+   "152,. ",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "relit ions",
+   "relations",
+   "ocr"
+  ],
+  [
+   11,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   51,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   51,
+   "community..",
+   "community.",
+   "ocr"
+  ],
+  [
+   58,
+   "international law, President",
+   "international law. President",
+   "ocr"
+  ],
+  [
+   65,
+   "S/11161,'5",
+   "S/11161.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f03c36127c06b9f936f957cabb587269ecada526",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 3321,
+  "words_out": 3315,
+  "retention": 0.9982,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   54,
+   65,
+   267,
+   84,
+   144,
+   72,
+   204,
+   61,
+   82,
+   131,
+   114,
+   157,
+   63,
+   146,
+   106,
+   162,
+   67,
+   96,
+   107,
+   90,
+   98,
+   98,
+   118,
+   93,
+   197,
+   196,
+   79,
+   88,
+   46,
+   30
+  ],
+  "warnings": []
+ }
+}

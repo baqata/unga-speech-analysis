@@ -1,0 +1,43 @@
+{
+ "id": "BFA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  28,
+  52,
+  68,
+  96,
+  116,
+  126
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56a468ec6f530f3e90a9f6d485fdba6dd1e7fca6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1081,
+  "words_out": 1079,
+  "retention": 0.9981,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   71,
+   140,
+   199,
+   127,
+   210,
+   147,
+   75,
+   110
+  ],
+  "warnings": []
+ }
+}

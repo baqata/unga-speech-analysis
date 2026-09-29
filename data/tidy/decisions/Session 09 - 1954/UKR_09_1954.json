@@ -1,0 +1,125 @@
+{
+ "id": "UKR_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  10,
+  13,
+  17,
+  19,
+  22,
+  24,
+  27,
+  29,
+  35,
+  37,
+  42,
+  44,
+  47,
+  49,
+  51,
+  55,
+  57,
+  59,
+  61,
+  66,
+  72,
+  74,
+  77,
+  80,
+  84,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "take-this",
+   "take this",
+   "spacing"
+  ],
+  [
+   2,
+   "[A/2742 and Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "cam be",
+   "can be",
+   "ocr"
+  ],
+  [
+   77,
+   "[A/2742 and Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "[DC/53, annex 9]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "1954 , Under",
+   "1954. Under",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "847ecadf52c98d666d18d1cf15840c2a1778c7a7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 35
+  },
+  "words_in": 3546,
+  "words_out": 3531,
+  "retention": 0.9958,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   46,
+   138,
+   236,
+   142,
+   128,
+   127,
+   121,
+   72,
+   80,
+   78,
+   176,
+   106,
+   174,
+   64,
+   157,
+   93,
+   103,
+   140,
+   64,
+   159,
+   72,
+   237,
+   142,
+   95,
+   127,
+   172,
+   100,
+   105,
+   77
+  ],
+  "warnings": []
+ }
+}

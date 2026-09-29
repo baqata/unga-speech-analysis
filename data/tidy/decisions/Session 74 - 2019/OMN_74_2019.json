@@ -1,0 +1,54 @@
+{
+ "id": "OMN_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  17,
+  20,
+  22,
+  28,
+  30,
+  35,
+  39
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   34,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bef914811b916051f5bf85dad23b85d4eaef2622",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1480,
+  "words_out": 1479,
+  "retention": 0.9993,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   117,
+   187,
+   214,
+   133,
+   80,
+   227,
+   81,
+   187,
+   157,
+   96
+  ],
+  "warnings": []
+ }
+}

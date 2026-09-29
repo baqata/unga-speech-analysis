@@ -1,0 +1,82 @@
+{
+ "id": "CHL_77_2022",
+ "drop": [
+  [
+   55,
+   56,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  16,
+  18,
+  22,
+  26,
+  33,
+  35,
+  40,
+  42,
+  45,
+  48,
+  52,
+  57,
+  64,
+  69,
+  74,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   76,
+   "goals,",
+   "goals.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2d5210287d399c71f8cd309c23395e9eab21cea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 2502,
+  "words_out": 2490,
+  "retention": 0.9952,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   83,
+   113,
+   199,
+   150,
+   85,
+   78,
+   160,
+   177,
+   90,
+   140,
+   78,
+   127,
+   75,
+   76,
+   77,
+   138,
+   128,
+   190,
+   235,
+   91
+  ],
+  "warnings": [
+   "procedural drop [55,56] in the middle of the speech"
+  ]
+ }
+}

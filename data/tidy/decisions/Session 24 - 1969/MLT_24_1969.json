@@ -1,0 +1,142 @@
+{
+ "id": "MLT_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  47,
+  58,
+  69,
+  90,
+  112,
+  124,
+  138,
+  148,
+  158,
+  172,
+  184,
+  201,
+  210,
+  237,
+  246,
+  263,
+  275,
+  287,
+  299,
+  308,
+  317,
+  330,
+  340,
+  355
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "disarmament: negotiations",
+   "disarmament negotiations",
+   "ocr"
+  ],
+  [
+   66,
+   " [resolution",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "2373 (XXII)] ",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "quickly and. secretly",
+   "quickly and secretly",
+   "ocr"
+  ],
+  [
+   111,
+   "live.“",
+   "live.”",
+   "ocr"
+  ],
+  [
+   120,
+   "[see A/7655] ",
+   "",
+   "label"
+  ],
+  [
+   169,
+   "para beilum",
+   "para bellum",
+   "ocr"
+  ],
+  [
+   202,
+   "[1837 (XVII)] ",
+   "",
+   "label"
+  ],
+  [
+   261,
+   "inrugurated",
+   "inaugurated",
+   "ocr"
+  ],
+  [
+   355,
+   "détente“",
+   "détente”",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fb37c4b1dca7e6a0b49007f0a594ffce46b24b0a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 362,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3272,
+  "words_out": 3230,
+  "retention": 0.9872,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   97,
+   209,
+   132,
+   101,
+   91,
+   193,
+   176,
+   114,
+   112,
+   86,
+   96,
+   123,
+   106,
+   143,
+   77,
+   246,
+   80,
+   158,
+   104,
+   116,
+   101,
+   76,
+   77,
+   112,
+   93,
+   137,
+   74
+  ],
+  "warnings": []
+ }
+}

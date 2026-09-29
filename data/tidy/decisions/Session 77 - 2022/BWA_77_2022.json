@@ -1,0 +1,94 @@
+{
+ "id": "BWA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  16,
+  20,
+  23,
+  30,
+  33,
+  38,
+  42,
+  48,
+  55,
+  57,
+  59,
+  63,
+  67,
+  69,
+  75,
+  77,
+  81,
+  83,
+  88,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "cell- based",
+   "cell-based",
+   "hyphen"
+  ],
+  [
+   69,
+   "ES- 11/1",
+   "ES-11/1",
+   "hyphen"
+  ],
+  [
+   75,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff5a19e03fcde882a2287282174d32f8f8b1d864",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2849,
+  "words_out": 2844,
+  "retention": 0.9982,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   175,
+   115,
+   111,
+   101,
+   132,
+   92,
+   207,
+   116,
+   142,
+   117,
+   168,
+   154,
+   83,
+   78,
+   88,
+   122,
+   73,
+   185,
+   80,
+   127,
+   49,
+   130,
+   122,
+   77
+  ],
+  "warnings": []
+ }
+}

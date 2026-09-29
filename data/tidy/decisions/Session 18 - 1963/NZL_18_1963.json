@@ -1,0 +1,133 @@
+{
+ "id": "NZL_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  13,
+  17,
+  21,
+  29,
+  37,
+  41,
+  45,
+  51,
+  53,
+  55,
+  64,
+  67,
+  72,
+  77,
+  81,
+  87,
+  90,
+  96,
+  99,
+  102,
+  108,
+  113,
+  116,
+  125,
+  134,
+  141,
+  147,
+  155,
+  162,
+  165,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "all- embracing",
+   "all-embracing",
+   "spacing"
+  ],
+  [
+   50,
+   "New Zealenders",
+   "New Zealanders",
+   "ocr"
+  ],
+  [
+   54,
+   "dis armament",
+   "disarmament",
+   "split_word"
+  ],
+  [
+   54,
+   "situation In which",
+   "situation in which",
+   "ocr"
+  ],
+  [
+   56,
+   "of New Zealand,",
+   "of New Zealand.",
+   "ocr"
+  ],
+  [
+   136,
+   "none. .The",
+   "none. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cdfec50b856b0a1b4e4ef6a1315028fbac203cb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 36
+  },
+  "words_in": 4029,
+  "words_out": 4022,
+  "retention": 0.9983,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   70,
+   213,
+   100,
+   92,
+   98,
+   100,
+   92,
+   66,
+   142,
+   83,
+   81,
+   248,
+   75,
+   135,
+   83,
+   120,
+   131,
+   65,
+   120,
+   64,
+   103,
+   119,
+   83,
+   77,
+   204,
+   151,
+   166,
+   183,
+   165,
+   189,
+   103,
+   135,
+   166
+  ],
+  "warnings": []
+ }
+}

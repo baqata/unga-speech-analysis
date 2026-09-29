@@ -1,0 +1,50 @@
+{
+ "id": "AND_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  29,
+  52,
+  65,
+  82,
+  105,
+  126
+ ],
+ "cer": [],
+ "fix": [
+  [
+   73,
+   "comer",
+   "corner",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d598bd0402784daac2f14888d51aff99d66ca64",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1150,
+  "words_out": 1150,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   153,
+   102,
+   190,
+   112,
+   141,
+   183,
+   172,
+   97
+  ],
+  "warnings": []
+ }
+}

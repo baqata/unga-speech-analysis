@@ -1,0 +1,96 @@
+{
+ "id": "CAN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  37,
+  59,
+  78,
+  94,
+  105,
+  120,
+  130,
+  145,
+  160,
+  180,
+  199,
+  215,
+  237,
+  255,
+  269,
+  284,
+  302,
+  322
+ ],
+ "cer": [],
+ "fix": [
+  [
+   36,
+   "government,",
+   "government.",
+   "ocr"
+  ],
+  [
+   43,
+   "consensus.*",
+   "consensus.",
+   "ocr"
+  ],
+  [
+   65,
+   " (A/40/PV.47. p. 23)",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "women,",
+   "women.",
+   "ocr"
+  ],
+  [
+   132,
+   "conflict,",
+   "conflict.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e060b35270abc3c1bc97ce5b37acca2c0f16a57c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 341,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3658,
+  "words_out": 3652,
+  "retention": 0.9984,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   232,
+   202,
+   235,
+   195,
+   177,
+   100,
+   160,
+   102,
+   151,
+   150,
+   224,
+   204,
+   164,
+   240,
+   184,
+   145,
+   153,
+   198,
+   203,
+   233
+  ],
+  "warnings": []
+ }
+}

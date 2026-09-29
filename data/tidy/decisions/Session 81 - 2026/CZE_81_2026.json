@@ -1,0 +1,98 @@
+{
+ "id": "CZE_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   84,
+   85,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  19,
+  28,
+  34,
+  37,
+  44,
+  51,
+  60,
+  68,
+  77,
+  83
+ ],
+ "cer": [
+  2,
+  83
+ ],
+ "fix": [
+  [
+   37,
+   "Antonia",
+   "António",
+   "asr_name"
+  ],
+  [
+   2,
+   "I just like the video,",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "violated. and",
+   "violated. And",
+   "asr_term"
+  ],
+  [
+   20,
+   "escalate",
+   "de-escalate",
+   "slip"
+  ],
+  [
+   40,
+   "multinational",
+   "multilateral",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in English; Spanish channel confirms reduccion de las tensiones, Antonio Guterres, sistema multilateral. Gap recovery (v4) added hall chatter before the speech; 'I just like the video,' is glued to the salutation (label), the rest to the dropped presider line. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 40 repair of 'multinational' withdrawn (the speaker's English, heard at p 0.94-0.95 in three re-decodes: 'whether the multinational system can deliver'; 'sistema multilateral' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 48 'violated. and' -> 'violated. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 20 'escalate' -> 'de-escalate' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'to escalate' (decodes 0.99 / 0.99, the UN transcript; forced scoring -0.3 vs 'to de-escalate' -15.9), which contradicts 'help prevent conflicts ... and contribute to ending wars'; the Spanish 'la reducción de las tensiones' shows 'de-escalate'). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 40 said 'whether the multinational system can deliver, uphold international law' (p 0.94-0.95); the Spanish 'la capacidad del sistema multilateral' shows 'multilateral'.",
+ "unitizer_version": 1,
+ "sha1": "ed31df5030f8fdd43539807947c2f2302cb89ca2",
+ "layout": "single",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1414,
+  "words_out": 1354,
+  "retention": 0.9576,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   35,
+   103,
+   175,
+   147,
+   96,
+   73,
+   135,
+   123,
+   151,
+   121,
+   136,
+   57,
+   2
+  ],
+  "warnings": []
+ }
+}

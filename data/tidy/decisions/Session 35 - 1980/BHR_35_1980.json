@@ -1,0 +1,97 @@
+{
+ "id": "BHR_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  14,
+  18,
+  26,
+  30,
+  39,
+  44,
+  48,
+  55,
+  59,
+  62,
+  66,
+  71,
+  75,
+  79,
+  84,
+  90,
+  95,
+  99
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   45,
+   "Pales-' tine",
+   "Palestine",
+   "split_word"
+  ],
+  [
+   66,
+   "a-id",
+   "and",
+   "ocr"
+  ],
+  [
+   74,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "Slate",
+   "State",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dce85e0e5d02ca859f5a39941d3e253dceb53295",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3374,
+  "words_out": 3372,
+  "retention": 0.9994,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   176,
+   110,
+   166,
+   79,
+   178,
+   107,
+   199,
+   139,
+   125,
+   203,
+   153,
+   89,
+   144,
+   194,
+   155,
+   207,
+   219,
+   214,
+   175,
+   156,
+   184
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "id": "LBY_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  17,
+  20,
+  23,
+  29,
+  34,
+  42,
+  46,
+  51,
+  59,
+  66,
+  74,
+  79,
+  82,
+  90,
+  94,
+  99,
+  107,
+  112,
+  116,
+  124,
+  127,
+  131,
+  135,
+  139,
+  141,
+  143,
+  149,
+  152
+ ],
+ "cer": [
+  0,
+  149
+ ],
+ "fix": [
+  [
+   2,
+   "success-fully",
+   "successfully",
+   "hyphen"
+  ],
+  [
+   33,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   42,
+   "all comers",
+   "all corners",
+   "ocr"
+  ],
+  [
+   52,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "terrorism land violence",
+   "terrorism and violence",
+   "ocr"
+  ],
+  [
+   137,
+   " [item 23]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed7b6603f2f7bffc42e09fec1ea01d9058150919",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 4280,
+  "words_out": 4274,
+  "retention": 0.9986,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   193,
+   226,
+   85,
+   99,
+   126,
+   166,
+   152,
+   206,
+   109,
+   107,
+   240,
+   142,
+   186,
+   120,
+   82,
+   191,
+   196,
+   97,
+   143,
+   129,
+   100,
+   162,
+   101,
+   77,
+   103,
+   125,
+   88,
+   169,
+   144,
+   131,
+   79
+  ],
+  "warnings": []
+ }
+}

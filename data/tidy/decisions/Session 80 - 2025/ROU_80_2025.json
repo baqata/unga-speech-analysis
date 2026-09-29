@@ -1,0 +1,98 @@
+{
+ "id": "ROU_80_2025",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  20,
+  27,
+  35,
+  40,
+  49,
+  52,
+  59,
+  63,
+  68,
+  76,
+  81,
+  90,
+  99,
+  104,
+  114,
+  119,
+  121
+ ],
+ "cer": [
+  121
+ ],
+ "fix": [
+  [
+   0,
+   "I now give the floor to Her Excellency Auna Sedevia Tusoiu, ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Minister for Foreign Affairs of Romania ",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "ICG",
+   "ICJ",
+   "asr_name"
+  ],
+  [
+   43,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   115,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 began with the presiding officer's introduction, removed with label fixes.",
+ "unitizer_version": 1,
+ "sha1": "37ab427f5658ad0b8d66e0d353fd8401d08c9de0",
+ "layout": "single",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2361,
+  "words_out": 2344,
+  "retention": 0.9928,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   121,
+   193,
+   107,
+   174,
+   211,
+   90,
+   171,
+   69,
+   152,
+   77,
+   94,
+   126,
+   68,
+   137,
+   158,
+   111,
+   155,
+   92,
+   33,
+   5
+  ],
+  "warnings": []
+ }
+}

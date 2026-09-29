@@ -1,0 +1,93 @@
+{
+ "id": "TLS_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  11,
+  14,
+  18,
+  22,
+  25,
+  26,
+  30,
+  34,
+  37,
+  41,
+  45,
+  48,
+  51,
+  53,
+  59,
+  62,
+  65,
+  69,
+  73,
+  76,
+  78
+ ],
+ "cer": [
+  0,
+  3,
+  5,
+  78
+ ],
+ "fix": [
+  [
+   25,
+   "experience.Over",
+   "experience. Over",
+   "spacing"
+  ],
+  [
+   77,
+   "buildingof",
+   "building of",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "820e9c99d8b58ab7c23d925cf1178aa670cbd9dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2303,
+  "words_out": 2305,
+  "retention": 1.0009,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   90,
+   68,
+   115,
+   83,
+   109,
+   84,
+   152,
+   72,
+   97,
+   109,
+   94,
+   114,
+   73,
+   100,
+   117,
+   65,
+   60,
+   132,
+   70,
+   100,
+   79,
+   130,
+   91,
+   62,
+   39
+  ],
+  "warnings": []
+ }
+}

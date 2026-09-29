@@ -1,0 +1,127 @@
+{
+ "id": "NER_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  16,
+  18,
+  22,
+  27,
+  30,
+  33,
+  35,
+  37,
+  41,
+  45,
+  49,
+  50,
+  52,
+  54
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "Assembly, The unanimous",
+   "Assembly. The unanimous",
+   "ocr"
+  ],
+  [
+   0,
+   "\"rushed",
+   "crushed",
+   "ocr"
+  ],
+  [
+   2,
+   "peoples,",
+   "peoples.",
+   "ocr"
+  ],
+  [
+   10,
+   "problems, That",
+   "problems. That",
+   "ocr"
+  ],
+  [
+   15,
+   "solution. -",
+   "solution.",
+   "ocr"
+  ],
+  [
+   20,
+   "'a\" real",
+   "a real",
+   "ocr"
+  ],
+  [
+   25,
+   "is , inked",
+   "is linked",
+   "ocr"
+  ],
+  [
+   43,
+   "trade, In this",
+   "trade. In this",
+   "ocr"
+  ],
+  [
+   48,
+   "disease,",
+   "disease.",
+   "ocr"
+  ],
+  [
+   49,
+   " [resolution 2626 {XXV}]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d79cf33f4265c55b8a1fcad12631914b93ac79d3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2051,
+  "words_out": 2046,
+  "retention": 0.9976,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   154,
+   169,
+   134,
+   161,
+   80,
+   134,
+   178,
+   80,
+   91,
+   103,
+   114,
+   102,
+   144,
+   124,
+   61,
+   68,
+   79,
+   70
+  ],
+  "warnings": []
+ }
+}

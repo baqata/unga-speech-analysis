@@ -1,0 +1,129 @@
+{
+ "id": "DNK_29_1974",
+ "drop": [
+  [
+   3,
+   3,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  18,
+  21,
+  25,
+  31,
+  35,
+  39,
+  42,
+  45,
+  49,
+  51,
+  56,
+  59,
+  64,
+  68,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   " [A/9601 and Add.I]",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "circumstances, Only",
+   "circumstances. Only",
+   "ocr"
+  ],
+  [
+   23,
+   "hew economic",
+   "new economic",
+   "ocr"
+  ],
+  [
+   23,
+   "*We",
+   "We",
+   "ocr"
+  ],
+  [
+   29,
+   "certainty",
+   "certainly",
+   "ocr"
+  ],
+  [
+   47,
+   "cf the",
+   "of the",
+   "ocr"
+  ],
+  [
+   65,
+   "the' mandate",
+   "the mandate",
+   "ocr"
+  ],
+  [
+   71,
+   "ether parts",
+   "other parts",
+   "ocr"
+  ],
+  [
+   75,
+   "'evolving",
+   "evolving",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "23ff930a7752493170511dfc84b99935e563a23a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 29
+  },
+  "words_in": 2337,
+  "words_out": 2329,
+  "retention": 0.9966,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   102,
+   131,
+   140,
+   103,
+   168,
+   148,
+   70,
+   114,
+   98,
+   149,
+   125,
+   77,
+   132,
+   126,
+   152,
+   165,
+   162,
+   167
+  ],
+  "warnings": []
+ }
+}

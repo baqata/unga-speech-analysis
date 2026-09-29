@@ -1,0 +1,118 @@
+{
+ "id": "STP_36_1981",
+ "drop": [
+  [
+   16,
+   16,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  17,
+  23,
+  26,
+  27
+ ],
+ "cer": [
+  26
+ ],
+ "fix": [
+  [
+   4,
+   "the. problems",
+   "the problems",
+   "ocr"
+  ],
+  [
+   5,
+   "has. been",
+   "has been",
+   "ocr"
+  ],
+  [
+   6,
+   "privileges, and immunities",
+   "privileges and immunities",
+   "ocr"
+  ],
+  [
+   12,
+   "Tamul",
+   "Tamuz",
+   "ocr"
+  ],
+  [
+   15,
+   "Is the",
+   "is the",
+   "ocr"
+  ],
+  [
+   21,
+   "credence, can",
+   "credence can",
+   "ocr"
+  ],
+  [
+   22,
+   "the. one",
+   "the one",
+   "ocr"
+  ],
+  [
+   25,
+   "justice end progress",
+   "justice and progress",
+   "ocr"
+  ],
+  [
+   27,
+   "to-guarantee",
+   "to guarantee",
+   "ocr"
+  ],
+  [
+   28,
+   "taken , possession",
+   "taken possession",
+   "ocr"
+  ],
+  [
+   31,
+   "take up, the challenge.:",
+   "take up the challenge.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5d3b6888dc2ed81cf763a243100968d8b4b09d46",
+ "layout": "lines",
+ "stats": {
+  "n_units": 32,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 776,
+  "words_out": 775,
+  "retention": 0.9987,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   112,
+   87,
+   138,
+   143,
+   130,
+   18,
+   147
+  ],
+  "warnings": []
+ }
+}

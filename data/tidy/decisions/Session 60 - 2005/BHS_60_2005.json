@@ -1,0 +1,75 @@
+{
+ "id": "BHS_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  25,
+  36,
+  49,
+  69,
+  94,
+  118,
+  135,
+  161,
+  178,
+  194,
+  216,
+  240,
+  261,
+  286
+ ],
+ "cer": [
+  0,
+  25
+ ],
+ "fix": [
+  [
+   36,
+   "Pattersonís",
+   "Patterson’s",
+   "encoding"
+  ],
+  [
+   284,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a2c924d02d7874a3c4f5b5aa53961942d921a8e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 308,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2567,
+  "words_out": 2566,
+  "retention": 0.9996,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   124,
+   83,
+   91,
+   104,
+   166,
+   230,
+   194,
+   145,
+   217,
+   138,
+   127,
+   180,
+   193,
+   179,
+   197,
+   198
+  ],
+  "warnings": []
+ }
+}

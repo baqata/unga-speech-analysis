@@ -1,0 +1,59 @@
+{
+ "id": "HND_47_1992",
+ "drop": [
+  [
+   78,
+   78,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  31,
+  49,
+  68,
+  76,
+  94,
+  115,
+  127,
+  144,
+  164
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6fd5767d46194b970a11899eda16c0222240eb05",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1909,
+  "words_out": 1900,
+  "retention": 0.9953,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   108,
+   223,
+   201,
+   219,
+   91,
+   181,
+   224,
+   129,
+   175,
+   220,
+   129
+  ],
+  "warnings": [
+   "presider drop [78,78] in the middle of the speech"
+  ]
+ }
+}

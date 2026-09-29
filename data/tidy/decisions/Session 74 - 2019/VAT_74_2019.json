@@ -1,0 +1,66 @@
+{
+ "id": "VAT_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  10,
+  18,
+  23,
+  27,
+  31,
+  36,
+  43,
+  46,
+  50,
+  53,
+  58
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   " (A/70/PV3, p. 4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af15e4b1a53681fbbc242f2aaa08bf3645e20d95",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1781,
+  "words_out": 1777,
+  "retention": 0.9978,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   31,
+   126,
+   97,
+   112,
+   143,
+   155,
+   82,
+   137,
+   182,
+   168,
+   110,
+   124,
+   76,
+   136,
+   98
+  ],
+  "warnings": []
+ }
+}

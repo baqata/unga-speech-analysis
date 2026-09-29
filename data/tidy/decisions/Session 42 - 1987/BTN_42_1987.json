@@ -1,0 +1,72 @@
+{
+ "id": "BTN_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  22,
+  26,
+  31,
+  37
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "sovereign. His",
+   "sovereign, His",
+   "ocr"
+  ],
+  [
+   1,
+   "you/",
+   "you,",
+   "ocr"
+  ],
+  [
+   4,
+   "Huraayun",
+   "Humayun",
+   "ocr"
+  ],
+  [
+   9,
+   "principle/",
+   "principle,",
+   "ocr"
+  ],
+  [
+   31,
+   "ate small",
+   "are small",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a8475f752c2c110aa36ac487e28c0915f592bd26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1058,
+  "words_out": 1052,
+  "retention": 0.9943,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   154,
+   162,
+   152,
+   156,
+   137,
+   138,
+   153
+  ],
+  "warnings": []
+ }
+}

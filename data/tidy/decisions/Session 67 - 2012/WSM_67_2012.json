@@ -1,0 +1,72 @@
+{
+ "id": "WSM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  31,
+  45,
+  63,
+  74,
+  87,
+  103,
+  115,
+  126,
+  135,
+  149,
+  164,
+  180,
+  193,
+  206,
+  215,
+  226,
+  245,
+  257
+ ],
+ "cer": [],
+ "fix": [
+  [
+   24,
+   "(resolution 66/288, annex)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b4179da5921c57a95412c7b7bb7c76d387d29fbb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2144,
+  "words_out": 2140,
+  "retention": 0.9981,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   187,
+   67,
+   103,
+   149,
+   104,
+   100,
+   135,
+   99,
+   92,
+   69,
+   116,
+   122,
+   126,
+   89,
+   104,
+   76,
+   83,
+   155,
+   109,
+   55
+  ],
+  "warnings": []
+ }
+}

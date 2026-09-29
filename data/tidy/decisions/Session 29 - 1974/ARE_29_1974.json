@@ -1,0 +1,95 @@
+{
+ "id": "ARE_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  10,
+  13,
+  16,
+  20,
+  24,
+  25,
+  26,
+  31,
+  33,
+  35,
+  38,
+  40,
+  46,
+  48,
+  53,
+  58,
+  66,
+  72,
+  74,
+  78,
+  85
+ ],
+ "cer": [
+  0,
+  2,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   43,
+   "th^",
+   "the",
+   "ocr"
+  ],
+  [
+   57,
+   "of he countries",
+   "of the countries",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7303e4f2b6f223ea1dfa90e379f202e0a9c7f453",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2555,
+  "words_out": 2554,
+  "retention": 0.9996,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   69,
+   97,
+   48,
+   62,
+   99,
+   97,
+   104,
+   104,
+   102,
+   62,
+   83,
+   61,
+   65,
+   89,
+   72,
+   173,
+   55,
+   132,
+   119,
+   206,
+   169,
+   72,
+   116,
+   155,
+   143
+  ],
+  "warnings": []
+ }
+}

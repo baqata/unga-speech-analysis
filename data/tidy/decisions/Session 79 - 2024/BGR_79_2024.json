@@ -1,0 +1,55 @@
+{
+ "id": "BGR_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  15,
+  21,
+  29,
+  33,
+  39,
+  42,
+  47,
+  52,
+  53,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4dca644c8dd828c9554675f36dd49bbb832dfe1d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1474,
+  "words_out": 1470,
+  "retention": 0.9973,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   64,
+   101,
+   110,
+   102,
+   127,
+   177,
+   102,
+   127,
+   70,
+   183,
+   153,
+   37,
+   79,
+   38
+  ],
+  "warnings": []
+ }
+}

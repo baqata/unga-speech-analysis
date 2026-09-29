@@ -1,0 +1,141 @@
+{
+ "id": "DJI_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  24,
+  32,
+  47,
+  53,
+  60,
+  68,
+  81,
+  86,
+  100,
+  107,
+  123,
+  137,
+  147,
+  153,
+  161,
+  176,
+  183,
+  193,
+  202,
+  210,
+  220,
+  234,
+  244,
+  249,
+  258,
+  267,
+  274,
+  282,
+  289,
+  300
+ ],
+ "cer": [
+  0,
+  300
+ ],
+ "fix": [
+  [
+   56,
+   "land-mark",
+   "landmark",
+   "hyphen"
+  ],
+  [
+   127,
+   "goall",
+   "goal",
+   "ocr"
+  ],
+  [
+   151,
+   "hoper",
+   "hope",
+   "ocr"
+  ],
+  [
+   182,
+   "peacefully. '",
+   "peacefully.",
+   "ocr"
+  ],
+  [
+   193,
+   "baniustanization",
+   "bantustanization",
+   "ocr"
+  ],
+  [
+   232,
+   "concerted^",
+   "concerted,",
+   "ocr"
+  ],
+  [
+   246,
+   "un ty",
+   "unity",
+   "split_word"
+  ],
+  [
+   273,
+   "Kampuchea. '",
+   "Kampuchea.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "05c950edcb37f1b1a7066a7ec73ee765bfaf801b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 306,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3019,
+  "words_out": 2968,
+  "retention": 0.9831,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   155,
+   90,
+   81,
+   148,
+   58,
+   77,
+   88,
+   124,
+   52,
+   128,
+   68,
+   149,
+   131,
+   104,
+   61,
+   77,
+   151,
+   72,
+   91,
+   89,
+   65,
+   91,
+   132,
+   87,
+   48,
+   93,
+   87,
+   63,
+   79,
+   71,
+   106,
+   52
+  ],
+  "warnings": []
+ }
+}

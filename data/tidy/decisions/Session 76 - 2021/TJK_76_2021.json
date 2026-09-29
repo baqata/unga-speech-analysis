@@ -1,0 +1,78 @@
+{
+ "id": "TJK_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  7,
+  11,
+  18,
+  24,
+  31,
+  37,
+  45,
+  51,
+  58,
+  65,
+  71,
+  80,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   73,
+   "square kilo metres",
+   "square kilometres",
+   "split_word"
+  ],
+  [
+   73,
+   "cubic kilo metres",
+   "cubic kilometres",
+   "split_word"
+  ],
+  [
+   88,
+   "High- Level",
+   "High-Level",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85a85df22924fc81738ae503f1467e1f4caa7322",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2289,
+  "words_out": 2286,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   8,
+   30,
+   114,
+   82,
+   161,
+   170,
+   179,
+   173,
+   177,
+   184,
+   169,
+   188,
+   141,
+   235,
+   128,
+   147
+  ],
+  "warnings": []
+ }
+}

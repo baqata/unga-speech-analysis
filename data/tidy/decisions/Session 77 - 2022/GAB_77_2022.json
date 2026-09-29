@@ -1,0 +1,64 @@
+{
+ "id": "GAB_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  19,
+  25,
+  30,
+  36,
+  42,
+  45,
+  49,
+  54,
+  58,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "high- forest",
+   "high-forest",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8fd94a320aee880c2fbc3190ac5f328dabaaddbf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1356,
+  "words_out": 1355,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   51,
+   76,
+   64,
+   66,
+   114,
+   156,
+   108,
+   151,
+   123,
+   64,
+   78,
+   91,
+   49,
+   101,
+   63
+  ],
+  "warnings": []
+ }
+}

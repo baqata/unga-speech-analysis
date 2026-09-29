@@ -1,0 +1,55 @@
+{
+ "id": "CYP_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  32,
+  59,
+  77,
+  99,
+  122,
+  133,
+  164,
+  194,
+  215,
+  234
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9ab3c1a12350173a18f91385f9d92a28945e909",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1867,
+  "words_out": 1866,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   35,
+   106,
+   103,
+   201,
+   143,
+   174,
+   186,
+   85,
+   240,
+   242,
+   153,
+   138,
+   60
+  ],
+  "warnings": []
+ }
+}

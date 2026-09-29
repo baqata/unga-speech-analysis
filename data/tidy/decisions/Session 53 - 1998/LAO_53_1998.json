@@ -1,0 +1,88 @@
+{
+ "id": "LAO_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  15,
+  34,
+  50,
+  62,
+  78,
+  87,
+  99,
+  111,
+  119,
+  131,
+  140,
+  154,
+  163,
+  173
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   82,
+   "Peopleâs",
+   "People’s",
+   "encoding"
+  ],
+  [
+   103,
+   "Peopleâs",
+   "People’s",
+   "encoding"
+  ],
+  [
+   111,
+   "Peopleâs",
+   "People’s",
+   "encoding"
+  ],
+  [
+   142,
+   "Peopleâs",
+   "People’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ce91c286377a830e2f1ee1994ad52fed2b62a48",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 188,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 2,
+   "page_number": 2
+  },
+  "words_in": 1554,
+  "words_out": 1550,
+  "retention": 0.9974,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   70,
+   65,
+   169,
+   123,
+   99,
+   137,
+   74,
+   91,
+   100,
+   59,
+   91,
+   72,
+   115,
+   73,
+   76,
+   136
+  ],
+  "warnings": []
+ }
+}

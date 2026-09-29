@@ -1,0 +1,59 @@
+{
+ "id": "ECU_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  36,
+  60,
+  75,
+  91,
+  110,
+  127,
+  149,
+  164,
+  186,
+  211,
+  227,
+  240,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "333c913545eb30ec347f8c501733c1f0757febdd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2159,
+  "words_out": 2157,
+  "retention": 0.9991,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   90,
+   185,
+   206,
+   119,
+   129,
+   167,
+   149,
+   173,
+   114,
+   169,
+   211,
+   132,
+   113,
+   100,
+   100
+  ],
+  "warnings": []
+ }
+}

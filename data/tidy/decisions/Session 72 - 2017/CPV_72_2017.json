@@ -1,0 +1,76 @@
+{
+ "id": "CPV_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  16,
+  20,
+  26,
+  31,
+  34,
+  36,
+  38,
+  42,
+  45,
+  52,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   17,
+   "combat ing",
+   "combating",
+   "split_word"
+  ],
+  [
+   56,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38edc76c09c0092113c21d1d188352d03e21a188",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1758,
+  "words_out": 1755,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   159,
+   192,
+   86,
+   155,
+   89,
+   204,
+   114,
+   98,
+   67,
+   78,
+   115,
+   109,
+   152,
+   96,
+   41
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "PRT_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  14,
+  18,
+  21,
+  23,
+  27
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5447c51c509631887d912ae312d1fa04aecd58c1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 35,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 887,
+  "words_out": 885,
+  "retention": 0.9977,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   81,
+   81,
+   138,
+   59,
+   105,
+   96,
+   72,
+   107,
+   146
+  ],
+  "warnings": []
+ }
+}

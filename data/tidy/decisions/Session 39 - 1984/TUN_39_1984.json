@@ -1,0 +1,121 @@
+{
+ "id": "TUN_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  16,
+  20,
+  22,
+  27,
+  31,
+  35,
+  37,
+  44,
+  48,
+  53,
+  56,
+  60,
+  65,
+  67,
+  70,
+  76,
+  82,
+  84,
+  87,
+  92
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "out-standing",
+   "outstanding",
+   "hyphen"
+  ],
+  [
+   11,
+   "East- West",
+   "East-West",
+   "hyphen"
+  ],
+  [
+   29,
+   "States-—this",
+   "States—this",
+   "ocr"
+  ],
+  [
+   69,
+   "debt- servicing",
+   "debt-servicing",
+   "hyphen"
+  ],
+  [
+   71,
+   "third- world",
+   "third-world",
+   "hyphen"
+  ],
+  [
+   75,
+   "clear— but",
+   "clear—but",
+   "spacing"
+  ],
+  [
+   85,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0efc8e99712038423b7aedc08f8219f43229078",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3127,
+  "words_out": 3122,
+  "retention": 0.9984,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   111,
+   156,
+   106,
+   111,
+   137,
+   80,
+   134,
+   223,
+   113,
+   111,
+   200,
+   153,
+   150,
+   116,
+   106,
+   176,
+   98,
+   120,
+   139,
+   211,
+   63,
+   118,
+   123,
+   67
+  ],
+  "warnings": []
+ }
+}

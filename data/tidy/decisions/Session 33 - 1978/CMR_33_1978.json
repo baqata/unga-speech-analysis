@@ -1,0 +1,163 @@
+{
+ "id": "CMR_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  10,
+  14,
+  16,
+  19,
+  20,
+  23,
+  26,
+  30,
+  38,
+  41,
+  45,
+  49,
+  53,
+  55,
+  61,
+  66,
+  71,
+  74,
+  77,
+  81,
+  83,
+  87,
+  91,
+  93,
+  98,
+  99
+ ],
+ "cer": [
+  2,
+  53,
+  74
+ ],
+ "fix": [
+  [
+   5,
+   "Mr, Lazar",
+   "Mr. Lazar",
+   "ocr"
+  ],
+  [
+   25,
+   "at die beginning",
+   "at the beginning",
+   "ocr"
+  ],
+  [
+   27,
+   "ubiquitous usi1",
+   "ubiquitous use",
+   "ocr"
+  ],
+  [
+   28,
+   "excuse 9 new",
+   "excuse a new",
+   "ocr"
+  ],
+  [
+   30,
+   "the Bon's share of fee common",
+   "the lion's share of the common",
+   "ocr"
+  ],
+  [
+   31,
+   "economic acme",
+   "economic zone",
+   "ocr"
+  ],
+  [
+   38,
+   "United Notions",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   58,
+   "in dispensable",
+   "indispensable",
+   "split_word"
+  ],
+  [
+   64,
+   "they We unanimously",
+   "they have unanimously",
+   "ocr"
+  ],
+  [
+   64,
+   "by a'/l States",
+   "by all States",
+   "ocr"
+  ],
+  [
+   64,
+   "regimes & Pretoria",
+   "regimes of Pretoria",
+   "ocr"
+  ],
+  [
+   81,
+   "settlement fn Namibia",
+   "settlement in Namibia",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 79 repeats a clause in the source; left as printed.",
+ "unitizer_version": 1,
+ "sha1": "4c089c7b1ff9c62541ca9611600f8294e461e4f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 53
+  },
+  "words_in": 4000,
+  "words_out": 3996,
+  "retention": 0.999,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   144,
+   215,
+   143,
+   170,
+   86,
+   88,
+   85,
+   143,
+   79,
+   150,
+   236,
+   154,
+   189,
+   133,
+   62,
+   107,
+   190,
+   160,
+   179,
+   151,
+   133,
+   187,
+   51,
+   117,
+   136,
+   68,
+   160,
+   108,
+   172
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "id": "FRA_26_1971",
+ "drop": [
+  [
+   6,
+   7,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  13,
+  16,
+  22,
+  25,
+  28,
+  33,
+  37,
+  40,
+  44,
+  48,
+  53,
+  57,
+  61,
+  69,
+  72,
+  78,
+  80,
+  86,
+  93,
+  96,
+  102,
+  104,
+  106,
+  109,
+  111,
+  114,
+  121,
+  128,
+  134,
+  141,
+  148,
+  158,
+  161,
+  166,
+  170,
+  174,
+  177,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "welcome- even",
+   "welcome even",
+   "ocr"
+  ],
+  [
+   3,
+   "the . twenty-fifth",
+   "the twenty-fifth",
+   "ocr"
+  ],
+  [
+   13,
+   "belleve-as",
+   "believe-as",
+   "ocr"
+  ],
+  [
+   27,
+   ".on the",
+   "on the",
+   "ocr"
+  ],
+  [
+   28,
+   "moire",
+   "more",
+   "ocr"
+  ],
+  [
+   28,
+   "make. an",
+   "make an",
+   "ocr"
+  ],
+  [
+   57,
+   "' Western",
+   "Western",
+   "ocr"
+  ],
+  [
+   66,
+   "thai the",
+   "that the",
+   "ocr"
+  ],
+  [
+   104,
+   "any , relation",
+   "any relation",
+   "ocr"
+  ],
+  [
+   107,
+   "Berlin,' which",
+   "Berlin, which",
+   "ocr"
+  ],
+  [
+   108,
+   "Which convey",
+   "which convey",
+   "ocr"
+  ],
+  [
+   110,
+   "whole.France",
+   "whole. France",
+   "spacing"
+  ],
+  [
+   110,
+   "to -come",
+   "to come",
+   "ocr"
+  ],
+  [
+   115,
+   "Unites States",
+   "United States",
+   "ocr"
+  ],
+  [
+   122,
+   "'which",
+   "which",
+   "ocr"
+  ],
+  [
+   142,
+   ".the object",
+   "the object",
+   "ocr"
+  ],
+  [
+   150,
+   "time- limit",
+   "time-limit",
+   "hyphen"
+  ],
+  [
+   170,
+   "security, -can. neither",
+   "security, can neither",
+   "ocr"
+  ],
+  [
+   171,
+   "InterParliamentary",
+   "Inter-Parliamentary",
+   "merged_word"
+  ],
+  [
+   171,
+   "of.man's",
+   "of man's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ada448f48ce967622234242d5073dcbbd8020882",
+ "layout": "lines",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 48
+  },
+  "words_in": 4839,
+  "words_out": 4779,
+  "retention": 0.9876,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   162,
+   109,
+   98,
+   94,
+   92,
+   98,
+   83,
+   74,
+   102,
+   141,
+   114,
+   106,
+   125,
+   109,
+   126,
+   167,
+   128,
+   70,
+   112,
+   185,
+   116,
+   109,
+   73,
+   68,
+   113,
+   138,
+   175,
+   194,
+   173,
+   125,
+   92,
+   170,
+   187,
+   118,
+   116,
+   101,
+   90,
+   114,
+   101,
+   111
+  ],
+  "warnings": []
+ }
+}

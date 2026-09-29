@@ -1,0 +1,158 @@
+{
+ "id": "GRC_16_1961",
+ "drop": [
+  [
+   71,
+   71,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  19,
+  22,
+  28,
+  35,
+  41,
+  45,
+  50,
+  54,
+  58,
+  64
+ ],
+ "cer": [
+  0,
+  64
+ ],
+ "fix": [
+  [
+   0,
+   "Mr; President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   1,
+   "met,",
+   "met.",
+   "ocr"
+  ],
+  [
+   8,
+   " [1016th meeting, paragraph 46]",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "\" .. .the",
+   "\"...the",
+   "ocr"
+  ],
+  [
+   16,
+   "leas';",
+   "least",
+   "ocr"
+  ],
+  [
+   21,
+   "good, faith",
+   "good faith",
+   "ocr"
+  ],
+  [
+   25,
+   "depends* Let",
+   "depends. Let",
+   "ocr"
+  ],
+  [
+   29,
+   "However ,",
+   "However,",
+   "ocr"
+  ],
+  [
+   30,
+   "matter Of",
+   "matter of",
+   "ocr"
+  ],
+  [
+   30,
+   "Chafer",
+   "Charter",
+   "ocr"
+  ],
+  [
+   35,
+   "6r",
+   "or",
+   "ocr"
+  ],
+  [
+   41,
+   "problem of, disarmament",
+   "problem of disarmament",
+   "ocr"
+  ],
+  [
+   61,
+   "tb/^i'3solution",
+   "the resolution",
+   "ocr"
+  ],
+  [
+   64,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   65,
+   "his|",
+   "his",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "485825b667c86f841ed7f97f20826594c67a1e27",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 32
+  },
+  "words_in": 2290,
+  "words_out": 2280,
+  "retention": 0.9956,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   74,
+   149,
+   124,
+   196,
+   101,
+   224,
+   200,
+   209,
+   149,
+   189,
+   129,
+   104,
+   199,
+   233
+  ],
+  "warnings": []
+ }
+}

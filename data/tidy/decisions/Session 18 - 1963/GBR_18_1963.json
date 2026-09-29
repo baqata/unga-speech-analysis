@@ -1,0 +1,197 @@
+{
+ "id": "GBR_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  8,
+  12,
+  16,
+  21,
+  26,
+  31,
+  33,
+  38,
+  40,
+  45,
+  50,
+  55,
+  58,
+  62,
+  65,
+  68,
+  73,
+  75,
+  79,
+  84,
+  88,
+  93,
+  98,
+  108,
+  111,
+  119,
+  128,
+  135,
+  137,
+  141,
+  148,
+  159,
+  166,
+  168,
+  173,
+  176,
+  180,
+  185
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "anew chapter",
+   "a new chapter",
+   "merged_word"
+  ],
+  [
+   11,
+   "has be held",
+   "has he held",
+   "ocr"
+  ],
+  [
+   16,
+   ", The",
+   ". The",
+   "ocr"
+  ],
+  [
+   31,
+   ", The",
+   ". The",
+   "ocr"
+  ],
+  [
+   33,
+   "60.",
+   "",
+   "label"
+  ],
+  [
+   36,
+   ", For",
+   ". For",
+   "ocr"
+  ],
+  [
+   40,
+   "if It is",
+   "if it is",
+   "ocr"
+  ],
+  [
+   83,
+   "precision,",
+   "precision.",
+   "ocr"
+  ],
+  [
+   150,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   162,
+   ", I shall",
+   ". I shall",
+   "ocr"
+  ],
+  [
+   165,
+   ", Such",
+   ". Such",
+   "ocr"
+  ],
+  [
+   167,
+   ", And",
+   ". And",
+   "ocr"
+  ],
+  [
+   185,
+   "1963 Is",
+   "1963 is",
+   "ocr"
+  ],
+  [
+   187,
+   "only If",
+   "only if",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d2569b19d5e2de8f1d606b8f559f281c2d1949b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 188,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 48
+  },
+  "words_in": 5394,
+  "words_out": 5393,
+  "retention": 0.9998,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   87,
+   85,
+   86,
+   130,
+   183,
+   148,
+   93,
+   154,
+   113,
+   194,
+   86,
+   183,
+   162,
+   120,
+   130,
+   103,
+   130,
+   91,
+   124,
+   104,
+   111,
+   122,
+   147,
+   157,
+   119,
+   198,
+   163,
+   182,
+   204,
+   153,
+   61,
+   115,
+   159,
+   193,
+   199,
+   66,
+   123,
+   114,
+   83,
+   123,
+   95
+  ],
+  "warnings": []
+ }
+}

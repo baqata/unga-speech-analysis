@@ -1,0 +1,123 @@
+{
+ "id": "SDN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  19,
+  23,
+  27,
+  33,
+  37,
+  39,
+  46,
+  48,
+  54,
+  58,
+  62,
+  66,
+  70,
+  74,
+  79,
+  81,
+  85,
+  89,
+  92,
+  99,
+  104,
+  110,
+  116,
+  120,
+  127,
+  132,
+  134
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   54,
+   "Qods— Jerusalem",
+   "Qods—Jerusalem",
+   "spacing"
+  ],
+  [
+   66,
+   "threat, to the peace",
+   "threat to the peace",
+   "ocr"
+  ],
+  [
+   71,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   79,
+   "com-munity",
+   "community",
+   "hyphen"
+  ],
+  [
+   83,
+   "basic- rights",
+   "basic rights",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1c9d3a6438301ebfe214710cee885274ea2b25f4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 4406,
+  "words_out": 4404,
+  "retention": 0.9995,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   158,
+   53,
+   196,
+   168,
+   107,
+   131,
+   147,
+   144,
+   57,
+   165,
+   50,
+   190,
+   167,
+   119,
+   177,
+   121,
+   132,
+   194,
+   87,
+   190,
+   102,
+   72,
+   216,
+   179,
+   186,
+   185,
+   115,
+   171,
+   192,
+   81,
+   152
+  ],
+  "warnings": []
+ }
+}

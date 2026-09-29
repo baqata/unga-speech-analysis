@@ -1,0 +1,179 @@
+{
+ "id": "CRI_33_1978",
+ "drop": [
+  [
+   1,
+   1,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  14,
+  18,
+  21,
+  28,
+  35,
+  39,
+  42,
+  47,
+  50,
+  54,
+  57,
+  62,
+  63,
+  66,
+  67,
+  71,
+  73,
+  75,
+  83,
+  85,
+  91,
+  95,
+  102,
+  107,
+  110,
+  115,
+  121,
+  126,
+  129,
+  133,
+  136
+ ],
+ "cer": [
+  0,
+  136
+ ],
+ "fix": [
+  [
+   4,
+   "thirtieth. anniversary",
+   "thirtieth anniversary",
+   "ocr"
+  ],
+  [
+   19,
+   " /item 86}",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "forum 1 convey",
+   "forum I convey",
+   "ocr"
+  ],
+  [
+   39,
+   "undertake.,",
+   "undertake,",
+   "ocr"
+  ],
+  [
+   72,
+   "zone,",
+   "zone.",
+   "ocr"
+  ],
+  [
+   73,
+   "to die worthy",
+   "to the worthy",
+   "ocr"
+  ],
+  [
+   73,
+   "areas Of the",
+   "areas of the",
+   "ocr"
+  ],
+  [
+   84,
+   "to alt peoples",
+   "to all peoples",
+   "ocr"
+  ],
+  [
+   84,
+   "among alt men",
+   "among all men",
+   "ocr"
+  ],
+  [
+   106,
+   "deeds,",
+   "deeds.",
+   "ocr"
+  ],
+  [
+   107,
+   "114- ",
+   "",
+   "label"
+  ],
+  [
+   112,
+   "peace, What",
+   "peace. What",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Footnote line inserted mid-sentence at unit 1 dropped.",
+ "unitizer_version": 1,
+ "sha1": "e848c037a1fc8e1ff792bb4ab466e4df019d70aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 50
+  },
+  "words_in": 4576,
+  "words_out": 4555,
+  "retention": 0.9954,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   169,
+   174,
+   267,
+   118,
+   158,
+   140,
+   199,
+   135,
+   116,
+   200,
+   153,
+   110,
+   78,
+   193,
+   77,
+   268,
+   63,
+   93,
+   88,
+   140,
+   165,
+   136,
+   131,
+   93,
+   126,
+   132,
+   102,
+   112,
+   88,
+   93,
+   144,
+   102,
+   115,
+   77
+  ],
+  "warnings": []
+ }
+}

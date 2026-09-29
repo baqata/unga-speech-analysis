@@ -1,0 +1,60 @@
+{
+ "id": "BHS_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  35,
+  52,
+  73,
+  95,
+  126,
+  148,
+  171,
+  197,
+  220,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   102,
+   "twentysecond",
+   "twenty-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7326af2f42adbfdc9a7ca0b56c3d42ac4ee4b3e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1921,
+  "words_out": 1921,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   150,
+   100,
+   121,
+   153,
+   167,
+   241,
+   169,
+   175,
+   182,
+   194,
+   132,
+   137
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "CMR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  13,
+  16,
+  19,
+  22,
+  29,
+  32,
+  36,
+  40,
+  43,
+  46,
+  51,
+  54,
+  58,
+  63,
+  65,
+  68,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   "asylum- seekers",
+   "asylum-seekers",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e2d0a534db01bb8ec45db12e66847af0abab941",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2213,
+  "words_out": 2211,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   162,
+   74,
+   111,
+   108,
+   64,
+   100,
+   77,
+   177,
+   103,
+   131,
+   90,
+   63,
+   89,
+   148,
+   110,
+   96,
+   152,
+   84,
+   115,
+   99,
+   58
+  ],
+  "warnings": []
+ }
+}

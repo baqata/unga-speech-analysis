@@ -1,0 +1,61 @@
+{
+ "id": "WSM_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  30,
+  50,
+  59,
+  78,
+  88,
+  97,
+  116,
+  133,
+  143,
+  160,
+  172,
+  180,
+  195,
+  207
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aeb87458d111a41b416d5a7615692856b35b6c74",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1720,
+  "words_out": 1716,
+  "retention": 0.9977,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   71,
+   76,
+   80,
+   156,
+   72,
+   149,
+   71,
+   67,
+   142,
+   131,
+   69,
+   137,
+   96,
+   63,
+   120,
+   91,
+   125
+  ],
+  "warnings": []
+ }
+}

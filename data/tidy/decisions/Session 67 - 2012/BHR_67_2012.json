@@ -1,0 +1,98 @@
+{
+ "id": "BHR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  38,
+  50,
+  61,
+  74,
+  83,
+  99,
+  115,
+  133,
+  145,
+  162,
+  179,
+  190,
+  207,
+  227,
+  244,
+  257,
+  273,
+  283,
+  297,
+  305,
+  315
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   164,
+   "unf linching",
+   "unflinching",
+   "split_word"
+  ],
+  [
+   255,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ],
+  [
+   183,
+   "(NPT/CONF.2010/50 (Vol. I))",
+   "",
+   "label"
+  ],
+  [
+   272,
+   "(The Holy Koran, XLIX:13)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "249860b7d547c95bbb962ba2c8789dc361ac65af",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 325,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2641,
+  "words_out": 2630,
+  "retention": 0.9958,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   196,
+   116,
+   96,
+   84,
+   112,
+   72,
+   140,
+   132,
+   134,
+   102,
+   134,
+   137,
+   91,
+   129,
+   161,
+   142,
+   98,
+   124,
+   83,
+   115,
+   65,
+   79,
+   88
+  ],
+  "warnings": []
+ }
+}

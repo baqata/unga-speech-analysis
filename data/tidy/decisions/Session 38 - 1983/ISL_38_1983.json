@@ -1,0 +1,105 @@
+{
+ "id": "ISL_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  16,
+  26,
+  31,
+  34,
+  40,
+  47,
+  54,
+  60,
+  66,
+  72,
+  76,
+  82
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   24,
+   "year— which",
+   "year—which",
+   "spacing"
+  ],
+  [
+   32,
+   "States— fortunately",
+   "States—fortunately",
+   "spacing"
+  ],
+  [
+   32,
+   "up the \"policy",
+   "up the policy",
+   "ocr"
+  ],
+  [
+   35,
+   "Final Act 7 and",
+   "Final Act and",
+   "ocr"
+  ],
+  [
+   41,
+   "1 asked",
+   "I asked",
+   "ocr"
+  ],
+  [
+   46,
+   "Democracy '.s",
+   "Democracy is",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "The zoo director's answer after unit 41 is missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "2c2b01b86e7e175478778b7af04a3b91d194cd8e",
+ "layout": "single",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1953,
+  "words_out": 1949,
+  "retention": 0.998,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   107,
+   99,
+   91,
+   184,
+   167,
+   128,
+   85,
+   154,
+   124,
+   143,
+   85,
+   165,
+   141,
+   92,
+   167,
+   17
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "ISL_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  16,
+  19,
+  21,
+  26,
+  29,
+  33,
+  36,
+  40,
+  45,
+  51,
+  59,
+  64,
+  69,
+  78,
+  83,
+  87,
+  94
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "world —tragedies",
+   "world — tragedies",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "313dab26f9d4c6286fba07426ee7d968004da553",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1900,
+  "words_out": 1899,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   115,
+   124,
+   94,
+   77,
+   61,
+   103,
+   81,
+   70,
+   57,
+   60,
+   100,
+   122,
+   123,
+   79,
+   80,
+   137,
+   85,
+   90,
+   116,
+   125
+  ],
+  "warnings": []
+ }
+}

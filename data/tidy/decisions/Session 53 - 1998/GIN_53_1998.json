@@ -1,0 +1,104 @@
+{
+ "id": "GIN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  28,
+  46,
+  69,
+  88,
+  99,
+  123,
+  132,
+  153,
+  174,
+  185,
+  199,
+  219,
+  239,
+  256,
+  268,
+  286,
+  295
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "community?s",
+   "community’s",
+   "encoding"
+  ],
+  [
+   32,
+   "mankind?s",
+   "mankind’s",
+   "encoding"
+  ],
+  [
+   35,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   110,
+   "Guinea-Bissau?s",
+   "Guinea-Bissau’s",
+   "encoding"
+  ],
+  [
+   164,
+   "Guinea?s",
+   "Guinea’s",
+   "encoding"
+  ],
+  [
+   299,
+   "humankind?s",
+   "humankind’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa0ceb4fab35c37fb1187815f636f878f4ae207c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 302,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2468,
+  "words_out": 2467,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   159,
+   74,
+   144,
+   199,
+   153,
+   90,
+   186,
+   68,
+   170,
+   172,
+   99,
+   116,
+   156,
+   147,
+   150,
+   98,
+   152,
+   75,
+   59
+  ],
+  "warnings": []
+ }
+}

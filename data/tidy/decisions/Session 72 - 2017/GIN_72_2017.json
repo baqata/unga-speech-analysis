@@ -1,0 +1,77 @@
+{
+ "id": "GIN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  12,
+  17,
+  21,
+  23,
+  27,
+  30,
+  35,
+  41,
+  45,
+  47,
+  49,
+  54,
+  58,
+  66
+ ],
+ "cer": [
+  3,
+  66
+ ],
+ "fix": [
+  [
+   26,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   52,
+   "allonly all",
+   "all only",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "80a66f22de9f261674ce4fc3e27bc555bbdde3b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1790,
+  "words_out": 1789,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   62,
+   82,
+   61,
+   113,
+   132,
+   98,
+   94,
+   108,
+   81,
+   116,
+   147,
+   115,
+   65,
+   87,
+   141,
+   119,
+   120,
+   48
+  ],
+  "warnings": []
+ }
+}

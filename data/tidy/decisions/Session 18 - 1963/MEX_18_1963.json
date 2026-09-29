@@ -1,0 +1,179 @@
+{
+ "id": "MEX_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  15,
+  19,
+  23,
+  31,
+  35,
+  38,
+  44,
+  46,
+  49,
+  53,
+  55,
+  58,
+  59,
+  61,
+  64,
+  67,
+  71,
+  73,
+  80,
+  83,
+  86,
+  87,
+  92,
+  95,
+  98,
+  101,
+  103,
+  110,
+  115,
+  122,
+  125,
+  126,
+  130,
+  132,
+  136,
+  137,
+  143,
+  146,
+  147,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "for- many",
+   "for many",
+   "hyphen"
+  ],
+  [
+   41,
+   "There Is",
+   "There is",
+   "ocr"
+  ],
+  [
+   42,
+   "represented In",
+   "represented in",
+   "ocr"
+  ],
+  [
+   58,
+   "Asa member",
+   "As a member",
+   "merged_word"
+  ],
+  [
+   58,
+   "o f",
+   "of",
+   "split_word"
+  ],
+  [
+   59,
+   ", In the course",
+   ". In the course",
+   "ocr"
+  ],
+  [
+   88,
+   "non-aggress ion",
+   "non-aggression",
+   "split_word"
+  ],
+  [
+   93,
+   "setup",
+   "set up",
+   "merged_word"
+  ],
+  [
+   129,
+   "dealt With",
+   "dealt with",
+   "ocr"
+  ],
+  [
+   147,
+   "that It is",
+   "that it is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "beef12e8cf7aad4d5f963f0337eddbfd872b3ec2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 55
+  },
+  "words_in": 5695,
+  "words_out": 5693,
+  "retention": 0.9996,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   152,
+   118,
+   139,
+   140,
+   114,
+   116,
+   172,
+   167,
+   106,
+   156,
+   117,
+   77,
+   104,
+   86,
+   101,
+   60,
+   122,
+   90,
+   135,
+   160,
+   75,
+   205,
+   161,
+   113,
+   103,
+   283,
+   138,
+   148,
+   103,
+   97,
+   204,
+   124,
+   164,
+   121,
+   91,
+   171,
+   61,
+   209,
+   69,
+   216,
+   74,
+   148,
+   101,
+   82
+  ],
+  "warnings": []
+ }
+}

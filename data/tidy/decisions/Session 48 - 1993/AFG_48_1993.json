@@ -1,0 +1,119 @@
+{
+ "id": "AFG_48_1993",
+ "drop": [
+  [
+   66,
+   66,
+   "header_footer"
+  ],
+  [
+   165,
+   165,
+   "header_footer"
+  ],
+  [
+   264,
+   264,
+   "header_footer"
+  ],
+  [
+   339,
+   339,
+   "noise"
+  ],
+  [
+   340,
+   340,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  16,
+  20,
+  32,
+  46,
+  55,
+  61,
+  85,
+  101,
+  113,
+  122,
+  132,
+  147,
+  171,
+  195,
+  206,
+  215,
+  240,
+  262,
+  282,
+  300,
+  315,
+  330,
+  345,
+  364,
+  369
+ ],
+ "cer": [
+  0,
+  12,
+  16
+ ],
+ "fix": [
+  [
+   338,
+   " (The Holy Koran,",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d26b4503b9df58eba3d9cfc1e932889ceffe95db",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 371,
+  "units_dropped": {
+   "header_footer": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3278,
+  "words_out": 3248,
+  "retention": 0.9908,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   93,
+   30,
+   34,
+   102,
+   132,
+   84,
+   51,
+   205,
+   146,
+   102,
+   78,
+   81,
+   126,
+   202,
+   243,
+   91,
+   83,
+   223,
+   187,
+   168,
+   171,
+   127,
+   137,
+   119,
+   183,
+   38,
+   12
+  ],
+  "warnings": []
+ }
+}

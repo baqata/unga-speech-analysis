@@ -1,0 +1,71 @@
+{
+ "id": "BTN_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  12,
+  16,
+  24,
+  28,
+  31,
+  37,
+  42,
+  49,
+  54,
+  60
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   22,
+   "especial!\"' the",
+   "especially the",
+   "ocr"
+  ],
+  [
+   34,
+   "ah element",
+   "an element",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "054a78ba9dd4c0adda3bb370fe8e61506fd304c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1810,
+  "words_out": 1809,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   93,
+   112,
+   59,
+   72,
+   133,
+   229,
+   109,
+   65,
+   134,
+   119,
+   141,
+   132,
+   183,
+   228
+  ],
+  "warnings": []
+ }
+}

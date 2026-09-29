@@ -1,0 +1,224 @@
+{
+ "id": "IDN_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  13,
+  16,
+  18,
+  22,
+  26,
+  30,
+  32,
+  37,
+  39,
+  41,
+  45,
+  48,
+  50,
+  53,
+  55,
+  57,
+  61,
+  65,
+  69,
+  74,
+  78,
+  81,
+  84,
+  90,
+  93,
+  96,
+  101,
+  104,
+  106,
+  108,
+  109,
+  111,
+  113,
+  119,
+  121,
+  123,
+  126,
+  131,
+  135,
+  137,
+  143
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "36 ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "37 ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "two ( historic",
+   "two historic",
+   "ocr"
+  ],
+  [
+   8,
+   "1 am",
+   "I am",
+   "ocr"
+  ],
+  [
+   35,
+   " [A/IOOOII Add.I, sect.",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "XXI}",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "tor the",
+   "for the",
+   "ocr"
+  ],
+  [
+   64,
+   "59 ",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "60 ",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "state,",
+   "state.",
+   "ocr"
+  ],
+  [
+   86,
+   "the-people",
+   "the people",
+   "ocr"
+  ],
+  [
+   112,
+   " [resolutions 3201 (S-VI) and3202 (S-Vl)]",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "adopt on",
+   "adoption",
+   "split_word"
+  ],
+  [
+   115,
+   "[resolution 3362 (sVl,)] ",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "83 ",
+   "",
+   "label"
+  ],
+  [
+   117,
+   "as\" you",
+   "as you",
+   "ocr"
+  ],
+  [
+   128,
+   ".mperaUve",
+   "imperative",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 114-115 keep OCR garbles (\"concession\", \"inteSioTai\") that the letters do not clearly resolve.",
+ "unitizer_version": 1,
+ "sha1": "979727cb87be3d6fcb43d001711b1cf1b0e534da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 55
+  },
+  "words_in": 4702,
+  "words_out": 4677,
+  "retention": 0.9947,
+  "n_paragraphs": 45,
+  "paragraph_words": [
+   75,
+   63,
+   141,
+   133,
+   125,
+   65,
+   109,
+   120,
+   126,
+   73,
+   124,
+   61,
+   80,
+   193,
+   80,
+   80,
+   117,
+   81,
+   70,
+   115,
+   139,
+   108,
+   165,
+   132,
+   101,
+   76,
+   128,
+   87,
+   84,
+   147,
+   139,
+   88,
+   83,
+   66,
+   72,
+   88,
+   161,
+   62,
+   84,
+   84,
+   177,
+   63,
+   73,
+   156,
+   83
+  ],
+  "warnings": []
+ }
+}

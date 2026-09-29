@@ -1,0 +1,126 @@
+{
+ "id": "KIR_76_2021",
+ "drop": [
+  [
+   6,
+   6,
+   "heading"
+  ],
+  [
+   13,
+   13,
+   "heading"
+  ],
+  [
+   33,
+   33,
+   "heading"
+  ],
+  [
+   39,
+   39,
+   "heading"
+  ],
+  [
+   44,
+   44,
+   "heading"
+  ],
+  [
+   51,
+   51,
+   "heading"
+  ],
+  [
+   58,
+   58,
+   "heading"
+  ],
+  [
+   66,
+   66,
+   "heading"
+  ],
+  [
+   71,
+   71,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  14,
+  17,
+  22,
+  26,
+  30,
+  34,
+  40,
+  45,
+  52,
+  59,
+  67,
+  72,
+  76
+ ],
+ "cer": [
+  0,
+  7,
+  76
+ ],
+ "fix": [
+  [
+   14,
+   "re-sources",
+   "resources",
+   "hyphen"
+  ],
+  [
+   20,
+   "be-come",
+   "become",
+   "hyphen"
+  ],
+  [
+   35,
+   "sup-port",
+   "support",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a48bbc34056cda5b52349bf99542f1da745cb31",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {
+   "heading": 9
+  },
+  "prestrip": {},
+  "words_in": 1521,
+  "words_out": 1495,
+  "retention": 0.9829,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   52,
+   171,
+   89,
+   83,
+   67,
+   76,
+   90,
+   147,
+   70,
+   138,
+   138,
+   177,
+   97,
+   98,
+   2
+  ],
+  "warnings": []
+ }
+}

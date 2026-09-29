@@ -1,0 +1,133 @@
+{
+ "id": "RWA_27_1972",
+ "drop": [
+  [
+   13,
+   13,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  14,
+  19,
+  24,
+  29,
+  32,
+  37,
+  41,
+  46,
+  50,
+  54,
+  57,
+  65,
+  72,
+  78,
+  79,
+  82,
+  87,
+  90,
+  93,
+  98,
+  102,
+  104,
+  108,
+  109
+ ],
+ "cer": [
+  0,
+  109
+ ],
+ "fix": [
+  [
+   0,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ],
+  [
+   2,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   11,
+   "who who",
+   "who",
+   "ocr"
+  ],
+  [
+   27,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   77,
+   "disarmament .",
+   "disarmament.",
+   "ocr"
+  ],
+  [
+   78,
+   " [resolution 2373 (XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   " [UNCTAD]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e3eade472f0c60051437162b4dd8186e9a21aec1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3698,
+  "words_out": 3683,
+  "retention": 0.9959,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   162,
+   184,
+   167,
+   213,
+   123,
+   99,
+   178,
+   103,
+   180,
+   99,
+   103,
+   121,
+   188,
+   193,
+   133,
+   259,
+   92,
+   115,
+   118,
+   126,
+   204,
+   169,
+   87,
+   124,
+   71,
+   72
+  ],
+  "warnings": []
+ }
+}

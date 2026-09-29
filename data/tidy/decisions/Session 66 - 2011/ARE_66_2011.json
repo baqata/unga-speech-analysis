@@ -1,0 +1,51 @@
+{
+ "id": "ARE_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  41,
+  56,
+  73,
+  87,
+  111,
+  130,
+  145,
+  165,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4db00b21a75bdfd591cd78eaff32ef5955066e2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1446,
+  "words_out": 1445,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   167,
+   131,
+   127,
+   143,
+   108,
+   183,
+   146,
+   120,
+   165,
+   117,
+   38
+  ],
+  "warnings": []
+ }
+}

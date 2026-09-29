@@ -1,0 +1,183 @@
+{
+ "id": "MLI_35_1980",
+ "drop": [
+  [
+   153,
+   153,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  16,
+  19,
+  21,
+  24,
+  28,
+  32,
+  37,
+  41,
+  45,
+  48,
+  52,
+  55,
+  62,
+  65,
+  69,
+  73,
+  77,
+  81,
+  83,
+  88,
+  91,
+  95,
+  97,
+  100,
+  105,
+  115,
+  119,
+  125,
+  130,
+  133,
+  137,
+  141,
+  147,
+  154,
+  157
+ ],
+ "cer": [
+  4,
+  10
+ ],
+ "fix": [
+  [
+   12,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   22,
+   "10 Sec Official Records of the General Assembly, ",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "Eleventh Special Session, Plenary Meetings, 13th meeting, ",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   46,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   52,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   54,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   59,
+   "con-science",
+   "conscience",
+   "hyphen"
+  ],
+  [
+   60,
+   "Sasol- burg",
+   "Sasolburg",
+   "split_word"
+  ],
+  [
+   91,
+   "OAJ",
+   "OAU",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f9566cee5b27ce3d32c788338f187d900212f4c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 81
+  },
+  "words_in": 5449,
+  "words_out": 5425,
+  "retention": 0.9956,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   88,
+   211,
+   144,
+   83,
+   130,
+   112,
+   91,
+   112,
+   216,
+   114,
+   146,
+   99,
+   156,
+   110,
+   101,
+   182,
+   82,
+   162,
+   149,
+   167,
+   109,
+   125,
+   189,
+   113,
+   125,
+   132,
+   74,
+   142,
+   253,
+   152,
+   171,
+   178,
+   104,
+   166,
+   140,
+   191,
+   124,
+   96,
+   186
+  ],
+  "warnings": []
+ }
+}

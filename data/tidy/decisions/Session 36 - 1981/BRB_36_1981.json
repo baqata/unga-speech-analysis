@@ -1,0 +1,156 @@
+{
+ "id": "BRB_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  10,
+  13,
+  15,
+  19,
+  22,
+  23,
+  28,
+  32,
+  41,
+  46,
+  50,
+  53,
+  56,
+  59,
+  64,
+  68,
+  71,
+  78,
+  82,
+  89,
+  93,
+  97,
+  103,
+  110,
+  114,
+  117,
+  120,
+  122,
+  126,
+  128,
+  132,
+  134
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   109,
+   " {General Assembly resolution 2145 (XXI)]",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "per <capita !gross< national",
+   "per capita gross national",
+   "ocr"
+  ],
+  [
+   30,
+   "against^",
+   "against",
+   "encoding"
+  ],
+  [
+   25,
+   "am expansion",
+   "an expansion",
+   "ocr"
+  ],
+  [
+   128,
+   "art independent",
+   "an independent",
+   "ocr"
+  ],
+  [
+   115,
+   "abut against",
+   "out against",
+   "ocr"
+  ],
+  [
+   115,
+   "out took",
+   "but took",
+   "ocr"
+  ],
+  [
+   124,
+   "I heed do",
+   "I need do",
+   "ocr"
+  ],
+  [
+   39,
+   " [OECD]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8233306d1b0da46e54b3a0c01a7466ea6452c367",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 48
+  },
+  "words_in": 3462,
+  "words_out": 3453,
+  "retention": 0.9974,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   31,
+   155,
+   44,
+   95,
+   55,
+   76,
+   115,
+   49,
+   92,
+   149,
+   184,
+   111,
+   71,
+   80,
+   73,
+   64,
+   117,
+   84,
+   101,
+   179,
+   86,
+   122,
+   91,
+   113,
+   140,
+   156,
+   122,
+   95,
+   81,
+   65,
+   150,
+   67,
+   121,
+   75,
+   44
+  ],
+  "warnings": []
+ }
+}

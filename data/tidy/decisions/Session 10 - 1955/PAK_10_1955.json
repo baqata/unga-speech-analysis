@@ -1,0 +1,97 @@
+{
+ "id": "PAK_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  14,
+  19,
+  22,
+  28,
+  32,
+  35,
+  39,
+  46,
+  49,
+  53,
+  60,
+  65,
+  72,
+  74,
+  77,
+  79,
+  83,
+  90,
+  95,
+  98,
+  104,
+  106
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "South- West",
+   "South-West",
+   "hyphen"
+  ],
+  [
+   79,
+   "South- East",
+   "South-East",
+   "hyphen"
+  ],
+  [
+   102,
+   " I",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f8745e34d799d5bc724966fe743ec46178ad7688",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 2970,
+  "words_out": 2963,
+  "retention": 0.9976,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   72,
+   144,
+   102,
+   135,
+   96,
+   153,
+   89,
+   149,
+   121,
+   170,
+   94,
+   61,
+   160,
+   125,
+   168,
+   69,
+   102,
+   109,
+   110,
+   163,
+   125,
+   131,
+   204,
+   61,
+   50
+  ],
+  "warnings": []
+ }
+}

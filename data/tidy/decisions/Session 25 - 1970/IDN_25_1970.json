@@ -1,0 +1,91 @@
+{
+ "id": "IDN_25_1970",
+ "drop": [
+  [
+   69,
+   69,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  12,
+  15,
+  21,
+  27,
+  40,
+  49,
+  57,
+  64,
+  67,
+  72,
+  77,
+  80,
+  83,
+  89,
+  93,
+  97,
+  100,
+  104
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   25,
+   "non- aggression",
+   "non-aggression",
+   "hyphen"
+  ],
+  [
+   55,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 69 is a printed footnote inside the text and is dropped.",
+ "unitizer_version": 1,
+ "sha1": "757a7aacdcd584bde8758e88510a8914bb4314e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2866,
+  "words_out": 2841,
+  "retention": 0.9913,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   179,
+   168,
+   128,
+   115,
+   158,
+   286,
+   209,
+   230,
+   168,
+   73,
+   123,
+   124,
+   85,
+   47,
+   136,
+   139,
+   129,
+   104,
+   84,
+   156
+  ],
+  "warnings": []
+ }
+}

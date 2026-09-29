@@ -1,0 +1,154 @@
+{
+ "id": "LBR_20_1965",
+ "drop": [
+  [
+   47,
+   47,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  12,
+  20,
+  29,
+  36,
+  44,
+  57,
+  65,
+  69,
+  74,
+  87,
+  95,
+  103,
+  109,
+  117,
+  125,
+  131,
+  141,
+  145,
+  152,
+  156,
+  161,
+  170,
+  176
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "wish co compliment",
+   "wish to compliment",
+   "ocr"
+  ],
+  [
+   39,
+   "satellite programmed",
+   "satellite programme",
+   "ocr"
+  ],
+  [
+   46,
+   " [A/6001 and Corr.1",
+   "",
+   "label"
+  ],
+  [
+   46,
+   " chap.",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "F], ",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "resolution On 6 May",
+   "resolution on 6 May",
+   "ocr"
+  ],
+  [
+   110,
+   "there were, several",
+   "there were several",
+   "ocr"
+  ],
+  [
+   118,
+   "of the, United",
+   "of the United",
+   "ocr"
+  ],
+  [
+   58,
+   " [resolution 1514 (XV)]",
+   "",
+   "label"
+  ],
+  [
+   72,
+   " [202 (1965)]",
+   "",
+   "label"
+  ],
+  [
+   150,
+   " [A/5966/Rev.2]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f17d6954e7a81e9812bec689809d60a44c6397f2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3806,
+  "words_out": 3734,
+  "retention": 0.9811,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   167,
+   101,
+   212,
+   163,
+   147,
+   126,
+   197,
+   279,
+   101,
+   185,
+   195,
+   114,
+   173,
+   135,
+   162,
+   146,
+   162,
+   200,
+   58,
+   149,
+   64,
+   93,
+   142,
+   191,
+   72
+  ],
+  "warnings": []
+ }
+}

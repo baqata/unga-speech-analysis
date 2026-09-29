@@ -1,0 +1,77 @@
+{
+ "id": "ARE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  8,
+  12,
+  15,
+  19,
+  23,
+  25,
+  30,
+  34,
+  39,
+  44,
+  48,
+  51,
+  54,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   28,
+   "asto",
+   "as to",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7199fa472f16c09db86ed749441cf17087d869b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 2
+  },
+  "words_in": 1667,
+  "words_out": 1665,
+  "retention": 0.9988,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   40,
+   71,
+   93,
+   119,
+   126,
+   129,
+   87,
+   54,
+   145,
+   121,
+   147,
+   122,
+   120,
+   87,
+   81,
+   82,
+   41
+  ],
+  "warnings": []
+ }
+}

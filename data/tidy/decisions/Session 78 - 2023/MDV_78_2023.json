@@ -1,0 +1,132 @@
+{
+ "id": "MDV_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  13,
+  20,
+  22,
+  28,
+  34,
+  40,
+  48,
+  53,
+  60,
+  66,
+  70,
+  73,
+  76,
+  80,
+  83,
+  92,
+  96
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "ago. we",
+   "ago, we",
+   "ocr"
+  ],
+  [
+   24,
+   "1979. we",
+   "1979, we",
+   "ocr"
+  ],
+  [
+   30,
+   "76/300. recognizing",
+   "76/300, recognizing",
+   "ocr"
+  ],
+  [
+   34,
+   "(COP28). we",
+   "(COP28), we",
+   "ocr"
+  ],
+  [
+   35,
+   "COP28. science",
+   "COP28, science",
+   "ocr"
+  ],
+  [
+   44,
+   "Kunming- Montreal",
+   "Kunming-Montreal",
+   "hyphen"
+  ],
+  [
+   56,
+   "are. in",
+   "are, in",
+   "ocr"
+  ],
+  [
+   62,
+   "so. the",
+   "so, the",
+   "ocr"
+  ],
+  [
+   75,
+   "run-off. which",
+   "run-off, which",
+   "ocr"
+  ],
+  [
+   82,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   85,
+   "Ukraine.",
+   "Ukraine,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4aa82ea6823dfbcdb378264c6de5f1699b78b26c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2012,
+  "words_out": 2010,
+  "retention": 0.999,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   68,
+   185,
+   112,
+   66,
+   129,
+   123,
+   112,
+   173,
+   95,
+   138,
+   126,
+   113,
+   61,
+   67,
+   96,
+   81,
+   106,
+   90,
+   69
+  ],
+  "warnings": []
+ }
+}

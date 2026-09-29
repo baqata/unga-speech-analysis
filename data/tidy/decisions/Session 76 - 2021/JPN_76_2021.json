@@ -1,0 +1,75 @@
+{
+ "id": "JPN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  11,
+  16,
+  20,
+  24,
+  30,
+  36,
+  41,
+  43,
+  47,
+  53,
+  56,
+  60,
+  63,
+  66,
+  70,
+  74,
+  78
+ ],
+ "cer": [
+  0,
+  78
+ ],
+ "fix": [
+  [
+   1,
+   "COVID-19.1 would",
+   "COVID-19. I would",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1c2cff804eee5d3693a55ab076d050b65b76b5b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2063,
+  "words_out": 2064,
+  "retention": 1.0005,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   44,
+   169,
+   77,
+   65,
+   98,
+   100,
+   112,
+   175,
+   129,
+   66,
+   101,
+   164,
+   95,
+   113,
+   97,
+   72,
+   158,
+   105,
+   116,
+   8
+  ],
+  "warnings": []
+ }
+}

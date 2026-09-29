@@ -1,0 +1,39 @@
+{
+ "id": "ECU_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  11,
+  15
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f2a628159f76692955f20e9f876437f50fba1fc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 21,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 10
+  },
+  "words_in": 871,
+  "words_out": 871,
+  "retention": 1.0,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   99,
+   249,
+   153,
+   53,
+   126,
+   191
+  ],
+  "warnings": []
+ }
+}

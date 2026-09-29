@@ -1,0 +1,144 @@
+{
+ "id": "EGY_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  11,
+  14,
+  16,
+  19,
+  21,
+  24,
+  28,
+  36,
+  44,
+  50,
+  53,
+  56,
+  59,
+  66,
+  70,
+  73,
+  77,
+  82,
+  86,
+  93,
+  96,
+  99,
+  106,
+  110,
+  113,
+  115,
+  118,
+  121,
+  123,
+  127
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   18,
+   "Egypt, m keeping",
+   "Egypt, in keeping",
+   "ocr"
+  ],
+  [
+   39,
+   "1982. we also",
+   "1982. We also",
+   "ocr"
+  ],
+  [
+   93,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   95,
+   "cooperation m accordance",
+   "cooperation in accordance",
+   "ocr"
+  ],
+  [
+   101,
+   "non- nuclear-weapon",
+   "non-nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   102,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   112,
+   "nuclear- weapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 73 reads 'repugnant face of through'; a word (likely 'apartheid') is missing in the source.",
+ "unitizer_version": 1,
+ "sha1": "a3736b76e8e73b9d5c2e504ee17253297555990c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 64
+  },
+  "words_in": 4647,
+  "words_out": 4642,
+  "retention": 0.9989,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   189,
+   139,
+   95,
+   117,
+   92,
+   160,
+   103,
+   104,
+   140,
+   246,
+   196,
+   138,
+   157,
+   122,
+   112,
+   227,
+   128,
+   109,
+   108,
+   165,
+   142,
+   205,
+   132,
+   103,
+   253,
+   183,
+   151,
+   99,
+   101,
+   80,
+   137,
+   153,
+   56
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "LTU_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  27,
+  49,
+  60,
+  73,
+  81,
+  100
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b63aea1c38af54d6edba17a958b499d125c71b0a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 853,
+  "words_out": 853,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   63,
+   136,
+   164,
+   83,
+   95,
+   62,
+   143,
+   107
+  ],
+  "warnings": []
+ }
+}

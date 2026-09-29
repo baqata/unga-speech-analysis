@@ -1,0 +1,95 @@
+{
+ "id": "GNB_47_1992",
+ "drop": [
+  [
+   328,
+   328,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  37,
+  57,
+  78,
+  94,
+  107,
+  121,
+  134,
+  150,
+  159,
+  172,
+  184,
+  205,
+  221,
+  229,
+  241,
+  256,
+  271,
+  280,
+  303,
+  312,
+  329,
+  352,
+  369
+ ],
+ "cer": [
+  0,
+  15
+ ],
+ "fix": [
+  [
+   327,
+   "process.*",
+   "process.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b369c730fab7b94458acbca9a5928c27e7da4dbe",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 378,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 4050,
+  "words_out": 4043,
+  "retention": 0.9983,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   165,
+   229,
+   220,
+   223,
+   176,
+   144,
+   171,
+   148,
+   194,
+   92,
+   126,
+   117,
+   224,
+   172,
+   90,
+   117,
+   155,
+   153,
+   87,
+   238,
+   107,
+   182,
+   246,
+   175,
+   92
+  ],
+  "warnings": [
+   "presider drop [328,328] in the middle of the speech"
+  ]
+ }
+}

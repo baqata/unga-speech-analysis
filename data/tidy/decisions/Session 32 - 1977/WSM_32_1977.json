@@ -1,0 +1,126 @@
+{
+ "id": "WSM_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  12,
+  16,
+  23,
+  31,
+  38,
+  45,
+  55,
+  60,
+  70,
+  75,
+  80,
+  86,
+  94,
+  104,
+  107,
+  114,
+  125
+ ],
+ "cer": [
+  0,
+  7,
+  10
+ ],
+ "fix": [
+  [
+   3,
+   "you. upon",
+   "you, upon",
+   "ocr"
+  ],
+  [
+   7,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   33,
+   "bird's- eye",
+   "bird's-eye",
+   "hyphen"
+  ],
+  [
+   55,
+   "Tuvalu-will",
+   "Tuvalu—will",
+   "ocr"
+  ],
+  [
+   57,
+   "future-when",
+   "future—when",
+   "ocr"
+  ],
+  [
+   70,
+   "token.",
+   "token,",
+   "ocr"
+  ],
+  [
+   98,
+   "great- Power",
+   "great-Power",
+   "hyphen"
+  ],
+  [
+   130,
+   "say-and",
+   "say—and",
+   "ocr"
+  ],
+  [
+   23,
+   "it is this",
+   "It is this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "64549b5c2344ad128ab0018f12d267e1ab7fed4f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2334,
+  "words_out": 2331,
+  "retention": 0.9987,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   185,
+   77,
+   53,
+   89,
+   94,
+   106,
+   104,
+   112,
+   112,
+   158,
+   142,
+   78,
+   83,
+   57,
+   169,
+   197,
+   78,
+   103,
+   223,
+   111
+  ],
+  "warnings": []
+ }
+}

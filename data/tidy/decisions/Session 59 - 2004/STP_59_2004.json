@@ -1,0 +1,63 @@
+{
+ "id": "STP_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  31,
+  42,
+  51,
+  64,
+  85,
+  94,
+  108,
+  126,
+  142,
+  155,
+  166,
+  174,
+  184,
+  198
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4540eaa0aca7fcefc964ee6e2f1a866ac58e5697",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 2
+  },
+  "words_in": 1689,
+  "words_out": 1688,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   117,
+   134,
+   87,
+   68,
+   102,
+   164,
+   79,
+   99,
+   155,
+   129,
+   88,
+   88,
+   78,
+   85,
+   117,
+   98
+  ],
+  "warnings": []
+ }
+}

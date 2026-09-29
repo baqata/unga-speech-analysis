@@ -1,0 +1,73 @@
+{
+ "id": "USA_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  30,
+  39,
+  60,
+  68,
+  92,
+  106,
+  127,
+  138,
+  153,
+  176,
+  195,
+  215,
+  232,
+  253,
+  275,
+  302
+ ],
+ "cer": [
+  0,
+  302
+ ],
+ "fix": [
+  [
+   3,
+   "C1inton",
+   "Clinton",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dac3f1e3ec1000f3ca5dc4c2136ce0f8b2d52012",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2446,
+  "words_out": 2445,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   69,
+   159,
+   70,
+   158,
+   58,
+   189,
+   113,
+   153,
+   89,
+   113,
+   177,
+   152,
+   163,
+   132,
+   178,
+   181,
+   234,
+   57
+  ],
+  "warnings": []
+ }
+}

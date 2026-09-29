@@ -1,0 +1,58 @@
+{
+ "id": "SLB_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  32,
+  40,
+  62,
+  79,
+  90,
+  104,
+  119,
+  137,
+  154,
+  176,
+  197,
+  225
+ ],
+ "cer": [
+  21,
+  32
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59fdeafe8be44f8373173b2881af84d191a29ab9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 231,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1845,
+  "words_out": 1840,
+  "retention": 0.9973,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   167,
+   83,
+   63,
+   173,
+   131,
+   84,
+   112,
+   124,
+   152,
+   138,
+   172,
+   154,
+   238,
+   49
+  ],
+  "warnings": []
+ }
+}

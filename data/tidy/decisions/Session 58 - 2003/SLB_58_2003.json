@@ -1,0 +1,67 @@
+{
+ "id": "SLB_58_2003",
+ "drop": [
+  [
+   134,
+   135,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  29,
+  47,
+  58,
+  73,
+  93,
+  112,
+  129,
+  146,
+  164,
+  181,
+  198,
+  213,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Footnote translating the pidgin phrase, printed mid-sentence, dropped.",
+ "unitizer_version": 1,
+ "sha1": "5d4373618c410d4c91f320167ef42e36de174500",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1802,
+  "words_out": 1790,
+  "retention": 0.9933,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   98,
+   124,
+   132,
+   73,
+   109,
+   148,
+   146,
+   120,
+   104,
+   116,
+   115,
+   131,
+   110,
+   174,
+   90
+  ],
+  "warnings": []
+ }
+}

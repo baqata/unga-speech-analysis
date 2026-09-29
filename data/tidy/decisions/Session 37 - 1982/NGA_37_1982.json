@@ -1,0 +1,134 @@
+{
+ "id": "NGA_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  46,
+  60,
+  76,
+  89,
+  104,
+  128,
+  139,
+  169,
+  181,
+  204,
+  229,
+  250,
+  265,
+  289,
+  311,
+  329,
+  345,
+  359,
+  378,
+  407,
+  426,
+  449,
+  473,
+  498,
+  523,
+  537,
+  558
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   62,
+   "attitudesóa",
+   "attitudes—a",
+   "encoding"
+  ],
+  [
+   78,
+   "Car measures",
+   "for measures",
+   "ocr"
+  ],
+  [
+   112,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   303,
+   "mid- 1983",
+   "mid-1983",
+   "spacing"
+  ],
+  [
+   315,
+   "being, made",
+   "being made",
+   "ocr"
+  ],
+  [
+   365,
+   "epoch- making",
+   "epoch-making",
+   "spacing"
+  ],
+  [
+   537,
+   "tor regret",
+   "for regret",
+   "ocr"
+  ],
+  [
+   545,
+   "means. . We",
+   "means. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40523347c6ee95367df126f9777beec56905f3ac",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 567,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4154,
+  "words_out": 4150,
+  "retention": 0.999,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   349,
+   106,
+   116,
+   97,
+   110,
+   177,
+   72,
+   223,
+   102,
+   177,
+   192,
+   152,
+   103,
+   157,
+   146,
+   117,
+   117,
+   86,
+   122,
+   200,
+   136,
+   177,
+   184,
+   203,
+   197,
+   99,
+   162,
+   71
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 349 words"
+  ]
+ }
+}

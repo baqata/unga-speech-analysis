@@ -1,0 +1,124 @@
+{
+ "id": "GBR_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  13,
+  17,
+  23,
+  27,
+  38,
+  44,
+  48,
+  59,
+  64,
+  69,
+  73,
+  76,
+  82,
+  87,
+  92,
+  98,
+  103,
+  109,
+  119,
+  126,
+  130,
+  133,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "14years—",
+   "14 years—",
+   "spacing"
+  ],
+  [
+   23,
+   "countries .",
+   "countries.",
+   "spacing"
+  ],
+  [
+   37,
+   "and. technical",
+   "and technical",
+   "ocr"
+  ],
+  [
+   79,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   " [ICRC]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   "which 1 know",
+   "which I know",
+   "ocr"
+  ],
+  [
+   141,
+   "United Nation,",
+   "United Nations,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81cbe9f01adcbbb332614a4466be9630b51b7783",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3039,
+  "words_out": 3037,
+  "retention": 0.9993,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   121,
+   90,
+   81,
+   146,
+   136,
+   71,
+   204,
+   132,
+   91,
+   175,
+   99,
+   129,
+   75,
+   88,
+   98,
+   108,
+   98,
+   92,
+   110,
+   124,
+   193,
+   127,
+   127,
+   89,
+   157,
+   76
+  ],
+  "warnings": []
+ }
+}

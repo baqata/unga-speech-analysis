@@ -1,0 +1,106 @@
+{
+ "id": "LVA_75_2020",
+ "drop": [
+  [
+   0,
+   0,
+   "heading"
+  ],
+  [
+   4,
+   4,
+   "heading"
+  ],
+  [
+   11,
+   11,
+   "heading"
+  ],
+  [
+   22,
+   22,
+   "heading"
+  ],
+  [
+   43,
+   43,
+   "heading"
+  ],
+  [
+   59,
+   59,
+   "heading"
+  ],
+  [
+   67,
+   67,
+   "heading"
+  ],
+  [
+   76,
+   76,
+   "heading"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  5,
+  12,
+  20,
+  23,
+  26,
+  31,
+  34,
+  38,
+  44,
+  51,
+  55,
+  60,
+  68,
+  77,
+  81
+ ],
+ "cer": [
+  1,
+  2,
+  81
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01a0a1537b0e7dbb01ba94ff49ed46af233d8e57",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "heading": 8
+  },
+  "prestrip": {},
+  "words_in": 1392,
+  "words_out": 1366,
+  "retention": 0.9813,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   6,
+   40,
+   133,
+   137,
+   77,
+   71,
+   75,
+   80,
+   64,
+   120,
+   139,
+   69,
+   83,
+   79,
+   137,
+   54,
+   2
+  ],
+  "warnings": []
+ }
+}

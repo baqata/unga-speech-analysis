@@ -1,0 +1,139 @@
+{
+ "id": "SYR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  14,
+  20,
+  24,
+  27,
+  38,
+  41,
+  42,
+  47,
+  49,
+  51,
+  57,
+  62,
+  64,
+  67,
+  76,
+  82,
+  84,
+  86,
+  90,
+  94,
+  96,
+  98,
+  101,
+  103,
+  106,
+  109,
+  113,
+  116,
+  120
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   7,
+   "thirty- ninth",
+   "thirty-ninth",
+   "hyphen"
+  ],
+  [
+   21,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   41,
+   "Council' condemning",
+   "Council condemning",
+   "ocr"
+  ],
+  [
+   47,
+   "most modem",
+   "most modern",
+   "ocr"
+  ],
+  [
+   48,
+   "$ 1,000",
+   "$1,000",
+   "spacing"
+  ],
+  [
+   52,
+   "providing' Israel",
+   "providing Israel",
+   "ocr"
+  ],
+  [
+   109,
+   "its county's",
+   "its country's",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 104 breaks off at 'racism and' before the next source paragraph.",
+ "unitizer_version": 1,
+ "sha1": "0a2fb36637e9e3219f4427456360a1a314c7cfc4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 4026,
+  "words_out": 4024,
+  "retention": 0.9995,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   105,
+   121,
+   215,
+   135,
+   126,
+   152,
+   230,
+   169,
+   82,
+   199,
+   100,
+   93,
+   191,
+   116,
+   68,
+   94,
+   148,
+   216,
+   99,
+   81,
+   117,
+   105,
+   67,
+   99,
+   104,
+   139,
+   123,
+   97,
+   104,
+   99,
+   161,
+   69
+  ],
+  "warnings": []
+ }
+}

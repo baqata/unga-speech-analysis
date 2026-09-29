@@ -1,0 +1,56 @@
+{
+ "id": "BFA_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  29,
+  52,
+  65,
+  77,
+  91,
+  103,
+  114,
+  128
+ ],
+ "cer": [
+  11
+ ],
+ "fix": [
+  [
+   15,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6563c45bac1de0b1a1f0ff1a3f86eb755e188386",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1065,
+  "words_out": 1062,
+  "retention": 0.9972,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   82,
+   84,
+   57,
+   186,
+   103,
+   91,
+   107,
+   83,
+   82,
+   104,
+   83
+  ],
+  "warnings": []
+ }
+}

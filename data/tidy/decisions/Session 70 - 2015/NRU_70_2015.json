@@ -1,0 +1,86 @@
+{
+ "id": "NRU_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  13,
+  16,
+  22,
+  26,
+  28,
+  32,
+  38,
+  42,
+  51,
+  57,
+  64,
+  71,
+  80
+ ],
+ "cer": [
+  80
+ ],
+ "fix": [
+  [
+   25,
+   "cross- cutting",
+   "cross-cutting",
+   "hyphen"
+  ],
+  [
+   37,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   47,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   79,
+   "choice ,and",
+   "choice, and",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1919356c821ff916da141a8b00a8cff0b51f235",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1633,
+  "words_out": 1628,
+  "retention": 0.9969,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   75,
+   104,
+   69,
+   98,
+   137,
+   70,
+   76,
+   73,
+   105,
+   60,
+   185,
+   110,
+   138,
+   146,
+   168,
+   14
+  ],
+  "warnings": []
+ }
+}

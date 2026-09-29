@@ -1,0 +1,73 @@
+{
+ "id": "PLW_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   91,
+   91,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  13,
+  25,
+  30,
+  41,
+  46,
+  51,
+  56,
+  68,
+  75,
+  80,
+  88
+ ],
+ "cer": [
+  88
+ ],
+ "fix": [
+  [
+   31,
+   "CIDS",
+   "SIDS",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c206050e72529d0a7fd0352ec8e7e50814db75f7",
+ "layout": "single",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1427,
+  "words_out": 1378,
+  "retention": 0.9657,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   122,
+   75,
+   78,
+   91,
+   112,
+   84,
+   89,
+   113,
+   200,
+   169,
+   105,
+   132,
+   8
+  ],
+  "warnings": []
+ }
+}

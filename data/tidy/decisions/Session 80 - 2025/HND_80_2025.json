@@ -1,0 +1,86 @@
+{
+ "id": "HND_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   72,
+   73,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  6,
+  12,
+  20,
+  24,
+  30,
+  36,
+  44,
+  50,
+  56,
+  65,
+  70
+ ],
+ "cer": [
+  1,
+  70
+ ],
+ "fix": [
+  [
+   1,
+   "Iris Jomaras Castro",
+   "Iris Xiomara Castro",
+   "asr_name"
+  ],
+  [
+   25,
+   "President Jamara Castro",
+   "President Xiomara Castro",
+   "asr_name"
+  ],
+  [
+   35,
+   "Jamala Castro",
+   "Xiomara Castro",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a87c8a70c50dfcdb04eed1ca92e7b1c16bf6c8d9",
+ "layout": "single",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1609,
+  "words_out": 1572,
+  "retention": 0.977,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   77,
+   146,
+   179,
+   179,
+   61,
+   190,
+   147,
+   143,
+   102,
+   79,
+   155,
+   106,
+   8
+  ],
+  "warnings": []
+ }
+}

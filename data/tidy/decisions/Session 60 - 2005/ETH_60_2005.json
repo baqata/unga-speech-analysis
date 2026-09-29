@@ -1,0 +1,62 @@
+{
+ "id": "ETH_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  39,
+  61,
+  70,
+  81,
+  102,
+  124,
+  142,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   86,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1b827486a3a909bbcda63000a518d6694e06120",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1302,
+  "words_out": 1297,
+  "retention": 0.9962,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   146,
+   174,
+   166,
+   83,
+   73,
+   169,
+   172,
+   153,
+   126,
+   35
+  ],
+  "warnings": []
+ }
+}

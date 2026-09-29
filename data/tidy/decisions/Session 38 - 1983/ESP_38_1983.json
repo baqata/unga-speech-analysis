@@ -1,0 +1,175 @@
+{
+ "id": "ESP_38_1983",
+ "drop": [
+  [
+   73,
+   73,
+   "header_footer"
+  ],
+  [
+   76,
+   76,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  17,
+  20,
+  22,
+  25,
+  30,
+  32,
+  36,
+  38,
+  40,
+  43,
+  45,
+  49,
+  52,
+  56,
+  59,
+  63,
+  65,
+  69,
+  74,
+  80,
+  86,
+  90,
+  93,
+  94,
+  99,
+  102,
+  105,
+  108,
+  112,
+  118,
+  123,
+  128,
+  130,
+  132,
+  134,
+  136,
+  140,
+  142
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "1975took",
+   "1975 took",
+   "spacing"
+  ],
+  [
+   66,
+   "was' resumed",
+   "was resumed",
+   "ocr"
+  ],
+  [
+   102,
+   "in -Central",
+   "in Central",
+   "ocr"
+  ],
+  [
+   124,
+   "September,'",
+   "September,",
+   "ocr"
+  ],
+  [
+   126,
+   "reject # any",
+   "reject any",
+   "ocr"
+  ],
+  [
+   127,
+   "Conference'\"",
+   "Conference",
+   "ocr"
+  ],
+  [
+   130,
+   "sovereignty, dependence",
+   "sovereignty, independence",
+   "ocr"
+  ],
+  [
+   133,
+   "and beings compounded",
+   "and being compounded",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2675803806d129d03ee0dafef4ea6fc02ea03a6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 72
+  },
+  "words_in": 4745,
+  "words_out": 4743,
+  "retention": 0.9996,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   240,
+   124,
+   85,
+   101,
+   85,
+   75,
+   80,
+   109,
+   102,
+   114,
+   126,
+   73,
+   105,
+   92,
+   126,
+   152,
+   93,
+   84,
+   97,
+   57,
+   122,
+   182,
+   175,
+   208,
+   147,
+   102,
+   108,
+   115,
+   120,
+   136,
+   125,
+   109,
+   130,
+   174,
+   139,
+   55,
+   79,
+   77,
+   65,
+   121,
+   60,
+   74
+  ],
+  "warnings": []
+ }
+}

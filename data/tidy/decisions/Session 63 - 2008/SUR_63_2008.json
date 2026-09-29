@@ -1,0 +1,53 @@
+{
+ "id": "SUR_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  32,
+  43,
+  59,
+  70,
+  82,
+  97,
+  109,
+  125,
+  141,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5437ffd9fac184f69d69f22bb3ab1bd1ccbeca9f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1245,
+  "words_out": 1244,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   137,
+   104,
+   76,
+   121,
+   89,
+   92,
+   100,
+   90,
+   121,
+   115,
+   130,
+   69
+  ],
+  "warnings": []
+ }
+}

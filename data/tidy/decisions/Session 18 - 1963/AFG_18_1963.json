@@ -1,0 +1,111 @@
+{
+ "id": "AFG_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  17,
+  20,
+  23,
+  26,
+  29,
+  34,
+  37,
+  40,
+  45,
+  51,
+  55,
+  58,
+  60,
+  64,
+  69,
+  73,
+  76,
+  82,
+  85,
+  87,
+  90,
+  93,
+  97,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "change,",
+   "change.",
+   "ocr"
+  ],
+  [
+   10,
+   "indeed,",
+   "indeed.",
+   "ocr"
+  ],
+  [
+   51,
+   "peace,",
+   "peace.",
+   "ocr"
+  ],
+  [
+   59,
+   "XII], We",
+   "XII]. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6eb74a8205299802d30fdde2fdfbab701d9ed3b9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 8,
+   "paragraph_number": 41
+  },
+  "words_in": 3979,
+  "words_out": 3973,
+  "retention": 0.9985,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   154,
+   230,
+   131,
+   237,
+   140,
+   105,
+   155,
+   84,
+   193,
+   162,
+   92,
+   173,
+   156,
+   138,
+   108,
+   68,
+   126,
+   182,
+   208,
+   101,
+   159,
+   102,
+   115,
+   135,
+   154,
+   114,
+   221,
+   30
+  ],
+  "warnings": []
+ }
+}

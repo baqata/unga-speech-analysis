@@ -1,0 +1,87 @@
+{
+ "id": "COD_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  50,
+  77,
+  92,
+  111,
+  127,
+  144,
+  156,
+  183,
+  200,
+  216,
+  245,
+  261,
+  271,
+  287,
+  304,
+  328,
+  347,
+  361
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "Laurent-DÈsirÈ",
+   "Laurent-Désiré",
+   "encoding"
+  ],
+  [
+   340,
+   "…luard",
+   "Éluard",
+   "encoding"
+  ],
+  [
+   345,
+   "luard",
+   "Éluard",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "Improvised statement; one sentence breaks off unfinished before unit 183 in the record.",
+ "unitizer_version": 1,
+ "sha1": "ecbe2cfadce367872d1be347bb8f4bed39c952bb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 369,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 3,
+   "page_number": 4
+  },
+  "words_in": 3219,
+  "words_out": 3219,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   169,
+   254,
+   229,
+   133,
+   183,
+   139,
+   154,
+   105,
+   245,
+   147,
+   140,
+   268,
+   137,
+   83,
+   138,
+   135,
+   208,
+   174,
+   118,
+   60
+  ],
+  "warnings": []
+ }
+}

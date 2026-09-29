@@ -1,0 +1,58 @@
+{
+ "id": "ZWE_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  16,
+  27,
+  34,
+  40,
+  43,
+  48,
+  52,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "hydropower- generation",
+   "hydropower-generation",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aeba8e569dea50dcb1afea775daddd3757c86201",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1297,
+  "words_out": 1296,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   90,
+   123,
+   125,
+   83,
+   155,
+   159,
+   130,
+   61,
+   123,
+   69,
+   76,
+   102
+  ],
+  "warnings": []
+ }
+}

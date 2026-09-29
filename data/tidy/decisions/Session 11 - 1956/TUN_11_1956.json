@@ -1,0 +1,109 @@
+{
+ "id": "TUN_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  14,
+  16,
+  21,
+  24,
+  30,
+  32,
+  39,
+  42,
+  44,
+  49,
+  52,
+  55,
+  57,
+  65,
+  71,
+  76,
+  81,
+  85,
+  88,
+  90,
+  94,
+  96,
+  100
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   44,
+   "first- class",
+   "first-class",
+   "spacing"
+  ],
+  [
+   51,
+   "tire unity",
+   "the unity",
+   "ocr"
+  ],
+  [
+   59,
+   "arc working",
+   "are working",
+   "ocr"
+  ],
+  [
+   75,
+   "might lie arranged",
+   "might be arranged",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61f611d90f0a78999860de47a79d1be81c424ff8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3302,
+  "words_out": 3301,
+  "retention": 0.9997,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   68,
+   84,
+   154,
+   173,
+   140,
+   186,
+   115,
+   113,
+   74,
+   159,
+   117,
+   61,
+   166,
+   72,
+   138,
+   74,
+   258,
+   161,
+   174,
+   160,
+   85,
+   66,
+   70,
+   151,
+   78,
+   108,
+   96
+  ],
+  "warnings": []
+ }
+}

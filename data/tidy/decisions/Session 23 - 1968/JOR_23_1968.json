@@ -1,0 +1,76 @@
+{
+ "id": "JOR_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  14,
+  25,
+  35,
+  39,
+  43,
+  51,
+  57,
+  59,
+  63,
+  70,
+  75,
+  81,
+  85,
+  95,
+  98,
+  102,
+  106,
+  112
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "replace the, Security",
+   "replace the Security",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "80e45051a931b5f75ea3c404cdc7f88742b1c4f6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2730,
+  "words_out": 2693,
+  "retention": 0.9864,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   182,
+   87,
+   95,
+   256,
+   221,
+   109,
+   85,
+   143,
+   153,
+   65,
+   82,
+   148,
+   93,
+   158,
+   78,
+   217,
+   76,
+   110,
+   93,
+   133,
+   109
+  ],
+  "warnings": []
+ }
+}

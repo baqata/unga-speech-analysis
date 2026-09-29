@@ -1,0 +1,75 @@
+{
+ "id": "URY_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  13,
+  15,
+  18,
+  22,
+  25,
+  30,
+  36,
+  38,
+  43,
+  45
+ ],
+ "cer": [],
+ "fix": [
+  [
+   24,
+   "far bade",
+   "far back",
+   "ocr"
+  ],
+  [
+   24,
+   "Batlley",
+   "Batlle y",
+   "merged_word"
+  ],
+  [
+   49,
+   "take Its",
+   "take its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6f68ded9ccae6e999e22acd0f672a16059ac1c4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 20
+  },
+  "words_in": 1829,
+  "words_out": 1830,
+  "retention": 1.0005,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   240,
+   78,
+   99,
+   146,
+   114,
+   67,
+   162,
+   110,
+   165,
+   132,
+   76,
+   186,
+   97,
+   158
+  ],
+  "warnings": []
+ }
+}

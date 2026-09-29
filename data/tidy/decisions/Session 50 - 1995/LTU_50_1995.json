@@ -1,0 +1,61 @@
+{
+ "id": "LTU_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  31,
+  42,
+  62,
+  86,
+  108,
+  124,
+  143,
+  160,
+  168,
+  183,
+  194,
+  205,
+  223,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "faf4a433e9a6d378ddbe51a5d6ffe16caeb6ce97",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2092,
+  "words_out": 2088,
+  "retention": 0.9981,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   90,
+   174,
+   89,
+   173,
+   194,
+   185,
+   126,
+   149,
+   145,
+   69,
+   117,
+   73,
+   85,
+   138,
+   188,
+   93
+  ],
+  "warnings": []
+ }
+}

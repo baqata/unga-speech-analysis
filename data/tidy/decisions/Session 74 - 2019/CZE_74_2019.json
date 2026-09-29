@@ -1,0 +1,78 @@
+{
+ "id": "CZE_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  15,
+  24,
+  29,
+  40,
+  49,
+  55,
+  65,
+  72,
+  79,
+  86,
+  93,
+  98,
+  106,
+  110,
+  113,
+  122
+ ],
+ "cer": [],
+ "fix": [
+  [
+   64,
+   "fossil- fuel",
+   "fossil-fuel",
+   "hyphen"
+  ],
+  [
+   69,
+   "green- energy",
+   "green-energy",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "50de6ea571f59db12305773240a2ace65a89e260",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2651,
+  "words_out": 2649,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   84,
+   71,
+   96,
+   207,
+   132,
+   215,
+   241,
+   132,
+   222,
+   125,
+   185,
+   168,
+   110,
+   117,
+   161,
+   76,
+   78,
+   183,
+   46
+  ],
+  "warnings": []
+ }
+}

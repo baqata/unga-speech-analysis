@@ -1,0 +1,79 @@
+{
+ "id": "CAN_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   105,
+   105,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  11,
+  20,
+  27,
+  31,
+  42,
+  45,
+  57,
+  68,
+  72,
+  83,
+  91,
+  93,
+  102
+ ],
+ "cer": [
+  1,
+  91,
+  102
+ ],
+ "fix": [
+  [
+   91,
+   "Bob Ray",
+   "Bob Rae",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ed008ed0d64df501e4f133cb28e263e2e479253",
+ "layout": "single",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1704,
+  "words_out": 1679,
+  "retention": 0.9853,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   15,
+   96,
+   139,
+   97,
+   85,
+   143,
+   62,
+   180,
+   220,
+   76,
+   184,
+   177,
+   48,
+   152,
+   5
+  ],
+  "warnings": []
+ }
+}

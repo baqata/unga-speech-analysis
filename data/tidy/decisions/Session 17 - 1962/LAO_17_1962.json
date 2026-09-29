@@ -1,0 +1,120 @@
+{
+ "id": "LAO_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  13,
+  18,
+  22,
+  25,
+  33,
+  42,
+  44,
+  54,
+  62,
+  64,
+  69,
+  74,
+  80,
+  85,
+  89,
+  93,
+  96,
+  100
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   49,
+   "\"6, They",
+   "\"6. They",
+   "ocr"
+  ],
+  [
+   54,
+   "137, ",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "H.R.H,",
+   "H.R.H.",
+   "ocr"
+  ],
+  [
+   68,
+   "Internal",
+   "internal",
+   "ocr"
+  ],
+  [
+   71,
+   "Out foreign",
+   "Our foreign",
+   "ocr"
+  ],
+  [
+   71,
+   "country of group",
+   "country or group",
+   "ocr"
+  ],
+  [
+   83,
+   "South-East Asia.",
+   "South-East Asia,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 33-41 (the eight-point neutrality statement) and 44-53 (the ten undertakings of the thirteen Powers) are each kept as one quoted list so the item numbers, which the source prints at the end of the preceding unit, stay with their lists; both exceed 300 words.",
+ "unitizer_version": 1,
+ "sha1": "8f7e77b56edb5ab987bf50a49182bcd5806cada3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 3068,
+  "words_out": 3065,
+  "retention": 0.999,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   94,
+   108,
+   87,
+   156,
+   164,
+   130,
+   90,
+   143,
+   394,
+   28,
+   328,
+   264,
+   90,
+   154,
+   139,
+   179,
+   91,
+   86,
+   96,
+   74,
+   95,
+   75
+  ],
+  "warnings": [
+   "paragraph at unit 33 has 394 words",
+   "paragraph at unit 44 has 328 words"
+  ]
+ }
+}

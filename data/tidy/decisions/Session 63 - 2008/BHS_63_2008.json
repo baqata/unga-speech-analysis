@@ -1,0 +1,53 @@
+{
+ "id": "BHS_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  30,
+  44,
+  54,
+  76,
+  102,
+  119,
+  146,
+  165,
+  185,
+  197
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d3867270968129c2c30316104cc9aed3d7edb78",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1623,
+  "words_out": 1621,
+  "retention": 0.9988,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   69,
+   163,
+   97,
+   73,
+   172,
+   210,
+   115,
+   193,
+   138,
+   154,
+   91,
+   146
+  ],
+  "warnings": []
+ }
+}

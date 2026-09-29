@@ -1,0 +1,105 @@
+{
+ "id": "ATG_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   122,
+   123,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  15,
+  22,
+  33,
+  41,
+  48,
+  57,
+  65,
+  73,
+  76,
+  85,
+  91,
+  97,
+  109,
+  113,
+  120
+ ],
+ "cer": [
+  120
+ ],
+ "fix": [
+  [
+   38,
+   "CIDs",
+   "SIDS",
+   "asr_name"
+  ],
+  [
+   42,
+   "ITLAS",
+   "ITLOS",
+   "asr_name"
+  ],
+  [
+   49,
+   "CIDs",
+   "SIDS",
+   "asr_name"
+  ],
+  [
+   50,
+   "CID Center",
+   "SIDS Center",
+   "asr_name"
+  ],
+  [
+   50,
+   "CIDs data",
+   "SIDS data",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56854b47e5cdd7028f6b2454c6828feb162feac6",
+ "layout": "single",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2178,
+  "words_out": 2099,
+  "retention": 0.9637,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   174,
+   128,
+   85,
+   211,
+   134,
+   96,
+   164,
+   153,
+   164,
+   57,
+   146,
+   129,
+   83,
+   184,
+   60,
+   123,
+   8
+  ],
+  "warnings": []
+ }
+}

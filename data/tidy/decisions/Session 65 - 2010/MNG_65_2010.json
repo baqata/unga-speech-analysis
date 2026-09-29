@@ -1,0 +1,71 @@
+{
+ "id": "MNG_65_2010",
+ "drop": [
+  [
+   310,
+   310,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  30,
+  40,
+  64,
+  79,
+  100,
+  114,
+  144,
+  170,
+  182,
+  199,
+  222,
+  236,
+  255,
+  276,
+  290,
+  311,
+  323
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 310 is a meeting-record line noting that the President returned to the Chair.",
+ "unitizer_version": 1,
+ "sha1": "552790d6d5ebd0a8dd94339eb6268b7e55f80eeb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 331,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2458,
+  "words_out": 2449,
+  "retention": 0.9963,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   229,
+   87,
+   191,
+   117,
+   159,
+   107,
+   207,
+   192,
+   91,
+   130,
+   163,
+   94,
+   128,
+   152,
+   99,
+   157,
+   86,
+   60
+  ],
+  "warnings": []
+ }
+}

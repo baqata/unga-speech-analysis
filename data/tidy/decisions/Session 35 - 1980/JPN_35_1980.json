@@ -1,0 +1,133 @@
+{
+ "id": "JPN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  17,
+  22,
+  27,
+  33,
+  39,
+  43,
+  49,
+  53,
+  58,
+  60,
+  64,
+  67,
+  71,
+  75,
+  80,
+  82,
+  87,
+  93,
+  97,
+  99,
+  104,
+  108,
+  112,
+  117,
+  123,
+  126,
+  130,
+  135,
+  138,
+  142
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   19,
+   "multi polarization",
+   "multipolarization",
+   "split_word"
+  ],
+  [
+   87,
+   "and ability as well",
+   "and stability as well",
+   "ocr"
+  ],
+  [
+   93,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "an J balance",
+   "and balance",
+   "ocr"
+  ],
+  [
+   124,
+   "Commodities.\"",
+   "Commodities.",
+   "ocr"
+  ],
+  [
+   138,
+   "82 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6b239ec30df9b56a729a008e6d80226b2d5e8d08",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 4773,
+  "words_out": 4767,
+  "retention": 0.9987,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   131,
+   120,
+   174,
+   132,
+   137,
+   174,
+   160,
+   158,
+   196,
+   136,
+   157,
+   98,
+   140,
+   111,
+   149,
+   106,
+   133,
+   50,
+   127,
+   239,
+   175,
+   53,
+   147,
+   108,
+   151,
+   229,
+   198,
+   132,
+   154,
+   162,
+   87,
+   175,
+   168
+  ],
+  "warnings": []
+ }
+}

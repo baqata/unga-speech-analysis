@@ -1,0 +1,65 @@
+{
+ "id": "SEN_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  12,
+  16,
+  19,
+  21,
+  26,
+  32,
+  37,
+  44,
+  47,
+  52,
+  53,
+  57
+ ],
+ "cer": [
+  0,
+  53
+ ],
+ "fix": [
+  [
+   9,
+   "acred",
+   "sacred",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2d9a0b83baed53590f2e7999f910e59be0b3772e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1473,
+  "words_out": 1473,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   35,
+   102,
+   145,
+   78,
+   95,
+   62,
+   90,
+   151,
+   136,
+   142,
+   96,
+   87,
+   61,
+   144,
+   49
+  ],
+  "warnings": []
+ }
+}

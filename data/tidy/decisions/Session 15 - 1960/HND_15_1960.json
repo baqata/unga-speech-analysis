@@ -1,0 +1,78 @@
+{
+ "id": "HND_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  9,
+  14,
+  18,
+  19,
+  22,
+  23,
+  24,
+  27
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "tire world",
+   "the world",
+   "ocr"
+  ],
+  [
+   21,
+   "San José,-as",
+   "San José, as",
+   "ocr"
+  ],
+  [
+   24,
+   "democracy Is",
+   "democracy is",
+   "ocr"
+  ],
+  [
+   26,
+   "course Is",
+   "course is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec717145a91c826e130cbb3ca610dd7b87ffd806",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 1418,
+  "words_out": 1419,
+  "retention": 1.0007,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   96,
+   134,
+   136,
+   131,
+   177,
+   134,
+   95,
+   128,
+   112,
+   67,
+   120,
+   89
+  ],
+  "warnings": []
+ }
+}

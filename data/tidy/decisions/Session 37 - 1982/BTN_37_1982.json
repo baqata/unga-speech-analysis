@@ -1,0 +1,100 @@
+{
+ "id": "BTN_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  37,
+  49,
+  63,
+  76,
+  99,
+  109,
+  129,
+  144,
+  161,
+  178,
+  202,
+  234,
+  266,
+  299
+ ],
+ "cer": [
+  0,
+  49
+ ],
+ "fix": [
+  [
+   1,
+   "run your",
+   "on your",
+   "ocr"
+  ],
+  [
+   69,
+   "ox all",
+   "of all",
+   "ocr"
+  ],
+  [
+   91,
+   "Ally supports",
+   "fully supports",
+   "ocr"
+  ],
+  [
+   94,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   144,
+   "IL ",
+   "",
+   "label"
+  ],
+  [
+   147,
+   "high- pitched",
+   "high-pitched",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "861037211002f29015fa5e15b32672c0527fd93c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 306,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1,
+   "page_header": 1
+  },
+  "words_in": 2213,
+  "words_out": 2207,
+  "retention": 0.9973,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   103,
+   164,
+   86,
+   99,
+   97,
+   177,
+   82,
+   145,
+   100,
+   125,
+   135,
+   172,
+   214,
+   223,
+   236,
+   49
+  ],
+  "warnings": []
+ }
+}

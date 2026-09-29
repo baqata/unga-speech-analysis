@@ -1,0 +1,198 @@
+{
+ "id": "ECU_36_1981",
+ "drop": [
+  [
+   96,
+   96,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  13,
+  15,
+  19,
+  21,
+  24,
+  26,
+  30,
+  32,
+  36,
+  40,
+  45,
+  49,
+  55,
+  58,
+  62,
+  64,
+  67,
+  72,
+  76,
+  79,
+  82,
+  87,
+  93,
+  97,
+  101,
+  103,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   44,
+   " [resolutions 3201 (S-VI) and 3202 (S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "IV] ",
+   "",
+   "label"
+  ],
+  [
+   101,
+   " [see A/36/1, sect.",
+   "",
+   "label"
+  ],
+  [
+   7,
+   "should, take",
+   "should take",
+   "ocr"
+  ],
+  [
+   22,
+   "a polity,,; and",
+   "a political and",
+   "ocr"
+  ],
+  [
+   34,
+   "tHiTWorst",
+   "the worst",
+   "ocr"
+  ],
+  [
+   45,
+   "avoid title depredations",
+   "avoid the depredations",
+   "ocr"
+  ],
+  [
+   60,
+   "rich and poof",
+   "rich and poor",
+   "ocr"
+  ],
+  [
+   65,
+   "capital*",
+   "capital",
+   "ocr"
+  ],
+  [
+   79,
+   "the,Amazon",
+   "the Amazon",
+   "ocr"
+  ],
+  [
+   80,
+   "Amazonia. a road",
+   "Amazonia, a road",
+   "ocr"
+  ],
+  [
+   86,
+   "[CMS]",
+   "[OAS]",
+   "ocr"
+  ],
+  [
+   87,
+   "1942,1 the",
+   "1942, the",
+   "ocr"
+  ],
+  [
+   104,
+   "to And a",
+   "to find a",
+   "ocr"
+  ],
+  [
+   107,
+   "support,,",
+   "support,",
+   "ocr"
+  ],
+  [
+   86,
+   " [OAS]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40e49baa9b6a3b9a7b308791b18fa50511c35bb5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 41,
+   "page_header": 1
+  },
+  "words_in": 3995,
+  "words_out": 3983,
+  "retention": 0.997,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   109,
+   124,
+   101,
+   177,
+   74,
+   159,
+   91,
+   66,
+   123,
+   150,
+   97,
+   101,
+   149,
+   180,
+   131,
+   213,
+   100,
+   126,
+   69,
+   108,
+   169,
+   205,
+   134,
+   139,
+   223,
+   184,
+   73,
+   157,
+   80,
+   84,
+   87
+  ],
+  "warnings": []
+ }
+}

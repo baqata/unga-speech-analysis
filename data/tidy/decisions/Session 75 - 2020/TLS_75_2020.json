@@ -1,0 +1,56 @@
+{
+ "id": "TLS_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  18,
+  21,
+  24,
+  29,
+  33,
+  36,
+  44,
+  51,
+  56,
+  62
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e5a61312fb162474e1fddf0d6d1f600f1af4ecf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1405,
+  "words_out": 1405,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   21,
+   95,
+   100,
+   112,
+   68,
+   68,
+   175,
+   110,
+   103,
+   119,
+   137,
+   121,
+   136,
+   40
+  ],
+  "warnings": []
+ }
+}

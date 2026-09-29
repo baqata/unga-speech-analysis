@@ -1,0 +1,202 @@
+{
+ "id": "LKA_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  11,
+  15,
+  20,
+  23,
+  27,
+  31,
+  33,
+  36,
+  42,
+  46,
+  52,
+  57,
+  58,
+  60,
+  62,
+  68,
+  74,
+  79,
+  82,
+  88,
+  94,
+  96,
+  97,
+  99,
+  102,
+  105,
+  109,
+  115,
+  122,
+  125,
+  126,
+  127,
+  132,
+  136,
+  145
+ ],
+ "cer": [
+  0,
+  9,
+  11,
+  15
+ ],
+ "fix": [
+  [
+   0,
+   "cast .in",
+   "cast in",
+   "ocr"
+  ],
+  [
+   5,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   6,
+   "Stronger",
+   "stronger",
+   "ocr"
+  ],
+  [
+   42,
+   " [resolution 18/ (II)]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "price bf",
+   "price of",
+   "ocr"
+  ],
+  [
+   103,
+   "regarded, as",
+   "regarded as",
+   "ocr"
+  ],
+  [
+   108,
+   " [resolution 3201 (S-Vi)]",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "Pro-gramme",
+   "Programme",
+   "hyphen"
+  ],
+  [
+   108,
+   " [resolution 3202 (S- VI)]",
+   "",
+   "label"
+  ],
+  [
+   119,
+   "Bis ilat qui cito dot",
+   "Bis dat qui cito dat",
+   "ocr"
+  ],
+  [
+   127,
+   " IA19629 and Add.l[",
+   "",
+   "label"
+  ],
+  [
+   130,
+   "not-too- distant",
+   "not-too-distant",
+   "spacing"
+  ],
+  [
+   131,
+   "detente,",
+   "detente.",
+   "ocr"
+  ],
+  [
+   144,
+   "op-portunity",
+   "opportunity",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efa46adf23402fb2a90c767ef45f571f08524ce7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 47
+  },
+  "words_in": 5396,
+  "words_out": 5377,
+  "retention": 0.9965,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   169,
+   120,
+   111,
+   74,
+   119,
+   151,
+   99,
+   158,
+   92,
+   69,
+   126,
+   148,
+   210,
+   174,
+   144,
+   140,
+   120,
+   92,
+   217,
+   201,
+   155,
+   68,
+   164,
+   200,
+   89,
+   80,
+   112,
+   84,
+   132,
+   209,
+   219,
+   156,
+   170,
+   80,
+   64,
+   128,
+   167,
+   220,
+   146
+  ],
+  "warnings": []
+ }
+}

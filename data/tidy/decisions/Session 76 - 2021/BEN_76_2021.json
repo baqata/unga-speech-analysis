@@ -1,0 +1,101 @@
+{
+ "id": "BEN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  15,
+  18,
+  22,
+  26,
+  36,
+  41,
+  46,
+  51
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   19,
+   "- Terrorism",
+   "Terrorism",
+   "markup"
+  ],
+  [
+   20,
+   "- Maritime",
+   "Maritime",
+   "markup"
+  ],
+  [
+   28,
+   "- an adequate",
+   "an adequate",
+   "markup"
+  ],
+  [
+   29,
+   "- quality",
+   "quality",
+   "markup"
+  ],
+  [
+   30,
+   "- health",
+   "health",
+   "markup"
+  ],
+  [
+   32,
+   "- drinking",
+   "drinking",
+   "markup"
+  ],
+  [
+   33,
+   "- energy",
+   "energy",
+   "markup"
+  ],
+  [
+   38,
+   "there-fore",
+   "therefore",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9221a7eba2a33e682b4840b92e19216088b354b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1061,
+  "words_out": 1054,
+  "retention": 0.9934,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   20,
+   56,
+   90,
+   161,
+   64,
+   66,
+   84,
+   168,
+   108,
+   66,
+   133,
+   38
+  ],
+  "warnings": []
+ }
+}

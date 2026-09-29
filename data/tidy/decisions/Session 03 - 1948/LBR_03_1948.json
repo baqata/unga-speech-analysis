@@ -1,0 +1,50 @@
+{
+ "id": "LBR_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  15,
+  20,
+  25
+ ],
+ "cer": [
+  25
+ ],
+ "fix": [
+  [
+   12,
+   "in, the",
+   "in the",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "7b270e4e6f79329a0b8f0d4019d2369542c39259",
+ "layout": "lines",
+ "stats": {
+  "n_units": 27,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 938,
+  "words_out": 938,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   117,
+   198,
+   120,
+   114,
+   147,
+   192,
+   50
+  ],
+  "warnings": []
+ }
+}

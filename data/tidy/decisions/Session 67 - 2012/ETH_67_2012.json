@@ -1,0 +1,86 @@
+{
+ "id": "ETH_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  37,
+  50,
+  62,
+  76,
+  99,
+  116,
+  129,
+  144,
+  163,
+  178,
+  189
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "(see A/67/",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "PV.6)",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "self lessly",
+   "selflessly",
+   "split_word"
+  ],
+  [
+   61,
+   "thathas",
+   "that has",
+   "merged_word"
+  ],
+  [
+   128,
+   "f lag",
+   "flag",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f13d0259c361be7b3028d398255a5f7071559833",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1823,
+  "words_out": 1819,
+  "retention": 0.9978,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   68,
+   124,
+   134,
+   116,
+   116,
+   116,
+   215,
+   145,
+   134,
+   142,
+   148,
+   126,
+   88,
+   147
+  ],
+  "warnings": []
+ }
+}

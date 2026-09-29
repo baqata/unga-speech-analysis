@@ -1,0 +1,78 @@
+{
+ "id": "AFG_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  16,
+  21,
+  25,
+  31,
+  35,
+  40,
+  46,
+  50,
+  54,
+  62,
+  68,
+  73,
+  77,
+  81
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ],
+  [
+   78,
+   "Turkmenistan- Afghanistan",
+   "Turkmenistan-Afghanistan",
+   "hyphen"
+  ],
+  [
+   84,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4a193e8379a409ce8aa0e64b3e473df491e3852c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1871,
+  "words_out": 1868,
+  "retention": 0.9984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   97,
+   139,
+   155,
+   137,
+   102,
+   143,
+   98,
+   127,
+   142,
+   69,
+   69,
+   143,
+   88,
+   67,
+   76,
+   96,
+   120
+  ],
+  "warnings": []
+ }
+}

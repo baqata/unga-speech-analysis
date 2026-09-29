@@ -1,0 +1,95 @@
+{
+ "id": "KAZ_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  16,
+  18,
+  23,
+  26,
+  29,
+  32,
+  34,
+  39,
+  43,
+  46,
+  51,
+  54,
+  59,
+  64,
+  68,
+  73
+ ],
+ "cer": [
+  0,
+  73
+ ],
+ "fix": [
+  [
+   3,
+   "seventy- sixth",
+   "seventy-sixth",
+   "spacing"
+  ],
+  [
+   42,
+   "vulnerabilities. *",
+   "vulnerabilities.",
+   "markup"
+  ],
+  [
+   48,
+   "democracy- nurturing",
+   "democracy-nurturing",
+   "spacing"
+  ],
+  [
+   57,
+   "2022- 2024",
+   "2022-2024",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "df427a3badb5c4cb5fc78560ee07791409dbc873",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "md_bold": 1
+  },
+  "words_in": 1735,
+  "words_out": 1731,
+  "retention": 0.9977,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   23,
+   136,
+   109,
+   65,
+   76,
+   103,
+   75,
+   89,
+   74,
+   60,
+   113,
+   121,
+   61,
+   110,
+   92,
+   112,
+   151,
+   72,
+   87,
+   2
+  ],
+  "warnings": []
+ }
+}

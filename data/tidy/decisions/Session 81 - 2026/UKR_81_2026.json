@@ -1,0 +1,280 @@
+{
+ "id": "UKR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   195,
+   195,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  13,
+  24,
+  29,
+  37,
+  48,
+  57,
+  68,
+  76,
+  88,
+  100,
+  114,
+  120,
+  129,
+  144,
+  148,
+  153,
+  165,
+  174,
+  182,
+  193
+ ],
+ "cer": [
+  2,
+  193
+ ],
+ "fix": [
+  [
+   83,
+   "vita",
+   "veto",
+   "asr_term"
+  ],
+  [
+   90,
+   "and Shahids",
+   "and Shaheds",
+   "asr_name"
+  ],
+  [
+   90,
+   "jet-powered Shahids",
+   "jet-powered Shaheds",
+   "asr_name"
+  ],
+  [
+   93,
+   "shahids",
+   "Shaheds",
+   "asr_name"
+  ],
+  [
+   95,
+   "shahids",
+   "Shaheds",
+   "asr_name"
+  ],
+  [
+   100,
+   "shahids",
+   "Shaheds",
+   "asr_name"
+  ],
+  [
+   108,
+   "petro-systems",
+   "Patriot systems",
+   "asr_name"
+  ],
+  [
+   127,
+   "detour",
+   "deter",
+   "asr_term"
+  ],
+  [
+   191,
+   ". life",
+   "",
+   "label"
+  ],
+  [
+   194,
+   "Ukraine",
+   "Ukraini",
+   "asr_term"
+  ],
+  [
+   102,
+   "FREYA",
+   "FREYJA",
+   "asr_name"
+  ],
+  [
+   106,
+   "join FREA.",
+   "join FREYJA.",
+   "asr_name"
+  ],
+  [
+   108,
+   "Our Freya program",
+   "Our FREYJA program",
+   "asr_name"
+  ],
+  [
+   108,
+   "SMPT",
+   "SAMP/T",
+   "asr_name"
+  ],
+  [
+   119,
+   "FREA to join",
+   "FREYJA. Join",
+   "asr_name"
+  ],
+  [
+   125,
+   "here, unlike Ukraine,",
+   "here are like Ukraine",
+   "asr_term"
+  ],
+  [
+   144,
+   " thousands.",
+   "",
+   "label"
+  ],
+  [
+   151,
+   "We need ",
+   "",
+   "label"
+  ],
+  [
+   179,
+   "war. in this",
+   "war. In this",
+   "asr_term"
+  ],
+  [
+   39,
+   "he was he was",
+   "he was",
+   "asr_term"
+  ],
+  [
+   147,
+   "just Just",
+   "just",
+   "asr_term"
+  ],
+  [
+   170,
+   "digital, digital,",
+   "digital,",
+   "asr_term"
+  ],
+  [
+   10,
+   "right. this",
+   "right. This",
+   "asr_term"
+  ],
+  [
+   48,
+   "region. and",
+   "region. And",
+   "asr_term"
+  ],
+  [
+   67,
+   "stopped. he",
+   "stopped. He",
+   "asr_term"
+  ],
+  [
+   125,
+   "nations. and",
+   "nations. And",
+   "asr_term"
+  ],
+  [
+   109,
+   "defense, that",
+   "defense, one that",
+   "asr_term"
+  ],
+  [
+   120,
+   "aggressors",
+   "aggressor",
+   "asr_term"
+  ],
+  [
+   146,
+   "produced",
+   "produce",
+   "asr_term"
+  ],
+  [
+   149,
+   "heating. understand",
+   "heating. Ukrainians understand",
+   "asr_term"
+  ],
+  [
+   150,
+   "these escalation",
+   "de-escalation",
+   "asr_term"
+  ],
+  [
+   167,
+   "the world",
+   "war",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in English; 'veto' per Spanish; Shahed drones and Patriot systems by name; repeated 'life.' removed in unit 191; closing 'Slava Ukraini'. Main-agent audit (re-decoding): the anti-ballistic programme is FREYJA (UN News 23 Sep 2026; UNITED24), members Ukraine, Norway, Sweden, Denmark, Germany, France, Italy, UK, Spain, Netherlands, so unit 104 'Sweden' is right (Spanish 'Suiza' wrong); SAMP/T is the Franco-Italian system; unit 119 re-decodes 'We need Freya. Join these common efforts' (Spanish 'súmense a esta iniciativa común'); unit 125 decodes differ ('unlike' p 0.78 / 'are like' p 0.58-0.96), Spanish 'son como Ucrania era antes', and only 'like' fits 'you are peaceful nations'; units 144 and 151 doubled words removed. Kept as heard: unit 150 'these escalation steps' (re-decodes 'these collation steps' p 0.63-0.77; Spanish only 'estas medidas'; 'de-escalation' possible but unconfirmed), unit 179 'Kenya' (p 0.97-0.98; Spanish 'Guinea'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 39 'he was he was' -> 'he was' (the re-decodes differ, the second 'he' at p 0.40); unit 147 'just Just' -> 'just'; unit 170 'digital, digital,' -> 'digital,'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 10 'right. this' -> 'right. This'; unit 48 'region. and' -> 'region. And'; unit 67 'stopped. he' -> 'stopped. He'; unit 125 'nations. and' -> 'nations. And'; unit 149 'heating. understand' -> 'heating. Understand'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 30 unit 109 'defense, that' -> 'defense, one that' (2026 exception: both decodes hear 'one' (0.99 / 0.99) at 921 s; ES 'un sistema que pueda ayudar' renders it); spot 33 unit 120 'aggressors' -> 'aggressor' (both decodes hear 'aggressor.' (0.90 / 0.90); ES 'sanciones contra el agresor'); spot 37 unit 146 'produced' -> 'produce' (both decodes hear 'produce' (0.96 / 0.98) before 'a'; ES 'También producimos' (present)); spot 38 unit 149 'heating. understand' -> 'heating. Ukrainians understand' (2026 exception: both decodes hear 'Ukrainians' (0.99 / 0.98); published text (Kyiv Post quote) 'Ukrainians understand that this winter'; ES 'Sabemos' only paraphrases; old is the existing repair's old); spot 39 unit 150 'these escalation' -> 'de-escalation' (unsure resolved: the audio is not settled (forced scoring in context 'these escalation' -29.7 vs 'de-escalation' -32.0; the decodes and three re-decodes hear 'these collation' / 'these Galatians', the four syllables of a run-together 'de-escalation', with no separate 'es'); the UN transcript hears 'de-escalation', and Meduza's direct quote of the address reads 'That is exactly why we say that de-escalation steps are important and are needed before winter'); spot 43 unit 167 'the world' -> 'war' (both decodes hear 'nothing in war works' (0.96 / 0.97); published text (president.gov.ua, via search) 'nothing in war works the same way it did, by the way, in 2022')",
+ "unitizer_version": 1,
+ "sha1": "0ee40dbd6c247d3cfd104e2defa376457bc4ffbc",
+ "layout": "single",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3088,
+  "words_out": 3038,
+  "retention": 0.9838,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   4,
+   157,
+   136,
+   77,
+   123,
+   111,
+   121,
+   205,
+   144,
+   197,
+   210,
+   222,
+   70,
+   195,
+   192,
+   149,
+   108,
+   187,
+   159,
+   143,
+   104,
+   24
+  ],
+  "warnings": [
+   "32 fixes"
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "BTN_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  18,
+  22,
+  29,
+  33,
+  36,
+  40,
+  44,
+  49,
+  58,
+  62,
+  67,
+  72,
+  75
+ ],
+ "cer": [
+  0,
+  4,
+  75
+ ],
+ "fix": [
+  [
+   6,
+   "of' Germany",
+   "of Germany",
+   "ocr"
+  ],
+  [
+   14,
+   "Our-present",
+   "Our present",
+   "ocr"
+  ],
+  [
+   18,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   20,
+   "of. independence",
+   "of independence",
+   "ocr"
+  ],
+  [
+   61,
+   " [resolution 2930 (X VII)]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5cdc7540d857117bc06827985c65d9b5848b4d0b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 18
+  },
+  "words_in": 2204,
+  "words_out": 2193,
+  "retention": 0.995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   128,
+   200,
+   166,
+   112,
+   189,
+   124,
+   125,
+   99,
+   81,
+   161,
+   203,
+   157,
+   151,
+   142,
+   82,
+   73
+  ],
+  "warnings": []
+ }
+}

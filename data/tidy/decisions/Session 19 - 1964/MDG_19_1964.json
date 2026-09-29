@@ -1,0 +1,111 @@
+{
+ "id": "MDG_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  15,
+  19,
+  21,
+  24,
+  27,
+  31,
+  34,
+  37,
+  43,
+  45,
+  48,
+  50,
+  53,
+  60,
+  63,
+  66,
+  71,
+  75,
+  76,
+  79,
+  82
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   36,
+   "Wo firmly",
+   "We firmly",
+   "ocr"
+  ],
+  [
+   56,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   67,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   76,
+   " [item 6 of the supplementary list]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   " [A/5757 and Add.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "70a310c316873e83d9c40ac7317d33184501d3f3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3311,
+  "words_out": 3300,
+  "retention": 0.9967,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   132,
+   117,
+   131,
+   139,
+   202,
+   112,
+   119,
+   114,
+   128,
+   178,
+   133,
+   160,
+   73,
+   115,
+   76,
+   117,
+   127,
+   114,
+   149,
+   158,
+   182,
+   63,
+   141,
+   185,
+   135
+  ],
+  "warnings": []
+ }
+}

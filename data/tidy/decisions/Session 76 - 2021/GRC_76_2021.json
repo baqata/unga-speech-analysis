@@ -1,0 +1,92 @@
+{
+ "id": "GRC_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  19,
+  24,
+  27,
+  32,
+  35,
+  38,
+  41,
+  44,
+  51,
+  56,
+  59,
+  62,
+  67,
+  75,
+  78,
+  81
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   27,
+   "electricity- production",
+   "electricity-production",
+   "spacing"
+  ],
+  [
+   66,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   81,
+   "two- hundredth",
+   "two-hundredth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "862bb4eca5243b36ea1a4dc1ccd49e389b5056df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2014,
+  "words_out": 2010,
+  "retention": 0.998,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   89,
+   101,
+   132,
+   135,
+   83,
+   100,
+   94,
+   74,
+   96,
+   110,
+   80,
+   133,
+   114,
+   64,
+   81,
+   102,
+   122,
+   92,
+   83,
+   125
+  ],
+  "warnings": []
+ }
+}

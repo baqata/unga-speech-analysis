@@ -1,0 +1,158 @@
+{
+ "id": "BOL_29_1974",
+ "drop": [
+  [
+   28,
+   28,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  17,
+  24,
+  29,
+  31,
+  33,
+  39,
+  42,
+  45,
+  48,
+  51,
+  53,
+  57,
+  60,
+  65,
+  69,
+  75,
+  80,
+  87,
+  93,
+  96
+ ],
+ "cer": [
+  0,
+  5,
+  7,
+  11
+ ],
+ "fix": [
+  [
+   5,
+   "Boutefiika",
+   "Bouteflika",
+   "ocr"
+  ],
+  [
+   16,
+   "brother-hood",
+   "brotherhood",
+   "hyphen"
+  ],
+  [
+   21,
+   "pas-sage",
+   "passage",
+   "hyphen"
+  ],
+  [
+   27,
+   "Organ-ization",
+   "Organization",
+   "hyphen"
+  ],
+  [
+   27,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   40,
+   "shoul-dered",
+   "shouldered",
+   "hyphen"
+  ],
+  [
+   47,
+   "altitudes",
+   "attitudes",
+   "ocr"
+  ],
+  [
+   78,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   79,
+   "inter- American",
+   "inter-American",
+   "spacing"
+  ],
+  [
+   88,
+   "yea* s",
+   "years",
+   "ocr"
+  ],
+  [
+   27,
+   "complete ,",
+   "complete.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 22-23 are partly illegible in the scan.",
+ "unitizer_version": 1,
+ "sha1": "e440eeaf9a5b3693e6138e33585ce7236a105d5c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 37
+  },
+  "words_in": 2713,
+  "words_out": 2706,
+  "retention": 0.9974,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   155,
+   54,
+   102,
+   147,
+   121,
+   102,
+   98,
+   81,
+   133,
+   74,
+   117,
+   129,
+   97,
+   69,
+   127,
+   70,
+   141,
+   105,
+   186,
+   145,
+   123,
+   144,
+   107,
+   79
+  ],
+  "warnings": []
+ }
+}

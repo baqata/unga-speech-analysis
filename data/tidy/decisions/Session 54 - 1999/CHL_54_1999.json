@@ -1,0 +1,74 @@
+{
+ "id": "CHL_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  51,
+  71,
+  90,
+  100,
+  111,
+  126,
+  148,
+  165,
+  178,
+  206,
+  217,
+  237,
+  261,
+  278,
+  295,
+  315,
+  327
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   235,
+   "Somav'a",
+   "Somavía",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f229aa8fb4897180e2fc73c9f28d69da75566745",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 335,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2826,
+  "words_out": 2825,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   157,
+   247,
+   171,
+   168,
+   89,
+   92,
+   129,
+   200,
+   149,
+   110,
+   223,
+   100,
+   165,
+   202,
+   128,
+   144,
+   175,
+   102,
+   74
+  ],
+  "warnings": []
+ }
+}

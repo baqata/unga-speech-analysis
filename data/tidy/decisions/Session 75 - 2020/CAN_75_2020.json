@@ -1,0 +1,49 @@
+{
+ "id": "CAN_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  10,
+  17,
+  25,
+  30,
+  36,
+  45,
+  56,
+  62,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "57439de08caa456f70b6e46a3b457ab85b4b96da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1411,
+  "words_out": 1411,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   6,
+   145,
+   160,
+   155,
+   107,
+   108,
+   197,
+   206,
+   146,
+   94,
+   87
+  ],
+  "warnings": []
+ }
+}

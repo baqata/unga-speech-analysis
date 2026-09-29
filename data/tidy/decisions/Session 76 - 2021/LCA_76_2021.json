@@ -1,0 +1,82 @@
+{
+ "id": "LCA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  11,
+  14,
+  19,
+  22,
+  29,
+  35,
+  38,
+  40,
+  47,
+  50,
+  56,
+  58,
+  63,
+  70,
+  76,
+  81,
+  86,
+  91,
+  97
+ ],
+ "cer": [
+  0,
+  4,
+  97
+ ],
+ "fix": [
+  [
+   62,
+   "then- Vice President",
+   "then-Vice President",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b97381a76fe4c831b6c2a11ca9af8b2b709109e5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2981,
+  "words_out": 2980,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   36,
+   124,
+   90,
+   168,
+   118,
+   130,
+   104,
+   222,
+   141,
+   95,
+   67,
+   161,
+   106,
+   174,
+   79,
+   160,
+   224,
+   177,
+   141,
+   169,
+   131,
+   160,
+   3
+  ],
+  "warnings": []
+ }
+}

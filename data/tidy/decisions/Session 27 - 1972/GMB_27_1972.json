@@ -1,0 +1,85 @@
+{
+ "id": "GMB_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  8,
+  10,
+  17,
+  22,
+  26,
+  31,
+  36,
+  43,
+  47,
+  52,
+  58
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   11,
+   "crude oil. and",
+   "crude oil and",
+   "ocr"
+  ],
+  [
+   17,
+   "in view, of",
+   "in view of",
+   "ocr"
+  ],
+  [
+   48,
+   "UNCTAD, was",
+   "UNCTAD was",
+   "ocr"
+  ],
+  [
+   59,
+   "AS a",
+   "As a",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e03188cb960d565340ed00c54dcc3a3e641934c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 2164,
+  "words_out": 2164,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   59,
+   31,
+   91,
+   183,
+   89,
+   193,
+   248,
+   74,
+   175,
+   134,
+   266,
+   113,
+   155,
+   215,
+   138
+  ],
+  "warnings": []
+ }
+}

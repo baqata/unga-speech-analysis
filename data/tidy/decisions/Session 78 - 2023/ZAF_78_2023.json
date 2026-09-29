@@ -1,0 +1,210 @@
+{
+ "id": "ZAF_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  13,
+  16,
+  21,
+  25,
+  32,
+  38,
+  40,
+  43,
+  48,
+  52,
+  57,
+  67,
+  77,
+  82,
+  85,
+  92,
+  96,
+  101
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "ago. in",
+   "ago, in",
+   "ocr"
+  ],
+  [
+   0,
+   "War. the",
+   "War, the",
+   "ocr"
+  ],
+  [
+   2,
+   "Yet. as",
+   "Yet, as",
+   "ocr"
+  ],
+  [
+   7,
+   "can. and",
+   "can, and",
+   "ocr"
+  ],
+  [
+   15,
+   "who. as",
+   "who, as",
+   "ocr"
+  ],
+  [
+   16,
+   "we. as",
+   "we, as",
+   "ocr"
+  ],
+  [
+   19,
+   "Zelenskyy. who",
+   "Zelenskyy, who",
+   "ocr"
+  ],
+  [
+   22,
+   "continent.",
+   "continent,",
+   "ocr"
+  ],
+  [
+   24,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   26,
+   "Congo.",
+   "Congo,",
+   "ocr"
+  ],
+  [
+   27,
+   "Sudan.",
+   "Sudan,",
+   "ocr"
+  ],
+  [
+   28,
+   "Somalia.",
+   "Somalia,",
+   "ocr"
+  ],
+  [
+   29,
+   "Republic.",
+   "Republic,",
+   "ocr"
+  ],
+  [
+   39,
+   "country. South",
+   "country, South",
+   "ocr"
+  ],
+  [
+   48,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   56,
+   "so. we",
+   "so, we",
+   "ocr"
+  ],
+  [
+   61,
+   "Africa.",
+   "Africa,",
+   "ocr"
+  ],
+  [
+   88,
+   "Brazil.",
+   "Brazil,",
+   "ocr"
+  ],
+  [
+   89,
+   "Federation.",
+   "Federation,",
+   "ocr"
+  ],
+  [
+   90,
+   "India.",
+   "India,",
+   "ocr"
+  ],
+  [
+   96,
+   "instability. Africa",
+   "instability, Africa",
+   "ocr"
+  ],
+  [
+   99,
+   "that treaty.",
+   "that treaty,",
+   "ocr"
+  ],
+  [
+   102,
+   "and. more",
+   "and, more",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af906a5844493a95dcd36be2752bed41868f26eb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2267,
+  "words_out": 2265,
+  "retention": 0.9991,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   92,
+   65,
+   84,
+   114,
+   126,
+   78,
+   107,
+   123,
+   79,
+   79,
+   145,
+   130,
+   80,
+   143,
+   172,
+   137,
+   60,
+   109,
+   76,
+   99,
+   77
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

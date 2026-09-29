@@ -1,0 +1,64 @@
+{
+ "id": "MWI_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  16,
+  23,
+  26,
+  34,
+  39,
+  41,
+  48,
+  53,
+  59,
+  67
+ ],
+ "cer": [
+  0,
+  3,
+  67
+ ],
+ "fix": [
+  [
+   28,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9231349f526250d24eb94b1257cdfcca72c1fe6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1527,
+  "words_out": 1526,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   35,
+   117,
+   116,
+   119,
+   196,
+   98,
+   188,
+   84,
+   62,
+   145,
+   68,
+   112,
+   175,
+   11
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "ARE_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  32,
+  56,
+  70,
+  81,
+  90,
+  101,
+  109,
+  119,
+  129,
+  143,
+  161,
+  174,
+  192,
+  207,
+  217
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1477edfa8c28e51d3e3042683e832c805a9dec1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1703,
+  "words_out": 1701,
+  "retention": 0.9988,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   134,
+   110,
+   177,
+   105,
+   88,
+   72,
+   86,
+   59,
+   76,
+   76,
+   111,
+   131,
+   98,
+   148,
+   107,
+   69,
+   54
+  ],
+  "warnings": []
+ }
+}

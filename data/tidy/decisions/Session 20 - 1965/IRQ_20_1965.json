@@ -1,0 +1,100 @@
+{
+ "id": "IRQ_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  22,
+  29,
+  32,
+  38,
+  44,
+  48,
+  57,
+  70,
+  77,
+  88,
+  96,
+  102,
+  112,
+  121,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "instrument Of peace",
+   "instrument of peace",
+   "ocr"
+  ],
+  [
+   40,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   85,
+   "Arab- British",
+   "Arab-British",
+   "hyphen"
+  ],
+  [
+   100,
+   "repression In the",
+   "repression in the",
+   "ocr"
+  ],
+  [
+   106,
+   "That and they alone",
+   "They and they alone",
+   "ocr"
+  ],
+  [
+   129,
+   "willingness of the part",
+   "willingness on the part",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f08c28be4a5da9a7dbfbbf5b12de23157ba8cd7d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 133,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3116,
+  "words_out": 3087,
+  "retention": 0.9907,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   139,
+   127,
+   255,
+   178,
+   68,
+   122,
+   148,
+   75,
+   200,
+   256,
+   213,
+   271,
+   165,
+   200,
+   206,
+   167,
+   83,
+   214
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "id": "RUS_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  29,
+  46,
+  69,
+  81,
+  96,
+  106,
+  116,
+  132,
+  144,
+  155,
+  167,
+  189,
+  204,
+  222,
+  237,
+  241,
+  256,
+  275,
+  287,
+  299,
+  314
+ ],
+ "cer": [],
+ "fix": [
+  [
+   30,
+   "countryâs",
+   "country’s",
+   "encoding"
+  ],
+  [
+   40,
+   "Russiaâs",
+   "Russia’s",
+   "encoding"
+  ],
+  [
+   89,
+   "Iraqâs",
+   "Iraq’s",
+   "encoding"
+  ],
+  [
+   113,
+   "Afghanistanâs",
+   "Afghanistan’s",
+   "encoding"
+  ],
+  [
+   127,
+   "Israelâs",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   150,
+   "Africaâs",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   154,
+   "Africaâs",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   176,
+   "Brazilâs",
+   "Brazil’s",
+   "encoding"
+  ],
+  [
+   262,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   269,
+   "Councilâs",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   281,
+   "Russiaâs",
+   "Russia’s",
+   "encoding"
+  ],
+  [
+   312,
+   "professionâs",
+   "profession’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cdaaf31053ee58ea406101f90ed4a2c285a74b8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 326,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 5,
+   "page_number": 3
+  },
+  "words_in": 2724,
+  "words_out": 2719,
+  "retention": 0.9982,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   69,
+   158,
+   134,
+   194,
+   103,
+   126,
+   87,
+   76,
+   130,
+   103,
+   90,
+   99,
+   187,
+   122,
+   157,
+   106,
+   35,
+   126,
+   163,
+   102,
+   113,
+   123,
+   116
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "id": "CHL_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  23,
+  44,
+  61,
+  80,
+  94,
+  111,
+  127,
+  139,
+  154,
+  166,
+  182,
+  199,
+  225,
+  241,
+  259
+ ],
+ "cer": [
+  16
+ ],
+ "fix": [
+  [
+   11,
+   "poverty.",
+   "poverty,",
+   "ocr"
+  ],
+  [
+   22,
+   "Shihabi.*",
+   "Shihabi.",
+   "ocr"
+  ],
+  [
+   166,
+   "the\" Economic",
+   "the Economic",
+   "ocr"
+  ],
+  [
+   169,
+   "environment. problems",
+   "environment problems",
+   "ocr"
+  ],
+  [
+   184,
+   "d'√™tre",
+   "d'être",
+   "encoding"
+  ],
+  [
+   251,
+   "value.*",
+   "value.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "065dbab45ab6b8d169be35231c7a90e41d557f08",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 274,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2926,
+  "words_out": 2925,
+  "retention": 0.9997,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   150,
+   68,
+   214,
+   189,
+   202,
+   140,
+   178,
+   181,
+   133,
+   162,
+   122,
+   165,
+   200,
+   291,
+   176,
+   195,
+   159
+  ],
+  "warnings": []
+ }
+}

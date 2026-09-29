@@ -1,0 +1,100 @@
+{
+ "id": "NOR_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  19,
+  22,
+  28,
+  36,
+  41,
+  47,
+  53,
+  57,
+  66,
+  70,
+  80,
+  86,
+  93,
+  100,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "military Held",
+   "military field",
+   "ocr"
+  ],
+  [
+   34,
+   "land- based",
+   "land-based",
+   "hyphen"
+  ],
+  [
+   48,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   85,
+   "the Held of",
+   "the field of",
+   "ocr"
+  ],
+  [
+   92,
+   "Rights 9 has",
+   "Rights has",
+   "ocr"
+  ],
+  [
+   93,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d2e58e27b914aeeed1f24cbe6788c67972c26a50",
+ "layout": "single",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2344,
+  "words_out": 2340,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   43,
+   197,
+   175,
+   82,
+   110,
+   163,
+   105,
+   130,
+   151,
+   66,
+   183,
+   130,
+   163,
+   122,
+   142,
+   162,
+   95,
+   121
+  ],
+  "warnings": []
+ }
+}

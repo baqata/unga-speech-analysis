@@ -1,0 +1,98 @@
+{
+ "id": "IRL_48_1993",
+ "drop": [
+  [
+   85,
+   85,
+   "header_footer"
+  ],
+  [
+   178,
+   178,
+   "header_footer"
+  ],
+  [
+   273,
+   273,
+   "header_footer"
+  ],
+  [
+   365,
+   365,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  26,
+  41,
+  59,
+  77,
+  89,
+  119,
+  145,
+  156,
+  166,
+  179,
+  190,
+  199,
+  216,
+  236,
+  245,
+  262,
+  281,
+  300,
+  311,
+  327,
+  341,
+  356
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d542956aca8cceb7907a1df3b6497634c461aeb1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 370,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 3255,
+  "words_out": 3229,
+  "retention": 0.992,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   87,
+   142,
+   149,
+   165,
+   161,
+   97,
+   268,
+   233,
+   94,
+   85,
+   104,
+   97,
+   73,
+   131,
+   171,
+   75,
+   151,
+   151,
+   156,
+   96,
+   159,
+   122,
+   144,
+   118
+  ],
+  "warnings": []
+ }
+}

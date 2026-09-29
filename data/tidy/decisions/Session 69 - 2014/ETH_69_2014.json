@@ -1,0 +1,47 @@
+{
+ "id": "ETH_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  45,
+  54,
+  70,
+  86,
+  101,
+  111,
+  131
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text jumps at unit 33 (sentence starts mid-way with 'global warming'); a page appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "97c64dfc4d6ab466f3269939b8d989919287dc89",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1268,
+  "words_out": 1266,
+  "retention": 0.9984,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   188,
+   197,
+   79,
+   136,
+   136,
+   138,
+   85,
+   170,
+   137
+  ],
+  "warnings": []
+ }
+}

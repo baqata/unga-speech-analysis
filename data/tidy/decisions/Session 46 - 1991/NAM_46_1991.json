@@ -1,0 +1,120 @@
+{
+ "id": "NAM_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  14,
+  16,
+  18,
+  23,
+  25,
+  28,
+  32,
+  37,
+  41,
+  45,
+  50,
+  53,
+  55,
+  58,
+  62,
+  65,
+  70,
+  75,
+  79,
+  84,
+  88,
+  91,
+  95
+ ],
+ "cer": [
+  0,
+  3,
+  95
+ ],
+ "fix": [
+  [
+   57,
+   "Hon-Aligned",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   63,
+   "Development.",
+   "Development",
+   "ocr"
+  ],
+  [
+   64,
+   "(UHPAAESO)",
+   "(UNPAAERD)",
+   "ocr"
+  ],
+  [
+   80,
+   "off-short island",
+   "off-shore islands",
+   "ocr"
+  ],
+  [
+   80,
+   "the rent of",
+   "the rest of",
+   "ocr"
+  ],
+  [
+   81,
+   "Malvis Bay",
+   "Walvis Bay",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd8995a62c7bda4a724f079c965f0c8d419e1b75",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2721,
+  "words_out": 2721,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   77,
+   142,
+   52,
+   101,
+   69,
+   91,
+   124,
+   61,
+   115,
+   114,
+   88,
+   136,
+   81,
+   127,
+   65,
+   53,
+   71,
+   95,
+   78,
+   137,
+   100,
+   97,
+   186,
+   129,
+   60,
+   88,
+   184
+  ],
+  "warnings": []
+ }
+}

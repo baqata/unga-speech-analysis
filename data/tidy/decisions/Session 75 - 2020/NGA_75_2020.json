@@ -1,0 +1,180 @@
+{
+ "id": "NGA_75_2020",
+ "drop": [
+  [
+   14,
+   14,
+   "heading"
+  ],
+  [
+   22,
+   22,
+   "heading"
+  ],
+  [
+   25,
+   25,
+   "heading"
+  ],
+  [
+   36,
+   36,
+   "heading"
+  ],
+  [
+   41,
+   41,
+   "heading"
+  ],
+  [
+   46,
+   46,
+   "heading"
+  ],
+  [
+   50,
+   50,
+   "heading"
+  ],
+  [
+   56,
+   56,
+   "heading"
+  ],
+  [
+   62,
+   62,
+   "heading"
+  ],
+  [
+   69,
+   69,
+   "heading"
+  ],
+  [
+   73,
+   73,
+   "heading"
+  ],
+  [
+   77,
+   77,
+   "heading"
+  ],
+  [
+   83,
+   83,
+   "heading"
+  ],
+  [
+   90,
+   90,
+   "heading"
+  ],
+  [
+   99,
+   99,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  17,
+  26,
+  30,
+  33,
+  37,
+  42,
+  47,
+  51,
+  57,
+  63,
+  70,
+  74,
+  78,
+  84,
+  91,
+  95,
+  102
+ ],
+ "cer": [
+  0,
+  5,
+  102
+ ],
+ "fix": [
+  [
+   32,
+   "coronavirus .",
+   "coronavirus.",
+   "spacing"
+  ],
+  [
+   54,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   76,
+   "Muhammad- Bande",
+   "Muhammad-Bande",
+   "hyphen"
+  ],
+  [
+   79,
+   "rights- related",
+   "rights-related",
+   "hyphen"
+  ],
+  [
+   95,
+   "UNITED NATIONS REFORM ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1bff612844b0adc70644d2dd3a3790fcd0c24fb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "heading": 15
+  },
+  "prestrip": {},
+  "words_in": 2020,
+  "words_out": 1970,
+  "retention": 0.9752,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   13,
+   158,
+   125,
+   79,
+   158,
+   127,
+   68,
+   60,
+   161,
+   98,
+   60,
+   105,
+   85,
+   149,
+   71,
+   85,
+   95,
+   111,
+   72,
+   87,
+   3
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "NGA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  17,
+  26,
+  36,
+  43,
+  52,
+  56,
+  70,
+  73,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "four- year",
+   "four-year",
+   "hyphen"
+  ],
+  [
+   12,
+   "nuclear- free",
+   "nuclear-free",
+   "hyphen"
+  ],
+  [
+   42,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   4,
+   " (see A/71/PV.4 A)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "248da4507014fd93c4123078922bdc8302b4994b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1855,
+  "words_out": 1849,
+  "retention": 0.9968,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   98,
+   141,
+   157,
+   137,
+   174,
+   168,
+   179,
+   201,
+   90,
+   238,
+   90,
+   64,
+   112
+  ],
+  "warnings": []
+ }
+}

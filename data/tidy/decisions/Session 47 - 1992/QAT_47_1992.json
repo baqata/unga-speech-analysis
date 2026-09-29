@@ -1,0 +1,70 @@
+{
+ "id": "QAT_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  28,
+  37,
+  48,
+  63,
+  73,
+  87,
+  100,
+  111,
+  122,
+  136,
+  144,
+  155
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   133,
+   "the-standard",
+   "the standard",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95489b2885295135f3e20a15cd89dba6ea3b014c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1797,
+  "words_out": 1798,
+  "retention": 1.0006,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   96,
+   115,
+   99,
+   92,
+   138,
+   173,
+   117,
+   173,
+   140,
+   129,
+   110,
+   148,
+   86,
+   116,
+   66
+  ],
+  "warnings": []
+ }
+}

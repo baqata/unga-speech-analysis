@@ -1,0 +1,44 @@
+{
+ "id": "THA_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  13,
+  18
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "of-the",
+   "of the",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b87f77a9f5cfcf1492a9fda9068a22d5635bb3d1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 22,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 602,
+  "words_out": 603,
+  "retention": 1.0017,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   26,
+   142,
+   183,
+   133,
+   119
+  ],
+  "warnings": []
+ }
+}

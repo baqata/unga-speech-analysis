@@ -1,0 +1,121 @@
+{
+ "id": "SWE_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  14,
+  19,
+  23,
+  28,
+  35,
+  41,
+  47,
+  52,
+  57,
+  62,
+  65,
+  73
+ ],
+ "cer": [],
+ "fix": [
+  [
+   40,
+   "ratified,",
+   "ratified.",
+   "ocr"
+  ],
+  [
+   43,
+   "'",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "unprejudiced.",
+   "unprejudiced",
+   "ocr"
+  ],
+  [
+   46,
+   "explosions,",
+   "explosions.",
+   "ocr"
+  ],
+  [
+   48,
+   "1",
+   "I",
+   "ocr"
+  ],
+  [
+   73,
+   "after,",
+   "after",
+   "ocr"
+  ],
+  [
+   75,
+   " '",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " [DC/71, annex 17]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   " [DC/71, annex 19]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   " [DC/71, annex 16]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0151a5899c8881d1d1740ddc3431fd885f4b32cc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 20
+  },
+  "words_in": 1977,
+  "words_out": 1966,
+  "retention": 0.9944,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   97,
+   64,
+   162,
+   85,
+   110,
+   98,
+   171,
+   162,
+   133,
+   178,
+   125,
+   66,
+   157,
+   112,
+   175,
+   71
+  ],
+  "warnings": []
+ }
+}

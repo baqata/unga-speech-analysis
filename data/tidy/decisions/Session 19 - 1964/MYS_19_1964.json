@@ -1,0 +1,316 @@
+{
+ "id": "MYS_19_1964",
+ "drop": [
+  [
+   189,
+   189,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  12,
+  15,
+  20,
+  22,
+  24,
+  27,
+  30,
+  34,
+  37,
+  40,
+  44,
+  47,
+  54,
+  59,
+  60,
+  64,
+  67,
+  71,
+  74,
+  80,
+  84,
+  90,
+  94,
+  96,
+  100,
+  104,
+  106,
+  109,
+  114,
+  118,
+  121,
+  126,
+  131,
+  134,
+  138,
+  144,
+  153,
+  154,
+  158,
+  163,
+  168,
+  171,
+  174,
+  178,
+  181,
+  185,
+  187,
+  190,
+  192,
+  195,
+  198,
+  203,
+  207,
+  211,
+  215,
+  219,
+  222,
+  229
+ ],
+ "cer": [
+  0,
+  22
+ ],
+ "fix": [
+  [
+   7,
+   "Secretary-General„",
+   "Secretary-General,",
+   "ocr"
+  ],
+  [
+   14,
+   "might-have- been",
+   "might-have-been",
+   "hyphen"
+  ],
+  [
+   19,
+   "neo- imperialistic",
+   "neo-imperialistic",
+   "hyphen"
+  ],
+  [
+   19,
+   "Asia,\"",
+   "Asia.\"",
+   "ocr"
+  ],
+  [
+   36,
+   " [A/5825 and Add.l]",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "principles mid purposes",
+   "principles and purposes",
+   "ocr"
+  ],
+  [
+   56,
+   "whole.",
+   "whole",
+   "ocr"
+  ],
+  [
+   60,
+   " [1300thmeeting]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "tend-to",
+   "tend to",
+   "ocr"
+  ],
+  [
+   89,
+   "to, any",
+   "to any",
+   "ocr"
+  ],
+  [
+   90,
+   "terms, of",
+   "terms of",
+   "ocr"
+  ],
+  [
+   94,
+   "natually",
+   "naturally",
+   "ocr"
+  ],
+  [
+   96,
+   "territory, of",
+   "territory of",
+   "ocr"
+  ],
+  [
+   111,
+   "it. requests",
+   "it requests",
+   "ocr"
+  ],
+  [
+   113,
+   "Sabah. \" That",
+   "Sabah.\" That",
+   "spacing"
+  ],
+  [
+   168,
+   "about, the",
+   "about the",
+   "ocr"
+  ],
+  [
+   181,
+   "an. example",
+   "an example",
+   "ocr"
+  ],
+  [
+   190,
+   "any1",
+   "any",
+   "ocr"
+  ],
+  [
+   190,
+   "anti calculated",
+   "and calculated",
+   "ocr"
+  ],
+  [
+   196,
+   "Council’ s",
+   "Council’s",
+   "spacing"
+  ],
+  [
+   207,
+   "appearing- before",
+   "appearing before",
+   "ocr"
+  ],
+  [
+   208,
+   "find air the",
+   "find all the",
+   "ocr"
+  ],
+  [
+   213,
+   "For tins",
+   "For this",
+   "ocr"
+  ],
+  [
+   225,
+   "the. common",
+   "the common",
+   "ocr"
+  ],
+  [
+   227,
+   "loyally",
+   "loyalty",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "848971c138de04d99469d0090acb5ab467996069",
+ "layout": "lines",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 6,
+   "paragraph_number": 74
+  },
+  "words_in": 7615,
+  "words_out": 7606,
+  "retention": 0.9988,
+  "n_paragraphs": 62,
+  "paragraph_words": [
+   108,
+   121,
+   156,
+   104,
+   140,
+   182,
+   101,
+   89,
+   144,
+   137,
+   121,
+   102,
+   115,
+   143,
+   97,
+   109,
+   121,
+   72,
+   167,
+   184,
+   129,
+   135,
+   145,
+   110,
+   131,
+   166,
+   71,
+   102,
+   143,
+   67,
+   107,
+   137,
+   113,
+   116,
+   97,
+   101,
+   138,
+   143,
+   153,
+   177,
+   73,
+   147,
+   96,
+   126,
+   103,
+   101,
+   110,
+   146,
+   194,
+   109,
+   95,
+   93,
+   81,
+   131,
+   118,
+   111,
+   143,
+   104,
+   122,
+   79,
+   204,
+   126
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

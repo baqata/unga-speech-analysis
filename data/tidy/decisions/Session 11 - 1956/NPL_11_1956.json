@@ -1,0 +1,90 @@
+{
+ "id": "NPL_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  19,
+  25,
+  27,
+  37,
+  45,
+  49,
+  51,
+  58,
+  61,
+  66,
+  69,
+  72,
+  79,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "yoke:",
+   "yoke.",
+   "ocr"
+  ],
+  [
+   26,
+   "himself.to",
+   "himself to",
+   "ocr"
+  ],
+  [
+   26,
+   "cause of. fostering",
+   "cause of fostering",
+   "ocr"
+  ],
+  [
+   26,
+   "first ox its",
+   "first of its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7153fe3ac657d670f3f05e428452ba40c4dd37d2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2206,
+  "words_out": 2207,
+  "retention": 1.0005,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   61,
+   189,
+   124,
+   159,
+   174,
+   105,
+   141,
+   151,
+   134,
+   69,
+   152,
+   61,
+   106,
+   80,
+   77,
+   120,
+   187,
+   117
+  ],
+  "warnings": []
+ }
+}

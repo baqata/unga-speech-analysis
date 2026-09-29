@@ -1,0 +1,193 @@
+{
+ "id": "PHL_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  10,
+  14,
+  17,
+  22,
+  28,
+  34,
+  36,
+  44,
+  50,
+  57,
+  61,
+  65,
+  67,
+  70,
+  76,
+  81,
+  83,
+  91,
+  96,
+  99,
+  103,
+  106,
+  112,
+  115,
+  117,
+  120,
+  129,
+  131,
+  135,
+  138,
+  141,
+  147,
+  152,
+  158,
+  161,
+  164,
+  167,
+  169,
+  174,
+  184,
+  189,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "this maybe",
+   "this may be",
+   "merged_word"
+  ],
+  [
+   61,
+   "peace, Moreover",
+   "peace. Moreover",
+   "ocr"
+  ],
+  [
+   78,
+   "proctection",
+   "protection",
+   "ocr"
+  ],
+  [
+   100,
+   "Malaysia, At the end",
+   "Malaysia. At the end",
+   "ocr"
+  ],
+  [
+   130,
+   "agreement, The irony",
+   "agreement. The irony",
+   "ocr"
+  ],
+  [
+   165,
+   "dispute, A statement",
+   "dispute. A statement",
+   "ocr"
+  ],
+  [
+   166,
+   "Government, It is in",
+   "Government. It is in",
+   "ocr"
+  ],
+  [
+   171,
+   "it Is only",
+   "it is only",
+   "ocr"
+  ],
+  [
+   171,
+   "Sabah, But, having",
+   "Sabah. But, having",
+   "ocr"
+  ],
+  [
+   178,
+   "19September",
+   "19 September",
+   "spacing"
+  ],
+  [
+   178,
+   "Pawn of Karachi",
+   "Dawn of Karachi",
+   "ocr"
+  ],
+  [
+   186,
+   "Malphilindo",
+   "Maphilindo",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77e9759ddee553b55d197ca3977b6480026a0f6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 58
+  },
+  "words_in": 5763,
+  "words_out": 5765,
+  "retention": 1.0003,
+  "n_paragraphs": 45,
+  "paragraph_words": [
+   39,
+   101,
+   111,
+   137,
+   104,
+   136,
+   151,
+   82,
+   85,
+   166,
+   136,
+   219,
+   120,
+   98,
+   63,
+   108,
+   155,
+   125,
+   76,
+   193,
+   217,
+   95,
+   219,
+   136,
+   131,
+   81,
+   108,
+   122,
+   147,
+   95,
+   103,
+   103,
+   116,
+   120,
+   158,
+   161,
+   99,
+   72,
+   169,
+   71,
+   191,
+   265,
+   196,
+   61,
+   124
+  ],
+  "warnings": []
+ }
+}

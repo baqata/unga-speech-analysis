@@ -1,0 +1,135 @@
+{
+ "id": "CMR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   53,
+   53,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  7,
+  11,
+  18,
+  28,
+  32,
+  37,
+  42,
+  46
+ ],
+ "cer": [
+  2,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   4,
+   "Paul Bia",
+   "Paul Biya",
+   "asr_name"
+  ],
+  [
+   8,
+   "Buterres",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   8,
+   "Cameron's",
+   "Cameroon's",
+   "asr_name"
+  ],
+  [
+   10,
+   "Cameron",
+   "Cameroon",
+   "asr_name"
+  ],
+  [
+   12,
+   "Cameron",
+   "Cameroon",
+   "asr_name"
+  ],
+  [
+   3,
+   "and in.",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "Assembly. your",
+   "Assembly. Your",
+   "asr_term"
+  ],
+  [
+   7,
+   "mission. and",
+   "mission. And",
+   "asr_term"
+  ],
+  [
+   21,
+   "interests. president.",
+   "interests. President.",
+   "asr_term"
+  ],
+  [
+   26,
+   "peoples. and",
+   "peoples. And",
+   "asr_term"
+  ],
+  [
+   33,
+   "shot. we",
+   "shot. We",
+   "asr_term"
+  ],
+  [
+   13,
+   "apart. restoring",
+   "apart. First restoring",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in French as a message read on behalf of President Paul Biya ('I quote' ... 'End of quote' kept as the speaker's words); Guterres per Spanish channel. Gap recovery (v2, v4) restored 'Excellencies, ladies and gentlemen.' (Spanish 'Señoras y caballeros') into the opening courtesy paragraph; the stray 'and in.' heard after it is noise (label). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 5 'Assembly. your' -> 'Assembly. Your'; unit 7 'mission. and' -> 'mission. And'; unit 13 'apart. restoring' -> 'apart. Restoring'; unit 21 'interests. president.' -> 'interests. President.'; unit 26 'peoples. and' -> 'peoples. And'; unit 33 'shot. we' -> 'shot. We'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 13 'apart. restoring' -> 'apart. First restoring' (2026 exception, inside the existing repair: decodes hear 'First,' 0.82 / 0.95; ES 'En primer lugar, restablecer la confianza'; the next sentence starts 'Second,'; comma not added)",
+ "unitizer_version": 1,
+ "sha1": "d5ebda376deb39514ad77baa35a67898786c549b",
+ "layout": "single",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1340,
+  "words_out": 1305,
+  "retention": 0.9739,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   48,
+   123,
+   172,
+   152,
+   217,
+   100,
+   165,
+   128,
+   98,
+   102
+  ],
+  "warnings": []
+ }
+}

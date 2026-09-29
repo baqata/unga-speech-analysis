@@ -1,0 +1,133 @@
+{
+ "id": "NZL_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  23,
+  28,
+  35,
+  38,
+  43,
+  46,
+  49,
+  53,
+  59,
+  63,
+  66,
+  73,
+  78,
+  83,
+  88,
+  95,
+  99,
+  109,
+  112,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "recall, that",
+   "recall that",
+   "ocr"
+  ],
+  [
+   16,
+   "railed",
+   "failed",
+   "ocr"
+  ],
+  [
+   47,
+   "also-believe",
+   "also believe",
+   "spacing"
+  ],
+  [
+   75,
+   "with, neither",
+   "with neither",
+   "ocr"
+  ],
+  [
+   76,
+   "have, the",
+   "have the",
+   "ocr"
+  ],
+  [
+   93,
+   "plainer.",
+   "plainer,",
+   "ocr"
+  ],
+  [
+   98,
+   "I .am",
+   "I am",
+   "ocr"
+  ],
+  [
+   98,
+   "[item 62]",
+   "",
+   "label"
+  ],
+  [
+   123,
+   "propaganda. catch",
+   "propaganda catch",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5dbd2da6e6bf6a9638820159f15c76f45bb67dd5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 34
+  },
+  "words_in": 3503,
+  "words_out": 3495,
+  "retention": 0.9977,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   157,
+   121,
+   132,
+   216,
+   101,
+   185,
+   81,
+   100,
+   95,
+   98,
+   115,
+   178,
+   63,
+   98,
+   260,
+   162,
+   98,
+   106,
+   193,
+   138,
+   269,
+   95,
+   160,
+   274
+  ],
+  "warnings": []
+ }
+}

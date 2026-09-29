@@ -1,0 +1,105 @@
+{
+ "id": "BEL_75_2020",
+ "drop": [
+  [
+   6,
+   6,
+   "heading"
+  ],
+  [
+   12,
+   12,
+   "heading"
+  ],
+  [
+   43,
+   43,
+   "heading"
+  ],
+  [
+   58,
+   58,
+   "heading"
+  ],
+  [
+   70,
+   70,
+   "heading"
+  ],
+  [
+   85,
+   85,
+   "heading"
+  ],
+  [
+   111,
+   111,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  20,
+  23,
+  30,
+  37,
+  44,
+  59,
+  65,
+  71,
+  79,
+  86,
+  91,
+  99,
+  104,
+  107,
+  112,
+  121
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4bb0dc80c351dec5f27daa5441bbb51fdb353c46",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {
+   "heading": 7
+  },
+  "prestrip": {},
+  "words_in": 2138,
+  "words_out": 2111,
+  "retention": 0.9874,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   17,
+   45,
+   129,
+   78,
+   88,
+   197,
+   153,
+   124,
+   185,
+   79,
+   133,
+   123,
+   107,
+   63,
+   152,
+   108,
+   71,
+   102,
+   116,
+   41
+  ],
+  "warnings": []
+ }
+}

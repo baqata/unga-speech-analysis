@@ -1,0 +1,172 @@
+{
+ "id": "MDG_26_1971",
+ "drop": [
+  [
+   63,
+   63,
+   "noise"
+  ],
+  [
+   69,
+   69,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  5,
+  9,
+  12,
+  15,
+  17,
+  20,
+  26,
+  28,
+  32,
+  36,
+  39,
+  41,
+  46,
+  51,
+  55,
+  59,
+  61,
+  64,
+  70,
+  72,
+  76,
+  80,
+  83,
+  88,
+  94,
+  99,
+  102,
+  104,
+  108
+ ],
+ "cer": [
+  99,
+  102
+ ],
+ "fix": [
+  [
+   4,
+   "as 1 know",
+   "as I know",
+   "ocr"
+  ],
+  [
+   7,
+   "all-too- obvious",
+   "all-too-obvious",
+   "hyphen"
+  ],
+  [
+   11,
+   "openly,",
+   "openly.",
+   "ocr"
+  ],
+  [
+   16,
+   "add subject",
+   "and subject",
+   "ocr"
+  ],
+  [
+   16,
+   "Taipei,",
+   "Taipei.",
+   "ocr"
+  ],
+  [
+   20,
+   "point, in the",
+   "point in the",
+   "ocr"
+  ],
+  [
+   36,
+   "dialog, negotiation",
+   "Dialog, negotiation",
+   "ocr"
+  ],
+  [
+   50,
+   "play tilings",
+   "playthings",
+   "ocr"
+  ],
+  [
+   91,
+   "Ho*",
+   "How",
+   "ocr"
+  ],
+  [
+   105,
+   "hi?",
+   "his",
+   "ocr"
+  ],
+  [
+   108,
+   "Govern- ment",
+   "Government",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa0333881c3e3fedcadc110007215939d4749c5f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3246,
+  "words_out": 3241,
+  "retention": 0.9985,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   107,
+   86,
+   112,
+   90,
+   90,
+   75,
+   98,
+   121,
+   76,
+   111,
+   121,
+   109,
+   71,
+   118,
+   114,
+   65,
+   115,
+   80,
+   89,
+   120,
+   62,
+   141,
+   127,
+   80,
+   88,
+   194,
+   122,
+   84,
+   104,
+   123,
+   148
+  ],
+  "warnings": []
+ }
+}

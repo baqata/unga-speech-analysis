@@ -1,0 +1,93 @@
+{
+ "id": "NLD_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  16,
+  22,
+  26,
+  29,
+  36,
+  40,
+  47,
+  51,
+  55,
+  59,
+  66,
+  75,
+  79,
+  88
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "office,",
+   "office.",
+   "ocr"
+  ],
+  [
+   24,
+   "respect,",
+   "respect.",
+   "ocr"
+  ],
+  [
+   52,
+   "put",
+   "out",
+   "ocr"
+  ],
+  [
+   82,
+   "1",
+   "I",
+   "ocr"
+  ],
+  [
+   83,
+   "reason able",
+   "reasonable",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d5a7eb7f059b2a1c487745870f83624734b9243",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 24
+  },
+  "words_in": 2372,
+  "words_out": 2370,
+  "retention": 0.9992,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   206,
+   120,
+   104,
+   157,
+   99,
+   99,
+   160,
+   100,
+   142,
+   113,
+   155,
+   106,
+   183,
+   225,
+   97,
+   205,
+   99
+  ],
+  "warnings": []
+ }
+}

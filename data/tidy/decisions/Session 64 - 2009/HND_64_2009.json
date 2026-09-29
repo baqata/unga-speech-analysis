@@ -1,0 +1,91 @@
+{
+ "id": "HND_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  24,
+  38,
+  46,
+  63,
+  78,
+  96,
+  125,
+  142,
+  160,
+  172,
+  183,
+  197,
+  216,
+  229,
+  251,
+  267,
+  278,
+  291,
+  305,
+  317,
+  333,
+  348,
+  365
+ ],
+ "cer": [],
+ "fix": [
+  [
+   46,
+   "President Zelaya:",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "Ms. Rodas (Honduras):",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 46-77 are President Zelaya of Honduras speaking by telephone within the Honduran statement; kept as part of the delegation's statement, speaker labels removed.",
+ "unitizer_version": 1,
+ "sha1": "941b848884b4c4a78fdd23c51e29daa46387e2cd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 380,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "job_number": 4
+  },
+  "words_in": 3188,
+  "words_out": 3183,
+  "retention": 0.9984,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   119,
+   83,
+   131,
+   72,
+   131,
+   126,
+   128,
+   236,
+   153,
+   149,
+   112,
+   101,
+   108,
+   150,
+   109,
+   195,
+   133,
+   95,
+   112,
+   122,
+   95,
+   140,
+   128,
+   130,
+   125
+  ],
+  "warnings": []
+ }
+}

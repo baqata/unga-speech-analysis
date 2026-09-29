@@ -1,0 +1,89 @@
+{
+ "id": "ARG_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  13,
+  19,
+  22,
+  28,
+  32,
+  37,
+  42,
+  46,
+  50,
+  53,
+  60,
+  63,
+  67,
+  73,
+  74,
+  79,
+  83,
+  86,
+  93
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   21,
+   "ex acerbate",
+   "exacerbate",
+   "split_word"
+  ],
+  [
+   37,
+   "h j the",
+   "by the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9fc5e785dc2fd8a4af183d53333ea93c419ed982",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 3067,
+  "words_out": 3065,
+  "retention": 0.9993,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   154,
+   110,
+   88,
+   135,
+   176,
+   111,
+   158,
+   123,
+   156,
+   171,
+   124,
+   134,
+   91,
+   229,
+   68,
+   169,
+   209,
+   44,
+   125,
+   88,
+   121,
+   242,
+   39
+  ],
+  "warnings": []
+ }
+}

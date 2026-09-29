@@ -1,0 +1,43 @@
+{
+ "id": "QAT_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  33,
+  47,
+  63,
+  72,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8023f0e042266be3400e109ff54826d30781d549",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 815,
+  "words_out": 815,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   114,
+   152,
+   128,
+   137,
+   71,
+   125,
+   88
+  ],
+  "warnings": []
+ }
+}

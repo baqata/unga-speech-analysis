@@ -1,0 +1,75 @@
+{
+ "id": "BGR_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   86,
+   86,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  10,
+  15,
+  21,
+  32,
+  39,
+  45,
+  49,
+  54,
+  60,
+  66,
+  76,
+  83,
+  85
+ ],
+ "cer": [
+  85
+ ],
+ "fix": [
+  [
+   16,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "270a8389db89d6d5c536dfaa494d3de1f7dfd3c4",
+ "layout": "single",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1612,
+  "words_out": 1564,
+  "retention": 0.9702,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   131,
+   104,
+   128,
+   155,
+   113,
+   80,
+   89,
+   132,
+   123,
+   135,
+   199,
+   124,
+   46,
+   5
+  ],
+  "warnings": []
+ }
+}

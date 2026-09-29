@@ -1,0 +1,99 @@
+{
+ "id": "NLD_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  11,
+  13,
+  21,
+  23,
+  28,
+  33,
+  37,
+  43,
+  44,
+  49,
+  57,
+  61,
+  62,
+  65,
+  72,
+  78,
+  83,
+  87,
+  92
+ ],
+ "cer": [
+  0,
+  61
+ ],
+ "fix": [
+  [
+   2,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   2,
+   "being beard",
+   "being heard",
+   "ocr"
+  ],
+  [
+   22,
+   "them hack",
+   "them back",
+   "ocr"
+  ],
+  [
+   67,
+   "bad done",
+   "had done",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "94385d105aa5af2cd2dce6172c023eeba13dec0f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3161,
+  "words_out": 3160,
+  "retention": 0.9997,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   56,
+   169,
+   111,
+   108,
+   221,
+   188,
+   160,
+   240,
+   124,
+   236,
+   62,
+   167,
+   171,
+   113,
+   78,
+   87,
+   181,
+   170,
+   157,
+   180,
+   152,
+   29
+  ],
+  "warnings": []
+ }
+}

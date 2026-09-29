@@ -1,0 +1,68 @@
+{
+ "id": "ALB_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  40,
+  58,
+  74,
+  87,
+  108,
+  126,
+  145,
+  163,
+  179,
+  190,
+  206,
+  216,
+  225,
+  236,
+  250,
+  264
+ ],
+ "cer": [],
+ "fix": [
+  [
+   236,
+   "f lat",
+   "flat",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fe1521eec8836feeb903bb7ceb09ed36aa246730",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2248,
+  "words_out": 2242,
+  "retention": 0.9973,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   199,
+   133,
+   147,
+   142,
+   111,
+   162,
+   143,
+   165,
+   152,
+   126,
+   93,
+   142,
+   83,
+   77,
+   86,
+   114,
+   118,
+   49
+  ],
+  "warnings": []
+ }
+}

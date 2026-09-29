@@ -1,0 +1,158 @@
+{
+ "id": "GAB_26_1971",
+ "drop": [
+  [
+   19,
+   19,
+   "header_footer"
+  ],
+  [
+   25,
+   25,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  11,
+  15,
+  18,
+  22,
+  28,
+  31,
+  36,
+  39,
+  43,
+  46,
+  48,
+  54,
+  60,
+  68,
+  71,
+  74,
+  82,
+  88,
+  93
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  11,
+  15
+ ],
+ "fix": [
+  [
+   11,
+   "conferred • added",
+   "conferred added",
+   "ocr"
+  ],
+  [
+   21,
+   "+hey",
+   "they",
+   "ocr"
+  ],
+  [
+   22,
+   "hope, However",
+   "hope. However",
+   "ocr"
+  ],
+  [
+   28,
+   "In tills",
+   "In this",
+   "ocr"
+  ],
+  [
+   30,
+   " ..[1867th meeting, paras. 105-U1.J",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "hindrance, The",
+   "hindrance. The",
+   "ocr"
+  ],
+  [
+   39,
+   "need 1 repeat",
+   "need I repeat",
+   "ocr"
+  ],
+  [
+   41,
+   "Thus is constitutes",
+   "Thus it constitutes",
+   "ocr"
+  ],
+  [
+   45,
+   "such a, decisive",
+   "such a decisive",
+   "ocr"
+  ],
+  [
+   73,
+   "as .far",
+   "as far",
+   "ocr"
+  ],
+  [
+   85,
+   "3t>. ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1b0445a812335a00daa92e9009d2c08e5d76605e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "header_footer": 1,
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 2657,
+  "words_out": 2649,
+  "retention": 0.997,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   140,
+   107,
+   174,
+   104,
+   63,
+   138,
+   162,
+   85,
+   141,
+   141,
+   88,
+   103,
+   80,
+   141,
+   122,
+   157,
+   98,
+   98,
+   158,
+   178,
+   94,
+   77
+  ],
+  "warnings": []
+ }
+}

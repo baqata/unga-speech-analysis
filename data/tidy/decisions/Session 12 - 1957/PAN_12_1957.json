@@ -1,0 +1,73 @@
+{
+ "id": "PAN_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  18,
+  21,
+  23,
+  31,
+  35,
+  37,
+  43,
+  48,
+  55,
+  59,
+  64,
+  71,
+  79,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "elected yesterday.",
+   "elected yesterday,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9bb308b17da7f4c1b9620cbf5595a84162ca4856",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 2614,
+  "words_out": 2614,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   127,
+   135,
+   151,
+   201,
+   117,
+   75,
+   171,
+   128,
+   61,
+   175,
+   141,
+   204,
+   155,
+   128,
+   188,
+   208,
+   105,
+   144
+  ],
+  "warnings": []
+ }
+}

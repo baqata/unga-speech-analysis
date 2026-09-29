@@ -1,0 +1,197 @@
+{
+ "id": "CAF_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  15,
+  18,
+  21,
+  24,
+  30,
+  36,
+  39,
+  42,
+  46,
+  52,
+  56,
+  61,
+  65,
+  69,
+  73,
+  77,
+  82,
+  83,
+  88,
+  92,
+  95,
+  98,
+  102,
+  108,
+  111
+ ],
+ "cer": [
+  0,
+  4,
+  15,
+  82
+ ],
+ "fix": [
+  [
+   0,
+   "Mr, Dag",
+   "Mr. Dag",
+   "ocr"
+  ],
+  [
+   3,
+   "we re shown",
+   "were shown",
+   "split_word"
+  ],
+  [
+   14,
+   "point:",
+   "point",
+   "ocr"
+  ],
+  [
+   15,
+   "Ms place",
+   "his place",
+   "ocr"
+  ],
+  [
+   22,
+   ".divided",
+   "divided",
+   "ocr"
+  ],
+  [
+   22,
+   "other*",
+   "other.",
+   "ocr"
+  ],
+  [
+   28,
+   "dearly shows",
+   "clearly shows",
+   "ocr"
+  ],
+  [
+   40,
+   "unities them",
+   "unites them",
+   "ocr"
+  ],
+  [
+   44,
+   ", the Union",
+   "the Union",
+   "ocr"
+  ],
+  [
+   48,
+   "while.",
+   "while",
+   "ocr"
+  ],
+  [
+   55,
+   "on- condition",
+   "on condition",
+   "hyphen"
+  ],
+  [
+   73,
+   "The.",
+   "The",
+   "ocr"
+  ],
+  [
+   90,
+   "an\"",
+   "and",
+   "ocr"
+  ],
+  [
+   94,
+   "lam sure",
+   "I am sure",
+   "ocr"
+  ],
+  [
+   99,
+   "would' promote",
+   "would promote",
+   "ocr"
+  ],
+  [
+   103,
+   "36* ",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "painful,",
+   "painful.",
+   "ocr"
+  ],
+  [
+   72,
+   "friends,",
+   "friends.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e25e34b7ce110d0126a78916677fbb564fa0da2d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3471,
+  "words_out": 3469,
+  "retention": 0.9994,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   128,
+   193,
+   60,
+   111,
+   114,
+   179,
+   144,
+   144,
+   121,
+   97,
+   124,
+   142,
+   172,
+   152,
+   112,
+   124,
+   93,
+   131,
+   140,
+   30,
+   197,
+   132,
+   107,
+   104,
+   129,
+   135,
+   103,
+   51
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "BDI_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  30,
+  48,
+  63,
+  87,
+  109,
+  135,
+  151
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   114,
+   "; if should",
+   "; it should",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6122e6bd64610db93eccd9ddddef45bc0ab6105e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1233,
+  "words_out": 1232,
+  "retention": 0.9992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   103,
+   110,
+   147,
+   111,
+   187,
+   177,
+   214,
+   120,
+   63
+  ],
+  "warnings": []
+ }
+}

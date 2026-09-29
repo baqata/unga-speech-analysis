@@ -1,0 +1,86 @@
+{
+ "id": "MWI_80_2025",
+ "drop": [
+  [
+   83,
+   83,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  19,
+  25,
+  30,
+  39,
+  44,
+  50,
+  55,
+  60,
+  67,
+  74,
+  78,
+  82
+ ],
+ "cer": [
+  82
+ ],
+ "fix": [
+  [
+   0,
+   "I now give the floor to Her Excellency Agnes Mary Chimbiri-Molande, ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Chair of the Delegation of Malawi ",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "My dedication",
+   "My delegation",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 began with the presiding officer's introduction, removed with label fixes.",
+ "unitizer_version": 1,
+ "sha1": "06c7c2f7acfa7728c8edbac6d6ce5d8608fe3b69",
+ "layout": "single",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1944,
+  "words_out": 1918,
+  "retention": 0.9866,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   117,
+   139,
+   143,
+   133,
+   176,
+   145,
+   161,
+   120,
+   112,
+   98,
+   125,
+   136,
+   110,
+   106,
+   93,
+   4
+  ],
+  "warnings": []
+ }
+}

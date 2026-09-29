@@ -1,0 +1,52 @@
+{
+ "id": "GHA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  14,
+  19,
+  29,
+  35,
+  43,
+  53,
+  58,
+  63,
+  68
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1838a0a39ed5d6d4390d8ea5b54c7c129d72ae41",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1542,
+  "words_out": 1542,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   55,
+   145,
+   146,
+   164,
+   212,
+   128,
+   155,
+   177,
+   122,
+   110,
+   119,
+   9
+  ],
+  "warnings": []
+ }
+}

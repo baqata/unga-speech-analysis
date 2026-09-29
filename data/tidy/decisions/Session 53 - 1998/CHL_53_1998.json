@@ -1,0 +1,139 @@
+{
+ "id": "CHL_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  37,
+  64,
+  79,
+  88,
+  108,
+  119,
+  127,
+  136,
+  149,
+  159,
+  173,
+  190,
+  199,
+  209,
+  216,
+  232,
+  247,
+  262,
+  280,
+  290,
+  306,
+  322
+ ],
+ "cer": [
+  0,
+  209
+ ],
+ "fix": [
+  [
+   5,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   38,
+   "community?s",
+   "community’s",
+   "encoding"
+  ],
+  [
+   77,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   87,
+   "Chileans?",
+   "Chileans’",
+   "encoding"
+  ],
+  [
+   171,
+   "Brazil?s",
+   "Brazil’s",
+   "encoding"
+  ],
+  [
+   211,
+   "employers?",
+   "employers’",
+   "encoding"
+  ],
+  [
+   211,
+   "workers?",
+   "workers’",
+   "encoding"
+  ],
+  [
+   214,
+   "Somav'a",
+   "Somavía",
+   "encoding"
+  ],
+  [
+   233,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   265,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b2ff05fbc2f3fd175541e9d101c0bb863c71cdc3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 327,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2716,
+  "words_out": 2715,
+  "retention": 0.9996,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   158,
+   152,
+   220,
+   133,
+   74,
+   173,
+   86,
+   67,
+   67,
+   103,
+   90,
+   120,
+   135,
+   68,
+   79,
+   63,
+   129,
+   116,
+   126,
+   149,
+   91,
+   126,
+   141,
+   49
+  ],
+  "warnings": []
+ }
+}

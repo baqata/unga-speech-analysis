@@ -1,0 +1,241 @@
+{
+ "id": "HND_33_1978",
+ "drop": [
+  [
+   135,
+   135,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  14,
+  17,
+  19,
+  22,
+  26,
+  33,
+  36,
+  38,
+  41,
+  45,
+  48,
+  52,
+  56,
+  62,
+  64,
+  70,
+  73,
+  78,
+  81,
+  85,
+  89,
+  90,
+  97,
+  100,
+  103,
+  109,
+  111,
+  114,
+  117,
+  120,
+  123,
+  130,
+  134
+ ],
+ "cer": [
+  1,
+  5
+ ],
+ "fix": [
+  [
+   13,
+   "31",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "of. man's",
+   "of man's",
+   "ocr"
+  ],
+  [
+   22,
+   "them .",
+   "them.",
+   "spacing"
+  ],
+  [
+   25,
+   "role Li disarmament",
+   "role in disarmament",
+   "ocr"
+  ],
+  [
+   27,
+   " [resolution S-10/2, sects.",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "II and III] ",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "of \"the",
+   "of the",
+   "ocr"
+  ],
+  [
+   34,
+   "32",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "in' the",
+   "in the",
+   "ocr"
+  ],
+  [
+   54,
+   "members-of",
+   "members of",
+   "ocr"
+  ],
+  [
+   55,
+   "body t. achieve",
+   "body to achieve",
+   "ocr"
+  ],
+  [
+   57,
+   "34",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "who. was",
+   "who was",
+   "ocr"
+  ],
+  [
+   68,
+   "our. two",
+   "our two",
+   "ocr"
+  ],
+  [
+   85,
+   "tie re are",
+   "there are",
+   "ocr"
+  ],
+  [
+   86,
+   "36",
+   "",
+   "label"
+  ],
+  [
+   87,
+   " [resolution S-9/2J",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "3 7",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "beneficial. action",
+   "beneficial action",
+   "ocr"
+  ],
+  [
+   103,
+   "as. the",
+   "as the",
+   "ocr"
+  ],
+  [
+   119,
+   "353 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Footnote text (unit 135) dropped; inline footnote markers removed.",
+ "unitizer_version": 1,
+ "sha1": "c6ba80bde44da9cb06d2088080c6777623f65437",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 65
+  },
+  "words_in": 5120,
+  "words_out": 5084,
+  "retention": 0.993,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   98,
+   143,
+   198,
+   159,
+   88,
+   98,
+   84,
+   166,
+   186,
+   134,
+   118,
+   109,
+   198,
+   132,
+   144,
+   152,
+   250,
+   85,
+   187,
+   99,
+   198,
+   88,
+   155,
+   137,
+   94,
+   164,
+   150,
+   90,
+   165,
+   61,
+   122,
+   122,
+   159,
+   80,
+   257,
+   81,
+   133
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "id": "TCD_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  20,
+  28,
+  32,
+  36,
+  42,
+  48,
+  53,
+  58,
+  63,
+  68,
+  73,
+  78,
+  80,
+  85,
+  88,
+  92
+ ],
+ "cer": [
+  0,
+  92
+ ],
+ "fix": [
+  [
+   33,
+   "post- COVID-19",
+   "post-COVID-19",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4b554319089ef57dc3a74a284849038d4baf41a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2329,
+  "words_out": 2328,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   22,
+   188,
+   110,
+   118,
+   161,
+   95,
+   168,
+   121,
+   110,
+   172,
+   91,
+   155,
+   146,
+   144,
+   142,
+   96,
+   73,
+   97,
+   101,
+   18
+  ],
+  "warnings": []
+ }
+}

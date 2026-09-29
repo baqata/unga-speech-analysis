@@ -1,0 +1,105 @@
+{
+ "id": "KNA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  24,
+  32,
+  44,
+  55,
+  71,
+  83,
+  99,
+  115,
+  128,
+  142,
+  155,
+  165,
+  176,
+  184,
+  200,
+  218,
+  242,
+  262,
+  277,
+  286,
+  302,
+  321,
+  336
+ ],
+ "cer": [
+  0,
+  19
+ ],
+ "fix": [
+  [
+   65,
+   "f low",
+   "flow",
+   "split_word"
+  ],
+  [
+   80,
+   "f low",
+   "flow",
+   "split_word"
+  ],
+  [
+   105,
+   "(resolution 66/2, annex)",
+   "",
+   "label"
+  ],
+  [
+   161,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d40255c36ec4ab939df6e6b2ab67235efa174a5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 354,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2973,
+  "words_out": 2965,
+  "retention": 0.9973,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   93,
+   85,
+   39,
+   61,
+   91,
+   88,
+   146,
+   96,
+   131,
+   132,
+   108,
+   113,
+   102,
+   83,
+   87,
+   65,
+   136,
+   147,
+   202,
+   180,
+   134,
+   67,
+   146,
+   146,
+   126,
+   161
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "CMR_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  8,
+  11,
+  19,
+  26,
+  30,
+  35,
+  45,
+  50,
+  57,
+  60,
+  66,
+  72
+ ],
+ "cer": [
+  1,
+  72
+ ],
+ "fix": [
+  [
+   1,
+   "Paul B. Diop",
+   "Paul Biya",
+   "asr_name"
+  ],
+  [
+   5,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   61,
+   "NIS",
+   "Nice",
+   "asr_name"
+  ],
+  [
+   61,
+   "civil conferences",
+   "Seville conferences",
+   "asr_name"
+  ],
+  [
+   63,
+   "Azzolini",
+   "Ezulwini",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb998fbdb227f9c4661acb1b36d15d6e60ceb505",
+ "layout": "single",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1699,
+  "words_out": 1679,
+  "retention": 0.9882,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   197,
+   81,
+   142,
+   114,
+   137,
+   75,
+   206,
+   160,
+   148,
+   59,
+   186,
+   167,
+   7
+  ],
+  "warnings": []
+ }
+}

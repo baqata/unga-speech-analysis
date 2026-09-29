@@ -1,0 +1,49 @@
+{
+ "id": "ETH_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  47,
+  67,
+  86,
+  96,
+  117,
+  129,
+  137
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a1a2bac4e02a549baedadb76333d2d89b97444ca",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1134,
+  "words_out": 1134,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   62,
+   68,
+   227,
+   146,
+   139,
+   70,
+   169,
+   82,
+   68,
+   103
+  ],
+  "warnings": []
+ }
+}

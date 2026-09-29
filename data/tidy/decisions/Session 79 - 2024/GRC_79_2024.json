@@ -1,0 +1,72 @@
+{
+ "id": "GRC_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  20,
+  30,
+  41,
+  48,
+  56,
+  62,
+  68,
+  73,
+  80,
+  86,
+  90,
+  99,
+  107,
+  109,
+  121,
+  127
+ ],
+ "cer": [],
+ "fix": [
+  [
+   107,
+   " (ibid., annex I)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2419f82f86928367774b35fcc0ff15d30aeac53f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 133,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2904,
+  "words_out": 2899,
+  "retention": 0.9983,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   143,
+   158,
+   174,
+   208,
+   199,
+   107,
+   159,
+   129,
+   139,
+   128,
+   164,
+   159,
+   98,
+   201,
+   204,
+   66,
+   229,
+   117,
+   117
+  ],
+  "warnings": []
+ }
+}

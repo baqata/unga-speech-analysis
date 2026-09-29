@@ -1,0 +1,90 @@
+{
+ "id": "ARE_38_1983",
+ "drop": [
+  [
+   70,
+   70,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  13,
+  15,
+  17,
+  21,
+  24,
+  26,
+  31,
+  33,
+  35,
+  37,
+  41,
+  43,
+  46,
+  50,
+  54,
+  60,
+  63,
+  65,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   53,
+   "relating-to",
+   "relating to",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14ddcdd097f85a005b7fd6c8ee379105e30392a9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2484,
+  "words_out": 2484,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   108,
+   174,
+   201,
+   125,
+   97,
+   66,
+   121,
+   91,
+   91,
+   156,
+   64,
+   97,
+   67,
+   114,
+   74,
+   73,
+   110,
+   117,
+   163,
+   66,
+   64,
+   172,
+   73
+  ],
+  "warnings": []
+ }
+}

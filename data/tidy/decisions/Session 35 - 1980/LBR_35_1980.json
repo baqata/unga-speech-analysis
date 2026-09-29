@@ -1,0 +1,67 @@
+{
+ "id": "LBR_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  14,
+  18,
+  22,
+  26,
+  35,
+  38,
+  41,
+  45,
+  47,
+  49,
+  51,
+  57
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   29,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0b2c936e88fa27004ecc39946e6eb5e2cd9314b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 1559,
+  "words_out": 1558,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   164,
+   65,
+   82,
+   101,
+   130,
+   137,
+   122,
+   66,
+   72,
+   108,
+   81,
+   78,
+   108,
+   183,
+   61
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "GAB_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  17,
+  21,
+  26,
+  30,
+  32,
+  38,
+  41,
+  45,
+  50,
+  54
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   28,
+   "the’ Organization",
+   "the Organization",
+   "ocr"
+  ],
+  [
+   30,
+   "self- government",
+   "self-government",
+   "hyphen"
+  ],
+  [
+   44,
+   " [A/5757 and Corr.l and Add.l]",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "theae",
+   "these",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12df6676af721a7e9702c2b5978cc5f1542a00b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 20
+  },
+  "words_in": 1905,
+  "words_out": 1899,
+  "retention": 0.9969,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   195,
+   84,
+   189,
+   156,
+   134,
+   140,
+   148,
+   94,
+   134,
+   71,
+   145,
+   165,
+   183,
+   61
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "TUN_30_1975",
+ "drop": [
+  [
+   101,
+   101,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  10,
+  16,
+  23,
+  29,
+  33,
+  38,
+  43,
+  47,
+  50,
+  52,
+  55,
+  59,
+  62,
+  65,
+  67,
+  69,
+  72,
+  74,
+  78,
+  81,
+  87,
+  92,
+  96,
+  98,
+  100,
+  104,
+  108,
+  116,
+  119,
+  124
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   6,
+   "its fill",
+   "its full",
+   "ocr"
+  ],
+  [
+   66,
+   "multilateral!",
+   "multilateral",
+   "ocr"
+  ],
+  [
+   71,
+   "coexistence,:",
+   "coexistence,",
+   "ocr"
+  ],
+  [
+   103,
+   "Isee",
+   "[see",
+   "ocr"
+  ],
+  [
+   103,
+   " [see A/10217 and Corr.I, ]",
+   "",
+   "label"
+  ],
+  [
+   120,
+   "Organization. without",
+   "Organization without",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 31 ends without its full stop, and units 35 (\"of its furthermore\") and 45 (\"sour\") keep lost letters; none can be repaired without adding characters. Lost hyphens (\"SecretaryGeneral\", \"goodneighborly\") are kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "a3d96b6fa5852093cf4d05d125d50313664efe08",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 50
+  },
+  "words_in": 4089,
+  "words_out": 4077,
+  "retention": 0.9971,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   192,
+   108,
+   183,
+   195,
+   129,
+   165,
+   143,
+   193,
+   107,
+   106,
+   116,
+   98,
+   102,
+   135,
+   74,
+   104,
+   119,
+   133,
+   130,
+   112,
+   125,
+   93,
+   134,
+   135,
+   86,
+   80,
+   197,
+   91,
+   141,
+   132,
+   156,
+   63
+  ],
+  "warnings": []
+ }
+}

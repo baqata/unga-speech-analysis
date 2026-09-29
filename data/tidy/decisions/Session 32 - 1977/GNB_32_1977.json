@@ -1,0 +1,172 @@
+{
+ "id": "GNB_32_1977",
+ "drop": [
+  [
+   73,
+   73,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  13,
+  15,
+  19,
+  21,
+  24,
+  29,
+  32,
+  36,
+  39,
+  42,
+  45,
+  46,
+  48,
+  51,
+  54,
+  57,
+  59,
+  62,
+  64,
+  66,
+  69,
+  74,
+  76,
+  78,
+  80,
+  86,
+  92,
+  93,
+  96,
+  97,
+  107,
+  111,
+  113,
+  116,
+  117,
+  119,
+  121
+ ],
+ "cer": [
+  0,
+  4,
+  5,
+  7,
+  13
+ ],
+ "fix": [
+  [
+   6,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "hyphen"
+  ],
+  [
+   28,
+   "we -have",
+   "we have",
+   "ocr"
+  ],
+  [
+   36,
+   "in. support",
+   "in support",
+   "ocr"
+  ],
+  [
+   45,
+   "people/It is",
+   "people. It is",
+   "ocr"
+  ],
+  [
+   82,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   83,
+   "strength- which",
+   "strength—which",
+   "ocr"
+  ],
+  [
+   96,
+   "they-must",
+   "they must",
+   "ocr"
+  ],
+  [
+   98,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 73 stray paragraph number dropped.",
+ "unitizer_version": 1,
+ "sha1": "9020239cbdfaff9cd835867ed387bf768592e546",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 4487,
+  "words_out": 4484,
+  "retention": 0.9993,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   154,
+   48,
+   65,
+   151,
+   65,
+   105,
+   100,
+   136,
+   139,
+   130,
+   114,
+   193,
+   78,
+   94,
+   64,
+   76,
+   94,
+   137,
+   153,
+   92,
+   145,
+   94,
+   111,
+   128,
+   148,
+   46,
+   90,
+   63,
+   193,
+   99,
+   64,
+   118,
+   115,
+   227,
+   105,
+   54,
+   83,
+   162,
+   133,
+   51,
+   67
+  ],
+  "warnings": []
+ }
+}

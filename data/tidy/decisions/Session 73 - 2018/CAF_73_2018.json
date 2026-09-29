@@ -1,0 +1,72 @@
+{
+ "id": "CAF_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  12,
+  15,
+  20,
+  23,
+  27,
+  29,
+  32,
+  37,
+  39,
+  42,
+  44,
+  47,
+  51,
+  55
+ ],
+ "cer": [
+  0,
+  3,
+  29
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "36a0a734bc0a1bde498429aa7c604ddedb5dbeca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1699,
+  "words_out": 1698,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   84,
+   94,
+   76,
+   64,
+   90,
+   153,
+   105,
+   96,
+   73,
+   79,
+   114,
+   120,
+   103,
+   76,
+   67,
+   148,
+   122,
+   34
+  ],
+  "warnings": []
+ }
+}

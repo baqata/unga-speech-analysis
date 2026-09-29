@@ -1,0 +1,93 @@
+{
+ "id": "IRN_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  10,
+  13,
+  16,
+  21,
+  27,
+  31,
+  36,
+  37,
+  43,
+  48,
+  53,
+  60
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   8,
+   "disarmament,",
+   "disarmament.",
+   "ocr"
+  ],
+  [
+   23,
+   " j",
+   "",
+   "label"
+  ],
+  [
+   23,
+   " [A/ 2911, p.xi]",
+   "",
+   "label"
+  ],
+  [
+   26,
+   " j",
+   "",
+   "label"
+  ],
+  [
+   48,
+   " I",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d294d735c968b94a657d59c5d7ea885e023b79fa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2288,
+  "words_out": 2266,
+  "retention": 0.9904,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   34,
+   128,
+   103,
+   42,
+   95,
+   142,
+   158,
+   187,
+   146,
+   144,
+   89,
+   226,
+   202,
+   182,
+   200,
+   188
+  ],
+  "warnings": []
+ }
+}

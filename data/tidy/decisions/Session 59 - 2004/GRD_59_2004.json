@@ -1,0 +1,54 @@
+{
+ "id": "GRD_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  29,
+  43,
+  59,
+  76,
+  86,
+  96,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   28,
+   "jurricane",
+   "hurricane",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Closing patriotic verse (units 103-109) kept.",
+ "unitizer_version": 1,
+ "sha1": "5eda6bfe673df6dd1fe737c5c7caad1aa6c06915",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 928,
+  "words_out": 927,
+  "retention": 0.9989,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   120,
+   92,
+   117,
+   121,
+   135,
+   82,
+   97,
+   113,
+   50
+  ],
+  "warnings": []
+ }
+}

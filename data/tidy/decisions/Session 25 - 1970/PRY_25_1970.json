@@ -1,0 +1,84 @@
+{
+ "id": "PRY_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  7,
+  12,
+  15,
+  19,
+  21,
+  23,
+  31,
+  35,
+  39,
+  41,
+  49,
+  51,
+  56,
+  58,
+  62,
+  71,
+  75,
+  79,
+  81,
+  83
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   2,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "557b902671ac93a192562228573b83ac2d15411a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 30
+  },
+  "words_in": 3314,
+  "words_out": 3313,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   89,
+   134,
+   109,
+   222,
+   135,
+   148,
+   109,
+   132,
+   265,
+   110,
+   113,
+   176,
+   241,
+   85,
+   195,
+   123,
+   127,
+   220,
+   97,
+   130,
+   122,
+   103,
+   128
+  ],
+  "warnings": []
+ }
+}

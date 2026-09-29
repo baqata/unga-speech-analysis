@@ -1,0 +1,51 @@
+{
+ "id": "CAF_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  30,
+  48,
+  68,
+  93,
+  117,
+  129,
+  154,
+  172,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd0a36ab488884f433129f7cb01efa56289086d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1620,
+  "words_out": 1620,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   125,
+   112,
+   143,
+   151,
+   198,
+   185,
+   100,
+   195,
+   140,
+   129,
+   142
+  ],
+  "warnings": []
+ }
+}

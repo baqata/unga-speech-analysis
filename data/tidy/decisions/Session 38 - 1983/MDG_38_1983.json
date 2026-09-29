@@ -1,0 +1,115 @@
+{
+ "id": "MDG_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  15,
+  16,
+  21,
+  25,
+  31,
+  34,
+  38,
+  42,
+  48,
+  52,
+  56,
+  60,
+  62,
+  65,
+  67,
+  72,
+  76,
+  78,
+  80,
+  82
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   15,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   19,
+   "the night and",
+   "the right and",
+   "ocr"
+  ],
+  [
+   19,
+   "over- armament",
+   "over-armament",
+   "hyphen"
+  ],
+  [
+   26,
+   "[AU]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "[SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "?970s",
+   "1970s",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85b89a7a09c6848f36b65819c4cb231cd8662cb0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 2880,
+  "words_out": 2876,
+  "retention": 0.9986,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   81,
+   88,
+   129,
+   113,
+   75,
+   150,
+   119,
+   185,
+   127,
+   85,
+   140,
+   218,
+   203,
+   109,
+   147,
+   70,
+   79,
+   128,
+   154,
+   124,
+   73,
+   90,
+   104,
+   85
+  ],
+  "warnings": []
+ }
+}

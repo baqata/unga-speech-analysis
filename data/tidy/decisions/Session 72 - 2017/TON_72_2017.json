@@ -1,0 +1,79 @@
+{
+ "id": "TON_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  15,
+  18,
+  22,
+  28,
+  33,
+  36,
+  39,
+  44,
+  46,
+  50,
+  53,
+  56
+ ],
+ "cer": [
+  0,
+  56
+ ],
+ "fix": [
+  [
+   10,
+   "2018- 2022",
+   "2018-2022",
+   "hyphen"
+  ],
+  [
+   27,
+   " (resolution 71/316)",
+   "",
+   "label"
+  ],
+  [
+   36,
+   " (resolution 71/312)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1e4cb0bb0c663fc586ab7cac45bad5f216523e43",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1733,
+  "words_out": 1728,
+  "retention": 0.9971,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   168,
+   137,
+   116,
+   72,
+   127,
+   164,
+   151,
+   112,
+   102,
+   78,
+   161,
+   66,
+   90,
+   80,
+   78,
+   26
+  ],
+  "warnings": []
+ }
+}

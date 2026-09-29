@@ -1,0 +1,165 @@
+{
+ "id": "YUG_26_1971",
+ "drop": [
+  [
+   87,
+   87,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  13,
+  17,
+  23,
+  29,
+  34,
+  39,
+  41,
+  45,
+  50,
+  57,
+  60,
+  63,
+  68,
+  72,
+  79,
+  84,
+  89
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   11,
+   "is, irreplaceable",
+   "is irreplaceable",
+   "ocr"
+  ],
+  [
+   19,
+   "starting- point",
+   "starting-point",
+   "hyphen"
+  ],
+  [
+   20,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   39,
+   "and. the developing",
+   "and the developing",
+   "ocr"
+  ],
+  [
+   40,
+   "countries, Monopoly",
+   "countries. Monopoly",
+   "ocr"
+  ],
+  [
+   43,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "internal nal community",
+   "international community",
+   "ocr"
+  ],
+  [
+   54,
+   "lias not",
+   "has not",
+   "ocr"
+  ],
+  [
+   58,
+   "sams time",
+   "same time",
+   "ocr"
+  ],
+  [
+   59,
+   " [see A/8491]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "war' in",
+   "war in",
+   "ocr"
+  ],
+  [
+   70,
+   "deterioration .of",
+   "deterioration of",
+   "ocr"
+  ],
+  [
+   82,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   84,
+   "reality .",
+   "reality.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "746a5cfb4e693220d250e95a79648d9f02c92170",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 2714,
+  "words_out": 2682,
+  "retention": 0.9882,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   96,
+   120,
+   116,
+   122,
+   132,
+   109,
+   180,
+   131,
+   122,
+   83,
+   136,
+   134,
+   171,
+   120,
+   96,
+   144,
+   109,
+   223,
+   164,
+   135,
+   39
+  ],
+  "warnings": []
+ }
+}

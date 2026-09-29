@@ -1,0 +1,53 @@
+{
+ "id": "GEO_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  12,
+  15,
+  19,
+  22,
+  27,
+  30,
+  34,
+  42,
+  48,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 35 ends with a semicolon printed for a full stop, so the source break at unit 36 is not used; the rankings passage is split at unit 34 instead.",
+ "unitizer_version": 1,
+ "sha1": "6a8acee1435b1048e7d19f7edce2912a5394daf5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1236,
+  "words_out": 1236,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   18,
+   89,
+   104,
+   102,
+   108,
+   84,
+   80,
+   75,
+   111,
+   197,
+   137,
+   71,
+   60
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "BRN_48_1993",
+ "drop": [
+  [
+   16,
+   16,
+   "header_footer"
+  ],
+  [
+   107,
+   107,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  20,
+  28,
+  40,
+  52,
+  65,
+  74,
+  82,
+  94,
+  110
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f046b433bc7ad89c5bbccbf8fec4529199ecfd94",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 1013,
+  "words_out": 999,
+  "retention": 0.9862,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   36,
+   35,
+   93,
+   59,
+   99,
+   98,
+   108,
+   71,
+   62,
+   95,
+   130,
+   113
+  ],
+  "warnings": []
+ }
+}

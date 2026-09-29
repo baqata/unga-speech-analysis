@@ -1,0 +1,92 @@
+{
+ "id": "ATG_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  41,
+  60,
+  70,
+  89,
+  107,
+  122,
+  137,
+  146,
+  162,
+  177,
+  187,
+  207,
+  220,
+  235,
+  258,
+  271,
+  285
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   82,
+   "peaceloving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   113,
+   "nonState",
+   "non-State",
+   "hyphen"
+  ],
+  [
+   143,
+   "drugtrafficking",
+   "drug-trafficking",
+   "hyphen"
+  ],
+  [
+   154,
+   "moneylaunderers",
+   "money-launderers",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3b6fba606e2b315feadbbfc9678498c6b5f7bc4e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 299,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2543,
+  "words_out": 2543,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   138,
+   216,
+   166,
+   78,
+   158,
+   152,
+   125,
+   129,
+   71,
+   149,
+   115,
+   86,
+   187,
+   112,
+   125,
+   193,
+   104,
+   119,
+   120
+  ],
+  "warnings": []
+ }
+}

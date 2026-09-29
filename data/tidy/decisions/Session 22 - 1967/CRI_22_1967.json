@@ -1,0 +1,122 @@
+{
+ "id": "CRI_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  11,
+  13,
+  15,
+  17,
+  21,
+  26,
+  32,
+  37,
+  41,
+  45,
+  52,
+  57,
+  61,
+  65,
+  68
+ ],
+ "cer": [
+  68
+ ],
+ "fix": [
+  [
+   3,
+   "a Lasting peace",
+   "a lasting peace",
+   "ocr"
+  ],
+  [
+   6,
+   "100.",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "been fulfilled, These are",
+   "been fulfilled. These are",
+   "ocr"
+  ],
+  [
+   10,
+   "102, ",
+   "",
+   "label"
+  ],
+  [
+   10,
+   "industrial Installations",
+   "industrial installations",
+   "ocr"
+  ],
+  [
+   49,
+   "Costa Pica",
+   "Costa Rica",
+   "ocr"
+  ],
+  [
+   55,
+   "countries Is an",
+   "countries is an",
+   "ocr"
+  ],
+  [
+   62,
+   "are Inherent",
+   "are inherent",
+   "ocr"
+  ],
+  [
+   69,
+   "sovereign States, I also wish",
+   "sovereign States. I also wish",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02e76fab78b7464c740080f573c21e72102afdf0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3122,
+  "words_out": 3100,
+  "retention": 0.993,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   137,
+   169,
+   106,
+   91,
+   89,
+   103,
+   79,
+   85,
+   274,
+   225,
+   225,
+   205,
+   188,
+   278,
+   195,
+   142,
+   155,
+   140,
+   214
+  ],
+  "warnings": []
+ }
+}

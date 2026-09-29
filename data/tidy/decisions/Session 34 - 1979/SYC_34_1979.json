@@ -1,0 +1,111 @@
+{
+ "id": "SYC_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  17,
+  23,
+  26,
+  30,
+  34,
+  40,
+  43,
+  51,
+  55,
+  57,
+  59,
+  63,
+  65,
+  68,
+  74,
+  81,
+  85,
+  90,
+  94
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "thirty- fourth",
+   "thirty-fourth",
+   "spacing"
+  ],
+  [
+   24,
+   "Smith- Muzorewa",
+   "Smith-Muzorewa",
+   "spacing"
+  ],
+  [
+   33,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   49,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "long- term",
+   "long-term",
+   "spacing"
+  ],
+  [
+   55,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d367b071214b013069236ed4eb45ebaeaaf3bacf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2683,
+  "words_out": 2677,
+  "retention": 0.9978,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   205,
+   140,
+   97,
+   156,
+   100,
+   94,
+   90,
+   141,
+   92,
+   182,
+   131,
+   146,
+   78,
+   157,
+   102,
+   98,
+   160,
+   139,
+   113,
+   98,
+   68,
+   90
+  ],
+  "warnings": []
+ }
+}

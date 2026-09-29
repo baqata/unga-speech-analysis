@@ -1,0 +1,70 @@
+{
+ "id": "BFA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  36,
+  45,
+  66,
+  85,
+  104,
+  122,
+  133,
+  148,
+  160,
+  177,
+  199,
+  211,
+  221
+ ],
+ "cer": [
+  221
+ ],
+ "fix": [
+  [
+   5,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ],
+  [
+   18,
+   "inf low",
+   "inflow",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "86474e0280f274f43936930e26c00df517b3ddc9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 236,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1955,
+  "words_out": 1953,
+  "retention": 0.999,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   129,
+   183,
+   68,
+   178,
+   150,
+   155,
+   156,
+   98,
+   106,
+   105,
+   143,
+   176,
+   91,
+   94,
+   121
+  ],
+  "warnings": []
+ }
+}

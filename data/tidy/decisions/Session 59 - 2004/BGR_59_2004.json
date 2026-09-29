@@ -1,0 +1,127 @@
+{
+ "id": "BGR_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  25,
+  34,
+  57,
+  73,
+  90,
+  105,
+  132,
+  142,
+  152,
+  170,
+  188,
+  197,
+  213,
+  226,
+  239,
+  258
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   52,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   89,
+   "regionís",
+   "region’s",
+   "encoding"
+  ],
+  [
+   119,
+   "ìstandards before statusî",
+   "“standards before status”",
+   "encoding"
+  ],
+  [
+   121,
+   "Kosovoís",
+   "Kosovo’s",
+   "encoding"
+  ],
+  [
+   122,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ],
+  [
+   126,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ],
+  [
+   152,
+   "Bulgariaís",
+   "Bulgaria’s",
+   "encoding"
+  ],
+  [
+   156,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ],
+  [
+   259,
+   "Bulgariaís",
+   "Bulgaria’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8684d24f04bb5716dd506659bb3a4ab84da8a5a2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 267,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 3
+  },
+  "words_in": 2064,
+  "words_out": 2060,
+  "retention": 0.9981,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   82,
+   124,
+   66,
+   172,
+   118,
+   128,
+   119,
+   204,
+   73,
+   87,
+   127,
+   131,
+   75,
+   122,
+   106,
+   95,
+   163,
+   68
+  ],
+  "warnings": []
+ }
+}

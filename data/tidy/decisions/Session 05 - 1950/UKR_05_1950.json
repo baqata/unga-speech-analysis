@@ -1,0 +1,73 @@
+{
+ "id": "UKR_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  16,
+  23,
+  29,
+  33,
+  38,
+  45,
+  51,
+  55,
+  58,
+  64,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   " [A/1376]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   " [A/1377]\"",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "50062090cf450b5d0d20db037cce3910354eaddc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 40
+  },
+  "words_in": 2397,
+  "words_out": 2395,
+  "retention": 0.9992,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   101,
+   104,
+   145,
+   94,
+   87,
+   209,
+   183,
+   161,
+   169,
+   187,
+   162,
+   147,
+   159,
+   245,
+   171,
+   71
+  ],
+  "warnings": []
+ }
+}

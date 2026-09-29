@@ -1,0 +1,72 @@
+{
+ "id": "CUB_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  16,
+  22,
+  24,
+  27,
+  29
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "conduct,",
+   "conduct.",
+   "ocr"
+  ],
+  [
+   12,
+   "economy,",
+   "economy.",
+   "ocr"
+  ],
+  [
+   26,
+   "their-populations",
+   "their populations",
+   "spacing"
+  ],
+  [
+   26,
+   "create, fuller",
+   "create fuller",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "6924fa8da3854c1bef36881a5226bba0bd7d2f6a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 30,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 11
+  },
+  "words_in": 912,
+  "words_out": 913,
+  "retention": 1.0011,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   116,
+   155,
+   123,
+   77,
+   115,
+   80,
+   108,
+   80,
+   59
+  ],
+  "warnings": []
+ }
+}

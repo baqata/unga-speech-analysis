@@ -1,0 +1,179 @@
+{
+ "id": "KWT_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  13,
+  17,
+  20,
+  22,
+  26,
+  33,
+  35,
+  39,
+  42,
+  44,
+  46,
+  48,
+  52,
+  61,
+  65,
+  71,
+  77,
+  80,
+  84,
+  88,
+  92,
+  95,
+  100
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   20,
+   "134 ",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "{he",
+   "the",
+   "ocr"
+  ],
+  [
+   25,
+   "Members, I",
+   "Members. I",
+   "ocr"
+  ],
+  [
+   26,
+   "i ts",
+   "its",
+   "split_word"
+  ],
+  [
+   28,
+   " [Al10001IAdd.",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "1] ",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "b«",
+   "be",
+   "ocr"
+  ],
+  [
+   46,
+   " [jee Al 10217 and CorrJ, annex]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "[Al 100011Add.1, sect.",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "VUL]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "countries,",
+   "countries.",
+   "ocr"
+  ],
+  [
+   70,
+   "Disarmament,",
+   "Disarmament.",
+   "ocr"
+  ],
+  [
+   72,
+   "influence .through",
+   "influence through",
+   "ocr"
+  ],
+  [
+   72,
+   "of, military",
+   "of military",
+   "ocr"
+  ],
+  [
+   83,
+   " [resolution 2749 (XXV)}",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "States, The",
+   "States. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 21 keeps OCR damage (\"hat\", \"Ango a\", \"n the\") that cannot be repaired without adding letters.",
+ "unitizer_version": 1,
+ "sha1": "4bdc152e5edef764c0b25f897998938cff12ea8c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 3471,
+  "words_out": 3454,
+  "retention": 0.9951,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   107,
+   48,
+   229,
+   120,
+   169,
+   95,
+   163,
+   261,
+   78,
+   171,
+   103,
+   83,
+   64,
+   102,
+   105,
+   159,
+   137,
+   142,
+   211,
+   155,
+   152,
+   119,
+   126,
+   104,
+   167,
+   84
+  ],
+  "warnings": []
+ }
+}

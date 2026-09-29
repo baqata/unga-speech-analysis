@@ -1,0 +1,117 @@
+{
+ "id": "COG_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  17,
+  19,
+  25,
+  30,
+  33,
+  35,
+  40,
+  47,
+  50,
+  55,
+  60,
+  64,
+  69,
+  73,
+  77,
+  81,
+  85,
+  90,
+  95,
+  99,
+  102
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   55,
+   "every-thing",
+   "everything",
+   "hyphen"
+  ],
+  [
+   83,
+   "life- expectancy",
+   "life-expectancy",
+   "spacing"
+  ],
+  [
+   90,
+   "counter- performances",
+   "counter-performances",
+   "spacing"
+  ],
+  [
+   94,
+   "Lome'",
+   "Lome",
+   "ocr"
+  ],
+  [
+   100,
+   ".well-being",
+   "well-being",
+   "ocr"
+  ],
+  [
+   104,
+   "'President",
+   "President",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6e32da425bd6d767af2564dc0e0747ebfda6c7e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3175,
+  "words_out": 3167,
+  "retention": 0.9975,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   220,
+   134,
+   70,
+   129,
+   116,
+   145,
+   111,
+   114,
+   116,
+   95,
+   225,
+   80,
+   103,
+   98,
+   114,
+   127,
+   78,
+   100,
+   163,
+   122,
+   120,
+   132,
+   150,
+   133,
+   172
+  ],
+  "warnings": []
+ }
+}

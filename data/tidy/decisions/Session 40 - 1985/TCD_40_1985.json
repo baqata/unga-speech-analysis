@@ -1,0 +1,94 @@
+{
+ "id": "TCD_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  5,
+  10,
+  12,
+  17,
+  21,
+  26,
+  31,
+  36,
+  39,
+  44,
+  49,
+  54,
+  60,
+  63,
+  69,
+  71,
+  72
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   6,
+   "can be maintained.",
+   "can be maintained.\"",
+   "ocr"
+  ],
+  [
+   19,
+   "has build",
+   "has built",
+   "ocr"
+  ],
+  [
+   23,
+   "are force to",
+   "are forced to",
+   "ocr"
+  ],
+  [
+   44,
+   "here-to",
+   "here to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad8ba6959bf08250e74d421c86bc48e1d612716b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2052,
+  "words_out": 2053,
+  "retention": 1.0005,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   59,
+   34,
+   34,
+   167,
+   75,
+   124,
+   85,
+   114,
+   130,
+   139,
+   134,
+   71,
+   109,
+   134,
+   228,
+   85,
+   150,
+   68,
+   73,
+   40
+  ],
+  "warnings": []
+ }
+}

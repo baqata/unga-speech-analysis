@@ -1,0 +1,176 @@
+{
+ "id": "MDG_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   92,
+   93,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  7,
+  13,
+  22,
+  27,
+  33,
+  39,
+  44,
+  48,
+  52,
+  55,
+  65,
+  74,
+  78,
+  82,
+  88,
+  89
+ ],
+ "cer": [
+  2,
+  3,
+  88,
+  89
+ ],
+ "fix": [
+  [
+   5,
+   "Khalilor Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   31,
+   "With incorporation fö�� geschrieben ",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "united nations",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   62,
+   "Ezelwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   62,
+   "CERT",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   2,
+   "Excellences, Excellences,",
+   "Excellencies, Excellencies,",
+   "asr_term"
+  ],
+  [
+   2,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   7,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   27,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   33,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   52,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   78,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   26,
+   "sectors. while",
+   "sectors while",
+   "asr_term"
+  ],
+  [
+   38,
+   "face. confronted",
+   "face. Confronted",
+   "asr_term"
+  ],
+  [
+   41,
+   "sovereignty. also",
+   "sovereignty. Also",
+   "asr_term"
+  ],
+  [
+   51,
+   "tensions. history",
+   "tensions. History",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Ezulwini Consensus and Sirte Declaration are the African Union positions on Security Council reform (Spanish 'Sirte'; African Union); unit 31 opens with invented second-pass text, removed by label. Main-agent term check (speech-to-text spelling of the form of address, and misheard words): unit 2 'Excellences, Excellences,' -> 'Excellencies, Excellencies,'; unit 2 'Excellences' -> 'Excellencies'; unit 7 'Excellences' -> 'Excellencies'; unit 27 'Excellences' -> 'Excellencies'; unit 33 'Excellences' -> 'Excellencies'; unit 52 'Excellences' -> 'Excellencies'; unit 78 'Excellences' -> 'Excellencies'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 26 'sectors. while' -> 'sectors while'; unit 38 'face. confronted' -> 'face. Confronted'; unit 41 'sovereignty. also' -> 'sovereignty. Also'; unit 51 'tensions. history' -> 'tensions. History'",
+ "unitizer_version": 1,
+ "sha1": "5ce78fa0046800e62cb163c9a49e937647ae3048",
+ "layout": "single",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2274,
+  "words_out": 2213,
+  "retention": 0.9732,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   28,
+   134,
+   206,
+   178,
+   176,
+   137,
+   190,
+   105,
+   76,
+   177,
+   95,
+   167,
+   149,
+   64,
+   96,
+   153,
+   64,
+   18
+  ],
+  "warnings": []
+ }
+}

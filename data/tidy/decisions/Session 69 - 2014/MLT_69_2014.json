@@ -1,0 +1,84 @@
+{
+ "id": "MLT_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  23,
+  41,
+  50,
+  66,
+  80,
+  92,
+  103,
+  122,
+  134,
+  142,
+  153,
+  165,
+  178,
+  191,
+  200,
+  228,
+  241
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   86,
+   "Liby,",
+   "Libya,",
+   "ocr"
+  ],
+  [
+   38,
+   ".ensu",
+   "Ċensu",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9329cec6347f1f527a8d61dc5b947f95fea13d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "language_note": 2
+  },
+  "words_in": 2124,
+  "words_out": 2124,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   43,
+   54,
+   106,
+   167,
+   91,
+   134,
+   124,
+   107,
+   91,
+   152,
+   100,
+   75,
+   93,
+   103,
+   101,
+   113,
+   74,
+   229,
+   114,
+   53
+  ],
+  "warnings": []
+ }
+}

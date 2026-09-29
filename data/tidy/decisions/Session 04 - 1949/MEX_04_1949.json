@@ -1,0 +1,88 @@
+{
+ "id": "MEX_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  14,
+  17,
+  18,
+  20,
+  22,
+  25,
+  27
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "still -unresolved",
+   "still unresolved",
+   "ocr"
+  ],
+  [
+   12,
+   " (220th meeting)",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "months, That",
+   "months. That",
+   "ocr"
+  ],
+  [
+   17,
+   "tire real",
+   "the real",
+   "ocr"
+  ],
+  [
+   20,
+   " (222nd meeting)",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "all,",
+   "all.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "34bb7687291b80cd643120d8b5b931b51109561d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 31,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1290,
+  "words_out": 1286,
+  "retention": 0.9969,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   209,
+   81,
+   75,
+   112,
+   164,
+   78,
+   90,
+   98,
+   164,
+   78,
+   137
+  ],
+  "warnings": []
+ }
+}

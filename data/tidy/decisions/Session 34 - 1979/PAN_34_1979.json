@@ -1,0 +1,118 @@
+{
+ "id": "PAN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  9,
+  10,
+  13,
+  15,
+  17,
+  19,
+  23,
+  26,
+  27,
+  30,
+  34,
+  37,
+  40,
+  43,
+  48,
+  51,
+  53,
+  57,
+  61
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "Canal , a",
+   "Canal, a",
+   "spacing"
+  ],
+  [
+   3,
+   "Lie'vano",
+   "Lievano",
+   "ocr"
+  ],
+  [
+   6,
+   "en-clave",
+   "enclave",
+   "hyphen"
+  ],
+  [
+   12,
+   "1999, After",
+   "1999. After",
+   "ocr"
+  ],
+  [
+   41,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "inter- oceanic",
+   "inter-oceanic",
+   "spacing"
+  ],
+  [
+   56,
+   "respect,",
+   "respect.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0ec9e92dca4a7f160ccc2fb37295d1f7ebed18c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2782,
+  "words_out": 2778,
+  "retention": 0.9986,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   152,
+   144,
+   95,
+   130,
+   64,
+   140,
+   89,
+   97,
+   106,
+   145,
+   99,
+   107,
+   137,
+   73,
+   134,
+   126,
+   204,
+   128,
+   105,
+   87,
+   126,
+   130,
+   160
+  ],
+  "warnings": []
+ }
+}

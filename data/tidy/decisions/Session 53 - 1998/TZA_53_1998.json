@@ -1,0 +1,123 @@
+{
+ "id": "TZA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  28,
+  45,
+  62,
+  85,
+  97,
+  117,
+  131,
+  143,
+  163,
+  180,
+  202,
+  218,
+  240,
+  271,
+  283,
+  294,
+  300,
+  314,
+  323,
+  333,
+  348,
+  372,
+  386,
+  412,
+  424,
+  443,
+  468,
+  494,
+  508,
+  528,
+  547,
+  555
+ ],
+ "cer": [
+  0,
+  547
+ ],
+ "fix": [
+  [
+   90,
+   "socalled",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   202,
+   "EritreaEthiopia",
+   "Eritrea-Ethiopia",
+   "hyphen"
+  ],
+  [
+   302,
+   "selfdetermination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   413,
+   "nuclearweapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "172fd61018cc6db287a4890b7ee6ed5e88daddde",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 564,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 4847,
+  "words_out": 4847,
+  "retention": 1.0,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   123,
+   126,
+   145,
+   147,
+   187,
+   114,
+   176,
+   112,
+   111,
+   174,
+   150,
+   190,
+   149,
+   182,
+   264,
+   103,
+   95,
+   53,
+   136,
+   72,
+   82,
+   132,
+   212,
+   125,
+   230,
+   112,
+   137,
+   207,
+   222,
+   128,
+   164,
+   145,
+   64,
+   78
+  ],
+  "warnings": []
+ }
+}

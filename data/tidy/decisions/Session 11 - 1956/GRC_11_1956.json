@@ -1,0 +1,68 @@
+{
+ "id": "GRC_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  22,
+  27,
+  33,
+  40,
+  48,
+  56,
+  66,
+  73,
+  79,
+  85,
+  91
+ ],
+ "cer": [],
+ "fix": [
+  [
+   32,
+   "I held",
+   "I hold",
+   "ocr"
+  ],
+  [
+   39,
+   "that m which",
+   "that in which",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b16d465408beb847ef9db39b048d4168a5bef151",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2103,
+  "words_out": 2103,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   155,
+   131,
+   165,
+   75,
+   200,
+   122,
+   190,
+   202,
+   134,
+   142,
+   80,
+   222,
+   111,
+   174
+  ],
+  "warnings": []
+ }
+}

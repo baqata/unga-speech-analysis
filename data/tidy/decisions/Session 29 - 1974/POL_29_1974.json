@@ -1,0 +1,105 @@
+{
+ "id": "POL_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  13,
+  18,
+  21,
+  26,
+  32,
+  35,
+  38,
+  44,
+  48,
+  55,
+  59,
+  64,
+  68,
+  74,
+  81,
+  87,
+  92,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   22,
+   "rights, We",
+   "rights. We",
+   "ocr"
+  ],
+  [
+   45,
+   "ago.1",
+   "ago.",
+   "ocr"
+  ],
+  [
+   53,
+   "all- European",
+   "all-European",
+   "spacing"
+  ],
+  [
+   71,
+   "of. personnel",
+   "of personnel",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c56c9c38e5d1951737b1cbc057447f37212de84",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 2839,
+  "words_out": 2834,
+  "retention": 0.9982,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   121,
+   110,
+   139,
+   79,
+   140,
+   101,
+   178,
+   106,
+   105,
+   106,
+   150,
+   143,
+   181,
+   125,
+   199,
+   105,
+   112,
+   190,
+   127,
+   114,
+   119,
+   84
+  ],
+  "warnings": []
+ }
+}

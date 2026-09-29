@@ -1,0 +1,49 @@
+{
+ "id": "AFG_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  43,
+  55,
+  83,
+  100,
+  114,
+  129,
+  138,
+  155,
+  168
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44c6331028731ef3989304faa1efab4857345ec7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1337,
+  "words_out": 1336,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   104,
+   225,
+   93,
+   215,
+   123,
+   99,
+   118,
+   64,
+   137,
+   105,
+   53
+  ],
+  "warnings": []
+ }
+}

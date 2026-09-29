@@ -1,0 +1,99 @@
+{
+ "id": "MWI_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  19,
+  24,
+  30,
+  31,
+  36,
+  39,
+  42,
+  49,
+  55,
+  58,
+  61,
+  65
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   7,
+   "1 wish",
+   "I wish",
+   "ocr"
+  ],
+  [
+   18,
+   "go-operation",
+   "co-operation",
+   "ocr"
+  ],
+  [
+   32,
+   " [A CP]",
+   "",
+   "label"
+  ],
+  [
+   32,
+   " [EEC]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "System.16",
+   "System.",
+   "ocr"
+  ],
+  [
+   60,
+   "jn voluminous",
+   "in voluminous",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44dbce452f2c700eee4c4e3e9e45976dad8ce020",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2011,
+  "words_out": 2008,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   71,
+   194,
+   137,
+   149,
+   238,
+   142,
+   37,
+   146,
+   70,
+   116,
+   129,
+   145,
+   64,
+   131,
+   126,
+   113
+  ],
+  "warnings": []
+ }
+}

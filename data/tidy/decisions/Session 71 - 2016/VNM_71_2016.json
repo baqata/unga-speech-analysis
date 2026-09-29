@@ -1,0 +1,60 @@
+{
+ "id": "VNM_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  14,
+  20,
+  26,
+  32,
+  35,
+  39,
+  44,
+  48,
+  52,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   43,
+   "16-29811 19/52 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4b4884b25696416e1e0350fbe3f92daedb7e647f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1412,
+  "words_out": 1410,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   84,
+   104,
+   98,
+   113,
+   113,
+   118,
+   61,
+   78,
+   122,
+   154,
+   128,
+   117,
+   120
+  ],
+  "warnings": []
+ }
+}

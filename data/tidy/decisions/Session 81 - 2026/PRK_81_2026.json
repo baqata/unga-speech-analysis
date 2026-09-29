@@ -1,0 +1,170 @@
+{
+ "id": "PRK_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   2,
+   "noise"
+  ],
+  [
+   78,
+   78,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  5,
+  12,
+  16,
+  23,
+  30,
+  33,
+  35,
+  43,
+  49,
+  55,
+  59,
+  63,
+  67,
+  72,
+  77
+ ],
+ "cer": [
+  3,
+  77
+ ],
+ "fix": [
+  [
+   3,
+   "You ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Khalidul Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   28,
+   " team.",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "State of Use",
+   "State Affairs",
+   "asr_term"
+  ],
+  [
+   41,
+   "an encouraging",
+   "and encouraged",
+   "asr_term"
+  ],
+  [
+   48,
+   "uncommonplace",
+   "commonplace",
+   "asr_term"
+  ],
+  [
+   52,
+   "original balance",
+   "regional balance",
+   "asr_term"
+  ],
+  [
+   56,
+   "irregistible",
+   "irresistible",
+   "asr_term"
+  ],
+  [
+   59,
+   "the the world",
+   "the world",
+   "asr_term"
+  ],
+  [
+   11,
+   "high can",
+   "hike in",
+   "asr_term"
+  ],
+  [
+   27,
+   "trade",
+   "trend",
+   "asr_term"
+  ],
+  [
+   38,
+   "huge",
+   "hues",
+   "asr_term"
+  ],
+  [
+   47,
+   "veering",
+   "they are in",
+   "asr_term"
+  ],
+  [
+   52,
+   "coops",
+   "curbs",
+   "asr_term"
+  ],
+  [
+   57,
+   "fiscally",
+   "physically",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 1-2 and the opening 'You' invented over the walk to the podium; Khalilur Rahman per un.org; State Affairs, aprobado y alentado, algo comun, equilibrio regional per Spanish; stray 'team.' at the end of unit 28 has no Spanish counterpart. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 11 'high can' -> 'hike in' (same sound; decodes unclear ('high' 0.46 / 0.35, no 'can'); 'high can oil prices' does not fit; ES 'el despunte de los precios de los combustibles'); spot 11 unit 27 'trade' -> 'trend' (near-homophone; decodes 'trade' only 0.78 / 0.61; 'the upward trade of a comprehensive development' does not fit, 'upward trend' does); spot 15 unit 38 'huge' -> 'hues' (same sound; decodes do not hear 'huge' ('old Hughes' / 'all youth', low); 'war rehearsals of all huge and military buildup' does not fit; ES 'ensayos ... con tientes [tintes] militares'); spot 20 unit 47 'veering' -> 'they are in' (same sound; both decodes clearly hear 'They are in shameless disregard' (0.97-1.00); 'veering shameless disregard' does not fit; ES 'desvergonzada que pasa por alto la Carta'); spot 24 unit 52 'coops' -> 'curbs' (decodes unclear ('coops' 0.31 / 'copes' 0.72); 'effectively coops the risk' does not fit; ES 'hemos podido contener'; 'curbs' sounds alike and fits); spot 26 unit 57 'fiscally' -> 'physically' (decodes hear 'fiscally' (0.96 / 0.91), same sound as 'physically'; a nuclear-weapon status 'fixed both fiscally and legally' does not fit; 'physically and legally' is the sense)",
+ "unitizer_version": 1,
+ "sha1": "57e2235273504c84c768067e08776ad0c2494b3a",
+ "layout": "single",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2077,
+  "words_out": 2004,
+  "retention": 0.9649,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   51,
+   187,
+   141,
+   129,
+   153,
+   61,
+   66,
+   228,
+   143,
+   174,
+   193,
+   71,
+   119,
+   134,
+   152,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "SOM_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  12,
+  15,
+  20,
+  23,
+  25,
+  29,
+  31,
+  36,
+  40,
+  42,
+  46,
+  48,
+  52,
+  55,
+  61,
+  64,
+  68,
+  72,
+  76,
+  80,
+  83,
+  86,
+  95
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   39,
+   "ail foreign",
+   "all foreign",
+   "ocr"
+  ],
+  [
+   58,
+   "camps m Somalia",
+   "camps in Somalia",
+   "ocr"
+  ],
+  [
+   67,
+   "freeze m the",
+   "freeze in the",
+   "ocr"
+  ],
+  [
+   73,
+   "nuclear- weapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ],
+  [
+   76,
+   "Ocean.'\"",
+   "Ocean.",
+   "markup"
+  ],
+  [
+   81,
+   "Assembly an the",
+   "Assembly on the",
+   "ocr"
+  ],
+  [
+   86,
+   "one hi which",
+   "one in which",
+   "ocr"
+  ],
+  [
+   92,
+   "[/4/3#/V]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   "machinery of.",
+   "machinery of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "687823ab0323b0245c2b14fbdc08dd66d1ac841d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2914,
+  "words_out": 2912,
+  "retention": 0.9993,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   93,
+   78,
+   101,
+   132,
+   77,
+   128,
+   79,
+   73,
+   126,
+   80,
+   125,
+   114,
+   78,
+   110,
+   76,
+   109,
+   92,
+   171,
+   82,
+   134,
+   119,
+   100,
+   183,
+   87,
+   112,
+   183,
+   70
+  ],
+  "warnings": []
+ }
+}

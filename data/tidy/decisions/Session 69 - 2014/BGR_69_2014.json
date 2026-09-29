@@ -1,0 +1,61 @@
+{
+ "id": "BGR_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  20,
+  42,
+  59,
+  69,
+  80,
+  90,
+  111,
+  124,
+  134,
+  148,
+  160,
+  173,
+  179,
+  190,
+  200
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd8ab99269c6a03e0de29cb3e728030b60746cfd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 218,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1707,
+  "words_out": 1699,
+  "retention": 0.9953,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   41,
+   129,
+   163,
+   140,
+   73,
+   88,
+   90,
+   162,
+   92,
+   88,
+   110,
+   89,
+   88,
+   43,
+   87,
+   84,
+   132
+  ],
+  "warnings": []
+ }
+}

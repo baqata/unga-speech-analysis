@@ -1,0 +1,169 @@
+{
+ "id": "COM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  11,
+  18,
+  27,
+  32,
+  38,
+  45,
+  50,
+  54,
+  57,
+  61,
+  65,
+  70,
+  73
+ ],
+ "cer": [
+  2,
+  73
+ ],
+ "fix": [
+  [
+   3,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   47,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   48,
+   "Camoros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   48,
+   "Grand Camor",
+   "Grande Comore",
+   "asr_name"
+  ],
+  [
+   48,
+   "Morelis",
+   "Mohéli",
+   "asr_name"
+  ],
+  [
+   49,
+   "Camoros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   50,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   52,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   53,
+   "Camoros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   54,
+   "Camoros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   54,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   55,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   57,
+   "Camoros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   61,
+   "Union of the Camoros",
+   "Union of the Comoros",
+   "asr_name"
+  ],
+  [
+   61,
+   "Emerging Camoros",
+   "Emerging Comoros",
+   "asr_name"
+  ],
+  [
+   70,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   71,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5ed7b792523f81d196f8785335ee0416301d9e38",
+ "layout": "single",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1970,
+  "words_out": 1936,
+  "retention": 0.9827,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   159,
+   153,
+   144,
+   185,
+   199,
+   88,
+   166,
+   144,
+   184,
+   122,
+   77,
+   90,
+   128,
+   91,
+   6
+  ],
+  "warnings": []
+ }
+}

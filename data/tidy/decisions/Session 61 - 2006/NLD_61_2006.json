@@ -1,0 +1,54 @@
+{
+ "id": "NLD_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  17,
+  37,
+  48,
+  67,
+  91,
+  104,
+  134,
+  156,
+  171,
+  190
+ ],
+ "cer": [
+  0,
+  190
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a5ffbacf90eb972ffae03c12daad2cdb4b68c2d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1645,
+  "words_out": 1642,
+  "retention": 0.9982,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   42,
+   89,
+   163,
+   99,
+   154,
+   203,
+   115,
+   229,
+   177,
+   122,
+   151,
+   98
+  ],
+  "warnings": []
+ }
+}

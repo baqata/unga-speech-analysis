@@ -1,0 +1,123 @@
+{
+ "id": "KHM_39_1984",
+ "drop": [
+  [
+   49,
+   49,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  9,
+  12,
+  17,
+  22,
+  26,
+  30,
+  33,
+  36,
+  40,
+  46,
+  51,
+  58,
+  59,
+  64,
+  67,
+  71,
+  78,
+  81,
+  85,
+  89,
+  95,
+  99,
+  105,
+  110,
+  113
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  9,
+  12,
+  17
+ ],
+ "fix": [
+  [
+   20,
+   "assistance m our",
+   "assistance in our",
+   "ocr"
+  ],
+  [
+   21,
+   "to ail those",
+   "to all those",
+   "ocr"
+  ],
+  [
+   110,
+   " [FLO]",
+   "",
+   "label"
+  ],
+  [
+   113,
+   " [SWAPO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 49 is a misread paragraph number; several compound hyphens are lost in the source.",
+ "unitizer_version": 1,
+ "sha1": "4d060490b581de7759098a4a0dd54b37f397d5bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 3760,
+  "words_out": 3754,
+  "retention": 0.9984,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   90,
+   79,
+   134,
+   110,
+   155,
+   127,
+   118,
+   160,
+   139,
+   152,
+   127,
+   133,
+   143,
+   195,
+   59,
+   212,
+   114,
+   153,
+   204,
+   104,
+   128,
+   104,
+   101,
+   141,
+   153,
+   139,
+   125,
+   155
+  ],
+  "warnings": []
+ }
+}

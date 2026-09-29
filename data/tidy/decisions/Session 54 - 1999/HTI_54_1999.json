@@ -1,0 +1,56 @@
+{
+ "id": "HTI_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  45,
+  72,
+  90,
+  111,
+  124,
+  147,
+  167,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "Tanga",
+   "Tonga",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b14b8a6b669e34b848ca2dab7b5ead273572a7a3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1593,
+  "words_out": 1592,
+  "retention": 0.9994,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   208,
+   174,
+   227,
+   164,
+   186,
+   109,
+   179,
+   175,
+   118,
+   52
+  ],
+  "warnings": []
+ }
+}

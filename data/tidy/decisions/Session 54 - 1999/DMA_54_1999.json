@@ -1,0 +1,72 @@
+{
+ "id": "DMA_54_1999",
+ "drop": [
+  [
+   234,
+   234,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  30,
+  46,
+  55,
+  67,
+  77,
+  89,
+  108,
+  128,
+  145,
+  162,
+  188,
+  197,
+  213,
+  226,
+  241
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d7a284d39cebc40caf7fc3f63ccc630b995b1328",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2030,
+  "words_out": 2024,
+  "retention": 0.997,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   95,
+   148,
+   123,
+   82,
+   95,
+   76,
+   104,
+   158,
+   161,
+   130,
+   132,
+   201,
+   82,
+   149,
+   107,
+   113,
+   68
+  ],
+  "warnings": []
+ }
+}

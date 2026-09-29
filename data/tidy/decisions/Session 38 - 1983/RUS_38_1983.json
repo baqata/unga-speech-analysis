@@ -1,0 +1,232 @@
+{
+ "id": "RUS_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  16,
+  19,
+  23,
+  29,
+  38,
+  42,
+  47,
+  50,
+  53,
+  56,
+  60,
+  68,
+  69,
+  73,
+  78,
+  82,
+  87,
+  93,
+  99,
+  105,
+  111,
+  114,
+  117,
+  122,
+  124,
+  129,
+  136,
+  141,
+  144,
+  148,
+  155,
+  160,
+  163,
+  169,
+  173,
+  178,
+  182,
+  190,
+  193,
+  199,
+  204,
+  206,
+  211,
+  216,
+  219,
+  223,
+  229,
+  233,
+  239,
+  242,
+  248,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "chum out",
+   "churn out",
+   "ocr"
+  ],
+  [
+   24,
+   "B-l bomber",
+   "B-1 bomber",
+   "ocr"
+  ],
+  [
+   28,
+   "A11 this",
+   "All this",
+   "ocr"
+  ],
+  [
+   51,
+   "dose the existing",
+   "close the existing",
+   "ocr"
+  ],
+  [
+   113,
+   "Soviet- Japanese",
+   "Soviet-Japanese",
+   "hyphen"
+  ],
+  [
+   113,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ],
+  [
+   124,
+   "of 6he United",
+   "of the United",
+   "ocr"
+  ],
+  [
+   158,
+   "_",
+   "",
+   "label"
+  ],
+  [
+   189,
+   "180- ",
+   "",
+   "label"
+  ],
+  [
+   196,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   200,
+   "follow- up",
+   "follow-up",
+   "hyphen"
+  ],
+  [
+   223,
+   "Security- building",
+   "Security-building",
+   "hyphen"
+  ],
+  [
+   225,
+   "the. Helsinki",
+   "the Helsinki",
+   "ocr"
+  ],
+  [
+   232,
+   "Soviet- American",
+   "Soviet-American",
+   "hyphen"
+  ],
+  [
+   240,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ae75394d36641c39a3903ee8ff5414ed589e941",
+ "layout": "lines",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 163
+  },
+  "words_in": 7428,
+  "words_out": 7410,
+  "retention": 0.9976,
+  "n_paragraphs": 56,
+  "paragraph_words": [
+   110,
+   134,
+   110,
+   124,
+   81,
+   111,
+   232,
+   205,
+   117,
+   130,
+   93,
+   76,
+   120,
+   108,
+   128,
+   79,
+   100,
+   94,
+   126,
+   153,
+   145,
+   108,
+   163,
+   167,
+   94,
+   79,
+   122,
+   69,
+   180,
+   154,
+   147,
+   88,
+   98,
+   156,
+   186,
+   112,
+   236,
+   152,
+   132,
+   108,
+   173,
+   114,
+   203,
+   199,
+   73,
+   113,
+   107,
+   82,
+   129,
+   239,
+   116,
+   194,
+   97,
+   202,
+   186,
+   56
+  ],
+  "warnings": []
+ }
+}

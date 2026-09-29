@@ -1,0 +1,136 @@
+{
+ "id": "PRY_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  14,
+  23,
+  26,
+  30,
+  36,
+  44,
+  47,
+  52,
+  54,
+  59,
+  63,
+  67,
+  70,
+  76,
+  79,
+  88,
+  92,
+  96,
+  101,
+  107,
+  112,
+  116
+ ],
+ "cer": [
+  0,
+  7,
+  11
+ ],
+ "fix": [
+  [
+   1,
+   "both-high",
+   "both high",
+   "ocr"
+  ],
+  [
+   24,
+   " [A/7201/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "success Of his",
+   "success of his",
+   "ocr"
+  ],
+  [
+   55,
+   "parlance, But",
+   "parlance. But",
+   "ocr"
+  ],
+  [
+   57,
+   "cause Of international",
+   "cause of international",
+   "ocr"
+  ],
+  [
+   84,
+   "needs.”.",
+   "needs.”",
+   "ocr"
+  ],
+  [
+   107,
+   "reg:on",
+   "region",
+   "ocr"
+  ],
+  [
+   116,
+   " [A/7201/Add.1, para. 205]",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "and 1 should",
+   "and I should",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ade89d36e8cc98ba1052e9d578f1c15c84b49b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3142,
+  "words_out": 3107,
+  "retention": 0.9889,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   144,
+   55,
+   54,
+   171,
+   79,
+   105,
+   146,
+   237,
+   100,
+   157,
+   87,
+   216,
+   111,
+   92,
+   67,
+   167,
+   123,
+   210,
+   96,
+   122,
+   141,
+   124,
+   101,
+   111,
+   91
+  ],
+  "warnings": []
+ }
+}

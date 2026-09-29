@@ -1,0 +1,53 @@
+{
+ "id": "PHL_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  29,
+  44,
+  54,
+  64,
+  76,
+  92,
+  104,
+  119,
+  135,
+  138
+ ],
+ "cer": [
+  135
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9fa7c2af5dcb68c806d589944cdbef6f79f03a57",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1185,
+  "words_out": 1184,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   105,
+   133,
+   141,
+   81,
+   75,
+   102,
+   135,
+   95,
+   108,
+   125,
+   25,
+   59
+  ],
+  "warnings": []
+ }
+}

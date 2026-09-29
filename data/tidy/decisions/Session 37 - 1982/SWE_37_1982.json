@@ -1,0 +1,154 @@
+{
+ "id": "SWE_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  29,
+  52,
+  74,
+  94,
+  112,
+  136,
+  145,
+  160,
+  169,
+  183,
+  201,
+  219,
+  254,
+  264,
+  280,
+  299,
+  308,
+  327,
+  340,
+  359,
+  375,
+  389,
+  410,
+  446,
+  472,
+  483,
+  501,
+  521,
+  533,
+  545,
+  570
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   103,
+   "just and. realistic",
+   "just and realistic",
+   "ocr"
+  ],
+  [
+   138,
+   "FLO",
+   "PLO",
+   "ocr"
+  ],
+  [
+   142,
+   "elective",
+   "effective",
+   "ocr"
+  ],
+  [
+   230,
+   "medium- sized",
+   "medium-sized",
+   "spacing"
+  ],
+  [
+   260,
+   "nuclear-weapon- free",
+   "nuclear-weapon-free",
+   "spacing"
+  ],
+  [
+   274,
+   "AH this",
+   "All this",
+   "ocr"
+  ],
+  [
+   309,
+   "bee-a",
+   "been",
+   "ocr"
+  ],
+  [
+   310,
+   "shucked",
+   "shocked",
+   "ocr"
+  ],
+  [
+   323,
+   "resect",
+   "respect",
+   "ocr"
+  ],
+  [
+   533,
+   "tut forward",
+   "put forward",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Words are missing in unit 190 (apartheid), unit 268 and unit 369 (report title).",
+ "unitizer_version": 1,
+ "sha1": "08a681a217001c3a8f568d418ff7e5e8605be616",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 573,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4142,
+  "words_out": 4140,
+  "retention": 0.9995,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   142,
+   74,
+   151,
+   153,
+   144,
+   129,
+   164,
+   69,
+   114,
+   71,
+   99,
+   120,
+   143,
+   247,
+   72,
+   127,
+   142,
+   58,
+   135,
+   92,
+   133,
+   107,
+   100,
+   143,
+   263,
+   191,
+   73,
+   126,
+   143,
+   94,
+   96,
+   203,
+   22
+  ],
+  "warnings": []
+ }
+}

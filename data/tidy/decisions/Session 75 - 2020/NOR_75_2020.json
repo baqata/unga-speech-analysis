@@ -1,0 +1,73 @@
+{
+ "id": "NOR_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  18,
+  23,
+  28,
+  30,
+  37,
+  46,
+  53,
+  60,
+  68,
+  71,
+  79,
+  84,
+  90,
+  94,
+  99,
+  106
+ ],
+ "cer": [
+  0,
+  106
+ ],
+ "fix": [
+  [
+   68,
+   "High- Level",
+   "High-Level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1f2a5507e1e7a4ae4efb0dd3321684274af1ce5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1771,
+  "words_out": 1770,
+  "retention": 0.9994,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   5,
+   116,
+   162,
+   83,
+   141,
+   66,
+   158,
+   108,
+   95,
+   92,
+   111,
+   74,
+   92,
+   79,
+   101,
+   95,
+   89,
+   98,
+   5
+  ],
+  "warnings": []
+ }
+}

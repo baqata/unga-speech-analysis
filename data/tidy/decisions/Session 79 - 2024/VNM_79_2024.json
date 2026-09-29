@@ -1,0 +1,60 @@
+{
+ "id": "VNM_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  15,
+  19,
+  21,
+  26,
+  29,
+  33,
+  37,
+  40,
+  43,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   " (resolution ES-10/23)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "083bc7ad46f6a7242c1facdd2be85a2fc79630d8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1174,
+  "words_out": 1168,
+  "retention": 0.9949,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   85,
+   131,
+   75,
+   121,
+   76,
+   156,
+   80,
+   83,
+   96,
+   57,
+   81,
+   63,
+   64
+  ],
+  "warnings": []
+ }
+}

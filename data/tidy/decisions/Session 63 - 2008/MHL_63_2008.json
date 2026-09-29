@@ -1,0 +1,51 @@
+{
+ "id": "MHL_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  48,
+  76,
+  96,
+  112,
+  131,
+  147,
+  167,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bf9faea590e6de2bd45693ada79d19de471068c0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1584,
+  "words_out": 1583,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   71,
+   98,
+   213,
+   224,
+   164,
+   126,
+   146,
+   127,
+   157,
+   107,
+   150
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "PER_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  10,
+  14,
+  18,
+  24,
+  29,
+  34,
+  37,
+  43,
+  45,
+  49,
+  55,
+  61
+ ],
+ "cer": [
+  0,
+  3,
+  61
+ ],
+ "fix": [
+  [
+   17,
+   "action- oriented",
+   "action-oriented",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a23107a4e967f3bbffb518843f09545086821f3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1767,
+  "words_out": 1766,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   10,
+   39,
+   111,
+   111,
+   100,
+   163,
+   197,
+   122,
+   165,
+   77,
+   134,
+   94,
+   133,
+   137,
+   171,
+   2
+  ],
+  "warnings": []
+ }
+}

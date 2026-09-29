@@ -1,0 +1,74 @@
+{
+ "id": "CYP_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  34,
+  44,
+  60,
+  76,
+  93,
+  101,
+  113,
+  132,
+  142,
+  152,
+  162,
+  170,
+  187,
+  199,
+  212,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   135,
+   "stability.",
+   "stability,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02e534d391955b4f4c709996f2cd46d217b44928",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1978,
+  "words_out": 1975,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   50,
+   56,
+   159,
+   84,
+   118,
+   126,
+   134,
+   66,
+   88,
+   152,
+   73,
+   83,
+   81,
+   70,
+   138,
+   98,
+   95,
+   166,
+   138
+  ],
+  "warnings": []
+ }
+}

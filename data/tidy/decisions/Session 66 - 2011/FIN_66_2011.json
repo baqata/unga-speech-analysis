@@ -1,0 +1,59 @@
+{
+ "id": "FIN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  14,
+  26,
+  34,
+  50,
+  61,
+  72,
+  87,
+  98,
+  107,
+  116,
+  124,
+  146,
+  157
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b2e64b300d68f6652aece1c9fd959d3c731cd1b9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1292,
+  "words_out": 1287,
+  "retention": 0.9961,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   14,
+   87,
+   83,
+   60,
+   115,
+   86,
+   83,
+   119,
+   90,
+   77,
+   72,
+   58,
+   172,
+   93,
+   78
+  ],
+  "warnings": []
+ }
+}

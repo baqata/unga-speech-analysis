@@ -1,0 +1,74 @@
+{
+ "id": "TJK_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   69,
+   69,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  9,
+  18,
+  24,
+  29,
+  34,
+  39,
+  44,
+  50,
+  56,
+  62,
+  68
+ ],
+ "cer": [
+  2,
+  68
+ ],
+ "fix": [
+  [
+   62,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4640cace2f0ef96cf01ab9f42aa6ccc307475936",
+ "layout": "single",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1622,
+  "words_out": 1573,
+  "retention": 0.9698,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   38,
+   153,
+   209,
+   137,
+   109,
+   118,
+   106,
+   142,
+   156,
+   119,
+   131,
+   149,
+   6
+  ],
+  "warnings": []
+ }
+}

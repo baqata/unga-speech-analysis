@@ -1,0 +1,62 @@
+{
+ "id": "CIV_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  39,
+  64,
+  74,
+  96,
+  116,
+  127,
+  140,
+  168,
+  194,
+  208,
+  223,
+  232,
+  253
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0dccbf20177a6842e6f44bc1fa2ef1f8692dd6a5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 276,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2216,
+  "words_out": 2215,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   83,
+   114,
+   132,
+   225,
+   76,
+   175,
+   151,
+   89,
+   104,
+   212,
+   198,
+   109,
+   126,
+   65,
+   166,
+   190
+  ],
+  "warnings": []
+ }
+}

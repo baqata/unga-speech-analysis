@@ -1,0 +1,81 @@
+{
+ "id": "ISL_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   162,
+   162,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  15,
+  20,
+  35,
+  49,
+  61,
+  69,
+  75,
+  84,
+  100,
+  107,
+  110,
+  120,
+  138,
+  150,
+  161
+ ],
+ "cer": [
+  161
+ ],
+ "fix": [
+  [
+   63,
+   "ACJ",
+   "ICJ",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e4730c5d81d20d8454a13b4e470be0f8a2ee1299",
+ "layout": "single",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1982,
+  "words_out": 1955,
+  "retention": 0.9864,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   117,
+   134,
+   89,
+   167,
+   138,
+   134,
+   158,
+   70,
+   125,
+   140,
+   91,
+   60,
+   129,
+   140,
+   131,
+   128,
+   4
+  ],
+  "warnings": []
+ }
+}

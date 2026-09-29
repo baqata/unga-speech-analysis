@@ -1,0 +1,63 @@
+{
+ "id": "NER_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  34,
+  49,
+  66,
+  87,
+  97,
+  113,
+  123,
+  140,
+  150,
+  168,
+  183,
+  196,
+  209,
+  234,
+  250
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc7d773186121d90db16f1c18f9e4dfdec1349e8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2074,
+  "words_out": 2071,
+  "retention": 0.9986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   153,
+   125,
+   129,
+   119,
+   173,
+   79,
+   125,
+   74,
+   135,
+   71,
+   136,
+   119,
+   92,
+   96,
+   199,
+   130,
+   116
+  ],
+  "warnings": []
+ }
+}

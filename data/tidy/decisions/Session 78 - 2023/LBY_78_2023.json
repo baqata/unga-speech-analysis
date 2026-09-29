@@ -1,0 +1,94 @@
+{
+ "id": "LBY_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  17,
+  23,
+  27
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Libya. Mr. Mohamed Al-Menfi. who",
+   "Libya, Mr. Mohamed Al-Menfi, who",
+   "ocr"
+  ],
+  [
+   2,
+   "Al-Akhdar. in",
+   "Al-Akhdar, in",
+   "ocr"
+  ],
+  [
+   2,
+   "city of Darnah.",
+   "city of Darnah,",
+   "ocr"
+  ],
+  [
+   9,
+   "Sunday morning.",
+   "Sunday morning,",
+   "ocr"
+  ],
+  [
+   10,
+   "10 September.",
+   "10 September,",
+   "ocr"
+  ],
+  [
+   11,
+   "Darnah. particularly",
+   "Darnah, particularly",
+   "ocr"
+  ],
+  [
+   14,
+   "all. brotherly",
+   "all, brotherly",
+   "ocr"
+  ],
+  [
+   15,
+   "this rostrum.",
+   "this rostrum,",
+   "ocr"
+  ],
+  [
+   26,
+   "legislation. unified",
+   "legislation, unified",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President of the Presidential Council.",
+ "unitizer_version": 1,
+ "sha1": "f90f76b1ff1d25f4b2f58ff36892fbbea6d803d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 30,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 730,
+  "words_out": 730,
+  "retention": 1.0,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   143,
+   109,
+   160,
+   138,
+   96,
+   84
+  ],
+  "warnings": []
+ }
+}

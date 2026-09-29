@@ -1,0 +1,61 @@
+{
+ "id": "COM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  33,
+  54,
+  68,
+  81,
+  101,
+  117,
+  145
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   146,
+   "Unmat",
+   "Ummat",
+   "ocr"
+  ],
+  [
+   150,
+   " (The Holy Koran, II:143)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "83a0edb429126518ba154694375f2ee0c4af6121",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 1
+  },
+  "words_in": 1252,
+  "words_out": 1248,
+  "retention": 0.9968,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   171,
+   113,
+   181,
+   118,
+   110,
+   168,
+   144,
+   218,
+   25
+  ],
+  "warnings": []
+ }
+}

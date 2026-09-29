@@ -1,0 +1,82 @@
+{
+ "id": "NIC_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  18,
+  27,
+  43,
+  53,
+  74,
+  95,
+  114,
+  137,
+  162,
+  175,
+  198
+ ],
+ "cer": [
+  0,
+  11,
+  198
+ ],
+ "fix": [
+  [
+   16,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   62,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   65,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   177,
+   "world?s",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1e2796990fe09e9491bac8ea19158e96a48af7d2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1693,
+  "words_out": 1692,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   84,
+   52,
+   73,
+   127,
+   92,
+   179,
+   157,
+   155,
+   188,
+   223,
+   117,
+   200,
+   45
+  ],
+  "warnings": []
+ }
+}

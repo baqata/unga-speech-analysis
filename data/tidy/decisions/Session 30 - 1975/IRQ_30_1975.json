@@ -1,0 +1,122 @@
+{
+ "id": "IRQ_30_1975",
+ "drop": [
+  [
+   20,
+   20,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  10,
+  15,
+  18,
+  26,
+  30,
+  36,
+  39,
+  43,
+  47,
+  51,
+  54,
+  57,
+  63,
+  67,
+  70,
+  74,
+  77,
+  80,
+  83,
+  86,
+  89,
+  93
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   14,
+   " [AllOOOllAdd.l]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   " [resolution 2373 (XXI 1), annex]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "non- proliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   47,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   53,
+   "starting- point",
+   "starting-point",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1c8d41d3b2ac61b65e30171ab9393b8e1d0291e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27,
+   "page_number": 1
+  },
+  "words_in": 3137,
+  "words_out": 3115,
+  "retention": 0.993,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   58,
+   69,
+   137,
+   94,
+   204,
+   153,
+   275,
+   143,
+   185,
+   97,
+   163,
+   113,
+   156,
+   113,
+   81,
+   168,
+   95,
+   77,
+   104,
+   139,
+   74,
+   86,
+   68,
+   74,
+   118,
+   71
+  ],
+  "warnings": []
+ }
+}

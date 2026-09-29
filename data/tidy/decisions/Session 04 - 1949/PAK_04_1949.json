@@ -1,0 +1,146 @@
+{
+ "id": "PAK_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  17,
+  20,
+  24,
+  27,
+  32,
+  36,
+  41,
+  43,
+  51,
+  55,
+  57,
+  63,
+  67,
+  70,
+  74,
+  81,
+  88,
+  91,
+  95,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "parish",
+   "perish",
+   "ocr"
+  ],
+  [
+   8,
+   "peoples, The",
+   "peoples. The",
+   "ocr"
+  ],
+  [
+   28,
+   "mint!",
+   "mind",
+   "ocr"
+  ],
+  [
+   29,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   30,
+   "anti the",
+   "and the",
+   "ocr"
+  ],
+  [
+   33,
+   "hot have",
+   "not have",
+   "ocr"
+  ],
+  [
+   42,
+   "diminution. which",
+   "diminution which",
+   "ocr"
+  ],
+  [
+   62,
+   "its. support",
+   "its support",
+   "ocr"
+  ],
+  [
+   66,
+   "one1",
+   "one",
+   "ocr"
+  ],
+  [
+   85,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   87,
+   "Committed",
+   "Committee",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "e3b56ab1a43e20504b8f13c884c5e9c1f30f51fa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 3442,
+  "words_out": 3441,
+  "retention": 0.9997,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   139,
+   221,
+   219,
+   159,
+   87,
+   118,
+   101,
+   189,
+   228,
+   214,
+   118,
+   195,
+   144,
+   98,
+   195,
+   130,
+   110,
+   97,
+   155,
+   177,
+   82,
+   164,
+   73,
+   28
+  ],
+  "warnings": []
+ }
+}

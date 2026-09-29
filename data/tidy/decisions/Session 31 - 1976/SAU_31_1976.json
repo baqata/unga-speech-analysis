@@ -1,0 +1,136 @@
+{
+ "id": "SAU_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  11,
+  15,
+  17,
+  20,
+  22,
+  25,
+  27,
+  31,
+  33,
+  37,
+  41,
+  44,
+  47,
+  51,
+  59,
+  61
+ ],
+ "cer": [
+  0,
+  1,
+  61
+ ],
+ "fix": [
+  [
+   1,
+   "Mr, President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   5,
+   "Prime- Minister",
+   "Prime-Minister",
+   "spacing"
+  ],
+  [
+   28,
+   " [see A/311237, annex I, resolution 3/7-P]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "and design?, can",
+   "and designs, can",
+   "ocr"
+  ],
+  [
+   47,
+   "public.opinion",
+   "public opinion",
+   "ocr"
+  ],
+  [
+   48,
+   "in th? region",
+   "in the region",
+   "ocr"
+  ],
+  [
+   51,
+   "It is evMent",
+   "It is evident",
+   "ocr"
+  ],
+  [
+   51,
+   "nameJy",
+   "namely",
+   "ocr"
+  ],
+  [
+   53,
+   "Perhaps i do",
+   "Perhaps I do",
+   "ocr"
+  ],
+  [
+   53,
+   "to & given",
+   "to a given",
+   "ocr"
+  ],
+  [
+   57,
+   "The. important",
+   "The important",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6762de5f91fde55a5b1f1d879e1acb0557a156b9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 2291,
+  "words_out": 2285,
+  "retention": 0.9974,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   9,
+   192,
+   115,
+   195,
+   99,
+   139,
+   117,
+   127,
+   82,
+   194,
+   81,
+   135,
+   133,
+   110,
+   105,
+   145,
+   210,
+   84,
+   13
+  ],
+  "warnings": []
+ }
+}

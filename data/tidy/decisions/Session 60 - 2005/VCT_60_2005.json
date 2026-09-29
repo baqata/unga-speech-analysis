@@ -1,0 +1,61 @@
+{
+ "id": "VCT_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  27,
+  39,
+  57,
+  72,
+  86,
+  101,
+  116,
+  138,
+  149,
+  165,
+  179,
+  200,
+  212,
+  228,
+  250
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf71b30736b965d75fbcbcd384286abcd475dccc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2021,
+  "words_out": 2019,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   123,
+   87,
+   88,
+   149,
+   134,
+   96,
+   108,
+   115,
+   158,
+   77,
+   132,
+   117,
+   167,
+   96,
+   146,
+   172,
+   54
+  ],
+  "warnings": []
+ }
+}

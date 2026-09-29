@@ -1,0 +1,75 @@
+{
+ "id": "HND_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  25,
+  46,
+  62,
+  82,
+  95,
+  109,
+  118,
+  131,
+  146,
+  160,
+  170,
+  190,
+  202,
+  220
+ ],
+ "cer": [
+  0,
+  220
+ ],
+ "fix": [
+  [
+   140,
+   "closed (see",
+   "closed,",
+   "spacing"
+  ],
+  [
+   141,
+   "A/67/PV.6, p. 49), ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e778833eccce3dd9f43d2af88cd2f128e4f586b1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1800,
+  "words_out": 1795,
+  "retention": 0.9972,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   29,
+   84,
+   84,
+   167,
+   130,
+   164,
+   115,
+   108,
+   64,
+   100,
+   113,
+   107,
+   74,
+   157,
+   99,
+   147,
+   53
+  ],
+  "warnings": []
+ }
+}

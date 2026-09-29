@@ -1,0 +1,204 @@
+{
+ "id": "FRA_30_1975",
+ "drop": [
+  [
+   25,
+   25,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  14,
+  19,
+  21,
+  24,
+  28,
+  30,
+  36,
+  43,
+  50,
+  52,
+  55,
+  57,
+  62,
+  67,
+  73,
+  75,
+  78,
+  85,
+  88,
+  91,
+  94,
+  97,
+  102,
+  106,
+  109,
+  114,
+  116,
+  118,
+  123,
+  129,
+  133,
+  137,
+  140,
+  142,
+  146,
+  148,
+  151,
+  154,
+  160,
+  164,
+  174,
+  178
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   36,
+   "effective-ness",
+   "effectiveness",
+   "hyphen"
+  ],
+  [
+   39,
+   "[A1100011.Add.I, sect.",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "I.]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "without . a",
+   "without a",
+   "ocr"
+  ],
+  [
+   62,
+   "under-taken",
+   "undertaken",
+   "hyphen"
+  ],
+  [
+   78,
+   "mayor",
+   "major",
+   "ocr"
+  ],
+  [
+   91,
+   " [.2355th meeting]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "Peru,",
+   "Peru.",
+   "ocr"
+  ],
+  [
+   132,
+   "1972,'",
+   "1972,",
+   "ocr"
+  ],
+  [
+   132,
+   "intransigence, In",
+   "intransigence. In",
+   "ocr"
+  ],
+  [
+   135,
+   "commitments, However",
+   "commitments. However",
+   "ocr"
+  ],
+  [
+   153,
+   "ruL",
+   "rut",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 16 contains an OCR garble (\"It is outskirt bring\") left unrepaired.",
+ "unitizer_version": 1,
+ "sha1": "3d6e718423bd097c663c5a3b563b44eea38ac1f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 73
+  },
+  "words_in": 4986,
+  "words_out": 4972,
+  "retention": 0.9972,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   166,
+   73,
+   110,
+   66,
+   109,
+   78,
+   108,
+   87,
+   88,
+   122,
+   167,
+   177,
+   78,
+   97,
+   87,
+   122,
+   127,
+   135,
+   71,
+   77,
+   227,
+   97,
+   73,
+   124,
+   98,
+   133,
+   92,
+   84,
+   104,
+   53,
+   75,
+   122,
+   149,
+   175,
+   122,
+   70,
+   46,
+   120,
+   58,
+   91,
+   73,
+   142,
+   144,
+   195,
+   74,
+   86
+  ],
+  "warnings": []
+ }
+}

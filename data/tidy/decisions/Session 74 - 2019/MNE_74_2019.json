@@ -1,0 +1,68 @@
+{
+ "id": "MNE_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  19,
+  27,
+  34,
+  36,
+  40,
+  46,
+  51,
+  56,
+  59,
+  63,
+  65,
+  70,
+  73
+ ],
+ "cer": [],
+ "fix": [
+  [
+   50,
+   "not-so- distant",
+   "not-so-distant",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79d539fc54a5eb924e2c92ad3db29b29c00d4b5c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2120,
+  "words_out": 2119,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   147,
+   98,
+   95,
+   94,
+   141,
+   122,
+   151,
+   72,
+   109,
+   172,
+   141,
+   167,
+   78,
+   122,
+   90,
+   123,
+   77,
+   120
+  ],
+  "warnings": []
+ }
+}

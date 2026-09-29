@@ -1,0 +1,128 @@
+{
+ "id": "DNK_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  18,
+  24,
+  27,
+  32,
+  35,
+  39,
+  43,
+  46,
+  49,
+  54,
+  59,
+  63,
+  67,
+  73,
+  76,
+  79,
+  84,
+  88,
+  98,
+  102,
+  106,
+  112,
+  115,
+  119,
+  123,
+  126,
+  129,
+  131
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "thirty- fifth",
+   "thirty-fifth",
+   "spacing"
+  ],
+  [
+   17,
+   "ill- treatment",
+   "ill-treatment",
+   "spacing"
+  ],
+  [
+   45,
+   "under-standing",
+   "understanding",
+   "hyphen"
+  ],
+  [
+   75,
+   "Treaty.16",
+   "Treaty.",
+   "ocr"
+  ],
+  [
+   109,
+   "global- round",
+   "global-round",
+   "spacing"
+  ],
+  [
+   130,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "520dce04fbe247b24ddb7330882320287ed86a5d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3569,
+  "words_out": 3565,
+  "retention": 0.9989,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   150,
+   192,
+   116,
+   110,
+   82,
+   104,
+   70,
+   90,
+   102,
+   122,
+   95,
+   135,
+   166,
+   103,
+   99,
+   116,
+   129,
+   82,
+   117,
+   97,
+   207,
+   141,
+   116,
+   149,
+   102,
+   97,
+   137,
+   107,
+   108,
+   52,
+   72
+  ],
+  "warnings": []
+ }
+}

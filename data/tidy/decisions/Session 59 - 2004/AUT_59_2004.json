@@ -1,0 +1,119 @@
+{
+ "id": "AUT_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  34,
+  44,
+  56,
+  76,
+  103,
+  123,
+  142,
+  153,
+  172,
+  191,
+  212,
+  235
+ ],
+ "cer": [
+  0,
+  235
+ ],
+ "fix": [
+  [
+   49,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   50,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   77,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ],
+  [
+   86,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   104,
+   "Austriaís",
+   "Austria’s",
+   "encoding"
+  ],
+  [
+   121,
+   "communityís",
+   "community’s",
+   "encoding"
+  ],
+  [
+   122,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   145,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   146,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   166,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35dc8f7b2c0dcd980ea4692a2dcbf9bc65ca7cc4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1987,
+  "words_out": 1983,
+  "retention": 0.998,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   92,
+   164,
+   82,
+   85,
+   162,
+   218,
+   149,
+   150,
+   102,
+   144,
+   158,
+   157,
+   183,
+   137
+  ],
+  "warnings": []
+ }
+}

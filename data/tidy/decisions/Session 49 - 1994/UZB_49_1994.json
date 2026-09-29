@@ -1,0 +1,98 @@
+{
+ "id": "UZB_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  15,
+  17,
+  21,
+  26,
+  29,
+  34,
+  39,
+  43,
+  49,
+  53,
+  60,
+  64,
+  71,
+  77,
+  90,
+  97,
+  102,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "extremely favor",
+   "extremely",
+   "ocr"
+  ],
+  [
+   30,
+   "modem concept",
+   "modern concept",
+   "ocr"
+  ],
+  [
+   101,
+   "Under- Secretary-General",
+   "Under-Secretary-General",
+   "spacing"
+  ],
+  [
+   104,
+   "Flow can",
+   "How can",
+   "ocr"
+  ],
+  [
+   108,
+   "time- consuming",
+   "time-consuming",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa6a2a8405f57ff2c550c9a90d761ff5711ed098",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2890,
+  "words_out": 2887,
+  "retention": 0.999,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   107,
+   204,
+   70,
+   125,
+   104,
+   91,
+   159,
+   140,
+   65,
+   168,
+   153,
+   132,
+   141,
+   196,
+   133,
+   263,
+   119,
+   123,
+   241,
+   153
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "id": "PAK_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  16,
+  23,
+  27,
+  30,
+  37,
+  40,
+  43,
+  47,
+  51,
+  54,
+  62,
+  67,
+  69,
+  73,
+  78,
+  79,
+  82,
+  87,
+  92,
+  99,
+  105,
+  109,
+  115,
+  120,
+  125,
+  129
+ ],
+ "cer": [
+  0,
+  67
+ ],
+ "fix": [
+  [
+   17,
+   "Jairanu",
+   "Jammu",
+   "ocr"
+  ],
+  [
+   23,
+   "for: upholding",
+   "for upholding",
+   "ocr"
+  ],
+  [
+   50,
+   "o£",
+   "of",
+   "encoding"
+  ],
+  [
+   67,
+   "guest",
+   "quest",
+   "ocr"
+  ],
+  [
+   86,
+   "South ; Africa",
+   "South Africa",
+   "ocr"
+  ],
+  [
+   91,
+   "nuclear-test-ban treaty,",
+   "nuclear-test-ban treaty.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f67e8bddc34c91b196788700d35a7966cfebcce5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3359,
+  "words_out": 3358,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   131,
+   173,
+   144,
+   120,
+   155,
+   144,
+   115,
+   75,
+   103,
+   86,
+   114,
+   168,
+   116,
+   67,
+   113,
+   166,
+   42,
+   64,
+   106,
+   147,
+   121,
+   147,
+   98,
+   169,
+   162,
+   110,
+   106,
+   96
+  ],
+  "warnings": []
+ }
+}

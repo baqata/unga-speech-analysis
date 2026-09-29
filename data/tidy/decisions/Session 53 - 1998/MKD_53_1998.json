@@ -1,0 +1,78 @@
+{
+ "id": "MKD_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  57,
+  87,
+  104,
+  119,
+  132,
+  148,
+  173,
+  194,
+  211,
+  234,
+  261,
+  281
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   94,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   155,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   260,
+   "year?s",
+   "year’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ce83796ce8841730a853532d8adb3885d396796",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 296,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2501,
+  "words_out": 2498,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   103,
+   166,
+   214,
+   254,
+   145,
+   122,
+   102,
+   131,
+   212,
+   183,
+   148,
+   179,
+   228,
+   168,
+   143
+  ],
+  "warnings": []
+ }
+}

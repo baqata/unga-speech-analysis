@@ -1,0 +1,64 @@
+{
+ "id": "THA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  24,
+  46,
+  71,
+  91,
+  101,
+  111,
+  121,
+  131,
+  148,
+  160,
+  174,
+  196,
+  210,
+  225,
+  235
+ ],
+ "cer": [
+  0,
+  225
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e43b2f1ed9895adab7f89aa4fa61a48f3a5b567c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1954,
+  "words_out": 1947,
+  "retention": 0.9964,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   104,
+   77,
+   184,
+   175,
+   156,
+   78,
+   79,
+   71,
+   80,
+   132,
+   98,
+   110,
+   158,
+   106,
+   124,
+   81,
+   134
+  ],
+  "warnings": []
+ }
+}

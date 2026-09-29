@@ -1,0 +1,171 @@
+{
+ "id": "MHL_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   89,
+   90,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  9,
+  13,
+  18,
+  23,
+  27,
+  35,
+  38,
+  43,
+  48,
+  54,
+  61,
+  66,
+  72,
+  76,
+  84,
+  88
+ ],
+ "cer": [
+  88
+ ],
+ "fix": [
+  [
+   20,
+   "pre-Cup",
+   "pre-COP",
+   "asr_name"
+  ],
+  [
+   44,
+   "Yibai",
+   "Ebeye",
+   "asr_name"
+  ],
+  [
+   45,
+   "EBI",
+   "Ebeye",
+   "asr_name"
+  ],
+  [
+   58,
+   "DPO and national jurisdiction",
+   "Beyond National Jurisdiction",
+   "asr_name"
+  ],
+  [
+   58,
+   "ISIS",
+   "high seas",
+   "asr_term"
+  ],
+  [
+   72,
+   "Communicate",
+   "Communiqué",
+   "asr_term"
+  ],
+  [
+   81,
+   "PCS",
+   "busiest",
+   "asr_term"
+  ],
+  [
+   87,
+   "wedding gongle",
+   "Wod In Kanol",
+   "asr_name"
+  ],
+  [
+   85,
+   "proverb,",
+   "proverb, Wod In Kanol.",
+   "asr_name"
+  ],
+  [
+   9,
+   "territory. between",
+   "territory between",
+   "asr_term"
+  ],
+  [
+   19,
+   "overshoot. shortening",
+   "overshoot. Shortening",
+   "asr_term"
+  ],
+  [
+   81,
+   "lanes. we",
+   "lanes. We",
+   "asr_term"
+  ],
+  [
+   34,
+   "Resilient",
+   "Resilience",
+   "asr_name"
+  ],
+  [
+   47,
+   "strength and",
+   "strengthened",
+   "asr_term"
+  ],
+  [
+   67,
+   "national Digital",
+   "national",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Ebeye seawall per World Bank/GCF PREP II reports (ecomagazine.com); BBNJ and 'alta mar' per Spanish; 'Wod In Kanol' is the proverb from Heine's UNGA79 statement (forumsec.org); unit 85 lacks the proverb's name. Main-agent audit: the proverb's name restored in unit 85 ('Wod In Kanol', as in the speaker's UNGA79 statement in this corpus; heard faintly at 18:25 in two of three re-decodes, and in the Spanish channel as 'World in Cannes'). Unit 40 'not our islands which are sinking' kept as heard (p 0.97 or more at every start; the speaker's own words). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 9 'territory. between' -> 'territory between'; unit 19 'overshoot. shortening' -> 'overshoot. Shortening'; unit 81 'lanes. we' -> 'lanes. We'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 34 'Resilient' -> 'Resilience' (decodes split 'Resilience' 0.86 / 'Resilient' 0.87; ES 'Fondo Fiduciario de Resiliencia y Adaptación'; published law name 'Marshall Islands Resilience and Adaptation Trust Fund Act 2022' (rmicourts.org PL-2022-56) uses the noun); spot 9 unit 47 'strength and' -> 'strengthened' (sounds alike; both decodes hear 'strengthened' (0.80 / 0.86); ES 'reforzar alianzas'); spot 13 unit 67 'national Digital' -> 'national' (invented word: both decodes clearly hear 'national planning' with no word between (0.99/1.00, 0.97/1.00); ES 'Nuestra planificación nacional')",
+ "unitizer_version": 1,
+ "sha1": "16a15a55ecb6d8934930055a6be8eb862f3b052f",
+ "layout": "single",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2078,
+  "words_out": 2025,
+  "retention": 0.9745,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   104,
+   128,
+   148,
+   110,
+   113,
+   152,
+   95,
+   97,
+   147,
+   157,
+   101,
+   119,
+   125,
+   86,
+   232,
+   109,
+   2
+  ],
+  "warnings": []
+ }
+}

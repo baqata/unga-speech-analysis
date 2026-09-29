@@ -1,0 +1,130 @@
+{
+ "id": "NLD_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  11,
+  15,
+  20,
+  24,
+  31,
+  32,
+  35,
+  46,
+  49,
+  54,
+  62,
+  65,
+  74
+ ],
+ "cer": [
+  11
+ ],
+ "fix": [
+  [
+   5,
+   "those, who",
+   "those who",
+   "ocr"
+  ],
+  [
+   10,
+   "us all the",
+   "us if the",
+   "ocr"
+  ],
+  [
+   17,
+   ", ,it",
+   ", it",
+   "ocr"
+  ],
+  [
+   23,
+   "which,’ having",
+   "which, having",
+   "ocr"
+  ],
+  [
+   43,
+   "Ono, million",
+   "One million",
+   "ocr"
+  ],
+  [
+   48,
+   "regards, the",
+   "regards the",
+   "ocr"
+  ],
+  [
+   49,
+   "we are. not",
+   "we are not",
+   "ocr"
+  ],
+  [
+   53,
+   "only If",
+   "only if",
+   "ocr"
+  ],
+  [
+   62,
+   "countries tries to",
+   "countries to",
+   "ocr"
+  ],
+  [
+   63,
+   "million; It",
+   "million. It",
+   "ocr"
+  ],
+  [
+   73,
+   "understand, that",
+   "understand that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ff318a234fe1ee79cc0b9303eae7330c648401e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 2373,
+  "words_out": 2370,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   103,
+   120,
+   56,
+   107,
+   254,
+   96,
+   248,
+   78,
+   102,
+   247,
+   107,
+   151,
+   216,
+   131,
+   234,
+   120
+  ],
+  "warnings": []
+ }
+}

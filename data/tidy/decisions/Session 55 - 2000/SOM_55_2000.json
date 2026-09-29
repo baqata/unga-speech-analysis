@@ -1,0 +1,59 @@
+{
+ "id": "SOM_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  16,
+  24,
+  32,
+  48,
+  65,
+  84,
+  98,
+  125,
+  138,
+  160,
+  172
+ ],
+ "cer": [
+  0,
+  10,
+  16,
+  24,
+  172
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "918c25add9d35558310175af599e3d65251a161d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1410,
+  "words_out": 1407,
+  "retention": 0.9979,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   71,
+   43,
+   58,
+   69,
+   114,
+   137,
+   154,
+   114,
+   197,
+   100,
+   160,
+   90,
+   100
+  ],
+  "warnings": []
+ }
+}

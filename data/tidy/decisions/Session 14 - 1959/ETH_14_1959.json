@@ -1,0 +1,145 @@
+{
+ "id": "ETH_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  13,
+  19,
+  26,
+  29,
+  35,
+  37,
+  42,
+  49,
+  52,
+  57,
+  60,
+  66,
+  71,
+  76,
+  83,
+  92,
+  98,
+  106,
+  111,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "thermo- nuclear",
+   "thermo-nuclear",
+   "hyphen"
+  ],
+  [
+   23,
+   " [DC/144]",
+   "",
+   "label"
+  ],
+  [
+   23,
+   " [DC/146]",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "reached,",
+   "reached.",
+   "ocr"
+  ],
+  [
+   66,
+   " [67,68,69]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "sf the",
+   "of the",
+   "ocr"
+  ],
+  [
+   94,
+   "that, each",
+   "that each",
+   "ocr"
+  ],
+  [
+   94,
+   "a. chance",
+   "a chance",
+   "ocr"
+  ],
+  [
+   98,
+   "the, field",
+   "the field",
+   "ocr"
+  ],
+  [
+   104,
+   "Secretary- General's",
+   "Secretary-General's",
+   "hyphen"
+  ],
+  [
+   118,
+   "could, lead",
+   "could lead",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "04a661f872851a06f112a75739fedc8dd77d6dc1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 30
+  },
+  "words_in": 4174,
+  "words_out": 4165,
+  "retention": 0.9978,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   142,
+   139,
+   177,
+   82,
+   175,
+   198,
+   170,
+   219,
+   91,
+   195,
+   137,
+   104,
+   166,
+   102,
+   208,
+   185,
+   153,
+   283,
+   299,
+   202,
+   272,
+   119,
+   158,
+   189
+  ],
+  "warnings": []
+ }
+}

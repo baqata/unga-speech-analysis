@@ -1,0 +1,111 @@
+{
+ "id": "NZL_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  24,
+  34,
+  50,
+  63,
+  77,
+  93,
+  102,
+  117,
+  125,
+  134,
+  149,
+  169,
+  191,
+  208,
+  229,
+  239,
+  252,
+  272,
+  287,
+  305
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   241,
+   "Carter",
+   "Charter",
+   "ocr"
+  ],
+  [
+   262,
+   "World Health.",
+   "World Health",
+   "ocr"
+  ],
+  [
+   277,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   290,
+   "Man. has",
+   "Man has",
+   "ocr"
+  ],
+  [
+   302,
+   "pollution, They",
+   "pollution. They",
+   "ocr"
+  ],
+  [
+   314,
+   "of ail developed",
+   "of all developed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "edeb83b10c8b51b5636e3eaf65018dbe38ec257c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 327,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3058,
+  "words_out": 3029,
+  "retention": 0.9905,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   96,
+   135,
+   87,
+   146,
+   117,
+   138,
+   158,
+   80,
+   144,
+   85,
+   90,
+   138,
+   188,
+   193,
+   170,
+   198,
+   90,
+   129,
+   179,
+   130,
+   148,
+   190
+  ],
+  "warnings": []
+ }
+}

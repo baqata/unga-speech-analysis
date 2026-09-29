@@ -1,0 +1,41 @@
+{
+ "id": "BEL_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  33,
+  40,
+  54,
+  61,
+  69
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37e97edab2c3213178f1490bda736141effe7041",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1355,
+  "words_out": 1351,
+  "retention": 0.997,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   232,
+   212,
+   168,
+   113,
+   199,
+   129,
+   178,
+   120
+  ],
+  "warnings": []
+ }
+}

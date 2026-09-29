@@ -1,0 +1,100 @@
+{
+ "id": "CHN_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  20,
+  30,
+  37,
+  42,
+  47,
+  49,
+  55,
+  59,
+  65,
+  69,
+  78,
+  82,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "China, was",
+   "China was",
+   "ocr"
+  ],
+  [
+   19,
+   "Korea.'»",
+   "Korea.»",
+   "ocr"
+  ],
+  [
+   34,
+   "wert",
+   "were",
+   "ocr"
+  ],
+  [
+   36,
+   "Mock",
+   "block",
+   "ocr"
+  ],
+  [
+   41,
+   "freedom,, It",
+   "freedom. It",
+   "ocr"
+  ],
+  [
+   54,
+   "by( constructive",
+   "by constructive",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "e9d4eec7f5b3520b0f3d8189335aa091553ae175",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2296,
+  "words_out": 2296,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   60,
+   168,
+   73,
+   213,
+   213,
+   164,
+   144,
+   130,
+   77,
+   153,
+   90,
+   143,
+   98,
+   197,
+   108,
+   122,
+   143
+  ],
+  "warnings": []
+ }
+}

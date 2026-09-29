@@ -1,0 +1,66 @@
+{
+ "id": "NIC_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  7,
+  13,
+  15,
+  21,
+  24,
+  26,
+  29,
+  30,
+  32,
+  37
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   28,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   29,
+   "medium- sized",
+   "medium-sized",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "00924e810edd84969a470f3f7ba7f51cd32c87a0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1290,
+  "words_out": 1288,
+  "retention": 0.9984,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   39,
+   71,
+   146,
+   161,
+   71,
+   233,
+   77,
+   84,
+   65,
+   91,
+   63,
+   115,
+   72
+  ],
+  "warnings": []
+ }
+}

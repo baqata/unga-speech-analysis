@@ -1,0 +1,75 @@
+{
+ "id": "DNK_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  18,
+  25,
+  28,
+  33,
+  37,
+  41,
+  50,
+  57,
+  64,
+  70,
+  76,
+  80,
+  84
+ ],
+ "cer": [
+  0,
+  80
+ ],
+ "fix": [
+  [
+   30,
+   "underlinines",
+   "underlines",
+   "ocr"
+  ],
+  [
+   36,
+   "16-29823 39/53 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "64cc4e257aea7068e9a44a8a1c567119a078244e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1931,
+  "words_out": 1927,
+  "retention": 0.9979,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   71,
+   144,
+   72,
+   97,
+   119,
+   79,
+   127,
+   90,
+   97,
+   143,
+   147,
+   185,
+   127,
+   130,
+   94,
+   114,
+   91
+  ],
+  "warnings": []
+ }
+}

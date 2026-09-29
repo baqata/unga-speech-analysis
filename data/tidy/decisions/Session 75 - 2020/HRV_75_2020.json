@@ -1,0 +1,79 @@
+{
+ "id": "HRV_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  18,
+  25,
+  30,
+  33,
+  40,
+  43,
+  47,
+  50,
+  58,
+  62,
+  65,
+  68,
+  73,
+  79,
+  86,
+  92,
+  98,
+  102
+ ],
+ "cer": [
+  0,
+  102
+ ],
+ "fix": [
+  [
+   84,
+   "tis citizens",
+   "its citizens",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59afcc013e4a7174bc87e6461cec31f6a567209a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2284,
+  "words_out": 2284,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   6,
+   102,
+   84,
+   132,
+   134,
+   122,
+   98,
+   113,
+   60,
+   104,
+   131,
+   158,
+   95,
+   67,
+   81,
+   120,
+   118,
+   179,
+   145,
+   135,
+   98,
+   2
+  ],
+  "warnings": []
+ }
+}

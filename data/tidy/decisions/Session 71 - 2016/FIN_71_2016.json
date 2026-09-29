@@ -1,0 +1,60 @@
+{
+ "id": "FIN_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  16,
+  20,
+  24,
+  29,
+  39,
+  46,
+  49,
+  56,
+  61,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Finland ́s",
+   "Finland’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b444c4386b8b075133f25dbccd9460d89509c236",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1197,
+  "words_out": 1194,
+  "retention": 0.9975,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   31,
+   139,
+   93,
+   58,
+   77,
+   86,
+   150,
+   116,
+   65,
+   136,
+   97,
+   123,
+   23
+  ],
+  "warnings": []
+ }
+}

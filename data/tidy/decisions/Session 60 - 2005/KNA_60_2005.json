@@ -1,0 +1,94 @@
+{
+ "id": "KNA_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  29,
+  38,
+  55,
+  68,
+  95,
+  108,
+  117,
+  130,
+  140,
+  150,
+  163,
+  174,
+  199,
+  215,
+  227,
+  241
+ ],
+ "cer": [],
+ "fix": [
+  [
+   24,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   38,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   39,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   79,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   116,
+   "countryís",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b7aa2d2395f19fb1ce7c271bd1b5c6854618203",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1939,
+  "words_out": 1934,
+  "retention": 0.9974,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   104,
+   94,
+   68,
+   132,
+   114,
+   225,
+   97,
+   72,
+   106,
+   81,
+   78,
+   101,
+   75,
+   185,
+   119,
+   96,
+   107,
+   80
+  ],
+  "warnings": []
+ }
+}

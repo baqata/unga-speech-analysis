@@ -1,0 +1,58 @@
+{
+ "id": "BRN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  11,
+  16,
+  19,
+  21,
+  24,
+  28,
+  32,
+  36
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ac0f52a46d05094e6bdaafc6a7ff30d008f5a30",
+ "layout": "lines",
+ "stats": {
+  "n_units": 40,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1136,
+  "words_out": 1135,
+  "retention": 0.9991,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   99,
+   112,
+   62,
+   69,
+   96,
+   101,
+   96,
+   76,
+   92,
+   126,
+   116,
+   90
+  ],
+  "warnings": []
+ }
+}

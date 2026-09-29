@@ -1,0 +1,81 @@
+{
+ "id": "BRB_51_1996",
+ "drop": [
+  [
+   19,
+   20,
+   "header_footer"
+  ],
+  [
+   117,
+   118,
+   "header_footer"
+  ],
+  [
+   214,
+   215,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  38,
+  49,
+  70,
+  92,
+  112,
+  133,
+  161,
+  184,
+  205,
+  216,
+  227,
+  241,
+  256,
+  269,
+  281
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c12eae514b6fbdf6f6c5bb58e73697b659c9adfe",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 291,
+  "units_dropped": {
+   "header_footer": 6
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2432,
+  "words_out": 2399,
+  "retention": 0.9864,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   102,
+   174,
+   105,
+   183,
+   176,
+   157,
+   162,
+   226,
+   212,
+   178,
+   80,
+   92,
+   126,
+   125,
+   110,
+   102,
+   89
+  ],
+  "warnings": []
+ }
+}

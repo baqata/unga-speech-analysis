@@ -1,0 +1,151 @@
+{
+ "id": "TTO_32_1977",
+ "drop": [
+  [
+   63,
+   63,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  8,
+  10,
+  13,
+  22,
+  31,
+  35,
+  41,
+  47,
+  50,
+  54,
+  57,
+  61,
+  66,
+  75,
+  77,
+  79,
+  82
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   5,
+   "cm the",
+   "on the",
+   "ocr"
+  ],
+  [
+   8,
+   "community— among",
+   "community—among",
+   "spacing"
+  ],
+  [
+   8,
+   "markets..",
+   "markets.",
+   "ocr"
+  ],
+  [
+   11,
+   "countries-one",
+   "countries—one",
+   "ocr"
+  ],
+  [
+   14,
+   "States: The",
+   "States. The",
+   "ocr"
+  ],
+  [
+   22,
+   "Commodities'",
+   "Commodities",
+   "ocr"
+  ],
+  [
+   32,
+   "non- reciprocal",
+   "non-reciprocal",
+   "hyphen"
+  ],
+  [
+   35,
+   "Serious -problems",
+   "Serious problems",
+   "ocr"
+  ],
+  [
+   60,
+   "*hat",
+   "that",
+   "ocr"
+  ],
+  [
+   68,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ],
+  [
+   72,
+   "occupation-and",
+   "occupation—and",
+   "ocr"
+  ],
+  [
+   77,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 10 lacks a full stop before 'The Government' in the source.",
+ "unitizer_version": 1,
+ "sha1": "058a0b8e4a4cfe8cebed97c5b41df652d1e90730",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2424,
+  "words_out": 2419,
+  "retention": 0.9979,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   81,
+   47,
+   145,
+   83,
+   100,
+   179,
+   216,
+   199,
+   124,
+   181,
+   76,
+   110,
+   73,
+   108,
+   153,
+   197,
+   95,
+   81,
+   89,
+   82
+  ],
+  "warnings": []
+ }
+}

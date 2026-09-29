@@ -1,0 +1,51 @@
+{
+ "id": "THA_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  8,
+  13,
+  20,
+  27,
+  30,
+  38,
+  42,
+  49,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7bbc6569c1f81a680602ebbedd003bb2a84849f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1531,
+  "words_out": 1521,
+  "retention": 0.9935,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   22,
+   142,
+   77,
+   113,
+   173,
+   149,
+   95,
+   170,
+   121,
+   165,
+   182,
+   112
+  ],
+  "warnings": []
+ }
+}

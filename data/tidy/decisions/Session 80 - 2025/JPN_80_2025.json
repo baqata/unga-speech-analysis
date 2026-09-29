@@ -1,0 +1,88 @@
+{
+ "id": "JPN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   166,
+   166,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  11,
+  19,
+  26,
+  35,
+  42,
+  50,
+  58,
+  66,
+  76,
+  84,
+  87,
+  95,
+  98,
+  102,
+  115,
+  124,
+  130,
+  136,
+  143,
+  150,
+  156,
+  161,
+  165
+ ],
+ "cer": [
+  165
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The tanka in units 103-106 is recited twice by the speaker and both readings are kept.",
+ "unitizer_version": 1,
+ "sha1": "1dc2c5642febae1200f25f0d9e7fadea3bd977a9",
+ "layout": "single",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3067,
+  "words_out": 3024,
+  "retention": 0.986,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   137,
+   156,
+   134,
+   132,
+   160,
+   133,
+   116,
+   149,
+   219,
+   165,
+   67,
+   168,
+   70,
+   87,
+   184,
+   158,
+   104,
+   123,
+   136,
+   130,
+   135,
+   80,
+   76,
+   5
+  ],
+  "warnings": []
+ }
+}

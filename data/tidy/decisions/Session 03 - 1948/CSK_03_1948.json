@@ -1,0 +1,102 @@
+{
+ "id": "CSK_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  17,
+  21,
+  25,
+  29,
+  33,
+  38,
+  41,
+  44,
+  48,
+  53,
+  57,
+  60,
+  69,
+  75,
+  80,
+  86,
+  89,
+  96,
+  98,
+  103
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   "staged",
+   "stated",
+   "ocr"
+  ],
+  [
+   42,
+   " (144th meeting)",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "expression, of",
+   "expression of",
+   "ocr"
+  ],
+  [
+   86,
+   " (143rd meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "6430ad624c201a04b7f712f7f8712c5421447189",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3898,
+  "words_out": 3893,
+  "retention": 0.9987,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   104,
+   172,
+   155,
+   220,
+   112,
+   178,
+   201,
+   144,
+   113,
+   136,
+   161,
+   80,
+   172,
+   158,
+   151,
+   147,
+   279,
+   156,
+   111,
+   238,
+   128,
+   159,
+   91,
+   180,
+   147
+  ],
+  "warnings": []
+ }
+}

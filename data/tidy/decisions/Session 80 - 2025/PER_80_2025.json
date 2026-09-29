@@ -1,0 +1,80 @@
+{
+ "id": "PER_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   99,
+   100,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  16,
+  21,
+  25,
+  29,
+  37,
+  45,
+  49,
+  55,
+  62,
+  67,
+  80,
+  89,
+  98
+ ],
+ "cer": [
+  2,
+  98
+ ],
+ "fix": [
+  [
+   87,
+   "Pérez de Cuella",
+   "Pérez de Cuéllar",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c4bc7fbb95407754172788c4683a9d1ddb5422f1",
+ "layout": "single",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2367,
+  "words_out": 2316,
+  "retention": 0.9785,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   31,
+   192,
+   109,
+   100,
+   186,
+   136,
+   174,
+   138,
+   89,
+   146,
+   220,
+   156,
+   224,
+   217,
+   194,
+   4
+  ],
+  "warnings": []
+ }
+}

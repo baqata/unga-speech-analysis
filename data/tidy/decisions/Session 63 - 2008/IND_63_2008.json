@@ -1,0 +1,51 @@
+{
+ "id": "IND_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  23,
+  41,
+  52,
+  78,
+  95,
+  111,
+  126,
+  146,
+  168
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb3ccfba1c112b46f6fc2a6a5aedbb27cf4eb1b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1253,
+  "words_out": 1253,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   41,
+   140,
+   127,
+   76,
+   180,
+   126,
+   115,
+   102,
+   133,
+   162,
+   51
+  ],
+  "warnings": []
+ }
+}

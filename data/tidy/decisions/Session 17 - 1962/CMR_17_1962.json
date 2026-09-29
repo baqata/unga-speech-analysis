@@ -1,0 +1,152 @@
+{
+ "id": "CMR_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  19,
+  22,
+  25,
+  30,
+  34,
+  40,
+  46,
+  53,
+  60,
+  63,
+  68,
+  76,
+  84,
+  90,
+  98,
+  102,
+  107,
+  110,
+  119,
+  122,
+  130,
+  136,
+  143,
+  150,
+  155,
+  159,
+  163,
+  169,
+  175,
+  179,
+  183,
+  191,
+  200,
+  201,
+  205
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   44,
+   "Its example",
+   "its example",
+   "ocr"
+  ],
+  [
+   75,
+   "Words",
+   "words",
+   "ocr"
+  ],
+  [
+   79,
+   "ail the",
+   "all the",
+   "ocr"
+  ],
+  [
+   90,
+   "peoples, The",
+   "peoples. The",
+   "ocr"
+  ],
+  [
+   157,
+   "that the division",
+   "than the division",
+   "ocr"
+  ],
+  [
+   157,
+   " [A/520l/Add.1, page 3]",
+   "",
+   "label"
+  ],
+  [
+   167,
+   "Integration",
+   "integration",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35c38f7f12d193dc6047a43b20f62945cb679476",
+ "layout": "lines",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 65
+  },
+  "words_in": 5728,
+  "words_out": 5721,
+  "retention": 0.9988,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   104,
+   117,
+   142,
+   158,
+   90,
+   86,
+   94,
+   140,
+   149,
+   167,
+   180,
+   147,
+   172,
+   116,
+   222,
+   163,
+   150,
+   243,
+   105,
+   192,
+   108,
+   198,
+   80,
+   261,
+   209,
+   160,
+   141,
+   139,
+   143,
+   76,
+   205,
+   144,
+   86,
+   96,
+   202,
+   231,
+   58,
+   121,
+   126
+  ],
+  "warnings": []
+ }
+}

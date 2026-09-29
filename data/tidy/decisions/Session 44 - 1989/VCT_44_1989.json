@@ -1,0 +1,88 @@
+{
+ "id": "VCT_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  9,
+  13,
+  17,
+  21,
+  24,
+  27,
+  34,
+  40,
+  44,
+  49,
+  53,
+  55,
+  58,
+  60,
+  63,
+  67,
+  71,
+  75,
+  80
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   31,
+   "were' carried",
+   "were carried",
+   "ocr"
+  ],
+  [
+   65,
+   "seriou3",
+   "serious",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e47e98697da6fd039017b5ff4408911b70794ff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2212,
+  "words_out": 2212,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   50,
+   50,
+   33,
+   106,
+   109,
+   103,
+   123,
+   74,
+   66,
+   233,
+   148,
+   79,
+   138,
+   108,
+   65,
+   86,
+   61,
+   105,
+   117,
+   94,
+   149,
+   79,
+   36
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "ZWE_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  40,
+  61,
+  82,
+  95,
+  108,
+  125,
+  147,
+  164,
+  178,
+  193,
+  216,
+  240
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   229,
+   "(A56/1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Removed a misprinted document reference (A56/1) at unit 229.",
+ "unitizer_version": 1,
+ "sha1": "949f771f1b2f3d8170903531d9e75152c06edcd2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 255,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2083,
+  "words_out": 2080,
+  "retention": 0.9986,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   192,
+   136,
+   186,
+   165,
+   100,
+   108,
+   140,
+   181,
+   139,
+   125,
+   126,
+   175,
+   202,
+   105
+  ],
+  "warnings": []
+ }
+}

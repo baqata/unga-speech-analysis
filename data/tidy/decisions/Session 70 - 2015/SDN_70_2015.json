@@ -1,0 +1,87 @@
+{
+ "id": "SDN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  6,
+  8,
+  13,
+  15,
+  18,
+  20,
+  22,
+  25,
+  28,
+  32,
+  36,
+  41,
+  44,
+  47,
+  51,
+  53
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   2,
+   "clear- sighted",
+   "clear-sighted",
+   "hyphen"
+  ],
+  [
+   6,
+   "(MDGs) .",
+   "(MDGs).",
+   "spacing"
+  ],
+  [
+   8,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06b1930f300d0fb3accba072ed0685907e7edcab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 1803,
+  "words_out": 1798,
+  "retention": 0.9972,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   97,
+   52,
+   77,
+   80,
+   90,
+   65,
+   81,
+   73,
+   95,
+   83,
+   84,
+   157,
+   164,
+   150,
+   62,
+   96,
+   97,
+   80,
+   115
+  ],
+  "warnings": []
+ }
+}

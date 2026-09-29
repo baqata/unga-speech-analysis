@@ -1,0 +1,82 @@
+{
+ "id": "TJK_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  17,
+  26,
+  32,
+  34,
+  37,
+  42,
+  47,
+  50,
+  54,
+  63,
+  71,
+  76,
+  79,
+  81,
+  85,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   81,
+   "Alma- Ata",
+   "Alma-Ata",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d50dd0b5de25a7ef188c4845e96a64fba7e626f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2265,
+  "words_out": 2259,
+  "retention": 0.9974,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   65,
+   103,
+   105,
+   144,
+   231,
+   132,
+   64,
+   90,
+   99,
+   127,
+   79,
+   128,
+   177,
+   157,
+   122,
+   97,
+   77,
+   89,
+   86,
+   87
+  ],
+  "warnings": []
+ }
+}

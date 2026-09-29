@@ -1,0 +1,66 @@
+{
+ "id": "JOR_63_2008",
+ "drop": [
+  [
+   95,
+   95,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  36,
+  56,
+  75,
+  96,
+  116,
+  143,
+  166,
+  192,
+  219,
+  238,
+  267
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1d229b568e6de516050e143c461a38ddfd09b63",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 281,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 3
+  },
+  "words_in": 2214,
+  "words_out": 2203,
+  "retention": 0.995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   118,
+   164,
+   151,
+   155,
+   163,
+   158,
+   212,
+   195,
+   196,
+   219,
+   144,
+   219,
+   109
+  ],
+  "warnings": [
+   "procedural drop [95,95] in the middle of the speech"
+  ]
+ }
+}

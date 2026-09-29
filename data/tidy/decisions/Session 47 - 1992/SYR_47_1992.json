@@ -1,0 +1,81 @@
+{
+ "id": "SYR_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  19,
+  26,
+  37,
+  51,
+  62,
+  70,
+  79,
+  86,
+  95,
+  103,
+  117,
+  123,
+  135,
+  144,
+  153,
+  166,
+  174,
+  182
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   22,
+   "wake\"of",
+   "wake of",
+   "ocr"
+  ],
+  [
+   123,
+   "leader. President",
+   "leader, President",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea048c66df7ea37507965b40143e3596486e48ad",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2277,
+  "words_out": 2278,
+  "retention": 1.0004,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   91,
+   117,
+   96,
+   141,
+   171,
+   137,
+   91,
+   101,
+   81,
+   104,
+   84,
+   166,
+   75,
+   148,
+   106,
+   98,
+   150,
+   95,
+   78,
+   148
+  ],
+  "warnings": []
+ }
+}

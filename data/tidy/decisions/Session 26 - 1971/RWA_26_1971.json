@@ -1,0 +1,309 @@
+{
+ "id": "RWA_26_1971",
+ "drop": [
+  [
+   81,
+   81,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  8,
+  12,
+  15,
+  20,
+  24,
+  27,
+  31,
+  34,
+  38,
+  40,
+  42,
+  47,
+  51,
+  53,
+  55,
+  57,
+  60,
+  61,
+  65,
+  72,
+  75,
+  80,
+  84,
+  87,
+  88
+ ],
+ "cer": [
+  0,
+  3,
+  7
+ ],
+ "fix": [
+  [
+   1,
+   "you are..",
+   "you are.",
+   "ocr"
+  ],
+  [
+   2,
+   "source , that",
+   "source, that",
+   "spacing"
+  ],
+  [
+   4,
+   "UThant",
+   "U Thant",
+   "spacing"
+  ],
+  [
+   10,
+   "11 is in",
+   "It is in",
+   "ocr"
+  ],
+  [
+   12,
+   "tragedies,",
+   "tragedies.",
+   "ocr"
+  ],
+  [
+   13,
+   "Berlin,",
+   "Berlin.",
+   "ocr"
+  ],
+  [
+   19,
+   "tyrant\".3 It",
+   "tyrant\". It",
+   "ocr"
+  ],
+  [
+   27,
+   "Like it, or not",
+   "Like it or not",
+   "ocr"
+  ],
+  [
+   35,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   41,
+   "Guinea, The",
+   "Guinea. The",
+   "ocr"
+  ],
+  [
+   41,
+   "by history,",
+   "by history.",
+   "ocr"
+  ],
+  [
+   49,
+   "4o so",
+   "do so",
+   "ocr"
+  ],
+  [
+   52,
+   "Irreversible",
+   "irreversible",
+   "ocr"
+  ],
+  [
+   53,
+   "agains;",
+   "against",
+   "ocr"
+  ],
+  [
+   55,
+   ".colonialist",
+   "colonialist",
+   "ocr"
+  ],
+  [
+   55,
+   "revolution, Chairman",
+   "revolution. Chairman",
+   "ocr"
+  ],
+  [
+   56,
+   "refined,.so",
+   "refined, so",
+   "ocr"
+  ],
+  [
+   56,
+   "magnanimous, A",
+   "magnanimous. A",
+   "ocr"
+  ],
+  [
+   56,
+   "another.*'*",
+   "another.\"",
+   "ocr"
+  ],
+  [
+   57,
+   "thai exists",
+   "that exists",
+   "ocr"
+  ],
+  [
+   58,
+   "Stockpiles",
+   "stockpiles",
+   "ocr"
+  ],
+  [
+   60,
+   "because* believe",
+   "because, believe",
+   "ocr"
+  ],
+  [
+   60,
+   "camion",
+   "cannon",
+   "ocr"
+  ],
+  [
+   61,
+   "Hie gap",
+   "The gap",
+   "ocr"
+  ],
+  [
+   61,
+   "of sail peoples",
+   "of all peoples",
+   "ocr"
+  ],
+  [
+   64,
+   "is mm suddenly",
+   "is man suddenly",
+   "ocr"
+  ],
+  [
+   65,
+   " [resolution 2626 (XXV)J",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "undreamt -of",
+   "undreamt-of",
+   "hyphen"
+  ],
+  [
+   84,
+   "should .also",
+   "should also",
+   "ocr"
+  ],
+  [
+   85,
+   "Rwanda' is",
+   "Rwanda is",
+   "ocr"
+  ],
+  [
+   85,
+   "Nations, It is",
+   "Nations. It is",
+   "ocr"
+  ],
+  [
+   85,
+   "be' invited",
+   "be invited",
+   "ocr"
+  ],
+  [
+   85,
+   "sighed at",
+   "signed at",
+   "ocr"
+  ],
+  [
+   87,
+   "designed l guarantee",
+   "designed to guarantee",
+   "ocr"
+  ],
+  [
+   87,
+   "is .the",
+   "is the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fb510ad291be742faa8d7e0e2c80224d43184a87",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 38
+  },
+  "words_in": 3227,
+  "words_out": 3222,
+  "retention": 0.9985,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   111,
+   96,
+   36,
+   182,
+   110,
+   143,
+   113,
+   112,
+   150,
+   155,
+   137,
+   103,
+   113,
+   174,
+   120,
+   98,
+   66,
+   119,
+   104,
+   62,
+   141,
+   183,
+   84,
+   124,
+   93,
+   130,
+   126,
+   37
+  ],
+  "warnings": [
+   "35 fixes"
+  ]
+ }
+}

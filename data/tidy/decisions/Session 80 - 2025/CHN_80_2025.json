@@ -1,0 +1,70 @@
+{
+ "id": "CHN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   94,
+   94,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  17,
+  23,
+  29,
+  37,
+  45,
+  50,
+  59,
+  69,
+  76,
+  82,
+  87,
+  90,
+  93
+ ],
+ "cer": [
+  93
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0f62d9eb994fe94d547d42ed64a0e4fbedcb55d",
+ "layout": "single",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1940,
+  "words_out": 1882,
+  "retention": 0.9701,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   136,
+   142,
+   125,
+   109,
+   177,
+   145,
+   166,
+   154,
+   184,
+   117,
+   117,
+   119,
+   105,
+   84,
+   2
+  ],
+  "warnings": []
+ }
+}

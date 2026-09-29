@@ -1,0 +1,72 @@
+{
+ "id": "BRA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  19,
+  22,
+  27,
+  32,
+  36,
+  40,
+  44,
+  48,
+  54,
+  59,
+  64
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "low- carbon",
+   "low-carbon",
+   "spacing"
+  ],
+  [
+   33,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   61,
+   "doctor- patient",
+   "doctor-patient",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4e5de121d2a390a11ff0f72bcb1d12b2f36e79d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1499,
+  "words_out": 1496,
+  "retention": 0.998,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   98,
+   113,
+   145,
+   75,
+   111,
+   92,
+   86,
+   100,
+   115,
+   67,
+   193,
+   92,
+   95,
+   114
+  ],
+  "warnings": []
+ }
+}

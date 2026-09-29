@@ -1,0 +1,70 @@
+{
+ "id": "FIN_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  29,
+  41,
+  52,
+  67,
+  75,
+  87,
+  101,
+  114,
+  133,
+  147,
+  160,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   82,
+   "(resolution 65/283)",
+   "",
+   "label"
+  ],
+  [
+   111,
+   "fordevelopment",
+   "for development",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b632f1f535c26cfbdf2015fa7e6fcc4c24a96125",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1536,
+  "words_out": 1533,
+  "retention": 0.998,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   45,
+   61,
+   135,
+   107,
+   96,
+   116,
+   71,
+   97,
+   122,
+   101,
+   156,
+   120,
+   119,
+   103,
+   84
+  ],
+  "warnings": []
+ }
+}

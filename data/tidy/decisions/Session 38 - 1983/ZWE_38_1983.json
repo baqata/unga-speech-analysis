@@ -1,0 +1,163 @@
+{
+ "id": "ZWE_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  11,
+  14,
+  19,
+  22,
+  26,
+  27,
+  31,
+  34,
+  37,
+  41,
+  45,
+  51,
+  54,
+  61,
+  65,
+  69,
+  73,
+  79,
+  83,
+  86,
+  89,
+  93,
+  98,
+  103,
+  108,
+  110,
+  114,
+  117,
+  122,
+  128,
+  134,
+  136,
+  142,
+  144,
+  148
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   7,
+   "ends .",
+   "ends.",
+   "spacing"
+  ],
+  [
+   39,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   40,
+   "plan. ?",
+   "plan.",
+   "markup"
+  ],
+  [
+   59,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   71,
+   "activities, .which",
+   "activities, which",
+   "ocr"
+  ],
+  [
+   90,
+   "die perpetuation",
+   "the perpetuation",
+   "ocr"
+  ],
+  [
+   96,
+   "target ed",
+   "targeted",
+   "split_word"
+  ],
+  [
+   99,
+   "needy the",
+   "needs the",
+   "ocr"
+  ],
+  [
+   123,
+   "macro- economic",
+   "macro-economic",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 12 contains the garbled word 'k /ional' (regional), left as in the source.",
+ "unitizer_version": 1,
+ "sha1": "ad30410fa7c24a9b3c57b7fe67a7c6e22516b6d4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 4629,
+  "words_out": 4623,
+  "retention": 0.9987,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   104,
+   94,
+   86,
+   154,
+   70,
+   135,
+   141,
+   119,
+   103,
+   174,
+   116,
+   112,
+   195,
+   125,
+   112,
+   80,
+   182,
+   89,
+   101,
+   120,
+   164,
+   97,
+   67,
+   122,
+   151,
+   125,
+   138,
+   124,
+   63,
+   152,
+   120,
+   106,
+   127,
+   143,
+   46,
+   186,
+   85,
+   135,
+   60
+  ],
+  "warnings": []
+ }
+}

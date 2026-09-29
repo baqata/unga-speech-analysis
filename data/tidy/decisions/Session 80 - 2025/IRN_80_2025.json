@@ -1,0 +1,72 @@
+{
+ "id": "IRN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   23,
+   23,
+   "repeat"
+  ],
+  [
+   70,
+   71,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  10,
+  17,
+  24,
+  31,
+  39,
+  42,
+  47,
+  53,
+  59,
+  61,
+  65,
+  69
+ ],
+ "cer": [
+  69
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 23 is a garbled duplicate of fragments of units 20, 24 and 25 and was dropped.",
+ "unitizer_version": 1,
+ "sha1": "380e7ff3258e18c76828d75ac5e079f6294c728e",
+ "layout": "single",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "presider": 4,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 2191,
+  "words_out": 2081,
+  "retention": 0.9498,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   222,
+   175,
+   231,
+   198,
+   144,
+   189,
+   221,
+   118,
+   196,
+   133,
+   150,
+   101,
+   3
+  ],
+  "warnings": []
+ }
+}

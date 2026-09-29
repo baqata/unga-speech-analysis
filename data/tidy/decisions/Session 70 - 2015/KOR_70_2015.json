@@ -1,0 +1,100 @@
+{
+ "id": "KOR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  14,
+  19,
+  23,
+  27,
+  31,
+  35,
+  37,
+  43,
+  46,
+  50,
+  53,
+  55,
+  57,
+  60,
+  63,
+  68,
+  73,
+  78,
+  81,
+  88,
+  93,
+  100,
+  104,
+  108,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "community- friendly",
+   "community-friendly",
+   "hyphen"
+  ],
+  [
+   109,
+   "North- East Asia",
+   "North-East Asia",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0c7a7ed0e9073e74935afae172e0c01025b8a5a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 3054,
+  "words_out": 3050,
+  "retention": 0.9987,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   39,
+   95,
+   76,
+   189,
+   119,
+   144,
+   115,
+   78,
+   130,
+   68,
+   119,
+   96,
+   93,
+   74,
+   75,
+   71,
+   61,
+   83,
+   109,
+   138,
+   163,
+   101,
+   156,
+   168,
+   191,
+   74,
+   93,
+   100,
+   32
+  ],
+  "warnings": []
+ }
+}

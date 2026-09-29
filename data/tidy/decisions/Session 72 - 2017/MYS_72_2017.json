@@ -1,0 +1,96 @@
+{
+ "id": "MYS_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  16,
+  21,
+  24,
+  27,
+  32,
+  35,
+  39,
+  42,
+  45,
+  49,
+  52,
+  54,
+  57,
+  60,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   12,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   23,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ],
+  [
+   24,
+   "money- laundering",
+   "money-laundering",
+   "hyphen"
+  ],
+  [
+   63,
+   "i assure",
+   "I assure",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa22c8058f11150dc24186a8a86745d8198e356c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1693,
+  "words_out": 1689,
+  "retention": 0.9976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   96,
+   102,
+   131,
+   75,
+   139,
+   109,
+   83,
+   116,
+   106,
+   78,
+   65,
+   69,
+   102,
+   61,
+   77,
+   83,
+   83,
+   80,
+   34
+  ],
+  "warnings": []
+ }
+}

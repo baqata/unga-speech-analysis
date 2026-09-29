@@ -1,0 +1,82 @@
+{
+ "id": "MDG_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  18,
+  28,
+  35,
+  39,
+  47,
+  52,
+  58,
+  73,
+  78,
+  87,
+  95,
+  102,
+  108,
+  110,
+  115
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   54,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ],
+  [
+   108,
+   " (A/76/ PV.6, p.7)",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "lies Eparses",
+   "Îles Eparses",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9def0f60a354e6c8ed1a7cb390ce78ec8d3c947f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2308,
+  "words_out": 2300,
+  "retention": 0.9965,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   141,
+   115,
+   127,
+   150,
+   153,
+   91,
+   178,
+   99,
+   148,
+   178,
+   96,
+   126,
+   199,
+   134,
+   95,
+   90,
+   112,
+   68
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "id": "GRC_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  27,
+  49,
+  63,
+  70,
+  78,
+  103,
+  122,
+  134,
+  154,
+  175,
+  191,
+  200,
+  215,
+  232,
+  254,
+  275,
+  287,
+  297,
+  311,
+  324,
+  336,
+  357,
+  365,
+  379
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "President?s",
+   "President’s",
+   "encoding"
+  ],
+  [
+   65,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   66,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   132,
+   "countries?",
+   "countries’",
+   "encoding"
+  ],
+  [
+   134,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   145,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   180,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   180,
+   "forces?",
+   "forces’",
+   "encoding"
+  ],
+  [
+   263,
+   "Union?s",
+   "Union’s",
+   "encoding"
+  ],
+  [
+   298,
+   "countries?",
+   "countries’",
+   "encoding"
+  ],
+  [
+   379,
+   "delegates?",
+   "delegates’",
+   "encoding"
+  ],
+  [
+   383,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   387,
+   "country?s",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c78e3ea44b4b7ae241cb911b7192c93211e90214",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 389,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 5
+  },
+  "words_in": 3081,
+  "words_out": 3075,
+  "retention": 0.9981,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   138,
+   66,
+   164,
+   113,
+   55,
+   69,
+   194,
+   147,
+   95,
+   157,
+   171,
+   125,
+   71,
+   113,
+   143,
+   167,
+   165,
+   94,
+   85,
+   111,
+   90,
+   105,
+   170,
+   67,
+   113,
+   87
+  ],
+  "warnings": []
+ }
+}

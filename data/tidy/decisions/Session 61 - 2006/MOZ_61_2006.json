@@ -1,0 +1,51 @@
+{
+ "id": "MOZ_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  44,
+  66,
+  89,
+  107,
+  129,
+  138,
+  162,
+  177,
+  200
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f58f7621efa9eebea3758eb59480ea81328f482c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1690,
+  "words_out": 1688,
+  "retention": 0.9988,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   165,
+   177,
+   171,
+   184,
+   152,
+   158,
+   69,
+   178,
+   100,
+   179,
+   155
+  ],
+  "warnings": []
+ }
+}

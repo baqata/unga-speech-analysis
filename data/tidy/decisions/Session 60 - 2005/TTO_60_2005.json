@@ -1,0 +1,106 @@
+{
+ "id": "TTO_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  31,
+  47,
+  61,
+  73,
+  89,
+  106,
+  119,
+  136,
+  156,
+  179,
+  197,
+  210,
+  222,
+  240,
+  259,
+  269,
+  281,
+  297
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   84,
+   "Nations ó no",
+   "Nations — no",
+   "encoding"
+  ],
+  [
+   91,
+   "todayís",
+   "today’s",
+   "encoding"
+  ],
+  [
+   97,
+   "weekís",
+   "week’s",
+   "encoding"
+  ],
+  [
+   124,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   178,
+   "annum ó and",
+   "annum — and",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a05707e1a5b5a933b69d0eb86c12dd622686fe6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 314,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2372,
+  "words_out": 2366,
+  "retention": 0.9975,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   89,
+   147,
+   111,
+   109,
+   93,
+   122,
+   148,
+   96,
+   112,
+   151,
+   167,
+   138,
+   104,
+   97,
+   125,
+   150,
+   79,
+   88,
+   106,
+   134
+  ],
+  "warnings": []
+ }
+}

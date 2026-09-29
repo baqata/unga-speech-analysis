@@ -1,0 +1,58 @@
+{
+ "id": "BIH_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  19,
+  26,
+  27,
+  35,
+  43,
+  48,
+  53,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "session .",
+   "session.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "856efb71bb1fbac376233667aa13d60bec0af154",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1301,
+  "words_out": 1300,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   65,
+   83,
+   91,
+   83,
+   127,
+   38,
+   184,
+   128,
+   144,
+   87,
+   171,
+   99
+  ],
+  "warnings": []
+ }
+}

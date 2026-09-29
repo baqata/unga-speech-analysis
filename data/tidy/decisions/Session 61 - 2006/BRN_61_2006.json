@@ -1,0 +1,47 @@
+{
+ "id": "BRN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  24,
+  49,
+  58,
+  68,
+  76,
+  85,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1f0c5cd2b4345d616524038bca4e9543b212ce03",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 911,
+  "words_out": 911,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   131,
+   61,
+   202,
+   69,
+   83,
+   66,
+   80,
+   124,
+   95
+  ],
+  "warnings": []
+ }
+}

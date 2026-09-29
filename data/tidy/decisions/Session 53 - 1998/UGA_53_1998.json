@@ -1,0 +1,125 @@
+{
+ "id": "UGA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  16,
+  32,
+  44,
+  63,
+  79,
+  90,
+  114,
+  128,
+  153,
+  179,
+  196,
+  214,
+  226,
+  233,
+  250
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   30,
+   "Africa?s",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   45,
+   "leaders?",
+   "leaders’",
+   "encoding"
+  ],
+  [
+   50,
+   "Africa?s",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   59,
+   "leaders?",
+   "leaders’",
+   "encoding"
+  ],
+  [
+   73,
+   " (A/52/871, para. 3)",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   99,
+   "Uganda?s",
+   "Uganda’s",
+   "encoding"
+  ],
+  [
+   153,
+   "Uganda?s",
+   "Uganda’s",
+   "encoding"
+  ],
+  [
+   157,
+   "Lord?s",
+   "Lord’s",
+   "encoding"
+  ],
+  [
+   170,
+   "Lord?s",
+   "Lord’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dbaf9c1a0c25304cbe11ee6b09cd5a6b073dcc2b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2225,
+  "words_out": 2217,
+  "retention": 0.9964,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   35,
+   95,
+   130,
+   106,
+   178,
+   112,
+   87,
+   212,
+   123,
+   215,
+   221,
+   145,
+   142,
+   87,
+   60,
+   149,
+   120
+  ],
+  "warnings": []
+ }
+}

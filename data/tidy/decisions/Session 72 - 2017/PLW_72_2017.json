@@ -1,0 +1,78 @@
+{
+ "id": "PLW_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  15,
+  18,
+  21,
+  30,
+  34,
+  36,
+  40,
+  45,
+  49,
+  57,
+  61,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "super- storms",
+   "super-storms",
+   "hyphen"
+  ],
+  [
+   10,
+   "not- for-profit",
+   "not-for-profit",
+   "hyphen"
+  ],
+  [
+   12,
+   "rights- based",
+   "rights-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40fb3bb950e48e0557090b515d76e631136694a8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1762,
+  "words_out": 1759,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   56,
+   130,
+   136,
+   119,
+   96,
+   76,
+   191,
+   81,
+   72,
+   115,
+   134,
+   118,
+   144,
+   130,
+   126,
+   35
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "id": "YUG_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  17,
+  21,
+  26,
+  31,
+  34,
+  38,
+  42,
+  47,
+  52,
+  60,
+  61,
+  64,
+  68,
+  71,
+  75,
+  78,
+  82,
+  89
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "maintains-the best",
+   "maintains the best",
+   "ocr"
+  ],
+  [
+   36,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   43,
+   "medium- range",
+   "medium-range",
+   "hyphen"
+  ],
+  [
+   55,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd8986a3d861c2f05c6bf93dab7a427673649ec6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2725,
+  "words_out": 2723,
+  "retention": 0.9993,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   79,
+   89,
+   166,
+   149,
+   104,
+   143,
+   122,
+   102,
+   105,
+   124,
+   129,
+   148,
+   214,
+   72,
+   159,
+   125,
+   79,
+   121,
+   111,
+   96,
+   149,
+   137
+  ],
+  "warnings": []
+ }
+}

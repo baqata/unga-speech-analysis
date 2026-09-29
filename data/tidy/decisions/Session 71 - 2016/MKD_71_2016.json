@@ -1,0 +1,93 @@
+{
+ "id": "MKD_71_2016",
+ "drop": [
+  [
+   77,
+   77,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  14,
+  18,
+  24,
+  28,
+  35,
+  41,
+  44,
+  48,
+  54,
+  58,
+  64,
+  69,
+  72,
+  78,
+  83,
+  85,
+  91,
+  96,
+  104,
+  108,
+  114,
+  118,
+  122,
+  127,
+  131,
+  137,
+  141
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "432d55c8af2f435bb214779e3867dab0cee2a12d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2979,
+  "words_out": 2972,
+  "retention": 0.9977,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   176,
+   69,
+   79,
+   129,
+   80,
+   125,
+   128,
+   71,
+   94,
+   126,
+   106,
+   127,
+   117,
+   103,
+   86,
+   98,
+   72,
+   157,
+   78,
+   150,
+   76,
+   108,
+   120,
+   75,
+   88,
+   66,
+   123,
+   61,
+   84
+  ],
+  "warnings": [
+   "procedural drop [77,77] in the middle of the speech"
+  ]
+ }
+}

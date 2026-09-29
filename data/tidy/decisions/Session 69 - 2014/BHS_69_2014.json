@@ -1,0 +1,62 @@
+{
+ "id": "BHS_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  30,
+  48,
+  63,
+  76,
+  96,
+  111,
+  119,
+  130,
+  143,
+  159,
+  172
+ ],
+ "cer": [],
+ "fix": [
+  [
+   86,
+   "(resolution 67/234 B)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "50767bd013b7aa95f342201d079d2a93819c7a6e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1582,
+  "words_out": 1578,
+  "retention": 0.9975,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   91,
+   86,
+   79,
+   165,
+   118,
+   104,
+   151,
+   131,
+   62,
+   94,
+   107,
+   137,
+   104,
+   149
+  ],
+  "warnings": []
+ }
+}

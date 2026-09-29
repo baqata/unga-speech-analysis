@@ -1,0 +1,136 @@
+{
+ "id": "AFG_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  6,
+  11,
+  16,
+  23,
+  28,
+  36,
+  41,
+  47,
+  51,
+  56,
+  65,
+  66,
+  69,
+  71,
+  74,
+  77
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "With",
+   "with",
+   "ocr"
+  ],
+  [
+   30,
+   "Independence",
+   "independence",
+   "ocr"
+  ],
+  [
+   31,
+   "Inside",
+   "inside",
+   "ocr"
+  ],
+  [
+   35,
+   "are'",
+   "are",
+   "ocr"
+  ],
+  [
+   42,
+   "Integral",
+   "integral",
+   "ocr"
+  ],
+  [
+   46,
+   "prosperity,",
+   "prosperity.",
+   "ocr"
+  ],
+  [
+   50,
+   "Interrelationship",
+   "interrelationship",
+   "ocr"
+  ],
+  [
+   52,
+   "Instrument",
+   "instrument",
+   "ocr"
+  ],
+  [
+   68,
+   "International",
+   "international",
+   "ocr"
+  ],
+  [
+   71,
+   "In the",
+   "in the",
+   "ocr"
+  ],
+  [
+   75,
+   "alms",
+   "aims",
+   "ocr"
+  ],
+  [
+   12,
+   "[1237 (ES-III)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db0a03d75419675b249310a4d86cc6c85bc0aad0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2774,
+  "words_out": 2770,
+  "retention": 0.9986,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   186,
+   66,
+   215,
+   192,
+   239,
+   101,
+   209,
+   156,
+   237,
+   135,
+   161,
+   242,
+   66,
+   139,
+   109,
+   141,
+   82,
+   94
+  ],
+  "warnings": []
+ }
+}

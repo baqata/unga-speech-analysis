@@ -1,0 +1,73 @@
+{
+ "id": "CPV_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  14,
+  18,
+  21,
+  24,
+  27,
+  31,
+  35,
+  38,
+  41,
+  43,
+  46,
+  48
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   7,
+   "Sutainable",
+   "Sustainable",
+   "ocr"
+  ],
+  [
+   40,
+   "upto",
+   "up to",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19f34df7b797352c87a4deb3625adbed9d33dafd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1728,
+  "words_out": 1724,
+  "retention": 0.9977,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   165,
+   145,
+   75,
+   104,
+   105,
+   95,
+   79,
+   74,
+   160,
+   133,
+   114,
+   115,
+   58,
+   94,
+   89,
+   119
+  ],
+  "warnings": []
+ }
+}

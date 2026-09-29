@@ -1,0 +1,148 @@
+{
+ "id": "IDN_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   120,
+   120,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  20,
+  28,
+  37,
+  42,
+  54,
+  61,
+  68,
+  79,
+  88,
+  96,
+  105,
+  115
+ ],
+ "cer": [
+  1,
+  115
+ ],
+ "fix": [
+  [
+   1,
+   "Fortunately for nutrients too late comb性 shaken glaub Vitaminbrand plugins ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "Halil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   5,
+   "namo budaya",
+   "namo buddhaya",
+   "asr_name"
+  ],
+  [
+   7,
+   "assets",
+   "ashes",
+   "asr_term"
+  ],
+  [
+   32,
+   "Yangas",
+   "Miangas",
+   "asr_name"
+  ],
+  [
+   104,
+   "MGTA",
+   "MIKTA",
+   "asr_name"
+  ],
+  [
+   12,
+   "economy. technology",
+   "economy. Technology",
+   "asr_term"
+  ],
+  [
+   65,
+   "crisis. responding",
+   "crisis. Responding",
+   "asr_term"
+  ],
+  [
+   12,
+   "transform",
+   "transformed",
+   "asr_term"
+  ],
+  [
+   76,
+   "future. will",
+   "future. Indonesia will",
+   "asr_name"
+  ],
+  [
+   85,
+   "its leadership",
+   "his leadership",
+   "asr_term"
+  ],
+  [
+   87,
+   "people. leadership",
+   "people. Effective leadership",
+   "asr_term"
+  ],
+  [
+   98,
+   "of available",
+   "available",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Pause debris removed from unit 1; Miangas per Spanish 'Biangas' and the Indonesian 'Miangas to Rote' motto; MIKTA is the grouping Indonesia belongs to (mikta.org). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 12 'economy. technology' -> 'economy. Technology'; unit 65 'crisis. responding' -> 'crisis. Responding'; unit 76 'future. will' -> 'future. Will'; unit 87 'people. leadership' -> 'people. Leadership'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 12 'transform' -> 'transformed' (both decodes hear 'transformed' (0.96 / 0.95); ES 'la tecnología transformó'; past tense matches 'connected'); spot 7 unit 76 'future. will' -> 'future. Indonesia will' (2026 exception: both decodes hear 'Indonesia' clearly (0.99 / 1.00); published text (ANTARA, 2026-09-26) quotes 'Indonesia will also continue to stand with the Palestinian people'; ES 'Seguiremos apoyando'; old is the existing repair's old); spot 9 unit 85 'its leadership' -> 'his leadership' (both decodes hear 'his' (0.71 / 0.56); refers to the outgoing Secretary-General; ES 'por su liderazgo y su servicio en esta década'; 'its' occurs twice so old includes 'leadership'); spot 10 unit 87 'people. leadership' -> 'people. Effective leadership' (2026 exception: both decodes hear 'Effective' clearly (0.98 / 0.98); ES 'El liderazgo efectivo'; old is the existing repair's old); spot 12 unit 98 'of available' -> 'available' (both decodes clearly lack 'of' ('tools available to', 1.00); 'tools of available' is an inserted word; ES 'las herramientas que tenemos')",
+ "unitizer_version": 1,
+ "sha1": "9ef81e7cb401a702506bdd3c5c437191835986b2",
+ "layout": "single",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1864,
+  "words_out": 1829,
+  "retention": 0.9812,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   56,
+   159,
+   158,
+   153,
+   69,
+   188,
+   95,
+   125,
+   217,
+   161,
+   153,
+   142,
+   137,
+   16
+  ],
+  "warnings": []
+ }
+}

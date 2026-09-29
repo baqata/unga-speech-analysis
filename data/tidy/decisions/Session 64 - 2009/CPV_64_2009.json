@@ -1,0 +1,62 @@
+{
+ "id": "CPV_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  26,
+  54,
+  73,
+  84,
+  107,
+  118,
+  142,
+  159,
+  174,
+  186,
+  202,
+  212,
+  233
+ ],
+ "cer": [],
+ "fix": [
+  [
+   49,
+   "(ibid.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a13558c508f057cf0388c8a45ad829193a38229e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 244,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1950,
+  "words_out": 1941,
+  "retention": 0.9954,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   211,
+   203,
+   150,
+   100,
+   177,
+   83,
+   201,
+   127,
+   103,
+   109,
+   128,
+   72,
+   172,
+   105
+  ],
+  "warnings": []
+ }
+}

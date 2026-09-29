@@ -1,0 +1,47 @@
+{
+ "id": "BFA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  25,
+  39,
+  72,
+  98,
+  114,
+  129,
+  147
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6539ec574c2a99f1748358fd08415fe055d946fd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1219,
+  "words_out": 1216,
+  "retention": 0.9975,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   87,
+   118,
+   113,
+   270,
+   203,
+   130,
+   120,
+   144,
+   31
+  ],
+  "warnings": []
+ }
+}

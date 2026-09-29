@@ -1,0 +1,113 @@
+{
+ "id": "CUB_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   94,
+   94,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  12,
+  14,
+  19,
+  30,
+  34,
+  46,
+  51,
+  56,
+  62,
+  66,
+  70,
+  74,
+  77,
+  87
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "as a human face",
+   "has a human face",
+   "asr_term"
+  ],
+  [
+   55,
+   "cuba",
+   "Cuba",
+   "asr_name"
+  ],
+  [
+   85,
+   "Saharan",
+   "Sahrawi",
+   "interp"
+  ],
+  [
+   91,
+   "Ruiz",
+   "Ruz",
+   "interp"
+  ],
+  [
+   18,
+   "markets. it's",
+   "markets. It's",
+   "asr_term"
+  ],
+  [
+   55,
+   "planet. this",
+   "planet. This",
+   "asr_term"
+  ],
+  [
+   69,
+   "revolution. end",
+   "revolution. End",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; speaker said 'el pueblo saharaui' (unit 85) and 'Fidel Castro Ruz' (unit 91); Spanish 'tiene rostro humano' confirms unit 21. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 18 'markets. it's' -> 'markets. It's'; unit 55 'planet. this' -> 'planet. This'; unit 69 'revolution. end' -> 'revolution. End'",
+ "unitizer_version": 1,
+ "sha1": "25ad02efb3f62d9e7e82dea103e44078ddac0ad3",
+ "layout": "single",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2342,
+  "words_out": 2315,
+  "retention": 0.9885,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   70,
+   169,
+   83,
+   259,
+   158,
+   125,
+   171,
+   149,
+   187,
+   94,
+   76,
+   152,
+   152,
+   103,
+   207,
+   160
+  ],
+  "warnings": []
+ }
+}

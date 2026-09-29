@@ -1,0 +1,62 @@
+{
+ "id": "GNB_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  17,
+  19,
+  20,
+  23,
+  29,
+  32,
+  34,
+  37,
+  40,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "rauses",
+   "raises",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c63109dfa2a8c6337c13ddf7a0db8233feb1cd6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1592,
+  "words_out": 1588,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   100,
+   98,
+   111,
+   128,
+   148,
+   87,
+   92,
+   100,
+   164,
+   71,
+   97,
+   102,
+   154,
+   98,
+   38
+  ],
+  "warnings": []
+ }
+}

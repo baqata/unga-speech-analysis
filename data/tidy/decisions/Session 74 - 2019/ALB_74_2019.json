@@ -1,0 +1,70 @@
+{
+ "id": "ALB_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  16,
+  21,
+  25,
+  31,
+  35,
+  38,
+  44,
+  51,
+  54,
+  57,
+  59,
+  64,
+  70,
+  76,
+  79
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   "net- zero",
+   "net-zero",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd348442c90a2133cc6311dd5e5dce127724fdac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2462,
+  "words_out": 2461,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   117,
+   144,
+   119,
+   68,
+   185,
+   99,
+   161,
+   116,
+   92,
+   183,
+   156,
+   123,
+   108,
+   108,
+   125,
+   173,
+   135,
+   93,
+   156
+  ],
+  "warnings": []
+ }
+}

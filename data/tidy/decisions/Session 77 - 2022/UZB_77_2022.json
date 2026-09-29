@@ -1,0 +1,70 @@
+{
+ "id": "UZB_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  13,
+  16,
+  19,
+  24,
+  27,
+  33,
+  38,
+  40,
+  44,
+  47,
+  50,
+  53,
+  56,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dad6ff36f2135b0d194d5f708fbe2d2696d644de",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1794,
+  "words_out": 1791,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   43,
+   115,
+   98,
+   137,
+   99,
+   77,
+   119,
+   100,
+   122,
+   157,
+   83,
+   73,
+   91,
+   81,
+   101,
+   109,
+   141,
+   45
+  ],
+  "warnings": []
+ }
+}

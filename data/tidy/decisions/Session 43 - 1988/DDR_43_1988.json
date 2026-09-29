@@ -1,0 +1,230 @@
+{
+ "id": "DDR_43_1988",
+ "drop": [
+  [
+   30,
+   30,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  17,
+  20,
+  25,
+  32,
+  37,
+  39,
+  44,
+  46,
+  50,
+  54,
+  57,
+  60,
+  62,
+  68,
+  73,
+  80,
+  84,
+  91,
+  95,
+  100,
+  103,
+  106,
+  112,
+  115,
+  118,
+  121
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "It·",
+   "It",
+   "ocr"
+  ],
+  [
+   6,
+   "a torn for",
+   "a turn for",
+   "ocr"
+  ],
+  [
+   8,
+   "Honaker",
+   "Honecker",
+   "ocr"
+  ],
+  [
+   9,
+   "We went on",
+   "He went on",
+   "ocr"
+  ],
+  [
+   9,
+   "natters",
+   "matters",
+   "ocr"
+  ],
+  [
+   17,
+   "Movement·.",
+   "Movement:",
+   "ocr"
+  ],
+  [
+   19,
+   "steps·, the",
+   "steps; the",
+   "ocr"
+  ],
+  [
+   31,
+   "AÍÍ these",
+   "All these",
+   "encoding"
+  ],
+  [
+   31,
+   "become/mature",
+   "become mature",
+   "ocr"
+  ],
+  [
+   31,
+   "on -security",
+   "on security",
+   "spacing"
+  ],
+  [
+   32,
+   "ą world",
+   "a world",
+   "encoding"
+  ],
+  [
+   36,
+   "elimination·, a",
+   "elimination; a",
+   "ocr"
+  ],
+  [
+   36,
+   "weapons·, radical",
+   "weapons; radical",
+   "ocr"
+  ],
+  [
+   58,
+   "median ism",
+   "mechanism",
+   "ocr"
+  ],
+  [
+   89,
+   "at last. .",
+   "at last.",
+   "ocr"
+  ],
+  [
+   92,
+   "r ach an ism",
+   "mechanism",
+   "ocr"
+  ],
+  [
+   93,
+   "(FLO)",
+   "(PLO)",
+   "ocr"
+  ],
+  [
+   94,
+   "\"salaam*",
+   "\"salaam\"",
+   "ocr"
+  ],
+  [
+   103,
+   "are repaired",
+   "are required",
+   "ocr"
+  ],
+  [
+   118,
+   "Garman",
+   "German",
+   "ocr"
+  ],
+  [
+   119,
+   "I5 years",
+   "15 years",
+   "ocr"
+  ],
+  [
+   122,
+   "Imposed",
+   "imposed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "212e727c5419d18120cbd7cf62c556e430a39b5f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3499,
+  "words_out": 3492,
+  "retention": 0.998,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   139,
+   62,
+   103,
+   78,
+   113,
+   102,
+   92,
+   200,
+   273,
+   67,
+   145,
+   64,
+   67,
+   131,
+   104,
+   139,
+   71,
+   191,
+   128,
+   145,
+   97,
+   143,
+   98,
+   67,
+   89,
+   87,
+   134,
+   109,
+   67,
+   71,
+   116
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

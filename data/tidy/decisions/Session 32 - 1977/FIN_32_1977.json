@@ -1,0 +1,123 @@
+{
+ "id": "FIN_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  8,
+  14,
+  18,
+  22,
+  24,
+  29,
+  32,
+  35,
+  40,
+  45,
+  49,
+  54,
+  59,
+  61,
+  65,
+  69,
+  73,
+  79,
+  84,
+  88,
+  97,
+  103
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   24,
+   "element h relations",
+   "element in relations",
+   "ocr"
+  ],
+  [
+   31,
+   "but. many",
+   "but many",
+   "ocr"
+  ],
+  [
+   40,
+   "issues- the",
+   "issues—the",
+   "ocr"
+  ],
+  [
+   54,
+   "then- services",
+   "their services",
+   "ocr"
+  ],
+  [
+   62,
+   "efforts, to",
+   "efforts to",
+   "ocr"
+  ],
+  [
+   67,
+   "General Arguably",
+   "General Assembly",
+   "ocr"
+  ],
+  [
+   88,
+   "1 just",
+   "I just",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 29-30 are garbled in the source (words lost across a damaged line) and unit 13 lacks a final word; kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "31503b9fe027706423cc91886c0cea0236be41e4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2407,
+  "words_out": 2406,
+  "retention": 0.9996,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   92,
+   25,
+   62,
+   136,
+   51,
+   118,
+   69,
+   106,
+   63,
+   66,
+   100,
+   113,
+   91,
+   81,
+   123,
+   68,
+   107,
+   91,
+   105,
+   99,
+   102,
+   113,
+   189,
+   152,
+   84
+  ],
+  "warnings": []
+ }
+}

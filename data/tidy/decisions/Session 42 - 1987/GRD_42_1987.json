@@ -1,0 +1,95 @@
+{
+ "id": "GRD_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  10,
+  16,
+  18,
+  23,
+  31,
+  36,
+  40,
+  42,
+  46,
+  49,
+  54,
+  61,
+  66,
+  71,
+  73
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   5,
+   "ī shall",
+   "I shall",
+   "ocr"
+  ],
+  [
+   28,
+   "(A/40/PV.35, p. 48-50)",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "(A/41/PV.32, p. 8)",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "foe",
+   "for",
+   "ocr"
+  ],
+  [
+   71,
+   "immune—deficiency",
+   "immune-deficiency",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34869273a85e4bfdc6d5b3764c4b34641ef5e408",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2063,
+  "words_out": 2057,
+  "retention": 0.9971,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   67,
+   50,
+   132,
+   139,
+   60,
+   123,
+   164,
+   164,
+   139,
+   84,
+   109,
+   121,
+   99,
+   145,
+   182,
+   100,
+   52,
+   127
+  ],
+  "warnings": []
+ }
+}

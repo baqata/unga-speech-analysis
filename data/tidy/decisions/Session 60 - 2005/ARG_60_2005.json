@@ -1,0 +1,67 @@
+{
+ "id": "ARG_60_2005",
+ "drop": [
+  [
+   22,
+   22,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  15,
+  44,
+  67,
+  75,
+  100,
+  126,
+  152,
+  176,
+  195,
+  215,
+  238,
+  250,
+  263
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7b040c8fb57300056cbbd0e370d7a0de8a263eb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2051,
+  "words_out": 2041,
+  "retention": 0.9951,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   63,
+   50,
+   237,
+   184,
+   66,
+   185,
+   182,
+   198,
+   179,
+   132,
+   144,
+   167,
+   88,
+   99,
+   67
+  ],
+  "warnings": []
+ }
+}

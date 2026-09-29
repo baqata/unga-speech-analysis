@@ -1,0 +1,97 @@
+{
+ "id": "LUX_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  10,
+  13,
+  16,
+  19,
+  20,
+  24,
+  26,
+  29,
+  35,
+  40,
+  42,
+  45,
+  50,
+  55,
+  64,
+  67,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "tribute, of",
+   "tribute of",
+   "ocr"
+  ],
+  [
+   18,
+   "inspired oar",
+   "inspired our",
+   "ocr"
+  ],
+  [
+   37,
+   "actually apolitical",
+   "actually a political",
+   "ocr"
+  ],
+  [
+   60,
+   "ultimate, objective,",
+   "ultimate objective,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dbeb896fc979fb676742b24a1e44b61b2af759d3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 25
+  },
+  "words_in": 2676,
+  "words_out": 2677,
+  "retention": 1.0004,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   88,
+   96,
+   116,
+   144,
+   140,
+   115,
+   144,
+   88,
+   134,
+   122,
+   160,
+   153,
+   145,
+   79,
+   99,
+   151,
+   185,
+   205,
+   65,
+   128,
+   120
+  ],
+  "warnings": []
+ }
+}

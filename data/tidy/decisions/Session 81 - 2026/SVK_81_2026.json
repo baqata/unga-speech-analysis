@@ -1,0 +1,109 @@
+{
+ "id": "SVK_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   108,
+   108,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  22,
+  28,
+  34,
+  38,
+  47,
+  52,
+  62,
+  68,
+  83,
+  87,
+  92,
+  100
+ ],
+ "cer": [],
+ "fix": [
+  [
+   38,
+   "an equal",
+   "unequal",
+   "asr_term"
+  ],
+  [
+   72,
+   "whole",
+   "hall",
+   "asr_term"
+  ],
+  [
+   62,
+   "institutions. institutions.",
+   "institutions.",
+   "asr_term"
+  ],
+  [
+   30,
+   "underrepresented. it.",
+   "underrepresented.",
+   "asr_term"
+  ],
+  [
+   82,
+   "clear. stop",
+   "clear. Stop",
+   "asr_term"
+  ],
+  [
+   89,
+   "respected. civilians",
+   "respected. Civilians",
+   "asr_term"
+  ],
+  [
+   95,
+   "However, civilians",
+   "Civilians",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish channel confirms acceso desigual and esta sala. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 62 'institutions. institutions.' -> 'institutions.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 30 'underrepresented. it.' -> 'underrepresented.' (a word written after a pause; two re-decodes and the Spanish booth have nothing between 'underrepresented' and 'Countries'); unit 82 'clear. stop' -> 'clear. Stop'; unit 89 'respected. civilians' -> 'respected. Civilians'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 95 'However, civilians' -> 'Civilians' (invented word: both decodes clearly lack it ('War.' 681.0 s then 'Civilians' 682.3 s, p 0.97 / 0.95); ES 'los civiles pagan un precio inaceptable' without 'sin embargo')",
+ "unitizer_version": 1,
+ "sha1": "05345eb16dab6773193c82b5d0a541da53a0dc1d",
+ "layout": "single",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1392,
+  "words_out": 1341,
+  "retention": 0.9634,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   94,
+   108,
+   71,
+   100,
+   67,
+   129,
+   62,
+   100,
+   83,
+   146,
+   60,
+   129,
+   68,
+   124
+  ],
+  "warnings": []
+ }
+}

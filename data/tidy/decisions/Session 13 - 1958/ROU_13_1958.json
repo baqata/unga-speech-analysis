@@ -1,0 +1,248 @@
+{
+ "id": "ROU_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  21,
+  30,
+  34,
+  37,
+  39,
+  42,
+  44,
+  50,
+  53,
+  59,
+  61,
+  66,
+  71,
+  76,
+  81,
+  84,
+  88,
+  90
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "Interest",
+   "interest",
+   "ocr"
+  ],
+  [
+   1,
+   "adverting",
+   "averting",
+   "ocr"
+  ],
+  [
+   1,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   2,
+   "Immediate",
+   "immediate",
+   "ocr"
+  ],
+  [
+   4,
+   "tones",
+   "zones",
+   "ocr"
+  ],
+  [
+   12,
+   " [749th meeting, para. 241",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "or. this",
+   "on this",
+   "ocr"
+  ],
+  [
+   34,
+   "th?",
+   "the",
+   "ocr"
+  ],
+  [
+   34,
+   "increasinglygrave",
+   "increasingly grave",
+   "merged_word"
+  ],
+  [
+   36,
+   " [resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "Internal",
+   "internal",
+   "ocr"
+  ],
+  [
+   39,
+   "Internal",
+   "internal",
+   "ocr"
+  ],
+  [
+   41,
+   "of- the",
+   "of the",
+   "ocr"
+  ],
+  [
+   46,
+   "Soma say",
+   "Some say",
+   "ocr"
+  ],
+  [
+   47,
+   "06 how",
+   "so how",
+   "ocr"
+  ],
+  [
+   49,
+   "Interfere",
+   "interfere",
+   "ocr"
+  ],
+  [
+   55,
+   "disregarded,",
+   "disregarded.",
+   "ocr"
+  ],
+  [
+   56,
+   "re- fleets",
+   "reflects",
+   "ocr"
+  ],
+  [
+   56,
+   "International peace",
+   "international peace",
+   "ocr"
+  ],
+  [
+   66,
+   "conclusions,",
+   "conclusions.",
+   "ocr"
+  ],
+  [
+   68,
+   "world,",
+   "world.",
+   "ocr"
+  ],
+  [
+   70,
+   "Its territory",
+   "its territory",
+   "ocr"
+  ],
+  [
+   70,
+   "Interested",
+   "interested",
+   "ocr"
+  ],
+  [
+   76,
+   "93. ",
+   "",
+   "label"
+  ],
+  [
+   76,
+   " [A/3847 and Add.1]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "Interested In",
+   "interested in",
+   "ocr"
+  ],
+  [
+   79,
+   "method, of",
+   "method of",
+   "ocr"
+  ],
+  [
+   83,
+   "guaranteed,",
+   "guaranteed.",
+   "ocr"
+  ],
+  [
+   86,
+   "International atmosphere",
+   "international atmosphere",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09326df9e0915d39a90a88791d4bbf2dce18d88c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3093,
+  "words_out": 3081,
+  "retention": 0.9961,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   75,
+   165,
+   174,
+   254,
+   232,
+   167,
+   128,
+   119,
+   110,
+   93,
+   102,
+   82,
+   179,
+   104,
+   180,
+   189,
+   129,
+   236,
+   111,
+   109,
+   74,
+   69
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

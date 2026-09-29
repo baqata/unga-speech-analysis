@@ -1,0 +1,72 @@
+{
+ "id": "QAT_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  18,
+  23,
+  30,
+  34,
+  36,
+  40,
+  43,
+  49,
+  54,
+  59,
+  65,
+  75,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   82,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   85,
+   " (The Holy Qur’an, XLIX.13)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "697f15df35327b3db0d8f77445c2064c68c16dc8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1831,
+  "words_out": 1826,
+  "retention": 0.9973,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   79,
+   196,
+   71,
+   135,
+   170,
+   70,
+   60,
+   89,
+   85,
+   108,
+   104,
+   102,
+   83,
+   165,
+   195,
+   114
+  ],
+  "warnings": []
+ }
+}

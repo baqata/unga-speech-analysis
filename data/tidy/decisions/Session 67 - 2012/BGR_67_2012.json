@@ -1,0 +1,61 @@
+{
+ "id": "BGR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  24,
+  36,
+  59,
+  76,
+  94,
+  113,
+  124,
+  135,
+  155,
+  170,
+  193,
+  209,
+  218,
+  231,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef8da7b74ee8005ded7795c8ae8ba13a17b48d7a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1966,
+  "words_out": 1960,
+  "retention": 0.9969,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   104,
+   94,
+   93,
+   192,
+   148,
+   148,
+   156,
+   82,
+   80,
+   155,
+   128,
+   177,
+   129,
+   64,
+   101,
+   61,
+   48
+  ],
+  "warnings": []
+ }
+}

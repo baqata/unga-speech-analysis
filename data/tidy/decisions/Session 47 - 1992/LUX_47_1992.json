@@ -1,0 +1,68 @@
+{
+ "id": "LUX_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  24,
+  35,
+  45,
+  61,
+  78,
+  89,
+  102,
+  115,
+  128,
+  150,
+  169,
+  187,
+  209,
+  226,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   247,
+   "tasks.before",
+   "tasks before",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa61e374b36fe3320e01f67a9f939d14625434b1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2706,
+  "words_out": 2706,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   153,
+   106,
+   120,
+   122,
+   186,
+   194,
+   135,
+   153,
+   146,
+   140,
+   224,
+   184,
+   164,
+   222,
+   168,
+   156,
+   133
+  ],
+  "warnings": []
+ }
+}

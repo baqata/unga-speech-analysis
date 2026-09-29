@@ -1,0 +1,159 @@
+{
+ "id": "BOL_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  14,
+  16,
+  19,
+  21,
+  27,
+  30,
+  33,
+  37,
+  43,
+  48,
+  52,
+  58,
+  62,
+  66,
+  73,
+  76,
+  84,
+  91,
+  95,
+  98,
+  101,
+  104,
+  109,
+  112,
+  115,
+  118,
+  123,
+  129,
+  136,
+  139,
+  143,
+  152,
+  155,
+  158,
+  160,
+  165
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   2,
+   "twenty- fourth",
+   "twenty-fourth",
+   "hyphen"
+  ],
+  [
+   5,
+   "comer",
+   "corner",
+   "ocr"
+  ],
+  [
+   25,
+   "be'",
+   "be",
+   "ocr"
+  ],
+  [
+   63,
+   "many'",
+   "many",
+   "ocr"
+  ],
+  [
+   82,
+   "competition.The",
+   "competition. The",
+   "spacing"
+  ],
+  [
+   117,
+   ".should",
+   "should",
+   "ocr"
+  ],
+  [
+   147,
+   "apolitical",
+   "a political",
+   "merged_word"
+  ],
+  [
+   164,
+   "joy fully",
+   "joyfully",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c4d65a716ffab3256e014e288ba0c5223e7baee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 55
+  },
+  "words_in": 5065,
+  "words_out": 5065,
+  "retention": 1.0,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   101,
+   120,
+   181,
+   128,
+   111,
+   104,
+   75,
+   168,
+   114,
+   89,
+   136,
+   168,
+   106,
+   113,
+   175,
+   143,
+   88,
+   148,
+   101,
+   259,
+   140,
+   138,
+   85,
+   101,
+   94,
+   188,
+   129,
+   90,
+   78,
+   174,
+   177,
+   134,
+   141,
+   95,
+   231,
+   91,
+   74,
+   85,
+   108,
+   84
+  ],
+  "warnings": []
+ }
+}

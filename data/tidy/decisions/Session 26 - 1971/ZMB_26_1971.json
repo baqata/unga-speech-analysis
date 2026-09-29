@@ -1,0 +1,230 @@
+{
+ "id": "ZMB_26_1971",
+ "drop": [
+  [
+   123,
+   123,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  16,
+  20,
+  25,
+  27,
+  29,
+  33,
+  38,
+  46,
+  49,
+  55,
+  62,
+  69,
+  79,
+  83,
+  86,
+  91,
+  100,
+  106,
+  112,
+  118,
+  125,
+  129,
+  132,
+  136,
+  140,
+  146,
+  149
+ ],
+ "cer": [
+  0,
+  4,
+  9
+ ],
+ "fix": [
+  [
+   6,
+   "UThant",
+   "U Thant",
+   "spacing"
+  ],
+  [
+   10,
+   "humanity, The Government",
+   "humanity. The Government",
+   "ocr"
+  ],
+  [
+   12,
+   "in peace,",
+   "in peace.",
+   "ocr"
+  ],
+  [
+   15,
+   " [A/8401/Add.l, para. 55]",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "Organization\",",
+   "Organization\".",
+   "ocr"
+  ],
+  [
+   23,
+   "Peninsula, We",
+   "Peninsula. We",
+   "ocr"
+  ],
+  [
+   27,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "country, Zambia,",
+   "country, Zambia.",
+   "ocr"
+  ],
+  [
+   34,
+   "b *en",
+   "been",
+   "ocr"
+  ],
+  [
+   37,
+   "Smith, regime",
+   "Smith regime",
+   "ocr"
+  ],
+  [
+   63,
+   "World • opposition",
+   "World opposition",
+   "markup"
+  ],
+  [
+   86,
+   "France, Continues",
+   "France, continues",
+   "ocr"
+  ],
+  [
+   106,
+   "is after Territory",
+   "is another Territory",
+   "ocr"
+  ],
+  [
+   115,
+   " [AjL.632]",
+   "",
+   "label"
+  ],
+  [
+   116,
+   " [A/L.633]",
+   "",
+   "label"
+  ],
+  [
+   119,
+   "are . disappointed",
+   "are disappointed",
+   "ocr"
+  ],
+  [
+   139,
+   "disarmament,.not",
+   "disarmament, not",
+   "ocr"
+  ],
+  [
+   139,
+   " [resolution 2373 (XXXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   142,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   148,
+   "We fire confident",
+   "We are confident",
+   "ocr"
+  ],
+  [
+   150,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9032eb4046625ae51965dc3e684632790f358741",
+ "layout": "lines",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 4150,
+  "words_out": 4107,
+  "retention": 0.9896,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   102,
+   89,
+   114,
+   121,
+   91,
+   170,
+   92,
+   77,
+   129,
+   111,
+   248,
+   72,
+   161,
+   187,
+   180,
+   216,
+   105,
+   84,
+   156,
+   194,
+   214,
+   153,
+   227,
+   133,
+   124,
+   67,
+   97,
+   89,
+   143,
+   68,
+   93
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

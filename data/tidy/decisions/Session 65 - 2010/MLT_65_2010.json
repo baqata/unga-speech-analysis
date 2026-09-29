@@ -1,0 +1,61 @@
+{
+ "id": "MLT_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  42,
+  62,
+  76,
+  97,
+  110,
+  125,
+  135,
+  148,
+  175,
+  204,
+  224,
+  243,
+  256,
+  271
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "095ab5f333e64acd2ecdf5c903f77b35ca46bb11",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 300,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2355,
+  "words_out": 2344,
+  "retention": 0.9953,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   184,
+   130,
+   157,
+   97,
+   154,
+   98,
+   117,
+   87,
+   98,
+   218,
+   226,
+   163,
+   137,
+   116,
+   132,
+   230
+  ],
+  "warnings": []
+ }
+}

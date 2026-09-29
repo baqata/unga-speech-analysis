@@ -1,0 +1,95 @@
+{
+ "id": "FRA_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  18,
+  22,
+  29,
+  34,
+  44,
+  52,
+  55,
+  66,
+  73,
+  77,
+  82,
+  86,
+  94,
+  97,
+  99,
+  104,
+  108,
+  111
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   19,
+   "ti.e",
+   "the",
+   "ocr"
+  ],
+  [
+   98,
+   "peoples;,",
+   "peoples,",
+   "ocr"
+  ],
+  [
+   99,
+   "con-science",
+   "conscience",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b5012a3b87f2d76a9905800f5e8c9b9048c3aaab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 29
+  },
+  "words_in": 3082,
+  "words_out": 3076,
+  "retention": 0.9981,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   136,
+   143,
+   159,
+   165,
+   95,
+   130,
+   178,
+   120,
+   169,
+   196,
+   78,
+   235,
+   152,
+   135,
+   169,
+   109,
+   158,
+   81,
+   89,
+   129,
+   96,
+   79,
+   75
+  ],
+  "warnings": []
+ }
+}

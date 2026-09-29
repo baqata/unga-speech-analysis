@@ -1,0 +1,110 @@
+{
+ "id": "LCA_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  9,
+  13,
+  22,
+  26,
+  34,
+  37,
+  41,
+  48,
+  50,
+  55,
+  59,
+  63,
+  69,
+  74,
+  80
+ ],
+ "cer": [
+  0,
+  2,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "reunification,",
+   "reunification.",
+   "ocr"
+  ],
+  [
+   8,
+   "Tour and",
+   "Four and",
+   "ocr"
+  ],
+  [
+   8,
+   "East-West, tension",
+   "East-West tension",
+   "ocr"
+  ],
+  [
+   11,
+   "brought, about",
+   "brought about",
+   "ocr"
+  ],
+  [
+   25,
+   "must, be",
+   "must be",
+   "ocr"
+  ],
+  [
+   25,
+   "Haiti .",
+   "Haiti.",
+   "spacing"
+  ],
+  [
+   30,
+   "pop;1ition",
+   "population",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41384e110238e4eeb1ad8d5463117cfc62e7034a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2018,
+  "words_out": 2017,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   65,
+   84,
+   82,
+   51,
+   118,
+   176,
+   132,
+   173,
+   81,
+   82,
+   149,
+   69,
+   105,
+   84,
+   96,
+   110,
+   111,
+   165,
+   84
+  ],
+  "warnings": []
+ }
+}

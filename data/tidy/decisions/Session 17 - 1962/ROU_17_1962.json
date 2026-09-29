@@ -1,0 +1,133 @@
+{
+ "id": "ROU_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  13,
+  16,
+  22,
+  25,
+  29,
+  31,
+  33,
+  38,
+  41,
+  44,
+  53,
+  57,
+  61,
+  65,
+  69,
+  72,
+  77,
+  82,
+  87,
+  90,
+  94,
+  99,
+  101,
+  103,
+  108,
+  110,
+  113,
+  116,
+  120
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   43,
+   "deliberations ,",
+   "deliberations,",
+   "ocr"
+  ],
+  [
+   59,
+   "to he made",
+   "to be made",
+   "ocr"
+  ],
+  [
+   69,
+   " [A/5233J",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "Romanian.",
+   "Romanian",
+   "ocr"
+  ],
+  [
+   101,
+   " [item 83]",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "situation, in",
+   "situation in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "688ae7a4168beffdc568a6025f5bf1d84691b482",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 50
+  },
+  "words_in": 3941,
+  "words_out": 3924,
+  "retention": 0.9957,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   27,
+   159,
+   142,
+   137,
+   106,
+   185,
+   113,
+   115,
+   85,
+   93,
+   153,
+   95,
+   110,
+   260,
+   110,
+   145,
+   110,
+   92,
+   125,
+   135,
+   154,
+   133,
+   85,
+   144,
+   168,
+   83,
+   69,
+   176,
+   110,
+   70,
+   65,
+   76,
+   94
+  ],
+  "warnings": []
+ }
+}

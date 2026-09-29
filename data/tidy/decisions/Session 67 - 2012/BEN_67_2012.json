@@ -1,0 +1,80 @@
+{
+ "id": "BEN_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  24,
+  34,
+  53,
+  65,
+  81,
+  92,
+  106,
+  125,
+  144,
+  155,
+  174,
+  194,
+  206,
+  222,
+  240,
+  254,
+  280,
+  295
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   172,
+   "f lows",
+   "flows",
+   "split_word"
+  ],
+  [
+   283,
+   "def lect",
+   "deflect",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea67e6210c44368d5e5c4ac0ed125840619a84a2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2522,
+  "words_out": 2520,
+  "retention": 0.9992,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   55,
+   133,
+   79,
+   154,
+   95,
+   128,
+   86,
+   116,
+   150,
+   169,
+   107,
+   153,
+   169,
+   102,
+   125,
+   147,
+   98,
+   224,
+   126,
+   104
+  ],
+  "warnings": []
+ }
+}

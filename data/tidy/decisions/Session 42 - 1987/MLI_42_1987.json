@@ -1,0 +1,106 @@
+{
+ "id": "MLI_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  14,
+  16,
+  23,
+  27,
+  29,
+  32,
+  36,
+  39,
+  43,
+  45,
+  48,
+  52,
+  55,
+  60,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   5,
+   "1 also",
+   "I also",
+   "ocr"
+  ],
+  [
+   14,
+   "exceptions#",
+   "exceptions,",
+   "ocr"
+  ],
+  [
+   17,
+   "particular- To",
+   "particular. To",
+   "ocr"
+  ],
+  [
+   37,
+   "(197b)",
+   "(1978)",
+   "ocr"
+  ],
+  [
+   37,
+   "soon ' regain",
+   "soon regain",
+   "ocr"
+  ],
+  [
+   64,
+   "Ђ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b074c5066bd32d7710dbeb50a5e86f15e29f32f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1982,
+  "words_out": 1981,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   145,
+   98,
+   98,
+   91,
+   185,
+   124,
+   123,
+   95,
+   93,
+   91,
+   91,
+   68,
+   103,
+   78,
+   97,
+   119,
+   134,
+   148
+  ],
+  "warnings": []
+ }
+}

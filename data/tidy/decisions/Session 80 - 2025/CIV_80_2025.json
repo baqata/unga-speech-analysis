@@ -1,0 +1,98 @@
+{
+ "id": "CIV_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  12,
+  15,
+  19,
+  26,
+  30,
+  34,
+  39,
+  43,
+  49,
+  52,
+  58,
+  64,
+  71
+ ],
+ "cer": [
+  2,
+  9,
+  71
+ ],
+ "fix": [
+  [
+   47,
+   "Izzouini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   47,
+   "SIET",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   52,
+   "Oudera",
+   "Ouattara",
+   "asr_name"
+  ],
+  [
+   55,
+   "UNOSI",
+   "UNOCI",
+   "asr_name"
+  ],
+  [
+   59,
+   "Oudera",
+   "Ouattara",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 is the tail of the previous speaker's introduction.",
+ "unitizer_version": 1,
+ "sha1": "02e4fa8c80709c9a658cd4e9897b19e75a364e58",
+ "layout": "single",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1976,
+  "words_out": 1955,
+  "retention": 0.9894,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   148,
+   88,
+   119,
+   149,
+   140,
+   136,
+   144,
+   144,
+   122,
+   176,
+   87,
+   154,
+   115,
+   224,
+   9
+  ],
+  "warnings": []
+ }
+}

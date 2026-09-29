@@ -1,0 +1,56 @@
+{
+ "id": "CHL_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  23,
+  48,
+  53,
+  76,
+  102,
+  120,
+  145,
+  154,
+  173,
+  202,
+  217
+ ],
+ "cer": [
+  0,
+  48
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bebe8dcb47b841c870273f29bb9976c10339643a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1900,
+  "words_out": 1899,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   56,
+   145,
+   224,
+   41,
+   178,
+   226,
+   144,
+   173,
+   76,
+   158,
+   207,
+   126,
+   145
+  ],
+  "warnings": []
+ }
+}

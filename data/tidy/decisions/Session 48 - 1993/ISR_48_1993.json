@@ -1,0 +1,96 @@
+{
+ "id": "ISR_48_1993",
+ "drop": [
+  [
+   91,
+   91,
+   "header_footer"
+  ],
+  [
+   186,
+   186,
+   "header_footer"
+  ],
+  [
+   242,
+   242,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  16,
+  35,
+  45,
+  57,
+  75,
+  87,
+  99,
+  117,
+  131,
+  147,
+  157,
+  173,
+  191,
+  203,
+  214,
+  223,
+  236
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   244,
+   " (The",
+   "",
+   "label"
+  ],
+  [
+   245,
+   "Holy Bible, Amos 9:13)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f7070e4fbddff146156dcfc6a9ff801c9440c71",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2260,
+  "words_out": 2236,
+  "retention": 0.9894,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   24,
+   108,
+   199,
+   83,
+   114,
+   186,
+   113,
+   102,
+   156,
+   125,
+   148,
+   88,
+   154,
+   155,
+   113,
+   100,
+   72,
+   122,
+   74
+  ],
+  "warnings": []
+ }
+}

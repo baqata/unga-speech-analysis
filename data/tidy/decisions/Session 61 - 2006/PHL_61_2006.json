@@ -1,0 +1,51 @@
+{
+ "id": "PHL_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  55,
+  81,
+  91,
+  106,
+  124,
+  143,
+  162,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec3ebb709c437e141b22321ca67112d8e8230005",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1460,
+  "words_out": 1451,
+  "retention": 0.9938,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   109,
+   137,
+   177,
+   190,
+   77,
+   132,
+   139,
+   142,
+   142,
+   128,
+   78
+  ],
+  "warnings": []
+ }
+}

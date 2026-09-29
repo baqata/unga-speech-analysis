@@ -1,0 +1,98 @@
+{
+ "id": "JAM_48_1993",
+ "drop": [
+  [
+   11,
+   11,
+   "header_footer"
+  ],
+  [
+   105,
+   105,
+   "header_footer"
+  ],
+  [
+   199,
+   199,
+   "header_footer"
+  ],
+  [
+   296,
+   296,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  17,
+  46,
+  61,
+  77,
+  99,
+  125,
+  144,
+  167,
+  184,
+  202,
+  227,
+  238,
+  262,
+  279,
+  291,
+  305,
+  319,
+  333
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   211,
+   "non--",
+   "non-",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "A printed line appears to be missing between units 272 and 273 in the source.",
+ "unitizer_version": 1,
+ "sha1": "83ecdc01f1bc232de92c98fd0612899eab864366",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 348,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2901,
+  "words_out": 2868,
+  "retention": 0.9886,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   89,
+   40,
+   228,
+   111,
+   146,
+   191,
+   212,
+   148,
+   187,
+   135,
+   131,
+   202,
+   88,
+   220,
+   153,
+   106,
+   113,
+   125,
+   125,
+   118
+  ],
+  "warnings": []
+ }
+}

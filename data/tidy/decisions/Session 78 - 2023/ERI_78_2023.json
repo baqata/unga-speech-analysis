@@ -1,0 +1,76 @@
+{
+ "id": "ERI_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  15,
+  20,
+  23,
+  26,
+  28
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "War. which",
+   "War, which",
+   "ocr"
+  ],
+  [
+   4,
+   "war. which",
+   "war, which",
+   "ocr"
+  ],
+  [
+   5,
+   "so. in",
+   "so, in",
+   "ocr"
+  ],
+  [
+   9,
+   "Da’esh.",
+   "Da’esh,",
+   "ocr"
+  ],
+  [
+   13,
+   "1950s. in",
+   "1950s, in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "48a3ead80c7dd466912e6c916be23d55ebfaed8f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 867,
+  "words_out": 867,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   41,
+   106,
+   115,
+   142,
+   107,
+   131,
+   109,
+   83,
+   33
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "id": "CRI_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  11,
+  15,
+  19,
+  22,
+  30,
+  34,
+  39,
+  43,
+  46,
+  51,
+  54,
+  56,
+  59,
+  63,
+  67,
+  71,
+  73,
+  77,
+  79,
+  84,
+  87,
+  90,
+  94,
+  100,
+  106,
+  113,
+  115,
+  119,
+  124,
+  126,
+  133,
+  135,
+  139,
+  142,
+  145,
+  150,
+  154
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "UnLed",
+   "United",
+   "ocr"
+  ],
+  [
+   10,
+   "United . Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   30,
+   ".to choose",
+   "to choose",
+   "ocr"
+  ],
+  [
+   42,
+   "twenty- two",
+   "twenty-two",
+   "hyphen"
+  ],
+  [
+   87,
+   "], We",
+   "]. We",
+   "ocr"
+  ],
+  [
+   96,
+   "twenty- fourth",
+   "twenty-fourth",
+   "hyphen"
+  ],
+  [
+   112,
+   "the fact of the earth",
+   "the face of the earth",
+   "ocr"
+  ],
+  [
+   114,
+   " [resolution 2222 {XXI}]",
+   "",
+   "label"
+  ],
+  [
+   121,
+   ".product",
+   "product",
+   "ocr"
+  ],
+  [
+   124,
+   "of, mankind",
+   "of mankind",
+   "ocr"
+  ],
+  [
+   125,
+   "cf the",
+   "of the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3fcd1b40f58b98016251975da6db4848c25b9a70",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 47
+  },
+  "words_in": 4950,
+  "words_out": 4937,
+  "retention": 0.9974,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   88,
+   99,
+   119,
+   94,
+   105,
+   72,
+   111,
+   160,
+   139,
+   125,
+   87,
+   142,
+   136,
+   117,
+   87,
+   124,
+   110,
+   115,
+   162,
+   91,
+   136,
+   108,
+   137,
+   113,
+   121,
+   112,
+   245,
+   158,
+   185,
+   93,
+   133,
+   225,
+   122,
+   117,
+   98,
+   111,
+   87,
+   60,
+   88,
+   137,
+   68
+  ],
+  "warnings": []
+ }
+}

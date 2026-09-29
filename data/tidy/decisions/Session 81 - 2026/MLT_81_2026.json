@@ -1,0 +1,209 @@
+{
+ "id": "MLT_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   127,
+   127,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  11,
+  16,
+  20,
+  26,
+  37,
+  45,
+  52,
+  56,
+  64,
+  71,
+  83,
+  87,
+  96,
+  103,
+  112,
+  118,
+  122
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   "wanting destruction",
+   "wanton destruction",
+   "asr_term"
+  ],
+  [
+   36,
+   "frog-marged",
+   "frog-marched",
+   "asr_term"
+  ],
+  [
+   105,
+   "staring speech",
+   "stirring speech",
+   "asr_term"
+  ],
+  [
+   107,
+   "Pardot",
+   "Pardo",
+   "asr_name"
+  ],
+  [
+   33,
+   "a sentiment",
+   "as adamant",
+   "asr_term"
+  ],
+  [
+   115,
+   "trust. trust",
+   "trust. Trust",
+   "asr_term"
+  ],
+  [
+   5,
+   "deep. where",
+   "deep. Where",
+   "asr_term"
+  ],
+  [
+   8,
+   "society. suspicion",
+   "society. Suspicion",
+   "asr_term"
+  ],
+  [
+   16,
+   "before. that",
+   "before. That",
+   "asr_term"
+  ],
+  [
+   29,
+   "conflict. a",
+   "conflict. A",
+   "asr_term"
+  ],
+  [
+   36,
+   "talks. rightly",
+   "talks. Rightly",
+   "asr_term"
+  ],
+  [
+   42,
+   "plan. and",
+   "plan. And",
+   "asr_term"
+  ],
+  [
+   47,
+   "Bank. settlement",
+   "Bank. Settlement",
+   "asr_term"
+  ],
+  [
+   55,
+   "evaporated. yet",
+   "evaporated. Yet",
+   "asr_term"
+  ],
+  [
+   64,
+   "way. that",
+   "way. That",
+   "asr_term"
+  ],
+  [
+   86,
+   "deliver. delivered in",
+   "deliver. Deliver in",
+   "asr_term"
+  ],
+  [
+   96,
+   "planet. and",
+   "planet. And",
+   "asr_term"
+  ],
+  [
+   110,
+   "now. doing",
+   "now. Doing",
+   "asr_term"
+  ],
+  [
+   112,
+   "solutions. suspicion",
+   "solutions. Suspicion",
+   "asr_term"
+  ],
+  [
+   43,
+   "genuine in",
+   "genuine",
+   "asr_term"
+  ],
+  [
+   47,
+   "a progress",
+   "any progress",
+   "asr_term"
+  ],
+  [
+   76,
+   "these",
+   "this",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Arvid Pardo per unit 104 and the Spanish 'Pardo'; unit 2 opens with the salutation glued to the theme, so the paragraph is not labelled. Main-agent audit: unit 33 'Malta remains as adamant in our condemnation of that invasion today as we were on day one' (re-decodes hear 'a sediment', p 0.74; the comparative 'as ... as we were' and the Spanish 'con toda su firmeza ... de la misma manera que lo hicimos el primer día'). Unit 105 'stirring' kept (re-decodes 'staring', p 0.40-0.55). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 115 'trust. trust' -> 'trust. Trust' (said twice; capital restored). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 5 'deep. where' -> 'deep. Where'; unit 8 'society. suspicion' -> 'society. Suspicion'; unit 16 'before. that' -> 'before. That'; unit 29 'conflict. a' -> 'conflict. A'; unit 36 'talks. rightly' -> 'talks. Rightly'; unit 42 'plan. and' -> 'plan. And'; unit 47 'Bank. settlement' -> 'Bank. Settlement'; unit 55 'evaporated. yet' -> 'evaporated. Yet'; unit 64 'way. that' -> 'way. That'; unit 86 'deliver. delivered in' -> 'deliver. Deliver in' (two re-decodes hear 'deliver. Deliver in ways' (p 0.95-1.00)); unit 96 'planet. and' -> 'planet. And'; unit 110 'now. doing' -> 'now. Doing'; unit 112 'solutions. suspicion' -> 'solutions. Suspicion'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 43 'genuine in' -> 'genuine' (invented word: both decodes clearly hear 'genuine progress' with nothing between (1.00 / 1.00); 'genuine in progress' does not fit; 'in' alone is not unique); spot 7 unit 47 'a progress' -> 'any progress' (decode 2 hears 'and a' (0.46 / 0.23), i.e. 'any' split; decode 1 'a' 0.69; 'a progress' does not fit; ES 'cualquier avance'); spot 11 unit 76 'these' -> 'this' (both decodes clearly hear 'this' (0.99 / 0.98); ES 'esta organización')",
+ "unitizer_version": 1,
+ "sha1": "9ddb666b5410a3b4316075158b3932fbaa15a737",
+ "layout": "single",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3040,
+  "words_out": 2990,
+  "retention": 0.9836,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   225,
+   115,
+   134,
+   67,
+   239,
+   200,
+   198,
+   175,
+   168,
+   202,
+   174,
+   147,
+   167,
+   192,
+   197,
+   194,
+   106,
+   90
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

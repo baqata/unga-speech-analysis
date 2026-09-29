@@ -1,0 +1,164 @@
+{
+ "id": "FIN_29_1974",
+ "drop": [
+  [
+   25,
+   25,
+   "noise"
+  ],
+  [
+   31,
+   31,
+   "noise"
+  ],
+  [
+   47,
+   47,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  12,
+  15,
+  18,
+  22,
+  26,
+  32,
+  38,
+  41,
+  48,
+  54,
+  59,
+  63,
+  69,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Assembly,",
+   "Assembly",
+   "ocr"
+  ],
+  [
+   10,
+   "Prpgram",
+   "Program",
+   "ocr"
+  ],
+  [
+   10,
+   "long- term",
+   "long-term",
+   "spacing"
+  ],
+  [
+   11,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   12,
+   "a. thorough",
+   "a thorough",
+   "ocr"
+  ],
+  [
+   12,
+   "re- evaluation",
+   "re-evaluation",
+   "spacing"
+  ],
+  [
+   15,
+   "the' thorough",
+   "the thorough",
+   "ocr"
+  ],
+  [
+   17,
+   "must-",
+   "must",
+   "ocr"
+  ],
+  [
+   44,
+   " [sec Al960IIAdd.l, sect.",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "X], ",
+   "",
+   "label"
+  ],
+  [
+   45,
+   " [see AI9909 and AI99II]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "parties..",
+   "parties.",
+   "ocr"
+  ],
+  [
+   58,
+   "This,",
+   "This",
+   "ocr"
+  ],
+  [
+   61,
+   "settlement\",",
+   "settlement,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "203824a9c78ff2b9ead8934af9a189b5854b8cb7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1812,
+  "words_out": 1798,
+  "retention": 0.9923,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   110,
+   128,
+   77,
+   97,
+   114,
+   70,
+   164,
+   113,
+   64,
+   166,
+   143,
+   141,
+   148,
+   86,
+   85,
+   92
+  ],
+  "warnings": []
+ }
+}

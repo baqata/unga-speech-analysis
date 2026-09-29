@@ -1,0 +1,108 @@
+{
+ "id": "BDI_47_1992",
+ "drop": [
+  [
+   254,
+   256,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  25,
+  37,
+  51,
+  58,
+  82,
+  95,
+  106,
+  123,
+  145,
+  159,
+  168,
+  184,
+  208,
+  222,
+  241,
+  257,
+  267,
+  279,
+  298,
+  312
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   127,
+   "among ill sectors",
+   "among all sectors",
+   "ocr"
+  ],
+  [
+   257,
+   "attention. Sir.",
+   "attention, Sir.",
+   "ocr"
+  ],
+  [
+   308,
+   "is 01 the",
+   "is on the",
+   "ocr"
+  ],
+  [
+   309,
+   "t) building",
+   "to building",
+   "ocr"
+  ],
+  [
+   312,
+   "in chis",
+   "in this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 257-259 repeat 254-256; the second, complete copy is kept because it continues into unit 260.",
+ "unitizer_version": 1,
+ "sha1": "acb807a847ca415dfcdd4fdc69d3de6be9bc564d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 322,
+  "units_dropped": {
+   "repeat": 3
+  },
+  "prestrip": {},
+  "words_in": 3633,
+  "words_out": 3590,
+  "retention": 0.9882,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   269,
+   138,
+   171,
+   84,
+   284,
+   146,
+   136,
+   193,
+   239,
+   156,
+   100,
+   169,
+   271,
+   171,
+   195,
+   143,
+   119,
+   131,
+   201,
+   161,
+   113
+  ],
+  "warnings": []
+ }
+}

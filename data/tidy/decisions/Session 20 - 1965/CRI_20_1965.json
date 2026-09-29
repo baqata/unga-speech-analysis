@@ -1,0 +1,103 @@
+{
+ "id": "CRI_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  21,
+  30,
+  35,
+  39,
+  43,
+  48,
+  60,
+  65,
+  71,
+  77,
+  84,
+  86,
+  91
+ ],
+ "cer": [
+  0,
+  4,
+  8,
+  65
+ ],
+ "fix": [
+  [
+   25,
+   "deliberate the act",
+   "deliberate and act",
+   "ocr"
+  ],
+  [
+   31,
+   "Report of\" the",
+   "Report of the",
+   "ocr"
+  ],
+  [
+   81,
+   "Costa Rica, repeats",
+   "Costa Rica repeats",
+   "ocr"
+  ],
+  [
+   81,
+   "hopes expresses last",
+   "hopes expressed last",
+   "ocr"
+  ],
+  [
+   16,
+   " [A/5916]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   " [A/5963]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b7a7d20aeafce4f824d676d7ac76a3ab41df1520",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 2641,
+  "words_out": 2613,
+  "retention": 0.9894,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   115,
+   74,
+   199,
+   145,
+   233,
+   137,
+   106,
+   129,
+   131,
+   252,
+   115,
+   192,
+   206,
+   205,
+   75,
+   182,
+   117
+  ],
+  "warnings": []
+ }
+}

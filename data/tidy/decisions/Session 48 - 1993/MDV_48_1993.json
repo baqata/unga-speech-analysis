@@ -1,0 +1,90 @@
+{
+ "id": "MDV_48_1993",
+ "drop": [
+  [
+   32,
+   32,
+   "header_footer"
+  ],
+  [
+   123,
+   123,
+   "header_footer"
+  ],
+  [
+   220,
+   220,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  20,
+  30,
+  46,
+  57,
+  70,
+  82,
+  92,
+  104,
+  124,
+  140,
+  159,
+  178,
+  190,
+  221,
+  232,
+  245,
+  254,
+  265,
+  278,
+  292
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af8eca9fede422b7389dde74a5566a89c477618a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 306,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2612,
+  "words_out": 2592,
+  "retention": 0.9923,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   75,
+   79,
+   96,
+   127,
+   95,
+   113,
+   103,
+   88,
+   109,
+   172,
+   138,
+   157,
+   170,
+   94,
+   245,
+   99,
+   108,
+   75,
+   84,
+   118,
+   114,
+   133
+  ],
+  "warnings": []
+ }
+}

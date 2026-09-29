@@ -1,0 +1,61 @@
+{
+ "id": "BGR_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  30,
+  47,
+  55,
+  68,
+  84,
+  103,
+  119,
+  131,
+  147,
+  157,
+  166,
+  177,
+  192,
+  201
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0bf3a31fbeb6985e974f13e00e8da72a91e4cedd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1779,
+  "words_out": 1778,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   71,
+   183,
+   140,
+   66,
+   109,
+   137,
+   156,
+   145,
+   98,
+   139,
+   83,
+   90,
+   103,
+   125,
+   84,
+   49
+  ],
+  "warnings": []
+ }
+}

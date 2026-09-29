@@ -1,0 +1,62 @@
+{
+ "id": "LIE_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  20,
+  24,
+  30,
+  35,
+  43,
+  49,
+  51,
+  58,
+  64
+ ],
+ "cer": [],
+ "fix": [
+  [
+   39,
+   "public- private",
+   "public-private",
+   "spacing"
+  ],
+  [
+   69,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "461b24ef74367761d22968fe791f66290ef812d1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1674,
+  "words_out": 1672,
+  "retention": 0.9988,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   88,
+   164,
+   144,
+   132,
+   145,
+   136,
+   167,
+   107,
+   76,
+   211,
+   150,
+   152
+  ],
+  "warnings": []
+ }
+}

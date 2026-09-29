@@ -1,0 +1,96 @@
+{
+ "id": "EGY_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  15,
+  20,
+  27,
+  38,
+  41,
+  46,
+  52,
+  58
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "world. '",
+   "world.",
+   "ocr"
+  ],
+  [
+   8,
+   "and, instability",
+   "and instability",
+   "ocr"
+  ],
+  [
+   12,
+   "The. Indonesian",
+   "The Indonesian",
+   "ocr"
+  ],
+  [
+   19,
+   "Rahim ley",
+   "Rahim Bey",
+   "ocr"
+  ],
+  [
+   22,
+   "tom",
+   "torn",
+   "ocr"
+  ],
+  [
+   32,
+   "interdependence,",
+   "interdependence.",
+   "ocr"
+  ],
+  [
+   37,
+   "interest?",
+   "interests",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "728d2435c8afef331bfb8f1c1d5a4827c874b0ee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 1659,
+  "words_out": 1658,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   114,
+   68,
+   157,
+   91,
+   122,
+   208,
+   205,
+   96,
+   145,
+   176,
+   165,
+   111
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "NAM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  14,
+  17,
+  23,
+  26,
+  34,
+  39,
+  43,
+  47,
+  50,
+  62,
+  71,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- sixth",
+   "seventy-sixth",
+   "hyphen"
+  ],
+  [
+   14,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   33,
+   "upper- middle",
+   "upper-middle",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9806533140f90528a33f179b3bd8502179f15355",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1892,
+  "words_out": 1888,
+  "retention": 0.9979,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   59,
+   98,
+   166,
+   91,
+   174,
+   90,
+   206,
+   96,
+   141,
+   76,
+   85,
+   190,
+   144,
+   131,
+   141
+  ],
+  "warnings": []
+ }
+}

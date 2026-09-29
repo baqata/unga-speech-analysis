@@ -1,0 +1,89 @@
+{
+ "id": "COM_61_2006",
+ "drop": [
+  [
+   220,
+   221,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  21,
+  33,
+  46,
+  56,
+  66,
+  82,
+  98,
+  116,
+  128,
+  140,
+  152,
+  166,
+  177,
+  189,
+  207,
+  222,
+  229,
+  239,
+  254
+ ],
+ "cer": [
+  0,
+  11,
+  21,
+  33,
+  46,
+  56,
+  66,
+  82
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4522cbd483e61e25ff3be88d85eaa4b07a4661ba",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "language_note": 1,
+   "job_number": 3
+  },
+  "words_in": 2165,
+  "words_out": 2156,
+  "retention": 0.9958,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   85,
+   81,
+   104,
+   99,
+   79,
+   78,
+   125,
+   125,
+   152,
+   110,
+   104,
+   94,
+   102,
+   88,
+   95,
+   138,
+   114,
+   70,
+   82,
+   114,
+   117
+  ],
+  "warnings": [
+   "procedural drop [220,221] in the middle of the speech"
+  ]
+ }
+}

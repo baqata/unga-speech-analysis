@@ -1,0 +1,41 @@
+{
+ "id": "HRV_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  34,
+  44,
+  55,
+  74,
+  84
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a14d381e5af39513b3bf70800d33639987496ad1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 822,
+  "words_out": 822,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   126,
+   137,
+   83,
+   106,
+   159,
+   76,
+   135
+  ],
+  "warnings": []
+ }
+}

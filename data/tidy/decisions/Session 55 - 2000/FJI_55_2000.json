@@ -1,0 +1,86 @@
+{
+ "id": "FJI_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  32,
+  40,
+  57,
+  82,
+  95,
+  111,
+  122,
+  132,
+  148,
+  160,
+  176,
+  194,
+  207,
+  227,
+  238,
+  248,
+  260,
+  275,
+  285,
+  293
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "d'Ètat",
+   "d'État",
+   "encoding"
+  ],
+  [
+   171,
+   "d'Ètat",
+   "d'État",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c1a6ed852ce1d7264cf3833bad728d4b1708f28b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 296,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2358,
+  "words_out": 2354,
+  "retention": 0.9983,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   159,
+   97,
+   61,
+   141,
+   190,
+   108,
+   124,
+   101,
+   80,
+   117,
+   94,
+   134,
+   149,
+   96,
+   175,
+   85,
+   74,
+   97,
+   111,
+   82,
+   61,
+   18
+  ],
+  "warnings": []
+ }
+}

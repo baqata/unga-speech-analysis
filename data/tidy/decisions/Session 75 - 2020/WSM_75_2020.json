@@ -1,0 +1,81 @@
+{
+ "id": "WSM_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  14,
+  16,
+  21,
+  24,
+  30,
+  36,
+  39,
+  41,
+  44,
+  51,
+  56,
+  62,
+  68,
+  73,
+  76,
+  82,
+  85,
+  87,
+  91
+ ],
+ "cer": [
+  0,
+  91
+ ],
+ "fix": [
+  [
+   54,
+   "UAE- Israeli",
+   "UAE-Israeli",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52d7d34925862e26bfcaba967a40340d7b0f6b33",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1865,
+  "words_out": 1864,
+  "retention": 0.9995,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   7,
+   63,
+   116,
+   71,
+   73,
+   102,
+   66,
+   108,
+   92,
+   65,
+   76,
+   88,
+   82,
+   106,
+   130,
+   84,
+   92,
+   89,
+   147,
+   67,
+   63,
+   71,
+   6
+  ],
+  "warnings": []
+ }
+}

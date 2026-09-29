@@ -1,0 +1,113 @@
+{
+ "id": "IDN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  29,
+  45,
+  64,
+  72,
+  94,
+  117,
+  127,
+  142,
+  155,
+  164,
+  187,
+  196,
+  210,
+  225,
+  245,
+  264,
+  275,
+  290,
+  309,
+  323,
+  337
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "humankindâs",
+   "humankind’s",
+   "encoding"
+  ],
+  [
+   24,
+   "humankindâs",
+   "humankind’s",
+   "encoding"
+  ],
+  [
+   84,
+   "Councilâs",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   172,
+   "cityâs",
+   "city’s",
+   "encoding"
+  ],
+  [
+   173,
+   "Israelâs",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   350,
+   "anotherâs",
+   "another’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3fa0c1bb556311ade0a0d523a5b8cbd2e1ed180",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 355,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 4,
+   "page_number": 4
+  },
+  "words_in": 3021,
+  "words_out": 3020,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   124,
+   118,
+   148,
+   185,
+   76,
+   195,
+   192,
+   83,
+   133,
+   108,
+   73,
+   186,
+   77,
+   123,
+   133,
+   151,
+   156,
+   81,
+   110,
+   149,
+   123,
+   120,
+   176
+  ],
+  "warnings": []
+ }
+}

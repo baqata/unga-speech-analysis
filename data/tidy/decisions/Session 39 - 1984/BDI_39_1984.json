@@ -1,0 +1,130 @@
+{
+ "id": "BDI_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  16,
+  20,
+  23,
+  28,
+  32,
+  39,
+  44,
+  48,
+  53,
+  56,
+  59,
+  64,
+  68,
+  73,
+  77,
+  81,
+  87,
+  92,
+  96,
+  99,
+  106,
+  111,
+  118,
+  124,
+  129,
+  134,
+  142,
+  151,
+  155,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "it the last",
+   "in the last",
+   "ocr"
+  ],
+  [
+   72,
+   "Gulf^",
+   "Gulf,",
+   "encoding"
+  ],
+  [
+   81,
+   "situation m Africa",
+   "situation in Africa",
+   "ocr"
+  ],
+  [
+   116,
+   "peoples, m this",
+   "peoples, in this",
+   "ocr"
+  ],
+  [
+   97,
+   "SWA- PO",
+   "SWAPO",
+   "split_word"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 86 breaks off mid-sentence ('strengthening of'); a few words appear lost at a page break.",
+ "unitizer_version": 1,
+ "sha1": "bf7fe13703173da975327ee89cb66a8541328c49",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 59
+  },
+  "words_in": 4407,
+  "words_out": 4406,
+  "retention": 0.9998,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   142,
+   123,
+   142,
+   117,
+   111,
+   77,
+   116,
+   130,
+   197,
+   172,
+   97,
+   126,
+   114,
+   60,
+   134,
+   110,
+   140,
+   119,
+   156,
+   140,
+   157,
+   141,
+   108,
+   199,
+   145,
+   176,
+   153,
+   80,
+   132,
+   166,
+   227,
+   58,
+   79,
+   62
+  ],
+  "warnings": []
+ }
+}

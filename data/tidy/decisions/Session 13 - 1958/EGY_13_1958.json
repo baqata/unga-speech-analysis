@@ -1,0 +1,116 @@
+{
+ "id": "EGY_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  16,
+  22,
+  28,
+  32,
+  37,
+  39,
+  43,
+  46,
+  59,
+  62,
+  65,
+  68,
+  72,
+  74,
+  78,
+  82,
+  85,
+  88,
+  92,
+  94,
+  96,
+  98
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   14,
+   "affected",
+   "effected",
+   "ocr"
+  ],
+  [
+   60,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   63,
+   "lay. down",
+   "lay down",
+   "ocr"
+  ],
+  [
+   80,
+   "-and",
+   "and",
+   "ocr"
+  ],
+  [
+   85,
+   "rehabilitation.",
+   "rehabilitation,",
+   "ocr"
+  ],
+  [
+   94,
+   "self- expression",
+   "self-expression",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39cd4bfeb33405e825286f7893929c2faa0fd59a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3200,
+  "words_out": 3196,
+  "retention": 0.9988,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   157,
+   71,
+   153,
+   202,
+   114,
+   116,
+   168,
+   84,
+   157,
+   127,
+   212,
+   141,
+   122,
+   88,
+   184,
+   109,
+   105,
+   111,
+   119,
+   110,
+   119,
+   118,
+   136,
+   90,
+   83
+  ],
+  "warnings": []
+ }
+}

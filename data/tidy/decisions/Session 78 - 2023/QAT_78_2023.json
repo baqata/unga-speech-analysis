@@ -1,0 +1,165 @@
+{
+ "id": "QAT_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  12,
+  18,
+  22,
+  29,
+  31,
+  35,
+  37,
+  39,
+  44,
+  49,
+  52,
+  57,
+  61,
+  68,
+  70,
+  76,
+  83
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "outset.",
+   "outset,",
+   "ocr"
+  ],
+  [
+   4,
+   "Secretary-General.",
+   "Secretary-General,",
+   "ocr"
+  ],
+  [
+   17,
+   "era. there",
+   "era, there",
+   "ocr"
+  ],
+  [
+   25,
+   "context.",
+   "context,",
+   "ocr"
+  ],
+  [
+   32,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   38,
+   "(2015). in",
+   "(2015), in",
+   "ocr"
+  ],
+  [
+   40,
+   "capital.",
+   "capital,",
+   "ocr"
+  ],
+  [
+   54,
+   "war. a",
+   "war, a",
+   "ocr"
+  ],
+  [
+   56,
+   "law. respect",
+   "law, respect",
+   "ocr"
+  ],
+  [
+   63,
+   "is. at",
+   "is, at",
+   "ocr"
+  ],
+  [
+   64,
+   "us. as",
+   "us, as",
+   "ocr"
+  ],
+  [
+   68,
+   "aid. exerting",
+   "aid, exerting",
+   "ocr"
+  ],
+  [
+   70,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   77,
+   "occasion.",
+   "occasion,",
+   "ocr"
+  ],
+  [
+   80,
+   "(The Holy Qur’an, VII: 199)",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "time.",
+   "time,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a76a20c39a99aae4757d8ef6daf86be09481e2b5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2533,
+  "words_out": 2526,
+  "retention": 0.9972,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   75,
+   82,
+   82,
+   162,
+   72,
+   163,
+   81,
+   162,
+   79,
+   71,
+   120,
+   164,
+   162,
+   160,
+   120,
+   207,
+   68,
+   215,
+   130,
+   151
+  ],
+  "warnings": []
+ }
+}

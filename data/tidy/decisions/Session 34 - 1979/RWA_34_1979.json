@@ -1,0 +1,167 @@
+{
+ "id": "RWA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  14,
+  18,
+  20,
+  22,
+  26,
+  28,
+  32,
+  34,
+  37,
+  42,
+  44,
+  48,
+  51,
+  53,
+  56,
+  58,
+  62,
+  65,
+  68,
+  70,
+  74,
+  77,
+  80,
+  83,
+  86,
+  89,
+  93,
+  96,
+  100,
+  102,
+  104,
+  106
+ ],
+ "cer": [
+  0,
+  3,
+  5,
+  10
+ ],
+ "fix": [
+  [
+   3,
+   "Major- General",
+   "Major-General",
+   "spacing"
+  ],
+  [
+   17,
+   "in-creased",
+   "increased",
+   "hyphen"
+  ],
+  [
+   29,
+   "form of Independence",
+   "form of independence",
+   "ocr"
+  ],
+  [
+   34,
+   "that-it is",
+   "that it is",
+   "ocr"
+  ],
+  [
+   41,
+   "self- determination, Thus,",
+   "self-determination. Thus,",
+   "ocr"
+  ],
+  [
+   65,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   68,
+   "1963,\" is",
+   "1963, is",
+   "ocr"
+  ],
+  [
+   91,
+   "country , and",
+   "country, and",
+   "spacing"
+  ],
+  [
+   97,
+   "well- thought-out",
+   "well-thought-out",
+   "spacing"
+  ],
+  [
+   108,
+   "un-equalled",
+   "unequalled",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 25 breaks off at 'the neighbouring' before a new paragraph on Namibia, so the end of that sentence appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "6e53b8f09a943c02e692e462d18515666429f6d3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 72
+  },
+  "words_in": 4283,
+  "words_out": 4277,
+  "retention": 0.9986,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   141,
+   110,
+   155,
+   106,
+   162,
+   87,
+   103,
+   187,
+   67,
+   135,
+   88,
+   148,
+   188,
+   109,
+   125,
+   103,
+   105,
+   129,
+   90,
+   121,
+   132,
+   116,
+   83,
+   172,
+   142,
+   102,
+   82,
+   89,
+   125,
+   165,
+   96,
+   107,
+   81,
+   58,
+   85,
+   183
+  ],
+  "warnings": []
+ }
+}

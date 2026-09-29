@@ -1,0 +1,86 @@
+{
+ "id": "WSM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  18,
+  22,
+  26,
+  29,
+  33,
+  39,
+  42,
+  44,
+  49,
+  52,
+  55,
+  58,
+  66,
+  70,
+  74,
+  79,
+  86,
+  88
+ ],
+ "cer": [
+  88
+ ],
+ "fix": [
+  [
+   19,
+   "low- lying",
+   "low-lying",
+   "hyphen"
+  ],
+  [
+   47,
+   "Indo- Pacific",
+   "Indo-Pacific",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c40f90c27fbd1a2bc6ad05f234771aea73abcdd5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2334,
+  "words_out": 2332,
+  "retention": 0.9991,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   73,
+   93,
+   146,
+   116,
+   97,
+   108,
+   65,
+   116,
+   118,
+   74,
+   69,
+   125,
+   83,
+   109,
+   119,
+   153,
+   136,
+   135,
+   123,
+   160,
+   81,
+   33
+  ],
+  "warnings": []
+ }
+}

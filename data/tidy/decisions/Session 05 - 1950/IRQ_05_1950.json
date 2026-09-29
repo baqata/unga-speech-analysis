@@ -1,0 +1,100 @@
+{
+ "id": "IRQ_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  18,
+  23,
+  28,
+  36,
+  44,
+  50,
+  57,
+  61,
+  68,
+  70,
+  74,
+  81,
+  87,
+  100,
+  104
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "well- wishers",
+   "well-wishers",
+   "hyphen"
+  ],
+  [
+   52,
+   "about- the",
+   "about the",
+   "ocr"
+  ],
+  [
+   58,
+   " [181 (II)]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [194 (III)]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [303 (IV)]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "struggle, While",
+   "struggle. While",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "759d6fcc51a5e70452931682f4bcb249726e105b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2603,
+  "words_out": 2596,
+  "retention": 0.9973,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   92,
+   146,
+   194,
+   110,
+   109,
+   216,
+   184,
+   107,
+   194,
+   106,
+   170,
+   64,
+   82,
+   245,
+   119,
+   187,
+   88,
+   183
+  ],
+  "warnings": []
+ }
+}

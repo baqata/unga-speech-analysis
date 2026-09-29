@@ -1,0 +1,222 @@
+{
+ "id": "GTM_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  208,
+  280,
+  292,
+  380,
+  388,
+  399,
+  491
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "human act",
+   "human and",
+   "ocr"
+  ],
+  [
+   6,
+   "Mease",
+   "Please",
+   "ocr"
+  ],
+  [
+   7,
+   "whole hearted",
+   "whole-hearted",
+   "spacing"
+  ],
+  [
+   11,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   60,
+   "it Motions",
+   "it functions",
+   "ocr"
+  ],
+  [
+   65,
+   "development oriented",
+   "development-oriented",
+   "spacing"
+  ],
+  [
+   105,
+   "provide I by",
+   "provided by",
+   "ocr"
+  ],
+  [
+   181,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   198,
+   "a id",
+   "and",
+   "ocr"
+  ],
+  [
+   243,
+   "50 many",
+   "so many",
+   "ocr"
+  ],
+  [
+   244,
+   "inter American",
+   "inter-American",
+   "spacing"
+  ],
+  [
+   245,
+   "outlined.in",
+   "outlined in",
+   "ocr"
+  ],
+  [
+   254,
+   "QAS",
+   "OAS",
+   "ocr"
+  ],
+  [
+   277,
+   "Inter American",
+   "Inter-American",
+   "spacing"
+  ],
+  [
+   281,
+   "Inter American",
+   "Inter-American",
+   "spacing"
+  ],
+  [
+   284,
+   "in depth",
+   "in-depth",
+   "spacing"
+  ],
+  [
+   292,
+   "Inter American",
+   "Inter-American",
+   "spacing"
+  ],
+  [
+   301,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   311,
+   "sincere mention",
+   "sincere intention",
+   "ocr"
+  ],
+  [
+   322,
+   "Inter American",
+   "Inter-American",
+   "spacing"
+  ],
+  [
+   343,
+   "extra continental",
+   "extra-continental",
+   "spacing"
+  ],
+  [
+   361,
+   "inter Korean",
+   "inter-Korean",
+   "spacing"
+  ],
+  [
+   393,
+   "can: be",
+   "can be",
+   "ocr"
+  ],
+  [
+   418,
+   "on, solid",
+   "on solid",
+   "ocr"
+  ],
+  [
+   426,
+   "out,,",
+   "out,",
+   "ocr"
+  ],
+  [
+   460,
+   "170. ",
+   "",
+   "label"
+  ],
+  [
+   468,
+   "17l. ",
+   "",
+   "label"
+  ],
+  [
+   472,
+   "age old",
+   "age-old",
+   "spacing"
+  ],
+  [
+   490,
+   "available ,resources",
+   "available resources",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with almost no line-initial sentence starts; greetings turn to substance mid-line at unit 15 and paragraphs at 0 (about 2,190 words), 208, 292 and 399 stay very long.",
+ "unitizer_version": 1,
+ "sha1": "92113fbd1a7d0fbf0faca5ad58c00696541ec779",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 520,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5485,
+  "words_out": 5468,
+  "retention": 0.9969,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   2187,
+   754,
+   122,
+   947,
+   88,
+   119,
+   939,
+   312
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 2187 words",
+   "paragraph at unit 208 has 754 words",
+   "paragraph at unit 292 has 947 words",
+   "paragraph at unit 399 has 939 words",
+   "29 fixes"
+  ]
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "VEN_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  16,
+  20,
+  23,
+  28,
+  30,
+  34,
+  37,
+  42,
+  48,
+  53,
+  61,
+  64,
+  68
+ ],
+ "cer": [
+  68
+ ],
+ "fix": [
+  [
+   16,
+   " [A/3630 and Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "practical and’ effective",
+   "practical and effective",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41173059ea31d235c2560bd355a56d9af9fd8e8a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 26
+  },
+  "words_in": 2333,
+  "words_out": 2330,
+  "retention": 0.9987,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   151,
+   119,
+   93,
+   130,
+   169,
+   123,
+   162,
+   114,
+   173,
+   143,
+   197,
+   114,
+   114,
+   165,
+   133,
+   151,
+   79
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "id": "MMR_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  14,
+  20,
+  25,
+  33,
+  38,
+  44,
+  52,
+  60,
+  61,
+  67,
+  72,
+  75,
+  80,
+  82,
+  87,
+  89,
+  93,
+  99
+ ],
+ "cer": [
+  0,
+  99
+ ],
+ "fix": [
+  [
+   60,
+   "ever- increasing",
+   "ever-increasing",
+   "spacing"
+  ],
+  [
+   68,
+   "\\91S",
+   "1978",
+   "ocr"
+  ],
+  [
+   68,
+   " [see A/31/197, annex I, para. 139]",
+   "",
+   "label"
+  ],
+  [
+   70,
+   "of ' the",
+   "of the",
+   "ocr"
+  ],
+  [
+   75,
+   "economic, zone",
+   "economic zone",
+   "ocr"
+  ],
+  [
+   90,
+   "however; make",
+   "however, make",
+   "ocr"
+  ],
+  [
+   99,
+   "Burma ?n reviewing",
+   "Burma in reviewing",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 86 begins with the fragment 'peoples.'; the sentence it completes was misplaced into the Panama statement (PAN_31_1976 units 2-3), so text is missing here.",
+ "unitizer_version": 1,
+ "sha1": "71ce04e6e1eb6727d7c2c57124ff2201af29988c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2605,
+  "words_out": 2595,
+  "retention": 0.9962,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   98,
+   208,
+   66,
+   160,
+   84,
+   213,
+   155,
+   159,
+   191,
+   143,
+   67,
+   137,
+   137,
+   82,
+   174,
+   66,
+   109,
+   72,
+   130,
+   128,
+   16
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "id": "BLR_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  14,
+  22,
+  25,
+  30,
+  35,
+  39,
+  45,
+  50,
+  55,
+  57,
+  60,
+  65,
+  68,
+  74,
+  80,
+  90,
+  96,
+  99,
+  106,
+  110,
+  118,
+  127,
+  135,
+  140,
+  146,
+  154,
+  161,
+  167
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "removal.",
+   "removal",
+   "ocr"
+  ],
+  [
+   2,
+   "responsibility;",
+   "responsibility",
+   "ocr"
+  ],
+  [
+   28,
+   "is.",
+   "is",
+   "ocr"
+  ],
+  [
+   45,
+   "A.",
+   "A",
+   "ocr"
+  ],
+  [
+   58,
+   ".by",
+   "by",
+   "ocr"
+  ],
+  [
+   60,
+   "[DC/32]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "USSR,",
+   "USSR",
+   "ocr"
+  ],
+  [
+   68,
+   "®",
+   "a",
+   "ocr"
+  ],
+  [
+   80,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   96,
+   "[A/2485/Rev.",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "I]",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "responsibility^",
+   "responsibility",
+   "ocr"
+  ],
+  [
+   109,
+   "which'",
+   "which",
+   "ocr"
+  ],
+  [
+   147,
+   "[A/2485/Rev.",
+   "",
+   "label"
+  ],
+  [
+   148,
+   "1]",
+   "",
+   "label"
+  ],
+  [
+   151,
+   "co- operation",
+   "co-operation",
+   "hyphen"
+  ],
+  [
+   161,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 49 ends with words that appear misplaced in the printed record; left as printed.",
+ "unitizer_version": 1,
+ "sha1": "061fb1fd380a6e4af40a8a8b516cc766375e9afb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 42
+  },
+  "words_in": 5502,
+  "words_out": 5485,
+  "retention": 0.9969,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   112,
+   242,
+   155,
+   222,
+   172,
+   149,
+   186,
+   125,
+   205,
+   201,
+   155,
+   97,
+   104,
+   116,
+   170,
+   155,
+   174,
+   273,
+   179,
+   156,
+   232,
+   131,
+   232,
+   280,
+   260,
+   189,
+   142,
+   241,
+   205,
+   149,
+   76
+  ],
+  "warnings": []
+ }
+}

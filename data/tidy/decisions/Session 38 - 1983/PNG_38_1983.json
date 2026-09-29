@@ -1,0 +1,118 @@
+{
+ "id": "PNG_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  18,
+  25,
+  34,
+  38,
+  47,
+  52,
+  58,
+  63,
+  70,
+  76,
+  80,
+  84,
+  90,
+  94,
+  101,
+  110,
+  117,
+  121,
+  126,
+  133,
+  138,
+  143
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "great- Power",
+   "great-Power",
+   "hyphen"
+  ],
+  [
+   29,
+   "[/1SE4N]",
+   "",
+   "label"
+  ],
+  [
+   85,
+   "As Unsaid then",
+   "As I said then",
+   "ocr"
+  ],
+  [
+   99,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   101,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   123,
+   "a/threat",
+   "a threat",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "An italic word (apartheid) is lost between units 50 and 51.",
+ "unitizer_version": 1,
+ "sha1": "67b88a4703181477e704d84a017196e77e7865fc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 2833,
+  "words_out": 2825,
+  "retention": 0.9972,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   89,
+   111,
+   151,
+   118,
+   142,
+   67,
+   204,
+   111,
+   105,
+   111,
+   150,
+   111,
+   89,
+   61,
+   142,
+   91,
+   107,
+   142,
+   129,
+   115,
+   70,
+   88,
+   123,
+   97,
+   101
+  ],
+  "warnings": []
+ }
+}

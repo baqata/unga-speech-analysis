@@ -1,0 +1,47 @@
+{
+ "id": "CPV_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  34,
+  45,
+  57,
+  77,
+  93,
+  115
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "36b1a00ba03dbde1afe4fc55c3af99ea86fbbb0e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 133,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1007,
+  "words_out": 1006,
+  "retention": 0.999,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   47,
+   107,
+   95,
+   83,
+   78,
+   152,
+   129,
+   171,
+   144
+  ],
+  "warnings": []
+ }
+}

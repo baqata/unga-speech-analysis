@@ -1,0 +1,60 @@
+{
+ "id": "CPV_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  12,
+  14,
+  19,
+  22,
+  29,
+  34,
+  36,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e7075cb04ac495376a4cafd2ef3c8342181d80bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1363,
+  "words_out": 1356,
+  "retention": 0.9949,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   113,
+   125,
+   71,
+   164,
+   52,
+   170,
+   85,
+   164,
+   133,
+   72,
+   136,
+   71
+  ],
+  "warnings": []
+ }
+}

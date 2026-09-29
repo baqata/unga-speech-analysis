@@ -1,0 +1,45 @@
+{
+ "id": "JOR_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  25,
+  35,
+  49,
+  59,
+  70,
+  84,
+  98
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5ab1cce659db06730d003b6b53252d15d5f6c339",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 833,
+  "words_out": 832,
+  "retention": 0.9988,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   114,
+   91,
+   80,
+   99,
+   76,
+   88,
+   126,
+   109,
+   49
+  ],
+  "warnings": []
+ }
+}

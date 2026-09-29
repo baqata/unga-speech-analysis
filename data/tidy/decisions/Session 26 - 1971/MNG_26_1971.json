@@ -1,0 +1,228 @@
+{
+ "id": "MNG_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  6,
+  9,
+  13,
+  15,
+  19,
+  22,
+  25,
+  29,
+  31,
+  35,
+  37,
+  41,
+  45,
+  49,
+  52,
+  55,
+  58,
+  60,
+  65,
+  67,
+  69,
+  72,
+  76,
+  79,
+  83,
+  87,
+  90,
+  93,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "th<5",
+   "the",
+   "ocr"
+  ],
+  [
+   17,
+   "'.he",
+   "the",
+   "ocr"
+  ],
+  [
+   28,
+   "peaco-Ioving",
+   "peace-loving",
+   "ocr"
+  ],
+  [
+   32,
+   "favor of. resolution",
+   "favor of resolution",
+   "ocr"
+  ],
+  [
+   35,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   45,
+   "59, ",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "60, ",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "61, ",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "62, ",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "Middle East,",
+   "Middle East.",
+   "ocr"
+  ],
+  [
+   52,
+   "63, ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "64, ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "65, ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "States, These",
+   "States. These",
+   "ocr"
+  ],
+  [
+   62,
+   "independence,",
+   "independence.",
+   "ocr"
+  ],
+  [
+   64,
+   " [resolution 15 ^ (XV)]",
+   "",
+   "label"
+  ],
+  [
+   70,
+   "jSoviet",
+   "Soviet",
+   "ocr"
+  ],
+  [
+   76,
+   " [A/L,631]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   " [A/8457- DC/234, annex A]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "develops countries",
+   "developing countries",
+   "ocr"
+  ],
+  [
+   89,
+   "security .",
+   "security.",
+   "ocr"
+  ],
+  [
+   97,
+   "world.,",
+   "world,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "932174d2b04f1617992c613f1786830e6ee7e48e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3436,
+  "words_out": 3411,
+  "retention": 0.9927,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   84,
+   69,
+   117,
+   65,
+   193,
+   71,
+   128,
+   76,
+   90,
+   184,
+   66,
+   163,
+   90,
+   141,
+   134,
+   105,
+   107,
+   77,
+   128,
+   92,
+   139,
+   78,
+   71,
+   79,
+   111,
+   63,
+   122,
+   139,
+   68,
+   96,
+   179,
+   86
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

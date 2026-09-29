@@ -1,0 +1,83 @@
+{
+ "id": "MUS_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   88,
+   89,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  12,
+  21,
+  26,
+  34,
+  41,
+  46,
+  58,
+  65,
+  69,
+  75,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   35,
+   "ATF session",
+   "80th session",
+   "asr_term"
+  ],
+  [
+   44,
+   "SIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   64,
+   "abduction",
+   "adoption",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 60 and 81 name the United Nations and the Seychelles where the United Kingdom and the Chagos Archipelago are meant; left as transcribed.",
+ "unitizer_version": 1,
+ "sha1": "3af7cf08a4b37ee7d251aabe24a4e279dd67a21b",
+ "layout": "single",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1709,
+  "words_out": 1672,
+  "retention": 0.9783,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   220,
+   107,
+   157,
+   87,
+   154,
+   141,
+   66,
+   177,
+   171,
+   97,
+   95,
+   129,
+   71
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "id": "KHM_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  10,
+  16,
+  23,
+  27,
+  32,
+  36,
+  41,
+  48,
+  54,
+  59,
+  68,
+  71,
+  77,
+  80,
+  83,
+  87,
+  90,
+  101,
+  109,
+  112,
+  114,
+  116,
+  117,
+  120,
+  123,
+  126
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   23,
+   "dams,* factories",
+   "dams, factories",
+   "ocr"
+  ],
+  [
+   24,
+   ", enemy",
+   "enemy",
+   "ocr"
+  ],
+  [
+   54,
+   "of die Khmer",
+   "of the Khmer",
+   "ocr"
+  ],
+  [
+   100,
+   "East is",
+   "Each is",
+   "ocr"
+  ],
+  [
+   114,
+   "delay: To",
+   "delay. To",
+   "ocr"
+  ],
+  [
+   117,
+   "Paris12 of",
+   "Paris of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44c55556a72b6cf75fae4498be020f4492057496",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 60
+  },
+  "words_in": 3715,
+  "words_out": 3714,
+  "retention": 0.9997,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   122,
+   131,
+   72,
+   193,
+   177,
+   119,
+   125,
+   96,
+   157,
+   138,
+   117,
+   161,
+   186,
+   75,
+   169,
+   105,
+   149,
+   127,
+   99,
+   252,
+   231,
+   105,
+   72,
+   61,
+   137,
+   114,
+   106,
+   60,
+   58
+  ],
+  "warnings": []
+ }
+}

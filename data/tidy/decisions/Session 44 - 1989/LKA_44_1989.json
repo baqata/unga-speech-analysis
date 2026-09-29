@@ -1,0 +1,150 @@
+{
+ "id": "LKA_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  5,
+  9,
+  14,
+  24,
+  28,
+  31,
+  35,
+  38,
+  42,
+  49,
+  53,
+  61,
+  65,
+  71,
+  82,
+  90,
+  101,
+  109,
+  113,
+  119,
+  123,
+  126,
+  128,
+  134,
+  139,
+  143,
+  150
+ ],
+ "cer": [
+  0,
+  1,
+  4
+ ],
+ "fix": [
+  [
+   41,
+   "198? became",
+   "1987 became",
+   "ocr"
+  ],
+  [
+   54,
+   "is new over 31,320 billion",
+   "is now over $1,320 billion",
+   "ocr"
+  ],
+  [
+   57,
+   "capital- importing",
+   "capital-importing",
+   "spacing"
+  ],
+  [
+   64,
+   "devaluation? liberalization",
+   "devaluation; liberalization",
+   "ocr"
+  ],
+  [
+   64,
+   "regulations? budget",
+   "regulations; budget",
+   "ocr"
+  ],
+  [
+   64,
+   "poor? rationalization",
+   "poor; rationalization",
+   "ocr"
+  ],
+  [
+   65,
+   "institution::.",
+   "institutions.",
+   "ocr"
+  ],
+  [
+   67,
+   "Nan-compliance",
+   "Non-compliance",
+   "ocr"
+  ],
+  [
+   89,
+   "Tamil Belam",
+   "Tamil Eelam",
+   "ocr"
+  ],
+  [
+   129,
+   "Inter mediate-Range",
+   "Intermediate-Range",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "906635c6c7708d5235f84d645f18ea2fc9774dba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3511,
+  "words_out": 3509,
+  "retention": 0.9994,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   36,
+   104,
+   42,
+   100,
+   108,
+   140,
+   94,
+   76,
+   121,
+   87,
+   106,
+   109,
+   103,
+   157,
+   124,
+   125,
+   253,
+   180,
+   173,
+   187,
+   99,
+   110,
+   105,
+   64,
+   77,
+   166,
+   116,
+   132,
+   126,
+   89
+  ],
+  "warnings": []
+ }
+}

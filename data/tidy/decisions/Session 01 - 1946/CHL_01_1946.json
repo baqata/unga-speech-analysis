@@ -1,0 +1,52 @@
+{
+ "id": "CHL_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  22,
+  25,
+  31,
+  36,
+  39,
+  44
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "this,",
+   "this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "df61d82597c9038b88d2b50c6057ccfa4fac0be8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1376,
+  "words_out": 1376,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   193,
+   113,
+   121,
+   220,
+   115,
+   190,
+   134,
+   93,
+   113,
+   84
+  ],
+  "warnings": []
+ }
+}

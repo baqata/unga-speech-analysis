@@ -1,0 +1,104 @@
+{
+ "id": "DJI_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   97,
+   97,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  9,
+  13,
+  22,
+  30,
+  35,
+  39,
+  44,
+  51,
+  62,
+  71,
+  81,
+  88,
+  91,
+  96
+ ],
+ "cer": [
+  1,
+  96
+ ],
+ "fix": [
+  [
+   18,
+   "Ismail Omar Gele",
+   "Ismail Omar Guelleh",
+   "asr_name"
+  ],
+  [
+   22,
+   "severe commitment",
+   "Sevilla Commitment",
+   "asr_term"
+  ],
+  [
+   55,
+   "AAUSOM",
+   "AUSSOM",
+   "asr_name"
+  ],
+  [
+   57,
+   "ATMOS",
+   "ATMIS",
+   "asr_name"
+  ],
+  [
+   87,
+   "President Gele",
+   "President Guelleh",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "115ff7a9d94bf65a9a8e2dd27c5feb0690c6f665",
+ "layout": "single",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2289,
+  "words_out": 2265,
+  "retention": 0.9895,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   157,
+   88,
+   166,
+   238,
+   140,
+   80,
+   98,
+   66,
+   183,
+   214,
+   199,
+   209,
+   123,
+   136,
+   165,
+   3
+  ],
+  "warnings": []
+ }
+}

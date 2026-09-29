@@ -1,0 +1,80 @@
+{
+ "id": "LKA_48_1993",
+ "drop": [
+  [
+   23,
+   23,
+   "header_footer"
+  ],
+  [
+   112,
+   112,
+   "header_footer"
+  ],
+  [
+   207,
+   207,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  24,
+  48,
+  62,
+  82,
+  104,
+  115,
+  132,
+  147,
+  156,
+  164,
+  189,
+  203,
+  215,
+  233,
+  241
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0c440548025e2ba8eb8716f637c8c56803b72f2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2161,
+  "words_out": 2141,
+  "retention": 0.9907,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   110,
+   72,
+   189,
+   128,
+   154,
+   179,
+   86,
+   146,
+   123,
+   80,
+   71,
+   213,
+   128,
+   89,
+   160,
+   69,
+   144
+  ],
+  "warnings": []
+ }
+}

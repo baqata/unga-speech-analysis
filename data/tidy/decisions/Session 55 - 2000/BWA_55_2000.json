@@ -1,0 +1,57 @@
+{
+ "id": "BWA_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  36,
+  51,
+  69,
+  83,
+  114,
+  127,
+  140,
+  161,
+  180,
+  201,
+  211,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c290f5408c92bf34ddb4de6b60ad8eaee9709d0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1898,
+  "words_out": 1893,
+  "retention": 0.9974,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   139,
+   132,
+   121,
+   145,
+   115,
+   263,
+   101,
+   110,
+   163,
+   136,
+   170,
+   78,
+   168,
+   52
+  ],
+  "warnings": []
+ }
+}

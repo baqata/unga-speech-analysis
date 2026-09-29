@@ -1,0 +1,63 @@
+{
+ "id": "PER_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  14,
+  19,
+  22,
+  24,
+  31,
+  32,
+  34
+ ],
+ "cer": [
+  0,
+  34
+ ],
+ "fix": [
+  [
+   23,
+   "consitute",
+   "constitute",
+   "ocr"
+  ],
+  [
+   23,
+   "irrevovable",
+   "irrevocable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9983635bbc63baecfd21184c61442378f8dbf2fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 35,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 975,
+  "words_out": 975,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   40,
+   124,
+   147,
+   86,
+   105,
+   74,
+   63,
+   180,
+   63,
+   72,
+   21
+  ],
+  "warnings": []
+ }
+}

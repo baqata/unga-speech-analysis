@@ -1,0 +1,87 @@
+{
+ "id": "AUS_76_2021",
+ "drop": [
+  [
+   10,
+   10,
+   "heading"
+  ],
+  [
+   41,
+   41,
+   "heading"
+  ],
+  [
+   78,
+   78,
+   "heading"
+  ],
+  [
+   112,
+   112,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  23,
+  35,
+  42,
+  55,
+  67,
+  72,
+  79,
+  91,
+  100,
+  113,
+  120,
+  127
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   66,
+   "Indo- Pacific",
+   "Indo-Pacific",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Section headings of the written statement dropped.",
+ "unitizer_version": 1,
+ "sha1": "52057242ec3c03e04adb0ccf22646e356c07d092",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {
+   "heading": 4
+  },
+  "prestrip": {},
+  "words_in": 2143,
+  "words_out": 2112,
+  "retention": 0.9855,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   65,
+   82,
+   166,
+   228,
+   127,
+   150,
+   172,
+   115,
+   95,
+   205,
+   172,
+   230,
+   125,
+   128,
+   52
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "id": "TUN_20_1965",
+ "drop": [
+  [
+   60,
+   60,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  20,
+  23,
+  28,
+  32,
+  37,
+  43,
+  50,
+  57,
+  61,
+  65,
+  71,
+  75,
+  83,
+  90,
+  97,
+  98,
+  103,
+  106,
+  107,
+  113,
+  115,
+  120,
+  125,
+  129,
+  134,
+  137,
+  146,
+  152,
+  158,
+  165,
+  168,
+  173,
+  178,
+  184,
+  188,
+  195,
+  202,
+  207,
+  212,
+  219,
+  224,
+  232
+ ],
+ "cer": [
+  0,
+  5,
+  9,
+  97,
+  106
+ ],
+ "fix": [
+  [
+   1,
+   "every since your",
+   "ever since your",
+   "ocr"
+  ],
+  [
+   86,
+   "the paths Of peace",
+   "the paths of peace",
+   "ocr"
+  ],
+  [
+   101,
+   "important to. seek",
+   "important to seek",
+   "ocr"
+  ],
+  [
+   114,
+   "every-increasing",
+   "ever-increasing",
+   "ocr"
+  ],
+  [
+   179,
+   "is it pot paradoxical",
+   "is it not paradoxical",
+   "ocr"
+  ],
+  [
+   225,
+   "not every systematic",
+   "not very systematic",
+   "ocr"
+  ],
+  [
+   117,
+   " [resolution 1514 (XV)]",
+   "",
+   "label"
+  ],
+  [
+   231,
+   " [see A/5755]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 60 is the paragraph number 19 misread as 'I9.', which the tool does not strip; dropped.",
+ "unitizer_version": 1,
+ "sha1": "eb83ca5e3252e380cdd58aa1f27ece0c348b2701",
+ "layout": "lines",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 6279,
+  "words_out": 6201,
+  "retention": 0.9876,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   150,
+   127,
+   94,
+   187,
+   98,
+   169,
+   108,
+   107,
+   178,
+   159,
+   182,
+   86,
+   114,
+   143,
+   130,
+   164,
+   120,
+   161,
+   30,
+   182,
+   115,
+   34,
+   144,
+   81,
+   151,
+   101,
+   112,
+   163,
+   57,
+   198,
+   116,
+   151,
+   162,
+   83,
+   128,
+   131,
+   168,
+   94,
+   182,
+   207,
+   118,
+   141,
+   168,
+   150,
+   251,
+   106
+  ],
+  "warnings": []
+ }
+}

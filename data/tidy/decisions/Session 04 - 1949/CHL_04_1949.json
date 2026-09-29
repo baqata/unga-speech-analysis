@@ -1,0 +1,126 @@
+{
+ "id": "CHL_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  13,
+  20,
+  26,
+  30,
+  36,
+  40,
+  44,
+  49,
+  53,
+  57,
+  60
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   " (222nd meeting)",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "determined .to",
+   "determined to",
+   "ocr"
+  ],
+  [
+   19,
+   " (223rd meeting)",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "a. new",
+   "a new",
+   "ocr"
+  ],
+  [
+   24,
+   " (226th meeting)",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "standard, of",
+   "standard of",
+   "ocr"
+  ],
+  [
+   32,
+   "situation,",
+   "situation.",
+   "ocr"
+  ],
+  [
+   37,
+   "bad made",
+   "had made",
+   "ocr"
+  ],
+  [
+   49,
+   " (222nd meeting)",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " (222nd meeting)",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "of, Bolivia",
+   "of Bolivia",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "1a8c3c66a8b5deffcea26ceb318c78ad355c8d18",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2113,
+  "words_out": 2103,
+  "retention": 0.9953,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   109,
+   87,
+   136,
+   145,
+   178,
+   207,
+   165,
+   198,
+   147,
+   116,
+   169,
+   89,
+   85,
+   120,
+   152
+  ],
+  "warnings": []
+ }
+}

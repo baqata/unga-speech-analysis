@@ -1,0 +1,75 @@
+{
+ "id": "HUN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  12,
+  15,
+  21,
+  25,
+  31,
+  34,
+  37,
+  45,
+  55,
+  61,
+  65,
+  71,
+  73,
+  78,
+  86,
+  90
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "another —and",
+   "another — and",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52db9e9ec285fffd9709af482619fb6e07a73d2c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 6
+  },
+  "words_in": 2053,
+  "words_out": 2054,
+  "retention": 1.0005,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   16,
+   169,
+   136,
+   104,
+   112,
+   138,
+   103,
+   74,
+   99,
+   184,
+   117,
+   98,
+   70,
+   127,
+   84,
+   107,
+   178,
+   79,
+   59
+  ],
+  "warnings": []
+ }
+}

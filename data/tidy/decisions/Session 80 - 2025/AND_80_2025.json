@@ -1,0 +1,80 @@
+{
+ "id": "AND_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  11,
+  16,
+  21,
+  29,
+  33,
+  41,
+  45,
+  53,
+  59,
+  64,
+  71,
+  75,
+  79,
+  84,
+  89,
+  94,
+  98,
+  103,
+  107,
+  114
+ ],
+ "cer": [
+  11,
+  114
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d2f4623c9cd1d5dcf384df76d05a6eecb7b46c0",
+ "layout": "single",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2752,
+  "words_out": 2715,
+  "retention": 0.9866,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   153,
+   78,
+   95,
+   87,
+   200,
+   80,
+   187,
+   88,
+   136,
+   106,
+   158,
+   177,
+   128,
+   136,
+   142,
+   171,
+   164,
+   61,
+   128,
+   127,
+   109,
+   4
+  ],
+  "warnings": []
+ }
+}

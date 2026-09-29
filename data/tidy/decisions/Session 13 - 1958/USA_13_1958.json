@@ -1,0 +1,151 @@
+{
+ "id": "USA_13_1958",
+ "drop": [
+  [
+   0,
+   0,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  11,
+  20,
+  26,
+  32,
+  41,
+  45,
+  49,
+  59,
+  67,
+  74,
+  77,
+  82,
+  89,
+  101,
+  104,
+  108,
+  114,
+  117,
+  120,
+  125,
+  131,
+  135,
+  143,
+  146
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   25,
+   "do hot ignore",
+   "do not ignore",
+   "ocr"
+  ],
+  [
+   40,
+   "Eastern Europe,",
+   "Eastern Europe.",
+   "ocr"
+  ],
+  [
+   48,
+   "carried cut",
+   "carried out",
+   "ocr"
+  ],
+  [
+   52,
+   "broad-, casts",
+   "broadcasts",
+   "hyphen"
+  ],
+  [
+   53,
+   "these.",
+   "these",
+   "ocr"
+  ],
+  [
+   54,
+   " [General Assembly resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "addressed Us",
+   "addressed us",
+   "ocr"
+  ],
+  [
+   59,
+   " [733rd meeting, para. 281.",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "done,",
+   "done.",
+   "ocr"
+  ],
+  [
+   88,
+   "course's of",
+   "course of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 ('16.') is a stray paragraph number, dropped as header_footer. The source prints many one- or two-sentence paragraphs; consecutive ones on the same subject are joined. The list of eight steps (units 89-100) is kept with its lead-in.",
+ "unitizer_version": 1,
+ "sha1": "fa1a943fe533ab3ebd17111460e8de395738f603",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 71
+  },
+  "words_in": 3609,
+  "words_out": 3598,
+  "retention": 0.997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   107,
+   82,
+   163,
+   142,
+   170,
+   168,
+   139,
+   119,
+   190,
+   223,
+   123,
+   85,
+   121,
+   172,
+   311,
+   76,
+   103,
+   117,
+   96,
+   124,
+   122,
+   157,
+   93,
+   145,
+   101,
+   149
+  ],
+  "warnings": []
+ }
+}

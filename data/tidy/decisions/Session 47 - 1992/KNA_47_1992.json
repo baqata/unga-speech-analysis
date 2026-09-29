@@ -1,0 +1,72 @@
+{
+ "id": "KNA_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  36,
+  49,
+  65,
+  83,
+  92,
+  105,
+  116,
+  134,
+  156,
+  173,
+  186,
+  206,
+  229,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "(A/46/PV.25. p. 6)",
+   "",
+   "label"
+  ],
+  [
+   256,
+   "task *is",
+   "task is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d0925e7fad7bf57842dfdccecac3c94c1f19aaeb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2814,
+  "words_out": 2811,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   191,
+   185,
+   141,
+   183,
+   187,
+   105,
+   154,
+   132,
+   199,
+   215,
+   181,
+   146,
+   209,
+   242,
+   95,
+   246
+  ],
+  "warnings": []
+ }
+}

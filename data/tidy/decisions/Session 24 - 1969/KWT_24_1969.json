@@ -1,0 +1,112 @@
+{
+ "id": "KWT_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  27,
+  50,
+  67,
+  88,
+  104,
+  125,
+  132,
+  150,
+  171,
+  180,
+  193,
+  203,
+  220,
+  230,
+  243,
+  256,
+  270,
+  288,
+  302,
+  318,
+  338
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   196,
+   "to;",
+   "to",
+   "ocr"
+  ],
+  [
+   246,
+   "[ibid, para. 66] ",
+   "",
+   "label"
+  ],
+  [
+   262,
+   " [ibid., para. 65] ",
+   "",
+   "label"
+  ],
+  [
+   282,
+   "acquisiton",
+   "acquisition",
+   "ocr"
+  ],
+  [
+   285,
+   " [ibid.]",
+   "",
+   "label"
+  ],
+  [
+   350,
+   "aquisition",
+   "acquisition",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b1814b61a4feee22aeefe590a74e7692003b079",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 357,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3190,
+  "words_out": 3149,
+  "retention": 0.9871,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   118,
+   130,
+   200,
+   153,
+   186,
+   141,
+   186,
+   67,
+   144,
+   170,
+   76,
+   115,
+   98,
+   163,
+   97,
+   113,
+   111,
+   124,
+   159,
+   114,
+   140,
+   168,
+   176
+  ],
+  "warnings": []
+ }
+}

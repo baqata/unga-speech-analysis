@@ -1,0 +1,86 @@
+{
+ "id": "DOM_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  20,
+  23,
+  27,
+  30,
+  32,
+  37,
+  41
+ ],
+ "cer": [
+  41
+ ],
+ "fix": [
+  [
+   41,
+   "(Translated from French) ",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "should?",
+   "should",
+   "ocr"
+  ],
+  [
+   31,
+   "Council,",
+   "Council.",
+   "ocr"
+  ],
+  [
+   34,
+   "eases",
+   "cases",
+   "ocr"
+  ],
+  [
+   36,
+   "draft,",
+   "draft.",
+   "ocr"
+  ],
+  [
+   37,
+   "Thug,",
+   "Thus,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a9b586603834c5a4e0825d2b44d7f771d9e95bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 1614,
+  "words_out": 1611,
+  "retention": 0.9981,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   232,
+   176,
+   210,
+   187,
+   161,
+   127,
+   104,
+   252,
+   88,
+   74
+  ],
+  "warnings": []
+ }
+}

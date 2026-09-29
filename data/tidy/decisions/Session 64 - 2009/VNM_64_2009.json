@@ -1,0 +1,58 @@
+{
+ "id": "VNM_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  15,
+  28,
+  44,
+  57,
+  67,
+  82,
+  100,
+  112,
+  124,
+  135,
+  152,
+  169
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b6bb36e7e2c66829b993d24e22dea848b1f1032",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1363,
+  "words_out": 1361,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   80,
+   29,
+   102,
+   127,
+   99,
+   70,
+   109,
+   139,
+   95,
+   91,
+   89,
+   122,
+   125,
+   84
+  ],
+  "warnings": []
+ }
+}

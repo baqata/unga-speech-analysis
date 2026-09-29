@@ -1,0 +1,130 @@
+{
+ "id": "ECU_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  16,
+  21,
+  25,
+  27,
+  29,
+  31,
+  34,
+  37,
+  40,
+  44,
+  51,
+  54,
+  59,
+  66,
+  68,
+  70,
+  74,
+  77,
+  81,
+  85,
+  90,
+  94,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "ray Government",
+   "my Government",
+   "ocr"
+  ],
+  [
+   14,
+   "sane",
+   "same",
+   "ocr"
+  ],
+  [
+   29,
+   "stops",
+   "steps",
+   "ocr"
+  ],
+  [
+   38,
+   "country'·",
+   "country's",
+   "ocr"
+  ],
+  [
+   38,
+   "Commission/",
+   "Commission,",
+   "ocr"
+  ],
+  [
+   40,
+   "b,,",
+   "be,",
+   "ocr"
+  ],
+  [
+   54,
+   "is halting",
+   "in halting",
+   "ocr"
+  ],
+  [
+   100,
+   "batter",
+   "better",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "123d3007d300b2aa5de71cff48072b2188a8e059",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2767,
+  "words_out": 2767,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   47,
+   136,
+   108,
+   61,
+   158,
+   85,
+   71,
+   71,
+   91,
+   105,
+   109,
+   103,
+   96,
+   162,
+   70,
+   144,
+   180,
+   67,
+   106,
+   103,
+   65,
+   114,
+   63,
+   98,
+   68,
+   153,
+   133
+  ],
+  "warnings": []
+ }
+}

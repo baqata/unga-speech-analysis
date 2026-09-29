@@ -1,0 +1,66 @@
+{
+ "id": "COM_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  16,
+  21,
+  25,
+  27,
+  32,
+  38,
+  42,
+  48,
+  51,
+  54,
+  57,
+  61
+ ],
+ "cer": [
+  0,
+  14,
+  51
+ ],
+ "fix": [
+  [
+   9,
+   "ofCOVID-19",
+   "of COVID-19",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ceefae97e55b1c82c294ddeab6ab92892a96e0f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1871,
+  "words_out": 1872,
+  "retention": 1.0005,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   150,
+   169,
+   58,
+   152,
+   163,
+   73,
+   140,
+   160,
+   133,
+   163,
+   68,
+   51,
+   106,
+   203,
+   83
+  ],
+  "warnings": []
+ }
+}

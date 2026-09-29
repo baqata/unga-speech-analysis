@@ -1,0 +1,71 @@
+{
+ "id": "CAF_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  31,
+  43,
+  62,
+  74,
+  86,
+  111,
+  144,
+  164,
+  183,
+  205,
+  217,
+  248,
+  258,
+  282,
+  298
+ ],
+ "cer": [
+  0,
+  18
+ ],
+ "fix": [
+  [
+   315,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71fb4658c74d9aba27ac15982dc9101daad5a436",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 320,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2447,
+  "words_out": 2443,
+  "retention": 0.9984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   145,
+   105,
+   82,
+   139,
+   108,
+   89,
+   187,
+   246,
+   141,
+   155,
+   166,
+   89,
+   226,
+   73,
+   194,
+   121,
+   177
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "id": "LCA_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  17,
+  20,
+  23,
+  26,
+  30,
+  35,
+  41,
+  45,
+  50,
+  57,
+  64,
+  71,
+  75,
+  79,
+  83,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   16,
+   "saH",
+   "sad",
+   "ocr"
+  ],
+  [
+   19,
+   "ever- increasing",
+   "ever-increasing",
+   "spacing"
+  ],
+  [
+   34,
+   "with reflect to",
+   "with respect to",
+   "ocr"
+  ],
+  [
+   35,
+   "great- Power",
+   "great-Power",
+   "spacing"
+  ],
+  [
+   45,
+   "108 ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "answers^ answers",
+   "answers, answers",
+   "ocr"
+  ],
+  [
+   61,
+   "helled",
+   "healed",
+   "ocr"
+  ],
+  [
+   80,
+   "countries*",
+   "countries'",
+   "ocr"
+  ],
+  [
+   83,
+   "keeper?\"\"",
+   "keeper?\"",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4bd6aaa66fbd8070ffc807f13b6af21615f6457a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2996,
+  "words_out": 2992,
+  "retention": 0.9987,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   186,
+   138,
+   191,
+   130,
+   145,
+   109,
+   136,
+   138,
+   233,
+   98,
+   218,
+   187,
+   263,
+   159,
+   134,
+   137,
+   165,
+   162,
+   63
+  ],
+  "warnings": []
+ }
+}

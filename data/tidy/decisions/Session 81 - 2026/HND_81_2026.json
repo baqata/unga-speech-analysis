@@ -1,0 +1,119 @@
+{
+ "id": "HND_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   91,
+   91,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  13,
+  19,
+  29,
+  39,
+  46,
+  55,
+  60,
+  69,
+  79,
+  87
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   51,
+   "SIARI",
+   "ICSID",
+   "interp"
+  ],
+  [
+   57,
+   "Puerto Cortez",
+   "Puerto Cortés",
+   "asr_name"
+  ],
+  [
+   81,
+   "Great Cup and ruins",
+   "great Copán ruins",
+   "asr_name"
+  ],
+  [
+   58,
+   "We We",
+   "We",
+   "asr_term"
+  ],
+  [
+   88,
+   "institutions. institutions.",
+   "institutions.",
+   "asr_term"
+  ],
+  [
+   11,
+   "context. this",
+   "context. This",
+   "asr_term"
+  ],
+  [
+   27,
+   "it. in",
+   "it in",
+   "asr_term"
+  ],
+  [
+   82,
+   "culture. and",
+   "culture. And",
+   "asr_term"
+  ],
+  [
+   90,
+   "states. our",
+   "states. Our",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; unit 51 speaker said 'la CIADI' (ICSID); Puerto Cortés and Copán per Spanish channel. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 58 'We We' -> 'We'; unit 88 'institutions. institutions.' -> 'institutions.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 11 'context. this' -> 'context. This'; unit 27 'it. in' -> 'it. In'; unit 82 'culture. and' -> 'culture. And'; unit 90 'states. our' -> 'states. Our'. Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 27 false stop removed without a mark (re-decodes 'it@266.2 in@266.5' with no pause; the speaker's one sentence 'luchando por su libertad, respetando la integridad territorial').",
+ "unitizer_version": 1,
+ "sha1": "a9775a0ff799fe6c7070fd0c6b912608cd0af76f",
+ "layout": "single",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1564,
+  "words_out": 1511,
+  "retention": 0.9661,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   35,
+   178,
+   95,
+   161,
+   114,
+   140,
+   159,
+   91,
+   112,
+   170,
+   143,
+   113
+  ],
+  "warnings": []
+ }
+}

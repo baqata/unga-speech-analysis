@@ -1,0 +1,45 @@
+{
+ "id": "BRN_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  30,
+  54,
+  69,
+  80,
+  96,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "63dbd266efa2b62029c8a0f31b0643294cebc09c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1046,
+  "words_out": 1044,
+  "retention": 0.9981,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   164,
+   88,
+   208,
+   120,
+   95,
+   144,
+   118,
+   107
+  ],
+  "warnings": []
+ }
+}

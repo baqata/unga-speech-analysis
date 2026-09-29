@@ -1,0 +1,108 @@
+{
+ "id": "NOR_48_1993",
+ "drop": [
+  [
+   82,
+   82,
+   "header_footer"
+  ],
+  [
+   177,
+   177,
+   "header_footer"
+  ],
+  [
+   267,
+   267,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  20,
+  33,
+  44,
+  61,
+  86,
+  107,
+  121,
+  133,
+  143,
+  155,
+  173,
+  187,
+  206,
+  216,
+  228,
+  245,
+  254,
+  268,
+  287,
+  298
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   166,
+   "peace--",
+   "peace-",
+   "hyphen"
+  ],
+  [
+   181,
+   "(Statement by the Secretary-",
+   "",
+   "label"
+  ],
+  [
+   182,
+   "General to the Fifth Committee, 26 August 1993).",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b3f7fc3a8d9503669d0d55fab17a9230bee70dcc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2600,
+  "words_out": 2565,
+  "retention": 0.9865,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   48,
+   107,
+   110,
+   93,
+   143,
+   210,
+   190,
+   134,
+   116,
+   72,
+   90,
+   146,
+   95,
+   154,
+   90,
+   97,
+   134,
+   88,
+   104,
+   157,
+   95,
+   92
+  ],
+  "warnings": []
+ }
+}

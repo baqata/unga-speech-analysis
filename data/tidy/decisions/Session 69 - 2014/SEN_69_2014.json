@@ -1,0 +1,54 @@
+{
+ "id": "SEN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  22,
+  34,
+  47,
+  64,
+  75,
+  89,
+  113,
+  124,
+  137,
+  152,
+  166
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5af1a0b9664fc090854387f2e2826455c434da08",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1445,
+  "words_out": 1443,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   31,
+   144,
+   92,
+   97,
+   132,
+   80,
+   107,
+   207,
+   89,
+   114,
+   107,
+   119,
+   124
+  ],
+  "warnings": []
+ }
+}

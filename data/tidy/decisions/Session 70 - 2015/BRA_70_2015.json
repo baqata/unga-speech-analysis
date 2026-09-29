@@ -1,0 +1,94 @@
+{
+ "id": "BRA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  14,
+  21,
+  25,
+  29,
+  33,
+  37,
+  39,
+  47,
+  51,
+  53,
+  57,
+  58,
+  67,
+  74,
+  78,
+  81,
+  88,
+  96,
+  100,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "conf licts",
+   "conflicts",
+   "split_word"
+  ],
+  [
+   10,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   41,
+   "low- carbon",
+   "low-carbon",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a40acfdaeff29fa62bfa415adce54d63e0465750",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2513,
+  "words_out": 2506,
+  "retention": 0.9972,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   59,
+   125,
+   120,
+   102,
+   104,
+   91,
+   102,
+   127,
+   84,
+   64,
+   137,
+   149,
+   64,
+   71,
+   40,
+   162,
+   94,
+   87,
+   62,
+   167,
+   158,
+   96,
+   165,
+   76
+  ],
+  "warnings": []
+ }
+}

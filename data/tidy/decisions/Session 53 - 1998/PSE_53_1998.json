@@ -1,0 +1,117 @@
+{
+ "id": "PSE_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  27,
+  41,
+  55,
+  73,
+  90,
+  101,
+  112,
+  127,
+  149,
+  166,
+  181,
+  195,
+  219,
+  242,
+  255,
+  271,
+  289,
+  308,
+  318,
+  333,
+  349,
+  364,
+  378,
+  404
+ ],
+ "cer": [
+  6,
+  14,
+  27,
+  308
+ ],
+ "fix": [
+  [
+   52,
+   "North13",
+   "North-",
+   "hyphen"
+  ],
+  [
+   272,
+   "cosponsor",
+   "co-sponsor",
+   "hyphen"
+  ],
+  [
+   297,
+   "FrenchEgyptian",
+   "French-Egyptian",
+   "hyphen"
+  ],
+  [
+   353,
+   "fiveyear",
+   "five-year",
+   "hyphen"
+  ],
+  [
+   353,
+   "PalestinianIsraeli",
+   "Palestinian-Israeli",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c3cb2da9d127cd2c18f963a6806da4c2f46ab9d0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 409,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 3606,
+  "words_out": 3605,
+  "retention": 0.9997,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   52,
+   66,
+   106,
+   119,
+   121,
+   157,
+   158,
+   101,
+   101,
+   125,
+   201,
+   146,
+   138,
+   121,
+   207,
+   190,
+   113,
+   145,
+   164,
+   172,
+   83,
+   127,
+   131,
+   160,
+   128,
+   230,
+   43
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "CPV_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  16,
+  21,
+  23,
+  26,
+  29,
+  31,
+  35,
+  37,
+  39,
+  41,
+  43,
+  46,
+  50,
+  55,
+  60,
+  63,
+  69
+ ],
+ "cer": [
+  4,
+  6,
+  10
+ ],
+ "fix": [
+  [
+   13,
+   "seventy- fifth",
+   "seventy-fifth",
+   "spacing"
+  ],
+  [
+   21,
+   "medium- income",
+   "medium-income",
+   "spacing"
+  ],
+  [
+   29,
+   "rules- based",
+   "rules-based",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aebde94d4f38a2ca259ee57877813f36f502fc0d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2428,
+  "words_out": 2423,
+  "retention": 0.9979,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   142,
+   75,
+   112,
+   123,
+   193,
+   150,
+   52,
+   104,
+   89,
+   71,
+   95,
+   62,
+   83,
+   121,
+   86,
+   71,
+   103,
+   109,
+   173,
+   131,
+   173,
+   105
+  ],
+  "warnings": []
+ }
+}

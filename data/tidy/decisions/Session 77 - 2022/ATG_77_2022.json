@@ -1,0 +1,90 @@
+{
+ "id": "ATG_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  17,
+  26,
+  31,
+  34,
+  40,
+  48,
+  55,
+  59,
+  67,
+  77,
+  87,
+  92,
+  97,
+  101,
+  103,
+  106,
+  109,
+  117,
+  124,
+  129
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "low- lying",
+   "low-lying",
+   "hyphen"
+  ],
+  [
+   66,
+   "loss- and-damage",
+   "loss-and-damage",
+   "hyphen"
+  ],
+  [
+   103,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b95ae643ed19c9060c080181f0a60a3c9f75ec63",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3082,
+  "words_out": 3076,
+  "retention": 0.9981,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   133,
+   192,
+   144,
+   202,
+   103,
+   121,
+   112,
+   170,
+   154,
+   116,
+   155,
+   153,
+   168,
+   107,
+   130,
+   135,
+   82,
+   112,
+   88,
+   175,
+   133,
+   131,
+   60
+  ],
+  "warnings": []
+ }
+}

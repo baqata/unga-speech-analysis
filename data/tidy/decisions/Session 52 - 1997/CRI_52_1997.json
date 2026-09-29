@@ -1,0 +1,47 @@
+{
+ "id": "CRI_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  25,
+  40,
+  57,
+  71,
+  80,
+  99,
+  113
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03189960f8c6473d25e87caeff397f9855634bf9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1087,
+  "words_out": 1086,
+  "retention": 0.9991,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   61,
+   155,
+   141,
+   153,
+   108,
+   76,
+   144,
+   121,
+   127
+  ],
+  "warnings": []
+ }
+}

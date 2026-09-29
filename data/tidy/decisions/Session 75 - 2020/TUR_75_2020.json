@@ -1,0 +1,101 @@
+{
+ "id": "TUR_75_2020",
+ "drop": [
+  [
+   72,
+   72,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  19,
+  27,
+  31,
+  41,
+  46,
+  52,
+  56,
+  60,
+  63,
+  67,
+  69,
+  76,
+  85,
+  87,
+  90,
+  95,
+  102,
+  108,
+  113,
+  120,
+  128,
+  135,
+  139
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   36,
+   "carry in gouta",
+   "carrying out a",
+   "spacing"
+  ],
+  [
+   40,
+   "ready-for- use",
+   "ready-for-use",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "945f000e3e0d262ced0d7385c4852b9799ae2937",
+ "layout": "lines",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 3074,
+  "words_out": 3072,
+  "retention": 0.9993,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   13,
+   160,
+   173,
+   134,
+   74,
+   224,
+   93,
+   166,
+   92,
+   112,
+   62,
+   107,
+   62,
+   161,
+   214,
+   67,
+   65,
+   91,
+   168,
+   153,
+   63,
+   117,
+   172,
+   127,
+   91,
+   111
+  ],
+  "warnings": []
+ }
+}

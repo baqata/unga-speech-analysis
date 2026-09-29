@@ -1,0 +1,41 @@
+{
+ "id": "BRN_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  18,
+  36,
+  47,
+  67,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c2ec72718c9d95cd21022e859bc83658167f0ad",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 802,
+  "words_out": 799,
+  "retention": 0.9963,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   44,
+   108,
+   155,
+   83,
+   166,
+   121,
+   122
+  ],
+  "warnings": []
+ }
+}

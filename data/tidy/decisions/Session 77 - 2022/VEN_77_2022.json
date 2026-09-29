@@ -1,0 +1,96 @@
+{
+ "id": "VEN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  7,
+  11,
+  16,
+  19,
+  22,
+  26,
+  31,
+  36,
+  38,
+  42,
+  47,
+  53,
+  57,
+  60,
+  63,
+  66,
+  69,
+  73,
+  79,
+  82,
+  86,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   76,
+   "(Selected Writings of Bolivar, Volume 1 ,p.",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "107)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3201ebb9d94247cae2f9a6330c7aa093fceca65b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2553,
+  "words_out": 2545,
+  "retention": 0.9969,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   94,
+   156,
+   71,
+   102,
+   172,
+   88,
+   69,
+   128,
+   122,
+   111,
+   97,
+   89,
+   107,
+   192,
+   88,
+   61,
+   89,
+   94,
+   99,
+   90,
+   98,
+   99,
+   137,
+   79,
+   13
+  ],
+  "warnings": []
+ }
+}

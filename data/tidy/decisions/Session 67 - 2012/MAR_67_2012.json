@@ -1,0 +1,72 @@
+{
+ "id": "MAR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  30,
+  45,
+  61,
+  69,
+  89,
+  99,
+  111,
+  134,
+  153,
+  163,
+  172,
+  181,
+  191,
+  205
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   97,
+   "dy!аmic",
+   "dynamic",
+   "ocr"
+  ],
+  [
+   151,
+   "inf luential",
+   "influential",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dea1e01f832723817d7c75c6b06176fd6c9da75d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1736,
+  "words_out": 1732,
+  "retention": 0.9977,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   151,
+   78,
+   118,
+   128,
+   62,
+   171,
+   75,
+   95,
+   216,
+   151,
+   85,
+   73,
+   73,
+   83,
+   107,
+   66
+  ],
+  "warnings": []
+ }
+}

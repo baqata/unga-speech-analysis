@@ -1,0 +1,60 @@
+{
+ "id": "SEN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  25,
+  36,
+  54,
+  73,
+  92,
+  109,
+  127,
+  147,
+  156,
+  167,
+  187,
+  202,
+  222
+ ],
+ "cer": [
+  0,
+  15
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67752f07332e07221cd5cb670bc186559a6ba1a1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1895,
+  "words_out": 1894,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   117,
+   83,
+   93,
+   148,
+   167,
+   152,
+   143,
+   151,
+   170,
+   70,
+   91,
+   158,
+   125,
+   170,
+   56
+  ],
+  "warnings": []
+ }
+}

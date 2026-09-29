@@ -1,0 +1,66 @@
+{
+ "id": "IND_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  19,
+  42,
+  55,
+  64,
+  75,
+  89,
+  108,
+  113,
+  130,
+  138,
+  153,
+  177,
+  189
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   125,
+   "Syria.There",
+   "Syria. There",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ffb061754d9e8abe21db0bc8e9edb45dc9c2c02a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1536,
+  "words_out": 1535,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   35,
+   108,
+   171,
+   87,
+   68,
+   81,
+   103,
+   142,
+   40,
+   151,
+   62,
+   115,
+   193,
+   83,
+   96
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "COM_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  43,
+  79,
+  109,
+  132,
+  157,
+  177,
+  198
+ ],
+ "cer": [],
+ "fix": [
+  [
+   77,
+   " (resolution 31/4, third and fourth",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "preambular paragraphs and paras. 1 and 2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd9fc918511040ffb056f34e67549c653f7bd3d9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1650,
+  "words_out": 1638,
+  "retention": 0.9927,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   166,
+   181,
+   238,
+   221,
+   183,
+   204,
+   159,
+   159,
+   127
+  ],
+  "warnings": []
+ }
+}

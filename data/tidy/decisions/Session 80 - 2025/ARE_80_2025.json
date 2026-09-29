@@ -1,0 +1,76 @@
+{
+ "id": "ARE_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  15,
+  24,
+  31,
+  34,
+  41,
+  47,
+  53,
+  58,
+  59
+ ],
+ "cer": [
+  59
+ ],
+ "fix": [
+  [
+   31,
+   "Greater Tomb",
+   "Greater Tunb",
+   "asr_name"
+  ],
+  [
+   31,
+   "Lesser Tomb",
+   "Lesser Tunb",
+   "asr_name"
+  ],
+  [
+   43,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b83437b4fc69e418ddd7f17bde0f3d9d0564ffa",
+ "layout": "single",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1411,
+  "words_out": 1388,
+  "retention": 0.9837,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   104,
+   189,
+   211,
+   193,
+   120,
+   123,
+   124,
+   120,
+   149,
+   51,
+   4
+  ],
+  "warnings": []
+ }
+}

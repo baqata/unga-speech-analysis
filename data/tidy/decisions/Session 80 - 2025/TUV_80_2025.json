@@ -1,0 +1,156 @@
+{
+ "id": "TUV_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  11,
+  15,
+  20,
+  24,
+  28,
+  36,
+  40,
+  43,
+  45,
+  51,
+  53,
+  58,
+  63,
+  66,
+  73,
+  78,
+  84,
+  89,
+  95,
+  99,
+  102,
+  105,
+  108,
+  114
+ ],
+ "cer": [
+  2,
+  7,
+  114
+ ],
+ "fix": [
+  [
+   6,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   36,
+   "IDLOS",
+   "ITLOS",
+   "asr_name"
+  ],
+  [
+   37,
+   "IDLOS",
+   "ITLOS",
+   "asr_name"
+  ],
+  [
+   38,
+   "ICT's",
+   "ICJ's",
+   "asr_name"
+  ],
+  [
+   39,
+   "an accidental threat",
+   "an existential threat",
+   "asr_term"
+  ],
+  [
+   40,
+   "IDLOS",
+   "ITLOS",
+   "asr_name"
+  ],
+  [
+   44,
+   "the accidental threat",
+   "the existential threat",
+   "asr_term"
+  ],
+  [
+   49,
+   "deeper carbonization",
+   "deeper decarbonization",
+   "asr_term"
+  ],
+  [
+   58,
+   "BB&J",
+   "BBNJ",
+   "asr_term"
+  ],
+  [
+   68,
+   "ARBAS",
+   "ABAS",
+   "asr_name"
+  ],
+  [
+   68,
+   "SGG",
+   "SDG",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c2a0e2704263d70c8b6753193d312cf0af6d3d6",
+ "layout": "single",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 3139,
+  "words_out": 3109,
+  "retention": 0.9904,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   111,
+   103,
+   127,
+   117,
+   180,
+   108,
+   174,
+   129,
+   99,
+   95,
+   159,
+   97,
+   116,
+   127,
+   147,
+   133,
+   137,
+   109,
+   134,
+   136,
+   100,
+   100,
+   85,
+   112,
+   156,
+   18
+  ],
+  "warnings": []
+ }
+}

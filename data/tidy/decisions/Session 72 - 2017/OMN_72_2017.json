@@ -1,0 +1,73 @@
+{
+ "id": "OMN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  12,
+  16,
+  20,
+  24,
+  27,
+  31,
+  36,
+  39,
+  41
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   10,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ],
+  [
+   25,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   26,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cde6f0a8d4a2a0552b5511c7463be2b6bd0c20d9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1161,
+  "words_out": 1158,
+  "retention": 0.9974,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   93,
+   64,
+   73,
+   122,
+   66,
+   121,
+   90,
+   74,
+   130,
+   97,
+   101,
+   61,
+   66
+  ],
+  "warnings": []
+ }
+}

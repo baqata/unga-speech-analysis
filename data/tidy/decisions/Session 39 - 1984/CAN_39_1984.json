@@ -1,0 +1,152 @@
+{
+ "id": "CAN_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  14,
+  19,
+  26,
+  29,
+  35,
+  37,
+  42,
+  50,
+  57,
+  60,
+  66,
+  70,
+  73,
+  79,
+  88,
+  96,
+  101,
+  105,
+  109,
+  113,
+  116,
+  118,
+  121,
+  124,
+  127,
+  129,
+  135,
+  138,
+  143,
+  149,
+  153,
+  157,
+  162,
+  167,
+  170,
+  174,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "log-am",
+   "log-jam",
+   "ocr"
+  ],
+  [
+   46,
+   "encourage-age",
+   "encourage",
+   "ocr"
+  ],
+  [
+   54,
+   "elective international",
+   "effective international",
+   "ocr"
+  ],
+  [
+   110,
+   "this Held",
+   "this field",
+   "ocr"
+  ],
+  [
+   117,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   168,
+   "comer of the world",
+   "corner of the world",
+   "ocr"
+  ],
+  [
+   168,
+   "and' gave",
+   "and gave",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69099d0241c7260df9b30537f9a692b22a2a3320",
+ "layout": "lines",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 60
+  },
+  "words_in": 4433,
+  "words_out": 4432,
+  "retention": 0.9998,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   110,
+   145,
+   116,
+   144,
+   133,
+   62,
+   105,
+   84,
+   111,
+   190,
+   159,
+   99,
+   107,
+   115,
+   108,
+   105,
+   156,
+   213,
+   104,
+   103,
+   70,
+   120,
+   91,
+   65,
+   61,
+   61,
+   71,
+   65,
+   141,
+   111,
+   195,
+   164,
+   79,
+   84,
+   66,
+   100,
+   151,
+   50,
+   102,
+   116
+  ],
+  "warnings": []
+ }
+}

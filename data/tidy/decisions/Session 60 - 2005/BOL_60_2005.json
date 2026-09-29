@@ -1,0 +1,45 @@
+{
+ "id": "BOL_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  29,
+  55,
+  77,
+  85,
+  110,
+  130
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd306e40b69b088c793a717eed8cf16466cf6c4f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1058,
+  "words_out": 1057,
+  "retention": 0.9991,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   46,
+   179,
+   223,
+   163,
+   66,
+   189,
+   145,
+   46
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "id": "NIC_36_1981",
+ "drop": [
+  [
+   119,
+   119,
+   "noise"
+  ],
+  [
+   163,
+   163,
+   "noise"
+  ],
+  [
+   182,
+   182,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  6,
+  7,
+  8,
+  10,
+  12,
+  14,
+  15,
+  18,
+  23,
+  26,
+  34,
+  35,
+  37,
+  42,
+  45,
+  52,
+  55,
+  59,
+  61,
+  64,
+  68,
+  70,
+  72,
+  77,
+  86,
+  95,
+  100,
+  104,
+  108,
+  111,
+  120,
+  126,
+  131,
+  137,
+  141,
+  144,
+  146,
+  149,
+  152,
+  153,
+  157,
+  160,
+  168,
+  173,
+  176,
+  179,
+  183
+ ],
+ "cer": [
+  14
+ ],
+ "fix": [
+  [
+   5,
+   "production kid emplacement",
+   "production and emplacement",
+   "ocr"
+  ],
+  [
+   10,
+   " [,SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   10,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   10,
+   " [A/36/23, chap.",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "I, para. 87]; ",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "Hie latest",
+   "The latest",
+   "ocr"
+  ],
+  [
+   50,
+   "to And the",
+   "to find the",
+   "ocr"
+  ],
+  [
+   60,
+   "Morazati",
+   "Morazan",
+   "ocr"
+  ],
+  [
+   69,
+   "Piatt",
+   "Platt",
+   "ocr"
+  ],
+  [
+   74,
+   "Zeleddn",
+   "Zeledon",
+   "ocr"
+  ],
+  [
+   83,
+   "port Of Corinto",
+   "port of Corinto",
+   "ocr"
+  ],
+  [
+   84,
+   "Blue fields",
+   "Bluefields",
+   "split_word"
+  ],
+  [
+   104,
+   "frontier Wars",
+   "frontier wars",
+   "ocr"
+  ],
+  [
+   105,
+   " [CM]",
+   "",
+   "label"
+  ],
+  [
+   120,
+   "Ignited States",
+   "United States",
+   "ocr"
+  ],
+  [
+   122,
+   "Government or Honduras",
+   "Government of Honduras",
+   "ocr"
+  ],
+  [
+   122,
+   "El Salvador, He also",
+   "El Salvador. He also",
+   "ocr"
+  ],
+  [
+   143,
+   "election^",
+   "elections",
+   "ocr"
+  ],
+  [
+   145,
+   " [see AJ36/584, annex]",
+   "",
+   "label"
+  ],
+  [
+   157,
+   "die exercise",
+   "the exercise",
+   "ocr"
+  ],
+  [
+   168,
+   "bring /about",
+   "bring about",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8cace761bb6cffa0296c33d28be12156b000d880",
+ "layout": "lines",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 5614,
+  "words_out": 5599,
+  "retention": 0.9973,
+  "n_paragraphs": 50,
+  "paragraph_words": [
+   58,
+   119,
+   88,
+   98,
+   63,
+   155,
+   230,
+   68,
+   22,
+   159,
+   195,
+   95,
+   118,
+   67,
+   78,
+   126,
+   62,
+   140,
+   143,
+   145,
+   92,
+   132,
+   113,
+   84,
+   69,
+   180,
+   177,
+   149,
+   68,
+   80,
+   79,
+   65,
+   152,
+   172,
+   125,
+   135,
+   61,
+   80,
+   146,
+   116,
+   89,
+   77,
+   96,
+   149,
+   164,
+   126,
+   126,
+   85,
+   99,
+   84
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

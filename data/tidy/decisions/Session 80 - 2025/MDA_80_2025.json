@@ -1,0 +1,63 @@
+{
+ "id": "MDA_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   56,
+   56,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  11,
+  16,
+  27,
+  40,
+  43,
+  49,
+  55
+ ],
+ "cer": [
+  55
+ ],
+ "fix": [
+  [
+   47,
+   "18th anniversary",
+   "80th anniversary",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6a649f7cc75d0e06f79a8c528fbf6e6b34eaaec",
+ "layout": "single",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 827,
+  "words_out": 796,
+  "retention": 0.9625,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   161,
+   120,
+   142,
+   135,
+   56,
+   79,
+   100,
+   3
+  ],
+  "warnings": []
+ }
+}

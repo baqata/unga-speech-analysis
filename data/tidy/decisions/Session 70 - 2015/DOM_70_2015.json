@@ -1,0 +1,76 @@
+{
+ "id": "DOM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  16,
+  23,
+  28,
+  34,
+  41,
+  46,
+  54,
+  61,
+  67,
+  74
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   31,
+   "medium- sized",
+   "medium-sized",
+   "hyphen"
+  ],
+  [
+   33,
+   "well- trained",
+   "well-trained",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38b21df3d98581df2a5872f2d7b206aa18a02d9e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 1912,
+  "words_out": 1907,
+  "retention": 0.9974,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   54,
+   105,
+   177,
+   124,
+   156,
+   204,
+   147,
+   145,
+   98,
+   171,
+   152,
+   160,
+   148,
+   66
+  ],
+  "warnings": []
+ }
+}

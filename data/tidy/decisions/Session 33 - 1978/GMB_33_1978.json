@@ -1,0 +1,251 @@
+{
+ "id": "GMB_33_1978",
+ "drop": [
+  [
+   116,
+   116,
+   "noise"
+  ],
+  [
+   169,
+   169,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  11,
+  13,
+  17,
+  21,
+  28,
+  33,
+  37,
+  41,
+  46,
+  51,
+  56,
+  61,
+  64,
+  71,
+  76,
+  80,
+  85,
+  90,
+  94,
+  98,
+  102,
+  106,
+  112,
+  120,
+  122,
+  125,
+  127,
+  134,
+  139,
+  145,
+  149,
+  151,
+  154,
+  158,
+  162,
+  167,
+  174,
+  180,
+  183,
+  190,
+  192,
+  197,
+  200,
+  204,
+  210,
+  212,
+  220,
+  225,
+  229,
+  232,
+  234
+ ],
+ "cer": [
+  0,
+  232
+ ],
+ "fix": [
+  [
+   1,
+   "is well as",
+   "as well as",
+   "ocr"
+  ],
+  [
+   12,
+   "7: ",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "want to dc",
+   "want to do",
+   "ocr"
+  ],
+  [
+   98,
+   "At-this",
+   "At this",
+   "ocr"
+  ],
+  [
+   147,
+   "Nations .has",
+   "Nations has",
+   "ocr"
+  ],
+  [
+   147,
+   "National • Resources",
+   "National Resources",
+   "encoding"
+  ],
+  [
+   153,
+   "Khartoum.3",
+   "Khartoum.",
+   "ocr"
+  ],
+  [
+   183,
+   "49 ",
+   "",
+   "label"
+  ],
+  [
+   183,
+   "across, the",
+   "across the",
+   "ocr"
+  ],
+  [
+   184,
+   "world, opinion",
+   "world opinion",
+   "ocr"
+  ],
+  [
+   204,
+   "54 ",
+   "",
+   "label"
+  ],
+  [
+   226,
+   " [resolution 32/197J",
+   "",
+   "label"
+  ],
+  [
+   232,
+   "1 should",
+   "I should",
+   "ocr"
+  ],
+  [
+   236,
+   "disease,,",
+   "disease,",
+   "ocr"
+  ],
+  [
+   4,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   19,
+   " [CILSS]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Footnote lines inserted mid-sentence at units 116 and 169 dropped.",
+ "unitizer_version": 1,
+ "sha1": "3b9a7a55ec9259ede59d93cf4998ec113011a3f5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 57,
+   "page_number": 1
+  },
+  "words_in": 7547,
+  "words_out": 7507,
+  "retention": 0.9947,
+  "n_paragraphs": 55,
+  "paragraph_words": [
+   112,
+   113,
+   103,
+   202,
+   98,
+   123,
+   124,
+   185,
+   188,
+   177,
+   225,
+   168,
+   158,
+   152,
+   190,
+   99,
+   172,
+   182,
+   124,
+   157,
+   160,
+   144,
+   116,
+   135,
+   98,
+   144,
+   212,
+   59,
+   95,
+   89,
+   201,
+   177,
+   113,
+   175,
+   64,
+   113,
+   106,
+   111,
+   131,
+   193,
+   160,
+   103,
+   184,
+   74,
+   142,
+   88,
+   93,
+   126,
+   85,
+   156,
+   158,
+   90,
+   131,
+   94,
+   135
+  ],
+  "warnings": []
+ }
+}

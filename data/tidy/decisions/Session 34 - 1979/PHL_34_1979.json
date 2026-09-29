@@ -1,0 +1,103 @@
+{
+ "id": "PHL_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  19,
+  26,
+  32,
+  34,
+  40,
+  44,
+  51,
+  53,
+  58,
+  60,
+  64,
+  70,
+  75,
+  77,
+  82,
+  86,
+  89,
+  91,
+  94,
+  98
+ ],
+ "cer": [
+  0,
+  91,
+  94,
+  98
+ ],
+ "fix": [
+  [
+   40,
+   "storm- centre",
+   "storm-centre",
+   "spacing"
+  ],
+  [
+   47,
+   "million-—or",
+   "million—or",
+   "ocr"
+  ],
+  [
+   50,
+   "times,",
+   "times.",
+   "ocr"
+  ],
+  [
+   85,
+   "Indo- Chinese",
+   "Indo-Chinese",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "118bd429ccce169ee55bb9b3370c94900bc9a1c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2807,
+  "words_out": 2805,
+  "retention": 0.9993,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   122,
+   144,
+   118,
+   160,
+   162,
+   60,
+   147,
+   105,
+   188,
+   91,
+   137,
+   69,
+   84,
+   141,
+   123,
+   54,
+   101,
+   146,
+   102,
+   89,
+   229,
+   169,
+   64
+  ],
+  "warnings": []
+ }
+}

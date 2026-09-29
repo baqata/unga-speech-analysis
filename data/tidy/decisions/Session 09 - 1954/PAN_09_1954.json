@@ -1,0 +1,79 @@
+{
+ "id": "PAN_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  14,
+  17,
+  20,
+  24,
+  26,
+  28,
+  31,
+  33,
+  35,
+  38,
+  40
+ ],
+ "cer": [
+  40
+ ],
+ "fix": [
+  [
+   1,
+   "bur efforts",
+   "our efforts",
+   "ocr"
+  ],
+  [
+   34,
+   "arid harmony",
+   "and harmony",
+   "ocr"
+  ],
+  [
+   36,
+   "o?",
+   "of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a314a5221142097c13c236b2b9f93f267b955022",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 1826,
+  "words_out": 1826,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   170,
+   134,
+   120,
+   216,
+   137,
+   191,
+   176,
+   75,
+   92,
+   101,
+   131,
+   101,
+   68,
+   71,
+   43
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "GRC_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  36,
+  45,
+  69,
+  82,
+  99,
+  112,
+  128,
+  137,
+  159,
+  178,
+  193,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   " (see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cfe0eeec2b56be6065d62cde2315cafed24887f8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 4,
+   "page_number": 2
+  },
+  "words_in": 1629,
+  "words_out": 1624,
+  "retention": 0.9969,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   118,
+   151,
+   67,
+   184,
+   101,
+   133,
+   87,
+   120,
+   70,
+   179,
+   152,
+   110,
+   95,
+   57
+  ],
+  "warnings": []
+ }
+}

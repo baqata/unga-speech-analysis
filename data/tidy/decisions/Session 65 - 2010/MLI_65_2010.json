@@ -1,0 +1,54 @@
+{
+ "id": "MLI_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  28,
+  39,
+  64,
+  77,
+  97,
+  117,
+  132,
+  147,
+  168,
+  187
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The passage on the theme of the general debate begins inside unit 51, so it stays in the paragraph on the new Mali.",
+ "unitizer_version": 1,
+ "sha1": "6ccfef44b74b2bf599eb248f336d9a8a10df4793",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1620,
+  "words_out": 1618,
+  "retention": 0.9988,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   82,
+   148,
+   96,
+   224,
+   111,
+   159,
+   158,
+   117,
+   112,
+   159,
+   154,
+   98
+  ],
+  "warnings": []
+ }
+}

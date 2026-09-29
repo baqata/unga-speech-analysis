@@ -1,0 +1,351 @@
+{
+ "id": "RUS_28_1973",
+ "drop": [
+  [
+   150,
+   150,
+   "noise"
+  ],
+  [
+   171,
+   171,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  13,
+  15,
+  18,
+  20,
+  26,
+  32,
+  36,
+  40,
+  43,
+  45,
+  48,
+  55,
+  61,
+  63,
+  67,
+  70,
+  76,
+  79,
+  83,
+  89,
+  93,
+  98,
+  102,
+  104,
+  106,
+  110,
+  113,
+  118,
+  126,
+  130,
+  133,
+  138,
+  142,
+  147,
+  151,
+  154,
+  160,
+  167,
+  172,
+  178,
+  183,
+  185,
+  190,
+  193,
+  197,
+  202,
+  205,
+  208,
+  210,
+  214,
+  220,
+  224,
+  226,
+  228,
+  231,
+  235,
+  238,
+  241,
+  247,
+  255,
+  257,
+  262
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "conference''",
+   "conference",
+   "ocr"
+  ],
+  [
+   14,
+   "tire General",
+   "the General",
+   "ocr"
+  ],
+  [
+   19,
+   "Union, It",
+   "Union. It",
+   "ocr"
+  ],
+  [
+   27,
+   "hive been",
+   "have been",
+   "ocr"
+  ],
+  [
+   36,
+   "secret .to",
+   "secret to",
+   "ocr"
+  ],
+  [
+   43,
+   "developments, A",
+   "developments. A",
+   "ocr"
+  ],
+  [
+   44,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   50,
+   "assertions,,",
+   "assertions,",
+   "ocr"
+  ],
+  [
+   64,
+   "settlement if fully",
+   "settlement is fully",
+   "ocr"
+  ],
+  [
+   65,
+   "Viet Nam. in",
+   "Viet Nam, in",
+   "ocr"
+  ],
+  [
+   68,
+   "lake comfort",
+   "take comfort",
+   "ocr"
+  ],
+  [
+   69,
+   "be'?",
+   "be?",
+   "ocr"
+  ],
+  [
+   77,
+   "Stales",
+   "States",
+   "ocr"
+  ],
+  [
+   79,
+   "*et out",
+   "set out",
+   "ocr"
+  ],
+  [
+   80,
+   "un the basis",
+   "on the basis",
+   "ocr"
+  ],
+  [
+   81,
+   "Middle Fast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   82,
+   "tins once again from tins",
+   "this once again from this",
+   "ocr"
+  ],
+  [
+   88,
+   "(he international",
+   "the international",
+   "ocr"
+  ],
+  [
+   96,
+   "Yet. only",
+   "Yet, only",
+   "ocr"
+  ],
+  [
+   100,
+   "unclear arms",
+   "nuclear arms",
+   "ocr"
+  ],
+  [
+   136,
+   "require \"the",
+   "require the",
+   "ocr"
+  ],
+  [
+   149,
+   "43. ",
+   "",
+   "label"
+  ],
+  [
+   202,
+   "laws .morals",
+   "laws, morals",
+   "ocr"
+  ],
+  [
+   211,
+   "deliberately cheated",
+   "deliberately created",
+   "ocr"
+  ],
+  [
+   256,
+   "value-1 repeat",
+   "value-I repeat",
+   "ocr"
+  ],
+  [
+   143,
+   " [resolution 2936 (XXVIII]",
+   "",
+   "label"
+  ],
+  [
+   143,
+   " [resolution 2930 (XXVII]",
+   "",
+   "label"
+  ],
+  [
+   259,
+   " [resolution 2200 A (XXI), annex]",
+   "",
+   "label"
+  ],
+  [
+   259,
+   " [ibid.]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5da1b8d68da4303a70e6caeaceb8c847203bcf65",
+ "layout": "lines",
+ "stats": {
+  "n_units": 267,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 117
+  },
+  "words_in": 7496,
+  "words_out": 7477,
+  "retention": 0.9975,
+  "n_paragraphs": 66,
+  "paragraph_words": [
+   74,
+   68,
+   81,
+   75,
+   83,
+   100,
+   61,
+   124,
+   144,
+   145,
+   71,
+   75,
+   93,
+   96,
+   152,
+   94,
+   69,
+   134,
+   70,
+   130,
+   73,
+   143,
+   173,
+   75,
+   132,
+   125,
+   76,
+   86,
+   128,
+   67,
+   81,
+   175,
+   129,
+   130,
+   122,
+   155,
+   131,
+   132,
+   69,
+   134,
+   162,
+   136,
+   167,
+   155,
+   125,
+   111,
+   78,
+   105,
+   100,
+   121,
+   131,
+   85,
+   124,
+   132,
+   158,
+   83,
+   78,
+   111,
+   144,
+   117,
+   173,
+   126,
+   135,
+   60,
+   144,
+   141
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

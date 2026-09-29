@@ -1,0 +1,74 @@
+{
+ "id": "GRD_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  12,
+  18,
+  24,
+  31,
+  41,
+  46,
+  51,
+  54,
+  59,
+  63,
+  71,
+  77,
+  81,
+  87,
+  91,
+  96,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "m y",
+   "my",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d0b0843963b8895abb551d39e706d99bbd603b0d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2157,
+  "words_out": 2156,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   24,
+   130,
+   125,
+   125,
+   144,
+   93,
+   177,
+   83,
+   120,
+   77,
+   94,
+   143,
+   143,
+   153,
+   66,
+   109,
+   103,
+   73,
+   90,
+   84
+  ],
+  "warnings": []
+ }
+}

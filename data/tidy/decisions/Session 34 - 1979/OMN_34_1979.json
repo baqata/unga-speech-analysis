@@ -1,0 +1,113 @@
+{
+ "id": "OMN_34_1979",
+ "drop": [
+  [
+   35,
+   35,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  10,
+  17,
+  23,
+  26,
+  27,
+  31,
+  34,
+  38,
+  41,
+  44,
+  51,
+  56,
+  59,
+  62,
+  68,
+  70,
+  80,
+  85,
+  89,
+  97,
+  100,
+  106
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   41,
+   "fact, It",
+   "fact. It",
+   "ocr"
+  ],
+  [
+   67,
+   "world,",
+   "world.",
+   "ocr"
+  ],
+  [
+   77,
+   "nave",
+   "have",
+   "ocr"
+  ],
+  [
+   89,
+   "States, Success",
+   "States. Success",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 35 is a truncated first copy of the sentence repeated in full in unit 36 and is dropped.",
+ "unitizer_version": 1,
+ "sha1": "b1e3fa86925a894495ffd4c97ccd4ea897bb3bdd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "repeat": 1
+  },
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3575,
+  "words_out": 3563,
+  "retention": 0.9966,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   170,
+   152,
+   53,
+   228,
+   152,
+   93,
+   113,
+   119,
+   109,
+   110,
+   193,
+   158,
+   219,
+   162,
+   105,
+   85,
+   146,
+   72,
+   255,
+   129,
+   152,
+   226,
+   107,
+   111,
+   144
+  ],
+  "warnings": []
+ }
+}

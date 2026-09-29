@@ -1,0 +1,60 @@
+{
+ "id": "PHL_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  19,
+  22,
+  30,
+  36,
+  41,
+  45
+ ],
+ "cer": [],
+ "fix": [
+  [
+   36,
+   "the case or Korea",
+   "the case of Korea",
+   "ocr"
+  ],
+  [
+   45,
+   "United Nations, Korea has",
+   "United Nations. Korea has",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff26cf1768dfb1def703a7cfcd99043e00f8fdc8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 13
+  },
+  "words_in": 1424,
+  "words_out": 1424,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   131,
+   93,
+   122,
+   182,
+   84,
+   180,
+   205,
+   153,
+   117,
+   157
+  ],
+  "warnings": []
+ }
+}

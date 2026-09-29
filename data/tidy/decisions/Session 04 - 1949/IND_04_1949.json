@@ -1,0 +1,122 @@
+{
+ "id": "IND_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  11,
+  17,
+  21,
+  25,
+  30,
+  36,
+  41,
+  48,
+  54,
+  57,
+  61,
+  67,
+  73,
+  79,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "would, discover",
+   "would discover",
+   "ocr"
+  ],
+  [
+   10,
+   "resolved, to",
+   "resolved to",
+   "ocr"
+  ],
+  [
+   11,
+   "tin a few",
+   "in a few",
+   "ocr"
+  ],
+  [
+   22,
+   "one. of",
+   "one of",
+   "ocr"
+  ],
+  [
+   37,
+   "and. were",
+   "and were",
+   "ocr"
+  ],
+  [
+   55,
+   "made- in",
+   "made in",
+   "ocr"
+  ],
+  [
+   63,
+   "towards, races",
+   "towards races",
+   "ocr"
+  ],
+  [
+   63,
+   "represented-in",
+   "represented in",
+   "spacing"
+  ],
+  [
+   78,
+   "and. could",
+   "and could",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "70e5b2b503f021fc20004f78e34bcb42928d65b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 2882,
+  "words_out": 2883,
+  "retention": 1.0003,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   36,
+   218,
+   131,
+   199,
+   104,
+   80,
+   189,
+   184,
+   151,
+   175,
+   249,
+   116,
+   113,
+   168,
+   208,
+   249,
+   152,
+   161
+  ],
+  "warnings": []
+ }
+}

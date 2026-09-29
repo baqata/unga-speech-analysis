@@ -1,0 +1,70 @@
+{
+ "id": "HUN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  17,
+  22,
+  25,
+  27,
+  31,
+  34,
+  37,
+  41,
+  45,
+  48,
+  51,
+  54,
+  59,
+  64,
+  69
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   "super- Powers",
+   "super-Powers",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af7146627c26b3f046a493b8c66931d21f247891",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1714,
+  "words_out": 1713,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   103,
+   65,
+   165,
+   120,
+   127,
+   65,
+   60,
+   82,
+   65,
+   105,
+   91,
+   84,
+   65,
+   91,
+   138,
+   104,
+   146,
+   37
+  ],
+  "warnings": []
+ }
+}

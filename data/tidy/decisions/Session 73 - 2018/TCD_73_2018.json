@@ -1,0 +1,66 @@
+{
+ "id": "TCD_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  15,
+  19,
+  24,
+  29,
+  34,
+  39,
+  48,
+  53,
+  58,
+  63,
+  67,
+  73,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   79,
+   "long- awaited",
+   "long-awaited",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "05de821ff8c424cf1d7201ef2568a15faa35954a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2576,
+  "words_out": 2575,
+  "retention": 0.9996,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   149,
+   145,
+   193,
+   151,
+   188,
+   176,
+   110,
+   164,
+   277,
+   143,
+   145,
+   134,
+   147,
+   155,
+   189,
+   109
+  ],
+  "warnings": []
+ }
+}

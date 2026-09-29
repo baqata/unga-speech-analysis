@@ -1,0 +1,66 @@
+{
+ "id": "ZWE_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  23,
+  45,
+  56,
+  69,
+  89,
+  111,
+  131,
+  144,
+  159,
+  168,
+  178,
+  188,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   130,
+   "developed- country",
+   "developed-country",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c00933e1b741880814eacbe872e4579d9e00b678",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1554,
+  "words_out": 1551,
+  "retention": 0.9981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   42,
+   130,
+   158,
+   89,
+   99,
+   148,
+   173,
+   154,
+   95,
+   101,
+   66,
+   86,
+   72,
+   127,
+   11
+  ],
+  "warnings": []
+ }
+}

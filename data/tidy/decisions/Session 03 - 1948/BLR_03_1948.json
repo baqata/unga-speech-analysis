@@ -1,0 +1,118 @@
+{
+ "id": "BLR_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  17,
+  22,
+  25,
+  29,
+  35,
+  38,
+  43,
+  49,
+  54,
+  60,
+  66,
+  68,
+  78,
+  81,
+  87,
+  92,
+  96,
+  100
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "had, mot",
+   "had not",
+   "ocr"
+  ],
+  [
+   14,
+   "mid strategic",
+   "and strategic",
+   "ocr"
+  ],
+  [
+   31,
+   "tor the",
+   "for the",
+   "ocr"
+  ],
+  [
+   47,
+   "session'",
+   "session",
+   "ocr"
+  ],
+  [
+   76,
+   "hound",
+   "bound",
+   "ocr"
+  ],
+  [
+   97,
+   "one- third",
+   "one-third",
+   "hyphen"
+  ],
+  [
+   91,
+   " (page 574 of the eleventh Russian edition)",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "thé",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "13f492763cf61110b679bb253199622be822fa5a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3449,
+  "words_out": 3435,
+  "retention": 0.9959,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   167,
+   113,
+   249,
+   185,
+   93,
+   117,
+   231,
+   175,
+   166,
+   165,
+   178,
+   178,
+   207,
+   80,
+   310,
+   112,
+   200,
+   113,
+   140,
+   231,
+   25
+  ],
+  "warnings": []
+ }
+}

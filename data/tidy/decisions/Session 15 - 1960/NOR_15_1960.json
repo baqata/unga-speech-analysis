@@ -1,0 +1,115 @@
+{
+ "id": "NOR_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  13,
+  20,
+  26,
+  35,
+  41,
+  44,
+  46,
+  56,
+  62,
+  70,
+  74,
+  77,
+  83,
+  86,
+  91
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "debate? secondly",
+   "debate; secondly",
+   "ocr"
+  ],
+  [
+   36,
+   "capital, I shall",
+   "capital. I shall",
+   "ocr"
+  ],
+  [
+   38,
+   "Council, Thereby",
+   "Council. Thereby",
+   "ocr"
+  ],
+  [
+   42,
+   "Charter, A universal",
+   "Charter. A universal",
+   "ocr"
+  ],
+  [
+   61,
+   "under- stood",
+   "understood",
+   "ocr"
+  ],
+  [
+   75,
+   "and Inspection",
+   "and inspection",
+   "ocr"
+  ],
+  [
+   93,
+   "May, Of course",
+   "May. Of course",
+   "ocr"
+  ],
+  [
+   93,
+   "most, important",
+   "most important",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3269dd4974d0a6d617c0b37999edfd5f509d742d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 31
+  },
+  "words_in": 2695,
+  "words_out": 2693,
+  "retention": 0.9993,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   45,
+   194,
+   171,
+   191,
+   167,
+   184,
+   231,
+   148,
+   79,
+   172,
+   159,
+   153,
+   113,
+   114,
+   146,
+   99,
+   147,
+   180
+  ],
+  "warnings": []
+ }
+}

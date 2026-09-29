@@ -1,0 +1,123 @@
+{
+ "id": "MLT_48_1993",
+ "drop": [
+  [
+   31,
+   31,
+   "header_footer"
+  ],
+  [
+   121,
+   121,
+   "header_footer"
+  ],
+  [
+   178,
+   179,
+   "procedural"
+  ],
+  [
+   216,
+   216,
+   "header_footer"
+  ],
+  [
+   308,
+   308,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  28,
+  38,
+  45,
+  55,
+  78,
+  98,
+  122,
+  134,
+  150,
+  164,
+  180,
+  194,
+  207,
+  217,
+  231,
+  241,
+  255,
+  271,
+  286,
+  309,
+  322,
+  334,
+  350
+ ],
+ "cer": [
+  0,
+  28,
+  38
+ ],
+ "fix": [
+  [
+   97,
+   "(ibid, para. 89)",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "(ibid, para. 98)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff3ea70ef23a0b2416d60a3f96e68b94fdfee2f4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 352,
+  "units_dropped": {
+   "header_footer": 4,
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 3000,
+  "words_out": 2956,
+  "retention": 0.9853,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   102,
+   131,
+   73,
+   52,
+   79,
+   199,
+   169,
+   196,
+   102,
+   139,
+   120,
+   127,
+   128,
+   117,
+   75,
+   115,
+   90,
+   111,
+   132,
+   139,
+   179,
+   111,
+   104,
+   151,
+   15
+  ],
+  "warnings": [
+   "procedural drop [178,179] in the middle of the speech"
+  ]
+ }
+}

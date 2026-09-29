@@ -1,0 +1,81 @@
+{
+ "id": "ERI_48_1993",
+ "drop": [
+  [
+   56,
+   56,
+   "header_footer"
+  ],
+  [
+   155,
+   155,
+   "header_footer"
+  ],
+  [
+   252,
+   252,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  11,
+  24,
+  38,
+  48,
+  61,
+  74,
+  88,
+  108,
+  126,
+  143,
+  163,
+  179,
+  202,
+  212,
+  227,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0bd2426185ea30786f2074bf4dceabb497d3c05c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 255,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2293,
+  "words_out": 2272,
+  "retention": 0.9908,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   21,
+   72,
+   116,
+   134,
+   94,
+   103,
+   124,
+   117,
+   180,
+   170,
+   153,
+   168,
+   145,
+   196,
+   88,
+   131,
+   77,
+   183
+  ],
+  "warnings": []
+ }
+}

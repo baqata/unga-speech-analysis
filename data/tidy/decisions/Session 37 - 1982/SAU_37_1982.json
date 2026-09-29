@@ -1,0 +1,160 @@
+{
+ "id": "SAU_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  27,
+  43,
+  55,
+  69,
+  89,
+  98,
+  107,
+  118,
+  131,
+  149,
+  158,
+  170,
+  176,
+  191,
+  202,
+  217,
+  237,
+  246,
+  256,
+  273,
+  284,
+  306,
+  314,
+  335,
+  349
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Sheikh ALHEGELAN (Saudi Arabia) ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "1 cannot",
+   "I cannot",
+   "ocr"
+  ],
+  [
+   8,
+   "1 also",
+   "I also",
+   "ocr"
+  ],
+  [
+   39,
+   "of. political",
+   "of political",
+   "ocr"
+  ],
+  [
+   55,
+   "hi&",
+   "his",
+   "ocr"
+  ],
+  [
+   113,
+   "exertand",
+   "exert and",
+   "merged_word"
+  ],
+  [
+   149,
+   "word peace",
+   "world peace",
+   "ocr"
+  ],
+  [
+   153,
+   "must,",
+   "must",
+   "ocr"
+  ],
+  [
+   210,
+   "do net",
+   "do not",
+   "ocr"
+  ],
+  [
+   297,
+   "help.",
+   "help",
+   "ocr"
+  ],
+  [
+   310,
+   "Thusthe",
+   "Thus the",
+   "merged_word"
+  ],
+  [
+   330,
+   "base on",
+   "based on",
+   "ocr"
+  ],
+  [
+   345,
+   " hot ",
+   " not ",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The word apartheid is garbled as \"M\" in unit 159 and left as printed.",
+ "unitizer_version": 1,
+ "sha1": "b806e2c35a9d5d5661e61a950c3a41ed8ca46471",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 364,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3688,
+  "words_out": 3649,
+  "retention": 0.9894,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   159,
+   111,
+   157,
+   122,
+   139,
+   195,
+   98,
+   94,
+   110,
+   118,
+   178,
+   80,
+   115,
+   63,
+   137,
+   110,
+   153,
+   192,
+   91,
+   106,
+   169,
+   109,
+   220,
+   87,
+   232,
+   151,
+   153
+  ],
+  "warnings": []
+ }
+}

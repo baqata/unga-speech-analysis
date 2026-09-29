@@ -1,0 +1,164 @@
+{
+ "id": "UKR_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  15,
+  20,
+  24,
+  29,
+  33,
+  38,
+  41,
+  45,
+  49,
+  53,
+  59,
+  63,
+  66,
+  69,
+  76,
+  81,
+  87,
+  90,
+  94,
+  100,
+  104,
+  109,
+  114,
+  118,
+  120,
+  126,
+  131,
+  134,
+  141,
+  146,
+  149,
+  153
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "arms· race",
+   "arms race",
+   "encoding"
+  ],
+  [
+   48,
+   "War saw",
+   "Warsaw",
+   "split_word"
+  ],
+  [
+   61,
+   "take & meaningful",
+   "take a meaningful",
+   "ocr"
+  ],
+  [
+   61,
+   ",maintenance",
+   "\"maintenance",
+   "ocr"
+  ],
+  [
+   61,
+   "armaments.",
+   "armaments.\"",
+   "ocr"
+  ],
+  [
+   66,
+   "have· every",
+   "have every",
+   "encoding"
+  ],
+  [
+   75,
+   ",We shall beat swords into ploughshares,",
+   "\"We shall beat swords into ploughshares\"",
+   "ocr"
+  ],
+  [
+   86,
+   "interference#",
+   "interference,",
+   "ocr"
+  ],
+  [
+   134,
+   "those- who",
+   "those who",
+   "ocr"
+  ],
+  [
+   145,
+   "Narcotic Drug?",
+   "Narcotic Drugs",
+   "ocr"
+  ],
+  [
+   146,
+   "such а programme",
+   "such a programme",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb20119f22c828fe7134ae5ee4de1ce256edc51e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3840,
+  "words_out": 3839,
+  "retention": 0.9997,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   58,
+   67,
+   186,
+   142,
+   112,
+   64,
+   70,
+   100,
+   73,
+   134,
+   91,
+   129,
+   153,
+   105,
+   94,
+   86,
+   127,
+   84,
+   189,
+   93,
+   129,
+   173,
+   103,
+   133,
+   101,
+   102,
+   87,
+   138,
+   133,
+   68,
+   129,
+   112,
+   86,
+   109,
+   79
+  ],
+  "warnings": []
+ }
+}

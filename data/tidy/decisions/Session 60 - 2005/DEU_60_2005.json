@@ -1,0 +1,84 @@
+{
+ "id": "DEU_60_2005",
+ "drop": [
+  [
+   107,
+   107,
+   "procedural"
+  ],
+  [
+   168,
+   169,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  35,
+  60,
+  85,
+  108,
+  118,
+  136,
+  150,
+  175,
+  189,
+  208,
+  231,
+  239,
+  258,
+  272
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   167,
+   "Our concerns do not relate to Iran’s right to",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The sentence on Iran's right to peaceful nuclear energy is printed twice; the repeat is removed.",
+ "unitizer_version": 1,
+ "sha1": "0933689c90172179a47c07251886568113718df2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 290,
+  "units_dropped": {
+   "procedural": 1,
+   "repeat": 2
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2290,
+  "words_out": 2252,
+  "retention": 0.9834,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   56,
+   214,
+   190,
+   205,
+   170,
+   83,
+   150,
+   114,
+   174,
+   116,
+   149,
+   172,
+   60,
+   130,
+   119,
+   150
+  ],
+  "warnings": [
+   "procedural drop [107,107] in the middle of the speech"
+  ]
+ }
+}

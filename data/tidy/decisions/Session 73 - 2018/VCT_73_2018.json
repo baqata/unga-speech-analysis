@@ -1,0 +1,80 @@
+{
+ "id": "VCT_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  17,
+  21,
+  25,
+  29,
+  35,
+  39,
+  43,
+  48,
+  53,
+  58,
+  66,
+  70,
+  75,
+  77,
+  80,
+  86,
+  95
+ ],
+ "cer": [],
+ "fix": [
+  [
+   23,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ],
+  [
+   75,
+   "self- evident",
+   "self-evident",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "548be7b5157e127434725f602d109aab6246a9ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2446,
+  "words_out": 2444,
+  "retention": 0.9992,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   71,
+   111,
+   123,
+   134,
+   129,
+   114,
+   81,
+   151,
+   99,
+   94,
+   109,
+   129,
+   114,
+   191,
+   127,
+   151,
+   64,
+   72,
+   178,
+   169,
+   33
+  ],
+  "warnings": []
+ }
+}

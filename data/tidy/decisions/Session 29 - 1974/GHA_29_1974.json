@@ -1,0 +1,209 @@
+{
+ "id": "GHA_29_1974",
+ "drop": [
+  [
+   122,
+   122,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  16,
+  23,
+  27,
+  29,
+  33,
+  38,
+  40,
+  47,
+  51,
+  55,
+  61,
+  63,
+  66,
+  72,
+  78,
+  83,
+  87,
+  90,
+  94,
+  99,
+  103,
+  106,
+  108,
+  114,
+  117,
+  119,
+  123,
+  128,
+  132,
+  135,
+  140,
+  144,
+  148,
+  153,
+  157
+ ],
+ "cer": [
+  0,
+  4,
+  8,
+  13
+ ],
+ "fix": [
+  [
+   4,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   12,
+   "his repent",
+   "his report",
+   "ocr"
+  ],
+  [
+   12,
+   " [AI9601 and Add.I]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "and-that",
+   "and that",
+   "ocr"
+  ],
+  [
+   22,
+   "Guinea- Bissau's",
+   "Guinea-Bissau's",
+   "spacing"
+  ],
+  [
+   28,
+   " [PAIGC]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "tnc accredited",
+   "the accredited",
+   "ocr"
+  ],
+  [
+   73,
+   "year.3",
+   "year.",
+   "ocr"
+  ],
+  [
+   78,
+   "' In",
+   "In",
+   "ocr"
+  ],
+  [
+   97,
+   "well- known",
+   "well-known",
+   "spacing"
+  ],
+  [
+   107,
+   "and- their",
+   "and their",
+   "ocr"
+  ],
+  [
+   131,
+   "Yourself'",
+   "Yourself\"",
+   "ocr"
+  ],
+  [
+   132,
+   "non-oil- producing",
+   "non-oil-producing",
+   "spacing"
+  ],
+  [
+   136,
+   "oil- producing",
+   "oil-producing",
+   "spacing"
+  ],
+  [
+   160,
+   "lo the",
+   "to the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c191bf4cf64165344014f1547f1d3d0ad42c822",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 4456,
+  "words_out": 4446,
+  "retention": 0.9978,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   139,
+   107,
+   127,
+   86,
+   174,
+   113,
+   65,
+   98,
+   120,
+   92,
+   170,
+   122,
+   96,
+   149,
+   125,
+   68,
+   175,
+   149,
+   106,
+   133,
+   110,
+   121,
+   140,
+   82,
+   79,
+   69,
+   193,
+   75,
+   76,
+   90,
+   125,
+   113,
+   63,
+   119,
+   82,
+   109,
+   155,
+   118,
+   113
+  ],
+  "warnings": []
+ }
+}

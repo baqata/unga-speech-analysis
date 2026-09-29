@@ -1,0 +1,60 @@
+{
+ "id": "HUN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  14,
+  19,
+  24,
+  29,
+  35,
+  40,
+  47,
+  55,
+  60,
+  66,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   64,
+   "will￼unfortunately",
+   "will unfortunately",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cde8a4c6716d1a08313296e4a850f9e4c952b1de",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1362,
+  "words_out": 1363,
+  "retention": 1.0007,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   163,
+   112,
+   81,
+   102,
+   81,
+   142,
+   80,
+   93,
+   120,
+   82,
+   153,
+   81,
+   73
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "CPV_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  22,
+  29,
+  34,
+  41,
+  46,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "If. on",
+   "If, on",
+   "ocr"
+  ],
+  [
+   42,
+   "based. low-added-value",
+   "based, low-added-value",
+   "ocr"
+  ],
+  [
+   55,
+   "2026. leaving",
+   "2026, leaving",
+   "ocr"
+  ],
+  [
+   60,
+   "all. leaving",
+   "all, leaving",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43b2f9b84cee57080b02a641fee1be2260d0f8e4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1319,
+  "words_out": 1319,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   64,
+   155,
+   214,
+   161,
+   175,
+   127,
+   135,
+   149,
+   139
+  ],
+  "warnings": []
+ }
+}

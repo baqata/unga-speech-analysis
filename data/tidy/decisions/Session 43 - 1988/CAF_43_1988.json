@@ -1,0 +1,109 @@
+{
+ "id": "CAF_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  14,
+  15,
+  18,
+  21,
+  24,
+  27,
+  29,
+  30,
+  32,
+  36,
+  39,
+  42,
+  47,
+  51,
+  52
+ ],
+ "cer": [
+  3,
+  6
+ ],
+ "fix": [
+  [
+   2,
+   "ray country",
+   "my country",
+   "ocr"
+  ],
+  [
+   14,
+   "catastrophe·,",
+   "catastrophe;",
+   "ocr"
+  ],
+  [
+   15,
+   "way& and",
+   "ways and",
+   "ocr"
+  ],
+  [
+   23,
+   "43S (1978)",
+   "435 (1978)",
+   "ocr"
+  ],
+  [
+   31,
+   "world,",
+   "world.",
+   "ocr"
+  ],
+  [
+   50,
+   "Human Sights",
+   "Human Rights",
+   "ocr"
+  ],
+  [
+   52,
+   "com promise",
+   "compromise",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 29 is a single long sentence listing several regional conflicts and cannot be split.",
+ "unitizer_version": 1,
+ "sha1": "53b7f4c457475963c066b9e66b5efcb6bbca95dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2252,
+  "words_out": 2251,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   62,
+   125,
+   89,
+   144,
+   69,
+   105,
+   96,
+   153,
+   67,
+   79,
+   227,
+   121,
+   109,
+   137,
+   136,
+   184,
+   130,
+   82,
+   136
+  ],
+  "warnings": []
+ }
+}

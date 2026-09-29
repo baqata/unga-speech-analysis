@@ -1,0 +1,58 @@
+{
+ "id": "HUN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  38,
+  48,
+  66,
+  77,
+  99,
+  122,
+  131,
+  144,
+  158,
+  176,
+  184,
+  196
+ ],
+ "cer": [
+  0,
+  196
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9236211c182dda9ba8f010ed8425a89836584d7f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1517,
+  "words_out": 1512,
+  "retention": 0.9967,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   115,
+   163,
+   74,
+   134,
+   82,
+   158,
+   182,
+   71,
+   93,
+   103,
+   130,
+   65,
+   93,
+   49
+  ],
+  "warnings": []
+ }
+}

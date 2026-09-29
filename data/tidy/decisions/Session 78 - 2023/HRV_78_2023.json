@@ -1,0 +1,114 @@
+{
+ "id": "HRV_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  11,
+  15,
+  23,
+  29,
+  38,
+  48,
+  53,
+  57,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "2015. we",
+   "2015, we",
+   "ocr"
+  ],
+  [
+   7,
+   "2023. at",
+   "2023, at",
+   "ocr"
+  ],
+  [
+   18,
+   "2023. strongly",
+   "2023, strongly",
+   "ocr"
+  ],
+  [
+   27,
+   "energy transition.",
+   "energy transition,",
+   "ocr"
+  ],
+  [
+   29,
+   "to biodiversity.",
+   "to biodiversity,",
+   "ocr"
+  ],
+  [
+   41,
+   "In that regard.",
+   "In that regard,",
+   "ocr"
+  ],
+  [
+   50,
+   "co-Chair. along",
+   "co-Chair, along",
+   "ocr"
+  ],
+  [
+   51,
+   "1.806",
+   "1,806",
+   "ocr"
+  ],
+  [
+   57,
+   "South- Eastern",
+   "South-Eastern",
+   "hyphen"
+  ],
+  [
+   58,
+   "war. such",
+   "war, such",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dcaba3aed72c79c03a3a4f2953938d086c3d21d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1639,
+  "words_out": 1637,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   40,
+   118,
+   106,
+   77,
+   87,
+   186,
+   87,
+   228,
+   246,
+   135,
+   62,
+   142,
+   123
+  ],
+  "warnings": []
+ }
+}

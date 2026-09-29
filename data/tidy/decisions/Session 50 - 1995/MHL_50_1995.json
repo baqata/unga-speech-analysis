@@ -1,0 +1,102 @@
+{
+ "id": "MHL_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  29,
+  39,
+  60,
+  75,
+  90,
+  106,
+  123,
+  138,
+  153,
+  177,
+  185,
+  203,
+  218,
+  242,
+  257,
+  271,
+  290,
+  305,
+  327,
+  346,
+  358,
+  370
+ ],
+ "cer": [
+  0,
+  4,
+  8
+ ],
+ "fix": [
+  [
+   79,
+   " (Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "General Assembly, Fiftieth Session, Plenary Meetings,",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "1st meeting, p. 7)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "74ee4ca48bc9415cbb1b22e6e78626c2c63e596b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 386,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 3338,
+  "words_out": 3316,
+  "retention": 0.9934,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   26,
+   33,
+   43,
+   155,
+   80,
+   178,
+   118,
+   119,
+   131,
+   142,
+   135,
+   120,
+   219,
+   72,
+   161,
+   129,
+   194,
+   119,
+   127,
+   151,
+   128,
+   203,
+   182,
+   112,
+   111,
+   128
+  ],
+  "warnings": []
+ }
+}

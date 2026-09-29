@@ -1,0 +1,79 @@
+{
+ "id": "GTM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  8,
+  12,
+  19,
+  23,
+  25,
+  33,
+  38,
+  45,
+  49,
+  54,
+  58,
+  62,
+  67,
+  70,
+  75,
+  78,
+  88,
+  93,
+  96
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   70,
+   "years- long",
+   "years-long",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "837c01c567f781bd0e19145e2df27fe183f27af9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2769,
+  "words_out": 2768,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   69,
+   69,
+   175,
+   105,
+   155,
+   101,
+   64,
+   200,
+   142,
+   174,
+   119,
+   146,
+   158,
+   126,
+   126,
+   105,
+   114,
+   90,
+   235,
+   157,
+   74,
+   64
+  ],
+  "warnings": []
+ }
+}

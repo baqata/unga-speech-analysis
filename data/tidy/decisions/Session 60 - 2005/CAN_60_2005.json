@@ -1,0 +1,66 @@
+{
+ "id": "CAN_60_2005",
+ "drop": [
+  [
+   84,
+   85,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  42,
+  66,
+  86,
+  100,
+  115,
+  144,
+  164,
+  191,
+  200,
+  214,
+  224,
+  254
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "16ef34fc146d210fcfe4c7088a7be331ebfcae1a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "language_note": 2,
+   "page_number": 3
+  },
+  "words_in": 2138,
+  "words_out": 2127,
+  "retention": 0.9949,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   119,
+   210,
+   206,
+   149,
+   107,
+   120,
+   231,
+   161,
+   230,
+   64,
+   117,
+   81,
+   239,
+   93
+  ],
+  "warnings": [
+   "procedural drop [84,85] in the middle of the speech"
+  ]
+ }
+}

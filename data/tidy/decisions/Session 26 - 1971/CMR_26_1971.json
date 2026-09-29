@@ -1,0 +1,154 @@
+{
+ "id": "CMR_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  12,
+  14,
+  18,
+  22,
+  25,
+  29,
+  33,
+  40,
+  45,
+  51,
+  55,
+  59,
+  65,
+  67,
+  72,
+  75,
+  77,
+  79,
+  82,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "UThant",
+   "U Thant",
+   "spacing"
+  ],
+  [
+   4,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "merged_word"
+  ],
+  [
+   6,
+   "Ids guidance",
+   "his guidance",
+   "ocr"
+  ],
+  [
+   9,
+   "VietNam",
+   "Viet-Nam",
+   "merged_word"
+  ],
+  [
+   10,
+   "claim. any",
+   "claim any",
+   "ocr"
+  ],
+  [
+   16,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "merged_word"
+  ],
+  [
+   20,
+   "VietNam",
+   "Viet-Nam",
+   "merged_word"
+  ],
+  [
+   23,
+   "one shave",
+   "ones have",
+   "spacing"
+  ],
+  [
+   24,
+   "Iv. is",
+   "It is",
+   "ocr"
+  ],
+  [
+   40,
+   "be.,",
+   "be",
+   "ocr"
+  ],
+  [
+   41,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "merged_word"
+  ],
+  [
+   74,
+   "[1780th meetingJ",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "twenty- fourth",
+   "twenty-fourth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "694b0a0917b399649db44796b89b6c89159944ff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 2707,
+  "words_out": 2701,
+  "retention": 0.9978,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   203,
+   128,
+   85,
+   66,
+   147,
+   106,
+   68,
+   75,
+   129,
+   184,
+   173,
+   211,
+   131,
+   96,
+   146,
+   96,
+   135,
+   99,
+   60,
+   85,
+   105,
+   123,
+   50
+  ],
+  "warnings": []
+ }
+}

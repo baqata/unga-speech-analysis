@@ -1,0 +1,72 @@
+{
+ "id": "NOR_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  21,
+  28,
+  32,
+  39,
+  49,
+  61,
+  66,
+  74,
+  80,
+  94,
+  101,
+  106,
+  115,
+  123
+ ],
+ "cer": [],
+ "fix": [
+  [
+   55,
+   "gender- based",
+   "gender-based",
+   "hyphen"
+  ],
+  [
+   103,
+   "2020.1 urge",
+   "2020. I urge",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b54bafa318d9f02541f46f15658d887d2c5964dd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2205,
+  "words_out": 2205,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   65,
+   144,
+   124,
+   114,
+   76,
+   105,
+   183,
+   196,
+   90,
+   147,
+   102,
+   231,
+   111,
+   138,
+   155,
+   135,
+   89
+  ],
+  "warnings": []
+ }
+}

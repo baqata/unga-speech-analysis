@@ -1,0 +1,129 @@
+{
+ "id": "BFA_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  8,
+  11,
+  15,
+  17,
+  20,
+  25,
+  34,
+  42,
+  49,
+  54,
+  62,
+  66,
+  69,
+  77,
+  82,
+  89,
+  97,
+  99,
+  103,
+  108,
+  111,
+  115,
+  119
+ ],
+ "cer": [
+  0,
+  4,
+  5,
+  7
+ ],
+ "fix": [
+  [
+   3,
+   "reply upon",
+   "rely upon",
+   "ocr"
+  ],
+  [
+   8,
+   "L might",
+   "I might",
+   "ocr"
+  ],
+  [
+   37,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   " [OAUJ",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "TTiis",
+   "This",
+   "ocr"
+  ],
+  [
+   90,
+   "be be made",
+   "be made",
+   "ocr"
+  ],
+  [
+   97,
+   " [GATT]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d5f5f0dff09f7ad9c786e4d76cc26474aacb182",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3781,
+  "words_out": 3774,
+  "retention": 0.9981,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   99,
+   31,
+   93,
+   44,
+   154,
+   102,
+   83,
+   118,
+   84,
+   163,
+   267,
+   274,
+   139,
+   189,
+   100,
+   112,
+   196,
+   147,
+   217,
+   292,
+   144,
+   103,
+   202,
+   86,
+   82,
+   156,
+   97
+  ],
+  "warnings": []
+ }
+}

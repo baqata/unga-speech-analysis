@@ -1,0 +1,135 @@
+{
+ "id": "VCT_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15,
+  20,
+  26,
+  30,
+  33,
+  36,
+  38,
+  41,
+  47,
+  52,
+  55,
+  58,
+  63,
+  68,
+  76,
+  77
+ ],
+ "cer": [
+  0,
+  76
+ ],
+ "fix": [
+  [
+   0,
+   "you,, Sir",
+   "you, Sir",
+   "ocr"
+  ],
+  [
+   0,
+   "Assembly, I am",
+   "Assembly. I am",
+   "ocr"
+  ],
+  [
+   1,
+   "predecessor/",
+   "predecessor,",
+   "ocr"
+  ],
+  [
+   1,
+   "Assembly..",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   15,
+   "Pitz-Allen",
+   "Fitz-Allen",
+   "ocr"
+  ],
+  [
+   16,
+   "follows;",
+   "follows:",
+   "ocr"
+  ],
+  [
+   19,
+   "states;",
+   "states:",
+   "ocr"
+  ],
+  [
+   22,
+   "Organization, is",
+   "Organization is",
+   "ocr"
+  ],
+  [
+   27,
+   "arras race",
+   "arms race",
+   "ocr"
+  ],
+  [
+   30,
+   "land-based Intermediate",
+   "land-based intermediate",
+   "ocr"
+  ],
+  [
+   39,
+   "(1973) .",
+   "(1973).",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f19fab3a719d6a5b4a6be4e0f7329e416358116",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2229,
+  "words_out": 2228,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   138,
+   74,
+   141,
+   108,
+   189,
+   170,
+   68,
+   129,
+   85,
+   67,
+   90,
+   119,
+   115,
+   94,
+   67,
+   135,
+   138,
+   168,
+   31,
+   102
+  ],
+  "warnings": []
+ }
+}

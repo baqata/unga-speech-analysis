@@ -1,0 +1,70 @@
+{
+ "id": "NLD_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  38,
+  67,
+  87,
+  104,
+  113,
+  129,
+  139,
+  153,
+  165,
+  181,
+  198,
+  217,
+  230,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   48,
+   "Sates",
+   "States",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35e04997f3392c75cd2ac781ff33e1bc12194573",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2110,
+  "words_out": 2106,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   49,
+   121,
+   137,
+   224,
+   144,
+   141,
+   81,
+   148,
+   87,
+   116,
+   109,
+   130,
+   143,
+   167,
+   107,
+   95,
+   107
+  ],
+  "warnings": []
+ }
+}

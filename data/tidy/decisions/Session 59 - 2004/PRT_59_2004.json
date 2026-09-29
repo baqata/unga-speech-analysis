@@ -1,0 +1,70 @@
+{
+ "id": "PRT_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  49,
+  58,
+  68,
+  79,
+  89,
+  98,
+  121,
+  134,
+  153,
+  168,
+  180,
+  200,
+  214,
+  232,
+  250
+ ],
+ "cer": [],
+ "fix": [
+  [
+   144,
+   "cooperation6",
+   "cooperation",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d686ae5e8dde1fd4cab0195df00bbc5da02fc68e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2068,
+  "words_out": 2065,
+  "retention": 0.9985,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   90,
+   142,
+   173,
+   71,
+   86,
+   93,
+   83,
+   68,
+   174,
+   101,
+   143,
+   123,
+   95,
+   176,
+   101,
+   149,
+   144,
+   53
+  ],
+  "warnings": []
+ }
+}

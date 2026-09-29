@@ -1,0 +1,316 @@
+{
+ "id": "NPL_26_1971",
+ "drop": [
+  [
+   25,
+   25,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  11,
+  16,
+  19,
+  26,
+  31,
+  36,
+  38,
+  43,
+  46,
+  50,
+  54,
+  58,
+  62,
+  67,
+  72,
+  78,
+  83,
+  86,
+  90,
+  95,
+  100,
+  111,
+  117,
+  123,
+  125,
+  129,
+  131,
+  138,
+  143
+ ],
+ "cer": [
+  0,
+  8,
+  138,
+  143
+ ],
+ "fix": [
+  [
+   4,
+   "hofiour",
+   "honour",
+   "ocr"
+  ],
+  [
+   10,
+   "Genera'",
+   "General",
+   "ocr"
+  ],
+  [
+   13,
+   "the rst",
+   "the first",
+   "ocr"
+  ],
+  [
+   14,
+   "order of, things",
+   "order of things",
+   "ocr"
+  ],
+  [
+   17,
+   "achieve on",
+   "achieved on",
+   "ocr"
+  ],
+  [
+   28,
+   "allies a traditional",
+   "allies and traditional",
+   "ocr"
+  ],
+  [
+   30,
+   "rations",
+   "relations",
+   "ocr"
+  ],
+  [
+   36,
+   "tilings",
+   "things",
+   "ocr"
+  ],
+  [
+   38,
+   " [A/L.630J",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "coexistence, It is",
+   "coexistence. It is",
+   "ocr"
+  ],
+  [
+   44,
+   "level,",
+   "level.",
+   "ocr"
+  ],
+  [
+   45,
+   "dashed,",
+   "dashed.",
+   "ocr"
+  ],
+  [
+   56,
+   "sides5",
+   "sides",
+   "ocr"
+  ],
+  [
+   60,
+   "guanntees",
+   "guarantees",
+   "ocr"
+  ],
+  [
+   70,
+   " [Af 8401/Add.l, para. 177]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   " [resolution 2734 (XXVj]",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "Second United Nations Development Decade [resolution ",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "forth- coming",
+   "forthcoming",
+   "hyphen"
+  ],
+  [
+   91,
+   "the the maintenance",
+   "the maintenance",
+   "ocr"
+  ],
+  [
+   92,
+   "waning",
+   "warning",
+   "ocr"
+  ],
+  [
+   96,
+   "95.- ",
+   "",
+   "label"
+  ],
+  [
+   96,
+   " (resolution 2660 XXV annex)",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "this this",
+   "this",
+   "ocr"
+  ],
+  [
+   108,
+   "of-a",
+   "of a",
+   "ocr"
+  ],
+  [
+   111,
+   "UNited",
+   "United",
+   "ocr"
+  ],
+  [
+   111,
+   " (resolution 2626 XXV)",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "GOvernent",
+   "Government",
+   "ocr"
+  ],
+  [
+   117,
+   "99 ",
+   "",
+   "label"
+  ],
+  [
+   119,
+   "way on their",
+   "way of their",
+   "ocr"
+  ],
+  [
+   120,
+   "by an large",
+   "by and large",
+   "ocr"
+  ],
+  [
+   121,
+   "three access",
+   "free access",
+   "ocr"
+  ],
+  [
+   123,
+   "100 ",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "101 ",
+   "",
+   "label"
+  ],
+  [
+   129,
+   "102 ",
+   "",
+   "label"
+  ],
+  [
+   135,
+   "of . peace",
+   "of peace",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4cad897cd2e2dd72c488d9af286a811b7317ae3c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "md_bold": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 3932,
+  "words_out": 3890,
+  "retention": 0.9893,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   244,
+   93,
+   105,
+   79,
+   202,
+   203,
+   136,
+   72,
+   143,
+   109,
+   101,
+   83,
+   68,
+   116,
+   75,
+   99,
+   120,
+   80,
+   81,
+   118,
+   109,
+   189,
+   163,
+   156,
+   181,
+   64,
+   107,
+   84,
+   180,
+   132,
+   198
+  ],
+  "warnings": [
+   "35 fixes"
+  ]
+ }
+}

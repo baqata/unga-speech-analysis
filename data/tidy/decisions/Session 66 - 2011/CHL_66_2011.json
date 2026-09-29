@@ -1,0 +1,72 @@
+{
+ "id": "CHL_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  26,
+  52,
+  67,
+  85,
+  106,
+  118,
+  135,
+  152,
+  177,
+  199,
+  229,
+  257,
+  287
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   260,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   261,
+   ")",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f730c2c903e4c3835f7b8c82a45c7fc1a51c7b91",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 307,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2527,
+  "words_out": 2525,
+  "retention": 0.9992,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   33,
+   179,
+   198,
+   133,
+   163,
+   170,
+   88,
+   135,
+   133,
+   201,
+   167,
+   250,
+   230,
+   245,
+   200
+  ],
+  "warnings": []
+ }
+}

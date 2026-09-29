@@ -1,0 +1,82 @@
+{
+ "id": "ITA_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  18,
+  31,
+  41,
+  53,
+  71,
+  89,
+  105,
+  114,
+  124,
+  134,
+  148,
+  166,
+  185,
+  202,
+  218,
+  228,
+  240,
+  250
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   206,
+   "view.",
+   "view,",
+   "ocr"
+  ],
+  [
+   261,
+   "(Inaugural Address, 20 January 1961)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "627349231ceb9bf30c6e9c026530493d8923a322",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 267,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2068,
+  "words_out": 2060,
+  "retention": 0.9961,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   70,
+   66,
+   97,
+   75,
+   75,
+   140,
+   134,
+   122,
+   68,
+   72,
+   76,
+   102,
+   153,
+   145,
+   145,
+   130,
+   78,
+   98,
+   82,
+   132
+  ],
+  "warnings": []
+ }
+}

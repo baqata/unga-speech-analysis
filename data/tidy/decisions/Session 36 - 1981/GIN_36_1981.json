@@ -1,0 +1,344 @@
+{
+ "id": "GIN_36_1981",
+ "drop": [
+  [
+   35,
+   35,
+   "noise"
+  ],
+  [
+   67,
+   67,
+   "noise"
+  ],
+  [
+   112,
+   147,
+   "other_speaker"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  17,
+  21,
+  23,
+  28,
+  32,
+  39,
+  43,
+  50,
+  56,
+  60,
+  66,
+  72,
+  76,
+  79,
+  82,
+  85,
+  90,
+  95,
+  99,
+  104,
+  107
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   29,
+   " [AI36I534, annex II, resolution AHG/Res.103 (XVIII)]",
+   "",
+   "label"
+  ],
+  [
+   9,
+   "Stale",
+   "State",
+   "ocr"
+  ],
+  [
+   13,
+   "international. peace",
+   "international peace",
+   "ocr"
+  ],
+  [
+   15,
+   "PUris",
+   "Paris",
+   "ocr"
+  ],
+  [
+   17,
+   "on. the part",
+   "on the part",
+   "ocr"
+  ],
+  [
+   18,
+   "In th face",
+   "In the face",
+   "ocr"
+  ],
+  [
+   30,
+   "hi Western",
+   "in Western",
+   "ocr"
+  ],
+  [
+   30,
+   "tinder the",
+   "under the",
+   "ocr"
+  ],
+  [
+   30,
+   "[OU/]",
+   "[OAU]",
+   "ocr"
+  ],
+  [
+   30,
+   "problem, lb that end",
+   "problem. To that end",
+   "ocr"
+  ],
+  [
+   31,
+   "ii in duty",
+   "is in duty",
+   "ocr"
+  ],
+  [
+   32,
+   "QAU",
+   "OAU",
+   "ocr"
+  ],
+  [
+   34,
+   "international, peace",
+   "international peace",
+   "ocr"
+  ],
+  [
+   38,
+   "feel, a",
+   "feel a",
+   "ocr"
+  ],
+  [
+   38,
+   "should-now",
+   "should now",
+   "ocr"
+  ],
+  [
+   42,
+   "movement.and the QAU",
+   "movement and the OAU",
+   "ocr"
+  ],
+  [
+   44,
+   "the ; problem",
+   "the problem",
+   "ocr"
+  ],
+  [
+   45,
+   "Jerusalem,,",
+   "Jerusalem,",
+   "ocr"
+  ],
+  [
+   47,
+   "mote than",
+   "more than",
+   "ocr"
+  ],
+  [
+   55,
+   "the ; Revolutionary",
+   "the Revolutionary",
+   "ocr"
+  ],
+  [
+   55,
+   "setUenient",
+   "settlement",
+   "ocr"
+  ],
+  [
+   55,
+   "Fabd",
+   "Fahd",
+   "ocr"
+  ],
+  [
+   58,
+   "and. eternal",
+   "and eternal",
+   "ocr"
+  ],
+  [
+   59,
+   "changing , its",
+   "changing its",
+   "ocr"
+  ],
+  [
+   60,
+   "the. United",
+   "the United",
+   "ocr"
+  ],
+  [
+   64,
+   "to the.",
+   "to the",
+   "ocr"
+  ],
+  [
+   74,
+   "not : in",
+   "not in",
+   "ocr"
+  ],
+  [
+   78,
+   "Térou",
+   "Touré",
+   "ocr"
+  ],
+  [
+   79,
+   "FRETILIN,'",
+   "FRETILIN,",
+   "ocr"
+  ],
+  [
+   79,
+   "to. recover",
+   "to recover",
+   "ocr"
+  ],
+  [
+   81,
+   "another . State",
+   "another State",
+   "ocr"
+  ],
+  [
+   93,
+   "lb that cod,",
+   "To that end,",
+   "ocr"
+  ],
+  [
+   95,
+   "co-operation .among",
+   "co-operation among",
+   "ocr"
+  ],
+  [
+   96,
+   "Action'",
+   "Action",
+   "ocr"
+  ],
+  [
+   100,
+   "on. an",
+   "on an",
+   "ocr"
+  ],
+  [
+   101,
+   "floods .and",
+   "floods and",
+   "ocr"
+  ],
+  [
+   110,
+   "I, confer",
+   "To confer",
+   "ocr"
+  ],
+  [
+   110,
+   "preserve, mankind",
+   "preserve mankind",
+   "ocr"
+  ],
+  [
+   111,
+   "and. tension",
+   "and tension",
+   "ocr"
+  ],
+  [
+   30,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 112-147 are the statement of Sao Tome and Principe (Mrs. de Amorim) appended to this file; dropped as other_speaker.",
+ "unitizer_version": 1,
+ "sha1": "de32ad9103b053d9d601bf44cc61e9069e92c6a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {
+   "noise": 2,
+   "other_speaker": 36
+  },
+  "prestrip": {
+   "language_note": 1,
+   "paragraph_number": 71
+  },
+  "words_in": 4333,
+  "words_out": 3504,
+  "retention": 0.8087,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   87,
+   117,
+   119,
+   143,
+   143,
+   83,
+   226,
+   155,
+   160,
+   130,
+   181,
+   137,
+   104,
+   142,
+   176,
+   92,
+   146,
+   107,
+   87,
+   129,
+   147,
+   161,
+   244,
+   107,
+   181
+  ],
+  "warnings": [
+   "retention 0.81 < 0.85",
+   "40 fixes"
+  ]
+ }
+}

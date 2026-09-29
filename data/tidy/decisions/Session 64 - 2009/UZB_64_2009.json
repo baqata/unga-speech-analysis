@@ -1,0 +1,47 @@
+{
+ "id": "UZB_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  40,
+  59,
+  73,
+  82,
+  93,
+  108,
+  119,
+  143
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b144b1ee2849ba461a573121cb1b609ddc42f716",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1116,
+  "words_out": 1115,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   162,
+   159,
+   143,
+   114,
+   68,
+   87,
+   107,
+   78,
+   166,
+   31
+  ],
+  "warnings": []
+ }
+}

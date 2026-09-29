@@ -1,0 +1,221 @@
+{
+ "id": "ALB_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  8,
+  13,
+  17,
+  18,
+  20,
+  25,
+  27,
+  32,
+  35,
+  38,
+  44,
+  49,
+  50,
+  53,
+  55,
+  64,
+  69,
+  71,
+  76,
+  80,
+  85,
+  88,
+  91,
+  102,
+  106,
+  108,
+  113,
+  118,
+  123,
+  126,
+  131,
+  135,
+  141,
+  144,
+  148,
+  153,
+  154,
+  157,
+  161,
+  166,
+  171,
+  176,
+  181,
+  183,
+  186,
+  189,
+  191,
+  193,
+  197
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "33: ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   22,
+   "straggle",
+   "struggle",
+   "ocr"
+  ],
+  [
+   41,
+   "and the more the peoples strengthen their own struggle ",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "'ever",
+   "ever",
+   "ocr"
+  ],
+  [
+   60,
+   "peoples^",
+   "peoples",
+   "ocr"
+  ],
+  [
+   102,
+   "Day an",
+   "Dayan",
+   "split_word"
+  ],
+  [
+   122,
+   "West em",
+   "Western",
+   "split_word"
+  ],
+  [
+   139,
+   "its;",
+   "its",
+   "ocr"
+  ],
+  [
+   144,
+   "\"He creation",
+   "the creation",
+   "ocr"
+  ],
+  [
+   147,
+   "condemned ,by",
+   "condemned by",
+   "ocr"
+  ],
+  [
+   183,
+   " [A/8043 and Add.I and 2]",
+   "",
+   "label"
+  ],
+  [
+   189,
+   "lo exercise",
+   "to exercise",
+   "ocr"
+  ],
+  [
+   191,
+   "future,",
+   "future.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 51 breaks off mid-sentence ('the true') before unit 52; a repeated clause in unit 41 is removed.",
+ "unitizer_version": 1,
+ "sha1": "b158a7537adde3673d841cf3e23b5073bbefd646",
+ "layout": "lines",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 59,
+   "page_number": 1
+  },
+  "words_in": 8247,
+  "words_out": 8227,
+  "retention": 0.9976,
+  "n_paragraphs": 52,
+  "paragraph_words": [
+   27,
+   284,
+   90,
+   243,
+   220,
+   118,
+   97,
+   279,
+   100,
+   293,
+   307,
+   183,
+   142,
+   194,
+   90,
+   126,
+   96,
+   247,
+   254,
+   81,
+   99,
+   200,
+   101,
+   179,
+   163,
+   265,
+   138,
+   62,
+   196,
+   133,
+   215,
+   144,
+   136,
+   116,
+   242,
+   117,
+   146,
+   232,
+   98,
+   169,
+   182,
+   85,
+   179,
+   136,
+   169,
+   81,
+   157,
+   120,
+   104,
+   102,
+   174,
+   116
+  ],
+  "warnings": []
+ }
+}

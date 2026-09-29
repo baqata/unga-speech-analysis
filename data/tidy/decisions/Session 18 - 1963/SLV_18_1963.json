@@ -1,0 +1,139 @@
+{
+ "id": "SLV_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  17,
+  21,
+  24,
+  32,
+  38,
+  41,
+  44,
+  46,
+  48,
+  52,
+  56,
+  59,
+  62,
+  67,
+  71,
+  75,
+  80,
+  87,
+  92,
+  95,
+  97,
+  99,
+  102,
+  105,
+  106,
+  109,
+  111,
+  115
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Fora small",
+   "For a small",
+   "merged_word"
+  ],
+  [
+   16,
+   "coexistence, We cherish",
+   "coexistence. We cherish",
+   "ocr"
+  ],
+  [
+   21,
+   "the Illustrious",
+   "the illustrious",
+   "ocr"
+  ],
+  [
+   28,
+   "Spain, When we",
+   "Spain. When we",
+   "ocr"
+  ],
+  [
+   40,
+   "hope,",
+   "hope.",
+   "ocr"
+  ],
+  [
+   56,
+   "inter- American",
+   "inter-American",
+   "spacing"
+  ],
+  [
+   98,
+   "Council, The statement",
+   "Council. The statement",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4034851c4224b571dcb4f0da62b90361408685b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 48
+  },
+  "words_in": 4927,
+  "words_out": 4926,
+  "retention": 0.9998,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   213,
+   173,
+   166,
+   107,
+   128,
+   158,
+   132,
+   241,
+   195,
+   197,
+   137,
+   79,
+   69,
+   125,
+   149,
+   165,
+   143,
+   172,
+   134,
+   171,
+   160,
+   190,
+   154,
+   113,
+   101,
+   131,
+   149,
+   184,
+   180,
+   164,
+   105,
+   161,
+   80
+  ],
+  "warnings": []
+ }
+}

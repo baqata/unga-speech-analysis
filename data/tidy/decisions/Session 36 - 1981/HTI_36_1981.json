@@ -1,0 +1,128 @@
+{
+ "id": "HTI_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  12,
+  18,
+  24,
+  33,
+  41,
+  44,
+  48,
+  53,
+  56,
+  60,
+  65,
+  70,
+  76,
+  78,
+  81,
+  87,
+  90,
+  99,
+  102,
+  107,
+  114,
+  121,
+  129,
+  132
+ ],
+ "cer": [
+  0,
+  5,
+  10
+ ],
+ "fix": [
+  [
+   9,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   48,
+   "many, peoples",
+   "many peoples",
+   "ocr"
+  ],
+  [
+   55,
+   "Countries.4 The",
+   "Countries. The",
+   "ocr"
+  ],
+  [
+   64,
+   "Hie Organization",
+   "The Organization",
+   "ocr"
+  ],
+  [
+   81,
+   "the' material",
+   "the material",
+   "ocr"
+  ],
+  [
+   89,
+   "Republic.of",
+   "Republic of",
+   "ocr"
+  ],
+  [
+   93,
+   " [NATO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77ce262499985095ce6d146fa6aa6f89fb2fa39b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3834,
+  "words_out": 3833,
+  "retention": 0.9997,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   124,
+   205,
+   60,
+   152,
+   185,
+   231,
+   177,
+   93,
+   143,
+   219,
+   113,
+   142,
+   83,
+   149,
+   135,
+   73,
+   131,
+   159,
+   68,
+   216,
+   78,
+   146,
+   176,
+   172,
+   179,
+   112,
+   112
+  ],
+  "warnings": []
+ }
+}

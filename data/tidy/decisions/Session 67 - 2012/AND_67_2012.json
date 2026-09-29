@@ -1,0 +1,70 @@
+{
+ "id": "AND_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  17,
+  27,
+  40,
+  51,
+  69,
+  94,
+  107,
+  118,
+  137,
+  157,
+  171,
+  181,
+  197,
+  214,
+  224
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   59,
+   "inf lexible",
+   "inflexible",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f10c67a1df8faf006f70c0d50c63a52cbcb5e5a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2011,
+  "words_out": 2003,
+  "retention": 0.996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   31,
+   110,
+   85,
+   116,
+   104,
+   156,
+   204,
+   113,
+   92,
+   150,
+   190,
+   126,
+   88,
+   127,
+   132,
+   84,
+   95
+  ],
+  "warnings": []
+ }
+}

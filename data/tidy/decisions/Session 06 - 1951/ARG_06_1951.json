@@ -1,0 +1,76 @@
+{
+ "id": "ARG_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  13,
+  16,
+  19,
+  24,
+  30,
+  36,
+  44,
+  47,
+  51,
+  58,
+  60,
+  63,
+  66,
+  68
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "the-peoples",
+   "the peoples",
+   "spacing"
+  ],
+  [
+   27,
+   "wounds,",
+   "wounds.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6b54f601bc528b580765865ec9ff113f50e24611",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2131,
+  "words_out": 2130,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   60,
+   104,
+   103,
+   116,
+   147,
+   123,
+   171,
+   143,
+   166,
+   194,
+   86,
+   107,
+   174,
+   102,
+   102,
+   69,
+   120,
+   43
+  ],
+  "warnings": []
+ }
+}

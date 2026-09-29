@@ -1,0 +1,88 @@
+{
+ "id": "KHM_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  33,
+  47,
+  64,
+  74,
+  88,
+  104,
+  115,
+  125,
+  137,
+  155,
+  166,
+  181,
+  196,
+  212,
+  221
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   46,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   161,
+   "ìrectangular",
+   "“rectangular",
+   "encoding"
+  ],
+  [
+   162,
+   "strategyî",
+   "strategy”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "764353f4f45f494109f33ebb42a5403398c4f36a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 232,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1795,
+  "words_out": 1794,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   136,
+   129,
+   117,
+   126,
+   86,
+   114,
+   118,
+   84,
+   79,
+   83,
+   124,
+   74,
+   109,
+   126,
+   126,
+   70,
+   93
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "BOL_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  11,
+  15,
+  18,
+  22,
+  25,
+  28,
+  31,
+  35,
+  40,
+  43,
+  46
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "this great.",
+   "this great",
+   "ocr"
+  ],
+  [
+   4,
+   "Charter,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   19,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   21,
+   "direction,",
+   "direction.",
+   "ocr"
+  ],
+  [
+   26,
+   "one. feature",
+   "one feature",
+   "ocr"
+  ],
+  [
+   44,
+   "modem",
+   "modern",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "203c3568cc181d4af319179d8049b968e382c243",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 1951,
+  "words_out": 1951,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   66,
+   169,
+   118,
+   72,
+   135,
+   111,
+   107,
+   84,
+   130,
+   119,
+   140,
+   188,
+   90,
+   295,
+   127
+  ],
+  "warnings": []
+ }
+}

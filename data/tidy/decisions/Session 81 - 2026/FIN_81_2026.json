@@ -1,0 +1,132 @@
+{
+ "id": "FIN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   168,
+   168,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  13,
+  21,
+  34,
+  47,
+  63,
+  77,
+  93,
+  103,
+  114,
+  123,
+  130,
+  140,
+  146,
+  154,
+  161,
+  167
+ ],
+ "cer": [
+  2,
+  167
+ ],
+ "fix": [
+  [
+   22,
+   "pragmatic fin",
+   "pragmatic Finn",
+   "asr_name"
+  ],
+  [
+   27,
+   "Talbot",
+   "Talbott",
+   "asr_name"
+  ],
+  [
+   48,
+   "the Americans",
+   "the Americas",
+   "asr_name"
+  ],
+  [
+   127,
+   "Yutant",
+   "U Thant",
+   "asr_name"
+  ],
+  [
+   2,
+   "President Trump, President,",
+   "Madam President,",
+   "asr_term"
+  ],
+  [
+   76,
+   "agreements. multilateralism",
+   "agreements. Multilateralism",
+   "asr_term"
+  ],
+  [
+   75,
+   "abandoned",
+   "abandon",
+   "asr_term"
+  ],
+  [
+   98,
+   "power",
+   "powers",
+   "asr_term"
+  ],
+  [
+   84,
+   "kick-on",
+   "knock-on",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Americas per Spanish 'las Américas'; knock-on per Spanish 'efecto multiplicador'; Strobe Talbott and U Thant are the standard spellings (UN, Wikipedia). Main-agent audit: unit 2 'President Trump, President,' -> 'Madam President,' (asr_term): re-decoding the opening hears 'Madam President, excellencies' in 3 of 3 windows and the Spanish has 'Señora Presidenta'; 'President Trump' is a speech-to-text invention (it also opens FRA, GRC and JOR at a window start). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 76 'agreements. multilateralism' -> 'agreements. Multilateralism'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 75 'abandoned' -> 'abandon' (decodes hear 'abandoned' only at 0.73 / 0.58; 'lead us to abandoned cooperation' does not fit; sounds alike; ES 'no deberíamos abandonar la cooperación'; UN 'abandon'); spot 6 unit 84 'kick-on' -> 'knock-on' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'kick-on' (decodes 0.94-0.99, the UN transcript; forced scoring -0.6 vs 'knock-on' -13.0), not an English expression; the Spanish 'romper las normas tiene un efecto multiplicador' shows the knock-on effect); spot 7 unit 98 'power' -> 'powers' (both decodes hear 'powers' (0.75 / 0.73); 'we see major power still engaged' does not fit without an article; UN 'powers')",
+ "unitizer_version": 1,
+ "sha1": "dc295c9fb1d74eac676a1cbeb68a009e957fa3b5",
+ "layout": "single",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2517,
+  "words_out": 2470,
+  "retention": 0.9813,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   89,
+   134,
+   95,
+   205,
+   158,
+   226,
+   247,
+   219,
+   201,
+   184,
+   108,
+   108,
+   139,
+   66,
+   114,
+   88,
+   85,
+   4
+  ],
+  "warnings": []
+ }
+}

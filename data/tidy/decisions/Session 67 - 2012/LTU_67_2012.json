@@ -1,0 +1,50 @@
+{
+ "id": "LTU_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  21,
+  30,
+  37,
+  46,
+  55,
+  64,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   53,
+   "f low",
+   "flow",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dc8ea5dd53f9aecdd7403d317c584479e35b3567",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 701,
+  "words_out": 698,
+  "retention": 0.9957,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   94,
+   82,
+   73,
+   54,
+   69,
+   66,
+   75,
+   123,
+   62
+  ],
+  "warnings": []
+ }
+}

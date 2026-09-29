@@ -1,0 +1,49 @@
+{
+ "id": "HTI_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  26,
+  44,
+  54,
+  64,
+  89,
+  103,
+  117,
+  137,
+  156
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d97f773a0ed441a9ecb5512a16dd4e1fd8ad7187",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1291,
+  "words_out": 1289,
+  "retention": 0.9985,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   219,
+   148,
+   82,
+   87,
+   199,
+   99,
+   99,
+   155,
+   140,
+   61
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "NGA_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  31,
+  53,
+  74,
+  85,
+  114,
+  129,
+  142
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d9a113d40d1d17cb37bdb59e5c5ac1d2be4ac10",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 2
+  },
+  "words_in": 1161,
+  "words_out": 1154,
+  "retention": 0.994,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   122,
+   132,
+   164,
+   171,
+   80,
+   207,
+   107,
+   104,
+   67
+  ],
+  "warnings": []
+ }
+}

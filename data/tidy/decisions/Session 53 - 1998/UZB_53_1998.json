@@ -1,0 +1,60 @@
+{
+ "id": "UZB_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  40,
+  60,
+  72,
+  81,
+  102,
+  125,
+  145,
+  170,
+  183
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   139,
+   " (A/52/PV.92)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d22bbc50e7ef554aec02aadbef76a6c6e28da300",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1580,
+  "words_out": 1575,
+  "retention": 0.9968,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   95,
+   91,
+   150,
+   164,
+   112,
+   77,
+   177,
+   176,
+   138,
+   220,
+   116,
+   59
+  ],
+  "warnings": []
+ }
+}

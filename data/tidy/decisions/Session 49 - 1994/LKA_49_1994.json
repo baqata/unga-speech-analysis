@@ -1,0 +1,117 @@
+{
+ "id": "LKA_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  27,
+  34,
+  44,
+  52,
+  64,
+  74,
+  83,
+  103,
+  115,
+  129,
+  137,
+  148,
+  156,
+  172,
+  186,
+  196,
+  217,
+  224,
+  238,
+  251,
+  274,
+  287,
+  302,
+  314,
+  327,
+  343,
+  353,
+  375
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   167,
+   "Part Xl",
+   "Part XI",
+   "ocr"
+  ],
+  [
+   372,
+   "(Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   373,
+   "General Assembly, Eleventh Session, 590th",
+   "",
+   "label"
+  ],
+  [
+   374,
+   "meeting, p. 235, para. 41)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c2c5cd01a696f99d39a32d244f7d23f9e9d1913f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 395,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3179,
+  "words_out": 3162,
+  "retention": 0.9947,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   45,
+   61,
+   110,
+   63,
+   85,
+   59,
+   104,
+   85,
+   84,
+   142,
+   91,
+   111,
+   61,
+   87,
+   66,
+   133,
+   110,
+   81,
+   169,
+   57,
+   113,
+   108,
+   178,
+   111,
+   129,
+   91,
+   112,
+   123,
+   72,
+   160,
+   161
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "id": "JPN_30_1975",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  9,
+  12,
+  19,
+  23,
+  27,
+  29,
+  34,
+  37,
+  40,
+  42,
+  44,
+  49,
+  51,
+  59,
+  63,
+  69,
+  73,
+  76,
+  82,
+  84,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   " [see A/10327, para. 10]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "tor the",
+   "for the",
+   "ocr"
+  ],
+  [
+   30,
+   "Non-Self- Governing",
+   "Non-Self-Governing",
+   "hyphen"
+  ],
+  [
+   37,
+   "disarmament, Despite",
+   "disarmament. Despite",
+   "ocr"
+  ],
+  [
+   38,
+   " [AjlOOOIjAdd.1]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   " [AjC.lj 1068, annex I]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   " [resolution 2373 (XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "non-nuclear- weapon",
+   "non-nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   42,
+   "nuclear- test ban",
+   "nuclear-test ban",
+   "hyphen"
+  ],
+  [
+   43,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   45,
+   "1 urgently",
+   "I urgently",
+   "ocr"
+  ],
+  [
+   61,
+   "full- scale",
+   "full-scale",
+   "hyphen"
+  ],
+  [
+   74,
+   " [resolution 3362 (S-Vll)]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "once- and-for-all",
+   "once-and-for-all",
+   "hyphen"
+  ],
+  [
+   84,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   85,
+   "lhat policy",
+   "That policy",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "truncated_start"
+ ],
+ "note": "The source begins mid-sentence; the opening fragment (unit 0) is dropped and the greetings are missing.",
+ "unitizer_version": 1,
+ "sha1": "df02ebb83408503e10d3e51250496f00c22f34d8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2637,
+  "words_out": 2611,
+  "retention": 0.9901,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   173,
+   76,
+   66,
+   189,
+   106,
+   146,
+   65,
+   96,
+   121,
+   89,
+   91,
+   117,
+   144,
+   65,
+   177,
+   103,
+   167,
+   114,
+   74,
+   151,
+   72,
+   97,
+   112
+  ],
+  "warnings": []
+ }
+}

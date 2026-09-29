@@ -1,0 +1,150 @@
+{
+ "id": "GTM_46_1991",
+ "drop": [
+  [
+   36,
+   36,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  15,
+  20,
+  23,
+  25,
+  26,
+  29,
+  32,
+  34,
+  37,
+  40,
+  41,
+  43,
+  45,
+  47,
+  49,
+  52,
+  55,
+  58,
+  62,
+  63,
+  64,
+  67,
+  70,
+  72,
+  75,
+  78,
+  80,
+  85,
+  87,
+  91,
+  97
+ ],
+ "cer": [
+  6,
+  9,
+  15
+ ],
+ "fix": [
+  [
+   7,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   9,
+   "Peres de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   26,
+   "Mow more",
+   "Now more",
+   "ocr"
+  ],
+  [
+   43,
+   "faring a",
+   "facing a",
+   "ocr"
+  ],
+  [
+   70,
+   "not fall",
+   "not fail",
+   "ocr"
+  ],
+  [
+   76,
+   "biosphere some",
+   "biosphere zone",
+   "ocr"
+  ],
+  [
+   99,
+   "(The Holy Bible. Matthew 5:9) ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 36 restates unit 35 in different wording (UNCTAD VIII sentence given twice in the source); dropped as a repeat.",
+ "unitizer_version": 1,
+ "sha1": "9b21e42e63dbd37c50d6571410374a9714b93837",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 3680,
+  "words_out": 3635,
+  "retention": 0.9878,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   112,
+   79,
+   97,
+   153,
+   101,
+   162,
+   70,
+   81,
+   113,
+   132,
+   79,
+   74,
+   83,
+   68,
+   66,
+   98,
+   107,
+   134,
+   92,
+   103,
+   78,
+   124,
+   70,
+   61,
+   71,
+   133,
+   131,
+   95,
+   129,
+   110,
+   95,
+   87,
+   113,
+   249,
+   85
+  ],
+  "warnings": []
+ }
+}

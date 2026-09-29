@@ -1,0 +1,49 @@
+{
+ "id": "MCO_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  37,
+  60,
+  79,
+  99,
+  118,
+  138,
+  166,
+  184
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "753e704aaa217295abe0ed872c30bd8d4b869aac",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1569,
+  "words_out": 1569,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   111,
+   184,
+   184,
+   146,
+   145,
+   148,
+   167,
+   223,
+   129,
+   132
+  ],
+  "warnings": []
+ }
+}

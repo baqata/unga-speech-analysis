@@ -1,0 +1,76 @@
+{
+ "id": "BRB_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  24,
+  40,
+  54,
+  70,
+  79,
+  93,
+  103,
+  119,
+  133,
+  152,
+  171,
+  191,
+  206
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "o conference",
+   "a conference",
+   "ocr"
+  ],
+  [
+   72,
+   "'.'his",
+   "This",
+   "ocr"
+  ],
+  [
+   122,
+   "out there",
+   "but there",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eba9001bddf038c8c567f502df6998442d084cdb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2298,
+  "words_out": 2298,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   126,
+   114,
+   161,
+   154,
+   163,
+   86,
+   152,
+   104,
+   173,
+   153,
+   216,
+   214,
+   220,
+   173,
+   89
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "LTU_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  24,
+  36,
+  54,
+  62,
+  75,
+  88,
+  111,
+  134,
+  148,
+  170,
+  179,
+  197,
+  209,
+  221,
+  233
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   76,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   77,
+   "tomorrowâs",
+   "tomorrow’s",
+   "encoding"
+  ],
+  [
+   82,
+   "Organizationâs",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   89,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9114acfd154ac69485710c445ac9b5232ef386aa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 12,
+   "page_number": 2
+  },
+  "words_in": 2033,
+  "words_out": 2027,
+  "retention": 0.997,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   89,
+   111,
+   101,
+   149,
+   63,
+   104,
+   97,
+   194,
+   188,
+   122,
+   176,
+   79,
+   137,
+   101,
+   101,
+   97,
+   118
+  ],
+  "warnings": []
+ }
+}

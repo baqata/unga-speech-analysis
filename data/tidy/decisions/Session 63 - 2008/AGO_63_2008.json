@@ -1,0 +1,55 @@
+{
+ "id": "AGO_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  21,
+  37,
+  63,
+  75,
+  99,
+  119,
+  145,
+  162,
+  185,
+  193,
+  200
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68289b9a6991ccbff759f9c68cae911436a751ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1682,
+  "words_out": 1682,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   66,
+   99,
+   133,
+   203,
+   86,
+   194,
+   183,
+   202,
+   136,
+   186,
+   65,
+   52,
+   77
+  ],
+  "warnings": []
+ }
+}

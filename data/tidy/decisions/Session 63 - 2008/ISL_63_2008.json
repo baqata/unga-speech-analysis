@@ -1,0 +1,49 @@
+{
+ "id": "ISL_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  20,
+  41,
+  62,
+  86,
+  106,
+  123,
+  147,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0610682d6490bd552168e37e130bff9e53896239",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1447,
+  "words_out": 1444,
+  "retention": 0.9979,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   37,
+   114,
+   161,
+   158,
+   180,
+   149,
+   140,
+   204,
+   241,
+   60
+  ],
+  "warnings": []
+ }
+}

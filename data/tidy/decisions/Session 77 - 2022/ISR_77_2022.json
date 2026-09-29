@@ -1,0 +1,80 @@
+{
+ "id": "ISR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  17,
+  24,
+  28,
+  39,
+  45,
+  56,
+  61,
+  80,
+  84,
+  87,
+  95,
+  103,
+  111,
+  121,
+  125,
+  136,
+  144,
+  150
+ ],
+ "cer": [],
+ "fix": [
+  [
+   38,
+   "high- tech",
+   "high-tech",
+   "hyphen"
+  ],
+  [
+   150,
+   " (Numbers 6:26)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76b2e444a4f26c9f25ad05c5b2fb097204f5b5b9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2546,
+  "words_out": 2543,
+  "retention": 0.9988,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   108,
+   110,
+   136,
+   118,
+   74,
+   187,
+   89,
+   196,
+   69,
+   237,
+   65,
+   79,
+   103,
+   106,
+   185,
+   116,
+   92,
+   188,
+   87,
+   102,
+   96
+  ],
+  "warnings": []
+ }
+}

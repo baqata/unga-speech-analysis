@@ -1,0 +1,53 @@
+{
+ "id": "ARG_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  32,
+  60,
+  83,
+  96,
+  120,
+  142,
+  149,
+  175,
+  189,
+  211
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d5c330051d8ebdaa1d9d4269712fb9317deff3c2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1696,
+  "words_out": 1695,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   143,
+   109,
+   211,
+   179,
+   101,
+   194,
+   184,
+   52,
+   203,
+   105,
+   172,
+   42
+  ],
+  "warnings": []
+ }
+}

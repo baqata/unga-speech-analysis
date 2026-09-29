@@ -1,0 +1,90 @@
+{
+ "id": "BEN_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  13,
+  17,
+  21,
+  25,
+  28,
+  30,
+  34,
+  39,
+  44,
+  47,
+  49,
+  51,
+  60,
+  65,
+  67
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- fourth",
+   "seventy-fourth",
+   "hyphen"
+  ],
+  [
+   19,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   22,
+   " (A/47/277\\ para. 17)",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "human- capital",
+   "human-capital",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6189734ca53236988b5b4dd5e77ad215d86731da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2181,
+  "words_out": 2174,
+  "retention": 0.9968,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   143,
+   94,
+   86,
+   151,
+   152,
+   133,
+   93,
+   88,
+   67,
+   110,
+   147,
+   135,
+   108,
+   69,
+   73,
+   182,
+   171,
+   79,
+   93
+  ],
+  "warnings": []
+ }
+}

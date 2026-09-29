@@ -1,0 +1,80 @@
+{
+ "id": "AUT_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  22,
+  26,
+  30,
+  34,
+  36,
+  44,
+  47,
+  56,
+  62,
+  66,
+  69,
+  73,
+  82,
+  84,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   75,
+   "Graxi",
+   "Craxi",
+   "ocr"
+  ],
+  [
+   81,
+   "Graxi",
+   "Craxi",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7bdfbbde4776ea9ed906321fa4d7d23213e9152",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2153,
+  "words_out": 2153,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   133,
+   157,
+   115,
+   100,
+   120,
+   94,
+   108,
+   75,
+   164,
+   58,
+   144,
+   100,
+   103,
+   108,
+   88,
+   173,
+   79,
+   75,
+   159
+  ],
+  "warnings": []
+ }
+}

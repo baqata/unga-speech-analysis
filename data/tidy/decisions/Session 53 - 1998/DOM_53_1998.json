@@ -1,0 +1,78 @@
+{
+ "id": "DOM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  24,
+  47,
+  73,
+  95,
+  119,
+  143,
+  163,
+  184,
+  195,
+  215,
+  224,
+  246,
+  255
+ ],
+ "cer": [
+  9
+ ],
+ "fix": [
+  [
+   80,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   197,
+   "d?être",
+   "d’être",
+   "encoding"
+  ],
+  [
+   237,
+   "women?s",
+   "women’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b420eb080eca59f08943d25ef08ec15d438c10c4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2122,
+  "words_out": 2120,
+  "retention": 0.9991,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   67,
+   125,
+   178,
+   212,
+   190,
+   208,
+   189,
+   166,
+   186,
+   86,
+   162,
+   67,
+   167,
+   70,
+   47
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "LBY_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  28,
+  49,
+  61,
+  73,
+  92,
+  114,
+  134,
+  155,
+  174,
+  196,
+  221,
+  241,
+  262
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   " (decision 62/557)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff58b76e086232ef6eb6c97406d177cb304b3e11",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 285,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2164,
+  "words_out": 2158,
+  "retention": 0.9972,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   111,
+   115,
+   154,
+   99,
+   86,
+   143,
+   165,
+   148,
+   164,
+   138,
+   163,
+   179,
+   152,
+   161,
+   180
+  ],
+  "warnings": []
+ }
+}

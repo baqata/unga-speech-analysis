@@ -1,0 +1,96 @@
+{
+ "id": "NER_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  29,
+  41,
+  59,
+  89,
+  105,
+  134,
+  155,
+  173,
+  200,
+  219,
+  233,
+  259
+ ],
+ "cer": [
+  0,
+  15,
+  219
+ ],
+ "fix": [
+  [
+   7,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   13,
+   "President?s",
+   "President’s",
+   "encoding"
+  ],
+  [
+   50,
+   " (S/1998/318)",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "people?s",
+   "people’s",
+   "encoding"
+  ],
+  [
+   185,
+   "community?s",
+   "community’s",
+   "encoding"
+  ],
+  [
+   224,
+   "Children?s",
+   "Children’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06d79dc8918efeee99c4b106b4dcbdb2a8e4e486",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2248,
+  "words_out": 2246,
+  "retention": 0.9991,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   124,
+   127,
+   104,
+   139,
+   243,
+   126,
+   236,
+   179,
+   146,
+   227,
+   153,
+   122,
+   218,
+   102
+  ],
+  "warnings": []
+ }
+}

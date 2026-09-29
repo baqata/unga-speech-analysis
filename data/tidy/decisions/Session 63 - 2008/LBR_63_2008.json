@@ -1,0 +1,63 @@
+{
+ "id": "LBR_63_2008",
+ "drop": [
+  [
+   276,
+   277,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  24,
+  46,
+  66,
+  93,
+  107,
+  135,
+  157,
+  187,
+  211,
+  237,
+  261,
+  278
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7ef7a02b9398fbdff9c2068582179c0d2651c7d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 284,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2300,
+  "words_out": 2292,
+  "retention": 0.9965,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   192,
+   164,
+   153,
+   222,
+   120,
+   218,
+   193,
+   243,
+   207,
+   206,
+   199,
+   122,
+   53
+  ],
+  "warnings": []
+ }
+}

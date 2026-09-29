@@ -1,0 +1,84 @@
+{
+ "id": "JPN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  18,
+  24,
+  29,
+  34,
+  39,
+  41,
+  48,
+  54,
+  61,
+  66,
+  71,
+  75,
+  80,
+  85,
+  89,
+  92,
+  95
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   " (resolution ES- 11/1)",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "Kim Jong II",
+   "Kim Jong Il",
+   "ocr"
+  ],
+  [
+   84,
+   "human- resource",
+   "human-resource",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "caa543dedfc976ea8d85d265515038b65695b3eb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2325,
+  "words_out": 2320,
+  "retention": 0.9978,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   122,
+   82,
+   128,
+   165,
+   105,
+   71,
+   136,
+   67,
+   159,
+   118,
+   111,
+   112,
+   211,
+   94,
+   164,
+   140,
+   101,
+   99,
+   78,
+   57
+  ],
+  "warnings": []
+ }
+}

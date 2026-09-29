@@ -1,0 +1,78 @@
+{
+ "id": "QAT_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   68,
+   69,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  17,
+  27,
+  34,
+  38,
+  43,
+  46,
+  50,
+  57,
+  60,
+  63,
+  66,
+  67
+ ],
+ "cer": [
+  2,
+  67
+ ],
+ "fix": [
+  [
+   57,
+   "Mr. Nawsalam",
+   "Mr. Nawaf Salam",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2eba4f49b187bf0b9412ba84463c9665a9558834",
+ "layout": "single",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1873,
+  "words_out": 1821,
+  "retention": 0.9722,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   29,
+   152,
+   176,
+   208,
+   123,
+   189,
+   96,
+   130,
+   119,
+   241,
+   91,
+   76,
+   151,
+   29,
+   11
+  ],
+  "warnings": []
+ }
+}

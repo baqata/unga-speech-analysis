@@ -1,0 +1,110 @@
+{
+ "id": "CHN_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  15,
+  24,
+  32,
+  36,
+  40,
+  49,
+  55,
+  60,
+  67,
+  72,
+  78,
+  83,
+  88,
+  96,
+  102,
+  107,
+  114,
+  117,
+  122,
+  128,
+  133,
+  138,
+  146
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "beer frequent",
+   "been frequent",
+   "ocr"
+  ],
+  [
+   98,
+   "made: them",
+   "made them",
+   "ocr"
+  ],
+  [
+   110,
+   "Nagaiand",
+   "Nagaland",
+   "ocr"
+  ],
+  [
+   119,
+   "ail sorts",
+   "all sorts",
+   "ocr"
+  ],
+  [
+   139,
+   "fur ever",
+   "for ever",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "29a43663bde29d7e4d82cf491cda8d2895c62445",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3056,
+  "words_out": 3022,
+  "retention": 0.9889,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   54,
+   89,
+   165,
+   178,
+   140,
+   110,
+   108,
+   150,
+   132,
+   81,
+   114,
+   85,
+   143,
+   95,
+   87,
+   168,
+   94,
+   98,
+   160,
+   66,
+   114,
+   90,
+   108,
+   140,
+   155,
+   98
+  ],
+  "warnings": []
+ }
+}

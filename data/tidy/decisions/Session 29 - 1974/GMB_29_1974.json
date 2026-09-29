@@ -1,0 +1,102 @@
+{
+ "id": "GMB_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  12,
+  14,
+  18,
+  21,
+  23,
+  25,
+  29,
+  33,
+  37,
+  41,
+  49,
+  51,
+  54,
+  58,
+  60,
+  64,
+  68,
+  72,
+  75
+ ],
+ "cer": [
+  0,
+  4,
+  6,
+  12
+ ],
+ "fix": [
+  [
+   10,
+   "very soap",
+   "very soon",
+   "ocr"
+  ],
+  [
+   21,
+   "recently ,",
+   "recently,",
+   "spacing"
+  ],
+  [
+   38,
+   "ail occupied",
+   "all occupied",
+   "ocr"
+  ],
+  [
+   74,
+   " [2249th meeting, para 204]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f361c04f1a6d19915b4dc5b4f54af5fda67e9da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 22
+  },
+  "words_in": 2433,
+  "words_out": 2428,
+  "retention": 0.9979,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   170,
+   107,
+   169,
+   58,
+   98,
+   72,
+   81,
+   76,
+   90,
+   105,
+   72,
+   120,
+   206,
+   72,
+   66,
+   159,
+   69,
+   96,
+   197,
+   154,
+   94,
+   97
+  ],
+  "warnings": []
+ }
+}

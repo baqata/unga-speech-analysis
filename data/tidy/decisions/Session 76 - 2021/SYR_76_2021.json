@@ -1,0 +1,96 @@
+{
+ "id": "SYR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  12,
+  16,
+  22,
+  25,
+  34,
+  39,
+  44,
+  46,
+  49,
+  52,
+  54,
+  58,
+  60,
+  66,
+  70,
+  76,
+  79,
+  84,
+  87,
+  89,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   55,
+   "Syrian- led",
+   "Syrian-led",
+   "spacing"
+  ],
+  [
+   64,
+   "so- called",
+   "so-called",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa93fa1e2e6333be694c93c082ecb3f0d9816396",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2631,
+  "words_out": 2628,
+  "retention": 0.9989,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   74,
+   71,
+   81,
+   81,
+   81,
+   94,
+   110,
+   173,
+   167,
+   135,
+   68,
+   83,
+   99,
+   76,
+   86,
+   65,
+   201,
+   105,
+   127,
+   92,
+   115,
+   143,
+   75,
+   86,
+   140
+  ],
+  "warnings": []
+ }
+}

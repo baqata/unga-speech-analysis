@@ -1,0 +1,55 @@
+{
+ "id": "AUT_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  30,
+  42,
+  59,
+  78,
+  94,
+  116,
+  139,
+  155,
+  174,
+  192,
+  211,
+  228
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06a4ea058b30b4350baebb1f749bba750c642de6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1910,
+  "words_out": 1910,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   111,
+   129,
+   93,
+   129,
+   143,
+   123,
+   180,
+   177,
+   133,
+   148,
+   125,
+   151,
+   131,
+   137
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "ARM_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  19,
+  30,
+  43,
+  52,
+  61,
+  77,
+  86,
+  94,
+  108,
+  128,
+  149,
+  162,
+  176,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Jeremi..",
+   "Jeremić.",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90b6e6dc351db7252e2613c328d5103cfc9c59b4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "language_note": 1
+  },
+  "words_in": 1507,
+  "words_out": 1505,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   35,
+   100,
+   76,
+   99,
+   71,
+   77,
+   133,
+   71,
+   63,
+   108,
+   147,
+   159,
+   94,
+   112,
+   108,
+   52
+  ],
+  "warnings": []
+ }
+}

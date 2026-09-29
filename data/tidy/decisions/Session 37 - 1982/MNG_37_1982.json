@@ -1,0 +1,302 @@
+{
+ "id": "MNG_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  44,
+  69,
+  124,
+  139,
+  186,
+  211,
+  324,
+  376,
+  398,
+  441,
+  474
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   7,
+   "its peace",
+   "its peace-",
+   "spacing"
+  ],
+  [
+   16,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   24,
+   "military industrial",
+   "military-industrial",
+   "spacing"
+  ],
+  [
+   53,
+   "super Power",
+   "super-Power",
+   "spacing"
+  ],
+  [
+   87,
+   "thebulwark",
+   "the bulwark",
+   "merged_word"
+  ],
+  [
+   88,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   89,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   98,
+   "anti imperialist and anti",
+   "anti-imperialist and anti-",
+   "spacing"
+  ],
+  [
+   100,
+   "sober minded",
+   "sober-minded",
+   "spacing"
+  ],
+  [
+   114,
+   "long term",
+   "long-term",
+   "spacing"
+  ],
+  [
+   125,
+   "far reaching",
+   "far-reaching",
+   "spacing"
+  ],
+  [
+   152,
+   "Soviet United States",
+   "Soviet-United States",
+   "spacing"
+  ],
+  [
+   175,
+   "theSoviet",
+   "the Soviet",
+   "merged_word"
+  ],
+  [
+   183,
+   "medium range",
+   "medium-range",
+   "spacing"
+  ],
+  [
+   215,
+   "Forces;",
+   "Forces,",
+   "ocr"
+  ],
+  [
+   227,
+   "Co operation",
+   "Co-operation",
+   "spacing"
+  ],
+  [
+   234,
+   "confidence building",
+   "confidence-building",
+   "spacing"
+  ],
+  [
+   245,
+   "Developments: the",
+   "Developments in the",
+   "ocr"
+  ],
+  [
+   247,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   252,
+   "so called United States Israeli",
+   "so-called United States-Israeli",
+   "spacing"
+  ],
+  [
+   262,
+   "Copies Republic",
+   "People’s Republic",
+   "ocr"
+  ],
+  [
+   279,
+   "in South",
+   "in South-",
+   "spacing"
+  ],
+  [
+   283,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   285,
+   "Indo China",
+   "Indo-China",
+   "spacing"
+  ],
+  [
+   290,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   291,
+   "of Indo",
+   "of Indo-",
+   "spacing"
+  ],
+  [
+   293,
+   "military political",
+   "military-political",
+   "spacing"
+  ],
+  [
+   295,
+   "so calted",
+   "so-called",
+   "ocr"
+  ],
+  [
+   300,
+   "of Indo",
+   "of Indo-",
+   "spacing"
+  ],
+  [
+   302,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   304,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   316,
+   "good neighborly",
+   "good-neighborly",
+   "spacing"
+  ],
+  [
+   318,
+   "Indo China",
+   "Indo-China",
+   "spacing"
+  ],
+  [
+   344,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   348,
+   "confidence building",
+   "confidence-building",
+   "spacing"
+  ],
+  [
+   349,
+   "the Govern",
+   "the Govern-",
+   "hyphen"
+  ],
+  [
+   376,
+   "Mongolian;",
+   "Mongolian",
+   "ocr"
+  ],
+  [
+   379,
+   "securement",
+   "settlement",
+   "ocr"
+  ],
+  [
+   384,
+   "cur initiative",
+   "our initiative",
+   "ocr"
+  ],
+  [
+   441,
+   "neo colonialism",
+   "neo-colonialism",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts forces long paragraphs; the first paragraph mixes congratulations and substance.",
+ "unitizer_version": 1,
+ "sha1": "cacaae7c705349e81a8715df3a801a458a343b79",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 498,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3642,
+  "words_out": 3610,
+  "retention": 0.9912,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   315,
+   183,
+   391,
+   109,
+   351,
+   189,
+   827,
+   389,
+   163,
+   295,
+   228,
+   170
+  ],
+  "warnings": [
+   "paragraph at unit 69 has 391 words",
+   "paragraph at unit 139 has 351 words",
+   "paragraph at unit 211 has 827 words",
+   "paragraph at unit 324 has 389 words",
+   "41 fixes"
+  ]
+ }
+}

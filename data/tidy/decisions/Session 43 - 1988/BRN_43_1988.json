@@ -1,0 +1,82 @@
+{
+ "id": "BRN_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  13,
+  19,
+  23,
+  26,
+  27,
+  32,
+  35,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Union,",
+   "Union.",
+   "ocr"
+  ],
+  [
+   16,
+   "Members, \"today",
+   "Members. Today",
+   "ocr"
+  ],
+  [
+   23,
+   "its ~ rule",
+   "its rule",
+   "ocr"
+  ],
+  [
+   24,
+   "PŁO",
+   "PLO",
+   "encoding"
+  ],
+  [
+   42,
+   "Ms must",
+   "We must",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed58a9334859accd32d42f695fce03820837a580",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1174,
+  "words_out": 1173,
+  "retention": 0.9991,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   84,
+   131,
+   72,
+   96,
+   159,
+   74,
+   74,
+   75,
+   121,
+   81,
+   134,
+   72
+  ],
+  "warnings": []
+ }
+}

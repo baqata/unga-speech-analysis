@@ -1,0 +1,69 @@
+{
+ "id": "NLD_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  20,
+  26,
+  37,
+  43,
+  47,
+  50,
+  56,
+  58,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "Ore cause",
+   "the cause",
+   "ocr"
+  ],
+  [
+   44,
+   "into. two",
+   "into two",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fdbbf5f9b16a8ffcf84e99400c3aa0a39b04e8f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 18
+  },
+  "words_in": 2011,
+  "words_out": 2011,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   82,
+   126,
+   215,
+   208,
+   175,
+   314,
+   172,
+   135,
+   72,
+   196,
+   65,
+   217,
+   34
+  ],
+  "warnings": []
+ }
+}

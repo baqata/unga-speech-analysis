@@ -1,0 +1,71 @@
+{
+ "id": "GTM_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  12,
+  14,
+  18,
+  22,
+  27,
+  30,
+  33,
+  38,
+  40,
+  44
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "protection,",
+   "protection",
+   "ocr"
+  ],
+  [
+   31,
+   "laud",
+   "land",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "843e6f9646c51bdb68b2a0981740e4d83e274495",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 23
+  },
+  "words_in": 1655,
+  "words_out": 1652,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   25,
+   135,
+   156,
+   127,
+   116,
+   127,
+   146,
+   204,
+   115,
+   107,
+   144,
+   93,
+   116,
+   41
+  ],
+  "warnings": []
+ }
+}

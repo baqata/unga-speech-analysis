@@ -1,0 +1,92 @@
+{
+ "id": "GUY_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   105,
+   105,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  14,
+  19,
+  29,
+  37,
+  45,
+  50,
+  56,
+  65,
+  68,
+  74,
+  79,
+  90,
+  95,
+  103
+ ],
+ "cer": [
+  2,
+  103
+ ],
+ "fix": [
+  [
+   3,
+   "Philmon Yang",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   64,
+   "Motley",
+   "Mottley",
+   "asr_name"
+  ],
+  [
+   64,
+   "Bridgestone Initiative",
+   "Bridgetown Initiative",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "96bbd843386459562bfcdde97a47141a28989029",
+ "layout": "single",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2220,
+  "words_out": 2167,
+  "retention": 0.9761,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   51,
+   179,
+   146,
+   204,
+   137,
+   152,
+   132,
+   129,
+   218,
+   67,
+   173,
+   106,
+   173,
+   96,
+   186,
+   18
+  ],
+  "warnings": []
+ }
+}

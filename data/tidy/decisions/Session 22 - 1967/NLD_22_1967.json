@@ -1,0 +1,122 @@
+{
+ "id": "NLD_22_1967",
+ "drop": [
+  [
+   32,
+   32,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  15,
+  21,
+  25,
+  29,
+  34,
+  40,
+  46,
+  54,
+  62,
+  66,
+  72,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   " [A/6701]",
+   "",
+   "label"
+  ],
+  [
+   5,
+   ", The war",
+   ". The war",
+   "ocr"
+  ],
+  [
+   12,
+   "negotiations, In this context",
+   "negotiations. In this context",
+   "ocr"
+  ],
+  [
+   39,
+   "Secretary- General's",
+   "Secretary-General's",
+   "hyphen"
+  ],
+  [
+   63,
+   "through International",
+   "through international",
+   "ocr"
+  ],
+  [
+   64,
+   "in Itemized",
+   "in itemized",
+   "ocr"
+  ],
+  [
+   67,
+   "complex, Is evident",
+   "complex, is evident",
+   "ocr"
+  ],
+  [
+   69,
+   "Assembly Is over",
+   "Assembly is over",
+   "ocr"
+  ],
+  [
+   73,
+   "do Indeed",
+   "do indeed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "unit 32 is a bare document reference after the quotation",
+ "unitizer_version": 1,
+ "sha1": "87487c65b9a9e19c07c3029f99ec1729231d8f1e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 1822,
+  "words_out": 1800,
+  "retention": 0.9879,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   75,
+   67,
+   212,
+   139,
+   61,
+   98,
+   119,
+   110,
+   122,
+   156,
+   146,
+   112,
+   146,
+   105,
+   132
+  ],
+  "warnings": []
+ }
+}

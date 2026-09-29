@@ -1,0 +1,66 @@
+{
+ "id": "BEL_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   74,
+   75,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  8,
+  16,
+  30,
+  43,
+  53,
+  70,
+  73
+ ],
+ "cer": [
+  2,
+  73
+ ],
+ "fix": [
+  [
+   70,
+   "Tukidides",
+   "Thucydides",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f21991c9fd431b1ca049a4a6b7f55b00354c436",
+ "layout": "single",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 839,
+  "words_out": 777,
+  "retention": 0.9261,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   7,
+   81,
+   117,
+   117,
+   147,
+   103,
+   155,
+   47,
+   3
+  ],
+  "warnings": []
+ }
+}

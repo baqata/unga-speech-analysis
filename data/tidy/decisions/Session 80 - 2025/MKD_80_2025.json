@@ -1,0 +1,84 @@
+{
+ "id": "MKD_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  16,
+  21,
+  27,
+  33,
+  37,
+  42,
+  49,
+  57,
+  64,
+  69,
+  77,
+  85,
+  91
+ ],
+ "cer": [
+  91
+ ],
+ "fix": [
+  [
+   28,
+   "Press Agreement",
+   "Prespa Agreement",
+   "asr_name"
+  ],
+  [
+   50,
+   "Mellian",
+   "Melian",
+   "asr_name"
+  ],
+  [
+   87,
+   "Doug Hammerskjöld",
+   "Dag Hammarskjöld",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8b0cd453ab6c6c7ef6dbd6ccf6d6d1b30e1b116",
+ "layout": "single",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1922,
+  "words_out": 1889,
+  "retention": 0.9828,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   127,
+   198,
+   108,
+   118,
+   117,
+   77,
+   134,
+   140,
+   212,
+   170,
+   63,
+   148,
+   172,
+   103,
+   2
+  ],
+  "warnings": []
+ }
+}

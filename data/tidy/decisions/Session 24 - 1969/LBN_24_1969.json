@@ -1,0 +1,104 @@
+{
+ "id": "LBN_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  36,
+  48,
+  65,
+  74,
+  83,
+  99,
+  112,
+  128,
+  148,
+  156
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "peace. security",
+   "peace, security",
+   "ocr"
+  ],
+  [
+   51,
+   "in ail",
+   "in all",
+   "ocr"
+  ],
+  [
+   67,
+   "Heights; And",
+   "Heights. And",
+   "ocr"
+  ],
+  [
+   73,
+   "community“",
+   "community”",
+   "ocr"
+  ],
+  [
+   79,
+   "opinion, Behind",
+   "opinion. Behind",
+   "ocr"
+  ],
+  [
+   93,
+   "\"borders",
+   "borders",
+   "ocr"
+  ],
+  [
+   166,
+   "cur national",
+   "our national",
+   "ocr"
+  ],
+  [
+   170,
+   "an the part",
+   "on the part",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "330c06f8adc39d433e35a1afdfd4dcc2cb635760",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 1596,
+  "words_out": 1577,
+  "retention": 0.9881,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   92,
+   97,
+   145,
+   101,
+   158,
+   78,
+   80,
+   157,
+   111,
+   148,
+   169,
+   77,
+   164
+  ],
+  "warnings": []
+ }
+}

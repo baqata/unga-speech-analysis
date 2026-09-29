@@ -1,0 +1,47 @@
+{
+ "id": "CMR_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  48,
+  79,
+  96,
+  116,
+  139,
+  155,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "92e3cd18a11f38035d91a078ae8021fdefbc82b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 195,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1507,
+  "words_out": 1505,
+  "retention": 0.9987,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   201,
+   193,
+   225,
+   125,
+   153,
+   171,
+   124,
+   180,
+   133
+  ],
+  "warnings": []
+ }
+}

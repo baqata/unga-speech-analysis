@@ -1,0 +1,100 @@
+{
+ "id": "LCA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  10,
+  16,
+  21,
+  25,
+  27,
+  32,
+  36,
+  39,
+  44,
+  46,
+  50,
+  53,
+  57,
+  61,
+  65,
+  71,
+  74,
+  79,
+  81,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   35,
+   "super- Power",
+   "super-Power",
+   "hyphen"
+  ],
+  [
+   63,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   79,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "651bb64b7c5632f4ce14f5a6779fc341e74b402c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2945,
+  "words_out": 2930,
+  "retention": 0.9949,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   43,
+   126,
+   134,
+   89,
+   192,
+   136,
+   115,
+   91,
+   105,
+   73,
+   90,
+   117,
+   69,
+   137,
+   166,
+   87,
+   159,
+   110,
+   194,
+   153,
+   192,
+   99,
+   129,
+   124
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "DNK_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  15,
+  20,
+  25,
+  30,
+  33,
+  39,
+  42,
+  46,
+  52,
+  60,
+  64,
+  68,
+  70,
+  74,
+  79,
+  82,
+  86,
+  90
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   " [Al100011Add.!]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "proposal,",
+   "proposal.",
+   "ocr"
+  ],
+  [
+   29,
+   "back-grounds",
+   "backgrounds",
+   "hyphen"
+  ],
+  [
+   38,
+   "net-work",
+   "network",
+   "hyphen"
+  ],
+  [
+   40,
+   "well- known",
+   "well-known",
+   "hyphen"
+  ],
+  [
+   41,
+   " [EEC]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   63,
+   "world,",
+   "world.",
+   "ocr"
+  ],
+  [
+   71,
+   "decision- making",
+   "decision-making",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61a8091c459ac5619f5fdbc00331eec023b9619d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2258,
+  "words_out": 2247,
+  "retention": 0.9951,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   94,
+   130,
+   193,
+   116,
+   109,
+   101,
+   78,
+   110,
+   89,
+   70,
+   97,
+   193,
+   120,
+   117,
+   85,
+   93,
+   92,
+   66,
+   85,
+   78,
+   131
+  ],
+  "warnings": []
+ }
+}

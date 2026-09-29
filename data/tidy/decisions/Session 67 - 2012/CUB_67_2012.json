@@ -1,0 +1,68 @@
+{
+ "id": "CUB_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  25,
+  42,
+  52,
+  61,
+  74,
+  99,
+  105,
+  119,
+  128,
+  137,
+  147,
+  155,
+  181
+ ],
+ "cer": [],
+ "fix": [
+  [
+   89,
+   "f lows",
+   "flows",
+   "split_word"
+  ],
+  [
+   165,
+   "Cuba.It",
+   "Cuba. It",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e980c961c8f0850491f9faf8b28ed8b1cede4d3d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1582,
+  "words_out": 1582,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   97,
+   116,
+   133,
+   83,
+   80,
+   111,
+   192,
+   63,
+   117,
+   62,
+   79,
+   87,
+   64,
+   223,
+   75
+  ],
+  "warnings": []
+ }
+}

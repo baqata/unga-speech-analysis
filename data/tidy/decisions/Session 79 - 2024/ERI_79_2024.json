@@ -1,0 +1,48 @@
+{
+ "id": "ERI_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  12,
+  19,
+  24,
+  30,
+  33,
+  37
+ ],
+ "cer": [
+  0,
+  37
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e96f18a664d75cb86c33b6db729834c7a8c191ec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1128,
+  "words_out": 1128,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   24,
+   106,
+   146,
+   178,
+   188,
+   155,
+   125,
+   77,
+   112,
+   17
+  ],
+  "warnings": []
+ }
+}

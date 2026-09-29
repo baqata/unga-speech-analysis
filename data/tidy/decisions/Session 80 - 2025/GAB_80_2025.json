@@ -1,0 +1,80 @@
+{
+ "id": "GAB_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   58,
+   59,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  8,
+  14,
+  19,
+  25,
+  30,
+  33,
+  38,
+  41,
+  45,
+  52,
+  56
+ ],
+ "cer": [
+  2,
+  56
+ ],
+ "fix": [
+  [
+   54,
+   "SIRT",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   54,
+   "Izzouini",
+   "Ezulwini",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44e2e0c9cdd58da881d93abedea0d0f56a47c109",
+ "layout": "single",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1389,
+  "words_out": 1316,
+  "retention": 0.9474,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   139,
+   32,
+   205,
+   111,
+   120,
+   136,
+   72,
+   120,
+   76,
+   68,
+   147,
+   78,
+   12
+  ],
+  "warnings": []
+ }
+}

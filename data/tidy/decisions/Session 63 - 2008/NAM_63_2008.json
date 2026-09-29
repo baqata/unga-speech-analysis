@@ -1,0 +1,63 @@
+{
+ "id": "NAM_63_2008",
+ "drop": [
+  [
+   107,
+   108,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  23,
+  32,
+  44,
+  58,
+  76,
+  90,
+  109,
+  125,
+  143,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f87e002f95be9de69088d1c08ca95d15ab2f610",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1300,
+  "words_out": 1292,
+  "retention": 0.9938,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   75,
+   101,
+   72,
+   85,
+   109,
+   131,
+   98,
+   137,
+   117,
+   146,
+   64,
+   157
+  ],
+  "warnings": [
+   "procedural drop [107,108] in the middle of the speech"
+  ]
+ }
+}

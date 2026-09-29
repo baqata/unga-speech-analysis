@@ -1,0 +1,268 @@
+{
+ "id": "ISL_13_1958",
+ "drop": [
+  [
+   102,
+   102,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  11,
+  13,
+  24,
+  34,
+  38,
+  44,
+  49,
+  55,
+  61,
+  64,
+  70,
+  74,
+  76,
+  78,
+  85,
+  88,
+  93,
+  97,
+  103,
+  106,
+  110,
+  115,
+  118,
+  122,
+  126,
+  128,
+  132,
+  138,
+  142,
+  144,
+  153,
+  155,
+  158,
+  161,
+  163
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "make Its",
+   "make its",
+   "ocr"
+  ],
+  [
+   18,
+   "well- meaning",
+   "well-meaning",
+   "hyphen"
+  ],
+  [
+   26,
+   "Including",
+   "including",
+   "ocr"
+  ],
+  [
+   27,
+   "would he needed",
+   "would be needed",
+   "ocr"
+  ],
+  [
+   43,
+   "Inconsistent",
+   "inconsistent",
+   "ocr"
+  ],
+  [
+   50,
+   "East, Fortunately",
+   "East. Fortunately",
+   "ocr"
+  ],
+  [
+   50,
+   "[1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "oi humanitarian",
+   "or humanitarian",
+   "ocr"
+  ],
+  [
+   55,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   60,
+   "all Its",
+   "all its",
+   "ocr"
+  ],
+  [
+   62,
+   "Hero again",
+   "Here again",
+   "ocr"
+  ],
+  [
+   64,
+   "that Is the",
+   "that is the",
+   "ocr"
+  ],
+  [
+   65,
+   "world In general",
+   "world in general",
+   "ocr"
+  ],
+  [
+   66,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   70,
+   "Intensify",
+   "intensify",
+   "ocr"
+  ],
+  [
+   75,
+   "arrangements, to",
+   "arrangements to",
+   "ocr"
+  ],
+  [
+   82,
+   "exist; Consequently",
+   "exist. Consequently",
+   "ocr"
+  ],
+  [
+   103,
+   "ten- mile",
+   "ten-mile",
+   "hyphen"
+  ],
+  [
+   106,
+   "Issued",
+   "issued",
+   "ocr"
+  ],
+  [
+   122,
+   "With our",
+   "with our",
+   "ocr"
+  ],
+  [
+   129,
+   "that It did",
+   "that it did",
+   "ocr"
+  ],
+  [
+   132,
+   "twelve- mile",
+   "twelve-mile",
+   "hyphen"
+  ],
+  [
+   139,
+   "egress",
+   "express",
+   "ocr"
+  ],
+  [
+   139,
+   "waters; One",
+   "waters. One",
+   "ocr"
+  ],
+  [
+   141,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   152,
+   "tactics'",
+   "tactics",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 102 is a stray paragraph number ('156.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "d821860c0beb1f356631fcd2000a105d71d4709f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 4960,
+  "words_out": 4952,
+  "retention": 0.9984,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   173,
+   197,
+   67,
+   231,
+   260,
+   162,
+   271,
+   190,
+   189,
+   173,
+   69,
+   151,
+   90,
+   82,
+   105,
+   133,
+   100,
+   127,
+   100,
+   127,
+   75,
+   112,
+   127,
+   107,
+   70,
+   106,
+   102,
+   117,
+   164,
+   151,
+   99,
+   219,
+   84,
+   130,
+   107,
+   102,
+   83
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

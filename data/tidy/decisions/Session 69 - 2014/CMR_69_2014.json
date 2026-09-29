@@ -1,0 +1,39 @@
+{
+ "id": "CMR_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  21,
+  35,
+  51,
+  75
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Statement of the President delivered on his behalf as a quotation.",
+ "unitizer_version": 1,
+ "sha1": "84d7f5dd45811bc6a6ebd258f6d76fc7bb9c436d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 696,
+  "words_out": 695,
+  "retention": 0.9986,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   41,
+   117,
+   115,
+   117,
+   193,
+   112
+  ],
+  "warnings": []
+ }
+}

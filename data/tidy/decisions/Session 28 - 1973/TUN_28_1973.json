@@ -1,0 +1,185 @@
+{
+ "id": "TUN_28_1973",
+ "drop": [
+  [
+   29,
+   29,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  9,
+  12,
+  14,
+  18,
+  20,
+  23,
+  26,
+  31,
+  35,
+  39,
+  47,
+  53,
+  57,
+  63,
+  69,
+  71,
+  79,
+  86,
+  89,
+  95,
+  101,
+  109,
+  111,
+  114,
+  116,
+  118,
+  119,
+  122,
+  129,
+  130,
+  131,
+  137,
+  139,
+  145,
+  151,
+  155,
+  159,
+  161,
+  164,
+  169,
+  170
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   51,
+   "you' wish",
+   "you wish",
+   "ocr"
+  ],
+  [
+   78,
+   "de- Zionize",
+   "de-Zionize",
+   "spacing"
+  ],
+  [
+   84,
+   "before .",
+   "before",
+   "ocr"
+  ],
+  [
+   89,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   100,
+   "non-aligned . countries",
+   "non-aligned countries",
+   "ocr"
+  ],
+  [
+   121,
+   "is. so",
+   "is so",
+   "ocr"
+  ],
+  [
+   138,
+   " [A/9191]",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "will.",
+   "will,",
+   "ocr"
+  ],
+  [
+   32,
+   " [resolution 181(H)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4cbbbd0ba9deb9590b2fe36e0e892a49e694d56",
+ "layout": "lines",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 52
+  },
+  "words_in": 5403,
+  "words_out": 5394,
+  "retention": 0.9983,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   93,
+   182,
+   65,
+   96,
+   118,
+   107,
+   92,
+   127,
+   122,
+   90,
+   169,
+   218,
+   218,
+   147,
+   145,
+   141,
+   103,
+   157,
+   214,
+   64,
+   189,
+   238,
+   129,
+   119,
+   125,
+   106,
+   65,
+   76,
+   113,
+   119,
+   68,
+   76,
+   128,
+   96,
+   145,
+   150,
+   225,
+   65,
+   97,
+   113,
+   89,
+   135,
+   60
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "BLZ_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  21,
+  36,
+  52,
+  66,
+  79,
+  96,
+  115,
+  136,
+  155,
+  173,
+  182,
+  199,
+  216,
+  224,
+  243,
+  255,
+  267,
+  277,
+  296,
+  306,
+  317,
+  320,
+  332,
+  346
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   216,
+   "climate",
+   "climate-",
+   "hyphen"
+  ],
+  [
+   217,
+   "-change",
+   "change",
+   "hyphen"
+  ],
+  [
+   262,
+   "-isease-related",
+   "disease-related",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e7aeb030aa80f8bf8fc3613c47f5e87c5e356792",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 360,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2873,
+  "words_out": 2865,
+  "retention": 0.9972,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   108,
+   65,
+   122,
+   136,
+   112,
+   93,
+   136,
+   138,
+   172,
+   154,
+   142,
+   71,
+   125,
+   139,
+   62,
+   157,
+   111,
+   79,
+   86,
+   139,
+   82,
+   87,
+   21,
+   98,
+   120,
+   110
+  ],
+  "warnings": []
+ }
+}

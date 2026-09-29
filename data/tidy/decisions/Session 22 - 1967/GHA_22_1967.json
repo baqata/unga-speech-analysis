@@ -1,0 +1,199 @@
+{
+ "id": "GHA_22_1967",
+ "drop": [
+  [
+   74,
+   75,
+   "noise"
+  ],
+  [
+   78,
+   78,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  15,
+  23,
+  28,
+  34,
+  38,
+  43,
+  51,
+  62,
+  68,
+  76,
+  79,
+  85,
+  88,
+  93,
+  101,
+  106,
+  112,
+  116,
+  125,
+  129,
+  135,
+  138,
+  143,
+  147,
+  156,
+  159,
+  166,
+  172,
+  178,
+  181,
+  187,
+  192,
+  200,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Mr, Abdul",
+   "Mr. Abdul",
+   "ocr"
+  ],
+  [
+   8,
+   "all- important",
+   "all-important",
+   "hyphen"
+  ],
+  [
+   8,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   16,
+   "many times over, I consider",
+   "many times over. I consider",
+   "ocr"
+  ],
+  [
+   35,
+   "our- eyes",
+   "our eyes",
+   "hyphen"
+  ],
+  [
+   36,
+   "Rhodesia, The Government",
+   "Rhodesia. The Government",
+   "ocr"
+  ],
+  [
+   48,
+   "to hack to the full",
+   "to back to the full",
+   "ocr"
+  ],
+  [
+   105,
+   "United Nations, In a sense",
+   "United Nations. In a sense",
+   "ocr"
+  ],
+  [
+   137,
+   " [resolutions 2253 (ES-V) and 2254 (ES-V)]",
+   "",
+   "label"
+  ],
+  [
+   162,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   189,
+   "the world, When the",
+   "the world. When the",
+   "ocr"
+  ],
+  [
+   189,
+   "for Immediate",
+   "for immediate",
+   "ocr"
+  ],
+  [
+   193,
+   "in 1968, One of",
+   "in 1968. One of",
+   "ocr"
+  ],
+  [
+   201,
+   " [item 37]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 74-75 and 78 are only the source references of the quoted Seminar declaration (A/6818, para. 124) and were dropped.",
+ "unitizer_version": 1,
+ "sha1": "6d8efc4a5a9e1be5361b7b0a0a3caec73652ad07",
+ "layout": "lines",
+ "stats": {
+  "n_units": 211,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 5290,
+  "words_out": 5212,
+  "retention": 0.9853,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   253,
+   147,
+   237,
+   91,
+   139,
+   152,
+   141,
+   217,
+   244,
+   142,
+   163,
+   64,
+   158,
+   95,
+   111,
+   229,
+   165,
+   147,
+   96,
+   146,
+   88,
+   111,
+   66,
+   90,
+   93,
+   212,
+   57,
+   225,
+   177,
+   110,
+   68,
+   82,
+   209,
+   208,
+   121,
+   158
+  ],
+  "warnings": []
+ }
+}

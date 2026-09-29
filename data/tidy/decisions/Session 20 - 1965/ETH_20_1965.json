@@ -1,0 +1,109 @@
+{
+ "id": "ETH_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  18,
+  25,
+  32,
+  38,
+  41,
+  48,
+  51,
+  60,
+  64,
+  72,
+  79,
+  86,
+  92,
+  100,
+  106
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   22,
+   "That eventually is",
+   "That eventuality is",
+   "ocr"
+  ],
+  [
+   80,
+   "nuclear- free",
+   "nuclear-free",
+   "hyphen"
+  ],
+  [
+   81,
+   "would, prevent",
+   "would prevent",
+   "ocr"
+  ],
+  [
+   89,
+   "welcome and, support",
+   "welcome and support",
+   "ocr"
+  ],
+  [
+   108,
+   "spared to, enable",
+   "spared to enable",
+   "ocr"
+  ],
+  [
+   46,
+   " [A/6000/Rev.1]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   " [A/5958]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91dd984901d8b4ddc1bc52f07d11a191b71788f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3205,
+  "words_out": 3176,
+  "retention": 0.991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   104,
+   147,
+   89,
+   204,
+   186,
+   171,
+   150,
+   112,
+   173,
+   93,
+   304,
+   148,
+   158,
+   159,
+   142,
+   160,
+   215,
+   188,
+   273
+  ],
+  "warnings": []
+ }
+}

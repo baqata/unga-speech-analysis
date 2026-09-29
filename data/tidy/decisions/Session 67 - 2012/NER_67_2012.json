@@ -1,0 +1,62 @@
+{
+ "id": "NER_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  34,
+  43,
+  62,
+  73,
+  83,
+  92,
+  113,
+  127,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   47,
+   "(A/66/PV.20, p. 17)",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "f looding",
+   "flooding",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c35c7b0a178f75d5c1187482746eb56279986fd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1347,
+  "words_out": 1342,
+  "retention": 0.9963,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   113,
+   181,
+   75,
+   175,
+   88,
+   84,
+   85,
+   197,
+   111,
+   81,
+   152
+  ],
+  "warnings": []
+ }
+}

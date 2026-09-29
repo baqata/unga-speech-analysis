@@ -1,0 +1,77 @@
+{
+ "id": "DMA_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  27,
+  45,
+  60,
+  81,
+  96,
+  107,
+  125,
+  140,
+  159,
+  179
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   86,
+   "9rave",
+   "grave",
+   "ocr"
+  ],
+  [
+   99,
+   " (A/46/PV.59. p. 16)",
+   "",
+   "label"
+  ],
+  [
+   171,
+   "(A/46/PV.59. p. 16)",
+   "",
+   "label"
+  ],
+  [
+   175,
+   " (A/46/PV.59. p. 13)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c4ae9d20c9e7111765b2326659eb82e3e5d20bb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2135,
+  "words_out": 2126,
+  "retention": 0.9958,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   86,
+   211,
+   191,
+   164,
+   233,
+   161,
+   105,
+   196,
+   171,
+   194,
+   205,
+   209
+  ],
+  "warnings": []
+ }
+}

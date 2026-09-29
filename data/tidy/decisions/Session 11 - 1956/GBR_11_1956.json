@@ -1,0 +1,91 @@
+{
+ "id": "GBR_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  19,
+  23,
+  29,
+  32,
+  35,
+  42,
+  49,
+  54,
+  60,
+  67,
+  70,
+  73,
+  78,
+  83,
+  88,
+  93,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   47,
+   "hall been",
+   "had been",
+   "ocr"
+  ],
+  [
+   57,
+   "have o shown",
+   "have shown",
+   "ocr"
+  ],
+  [
+   70,
+   "[A/3366)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0c050e8f71fe70ce07e14ab942c9c24db142b1a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 33
+  },
+  "words_in": 2717,
+  "words_out": 2712,
+  "retention": 0.9982,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   91,
+   70,
+   173,
+   113,
+   123,
+   176,
+   123,
+   105,
+   195,
+   149,
+   71,
+   172,
+   160,
+   89,
+   72,
+   162,
+   179,
+   115,
+   128,
+   135,
+   111
+  ],
+  "warnings": []
+ }
+}

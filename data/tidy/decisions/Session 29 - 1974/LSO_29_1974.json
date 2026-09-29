@@ -1,0 +1,128 @@
+{
+ "id": "LSO_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  11,
+  15,
+  19,
+  22,
+  25,
+  31,
+  37,
+  40,
+  44,
+  48,
+  52,
+  57,
+  64,
+  68,
+  71,
+  74,
+  80
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   7,
+   "under achievement",
+   "underachievement",
+   "split_word"
+  ],
+  [
+   7,
+   "achievement ,",
+   "achievement,",
+   "spacing"
+  ],
+  [
+   8,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "Excepted",
+   "accepted",
+   "ocr"
+  ],
+  [
+   51,
+   "self- sufficiency",
+   "self-sufficiency",
+   "spacing"
+  ],
+  [
+   55,
+   "com-plaining",
+   "complaining",
+   "hyphen"
+  ],
+  [
+   57,
+   " [PAIGC]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " [FRELIMO]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "rebel.racist",
+   "rebel racist",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ce3d8608922748e37dbec4359e0a8467b402f2a0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 21
+  },
+  "words_in": 2367,
+  "words_out": 2362,
+  "retention": 0.9979,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   81,
+   89,
+   92,
+   69,
+   96,
+   83,
+   105,
+   87,
+   108,
+   167,
+   132,
+   92,
+   99,
+   118,
+   147,
+   213,
+   106,
+   74,
+   118,
+   119,
+   167
+  ],
+  "warnings": []
+ }
+}

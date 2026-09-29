@@ -1,0 +1,82 @@
+{
+ "id": "PHL_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  21,
+  34,
+  45,
+  55,
+  64,
+  83,
+  105,
+  116,
+  138,
+  148,
+  166,
+  177,
+  191,
+  208,
+  228,
+  247,
+  256,
+  270
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "f low",
+   "flow",
+   "split_word"
+  ],
+  [
+   232,
+   "disputes.The",
+   "disputes. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "86de31b09782a0ba3cf13166cc3e757d7b03b757",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 283,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2319,
+  "words_out": 2317,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   21,
+   81,
+   87,
+   108,
+   93,
+   79,
+   73,
+   158,
+   188,
+   96,
+   160,
+   80,
+   131,
+   87,
+   104,
+   129,
+   148,
+   160,
+   76,
+   132,
+   126
+  ],
+  "warnings": []
+ }
+}

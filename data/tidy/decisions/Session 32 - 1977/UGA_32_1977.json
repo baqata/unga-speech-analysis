@@ -1,0 +1,188 @@
+{
+ "id": "UGA_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  14,
+  17,
+  21,
+  28,
+  31,
+  35,
+  39,
+  42,
+  47,
+  50,
+  55,
+  59,
+  63,
+  66,
+  73,
+  76,
+  82,
+  84,
+  90,
+  95,
+  97,
+  100,
+  103,
+  107,
+  112,
+  114,
+  116,
+  119,
+  121,
+  128,
+  133,
+  138,
+  143,
+  146
+ ],
+ "cer": [
+  0,
+  2,
+  7,
+  14,
+  17
+ ],
+ "fix": [
+  [
+   0,
+   "1 Mr. President",
+   "Mr. President",
+   "markup"
+  ],
+  [
+   8,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   11,
+   "1 have",
+   "I have",
+   "ocr"
+  ],
+  [
+   25,
+   "system-more",
+   "system—more",
+   "ocr"
+  ],
+  [
+   25,
+   "a-privileged",
+   "a privileged",
+   "ocr"
+  ],
+  [
+   39,
+   "'We have",
+   "We have",
+   "ocr"
+  ],
+  [
+   63,
+   " 10AVI",
+   "",
+   "label"
+  ],
+  [
+   64,
+   ".Western",
+   "Western",
+   "ocr"
+  ],
+  [
+   69,
+   "resolutions- calling",
+   "resolutions calling",
+   "ocr"
+  ],
+  [
+   113,
+   "New-York",
+   "New York",
+   "ocr"
+  ],
+  [
+   132,
+   "cover- up",
+   "cover-up",
+   "hyphen"
+  ],
+  [
+   133,
+   "against' Uganda",
+   "against Uganda",
+   "ocr"
+  ],
+  [
+   149,
+   "Now -they",
+   "Now they",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 58 reads 'send express' and unit 74 'own ate' in the source (probably 'and' and 'State').",
+ "unitizer_version": 1,
+ "sha1": "5607b200eaab96084cc43559934060079a68e6a0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 4852,
+  "words_out": 4850,
+  "retention": 0.9996,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   95,
+   133,
+   138,
+   99,
+   84,
+   119,
+   212,
+   82,
+   131,
+   124,
+   101,
+   226,
+   130,
+   163,
+   156,
+   63,
+   101,
+   203,
+   186,
+   146,
+   68,
+   158,
+   158,
+   83,
+   79,
+   63,
+   92,
+   177,
+   128,
+   65,
+   82,
+   140,
+   145,
+   137,
+   128,
+   131,
+   105,
+   219
+  ],
+  "warnings": []
+ }
+}

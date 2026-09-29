@@ -1,0 +1,49 @@
+{
+ "id": "SWE_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  23,
+  35,
+  57,
+  70,
+  80,
+  101,
+  124,
+  143,
+  155,
+  170
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7da2f655bf40c24f5d9f9662cd074c340f33fa01",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1454,
+  "words_out": 1452,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   106,
+   77,
+   105,
+   163,
+   106,
+   68,
+   179,
+   183,
+   160,
+   97,
+   118,
+   90
+  ],
+  "warnings": []
+ }
+}

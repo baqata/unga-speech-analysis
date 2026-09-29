@@ -1,0 +1,115 @@
+{
+ "id": "UGA_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  16,
+  19,
+  25,
+  30,
+  35,
+  38,
+  43,
+  50,
+  53,
+  59,
+  63,
+  69,
+  76,
+  80,
+  87,
+  94,
+  100,
+  103,
+  111,
+  113,
+  122,
+  128,
+  135
+ ],
+ "cer": [
+  0,
+  6,
+  11
+ ],
+ "fix": [
+  [
+   9,
+   "Secretary General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   16,
+   "in this; hall",
+   "in this hall",
+   "ocr"
+  ],
+  [
+   33,
+   " [see A/35/464]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "tension c. sated \" »v this",
+   "tension created by this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a5b6dd6817022319f45ce29f6c94bdb79df993c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 56,
+   "page_number": 1
+  },
+  "words_in": 3394,
+  "words_out": 3388,
+  "retention": 0.9982,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   144,
+   148,
+   105,
+   99,
+   159,
+   93,
+   163,
+   110,
+   110,
+   144,
+   123,
+   141,
+   72,
+   134,
+   115,
+   77,
+   175,
+   173,
+   180,
+   63,
+   194,
+   58,
+   189,
+   129,
+   144,
+   146
+  ],
+  "warnings": []
+ }
+}

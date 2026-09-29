@@ -1,0 +1,88 @@
+{
+ "id": "ECU_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  19,
+  24,
+  27,
+  28,
+  33,
+  36,
+  42,
+  49,
+  53,
+  54,
+  62,
+  65,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Lie'vano",
+   "Lievano",
+   "ocr"
+  ],
+  [
+   9,
+   "199. ",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "\". . :",
+   "\"...",
+   "ocr"
+  ],
+  [
+   50,
+   "‘’system",
+   "\"system",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "15c44df6caf6bb338457f39eb6bf7341e462ecef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2659,
+  "words_out": 2655,
+  "retention": 0.9985,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   171,
+   183,
+   144,
+   180,
+   153,
+   158,
+   78,
+   204,
+   148,
+   158,
+   254,
+   165,
+   66,
+   164,
+   143,
+   156,
+   130
+  ],
+  "warnings": []
+ }
+}

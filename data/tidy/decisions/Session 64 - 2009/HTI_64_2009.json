@@ -1,0 +1,51 @@
+{
+ "id": "HTI_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  26,
+  36,
+  47,
+  59,
+  67,
+  86,
+  98,
+  113,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4fc62b649c536ab02a65e3a30a7733907572e017",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1081,
+  "words_out": 1081,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   23,
+   189,
+   83,
+   78,
+   100,
+   69,
+   148,
+   98,
+   116,
+   81,
+   96
+  ],
+  "warnings": []
+ }
+}

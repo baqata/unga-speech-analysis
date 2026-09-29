@@ -1,0 +1,224 @@
+{
+ "id": "NGA_26_1971",
+ "drop": [
+  [
+   3,
+   3,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  10,
+  16,
+  21,
+  25,
+  31,
+  36,
+  39,
+  41,
+  45,
+  48,
+  51,
+  56,
+  61,
+  64,
+  67,
+  68,
+  74,
+  79,
+  83,
+  87,
+  91,
+  94,
+  98,
+  102
+ ],
+ "cer": [
+  0,
+  102
+ ],
+ "fix": [
+  [
+   1,
+   "Flambro",
+   "Hambro",
+   "ocr"
+  ],
+  [
+   5,
+   "Assembly';",
+   "Assembly's",
+   "ocr"
+  ],
+  [
+   15,
+   "twenty- sixth",
+   "twenty-sixth",
+   "hyphen"
+  ],
+  [
+   17,
+   "f^'-minded",
+   "fair-minded",
+   "ocr"
+  ],
+  [
+   40,
+   "claim\"",
+   "claims",
+   "ocr"
+  ],
+  [
+   40,
+   "based,",
+   "based.",
+   "ocr"
+  ],
+  [
+   41,
+   "last year, The fragile",
+   "last year. The fragile",
+   "ocr"
+  ],
+  [
+   49,
+   "to Prevent",
+   "to prevent",
+   "ocr"
+  ],
+  [
+   51,
+   "simple, We have",
+   "simple. We have",
+   "ocr"
+  ],
+  [
+   55,
+   "Organization, My delegation",
+   "Organization. My delegation",
+   "ocr"
+  ],
+  [
+   57,
+   "relevant, legal",
+   "relevant legal",
+   "ocr"
+  ],
+  [
+   62,
+   "is Complicated",
+   "is complicated",
+   "ocr"
+  ],
+  [
+   66,
+   "torched",
+   "touched",
+   "ocr"
+  ],
+  [
+   67,
+   "development)",
+   "development,",
+   "ocr"
+  ],
+  [
+   67,
+   " [AI8457-DC/234, annex A]",
+   "",
+   "label"
+  ],
+  [
+   72,
+   " [resolution 2373 (XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "a 'considerable",
+   "a considerable",
+   "ocr"
+  ],
+  [
+   88,
+   "25 years, Today",
+   "25 years. Today",
+   "ocr"
+  ],
+  [
+   90,
+   "mast",
+   "must",
+   "ocr"
+  ],
+  [
+   101,
+   " [see A/8426}",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "sterling- qualities",
+   "sterling qualities",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a73f90b9cbb4ee3477172fb3beb8163a3461b807",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 3697,
+  "words_out": 3671,
+  "retention": 0.993,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   68,
+   150,
+   91,
+   111,
+   160,
+   141,
+   139,
+   192,
+   184,
+   143,
+   94,
+   174,
+   109,
+   147,
+   149,
+   147,
+   109,
+   91,
+   84,
+   149,
+   165,
+   103,
+   93,
+   162,
+   143,
+   124,
+   113,
+   136
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

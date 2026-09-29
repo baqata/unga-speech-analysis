@@ -1,0 +1,74 @@
+{
+ "id": "BDI_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  30,
+  41,
+  57,
+  71,
+  80,
+  91,
+  103,
+  113,
+  130,
+  149,
+  157,
+  169,
+  183,
+  191,
+  209,
+  221,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   169,
+   "country?s",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d33a95c2b8a62a86014f2ca1f09b6531bebf8623",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 243,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2056,
+  "words_out": 2056,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   142,
+   113,
+   105,
+   141,
+   117,
+   80,
+   86,
+   96,
+   95,
+   159,
+   156,
+   66,
+   97,
+   105,
+   63,
+   160,
+   96,
+   111,
+   68
+  ],
+  "warnings": []
+ }
+}

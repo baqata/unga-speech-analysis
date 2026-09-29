@@ -1,0 +1,124 @@
+{
+ "id": "FJI_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  12,
+  17,
+  25,
+  29,
+  36,
+  40,
+  46,
+  53,
+  60,
+  64,
+  72,
+  76,
+  81,
+  86,
+  89,
+  92,
+  98,
+  102,
+  110,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   ".\"12",
+   ".\"",
+   "ocr"
+  ],
+  [
+   37,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   38,
+   "com-mended",
+   "commended",
+   "hyphen"
+  ],
+  [
+   42,
+   "peace' treaty",
+   "peace treaty",
+   "ocr"
+  ],
+  [
+   60,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   61,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   76,
+   "ob-ligations",
+   "obligations",
+   "hyphen"
+  ],
+  [
+   88,
+   "re-sources",
+   "resources",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9e729051ee12a90918124b833cf891f9446be465",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3173,
+  "words_out": 3171,
+  "retention": 0.9994,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   106,
+   133,
+   97,
+   132,
+   196,
+   105,
+   173,
+   115,
+   180,
+   166,
+   153,
+   120,
+   168,
+   129,
+   114,
+   131,
+   146,
+   85,
+   175,
+   156,
+   164,
+   138,
+   89
+  ],
+  "warnings": []
+ }
+}

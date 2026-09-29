@@ -1,0 +1,91 @@
+{
+ "id": "SLE_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  5,
+  8,
+  12,
+  15,
+  20,
+  24,
+  27,
+  30,
+  33,
+  35,
+  37,
+  40,
+  43
+ ],
+ "cer": [
+  2,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   1,
+   "concert)",
+   "concern",
+   "ocr"
+  ],
+  [
+   1,
+   "follow heads",
+   "fellow heads",
+   "ocr"
+  ],
+  [
+   34,
+   "behaves us",
+   "behoves us",
+   "ocr"
+  ],
+  [
+   36,
+   "Countries,' unanimously",
+   "Countries, unanimously",
+   "markup"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "16befb440c424abff0a8dbcb9c0cd23dc9d74d2c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1737,
+  "words_out": 1736,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   103,
+   81,
+   73,
+   92,
+   146,
+   128,
+   179,
+   128,
+   120,
+   86,
+   119,
+   79,
+   111,
+   95,
+   118,
+   78
+  ],
+  "warnings": []
+ }
+}

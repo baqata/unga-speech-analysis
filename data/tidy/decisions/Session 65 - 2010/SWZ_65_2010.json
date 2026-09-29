@@ -1,0 +1,55 @@
+{
+ "id": "SWZ_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  22,
+  50,
+  75,
+  86,
+  98,
+  110,
+  124,
+  146,
+  158,
+  169,
+  183
+ ],
+ "cer": [
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a7bcf2af93586d3207e3e32c3f7c0cff3cebc6d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 205,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1628,
+  "words_out": 1627,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   80,
+   96,
+   225,
+   201,
+   85,
+   94,
+   102,
+   111,
+   161,
+   100,
+   88,
+   111,
+   173
+  ],
+  "warnings": []
+ }
+}

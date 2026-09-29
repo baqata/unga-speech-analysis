@@ -1,0 +1,79 @@
+{
+ "id": "DZA_71_2016",
+ "drop": [
+  [
+   37,
+   37,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  9,
+  13,
+  17,
+  21,
+  25,
+  32,
+  36,
+  38,
+  43,
+  49,
+  54,
+  61
+ ],
+ "cer": [
+  0,
+  61
+ ],
+ "fix": [
+  [
+   18,
+   "capableof",
+   "capable of",
+   "merged_word"
+  ],
+  [
+   63,
+   "28/28 16-29559 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "13898a831c0193de3888a87e35339899ee22a78d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1477,
+  "words_out": 1465,
+  "retention": 0.9919,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   76,
+   125,
+   137,
+   137,
+   79,
+   58,
+   104,
+   85,
+   64,
+   112,
+   131,
+   122,
+   137,
+   98
+  ],
+  "warnings": [
+   "procedural drop [37,37] in the middle of the speech"
+  ]
+ }
+}

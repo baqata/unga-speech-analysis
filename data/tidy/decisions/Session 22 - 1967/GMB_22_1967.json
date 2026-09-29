@@ -1,0 +1,89 @@
+{
+ "id": "GMB_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  18,
+  24,
+  28,
+  34,
+  39,
+  44,
+  51,
+  59,
+  65,
+  68,
+  76,
+  85,
+  87
+ ],
+ "cer": [
+  0,
+  85
+ ],
+ "fix": [
+  [
+   8,
+   "international problems, I shall",
+   "international problems. I shall",
+   "ocr"
+  ],
+  [
+   38,
+   "China on. the one",
+   "China on the one",
+   "ocr"
+  ],
+  [
+   70,
+   "State In the",
+   "State in the",
+   "ocr"
+  ],
+  [
+   89,
+   "individual In the",
+   "individual in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4afd92ce99b825b65f25b03f7e9293d953942959",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2278,
+  "words_out": 2254,
+  "retention": 0.9895,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   174,
+   75,
+   133,
+   105,
+   149,
+   110,
+   142,
+   139,
+   75,
+   195,
+   199,
+   111,
+   91,
+   155,
+   202,
+   53,
+   146
+  ],
+  "warnings": []
+ }
+}

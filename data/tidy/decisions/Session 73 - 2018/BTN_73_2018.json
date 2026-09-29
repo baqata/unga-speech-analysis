@@ -1,0 +1,77 @@
+{
+ "id": "BTN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  17,
+  20,
+  24,
+  27,
+  35,
+  41,
+  53,
+  59,
+  65,
+  71,
+  75
+ ],
+ "cer": [
+  0,
+  75
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   17,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ],
+  [
+   39,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "516c19b241508186c803f52eaf4bbf6d98305548",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1845,
+  "words_out": 1841,
+  "retention": 0.9978,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   90,
+   137,
+   106,
+   136,
+   56,
+   101,
+   79,
+   188,
+   163,
+   200,
+   127,
+   183,
+   118,
+   146,
+   11
+  ],
+  "warnings": []
+ }
+}

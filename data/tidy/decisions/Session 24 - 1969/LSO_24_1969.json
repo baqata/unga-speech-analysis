@@ -1,0 +1,74 @@
+{
+ "id": "LSO_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  37,
+  52,
+  73,
+  86,
+  107,
+  134,
+  144,
+  159,
+  171,
+  185,
+  206,
+  221,
+  233,
+  257
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   90,
+   "settlement. of",
+   "settlement of",
+   "ocr"
+  ],
+  [
+   193,
+   "uphappy",
+   "unhappy",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e1444a951c16f696a2fc2b6c055400fa8ccff4a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2437,
+  "words_out": 2418,
+  "retention": 0.9922,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   72,
+   88,
+   157,
+   145,
+   195,
+   116,
+   195,
+   254,
+   85,
+   131,
+   111,
+   126,
+   181,
+   131,
+   113,
+   215,
+   103
+  ],
+  "warnings": []
+ }
+}

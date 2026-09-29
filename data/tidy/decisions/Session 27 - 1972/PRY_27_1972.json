@@ -1,0 +1,249 @@
+{
+ "id": "PRY_27_1972",
+ "drop": [
+  [
+   3,
+   3,
+   "noise"
+  ],
+  [
+   5,
+   5,
+   "noise"
+  ],
+  [
+   14,
+   14,
+   "noise"
+  ],
+  [
+   15,
+   15,
+   "noise"
+  ],
+  [
+   20,
+   20,
+   "header_footer"
+  ],
+  [
+   21,
+   21,
+   "noise"
+  ],
+  [
+   25,
+   25,
+   "noise"
+  ],
+  [
+   32,
+   32,
+   "noise"
+  ],
+  [
+   35,
+   35,
+   "noise"
+  ],
+  [
+   40,
+   40,
+   "noise"
+  ],
+  [
+   46,
+   46,
+   "noise"
+  ],
+  [
+   48,
+   48,
+   "noise"
+  ],
+  [
+   53,
+   53,
+   "noise"
+  ],
+  [
+   60,
+   60,
+   "noise"
+  ],
+  [
+   65,
+   65,
+   "noise"
+  ],
+  [
+   75,
+   75,
+   "noise"
+  ],
+  [
+   79,
+   79,
+   "noise"
+  ],
+  [
+   82,
+   82,
+   "noise"
+  ],
+  [
+   97,
+   97,
+   "noise"
+  ],
+  [
+   106,
+   106,
+   "noise"
+  ],
+  [
+   109,
+   109,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  16,
+  22,
+  26,
+  33,
+  36,
+  41,
+  44,
+  49,
+  54,
+  61,
+  66,
+  76,
+  80,
+  85,
+  92,
+  98,
+  104,
+  107,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "to' you",
+   "to you",
+   "ocr"
+  ],
+  [
+   0,
+   "the \"current",
+   "the current",
+   "ocr"
+  ],
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   8,
+   "4. ",
+   "",
+   "label"
+  ],
+  [
+   9,
+   "5. ",
+   "",
+   "label"
+  ],
+  [
+   62,
+   ".upon",
+   "upon",
+   "ocr"
+  ],
+  [
+   63,
+   "condone u system",
+   "condone a system",
+   "ocr"
+  ],
+  [
+   86,
+   "cl.",
+   "1.",
+   "ocr"
+  ],
+  [
+   96,
+   "20. ",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   101,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "378d17f4b8438217d16d44be9d1b4dde91fa9fe9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "noise": 20,
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3325,
+  "words_out": 3296,
+  "retention": 0.9913,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   206,
+   121,
+   132,
+   134,
+   154,
+   160,
+   76,
+   152,
+   166,
+   164,
+   152,
+   206,
+   114,
+   204,
+   117,
+   125,
+   197,
+   156,
+   180,
+   127,
+   90,
+   163
+  ],
+  "warnings": []
+ }
+}

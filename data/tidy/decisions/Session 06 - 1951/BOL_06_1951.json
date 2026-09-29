@@ -1,0 +1,70 @@
+{
+ "id": "BOL_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  9,
+  12,
+  19,
+  27,
+  33,
+  38,
+  44,
+  50,
+  55,
+  57,
+  62,
+  69,
+  76,
+  81,
+  85
+ ],
+ "cer": [
+  85
+ ],
+ "fix": [
+  [
+   19,
+   "Plow",
+   "How",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35c9254910d138d20a6f4ef9783e78a134725860",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2297,
+  "words_out": 2291,
+  "retention": 0.9974,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   133,
+   66,
+   69,
+   154,
+   157,
+   158,
+   141,
+   168,
+   141,
+   115,
+   70,
+   150,
+   163,
+   227,
+   115,
+   77,
+   187
+  ],
+  "warnings": []
+ }
+}

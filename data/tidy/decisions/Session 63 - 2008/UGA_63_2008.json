@@ -1,0 +1,63 @@
+{
+ "id": "UGA_63_2008",
+ "drop": [
+  [
+   148,
+   149,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  29,
+  41,
+  55,
+  72,
+  90,
+  100,
+  112,
+  133,
+  150,
+  159
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5226e642da9f41cfa7652b3040dd22b9f8b3b16b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1436,
+  "words_out": 1425,
+  "retention": 0.9923,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   80,
+   156,
+   100,
+   116,
+   142,
+   142,
+   77,
+   99,
+   149,
+   125,
+   74,
+   165
+  ],
+  "warnings": [
+   "procedural drop [148,149] in the middle of the speech"
+  ]
+ }
+}

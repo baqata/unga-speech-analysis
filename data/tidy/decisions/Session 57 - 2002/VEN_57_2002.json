@@ -1,0 +1,88 @@
+{
+ "id": "VEN_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  24,
+  42,
+  67,
+  81,
+  96,
+  111,
+  120,
+  141,
+  154,
+  186,
+  199,
+  235,
+  244,
+  256,
+  272,
+  281,
+  290,
+  301
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   41,
+   "SimÛn Bolvar",
+   "Simón Bolívar",
+   "encoding"
+  ],
+  [
+   237,
+   "SimÛn Bolvar",
+   "Simón Bolívar",
+   "encoding"
+  ],
+  [
+   268,
+   "Ch·vez",
+   "Chávez",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c515cb180885299a4abd263db3b233586cf70a7d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2672,
+  "words_out": 2671,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   27,
+   159,
+   142,
+   220,
+   108,
+   112,
+   137,
+   76,
+   173,
+   114,
+   265,
+   116,
+   304,
+   70,
+   96,
+   137,
+   69,
+   76,
+   86,
+   184
+  ],
+  "warnings": []
+ }
+}

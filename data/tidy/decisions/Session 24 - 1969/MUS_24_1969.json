@@ -1,0 +1,106 @@
+{
+ "id": "MUS_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  30,
+  44,
+  66,
+  81,
+  102,
+  118,
+  129,
+  140,
+  164,
+  184,
+  198,
+  207,
+  231,
+  242,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   103,
+   "Powers, Why",
+   "Powers. Why",
+   "ocr"
+  ],
+  [
+   155,
+   "also: to be",
+   "also to be",
+   "ocr"
+  ],
+  [
+   171,
+   " [resolution 2411 (XXIII)]",
+   "",
+   "label"
+  ],
+  [
+   180,
+   "wilt continue",
+   "will continue",
+   "ocr"
+  ],
+  [
+   247,
+   "[2447 (XXIII)] ",
+   "",
+   "label"
+  ],
+  [
+   250,
+   " [resolution",
+   "",
+   "label"
+  ],
+  [
+   251,
+   "2037 (XX)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "001f8d967f1636ec07daa9882b3cf573c0794802",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 2447,
+  "words_out": 2412,
+  "retention": 0.9857,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   137,
+   156,
+   135,
+   210,
+   134,
+   188,
+   136,
+   96,
+   101,
+   234,
+   181,
+   135,
+   67,
+   201,
+   86,
+   113,
+   102
+  ],
+  "warnings": []
+ }
+}

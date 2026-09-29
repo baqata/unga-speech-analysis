@@ -1,0 +1,68 @@
+{
+ "id": "VCT_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  26,
+  35,
+  40,
+  47,
+  59,
+  67,
+  72,
+  78,
+  83,
+  95,
+  98
+ ],
+ "cer": [],
+ "fix": [
+  [
+   39,
+   "near- unanimous",
+   "near-unanimous",
+   "hyphen"
+  ],
+  [
+   68,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "97cad2a9b2497f3e551990f5a849550fcd398480",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2264,
+  "words_out": 2262,
+  "retention": 0.9991,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   190,
+   112,
+   87,
+   219,
+   212,
+   122,
+   171,
+   198,
+   120,
+   134,
+   224,
+   99,
+   232,
+   74,
+   68
+  ],
+  "warnings": []
+ }
+}

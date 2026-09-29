@@ -1,0 +1,110 @@
+{
+ "id": "KHM_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  24,
+  27,
+  30,
+  37,
+  42,
+  46,
+  50,
+  55,
+  59,
+  64,
+  71,
+  75,
+  78,
+  81,
+  85,
+  88,
+  92,
+  97,
+  101,
+  105,
+  109,
+  112,
+  117,
+  125,
+  130
+ ],
+ "cer": [
+  130
+ ],
+ "fix": [
+  [
+   4,
+   "peaceful country, While",
+   "peaceful country. While",
+   "ocr"
+  ],
+  [
+   34,
+   "Viet- Cong",
+   "Viet-Cong",
+   "hyphen"
+  ],
+  [
+   58,
+   "add .that",
+   "add that",
+   "ocr"
+  ],
+  [
+   63,
+   "as Trance",
+   "as France",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c3095d88dea7a4f6f7328d41899e063837c84b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 133,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2737,
+  "words_out": 2700,
+  "retention": 0.9865,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   76,
+   136,
+   189,
+   78,
+   60,
+   153,
+   117,
+   88,
+   96,
+   109,
+   61,
+   75,
+   141,
+   67,
+   85,
+   91,
+   109,
+   74,
+   82,
+   103,
+   66,
+   108,
+   109,
+   60,
+   76,
+   140,
+   94,
+   57
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "POL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  16,
+  19,
+  26,
+  35,
+  43,
+  51,
+  55,
+  58,
+  64,
+  67,
+  69,
+  73,
+  75,
+  78,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "490fdc61841b29c3aa8552875f6bfdcd44eece54",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2028,
+  "words_out": 2025,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   63,
+   116,
+   72,
+   80,
+   91,
+   185,
+   171,
+   181,
+   150,
+   70,
+   91,
+   129,
+   114,
+   69,
+   103,
+   74,
+   75,
+   95,
+   96
+  ],
+  "warnings": []
+ }
+}

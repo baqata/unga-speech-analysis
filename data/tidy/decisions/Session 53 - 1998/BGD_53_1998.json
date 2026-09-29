@@ -1,0 +1,115 @@
+{
+ "id": "BGD_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  32,
+  47,
+  65,
+  73,
+  87,
+  96,
+  105,
+  115,
+  135,
+  144,
+  161,
+  176,
+  195,
+  213,
+  224,
+  252,
+  261,
+  280,
+  296
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "yearâs",
+   "year’s",
+   "encoding"
+  ],
+  [
+   56,
+   "yearâs",
+   "year’s",
+   "encoding"
+  ],
+  [
+   103,
+   "Minsterâs",
+   "Minster’s",
+   "encoding"
+  ],
+  [
+   109,
+   "womenâs",
+   "women’s",
+   "encoding"
+  ],
+  [
+   167,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ],
+  [
+   235,
+   "Bangladeshâs",
+   "Bangladesh’s",
+   "encoding"
+  ],
+  [
+   268,
+   "Movementâs",
+   "Movement’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca69761f95163a38b3a94d34524e02fbb0527ce5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 314,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 1,
+   "page_number": 3
+  },
+  "words_in": 2632,
+  "words_out": 2627,
+  "retention": 0.9981,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   144,
+   117,
+   123,
+   148,
+   73,
+   106,
+   86,
+   76,
+   74,
+   160,
+   74,
+   129,
+   121,
+   166,
+   161,
+   98,
+   229,
+   74,
+   169,
+   132,
+   167
+  ],
+  "warnings": []
+ }
+}

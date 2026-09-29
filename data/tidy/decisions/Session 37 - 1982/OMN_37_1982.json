@@ -1,0 +1,179 @@
+{
+ "id": "OMN_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  27,
+  52,
+  62,
+  72,
+  84,
+  105,
+  123,
+  134,
+  166,
+  175,
+  186,
+  202,
+  222,
+  238,
+  249,
+  261,
+  277,
+  289,
+  318,
+  333,
+  343,
+  351,
+  371,
+  388,
+  407,
+  422,
+  432,
+  452
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [
+  [
+   46,
+   "adhere ,to",
+   "adhere to",
+   "spacing"
+  ],
+  [
+   51,
+   "basic, function",
+   "basic function",
+   "ocr"
+  ],
+  [
+   54,
+   "long,,",
+   "long,",
+   "ocr"
+  ],
+  [
+   57,
+   "have ho",
+   "have no",
+   "ocr"
+  ],
+  [
+   128,
+   "peacel",
+   "peace",
+   "ocr"
+  ],
+  [
+   130,
+   "brutall",
+   "brutal",
+   "ocr"
+  ],
+  [
+   161,
+   "pubic",
+   "public",
+   "ocr"
+  ],
+  [
+   195,
+   "was;",
+   "was",
+   "ocr"
+  ],
+  [
+   267,
+   "peace, It",
+   "peace. It",
+   "ocr"
+  ],
+  [
+   270,
+   "Hoc Not Committee",
+   "Hoc Committee",
+   "ocr"
+  ],
+  [
+   306,
+   "farther",
+   "further",
+   "ocr"
+  ],
+  [
+   317,
+   "countries/'",
+   "countries.\"",
+   "ocr"
+  ],
+  [
+   324,
+   "emanates^",
+   "emanates,",
+   "ocr"
+  ],
+  [
+   325,
+   "establish , the",
+   "establish the",
+   "spacing"
+  ],
+  [
+   412,
+   "United'",
+   "United",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 102 reads \"not depart\" as printed; paragraph numbers 139 and 173 are misprinted in the source.",
+ "unitizer_version": 1,
+ "sha1": "34b7474e2a0f2c53c00e9757c30cfa1e9c87688e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 461,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3382,
+  "words_out": 3348,
+  "retention": 0.9899,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   106,
+   99,
+   181,
+   76,
+   75,
+   89,
+   164,
+   130,
+   77,
+   214,
+   56,
+   77,
+   121,
+   136,
+   117,
+   79,
+   90,
+   135,
+   76,
+   197,
+   110,
+   66,
+   59,
+   146,
+   118,
+   128,
+   126,
+   77,
+   155,
+   68
+  ],
+  "warnings": []
+ }
+}

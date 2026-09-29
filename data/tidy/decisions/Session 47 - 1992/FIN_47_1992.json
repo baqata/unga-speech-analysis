@@ -1,0 +1,66 @@
+{
+ "id": "FIN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  49,
+  71,
+  91,
+  102,
+  118,
+  132,
+  144,
+  160,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   173,
+   "<-ª",
+   "a",
+   "ocr"
+  ],
+  [
+   187,
+   "a. better",
+   "a better",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "47ccfda7d21698d136f7ea5b3cae4ab5641619b9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 1
+  },
+  "words_in": 1988,
+  "words_out": 1988,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   121,
+   220,
+   158,
+   216,
+   206,
+   109,
+   179,
+   137,
+   136,
+   179,
+   205,
+   122
+  ],
+  "warnings": []
+ }
+}

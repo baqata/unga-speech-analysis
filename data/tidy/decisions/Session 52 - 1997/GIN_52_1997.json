@@ -1,0 +1,85 @@
+{
+ "id": "GIN_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  30,
+  40,
+  55,
+  77,
+  95,
+  116,
+  126,
+  135,
+  144,
+  159,
+  170,
+  190,
+  200,
+  219,
+  240,
+  251,
+  266,
+  275,
+  288,
+  304,
+  315,
+  331
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [
+  [
+   270,
+   "organizations.Here",
+   "organizations. Here",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "afcbb48417e7947f82755a1e5146ebef0bdae5c9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 339,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2864,
+  "words_out": 2861,
+  "retention": 0.999,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   132,
+   115,
+   86,
+   112,
+   174,
+   149,
+   170,
+   75,
+   76,
+   73,
+   153,
+   99,
+   170,
+   86,
+   161,
+   174,
+   94,
+   135,
+   80,
+   119,
+   143,
+   82,
+   141,
+   62
+  ],
+  "warnings": []
+ }
+}

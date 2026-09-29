@@ -1,0 +1,164 @@
+{
+ "id": "POL_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  19,
+  23,
+  28,
+  31,
+  33,
+  35,
+  39,
+  41,
+  46,
+  50,
+  52,
+  56,
+  60,
+  64,
+  69,
+  74,
+  79,
+  85,
+  88,
+  92,
+  97,
+  101,
+  104,
+  109,
+  111,
+  116,
+  121,
+  126,
+  130,
+  133,
+  137,
+  142,
+  145,
+  148,
+  151,
+  153
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "weapons,",
+   "weapons.",
+   "ocr"
+  ],
+  [
+   52,
+   "non- proliferation",
+   "non-proliferation",
+   "spacing"
+  ],
+  [
+   53,
+   "non- proliferation",
+   "non-proliferation",
+   "spacing"
+  ],
+  [
+   54,
+   "non- nuclear",
+   "non-nuclear",
+   "spacing"
+  ],
+  [
+   62,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   71,
+   "We 'give",
+   "We give",
+   "ocr"
+  ],
+  [
+   104,
+   "say,' 'for",
+   "say, \"for",
+   "ocr"
+  ],
+  [
+   108,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   152,
+   "balance- sheet",
+   "balance-sheet",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "265800895ec368d1fcf457a385561a94a5f540be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 54
+  },
+  "words_in": 5014,
+  "words_out": 5008,
+  "retention": 0.9988,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   168,
+   78,
+   132,
+   198,
+   162,
+   152,
+   125,
+   75,
+   77,
+   134,
+   77,
+   155,
+   147,
+   85,
+   171,
+   126,
+   122,
+   139,
+   149,
+   190,
+   190,
+   106,
+   100,
+   121,
+   122,
+   119,
+   184,
+   70,
+   141,
+   117,
+   163,
+   111,
+   99,
+   91,
+   139,
+   51,
+   100,
+   123,
+   102,
+   97
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "AUS_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  16,
+  23,
+  28,
+  31,
+  34,
+  36,
+  42,
+  45,
+  50,
+  52,
+  55,
+  60,
+  65,
+  70,
+  76,
+  79,
+  81,
+  84,
+  87,
+  89,
+  93,
+  95,
+  101,
+  103,
+  106,
+  110,
+  112,
+  115,
+  118,
+  123
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   48,
+   "conslderation",
+   "consideration",
+   "ocr"
+  ],
+  [
+   71,
+   "I am. certainly",
+   "I am certainly",
+   "ocr"
+  ],
+  [
+   78,
+   "CounciL",
+   "Council",
+   "ocr"
+  ],
+  [
+   85,
+   "can he associated",
+   "can be associated",
+   "ocr"
+  ],
+  [
+   88,
+   "las ting",
+   "lasting",
+   "split_word"
+  ],
+  [
+   106,
+   "notfully",
+   "not fully",
+   "merged_word"
+  ],
+  [
+   110,
+   "by- contributions",
+   "by contributions",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e20ba84af4d273dea50a43b18e20dce45ba55b49",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 38
+  },
+  "words_in": 4040,
+  "words_out": 4039,
+  "retention": 0.9998,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   200,
+   121,
+   104,
+   184,
+   100,
+   149,
+   129,
+   65,
+   123,
+   120,
+   128,
+   83,
+   110,
+   161,
+   206,
+   77,
+   211,
+   64,
+   84,
+   99,
+   136,
+   116,
+   91,
+   149,
+   175,
+   76,
+   90,
+   159,
+   71,
+   115,
+   92,
+   124,
+   127
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "PRK_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  8,
+  12,
+  15,
+  19,
+  22,
+  26,
+  30,
+  33,
+  37,
+  39,
+  42,
+  48,
+  51,
+  54,
+  61,
+  66,
+  68,
+  70,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "station ery",
+   "stationery",
+   "split_word"
+  ],
+  [
+   33,
+   "Korea ’s",
+   "Korea’s",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ebe39dc82fbab17b8cac6c0fa8d86ce48dd74ae0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2182,
+  "words_out": 2180,
+  "retention": 0.9991,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   37,
+   113,
+   77,
+   78,
+   100,
+   87,
+   144,
+   85,
+   143,
+   99,
+   77,
+   89,
+   65,
+   81,
+   159,
+   78,
+   76,
+   165,
+   133,
+   95,
+   72,
+   67,
+   60
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "MMR_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  13,
+  18,
+  25,
+  34,
+  37,
+  40,
+  45,
+  52,
+  57,
+  65,
+  72,
+  75,
+  85,
+  88,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "self- destruction",
+   "self-destruction",
+   "hyphen"
+  ],
+  [
+   38,
+   "through which, the",
+   "through which the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de67865c067f3ceb4dd0c3b68648ad8bb7417b9b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2844,
+  "words_out": 2822,
+  "retention": 0.9923,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   228,
+   87,
+   139,
+   212,
+   248,
+   61,
+   121,
+   202,
+   219,
+   114,
+   162,
+   183,
+   84,
+   258,
+   133,
+   195,
+   176
+  ],
+  "warnings": []
+ }
+}

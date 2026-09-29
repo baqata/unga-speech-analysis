@@ -1,0 +1,64 @@
+{
+ "id": "PRK_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  40,
+  63,
+  84,
+  105,
+  120,
+  136,
+  159,
+  174,
+  203,
+  217,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   80,
+   "dÈtente",
+   "détente",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad412055ce1bd97ed173cd006f0f5069ba16da63",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2008,
+  "words_out": 2006,
+  "retention": 0.999,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   55,
+   138,
+   123,
+   167,
+   156,
+   172,
+   122,
+   127,
+   186,
+   123,
+   221,
+   100,
+   158,
+   158
+  ],
+  "warnings": []
+ }
+}

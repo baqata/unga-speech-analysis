@@ -1,0 +1,76 @@
+{
+ "id": "GRD_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  39,
+  54,
+  73,
+  89,
+  103,
+  111,
+  123,
+  137,
+  156,
+  166,
+  189,
+  207,
+  224,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   101,
+   "(TRADE/2002/1,",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "pp. 9-10)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9a10784d88215221a47d83d7a8f4dee86ace47a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1848,
+  "words_out": 1841,
+  "retention": 0.9962,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   71,
+   101,
+   116,
+   112,
+   137,
+   116,
+   94,
+   73,
+   97,
+   102,
+   126,
+   68,
+   177,
+   137,
+   122,
+   74,
+   118
+  ],
+  "warnings": []
+ }
+}

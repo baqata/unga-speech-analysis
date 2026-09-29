@@ -1,0 +1,74 @@
+{
+ "id": "AUS_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   135,
+   135,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  12,
+  18,
+  25,
+  31,
+  35,
+  42,
+  54,
+  60,
+  68,
+  72,
+  79,
+  88,
+  102,
+  116,
+  123,
+  134
+ ],
+ "cer": [
+  134
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e067c3934f80b649c9307a889b10b8841403cc40",
+ "layout": "single",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2422,
+  "words_out": 2370,
+  "retention": 0.9785,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   167,
+   100,
+   134,
+   109,
+   107,
+   125,
+   202,
+   153,
+   193,
+   110,
+   152,
+   195,
+   198,
+   175,
+   98,
+   147,
+   5
+  ],
+  "warnings": []
+ }
+}

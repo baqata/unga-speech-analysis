@@ -1,0 +1,75 @@
+{
+ "id": "BLZ_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  15,
+  21,
+  28,
+  32,
+  36,
+  44,
+  49,
+  53,
+  56,
+  59,
+  62,
+  65,
+  70,
+  74,
+  75
+ ],
+ "cer": [
+  0,
+  74
+ ],
+ "fix": [
+  [
+   50,
+   "institution?.",
+   "institutions.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "80f0c8a86685d5a247dbf6e81bd3a18679becfe3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2432,
+  "words_out": 2431,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   127,
+   113,
+   125,
+   176,
+   141,
+   169,
+   122,
+   151,
+   139,
+   149,
+   153,
+   93,
+   119,
+   104,
+   100,
+   156,
+   104,
+   44,
+   146
+  ],
+  "warnings": []
+ }
+}

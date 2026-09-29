@@ -1,0 +1,115 @@
+{
+ "id": "MWI_22_1967",
+ "drop": [
+  [
+   61,
+   61,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  12,
+  16,
+  19,
+  25,
+  30,
+  32,
+  36,
+  39,
+  44,
+  51,
+  57,
+  62,
+  66,
+  72,
+  75,
+  78,
+  81,
+  84,
+  86,
+  92,
+  99
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   34,
+   "and In the same",
+   "and in the same",
+   "ocr"
+  ],
+  [
+   55,
+   "country In the world",
+   "country in the world",
+   "ocr"
+  ],
+  [
+   55,
+   "countries In the conduct",
+   "countries in the conduct",
+   "ocr"
+  ],
+  [
+   89,
+   "in Its attitude",
+   "in its attitude",
+   "ocr"
+  ],
+  [
+   98,
+   "make It possible",
+   "make it possible",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "unit 61 is a bare meeting reference after the quotation",
+ "unitizer_version": 1,
+ "sha1": "a90ffb8a10cc4c35fea93e21f74fc0e0ac8077d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3250,
+  "words_out": 3212,
+  "retention": 0.9883,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   231,
+   158,
+   210,
+   75,
+   148,
+   102,
+   87,
+   144,
+   74,
+   146,
+   188,
+   227,
+   170,
+   95,
+   175,
+   84,
+   88,
+   103,
+   97,
+   86,
+   162,
+   242,
+   120
+  ],
+  "warnings": []
+ }
+}

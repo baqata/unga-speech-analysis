@@ -1,0 +1,134 @@
+{
+ "id": "ECU_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  8,
+  12,
+  18,
+  21,
+  25,
+  28,
+  32,
+  34,
+  37,
+  42,
+  45,
+  52,
+  56,
+  59,
+  66,
+  68,
+  72,
+  77,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "[279th] ",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "freedom; with",
+   "freedom with",
+   "ocr"
+  ],
+  [
+   24,
+   "millions of; workers",
+   "millions of workers",
+   "ocr"
+  ],
+  [
+   27,
+   "two; forces",
+   "two forces",
+   "ocr"
+  ],
+  [
+   31,
+   "confidence; in",
+   "confidence in",
+   "ocr"
+  ],
+  [
+   31,
+   "free: information",
+   "free information",
+   "ocr"
+  ],
+  [
+   31,
+   "world: events",
+   "world events",
+   "ocr"
+  ],
+  [
+   39,
+   " [A/1377]",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "become las flexible",
+   "become as flexible",
+   "ocr"
+  ],
+  [
+   44,
+   "Assembly f as",
+   "Assembly as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0659887fa72675357b1517d37bf136467b427582",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 3489,
+  "words_out": 3486,
+  "retention": 0.9991,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   154,
+   119,
+   162,
+   197,
+   220,
+   111,
+   155,
+   135,
+   138,
+   142,
+   146,
+   221,
+   148,
+   218,
+   108,
+   118,
+   217,
+   103,
+   163,
+   189,
+   189,
+   133
+  ],
+  "warnings": []
+ }
+}

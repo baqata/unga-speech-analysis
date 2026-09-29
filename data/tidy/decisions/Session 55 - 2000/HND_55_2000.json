@@ -1,0 +1,66 @@
+{
+ "id": "HND_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  31,
+  42,
+  60,
+  73,
+  90,
+  109,
+  120,
+  133,
+  144,
+  155,
+  165,
+  179,
+  193,
+  203
+ ],
+ "cer": [],
+ "fix": [
+  [
+   211,
+   "`More",
+   "“More",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "45c7158f824db12ab74d11bc24dc33d914b316c0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1698,
+  "words_out": 1697,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   110,
+   117,
+   91,
+   142,
+   107,
+   127,
+   160,
+   91,
+   111,
+   78,
+   79,
+   79,
+   110,
+   109,
+   84,
+   102
+  ],
+  "warnings": []
+ }
+}

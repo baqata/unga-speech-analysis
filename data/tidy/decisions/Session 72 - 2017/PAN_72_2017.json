@@ -1,0 +1,77 @@
+{
+ "id": "PAN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  12,
+  19,
+  22,
+  24,
+  28,
+  32,
+  38,
+  41,
+  47,
+  50,
+  53,
+  56,
+  59,
+  62,
+  64,
+  68,
+  73
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   9,
+   "thatis",
+   "that is",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c5b7df93856b38f25ff4f4dce4a3ea76e88249b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2065,
+  "words_out": 2066,
+  "retention": 1.0005,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   118,
+   80,
+   106,
+   97,
+   202,
+   87,
+   60,
+   116,
+   63,
+   115,
+   81,
+   115,
+   85,
+   79,
+   85,
+   92,
+   77,
+   72,
+   113,
+   105,
+   118
+  ],
+  "warnings": []
+ }
+}

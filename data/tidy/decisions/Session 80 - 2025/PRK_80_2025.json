@@ -1,0 +1,64 @@
+{
+ "id": "PRK_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   60,
+   60,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  6,
+  13,
+  22,
+  26,
+  31,
+  35,
+  39,
+  43,
+  51,
+  57
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a5d117f5f5319e8a93347a7ee225fb985380115",
+ "layout": "single",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1805,
+  "words_out": 1766,
+  "retention": 0.9784,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   50,
+   168,
+   186,
+   211,
+   165,
+   109,
+   152,
+   122,
+   129,
+   226,
+   177,
+   71
+  ],
+  "warnings": []
+ }
+}

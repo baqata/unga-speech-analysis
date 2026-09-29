@@ -1,0 +1,122 @@
+{
+ "id": "IRQ_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  19,
+  24,
+  26,
+  33,
+  37,
+  41,
+  46,
+  50,
+  58,
+  62,
+  64,
+  66,
+  69
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "22- ",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "truth, The",
+   "truth. The",
+   "ocr"
+  ],
+  [
+   34,
+   "reign, of",
+   "reign of",
+   "ocr"
+  ],
+  [
+   34,
+   "Jews, That",
+   "Jews. That",
+   "ocr"
+  ],
+  [
+   41,
+   "of' the",
+   "of the",
+   "ocr"
+  ],
+  [
+   41,
+   "an.",
+   "an",
+   "ocr"
+  ],
+  [
+   44,
+   "part, in",
+   "part in",
+   "ocr"
+  ],
+  [
+   53,
+   "resolution, 181",
+   "resolution 181",
+   "ocr"
+  ],
+  [
+   53,
+   "of .29",
+   "of 29",
+   "ocr"
+  ],
+  [
+   63,
+   "modem",
+   "modern",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "36198bfd1ee0546bd055599727a2729f17f40d86",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 2035,
+  "words_out": 2034,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   94,
+   230,
+   80,
+   95,
+   98,
+   197,
+   184,
+   109,
+   194,
+   90,
+   180,
+   93,
+   87,
+   75,
+   84,
+   144
+  ],
+  "warnings": []
+ }
+}

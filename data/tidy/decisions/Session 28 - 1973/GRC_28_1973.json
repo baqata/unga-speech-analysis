@@ -1,0 +1,119 @@
+{
+ "id": "GRC_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  10,
+  15,
+  23,
+  24,
+  28,
+  30,
+  35,
+  41,
+  46,
+  49,
+  50,
+  56,
+  61,
+  63,
+  66,
+  69
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "Trepczyriski",
+   "Trepczynski",
+   "ocr"
+  ],
+  [
+   7,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   18,
+   "<}f",
+   "of",
+   "ocr"
+  ],
+  [
+   23,
+   "try,-in",
+   "try, in",
+   "ocr"
+  ],
+  [
+   29,
+   "[Aj 9001/Add.l, p. 1].",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "our' Organization",
+   "our Organization",
+   "ocr"
+  ],
+  [
+   35,
+   "bf",
+   "be",
+   "ocr"
+  ],
+  [
+   62,
+   "die first",
+   "the first",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "70ff8f82bdc7a675d722885204ac4a046c5ac066",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2601,
+  "words_out": 2595,
+  "retention": 0.9977,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   107,
+   50,
+   71,
+   127,
+   213,
+   242,
+   105,
+   114,
+   77,
+   172,
+   169,
+   144,
+   108,
+   73,
+   192,
+   151,
+   58,
+   141,
+   117,
+   164
+  ],
+  "warnings": []
+ }
+}

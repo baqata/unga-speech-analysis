@@ -1,0 +1,65 @@
+{
+ "id": "ATG_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  35,
+  51,
+  65,
+  91,
+  117,
+  133,
+  146,
+  157,
+  175,
+  194,
+  205
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   185,
+   " ()",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "090c5f0fb9e0a27def8e2e2dc79e004d6a0b9b76",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1722,
+  "words_out": 1718,
+  "retention": 0.9977,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   72,
+   125,
+   94,
+   111,
+   104,
+   195,
+   200,
+   127,
+   109,
+   83,
+   147,
+   153,
+   89,
+   109
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "ETH_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  13,
+  16,
+  19,
+  24,
+  26,
+  28,
+  30
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "to ,",
+   "to",
+   "ocr"
+  ],
+  [
+   22,
+   "greatest,",
+   "greatest",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f47d3320c19ea82d229168b85dd19cb4c57b7cfa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 31,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 9
+  },
+  "words_in": 1151,
+  "words_out": 1148,
+  "retention": 0.9974,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   72,
+   164,
+   210,
+   71,
+   139,
+   210,
+   63,
+   63,
+   107,
+   49
+  ],
+  "warnings": []
+ }
+}

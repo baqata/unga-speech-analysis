@@ -1,0 +1,66 @@
+{
+ "id": "NIC_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  16,
+  17,
+  22,
+  24,
+  28,
+  32,
+  35,
+  39,
+  42,
+  45,
+  48,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "sovereignity",
+   "sovereignty",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0df91a0c4f62df17c04193868cb4ebdab317c37",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1414,
+  "words_out": 1414,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   46,
+   109,
+   81,
+   160,
+   50,
+   140,
+   77,
+   112,
+   77,
+   90,
+   113,
+   94,
+   68,
+   108,
+   79,
+   10
+  ],
+  "warnings": []
+ }
+}

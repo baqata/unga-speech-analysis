@@ -1,0 +1,55 @@
+{
+ "id": "CHN_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  35,
+  65,
+  86,
+  100,
+  123,
+  132,
+  154,
+  173,
+  193,
+  208,
+  222
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67979f4b7443e7000892eaff2d83f1cc6cc1394e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 236,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1753,
+  "words_out": 1749,
+  "retention": 0.9977,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   76,
+   198,
+   222,
+   147,
+   106,
+   161,
+   67,
+   179,
+   132,
+   137,
+   109,
+   100,
+   115
+  ],
+  "warnings": []
+ }
+}

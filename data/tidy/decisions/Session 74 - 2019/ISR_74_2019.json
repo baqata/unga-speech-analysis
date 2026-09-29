@@ -1,0 +1,54 @@
+{
+ "id": "ISR_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  18,
+  23,
+  30,
+  37,
+  39,
+  41
+ ],
+ "cer": [],
+ "fix": [
+  [
+   40,
+   "(The Holy Bible, Isaiah 56:7)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "624e84ab58689bdf4822f81487b55a4a27f34e6d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1025,
+  "words_out": 1020,
+  "retention": 0.9951,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   162,
+   87,
+   70,
+   115,
+   127,
+   132,
+   148,
+   60,
+   73,
+   46
+  ],
+  "warnings": []
+ }
+}

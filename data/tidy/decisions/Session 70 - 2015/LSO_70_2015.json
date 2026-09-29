@@ -1,0 +1,79 @@
+{
+ "id": "LSO_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  15,
+  22,
+  25,
+  31,
+  37,
+  43,
+  49,
+  54,
+  57,
+  61,
+  64,
+  69,
+  76,
+  80,
+  86,
+  92,
+  97
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   67,
+   "twenty-first- century",
+   "twenty-first-century",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efe151e6a3cdb8243caca940c5eb01a65fd66443",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2422,
+  "words_out": 2414,
+  "retention": 0.9967,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   57,
+   78,
+   112,
+   97,
+   170,
+   75,
+   186,
+   146,
+   121,
+   147,
+   98,
+   76,
+   86,
+   94,
+   128,
+   139,
+   95,
+   119,
+   160,
+   112,
+   118
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "NOR_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  20,
+  25,
+  30,
+  35,
+  40,
+  46,
+  54,
+  56,
+  61,
+  68,
+  70,
+  82,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "Viet-Nam, Some",
+   "Viet-Nam. Some",
+   "ocr"
+  ],
+  [
+   5,
+   "What Is now",
+   "What is now",
+   "ocr"
+  ],
+  [
+   7,
+   "never he satisfactory",
+   "never be satisfactory",
+   "ocr"
+  ],
+  [
+   14,
+   "that, Mr, Goldberg",
+   "that Mr. Goldberg",
+   "ocr"
+  ],
+  [
+   31,
+   "Mr, Goldberg",
+   "Mr. Goldberg",
+   "ocr"
+  ],
+  [
+   55,
+   " [see A/6398]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "weapons, This",
+   "weapons. This",
+   "ocr"
+  ],
+  [
+   69,
+   " [A/630l/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   81,
+   "solution, I associate",
+   "solution. I associate",
+   "ocr"
+  ],
+  [
+   87,
+   "office, I repeat",
+   "office. I repeat",
+   "ocr"
+  ],
+  [
+   89,
+   "Organization, The Norwegian",
+   "Organization. The Norwegian",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ebd6df43f4bb87bf6af3b3b1abef9c0cba2117c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5
+  },
+  "words_in": 1921,
+  "words_out": 1895,
+  "retention": 0.9865,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   58,
+   120,
+   197,
+   124,
+   107,
+   92,
+   96,
+   97,
+   178,
+   78,
+   107,
+   125,
+   63,
+   242,
+   72,
+   139
+  ],
+  "warnings": []
+ }
+}

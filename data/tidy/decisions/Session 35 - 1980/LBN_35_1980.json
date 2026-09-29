@@ -1,0 +1,106 @@
+{
+ "id": "LBN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  18,
+  20,
+  23,
+  26,
+  29,
+  32,
+  35,
+  37,
+  41,
+  43,
+  45,
+  51,
+  56,
+  58,
+  63,
+  66,
+  69,
+  71,
+  75,
+  80,
+  82,
+  86,
+  91,
+  96
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   74,
+   "to-express",
+   "to express",
+   "hyphen"
+  ],
+  [
+   76,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ccb39f24a1dd6abcb053652ab9a9deb46ce5d346",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 3487,
+  "words_out": 3486,
+  "retention": 0.9997,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   113,
+   105,
+   123,
+   192,
+   93,
+   118,
+   90,
+   113,
+   71,
+   125,
+   155,
+   89,
+   114,
+   110,
+   75,
+   121,
+   163,
+   69,
+   167,
+   86,
+   172,
+   85,
+   138,
+   184,
+   88,
+   131,
+   163,
+   119,
+   114
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "FIN_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  16,
+  27
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "future, The",
+   "future. The",
+   "ocr"
+  ],
+  [
+   12,
+   "rap id",
+   "rapid",
+   "split_word"
+  ],
+  [
+   14,
+   "[AllOOOllAddJ, sect.",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "J.]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   " [resolution 3362 (S-Vll)]",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "indus-trialization",
+   "industrialization",
+   "hyphen"
+  ],
+  [
+   28,
+   "1 am",
+   "I am",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "The source text ends mid-sentence.",
+ "unitizer_version": 1,
+ "sha1": "0c744e83db6e327e015da3359cc48628f93cad04",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 5
+  },
+  "words_in": 725,
+  "words_out": 710,
+  "retention": 0.9793,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   42,
+   202,
+   157,
+   222,
+   87
+  ],
+  "warnings": []
+ }
+}

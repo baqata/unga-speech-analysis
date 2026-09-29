@@ -1,0 +1,118 @@
+{
+ "id": "GNB_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  13,
+  15,
+  18,
+  21,
+  26,
+  35
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Nations. I",
+   "Nations, I",
+   "ocr"
+  ],
+  [
+   0,
+   "condolence s",
+   "condolences",
+   "split_word"
+  ],
+  [
+   6,
+   "Therefore. I",
+   "Therefore, I",
+   "ocr"
+  ],
+  [
+   9,
+   "end. we",
+   "end, we",
+   "ocr"
+  ],
+  [
+   11,
+   "end. we",
+   "end, we",
+   "ocr"
+  ],
+  [
+   15,
+   "2020. we",
+   "2020, we",
+   "ocr"
+  ],
+  [
+   17,
+   "end. we",
+   "end, we",
+   "ocr"
+  ],
+  [
+   26,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "hyphen"
+  ],
+  [
+   30,
+   "Cuba.",
+   "Cuba,",
+   "ocr"
+  ],
+  [
+   31,
+   "Algeria.",
+   "Algeria,",
+   "ocr"
+  ],
+  [
+   32,
+   "Morocco.",
+   "Morocco,",
+   "ocr"
+  ],
+  [
+   34,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69573358562b4bb9a9d413e6648c4fe62eeefe75",
+ "layout": "lines",
+ "stats": {
+  "n_units": 37,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 904,
+  "words_out": 901,
+  "retention": 0.9967,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   113,
+   118,
+   90,
+   72,
+   126,
+   81,
+   99,
+   130,
+   72
+  ],
+  "warnings": []
+ }
+}

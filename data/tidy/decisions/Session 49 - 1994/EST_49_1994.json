@@ -1,0 +1,70 @@
+{
+ "id": "EST_49_1994",
+ "drop": [
+  [
+   123,
+   124,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  22,
+  41,
+  53,
+  65,
+  85,
+  102,
+  113,
+  130,
+  152,
+  167,
+  178
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   122,
+   " (Official Records of the General",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02ae13c1c746f751a41f1938fd50d7acaa3c5df8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1676,
+  "words_out": 1661,
+  "retention": 0.9911,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   32,
+   171,
+   197,
+   107,
+   100,
+   194,
+   140,
+   94,
+   124,
+   193,
+   124,
+   95,
+   90
+  ],
+  "warnings": []
+ }
+}

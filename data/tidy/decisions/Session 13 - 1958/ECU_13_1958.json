@@ -1,0 +1,116 @@
+{
+ "id": "ECU_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  8,
+  13,
+  15,
+  18,
+  21,
+  25,
+  27,
+  29,
+  32,
+  37,
+  40,
+  43,
+  47,
+  51,
+  56,
+  61,
+  62,
+  69,
+  74,
+  78,
+  80,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "[749th meeting)",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "[A/38381",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   45,
+   "some, economies",
+   "some economies",
+   "ocr"
+  ],
+  [
+   56,
+   "setup",
+   "set up",
+   "spacing"
+  ],
+  [
+   77,
+   "future,",
+   "future.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "afd3d83b93996e4ff911a00e730e3c033dc297b5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2928,
+  "words_out": 2924,
+  "retention": 0.9986,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   20,
+   112,
+   152,
+   106,
+   79,
+   100,
+   80,
+   142,
+   79,
+   108,
+   187,
+   144,
+   115,
+   109,
+   130,
+   100,
+   189,
+   151,
+   84,
+   174,
+   178,
+   151,
+   87,
+   105,
+   42
+  ],
+  "warnings": []
+ }
+}

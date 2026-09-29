@@ -1,0 +1,106 @@
+{
+ "id": "ZAF_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  16,
+  30,
+  40,
+  50,
+  69,
+  79,
+  90,
+  100,
+  111,
+  133,
+  151,
+  164,
+  172,
+  181,
+  203,
+  214,
+  222,
+  239,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "self less",
+   "selfless",
+   "split_word"
+  ],
+  [
+   25,
+   "(resolution 3068",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "(XXVIII), annex, article II)",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "(A/49/PV.14, p.7)",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "issues.That",
+   "issues. That",
+   "spacing"
+  ],
+  [
+   125,
+   "cleansing.We",
+   "cleansing. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5bc5ced53ba3850f3ee9da33765351c2bd323fc4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2156,
+  "words_out": 2149,
+  "retention": 0.9968,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   62,
+   68,
+   101,
+   76,
+   87,
+   182,
+   84,
+   96,
+   79,
+   82,
+   170,
+   148,
+   103,
+   69,
+   67,
+   165,
+   93,
+   61,
+   155,
+   76,
+   125
+  ],
+  "warnings": []
+ }
+}

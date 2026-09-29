@@ -1,0 +1,55 @@
+{
+ "id": "ITA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  29,
+  43,
+  57,
+  77,
+  87,
+  101,
+  113,
+  124,
+  134,
+  149,
+  165,
+  178
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9dc696bb31f88397fff08092883ef289dfaa5a7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1436,
+  "words_out": 1434,
+  "retention": 0.9986,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   114,
+   117,
+   110,
+   111,
+   151,
+   80,
+   106,
+   91,
+   81,
+   70,
+   111,
+   130,
+   101,
+   61
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "GHA_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  38,
+  50,
+  66,
+  79,
+  88,
+  102,
+  112,
+  125,
+  141,
+  165,
+  176,
+  185,
+  201
+ ],
+ "cer": [
+  201
+ ],
+ "fix": [
+  [
+   184,
+   " (A/57/387 and Corr.1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4c3c28fad2de7faef5d42090963effa37f37b2a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1659,
+  "words_out": 1653,
+  "retention": 0.9964,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   124,
+   98,
+   88,
+   130,
+   94,
+   71,
+   122,
+   76,
+   91,
+   125,
+   206,
+   86,
+   68,
+   129,
+   65
+  ],
+  "warnings": []
+ }
+}

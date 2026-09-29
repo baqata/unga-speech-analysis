@@ -1,0 +1,54 @@
+{
+ "id": "EGY_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  12,
+  19,
+  21,
+  26,
+  28
+ ],
+ "cer": [
+  26
+ ],
+ "fix": [
+  [
+   7,
+   "alter the",
+   "after the",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "98c0af3ad3b0b4e9c2f801629054bacdbfbf1b0c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 31,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1273,
+  "words_out": 1270,
+  "retention": 0.9976,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   116,
+   175,
+   164,
+   88,
+   236,
+   106,
+   191,
+   81,
+   113
+  ],
+  "warnings": []
+ }
+}

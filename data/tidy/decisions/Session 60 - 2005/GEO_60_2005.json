@@ -1,0 +1,54 @@
+{
+ "id": "GEO_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  40,
+  55,
+  67,
+  79,
+  95,
+  108,
+  124,
+  137,
+  147
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc9441b02a76e265471b6e4472df51d80652ce1b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 2
+  },
+  "words_in": 1242,
+  "words_out": 1241,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   70,
+   145,
+   115,
+   120,
+   93,
+   92,
+   120,
+   114,
+   119,
+   96,
+   78,
+   79
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "id": "CHN_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  17,
+  23,
+  28,
+  35,
+  41,
+  45,
+  55,
+  61,
+  69,
+  73,
+  79,
+  85,
+  100,
+  107,
+  113,
+  119,
+  127,
+  137,
+  145,
+  153,
+  157,
+  162,
+  165,
+  175,
+  179
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "is, a great",
+   "is a great",
+   "ocr"
+  ],
+  [
+   11,
+   "concerned,",
+   "concerned.",
+   "ocr"
+  ],
+  [
+   27,
+   "never forgot",
+   "never forget",
+   "ocr"
+  ],
+  [
+   37,
+   "m well as",
+   "as well as",
+   "ocr"
+  ],
+  [
+   40,
+   "[A/4132/Add.1, P.4.]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "1,2 million",
+   "1.2 million",
+   "ocr"
+  ],
+  [
+   118,
+   "vender",
+   "under",
+   "ocr"
+  ],
+  [
+   120,
+   "oily and",
+   "city and",
+   "ocr"
+  ],
+  [
+   137,
+   "conflicts, are",
+   "conflicts are",
+   "ocr"
+  ],
+  [
+   145,
+   "{complete",
+   "complete",
+   "ocr"
+  ],
+  [
+   172,
+   "family, ft starts",
+   "family. It starts",
+   "ocr"
+  ],
+  [
+   173,
+   "India, \"That",
+   "India.\" That",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3fa8da003fe8bc704f76cf30d052a25ea4ae06d6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 38
+  },
+  "words_in": 3968,
+  "words_out": 3965,
+  "retention": 0.9992,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   139,
+   80,
+   105,
+   144,
+   116,
+   100,
+   199,
+   97,
+   242,
+   140,
+   195,
+   140,
+   100,
+   93,
+   263,
+   183,
+   114,
+   130,
+   161,
+   178,
+   126,
+   162,
+   90,
+   102,
+   140,
+   270,
+   83,
+   73
+  ],
+  "warnings": []
+ }
+}

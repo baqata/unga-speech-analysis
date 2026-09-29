@@ -1,0 +1,147 @@
+{
+ "id": "ISR_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  20,
+  26,
+  31,
+  35,
+  41,
+  44,
+  50,
+  59,
+  62,
+  67,
+  76,
+  81,
+  88,
+  93,
+  97,
+  101,
+  105,
+  110,
+  114,
+  120,
+  124,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "Nations^",
+   "Nations",
+   "ocr"
+  ],
+  [
+   16,
+   "universal.",
+   "universal",
+   "ocr"
+  ],
+  [
+   27,
+   "(the",
+   "the",
+   "ocr"
+  ],
+  [
+   38,
+   "arid",
+   "and",
+   "ocr"
+  ],
+  [
+   63,
+   "ox",
+   "of",
+   "ocr"
+  ],
+  [
+   71,
+   "affect,",
+   "affect",
+   "ocr"
+  ],
+  [
+   71,
+   "of.",
+   "of",
+   "ocr"
+  ],
+  [
+   104,
+   "/",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "[A/2404, p. xii],",
+   "[A/2404, p. xii].",
+   "ocr"
+  ],
+  [
+   114,
+   "potentialities'",
+   "potentialities",
+   "ocr"
+  ],
+  [
+   114,
+   "of.",
+   "of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 40 ends without a full stop in the printed record; left as printed.",
+ "unitizer_version": 1,
+ "sha1": "9a267e61799f5fe7a8bb72907f9ba38922d75423",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 34
+  },
+  "words_in": 4284,
+  "words_out": 4277,
+  "retention": 0.9984,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   194,
+   172,
+   161,
+   174,
+   157,
+   104,
+   164,
+   117,
+   154,
+   265,
+   120,
+   190,
+   262,
+   117,
+   184,
+   182,
+   170,
+   129,
+   191,
+   198,
+   178,
+   260,
+   117,
+   137,
+   180
+  ],
+  "warnings": []
+ }
+}

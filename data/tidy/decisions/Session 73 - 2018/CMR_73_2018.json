@@ -1,0 +1,74 @@
+{
+ "id": "CMR_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  14,
+  19,
+  23,
+  28,
+  33,
+  37,
+  41,
+  45,
+  47,
+  50,
+  53,
+  56,
+  62,
+  67,
+  72,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "North- West",
+   "North-West",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "211f7e3f42dce9011190d374be1c2f8166a05b21",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2354,
+  "words_out": 2353,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   170,
+   136,
+   86,
+   81,
+   111,
+   148,
+   144,
+   155,
+   114,
+   108,
+   102,
+   59,
+   99,
+   95,
+   123,
+   182,
+   151,
+   130,
+   116,
+   43
+  ],
+  "warnings": []
+ }
+}

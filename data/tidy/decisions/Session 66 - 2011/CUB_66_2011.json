@@ -1,0 +1,53 @@
+{
+ "id": "CUB_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  31,
+  58,
+  90,
+  106,
+  133,
+  157,
+  178,
+  195,
+  226,
+  257
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02d8f89913897119ed67880af35747ceeffb8437",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2043,
+  "words_out": 2038,
+  "retention": 0.9976,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   42,
+   188,
+   212,
+   226,
+   128,
+   218,
+   218,
+   158,
+   137,
+   243,
+   232,
+   36
+  ],
+  "warnings": []
+ }
+}

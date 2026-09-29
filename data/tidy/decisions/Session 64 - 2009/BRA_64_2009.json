@@ -1,0 +1,53 @@
+{
+ "id": "BRA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  34,
+  53,
+  67,
+  93,
+  115,
+  126,
+  152,
+  166,
+  183,
+  208,
+  226
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cdc612363e0c9b37913a25ab642a0e6bb7f319fc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1893,
+  "words_out": 1892,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   152,
+   114,
+   153,
+   105,
+   207,
+   172,
+   89,
+   210,
+   105,
+   136,
+   211,
+   147,
+   91
+  ],
+  "warnings": []
+ }
+}

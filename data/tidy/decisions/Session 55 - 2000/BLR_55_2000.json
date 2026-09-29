@@ -1,0 +1,55 @@
+{
+ "id": "BLR_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  19,
+  39,
+  70,
+  91,
+  103,
+  119,
+  141,
+  159,
+  169,
+  187,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6b861f35de75311dcc03716cdc2902907567834",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1733,
+  "words_out": 1728,
+  "retention": 0.9971,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   13,
+   136,
+   158,
+   238,
+   164,
+   89,
+   124,
+   172,
+   143,
+   73,
+   129,
+   188,
+   101
+  ],
+  "warnings": []
+ }
+}

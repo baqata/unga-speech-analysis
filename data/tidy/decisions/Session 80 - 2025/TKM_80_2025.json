@@ -1,0 +1,65 @@
+{
+ "id": "TKM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   62,
+   62,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  7,
+  14,
+  22,
+  28,
+  33,
+  38,
+  43,
+  45,
+  53,
+  60
+ ],
+ "cer": [
+  2,
+  60
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c6959bfa38e61e0ff7347794798d8e69fc263bb",
+ "layout": "single",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1602,
+  "words_out": 1554,
+  "retention": 0.97,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   89,
+   103,
+   191,
+   183,
+   152,
+   136,
+   94,
+   167,
+   75,
+   178,
+   146,
+   40
+  ],
+  "warnings": []
+ }
+}

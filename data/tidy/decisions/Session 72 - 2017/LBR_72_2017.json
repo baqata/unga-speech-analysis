@@ -1,0 +1,72 @@
+{
+ "id": "LBR_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  16,
+  19,
+  23,
+  26,
+  30,
+  34,
+  39,
+  42,
+  45,
+  49,
+  56,
+  61,
+  63,
+  67
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   44,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4fb317de99c6903de33ef7a4aad3c06382bed4ff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1599,
+  "words_out": 1598,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   77,
+   152,
+   86,
+   68,
+   66,
+   76,
+   74,
+   82,
+   66,
+   105,
+   60,
+   109,
+   105,
+   162,
+   111,
+   67,
+   74,
+   58
+  ],
+  "warnings": []
+ }
+}

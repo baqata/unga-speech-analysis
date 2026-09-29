@@ -1,0 +1,106 @@
+{
+ "id": "KGZ_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   158,
+   158,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  11,
+  21,
+  29,
+  36,
+  46,
+  60,
+  71,
+  76,
+  82,
+  88,
+  93,
+  97,
+  106,
+  112,
+  116,
+  121,
+  127,
+  135,
+  145,
+  152,
+  157
+ ],
+ "cer": [
+  2,
+  157
+ ],
+ "fix": [
+  [
+   40,
+   "Kurdistan",
+   "Kyrgyzstan",
+   "asr_name"
+  ],
+  [
+   102,
+   "asserted to",
+   "acceded to",
+   "asr_term"
+  ],
+  [
+   127,
+   "Doc Hammershelt",
+   "Dag Hammarskjöld",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40143d451e1057d8b13329a405f49e70c88d972f",
+ "layout": "single",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2855,
+  "words_out": 2808,
+  "retention": 0.9835,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   45,
+   137,
+   149,
+   165,
+   97,
+   181,
+   199,
+   178,
+   99,
+   143,
+   123,
+   91,
+   75,
+   166,
+   132,
+   77,
+   77,
+   130,
+   137,
+   180,
+   183,
+   37,
+   7
+  ],
+  "warnings": []
+ }
+}

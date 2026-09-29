@@ -1,0 +1,94 @@
+{
+ "id": "ZAF_63_2008",
+ "drop": [
+  [
+   231,
+   232,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  20,
+  32,
+  47,
+  64,
+  76,
+  97,
+  121,
+  133,
+  150,
+  162,
+  172,
+  188,
+  219,
+  233,
+  248,
+  259
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   96,
+   " (, p. 3)",
+   "",
+   "label"
+  ],
+  [
+   137,
+   " (decision 62/557)",
+   "",
+   "label"
+  ],
+  [
+   199,
+   "win soon",
+   "will soon",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09bf9cb5ef61d4f62f03489ad4ff9319e5c0d6fb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 275,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2127,
+  "words_out": 2105,
+  "retention": 0.9897,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   94,
+   85,
+   115,
+   126,
+   98,
+   155,
+   187,
+   99,
+   130,
+   104,
+   65,
+   138,
+   245,
+   92,
+   95,
+   84,
+   121
+  ],
+  "warnings": [
+   "procedural drop [231,232] in the middle of the speech"
+  ]
+ }
+}

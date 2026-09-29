@@ -1,0 +1,74 @@
+{
+ "id": "CHE_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  34,
+  56,
+  67,
+  82,
+  98,
+  115,
+  134,
+  156,
+  168,
+  177,
+  190,
+  205
+ ],
+ "cer": [],
+ "fix": [
+  [
+   52,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ],
+  [
+   109,
+   "f lexibly",
+   "flexibly",
+   "split_word"
+  ],
+  [
+   121,
+   "f louted",
+   "flouted",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6fe2dbbd483d9d125a23ac6e730fee2d7e77b84",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 217,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1789,
+  "words_out": 1785,
+  "retention": 0.9978,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   74,
+   75,
+   125,
+   164,
+   91,
+   115,
+   135,
+   133,
+   153,
+   194,
+   103,
+   85,
+   108,
+   114,
+   116
+  ],
+  "warnings": []
+ }
+}

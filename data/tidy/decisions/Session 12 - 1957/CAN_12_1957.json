@@ -1,0 +1,118 @@
+{
+ "id": "CAN_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  13,
+  16,
+  18,
+  21,
+  26,
+  28,
+  32,
+  38,
+  41,
+  46,
+  49,
+  53,
+  58,
+  61,
+  67,
+  72,
+  83,
+  87,
+  91,
+  96,
+  102,
+  111,
+  121,
+  130,
+  134
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "[A/3594/Add.l, page 3.]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   " [DC/113, annex 51",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "United Nations,",
+   "United Nations.",
+   "ocr"
+  ],
+  [
+   95,
+   "6,000.1 repeat",
+   "6,000. I repeat",
+   "ocr"
+  ],
+  [
+   126,
+   "groups to not become",
+   "groups do not become",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 27 visibly lacks words between 'Disarmament Commission' and 'if that was necessary then'.",
+ "unitizer_version": 1,
+ "sha1": "f937d73ef922e444b377971fc408cc23f8910b09",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3767,
+  "words_out": 3762,
+  "retention": 0.9987,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   100,
+   195,
+   106,
+   127,
+   104,
+   102,
+   183,
+   82,
+   128,
+   140,
+   75,
+   204,
+   95,
+   80,
+   169,
+   85,
+   171,
+   64,
+   161,
+   125,
+   95,
+   159,
+   182,
+   178,
+   173,
+   201,
+   95,
+   183
+  ],
+  "warnings": []
+ }
+}

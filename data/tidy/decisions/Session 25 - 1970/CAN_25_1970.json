@@ -1,0 +1,93 @@
+{
+ "id": "CAN_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  18,
+  22,
+  25,
+  29,
+  33,
+  37,
+  40,
+  44,
+  48,
+  53,
+  56,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "Gun nar",
+   "Gunnar",
+   "split_word"
+  ],
+  [
+   27,
+   "conference .",
+   "conference.",
+   "spacing"
+  ],
+  [
+   43,
+   "obligations .",
+   "obligations.",
+   "spacing"
+  ],
+  [
+   47,
+   " [A/7992 and Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "Assembly, Recommendations",
+   "Assembly. Recommendations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad7b74a4519ae6841ac9304f26cbeb41fbf8fe9b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 25
+  },
+  "words_in": 1685,
+  "words_out": 1679,
+  "retention": 0.9964,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   141,
+   140,
+   81,
+   112,
+   110,
+   62,
+   108,
+   85,
+   68,
+   65,
+   74,
+   129,
+   135,
+   85,
+   153,
+   131
+  ],
+  "warnings": []
+ }
+}

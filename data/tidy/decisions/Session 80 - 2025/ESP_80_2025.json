@@ -1,0 +1,84 @@
+{
+ "id": "ESP_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   104,
+   104,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  9,
+  14,
+  19,
+  28,
+  34,
+  39,
+  44,
+  51,
+  56,
+  63,
+  68,
+  73,
+  76,
+  83,
+  88,
+  91,
+  96,
+  100,
+  103
+ ],
+ "cer": [
+  2,
+  100,
+  103
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "734c5017fdf3697bbf9c3eeb2a90dd65d6c7acf6",
+ "layout": "single",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2279,
+  "words_out": 2236,
+  "retention": 0.9811,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   22,
+   142,
+   128,
+   114,
+   126,
+   127,
+   84,
+   134,
+   159,
+   127,
+   180,
+   89,
+   85,
+   82,
+   135,
+   98,
+   90,
+   117,
+   117,
+   76,
+   4
+  ],
+  "warnings": []
+ }
+}

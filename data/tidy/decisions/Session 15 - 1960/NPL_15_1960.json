@@ -1,0 +1,145 @@
+{
+ "id": "NPL_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  16,
+  22,
+  25,
+  27,
+  31,
+  37,
+  41,
+  46,
+  48,
+  57,
+  64,
+  69,
+  77,
+  82,
+  89,
+  93,
+  97,
+  102,
+  111,
+  120,
+  122,
+  127,
+  137,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "are hot yet",
+   "are not yet",
+   "ocr"
+  ],
+  [
+   17,
+   "People1# Republic",
+   "People's Republic",
+   "ocr"
+  ],
+  [
+   27,
+   "and Strengthen",
+   "and strengthen",
+   "ocr"
+  ],
+  [
+   38,
+   "to unable the",
+   "to enable the",
+   "ocr"
+  ],
+  [
+   68,
+   "work of the United Nations,",
+   "work of the United Nations.",
+   "ocr"
+  ],
+  [
+   88,
+   "We Should",
+   "We should",
+   "ocr"
+  ],
+  [
+   93,
+   "re-creation, > of",
+   "re-creation, of",
+   "ocr"
+  ],
+  [
+   101,
+   " 1873rd meeting]",
+   "",
+   "label"
+  ],
+  [
+   115,
+   "IS there",
+   "Is there",
+   "ocr"
+  ],
+  [
+   115,
+   "so Little",
+   "so little",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77be60f6f55da4fc47fc17a6f6b61313d8d4555e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 35
+  },
+  "words_in": 4199,
+  "words_out": 4196,
+  "retention": 0.9993,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   138,
+   211,
+   183,
+   184,
+   116,
+   71,
+   134,
+   200,
+   191,
+   156,
+   106,
+   199,
+   197,
+   146,
+   215,
+   141,
+   169,
+   76,
+   117,
+   192,
+   212,
+   157,
+   93,
+   112,
+   254,
+   120,
+   106
+  ],
+  "warnings": []
+ }
+}

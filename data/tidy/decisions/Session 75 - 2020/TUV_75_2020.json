@@ -1,0 +1,132 @@
+{
+ "id": "TUV_75_2020",
+ "drop": [
+  [
+   6,
+   6,
+   "heading"
+  ],
+  [
+   13,
+   13,
+   "heading"
+  ],
+  [
+   20,
+   20,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  12,
+  21,
+  24,
+  33,
+  41,
+  45,
+  48,
+  53,
+  58,
+  63,
+  69,
+  74
+ ],
+ "cer": [
+  0,
+  1,
+  74
+ ],
+ "fix": [
+  [
+   0,
+   " Introduction",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "challengesto",
+   "challenges to",
+   "merged_word"
+  ],
+  [
+   55,
+   "projectsto",
+   "projects to",
+   "merged_word"
+  ],
+  [
+   28,
+   "(i) ",
+   "",
+   "markup"
+  ],
+  [
+   29,
+   "(ii)",
+   "",
+   "markup"
+  ],
+  [
+   30,
+   "(iii",
+   "",
+   "markup"
+  ],
+  [
+   30,
+   ")",
+   "",
+   "markup"
+  ],
+  [
+   31,
+   "(iv)",
+   "",
+   "markup"
+  ],
+  [
+   32,
+   "(v) ",
+   "",
+   "markup"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f3337e03dcb35f52c3c518e4af0ddcc37c1203d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {
+   "heading": 3
+  },
+  "prestrip": {},
+  "words_in": 1424,
+  "words_out": 1399,
+  "retention": 0.9824,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   11,
+   84,
+   138,
+   116,
+   79,
+   94,
+   78,
+   141,
+   75,
+   118,
+   106,
+   123,
+   133,
+   95,
+   8
+  ],
+  "warnings": []
+ }
+}

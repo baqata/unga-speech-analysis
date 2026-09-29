@@ -1,0 +1,140 @@
+{
+ "id": "DZA_25_1970",
+ "drop": [
+  [
+   18,
+   18,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  19,
+  25,
+  34,
+  42,
+  46,
+  52,
+  57,
+  64,
+  73,
+  76,
+  80,
+  83,
+  90,
+  98,
+  100,
+  103,
+  111,
+  114,
+  118,
+  121,
+  124,
+  127,
+  130,
+  132,
+  135
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   10,
+   "[Ibid., para. 119.]",
+   "",
+   "label"
+  ],
+  [
+   17,
+   "[Ibid., para. 120.]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "[Ibid., paras. 129-134.]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "[Ibid., paras. 154 and 155.]",
+   "",
+   "label"
+  ],
+  [
+   56,
+   " [ Ibid., paras. 173175.]",
+   "",
+   "label"
+  ],
+  [
+   72,
+   " [Ibid., paras. 184 - 188.]",
+   "",
+   "label"
+  ],
+  [
+   123,
+   "succeeded.The",
+   "succeeded. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Long quotations from President Nasser's 1960 address are kept as part of the statement.",
+ "unitizer_version": 1,
+ "sha1": "01bec908954b293fcb6bfaf4fc522e2d65433541",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 31
+  },
+  "words_in": 4006,
+  "words_out": 3980,
+  "retention": 0.9935,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   79,
+   147,
+   101,
+   136,
+   120,
+   184,
+   200,
+   154,
+   212,
+   154,
+   253,
+   237,
+   130,
+   115,
+   127,
+   150,
+   187,
+   80,
+   103,
+   225,
+   59,
+   122,
+   111,
+   112,
+   75,
+   141,
+   78,
+   111,
+   77
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "TLS_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  15,
+  20,
+  23,
+  30,
+  34,
+  38,
+  41,
+  47,
+  52,
+  56,
+  60,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "2021- 2030",
+   "2021-2030",
+   "hyphen"
+  ],
+  [
+   62,
+   "Timor- Leste",
+   "Timor-Leste",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0042c94805ac88dc71560b37154d7c355bcae861",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1708,
+  "words_out": 1706,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   137,
+   63,
+   184,
+   88,
+   90,
+   183,
+   140,
+   93,
+   100,
+   117,
+   109,
+   102,
+   95,
+   70,
+   135
+  ],
+  "warnings": []
+ }
+}

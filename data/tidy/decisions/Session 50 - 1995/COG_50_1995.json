@@ -1,0 +1,77 @@
+{
+ "id": "COG_50_1995",
+ "drop": [
+  [
+   314,
+   314,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  32,
+  53,
+  74,
+  95,
+  115,
+  128,
+  152,
+  169,
+  189,
+  209,
+  221,
+  231,
+  244,
+  255,
+  269,
+  282,
+  296,
+  306
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d03e7aa08abea135896c6f86c1e39fc9867b2de",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2705,
+  "words_out": 2697,
+  "retention": 0.997,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   135,
+   146,
+   177,
+   176,
+   162,
+   166,
+   102,
+   205,
+   150,
+   159,
+   169,
+   110,
+   78,
+   120,
+   109,
+   136,
+   119,
+   133,
+   81,
+   64
+  ],
+  "warnings": []
+ }
+}

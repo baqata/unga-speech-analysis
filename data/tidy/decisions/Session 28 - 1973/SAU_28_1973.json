@@ -1,0 +1,68 @@
+{
+ "id": "SAU_28_1973",
+ "drop": [
+  [
+   22,
+   22,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  16,
+  19,
+  23,
+  26,
+  30
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   25,
+   "or' surrendering",
+   "or surrendering",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2af2f6f6a5a7641ac241807afbd108802ab4cf9d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 31,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1079,
+  "words_out": 1077,
+  "retention": 0.9981,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   160,
+   136,
+   105,
+   219,
+   93,
+   110,
+   91,
+   139,
+   24
+  ],
+  "warnings": []
+ }
+}

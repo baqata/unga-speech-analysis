@@ -1,0 +1,55 @@
+{
+ "id": "GRD_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  22,
+  50,
+  78,
+  104,
+  134,
+  154,
+  173,
+  198,
+  210,
+  232,
+  252
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6eff38d8cffe02647dceb53487f30625c89ac0bf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2039,
+  "words_out": 2034,
+  "retention": 0.9975,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   68,
+   94,
+   230,
+   201,
+   204,
+   228,
+   148,
+   135,
+   211,
+   91,
+   176,
+   154,
+   94
+  ],
+  "warnings": []
+ }
+}

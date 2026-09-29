@@ -1,0 +1,70 @@
+{
+ "id": "MNE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  12,
+  16,
+  18,
+  22,
+  25,
+  30,
+  32,
+  36,
+  39,
+  43,
+  47
+ ],
+ "cer": [],
+ "fix": [
+  [
+   17,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   26,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41a3fae9823810ed7bbba3714a4e16a383bb2e19",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1466,
+  "words_out": 1457,
+  "retention": 0.9939,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   64,
+   74,
+   163,
+   91,
+   120,
+   57,
+   105,
+   79,
+   164,
+   64,
+   111,
+   76,
+   86,
+   115,
+   88
+  ],
+  "warnings": []
+ }
+}

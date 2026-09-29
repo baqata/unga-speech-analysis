@@ -1,0 +1,70 @@
+{
+ "id": "HUN_48_1993",
+ "drop": [
+  [
+   78,
+   78,
+   "header_footer"
+  ],
+  [
+   175,
+   175,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  17,
+  37,
+  53,
+  79,
+  88,
+  113,
+  136,
+  145,
+  162,
+  176,
+  197,
+  206,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f1d3dcb41d8c6a1547daefdca0df0610bf0015f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2068,
+  "words_out": 2054,
+  "retention": 0.9932,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   60,
+   76,
+   167,
+   140,
+   227,
+   82,
+   228,
+   189,
+   72,
+   145,
+   125,
+   193,
+   71,
+   234,
+   45
+  ],
+  "warnings": []
+ }
+}

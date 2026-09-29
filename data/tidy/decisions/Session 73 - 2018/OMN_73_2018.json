@@ -1,0 +1,59 @@
+{
+ "id": "OMN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  11,
+  15,
+  17,
+  21,
+  24,
+  26,
+  28,
+  31
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   26,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5bed452a27d19a6ed9677e0ff9362aa2aea04187",
+ "layout": "lines",
+ "stats": {
+  "n_units": 32,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1025,
+  "words_out": 1024,
+  "retention": 0.999,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   54,
+   83,
+   108,
+   92,
+   117,
+   78,
+   100,
+   101,
+   89,
+   77,
+   60,
+   65
+  ],
+  "warnings": []
+ }
+}

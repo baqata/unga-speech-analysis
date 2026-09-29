@@ -1,0 +1,47 @@
+{
+ "id": "OMN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  19,
+  28,
+  42,
+  54,
+  66,
+  78,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a40133a6bee4b68e97d8924a499b531732bea11",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 918,
+  "words_out": 917,
+  "retention": 0.9989,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   61,
+   82,
+   66,
+   109,
+   88,
+   97,
+   97,
+   180,
+   137
+  ],
+  "warnings": []
+ }
+}

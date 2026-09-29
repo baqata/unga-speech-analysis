@@ -1,0 +1,190 @@
+{
+ "id": "USA_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  20,
+  31,
+  39,
+  45,
+  49,
+  54,
+  59,
+  63,
+  72,
+  76,
+  80,
+  85,
+  91,
+  101,
+  108,
+  119,
+  126,
+  130,
+  136,
+  140,
+  146,
+  147,
+  152,
+  157,
+  161,
+  166,
+  170,
+  177,
+  181,
+  187,
+  191,
+  194,
+  196,
+  206,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Mr. DULLES (United States of America): ",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "lie",
+   "He",
+   "ocr"
+  ],
+  [
+   18,
+   "lie",
+   "be",
+   "ocr"
+  ],
+  [
+   30,
+   "occurred,",
+   "occurred.",
+   "ocr"
+  ],
+  [
+   71,
+   "docs",
+   "does",
+   "ocr"
+  ],
+  [
+   74,
+   "arm slice",
+   "armistice",
+   "ocr"
+  ],
+  [
+   79,
+   "tilt",
+   "the",
+   "ocr"
+  ],
+  [
+   102,
+   "ago. four",
+   "ago, four",
+   "ocr"
+  ],
+  [
+   136,
+   "cast",
+   "vast",
+   "ocr"
+  ],
+  [
+   151,
+   "arc",
+   "are",
+   "ocr"
+  ],
+  [
+   182,
+   "localise",
+   "because",
+   "ocr"
+  ],
+  [
+   182,
+   "Towers",
+   "Powers",
+   "ocr"
+  ],
+  [
+   193,
+   ".Second",
+   "Second",
+   "ocr"
+  ],
+  [
+   215,
+   "1",
+   "I",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 158 has two instances of 'lie' printed for 'He'; left as printed because the repair cannot be made without padding.",
+ "unitizer_version": 1,
+ "sha1": "a891a57b83a3c919ba1781b6c25d831fdf739cd6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 50
+  },
+  "words_in": 4443,
+  "words_out": 4434,
+  "retention": 0.998,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   69,
+   212,
+   95,
+   171,
+   120,
+   97,
+   84,
+   87,
+   67,
+   75,
+   152,
+   83,
+   88,
+   109,
+   186,
+   212,
+   135,
+   182,
+   118,
+   86,
+   144,
+   107,
+   106,
+   70,
+   121,
+   125,
+   125,
+   120,
+   78,
+   170,
+   99,
+   111,
+   110,
+   74,
+   65,
+   199,
+   117,
+   65
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "id": "EU_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  18,
+  23,
+  31,
+  37,
+  40,
+  49,
+  52,
+  56,
+  64,
+  71,
+  80,
+  86,
+  94,
+  100,
+  109,
+  116,
+  122,
+  127
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "Russian- speaking",
+   "Russian-speaking",
+   "hyphen"
+  ],
+  [
+   51,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ],
+  [
+   52,
+   "Paul- Henri",
+   "Paul-Henri",
+   "hyphen"
+  ],
+  [
+   118,
+   "Okonjo- Iweala",
+   "Okonjo-Iweala",
+   "hyphen"
+  ],
+  [
+   54,
+   "(A/PV.147; p. 281)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "930ae90d0402183b3642088c3c6c6a66e0115769",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2556,
+  "words_out": 2548,
+  "retention": 0.9969,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   84,
+   106,
+   122,
+   92,
+   110,
+   126,
+   65,
+   217,
+   63,
+   104,
+   96,
+   97,
+   173,
+   124,
+   150,
+   135,
+   145,
+   119,
+   90,
+   130,
+   200
+  ],
+  "warnings": []
+ }
+}

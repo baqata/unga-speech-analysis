@@ -1,0 +1,76 @@
+{
+ "id": "DNK_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  29,
+  52,
+  72,
+  81,
+  98,
+  108,
+  122,
+  135,
+  147,
+  161,
+  177,
+  197,
+  213,
+  225,
+  239,
+  253
+ ],
+ "cer": [],
+ "fix": [
+  [
+   173,
+   "f leeing",
+   "fleeing",
+   "split_word"
+  ],
+  [
+   243,
+   "(SG/2178)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef0ae8a52e541e411d78e110a8d86d8a8c4ec915",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2192,
+  "words_out": 2187,
+  "retention": 0.9977,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   76,
+   152,
+   167,
+   157,
+   66,
+   141,
+   70,
+   123,
+   103,
+   91,
+   114,
+   153,
+   163,
+   145,
+   112,
+   121,
+   124,
+   109
+  ],
+  "warnings": []
+ }
+}

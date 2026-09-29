@@ -1,0 +1,121 @@
+{
+ "id": "LAO_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  9,
+  12,
+  16,
+  22,
+  29,
+  34,
+  38,
+  41,
+  43,
+  49,
+  50,
+  53,
+  58,
+  59,
+  61,
+  67,
+  71,
+  74,
+  77,
+  80,
+  82
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  41,
+  82
+ ],
+ "fix": [
+  [
+   2,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   21,
+   "creating Conditions",
+   "creating conditions",
+   "ocr"
+  ],
+  [
+   21,
+   "independence,, democracy",
+   "independence, democracy",
+   "ocr"
+  ],
+  [
+   46,
+   "reactioniaries",
+   "reactionaries",
+   "ocr"
+  ],
+  [
+   55,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   71,
+   "occupied ;n 1967",
+   "occupied in 1967",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c5939d18387e4c5a9fe489ea0b0a76fb1f8ca70",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 2,
+   "paragraph_number": 37
+  },
+  "words_in": 3309,
+  "words_out": 3307,
+  "retention": 0.9994,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   68,
+   102,
+   113,
+   77,
+   190,
+   146,
+   248,
+   186,
+   139,
+   135,
+   193,
+   89,
+   170,
+   102,
+   138,
+   183,
+   76,
+   115,
+   202,
+   142,
+   114,
+   101,
+   119,
+   66,
+   93
+  ],
+  "warnings": []
+ }
+}

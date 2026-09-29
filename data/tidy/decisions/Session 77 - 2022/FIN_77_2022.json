@@ -1,0 +1,82 @@
+{
+ "id": "FIN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  17,
+  21,
+  27,
+  31,
+  37,
+  47,
+  55,
+  62,
+  71,
+  78,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   24,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   38,
+   "twenty- sixth",
+   "twenty-sixth",
+   "hyphen"
+  ],
+  [
+   69,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e0440b76c008bf625799942d969bfb4f0abac79",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1390,
+  "words_out": 1385,
+  "retention": 0.9964,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   58,
+   75,
+   61,
+   81,
+   61,
+   122,
+   76,
+   69,
+   170,
+   126,
+   102,
+   135,
+   90,
+   73,
+   86
+  ],
+  "warnings": []
+ }
+}

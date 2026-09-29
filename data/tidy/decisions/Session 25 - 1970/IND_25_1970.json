@@ -1,0 +1,107 @@
+{
+ "id": "IND_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  21,
+  26,
+  36,
+  44,
+  48,
+  52,
+  58,
+  61,
+  64,
+  74,
+  78,
+  80,
+  82,
+  87,
+  92,
+  96,
+  103,
+  112,
+  117,
+  121,
+  126,
+  130,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "resolution s",
+   "resolutions",
+   "split_word"
+  ],
+  [
+   46,
+   "materialized,.",
+   "materialized.",
+   "ocr"
+  ],
+  [
+   76,
+   "floor .",
+   "floor.",
+   "spacing"
+  ],
+  [
+   95,
+   " [A',7982, para. 16]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "120a6173ff7cea4b3b479336f78733680e05624f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 41
+  },
+  "words_in": 3531,
+  "words_out": 3523,
+  "retention": 0.9977,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   88,
+   126,
+   169,
+   209,
+   164,
+   202,
+   74,
+   160,
+   122,
+   87,
+   70,
+   177,
+   132,
+   97,
+   104,
+   165,
+   189,
+   157,
+   169,
+   212,
+   122,
+   89,
+   106,
+   124,
+   185,
+   24
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "UGA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   62,
+   63,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  12,
+  18,
+  22,
+  25,
+  28,
+  36,
+  42,
+  45,
+  50,
+  54,
+  61
+ ],
+ "cer": [
+  2,
+  61
+ ],
+ "fix": [
+  [
+   2,
+   "General Yoweri Kagutam-Seveni,",
+   "General Yoweri Kaguta Museveni,",
+   "asr_name"
+  ],
+  [
+   4,
+   "Excellency Philomene Young",
+   "Excellency Philemon Yang",
+   "asr_name"
+  ],
+  [
+   23,
+   "the Eswalini Consensus",
+   "the Ezulwini Consensus",
+   "asr_name"
+  ],
+  [
+   23,
+   "Sate",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   39,
+   "2002 Monetary Consensus",
+   "2002 Monterrey Consensus",
+   "asr_name"
+  ],
+  [
+   40,
+   "their physical and policy space",
+   "their fiscal and policy space",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "23b3c9599ecb13db0078d256a62c2173deb2b7cd",
+ "layout": "single",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1443,
+  "words_out": 1390,
+  "retention": 0.9633,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   130,
+   152,
+   125,
+   126,
+   91,
+   88,
+   154,
+   125,
+   62,
+   125,
+   91,
+   118,
+   3
+  ],
+  "warnings": []
+ }
+}

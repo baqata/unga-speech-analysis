@@ -1,0 +1,82 @@
+{
+ "id": "BLR_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  17,
+  21,
+  25,
+  33,
+  40,
+  45,
+  54,
+  59
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "amounting .to",
+   "amounting to",
+   "ocr"
+  ],
+  [
+   20,
+   "1945,",
+   "1945.",
+   "ocr"
+  ],
+  [
+   29,
+   "United.",
+   "United",
+   "ocr"
+  ],
+  [
+   8,
+   " (222nd meeting)",
+   "",
+   "label"
+  ],
+  [
+   54,
+   " (226th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "e317909a0c6de213cacb4165fce99d4dfe215b38",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 1621,
+  "words_out": 1617,
+  "retention": 0.9975,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   111,
+   148,
+   200,
+   127,
+   62,
+   225,
+   138,
+   137,
+   209,
+   106,
+   154
+  ],
+  "warnings": []
+ }
+}

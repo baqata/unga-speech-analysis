@@ -1,0 +1,82 @@
+{
+ "id": "BRB_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  35,
+  45,
+  61,
+  78,
+  91,
+  109,
+  129,
+  141,
+  154,
+  167,
+  190,
+  201,
+  217,
+  232,
+  243,
+  268,
+  291,
+  306
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   140,
+   "provide,",
+   "provide.",
+   "ocr"
+  ],
+  [
+   249,
+   "seven-teenth",
+   "seventeenth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "428747d2e7ffe00c7c35cb6cdba7feff155c10c6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3014,
+  "words_out": 2990,
+  "retention": 0.992,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   192,
+   150,
+   97,
+   152,
+   157,
+   119,
+   174,
+   178,
+   121,
+   128,
+   128,
+   203,
+   102,
+   153,
+   137,
+   118,
+   233,
+   203,
+   140,
+   105
+  ],
+  "warnings": []
+ }
+}

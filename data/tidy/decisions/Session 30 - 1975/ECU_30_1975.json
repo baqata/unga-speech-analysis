@@ -1,0 +1,166 @@
+{
+ "id": "ECU_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  13,
+  18,
+  26,
+  29,
+  32,
+  35,
+  40,
+  45,
+  50,
+  52,
+  54,
+  57,
+  59,
+  62,
+  65,
+  69,
+  73,
+  76,
+  81,
+  86,
+  88,
+  94,
+  97,
+  100,
+  105,
+  108,
+  114,
+  116,
+  120,
+  123,
+  128,
+  130,
+  132,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "'effort",
+   "effort",
+   "ocr"
+  ],
+  [
+   20,
+   "Organ-ization",
+   "Organization",
+   "hyphen"
+  ],
+  [
+   25,
+   "Organization,",
+   "Organization.",
+   "ocr"
+  ],
+  [
+   30,
+   "regions, Ecuador",
+   "regions. Ecuador",
+   "ocr"
+  ],
+  [
+   30,
+   "wiil",
+   "will",
+   "ocr"
+  ],
+  [
+   36,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   58,
+   " [see A/10217 and Corr.l, annex, para. 41]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "arc sections",
+   "are sections",
+   "ocr"
+  ],
+  [
+   105,
+   "23], ",
+   "",
+   "label"
+  ],
+  [
+   123,
+   "developing- countries",
+   "developing countries",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "611ffbfdba173148d346fd5f87f50f3652e711f2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 4704,
+  "words_out": 4684,
+  "retention": 0.9957,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   84,
+   104,
+   61,
+   112,
+   137,
+   237,
+   100,
+   128,
+   124,
+   136,
+   133,
+   147,
+   64,
+   72,
+   97,
+   79,
+   105,
+   91,
+   138,
+   179,
+   118,
+   116,
+   119,
+   69,
+   179,
+   147,
+   101,
+   221,
+   77,
+   211,
+   92,
+   126,
+   113,
+   171,
+   92,
+   84,
+   132,
+   188
+  ],
+  "warnings": []
+ }
+}

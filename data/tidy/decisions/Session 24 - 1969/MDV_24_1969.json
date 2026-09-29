@@ -1,0 +1,121 @@
+{
+ "id": "MDV_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  29,
+  41,
+  52,
+  63,
+  75,
+  88,
+  101,
+  110,
+  123,
+  143,
+  155,
+  168,
+  184,
+  211,
+  224,
+  234
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   0,
+   "slow me",
+   "allow me",
+   "ocr"
+  ],
+  [
+   51,
+   "[A/7601/Add.1, para. 62.]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "Four“",
+   "Four”",
+   "ocr"
+  ],
+  [
+   70,
+   "[A/[7601/Add.1, para. 67] ",
+   "",
+   "label"
+  ],
+  [
+   111,
+   "long-history",
+   "long history",
+   "spacing"
+  ],
+  [
+   154,
+   " [resolution 2412 (XXIII)]",
+   "",
+   "label"
+  ],
+  [
+   167,
+   "disappointing.“",
+   "disappointing.”",
+   "ocr"
+  ],
+  [
+   207,
+   "[A/7601/Add.1, para. 42]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d21b923e063254dff7225bdc74fcde6d748bcbc5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 244,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 2283,
+  "words_out": 2248,
+  "retention": 0.9847,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   102,
+   162,
+   121,
+   97,
+   104,
+   104,
+   118,
+   110,
+   96,
+   122,
+   180,
+   114,
+   107,
+   150,
+   243,
+   131,
+   88,
+   99
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "BRA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   114,
+   114,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  13,
+  25,
+  35,
+  47,
+  57,
+  62,
+  75,
+  85,
+  94,
+  98,
+  103,
+  112
+ ],
+ "cer": [
+  112
+ ],
+ "fix": [
+  [
+   2,
+   "Berbuki",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   95,
+   "UNILATERAL MEASURES ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a83722588c91112ed0311cab2b0a91924ffb50e0",
+ "layout": "single",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1878,
+  "words_out": 1823,
+  "retention": 0.9707,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   117,
+   74,
+   189,
+   194,
+   195,
+   146,
+   72,
+   210,
+   161,
+   160,
+   57,
+   112,
+   126,
+   10
+  ],
+  "warnings": []
+ }
+}

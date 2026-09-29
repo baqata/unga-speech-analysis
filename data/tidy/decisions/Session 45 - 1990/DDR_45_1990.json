@@ -1,0 +1,64 @@
+{
+ "id": "DDR_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  6,
+  10,
+  15
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "reader",
+   "render",
+   "ocr"
+  ],
+  [
+   3,
+   "Halter",
+   "Walter",
+   "ocr"
+  ],
+  [
+   11,
+   "neat",
+   "meet",
+   "ocr"
+  ],
+  [
+   11,
+   "challenge·",
+   "challenge",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "be6dc8c34d7d639f5ae23d96c30f0c22130efe7e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 17,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 493,
+  "words_out": 493,
+  "retention": 1.0,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   36,
+   67,
+   104,
+   94,
+   124,
+   68
+  ],
+  "warnings": []
+ }
+}

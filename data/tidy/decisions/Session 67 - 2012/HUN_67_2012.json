@@ -1,0 +1,66 @@
+{
+ "id": "HUN_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  33,
+  47,
+  71,
+  81,
+  101,
+  113,
+  120,
+  131,
+  141
+ ],
+ "cer": [],
+ "fix": [
+  [
+   98,
+   "1itres",
+   "litres",
+   "ocr"
+  ],
+  [
+   138,
+   "1itres",
+   "litres",
+   "ocr"
+  ],
+  [
+   139,
+   "1itres",
+   "litres",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a8f6ea551089d835b792034cac7320751497ed64",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1279,
+  "words_out": 1279,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   185,
+   97,
+   107,
+   171,
+   84,
+   171,
+   101,
+   58,
+   86,
+   88,
+   131
+  ],
+  "warnings": []
+ }
+}

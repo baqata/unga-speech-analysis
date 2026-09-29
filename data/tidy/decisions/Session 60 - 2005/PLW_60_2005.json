@@ -1,0 +1,62 @@
+{
+ "id": "PLW_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  15,
+  24,
+  48,
+  61,
+  80,
+  94,
+  114,
+  135,
+  149,
+  158,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   " (ibid., para. 24)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c3842b5164bcf866c414b6962cd7f4ca3cd45b70",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1548,
+  "words_out": 1540,
+  "retention": 0.9948,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   39,
+   76,
+   81,
+   198,
+   91,
+   141,
+   107,
+   170,
+   179,
+   100,
+   72,
+   99,
+   187
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "GBR_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  15,
+  20,
+  26,
+  29,
+  34,
+  39,
+  46,
+  53,
+  55,
+  64,
+  66,
+  71,
+  81,
+  84,
+  90,
+  100,
+  106,
+  112,
+  119,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ],
+  [
+   25,
+   "\".8 So",
+   "\". So",
+   "ocr"
+  ],
+  [
+   29,
+   " fUNCTAD/",
+   "",
+   "label"
+  ],
+  [
+   34,
+   " [2041st meeting/",
+   "",
+   "label"
+  ],
+  [
+   53,
+   " [A/'8701/ Add.l]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "that, resolution",
+   "that resolution",
+   "ocr"
+  ],
+  [
+   70,
+   "deflected, from",
+   "deflected from",
+   "ocr"
+  ],
+  [
+   76,
+   "[Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "[Ibid., para. 87.]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   " [Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   " [A/8791 and Add.l]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "Rogers!",
+   "Rogers.",
+   "ocr"
+  ],
+  [
+   100,
+   "to\" us",
+   "to us",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0215f4679b02b119635dd04cecd96e8690ffd2ee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 21
+  },
+  "words_in": 3145,
+  "words_out": 3129,
+  "retention": 0.9949,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   110,
+   199,
+   62,
+   119,
+   237,
+   98,
+   158,
+   138,
+   178,
+   215,
+   87,
+   172,
+   58,
+   71,
+   189,
+   63,
+   109,
+   223,
+   111,
+   145,
+   108,
+   192,
+   87
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "GNQ_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  28,
+  38,
+  56,
+  65,
+  78,
+  93,
+  102,
+  116,
+  138,
+  150,
+  163
+ ],
+ "cer": [],
+ "fix": [
+  [
+   47,
+   "Organizationís",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   53,
+   "todayís",
+   "today’s",
+   "encoding"
+  ],
+  [
+   82,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   115,
+   "Guineaís",
+   "Guinea’s",
+   "encoding"
+  ],
+  [
+   133,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   160,
+   "Assemblyís",
+   "Assembly’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "909aed683ee2bd071eac50667db10d91606dd7a3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1290,
+  "words_out": 1290,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   136,
+   77,
+   78,
+   136,
+   76,
+   110,
+   137,
+   80,
+   101,
+   162,
+   76,
+   80,
+   41
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "id": "TUN_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  14,
+  19,
+  26,
+  29,
+  31,
+  36,
+  41,
+  45,
+  46,
+  53,
+  57,
+  59,
+  63,
+  68,
+  72,
+  74,
+  76,
+  78,
+  85,
+  87,
+  90,
+  94,
+  96,
+  100,
+  102,
+  104,
+  107
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   42,
+   "Prance",
+   "France",
+   "ocr"
+  ],
+  [
+   54,
+   "all*, it",
+   "all; it",
+   "ocr"
+  ],
+  [
+   88,
+   "AlignedMovement",
+   "Aligned Movement",
+   "merged_word"
+  ],
+  [
+   94,
+   "ca:: still",
+   "can still",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ffcac3f1dd23c31731a2fc62691de5ba574788c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1
+  },
+  "words_in": 3531,
+  "words_out": 3531,
+  "retention": 1.0,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   107,
+   52,
+   155,
+   128,
+   151,
+   138,
+   98,
+   66,
+   147,
+   172,
+   111,
+   52,
+   154,
+   140,
+   90,
+   102,
+   134,
+   92,
+   62,
+   79,
+   93,
+   169,
+   107,
+   68,
+   122,
+   82,
+   141,
+   77,
+   108,
+   142,
+   192
+  ],
+  "warnings": []
+ }
+}

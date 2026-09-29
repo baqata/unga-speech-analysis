@@ -1,0 +1,59 @@
+{
+ "id": "AUT_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  19,
+  30,
+  38,
+  47,
+  49,
+  57,
+  66,
+  68,
+  74
+ ],
+ "cer": [
+  74
+ ],
+ "fix": [
+  [
+   75,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cbf0cb531848d2aadc5811a6b2afee7aa1ad85a6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 4
+  },
+  "words_in": 1437,
+  "words_out": 1435,
+  "retention": 0.9986,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   207,
+   114,
+   186,
+   146,
+   156,
+   63,
+   132,
+   167,
+   49,
+   167,
+   48
+  ],
+  "warnings": []
+ }
+}

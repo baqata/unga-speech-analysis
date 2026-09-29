@@ -1,0 +1,81 @@
+{
+ "id": "TKM_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  28,
+  45,
+  56,
+  65,
+  74,
+  88,
+  106,
+  117,
+  144,
+  164,
+  176,
+  198,
+  217,
+  230,
+  250,
+  267
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   17,
+   " (A/50/1,",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "para. 4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03ad8dc2b93e56d5ce28b89a6d0d7e8d89327ac1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 280,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2339,
+  "words_out": 2331,
+  "retention": 0.9966,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   24,
+   72,
+   125,
+   140,
+   98,
+   68,
+   69,
+   113,
+   147,
+   95,
+   227,
+   161,
+   100,
+   183,
+   162,
+   107,
+   173,
+   158,
+   109
+  ],
+  "warnings": []
+ }
+}

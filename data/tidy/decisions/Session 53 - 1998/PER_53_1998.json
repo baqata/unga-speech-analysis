@@ -1,0 +1,92 @@
+{
+ "id": "PER_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  25,
+  33,
+  44,
+  58,
+  78,
+  97,
+  116,
+  147,
+  159,
+  174,
+  194,
+  216,
+  222,
+  244,
+  252
+ ],
+ "cer": [
+  0,
+  252
+ ],
+ "fix": [
+  [
+   7,
+   "countryâs",
+   "country’s",
+   "encoding"
+  ],
+  [
+   37,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ],
+  [
+   139,
+   " (A/S-20/PV.2, p. 2)",
+   "",
+   "label"
+  ],
+  [
+   156,
+   "systemâs",
+   "system’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8fb9ce70d39140c6992ca0c4ce681eccc93425b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 7,
+   "page_number": 3
+  },
+  "words_in": 2027,
+  "words_out": 2023,
+  "retention": 0.998,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   62,
+   66,
+   73,
+   74,
+   85,
+   102,
+   167,
+   150,
+   152,
+   226,
+   90,
+   122,
+   147,
+   186,
+   49,
+   177,
+   63,
+   32
+  ],
+  "warnings": []
+ }
+}

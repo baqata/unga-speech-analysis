@@ -1,0 +1,90 @@
+{
+ "id": "QAT_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  11,
+  16,
+  21,
+  23,
+  26,
+  29,
+  30,
+  34,
+  36,
+  41,
+  46,
+  50,
+  56,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "congratulating you.",
+   "congratulating you,",
+   "ocr"
+  ],
+  [
+   31,
+   "(1907)",
+   "(1987)",
+   "ocr"
+  ],
+  [
+   33,
+   "(19tí7)",
+   "(1987)",
+   "ocr"
+  ],
+  [
+   38,
+   "as usual/ been",
+   "as usual, been",
+   "ocr"
+  ],
+  [
+   45,
+   "ate legitimate",
+   "are legitimate",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee07fae3f9e8820e320c68e2fbd6eefe4815186a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1807,
+  "words_out": 1807,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   176,
+   87,
+   108,
+   118,
+   96,
+   116,
+   103,
+   72,
+   130,
+   63,
+   91,
+   101,
+   117,
+   144,
+   124,
+   161
+  ],
+  "warnings": []
+ }
+}

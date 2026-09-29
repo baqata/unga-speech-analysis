@@ -1,0 +1,100 @@
+{
+ "id": "NLD_76_2021",
+ "drop": [
+  [
+   109,
+   109,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  18,
+  24,
+  28,
+  32,
+  37,
+  41,
+  45,
+  49,
+  54,
+  60,
+  65,
+  70,
+  75,
+  79,
+  84,
+  90,
+  95,
+  98,
+  104,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   51,
+   "second- largest",
+   "second-largest",
+   "spacing"
+  ],
+  [
+   53,
+   "two- track",
+   "two-track",
+   "spacing"
+  ],
+  [
+   59,
+   "sea- level",
+   "sea-level",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "994059c7351457de8d5f0bc9372ebf7e84841089",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2245,
+  "words_out": 2235,
+  "retention": 0.9955,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   86,
+   80,
+   82,
+   86,
+   123,
+   108,
+   64,
+   116,
+   72,
+   64,
+   65,
+   153,
+   102,
+   91,
+   91,
+   65,
+   87,
+   65,
+   100,
+   116,
+   95,
+   107,
+   125,
+   92
+  ],
+  "warnings": []
+ }
+}

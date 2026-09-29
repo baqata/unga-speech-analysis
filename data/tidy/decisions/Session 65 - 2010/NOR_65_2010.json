@@ -1,0 +1,49 @@
+{
+ "id": "NOR_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  35,
+  53,
+  64,
+  78,
+  91,
+  110,
+  127,
+  141,
+  160
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d70cfcf272d1fd05011eb5f3cf8478f6cb367b8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1340,
+  "words_out": 1338,
+  "retention": 0.9985,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   135,
+   135,
+   144,
+   86,
+   112,
+   111,
+   148,
+   128,
+   96,
+   158,
+   85
+  ],
+  "warnings": []
+ }
+}

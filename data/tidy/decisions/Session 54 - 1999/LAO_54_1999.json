@@ -1,0 +1,74 @@
+{
+ "id": "LAO_54_1999",
+ "drop": [
+  [
+   151,
+   151,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  16,
+  27,
+  36,
+  51,
+  62,
+  83,
+  91,
+  108,
+  122,
+  134,
+  145,
+  166,
+  178,
+  186,
+  198
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "192a1880f00255acbd88cf7f42b081af3641ddfa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1713,
+  "words_out": 1706,
+  "retention": 0.9959,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   86,
+   49,
+   93,
+   88,
+   123,
+   97,
+   188,
+   62,
+   140,
+   123,
+   105,
+   90,
+   147,
+   102,
+   63,
+   107,
+   43
+  ],
+  "warnings": [
+   "procedural drop [151,151] in the middle of the speech"
+  ]
+ }
+}

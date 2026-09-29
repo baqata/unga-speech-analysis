@@ -1,0 +1,80 @@
+{
+ "id": "LAO_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  21,
+  26,
+  29,
+  36,
+  39,
+  49,
+  52,
+  58,
+  62,
+  66,
+  73,
+  77,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   51,
+   "Laps.",
+   "Laos.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7591529401d0aa31a82ebdf75412dfccb1ffb5d8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2163,
+  "words_out": 2161,
+  "retention": 0.9991,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   176,
+   237,
+   193,
+   132,
+   87,
+   165,
+   84,
+   160,
+   107,
+   154,
+   134,
+   102,
+   142,
+   61,
+   127,
+   100
+  ],
+  "warnings": []
+ }
+}

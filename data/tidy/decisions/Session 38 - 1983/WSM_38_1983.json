@@ -1,0 +1,85 @@
+{
+ "id": "WSM_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  15,
+  18,
+  24,
+  31,
+  42,
+  46,
+  51,
+  56,
+  58,
+  66,
+  70,
+  79,
+  82,
+  88
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   4,
+   "Ms warnings",
+   "his warnings",
+   "ocr"
+  ],
+  [
+   23,
+   "problem- solving",
+   "problem-solving",
+   "hyphen"
+  ],
+  [
+   60,
+   "to gee that",
+   "to see that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2230329ac4c58d2713ee039dba20e6327e59bd76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2417,
+  "words_out": 2416,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   118,
+   54,
+   105,
+   137,
+   86,
+   143,
+   167,
+   194,
+   87,
+   179,
+   162,
+   60,
+   190,
+   122,
+   206,
+   100,
+   165,
+   141
+  ],
+  "warnings": []
+ }
+}

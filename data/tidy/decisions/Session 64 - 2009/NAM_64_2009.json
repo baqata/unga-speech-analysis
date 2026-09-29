@@ -1,0 +1,51 @@
+{
+ "id": "NAM_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  43,
+  61,
+  76,
+  96,
+  112,
+  129,
+  137,
+  156,
+  164
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eaec2bf28e5df52ad59d86e13f9a7ed300038d46",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1349,
+  "words_out": 1348,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   131,
+   214,
+   143,
+   118,
+   154,
+   130,
+   132,
+   65,
+   142,
+   62,
+   57
+  ],
+  "warnings": []
+ }
+}

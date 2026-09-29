@@ -1,0 +1,186 @@
+{
+ "id": "SWE_36_1981",
+ "drop": [
+  [
+   6,
+   6,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  15,
+  19,
+  24,
+  27,
+  29,
+  33,
+  35,
+  37,
+  42,
+  46,
+  49,
+  51,
+  55,
+  62,
+  69,
+  74,
+  77,
+  80,
+  85,
+  90,
+  94,
+  99,
+  103,
+  108,
+  113,
+  117,
+  120,
+  123,
+  131,
+  135,
+  142,
+  145,
+  149
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   5,
+   "257.. ",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "world\".",
+   "world.",
+   "ocr"
+  ],
+  [
+   44,
+   "is. the",
+   "is the",
+   "ocr"
+  ],
+  [
+   62,
+   "the. Pretoria",
+   "the Pretoria",
+   "ocr"
+  ],
+  [
+   69,
+   "deVoted",
+   "devoted",
+   "ocr"
+  ],
+  [
+   74,
+   "Iraq,,",
+   "Iraq,",
+   "ocr"
+  ],
+  [
+   90,
+   "Middle bast me price",
+   "Middle East the price",
+   "ocr"
+  ],
+  [
+   106,
+   "Kampucheain",
+   "Kampuchean",
+   "ocr"
+  ],
+  [
+   107,
+   "2 1 ",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "29 i. ",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "El Salvador, More",
+   "El Salvador. More",
+   "ocr"
+  ],
+  [
+   119,
+   "least -developed",
+   "least developed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad5e2a81c3f7be7acb514ece685c14ad9ef2a77a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 3699,
+  "words_out": 3693,
+  "retention": 0.9984,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   58,
+   64,
+   40,
+   139,
+   108,
+   125,
+   86,
+   80,
+   93,
+   78,
+   73,
+   76,
+   102,
+   86,
+   74,
+   82,
+   157,
+   143,
+   140,
+   117,
+   63,
+   114,
+   134,
+   71,
+   103,
+   107,
+   147,
+   139,
+   101,
+   79,
+   90,
+   142,
+   74,
+   91,
+   85,
+   104,
+   128
+  ],
+  "warnings": []
+ }
+}

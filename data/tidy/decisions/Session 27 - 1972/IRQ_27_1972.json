@@ -1,0 +1,126 @@
+{
+ "id": "IRQ_27_1972",
+ "drop": [
+  [
+   17,
+   17,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  14,
+  18,
+  22,
+  25,
+  28,
+  30,
+  36,
+  41,
+  43,
+  45,
+  48,
+  50,
+  54,
+  56,
+  59,
+  62,
+  66,
+  70,
+  80,
+  85,
+  88,
+  96,
+  98,
+  100,
+  105,
+  108,
+  115,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "self- sacrifice",
+   "self-sacrifice",
+   "spacing"
+  ],
+  [
+   50,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "in iis international",
+   "in its international",
+   "ocr"
+  ],
+  [
+   115,
+   " [2041st meeting, para. 60J",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e4328d8adedd12264f925fbabc29ec910c830dbe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3763,
+  "words_out": 3755,
+  "retention": 0.9979,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   160,
+   185,
+   95,
+   60,
+   93,
+   117,
+   91,
+   108,
+   95,
+   155,
+   133,
+   94,
+   68,
+   103,
+   81,
+   121,
+   126,
+   61,
+   111,
+   132,
+   74,
+   312,
+   173,
+   93,
+   203,
+   61,
+   71,
+   105,
+   127,
+   181,
+   68,
+   98
+  ],
+  "warnings": []
+ }
+}

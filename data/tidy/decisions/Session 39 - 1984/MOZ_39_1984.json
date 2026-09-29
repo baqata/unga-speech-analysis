@@ -1,0 +1,165 @@
+{
+ "id": "MOZ_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  15,
+  20,
+  25,
+  32,
+  38,
+  47,
+  53,
+  56,
+  62,
+  71,
+  75,
+  83,
+  89,
+  91,
+  94,
+  101,
+  109,
+  110,
+  113,
+  119,
+  122,
+  127,
+  133,
+  141,
+  144,
+  147,
+  151,
+  160,
+  163,
+  165,
+  170,
+  176,
+  181,
+  185
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   16,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   16,
+   "FRELIMO,'",
+   "FRELIMO,",
+   "ocr"
+  ],
+  [
+   32,
+   "in-dependence",
+   "independence",
+   "hyphen"
+  ],
+  [
+   54,
+   "apartheid?",
+   "apartheid.",
+   "ocr"
+  ],
+  [
+   111,
+   "geo-graphical",
+   "geographical",
+   "hyphen"
+  ],
+  [
+   123,
+   "independent.",
+   "independence.",
+   "ocr"
+  ],
+  [
+   140,
+   "tom apart",
+   "torn apart",
+   "ocr"
+  ],
+  [
+   144,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "farming",
+   "forming",
+   "ocr"
+  ],
+  [
+   157,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 55 and 112 appear to lack the word apartheid in the source.",
+ "unitizer_version": 1,
+ "sha1": "811ce0f66c936aa86ccb9b3fe47bb54d8cdd52f0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 71
+  },
+  "words_in": 4945,
+  "words_out": 4940,
+  "retention": 0.999,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   205,
+   59,
+   93,
+   123,
+   145,
+   168,
+   151,
+   176,
+   142,
+   109,
+   150,
+   156,
+   106,
+   167,
+   140,
+   174,
+   77,
+   184,
+   145,
+   98,
+   113,
+   167,
+   65,
+   135,
+   158,
+   206,
+   95,
+   97,
+   101,
+   182,
+   84,
+   69,
+   88,
+   125,
+   154,
+   138,
+   195
+  ],
+  "warnings": []
+ }
+}

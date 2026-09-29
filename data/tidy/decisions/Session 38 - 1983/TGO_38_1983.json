@@ -1,0 +1,88 @@
+{
+ "id": "TGO_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  12,
+  19,
+  21,
+  29,
+  35,
+  43,
+  48,
+  57,
+  61,
+  63,
+  67,
+  75,
+  87,
+  97
+ ],
+ "cer": [
+  1,
+  5,
+  9
+ ],
+ "fix": [
+  [
+   53,
+   "30 %rears",
+   "30 years",
+   "ocr"
+  ],
+  [
+   62,
+   "Kim 11 Sung",
+   "Kim Il Sung",
+   "ocr"
+  ],
+  [
+   88,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 22 breaks off after 'with its policy of'; an italic word (apartheid) is missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "5b7fa623fff68d7e4073caf263b07411e4b337e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2428,
+  "words_out": 2427,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   43,
+   119,
+   103,
+   66,
+   205,
+   70,
+   201,
+   160,
+   139,
+   161,
+   171,
+   101,
+   63,
+   95,
+   176,
+   225,
+   226,
+   103
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "BEL_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  18,
+  22,
+  31,
+  37,
+  43,
+  48,
+  54,
+  56,
+  60,
+  67,
+  75,
+  81,
+  85,
+  90,
+  94,
+  97,
+  103,
+  106,
+  108,
+  117,
+  124,
+  130
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   " [A/9001/Add. 1]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "we -cannot",
+   "we cannot",
+   "ocr"
+  ],
+  [
+   91,
+   "the' research",
+   "the research",
+   "ocr"
+  ],
+  [
+   114,
+   "also'",
+   "also",
+   "ocr"
+  ],
+  [
+   85,
+   " [A/9130 and Add.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f5e191795782df959a575a962d95a52887a5b7a8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 55,
+   "page_number": 1
+  },
+  "words_in": 3640,
+  "words_out": 3629,
+  "retention": 0.997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   51,
+   179,
+   89,
+   132,
+   95,
+   179,
+   175,
+   165,
+   119,
+   157,
+   105,
+   124,
+   199,
+   200,
+   174,
+   125,
+   152,
+   106,
+   131,
+   180,
+   101,
+   75,
+   226,
+   169,
+   121,
+   100
+  ],
+  "warnings": []
+ }
+}

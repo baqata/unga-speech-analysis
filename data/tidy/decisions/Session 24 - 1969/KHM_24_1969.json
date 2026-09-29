@@ -1,0 +1,108 @@
+{
+ "id": "KHM_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  33,
+  50,
+  58,
+  74,
+  85,
+  102,
+  116,
+  125,
+  139,
+  150,
+  167,
+  180,
+  199,
+  216,
+  233,
+  248,
+  262,
+  272,
+  280,
+  287,
+  297
+ ],
+ "cer": [
+  297
+ ],
+ "fix": [
+  [
+   4,
+   "situation: Unfortunately",
+   "situation. Unfortunately",
+   "ocr"
+  ],
+  [
+   13,
+   "have.in",
+   "have in",
+   "spacing"
+  ],
+  [
+   43,
+   "feign ta believe",
+   "feign to believe",
+   "ocr"
+  ],
+  [
+   205,
+   "world. if",
+   "world. If",
+   "ocr"
+  ],
+  [
+   233,
+   "countries of is",
+   "countries of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b2263031a902899c1e1e27a176c8bbaf18f253c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 306,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 2845,
+  "words_out": 2815,
+  "retention": 0.9895,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   72,
+   93,
+   146,
+   161,
+   65,
+   144,
+   98,
+   153,
+   134,
+   86,
+   129,
+   95,
+   166,
+   125,
+   158,
+   163,
+   141,
+   138,
+   130,
+   101,
+   80,
+   63,
+   90,
+   84
+  ],
+  "warnings": []
+ }
+}

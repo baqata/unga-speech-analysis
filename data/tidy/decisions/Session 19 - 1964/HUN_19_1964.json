@@ -1,0 +1,175 @@
+{
+ "id": "HUN_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  22,
+  32,
+  36,
+  39,
+  44,
+  47,
+  54,
+  58,
+  64,
+  70,
+  74,
+  81,
+  87,
+  91,
+  94,
+  99,
+  106,
+  110,
+  114,
+  117,
+  122,
+  126,
+  132,
+  136,
+  139,
+  143,
+  149,
+  152,
+  154
+ ],
+ "cer": [
+  154
+ ],
+ "fix": [
+  [
+   11,
+   "old- fashioned",
+   "old-fashioned",
+   "hyphen"
+  ],
+  [
+   46,
+   "United Nations,",
+   "United Nations.",
+   "ocr"
+  ],
+  [
+   54,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   55,
+   " [A/5763, sect.",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "IX)",
+   "",
+   "label"
+  ],
+  [
+   65,
+   " [ibid., para. 169.]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "[Ibid., para. 170.]",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   88,
+   "problem?",
+   "problems",
+   "ocr"
+  ],
+  [
+   91,
+   "case oi",
+   "case of",
+   "ocr"
+  ],
+  [
+   92,
+   "Members oi",
+   "Members of",
+   "ocr"
+  ],
+  [
+   102,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   143,
+   "it is in",
+   "It is in",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 41 quotation of Article 46 breaks off; text appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "26eef7b30e7d736216e694c844581e039728d5ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 8,
+   "paragraph_number": 50
+  },
+  "words_in": 4774,
+  "words_out": 4758,
+  "retention": 0.9966,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   129,
+   160,
+   216,
+   255,
+   126,
+   106,
+   161,
+   112,
+   192,
+   94,
+   141,
+   143,
+   135,
+   184,
+   172,
+   145,
+   118,
+   179,
+   207,
+   135,
+   111,
+   88,
+   127,
+   108,
+   177,
+   170,
+   90,
+   134,
+   220,
+   153,
+   96,
+   174
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "MOZ_48_1993",
+ "drop": [
+  [
+   59,
+   59,
+   "header_footer"
+  ],
+  [
+   154,
+   154,
+   "header_footer"
+  ],
+  [
+   248,
+   248,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  24,
+  40,
+  60,
+  71,
+  92,
+  108,
+  119,
+  127,
+  138,
+  148,
+  163,
+  171,
+  189,
+  209,
+  224,
+  237,
+  251,
+  263,
+  279,
+  297
+ ],
+ "cer": [
+  0,
+  12,
+  119
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5428a05a3e7f7661b81df28e2f585df70639bd6f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 313,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2608,
+  "words_out": 2585,
+  "retention": 0.9912,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   99,
+   140,
+   166,
+   96,
+   191,
+   139,
+   94,
+   61,
+   94,
+   76,
+   122,
+   73,
+   153,
+   159,
+   117,
+   114,
+   103,
+   106,
+   122,
+   133,
+   137
+  ],
+  "warnings": []
+ }
+}

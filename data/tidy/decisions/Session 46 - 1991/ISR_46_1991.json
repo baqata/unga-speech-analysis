@@ -1,0 +1,94 @@
+{
+ "id": "ISR_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  19,
+  23,
+  28,
+  33,
+  39,
+  42,
+  49,
+  51,
+  53,
+  58,
+  62,
+  66,
+  69,
+  79,
+  84,
+  91,
+  95,
+  101,
+  105,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Peres de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   54,
+   "the ware",
+   "the wars",
+   "ocr"
+  ],
+  [
+   97,
+   "Bach time",
+   "Each time",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5cd2ad11538e16f49b9055f36fc490fe1e579ad0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2477,
+  "words_out": 2477,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   62,
+   93,
+   117,
+   135,
+   76,
+   96,
+   95,
+   105,
+   85,
+   170,
+   77,
+   160,
+   126,
+   97,
+   80,
+   53,
+   119,
+   71,
+   134,
+   112,
+   192,
+   58,
+   88,
+   76
+  ],
+  "warnings": []
+ }
+}

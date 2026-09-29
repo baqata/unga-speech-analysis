@@ -1,0 +1,207 @@
+{
+ "id": "CYP_36_1981",
+ "drop": [
+  [
+   116,
+   117,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  13,
+  17,
+  24,
+  30,
+  37,
+  40,
+  46,
+  48,
+  52,
+  55,
+  57,
+  59,
+  62,
+  66,
+  68,
+  71,
+  75,
+  78,
+  80,
+  82,
+  86,
+  89,
+  91,
+  95,
+  97,
+  98,
+  101,
+  106,
+  108,
+  112,
+  118,
+  120
+ ],
+ "cer": [
+  97
+ ],
+ "fix": [
+  [
+   23,
+   " [A/36/1, sect. IV.]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   " [General Assembly resolution 2373 (XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   " [resolution ES8/2]",
+   "",
+   "label"
+  ],
+  [
+   9,
+   "the^United",
+   "the United",
+   "encoding"
+  ],
+  [
+   39,
+   "the. great",
+   "the great",
+   "ocr"
+  ],
+  [
+   44,
+   "None the, less",
+   "None the less",
+   "ocr"
+  ],
+  [
+   48,
+   " 18",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "Zamoia",
+   "Zambia",
+   "ocr"
+  ],
+  [
+   80,
+   "the. eighth",
+   "the eighth",
+   "ocr"
+  ],
+  [
+   83,
+   "Security •Council",
+   "Security Council",
+   "encoding"
+  ],
+  [
+   91,
+   "domain • of",
+   "domain of",
+   "encoding"
+  ],
+  [
+   105,
+   "was . not",
+   "was not",
+   "ocr"
+  ],
+  [
+   105,
+   "Hirkish",
+   "Turkish",
+   "ocr"
+  ],
+  [
+   106,
+   "Hirkish",
+   "Turkish",
+   "ocr"
+  ],
+  [
+   119,
+   "good.Offices",
+   "good offices",
+   "ocr"
+  ],
+  [
+   119,
+   "auspices.IV We",
+   "auspices. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6c097ed37069461621753406e0ff55adfc0d73c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 46
+  },
+  "words_in": 3943,
+  "words_out": 3928,
+  "retention": 0.9962,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   111,
+   78,
+   109,
+   127,
+   100,
+   223,
+   127,
+   177,
+   134,
+   177,
+   101,
+   143,
+   93,
+   61,
+   74,
+   130,
+   99,
+   85,
+   122,
+   123,
+   102,
+   63,
+   115,
+   143,
+   71,
+   75,
+   161,
+   68,
+   37,
+   128,
+   113,
+   82,
+   83,
+   110,
+   110,
+   73
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "SVK_48_1993",
+ "drop": [
+  [
+   24,
+   24,
+   "header_footer"
+  ],
+  [
+   36,
+   36,
+   "procedural"
+  ],
+  [
+   119,
+   119,
+   "header_footer"
+  ],
+  [
+   212,
+   212,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  20,
+  31,
+  52,
+  64,
+  77,
+  86,
+  99,
+  114,
+  124,
+  135,
+  153,
+  162,
+  171,
+  193,
+  204,
+  213,
+  228,
+  237,
+  251
+ ],
+ "cer": [
+  0,
+  251
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "326ae5583ab14892bfe7bacf3bb5f7743a439bd4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {
+   "header_footer": 3,
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2118,
+  "words_out": 2090,
+  "retention": 0.9868,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   83,
+   82,
+   80,
+   173,
+   104,
+   117,
+   73,
+   115,
+   117,
+   68,
+   97,
+   144,
+   83,
+   73,
+   183,
+   80,
+   66,
+   131,
+   82,
+   117,
+   22
+  ],
+  "warnings": [
+   "procedural drop [36,36] in the middle of the speech"
+  ]
+ }
+}

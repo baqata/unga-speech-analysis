@@ -1,0 +1,61 @@
+{
+ "id": "SWE_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  20,
+  33,
+  44,
+  71,
+  83,
+  100,
+  117,
+  129,
+  147,
+  163,
+  174,
+  190,
+  205,
+  225
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "78e85b9b6278de188d01da4d483e8816ddbac58b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1833,
+  "words_out": 1825,
+  "retention": 0.9956,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   75,
+   83,
+   90,
+   77,
+   206,
+   96,
+   136,
+   143,
+   85,
+   134,
+   134,
+   92,
+   125,
+   120,
+   159,
+   70
+  ],
+  "warnings": []
+ }
+}

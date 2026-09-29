@@ -1,0 +1,60 @@
+{
+ "id": "MCO_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  32,
+  52,
+  65,
+  74,
+  83,
+  92,
+  106,
+  125,
+  135,
+  146,
+  155,
+  167
+ ],
+ "cer": [],
+ "fix": [
+  [
+   89,
+   "conf lagration",
+   "conflagration",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e4a6fc8b7d41e2b9135bf840122cd9ab2eabf104",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1508,
+  "words_out": 1506,
+  "retention": 0.9987,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   194,
+   76,
+   170,
+   111,
+   71,
+   71,
+   83,
+   125,
+   154,
+   85,
+   88,
+   76,
+   93,
+   109
+  ],
+  "warnings": []
+ }
+}

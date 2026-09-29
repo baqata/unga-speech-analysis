@@ -1,0 +1,62 @@
+{
+ "id": "LIE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  14,
+  24,
+  34,
+  42,
+  52,
+  57,
+  66,
+  71,
+  76,
+  85,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ce6eabdbe73b4e449a0ada4816a2d788184b5415",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1758,
+  "words_out": 1757,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   69,
+   105,
+   121,
+   176,
+   196,
+   134,
+   148,
+   72,
+   130,
+   80,
+   90,
+   136,
+   167,
+   133
+  ],
+  "warnings": []
+ }
+}

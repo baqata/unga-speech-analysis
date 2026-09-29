@@ -1,0 +1,76 @@
+{
+ "id": "BHS_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   94,
+   94,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  9,
+  15,
+  29,
+  33,
+  39,
+  45,
+  51,
+  59,
+  64,
+  76,
+  85,
+  93
+ ],
+ "cer": [
+  2,
+  93
+ ],
+ "fix": [
+  [
+   2,
+   "Phil Moniang",
+   "Philemon Yang",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03e1f47f2c77758267fc0a39711c84e8b1c5a904",
+ "layout": "single",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1694,
+  "words_out": 1634,
+  "retention": 0.9646,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   36,
+   149,
+   95,
+   181,
+   75,
+   88,
+   103,
+   137,
+   148,
+   77,
+   175,
+   180,
+   188,
+   2
+  ],
+  "warnings": []
+ }
+}

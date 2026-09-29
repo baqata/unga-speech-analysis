@@ -1,0 +1,64 @@
+{
+ "id": "MNG_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  28,
+  40,
+  52,
+  61,
+  70,
+  78,
+  89,
+  102,
+  111,
+  123,
+  132,
+  143,
+  153,
+  165
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "f lag",
+   "flag",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e3491ac5be2c0eeab9e3ab207d2195d87cc93e2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1644,
+  "words_out": 1640,
+  "retention": 0.9976,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   116,
+   130,
+   92,
+   105,
+   71,
+   72,
+   66,
+   82,
+   104,
+   81,
+   103,
+   78,
+   113,
+   94,
+   104,
+   229
+  ],
+  "warnings": []
+ }
+}

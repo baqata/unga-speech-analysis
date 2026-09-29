@@ -1,0 +1,88 @@
+{
+ "id": "NOR_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  25,
+  45,
+  60,
+  70,
+  82,
+  104,
+  124,
+  138,
+  149,
+  162,
+  171,
+  185,
+  199,
+  213,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "for ó and",
+   "for — and",
+   "encoding"
+  ],
+  [
+   18,
+   "for ó a",
+   "for — a",
+   "encoding"
+  ],
+  [
+   65,
+   "ìresponsibility",
+   "“responsibility",
+   "encoding"
+  ],
+  [
+   65,
+   "protectî",
+   "protect”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41d89169bec8c853fe9fc90f9308fddb05ba637a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1829,
+  "words_out": 1823,
+  "retention": 0.9967,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   18,
+   172,
+   146,
+   121,
+   80,
+   89,
+   151,
+   160,
+   104,
+   81,
+   101,
+   81,
+   113,
+   103,
+   95,
+   123,
+   85
+  ],
+  "warnings": []
+ }
+}

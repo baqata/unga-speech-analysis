@@ -1,0 +1,59 @@
+{
+ "id": "ISR_63_2008",
+ "drop": [
+  [
+   203,
+   203,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  17,
+  32,
+  44,
+  58,
+  79,
+  108,
+  127,
+  147,
+  161,
+  180,
+  193
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "da8687a09f7e344e42806bd31912b4691d5d636e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1641,
+  "words_out": 1632,
+  "retention": 0.9945,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   138,
+   125,
+   97,
+   112,
+   164,
+   237,
+   143,
+   158,
+   122,
+   152,
+   106,
+   78
+  ],
+  "warnings": []
+ }
+}

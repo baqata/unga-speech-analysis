@@ -1,0 +1,289 @@
+{
+ "id": "NER_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   137,
+   137,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  10,
+  15,
+  18,
+  20,
+  25,
+  31,
+  35,
+  42,
+  49,
+  53,
+  58,
+  67,
+  72,
+  76,
+  83,
+  89,
+  100,
+  103,
+  107,
+  112,
+  120,
+  123,
+  129,
+  133
+ ],
+ "cer": [
+  2,
+  49,
+  133
+ ],
+ "fix": [
+  [
+   19,
+   "Ezelwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   27,
+   "central sahel",
+   "central Sahel",
+   "asr_name"
+  ],
+  [
+   27,
+   "by france",
+   "by France",
+   "asr_name"
+  ],
+  [
+   27,
+   "of ukraine",
+   "of Ukraine",
+   "asr_name"
+  ],
+  [
+   56,
+   "Cyhealth",
+   "Sahel",
+   "asr_name"
+  ],
+  [
+   57,
+   "Niyamey",
+   "Niamey",
+   "asr_name"
+  ],
+  [
+   57,
+   "Asimigoita",
+   "Assimi Goïta",
+   "asr_name"
+  ],
+  [
+   66,
+   "Niamh",
+   "Niamey",
+   "asr_name"
+  ],
+  [
+   76,
+   "Yamei",
+   "Niamey",
+   "asr_name"
+  ],
+  [
+   89,
+   "in That injustice",
+   "in darkness. That injustice",
+   "asr_term"
+  ],
+  [
+   91,
+   "Sommayer",
+   "SOMAÏR",
+   "asr_name"
+  ],
+  [
+   91,
+   "l'Air",
+   "l'Aïr",
+   "asr_name"
+  ],
+  [
+   121,
+   "Turquia",
+   "Türkiye",
+   "asr_name"
+  ],
+  [
+   92,
+   "transparency transparency",
+   "transparency",
+   "asr_term"
+  ],
+  [
+   14,
+   "Sahel? the",
+   "Sahel? The",
+   "asr_term"
+  ],
+  [
+   27,
+   "example. this",
+   "example. This",
+   "asr_term"
+  ],
+  [
+   34,
+   "so. the",
+   "so. The",
+   "asr_term"
+  ],
+  [
+   40,
+   "inshallah. a",
+   "inshallah. A",
+   "asr_term"
+  ],
+  [
+   48,
+   "peoples. our",
+   "peoples. Our",
+   "asr_term"
+  ],
+  [
+   99,
+   "anyone. and",
+   "anyone. And",
+   "asr_term"
+  ],
+  [
+   100,
+   "coast. along",
+   "coast. Along",
+   "asr_term"
+  ],
+  [
+   101,
+   "citizens. and",
+   "citizens. And",
+   "asr_term"
+  ],
+  [
+   111,
+   "2025. these",
+   "2025. These",
+   "asr_term"
+  ],
+  [
+   121,
+   "friends. true",
+   "friends. True",
+   "asr_term"
+  ],
+  [
+   132,
+   "non-negotiable. we",
+   "non-negotiable. We",
+   "asr_term"
+  ],
+  [
+   3,
+   "Abdurrahman",
+   "Abdourahamane",
+   "asr_name"
+  ],
+  [
+   56,
+   "Gurma",
+   "Gourma",
+   "asr_name"
+  ],
+  [
+   57,
+   "Abdurrahman",
+   "Abdourahamane",
+   "asr_name"
+  ],
+  [
+   72,
+   "Abdurrahman",
+   "Abdourahamane",
+   "asr_name"
+  ],
+  [
+   79,
+   "Nigerian",
+   "Nigerien",
+   "asr_name"
+  ],
+  [
+   100,
+   "longest",
+   "African continent, the longest",
+   "asr_term"
+  ],
+  [
+   123,
+   "Progress, to",
+   "Progress, and to",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "SOMAÏR, the Société des mines de l'Aïr, nationalised by Niger in June 2025 (Al Jazeera, Financial Afrik); Niamey, Assimi Goïta, Alliance of Sahel States and Ezulwini per the Spanish channel and the UN list; unit 89 'darkness.' restored per the audio re-decode and Spanish 'oscuridad'. Main-agent audit, kept as heard (p 0.94-1.00 at every start): unit 93 'was intending to use this uranium' (Spanish 'había robado su uranio'), unit 104 '22,000 hectares' (Spanish '21.200'), unit 109 'from 32%' (Spanish '32,7%'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 92 'transparency transparency' -> 'transparency'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 14 'Sahel? the' -> 'Sahel? The'; unit 27 'example. this' -> 'example. This'; unit 34 'so. the' -> 'so. The'; unit 40 'inshallah. a' -> 'inshallah. A'; unit 48 'peoples. our' -> 'peoples. Our'; unit 99 'anyone. and' -> 'anyone. And'; unit 100 'coast. along' -> 'coast. Along'; unit 101 'citizens. and' -> 'citizens. And'; unit 111 '2025. these' -> '2025. These'; unit 121 'friends. true' -> 'friends. True'; unit 132 'non-negotiable. we' -> 'non-negotiable. We'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 3 'Abdurrahman' -> 'Abdourahamane' (published spelling of Niger's head of state is 'Abdourahamane Tiani' (as already used in MLI_81_2026); decodes 'Abdurrahman' (0.82 / 0.84) is a phonetic spelling; 'Tiani' kept (decodes 0.75 / 0.79)); spot 11 unit 56 'Gurma' -> 'Gourma' (the Charter signed in Bamako on 16 September 2023 is the Liptako-Gourma Charter; decodes 'Gurma' (0.77 / 0.76) is a phonetic spelling; ES 'carta de Liptaco Gurma'); spot 14 unit 57 'Abdurrahman' -> 'Abdourahamane' (published spelling 'Abdourahamane Tiani' (UN reads 'Abdourahamane' here); decodes 'Abdurrahman' (0.91 / 0.90) is a phonetic spelling); spot 15 unit 72 'Abdurrahman' -> 'Abdourahamane' (published spelling 'Abdourahamane Tiani'; decode 2 'Abdurrahman' (0.75); 'Tiani' kept); spot 18 unit 79 'Nigerian' -> 'Nigerien' (near-homophone demonym; decodes spell 'Nigerian' (1.00) but the people of Niger are 'Nigerien'; ES 'del pueblo nigerino'; UN 'Nigerien'); spot 24 unit 100 'longest' -> 'African continent, the longest' (2026 exception: both decodes clearly hear 'African continent' (0.95 / 0.97, 0.92 / 0.88); ES 'a lo largo del continente africano'; the article before 'longest' is settled by forced scoring (-1.4 with it, -13.0 without; decode 2 hears it at 1.00); written on 'longest' alone because 'the longest' -> five words is refused as adding a word); spot 34 unit 123 'Progress, to' -> 'Progress, and to' (2026 exception: both decodes clearly hear 'and' (0.99 / 1.00) before 'to the values'; ES 'Y también los valores de nuestra confederación')",
+ "unitizer_version": 1,
+ "sha1": "9cc8e233742113ead936f3505406589ae2bc3344",
+ "layout": "single",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3339,
+  "words_out": 3293,
+  "retention": 0.9862,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   145,
+   151,
+   175,
+   74,
+   76,
+   187,
+   177,
+   92,
+   168,
+   144,
+   52,
+   130,
+   127,
+   77,
+   145,
+   131,
+   123,
+   183,
+   170,
+   89,
+   146,
+   166,
+   88,
+   95,
+   156,
+   26
+  ],
+  "warnings": [
+   "32 fixes"
+  ]
+ }
+}

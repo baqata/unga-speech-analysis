@@ -1,0 +1,102 @@
+{
+ "id": "NZL_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  21,
+  32,
+  43,
+  49,
+  66,
+  74,
+  89,
+  101,
+  108,
+  124,
+  134,
+  151,
+  169,
+  188,
+  199,
+  209,
+  216,
+  227,
+  236
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "country. New",
+   "country, New",
+   "ocr"
+  ],
+  [
+   21,
+   "Boutros-Ghali,,",
+   "Boutros-Ghali,",
+   "ocr"
+  ],
+  [
+   30,
+   " (A/47/277, paras. 75-76)",
+   "",
+   "label"
+  ],
+  [
+   166,
+   "part. New",
+   "part, New",
+   "ocr"
+  ],
+  [
+   234,
+   "addition. New",
+   "addition, New",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30bceb0865c9e41181f80a98c6497ba73f7bfea4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2709,
+  "words_out": 2706,
+  "retention": 0.9989,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   21,
+   88,
+   116,
+   106,
+   130,
+   73,
+   165,
+   98,
+   180,
+   123,
+   79,
+   190,
+   113,
+   168,
+   192,
+   198,
+   113,
+   104,
+   78,
+   137,
+   100,
+   134
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "HUN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  21,
+  27,
+  33,
+  38,
+  43,
+  49,
+  53,
+  58,
+  62,
+  73,
+  76,
+  81,
+  86,
+  92
+ ],
+ "cer": [],
+ "fix": [
+  [
+   77,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c5ce83fbc8e240458934fd64dfbd27248358612",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1958,
+  "words_out": 1957,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   189,
+   181,
+   105,
+   131,
+   97,
+   105,
+   145,
+   107,
+   108,
+   97,
+   154,
+   79,
+   127,
+   94,
+   164,
+   74
+  ],
+  "warnings": []
+ }
+}

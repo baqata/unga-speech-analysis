@@ -1,0 +1,109 @@
+{
+ "id": "WSM_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  6,
+  11,
+  15,
+  19,
+  22,
+  25,
+  29,
+  30,
+  33,
+  37,
+  42,
+  48,
+  57,
+  63,
+  68,
+  71,
+  74,
+  81,
+  84,
+  86,
+  90
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   3,
+   "body,1 upon",
+   "body, upon",
+   "ocr"
+  ],
+  [
+   7,
+   "so-many",
+   "so many",
+   "ocr"
+  ],
+  [
+   28,
+   "' contribution",
+   "contribution",
+   "ocr"
+  ],
+  [
+   35,
+   "$ 1.4",
+   "$1.4",
+   "spacing"
+  ],
+  [
+   83,
+   "relationship-in fact, a partnership-with",
+   "relationship—in fact, a partnership—with",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b23f74b1e156520547d84d203fd5197bbfbba522",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2436,
+  "words_out": 2434,
+  "retention": 0.9992,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   46,
+   39,
+   96,
+   149,
+   97,
+   84,
+   70,
+   63,
+   110,
+   41,
+   91,
+   126,
+   91,
+   135,
+   218,
+   148,
+   97,
+   190,
+   67,
+   181,
+   94,
+   59,
+   87,
+   55
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "PAK_63_2008",
+ "drop": [
+  [
+   65,
+   66,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  25,
+  46,
+  67,
+  87,
+  99,
+  116,
+  130,
+  138,
+  150,
+  171,
+  184,
+  196,
+  207,
+  220,
+  232,
+  246,
+  260,
+  279,
+  290,
+  304,
+  312
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7e0f2f5dd266248232c42b3254ffa56f37a939e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2701,
+  "words_out": 2694,
+  "retention": 0.9974,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   137,
+   71,
+   176,
+   147,
+   168,
+   95,
+   144,
+   115,
+   71,
+   92,
+   188,
+   114,
+   100,
+   89,
+   119,
+   100,
+   110,
+   108,
+   165,
+   98,
+   119,
+   76,
+   92
+  ],
+  "warnings": [
+   "procedural drop [65,66] in the middle of the speech"
+  ]
+ }
+}

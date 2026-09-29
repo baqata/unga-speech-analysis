@@ -1,0 +1,67 @@
+{
+ "id": "BRB_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  38,
+  55,
+  68,
+  88,
+  99,
+  114,
+  146,
+  154,
+  171,
+  185,
+  196,
+  212,
+  221,
+  230,
+  239,
+  252
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is visibly missing inside unit 176 (Caribbean Sea passage).",
+ "unitizer_version": 1,
+ "sha1": "7a24c9adcecbc6d12520b0cf7727be0bfced5ce6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2076,
+  "words_out": 2075,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   74,
+   65,
+   153,
+   143,
+   102,
+   160,
+   96,
+   124,
+   257,
+   56,
+   136,
+   109,
+   80,
+   134,
+   68,
+   66,
+   74,
+   99,
+   79
+  ],
+  "warnings": []
+ }
+}

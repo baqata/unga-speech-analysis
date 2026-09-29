@@ -1,0 +1,74 @@
+{
+ "id": "HND_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  14,
+  19,
+  23,
+  27,
+  31,
+  35,
+  37
+ ],
+ "cer": [
+  37
+ ],
+ "fix": [
+  [
+   12,
+   "116. ",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "inter- American",
+   "inter-American",
+   "hyphen"
+  ],
+  [
+   21,
+   "fed on' the",
+   "fed on the",
+   "ocr"
+  ],
+  [
+   33,
+   "over- ambitious",
+   "over-ambitious",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c5ec71e66900b370320e61b3a6ef71bcfa9979d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1310,
+  "words_out": 1307,
+  "retention": 0.9977,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   146,
+   107,
+   135,
+   175,
+   142,
+   132,
+   98,
+   213,
+   47,
+   112
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "MWI_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  24,
+  34,
+  48,
+  60,
+  71,
+  87,
+  99,
+  112,
+  133
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3bbe7db9945675c9badfe1e998d12990fc9876a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1150,
+  "words_out": 1150,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   51,
+   146,
+   80,
+   105,
+   89,
+   75,
+   131,
+   97,
+   84,
+   164,
+   128
+  ],
+  "warnings": []
+ }
+}

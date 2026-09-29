@@ -1,0 +1,94 @@
+{
+ "id": "CHE_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  12,
+  18,
+  25,
+  34,
+  43,
+  48,
+  59,
+  67
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "law. and",
+   "law, and",
+   "ocr"
+  ],
+  [
+   24,
+   "us. nationally",
+   "us, nationally",
+   "ocr"
+  ],
+  [
+   40,
+   "law. which",
+   "law, which",
+   "ocr"
+  ],
+  [
+   46,
+   "reason.",
+   "reason,",
+   "ocr"
+  ],
+  [
+   50,
+   "context.",
+   "context,",
+   "ocr"
+  ],
+  [
+   52,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   65,
+   "war. brutality",
+   "war, brutality",
+   "ocr"
+  ],
+  [
+   71,
+   "us. our",
+   "us, our",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1824b00abb827b6a41f7c93dad878378e6f22f61",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1480,
+  "words_out": 1480,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   174,
+   91,
+   134,
+   152,
+   166,
+   117,
+   108,
+   165,
+   202,
+   171
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "LAO_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  11,
+  25,
+  30,
+  36,
+  43,
+  51,
+  56,
+  66,
+  70,
+  80,
+  83
+ ],
+ "cer": [
+  0,
+  8,
+  83
+ ],
+ "fix": [
+  [
+   1,
+   "Mr, Amintore",
+   "Mr. Amintore",
+   "ocr"
+  ],
+  [
+   32,
+   "temporary Compromises",
+   "temporary compromises",
+   "ocr"
+  ],
+  [
+   82,
+   "my.country's",
+   "my country's",
+   "ocr"
+  ],
+  [
+   82,
+   "Basin, It is",
+   "Basin. It is",
+   "ocr"
+  ],
+  [
+   3,
+   " [resolution 132 (1959)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "15ca9c08139a9676e5776f098ea27a3589aa62ef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1975,
+  "words_out": 1956,
+  "retention": 0.9904,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   178,
+   88,
+   204,
+   165,
+   122,
+   121,
+   210,
+   119,
+   234,
+   107,
+   216,
+   111,
+   81
+  ],
+  "warnings": []
+ }
+}

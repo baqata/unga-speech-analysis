@@ -1,0 +1,71 @@
+{
+ "id": "GRD_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  20,
+  29,
+  34,
+  39,
+  45,
+  48,
+  56,
+  62,
+  66,
+  70,
+  74
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   8,
+   "seventy- first",
+   "seventy-first",
+   "hyphen"
+  ],
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a6e18adecb30be1b1530d9ec3f70e982d734b00",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1606,
+  "words_out": 1604,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   61,
+   115,
+   114,
+   184,
+   160,
+   129,
+   147,
+   112,
+   47,
+   134,
+   94,
+   81,
+   75,
+   62,
+   89
+  ],
+  "warnings": []
+ }
+}

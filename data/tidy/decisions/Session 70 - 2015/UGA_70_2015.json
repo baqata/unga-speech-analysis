@@ -1,0 +1,66 @@
+{
+ "id": "UGA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  16,
+  19,
+  24,
+  27,
+  30,
+  37
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "sixty- ninth",
+   "sixty-ninth",
+   "hyphen"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   18,
+   "self- interest",
+   "self-interest",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa03c76d5df4ce0d75bae59134561518796d0307",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 990,
+  "words_out": 984,
+  "retention": 0.9939,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   84,
+   124,
+   89,
+   80,
+   104,
+   90,
+   77,
+   58,
+   145,
+   133
+  ],
+  "warnings": []
+ }
+}

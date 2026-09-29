@@ -1,0 +1,80 @@
+{
+ "id": "PER_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  19,
+  22,
+  25,
+  31,
+  36,
+  40,
+  46,
+  52,
+  57,
+  62,
+  69,
+  74,
+  77,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   41,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   44,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12ab994655f505d90f25a04b9728724d4a5a768c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2188,
+  "words_out": 2185,
+  "retention": 0.9986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   77,
+   180,
+   159,
+   91,
+   90,
+   135,
+   127,
+   119,
+   150,
+   121,
+   120,
+   227,
+   122,
+   124,
+   68,
+   157,
+   118
+  ],
+  "warnings": []
+ }
+}

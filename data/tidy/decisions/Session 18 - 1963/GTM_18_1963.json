@@ -1,0 +1,100 @@
+{
+ "id": "GTM_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  14,
+  25,
+  31,
+  41,
+  46,
+  50,
+  59,
+  64,
+  68,
+  73,
+  76,
+  80,
+  84,
+  87,
+  92,
+  98,
+  101,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   ", The sincerity",
+   ". The sincerity",
+   "ocr"
+  ],
+  [
+   18,
+   "non- self-governing",
+   "non-self-governing",
+   "spacing"
+  ],
+  [
+   45,
+   "therefor ever",
+   "there for ever",
+   "merged_word"
+  ],
+  [
+   66,
+   ", How",
+   ". How",
+   "ocr"
+  ],
+  [
+   92,
+   "that o nuclear",
+   "that a nuclear",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8cdfc62920eeab7b5d10c27976cf72a0f03de050",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3050,
+  "words_out": 3022,
+  "retention": 0.9908,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   93,
+   225,
+   186,
+   270,
+   187,
+   202,
+   181,
+   60,
+   188,
+   103,
+   114,
+   121,
+   113,
+   76,
+   116,
+   116,
+   200,
+   216,
+   65,
+   138,
+   52
+  ],
+  "warnings": []
+ }
+}

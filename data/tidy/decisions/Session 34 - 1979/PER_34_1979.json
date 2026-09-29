@@ -1,0 +1,146 @@
+{
+ "id": "PER_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  18,
+  19,
+  26,
+  30,
+  33,
+  36,
+  39,
+  43,
+  47,
+  49,
+  54,
+  55,
+  58,
+  60,
+  63,
+  67,
+  71,
+  74,
+  80,
+  84,
+  86,
+  90,
+  93,
+  94,
+  96,
+  101,
+  104
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   17,
+   "hegemonism,",
+   "hegemonism.",
+   "ocr"
+  ],
+  [
+   18,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   19,
+   "129 ",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "pro-cesses",
+   "processes",
+   "hyphen"
+  ],
+  [
+   87,
+   "pro-cess",
+   "process",
+   "hyphen"
+  ],
+  [
+   92,
+   "representative, democracies",
+   "representative democracies",
+   "ocr"
+  ],
+  [
+   92,
+   "democratic fife",
+   "democratic life",
+   "ocr"
+  ],
+  [
+   102,
+   "policy as made",
+   "policy has made",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6617bdb0b02c753a06f516e5c91e8eda2b76af48",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3995,
+  "words_out": 3988,
+  "retention": 0.9982,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   127,
+   162,
+   129,
+   171,
+   93,
+   210,
+   140,
+   87,
+   89,
+   154,
+   99,
+   160,
+   76,
+   122,
+   79,
+   140,
+   92,
+   131,
+   139,
+   98,
+   146,
+   262,
+   143,
+   67,
+   159,
+   130,
+   77,
+   111,
+   139,
+   124,
+   132
+  ],
+  "warnings": []
+ }
+}

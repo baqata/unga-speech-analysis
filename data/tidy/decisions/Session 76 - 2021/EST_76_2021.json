@@ -1,0 +1,70 @@
+{
+ "id": "EST_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  21,
+  24,
+  29,
+  34,
+  42,
+  51,
+  55,
+  62,
+  68,
+  76,
+  83,
+  86,
+  92,
+  97,
+  103,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   106,
+   "gender- based",
+   "gender-based",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ec889faf581048df997404baf443baf24fbb4fb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2438,
+  "words_out": 2435,
+  "retention": 0.9988,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   73,
+   180,
+   170,
+   97,
+   116,
+   83,
+   170,
+   215,
+   70,
+   152,
+   113,
+   170,
+   198,
+   92,
+   116,
+   79,
+   120,
+   143,
+   78
+  ],
+  "warnings": []
+ }
+}

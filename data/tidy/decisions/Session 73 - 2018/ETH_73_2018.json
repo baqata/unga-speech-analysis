@@ -1,0 +1,60 @@
+{
+ "id": "ETH_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  15,
+  20,
+  25,
+  29,
+  35,
+  38,
+  43,
+  47,
+  49,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "(A/PV.1229, para. 5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c069fc2d54086eb3ec95f51a3d947ab5133980e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1304,
+  "words_out": 1300,
+  "retention": 0.9969,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   117,
+   185,
+   58,
+   132,
+   106,
+   102,
+   100,
+   60,
+   126,
+   70,
+   68,
+   96,
+   80
+  ],
+  "warnings": []
+ }
+}

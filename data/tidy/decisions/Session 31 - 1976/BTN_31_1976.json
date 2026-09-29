@@ -1,0 +1,115 @@
+{
+ "id": "BTN_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  11,
+  15,
+  23,
+  28,
+  32,
+  40,
+  46,
+  51,
+  55,
+  60,
+  67,
+  71,
+  76
+ ],
+ "cer": [
+  0,
+  3,
+  10
+ ],
+ "fix": [
+  [
+   26,
+   "since 1967,. and",
+   "since 1967, and",
+   "ocr"
+  ],
+  [
+   34,
+   "situation,His Majesty",
+   "situation, His Majesty",
+   "spacing"
+  ],
+  [
+   38,
+   "our-selves",
+   "ourselves",
+   "hyphen"
+  ],
+  [
+   43,
+   " [see A/31/232, sect.",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "7] ",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "ever- widening",
+   "ever-widening",
+   "spacing"
+  ],
+  [
+   72,
+   "1 refer primarily",
+   "I refer primarily",
+   "ocr"
+  ],
+  [
+   75,
+   " /see A/311242]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2dc784d5acfda03675318d8c41109cca879d45ad",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 2102,
+  "words_out": 2096,
+  "retention": 0.9971,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   80,
+   105,
+   62,
+   45,
+   171,
+   223,
+   137,
+   100,
+   255,
+   124,
+   122,
+   128,
+   108,
+   162,
+   120,
+   107,
+   47
+  ],
+  "warnings": []
+ }
+}

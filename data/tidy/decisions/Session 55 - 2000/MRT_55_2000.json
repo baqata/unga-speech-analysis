@@ -1,0 +1,88 @@
+{
+ "id": "MRT_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  24,
+  37,
+  47,
+  65,
+  79,
+  103,
+  131,
+  142,
+  158,
+  175,
+  192
+ ],
+ "cer": [
+  0,
+  9,
+  192
+ ],
+ "fix": [
+  [
+   19,
+   "Secretary-General?s",
+   "Secretary-General's",
+   "encoding"
+  ],
+  [
+   99,
+   "June?s",
+   "June's",
+   "encoding"
+  ],
+  [
+   100,
+   "?Women",
+   "“Women",
+   "encoding"
+  ],
+  [
+   101,
+   "century?,",
+   "century”,",
+   "encoding"
+  ],
+  [
+   184,
+   "People?s",
+   "People's",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "70dc0e7cfd0fac86a150e7f7dd200e17b2d42740",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1571,
+  "words_out": 1570,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   71,
+   131,
+   104,
+   78,
+   139,
+   101,
+   186,
+   222,
+   93,
+   115,
+   136,
+   120,
+   74
+  ],
+  "warnings": []
+ }
+}

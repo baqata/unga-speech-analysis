@@ -1,0 +1,230 @@
+{
+ "id": "COD_30_1975",
+ "drop": [
+  [
+   105,
+   105,
+   "header_footer"
+  ],
+  [
+   136,
+   136,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  12,
+  16,
+  19,
+  23,
+  26,
+  29,
+  33,
+  42,
+  49,
+  55,
+  58,
+  64,
+  72,
+  79,
+  82,
+  87,
+  90,
+  94,
+  96,
+  103,
+  109,
+  115,
+  119,
+  124,
+  128,
+  134,
+  140,
+  144,
+  148,
+  155,
+  160,
+  163,
+  169,
+  172
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "183.",
+   "",
+   "label"
+  ],
+  [
+   7,
+   "6",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "7",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "8",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "1%.",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "under- equipped",
+   "under-equipped",
+   "hyphen"
+  ],
+  [
+   60,
+   "9",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "racism, I",
+   "racism. I",
+   "ocr"
+  ],
+  [
+   71,
+   "[Al100011Add.I, sect. /.]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "10",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "^according",
+   "according",
+   "ocr"
+  ],
+  [
+   111,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   133,
+   "12",
+   "",
+   "label"
+  ],
+  [
+   135,
+   "it\"",
+   "it",
+   "ocr"
+  ],
+  [
+   149,
+   "world.peace",
+   "world peace",
+   "ocr"
+  ],
+  [
+   162,
+   "far-i caching",
+   "far-reaching",
+   "ocr"
+  ],
+  [
+   168,
+   "under-standing",
+   "understanding",
+   "hyphen"
+  ],
+  [
+   168,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Words are missing in unit 74 and after unit 135, where a page ends mid-sentence.",
+ "unitizer_version": 1,
+ "sha1": "2ac7162487262762614619f75fa19dfe413a9e35",
+ "layout": "lines",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 75
+  },
+  "words_in": 5816,
+  "words_out": 5791,
+  "retention": 0.9957,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   180,
+   112,
+   187,
+   122,
+   153,
+   139,
+   129,
+   143,
+   129,
+   119,
+   157,
+   164,
+   160,
+   108,
+   208,
+   214,
+   172,
+   170,
+   143,
+   84,
+   171,
+   83,
+   210,
+   149,
+   215,
+   117,
+   158,
+   167,
+   183,
+   249,
+   146,
+   150,
+   219,
+   170,
+   52,
+   151,
+   121,
+   87
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "CPV_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  10,
+  14,
+  18,
+  21,
+  24,
+  29,
+  31,
+  34,
+  38,
+  43,
+  45,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "never- ending",
+   "never-ending",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1ebc2d2b8688ab79c1c2d21a19a3e27fb145aa1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1867,
+  "words_out": 1866,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   52,
+   154,
+   107,
+   82,
+   116,
+   136,
+   88,
+   81,
+   130,
+   97,
+   95,
+   145,
+   181,
+   73,
+   169,
+   160
+  ],
+  "warnings": []
+ }
+}

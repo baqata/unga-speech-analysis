@@ -1,0 +1,112 @@
+{
+ "id": "SVN_47_1992",
+ "drop": [
+  [
+   34,
+   63,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  22,
+  64,
+  76,
+  87,
+  99,
+  109,
+  119,
+  132,
+  141,
+  150,
+  156,
+  167,
+  181,
+  197,
+  211,
+  218,
+  225,
+  235,
+  243,
+  254,
+  263,
+  275,
+  289,
+  298
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   121,
+   "d'√™tre",
+   "d'être",
+   "ocr"
+  ],
+  [
+   234,
+   " (A/47/277)",
+   "",
+   "label"
+  ],
+  [
+   308,
+   "the the",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 34-63 repeat units 4-33 verbatim; dropped as repeat.",
+ "unitizer_version": 1,
+ "sha1": "c1800adcd7ba811307c79a1cdbe915573f9c1995",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 310,
+  "units_dropped": {
+   "repeat": 30
+  },
+  "prestrip": {},
+  "words_in": 3413,
+  "words_out": 3097,
+  "retention": 0.9074,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   73,
+   164,
+   122,
+   126,
+   137,
+   134,
+   107,
+   114,
+   134,
+   105,
+   102,
+   65,
+   130,
+   159,
+   169,
+   147,
+   74,
+   83,
+   99,
+   92,
+   123,
+   112,
+   123,
+   158,
+   97,
+   148
+  ],
+  "warnings": []
+ }
+}

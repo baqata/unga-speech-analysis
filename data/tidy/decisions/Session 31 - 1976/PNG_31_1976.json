@@ -1,0 +1,94 @@
+{
+ "id": "PNG_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  14,
+  24,
+  27,
+  29,
+  37,
+  44,
+  50,
+  58
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "racialist* policies",
+   "racialist policies",
+   "ocr"
+  ],
+  [
+   26,
+   "Committee2 in",
+   "Committee in",
+   "ocr"
+  ],
+  [
+   29,
+   "Guinea .is",
+   "Guinea is",
+   "ocr"
+  ],
+  [
+   33,
+   "role in . the",
+   "role in the",
+   "ocr"
+  ],
+  [
+   43,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   45,
+   "third- world",
+   "third-world",
+   "spacing"
+  ],
+  [
+   49,
+   "that file programs",
+   "that the programs",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4c129c0a21c6bd4f5bda537a4c0bb7755b0ab399",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1344,
+  "words_out": 1341,
+  "retention": 0.9978,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   61,
+   139,
+   83,
+   183,
+   77,
+   76,
+   166,
+   159,
+   131,
+   202,
+   64
+  ],
+  "warnings": []
+ }
+}

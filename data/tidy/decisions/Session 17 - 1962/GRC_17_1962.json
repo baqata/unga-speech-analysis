@@ -1,0 +1,100 @@
+{
+ "id": "GRC_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  10,
+  12,
+  16,
+  22,
+  27,
+  30,
+  36,
+  41,
+  44,
+  49,
+  52,
+  55,
+  59,
+  63,
+  67,
+  70,
+  71,
+  77,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "is In favour",
+   "is in favour",
+   "ocr"
+  ],
+  [
+   74,
+   "Greece,",
+   "Greece.",
+   "ocr"
+  ],
+  [
+   75,
+   "does It",
+   "does it",
+   "ocr"
+  ],
+  [
+   84,
+   "1 trust that 1 have",
+   "I trust that I have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e291eca2328584647f2cf663a423cfa2fb4e8302",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2664,
+  "words_out": 2660,
+  "retention": 0.9985,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   60,
+   114,
+   98,
+   81,
+   72,
+   193,
+   138,
+   104,
+   88,
+   82,
+   110,
+   101,
+   165,
+   133,
+   108,
+   144,
+   104,
+   132,
+   134,
+   94,
+   149,
+   206,
+   50
+  ],
+  "warnings": []
+ }
+}

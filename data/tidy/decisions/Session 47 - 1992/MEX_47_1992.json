@@ -1,0 +1,76 @@
+{
+ "id": "MEX_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  27,
+  46,
+  64,
+  79,
+  99,
+  117,
+  130,
+  141,
+  152,
+  164,
+  175,
+  186,
+  203
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "In income terms.",
+   "In income terms,",
+   "ocr"
+  ],
+  [
+   119,
+   " (A/47/277, para. 59).",
+   "",
+   "label"
+  ],
+  [
+   208,
+   "International- law",
+   "International law",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2c3021e92f811db21e9fa1a6c5e7debb6f41e8d6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 222,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2412,
+  "words_out": 2409,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   65,
+   227,
+   213,
+   200,
+   167,
+   202,
+   189,
+   127,
+   125,
+   122,
+   139,
+   120,
+   113,
+   185,
+   215
+  ],
+  "warnings": []
+ }
+}

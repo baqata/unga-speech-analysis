@@ -1,0 +1,92 @@
+{
+ "id": "BHR_27_1972",
+ "drop": [
+  [
+   18,
+   18,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  8,
+  12,
+  19,
+  22,
+  29,
+  31,
+  34,
+  36,
+  39,
+  40
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   " [A/8701 and Add]",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "peace- loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   8,
+   " [UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   12,
+   " [item 92]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "df6c6c97e6f566ac35e5fcb2dd54c7979a9453d2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1467,
+  "words_out": 1459,
+  "retention": 0.9945,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   55,
+   33,
+   49,
+   177,
+   136,
+   185,
+   74,
+   244,
+   115,
+   98,
+   96,
+   91,
+   64,
+   42
+  ],
+  "warnings": []
+ }
+}

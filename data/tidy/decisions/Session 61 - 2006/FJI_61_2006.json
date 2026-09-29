@@ -1,0 +1,68 @@
+{
+ "id": "FJI_61_2006",
+ "drop": [
+  [
+   60,
+   61,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  34,
+  54,
+  75,
+  84,
+  99,
+  116,
+  134,
+  156,
+  168,
+  180,
+  198,
+  214
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12ada3c9fe6d018830374872eea28646cd75306e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 225,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1779,
+  "words_out": 1771,
+  "retention": 0.9955,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   74,
+   213,
+   165,
+   138,
+   71,
+   117,
+   122,
+   143,
+   168,
+   106,
+   92,
+   144,
+   126,
+   92
+  ],
+  "warnings": [
+   "procedural drop [60,61] in the middle of the speech"
+  ]
+ }
+}

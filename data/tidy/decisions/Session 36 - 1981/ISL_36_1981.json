@@ -1,0 +1,95 @@
+{
+ "id": "ISL_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  19,
+  24,
+  28,
+  31,
+  36,
+  39,
+  47,
+  51,
+  54,
+  57,
+  60,
+  65,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Nations, The",
+   "Nations. The",
+   "ocr"
+  ],
+  [
+   20,
+   "have? to",
+   "have to",
+   "ocr"
+  ],
+  [
+   21,
+   "And 1 refer",
+   "And I refer",
+   "ocr"
+  ],
+  [
+   26,
+   "theStates",
+   "the States",
+   "merged_word"
+  ],
+  [
+   53,
+   "%s well",
+   "as well",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f74118519f47fe4b178276aea3eefc13346a255",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 22
+  },
+  "words_in": 2101,
+  "words_out": 2102,
+  "retention": 1.0005,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   114,
+   122,
+   150,
+   127,
+   125,
+   127,
+   63,
+   151,
+   54,
+   188,
+   140,
+   72,
+   99,
+   109,
+   143,
+   111,
+   207
+  ],
+  "warnings": []
+ }
+}

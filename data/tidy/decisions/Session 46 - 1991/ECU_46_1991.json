@@ -1,0 +1,116 @@
+{
+ "id": "ECU_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  16,
+  20,
+  23,
+  27,
+  30,
+  32,
+  41,
+  47,
+  51,
+  57,
+  63
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "World Mar",
+   "World War",
+   "ocr"
+  ],
+  [
+   2,
+   "the moat recent",
+   "the most recent",
+   "ocr"
+  ],
+  [
+   4,
+   "interpret, them",
+   "interpret them",
+   "ocr"
+  ],
+  [
+   23,
+   "democracy seen as",
+   "democracy been as",
+   "ocr"
+  ],
+  [
+   31,
+   "Cordovea",
+   "Cordovez",
+   "ocr"
+  ],
+  [
+   40,
+   "our moat resolute",
+   "our most resolute",
+   "ocr"
+  ],
+  [
+   58,
+   "rights, 1 call",
+   "rights, I call",
+   "ocr"
+  ],
+  [
+   60,
+   "Argentine end Chile",
+   "Argentine and Chile",
+   "ocr"
+  ],
+  [
+   64,
+   "countries no that",
+   "countries so that",
+   "ocr"
+  ],
+  [
+   65,
+   "1 urge",
+   "I urge",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91308597a3ceb4f52da655c32ce0a3ddaa6c6dbb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2125,
+  "words_out": 2125,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   182,
+   65,
+   163,
+   179,
+   152,
+   85,
+   122,
+   114,
+   143,
+   180,
+   99,
+   73,
+   214,
+   191,
+   163
+  ],
+  "warnings": []
+ }
+}

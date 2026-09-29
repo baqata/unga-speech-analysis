@@ -1,0 +1,100 @@
+{
+ "id": "TCD_50_1995",
+ "drop": [
+  [
+   248,
+   248,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  25,
+  29,
+  33,
+  56,
+  64,
+  76,
+  86,
+  100,
+  111,
+  122,
+  132,
+  146,
+  160,
+  174,
+  183,
+  203,
+  214,
+  229,
+  243
+ ],
+ "cer": [
+  16,
+  25,
+  29
+ ],
+ "fix": [
+  [
+   164,
+   "Rwanda.In",
+   "Rwanda. In",
+   "spacing"
+  ],
+  [
+   212,
+   " (Human",
+   "",
+   "label"
+  ],
+  [
+   213,
+   "Development Report 1995, p. 14)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "72533661a40fc275dde0a969d30dc89ed41e4d84",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2029,
+  "words_out": 2016,
+  "retention": 0.9936,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   139,
+   72,
+   30,
+   35,
+   181,
+   76,
+   107,
+   75,
+   120,
+   91,
+   89,
+   88,
+   109,
+   115,
+   106,
+   70,
+   166,
+   78,
+   115,
+   110,
+   44
+  ],
+  "warnings": []
+ }
+}

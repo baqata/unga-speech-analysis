@@ -1,0 +1,76 @@
+{
+ "id": "LBN_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  28,
+  50,
+  61,
+  80,
+  94,
+  115,
+  128,
+  137,
+  149,
+  160,
+  176,
+  186,
+  200,
+  219,
+  243,
+  256
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "Hammarskjˆld",
+   "Hammarskjöld",
+   "encoding"
+  ],
+  [
+   34,
+   "d''tre",
+   "d'être",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cbf89fe032ca470944a1ee64214f77b0f332c447",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2117,
+  "words_out": 2116,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   66,
+   142,
+   175,
+   84,
+   123,
+   124,
+   173,
+   113,
+   79,
+   109,
+   90,
+   126,
+   73,
+   112,
+   167,
+   187,
+   115,
+   58
+  ],
+  "warnings": []
+ }
+}

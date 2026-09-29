@@ -1,0 +1,90 @@
+{
+ "id": "AZE_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  27,
+  47,
+  59,
+  70,
+  85,
+  101,
+  123,
+  140,
+  161,
+  181,
+  198,
+  213,
+  223,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "fi rst",
+   "first",
+   "split_word"
+  ],
+  [
+   27,
+   "sixty-fi fth",
+   "sixty-fifth",
+   "split_word"
+  ],
+  [
+   108,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ],
+  [
+   184,
+   "deaing",
+   "dealing",
+   "ocr"
+  ],
+  [
+   212,
+   "issuebased",
+   "issue based",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d9fc522a8f14c937ef169e36bef47d582bb87ed",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1894,
+  "words_out": 1884,
+  "retention": 0.9947,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   118,
+   102,
+   140,
+   104,
+   80,
+   118,
+   125,
+   175,
+   129,
+   153,
+   158,
+   145,
+   129,
+   80,
+   63,
+   65
+  ],
+  "warnings": []
+ }
+}

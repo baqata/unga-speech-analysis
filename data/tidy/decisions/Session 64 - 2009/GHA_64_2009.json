@@ -1,0 +1,65 @@
+{
+ "id": "GHA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  25,
+  38,
+  50,
+  63,
+  72,
+  87,
+  97,
+  114,
+  125,
+  138,
+  152,
+  161,
+  172,
+  190,
+  202,
+  223
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff67f41f5995b961913cf85ac1881630187cc3a7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1716,
+  "words_out": 1716,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   85,
+   115,
+   99,
+   94,
+   89,
+   62,
+   116,
+   75,
+   114,
+   80,
+   98,
+   97,
+   65,
+   91,
+   139,
+   101,
+   165,
+   31
+  ],
+  "warnings": []
+ }
+}

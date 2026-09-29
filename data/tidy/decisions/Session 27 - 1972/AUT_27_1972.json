@@ -1,0 +1,109 @@
+{
+ "id": "AUT_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  11,
+  17,
+  21,
+  26,
+  29,
+  37,
+  42,
+  49,
+  53,
+  59,
+  63,
+  68,
+  76,
+  81,
+  83,
+  87
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   28,
+   "hoDe",
+   "hope",
+   "ocr"
+  ],
+  [
+   30,
+   "medium- sized",
+   "medium-sized",
+   "spacing"
+  ],
+  [
+   60,
+   "v/e",
+   "we",
+   "ocr"
+  ],
+  [
+   77,
+   "off\"",
+   "offer",
+   "ocr"
+  ],
+  [
+   82,
+   " [see 1855th meeting, paras. 169-174]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "injustice",
+   "in justice",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b5b72a488f6057f3c89c4cd5bed131962b81ced",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2398,
+  "words_out": 2393,
+  "retention": 0.9979,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   89,
+   35,
+   145,
+   65,
+   69,
+   86,
+   137,
+   108,
+   165,
+   136,
+   123,
+   114,
+   105,
+   128,
+   127,
+   230,
+   108,
+   101,
+   157,
+   165
+  ],
+  "warnings": []
+ }
+}

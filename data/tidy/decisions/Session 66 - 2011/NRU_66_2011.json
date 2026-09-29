@@ -1,0 +1,80 @@
+{
+ "id": "NRU_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  20,
+  38,
+  49,
+  60,
+  77,
+  89,
+  109,
+  122,
+  138,
+  147,
+  159,
+  169,
+  184,
+  203
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   28,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "SG/SM/13780)",
+   "",
+   "label"
+  ],
+  [
+   209,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f5e364eaa309e10c34ae8f198d65f2d6616adcc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 222,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1748,
+  "words_out": 1742,
+  "retention": 0.9966,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   42,
+   115,
+   128,
+   93,
+   89,
+   118,
+   92,
+   158,
+   113,
+   122,
+   67,
+   88,
+   77,
+   125,
+   151,
+   164
+  ],
+  "warnings": []
+ }
+}

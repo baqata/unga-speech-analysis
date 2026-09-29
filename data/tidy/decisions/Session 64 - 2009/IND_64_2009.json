@@ -1,0 +1,76 @@
+{
+ "id": "IND_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  21,
+  35,
+  46,
+  57,
+  69,
+  83,
+  106,
+  119,
+  136,
+  148,
+  161,
+  184,
+  198,
+  216,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   243,
+   "(A/PV.1693,",
+   "",
+   "label"
+  ],
+  [
+   244,
+   "para. 150)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb9b0bb45b1af85a2e9fb6ad6eaee22a1726b7ab",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1884,
+  "words_out": 1880,
+  "retention": 0.9979,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   54,
+   114,
+   110,
+   86,
+   84,
+   98,
+   116,
+   175,
+   92,
+   123,
+   86,
+   102,
+   170,
+   109,
+   127,
+   131,
+   103
+  ],
+  "warnings": []
+ }
+}

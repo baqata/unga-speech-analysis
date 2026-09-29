@@ -1,0 +1,86 @@
+{
+ "id": "ALB_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  19,
+  22,
+  29,
+  31,
+  37,
+  40,
+  50,
+  59,
+  62,
+  65,
+  69,
+  71,
+  75,
+  80,
+  84,
+  88,
+  94,
+  97,
+  100
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "rice",
+   "price",
+   "ocr"
+  ],
+  [
+   29,
+   "dose",
+   "close",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cbbb5e8cf2d791ec33bd6b15e388200b28512057",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2996,
+  "words_out": 2996,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   143,
+   173,
+   130,
+   100,
+   109,
+   189,
+   81,
+   283,
+   86,
+   199,
+   196,
+   77,
+   112,
+   126,
+   128,
+   113,
+   148,
+   110,
+   103,
+   170,
+   86,
+   80,
+   54
+  ],
+  "warnings": []
+ }
+}

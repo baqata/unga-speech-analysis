@@ -1,0 +1,84 @@
+{
+ "id": "ATG_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  23,
+  26,
+  32,
+  38,
+  40,
+  47,
+  51,
+  55,
+  57,
+  62,
+  65,
+  68,
+  72,
+  79,
+  83,
+  86,
+  89,
+  96
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "seventy- first",
+   "seventy-first",
+   "hyphen"
+  ],
+  [
+   89,
+   "sea- level",
+   "sea-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "956fad88593046cdbd224fcc7810e52a15dfdd16",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2315,
+  "words_out": 2313,
+  "retention": 0.9991,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   71,
+   132,
+   75,
+   193,
+   93,
+   100,
+   165,
+   65,
+   197,
+   133,
+   91,
+   68,
+   84,
+   67,
+   64,
+   78,
+   107,
+   68,
+   73,
+   86,
+   168,
+   135
+  ],
+  "warnings": []
+ }
+}

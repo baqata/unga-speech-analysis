@@ -1,0 +1,74 @@
+{
+ "id": "PHL_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  13,
+  16,
+  25,
+  32,
+  36,
+  38,
+  41,
+  46,
+  50,
+  54,
+  58,
+  61,
+  65,
+  70,
+  74,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   "whish is",
+   "which is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba321f6d7f769b588f4e75c7126016748155eaee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2156,
+  "words_out": 2156,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   75,
+   88,
+   93,
+   132,
+   68,
+   196,
+   152,
+   99,
+   74,
+   134,
+   120,
+   97,
+   84,
+   71,
+   101,
+   79,
+   150,
+   103,
+   158,
+   82
+  ],
+  "warnings": []
+ }
+}

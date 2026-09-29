@@ -1,0 +1,140 @@
+{
+ "id": "SEN_19_1964",
+ "drop": [
+  [
+   46,
+   46,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  10,
+  18,
+  25,
+  31,
+  39,
+  50,
+  59,
+  70,
+  77,
+  83,
+  89,
+  93,
+  104,
+  110,
+  122,
+  131,
+  133,
+  139,
+  144,
+  147,
+  155,
+  161,
+  164,
+  168,
+  171,
+  175,
+  178,
+  182
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "vision, of",
+   "vision of",
+   "ocr"
+  ],
+  [
+   11,
+   "Secretary- General's",
+   "Secretary-General's",
+   "hyphen"
+  ],
+  [
+   62,
+   "factions*",
+   "factions,",
+   "ocr"
+  ],
+  [
+   81,
+   "[A/5801, p. 1.]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   " [ibid., pp. 1 and 2],",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "not abased on",
+   "not based on",
+   "ocr"
+  ],
+  [
+   177,
+   "the Chance events",
+   "the chance events",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a3dfcf0abb44a39de4c4e4e7a0640fee7184e76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3986,
+  "words_out": 3976,
+  "retention": 0.9975,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   70,
+   215,
+   195,
+   129,
+   117,
+   110,
+   178,
+   143,
+   208,
+   99,
+   190,
+   77,
+   71,
+   186,
+   125,
+   243,
+   213,
+   66,
+   112,
+   141,
+   68,
+   158,
+   163,
+   133,
+   102,
+   78,
+   142,
+   74,
+   144,
+   26
+  ],
+  "warnings": []
+ }
+}

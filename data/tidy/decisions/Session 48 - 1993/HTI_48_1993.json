@@ -1,0 +1,95 @@
+{
+ "id": "HTI_48_1993",
+ "drop": [
+  [
+   37,
+   37,
+   "header_footer"
+  ],
+  [
+   131,
+   131,
+   "header_footer"
+  ],
+  [
+   228,
+   228,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  20,
+  33,
+  58,
+  69,
+  78,
+  93,
+  105,
+  126,
+  144,
+  160,
+  174,
+  192,
+  215,
+  239,
+  249,
+  278,
+  287,
+  297,
+  303
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   118,
+   "reconciliation,t h e",
+   "reconciliation, the",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "994c3e655c16ea202810d2901108512f90064991",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 311,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2717,
+  "words_out": 2694,
+  "retention": 0.9915,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   105,
+   61,
+   125,
+   196,
+   94,
+   83,
+   134,
+   116,
+   165,
+   142,
+   148,
+   121,
+   167,
+   198,
+   206,
+   97,
+   244,
+   80,
+   88,
+   53,
+   71
+  ],
+  "warnings": []
+ }
+}

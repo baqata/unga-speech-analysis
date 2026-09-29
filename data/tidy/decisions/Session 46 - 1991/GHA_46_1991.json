@@ -1,0 +1,236 @@
+{
+ "id": "GHA_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  9,
+  16,
+  18,
+  21,
+  24,
+  31,
+  35,
+  36,
+  41,
+  42,
+  47,
+  50,
+  56,
+  61,
+  69,
+  74,
+  79,
+  84,
+  86,
+  90,
+  95,
+  102,
+  107,
+  113,
+  120,
+  122,
+  127
+ ],
+ "cer": [
+  0,
+  5,
+  21
+ ],
+ "fix": [
+  [
+   1,
+   "vary",
+   "very",
+   "ocr"
+  ],
+  [
+   2,
+   "pleasure.",
+   "pleasure,",
+   "ocr"
+  ],
+  [
+   3,
+   "In view",
+   "in view",
+   "ocr"
+  ],
+  [
+   6,
+   "Group of 11",
+   "Group of 77",
+   "ocr"
+  ],
+  [
+   12,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   17,
+   "He congratulate",
+   "We congratulate",
+   "ocr"
+  ],
+  [
+   21,
+   "He have",
+   "We have",
+   "ocr"
+  ],
+  [
+   22,
+   "He take",
+   "We take",
+   "ocr"
+  ],
+  [
+   23,
+   "He hope",
+   "We hope",
+   "ocr"
+  ],
+  [
+   24,
+   "the and of",
+   "the end of",
+   "ocr"
+  ],
+  [
+   39,
+   "He wish",
+   "We wish",
+   "ocr"
+  ],
+  [
+   39,
+   "Peres de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   47,
+   "It in thus",
+   "It is thus",
+   "ocr"
+  ],
+  [
+   50,
+   "He expect",
+   "We expect",
+   "ocr"
+  ],
+  [
+   51,
+   "He need",
+   "We need",
+   "ocr"
+  ],
+  [
+   52,
+   "He have",
+   "We have",
+   "ocr"
+  ],
+  [
+   57,
+   "He welcome",
+   "We welcome",
+   "ocr"
+  ],
+  [
+   69,
+   "Ghana) ",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "Me are",
+   "We are",
+   "ocr"
+  ],
+  [
+   112,
+   "peri1",
+   "peril",
+   "ocr"
+  ],
+  [
+   114,
+   "Hon-Aligned",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   115,
+   "Hon-Aligned",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   116,
+   "Hon-Aligned",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   129,
+   "That if",
+   "That is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3018618f794594587f1c4e39a0f7d44558cbd99e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3173,
+  "words_out": 3172,
+  "retention": 0.9997,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   83,
+   72,
+   57,
+   184,
+   73,
+   60,
+   77,
+   108,
+   116,
+   42,
+   117,
+   69,
+   126,
+   109,
+   103,
+   118,
+   250,
+   101,
+   95,
+   119,
+   68,
+   124,
+   94,
+   124,
+   118,
+   142,
+   195,
+   71,
+   102,
+   55
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "KHM_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  30,
+  33,
+  42,
+  52,
+  58,
+  65,
+  69,
+  75,
+  81,
+  87,
+  92,
+  100
+ ],
+ "cer": [
+  100
+ ],
+ "fix": [
+  [
+   48,
+   "is a stake",
+   "is at stake",
+   "ocr"
+  ],
+  [
+   67,
+   "may he made",
+   "may be made",
+   "ocr"
+  ],
+  [
+   82,
+   "Americans, We can",
+   "Americans. We can",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37d24311c93d631b319e7504ff02ce08a7815527",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2213,
+  "words_out": 2185,
+  "retention": 0.9873,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   196,
+   220,
+   174,
+   69,
+   160,
+   183,
+   111,
+   136,
+   95,
+   161,
+   132,
+   192,
+   125,
+   178,
+   53
+  ],
+  "warnings": []
+ }
+}

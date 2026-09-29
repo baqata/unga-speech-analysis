@@ -1,0 +1,56 @@
+{
+ "id": "SLB_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  17,
+  45,
+  57,
+  68,
+  85,
+  104,
+  120,
+  139,
+  154,
+  172,
+  182
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fca3ae3932cc99a792bdcf87bed2fb868e2604ea",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1442,
+  "words_out": 1441,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   76,
+   60,
+   211,
+   98,
+   74,
+   127,
+   139,
+   114,
+   117,
+   102,
+   144,
+   73,
+   106
+  ],
+  "warnings": []
+ }
+}

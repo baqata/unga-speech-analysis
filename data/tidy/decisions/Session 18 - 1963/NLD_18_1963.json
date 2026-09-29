@@ -1,0 +1,82 @@
+{
+ "id": "NLD_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  16,
+  20,
+  24,
+  30,
+  33,
+  37,
+  41,
+  43,
+  47,
+  53,
+  62,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "shift if from",
+   "shift it from",
+   "ocr"
+  ],
+  [
+   28,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   37,
+   "peace-restoring- powers",
+   "peace-restoring powers",
+   "hyphen"
+  ],
+  [
+   76,
+   "might, consider",
+   "might consider",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "498ad6075c353c24566a21b37f7a8a8fb2ffd6af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1882,
+  "words_out": 1863,
+  "retention": 0.9899,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   136,
+   157,
+   63,
+   79,
+   93,
+   116,
+   74,
+   89,
+   106,
+   148,
+   105,
+   149,
+   218,
+   135,
+   195
+  ],
+  "warnings": []
+ }
+}

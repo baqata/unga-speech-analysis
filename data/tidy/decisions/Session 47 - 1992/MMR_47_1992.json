@@ -1,0 +1,101 @@
+{
+ "id": "MMR_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  25,
+  44,
+  66,
+  86,
+  102,
+  112,
+  129,
+  147,
+  162,
+  184,
+  201,
+  222,
+  244,
+  264,
+  281,
+  292,
+  305,
+  317,
+  332,
+  342,
+  360
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   0,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   62,
+   "reguires o sense",
+   "requires a sense",
+   "ocr"
+  ],
+  [
+   226,
+   "Development;.",
+   "Development.",
+   "ocr"
+  ],
+  [
+   320,
+   "cooordinate",
+   "coordinate",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text appears to be missing mid-sentence at units 173 and 307 (source gaps).",
+ "unitizer_version": 1,
+ "sha1": "5dacc2b794bdb513219c0332ce5704e726b5817d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 366,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4060,
+  "words_out": 4057,
+  "retention": 0.9993,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   101,
+   159,
+   215,
+   254,
+   239,
+   187,
+   113,
+   177,
+   202,
+   170,
+   244,
+   175,
+   244,
+   245,
+   224,
+   180,
+   115,
+   142,
+   126,
+   163,
+   112,
+   199,
+   71
+  ],
+  "warnings": []
+ }
+}

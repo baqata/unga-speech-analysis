@@ -1,0 +1,201 @@
+{
+ "id": "MNG_19_1964",
+ "drop": [
+  [
+   54,
+   54,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  12,
+  14,
+  16,
+  19,
+  22,
+  24,
+  29,
+  32,
+  37,
+  40,
+  43,
+  47,
+  50,
+  55,
+  58,
+  63,
+  65,
+  67,
+  70,
+  73,
+  76,
+  81,
+  85,
+  90,
+  93,
+  98,
+  103,
+  104,
+  108,
+  113,
+  118,
+  121,
+  125,
+  129,
+  132,
+  136,
+  140,
+  145
+ ],
+ "cer": [
+  0,
+  103
+ ],
+ "fix": [
+  [
+   6,
+   "achieved, in",
+   "achieved in",
+   "ocr"
+  ],
+  [
+   7,
+   "the 'important",
+   "the important",
+   "ocr"
+  ],
+  [
+   9,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   88,
+   "is. the",
+   "is the",
+   "ocr"
+  ],
+  [
+   99,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   102,
+   "States. -",
+   "States.",
+   "ocr"
+  ],
+  [
+   114,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   118,
+   "policy, of",
+   "policy of",
+   "ocr"
+  ],
+  [
+   121,
+   "effective.'",
+   "effective.",
+   "ocr"
+  ],
+  [
+   131,
+   "Council mid the",
+   "Council and the",
+   "ocr"
+  ],
+  [
+   133,
+   "basis, of",
+   "basis of",
+   "ocr"
+  ],
+  [
+   134,
+   "of, the",
+   "of the",
+   "ocr"
+  ],
+  [
+   141,
+   "reaction.,",
+   "reaction.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b5c59eaf55c4d26839069498b64277be40028e80",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 72
+  },
+  "words_in": 5215,
+  "words_out": 5201,
+  "retention": 0.9973,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   131,
+   173,
+   109,
+   135,
+   65,
+   115,
+   162,
+   180,
+   134,
+   144,
+   102,
+   109,
+   105,
+   87,
+   139,
+   73,
+   142,
+   154,
+   125,
+   84,
+   107,
+   143,
+   113,
+   143,
+   156,
+   99,
+   160,
+   93,
+   76,
+   153,
+   42,
+   131,
+   145,
+   164,
+   107,
+   137,
+   121,
+   101,
+   157,
+   139,
+   166,
+   80
+  ],
+  "warnings": []
+ }
+}

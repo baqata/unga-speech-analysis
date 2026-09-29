@@ -1,0 +1,90 @@
+{
+ "id": "GNB_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  19,
+  22,
+  25,
+  27,
+  31,
+  37,
+  44,
+  48,
+  51,
+  53,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "Bissau- Guinean",
+   "Bissau-Guinean",
+   "hyphen"
+  ],
+  [
+   21,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   23,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "hyphen"
+  ],
+  [
+   27,
+   "all- out",
+   "all-out",
+   "hyphen"
+  ],
+  [
+   32,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c555cff02ebc16e0df37f827209567e113171943",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1744,
+  "words_out": 1739,
+  "retention": 0.9971,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   111,
+   164,
+   78,
+   82,
+   112,
+   134,
+   82,
+   60,
+   118,
+   112,
+   203,
+   116,
+   99,
+   66,
+   84,
+   118
+  ],
+  "warnings": []
+ }
+}

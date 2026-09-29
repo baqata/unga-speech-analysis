@@ -1,0 +1,105 @@
+{
+ "id": "VEN_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  16,
+  21,
+  24,
+  26,
+  31,
+  34,
+  37,
+  39,
+  42,
+  44,
+  46,
+  49,
+  51,
+  54,
+  57,
+  61
+ ],
+ "cer": [
+  61
+ ],
+ "fix": [
+  [
+   22,
+   "connexion, that",
+   "connexion that",
+   "ocr"
+  ],
+  [
+   36,
+   "confidence end security",
+   "confidence and security",
+   "ocr"
+  ],
+  [
+   38,
+   "winch",
+   "which",
+   "ocr"
+  ],
+  [
+   42,
+   "[resolution 557 F (XVIII)]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "advancement, Perhaps",
+   "advancement. Perhaps",
+   "ocr"
+  ],
+  [
+   56,
+   "factors-and",
+   "factors and",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ca401b85ef69f1a72865ef881c2b2976bcc8b89",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 19
+  },
+  "words_in": 2203,
+  "words_out": 2198,
+  "retention": 0.9977,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   234,
+   118,
+   132,
+   155,
+   92,
+   64,
+   127,
+   105,
+   121,
+   92,
+   82,
+   85,
+   102,
+   96,
+   114,
+   175,
+   115,
+   122,
+   67
+  ],
+  "warnings": []
+ }
+}

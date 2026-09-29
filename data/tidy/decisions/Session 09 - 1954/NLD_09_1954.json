@@ -1,0 +1,101 @@
+{
+ "id": "NLD_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  9,
+  11,
+  17,
+  19,
+  24,
+  26,
+  31,
+  36,
+  40,
+  45,
+  48,
+  52,
+  55,
+  57,
+  64,
+  71,
+  77,
+  83,
+  91,
+  94,
+  101,
+  107,
+  113,
+  118,
+  122
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   40,
+   "Commissioned",
+   "Commissioner",
+   "ocr"
+  ],
+  [
+   70,
+   "I Was",
+   "was",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ff7105f9df7a676b00f94832a33c685cedef4db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 34
+  },
+  "words_in": 3115,
+  "words_out": 3109,
+  "retention": 0.9981,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   143,
+   94,
+   64,
+   160,
+   115,
+   183,
+   65,
+   128,
+   109,
+   108,
+   135,
+   71,
+   101,
+   81,
+   127,
+   151,
+   118,
+   146,
+   156,
+   144,
+   72,
+   155,
+   129,
+   124,
+   102,
+   78,
+   50
+  ],
+  "warnings": []
+ }
+}

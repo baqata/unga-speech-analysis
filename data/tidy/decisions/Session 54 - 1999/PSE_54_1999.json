@@ -1,0 +1,87 @@
+{
+ "id": "PSE_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  31,
+  52,
+  69,
+  86,
+  101,
+  110,
+  127,
+  139,
+  155,
+  165,
+  182,
+  197,
+  209,
+  219,
+  240,
+  253,
+  263,
+  282,
+  302,
+  319
+ ],
+ "cer": [
+  0,
+  20
+ ],
+ "fix": [
+  [
+   115,
+   "AI-Quds",
+   "Al-Quds",
+   "ocr"
+  ],
+  [
+   308,
+   "Terrotiries",
+   "Territories",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f907d8bf94e68c5320adc6831a7972b42b563251",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2863,
+  "words_out": 2860,
+  "retention": 0.999,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   168,
+   96,
+   181,
+   142,
+   138,
+   133,
+   78,
+   156,
+   121,
+   139,
+   90,
+   155,
+   125,
+   99,
+   91,
+   189,
+   119,
+   90,
+   174,
+   198,
+   142,
+   36
+  ],
+  "warnings": []
+ }
+}

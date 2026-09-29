@@ -1,0 +1,119 @@
+{
+ "id": "NPL_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  33,
+  39,
+  53,
+  61,
+  74,
+  92,
+  97,
+  114,
+  123,
+  140,
+  148,
+  157,
+  172,
+  190,
+  202,
+  213,
+  231,
+  244,
+  260,
+  273,
+  289,
+  302,
+  311,
+  324,
+  332,
+  344
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   180,
+   "Giri ja",
+   "Girija",
+   "split_word"
+  ],
+  [
+   194,
+   "troop — contributing",
+   "troop-contributing",
+   "spacing"
+  ],
+  [
+   198,
+   "should he based",
+   "should be based",
+   "ocr"
+  ],
+  [
+   236,
+   "a mater of",
+   "a matter of",
+   "ocr"
+  ],
+  [
+   268,
+   "should he directed",
+   "should be directed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06e072193ebf0ad567267688dcc59959bb21bda5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 355,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2866,
+  "words_out": 2858,
+  "retention": 0.9972,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   67,
+   69,
+   147,
+   47,
+   110,
+   67,
+   123,
+   136,
+   47,
+   145,
+   78,
+   139,
+   64,
+   75,
+   115,
+   141,
+   99,
+   80,
+   145,
+   95,
+   114,
+   103,
+   127,
+   97,
+   74,
+   101,
+   65,
+   96,
+   92
+  ],
+  "warnings": []
+ }
+}

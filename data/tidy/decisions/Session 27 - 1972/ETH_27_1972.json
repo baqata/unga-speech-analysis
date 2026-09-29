@@ -1,0 +1,173 @@
+{
+ "id": "ETH_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  19,
+  24,
+  27,
+  33,
+  35,
+  42,
+  47,
+  53,
+  59,
+  62,
+  64,
+  67,
+  71,
+  75,
+  80,
+  82,
+  85,
+  88,
+  92,
+  98,
+  102,
+  105,
+  112,
+  115,
+  119,
+  123,
+  125,
+  132,
+  136,
+  139,
+  142,
+  147,
+  152,
+  159
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "of .the",
+   "of the",
+   "ocr"
+  ],
+  [
+   4,
+   "UThant",
+   "U Thant",
+   "merged_word"
+  ],
+  [
+   17,
+   "Nations;,",
+   "Nations;",
+   "ocr"
+  ],
+  [
+   22,
+   "ob-served",
+   "observed",
+   "hyphen"
+  ],
+  [
+   29,
+   "tilings",
+   "things",
+   "ocr"
+  ],
+  [
+   50,
+   " [A/8723/Rev.",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "1, chap.",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "X, annex I]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "them-selves",
+   "themselves",
+   "hyphen"
+  ],
+  [
+   113,
+   "Hie need",
+   "The need",
+   "ocr"
+  ],
+  [
+   148,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b5cf89edbdab3c2898d74b0cf00af6e336fc8d2b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 51
+  },
+  "words_in": 4377,
+  "words_out": 4362,
+  "retention": 0.9966,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   75,
+   152,
+   161,
+   223,
+   113,
+   79,
+   198,
+   116,
+   190,
+   150,
+   117,
+   135,
+   77,
+   66,
+   84,
+   134,
+   115,
+   103,
+   74,
+   66,
+   94,
+   118,
+   114,
+   151,
+   72,
+   173,
+   112,
+   118,
+   80,
+   83,
+   166,
+   119,
+   83,
+   88,
+   76,
+   75,
+   136,
+   76
+  ],
+  "warnings": []
+ }
+}

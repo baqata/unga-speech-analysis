@@ -1,0 +1,77 @@
+{
+ "id": "MWI_51_1996",
+ "drop": [
+  [
+   0,
+   0,
+   "procedural"
+  ]
+ ],
+ "para": [
+  1,
+  24,
+  40,
+  57,
+  71,
+  93,
+  104,
+  118,
+  128,
+  144,
+  158,
+  171,
+  184,
+  200,
+  214,
+  225,
+  233,
+  254,
+  266,
+  275
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2fe5b56106e022cc12d85df9d0d2b3338b2d613b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 294,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2535,
+  "words_out": 2530,
+  "retention": 0.998,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   194,
+   143,
+   159,
+   125,
+   180,
+   88,
+   124,
+   90,
+   137,
+   115,
+   108,
+   112,
+   145,
+   119,
+   93,
+   61,
+   182,
+   104,
+   80,
+   171
+  ],
+  "warnings": []
+ }
+}

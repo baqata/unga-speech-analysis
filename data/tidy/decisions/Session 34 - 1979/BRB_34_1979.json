@@ -1,0 +1,120 @@
+{
+ "id": "BRB_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  18,
+  20,
+  23,
+  25,
+  32,
+  36,
+  44,
+  48,
+  53,
+  60,
+  66,
+  70,
+  75,
+  78,
+  84,
+  90,
+  94,
+  97,
+  102,
+  107,
+  112,
+  115,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "right' to",
+   "right to",
+   "ocr"
+  ],
+  [
+   66,
+   "economy fails into",
+   "economy falls into",
+   "ocr"
+  ],
+  [
+   69,
+   "balance-of- payments",
+   "balance-of-payments",
+   "hyphen"
+  ],
+  [
+   90,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ],
+  [
+   93,
+   "[OPEC]",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "in-come",
+   "income",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a2170ff74db5f04af4183bbcf1bef8e908306e8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3602,
+  "words_out": 3598,
+  "retention": 0.9989,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   202,
+   63,
+   182,
+   135,
+   98,
+   109,
+   73,
+   152,
+   140,
+   199,
+   95,
+   104,
+   189,
+   123,
+   137,
+   144,
+   83,
+   147,
+   143,
+   111,
+   133,
+   149,
+   118,
+   197,
+   108,
+   158,
+   106
+  ],
+  "warnings": []
+ }
+}

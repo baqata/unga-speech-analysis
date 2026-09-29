@@ -1,0 +1,82 @@
+{
+ "id": "ARM_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  21,
+  26,
+  35,
+  40,
+  47,
+  54,
+  60,
+  64,
+  70,
+  74,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   17,
+   "17-29275 17/27 ",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "1992- 1994",
+   "1992-1994",
+   "hyphen"
+  ],
+  [
+   53,
+   "18/27 17-29275 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b0a2c9ecb37b4c997f44da1a7489c5345fe3851",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 1669,
+  "words_out": 1663,
+  "retention": 0.9964,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   62,
+   135,
+   155,
+   108,
+   164,
+   140,
+   162,
+   173,
+   118,
+   86,
+   132,
+   91,
+   72,
+   65
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,274 @@
+{
+ "id": "PAK_26_1971",
+ "drop": [
+  [
+   35,
+   35,
+   "noise"
+  ],
+  [
+   62,
+   62,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  6,
+  11,
+  15,
+  22,
+  27,
+  34,
+  44,
+  50,
+  55,
+  59,
+  63,
+  69,
+  72,
+  77,
+  82,
+  90,
+  98,
+  101,
+  111,
+  120,
+  132,
+  140,
+  149,
+  152,
+  156,
+  160,
+  162,
+  166,
+  170,
+  176,
+  184,
+  188,
+  193,
+  198,
+  204,
+  210,
+  212,
+  217,
+  222,
+  227,
+  232,
+  237,
+  241,
+  246
+ ],
+ "cer": [
+  0,
+  5,
+  6
+ ],
+ "fix": [
+  [
+   11,
+   "during'",
+   "during",
+   "ocr"
+  ],
+  [
+   18,
+   "in or. way",
+   "in one way",
+   "ocr"
+  ],
+  [
+   24,
+   "States*",
+   "States.",
+   "ocr"
+  ],
+  [
+   26,
+   "nothing h .t a",
+   "nothing but a",
+   "ocr"
+  ],
+  [
+   30,
+   "19473",
+   "1947",
+   "ocr"
+  ],
+  [
+   56,
+   "iii the",
+   "in the",
+   "ocr"
+  ],
+  [
+   70,
+   "use, By indulging",
+   "use. By indulging",
+   "ocr"
+  ],
+  [
+   78,
+   "is. particularly",
+   "is particularly",
+   "ocr"
+  ],
+  [
+   90,
+   "warlike - actions",
+   "warlike actions",
+   "ocr"
+  ],
+  [
+   90,
+   "feature of *",
+   "feature of",
+   "ocr"
+  ],
+  [
+   91,
+   "o\" recent",
+   "of recent",
+   "ocr"
+  ],
+  [
+   99,
+   "76. ",
+   "",
+   "label"
+  ],
+  [
+   100,
+   "refugees.But",
+   "refugees. But",
+   "spacing"
+  ],
+  [
+   158,
+   "Assembly,,",
+   "Assembly,",
+   "ocr"
+  ],
+  [
+   159,
+   "t! y",
+   "they",
+   "ocr"
+  ],
+  [
+   161,
+   "\" Strengthening",
+   "Strengthening",
+   "ocr"
+  ],
+  [
+   172,
+   "Government t is",
+   "Government is",
+   "ocr"
+  ],
+  [
+   202,
+   "Ills",
+   "his",
+   "ocr"
+  ],
+  [
+   231,
+   "armed fore",
+   "armed forces",
+   "ocr"
+  ],
+  [
+   234,
+   "State's, The people",
+   "State's. The people",
+   "ocr"
+  ],
+  [
+   238,
+   "Justice .4 Portugal",
+   "Justice. Portugal",
+   "ocr"
+  ],
+  [
+   246,
+   "Nations, Like many",
+   "Nations. Like many",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Source lines are displaced: unit 68 ('of supply for transportation of food grains into Pakistan.') is the end of the sentence cut at unit 98 ('the destruction of lines'). Units are kept in place: unit 68 at the end of the paragraph from unit 63, and unit 98 opens the paragraph that continues with units 99-100.",
+ "unitizer_version": 1,
+ "sha1": "1ffc96e262f56b4b1b4badbdad26e37f3043655e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 47
+  },
+  "words_in": 6139,
+  "words_out": 6119,
+  "retention": 0.9967,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   110,
+   39,
+   138,
+   86,
+   189,
+   150,
+   174,
+   167,
+   125,
+   162,
+   102,
+   75,
+   134,
+   122,
+   126,
+   116,
+   216,
+   165,
+   88,
+   164,
+   176,
+   210,
+   159,
+   197,
+   61,
+   139,
+   108,
+   97,
+   98,
+   110,
+   142,
+   161,
+   91,
+   80,
+   98,
+   113,
+   172,
+   95,
+   145,
+   181,
+   161,
+   136,
+   146,
+   99,
+   141,
+   155
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

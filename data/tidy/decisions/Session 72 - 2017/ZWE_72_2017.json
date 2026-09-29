@@ -1,0 +1,85 @@
+{
+ "id": "ZWE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  11,
+  14,
+  17,
+  23,
+  26,
+  29,
+  32,
+  35,
+  41,
+  45,
+  54,
+  60,
+  66
+ ],
+ "cer": [
+  0,
+  60
+ ],
+ "fix": [
+  [
+   25,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   26,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   31,
+   "ever- deteriorating",
+   "ever-deteriorating",
+   "hyphen"
+  ],
+  [
+   31,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3008a2108861cc0185dbbb328b63ed46cae94e73",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1537,
+  "words_out": 1533,
+  "retention": 0.9974,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   42,
+   141,
+   106,
+   66,
+   65,
+   121,
+   82,
+   70,
+   86,
+   65,
+   116,
+   81,
+   193,
+   101,
+   94,
+   104
+  ],
+  "warnings": []
+ }
+}

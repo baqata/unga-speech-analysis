@@ -1,0 +1,90 @@
+{
+ "id": "MAR_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  17,
+  23,
+  27,
+  31,
+  34,
+  38,
+  41,
+  44,
+  46,
+  49,
+  53,
+  55,
+  61,
+  66,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "sixty- seventh",
+   "sixty-seventh",
+   "hyphen"
+  ],
+  [
+   14,
+   " (A/67/ PV.16, p. 10).",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   51,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ee4cb1f6d389ba2472245110ce877f0505431e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1939,
+  "words_out": 1932,
+  "retention": 0.9964,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   90,
+   89,
+   83,
+   184,
+   105,
+   114,
+   69,
+   74,
+   103,
+   91,
+   130,
+   97,
+   70,
+   109,
+   71,
+   183,
+   147,
+   78,
+   45
+  ],
+  "warnings": []
+ }
+}

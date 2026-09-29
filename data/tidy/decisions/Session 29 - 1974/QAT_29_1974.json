@@ -1,0 +1,87 @@
+{
+ "id": "QAT_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  14,
+  18,
+  23,
+  29,
+  34,
+  38,
+  41,
+  43,
+  46
+ ],
+ "cer": [
+  0,
+  46
+ ],
+ "fix": [
+  [
+   16,
+   "is . commonly",
+   "is commonly",
+   "ocr"
+  ],
+  [
+   16,
+   "crisis, I especially",
+   "crisis. I especially",
+   "ocr"
+  ],
+  [
+   28,
+   " [A/9613 and Corr.l]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   " [AI9693]",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "form. \"}",
+   "form.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "884578a4ad1b86f1cd2396ef55a162a3d7878502",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1712,
+  "words_out": 1706,
+  "retention": 0.9965,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   114,
+   101,
+   185,
+   102,
+   151,
+   192,
+   191,
+   193,
+   136,
+   116,
+   69,
+   82,
+   74
+  ],
+  "warnings": []
+ }
+}

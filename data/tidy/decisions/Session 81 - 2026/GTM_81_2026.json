@@ -1,0 +1,103 @@
+{
+ "id": "GTM_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   98,
+   98,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  11,
+  18,
+  27,
+  31,
+  39,
+  49,
+  55,
+  66,
+  73,
+  75,
+  85,
+  89,
+  95,
+  97
+ ],
+ "cer": [
+  97
+ ],
+ "fix": [
+  [
+   29,
+   "intersectional",
+   "intersectoral",
+   "interp"
+  ],
+  [
+   1,
+   "Ladies and Gentlemen, Mr. President of the General Assembly, Excellencies, ",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "protected. international",
+   "protected. International",
+   "asr_term"
+  ],
+  [
+   85,
+   "organization. the",
+   "organization. The",
+   "asr_term"
+  ],
+  [
+   95,
+   "Charter. we",
+   "Charter. We",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; unit 29 speaker said 'estrategia intersectorial'. Main-agent audio check: the salutation in unit 1 was decoded twice (first pass 14.8-25.8 s, gap recovery 25.8-34.8 s); the speaker said it once (Spanish 17.9-33.4 s); one copy removed. Unit 62 kept: the Spanish audio has 'Buscar la paz puede significar aceptar la injusticia' (p 1.00, 3 decodes), but the sentence is the second of a 'Buscar la paz no significa...' pair and the English 'must never mean' carries the meaning the speaker intended. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 42 'protected. international' -> 'protected. International'; unit 85 'organization. the' -> 'organization. The'; unit 95 'Charter. we' -> 'Charter. We'",
+ "unitizer_version": 1,
+ "sha1": "415609682fc2f5e4b923897160eba9657a1d22fc",
+ "layout": "single",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1872,
+  "words_out": 1835,
+  "retention": 0.9802,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   94,
+   92,
+   102,
+   145,
+   127,
+   151,
+   151,
+   135,
+   144,
+   124,
+   57,
+   174,
+   87,
+   144,
+   104,
+   4
+  ],
+  "warnings": []
+ }
+}

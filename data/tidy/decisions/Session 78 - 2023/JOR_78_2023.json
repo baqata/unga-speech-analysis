@@ -1,0 +1,76 @@
+{
+ "id": "JOR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  17,
+  27,
+  33,
+  36,
+  42,
+  50,
+  56,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "one. those",
+   "one, those",
+   "ocr"
+  ],
+  [
+   20,
+   "of them.",
+   "of them,",
+   "ocr"
+  ],
+  [
+   22,
+   "230.000",
+   "230,000",
+   "ocr"
+  ],
+  [
+   44,
+   "on. it",
+   "on, it",
+   "ocr"
+  ],
+  [
+   59,
+   "for Islam.",
+   "for Islam,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "195be3f4e6285d74cf58a04cce15536cf0e9ec8e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1202,
+  "words_out": 1202,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   151,
+   124,
+   168,
+   81,
+   80,
+   91,
+   140,
+   129,
+   152,
+   86
+  ],
+  "warnings": []
+ }
+}

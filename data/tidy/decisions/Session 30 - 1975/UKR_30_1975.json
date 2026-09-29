@@ -1,0 +1,172 @@
+{
+ "id": "UKR_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  18,
+  21,
+  24,
+  29,
+  33,
+  35,
+  41,
+  45,
+  51,
+  53,
+  57,
+  60,
+  63,
+  66,
+  71,
+  76,
+  79,
+  83,
+  86,
+  90,
+  93
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   20,
+   "un-avoidability",
+   "unavoidability",
+   "hyphen"
+  ],
+  [
+   29,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   34,
+   "weap-ons",
+   "weapons",
+   "hyphen"
+  ],
+  [
+   34,
+   "and • to",
+   "and to",
+   "ocr"
+  ],
+  [
+   37,
+   "Leonid 1.",
+   "Leonid I.",
+   "ocr"
+  ],
+  [
+   41,
+   "over-whelming",
+   "overwhelming",
+   "hyphen"
+  ],
+  [
+   42,
+   " [see A/10241, annex]",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "coun-tries",
+   "countries",
+   "hyphen"
+  ],
+  [
+   50,
+   "Gen-eral",
+   "General",
+   "hyphen"
+  ],
+  [
+   52,
+   "repeat-edly",
+   "repeatedly",
+   "hyphen"
+  ],
+  [
+   57,
+   " [.PLO]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   " [A/10191 and Add.1-3, annex]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "pro-claimed",
+   "proclaimed",
+   "hyphen"
+  ],
+  [
+   86,
+   "37. ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing between units 7 and 8: unit 7 breaks off at \"Detente is ever more notice-\" and unit 8 resumes mid-sentence on the Helsinki Final Act. Both units are kept in one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "1bd9bc90d37e9979621801968944f0ca16bcb57c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3140,
+  "words_out": 3120,
+  "retention": 0.9936,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   137,
+   72,
+   82,
+   164,
+   111,
+   100,
+   99,
+   159,
+   116,
+   107,
+   177,
+   138,
+   206,
+   98,
+   107,
+   100,
+   83,
+   107,
+   84,
+   183,
+   73,
+   113,
+   97,
+   148,
+   109,
+   150
+  ],
+  "warnings": []
+ }
+}

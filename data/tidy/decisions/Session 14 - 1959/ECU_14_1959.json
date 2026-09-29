@@ -1,0 +1,163 @@
+{
+ "id": "ECU_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  11,
+  15,
+  20,
+  24,
+  28,
+  35,
+  39,
+  42,
+  48,
+  54,
+  58,
+  65,
+  70,
+  73,
+  79,
+  82,
+  86,
+  90,
+  94,
+  99,
+  106,
+  115,
+  120,
+  124,
+  130,
+  131
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "Commission, Thus",
+   "Commission. Thus",
+   "ocr"
+  ],
+  [
+   33,
+   "resourced",
+   "resources",
+   "ocr"
+  ],
+  [
+   46,
+   " [A/4132/ add.1]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "tide activities",
+   "the activities",
+   "ocr"
+  ],
+  [
+   78,
+   "part,",
+   "part.",
+   "ocr"
+  ],
+  [
+   81,
+   "in, the",
+   "in the",
+   "ocr"
+  ],
+  [
+   92,
+   "properly",
+   "property",
+   "ocr"
+  ],
+  [
+   100,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   105,
+   "wags held",
+   "was held",
+   "ocr"
+  ],
+  [
+   105,
+   "States, We",
+   "States. We",
+   "ocr"
+  ],
+  [
+   110,
+   " [resolution 1240 (XBI)]",
+   "",
+   "label"
+  ],
+  [
+   111,
+   "Paul G- Hoffman",
+   "Paul G. Hoffman",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c5a2c117c23a678e07ed09d8ed6a896a5d33123a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 40
+  },
+  "words_in": 4569,
+  "words_out": 4561,
+  "retention": 0.9982,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   76,
+   98,
+   117,
+   94,
+   97,
+   167,
+   178,
+   149,
+   193,
+   119,
+   90,
+   186,
+   186,
+   187,
+   216,
+   131,
+   140,
+   238,
+   130,
+   132,
+   182,
+   160,
+   166,
+   228,
+   192,
+   155,
+   153,
+   222,
+   44,
+   135
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "JAM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  17,
+  22,
+  28,
+  34,
+  38,
+  43,
+  47,
+  52,
+  56,
+  58,
+  62,
+  66,
+  71,
+  78,
+  83,
+  87,
+  90
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   72,
+   "foreign- policy",
+   "foreign-policy",
+   "hyphen"
+  ],
+  [
+   89,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82967eec68eabf0558cc655dd56b869c4d0c139d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2180,
+  "words_out": 2174,
+  "retention": 0.9972,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   93,
+   100,
+   80,
+   82,
+   85,
+   180,
+   148,
+   101,
+   127,
+   92,
+   80,
+   122,
+   74,
+   90,
+   79,
+   105,
+   172,
+   112,
+   98,
+   80,
+   74
+  ],
+  "warnings": []
+ }
+}

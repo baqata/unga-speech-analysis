@@ -1,0 +1,129 @@
+{
+ "id": "GIN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  16,
+  19,
+  20,
+  22,
+  26,
+  29,
+  33,
+  37,
+  39,
+  42,
+  45,
+  47,
+  50,
+  53,
+  62,
+  66,
+  69,
+  72,
+  76,
+  79,
+  82
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   19,
+   " [ANC]",
+   "",
+   "label"
+  ],
+  [
+   19,
+   " [PAC]",
+   "",
+   "label"
+  ],
+  [
+   19,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "thirty- third",
+   "thirty-third",
+   "spacing"
+  ],
+  [
+   21,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "Declaration,10",
+   "Declaration,",
+   "ocr"
+  ],
+  [
+   68,
+   "Africa,\"",
+   "Africa,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "025fef26ac4e2485d5c55e850d1558dddb5582f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 51
+  },
+  "words_in": 2892,
+  "words_out": 2886,
+  "retention": 0.9979,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   108,
+   174,
+   165,
+   84,
+   87,
+   73,
+   96,
+   154,
+   178,
+   149,
+   191,
+   66,
+   78,
+   93,
+   76,
+   81,
+   111,
+   211,
+   134,
+   69,
+   96,
+   71,
+   105,
+   61,
+   175
+  ],
+  "warnings": []
+ }
+}

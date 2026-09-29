@@ -1,0 +1,99 @@
+{
+ "id": "OMN_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  6,
+  9,
+  12,
+  14,
+  19,
+  23,
+  28,
+  32,
+  36,
+  40,
+  46,
+  51,
+  56,
+  60,
+  62,
+  66,
+  74,
+  82,
+  86
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "which-have",
+   "which have",
+   "ocr"
+  ],
+  [
+   15,
+   "and-the",
+   "and the",
+   "ocr"
+  ],
+  [
+   59,
+   "industrial- economic",
+   "industrial-economic",
+   "hyphen"
+  ],
+  [
+   79,
+   "terrorist- organizations",
+   "terrorist organizations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dda7f90c3b6765b5f9afc13fc70a16aac218c462",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2910,
+  "words_out": 2911,
+  "retention": 1.0003,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   92,
+   67,
+   74,
+   104,
+   119,
+   106,
+   229,
+   126,
+   144,
+   108,
+   109,
+   122,
+   143,
+   158,
+   162,
+   149,
+   130,
+   127,
+   216,
+   188,
+   157,
+   81
+  ],
+  "warnings": []
+ }
+}

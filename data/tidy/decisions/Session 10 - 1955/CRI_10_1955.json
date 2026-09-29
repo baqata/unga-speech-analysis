@@ -1,0 +1,122 @@
+{
+ "id": "CRI_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  18,
+  24,
+  25,
+  28,
+  30,
+  35,
+  41,
+  45,
+  50,
+  58,
+  60,
+  64,
+  67,
+  69,
+  73,
+  76,
+  79,
+  82,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "he carried",
+   "be carried",
+   "ocr"
+  ],
+  [
+   24,
+   " [resolution 808 A (IX)]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   " [resolution 810 B (IX)]",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "armaments,",
+   "armaments.",
+   "ocr"
+  ],
+  [
+   31,
+   "6f",
+   "of",
+   "ocr"
+  ],
+  [
+   33,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   39,
+   "importance,",
+   "importance.",
+   "ocr"
+  ],
+  [
+   71,
+   "sister- nations",
+   "sister-nations",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "459e49dacc583b3d4010e230aaab6fe28d889cae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3035,
+  "words_out": 3008,
+  "retention": 0.9911,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   227,
+   230,
+   187,
+   125,
+   112,
+   145,
+   68,
+   134,
+   204,
+   211,
+   189,
+   142,
+   82,
+   131,
+   87,
+   108,
+   131,
+   113,
+   94,
+   85,
+   144,
+   59
+  ],
+  "warnings": []
+ }
+}

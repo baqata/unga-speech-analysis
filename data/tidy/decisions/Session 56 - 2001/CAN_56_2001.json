@@ -1,0 +1,54 @@
+{
+ "id": "CAN_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  41,
+  61,
+  73,
+  95,
+  121,
+  139,
+  163,
+  174,
+  193,
+  225,
+  244
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eb7539df4e9f3f24dba1173eb94000b36fcb0590",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 4,
+   "page_number": 3
+  },
+  "words_in": 2091,
+  "words_out": 2085,
+  "retention": 0.9971,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   125,
+   210,
+   156,
+   81,
+   179,
+   200,
+   130,
+   188,
+   101,
+   158,
+   255,
+   151,
+   151
+  ],
+  "warnings": []
+ }
+}

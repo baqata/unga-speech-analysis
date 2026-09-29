@@ -1,0 +1,72 @@
+{
+ "id": "BLR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  32,
+  45,
+  55,
+  67,
+  78,
+  93,
+  107,
+  121,
+  132,
+  154,
+  165,
+  177,
+  189,
+  198,
+  212
+ ],
+ "cer": [],
+ "fix": [
+  [
+   147,
+   "government?We",
+   "government? We",
+   "spacing"
+  ],
+  [
+   184,
+   "countries.We",
+   "countries. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01260a0dba669ac968d3b193620a13816ab03e10",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1852,
+  "words_out": 1854,
+  "retention": 1.0011,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   156,
+   106,
+   124,
+   88,
+   91,
+   93,
+   135,
+   121,
+   115,
+   88,
+   199,
+   86,
+   99,
+   112,
+   75,
+   107,
+   59
+  ],
+  "warnings": []
+ }
+}

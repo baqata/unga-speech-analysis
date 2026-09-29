@@ -1,0 +1,76 @@
+{
+ "id": "TGO_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  15,
+  21,
+  25,
+  40,
+  46,
+  54,
+  60,
+  68,
+  74,
+  90,
+  96,
+  101
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "whether It be",
+   "whether it be",
+   "ocr"
+  ],
+  [
+   89,
+   "necessary,",
+   "necessary.",
+   "ocr"
+  ],
+  [
+   97,
+   "African, spirit",
+   "African spirit",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ebdf48e76a3c80125d3ab2aa3f1f426579ae1499",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2235,
+  "words_out": 2220,
+  "retention": 0.9933,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   111,
+   110,
+   78,
+   130,
+   92,
+   105,
+   274,
+   188,
+   133,
+   102,
+   114,
+   122,
+   256,
+   118,
+   159,
+   128
+  ],
+  "warnings": []
+ }
+}

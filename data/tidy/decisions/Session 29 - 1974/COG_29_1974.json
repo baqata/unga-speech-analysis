@@ -1,0 +1,144 @@
+{
+ "id": "COG_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  13,
+  16,
+  20,
+  24,
+  27,
+  30,
+  36,
+  37,
+  43,
+  49,
+  55,
+  61,
+  64,
+  68,
+  73,
+  74,
+  80,
+  83,
+  87,
+  92,
+  93
+ ],
+ "cer": [
+  0,
+  3,
+  5,
+  36,
+  93
+ ],
+ "fix": [
+  [
+   17,
+   "19732",
+   "1973",
+   "ocr"
+  ],
+  [
+   28,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   37,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   47,
+   " [resolution 3206 (XXIX))",
+   "",
+   "label"
+  ],
+  [
+   55,
+   " [A/96011Add.I, sect. XIII]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "re-presenting",
+   "representing",
+   "hyphen"
+  ],
+  [
+   68,
+   "it to open",
+   "is to open",
+   "ocr"
+  ],
+  [
+   79,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "seller*",
+   "sellers",
+   "ocr"
+  ],
+  [
+   87,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "df136ddeecdb5f1ef6608a6f3d5f164dcd2cd344",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3359,
+  "words_out": 3344,
+  "retention": 0.9955,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   134,
+   103,
+   122,
+   226,
+   97,
+   165,
+   145,
+   69,
+   132,
+   122,
+   26,
+   157,
+   184,
+   177,
+   125,
+   196,
+   132,
+   178,
+   98,
+   140,
+   151,
+   135,
+   149,
+   105,
+   76
+  ],
+  "warnings": []
+ }
+}

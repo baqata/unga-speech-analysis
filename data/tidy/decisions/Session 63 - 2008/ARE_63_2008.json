@@ -1,0 +1,54 @@
+{
+ "id": "ARE_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  27,
+  37,
+  62,
+  83,
+  103,
+  122,
+  138,
+  152,
+  173,
+  181
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71cedcc398a02f1f067012496a4a4140d208fa24",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2,
+   "job_number": 2
+  },
+  "words_in": 1461,
+  "words_out": 1458,
+  "retention": 0.9979,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   87,
+   119,
+   70,
+   189,
+   169,
+   161,
+   147,
+   124,
+   115,
+   165,
+   64,
+   48
+  ],
+  "warnings": []
+ }
+}

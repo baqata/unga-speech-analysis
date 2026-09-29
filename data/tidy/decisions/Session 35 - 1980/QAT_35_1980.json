@@ -1,0 +1,92 @@
+{
+ "id": "QAT_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  9,
+  16,
+  19,
+  22,
+  26,
+  30,
+  36,
+  40,
+  45,
+  49,
+  56,
+  61,
+  66,
+  69,
+  74,
+  79,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "thirty- fourth",
+   "thirty-fourth",
+   "hyphen"
+  ],
+  [
+   22,
+   "^rusted",
+   "entrusted",
+   "ocr"
+  ],
+  [
+   24,
+   "There arc",
+   "There are",
+   "ocr"
+  ],
+  [
+   35,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4826c4bf494b367aa4ca2d02b0d2e9cf2a6276a9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2527,
+  "words_out": 2525,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   287,
+   79,
+   143,
+   138,
+   50,
+   67,
+   182,
+   136,
+   101,
+   133,
+   133,
+   157,
+   182,
+   150,
+   83,
+   77,
+   157,
+   188,
+   82
+  ],
+  "warnings": []
+ }
+}

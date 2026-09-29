@@ -1,0 +1,242 @@
+{
+ "id": "LSO_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   75,
+   75,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  7,
+  11,
+  19,
+  27,
+  30,
+  35,
+  44,
+  50,
+  57,
+  64,
+  72,
+  74
+ ],
+ "cer": [
+  2,
+  5,
+  7,
+  74
+ ],
+ "fix": [
+  [
+   2,
+   "Cool dropping ",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "Babock",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   5,
+   "ATF session",
+   "80th session",
+   "asr_term"
+  ],
+  [
+   7,
+   "Guderisch",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   7,
+   "tenor",
+   "tenure",
+   "asr_term"
+  ],
+  [
+   13,
+   "SADAC",
+   "SADC",
+   "asr_name"
+  ],
+  [
+   27,
+   "Letia III, Lesotho",
+   "Letsie III, Lesotho",
+   "asr_name"
+  ],
+  [
+   27,
+   "Letia III Just",
+   "Letsie III Just",
+   "asr_name"
+  ],
+  [
+   28,
+   "Musoto",
+   "Mosotho",
+   "asr_name"
+  ],
+  [
+   31,
+   "Chatting",
+   "Charting",
+   "asr_term"
+  ],
+  [
+   33,
+   "UN8",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   39,
+   "and equality",
+   "and inequality",
+   "asr_term"
+  ],
+  [
+   42,
+   "Awasa",
+   "Awaza",
+   "asr_name"
+  ],
+  [
+   57,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   45,
+   "non-commutable",
+   "non-communicable",
+   "asr_term"
+  ],
+  [
+   45,
+   "and equalities",
+   "and inequalities",
+   "asr_term"
+  ],
+  [
+   61,
+   "Esulwini Council",
+   "Ezulwini Consensus",
+   "asr_name"
+  ],
+  [
+   68,
+   "Moshlomi",
+   "Mohlomi",
+   "asr_name"
+  ],
+  [
+   68,
+   "Mosheswede",
+   "Moshoeshoe",
+   "asr_name"
+  ],
+  [
+   68,
+   "Basuti",
+   "Basotho",
+   "asr_name"
+  ],
+  [
+   68,
+   "a thrash cone",
+   "thresh corn",
+   "asr_term"
+  ],
+  [
+   54,
+   "development. development.",
+   "development.",
+   "asr_term"
+  ],
+  [
+   22,
+   "states. we",
+   "states. We",
+   "asr_term"
+  ],
+  [
+   31,
+   "one. coordinated",
+   "one. Coordinated",
+   "asr_term"
+  ],
+  [
+   33,
+   "initiative. we",
+   "initiative. We",
+   "asr_term"
+  ],
+  [
+   53,
+   "origin. transit",
+   "origin transit",
+   "asr_term"
+  ],
+  [
+   63,
+   "equality. peace",
+   "equality peace",
+   "asr_term"
+  ],
+  [
+   21,
+   "heavy brand",
+   "heavy brunt",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Pause text 'Cool dropping' glued to unit 2 removed; King Letsie III, Moshoeshoe I, Chief Mohlomi, Basotho, Ezulwini Consensus and LLDC3 in Awaza are published names; UN80, 80th session and 'trillar maíz' per Spanish. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 54 'development. development.' -> 'development.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 22 'states. we' -> 'states. We'; unit 31 'one. coordinated' -> 'one. Coordinated'; unit 33 'initiative. we' -> 'initiative. We'; unit 53 'origin. transit' -> 'origin transit'; unit 63 'equality. peace' -> 'equality peace'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 21 'heavy brand' -> 'heavy brunt' (both decodes hear 'brand' clearly (0.99/0.98), which sounds like UN 'brunt' and not like the existing repair 'burden'; 'bear the brunt' fits; written over the existing repair)",
+ "unitizer_version": 1,
+ "sha1": "01a7c29d7523e28bb80a2d728bc92b3306a46f9d",
+ "layout": "single",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1793,
+  "words_out": 1725,
+  "retention": 0.9621,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   91,
+   77,
+   105,
+   195,
+   163,
+   100,
+   163,
+   166,
+   130,
+   111,
+   174,
+   194,
+   53,
+   3
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "id": "BGD_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  33,
+  125,
+  134,
+  152,
+  166,
+  212
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   5,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   8,
+   "co operation",
+   "co-operation",
+   "spacing"
+  ],
+  [
+   12,
+   "thirty sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   17,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   33,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   35,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   39,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   46,
+   "use offence",
+   "use of force",
+   "ocr"
+  ],
+  [
+   48,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   57,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   65,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   73,
+   "self defeating",
+   "self-defeating",
+   "spacing"
+  ],
+  [
+   92,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   101,
+   "co operation",
+   "co-operation",
+   "spacing"
+  ],
+  [
+   102,
+   "non interference",
+   "non-interference",
+   "spacing"
+  ],
+  [
+   106,
+   "co operation",
+   "co-operation",
+   "spacing"
+  ],
+  [
+   109,
+   "self sustaining",
+   "self-sustaining",
+   "spacing"
+  ],
+  [
+   119,
+   "well balanced",
+   "well-balanced",
+   "spacing"
+  ],
+  [
+   121,
+   "self sufficiency",
+   "self-sufficiency",
+   "spacing"
+  ],
+  [
+   129,
+   "whole hearted",
+   "whole-hearted",
+   "spacing"
+  ],
+  [
+   175,
+   "Non Proliferation",
+   "Non-Proliferation",
+   "spacing"
+  ],
+  [
+   178,
+   "super Powers",
+   "super-Powers",
+   "spacing"
+  ],
+  [
+   184,
+   "inGeneva",
+   "in Geneva",
+   "merged_word"
+  ],
+  [
+   188,
+   "super Powers",
+   "super-Powers",
+   "spacing"
+  ],
+  [
+   206,
+   "co operation",
+   "co-operation",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous wrapped text with almost no line-initial sentence starts; paragraphs at units 33 and 166 stay long.",
+ "unitizer_version": 1,
+ "sha1": "cb6437d0432dd58e8f9d25a21f970e03210b4077",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2477,
+  "words_out": 2455,
+  "retention": 0.9911,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   353,
+   965,
+   88,
+   196,
+   143,
+   473,
+   237
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 353 words",
+   "paragraph at unit 33 has 965 words",
+   "paragraph at unit 166 has 473 words",
+   "26 fixes"
+  ]
+ }
+}

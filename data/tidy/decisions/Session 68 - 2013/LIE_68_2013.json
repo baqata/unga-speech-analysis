@@ -1,0 +1,55 @@
+{
+ "id": "LIE_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  21,
+  31,
+  38,
+  52,
+  60,
+  72,
+  90,
+  111,
+  138,
+  159,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea8c7fc03b48b66fc5432c93d083cd8d51bd740d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1558,
+  "words_out": 1557,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   37,
+   138,
+   79,
+   55,
+   116,
+   63,
+   106,
+   145,
+   180,
+   230,
+   172,
+   186,
+   50
+  ],
+  "warnings": []
+ }
+}

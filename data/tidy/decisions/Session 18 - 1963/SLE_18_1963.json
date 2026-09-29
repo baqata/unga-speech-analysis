@@ -1,0 +1,55 @@
+{
+ "id": "SLE_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  8,
+  12,
+  16,
+  19,
+  21,
+  24
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   " [A/ 5501]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6b0895cb1108c12b40bcf7cf3791d3f7ade1356",
+ "layout": "lines",
+ "stats": {
+  "n_units": 26,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 9
+  },
+  "words_in": 1086,
+  "words_out": 1084,
+  "retention": 0.9982,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   37,
+   177,
+   108,
+   138,
+   157,
+   167,
+   96,
+   115,
+   89
+  ],
+  "warnings": []
+ }
+}

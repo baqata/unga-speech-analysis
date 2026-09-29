@@ -1,0 +1,72 @@
+{
+ "id": "PAN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  11,
+  17,
+  25,
+  30,
+  33,
+  42,
+  46,
+  54,
+  61,
+  65,
+  69,
+  72,
+  77
+ ],
+ "cer": [
+  77
+ ],
+ "fix": [
+  [
+   34,
+   "Torrijos Carta",
+   "Torrijos Carter",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee0f3ae3503adf19dd4d0b1f7c2109e46ece9c2a",
+ "layout": "single",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1727,
+  "words_out": 1695,
+  "retention": 0.9815,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   120,
+   158,
+   79,
+   172,
+   146,
+   51,
+   202,
+   70,
+   166,
+   132,
+   117,
+   100,
+   84,
+   94,
+   4
+  ],
+  "warnings": []
+ }
+}

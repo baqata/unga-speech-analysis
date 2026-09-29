@@ -1,0 +1,67 @@
+{
+ "id": "IRQ_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  27,
+  43,
+  54,
+  69,
+  80,
+  89,
+  103,
+  112,
+  126,
+  136,
+  145,
+  166,
+  196,
+  208
+ ],
+ "cer": [
+  0,
+  103
+ ],
+ "fix": [
+  [
+   99,
+   "neever",
+   "never",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6cb90f4508de81599ae5b10538dae16dcf15bb4e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1813,
+  "words_out": 1810,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   77,
+   136,
+   133,
+   91,
+   132,
+   86,
+   70,
+   114,
+   81,
+   122,
+   80,
+   73,
+   165,
+   254,
+   95,
+   101
+  ],
+  "warnings": []
+ }
+}

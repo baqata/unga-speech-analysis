@@ -1,0 +1,119 @@
+{
+ "id": "MAR_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  16,
+  17,
+  22,
+  32,
+  34,
+  37,
+  41,
+  42,
+  44,
+  49,
+  55,
+  57,
+  60,
+  63,
+  67,
+  72,
+  76
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "'",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "Lebanese- Israeli",
+   "Lebanese-Israeli",
+   "hyphen"
+  ],
+  [
+   36,
+   "Iamb",
+   "lamb",
+   "ocr"
+  ],
+  [
+   40,
+   "Iraqi- Iranian",
+   "Iraqi-Iranian",
+   "hyphen"
+  ],
+  [
+   52,
+   "Terra Nullins",
+   "Terra Nullius",
+   "ocr"
+  ],
+  [
+   67,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   68,
+   "referendum/ The",
+   "referendum. The",
+   "ocr"
+  ],
+  [
+   72,
+   "destiny Of my",
+   "destiny of my",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a65596233e4ef8acbba63064b83fe21d06f5ade4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26,
+   "page_number": 1
+  },
+  "words_in": 2301,
+  "words_out": 2298,
+  "retention": 0.9987,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   102,
+   69,
+   127,
+   105,
+   58,
+   103,
+   190,
+   48,
+   96,
+   89,
+   97,
+   85,
+   145,
+   182,
+   60,
+   82,
+   76,
+   164,
+   197,
+   106,
+   117
+  ],
+  "warnings": []
+ }
+}

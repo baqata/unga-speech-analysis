@@ -1,0 +1,93 @@
+{
+ "id": "VEN_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  22,
+  31,
+  40,
+  61,
+  76,
+  91,
+  106,
+  121,
+  138,
+  153,
+  171,
+  184,
+  192,
+  203,
+  238,
+  256,
+  273,
+  291,
+  316
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   200,
+   " (Official Records of the General Assembly,",
+   "",
+   "label"
+  ],
+  [
+   201,
+   "Forty-ninth Session, Plenary Meetings, 5th meeting,",
+   "",
+   "label"
+  ],
+  [
+   202,
+   "[p. 27])",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7cdcfa36e39ab8e3cd15b145d82d41a3b749d0a3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 333,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2853,
+  "words_out": 2838,
+  "retention": 0.9947,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   72,
+   50,
+   59,
+   64,
+   77,
+   172,
+   134,
+   128,
+   121,
+   132,
+   154,
+   128,
+   160,
+   114,
+   61,
+   64,
+   310,
+   160,
+   140,
+   166,
+   217,
+   155
+  ],
+  "warnings": []
+ }
+}

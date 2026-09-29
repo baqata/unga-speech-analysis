@@ -1,0 +1,86 @@
+{
+ "id": "ARG_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  13,
+  21,
+  30,
+  37,
+  44,
+  54,
+  61,
+  64,
+  67,
+  72,
+  75,
+  82,
+  86,
+  89,
+  94
+ ],
+ "cer": [],
+ "fix": [
+  [
+   71,
+   "human- rights",
+   "human-rights",
+   "hyphen"
+  ],
+  [
+   62,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ],
+  [
+   88,
+   "occasions,",
+   "occasions.",
+   "ocr"
+  ],
+  [
+   46,
+   "energies ,and",
+   "energies, and",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e72fdfa791675a6390513003ba9e62aa40056bbf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2120,
+  "words_out": 2118,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   98,
+   87,
+   117,
+   184,
+   154,
+   131,
+   152,
+   183,
+   138,
+   82,
+   63,
+   119,
+   89,
+   147,
+   83,
+   69,
+   135,
+   87
+  ],
+  "warnings": []
+ }
+}

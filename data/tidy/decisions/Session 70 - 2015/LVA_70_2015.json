@@ -1,0 +1,72 @@
+{
+ "id": "LVA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  19,
+  26,
+  30,
+  39,
+  41,
+  46,
+  53,
+  58,
+  62,
+  68,
+  74,
+  78
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "Levant/ Daesh",
+   "Levant/Daesh",
+   "spacing"
+  ],
+  [
+   69,
+   "cross- sectoral",
+   "cross-sectoral",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0db40b21bd8fe02df096bd42054514cff22b60c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1507,
+  "words_out": 1503,
+  "retention": 0.9973,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   50,
+   63,
+   84,
+   113,
+   118,
+   74,
+   156,
+   63,
+   93,
+   134,
+   88,
+   89,
+   104,
+   131,
+   60,
+   83
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "CMR_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  23,
+  38,
+  52,
+  64,
+  74,
+  93,
+  105,
+  120,
+  150,
+  175,
+  184
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e5b7d29f670cc4081253866d27ffebe976d1421d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1581,
+  "words_out": 1580,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   95,
+   77,
+   118,
+   109,
+   86,
+   86,
+   145,
+   89,
+   117,
+   234,
+   192,
+   70,
+   162
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "SRB_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  35,
+  50,
+  71,
+  81,
+  98,
+  114,
+  133,
+  157,
+  169,
+  191,
+  200,
+  224,
+  242
+ ],
+ "cer": [],
+ "fix": [
+  [
+   107,
+   " (A/64/881,",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "advisory opinion, para. 114)",
+   "",
+   "label"
+  ],
+  [
+   251,
+   "1 am",
+   "I am",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bef3b92e2d2edf2d68cebee71ae2a0aae5cb83e7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2152,
+  "words_out": 2147,
+  "retention": 0.9977,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   144,
+   121,
+   130,
+   162,
+   76,
+   136,
+   115,
+   161,
+   187,
+   101,
+   191,
+   80,
+   217,
+   151,
+   175
+  ],
+  "warnings": []
+ }
+}

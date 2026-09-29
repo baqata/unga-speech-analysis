@@ -1,0 +1,48 @@
+{
+ "id": "MRT_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  37,
+  51,
+  74,
+  96,
+  113,
+  127,
+  143
+ ],
+ "cer": [
+  0,
+  143
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "558ec6841ef3832b7ff7d02ab3f2bc673f6db124",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1089,
+  "words_out": 1089,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   122,
+   150,
+   105,
+   173,
+   163,
+   120,
+   104,
+   132,
+   20
+  ],
+  "warnings": []
+ }
+}

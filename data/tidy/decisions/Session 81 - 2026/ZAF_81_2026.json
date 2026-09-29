@@ -1,0 +1,210 @@
+{
+ "id": "ZAF_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   7,
+   7,
+   "noise"
+  ],
+  [
+   86,
+   86,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  11,
+  16,
+  21,
+  25,
+  30,
+  33,
+  36,
+  41,
+  45,
+  46,
+  50,
+  52,
+  59,
+  62,
+  65,
+  70,
+  76,
+  82,
+  85
+ ],
+ "cer": [
+  6,
+  85
+ ],
+ "fix": [
+  [
+   13,
+   "unchanged",
+   "unchained",
+   "asr_term"
+  ],
+  [
+   18,
+   "a united nations",
+   "a united nation",
+   "asr_term"
+  ],
+  [
+   18,
+   "stilled",
+   "steeled",
+   "asr_term"
+  ],
+  [
+   30,
+   "Deben",
+   "Durban",
+   "asr_name"
+  ],
+  [
+   36,
+   "certify",
+   "satisfy",
+   "asr_term"
+  ],
+  [
+   39,
+   "Expect",
+   "Expert",
+   "asr_term"
+  ],
+  [
+   43,
+   "March",
+   "much",
+   "asr_term"
+  ],
+  [
+   45,
+   "couch",
+   "scourge",
+   "asr_term"
+  ],
+  [
+   62,
+   "eight years",
+   "80 years",
+   "asr_term"
+  ],
+  [
+   68,
+   "EZULU-NIC",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   75,
+   "ineligible",
+   "inalienable",
+   "asr_term"
+  ],
+  [
+   80,
+   "cohesive",
+   "coercive",
+   "asr_term"
+  ],
+  [
+   83,
+   "stand expected",
+   "stand expectant",
+   "asr_term"
+  ],
+  [
+   60,
+   "duty. to",
+   "duty. To",
+   "asr_term"
+  ],
+  [
+   44,
+   "advanced",
+   "advance",
+   "asr_term"
+  ],
+  [
+   50,
+   "worst",
+   "world's",
+   "asr_term"
+  ],
+  [
+   51,
+   "and source",
+   "at source",
+   "asr_term"
+  ],
+  [
+   54,
+   "board",
+   "body",
+   "asr_term"
+  ],
+  [
+   75,
+   "mutual",
+   "mutually",
+   "asr_term"
+  ],
+  [
+   26,
+   "inevitable",
+   "unenviable",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 7 'Thank you.' is filler over the minister's congratulations in his mother tongue; repairs per Spanish (desencadenarse, nacion unida, Durban, satisfacer, grupo de expertos, flagelo, Hace 80 anos, Zulwini, inalienable, coercion) and Mandela's 1994 address; first GA resolution dates from 1946. Main-agent audit: unit 62 '80 years ago' confirmed (re-decodes hear 'eight' p 0.70-0.76 only; the first General Assembly resolution, 1946; Spanish 'Hace 80 anos'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 60 'duty. to' -> 'duty. To'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 8 unit 26 'inevitable' -> 'unenviable' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'inevitable' (decodes 0.99 / 0.98, the UN transcript; forced scoring -10.6 vs -29.2); the published text (dirco.gov.za) reads 'Compelled by our unenviable position as the world's most unequal society'); spot 11 unit 44 'advanced' -> 'advance' (decodes 'advanced' 0.64 / 0.62, not clear, before 'implementation' (d-i boundary); 'meaningful advanced implementation' does not fit the clause; published text (dirco.gov.za) 'meaningfully advance implementation'; ES 'poder avanzar en la aplicación'); spot 14 unit 50 'worst' -> 'world's' (decodes 'worst' (0.92 / 0.87) but 'the worst largest reserves' does not fit; 'world's' sounds alike; published text (dirco.gov.za) 'the world's largest reserves'; ES 'las mayores reservas'); spot 15 unit 51 'and source' -> 'at source' (decodes 'and' 0.78 / 0.68, not clear; 'beneficiation and source of critical minerals' does not fit, 'beneficiation at source' is the term; published text (dirco.gov.za) 'beneficiation at source of critical minerals'); spot 16 unit 54 'board' -> 'body' (decodes 'board' 0.59 / 'boat' 0.47, not clear; 'this important body tasked with maintaining global peace' fits; published text (dirco.gov.za) 'resourcing this important body'); spot 26 unit 75 'mutual' -> 'mutually' (decodes 'mutual' 0.48 / 0.90; 'a mutual acceptable' does not fit; ES 'mutuamente aceptable'; published text (dirco.gov.za) 'mutually acceptable political solution')",
+ "unitizer_version": 1,
+ "sha1": "b5c7a16120576ef069247a238ada79a33a771972",
+ "layout": "single",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2016,
+  "words_out": 1982,
+  "retention": 0.9831,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   78,
+   86,
+   94,
+   121,
+   82,
+   147,
+   73,
+   89,
+   96,
+   76,
+   53,
+   79,
+   82,
+   141,
+   69,
+   77,
+   155,
+   124,
+   148,
+   107,
+   5
+  ],
+  "warnings": []
+ }
+}

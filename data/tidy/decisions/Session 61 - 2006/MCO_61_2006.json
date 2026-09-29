@@ -1,0 +1,56 @@
+{
+ "id": "MCO_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  38,
+  48,
+  64,
+  85,
+  101,
+  114,
+  123,
+  134,
+  145,
+  166
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "58bbb7146af183a99b3a564b4812142768ef554a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1385,
+  "words_out": 1377,
+  "retention": 0.9942,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   82,
+   67,
+   146,
+   76,
+   118,
+   165,
+   114,
+   95,
+   70,
+   82,
+   85,
+   165,
+   112
+  ],
+  "warnings": []
+ }
+}

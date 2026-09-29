@@ -1,0 +1,96 @@
+{
+ "id": "GRC_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  17,
+  20,
+  26,
+  31,
+  34,
+  37,
+  43,
+  47,
+  50,
+  53,
+  55,
+  59,
+  63,
+  68,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   " (see A/70/ PV.22)",
+   "",
+   "label"
+  ],
+  [
+   10,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   26,
+   "post- war",
+   "post-war",
+   "hyphen"
+  ],
+  [
+   42,
+   "Crans- Montana",
+   "Crans-Montana",
+   "hyphen"
+  ],
+  [
+   56,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8964dcb4f58fc3534ff8bf0bef7c83168ccc13fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2038,
+  "words_out": 2031,
+  "retention": 0.9966,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   143,
+   153,
+   99,
+   104,
+   116,
+   152,
+   98,
+   74,
+   73,
+   158,
+   108,
+   82,
+   95,
+   87,
+   124,
+   145,
+   111,
+   69,
+   40
+  ],
+  "warnings": []
+ }
+}

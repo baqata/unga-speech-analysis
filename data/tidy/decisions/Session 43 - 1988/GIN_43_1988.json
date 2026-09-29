@@ -1,0 +1,147 @@
+{
+ "id": "GIN_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  6,
+  7,
+  10,
+  16,
+  18,
+  19,
+  22,
+  24,
+  27,
+  30,
+  34,
+  38,
+  41,
+  45,
+  49,
+  52,
+  54,
+  57,
+  59,
+  61,
+  66,
+  68,
+  70,
+  72,
+  75,
+  77,
+  82,
+  86
+ ],
+ "cer": [
+  0,
+  2,
+  5,
+  6
+ ],
+ "fix": [
+  [
+   3,
+   "Countries;,",
+   "Countries,",
+   "ocr"
+  ],
+  [
+   6,
+   "pea e",
+   "peace",
+   "split_word"
+  ],
+  [
+   15,
+   "imposition, of",
+   "imposition of",
+   "ocr"
+  ],
+  [
+   17,
+   "to Freedom",
+   "to freedom",
+   "ocr"
+  ],
+  [
+   54,
+   "new·/ vision",
+   "new vision",
+   "ocr"
+  ],
+  [
+   69,
+   "relations, ultimately, in",
+   "relations. Ultimately, in",
+   "ocr"
+  ],
+  [
+   73,
+   "companies·,",
+   "companies,",
+   "ocr"
+  ],
+  [
+   78,
+   "security- The fact",
+   "security. The fact",
+   "ocr"
+  ],
+  [
+   86,
+   "towards it.",
+   "towards it,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7037bff91f2928b1dc1c18f0907be15c7fa99cf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2999,
+  "words_out": 2998,
+  "retention": 0.9997,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   66,
+   78,
+   50,
+   48,
+   100,
+   195,
+   67,
+   71,
+   80,
+   74,
+   81,
+   80,
+   124,
+   150,
+   89,
+   119,
+   105,
+   116,
+   75,
+   96,
+   73,
+   96,
+   108,
+   71,
+   95,
+   87,
+   96,
+   85,
+   222,
+   118,
+   83
+  ],
+  "warnings": []
+ }
+}

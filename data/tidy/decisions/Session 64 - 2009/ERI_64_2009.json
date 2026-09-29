@@ -1,0 +1,45 @@
+{
+ "id": "ERI_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  36,
+  50,
+  69,
+  79,
+  103,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f90809dfd9a3ee71d39f8791ea205ed56b38908",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1078,
+  "words_out": 1078,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   149,
+   144,
+   114,
+   157,
+   75,
+   185,
+   130,
+   124
+  ],
+  "warnings": []
+ }
+}

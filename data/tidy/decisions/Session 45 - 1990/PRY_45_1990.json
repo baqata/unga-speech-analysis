@@ -1,0 +1,86 @@
+{
+ "id": "PRY_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  17,
+  21,
+  24,
+  30,
+  35,
+  37,
+  43,
+  46,
+  51,
+  53,
+  59,
+  62,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "stake up",
+   "make up",
+   "ocr"
+  ],
+  [
+   15,
+   "East .is",
+   "East is",
+   "ocr"
+  ],
+  [
+   30,
+   "level end in",
+   "level and in",
+   "ocr"
+  ],
+  [
+   45,
+   "suffering» We",
+   "suffering. We",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f197d0ef249fbf481ca2eb251873bfac4f27b016",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1988,
+  "words_out": 1988,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   116,
+   118,
+   132,
+   157,
+   123,
+   86,
+   175,
+   141,
+   72,
+   114,
+   127,
+   133,
+   65,
+   175,
+   83,
+   125,
+   46
+  ],
+  "warnings": []
+ }
+}

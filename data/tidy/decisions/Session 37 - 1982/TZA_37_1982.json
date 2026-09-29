@@ -1,0 +1,154 @@
+{
+ "id": "TZA_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  37,
+  65,
+  79,
+  119,
+  142,
+  167,
+  188,
+  199,
+  229,
+  241,
+  271,
+  289,
+  308,
+  329,
+  337,
+  349,
+  380,
+  401,
+  422,
+  433,
+  455,
+  475,
+  495,
+  521
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "cold- war",
+   "cold-war",
+   "spacing"
+  ],
+  [
+   89,
+   "preventedfrom",
+   "prevented from",
+   "merged_word"
+  ],
+  [
+   214,
+   "the?? summit",
+   "the summit",
+   "ocr"
+  ],
+  [
+   225,
+   "Cheyís son;",
+   "Cheysson;",
+   "ocr"
+  ],
+  [
+   228,
+   "linkage,",
+   "linkage.",
+   "ocr"
+  ],
+  [
+   340,
+   "sovereignty,,",
+   "sovereignty,",
+   "ocr"
+  ],
+  [
+   342,
+   "States, to do",
+   "States. To do",
+   "ocr"
+  ],
+  [
+   373,
+   "in tum",
+   "in turn",
+   "ocr"
+  ],
+  [
+   407,
+   "misery may",
+   "misery my",
+   "ocr"
+  ],
+  [
+   432,
+   "evident. .",
+   "evident.",
+   "spacing"
+  ],
+  [
+   443,
+   "f*n",
+   "on",
+   "ocr"
+  ],
+  [
+   471,
+   "comprehensive,coherent",
+   "comprehensive, coherent",
+   "spacing"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing before unit 79, which starts mid-sentence; the word apartheid is missing in units 31, 104 and 108.",
+ "unitizer_version": 1,
+ "sha1": "6e6feaefe1b8fd4add55e1c7c065d0e26fa2daf4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 533,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3799,
+  "words_out": 3794,
+  "retention": 0.9987,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   178,
+   98,
+   194,
+   110,
+   290,
+   158,
+   173,
+   149,
+   76,
+   229,
+   88,
+   205,
+   125,
+   143,
+   138,
+   56,
+   86,
+   220,
+   159,
+   138,
+   66,
+   145,
+   132,
+   140,
+   204,
+   94
+  ],
+  "warnings": []
+ }
+}

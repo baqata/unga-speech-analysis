@@ -1,0 +1,58 @@
+{
+ "id": "UGA_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  11,
+  16,
+  19,
+  23,
+  25,
+  30,
+  38,
+  41,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   "m+arket",
+   "market",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c857e64aefbec75841a12bf9887849462ab8e6bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 979,
+  "words_out": 979,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   20,
+   71,
+   99,
+   62,
+   68,
+   67,
+   83,
+   135,
+   191,
+   81,
+   85,
+   17
+  ],
+  "warnings": []
+ }
+}

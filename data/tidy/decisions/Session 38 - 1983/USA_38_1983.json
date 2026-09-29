@@ -1,0 +1,124 @@
+{
+ "id": "USA_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  21,
+  23,
+  29,
+  38,
+  41,
+  46,
+  51,
+  54,
+  59,
+  63,
+  67,
+  73,
+  81,
+  89,
+  96,
+  101,
+  105,
+  109,
+  115,
+  121,
+  125,
+  132,
+  140,
+  143,
+  147,
+  150
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   69,
+   "Act,' but",
+   "Act, but",
+   "markup"
+  ],
+  [
+   80,
+   "confidence- building",
+   "confidence-building",
+   "hyphen"
+  ],
+  [
+   91,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   93,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   154,
+   "A11 of us",
+   "All of us",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b576211fd613b4220aaa33ec9554c201ca13dbab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3202,
+  "words_out": 3192,
+  "retention": 0.9969,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   78,
+   74,
+   112,
+   71,
+   92,
+   119,
+   205,
+   91,
+   86,
+   102,
+   75,
+   138,
+   78,
+   63,
+   138,
+   153,
+   109,
+   151,
+   85,
+   81,
+   72,
+   133,
+   135,
+   88,
+   139,
+   140,
+   80,
+   132,
+   62,
+   110
+  ],
+  "warnings": []
+ }
+}

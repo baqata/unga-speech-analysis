@@ -1,0 +1,156 @@
+{
+ "id": "AGO_38_1983",
+ "drop": [
+  [
+   0,
+   0,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  11,
+  12,
+  14,
+  16,
+  17,
+  21,
+  24,
+  26,
+  29,
+  33,
+  39,
+  41,
+  43,
+  48,
+  51,
+  53,
+  58,
+  62,
+  64,
+  69,
+  72,
+  76,
+  77,
+  80,
+  83,
+  88,
+  90,
+  93,
+  96,
+  97,
+  99,
+  102
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   37,
+   "( pupation",
+   "occupation",
+   "ocr"
+  ],
+  [
+   66,
+   "n- tempt",
+   "contempt",
+   "ocr"
+  ],
+  [
+   87,
+   "EI Salvador",
+   "El Salvador",
+   "ocr"
+  ],
+  [
+   91,
+   "Sandvrk",
+   "Sandwich",
+   "ocr"
+  ],
+  [
+   27,
+   "UNIT A",
+   "UNITA",
+   "spacing"
+  ],
+  [
+   31,
+   "UNIT A",
+   "UNITA",
+   "spacing"
+  ],
+  [
+   52,
+   "MP LA",
+   "MPLA",
+   "spacing"
+  ],
+  [
+   52,
+   "Jos6",
+   "José",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1f29d624fb2f6a571041ffd9f8cf089af96892b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3766,
+  "words_out": 3755,
+  "retention": 0.9971,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   181,
+   137,
+   60,
+   345,
+   76,
+   73,
+   185,
+   94,
+   49,
+   101,
+   157,
+   211,
+   71,
+   97,
+   174,
+   100,
+   117,
+   125,
+   156,
+   79,
+   117,
+   102,
+   118,
+   87,
+   80,
+   78,
+   115,
+   52,
+   104,
+   74,
+   50,
+   64,
+   74,
+   52
+  ],
+  "warnings": [
+   "paragraph at unit 12 has 345 words"
+  ]
+ }
+}

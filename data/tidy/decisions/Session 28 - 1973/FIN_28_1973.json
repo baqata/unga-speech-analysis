@@ -1,0 +1,90 @@
+{
+ "id": "FIN_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  18,
+  22,
+  30,
+  34,
+  40,
+  43,
+  49,
+  53,
+  57,
+  62,
+  64,
+  70,
+  73,
+  79,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   " [A/9001/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "economic^",
+   "economic",
+   "ocr"
+  ],
+  [
+   31,
+   "applied*",
+   "applied",
+   "ocr"
+  ],
+  [
+   61,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa2c801031c490894148310761f0e2c0c0ec84f7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2055,
+  "words_out": 2050,
+  "retention": 0.9976,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   59,
+   175,
+   148,
+   118,
+   139,
+   98,
+   146,
+   90,
+   135,
+   93,
+   97,
+   108,
+   57,
+   117,
+   88,
+   112,
+   127,
+   143
+  ],
+  "warnings": []
+ }
+}

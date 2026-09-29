@@ -1,0 +1,114 @@
+{
+ "id": "BFA_48_1993",
+ "drop": [
+  [
+   82,
+   82,
+   "header_footer"
+  ],
+  [
+   175,
+   175,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  10,
+  19,
+  25,
+  34,
+  42,
+  62,
+  76,
+  85,
+  99,
+  106,
+  114,
+  125,
+  134,
+  160,
+  172,
+  184,
+  194,
+  201,
+  208,
+  226,
+  236
+ ],
+ "cer": [
+  0,
+  5,
+  10,
+  19
+ ],
+ "fix": [
+  [
+   12,
+   "fortyseventh",
+   "forty-seventh",
+   "hyphen"
+  ],
+  [
+   31,
+   "NorthSouth",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   132,
+   "nuclearweapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   202,
+   "cureall",
+   "cure-all",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a34a54348d21a3f9443b54320ecd41e3835134a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2124,
+  "words_out": 2105,
+  "retention": 0.9911,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   49,
+   41,
+   85,
+   45,
+   74,
+   70,
+   166,
+   124,
+   73,
+   128,
+   60,
+   73,
+   93,
+   96,
+   225,
+   111,
+   91,
+   90,
+   59,
+   79,
+   153,
+   86,
+   34
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "LKA_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  19,
+  23,
+  27,
+  31,
+  34,
+  36,
+  40,
+  43,
+  48,
+  51,
+  54,
+  60,
+  62,
+  67,
+  70,
+  75,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   61,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ],
+  [
+   63,
+   "law- enforcement",
+   "law-enforcement",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "04607483cec168925327b3c4bc62775645059faa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2310,
+  "words_out": 2308,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   129,
+   107,
+   125,
+   133,
+   142,
+   109,
+   80,
+   127,
+   75,
+   84,
+   120,
+   103,
+   86,
+   70,
+   125,
+   83,
+   188,
+   95,
+   146,
+   71,
+   110
+  ],
+  "warnings": []
+ }
+}

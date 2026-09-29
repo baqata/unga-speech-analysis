@@ -1,0 +1,79 @@
+{
+ "id": "GIN_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  15,
+  19,
+  25,
+  30,
+  34,
+  42,
+  44,
+  49,
+  52,
+  54,
+  57,
+  59
+ ],
+ "cer": [
+  0,
+  59
+ ],
+ "fix": [
+  [
+   0,
+   "haveour",
+   "have our",
+   "merged_word"
+  ],
+  [
+   55,
+   "inclludes",
+   "includes",
+   "ocr"
+  ],
+  [
+   58,
+   "Nevertheless,we",
+   "Nevertheless, we",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f5c231dd6af9768fb119143daf1e0edc7cc6790",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1753,
+  "words_out": 1755,
+  "retention": 1.0011,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   113,
+   140,
+   88,
+   143,
+   174,
+   119,
+   123,
+   197,
+   100,
+   92,
+   77,
+   88,
+   71,
+   70,
+   80
+  ],
+  "warnings": []
+ }
+}

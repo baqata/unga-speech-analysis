@@ -1,0 +1,77 @@
+{
+ "id": "PHL_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  11,
+  17,
+  21,
+  27,
+  34,
+  41,
+  46,
+  50,
+  54,
+  58,
+  70,
+  77,
+  82,
+  88,
+  97,
+  105
+ ],
+ "cer": [
+  0,
+  2,
+  9,
+  105
+ ],
+ "fix": [
+  [
+   56,
+   "reached, It",
+   "reached. It",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b411de7a8db5cf6c93b48e2b6fa350ab028901a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2674,
+  "words_out": 2674,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   70,
+   159,
+   50,
+   146,
+   105,
+   98,
+   153,
+   132,
+   98,
+   154,
+   152,
+   151,
+   225,
+   129,
+   173,
+   136,
+   186,
+   145,
+   212
+  ],
+  "warnings": []
+ }
+}

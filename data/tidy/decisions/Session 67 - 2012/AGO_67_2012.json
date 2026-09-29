@@ -1,0 +1,64 @@
+{
+ "id": "AGO_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  33,
+  52,
+  64,
+  77,
+  89,
+  97,
+  119,
+  140,
+  155,
+  167,
+  190,
+  204,
+  225
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   198,
+   "fi ght",
+   "fight",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc0b6de71a74baad4264aa23ba0d4c2a49c3762f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 230,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1808,
+  "words_out": 1805,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   197,
+   78,
+   141,
+   102,
+   95,
+   87,
+   72,
+   181,
+   146,
+   122,
+   88,
+   161,
+   120,
+   175,
+   40
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "FIN_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  17,
+  21,
+  31,
+  42,
+  46,
+  52,
+  66,
+  72,
+  77,
+  81,
+  87,
+  92,
+  98,
+  104,
+  108,
+  117,
+  122,
+  127,
+  133,
+  138,
+  142,
+  146,
+  150,
+  154
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   3,
+   "us, in good stead",
+   "us in good stead",
+   "ocr"
+  ],
+  [
+   5,
+   "\"The accession",
+   "The accession",
+   "ocr"
+  ],
+  [
+   6,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   16,
+   "cc operation",
+   "cooperation",
+   "ocr"
+  ],
+  [
+   19,
+   "i\" 'lateral",
+   "unilateral",
+   "ocr"
+  ],
+  [
+   125,
+   "the .great",
+   "the great",
+   "ocr"
+  ],
+  [
+   127,
+   "which 1 referred",
+   "which I referred",
+   "ocr"
+  ],
+  [
+   144,
+   "Conference.3 Increased",
+   "Conference. Increased",
+   "ocr"
+  ],
+  [
+   149,
+   "the bast developed",
+   "the least developed",
+   "ocr"
+  ],
+  [
+   150,
+   "thirty- second",
+   "thirty-second",
+   "hyphen"
+  ],
+  [
+   102,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   145,
+   " [OPEC]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7432126a572e202f7d1117dda4858ac912174606",
+ "layout": "lines",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 2838,
+  "words_out": 2831,
+  "retention": 0.9975,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   72,
+   50,
+   79,
+   102,
+   82,
+   97,
+   148,
+   86,
+   146,
+   158,
+   88,
+   153,
+   95,
+   81,
+   94,
+   111,
+   117,
+   62,
+   146,
+   90,
+   76,
+   95,
+   82,
+   96,
+   112,
+   90,
+   106,
+   117
+  ],
+  "warnings": []
+ }
+}

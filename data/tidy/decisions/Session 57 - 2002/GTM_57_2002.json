@@ -1,0 +1,70 @@
+{
+ "id": "GTM_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  23,
+  45,
+  63,
+  77,
+  95,
+  111,
+  127,
+  141,
+  154,
+  170,
+  190,
+  207,
+  225,
+  238,
+  249
+ ],
+ "cer": [
+  9
+ ],
+ "fix": [
+  [
+   250,
+   "RenÈ",
+   "René",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "421bc23a3da76c27b2ac0b2222c5283ca4dd0577",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2023,
+  "words_out": 2022,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   69,
+   119,
+   174,
+   143,
+   104,
+   134,
+   132,
+   113,
+   123,
+   115,
+   132,
+   151,
+   124,
+   148,
+   97,
+   83,
+   61
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "BGR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  14,
+  17,
+  22,
+  27,
+  35,
+  41,
+  45,
+  48,
+  54,
+  58,
+  61,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "War. conflicts",
+   "War, conflicts",
+   "ocr"
+  ],
+  [
+   6,
+   "human lives.",
+   "human lives,",
+   "ocr"
+  ],
+  [
+   17,
+   "ago. a",
+   "ago, a",
+   "ocr"
+  ],
+  [
+   18,
+   "one.",
+   "one,",
+   "ocr"
+  ],
+  [
+   26,
+   "insecurity. especially",
+   "insecurity, especially",
+   "ocr"
+  ],
+  [
+   65,
+   "76/262. on",
+   "76/262, on",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0bdd88c2814fe27113a45aaed5d58ee9c3781140",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1528,
+  "words_out": 1528,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   28,
+   134,
+   115,
+   67,
+   72,
+   124,
+   221,
+   110,
+   103,
+   104,
+   104,
+   90,
+   69,
+   81,
+   106
+  ],
+  "warnings": []
+ }
+}

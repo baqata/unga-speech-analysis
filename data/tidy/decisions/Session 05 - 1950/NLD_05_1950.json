@@ -1,0 +1,94 @@
+{
+ "id": "NLD_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  9,
+  12,
+  17,
+  20,
+  25,
+  29,
+  38,
+  40,
+  46,
+  53,
+  58,
+  68,
+  72,
+  75,
+  83
+ ],
+ "cer": [],
+ "fix": [
+  [
+   22,
+   "this _ opportunity",
+   "this opportunity",
+   "ocr"
+  ],
+  [
+   30,
+   "problem.,",
+   "problem.",
+   "ocr"
+  ],
+  [
+   38,
+   " [A/1377}",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "of the world,",
+   "of the world.",
+   "ocr"
+  ],
+  [
+   68,
+   "and' many",
+   "and many",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a8bcdd86dda351817bd8e5d5d6c9e4db2b58dd7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2392,
+  "words_out": 2390,
+  "retention": 0.9992,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   74,
+   79,
+   138,
+   118,
+   128,
+   102,
+   140,
+   163,
+   215,
+   75,
+   133,
+   171,
+   110,
+   232,
+   85,
+   63,
+   189,
+   175
+  ],
+  "warnings": []
+ }
+}

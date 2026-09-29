@@ -1,0 +1,125 @@
+{
+ "id": "NGA_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  21,
+  26,
+  32,
+  38,
+  43,
+  50,
+  54,
+  62,
+  68,
+  73,
+  76,
+  83,
+  90,
+  96,
+  100,
+  103,
+  108,
+  111,
+  115,
+  120,
+  126,
+  132,
+  136,
+  140,
+  144,
+  148,
+  152,
+  157
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   25,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   72,
+   "UNIT A?",
+   "UNITA",
+   "ocr"
+  ],
+  [
+   106,
+   "right Of Nicaragua",
+   "right of Nicaragua",
+   "ocr"
+  ],
+  [
+   143,
+   "that We are",
+   "that we are",
+   "ocr"
+  ],
+  [
+   153,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c432e03146febafef3fef232a501b6ffdd1a2f6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 4627,
+  "words_out": 4624,
+  "retention": 0.9994,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   136,
+   155,
+   167,
+   178,
+   134,
+   157,
+   181,
+   140,
+   193,
+   146,
+   192,
+   112,
+   176,
+   83,
+   176,
+   136,
+   179,
+   86,
+   63,
+   151,
+   99,
+   145,
+   183,
+   140,
+   188,
+   159,
+   127,
+   99,
+   118,
+   108,
+   174,
+   143
+  ],
+  "warnings": []
+ }
+}

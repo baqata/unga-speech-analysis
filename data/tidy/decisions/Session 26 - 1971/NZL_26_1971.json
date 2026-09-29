@@ -1,0 +1,242 @@
+{
+ "id": "NZL_26_1971",
+ "drop": [
+  [
+   146,
+   146,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  12,
+  16,
+  22,
+  26,
+  29,
+  31,
+  35,
+  37,
+  41,
+  45,
+  47,
+  53,
+  56,
+  60,
+  64,
+  69,
+  72,
+  77,
+  81,
+  86,
+  92,
+  98,
+  102,
+  107,
+  111,
+  114,
+  117,
+  122,
+  125,
+  129,
+  134,
+  138,
+  144
+ ],
+ "cer": [
+  0,
+  144
+ ],
+ "fix": [
+  [
+   16,
+   " [Aj8401IAdd.l, para. 104]",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "[A/L.633]",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "Powers,,",
+   "Powers,",
+   "ocr"
+  ],
+  [
+   35,
+   "that -their",
+   "that their",
+   "ocr"
+  ],
+  [
+   43,
+   "ia world",
+   "in world",
+   "ocr"
+  ],
+  [
+   44,
+   "that ft would",
+   "that it would",
+   "ocr"
+  ],
+  [
+   45,
+   "Assembly ,",
+   "Assembly,",
+   "ocr"
+  ],
+  [
+   79,
+   "South.",
+   "South",
+   "ocr"
+  ],
+  [
+   86,
+   "raciL?",
+   "racial",
+   "ocr"
+  ],
+  [
+   87,
+   " [resolution 2106 A (XX)J",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "refugees,",
+   "refugees.",
+   "ocr"
+  ],
+  [
+   119,
+   "established.,",
+   "established,",
+   "ocr"
+  ],
+  [
+   121,
+   "them,\"",
+   "them.\"",
+   "ocr"
+  ],
+  [
+   124,
+   "turn the side",
+   "turn the tide",
+   "ocr"
+  ],
+  [
+   129,
+   "189. ",
+   "",
+   "label"
+  ],
+  [
+   130,
+   "194. ",
+   "",
+   "label"
+  ],
+  [
+   133,
+   "society.\"9 It",
+   "society.\" It",
+   "ocr"
+  ],
+  [
+   137,
+   "cur power",
+   "our power",
+   "ocr"
+  ],
+  [
+   138,
+   " [ibid., para. 119]",
+   "",
+   "label"
+  ],
+  [
+   140,
+   " [A/8497]",
+   "",
+   "label"
+  ],
+  [
+   140,
+   "Assembly, More",
+   "Assembly. More",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Source lines are displaced: unit 110 ('the problem.') is the end of the sentence begun in unit 129 ('bring its influence to bear fully on'), and unit 130 ('...security in the area') runs into unit 131 ('will not have fulfilled...') with words apparently missing. Units are kept in place: unit 110 at the end of the paragraph from unit 107, units 129-133 in one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "3ddfa45fe37a246ed1c2f1d32db99a5d182b8f37",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 4631,
+  "words_out": 4590,
+  "retention": 0.9911,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   98,
+   85,
+   191,
+   138,
+   203,
+   103,
+   81,
+   84,
+   100,
+   91,
+   173,
+   126,
+   92,
+   164,
+   85,
+   99,
+   118,
+   170,
+   103,
+   200,
+   133,
+   185,
+   177,
+   180,
+   81,
+   141,
+   100,
+   78,
+   102,
+   107,
+   71,
+   121,
+   183,
+   136,
+   199,
+   92
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

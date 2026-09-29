@@ -1,0 +1,57 @@
+{
+ "id": "BEN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  34,
+  49,
+  66,
+  90,
+  119,
+  140,
+  152,
+  166,
+  180,
+  192,
+  208,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "83b9201fa88b7bbf75fc1c42e1300f63f9826c7e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1977,
+  "words_out": 1974,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   65,
+   195,
+   115,
+   140,
+   187,
+   215,
+   157,
+   84,
+   111,
+   113,
+   97,
+   123,
+   193,
+   179
+  ],
+  "warnings": []
+ }
+}

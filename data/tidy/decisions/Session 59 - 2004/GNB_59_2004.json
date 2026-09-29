@@ -1,0 +1,128 @@
+{
+ "id": "GNB_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  22,
+  37,
+  49,
+  65,
+  77,
+  88,
+  96,
+  111,
+  120,
+  138,
+  153,
+  165,
+  173,
+  189,
+  202,
+  216,
+  233
+ ],
+ "cer": [
+  14
+ ],
+ "fix": [
+  [
+   30,
+   " (see",
+   "",
+   "label"
+  ],
+  [
+   31,
+   ")",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "State ó in",
+   "State — in",
+   "encoding"
+  ],
+  [
+   125,
+   "countries ó those",
+   "countries — those",
+   "encoding"
+  ],
+  [
+   127,
+   "…conomique et MonÈtaire",
+   "Économique et Monétaire",
+   "encoding"
+  ],
+  [
+   129,
+   "particular ó and",
+   "particular — and",
+   "encoding"
+  ],
+  [
+   155,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   168,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   189,
+   "Tomorrowís",
+   "Tomorrow’s",
+   "encoding"
+  ],
+  [
+   214,
+   "childrenís",
+   "children’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b451af9ecf02bd3b75b60b98840e909876eda57",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1996,
+  "words_out": 1994,
+  "retention": 0.999,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   123,
+   63,
+   122,
+   96,
+   147,
+   95,
+   97,
+   68,
+   122,
+   77,
+   147,
+   114,
+   96,
+   63,
+   146,
+   109,
+   112,
+   150,
+   47
+  ],
+  "warnings": []
+ }
+}

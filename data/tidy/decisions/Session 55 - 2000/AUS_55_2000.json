@@ -1,0 +1,67 @@
+{
+ "id": "AUS_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  33,
+  59,
+  88,
+  97,
+  117,
+  132,
+  154,
+  177,
+  199,
+  221,
+  237,
+  247,
+  279,
+  290,
+  309,
+  326
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "The source text stops mid-word in the last sentence.",
+ "unitizer_version": 1,
+ "sha1": "38bffb2cb4f19d3bf9ef9c8bc58d5f1478ed90f6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 340,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2615,
+  "words_out": 2612,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   103,
+   153,
+   208,
+   222,
+   74,
+   157,
+   119,
+   156,
+   166,
+   152,
+   175,
+   127,
+   65,
+   240,
+   94,
+   162,
+   126,
+   113
+  ],
+  "warnings": []
+ }
+}

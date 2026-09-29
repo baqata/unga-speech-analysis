@@ -1,0 +1,64 @@
+{
+ "id": "SVK_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  29,
+  50,
+  68,
+  81,
+  96,
+  112,
+  126,
+  140,
+  161,
+  170
+ ],
+ "cer": [
+  0,
+  9,
+  19
+ ],
+ "fix": [
+  [
+   35,
+   "()",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dbc8e4a1c0ec8615a82d0a7ed49ac73dee516b36",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1427,
+  "words_out": 1424,
+  "retention": 0.9979,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   66,
+   80,
+   75,
+   155,
+   140,
+   106,
+   128,
+   139,
+   102,
+   100,
+   172,
+   73,
+   88
+  ],
+  "warnings": []
+ }
+}

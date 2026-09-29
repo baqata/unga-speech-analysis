@@ -1,0 +1,202 @@
+{
+ "id": "LCA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  15,
+  17,
+  21,
+  28,
+  33,
+  39,
+  43,
+  48,
+  54,
+  57,
+  61,
+  67,
+  71,
+  77,
+  82,
+  86,
+  93,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "ask. of",
+   "ask, of",
+   "ocr"
+  ],
+  [
+   7,
+   "so. with",
+   "so, with",
+   "ocr"
+  ],
+  [
+   7,
+   "2030. we",
+   "2030, we",
+   "ocr"
+  ],
+  [
+   16,
+   "own. and",
+   "own, and",
+   "ocr"
+  ],
+  [
+   20,
+   "2024. and",
+   "2024, and",
+   "ocr"
+  ],
+  [
+   25,
+   "(A/77/PV.63. p.2)",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "way. we",
+   "way, we",
+   "ocr"
+  ],
+  [
+   31,
+   "Yet. developed",
+   "Yet, developed",
+   "ocr"
+  ],
+  [
+   33,
+   "(COP28). in",
+   "(COP28), in",
+   "ocr"
+  ],
+  [
+   42,
+   "Nero- like",
+   "Nero-like",
+   "hyphen"
+  ],
+  [
+   51,
+   "2030. submitted",
+   "2030, submitted",
+   "ocr"
+  ],
+  [
+   56,
+   "on. with",
+   "on, with",
+   "ocr"
+  ],
+  [
+   60,
+   "new. of",
+   "new, of",
+   "ocr"
+  ],
+  [
+   77,
+   "Yet. neither",
+   "Yet, neither",
+   "ocr"
+  ],
+  [
+   82,
+   "is. however",
+   "is, however",
+   "ocr"
+  ],
+  [
+   87,
+   "year. the",
+   "year, the",
+   "ocr"
+  ],
+  [
+   90,
+   "Once again.",
+   "Once again,",
+   "ocr"
+  ],
+  [
+   92,
+   "SDGs. and",
+   "SDGs, and",
+   "ocr"
+  ],
+  [
+   93,
+   "War. one",
+   "War, one",
+   "ocr"
+  ],
+  [
+   94,
+   "In conclusion.",
+   "In conclusion,",
+   "ocr"
+  ],
+  [
+   102,
+   "laureate. Derek",
+   "laureate, Derek",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "98ab27389cbbcec09a060e961d2c98f54a53a386",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2677,
+  "words_out": 2671,
+  "retention": 0.9978,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   96,
+   103,
+   100,
+   153,
+   85,
+   129,
+   185,
+   108,
+   121,
+   71,
+   163,
+   121,
+   98,
+   148,
+   139,
+   125,
+   154,
+   102,
+   81,
+   174,
+   186,
+   29
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "id": "MEX_19_1964",
+ "drop": [
+  [
+   82,
+   82,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  17,
+  21,
+  26,
+  30,
+  34,
+  39,
+  42,
+  46,
+  51,
+  54,
+  56,
+  58,
+  62,
+  64,
+  67,
+  72,
+  76,
+  80,
+  83,
+  86,
+  89,
+  91,
+  94,
+  96,
+  98,
+  100,
+  101,
+  104,
+  106,
+  109,
+  112,
+  116,
+  118,
+  122,
+  124,
+  126,
+  128,
+  130,
+  132
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Dfaz",
+   "Díaz",
+   "ocr"
+  ],
+  [
+   8,
+   "tha history",
+   "the history",
+   "ocr"
+  ],
+  [
+   10,
+   "exist, For if",
+   "exist. For if",
+   "ocr"
+  ],
+  [
+   31,
+   "inter- American",
+   "inter-American",
+   "hyphen"
+  ],
+  [
+   38,
+   "which, do",
+   "which do",
+   "ocr"
+  ],
+  [
+   74,
+   "referred to,",
+   "referred to.",
+   "ocr"
+  ],
+  [
+   83,
+   "(XVHI)",
+   "(XVIII)",
+   "ocr"
+  ],
+  [
+   84,
+   "A/ 5824",
+   "A/5824",
+   "spacing"
+  ],
+  [
+   119,
+   "countries,\" General",
+   "countries.\" General",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "862c92f916104a09eaa2d5b0470f99638e77f2a5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 5105,
+  "words_out": 5099,
+  "retention": 0.9988,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   70,
+   154,
+   196,
+   141,
+   89,
+   102,
+   95,
+   101,
+   172,
+   142,
+   153,
+   113,
+   120,
+   103,
+   69,
+   120,
+   84,
+   83,
+   149,
+   173,
+   144,
+   162,
+   86,
+   148,
+   83,
+   105,
+   94,
+   94,
+   89,
+   82,
+   207,
+   77,
+   147,
+   104,
+   193,
+   68,
+   128,
+   106,
+   88,
+   94,
+   108,
+   106,
+   157
+  ],
+  "warnings": []
+ }
+}

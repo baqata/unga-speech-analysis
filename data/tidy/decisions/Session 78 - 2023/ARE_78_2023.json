@@ -1,0 +1,108 @@
+{
+ "id": "ARE_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  14,
+  19,
+  23,
+  26,
+  32,
+  34,
+  46,
+  49,
+  54,
+  56,
+  59,
+  61,
+  66,
+  69,
+  73,
+  77,
+  86,
+  96
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "War. and",
+   "War, and",
+   "ocr"
+  ],
+  [
+   14,
+   "law. including",
+   "law, including",
+   "ocr"
+  ],
+  [
+   27,
+   "Tunb.",
+   "Tunb,",
+   "ocr"
+  ],
+  [
+   42,
+   "Sudan.",
+   "Sudan,",
+   "ocr"
+  ],
+  [
+   43,
+   "Libya.",
+   "Libya,",
+   "ocr"
+  ],
+  [
+   48,
+   "(2023). concerning",
+   "(2023), concerning",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "53f63ec0a32d812a1c7c9910e6c84228c9a6e75c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2095,
+  "words_out": 2095,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   73,
+   131,
+   62,
+   100,
+   105,
+   87,
+   80,
+   78,
+   74,
+   158,
+   71,
+   95,
+   53,
+   76,
+   65,
+   95,
+   84,
+   85,
+   114,
+   155,
+   142,
+   112
+  ],
+  "warnings": []
+ }
+}

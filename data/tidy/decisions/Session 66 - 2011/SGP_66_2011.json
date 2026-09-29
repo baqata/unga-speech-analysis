@@ -1,0 +1,63 @@
+{
+ "id": "SGP_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  37,
+  49,
+  67,
+  82,
+  92,
+  102,
+  112,
+  122,
+  131,
+  143,
+  153,
+  175,
+  187,
+  200
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4dad353d66040b80cd80c43e52b2d80595e03458",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1606,
+  "words_out": 1602,
+  "retention": 0.9975,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   68,
+   85,
+   128,
+   102,
+   137,
+   122,
+   86,
+   76,
+   80,
+   67,
+   72,
+   96,
+   80,
+   178,
+   93,
+   99,
+   33
+  ],
+  "warnings": []
+ }
+}

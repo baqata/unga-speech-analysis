@@ -1,0 +1,72 @@
+{
+ "id": "GTM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  23,
+  31,
+  41,
+  57,
+  70,
+  83,
+  95,
+  116,
+  134,
+  144,
+  162,
+  175,
+  184,
+  194
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   150,
+   "inconsidering",
+   "in considering",
+   "merged_word"
+  ],
+  [
+   175,
+   "brief ly",
+   "briefly",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db95a40d465d68f2cccfff238c0494c2e13022c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1764,
+  "words_out": 1764,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   42,
+   131,
+   71,
+   85,
+   148,
+   101,
+   102,
+   96,
+   183,
+   157,
+   96,
+   135,
+   109,
+   81,
+   96,
+   131
+  ],
+  "warnings": []
+ }
+}

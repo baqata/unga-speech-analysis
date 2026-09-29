@@ -1,0 +1,91 @@
+{
+ "id": "MLI_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  26,
+  44,
+  55,
+  72,
+  87,
+  97,
+  107,
+  123,
+  133,
+  142,
+  162,
+  182,
+  196,
+  213,
+  226,
+  239
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   19,
+   "Mali ‘s",
+   "Mali's",
+   "encoding"
+  ],
+  [
+   41,
+   "Mali ‘s",
+   "Mali's",
+   "encoding"
+  ],
+  [
+   59,
+   "country ‘s",
+   "country's",
+   "encoding"
+  ],
+  [
+   60,
+   "Mali ‘s",
+   "Mali's",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f6c294506061c423e2ea534ac7e23f2e713ed5b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 259,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1965,
+  "words_out": 1958,
+  "retention": 0.9964,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   63,
+   130,
+   135,
+   82,
+   137,
+   111,
+   81,
+   71,
+   133,
+   73,
+   69,
+   149,
+   154,
+   115,
+   130,
+   93,
+   84,
+   148
+  ],
+  "warnings": []
+ }
+}

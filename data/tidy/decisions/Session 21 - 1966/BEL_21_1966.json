@@ -1,0 +1,108 @@
+{
+ "id": "BEL_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  18,
+  24,
+  28,
+  37,
+  44,
+  55,
+  59,
+  68,
+  75,
+  82,
+  88,
+  96,
+  101,
+  106,
+  111,
+  116,
+  122,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "[A/6301 and Add.1]",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "wh ch",
+   "which",
+   "ocr"
+  ],
+  [
+   15,
+   "goal, Geography",
+   "goal. Geography",
+   "ocr"
+  ],
+  [
+   91,
+   "[see 1413th meeting, para. 120]",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "China, What will",
+   "China. What will",
+   "ocr"
+  ],
+  [
+   131,
+   "Rosarii. made",
+   "Rosarii, made",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "be38587a0c8cf31427db323e84073030fd8d6981",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3083,
+  "words_out": 3046,
+  "retention": 0.988,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   125,
+   224,
+   159,
+   149,
+   90,
+   182,
+   151,
+   230,
+   155,
+   178,
+   113,
+   134,
+   131,
+   147,
+   146,
+   117,
+   121,
+   91,
+   143,
+   98,
+   162
+  ],
+  "warnings": []
+ }
+}

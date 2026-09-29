@@ -1,0 +1,172 @@
+{
+ "id": "HUN_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  16,
+  22,
+  26,
+  32,
+  37,
+  40,
+  44,
+  50,
+  59,
+  66,
+  69,
+  71,
+  76,
+  78,
+  84,
+  90,
+  92,
+  95,
+  100,
+  103,
+  105,
+  112,
+  115,
+  119,
+  124,
+  127,
+  130
+ ],
+ "cer": [
+  0,
+  130
+ ],
+ "fix": [
+  [
+   1,
+   "find for",
+   "and for",
+   "ocr"
+  ],
+  [
+   7,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   8,
+   "the. socialist",
+   "the socialist",
+   "ocr"
+  ],
+  [
+   42,
+   "Inter-national",
+   "International",
+   "hyphen"
+  ],
+  [
+   55,
+   "and. even",
+   "and even",
+   "ocr"
+  ],
+  [
+   62,
+   "be-tween",
+   "between",
+   "hyphen"
+  ],
+  [
+   71,
+   "under-standing",
+   "understanding",
+   "hyphen"
+  ],
+  [
+   90,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   95,
+   "*be",
+   "be",
+   "ocr"
+  ],
+  [
+   97,
+   " [A19628]",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "Europe. '",
+   "Europe.",
+   "ocr"
+  ],
+  [
+   125,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   130,
+   "de-legations",
+   "delegations",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "57eb7b1445672666670a55192b71dfa1a4af7203",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 41
+  },
+  "words_in": 3555,
+  "words_out": 3552,
+  "retention": 0.9992,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   84,
+   91,
+   184,
+   162,
+   140,
+   78,
+   154,
+   66,
+   110,
+   138,
+   146,
+   193,
+   158,
+   94,
+   64,
+   87,
+   69,
+   160,
+   101,
+   67,
+   134,
+   96,
+   94,
+   66,
+   154,
+   73,
+   109,
+   164,
+   93,
+   108,
+   115
+  ],
+  "warnings": []
+ }
+}

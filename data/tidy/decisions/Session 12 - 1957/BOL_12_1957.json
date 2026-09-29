@@ -1,0 +1,71 @@
+{
+ "id": "BOL_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  10,
+  12,
+  15,
+  18,
+  23,
+  26,
+  28,
+  31,
+  36,
+  38,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "live Indignity",
+   "live in dignity",
+   "merged_word"
+  ],
+  [
+   9,
+   "tragically Ironic",
+   "tragically ironic",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c070eb88364de00183d011ceb0da6ffc60f5bcd1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 16
+  },
+  "words_in": 1307,
+  "words_out": 1305,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   25,
+   133,
+   134,
+   64,
+   95,
+   71,
+   129,
+   132,
+   88,
+   113,
+   164,
+   63,
+   64,
+   30
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "id": "HND_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  16,
+  21,
+  25,
+  30,
+  34,
+  37,
+  41,
+  44,
+  47,
+  51,
+  58,
+  63,
+  67,
+  71,
+  76,
+  80,
+  84,
+  86,
+  88,
+  91,
+  94,
+  98,
+  101,
+  103,
+  106,
+  110,
+  117,
+  120
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "ray country",
+   "my country",
+   "ocr"
+  ],
+  [
+   15,
+   "beat guarantee",
+   "best guarantee",
+   "ocr"
+  ],
+  [
+   23,
+   "nuclear arras",
+   "nuclear arms",
+   "ocr"
+  ],
+  [
+   51,
+   "development/",
+   "development,",
+   "ocr"
+  ],
+  [
+   53,
+   "agriculture/",
+   "agriculture,",
+   "ocr"
+  ],
+  [
+   74,
+   "nave led",
+   "have led",
+   "ocr"
+  ],
+  [
+   80,
+   "(OAS) ,",
+   "(OAS),",
+   "ocr"
+  ],
+  [
+   82,
+   "Government/",
+   "Government,",
+   "ocr"
+  ],
+  [
+   85,
+   "control)",
+   "control;",
+   "ocr"
+  ],
+  [
+   92,
+   "Its task",
+   "its task",
+   "ocr"
+  ],
+  [
+   105,
+   "normalcy,",
+   "normalcy.",
+   "ocr"
+  ],
+  [
+   117,
+   "world, the",
+   "world. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1386009d77f11c97c92e2aecd4a8a586b5961508",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3541,
+  "words_out": 3540,
+  "retention": 0.9997,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   101,
+   84,
+   255,
+   119,
+   123,
+   90,
+   103,
+   130,
+   115,
+   80,
+   107,
+   102,
+   192,
+   99,
+   98,
+   131,
+   127,
+   85,
+   119,
+   142,
+   95,
+   139,
+   146,
+   97,
+   75,
+   69,
+   121,
+   99,
+   178,
+   76,
+   43
+  ],
+  "warnings": []
+ }
+}

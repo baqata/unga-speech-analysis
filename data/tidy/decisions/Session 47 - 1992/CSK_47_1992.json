@@ -1,0 +1,104 @@
+{
+ "id": "CSK_47_1992",
+ "drop": [
+  [
+   198,
+   198,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  18,
+  28,
+  43,
+  58,
+  70,
+  82,
+  93,
+  114,
+  130,
+  140,
+  158,
+  169,
+  186,
+  206
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   1,
+   "forth-seventh",
+   "forty-seventh",
+   "ocr"
+  ],
+  [
+   4,
+   "forth-sixth",
+   "forty-sixth",
+   "ocr"
+  ],
+  [
+   27,
+   "it.*",
+   "it.",
+   "ocr"
+  ],
+  [
+   84,
+   "other organizations",
+   "organizations",
+   "ocr"
+  ],
+  [
+   165,
+   " (para. 19)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e7d8bca62cdb64ab5aec9c744d0dddc6952c26c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2374,
+  "words_out": 2370,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   45,
+   145,
+   120,
+   172,
+   159,
+   133,
+   135,
+   121,
+   251,
+   182,
+   106,
+   203,
+   115,
+   180,
+   198,
+   105
+  ],
+  "warnings": []
+ }
+}

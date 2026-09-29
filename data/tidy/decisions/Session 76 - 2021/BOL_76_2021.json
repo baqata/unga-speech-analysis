@@ -1,0 +1,90 @@
+{
+ "id": "BOL_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  11,
+  19,
+  24,
+  29,
+  35,
+  38,
+  40,
+  46,
+  51,
+  58,
+  60,
+  65,
+  67,
+  71,
+  73,
+  75,
+  78,
+  81,
+  85,
+  89,
+  92,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   100,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3192ea822fe7821383a3dfbefbb403110b929cf0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2768,
+  "words_out": 2766,
+  "retention": 0.9993,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   27,
+   127,
+   168,
+   190,
+   134,
+   118,
+   161,
+   61,
+   78,
+   138,
+   126,
+   215,
+   71,
+   104,
+   92,
+   118,
+   77,
+   95,
+   91,
+   61,
+   101,
+   129,
+   65,
+   84,
+   135
+  ],
+  "warnings": []
+ }
+}

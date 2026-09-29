@@ -1,0 +1,55 @@
+{
+ "id": "ETH_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  28,
+  41,
+  64,
+  74,
+  90,
+  114,
+  121,
+  133,
+  141,
+  151,
+  174
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f717f4a4fcce2b6fc984d370be61dba1dd1ff70",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1578,
+  "words_out": 1576,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   137,
+   93,
+   106,
+   197,
+   69,
+   137,
+   198,
+   67,
+   96,
+   70,
+   79,
+   177,
+   150
+  ],
+  "warnings": []
+ }
+}

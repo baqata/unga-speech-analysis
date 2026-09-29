@@ -1,0 +1,51 @@
+{
+ "id": "CPV_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  29,
+  47,
+  74,
+  92,
+  112,
+  123,
+  139,
+  154,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c3d676a63b1d9978f3eed8628eefbef6e48406f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1447,
+  "words_out": 1446,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   29,
+   218,
+   138,
+   205,
+   141,
+   162,
+   75,
+   138,
+   129,
+   122,
+   89
+  ],
+  "warnings": []
+ }
+}

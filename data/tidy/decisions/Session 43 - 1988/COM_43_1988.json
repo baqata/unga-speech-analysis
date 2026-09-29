@@ -1,0 +1,88 @@
+{
+ "id": "COM_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  11,
+  16,
+  21,
+  24,
+  27,
+  31,
+  33,
+  39,
+  43,
+  45,
+  49,
+  52,
+  58,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   26,
+   "a)I",
+   "all",
+   "ocr"
+  ],
+  [
+   39,
+   "Comoros, I refer",
+   "Comoros. I refer",
+   "ocr"
+  ],
+  [
+   49,
+   "Mr, Ahmed",
+   "Mr. Ahmed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dfd80abcf737ee55891b11113a5b0c67338d4c58",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1978,
+  "words_out": 1978,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   125,
+   93,
+   72,
+   65,
+   158,
+   130,
+   76,
+   85,
+   116,
+   90,
+   151,
+   153,
+   76,
+   141,
+   145,
+   132,
+   141,
+   29
+  ],
+  "warnings": []
+ }
+}

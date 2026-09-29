@@ -1,0 +1,75 @@
+{
+ "id": "SYC_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  9,
+  12,
+  20,
+  25,
+  31,
+  36,
+  38,
+  41,
+  46,
+  51,
+  53
+ ],
+ "cer": [
+  0,
+  53
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- first",
+   "seventy-first",
+   "hyphen"
+  ],
+  [
+   3,
+   "months.We",
+   "months. We",
+   "spacing"
+  ],
+  [
+   47,
+   "debt- for-adaptation",
+   "debt-for-adaptation",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e2e137581cf37aa6201e5053b3a8700301ca429",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1397,
+  "words_out": 1396,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   65,
+   107,
+   119,
+   72,
+   135,
+   130,
+   79,
+   131,
+   78,
+   88,
+   160,
+   140,
+   75,
+   17
+  ],
+  "warnings": []
+ }
+}

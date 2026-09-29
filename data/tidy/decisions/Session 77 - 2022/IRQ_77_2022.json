@@ -1,0 +1,64 @@
+{
+ "id": "IRQ_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  16,
+  19,
+  23,
+  27,
+  30,
+  32,
+  34,
+  41,
+  46,
+  50,
+  55,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0fbe2ec987152faa3cc1db622256d2c0d0f9b4b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1960,
+  "words_out": 1959,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   98,
+   152,
+   142,
+   89,
+   110,
+   106,
+   109,
+   73,
+   123,
+   182,
+   165,
+   110,
+   176,
+   176,
+   148
+  ],
+  "warnings": []
+ }
+}

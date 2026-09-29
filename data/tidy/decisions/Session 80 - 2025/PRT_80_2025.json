@@ -1,0 +1,92 @@
+{
+ "id": "PRT_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   179,
+   179,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  10,
+  19,
+  26,
+  35,
+  47,
+  61,
+  67,
+  85,
+  97,
+  111,
+  132,
+  146,
+  158,
+  178
+ ],
+ "cer": [
+  10,
+  178
+ ],
+ "fix": [
+  [
+   50,
+   "BBC",
+   "PBC",
+   "asr_name"
+  ],
+  [
+   82,
+   "CITS",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   142,
+   "With seeds",
+   "With SIDS",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "The interpretation is rendered in short fragments, grouped here into paragraphs by topic.",
+ "unitizer_version": 1,
+ "sha1": "8253b18467238420a59c3df8e3994de71486d501",
+ "layout": "single",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1910,
+  "words_out": 1859,
+  "retention": 0.9733,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   88,
+   97,
+   167,
+   102,
+   120,
+   135,
+   145,
+   79,
+   198,
+   72,
+   109,
+   176,
+   145,
+   90,
+   134,
+   2
+  ],
+  "warnings": []
+ }
+}

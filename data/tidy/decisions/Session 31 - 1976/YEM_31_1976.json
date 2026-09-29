@@ -1,0 +1,132 @@
+{
+ "id": "YEM_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  10,
+  12,
+  16,
+  20,
+  23,
+  26,
+  29,
+  31,
+  35,
+  36,
+  38,
+  40,
+  42,
+  48,
+  54,
+  57,
+  62,
+  66,
+  74,
+  77
+ ],
+ "cer": [
+  0,
+  4,
+  48
+ ],
+ "fix": [
+  [
+   5,
+   "Mr, Kurt",
+   "Mr. Kurt",
+   "ocr"
+  ],
+  [
+   9,
+   "United Nation*",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   10,
+   "relating to. the",
+   "relating to the",
+   "ocr"
+  ],
+  [
+   11,
+   "Hits order",
+   "This order",
+   "ocr"
+  ],
+  [
+   16,
+   "Head* of State",
+   "Heads of State",
+   "ocr"
+  ],
+  [
+   16,
+   " [see A/311197; annex IV]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   " [ibid., annexes I and II]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   " [ibid., annex III]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "law in. finding",
+   "law in finding",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d259eafb9c3dd685fdeaf3f5ca29930c1fb9d149",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3149,
+  "words_out": 3133,
+  "retention": 0.9949,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   176,
+   184,
+   121,
+   101,
+   147,
+   130,
+   123,
+   65,
+   153,
+   103,
+   117,
+   102,
+   87,
+   90,
+   107,
+   239,
+   151,
+   123,
+   203,
+   176,
+   164,
+   157,
+   114
+  ],
+  "warnings": []
+ }
+}

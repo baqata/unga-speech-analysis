@@ -1,0 +1,128 @@
+{
+ "id": "COM_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  16,
+  20,
+  24,
+  30,
+  36,
+  38,
+  40,
+  43,
+  48,
+  53,
+  55,
+  56,
+  64,
+  71,
+  74,
+  79,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "Hall",
+   "Wall",
+   "ocr"
+  ],
+  [
+   20,
+   "as, unjustified",
+   "an unjustified",
+   "ocr"
+  ],
+  [
+   25,
+   "Hear East",
+   "Near East",
+   "ocr"
+  ],
+  [
+   33,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   33,
+   "h, constantly",
+   "he constantly",
+   "ocr"
+  ],
+  [
+   36,
+   "Now, then",
+   "How, then",
+   "ocr"
+  ],
+  [
+   50,
+   "worst economic",
+   "world economic",
+   "ocr"
+  ],
+  [
+   52,
+   "co establish",
+   "to establish",
+   "ocr"
+  ],
+  [
+   56,
+   "1980e",
+   "1980s",
+   "ocr"
+  ],
+  [
+   62,
+   "moat",
+   "most",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d3efc024ed369541f2ac16151c4edeea60399838",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2497,
+  "words_out": 2497,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   156,
+   184,
+   154,
+   109,
+   135,
+   189,
+   154,
+   99,
+   65,
+   100,
+   151,
+   112,
+   74,
+   104,
+   192,
+   211,
+   91,
+   132,
+   69,
+   16
+  ],
+  "warnings": []
+ }
+}

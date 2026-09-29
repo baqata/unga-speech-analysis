@@ -1,0 +1,193 @@
+{
+ "id": "GHA_33_1978",
+ "drop": [
+  [
+   13,
+   13,
+   "header_footer"
+  ],
+  [
+   104,
+   104,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  18,
+  22,
+  24,
+  29,
+  34,
+  39,
+  46,
+  53,
+  57,
+  62,
+  66,
+  72,
+  77,
+  81,
+  85,
+  88,
+  93,
+  98,
+  105,
+  107,
+  113,
+  119,
+  125,
+  130,
+  133,
+  137,
+  145,
+  149
+ ],
+ "cer": [
+  0,
+  4,
+  10
+ ],
+ "fix": [
+  [
+   0,
+   "Nations- General",
+   "Nations General",
+   "ocr"
+  ],
+  [
+   20,
+   "change: It",
+   "change. It",
+   "ocr"
+  ],
+  [
+   46,
+   "plan3 for",
+   "plan for",
+   "ocr"
+  ],
+  [
+   60,
+   " [see resolution S-9/2J",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "46- ",
+   "",
+   "label"
+  ],
+  [
+   105,
+   ".human",
+   "human",
+   "ocr"
+  ],
+  [
+   120,
+   " [resolution 3362 (S- VII)/",
+   "",
+   "label"
+  ],
+  [
+   120,
+   " [resolution 3201 (S-VIJ and 3202(S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   130,
+   "Commodities.5 My",
+   "Commodities. My",
+   "ocr"
+  ],
+  [
+   131,
+   "provide\" the",
+   "provide the",
+   "ocr"
+  ],
+  [
+   133,
+   "legal -regime",
+   "legal regime",
+   "ocr"
+  ],
+  [
+   151,
+   "colonialism and, racism",
+   "colonialism and racism",
+   "ocr"
+  ],
+  [
+   151,
+   "\"bur society",
+   "our society",
+   "ocr"
+  ],
+  [
+   75,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a139bcb734a0719bfc4dbbe8504f07e89369c03e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 4521,
+  "words_out": 4501,
+  "retention": 0.9956,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   121,
+   156,
+   91,
+   146,
+   181,
+   70,
+   178,
+   147,
+   190,
+   196,
+   210,
+   101,
+   118,
+   128,
+   221,
+   144,
+   123,
+   128,
+   95,
+   106,
+   108,
+   201,
+   109,
+   119,
+   127,
+   157,
+   105,
+   140,
+   126,
+   209,
+   56,
+   194
+  ],
+  "warnings": []
+ }
+}

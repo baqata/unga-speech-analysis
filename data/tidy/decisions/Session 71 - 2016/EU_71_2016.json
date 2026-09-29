@@ -1,0 +1,45 @@
+{
+ "id": "EU_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  21,
+  25,
+  33,
+  38,
+  41,
+  47
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1a4437c1ce509408f9c9c115d275ffb4adb3ee3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1069,
+  "words_out": 1067,
+  "retention": 0.9981,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   119,
+   143,
+   150,
+   119,
+   163,
+   126,
+   70,
+   104,
+   73
+  ],
+  "warnings": []
+ }
+}

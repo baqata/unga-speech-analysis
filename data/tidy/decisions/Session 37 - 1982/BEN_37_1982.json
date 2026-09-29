@@ -1,0 +1,164 @@
+{
+ "id": "BEN_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  36,
+  50,
+  61,
+  74,
+  100,
+  121,
+  138,
+  154,
+  174,
+  187,
+  207,
+  227,
+  244,
+  259,
+  272,
+  288,
+  303,
+  314,
+  329,
+  346,
+  359,
+  374,
+  389,
+  406,
+  426,
+  442,
+  451,
+  465
+ ],
+ "cer": [
+  0,
+  4,
+  426
+ ],
+ "fix": [
+  [
+   5,
+   "Hoilai",
+   "Hollai",
+   "ocr"
+  ],
+  [
+   50,
+   ".We",
+   "We",
+   "ocr"
+  ],
+  [
+   78,
+   "Minded",
+   "blinded",
+   "ocr"
+  ],
+  [
+   88,
+   "Routed",
+   "flouted",
+   "ocr"
+  ],
+  [
+   97,
+   "Ml into",
+   "fall into",
+   "ocr"
+  ],
+  [
+   221,
+   "massage",
+   "message",
+   "ocr"
+  ],
+  [
+   245,
+   "aye",
+   "are",
+   "ocr"
+  ],
+  [
+   247,
+   "AH peoples",
+   "All peoples",
+   "ocr"
+  ],
+  [
+   263,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   414,
+   "L would",
+   "I would",
+   "ocr"
+  ],
+  [
+   444,
+   "Car economic",
+   "for economic",
+   "ocr"
+  ],
+  [
+   451,
+   "20C. ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b63475329ec78bc7bd0baa1b509587c2ded40838",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 471,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4696,
+  "words_out": 4645,
+  "retention": 0.9891,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   46,
+   333,
+   139,
+   99,
+   132,
+   271,
+   209,
+   169,
+   154,
+   202,
+   126,
+   186,
+   190,
+   177,
+   148,
+   132,
+   167,
+   147,
+   112,
+   132,
+   165,
+   117,
+   154,
+   146,
+   170,
+   198,
+   150,
+   83,
+   144,
+   47
+  ],
+  "warnings": [
+   "paragraph at unit 4 has 333 words"
+  ]
+ }
+}

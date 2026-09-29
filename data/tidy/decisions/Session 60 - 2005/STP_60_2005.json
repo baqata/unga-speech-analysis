@@ -1,0 +1,53 @@
+{
+ "id": "STP_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  24,
+  37,
+  56,
+  78,
+  96,
+  111,
+  130,
+  145,
+  159,
+  172
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc5fcbec83b5f04a8bd6b03d913c63135b6cdba6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1390,
+  "words_out": 1388,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   108,
+   81,
+   107,
+   150,
+   157,
+   141,
+   112,
+   146,
+   105,
+   121,
+   109,
+   51
+  ],
+  "warnings": []
+ }
+}

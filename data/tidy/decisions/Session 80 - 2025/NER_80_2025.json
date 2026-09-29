@@ -1,0 +1,134 @@
+{
+ "id": "NER_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   160,
+   160,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  9,
+  13,
+  19,
+  23,
+  28,
+  34,
+  37,
+  42,
+  47,
+  53,
+  59,
+  67,
+  79,
+  85,
+  91,
+  100,
+  107,
+  114,
+  119,
+  123,
+  126,
+  130,
+  135,
+  142,
+  150,
+  159
+ ],
+ "cer": [
+  2,
+  159
+ ],
+ "fix": [
+  [
+   45,
+   "Kedah",
+   "Kidal",
+   "asr_name"
+  ],
+  [
+   57,
+   "Tehran",
+   "Téra",
+   "asr_name"
+  ],
+  [
+   57,
+   "Zinda",
+   "Zinder",
+   "asr_name"
+  ],
+  [
+   58,
+   "Zinda",
+   "Zinder",
+   "asr_name"
+  ],
+  [
+   61,
+   "Tehran",
+   "Téra",
+   "asr_name"
+  ],
+  [
+   77,
+   "General Chani",
+   "General Tiani",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e74c90cf60b49e653dbf310e0a053c36bed79128",
+ "layout": "single",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3714,
+  "words_out": 3642,
+  "retention": 0.9806,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   118,
+   153,
+   127,
+   160,
+   83,
+   157,
+   113,
+   146,
+   109,
+   144,
+   169,
+   102,
+   179,
+   184,
+   98,
+   129,
+   130,
+   203,
+   183,
+   115,
+   110,
+   95,
+   127,
+   111,
+   144,
+   112,
+   130,
+   11
+  ],
+  "warnings": []
+ }
+}

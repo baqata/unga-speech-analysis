@@ -1,0 +1,72 @@
+{
+ "id": "GTM_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  16,
+  21,
+  26,
+  29,
+  34,
+  36,
+  39,
+  42,
+  46,
+  51,
+  56,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "previoius",
+   "previous",
+   "ocr"
+  ],
+  [
+   40,
+   "decrerase",
+   "decrease",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af648050b4510abf2b109e36b48463116cb8ec37",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1904,
+  "words_out": 1904,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   112,
+   102,
+   99,
+   130,
+   95,
+   109,
+   90,
+   109,
+   73,
+   105,
+   134,
+   181,
+   138,
+   132,
+   139,
+   156
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "WSM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   105,
+   105,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  13,
+  19,
+  26,
+  32,
+  40,
+  45,
+  51,
+  60,
+  69,
+  79,
+  85,
+  88,
+  93,
+  97,
+  104
+ ],
+ "cer": [
+  2,
+  104
+ ],
+ "fix": [
+  [
+   15,
+   "Resilient Coordinated System",
+   "Resident Coordinator System",
+   "asr_term"
+  ],
+  [
+   49,
+   "EOSIS",
+   "AOSIS",
+   "asr_name"
+  ],
+  [
+   49,
+   "Circumstances of Cities",
+   "Circumstances of SIDS",
+   "asr_term"
+  ],
+  [
+   65,
+   "PB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   67,
+   "Marine Spaceship Plan",
+   "Marine Spatial Plan",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 1 repeats the name and title from the presider's introduction and is dropped with it.",
+ "unitizer_version": 1,
+ "sha1": "545bb0fab15aec9bd3ecb63cf1aa95ef62265002",
+ "layout": "single",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1943,
+  "words_out": 1908,
+  "retention": 0.982,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   80,
+   123,
+   141,
+   169,
+   110,
+   154,
+   67,
+   111,
+   130,
+   183,
+   142,
+   89,
+   66,
+   91,
+   75,
+   172,
+   5
+  ],
+  "warnings": []
+ }
+}

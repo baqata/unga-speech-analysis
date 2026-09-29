@@ -1,0 +1,72 @@
+{
+ "id": "GIN_70_2015",
+ "drop": [
+  [
+   43,
+   43,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  9,
+  14,
+  18,
+  21,
+  26,
+  30,
+  32,
+  35,
+  38,
+  44,
+  46
+ ],
+ "cer": [
+  46
+ ],
+ "fix": [
+  [
+   36,
+   "long- awaited",
+   "long-awaited",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "532c51992648cbc7e33f8d562789d207360442d4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1251,
+  "words_out": 1244,
+  "retention": 0.9944,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   95,
+   96,
+   127,
+   111,
+   88,
+   123,
+   84,
+   80,
+   69,
+   90,
+   129,
+   56,
+   96
+  ],
+  "warnings": [
+   "procedural drop [43,43] in the middle of the speech"
+  ]
+ }
+}

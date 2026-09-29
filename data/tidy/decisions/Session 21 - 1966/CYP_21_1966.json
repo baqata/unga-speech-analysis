@@ -1,0 +1,108 @@
+{
+ "id": "CYP_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  17,
+  23,
+  26,
+  33,
+  37,
+  44,
+  51,
+  56,
+  62,
+  69,
+  74,
+  77,
+  87,
+  94,
+  99,
+  102,
+  108,
+  114,
+  118,
+  128,
+  135
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "livery year",
+   "Every year",
+   "ocr"
+  ],
+  [
+   11,
+   "do out utmost",
+   "do our utmost",
+   "ocr"
+  ],
+  [
+   30,
+   "Angola.",
+   "Angola,",
+   "ocr"
+  ],
+  [
+   40,
+   "scats",
+   "seats",
+   "ocr"
+  ],
+  [
+   76,
+   "and 1 should",
+   "and I should",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e93630d1ee824ef086e844f110b847a98a7899ac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3830,
+  "words_out": 3804,
+  "retention": 0.9932,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   112,
+   343,
+   180,
+   90,
+   184,
+   113,
+   149,
+   207,
+   121,
+   139,
+   142,
+   103,
+   83,
+   244,
+   200,
+   138,
+   77,
+   136,
+   189,
+   70,
+   289,
+   277,
+   218
+  ],
+  "warnings": [
+   "paragraph at unit 5 has 343 words"
+  ]
+ }
+}

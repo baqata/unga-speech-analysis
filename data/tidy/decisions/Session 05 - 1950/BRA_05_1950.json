@@ -1,0 +1,68 @@
+{
+ "id": "BRA_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  12,
+  17,
+  23,
+  28,
+  30,
+  35,
+  39,
+  45,
+  48,
+  50,
+  55,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "from t this",
+   "from this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03fcfd86aadfa58de9d1ef920d1abdb7d0de409c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 1728,
+  "words_out": 1727,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   91,
+   72,
+   124,
+   118,
+   152,
+   138,
+   152,
+   70,
+   163,
+   91,
+   161,
+   102,
+   100,
+   94,
+   78,
+   21
+  ],
+  "warnings": []
+ }
+}

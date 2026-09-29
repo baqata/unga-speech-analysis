@@ -1,0 +1,51 @@
+{
+ "id": "ARG_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  16,
+  21,
+  25,
+  32,
+  35,
+  38,
+  44,
+  48
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cd4a02565dc1af289151326edd0b9fd5a6beb73a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1156,
+  "words_out": 1156,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   32,
+   161,
+   151,
+   110,
+   118,
+   191,
+   94,
+   61,
+   106,
+   80,
+   52
+  ],
+  "warnings": []
+ }
+}

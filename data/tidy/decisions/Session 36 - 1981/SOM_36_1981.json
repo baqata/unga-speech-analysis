@@ -1,0 +1,203 @@
+{
+ "id": "SOM_36_1981",
+ "drop": [
+  [
+   84,
+   84,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  5,
+  7,
+  13,
+  18,
+  20,
+  23,
+  26,
+  30,
+  32,
+  37,
+  40,
+  42,
+  44,
+  45,
+  48,
+  52,
+  56,
+  59,
+  64,
+  69,
+  72,
+  76,
+  80,
+  82,
+  85,
+  88,
+  91,
+  93,
+  95,
+  97
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "1.",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "exploit then natural",
+   "exploit their natural",
+   "ocr"
+  ],
+  [
+   12,
+   "We Jive",
+   "We live",
+   "ocr"
+  ],
+  [
+   25,
+   "peace, and stability",
+   "peace and stability",
+   "ocr"
+  ],
+  [
+   26,
+   "Barre,",
+   "Barre:",
+   "ocr"
+  ],
+  [
+   28,
+   "conflict.'''",
+   "conflict.\"",
+   "ocr"
+  ],
+  [
+   33,
+   " [OAJJ]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "pledges, of",
+   "pledges of",
+   "ocr"
+  ],
+  [
+   51,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "of aJl",
+   "of all",
+   "ocr"
+  ],
+  [
+   78,
+   "in' Paris",
+   "in Paris",
+   "ocr"
+  ],
+  [
+   78,
+   "Countries' will",
+   "Countries will",
+   "ocr"
+  ],
+  [
+   83,
+   "Find Act",
+   "Final Act",
+   "ocr"
+  ],
+  [
+   88,
+   "36 ",
+   "",
+   "label"
+  ],
+  [
+   89,
+   ">n the",
+   "in the",
+   "ocr"
+  ],
+  [
+   91,
+   "stage In",
+   "stage in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21ce54c9af421b6141e526d691619691020cf0ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 3228,
+  "words_out": 3211,
+  "retention": 0.9947,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   47,
+   39,
+   48,
+   61,
+   175,
+   145,
+   66,
+   105,
+   121,
+   159,
+   82,
+   116,
+   81,
+   73,
+   66,
+   91,
+   83,
+   117,
+   98,
+   90,
+   207,
+   151,
+   99,
+   117,
+   138,
+   64,
+   69,
+   98,
+   76,
+   113,
+   64,
+   89,
+   63
+  ],
+  "warnings": []
+ }
+}

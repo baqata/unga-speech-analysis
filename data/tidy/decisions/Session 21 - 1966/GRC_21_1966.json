@@ -1,0 +1,154 @@
+{
+ "id": "GRC_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  16,
+  23,
+  29,
+  33,
+  39,
+  43,
+  52,
+  55,
+  58,
+  61,
+  64,
+  69,
+  72,
+  76,
+  82,
+  88,
+  91,
+  96,
+  101,
+  106,
+  111,
+  114,
+  120,
+  124,
+  129,
+  132,
+  143
+ ],
+ "cer": [
+  0,
+  5,
+  14
+ ],
+ "fix": [
+  [
+   19,
+   "applied, I need",
+   "applied. I need",
+   "ocr"
+  ],
+  [
+   51,
+   "reached,",
+   "reached.",
+   "ocr"
+  ],
+  [
+   57,
+   "those .opposed",
+   "those opposed",
+   "ocr"
+  ],
+  [
+   63,
+   "peace, I need",
+   "peace. I need",
+   "ocr"
+  ],
+  [
+   92,
+   "operations, foreover,",
+   "operations. Moreover,",
+   "ocr"
+  ],
+  [
+   105,
+   "measures,",
+   "measures.",
+   "ocr"
+  ],
+  [
+   108,
+   "top- priority",
+   "top-priority",
+   "hyphen"
+  ],
+  [
+   115,
+   "neighbours, I am",
+   "neighbours. I am",
+   "ocr"
+  ],
+  [
+   123,
+   "the Issues",
+   "the issues",
+   "ocr"
+  ],
+  [
+   125,
+   " [2077 (XX)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "425a8b199f22bbe84648297edcfe648851e64e8d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3281,
+  "words_out": 3232,
+  "retention": 0.9851,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   124,
+   66,
+   157,
+   75,
+   189,
+   142,
+   99,
+   154,
+   88,
+   177,
+   91,
+   71,
+   86,
+   83,
+   110,
+   66,
+   74,
+   87,
+   92,
+   95,
+   112,
+   99,
+   81,
+   72,
+   61,
+   138,
+   77,
+   109,
+   121,
+   199,
+   37
+  ],
+  "warnings": []
+ }
+}

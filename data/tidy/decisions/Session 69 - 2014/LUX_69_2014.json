@@ -1,0 +1,82 @@
+{
+ "id": "LUX_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  21,
+  39,
+  48,
+  62,
+  91,
+  101,
+  114,
+  130,
+  146,
+  156,
+  171,
+  183,
+  191,
+  202,
+  210,
+  223,
+  251,
+  266,
+  276,
+  295
+ ],
+ "cer": [],
+ "fix": [
+  [
+   145,
+   "particiapte",
+   "participate",
+   "ocr"
+  ],
+  [
+   312,
+   "Aseembly",
+   "Assembly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "32108dd3fb7afcca69657d6af1b867d624417f42",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2671,
+  "words_out": 2657,
+  "retention": 0.9948,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   100,
+   76,
+   145,
+   73,
+   112,
+   235,
+   81,
+   115,
+   118,
+   129,
+   80,
+   124,
+   108,
+   71,
+   90,
+   68,
+   111,
+   254,
+   127,
+   93,
+   160,
+   187
+  ],
+  "warnings": []
+ }
+}

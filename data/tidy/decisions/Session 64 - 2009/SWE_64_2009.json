@@ -1,0 +1,51 @@
+{
+ "id": "SWE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  36,
+  58,
+  73,
+  89,
+  108,
+  122,
+  146,
+  158,
+  176,
+  205
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b13f65e4fd6997f081f5f2cdb57932d8f32a45a4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1835,
+  "words_out": 1834,
+  "retention": 0.9995,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   93,
+   195,
+   198,
+   126,
+   121,
+   160,
+   116,
+   182,
+   98,
+   158,
+   240,
+   147
+  ],
+  "warnings": []
+ }
+}

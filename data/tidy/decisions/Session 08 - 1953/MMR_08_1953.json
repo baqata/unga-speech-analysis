@@ -1,0 +1,107 @@
+{
+ "id": "MMR_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  22,
+  25,
+  29,
+  34,
+  40,
+  47,
+  50,
+  54,
+  61,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "provoke,",
+   "provoke",
+   "ocr"
+  ],
+  [
+   13,
+   "not-'",
+   "not",
+   "ocr"
+  ],
+  [
+   26,
+   "who'",
+   "who",
+   "ocr"
+  ],
+  [
+   55,
+   "darker- skinned",
+   "darker-skinned",
+   "hyphen"
+  ],
+  [
+   56,
+   "[resolution 616 A (VII)]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "throughout'",
+   "throughout",
+   "ocr"
+  ],
+  [
+   62,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   65,
+   "-themselves",
+   "themselves",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b0816fd5ef0fd059947b1112f321d77cf98dd5be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 24
+  },
+  "words_in": 2154,
+  "words_out": 2144,
+  "retention": 0.9954,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   139,
+   127,
+   168,
+   236,
+   107,
+   145,
+   89,
+   222,
+   177,
+   66,
+   147,
+   219,
+   214,
+   88
+  ],
+  "warnings": []
+ }
+}

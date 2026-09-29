@@ -1,0 +1,197 @@
+{
+ "id": "NOR_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  11,
+  16,
+  20,
+  23,
+  30,
+  35,
+  38,
+  40,
+  44,
+  47,
+  56,
+  61,
+  64,
+  67,
+  69,
+  72,
+  74,
+  76,
+  79,
+  83,
+  85,
+  90,
+  93,
+  96,
+  99,
+  105,
+  109,
+  113,
+  115,
+  120,
+  124,
+  128,
+  134,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "fad",
+   "fact",
+   "ocr"
+  ],
+  [
+   7,
+   "Oganization",
+   "Organization",
+   "ocr"
+  ],
+  [
+   23,
+   "Particular",
+   "particular",
+   "ocr"
+  ],
+  [
+   26,
+   "Problems",
+   "problems",
+   "ocr"
+  ],
+  [
+   34,
+   "a world which",
+   "a word which",
+   "ocr"
+  ],
+  [
+   39,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   40,
+   "like- minded",
+   "like-minded",
+   "spacing"
+  ],
+  [
+   44,
+   "of, the",
+   "of the",
+   "ocr"
+  ],
+  [
+   47,
+   "few-observations",
+   "few observations",
+   "spacing"
+  ],
+  [
+   47,
+   "aim. of",
+   "aim of",
+   "ocr"
+  ],
+  [
+   96,
+   "World",
+   "world",
+   "ocr"
+  ],
+  [
+   133,
+   "self- preservation",
+   "self-preservation",
+   "spacing"
+  ],
+  [
+   138,
+   "[DS/53, annex 9]",
+   "",
+   "label"
+  ],
+  [
+   140,
+   "statement. made",
+   "statement made",
+   "ocr"
+  ],
+  [
+   71,
+   "[resolution 531 B (XVIII)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c2a3ce66047350dc6b571c40fa199f80781b787",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 45
+  },
+  "words_in": 4235,
+  "words_out": 4225,
+  "retention": 0.9976,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   26,
+   132,
+   122,
+   91,
+   119,
+   107,
+   79,
+   202,
+   163,
+   65,
+   81,
+   104,
+   92,
+   200,
+   126,
+   73,
+   146,
+   100,
+   115,
+   65,
+   63,
+   75,
+   108,
+   92,
+   153,
+   117,
+   113,
+   128,
+   234,
+   82,
+   98,
+   63,
+   110,
+   111,
+   64,
+   108,
+   118,
+   180
+  ],
+  "warnings": []
+ }
+}

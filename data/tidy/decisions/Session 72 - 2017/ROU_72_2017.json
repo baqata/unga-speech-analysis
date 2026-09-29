@@ -1,0 +1,70 @@
+{
+ "id": "ROU_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  10,
+  16,
+  20,
+  23,
+  26,
+  29,
+  33,
+  36,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   34,
+   "us- versus-them",
+   "us-versus-them",
+   "hyphen"
+  ],
+  [
+   43,
+   "2020- 2021",
+   "2020-2021",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c90b9128a33476f0fa91924e61f6cddd5083556a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1117,
+  "words_out": 1114,
+  "retention": 0.9973,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   24,
+   102,
+   115,
+   123,
+   118,
+   81,
+   68,
+   90,
+   118,
+   66,
+   89,
+   120
+  ],
+  "warnings": []
+ }
+}

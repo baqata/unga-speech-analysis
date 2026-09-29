@@ -1,0 +1,174 @@
+{
+ "id": "CUB_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  29,
+  49,
+  63,
+  77,
+  100,
+  119,
+  129,
+  145,
+  152,
+  178,
+  193,
+  210,
+  232,
+  258,
+  267,
+  289,
+  304,
+  328,
+  338,
+  355,
+  365,
+  390,
+  398,
+  413,
+  431,
+  451,
+  479,
+  500,
+  511,
+  522,
+  541,
+  558
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "Shakespeare?s",
+   "Shakespeare’s",
+   "encoding"
+  ],
+  [
+   81,
+   "system?s",
+   "system’s",
+   "encoding"
+  ],
+  [
+   143,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   184,
+   "Children?s",
+   "Children’s",
+   "encoding"
+  ],
+  [
+   264,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   266,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   323,
+   "people?s",
+   "people’s",
+   "encoding"
+  ],
+  [
+   353,
+   "defendants?",
+   "defendants’",
+   "encoding"
+  ],
+  [
+   433,
+   "Cuba?s",
+   "Cuba’s",
+   "encoding"
+  ],
+  [
+   459,
+   "population?s",
+   "population’s",
+   "encoding"
+  ],
+  [
+   473,
+   "Cuba?s",
+   "Cuba’s",
+   "encoding"
+  ],
+  [
+   564,
+   " (The Holy Bible,",
+   "",
+   "label"
+  ],
+  [
+   565,
+   "Ecclesiastes 3:1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "58e710adb143d81e3e6405d4dbc49a37428c193f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 567,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 6
+  },
+  "words_in": 4794,
+  "words_out": 4788,
+  "retention": 0.9987,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   154,
+   87,
+   163,
+   112,
+   129,
+   174,
+   176,
+   86,
+   150,
+   73,
+   213,
+   123,
+   143,
+   182,
+   209,
+   77,
+   188,
+   126,
+   194,
+   88,
+   148,
+   78,
+   202,
+   57,
+   159,
+   143,
+   160,
+   256,
+   161,
+   104,
+   101,
+   160,
+   143,
+   69
+  ],
+  "warnings": []
+ }
+}

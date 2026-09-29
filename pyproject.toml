@@ -1,0 +1,28 @@
+[project]
+name = "unga-speech-analysis"
+version = "0.1.0"
+description = "How countries talk about UNODC mandate topics in UN General Debate speeches, 1946 to present."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "mlx-whisper>=0.4.3",
+    "numpy>=2.5.3",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
+    "pycountry>=26.2.16",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9.1",
+    "sentence-transformers>=6.1.0",
+    "tokenizers>=0.23.2",
+    "torch>=2.14.0",
+    "transformers>=5.17.0",
+    "umap-learn>=0.5.12",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

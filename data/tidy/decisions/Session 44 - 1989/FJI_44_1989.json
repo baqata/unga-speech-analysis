@@ -1,0 +1,90 @@
+{
+ "id": "FJI_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  12,
+  15,
+  20,
+  26,
+  32,
+  36,
+  39,
+  43,
+  52,
+  57,
+  61,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "advices",
+   "advances",
+   "ocr"
+  ],
+  [
+   10,
+   "pale -to",
+   "pale to",
+   "ocr"
+  ],
+  [
+   10,
+   "co-unity",
+   "community",
+   "ocr"
+  ],
+  [
+   16,
+   "Kampuchea. which",
+   "Kampuchea, which",
+   "ocr"
+  ],
+  [
+   49,
+   "simples",
+   "simple",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "The text ends inside a quoted newspaper editorial; the rest of the statement appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "7ecb0fdcdc1727282ed1256578adc5968473f1dd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1862,
+  "words_out": 1862,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   126,
+   171,
+   69,
+   84,
+   137,
+   141,
+   128,
+   87,
+   74,
+   82,
+   145,
+   103,
+   102,
+   284,
+   129
+  ],
+  "warnings": []
+ }
+}

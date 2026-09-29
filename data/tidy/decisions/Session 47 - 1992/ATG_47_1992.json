@@ -1,0 +1,87 @@
+{
+ "id": "ATG_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  34,
+  41,
+  50,
+  67,
+  82,
+  94,
+  105,
+  115,
+  131,
+  152,
+  160,
+  170,
+  180,
+  190,
+  202,
+  219,
+  233,
+  246
+ ],
+ "cer": [
+  34,
+  105
+ ],
+ "fix": [
+  [
+   67,
+   "example. United",
+   "example, United",
+   "ocr"
+  ],
+  [
+   80,
+   "eliminated. South",
+   "eliminated, South",
+   "ocr"
+  ],
+  [
+   250,
+   "wisdom.",
+   "wisdom,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a12854ce59191aad50015c59f051fcddd5d4b6d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2792,
+  "words_out": 2792,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   158,
+   200,
+   76,
+   106,
+   188,
+   172,
+   136,
+   122,
+   107,
+   155,
+   232,
+   84,
+   103,
+   114,
+   103,
+   128,
+   195,
+   162,
+   155,
+   96
+  ],
+  "warnings": []
+ }
+}

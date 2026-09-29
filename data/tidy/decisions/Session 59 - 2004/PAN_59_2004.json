@@ -1,0 +1,64 @@
+{
+ "id": "PAN_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  35,
+  49,
+  67,
+  80,
+  99,
+  112,
+  124,
+  133,
+  142,
+  151,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "446c68700300c14a9f4a0cc7753b6b828349a1b4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1370,
+  "words_out": 1367,
+  "retention": 0.9978,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   53,
+   78,
+   159,
+   132,
+   154,
+   105,
+   160,
+   99,
+   92,
+   68,
+   74,
+   73,
+   63,
+   57
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "id": "UGA_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  12,
+  21,
+  26,
+  30,
+  34,
+  39,
+  41,
+  45,
+  53,
+  59,
+  61,
+  64,
+  68,
+  72,
+  79,
+  83,
+  88,
+  96
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   2,
+   "Muhammad- Bande",
+   "Muhammad-Bande",
+   "hyphen"
+  ],
+  [
+   29,
+   "debt- relief",
+   "debt-relief",
+   "hyphen"
+  ],
+  [
+   33,
+   "private- sector-led",
+   "private-sector-led",
+   "hyphen"
+  ],
+  [
+   42,
+   "five- year",
+   "five-year",
+   "hyphen"
+  ],
+  [
+   63,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   96,
+   "forjudges",
+   "for judges",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President of Uganda.",
+ "unitizer_version": 1,
+ "sha1": "67b2d3348497d2e79d92d8b133a13bc88852abda",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2569,
+  "words_out": 2565,
+  "retention": 0.9984,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   35,
+   106,
+   186,
+   192,
+   117,
+   110,
+   84,
+   93,
+   70,
+   136,
+   182,
+   172,
+   72,
+   104,
+   151,
+   135,
+   137,
+   98,
+   114,
+   158,
+   113
+  ],
+  "warnings": []
+ }
+}

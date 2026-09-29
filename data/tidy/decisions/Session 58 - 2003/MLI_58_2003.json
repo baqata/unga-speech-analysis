@@ -1,0 +1,78 @@
+{
+ "id": "MLI_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  32,
+  47,
+  57,
+  79,
+  98,
+  113,
+  129,
+  144,
+  167,
+  181,
+  201,
+  212,
+  225,
+  249,
+  267,
+  291
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   48,
+   "TourÈ",
+   "Touré",
+   "encoding"
+  ],
+  [
+   66,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03958bdfb2bd409f8100f424c46f001e79ebe690",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 294,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2339,
+  "words_out": 2338,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   144,
+   114,
+   120,
+   75,
+   161,
+   155,
+   116,
+   128,
+   114,
+   185,
+   109,
+   152,
+   87,
+   119,
+   192,
+   141,
+   202,
+   24
+  ],
+  "warnings": []
+ }
+}

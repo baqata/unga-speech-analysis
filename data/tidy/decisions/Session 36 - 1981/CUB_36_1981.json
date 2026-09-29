@@ -1,0 +1,283 @@
+{
+ "id": "CUB_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  12,
+  16,
+  20,
+  23,
+  26,
+  30,
+  31,
+  35,
+  37,
+  38,
+  43,
+  44,
+  45,
+  49,
+  52,
+  56,
+  62,
+  63,
+  64,
+  67,
+  70,
+  71,
+  74,
+  75,
+  78,
+  83,
+  86,
+  88,
+  91,
+  93,
+  97,
+  99,
+  103,
+  105,
+  107,
+  109,
+  112,
+  115,
+  118,
+  121,
+  124,
+  128,
+  131,
+  133,
+  134,
+  136
+ ],
+ "cer": [
+  26,
+  30,
+  74
+ ],
+ "fix": [
+  [
+   7,
+   "tobacco,,",
+   "tobacco,",
+   "ocr"
+  ],
+  [
+   10,
+   ". United States",
+   "United States",
+   "ocr"
+  ],
+  [
+   11,
+   "United State's\"",
+   "United States",
+   "ocr"
+  ],
+  [
+   13,
+   "The' thorough",
+   "The thorough",
+   "ocr"
+  ],
+  [
+   13,
+   "carried put",
+   "carried out",
+   "ocr"
+  ],
+  [
+   13,
+   "conclusion' that",
+   "conclusion that",
+   "ocr"
+  ],
+  [
+   22,
+   "have' authorized",
+   "have authorized",
+   "ocr"
+  ],
+  [
+   26,
+   "the General.",
+   "the General",
+   "ocr"
+  ],
+  [
+   35,
+   "Iraq and fern.",
+   "Iraq and Iran.",
+   "ocr"
+  ],
+  [
+   48,
+   "the convention that",
+   "the conviction that",
+   "ocr"
+  ],
+  [
+   51,
+   "fee! they",
+   "feel they",
+   "ocr"
+  ],
+  [
+   57,
+   "in' the",
+   "in the",
+   "ocr"
+  ],
+  [
+   59,
+   "The..",
+   "The",
+   "ocr"
+  ],
+  [
+   61,
+   "PLC),",
+   "PLO,",
+   "ocr"
+  ],
+  [
+   62,
+   "research, center",
+   "research center",
+   "ocr"
+  ],
+  [
+   69,
+   "facts,' they",
+   "facts, they",
+   "ocr"
+  ],
+  [
+   69,
+   "does riot",
+   "does not",
+   "ocr"
+  ],
+  [
+   70,
+   "Et Salvador",
+   "El Salvador",
+   "ocr"
+  ],
+  [
+   73,
+   "Campms",
+   "Campins",
+   "ocr"
+  ],
+  [
+   76,
+   "^majority",
+   "majority",
+   "encoding"
+  ],
+  [
+   114,
+   "by' the",
+   "by the",
+   "ocr"
+  ],
+  [
+   131,
+   "and . a true",
+   "and a true",
+   "ocr"
+  ],
+  [
+   136,
+   "opening,, speech",
+   "opening speech",
+   "ocr"
+  ],
+  [
+   22,
+   " [CIA]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   " [NATO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d0eb31952dfd1c7c96b66cb3aed5bee2972392c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 66
+  },
+  "words_in": 5297,
+  "words_out": 5293,
+  "retention": 0.9992,
+  "n_paragraphs": 49,
+  "paragraph_words": [
+   99,
+   94,
+   54,
+   152,
+   103,
+   159,
+   64,
+   119,
+   56,
+   135,
+   87,
+   158,
+   152,
+   99,
+   96,
+   263,
+   132,
+   87,
+   126,
+   79,
+   85,
+   88,
+   127,
+   79,
+   150,
+   44,
+   93,
+   128,
+   77,
+   70,
+   71,
+   90,
+   121,
+   127,
+   155,
+   69,
+   101,
+   50,
+   104,
+   135,
+   167,
+   101,
+   117,
+   125,
+   117,
+   87,
+   85,
+   70,
+   146
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

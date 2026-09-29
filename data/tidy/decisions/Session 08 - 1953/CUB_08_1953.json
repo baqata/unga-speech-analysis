@@ -1,0 +1,120 @@
+{
+ "id": "CUB_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  13,
+  15,
+  22,
+  25,
+  28,
+  38,
+  41,
+  47,
+  53,
+  58,
+  60,
+  63,
+  67,
+  75,
+  80,
+  83,
+  88,
+  92,
+  97,
+  102,
+  104,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "[resolution 376 (V))",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "of'",
+   "of",
+   "ocr"
+  ],
+  [
+   29,
+   "potential-",
+   "potential",
+   "ocr"
+  ],
+  [
+   39,
+   "[resolution 711 A (VII)]",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "Latin- American",
+   "Latin-American",
+   "hyphen"
+  ],
+  [
+   63,
+   "[resolution 260 A (III)]",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "46dc40c4896fe7fed70fe58b2c726fed32fec7a5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3823,
+  "words_out": 3807,
+  "retention": 0.9958,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   113,
+   103,
+   199,
+   134,
+   167,
+   144,
+   126,
+   234,
+   110,
+   144,
+   170,
+   146,
+   111,
+   119,
+   109,
+   196,
+   219,
+   137,
+   156,
+   127,
+   162,
+   178,
+   125,
+   199,
+   179
+  ],
+  "warnings": []
+ }
+}

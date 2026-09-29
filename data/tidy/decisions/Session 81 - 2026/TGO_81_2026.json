@@ -1,0 +1,214 @@
+{
+ "id": "TGO_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   97,
+   97,
+   "presider"
+  ],
+  [
+   98,
+   98,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  11,
+  19,
+  22,
+  30,
+  31,
+  37,
+  46,
+  55,
+  60,
+  68,
+  77,
+  82,
+  87,
+  96
+ ],
+ "cer": [
+  1,
+  96
+ ],
+ "fix": [
+  [
+   1,
+   "Excellency,",
+   "Excellency Faure Essozimna Gnassingbé,",
+   "asr_name"
+  ],
+  [
+   18,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   21,
+   "Thor Esozima Gnasingbe",
+   "Faure Essozimna Gnassingbé",
+   "asr_name"
+  ],
+  [
+   62,
+   "maps. ",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "refresh",
+   "research",
+   "asr_term"
+  ],
+  [
+   80,
+   " acknowledge.",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "irritated",
+   "inherited",
+   "asr_term"
+  ],
+  [
+   84,
+   "remains us",
+   "reminds us",
+   "asr_term"
+  ],
+  [
+   87,
+   "correct the map",
+   "Correct the Map",
+   "asr_name"
+  ],
+  [
+   87,
+   "september",
+   "September",
+   "asr_term"
+  ],
+  [
+   87,
+   "united nations",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   46,
+   "breed on",
+   "build on",
+   "asr_term"
+  ],
+  [
+   62,
+   "word proof of the",
+   "world through the",
+   "asr_term"
+  ],
+  [
+   84,
+   "simple proof",
+   "simple truth",
+   "asr_term"
+  ],
+  [
+   2,
+   "development. at",
+   "development at",
+   "asr_term"
+  ],
+  [
+   21,
+   "fashion. lasting",
+   "fashion. Lasting",
+   "asr_term"
+  ],
+  [
+   30,
+   "disputes. we're",
+   "disputes. We're",
+   "asr_term"
+  ],
+  [
+   36,
+   "distortion. it's",
+   "distortion. It's",
+   "asr_term"
+  ],
+  [
+   87,
+   "Excellence. excellencies",
+   "Excellence. Excellencies",
+   "asr_term"
+  ],
+  [
+   66,
+   "It's not only",
+   "only",
+   "asr_term"
+  ],
+  [
+   6,
+   "section",
+   "session",
+   "slip"
+  ],
+  [
+   64,
+   "special",
+   "spatial",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "President of the Council Faure Essozimna Gnassingbe (official name; Spanish 'Foresomina Nassimbi', unit 1 name lost in English audio); Spanish confirms periodo de sesiones, ONU 80, el mundo a traves de, informacion espacial, investigacion, heredado, nos recuerde. Main-agent audit (re-decoding): unit 46 'breed' p 0.45-0.50 (Spanish 'aprovechar este impulso'); unit 62 re-decodes 'discover the world proof the digital maps' (Spanish 'descubren el mundo a través de mapas digitales'); unit 84 'proof' p 0.72-0.86 (Spanish 'una verdad sencilla'; this interpreter's 'through' and 'truth' are both heard as 'proof'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 2 'development. at' -> 'development at'; unit 21 'fashion. lasting' -> 'fashion. Lasting'; unit 30 'disputes. we're' -> 'disputes. We're'; unit 36 'distortion. it's' -> 'distortion. It's'; unit 87 'Excellence. excellencies' -> 'Excellence. Excellencies'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 6 'section' -> 'session' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'section' (decodes 1.00 / 0.99, the UN transcript; forced scoring -15.3 vs 'session' -20.0); the topic is the session's theme, as the Spanish 'el tema de este periodo de sesiones' says); spot 22 unit 64 'special' -> 'spatial' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'special' (decodes 0.93 / 0.90, the UN transcript; forced scoring -10.8 vs 'spatial' -15.7); the passage is about geographic data, and the Spanish 'depende de la información espacial' shows 'spatial'); spot 26 unit 66 'It's not only' -> 'only' (invented words: both decodes hear 'no longer only about' with no room ('longer' 954.4 s, 'only' 954.8 s, p 0.95-1.00); ES 'ya no sólo habla de mapas impresos')",
+ "unitizer_version": 1,
+ "sha1": "10c40cfa211071bf60281ff9655f8b2ac381df79",
+ "layout": "single",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1922,
+  "words_out": 1880,
+  "retention": 0.9781,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   194,
+   147,
+   187,
+   113,
+   106,
+   128,
+   159,
+   105,
+   92,
+   92,
+   98,
+   113,
+   96,
+   113,
+   131,
+   6
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "NOR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  31,
+  52,
+  78,
+  92,
+  113,
+  131,
+  146,
+  165,
+  182,
+  195,
+  219,
+  230,
+  240,
+  251,
+  259,
+  278
+ ],
+ "cer": [],
+ "fix": [
+  [
+   61,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   108,
+   "weekâs",
+   "week’s",
+   "encoding"
+  ],
+  [
+   172,
+   "weeksâ",
+   "weeks’",
+   "encoding"
+  ],
+  [
+   179,
+   "Organizationâs",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   276,
+   "Assemblyâs",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   277,
+   "Secretary-Generalâs",
+   "Secretary-General’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bad062431ac7f4d529801cc1832718cc3904e3cd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 288,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 5,
+   "page_number": 3
+  },
+  "words_in": 2321,
+  "words_out": 2317,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   149,
+   88,
+   177,
+   215,
+   102,
+   173,
+   153,
+   128,
+   159,
+   127,
+   113,
+   181,
+   90,
+   79,
+   94,
+   70,
+   142,
+   77
+  ],
+  "warnings": []
+ }
+}

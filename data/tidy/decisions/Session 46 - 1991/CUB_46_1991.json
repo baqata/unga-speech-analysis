@@ -1,0 +1,157 @@
+{
+ "id": "CUB_46_1991",
+ "drop": [
+  [
+   67,
+   67,
+   "header_footer"
+  ],
+  [
+   142,
+   142,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  9,
+  18,
+  21,
+  24,
+  29,
+  33,
+  38,
+  41,
+  44,
+  46,
+  53,
+  59,
+  64,
+  70,
+  77,
+  79,
+  84,
+  86,
+  91,
+  98,
+  100,
+  103,
+  107,
+  109,
+  113,
+  116,
+  121,
+  124,
+  130,
+  135,
+  143,
+  148
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   "He must",
+   "We must",
+   "ocr"
+  ],
+  [
+   66,
+   "Senator Piatt",
+   "Senator Platt",
+   "ocr"
+  ],
+  [
+   68,
+   "the Piatt Amendment",
+   "the Platt Amendment",
+   "ocr"
+  ],
+  [
+   83,
+   "major consular",
+   "major consumer",
+   "ocr"
+  ],
+  [
+   127,
+   "called (or",
+   "called for",
+   "ocr"
+  ],
+  [
+   132,
+   "0ctober7",
+   "October",
+   "ocr"
+  ],
+  [
+   136,
+   "years ago.",
+   "years ago,",
+   "ocr"
+  ],
+  [
+   144,
+   "(ibid., para. 131) ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66646e4531444e54445f6d68d8a9a25e574e2caa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 5003,
+  "words_out": 4972,
+  "retention": 0.9938,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   124,
+   195,
+   157,
+   117,
+   120,
+   159,
+   136,
+   153,
+   62,
+   101,
+   61,
+   144,
+   196,
+   196,
+   186,
+   179,
+   123,
+   165,
+   76,
+   162,
+   139,
+   140,
+   142,
+   172,
+   67,
+   204,
+   158,
+   170,
+   169,
+   145,
+   156,
+   144,
+   176,
+   178
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "id": "MWI_48_1993",
+ "drop": [
+  [
+   66,
+   67,
+   "procedural"
+  ],
+  [
+   90,
+   90,
+   "header_footer"
+  ],
+  [
+   188,
+   188,
+   "header_footer"
+  ],
+  [
+   288,
+   288,
+   "header_footer"
+  ],
+  [
+   387,
+   387,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  25,
+  39,
+  52,
+  68,
+  85,
+  97,
+  110,
+  125,
+  142,
+  157,
+  170,
+  182,
+  203,
+  218,
+  244,
+  253,
+  267,
+  289,
+  304,
+  326,
+  344,
+  355,
+  370,
+  380,
+  397,
+  417,
+  429
+ ],
+ "cer": [
+  0,
+  10,
+  170,
+  429
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18a40f28e75efda95769c1fd6ee3a1baf0b8baa1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 430,
+  "units_dropped": {
+   "procedural": 2,
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 3687,
+  "words_out": 3650,
+  "retention": 0.99,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   84,
+   127,
+   134,
+   107,
+   118,
+   151,
+   92,
+   104,
+   128,
+   154,
+   112,
+   108,
+   101,
+   172,
+   134,
+   218,
+   68,
+   120,
+   190,
+   129,
+   183,
+   159,
+   93,
+   137,
+   81,
+   155,
+   172,
+   110,
+   9
+  ],
+  "warnings": [
+   "procedural drop [66,67] in the middle of the speech"
+  ]
+ }
+}

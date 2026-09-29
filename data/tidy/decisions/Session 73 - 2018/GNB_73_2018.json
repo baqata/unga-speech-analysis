@@ -1,0 +1,78 @@
+{
+ "id": "GNB_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  14,
+  16,
+  20,
+  25,
+  29,
+  37,
+  42
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   34,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   40,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "hyphen"
+  ],
+  [
+   40,
+   "high- profile",
+   "high-profile",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f71d533eeac26ba62ead29ccc1c7a83d22826cd4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1364,
+  "words_out": 1356,
+  "retention": 0.9941,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   76,
+   112,
+   84,
+   118,
+   64,
+   65,
+   149,
+   189,
+   211,
+   154,
+   134
+  ],
+  "warnings": []
+ }
+}

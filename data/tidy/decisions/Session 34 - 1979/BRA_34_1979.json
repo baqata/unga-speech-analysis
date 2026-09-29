@@ -1,0 +1,125 @@
+{
+ "id": "BRA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  15,
+  22,
+  26,
+  31,
+  37,
+  41,
+  45,
+  50,
+  52,
+  58,
+  60,
+  63,
+  67,
+  69,
+  77,
+  82,
+  85,
+  88,
+  94,
+  99,
+  104,
+  113,
+  115
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   2,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   7,
+   "Lie'vano",
+   "Lievano",
+   "ocr"
+  ],
+  [
+   10,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   13,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   62,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   94,
+   "[SALT]",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "Action1 and",
+   "Action and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7340b3e4cd792866a1b5db32095298ace704d1a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3521,
+  "words_out": 3517,
+  "retention": 0.9989,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   215,
+   108,
+   181,
+   163,
+   86,
+   113,
+   178,
+   108,
+   198,
+   140,
+   77,
+   133,
+   104,
+   125,
+   84,
+   70,
+   148,
+   159,
+   137,
+   75,
+   149,
+   164,
+   172,
+   223,
+   92,
+   115
+  ],
+  "warnings": []
+ }
+}

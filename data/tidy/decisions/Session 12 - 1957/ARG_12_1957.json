@@ -1,0 +1,69 @@
+{
+ "id": "ARG_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  18,
+  22,
+  25,
+  30,
+  35,
+  37,
+  43,
+  48,
+  51,
+  54,
+  57,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   " [680th meeting, para. 361",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "caf7f37cd42e1812ad894b9dcfd9bbed0343b970",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 24
+  },
+  "words_in": 2051,
+  "words_out": 2045,
+  "retention": 0.9971,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   141,
+   134,
+   144,
+   82,
+   144,
+   117,
+   161,
+   212,
+   72,
+   97,
+   149,
+   152,
+   76,
+   92,
+   102,
+   170
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "id": "TLS_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  14,
+  20,
+  23,
+  28,
+  30,
+  32,
+  35,
+  38,
+  40,
+  43,
+  45,
+  50,
+  52,
+  54,
+  59,
+  66,
+  71
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "2002. our",
+   "2002, our",
+   "ocr"
+  ],
+  [
+   8,
+   "mortality.",
+   "mortality,",
+   "ocr"
+  ],
+  [
+   13,
+   "recognizes. however",
+   "recognizes, however",
+   "ocr"
+  ],
+  [
+   13,
+   "(2000). to",
+   "(2000), to",
+   "ocr"
+  ],
+  [
+   15,
+   "70. and",
+   "70, and",
+   "ocr"
+  ],
+  [
+   16,
+   "2002. we",
+   "2002, we",
+   "ocr"
+  ],
+  [
+   16,
+   "1.200",
+   "1,200",
+   "ocr"
+  ],
+  [
+   17,
+   "2002. the",
+   "2002, the",
+   "ocr"
+  ],
+  [
+   27,
+   "Myanmar. Afghanistan. Yemen. Syria. Palestine",
+   "Myanmar, Afghanistan, Yemen, Syria, Palestine",
+   "ocr"
+  ],
+  [
+   30,
+   "off. we",
+   "off, we",
+   "ocr"
+  ],
+  [
+   33,
+   "3.000",
+   "3,000",
+   "ocr"
+  ],
+  [
+   34,
+   "17.000",
+   "17,000",
+   "ocr"
+  ],
+  [
+   35,
+   "war. with",
+   "war, with",
+   "ocr"
+  ],
+  [
+   44,
+   "low- carbon",
+   "low-carbon",
+   "hyphen"
+  ],
+  [
+   46,
+   "States.",
+   "States,",
+   "ocr"
+  ],
+  [
+   52,
+   "Satyarthi. but",
+   "Satyarthi, but",
+   "ocr"
+  ],
+  [
+   53,
+   "low- income",
+   "low-income",
+   "hyphen"
+  ],
+  [
+   54,
+   "Kurdi. an",
+   "Kurdi, an",
+   "ocr"
+  ],
+  [
+   59,
+   "Chinese.",
+   "Chinese,",
+   "ocr"
+  ],
+  [
+   60,
+   "Indian.",
+   "Indian,",
+   "ocr"
+  ],
+  [
+   66,
+   "Europe.",
+   "Europe,",
+   "ocr"
+  ],
+  [
+   67,
+   "Japan.",
+   "Japan,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "57f1738be59f2e25410e99e288d2504b3fad182d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1906,
+  "words_out": 1904,
+  "retention": 0.999,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   67,
+   72,
+   108,
+   61,
+   159,
+   96,
+   111,
+   63,
+   103,
+   78,
+   103,
+   60,
+   121,
+   116,
+   95,
+   73,
+   84,
+   107,
+   96,
+   77,
+   54
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

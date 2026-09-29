@@ -1,0 +1,72 @@
+{
+ "id": "BDI_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  38,
+  67,
+  84,
+  105,
+  125,
+  147,
+  162,
+  186,
+  214,
+  231,
+  248,
+  268,
+  299,
+  313,
+  326
+ ],
+ "cer": [
+  0,
+  20,
+  105
+ ],
+ "fix": [
+  [
+   78,
+   "(S/RES/1373 (2001), op. para. 4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2171d5c1da6297c276a1c272cffb87bd96b93c42",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 334,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2673,
+  "words_out": 2664,
+  "retention": 0.9966,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   167,
+   149,
+   223,
+   118,
+   159,
+   177,
+   185,
+   118,
+   198,
+   210,
+   140,
+   138,
+   164,
+   232,
+   118,
+   100,
+   68
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "KIR_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  16,
+  33,
+  47,
+  61,
+  81,
+  95,
+  112,
+  124,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "333facd9af6e70014c438624d99340c0badcb799",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1083,
+  "words_out": 1082,
+  "retention": 0.9991,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   50,
+   77,
+   115,
+   112,
+   104,
+   160,
+   100,
+   128,
+   85,
+   125,
+   26
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "BEN_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  19,
+  27,
+  35,
+  40,
+  47,
+  57,
+  65,
+  69,
+  76,
+  81,
+  88,
+  95,
+  100,
+  110,
+  118,
+  126,
+  131,
+  136,
+  145
+ ],
+ "cer": [
+  0,
+  4,
+  10
+ ],
+ "fix": [
+  [
+   12,
+   "sriple",
+   "triple",
+   "ocr"
+  ],
+  [
+   50,
+   "beef use",
+   "because",
+   "ocr"
+  ],
+  [
+   122,
+   "these 'facts",
+   "these facts",
+   "ocr"
+  ],
+  [
+   138,
+   "earth”..",
+   "earth”.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c5668b7ffb6f71ee859cdb558e10850fac0b499",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3055,
+  "words_out": 3025,
+  "retention": 0.9902,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   83,
+   161,
+   115,
+   97,
+   142,
+   132,
+   87,
+   136,
+   192,
+   161,
+   93,
+   112,
+   114,
+   142,
+   111,
+   86,
+   175,
+   132,
+   203,
+   89,
+   114,
+   187,
+   161
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "id": "DNK_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  17,
+  22,
+  27,
+  31,
+  35,
+  42,
+  46,
+  50,
+  56,
+  62,
+  65,
+  68,
+  74,
+  78,
+  84,
+  90,
+  96,
+  102,
+  109,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "in .collaboration",
+   "in collaboration",
+   "ocr"
+  ],
+  [
+   11,
+   "contribute.in",
+   "contribute in",
+   "ocr"
+  ],
+  [
+   20,
+   "that.has",
+   "that has",
+   "ocr"
+  ],
+  [
+   21,
+   "participation .by",
+   "participation by",
+   "ocr"
+  ],
+  [
+   21,
+   " fSWAPOJ\\",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "absolutely dear",
+   "absolutely clear",
+   "ocr"
+  ],
+  [
+   26,
+   "must he allowed",
+   "must be allowed",
+   "ocr"
+  ],
+  [
+   28,
+   "foundation .of",
+   "foundation of",
+   "ocr"
+  ],
+  [
+   47,
+   " [resolution 3362 (S-VII)]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   " [UNDP]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   " [IAEA]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "The aims race",
+   "The arms race",
+   "ocr"
+  ],
+  [
+   116,
+   "Rights* which",
+   "Rights, which",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 9 refers to the Rhodesia settlement plan without any introduction, so a passage opening the first theme (southern Africa) appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "0a5df0ff7cd26e19d615ab92b982f2582d727560",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 51
+  },
+  "words_in": 3028,
+  "words_out": 3024,
+  "retention": 0.9987,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   92,
+   117,
+   92,
+   127,
+   150,
+   120,
+   96,
+   92,
+   97,
+   110,
+   108,
+   78,
+   116,
+   97,
+   62,
+   136,
+   120,
+   139,
+   175,
+   133,
+   182,
+   195,
+   226,
+   164
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "SLB_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  6,
+  11,
+  15,
+  19,
+  27,
+  34,
+  39,
+  44,
+  47,
+  53,
+  58,
+  61,
+  65,
+  70,
+  76,
+  80,
+  85,
+  91,
+  98,
+  107,
+  112,
+  117,
+  126
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   75,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   105,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9b69fca5422aee2c160949a92096fd37cfe108d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2893,
+  "words_out": 2891,
+  "retention": 0.9993,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   108,
+   45,
+   78,
+   122,
+   88,
+   142,
+   188,
+   89,
+   128,
+   114,
+   144,
+   116,
+   60,
+   108,
+   130,
+   145,
+   82,
+   104,
+   131,
+   149,
+   211,
+   149,
+   85,
+   125,
+   50
+  ],
+  "warnings": []
+ }
+}

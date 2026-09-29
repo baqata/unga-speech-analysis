@@ -1,0 +1,104 @@
+{
+ "id": "NPL_72_2017",
+ "drop": [
+  [
+   56,
+   56,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  12,
+  17,
+  21,
+  29,
+  33,
+  41,
+  46,
+  53,
+  57,
+  60,
+  65,
+  69,
+  73,
+  77,
+  84,
+  90,
+  95,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "world- class",
+   "world-class",
+   "hyphen"
+  ],
+  [
+   54,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   63,
+   "Post- disaster",
+   "Post-disaster",
+   "hyphen"
+  ],
+  [
+   80,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34a19eb7767c7fb55751af5c6924c54a3ae4f15b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2199,
+  "words_out": 2186,
+  "retention": 0.9941,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   148,
+   85,
+   117,
+   125,
+   147,
+   59,
+   201,
+   95,
+   126,
+   64,
+   65,
+   68,
+   144,
+   71,
+   76,
+   148,
+   114,
+   102,
+   123,
+   108
+  ],
+  "warnings": [
+   "presider drop [56,56] in the middle of the speech"
+  ]
+ }
+}

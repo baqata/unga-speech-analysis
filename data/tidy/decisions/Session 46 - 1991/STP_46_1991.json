@@ -1,0 +1,111 @@
+{
+ "id": "STP_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  10,
+  13,
+  16,
+  21,
+  23,
+  25,
+  32,
+  35,
+  39,
+  41,
+  46,
+  49,
+  52,
+  60,
+  64,
+  67,
+  71,
+  72,
+  76,
+  79,
+  83
+ ],
+ "cer": [
+  0,
+  1,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   44,
+   "the some layer",
+   "the ozone layer",
+   "ocr"
+  ],
+  [
+   67,
+   "Bretton Hoods",
+   "Bretton Woods",
+   "ocr"
+  ],
+  [
+   68,
+   "our (macroeconomic",
+   "our macroeconomic",
+   "ocr"
+  ],
+  [
+   72,
+   "stabilising treasures",
+   "stabilising measures",
+   "ocr"
+  ],
+  [
+   77,
+   "of -he General",
+   "of the General",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e27ac6e81973067aeabb9f5a6b4ac4ff8434b00e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2738,
+  "words_out": 2738,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   59,
+   88,
+   99,
+   82,
+   160,
+   101,
+   178,
+   73,
+   107,
+   177,
+   69,
+   102,
+   76,
+   146,
+   120,
+   82,
+   138,
+   145,
+   71,
+   106,
+   89,
+   158,
+   115,
+   99,
+   98
+  ],
+  "warnings": []
+ }
+}

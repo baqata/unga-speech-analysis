@@ -1,0 +1,104 @@
+{
+ "id": "USA_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  18,
+  23,
+  29,
+  33,
+  38,
+  46,
+  53,
+  60,
+  63,
+  71,
+  76,
+  79,
+  84,
+  87,
+  92,
+  97,
+  101,
+  107,
+  111,
+  115,
+  118,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "that drat Commission",
+   "that Commission",
+   "ocr"
+  ],
+  [
+   28,
+   "to tire Assembly",
+   "to the Assembly",
+   "ocr"
+  ],
+  [
+   41,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   82,
+   "propaganda, I say",
+   "propaganda. I say",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8835e2c9962a8f77eb813e12f2c0866b35dcb104",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3181,
+  "words_out": 3180,
+  "retention": 0.9997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   68,
+   65,
+   128,
+   140,
+   116,
+   167,
+   81,
+   149,
+   184,
+   130,
+   139,
+   88,
+   170,
+   131,
+   137,
+   157,
+   65,
+   143,
+   125,
+   94,
+   133,
+   178,
+   128,
+   90,
+   114,
+   60
+  ],
+  "warnings": []
+ }
+}

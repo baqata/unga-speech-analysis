@@ -1,0 +1,182 @@
+{
+ "id": "MEX_26_1971",
+ "drop": [
+  [
+   19,
+   19,
+   "header_footer"
+  ],
+  [
+   23,
+   23,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  17,
+  26,
+  29,
+  32,
+  34,
+  41,
+  44,
+  48,
+  50,
+  54,
+  57,
+  60,
+  63,
+  66,
+  69,
+  71,
+  73,
+  76,
+  78,
+  80,
+  84,
+  89,
+  91,
+  95,
+  98,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "began x 50",
+   "began 150",
+   "ocr"
+  ],
+  [
+   16,
+   "it w ill",
+   "it will",
+   "split_word"
+  ],
+  [
+   25,
+   " [A/8401/Add.l, para. 196J",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "homes,",
+   "homes.",
+   "ocr"
+  ],
+  [
+   29,
+   "field,",
+   "field.",
+   "ocr"
+  ],
+  [
+   31,
+   " [resolution 2,.49 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "mankind,",
+   "mankind.",
+   "ocr"
+  ],
+  [
+   64,
+   "organizations-responsible",
+   "organizations responsible",
+   "ocr"
+  ],
+  [
+   72,
+   " [UNCTADj",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "hps",
+   "has",
+   "ocr"
+  ],
+  [
+   89,
+   "responsibility, like",
+   "responsibility. Like",
+   "ocr"
+  ],
+  [
+   97,
+   "eager-ness",
+   "eagerness",
+   "hyphen"
+  ],
+  [
+   108,
+   "analysis^",
+   "analysis,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90d30619f1b57a6560c24162fdc891b95e6d05dd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {
+   "header_footer": 1,
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 3475,
+  "words_out": 3443,
+  "retention": 0.9908,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   100,
+   137,
+   111,
+   161,
+   187,
+   144,
+   109,
+   98,
+   177,
+   98,
+   107,
+   76,
+   161,
+   86,
+   74,
+   93,
+   134,
+   103,
+   79,
+   83,
+   78,
+   70,
+   113,
+   128,
+   134,
+   78,
+   81,
+   104,
+   139,
+   200
+  ],
+  "warnings": []
+ }
+}

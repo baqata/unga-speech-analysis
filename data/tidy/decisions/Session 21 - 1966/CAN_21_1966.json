@@ -1,0 +1,198 @@
+{
+ "id": "CAN_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  13,
+  18,
+  25,
+  31,
+  36,
+  39,
+  47,
+  53,
+  57,
+  62,
+  65,
+  71,
+  77,
+  82,
+  88,
+  93,
+  99,
+  106,
+  110,
+  113,
+  118,
+  123,
+  129,
+  133,
+  138,
+  142,
+  152,
+  159,
+  165,
+  170,
+  175,
+  180,
+  184,
+  189,
+  199,
+  203,
+  208,
+  213,
+  221,
+  228,
+  232
+ ],
+ "cer": [
+  0,
+  4,
+  221
+ ],
+ "fix": [
+  [
+   37,
+   "Member State, My Government",
+   "Member State. My Government",
+   "ocr"
+  ],
+  [
+   38,
+   "Assembly,",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   55,
+   "[twentieth session, agenda item 99]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [United States of America]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "aB Members",
+   "as Members",
+   "ocr"
+  ],
+  [
+   87,
+   "problem,",
+   "problem.",
+   "ocr"
+  ],
+  [
+   95,
+   "Hanoi, Against",
+   "Hanoi. Against",
+   "ocr"
+  ],
+  [
+   106,
+   " [1412th meeting, paras. 43-49]",
+   "",
+   "label"
+  ],
+  [
+   112,
+   "war, This is",
+   "war. This is",
+   "ocr"
+  ],
+  [
+   115,
+   "our own, However",
+   "our own. However",
+   "ocr"
+  ],
+  [
+   121,
+   "countries, This should",
+   "countries. This should",
+   "ocr"
+  ],
+  [
+   125,
+   "threat of it,",
+   "threat of it.",
+   "ocr"
+  ],
+  [
+   168,
+   "try the General",
+   "by the General",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3940f0080f467a49b5f14fbf337bd366b6aa5217",
+ "layout": "lines",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 5253,
+  "words_out": 5178,
+  "retention": 0.9857,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   35,
+   78,
+   178,
+   80,
+   153,
+   117,
+   138,
+   75,
+   181,
+   138,
+   97,
+   142,
+   75,
+   120,
+   93,
+   90,
+   99,
+   76,
+   199,
+   184,
+   93,
+   79,
+   117,
+   149,
+   126,
+   91,
+   96,
+   63,
+   207,
+   126,
+   114,
+   75,
+   137,
+   150,
+   93,
+   116,
+   168,
+   121,
+   104,
+   111,
+   151,
+   139,
+   118,
+   86
+  ],
+  "warnings": []
+ }
+}

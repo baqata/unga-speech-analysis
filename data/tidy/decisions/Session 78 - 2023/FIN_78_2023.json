@@ -1,0 +1,108 @@
+{
+ "id": "FIN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  28,
+  41,
+  51,
+  56,
+  63,
+  70,
+  76,
+  83
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "ago. when",
+   "ago, when",
+   "ocr"
+  ],
+  [
+   0,
+   "Finland. the",
+   "Finland, the",
+   "ocr"
+  ],
+  [
+   22,
+   "address here.",
+   "address here,",
+   "ocr"
+  ],
+  [
+   25,
+   "Asian.",
+   "Asian,",
+   "ocr"
+  ],
+  [
+   31,
+   "aiding Ukraine.",
+   "aiding Ukraine,",
+   "ocr"
+  ],
+  [
+   33,
+   "many Finns.",
+   "many Finns,",
+   "ocr"
+  ],
+  [
+   61,
+   "Council. Finland",
+   "Council, Finland",
+   "ocr"
+  ],
+  [
+   74,
+   "New. strong",
+   "New, strong",
+   "ocr"
+  ],
+  [
+   84,
+   "We. as",
+   "We, as",
+   "ocr"
+  ],
+  [
+   85,
+   "If we do so.",
+   "If we do so,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f6276063d434841b62b8731d63f31d442cf98a9d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1313,
+  "words_out": 1311,
+  "retention": 0.9985,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   219,
+   183,
+   171,
+   158,
+   73,
+   97,
+   119,
+   99,
+   98,
+   94
+  ],
+  "warnings": []
+ }
+}

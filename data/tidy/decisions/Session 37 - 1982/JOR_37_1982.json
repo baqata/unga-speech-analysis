@@ -1,0 +1,370 @@
+{
+ "id": "JOR_37_1982",
+ "drop": [
+  [
+   171,
+   171,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  18,
+  35,
+  65,
+  90,
+  111,
+  132,
+  150,
+  172,
+  191,
+  212,
+  245,
+  270,
+  288,
+  320,
+  348,
+  366,
+  376,
+  404
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "President. it",
+   "President, it",
+   "ocr"
+  ],
+  [
+   2,
+   "Jordan. our",
+   "Jordan, our",
+   "ocr"
+  ],
+  [
+   6,
+   "out-come",
+   "outcome",
+   "hyphen"
+  ],
+  [
+   19,
+   "therein. which",
+   "therein, which",
+   "ocr"
+  ],
+  [
+   28,
+   "peacefulï",
+   "peaceful",
+   "ocr"
+  ],
+  [
+   28,
+   "'settling",
+   "settling",
+   "ocr"
+  ],
+  [
+   30,
+   "arms, race. the",
+   "arms race, the",
+   "ocr"
+  ],
+  [
+   32,
+   ".sophisticated",
+   "sophisticated",
+   "ocr"
+  ],
+  [
+   34,
+   "ends. '",
+   "ends.",
+   "ocr"
+  ],
+  [
+   52,
+   "seriously. amounting",
+   "seriously, amounting",
+   "ocr"
+  ],
+  [
+   54,
+   "a' new",
+   "a new",
+   "ocr"
+  ],
+  [
+   57,
+   "lo the",
+   "to the",
+   "ocr"
+  ],
+  [
+   62,
+   "its -ask",
+   "its task",
+   "ocr"
+  ],
+  [
+   67,
+   "world.ï",
+   "world,",
+   "ocr"
+  ],
+  [
+   72,
+   "alleged'",
+   "alleged",
+   "ocr"
+  ],
+  [
+   77,
+   "land~. the",
+   "land, the",
+   "ocr"
+  ],
+  [
+   78,
+   ",property",
+   "property",
+   "ocr"
+  ],
+  [
+   79,
+   ".and",
+   "and",
+   "ocr"
+  ],
+  [
+   86,
+   "by. to",
+   "by, to",
+   "ocr"
+  ],
+  [
+   89,
+   "fm'",
+   "for",
+   "ocr"
+  ],
+  [
+   90,
+   "approach. with",
+   "approach, with",
+   "ocr"
+  ],
+  [
+   100,
+   ".for'",
+   "for",
+   "ocr"
+  ],
+  [
+   108,
+   "security. ~ad",
+   "security, had",
+   "ocr"
+  ],
+  [
+   111,
+   "I, have",
+   "I have",
+   "ocr"
+  ],
+  [
+   113,
+   "'use",
+   "use",
+   "ocr"
+  ],
+  [
+   118,
+   "law..",
+   "law.",
+   "ocr"
+  ],
+  [
+   121,
+   "remainder. in",
+   "remainder, in",
+   "ocr"
+  ],
+  [
+   129,
+   "bombardment. which",
+   "bombardment, which",
+   "ocr"
+  ],
+  [
+   133,
+   "civilians.",
+   "civilians,",
+   "ocr"
+  ],
+  [
+   144,
+   "them. in",
+   "them, in",
+   "ocr"
+  ],
+  [
+   144,
+   "hope'",
+   "hope",
+   "ocr"
+  ],
+  [
+   147,
+   "Palestine. and",
+   "Palestine, and",
+   "ocr"
+  ],
+  [
+   172,
+   "Israel 'has",
+   "Israel has",
+   "ocr"
+  ],
+  [
+   172,
+   "53.' ",
+   "",
+   "label"
+  ],
+  [
+   188,
+   "Israel.",
+   "Israel,",
+   "ocr"
+  ],
+  [
+   193,
+   "'of",
+   "of",
+   "ocr"
+  ],
+  [
+   201,
+   "Iraqi,",
+   "Iraqi",
+   "ocr"
+  ],
+  [
+   208,
+   "dear",
+   "clear",
+   "ocr"
+  ],
+  [
+   215,
+   "just. comprehensive",
+   "just, comprehensive",
+   "ocr"
+  ],
+  [
+   222,
+   "accomplish",
+   "accomplis",
+   "ocr"
+  ],
+  [
+   237,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   306,
+   "collect e",
+   "collective",
+   "ocr"
+  ],
+  [
+   317,
+   "this whose",
+   "this whole",
+   "ocr"
+  ],
+  [
+   319,
+   "pas:",
+   "past",
+   "ocr"
+  ],
+  [
+   358,
+   "inthe",
+   "in the",
+   "merged_word"
+  ],
+  [
+   371,
+   "country. .",
+   "country.",
+   "ocr"
+  ],
+  [
+   381,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   383,
+   "hag",
+   "has",
+   "ocr"
+  ],
+  [
+   406,
+   "resent",
+   "present",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Many OCR punctuation errors (full stops for commas, stray quotes) repaired; some remain.",
+ "unitizer_version": 1,
+ "sha1": "e5e167c964f4379d15b31524ea626a4cec130d57",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 419,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3068,
+  "words_out": 3034,
+  "retention": 0.9889,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   135,
+   120,
+   209,
+   185,
+   154,
+   155,
+   126,
+   147,
+   138,
+   167,
+   246,
+   178,
+   125,
+   225,
+   202,
+   126,
+   69,
+   211,
+   116
+  ],
+  "warnings": [
+   "49 fixes"
+  ]
+ }
+}

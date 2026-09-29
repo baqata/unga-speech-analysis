@@ -1,0 +1,211 @@
+{
+ "id": "NGA_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  11,
+  15,
+  22,
+  25,
+  31,
+  36,
+  38,
+  46,
+  49,
+  50,
+  53,
+  56,
+  59,
+  66,
+  69,
+  73,
+  76,
+  80,
+  83,
+  89,
+  90,
+  96,
+  99,
+  106,
+  111,
+  115,
+  118,
+  119,
+  126,
+  135,
+  138,
+  142,
+  148,
+  154
+ ],
+ "cer": [
+  0,
+  4,
+  7,
+  10
+ ],
+ "fix": [
+  [
+   12,
+   "exorcise",
+   "exercise",
+   "ocr"
+  ],
+  [
+   28,
+   "self- reliance",
+   "self-reliance",
+   "spacing"
+  ],
+  [
+   42,
+   "want a' fundamental",
+   "want a fundamental",
+   "ocr"
+  ],
+  [
+   46,
+   "results- oriented",
+   "results-oriented",
+   "spacing"
+  ],
+  [
+   49,
+   "Committee on the\" establishment",
+   "Committee on the establishment",
+   "ocr"
+  ],
+  [
+   55,
+   "Action cm the",
+   "Action on the",
+   "ocr"
+  ],
+  [
+   61,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   62,
+   "We' note",
+   "We note",
+   "ocr"
+  ],
+  [
+   64,
+   " [resolution S-10/2]",
+   "",
+   "label"
+  ],
+  [
+   73,
+   " [resolution S-10/2, sect.",
+   "",
+   "label"
+  ],
+  [
+   74,
+   "Ill]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "Arms limitation",
+   "Arms Limitation",
+   "ocr"
+  ],
+  [
+   113,
+   " [SWAPQJ",
+   "",
+   "label"
+  ],
+  [
+   144,
+   "attempt's",
+   "attempts",
+   "ocr"
+  ],
+  [
+   144,
+   "life and - property",
+   "life and property",
+   "ocr"
+  ],
+  [
+   144,
+   "no good.'",
+   "no good.",
+   "ocr"
+  ],
+  [
+   145,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 10 appears to lack a word in \"the new of Solomon Islands\"; left as in the source.",
+ "unitizer_version": 1,
+ "sha1": "608942d5836404678460efc08682397be730f6e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3881,
+  "words_out": 3863,
+  "retention": 0.9954,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   104,
+   68,
+   73,
+   45,
+   120,
+   98,
+   70,
+   124,
+   112,
+   57,
+   128,
+   80,
+   71,
+   68,
+   127,
+   96,
+   131,
+   73,
+   113,
+   66,
+   127,
+   70,
+   130,
+   66,
+   118,
+   84,
+   145,
+   158,
+   121,
+   111,
+   51,
+   102,
+   154,
+   145,
+   80,
+   166,
+   198,
+   13
+  ],
+  "warnings": []
+ }
+}

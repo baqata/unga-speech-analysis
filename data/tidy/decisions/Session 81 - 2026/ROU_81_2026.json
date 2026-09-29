@@ -1,0 +1,160 @@
+{
+ "id": "ROU_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   59,
+   59,
+   "noise"
+  ],
+  [
+   74,
+   74,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  5,
+  10,
+  16,
+  25,
+  32,
+  40,
+  44,
+  48,
+  54,
+  60,
+  65,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "Okay. ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Iron Cartel",
+   "Iron Curtain",
+   "asr_term"
+  ],
+  [
+   9,
+   "the question",
+   "Romanian",
+   "asr_term"
+  ],
+  [
+   10,
+   "under national law",
+   "international law",
+   "asr_term"
+  ],
+  [
+   11,
+   "Romanians known",
+   "Romanians know",
+   "asr_term"
+  ],
+  [
+   35,
+   "Turquie",
+   "Türkiye",
+   "asr_name"
+  ],
+  [
+   60,
+   "Lasting piece",
+   "Lasting peace",
+   "asr_term"
+  ],
+  [
+   70,
+   "MS. ",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "China",
+   "Romania",
+   "asr_name"
+  ],
+  [
+   49,
+   "with with",
+   "with",
+   "asr_term"
+  ],
+  [
+   8,
+   "denied. and",
+   "denied. And",
+   "asr_term"
+  ],
+  [
+   13,
+   "OECD. leading",
+   "OECD. Leading",
+   "asr_term"
+  ],
+  [
+   10,
+   "country. as",
+   "country. Romania's",
+   "asr_name"
+  ],
+  [
+   47,
+   "spending. supports",
+   "spending. Romania supports",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Speaker uses English until unit 9 ('I will switch to Romanian', Spanish 'voy a hablar en rumano'); English is interpretation from unit 10. Unit 3 'Okay.' invented. 3 Spanish 'telon de hierro'; 10 'derecho internacional'; 60 'la paz duradera'. Unit 43 'China also remains' kept (Spanish 'seguimos siendo', i.e. Romania). Main-agent audit: unit 43 'Romania also remains the Republic of Moldova's strongest advocate' (every re-decode hears 'Romania', p 1.00; Spanish 'seguimos siendo el gran defensor'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 49 'with with' -> 'with'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'denied. and' -> 'denied. And'; unit 10 'country. as' -> 'country as'; unit 13 'OECD. leading' -> 'OECD. Leading'; unit 47 'spending. supports' -> 'spending. Supports'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 10 'country. as' -> 'country. Romania's' (words sit in the existing repair 'country. as' -> 'country as'; both decodes clearly hear 'country. Romania's evolution' (0.99); ES 'La evolución de Romania en los últimos 37 años'; 'as evolution ... proves' does not fit); spot 12 unit 47 'spending. supports' -> 'spending. Romania supports' (2026 exception: both decodes clearly hear 'Romania' (1.00 / 1.00), as does the UN transcript; the Spanish booth renders 'Romania supports' as 'apoyamos', confirming the subject; without it the sentence has none; replaces the earlier capital fix of the same words)",
+ "unitizer_version": 1,
+ "sha1": "a73d1482e712fbf2721d0496fd3a824d96a21e98",
+ "layout": "single",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 1541,
+  "words_out": 1490,
+  "retention": 0.9669,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   75,
+   100,
+   159,
+   124,
+   148,
+   173,
+   96,
+   80,
+   129,
+   140,
+   104,
+   94,
+   68
+  ],
+  "warnings": []
+ }
+}

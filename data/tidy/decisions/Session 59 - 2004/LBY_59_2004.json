@@ -1,0 +1,45 @@
+{
+ "id": "LBY_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  16,
+  30,
+  53,
+  71,
+  95,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Web address at units 111-112 is split across a line break (www. alqadhafi.org); left as in source.",
+ "unitizer_version": 1,
+ "sha1": "ca0c4863900f9786e399ed80706b5d8c5bdf6f73",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 901,
+  "words_out": 901,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   33,
+   94,
+   123,
+   188,
+   148,
+   183,
+   60,
+   72
+  ],
+  "warnings": []
+ }
+}

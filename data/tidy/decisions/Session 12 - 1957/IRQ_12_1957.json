@@ -1,0 +1,61 @@
+{
+ "id": "IRQ_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  19,
+  26,
+  32,
+  37,
+  42,
+  47,
+  51,
+  53,
+  60,
+  62,
+  65,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fe46acbdefc8b83ff90fd9ce1cfb6e651159fe4d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 1868,
+  "words_out": 1867,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   151,
+   154,
+   90,
+   112,
+   119,
+   96,
+   129,
+   159,
+   135,
+   125,
+   74,
+   143,
+   88,
+   86,
+   150,
+   56
+  ],
+  "warnings": []
+ }
+}

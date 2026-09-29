@@ -1,0 +1,62 @@
+{
+ "id": "PSE_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  39,
+  57,
+  79,
+  99,
+  111,
+  127,
+  148,
+  175,
+  188,
+  200,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   80,
+   "vis-‡-vis",
+   "vis-à-vis",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6b991d6c692c6fdfb5d744589df42343d615a0d7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 230,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1794,
+  "words_out": 1792,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   117,
+   152,
+   144,
+   172,
+   161,
+   97,
+   121,
+   159,
+   219,
+   100,
+   100,
+   104,
+   146
+  ],
+  "warnings": []
+ }
+}

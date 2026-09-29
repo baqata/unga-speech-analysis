@@ -1,0 +1,70 @@
+{
+ "id": "FIN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  14,
+  18,
+  26,
+  35,
+  39,
+  46,
+  49,
+  54,
+  58,
+  63,
+  67,
+  71,
+  76,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   " (ibid., Summary)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9a769b76b89a43c27587a7fe885b278db38d5072",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1647,
+  "words_out": 1644,
+  "retention": 0.9982,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   55,
+   91,
+   107,
+   64,
+   99,
+   110,
+   121,
+   103,
+   124,
+   72,
+   92,
+   83,
+   75,
+   88,
+   82,
+   78,
+   64,
+   136
+  ],
+  "warnings": []
+ }
+}

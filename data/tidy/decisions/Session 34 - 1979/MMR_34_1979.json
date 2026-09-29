@@ -1,0 +1,106 @@
+{
+ "id": "MMR_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  17,
+  20,
+  22,
+  27,
+  31,
+  34,
+  35,
+  42,
+  45,
+  50,
+  54,
+  58,
+  65,
+  69,
+  73,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "thirty- fourth",
+   "thirty-fourth",
+   "spacing"
+  ],
+  [
+   5,
+   "affairs, We",
+   "affairs. We",
+   "ocr"
+  ],
+  [
+   17,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   18,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   26,
+   "thought,",
+   "thought.",
+   "ocr"
+  ],
+  [
+   48,
+   "goal faith",
+   "good faith",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38673c201a38ab5f0cc092929ee07b57aab8e596",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2059,
+  "words_out": 2056,
+  "retention": 0.9985,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   115,
+   99,
+   150,
+   145,
+   70,
+   51,
+   137,
+   64,
+   111,
+   61,
+   156,
+   97,
+   118,
+   103,
+   108,
+   149,
+   69,
+   104,
+   120,
+   29
+  ],
+  "warnings": []
+ }
+}

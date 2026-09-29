@@ -1,0 +1,91 @@
+{
+ "id": "JPN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  20,
+  36,
+  44,
+  54,
+  68,
+  84,
+  104,
+  124,
+  139,
+  153,
+  167,
+  180,
+  191,
+  206,
+  220,
+  230,
+  248,
+  262,
+  277,
+  294,
+  308,
+  326,
+  340
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   296,
+   "funds. Member",
+   "funds, Member",
+   "ocr"
+  ],
+  [
+   302,
+   "crucial.importance",
+   "crucial importance",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9eeadc735ebf748bc52c480f5d871ccbda03a004",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 343,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3753,
+  "words_out": 3754,
+  "retention": 1.0003,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   67,
+   139,
+   162,
+   97,
+   95,
+   149,
+   167,
+   208,
+   237,
+   171,
+   146,
+   148,
+   135,
+   122,
+   167,
+   152,
+   108,
+   196,
+   152,
+   165,
+   203,
+   165,
+   198,
+   170,
+   35
+  ],
+  "warnings": []
+ }
+}

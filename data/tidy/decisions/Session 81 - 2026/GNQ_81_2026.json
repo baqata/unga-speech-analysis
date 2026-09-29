@@ -1,0 +1,109 @@
+{
+ "id": "GNQ_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   37,
+   37,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  6,
+  13,
+  18,
+  26,
+  29,
+  32,
+  34,
+  36
+ ],
+ "cer": [
+  3,
+  32,
+  36
+ ],
+ "fix": [
+  [
+   3,
+   "Khalilou Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   4,
+   "Obiang Ngema Mbastogo",
+   "Obiang Nguema Mbasogo",
+   "asr_name"
+  ],
+  [
+   17,
+   "Addis Abeba",
+   "Addis Ababa",
+   "asr_name"
+  ],
+  [
+   21,
+   "Guinea",
+   "Equatorial Guinea",
+   "asr_name"
+  ],
+  [
+   28,
+   "Esselwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   28,
+   "CERT",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   33,
+   "Obiang Nguyen Mbassogo",
+   "Obiang Nguema Mbasogo",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; unit 21 speaker said 'Guinea Ecuatorial y la República Gabonesa'; names per UN speakers list and African Union (Ezulwini Consensus, Sirte Declaration). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 21 reason asr_name: the English interpreter said 'Equatorial Guinea' (re-decodes 'Equatorial@353.5', p 0.96-0.99) and speech-to-text lost the first word at a segment start.",
+ "unitizer_version": 1,
+ "sha1": "23bf76249ee7897bed7b5138b0f23c23d8e87cbf",
+ "layout": "single",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 957,
+  "words_out": 891,
+  "retention": 0.931,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   122,
+   181,
+   111,
+   150,
+   114,
+   103,
+   49,
+   57,
+   4
+  ],
+  "warnings": []
+ }
+}

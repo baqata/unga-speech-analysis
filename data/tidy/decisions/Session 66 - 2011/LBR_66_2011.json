@@ -1,0 +1,69 @@
+{
+ "id": "LBR_66_2011",
+ "drop": [
+  [
+   146,
+   147,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  27,
+  39,
+  50,
+  61,
+  77,
+  87,
+  101,
+  118,
+  136,
+  154,
+  174,
+  183,
+  203,
+  216
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "525c60b4a639bf1db177a9aebb35c494944730a2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1681,
+  "words_out": 1672,
+  "retention": 0.9946,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   206,
+   88,
+   78,
+   81,
+   121,
+   78,
+   105,
+   115,
+   130,
+   126,
+   141,
+   70,
+   156,
+   96,
+   81
+  ],
+  "warnings": [
+   "procedural drop [146,147] in the middle of the speech"
+  ]
+ }
+}

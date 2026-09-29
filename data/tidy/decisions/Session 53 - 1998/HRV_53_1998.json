@@ -1,0 +1,82 @@
+{
+ "id": "HRV_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  28,
+  43,
+  62,
+  87,
+  101,
+  120,
+  132,
+  153,
+  170,
+  191,
+  208,
+  222,
+  234,
+  248,
+  265,
+  276,
+  292,
+  302
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   245,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   313,
+   "therefore,I",
+   "therefore, I",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d585a6ac7a4496776bcb9ad6092f419b4737703",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2672,
+  "words_out": 2673,
+  "retention": 1.0004,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   82,
+   156,
+   121,
+   151,
+   203,
+   117,
+   159,
+   91,
+   181,
+   145,
+   172,
+   177,
+   107,
+   99,
+   120,
+   144,
+   90,
+   128,
+   88,
+   142
+  ],
+  "warnings": []
+ }
+}

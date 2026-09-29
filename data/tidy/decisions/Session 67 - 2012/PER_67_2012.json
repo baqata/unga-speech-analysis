@@ -1,0 +1,70 @@
+{
+ "id": "PER_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  33,
+  50,
+  72,
+  88,
+  101,
+  110,
+  134,
+  144,
+  154,
+  169,
+  181,
+  199,
+  214
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "reaffi rms",
+   "reaffirms",
+   "split_word"
+  ],
+  [
+   135,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a1fd820e2e2610b2c4bcf88ef0610a23a3e7dd55",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1885,
+  "words_out": 1881,
+  "retention": 0.9979,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   119,
+   171,
+   145,
+   177,
+   129,
+   103,
+   74,
+   195,
+   77,
+   78,
+   121,
+   108,
+   142,
+   121,
+   121
+  ],
+  "warnings": []
+ }
+}

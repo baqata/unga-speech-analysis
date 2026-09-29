@@ -1,0 +1,84 @@
+{
+ "id": "LKA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  36,
+  48,
+  58,
+  74,
+  85,
+  109,
+  128,
+  145,
+  160,
+  171,
+  184,
+  196,
+  207,
+  212,
+  223,
+  236,
+  248,
+  258,
+  267
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "f lies",
+   "flies",
+   "split_word"
+  ],
+  [
+   79,
+   "(resolution 66/288, annex)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91e9a4a99e6ef1c397a59eff5435a193d9d3fc7f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 276,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2170,
+  "words_out": 2162,
+  "retention": 0.9963,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   71,
+   136,
+   88,
+   97,
+   88,
+   113,
+   81,
+   177,
+   149,
+   135,
+   124,
+   95,
+   94,
+   103,
+   73,
+   36,
+   81,
+   101,
+   96,
+   81,
+   74,
+   69
+  ],
+  "warnings": []
+ }
+}

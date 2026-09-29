@@ -1,0 +1,68 @@
+{
+ "id": "AND_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  38,
+  57,
+  66,
+  85,
+  98,
+  120,
+  140,
+  156,
+  171,
+  188,
+  201,
+  229,
+  253,
+  266,
+  276
+ ],
+ "cer": [],
+ "fix": [
+  [
+   210,
+   "200l",
+   "2001",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ef2fc4ff9cf84cb4b1056083b903a9796ed87db",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 297,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2682,
+  "words_out": 2680,
+  "retention": 0.9993,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   194,
+   149,
+   163,
+   78,
+   174,
+   133,
+   206,
+   171,
+   152,
+   138,
+   150,
+   120,
+   249,
+   220,
+   122,
+   75,
+   186
+  ],
+  "warnings": []
+ }
+}

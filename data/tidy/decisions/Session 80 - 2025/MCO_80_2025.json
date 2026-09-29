@@ -1,0 +1,66 @@
+{
+ "id": "MCO_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  15,
+  21,
+  27,
+  33,
+  41,
+  44,
+  53,
+  57,
+  63,
+  68
+ ],
+ "cer": [
+  68
+ ],
+ "fix": [
+  [
+   32,
+   "BB&J",
+   "BBNJ",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "78e6b470ceb1c89fec78c5334c9d1a4e24fd541b",
+ "layout": "single",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1497,
+  "words_out": 1465,
+  "retention": 0.9786,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   194,
+   146,
+   129,
+   120,
+   115,
+   153,
+   66,
+   199,
+   90,
+   141,
+   110,
+   2
+  ],
+  "warnings": []
+ }
+}

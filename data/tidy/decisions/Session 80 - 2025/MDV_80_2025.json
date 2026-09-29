@@ -1,0 +1,83 @@
+{
+ "id": "MDV_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  11,
+  23,
+  38,
+  45,
+  58,
+  66,
+  71,
+  77,
+  83,
+  93,
+  101,
+  113
+ ],
+ "cer": [
+  1,
+  113
+ ],
+ "fix": [
+  [
+   72,
+   "BB&J",
+   "BBNJ",
+   "asr_term"
+  ],
+  [
+   82,
+   "The more this will",
+   "The Maldives will",
+   "asr_name"
+  ],
+  [
+   94,
+   "Dr. Moyes",
+   "Dr. Muizzu",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 39 'Feminism' is probably a mishearing of 'Famine' and is left as transcribed.",
+ "unitizer_version": 1,
+ "sha1": "429c608789d5c252375ad254759873225fb06789",
+ "layout": "single",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1521,
+  "words_out": 1504,
+  "retention": 0.9888,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   12,
+   134,
+   109,
+   191,
+   101,
+   129,
+   100,
+   102,
+   139,
+   93,
+   137,
+   115,
+   138,
+   4
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "LAO_48_1993",
+ "drop": [
+  [
+   8,
+   8,
+   "header_footer"
+  ],
+  [
+   106,
+   106,
+   "header_footer"
+  ],
+  [
+   202,
+   202,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  16,
+  23,
+  35,
+  47,
+  62,
+  74,
+  81,
+  89,
+  109,
+  121,
+  141,
+  149,
+  164,
+  176,
+  182,
+  193
+ ],
+ "cer": [
+  0,
+  9,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b01a6081b6da25bab93999987ca1d0b1e9e2b26c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 1824,
+  "words_out": 1804,
+  "retention": 0.989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   58,
+   53,
+   109,
+   110,
+   131,
+   111,
+   65,
+   70,
+   166,
+   110,
+   165,
+   79,
+   135,
+   100,
+   52,
+   97,
+   121
+  ],
+  "warnings": []
+ }
+}

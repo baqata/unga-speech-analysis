@@ -1,0 +1,163 @@
+{
+ "id": "CMR_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  13,
+  17,
+  19,
+  25,
+  33,
+  39,
+  43,
+  52,
+  55,
+  57,
+  60,
+  67,
+  76,
+  81,
+  91,
+  95,
+  102,
+  109,
+  112,
+  118,
+  124,
+  131,
+  134,
+  138,
+  141,
+  150,
+  156,
+  162,
+  167
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "l's this",
+   "Is this",
+   "ocr"
+  ],
+  [
+   64,
+   "twentiety-century",
+   "twentieth-century",
+   "ocr"
+  ],
+  [
+   83,
+   "ty instituting",
+   "by instituting",
+   "ocr"
+  ],
+  [
+   104,
+   "person I is",
+   "person is",
+   "ocr"
+  ],
+  [
+   122,
+   "Remanded",
+   "demanded",
+   "ocr"
+  ],
+  [
+   133,
+   "recommendations..",
+   "recommendations.",
+   "ocr"
+  ],
+  [
+   146,
+   "community of we",
+   "community if we",
+   "ocr"
+  ],
+  [
+   149,
+   "[1244th meeting, paras. 78-80.]",
+   "",
+   "label"
+  ],
+  [
+   156,
+   "been, much",
+   "been much",
+   "ocr"
+  ],
+  [
+   164,
+   "cowJnent",
+   "continent",
+   "ocr"
+  ],
+  [
+   138,
+   "it is here too",
+   "It is here too",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b99a4e59d754fdb5fcb05dae5346740f50620338",
+ "layout": "lines",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 53
+  },
+  "words_in": 4606,
+  "words_out": 4601,
+  "retention": 0.9989,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   184,
+   100,
+   158,
+   113,
+   180,
+   120,
+   125,
+   174,
+   148,
+   154,
+   134,
+   89,
+   89,
+   86,
+   108,
+   205,
+   148,
+   143,
+   89,
+   113,
+   191,
+   171,
+   101,
+   128,
+   209,
+   103,
+   85,
+   61,
+   257,
+   108,
+   214,
+   126,
+   187
+  ],
+  "warnings": []
+ }
+}

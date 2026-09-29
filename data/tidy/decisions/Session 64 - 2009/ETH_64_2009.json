@@ -1,0 +1,63 @@
+{
+ "id": "ETH_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  32,
+  42,
+  52,
+  63,
+  75,
+  94,
+  103,
+  116,
+  125,
+  139,
+  156,
+  172,
+  190,
+  202,
+  212
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "068e38181939544fbdcce86dd1111b6985bbcba2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1833,
+  "words_out": 1831,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   114,
+   137,
+   79,
+   81,
+   100,
+   102,
+   171,
+   65,
+   101,
+   76,
+   121,
+   144,
+   133,
+   136,
+   101,
+   81,
+   89
+  ],
+  "warnings": []
+ }
+}

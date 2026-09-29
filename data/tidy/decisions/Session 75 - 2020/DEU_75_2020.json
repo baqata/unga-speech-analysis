@@ -1,0 +1,74 @@
+{
+ "id": "DEU_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  18,
+  24,
+  31,
+  36,
+  40,
+  45,
+  48,
+  51,
+  57,
+  61,
+  67,
+  74,
+  79,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "•We",
+   "We",
+   "markup"
+  ],
+  [
+   60,
+   "fortheir",
+   "for their",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3e70e38a9bd85bfcf534089f8220ed81e04f44db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1849,
+  "words_out": 1850,
+  "retention": 1.0005,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   6,
+   101,
+   132,
+   146,
+   116,
+   118,
+   113,
+   91,
+   99,
+   73,
+   170,
+   98,
+   123,
+   161,
+   105,
+   116,
+   82
+  ],
+  "warnings": []
+ }
+}

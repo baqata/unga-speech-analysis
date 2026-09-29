@@ -1,0 +1,133 @@
+{
+ "id": "BRB_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  15,
+  17,
+  23,
+  25,
+  31,
+  35,
+  39,
+  41,
+  44,
+  53,
+  57,
+  62,
+  66,
+  70,
+  76,
+  81,
+  84
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   5,
+   "Mr, Bouteflika",
+   "Mr. Bouteflika",
+   "ocr"
+  ],
+  [
+   6,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   7,
+   " 196",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "alter-native",
+   "alternative",
+   "hyphen"
+  ],
+  [
+   24,
+   "third- world",
+   "third-world",
+   "hyphen"
+  ],
+  [
+   30,
+   "by. their",
+   "by their",
+   "ocr"
+  ],
+  [
+   38,
+   "America,",
+   "America.",
+   "ocr"
+  ],
+  [
+   39,
+   "Egypt, My",
+   "Egypt. My",
+   "ocr"
+  ],
+  [
+   77,
+   "war, We",
+   "war. We",
+   "ocr"
+  ],
+  [
+   82,
+   "gather! together",
+   "gather together",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "641d2feed780bb094a10cf14c986b56986783100",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2616,
+  "words_out": 2613,
+  "retention": 0.9989,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   115,
+   137,
+   114,
+   110,
+   86,
+   162,
+   104,
+   184,
+   119,
+   120,
+   99,
+   114,
+   197,
+   116,
+   141,
+   111,
+   79,
+   192,
+   145,
+   105,
+   63
+  ],
+  "warnings": []
+ }
+}

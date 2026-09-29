@@ -1,0 +1,84 @@
+{
+ "id": "MLI_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  14,
+  20,
+  24,
+  31,
+  35,
+  39,
+  41,
+  45,
+  51,
+  57,
+  62,
+  67,
+  70,
+  75
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "bad to say",
+   "had to say",
+   "ocr"
+  ],
+  [
+   30,
+   "1962.r In our",
+   "1962.\" In our",
+   "ocr"
+  ],
+  [
+   55,
+   "peace; it must",
+   "peace, it must",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "669303a7bbbe0b808d8ff013ff609ae336872e6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 1822,
+  "words_out": 1799,
+  "retention": 0.9874,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   79,
+   63,
+   131,
+   63,
+   124,
+   85,
+   186,
+   64,
+   78,
+   77,
+   88,
+   100,
+   130,
+   115,
+   132,
+   75,
+   89,
+   120
+  ],
+  "warnings": []
+ }
+}

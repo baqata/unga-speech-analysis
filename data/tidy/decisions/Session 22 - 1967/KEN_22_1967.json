@@ -1,0 +1,114 @@
+{
+ "id": "KEN_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  21,
+  31,
+  37,
+  45,
+  51,
+  55,
+  62,
+  76,
+  90,
+  98,
+  105,
+  114,
+  120,
+  127,
+  131
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "welcomes, the",
+   "welcomes the",
+   "ocr"
+  ],
+  [
+   25,
+   "It Is well",
+   "It is well",
+   "ocr"
+  ],
+  [
+   44,
+   "must Include",
+   "must include",
+   "ocr"
+  ],
+  [
+   52,
+   "Africa, I should like",
+   "Africa. I should like",
+   "ocr"
+  ],
+  [
+   53,
+   "if not In fact",
+   "if not in fact",
+   "ocr"
+  ],
+  [
+   53,
+   "be Ineffective",
+   "be ineffective",
+   "ocr"
+  ],
+  [
+   75,
+   "implementation, My delegation",
+   "implementation. My delegation",
+   "ocr"
+  ],
+  [
+   97,
+   "armaments, But let",
+   "armaments. But let",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "28e12a8d5ad11ce564cd5ec6ddce9b658bdd04e8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2501,
+  "words_out": 2476,
+  "retention": 0.99,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   120,
+   87,
+   168,
+   182,
+   124,
+   109,
+   129,
+   104,
+   126,
+   221,
+   231,
+   149,
+   112,
+   154,
+   100,
+   147,
+   63,
+   150
+  ],
+  "warnings": []
+ }
+}

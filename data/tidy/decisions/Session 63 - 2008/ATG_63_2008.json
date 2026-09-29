@@ -1,0 +1,51 @@
+{
+ "id": "ATG_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  55,
+  68,
+  82,
+  98,
+  116,
+  142,
+  166,
+  188
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "677b22a332d00e7eadbaac6734ffbfca2608cdcd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1593,
+  "words_out": 1592,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   112,
+   79,
+   231,
+   101,
+   101,
+   115,
+   151,
+   182,
+   172,
+   158,
+   190
+  ],
+  "warnings": []
+ }
+}

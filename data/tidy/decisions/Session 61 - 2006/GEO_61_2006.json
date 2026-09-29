@@ -1,0 +1,95 @@
+{
+ "id": "GEO_61_2006",
+ "drop": [
+  [
+   227,
+   228,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  20,
+  39,
+  50,
+  67,
+  85,
+  100,
+  111,
+  127,
+  137,
+  154,
+  163,
+  181,
+  197,
+  216,
+  234,
+  245,
+  254,
+  267,
+  278,
+  289,
+  299,
+  314,
+  328,
+  339,
+  350
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37681c2ce68381b47dbbc797864964b83226615b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 355,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2907,
+  "words_out": 2900,
+  "retention": 0.9976,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   34,
+   53,
+   77,
+   158,
+   97,
+   135,
+   138,
+   132,
+   97,
+   133,
+   80,
+   160,
+   76,
+   144,
+   113,
+   148,
+   129,
+   85,
+   86,
+   112,
+   90,
+   94,
+   75,
+   118,
+   100,
+   92,
+   103,
+   41
+  ],
+  "warnings": [
+   "procedural drop [227,228] in the middle of the speech"
+  ]
+ }
+}

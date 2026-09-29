@@ -1,0 +1,157 @@
+{
+ "id": "IRN_20_1965",
+ "drop": [
+  [
+   103,
+   103,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  13,
+  17,
+  25,
+  28,
+  35,
+  38,
+  44,
+  48,
+  53,
+  57,
+  63,
+  71,
+  77,
+  85,
+  89,
+  95,
+  104,
+  113,
+  122,
+  128,
+  137,
+  141,
+  144
+ ],
+ "cer": [
+  0,
+  5,
+  25,
+  141
+ ],
+ "fix": [
+  [
+   3,
+   "unfortunated",
+   "unfortunate",
+   "ocr"
+  ],
+  [
+   31,
+   "advantage • of",
+   "advantage of",
+   "ocr"
+  ],
+  [
+   55,
+   "[A/5964], A study",
+   "[A/5964]. A study",
+   "ocr"
+  ],
+  [
+   75,
+   "war wall always",
+   "war will always",
+   "ocr"
+  ],
+  [
+   78,
+   "the Foreign.",
+   "the Foreign",
+   "ocr"
+  ],
+  [
+   100,
+   "cannot he true",
+   "cannot be true",
+   "ocr"
+  ],
+  [
+   124,
+   "have, come",
+   "have come",
+   "ocr"
+  ],
+  [
+   139,
+   "Twenty- four",
+   "Twenty-four",
+   "hyphen"
+  ],
+  [
+   55,
+   " [A/5964]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   " [186 (1964)]",
+   "",
+   "label"
+  ],
+  [
+   118,
+   " [A/6024]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85a973ebc93c13d50f0e7e29cf8fba683a5a1320",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 3434,
+  "words_out": 3391,
+  "retention": 0.9875,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   92,
+   199,
+   75,
+   161,
+   72,
+   105,
+   88,
+   190,
+   94,
+   125,
+   136,
+   159,
+   172,
+   149,
+   185,
+   80,
+   125,
+   202,
+   173,
+   216,
+   123,
+   161,
+   90,
+   75,
+   144
+  ],
+  "warnings": []
+ }
+}

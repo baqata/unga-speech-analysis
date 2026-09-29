@@ -1,0 +1,68 @@
+{
+ "id": "CUB_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  32,
+  56,
+  78,
+  92,
+  104,
+  113,
+  124,
+  142,
+  151,
+  162,
+  171,
+  193,
+  207,
+  219,
+  240,
+  256
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "environmental. food",
+   "environmental, food",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ce9bb32fffb86e64efd881e9834fe85b560991b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2134,
+  "words_out": 2132,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   139,
+   116,
+   185,
+   171,
+   106,
+   90,
+   72,
+   87,
+   148,
+   69,
+   93,
+   61,
+   193,
+   102,
+   90,
+   167,
+   135,
+   108
+  ],
+  "warnings": []
+ }
+}

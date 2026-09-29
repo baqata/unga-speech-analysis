@@ -1,0 +1,71 @@
+{
+ "id": "UGA_62_2007",
+ "drop": [
+  [
+   177,
+   177,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  28,
+  49,
+  63,
+  80,
+  97,
+  114,
+  131,
+  149,
+  164,
+  178,
+  190,
+  203,
+  220,
+  239,
+  250
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d43f7cf3f134a00ccd1f91824c69ca260d15730e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2031,
+  "words_out": 2020,
+  "retention": 0.9946,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   96,
+   129,
+   157,
+   101,
+   122,
+   126,
+   146,
+   120,
+   146,
+   119,
+   96,
+   84,
+   101,
+   139,
+   162,
+   80,
+   96
+  ],
+  "warnings": [
+   "procedural drop [177,177] in the middle of the speech"
+  ]
+ }
+}

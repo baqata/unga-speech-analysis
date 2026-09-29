@@ -1,0 +1,68 @@
+{
+ "id": "MDA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  16,
+  20,
+  24,
+  27,
+  34,
+  37,
+  44,
+  49,
+  54,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   37,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a58444c9a8f6fa207c7ccb410c4a6a5a4a8541fb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2124,
+  "words_out": 2118,
+  "retention": 0.9972,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   121,
+   184,
+   167,
+   139,
+   136,
+   103,
+   163,
+   99,
+   265,
+   260,
+   179,
+   213,
+   89
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "LBR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  35,
+  45,
+  65,
+  74,
+  87,
+  107,
+  124,
+  140,
+  160,
+  174,
+  187,
+  200,
+  216,
+  233
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   98,
+   "ref lective",
+   "reflective",
+   "split_word"
+  ],
+  [
+   204,
+   "f led",
+   "fled",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43de8c31c8c40f151c94522e7cff2f15c2451208",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1861,
+  "words_out": 1854,
+  "retention": 0.9962,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   144,
+   126,
+   75,
+   147,
+   64,
+   110,
+   159,
+   129,
+   128,
+   140,
+   119,
+   109,
+   91,
+   121,
+   126,
+   66
+  ],
+  "warnings": []
+ }
+}

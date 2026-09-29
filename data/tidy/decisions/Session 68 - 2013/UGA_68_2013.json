@@ -1,0 +1,82 @@
+{
+ "id": "UGA_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  27,
+  40,
+  49,
+  61,
+  70,
+  78,
+  97,
+  108,
+  136,
+  146,
+  158
+ ],
+ "cer": [],
+ "fix": [
+  [
+   111,
+   "says :",
+   "says:",
+   "spacing"
+  ],
+  [
+   112,
+   "“ By",
+   "“By",
+   "spacing"
+  ],
+  [
+   125,
+   " (ibid., Matthew 5:16)",
+   "",
+   "label"
+  ],
+  [
+   119,
+   " (The Holy",
+   "",
+   "label"
+  ],
+  [
+   120,
+   "Bible, Matthew 7:16-20)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35fff065ee027c8d0be0c0621ea240ec2dcb96b2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1495,
+  "words_out": 1485,
+  "retention": 0.9933,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   115,
+   103,
+   101,
+   71,
+   105,
+   65,
+   66,
+   143,
+   87,
+   241,
+   85,
+   106,
+   197
+  ],
+  "warnings": []
+ }
+}

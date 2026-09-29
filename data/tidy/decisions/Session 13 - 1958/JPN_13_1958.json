@@ -1,0 +1,177 @@
+{
+ "id": "JPN_13_1958",
+ "drop": [
+  [
+   2,
+   2,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  15,
+  22,
+  27,
+  33,
+  40,
+  43,
+  46,
+  50,
+  55,
+  60,
+  64,
+  67,
+  72,
+  75,
+  79,
+  82,
+  87,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "so scion",
+   "session",
+   "ocr"
+  ],
+  [
+   11,
+   "tire present",
+   "the present",
+   "ocr"
+  ],
+  [
+   12,
+   "development In",
+   "development in",
+   "ocr"
+  ],
+  [
+   13,
+   "Issues",
+   "issues",
+   "ocr"
+  ],
+  [
+   22,
+   " [680th meeting, para. 85)",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "Independence",
+   "independence",
+   "ocr"
+  ],
+  [
+   26,
+   "on-their",
+   "on their",
+   "ocr"
+  ],
+  [
+   27,
+   " (General Assembly resolution 1237 (ES-III))",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "and. compromise",
+   "and compromise",
+   "ocr"
+  ],
+  [
+   35,
+   ".test",
+   "test",
+   "ocr"
+  ],
+  [
+   35,
+   " [A/Cl/ L.174]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "The, Japanese",
+   "The Japanese",
+   "ocr"
+  ],
+  [
+   40,
+   "].",
+   "],",
+   "ocr"
+  ],
+  [
+   57,
+   "Is created",
+   "is created",
+   "ocr"
+  ],
+  [
+   63,
+   "in-a",
+   "in a",
+   "ocr"
+  ],
+  [
+   92,
+   "positive “contributions",
+   "positive contributions",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 is a stray paragraph number ('89.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "62ad4af3fcae9b036f82419a883eb491bc1dfffb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 32
+  },
+  "words_in": 2831,
+  "words_out": 2819,
+  "retention": 0.9958,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   144,
+   69,
+   148,
+   218,
+   187,
+   211,
+   159,
+   101,
+   89,
+   190,
+   122,
+   122,
+   114,
+   88,
+   85,
+   134,
+   126,
+   148,
+   111,
+   192,
+   61
+  ],
+  "warnings": []
+ }
+}

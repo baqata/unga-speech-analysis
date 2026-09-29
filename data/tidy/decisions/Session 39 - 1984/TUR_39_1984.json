@@ -1,0 +1,120 @@
+{
+ "id": "TUR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  15,
+  21,
+  27,
+  31,
+  39,
+  45,
+  51,
+  54,
+  59,
+  63,
+  68,
+  77,
+  84,
+  86,
+  87,
+  93,
+  97,
+  103,
+  109,
+  113,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   49,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   53,
+   "South- East",
+   "South-East",
+   "hyphen"
+  ],
+  [
+   63,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   66,
+   "basis, we are encouraged",
+   "basis. We are encouraged",
+   "ocr"
+  ],
+  [
+   106,
+   "one county",
+   "one country",
+   "ocr"
+  ],
+  [
+   118,
+   "Confidence' and",
+   "Confidence and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b36576d09647457880548c9cbdb836f0460063c9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3080,
+  "words_out": 3076,
+  "retention": 0.9987,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   136,
+   77,
+   183,
+   114,
+   152,
+   124,
+   134,
+   120,
+   117,
+   86,
+   115,
+   106,
+   139,
+   211,
+   161,
+   63,
+   66,
+   170,
+   156,
+   138,
+   129,
+   115,
+   92,
+   172
+  ],
+  "warnings": []
+ }
+}

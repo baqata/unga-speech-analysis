@@ -1,0 +1,58 @@
+{
+ "id": "ARM_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  26,
+  48,
+  62,
+  79,
+  103,
+  123,
+  136,
+  157,
+  171,
+  181,
+  194,
+  207
+ ],
+ "cer": [
+  0,
+  207
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d505212629e0a6aca2d7d47cab4b3f4ded35713",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1671,
+  "words_out": 1669,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   86,
+   119,
+   194,
+   103,
+   127,
+   180,
+   155,
+   104,
+   169,
+   108,
+   78,
+   104,
+   107,
+   35
+  ],
+  "warnings": []
+ }
+}

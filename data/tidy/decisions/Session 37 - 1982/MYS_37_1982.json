@@ -1,0 +1,382 @@
+{
+ "id": "MYS_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  31,
+  47,
+  57,
+  71,
+  82,
+  102,
+  130,
+  139,
+  180,
+  210,
+  228,
+  256,
+  272,
+  286,
+  299,
+  334,
+  357,
+  376,
+  397,
+  409,
+  427,
+  447,
+  473,
+  490,
+  516,
+  532
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "ejection",
+   "election",
+   "ocr"
+  ],
+  [
+   3,
+   "recog-nition",
+   "recognition",
+   "hyphen"
+  ],
+  [
+   3,
+   "ejection",
+   "election",
+   "ocr"
+  ],
+  [
+   6,
+   "con-fident",
+   "confident",
+   "hyphen"
+  ],
+  [
+   16,
+   "interna-tional",
+   "international",
+   "hyphen"
+  ],
+  [
+   20,
+   "con-flicts",
+   "conflicts",
+   "hyphen"
+  ],
+  [
+   34,
+   "coun-tries",
+   "countries",
+   "hyphen"
+  ],
+  [
+   35,
+   "by this",
+   "by the",
+   "ocr"
+  ],
+  [
+   75,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   89,
+   "of South",
+   "of South-",
+   "spacing"
+  ],
+  [
+   94,
+   "situa-tion",
+   "situation",
+   "hyphen"
+  ],
+  [
+   108,
+   "Demo-cratic",
+   "Democratic",
+   "hyphen"
+  ],
+  [
+   115,
+   "attain-ment",
+   "attainment",
+   "hyphen"
+  ],
+  [
+   118,
+   "estab-lishing",
+   "establishing",
+   "hyphen"
+  ],
+  [
+   122,
+   "High-ness",
+   "Highness",
+   "hyphen"
+  ],
+  [
+   123,
+   "Demo-cratic",
+   "Democratic",
+   "hyphen"
+  ],
+  [
+   128,
+   "inde-pendence",
+   "independence",
+   "hyphen"
+  ],
+  [
+   135,
+   "rights us a",
+   "rights as a",
+   "ocr"
+  ],
+  [
+   155,
+   "home-land",
+   "homeland",
+   "hyphen"
+  ],
+  [
+   174,
+   "atroc-ities",
+   "atrocities",
+   "hyphen"
+  ],
+  [
+   191,
+   "adjust",
+   "a just",
+   "split_word"
+  ],
+  [
+   209,
+   "[PLO] ",
+   "",
+   "label"
+  ],
+  [
+   219,
+   "interna-tional",
+   "international",
+   "hyphen"
+  ],
+  [
+   222,
+   "home-land",
+   "homeland",
+   "hyphen"
+  ],
+  [
+   237,
+   "neigh-bouring",
+   "neighbouring",
+   "hyphen"
+  ],
+  [
+   245,
+   "restora-tion",
+   "restoration",
+   "hyphen"
+  ],
+  [
+   258,
+   "gone on, far",
+   "gone on far",
+   "ocr"
+  ],
+  [
+   270,
+   "reconcilia-tion",
+   "reconciliation",
+   "hyphen"
+  ],
+  [
+   279,
+   "con-tinue",
+   "continue",
+   "hyphen"
+  ],
+  [
+   294,
+   "per-manently",
+   "permanently",
+   "hyphen"
+  ],
+  [
+   304,
+   "eco-nomic",
+   "economic",
+   "hyphen"
+  ],
+  [
+   314,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   359,
+   "eco-nomy",
+   "economy",
+   "hyphen"
+  ],
+  [
+   368,
+   "strategic —meaning",
+   "strategic—meaning",
+   "spacing"
+  ],
+  [
+   390,
+   "asso-ciation",
+   "association",
+   "hyphen"
+  ],
+  [
+   397,
+   "arc at",
+   "are at",
+   "ocr"
+  ],
+  [
+   402,
+   "unprece-dented^",
+   "unprecedented",
+   "ocr"
+  ],
+  [
+   421,
+   "unem-ployment",
+   "unemployment",
+   "hyphen"
+  ],
+  [
+   452,
+   "what-ever",
+   "whatever",
+   "hyphen"
+  ],
+  [
+   460,
+   "sea-bed!",
+   "sea-bed.",
+   "ocr"
+  ],
+  [
+   462,
+   "extrac-tion",
+   "extraction",
+   "hyphen"
+  ],
+  [
+   466,
+   "extracted ^",
+   "extracted,",
+   "ocr"
+  ],
+  [
+   501,
+   "dis-coverers",
+   "discoverers",
+   "hyphen"
+  ],
+  [
+   514,
+   "exploita-tion",
+   "exploitation",
+   "hyphen"
+  ],
+  [
+   522,
+   "Treaty,'",
+   "Treaty,",
+   "ocr"
+  ],
+  [
+   527,
+   "6he",
+   "the",
+   "ocr"
+  ],
+  [
+   535,
+   "imper-ative",
+   "imperative",
+   "hyphen"
+  ],
+  [
+   542,
+   "wisely,not",
+   "wisely, not",
+   "spacing"
+  ],
+  [
+   554,
+   "reso-lution",
+   "resolution",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d98aa1b67a0719403ba7be9148742fbca8831773",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 559,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 31
+  },
+  "words_in": 4221,
+  "words_out": 4180,
+  "retention": 0.9903,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   110,
+   111,
+   124,
+   81,
+   102,
+   79,
+   143,
+   205,
+   66,
+   313,
+   222,
+   121,
+   188,
+   121,
+   101,
+   99,
+   275,
+   180,
+   128,
+   168,
+   91,
+   126,
+   158,
+   209,
+   124,
+   205,
+   122,
+   208
+  ],
+  "warnings": [
+   "49 fixes"
+  ]
+ }
+}

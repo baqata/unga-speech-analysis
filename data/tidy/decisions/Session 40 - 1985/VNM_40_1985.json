@@ -1,0 +1,109 @@
+{
+ "id": "VNM_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  9,
+  13,
+  16,
+  20,
+  24,
+  26,
+  30,
+  33,
+  35,
+  39,
+  44,
+  49,
+  52,
+  56,
+  58,
+  60,
+  65,
+  69
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   4,
+   "Second world War",
+   "Second World War",
+   "ocr"
+  ],
+  [
+   6,
+   "century.* These",
+   "century. These",
+   "ocr"
+  ],
+  [
+   15,
+   "Soviet Onion's",
+   "Soviet Union's",
+   "ocr"
+  ],
+  [
+   16,
+   "Second world War",
+   "Second World War",
+   "ocr"
+  ],
+  [
+   28,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   30,
+   "United states",
+   "United States",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 35 appears to lose words mid-sentence in the source (\"to undermine the latter's unity the fundamental national rights\").",
+ "unitizer_version": 1,
+ "sha1": "fd60548231f449c5fbb0a48ed7256bc17fdbcb57",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2475,
+  "words_out": 2475,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   39,
+   62,
+   232,
+   120,
+   88,
+   124,
+   146,
+   99,
+   128,
+   87,
+   119,
+   114,
+   188,
+   86,
+   94,
+   143,
+   85,
+   111,
+   124,
+   145,
+   141
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "VEN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  18,
+  23,
+  29,
+  36,
+  38,
+  42,
+  45,
+  51,
+  55,
+  61,
+  68
+ ],
+ "cer": [
+  0,
+  68
+ ],
+ "fix": [
+  [
+   10,
+   "South- South",
+   "South-South",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1d20ce6daa6fa4a3efbec3b61419fdf91971d33",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1953,
+  "words_out": 1952,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   67,
+   170,
+   187,
+   169,
+   205,
+   140,
+   143,
+   79,
+   141,
+   107,
+   135,
+   75,
+   161,
+   146,
+   27
+  ],
+  "warnings": []
+ }
+}

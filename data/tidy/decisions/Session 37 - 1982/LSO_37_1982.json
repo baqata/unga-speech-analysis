@@ -1,0 +1,308 @@
+{
+ "id": "LSO_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  64,
+  192,
+  223,
+  248,
+  264
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "world wide",
+   "world-wide",
+   "spacing"
+  ],
+  [
+   14,
+   "and co",
+   "and co-",
+   "spacing"
+  ],
+  [
+   18,
+   "thirty sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   21,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   25,
+   "United stations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   31,
+   "the; increase",
+   "the increase",
+   "ocr"
+  ],
+  [
+   32,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   46,
+   "TM world",
+   "The world",
+   "ocr"
+  ],
+  [
+   70,
+   "East West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   71,
+   "thirty sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   73,
+   "June July",
+   "June-July",
+   "spacing"
+  ],
+  [
+   76,
+   "build up",
+   "build-up",
+   "spacing"
+  ],
+  [
+   82,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   85,
+   "of big",
+   "of big-",
+   "spacing"
+  ],
+  [
+   93,
+   "the non",
+   "the non-",
+   "spacing"
+  ],
+  [
+   102,
+   "war torn",
+   "war-torn",
+   "spacing"
+  ],
+  [
+   106,
+   "President elect",
+   "President-elect",
+   "spacing"
+  ],
+  [
+   106,
+   "Jashir",
+   "Bashir",
+   "ocr"
+  ],
+  [
+   111,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   113,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   124,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   131,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   139,
+   "pre conditions",
+   "pre-conditions",
+   "spacing"
+  ],
+  [
+   142,
+   "well known",
+   "well-known",
+   "spacing"
+  ],
+  [
+   143,
+   "Falk larders",
+   "Falklanders",
+   "split_word"
+  ],
+  [
+   144,
+   "to self",
+   "to self-",
+   "spacing"
+  ],
+  [
+   152,
+   "world wide",
+   "world-wide",
+   "spacing"
+  ],
+  [
+   160,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   165,
+   "the. Sea",
+   "the Sea",
+   "ocr"
+  ],
+  [
+   167,
+   "land locked",
+   "land-locked",
+   "spacing"
+  ],
+  [
+   167,
+   "sear",
+   "sea",
+   "ocr"
+  ],
+  [
+   177,
+   "our co",
+   "our co-",
+   "spacing"
+  ],
+  [
+   181,
+   "Inter sessional",
+   "Inter-sessional",
+   "spacing"
+  ],
+  [
+   190,
+   "economic co",
+   "economic co-",
+   "spacing"
+  ],
+  [
+   196,
+   "sub regional",
+   "sub-regional",
+   "spacing"
+  ],
+  [
+   214,
+   "Development Co",
+   "Development Co-",
+   "spacing"
+  ],
+  [
+   219,
+   "self reliance",
+   "self-reliance",
+   "spacing"
+  ],
+  [
+   229,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   238,
+   "geo political",
+   "geo-political",
+   "spacing"
+  ],
+  [
+   239,
+   "and socio",
+   "and socio-",
+   "spacing"
+  ],
+  [
+   268,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   271,
+   "Colourgds",
+   "Coloureds",
+   "ocr"
+  ],
+  [
+   287,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   296,
+   "fbr",
+   "for",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with almost no line-initial sentence starts forces very long paragraphs; the word apartheid is missing at unit 250.",
+ "unitizer_version": 1,
+ "sha1": "ac696207f80e0aa9ab709ff25b1a3b3c18180a9d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 299,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3258,
+  "words_out": 3226,
+  "retention": 0.9902,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   694,
+   1385,
+   333,
+   263,
+   175,
+   376
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 694 words",
+   "paragraph at unit 64 has 1385 words",
+   "paragraph at unit 192 has 333 words",
+   "paragraph at unit 264 has 376 words",
+   "44 fixes"
+  ]
+ }
+}

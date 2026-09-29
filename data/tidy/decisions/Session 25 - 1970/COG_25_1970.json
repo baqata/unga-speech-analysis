@@ -1,0 +1,82 @@
+{
+ "id": "COG_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  8,
+  10,
+  12,
+  13,
+  15,
+  19,
+  22,
+  29,
+  34,
+  39,
+  45,
+  49,
+  53,
+  57,
+  63,
+  66,
+  68,
+  71
+ ],
+ "cer": [
+  0,
+  1,
+  6,
+  8
+ ],
+ "fix": [
+  [
+   8,
+   "twenty- fourth",
+   "twenty-fourth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "885a97ec74e3131c4cce8df33628515f11a017f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 2823,
+  "words_out": 2822,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   105,
+   156,
+   120,
+   95,
+   116,
+   94,
+   87,
+   112,
+   81,
+   199,
+   135,
+   166,
+   218,
+   141,
+   99,
+   186,
+   147,
+   92,
+   98,
+   168,
+   207
+  ],
+  "warnings": []
+ }
+}

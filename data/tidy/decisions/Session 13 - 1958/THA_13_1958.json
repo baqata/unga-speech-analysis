@@ -1,0 +1,165 @@
+{
+ "id": "THA_13_1958",
+ "drop": [
+  [
+   71,
+   71,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  9,
+  29,
+  33,
+  42,
+  47,
+  49,
+  51,
+  54,
+  57,
+  63,
+  64,
+  66,
+  72,
+  76,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "mistrust-and",
+   "mistrust and",
+   "ocr"
+  ],
+  [
+   10,
+   "together ’in",
+   "together in",
+   "ocr"
+  ],
+  [
+   16,
+   "\"4, Abstention",
+   "\"4. Abstention",
+   "ocr"
+  ],
+  [
+   21,
+   "threats o! aggression",
+   "threats of aggression",
+   "ocr"
+  ],
+  [
+   30,
+   "1957. in that",
+   "1957. In that",
+   "ocr"
+  ],
+  [
+   32,
+   "Hungary. .",
+   "Hungary.",
+   "ocr"
+  ],
+  [
+   34,
+   "I Issued",
+   "I issued",
+   "ocr"
+  ],
+  [
+   35,
+   "the Insistent",
+   "the insistent",
+   "ocr"
+  ],
+  [
+   40,
+   " [A/ 3849]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "for Instance",
+   "for instance",
+   "ocr"
+  ],
+  [
+   48,
+   "concrete' evidence",
+   "concrete evidence",
+   "ocr"
+  ],
+  [
+   52,
+   "for Interested",
+   "for interested",
+   "ocr"
+  ],
+  [
+   62,
+   "settlement, Thailand",
+   "settlement. Thailand",
+   "ocr"
+  ],
+  [
+   67,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   88,
+   "major War",
+   "major war",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 71 ('91.') is a stray paragraph number left in the view, dropped as header_footer. The Bandung list (units 9-28) is kept with its lead-in as one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "dce386e00167223fbd11590006ba8a4af501a781",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 18
+  },
+  "words_in": 2427,
+  "words_out": 2423,
+  "retention": 0.9984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   112,
+   182,
+   325,
+   144,
+   271,
+   176,
+   64,
+   92,
+   93,
+   142,
+   144,
+   64,
+   80,
+   129,
+   75,
+   160,
+   170
+  ],
+  "warnings": [
+   "paragraph at unit 9 has 325 words"
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "BRN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  19,
+  32,
+  48,
+  57,
+  69
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0433d6494df01d43c696471b9c82ab2f61cff8ab",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 735,
+  "words_out": 734,
+  "retention": 0.9986,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   25,
+   144,
+   120,
+   143,
+   81,
+   120,
+   101
+  ],
+  "warnings": []
+ }
+}

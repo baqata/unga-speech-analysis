@@ -1,0 +1,289 @@
+{
+ "id": "PER_36_1981",
+ "drop": [
+  [
+   45,
+   45,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  6,
+  7,
+  11,
+  13,
+  16,
+  18,
+  21,
+  26,
+  29,
+  34,
+  37,
+  42,
+  44,
+  50,
+  53,
+  55,
+  57,
+  64,
+  66,
+  70,
+  72,
+  74,
+  75,
+  79,
+  81,
+  84,
+  87,
+  90,
+  92,
+  94,
+  98,
+  99,
+  101,
+  103,
+  107,
+  110,
+  114,
+  117,
+  121,
+  123
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  5,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "thirty--sixth",
+   "thirty-sixth",
+   "ocr"
+  ],
+  [
+   2,
+   "Riidiger",
+   "Rudiger",
+   "ocr"
+  ],
+  [
+   5,
+   "133>. ",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "Waidheim",
+   "Waldheim",
+   "ocr"
+  ],
+  [
+   8,
+   "have, emerged",
+   "have emerged",
+   "ocr"
+  ],
+  [
+   15,
+   "reflect, enmity",
+   "reflect enmity",
+   "ocr"
+  ],
+  [
+   20,
+   "Republic.\" ''",
+   "Republic.\"",
+   "ocr"
+  ],
+  [
+   33,
+   "democratic! system",
+   "democratic system",
+   "ocr"
+  ],
+  [
+   38,
+   "Cartegena",
+   "Cartagena",
+   "ocr"
+  ],
+  [
+   40,
+   "in' Lima",
+   "in Lima",
+   "ocr"
+  ],
+  [
+   43,
+   "note, that,",
+   "note that,",
+   "ocr"
+  ],
+  [
+   43,
+   "received,' the",
+   "received, the",
+   "ocr"
+  ],
+  [
+   44,
+   " [A/36/1, sect.",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "1981,9 informed",
+   "1981, informed",
+   "ocr"
+  ],
+  [
+   60,
+   "we, contribute",
+   "we contribute",
+   "ocr"
+  ],
+  [
+   68,
+   "international older",
+   "international order",
+   "ocr"
+  ],
+  [
+   69,
+   " [SELA]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "the. association",
+   "the association",
+   "ocr"
+  ],
+  [
+   74,
+   "Government, of Peru",
+   "Government of Peru",
+   "ocr"
+  ],
+  [
+   74,
+   "same, time",
+   "same time",
+   "ocr"
+  ],
+  [
+   75,
+   "of 'their",
+   "of their",
+   "ocr"
+  ],
+  [
+   76,
+   "reason,'",
+   "reason,",
+   "ocr"
+  ],
+  [
+   86,
+   "a desires",
+   "a desire",
+   "ocr"
+  ],
+  [
+   92,
+   "energy.\"",
+   "energy.",
+   "ocr"
+  ],
+  [
+   106,
+   "Justice.12 We",
+   "Justice. We",
+   "ocr"
+  ],
+  [
+   116,
+   "if is urgent",
+   "It is urgent",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efb4d694b9d80769892f9e0c209cad68947e1f8f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 67
+  },
+  "words_in": 4439,
+  "words_out": 4431,
+  "retention": 0.9982,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   48,
+   39,
+   48,
+   28,
+   51,
+   122,
+   75,
+   99,
+   63,
+   91,
+   220,
+   71,
+   116,
+   137,
+   158,
+   83,
+   204,
+   93,
+   102,
+   69,
+   166,
+   116,
+   179,
+   110,
+   64,
+   68,
+   148,
+   70,
+   117,
+   134,
+   95,
+   101,
+   98,
+   139,
+   61,
+   63,
+   90,
+   129,
+   104,
+   136,
+   106,
+   85,
+   68,
+   67
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

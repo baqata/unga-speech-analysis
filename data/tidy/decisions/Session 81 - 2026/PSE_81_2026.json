@@ -1,0 +1,151 @@
+{
+ "id": "PSE_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   2,
+   "other_speaker"
+  ],
+  [
+   52,
+   52,
+   "noise"
+  ],
+  [
+   108,
+   108,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  8,
+  10,
+  15,
+  18,
+  23,
+  31,
+  36,
+  40,
+  44,
+  47,
+  53,
+  56,
+  61,
+  66,
+  70,
+  79,
+  84,
+  90,
+  95,
+  97,
+  100
+ ],
+ "cer": [
+  95
+ ],
+ "fix": [
+  [
+   3,
+   "Khalilul Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   33,
+   "to hold the aggression",
+   "to halt the aggression",
+   "asr_term"
+  ],
+  [
+   42,
+   "seize",
+   "cease",
+   "asr_term"
+  ],
+  [
+   44,
+   "ONRWA's",
+   "UNRWA's",
+   "asr_name"
+  ],
+  [
+   92,
+   "Israelis in the countries",
+   "Israelis and the countries",
+   "asr_term"
+  ],
+  [
+   107,
+   "all in the mercy",
+   "all and the mercy",
+   "asr_term"
+  ],
+  [
+   11,
+   "the Gaza Strip.",
+   "In the Gaza Strip,",
+   "asr_term"
+  ],
+  [
+   12,
+   "Our people are",
+   "our people are",
+   "asr_term"
+  ],
+  [
+   55,
+   "it.",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 1-2 are the Palestinian observer introducing the pre-recorded video, not the President. 33 Spanish 'detener'; 42 'cesar'; 92 'y los paises'; 107 'paz, misericordia y bendiciones'. Unit 52 lone 'Thank you.' in a pause. Main-agent audit, re-decoded from three starts: 04:27 'In the Gaza Strip, our people are being subjected ...' (p 0.98-1.00; the first pass split it after 'the Gaza Strip.'); the stray 'it.' ending unit 55 is a decode fragment of unit 56's 'it is impossible' (no re-decode hears a second 'it')",
+ "unitizer_version": 1,
+ "sha1": "99ec6910d773c7cfbbe4d061db96b6c2a4fcacff",
+ "layout": "single",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "presider": 2,
+   "other_speaker": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2418,
+  "words_out": 2319,
+  "retention": 0.9591,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   189,
+   90,
+   114,
+   65,
+   136,
+   169,
+   89,
+   121,
+   78,
+   95,
+   81,
+   92,
+   131,
+   108,
+   119,
+   92,
+   95,
+   135,
+   98,
+   43,
+   62,
+   117
+  ],
+  "warnings": []
+ }
+}

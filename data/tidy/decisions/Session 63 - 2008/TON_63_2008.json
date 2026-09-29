@@ -1,0 +1,55 @@
+{
+ "id": "TON_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  19,
+  28,
+  41,
+  52,
+  61,
+  78,
+  99,
+  122,
+  134,
+  154,
+  163
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d6c7c6654309a5056003634046b40ea72cbb59c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1364,
+  "words_out": 1363,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   25,
+   123,
+   70,
+   108,
+   94,
+   65,
+   131,
+   149,
+   169,
+   82,
+   158,
+   78,
+   111
+  ],
+  "warnings": []
+ }
+}

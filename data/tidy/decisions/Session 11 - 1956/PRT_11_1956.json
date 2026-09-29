@@ -1,0 +1,84 @@
+{
+ "id": "PRT_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  16,
+  19,
+  25,
+  26,
+  37,
+  42,
+  47,
+  50,
+  52,
+  54,
+  57,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "What, we",
+   "What we",
+   "ocr"
+  ],
+  [
+   33,
+   "and, arrogant",
+   "and arrogant",
+   "ocr"
+  ],
+  [
+   40,
+   "generation, to generation",
+   "generation to generation",
+   "ocr"
+  ],
+  [
+   52,
+   "problem out a tangle",
+   "problem but a tangle",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ceef0128bcd6efbb060af6ffb81edfe76c90891",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 1727,
+  "words_out": 1727,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   75,
+   129,
+   183,
+   96,
+   141,
+   74,
+   251,
+   95,
+   145,
+   117,
+   63,
+   93,
+   117,
+   95,
+   53
+  ],
+  "warnings": []
+ }
+}

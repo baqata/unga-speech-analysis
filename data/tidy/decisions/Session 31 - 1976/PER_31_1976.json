@@ -1,0 +1,132 @@
+{
+ "id": "PER_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  10,
+  13,
+  14,
+  17,
+  21,
+  24,
+  28,
+  31,
+  34,
+  37,
+  42,
+  46,
+  49,
+  52,
+  56,
+  62,
+  64,
+  66,
+  68,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "President .of",
+   "President of",
+   "ocr"
+  ],
+  [
+   5,
+   "conclusion- of",
+   "conclusion of",
+   "ocr"
+  ],
+  [
+   17,
+   "it Is relevant",
+   "it is relevant",
+   "ocr"
+  ],
+  [
+   17,
+   "of tile agreements",
+   "of the agreements",
+   "ocr"
+  ],
+  [
+   17,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   37,
+   " [A/31/197, annex II]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   42,
+   "its test session",
+   "its last session",
+   "ocr"
+  ],
+  [
+   67,
+   "Bolivarisn",
+   "Bolivarian",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb83da5d79b39f787c65dcd68ebe68e5742442ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 3247,
+  "words_out": 3242,
+  "retention": 0.9985,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   162,
+   137,
+   131,
+   110,
+   146,
+   123,
+   85,
+   203,
+   85,
+   160,
+   122,
+   123,
+   126,
+   208,
+   119,
+   153,
+   164,
+   108,
+   139,
+   106,
+   100,
+   109,
+   176,
+   147
+  ],
+  "warnings": []
+ }
+}

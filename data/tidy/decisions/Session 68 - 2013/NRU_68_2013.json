@@ -1,0 +1,108 @@
+{
+ "id": "NRU_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  42,
+  53,
+  70,
+  81,
+  90,
+  97,
+  110,
+  121,
+  131,
+  152,
+  165,
+  174,
+  189,
+  203,
+  217,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ],
+  [
+   26,
+   "year., They",
+   "year. They",
+   "spacing"
+  ],
+  [
+   93,
+   "(A/68/PV.5, p. 5)",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "needs?To",
+   "needs? To",
+   "spacing"
+  ],
+  [
+   134,
+   "AOSlS",
+   "AOSIS",
+   "ocr"
+  ],
+  [
+   158,
+   "AOSlS",
+   "AOSIS",
+   "ocr"
+  ],
+  [
+   161,
+   "AOSlS",
+   "AOSIS",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "803bc3fbfa54f2ad17630f2732dbc35e4e7b9557",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1964,
+  "words_out": 1959,
+  "retention": 0.9975,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   56,
+   124,
+   154,
+   93,
+   134,
+   93,
+   79,
+   62,
+   105,
+   82,
+   69,
+   168,
+   95,
+   67,
+   105,
+   109,
+   127,
+   161,
+   76
+  ],
+  "warnings": []
+ }
+}

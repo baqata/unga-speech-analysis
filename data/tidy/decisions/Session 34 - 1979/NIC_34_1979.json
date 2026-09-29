@@ -1,0 +1,98 @@
+{
+ "id": "NIC_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  11,
+  13,
+  16,
+  19,
+  24,
+  27,
+  29,
+  33,
+  35,
+  40,
+  43,
+  47,
+  49,
+  54,
+  57,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "read1 'Here",
+   "read \"Here",
+   "ocr"
+  ],
+  [
+   54,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   ", Nicaragua emphasizes",
+   ". Nicaragua emphasizes",
+   "ocr"
+  ],
+  [
+   54,
+   "long- suffering",
+   "long-suffering",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44261fddccb7e11b9185a11804db450b4c235c26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 1969,
+  "words_out": 1966,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   48,
+   121,
+   110,
+   79,
+   81,
+   83,
+   98,
+   78,
+   84,
+   136,
+   60,
+   108,
+   103,
+   97,
+   129,
+   117,
+   143,
+   212,
+   79
+  ],
+  "warnings": []
+ }
+}

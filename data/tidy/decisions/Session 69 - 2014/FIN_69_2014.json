@@ -1,0 +1,48 @@
+{
+ "id": "FIN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  38,
+  59,
+  75,
+  84,
+  114
+ ],
+ "cer": [],
+ "fix": [
+  [
+   49,
+   "eslewhere",
+   "elsewhere",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a8675d87e5ffbf0120483088ac13ae60be1c7af7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 991,
+  "words_out": 990,
+  "retention": 0.999,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   97,
+   86,
+   145,
+   164,
+   127,
+   70,
+   231,
+   70
+  ],
+  "warnings": []
+ }
+}

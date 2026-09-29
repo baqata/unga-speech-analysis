@@ -1,0 +1,80 @@
+{
+ "id": "UZB_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  42,
+  54,
+  66,
+  76,
+  86,
+  100,
+  123,
+  150,
+  160
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "brief ly",
+   "briefly",
+   "split_word"
+  ],
+  [
+   22,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "A/48/PV.6)",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "A/65/PV.3)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2272edd8eb7eecefe097c63c581f369fa41fbbad",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1350,
+  "words_out": 1342,
+  "retention": 0.9941,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   81,
+   83,
+   186,
+   95,
+   96,
+   71,
+   79,
+   117,
+   191,
+   218,
+   70,
+   55
+  ],
+  "warnings": []
+ }
+}

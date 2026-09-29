@@ -1,0 +1,71 @@
+{
+ "id": "QAT_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  42,
+  53,
+  82,
+  92,
+  105,
+  115,
+  133,
+  157,
+  174,
+  184,
+  206,
+  223,
+  241,
+  271,
+  281,
+  298,
+  321,
+  332,
+  351
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af5de12c748db752b5f5b5fd9fe6d79480dfd8dd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 362,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 3035,
+  "words_out": 3034,
+  "retention": 0.9997,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   161,
+   199,
+   90,
+   265,
+   82,
+   102,
+   79,
+   136,
+   203,
+   145,
+   81,
+   194,
+   144,
+   150,
+   236,
+   86,
+   150,
+   194,
+   83,
+   166,
+   88
+  ],
+  "warnings": []
+ }
+}

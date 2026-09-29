@@ -1,0 +1,277 @@
+{
+ "id": "GRD_32_1977",
+ "drop": [
+  [
+   56,
+   56,
+   "header_footer"
+  ],
+  [
+   80,
+   80,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  11,
+  13,
+  15,
+  18,
+  19,
+  21,
+  23,
+  29,
+  33,
+  36,
+  41,
+  44,
+  45,
+  50,
+  57,
+  61,
+  65,
+  67,
+  69,
+  75,
+  81,
+  84,
+  88,
+  92,
+  94,
+  98,
+  103,
+  106,
+  108,
+  115,
+  120,
+  122,
+  128,
+  134,
+  143
+ ],
+ "cer": [
+  1,
+  5,
+  9,
+  11,
+  13
+ ],
+ "fix": [
+  [
+   13,
+   "permit- me",
+   "permit me",
+   "ocr"
+  ],
+  [
+   14,
+   "trend .towards",
+   "trend towards",
+   "ocr"
+  ],
+  [
+   31,
+   "Thus, .when",
+   "Thus, when",
+   "ocr"
+  ],
+  [
+   37,
+   "co-operation,,",
+   "co-operation,",
+   "ocr"
+  ],
+  [
+   42,
+   "aware; each",
+   "aware, each",
+   "ocr"
+  ],
+  [
+   44,
+   "importance aid of",
+   "importance and of",
+   "ocr"
+  ],
+  [
+   54,
+   "that -.e shouters",
+   "that the shouters",
+   "ocr"
+  ],
+  [
+   55,
+   "do so.\"'",
+   "do so.\"",
+   "ocr"
+  ],
+  [
+   59,
+   "family- clothing",
+   "family—clothing",
+   "ocr"
+  ],
+  [
+   65,
+   "l am",
+   "I am",
+   "ocr"
+  ],
+  [
+   67,
+   "on \" this",
+   "on this",
+   "ocr"
+  ],
+  [
+   67,
+   "parsing arbitrary",
+   "passing arbitrary",
+   "ocr"
+  ],
+  [
+   71,
+   "hitherto. taken",
+   "hitherto taken",
+   "ocr"
+  ],
+  [
+   71,
+   "mass race",
+   "arms race",
+   "ocr"
+  ],
+  [
+   78,
+   "General I Assembly",
+   "General Assembly",
+   "ocr"
+  ],
+  [
+   78,
+   "I am | reflecting",
+   "I am reflecting",
+   "ocr"
+  ],
+  [
+   78,
+   "living [symbol",
+   "living symbol",
+   "ocr"
+  ],
+  [
+   94,
+   "not. scientific",
+   "not scientific",
+   "ocr"
+  ],
+  [
+   95,
+   "key address- That",
+   "key address. That",
+   "ocr"
+  ],
+  [
+   99,
+   "are- amply",
+   "are amply",
+   "ocr"
+  ],
+  [
+   100,
+   "of, the .",
+   "of, the",
+   "ocr"
+  ],
+  [
+   102,
+   "the- constant",
+   "the constant",
+   "ocr"
+  ],
+  [
+   113,
+   "factors- invention, modern gadget-y",
+   "factors—invention, modern gadgetry",
+   "ocr"
+  ],
+  [
+   114,
+   "1 accepts",
+   "I accept",
+   "ocr"
+  ],
+  [
+   117,
+   "other' creature",
+   "other creature",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 56 and 80 stray paragraph numbers dropped; the long self-quotation (units 45-55) split in two paragraphs.",
+ "unitizer_version": 1,
+ "sha1": "e6e538308bf8637c5da14b05136330ded5f80135",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 5422,
+  "words_out": 5414,
+  "retention": 0.9985,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   29,
+   200,
+   134,
+   59,
+   91,
+   78,
+   139,
+   131,
+   78,
+   95,
+   179,
+   114,
+   107,
+   178,
+   90,
+   59,
+   231,
+   204,
+   132,
+   208,
+   68,
+   85,
+   165,
+   170,
+   108,
+   85,
+   125,
+   88,
+   279,
+   180,
+   231,
+   109,
+   203,
+   145,
+   110,
+   170,
+   234,
+   219,
+   104
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

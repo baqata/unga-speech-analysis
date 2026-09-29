@@ -1,0 +1,81 @@
+{
+ "id": "STP_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  15,
+  17,
+  20,
+  24,
+  30,
+  33,
+  36,
+  40,
+  44,
+  50,
+  57
+ ],
+ "cer": [
+  4,
+  50
+ ],
+ "fix": [
+  [
+   3,
+   "together; the United",
+   "together, the United",
+   "ocr"
+  ],
+  [
+   50,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   57,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e02fa2aefc7a428ef47db2a88f480a87e69c6fe1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 1832,
+  "words_out": 1830,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   114,
+   116,
+   106,
+   67,
+   73,
+   75,
+   59,
+   130,
+   199,
+   96,
+   83,
+   133,
+   114,
+   215,
+   190,
+   60
+  ],
+  "warnings": []
+ }
+}

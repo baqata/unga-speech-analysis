@@ -1,0 +1,137 @@
+{
+ "id": "TTO_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  7,
+  12,
+  17,
+  18,
+  23,
+  28,
+  31,
+  38,
+  44,
+  46,
+  49,
+  52,
+  55,
+  63,
+  65,
+  70,
+  74,
+  76,
+  81,
+  84,
+  89,
+  93,
+  100,
+  105,
+  113,
+  115
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  17
+ ],
+ "fix": [
+  [
+   64,
+   "inter linkages",
+   "interlinkages",
+   "split_word"
+  ],
+  [
+   74,
+   "rule of law,\"",
+   "rule of law.\"",
+   "ocr"
+  ],
+  [
+   74,
+   " (A/45/PV.20, p. 31)",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "interlink ages",
+   "interlinkages",
+   "split_word"
+  ],
+  [
+   92,
+   "to be vital,",
+   "to be vital.",
+   "ocr"
+  ],
+  [
+   98,
+   "He therefore strongly",
+   "We therefore strongly",
+   "ocr"
+  ],
+  [
+   102,
+   "Gulf Mar",
+   "Gulf War",
+   "ocr"
+  ],
+  [
+   106,
+   "international community.",
+   "international community,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a62c028ea394a90374ec5bd1533d240fd41b0d6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3135,
+  "words_out": 3130,
+  "retention": 0.9984,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   82,
+   36,
+   115,
+   126,
+   85,
+   69,
+   108,
+   82,
+   74,
+   157,
+   115,
+   72,
+   72,
+   64,
+   67,
+   198,
+   90,
+   110,
+   140,
+   88,
+   173,
+   108,
+   134,
+   88,
+   187,
+   122,
+   140,
+   69,
+   159
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "ARG_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  18,
+  21,
+  26,
+  30,
+  33,
+  36,
+  40,
+  45,
+  54,
+  59,
+  68,
+  72,
+  75,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "medium- sized",
+   "medium-sized",
+   "hyphen"
+  ],
+  [
+   54,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   67,
+   "twenty- third",
+   "twenty-third",
+   "hyphen"
+  ],
+  [
+   74,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2beea281c04ded9b84803e417a9411d75a605607",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2269,
+  "words_out": 2265,
+  "retention": 0.9982,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   142,
+   104,
+   124,
+   75,
+   82,
+   150,
+   82,
+   116,
+   82,
+   101,
+   157,
+   203,
+   144,
+   190,
+   149,
+   86,
+   141,
+   137
+  ],
+  "warnings": []
+ }
+}

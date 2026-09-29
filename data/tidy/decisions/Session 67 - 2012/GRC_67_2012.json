@@ -1,0 +1,82 @@
+{
+ "id": "GRC_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  25,
+  34,
+  51,
+  74,
+  88,
+  99,
+  114,
+  137,
+  154,
+  169,
+  181,
+  190,
+  206,
+  219,
+  228,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   107,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "A/67/PV.12)",
+   "",
+   "label"
+  ],
+  [
+   234,
+   "f leet",
+   "fleet",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "80e3551152d51d9f4bd90254282f9f35acd24ea5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2022,
+  "words_out": 2018,
+  "retention": 0.998,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   138,
+   68,
+   133,
+   190,
+   114,
+   82,
+   121,
+   196,
+   135,
+   131,
+   89,
+   68,
+   130,
+   113,
+   81,
+   92,
+   65
+  ],
+  "warnings": []
+ }
+}

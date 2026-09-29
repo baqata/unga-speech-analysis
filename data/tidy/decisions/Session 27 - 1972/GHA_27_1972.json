@@ -1,0 +1,128 @@
+{
+ "id": "GHA_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  16,
+  25,
+  28,
+  31,
+  33,
+  43,
+  48,
+  53,
+  55,
+  59,
+  67,
+  74,
+  77,
+  85,
+  89,
+  92,
+  99,
+  107,
+  110,
+  113,
+  119,
+  121,
+  126,
+  131,
+  137,
+  140,
+  143,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   109,
+   "declared, support",
+   "declared support",
+   "ocr"
+  ],
+  [
+   110,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   110,
+   "Africa, That",
+   "Africa. That",
+   "ocr"
+  ],
+  [
+   123,
+   " [see A/8701/Add.l, p. 3J",
+   "",
+   "label"
+  ],
+  [
+   135,
+   "talks, between",
+   "talks between",
+   "ocr"
+  ],
+  [
+   143,
+   "^",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40defb330f7da337720c4388f3c8e26648bec3f4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 4134,
+  "words_out": 4127,
+  "retention": 0.9983,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   154,
+   210,
+   113,
+   220,
+   84,
+   145,
+   63,
+   224,
+   159,
+   118,
+   87,
+   85,
+   168,
+   168,
+   92,
+   163,
+   118,
+   81,
+   218,
+   218,
+   108,
+   119,
+   88,
+   78,
+   157,
+   76,
+   164,
+   90,
+   86,
+   168,
+   105
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "PRY_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  6,
+  8,
+  10,
+  11,
+  14,
+  17,
+  23,
+  28,
+  36,
+  40,
+  43,
+  48,
+  49,
+  52,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "standard- bearer",
+   "standard-bearer",
+   "hyphen"
+  ],
+  [
+   20,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   40,
+   "nope",
+   "hope",
+   "ocr"
+  ],
+  [
+   47,
+   "on.",
+   "on",
+   "ocr"
+  ],
+  [
+   53,
+   "nations, The",
+   "nations. The",
+   "ocr"
+  ],
+  [
+   53,
+   "fife",
+   "life",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "402e5472525790f05466d77b63209f75aaca6ad8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 2202,
+  "words_out": 2199,
+  "retention": 0.9986,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   114,
+   95,
+   83,
+   64,
+   74,
+   82,
+   149,
+   179,
+   238,
+   182,
+   183,
+   102,
+   107,
+   131,
+   69,
+   75,
+   148,
+   124
+  ],
+  "warnings": []
+ }
+}

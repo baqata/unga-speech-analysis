@@ -1,0 +1,119 @@
+{
+ "id": "PHL_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  18,
+  20,
+  28,
+  33,
+  37,
+  41,
+  45,
+  49,
+  55,
+  62,
+  67,
+  69,
+  74,
+  78,
+  81,
+  84,
+  91,
+  95,
+  99,
+  106,
+  109
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   "a.",
+   "a",
+   "ocr"
+  ],
+  [
+   42,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   46,
+   "and!",
+   "and",
+   "ocr"
+  ],
+  [
+   46,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   80,
+   "aggression,",
+   "aggression.",
+   "ocr"
+  ],
+  [
+   86,
+   "Flow",
+   "How",
+   "ocr"
+  ],
+  [
+   105,
+   "off",
+   "of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d5663462e58b513c95b54f2e74a264ec07d0295",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 25
+  },
+  "words_in": 3346,
+  "words_out": 3339,
+  "retention": 0.9979,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   97,
+   121,
+   199,
+   77,
+   249,
+   148,
+   132,
+   96,
+   141,
+   180,
+   193,
+   174,
+   149,
+   96,
+   134,
+   104,
+   166,
+   91,
+   188,
+   87,
+   99,
+   198,
+   137,
+   83
+  ],
+  "warnings": []
+ }
+}

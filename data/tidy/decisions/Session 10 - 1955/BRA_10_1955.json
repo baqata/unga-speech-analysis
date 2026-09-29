@@ -1,0 +1,67 @@
+{
+ "id": "BRA_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  14,
+  20,
+  27,
+  38,
+  41,
+  44,
+  50,
+  53,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "arid",
+   "and",
+   "ocr"
+  ],
+  [
+   42,
+   "winch",
+   "which",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d8e698d09cfa7078c445a685ebffc0a63322b4e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 15
+  },
+  "words_in": 1615,
+  "words_out": 1615,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   43,
+   190,
+   134,
+   191,
+   140,
+   222,
+   64,
+   93,
+   212,
+   85,
+   190,
+   51
+  ],
+  "warnings": []
+ }
+}

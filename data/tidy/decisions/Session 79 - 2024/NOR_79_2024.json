@@ -1,0 +1,74 @@
+{
+ "id": "NOR_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  19,
+  25,
+  30,
+  36,
+  46,
+  53,
+  62,
+  70,
+  74,
+  82,
+  84,
+  88,
+  97
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "assistance ,",
+   "assistance,",
+   "spacing"
+  ],
+  [
+   52,
+   "and ,",
+   "and,",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95f142e3d1a97c9f086c937783b2b4c56e1645ce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1688,
+  "words_out": 1684,
+  "retention": 0.9976,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   83,
+   80,
+   84,
+   100,
+   77,
+   65,
+   86,
+   158,
+   91,
+   132,
+   166,
+   77,
+   103,
+   64,
+   56,
+   149,
+   113
+  ],
+  "warnings": []
+ }
+}

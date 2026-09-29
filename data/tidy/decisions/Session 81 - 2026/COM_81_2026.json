@@ -1,0 +1,200 @@
+{
+ "id": "COM_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   66,
+   66,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  10,
+  18,
+  24,
+  29,
+  35,
+  40,
+  44,
+  50,
+  53,
+  58
+ ],
+ "cer": [
+  2,
+  4
+ ],
+ "fix": [
+  [
+   2,
+   "Thank you. so You ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   6,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   11,
+   "Camaros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   24,
+   "where we present",
+   "we represent",
+   "asr_term"
+  ],
+  [
+   40,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   41,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   44,
+   "Camaros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   47,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   48,
+   "Camoros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   53,
+   "Camaros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   56,
+   "Camaros",
+   "Comoros",
+   "asr_name"
+  ],
+  [
+   57,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   58,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   62,
+   "Camorian",
+   "Comorian",
+   "asr_name"
+  ],
+  [
+   46,
+   "and 314 of",
+   "and 31/4 of",
+   "asr_term"
+  ],
+  [
+   26,
+   "ecosystems. created",
+   "ecosystems. Created",
+   "asr_term"
+  ],
+  [
+   46,
+   "migrants. under",
+   "migrants. Under",
+   "asr_term"
+  ],
+  [
+   52,
+   "transformation. we",
+   "transformation. We",
+   "asr_term"
+  ],
+  [
+   62,
+   "diversity. and",
+   "diversity. And",
+   "asr_term"
+  ],
+  [
+   41,
+   "Secondly, the",
+   "The",
+   "asr_term"
+  ],
+  [
+   46,
+   "21st November",
+   "21st October",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Hall chatter removed from the start of unit 2; Comoros/Comorian and Khalilur Rahman per official list and Spanish; unit 24 Spanish 'que representamos'. Main-agent audio check: unit 46 'resolution ... 314' -> '31/4' (the English interpreter's 'thirty-one four'; Spanish '31.4'; General Assembly resolution 31/4 on Mayotte). Kept as heard: '21 November 1976' (English p 0.98; the resolution is of 21 October 1976 and the Spanish interpreter says 'octubre': the English interpreter's slip). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 26 'ecosystems. created' -> 'ecosystems. Created'; unit 46 'migrants. under' -> 'migrants. Under'; unit 52 'transformation. we' -> 'transformation. We'; unit 62 'diversity. and' -> 'diversity. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 8 unit 41 'Secondly, the' -> 'The' (invented word: both decodes go from 'assembly.' (668.2 s) straight to 'The Camorian side' (668.6 s) with no 'Secondly'; ES 'Comoras, que siempre ha preponderado' has none). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 46 said '31/4 of the 21st November 1976' (p 0.98); General Assembly resolution 31/4 is dated 21 October 1976, as the Spanish '31.4 del 21 de octubre de 1976' says.",
+ "unitizer_version": 1,
+ "sha1": "59646ff8ea3cbc051acc8b80ae08a8769082b406",
+ "layout": "single",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1728,
+  "words_out": 1672,
+  "retention": 0.9676,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   35,
+   173,
+   161,
+   163,
+   139,
+   119,
+   85,
+   116,
+   181,
+   133,
+   125,
+   242
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

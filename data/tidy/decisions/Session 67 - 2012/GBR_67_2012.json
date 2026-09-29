@@ -1,0 +1,92 @@
+{
+ "id": "GBR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  28,
+  42,
+  63,
+  72,
+  79,
+  92,
+  101,
+  122,
+  129,
+  138,
+  156,
+  172,
+  188,
+  205,
+  213,
+  229,
+  244,
+  252,
+  264
+ ],
+ "cer": [],
+ "fix": [
+  [
+   138,
+   "inf laming",
+   "inflaming",
+   "split_word"
+  ],
+  [
+   149,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ],
+  [
+   154,
+   "lf there",
+   "If there",
+   "ocr"
+  ],
+  [
+   160,
+   "lf the",
+   "If the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8af997b61800b72594a897f44acffddacf029670",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 274,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2450,
+  "words_out": 2446,
+  "retention": 0.9984,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   179,
+   75,
+   128,
+   203,
+   79,
+   66,
+   109,
+   71,
+   179,
+   68,
+   80,
+   184,
+   142,
+   126,
+   137,
+   67,
+   149,
+   144,
+   74,
+   100,
+   86
+  ],
+  "warnings": []
+ }
+}

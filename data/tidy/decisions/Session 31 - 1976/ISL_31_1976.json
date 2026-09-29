@@ -1,0 +1,91 @@
+{
+ "id": "ISL_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  16,
+  20,
+  27,
+  30,
+  38,
+  41,
+  44,
+  49,
+  56,
+  61,
+  64,
+  71,
+  80,
+  86
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "as muck patience",
+   "as much patience",
+   "ocr"
+  ],
+  [
+   34,
+   "Rhodesia, Where",
+   "Rhodesia, where",
+   "ocr"
+  ],
+  [
+   54,
+   "In ,the view",
+   "In the view",
+   "ocr"
+  ],
+  [
+   73,
+   "matter, of",
+   "matter of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0753201e0487072373c6d07b6351a68e65ca2a15",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2123,
+  "words_out": 2122,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   111,
+   120,
+   92,
+   103,
+   91,
+   155,
+   101,
+   164,
+   77,
+   60,
+   116,
+   122,
+   115,
+   94,
+   160,
+   230,
+   154,
+   57
+  ],
+  "warnings": []
+ }
+}

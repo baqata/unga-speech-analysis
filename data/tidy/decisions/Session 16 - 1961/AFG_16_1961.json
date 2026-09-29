@@ -1,0 +1,95 @@
+{
+ "id": "AFG_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  13,
+  15,
+  20,
+  27,
+  31,
+  36,
+  46,
+  50
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "): ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Ms friends",
+   "his friends",
+   "ocr"
+  ],
+  [
+   33,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   36,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   48,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   50,
+   "in: our",
+   "in our",
+   "ocr"
+  ],
+  [
+   51,
+   ",\\ts",
+   "its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac2d440c1e3a01a517eb5e2e1df27c877dee31f5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1792,
+  "words_out": 1788,
+  "retention": 0.9978,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   68,
+   178,
+   154,
+   73,
+   157,
+   233,
+   161,
+   214,
+   267,
+   154,
+   129
+  ],
+  "warnings": []
+ }
+}

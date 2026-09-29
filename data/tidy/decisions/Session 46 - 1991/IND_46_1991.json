@@ -1,0 +1,176 @@
+{
+ "id": "IND_46_1991",
+ "drop": [
+  [
+   82,
+   82,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  15,
+  23,
+  27,
+  32,
+  38,
+  42,
+  44,
+  51,
+  54,
+  57,
+  61,
+  65,
+  70,
+  75,
+  78,
+  83,
+  88,
+  92,
+  95,
+  99,
+  103,
+  107,
+  114,
+  118,
+  125,
+  132,
+  137,
+  141,
+  145,
+  151,
+  154,
+  159,
+  164,
+  170,
+  174
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   6,
+   "Republic- of",
+   "Republic of",
+   "ocr"
+  ],
+  [
+   14,
+   "19BB",
+   "1988",
+   "ocr"
+  ],
+  [
+   52,
+   "possession end",
+   "possession and",
+   "ocr"
+  ],
+  [
+   64,
+   "He should",
+   "We should",
+   "ocr"
+  ],
+  [
+   81,
+   "\"n today's",
+   "\"In today's",
+   "ocr"
+  ],
+  [
+   91,
+   "He believe",
+   "We believe",
+   "ocr"
+  ],
+  [
+   136,
+   " (A/46/1, p. 12)",
+   "",
+   "label"
+  ],
+  [
+   138,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   173,
+   "He would",
+   "We would",
+   "ocr"
+  ],
+  [
+   175,
+   "progress in on",
+   "progress is on",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f3d780d08b6459ea2747f3889de1eab3917533b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 4069,
+  "words_out": 4064,
+  "retention": 0.9988,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   78,
+   57,
+   116,
+   139,
+   155,
+   76,
+   139,
+   97,
+   117,
+   88,
+   126,
+   66,
+   102,
+   94,
+   99,
+   80,
+   137,
+   87,
+   149,
+   108,
+   109,
+   62,
+   97,
+   94,
+   74,
+   113,
+   82,
+   130,
+   165,
+   147,
+   83,
+   74,
+   105,
+   80,
+   159,
+   109,
+   134,
+   62,
+   75
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "TUR_63_2008",
+ "drop": [
+  [
+   114,
+   114,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  32,
+  52,
+  67,
+  77,
+  88,
+  103,
+  115,
+  125,
+  134,
+  151,
+  161,
+  177,
+  188
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa8f6856e84c783368b18d0f6c94132e146aa010",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1513,
+  "words_out": 1507,
+  "retention": 0.996,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   61,
+   168,
+   142,
+   115,
+   62,
+   88,
+   119,
+   91,
+   81,
+   66,
+   126,
+   78,
+   124,
+   89,
+   97
+  ],
+  "warnings": [
+   "procedural drop [114,114] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "BLR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  19,
+  24,
+  29,
+  37,
+  41,
+  49,
+  57,
+  69,
+  83,
+  93
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "ago. on",
+   "ago, on",
+   "ocr"
+  ],
+  [
+   15,
+   "us. discussed",
+   "us, discussed",
+   "ocr"
+  ],
+  [
+   20,
+   "so. then",
+   "so, then",
+   "ocr"
+  ],
+  [
+   23,
+   "we. as",
+   "we, as",
+   "ocr"
+  ],
+  [
+   24,
+   "ago. the",
+   "ago, the",
+   "ocr"
+  ],
+  [
+   25,
+   "everywhere. if",
+   "everywhere, if",
+   "ocr"
+  ],
+  [
+   31,
+   "all. according",
+   "all, according",
+   "ocr"
+  ],
+  [
+   39,
+   "all. the",
+   "all, the",
+   "ocr"
+  ],
+  [
+   83,
+   "2017.",
+   "2017,",
+   "ocr"
+  ],
+  [
+   95,
+   "Unfortunately.",
+   "Unfortunately,",
+   "ocr"
+  ],
+  [
+   102,
+   "part.",
+   "part,",
+   "ocr"
+  ],
+  [
+   104,
+   "country.",
+   "country,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd70f3d7cff924f379057079877ee4a672dd2b76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1717,
+  "words_out": 1717,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   129,
+   75,
+   80,
+   84,
+   104,
+   126,
+   80,
+   128,
+   148,
+   191,
+   222,
+   202,
+   148
+  ],
+  "warnings": []
+ }
+}

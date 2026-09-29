@@ -1,0 +1,106 @@
+{
+ "id": "HUN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  27,
+  42,
+  53,
+  61,
+  71
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "very day.",
+   "very day,",
+   "ocr"
+  ],
+  [
+   10,
+   "1.000",
+   "1,000",
+   "ocr"
+  ],
+  [
+   17,
+   "law. the",
+   "law, the",
+   "ocr"
+  ],
+  [
+   21,
+   "150.000",
+   "150,000",
+   "ocr"
+  ],
+  [
+   29,
+   "President Zelenskyy.",
+   "President Zelenskyy,",
+   "ocr"
+  ],
+  [
+   42,
+   "war. children",
+   "war, children",
+   "ocr"
+  ],
+  [
+   56,
+   "Offenbacher. who",
+   "Offenbacher, who",
+   "ocr"
+  ],
+  [
+   59,
+   "earlier. Pope",
+   "earlier, Pope",
+   "ocr"
+  ],
+  [
+   60,
+   "war. a future",
+   "war, a future",
+   "ocr"
+  ],
+  [
+   62,
+   "war. a large",
+   "war, a large",
+   "ocr"
+  ],
+  [
+   83,
+   "and. in",
+   "and, in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "866f062b92dbe387cf6d32bf697ac21dd37c2d00",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1397,
+  "words_out": 1397,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   159,
+   192,
+   258,
+   154,
+   168,
+   216,
+   250
+  ],
+  "warnings": []
+ }
+}

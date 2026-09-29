@@ -1,0 +1,86 @@
+{
+ "id": "DZA_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   78,
+   78,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  10,
+  15,
+  19,
+  24,
+  31,
+  37,
+  43,
+  52,
+  58,
+  64,
+  67,
+  69,
+  75,
+  77
+ ],
+ "cer": [
+  1,
+  77
+ ],
+ "fix": [
+  [
+   19,
+   "Abdelmajid Tabun",
+   "Abdelmadjid Tebboune",
+   "asr_name"
+  ],
+  [
+   71,
+   "Abdel-Majid Taboun",
+   "Abdelmadjid Tebboune",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 50-51 repeat 48-49 at the speaker's own announcement (I repeat) and are kept.",
+ "unitizer_version": 1,
+ "sha1": "d7879015080e1136c472f7a1bd12da9af73f3179",
+ "layout": "single",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2213,
+  "words_out": 2170,
+  "retention": 0.9806,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   9,
+   194,
+   173,
+   108,
+   160,
+   160,
+   114,
+   172,
+   188,
+   174,
+   154,
+   76,
+   166,
+   214,
+   100,
+   8
+  ],
+  "warnings": []
+ }
+}

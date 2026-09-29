@@ -1,0 +1,109 @@
+{
+ "id": "SLE_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  6,
+  9,
+  13,
+  16,
+  21,
+  23,
+  27,
+  31,
+  36,
+  37,
+  38,
+  41,
+  43,
+  46,
+  50
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "268.",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "3$ years",
+   "36 years",
+   "ocr"
+  ],
+  [
+   7,
+   "most Serious",
+   "most serious",
+   "ocr"
+  ],
+  [
+   10,
+   " [resolution 5/0/2]",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "We. have",
+   "We have",
+   "ocr"
+  ],
+  [
+   24,
+   "with ail humility",
+   "with all humility",
+   "ocr"
+  ],
+  [
+   51,
+   "Nairobi\" contains",
+   "Nairobi contains",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "07430b150d43399cef249f18f78b01ccf23bc370",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 1767,
+  "words_out": 1762,
+  "retention": 0.9972,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   78,
+   41,
+   109,
+   110,
+   148,
+   106,
+   101,
+   82,
+   97,
+   148,
+   147,
+   61,
+   61,
+   132,
+   76,
+   106,
+   92,
+   67
+  ],
+  "warnings": []
+ }
+}

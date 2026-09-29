@@ -1,0 +1,78 @@
+{
+ "id": "MMR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  41,
+  61,
+  79,
+  100,
+  121,
+  135,
+  149,
+  175,
+  188,
+  205,
+  227,
+  251,
+  276
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   71,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   159,
+   "veto?s",
+   "veto’s",
+   "encoding"
+  ],
+  [
+   284,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "526ea6998aa3dc293e3d7606963a7035eaa82dc3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 295,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2563,
+  "words_out": 2560,
+  "retention": 0.9988,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   123,
+   223,
+   178,
+   155,
+   171,
+   181,
+   111,
+   114,
+   231,
+   118,
+   162,
+   184,
+   207,
+   222,
+   180
+  ],
+  "warnings": []
+ }
+}

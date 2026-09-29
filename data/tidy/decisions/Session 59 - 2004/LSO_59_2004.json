@@ -1,0 +1,124 @@
+{
+ "id": "LSO_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  23,
+  36,
+  54,
+  73,
+  87,
+  104,
+  130,
+  148,
+  167,
+  184,
+  196,
+  207,
+  225,
+  241,
+  254
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "manís",
+   "man’s",
+   "encoding"
+  ],
+  [
+   69,
+   "delegationís",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   142,
+   "Courtís",
+   "Court’s",
+   "encoding"
+  ],
+  [
+   178,
+   "Morrisís",
+   "Morris’s",
+   "encoding"
+  ],
+  [
+   185,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   197,
+   "de1egation",
+   "delegation",
+   "ocr"
+  ],
+  [
+   198,
+   "will ó because",
+   "will — because",
+   "encoding"
+  ],
+  [
+   198,
+   "must ó repeat",
+   "must — repeat",
+   "encoding"
+  ],
+  [
+   235,
+   "urgency ó indeed",
+   "urgency — indeed",
+   "encoding"
+  ],
+  [
+   242,
+   "todayís",
+   "today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "567ef7ba8f5b6212b1a7f165d44d28765e28968c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2086,
+  "words_out": 2083,
+  "retention": 0.9986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   57,
+   137,
+   102,
+   151,
+   142,
+   114,
+   144,
+   188,
+   147,
+   140,
+   136,
+   89,
+   97,
+   145,
+   138,
+   104,
+   52
+  ],
+  "warnings": []
+ }
+}

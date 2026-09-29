@@ -1,0 +1,110 @@
+{
+ "id": "MMR_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  3,
+  7,
+  10,
+  13,
+  16,
+  18,
+  20,
+  25,
+  27,
+  31,
+  34,
+  42,
+  48,
+  54,
+  58
+ ],
+ "cer": [
+  0,
+  1,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "General Assembly, we are confident",
+   "General Assembly. We are confident",
+   "ocr"
+  ],
+  [
+   21,
+   "of International relations",
+   "of international relations",
+   "ocr"
+  ],
+  [
+   22,
+   "prevailed ever force",
+   "prevailed over force",
+   "ocr"
+  ],
+  [
+   31,
+   "collective effort? of",
+   "collective efforts of",
+   "ocr"
+  ],
+  [
+   39,
+   "States Lies",
+   "States lies",
+   "ocr"
+  ],
+  [
+   49,
+   "natters",
+   "matters",
+   "ocr"
+  ],
+  [
+   52,
+   "deeply touted",
+   "deeply touched",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "The source ends mid-sentence at unit 61 (\"problems that affect all\").",
+ "unitizer_version": 1,
+ "sha1": "3c7f5b57b1add7a7adb4af6429f70a7480a906f4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1936,
+  "words_out": 1936,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   74,
+   32,
+   40,
+   142,
+   72,
+   86,
+   66,
+   77,
+   85,
+   133,
+   77,
+   122,
+   98,
+   232,
+   161,
+   196,
+   147,
+   96
+  ],
+  "warnings": []
+ }
+}

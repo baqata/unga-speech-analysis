@@ -1,0 +1,114 @@
+{
+ "id": "CMR_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  6,
+  9,
+  15,
+  21,
+  23,
+  27,
+  29,
+  33,
+  38,
+  42,
+  45,
+  50,
+  54,
+  57,
+  60,
+  62,
+  68,
+  75,
+  78,
+  84,
+  88,
+  93,
+  102
+ ],
+ "cer": [
+  0,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   28,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   52,
+   "of .he people",
+   "of the people",
+   "ocr"
+  ],
+  [
+   72,
+   " [GATT]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "problem's",
+   "problems",
+   "ocr"
+  ],
+  [
+   101,
+   " [A/8701/Add.l, p. 2.J",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09bcfd9e1f03219380008806de1f5f7647a7413c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 53
+  },
+  "words_in": 3446,
+  "words_out": 3435,
+  "retention": 0.9968,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   132,
+   50,
+   59,
+   105,
+   203,
+   109,
+   148,
+   133,
+   131,
+   146,
+   144,
+   128,
+   103,
+   121,
+   202,
+   146,
+   83,
+   86,
+   186,
+   170,
+   104,
+   181,
+   105,
+   111,
+   220,
+   129
+  ],
+  "warnings": []
+ }
+}

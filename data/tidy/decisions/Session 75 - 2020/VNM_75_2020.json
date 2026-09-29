@@ -1,0 +1,59 @@
+{
+ "id": "VNM_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  15,
+  19,
+  23,
+  28,
+  33,
+  36,
+  38,
+  41
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   7,
+   "Debate . This",
+   "Debate. This",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ecc183754c412623e2aacebee34a0dbf345c654",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1095,
+  "words_out": 1094,
+  "retention": 0.9991,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   27,
+   80,
+   101,
+   137,
+   88,
+   89,
+   159,
+   115,
+   63,
+   60,
+   124,
+   51
+  ],
+  "warnings": []
+ }
+}

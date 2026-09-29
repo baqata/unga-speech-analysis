@@ -1,0 +1,88 @@
+{
+ "id": "ITA_49_1994",
+ "drop": [
+  [
+   84,
+   84,
+   "procedural"
+  ],
+  [
+   287,
+   288,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  28,
+  38,
+  53,
+  68,
+  77,
+  97,
+  116,
+  136,
+  156,
+  172,
+  183,
+  200,
+  219,
+  238,
+  258,
+  270
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   286,
+   " (Official Records of the",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "067cc92e6d4be4cec0b5f7514e0e9ee0a43cb3b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 294,
+  "units_dropped": {
+   "procedural": 1,
+   "noise": 2
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2369,
+  "words_out": 2346,
+  "retention": 0.9903,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   61,
+   164,
+   90,
+   117,
+   117,
+   71,
+   146,
+   170,
+   161,
+   160,
+   112,
+   86,
+   139,
+   154,
+   152,
+   170,
+   92,
+   184
+  ],
+  "warnings": [
+   "procedural drop [84,84] in the middle of the speech"
+  ]
+ }
+}

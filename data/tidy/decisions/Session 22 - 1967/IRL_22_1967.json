@@ -1,0 +1,94 @@
+{
+ "id": "IRL_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  18,
+  20,
+  26,
+  31,
+  38,
+  41,
+  45,
+  49
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   " [1560th meeting)",
+   "",
+   "label"
+  ],
+  [
+   5,
+   " [A/6701/ Add.1]",
+   "",
+   "label"
+  ],
+  [
+   12,
+   " [ibid., para. 48]",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "since UNER were",
+   "since UNEF were",
+   "ocr"
+  ],
+  [
+   24,
+   "General Assembly, Neither",
+   "General Assembly. Neither",
+   "ocr"
+  ],
+  [
+   33,
+   "when It will",
+   "when it will",
+   "ocr"
+  ],
+  [
+   48,
+   "burdens Involved",
+   "burdens involved",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb72b19045ae232d6edc20971dae55b9a14164f6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1658,
+  "words_out": 1633,
+  "retention": 0.9849,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   83,
+   88,
+   98,
+   201,
+   54,
+   219,
+   188,
+   150,
+   96,
+   114,
+   159,
+   183
+  ],
+  "warnings": []
+ }
+}

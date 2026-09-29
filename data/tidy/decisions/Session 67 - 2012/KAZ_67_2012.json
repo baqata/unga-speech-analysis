@@ -1,0 +1,86 @@
+{
+ "id": "KAZ_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  26,
+  39,
+  53,
+  72,
+  94,
+  113,
+  129,
+  143,
+  155,
+  167,
+  181,
+  191,
+  198,
+  213,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "inf luential",
+   "influential",
+   "split_word"
+  ],
+  [
+   87,
+   "f low",
+   "flow",
+   "split_word"
+  ],
+  [
+   171,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   172,
+   "A/47/PV.24)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7d9fd3fc1a287ab3244d88b2a22ab3b1476af25d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1876,
+  "words_out": 1871,
+  "retention": 0.9973,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   66,
+   131,
+   107,
+   108,
+   156,
+   157,
+   147,
+   133,
+   106,
+   99,
+   87,
+   114,
+   76,
+   64,
+   120,
+   120,
+   80
+  ],
+  "warnings": []
+ }
+}

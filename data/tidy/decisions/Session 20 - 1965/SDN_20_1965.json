@@ -1,0 +1,125 @@
+{
+ "id": "SDN_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  9,
+  23,
+  28,
+  35,
+  40,
+  53,
+  61,
+  66,
+  70,
+  79,
+  87,
+  95,
+  99,
+  108,
+  110,
+  116,
+  119,
+  128,
+  137
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   7,
+   "May I also. Sir,",
+   "May I also, Sir,",
+   "ocr"
+  ],
+  [
+   29,
+   "though the application",
+   "through the application",
+   "ocr"
+  ],
+  [
+   58,
+   "Rhodesia, .the course",
+   "Rhodesia, the course",
+   "ocr"
+  ],
+  [
+   68,
+   "all necessary, steps",
+   "all necessary steps",
+   "ocr"
+  ],
+  [
+   97,
+   "[in Viet-Nam], Secondly",
+   "[in Viet-Nam]. Secondly",
+   "ocr"
+  ],
+  [
+   46,
+   " [resolution 212 (III)]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   " [resolution 194 (III)]",
+   "",
+   "label"
+  ],
+  [
+   67,
+   " [2012 (XX)]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   " [A/5957, part III, A]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f6ff4392c76610f80b0133d6a36cf7dc140b633",
+ "layout": "lines",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3024,
+  "words_out": 2984,
+  "retention": 0.9868,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   140,
+   71,
+   299,
+   92,
+   128,
+   102,
+   259,
+   139,
+   116,
+   127,
+   161,
+   153,
+   144,
+   92,
+   186,
+   48,
+   154,
+   78,
+   181,
+   159,
+   155
+  ],
+  "warnings": []
+ }
+}

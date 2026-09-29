@@ -1,0 +1,274 @@
+{
+ "id": "DDR_29_1974",
+ "drop": [
+  [
+   128,
+   128,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  15,
+  23,
+  28,
+  32,
+  35,
+  39,
+  43,
+  48,
+  51,
+  55,
+  58,
+  62,
+  69,
+  75,
+  80,
+  88,
+  95,
+  100,
+  104,
+  113,
+  119,
+  125,
+  132
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "be fore",
+   "before",
+   "split_word"
+  ],
+  [
+   2,
+   "and. the",
+   "and the",
+   "ocr"
+  ],
+  [
+   7,
+   "multi lateral",
+   "multilateral",
+   "split_word"
+  ],
+  [
+   21,
+   ";of",
+   "of",
+   "ocr"
+  ],
+  [
+   21,
+   "foundations\"",
+   "foundations",
+   "ocr"
+  ],
+  [
+   32,
+   "be coming",
+   "becoming",
+   "split_word"
+  ],
+  [
+   36,
+   "Ger man",
+   "German",
+   "split_word"
+  ],
+  [
+   38,
+   "strength en",
+   "strengthen",
+   "split_word"
+  ],
+  [
+   40,
+   "Re public",
+   "Republic",
+   "split_word"
+  ],
+  [
+   47,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   50,
+   "Inter national",
+   "International",
+   "split_word"
+  ],
+  [
+   55,
+   "Nation's,",
+   "Nations,",
+   "ocr"
+  ],
+  [
+   69,
+   "inter national",
+   "international",
+   "split_word"
+  ],
+  [
+   71,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   73,
+   "man-ship",
+   "manship",
+   "hyphen"
+  ],
+  [
+   73,
+   "brink manship",
+   "brinkmanship",
+   "split_word"
+  ],
+  [
+   78,
+   " [resolution 2734 (XXV)}",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "pro mote",
+   "promote",
+   "split_word"
+  ],
+  [
+   82,
+   "dis armament",
+   "disarmament",
+   "split_word"
+  ],
+  [
+   91,
+   "resolution^",
+   "resolution",
+   "ocr"
+  ],
+  [
+   91,
+   " [AlO.l/L.675]",
+   "",
+   "label"
+  ],
+  [
+   103,
+   "regret table",
+   "regrettable",
+   "split_word"
+  ],
+  [
+   112,
+   "inter national",
+   "international",
+   "split_word"
+  ],
+  [
+   114,
+   "Na tions",
+   "Nations",
+   "split_word"
+  ],
+  [
+   116,
+   "inter national",
+   "international",
+   "split_word"
+  ],
+  [
+   126,
+   "toWards",
+   "towards",
+   "ocr"
+  ],
+  [
+   127,
+   "Re public",
+   "Republic",
+   "split_word"
+  ],
+  [
+   132,
+   "twenty- fifth",
+   "twenty-fifth",
+   "spacing"
+  ],
+  [
+   133,
+   "Re public",
+   "Republic",
+   "split_word"
+  ],
+  [
+   136,
+   "Ho- necker",
+   "Honecker",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c805a4b24db2f07d3b7efe21fd09d2853e2117b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3885,
+  "words_out": 3847,
+  "retention": 0.9902,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   78,
+   79,
+   119,
+   116,
+   244,
+   190,
+   98,
+   90,
+   107,
+   145,
+   114,
+   87,
+   90,
+   194,
+   91,
+   152,
+   163,
+   131,
+   210,
+   140,
+   165,
+   129,
+   201,
+   223,
+   155,
+   135,
+   201
+  ],
+  "warnings": [
+   "30 fixes"
+  ]
+ }
+}

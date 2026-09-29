@@ -1,0 +1,91 @@
+{
+ "id": "ARG_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  11,
+  14,
+  20,
+  24,
+  29,
+  31,
+  36,
+  39,
+  42,
+  45,
+  50,
+  53
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "well- defined",
+   "well-defined",
+   "hyphen"
+  ],
+  [
+   29,
+   "was oil similar",
+   "was on similar",
+   "ocr"
+  ],
+  [
+   36,
+   "Assembly ’s",
+   "Assembly’s",
+   "spacing"
+  ],
+  [
+   38,
+   "the. doctrine",
+   "the doctrine",
+   "ocr"
+  ],
+  [
+   51,
+   "social- economic",
+   "social-economic",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2061c28ff8b5d6d29f14d338f840a5d5264fd5b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 30
+  },
+  "words_in": 1943,
+  "words_out": 1940,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   94,
+   73,
+   88,
+   110,
+   122,
+   146,
+   130,
+   171,
+   74,
+   196,
+   142,
+   98,
+   132,
+   148,
+   151,
+   65
+  ],
+  "warnings": []
+ }
+}

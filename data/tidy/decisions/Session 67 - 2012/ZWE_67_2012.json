@@ -1,0 +1,76 @@
+{
+ "id": "ZWE_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  17,
+  25,
+  35,
+  60,
+  71,
+  88,
+  111,
+  125,
+  140,
+  152,
+  160,
+  172,
+  185,
+  197,
+  211,
+  223,
+  233,
+  242
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   125,
+   "fi rmly",
+   "firmly",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "53efefc26af5918b7fc5ee185648b5bb31e09b31",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2149,
+  "words_out": 2147,
+  "retention": 0.9991,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   70,
+   77,
+   75,
+   87,
+   233,
+   101,
+   133,
+   223,
+   121,
+   117,
+   103,
+   69,
+   94,
+   105,
+   91,
+   109,
+   99,
+   84,
+   79,
+   77
+  ],
+  "warnings": []
+ }
+}

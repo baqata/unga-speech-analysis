@@ -1,0 +1,66 @@
+{
+ "id": "MLT_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  18,
+  26,
+  30,
+  37,
+  48,
+  55,
+  59,
+  67,
+  73,
+  81,
+  89,
+  100,
+  111,
+  118,
+  124
+ ],
+ "cer": [],
+ "fix": [
+  [
+   118,
+   "two- year",
+   "two-year",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ead34a30ac9984c8984016f4f13b84442fc2ef0b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2673,
+  "words_out": 2672,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   212,
+   158,
+   137,
+   85,
+   161,
+   204,
+   145,
+   129,
+   124,
+   105,
+   170,
+   140,
+   189,
+   238,
+   206,
+   189,
+   80
+  ],
+  "warnings": []
+ }
+}

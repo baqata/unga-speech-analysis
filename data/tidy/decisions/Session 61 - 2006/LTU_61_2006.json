@@ -1,0 +1,53 @@
+{
+ "id": "LTU_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  24,
+  38,
+  51,
+  71,
+  83,
+  94,
+  104,
+  114,
+  127,
+  137,
+  153
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "42b37976e51c3e85a70e137e340055967df89a07",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1263,
+  "words_out": 1259,
+  "retention": 0.9968,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   104,
+   75,
+   100,
+   113,
+   158,
+   87,
+   88,
+   96,
+   76,
+   105,
+   76,
+   119,
+   62
+  ],
+  "warnings": []
+ }
+}

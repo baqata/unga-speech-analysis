@@ -1,0 +1,86 @@
+{
+ "id": "USA_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  22,
+  26,
+  32,
+  39,
+  45,
+  50,
+  52,
+  56,
+  60,
+  63,
+  65,
+  69,
+  73,
+  77,
+  82,
+  89,
+  94,
+  98
+ ],
+ "cer": [
+  73
+ ],
+ "fix": [
+  [
+   12,
+   "for ail",
+   "for all",
+   "ocr"
+  ],
+  [
+   21,
+   "wort",
+   "work",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "c6e38c4132534435e9f6030160af4cd9306ffb9b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3144,
+  "words_out": 3144,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   190,
+   194,
+   138,
+   203,
+   109,
+   170,
+   211,
+   201,
+   135,
+   88,
+   238,
+   151,
+   71,
+   97,
+   103,
+   130,
+   123,
+   135,
+   209,
+   80,
+   79,
+   89
+  ],
+  "warnings": []
+ }
+}

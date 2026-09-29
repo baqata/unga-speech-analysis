@@ -1,0 +1,55 @@
+{
+ "id": "DMA_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  34,
+  59,
+  77,
+  102,
+  122,
+  149,
+  183,
+  197,
+  218,
+  231,
+  262
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bf873bae47eb9690c7263ca783f4c0489f02247a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2045,
+  "words_out": 2044,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   172,
+   88,
+   203,
+   125,
+   187,
+   147,
+   214,
+   260,
+   94,
+   148,
+   104,
+   220,
+   82
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "JPN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  17,
+  23,
+  29,
+  33,
+  36,
+  43,
+  50,
+  57,
+  65,
+  71,
+  75,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   52,
+   "Six- Party",
+   "Six-Party",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "011fb4d3b939421c1f98ebcb829f863813a60e28",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1730,
+  "words_out": 1729,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   91,
+   62,
+   91,
+   129,
+   119,
+   90,
+   71,
+   65,
+   142,
+   194,
+   106,
+   177,
+   121,
+   72,
+   94,
+   105
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "SGP_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   98,
+   98,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  9,
+  17,
+  22,
+  32,
+  39,
+  42,
+  49,
+  57,
+  65,
+  70,
+  76,
+  80,
+  87,
+  94,
+  97
+ ],
+ "cer": [
+  97
+ ],
+ "fix": [
+  [
+   64,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "933b5b68e2906300df7c3ff8b2199719c0c10892",
+ "layout": "single",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1981,
+  "words_out": 1956,
+  "retention": 0.9874,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   153,
+   148,
+   115,
+   144,
+   136,
+   71,
+   149,
+   116,
+   174,
+   103,
+   192,
+   84,
+   161,
+   130,
+   77,
+   3
+  ],
+  "warnings": []
+ }
+}

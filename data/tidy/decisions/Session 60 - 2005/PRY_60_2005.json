@@ -1,0 +1,77 @@
+{
+ "id": "PRY_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  37,
+  58,
+  73,
+  83,
+  91,
+  101,
+  120,
+  132,
+  160,
+  173,
+  185,
+  198,
+  211
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "societyís",
+   "society’s",
+   "encoding"
+  ],
+  [
+   41,
+   "down ó or",
+   "down — or",
+   "encoding"
+  ],
+  [
+   167,
+   "Taiwanís",
+   "Taiwan’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2cd8baa9f84c72e88f3a5aa88aaf58b281c58606",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_number": 3
+  },
+  "words_in": 1765,
+  "words_out": 1765,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   149,
+   149,
+   181,
+   128,
+   76,
+   65,
+   78,
+   140,
+   91,
+   221,
+   101,
+   90,
+   101,
+   118,
+   77
+  ],
+  "warnings": []
+ }
+}

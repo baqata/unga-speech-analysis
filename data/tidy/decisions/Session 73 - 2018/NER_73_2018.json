@@ -1,0 +1,93 @@
+{
+ "id": "NER_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  19,
+  23,
+  28,
+  33,
+  39,
+  45,
+  49,
+  54,
+  58,
+  66,
+  71,
+  77,
+  83
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   24,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ],
+  [
+   26,
+   "2017- 2021",
+   "2017-2021",
+   "hyphen"
+  ],
+  [
+   56,
+   "thirty- first",
+   "thirty-first",
+   "hyphen"
+  ],
+  [
+   66,
+   "security- related",
+   "security-related",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52856fad78db4b5f352f4e96918aa50518a19a20",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2329,
+  "words_out": 2324,
+  "retention": 0.9979,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   55,
+   93,
+   177,
+   209,
+   114,
+   189,
+   118,
+   152,
+   173,
+   114,
+   150,
+   113,
+   169,
+   95,
+   194,
+   142,
+   67
+  ],
+  "warnings": []
+ }
+}

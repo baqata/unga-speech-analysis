@@ -1,0 +1,63 @@
+{
+ "id": "MWI_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  17,
+  27,
+  34,
+  36,
+  43,
+  50,
+  58,
+  60,
+  64,
+  67
+ ],
+ "cer": [
+  0,
+  67
+ ],
+ "fix": [
+  [
+   64,
+   "Pow-er",
+   "Power",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4640061edbdcbe8ffcd827c702b80ed5855361a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1476,
+  "words_out": 1476,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   32,
+   110,
+   200,
+   90,
+   151,
+   127,
+   107,
+   85,
+   102,
+   264,
+   48,
+   78,
+   77,
+   5
+  ],
+  "warnings": []
+ }
+}

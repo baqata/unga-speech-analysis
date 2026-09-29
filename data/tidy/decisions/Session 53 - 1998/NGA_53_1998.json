@@ -1,0 +1,79 @@
+{
+ "id": "NGA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  34,
+  62,
+  80,
+  91,
+  104,
+  120,
+  139,
+  157,
+  168,
+  181,
+  201,
+  219,
+  247,
+  262,
+  275
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   120,
+   "Nigeria?s",
+   "Nigeria’s",
+   "encoding"
+  ],
+  [
+   254,
+   "country?s",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a650249eac58033da09345fa4efdd59e486746b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 283,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2372,
+  "words_out": 2366,
+  "retention": 0.9975,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   94,
+   73,
+   122,
+   231,
+   154,
+   99,
+   116,
+   140,
+   163,
+   150,
+   88,
+   106,
+   168,
+   133,
+   220,
+   124,
+   117,
+   68
+  ],
+  "warnings": []
+ }
+}

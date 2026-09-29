@@ -1,0 +1,118 @@
+{
+ "id": "NOR_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  18,
+  27,
+  34,
+  41,
+  48,
+  53,
+  61,
+  66,
+  72,
+  80,
+  88,
+  93,
+  99,
+  103,
+  107,
+  111
+ ],
+ "cer": [
+  111
+ ],
+ "fix": [
+  [
+   16,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   29,
+   "Texas, But even",
+   "Texas. But even",
+   "ocr"
+  ],
+  [
+   37,
+   "declared Its",
+   "declared its",
+   "ocr"
+  ],
+  [
+   63,
+   "involved, I shall confine",
+   "involved. I shall confine",
+   "ocr"
+  ],
+  [
+   67,
+   "must not be found",
+   "must now be found",
+   "ocr"
+  ],
+  [
+   91,
+   "bf the",
+   "of the",
+   "ocr"
+  ],
+  [
+   102,
+   "quarter, What",
+   "quarter. What",
+   "ocr"
+  ],
+  [
+   105,
+   "can he generally",
+   "can be generally",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9bbe048ce6ad722b5fa9681647372ef8d533c90e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 2335,
+  "words_out": 2309,
+  "retention": 0.9889,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   74,
+   74,
+   115,
+   99,
+   149,
+   163,
+   159,
+   113,
+   88,
+   135,
+   116,
+   112,
+   158,
+   159,
+   85,
+   120,
+   111,
+   79,
+   97,
+   103
+  ],
+  "warnings": []
+ }
+}

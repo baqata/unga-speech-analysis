@@ -1,0 +1,108 @@
+{
+ "id": "TGO_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  20,
+  24,
+  28,
+  31,
+  34,
+  36,
+  42,
+  44,
+  48,
+  54,
+  57,
+  61,
+  66,
+  71,
+  75,
+  77,
+  81,
+  86,
+  88,
+  92,
+  99,
+  105,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   25,
+   "for ' maintenance",
+   "for maintenance",
+   "ocr"
+  ],
+  [
+   60,
+   "4",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "earnestly hone",
+   "earnestly hope",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "00755529f6a6c2122c5ef18dd73cc95396cda807",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3742,
+  "words_out": 3740,
+  "retention": 0.9995,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   231,
+   86,
+   175,
+   249,
+   152,
+   169,
+   130,
+   124,
+   89,
+   175,
+   85,
+   154,
+   192,
+   63,
+   110,
+   175,
+   141,
+   130,
+   90,
+   96,
+   113,
+   102,
+   147,
+   208,
+   197,
+   104,
+   53
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "ISL_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  20,
+  23,
+  29,
+  32,
+  37,
+  41,
+  47,
+  51,
+  54,
+  59,
+  62,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "\", No doubt",
+   "\". No doubt",
+   "ocr"
+  ],
+  [
+   26,
+   "confidence- building",
+   "confidence-building",
+   "spacing"
+  ],
+  [
+   61,
+   "trouble- spots",
+   "trouble-spots",
+   "spacing"
+  ],
+  [
+   75,
+   "self- imposed",
+   "self-imposed",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ffe996c67c11f3650a4677e87a0b4771b76b4ede",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 1985,
+  "words_out": 1982,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   85,
+   157,
+   96,
+   152,
+   81,
+   163,
+   85,
+   142,
+   126,
+   164,
+   113,
+   111,
+   158,
+   87,
+   130,
+   132
+  ],
+  "warnings": []
+ }
+}

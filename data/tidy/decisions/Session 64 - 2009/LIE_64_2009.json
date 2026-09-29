@@ -1,0 +1,49 @@
+{
+ "id": "LIE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  34,
+  43,
+  52,
+  63,
+  87,
+  105,
+  126,
+  135,
+  148
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d44913bbcfc990bdd3d676b8a6650d2c3de6006f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1304,
+  "words_out": 1304,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   119,
+   159,
+   71,
+   78,
+   90,
+   184,
+   153,
+   166,
+   83,
+   109,
+   92
+  ],
+  "warnings": []
+ }
+}

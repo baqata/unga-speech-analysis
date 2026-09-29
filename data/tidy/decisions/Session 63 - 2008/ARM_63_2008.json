@@ -1,0 +1,55 @@
+{
+ "id": "ARM_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  21,
+  38,
+  51,
+  68,
+  85,
+  109,
+  120,
+  131,
+  151,
+  170,
+  183
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5825dec76e2d8451a87bfd574a20620fa7625a05",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1597,
+  "words_out": 1595,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   39,
+   121,
+   132,
+   95,
+   136,
+   142,
+   208,
+   90,
+   91,
+   154,
+   165,
+   98,
+   124
+  ],
+  "warnings": []
+ }
+}

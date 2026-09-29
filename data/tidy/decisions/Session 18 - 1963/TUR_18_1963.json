@@ -1,0 +1,137 @@
+{
+ "id": "TUR_18_1963",
+ "drop": [
+  [
+   112,
+   125,
+   "other_speaker"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  15,
+  22,
+  27,
+  29,
+  35,
+  37,
+  40,
+  42,
+  48,
+  53,
+  60,
+  63,
+  66,
+  69,
+  72,
+  77,
+  82,
+  85,
+  88,
+  92,
+  94,
+  99,
+  103,
+  106,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "met, While",
+   "met. While",
+   "ocr"
+  ],
+  [
+   25,
+   "X shall",
+   "I shall",
+   "ocr"
+  ],
+  [
+   27,
+   "(XVT)",
+   "(XVI)",
+   "ocr"
+  ],
+  [
+   43,
+   "here,",
+   "here.",
+   "ocr"
+  ],
+  [
+   58,
+   "year, Turkey",
+   "year. Turkey",
+   "ocr"
+  ],
+  [
+   78,
+   "time, The",
+   "time. The",
+   "ocr"
+  ],
+  [
+   98,
+   "them,",
+   "them.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "321bf8199e0f684e61e6e7c701db7caa30cf60e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {
+   "other_speaker": 14
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 45
+  },
+  "words_in": 4255,
+  "words_out": 3795,
+  "retention": 0.8919,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   213,
+   157,
+   182,
+   220,
+   164,
+   89,
+   193,
+   91,
+   137,
+   109,
+   219,
+   168,
+   171,
+   112,
+   102,
+   84,
+   98,
+   121,
+   201,
+   121,
+   111,
+   125,
+   65,
+   136,
+   130,
+   84,
+   92,
+   100
+  ],
+  "warnings": []
+ }
+}

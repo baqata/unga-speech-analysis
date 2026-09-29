@@ -1,0 +1,337 @@
+{
+ "id": "GHA_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  23,
+  25,
+  30,
+  37,
+  41,
+  47,
+  52,
+  54,
+  57,
+  61,
+  65,
+  67,
+  70,
+  74,
+  77,
+  80,
+  85,
+  97,
+  101,
+  106,
+  111,
+  116,
+  119,
+  122,
+  126,
+  129,
+  134,
+  137,
+  142,
+  144,
+  148,
+  151,
+  153,
+  159,
+  165,
+  168,
+  171,
+  177,
+  181,
+  187,
+  193,
+  195,
+  199,
+  203,
+  206,
+  209,
+  213,
+  217,
+  220,
+  227,
+  233,
+  236,
+  238,
+  240,
+  244,
+  245,
+  248,
+  252,
+  254,
+  260,
+  262,
+  268
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   "self- appointed",
+   "self-appointed",
+   "ocr"
+  ],
+  [
+   19,
+   "Tins is",
+   "This is",
+   "ocr"
+  ],
+  [
+   29,
+   "tins dreaded",
+   "this dreaded",
+   "ocr"
+  ],
+  [
+   33,
+   "rani? in",
+   "rank in",
+   "ocr"
+  ],
+  [
+   57,
+   "self- evident",
+   "self-evident",
+   "ocr"
+  ],
+  [
+   59,
+   "Nations atone and",
+   "Nations at one and",
+   "ocr"
+  ],
+  [
+   64,
+   "two; types",
+   "two types",
+   "ocr"
+  ],
+  [
+   65,
+   "and; to",
+   "and to",
+   "ocr"
+  ],
+  [
+   65,
+   "Nations Itself",
+   "Nations itself",
+   "ocr"
+  ],
+  [
+   65,
+   "in a I ridiculous",
+   "in a ridiculous",
+   "ocr"
+  ],
+  [
+   79,
+   "of. all",
+   "of all",
+   "ocr"
+  ],
+  [
+   84,
+   "integral, part",
+   "integral part",
+   "ocr"
+  ],
+  [
+   88,
+   "them.",
+   "them,",
+   "ocr"
+  ],
+  [
+   101,
+   "Nations and, produce",
+   "Nations and produce",
+   "ocr"
+  ],
+  [
+   125,
+   "this duly",
+   "this duty",
+   "ocr"
+  ],
+  [
+   139,
+   "I have, always",
+   "I have always",
+   "ocr"
+  ],
+  [
+   143,
+   "this, is",
+   "this is",
+   "ocr"
+  ],
+  [
+   151,
+   "it Should",
+   "it should",
+   "ocr"
+  ],
+  [
+   152,
+   "a work conflagration",
+   "a world conflagration",
+   "ocr"
+  ],
+  [
+   160,
+   "you. cannot",
+   "you cannot",
+   "ocr"
+  ],
+  [
+   175,
+   "minority Settlers",
+   "minority settlers",
+   "ocr"
+  ],
+  [
+   180,
+   "we, must",
+   "we must",
+   "ocr"
+  ],
+  [
+   207,
+   "appears .to",
+   "appears to",
+   "ocr"
+  ],
+  [
+   217,
+   "73..",
+   "",
+   "label"
+  ],
+  [
+   244,
+   "part of. the",
+   "part of the",
+   "ocr"
+  ],
+  [
+   251,
+   "set tip",
+   "set up",
+   "ocr"
+  ],
+  [
+   263,
+   "farces of",
+   "forces of",
+   "ocr"
+  ],
+  [
+   267,
+   "independence., (6)",
+   "independence. (6)",
+   "ocr"
+  ],
+  [
+   212,
+   "the African continent,",
+   "the African continent.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "97d1e98029ca8454349f6abe227c72fab8ae373c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 269,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 90
+  },
+  "words_in": 7905,
+  "words_out": 7900,
+  "retention": 0.9994,
+  "n_paragraphs": 66,
+  "paragraph_words": [
+   78,
+   130,
+   148,
+   248,
+   68,
+   127,
+   166,
+   102,
+   133,
+   139,
+   109,
+   65,
+   136,
+   87,
+   104,
+   62,
+   78,
+   110,
+   134,
+   129,
+   205,
+   100,
+   128,
+   111,
+   145,
+   119,
+   98,
+   135,
+   96,
+   152,
+   102,
+   148,
+   78,
+   102,
+   114,
+   84,
+   132,
+   154,
+   86,
+   86,
+   168,
+   93,
+   150,
+   139,
+   65,
+   120,
+   149,
+   98,
+   94,
+   86,
+   134,
+   87,
+   169,
+   136,
+   119,
+   80,
+   76,
+   143,
+   67,
+   106,
+   135,
+   64,
+   200,
+   139,
+   324,
+   31
+  ],
+  "warnings": [
+   "paragraph at unit 262 has 324 words",
+   "29 fixes"
+  ]
+ }
+}

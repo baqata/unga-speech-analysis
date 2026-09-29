@@ -1,0 +1,137 @@
+{
+ "id": "USA_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  13,
+  20,
+  26,
+  32,
+  38,
+  42,
+  46,
+  52,
+  62,
+  68,
+  72,
+  77,
+  80,
+  82,
+  87,
+  91,
+  95,
+  99,
+  101,
+  105,
+  111,
+  119,
+  125,
+  128,
+  133,
+  139,
+  144,
+  149
+ ],
+ "cer": [],
+ "fix": [
+  [
+   32,
+   "grave risk?”",
+   "grave risks”",
+   "ocr"
+  ],
+  [
+   39,
+   "disagreement”, At",
+   "disagreement”. At",
+   "ocr"
+  ],
+  [
+   46,
+   "recent, setback",
+   "recent setback",
+   "ocr"
+  ],
+  [
+   47,
+   "and-Germany",
+   "and Germany",
+   "spacing"
+  ],
+  [
+   49,
+   ".recurrently",
+   "recurrently",
+   "ocr"
+  ],
+  [
+   70,
+   "right r, t only",
+   "right not only",
+   "ocr"
+  ],
+  [
+   80,
+   "1953 — —",
+   "1953 —",
+   "ocr"
+  ],
+  [
+   124,
+   "problem: We",
+   "problem. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a8df951dddd03f3f17b5dc44ce102d349e41702",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 44
+  },
+  "words_in": 3702,
+  "words_out": 3701,
+  "retention": 0.9997,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   66,
+   151,
+   140,
+   183,
+   203,
+   140,
+   98,
+   103,
+   160,
+   219,
+   100,
+   90,
+   124,
+   63,
+   84,
+   132,
+   62,
+   78,
+   105,
+   69,
+   240,
+   107,
+   207,
+   167,
+   81,
+   129,
+   141,
+   125,
+   81,
+   53
+  ],
+  "warnings": []
+ }
+}

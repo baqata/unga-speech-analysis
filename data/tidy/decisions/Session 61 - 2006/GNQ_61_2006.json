@@ -1,0 +1,51 @@
+{
+ "id": "GNQ_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  30,
+  50,
+  62,
+  77,
+  90,
+  99,
+  111,
+  124,
+  138
+ ],
+ "cer": [
+  9
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c07b8a3a2c655cb67eed2a3ffacce327b3e2e0d8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1185,
+  "words_out": 1184,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   63,
+   160,
+   155,
+   98,
+   117,
+   102,
+   63,
+   101,
+   107,
+   113,
+   105
+  ],
+  "warnings": []
+ }
+}

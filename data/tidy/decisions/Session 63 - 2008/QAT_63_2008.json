@@ -1,0 +1,46 @@
+{
+ "id": "QAT_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  20,
+  41,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Su",
+   "Sir",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "916f7ed7b23b19fe94edd6cd53e7d471e55b3310",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 565,
+  "words_out": 564,
+  "retention": 0.9982,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   75,
+   92,
+   173,
+   156,
+   68
+  ],
+  "warnings": []
+ }
+}

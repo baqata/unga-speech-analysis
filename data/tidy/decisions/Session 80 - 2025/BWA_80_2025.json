@@ -1,0 +1,53 @@
+{
+ "id": "BWA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  10,
+  20,
+  28,
+  37,
+  42,
+  48,
+  53,
+  60
+ ],
+ "cer": [
+  60
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52bcc5877e39d55fd7b7421168e2d2d67fb6814f",
+ "layout": "single",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 978,
+  "words_out": 945,
+  "retention": 0.9663,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   143,
+   157,
+   87,
+   124,
+   87,
+   107,
+   77,
+   155,
+   8
+  ],
+  "warnings": []
+ }
+}

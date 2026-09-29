@@ -1,0 +1,62 @@
+{
+ "id": "MRT_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  16,
+  20,
+  25,
+  28,
+  32,
+  33,
+  37,
+  40,
+  42,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6be208b8fb18d3175a457de7fac13df5c5bf456",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1574,
+  "words_out": 1574,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   148,
+   94,
+   81,
+   123,
+   112,
+   177,
+   121,
+   96,
+   63,
+   108,
+   86,
+   101,
+   74,
+   190
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "id": "PAK_13_1958",
+ "drop": [
+  [
+   12,
+   12,
+   "header_footer"
+  ],
+  [
+   99,
+   99,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  15,
+  20,
+  23,
+  28,
+  32,
+  34,
+  41,
+  46,
+  52,
+  56,
+  64,
+  71,
+  77,
+  81,
+  87,
+  94,
+  98,
+  103,
+  109,
+  113,
+  118,
+  121,
+  126,
+  128,
+  134,
+  143,
+  153,
+  159,
+  164,
+  169,
+  171,
+  176,
+  181
+ ],
+ "cer": [
+  176
+ ],
+ "fix": [
+  [
+   0,
+   "colleague sand",
+   "colleagues and",
+   "spacing"
+  ],
+  [
+   13,
+   "ties, of",
+   "ties of",
+   "ocr"
+  ],
+  [
+   16,
+   "Almost \"all",
+   "Almost all",
+   "ocr"
+  ],
+  [
+   32,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   33,
+   "the. economies",
+   "the economies",
+   "ocr"
+  ],
+  [
+   42,
+   "1969",
+   "1960",
+   "ocr"
+  ],
+  [
+   65,
+   "It \"would",
+   "It would",
+   "ocr"
+  ],
+  [
+   84,
+   " [194 (II)]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "Ignored",
+   "ignored",
+   "ocr"
+  ],
+  [
+   95,
+   "manner,",
+   "manner.",
+   "ocr"
+  ],
+  [
+   98,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   110,
+   "Impartial",
+   "impartial",
+   "ocr"
+  ],
+  [
+   119,
+   "throe",
+   "three",
+   "ocr"
+  ],
+  [
+   119,
+   "tests,;",
+   "tests;",
+   "ocr"
+  ],
+  [
+   119,
+   "an. international",
+   "an international",
+   "ocr"
+  ],
+  [
+   123,
+   "wore ruled",
+   "were ruled",
+   "ocr"
+  ],
+  [
+   124,
+   "plan, This",
+   "plan. This",
+   "ocr"
+  ],
+  [
+   135,
+   "space, I am",
+   "space. I am",
+   "ocr"
+  ],
+  [
+   142,
+   "mankind,",
+   "mankind.",
+   "ocr"
+  ],
+  [
+   151,
+   "too)",
+   "too,",
+   "ocr"
+  ],
+  [
+   158,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   160,
+   "an, atmosphere",
+   "an atmosphere",
+   "ocr"
+  ],
+  [
+   171,
+   "Asian- African",
+   "Asian-African",
+   "hyphen"
+  ],
+  [
+   174,
+   "Itself, mid to",
+   "itself, and to",
+   "ocr"
+  ],
+  [
+   175,
+   "sharp",
+   "share",
+   "ocr"
+  ],
+  [
+   181,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 12 and 99 are stray paragraph numbers ('69..', '98.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "ce0ed43b7b7e7bbce3db7c661c57069439321d53",
+ "layout": "lines",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 59
+  },
+  "words_in": 5420,
+  "words_out": 5411,
+  "retention": 0.9983,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   197,
+   123,
+   154,
+   86,
+   140,
+   101,
+   126,
+   125,
+   107,
+   178,
+   118,
+   76,
+   119,
+   223,
+   244,
+   190,
+   100,
+   123,
+   121,
+   107,
+   136,
+   115,
+   172,
+   152,
+   197,
+   272,
+   106,
+   198,
+   182,
+   217,
+   194,
+   165,
+   145,
+   60,
+   165,
+   124,
+   53
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

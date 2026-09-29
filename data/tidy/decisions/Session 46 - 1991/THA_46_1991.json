@@ -1,0 +1,117 @@
+{
+ "id": "THA_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  14,
+  16,
+  20,
+  22,
+  33,
+  36,
+  39,
+  43,
+  47,
+  51,
+  54,
+  59,
+  65,
+  71,
+  75,
+  79,
+  84,
+  88,
+  91,
+  94,
+  99,
+  103,
+  106
+ ],
+ "cer": [
+  0,
+  6,
+  8,
+  12,
+  33,
+  103
+ ],
+ "fix": [
+  [
+   74,
+   "He would like",
+   "We would like",
+   "ocr"
+  ],
+  [
+   82,
+   "its Cull support",
+   "its full support",
+   "ocr"
+  ],
+  [
+   93,
+   "Mow that",
+   "Now that",
+   "ocr"
+  ],
+  [
+   103,
+   "Peres de Cuellar",
+   "Perez de Cuellar",
+   "ocr"
+  ],
+  [
+   107,
+   "her vary best",
+   "her very best",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "703e24abca923815f930b9de16767f32ce4ec6d2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2506,
+  "words_out": 2506,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   117,
+   53,
+   72,
+   48,
+   61,
+   78,
+   54,
+   182,
+   110,
+   75,
+   77,
+   78,
+   116,
+   99,
+   104,
+   97,
+   97,
+   120,
+   100,
+   123,
+   99,
+   66,
+   121,
+   159,
+   80,
+   83,
+   37
+  ],
+  "warnings": []
+ }
+}

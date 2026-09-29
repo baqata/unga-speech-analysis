@@ -1,0 +1,82 @@
+{
+ "id": "GTM_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  15,
+  18,
+  20,
+  23,
+  27,
+  32,
+  34,
+  36,
+  41,
+  45,
+  48,
+  51,
+  54,
+  56,
+  60,
+  63,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   ", of the",
+   "of the",
+   "ocr"
+  ],
+  [
+   45,
+   "Trade & d Development",
+   "Trade and Development",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18955f41fe655a426ead6f1c4b84d11bd057b5ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2312,
+  "words_out": 2308,
+  "retention": 0.9983,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   102,
+   113,
+   185,
+   65,
+   118,
+   87,
+   143,
+   198,
+   89,
+   134,
+   123,
+   123,
+   123,
+   84,
+   150,
+   99,
+   141,
+   88,
+   79,
+   64
+  ],
+  "warnings": []
+ }
+}

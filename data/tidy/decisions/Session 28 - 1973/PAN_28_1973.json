@@ -1,0 +1,105 @@
+{
+ "id": "PAN_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  21,
+  23,
+  26,
+  28,
+  29,
+  31,
+  36,
+  39,
+  42,
+  46,
+  55,
+  56,
+  59,
+  63,
+  67,
+  70,
+  75,
+  78,
+  80,
+  85
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   7,
+   "medium- sized",
+   "medium-sized",
+   "spacing"
+  ],
+  [
+   11,
+   "development .of",
+   "development of",
+   "ocr"
+  ],
+  [
+   79,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   79,
+   " [see A/9330 and Corr.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "419adc01602151e0f208e4e43eb33ea7604bbe48",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3514,
+  "words_out": 3508,
+  "retention": 0.9983,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   96,
+   144,
+   138,
+   214,
+   185,
+   67,
+   142,
+   66,
+   132,
+   88,
+   171,
+   231,
+   97,
+   124,
+   200,
+   67,
+   149,
+   99,
+   138,
+   72,
+   206,
+   191,
+   117,
+   250,
+   124
+  ],
+  "warnings": []
+ }
+}

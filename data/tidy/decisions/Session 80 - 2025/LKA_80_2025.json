@@ -1,0 +1,85 @@
+{
+ "id": "LKA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  24,
+  32,
+  40,
+  52,
+  56,
+  68,
+  75,
+  80,
+  89,
+  99,
+  107,
+  119
+ ],
+ "cer": [
+  2,
+  119
+ ],
+ "fix": [
+  [
+   2,
+   "Annalena Babcock",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   3,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   51,
+   "Javaharlal",
+   "Jawaharlal",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9fd1c6861b2e66017f4efb1a1e352ffa388593af",
+ "layout": "single",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1962,
+  "words_out": 1923,
+  "retention": 0.9801,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   91,
+   101,
+   189,
+   132,
+   158,
+   151,
+   71,
+   170,
+   144,
+   96,
+   137,
+   143,
+   159,
+   177,
+   4
+  ],
+  "warnings": []
+ }
+}

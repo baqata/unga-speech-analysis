@@ -1,0 +1,126 @@
+{
+ "id": "ECU_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  18,
+  22,
+  24,
+  27,
+  32,
+  37,
+  42,
+  43,
+  45,
+  47,
+  51,
+  54,
+  60,
+  62,
+  66,
+  73,
+  76,
+  80,
+  83,
+  86,
+  91,
+  94,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "ISO free",
+   "150 free",
+   "ocr"
+  ],
+  [
+   19,
+   " [resolution S-10121",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "Ayacucho10",
+   "Ayacucho",
+   "ocr"
+  ],
+  [
+   57,
+   "inline with",
+   "in line with",
+   "split_word"
+  ],
+  [
+   80,
+   "peace:",
+   "peace.",
+   "ocr"
+  ],
+  [
+   81,
+   "application-of",
+   "application of",
+   "ocr"
+  ],
+  [
+   87,
+   "subject'7 offers",
+   "subject offers",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ee2d35ad96ec679434300109c9b8cb9b77cc57e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3634,
+  "words_out": 3634,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   154,
+   147,
+   114,
+   216,
+   129,
+   114,
+   80,
+   219,
+   158,
+   182,
+   81,
+   78,
+   112,
+   100,
+   111,
+   165,
+   114,
+   195,
+   153,
+   78,
+   144,
+   166,
+   90,
+   179,
+   145,
+   131,
+   79
+  ],
+  "warnings": []
+ }
+}

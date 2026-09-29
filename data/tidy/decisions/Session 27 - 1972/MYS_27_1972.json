@@ -1,0 +1,129 @@
+{
+ "id": "MYS_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  11,
+  15,
+  21,
+  24,
+  28,
+  31,
+  34,
+  38,
+  43,
+  45,
+  48,
+  51,
+  56,
+  58,
+  63,
+  70,
+  75,
+  79,
+  80,
+  85,
+  88,
+  99
+ ],
+ "cer": [
+  0,
+  8,
+  11
+ ],
+ "fix": [
+  [
+   9,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   18,
+   "the\" Soviet",
+   "the Soviet",
+   "ocr"
+  ],
+  [
+   45,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "1971. in which",
+   "1971, in which",
+   "ocr"
+  ],
+  [
+   60,
+   "Hie trend",
+   "The trend",
+   "ocr"
+  ],
+  [
+   74,
+   "debt- servicing",
+   "debt-servicing",
+   "spacing"
+  ],
+  [
+   75,
+   " [UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   75,
+   " [resolution 2626 (XXV)J",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e4a51c09abdd936df3cc9032638efd0bb00c9549",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 26
+  },
+  "words_in": 3130,
+  "words_out": 3120,
+  "retention": 0.9968,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   181,
+   128,
+   93,
+   213,
+   103,
+   135,
+   100,
+   107,
+   137,
+   107,
+   69,
+   200,
+   130,
+   182,
+   70,
+   97,
+   134,
+   176,
+   174,
+   60,
+   161,
+   83,
+   223,
+   57
+  ],
+  "warnings": []
+ }
+}

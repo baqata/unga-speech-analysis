@@ -1,0 +1,108 @@
+{
+ "id": "VUT_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  16,
+  19,
+  23,
+  24,
+  29,
+  33,
+  35,
+  40,
+  46,
+  51,
+  55,
+  62,
+  66,
+  70,
+  74,
+  80,
+  84,
+  87,
+  89,
+  93,
+  96,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   7,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   59,
+   "sea- level",
+   "sea-level",
+   "hyphen"
+  ],
+  [
+   86,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "493b0deb89d2c47cc248577bfc3070bd1093ef67",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2540,
+  "words_out": 2535,
+  "retention": 0.998,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   180,
+   99,
+   98,
+   85,
+   101,
+   62,
+   126,
+   106,
+   62,
+   115,
+   124,
+   142,
+   87,
+   167,
+   106,
+   122,
+   67,
+   114,
+   107,
+   84,
+   68,
+   112,
+   82,
+   72,
+   47
+  ],
+  "warnings": []
+ }
+}

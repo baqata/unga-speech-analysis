@@ -1,0 +1,95 @@
+{
+ "id": "KEN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  28,
+  42,
+  57,
+  71,
+  88,
+  104,
+  127,
+  142,
+  159,
+  174,
+  186,
+  207,
+  228,
+  243,
+  258,
+  265
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   1,
+   "warmly. Sir,",
+   "warmly, Sir,",
+   "ocr"
+  ],
+  [
+   7,
+   "predecessor. Ambassador",
+   "predecessor, Ambassador",
+   "ocr"
+  ],
+  [
+   19,
+   "scene.*",
+   "scene.",
+   "ocr"
+  ],
+  [
+   209,
+   "It Emphasized",
+   "It emphasized",
+   "ocr"
+  ],
+  [
+   216,
+   "poor. North",
+   "poor, North",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c69ab95fc2e97a56fecb83e14c4de3f1eadd532",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 282,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3093,
+  "words_out": 3090,
+  "retention": 0.999,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   111,
+   192,
+   164,
+   172,
+   136,
+   175,
+   160,
+   240,
+   169,
+   175,
+   156,
+   140,
+   236,
+   264,
+   161,
+   157,
+   76,
+   206
+  ],
+  "warnings": []
+ }
+}

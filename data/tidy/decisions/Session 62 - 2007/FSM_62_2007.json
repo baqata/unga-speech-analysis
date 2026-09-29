@@ -1,0 +1,61 @@
+{
+ "id": "FSM_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  28,
+  43,
+  58,
+  67,
+  78,
+  100,
+  118,
+  135,
+  154,
+  170,
+  185,
+  202,
+  209,
+  225
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ee47032bdd63395247b376a32dd9a42b89fde5d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1835,
+  "words_out": 1834,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   136,
+   95,
+   121,
+   117,
+   68,
+   77,
+   164,
+   121,
+   130,
+   162,
+   125,
+   134,
+   139,
+   52,
+   130,
+   63
+  ],
+  "warnings": []
+ }
+}

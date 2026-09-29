@@ -1,0 +1,78 @@
+{
+ "id": "FIN_48_1993",
+ "drop": [
+  [
+   93,
+   93,
+   "header_footer"
+  ],
+  [
+   188,
+   188,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  23,
+  35,
+  45,
+  62,
+  71,
+  80,
+  101,
+  116,
+  129,
+  139,
+  154,
+  175,
+  186,
+  204,
+  212,
+  230,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "97f7061b0ad6f61f749bde45a733b3d417998ee6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2251,
+  "words_out": 2238,
+  "retention": 0.9942,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   76,
+   124,
+   107,
+   79,
+   144,
+   72,
+   72,
+   169,
+   124,
+   105,
+   91,
+   142,
+   185,
+   98,
+   148,
+   66,
+   160,
+   193,
+   83
+  ],
+  "warnings": []
+ }
+}

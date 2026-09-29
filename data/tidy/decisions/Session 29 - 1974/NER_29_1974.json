@@ -1,0 +1,172 @@
+{
+ "id": "NER_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  18,
+  21,
+  26,
+  32,
+  36,
+  38,
+  41,
+  44,
+  48,
+  52,
+  55,
+  59,
+  69,
+  75,
+  78,
+  83,
+  91,
+  99,
+  101,
+  107
+ ],
+ "cer": [
+  0,
+  5,
+  7,
+  11
+ ],
+ "fix": [
+  [
+   1,
+   "o^",
+   "of",
+   "ocr"
+  ],
+  [
+   2,
+   "ad-dressed",
+   "addressed",
+   "hyphen"
+  ],
+  [
+   2,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   4,
+   "drought- stricken",
+   "drought-stricken",
+   "spacing"
+  ],
+  [
+   5,
+   "213; ",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   14,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   14,
+   "ail men",
+   "all men",
+   "ocr"
+  ],
+  [
+   15,
+   "that l wish",
+   "that I wish",
+   "ocr"
+  ],
+  [
+   37,
+   "good- neighborly",
+   "good-neighborly",
+   "spacing"
+  ],
+  [
+   48,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   52,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   55,
+   "dis-possessed",
+   "dispossessed",
+   "hyphen"
+  ],
+  [
+   109,
+   "dendUnced",
+   "denounced",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71be4ccd3ceefc593ea3919684446552d94c8a06",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 33
+  },
+  "words_in": 2971,
+  "words_out": 2964,
+  "retention": 0.9976,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   193,
+   86,
+   120,
+   166,
+   129,
+   102,
+   190,
+   85,
+   92,
+   142,
+   103,
+   125,
+   90,
+   92,
+   125,
+   110,
+   107,
+   78,
+   119,
+   157,
+   184,
+   79,
+   130,
+   160
+  ],
+  "warnings": []
+ }
+}

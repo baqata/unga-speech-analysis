@@ -1,0 +1,60 @@
+{
+ "id": "GHA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  38,
+  58,
+  72,
+  92,
+  103,
+  115,
+  129,
+  138,
+  153,
+  167,
+  184
+ ],
+ "cer": [
+  0,
+  153,
+  167,
+  184
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69dffb47624cb82c7b002d4623d72bb0e6adc30a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1479,
+  "words_out": 1472,
+  "retention": 0.9953,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   95,
+   90,
+   91,
+   144,
+   101,
+   165,
+   82,
+   83,
+   108,
+   65,
+   111,
+   125,
+   132,
+   80
+  ],
+  "warnings": []
+ }
+}

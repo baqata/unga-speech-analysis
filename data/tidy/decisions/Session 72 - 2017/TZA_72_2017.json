@@ -1,0 +1,104 @@
+{
+ "id": "TZA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  9,
+  13,
+  18,
+  23,
+  26,
+  30,
+  33,
+  38,
+  45,
+  47,
+  53,
+  57,
+  60,
+  63,
+  67,
+  75,
+  78,
+  81
+ ],
+ "cer": [
+  0,
+  1,
+  4
+ ],
+ "fix": [
+  [
+   58,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   66,
+   "people-to- people",
+   "people-to-people",
+   "hyphen"
+  ],
+  [
+   74,
+   "nuclear- weapons",
+   "nuclear-weapons",
+   "hyphen"
+  ],
+  [
+   76,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   63,
+   "fmancial",
+   "financial",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9db433e009c11d6c4b563f401f53fbdfa11814fa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2191,
+  "words_out": 2187,
+  "retention": 0.9982,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   30,
+   98,
+   95,
+   61,
+   116,
+   159,
+   136,
+   76,
+   125,
+   75,
+   103,
+   125,
+   75,
+   158,
+   112,
+   66,
+   70,
+   106,
+   187,
+   85,
+   65,
+   64
+  ],
+  "warnings": []
+ }
+}

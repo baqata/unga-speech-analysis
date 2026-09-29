@@ -1,0 +1,116 @@
+{
+ "id": "COD_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  10,
+  11,
+  17,
+  19,
+  30,
+  40,
+  44,
+  47,
+  50,
+  53,
+  56,
+  61,
+  64,
+  66,
+  70,
+  74,
+  76,
+  80,
+  83,
+  85,
+  87,
+  93,
+  95,
+  101
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "ray own",
+   "my own",
+   "ocr"
+  ],
+  [
+   28,
+   "rather t^ aiding",
+   "rather than hiding",
+   "ocr"
+  ],
+  [
+   70,
+   "» climate",
+   "a climate",
+   "ocr"
+  ],
+  [
+   85,
+   "sake heavy",
+   "make heavy",
+   "ocr"
+  ],
+  [
+   99,
+   "tbe",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6bc523a70e90e50bd2bcb40db3a3ea20b282908f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3293,
+  "words_out": 3292,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   101,
+   53,
+   82,
+   61,
+   55,
+   232,
+   99,
+   261,
+   269,
+   73,
+   72,
+   87,
+   99,
+   138,
+   201,
+   104,
+   78,
+   106,
+   156,
+   65,
+   107,
+   63,
+   100,
+   51,
+   206,
+   96,
+   158,
+   119
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "NLD_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  36,
+  53,
+  79,
+  93,
+  113,
+  134,
+  153,
+  170,
+  190,
+  206,
+  220,
+  229
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   34,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   134,
+   "Netherlands?",
+   "Netherlands’",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17374eb8935f55f91b231479765f42e43b722cbf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 239,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 2
+  },
+  "words_in": 2078,
+  "words_out": 2075,
+  "retention": 0.9986,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   154,
+   167,
+   162,
+   230,
+   113,
+   172,
+   175,
+   157,
+   140,
+   173,
+   138,
+   128,
+   74,
+   92
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "KOR_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  22,
+  35,
+  44,
+  55,
+  64,
+  74,
+  83,
+  105,
+  120,
+  129,
+  146,
+  158,
+  177,
+  194,
+  210,
+  232,
+  248,
+  258,
+  276,
+  293
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "promotinge",
+   "promoting",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82a02d142ec7b9b2e2aad37b22d18305a21cc002",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 304,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2462,
+  "words_out": 2458,
+  "retention": 0.9984,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   64,
+   111,
+   105,
+   70,
+   102,
+   74,
+   80,
+   66,
+   183,
+   121,
+   65,
+   133,
+   94,
+   141,
+   125,
+   130,
+   176,
+   137,
+   85,
+   156,
+   146,
+   94
+  ],
+  "warnings": []
+ }
+}

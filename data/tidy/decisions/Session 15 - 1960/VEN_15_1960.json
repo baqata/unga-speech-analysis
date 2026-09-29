@@ -1,0 +1,158 @@
+{
+ "id": "VEN_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  10,
+  15,
+  18,
+  21,
+  24,
+  29,
+  34,
+  37,
+  39,
+  43,
+  48,
+  55,
+  61,
+  66,
+  69,
+  74,
+  80,
+  82,
+  86,
+  88,
+  96,
+  101,
+  104,
+  107,
+  109,
+  115,
+  121,
+  126,
+  127,
+  130,
+  133,
+  137,
+  142,
+  147,
+  150,
+  153
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   19,
+   "our Independence",
+   "our independence",
+   "ocr"
+  ],
+  [
+   20,
+   "duties,",
+   "duties.",
+   "ocr"
+  ],
+  [
+   27,
+   "of Its",
+   "of its",
+   "ocr"
+  ],
+  [
+   86,
+   "in. accordance",
+   "in accordance",
+   "ocr"
+  ],
+  [
+   97,
+   "Bogotá. at",
+   "Bogotá at",
+   "ocr"
+  ],
+  [
+   132,
+   "their Independence",
+   "their independence",
+   "ocr"
+  ],
+  [
+   138,
+   " [1474 (ES-IV)]",
+   "",
+   "label"
+  ],
+  [
+   148,
+   " [868th meeting",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1db19c6e9f29c324c0891f47f1a1c74bdd804468",
+ "layout": "lines",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 66
+  },
+  "words_in": 5011,
+  "words_out": 5005,
+  "retention": 0.9988,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   70,
+   71,
+   131,
+   163,
+   114,
+   137,
+   117,
+   187,
+   128,
+   118,
+   83,
+   112,
+   134,
+   175,
+   121,
+   136,
+   137,
+   142,
+   240,
+   110,
+   113,
+   65,
+   152,
+   203,
+   69,
+   96,
+   69,
+   132,
+   141,
+   138,
+   61,
+   120,
+   98,
+   138,
+   190,
+   196,
+   151,
+   109,
+   138
+  ],
+  "warnings": []
+ }
+}

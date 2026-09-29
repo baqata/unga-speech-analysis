@@ -1,0 +1,199 @@
+{
+ "id": "SWZ_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   107,
+   107,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  5,
+  14,
+  19,
+  23,
+  31,
+  40,
+  48,
+  53,
+  58,
+  67,
+  76,
+  82,
+  88,
+  92,
+  96,
+  104
+ ],
+ "cer": [
+  3,
+  4,
+  104
+ ],
+ "fix": [
+  [
+   19,
+   "Izuluini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   31,
+   "Swatini",
+   "Eswatini",
+   "asr_name"
+  ],
+  [
+   37,
+   "Swatini",
+   "Eswatini",
+   "asr_name"
+  ],
+  [
+   38,
+   "assigned",
+   "signed",
+   "asr_term"
+  ],
+  [
+   40,
+   "SADAC summit",
+   "SADC summit",
+   "asr_name"
+  ],
+  [
+   40,
+   "SADAC organ",
+   "SADC organ",
+   "asr_name"
+  ],
+  [
+   42,
+   "SADAC",
+   "SADC",
+   "asr_name"
+  ],
+  [
+   58,
+   "Swatini",
+   "Eswatini",
+   "asr_name"
+  ],
+  [
+   62,
+   "HAFTA",
+   "AfCFTA",
+   "asr_name"
+  ],
+  [
+   70,
+   "impacts",
+   "mpox",
+   "asr_name"
+  ],
+  [
+   81,
+   "alnino",
+   "El Niño",
+   "asr_name"
+  ],
+  [
+   86,
+   "substances",
+   "subsistence",
+   "asr_term"
+  ],
+  [
+   87,
+   "low field",
+   "Lowveld",
+   "asr_name"
+  ],
+  [
+   91,
+   "Swartin",
+   "Eswatini",
+   "asr_name"
+  ],
+  [
+   103,
+   "Swatini",
+   "Eswatini",
+   "asr_name"
+  ],
+  [
+   56,
+   "accountability. emerging",
+   "accountability. Emerging",
+   "asr_term"
+  ],
+  [
+   81,
+   "unborn. in",
+   "unborn. In",
+   "asr_term"
+  ],
+  [
+   73,
+   "resolve",
+   "resolved",
+   "asr_term"
+  ],
+  [
+   73,
+   "block",
+   "bloc",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish channel confirms consenso de Ezulwini, SADC, M-POX, fenomeno del Nino, acuerdos que han firmado, sede de la ONU en Eswatini; AfCFTA and Lowveld (Eswatini region) are the official names. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 56 'accountability. emerging' -> 'accountability. Emerging'; unit 81 'unborn. in' -> 'unborn. In'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 73 'resolve' -> 'resolved' (decodes 'resolve' only 0.67 / 0.63, the final -d lost before 'to'; a past meeting ('In a recent meeting ... held in Eswatini'); ES 'los países acordaron'); spot 6 unit 73 'block' -> 'bloc' (homophone: 'act as a singular block' means a group of countries; ES 'un bloque unificado'; UN 'bloc')",
+ "unitizer_version": 1,
+ "sha1": "afbcae342b12dbbdc38cdfe6a94e17ded2998cbe",
+ "layout": "single",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2176,
+  "words_out": 2108,
+  "retention": 0.9688,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   40,
+   33,
+   207,
+   94,
+   78,
+   105,
+   178,
+   199,
+   89,
+   105,
+   220,
+   154,
+   128,
+   97,
+   78,
+   77,
+   185,
+   41
+  ],
+  "warnings": []
+ }
+}

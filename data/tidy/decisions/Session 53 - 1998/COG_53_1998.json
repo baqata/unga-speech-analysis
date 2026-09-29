@@ -1,0 +1,77 @@
+{
+ "id": "COG_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  34,
+  43,
+  55,
+  81,
+  97,
+  112,
+  131,
+  144,
+  159,
+  170,
+  185,
+  202
+ ],
+ "cer": [
+  0,
+  202
+ ],
+ "fix": [
+  [
+   84,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   167,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   194,
+   "today?s",
+   "today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "931a61392695f24ba88b1640b67d538b3a167e07",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1787,
+  "words_out": 1786,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   202,
+   98,
+   74,
+   113,
+   205,
+   138,
+   125,
+   171,
+   115,
+   131,
+   84,
+   115,
+   148,
+   67
+  ],
+  "warnings": []
+ }
+}

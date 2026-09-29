@@ -1,0 +1,92 @@
+{
+ "id": "TZA_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  15,
+  18,
+  21,
+  25,
+  33,
+  41,
+  47,
+  51,
+  54,
+  58,
+  62,
+  69,
+  76,
+  83,
+  87,
+  90,
+  92,
+  96,
+  100,
+  106,
+  113
+ ],
+ "cer": [
+  0,
+  2,
+  113
+ ],
+ "fix": [
+  [
+   51,
+   "Magafuli",
+   "Magufuli",
+   "ocr"
+  ],
+  [
+   88,
+   "Tanazania",
+   "Tanzania",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e8a2af98addceae2221805e0910041dcc13ec675",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2826,
+  "words_out": 2826,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   69,
+   100,
+   141,
+   108,
+   87,
+   65,
+   100,
+   168,
+   176,
+   138,
+   102,
+   86,
+   93,
+   96,
+   178,
+   122,
+   178,
+   85,
+   64,
+   79,
+   103,
+   101,
+   129,
+   165,
+   93
+  ],
+  "warnings": []
+ }
+}

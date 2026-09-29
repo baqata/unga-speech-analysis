@@ -1,0 +1,131 @@
+{
+ "id": "PHL_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  14,
+  22,
+  30,
+  32,
+  36,
+  41,
+  43,
+  48,
+  54,
+  60,
+  65,
+  70,
+  74,
+  81,
+  85,
+  87,
+  90
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary-general",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   3,
+   "secretary General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   3,
+   "stem critic",
+   "stern critic",
+   "ocr"
+  ],
+  [
+   6,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "people— \"genocide\"",
+   "people—\"genocide\"",
+   "spacing"
+  ],
+  [
+   37,
+   "secretary General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   47,
+   "beg n",
+   "begin",
+   "split_word"
+  ],
+  [
+   56,
+   "nickel— could",
+   "nickel—could",
+   "spacing"
+  ],
+  [
+   56,
+   "Sea's and",
+   "Sea and",
+   "ocr"
+  ],
+  [
+   86,
+   "comers",
+   "corners",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e20bd7ee68ce69804030d01dc81e108eccdc678d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2420,
+  "words_out": 2414,
+  "retention": 0.9975,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   172,
+   111,
+   159,
+   161,
+   111,
+   83,
+   106,
+   123,
+   63,
+   128,
+   138,
+   160,
+   107,
+   135,
+   144,
+   159,
+   67,
+   90,
+   117,
+   80
+  ],
+  "warnings": []
+ }
+}

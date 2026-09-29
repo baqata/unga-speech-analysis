@@ -1,0 +1,182 @@
+{
+ "id": "VCT_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   110,
+   110,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  11,
+  14,
+  18,
+  23,
+  31,
+  36,
+  40,
+  46,
+  52,
+  57,
+  62,
+  67,
+  76,
+  82,
+  85,
+  88,
+  92,
+  95,
+  101,
+  109
+ ],
+ "cer": [
+  2,
+  109
+ ],
+ "fix": [
+  [
+   5,
+   "Gretieres",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   17,
+   "August Assembly",
+   "august Assembly",
+   "asr_term"
+  ],
+  [
+   41,
+   "Caroline Rodriguez Burkett",
+   "Carolyn Rodrigues Birkett",
+   "asr_name"
+  ],
+  [
+   45,
+   "Rodriguez Burkett",
+   "Rodrigues Birkett",
+   "asr_name"
+  ],
+  [
+   50,
+   "de Grenadines",
+   "and the Grenadines",
+   "asr_name"
+  ],
+  [
+   62,
+   "de Grenadines",
+   "and the Grenadines",
+   "asr_name"
+  ],
+  [
+   69,
+   "Calypstonian",
+   "calypsonian",
+   "asr_term"
+  ],
+  [
+   89,
+   "August body",
+   "august body",
+   "asr_term"
+  ],
+  [
+   11,
+   "integrity. and",
+   "integrity and",
+   "asr_term"
+  ],
+  [
+   16,
+   "ambitions. we",
+   "ambitions. We",
+   "asr_term"
+  ],
+  [
+   19,
+   "speakers. they",
+   "speakers. They",
+   "asr_term"
+  ],
+  [
+   50,
+   "back. small",
+   "back. Small",
+   "asr_term"
+  ],
+  [
+   60,
+   "Ukraine. with",
+   "Ukraine with",
+   "asr_term"
+  ],
+  [
+   84,
+   "signed. my",
+   "signed. My",
+   "asr_term"
+  ],
+  [
+   46,
+   "forecast. is",
+   "forecast. It is",
+   "asr_term"
+  ],
+  [
+   100,
+   "Head",
+   "Heads",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Candidate name per un.org nomination letter (Carolyn Rodrigues Birkett) and Spanish channel; Trinidadian calypsonian David Rudder. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 11 'integrity. and' -> 'integrity and'; unit 16 'ambitions. we' -> 'ambitions. We'; unit 19 'speakers. they' -> 'speakers. They'; unit 46 'forecast. is' -> 'forecast. Is'; unit 50 'back. small' -> 'back. Small'; unit 60 'Ukraine. with' -> 'Ukraine with'; unit 84 'signed. my' -> 'signed. My'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 12 unit 46 'forecast. is' -> 'forecast. It is' (2026 exception: both decodes hear 'It is' (1.00 / 1.00); ES 'sino que es un peligro real' renders the clause with its subject; old is the existing repair's old); spot 27 unit 100 'Head' -> 'Heads' (decodes 'Head' 0.35 / 'Heads' 0.71; the meeting's name is 'Commonwealth Heads of Government Meeting' (CHOGM 2026, Antigua and Barbuda))",
+ "unitizer_version": 1,
+ "sha1": "4c0135816b69ac59ef580cd4f4d0d603747495b6",
+ "layout": "single",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2322,
+  "words_out": 2244,
+  "retention": 0.9664,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   75,
+   78,
+   83,
+   123,
+   115,
+   109,
+   92,
+   82,
+   162,
+   124,
+   147,
+   136,
+   112,
+   85,
+   119,
+   80,
+   57,
+   82,
+   74,
+   123,
+   178,
+   8
+  ],
+  "warnings": []
+ }
+}

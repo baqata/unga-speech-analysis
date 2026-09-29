@@ -1,0 +1,269 @@
+{
+ "id": "TUR_36_1981",
+ "drop": [
+  [
+   34,
+   34,
+   "noise"
+  ],
+  [
+   106,
+   106,
+   "noise"
+  ],
+  [
+   110,
+   110,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  5,
+  13,
+  18,
+  20,
+  23,
+  27,
+  29,
+  32,
+  35,
+  38,
+  41,
+  47,
+  55,
+  61,
+  67,
+  72,
+  77,
+  84,
+  92,
+  95,
+  97,
+  100,
+  111,
+  116,
+  119,
+  122,
+  129,
+  134,
+  144,
+  153,
+  160,
+  166,
+  171,
+  176,
+  181,
+  184,
+  190,
+  194,
+  198,
+  201,
+  204,
+  208
+ ],
+ "cer": [
+  0,
+  2,
+  4
+ ],
+ "fix": [
+  [
+   2,
+   "von*Wechmar",
+   "von Wechmar",
+   "ocr"
+  ],
+  [
+   15,
+   "the ' principles",
+   "the principles",
+   "ocr"
+  ],
+  [
+   20,
+   "1980.3 That",
+   "1980. That",
+   "ocr"
+  ],
+  [
+   23,
+   "Hirkey",
+   "Turkey",
+   "ocr"
+  ],
+  [
+   23,
+   "Ibrkish",
+   "Turkish",
+   "ocr"
+  ],
+  [
+   25,
+   "Ibrkish",
+   "Turkish",
+   "ocr"
+  ],
+  [
+   26,
+   "Ibrkish",
+   "Turkish",
+   "ocr"
+  ],
+  [
+   33,
+   "ac cording",
+   "according",
+   "split_word"
+  ],
+  [
+   80,
+   "violence, We",
+   "violence. We",
+   "ocr"
+  ],
+  [
+   90,
+   " [item 129}",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "TUrkey",
+   "Turkey",
+   "ocr"
+  ],
+  [
+   150,
+   "righi",
+   "right",
+   "ocr"
+  ],
+  [
+   153,
+   "Hirkey",
+   "Turkey",
+   "ocr"
+  ],
+  [
+   172,
+   "human, .social",
+   "human, social",
+   "ocr"
+  ],
+  [
+   173,
+   "peace? and",
+   "peace and",
+   "ocr"
+  ],
+  [
+   175,
+   "unemployment^",
+   "unemployment,",
+   "ocr"
+  ],
+  [
+   183,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   186,
+   "better \"be",
+   "better be",
+   "ocr"
+  ],
+  [
+   192,
+   "Conference, However,",
+   "Conference. However,",
+   "ocr"
+  ],
+  [
+   203,
+   "TUrkey",
+   "Turkey",
+   "ocr"
+  ],
+  [
+   208,
+   "Atatiirk",
+   "Atatürk",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c87fecf70c9a22220bea47ec7a31e29fa9b6d24",
+ "layout": "lines",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 62
+  },
+  "words_in": 4782,
+  "words_out": 4774,
+  "retention": 0.9983,
+  "n_paragraphs": 45,
+  "paragraph_words": [
+   57,
+   69,
+   27,
+   150,
+   87,
+   84,
+   80,
+   80,
+   64,
+   74,
+   82,
+   79,
+   66,
+   134,
+   146,
+   100,
+   74,
+   91,
+   82,
+   132,
+   158,
+   69,
+   63,
+   80,
+   156,
+   228,
+   62,
+   65,
+   171,
+   97,
+   182,
+   148,
+   189,
+   126,
+   113,
+   122,
+   108,
+   79,
+   143,
+   105,
+   169,
+   79,
+   96,
+   119,
+   89
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

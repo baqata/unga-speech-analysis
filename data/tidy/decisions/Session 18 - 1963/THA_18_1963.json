@@ -1,0 +1,154 @@
+{
+ "id": "THA_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  15,
+  21,
+  27,
+  30,
+  36,
+  43,
+  48,
+  55,
+  59,
+  63,
+  69,
+  73,
+  83,
+  88,
+  93,
+  98,
+  105,
+  109,
+  118,
+  122,
+  126,
+  130,
+  134,
+  140,
+  144,
+  150,
+  155,
+  160,
+  166
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "forpeace.it",
+   "for peace, it",
+   "merged_word"
+  ],
+  [
+   1,
+   "deliberations, I should",
+   "deliberations. I should",
+   "ocr"
+  ],
+  [
+   29,
+   "past,",
+   "past.",
+   "ocr"
+  ],
+  [
+   38,
+   "tile past",
+   "the past",
+   "ocr"
+  ],
+  [
+   50,
+   "taskfully",
+   "task fully",
+   "merged_word"
+  ],
+  [
+   53,
+   "war doff",
+   "ward off",
+   "spacing"
+  ],
+  [
+   53,
+   "that Is likely",
+   "that is likely",
+   "ocr"
+  ],
+  [
+   114,
+   "It may. be",
+   "It may be",
+   "ocr"
+  ],
+  [
+   117,
+   "incases",
+   "in cases",
+   "merged_word"
+  ],
+  [
+   120,
+   "and' organizations",
+   "and organizations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c5ada119628b5ba6bb14745d2dd69bb10aedaae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 4455,
+  "words_out": 4428,
+  "retention": 0.9939,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   71,
+   162,
+   138,
+   96,
+   180,
+   132,
+   144,
+   182,
+   81,
+   258,
+   70,
+   204,
+   158,
+   104,
+   241,
+   84,
+   106,
+   142,
+   205,
+   92,
+   249,
+   73,
+   114,
+   112,
+   115,
+   152,
+   119,
+   113,
+   158,
+   106,
+   118,
+   149
+  ],
+  "warnings": []
+ }
+}

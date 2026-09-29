@@ -1,0 +1,57 @@
+{
+ "id": "NER_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  29,
+  43,
+  61,
+  73,
+  92,
+  115,
+  136,
+  152,
+  170,
+  200,
+  217,
+  233,
+  261
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cdf7945d957821118d25bd0e7fe2c640494f2b79",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2159,
+  "words_out": 2157,
+  "retention": 0.9991,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   237,
+   109,
+   143,
+   104,
+   151,
+   185,
+   167,
+   132,
+   146,
+   234,
+   137,
+   127,
+   213,
+   72
+  ],
+  "warnings": []
+ }
+}

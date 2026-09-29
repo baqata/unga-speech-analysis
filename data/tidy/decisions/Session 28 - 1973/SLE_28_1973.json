@@ -1,0 +1,153 @@
+{
+ "id": "SLE_28_1973",
+ "drop": [
+  [
+   9,
+   9,
+   "noise"
+  ],
+  [
+   12,
+   12,
+   "noise"
+  ],
+  [
+   90,
+   90,
+   "noise"
+  ],
+  [
+   94,
+   94,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  21,
+  22,
+  27,
+  29,
+  32,
+  38,
+  41,
+  42,
+  44,
+  48,
+  50,
+  54,
+  57,
+  62,
+  66,
+  71,
+  76,
+  79,
+  84,
+  86,
+  89,
+  95,
+  97,
+  101,
+  107,
+  109,
+  112
+ ],
+ "cer": [
+  0,
+  3,
+  10
+ ],
+ "fix": [
+  [
+   7,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "folly appreciate",
+   "fully appreciate",
+   "ocr"
+  ],
+  [
+   76,
+   "statemanship. we",
+   "statemanship. We",
+   "ocr"
+  ],
+  [
+   80,
+   "test-van",
+   "test-ban",
+   "ocr"
+  ],
+  [
+   95,
+   "countries. we",
+   "countries. We",
+   "ocr"
+  ],
+  [
+   108,
+   " [A/9001/Add.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c3102e697068ff32b7ebaec6df97215fe595dcde",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "noise": 4
+  },
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3605,
+  "words_out": 3596,
+  "retention": 0.9975,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   85,
+   152,
+   64,
+   214,
+   73,
+   107,
+   69,
+   154,
+   195,
+   105,
+   66,
+   67,
+   75,
+   88,
+   148,
+   99,
+   95,
+   128,
+   174,
+   182,
+   111,
+   157,
+   71,
+   127,
+   136,
+   89,
+   134,
+   157,
+   99,
+   126,
+   49
+  ],
+  "warnings": []
+ }
+}

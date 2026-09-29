@@ -1,0 +1,46 @@
+{
+ "id": "OMN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  34,
+  53,
+  62,
+  83,
+  93,
+  108
+ ],
+ "cer": [
+  0,
+  108
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4dde3c9a2f7c16ac1c3fcef262c34af70fc30d3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 890,
+  "words_out": 889,
+  "retention": 0.9989,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   139,
+   123,
+   157,
+   79,
+   163,
+   81,
+   107,
+   40
+  ],
+  "warnings": []
+ }
+}

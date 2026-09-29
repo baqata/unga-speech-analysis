@@ -1,0 +1,135 @@
+{
+ "id": "FRA_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  16,
+  22,
+  26,
+  31,
+  35,
+  38,
+  43,
+  47,
+  51,
+  54,
+  56,
+  65,
+  75,
+  78,
+  85,
+  92,
+  98,
+  103,
+  108,
+  109,
+  119,
+  124,
+  127,
+  130,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Mr., Gierek's",
+   "Mr. Gierek's",
+   "ocr"
+  ],
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   17,
+   "Moscow^ and",
+   "Moscow and",
+   "ocr"
+  ],
+  [
+   30,
+   "inflation,",
+   "inflation.",
+   "ocr"
+  ],
+  [
+   89,
+   "as-Frenchmen",
+   "as Frenchmen",
+   "spacing"
+  ],
+  [
+   90,
+   "English- speaking",
+   "English-speaking",
+   "spacing"
+  ],
+  [
+   129,
+   " [resolution 2106 A (XX), annex]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "97342c33f43639d109530027b5e96d8f7284f9aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 3919,
+  "words_out": 3912,
+  "retention": 0.9982,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   205,
+   253,
+   118,
+   125,
+   107,
+   175,
+   130,
+   94,
+   155,
+   85,
+   124,
+   94,
+   98,
+   130,
+   195,
+   141,
+   127,
+   181,
+   152,
+   129,
+   164,
+   65,
+   276,
+   143,
+   90,
+   91,
+   154,
+   111
+  ],
+  "warnings": []
+ }
+}

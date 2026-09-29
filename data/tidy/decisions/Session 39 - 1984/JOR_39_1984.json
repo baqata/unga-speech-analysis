@@ -1,0 +1,128 @@
+{
+ "id": "JOR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  16,
+  23,
+  32,
+  38,
+  48,
+  56,
+  61,
+  64,
+  69,
+  73,
+  78,
+  82,
+  88,
+  95,
+  102,
+  105,
+  110,
+  114,
+  120,
+  124,
+  127,
+  132,
+  136,
+  138,
+  145
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "addition^ the",
+   "addition, the",
+   "ocr"
+  ],
+  [
+   28,
+   "super Powers",
+   "super-Powers",
+   "spacing"
+  ],
+  [
+   37,
+   "in tum,",
+   "in turn,",
+   "ocr"
+  ],
+  [
+   41,
+   "bloc car be",
+   "bloc can be",
+   "ocr"
+  ],
+  [
+   106,
+   "Arab- Israeli",
+   "Arab-Israeli",
+   "hyphen"
+  ],
+  [
+   123,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   124,
+   "United States- Soviet",
+   "United States-Soviet",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95cc141f50211bd8d8391152a4319b39c4be86ec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 4471,
+  "words_out": 4464,
+  "retention": 0.9984,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   149,
+   124,
+   161,
+   170,
+   194,
+   181,
+   249,
+   213,
+   138,
+   118,
+   180,
+   192,
+   126,
+   161,
+   175,
+   222,
+   174,
+   89,
+   159,
+   127,
+   196,
+   154,
+   77,
+   162,
+   130,
+   101,
+   180,
+   162
+  ],
+  "warnings": []
+ }
+}

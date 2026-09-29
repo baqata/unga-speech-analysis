@@ -1,0 +1,84 @@
+{
+ "id": "SYR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  6,
+  12,
+  17,
+  21,
+  24,
+  29,
+  34,
+  37,
+  39,
+  45,
+  50,
+  55,
+  61,
+  64,
+  68,
+  72,
+  75,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "international/ regional",
+   "international/regional",
+   "spacing"
+  ],
+  [
+   63,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b4a13ea2d3ee157157ac5215b7e7338c172c9207",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2173,
+  "words_out": 2171,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   49,
+   101,
+   64,
+   127,
+   116,
+   84,
+   73,
+   119,
+   115,
+   98,
+   71,
+   178,
+   105,
+   110,
+   171,
+   122,
+   129,
+   96,
+   75,
+   84,
+   84
+  ],
+  "warnings": []
+ }
+}

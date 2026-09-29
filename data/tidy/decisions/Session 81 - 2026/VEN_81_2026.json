@@ -1,0 +1,214 @@
+{
+ "id": "VEN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   130,
+   130,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  8,
+  15,
+  21,
+  30,
+  37,
+  42,
+  44,
+  50,
+  58,
+  63,
+  67,
+  73,
+  78,
+  83,
+  90,
+  98,
+  103,
+  109,
+  116,
+  122,
+  129
+ ],
+ "cer": [
+  3,
+  129
+ ],
+ "fix": [
+  [
+   21,
+   "energy-like dilemma",
+   "energy trilemma",
+   "asr_term"
+  ],
+  [
+   37,
+   "Guyana Ezequiel",
+   "Guayana Esequiba",
+   "asr_name"
+  ],
+  [
+   67,
+   "transition",
+   "transformation",
+   "interp"
+  ],
+  [
+   76,
+   "Augusta Sura",
+   "Angostura",
+   "asr_name"
+  ],
+  [
+   84,
+   "legal transition",
+   "legal reform",
+   "interp"
+  ],
+  [
+   127,
+   "a man",
+   "the people",
+   "interp"
+  ],
+  [
+   127,
+   "know his worth",
+   "know their worth",
+   "interp"
+  ],
+  [
+   127,
+   "of his own",
+   "of their own",
+   "interp"
+  ],
+  [
+   8,
+   "1.",
+   "One.",
+   "asr_term"
+  ],
+  [
+   39,
+   "negotiations. they",
+   "negotiations. They",
+   "asr_term"
+  ],
+  [
+   43,
+   "Venezuela. some",
+   "Venezuela. Some",
+   "asr_term"
+  ],
+  [
+   57,
+   "crime. and",
+   "crime. And",
+   "asr_term"
+  ],
+  [
+   65,
+   "share. that",
+   "share. That",
+   "asr_term"
+  ],
+  [
+   75,
+   "Venezuela. and",
+   "Venezuela and",
+   "asr_term"
+  ],
+  [
+   81,
+   "idea. abiding",
+   "idea. Abiding",
+   "asr_term"
+  ],
+  [
+   96,
+   "elections. and",
+   "elections. And",
+   "asr_term"
+  ],
+  [
+   97,
+   "place. ours",
+   "place. Ours",
+   "asr_term"
+  ],
+  [
+   102,
+   "interference. that",
+   "interference. That",
+   "asr_term"
+  ],
+  [
+   128,
+   "figure. only",
+   "figure. Only",
+   "asr_term"
+  ],
+  [
+   115,
+   "We live",
+   "We've lived",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish; speaker said 'el trilema energetico', 'la Guayana Esequiba', 'un proceso de transformacion democratica', 'Primero, una reforma juridica ordenada', 'Tan solo el [el pueblo] conoce su bien'; Angostura is the interpreter's reference to Bolivar's Angostura address; unit 2 'Thank you.' falls in the presider's introduction. Main-agent audit: units 67 and 84, the English booth said 'transition' (re-decodes p 0.93-1.00) where the speaker said 'transformacion democratica' and 'reforma juridica': interp stands; unit 76 'in Angostura' is the interpreter's own addition (the speaker's Spanish ends at 'Simon Bolivar', re-decodes p 0.92-1.00), kept; unit 127 pronouns follow the repaired subject (speaker: 'conoce su bien y es dueno de su suerte', su = el pueblo). Main-agent term check (speech-to-text spelling of the form of address, and misheard words): unit 8 '1.' -> 'One.' (the English interpreter's spoken 'One' (the speaker's 'Uno,' on the Spanish floor at 01:41), written as a numeral by the speech-to-text; the speech's own 'Five,' is written as a word). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 39 'negotiations. they' -> 'negotiations. They'; unit 43 'Venezuela. some' -> 'Venezuela. Some'; unit 57 'crime. and' -> 'crime. And'; unit 65 'share. that' -> 'share. That'; unit 75 'Venezuela. and' -> 'Venezuela and'; unit 81 'idea. abiding' -> 'idea. Abiding'; unit 96 'elections. and' -> 'elections. And'; unit 97 'place. ours' -> 'place. Ours'; unit 102 'interference. that' -> 'interference. That'; unit 128 'figure. only' -> 'figure. Only'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 26 unit 115 'We live' -> 'We've lived' (decodes 'live' only 0.47 / 0.62; 'We live many a catastrophe' does not fit the past events; speaker's Spanish 'cada catástrofe que hemos vivido'; 'We've lived' sounds the same)",
+ "unitizer_version": 1,
+ "sha1": "94835c48f2779a919de853e28f32ac19cae5decf",
+ "layout": "single",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2640,
+  "words_out": 2583,
+  "retention": 0.9784,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   29,
+   96,
+   92,
+   99,
+   152,
+   105,
+   122,
+   76,
+   120,
+   171,
+   98,
+   138,
+   145,
+   141,
+   109,
+   87,
+   169,
+   105,
+   111,
+   157,
+   80,
+   179,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "YUG_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  23,
+  27,
+  34,
+  40,
+  43,
+  47,
+  51,
+  52,
+  55,
+  58,
+  63,
+  65,
+  70,
+  74,
+  78,
+  84,
+  88,
+  94,
+  100,
+  104
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   1,
+   "predecessor. Ambassador",
+   "predecessor, Ambassador",
+   "ocr"
+  ],
+  [
+   2,
+   "Secretary-general. Mr.",
+   "Secretary-General, Mr.",
+   "ocr"
+  ],
+  [
+   3,
+   "Republic ol Zimbabwe",
+   "Republic of Zimbabwe",
+   "ocr"
+  ],
+  [
+   20,
+   "two decades.",
+   "two decades,",
+   "ocr"
+  ],
+  [
+   23,
+   "is hot likely",
+   "is not likely",
+   "ocr"
+  ],
+  [
+   32,
+   "(1978). and",
+   "(1978), and",
+   "ocr"
+  ],
+  [
+   58,
+   "of States.\"",
+   "of States.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd815c75a3ab2b26519960d080c4489516e880a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 50
+  },
+  "words_in": 3182,
+  "words_out": 3181,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   135,
+   111,
+   79,
+   115,
+   255,
+   138,
+   236,
+   165,
+   81,
+   85,
+   124,
+   67,
+   82,
+   94,
+   164,
+   61,
+   142,
+   82,
+   144,
+   144,
+   105,
+   153,
+   226,
+   111,
+   82
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "SLE_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  19,
+  35,
+  38,
+  49,
+  65,
+  79,
+  92,
+  100,
+  114,
+  124,
+  135
+ ],
+ "cer": [
+  0,
+  14,
+  35
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c1d871542e1822654b7c6c2fe03f9f016ca8536",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1181,
+  "words_out": 1179,
+  "retention": 0.9983,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   107,
+   35,
+   140,
+   21,
+   82,
+   127,
+   105,
+   98,
+   62,
+   118,
+   82,
+   83,
+   119
+  ],
+  "warnings": []
+ }
+}

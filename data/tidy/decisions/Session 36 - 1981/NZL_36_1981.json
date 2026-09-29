@@ -1,0 +1,164 @@
+{
+ "id": "NZL_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  17,
+  19,
+  29,
+  34,
+  37,
+  43,
+  48,
+  54,
+  61,
+  64,
+  70,
+  73,
+  81,
+  84,
+  88,
+  95,
+  101,
+  109,
+  114,
+  122,
+  125,
+  128,
+  135
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   10,
+   "countries. ^",
+   "countries.",
+   "ocr"
+  ],
+  [
+   19,
+   "exp<M",
+   "export",
+   "ocr"
+  ],
+  [
+   49,
+   " [ASEAN",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "Nationswhose",
+   "Nations whose",
+   "merged_word"
+  ],
+  [
+   58,
+   "Soviet .",
+   "Soviet",
+   "ocr"
+  ],
+  [
+   60,
+   "continues'",
+   "continues",
+   "ocr"
+  ],
+  [
+   82,
+   " .settled",
+   " settled",
+   "ocr"
+  ],
+  [
+   89,
+   " ^National",
+   " National",
+   "ocr"
+  ],
+  [
+   94,
+   "freedoms, of",
+   "freedoms of",
+   "ocr"
+  ],
+  [
+   106,
+   "must \"eliminate",
+   "must eliminate",
+   "ocr"
+  ],
+  [
+   119,
+   "principle responsibility",
+   "principal responsibility",
+   "ocr"
+  ],
+  [
+   126,
+   "corisumer",
+   "consumer",
+   "ocr"
+  ],
+  [
+   140,
+   "td peace",
+   "to peace",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "408b703462da37711da0c1983b546e717cdec51a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 3118,
+  "words_out": 3112,
+  "retention": 0.9981,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   44,
+   106,
+   126,
+   126,
+   68,
+   156,
+   99,
+   91,
+   158,
+   94,
+   156,
+   172,
+   77,
+   119,
+   62,
+   157,
+   93,
+   87,
+   177,
+   149,
+   180,
+   89,
+   172,
+   90,
+   62,
+   102,
+   100
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "id": "SOM_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  26,
+  36,
+  54,
+  69,
+  87,
+  96,
+  109,
+  121,
+  135,
+  147,
+  157,
+  173,
+  194,
+  209,
+  222
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "Somaliaís",
+   "Somalia’s",
+   "encoding"
+  ],
+  [
+   24,
+   "Somaliaís",
+   "Somalia’s",
+   "encoding"
+  ],
+  [
+   43,
+   "Somaliaís",
+   "Somalia’s",
+   "encoding"
+  ],
+  [
+   100,
+   "Somaliaís",
+   "Somalia’s",
+   "encoding"
+  ],
+  [
+   125,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   160,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   161,
+   "force ó to",
+   "force — to",
+   "encoding"
+  ],
+  [
+   204,
+   "Somaliaís",
+   "Somalia’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9757570681edd30e7ca94a797ca267284965c61c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 232,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1818,
+  "words_out": 1817,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   98,
+   113,
+   74,
+   133,
+   122,
+   144,
+   68,
+   99,
+   96,
+   113,
+   93,
+   63,
+   130,
+   171,
+   119,
+   101,
+   80
+  ],
+  "warnings": []
+ }
+}

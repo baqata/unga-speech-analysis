@@ -1,0 +1,60 @@
+{
+ "id": "MDA_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  34,
+  50,
+  63,
+  84,
+  112,
+  139,
+  155
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   " (resolution",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "60/)1",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "31cdef476e054e08fc8dc33384c980887871810c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1306,
+  "words_out": 1301,
+  "retention": 0.9962,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   47,
+   181,
+   120,
+   105,
+   165,
+   203,
+   194,
+   113,
+   173
+  ],
+  "warnings": []
+ }
+}

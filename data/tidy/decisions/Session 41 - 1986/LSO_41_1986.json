@@ -1,0 +1,78 @@
+{
+ "id": "LSO_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  8,
+  12,
+  15,
+  23,
+  26,
+  36,
+  41,
+  44,
+  47,
+  49,
+  57,
+  66,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "ay own",
+   "my own",
+   "ocr"
+  ],
+  [
+   0,
+   "you. Sir",
+   "you, Sir",
+   "ocr"
+  ],
+  [
+   34,
+   "country* As",
+   "country. As",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "75c48bb3efdfde3e3ddc6dde2e925d4534638455",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2028,
+  "words_out": 2028,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   40,
+   159,
+   74,
+   95,
+   101,
+   193,
+   106,
+   272,
+   134,
+   56,
+   73,
+   95,
+   207,
+   214,
+   132,
+   77
+  ],
+  "warnings": []
+ }
+}

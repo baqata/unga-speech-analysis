@@ -1,0 +1,56 @@
+{
+ "id": "BEN_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  29,
+  51,
+  67,
+  81,
+  96,
+  114,
+  134,
+  150,
+  161,
+  181,
+  195,
+  208
+ ],
+ "cer": [
+  0,
+  19
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c929edb5852de2ce17deeb152db26aba8b91c3bc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1818,
+  "words_out": 1816,
+  "retention": 0.9989,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   153,
+   86,
+   163,
+   129,
+   102,
+   124,
+   149,
+   145,
+   142,
+   90,
+   160,
+   111,
+   100,
+   162
+  ],
+  "warnings": []
+ }
+}

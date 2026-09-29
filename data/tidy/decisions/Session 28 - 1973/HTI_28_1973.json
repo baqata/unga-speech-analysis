@@ -1,0 +1,149 @@
+{
+ "id": "HTI_28_1973",
+ "drop": [
+  [
+   55,
+   55,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  10,
+  16,
+  19,
+  21,
+  25,
+  28,
+  30,
+  31,
+  33,
+  39,
+  41,
+  44,
+  48,
+  51,
+  56,
+  58,
+  63,
+  65,
+  67,
+  70,
+  74,
+  77,
+  79,
+  81,
+  85,
+  87,
+  89,
+  91,
+  95
+ ],
+ "cer": [
+  0,
+  2,
+  6,
+  8
+ ],
+ "fix": [
+  [
+   15,
+   "the' solidarity",
+   "the solidarity",
+   "ocr"
+  ],
+  [
+   32,
+   "SUS 154",
+   "$US 154",
+   "ocr"
+  ],
+  [
+   47,
+   "policy,",
+   "policy.",
+   "ocr"
+  ],
+  [
+   49,
+   "Chad, Last",
+   "Chad. Last",
+   "ocr"
+  ],
+  [
+   69,
+   "dignity, It",
+   "dignity. It",
+   "ocr"
+  ],
+  [
+   70,
+   "Mr, Gunnar",
+   "Mr. Gunnar",
+   "ocr"
+  ],
+  [
+   77,
+   "support, International",
+   "support. International",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8fe294e2c8fb911b0a68be0389f45b83333df057",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3910,
+  "words_out": 3906,
+  "retention": 0.999,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   111,
+   143,
+   88,
+   47,
+   172,
+   128,
+   112,
+   109,
+   142,
+   119,
+   60,
+   103,
+   194,
+   74,
+   112,
+   100,
+   118,
+   125,
+   64,
+   178,
+   79,
+   93,
+   157,
+   155,
+   141,
+   147,
+   136,
+   164,
+   74,
+   131,
+   71,
+   198,
+   61
+  ],
+  "warnings": []
+ }
+}

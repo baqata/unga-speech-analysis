@@ -1,0 +1,47 @@
+{
+ "id": "GAB_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  27,
+  44,
+  53,
+  74,
+  87,
+  110,
+  121
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "830e94b712076954c432c592f0aa41219ea82392",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1147,
+  "words_out": 1142,
+  "retention": 0.9956,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   79,
+   146,
+   158,
+   69,
+   168,
+   115,
+   187,
+   86,
+   134
+  ],
+  "warnings": []
+ }
+}

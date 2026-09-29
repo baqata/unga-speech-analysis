@@ -1,0 +1,65 @@
+{
+ "id": "SEN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  15,
+  21,
+  28,
+  33,
+  37,
+  42,
+  50,
+  57
+ ],
+ "cer": [
+  2,
+  57
+ ],
+ "fix": [
+  [
+   36,
+   "Izzouini",
+   "Ezulwini",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eb2c667b24bb24e583a7c2417989dd0a31cce9bd",
+ "layout": "single",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1369,
+  "words_out": 1335,
+  "retention": 0.9752,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   74,
+   129,
+   143,
+   124,
+   137,
+   177,
+   85,
+   111,
+   159,
+   172,
+   24
+  ],
+  "warnings": []
+ }
+}

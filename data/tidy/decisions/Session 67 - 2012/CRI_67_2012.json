@@ -1,0 +1,72 @@
+{
+ "id": "CRI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  25,
+  40,
+  53,
+  61,
+  81,
+  89,
+  113,
+  138,
+  148,
+  160,
+  172,
+  192,
+  204,
+  219
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   126,
+   "f louted",
+   "flouted",
+   "split_word"
+  ],
+  [
+   155,
+   "f loods",
+   "floods",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1681caba6fb6be938afe8ae4bd442628e972d289",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1942,
+  "words_out": 1935,
+  "retention": 0.9964,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   127,
+   80,
+   120,
+   128,
+   71,
+   152,
+   69,
+   202,
+   213,
+   102,
+   91,
+   96,
+   159,
+   97,
+   112,
+   116
+  ],
+  "warnings": []
+ }
+}

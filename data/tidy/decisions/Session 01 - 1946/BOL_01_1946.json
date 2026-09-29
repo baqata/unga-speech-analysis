@@ -1,0 +1,58 @@
+{
+ "id": "BOL_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  13,
+  17,
+  21,
+  23,
+  30,
+  35,
+  40,
+  46,
+  54
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   31,
+   "like,",
+   "like",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79667ee373ade17dadeceb011a8eb9d54fe7fb0a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1501,
+  "words_out": 1501,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   59,
+   104,
+   165,
+   189,
+   154,
+   74,
+   158,
+   174,
+   144,
+   113,
+   123,
+   44
+  ],
+  "warnings": []
+ }
+}

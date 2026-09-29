@@ -1,0 +1,225 @@
+{
+ "id": "CHN_32_1977",
+ "drop": [
+  [
+   67,
+   67,
+   "header_footer"
+  ],
+  [
+   153,
+   153,
+   "header_footer"
+  ],
+  [
+   174,
+   174,
+   "header_footer"
+  ],
+  [
+   184,
+   184,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  14,
+  20,
+  24,
+  33,
+  37,
+  46,
+  50,
+  54,
+  57,
+  68,
+  77,
+  83,
+  88,
+  96,
+  99,
+  111,
+  120,
+  125,
+  132,
+  142,
+  154,
+  167,
+  175,
+  178,
+  185,
+  196,
+  197,
+  202,
+  205,
+  212,
+  219,
+  223,
+  224,
+  225,
+  228,
+  232,
+  237,
+  243,
+  248,
+  250,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "die gang",
+   "the gang",
+   "ocr"
+  ],
+  [
+   21,
+   "People s democracy",
+   "People's democracy",
+   "ocr"
+  ],
+  [
+   22,
+   "people s enthusiasm",
+   "people's enthusiasm",
+   "ocr"
+  ],
+  [
+   55,
+   "Palestinian'",
+   "Palestinian",
+   "ocr"
+  ],
+  [
+   81,
+   "lighting the",
+   "fighting the",
+   "ocr"
+  ],
+  [
+   111,
+   "social- imperialism",
+   "social-imperialism",
+   "hyphen"
+  ],
+  [
+   113,
+   "Social- imperialism",
+   "Social-imperialism",
+   "hyphen"
+  ],
+  [
+   132,
+   "social- imperialism",
+   "social-imperialism",
+   "hyphen"
+  ],
+  [
+   136,
+   "social- imperialism",
+   "social-imperialism",
+   "hyphen"
+  ],
+  [
+   225,
+   "social- imperialist",
+   "social-imperialist",
+   "hyphen"
+  ],
+  [
+   123,
+   "State- monopoly",
+   "State-monopoly",
+   "hyphen"
+  ],
+  [
+   135,
+   ".temporary",
+   "temporary",
+   "ocr"
+  ],
+  [
+   166,
+   "tigers. s",
+   "tigers.",
+   "ocr"
+  ],
+  [
+   211,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Stray paragraph numbers dropped; unit 19 'S3K6' is an unreadable word ending a sentence, kept.",
+ "unitizer_version": 1,
+ "sha1": "d95dd24815f2bae28af51c1542edeac2401b98e4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 6168,
+  "words_out": 6147,
+  "retention": 0.9966,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   99,
+   72,
+   211,
+   133,
+   91,
+   185,
+   62,
+   234,
+   116,
+   79,
+   64,
+   255,
+   214,
+   182,
+   83,
+   238,
+   74,
+   210,
+   201,
+   101,
+   106,
+   176,
+   297,
+   221,
+   166,
+   66,
+   294,
+   283,
+   37,
+   210,
+   67,
+   130,
+   142,
+   90,
+   40,
+   38,
+   114,
+   70,
+   171,
+   126,
+   99,
+   54,
+   135,
+   111
+  ],
+  "warnings": []
+ }
+}

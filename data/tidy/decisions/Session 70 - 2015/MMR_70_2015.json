@@ -1,0 +1,87 @@
+{
+ "id": "MMR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  11,
+  14,
+  20,
+  23,
+  28,
+  34,
+  37,
+  41,
+  46,
+  52,
+  53,
+  58,
+  62,
+  70,
+  76,
+  81,
+  88,
+  92,
+  97,
+  104,
+  106,
+  110
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   112,
+   "socio- economic",
+   "socio-economic",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "81c4f14c29876b4c49dc59e02841b79bed9dd0d8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2159,
+  "words_out": 2156,
+  "retention": 0.9986,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   56,
+   26,
+   109,
+   61,
+   96,
+   96,
+   77,
+   115,
+   89,
+   73,
+   82,
+   122,
+   38,
+   97,
+   71,
+   132,
+   95,
+   82,
+   96,
+   64,
+   73,
+   174,
+   65,
+   109,
+   58
+  ],
+  "warnings": []
+ }
+}

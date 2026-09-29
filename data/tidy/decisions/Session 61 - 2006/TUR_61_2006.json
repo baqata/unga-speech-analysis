@@ -1,0 +1,71 @@
+{
+ "id": "TUR_61_2006",
+ "drop": [
+  [
+   253,
+   253,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  22,
+  40,
+  57,
+  67,
+  80,
+  98,
+  108,
+  117,
+  151,
+  162,
+  174,
+  188,
+  204,
+  225,
+  243,
+  254
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c92904d55d378c75fd7340674bd21c833e6825e6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2089,
+  "words_out": 2079,
+  "retention": 0.9952,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   170,
+   148,
+   146,
+   86,
+   95,
+   140,
+   88,
+   83,
+   269,
+   78,
+   89,
+   109,
+   112,
+   166,
+   123,
+   71,
+   106
+  ],
+  "warnings": []
+ }
+}

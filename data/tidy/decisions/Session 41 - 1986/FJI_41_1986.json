@@ -1,0 +1,87 @@
+{
+ "id": "FJI_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  10,
+  12,
+  16,
+  21,
+  25,
+  31,
+  35,
+  40,
+  44,
+  46,
+  50,
+  53,
+  57,
+  62
+ ],
+ "cer": [
+  0,
+  62
+ ],
+ "fix": [
+  [
+   3,
+   "example, In {articular",
+   "example. In particular",
+   "ocr"
+  ],
+  [
+   7,
+   "aid four",
+   "and four",
+   "ocr"
+  ],
+  [
+   24,
+   "Mi crones ia",
+   "Micronesia",
+   "spacing"
+  ],
+  [
+   31,
+   "High-Lev el",
+   "High-Level",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "731e1bf58af5ccad4cefde495f63296463347c7b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1611,
+  "words_out": 1608,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   42,
+   88,
+   100,
+   71,
+   131,
+   150,
+   74,
+   149,
+   99,
+   102,
+   92,
+   60,
+   131,
+   65,
+   54,
+   145,
+   55
+  ],
+  "warnings": []
+ }
+}

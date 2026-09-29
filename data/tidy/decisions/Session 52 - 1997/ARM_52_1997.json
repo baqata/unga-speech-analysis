@@ -1,0 +1,61 @@
+{
+ "id": "ARM_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  25,
+  45,
+  60,
+  74,
+  87,
+  99,
+  108,
+  119,
+  138,
+  148,
+  159,
+  186,
+  206,
+  222
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd0b35b00f3afed1550b5cc0fadfb5ff9965faee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1738,
+  "words_out": 1737,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   87,
+   101,
+   160,
+   123,
+   105,
+   96,
+   82,
+   66,
+   72,
+   156,
+   78,
+   92,
+   196,
+   156,
+   134,
+   33
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "KIR_75_2020",
+ "drop": [
+  [
+   2,
+   2,
+   "heading"
+  ],
+  [
+   7,
+   7,
+   "heading"
+  ],
+  [
+   66,
+   66,
+   "heading"
+  ],
+  [
+   75,
+   75,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  3,
+  8,
+  12,
+  18,
+  21,
+  29,
+  33,
+  40,
+  45,
+  51,
+  53,
+  63,
+  67,
+  72,
+  76,
+  83,
+  88
+ ],
+ "cer": [
+  0,
+  1,
+  3,
+  88
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "798f4293799038eb40e7e1dff37c8a0bae2d2f07",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {
+   "heading": 4
+  },
+  "prestrip": {},
+  "words_in": 1962,
+  "words_out": 1946,
+  "retention": 0.9918,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   7,
+   40,
+   113,
+   77,
+   110,
+   61,
+   199,
+   141,
+   138,
+   108,
+   127,
+   88,
+   164,
+   104,
+   80,
+   116,
+   147,
+   102,
+   24
+  ],
+  "warnings": []
+ }
+}

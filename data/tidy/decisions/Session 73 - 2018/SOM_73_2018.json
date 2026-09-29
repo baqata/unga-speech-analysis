@@ -1,0 +1,70 @@
+{
+ "id": "SOM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  10,
+  15,
+  21,
+  26,
+  29,
+  35,
+  42,
+  45,
+  48,
+  53,
+  57,
+  61,
+  66,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "security- sector",
+   "security-sector",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "25e0be60511af77a2bb70da4338f3648bde7c8a7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1837,
+  "words_out": 1836,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   86,
+   79,
+   65,
+   97,
+   106,
+   130,
+   123,
+   90,
+   134,
+   146,
+   82,
+   90,
+   85,
+   81,
+   100,
+   84,
+   159,
+   99
+  ],
+  "warnings": []
+ }
+}

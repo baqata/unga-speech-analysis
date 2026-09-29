@@ -1,0 +1,62 @@
+{
+ "id": "VNM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  15,
+  21,
+  31,
+  35,
+  40,
+  45,
+  47,
+  49,
+  53,
+  55,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "war- torn",
+   "war-torn",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c0d5c18e41d8ed92c48cb961727a3c81892262e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1436,
+  "words_out": 1432,
+  "retention": 0.9972,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   92,
+   125,
+   110,
+   113,
+   182,
+   121,
+   103,
+   105,
+   84,
+   70,
+   95,
+   62,
+   120,
+   50
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "id": "CIV_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  15,
+  21,
+  31,
+  40,
+  45,
+  47,
+  56,
+  62,
+  67,
+  74,
+  80,
+  85,
+  92
+ ],
+ "cer": [
+  0,
+  85
+ ],
+ "fix": [
+  [
+   16,
+   "centuries of the Third World",
+   "countries of the Third World",
+   "ocr"
+  ],
+  [
+   18,
+   "economic - development",
+   "economic development",
+   "ocr"
+  ],
+  [
+   44,
+   "save the peace,",
+   "save the peace.",
+   "ocr"
+  ],
+  [
+   46,
+   "outside, We are",
+   "outside. We are",
+   "ocr"
+  ],
+  [
+   79,
+   "force buy by",
+   "force but by",
+   "ocr"
+  ],
+  [
+   92,
+   " [A/ 6301]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9bf8773cc284b7fa55f8711a54ee6bcd2d158b23",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2410,
+  "words_out": 2387,
+  "retention": 0.9905,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   77,
+   181,
+   71,
+   232,
+   251,
+   229,
+   159,
+   80,
+   251,
+   142,
+   106,
+   131,
+   164,
+   122,
+   156,
+   35
+  ],
+  "warnings": []
+ }
+}

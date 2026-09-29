@@ -1,0 +1,76 @@
+{
+ "id": "KGZ_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  15,
+  21,
+  23,
+  26,
+  33,
+  43,
+  48,
+  53,
+  58,
+  61,
+  67,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "freedom- loving",
+   "freedom-loving",
+   "hyphen"
+  ],
+  [
+   16,
+   "law- enforcement",
+   "law-enforcement",
+   "hyphen"
+  ],
+  [
+   35,
+   "drug- trafficking",
+   "drug-trafficking",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "513bed06b00c98c4912c2b2147bcbc3f21eafe41",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1608,
+  "words_out": 1605,
+  "retention": 0.9981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   82,
+   150,
+   85,
+   130,
+   66,
+   68,
+   160,
+   181,
+   92,
+   121,
+   99,
+   90,
+   120,
+   64,
+   97
+  ],
+  "warnings": []
+ }
+}

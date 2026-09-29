@@ -1,0 +1,53 @@
+{
+ "id": "DZA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  28,
+  44,
+  56,
+  75,
+  95,
+  118,
+  134,
+  152,
+  177,
+  185
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1d655ba56d5048a2c31eec307f0a0dc9bd2d6b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1526,
+  "words_out": 1524,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   138,
+   94,
+   128,
+   93,
+   141,
+   167,
+   169,
+   113,
+   155,
+   208,
+   54,
+   64
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "PHL_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  19,
+  22,
+  27,
+  29,
+  34,
+  40,
+  44,
+  48,
+  55,
+  62
+ ],
+ "cer": [
+  0,
+  62
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b31a5494c464e90a8ce129e0380fa987b3bc0538",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1495,
+  "words_out": 1495,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   24,
+   133,
+   111,
+   150,
+   81,
+   155,
+   55,
+   122,
+   146,
+   105,
+   102,
+   175,
+   134,
+   2
+  ],
+  "warnings": []
+ }
+}

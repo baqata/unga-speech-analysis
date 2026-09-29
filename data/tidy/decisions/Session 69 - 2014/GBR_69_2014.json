@@ -1,0 +1,68 @@
+{
+ "id": "GBR_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  27,
+  37,
+  52,
+  61,
+  71,
+  88,
+  100,
+  110,
+  121,
+  131,
+  141,
+  149,
+  165,
+  183,
+  208,
+  223
+ ],
+ "cer": [],
+ "fix": [
+  [
+   184,
+   "treat",
+   "threat",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0783db3f03aa54d4b0724d9932672a5d3dd2fa93",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1999,
+  "words_out": 1999,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   164,
+   82,
+   101,
+   129,
+   81,
+   93,
+   149,
+   98,
+   78,
+   93,
+   88,
+   92,
+   72,
+   146,
+   157,
+   210,
+   134,
+   32
+  ],
+  "warnings": []
+ }
+}

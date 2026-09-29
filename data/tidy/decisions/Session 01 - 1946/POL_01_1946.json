@@ -1,0 +1,88 @@
+{
+ "id": "POL_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  11,
+  17,
+  20,
+  22,
+  25,
+  30,
+  34,
+  41,
+  45,
+  51,
+  54,
+  59
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "Nations,",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   30,
+   "alive,",
+   "alive.",
+   "ocr"
+  ],
+  [
+   48,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   50,
+   "with,",
+   "with",
+   "ocr"
+  ],
+  [
+   60,
+   "unison,",
+   "unison",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55f0a1e2dc2e1664a9ac32d8014f7449a2dcc79a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2011,
+  "words_out": 2010,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   124,
+   95,
+   106,
+   101,
+   214,
+   72,
+   89,
+   116,
+   144,
+   149,
+   194,
+   125,
+   178,
+   85,
+   109,
+   109
+  ],
+  "warnings": []
+ }
+}

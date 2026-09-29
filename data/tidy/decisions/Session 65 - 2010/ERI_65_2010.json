@@ -1,0 +1,50 @@
+{
+ "id": "ERI_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  28,
+  44,
+  71,
+  92,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "186e48cb908443d0a85899503ef2854538e4f1c1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 995,
+  "words_out": 993,
+  "retention": 0.998,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   125,
+   101,
+   136,
+   211,
+   167,
+   131,
+   122
+  ],
+  "warnings": []
+ }
+}

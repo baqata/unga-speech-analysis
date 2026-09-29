@@ -1,0 +1,65 @@
+{
+ "id": "MCO_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  16,
+  22,
+  27,
+  36,
+  42,
+  46,
+  50,
+  55,
+  62,
+  65,
+  68,
+  77
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   59,
+   "great- great",
+   "great-great",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f3633d37ad4518bfb11233eb4ecf1e6d2acd5d14",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1499,
+  "words_out": 1498,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   55,
+   120,
+   63,
+   97,
+   78,
+   169,
+   143,
+   98,
+   81,
+   110,
+   105,
+   92,
+   102,
+   104,
+   81
+  ],
+  "warnings": []
+ }
+}

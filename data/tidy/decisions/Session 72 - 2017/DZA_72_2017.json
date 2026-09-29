@@ -1,0 +1,74 @@
+{
+ "id": "DZA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  16,
+  19,
+  22,
+  24,
+  29,
+  31,
+  37,
+  41,
+  47,
+  49,
+  54,
+  58,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   22,
+   "foreign- policy",
+   "foreign-policy",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d55b7c3d0831a476861cbdb57db81a84c81e6291",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1772,
+  "words_out": 1770,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   75,
+   121,
+   117,
+   146,
+   70,
+   81,
+   77,
+   200,
+   53,
+   121,
+   102,
+   153,
+   71,
+   122,
+   117,
+   115,
+   29
+  ],
+  "warnings": []
+ }
+}

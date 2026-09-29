@@ -1,0 +1,68 @@
+{
+ "id": "GIN_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  11,
+  13,
+  19,
+  26,
+  31,
+  35,
+  37,
+  43,
+  48,
+  52,
+  55,
+  57,
+  60,
+  61,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   40,
+   "t o",
+   "to",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ffeb5dd71dc04e040efaf22c041b97908fe2c34e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1779,
+  "words_out": 1778,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   206,
+   86,
+   75,
+   165,
+   101,
+   142,
+   167,
+   63,
+   131,
+   103,
+   91,
+   86,
+   69,
+   66,
+   45,
+   70,
+   112
+  ],
+  "warnings": []
+ }
+}

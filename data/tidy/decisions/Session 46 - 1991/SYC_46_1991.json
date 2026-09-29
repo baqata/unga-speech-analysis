@@ -1,0 +1,76 @@
+{
+ "id": "SYC_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  17,
+  20,
+  23,
+  29,
+  33,
+  36,
+  40,
+  42,
+  45,
+  48,
+  51,
+  56,
+  59,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "He must also",
+   "We must also",
+   "ocr"
+  ],
+  [
+   64,
+   "at lest provide",
+   "at least provide",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "732b0bab1d8ba186614c23139d3d33beae6f49cf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1683,
+  "words_out": 1683,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   103,
+   101,
+   94,
+   118,
+   99,
+   65,
+   122,
+   84,
+   58,
+   125,
+   64,
+   94,
+   79,
+   72,
+   106,
+   108,
+   100,
+   91
+  ],
+  "warnings": []
+ }
+}

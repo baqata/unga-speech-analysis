@@ -1,0 +1,63 @@
+{
+ "id": "LAO_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  16,
+  18,
+  24,
+  29,
+  34,
+  36,
+  42,
+  47,
+  49,
+  55,
+  61
+ ],
+ "cer": [
+  0,
+  61
+ ],
+ "fix": [
+  [
+   41,
+   "China- Laos",
+   "China-Laos",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8944edb33ccc0e7abc4cda0a7ceb169abcd4b710",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1802,
+  "words_out": 1801,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   85,
+   169,
+   128,
+   91,
+   126,
+   129,
+   158,
+   102,
+   264,
+   177,
+   72,
+   150,
+   148,
+   2
+  ],
+  "warnings": []
+ }
+}

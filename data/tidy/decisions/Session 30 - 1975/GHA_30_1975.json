@@ -1,0 +1,132 @@
+{
+ "id": "GHA_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  18,
+  22,
+  27,
+  32,
+  35,
+  41,
+  46,
+  49,
+  51,
+  52,
+  55,
+  57,
+  60,
+  63,
+  65,
+  67,
+  70,
+  73,
+  77,
+  79,
+  81,
+  86,
+  90,
+  94,
+  101
+ ],
+ "cer": [
+  0,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   16,
+   "nation- building",
+   "nation-building",
+   "hyphen"
+  ],
+  [
+   36,
+   "th§",
+   "the",
+   "ocr"
+  ],
+  [
+   47,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   61,
+   " [.PLO]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "chance,",
+   "chance.",
+   "ocr"
+  ],
+  [
+   78,
+   "efficiently,",
+   "efficiently.",
+   "ocr"
+  ],
+  [
+   86,
+   "West • African",
+   "West African",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02684c0506e220bec3b5a3167231d8cb2cabb1cb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3455,
+  "words_out": 3451,
+  "retention": 0.9988,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   219,
+   136,
+   160,
+   165,
+   83,
+   157,
+   179,
+   80,
+   226,
+   120,
+   76,
+   78,
+   66,
+   67,
+   70,
+   68,
+   86,
+   76,
+   59,
+   73,
+   92,
+   107,
+   94,
+   80,
+   155,
+   114,
+   140,
+   161,
+   264
+  ],
+  "warnings": []
+ }
+}

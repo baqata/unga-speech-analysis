@@ -1,0 +1,63 @@
+{
+ "id": "LBN_63_2008",
+ "drop": [
+  [
+   74,
+   75,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  22,
+  48,
+  76,
+  90,
+  115,
+  143,
+  162,
+  185,
+  208,
+  234
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d27e0da4c942e5ae9c6b6b029d9b36fbf2ace31",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2064,
+  "words_out": 2052,
+  "retention": 0.9942,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   22,
+   161,
+   199,
+   201,
+   109,
+   183,
+   219,
+   162,
+   167,
+   185,
+   207,
+   237
+  ],
+  "warnings": [
+   "procedural drop [74,75] in the middle of the speech"
+  ]
+ }
+}

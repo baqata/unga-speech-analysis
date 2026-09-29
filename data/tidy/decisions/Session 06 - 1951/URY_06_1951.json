@@ -1,0 +1,70 @@
+{
+ "id": "URY_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  19,
+  23,
+  28,
+  30,
+  34,
+  39,
+  46,
+  52,
+  59,
+  62,
+  67
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   34,
+   "tear",
+   "fear",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ca05d60d836b58cab5316a986a88acd3f10fefc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 2454,
+  "words_out": 2454,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   164,
+   208,
+   148,
+   211,
+   156,
+   134,
+   105,
+   127,
+   183,
+   237,
+   148,
+   223,
+   145,
+   153,
+   112
+  ],
+  "warnings": []
+ }
+}

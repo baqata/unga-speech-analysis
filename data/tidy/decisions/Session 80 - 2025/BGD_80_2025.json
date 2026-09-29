@@ -1,0 +1,132 @@
+{
+ "id": "BGD_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   99,
+   99,
+   "repeat"
+  ],
+  [
+   103,
+   103,
+   "repeat"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  12,
+  19,
+  26,
+  32,
+  40,
+  51,
+  58,
+  66,
+  77,
+  90,
+  107,
+  118,
+  124,
+  133,
+  143,
+  153,
+  162,
+  170,
+  175,
+  184,
+  197,
+  204,
+  210,
+  221,
+  232,
+  245,
+  254,
+  264
+ ],
+ "cer": [
+  2,
+  264
+ ],
+ "fix": [
+  [
+   62,
+   "severe commitment",
+   "Sevilla Commitment",
+   "asr_term"
+  ],
+  [
+   63,
+   "severe commitment",
+   "Sevilla Commitment",
+   "asr_term"
+  ],
+  [
+   211,
+   "Nuzrul",
+   "Nazrul",
+   "asr_name"
+  ],
+  [
+   240,
+   "OH, RLLS",
+   "OHRLLS",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 99 and 103 repeat the preceding sentences verbatim and were dropped; unit 100 differs from 98 and is kept.",
+ "unitizer_version": 1,
+ "sha1": "e7a9ba958a785bbd62f399985ebf7f5e889872f0",
+ "layout": "single",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {
+   "presider": 2,
+   "repeat": 2
+  },
+  "prestrip": {},
+  "words_in": 4666,
+  "words_out": 4605,
+  "retention": 0.9869,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   19,
+   159,
+   120,
+   115,
+   104,
+   160,
+   220,
+   116,
+   143,
+   174,
+   199,
+   218,
+   214,
+   103,
+   146,
+   172,
+   167,
+   185,
+   163,
+   116,
+   171,
+   200,
+   146,
+   119,
+   224,
+   181,
+   218,
+   182,
+   147,
+   4
+  ],
+  "warnings": []
+ }
+}

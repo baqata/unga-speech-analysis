@@ -1,0 +1,55 @@
+{
+ "id": "MDG_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  28,
+  44,
+  59,
+  84,
+  93,
+  112,
+  128,
+  149,
+  176,
+  189,
+  216
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "828b5edd6ea9af15d6165a6525b2b513fb91e4ed",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 225,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1820,
+  "words_out": 1818,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   120,
+   103,
+   141,
+   117,
+   211,
+   81,
+   149,
+   137,
+   163,
+   210,
+   104,
+   203,
+   79
+  ],
+  "warnings": []
+ }
+}

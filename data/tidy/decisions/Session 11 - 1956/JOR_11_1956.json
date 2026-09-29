@@ -1,0 +1,139 @@
+{
+ "id": "JOR_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  14,
+  16,
+  21,
+  27,
+  36,
+  37,
+  44,
+  49,
+  53,
+  59,
+  68,
+  71,
+  74,
+  80,
+  82,
+  89,
+  94,
+  103,
+  106,
+  107,
+  111,
+  115,
+  123,
+  131,
+  133,
+  135,
+  141,
+  146,
+  150,
+  156,
+  160,
+  162
+ ],
+ "cer": [
+  0,
+  36
+ ],
+ "fix": [
+  [
+   38,
+   "bias the",
+   "Has the",
+   "ocr"
+  ],
+  [
+   93,
+   "m conditions",
+   "in conditions",
+   "ocr"
+  ],
+  [
+   101,
+   "Let than",
+   "Let them",
+   "ocr"
+  ],
+  [
+   139,
+   "mv liberty",
+   "my liberty",
+   "ocr"
+  ],
+  [
+   145,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   160,
+   "tire territory",
+   "the territory",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c4c672af8a2b3e4c57542dac6096ec3485ef053c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 4437,
+  "words_out": 4433,
+  "retention": 0.9991,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   98,
+   110,
+   74,
+   109,
+   82,
+   111,
+   148,
+   204,
+   41,
+   159,
+   161,
+   145,
+   206,
+   232,
+   77,
+   93,
+   229,
+   66,
+   142,
+   98,
+   169,
+   82,
+   53,
+   122,
+   92,
+   138,
+   214,
+   76,
+   62,
+   195,
+   125,
+   93,
+   182,
+   90,
+   72,
+   83
+  ],
+  "warnings": []
+ }
+}

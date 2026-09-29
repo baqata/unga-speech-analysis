@@ -1,0 +1,96 @@
+{
+ "id": "EGY_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  32,
+  51,
+  69,
+  81,
+  99,
+  119,
+  138,
+  154,
+  179,
+  186,
+  202,
+  218,
+  232,
+  247,
+  256,
+  267,
+  281,
+  297,
+  308,
+  316,
+  333,
+  352,
+  370
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   103,
+   "by.existing",
+   "by existing",
+   "ocr"
+  ],
+  [
+   320,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "ocr"
+  ],
+  [
+   327,
+   "the the Iraqi",
+   "the Iraqi",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17225ed37cafdb72bb1e94739101d48dbf27e952",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 382,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4224,
+  "words_out": 4223,
+  "retention": 0.9998,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   115,
+   226,
+   191,
+   216,
+   135,
+   205,
+   242,
+   210,
+   177,
+   283,
+   84,
+   168,
+   166,
+   151,
+   168,
+   95,
+   115,
+   151,
+   162,
+   108,
+   89,
+   194,
+   216,
+   203,
+   153
+  ],
+  "warnings": []
+ }
+}

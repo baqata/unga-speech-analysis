@@ -1,0 +1,199 @@
+{
+ "id": "SDN_31_1976",
+ "drop": [
+  [
+   2,
+   2,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  10,
+  15,
+  19,
+  25,
+  27,
+  32,
+  36,
+  41,
+  47,
+  51,
+  54,
+  60,
+  65,
+  68,
+  75,
+  79,
+  84,
+  94,
+  98,
+  104
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   7,
+   "in the' international",
+   "in the international",
+   "ocr"
+  ],
+  [
+   11,
+   "of modem civilization",
+   "of modern civilization",
+   "ocr"
+  ],
+  [
+   18,
+   "beset lie people",
+   "beset the people",
+   "ocr"
+  ],
+  [
+   20,
+   "which. ostensibly",
+   "which ostensibly",
+   "ocr"
+  ],
+  [
+   21,
+   "technical, know-how",
+   "technical know-how",
+   "ocr"
+  ],
+  [
+   27,
+   "The' question",
+   "The question",
+   "ocr"
+  ],
+  [
+   28,
+   "Africa tab failed",
+   "Africa has failed",
+   "ocr"
+  ],
+  [
+   36,
+   "We Welcome",
+   "We welcome",
+   "ocr"
+  ],
+  [
+   40,
+   "I live.'* There",
+   "I live.\" There",
+   "ocr"
+  ],
+  [
+   57,
+   " progress in implementing decisions of the sixth and seventh",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " special sessions.",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "to the, easing",
+   "to the easing",
+   "ocr"
+  ],
+  [
+   60,
+   "will further, lead",
+   "will further lead",
+   "ocr"
+  ],
+  [
+   62,
+   "of lite Indian",
+   "of the Indian",
+   "ocr"
+  ],
+  [
+   65,
+   "in tile utilization",
+   "in the utilization",
+   "ocr"
+  ],
+  [
+   69,
+   "Our, intention",
+   "Our intention",
+   "ocr"
+  ],
+  [
+   85,
+   "in Manual I, and ColomboI 2 with",
+   "in Manila, and Colombo with",
+   "ocr"
+  ],
+  [
+   94,
+   " [resolutions 3201(SVI) and 3202 (SVI)]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "poMiical",
+   "political",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 57 carried a line fragment interleaved from another column ('progress in implementing decisions of the sixth and seventh ... special sessions'), which repeats text kept in unit 76; it was removed with label fixes. Unit 2 ('US.') is a garbled paragraph number.",
+ "unitizer_version": 1,
+ "sha1": "1b8cd7abbc8b0faf71bc5c8b405aa99416d0f747",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 3015,
+  "words_out": 2989,
+  "retention": 0.9914,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   141,
+   100,
+   59,
+   191,
+   151,
+   195,
+   107,
+   177,
+   96,
+   141,
+   140,
+   112,
+   123,
+   206,
+   140,
+   101,
+   168,
+   124,
+   94,
+   128,
+   137,
+   112,
+   46
+  ],
+  "warnings": []
+ }
+}

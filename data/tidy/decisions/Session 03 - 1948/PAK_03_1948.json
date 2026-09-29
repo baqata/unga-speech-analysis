@@ -1,0 +1,120 @@
+{
+ "id": "PAK_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  16,
+  19,
+  22,
+  27,
+  32,
+  37,
+  43,
+  48,
+  51,
+  56,
+  65,
+  68,
+  75,
+  82,
+  88,
+  93,
+  99,
+  103,
+  108,
+  111,
+  115,
+  117,
+  123,
+  125,
+  131,
+  136,
+  137,
+  142,
+  146
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "the. alert",
+   "the alert",
+   "ocr"
+  ],
+  [
+   33,
+   "There wore",
+   "There were",
+   "ocr"
+  ],
+  [
+   67,
+   "aft armed",
+   "an armed",
+   "ocr"
+  ],
+  [
+   104,
+   " (143rd meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "0e6d1ea536f88bb01e1a8f5dedd39b73ee0ee88b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4673,
+  "words_out": 4671,
+  "retention": 0.9996,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   36,
+   107,
+   163,
+   194,
+   156,
+   115,
+   181,
+   115,
+   104,
+   175,
+   171,
+   150,
+   164,
+   140,
+   99,
+   160,
+   175,
+   219,
+   119,
+   241,
+   95,
+   152,
+   139,
+   158,
+   62,
+   200,
+   151,
+   204,
+   219,
+   45,
+   92,
+   93,
+   77
+  ],
+  "warnings": []
+ }
+}

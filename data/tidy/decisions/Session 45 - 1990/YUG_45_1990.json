@@ -1,0 +1,118 @@
+{
+ "id": "YUG_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  14,
+  17,
+  23,
+  30,
+  33,
+  39,
+  41,
+  46,
+  51,
+  57,
+  62,
+  64,
+  67,
+  69,
+  71,
+  76,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   4,
+   "as wall",
+   "as well",
+   "ocr"
+  ],
+  [
+   8,
+   "long-term tread",
+   "long-term trend",
+   "ocr"
+  ],
+  [
+   51,
+   "world ~ the",
+   "world - the",
+   "encoding"
+  ],
+  [
+   64,
+   "IN today's",
+   "In today's",
+   "ocr"
+  ],
+  [
+   78,
+   "iron prevailing",
+   "from prevailing",
+   "ocr"
+  ],
+  [
+   82,
+   "and· a",
+   "and a",
+   "encoding"
+  ],
+  [
+   82,
+   "that, is each",
+   "that, in each",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17737e50c8b5d0d47a557c0277dd5eb4eac424d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2785,
+  "words_out": 2785,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   103,
+   135,
+   105,
+   156,
+   141,
+   153,
+   209,
+   89,
+   152,
+   118,
+   154,
+   173,
+   192,
+   120,
+   73,
+   114,
+   67,
+   94,
+   95,
+   170,
+   172
+  ],
+  "warnings": []
+ }
+}

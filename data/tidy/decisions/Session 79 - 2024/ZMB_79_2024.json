@@ -1,0 +1,59 @@
+{
+ "id": "ZMB_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  15,
+  18,
+  21,
+  29,
+  36,
+  40,
+  45,
+  50,
+  55,
+  60,
+  63,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 67 ends with a comma in the record; the paragraph break at unit 68 (\"Finally\") is kept.",
+ "unitizer_version": 1,
+ "sha1": "3f5d876d2de2eb103b827c6b53cc15c94fec6c6c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1886,
+  "words_out": 1884,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   46,
+   116,
+   77,
+   150,
+   93,
+   112,
+   194,
+   169,
+   124,
+   118,
+   121,
+   133,
+   124,
+   78,
+   123,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "MUS_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  12,
+  17,
+  22,
+  28,
+  32,
+  35,
+  40,
+  49,
+  52,
+  54,
+  59,
+  64,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   10,
+   "long- term",
+   "long-term",
+   "spacing"
+  ],
+  [
+   10,
+   " [A/8701/Add.",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "1, p. 2]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "countries.represented",
+   "countries represented",
+   "spacing"
+  ],
+  [
+   47,
+   " [A/C.",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "6/L.850]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   54,
+   " [A/8701/Add.l, p. 3]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8cb6a5d760e15742e6f469be193410229a5b7469",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 22
+  },
+  "words_in": 2153,
+  "words_out": 2138,
+  "retention": 0.993,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   174,
+   128,
+   99,
+   139,
+   160,
+   166,
+   127,
+   83,
+   162,
+   166,
+   120,
+   164,
+   147,
+   152,
+   120,
+   31
+  ],
+  "warnings": []
+ }
+}

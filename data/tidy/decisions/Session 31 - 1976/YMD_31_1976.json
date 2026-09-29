@@ -1,0 +1,88 @@
+{
+ "id": "YMD_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  13,
+  16,
+  21,
+  24,
+  27,
+  31,
+  35,
+  37,
+  41,
+  48,
+  51,
+  54,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "the- world",
+   "the world",
+   "spacing"
+  ],
+  [
+   11,
+   "5 ",
+   "",
+   "label"
+  ],
+  [
+   16,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "comer-stone",
+   "corner-stone",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b4396edd762d99bc8bde5ebe7eb828706909ae2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1729,
+  "words_out": 1724,
+  "retention": 0.9971,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   104,
+   133,
+   152,
+   92,
+   116,
+   158,
+   65,
+   112,
+   84,
+   74,
+   62,
+   101,
+   179,
+   89,
+   121,
+   62,
+   20
+  ],
+  "warnings": []
+ }
+}

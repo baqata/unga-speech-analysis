@@ -1,0 +1,44 @@
+{
+ "id": "STP_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "\\q prevent",
+   "to prevent",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The final sentence lacks a period in the source; greetings to Brunei come near the end.",
+ "unitizer_version": 1,
+ "sha1": "122605b532f58f07e7630d3696603131dcd7ed19",
+ "layout": "lines",
+ "stats": {
+  "n_units": 19,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 699,
+  "words_out": 699,
+  "retention": 1.0,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   129,
+   157,
+   162,
+   92,
+   159
+  ],
+  "warnings": []
+ }
+}

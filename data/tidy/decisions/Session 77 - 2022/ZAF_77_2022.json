@@ -1,0 +1,66 @@
+{
+ "id": "ZAF_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  15,
+  21,
+  24,
+  26,
+  30,
+  34,
+  41,
+  48,
+  55,
+  61,
+  68,
+  75,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   85,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc7a6b7cd744432f56f85d07729fffc4e69612ac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2066,
+  "words_out": 2061,
+  "retention": 0.9976,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   65,
+   164,
+   79,
+   123,
+   80,
+   73,
+   118,
+   76,
+   163,
+   174,
+   186,
+   98,
+   198,
+   161,
+   188,
+   115
+  ],
+  "warnings": []
+ }
+}

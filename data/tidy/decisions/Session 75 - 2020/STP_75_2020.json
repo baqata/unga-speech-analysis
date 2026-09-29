@@ -1,0 +1,66 @@
+{
+ "id": "STP_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  16,
+  19,
+  22,
+  26,
+  29,
+  35,
+  40,
+  45,
+  49
+ ],
+ "cer": [
+  0,
+  6,
+  49
+ ],
+ "fix": [
+  [
+   34,
+   "post- COVID-19",
+   "post-COVID-19",
+   "hyphen"
+  ],
+  [
+   43,
+   "medium- income",
+   "medium-income",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec61dcdd6afa31fde773484c9260575be607004f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1241,
+  "words_out": 1239,
+  "retention": 0.9984,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   31,
+   170,
+   111,
+   110,
+   107,
+   124,
+   124,
+   188,
+   121,
+   100,
+   46,
+   7
+  ],
+  "warnings": []
+ }
+}

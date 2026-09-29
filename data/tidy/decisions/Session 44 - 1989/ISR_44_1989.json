@@ -1,0 +1,74 @@
+{
+ "id": "ISR_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  18,
+  22,
+  26,
+  31,
+  34,
+  42,
+  47,
+  50,
+  57,
+  60,
+  65,
+  70,
+  76,
+  80,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   32,
+   "2 8 years",
+   "28 years",
+   "spacing"
+  ],
+  [
+   42,
+   "wars? we",
+   "wars; we",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0181b5b34c6d1f714498adf4e7a64deda76e3498",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2051,
+  "words_out": 2050,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   97,
+   116,
+   194,
+   93,
+   112,
+   105,
+   112,
+   169,
+   122,
+   60,
+   144,
+   89,
+   79,
+   142,
+   145,
+   129,
+   108,
+   34
+  ],
+  "warnings": []
+ }
+}

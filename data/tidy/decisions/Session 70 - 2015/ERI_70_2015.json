@@ -1,0 +1,47 @@
+{
+ "id": "ERI_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  10,
+  14,
+  18,
+  23,
+  27,
+  29
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85eb77920ad9ebdc84ec29fc4da3ab20eef9f659",
+ "layout": "lines",
+ "stats": {
+  "n_units": 32,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 831,
+  "words_out": 829,
+  "retention": 0.9976,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   56,
+   78,
+   113,
+   130,
+   76,
+   110,
+   87,
+   85,
+   94
+  ],
+  "warnings": []
+ }
+}

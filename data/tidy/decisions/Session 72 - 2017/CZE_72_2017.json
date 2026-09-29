@@ -1,0 +1,44 @@
+{
+ "id": "CZE_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  20,
+  28
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "546faa114395bc7fb8e8e167190e84124456e519",
+ "layout": "lines",
+ "stats": {
+  "n_units": 31,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 634,
+  "words_out": 633,
+  "retention": 0.9984,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   121,
+   109,
+   162,
+   156,
+   85
+  ],
+  "warnings": []
+ }
+}

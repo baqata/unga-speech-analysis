@@ -1,0 +1,149 @@
+{
+ "id": "NER_19_1964",
+ "drop": [
+  [
+   47,
+   47,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  13,
+  16,
+  21,
+  25,
+  31,
+  34,
+  36,
+  38,
+  41,
+  48,
+  52,
+  55
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   10,
+   "danger >that",
+   "danger that",
+   "ocr"
+  ],
+  [
+   23,
+   " [A/5757 and Add„l]",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "We export",
+   "We exhort",
+   "ocr"
+  ],
+  [
+   34,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   34,
+   "not Only",
+   "not only",
+   "ocr"
+  ],
+  [
+   34,
+   "\\o live",
+   "to live",
+   "ocr"
+  ],
+  [
+   35,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   40,
+   "unchanged,",
+   "unchanged.",
+   "ocr"
+  ],
+  [
+   49,
+   "1 need",
+   "I need",
+   "ocr"
+  ],
+  [
+   49,
+   "many.",
+   "many",
+   "ocr"
+  ],
+  [
+   50,
+   "Geneva, Even",
+   "Geneva. Even",
+   "ocr"
+  ],
+  [
+   51,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   56,
+   "dither",
+   "either",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26799fbd7871de2abacecd3305dea5dedf7775dd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 1928,
+  "words_out": 1923,
+  "retention": 0.9974,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   157,
+   76,
+   96,
+   85,
+   126,
+   136,
+   156,
+   121,
+   149,
+   90,
+   107,
+   76,
+   238,
+   126,
+   92,
+   92
+  ],
+  "warnings": []
+ }
+}

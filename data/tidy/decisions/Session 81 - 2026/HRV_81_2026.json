@@ -1,0 +1,118 @@
+{
+ "id": "HRV_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   113,
+   113,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  13,
+  18,
+  25,
+  33,
+  44,
+  52,
+  58,
+  66,
+  70,
+  79,
+  83,
+  87,
+  94,
+  103,
+  112
+ ],
+ "cer": [
+  2,
+  112
+ ],
+ "fix": [
+  [
+   67,
+   "shilling",
+   "shelling",
+   "asr_term"
+  ],
+  [
+   111,
+   "were mate",
+   "were made",
+   "asr_term"
+  ],
+  [
+   80,
+   "peak. six",
+   "peak. Six",
+   "asr_term"
+  ],
+  [
+   82,
+   "abroad. reforms",
+   "abroad. Reforms",
+   "asr_term"
+  ],
+  [
+   105,
+   "borders. reforms.",
+   "borders.",
+   "asr_term"
+  ],
+  [
+   111,
+   "reached",
+   "reach",
+   "asr_term"
+  ],
+  [
+   27,
+   "passing degrees",
+   "passing decrees",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Shelling per Spanish 'bombardeo'; decrees and made from context. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 80 'peak. six' -> 'peak. Six'; unit 82 'abroad. reforms' -> 'abroad. Reforms'; unit 105 'borders. reforms.' -> 'borders.' (two re-decodes hear 'borders. Reform gave us' with nothing between (p 0.99-1.00)). Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 27 'passing degrees' -> 'passing decrees' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'degrees' (decodes 0.99 / 0.97, the UN transcript; forced scoring -5.6 vs 'decrees' -14.0), which does not fit; the Spanish leaves the word out, and the Government of Croatia's published text (vlada.gov.hr, 23.09.2026) reads 'by passing decrees to protect Croatian citizens'); spot 9 unit 111 'reached' -> 'reach' (both decodes hear 'reach' (0.52 / 0.49); 'Let us ensure that our commitment reached' does not fit; ES 'para que nuestros compromisos lleguen')",
+ "unitizer_version": 1,
+ "sha1": "88568e9d18f06d40cbbbaf00ac8450eea9181cca",
+ "layout": "single",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2001,
+  "words_out": 1951,
+  "retention": 0.975,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   8,
+   143,
+   133,
+   122,
+   157,
+   164,
+   134,
+   89,
+   96,
+   110,
+   188,
+   120,
+   61,
+   105,
+   153,
+   166,
+   2
+  ],
+  "warnings": []
+ }
+}

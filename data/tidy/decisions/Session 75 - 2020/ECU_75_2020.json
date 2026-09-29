@@ -1,0 +1,57 @@
+{
+ "id": "ECU_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  11,
+  15,
+  19,
+  22,
+  27,
+  30,
+  36,
+  40,
+  43,
+  48,
+  50,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "749faa0158da94d1a5183075d6005206fe2b1388",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1282,
+  "words_out": 1277,
+  "retention": 0.9961,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   11,
+   128,
+   85,
+   92,
+   97,
+   70,
+   112,
+   89,
+   124,
+   96,
+   66,
+   79,
+   59,
+   89,
+   80
+  ],
+  "warnings": []
+ }
+}

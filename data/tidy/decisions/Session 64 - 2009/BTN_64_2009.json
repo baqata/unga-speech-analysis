@@ -1,0 +1,53 @@
+{
+ "id": "BTN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  40,
+  53,
+  75,
+  104,
+  120,
+  143,
+  160,
+  177,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "922e5fb1756170e4b488c61d802b7936ef8354ce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1523,
+  "words_out": 1521,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   70,
+   124,
+   116,
+   83,
+   160,
+   221,
+   125,
+   159,
+   129,
+   132,
+   104,
+   98
+  ],
+  "warnings": []
+ }
+}

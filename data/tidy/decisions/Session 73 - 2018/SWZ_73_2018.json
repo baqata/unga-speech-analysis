@@ -1,0 +1,79 @@
+{
+ "id": "SWZ_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  5,
+  7,
+  9,
+  12,
+  19,
+  23,
+  27,
+  31,
+  36,
+  39,
+  41,
+  45,
+  50,
+  55,
+  59,
+  63,
+  65,
+  68,
+  71
+ ],
+ "cer": [
+  0,
+  71
+ ],
+ "fix": [
+  [
+   74,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "262c695350283112268e87b7aaf141d6c258ea6e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2022,
+  "words_out": 2021,
+  "retention": 0.9995,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   32,
+   66,
+   90,
+   72,
+   68,
+   83,
+   191,
+   82,
+   82,
+   93,
+   114,
+   81,
+   75,
+   106,
+   121,
+   95,
+   84,
+   65,
+   69,
+   109,
+   106,
+   137
+  ],
+  "warnings": []
+ }
+}

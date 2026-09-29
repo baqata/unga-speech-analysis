@@ -1,0 +1,82 @@
+{
+ "id": "IND_58_2003",
+ "drop": [
+  [
+   59,
+   62,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  20,
+  33,
+  44,
+  63,
+  87,
+  107,
+  123,
+  143,
+  161,
+  185,
+  196,
+  216,
+  229,
+  246
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   54,
+   "//",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " We need to clearly recognize,",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The sentence on the limits of the United Nations is printed twice (units 54-58 and 58-62); only the first is kept.",
+ "unitizer_version": 1,
+ "sha1": "4b785bedea04786383d0e2f5bb0999a62dff8c00",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {
+   "repeat": 4
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2061,
+  "words_out": 2020,
+  "retention": 0.9801,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   39,
+   116,
+   105,
+   96,
+   131,
+   188,
+   151,
+   138,
+   156,
+   131,
+   197,
+   75,
+   148,
+   90,
+   122,
+   137
+  ],
+  "warnings": []
+ }
+}

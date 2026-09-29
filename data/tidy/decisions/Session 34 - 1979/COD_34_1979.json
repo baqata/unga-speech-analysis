@@ -1,0 +1,130 @@
+{
+ "id": "COD_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15,
+  20,
+  23,
+  25,
+  29,
+  34,
+  38,
+  44,
+  51,
+  55,
+  62,
+  68,
+  72,
+  76,
+  80,
+  84,
+  89,
+  92,
+  96,
+  100,
+  102,
+  107,
+  112,
+  117,
+  121,
+  123,
+  126
+ ],
+ "cer": [
+  0,
+  4,
+  8
+ ],
+ "fix": [
+  [
+   7,
+   "injudicious terms",
+   "in judicious terms",
+   "spacing"
+  ],
+  [
+   81,
+   "self- satisfaction",
+   "self-satisfaction",
+   "hyphen"
+  ],
+  [
+   89,
+   "above ail",
+   "above all",
+   "ocr"
+  ],
+  [
+   92,
+   "the economists of",
+   "the economies of",
+   "ocr"
+  ],
+  [
+   98,
+   "short- term",
+   "short-term",
+   "hyphen"
+  ],
+  [
+   100,
+   "self- denial",
+   "self-denial",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c3b31bcfb501eb79fa5e19ae99c8df2bbbd0c0d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 60
+  },
+  "words_in": 3936,
+  "words_out": 3934,
+  "retention": 0.9995,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   103,
+   114,
+   124,
+   131,
+   167,
+   110,
+   101,
+   141,
+   129,
+   206,
+   187,
+   148,
+   147,
+   157,
+   155,
+   103,
+   75,
+   113,
+   125,
+   115,
+   172,
+   109,
+   164,
+   86,
+   142,
+   146,
+   98,
+   111,
+   63,
+   79,
+   113
+  ],
+  "warnings": []
+ }
+}

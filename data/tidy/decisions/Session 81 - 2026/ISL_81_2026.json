@@ -1,0 +1,141 @@
+{
+ "id": "ISL_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   57,
+   57,
+   "noise"
+  ],
+  [
+   139,
+   139,
+   "repeat"
+  ],
+  [
+   154,
+   154,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  9,
+  18,
+  28,
+  37,
+  45,
+  55,
+  58,
+  68,
+  72,
+  83,
+  88,
+  95,
+  112,
+  117,
+  123,
+  137,
+  149
+ ],
+ "cer": [],
+ "fix": [
+  [
+   49,
+   "course",
+   "cause",
+   "asr_term"
+  ],
+  [
+   68,
+   "Babel Mandeb",
+   "Bab el-Mandeb",
+   "asr_name"
+  ],
+  [
+   16,
+   "force. and",
+   "force. And",
+   "asr_term"
+  ],
+  [
+   90,
+   "debate. too",
+   "debate. Too",
+   "asr_term"
+  ],
+  [
+   112,
+   "Sudan. throughout",
+   "Sudan. Throughout",
+   "asr_term"
+  ],
+  [
+   113,
+   "Arctic. rising",
+   "Arctic. Rising",
+   "asr_term"
+  ],
+  [
+   122,
+   "risks. and",
+   "risks. And",
+   "asr_term"
+  ],
+  [
+   8,
+   "empathy,",
+   "embodies it",
+   "asr_term"
+  ],
+  [
+   112,
+   "our term our",
+   "our",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Lone 'Thank you.' during applause dropped as noise; Spanish 'causa raigal' in unit 49. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 139 dropped as a repeat. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'force. and' -> 'force. And'; unit 90 'debate. too' -> 'debate. Too'; unit 112 'Sudan. throughout' -> 'Sudan. Throughout'; unit 113 'Arctic. rising' -> 'Arctic. Rising'; unit 122 'risks. and' -> 'risks. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 8 'empathy,' -> 'embodies it' (both decodes hear 'embodies it' (0.93 / 0.91, 'it' 1.00); ES 'las Naciones Unidas que la representan'; 'that empathy, is under' does not fit); spot 18 unit 112 'our term our' -> 'our' (both decodes hear 'Throughout our council term' with no 'term our' ('our' 898.9, 'council' 899.4, no room); doubled words; ES 'A lo largo de nuestro mandato en el Consejo')",
+ "unitizer_version": 1,
+ "sha1": "1c5eb0d589603a938de83db90cc9fa06554464fe",
+ "layout": "single",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 2278,
+  "words_out": 2248,
+  "retention": 0.9868,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   156,
+   170,
+   123,
+   119,
+   108,
+   162,
+   67,
+   117,
+   69,
+   122,
+   73,
+   85,
+   223,
+   165,
+   99,
+   177,
+   152,
+   61
+  ],
+  "warnings": []
+ }
+}

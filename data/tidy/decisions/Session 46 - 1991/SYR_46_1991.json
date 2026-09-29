@@ -1,0 +1,87 @@
+{
+ "id": "SYR_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  3,
+  6,
+  9,
+  13,
+  16,
+  19,
+  21,
+  25,
+  29,
+  36,
+  43,
+  47,
+  51,
+  53,
+  54,
+  56
+ ],
+ "cer": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   5,
+   "view o£ the",
+   "view of the",
+   "ocr"
+  ],
+  [
+   38,
+   "United Hat ions",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   50,
+   "425 (1973)",
+   "425 (1978)",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc31a03c575edf73373940ae5c4807657dd72bf1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2060,
+  "words_out": 2059,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   43,
+   42,
+   46,
+   96,
+   111,
+   122,
+   150,
+   118,
+   75,
+   131,
+   97,
+   227,
+   202,
+   69,
+   182,
+   68,
+   77,
+   65,
+   138
+  ],
+  "warnings": []
+ }
+}

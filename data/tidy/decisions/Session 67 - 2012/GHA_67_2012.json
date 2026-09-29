@@ -1,0 +1,82 @@
+{
+ "id": "GHA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  29,
+  44,
+  68,
+  87,
+  97,
+  108,
+  124,
+  146,
+  162,
+  176,
+  189,
+  198,
+  212,
+  226,
+  242,
+  254
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "self lessly",
+   "selflessly",
+   "split_word"
+  ],
+  [
+   50,
+   "stif le",
+   "stifle",
+   "split_word"
+  ],
+  [
+   66,
+   "f laws",
+   "flaws",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b9de0515c95e0e6cf7930cacd3075f5833396c34",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 267,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2213,
+  "words_out": 2210,
+  "retention": 0.9986,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   113,
+   131,
+   151,
+   203,
+   159,
+   75,
+   81,
+   134,
+   186,
+   124,
+   112,
+   104,
+   72,
+   121,
+   105,
+   139,
+   101,
+   99
+  ],
+  "warnings": []
+ }
+}

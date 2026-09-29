@@ -1,0 +1,108 @@
+{
+ "id": "CAF_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  13,
+  18,
+  23,
+  24,
+  29,
+  32,
+  35,
+  39,
+  42,
+  43,
+  46
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "Lampedusa.",
+   "Lampedusa,",
+   "ocr"
+  ],
+  [
+   10,
+   "phenomenon.",
+   "phenomenon,",
+   "ocr"
+  ],
+  [
+   22,
+   "2025. which",
+   "2025, which",
+   "ocr"
+  ],
+  [
+   23,
+   "all. when",
+   "all, when",
+   "ocr"
+  ],
+  [
+   30,
+   "Yes. every",
+   "Yes, every",
+   "ocr"
+  ],
+  [
+   32,
+   "yet. in",
+   "yet, in",
+   "ocr"
+  ],
+  [
+   32,
+   "El-Sheikh.",
+   "El-Sheikh,",
+   "ocr"
+  ],
+  [
+   43,
+   "all. the",
+   "all, the",
+   "ocr"
+  ],
+  [
+   48,
+   "us. that",
+   "us, that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "147f8431eddaeb1eb4fa827f4f1571bdab266ef2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1615,
+  "words_out": 1615,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   155,
+   107,
+   85,
+   141,
+   171,
+   68,
+   193,
+   80,
+   89,
+   109,
+   100,
+   78,
+   104,
+   135
+  ],
+  "warnings": []
+ }
+}

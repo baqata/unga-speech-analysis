@@ -1,0 +1,128 @@
+{
+ "id": "TJK_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  7,
+  12,
+  16,
+  20,
+  24,
+  29,
+  34,
+  40,
+  45,
+  50,
+  55,
+  58,
+  63,
+  70,
+  79,
+  84,
+  87,
+  92,
+  95
+ ],
+ "cer": [
+  0,
+  1,
+  95
+ ],
+ "fix": [
+  [
+   1,
+   "Mr.Volkan",
+   "Mr. Volkan",
+   "spacing"
+  ],
+  [
+   5,
+   "anti- COVID",
+   "anti-COVID",
+   "hyphen"
+  ],
+  [
+   44,
+   "Afghan- controlled",
+   "Afghan-controlled",
+   "hyphen"
+  ],
+  [
+   90,
+   "ofCOVID-19",
+   "of COVID-19",
+   "merged_word"
+  ],
+  [
+   73,
+   "1. ",
+   "",
+   "markup"
+  ],
+  [
+   74,
+   "2. ",
+   "",
+   "markup"
+  ],
+  [
+   75,
+   "3. ",
+   "",
+   "markup"
+  ],
+  [
+   76,
+   "4. ",
+   "",
+   "markup"
+  ],
+  [
+   77,
+   "5. ",
+   "",
+   "markup"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b54a6ce67bda58db788e319954151685d54f61d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2385,
+  "words_out": 2380,
+  "retention": 0.9979,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   10,
+   30,
+   164,
+   137,
+   135,
+   79,
+   125,
+   138,
+   127,
+   151,
+   147,
+   126,
+   94,
+   82,
+   101,
+   168,
+   182,
+   100,
+   66,
+   130,
+   82,
+   6
+  ],
+  "warnings": []
+ }
+}

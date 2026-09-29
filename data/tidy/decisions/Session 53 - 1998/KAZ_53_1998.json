@@ -1,0 +1,102 @@
+{
+ "id": "KAZ_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  25,
+  50,
+  64,
+  78,
+  94,
+  112,
+  130,
+  139,
+  152,
+  160,
+  171,
+  179,
+  201,
+  214,
+  226,
+  236
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "goodneighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ],
+  [
+   72,
+   "nonproliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   76,
+   "testingground",
+   "testing-ground",
+   "hyphen"
+  ],
+  [
+   81,
+   "confidencebuilding",
+   "confidence-building",
+   "hyphen"
+  ],
+  [
+   107,
+   "weaponfree",
+   "weapon-free",
+   "hyphen"
+  ],
+  [
+   157,
+   "selfdetermination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "400f47bcc1eb72f31e9a5901b2a525900464d262",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2085,
+  "words_out": 2085,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   39,
+   159,
+   197,
+   114,
+   133,
+   137,
+   155,
+   162,
+   74,
+   103,
+   75,
+   92,
+   71,
+   158,
+   112,
+   110,
+   85,
+   109
+  ],
+  "warnings": []
+ }
+}

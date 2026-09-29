@@ -1,0 +1,74 @@
+{
+ "id": "DZA_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  40,
+  62,
+  80,
+  100,
+  115,
+  137,
+  156,
+  167,
+  182,
+  196,
+  211,
+  226,
+  245,
+  261,
+  280,
+  300,
+  320
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "mandate.We",
+   "mandate. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e9bd226fbe2e74c7c62f18d08d62bb1b9fef647d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 336,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2794,
+  "words_out": 2793,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   208,
+   152,
+   192,
+   151,
+   143,
+   118,
+   186,
+   169,
+   90,
+   126,
+   112,
+   125,
+   117,
+   161,
+   141,
+   151,
+   161,
+   157,
+   133
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "id": "MUS_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   100,
+   100,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  16,
+  21,
+  27,
+  35,
+  40,
+  45,
+  50,
+  58,
+  64,
+  68,
+  72,
+  78,
+  81,
+  86,
+  91,
+  99
+ ],
+ "cer": [
+  1,
+  99
+ ],
+ "fix": [
+  [
+   5,
+   "repeat with",
+   "replete with",
+   "asr_term"
+  ],
+  [
+   22,
+   "Azulwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   22,
+   "Certic",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   30,
+   "co-group",
+   "core group",
+   "asr_term"
+  ],
+  [
+   32,
+   "approvalization",
+   "operationalization",
+   "asr_term"
+  ],
+  [
+   51,
+   "UNCROSS",
+   "UNCLOS",
+   "asr_name"
+  ],
+  [
+   53,
+   "BB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   74,
+   "the Shagos Archipelago",
+   "the Chagos Archipelago",
+   "asr_name"
+  ],
+  [
+   74,
+   "Mauritius of Shagos origin",
+   "Mauritians of Chagos origin",
+   "asr_name"
+  ],
+  [
+   77,
+   "full-term",
+   "four-term",
+   "asr_term"
+  ],
+  [
+   78,
+   "Tromlen",
+   "Tromelin",
+   "asr_name"
+  ],
+  [
+   80,
+   "Tromlin",
+   "Tromelin",
+   "asr_name"
+  ],
+  [
+   58,
+   "Africa. with",
+   "Africa with",
+   "asr_term"
+  ],
+  [
+   23,
+   "reform",
+   "reformed",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Ezulwini Consensus and Sirte Declaration (Common African Position), Chagos, Tromelin, BBNJ and UNCLOS per the Spanish channel ('Sirte', 'Chagos', 'Tromelín', 'BBNJ', 'Derecho del Mar'); 'core group' per 'Grupo Central'; 'four-term' per 'cuatro mandatos'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 58 'Africa. with' -> 'Africa with'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 23 'reform' -> 'reformed' (final -ed merges with 'council' (decodes 'reform' 0.80 / 0.72); 'a reform council' does not fit; ES 'en un Consejo Reformado')",
+ "unitizer_version": 1,
+ "sha1": "c33aab91e2b7defc1b6506663599f56ac92656b0",
+ "layout": "single",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2276,
+  "words_out": 2241,
+  "retention": 0.9846,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   79,
+   217,
+   103,
+   162,
+   193,
+   99,
+   87,
+   107,
+   208,
+   128,
+   90,
+   72,
+   185,
+   65,
+   110,
+   121,
+   211,
+   4
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "CSK_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  11,
+  16,
+  19,
+  23,
+  35,
+  38,
+  48,
+  57,
+  62,
+  68,
+  77,
+  84,
+  88,
+  95,
+  105,
+  110,
+  115,
+  118,
+  122,
+  127,
+  135
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   22,
+   "And. what",
+   "And what",
+   "ocr"
+  ],
+  [
+   30,
+   " (A/44/1, p.3)",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "accomplish store",
+   "accomplish more",
+   "ocr"
+  ],
+  [
+   61,
+   "tapped- The",
+   "tapped. The",
+   "ocr"
+  ],
+  [
+   121,
+   "Me are",
+   "We are",
+   "ocr"
+  ],
+  [
+   134,
+   "National and",
+   "Rational and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6cce9df00d2cbca2a41fba47b6c16d756f6765d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3124,
+  "words_out": 3122,
+  "retention": 0.9994,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   118,
+   61,
+   161,
+   110,
+   77,
+   80,
+   229,
+   63,
+   180,
+   225,
+   99,
+   102,
+   175,
+   113,
+   147,
+   132,
+   207,
+   92,
+   139,
+   96,
+   105,
+   102,
+   167,
+   142
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "DOM_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  12,
+  19,
+  23,
+  28,
+  32,
+  34,
+  40,
+  43,
+  46
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "greenhouse- gas",
+   "greenhouse-gas",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ce0b79c34482a66842f69e38fc8be865e1dcf71",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1551,
+  "words_out": 1550,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   109,
+   82,
+   140,
+   96,
+   155,
+   161,
+   127,
+   126,
+   101,
+   115,
+   104,
+   123,
+   111
+  ],
+  "warnings": []
+ }
+}

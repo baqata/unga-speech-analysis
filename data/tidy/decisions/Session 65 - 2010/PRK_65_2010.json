@@ -1,0 +1,62 @@
+{
+ "id": "PRK_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  20,
+  41,
+  64,
+  90,
+  108,
+  129,
+  147,
+  166,
+  184,
+  193,
+  208
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   195,
+   " (see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52f7d54b54a5dedd4e3b63d9dc802cf072f7ef7f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1747,
+  "words_out": 1741,
+  "retention": 0.9966,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   55,
+   96,
+   167,
+   177,
+   210,
+   148,
+   165,
+   146,
+   148,
+   136,
+   72,
+   107,
+   114
+  ],
+  "warnings": []
+ }
+}

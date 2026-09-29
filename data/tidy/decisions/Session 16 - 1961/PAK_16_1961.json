@@ -1,0 +1,200 @@
+{
+ "id": "PAK_16_1961",
+ "drop": [
+  [
+   38,
+   38,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  20,
+  27,
+  33,
+  39,
+  47,
+  54,
+  59,
+  67,
+  73,
+  75,
+  80,
+  85,
+  89,
+  91,
+  97,
+  100
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "Government, On",
+   "Government. On",
+   "ocr"
+  ],
+  [
+   21,
+   "stags",
+   "stage",
+   "ocr"
+  ],
+  [
+   31,
+   "easing-",
+   "easing",
+   "ocr"
+  ],
+  [
+   48,
+   "iii turn",
+   "in turn",
+   "ocr"
+  ],
+  [
+   53,
+   "see • that",
+   "see that",
+   "ocr"
+  ],
+  [
+   56,
+   "chough",
+   "though",
+   "ocr"
+  ],
+  [
+   57,
+   "only,",
+   "only",
+   "ocr"
+  ],
+  [
+   74,
+   "that;",
+   "that",
+   "ocr"
+  ],
+  [
+   74,
+   "Security",
+   "security",
+   "ocr"
+  ],
+  [
+   76,
+   " [ 1016th meeting]",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "moment,,",
+   "moment.",
+   "ocr"
+  ],
+  [
+   82,
+   "ahead.'",
+   "ahead.",
+   "ocr"
+  ],
+  [
+   84,
+   "-''stress",
+   "stress",
+   "ocr"
+  ],
+  [
+   86,
+   "hot one",
+   "not one",
+   "ocr"
+  ],
+  [
+   88,
+   "fee realized",
+   "be realized",
+   "ocr"
+  ],
+  [
+   89,
+   "many, The",
+   "many. The",
+   "ocr"
+  ],
+  [
+   89,
+   "in, Either",
+   "in. Either",
+   "ocr"
+  ],
+  [
+   89,
+   "or be stirring",
+   "or by stirring",
+   "ocr"
+  ],
+  [
+   94,
+   "al*",
+   "all",
+   "ocr"
+  ],
+  [
+   97,
+   " [A/ 4800/Add.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 38 is a source reference printed after a quotation and is dropped.",
+ "unitizer_version": 1,
+ "sha1": "eb3177c26bcdf9d0fe1a2d6ce7f1d53e376c83cd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 19
+  },
+  "words_in": 3022,
+  "words_out": 3010,
+  "retention": 0.996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   145,
+   160,
+   157,
+   181,
+   179,
+   116,
+   140,
+   256,
+   206,
+   110,
+   145,
+   131,
+   103,
+   188,
+   147,
+   132,
+   162,
+   187,
+   95,
+   70
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "YEM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  26,
+  36,
+  45,
+  57,
+  66,
+  77,
+  86,
+  103,
+  120,
+  134,
+  143,
+  163,
+  184,
+  197,
+  213,
+  225,
+  241,
+  253,
+  268,
+  277,
+  289
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   210,
+   "f louting",
+   "flouting",
+   "split_word"
+  ],
+  [
+   276,
+   "f low",
+   "flow",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "22cbf70f0630db8f3eb750d5e7409266d8802c46",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 297,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2448,
+  "words_out": 2443,
+  "retention": 0.998,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   95,
+   133,
+   73,
+   70,
+   96,
+   70,
+   90,
+   69,
+   130,
+   140,
+   117,
+   89,
+   159,
+   162,
+   125,
+   128,
+   98,
+   148,
+   95,
+   126,
+   70,
+   99,
+   61
+  ],
+  "warnings": []
+ }
+}

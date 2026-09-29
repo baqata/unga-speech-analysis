@@ -1,0 +1,62 @@
+{
+ "id": "ETH_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  30,
+  49,
+  61,
+  86,
+  103,
+  125,
+  144,
+  171,
+  185,
+  200,
+  219,
+  235,
+  248,
+  259
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3437cfdfe42feded89506a52c8fa748b19e41d72",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 2160,
+  "words_out": 2157,
+  "retention": 0.9986,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   106,
+   134,
+   152,
+   105,
+   188,
+   153,
+   183,
+   149,
+   215,
+   121,
+   126,
+   152,
+   131,
+   115,
+   83,
+   44
+  ],
+  "warnings": []
+ }
+}

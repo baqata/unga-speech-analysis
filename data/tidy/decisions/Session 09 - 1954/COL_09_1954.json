@@ -1,0 +1,79 @@
+{
+ "id": "COL_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  10,
+  18,
+  19,
+  23,
+  25,
+  29,
+  32,
+  37,
+  41,
+  44,
+  47,
+  51,
+  53,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "to- consider",
+   "to consider",
+   "spacing"
+  ],
+  [
+   31,
+   "each.",
+   "each",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "144314002f10000d35ca00be63f203390a554dc2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 19
+  },
+  "words_in": 2073,
+  "words_out": 2073,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   77,
+   81,
+   76,
+   120,
+   195,
+   97,
+   92,
+   88,
+   119,
+   97,
+   140,
+   219,
+   95,
+   159,
+   185,
+   66,
+   82,
+   85
+  ],
+  "warnings": []
+ }
+}

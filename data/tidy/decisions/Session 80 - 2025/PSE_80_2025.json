@@ -1,0 +1,78 @@
+{
+ "id": "PSE_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   77,
+   77,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  5,
+  9,
+  14,
+  19,
+  28,
+  33,
+  39,
+  47,
+  54,
+  57,
+  63,
+  68,
+  76
+ ],
+ "cer": [
+  1,
+  76
+ ],
+ "fix": [
+  [
+   1,
+   "Annalena Berbac",
+   "Annalena Baerbock",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae94558c317392629a0e570e2e726613201235ba",
+ "layout": "single",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2094,
+  "words_out": 2043,
+  "retention": 0.9756,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   45,
+   162,
+   155,
+   92,
+   139,
+   185,
+   106,
+   162,
+   193,
+   160,
+   149,
+   150,
+   173,
+   160,
+   12
+  ],
+  "warnings": []
+ }
+}

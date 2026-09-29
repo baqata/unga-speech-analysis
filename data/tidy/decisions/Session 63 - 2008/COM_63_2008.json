@@ -1,0 +1,62 @@
+{
+ "id": "COM_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  29,
+  37,
+  53,
+  66,
+  88,
+  105,
+  117,
+  138,
+  151,
+  179,
+  191,
+  203,
+  219,
+  232
+ ],
+ "cer": [
+  0,
+  232
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90d0a62455f411693deb6bf016e84445617ae90d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1825,
+  "words_out": 1824,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   60,
+   161,
+   62,
+   117,
+   98,
+   161,
+   143,
+   100,
+   164,
+   104,
+   216,
+   88,
+   87,
+   119,
+   105,
+   39
+  ],
+  "warnings": []
+ }
+}

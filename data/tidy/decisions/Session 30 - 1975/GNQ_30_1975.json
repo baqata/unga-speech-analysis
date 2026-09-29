@@ -1,0 +1,208 @@
+{
+ "id": "GNQ_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  15,
+  18,
+  20,
+  22,
+  25,
+  28,
+  29,
+  31,
+  33,
+  36,
+  38,
+  42,
+  45,
+  46,
+  49,
+  52,
+  57,
+  58,
+  60,
+  65,
+  67,
+  69,
+  73,
+  76,
+  80,
+  82,
+  83,
+  89,
+  92,
+  95,
+  99,
+  103,
+  106,
+  111,
+  114,
+  117,
+  119,
+  121
+ ],
+ "cer": [
+  0,
+  2,
+  119
+ ],
+ "fix": [
+  [
+   2,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   23,
+   "hypo-critically",
+   "hypocritically",
+   "hyphen"
+  ],
+  [
+   28,
+   "freedom- loving",
+   "freedom-loving",
+   "hyphen"
+  ],
+  [
+   32,
+   "paramount, We",
+   "paramount. We",
+   "ocr"
+  ],
+  [
+   37,
+   "community,",
+   "community.",
+   "ocr"
+  ],
+  [
+   43,
+   "Potions",
+   "nations",
+   "ocr"
+  ],
+  [
+   44,
+   "Presence",
+   "presence",
+   "ocr"
+  ],
+  [
+   44,
+   "Zeal",
+   "zeal",
+   "ocr"
+  ],
+  [
+   45,
+   "nUclear",
+   "nuclear",
+   "ocr"
+  ],
+  [
+   51,
+   "neo-colonial- ists",
+   "neo-colonialists",
+   "hyphen"
+  ],
+  [
+   52,
+   "302- ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "Qf",
+   "of",
+   "ocr"
+  ],
+  [
+   53,
+   "weJ\"e",
+   "were",
+   "ocr"
+  ],
+  [
+   55,
+   "0f",
+   "of",
+   "ocr"
+  ],
+  [
+   65,
+   "Nations, Those",
+   "Nations. Those",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing between units 54 and 55 (a line lost at a column break); unit 55 also keeps an unreadable OCR fragment.",
+ "unitizer_version": 1,
+ "sha1": "179ff5371600162ce5886e27ef82e2efaabcdf7c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 4794,
+  "words_out": 4790,
+  "retention": 0.9992,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   116,
+   136,
+   161,
+   157,
+   97,
+   105,
+   97,
+   205,
+   119,
+   136,
+   101,
+   202,
+   108,
+   125,
+   113,
+   102,
+   80,
+   121,
+   105,
+   124,
+   61,
+   90,
+   92,
+   120,
+   78,
+   150,
+   154,
+   154,
+   67,
+   80,
+   135,
+   131,
+   102,
+   100,
+   146,
+   83,
+   182,
+   87,
+   92,
+   66,
+   80,
+   30
+  ],
+  "warnings": []
+ }
+}

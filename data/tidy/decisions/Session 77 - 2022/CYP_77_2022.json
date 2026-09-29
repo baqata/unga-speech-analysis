@@ -1,0 +1,92 @@
+{
+ "id": "CYP_77_2022",
+ "drop": [
+  [
+   64,
+   65,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  13,
+  14,
+  16,
+  23,
+  28,
+  31,
+  35,
+  42,
+  46,
+  56,
+  59,
+  60,
+  63,
+  66,
+  68
+ ],
+ "cer": [],
+ "fix": [
+  [
+   30,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ],
+  [
+   35,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   55,
+   "(ibid., para. 27)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f9ba254b74308bc06764b2573cdb7e03bd716fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2491,
+  "words_out": 2470,
+  "retention": 0.9916,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   100,
+   142,
+   136,
+   123,
+   92,
+   101,
+   208,
+   186,
+   95,
+   222,
+   221,
+   130,
+   180,
+   80,
+   77,
+   121,
+   61,
+   89,
+   106
+  ],
+  "warnings": []
+ }
+}

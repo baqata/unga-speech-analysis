@@ -1,0 +1,83 @@
+{
+ "id": "HTI_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  31,
+  52,
+  71,
+  84,
+  103,
+  121,
+  131,
+  144,
+  164,
+  182,
+  196,
+  215,
+  232,
+  256,
+  271
+ ],
+ "cer": [
+  0,
+  271
+ ],
+ "fix": [
+  [
+   2,
+   "thirty- seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   46,
+   "Commission'",
+   "Commission",
+   "ocr"
+  ],
+  [
+   95,
+   "programmer",
+   "programme",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b181aa48679180b59bb2f4266791649b90a6e9c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 275,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 1
+  },
+  "words_in": 2782,
+  "words_out": 2780,
+  "retention": 0.9993,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   156,
+   157,
+   210,
+   207,
+   134,
+   200,
+   188,
+   93,
+   130,
+   190,
+   196,
+   144,
+   179,
+   154,
+   238,
+   157,
+   47
+  ],
+  "warnings": []
+ }
+}

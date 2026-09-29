@@ -1,0 +1,132 @@
+{
+ "id": "CAN_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  11,
+  19,
+  22,
+  27,
+  30,
+  35,
+  41,
+  48,
+  54,
+  57,
+  62,
+  66,
+  71,
+  73,
+  78,
+  82,
+  86,
+  88,
+  94,
+  97,
+  103,
+  108,
+  113
+ ],
+ "cer": [
+  0,
+  2,
+  6,
+  8,
+  108,
+  113
+ ],
+ "fix": [
+  [
+   18,
+   "i\"",
+   "in",
+   "ocr"
+  ],
+  [
+   33,
+   "balance-of- payment",
+   "balance-of-payment",
+   "spacing"
+  ],
+  [
+   43,
+   "CGntrol",
+   "control",
+   "ocr"
+  ],
+  [
+   58,
+   "number c. countries",
+   "number of countries",
+   "ocr"
+  ],
+  [
+   106,
+   "[Al960llAdd.I, p. 7.]",
+   "",
+   "label"
+  ],
+  [
+   111,
+   "objectives\\",
+   "objectives",
+   "ocr"
+  ],
+  [
+   112,
+   "[Ibid., p. 9]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b960dfbe298e7541b4e9ab45ae28eb12b211497",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 2696,
+  "words_out": 2686,
+  "retention": 0.9963,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   59,
+   118,
+   81,
+   60,
+   219,
+   98,
+   81,
+   70,
+   150,
+   93,
+   140,
+   118,
+   89,
+   85,
+   75,
+   122,
+   73,
+   132,
+   95,
+   82,
+   82,
+   134,
+   63,
+   162,
+   78,
+   106,
+   21
+  ],
+  "warnings": []
+ }
+}

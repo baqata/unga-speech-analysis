@@ -1,0 +1,73 @@
+{
+ "id": "SVK_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  9,
+  15,
+  22,
+  34,
+  38,
+  46,
+  55,
+  63,
+  70,
+  82,
+  87,
+  93,
+  99
+ ],
+ "cer": [
+  2,
+  99
+ ],
+ "fix": [
+  [
+   84,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eb7076938f33f3bd5a15a2f01b605525bf3e85f4",
+ "layout": "single",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1577,
+  "words_out": 1547,
+  "retention": 0.981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   24,
+   92,
+   74,
+   122,
+   135,
+   114,
+   99,
+   197,
+   154,
+   117,
+   175,
+   72,
+   95,
+   73,
+   4
+  ],
+  "warnings": []
+ }
+}

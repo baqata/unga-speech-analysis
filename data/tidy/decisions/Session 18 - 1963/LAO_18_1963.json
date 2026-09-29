@@ -1,0 +1,76 @@
+{
+ "id": "LAO_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  14,
+  18,
+  21,
+  27,
+  31,
+  36,
+  43,
+  50,
+  52,
+  57,
+  63,
+  71,
+  78,
+  81,
+  89,
+  95,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "Illustrated",
+   "illustrated",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b9b85ec64623f8261beb0ad4b49f1348714bb1b5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 2022,
+  "words_out": 1996,
+  "retention": 0.9871,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   134,
+   92,
+   73,
+   89,
+   75,
+   105,
+   73,
+   109,
+   131,
+   134,
+   63,
+   119,
+   81,
+   123,
+   122,
+   60,
+   120,
+   119,
+   121,
+   53
+  ],
+  "warnings": []
+ }
+}

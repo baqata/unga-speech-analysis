@@ -1,0 +1,88 @@
+{
+ "id": "HUN_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  21,
+  25,
+  31,
+  37,
+  41,
+  48,
+  52,
+  57,
+  64,
+  67,
+  76,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "United.",
+   "United",
+   "ocr"
+  ],
+  [
+   37,
+   "[A/ RES/410]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "disarmament,",
+   "disarmament.",
+   "ocr"
+  ],
+  [
+   55,
+   "with ah our",
+   "with all our",
+   "ocr"
+  ],
+  [
+   66,
+   "them, The",
+   "them. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac907c999f2f0852bc9b36ea2e2bb4f95cdbc8de",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2139,
+  "words_out": 2136,
+  "retention": 0.9986,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   91,
+   205,
+   191,
+   89,
+   203,
+   147,
+   138,
+   192,
+   102,
+   106,
+   165,
+   146,
+   182,
+   100,
+   79
+  ],
+  "warnings": []
+ }
+}

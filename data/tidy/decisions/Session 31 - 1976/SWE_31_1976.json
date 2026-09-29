@@ -1,0 +1,132 @@
+{
+ "id": "SWE_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  17,
+  23,
+  29,
+  33,
+  38,
+  40,
+  45,
+  47,
+  52,
+  56,
+  61,
+  66,
+  72,
+  79,
+  90,
+  97,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "election and expression",
+   "election an expression",
+   "ocr"
+  ],
+  [
+   1,
+   "held in. the",
+   "held in the",
+   "ocr"
+  ],
+  [
+   20,
+   "[resolution 2373(XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "survival , of",
+   "survival of",
+   "ocr"
+  ],
+  [
+   34,
+   "developing, countries",
+   "developing countries",
+   "ocr"
+  ],
+  [
+   36,
+   "this .important",
+   "this important",
+   "ocr"
+  ],
+  [
+   38,
+   " [UNCIAD]",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "is th? development",
+   "is the development",
+   "ocr"
+  ],
+  [
+   56,
+   "Die oppression",
+   "The oppression",
+   "ocr"
+  ],
+  [
+   83,
+   "Security Coronal",
+   "Security Council",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b3cd6f07e87881223559df82678c82c92027ca4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2413,
+  "words_out": 2409,
+  "retention": 0.9983,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   107,
+   92,
+   122,
+   63,
+   174,
+   104,
+   91,
+   121,
+   120,
+   140,
+   51,
+   112,
+   120,
+   103,
+   109,
+   124,
+   136,
+   190,
+   150,
+   62,
+   118
+  ],
+  "warnings": []
+ }
+}

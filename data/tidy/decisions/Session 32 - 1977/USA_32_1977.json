@@ -1,0 +1,269 @@
+{
+ "id": "USA_32_1977",
+ "drop": [
+  [
+   55,
+   55,
+   "header_footer"
+  ],
+  [
+   59,
+   59,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  8,
+  10,
+  12,
+  17,
+  24,
+  29,
+  32,
+  34,
+  36,
+  42,
+  50,
+  56,
+  60,
+  67,
+  70,
+  77,
+  83,
+  86,
+  88,
+  92,
+  95,
+  100,
+  107,
+  112,
+  118,
+  122,
+  126,
+  129,
+  132,
+  138
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "weapons, The",
+   "weapons. The",
+   "ocr"
+  ],
+  [
+   17,
+   "man .",
+   "man.",
+   "spacing"
+  ],
+  [
+   18,
+   "unthought .",
+   "unthought.",
+   "spacing"
+  ],
+  [
+   19,
+   "all-we",
+   "all—we",
+   "ocr"
+  ],
+  [
+   26,
+   "defeat .",
+   "defeat.",
+   "spacing"
+  ],
+  [
+   30,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "create r foundation",
+   "create a foundation",
+   "ocr"
+  ],
+  [
+   35,
+   "per cent, Then",
+   "per cent. Then",
+   "ocr"
+  ],
+  [
+   38,
+   "nation J security",
+   "national security",
+   "ocr"
+  ],
+  [
+   41,
+   "military-and",
+   "military—and",
+   "ocr"
+  ],
+  [
+   53,
+   "technologies-the",
+   "technologies—the",
+   "ocr"
+  ],
+  [
+   60,
+   "SO supplier",
+   "50 supplier",
+   "ocr"
+  ],
+  [
+   69,
+   "membership.,",
+   "membership.",
+   "ocr"
+  ],
+  [
+   70,
+   "control'",
+   "control",
+   "ocr"
+  ],
+  [
+   72,
+   "future-even the near future-but",
+   "future—even the near future—but",
+   "ocr"
+  ],
+  [
+   73,
+   "are. now",
+   "are now",
+   "ocr"
+  ],
+  [
+   78,
+   ".For",
+   "For",
+   "ocr"
+  ],
+  [
+   90,
+   "race-a",
+   "race—a",
+   "ocr"
+  ],
+  [
+   96,
+   ".other",
+   "other",
+   "ocr"
+  ],
+  [
+   103,
+   "peace-peace",
+   "peace—peace",
+   "ocr"
+  ],
+  [
+   108,
+   "area-Israel",
+   "area—Israel",
+   "ocr"
+  ],
+  [
+   109,
+   "divisions o: generations",
+   "divisions of generations",
+   "ocr"
+  ],
+  [
+   109,
+   "centuries- hatreds",
+   "centuries—hatreds",
+   "ocr"
+  ],
+  [
+   116,
+   "course; for",
+   "course, for",
+   "ocr"
+  ],
+  [
+   125,
+   "further-reduced",
+   "further reduced",
+   "ocr"
+  ],
+  [
+   133,
+   "1 hereby",
+   "I hereby",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Real-word misreadings left as printed: unit 4 'tenure peace', unit 54 'arc seeking', unit 58 'safeguard ire', unit 89 'art atmosphere'.",
+ "unitizer_version": 1,
+ "sha1": "79f4ee4d9b60b9141a92c2781e3238cc5e5661be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 50,
+   "page_number": 1
+  },
+  "words_in": 3320,
+  "words_out": 3312,
+  "retention": 0.9976,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   73,
+   38,
+   81,
+   60,
+   63,
+   131,
+   151,
+   82,
+   76,
+   60,
+   63,
+   146,
+   144,
+   171,
+   50,
+   145,
+   60,
+   133,
+   108,
+   62,
+   59,
+   101,
+   66,
+   152,
+   89,
+   137,
+   152,
+   101,
+   104,
+   55,
+   65,
+   216,
+   118
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

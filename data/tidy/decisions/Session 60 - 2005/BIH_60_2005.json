@@ -1,0 +1,73 @@
+{
+ "id": "BIH_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  29,
+  49,
+  65,
+  75,
+  98,
+  108,
+  120,
+  144,
+  170,
+  189,
+  203,
+  215,
+  234,
+  245,
+  261,
+  266
+ ],
+ "cer": [
+  0,
+  261
+ ],
+ "fix": [
+  [
+   169,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3b518bae8fbe4801eea3229cd9f3d3aaa7679dbf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 276,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2135,
+  "words_out": 2134,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   153,
+   157,
+   115,
+   68,
+   173,
+   75,
+   105,
+   193,
+   212,
+   154,
+   107,
+   89,
+   142,
+   77,
+   128,
+   38,
+   76
+  ],
+  "warnings": []
+ }
+}

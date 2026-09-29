@@ -1,0 +1,106 @@
+{
+ "id": "MUS_62_2007",
+ "drop": [
+  [
+   56,
+   56,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  18,
+  33,
+  57,
+  73,
+  87,
+  103,
+  122,
+  132,
+  155,
+  165,
+  180,
+  193,
+  207,
+  224,
+  248,
+  265,
+  277,
+  291,
+  303,
+  320,
+  335,
+  349,
+  372,
+  384
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   220,
+   "(Millennium",
+   "",
+   "label"
+  ],
+  [
+   221,
+   "Development Goals Report 2007, p. 4)",
+   "",
+   "label"
+  ],
+  [
+   361,
+   "(para. 6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4edf6972c35ceb50557668d1bdc71f1b11c5ee09",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 388,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 3000,
+  "words_out": 2979,
+  "retention": 0.993,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   148,
+   137,
+   181,
+   115,
+   109,
+   110,
+   143,
+   84,
+   213,
+   82,
+   123,
+   90,
+   103,
+   119,
+   166,
+   124,
+   80,
+   105,
+   96,
+   130,
+   112,
+   113,
+   174,
+   87,
+   35
+  ],
+  "warnings": [
+   "procedural drop [56,56] in the middle of the speech"
+  ]
+ }
+}

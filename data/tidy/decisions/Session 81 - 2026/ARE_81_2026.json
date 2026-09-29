@@ -1,0 +1,117 @@
+{
+ "id": "ARE_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   50,
+   50,
+   "presider"
+  ],
+  [
+   51,
+   51,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  9,
+  14,
+  18,
+  24,
+  27,
+  30,
+  33,
+  38,
+  44,
+  47
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "Greater Tomb, Lesser Tomb",
+   "Greater Tunb, Lesser Tunb",
+   "asr_name"
+  ],
+  [
+   8,
+   "safe law",
+   "safe flow",
+   "asr_term"
+  ],
+  [
+   17,
+   "rapid support forces",
+   "Rapid Support Forces",
+   "asr_name"
+  ],
+  [
+   26,
+   "fallen policy",
+   "foreign policy",
+   "asr_term"
+  ],
+  [
+   39,
+   "UAE consensus",
+   "UAE Consensus",
+   "asr_name"
+  ],
+  [
+   43,
+   "Mohammed Ben Zayed",
+   "Mohamed bin Zayed",
+   "asr_name"
+  ],
+  [
+   19,
+   "roadmap. including",
+   "roadmap including",
+   "asr_term"
+  ],
+  [
+   29,
+   "This",
+   "Crises",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Greater and Lesser Tunb per Spanish (Greater Tum) and official name; flujo, politica exterior per Spanish; Mohamed bin Zayed Water Initiative per Spanish and official name. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 19 'roadmap. including' -> 'roadmap including'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 29 'This' -> 'Crises' (decodes 'Crisis' 0.54 / 0.73 and a probe at 438/439.5/441 s hears 'Crises' 0.93 / 'Crisis' 0.60 / 0.67 at 443.0 s; ES 'Las crisis deben atajarse de raíz'; 'This ... at their roots' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "e00497cd5377c7bf7fac9c912ce18337e92befff",
+ "layout": "single",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1534,
+  "words_out": 1489,
+  "retention": 0.9707,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   146,
+   121,
+   160,
+   122,
+   211,
+   73,
+   90,
+   72,
+   166,
+   170,
+   93,
+   65
+  ],
+  "warnings": []
+ }
+}

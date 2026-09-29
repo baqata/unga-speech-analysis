@@ -1,0 +1,82 @@
+{
+ "id": "EST_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  18,
+  27,
+  34,
+  37,
+  46,
+  50,
+  58,
+  62,
+  68,
+  74,
+  79,
+  85,
+  90,
+  97,
+  101
+ ],
+ "cer": [
+  101
+ ],
+ "fix": [
+  [
+   54,
+   "UN-AT reform",
+   "UN80 reform",
+   "asr_name"
+  ],
+  [
+   88,
+   "CovStack",
+   "GovStack",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "be36f74271b7df2e7d427f07f9fb4e55ecdcfd70",
+ "layout": "single",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1988,
+  "words_out": 1956,
+  "retention": 0.9839,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   87,
+   175,
+   189,
+   207,
+   95,
+   146,
+   107,
+   181,
+   102,
+   85,
+   102,
+   109,
+   134,
+   90,
+   115,
+   27,
+   5
+  ],
+  "warnings": []
+ }
+}

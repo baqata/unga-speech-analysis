@@ -1,0 +1,61 @@
+{
+ "id": "TCD_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  32,
+  54,
+  67,
+  88,
+  108,
+  119,
+  131,
+  148,
+  167,
+  180
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [
+  [
+   140,
+   ";0",
+   ";",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4bbea71d94ac15acfa3442eb16714f91e6362791",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1613,
+  "words_out": 1609,
+  "retention": 0.9975,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   128,
+   117,
+   184,
+   102,
+   180,
+   157,
+   85,
+   93,
+   150,
+   161,
+   112,
+   140
+  ],
+  "warnings": []
+ }
+}

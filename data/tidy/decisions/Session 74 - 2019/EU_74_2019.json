@@ -1,0 +1,44 @@
+{
+ "id": "EU_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  16,
+  26,
+  35
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   "f€20",
+   "€20",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b18675a84fc07001c1b93e3de301d7a74e2997e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 752,
+  "words_out": 752,
+  "retention": 1.0,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   116,
+   163,
+   96,
+   175,
+   119,
+   83
+  ],
+  "warnings": []
+ }
+}

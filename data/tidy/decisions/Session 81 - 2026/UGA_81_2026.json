@@ -1,0 +1,206 @@
+{
+ "id": "UGA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   52,
+   52,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  10,
+  14,
+  21,
+  26,
+  29,
+  32,
+  35,
+  41,
+  44,
+  48,
+  51
+ ],
+ "cer": [
+  4,
+  51
+ ],
+ "fix": [
+  [
+   4,
+   "Yoeri Kagutam Seveni",
+   "Yoweri Kaguta Museveni",
+   "asr_name"
+  ],
+  [
+   6,
+   "ETIF",
+   "81st",
+   "asr_term"
+  ],
+  [
+   8,
+   "Kaldur",
+   "Khalilur",
+   "asr_name"
+  ],
+  [
+   9,
+   "Bambo",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   10,
+   "eight years",
+   "eighty years",
+   "asr_term"
+  ],
+  [
+   19,
+   "Eswilini consensus",
+   "Ezulwini Consensus",
+   "asr_name"
+  ],
+  [
+   19,
+   "Satay",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   19,
+   "UN aid",
+   "UN80",
+   "asr_term"
+  ],
+  [
+   23,
+   "physical",
+   "fiscal",
+   "asr_term"
+  ],
+  [
+   24,
+   ". services",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "civil commitment",
+   "Sevilla Commitment",
+   "asr_name"
+  ],
+  [
+   27,
+   "flaws",
+   "flows",
+   "asr_term"
+  ],
+  [
+   38,
+   ", involvement",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "Bundibujo",
+   "Bundibugyo",
+   "asr_name"
+  ],
+  [
+   43,
+   "NAMM",
+   "NAM",
+   "asr_name"
+  ],
+  [
+   44,
+   "Otunu",
+   "Otunnu",
+   "asr_name"
+  ],
+  [
+   45,
+   "Otunu",
+   "Otunnu",
+   "asr_name"
+  ],
+  [
+   47,
+   "statemanship",
+   "statesmanship",
+   "asr_term"
+  ],
+  [
+   7,
+   "Jessica Alupo Rose Appel",
+   "Jessica Alupo Rose Epel",
+   "asr_name"
+  ],
+  [
+   19,
+   "Declaration. the",
+   "Declaration. Regarding the",
+   "asr_term"
+  ],
+  [
+   45,
+   "Olara",
+   "Ambassador Olara",
+   "asr_term"
+  ],
+  [
+   29,
+   "commended",
+   "commenced",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Names per speakers list (Jessica Rose Epel Alupo), main-agent audio (Museveni, 81st, Khalilur Rahman) and Spanish (hace 80 anos, Zulwini, Sirte, ONU-80, presupuestario, Compromiso de Sevilla, empezado, Bundibuyu); Olara Otunnu per UN records. Main-agent audit: unit 46 '1998-2005' kept as heard ('1998' p 0.54-0.56, Spanish '1978'; Otunnu served as Special Representative 1997-2005). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 19 'Declaration. the' -> 'Declaration. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 7 'Jessica Alupo Rose Appel' -> 'Jessica Alupo Rose Epel' (both decodes hear 'Jessica Alupo Rose Appel' in that order (Alupo 0.93 / 0.90), as the UN does; the existing repair reordered the spoken name; keep the spoken order with the official spelling 'Epel' (Jessica Rose Epel Alupo); ES 'Jessica Lupo'); spot 8 unit 19 'Declaration. the' -> 'Declaration. Regarding the' (2026 exception: both decodes hear 'Regarding' (1.00 / 1.00); ES 'En relación con la iniciativa'; old is the existing repair's old); spot 13 unit 29 'commended' -> 'commenced' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'commended' (decodes 0.84 / 0.92, the UN transcript; forced scoring -3.0 vs 'commenced' -12.6); 'Uganda has commended the implementation of its fourth National Development Plan' does not fit, and the Spanish 'Uganda ya ha empezado la aplicación' shows 'commenced'); spot 15 unit 45 'Olara' -> 'Ambassador Olara' (2026 exception: both decodes hear 'Ambassador' before 'Olara Otunu' (0.98 / 0.98); ES 'La embajadora Otunu')",
+ "unitizer_version": 1,
+ "sha1": "903b73929fac1ac542761fcb63f13f28ba632c1e",
+ "layout": "single",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 1283,
+  "words_out": 1218,
+  "retention": 0.9493,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   175,
+   123,
+   183,
+   113,
+   69,
+   81,
+   79,
+   143,
+   78,
+   102,
+   65,
+   7
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

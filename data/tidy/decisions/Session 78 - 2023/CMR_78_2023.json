@@ -1,0 +1,127 @@
+{
+ "id": "CMR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  16,
+  20,
+  25,
+  28,
+  31,
+  35,
+  38,
+  42,
+  47,
+  49
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   0,
+   "Cameroon. His Excellency Mr. Paul Biya. did",
+   "Cameroon, His Excellency Mr. Paul Biya, did",
+   "ocr"
+  ],
+  [
+   4,
+   "predecessor. Ambassador Csaba Korosi. who",
+   "predecessor, Ambassador Csaba Korosi, who",
+   "ocr"
+  ],
+  [
+   12,
+   "Asia.",
+   "Asia,",
+   "ocr"
+  ],
+  [
+   17,
+   "2015. accompanied",
+   "2015, accompanied",
+   "ocr"
+  ],
+  [
+   23,
+   "illustration.",
+   "illustration,",
+   "ocr"
+  ],
+  [
+   26,
+   "too. it",
+   "too, it",
+   "ocr"
+  ],
+  [
+   34,
+   "food. debt",
+   "food, debt",
+   "ocr"
+  ],
+  [
+   37,
+   "is. frankly",
+   "is, frankly",
+   "ocr"
+  ],
+  [
+   38,
+   "is. for",
+   "is, for",
+   "ocr"
+  ],
+  [
+   39,
+   "and. in",
+   "and, in",
+   "ocr"
+  ],
+  [
+   40,
+   "2030. a",
+   "2030, a",
+   "ocr"
+  ],
+  [
+   45,
+   "disarmament. demobilization",
+   "disarmament, demobilization",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President and read as a quotation.",
+ "unitizer_version": 1,
+ "sha1": "13707b34310f88dca0b456bf1a919782a9c097c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1462,
+  "words_out": 1461,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   42,
+   212,
+   125,
+   158,
+   74,
+   104,
+   91,
+   93,
+   106,
+   144,
+   150,
+   76,
+   86
+  ],
+  "warnings": []
+ }
+}

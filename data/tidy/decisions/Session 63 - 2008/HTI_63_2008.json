@@ -1,0 +1,55 @@
+{
+ "id": "HTI_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  38,
+  61,
+  86,
+  108,
+  130,
+  155,
+  182,
+  200
+ ],
+ "cer": [],
+ "fix": [
+  [
+   157,
+   " (5th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "afaf8966a98898b4724ebb86170e25962dd1becc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1712,
+  "words_out": 1709,
+  "retention": 0.9982,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   129,
+   169,
+   182,
+   215,
+   186,
+   179,
+   207,
+   226,
+   142,
+   74
+  ],
+  "warnings": []
+ }
+}

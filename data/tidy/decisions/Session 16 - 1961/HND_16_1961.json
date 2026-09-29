@@ -1,0 +1,135 @@
+{
+ "id": "HND_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  8,
+  10,
+  14,
+  17,
+  21,
+  27,
+  32,
+  36,
+  40,
+  44,
+  50,
+  55,
+  58,
+  63,
+  64
+ ],
+ "cer": [
+  0,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   12,
+   "the, tragic",
+   "the tragic",
+   "ocr"
+  ],
+  [
+   17,
+   "re solution",
+   "resolution",
+   "ocr"
+  ],
+  [
+   26,
+   "spirit. '",
+   "spirit.",
+   "ocr"
+  ],
+  [
+   39,
+   "decicated",
+   "dedicated",
+   "ocr"
+  ],
+  [
+   39,
+   "an$",
+   "and",
+   "ocr"
+  ],
+  [
+   45,
+   "world; from",
+   "world from",
+   "ocr"
+  ],
+  [
+   47,
+   "build*",
+   "build",
+   "ocr"
+  ],
+  [
+   51,
+   "nuclear'",
+   "nuclear",
+   "ocr"
+  ],
+  [
+   60,
+   "hi the",
+   "in the",
+   "ocr"
+  ],
+  [
+   63,
+   "cast'",
+   "cast",
+   "ocr"
+  ],
+  [
+   63,
+   "Which it",
+   "which it",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d7ca3debb54b7b9c4c026e12db68dab0b8871bc1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 2452,
+  "words_out": 2449,
+  "retention": 0.9988,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   199,
+   70,
+   36,
+   61,
+   147,
+   136,
+   196,
+   201,
+   168,
+   141,
+   168,
+   120,
+   165,
+   142,
+   97,
+   152,
+   105,
+   145
+  ],
+  "warnings": []
+ }
+}

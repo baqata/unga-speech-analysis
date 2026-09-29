@@ -1,0 +1,63 @@
+{
+ "id": "ISL_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  19,
+  31,
+  47,
+  59,
+  69,
+  79,
+  93,
+  113,
+  127,
+  137,
+  152,
+  160,
+  178,
+  198,
+  207
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c5fda4936460014d67d36c0fffbd5d3eed0de490",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 231,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2077,
+  "words_out": 2067,
+  "retention": 0.9952,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   66,
+   95,
+   111,
+   134,
+   101,
+   95,
+   102,
+   139,
+   169,
+   127,
+   92,
+   135,
+   71,
+   151,
+   180,
+   82,
+   217
+  ],
+  "warnings": []
+ }
+}

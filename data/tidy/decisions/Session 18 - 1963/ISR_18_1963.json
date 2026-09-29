@@ -1,0 +1,111 @@
+{
+ "id": "ISR_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  18,
+  22,
+  27,
+  31,
+  38,
+  44,
+  50,
+  53,
+  57,
+  64,
+  69,
+  73,
+  77,
+  82,
+  86,
+  90,
+  93,
+  98,
+  102,
+  108,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "agreement,,",
+   "agreement,",
+   "ocr"
+  ],
+  [
+   35,
+   "point In",
+   "point in",
+   "ocr"
+  ],
+  [
+   76,
+   "cultural Life",
+   "cultural life",
+   "ocr"
+  ],
+  [
+   81,
+   "by it,",
+   "by it.",
+   "ocr"
+  ],
+  [
+   85,
+   "anyone nation",
+   "any one nation",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fbf802b3220f94194b30b670723d8f30161a6bd9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 38
+  },
+  "words_in": 3372,
+  "words_out": 3373,
+  "retention": 1.0003,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   105,
+   116,
+   153,
+   214,
+   103,
+   128,
+   116,
+   197,
+   121,
+   161,
+   180,
+   124,
+   165,
+   131,
+   121,
+   119,
+   113,
+   121,
+   131,
+   148,
+   93,
+   93,
+   204,
+   85,
+   131
+  ],
+  "warnings": []
+ }
+}

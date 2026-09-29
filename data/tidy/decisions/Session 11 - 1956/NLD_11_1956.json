@@ -1,0 +1,88 @@
+{
+ "id": "NLD_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  11,
+  15,
+  18,
+  23,
+  25,
+  31,
+  34,
+  36,
+  39,
+  41,
+  43,
+  47,
+  53,
+  55,
+  57,
+  61,
+  64,
+  67,
+  72,
+  76,
+  82
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   26,
+   "living: in",
+   "living in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "65aaf0b3a4361b5df7d79834c5f6d6ae72312b48",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 29
+  },
+  "words_in": 2434,
+  "words_out": 2433,
+  "retention": 0.9996,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   68,
+   33,
+   67,
+   143,
+   118,
+   78,
+   143,
+   111,
+   137,
+   95,
+   80,
+   170,
+   76,
+   60,
+   81,
+   159,
+   81,
+   75,
+   83,
+   92,
+   72,
+   117,
+   74,
+   137,
+   83
+  ],
+  "warnings": []
+ }
+}

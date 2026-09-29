@@ -1,0 +1,66 @@
+{
+ "id": "VUT_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  29,
+  40,
+  53,
+  65,
+  76,
+  84,
+  96,
+  112,
+  123,
+  138,
+  152,
+  167,
+  183,
+  196
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   125,
+   "f low",
+   "flow",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39d9c53dafc1dc5497ea391697f4bc282b397866",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1779,
+  "words_out": 1777,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   119,
+   114,
+   94,
+   104,
+   106,
+   93,
+   66,
+   101,
+   127,
+   98,
+   118,
+   108,
+   128,
+   120,
+   107,
+   174
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "PAN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  15,
+  19,
+  21,
+  24,
+  28,
+  32,
+  34
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "2030. and",
+   "2030, and",
+   "ocr"
+  ],
+  [
+   21,
+   "Assembly.",
+   "Assembly,",
+   "ocr"
+  ],
+  [
+   25,
+   "way. they",
+   "way, they",
+   "ocr"
+  ],
+  [
+   25,
+   "and. on",
+   "and, on",
+   "ocr"
+  ],
+  [
+   32,
+   "it. devoid",
+   "it, devoid",
+   "ocr"
+  ],
+  [
+   34,
+   "State. I",
+   "State, I",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "caf29d1230d96b6bae37ea694d5a7a19afb8cee7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 35,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1071,
+  "words_out": 1071,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   75,
+   123,
+   148,
+   125,
+   103,
+   61,
+   72,
+   149,
+   112,
+   73,
+   30
+  ],
+  "warnings": []
+ }
+}

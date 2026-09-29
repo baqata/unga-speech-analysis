@@ -1,0 +1,1018 @@
+# UNODC lens codebook ("mandate component") for Voces de la Asamblea.
+#
+# Ten lenses in display order. Nine follow UNODC mandate areas; `peace` is a
+# reference lens (reference: true) used only as a benchmark for salience.
+#
+# Fields per lens:
+#   id               stable identifier used in all pipeline outputs
+#   name_es/name_en  short UI name
+#   label_es/label_en fuller label (legends, tooltips)
+#   icon             Tabler icon name (approved list in pipeline/lenses.py)
+#   reference        true only for the benchmark lens
+#   parent           optional; a sub-lens implies its parent (see codebook.md)
+#   definition_en    2-3 sentences in UNODC terms
+#   include/exclude  scope bullets for coders
+#   era_terms        historical and modern vocabulary, oldest first (cues, not rules);
+#                    text in parentheses qualifies the cue and is not part of the term
+#   anchors          5-8 English passages (30-70 words) in General Assembly register,
+#                    no country names. Embed them as documents (no prompt), like fragments.
+#
+# query_instruction is prepended only to query-side texts (e.g. definition_en or
+# label_en used as a retrieval query), following Harrier's "Instruct/Query" format.
+# Grounding and quoted UNODC wording: data/lenses/SOURCES.md.
+
+query_instruction: "Instruct: Given a topic description, retrieve passages from UN General Assembly speeches that discuss this topic\nQuery: "
+
+lenses:
+
+  - id: drugs
+    name_es: Drogas y narcotráfico
+    name_en: Drugs & drug trafficking
+    label_es: Problema mundial de las drogas (incluye prevención, tratamiento y desarrollo alternativo)
+    label_en: The world drug problem (includes prevention, treatment and alternative development)
+    icon: pill
+    reference: false
+    definition_en: >-
+      The world drug problem as addressed by the three international drug control
+      conventions: the illicit cultivation, production, manufacture, trafficking and
+      sale of narcotic drugs, psychotropic substances and their precursors, and the
+      policies to counter them. It covers supply reduction and law enforcement,
+      international drug control cooperation under the principle of common and shared
+      responsibility, drug-related violence and drug policy debates. It is the umbrella
+      lens: any fragment labelled prevention_treatment or alternative_development also
+      carries it.
+    include:
+      - Illicit cultivation, production, manufacture, trafficking and sale of narcotic drugs and psychotropic substances (opium, heroin, coca, cocaine, cannabis, methamphetamine, fentanyl, new psychoactive substances).
+      - Drug control treaties and bodies (1961, 1971 and 1988 conventions, Commission on Narcotic Drugs, INCB, UNFDAC, UNDCP, UNODC) and the special sessions on drugs (1990, 1998, 2016).
+      - Supply reduction - interdiction, seizures, eradication, border, port and maritime control, control of precursor chemicals, dismantling of trafficking organizations.
+      - Drug-related violence and the threat that drug trafficking poses to governance, sovereignty and security, when drugs are the subject.
+      - Common and shared responsibility of producer, transit and consumer countries; international cooperation against drugs.
+      - Drug policy debates - the war on drugs, proportionality and human rights in drug policy, decriminalization, legal regulation of cannabis, the status of the coca leaf.
+      - '"Drug abuse", addiction or consumption named only as the problem or scourge; the doublet "drug abuse and illicit trafficking" and the bodies and events named after it (UNFDAC, the 1987 International Conference, the International Day against Drug Abuse and Illicit Trafficking); the "balanced approach" formula pairing supply reduction and demand reduction; calls on consumer countries to reduce demand as burden sharing. None of these adds prevention_treatment by itself.'
+      - Every fragment labelled prevention_treatment or alternative_development (umbrella rule).
+    exclude:
+      - Access to medicines, pharmaceuticals, vaccines, generic drugs, patents and drug prices, unless the fragment is about controlled substances (diversion or trafficking of controlled medicines is drugs; medical access to controlled medicines is prevention_treatment).
+      - Drug in the pharmaceutical sense (antiretroviral drugs, drug-resistant tuberculosis).
+      - Alcohol and tobacco control when illicit drugs are not discussed.
+      - Smuggling of goods other than drugs (organized_crime) and commodity or oil "cartels" (economic, not criminal).
+      - Metaphors such as "the opium of the people" or "addiction to oil".
+    era_terms:
+      - traffic in opium
+      - narcotic drugs
+      - narcotics
+      - illicit traffic
+      - Single Convention on Narcotic Drugs
+      - psychotropic substances
+      - Commission on Narcotic Drugs
+      - drug abuse (as the name of the problem)
+      - drug abuse and illicit trafficking
+      - drug abuse control
+      - UNFDAC
+      - International Conference on Drug Abuse and Illicit Trafficking
+      - International Day against Drug Abuse and Illicit Trafficking
+      - drug trafficking
+      - drug traffickers
+      - drug cartels
+      - narco-trafficking
+      - narcotraffic
+      - narco-terrorism
+      - coca eradication
+      - precursor chemicals
+      - Vienna Convention of 1988
+      - drug control
+      - UNDCP
+      - common and shared responsibility
+      - world drug problem
+      - supply reduction
+      - war on drugs
+      - microtrafficking
+      - drug policy reform
+      - decriminalization
+      - synthetic drugs
+      - methamphetamine
+      - fentanyl
+      - new psychoactive substances
+      - captagon
+    anchors:
+      - >-
+        The illicit production of and traffic in narcotic drugs has become a grave menace
+        to the health and moral fabric of our peoples. My Government has strengthened law
+        enforcement against traffickers and supports the United Nations Fund for Drug Abuse
+        Control. We urge all States to accede to the Single Convention on Narcotic Drugs and
+        the Convention on Psychotropic Substances.
+      - >-
+        Narco-trafficking is a scourge that corrupts institutions, finances violence and
+        threatens the very sovereignty of our democracies. The drug cartels command
+        resources greater than those of many States. No nation can win this struggle alone;
+        consumer countries must share the responsibility with producer and transit countries
+        and reduce the demand that fuels this criminal trade.
+      - >-
+        We welcome the adoption of the United Nations Convention against Illicit Traffic in
+        Narcotic Drugs and Psychotropic Substances and the Global Programme of Action. The
+        international community must now act on every front: eradicating illicit cultivation,
+        controlling precursor chemicals, confiscating the proceeds of drug trafficking and
+        dismantling the networks that move drugs across our borders.
+      - >-
+        The world drug problem demands a comprehensive and balanced approach in which supply
+        reduction and demand reduction reinforce each other. The special session of the
+        General Assembly set targets for eliminating or significantly reducing illicit crops,
+        trafficking and abuse, and the United Nations International Drug Control Programme
+        must have the resources to support national efforts.
+      - >-
+        Our region has become a transit route for cocaine and heroin destined for distant
+        markets, and the drug trade leaves behind addiction, violence and weakened
+        institutions. We have intensified maritime interdiction, container control and
+        intelligence sharing, but the flows will not diminish while demand remains high.
+        Countering the world drug problem is a common and shared responsibility.
+      - >-
+        The special session of 2016 recognized that drug policies must be proportionate and
+        respectful of human rights. Decades of a purely punitive approach to drug control have
+        neither reduced the cultivation, production and trafficking of illicit drugs nor weakened
+        the markets. We call for an honest, evidence-based debate on drug policy, including the
+        regulation of certain substances, within the framework of the conventions.
+      - >-
+        The spread of synthetic drugs such as fentanyl and methamphetamine is claiming tens
+        of thousands of lives each year. These substances are made in clandestine laboratories
+        from precursor chemicals diverted from legitimate commerce and sold through online
+        markets. We must strengthen precursor control, share early warnings on new
+        psychoactive substances and hold the trafficking networks to account.
+
+  - id: prevention_treatment
+    name_es: Prevención y tratamiento
+    name_en: Prevention & treatment
+    label_es: Prevención del consumo de drogas y tratamiento (reducción de la demanda)
+    label_en: Drug use prevention and treatment (demand reduction)
+    icon: heart-handshake
+    reference: false
+    parent: drugs
+    definition_en: >-
+      Drug demand reduction: preventing drug use and other risky behaviours, and providing
+      treatment, health care, social protection and rehabilitation for people who use drugs
+      and people with drug use disorders, within a public health approach. It includes the
+      prevention of drug-related HIV and other health harms, social reintegration, and access
+      to controlled drugs for medical purposes while preventing their diversion and non-medical
+      use.
+    include:
+      - A sentence about a response to drug use (the test for this lens) - prevention, treatment, rehabilitation, social reintegration, harm reduction or a public health approach.
+      - Prevention of drug use (historically "prevention of drug abuse") in schools, families, communities and workplaces; awareness campaigns.
+      - Treatment, rehabilitation, aftercare and social reintegration of people who use drugs ("drug addicts", "drug-dependent persons", "people with drug use disorders").
+      - Demand reduction as a named policy or programme with content (what is done, for whom or how), including the 1998 Declaration on the Guiding Principles of Drug Demand Reduction.
+      - Public health responses to drug use - HIV and hepatitis among people who inject drugs, overdose prevention, harm reduction, opioid substitution therapy, links with mental health.
+      - Alternatives to conviction or punishment for people who use drugs, when framed as health or social responses.
+      - Access to controlled medicines for medical and scientific purposes (pain relief, morphine) together with the prevention of their diversion.
+    exclude:
+      - '"Drug abuse", addiction or consumption named only as the problem or scourge, with no response described (drugs only).'
+      - The doublet "drug abuse and illicit trafficking" and the names built on it - UNFDAC, the 1987 International Conference, the International Day (drugs only).
+      - The "balanced approach" formula ("supply reduction and demand reduction", "reducing supply and reducing demand") and calls by producer or transit countries on consumer countries to reduce demand (drugs only).
+      - Supply-side measures only - seizures, eradication, interdiction (drugs only).
+      - Health, HIV/AIDS or mental health fragments that do not mention drug use.
+      - Alcohol or tobacco alone; label only when grouped with drug abuse as substance abuse (confidence 2).
+      - Youth policy, education or sport in general without drug use.
+      - Access to non-controlled medicines and pharmaceuticals (not a lens).
+    era_terms:
+      - drug addiction
+      - drug addicts
+      - prevention of drug abuse
+      - rehabilitation of drug addicts
+      - preventive education
+      - drug education
+      - reduction of illicit demand (with programme content, not the supply-and-demand formula)
+      - demand reduction (with programme content, not the supply-and-demand formula)
+      - drug dependence
+      - Declaration on the Guiding Principles of Drug Demand Reduction
+      - injecting drug use
+      - people who inject drugs
+      - harm reduction
+      - opioid substitution therapy
+      - drug use disorders
+      - public health approach to drugs
+      - overdose deaths
+      - psychoactive substances
+      - substance use
+      - social reintegration
+      - access to controlled medicines
+    anchors:
+      - >-
+        Drug abuse is destroying the youth of many nations, and no society is immune. My
+        Government has launched a national campaign of prevention in schools and communities,
+        and has established centres for the treatment and rehabilitation of drug addicts so
+        that they may return to a productive life. We support the efforts of the World Health
+        Organization and the United Nations in this field.
+      - >-
+        Reducing the demand for drugs must receive the same attention as suppressing supply.
+        Education, information and preventive action directed at young people, together with the
+        treatment, rehabilitation and social reintegration of drug users, must be at the heart of a
+        balanced strategy. Drug dependence is an illness, and those who suffer from it need care
+        and support rather than rejection.
+      - >-
+        We welcome the Declaration on the Guiding Principles of Drug Demand Reduction. Prevention
+        must begin in the family and the school and must involve communities, the media and
+        civil society. Those who fall into drug dependence deserve care rather than stigma, and
+        treatment services must be accessible to all who need them.
+      - >-
+        The injection of drugs has become a major route of transmission of HIV in many regions.
+        A public health approach demands that we expand access to prevention, counselling,
+        treatment of drug dependence and services that reduce the harm suffered by people who
+        use drugs, while respecting their dignity and human rights.
+      - >-
+        Drug use disorders are a health condition that can be prevented and treated, not a moral
+        failing. Our national policy now places the person at the centre, investing in
+        evidence-based prevention for children and adolescents, community treatment services and
+        alternatives to punishment for people who use drugs, so that addiction is treated in
+        clinics rather than in prisons.
+      - >-
+        Millions of patients suffering from pain have no access to morphine and other essential
+        controlled medicines, while elsewhere these same substances are diverted and misused. We
+        must ensure the availability of controlled drugs for medical and scientific purposes and
+        prevent their diversion, as the international conventions require.
+      - >-
+        The rise in drug use among young people and the growing number of overdose deaths demand
+        a determined response. Prevention programmes grounded in science, early detection, family
+        support and treatment integrated with mental health services save lives. Every dollar
+        invested in prevention and treatment saves many more in health care and in the costs of
+        crime.
+
+  - id: alternative_development
+    name_es: Desarrollo alternativo
+    name_en: Alternative development
+    label_es: Desarrollo alternativo y sustitución de cultivos ilícitos
+    label_en: Alternative development and illicit crop substitution
+    icon: plant-2
+    reference: false
+    parent: drugs
+    definition_en: >-
+      A process to prevent and eliminate the illicit cultivation of plants containing narcotic
+      drugs and psychotropic substances, such as coca bush, opium poppy and cannabis, through
+      specifically designed rural development measures (General Assembly resolution S-20/4,
+      1998). It covers crop substitution, sustainable legal livelihoods, value chains and market
+      access for farmers who grow or are vulnerable to growing illicit crops, and the balance
+      between development and eradication in drug crop areas.
+    include:
+      - Crop substitution, crop replacement or income substitution of coca bush, opium poppy or cannabis with legal crops or livelihoods.
+      - Integrated or integral rural development in illicit crop areas - infrastructure, land titles, cooperatives, credit, technical assistance, value chains.
+      - Market access and trade preferences for alternative development products, and donor funding for alternative development.
+      - The balance and sequencing between forced eradication and development; voluntary substitution agreements with growers.
+      - The 1998 Action Plan on the Eradication of Illicit Drug Crops and on Alternative Development, the 2013 UN Guiding Principles on Alternative Development, development-oriented drug policy.
+      - Coca-leaf growers' livelihoods and traditional uses when discussed together with illicit crop policy.
+    exclude:
+      - Eradication, aerial spraying or interdiction with no development alternative (drugs only).
+      - General rural development, agrarian reform or food security with no link to illicit crops.
+      - '"Alternative development" in the economic-ideology sense (alternative development models or strategies for the South, new international economic order); rare in the corpus but a lexical false positive.'
+    era_terms:
+      - crop substitution
+      - crop replacement
+      - income substitution
+      - substitution of illicit crops
+      - hill tribes
+      - opium poppy
+      - coca bush
+      - coca leaf
+      - coca growers
+      - illicit crops
+      - integrated rural development
+      - integral alternative development
+      - eradication of illicit drug crops
+      - Action Plan on International Cooperation on the Eradication of Illicit Drug Crops and on Alternative Development
+      - preventive alternative development
+      - alternative livelihoods
+      - voluntary substitution
+      - development-oriented drug policy
+      - United Nations Guiding Principles on Alternative Development
+      - alternative development value chains
+      - coffee and cocoa cooperatives
+    anchors:
+      - >-
+        For generations our highland farmers have grown the opium poppy because it was their only
+        source of cash income. With the assistance of the United Nations, we have introduced
+        crop-substitution programmes offering coffee, fruit trees and vegetables, together with
+        roads, schools and health services, so that they may abandon illicit cultivation without
+        falling into poverty.
+      - >-
+        The coca leaf has been part of the culture of our indigenous peoples for thousands of years
+        and must not be confused with cocaine. What we ask is support for integral alternative
+        development that gives the peasant who grows coca a fair and legal alternative, with
+        markets, credit, technical assistance and infrastructure, rather than forced eradication
+        that only deepens rural poverty.
+      - >-
+        Alternative development will fail if the products of substitution programmes cannot reach
+        international markets. We therefore ask the industrialized countries to grant preferential
+        access to the legal products of regions that have abandoned illicit crops, since fair trade
+        is the most effective contribution they can make to eliminating drug crops at their source.
+      - >-
+        The Action Plan on International Cooperation on the Eradication of Illicit Drug Crops and on
+        Alternative Development rightly recognizes that eradication without viable alternatives is
+        neither sustainable nor just. Long-term rural development, carefully sequenced with law
+        enforcement, is the only lasting way to reduce the illicit cultivation of coca bush, opium
+        poppy and cannabis.
+      - >-
+        Poverty and marginalization in remote rural areas are the root causes of illicit drug crop
+        cultivation. Any serious strategy must offer small farmers sustainable livelihoods, so that
+        the income from legal crops, livestock and rural enterprises exceeds that from coca or
+        poppy. Cooperation for alternative development is an investment in both drug control and
+        social justice.
+      - >-
+        Thousands of families that once depended on illicit crops now produce cocoa, coffee and
+        honey for specialty markets through their own cooperatives. These alternative development
+        programmes, backed by land titles, technical assistance and private investment, have
+        reduced illicit cultivation while protecting forests. Development-oriented drug policy
+        works when communities own it and the State is present.
+      - >-
+        The United Nations Guiding Principles on Alternative Development remind us that farmers who
+        grow illicit crops are not criminals but vulnerable rural citizens. Voluntary substitution
+        agreements with families, rural reform and the presence of the State in neglected
+        territories offer a humane and lasting path to reduce coca cultivation and bring legality
+        to the countryside.
+
+  - id: organized_crime
+    name_es: Delincuencia organizada
+    name_en: Organized crime
+    label_es: Delincuencia organizada transnacional
+    label_en: Transnational organized crime
+    icon: affiliate
+    reference: false
+    definition_en: >-
+      Transnational organized crime as addressed by the United Nations Convention against
+      Transnational Organized Crime (Palermo Convention) and its Protocols: structured criminal
+      groups and networks that commit serious crimes, often across borders, for financial or
+      other material benefit. It covers criminal organizations, cartels and gangs, illicit
+      trafficking in firearms, maritime crime and piracy, cybercrime and organized fraud,
+      kidnapping and extortion, trafficking in cultural property and counterfeit goods, and
+      international cooperation against them such as extradition and mutual legal assistance.
+    include:
+      - Organized crime, transnational crime, criminal organizations, networks, syndicates, mafias, and gangs or cartels treated as criminal organizations (their power, violence, territorial control, finances, diversification).
+      - The Palermo Convention (UNTOC), its Protocols and review mechanism; extradition, mutual legal assistance and law enforcement cooperation against crime.
+      - Illicit manufacturing of and trafficking in firearms, their parts and ammunition as crime (Firearms Protocol, diversion to criminals).
+      - Maritime crime - modern piracy and armed robbery at sea, maritime smuggling.
+      - Cybercrime, ransomware, online fraud and scam operations; the UN Convention against Cybercrime.
+      - Kidnapping for ransom, extortion, fraud and scams committed by criminal groups; fuel theft, counterfeiting and falsified medicines, trafficking in cultural property, smuggling of goods.
+      - Criminal groups that use "terrorist methods" or terrorize communities (add terrorism only when the fragment calls the acts terrorism).
+      - The crime-terrorism and crime-drugs nexus when the fragment frames it as organized crime.
+    exclude:
+      - Drug trafficking, human trafficking or wildlife trafficking not framed in broader organized crime terms (label only drugs, trafficking_smuggling or environmental_crime).
+      - Fraud, extortion or embezzlement by public officials (corruption).
+      - Homicide or kidnapping rates as crime statistics, unless the perpetrators are discussed as criminal groups (criminal_justice).
+      - '"Air piracy" (aircraft hijacking) - terrorism; piracy of intellectual property or software unless framed as organized crime.'
+      - Small arms and light weapons discussed only as a disarmament or armed conflict issue (peace).
+      - Invective such as "criminal regime", "gang of criminals" or "international banditry" applied to governments or States.
+      - Cybersecurity between States and cyber warfare.
+      - War crimes, genocide and crimes against humanity (outside all crime lenses; peace when tied to a conflict).
+    era_terms:
+      - crime syndicates
+      - smuggling
+      - mafia
+      - organized crime
+      - transnational organized crime
+      - criminal organizations
+      - Naples Political Declaration and Global Action Plan
+      - international crime (from 1990; earlier it usually names aggression or apartheid)
+      - Palermo Convention
+      - UNTOC
+      - Convention against Transnational Organized Crime
+      - extradition
+      - mutual legal assistance
+      - illicit trafficking in firearms
+      - Firearms Protocol
+      - piracy and armed robbery at sea
+      - maritime crime
+      - kidnapping for ransom
+      - extortion (by criminal groups, from 1990; earlier mostly political invective)
+      - gangs (from 1990; earlier mostly invective such as "racist gangs")
+      - maras
+      - organized delinquency
+      - criminal networks
+      - cybercrime
+      - ransomware
+      - online scams
+      - organized fraud
+      - trafficking in cultural property
+      - falsified medicines
+      - Convention against Cybercrime
+    anchors:
+      - >-
+        Mafia-type organizations now operate on a global scale. They infiltrate legitimate
+        businesses, buy political protection and use intimidation and murder against the
+        magistrates and journalists who oppose them. No country can confront such criminal power
+        alone; we need common standards for criminalizing participation in an organized criminal
+        group, protecting witnesses and seizing criminal assets.
+      - >-
+        Transnational organized crime has become one of the gravest threats to the security and
+        stability of States at the end of this century. Criminal organizations have exploited open
+        borders and global financial systems to expand their operations. We support the drafting of
+        an international convention against transnational organized crime to strengthen extradition,
+        mutual legal assistance and law enforcement cooperation.
+      - >-
+        The United Nations Convention against Transnational Organized Crime and its protocols give
+        us, for the first time, a common definition of an organized criminal group and common
+        offences of participation, laundering and obstruction of justice. We call on all States to
+        implement the Palermo Convention so that criminal groups can no longer exploit the
+        differences between our legal systems.
+      - >-
+        Criminal organizations are armed with firearms diverted from legal markets and trafficked
+        across porous borders, and they use them to kill, kidnap and extort in our cities. We must
+        implement the Firearms Protocol, mark and trace weapons, control their transfer and
+        dismantle the criminal networks that traffic them and profit from the violence.
+      - >-
+        Piracy and armed robbery at sea threaten the lives of seafarers and the freedom of navigation
+        on which world trade depends. Pirate networks are financed by criminal investors who launder
+        the ransoms they obtain. We need regional maritime law enforcement capacity, the prosecution
+        of suspected pirates and action against those who organize and profit from these crimes.
+      - >-
+        In too many of our communities, criminal organizations exercise territorial control, recruit
+        children, extort small businesses and corrupt local authorities. They are diversifying into
+        fuel theft, contraband and loan-sharking, and they launder their profits through front
+        companies. Confronting them requires financial intelligence to follow the money, protection
+        for witnesses and a regional strategy rather than isolated national efforts.
+      - >-
+        Criminal organizations have moved into cyberspace, using ransomware, online fraud and scam
+        operations to prey on citizens and institutions across the world. The new United Nations
+        convention against cybercrime offers a framework for cooperation, for the exchange of
+        electronic evidence and for prosecuting offenders who have long exploited the gaps between
+        our jurisdictions.
+
+  - id: corruption
+    name_es: Corrupción y delitos económicos
+    name_en: Corruption & economic crime
+    label_es: Corrupción, lavado de activos y delitos económicos
+    label_en: Corruption, money laundering and economic crime
+    icon: coins
+    reference: false
+    definition_en: >-
+      Corruption and economic crime as described by UNODC: the misuse of power, office or public
+      authority for private gain, including bribery, embezzlement, extortion, trading in
+      influence, nepotism, illicit enrichment and fraud by officials, in the public and private
+      sectors. It covers the United Nations Convention against Corruption (prevention,
+      criminalization and law enforcement, international cooperation and asset recovery), money
+      laundering and illicit financial flows, and the recovery and return of stolen assets.
+    include:
+      - Corruption in the public or private sector - bribery, embezzlement, misappropriation of public funds, extortion or fraud by officials, trading in influence, nepotism, illicit enrichment, kleptocracy, grand corruption, state capture.
+      - Criminals bribing, buying, infiltrating or capturing police, officials or institutions, when that is the main claim of a clause (add the crime lens too).
+      - UNCAC, its review mechanism and Conference of the States Parties, the 2021 special session against corruption, regional anti-corruption and anti-bribery conventions.
+      - Anti-corruption bodies, asset declarations, procurement integrity, whistle-blower protection, and transparency or accountability measures explicitly aimed at corruption.
+      - Asset recovery and the return of stolen assets or "funds of illicit origin"; non-conviction-based forfeiture ("extinción de dominio").
+      - Money laundering, financial intelligence units, beneficial ownership, anti-money-laundering standards, when laundering, its channels or the measures against it are the subject or main claim of a sentence or independent clause.
+      - Illicit financial flows, including tax evasion and trade misinvoicing when framed as illicit flows.
+      - Bribery by transnational corporations or foreign Powers and "administrative corruption" of former regimes (the usual framing before the 1990s).
+    exclude:
+      - Moral or metaphorical uses - "corruption of values", "corrupting influence" of consumerism or media, "moral decay".
+      - Good governance, transparency or accountability rhetoric with no reference to corruption or economic crime.
+      - Tax cooperation, debt, capital flight or tax havens discussed purely as fiscal or economic policy, without an illicit or criminal framing.
+      - Electoral fraud or "rigged elections" as a political dispute without bribery or misuse of public funds.
+      - Financing of terrorism alone (terrorism), unless anti-money-laundering systems are discussed in general.
+      - Fraud, scams or extortion committed by criminal groups (organized_crime).
+      - Laundering named only as one activity of criminals in a sentence about their crimes ("... and launder the proceeds") - the crime lens only.
+      - Bribery of officials that appears only in a participial or subordinate clause of a sentence about a criminal group.
+    era_terms:
+      - administrative corruption
+      - corrupt practices
+      - illicit payments
+      - bribery
+      - bribes
+      - graft
+      - embezzlement
+      - misappropriation of public funds
+      - kleptocracy
+      - Inter-American Convention against Corruption
+      - money laundering
+      - laundering of proceeds of crime
+      - asset laundering
+      - funds of illicit origin
+      - financial intelligence
+      - UNCAC
+      - Convention against Corruption
+      - asset recovery
+      - stolen assets
+      - return of assets
+      - illicit enrichment
+      - integrity in public office
+      - anti-corruption commission
+      - whistle-blowers
+      - beneficial ownership
+      - illicit financial flows
+      - trade misinvoicing
+      - grand corruption
+      - state capture
+      - special session against corruption
+    anchors:
+      - >-
+        Administrative corruption, nepotism and the misuse of public funds under the former regime
+        left our State bankrupt and our people disillusioned. My Government has dismissed corrupt
+        officials, required senior civil servants to declare their assets and brought those
+        responsible for embezzlement and bribery before the courts, because development is
+        impossible where public office is a source of private enrichment.
+      - >-
+        Corruption diverts the resources that our peoples need for schools, hospitals and roads, and
+        erodes public confidence in democratic institutions. My Government has established an
+        independent anti-corruption commission, adopted laws on the declaration of assets and on
+        public procurement, and strengthened the audit office. We ask the countries where plundered
+        funds were deposited to help us recover them.
+      - >-
+        The adoption of the United Nations Convention against Corruption gives the international
+        community, for the first time, a universal instrument to prevent and criminalize corruption
+        and to recover stolen assets. Its provisions on asset recovery are of special importance to
+        developing countries, whose wealth has been looted by corrupt leaders and hidden in foreign
+        bank accounts.
+      - >-
+        Money laundering allows criminals and corrupt officials to enjoy the proceeds of their crimes
+        and to infiltrate the legitimate economy. We have created a financial intelligence unit,
+        adopted rules to identify beneficial owners and reinforced the supervision of banks. Offshore
+        centres must cooperate fully in exchanging information and in freezing and confiscating
+        illicit assets.
+      - >-
+        Every year the proceeds of bribery, embezzlement, fraudulent trade invoices and other crimes
+        leave developing countries through shell companies and secret accounts. These illicit
+        financial flows are crimes, not accounting losses. We need beneficial ownership registers,
+        the exchange of financial intelligence and the prosecution of the lawyers, bankers and
+        officials who help to launder and hide stolen wealth.
+      - >-
+        Corruption scandals involving public works contracts have shaken confidence in our
+        institutions. We have responded with a policy of zero tolerance: whistle-blowers are
+        protected, every public contract is published online, and ministers and judges accused of
+        taking bribes have been prosecuted regardless of rank. The special session of the General
+        Assembly against corruption renewed our commitment to this fight.
+      - >-
+        Grand corruption, in which senior officials capture the institutions of the State for private
+        enrichment, fuels impunity and inequality. Bribery in international business transactions,
+        the embezzlement of emergency funds and the misuse of shell companies must be met with
+        effective prosecution, international cooperation and the confiscation of assets obtained
+        through corruption.
+
+  - id: terrorism
+    name_es: Terrorismo
+    name_en: Terrorism
+    label_es: Prevención del terrorismo
+    label_en: Terrorism prevention and counter-terrorism
+    icon: shield-exclamation
+    reference: false
+    definition_en: >-
+      Terrorism as a crime and a threat to be prevented and countered: acts of terrorist violence
+      against civilians, terrorist groups, and the legal and criminal justice responses built on
+      the universal legal instruments against terrorism and the United Nations Global
+      Counter-Terrorism Strategy. It covers aircraft hijacking and hostage-taking, the financing of
+      terrorism, foreign terrorist fighters, violent extremism conducive to terrorism, support to
+      victims, and the links between terrorism and organized crime.
+    include:
+      - Terrorist acts (bombings, attacks on civilians, suicide attacks, assassinations described as terrorism) and terrorist groups or organizations, in every era and whoever is accused (e.g. "terrorists" sent across a border).
+      - Aircraft hijacking ("air piracy", unlawful seizure of aircraft) and attacks on diplomats.
+      - Hostage-taking as a criminal act against civilians, travellers or diplomats outside the conduct of a war, hostages held by a group the fragment calls terrorist, and the International Convention against the Taking of Hostages (all eras).
+      - Kidnappings or attacks by insurgents or armed groups that the speaker calls terrorism (add peace if a sentence treats the armed conflict or a peace process).
+      - The universal instruments against terrorism, the 1994 Declaration on Measures to Eliminate International Terrorism, the draft comprehensive convention, Security Council resolution 1373 and sanctions regimes, the Global Counter-Terrorism Strategy.
+      - Financing of terrorism, foreign terrorist fighters, radicalization, preventing and countering violent extremism conducive to terrorism, terrorist use of the Internet, nuclear terrorism.
+      - Victims of terrorism; human rights and the rule of law in counter-terrorism.
+      - The debate on what counts as terrorism, in every era - its definition and causes, its distinction from national liberation struggles, "State terrorism" discussed as a form of terrorism, and explicit rebuttals of the label ("they are not terrorists but patriots").
+      - Narco-terrorism and sentences about terrorists' drug financing (also drugs), and the terrorism-organized crime nexus (also organized_crime when discussed).
+    exclude:
+      - War, armed conflict, military aggression, occupation, insurgency or civil war not characterized as terrorism (peace).
+      - Release of hostages, detainees or prisoners demanded as part of a ceasefire, exchange or end of a war, when the fragment does not call their taking terrorism (peace).
+      - Criminal groups using "terrorist methods" or terrorizing communities, when the acts are not called terrorism (organized_crime).
+      - '"Terror", "terrorist" or "terrorism" used only as an epithet for a State''s army, government, occupation or war ("State terrorism" for military operations, "acts of terrorism" by colonial or occupation forces, "terrorist regime"), with no terrorist act or the concept itself discussed (peace if the conflict is discussed); also "economic terrorism", "media terrorism".'
+      - Cold War "balance of terror", "nuclear terror" in the deterrence sense, and "terror" of war in general (peace).
+      - Metaphors such as "held hostage by debt" or "hostage to the veto".
+      - Non-proliferation of weapons of mass destruction unless acquisition by terrorists is discussed.
+    era_terms:
+      - terrorism
+      - international terrorism
+      - acts of terror
+      - hijacking
+      - air piracy
+      - unlawful seizure of aircraft
+      - taking of hostages (outside a war, or by a group called terrorist)
+      - hostage-taking (outside a war, or by a group called terrorist)
+      - International Convention against the Taking of Hostages
+      - attacks on diplomats
+      - national liberation struggle (definition debate)
+      - State terrorism (only as a form of terrorism in the definition debate; otherwise an epithet)
+      - narco-terrorism
+      - Declaration on Measures to Eliminate International Terrorism
+      - bomb attacks and bombings of public places (from 1990; earlier "bombing" mostly means aerial bombing in war)
+      - comprehensive convention on international terrorism
+      - suppression of the financing of terrorism
+      - resolution 1373
+      - Counter-Terrorism Committee
+      - Global Counter-Terrorism Strategy
+      - violent extremism
+      - radicalization
+      - foreign terrorist fighters
+      - returning foreign terrorist fighters
+      - terrorist use of the Internet
+      - victims of terrorism
+      - nuclear terrorism
+    anchors:
+      - >-
+        The hijacking of civil aircraft and the taking of innocent hostages have become a menace to
+        international civil aviation and to the lives of travellers of all nations. Whatever the
+        political motives invoked, such acts cannot be justified. All States should ratify the
+        conventions of Tokyo, The Hague and Montreal and ensure that offenders are prosecuted or
+        extradited.
+      - >-
+        My delegation condemns international terrorism in all its forms, which endangers innocent
+        human lives and jeopardizes fundamental freedoms. At the same time, the underlying causes of
+        terrorism must be studied, and the legitimate struggle of peoples under colonial and racist
+        regimes for self-determination must not be confused with acts of terrorism.
+      - >-
+        The bombings that have struck public buildings, markets and places of worship remind us that
+        terrorism knows no frontiers. We welcome the Declaration on Measures to Eliminate
+        International Terrorism and call for a comprehensive convention against international
+        terrorism, so that those who plan, finance and commit such crimes find no refuge anywhere.
+      - >-
+        The terrorist attacks that killed thousands of innocent civilians have shown that terrorism
+        is a threat to all humanity. We are implementing Security Council resolution 1373 in full,
+        criminalizing the financing of terrorism, freezing the assets of terrorist organizations and
+        strengthening border controls. The Global Counter-Terrorism Strategy must guide a response
+        that respects human rights.
+      - >-
+        Terrorist groups have seized territory, recruited foreign terrorist fighters through social
+        media and committed atrocities against civilians. Military measures alone will not defeat
+        them. We must prevent violent extremism conducive to terrorism by addressing radicalization
+        in prisons and online, engaging youth and religious leaders, and ensuring the prosecution,
+        rehabilitation and reintegration of returning fighters.
+      - >-
+        Across our region, terrorist groups finance themselves through kidnapping for ransom, the
+        trafficking of drugs and weapons and the illicit exploitation of gold. This nexus between
+        terrorism and organized crime is destabilizing fragile States. We need stronger criminal
+        justice capacity, regional intelligence sharing and support for the victims of terrorism and
+        their families.
+      - >-
+        No cause can ever justify the deliberate killing of civilians. Having suffered terrorist
+        attacks ourselves, we call for a universal legal framework against terrorism, effective
+        international cooperation in extradition and prosecution, and recognition of the rights and
+        needs of victims. Counter-terrorism measures must always comply with international law,
+        including human rights law.
+
+  - id: trafficking_smuggling
+    name_es: Trata y tráfico de migrantes
+    name_en: Human trafficking & smuggling
+    label_es: Trata de personas y tráfico ilícito de migrantes
+    label_en: Trafficking in persons and smuggling of migrants
+    icon: users-group
+    reference: false
+    definition_en: >-
+      Trafficking in persons, meaning the recruitment, transport, transfer, harbouring or receipt
+      of people by force, fraud, coercion or deception for the purpose of exploitation, and the
+      smuggling of migrants, meaning the procurement, for financial or other material gain, of
+      the irregular entry of a person into a country. It covers sexual exploitation, forced
+      labour, servitude, slavery-like practices and the sale of children when framed as
+      trafficking, the protection of victims and smuggled migrants, and the prosecution of
+      traffickers and smuggling networks.
+    include:
+      - Trafficking in persons, human trafficking, trafficking in human beings, "traffic in women and children" and "white slave traffic" (older wording) for sexual exploitation, forced labour, servitude, forced marriage, organ removal or forced criminality.
+      - Sale of children, child prostitution and child trafficking.
+      - The 1949 Convention on the traffic in persons, the Trafficking in Persons Protocol, the Global Plan of Action against trafficking, identification and protection of victims.
+      - Smuggling of migrants, people smugglers, smuggling networks and routes, deaths and abuse of migrants at the hands of smugglers, the Migrant Smuggling Protocol.
+      - Modern slavery, debt bondage and forced labour when framed as present-day exploitation of victims.
+    exclude:
+      - Migration, refugees, asylum, remittances and border policy without trafficking or smuggling.
+      - The historical transatlantic slave trade, colonial slavery and reparations; "slavery" as metaphor (economic or debt slavery).
+      - Forced labour as a State or colonial policy (1950s-1960s debates) or prison labour, unless framed as trafficking.
+      - Recruitment of child soldiers, unless described as trafficking.
+      - Trafficking in drugs, arms or wildlife (their own lenses).
+    era_terms:
+      - white slave traffic
+      - traffic in women and children
+      - traffic in persons
+      - exploitation of the prostitution of others
+      - sale of children
+      - child prostitution
+      - sex tourism
+      - trafficking in women
+      - trafficking in human beings
+      - trafficking in persons
+      - human trafficking
+      - trafficking of persons
+      - Trafficking in Persons Protocol
+      - debt bondage
+      - contemporary forms of slavery
+      - modern slavery
+      - organ trafficking
+      - smuggling of migrants
+      - illicit traffic of migrants
+      - migrant smuggling
+      - people smugglers
+      - coyotes
+      - forced criminality
+      - scam compounds
+    anchors:
+      - >-
+        The traffic in women and children for purposes of prostitution is a form of slavery that
+        shames our civilization. The Convention for the Suppression of the Traffic in Persons and of
+        the Exploitation of the Prostitution of Others must be universally ratified and applied, and
+        States must cooperate to punish those who profit from this abominable trade and to protect
+        its victims.
+      - >-
+        We are alarmed by the growing sale of children, their exploitation in prostitution and
+        pornography, and the trafficking of human organs. Criminal networks treat human beings as
+        merchandise to be bought and sold across borders. Cooperation to prevent these crimes, to
+        rescue and rehabilitate the child victims and to punish the perpetrators must be strengthened
+        without delay.
+      - >-
+        Trafficking in persons, especially women and children, is one of the fastest-growing criminal
+        activities in the world. Victims are recruited with false promises of employment and then
+        subjected to sexual exploitation, forced labour and servitude. We have ratified the Protocol
+        to Prevent, Suppress and Punish Trafficking in Persons and adopted a national plan for
+        prevention, victim protection and prosecution.
+      - >-
+        Every week desperate men, women and children drown at sea after paying smugglers for a place
+        on overcrowded and unseaworthy boats. The criminal networks that smuggle migrants profit from
+        human misery and often subject them to extortion, abuse and trafficking along the route. We
+        must dismantle these networks while protecting the lives and rights of smuggled migrants.
+      - >-
+        Millions of people live in modern slavery today, trapped in forced labour, debt bondage,
+        forced marriage and sexual exploitation. Human trafficking hides in supply chains, in domestic
+        work and on fishing vessels. We call on all States to identify and assist victims, to
+        prosecute traffickers and to ensure that businesses eliminate forced labour from their
+        operations.
+      - >-
+        Conflict and displacement have left millions of refugees and migrants vulnerable to traffickers
+        who recruit them online with false job offers. Many are forced into criminal activity in scam
+        compounds or held in debt bondage. Protecting victims rather than punishing them, and closing
+        the digital spaces where traffickers operate, must be priorities for our cooperation.
+      - >-
+        Smuggling of migrants and trafficking in persons are distinct crimes, but both prey on poverty,
+        conflict and the hope for a better life, and both are exploited by criminal groups. Countries
+        of origin, transit and destination must share information, align their laws with the
+        protocols and guarantee that migrants who fall into the hands of criminals are treated with
+        dignity.
+
+  - id: environmental_crime
+    name_es: Delitos ambientales
+    name_en: Environmental crime
+    label_es: Delitos que afectan al medio ambiente
+    label_en: Crimes that affect the environment
+    icon: trees
+    reference: false
+    definition_en: >-
+      Crimes that affect the environment: serious and often organized crime targeting natural
+      resources and ecosystems, namely wildlife crime, forest crime, crimes in the fisheries
+      sector, minerals crime and waste crime. It covers poaching and trafficking of protected
+      species, illegal logging and timber trafficking, illegal, unreported and unregulated
+      fishing, illegal mining, and the illegal traffic in and dumping of toxic and hazardous
+      wastes.
+    include:
+      - Wildlife crime - poaching, illicit trafficking in wildlife and wildlife products (ivory, rhino horn, pangolins), enforcement of CITES.
+      - Forest crime - illegal logging, timber trafficking, illegal deforestation and land grabbing by criminal actors.
+      - Crimes in the fisheries sector - illegal, unreported and unregulated (IUU) fishing, fraud and forced labour at sea linked to fishing.
+      - Minerals crime - illegal mining, illicit gold and mercury, trafficking of minerals.
+      - Waste crime - illegal traffic in toxic and hazardous wastes and illegal trade in chemicals and ozone-depleting substances. The export or dumping of toxic, hazardous, industrial or nuclear wastes into developing countries by companies, traders or unnamed actors (the "dumping ground" debate from 1988) counts even without the word "illegal", following the General Assembly's own wording, "illegal traffic in toxic and dangerous products and wastes".
+      - Domestic criminalization of environmental harm (environmental offences in the penal code, prosecution of environmental crimes).
+    exclude:
+      - Climate change mitigation or adaptation, emissions, climate finance, general conservation, biodiversity or deforestation without an illegal or criminal framing.
+      - Dumping, disposal or storage of wastes by States or State programmes (e.g. proposals by Powers to dump nuclear waste at sea), and nuclear testing (peace when nuclear weapons are discussed, otherwise no lens).
+      - Waste dumping named only as one environmental problem among others (acid rain, ozone depletion, ocean pollution), not as waste shipped into other countries.
+      - Pollution or environmental damage discussed as policy, liability or an inter-State dispute rather than as illegal activity by criminals or companies.
+      - Ecocide or environmental harm proposed as an international crime (Rome Statute, International Criminal Court) - international criminal justice, outside the UNODC lenses; peace only when tied to an armed conflict.
+      - Environmental damage caused by armed forces in war (peace).
+      - Conflict minerals or diamonds discussed only as financing of war (peace); add environmental_crime only if the illicit extraction or trade itself is discussed as crime (confidence 2).
+    era_terms:
+      - dumping of toxic wastes
+      - illegal traffic in toxic and dangerous products and wastes
+      - hazardous wastes
+      - Basel Convention
+      - Bamako Convention
+      - ivory trade
+      - poaching
+      - rhino horn
+      - CITES
+      - illicit trafficking in wildlife
+      - wildlife crime
+      - illegal logging
+      - timber trafficking
+      - forest crime
+      - illegal, unreported and unregulated fishing
+      - IUU fishing
+      - fisheries crime
+      - illegal mining
+      - illegal gold mining
+      - mercury used in illegal gold mining
+      - minerals crime
+      - waste crime
+      - environmental crime
+      - crimes that affect the environment
+      - ecocide (only as a domestic criminal offence, not a Rome Statute proposal)
+    anchors:
+      - >-
+        We strongly condemn the dumping of toxic and hazardous wastes in the territories of developing
+        countries by unscrupulous companies that offer a few dollars in exchange for the health of our
+        peoples. This illegal traffic in dangerous wastes is a crime against our environment, and it
+        must be prohibited by a binding international convention with effective penalties.
+      - >-
+        Poachers armed with automatic weapons are exterminating our elephants and rhinoceroses to supply
+        the illicit trade in ivory and horn. We have strengthened our wildlife protection services and
+        support the international ban on the ivory trade under the Convention on International Trade in
+        Endangered Species, but demand in consumer markets must also be suppressed.
+      - >-
+        Illicit trafficking in wildlife is no longer a conservation issue alone; it is a serious
+        transnational crime run by organized networks that also traffic drugs and weapons and fuel
+        corruption and insecurity. We welcome the General Assembly resolution on tackling illicit
+        trafficking in wildlife and call for tougher penalties and cooperation along the entire supply
+        chain.
+      - >-
+        Illegal logging and the land grabbing that follows it are destroying our tropical forests and
+        the livelihoods of indigenous communities. Criminal groups use forged permits, bribery and
+        violence against environmental defenders. We are strengthening investigations and prosecutions
+        of forest crime and ask consumer countries to close their markets to illegally harvested
+        timber.
+      - >-
+        Illegal, unreported and unregulated fishing is robbing small island developing States of one of
+        their few natural resources and threatening the health of our oceans. Vessels fish without
+        licences, falsify their catch records and transship at sea to evade control. We need regional
+        surveillance, port State measures and the prosecution of those who organize and profit from
+        these crimes.
+      - >-
+        Illegal mining is devastating our rainforests and poisoning rivers with mercury, while the gold
+        it produces is laundered into international markets. These operations are controlled by
+        criminal organizations that also engage in trafficking in persons and extortion. Crimes that
+        affect the environment must be treated as serious crimes, with financial investigations and the
+        confiscation of illicit proceeds.
+      - >-
+        Environmental crime, from trafficking in protected species to the illegal trade in chemicals and
+        waste, has become one of the most profitable forms of transnational crime. It undermines
+        biodiversity, the rule of law and our efforts to address climate change. We support
+        strengthening the international legal framework so that these crimes are prevented,
+        investigated and punished.
+
+  - id: criminal_justice
+    name_es: Justicia penal
+    name_en: Criminal justice
+    label_es: Prevención del delito y justicia penal
+    label_en: Crime prevention and criminal justice
+    icon: gavel
+    reference: false
+    definition_en: >-
+      Crime prevention and criminal justice: preventing crime and violence and building fair,
+      effective, humane and accountable criminal justice systems, as promoted by the Commission on
+      Crime Prevention and Criminal Justice and the United Nations Crime Congresses. It covers
+      police, prosecution, courts, defence and prisons, access to justice and legal aid, prison
+      reform and the treatment of offenders, juvenile justice, victims and witnesses, violence
+      against women and children as crime, and citizen security.
+    include:
+      - Crime prevention policies, urban crime and violence, citizen or public security, crime statistics such as homicide or kidnapping rates (add organized_crime only if the perpetrators are discussed as criminal groups).
+      - Criminal justice institutions (police, prosecutors, courts, public defenders, prisons), justice sector reform, penal codes and criminal procedure, judicial backlogs and impunity for ordinary crime.
+      - Prison conditions, overcrowding, pre-trial detention, alternatives to imprisonment, rehabilitation and reintegration of offenders; the Nelson Mandela Rules, Bangkok Rules and Tokyo Rules.
+      - Juvenile justice and children in contact with the law; access to justice and legal aid; victims and witnesses; SDG target 16.3.
+      - Violence against women and children, femicide and gender-based violence, only when the fragment names a criminal-justice element - femicide or other criminal offences, police, prosecution, courts, protection orders, impunity, or crime prevention programmes.
+      - The UN Crime Congresses (since 1955), the Commission on Crime Prevention and Criminal Justice, UN standards and norms; the death penalty discussed as criminal justice policy (confidence 2).
+    exclude:
+      - Generic "rule of law", "justice" and "international law" rhetoric without reference to crime or criminal justice institutions.
+      - International criminal justice for atrocity crimes (International Criminal Court, ad hoc tribunals, universal jurisdiction) and transitional justice - outside the UNODC mandate; label peace only when tied to a conflict or peace process.
+      - Political prisoners, prisoners of war, and repression by security forces framed as human rights violations rather than crime prevention.
+      - Violence against women named only as a gender-equality or human-rights goal ("eliminate all forms of violence against women"), with no criminal-justice element (no lens).
+      - Conflict-related sexual violence (peace), unless its prosecution by national authorities is discussed.
+      - Social or economic justice ("international economic justice").
+      - Metaphors such as "police action" or "policeman of the world".
+      - Enforcement against one specific crime covered by another lens (prosecuting traffickers, arresting terrorists) - label that lens only, unless justice institutions or crime prevention are discussed in general.
+    era_terms:
+      - prevention of crime and the treatment of offenders
+      - social defence
+      - juvenile delinquency
+      - Standard Minimum Rules for the Treatment of Prisoners
+      - Crime Congress
+      - penal reform
+      - administration of justice
+      - crime prevention
+      - criminal justice
+      - Commission on Crime Prevention and Criminal Justice
+      - judicial reform
+      - police reform
+      - pre-trial detention
+      - prison overcrowding
+      - alternatives to imprisonment
+      - rehabilitation of offenders
+      - access to justice
+      - legal aid
+      - citizen security
+      - public security
+      - homicide
+      - femicide
+      - violence against women (with police, prosecution, courts or other criminal-justice elements)
+      - Nelson Mandela Rules
+      - Bangkok Rules
+      - Doha Declaration
+      - Kyoto Declaration
+    anchors:
+      - >-
+        Rising crime in our growing cities, especially juvenile delinquency and crimes against
+        property, calls for prevention policies that reach young people before they offend. The
+        United Nations Congress on the Prevention of Crime and the Treatment of Offenders offers
+        valuable guidance, and we are applying the Standard Minimum Rules for the Treatment of
+        Prisoners in our own penal institutions.
+      - >-
+        Strengthening the administration of justice is a priority of my Government. We are reforming
+        the penal code and the code of criminal procedure, introducing oral and adversarial trials,
+        training judges, prosecutors and public defenders, and reducing the number of persons held in
+        pre-trial detention, so that justice will be swift, impartial and accessible to all citizens.
+      - >-
+        Crime and violence are among the principal concerns of our citizens. Homicide rates in our
+        cities remain among the highest in the world, and young men are both the main victims and the
+        main perpetrators. Our citizen security strategy combines crime prevention in vulnerable
+        neighbourhoods, professional community-oriented policing and the rehabilitation of offenders.
+      - >-
+        Overcrowded prisons, where people awaiting trial are held alongside convicted offenders for
+        years, violate human dignity and become schools of crime. We have adopted the Nelson Mandela
+        Rules as the basis of our penitentiary reform, expanded alternatives to imprisonment and
+        invested in education and work programmes that prepare prisoners for their return to society.
+      - >-
+        Violence against women and girls, including femicide, remains widespread and too often goes
+        unpunished. We have created specialized prosecutors and courts, trained police officers to
+        receive complaints with sensitivity, and provided shelters and legal assistance for survivors.
+        Ending impunity for these crimes requires a justice system that listens to victims and holds
+        perpetrators accountable.
+      - >-
+        The 2030 Agenda commits us to ensure equal access to justice for all. For the poor, access to
+        justice means legal aid, courts close to their communities and procedures in their own
+        language. Our juvenile justice reform favours diversion and restorative measures for children
+        in conflict with the law instead of deprivation of liberty.
+      - >-
+        The Kyoto Declaration adopted at the Fourteenth Crime Congress reminds us that crime prevention
+        and criminal justice are central to sustainable development. We are modernizing investigations
+        with forensic science, reducing judicial backlogs through digital case management and improving
+        cooperation among police, prosecutors and courts, while respecting the rights of the accused.
+
+  - id: peace
+    name_es: Paz y seguridad
+    name_en: Peace and security
+    label_es: Paz y seguridad internacionales (referencia)
+    label_en: International peace and security (reference)
+    icon: peace
+    reference: true
+    definition_en: >-
+      Reference lens, not a UNODC mandate area: peace and security in general, used as a benchmark
+      for the salience of the mandate lenses. It covers war and armed conflict, conflict prevention
+      and resolution, ceasefires, peace processes and agreements, peacekeeping and peacebuilding,
+      collective security and the role of the Security Council, and disarmament framed as a
+      condition for peace.
+    include:
+      - War and armed conflict (inter-State and internal), aggression, occupation, ceasefires and hostilities, including the release of hostages, detainees or prisoners demanded as part of a ceasefire or end of a war.
+      - Conflict-related sexual violence (add criminal_justice only if its prosecution by national authorities is discussed).
+      - Conflict prevention, preventive diplomacy, mediation, negotiated settlements, peace processes and peace agreements, including the reintegration of former combatants.
+      - UN peacekeeping and peacebuilding, the Peacebuilding Commission, sustaining peace, women, peace and security, protection of civilians.
+      - Collective security and the Security Council's role in maintaining international peace and security.
+      - Disarmament and arms control framed in terms of peace and security, including the nuclear threat.
+    exclude:
+      - Ceremonial or formulaic uses - "peace-loving", greetings, "a world of peace and prosperity" as aspiration.
+      - Peaceful uses of nuclear energy or outer space; "peaceful purposes".
+      - Social peace or harmony in a purely domestic socio-economic sense.
+      - Crime and violence without armed conflict (criminal_justice or organized_crime), including metaphors such as "war on crime" or "war on drugs".
+      - The formula "X is a threat to international peace and security" in a sentence about another lens; label peace only when peace and security is discussed in its own right.
+    era_terms:
+      - maintenance of international peace and security
+      - collective security
+      - peaceful settlement of disputes
+      - armistice
+      - cease-fire
+      - aggression
+      - general and complete disarmament
+      - peaceful coexistence
+      - détente
+      - peace-keeping operations
+      - An Agenda for Peace
+      - preventive diplomacy
+      - peacemaking
+      - post-conflict peace-building
+      - peace process
+      - peace agreement
+      - Peacebuilding Commission
+      - sustaining peace
+      - women, peace and security
+      - conflict prevention
+      - protection of civilians
+      - cessation of hostilities
+    anchors:
+      - >-
+        The maintenance of international peace and security is the first purpose of this
+        Organization. The arms race between the great Powers and the conflicts that persist in several
+        regions keep humanity in fear of a new world war. We call for negotiations in good faith, the
+        peaceful settlement of disputes and general and complete disarmament under effective
+        international control.
+      - >-
+        United Nations peace-keeping operations have helped to contain conflicts, supervise ceasefires
+        and create conditions for negotiated settlements. My country is proud to have contributed troops
+        to these missions. The Security Council must be able to act promptly to prevent the outbreak of
+        hostilities, and peace-keeping must be accompanied by efforts to address the root causes of
+        conflict.
+      - >-
+        The end of the cold war has opened new opportunities for preventive diplomacy, peacemaking and
+        post-conflict peace-building, as set out in An Agenda for Peace. Yet ethnic and civil conflicts
+        continue to take a terrible toll on civilians. The United Nations must strengthen its capacity
+        for early warning and mediation, so that disputes are resolved before they turn into war.
+      - >-
+        We welcome the ceasefire agreement and the resumption of direct negotiations between the
+        parties. A just and lasting peace can only be achieved through dialogue, respect for the
+        territorial integrity and sovereignty of States and the full implementation of the relevant
+        Security Council resolutions. The international community must help the parties build
+        confidence and rebuild war-torn areas.
+      - >-
+        After decades of armed conflict, the signing of the peace agreement has opened a new chapter for
+        our nation. Implementing it requires the reintegration of former combatants, reparation for
+        victims, rural development and the presence of the State in territories long affected by
+        violence. We are grateful to the Security Council for accompanying this process through its
+        verification mission.
+      - >-
+        Sustaining peace requires more than the absence of war. Conflict prevention, inclusive political
+        processes, the full participation of women in peace negotiations and investment in
+        peacebuilding are more effective and less costly than responding to crises after they erupt.
+        The Peacebuilding Commission and the good offices of the Secretary-General deserve our full
+        support.
+      - >-
+        The war raging on our continent, with the bombardment of cities, millions of displaced persons
+        and threats to use nuclear weapons, is the gravest challenge to international peace and security
+        in decades. The principles of the Charter prohibiting the threat or use of force must be upheld.
+        We call for an immediate cessation of hostilities and a return to diplomacy.

@@ -1,0 +1,152 @@
+{
+ "id": "ITA_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  16,
+  19,
+  22,
+  28,
+  32,
+  37,
+  41,
+  46,
+  51,
+  54,
+  63,
+  67,
+  73,
+  77,
+  80,
+  86,
+  89,
+  96,
+  102,
+  109,
+  113,
+  116,
+  119,
+  124,
+  127,
+  130,
+  134,
+  137,
+  145,
+  152,
+  158,
+  164,
+  168,
+  172
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "contradiction will the",
+   "contradiction with the",
+   "ocr"
+  ],
+  [
+   22,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   49,
+   "the \"risks",
+   "the risks",
+   "ocr"
+  ],
+  [
+   129,
+   "county, Uruguay",
+   "country, Uruguay",
+   "ocr"
+  ],
+  [
+   130,
+   "the-deadly",
+   "the deadly",
+   "ocr"
+  ],
+  [
+   135,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   147,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   167,
+   "turning- point",
+   "turning-point",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9f860e9739561a30477d35d1bd406c623849fa28",
+ "layout": "lines",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 54
+  },
+  "words_in": 4613,
+  "words_out": 4611,
+  "retention": 0.9996,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   175,
+   140,
+   94,
+   75,
+   68,
+   149,
+   141,
+   118,
+   108,
+   186,
+   174,
+   103,
+   178,
+   89,
+   118,
+   92,
+   64,
+   169,
+   92,
+   147,
+   157,
+   124,
+   120,
+   141,
+   72,
+   167,
+   73,
+   120,
+   99,
+   70,
+   208,
+   194,
+   146,
+   138,
+   108,
+   129,
+   65
+  ],
+  "warnings": []
+ }
+}

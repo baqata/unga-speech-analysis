@@ -1,0 +1,117 @@
+{
+ "id": "LKA_50_1995",
+ "drop": [
+  [
+   450,
+   450,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  11,
+  34,
+  43,
+  63,
+  78,
+  97,
+  106,
+  114,
+  126,
+  135,
+  149,
+  163,
+  187,
+  204,
+  228,
+  255,
+  281,
+  297,
+  316,
+  328,
+  344,
+  357,
+  377,
+  404,
+  434
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   14,
+   " (Official Records of",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "the General Assembly, Forty-ninth Session, Plenary",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "Meetings, 5th meeting, p. 23)",
+   "",
+   "label"
+  ],
+  [
+   429,
+   "Peace'”",
+   "Peace”",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e7e8a3536022ea6f90c1bc9c569132304c5399d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 451,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3732,
+  "words_out": 3707,
+  "retention": 0.9933,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   69,
+   21,
+   167,
+   74,
+   185,
+   121,
+   152,
+   80,
+   78,
+   96,
+   73,
+   116,
+   118,
+   204,
+   139,
+   186,
+   215,
+   211,
+   128,
+   149,
+   104,
+   132,
+   102,
+   165,
+   224,
+   256,
+   142
+  ],
+  "warnings": []
+ }
+}

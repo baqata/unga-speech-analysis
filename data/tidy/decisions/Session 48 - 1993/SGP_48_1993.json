@@ -1,0 +1,76 @@
+{
+ "id": "SGP_48_1993",
+ "drop": [
+  [
+   84,
+   84,
+   "header_footer"
+  ],
+  [
+   181,
+   181,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  22,
+  40,
+  57,
+  72,
+  85,
+  101,
+  116,
+  130,
+  153,
+  166,
+  179,
+  191,
+  215,
+  227,
+  238,
+  244
+ ],
+ "cer": [
+  244
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2110b63d312300da14619b62b73b3ab3fcec67c8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2204,
+  "words_out": 2190,
+  "retention": 0.9936,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   113,
+   64,
+   140,
+   140,
+   122,
+   118,
+   144,
+   132,
+   125,
+   212,
+   121,
+   127,
+   90,
+   225,
+   103,
+   101,
+   53,
+   60
+  ],
+  "warnings": []
+ }
+}

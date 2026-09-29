@@ -1,0 +1,54 @@
+{
+ "id": "BRA_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  24,
+  43,
+  65,
+  84,
+  101,
+  126,
+  145,
+  161,
+  165,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a71cae329360782650f89489ffccf25b6bc0ece7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1,
+   "page_header": 1
+  },
+  "words_in": 1442,
+  "words_out": 1438,
+  "retention": 0.9972,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   105,
+   84,
+   143,
+   163,
+   154,
+   116,
+   188,
+   135,
+   127,
+   27,
+   91,
+   105
+  ],
+  "warnings": []
+ }
+}

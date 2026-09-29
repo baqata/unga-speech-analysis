@@ -1,0 +1,55 @@
+{
+ "id": "YEM_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  10,
+  14,
+  16,
+  18,
+  22
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   25,
+   "nations Will",
+   "nations will",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cfad8b233c00b24ee5f6e5feac5332478575921f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 26,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 936,
+  "words_out": 936,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   60,
+   153,
+   68,
+   88,
+   96,
+   100,
+   75,
+   144,
+   152
+  ],
+  "warnings": []
+ }
+}

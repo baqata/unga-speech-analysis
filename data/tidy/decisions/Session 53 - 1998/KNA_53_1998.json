@@ -1,0 +1,104 @@
+{
+ "id": "KNA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  27,
+  40,
+  58,
+  78,
+  86,
+  100,
+  121,
+  142,
+  160,
+  171,
+  180,
+  199,
+  218,
+  236,
+  248,
+  261,
+  268,
+  284,
+  308,
+  312
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "individual?s",
+   "individual’s",
+   "encoding"
+  ],
+  [
+   74,
+   "Federation?s",
+   "Federation’s",
+   "encoding"
+  ],
+  [
+   90,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   142,
+   "individual?s",
+   "individual’s",
+   "encoding"
+  ],
+  [
+   270,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f01200b40d76aa40540097cbc77fa88f2cba978a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 322,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2679,
+  "words_out": 2677,
+  "retention": 0.9993,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   28,
+   187,
+   109,
+   162,
+   175,
+   74,
+   130,
+   173,
+   162,
+   141,
+   92,
+   76,
+   157,
+   143,
+   150,
+   89,
+   95,
+   61,
+   140,
+   216,
+   32,
+   85
+  ],
+  "warnings": []
+ }
+}

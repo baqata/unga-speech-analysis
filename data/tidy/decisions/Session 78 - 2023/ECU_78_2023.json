@@ -1,0 +1,86 @@
+{
+ "id": "ECU_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  17,
+  21,
+  25,
+  29,
+  33,
+  45,
+  50,
+  54,
+  60
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "address.",
+   "address,",
+   "ocr"
+  ],
+  [
+   5,
+   "2022. we",
+   "2022, we",
+   "ocr"
+  ],
+  [
+   11,
+   "all. my",
+   "all, my",
+   "ocr"
+  ],
+  [
+   50,
+   "(see 8/?V.9421). in",
+   "(see 8/?V.9421), in",
+   "ocr"
+  ],
+  [
+   50,
+   "(see 8/?V.9421)",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "ago.",
+   "ago,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f5f3048d2e8bdb744f16e98b93cde1712365d640",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1671,
+  "words_out": 1669,
+  "retention": 0.9988,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   64,
+   145,
+   114,
+   117,
+   123,
+   122,
+   139,
+   225,
+   145,
+   109,
+   158,
+   208
+  ],
+  "warnings": []
+ }
+}

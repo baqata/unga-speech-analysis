@@ -1,0 +1,62 @@
+{
+ "id": "CHL_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  30,
+  43,
+  63,
+  78,
+  102,
+  125,
+  138,
+  152,
+  165,
+  178
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   98,
+   "Concepci n",
+   "Concepción",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b7d29a9342122fca6af6a7e0179d03989a281c03",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1549,
+  "words_out": 1548,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   42,
+   74,
+   135,
+   110,
+   153,
+   126,
+   192,
+   183,
+   107,
+   111,
+   102,
+   103,
+   110
+  ],
+  "warnings": []
+ }
+}

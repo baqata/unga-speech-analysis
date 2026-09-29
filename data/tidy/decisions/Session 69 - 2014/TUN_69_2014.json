@@ -1,0 +1,49 @@
+{
+ "id": "TUN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  24,
+  45,
+  55,
+  67,
+  87,
+  109,
+  127,
+  143,
+  157
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12ecca933d266b1aa31bf3fdc58631e941591758",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1406,
+  "words_out": 1405,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   61,
+   127,
+   173,
+   76,
+   96,
+   171,
+   187,
+   161,
+   133,
+   110,
+   110
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "id": "CSK_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  6,
+  8,
+  15,
+  19,
+  23,
+  31,
+  37,
+  42,
+  44,
+  48,
+  50,
+  58,
+  65,
+  70,
+  79,
+  81,
+  87,
+  91,
+  95,
+  97,
+  99,
+  104,
+  109,
+  117,
+  122,
+  125,
+  134,
+  141,
+  144,
+  147,
+  150,
+  153,
+  155,
+  156,
+  158,
+  164,
+  167,
+  168,
+  172,
+  176,
+  178,
+  189
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   5,
+   "shild",
+   "shield",
+   "ocr"
+  ],
+  [
+   8,
+   "He are proud",
+   "We are proud",
+   "ocr"
+  ],
+  [
+   9,
+   "Hitler ism",
+   "Hitlerism",
+   "split_word"
+  ],
+  [
+   21,
+   "How it should",
+   "Now it should",
+   "ocr"
+  ],
+  [
+   21,
+   "legal;",
+   "legal,",
+   "ocr"
+  ],
+  [
+   38,
+   "readied",
+   "reached",
+   "ocr"
+  ],
+  [
+   48,
+   "(CMSA)",
+   "(CMEA)",
+   "ocr"
+  ],
+  [
+   58,
+   "star.peace",
+   "star peace",
+   "ocr"
+  ],
+  [
+   61,
+   "spirit, of",
+   "spirit of",
+   "ocr"
+  ],
+  [
+   83,
+   "the. proposal",
+   "the proposal",
+   "ocr"
+  ],
+  [
+   92,
+   "laws, of",
+   "laws of",
+   "ocr"
+  ],
+  [
+   143,
+   "He resolutely",
+   "We resolutely",
+   "ocr"
+  ],
+  [
+   190,
+   "He shall",
+   "We shall",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f2b2c38d8054853dc39fa0a4ab81c4644d2045c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4927,
+  "words_out": 4924,
+  "retention": 0.9994,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   59,
+   40,
+   31,
+   101,
+   60,
+   199,
+   116,
+   115,
+   159,
+   106,
+   118,
+   62,
+   104,
+   60,
+   191,
+   163,
+   160,
+   202,
+   49,
+   188,
+   137,
+   124,
+   57,
+   70,
+   98,
+   91,
+   213,
+   130,
+   81,
+   183,
+   207,
+   71,
+   87,
+   86,
+   88,
+   88,
+   37,
+   81,
+   99,
+   98,
+   42,
+   64,
+   90,
+   68,
+   167,
+   84
+  ],
+  "warnings": []
+ }
+}

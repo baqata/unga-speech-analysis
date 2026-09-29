@@ -1,0 +1,65 @@
+{
+ "id": "MEX_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  25,
+  35,
+  53,
+  60,
+  80,
+  102,
+  110,
+  121,
+  140,
+  163,
+  176,
+  193,
+  201
+ ],
+ "cer": [
+  0,
+  25
+ ],
+ "fix": [
+  [
+   161,
+   "Peoples,to",
+   "Peoples, to",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3153edfb6f7168822d6ceddb383a5dc27b5bbc36",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1667,
+  "words_out": 1668,
+  "retention": 1.0006,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   83,
+   108,
+   80,
+   134,
+   56,
+   158,
+   183,
+   66,
+   94,
+   146,
+   188,
+   109,
+   122,
+   74,
+   67
+  ],
+  "warnings": []
+ }
+}

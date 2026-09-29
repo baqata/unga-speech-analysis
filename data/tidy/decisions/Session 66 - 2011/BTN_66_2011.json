@@ -1,0 +1,47 @@
+{
+ "id": "BTN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  18,
+  42,
+  64,
+  84,
+  110,
+  126,
+  142
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "29c27727be7f569b747ce0a565c5cd251949077e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1217,
+  "words_out": 1216,
+  "retention": 0.9992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   32,
+   127,
+   193,
+   167,
+   151,
+   205,
+   128,
+   144,
+   69
+  ],
+  "warnings": []
+ }
+}

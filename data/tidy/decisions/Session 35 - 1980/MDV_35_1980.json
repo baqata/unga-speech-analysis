@@ -1,0 +1,75 @@
+{
+ "id": "MDV_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  17,
+  22,
+  28,
+  34,
+  40,
+  42,
+  46,
+  50,
+  53
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   31,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   37,
+   "problem .Among",
+   "problem. Among",
+   "spacing"
+  ],
+  [
+   45,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55fb5c1686efdf73376ff684383fdad48e377320",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1586,
+  "words_out": 1584,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   115,
+   131,
+   93,
+   130,
+   150,
+   141,
+   156,
+   161,
+   83,
+   112,
+   127,
+   106,
+   79
+  ],
+  "warnings": []
+ }
+}

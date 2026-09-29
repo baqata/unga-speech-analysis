@@ -1,0 +1,136 @@
+{
+ "id": "SWE_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  23,
+  29,
+  31,
+  36,
+  39,
+  42,
+  46,
+  50,
+  53,
+  58,
+  60,
+  66,
+  70,
+  73,
+  78,
+  83,
+  85,
+  89,
+  92,
+  100,
+  104,
+  106,
+  109,
+  116,
+  119,
+  122,
+  123,
+  125,
+  130,
+  133,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Riidiger",
+   "Rudiger",
+   "ocr"
+  ],
+  [
+   5,
+   "222 ",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "arc brought",
+   "are brought",
+   "ocr"
+  ],
+  [
+   24,
+   "arc trying",
+   "are trying",
+   "ocr"
+  ],
+  [
+   43,
+   "inconsecutive",
+   "in consecutive",
+   "merged_word"
+  ],
+  [
+   86,
+   "Pol Poi's",
+   "Pol Pot's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bca6177fcfc867b9be37e5528b72b7df326e5693",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 59
+  },
+  "words_in": 3286,
+  "words_out": 3285,
+  "retention": 0.9997,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   156,
+   62,
+   96,
+   124,
+   131,
+   81,
+   82,
+   75,
+   92,
+   110,
+   95,
+   85,
+   88,
+   56,
+   125,
+   85,
+   68,
+   134,
+   121,
+   51,
+   90,
+   101,
+   148,
+   103,
+   67,
+   69,
+   158,
+   95,
+   74,
+   40,
+   63,
+   98,
+   87,
+   119,
+   56
+  ],
+  "warnings": []
+ }
+}

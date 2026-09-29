@@ -1,0 +1,41 @@
+{
+ "id": "PER_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  34,
+  51,
+  68,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9f4aa404e95453df40d8a484072b79157d3c7e4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 787,
+  "words_out": 784,
+  "retention": 0.9962,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   63,
+   149,
+   75,
+   147,
+   150,
+   126,
+   74
+  ],
+  "warnings": []
+ }
+}

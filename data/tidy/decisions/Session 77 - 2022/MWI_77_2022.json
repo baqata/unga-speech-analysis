@@ -1,0 +1,80 @@
+{
+ "id": "MWI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  17,
+  20,
+  22,
+  24,
+  28,
+  31,
+  35,
+  38,
+  42,
+  45,
+  48,
+  51,
+  55,
+  58
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "low- income",
+   "low-income",
+   "hyphen"
+  ],
+  [
+   46,
+   "interest- free",
+   "interest-free",
+   "hyphen"
+  ],
+  [
+   58,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b45942235f577a81d4f7a3a399725e5e5103951d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1842,
+  "words_out": 1839,
+  "retention": 0.9984,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   92,
+   85,
+   76,
+   153,
+   64,
+   117,
+   82,
+   102,
+   74,
+   146,
+   76,
+   138,
+   72,
+   134,
+   81,
+   126,
+   118,
+   103
+  ],
+  "warnings": []
+ }
+}

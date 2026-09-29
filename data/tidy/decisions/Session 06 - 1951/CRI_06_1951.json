@@ -1,0 +1,64 @@
+{
+ "id": "CRI_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  10,
+  18,
+  24,
+  26,
+  29,
+  31,
+  38,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   46,
+   "anti",
+   "and",
+   "ocr"
+  ],
+  [
+   46,
+   "art",
+   "an",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fde4ec516e45c892dca281d1f6e322a126b7e05f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 1478,
+  "words_out": 1476,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   85,
+   122,
+   88,
+   57,
+   211,
+   185,
+   73,
+   102,
+   120,
+   162,
+   124,
+   147
+  ],
+  "warnings": []
+ }
+}

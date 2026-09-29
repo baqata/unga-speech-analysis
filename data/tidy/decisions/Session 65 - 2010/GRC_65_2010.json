@@ -1,0 +1,62 @@
+{
+ "id": "GRC_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  25,
+  40,
+  50,
+  64,
+  81,
+  92,
+  102,
+  114,
+  125,
+  134,
+  150,
+  165,
+  185,
+  197
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a20561da31d50d153a598b567edf39e3a691fc8a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 210,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1681,
+  "words_out": 1678,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   45,
+   149,
+   114,
+   74,
+   97,
+   132,
+   102,
+   87,
+   93,
+   90,
+   77,
+   127,
+   109,
+   173,
+   99,
+   110
+  ],
+  "warnings": []
+ }
+}

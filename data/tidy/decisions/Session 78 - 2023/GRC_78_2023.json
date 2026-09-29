@@ -1,0 +1,254 @@
+{
+ "id": "GRC_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  21,
+  32,
+  42,
+  56,
+  63,
+  72,
+  80,
+  86,
+  97,
+  100,
+  110,
+  115,
+  122
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "If elected.",
+   "If elected,",
+   "ocr"
+  ],
+  [
+   17,
+   "Evros. in",
+   "Evros, in",
+   "ocr"
+  ],
+  [
+   18,
+   "In all.",
+   "In all,",
+   "ocr"
+  ],
+  [
+   21,
+   "not enough.",
+   "not enough,",
+   "ocr"
+  ],
+  [
+   25,
+   "too. landing",
+   "too, landing",
+   "ocr"
+  ],
+  [
+   25,
+   "Derna. where",
+   "Derna, where",
+   "ocr"
+  ],
+  [
+   27,
+   "Of course.",
+   "Of course,",
+   "ocr"
+  ],
+  [
+   36,
+   "law. and",
+   "law, and",
+   "ocr"
+  ],
+  [
+   38,
+   "sea. the",
+   "sea, the",
+   "ocr"
+  ],
+  [
+   40,
+   "all. the",
+   "all, the",
+   "ocr"
+  ],
+  [
+   45,
+   "why. earlier",
+   "why, earlier",
+   "ocr"
+  ],
+  [
+   45,
+   "week.",
+   "week,",
+   "ocr"
+  ],
+  [
+   46,
+   "of Croatia.",
+   "of Croatia,",
+   "ocr"
+  ],
+  [
+   47,
+   "Cyprus.",
+   "Cyprus,",
+   "ocr"
+  ],
+  [
+   48,
+   "France.",
+   "France,",
+   "ocr"
+  ],
+  [
+   49,
+   "Italy.",
+   "Italy,",
+   "ocr"
+  ],
+  [
+   50,
+   "Malta.",
+   "Malta,",
+   "ocr"
+  ],
+  [
+   51,
+   "Portugal.",
+   "Portugal,",
+   "ocr"
+  ],
+  [
+   55,
+   "EU- wide",
+   "EU-wide",
+   "hyphen"
+  ],
+  [
+   57,
+   "all. the",
+   "all, the",
+   "ocr"
+  ],
+  [
+   63,
+   "emergency number.",
+   "emergency number,",
+   "ocr"
+  ],
+  [
+   65,
+   "ago. it",
+   "ago, it",
+   "ocr"
+  ],
+  [
+   68,
+   "What difference.",
+   "What difference,",
+   "ocr"
+  ],
+  [
+   74,
+   "has. over",
+   "has, over",
+   "ocr"
+  ],
+  [
+   77,
+   "all. our",
+   "all, our",
+   "ocr"
+  ],
+  [
+   86,
+   "to migration.",
+   "to migration,",
+   "ocr"
+  ],
+  [
+   91,
+   "is. unfortunately",
+   "is, unfortunately",
+   "ocr"
+  ],
+  [
+   99,
+   "all. if",
+   "all, if",
+   "ocr"
+  ],
+  [
+   99,
+   "Türkiye. of",
+   "Türkiye, of",
+   "ocr"
+  ],
+  [
+   101,
+   "Türkiye. but",
+   "Türkiye, but",
+   "ocr"
+  ],
+  [
+   102,
+   "the past.",
+   "the past,",
+   "ocr"
+  ],
+  [
+   108,
+   "law. and",
+   "law, and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c7d82fa5a90d6f7dc7af04c820d1669d1496df2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2373,
+  "words_out": 2372,
+  "retention": 0.9996,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   126,
+   135,
+   155,
+   185,
+   173,
+   143,
+   194,
+   135,
+   180,
+   128,
+   179,
+   83,
+   158,
+   118,
+   184,
+   96
+  ],
+  "warnings": [
+   "32 fixes"
+  ]
+ }
+}

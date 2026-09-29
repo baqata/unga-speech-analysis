@@ -1,0 +1,141 @@
+{
+ "id": "AFG_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  15,
+  19,
+  27,
+  30,
+  33,
+  37,
+  43,
+  46,
+  52,
+  58,
+  61,
+  67,
+  71,
+  77,
+  81
+ ],
+ "cer": [
+  0,
+  81
+ ],
+ "fix": [
+  [
+   5,
+   "stillmore.to",
+   "still more to",
+   "merged_word"
+  ],
+  [
+   7,
+   "lake",
+   "take",
+   "ocr"
+  ],
+  [
+   9,
+   "rightful?",
+   "rightful",
+   "ocr"
+  ],
+  [
+   10,
+   "states .that",
+   "states that",
+   "ocr"
+  ],
+  [
+   10,
+   "in. the",
+   "in the",
+   "ocr"
+  ],
+  [
+   19,
+   "Organization-itself",
+   "Organization itself",
+   "ocr"
+  ],
+  [
+   35,
+   "United;",
+   "United",
+   "ocr"
+  ],
+  [
+   44,
+   "nuclear;",
+   "nuclear",
+   "ocr"
+  ],
+  [
+   49,
+   "riot",
+   "not",
+   "ocr"
+  ],
+  [
+   50,
+   "hope-that",
+   "hope that",
+   "ocr"
+  ],
+  [
+   80,
+   "and-necessary",
+   "and necessary",
+   "ocr"
+  ],
+  [
+   10,
+   "(A/5201/ Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c1a3e17b4a9c3bc08e54004ed7eda19af812bd6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2681,
+  "words_out": 2680,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   72,
+   130,
+   188,
+   167,
+   130,
+   271,
+   107,
+   131,
+   132,
+   221,
+   96,
+   185,
+   101,
+   136,
+   147,
+   161,
+   101,
+   168,
+   36
+  ],
+  "warnings": []
+ }
+}

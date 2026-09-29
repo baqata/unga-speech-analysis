@@ -1,0 +1,78 @@
+{
+ "id": "ITA_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  33,
+  51,
+  72,
+  81,
+  94,
+  116,
+  124,
+  134,
+  167,
+  184,
+  200,
+  213,
+  231,
+  245,
+  264,
+  281,
+  295,
+  309,
+  323
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   236,
+   "(A/57/387 and Corr.1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "254aaa16b8b6c01161dbabbd5f91f1e9b0ceb365",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 337,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2493,
+  "words_out": 2487,
+  "retention": 0.9976,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   172,
+   66,
+   141,
+   158,
+   75,
+   90,
+   156,
+   67,
+   80,
+   236,
+   125,
+   107,
+   95,
+   129,
+   97,
+   149,
+   134,
+   101,
+   97,
+   101,
+   111
+  ],
+  "warnings": []
+ }
+}

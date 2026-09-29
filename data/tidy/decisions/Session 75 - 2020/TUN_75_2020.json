@@ -1,0 +1,54 @@
+{
+ "id": "TUN_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  11,
+  14,
+  19,
+  24,
+  28,
+  33
+ ],
+ "cer": [
+  0,
+  6,
+  33
+ ],
+ "fix": [
+  [
+   7,
+   "Muhammad- Bande",
+   "Muhammad-Bande",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President of Tunisia.",
+ "unitizer_version": 1,
+ "sha1": "dd9d78ab016c85ecc64b86ddb7d47d42b7558789",
+ "layout": "lines",
+ "stats": {
+  "n_units": 34,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 772,
+  "words_out": 771,
+  "retention": 0.9987,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   69,
+   83,
+   72,
+   76,
+   148,
+   119,
+   81,
+   113,
+   10
+  ],
+  "warnings": []
+ }
+}

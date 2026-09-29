@@ -1,0 +1,143 @@
+{
+ "id": "ALB_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  13,
+  16,
+  22,
+  27,
+  32,
+  37,
+  40,
+  49,
+  50,
+  57,
+  60,
+  63,
+  66,
+  71,
+  76,
+  87,
+  93,
+  96,
+  103,
+  106,
+  109,
+  112,
+  120,
+  126,
+  130,
+  134,
+  140,
+  142,
+  149
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   "the' launching",
+   "the launching",
+   "ocr"
+  ],
+  [
+   18,
+   "Nikita S,",
+   "Nikita S.",
+   "ocr"
+  ],
+  [
+   21,
+   "unsettled,",
+   "unsettled.",
+   "ocr"
+  ],
+  [
+   36,
+   "peoples-,",
+   "peoples,",
+   "ocr"
+  ],
+  [
+   38,
+   " [ibid, para. 71]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "fields,",
+   "fields.",
+   "ocr"
+  ],
+  [
+   70,
+   "country,",
+   "country.",
+   "ocr"
+  ],
+  [
+   121,
+   "active an influential",
+   "active and influential",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d0c734093b6a72403bd02bb96878e6915ef4439",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 35
+  },
+  "words_in": 4686,
+  "words_out": 4676,
+  "retention": 0.9979,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   87,
+   136,
+   70,
+   78,
+   119,
+   229,
+   175,
+   149,
+   195,
+   83,
+   268,
+   105,
+   206,
+   100,
+   139,
+   98,
+   114,
+   163,
+   252,
+   105,
+   125,
+   274,
+   90,
+   89,
+   131,
+   234,
+   156,
+   80,
+   110,
+   209,
+   83,
+   162,
+   62
+  ],
+  "warnings": []
+ }
+}

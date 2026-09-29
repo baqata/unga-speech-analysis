@@ -1,0 +1,262 @@
+{
+ "id": "FRA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   236,
+   236,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  6,
+  9,
+  14,
+  23,
+  30,
+  36,
+  40,
+  47,
+  50,
+  56,
+  65,
+  77,
+  88,
+  94,
+  109,
+  114,
+  120,
+  128,
+  135,
+  141,
+  147,
+  157,
+  168,
+  180,
+  186,
+  190,
+  199,
+  204,
+  209,
+  219,
+  227,
+  234
+ ],
+ "cer": [
+  3,
+  234
+ ],
+ "fix": [
+  [
+   68,
+   "them least",
+   "the Middle East",
+   "asr_name"
+  ],
+  [
+   80,
+   "spend no effort",
+   "spare no effort",
+   "asr_term"
+  ],
+  [
+   91,
+   "raised",
+   "razed",
+   "asr_term"
+  ],
+  [
+   163,
+   "BB&J",
+   "BBNJ",
+   "asr_name"
+  ],
+  [
+   171,
+   "IPBIS",
+   "IPBES",
+   "asr_name"
+  ],
+  [
+   204,
+   "Mr Allier",
+   "Mistral AI",
+   "asr_name"
+  ],
+  [
+   212,
+   "championship",
+   "chairmanship",
+   "asr_term"
+  ],
+  [
+   3,
+   "President Trump, ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "Since theseded this",
+   "Since this",
+   "asr_term"
+  ],
+  [
+   5,
+   "whether whether",
+   "whether",
+   "asr_term"
+  ],
+  [
+   56,
+   "crises crises",
+   "crises",
+   "asr_term"
+  ],
+  [
+   13,
+   "together. today's",
+   "together. Today's",
+   "asr_term"
+  ],
+  [
+   47,
+   "Nations. we're",
+   "Nations. We're",
+   "asr_term"
+  ],
+  [
+   92,
+   "Lebanon. will",
+   "Lebanon will",
+   "asr_term"
+  ],
+  [
+   103,
+   "us. look,",
+   "us. Look,",
+   "asr_term"
+  ],
+  [
+   108,
+   "fact. sovereignty",
+   "fact. Sovereignty",
+   "asr_term"
+  ],
+  [
+   122,
+   "economies. and",
+   "economies. And",
+   "asr_term"
+  ],
+  [
+   130,
+   "2023. also",
+   "2023. Also",
+   "asr_term"
+  ],
+  [
+   187,
+   "edition. we",
+   "edition. We",
+   "asr_term"
+  ],
+  [
+   195,
+   "stark. and",
+   "stark. And",
+   "asr_term"
+  ],
+  [
+   204,
+   "Paris. going",
+   "Paris. Going",
+   "asr_term"
+  ],
+  [
+   225,
+   "divided. the",
+   "divided. The",
+   "asr_term"
+  ],
+  [
+   226,
+   "nations. a",
+   "nations. A",
+   "asr_term"
+  ],
+  [
+   35,
+   "commitments. mobilized",
+   "commitments. We must mobilize",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech in French; Spanish is a second interpretation. Fixes per Spanish (Oriente Medio, no escatimará, destruidas, BBNJ) and published names (IPBES; Mistral AI, the French frontier-model company). Main-agent audit: unit 3 'President Trump, ' removed (label): re-decoding the opening hears 'Madam President, Deputy Secretary General' in 3 of 3 windows; 'President Trump' is a speech-to-text invention at the 30 s window start. Main-agent sweep: unit 4 'theseded' is not in the audio (four re-decodes 'Since this morning', p 0.86-1.00; Spanish 'Esta manana'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 5 'whether whether' -> 'whether'; unit 56 'crises crises' -> 'crises' (the re-decodes differ, one hearing it once and one 'crisis, crises'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 13 'together. today's' -> 'together. Today's'; unit 35 'commitments. mobilized' -> 'commitments. Mobilized'; unit 47 'Nations. we're' -> 'Nations. We're'; unit 92 'Lebanon. will' -> 'Lebanon will'; unit 103 'us. look,' -> 'us. Look,'; unit 108 'fact. sovereignty' -> 'fact. Sovereignty'; unit 122 'economies. and' -> 'economies. And'; unit 130 '2023. also' -> '2023. Also'; unit 187 'edition. we' -> 'edition. We'; unit 195 'stark. and' -> 'stark. And'; unit 204 'Paris. going' -> 'Paris. Going'; unit 225 'divided. the' -> 'divided. The'; unit 226 'nations. a' -> 'nations. A'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 35 'commitments. mobilized' -> 'commitments. We must mobilize' (2026 exception: both decodes hear 'We must' (1.00 / 1.00) and 'mobilize' (0.70 / 0.80); the published text of the speech (21News, full text) has 'Nous devons nous remobiliser pour défendre nos humanitaires'; replaces the existing repair 'commitments. mobilized' -> 'commitments. Mobilized')",
+ "unitizer_version": 1,
+ "sha1": "93325e811d85810028b3ab9b6d6970bf0bc77578",
+ "layout": "single",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 4260,
+  "words_out": 4193,
+  "retention": 0.9843,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   17,
+   120,
+   94,
+   201,
+   154,
+   101,
+   101,
+   70,
+   123,
+   143,
+   95,
+   193,
+   143,
+   177,
+   56,
+   207,
+   82,
+   76,
+   140,
+   177,
+   128,
+   101,
+   103,
+   167,
+   112,
+   141,
+   98,
+   116,
+   93,
+   177,
+   190,
+   198,
+   91,
+   8
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

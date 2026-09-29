@@ -1,0 +1,126 @@
+{
+ "id": "EGY_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  17,
+  22,
+  25,
+  29,
+  31,
+  34,
+  40,
+  49,
+  52,
+  56,
+  59,
+  62,
+  65,
+  71,
+  77,
+  80,
+  83,
+  88,
+  91,
+  98,
+  101,
+  107,
+  111,
+  114
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "1982,'",
+   "1982,",
+   "ocr"
+  ],
+  [
+   37,
+   "Group of 77.2 Unfortunately",
+   "Group of 77. Unfortunately",
+   "ocr"
+  ],
+  [
+   38,
+   "India an Chairman",
+   "India and Chairman",
+   "ocr"
+  ],
+  [
+   64,
+   "of 19073 and",
+   "of 1907 and",
+   "ocr"
+  ],
+  [
+   64,
+   "1949/ as",
+   "1949, as",
+   "ocr"
+  ],
+  [
+   98,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   107,
+   "fact accompli",
+   "fait accompli",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66033174482c5756815c11891f575d49600c34e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3670,
+  "words_out": 3670,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   159,
+   222,
+   176,
+   117,
+   97,
+   94,
+   102,
+   150,
+   231,
+   171,
+   110,
+   216,
+   118,
+   136,
+   150,
+   162,
+   142,
+   96,
+   81,
+   109,
+   91,
+   160,
+   155,
+   112,
+   119,
+   77,
+   117
+  ],
+  "warnings": []
+ }
+}

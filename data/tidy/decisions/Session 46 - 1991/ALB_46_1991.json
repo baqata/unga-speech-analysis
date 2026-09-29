@@ -1,0 +1,140 @@
+{
+ "id": "ALB_46_1991",
+ "drop": [
+  [
+   23,
+   23,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  10,
+  12,
+  16,
+  25,
+  27,
+  32,
+  37,
+  40,
+  46,
+  49,
+  54,
+  56,
+  60,
+  62,
+  69,
+  74,
+  78,
+  80,
+  83,
+  85,
+  89,
+  92,
+  96,
+  101,
+  106,
+  108
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   7,
+   "He hope",
+   "We hope",
+   "ocr"
+  ],
+  [
+   21,
+   "Peres de Cueliar",
+   "Perez de Cuellar",
+   "ocr"
+  ],
+  [
+   48,
+   "He appreciate",
+   "We appreciate",
+   "ocr"
+  ],
+  [
+   83,
+   "How that",
+   "Now that",
+   "ocr"
+  ],
+  [
+   93,
+   "He highly",
+   "We highly",
+   "ocr"
+  ],
+  [
+   104,
+   "He cannot",
+   "We cannot",
+   "ocr"
+  ],
+  [
+   110,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d462d2d013e09d0d2f51e699ea152a85dc838597",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 3537,
+  "words_out": 3534,
+  "retention": 0.9992,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   106,
+   68,
+   49,
+   80,
+   61,
+   151,
+   286,
+   106,
+   138,
+   224,
+   123,
+   148,
+   113,
+   128,
+   66,
+   99,
+   68,
+   220,
+   200,
+   141,
+   77,
+   74,
+   79,
+   103,
+   100,
+   106,
+   102,
+   70,
+   79,
+   169
+  ],
+  "warnings": []
+ }
+}

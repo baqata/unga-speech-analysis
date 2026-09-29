@@ -1,0 +1,174 @@
+{
+ "id": "SYR_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  17,
+  20,
+  24,
+  27,
+  30,
+  32,
+  33,
+  35,
+  37,
+  44,
+  46,
+  52,
+  56,
+  59,
+  64,
+  68,
+  70,
+  76,
+  78,
+  85,
+  91,
+  95,
+  100,
+  103,
+  106,
+  109,
+  115,
+  121,
+  123,
+  126,
+  132,
+  138
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "34 ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Abdel- aziz",
+   "Abdel-aziz",
+   "hyphen"
+  ],
+  [
+   5,
+   "35 ",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "1 appeal",
+   "I appeal",
+   "ocr"
+  ],
+  [
+   16,
+   "territory, I declare",
+   "territory. I declare",
+   "ocr"
+  ],
+  [
+   30,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   34,
+   "devel-oping",
+   "developing",
+   "hyphen"
+  ],
+  [
+   76,
+   "61 ",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "62 ",
+   "",
+   "label"
+  ],
+  [
+   112,
+   "atttempt",
+   "attempt",
+   "ocr"
+  ],
+  [
+   133,
+   "by- step",
+   "by-step",
+   "hyphen"
+  ],
+  [
+   31,
+   " [resolution 3202 (S-Vl)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 6 and 121 lack a full stop between sentences (\"lives The\", \"weapons How\"), and units 79 and 81 each lack one quotation mark; none can be restored without adding a mark.",
+ "unitizer_version": 1,
+ "sha1": "ff71057ef4c3c96bc4cbad56fc238380b1e1de53",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 4025,
+  "words_out": 4009,
+  "retention": 0.996,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   103,
+   143,
+   155,
+   107,
+   93,
+   79,
+   118,
+   123,
+   73,
+   68,
+   85,
+   96,
+   134,
+   72,
+   121,
+   112,
+   100,
+   100,
+   69,
+   93,
+   85,
+   73,
+   137,
+   126,
+   119,
+   110,
+   71,
+   81,
+   132,
+   155,
+   207,
+   107,
+   136,
+   169,
+   140,
+   117
+  ],
+  "warnings": []
+ }
+}

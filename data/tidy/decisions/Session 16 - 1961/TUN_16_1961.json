@@ -1,0 +1,249 @@
+{
+ "id": "TUN_16_1961",
+ "drop": [
+  [
+   79,
+   79,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  20,
+  23,
+  29,
+  33,
+  38,
+  40,
+  46,
+  49,
+  54,
+  58,
+  65,
+  69,
+  73,
+  81,
+  85,
+  88,
+  91,
+  95,
+  99,
+  101,
+  110,
+  113,
+  116,
+  124,
+  129
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   1,
+   "Organization, May",
+   "Organization. May",
+   "ocr"
+  ],
+  [
+   1,
+   "going,",
+   "going.",
+   "ocr"
+  ],
+  [
+   13,
+   "Assembly, Impartiality",
+   "Assembly. Impartiality",
+   "ocr"
+  ],
+  [
+   19,
+   "changes",
+   "chances",
+   "ocr"
+  ],
+  [
+   22,
+   "strait- jacket",
+   "strait-jacket",
+   "ocr"
+  ],
+  [
+   27,
+   "Conference^",
+   "Conference",
+   "ocr"
+  ],
+  [
+   36,
+   " (A/4879)",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "peoples,§/",
+   "peoples,",
+   "ocr"
+  ],
+  [
+   48,
+   "met, so",
+   "met so",
+   "ocr"
+  ],
+  [
+   58,
+   "the. colonial",
+   "the colonial",
+   "ocr"
+  ],
+  [
+   62,
+   "Angola 6",
+   "Angola",
+   "ocr"
+  ],
+  [
+   68,
+   "take , practical",
+   "take practical",
+   "ocr"
+  ],
+  [
+   72,
+   "tile contrary",
+   "the contrary",
+   "ocr"
+  ],
+  [
+   80,
+   "Council 2",
+   "Council",
+   "ocr"
+  ],
+  [
+   82,
+   "conflict,",
+   "conflict.",
+   "ocr"
+  ],
+  [
+   84,
+   ".from",
+   "from",
+   "ocr"
+  ],
+  [
+   86,
+   "adapted",
+   "adopted",
+   "ocr"
+  ],
+  [
+   91,
+   "s«td",
+   "and",
+   "ocr"
+  ],
+  [
+   96,
+   "optimism, As",
+   "optimism. As",
+   "ocr"
+  ],
+  [
+   110,
+   "Members. must",
+   "Members must",
+   "ocr"
+  ],
+  [
+   111,
+   "distribution, The",
+   "distribution. The",
+   "ocr"
+  ],
+  [
+   111,
+   "under- represented",
+   "under-represented",
+   "ocr"
+  ],
+  [
+   125,
+   "\"earnings",
+   "earnings",
+   "ocr"
+  ],
+  [
+   126,
+   "development, Such",
+   "development. Such",
+   "ocr"
+  ],
+  [
+   130,
+   "Requires",
+   "requires",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 79 is a footnote.",
+ "unitizer_version": 1,
+ "sha1": "2d2d6954b7e1b5e31f965fe7d5c9cc77fd89d03c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 53
+  },
+  "words_in": 4534,
+  "words_out": 4510,
+  "retention": 0.9947,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   218,
+   143,
+   161,
+   202,
+   127,
+   245,
+   151,
+   112,
+   105,
+   197,
+   99,
+   187,
+   210,
+   186,
+   93,
+   149,
+   198,
+   135,
+   104,
+   107,
+   126,
+   194,
+   88,
+   228,
+   156,
+   104,
+   226,
+   174,
+   85
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

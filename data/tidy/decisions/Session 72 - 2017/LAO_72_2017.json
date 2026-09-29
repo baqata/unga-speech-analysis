@@ -1,0 +1,73 @@
+{
+ "id": "LAO_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  14,
+  18,
+  23,
+  24,
+  27,
+  30,
+  37,
+  41,
+  43,
+  46,
+  49,
+  52
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   32,
+   "ASEAN- initiated",
+   "ASEAN-initiated",
+   "hyphen"
+  ],
+  [
+   41,
+   "ASEAN- United",
+   "ASEAN-United",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "684024a2dbb8edecd3b5b72aa962f5f5cdda3a01",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1699,
+  "words_out": 1697,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   107,
+   69,
+   144,
+   100,
+   81,
+   135,
+   62,
+   124,
+   67,
+   188,
+   128,
+   109,
+   74,
+   138,
+   69,
+   102
+  ],
+  "warnings": []
+ }
+}

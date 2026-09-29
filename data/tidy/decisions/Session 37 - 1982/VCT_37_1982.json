@@ -1,0 +1,142 @@
+{
+ "id": "VCT_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  34,
+  46,
+  77,
+  89,
+  101,
+  121,
+  142,
+  155,
+  173,
+  190,
+  201,
+  220,
+  237,
+  256,
+  279,
+  315,
+  326,
+  344,
+  363,
+  377,
+  433,
+  446,
+  481,
+  487,
+  510,
+  524,
+  548,
+  569,
+  603,
+  619,
+  635,
+  652,
+  672
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   179,
+   "Fez.The",
+   "Fez. The",
+   "spacing"
+  ],
+  [
+   186,
+   "strife- torn",
+   "strife-torn",
+   "spacing"
+  ],
+  [
+   226,
+   "AH this",
+   "All this",
+   "ocr"
+  ],
+  [
+   268,
+   "demonstratethat",
+   "demonstrate that",
+   "merged_word"
+  ],
+  [
+   535,
+   "amountin",
+   "amount in",
+   "merged_word"
+  ],
+  [
+   553,
+   "balance-of- payment",
+   "balance-of-payment",
+   "spacing"
+  ],
+  [
+   668,
+   "if-by",
+   "if by",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ace446c09ae432c85723a5622d80a9d91772977a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 677,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5121,
+  "words_out": 5123,
+  "retention": 1.0004,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   186,
+   73,
+   85,
+   246,
+   95,
+   87,
+   151,
+   155,
+   103,
+   146,
+   129,
+   78,
+   137,
+   128,
+   155,
+   171,
+   279,
+   85,
+   141,
+   146,
+   101,
+   419,
+   101,
+   271,
+   49,
+   179,
+   103,
+   173,
+   138,
+   251,
+   118,
+   109,
+   128,
+   168,
+   39
+  ],
+  "warnings": [
+   "paragraph at unit 377 has 419 words"
+  ]
+ }
+}

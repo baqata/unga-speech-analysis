@@ -1,0 +1,120 @@
+{
+ "id": "MNG_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  33,
+  49,
+  69,
+  82,
+  103,
+  123,
+  143,
+  161,
+  179,
+  202,
+  219,
+  238,
+  254
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "delegation?s",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   64,
+   "itstransit",
+   "its transit",
+   "merged_word"
+  ],
+  [
+   69,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   83,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   131,
+   "People?s",
+   "People’s",
+   "encoding"
+  ],
+  [
+   152,
+   "Mongolia?s",
+   "Mongolia’s",
+   "encoding"
+  ],
+  [
+   193,
+   "Mongolia?s",
+   "Mongolia’s",
+   "encoding"
+  ],
+  [
+   206,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   222,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   239,
+   "Mongolia?s",
+   "Mongolia’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f16ac2bf2a8300f804990de616a5e32192b55f4d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2103,
+  "words_out": 2101,
+  "retention": 0.999,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   64,
+   212,
+   123,
+   165,
+   102,
+   176,
+   168,
+   157,
+   139,
+   144,
+   176,
+   123,
+   139,
+   120,
+   93
+  ],
+  "warnings": []
+ }
+}

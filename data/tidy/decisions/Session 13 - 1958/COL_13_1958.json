@@ -1,0 +1,90 @@
+{
+ "id": "COL_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  11,
+  14,
+  17,
+  19,
+  26,
+  28,
+  30,
+  32,
+  34,
+  38,
+  41,
+  46,
+  50
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "over- shadowed",
+   "overshadowed",
+   "hyphen"
+  ],
+  [
+   22,
+   "In fact of",
+   "In face of",
+   "ocr"
+  ],
+  [
+   22,
+   "of: opinion",
+   "of opinion",
+   "ocr"
+  ],
+  [
+   49,
+   "Life other",
+   "Like other",
+   "ocr"
+  ],
+  [
+   51,
+   "servo",
+   "serve",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7de538bb386da2e055635d53244fa887ef003b1f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 1937,
+  "words_out": 1936,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   106,
+   134,
+   112,
+   174,
+   84,
+   68,
+   214,
+   142,
+   85,
+   129,
+   80,
+   120,
+   111,
+   178,
+   105,
+   94
+  ],
+  "warnings": []
+ }
+}

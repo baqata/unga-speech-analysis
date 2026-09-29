@@ -1,0 +1,79 @@
+{
+ "id": "AZE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  12,
+  16,
+  18,
+  21,
+  25,
+  27,
+  29,
+  32,
+  35,
+  38,
+  40,
+  45,
+  50,
+  52
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "Baku- Tbilisi-Ceyhan",
+   "Baku-Tbilisi-Ceyhan",
+   "hyphen"
+  ],
+  [
+   20,
+   "Super- Highway",
+   "Super-Highway",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0ab568b06765ad6d4d6c1e5a3e00b9fa1100a02",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 4
+  },
+  "words_in": 1639,
+  "words_out": 1637,
+  "retention": 0.9988,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   59,
+   72,
+   114,
+   75,
+   116,
+   94,
+   91,
+   77,
+   97,
+   86,
+   79,
+   114,
+   116,
+   85,
+   118,
+   106,
+   69,
+   69
+  ],
+  "warnings": []
+ }
+}

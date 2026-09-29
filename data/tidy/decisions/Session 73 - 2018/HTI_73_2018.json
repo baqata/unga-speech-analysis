@@ -1,0 +1,78 @@
+{
+ "id": "HTI_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  15,
+  18,
+  23,
+  26,
+  30,
+  35,
+  38,
+  39,
+  40,
+  42,
+  44,
+  50,
+  56,
+  62,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   44,
+   "hand .",
+   "hand.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e7f5ef77c0fa00b0b03fcd29a1be13be3642049",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2027,
+  "words_out": 2024,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   86,
+   62,
+   76,
+   124,
+   84,
+   162,
+   87,
+   73,
+   123,
+   138,
+   64,
+   87,
+   139,
+   93,
+   126,
+   104,
+   119,
+   202,
+   75
+  ],
+  "warnings": []
+ }
+}

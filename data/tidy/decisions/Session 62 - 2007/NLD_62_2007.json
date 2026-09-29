@@ -1,0 +1,64 @@
+{
+ "id": "NLD_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  20,
+  37,
+  50,
+  63,
+  79,
+  88,
+  106,
+  123,
+  133,
+  149,
+  173,
+  183,
+  194
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "(resolution 217 A (III))",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db6613dadf04f489baeb94fc6e03e4206bcec676",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1798,
+  "words_out": 1793,
+  "retention": 0.9972,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   75,
+   96,
+   146,
+   102,
+   107,
+   136,
+   78,
+   141,
+   138,
+   86,
+   123,
+   196,
+   90,
+   84,
+   195
+  ],
+  "warnings": []
+ }
+}

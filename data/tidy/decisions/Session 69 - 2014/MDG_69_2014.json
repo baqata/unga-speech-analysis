@@ -1,0 +1,61 @@
+{
+ "id": "MDG_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  37,
+  54,
+  62,
+  74,
+  105,
+  124,
+  140,
+  154,
+  173,
+  192
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   27,
+   "values ,",
+   "values,",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90b22f3560fd3615e12beaf1d07ee96893e71286",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1621,
+  "words_out": 1619,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   64,
+   125,
+   127,
+   139,
+   65,
+   93,
+   239,
+   154,
+   130,
+   102,
+   144,
+   140,
+   97
+  ],
+  "warnings": []
+ }
+}

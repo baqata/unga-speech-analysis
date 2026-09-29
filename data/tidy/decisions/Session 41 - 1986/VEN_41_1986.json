@@ -1,0 +1,146 @@
+{
+ "id": "VEN_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  8,
+  12,
+  14,
+  17,
+  19,
+  20,
+  24,
+  26,
+  28,
+  30,
+  36,
+  42,
+  50,
+  54,
+  57,
+  61,
+  65,
+  69,
+  72,
+  75,
+  77,
+  80,
+  82,
+  88,
+  92,
+  96,
+  99,
+  102,
+  104,
+  106,
+  108,
+  115
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "puace",
+   "peace",
+   "ocr"
+  ],
+  [
+   42,
+   "pron^ts",
+   "prompts",
+   "ocr"
+  ],
+  [
+   63,
+   "credibiH :y",
+   "credibility",
+   "ocr"
+  ],
+  [
+   94,
+   "Lissinchi",
+   "Lusinchi",
+   "ocr"
+  ],
+  [
+   100,
+   "purpoe",
+   "purpose",
+   "ocr"
+  ],
+  [
+   105,
+   "ve have",
+   "we have",
+   "ocr"
+  ],
+  [
+   116,
+   "th is",
+   "this",
+   "split_word"
+  ],
+  [
+   116,
+   "prom is ing",
+   "promising",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f11d30d109cb3cbc9d9cab9c1b1b4bc5ef6e797",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3563,
+  "words_out": 3559,
+  "retention": 0.9989,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   56,
+   132,
+   83,
+   112,
+   108,
+   105,
+   71,
+   61,
+   91,
+   77,
+   87,
+   57,
+   110,
+   114,
+   207,
+   83,
+   66,
+   131,
+   145,
+   95,
+   114,
+   82,
+   98,
+   83,
+   102,
+   163,
+   91,
+   205,
+   106,
+   63,
+   62,
+   80,
+   56,
+   153,
+   110
+  ],
+  "warnings": []
+ }
+}

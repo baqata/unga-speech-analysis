@@ -1,0 +1,142 @@
+{
+ "id": "BEL_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  47,
+  55,
+  72,
+  97,
+  116,
+  131,
+  140,
+  151,
+  166,
+  188,
+  206,
+  220,
+  237,
+  250,
+  264,
+  274,
+  289,
+  304,
+  324,
+  340,
+  359,
+  377,
+  397,
+  409,
+  431,
+  446,
+  458,
+  484,
+  496
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   131,
+   "in.South-East",
+   "in South-East",
+   "spacing"
+  ],
+  [
+   157,
+   "the, United",
+   "the United",
+   "ocr"
+  ],
+  [
+   220,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   397,
+   "Mr, Secretary-General",
+   "Mr. Secretary-General",
+   "ocr"
+  ],
+  [
+   401,
+   "[A/7651/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   436,
+   "Mr.Scheyven",
+   "Mr. Scheyven",
+   "spacing"
+  ],
+  [
+   451,
+   "under-taken",
+   "undertaken",
+   "hyphen"
+  ],
+  [
+   488,
+   "Never as the",
+   "Never has the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1f4942b934a87c334a3ca7d3d585279b12d45e9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 508,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 6
+  },
+  "words_in": 4658,
+  "words_out": 4597,
+  "retention": 0.9869,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   100,
+   97,
+   228,
+   68,
+   145,
+   221,
+   184,
+   124,
+   88,
+   112,
+   144,
+   175,
+   168,
+   125,
+   151,
+   115,
+   137,
+   101,
+   141,
+   140,
+   177,
+   142,
+   161,
+   160,
+   180,
+   106,
+   208,
+   136,
+   103,
+   238,
+   113,
+   109
+  ],
+  "warnings": []
+ }
+}

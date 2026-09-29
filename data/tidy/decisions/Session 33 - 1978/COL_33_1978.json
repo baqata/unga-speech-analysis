@@ -1,0 +1,110 @@
+{
+ "id": "COL_33_1978",
+ "drop": [
+  [
+   68,
+   68,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  16,
+  22,
+  28,
+  34,
+  38,
+  39,
+  44,
+  49,
+  55,
+  61,
+  65,
+  69,
+  73,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "secure\\and",
+   "secure and",
+   "encoding"
+  ],
+  [
+   41,
+   " [see resolution 2749 (XXV), para. 1]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   " [resolution 32/196B]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "framework of M international",
+   "framework of an international",
+   "ocr"
+  ],
+  [
+   64,
+   " [resolution 2106 A (XX), annex] ,",
+   "",
+   "label"
+  ],
+  [
+   71,
+   " [see A/33/275, annex.]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 68 is a stray letter.",
+ "unitizer_version": 1,
+ "sha1": "6593ecc9f046c9b80a56ee78d561b868f5e451b2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2820,
+  "words_out": 2798,
+  "retention": 0.9922,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   98,
+   144,
+   126,
+   161,
+   274,
+   172,
+   266,
+   120,
+   51,
+   202,
+   171,
+   206,
+   195,
+   154,
+   102,
+   149,
+   132,
+   75
+  ],
+  "warnings": []
+ }
+}

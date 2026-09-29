@@ -1,0 +1,58 @@
+{
+ "id": "SVK_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  16,
+  22,
+  27,
+  33,
+  44,
+  56,
+  65,
+  69,
+  71,
+  79
+ ],
+ "cer": [
+  79
+ ],
+ "fix": [
+  [
+   17,
+   "old- fashioned",
+   "old-fashioned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbb6f1c97be4911ed0b43a73187ef5fb733d1d4c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1532,
+  "words_out": 1531,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   76,
+   204,
+   89,
+   93,
+   173,
+   219,
+   144,
+   118,
+   79,
+   87,
+   168,
+   81
+  ],
+  "warnings": []
+ }
+}

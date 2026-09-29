@@ -1,0 +1,205 @@
+{
+ "id": "ESP_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  18,
+  21,
+  25,
+  30,
+  35,
+  40,
+  46,
+  54,
+  57,
+  62,
+  65,
+  70,
+  74,
+  78,
+  81,
+  84,
+  91,
+  95,
+  98,
+  103,
+  105,
+  110,
+  113,
+  120,
+  125,
+  131,
+  134,
+  139,
+  142,
+  148,
+  154,
+  158,
+  163,
+  172,
+  176,
+  179,
+  181,
+  186,
+  188,
+  193
+ ],
+ "cer": [
+  0,
+  2,
+  9
+ ],
+ "fix": [
+  [
+   25,
+   "distrust, of",
+   "distrust of",
+   "ocr"
+  ],
+  [
+   41,
+   "the, language",
+   "the language",
+   "ocr"
+  ],
+  [
+   42,
+   "those, who",
+   "those who",
+   "ocr"
+  ],
+  [
+   42,
+   "maintaining, it",
+   "maintaining it",
+   "ocr"
+  ],
+  [
+   52,
+   "or, of",
+   "or of",
+   "ocr"
+  ],
+  [
+   55,
+   "once it;",
+   "once it",
+   "ocr"
+  ],
+  [
+   60,
+   "social. revolutionary",
+   "social revolutionary",
+   "ocr"
+  ],
+  [
+   77,
+   "substantial, part",
+   "substantial part",
+   "ocr"
+  ],
+  [
+   83,
+   "maybe",
+   "may be",
+   "spacing"
+  ],
+  [
+   116,
+   "numerical, importance",
+   "numerical importance",
+   "ocr"
+  ],
+  [
+   129,
+   "to. which",
+   "to which",
+   "ocr"
+  ],
+  [
+   133,
+   "security,",
+   "security.",
+   "ocr"
+  ],
+  [
+   153,
+   "nece 3ary",
+   "necessary",
+   "ocr"
+  ],
+  [
+   175,
+   "'he principles",
+   "the principles",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 157 breaks off mid-sentence before a new source paragraph; text appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "1290c988b448f2cb08953acce593a091b9450982",
+ "layout": "lines",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 9,
+   "paragraph_number": 44
+  },
+  "words_in": 6455,
+  "words_out": 6451,
+  "retention": 0.9994,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   60,
+   127,
+   223,
+   125,
+   152,
+   203,
+   139,
+   94,
+   203,
+   245,
+   133,
+   201,
+   179,
+   139,
+   194,
+   159,
+   110,
+   161,
+   204,
+   196,
+   104,
+   167,
+   107,
+   191,
+   153,
+   172,
+   135,
+   182,
+   120,
+   178,
+   134,
+   91,
+   170,
+   110,
+   185,
+   173,
+   107,
+   105,
+   74,
+   116,
+   57,
+   198,
+   175
+  ],
+  "warnings": []
+ }
+}

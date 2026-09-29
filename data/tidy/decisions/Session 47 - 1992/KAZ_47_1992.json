@@ -1,0 +1,92 @@
+{
+ "id": "KAZ_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  26,
+  40,
+  54,
+  61,
+  76,
+  93,
+  101,
+  110,
+  129,
+  147,
+  160,
+  178,
+  199,
+  210,
+  229,
+  245,
+  256
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "satisfaction. Sir,",
+   "satisfaction, Sir,",
+   "ocr"
+  ],
+  [
+   47,
+   "territory-,",
+   "territory,",
+   "ocr"
+  ],
+  [
+   75,
+   "he dissipated",
+   "be dissipated",
+   "ocr"
+  ],
+  [
+   126,
+   "There are.",
+   "There are,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c087dd27d8d017a62e5944c86663e8fd2016a21b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3085,
+  "words_out": 3085,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   40,
+   82,
+   176,
+   154,
+   167,
+   84,
+   175,
+   218,
+   91,
+   88,
+   241,
+   208,
+   146,
+   188,
+   244,
+   118,
+   222,
+   178,
+   133,
+   132
+  ],
+  "warnings": []
+ }
+}

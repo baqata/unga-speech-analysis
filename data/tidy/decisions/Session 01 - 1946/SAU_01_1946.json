@@ -1,0 +1,44 @@
+{
+ "id": "SAU_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13
+ ],
+ "cer": [
+  13
+ ],
+ "fix": [
+  [
+   8,
+   "'that",
+   "that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68863386e964351d0de2aa66bcfdf0d00f19a822",
+ "layout": "lines",
+ "stats": {
+  "n_units": 14,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 555,
+  "words_out": 555,
+  "retention": 1.0,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   150,
+   162,
+   120,
+   82,
+   41
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "KAZ_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  30,
+  59,
+  73,
+  101,
+  123,
+  137,
+  167
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d5079c25221807a444bef37ab0555f76b06b9d88",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 1,
+   "job_number": 1
+  },
+  "words_in": 1361,
+  "words_out": 1361,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   43,
+   177,
+   210,
+   108,
+   201,
+   163,
+   97,
+   238,
+   124
+  ],
+  "warnings": []
+ }
+}

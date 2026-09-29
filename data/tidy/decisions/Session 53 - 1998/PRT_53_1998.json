@@ -1,0 +1,115 @@
+{
+ "id": "PRT_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  31,
+  47,
+  69,
+  90,
+  111,
+  123,
+  132,
+  144,
+  157,
+  169,
+  183,
+  195,
+  201,
+  221,
+  230
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   26,
+   " (S/1998/318,",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "para. 5) ",
+   "",
+   "label"
+  ],
+  [
+   77,
+   "Protocol?s",
+   "Protocol’s",
+   "encoding"
+  ],
+  [
+   98,
+   "members?",
+   "members’",
+   "encoding"
+  ],
+  [
+   105,
+   "CPLP?s",
+   "CPLP’s",
+   "encoding"
+  ],
+  [
+   186,
+   "People?s",
+   "People’s",
+   "encoding"
+  ],
+  [
+   203,
+   "?98",
+   "’98",
+   "encoding"
+  ],
+  [
+   223,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dde01ae81d0ef97e4bd0be382f0fabec1ce4ac55",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2098,
+  "words_out": 2094,
+  "retention": 0.9981,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   75,
+   77,
+   112,
+   133,
+   192,
+   166,
+   181,
+   105,
+   69,
+   109,
+   111,
+   102,
+   125,
+   97,
+   53,
+   168,
+   74,
+   145
+  ],
+  "warnings": []
+ }
+}

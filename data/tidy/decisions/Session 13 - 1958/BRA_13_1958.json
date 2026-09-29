@@ -1,0 +1,74 @@
+{
+ "id": "BRA_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  17,
+  20,
+  24,
+  29,
+  31,
+  33
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "regional;",
+   "regional",
+   "ocr"
+  ],
+  [
+   16,
+   "H those",
+   "If those",
+   "ocr"
+  ],
+  [
+   25,
+   "Pain-American",
+   "Pan-American",
+   "ocr"
+  ],
+  [
+   34,
+   "crushed,",
+   "crushed.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a75d9c682ee6e22018678c19d4c224200613e31",
+ "layout": "lines",
+ "stats": {
+  "n_units": 35,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1382,
+  "words_out": 1382,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   82,
+   183,
+   192,
+   186,
+   106,
+   139,
+   220,
+   113,
+   71,
+   90
+  ],
+  "warnings": []
+ }
+}

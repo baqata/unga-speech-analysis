@@ -1,0 +1,97 @@
+{
+ "id": "DOM_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  16,
+  18,
+  21,
+  25,
+  28,
+  33,
+  36,
+  39,
+  41,
+  44,
+  48,
+  52
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "He also",
+   "We also",
+   "ocr"
+  ],
+  [
+   4,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   14,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   21,
+   "Read",
+   "Head",
+   "ocr"
+  ],
+  [
+   24,
+   "Re is",
+   "He is",
+   "ocr"
+  ],
+  [
+   26,
+   "Hunan",
+   "Human",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01185884166295762c5cf59b117064f95a44ee34",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1796,
+  "words_out": 1796,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   150,
+   148,
+   77,
+   165,
+   97,
+   100,
+   102,
+   114,
+   154,
+   90,
+   82,
+   61,
+   100,
+   137,
+   143,
+   76
+  ],
+  "warnings": []
+ }
+}

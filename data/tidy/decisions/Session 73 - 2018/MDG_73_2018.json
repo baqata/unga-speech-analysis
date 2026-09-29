@@ -1,0 +1,93 @@
+{
+ "id": "MDG_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  10,
+  17,
+  19,
+  24,
+  29,
+  34,
+  38,
+  42,
+  46,
+  51,
+  53,
+  56,
+  59,
+  66,
+  71,
+  81,
+  86,
+  90,
+  93
+ ],
+ "cer": [
+  2,
+  90
+ ],
+ "fix": [
+  [
+   8,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   20,
+   "gender- based",
+   "gender-based",
+   "hyphen"
+  ],
+  [
+   59,
+   "Secretary-General. the",
+   "Secretary-General, the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fdec30198395d87a684a727b0547ad8d8d942e58",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2287,
+  "words_out": 2285,
+  "retention": 0.9991,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   62,
+   99,
+   85,
+   98,
+   132,
+   88,
+   113,
+   100,
+   82,
+   131,
+   99,
+   90,
+   105,
+   80,
+   77,
+   86,
+   165,
+   142,
+   148,
+   75,
+   89,
+   72,
+   67
+  ],
+  "warnings": []
+ }
+}

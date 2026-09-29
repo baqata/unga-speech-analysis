@@ -1,0 +1,78 @@
+{
+ "id": "SWZ_27_1972",
+ "drop": [
+  [
+   9,
+   9,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  17,
+  19,
+  25,
+  30,
+  34,
+  40,
+  46,
+  51,
+  57,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "Angola Will",
+   "Angola will",
+   "ocr"
+  ],
+  [
+   56,
+   "if seems",
+   "it seems",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9747942ee74512c9c0790557532297657508037f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1596,
+  "words_out": 1595,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   122,
+   114,
+   106,
+   73,
+   75,
+   124,
+   130,
+   104,
+   156,
+   138,
+   126,
+   180,
+   66,
+   81
+  ],
+  "warnings": []
+ }
+}

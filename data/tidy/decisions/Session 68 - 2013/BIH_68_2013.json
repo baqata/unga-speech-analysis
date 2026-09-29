@@ -1,0 +1,74 @@
+{
+ "id": "BIH_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  25,
+  45,
+  50,
+  77,
+  87,
+  100,
+  109,
+  124,
+  142,
+  151,
+  165,
+  174,
+  185,
+  198,
+  212,
+  225,
+  233,
+  243
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "Sejdi.-Finci",
+   "Sejdić-Finci",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8234f329bb69ea4897ca19b8eff6cb7afeab8af4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2023,
+  "words_out": 2023,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   80,
+   117,
+   153,
+   43,
+   201,
+   80,
+   101,
+   66,
+   127,
+   145,
+   72,
+   115,
+   74,
+   83,
+   109,
+   108,
+   97,
+   71,
+   88,
+   93
+  ],
+  "warnings": []
+ }
+}

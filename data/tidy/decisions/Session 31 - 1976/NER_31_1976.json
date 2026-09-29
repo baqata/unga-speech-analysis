@@ -1,0 +1,181 @@
+{
+ "id": "NER_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  7,
+  12,
+  16,
+  19,
+  22,
+  27,
+  32,
+  35,
+  40,
+  43,
+  48,
+  53,
+  58,
+  63,
+  67,
+  73,
+  77,
+  81,
+  86,
+  91,
+  97,
+  102,
+  105,
+  108,
+  112,
+  117,
+  120
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   11,
+   "placed ail our",
+   "placed all our",
+   "ocr"
+  ],
+  [
+   14,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   19,
+   " fOAUJ",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "pro-portions",
+   "proportions",
+   "hyphen"
+  ],
+  [
+   23,
+   " [Al31ll Add.l]",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "time, became the world",
+   "time, because the world",
+   "ocr"
+  ],
+  [
+   47,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   54,
+   "today, appears",
+   "today appears",
+   "ocr"
+  ],
+  [
+   72,
+   "This is; perhaps,",
+   "This is, perhaps,",
+   "ocr"
+  ],
+  [
+   72,
+   "the Industrialized countries",
+   "the industrialized countries",
+   "ocr"
+  ],
+  [
+   72,
+   "not- too",
+   "not-too",
+   "spacing"
+  ],
+  [
+   81,
+   "re-sources",
+   "resources",
+   "hyphen"
+  ],
+  [
+   82,
+   "SUS45.2",
+   "$US 45.2",
+   "ocr"
+  ],
+  [
+   96,
+   "non- manufactured",
+   "non-manufactured",
+   "spacing"
+  ],
+  [
+   104,
+   "so- we cannot",
+   "so we cannot",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2bd1b1f7cbdb3d2e0b7d34aa78e2620bc82330b9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3764,
+  "words_out": 3759,
+  "retention": 0.9987,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   51,
+   132,
+   76,
+   194,
+   104,
+   102,
+   197,
+   131,
+   100,
+   94,
+   141,
+   93,
+   182,
+   162,
+   156,
+   111,
+   166,
+   186,
+   104,
+   95,
+   124,
+   121,
+   162,
+   135,
+   94,
+   97,
+   146,
+   113,
+   136,
+   54
+  ],
+  "warnings": []
+ }
+}

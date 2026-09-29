@@ -1,0 +1,92 @@
+{
+ "id": "NOR_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  19,
+  28,
+  37,
+  48,
+  54,
+  63,
+  69,
+  75,
+  79,
+  85,
+  89,
+  92,
+  98,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "all, 1 should",
+   "all, I should",
+   "ocr"
+  ],
+  [
+   12,
+   " [A/7201/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "follow. the",
+   "follow the",
+   "ocr"
+  ],
+  [
+   70,
+   "However, One",
+   "However, one",
+   "ocr"
+  ],
+  [
+   86,
+   "measure or a relatively",
+   "measure of a relatively",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4374e964e257cf5d1e05b8a9dfb1d5f17c896bbf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2073,
+  "words_out": 2044,
+  "retention": 0.986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   51,
+   179,
+   141,
+   123,
+   139,
+   174,
+   126,
+   124,
+   87,
+   96,
+   77,
+   137,
+   126,
+   78,
+   108,
+   146,
+   132
+  ],
+  "warnings": []
+ }
+}

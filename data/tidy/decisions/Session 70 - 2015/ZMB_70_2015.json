@@ -1,0 +1,72 @@
+{
+ "id": "ZMB_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  17,
+  23,
+  25,
+  31,
+  37,
+  42,
+  47,
+  49,
+  55,
+  59,
+  65,
+  68,
+  74,
+  78,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "gender- based",
+   "gender-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "25976bd92ddf1f56a80585d03d8fe3643d6e29fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 2204,
+  "words_out": 2199,
+  "retention": 0.9977,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   111,
+   161,
+   171,
+   141,
+   70,
+   198,
+   122,
+   125,
+   116,
+   66,
+   137,
+   94,
+   142,
+   90,
+   118,
+   128,
+   118,
+   91
+  ],
+  "warnings": []
+ }
+}

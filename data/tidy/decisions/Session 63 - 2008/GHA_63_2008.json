@@ -1,0 +1,58 @@
+{
+ "id": "GHA_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  31,
+  45,
+  59,
+  83,
+  95,
+  109,
+  125,
+  148,
+  166
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1535cad186124fbe6d86783a077d7d0310672ba5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1350,
+  "words_out": 1347,
+  "retention": 0.9978,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   95,
+   137,
+   98,
+   115,
+   189,
+   104,
+   107,
+   124,
+   176,
+   143,
+   59
+  ],
+  "warnings": []
+ }
+}

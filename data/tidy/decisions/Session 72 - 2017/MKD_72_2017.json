@@ -1,0 +1,70 @@
+{
+ "id": "MKD_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  11,
+  20,
+  28,
+  32,
+  36,
+  41,
+  49,
+  54,
+  63,
+  67,
+  74,
+  78,
+  84
+ ],
+ "cer": [
+  8
+ ],
+ "fix": [
+  [
+   4,
+   "countryy",
+   "country",
+   "ocr"
+  ],
+  [
+   68,
+   "quarter- century",
+   "quarter-century",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e898613e56fb84bc93b9de63cecbb7907b2e268",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1723,
+  "words_out": 1722,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   158,
+   89,
+   169,
+   171,
+   126,
+   78,
+   98,
+   164,
+   75,
+   172,
+   60,
+   125,
+   82,
+   95,
+   60
+  ],
+  "warnings": []
+ }
+}

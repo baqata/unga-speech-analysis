@@ -1,0 +1,78 @@
+{
+ "id": "CAF_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   126,
+   126,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  12,
+  15,
+  23,
+  28,
+  34,
+  40,
+  47,
+  50,
+  58,
+  76,
+  82,
+  92,
+  97,
+  105,
+  118,
+  124,
+  125
+ ],
+ "cer": [
+  125
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "599443f8913d5dde9fa55832adbec5f43c386920",
+ "layout": "single",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2354,
+  "words_out": 2310,
+  "retention": 0.9813,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   91,
+   137,
+   94,
+   125,
+   84,
+   150,
+   128,
+   153,
+   95,
+   117,
+   224,
+   119,
+   150,
+   130,
+   150,
+   219,
+   104,
+   36,
+   4
+  ],
+  "warnings": []
+ }
+}

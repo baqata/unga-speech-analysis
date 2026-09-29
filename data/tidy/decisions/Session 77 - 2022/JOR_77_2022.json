@@ -1,0 +1,54 @@
+{
+ "id": "JOR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  21,
+  27,
+  33,
+  39,
+  43,
+  46,
+  54
+ ],
+ "cer": [],
+ "fix": [
+  [
+   23,
+   " (see A/61/ PV.7)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f1705ccd66e48ca1657355cf3e494785edd9950",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1128,
+  "words_out": 1125,
+  "retention": 0.9973,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   142,
+   87,
+   104,
+   132,
+   110,
+   89,
+   106,
+   71,
+   73,
+   157,
+   54
+  ],
+  "warnings": []
+ }
+}

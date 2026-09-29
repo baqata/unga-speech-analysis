@@ -1,0 +1,133 @@
+{
+ "id": "SWZ_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  9,
+  13,
+  17,
+  20,
+  23,
+  28,
+  30,
+  36,
+  38,
+  42,
+  46,
+  50,
+  51,
+  58,
+  60,
+  61
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  60
+ ],
+ "fix": [
+  [
+   3,
+   "thirty- first",
+   "thirty-first",
+   "hyphen"
+  ],
+  [
+   4,
+   "to an.",
+   "to an",
+   "ocr"
+  ],
+  [
+   18,
+   "given • attention",
+   "given attention",
+   "markup"
+  ],
+  [
+   19,
+   "minimum- size",
+   "minimum-size",
+   "hyphen"
+  ],
+  [
+   20,
+   "the heed",
+   "the need",
+   "ocr"
+  ],
+  [
+   30,
+   "non- racial",
+   "non-racial",
+   "hyphen"
+  ],
+  [
+   35,
+   "hope' that",
+   "hope that",
+   "ocr"
+  ],
+  [
+   44,
+   "starting- points",
+   "starting-points",
+   "hyphen"
+  ],
+  [
+   51,
+   "two- thirds",
+   "two-thirds",
+   "hyphen"
+  ],
+  [
+   60,
+   "his. staff",
+   "his staff",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a5a061ef46775908dc602c2770980283a9eca0c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 1967,
+  "words_out": 1961,
+  "retention": 0.9969,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   83,
+   55,
+   46,
+   121,
+   74,
+   127,
+   121,
+   68,
+   105,
+   79,
+   207,
+   63,
+   123,
+   170,
+   107,
+   58,
+   203,
+   63,
+   59,
+   29
+  ],
+  "warnings": []
+ }
+}

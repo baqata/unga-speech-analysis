@@ -1,0 +1,152 @@
+{
+ "id": "DZA_29_1974",
+ "drop": [
+  [
+   17,
+   17,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  18,
+  23,
+  28,
+  33,
+  35,
+  39,
+  41,
+  47,
+  51,
+  53,
+  57,
+  60,
+  65,
+  69,
+  74,
+  78,
+  80,
+  83,
+  86,
+  91,
+  97,
+  101,
+  103,
+  105,
+  108,
+  113
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "\".broad",
+   "abroad",
+   "ocr"
+  ],
+  [
+   32,
+   "bu: a test",
+   "but a test",
+   "ocr"
+  ],
+  [
+   39,
+   "o* Algeria",
+   "of Algeria",
+   "ocr"
+  ],
+  [
+   62,
+   "consideration^",
+   "considerations",
+   "ocr"
+  ],
+  [
+   64,
+   "There .are",
+   "There are",
+   "ocr"
+  ],
+  [
+   82,
+   "hand;",
+   "hand,",
+   "ocr"
+  ],
+  [
+   89,
+   "crisis in the result",
+   "crisis is the result",
+   "ocr"
+  ],
+  [
+   96,
+   "It we are",
+   "If we are",
+   "ocr"
+  ],
+  [
+   104,
+   "How-ever",
+   "However",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc2f6f16e10e5a7c72678ae5f9f5fd6ced908c65",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 4251,
+  "words_out": 4250,
+  "retention": 0.9998,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   126,
+   161,
+   165,
+   158,
+   160,
+   155,
+   169,
+   98,
+   149,
+   120,
+   150,
+   184,
+   102,
+   136,
+   143,
+   158,
+   143,
+   175,
+   128,
+   94,
+   120,
+   83,
+   187,
+   215,
+   191,
+   95,
+   83,
+   156,
+   154,
+   92
+  ],
+  "warnings": []
+ }
+}

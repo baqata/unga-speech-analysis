@@ -1,0 +1,141 @@
+{
+ "id": "MAR_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   2,
+   "noise"
+  ],
+  [
+   87,
+   87,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  6,
+  23,
+  29,
+  36,
+  42,
+  46,
+  48,
+  52,
+  56,
+  66,
+  70,
+  78,
+  81,
+  86
+ ],
+ "cer": [
+  3,
+  4,
+  86
+ ],
+ "fix": [
+  [
+   4,
+   "mr khalil rahman",
+   "Mr Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   4,
+   "general assembly",
+   "General Assembly",
+   "asr_name"
+  ],
+  [
+   4,
+   " i wish",
+   " I wish",
+   "asr_term"
+  ],
+  [
+   4,
+   " i also",
+   " I also",
+   "asr_term"
+  ],
+  [
+   4,
+   "secretary general antonio guterush",
+   "Secretary General Antonio Guterres",
+   "asr_name"
+  ],
+  [
+   50,
+   "Onroa",
+   "UNRWA",
+   "asr_name"
+  ],
+  [
+   64,
+   "Backline",
+   "Pipeline",
+   "asr_term"
+  ],
+  [
+   49,
+   "fields. and",
+   "fields and",
+   "asr_term"
+  ],
+  [
+   52,
+   "alarming. including",
+   "alarming including",
+   "asr_term"
+  ],
+  [
+   30,
+   "conflicts. these",
+   "conflicts. All these",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Khalilur Rahman is the PGA of the 81st session (UN); UNRWA and the African Atlantic Gas Pipeline per context and Spanish 'gasoducto'; units 1-2 are stray 'Amen.' and 'Thank you.' from the pause. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 30 'conflicts. these' -> 'conflicts. These'; unit 49 'fields. and' -> 'fields and'; unit 52 'alarming. including' -> 'alarming including'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 30 'conflicts. these' -> 'conflicts. All these' (2026 exception: both decodes hear 'All these' (0.99, 0.85); ES 'porque todos estos grupos utilizan la violencia'; written over the existing capital repair)",
+ "unitizer_version": 1,
+ "sha1": "9bca5bd729d916548650e359dc60311867bbcbaf",
+ "layout": "single",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2271,
+  "words_out": 2234,
+  "retention": 0.9837,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   15,
+   133,
+   213,
+   111,
+   180,
+   175,
+   97,
+   117,
+   187,
+   195,
+   251,
+   113,
+   162,
+   108,
+   174,
+   3
+  ],
+  "warnings": []
+ }
+}

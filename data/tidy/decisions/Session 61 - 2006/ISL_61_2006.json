@@ -1,0 +1,53 @@
+{
+ "id": "ISL_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  23,
+  38,
+  50,
+  68,
+  86,
+  99,
+  123,
+  142,
+  155,
+  175
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1329411a902b1fa30a8c655df53b847e88d3412e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1432,
+  "words_out": 1426,
+  "retention": 0.9958,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   90,
+   92,
+   106,
+   86,
+   143,
+   139,
+   103,
+   183,
+   159,
+   97,
+   164,
+   64
+  ],
+  "warnings": []
+ }
+}

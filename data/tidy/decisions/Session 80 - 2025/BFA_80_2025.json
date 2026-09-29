@@ -1,0 +1,104 @@
+{
+ "id": "BFA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   126,
+   126,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  11,
+  17,
+  21,
+  25,
+  31,
+  39,
+  46,
+  51,
+  57,
+  63,
+  66,
+  72,
+  82,
+  91,
+  97,
+  101,
+  109,
+  112,
+  118,
+  125
+ ],
+ "cer": [
+  2,
+  125
+ ],
+ "fix": [
+  [
+   53,
+   "Tarare",
+   "Traore",
+   "asr_name"
+  ],
+  [
+   83,
+   "ASS",
+   "AES",
+   "asr_name"
+  ],
+  [
+   88,
+   "ASS",
+   "AES",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0c7c48535404b06b34dc2b94f8a89b6f38ccc87",
+ "layout": "single",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2914,
+  "words_out": 2857,
+  "retention": 0.9804,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   167,
+   51,
+   152,
+   129,
+   137,
+   241,
+   195,
+   193,
+   78,
+   145,
+   117,
+   102,
+   97,
+   171,
+   185,
+   122,
+   103,
+   206,
+   99,
+   78,
+   86,
+   3
+  ],
+  "warnings": []
+ }
+}

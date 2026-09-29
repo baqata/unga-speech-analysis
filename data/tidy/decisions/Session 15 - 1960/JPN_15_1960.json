@@ -1,0 +1,134 @@
+{
+ "id": "JPN_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  19,
+  24,
+  34,
+  41,
+  49,
+  54,
+  59,
+  62,
+  68,
+  75,
+  82,
+  86,
+  92,
+  99,
+  100
+ ],
+ "cer": [
+  0,
+  100
+ ],
+ "fix": [
+  [
+   8,
+   "countries,",
+   "countries.",
+   "ocr"
+  ],
+  [
+   21,
+   " [1474 (ES-IV)]",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "Japan lias",
+   "Japan has",
+   "ocr"
+  ],
+  [
+   29,
+   "community,",
+   "community.",
+   "ocr"
+  ],
+  [
+   33,
+   "make-up, I consider",
+   "make-up. I consider",
+   "ocr"
+  ],
+  [
+   48,
+   "programmes, hi order",
+   "programmes. In order",
+   "ocr"
+  ],
+  [
+   56,
+   "United kingdom",
+   "United Kingdom",
+   "ocr"
+  ],
+  [
+   76,
+   "markets act only",
+   "markets not only",
+   "ocr"
+  ],
+  [
+   80,
+   "nipped, in",
+   "nipped in",
+   "ocr"
+  ],
+  [
+   99,
+   "worlds wide",
+   "world-wide",
+   "ocr"
+  ],
+  [
+   99,
+   "personnel, I hope",
+   "personnel. I hope",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "47deadd690df5a7653b2f129b7952bc50ff623d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 2721,
+  "words_out": 2712,
+  "retention": 0.9967,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   118,
+   130,
+   201,
+   114,
+   240,
+   200,
+   209,
+   122,
+   144,
+   122,
+   164,
+   160,
+   208,
+   108,
+   178,
+   174,
+   77,
+   43
+  ],
+  "warnings": []
+ }
+}

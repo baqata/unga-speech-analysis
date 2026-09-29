@@ -1,0 +1,159 @@
+{
+ "id": "CSK_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  11,
+  23,
+  29,
+  32,
+  39,
+  41,
+  45,
+  49,
+  56,
+  61,
+  66,
+  70,
+  77,
+  84,
+  92,
+  97,
+  103,
+  104,
+  108,
+  111,
+  122,
+  125,
+  129,
+  134,
+  137,
+  146,
+  151,
+  157,
+  162,
+  165,
+  176,
+  179
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   31,
+   "make*,",
+   "make,",
+   "ocr"
+  ],
+  [
+   39,
+   "Assentoly",
+   "Assembly",
+   "ocr"
+  ],
+  [
+   47,
+   "XXVTIth",
+   "XXVIIth",
+   "ocr"
+  ],
+  [
+   61,
+   "arras",
+   "arms",
+   "ocr"
+  ],
+  [
+   103,
+   "aid zones",
+   "and zones",
+   "ocr"
+  ],
+  [
+   123,
+   "prepare*",
+   "prepared",
+   "ocr"
+  ],
+  [
+   133,
+   "typg",
+   "type",
+   "ocr"
+  ],
+  [
+   136,
+   "different*,",
+   "different,",
+   "ocr"
+  ],
+  [
+   180,
+   "cc-opera tier. and",
+   "co-operation and",
+   "ocr"
+  ],
+  [
+   181,
+   "war end peace",
+   "war and peace",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b215993a8a89734116bc982207fb4f422f1ee19",
+ "layout": "lines",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4137,
+  "words_out": 4135,
+  "retention": 0.9995,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   33,
+   42,
+   82,
+   153,
+   157,
+   84,
+   155,
+   52,
+   95,
+   127,
+   114,
+   82,
+   124,
+   130,
+   126,
+   148,
+   152,
+   118,
+   125,
+   51,
+   137,
+   57,
+   235,
+   121,
+   108,
+   153,
+   68,
+   235,
+   121,
+   201,
+   121,
+   71,
+   176,
+   102,
+   79
+  ],
+  "warnings": []
+ }
+}

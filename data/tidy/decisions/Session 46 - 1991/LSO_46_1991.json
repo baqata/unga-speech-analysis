@@ -1,0 +1,103 @@
+{
+ "id": "LSO_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  6,
+  9,
+  14,
+  18,
+  20,
+  26,
+  27,
+  31,
+  34,
+  40,
+  44,
+  47,
+  49
+ ],
+ "cer": [
+  2,
+  49
+ ],
+ "fix": [
+  [
+   2,
+   "land credence",
+   "lend credence",
+   "ocr"
+  ],
+  [
+   5,
+   "Nations,",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   11,
+   "Ha welcome",
+   "We welcome",
+   "ocr"
+  ],
+  [
+   12,
+   "Me applaud",
+   "We applaud",
+   "ocr"
+  ],
+  [
+   30,
+   "civilisation,",
+   "civilisation.",
+   "ocr"
+  ],
+  [
+   35,
+   "of * he",
+   "of the",
+   "ocr"
+  ],
+  [
+   44,
+   "United Nat ions",
+   "United Nations",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "996746022fc596397cb57d29fdc922623da84cab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1549,
+  "words_out": 1547,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   62,
+   34,
+   110,
+   70,
+   160,
+   109,
+   62,
+   173,
+   67,
+   109,
+   117,
+   163,
+   115,
+   90,
+   51,
+   55
+  ],
+  "warnings": []
+ }
+}

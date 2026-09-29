@@ -1,0 +1,82 @@
+{
+ "id": "BGD_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  14,
+  19,
+  23,
+  26,
+  30,
+  35,
+  41,
+  46,
+  51,
+  59,
+  62,
+  68,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "Bangladesh-China- India-Myanmar",
+   "Bangladesh-China-India-Myanmar",
+   "hyphen"
+  ],
+  [
+   61,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   61,
+   "neuro- developmental",
+   "neuro-developmental",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9216e5b67432d7743615a68c741e4edb86317a6b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 1571,
+  "words_out": 1563,
+  "retention": 0.9949,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   42,
+   80,
+   76,
+   49,
+   98,
+   72,
+   74,
+   65,
+   80,
+   138,
+   136,
+   151,
+   137,
+   77,
+   122,
+   97,
+   69
+  ],
+  "warnings": []
+ }
+}

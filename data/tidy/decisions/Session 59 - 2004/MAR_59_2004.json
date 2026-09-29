@@ -1,0 +1,96 @@
+{
+ "id": "MAR_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  30,
+  50,
+  70,
+  82,
+  93,
+  109,
+  121,
+  134,
+  146,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   53,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   77,
+   "CÙte díIvoire",
+   "Côte d’Ivoire",
+   "encoding"
+  ],
+  [
+   85,
+   "governance ó the",
+   "governance — the",
+   "encoding"
+  ],
+  [
+   86,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   98,
+   "Israelís",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   138,
+   "organs ó including",
+   "organs — including",
+   "encoding"
+  ],
+  [
+   139,
+   "Council ó are",
+   "Council — are",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "713540b979642d252897666f98058637234dc09f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1259,
+  "words_out": 1259,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   110,
+   128,
+   147,
+   162,
+   95,
+   77,
+   120,
+   87,
+   95,
+   85,
+   109,
+   44
+  ],
+  "warnings": []
+ }
+}

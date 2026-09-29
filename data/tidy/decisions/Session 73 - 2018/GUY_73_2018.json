@@ -1,0 +1,104 @@
+{
+ "id": "GUY_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  15,
+  18,
+  24,
+  27,
+  32,
+  35,
+  45,
+  50,
+  55,
+  61,
+  63,
+  68,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ],
+  [
+   15,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   19,
+   " (A/73/1)",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "Secretary-Generalisbindingontheparties",
+   "Secretary-General is binding on the parties",
+   "merged_word"
+  ],
+  [
+   47,
+   "thethree",
+   "the three",
+   "merged_word"
+  ],
+  [
+   47,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   62,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f51ff2266e788c53be76cf54d473b0fa6994efcd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1916,
+  "words_out": 1917,
+  "retention": 1.0005,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   162,
+   78,
+   105,
+   66,
+   80,
+   123,
+   63,
+   113,
+   94,
+   210,
+   129,
+   111,
+   150,
+   74,
+   101,
+   116,
+   142
+  ],
+  "warnings": []
+ }
+}

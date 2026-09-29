@@ -1,0 +1,144 @@
+{
+ "id": "MRT_35_1980",
+ "drop": [
+  [
+   98,
+   98,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  16,
+  21,
+  24,
+  29,
+  31,
+  36,
+  43,
+  46,
+  49,
+  52,
+  59,
+  63,
+  66,
+  69,
+  72,
+  76,
+  80,
+  83,
+  88,
+  92,
+  96,
+  99,
+  104,
+  107,
+  111,
+  113,
+  115,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "I960",
+   "1960",
+   "ocr"
+  ],
+  [
+   30,
+   "racists,",
+   "racists.",
+   "ocr"
+  ],
+  [
+   40,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   110,
+   "Government.\"®",
+   "Government.\"",
+   "encoding"
+  ],
+  [
+   112,
+   "Assembly.10 In",
+   "Assembly. In",
+   "ocr"
+  ],
+  [
+   112,
+   " [POLISARIO]",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "adopted, The",
+   "adopted. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d1530ea8743e73a570777728c368776ad1dcf8c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 4062,
+  "words_out": 4059,
+  "retention": 0.9993,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   157,
+   136,
+   114,
+   64,
+   158,
+   103,
+   80,
+   86,
+   151,
+   216,
+   88,
+   77,
+   135,
+   208,
+   157,
+   121,
+   207,
+   78,
+   167,
+   132,
+   106,
+   145,
+   118,
+   108,
+   70,
+   183,
+   104,
+   134,
+   133,
+   114,
+   127,
+   82
+  ],
+  "warnings": []
+ }
+}

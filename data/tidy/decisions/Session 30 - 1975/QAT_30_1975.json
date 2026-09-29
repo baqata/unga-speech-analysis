@@ -1,0 +1,130 @@
+{
+ "id": "QAT_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  12,
+  16,
+  18,
+  21,
+  23,
+  25,
+  29,
+  30,
+  32,
+  36,
+  39,
+  40,
+  42
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   19,
+   "Ihe occupied",
+   "the occupied",
+   "ocr"
+  ],
+  [
+   22,
+   "arrogance,",
+   "arrogance.",
+   "ocr"
+  ],
+  [
+   24,
+   " [resolution 3263 (XXIXJ]",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "co nsolidate",
+   "consolidate",
+   "split_word"
+  ],
+  [
+   36,
+   "The Slate",
+   "The State",
+   "ocr"
+  ],
+  [
+   36,
+   "mayor Powers",
+   "major Powers",
+   "ocr"
+  ],
+  [
+   37,
+   "oil- producing",
+   "oil-producing",
+   "hyphen"
+  ],
+  [
+   38,
+   "raised','",
+   "raised?",
+   "ocr"
+  ],
+  [
+   39,
+   "petroleum- consuming",
+   "petroleum-consuming",
+   "hyphen"
+  ],
+  [
+   39,
+   "positive- ness",
+   "positiveness",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "785358e8afea81b8b0601acdfad19ba9dc91eb43",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 1580,
+  "words_out": 1572,
+  "retention": 0.9949,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   84,
+   62,
+   116,
+   133,
+   118,
+   75,
+   122,
+   67,
+   66,
+   104,
+   101,
+   107,
+   148,
+   68,
+   65,
+   77,
+   59
+  ],
+  "warnings": []
+ }
+}

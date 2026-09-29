@@ -1,0 +1,230 @@
+{
+ "id": "MOZ_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  15,
+  19,
+  26,
+  31,
+  35,
+  38,
+  42,
+  46,
+  53,
+  56,
+  60,
+  66,
+  68,
+  71,
+  79
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "2015. in",
+   "2015, in",
+   "ocr"
+  ],
+  [
+   4,
+   "all. leaving",
+   "all, leaving",
+   "ocr"
+  ],
+  [
+   7,
+   "2015. the",
+   "2015, the",
+   "ocr"
+  ],
+  [
+   9,
+   "Therefore.",
+   "Therefore,",
+   "ocr"
+  ],
+  [
+   10,
+   "Francis.",
+   "Francis,",
+   "ocr"
+  ],
+  [
+   11,
+   "us.",
+   "us,",
+   "ocr"
+  ],
+  [
+   14,
+   "statement. I",
+   "statement, I",
+   "ocr"
+  ],
+  [
+   19,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   22,
+   "2019. we",
+   "2019, we",
+   "ocr"
+  ],
+  [
+   23,
+   "Mozambicana. a",
+   "Mozambicana, a",
+   "ocr"
+  ],
+  [
+   26,
+   "process.",
+   "process,",
+   "ocr"
+  ],
+  [
+   44,
+   "are. coincidentally",
+   "are, coincidentally",
+   "ocr"
+  ],
+  [
+   47,
+   "Idai.",
+   "Idai,",
+   "ocr"
+  ],
+  [
+   49,
+   "far. we",
+   "far, we",
+   "ocr"
+  ],
+  [
+   54,
+   "way. we",
+   "way, we",
+   "ocr"
+  ],
+  [
+   54,
+   "SADC.",
+   "SADC,",
+   "ocr"
+  ],
+  [
+   60,
+   "Bassa. solar",
+   "Bassa, solar",
+   "ocr"
+  ],
+  [
+   61,
+   "year.",
+   "year,",
+   "ocr"
+  ],
+  [
+   63,
+   "2.172",
+   "2,172",
+   "ocr"
+  ],
+  [
+   63,
+   "gas. with",
+   "gas, with",
+   "ocr"
+  ],
+  [
+   64,
+   "2024. and",
+   "2024, and",
+   "ocr"
+  ],
+  [
+   64,
+   "1.500",
+   "1,500",
+   "ocr"
+  ],
+  [
+   65,
+   "2.700",
+   "2,700",
+   "ocr"
+  ],
+  [
+   69,
+   "2.574",
+   "2,574",
+   "ocr"
+  ],
+  [
+   73,
+   "We. the",
+   "We, the",
+   "ocr"
+  ],
+  [
+   78,
+   "However. 78",
+   "However, 78",
+   "ocr"
+  ],
+  [
+   80,
+   "end. we",
+   "end, we",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e187fd50b79870b197af1e95a5e7bbaf56055ed7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1890,
+  "words_out": 1890,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   93,
+   118,
+   87,
+   82,
+   87,
+   138,
+   112,
+   82,
+   65,
+   63,
+   89,
+   140,
+   68,
+   79,
+   153,
+   64,
+   101,
+   159,
+   110
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

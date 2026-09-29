@@ -1,0 +1,90 @@
+{
+ "id": "ETH_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   73,
+   73,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  9,
+  19,
+  27,
+  32,
+  42,
+  49,
+  55,
+  62,
+  69,
+  71
+ ],
+ "cer": [
+  2,
+  71
+ ],
+ "fix": [
+  [
+   2,
+   "Taye Akseselassie Amde, ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "President of the Federal Democratic Republic of Ethiopia ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   30,
+   "UNAT initiative",
+   "UN80 initiative",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a752209c7413dee8841c688ecf6e61a1055d52d0",
+ "layout": "single",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1466,
+  "words_out": 1402,
+  "retention": 0.9563,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   108,
+   83,
+   187,
+   127,
+   136,
+   146,
+   121,
+   112,
+   129,
+   185,
+   61,
+   7
+  ],
+  "warnings": []
+ }
+}

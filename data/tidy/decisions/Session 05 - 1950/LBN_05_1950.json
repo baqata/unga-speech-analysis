@@ -1,0 +1,77 @@
+{
+ "id": "LBN_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  12,
+  14,
+  19,
+  25,
+  29,
+  35,
+  38,
+  42,
+  47,
+  53,
+  59,
+  62,
+  69,
+  72,
+  75
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   " [resolution 190 (III)]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "into oblivion,",
+   "into oblivion.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a74e3f9182da08b1f09f31769d8d51584f70c8b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 29
+  },
+  "words_in": 2458,
+  "words_out": 2455,
+  "retention": 0.9988,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   205,
+   131,
+   77,
+   79,
+   117,
+   185,
+   84,
+   157,
+   110,
+   146,
+   148,
+   184,
+   168,
+   125,
+   179,
+   130,
+   97,
+   133
+  ],
+  "warnings": []
+ }
+}

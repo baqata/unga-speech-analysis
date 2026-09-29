@@ -1,0 +1,98 @@
+{
+ "id": "ECU_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  12,
+  17,
+  19,
+  24,
+  27,
+  30,
+  36,
+  41,
+  46,
+  49,
+  54,
+  61,
+  68,
+  72,
+  78,
+  86,
+  89,
+  96,
+  99,
+  104,
+  107,
+  115,
+  121,
+  124
+ ],
+ "cer": [
+  121
+ ],
+ "fix": [
+  [
+   3,
+   "be Instructive",
+   "be instructive",
+   "ocr"
+  ],
+  [
+   119,
+   "assuming Increasingly",
+   "assuming increasingly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dedc09e5c44410307dafce0cd542815a35f911a3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 4263,
+  "words_out": 4263,
+  "retention": 1.0,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   63,
+   127,
+   93,
+   95,
+   150,
+   108,
+   171,
+   81,
+   74,
+   195,
+   186,
+   154,
+   104,
+   209,
+   227,
+   167,
+   172,
+   162,
+   295,
+   108,
+   194,
+   99,
+   203,
+   142,
+   260,
+   223,
+   89,
+   112
+  ],
+  "warnings": []
+ }
+}

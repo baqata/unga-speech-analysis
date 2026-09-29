@@ -1,0 +1,73 @@
+{
+ "id": "AUS_61_2006",
+ "drop": [
+  [
+   86,
+   87,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  37,
+  55,
+  69,
+  81,
+  95,
+  104,
+  124,
+  141,
+  151,
+  168,
+  180,
+  194,
+  208,
+  217,
+  231
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93bac1e004442ecd97a5168dd2f3451fff2e4873",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1943,
+  "words_out": 1934,
+  "retention": 0.9954,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   119,
+   175,
+   152,
+   125,
+   102,
+   82,
+   73,
+   174,
+   119,
+   82,
+   148,
+   89,
+   120,
+   96,
+   65,
+   100,
+   113
+  ],
+  "warnings": [
+   "procedural drop [86,87] in the middle of the speech"
+  ]
+ }
+}

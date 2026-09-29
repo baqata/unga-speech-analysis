@@ -1,0 +1,56 @@
+{
+ "id": "UGA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  27,
+  39,
+  49,
+  68,
+  83,
+  98,
+  117,
+  127,
+  143,
+  152
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9104e9bb9e5f8a0ea2dd3bcdb8ac63b0c8ebde3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1191,
+  "words_out": 1187,
+  "retention": 0.9966,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   56,
+   37,
+   123,
+   81,
+   76,
+   139,
+   109,
+   103,
+   132,
+   74,
+   126,
+   69,
+   62
+  ],
+  "warnings": []
+ }
+}

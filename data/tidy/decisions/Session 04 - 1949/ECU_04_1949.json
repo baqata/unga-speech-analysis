@@ -1,0 +1,66 @@
+{
+ "id": "ECU_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  18,
+  21,
+  25,
+  29,
+  33,
+  36
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "of' transition",
+   "of transition",
+   "ocr"
+  ],
+  [
+   29,
+   "200(111)",
+   "200(III)",
+   "ocr"
+  ],
+  [
+   35,
+   "the. action",
+   "the action",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "4ee6f17753b0dc6d71e5af236ba19ed81f120630",
+ "layout": "lines",
+ "stats": {
+  "n_units": 37,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 1240,
+  "words_out": 1240,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   166,
+   179,
+   233,
+   136,
+   168,
+   119,
+   110,
+   75,
+   54
+  ],
+  "warnings": []
+ }
+}

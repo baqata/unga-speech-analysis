@@ -1,0 +1,58 @@
+{
+ "id": "NGA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  40,
+  52,
+  66,
+  79,
+  101,
+  116,
+  129,
+  141,
+  162,
+  173,
+  194,
+  211
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "753e4ba105f97b183c0685cce4f4a38a279268e6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1779,
+  "words_out": 1774,
+  "retention": 0.9972,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   105,
+   198,
+   92,
+   108,
+   98,
+   177,
+   116,
+   113,
+   93,
+   179,
+   82,
+   161,
+   126,
+   126
+  ],
+  "warnings": []
+ }
+}

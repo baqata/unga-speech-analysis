@@ -1,0 +1,119 @@
+{
+ "id": "BLR_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   152,
+   152,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  8,
+  21,
+  26,
+  36,
+  41,
+  49,
+  58,
+  70,
+  82,
+  94,
+  101,
+  110,
+  117,
+  122,
+  126,
+  135,
+  140,
+  145
+ ],
+ "cer": [],
+ "fix": [
+  [
+   42,
+   "unbrialled",
+   "unbridled",
+   "asr_term"
+  ],
+  [
+   68,
+   "Mosi-Oatunya",
+   "Mosi-oa-Tunya",
+   "asr_name"
+  ],
+  [
+   89,
+   "gaming",
+   "gaining",
+   "asr_term"
+  ],
+  [
+   47,
+   "we We",
+   "we",
+   "asr_term"
+  ],
+  [
+   13,
+   "disrupted. the",
+   "disrupted. The",
+   "asr_term"
+  ],
+  [
+   74,
+   "resources. but",
+   "resources. But",
+   "asr_term"
+  ],
+  [
+   146,
+   "afloat. but",
+   "afloat. But",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Mosi-oa-Tunya is the UNESCO World Heritage name of Victoria Falls; 'gaining momentum' fits the sentence where 'gaming' does not. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 47 'we We' -> 'we'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 13 'disrupted. the' -> 'disrupted. The'; unit 74 'resources. but' -> 'resources. But'; unit 146 'afloat. but' -> 'afloat. But'",
+ "unitizer_version": 1,
+ "sha1": "b62a2e734834bdbe67574b1544ee49bd38a42d31",
+ "layout": "single",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2614,
+  "words_out": 2588,
+  "retention": 0.9901,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   148,
+   221,
+   101,
+   146,
+   79,
+   132,
+   178,
+   161,
+   240,
+   199,
+   110,
+   144,
+   166,
+   86,
+   60,
+   164,
+   87,
+   49,
+   117
+  ],
+  "warnings": []
+ }
+}

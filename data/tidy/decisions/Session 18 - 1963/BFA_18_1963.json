@@ -1,0 +1,73 @@
+{
+ "id": "BFA_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  11,
+  15,
+  22,
+  28,
+  32,
+  37,
+  44,
+  52,
+  55,
+  59,
+  62,
+  66,
+  71,
+  76,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   78,
+   "tire",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech by Upper Volta, filed under Burkina Faso.",
+ "unitizer_version": 1,
+ "sha1": "39e83293399ec159474b99374b75d872848ed9f2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 30
+  },
+  "words_in": 2963,
+  "words_out": 2963,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   79,
+   221,
+   197,
+   120,
+   188,
+   195,
+   183,
+   246,
+   225,
+   189,
+   92,
+   218,
+   106,
+   158,
+   155,
+   140,
+   122,
+   129
+  ],
+  "warnings": []
+ }
+}

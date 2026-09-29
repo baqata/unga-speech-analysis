@@ -1,0 +1,83 @@
+{
+ "id": "DMA_76_2021",
+ "drop": [
+  [
+   7,
+   7,
+   "heading"
+  ],
+  [
+   28,
+   28,
+   "heading"
+  ],
+  [
+   40,
+   40,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  18,
+  23,
+  29,
+  33,
+  36,
+  41,
+  46,
+  50,
+  52,
+  57,
+  60
+ ],
+ "cer": [
+  0,
+  60
+ ],
+ "fix": [
+  [
+   35,
+   "donor- funded",
+   "donor-funded",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Section headings of the written statement dropped.",
+ "unitizer_version": 1,
+ "sha1": "5e7904074c5920afe993444f5dcb0314c4719080",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {
+   "heading": 3
+  },
+  "prestrip": {},
+  "words_in": 1919,
+  "words_out": 1912,
+  "retention": 0.9964,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   50,
+   136,
+   174,
+   208,
+   165,
+   143,
+   145,
+   127,
+   116,
+   211,
+   89,
+   98,
+   128,
+   119,
+   3
+  ],
+  "warnings": []
+ }
+}

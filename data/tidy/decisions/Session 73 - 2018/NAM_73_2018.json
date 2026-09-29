@@ -1,0 +1,66 @@
+{
+ "id": "NAM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  11,
+  16,
+  24,
+  26,
+  35,
+  42,
+  44,
+  55,
+  61,
+  65,
+  70,
+  74
+ ],
+ "cer": [
+  0,
+  1,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40265e8d406b58f521dd267908e333e50c7a059e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1926,
+  "words_out": 1920,
+  "retention": 0.9969,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   22,
+   111,
+   129,
+   103,
+   200,
+   69,
+   167,
+   159,
+   82,
+   229,
+   133,
+   124,
+   146,
+   105,
+   141
+  ],
+  "warnings": []
+ }
+}

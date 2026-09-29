@@ -1,0 +1,74 @@
+{
+ "id": "ITA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  23,
+  37,
+  50,
+  62,
+  79,
+  87,
+  104,
+  114,
+  125,
+  137,
+  146,
+  166,
+  187,
+  207,
+  228,
+  243,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   181,
+   "openings ,",
+   "openings,",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "358ac582a6bd396dd6d83677620f7decf1eb3d92",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 272,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2260,
+  "words_out": 2257,
+  "retention": 0.9987,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   102,
+   74,
+   110,
+   97,
+   95,
+   143,
+   73,
+   137,
+   88,
+   91,
+   106,
+   70,
+   181,
+   168,
+   175,
+   176,
+   125,
+   70,
+   176
+  ],
+  "warnings": []
+ }
+}

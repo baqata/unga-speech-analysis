@@ -1,0 +1,182 @@
+{
+ "id": "ECU_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  15,
+  23,
+  25,
+  29,
+  32,
+  39,
+  42,
+  47,
+  51,
+  55,
+  60,
+  66,
+  68,
+  70,
+  71,
+  73,
+  76,
+  79,
+  82,
+  85,
+  88,
+  92,
+  98,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Amerasinghe; through",
+   "Amerasinghe, through",
+   "ocr"
+  ],
+  [
+   2,
+   "Mr.'Gaston",
+   "Mr. Gaston",
+   "ocr"
+  ],
+  [
+   2,
+   "Prime Minuter",
+   "Prime Minister",
+   "ocr"
+  ],
+  [
+   9,
+   "promoting, the",
+   "promoting the",
+   "ocr"
+  ],
+  [
+   57,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   67,
+   "special, sessions",
+   "special sessions",
+   "ocr"
+  ],
+  [
+   68,
+   " [resolution 3362 (S-VII)]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "Paris'?",
+   "Paris",
+   "ocr"
+  ],
+  [
+   77,
+   "in die international",
+   "in the international",
+   "ocr"
+  ],
+  [
+   85,
+   "ocean gloor",
+   "ocean floor",
+   "ocr"
+  ],
+  [
+   85,
+   "res nuliius",
+   "res nullius",
+   "ocr"
+  ],
+  [
+   88,
+   "as die 200-mile",
+   "as the 200-mile",
+   "ocr"
+  ],
+  [
+   91,
+   "be \"guaranteed",
+   "be guaranteed",
+   "ocr"
+  ],
+  [
+   95,
+   "orbit Without",
+   "orbit without",
+   "ocr"
+  ],
+  [
+   96,
+   " [resolution 2749 (XXV)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "23bd575723f07f6783cf2ca18cbf569b360c2867",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3926,
+  "words_out": 3920,
+  "retention": 0.9985,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   155,
+   102,
+   177,
+   187,
+   160,
+   111,
+   117,
+   97,
+   162,
+   95,
+   206,
+   121,
+   144,
+   242,
+   248,
+   103,
+   107,
+   65,
+   90,
+   109,
+   137,
+   132,
+   90,
+   118,
+   169,
+   223,
+   154,
+   99
+  ],
+  "warnings": []
+ }
+}

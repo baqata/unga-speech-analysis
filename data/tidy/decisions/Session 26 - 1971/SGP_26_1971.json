@@ -1,0 +1,115 @@
+{
+ "id": "SGP_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  15,
+  21,
+  28,
+  34,
+  37,
+  43,
+  47,
+  50,
+  55,
+  59,
+  63,
+  73,
+  83,
+  90,
+  99,
+  108,
+  111,
+  114,
+  123,
+  125,
+  129,
+  132,
+  138,
+  140
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   6,
+   "Sir. to pay",
+   "Sir, to pay",
+   "ocr"
+  ],
+  [
+   35,
+   "not., it",
+   "not, it",
+   "ocr"
+  ],
+  [
+   62,
+   " [AIL.630 and Add.l]",
+   "",
+   "label"
+  ],
+  [
+   120,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   128,
+   "two ox three",
+   "two or three",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "918a04e51fe96dd409415d464727a6b18a7d1dc8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3037,
+  "words_out": 3034,
+  "retention": 0.999,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   165,
+   82,
+   127,
+   102,
+   146,
+   105,
+   66,
+   106,
+   90,
+   91,
+   116,
+   84,
+   104,
+   202,
+   214,
+   139,
+   161,
+   169,
+   77,
+   64,
+   149,
+   63,
+   115,
+   68,
+   97,
+   69,
+   63
+  ],
+  "warnings": []
+ }
+}

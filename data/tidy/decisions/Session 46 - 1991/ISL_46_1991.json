@@ -1,0 +1,101 @@
+{
+ "id": "ISL_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  14,
+  18,
+  26,
+  32,
+  38,
+  43,
+  48,
+  51,
+  55,
+  60,
+  63,
+  68,
+  72,
+  75,
+  79,
+  85,
+  88,
+  93,
+  99,
+  105
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   13,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   29,
+   "essential, We",
+   "essential. We",
+   "ocr"
+  ],
+  [
+   65,
+   "art fait",
+   "are fast",
+   "ocr"
+  ],
+  [
+   104,
+   "He must",
+   "We must",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4fc7309127b4c1ca099f25f9f457e07a76ffb81",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2527,
+  "words_out": 2526,
+  "retention": 0.9996,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   29,
+   119,
+   94,
+   98,
+   130,
+   155,
+   105,
+   122,
+   94,
+   88,
+   81,
+   92,
+   104,
+   84,
+   135,
+   128,
+   67,
+   113,
+   117,
+   91,
+   107,
+   138,
+   110,
+   125
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "MNG_72_2017",
+ "drop": [
+  [
+   85,
+   85,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  19,
+  25,
+  30,
+  34,
+  36,
+  42,
+  47,
+  54,
+  61,
+  69,
+  74,
+  77,
+  83
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "upper- middle-income",
+   "upper-middle-income",
+   "hyphen"
+  ],
+  [
+   53,
+   "in North- East Asia but",
+   "in North-East Asia but",
+   "hyphen"
+  ],
+  [
+   53,
+   "country in North- East",
+   "country in North-East",
+   "hyphen"
+  ],
+  [
+   72,
+   "community- friendly",
+   "community-friendly",
+   "hyphen"
+  ],
+  [
+   75,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   83,
+   "field- oriented",
+   "field-oriented",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d69b8312174405f6d9763fe92331d53cceea0b4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2053,
+  "words_out": 2024,
+  "retention": 0.9859,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   113,
+   108,
+   122,
+   85,
+   179,
+   109,
+   99,
+   60,
+   119,
+   134,
+   181,
+   170,
+   166,
+   97,
+   107,
+   122,
+   53
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "TUN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  34,
+  52,
+  66,
+  80,
+  92,
+  110,
+  123,
+  138,
+  155
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c89c5a8b86f67f60cbe0fd5116383fc0767c47d1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 173,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1278,
+  "words_out": 1278,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   111,
+   130,
+   138,
+   94,
+   107,
+   91,
+   141,
+   89,
+   110,
+   135,
+   132
+  ],
+  "warnings": []
+ }
+}

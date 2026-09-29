@@ -1,0 +1,188 @@
+{
+ "id": "BLR_33_1978",
+ "drop": [
+  [
+   55,
+   55,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  7,
+  10,
+  12,
+  17,
+  21,
+  23,
+  27,
+  30,
+  31,
+  34,
+  37,
+  41,
+  43,
+  48,
+  51,
+  53,
+  57,
+  59,
+  65,
+  68,
+  73,
+  76,
+  80,
+  89,
+  92,
+  94,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   " [resolution 32/155/",
+   "",
+   "label"
+  ],
+  [
+   33,
+   " [A/C.1I33I2]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   " (A/33/241, addendum, article A]",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "mete destructive",
+   "more destructive",
+   "ocr"
+  ],
+  [
+   47,
+   "leaders of ail States",
+   "leaders of all States",
+   "ocr"
+  ],
+  [
+   48,
+   "take mom effective",
+   "take more effective",
+   "ocr"
+  ],
+  [
+   50,
+   "Middle East and be achieved",
+   "Middle East can be achieved",
+   "ocr"
+  ],
+  [
+   50,
+   "full said unambiguous",
+   "full and unambiguous",
+   "ocr"
+  ],
+  [
+   54,
+   "conference o, Cyprus",
+   "conference on Cyprus",
+   "ocr"
+  ],
+  [
+   56,
+   " [resolution 3390 B (XXX)/",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "racist und colonialist",
+   "racist and colonialist",
+   "ocr"
+  ],
+  [
+   59,
+   " [A/33/262, sect.",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "III]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "Korea,",
+   "Korea.",
+   "ocr"
+  ],
+  [
+   97,
+   "in die world",
+   "in the world",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 55 is a stray letter.",
+ "unitizer_version": 1,
+ "sha1": "5b48cd278d97610ca3a228f53ae2660966e7e794",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3971,
+  "words_out": 3953,
+  "retention": 0.9955,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   61,
+   72,
+   109,
+   130,
+   172,
+   142,
+   111,
+   135,
+   91,
+   121,
+   149,
+   126,
+   146,
+   57,
+   97,
+   158,
+   120,
+   107,
+   126,
+   109,
+   183,
+   98,
+   236,
+   146,
+   177,
+   197,
+   104,
+   111,
+   162,
+   200
+  ],
+  "warnings": []
+ }
+}

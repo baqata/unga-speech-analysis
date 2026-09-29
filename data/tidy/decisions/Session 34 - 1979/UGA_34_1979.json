@@ -1,0 +1,142 @@
+{
+ "id": "UGA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  18,
+  26,
+  31,
+  39,
+  45,
+  49,
+  51,
+  58,
+  62,
+  66,
+  72,
+  77,
+  80,
+  83,
+  86,
+  89,
+  92,
+  98,
+  102,
+  106,
+  109,
+  115,
+  118,
+  120
+ ],
+ "cer": [
+  0,
+  3,
+  7
+ ],
+ "fix": [
+  [
+   57,
+   "by die puppet",
+   "by the puppet",
+   "ocr"
+  ],
+  [
+   60,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   76,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "North- South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   87,
+   "world, The developing",
+   "world. The developing",
+   "ocr"
+  ],
+  [
+   94,
+   "fanners",
+   "farmers",
+   "ocr"
+  ],
+  [
+   107,
+   "machinery, Indeed",
+   "machinery. Indeed",
+   "ocr"
+  ],
+  [
+   122,
+   "Europe -what",
+   "Europe what",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 6, a Charter quotation fragment, is displaced in the source (it belongs with the Charter quotations at units 21-25); kept in place.",
+ "unitizer_version": 1,
+ "sha1": "b5607d201f8fa2efae76936a86c7030415729a85",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 3215,
+  "words_out": 3211,
+  "retention": 0.9988,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   105,
+   97,
+   126,
+   118,
+   159,
+   116,
+   173,
+   130,
+   111,
+   84,
+   155,
+   126,
+   78,
+   166,
+   77,
+   106,
+   92,
+   125,
+   112,
+   73,
+   123,
+   129,
+   109,
+   78,
+   117,
+   87,
+   83,
+   156
+  ],
+  "warnings": []
+ }
+}

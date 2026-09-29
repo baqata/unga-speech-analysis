@@ -1,0 +1,54 @@
+{
+ "id": "SAU_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  11,
+  15,
+  24,
+  31,
+  37,
+  44
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "oil- pumping",
+   "oil-pumping",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b0a312322a855e25edd29a775e608cdfdec321be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1367,
+  "words_out": 1366,
+  "retention": 0.9993,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   62,
+   168,
+   74,
+   89,
+   126,
+   183,
+   154,
+   179,
+   232,
+   99
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "id": "HTI_29_1974",
+ "drop": [
+  [
+   42,
+   83,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  15,
+  17,
+  19,
+  22,
+  25,
+  27,
+  31,
+  34,
+  36
+ ],
+ "cer": [
+  3,
+  25
+ ],
+ "fix": [
+  [
+   1,
+   "East, We",
+   "East. We",
+   "ocr"
+  ],
+  [
+   12,
+   "frame-work",
+   "framework",
+   "hyphen"
+  ],
+  [
+   25,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   32,
+   "Jean- Claude",
+   "Jean-Claude",
+   "spacing"
+  ],
+  [
+   35,
+   "fields/Tin",
+   "fields. In",
+   "ocr"
+  ],
+  [
+   38,
+   "[See A/9601/Add.",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "1, sect. /.]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d794c743e2202b618e75c3d40c99218a8729678",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "repeat": 42
+  },
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2832,
+  "words_out": 1410,
+  "retention": 0.4979,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   94,
+   132,
+   106,
+   74,
+   107,
+   114,
+   128,
+   102,
+   75,
+   155,
+   103,
+   83,
+   137
+  ],
+  "warnings": [
+   "retention 0.50 < 0.85"
+  ]
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "id": "IRL_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  16,
+  21,
+  25,
+  30,
+  32,
+  39,
+  50,
+  55,
+  63,
+  69,
+  74,
+  86,
+  88,
+  91,
+  99,
+  107,
+  109,
+  118,
+  120,
+  127,
+  130,
+  137,
+  139,
+  141,
+  144,
+  149
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "it is light",
+   "it is right",
+   "ocr"
+  ],
+  [
+   20,
+   "man or-the",
+   "man or the",
+   "ocr"
+  ],
+  [
+   27,
+   "be devilled",
+   "bedevilled",
+   "split_word"
+  ],
+  [
+   131,
+   "representatives o! the",
+   "representatives of the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4701150966449a049c5ceaa2ff0bb982ff6cfa6a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 4227,
+  "words_out": 4227,
+  "retention": 1.0,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   125,
+   149,
+   178,
+   179,
+   130,
+   94,
+   62,
+   134,
+   229,
+   115,
+   177,
+   217,
+   152,
+   268,
+   89,
+   66,
+   198,
+   270,
+   59,
+   224,
+   62,
+   217,
+   66,
+   209,
+   87,
+   103,
+   89,
+   141,
+   138
+  ],
+  "warnings": []
+ }
+}

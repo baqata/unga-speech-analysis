@@ -1,0 +1,125 @@
+{
+ "id": "MDV_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  45,
+  69,
+  149,
+  177,
+  193
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   8,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   20,
+   "the Secretary",
+   "the Secretary-",
+   "spacing"
+  ],
+  [
+   52,
+   "nuclear weapon free",
+   "nuclear-weapon-free",
+   "spacing"
+  ],
+  [
+   56,
+   "to self",
+   "to self-",
+   "spacing"
+  ],
+  [
+   89,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   122,
+   "thewar",
+   "the war",
+   "merged_word"
+  ],
+  [
+   124,
+   "cease fire",
+   "cease-fire",
+   "spacing"
+  ],
+  [
+   126,
+   "non alignment",
+   "non-alignment",
+   "spacing"
+  ],
+  [
+   158,
+   "far the",
+   "for the",
+   "ocr"
+  ],
+  [
+   160,
+   "sea bed",
+   "sea-bed",
+   "spacing"
+  ],
+  [
+   178,
+   "self reliance",
+   "self-reliance",
+   "spacing"
+  ],
+  [
+   180,
+   "Follow Up",
+   "Follow-Up",
+   "spacing"
+  ],
+  [
+   183,
+   "ofthe",
+   "of the",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts forces very long paragraphs.",
+ "unitizer_version": 1,
+ "sha1": "63c9a311a9bebbdd15c8cc086a6489ed80c8e8ce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2178,
+  "words_out": 2168,
+  "retention": 0.9954,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   474,
+   248,
+   863,
+   300,
+   174,
+   109
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 474 words",
+   "paragraph at unit 69 has 863 words"
+  ]
+ }
+}

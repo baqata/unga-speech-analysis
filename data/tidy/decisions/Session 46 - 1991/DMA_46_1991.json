@@ -1,0 +1,63 @@
+{
+ "id": "DMA_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  16,
+  19,
+  24,
+  29,
+  35,
+  41,
+  45,
+  49,
+  53,
+  56
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   29,
+   "Duvaller",
+   "Duvalier",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fe613fdd53d60669fc22401a1da9d940ebc6d39a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1844,
+  "words_out": 1844,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   102,
+   110,
+   103,
+   130,
+   86,
+   190,
+   147,
+   198,
+   218,
+   86,
+   77,
+   107,
+   100,
+   190
+  ],
+  "warnings": []
+ }
+}

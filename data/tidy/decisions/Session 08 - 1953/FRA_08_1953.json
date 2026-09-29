@@ -1,0 +1,111 @@
+{
+ "id": "FRA_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  16,
+  21,
+  26,
+  27,
+  32,
+  38,
+  50,
+  54,
+  56,
+  61,
+  64,
+  67,
+  72,
+  77,
+  82,
+  90,
+  94,
+  97,
+  102,
+  106,
+  108,
+  112
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "white",
+   "while",
+   "ocr"
+  ],
+  [
+   31,
+   "dearly",
+   "clearly",
+   "ocr"
+  ],
+  [
+   44,
+   "dearly",
+   "clearly",
+   "ocr"
+  ],
+  [
+   63,
+   "negotiations?",
+   "negotiations,",
+   "ocr"
+  ],
+  [
+   100,
+   "_",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b793db2445041754136889e92d0146f8a4f61f4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 32
+  },
+  "words_in": 4166,
+  "words_out": 4164,
+  "retention": 0.9995,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   198,
+   120,
+   109,
+   171,
+   138,
+   166,
+   144,
+   169,
+   146,
+   280,
+   164,
+   106,
+   204,
+   114,
+   102,
+   123,
+   143,
+   269,
+   232,
+   128,
+   112,
+   155,
+   190,
+   94,
+   157,
+   230
+  ],
+  "warnings": []
+ }
+}

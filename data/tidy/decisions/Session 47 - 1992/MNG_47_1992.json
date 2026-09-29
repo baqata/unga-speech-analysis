@@ -1,0 +1,96 @@
+{
+ "id": "MNG_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  27,
+  41,
+  58,
+  79,
+  93,
+  104,
+  116,
+  136,
+  155,
+  176,
+  193,
+  207,
+  227,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   15,
+   "privilieged",
+   "privileged",
+   "ocr"
+  ],
+  [
+   27,
+   "antagonisitc",
+   "antagonistic",
+   "ocr"
+  ],
+  [
+   42,
+   "political.",
+   "political,",
+   "ocr"
+  ],
+  [
+   134,
+   "political/",
+   "political,",
+   "ocr"
+  ],
+  [
+   177,
+   "community.",
+   "community,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "20b9805c9e3a8cca4ee497da1497dd75f93208de",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2745,
+  "words_out": 2745,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   147,
+   135,
+   152,
+   198,
+   224,
+   154,
+   129,
+   136,
+   221,
+   197,
+   230,
+   189,
+   135,
+   213,
+   216,
+   69
+  ],
+  "warnings": []
+ }
+}

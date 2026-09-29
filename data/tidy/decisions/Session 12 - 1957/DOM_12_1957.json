@@ -1,0 +1,102 @@
+{
+ "id": "DOM_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  5,
+  7,
+  9,
+  13,
+  17,
+  20,
+  26,
+  29,
+  32,
+  37,
+  39,
+  45,
+  47,
+  48,
+  52,
+  53,
+  56,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "was setup",
+   "was set up",
+   "spacing"
+  ],
+  [
+   19,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   49,
+   "this unify",
+   "this unity",
+   "ocr"
+  ],
+  [
+   52,
+   "of International co-existence",
+   "of international co-existence",
+   "ocr"
+  ],
+  [
+   59,
+   "purposes mid principles",
+   "purposes and principles",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "62212cabecc92117f5ddd203f2a44341a890ff48",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2800,
+  "words_out": 2800,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   60,
+   159,
+   64,
+   127,
+   90,
+   91,
+   194,
+   137,
+   236,
+   119,
+   128,
+   129,
+   91,
+   221,
+   97,
+   86,
+   226,
+   73,
+   174,
+   188,
+   110
+  ],
+  "warnings": []
+ }
+}

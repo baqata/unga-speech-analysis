@@ -1,0 +1,193 @@
+{
+ "id": "MMR_13_1958",
+ "drop": [
+  [
+   19,
+   19,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  10,
+  20,
+  32,
+  40,
+  44,
+  52,
+  55,
+  65,
+  70,
+  77,
+  82,
+  86
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "Small advantage",
+   "small advantage",
+   "ocr"
+  ],
+  [
+   5,
+   "efforts, for",
+   "efforts for",
+   "ocr"
+  ],
+  [
+   7,
+   "by' design",
+   "by design",
+   "ocr"
+  ],
+  [
+   11,
+   "dense of fear",
+   "sense of fear",
+   "ocr"
+  ],
+  [
+   20,
+   "nuclear war, may",
+   "nuclear war may",
+   "ocr"
+  ],
+  [
+   23,
+   "Ideals",
+   "ideals",
+   "ocr"
+  ],
+  [
+   26,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   26,
+   "people, in this",
+   "people in this",
+   "ocr"
+  ],
+  [
+   35,
+   "Under-developed",
+   "under-developed",
+   "ocr"
+  ],
+  [
+   54,
+   "Work",
+   "work",
+   "ocr"
+  ],
+  [
+   57,
+   "non- Communists",
+   "non-Communists",
+   "hyphen"
+  ],
+  [
+   65,
+   "f am",
+   "I am",
+   "ocr"
+  ],
+  [
+   67,
+   "Committee. with",
+   "Committee, with",
+   "ocr"
+  ],
+  [
+   68,
+   "the-off-shore",
+   "the off-shore",
+   "ocr"
+  ],
+  [
+   70,
+   "Interested",
+   "interested",
+   "ocr"
+  ],
+  [
+   74,
+   "open dash",
+   "open clash",
+   "ocr"
+  ],
+  [
+   75,
+   "at matter",
+   "a matter",
+   "ocr"
+  ],
+  [
+   75,
+   "ding to",
+   "cling to",
+   "ocr"
+  ],
+  [
+   76,
+   "dose to",
+   "close to",
+   "ocr"
+  ],
+  [
+   77,
+   "Indulgence",
+   "indulgence",
+   "ocr"
+  ],
+  [
+   84,
+   "it is. keeping",
+   "it is keeping",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 19 is a stray paragraph number ('90.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "fefdbad6569538d0cdb4881856dbcc81453b02b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 16
+  },
+  "words_in": 2276,
+  "words_out": 2275,
+  "retention": 0.9996,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   79,
+   204,
+   173,
+   304,
+   237,
+   83,
+   149,
+   85,
+   240,
+   219,
+   219,
+   125,
+   142,
+   16
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

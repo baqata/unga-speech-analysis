@@ -1,0 +1,123 @@
+{
+ "id": "BGR_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  9,
+  10,
+  16,
+  27,
+  28,
+  31,
+  34,
+  37,
+  41,
+  43,
+  50,
+  55,
+  57,
+  62,
+  64,
+  66,
+  70,
+  74,
+  77,
+  80,
+  83,
+  86,
+  88,
+  89,
+  92
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   36,
+   "military- strategic",
+   "military-strategic",
+   "hyphen"
+  ],
+  [
+   50,
+   "designed- to",
+   "designed to",
+   "ocr"
+  ],
+  [
+   52,
+   "the- racist",
+   "the racist",
+   "ocr"
+  ],
+  [
+   68,
+   "inducing their",
+   "including their",
+   "ocr"
+  ],
+  [
+   81,
+   "on r. democratic",
+   "on a democratic",
+   "ocr"
+  ],
+  [
+   83,
+   "'their",
+   "their",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbd3ff9943bdf640ae4fe0c63c1021074ef653f1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3175,
+  "words_out": 3174,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   39,
+   60,
+   279,
+   52,
+   196,
+   204,
+   43,
+   99,
+   108,
+   85,
+   129,
+   77,
+   159,
+   135,
+   85,
+   176,
+   84,
+   79,
+   179,
+   150,
+   85,
+   106,
+   127,
+   113,
+   90,
+   68,
+   94,
+   73
+  ],
+  "warnings": []
+ }
+}

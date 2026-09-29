@@ -1,0 +1,116 @@
+{
+ "id": "QAT_41_1986",
+ "drop": [
+  [
+   9,
+   9,
+   "procedural"
+  ],
+  [
+   28,
+   28,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  8,
+  13,
+  16,
+  18,
+  25,
+  29,
+  31,
+  32,
+  37,
+  40,
+  44,
+  47,
+  50,
+  52,
+  57,
+  63,
+  65,
+  68
+ ],
+ "cer": [
+  0,
+  6,
+  8
+ ],
+ "fix": [
+  [
+   13,
+   "Secretary-Genet.^",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   55,
+   "bs resolved",
+   "be resolved",
+   "ocr"
+  ],
+  [
+   67,
+   "lw-interest",
+   "low-interest",
+   "ocr"
+  ],
+  [
+   8,
+   "Charter.*",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   41,
+   "States.The",
+   "States. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "601a794960140fd71b8728719952845638d60243",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {
+   "procedural": 1,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2143,
+  "words_out": 2134,
+  "retention": 0.9958,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   162,
+   65,
+   135,
+   131,
+   84,
+   126,
+   107,
+   91,
+   70,
+   99,
+   83,
+   213,
+   76,
+   129,
+   55,
+   112,
+   197,
+   71,
+   88,
+   40
+  ],
+  "warnings": [
+   "procedural drop [9,9] in the middle of the speech"
+  ]
+ }
+}

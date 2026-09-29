@@ -1,0 +1,144 @@
+{
+ "id": "QAT_37_1982",
+ "drop": [
+  [
+   73,
+   73,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  33,
+  43,
+  54,
+  64,
+  74,
+  87,
+  96,
+  107,
+  125,
+  134,
+  148,
+  161,
+  169,
+  184,
+  192,
+  209
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "the Secretary",
+   "the Secretary-",
+   "spacing"
+  ],
+  [
+   12,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   20,
+   "the Secretary",
+   "the Secretary-",
+   "spacing"
+  ],
+  [
+   23,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   32,
+   "super Power",
+   "super-Power",
+   "spacing"
+  ],
+  [
+   51,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   63,
+   "Israelitself",
+   "Israel itself",
+   "merged_word"
+  ],
+  [
+   80,
+   "connation",
+   "connection",
+   "ocr"
+  ],
+  [
+   113,
+   "Iraqi Iranian",
+   "Iraqi-Iranian",
+   "spacing"
+  ],
+  [
+   115,
+   "the act",
+   "the fact",
+   "ocr"
+  ],
+  [
+   155,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   201,
+   "modem",
+   "modern",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The word apartheid is missing in unit 154 (\"policies of and racial discrimination\").",
+ "unitizer_version": 1,
+ "sha1": "44966cb61e600c812452ea891090abb1c9501ec5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 2177,
+  "words_out": 2144,
+  "retention": 0.9848,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   133,
+   213,
+   97,
+   118,
+   96,
+   91,
+   128,
+   83,
+   115,
+   197,
+   101,
+   142,
+   131,
+   81,
+   144,
+   77,
+   151,
+   46
+  ],
+  "warnings": []
+ }
+}

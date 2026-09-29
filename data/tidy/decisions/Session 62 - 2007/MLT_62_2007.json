@@ -1,0 +1,72 @@
+{
+ "id": "MLT_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  39,
+  51,
+  60,
+  84,
+  101,
+  121,
+  143,
+  164,
+  173,
+  188,
+  200,
+  214,
+  222,
+  242,
+  256
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "(Press release GA/10619)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "84c052da40b9a9ef318b3e061e21e9f14d610724",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 9
+  },
+  "words_in": 2045,
+  "words_out": 2033,
+  "retention": 0.9941,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   101,
+   89,
+   100,
+   75,
+   70,
+   184,
+   151,
+   141,
+   184,
+   150,
+   66,
+   106,
+   96,
+   101,
+   58,
+   133,
+   113,
+   115
+  ],
+  "warnings": []
+ }
+}

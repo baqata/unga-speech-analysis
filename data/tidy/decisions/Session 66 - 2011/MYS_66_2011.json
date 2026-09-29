@@ -1,0 +1,62 @@
+{
+ "id": "MYS_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  42,
+  60,
+  70,
+  83,
+  95,
+  106,
+  116,
+  132,
+  142,
+  152,
+  164,
+  174,
+  187
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e6824c875397a05b2a7066bfb63c040c8aefa55f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 195,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1533,
+  "words_out": 1527,
+  "retention": 0.9961,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   75,
+   114,
+   161,
+   146,
+   83,
+   101,
+   83,
+   93,
+   81,
+   106,
+   78,
+   75,
+   89,
+   74,
+   98,
+   70
+  ],
+  "warnings": []
+ }
+}

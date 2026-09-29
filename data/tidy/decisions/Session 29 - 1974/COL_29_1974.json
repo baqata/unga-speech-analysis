@@ -1,0 +1,210 @@
+{
+ "id": "COL_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  4,
+  9,
+  13,
+  17,
+  21,
+  28,
+  34,
+  41,
+  46,
+  50,
+  55,
+  58,
+  68,
+  76,
+  81,
+  89,
+  92,
+  96,
+  98,
+  103,
+  107,
+  111
+ ],
+ "cer": [
+  0,
+  1,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "well- earned",
+   "well-earned",
+   "spacing"
+  ],
+  [
+   1,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   8,
+   "session?",
+   "session,",
+   "ocr"
+  ],
+  [
+   13,
+   "might wall be",
+   "might well be",
+   "ocr"
+  ],
+  [
+   51,
+   "surpassed\".8",
+   "surpassed\".",
+   "ocr"
+  ],
+  [
+   67,
+   "rote",
+   "role",
+   "ocr"
+  ],
+  [
+   71,
+   "inter-dependence",
+   "interdependence",
+   "hyphen"
+  ],
+  [
+   71,
+   "under-stood",
+   "understood",
+   "hyphen"
+  ],
+  [
+   86,
+   "target-able",
+   "targetable",
+   "hyphen"
+  ],
+  [
+   86,
+   " [MlRVs)",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "us attention",
+   "its attention",
+   "ocr"
+  ],
+  [
+   92,
+   "S1PR1",
+   "SIPRI",
+   "ocr"
+  ],
+  [
+   102,
+   "under-standing",
+   "understanding",
+   "hyphen"
+  ],
+  [
+   104,
+   "Inter-national",
+   "International",
+   "hyphen"
+  ],
+  [
+   105,
+   "foreign- exchange",
+   "foreign-exchange",
+   "spacing"
+  ],
+  [
+   105,
+   "tripled an price",
+   "tripled in price",
+   "ocr"
+  ],
+  [
+   106,
+   "[S^ AI9784, annex.]",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "brent he",
+   "breathe",
+   "ocr"
+  ],
+  [
+   76,
+   " [item 93]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "Atmoshpere",
+   "Atmosphere",
+   "ocr"
+  ],
+  [
+   97,
+   "nuclear warfare,",
+   "nuclear warfare.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c1b086e49b85efc551dbef1eaec0017563e4fc3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 3488,
+  "words_out": 3477,
+  "retention": 0.9968,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   44,
+   38,
+   56,
+   176,
+   123,
+   152,
+   158,
+   225,
+   193,
+   161,
+   148,
+   110,
+   145,
+   137,
+   238,
+   207,
+   130,
+   174,
+   135,
+   154,
+   120,
+   165,
+   111,
+   104,
+   73
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

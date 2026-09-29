@@ -1,0 +1,152 @@
+{
+ "id": "ITA_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  20,
+  23,
+  38,
+  43,
+  51,
+  60,
+  65,
+  75,
+  82,
+  86,
+  92,
+  95,
+  102,
+  108,
+  114,
+  120,
+  125,
+  130,
+  134,
+  137,
+  143,
+  150,
+  158,
+  167,
+  172,
+  178,
+  184
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "Joining",
+   "joining",
+   "ocr"
+  ],
+  [
+   8,
+   "XXIII,",
+   "XXIII.",
+   "ocr"
+  ],
+  [
+   37,
+   "[1209th meeting, para 4.]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   ", I believe",
+   ". I believe",
+   "ocr"
+  ],
+  [
+   110,
+   "hearing in mind",
+   "bearing in mind",
+   "ocr"
+  ],
+  [
+   128,
+   "afield",
+   "a field",
+   "merged_word"
+  ],
+  [
+   136,
+   "field,",
+   "field.",
+   "ocr"
+  ],
+  [
+   138,
+   "yesterday,",
+   "yesterday.",
+   "ocr"
+  ],
+  [
+   144,
+   ", At that",
+   ". At that",
+   "ocr"
+  ],
+  [
+   151,
+   "anew Austrian",
+   "a new Austrian",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a9bd6e1eab894d605fe35117a6e85c4d5e3000c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 4678,
+  "words_out": 4627,
+  "retention": 0.9891,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   95,
+   141,
+   119,
+   159,
+   82,
+   223,
+   149,
+   163,
+   187,
+   102,
+   255,
+   143,
+   105,
+   197,
+   118,
+   149,
+   136,
+   217,
+   147,
+   140,
+   122,
+   79,
+   70,
+   124,
+   238,
+   219,
+   242,
+   77,
+   208,
+   146,
+   75
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "DEU_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  17,
+  32,
+  45,
+  68,
+  91,
+  108,
+  124,
+  144,
+  155,
+  173,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   121,
+   "(see )",
+   "",
+   "label"
+  ],
+  [
+   210,
+   "(see decision 62/557)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4685aa3e6dd162a30d233afddc4921df749aa308",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1773,
+  "words_out": 1765,
+  "retention": 0.9955,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   27,
+   109,
+   132,
+   117,
+   187,
+   187,
+   138,
+   130,
+   163,
+   85,
+   165,
+   177,
+   148
+  ],
+  "warnings": []
+ }
+}

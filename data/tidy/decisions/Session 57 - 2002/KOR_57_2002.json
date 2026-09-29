@@ -1,0 +1,53 @@
+{
+ "id": "KOR_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  29,
+  50,
+  66,
+  77,
+  100,
+  108,
+  120,
+  143,
+  158,
+  170,
+  182
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "86dfd9ed20390c279b8c05d755ddd3986e4009a5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1483,
+  "words_out": 1478,
+  "retention": 0.9966,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   139,
+   77,
+   149,
+   122,
+   77,
+   185,
+   77,
+   87,
+   173,
+   125,
+   90,
+   94,
+   83
+  ],
+  "warnings": []
+ }
+}

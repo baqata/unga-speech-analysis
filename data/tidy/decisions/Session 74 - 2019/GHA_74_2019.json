@@ -1,0 +1,56 @@
+{
+ "id": "GHA_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  16,
+  22,
+  29,
+  31,
+  36,
+  42,
+  49,
+  52
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "short- circuiting",
+   "short-circuiting",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aeaead40d0ec4107436ee81219b65404245ea07f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1610,
+  "words_out": 1609,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   69,
+   213,
+   148,
+   123,
+   234,
+   93,
+   110,
+   160,
+   200,
+   105,
+   154
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "id": "ECU_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  19,
+  22,
+  28,
+  31,
+  43,
+  47,
+  54,
+  55,
+  62,
+  65,
+  69,
+  78,
+  81,
+  89,
+  95,
+  101,
+  104,
+  108,
+  113,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Absolute",
+   "absolute",
+   "ocr"
+  ],
+  [
+   6,
+   "Space",
+   "space",
+   "ocr"
+  ],
+  [
+   15,
+   "-like",
+   "like",
+   "ocr"
+  ],
+  [
+   26,
+   "world achieve",
+   "would achieve",
+   "ocr"
+  ],
+  [
+   28,
+   "used;",
+   "used",
+   "ocr"
+  ],
+  [
+   29,
+   "Utopian",
+   "utopian",
+   "ocr"
+  ],
+  [
+   33,
+   "bused on-the",
+   "based on the",
+   "ocr"
+  ],
+  [
+   34,
+   "lentering",
+   "entering",
+   "ocr"
+  ],
+  [
+   35,
+   "how closing",
+   "now closing",
+   "ocr"
+  ],
+  [
+   40,
+   "field.",
+   "field,",
+   "ocr"
+  ],
+  [
+   54,
+   "Solution",
+   "solution",
+   "ocr"
+  ],
+  [
+   54,
+   "United'-Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   76,
+   "hot at",
+   "not at",
+   "ocr"
+  ],
+  [
+   81,
+   "is;",
+   "is",
+   "ocr"
+  ],
+  [
+   86,
+   "by. the",
+   "by the",
+   "ocr"
+  ],
+  [
+   95,
+   "lust fight",
+   "last fight",
+   "ocr"
+  ],
+  [
+   100,
+   "of, this",
+   "of this",
+   "ocr"
+  ],
+  [
+   101,
+   "137, ",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "the, binding",
+   "the binding",
+   "ocr"
+  ],
+  [
+   108,
+   "politically:,",
+   "politically,",
+   "ocr"
+  ],
+  [
+   111,
+   "equality, of",
+   "equality of",
+   "ocr"
+  ],
+  [
+   119,
+   "142, ",
+   "",
+   "label"
+  ],
+  [
+   119,
+   "Assembly, Everyone",
+   "Assembly. Everyone",
+   "ocr"
+  ],
+  [
+   119,
+   "review In",
+   "review in",
+   "ocr"
+  ],
+  [
+   119,
+   "developments,",
+   "developments.",
+   "ocr"
+  ],
+  [
+   120,
+   "143, ",
+   "",
+   "label"
+  ],
+  [
+   121,
+   "Instrument",
+   "instrument",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 40-41 are one sentence split by a misread period; the comma is restored.",
+ "unitizer_version": 1,
+ "sha1": "b4a4c13f840beeb42af5daffd4e785bb1ae79d3a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 24
+  },
+  "words_in": 3092,
+  "words_out": 3088,
+  "retention": 0.9987,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   68,
+   169,
+   138,
+   87,
+   82,
+   147,
+   83,
+   243,
+   107,
+   184,
+   78,
+   145,
+   56,
+   162,
+   195,
+   77,
+   265,
+   133,
+   108,
+   64,
+   79,
+   165,
+   138,
+   115
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

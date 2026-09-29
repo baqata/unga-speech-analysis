@@ -1,0 +1,94 @@
+{
+ "id": "BLZ_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   119,
+   119,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  12,
+  18,
+  28,
+  31,
+  40,
+  50,
+  57,
+  68,
+  78,
+  83,
+  86,
+  91,
+  99,
+  110,
+  118
+ ],
+ "cer": [
+  2,
+  118
+ ],
+ "fix": [
+  [
+   103,
+   "Sarastoon",
+   "Sarstoon",
+   "asr_name"
+  ],
+  [
+   105,
+   "ICGA",
+   "ICJ",
+   "asr_name"
+  ],
+  [
+   109,
+   "Sarastoon",
+   "Sarstoon",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "773e3808d9a76cf13d45f50f12fff2bdbb3cd482",
+ "layout": "single",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1998,
+  "words_out": 1931,
+  "retention": 0.9665,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   4,
+   178,
+   107,
+   159,
+   120,
+   153,
+   102,
+   86,
+   196,
+   172,
+   88,
+   57,
+   87,
+   103,
+   174,
+   142,
+   3
+  ],
+  "warnings": []
+ }
+}

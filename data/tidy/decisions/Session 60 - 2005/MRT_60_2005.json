@@ -1,0 +1,47 @@
+{
+ "id": "MRT_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  48,
+  63,
+  85,
+  103,
+  123,
+  149,
+  165
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4b073dce829da66ca8238b5b2bf57efc248b8666",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 178,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1385,
+  "words_out": 1384,
+  "retention": 0.9993,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   174,
+   203,
+   126,
+   156,
+   155,
+   147,
+   195,
+   120,
+   108
+  ],
+  "warnings": []
+ }
+}

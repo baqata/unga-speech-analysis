@@ -1,0 +1,60 @@
+{
+ "id": "BHS_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  19,
+  25,
+  27,
+  33,
+  38,
+  43,
+  46,
+  49,
+  55
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "preservingmarineecosystemsincoastal",
+   "preserving marine ecosystems in coastal",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3701b583be78f8b8e4ad72266ddd06c6381f79b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1291,
+  "words_out": 1295,
+  "retention": 1.0031,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   81,
+   108,
+   164,
+   78,
+   117,
+   85,
+   132,
+   127,
+   105,
+   62,
+   65,
+   112,
+   59
+  ],
+  "warnings": []
+ }
+}

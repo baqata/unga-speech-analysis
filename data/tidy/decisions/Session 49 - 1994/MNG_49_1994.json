@@ -1,0 +1,88 @@
+{
+ "id": "MNG_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  18,
+  27,
+  47,
+  59,
+  75,
+  88,
+  99,
+  107,
+  122,
+  134,
+  147,
+  162,
+  171,
+  187,
+  199,
+  216,
+  233,
+  240,
+  251,
+  266,
+  278,
+  284
+ ],
+ "cer": [
+  0,
+  6,
+  9
+ ],
+ "fix": [
+  [
+   83,
+   "yspecific",
+   "specific",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9115696fc9a76ac21eecaca0b2b73bd022aef1e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 297,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2395,
+  "words_out": 2387,
+  "retention": 0.9967,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   46,
+   18,
+   74,
+   77,
+   173,
+   87,
+   130,
+   112,
+   93,
+   59,
+   115,
+   97,
+   105,
+   134,
+   71,
+   126,
+   95,
+   134,
+   133,
+   64,
+   85,
+   123,
+   96,
+   42,
+   98
+  ],
+  "warnings": []
+ }
+}

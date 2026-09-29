@@ -1,0 +1,98 @@
+{
+ "id": "SOM_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  16,
+  22,
+  28,
+  34,
+  46,
+  51,
+  56,
+  59,
+  64,
+  67,
+  69,
+  74,
+  79,
+  82,
+  88,
+  96,
+  101,
+  106,
+  110,
+  112,
+  115
+ ],
+ "cer": [
+  0,
+  2,
+  7
+ ],
+ "fix": [
+  [
+   55,
+   "19 86-19 90",
+   "1986-1990",
+   "spacing"
+  ],
+  [
+   75,
+   "security, Somalia believes",
+   "security. Somalia believes",
+   "ocr"
+  ],
+  [
+   83,
+   "(PID)",
+   "(PLO)",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "258a46592978f9aaa54dbb4bec5ca000b6e765e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3283,
+  "words_out": 3281,
+  "retention": 0.9994,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   62,
+   134,
+   78,
+   143,
+   166,
+   175,
+   170,
+   234,
+   119,
+   179,
+   85,
+   139,
+   74,
+   69,
+   102,
+   184,
+   90,
+   161,
+   220,
+   154,
+   112,
+   122,
+   83,
+   92,
+   134
+  ],
+  "warnings": []
+ }
+}

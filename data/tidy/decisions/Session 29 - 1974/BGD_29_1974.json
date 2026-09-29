@@ -1,0 +1,111 @@
+{
+ "id": "BGD_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  19,
+  24,
+  28,
+  35,
+  43,
+  46,
+  50,
+  54,
+  60,
+  63,
+  66,
+  69,
+  74,
+  80,
+  85
+ ],
+ "cer": [
+  6,
+  8
+ ],
+ "fix": [
+  [
+   27,
+   "lo shape",
+   "to shape",
+   "ocr"
+  ],
+  [
+   33,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   49,
+   "him-self",
+   "himself",
+   "hyphen"
+  ],
+  [
+   61,
+   "co-opera- lion",
+   "co-operation",
+   "ocr"
+  ],
+  [
+   68,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   77,
+   "Mr,",
+   "Mr.",
+   "ocr"
+  ],
+  [
+   42,
+   "per annum,",
+   "per annum.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff2261af8a9f0ee26fac381fdf15019bd6e213de",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2651,
+  "words_out": 2646,
+  "retention": 0.9981,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   162,
+   63,
+   106,
+   167,
+   101,
+   147,
+   170,
+   247,
+   89,
+   156,
+   136,
+   165,
+   109,
+   101,
+   94,
+   133,
+   212,
+   136,
+   152
+  ],
+  "warnings": []
+ }
+}

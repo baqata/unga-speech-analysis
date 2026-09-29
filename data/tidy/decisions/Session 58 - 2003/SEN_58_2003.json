@@ -1,0 +1,86 @@
+{
+ "id": "SEN_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  33,
+  59,
+  82,
+  105,
+  122,
+  138,
+  155,
+  170,
+  181,
+  198,
+  219,
+  229,
+  252,
+  273,
+  300,
+  313,
+  336
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   71,
+   "CÙte",
+   "Côte",
+   "encoding"
+  ],
+  [
+   87,
+   "d'Ètat",
+   "d'état",
+   "encoding"
+  ],
+  [
+   101,
+   "d'Ètat",
+   "d'état",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "321f7b9f483b671441ac7ec9b32a77c93a874327",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 354,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2882,
+  "words_out": 2879,
+  "retention": 0.999,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   162,
+   92,
+   217,
+   174,
+   193,
+   131,
+   139,
+   138,
+   139,
+   74,
+   152,
+   176,
+   93,
+   190,
+   163,
+   224,
+   113,
+   178,
+   131
+  ],
+  "warnings": []
+ }
+}

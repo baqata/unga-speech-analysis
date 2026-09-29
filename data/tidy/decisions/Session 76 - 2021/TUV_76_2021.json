@@ -1,0 +1,73 @@
+{
+ "id": "TUV_76_2021",
+ "drop": [
+  [
+   1,
+   1,
+   "heading"
+  ],
+  [
+   7,
+   7,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  22,
+  31,
+  36,
+  41,
+  48,
+  54,
+  60,
+  65,
+  70,
+  73,
+  79,
+  82
+ ],
+ "cer": [
+  0,
+  82
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dfd8e8a9b3bd01370325a0fa6d423bc7ecc1e1c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "heading": 2
+  },
+  "prestrip": {},
+  "words_in": 1632,
+  "words_out": 1628,
+  "retention": 0.9975,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   11,
+   107,
+   77,
+   115,
+   143,
+   197,
+   125,
+   110,
+   104,
+   148,
+   98,
+   126,
+   79,
+   91,
+   88,
+   9
+  ],
+  "warnings": []
+ }
+}

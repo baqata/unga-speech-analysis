@@ -1,0 +1,136 @@
+{
+ "id": "UKR_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  19,
+  26,
+  30,
+  35,
+  39,
+  43,
+  48,
+  52,
+  55,
+  57,
+  64,
+  68,
+  73,
+  79,
+  81,
+  88,
+  94,
+  97,
+  101,
+  105,
+  108,
+  113,
+  116
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "atmosphere,",
+   "atmosphere.",
+   "ocr"
+  ],
+  [
+   49,
+   "foreign,",
+   "foreign",
+   "ocr"
+  ],
+  [
+   55,
+   "\",",
+   "\".",
+   "ocr"
+  ],
+  [
+   73,
+   "rums,",
+   "ruins.",
+   "ocr"
+  ],
+  [
+   89,
+   "way.",
+   "way",
+   "ocr"
+  ],
+  [
+   106,
+   "submitted.to",
+   "submitted to",
+   "ocr"
+  ],
+  [
+   106,
+   "nations”,",
+   "nations”.",
+   "ocr"
+  ],
+  [
+   110,
+   "dear",
+   "clear",
+   "ocr"
+  ],
+  [
+   112,
+   "of-this",
+   "of this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5489e745b7cf6df3da512e4232e05b27d83f7543",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3780,
+  "words_out": 3780,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   61,
+   154,
+   133,
+   226,
+   198,
+   183,
+   130,
+   138,
+   145,
+   199,
+   197,
+   114,
+   121,
+   166,
+   127,
+   107,
+   167,
+   68,
+   196,
+   166,
+   96,
+   135,
+   124,
+   126,
+   155,
+   96,
+   52
+  ],
+  "warnings": []
+ }
+}

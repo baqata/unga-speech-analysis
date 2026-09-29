@@ -1,0 +1,77 @@
+{
+ "id": "CAF_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  11,
+  19,
+  25,
+  27,
+  29,
+  31,
+  34,
+  38,
+  43,
+  45,
+  48
+ ],
+ "cer": [
+  4,
+  6
+ ],
+ "fix": [
+  [
+   1,
+   "following!",
+   "following:",
+   "ocr"
+  ],
+  [
+   35,
+   "aero",
+   "zero",
+   "ocr"
+  ],
+  [
+   47,
+   "than these",
+   "then these",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "72b77ebc7589d8588af2f2b3f6c0840ac4f59887",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2027,
+  "words_out": 2026,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   230,
+   101,
+   149,
+   88,
+   249,
+   160,
+   99,
+   137,
+   97,
+   154,
+   137,
+   182,
+   66,
+   91,
+   86
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "LBR_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  19,
+  26,
+  36,
+  44,
+  60,
+  80,
+  91,
+  100,
+  114,
+  124,
+  136,
+  160,
+  172,
+  187,
+  199,
+  215,
+  233
+ ],
+ "cer": [
+  0,
+  12,
+  19
+ ],
+ "fix": [
+  [
+   9,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ],
+  [
+   186,
+   "a11",
+   "all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71c2c5a7676c14c38fefac1059a8e83e0d35bebd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2006,
+  "words_out": 2002,
+  "retention": 0.998,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   106,
+   45,
+   59,
+   80,
+   57,
+   117,
+   158,
+   89,
+   75,
+   111,
+   79,
+   92,
+   208,
+   108,
+   114,
+   97,
+   128,
+   141,
+   138
+  ],
+  "warnings": []
+ }
+}

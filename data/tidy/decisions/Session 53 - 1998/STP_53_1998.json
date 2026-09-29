@@ -1,0 +1,56 @@
+{
+ "id": "STP_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  17,
+  34,
+  47,
+  63,
+  74,
+  86,
+  95,
+  107,
+  121,
+  126,
+  143
+ ],
+ "cer": [
+  0,
+  143
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "403ba38327b89431b658bc7bd1864ea5d2f81c8d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1218,
+  "words_out": 1218,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   45,
+   103,
+   128,
+   99,
+   131,
+   100,
+   100,
+   73,
+   114,
+   113,
+   36,
+   155,
+   21
+  ],
+  "warnings": []
+ }
+}

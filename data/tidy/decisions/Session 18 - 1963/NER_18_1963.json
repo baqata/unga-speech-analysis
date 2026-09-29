@@ -1,0 +1,96 @@
+{
+ "id": "NER_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  17,
+  22,
+  29,
+  35,
+  40,
+  43,
+  49,
+  52,
+  57,
+  61,
+  64,
+  67,
+  69,
+  77,
+  81,
+  89,
+  94,
+  97,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "pan- African",
+   "pan-African",
+   "spacing"
+  ],
+  [
+   20,
+   "well- organized",
+   "well-organized",
+   "spacing"
+  ],
+  [
+   67,
+   "that We wish",
+   "that we wish",
+   "ocr"
+  ],
+  [
+   96,
+   "enhancing Its",
+   "enhancing its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c1b1380e55af7bab16e18bec4dcaaca316ab0db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2979,
+  "words_out": 2947,
+  "retention": 0.9893,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   193,
+   183,
+   131,
+   116,
+   225,
+   88,
+   152,
+   80,
+   102,
+   110,
+   111,
+   89,
+   87,
+   116,
+   70,
+   234,
+   85,
+   172,
+   101,
+   114,
+   269,
+   119
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "FIN_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  39,
+  49,
+  59,
+  69,
+  79,
+  90
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "Council ó and",
+   "Council — and",
+   "encoding"
+  ],
+  [
+   21,
+   "members ó must",
+   "members — must",
+   "encoding"
+  ],
+  [
+   24,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   37,
+   "Ä1 million",
+   "€1 million",
+   "encoding"
+  ],
+  [
+   54,
+   "peopleís",
+   "people’s",
+   "encoding"
+  ],
+  [
+   77,
+   "Commissionís",
+   "Commission’s",
+   "encoding"
+  ],
+  [
+   86,
+   "todayís",
+   "today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08d2228c051e8380235af55211985fea8be3b9eb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 742,
+  "words_out": 742,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   137,
+   169,
+   73,
+   73,
+   76,
+   67,
+   89,
+   58
+  ],
+  "warnings": []
+ }
+}

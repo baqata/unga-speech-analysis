@@ -1,0 +1,82 @@
+{
+ "id": "BRA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  18,
+  26,
+  32,
+  39,
+  44,
+  53,
+  58,
+  65,
+  68,
+  77,
+  82,
+  92,
+  96,
+  102,
+  111,
+  117,
+  121
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   86,
+   "Long- term",
+   "Long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e6cb454ef654654229d137a0bb87d58ec9db080d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2123,
+  "words_out": 2121,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   81,
+   93,
+   68,
+   71,
+   134,
+   92,
+   143,
+   86,
+   133,
+   73,
+   123,
+   78,
+   188,
+   90,
+   142,
+   78,
+   71,
+   152,
+   80,
+   62,
+   83
+  ],
+  "warnings": []
+ }
+}

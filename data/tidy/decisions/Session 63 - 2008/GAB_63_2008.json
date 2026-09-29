@@ -1,0 +1,55 @@
+{
+ "id": "GAB_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  37,
+  53,
+  73,
+  88,
+  100,
+  115,
+  131,
+  145,
+  161,
+  186,
+  202
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9ac261ad55672eb3bfe5c788baa7c283d024fbd7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1749,
+  "words_out": 1747,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   134,
+   169,
+   125,
+   143,
+   123,
+   106,
+   113,
+   113,
+   110,
+   140,
+   194,
+   135,
+   142
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "id": "BFA_43_1988",
+ "drop": [
+  [
+   73,
+   73,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  9,
+  13,
+  19,
+  22,
+  25,
+  31,
+  34,
+  37,
+  43,
+  47,
+  50,
+  54,
+  57,
+  62,
+  64,
+  67,
+  70,
+  72,
+  78,
+  80,
+  83,
+  85,
+  89,
+  92,
+  96,
+  98,
+  100
+ ],
+ "cer": [
+  0,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   29,
+   "ate any",
+   "are any",
+   "ocr"
+  ],
+  [
+   35,
+   "а monstrous",
+   "a monstrous",
+   "encoding"
+  ],
+  [
+   39,
+   "Rut it",
+   "But it",
+   "ocr"
+  ],
+  [
+   41,
+   "roust",
+   "must",
+   "ocr"
+  ],
+  [
+   46,
+   "wish to „ salute",
+   "wish to salute",
+   "ocr"
+  ],
+  [
+   50,
+   "199U",
+   "1990",
+   "ocr"
+  ],
+  [
+   55,
+   "Burkina Paso",
+   "Burkina Faso",
+   "ocr"
+  ],
+  [
+   69,
+   "dashed-by",
+   "dashed by",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26c3f210a1e9fc780c765cdfc3d1bb7d82e852d4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2806,
+  "words_out": 2804,
+  "retention": 0.9993,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   88,
+   71,
+   37,
+   125,
+   152,
+   98,
+   76,
+   151,
+   91,
+   95,
+   92,
+   85,
+   110,
+   106,
+   82,
+   100,
+   68,
+   82,
+   68,
+   53,
+   158,
+   60,
+   72,
+   94,
+   93,
+   86,
+   162,
+   90,
+   58,
+   101
+  ],
+  "warnings": []
+ }
+}

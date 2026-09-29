@@ -1,0 +1,76 @@
+{
+ "id": "BEL_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  19,
+  47,
+  58,
+  75,
+  95,
+  127,
+  136,
+  159,
+  180,
+  194,
+  208,
+  221,
+  237,
+  251,
+  283,
+  307,
+  325,
+  348
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   125,
+   "FrÈchette",
+   "Fréchette",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b7a7476b26675084dd7ead47b5f6af70adb89058",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 360,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2945,
+  "words_out": 2941,
+  "retention": 0.9986,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   66,
+   80,
+   229,
+   76,
+   142,
+   147,
+   232,
+   79,
+   198,
+   169,
+   127,
+   120,
+   111,
+   134,
+   113,
+   262,
+   203,
+   150,
+   194,
+   109
+  ],
+  "warnings": []
+ }
+}

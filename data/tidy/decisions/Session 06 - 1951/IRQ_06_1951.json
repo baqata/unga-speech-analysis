@@ -1,0 +1,96 @@
+{
+ "id": "IRQ_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  17,
+  20,
+  24,
+  30,
+  38,
+  46,
+  55,
+  63,
+  69,
+  79,
+  87,
+  94,
+  98,
+  106,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   " lo ",
+   " to ",
+   "ocr"
+  ],
+  [
+   61,
+   "foiling",
+   "failing",
+   "ocr"
+  ],
+  [
+   65,
+   "to-create",
+   "to create",
+   "spacing"
+  ],
+  [
+   82,
+   "subjugation,",
+   "subjugation.",
+   "ocr"
+  ],
+  [
+   40,
+   " [335th and 336th meetings]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "05aeb7e469edddacfab31a71696afd8f552bbd22",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 3022,
+  "words_out": 3019,
+  "retention": 0.999,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   102,
+   185,
+   112,
+   121,
+   144,
+   162,
+   158,
+   219,
+   256,
+   205,
+   228,
+   222,
+   181,
+   154,
+   89,
+   250,
+   105,
+   126
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "CZE_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  13,
+  18,
+  26,
+  37,
+  42,
+  50,
+  56,
+  61,
+  67
+ ],
+ "cer": [
+  2,
+  67
+ ],
+ "fix": [
+  [
+   46,
+   "UN-AIDS initiative",
+   "UN80 initiative",
+   "asr_name"
+  ],
+  [
+   46,
+   "Chekaev",
+   "Czechia",
+   "asr_name"
+  ],
+  [
+   53,
+   "Chekaev",
+   "Czechia",
+   "asr_name"
+  ],
+  [
+   57,
+   "Chekaev",
+   "Czechia",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "36c9fa9c4eaca6257b2b607a5b96a9fefd639114",
+ "layout": "single",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1233,
+  "words_out": 1202,
+  "retention": 0.9749,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   17,
+   157,
+   78,
+   183,
+   207,
+   123,
+   172,
+   109,
+   94,
+   60,
+   2
+  ],
+  "warnings": []
+ }
+}

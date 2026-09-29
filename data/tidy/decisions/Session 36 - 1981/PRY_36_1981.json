@@ -1,0 +1,90 @@
+{
+ "id": "PRY_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  4,
+  8,
+  13,
+  16,
+  19,
+  22,
+  25,
+  26,
+  27,
+  32,
+  38
+ ],
+ "cer": [
+  1,
+  3
+ ],
+ "fix": [
+  [
+   28,
+   "... our powerful",
+   "\"... our powerful",
+   "ocr"
+  ],
+  [
+   30,
+   "demagoguery, For us",
+   "demagoguery. For us",
+   "ocr"
+  ],
+  [
+   32,
+   "respect far the",
+   "respect for the",
+   "ocr"
+  ],
+  [
+   35,
+   "12,6 million",
+   "12.6 million",
+   "ocr"
+  ],
+  [
+   43,
+   "Minister,",
+   "Minister.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "332f88f056125eb1960eb1789d4ea00afb899d2b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 1421,
+  "words_out": 1421,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   33,
+   75,
+   33,
+   100,
+   104,
+   129,
+   78,
+   93,
+   99,
+   74,
+   69,
+   120,
+   220,
+   194
+  ],
+  "warnings": []
+ }
+}

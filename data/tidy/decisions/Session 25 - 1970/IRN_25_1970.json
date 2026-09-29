@@ -1,0 +1,141 @@
+{
+ "id": "IRN_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  22,
+  26,
+  29,
+  33,
+  37,
+  42,
+  46,
+  53,
+  58,
+  63,
+  67,
+  72,
+  80,
+  86,
+  89,
+  93,
+  97,
+  104,
+  105,
+  109,
+  114
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Organization-",
+   "Organization",
+   "ocr"
+  ],
+  [
+   10,
+   "'36.",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "well- established",
+   "well-established",
+   "hyphen"
+  ],
+  [
+   22,
+   "/242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "above- mentioned",
+   "above-mentioned",
+   "hyphen"
+  ],
+  [
+   56,
+   "policy .",
+   "policy.",
+   "spacing"
+  ],
+  [
+   58,
+   "political -systems",
+   "political systems",
+   "ocr"
+  ],
+  [
+   76,
+   "[A/8001 /Add.1 and Corr.1, para. 14].",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   104,
+   "Shatt- el-Arab",
+   "Shatt-el-Arab",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Includes the speaker's reply to the statement of Iraq on the Shatt-el-Arab dispute.",
+ "unitizer_version": 1,
+ "sha1": "9dff7e3c34e69b5947c144d49dcccf16dcaeaef3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 39
+  },
+  "words_in": 2867,
+  "words_out": 2848,
+  "retention": 0.9934,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   110,
+   122,
+   127,
+   138,
+   116,
+   113,
+   145,
+   118,
+   119,
+   94,
+   160,
+   81,
+   99,
+   118,
+   119,
+   247,
+   111,
+   80,
+   81,
+   96,
+   126,
+   98,
+   90,
+   108,
+   32
+  ],
+  "warnings": []
+ }
+}

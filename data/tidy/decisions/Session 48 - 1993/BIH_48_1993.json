@@ -1,0 +1,86 @@
+{
+ "id": "BIH_48_1993",
+ "drop": [
+  [
+   133,
+   133,
+   "header_footer"
+  ],
+  [
+   220,
+   220,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  16,
+  20,
+  30,
+  36,
+  44,
+  55,
+  65,
+  83,
+  94,
+  106,
+  137,
+  153,
+  177,
+  188,
+  203,
+  215,
+  225,
+  233,
+  241
+ ],
+ "cer": [
+  0,
+  8,
+  16,
+  20,
+  30
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68ec69d0df3a6b991658874fd5731d518f4d267d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 250,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2158,
+  "words_out": 2145,
+  "retention": 0.994,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   62,
+   69,
+   33,
+   82,
+   43,
+   72,
+   99,
+   78,
+   178,
+   103,
+   117,
+   240,
+   135,
+   210,
+   90,
+   131,
+   106,
+   72,
+   64,
+   73,
+   88
+  ],
+  "warnings": []
+ }
+}

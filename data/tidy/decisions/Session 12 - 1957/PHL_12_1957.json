@@ -1,0 +1,96 @@
+{
+ "id": "PHL_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  16,
+  22,
+  27,
+  33,
+  36,
+  44,
+  49,
+  54,
+  59,
+  62,
+  68,
+  73,
+  80,
+  87,
+  93,
+  98
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   "un enforceable",
+   "unenforceable",
+   "split_word"
+  ],
+  [
+   32,
+   "London mid now",
+   "London and now",
+   "ocr"
+  ],
+  [
+   45,
+   "on tills question",
+   "on this question",
+   "ocr"
+  ],
+  [
+   61,
+   "American, But",
+   "American. But",
+   "ocr"
+  ],
+  [
+   78,
+   "our time, History",
+   "our time. History",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "70036231082beccdcd2cf180857629d9728d8661",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 3243,
+  "words_out": 3242,
+  "retention": 0.9997,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   182,
+   172,
+   189,
+   170,
+   130,
+   149,
+   84,
+   285,
+   238,
+   168,
+   145,
+   162,
+   189,
+   171,
+   222,
+   254,
+   197,
+   89,
+   46
+  ],
+  "warnings": []
+ }
+}

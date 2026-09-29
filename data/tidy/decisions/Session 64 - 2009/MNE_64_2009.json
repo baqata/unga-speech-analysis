@@ -1,0 +1,61 @@
+{
+ "id": "MNE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  29,
+  46,
+  63,
+  90,
+  107,
+  133,
+  163,
+  181,
+  190,
+  208,
+  226,
+  236,
+  249,
+  261
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e876a3502b53288ec2efe654fd94246590531ecb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2013,
+  "words_out": 2010,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   93,
+   110,
+   115,
+   121,
+   189,
+   125,
+   189,
+   221,
+   149,
+   64,
+   130,
+   126,
+   71,
+   103,
+   87,
+   117
+  ],
+  "warnings": []
+ }
+}

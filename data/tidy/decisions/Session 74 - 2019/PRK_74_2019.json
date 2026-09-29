@@ -1,0 +1,64 @@
+{
+ "id": "PRK_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  13,
+  16,
+  19,
+  21,
+  23,
+  25,
+  27,
+  31
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "Korea- United",
+   "Korea-United",
+   "hyphen"
+  ],
+  [
+   28,
+   "Helms- Burton",
+   "Helms-Burton",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c837dad604093fc2d6a5c4e521743b76527abd3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 34,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1395,
+  "words_out": 1393,
+  "retention": 0.9986,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   53,
+   113,
+   140,
+   177,
+   134,
+   128,
+   110,
+   116,
+   109,
+   61,
+   145,
+   107
+  ],
+  "warnings": []
+ }
+}

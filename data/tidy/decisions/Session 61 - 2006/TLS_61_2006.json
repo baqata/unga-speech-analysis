@@ -1,0 +1,67 @@
+{
+ "id": "TLS_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  24,
+  38,
+  48,
+  64,
+  77,
+  89,
+  103,
+  126,
+  138,
+  149,
+  160,
+  173,
+  195,
+  214,
+  224
+ ],
+ "cer": [
+  0,
+  13,
+  24,
+  224
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7762568e19d8b82e66facc01995ac09261e4bfb7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 230,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "job_number": 2
+  },
+  "words_in": 1737,
+  "words_out": 1736,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   89,
+   77,
+   117,
+   72,
+   114,
+   97,
+   90,
+   108,
+   171,
+   94,
+   91,
+   89,
+   111,
+   150,
+   128,
+   87,
+   51
+  ],
+  "warnings": []
+ }
+}

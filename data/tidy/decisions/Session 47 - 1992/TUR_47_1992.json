@@ -1,0 +1,98 @@
+{
+ "id": "TUR_47_1992",
+ "drop": [
+  [
+   248,
+   248,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  12,
+  23,
+  37,
+  46,
+  54,
+  64,
+  77,
+  83,
+  90,
+  104,
+  115,
+  129,
+  139,
+  151,
+  165,
+  174,
+  187,
+  201,
+  212,
+  222,
+  235,
+  243
+ ],
+ "cer": [
+  0,
+  6,
+  12
+ ],
+ "fix": [
+  [
+   192,
+   "lot grown",
+   "not grown",
+   "ocr"
+  ],
+  [
+   252,
+   " (A/47/277)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 248 repeats unit 247 verbatim; dropped as repeat.",
+ "unitizer_version": 1,
+ "sha1": "4fa001acfe710f39a56967c590665e34719a39a3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 2865,
+  "words_out": 2854,
+  "retention": 0.9962,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   61,
+   62,
+   121,
+   158,
+   102,
+   85,
+   111,
+   149,
+   64,
+   77,
+   151,
+   117,
+   145,
+   115,
+   125,
+   159,
+   99,
+   131,
+   147,
+   115,
+   114,
+   147,
+   88,
+   211
+  ],
+  "warnings": []
+ }
+}

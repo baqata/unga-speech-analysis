@@ -1,0 +1,175 @@
+{
+ "id": "ETH_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   5,
+   "noise"
+  ],
+  [
+   7,
+   7,
+   "noise"
+  ],
+  [
+   8,
+   8,
+   "repeat"
+  ],
+  [
+   76,
+   77,
+   "presider"
+  ]
+ ],
+ "para": [
+  6,
+  13,
+  21,
+  27,
+  34,
+  39,
+  45,
+  52,
+  57,
+  63,
+  68,
+  71,
+  75
+ ],
+ "cer": [
+  6,
+  75
+ ],
+ "fix": [
+  [
+   6,
+   "Kalirur",
+   "Khalilur",
+   "asr_name"
+  ],
+  [
+   12,
+   "since our",
+   "sincere",
+   "asr_term"
+  ],
+  [
+   12,
+   "Annalina Barbok",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   12,
+   "eighth-year",
+   "eightieth",
+   "asr_term"
+  ],
+  [
+   28,
+   "fuel",
+   "few",
+   "asr_term"
+  ],
+  [
+   38,
+   "quarters",
+   "coders",
+   "asr_term"
+  ],
+  [
+   45,
+   "home of Africa",
+   "Horn of Africa",
+   "asr_name"
+  ],
+  [
+   46,
+   "fuming",
+   "fomenting",
+   "asr_term"
+  ],
+  [
+   63,
+   "60,000 MHz",
+   "60,000 MW",
+   "asr_term"
+  ],
+  [
+   63,
+   "13,000 MHz",
+   "13,000 MW",
+   "asr_term"
+  ],
+  [
+   66,
+   "Catholic",
+   "catalytic",
+   "asr_term"
+  ],
+  [
+   14,
+   "community. by",
+   "community by",
+   "asr_term"
+  ],
+  [
+   17,
+   "recently",
+   "resolutely",
+   "asr_term"
+  ],
+  [
+   6,
+   "United General",
+   "United Nations General",
+   "slip"
+  ],
+  [
+   64,
+   "providing",
+   "proving",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in English; hall chatter from the recovery pass dropped as noise and the second salutation decode as repeat; Spanish channel confirms octogesimo, unos pocos, 5 millones de programadores, cuerno de Africa, atizar, megavatios, demuestra, catalizador; PGA Khalilur Rahman per the Djibouti statement and Spanish Kalilu Rahman. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 14 'community. by' -> 'community by'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 6 'United General' -> 'United Nations General' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): the speaker said 'the United General Assembly' (decodes 0.99-1.00, the UN transcript), the body's name with a word left out; the Spanish channel is silent here, and the name of the body is a matter of record); spot 7 unit 17 'recently' -> 'resolutely' (decodes hear 'recently' only at 0.26 / 0.25; sounds alike; 'recently' does not fit an act at the UN's birth; ES 'Nos mantuvimos férreamente'; UN 'resolutely'); spot 27 unit 64 'providing' -> 'proving' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'providing' (decodes 1.00 / 1.00, the UN transcript; forced scoring -0.0 vs 'proving' -8.3); 'a clean energy project, providing that our shared waters and resources can generate progress' does not fit, and the Spanish 'que demuestra que nuestras aguas compartidas' shows 'proving')",
+ "unitizer_version": 1,
+ "sha1": "c6098ab7c3bf4862f1e4a077a7195a1457fd27b9",
+ "layout": "single",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 5,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 1597,
+  "words_out": 1488,
+  "retention": 0.9317,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   76,
+   198,
+   121,
+   114,
+   116,
+   105,
+   170,
+   116,
+   136,
+   148,
+   83,
+   100,
+   5
+  ],
+  "warnings": []
+ }
+}

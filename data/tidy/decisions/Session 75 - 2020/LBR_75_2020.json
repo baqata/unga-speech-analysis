@@ -1,0 +1,56 @@
+{
+ "id": "LBR_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  18,
+  20,
+  25,
+  29,
+  31,
+  34,
+  39,
+  45,
+  49,
+  56
+ ],
+ "cer": [
+  0,
+  9,
+  13,
+  56
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f5b8ee27338ebd0ba592350711c9b3b519bc10c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1394,
+  "words_out": 1394,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   38,
+   133,
+   145,
+   85,
+   99,
+   143,
+   73,
+   103,
+   172,
+   152,
+   120,
+   128,
+   3
+  ],
+  "warnings": []
+ }
+}

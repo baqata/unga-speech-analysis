@@ -1,0 +1,74 @@
+{
+ "id": "ITA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  19,
+  39,
+  50,
+  63,
+  71,
+  90,
+  104,
+  112,
+  130,
+  139,
+  151,
+  162,
+  178,
+  191,
+  207,
+  216,
+  226,
+  246
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   138,
+   "f lag",
+   "flag",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eae858308b0cf1fe6a6e928320cf175a289316d2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2077,
+  "words_out": 2076,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   43,
+   105,
+   171,
+   83,
+   118,
+   65,
+   142,
+   119,
+   67,
+   137,
+   75,
+   94,
+   92,
+   110,
+   88,
+   132,
+   60,
+   79,
+   162,
+   134
+  ],
+  "warnings": []
+ }
+}

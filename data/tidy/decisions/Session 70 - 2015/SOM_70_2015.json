@@ -1,0 +1,73 @@
+{
+ "id": "SOM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  10,
+  14,
+  22,
+  31,
+  36,
+  42,
+  49,
+  56,
+  61,
+  68,
+  71,
+  78,
+  88,
+  91,
+  96
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   1,
+   "sixty- ninth",
+   "sixty-ninth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2891445a782701b3870872a0cfacefe4f9ae1df4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1825,
+  "words_out": 1821,
+  "retention": 0.9978,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   49,
+   46,
+   91,
+   80,
+   95,
+   120,
+   134,
+   68,
+   83,
+   107,
+   127,
+   99,
+   103,
+   76,
+   120,
+   148,
+   75,
+   161,
+   39
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "PAN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  35,
+  54,
+  61,
+  79,
+  93,
+  106,
+  126,
+  141,
+  151,
+  170,
+  188,
+  202
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   55,
+   "activities'towards",
+   "activities towards",
+   "ocr"
+  ],
+  [
+   145,
+   "eguity",
+   "equity",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e7ce5a0bc9355c3299699d870db0e31b290817d9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 205,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2302,
+  "words_out": 2303,
+  "retention": 1.0004,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   63,
+   117,
+   210,
+   211,
+   77,
+   217,
+   157,
+   148,
+   223,
+   175,
+   116,
+   204,
+   205,
+   144,
+   36
+  ],
+  "warnings": []
+ }
+}

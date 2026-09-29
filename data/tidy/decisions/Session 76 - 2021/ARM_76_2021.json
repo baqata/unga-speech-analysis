@@ -1,0 +1,68 @@
+{
+ "id": "ARM_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  14,
+  19,
+  24,
+  29,
+  32,
+  35,
+  38,
+  43,
+  47,
+  52
+ ],
+ "cer": [
+  0,
+  2,
+  52
+ ],
+ "fix": [
+  [
+   3,
+   "re- election",
+   "re-election",
+   "spacing"
+  ],
+  [
+   40,
+   "Nagorno- Karabakh",
+   "Nagorno-Karabakh",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b1a57b95fc5bc9c9fe3b3458f8dd59b95383b93",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1322,
+  "words_out": 1320,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   9,
+   68,
+   201,
+   129,
+   85,
+   159,
+   122,
+   71,
+   71,
+   110,
+   129,
+   140,
+   26
+  ],
+  "warnings": []
+ }
+}

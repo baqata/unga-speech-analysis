@@ -1,0 +1,76 @@
+{
+ "id": "MEX_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  45,
+  56,
+  67,
+  95,
+  113,
+  122,
+  134,
+  144,
+  160,
+  181,
+  202,
+  223,
+  233,
+  249,
+  262,
+  281,
+  294
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   190,
+   "Canc˙n",
+   "Cancún",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e4da8c4419ef13ab2b9f64b45631596324ed3e2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 314,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2412,
+  "words_out": 2411,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   66,
+   121,
+   162,
+   93,
+   68,
+   223,
+   136,
+   68,
+   93,
+   78,
+   132,
+   143,
+   163,
+   169,
+   73,
+   119,
+   107,
+   136,
+   105,
+   156
+  ],
+  "warnings": []
+ }
+}

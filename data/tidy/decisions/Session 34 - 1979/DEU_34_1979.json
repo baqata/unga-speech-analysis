@@ -1,0 +1,150 @@
+{
+ "id": "DEU_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  21,
+  27,
+  31,
+  42,
+  45,
+  54,
+  57,
+  65,
+  71,
+  76,
+  80,
+  88,
+  93,
+  101,
+  109,
+  117,
+  128,
+  137,
+  144,
+  153,
+  161,
+  166,
+  170,
+  176,
+  181,
+  186,
+  189,
+  197,
+  203
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "fair- weather",
+   "fair-weather",
+   "spacing"
+  ],
+  [
+   52,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   53,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   67,
+   "101. ",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "' 'The",
+   "\"The",
+   "ocr"
+  ],
+  [
+   93,
+   "lndo-China",
+   "Indo-China",
+   "ocr"
+  ],
+  [
+   123,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   128,
+   "medium- range",
+   "medium-range",
+   "spacing"
+  ],
+  [
+   169,
+   "large- scale",
+   "large-scale",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4de0edeeb75624213b79303d4bfbbcc1d2efcefe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 72
+  },
+  "words_in": 4541,
+  "words_out": 4531,
+  "retention": 0.9978,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   108,
+   149,
+   191,
+   164,
+   151,
+   98,
+   150,
+   63,
+   160,
+   61,
+   116,
+   184,
+   118,
+   158,
+   202,
+   152,
+   138,
+   134,
+   167,
+   180,
+   182,
+   197,
+   138,
+   171,
+   90,
+   105,
+   97,
+   116,
+   145,
+   65,
+   171,
+   99,
+   111
+  ],
+  "warnings": []
+ }
+}

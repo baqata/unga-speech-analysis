@@ -1,0 +1,65 @@
+{
+ "id": "KOR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  43,
+  66,
+  85,
+  100,
+  122,
+  139,
+  148,
+  162,
+  174,
+  184,
+  197,
+  207,
+  218,
+  237,
+  252
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fcfd5a107a69915959770a24683503ed62dd7531",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2017,
+  "words_out": 2009,
+  "retention": 0.996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   95,
+   148,
+   74,
+   170,
+   151,
+   103,
+   169,
+   138,
+   72,
+   114,
+   95,
+   83,
+   94,
+   77,
+   79,
+   132,
+   96,
+   119
+  ],
+  "warnings": []
+ }
+}

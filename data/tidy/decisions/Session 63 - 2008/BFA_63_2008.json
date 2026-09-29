@@ -1,0 +1,47 @@
+{
+ "id": "BFA_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  30,
+  47,
+  66,
+  79,
+  103,
+  116,
+  142
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "25bfee5e418518a3f5a69c7c5013183b125da330",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1153,
+  "words_out": 1153,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   123,
+   118,
+   121,
+   131,
+   102,
+   177,
+   95,
+   199,
+   87
+  ],
+  "warnings": []
+ }
+}

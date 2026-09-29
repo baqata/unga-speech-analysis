@@ -1,0 +1,66 @@
+{
+ "id": "LTU_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  20,
+  22,
+  25,
+  31,
+  35,
+  40,
+  48,
+  55,
+  64,
+  73,
+  79
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   "arms- control",
+   "arms-control",
+   "hyphen"
+  ],
+  [
+   42,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0aeb643a81bf9f7bc8d8d18f6f676967bb2d453",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1451,
+  "words_out": 1450,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   165,
+   95,
+   93,
+   97,
+   63,
+   121,
+   66,
+   110,
+   145,
+   117,
+   111,
+   134,
+   66,
+   67
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "OMN_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  26,
+  43,
+  60,
+  80,
+  99,
+  108,
+  119,
+  137,
+  163
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "(S/2012/523, annex)",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "f lashpoint",
+   "flashpoint",
+   "split_word"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 88 begins mid-sentence ('provide support and assistance...'); the opening of that sentence is missing from the source and the unit is joined to the preceding paragraph.",
+ "unitizer_version": 1,
+ "sha1": "1d63b91e775505623708e700bd8819a52b64b217",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1396,
+  "words_out": 1392,
+  "retention": 0.9971,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   138,
+   79,
+   146,
+   138,
+   176,
+   136,
+   70,
+   98,
+   157,
+   226,
+   28
+  ],
+  "warnings": []
+ }
+}

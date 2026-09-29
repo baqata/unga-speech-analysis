@@ -1,0 +1,66 @@
+{
+ "id": "USA_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  33,
+  49,
+  59,
+  69,
+  77,
+  86,
+  107,
+  118,
+  130,
+  146,
+  156,
+  167,
+  188,
+  198,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "87cd98d48c78b983ee1c8fb1cbef4fb51e696d80",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_number": 3
+  },
+  "words_in": 1789,
+  "words_out": 1784,
+  "retention": 0.9972,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   78,
+   69,
+   116,
+   128,
+   86,
+   80,
+   72,
+   74,
+   152,
+   92,
+   96,
+   124,
+   73,
+   89,
+   155,
+   87,
+   108,
+   105
+  ],
+  "warnings": []
+ }
+}

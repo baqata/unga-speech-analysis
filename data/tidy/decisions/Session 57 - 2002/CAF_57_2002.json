@@ -1,0 +1,54 @@
+{
+ "id": "CAF_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  31,
+  49,
+  62,
+  84,
+  96,
+  109,
+  119,
+  130,
+  152,
+  170
+ ],
+ "cer": [
+  20,
+  31
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27534401106419c78719052fa4f49c0ec604b1cf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1413,
+  "words_out": 1412,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   147,
+   94,
+   129,
+   95,
+   176,
+   99,
+   101,
+   97,
+   83,
+   167,
+   151,
+   73
+  ],
+  "warnings": []
+ }
+}

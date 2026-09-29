@@ -1,0 +1,159 @@
+{
+ "id": "RUS_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   102,
+   102,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  10,
+  15,
+  18,
+  22,
+  27,
+  30,
+  34,
+  37,
+  42,
+  46,
+  52,
+  60,
+  66,
+  72,
+  73,
+  78,
+  84,
+  88,
+  93,
+  98
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   "Shanghai Corporation Organization",
+   "Shanghai Cooperation Organization",
+   "asr_name"
+  ],
+  [
+   19,
+   "IEA safeguards",
+   "IAEA safeguards",
+   "asr_name"
+  ],
+  [
+   21,
+   "Homo Strait",
+   "Hormuz Strait",
+   "asr_name"
+  ],
+  [
+   77,
+   "Israel weaning consensus",
+   "Ezulwini Consensus",
+   "asr_name"
+  ],
+  [
+   77,
+   "CERT declaration",
+   "Sirte Declaration",
+   "asr_name"
+  ],
+  [
+   98,
+   "on unequal footing",
+   "on an equal footing",
+   "asr_term"
+  ],
+  [
+   32,
+   "violent list",
+   "vile list",
+   "asr_term"
+  ],
+  [
+   7,
+   "pressure. they're",
+   "pressure. They're",
+   "asr_term"
+  ],
+  [
+   28,
+   "there. older",
+   "there. Older",
+   "asr_term"
+  ],
+  [
+   44,
+   "immoral. that",
+   "immoral. That",
+   "asr_term"
+  ],
+  [
+   56,
+   "people. and",
+   "people. And",
+   "asr_term"
+  ],
+  [
+   97,
+   "realm. for",
+   "realm. For",
+   "asr_term"
+  ],
+  [
+   29,
+   "with",
+   "where",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "77 Spanish 'consenso de Zulwini y la declaracion de CIRTE' (Ezulwini Consensus, Sirte Declaration); 98 Spanish 'basada en la igualdad de derechos'. Main-agent audit: unit 38 'the West has destroyed the European security system' (re-decodes hear 'US' at p 0.62-0.73 only; Spanish 'Occidente destruyó'). Unit 45 '80 years ago' kept as heard ('ago' p 1.00 at every start; Spanish '80 años después'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 32 'violent list' -> 'vile list' (not a doubled word: the re-decodes hear 'vile' (p 0.74) or 'violent' (p 0.30), the Spanish booth 'la odiosa lista'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 7 'pressure. they're' -> 'pressure. They're'; unit 28 'there. older' -> 'there. Older'; unit 44 'immoral. that' -> 'immoral. That'; unit 56 'people. and' -> 'people. And'; unit 97 'realm. for' -> 'realm. For'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 29 'with' -> 'where' (decodes hear 'with' only at 0.47 / 0.53; 'countries in Africa with conflicts rage' does not fit; ES 'países africanos donde arrasan los conflictos'; 'conflicts' kept (decodes split)); spot 6 unit 38 earlier repair of 'the US has' undone (the audio contradicts the earlier repair 'the West has': both decodes hear 'U.S.' ('.S.' 1.00 / 0.97), as does the UN transcript; forced scoring 'US' -1.5 vs 'West' -11.5; a Russian speech, so the Spanish booth's 'Occidente' cannot correct the English one; the sentence reads well; back to 'the US has' (replaces the run's line, which cancelled the repair with old = new))",
+ "unitizer_version": 1,
+ "sha1": "cca683e5e8cd7d6d725506ad226dd5a153a995a8",
+ "layout": "single",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2229,
+  "words_out": 2200,
+  "retention": 0.987,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   144,
+   88,
+   79,
+   116,
+   60,
+   167,
+   96,
+   101,
+   110,
+   79,
+   98,
+   139,
+   104,
+   131,
+   79,
+   88,
+   121,
+   78,
+   108,
+   99,
+   115
+  ],
+  "warnings": []
+ }
+}

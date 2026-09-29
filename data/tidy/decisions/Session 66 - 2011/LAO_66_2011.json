@@ -1,0 +1,53 @@
+{
+ "id": "LAO_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  42,
+  62,
+  74,
+  93,
+  115,
+  125,
+  139,
+  158,
+  171,
+  182
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f808f27f704cea8a7c37c7fe9bdc12c5c21f0669",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1532,
+  "words_out": 1531,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   156,
+   153,
+   146,
+   86,
+   139,
+   172,
+   68,
+   101,
+   140,
+   94,
+   71,
+   205
+  ],
+  "warnings": []
+ }
+}

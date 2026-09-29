@@ -1,0 +1,53 @@
+{
+ "id": "RWA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  28,
+  47,
+  64,
+  83,
+  106,
+  120,
+  134,
+  150,
+  167,
+  186,
+  199
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eea97265ad3d5a051f141ffe41ff1b1b432009fe",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1623,
+  "words_out": 1620,
+  "retention": 0.9982,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   134,
+   70,
+   162,
+   138,
+   136,
+   159,
+   112,
+   113,
+   126,
+   121,
+   140,
+   96,
+   113
+  ],
+  "warnings": []
+ }
+}

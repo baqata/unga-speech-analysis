@@ -1,0 +1,70 @@
+{
+ "id": "SUR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  9,
+  16,
+  20,
+  27,
+  31,
+  35,
+  38,
+  43,
+  47,
+  51,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   "and- damage",
+   "and-damage",
+   "hyphen"
+  ],
+  [
+   37,
+   "Haitian- initiated",
+   "Haitian-initiated",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d558033d3eafdae3251d76ffe611f351d302e98",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1354,
+  "words_out": 1352,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   29,
+   115,
+   66,
+   84,
+   116,
+   120,
+   152,
+   81,
+   82,
+   100,
+   143,
+   102,
+   93,
+   69
+  ],
+  "warnings": []
+ }
+}

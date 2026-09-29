@@ -1,0 +1,74 @@
+{
+ "id": "IRQ_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  13,
+  17,
+  22,
+  25,
+  30,
+  33,
+  36,
+  38,
+  44,
+  45,
+  51,
+  56,
+  61,
+  67,
+  74,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "leavings",
+   "leaving",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ffc599131b0e883890906bae52c643ee7f5359c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1992,
+  "words_out": 1992,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   65,
+   100,
+   176,
+   85,
+   167,
+   91,
+   130,
+   67,
+   79,
+   66,
+   154,
+   40,
+   112,
+   99,
+   64,
+   147,
+   141,
+   109,
+   100
+  ],
+  "warnings": []
+ }
+}

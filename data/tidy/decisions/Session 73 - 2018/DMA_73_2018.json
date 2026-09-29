@@ -1,0 +1,75 @@
+{
+ "id": "DMA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  17,
+  31,
+  36,
+  45,
+  54,
+  65,
+  71,
+  81,
+  92,
+  97,
+  100,
+  104,
+  107
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   17,
+   " (see A/72/ PV.19)",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "man- made",
+   "man-made",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dfcb2711c0150ce226c484af9acb479b96fd04c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2468,
+  "words_out": 2463,
+  "retention": 0.998,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   87,
+   79,
+   187,
+   158,
+   253,
+   119,
+   196,
+   192,
+   200,
+   141,
+   202,
+   180,
+   105,
+   70,
+   99,
+   74,
+   121
+  ],
+  "warnings": []
+ }
+}

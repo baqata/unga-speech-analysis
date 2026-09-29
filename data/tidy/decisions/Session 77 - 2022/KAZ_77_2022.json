@@ -1,0 +1,84 @@
+{
+ "id": "KAZ_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  13,
+  20,
+  26,
+  31,
+  37,
+  40,
+  45,
+  51,
+  54,
+  62,
+  66,
+  70,
+  78,
+  84,
+  87,
+  96,
+  102,
+  111,
+  116,
+  120
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   34,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   62,
+   "seventh- largest",
+   "seventh-largest",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "64302ea04755160fa2ee4d8f802175f6905ca206",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2213,
+  "words_out": 2210,
+  "retention": 0.9986,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   20,
+   189,
+   118,
+   92,
+   71,
+   115,
+   83,
+   125,
+   114,
+   69,
+   142,
+   99,
+   66,
+   130,
+   121,
+   60,
+   119,
+   115,
+   181,
+   64,
+   72,
+   45
+  ],
+  "warnings": []
+ }
+}

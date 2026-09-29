@@ -1,0 +1,123 @@
+{
+ "id": "ARG_48_1993",
+ "drop": [
+  [
+   42,
+   42,
+   "header_footer"
+  ],
+  [
+   84,
+   84,
+   "procedural"
+  ],
+  [
+   134,
+   134,
+   "header_footer"
+  ],
+  [
+   225,
+   225,
+   "header_footer"
+  ],
+  [
+   316,
+   316,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  13,
+  27,
+  43,
+  51,
+  58,
+  65,
+  85,
+  102,
+  116,
+  131,
+  144,
+  151,
+  171,
+  193,
+  203,
+  216,
+  226,
+  249,
+  257,
+  267,
+  279,
+  285,
+  294,
+  302,
+  323,
+  336,
+  343,
+  353,
+  362,
+  379
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "448a8747dca1f4922d6c8f75d8ae5bcba5dc2832",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 389,
+  "units_dropped": {
+   "header_footer": 4,
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 3288,
+  "words_out": 3252,
+  "retention": 0.9891,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   40,
+   62,
+   115,
+   129,
+   70,
+   62,
+   63,
+   166,
+   144,
+   120,
+   126,
+   105,
+   62,
+   160,
+   186,
+   91,
+   110,
+   68,
+   197,
+   65,
+   87,
+   105,
+   50,
+   76,
+   70,
+   174,
+   114,
+   55,
+   83,
+   73,
+   142,
+   82
+  ],
+  "warnings": [
+   "procedural drop [84,84] in the middle of the speech"
+  ]
+ }
+}

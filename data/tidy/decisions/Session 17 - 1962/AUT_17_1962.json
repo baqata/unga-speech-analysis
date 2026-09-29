@@ -1,0 +1,200 @@
+{
+ "id": "AUT_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  12,
+  16,
+  22,
+  26,
+  30,
+  36,
+  42,
+  46,
+  52,
+  57,
+  60,
+  63,
+  65,
+  69,
+  75,
+  78,
+  80,
+  85,
+  91,
+  95
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   1,
+   "ai mad",
+   "a man",
+   "ocr"
+  ],
+  [
+   7,
+   "clear- cut",
+   "clear-cut",
+   "hyphen"
+  ],
+  [
+   10,
+   "Will gladly",
+   "will gladly",
+   "ocr"
+  ],
+  [
+   32,
+   "160, ",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "industrial”",
+   "industrial",
+   "ocr"
+  ],
+  [
+   37,
+   "$19,000million",
+   "$19,000 million",
+   "spacing"
+  ],
+  [
+   41,
+   "Wish",
+   "wish",
+   "ocr"
+  ],
+  [
+   45,
+   "It Is",
+   "It is",
+   "ocr"
+  ],
+  [
+   45,
+   "vote,",
+   "vote.",
+   "ocr"
+  ],
+  [
+   52,
+   "Called",
+   "called",
+   "ocr"
+  ],
+  [
+   60,
+   "Jo lie",
+   "to the",
+   "ocr"
+  ],
+  [
+   61,
+   "Government c to",
+   "Government to",
+   "ocr"
+  ],
+  [
+   62,
+   "Sicily'",
+   "Sicily",
+   "ocr"
+  ],
+  [
+   62,
+   "dearly",
+   "clearly",
+   "ocr"
+  ],
+  [
+   64,
+   "inhabitants,",
+   "inhabitants.",
+   "ocr"
+  ],
+  [
+   75,
+   "Within",
+   "within",
+   "ocr"
+  ],
+  [
+   77,
+   "Region,",
+   "Region.",
+   "ocr"
+  ],
+  [
+   78,
+   "Assembly, This",
+   "Assembly. This",
+   "ocr"
+  ],
+  [
+   84,
+   "would-be",
+   "would be",
+   "ocr"
+  ],
+  [
+   89,
+   "arty",
+   "are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e6e7b80358eaa8b29dc51469db7e882b9c837879",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 40
+  },
+  "words_in": 3186,
+  "words_out": 3175,
+  "retention": 0.9965,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   70,
+   140,
+   75,
+   153,
+   184,
+   150,
+   98,
+   146,
+   209,
+   155,
+   124,
+   126,
+   173,
+   110,
+   128,
+   88,
+   150,
+   166,
+   79,
+   91,
+   171,
+   150,
+   105,
+   134
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "SVK_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  28,
+  51,
+  70,
+  90,
+  107,
+  122,
+  142,
+  157,
+  180,
+  201
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9e41f1c69b211b26817fb464a4e651c631fc462c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1766,
+  "words_out": 1763,
+  "retention": 0.9983,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   115,
+   108,
+   183,
+   157,
+   155,
+   130,
+   116,
+   152,
+   122,
+   180,
+   153,
+   192
+  ],
+  "warnings": []
+ }
+}

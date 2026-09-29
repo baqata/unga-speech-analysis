@@ -1,0 +1,161 @@
+{
+ "id": "GNQ_46_1991",
+ "drop": [
+  [
+   26,
+   26,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  6,
+  10,
+  17,
+  21,
+  23,
+  27,
+  31,
+  35,
+  39,
+  42,
+  44,
+  49,
+  52,
+  53,
+  57,
+  67,
+  70,
+  73,
+  80,
+  87
+ ],
+ "cer": [
+  0,
+  1,
+  6,
+  10
+ ],
+ "fix": [
+  [
+   7,
+   "Peres de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   9,
+   "Pires de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   23,
+   "X said",
+   "I said",
+   "ocr"
+  ],
+  [
+   31,
+   "1979}",
+   "1979;",
+   "ocr"
+  ],
+  [
+   31,
+   "provisions)",
+   "provisions;",
+   "ocr"
+  ],
+  [
+   34,
+   "approval,",
+   "approval.",
+   "ocr"
+  ],
+  [
+   36,
+   "Hguema",
+   "Nguema",
+   "ocr"
+  ],
+  [
+   50,
+   "He should",
+   "We should",
+   "ocr"
+  ],
+  [
+   55,
+   "countries.",
+   "countries,",
+   "ocr"
+  ],
+  [
+   68,
+   "Hguema",
+   "Nguema",
+   "ocr"
+  ],
+  [
+   72,
+   "position:, and",
+   "position, and",
+   "ocr"
+  ],
+  [
+   79,
+   "«solution",
+   "a solution",
+   "ocr"
+  ],
+  [
+   80,
+   "Sivis",
+   "Si vis",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34744ff14bb923170debae1a4b6d05af26cb2d64",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 2793,
+  "words_out": 2792,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   53,
+   172,
+   153,
+   176,
+   161,
+   70,
+   95,
+   130,
+   209,
+   125,
+   70,
+   94,
+   133,
+   70,
+   45,
+   67,
+   250,
+   154,
+   112,
+   162,
+   179,
+   112
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "COL_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  6,
+  10,
+  11,
+  14,
+  16,
+  21,
+  23,
+  25,
+  27,
+  30,
+  36,
+  39,
+  44,
+  46
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "out overriding",
+   "our overriding",
+   "ocr"
+  ],
+  [
+   28,
+   "Prevision",
+   "Provision",
+   "ocr"
+  ],
+  [
+   28,
+   "mote",
+   "more",
+   "ocr"
+  ],
+  [
+   46,
+   "Chatter",
+   "Charter",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9f245c53e1136bc977066170951b3079b4308944",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1577,
+  "words_out": 1577,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   44,
+   66,
+   91,
+   89,
+   66,
+   135,
+   63,
+   179,
+   66,
+   76,
+   61,
+   121,
+   124,
+   87,
+   159,
+   69,
+   81
+  ],
+  "warnings": []
+ }
+}

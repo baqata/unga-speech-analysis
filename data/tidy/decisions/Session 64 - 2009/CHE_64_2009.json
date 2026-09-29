@@ -1,0 +1,49 @@
+{
+ "id": "CHE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  31,
+  45,
+  59,
+  72,
+  86,
+  101,
+  120,
+  137,
+  153
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab7ee7cbd347a6c1d0268631d1ea90da0724431c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1271,
+  "words_out": 1271,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   132,
+   110,
+   103,
+   118,
+   94,
+   123,
+   103,
+   143,
+   136,
+   122,
+   87
+  ],
+  "warnings": []
+ }
+}

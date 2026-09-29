@@ -1,0 +1,134 @@
+{
+ "id": "LUX_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  12,
+  16,
+  21,
+  25,
+  28,
+  31,
+  34,
+  37,
+  41,
+  42,
+  47,
+  50,
+  53,
+  59,
+  62,
+  64,
+  68,
+  74,
+  78,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "worker -for",
+   "worker for",
+   "ocr"
+  ],
+  [
+   20,
+   "1",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "Middle East, It is",
+   "Middle East. It is",
+   "ocr"
+  ],
+  [
+   22,
+   "that 1 note",
+   "that I note",
+   "ocr"
+  ],
+  [
+   30,
+   "and 1 believe",
+   "and I believe",
+   "ocr"
+  ],
+  [
+   32,
+   "to' the",
+   "to the",
+   "ocr"
+  ],
+  [
+   39,
+   "kite rests",
+   "interests",
+   "ocr"
+  ],
+  [
+   51,
+   "speech-making. which",
+   "speech-making, which",
+   "ocr"
+  ],
+  [
+   55,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "UMCTAD",
+   "UNCTAD",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "365fa053b831739fd930277f7eae320247921e3b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2472,
+  "words_out": 2469,
+  "retention": 0.9988,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   286,
+   92,
+   131,
+   137,
+   112,
+   75,
+   47,
+   82,
+   103,
+   128,
+   99,
+   100,
+   75,
+   111,
+   125,
+   88,
+   95,
+   113,
+   155,
+   107,
+   128,
+   80
+  ],
+  "warnings": []
+ }
+}

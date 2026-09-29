@@ -1,0 +1,68 @@
+{
+ "id": "EU_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  22,
+  28,
+  35,
+  45,
+  53,
+  58,
+  67,
+  73,
+  79,
+  85,
+  89,
+  95,
+  97,
+  102
+ ],
+ "cer": [],
+ "fix": [
+  [
+   55,
+   "made , and",
+   "made, and",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fdfaf142f9952279cc81e4221d82cf617e995dce",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2128,
+  "words_out": 2127,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   85,
+   109,
+   107,
+   169,
+   103,
+   94,
+   187,
+   120,
+   102,
+   152,
+   147,
+   152,
+   95,
+   70,
+   115,
+   70,
+   110,
+   140
+  ],
+  "warnings": []
+ }
+}

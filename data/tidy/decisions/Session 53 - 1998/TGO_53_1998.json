@@ -1,0 +1,131 @@
+{
+ "id": "TGO_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  35,
+  59,
+  73,
+  85,
+  96,
+  112,
+  131,
+  143,
+  165,
+  188,
+  199,
+  222,
+  236,
+  251,
+  273,
+  286,
+  304
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   15,
+   "Togo?s",
+   "Togo’s",
+   "encoding"
+  ],
+  [
+   15,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   66,
+   "Togo?s",
+   "Togo’s",
+   "encoding"
+  ],
+  [
+   99,
+   "(A/52/871) ",
+   "",
+   "label"
+  ],
+  [
+   131,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   162,
+   "?98",
+   "’98",
+   "encoding"
+  ],
+  [
+   163,
+   "d?Ivoire",
+   "d’Ivoire",
+   "encoding"
+  ],
+  [
+   229,
+   "Africa?s",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   233,
+   "Africa?s",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   289,
+   "continent?s",
+   "continent’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e4821a3084b82c1b87fbbcde5f963e3246c81db",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2648,
+  "words_out": 2646,
+  "retention": 0.9992,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   47,
+   63,
+   169,
+   195,
+   126,
+   98,
+   94,
+   142,
+   170,
+   107,
+   190,
+   192,
+   101,
+   177,
+   106,
+   125,
+   187,
+   112,
+   147,
+   98
+  ],
+  "warnings": []
+ }
+}

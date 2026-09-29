@@ -1,0 +1,82 @@
+{
+ "id": "QAT_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  13,
+  19,
+  21,
+  24,
+  27,
+  31,
+  35,
+  38,
+  40,
+  42,
+  44,
+  46,
+  51,
+  56,
+  60,
+  62
+ ],
+ "cer": [
+  0,
+  5,
+  62
+ ],
+ "fix": [
+  [
+   25,
+   "community —especially",
+   "community — especially",
+   "spacing"
+  ],
+  [
+   35,
+   " (1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef63f13801e7a507dc7add21880edba95c6df31c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2067,
+  "words_out": 2067,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   31,
+   82,
+   61,
+   162,
+   203,
+   80,
+   97,
+   189,
+   160,
+   137,
+   108,
+   81,
+   90,
+   94,
+   69,
+   98,
+   121,
+   106,
+   86,
+   12
+  ],
+  "warnings": []
+ }
+}

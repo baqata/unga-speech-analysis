@@ -1,0 +1,139 @@
+{
+ "id": "AUS_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  16,
+  22,
+  30,
+  36,
+  43,
+  47,
+  50,
+  54,
+  60,
+  63,
+  66,
+  72,
+  79,
+  85,
+  94,
+  98,
+  102,
+  104,
+  107,
+  112,
+  115,
+  118,
+  122,
+  125,
+  131,
+  135,
+  139
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   46,
+   "casing",
+   "easing",
+   "ocr"
+  ],
+  [
+   53,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   80,
+   "thus",
+   "this",
+   "ocr"
+  ],
+  [
+   88,
+   "stop",
+   "step",
+   "ocr"
+  ],
+  [
+   94,
+   "lie",
+   "be",
+   "ocr"
+  ],
+  [
+   134,
+   "How",
+   "flow",
+   "ocr"
+  ],
+  [
+   138,
+   "lighting",
+   "fighting",
+   "ocr"
+  ],
+  [
+   139,
+   "web",
+   "well",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7b39f64306d88a9f1c1360c7cab72dd6ad2f865b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 4112,
+  "words_out": 4109,
+  "retention": 0.9993,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   190,
+   58,
+   213,
+   123,
+   175,
+   191,
+   165,
+   152,
+   125,
+   103,
+   120,
+   130,
+   107,
+   157,
+   209,
+   150,
+   181,
+   120,
+   155,
+   107,
+   96,
+   112,
+   102,
+   88,
+   124,
+   106,
+   120,
+   160,
+   152,
+   118
+  ],
+  "warnings": []
+ }
+}

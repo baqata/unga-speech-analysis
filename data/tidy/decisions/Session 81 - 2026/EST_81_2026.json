@@ -1,0 +1,193 @@
+{
+ "id": "EST_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   119,
+   119,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  17,
+  28,
+  32,
+  41,
+  50,
+  55,
+  61,
+  65,
+  73,
+  78,
+  85,
+  93,
+  98,
+  104,
+  108,
+  113,
+  118
+ ],
+ "cer": [
+  118
+ ],
+ "fix": [
+  [
+   2,
+   "Excellents",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   33,
+   "crane",
+   "grain",
+   "asr_term"
+  ],
+  [
+   39,
+   "seize",
+   "cease",
+   "asr_term"
+  ],
+  [
+   48,
+   "training",
+   "retaining",
+   "asr_term"
+  ],
+  [
+   51,
+   "Italian",
+   "Tallinn",
+   "asr_name"
+  ],
+  [
+   59,
+   "Umbria",
+   "UNRWA",
+   "asr_name"
+  ],
+  [
+   69,
+   "consist",
+   "coexist",
+   "asr_term"
+  ],
+  [
+   74,
+   "Proherence",
+   "Coherence",
+   "asr_name"
+  ],
+  [
+   77,
+   "Antonio Gutierrez",
+   "António Guterres",
+   "asr_name"
+  ],
+  [
+   91,
+   "mobility",
+   "morbidity",
+   "asr_term"
+  ],
+  [
+   94,
+   "raise",
+   "erase",
+   "asr_term"
+  ],
+  [
+   98,
+   "yet to stay",
+   "here to stay",
+   "asr_term"
+  ],
+  [
+   101,
+   "Covenants",
+   "Governance",
+   "asr_name"
+  ],
+  [
+   104,
+   "executive report",
+   "Executive Board",
+   "asr_name"
+  ],
+  [
+   115,
+   "adopt",
+   "adapt",
+   "asr_term"
+  ],
+  [
+   43,
+   "should not support",
+   "should also support",
+   "asr_term"
+  ],
+  [
+   72,
+   "action. action",
+   "action. Action",
+   "asr_term"
+  ],
+  [
+   13,
+   "lives. and",
+   "lives. And",
+   "asr_term"
+  ],
+  [
+   50,
+   "itself. but",
+   "itself but",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in English; Spanish channel confirms granos, cese, mantener la confianza, mecanismo de Tallin, UNRWA, convivan, grupo ACT, morbilidad, borrar, gobernanza de IA, Junta Ejecutiva del UNICEF, adaptemos; unit 43 'should not support' left as transcribed (Spanish 'Debemos apoyar'). Main-agent audit: unit 43 'should not support' -> 'should also support' (asr_term): the Spanish says 'Debemos apoyar', and re-decoding 06:15 hears 'also' in 4 of 5 windows (p 0.49-0.80) against 'not' once (p 0.54); Estonia supports these mechanisms ('Estonia is doing its part'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 72 'action. action' -> 'action. Action' (said twice; capital restored). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 13 'lives. and' -> 'lives. And'; unit 50 'itself. but' -> 'itself but'",
+ "unitizer_version": 1,
+ "sha1": "113f52bd5e921afdf55e9fd0ac80b0364c3dcf6a",
+ "layout": "single",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2450,
+  "words_out": 2415,
+  "retention": 0.9857,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   97,
+   163,
+   190,
+   96,
+   152,
+   148,
+   106,
+   137,
+   78,
+   162,
+   139,
+   212,
+   179,
+   118,
+   140,
+   121,
+   90,
+   80,
+   7
+  ],
+  "warnings": []
+ }
+}

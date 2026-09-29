@@ -1,0 +1,54 @@
+{
+ "id": "PRT_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  26,
+  37,
+  52,
+  70,
+  88,
+  109,
+  132,
+  148,
+  162,
+  181
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a5449449f5ca0fd9ab06ef9cc5f9fce304a51431",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1584,
+  "words_out": 1582,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   94,
+   125,
+   93,
+   119,
+   163,
+   140,
+   164,
+   189,
+   130,
+   113,
+   135,
+   117
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "id": "LBR_26_1971",
+ "drop": [
+  [
+   27,
+   27,
+   "noise"
+  ],
+  [
+   34,
+   34,
+   "noise"
+  ],
+  [
+   45,
+   45,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  18,
+  21,
+  28,
+  33,
+  40,
+  46,
+  49,
+  52,
+  59,
+  62,
+  66,
+  69,
+  74,
+  77,
+  79,
+  82,
+  85,
+  87,
+  90,
+  93,
+  96,
+  99,
+  102,
+  104,
+  106,
+  110,
+  114
+ ],
+ "cer": [
+  0,
+  4,
+  9,
+  110,
+  114
+ ],
+ "fix": [
+  [
+   13,
+   "about Which",
+   "about which",
+   "ocr"
+  ],
+  [
+   33,
+   "..its colony",
+   "its colony",
+   "ocr"
+  ],
+  [
+   33,
+   "an 1 they",
+   "and they",
+   "ocr"
+  ],
+  [
+   44,
+   "Council Council",
+   "Council",
+   "ocr"
+  ],
+  [
+   49,
+   " [1435th meeting, para. 25J",
+   "",
+   "label"
+  ],
+  [
+   62,
+   " [A/ 8401/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "this .end",
+   "this end",
+   "ocr"
+  ],
+  [
+   78,
+   " [Aj8457-DCj234t annex A]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "destruction, Liberia",
+   "destruction. Liberia",
+   "ocr"
+  ],
+  [
+   98,
+   "has \"been",
+   "has been",
+   "ocr"
+  ],
+  [
+   100,
+   "suffet",
+   "suffer",
+   "ocr"
+  ],
+  [
+   102,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   110,
+   "UThant",
+   "U Thant",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0415fb17e72079163dc47542a3c1e84f80801b3b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3308,
+  "words_out": 3286,
+  "retention": 0.9933,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   132,
+   99,
+   81,
+   133,
+   116,
+   146,
+   160,
+   181,
+   148,
+   111,
+   149,
+   129,
+   99,
+   93,
+   109,
+   133,
+   76,
+   76,
+   83,
+   124,
+   64,
+   128,
+   63,
+   102,
+   78,
+   74,
+   65,
+   74,
+   83,
+   150,
+   27
+  ],
+  "warnings": []
+ }
+}

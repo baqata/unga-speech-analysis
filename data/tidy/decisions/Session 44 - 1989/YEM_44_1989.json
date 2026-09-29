@@ -1,0 +1,136 @@
+{
+ "id": "YEM_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  6,
+  11,
+  16,
+  20,
+  28,
+  31,
+  35,
+  37,
+  39,
+  44,
+  49,
+  54,
+  57,
+  59,
+  62,
+  67,
+  69,
+  73,
+  78,
+  80,
+  81,
+  82,
+  88,
+  91,
+  95,
+  96,
+  99
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  4,
+  99
+ ],
+ "fix": [
+  [
+   9,
+   "Cambodia.",
+   "Cambodia,",
+   "ocr"
+  ],
+  [
+   27,
+   "women ¡I children",
+   "women and children",
+   "encoding"
+  ],
+  [
+   35,
+   "the РLO",
+   "the PLO",
+   "encoding"
+  ],
+  [
+   53,
+   "co-operation a\\d national",
+   "co-operation and national",
+   "ocr"
+  ],
+  [
+   68,
+   "43 5 (1978)",
+   "435 (1978)",
+   "spacing"
+  ],
+  [
+   89,
+   "third world·,",
+   "third world,",
+   "encoding"
+  ],
+  [
+   90,
+   "developed a\\d developing",
+   "developed and developing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dffae6578d32fed658d20aaff56890abe91388be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3763,
+  "words_out": 3762,
+  "retention": 0.9997,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   67,
+   38,
+   61,
+   57,
+   236,
+   196,
+   119,
+   223,
+   102,
+   148,
+   149,
+   62,
+   214,
+   191,
+   164,
+   134,
+   68,
+   82,
+   143,
+   135,
+   94,
+   123,
+   87,
+   73,
+   71,
+   158,
+   140,
+   160,
+   73,
+   154,
+   40
+  ],
+  "warnings": []
+ }
+}

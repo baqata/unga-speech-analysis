@@ -1,0 +1,57 @@
+{
+ "id": "ARM_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  36,
+  53,
+  64,
+  83,
+  103,
+  122,
+  135,
+  145,
+  160,
+  169,
+  181
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0216394b24d3562908d08d9e4a0e3a579a71ee1b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1493,
+  "words_out": 1486,
+  "retention": 0.9953,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   95,
+   113,
+   74,
+   131,
+   94,
+   154,
+   154,
+   159,
+   104,
+   77,
+   115,
+   73,
+   106,
+   37
+  ],
+  "warnings": []
+ }
+}

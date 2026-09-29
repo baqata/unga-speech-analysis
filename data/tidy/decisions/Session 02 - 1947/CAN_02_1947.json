@@ -1,0 +1,64 @@
+{
+ "id": "CAN_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  18,
+  22,
+  30,
+  33,
+  36,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   "undesirable, If",
+   "undesirable. If",
+   "ocr"
+  ],
+  [
+   38,
+   "arc a floor",
+   "are a floor",
+   "ocr"
+  ],
+  [
+   41,
+   "They arc,",
+   "They are,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa8553f4a636f3e0ad4a665f153fa45d3541c289",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1193,
+  "words_out": 1193,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   125,
+   78,
+   115,
+   162,
+   110,
+   183,
+   89,
+   95,
+   121,
+   115
+  ],
+  "warnings": []
+ }
+}

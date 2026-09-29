@@ -1,0 +1,112 @@
+{
+ "id": "THA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   114,
+   114,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  16,
+  24,
+  38,
+  45,
+  51,
+  61,
+  67,
+  81,
+  86,
+  98,
+  105,
+  112
+ ],
+ "cer": [
+  3,
+  112
+ ],
+ "fix": [
+  [
+   3,
+   "Fernandez ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "cooperation. ",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "Kau bu na kap.",
+   "Khop khun khrap.",
+   "asr_term"
+  ],
+  [
+   16,
+   "trust. trust",
+   "trust, trust",
+   "asr_term"
+  ],
+  [
+   6,
+   "again. many",
+   "again. Many",
+   "asr_term"
+  ],
+  [
+   103,
+   "are the",
+   "other",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 113 is the speaker's closing thanks in Thai, kept as said; noise before the salutation removed. Main-agent audit: the closing words are Thai; decoding the audio as Thai gives 'ขอบคุณครับ' (thank you), romanized. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 16 'trust. trust' -> 'trust, trust' (said twice; both re-decodes hear 'trust, trust between countries'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 6 'again. many' -> 'again. Many'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 103 'are the' -> 'other' (both decodes clearly hear 'other' (0.98 / 0.95); 'with the UNODC, are the regional ... organizations' does not fit; sounds alike; ES 'con otras organizaciones regionales e internacionales')",
+ "unitizer_version": 1,
+ "sha1": "e6821c6602e83bbeb8e96f0440b73d9be375fcd9",
+ "layout": "single",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1721,
+  "words_out": 1660,
+  "retention": 0.9646,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   25,
+   137,
+   107,
+   207,
+   114,
+   90,
+   128,
+   107,
+   190,
+   84,
+   206,
+   116,
+   142,
+   7
+  ],
+  "warnings": []
+ }
+}

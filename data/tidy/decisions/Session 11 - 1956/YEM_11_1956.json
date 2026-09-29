@@ -1,0 +1,68 @@
+{
+ "id": "YEM_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  11,
+  16,
+  20,
+  23,
+  26,
+  28,
+  31,
+  36,
+  38
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "which hate occurred",
+   "which have occurred",
+   "ocr"
+  ],
+  [
+   14,
+   "at, San Francisco",
+   "at San Francisco",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30f523a12b72e8dac745a1d40c60ee204401b264",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1357,
+  "words_out": 1357,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   56,
+   86,
+   120,
+   106,
+   161,
+   156,
+   112,
+   80,
+   80,
+   96,
+   80,
+   96,
+   128
+  ],
+  "warnings": []
+ }
+}

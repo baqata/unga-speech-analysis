@@ -1,0 +1,110 @@
+{
+ "id": "UKR_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  16,
+  18,
+  20,
+  24,
+  27,
+  31,
+  33,
+  38,
+  41,
+  45,
+  51,
+  53,
+  56,
+  60,
+  62,
+  66,
+  73,
+  75,
+  78,
+  80,
+  84,
+  89
+ ],
+ "cer": [],
+ "fix": [
+  [
+   44,
+   "the, world",
+   "the world",
+   "ocr"
+  ],
+  [
+   64,
+   "war- surplus",
+   "war-surplus",
+   "hyphen"
+  ],
+  [
+   81,
+   "could, hardly",
+   "could hardly",
+   "ocr"
+  ],
+  [
+   85,
+   "Rut those",
+   "But those",
+   "ocr"
+  ],
+  [
+   86,
+   "bad fought",
+   "had fought",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "deea034658274366227cd9772f411cfe87654268",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3483,
+  "words_out": 3482,
+  "retention": 0.9997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   122,
+   83,
+   140,
+   160,
+   80,
+   103,
+   169,
+   113,
+   109,
+   96,
+   206,
+   149,
+   146,
+   199,
+   118,
+   131,
+   135,
+   91,
+   151,
+   262,
+   83,
+   151,
+   104,
+   161,
+   160,
+   60
+  ],
+  "warnings": []
+ }
+}

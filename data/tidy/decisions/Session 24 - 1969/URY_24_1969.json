@@ -1,0 +1,81 @@
+{
+ "id": "URY_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  23,
+  42,
+  53,
+  71,
+  87,
+  102,
+  120,
+  140,
+  163,
+  169,
+  188
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   17,
+   "of~trial",
+   "of trial",
+   "ocr"
+  ],
+  [
+   72,
+   "Mr.Secco",
+   "Mr. Secco",
+   "spacing"
+  ],
+  [
+   83,
+   " [Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   182,
+   "and in opposition",
+   "stand in opposition",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "992028e9b64341cc783b815d2b26af6ca0593c67",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 1878,
+  "words_out": 1852,
+  "retention": 0.9862,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   98,
+   100,
+   157,
+   101,
+   168,
+   131,
+   129,
+   157,
+   191,
+   205,
+   57,
+   163,
+   195
+  ],
+  "warnings": []
+ }
+}

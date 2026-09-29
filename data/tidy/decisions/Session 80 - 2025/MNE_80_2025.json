@@ -1,0 +1,70 @@
+{
+ "id": "MNE_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  9,
+  22,
+  30,
+  33,
+  39,
+  45,
+  50,
+  55,
+  57,
+  60,
+  62,
+  68,
+  72,
+  77,
+  79,
+  87
+ ],
+ "cer": [
+  2,
+  87
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61bb51fcff96a8c369d85cc082e3f3d3fd7c98c0",
+ "layout": "single",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1880,
+  "words_out": 1850,
+  "retention": 0.984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   158,
+   214,
+   143,
+   58,
+   125,
+   147,
+   81,
+   102,
+   77,
+   101,
+   60,
+   104,
+   77,
+   141,
+   60,
+   195,
+   7
+  ],
+  "warnings": []
+ }
+}

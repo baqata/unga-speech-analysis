@@ -1,0 +1,54 @@
+{
+ "id": "AFG_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  9,
+  12,
+  21
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "life,",
+   "life.",
+   "ocr"
+  ],
+  [
+   12,
+   "justice,",
+   "justice.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33e8c83ec1c1780a000332776350c917f2b4fdd6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 23,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 4
+  },
+  "words_in": 667,
+  "words_out": 667,
+  "retention": 1.0,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   24,
+   180,
+   70,
+   140,
+   195,
+   58
+  ],
+  "warnings": []
+ }
+}

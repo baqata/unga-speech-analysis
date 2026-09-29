@@ -1,0 +1,137 @@
+{
+ "id": "SDN_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  10,
+  16,
+  22,
+  25,
+  28,
+  31,
+  37,
+  41,
+  45,
+  50,
+  54,
+  61,
+  65,
+  69,
+  74,
+  80
+ ],
+ "cer": [
+  1,
+  80
+ ],
+ "fix": [
+  [
+   2,
+   "Khalil al-Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   5,
+   "Khalil al-Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   28,
+   "Dagalow's",
+   "Dagalo's",
+   "asr_name"
+  ],
+  [
+   41,
+   "Barors",
+   "Borrowers",
+   "asr_name"
+  ],
+  [
+   61,
+   "Masalate",
+   "Masalit",
+   "asr_name"
+  ],
+  [
+   66,
+   "forces. armed forces",
+   "forces. Our armed forces",
+   "asr_term"
+  ],
+  [
+   28,
+   "continues. the",
+   "continues. The",
+   "asr_term"
+  ],
+  [
+   34,
+   "forces. constructive",
+   "forces. Constructive",
+   "asr_term"
+  ],
+  [
+   13,
+   "Secretariat despite",
+   "Secretariat and despite",
+   "asr_term"
+  ],
+  [
+   28,
+   "mercenary",
+   "mercenaries",
+   "asr_term"
+  ],
+  [
+   80,
+   "leader. and",
+   "leader. Peace and",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Khalilur Rahman per un.org; Dagalo, Borrowers' Platform (plataforma de paises prestatarios) and Masalit per Spanish; unit 66 'Our' before 'armed forces' (audio) cannot be added: the tool rejects an added word. Main-agent audit (the audio re-decoded at the spots the batch listed as unsure): unit 66 'forces. armed forces' -> 'forces. Our armed forces' (three re-decodes hear 'Our armed forces have fought alongside the Allies' (p 0.99-1.00); the first pass lost 'Our' at a segment boundary). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 28 'continues. the' -> 'continues. The'; unit 34 'forces. constructive' -> 'forces. Constructive'; unit 80 'leader. and' -> 'leader. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 13 'Secretariat despite' -> 'Secretariat and despite' (2026 exception: both decodes hear 'and' (0.89 / 0.93); ES 'por la Secretaria y a pesar del llamamiento'); spot 5 unit 28 'mercenary' -> 'mercenaries' (both decodes hear 'mercenaries' (0.97 / 0.98); ES 'armas, equipos y mercenarios'; singular does not fit the list); spot 13 unit 80 'leader. and' -> 'leader. Peace and' (2026 exception: both decodes hear 'Peace' (0.99 / 0.99); ES 'Que la paz y la misericordia'; old is the unit's existing repair 'leader. and' -> 'leader. And', new gives the complete corrected text)",
+ "unitizer_version": 1,
+ "sha1": "7f64659dec3972996e42d276e6260fc93bfb4568",
+ "layout": "single",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2369,
+  "words_out": 2353,
+  "retention": 0.9932,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   166,
+   202,
+   200,
+   70,
+   122,
+   150,
+   164,
+   155,
+   79,
+   128,
+   147,
+   173,
+   116,
+   136,
+   149,
+   148,
+   48
+  ],
+  "warnings": []
+ }
+}

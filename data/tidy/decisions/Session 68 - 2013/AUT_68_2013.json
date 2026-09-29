@@ -1,0 +1,68 @@
+{
+ "id": "AUT_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  17,
+  27,
+  39,
+  56,
+  62,
+  71,
+  81,
+  97,
+  119,
+  135,
+  148,
+  167
+ ],
+ "cer": [
+  167
+ ],
+ "fix": [
+  [
+   6,
+   " (see",
+   "",
+   "label"
+  ],
+  [
+   7,
+   "A/68/PV.5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "16c218f74ac5dac8b877e8eafe645578b768fc53",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1357,
+  "words_out": 1354,
+  "retention": 0.9978,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   70,
+   62,
+   76,
+   103,
+   144,
+   47,
+   66,
+   81,
+   129,
+   166,
+   125,
+   103,
+   155,
+   27
+  ],
+  "warnings": []
+ }
+}

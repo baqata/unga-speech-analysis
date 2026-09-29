@@ -1,0 +1,136 @@
+{
+ "id": "GAB_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  17,
+  21,
+  24,
+  26,
+  28,
+  30,
+  32,
+  35,
+  38,
+  41,
+  43
+ ],
+ "cer": [
+  4,
+  8
+ ],
+ "fix": [
+  [
+   2,
+   "by ,man",
+   "by man",
+   "ocr"
+  ],
+  [
+   4,
+   "Assembly ,",
+   "Assembly,",
+   "spacing"
+  ],
+  [
+   5,
+   "'refer",
+   "refer",
+   "ocr"
+  ],
+  [
+   7,
+   "success*",
+   "success.",
+   "ocr"
+  ],
+  [
+   13,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   16,
+   "African©",
+   "Africano",
+   "ocr"
+  ],
+  [
+   16,
+   "territories,",
+   "territories.",
+   "ocr"
+  ],
+  [
+   18,
+   " [2239th meeting)",
+   "",
+   "label"
+  ],
+  [
+   32,
+   " [resolution 3202.(S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "price, for",
+   "price for",
+   "ocr"
+  ],
+  [
+   36,
+   "This .requires",
+   "This requires",
+   "ocr"
+  ],
+  [
+   44,
+   "it j is",
+   "it is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ead7c8c0966a36ea9d2dc49a0650792c8b37421",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 23
+  },
+  "words_in": 2040,
+  "words_out": 2030,
+  "retention": 0.9951,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   182,
+   195,
+   103,
+   105,
+   199,
+   108,
+   139,
+   94,
+   70,
+   158,
+   85,
+   162,
+   67,
+   182,
+   70,
+   111
+  ],
+  "warnings": []
+ }
+}

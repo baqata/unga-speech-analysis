@@ -1,0 +1,142 @@
+{
+ "id": "IDN_33_1978",
+ "drop": [
+  [
+   97,
+   97,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  17,
+  20,
+  24,
+  28,
+  35,
+  39,
+  46,
+  49,
+  55,
+  58,
+  60,
+  65,
+  70,
+  75,
+  79,
+  83,
+  90,
+  93,
+  99,
+  106,
+  112,
+  115
+ ],
+ "cer": [
+  0,
+  4,
+  10
+ ],
+ "fix": [
+  [
+   40,
+   " [resolution S-10/2]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "the' fundamental",
+   "the fundamental",
+   "ocr"
+  ],
+  [
+   50,
+   "flagrant' denial",
+   "flagrant denial",
+   "ocr"
+  ],
+  [
+   53,
+   " [see A/33/35J",
+   "",
+   "label"
+  ],
+  [
+   82,
+   "5",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "arc- of",
+   "are of",
+   "ocr"
+  ],
+  [
+   108,
+   "6",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Footnote text (unit 97) dropped; inline footnote markers removed.",
+ "unitizer_version": 1,
+ "sha1": "604c40d2176de2dd9e676aec2f4f6f17ecb60da0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3289,
+  "words_out": 3249,
+  "retention": 0.9878,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   116,
+   88,
+   78,
+   82,
+   143,
+   106,
+   146,
+   152,
+   179,
+   77,
+   196,
+   63,
+   144,
+   67,
+   67,
+   132,
+   163,
+   105,
+   72,
+   126,
+   167,
+   76,
+   137,
+   260,
+   141,
+   94,
+   72
+  ],
+  "warnings": []
+ }
+}

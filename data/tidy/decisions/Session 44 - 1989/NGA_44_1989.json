@@ -1,0 +1,141 @@
+{
+ "id": "NGA_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  18,
+  26,
+  31,
+  35,
+  43,
+  47,
+  49,
+  53,
+  57,
+  60,
+  62,
+  68,
+  70,
+  81,
+  84,
+  88,
+  92,
+  96,
+  101,
+  108,
+  116
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   1,
+   "Babanqida",
+   "Babangida",
+   "ocr"
+  ],
+  [
+   35,
+   "Babanqida",
+   "Babangida",
+   "ocr"
+  ],
+  [
+   20,
+   "non-ex is tent",
+   "non-existent",
+   "split_word"
+  ],
+  [
+   38,
+   "the IMP and",
+   "the IMF and",
+   "ocr"
+  ],
+  [
+   39,
+   "(SAP)",
+   "(SAF)",
+   "ocr"
+  ],
+  [
+   46,
+   "S128 billion",
+   "$128 billion",
+   "ocr"
+  ],
+  [
+   46,
+   ".1230 billion",
+   "$230 billion",
+   "ocr"
+  ],
+  [
+   116,
+   "Namibia-,",
+   "Namibia;",
+   "ocr"
+  ],
+  [
+   116,
+   "peoples-,",
+   "peoples;",
+   "ocr"
+  ],
+  [
+   116,
+   "may be-,",
+   "may be;",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 77 begins mid-sentence ('Transition Assistance Group (UNTAG) in Namibia ...'); text on Namibia is missing before it. Merged into the preceding paragraph.",
+ "unitizer_version": 1,
+ "sha1": "a24a1aef833f752918904ddf31dbce7541e1e7d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2879,
+  "words_out": 2872,
+  "retention": 0.9976,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   159,
+   73,
+   96,
+   101,
+   147,
+   154,
+   66,
+   278,
+   96,
+   86,
+   167,
+   75,
+   61,
+   68,
+   141,
+   76,
+   233,
+   65,
+   69,
+   88,
+   98,
+   97,
+   105,
+   144,
+   129
+  ],
+  "warnings": []
+ }
+}

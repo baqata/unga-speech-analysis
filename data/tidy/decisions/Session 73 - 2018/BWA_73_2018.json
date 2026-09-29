@@ -1,0 +1,93 @@
+{
+ "id": "BWA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  15,
+  18,
+  23,
+  26,
+  29,
+  32,
+  34,
+  37,
+  41,
+  46,
+  51,
+  56,
+  58,
+  63,
+  68,
+  71,
+  73
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   19,
+   "upper- middle",
+   "upper-middle",
+   "hyphen"
+  ],
+  [
+   19,
+   "less- developed",
+   "less-developed",
+   "hyphen"
+  ],
+  [
+   38,
+   "community- based",
+   "community-based",
+   "hyphen"
+  ],
+  [
+   49,
+   "high- income",
+   "high-income",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "abb3d2ee89a487a81287bc0ede76107f91b7a75b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2045,
+  "words_out": 2041,
+  "retention": 0.998,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   75,
+   216,
+   123,
+   123,
+   112,
+   61,
+   67,
+   76,
+   72,
+   83,
+   102,
+   117,
+   160,
+   102,
+   65,
+   137,
+   111,
+   81,
+   67,
+   91
+  ],
+  "warnings": []
+ }
+}

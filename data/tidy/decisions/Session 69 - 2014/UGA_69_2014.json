@@ -1,0 +1,43 @@
+{
+ "id": "UGA_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  28,
+  40,
+  56,
+  72,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0488e7147d83f4083f67cbcc731c429a1728cc71",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 720,
+  "words_out": 719,
+  "retention": 0.9986,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   30,
+   70,
+   144,
+   90,
+   133,
+   137,
+   79,
+   36
+  ],
+  "warnings": []
+ }
+}

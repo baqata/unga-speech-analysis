@@ -1,0 +1,49 @@
+{
+ "id": "FIN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  17,
+  29,
+  43,
+  45,
+  54,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77f06a5270465bd333321517470efbc38164b731",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1108,
+  "words_out": 1103,
+  "retention": 0.9955,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   31,
+   66,
+   88,
+   100,
+   198,
+   235,
+   53,
+   111,
+   103,
+   118
+  ],
+  "warnings": []
+ }
+}

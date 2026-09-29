@@ -1,0 +1,63 @@
+{
+ "id": "UZB_60_2005",
+ "drop": [
+  [
+   114,
+   114,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  21,
+  37,
+  50,
+  62,
+  85,
+  105,
+  115,
+  127,
+  144,
+  159
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c764b8205a81ef336a146082a145f120fd65d81",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1338,
+  "words_out": 1331,
+  "retention": 0.9948,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   65,
+   104,
+   125,
+   103,
+   83,
+   165,
+   153,
+   67,
+   91,
+   133,
+   109,
+   133
+  ],
+  "warnings": [
+   "procedural drop [114,114] in the middle of the speech"
+  ]
+ }
+}

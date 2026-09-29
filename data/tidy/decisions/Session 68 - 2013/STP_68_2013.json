@@ -1,0 +1,74 @@
+{
+ "id": "STP_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  29,
+  50,
+  72,
+  84,
+  104,
+  117,
+  137,
+  152,
+  166,
+  180,
+  194,
+  203,
+  219,
+  234,
+  252,
+  257,
+  266
+ ],
+ "cer": [
+  0,
+  22,
+  72
+ ],
+ "fix": [
+  [
+   20,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c4be24c169192c54b9eca5906d1625d22c4318f7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 273,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2109,
+  "words_out": 2107,
+  "retention": 0.9991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   181,
+   50,
+   160,
+   168,
+   90,
+   144,
+   99,
+   152,
+   122,
+   96,
+   116,
+   107,
+   68,
+   139,
+   119,
+   142,
+   38,
+   68,
+   48
+  ],
+  "warnings": []
+ }
+}

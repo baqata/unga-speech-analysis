@@ -1,0 +1,45 @@
+{
+ "id": "BEL_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  35,
+  55,
+  69,
+  85,
+  93,
+  112,
+  126
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c0b6cb16064d5cd1769936c7491fbfb3c52990fc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1144,
+  "words_out": 1143,
+  "retention": 0.9991,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   154,
+   134,
+   153,
+   117,
+   114,
+   54,
+   148,
+   111,
+   158
+  ],
+  "warnings": []
+ }
+}

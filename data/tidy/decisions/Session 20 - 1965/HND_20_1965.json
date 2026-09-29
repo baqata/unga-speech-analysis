@@ -1,0 +1,78 @@
+{
+ "id": "HND_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  15,
+  26,
+  30,
+  34,
+  36,
+  39,
+  41,
+  48,
+  53,
+  59
+ ],
+ "cer": [
+  0,
+  48,
+  53
+ ],
+ "fix": [
+  [
+   21,
+   "suffer, from",
+   "suffer from",
+   "ocr"
+  ],
+  [
+   37,
+   "technical, assistance",
+   "technical assistance",
+   "ocr"
+  ],
+  [
+   52,
+   "struggles v or the",
+   "struggles for the",
+   "ocr"
+  ],
+  [
+   60,
+   "of ail the",
+   "of all the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "657c9a9b3d92be8bb1ba29aa31d16649215907f4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1677,
+  "words_out": 1656,
+  "retention": 0.9875,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   133,
+   235,
+   218,
+   106,
+   91,
+   65,
+   87,
+   60,
+   176,
+   130,
+   237,
+   118
+  ],
+  "warnings": []
+ }
+}

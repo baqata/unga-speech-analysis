@@ -1,0 +1,51 @@
+{
+ "id": "LIE_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  31,
+  44,
+  62,
+  74,
+  83,
+  104,
+  123,
+  140,
+  149
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5787e3eb3d77fd24f0a109640bbc4cbf3b02f213",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1375,
+  "words_out": 1371,
+  "retention": 0.9971,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   61,
+   182,
+   114,
+   158,
+   101,
+   81,
+   171,
+   157,
+   135,
+   74,
+   137
+  ],
+  "warnings": []
+ }
+}

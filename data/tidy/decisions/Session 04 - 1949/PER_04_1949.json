@@ -1,0 +1,68 @@
+{
+ "id": "PER_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  11,
+  15,
+  20,
+  23,
+  26,
+  30,
+  33,
+  37,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "international. obligations",
+   "international obligations",
+   "ocr"
+  ],
+  [
+   42,
+   "the' countries",
+   "the countries",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "dfa176aa23281a350f57063250c07ad16d211937",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 1501,
+  "words_out": 1501,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   110,
+   141,
+   77,
+   111,
+   104,
+   178,
+   111,
+   103,
+   140,
+   68,
+   137,
+   159,
+   62
+  ],
+  "warnings": []
+ }
+}

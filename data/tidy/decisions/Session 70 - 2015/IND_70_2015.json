@@ -1,0 +1,100 @@
+{
+ "id": "IND_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  16,
+  20,
+  27,
+  33,
+  35,
+  41,
+  47,
+  53,
+  63,
+  71,
+  80,
+  84,
+  90,
+  96,
+  102,
+  110,
+  111,
+  119,
+  124,
+  129
+ ],
+ "cer": [
+  33
+ ],
+ "fix": [
+  [
+   20,
+   "f low",
+   "flow",
+   "split_word"
+  ],
+  [
+   77,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ],
+  [
+   109,
+   "India- Africa",
+   "India-Africa",
+   "hyphen"
+  ],
+  [
+   126,
+   "all- encompassing",
+   "all-encompassing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66361680c45e094aa74697e95f4fce491e7596b4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 8
+  },
+  "words_in": 2848,
+  "words_out": 2842,
+  "retention": 0.9979,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   54,
+   170,
+   142,
+   100,
+   126,
+   120,
+   57,
+   149,
+   124,
+   137,
+   143,
+   161,
+   190,
+   94,
+   103,
+   118,
+   138,
+   192,
+   22,
+   148,
+   118,
+   98,
+   138
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "DZA_38_1983",
+ "drop": [
+  [
+   56,
+   56,
+   "header_footer"
+  ],
+  [
+   120,
+   120,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  15,
+  19,
+  24,
+  28,
+  35,
+  39,
+  42,
+  46,
+  51,
+  54,
+  57,
+  62,
+  67,
+  71,
+  76,
+  81,
+  84,
+  89,
+  93,
+  99,
+  103,
+  110,
+  121,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "peace and, development",
+   "peace and development",
+   "ocr"
+  ],
+  [
+   70,
+   " [Q/4t/j",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f77398368987fa90ae46f64a5f2fad163e7ab971",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {
+   "header_footer": 1,
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 50
+  },
+  "words_in": 3270,
+  "words_out": 3267,
+  "retention": 0.9991,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   164,
+   119,
+   127,
+   121,
+   155,
+   121,
+   95,
+   104,
+   89,
+   139,
+   80,
+   104,
+   102,
+   101,
+   85,
+   181,
+   111,
+   69,
+   161,
+   88,
+   169,
+   163,
+   149,
+   215,
+   136,
+   119
+  ],
+  "warnings": []
+ }
+}

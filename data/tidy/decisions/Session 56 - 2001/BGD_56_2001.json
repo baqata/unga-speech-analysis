@@ -1,0 +1,55 @@
+{
+ "id": "BGD_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  38,
+  59,
+  82,
+  111,
+  139,
+  154,
+  180,
+  217,
+  245,
+  258,
+  292
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a996b93832b948ab9d259819710a4c063f7b62b4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 317,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2418,
+  "words_out": 2415,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   95,
+   199,
+   174,
+   163,
+   223,
+   191,
+   116,
+   204,
+   292,
+   219,
+   99,
+   251,
+   189
+  ],
+  "warnings": []
+ }
+}

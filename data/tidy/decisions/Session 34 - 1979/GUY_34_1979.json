@@ -1,0 +1,113 @@
+{
+ "id": "GUY_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  19,
+  23,
+  29,
+  33,
+  37,
+  41,
+  46,
+  51,
+  56,
+  63,
+  69,
+  73,
+  78,
+  85,
+  90,
+  94,
+  100,
+  102,
+  104
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   2,
+   "alt can",
+   "all can",
+   "ocr"
+  ],
+  [
+   6,
+   "Bourne- diene",
+   "Boumediene",
+   "ocr"
+  ],
+  [
+   16,
+   "un-certainty",
+   "uncertainty",
+   "hyphen"
+  ],
+  [
+   36,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   78,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   93,
+   "over- consumption",
+   "over-consumption",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e82903126a85a9cb4c467caad787278d6f16cbe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3058,
+  "words_out": 3055,
+  "retention": 0.999,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   236,
+   118,
+   88,
+   196,
+   92,
+   124,
+   162,
+   87,
+   103,
+   138,
+   158,
+   120,
+   182,
+   120,
+   122,
+   135,
+   158,
+   143,
+   139,
+   155,
+   110,
+   66,
+   103
+  ],
+  "warnings": []
+ }
+}

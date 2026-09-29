@@ -1,0 +1,293 @@
+{
+ "id": "CAN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  20,
+  25,
+  30,
+  39,
+  45,
+  49,
+  56,
+  61,
+  66,
+  74,
+  80,
+  83,
+  89,
+  93,
+  97,
+  103,
+  110,
+  118,
+  125,
+  129,
+  134,
+  138,
+  145,
+  153,
+  160,
+  169,
+  183,
+  203
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   1,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   3,
+   "so. it",
+   "so, it",
+   "ocr"
+  ],
+  [
+   5,
+   "Sir. and",
+   "Sir, and",
+   "ocr"
+  ],
+  [
+   9,
+   "York.",
+   "York,",
+   "ocr"
+  ],
+  [
+   10,
+   "Ontario.",
+   "Ontario,",
+   "ocr"
+  ],
+  [
+   15,
+   "that. no. it",
+   "that, no, it",
+   "ocr"
+  ],
+  [
+   30,
+   "too. are",
+   "too, are",
+   "ocr"
+  ],
+  [
+   50,
+   "gay. bisexual",
+   "gay, bisexual",
+   "ocr"
+  ],
+  [
+   54,
+   "yes. so",
+   "yes, so",
+   "ocr"
+  ],
+  [
+   58,
+   "it. where",
+   "it, where",
+   "ocr"
+  ],
+  [
+   58,
+   "men. women",
+   "men, women",
+   "ocr"
+  ],
+  [
+   62,
+   "Rakhine. as",
+   "Rakhine, as",
+   "ocr"
+  ],
+  [
+   64,
+   "war. more",
+   "war, more",
+   "ocr"
+  ],
+  [
+   72,
+   "honest.",
+   "honest,",
+   "ocr"
+  ],
+  [
+   86,
+   "Well.",
+   "Well,",
+   "ocr"
+  ],
+  [
+   88,
+   "us. gender",
+   "us, gender",
+   "ocr"
+  ],
+  [
+   94,
+   "say. it",
+   "say, it",
+   "ocr"
+  ],
+  [
+   99,
+   "is. if",
+   "is, if",
+   "ocr"
+  ],
+  [
+   99,
+   "to. the",
+   "to, the",
+   "ocr"
+  ],
+  [
+   100,
+   "all. including",
+   "all, including",
+   "ocr"
+  ],
+  [
+   101,
+   "all. everyone",
+   "all, everyone",
+   "ocr"
+  ],
+  [
+   105,
+   "week.",
+   "week,",
+   "ocr"
+  ],
+  [
+   108,
+   "so.",
+   "so,",
+   "ocr"
+  ],
+  [
+   114,
+   "Canada.",
+   "Canada,",
+   "ocr"
+  ],
+  [
+   121,
+   "all. a",
+   "all, a",
+   "ocr"
+  ],
+  [
+   123,
+   "so. we",
+   "so, we",
+   "ocr"
+  ],
+  [
+   145,
+   "Yes. we are halfway to 2030 and yes. we",
+   "Yes, we are halfway to 2030 and yes, we",
+   "ocr"
+  ],
+  [
+   154,
+   "it. there",
+   "it, there",
+   "ocr"
+  ],
+  [
+   158,
+   "yet. despite",
+   "yet, despite",
+   "ocr"
+  ],
+  [
+   166,
+   "all. there",
+   "all, there",
+   "ocr"
+  ],
+  [
+   187,
+   "simply say.",
+   "simply say,",
+   "ocr"
+  ],
+  [
+   188,
+   "“Well. fine.",
+   "“Well, fine.",
+   "ocr"
+  ],
+  [
+   192,
+   "law. and",
+   "law, and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "876228b40c955b9877949fb2e6c540dfc4ccee26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1
+  },
+  "words_in": 3919,
+  "words_out": 3919,
+  "retention": 1.0,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   94,
+   101,
+   129,
+   145,
+   111,
+   138,
+   164,
+   109,
+   185,
+   135,
+   107,
+   153,
+   74,
+   107,
+   97,
+   77,
+   81,
+   145,
+   87,
+   141,
+   130,
+   96,
+   128,
+   84,
+   106,
+   135,
+   140,
+   155,
+   206,
+   259,
+   100
+  ],
+  "warnings": [
+   "33 fixes"
+  ]
+ }
+}

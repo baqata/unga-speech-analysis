@@ -1,0 +1,94 @@
+{
+ "id": "CAN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  14,
+  24,
+  31,
+  39,
+  48,
+  53,
+  63,
+  69,
+  73,
+  80,
+  87,
+  93,
+  99,
+  105,
+  107,
+  110,
+  114,
+  116,
+  122,
+  125,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "(hat",
+   "that",
+   "ocr"
+  ],
+  [
+   61,
+   "un equitable",
+   "an equitable",
+   "ocr"
+  ],
+  [
+   68,
+   "Li.ke",
+   "Like",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b8111b34d5bc815c19c2134323b8fb85872b0cff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2830,
+  "words_out": 2830,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   53,
+   201,
+   146,
+   153,
+   104,
+   138,
+   161,
+   191,
+   141,
+   74,
+   133,
+   160,
+   128,
+   123,
+   149,
+   61,
+   110,
+   102,
+   48,
+   158,
+   96,
+   86,
+   114
+  ],
+  "warnings": []
+ }
+}

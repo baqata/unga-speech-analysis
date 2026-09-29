@@ -1,0 +1,106 @@
+{
+ "id": "BRA_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  12,
+  19,
+  28,
+  37,
+  43,
+  47,
+  52,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Assembly, Our",
+   "Assembly. Our",
+   "ocr"
+  ],
+  [
+   1,
+   "American, nations",
+   "American nations",
+   "ocr"
+  ],
+  [
+   6,
+   "aim, is",
+   "aim is",
+   "ocr"
+  ],
+  [
+   7,
+   "Pan America, Thus",
+   "Pan America. Thus",
+   "ocr"
+  ],
+  [
+   28,
+   "stressed? only",
+   "stressed: only",
+   "ocr"
+  ],
+  [
+   36,
+   "decreases, in",
+   "decreases in",
+   "ocr"
+  ],
+  [
+   36,
+   "Finance, The",
+   "Finance. The",
+   "ocr"
+  ],
+  [
+   41,
+   " [1474 (ES-IV)]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   " [377 A (V)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6241579c8412d69b908838f1f05add522514df9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1858,
+  "words_out": 1844,
+  "retention": 0.9925,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   79,
+   221,
+   140,
+   156,
+   232,
+   250,
+   219,
+   129,
+   161,
+   162,
+   95
+  ],
+  "warnings": []
+ }
+}

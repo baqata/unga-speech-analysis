@@ -1,0 +1,122 @@
+{
+ "id": "JOR_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  19,
+  28,
+  35,
+  37,
+  44,
+  47,
+  51,
+  57,
+  62,
+  69,
+  74,
+  79,
+  82,
+  85,
+  95,
+  99,
+  104,
+  110,
+  114,
+  118,
+  127,
+  133,
+  137,
+  146,
+  151
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "test- ban",
+   "test-ban",
+   "spacing"
+  ],
+  [
+   27,
+   "task,",
+   "task.",
+   "ocr"
+  ],
+  [
+   36,
+   ", I would be",
+   ". I would be",
+   "ocr"
+  ],
+  [
+   36,
+   "Idid",
+   "I did",
+   "merged_word"
+  ],
+  [
+   50,
+   ", I would venture",
+   ". I would venture",
+   "ocr"
+  ],
+  [
+   138,
+   "Twenty- Four",
+   "Twenty-Four",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59deb64f5889f1fc8ca2e8c9b2281cbaeee548d3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3841,
+  "words_out": 3797,
+  "retention": 0.9885,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   120,
+   136,
+   86,
+   171,
+   234,
+   129,
+   89,
+   109,
+   67,
+   144,
+   128,
+   145,
+   151,
+   146,
+   132,
+   84,
+   87,
+   220,
+   124,
+   111,
+   126,
+   102,
+   91,
+   159,
+   179,
+   97,
+   200,
+   149,
+   81
+  ],
+  "warnings": []
+ }
+}

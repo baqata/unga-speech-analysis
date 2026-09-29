@@ -1,0 +1,59 @@
+{
+ "id": "SEN_72_2017",
+ "drop": [
+  [
+   37,
+   37,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  15,
+  21,
+  24,
+  28,
+  32,
+  38,
+  44
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba64839e8431fcfacc14756b2d13810d63fde755",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1193,
+  "words_out": 1188,
+  "retention": 0.9958,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   58,
+   147,
+   70,
+   84,
+   134,
+   120,
+   67,
+   88,
+   161,
+   166,
+   93
+  ],
+  "warnings": [
+   "presider drop [37,37] in the middle of the speech"
+  ]
+ }
+}

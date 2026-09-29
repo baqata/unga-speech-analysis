@@ -1,0 +1,161 @@
+{
+ "id": "PHL_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  11,
+  14,
+  21,
+  23,
+  28,
+  30,
+  33,
+  36,
+  38,
+  42,
+  50,
+  54,
+  58,
+  62,
+  66,
+  71,
+  75,
+  78,
+  81,
+  85,
+  91,
+  96,
+  99,
+  102,
+  105,
+  109,
+  114,
+  115
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   6,
+   "beset out",
+   "beset our",
+   "ocr"
+  ],
+  [
+   15,
+   "are not implementing",
+   "are now implementing",
+   "ocr"
+  ],
+  [
+   32,
+   "Asia,",
+   "Asia.",
+   "ocr"
+  ],
+  [
+   52,
+   "will not heed",
+   "will now heed",
+   "ocr"
+  ],
+  [
+   77,
+   "1 should",
+   "I should",
+   "ocr"
+  ],
+  [
+   85,
+   "Africa, That",
+   "Africa. That",
+   "ocr"
+  ],
+  [
+   86,
+   "states;",
+   "states:",
+   "ocr"
+  ],
+  [
+   92,
+   "of the.",
+   "of the",
+   "ocr"
+  ],
+  [
+   98,
+   "Nations.to",
+   "Nations to",
+   "ocr"
+  ],
+  [
+   106,
+   "self- help",
+   "self-help",
+   "ocr"
+  ],
+  [
+   106,
+   "the-people",
+   "the people",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26e4ef69055e32da583174617b56296ebcd14e03",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3627,
+  "words_out": 3624,
+  "retention": 0.9992,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   123,
+   55,
+   195,
+   70,
+   62,
+   191,
+   50,
+   216,
+   107,
+   96,
+   87,
+   59,
+   94,
+   175,
+   119,
+   118,
+   151,
+   126,
+   123,
+   142,
+   62,
+   110,
+   100,
+   199,
+   114,
+   92,
+   119,
+   98,
+   116,
+   84,
+   67,
+   104
+  ],
+  "warnings": []
+ }
+}

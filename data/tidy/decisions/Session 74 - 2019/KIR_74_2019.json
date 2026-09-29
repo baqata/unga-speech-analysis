@@ -1,0 +1,78 @@
+{
+ "id": "KIR_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  8,
+  11,
+  14,
+  18,
+  21,
+  26,
+  31,
+  35,
+  40,
+  44,
+  48,
+  51,
+  55,
+  63,
+  69,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "senior- citizens",
+   "senior-citizens",
+   "hyphen"
+  ],
+  [
+   39,
+   "preschool- level",
+   "preschool-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d27e60d2cbebbbfa6e3538e8983da1ae6325b89",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2128,
+  "words_out": 2126,
+  "retention": 0.9991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   154,
+   72,
+   67,
+   61,
+   84,
+   104,
+   101,
+   120,
+   114,
+   146,
+   120,
+   106,
+   123,
+   69,
+   132,
+   244,
+   160,
+   80,
+   69
+  ],
+  "warnings": []
+ }
+}

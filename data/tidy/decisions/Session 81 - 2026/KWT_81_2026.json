@@ -1,0 +1,174 @@
+{
+ "id": "KWT_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   3,
+   5,
+   "noise"
+  ],
+  [
+   80,
+   81,
+   "presider"
+  ]
+ ],
+ "para": [
+  6,
+  8,
+  12,
+  16,
+  22,
+  25,
+  28,
+  35,
+  39,
+  47,
+  54,
+  61,
+  64,
+  72,
+  76
+ ],
+ "cer": [
+  6,
+  8
+ ],
+ "fix": [
+  [
+   8,
+   "al-Sabaha",
+   "al-Sabah",
+   "asr_name"
+  ],
+  [
+   9,
+   "Khalil al-Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   11,
+   "Birbock",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   23,
+   "ending",
+   "demanding",
+   "asr_term"
+  ],
+  [
+   36,
+   "Khura",
+   "Khor",
+   "asr_name"
+  ],
+  [
+   47,
+   "Bab al-Mendab",
+   "Bab al-Mandab",
+   "asr_name"
+  ],
+  [
+   51,
+   "Babel-Mendab",
+   "Bab al-Mandab",
+   "asr_name"
+  ],
+  [
+   67,
+   "pining",
+   "pioneering",
+   "asr_term"
+  ],
+  [
+   71,
+   "control",
+   "cultural",
+   "asr_term"
+  ],
+  [
+   12,
+   "in in",
+   "in",
+   "asr_term"
+  ],
+  [
+   16,
+   "drones. all",
+   "drones. All",
+   "asr_term"
+  ],
+  [
+   18,
+   "well. revealing",
+   "well. Revealing",
+   "asr_term"
+  ],
+  [
+   70,
+   "2035. by",
+   "2035 by",
+   "asr_term"
+  ],
+  [
+   30,
+   "Kuwait",
+   "In 2003, Kuwait",
+   "asr_term"
+  ],
+  [
+   35,
+   "assigned",
+   "signed",
+   "asr_term"
+  ],
+  [
+   27,
+   "seizing",
+   "ceasing",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish confirms exigiendo su cese, cese del apoyo, pionero, cultural and Khor Abdullah; Emir Sheikh Meshal Al-Ahmad Al-Jaber Al-Sabah. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 12 'in in' -> 'in'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'drones. all' -> 'drones. All'; unit 18 'well. revealing' -> 'well. Revealing'; unit 70 '2035. by' -> '2035 by'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 9 unit 27 'seizing' -> 'ceasing' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'seizing' (decodes 0.99 / 1.00, the UN transcript; forced scoring -1.3 vs 'ceasing' -6.5); 'seizing support for proxies and militias' does not fit, and the Spanish 'el cese del apoyo a grupos acólitos y milicias' shows 'ceasing'); spot 11 unit 30 'Kuwait' -> 'In 2003, Kuwait' (2026 exception: both decodes hear 'In 2003,' clearly (0.99/0.99, 0.99/0.99); ES 'Desde la caída del antiguo régimen en 2003'; date dropped by our transcript); spot 13 unit 35 'assigned' -> 'signed' (decodes 'assigned' weak (0.55/0.56); 'arrangements assigned between the two countries' does not fit; 'signed' sounds alike and fits bilateral agreements)",
+ "unitizer_version": 1,
+ "sha1": "2e3a875c4233db7b57b83e183f3be5531e84335e",
+ "layout": "single",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "presider": 5,
+   "noise": 3
+  },
+  "prestrip": {},
+  "words_in": 2441,
+  "words_out": 2372,
+  "retention": 0.9717,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   41,
+   119,
+   185,
+   185,
+   101,
+   178,
+   212,
+   123,
+   226,
+   200,
+   148,
+   155,
+   226,
+   131,
+   142
+  ],
+  "warnings": []
+ }
+}

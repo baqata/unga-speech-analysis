@@ -1,0 +1,152 @@
+{
+ "id": "LUX_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  18,
+  22,
+  26,
+  33,
+  37,
+  40,
+  45,
+  50,
+  54,
+  57,
+  59,
+  64,
+  68,
+  72,
+  77,
+  80,
+  83,
+  88,
+  93,
+  95
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "Lusakamost",
+   "Lusaka most",
+   "merged_word"
+  ],
+  [
+   3,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   4,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   6,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   8,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   "dearly defined",
+   "clearly defined",
+   "ocr"
+  ],
+  [
+   20,
+   "East West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   22,
+   " [4th assembly]",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "a tum for",
+   "a turn for",
+   "ocr"
+  ],
+  [
+   37,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   41,
+   "North South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   73,
+   "increase m methods",
+   "increase in methods",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 86 lacks a word after 'occupied territories, of'.",
+ "unitizer_version": 1,
+ "sha1": "71b1e20203bf47ec75fcbb9c9b3a0fed0bff98f2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 49
+  },
+  "words_in": 3206,
+  "words_out": 3198,
+  "retention": 0.9975,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   114,
+   218,
+   135,
+   107,
+   123,
+   182,
+   160,
+   145,
+   90,
+   139,
+   132,
+   146,
+   122,
+   123,
+   156,
+   178,
+   137,
+   108,
+   90,
+   110,
+   115,
+   115,
+   105,
+   148
+  ],
+  "warnings": []
+ }
+}

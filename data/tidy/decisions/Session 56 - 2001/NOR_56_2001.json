@@ -1,0 +1,47 @@
+{
+ "id": "NOR_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  34,
+  48,
+  72,
+  93,
+  103,
+  121,
+  135
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2f3f7c929b62e86b700eec5d5181b98404dda28",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1133,
+  "words_out": 1131,
+  "retention": 0.9982,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   131,
+   123,
+   100,
+   183,
+   170,
+   86,
+   144,
+   111,
+   83
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "KOR_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  18,
+  24,
+  27,
+  32,
+  36,
+  41,
+  44,
+  48,
+  54,
+  62,
+  68,
+  71,
+  73,
+  77,
+  80,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "(see A/78/ PV.6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbc1b74b7d4821bed72a2ab6e418f82fb1b298c9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2230,
+  "words_out": 2223,
+  "retention": 0.9969,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   40,
+   166,
+   150,
+   133,
+   91,
+   89,
+   128,
+   112,
+   75,
+   105,
+   179,
+   170,
+   172,
+   77,
+   60,
+   154,
+   90,
+   147,
+   85
+  ],
+  "warnings": []
+ }
+}

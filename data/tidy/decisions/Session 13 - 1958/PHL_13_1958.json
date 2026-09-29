@@ -1,0 +1,200 @@
+{
+ "id": "PHL_13_1958",
+ "drop": [
+  [
+   21,
+   21,
+   "header_footer"
+  ],
+  [
+   70,
+   70,
+   "header_footer"
+  ],
+  [
+   74,
+   74,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  19,
+  24,
+  27,
+  31,
+  36,
+  40,
+  48,
+  50,
+  55,
+  61,
+  66,
+  71,
+  75,
+  79,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "deserve If",
+   "deserve if",
+   "ocr"
+  ],
+  [
+   3,
+   "Increasing",
+   "increasing",
+   "ocr"
+  ],
+  [
+   4,
+   "Second augurs",
+   "second augurs",
+   "ocr"
+  ],
+  [
+   11,
+   "Issue",
+   "issue",
+   "ocr"
+  ],
+  [
+   12,
+   "time tor,",
+   "time for,",
+   "ocr"
+  ],
+  [
+   18,
+   "impotence,",
+   "impotence.",
+   "ocr"
+  ],
+  [
+   20,
+   "that &",
+   "that a",
+   "ocr"
+  ],
+  [
+   23,
+   "if It is",
+   "if it is",
+   "ocr"
+  ],
+  [
+   26,
+   "It Is",
+   "It is",
+   "ocr"
+  ],
+  [
+   26,
+   "tests,",
+   "tests.",
+   "ocr"
+  ],
+  [
+   39,
+   "touch to|",
+   "touch to",
+   "ocr"
+  ],
+  [
+   42,
+   "no. magicians",
+   "no magicians",
+   "ocr"
+  ],
+  [
+   46,
+   "Issues",
+   "issues",
+   "ocr"
+  ],
+  [
+   51,
+   "Islands",
+   "islands",
+   "ocr"
+  ],
+  [
+   51,
+   "Intent",
+   "intent",
+   "ocr"
+  ],
+  [
+   60,
+   "the. talks",
+   "the talks",
+   "ocr"
+  ],
+  [
+   60,
+   "they, do not",
+   "they do not",
+   "ocr"
+  ],
+  [
+   60,
+   "fall to",
+   "fail to",
+   "ocr"
+  ],
+  [
+   61,
+   "Algeria, in either",
+   "Algeria. In either",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 21, 70 and 74 are stray paragraph numbers ('117.', '133.', '134.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "388f0e788c5df7f6573b26bf67d653adae250fcc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2632,
+  "words_out": 2629,
+  "retention": 0.9989,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   76,
+   121,
+   149,
+   111,
+   232,
+   106,
+   106,
+   182,
+   149,
+   243,
+   76,
+   185,
+   212,
+   149,
+   107,
+   87,
+   113,
+   140,
+   85
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "id": "CUB_32_1977",
+ "drop": [
+  [
+   96,
+   96,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  9,
+  13,
+  14,
+  16,
+  19,
+  20,
+  24,
+  27,
+  29,
+  31,
+  33,
+  37,
+  40,
+  41,
+  44,
+  48,
+  51,
+  53,
+  54,
+  55,
+  58,
+  64,
+  70,
+  72,
+  74,
+  78,
+  83,
+  85,
+  88,
+  95,
+  100,
+  102,
+  105,
+  108,
+  109,
+  111,
+  113,
+  115,
+  118,
+  122,
+  124,
+  129,
+  130,
+  132,
+  134,
+  137,
+  138,
+  144,
+  146,
+  149,
+  155,
+  159,
+  162,
+  164,
+  167,
+  172,
+  175,
+  177,
+  180,
+  183,
+  185,
+  189
+ ],
+ "cer": [
+  0,
+  8,
+  20
+ ],
+ "fix": [
+  [
+   17,
+   "anti colonialist",
+   "anti-colonialist",
+   "hyphen"
+  ],
+  [
+   22,
+   "the -forefront",
+   "the forefront",
+   "ocr"
+  ],
+  [
+   38,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   40,
+   "course of- giving",
+   "course of giving",
+   "ocr"
+  ],
+  [
+   50,
+   "doctors.,",
+   "doctors,",
+   "ocr"
+  ],
+  [
+   51,
+   "Council of Slate",
+   "Council of State",
+   "ocr"
+  ],
+  [
+   52,
+   "inter nationalist",
+   "internationalist",
+   "split_word"
+  ],
+  [
+   57,
+   "corporations rid trade",
+   "corporations and trade",
+   "ocr"
+  ],
+  [
+   64,
+   "ranks, Bands fall",
+   "ranks. Bands fall",
+   "ocr"
+  ],
+  [
+   68,
+   "heard, a singular",
+   "heard a singular",
+   "ocr"
+  ],
+  [
+   71,
+   "even 10 Africa",
+   "even to Africa",
+   "ocr"
+  ],
+  [
+   71,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   72,
+   ".drawn",
+   "drawn",
+   "ocr"
+  ],
+  [
+   86,
+   "Or; that",
+   "On that",
+   "ocr"
+  ],
+  [
+   94,
+   "convened -A Geneva",
+   "convened at Geneva",
+   "ocr"
+  ],
+  [
+   95,
+   "276. ",
+   "",
+   "label"
+  ],
+  [
+   95,
+   " I see A/32/255-S/12410/",
+   "",
+   "label"
+  ],
+  [
+   97,
+   ",the death",
+   "the death",
+   "ocr"
+  ],
+  [
+   116,
+   "Or the one hand",
+   "On the one hand",
+   "ocr"
+  ],
+  [
+   118,
+   "the Canal .",
+   "the Canal.",
+   "spacing"
+  ],
+  [
+   137,
+   " [see A/32/244!",
+   "",
+   "label"
+  ],
+  [
+   156,
+   "island of- Cuba",
+   "island of Cuba",
+   "ocr"
+  ],
+  [
+   157,
+   "were- ours",
+   "were ours",
+   "ocr"
+  ],
+  [
+   166,
+   "2 4",
+   "",
+   "label"
+  ],
+  [
+   180,
+   "£n obligation",
+   "an obligation",
+   "ocr"
+  ],
+  [
+   183,
+   "and. beyond",
+   "and beyond",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 96 stray paragraph number dropped; document symbols removed from units 95 and 137; footnote marker removed from unit 166.",
+ "unitizer_version": 1,
+ "sha1": "58ba2a2707de2ea854e17e6d9844d1b147d0fdd6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 92
+  },
+  "words_in": 6894,
+  "words_out": 6881,
+  "retention": 0.9981,
+  "n_paragraphs": 66,
+  "paragraph_words": [
+   107,
+   97,
+   79,
+   25,
+   145,
+   61,
+   103,
+   175,
+   45,
+   139,
+   138,
+   120,
+   112,
+   63,
+   167,
+   117,
+   68,
+   89,
+   114,
+   74,
+   113,
+   35,
+   66,
+   107,
+   215,
+   142,
+   67,
+   91,
+   77,
+   139,
+   107,
+   128,
+   226,
+   112,
+   77,
+   81,
+   121,
+   86,
+   148,
+   98,
+   72,
+   90,
+   98,
+   52,
+   187,
+   54,
+   60,
+   73,
+   85,
+   19,
+   156,
+   92,
+   92,
+   152,
+   186,
+   100,
+   78,
+   104,
+   154,
+   132,
+   57,
+   74,
+   86,
+   86,
+   160,
+   108
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

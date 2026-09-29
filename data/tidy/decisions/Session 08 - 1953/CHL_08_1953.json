@@ -1,0 +1,76 @@
+{
+ "id": "CHL_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  20,
+  25,
+  29,
+  37,
+  48,
+  51,
+  56,
+  63
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "held",
+   "field",
+   "ocr"
+  ],
+  [
+   24,
+   "hunrm",
+   "human",
+   "ocr"
+  ],
+  [
+   43,
+   "wc",
+   "we",
+   "ocr"
+  ],
+  [
+   61,
+   "die",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d91ce468f804ba017113f545e05746fd7133df14",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1878,
+  "words_out": 1877,
+  "retention": 0.9995,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   137,
+   122,
+   104,
+   170,
+   160,
+   157,
+   165,
+   221,
+   107,
+   188,
+   250,
+   96
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "GRC_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  21,
+  28,
+  30,
+  38,
+  48,
+  57,
+  62,
+  67,
+  72,
+  75,
+  82,
+  88,
+  92
+ ],
+ "cer": [],
+ "fix": [
+  [
+   73,
+   "IB9th",
+   "139th",
+   "ocr"
+  ],
+  [
+   92,
+   "questions was",
+   "question» was",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "846577f220f04a838348c12bf4a5a0784659bb16",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2551,
+  "words_out": 2551,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   93,
+   104,
+   163,
+   202,
+   186,
+   83,
+   232,
+   250,
+   190,
+   128,
+   124,
+   155,
+   110,
+   162,
+   128,
+   128,
+   113
+  ],
+  "warnings": []
+ }
+}

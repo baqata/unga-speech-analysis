@@ -1,0 +1,101 @@
+{
+ "id": "NZL_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  16,
+  22,
+  30,
+  36,
+  49,
+  57,
+  66,
+  71,
+  75,
+  81,
+  90,
+  101,
+  106,
+  113,
+  119,
+  122,
+  127,
+  131,
+  138,
+  145
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   " [A/35921",
+   "",
+   "label"
+  ],
+  [
+   51,
+   " [A/35921",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "the issuer are",
+   "the issues are",
+   "ocr"
+  ],
+  [
+   137,
+   " [DC/113. annex 51",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "637e53fba33f55e07d0ac6e4a1bb02bbc0894655",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 40
+  },
+  "words_in": 3256,
+  "words_out": 3244,
+  "retention": 0.9963,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   148,
+   81,
+   142,
+   145,
+   159,
+   158,
+   236,
+   232,
+   154,
+   107,
+   101,
+   143,
+   213,
+   208,
+   95,
+   146,
+   122,
+   75,
+   106,
+   99,
+   162,
+   136,
+   76
+  ],
+  "warnings": []
+ }
+}

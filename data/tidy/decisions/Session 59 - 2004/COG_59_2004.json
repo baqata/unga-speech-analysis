@@ -1,0 +1,55 @@
+{
+ "id": "COG_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  42,
+  61,
+  82,
+  98,
+  120,
+  130,
+  148,
+  168,
+  177,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6b53e145344145adb965d5269473215f81eeb4f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1611,
+  "words_out": 1609,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   111,
+   131,
+   77,
+   162,
+   158,
+   134,
+   163,
+   79,
+   125,
+   155,
+   66,
+   107,
+   141
+  ],
+  "warnings": []
+ }
+}

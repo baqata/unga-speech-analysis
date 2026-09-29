@@ -1,0 +1,103 @@
+{
+ "id": "KNA_76_2021",
+ "drop": [
+  [
+   7,
+   7,
+   "heading"
+  ],
+  [
+   18,
+   18,
+   "heading"
+  ],
+  [
+   23,
+   23,
+   "heading"
+  ],
+  [
+   26,
+   26,
+   "heading"
+  ],
+  [
+   31,
+   31,
+   "heading"
+  ],
+  [
+   36,
+   36,
+   "heading"
+  ],
+  [
+   48,
+   48,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  16,
+  19,
+  24,
+  27,
+  32,
+  37,
+  43,
+  49,
+  52,
+  55,
+  60
+ ],
+ "cer": [
+  0,
+  60
+ ],
+ "fix": [
+  [
+   39,
+   "embar-go",
+   "embargo",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7003f5316ae0706c2ba0d1ea21f4677c0f06869",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {
+   "heading": 7
+  },
+  "prestrip": {},
+  "words_in": 1535,
+  "words_out": 1507,
+  "retention": 0.9818,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   118,
+   57,
+   145,
+   113,
+   83,
+   143,
+   77,
+   104,
+   113,
+   141,
+   108,
+   129,
+   72,
+   102,
+   2
+  ],
+  "warnings": []
+ }
+}

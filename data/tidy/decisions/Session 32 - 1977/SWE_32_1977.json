@@ -1,0 +1,191 @@
+{
+ "id": "SWE_32_1977",
+ "drop": [
+  [
+   109,
+   109,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  5,
+  10,
+  13,
+  22,
+  25,
+  30,
+  39,
+  43,
+  51,
+  57,
+  62,
+  67,
+  73,
+  78,
+  84,
+  89,
+  93,
+  96,
+  99,
+  104,
+  110,
+  120,
+  123,
+  130,
+  137,
+  149,
+  154,
+  162,
+  167
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   11,
+   "important -not",
+   "important not",
+   "ocr"
+  ],
+  [
+   26,
+   "threat.'",
+   "threat.",
+   "ocr"
+  ],
+  [
+   35,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "solution .",
+   "solution.",
+   "spacing"
+  ],
+  [
+   40,
+   "hard- headed",
+   "hard-headed",
+   "hyphen"
+  ],
+  [
+   103,
+   "gamed",
+   "gained",
+   "ocr"
+  ],
+  [
+   105,
+   "Rights-one",
+   "Rights—one",
+   "ocr"
+  ],
+  [
+   114,
+   "key -role",
+   "key role",
+   "ocr"
+  ],
+  [
+   118,
+   "we-primarily",
+   "we—primarily",
+   "ocr"
+  ],
+  [
+   118,
+   "countries-learn",
+   "countries—learn",
+   "ocr"
+  ],
+  [
+   126,
+   "UNICTAD's",
+   "UNCTAD's",
+   "ocr"
+  ],
+  [
+   127,
+   "Programme for.",
+   "Programme for",
+   "ocr"
+  ],
+  [
+   133,
+   "product- must",
+   "product—must",
+   "ocr"
+  ],
+  [
+   142,
+   "Decade .",
+   "Decade.",
+   "spacing"
+  ],
+  [
+   152,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 81-82 lack words of the treaty title in the source ('Treaty on the Nuclear Weapons').",
+ "unitizer_version": 1,
+ "sha1": "47ef91fda991b4bbf278c2adf3072fc4f28c4572",
+ "layout": "lines",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3655,
+  "words_out": 3648,
+  "retention": 0.9981,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   127,
+   59,
+   113,
+   68,
+   165,
+   72,
+   99,
+   234,
+   106,
+   138,
+   124,
+   121,
+   94,
+   111,
+   99,
+   95,
+   103,
+   65,
+   57,
+   150,
+   92,
+   131,
+   232,
+   80,
+   112,
+   106,
+   228,
+   91,
+   139,
+   88,
+   149
+  ],
+  "warnings": []
+ }
+}

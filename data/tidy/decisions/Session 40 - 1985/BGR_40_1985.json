@@ -1,0 +1,157 @@
+{
+ "id": "BGR_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  8,
+  14,
+  17,
+  19,
+  23,
+  25,
+  29,
+  31,
+  38,
+  44,
+  48,
+  52,
+  58,
+  62,
+  65,
+  67,
+  70,
+  74,
+  81,
+  82,
+  85,
+  86,
+  88,
+  93,
+  97,
+  101,
+  102,
+  106,
+  112,
+  114,
+  117,
+  118,
+  120
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   14,
+   "today,,",
+   "today,",
+   "ocr"
+  ],
+  [
+   35,
+   "abouts",
+   "about",
+   "ocr"
+  ],
+  [
+   55,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   65,
+   "circles of. the",
+   "circles of the",
+   "ocr"
+  ],
+  [
+   95,
+   "Republic* the",
+   "Republic, the",
+   "ocr"
+  ],
+  [
+   101,
+   "violences It",
+   "violence It",
+   "ocr"
+  ],
+  [
+   112,
+   "support foe",
+   "support for",
+   "ocr"
+  ],
+  [
+   119,
+   "Balkans- in",
+   "Balkans, in",
+   "ocr"
+  ],
+  [
+   121,
+   "pointed cut",
+   "pointed out",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 101 lacks the subject before 'categorically condemn'.",
+ "unitizer_version": 1,
+ "sha1": "64a62794cc54c5a5c94a91f672ddbbce844a0986",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3645,
+  "words_out": 3645,
+  "retention": 1.0,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   35,
+   40,
+   164,
+   136,
+   107,
+   69,
+   84,
+   64,
+   131,
+   68,
+   186,
+   138,
+   85,
+   100,
+   195,
+   90,
+   102,
+   84,
+   57,
+   134,
+   229,
+   55,
+   65,
+   28,
+   62,
+   162,
+   114,
+   119,
+   65,
+   80,
+   177,
+   71,
+   102,
+   63,
+   76,
+   108
+  ],
+  "warnings": []
+ }
+}

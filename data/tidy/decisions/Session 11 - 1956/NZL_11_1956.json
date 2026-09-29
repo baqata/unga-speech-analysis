@@ -1,0 +1,138 @@
+{
+ "id": "NZL_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  10,
+  16,
+  17,
+  20,
+  25,
+  30,
+  36,
+  39,
+  41,
+  47,
+  50,
+  56,
+  60,
+  63,
+  70,
+  76,
+  85,
+  89,
+  91,
+  94,
+  103,
+  113,
+  119,
+  124,
+  128,
+  134,
+  141,
+  145,
+  152
+ ],
+ "cer": [
+  0,
+  60
+ ],
+ "fix": [
+  [
+   16,
+   "exposed, If any",
+   "exposed. If any",
+   "ocr"
+  ],
+  [
+   18,
+   "away front the",
+   "away from the",
+   "ocr"
+  ],
+  [
+   51,
+   "this, Assembly",
+   "this Assembly",
+   "ocr"
+  ],
+  [
+   107,
+   "a, vexed",
+   "a vexed",
+   "ocr"
+  ],
+  [
+   108,
+   "this, Organization",
+   "this Organization",
+   "ocr"
+  ],
+  [
+   118,
+   "Members I would",
+   "Members would",
+   "ocr"
+  ],
+  [
+   69,
+   "[A/3137/Add 1, p. 1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ead047a0be58a2ff7faad9253ac2b77552d9528",
+ "layout": "lines",
+ "stats": {
+  "n_units": 160,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 4245,
+  "words_out": 4235,
+  "retention": 0.9976,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   31,
+   134,
+   93,
+   138,
+   84,
+   88,
+   141,
+   137,
+   233,
+   95,
+   189,
+   128,
+   93,
+   150,
+   107,
+   66,
+   111,
+   106,
+   181,
+   100,
+   61,
+   77,
+   213,
+   266,
+   199,
+   103,
+   127,
+   190,
+   195,
+   107,
+   154,
+   138
+  ],
+  "warnings": []
+ }
+}

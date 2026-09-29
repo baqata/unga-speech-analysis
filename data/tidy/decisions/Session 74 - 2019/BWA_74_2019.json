@@ -1,0 +1,73 @@
+{
+ "id": "BWA_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  16,
+  19,
+  27,
+  33,
+  37,
+  45,
+  49,
+  55,
+  62,
+  65,
+  71,
+  78,
+  82,
+  85,
+  89,
+  93,
+  96,
+  101,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e775ee3eb59ec07fa6d4f3d5bf5fd6bb167353d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2487,
+  "words_out": 2487,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   139,
+   161,
+   120,
+   61,
+   159,
+   105,
+   89,
+   171,
+   93,
+   106,
+   135,
+   62,
+   189,
+   183,
+   79,
+   71,
+   72,
+   79,
+   94,
+   98,
+   181,
+   40
+  ],
+  "warnings": []
+ }
+}

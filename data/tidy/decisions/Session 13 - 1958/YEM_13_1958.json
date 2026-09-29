@@ -1,0 +1,230 @@
+{
+ "id": "YEM_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  19,
+  24,
+  31,
+  35,
+  37,
+  41,
+  46,
+  50,
+  57,
+  60,
+  66,
+  70,
+  76,
+  80,
+  84,
+  88,
+  93,
+  104,
+  112,
+  116,
+  123,
+  125,
+  128,
+  133,
+  137,
+  140,
+  144,
+  149,
+  152,
+  156
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   5,
+   "Pius XII, A great",
+   "Pius XII. A great",
+   "ocr"
+  ],
+  [
+   12,
+   "its- independence",
+   "its independence",
+   "ocr"
+  ],
+  [
+   16,
+   "one- week",
+   "one-week",
+   "hyphen"
+  ],
+  [
+   30,
+   "recent .hardships",
+   "recent hardships",
+   "ocr"
+  ],
+  [
+   30,
+   "future, Arab",
+   "future. Arab",
+   "ocr"
+  ],
+  [
+   46,
+   " [1237 (ES-II)]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "is teat of",
+   "is that of",
+   "ocr"
+  ],
+  [
+   63,
+   "(IV)]. and",
+   "(IV)] and",
+   "ocr"
+  ],
+  [
+   75,
+   "[A/3686, para. 6.]",
+   "",
+   "label"
+  ],
+  [
+   81,
+   " [1012 (XI) and 1184 (XII)]",
+   "",
+   "label"
+  ],
+  [
+   114,
+   " [resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   117,
+   "[A/3934/Rev.",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "1. para. 20].",
+   "",
+   "label"
+  ],
+  [
+   120,
+   "[Ibid., para. 30].",
+   "",
+   "label"
+  ],
+  [
+   122,
+   "[Ibid.. para. 22].",
+   "",
+   "label"
+  ],
+  [
+   123,
+   "August 1968",
+   "August 1958",
+   "ocr"
+  ],
+  [
+   126,
+   " [Ibid., annex I. para. 2]",
+   "",
+   "label"
+  ],
+  [
+   126,
+   " [Ibid., annex II, para. 3.]",
+   "",
+   "label"
+  ],
+  [
+   146,
+   "people. of",
+   "people of",
+   "ocr"
+  ],
+  [
+   147,
+   "1955, This",
+   "1955. This",
+   "ocr"
+  ],
+  [
+   151,
+   "in Omar and",
+   "in Oman and",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 144 breaks off: 'In other parts of the south-eastern section of the crease in colonial aggression' has lost words between 'section of the' and 'crease'; left unrepaired. Units 117-118, 120 and 122 are source notes after quotations, removed with label fixes. Unit 5 (wishes for the Pope's recovery) is labelled ceremonial.",
+ "unitizer_version": 1,
+ "sha1": "0fd3b1628bc40612cbdd84c34f341cba4b4f69b2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 46
+  },
+  "words_in": 4043,
+  "words_out": 4000,
+  "retention": 0.9894,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   145,
+   94,
+   120,
+   186,
+   119,
+   136,
+   89,
+   61,
+   64,
+   154,
+   103,
+   163,
+   92,
+   134,
+   130,
+   137,
+   84,
+   116,
+   74,
+   111,
+   247,
+   179,
+   104,
+   110,
+   73,
+   126,
+   147,
+   121,
+   77,
+   112,
+   112,
+   117,
+   96,
+   67
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

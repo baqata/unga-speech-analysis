@@ -1,0 +1,74 @@
+{
+ "id": "NIC_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  18,
+  37,
+  48,
+  67,
+  77,
+  94,
+  111,
+  129,
+  143,
+  155,
+  165,
+  180,
+  200,
+  213,
+  231,
+  242,
+  251,
+  263
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   99,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59878be86c9d1a331c5852cacdb538a6850deee5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2269,
+  "words_out": 2267,
+  "retention": 0.9991,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   51,
+   99,
+   153,
+   94,
+   164,
+   82,
+   156,
+   128,
+   131,
+   131,
+   97,
+   65,
+   129,
+   157,
+   95,
+   155,
+   85,
+   71,
+   89,
+   135
+  ],
+  "warnings": []
+ }
+}

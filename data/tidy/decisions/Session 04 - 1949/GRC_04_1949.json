@@ -1,0 +1,51 @@
+{
+ "id": "GRC_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  16,
+  21,
+  24,
+  32,
+  37,
+  42,
+  46
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "f3b61e530201c87b2ce46995c0f6bef71127052c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 13
+  },
+  "words_in": 1277,
+  "words_out": 1277,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   106,
+   90,
+   181,
+   97,
+   84,
+   86,
+   237,
+   105,
+   101,
+   152,
+   38
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "id": "ERI_81_2026",
+ "drop": [
+  [
+   33,
+   33,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  22,
+  29
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "I now give the floor to His Excellency, Osman Saleh Mohamed, ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Minister for Foreign Affairs of Eritrea. ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "well this is just so cool so all right ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Khalil Oor Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   0,
+   "8th First Session",
+   "81st Session",
+   "asr_term"
+  ],
+  [
+   1,
+   "Antoni",
+   "Antonio",
+   "asr_name"
+  ],
+  [
+   3,
+   "Seyasa Forky",
+   "Isaias Afwerki",
+   "asr_name"
+  ],
+  [
+   15,
+   "gaitisens",
+   "jettisons",
+   "asr_term"
+  ],
+  [
+   21,
+   "all to focus",
+   "ought to focus",
+   "asr_term"
+  ],
+  [
+   22,
+   "80s,",
+   "80th",
+   "asr_term"
+  ],
+  [
+   22,
+   "Anga",
+   "UNGA",
+   "asr_name"
+  ],
+  [
+   24,
+   "ensure from",
+   "ensue from",
+   "asr_term"
+  ],
+  [
+   27,
+   "For the urgency",
+   "Four, the urgency",
+   "asr_term"
+  ],
+  [
+   27,
+   "format chaos",
+   "foment chaos",
+   "asr_term"
+  ],
+  [
+   27,
+   "Gulf of Eden",
+   "Gulf of Aden",
+   "asr_name"
+  ],
+  [
+   10,
+   "mission? and",
+   "mission? And",
+   "asr_term"
+  ],
+  [
+   19,
+   "growth. fifth",
+   "growth. Fifth",
+   "asr_term"
+  ],
+  [
+   12,
+   "So, the",
+   "The",
+   "asr_term"
+  ],
+  [
+   23,
+   "chore,",
+   "core",
+   "asr_term"
+  ],
+  [
+   28,
+   "guarantee",
+   "warrant",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 opens with the presiding officer's introduction and words invented over the walk (label); President Isaias Afwerki per published sources; abandonar, Golfo de Aden per Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 10 'mission? and' -> 'mission? And'; unit 19 'growth. fifth' -> 'growth. Fifth'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 12 'So, the' -> 'The' (invented word: both decodes go from 'below.' to 'The first' (The 1.00) with no 'So'; ES 'El primer reto para la humanidad' has none); spot 9 unit 23 'chore,' -> 'core' ('from their chore, mission, and struggle' does not fit; decodes unclear ('core' 0.20 / 'true' 0.16); sounds like 'core'; ES 'de su tarea básica'); spot 16 unit 28 'guarantee' -> 'warrant' (decodes 'guarantee' only 0.40 / 0.35; 'developments that guarantee attention' does not fit; ES 'las tendencias que merecen nuestra atención')",
+ "unitizer_version": 1,
+ "sha1": "7c7f5e06eeb718430105dca20279badeb2871480",
+ "layout": "single",
+ "stats": {
+  "n_units": 34,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 844,
+  "words_out": 805,
+  "retention": 0.9538,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   84,
+   102,
+   195,
+   166,
+   173,
+   85
+  ],
+  "warnings": []
+ }
+}

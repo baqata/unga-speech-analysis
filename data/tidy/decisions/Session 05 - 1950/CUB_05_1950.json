@@ -1,0 +1,84 @@
+{
+ "id": "CUB_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  16,
+  18,
+  25,
+  30,
+  33,
+  38,
+  41,
+  44,
+  48,
+  53,
+  57,
+  60
+ ],
+ "cer": [],
+ "fix": [
+  [
+   32,
+   "world problems,",
+   "world problems.",
+   "ocr"
+  ],
+  [
+   36,
+   "Non- Self-Governing",
+   "Non-Self-Governing",
+   "hyphen"
+  ],
+  [
+   46,
+   "para helium",
+   "para bellum",
+   "ocr"
+  ],
+  [
+   63,
+   "It we fail",
+   "If we fail",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d395ca9d11f20bdb16f9acacd16841823f30db2b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2100,
+  "words_out": 2099,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   102,
+   96,
+   80,
+   155,
+   103,
+   195,
+   150,
+   78,
+   164,
+   147,
+   111,
+   143,
+   123,
+   163,
+   105,
+   184
+  ],
+  "warnings": []
+ }
+}

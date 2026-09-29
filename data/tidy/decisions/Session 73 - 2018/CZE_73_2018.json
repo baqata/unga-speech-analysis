@@ -1,0 +1,68 @@
+{
+ "id": "CZE_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  17,
+  25,
+  32,
+  35,
+  39,
+  44,
+  47,
+  53
+ ],
+ "cer": [],
+ "fix": [
+  [
+   38,
+   "emphasizee",
+   "emphasize",
+   "ocr"
+  ],
+  [
+   11,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   58,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd297352b90531dba6a742ef9ea646df5a043efa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1411,
+  "words_out": 1407,
+  "retention": 0.9972,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   82,
+   101,
+   137,
+   74,
+   207,
+   99,
+   72,
+   125,
+   136,
+   72,
+   186,
+   116
+  ],
+  "warnings": []
+ }
+}

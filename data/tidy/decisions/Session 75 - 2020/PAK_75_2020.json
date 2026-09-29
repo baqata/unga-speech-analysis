@@ -1,0 +1,118 @@
+{
+ "id": "PAK_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  10,
+  13,
+  22,
+  27,
+  30,
+  40,
+  47,
+  52,
+  58,
+  66,
+  72,
+  78,
+  86,
+  91,
+  94,
+  99,
+  107,
+  116,
+  121,
+  127
+ ],
+ "cer": [
+  0,
+  1,
+  127
+ ],
+ "fix": [
+  [
+   24,
+   "GreatDepression",
+   "Great Depression",
+   "merged_word"
+  ],
+  [
+   26,
+   "sector,which",
+   "sector, which",
+   "spacing"
+  ],
+  [
+   27,
+   "plussupport",
+   "plus support",
+   "merged_word"
+  ],
+  [
+   43,
+   "elites.The",
+   "elites. The",
+   "spacing"
+  ],
+  [
+   73,
+   "filledwith",
+   "filled with",
+   "merged_word"
+  ],
+  [
+   75,
+   "inNew Delhi",
+   "in New Delhi",
+   "merged_word"
+  ],
+  [
+   76,
+   "inMyanmar",
+   "in Myanmar",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e316f12725052928a73aac7aee8b518f7369187d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2739,
+  "words_out": 2746,
+  "retention": 1.0026,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   8,
+   64,
+   89,
+   65,
+   161,
+   128,
+   128,
+   164,
+   120,
+   130,
+   133,
+   132,
+   120,
+   193,
+   228,
+   100,
+   64,
+   137,
+   157,
+   206,
+   91,
+   125,
+   3
+  ],
+  "warnings": []
+ }
+}

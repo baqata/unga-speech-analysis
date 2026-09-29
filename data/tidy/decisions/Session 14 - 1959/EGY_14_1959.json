@@ -1,0 +1,145 @@
+{
+ "id": "EGY_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  15,
+  21,
+  22,
+  30,
+  36,
+  40,
+  42,
+  46,
+  52,
+  59,
+  62,
+  69,
+  75,
+  78,
+  80,
+  87,
+  92,
+  97,
+  107,
+  108,
+  112,
+  117,
+  120
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "l am",
+   "I am",
+   "ocr"
+  ],
+  [
+   34,
+   "\"3, Appeals",
+   "\"3. Appeals",
+   "ocr"
+  ],
+  [
+   50,
+   "great .implications",
+   "great implications",
+   "ocr"
+  ],
+  [
+   58,
+   "it is true",
+   "It is true",
+   "ocr"
+  ],
+  [
+   62,
+   " [A/4121 and Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   107,
+   "Government, This",
+   "Government. This",
+   "ocr"
+  ],
+  [
+   111,
+   "of-nearly",
+   "of nearly",
+   "ocr"
+  ],
+  [
+   117,
+   "upper hard",
+   "upper hand",
+   "ocr"
+  ],
+  [
+   118,
+   "folly aware",
+   "fully aware",
+   "ocr"
+  ],
+  [
+   120,
+   "oilier",
+   "other",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ad2433eaf68225164711ae9e63b8a0174272435",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 35
+  },
+  "words_in": 4219,
+  "words_out": 4212,
+  "retention": 0.9983,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   62,
+   82,
+   120,
+   168,
+   126,
+   64,
+   303,
+   150,
+   192,
+   106,
+   135,
+   199,
+   152,
+   117,
+   205,
+   98,
+   156,
+   99,
+   226,
+   135,
+   242,
+   238,
+   89,
+   167,
+   200,
+   221,
+   160
+  ],
+  "warnings": []
+ }
+}

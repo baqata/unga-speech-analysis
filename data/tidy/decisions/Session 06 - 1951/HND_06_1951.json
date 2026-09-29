@@ -1,0 +1,66 @@
+{
+ "id": "HND_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  11,
+  14,
+  16,
+  20,
+  22
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   16,
+   "_ ",
+   "",
+   "markup"
+  ],
+  [
+   20,
+   "194S",
+   "1948",
+   "ocr"
+  ],
+  [
+   14,
+   "55, ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "978019141be7288ac0320aca0b5076220945b6f1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 25,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 13
+  },
+  "words_in": 1179,
+  "words_out": 1170,
+  "retention": 0.9924,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   118,
+   84,
+   109,
+   184,
+   150,
+   134,
+   92,
+   140,
+   159
+  ],
+  "warnings": []
+ }
+}

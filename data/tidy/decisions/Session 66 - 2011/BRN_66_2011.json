@@ -1,0 +1,47 @@
+{
+ "id": "BRN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  39,
+  50,
+  68,
+  80,
+  103,
+  116
+ ],
+ "cer": [
+  0,
+  18
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f3cc2307fd6761d91fe11efe674d9b978e8ee906",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1117,
+  "words_out": 1117,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   134,
+   155,
+   102,
+   143,
+   101,
+   189,
+   102,
+   191
+  ],
+  "warnings": []
+ }
+}

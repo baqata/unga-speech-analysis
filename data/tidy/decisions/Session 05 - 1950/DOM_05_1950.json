@@ -1,0 +1,64 @@
+{
+ "id": "DOM_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  13,
+  16,
+  19,
+  23,
+  25,
+  28
+ ],
+ "cer": [],
+ "fix": [
+  [
+   22,
+   "object- lesson",
+   "object-lesson",
+   "hyphen"
+  ],
+  [
+   26,
+   " [A/1310]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "v/hen",
+   "when",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab256c7a53494ef5c8934599ff5f5bef2d6c0ce3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 30,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 1086,
+  "words_out": 1084,
+  "retention": 0.9982,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   119,
+   175,
+   83,
+   75,
+   118,
+   109,
+   89,
+   173,
+   143
+  ],
+  "warnings": []
+ }
+}

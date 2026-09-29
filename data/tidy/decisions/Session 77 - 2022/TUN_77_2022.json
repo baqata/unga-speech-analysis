@@ -1,0 +1,60 @@
+{
+ "id": "TUN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  7,
+  9,
+  14,
+  19,
+  22,
+  25,
+  30,
+  32,
+  36,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "Russian- Ukrainian",
+   "Russian-Ukrainian",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67a140bc872f7cca17b0cb7e01080325eed133dc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1400,
+  "words_out": 1398,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   92,
+   143,
+   72,
+   82,
+   137,
+   111,
+   104,
+   92,
+   168,
+   86,
+   67,
+   136,
+   108
+  ],
+  "warnings": []
+ }
+}

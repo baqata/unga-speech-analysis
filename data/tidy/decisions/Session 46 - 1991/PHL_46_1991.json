@@ -1,0 +1,150 @@
+{
+ "id": "PHL_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  8,
+  13,
+  22,
+  27,
+  29,
+  34,
+  39,
+  45,
+  50,
+  56,
+  59,
+  64,
+  67,
+  70,
+  71,
+  73,
+  78,
+  82
+ ],
+ "cer": [
+  0,
+  5,
+  78
+ ],
+ "fix": [
+  [
+   8,
+   "calibrations",
+   "celebrations",
+   "ocr"
+  ],
+  [
+   25,
+   "Earth, The",
+   "Earth. The",
+   "ocr"
+  ],
+  [
+   38,
+   "the, super",
+   "the super",
+   "ocr"
+  ],
+  [
+   40,
+   "It. was",
+   "It was",
+   "ocr"
+  ],
+  [
+   44,
+   "restraint.?",
+   "restraint?",
+   "ocr"
+  ],
+  [
+   57,
+   "I submit.",
+   "I submit,",
+   "ocr"
+  ],
+  [
+   58,
+   "Is above all",
+   "is above all",
+   "ocr"
+  ],
+  [
+   59,
+   "10 December 1940",
+   "10 December 1948",
+   "ocr"
+  ],
+  [
+   59,
+   "what, else",
+   "what else",
+   "ocr"
+  ],
+  [
+   60,
+   "movement.,",
+   "movement,",
+   "ocr"
+  ],
+  [
+   63,
+   "trill of the people",
+   "will of the people",
+   "ocr"
+  ],
+  [
+   72,
+   " (resolution 217 A (III). seventh preambular paragraph)",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "values «-hat are",
+   "values that are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a680717e6cbc5dbbffed66a3a0bd6037b651d28",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2028,
+  "words_out": 2021,
+  "retention": 0.9965,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   114,
+   50,
+   65,
+   92,
+   205,
+   98,
+   71,
+   93,
+   72,
+   98,
+   96,
+   76,
+   77,
+   148,
+   97,
+   80,
+   59,
+   69,
+   98,
+   125,
+   138
+  ],
+  "warnings": []
+ }
+}

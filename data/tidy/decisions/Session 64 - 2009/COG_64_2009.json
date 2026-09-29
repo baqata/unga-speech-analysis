@@ -1,0 +1,68 @@
+{
+ "id": "COG_64_2009",
+ "drop": [
+  [
+   28,
+   29,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  30,
+  46,
+  63,
+  83,
+  106,
+  124,
+  141,
+  155,
+  166
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   53,
+   "(Ibid., p. 54)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9d5f59dc286adb9a5905924b0dbd4baea1ed5b3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1409,
+  "words_out": 1395,
+  "retention": 0.9901,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   97,
+   126,
+   146,
+   113,
+   151,
+   156,
+   145,
+   132,
+   101,
+   72,
+   156
+  ],
+  "warnings": [
+   "procedural drop [28,29] in the middle of the speech"
+  ]
+ }
+}

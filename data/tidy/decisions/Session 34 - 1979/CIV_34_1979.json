@@ -1,0 +1,105 @@
+{
+ "id": "CIV_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  21,
+  23,
+  27,
+  28,
+  34,
+  38,
+  40,
+  45,
+  47,
+  52,
+  55,
+  56,
+  58,
+  61,
+  69,
+  71,
+  72,
+  77,
+  82,
+  85,
+  88
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "Lie'vano",
+   "Lievano",
+   "ocr"
+  ],
+  [
+   32,
+   "necessary, m the",
+   "necessary, in the",
+   "ocr"
+  ],
+  [
+   68,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   76,
+   "[OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7d1242875ea80c9ffba0dcd3c00c2db8dada1b13",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3210,
+  "words_out": 3208,
+  "retention": 0.9994,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   139,
+   168,
+   166,
+   146,
+   64,
+   182,
+   71,
+   192,
+   177,
+   96,
+   144,
+   95,
+   122,
+   141,
+   83,
+   61,
+   157,
+   213,
+   91,
+   77,
+   165,
+   103,
+   170,
+   123,
+   62
+  ],
+  "warnings": []
+ }
+}

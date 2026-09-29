@@ -1,0 +1,107 @@
+{
+ "id": "GRC_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  13,
+  16,
+  20,
+  24,
+  29,
+  34,
+  36,
+  41,
+  43,
+  45,
+  47,
+  52,
+  56
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   12,
+   " [resolution 3202 (S-W)]",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   28,
+   "inter- Balkan",
+   "inter-Balkan",
+   "hyphen"
+  ],
+  [
+   37,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   47,
+   "present, session",
+   "present session",
+   "ocr"
+  ],
+  [
+   61,
+   "encounter, But",
+   "encounter. But",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21ef67ebb5757694cf5e7f57ba9fc651f4fc6485",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2362,
+  "words_out": 2352,
+  "retention": 0.9958,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   79,
+   134,
+   132,
+   137,
+   89,
+   204,
+   140,
+   161,
+   164,
+   70,
+   244,
+   66,
+   72,
+   69,
+   164,
+   154,
+   273
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "GRC_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  10,
+  13,
+  17,
+  21,
+  24,
+  27,
+  30,
+  32,
+  36,
+  38,
+  42,
+  44,
+  48,
+  51,
+  56,
+  64,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "Sub- Commission",
+   "Sub-Commission",
+   "spacing"
+  ],
+  [
+   26,
+   "in.",
+   "in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "580d33182a1c521eebd9e3017da312d7216307c4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2333,
+  "words_out": 2332,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   134,
+   105,
+   87,
+   77,
+   93,
+   154,
+   100,
+   101,
+   109,
+   97,
+   56,
+   142,
+   78,
+   167,
+   82,
+   164,
+   118,
+   86,
+   219,
+   80,
+   83
+  ],
+  "warnings": []
+ }
+}

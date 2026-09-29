@@ -1,0 +1,166 @@
+{
+ "id": "GRC_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   150,
+   150,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  10,
+  20,
+  27,
+  37,
+  43,
+  50,
+  54,
+  69,
+  75,
+  81,
+  90,
+  93,
+  105,
+  111,
+  122,
+  131,
+  139,
+  149
+ ],
+ "cer": [
+  2,
+  149
+ ],
+ "fix": [
+  [
+   2,
+   "President Trump ",
+   "",
+   "label"
+  ],
+  [
+   17,
+   "Das Pides",
+   "Aspides",
+   "asr_name"
+  ],
+  [
+   20,
+   "natural rule",
+   "natural role",
+   "asr_term"
+  ],
+  [
+   105,
+   "being forced",
+   "being forged",
+   "asr_term"
+  ],
+  [
+   116,
+   "Greggie",
+   "GREGY",
+   "asr_name"
+  ],
+  [
+   124,
+   "for decades later",
+   "four decades later",
+   "asr_term"
+  ],
+  [
+   4,
+   "next 12",
+   "next month. 12",
+   "asr_term"
+  ],
+  [
+   16,
+   "practice. and",
+   "practice and",
+   "asr_term"
+  ],
+  [
+   53,
+   "management. and",
+   "management. And",
+   "asr_term"
+  ],
+  [
+   104,
+   "cohesion. economic",
+   "cohesion. Economic",
+   "asr_term"
+  ],
+  [
+   113,
+   "transformed. electricity",
+   "transformed. Electricity",
+   "asr_term"
+  ],
+  [
+   6,
+   "witnessing of",
+   "witnessing a",
+   "asr_term"
+  ],
+  [
+   86,
+   "citizen",
+   "citizens",
+   "asr_term"
+  ],
+  [
+   88,
+   "skill in the game",
+   "skin in the game",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "'President Trump' was invented by speech-to-text (audio check); EUNAVFOR Aspides and GREGY interconnector per Spanish 'Aspides', 'Gregi' and official sources; role, skin, forged, four per Spanish 'papel', 'mucho en juego', 'se forjen', 'cuatro décadas'. Main-agent audio check: unit 4 lost 'month.' ('presidency next month. Twelve months ago'), heard in 3 re-decodes (p 0.87-0.99; Spanish 'el próximo mes. Hace 12 meses'). Kept as heard (p >= 0.89): unit 135 'Unfortunately' (the speaker's English; the Spanish interpreter said 'Por suerte'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'practice. and' -> 'practice and'; unit 53 'management. and' -> 'management. And'; unit 104 'cohesion. economic' -> 'cohesion. Economic'; unit 113 'transformed. electricity' -> 'transformed. Electricity'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 6 'witnessing of' -> 'witnessing a' (both decodes hear 'a' clearly (0.98 / 0.98); 'we are witnessing of further erosion' does not fit; UN 'a further erosion'); spot 12 unit 86 'citizen' -> 'citizens' (both decodes hear 'citizens' (0.85 / 0.77); 'the aspirations of the citizen of Sudan' does not fit; ES 'las aspiraciones de la ciudadanía'); spot 13 unit 88 'skill in the game' -> 'skin in the game' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'skill' (decodes 0.96 / 0.94, the UN transcript; forced scoring -0.2 vs 'skin' -8.3); the idiom is 'skin in the game', as the Spanish 'la Unión Europea tiene mucho en juego' says)",
+ "unitizer_version": 1,
+ "sha1": "522533e0dabee5dee28af9339cade082a8583c55",
+ "layout": "single",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2885,
+  "words_out": 2836,
+  "retention": 0.983,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   6,
+   188,
+   198,
+   112,
+   170,
+   103,
+   96,
+   69,
+   225,
+   134,
+   117,
+   139,
+   79,
+   234,
+   131,
+   189,
+   277,
+   151,
+   214,
+   4
+  ],
+  "warnings": []
+ }
+}

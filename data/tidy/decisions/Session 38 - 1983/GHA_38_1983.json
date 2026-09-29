@@ -1,0 +1,107 @@
+{
+ "id": "GHA_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  19,
+  23,
+  27,
+  30,
+  33,
+  42,
+  55,
+  61,
+  64,
+  67,
+  73,
+  77,
+  83,
+  89,
+  93,
+  97,
+  102,
+  106,
+  113,
+  120,
+  123,
+  129,
+  134
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   28,
+   "the Ores of war",
+   "the fires of war",
+   "ocr"
+  ],
+  [
+   29,
+   "POLISARIO^",
+   "POLISARIO",
+   "ocr"
+  ],
+  [
+   43,
+   "ail possible",
+   "all possible",
+   "ocr"
+  ],
+  [
+   75,
+   "EI Salvador",
+   "El Salvador",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 45 breaks off at 'the menace of', apparently a dropped word.",
+ "unitizer_version": 1,
+ "sha1": "774802aefff508b89fb9b17c9389b2f7f36b3854",
+ "layout": "lines",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3792,
+  "words_out": 3792,
+  "retention": 1.0,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   149,
+   196,
+   152,
+   147,
+   85,
+   87,
+   115,
+   249,
+   250,
+   123,
+   87,
+   82,
+   89,
+   74,
+   126,
+   194,
+   143,
+   110,
+   126,
+   139,
+   191,
+   220,
+   82,
+   181,
+   178,
+   217
+  ],
+  "warnings": []
+ }
+}

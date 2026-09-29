@@ -1,0 +1,91 @@
+{
+ "id": "DOM_48_1993",
+ "drop": [
+  [
+   77,
+   77,
+   "header_footer"
+  ],
+  [
+   175,
+   175,
+   "header_footer"
+  ],
+  [
+   269,
+   269,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  20,
+  44,
+  65,
+  82,
+  103,
+  112,
+  127,
+  154,
+  172,
+  196,
+  214,
+  227,
+  240,
+  251,
+  265,
+  280,
+  291
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   176,
+   "Europe.Despite",
+   "Europe. Despite",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "964ea2f803025414d98dbe1a5458325c86201fb5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2566,
+  "words_out": 2548,
+  "retention": 0.993,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   95,
+   67,
+   216,
+   177,
+   140,
+   201,
+   87,
+   137,
+   230,
+   159,
+   200,
+   157,
+   105,
+   101,
+   92,
+   112,
+   115,
+   95,
+   62
+  ],
+  "warnings": []
+ }
+}

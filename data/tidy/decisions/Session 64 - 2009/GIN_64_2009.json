@@ -1,0 +1,77 @@
+{
+ "id": "GIN_64_2009",
+ "drop": [
+  [
+   25,
+   26,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  27,
+  46,
+  58,
+  70,
+  88,
+  99,
+  117,
+  130,
+  142,
+  161,
+  171,
+  181,
+  194,
+  205,
+  222,
+  235,
+  252,
+  265,
+  284
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e4e5f07f39b0cd50f561592140984562f1cbd8b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 294,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2196,
+  "words_out": 2187,
+  "retention": 0.9959,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   192,
+   133,
+   98,
+   89,
+   143,
+   89,
+   139,
+   93,
+   81,
+   143,
+   80,
+   80,
+   96,
+   73,
+   135,
+   99,
+   123,
+   88,
+   144,
+   69
+  ],
+  "warnings": []
+ }
+}

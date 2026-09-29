@@ -1,0 +1,78 @@
+{
+ "id": "JPN_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  21,
+  29,
+  37,
+  45,
+  47,
+  55,
+  58,
+  64,
+  70,
+  74,
+  77,
+  81,
+  87
+ ],
+ "cer": [
+  0,
+  45
+ ],
+ "fix": [
+  [
+   35,
+   "truly depend? upon",
+   "truly depends upon",
+   "ocr"
+  ],
+  [
+   74,
+   "91, ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "54bfcfa7f139d783fb5387ad337407a2802321e2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 23
+  },
+  "words_in": 2642,
+  "words_out": 2641,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   141,
+   169,
+   162,
+   206,
+   235,
+   209,
+   244,
+   73,
+   269,
+   88,
+   135,
+   200,
+   134,
+   64,
+   80,
+   170,
+   62
+  ],
+  "warnings": []
+ }
+}

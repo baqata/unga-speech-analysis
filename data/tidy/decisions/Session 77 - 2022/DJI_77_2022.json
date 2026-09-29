@@ -1,0 +1,86 @@
+{
+ "id": "DJI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  16,
+  19,
+  28,
+  32,
+  35,
+  44,
+  47,
+  52,
+  58,
+  62,
+  67
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "supply- chain",
+   "supply-chain",
+   "hyphen"
+  ],
+  [
+   27,
+   "sea- level",
+   "sea-level",
+   "hyphen"
+  ],
+  [
+   55,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   25,
+   "Dj ibouti",
+   "Djibouti",
+   "split_word"
+  ],
+  [
+   41,
+   "Sail",
+   "Sall",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "095ed16ba9c5ee0db5345501e91a5e24f842aa32",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1900,
+  "words_out": 1896,
+  "retention": 0.9979,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   137,
+   193,
+   168,
+   109,
+   238,
+   125,
+   109,
+   199,
+   109,
+   158,
+   136,
+   87,
+   106,
+   22
+  ],
+  "warnings": []
+ }
+}

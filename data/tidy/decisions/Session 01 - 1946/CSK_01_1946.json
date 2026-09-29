@@ -1,0 +1,60 @@
+{
+ "id": "CSK_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  21,
+  25,
+  29,
+  34,
+  41,
+  45,
+  47,
+  56
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   "at.",
+   "at",
+   "ocr"
+  ],
+  [
+   21,
+   "bur",
+   "our",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "509adebd7b798801658a38b51398eb78a17fb5d6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1376,
+  "words_out": 1376,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   207,
+   172,
+   154,
+   122,
+   105,
+   68,
+   151,
+   129,
+   69,
+   140,
+   59
+  ],
+  "warnings": []
+ }
+}

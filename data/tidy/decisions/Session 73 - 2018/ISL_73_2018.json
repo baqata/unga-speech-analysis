@@ -1,0 +1,70 @@
+{
+ "id": "ISL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  19,
+  24,
+  27,
+  32,
+  37,
+  43,
+  49,
+  54,
+  56,
+  64,
+  70,
+  73,
+  76
+ ],
+ "cer": [],
+ "fix": [
+  [
+   67,
+   "Israeli- Palestinian",
+   "Israeli-Palestinian",
+   "hyphen"
+  ],
+  [
+   72,
+   "conflict- stricken",
+   "conflict-stricken",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76be8934898063dd21f96a016b871cfa6c16414e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1845,
+  "words_out": 1843,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   125,
+   110,
+   205,
+   131,
+   64,
+   92,
+   130,
+   94,
+   108,
+   102,
+   85,
+   161,
+   128,
+   92,
+   93,
+   123
+  ],
+  "warnings": []
+ }
+}

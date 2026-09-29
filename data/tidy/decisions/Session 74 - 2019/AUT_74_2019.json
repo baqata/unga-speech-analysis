@@ -1,0 +1,54 @@
+{
+ "id": "AUT_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  17,
+  25,
+  30,
+  37,
+  43,
+  55,
+  60,
+  68
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "795232e668a734155df23cb9ea5b57b4dace3846",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1355,
+  "words_out": 1354,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   89,
+   91,
+   165,
+   182,
+   105,
+   102,
+   93,
+   209,
+   96,
+   131,
+   91
+  ],
+  "warnings": []
+ }
+}

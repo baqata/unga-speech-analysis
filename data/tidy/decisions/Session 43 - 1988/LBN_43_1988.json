@@ -1,0 +1,88 @@
+{
+ "id": "LBN_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  11,
+  15,
+  18,
+  21,
+  24,
+  29,
+  34,
+  37,
+  41,
+  44,
+  48,
+  54,
+  59
+ ],
+ "cer": [
+  0,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   24,
+   "Paced with",
+   "Faced with",
+   "ocr"
+  ],
+  [
+   38,
+   "calls an the",
+   "calls on the",
+   "ocr"
+  ],
+  [
+   44,
+   "collect 85 million",
+   "collect $85 million",
+   "ocr"
+  ],
+  [
+   56,
+   "and International",
+   "and international",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec2543ecd833dd36f3da661e1f96fd993376bfbc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1707,
+  "words_out": 1707,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   98,
+   49,
+   68,
+   109,
+   117,
+   84,
+   68,
+   105,
+   115,
+   111,
+   138,
+   96,
+   72,
+   111,
+   184,
+   103,
+   79
+  ],
+  "warnings": []
+ }
+}

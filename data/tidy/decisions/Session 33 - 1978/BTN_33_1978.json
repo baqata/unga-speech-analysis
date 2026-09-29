@@ -1,0 +1,108 @@
+{
+ "id": "BTN_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  10,
+  13,
+  17,
+  19,
+  22,
+  27,
+  30,
+  33,
+  40,
+  43,
+  46,
+  51,
+  55,
+  62,
+  68,
+  72,
+  77,
+  84,
+  87,
+  90
+ ],
+ "cer": [
+  0,
+  1,
+  6
+ ],
+ "fix": [
+  [
+   9,
+   "bring? us",
+   "brings us",
+   "ocr"
+  ],
+  [
+   22,
+   "/et the",
+   "Yet the",
+   "ocr"
+  ],
+  [
+   65,
+   " [resolution S-10/2J",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "s/stem",
+   "system",
+   "ocr"
+  ],
+  [
+   81,
+   " [A/33134]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6016698ceefbc9c2e8d38324dad64a970aa68cf1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2625,
+  "words_out": 2622,
+  "retention": 0.9989,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   66,
+   153,
+   110,
+   98,
+   155,
+   84,
+   90,
+   157,
+   86,
+   65,
+   144,
+   76,
+   85,
+   137,
+   106,
+   123,
+   155,
+   148,
+   125,
+   174,
+   107,
+   88,
+   90
+  ],
+  "warnings": []
+ }
+}

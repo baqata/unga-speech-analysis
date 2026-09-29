@@ -1,0 +1,70 @@
+{
+ "id": "SLV_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  16,
+  25,
+  31,
+  37,
+  43,
+  47,
+  53,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   57,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   57,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68e2c7c6fa2aec5ce41cf5e635dcf71f4c9119be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1759,
+  "words_out": 1756,
+  "retention": 0.9983,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   128,
+   150,
+   136,
+   240,
+   168,
+   213,
+   169,
+   158,
+   149,
+   108,
+   137
+  ],
+  "warnings": []
+ }
+}

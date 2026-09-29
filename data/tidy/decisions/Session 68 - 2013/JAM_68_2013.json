@@ -1,0 +1,80 @@
+{
+ "id": "JAM_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  32,
+  40,
+  66,
+  77,
+  86,
+  98,
+  112,
+  124,
+  139,
+  163,
+  190,
+  196
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   135,
+   "slavery.We",
+   "slavery. We",
+   "spacing"
+  ],
+  [
+   152,
+   "IFrom",
+   "I From",
+   "merged_word"
+  ],
+  [
+   153,
+   "strongBy",
+   "strong By",
+   "merged_word"
+  ],
+  [
+   154,
+   "generationTriumphantly",
+   "generation Triumphantly",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d3e545c7bb1df891b861451473b19b213e8abea",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 210,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1675,
+  "words_out": 1674,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   61,
+   206,
+   62,
+   196,
+   78,
+   65,
+   97,
+   104,
+   108,
+   132,
+   196,
+   203,
+   47,
+   119
+  ],
+  "warnings": []
+ }
+}

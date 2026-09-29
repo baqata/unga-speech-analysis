@@ -1,0 +1,160 @@
+{
+ "id": "CSK_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  24,
+  25,
+  34,
+  37,
+  40,
+  42,
+  43,
+  47,
+  49,
+  52,
+  59,
+  62,
+  64,
+  67,
+  70,
+  74,
+  77,
+  81,
+  85,
+  88,
+  92,
+  95,
+  99,
+  101,
+  105,
+  108,
+  110,
+  112,
+  115,
+  119,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   8,
+   "world.6",
+   "world.",
+   "ocr"
+  ],
+  [
+   13,
+   "all- round",
+   "all-round",
+   "hyphen"
+  ],
+  [
+   25,
+   " hi Western",
+   " in Western",
+   "ocr"
+  ],
+  [
+   63,
+   "nuclear-weapon- test",
+   "nuclear-weapon-test",
+   "hyphen"
+  ],
+  [
+   75,
+   "19829",
+   "1982",
+   "ocr"
+  ],
+  [
+   76,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "improvement m the",
+   "improvement in the",
+   "ocr"
+  ],
+  [
+   98,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   118,
+   "neo- colonialist",
+   "neo-colonialist",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "852b7bd7cdfa3c55c81bc690077403e37dca7379",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 4140,
+  "words_out": 4134,
+  "retention": 0.9986,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   94,
+   230,
+   145,
+   151,
+   89,
+   251,
+   113,
+   95,
+   171,
+   67,
+   115,
+   96,
+   181,
+   195,
+   112,
+   66,
+   71,
+   86,
+   184,
+   122,
+   132,
+   104,
+   72,
+   155,
+   123,
+   113,
+   69,
+   105,
+   63,
+   92,
+   73,
+   53,
+   117,
+   154,
+   75
+  ],
+  "warnings": []
+ }
+}

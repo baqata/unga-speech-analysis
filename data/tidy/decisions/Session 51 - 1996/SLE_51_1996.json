@@ -1,0 +1,78 @@
+{
+ "id": "SLE_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  37,
+  63,
+  83,
+  108,
+  124,
+  144,
+  162,
+  177,
+  188,
+  202,
+  213,
+  232,
+  242,
+  256,
+  276,
+  287,
+  296,
+  309,
+  320
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   219,
+   "debt- servicing",
+   "debt-servicing",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77d40f85ce56257c4977c604fbcfa80ddbf63a6f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 336,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2816,
+  "words_out": 2811,
+  "retention": 0.9982,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   213,
+   112,
+   211,
+   171,
+   205,
+   138,
+   160,
+   149,
+   133,
+   103,
+   120,
+   84,
+   155,
+   78,
+   112,
+   178,
+   98,
+   71,
+   104,
+   91,
+   125
+  ],
+  "warnings": []
+ }
+}

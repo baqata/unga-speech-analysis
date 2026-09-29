@@ -1,0 +1,73 @@
+{
+ "id": "PAK_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  13,
+  19,
+  28,
+  39,
+  42,
+  48,
+  56,
+  58,
+  61,
+  65,
+  68,
+  72,
+  84,
+  95,
+  105,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "arid indeed",
+   "and indeed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "750b495f90e526a1acb432dd37e1d9ca348f6fac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 18
+  },
+  "words_in": 3325,
+  "words_out": 3322,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   118,
+   303,
+   249,
+   302,
+   295,
+   71,
+   162,
+   309,
+   161,
+   85,
+   187,
+   123,
+   183,
+   224,
+   194,
+   249,
+   91,
+   16
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "GAB_48_1993",
+ "drop": [
+  [
+   73,
+   73,
+   "header_footer"
+  ],
+  [
+   168,
+   168,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  16,
+  27,
+  36,
+  51,
+  63,
+  71,
+  85,
+  98,
+  108,
+  123,
+  136,
+  145,
+  164,
+  173,
+  188,
+  197,
+  210
+ ],
+ "cer": [
+  0,
+  4,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d0bde23574f4454fd228f4ea72ccae475b679c8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 217,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 1853,
+  "words_out": 1839,
+  "retention": 0.9924,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   34,
+   106,
+   90,
+   76,
+   132,
+   107,
+   79,
+   108,
+   110,
+   80,
+   133,
+   104,
+   74,
+   163,
+   77,
+   127,
+   81,
+   107,
+   51
+  ],
+  "warnings": []
+ }
+}

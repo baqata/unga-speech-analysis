@@ -1,0 +1,152 @@
+{
+ "id": "JPN_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  17,
+  20,
+  23,
+  26,
+  28,
+  31,
+  34,
+  37,
+  40,
+  45,
+  46,
+  48,
+  51,
+  54,
+  56,
+  60,
+  65,
+  70,
+  76,
+  79,
+  83,
+  88,
+  91,
+  97,
+  100,
+  103,
+  110,
+  114,
+  117,
+  122
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "Riidiger",
+   "Rudiger",
+   "ocr"
+  ],
+  [
+   55,
+   "Kampuchea.13",
+   "Kampuchea.",
+   "ocr"
+  ],
+  [
+   67,
+   "the.realization",
+   "the realization",
+   "ocr"
+  ],
+  [
+   70,
+   "<1 cannot",
+   "I cannot",
+   "ocr"
+  ],
+  [
+   75,
+   "as .well",
+   "as well",
+   "ocr"
+  ],
+  [
+   83,
+   "TUrning",
+   "Turning",
+   "ocr"
+  ],
+  [
+   101,
+   "and. prosperity",
+   "and prosperity",
+   "ocr"
+  ],
+  [
+   112,
+   " [7 th meeting]",
+   "",
+   "label"
+  ],
+  [
+   117,
+   "to if its",
+   "to it its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03c3c8c6c2f87dfd31651a8441ebe3af1e39681f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 51
+  },
+  "words_in": 3835,
+  "words_out": 3833,
+  "retention": 0.9995,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   86,
+   144,
+   219,
+   89,
+   147,
+   107,
+   63,
+   138,
+   97,
+   100,
+   91,
+   169,
+   66,
+   77,
+   112,
+   108,
+   74,
+   164,
+   165,
+   108,
+   170,
+   79,
+   147,
+   162,
+   77,
+   169,
+   70,
+   77,
+   173,
+   122,
+   88,
+   128,
+   47
+  ],
+  "warnings": []
+ }
+}

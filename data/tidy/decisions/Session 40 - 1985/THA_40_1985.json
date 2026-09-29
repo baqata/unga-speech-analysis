@@ -1,0 +1,112 @@
+{
+ "id": "THA_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  9,
+  10,
+  11,
+  14,
+  23,
+  27,
+  32,
+  34,
+  38,
+  42,
+  44,
+  48,
+  51,
+  55,
+  59,
+  70,
+  72,
+  77,
+  81,
+  84,
+  87,
+  88,
+  95
+ ],
+ "cer": [
+  0,
+  7,
+  9,
+  10,
+  88
+ ],
+ "fix": [
+  [
+   38,
+   "United Nation?",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   41,
+   "The* same",
+   "The same",
+   "ocr"
+  ],
+  [
+   47,
+   "% delegation",
+   "My delegation",
+   "ocr"
+  ],
+  [
+   71,
+   "into\" which",
+   "into which",
+   "ocr"
+  ],
+  [
+   94,
+   "Thailand' has",
+   "Thailand has",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "050fa8d1ce5bc1725c8feaeee0f37f9c59e9ff4b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2485,
+  "words_out": 2482,
+  "retention": 0.9988,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   177,
+   53,
+   38,
+   56,
+   82,
+   183,
+   68,
+   160,
+   80,
+   70,
+   70,
+   69,
+   147,
+   104,
+   92,
+   125,
+   229,
+   69,
+   133,
+   90,
+   128,
+   83,
+   12,
+   139,
+   25
+  ],
+  "warnings": []
+ }
+}

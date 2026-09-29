@@ -1,0 +1,119 @@
+{
+ "id": "VCT_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  13,
+  16,
+  20,
+  26,
+  30,
+  34,
+  36,
+  39,
+  49,
+  57,
+  61,
+  67,
+  75,
+  78,
+  83,
+  88,
+  92,
+  96,
+  99,
+  104,
+  107,
+  109
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   77,
+   "host country, Aberrations",
+   "host country. Aberrations",
+   "ocr"
+  ],
+  [
+   80,
+   "nation-a nation",
+   "nation—a nation",
+   "ocr"
+  ],
+  [
+   89,
+   "outstanding Issues",
+   "outstanding issues",
+   "ocr"
+  ],
+  [
+   90,
+   "It IS clear",
+   "It is clear",
+   "ocr"
+  ],
+  [
+   97,
+   "hamper in our",
+   "hampering our",
+   "ocr"
+  ],
+  [
+   104,
+   "or a small fourth",
+   "for a small fourth",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 70-72 are scrambled OCR fragments mixing the energy passage with text repeated from units 77 and 93; kept as found.",
+ "unitizer_version": 1,
+ "sha1": "3dddac74fc9d8a7c1649753b03a56963f93efaad",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3517,
+  "words_out": 3510,
+  "retention": 0.998,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   109,
+   160,
+   142,
+   169,
+   104,
+   121,
+   86,
+   128,
+   76,
+   83,
+   234,
+   307,
+   173,
+   143,
+   231,
+   111,
+   162,
+   120,
+   80,
+   115,
+   87,
+   118,
+   81,
+   102,
+   268
+  ],
+  "warnings": []
+ }
+}

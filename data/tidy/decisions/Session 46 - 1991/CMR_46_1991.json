@@ -1,0 +1,108 @@
+{
+ "id": "CMR_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  15,
+  18,
+  23,
+  27,
+  30,
+  32,
+  36,
+  40,
+  45,
+  48,
+  54,
+  57,
+  62,
+  64,
+  67,
+  70,
+  72,
+  76,
+  81,
+  84
+ ],
+ "cer": [
+  0,
+  3,
+  7
+ ],
+ "fix": [
+  [
+   3,
+   "Peres de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   36,
+   "In this content",
+   "In this context",
+   "ocr"
+  ],
+  [
+   43,
+   "He welcome",
+   "We welcome",
+   "ocr"
+  ],
+  [
+   45,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   71,
+   "1932 Convention",
+   "1982 Convention",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3f797cd4de4b90867ae7f4ff4386df9537fb401",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2763,
+  "words_out": 2763,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   118,
+   116,
+   85,
+   145,
+   167,
+   145,
+   151,
+   103,
+   67,
+   171,
+   96,
+   162,
+   103,
+   144,
+   83,
+   134,
+   90,
+   91,
+   76,
+   76,
+   99,
+   139,
+   107,
+   95
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "id": "MNG_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  17,
+  23,
+  28,
+  31,
+  35,
+  39,
+  42,
+  45,
+  54,
+  56,
+  58,
+  62,
+  64,
+  69,
+  73,
+  77,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   "Thi3",
+   "This",
+   "ocr"
+  ],
+  [
+   54,
+   "or. the Cambodian",
+   "on the Cambodian",
+   "ocr"
+  ],
+  [
+   57,
+   "o£ the region",
+   "of the region",
+   "ocr"
+  ],
+  [
+   62,
+   "Inter mediate-Range",
+   "Intermediate-Range",
+   "split_word"
+  ],
+  [
+   68,
+   "cm world trade",
+   "on world trade",
+   "ocr"
+  ],
+  [
+   69,
+   "we share the",
+   "We share the",
+   "ocr"
+  ],
+  [
+   80,
+   "Cultural Sights",
+   "Cultural Rights",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7840f611550b6d8ce709e1629cd264b7ef71758c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2186,
+  "words_out": 2185,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   61,
+   181,
+   102,
+   197,
+   103,
+   86,
+   99,
+   85,
+   60,
+   60,
+   192,
+   67,
+   99,
+   81,
+   94,
+   172,
+   154,
+   146,
+   92,
+   54
+  ],
+  "warnings": []
+ }
+}

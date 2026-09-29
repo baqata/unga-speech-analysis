@@ -1,0 +1,109 @@
+{
+ "id": "TZA_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  15,
+  23,
+  36,
+  45,
+  62,
+  75,
+  100,
+  116,
+  139,
+  157,
+  167,
+  182,
+  209,
+  218,
+  232,
+  242,
+  259,
+  273,
+  287,
+  305,
+  316,
+  331,
+  343
+ ],
+ "cer": [
+  0,
+  4,
+  11,
+  15
+ ],
+ "fix": [
+  [
+   194,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   363,
+   " (Official Records of the General",
+   "",
+   "label"
+  ],
+  [
+   364,
+   "Assembly, Forty-ninth session, Plenary Meetings,",
+   "",
+   "label"
+  ],
+  [
+   365,
+   "16th meeting, p. 5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "864645236b47a1b0c624cf1cfdf8453a5ac0485f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 366,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2975,
+  "words_out": 2957,
+  "retention": 0.9939,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   28,
+   61,
+   26,
+   58,
+   121,
+   80,
+   127,
+   117,
+   213,
+   136,
+   193,
+   149,
+   85,
+   130,
+   211,
+   74,
+   113,
+   75,
+   131,
+   109,
+   105,
+   140,
+   81,
+   120,
+   93,
+   181
+  ],
+  "warnings": []
+ }
+}

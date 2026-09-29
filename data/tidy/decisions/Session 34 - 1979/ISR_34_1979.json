@@ -1,0 +1,100 @@
+{
+ "id": "ISR_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  17,
+  22,
+  26,
+  32,
+  36,
+  38,
+  41,
+  46,
+  51,
+  55,
+  62,
+  69,
+  74,
+  78,
+  82,
+  89,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Mr, President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   51,
+   "operation\".\"",
+   "operation\".",
+   "ocr"
+  ],
+  [
+   55,
+   "180- ",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "so-called' 'Covenant",
+   "so-called \"Covenant",
+   "ocr"
+  ],
+  [
+   75,
+   "to Join",
+   "to join",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fcd7745e0c01598473eca31728aa178b2c3670ee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 2778,
+  "words_out": 2769,
+  "retention": 0.9968,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   78,
+   178,
+   201,
+   136,
+   97,
+   168,
+   136,
+   90,
+   129,
+   169,
+   128,
+   148,
+   136,
+   164,
+   163,
+   122,
+   113,
+   226,
+   103,
+   84
+  ],
+  "warnings": []
+ }
+}

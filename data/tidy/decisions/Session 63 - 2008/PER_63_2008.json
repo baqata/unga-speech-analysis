@@ -1,0 +1,64 @@
+{
+ "id": "PER_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  29,
+  43,
+  55,
+  72,
+  87,
+  101,
+  120,
+  130,
+  150,
+  165,
+  179,
+  192,
+  207,
+  219,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d67ff2be0094ca5981244492435cc1c31ccbb048",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 3,
+   "job_number": 3
+  },
+  "words_in": 1914,
+  "words_out": 1913,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   63,
+   162,
+   104,
+   87,
+   129,
+   127,
+   108,
+   149,
+   80,
+   142,
+   112,
+   105,
+   86,
+   106,
+   99,
+   142,
+   112
+  ],
+  "warnings": []
+ }
+}

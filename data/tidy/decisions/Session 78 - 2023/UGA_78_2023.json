@@ -1,0 +1,144 @@
+{
+ "id": "UGA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  18,
+  21,
+  26,
+  32,
+  38,
+  42,
+  46,
+  51,
+  55,
+  60,
+  67,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary-General.",
+   "Secretary-General,",
+   "ocr"
+  ],
+  [
+   7,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   13,
+   "High- Level",
+   "High-Level",
+   "hyphen"
+  ],
+  [
+   16,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   25,
+   "sharing. which",
+   "sharing, which",
+   "ocr"
+  ],
+  [
+   33,
+   "empowerment.",
+   "empowerment,",
+   "ocr"
+  ],
+  [
+   42,
+   "change.",
+   "change,",
+   "ocr"
+  ],
+  [
+   61,
+   "challenges.",
+   "challenges,",
+   "ocr"
+  ],
+  [
+   63,
+   "Government.",
+   "Government,",
+   "ocr"
+  ],
+  [
+   64,
+   "2023. just",
+   "2023, just",
+   "ocr"
+  ],
+  [
+   68,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   69,
+   "NAM. will",
+   "NAM, will",
+   "ocr"
+  ],
+  [
+   71,
+   "Finally.",
+   "Finally,",
+   "ocr"
+  ],
+  [
+   76,
+   "2024. we",
+   "2024, we",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a33c6870f6aa2d77d84ef2dad368af32664f9306",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1793,
+  "words_out": 1792,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   60,
+   121,
+   143,
+   75,
+   72,
+   166,
+   131,
+   97,
+   108,
+   122,
+   142,
+   91,
+   99,
+   141,
+   120,
+   104
+  ],
+  "warnings": []
+ }
+}

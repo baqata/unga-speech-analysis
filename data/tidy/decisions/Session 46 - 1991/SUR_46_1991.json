@@ -1,0 +1,102 @@
+{
+ "id": "SUR_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  11,
+  14,
+  16,
+  19,
+  25,
+  30,
+  34,
+  37,
+  41,
+  44,
+  47,
+  51,
+  54,
+  58,
+  60,
+  66,
+  72,
+  75,
+  81,
+  89,
+  93,
+  95,
+  99
+ ],
+ "cer": [
+  6,
+  19,
+  25
+ ],
+ "fix": [
+  [
+   9,
+   "our guest for",
+   "our quest for",
+   "ocr"
+  ],
+  [
+   83,
+   "77 his stressed",
+   "77 has stressed",
+   "ocr"
+  ],
+  [
+   89,
+   "particularly the African.",
+   "particularly the African,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8137231728f2cc3f866d82633c0c6208e7093b1d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2833,
+  "words_out": 2833,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   83,
+   134,
+   111,
+   81,
+   93,
+   56,
+   78,
+   168,
+   140,
+   101,
+   82,
+   113,
+   78,
+   82,
+   70,
+   65,
+   94,
+   56,
+   159,
+   144,
+   98,
+   165,
+   190,
+   78,
+   78,
+   143,
+   93
+  ],
+  "warnings": []
+ }
+}

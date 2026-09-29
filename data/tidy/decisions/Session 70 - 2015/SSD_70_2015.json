@@ -1,0 +1,63 @@
+{
+ "id": "SSD_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  12,
+  19,
+  21,
+  24,
+  30,
+  34,
+  40,
+  42,
+  44
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   43,
+   "post- conflict",
+   "post-conflict",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "881821d38b3b3f52ae5954af2f40e9a085d11b01",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1212,
+  "words_out": 1211,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   47,
+   79,
+   76,
+   66,
+   161,
+   48,
+   70,
+   134,
+   104,
+   147,
+   86,
+   93,
+   100
+  ],
+  "warnings": []
+ }
+}

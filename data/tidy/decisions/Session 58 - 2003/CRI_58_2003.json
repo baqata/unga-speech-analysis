@@ -1,0 +1,57 @@
+{
+ "id": "CRI_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  26,
+  40,
+  58,
+  68,
+  85,
+  107,
+  126,
+  144,
+  163,
+  180,
+  188,
+  209
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "abab3e4ed0949f2ad76ad279bd61ad60e5b498c8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1631,
+  "words_out": 1629,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   89,
+   120,
+   101,
+   129,
+   66,
+   129,
+   162,
+   129,
+   136,
+   147,
+   146,
+   59,
+   161,
+   55
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "IRL_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  10,
+  13,
+  17,
+  21,
+  25,
+  29,
+  34,
+  38,
+  44,
+  48,
+  51,
+  56,
+  58,
+  60,
+  64,
+  68,
+  69,
+  75,
+  78,
+  81,
+  86,
+  90,
+  94,
+  98,
+  102,
+  105
+ ],
+ "cer": [
+  0,
+  1,
+  7
+ ],
+ "fix": [
+  [
+   0,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ],
+  [
+   1,
+   "sacrifices'\"",
+   "sacrifices\"",
+   "ocr"
+  ],
+  [
+   10,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ],
+  [
+   15,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   20,
+   "[A/8701/Add.l, p. 2.]",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "long-drawn- out",
+   "long-drawn-out",
+   "spacing"
+  ],
+  [
+   29,
+   " [item 41]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "pro-testing",
+   "protesting",
+   "hyphen"
+  ],
+  [
+   102,
+   "tills issue",
+   "this issue",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09bb3fe3a71e0e59904fb8faf4a1b362cbb5dc2b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 32
+  },
+  "words_in": 3339,
+  "words_out": 3331,
+  "retention": 0.9976,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   29,
+   190,
+   79,
+   107,
+   134,
+   88,
+   94,
+   126,
+   185,
+   123,
+   181,
+   135,
+   116,
+   91,
+   132,
+   98,
+   98,
+   84,
+   57,
+   118,
+   96,
+   84,
+   195,
+   97,
+   111,
+   125,
+   123,
+   117,
+   118
+  ],
+  "warnings": []
+ }
+}

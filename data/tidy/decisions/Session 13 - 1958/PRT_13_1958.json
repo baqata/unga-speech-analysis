@@ -1,0 +1,243 @@
+{
+ "id": "PRT_13_1958",
+ "drop": [
+  [
+   72,
+   72,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  12,
+  17,
+  19,
+  25,
+  32,
+  36,
+  41,
+  46,
+  50,
+  52,
+  58,
+  63,
+  69,
+  74,
+  78,
+  85,
+  89,
+  92,
+  96,
+  101,
+  107,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   10,
+   "a now and",
+   "a new and",
+   "ocr"
+  ],
+  [
+   11,
+   "dash",
+   "clash",
+   "ocr"
+  ],
+  [
+   11,
+   "die open",
+   "the open",
+   "ocr"
+  ],
+  [
+   16,
+   "die part",
+   "the part",
+   "ocr"
+  ],
+  [
+   16,
+   "die use",
+   "the use",
+   "ocr"
+  ],
+  [
+   16,
+   "crisis,",
+   "crisis.",
+   "ocr"
+  ],
+  [
+   17,
+   "relief, A",
+   "relief. A",
+   "ocr"
+  ],
+  [
+   17,
+   "]. sponsored",
+   "], sponsored",
+   "ocr"
+  ],
+  [
+   17,
+   " [1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "die difficulties",
+   "the difficulties",
+   "ocr"
+  ],
+  [
+   26,
+   "follow 2 peace",
+   "follow if peace",
+   "ocr"
+  ],
+  [
+   29,
+   "self- defence",
+   "self-defence",
+   "hyphen"
+  ],
+  [
+   36,
+   "possible be",
+   "possibly be",
+   "ocr"
+  ],
+  [
+   48,
+   "break- through",
+   "break-through",
+   "hyphen"
+  ],
+  [
+   55,
+   "Work",
+   "work",
+   "ocr"
+  ],
+  [
+   55,
+   "Unrest",
+   "unrest",
+   "ocr"
+  ],
+  [
+   58,
+   "Which",
+   "which",
+   "ocr"
+  ],
+  [
+   68,
+   "Independent",
+   "independent",
+   "ocr"
+  ],
+  [
+   73,
+   "International aid",
+   "international aid",
+   "ocr"
+  ],
+  [
+   73,
+   "Important",
+   "important",
+   "ocr"
+  ],
+  [
+   83,
+   "], We",
+   "]. We",
+   "ocr"
+  ],
+  [
+   83,
+   "useful'",
+   "useful",
+   "ocr"
+  ],
+  [
+   98,
+   "satisfaction, any",
+   "satisfaction any",
+   "ocr"
+  ],
+  [
+   109,
+   "of. us",
+   "of us",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 72 is a stray paragraph number ('95.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "0f65714596cce5ec75aa79ff7a16bab8d77ce451",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 35
+  },
+  "words_in": 4100,
+  "words_out": 4089,
+  "retention": 0.9973,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   87,
+   89,
+   169,
+   174,
+   165,
+   120,
+   220,
+   186,
+   94,
+   170,
+   208,
+   145,
+   83,
+   187,
+   192,
+   164,
+   166,
+   181,
+   205,
+   171,
+   133,
+   98,
+   143,
+   214,
+   77,
+   248
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

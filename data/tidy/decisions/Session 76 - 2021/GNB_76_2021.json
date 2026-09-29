@@ -1,0 +1,48 @@
+{
+ "id": "GNB_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  7,
+  8,
+  9,
+  13
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "afcde8801b73b54a61c7a68c469831314d64ed6e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 15,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 480,
+  "words_out": 479,
+  "retention": 0.9979,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   24,
+   60,
+   124,
+   68,
+   74,
+   69,
+   60
+  ],
+  "warnings": []
+ }
+}

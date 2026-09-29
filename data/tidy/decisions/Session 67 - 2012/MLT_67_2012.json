@@ -1,0 +1,68 @@
+{
+ "id": "MLT_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  28,
+  39,
+  51,
+  60,
+  71,
+  87,
+  101,
+  110,
+  126,
+  135,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "f leeing",
+   "fleeing",
+   "split_word"
+  ],
+  [
+   65,
+   "stif le",
+   "stifle",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e22813f1dc49daa8afc4fce4020c7fd4343fab43",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1401,
+  "words_out": 1398,
+  "retention": 0.9979,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   41,
+   88,
+   110,
+   102,
+   101,
+   93,
+   99,
+   140,
+   109,
+   85,
+   144,
+   90,
+   135,
+   61
+  ],
+  "warnings": []
+ }
+}

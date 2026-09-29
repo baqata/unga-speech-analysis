@@ -1,0 +1,115 @@
+{
+ "id": "BOL_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  14,
+  18,
+  22,
+  28,
+  31,
+  36,
+  43,
+  48,
+  50,
+  58,
+  66,
+  68,
+  72,
+  84,
+  90
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "full4",
+   "full",
+   "ocr"
+  ],
+  [
+   2,
+   "Powers,",
+   "Powers.",
+   "ocr"
+  ],
+  [
+   7,
+   "politically,",
+   "politically",
+   "ocr"
+  ],
+  [
+   9,
+   "followed,",
+   "followed",
+   "ocr"
+  ],
+  [
+   21,
+   "independence,",
+   "independence.",
+   "ocr"
+  ],
+  [
+   31,
+   "haft",
+   "half",
+   "ocr"
+  ],
+  [
+   66,
+   "wish,",
+   "wish",
+   "ocr"
+  ],
+  [
+   84,
+   "decision,",
+   "decision",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "05ed33c89156f911681fe13cb9592bd53d41e8d3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 16
+  },
+  "words_in": 3141,
+  "words_out": 3141,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   129,
+   253,
+   121,
+   151,
+   103,
+   148,
+   80,
+   95,
+   207,
+   139,
+   122,
+   135,
+   261,
+   279,
+   75,
+   162,
+   268,
+   247,
+   166
+  ],
+  "warnings": []
+ }
+}

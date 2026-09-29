@@ -1,0 +1,198 @@
+{
+ "id": "NLD_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  27,
+  34,
+  38,
+  48,
+  55,
+  59,
+  69,
+  77,
+  91,
+  104
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "1864. Abraham",
+   "1864, Abraham",
+   "ocr"
+  ],
+  [
+   14,
+   "yes.",
+   "yes,",
+   "ocr"
+  ],
+  [
+   16,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   21,
+   "it.",
+   "it,",
+   "ocr"
+  ],
+  [
+   22,
+   "be. that",
+   "be, that",
+   "ocr"
+  ],
+  [
+   25,
+   "1945. but",
+   "1945, but",
+   "ocr"
+  ],
+  [
+   26,
+   "in. but",
+   "in, but",
+   "ocr"
+  ],
+  [
+   32,
+   "2050. by",
+   "2050, by",
+   "ocr"
+  ],
+  [
+   33,
+   "all. partnerships",
+   "all, partnerships",
+   "ocr"
+  ],
+  [
+   35,
+   "yes. such",
+   "yes, such",
+   "ocr"
+  ],
+  [
+   36,
+   "2025. and",
+   "2025, and",
+   "ocr"
+  ],
+  [
+   39,
+   "2030. by",
+   "2030, by",
+   "ocr"
+  ],
+  [
+   39,
+   "Africa.",
+   "Africa,",
+   "ocr"
+  ],
+  [
+   40,
+   "Egypt.",
+   "Egypt,",
+   "ocr"
+  ],
+  [
+   41,
+   "Morocco.",
+   "Morocco,",
+   "ocr"
+  ],
+  [
+   47,
+   "not. the",
+   "not, the",
+   "ocr"
+  ],
+  [
+   53,
+   "are. however",
+   "are, however",
+   "ocr"
+  ],
+  [
+   55,
+   "2014. those",
+   "2014, those",
+   "ocr"
+  ],
+  [
+   59,
+   "mind.",
+   "mind,",
+   "ocr"
+  ],
+  [
+   61,
+   "day. millions",
+   "day, millions",
+   "ocr"
+  ],
+  [
+   70,
+   "them.",
+   "them,",
+   "ocr"
+  ],
+  [
+   71,
+   "too. because",
+   "too, because",
+   "ocr"
+  ],
+  [
+   86,
+   "us. and",
+   "us, and",
+   "ocr"
+  ],
+  [
+   89,
+   "way.",
+   "way,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f8539446896134d08785b417924e282c7a220989",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1656,
+  "words_out": 1656,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   120,
+   100,
+   150,
+   132,
+   73,
+   180,
+   115,
+   75,
+   119,
+   126,
+   210,
+   161,
+   95
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

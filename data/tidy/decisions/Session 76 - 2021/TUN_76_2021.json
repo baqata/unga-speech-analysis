@@ -1,0 +1,52 @@
+{
+ "id": "TUN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  16,
+  20,
+  24,
+  26,
+  31,
+  34,
+  38
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "seventy- sixth",
+   "seventy-sixth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4af226100e632c7dc39f8c7e2a61ede0ed495f6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1483,
+  "words_out": 1482,
+  "retention": 0.9993,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   165,
+   197,
+   141,
+   183,
+   185,
+   120,
+   159,
+   134,
+   142,
+   56
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "BHR_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  10,
+  14,
+  21,
+  28,
+  35,
+  41,
+  44,
+  50,
+  55,
+  64,
+  69,
+  75,
+  81,
+  84,
+  92
+ ],
+ "cer": [
+  1,
+  92
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "720e2445dcd8aaaf392d85f6ba5fee6d761327ab",
+ "layout": "single",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2039,
+  "words_out": 2018,
+  "retention": 0.9897,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   103,
+   151,
+   92,
+   129,
+   135,
+   189,
+   128,
+   64,
+   150,
+   87,
+   142,
+   83,
+   174,
+   146,
+   79,
+   160,
+   6
+  ],
+  "warnings": []
+ }
+}

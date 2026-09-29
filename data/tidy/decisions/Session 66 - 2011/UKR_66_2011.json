@@ -1,0 +1,66 @@
+{
+ "id": "UKR_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  16,
+  31,
+  41,
+  58,
+  76,
+  86,
+  102,
+  121,
+  135,
+  151,
+  167,
+  176,
+  191,
+  201,
+  219,
+  237
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a56b17f1512b0f667a5a699f6f3eb0f620fd66a4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 243,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1856,
+  "words_out": 1855,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   53,
+   65,
+   121,
+   72,
+   141,
+   132,
+   80,
+   137,
+   151,
+   111,
+   119,
+   120,
+   54,
+   111,
+   75,
+   137,
+   131,
+   45
+  ],
+  "warnings": []
+ }
+}

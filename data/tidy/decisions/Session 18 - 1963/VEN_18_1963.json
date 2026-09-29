@@ -1,0 +1,120 @@
+{
+ "id": "VEN_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  20,
+  27,
+  30,
+  35,
+  37,
+  45,
+  50,
+  56,
+  62,
+  66,
+  68,
+  71,
+  74,
+  80,
+  85,
+  86,
+  94,
+  98,
+  103,
+  111,
+  115,
+  118,
+  121,
+  125,
+  128,
+  133
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "as Its Head",
+   "as its Head",
+   "ocr"
+  ],
+  [
+   59,
+   "be democratic,",
+   "be democratic.",
+   "ocr"
+  ],
+  [
+   82,
+   "Congress, Already",
+   "Congress. Already",
+   "ocr"
+  ],
+  [
+   89,
+   "school- year",
+   "school-year",
+   "spacing"
+  ],
+  [
+   96,
+   "my (government",
+   "my government",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d228ea0728c7217b31562ec9597d955cd3efc704",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 4444,
+  "words_out": 4443,
+  "retention": 0.9998,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   81,
+   161,
+   115,
+   177,
+   160,
+   107,
+   212,
+   99,
+   199,
+   138,
+   128,
+   176,
+   97,
+   110,
+   122,
+   132,
+   194,
+   208,
+   141,
+   195,
+   137,
+   163,
+   221,
+   215,
+   87,
+   143,
+   134,
+   133,
+   180,
+   78
+  ],
+  "warnings": []
+ }
+}

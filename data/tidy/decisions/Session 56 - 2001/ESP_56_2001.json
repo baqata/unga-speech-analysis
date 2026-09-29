@@ -1,0 +1,76 @@
+{
+ "id": "ESP_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  28,
+  41,
+  65,
+  78,
+  98,
+  121,
+  133,
+  145,
+  168,
+  184,
+  199,
+  214,
+  243,
+  254,
+  273,
+  285,
+  310,
+  333
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   278,
+   "communiquÈ",
+   "communiqué",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "63a03dc7aaad7b1270467eed54ae59b0b7f27369",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 345,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2719,
+  "words_out": 2717,
+  "retention": 0.9993,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   111,
+   105,
+   107,
+   195,
+   113,
+   161,
+   178,
+   87,
+   103,
+   165,
+   129,
+   120,
+   111,
+   220,
+   83,
+   158,
+   96,
+   194,
+   177,
+   104
+  ],
+  "warnings": []
+ }
+}

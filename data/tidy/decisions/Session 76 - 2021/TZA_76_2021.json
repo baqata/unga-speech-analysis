@@ -1,0 +1,62 @@
+{
+ "id": "TZA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  16,
+  24,
+  28,
+  33,
+  42,
+  47,
+  54,
+  58
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "seventh-fifth",
+   "seventy-fifth",
+   "ocr"
+  ],
+  [
+   53,
+   "gender- responsive",
+   "gender-responsive",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d0b7cf152305a7dab79f76337bdaf0a1d1c3681",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1581,
+  "words_out": 1580,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   163,
+   139,
+   140,
+   167,
+   63,
+   127,
+   231,
+   135,
+   186,
+   137,
+   92
+  ],
+  "warnings": []
+ }
+}

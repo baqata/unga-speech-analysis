@@ -1,0 +1,74 @@
+{
+ "id": "DNK_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  18,
+  22,
+  28,
+  35,
+  43,
+  51,
+  57,
+  64,
+  73,
+  77,
+  82,
+  87,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "^",
+   "",
+   "label"
+  ],
+  [
+   72,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40da796d76f7c5f5ccc9a534b6a3b5d770dc8fdd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2292,
+  "words_out": 2290,
+  "retention": 0.9991,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   91,
+   153,
+   148,
+   125,
+   151,
+   134,
+   187,
+   197,
+   168,
+   141,
+   190,
+   133,
+   147,
+   101,
+   145,
+   79
+  ],
+  "warnings": []
+ }
+}

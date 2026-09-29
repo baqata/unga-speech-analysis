@@ -1,0 +1,47 @@
+{
+ "id": "NIC_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  18,
+  38,
+  61,
+  68,
+  96,
+  121,
+  133
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0afdc2be60a0adb1ca82c5080706238f8b0fa632",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1185,
+  "words_out": 1182,
+  "retention": 0.9975,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   21,
+   118,
+   161,
+   185,
+   67,
+   234,
+   202,
+   107,
+   87
+  ],
+  "warnings": []
+ }
+}

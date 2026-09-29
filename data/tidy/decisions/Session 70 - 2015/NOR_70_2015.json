@@ -1,0 +1,68 @@
+{
+ "id": "NOR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  17,
+  21,
+  25,
+  27,
+  31,
+  40,
+  46,
+  53,
+  61,
+  71,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   50,
+   "war- ravaged",
+   "war-ravaged",
+   "hyphen"
+  ],
+  [
+   82,
+   "human- made",
+   "human-made",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60aef7edac105b191b880765ebf79455dd4e0c3a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1486,
+  "words_out": 1484,
+  "retention": 0.9987,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   147,
+   71,
+   74,
+   84,
+   69,
+   60,
+   52,
+   127,
+   108,
+   105,
+   130,
+   156,
+   140,
+   161
+  ],
+  "warnings": []
+ }
+}

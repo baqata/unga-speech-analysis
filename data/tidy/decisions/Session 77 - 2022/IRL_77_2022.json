@@ -1,0 +1,78 @@
+{
+ "id": "IRL_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  9,
+  19,
+  27,
+  33,
+  40,
+  46,
+  54,
+  59,
+  64,
+  72,
+  82,
+  86,
+  92,
+  98,
+  104,
+  108,
+  116,
+  120,
+  122
+ ],
+ "cer": [],
+ "fix": [
+  [
+   38,
+   "hard- won",
+   "hard-won",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f952bbf53a83d183b99f4ea00f55bb2273e751c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2880,
+  "words_out": 2879,
+  "retention": 0.9997,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   150,
+   85,
+   124,
+   114,
+   159,
+   120,
+   169,
+   165,
+   168,
+   98,
+   144,
+   108,
+   170,
+   98,
+   142,
+   109,
+   135,
+   119,
+   138,
+   74,
+   68,
+   222
+  ],
+  "warnings": []
+ }
+}

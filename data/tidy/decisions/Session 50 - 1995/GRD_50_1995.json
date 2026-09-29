@@ -1,0 +1,82 @@
+{
+ "id": "GRD_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  47,
+  72,
+  92,
+  112,
+  137,
+  163,
+  184,
+  207,
+  228,
+  249,
+  265,
+  284
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   262,
+   " (Official",
+   "",
+   "label"
+  ],
+  [
+   263,
+   "Records of the General Assembly, Fiftieth Session,",
+   "",
+   "label"
+  ],
+  [
+   264,
+   "Plenary Meetings, 1st meeting, p. 7)",
+   "",
+   "label"
+  ],
+  [
+   291,
+   "Untied",
+   "United",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c556481355879ae91b9bb400f038af61b1f3b6e9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 299,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2382,
+  "words_out": 2368,
+  "retention": 0.9941,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   170,
+   205,
+   207,
+   180,
+   154,
+   204,
+   217,
+   163,
+   186,
+   150,
+   167,
+   102,
+   149,
+   114
+  ],
+  "warnings": []
+ }
+}

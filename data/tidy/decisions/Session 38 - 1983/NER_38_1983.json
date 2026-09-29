@@ -1,0 +1,129 @@
+{
+ "id": "NER_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  13,
+  19,
+  22,
+  24,
+  26,
+  30,
+  35,
+  38,
+  41,
+  43,
+  45,
+  55,
+  59,
+  62,
+  65,
+  73,
+  78,
+  81,
+  85,
+  89,
+  93,
+  97,
+  101,
+  104,
+  110,
+  115
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   6,
+   "world tom,",
+   "world torn,",
+   "ocr"
+  ],
+  [
+   19,
+   "the Held for",
+   "the field for",
+   "ocr"
+  ],
+  [
+   35,
+   "to wards",
+   "towards",
+   "split_word"
+  ],
+  [
+   42,
+   "like,,",
+   "like,",
+   "ocr"
+  ],
+  [
+   102,
+   "five- year",
+   "five-year",
+   "hyphen"
+  ],
+  [
+   112,
+   "crushing Mow",
+   "crushing blow",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 46 breaks off before a lost italic word (apartheid).",
+ "unitizer_version": 1,
+ "sha1": "6d7d2aa6839a77a7feba24856c1dc69481f06e26",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 3662,
+  "words_out": 3657,
+  "retention": 0.9986,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   106,
+   116,
+   70,
+   106,
+   120,
+   149,
+   74,
+   130,
+   137,
+   109,
+   130,
+   145,
+   56,
+   54,
+   216,
+   138,
+   99,
+   100,
+   200,
+   102,
+   108,
+   150,
+   128,
+   110,
+   114,
+   69,
+   169,
+   179,
+   152,
+   121
+  ],
+  "warnings": []
+ }
+}

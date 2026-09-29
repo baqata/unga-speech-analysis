@@ -1,0 +1,99 @@
+{
+ "id": "GTM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  20,
+  37,
+  48,
+  62,
+  77,
+  95,
+  107,
+  124,
+  133,
+  143,
+  153,
+  161,
+  177,
+  185,
+  203,
+  221,
+  229,
+  241,
+  258
+ ],
+ "cer": [
+  0,
+  12,
+  20,
+  124
+ ],
+ "fix": [
+  [
+   3,
+   "Mart'nez",
+   "Martínez",
+   "encoding"
+  ],
+  [
+   58,
+   " (A/53/288)",
+   "",
+   "label"
+  ],
+  [
+   219,
+   " (A/Conf.183/10, annex I,",
+   "",
+   "label"
+  ],
+  [
+   220,
+   "section E, second paragraph)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "29e8c8ee4c1eab5c0e1b4d4258c2ff2bf9993e26",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2216,
+  "words_out": 2206,
+  "retention": 0.9955,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   106,
+   67,
+   143,
+   84,
+   111,
+   130,
+   151,
+   101,
+   124,
+   71,
+   81,
+   84,
+   67,
+   136,
+   64,
+   159,
+   125,
+   66,
+   100,
+   157,
+   79
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "MDG_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  22,
+  32,
+  50,
+  73,
+  94,
+  114,
+  125,
+  139,
+  154,
+  172,
+  199,
+  207,
+  229,
+  253,
+  261,
+  282,
+  300,
+  328,
+  345,
+  364,
+  379,
+  397,
+  423
+ ],
+ "cer": [
+  0,
+  16,
+  22,
+  114
+ ],
+ "fix": [
+  [
+   68,
+   "Internat",
+   "Internet",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bee7feb7f38fa4cd0ba32ebeb2a42c1b185ecda6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 441,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 4
+  },
+  "words_in": 3639,
+  "words_out": 3631,
+  "retention": 0.9978,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   131,
+   42,
+   89,
+   156,
+   199,
+   168,
+   160,
+   84,
+   121,
+   117,
+   152,
+   233,
+   72,
+   176,
+   207,
+   68,
+   176,
+   143,
+   214,
+   132,
+   164,
+   123,
+   140,
+   203,
+   161
+  ],
+  "warnings": []
+ }
+}

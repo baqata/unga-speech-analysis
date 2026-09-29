@@ -1,0 +1,250 @@
+{
+ "id": "PAN_13_1958",
+ "drop": [
+  [
+   126,
+   126,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  13,
+  20,
+  26,
+  31,
+  35,
+  40,
+  44,
+  48,
+  54,
+  60,
+  66,
+  70,
+  74,
+  78,
+  81,
+  85,
+  88,
+  93,
+  98,
+  101,
+  109,
+  116,
+  122,
+  127,
+  132,
+  136,
+  140,
+  144,
+  147
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "soma States",
+   "some States",
+   "ocr"
+  ],
+  [
+   11,
+   "Interests",
+   "interests",
+   "ocr"
+  ],
+  [
+   13,
+   "Chatter",
+   "Charter",
+   "ocr"
+  ],
+  [
+   27,
+   "In the Middle East",
+   "in the Middle East",
+   "ocr"
+  ],
+  [
+   27,
+   "malting",
+   "making",
+   "ocr"
+  ],
+  [
+   30,
+   "Interdependence",
+   "interdependence",
+   "ocr"
+  ],
+  [
+   38,
+   "Chapter could",
+   "Charter could",
+   "ocr"
+  ],
+  [
+   58,
+   "1833",
+   "1933",
+   "ocr"
+  ],
+  [
+   59,
+   "In 1848",
+   "In 1948",
+   "ocr"
+  ],
+  [
+   63,
+   "1836",
+   "1936",
+   "ocr"
+  ],
+  [
+   66,
+   "above- mentioned",
+   "above-mentioned",
+   "hyphen"
+  ],
+  [
+   73,
+   "delegation, of",
+   "delegation of",
+   "ocr"
+  ],
+  [
+   74,
+   " [UNEF]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   " [A/3844, pp. 11-12]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "conviction;",
+   "conviction,",
+   "ocr"
+  ],
+  [
+   80,
+   "Chapter VH",
+   "Chapter VII",
+   "ocr"
+  ],
+  [
+   82,
+   "hi seeking",
+   "in seeking",
+   "ocr"
+  ],
+  [
+   94,
+   "related, Economic Interdependence",
+   "related. Economic interdependence",
+   "ocr"
+  ],
+  [
+   94,
+   "affairs,",
+   "affairs.",
+   "ocr"
+  ],
+  [
+   117,
+   "Inadequate",
+   "inadequate",
+   "ocr"
+  ],
+  [
+   128,
+   "Panama'.",
+   "Panama.",
+   "ocr"
+  ],
+  [
+   144,
+   "can It",
+   "can it",
+   "ocr"
+  ],
+  [
+   146,
+   "interdependent In all things,",
+   "interdependent in all things.",
+   "ocr"
+  ],
+  [
+   150,
+   "problems -which",
+   "problems which",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 126 is a stray paragraph number ('194.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "652db7f1e848dc4e3e4c6a07120274103d7d7832",
+ "layout": "lines",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 87
+  },
+  "words_in": 5361,
+  "words_out": 5355,
+  "retention": 0.9989,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   54,
+   207,
+   137,
+   171,
+   168,
+   207,
+   155,
+   189,
+   196,
+   153,
+   129,
+   183,
+   219,
+   212,
+   139,
+   135,
+   155,
+   202,
+   174,
+   117,
+   180,
+   168,
+   93,
+   171,
+   206,
+   198,
+   163,
+   137,
+   119,
+   179,
+   132,
+   144,
+   163
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

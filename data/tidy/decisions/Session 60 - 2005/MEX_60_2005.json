@@ -1,0 +1,101 @@
+{
+ "id": "MEX_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  28,
+  43,
+  52,
+  66,
+  78,
+  91,
+  104,
+  124,
+  141,
+  158
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "Secretary-Generalís",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   10,
+   "ìIn",
+   "“In",
+   "encoding"
+  ],
+  [
+   11,
+   "freedomî",
+   "freedom”",
+   "encoding"
+  ],
+  [
+   28,
+   "Mexicoís",
+   "Mexico’s",
+   "encoding"
+  ],
+  [
+   37,
+   "summitís",
+   "summit’s",
+   "encoding"
+  ],
+  [
+   83,
+   "Organizationís",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   95,
+   "ìresponsibility",
+   "“responsibility",
+   "encoding"
+  ],
+  [
+   96,
+   "protectî",
+   "protect”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21bc44968170b4ada82de85c63afa3f2f1ee380b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_number": 1
+  },
+  "words_in": 1431,
+  "words_out": 1428,
+  "retention": 0.9979,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   153,
+   70,
+   117,
+   71,
+   111,
+   97,
+   101,
+   106,
+   166,
+   123,
+   138,
+   175
+  ],
+  "warnings": []
+ }
+}

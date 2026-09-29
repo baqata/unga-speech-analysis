@@ -1,0 +1,86 @@
+{
+ "id": "SYC_32_1977",
+ "drop": [
+  [
+   0,
+   0,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  10,
+  18,
+  23,
+  26,
+  29,
+  32,
+  37,
+  47,
+  53,
+  55,
+  56,
+  60,
+  64
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   23,
+   "Seychelles' has",
+   "Seychelles has",
+   "ocr"
+  ],
+  [
+   44,
+   "new law, of the sea",
+   "new law of the sea",
+   "ocr"
+  ],
+  [
+   53,
+   "political,, material",
+   "political, material",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c4d7b2bc4ee478c0efdce6d396f30e2c930455b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 1875,
+  "words_out": 1874,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   124,
+   152,
+   176,
+   157,
+   99,
+   99,
+   90,
+   142,
+   211,
+   151,
+   152,
+   32,
+   154,
+   115,
+   20
+  ],
+  "warnings": []
+ }
+}

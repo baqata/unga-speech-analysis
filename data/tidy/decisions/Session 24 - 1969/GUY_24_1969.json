@@ -1,0 +1,180 @@
+{
+ "id": "GUY_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  41,
+  62,
+  85,
+  111,
+  130,
+  144,
+  167,
+  184,
+  202,
+  218,
+  233,
+  249,
+  261,
+  278,
+  296,
+  309,
+  324,
+  337,
+  348,
+  363,
+  376,
+  402,
+  439,
+  454,
+  471,
+  495,
+  509,
+  527,
+  549,
+  566,
+  588,
+  599,
+  617,
+  631,
+  654,
+  678
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   204,
+   "tight to",
+   "right to",
+   "ocr"
+  ],
+  [
+   259,
+   " [1755th",
+   "",
+   "label"
+  ],
+  [
+   260,
+   "meeting, para, 15]",
+   "",
+   "label"
+  ],
+  [
+   296,
+   "1O5. ",
+   "",
+   "label"
+  ],
+  [
+   414,
+   "State“",
+   "State”",
+   "ocr"
+  ],
+  [
+   537,
+   " [resolution",
+   "",
+   "label"
+  ],
+  [
+   538,
+   "2145 (XXI)] ",
+   "",
+   "label"
+  ],
+  [
+   575,
+   "(XXHI)",
+   "(XXIII)",
+   "ocr"
+  ],
+  [
+   616,
+   "all“",
+   "all”",
+   "ocr"
+  ],
+  [
+   633,
+   "east among",
+   "least among",
+   "ocr"
+  ],
+  [
+   640,
+   "2 recognition",
+   "a recognition",
+   "ocr"
+  ],
+  [
+   667,
+   " [A/7690]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The paragraph at unit 402 exceeds 300 words but no line in it ends a sentence, so it could not be split.",
+ "unitizer_version": 1,
+ "sha1": "79af37fa889b34c054801b931e5121195b7b5f0f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 693,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5
+  },
+  "words_in": 6313,
+  "words_out": 6266,
+  "retention": 0.9926,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   153,
+   228,
+   202,
+   219,
+   249,
+   177,
+   116,
+   202,
+   152,
+   171,
+   158,
+   123,
+   136,
+   99,
+   149,
+   155,
+   105,
+   131,
+   112,
+   95,
+   137,
+   123,
+   238,
+   355,
+   147,
+   154,
+   214,
+   122,
+   160,
+   194,
+   156,
+   195,
+   97,
+   147,
+   127,
+   206,
+   211,
+   151
+  ],
+  "warnings": [
+   "paragraph at unit 402 has 355 words"
+  ]
+ }
+}

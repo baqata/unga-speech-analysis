@@ -1,0 +1,141 @@
+{
+ "id": "QAT_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  17,
+  21,
+  23,
+  28,
+  31,
+  33,
+  35,
+  40,
+  43,
+  45,
+  51,
+  53,
+  56,
+  60,
+  65,
+  70,
+  73,
+  80,
+  84,
+  87,
+  90,
+  95
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   16,
+   "efforts end disrupt",
+   "efforts and disrupt",
+   "ocr"
+  ],
+  [
+   32,
+   "ray country",
+   "my country",
+   "ocr"
+  ],
+  [
+   33,
+   "moat recent",
+   "most recent",
+   "ocr"
+  ],
+  [
+   42,
+   "self- determination",
+   "self-determination",
+   "ocr"
+  ],
+  [
+   43,
+   "United Stations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   44,
+   "self- determination",
+   "self-determination",
+   "ocr"
+  ],
+  [
+   84,
+   "into account,",
+   "into account.",
+   "ocr"
+  ],
+  [
+   92,
+   "problem^",
+   "problem,",
+   "ocr"
+  ],
+  [
+   95,
+   "Nations· It",
+   "Nations. It",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e4f2eb1210f2934879c184a14ff6a65fbadf176",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3325,
+  "words_out": 3323,
+  "retention": 0.9994,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   120,
+   153,
+   217,
+   118,
+   143,
+   56,
+   189,
+   124,
+   142,
+   103,
+   120,
+   171,
+   87,
+   133,
+   82,
+   139,
+   93,
+   86,
+   139,
+   150,
+   195,
+   128,
+   175,
+   66,
+   129,
+   65
+  ],
+  "warnings": []
+ }
+}

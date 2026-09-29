@@ -1,0 +1,214 @@
+{
+ "id": "LKA_30_1975",
+ "drop": [
+  [
+   13,
+   13,
+   "presider"
+  ],
+  [
+   104,
+   104,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  11,
+  15,
+  18,
+  20,
+  22,
+  24,
+  29,
+  34,
+  37,
+  41,
+  45,
+  49,
+  53,
+  58,
+  65,
+  67,
+  73,
+  77,
+  83,
+  87,
+  93,
+  96,
+  100,
+  105,
+  111,
+  115,
+  122,
+  128
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   9,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   9,
+   "Sirinlavo",
+   "Sirimavo",
+   "ocr"
+  ],
+  [
+   12,
+   "histoiy",
+   "history",
+   "ocr"
+  ],
+  [
+   19,
+   "and .thermonuclear",
+   "and thermonuclear",
+   "ocr"
+  ],
+  [
+   28,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "main-tenance",
+   "maintenance",
+   "hyphen"
+  ],
+  [
+   41,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   46,
+   "State, As",
+   "State. As",
+   "ocr"
+  ],
+  [
+   58,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   66,
+   "sub-stance",
+   "substance",
+   "hyphen"
+  ],
+  [
+   71,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "may' be",
+   "may be",
+   "ocr"
+  ],
+  [
+   105,
+   "37 ",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "lenghty",
+   "lengthy",
+   "ocr"
+  ],
+  [
+   119,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   122,
+   "Gen- eraj.",
+   "General.",
+   "ocr"
+  ],
+  [
+   124,
+   "'n the",
+   "in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f0c0304bcd0caeef46391c3c6ea5a77338e4f20",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "presider": 1,
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 39
+  },
+  "words_in": 4083,
+  "words_out": 4063,
+  "retention": 0.9951,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   85,
+   126,
+   79,
+   115,
+   99,
+   128,
+   102,
+   137,
+   61,
+   127,
+   177,
+   116,
+   123,
+   104,
+   161,
+   170,
+   112,
+   190,
+   65,
+   149,
+   175,
+   129,
+   93,
+   132,
+   74,
+   147,
+   157,
+   122,
+   192,
+   175,
+   191,
+   50
+  ],
+  "warnings": [
+   "presider drop [13,13] in the middle of the speech"
+  ]
+ }
+}

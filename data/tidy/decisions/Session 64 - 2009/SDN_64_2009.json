@@ -1,0 +1,63 @@
+{
+ "id": "SDN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  47,
+  62,
+  75,
+  89,
+  106,
+  127,
+  136,
+  165,
+  189,
+  213,
+  237,
+  262,
+  283,
+  303
+ ],
+ "cer": [
+  13
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f69af822c1c6cdc9402cebd0b244a12dcb16b4a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2422,
+  "words_out": 2418,
+  "retention": 0.9983,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   90,
+   100,
+   162,
+   124,
+   90,
+   100,
+   132,
+   164,
+   73,
+   228,
+   190,
+   178,
+   193,
+   195,
+   162,
+   147,
+   90
+  ],
+  "warnings": []
+ }
+}

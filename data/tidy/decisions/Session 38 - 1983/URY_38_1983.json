@@ -1,0 +1,138 @@
+{
+ "id": "URY_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  18,
+  21,
+  25,
+  30,
+  34,
+  37,
+  40,
+  43,
+  47,
+  53,
+  57,
+  62,
+  65,
+  71,
+  78,
+  80,
+  86,
+  91,
+  97,
+  101,
+  105,
+  107,
+  111,
+  115,
+  118,
+  122,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "169 ",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "cur financial",
+   "our financial",
+   "ocr"
+  ],
+  [
+   50,
+   "T76. ",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "accordance e with",
+   "accordance with",
+   "ocr"
+  ],
+  [
+   80,
+   "191..",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "192.",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "Teal progress",
+   "real progress",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 91-94 break off ('repeatedly condemned / and called for an end to it', 'is basically contrary'); an italic word (apartheid) is missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "1a4a5dfb7d173a6ba08474c61ef4ed3a8b88076c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 65
+  },
+  "words_in": 3641,
+  "words_out": 3633,
+  "retention": 0.9978,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   89,
+   47,
+   128,
+   125,
+   175,
+   133,
+   131,
+   166,
+   97,
+   117,
+   103,
+   91,
+   131,
+   139,
+   106,
+   110,
+   71,
+   155,
+   172,
+   55,
+   112,
+   92,
+   144,
+   100,
+   106,
+   115,
+   90,
+   93,
+   98,
+   123,
+   133,
+   86
+  ],
+  "warnings": []
+ }
+}

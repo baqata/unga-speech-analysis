@@ -1,0 +1,162 @@
+{
+ "id": "MRT_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  14,
+  19,
+  27,
+  30,
+  34,
+  38,
+  41,
+  45,
+  49,
+  52,
+  56,
+  62,
+  65,
+  71,
+  79,
+  83
+ ],
+ "cer": [
+  6,
+  8,
+  12
+ ],
+ "fix": [
+  [
+   2,
+   "Political level level",
+   "political level",
+   "ocr"
+  ],
+  [
+   6,
+   "48 ",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "international Situation",
+   "international situation",
+   "ocr"
+  ],
+  [
+   16,
+   "network:",
+   "network",
+   "ocr"
+  ],
+  [
+   19,
+   "52 ",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "'War",
+   "War",
+   "ocr"
+  ],
+  [
+   19,
+   "anew era",
+   "a new era",
+   "merged_word"
+  ],
+  [
+   20,
+   "53' ",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "the,Viet",
+   "the Viet",
+   "ocr"
+  ],
+  [
+   20,
+   "nave",
+   "have",
+   "ocr"
+  ],
+  [
+   54,
+   "partic-ularly",
+   "particularly",
+   "hyphen"
+  ],
+  [
+   60,
+   "Organization, With",
+   "Organization. With",
+   "ocr"
+  ],
+  [
+   66,
+   " [A I 10023, chap.",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "XUJ, annex] ",
+   "",
+   "label"
+  ],
+  [
+   37,
+   " [resolution 3362 (S-V1I)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 1 is garbled in the source (\"diagnosis is being made\") and unit 20 lost its opening word; neither can be repaired without adding words.",
+ "unitizer_version": 1,
+ "sha1": "cb98d0cae7ecd96883d6e6327128078944bc58a9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 2418,
+  "words_out": 2407,
+  "retention": 0.9955,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   143,
+   89,
+   156,
+   56,
+   118,
+   185,
+   68,
+   74,
+   122,
+   88,
+   60,
+   120,
+   79,
+   162,
+   200,
+   74,
+   204,
+   194,
+   113,
+   102
+  ],
+  "warnings": []
+ }
+}

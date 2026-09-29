@@ -1,0 +1,48 @@
+{
+ "id": "SVN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  15,
+  21,
+  28,
+  34,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "Tiirkiye",
+   "Türkiye",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f34b9cdd19a89dac4df18958d898b82c38ef94e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 892,
+  "words_out": 891,
+  "retention": 0.9989,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   61,
+   86,
+   166,
+   103,
+   115,
+   149,
+   146,
+   65
+  ],
+  "warnings": []
+ }
+}

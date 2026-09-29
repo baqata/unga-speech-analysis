@@ -1,0 +1,70 @@
+{
+ "id": "GUY_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  20,
+  26,
+  33,
+  40,
+  52,
+  58,
+  65,
+  69,
+  71,
+  74
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   73,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c816929e6ce454120a5968ad2bc1e2f0f3d38a4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1617,
+  "words_out": 1615,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   150,
+   90,
+   67,
+   116,
+   103,
+   231,
+   109,
+   179,
+   114,
+   127,
+   89,
+   109,
+   67,
+   64
+  ],
+  "warnings": []
+ }
+}

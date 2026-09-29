@@ -1,0 +1,127 @@
+{
+ "id": "SAU_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  12,
+  16,
+  19,
+  22,
+  28,
+  29,
+  30,
+  36,
+  41,
+  47,
+  50,
+  54,
+  57,
+  62,
+  65,
+  73,
+  80,
+  87,
+  94,
+  98,
+  103,
+  106,
+  110,
+  113,
+  125
+ ],
+ "cer": [
+  0,
+  1,
+  8,
+  12,
+  16,
+  19,
+  28,
+  29
+ ],
+ "fix": [
+  [
+   10,
+   "that it is for",
+   "than it is for",
+   "ocr"
+  ],
+  [
+   13,
+   "admirable tack",
+   "admirable tact",
+   "ocr"
+  ],
+  [
+   66,
+   " [see resolution 181 (II)]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "andSouth",
+   "and South",
+   "merged_word"
+  ],
+  [
+   108,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   115,
+   "problem is Cyprus",
+   "problem of Cyprus",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6ef1e1cf56303c7fe994ab8eb8fc0476b3db1f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3269,
+  "words_out": 3223,
+  "retention": 0.9859,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   9,
+   141,
+   134,
+   99,
+   61,
+   110,
+   135,
+   44,
+   31,
+   158,
+   85,
+   202,
+   69,
+   138,
+   88,
+   120,
+   93,
+   186,
+   190,
+   142,
+   144,
+   97,
+   91,
+   99,
+   99,
+   62,
+   267,
+   129
+  ],
+  "warnings": []
+ }
+}

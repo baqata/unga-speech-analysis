@@ -1,0 +1,93 @@
+{
+ "id": "IND_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  16,
+  27,
+  35,
+  42,
+  48,
+  51,
+  55,
+  60,
+  64,
+  70,
+  74,
+  77,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   " [A/1365]",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "nevertheless-not",
+   "nevertheless not",
+   "ocr"
+  ],
+  [
+   29,
+   "certain former.",
+   "certain former",
+   "ocr"
+  ],
+  [
+   32,
+   " [resolution 289 (IV)]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "v/ere",
+   "were",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "da3057ac659fffa48fe17cb52d3da21e906463a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 22
+  },
+  "words_in": 2377,
+  "words_out": 2374,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   81,
+   189,
+   265,
+   255,
+   217,
+   237,
+   170,
+   99,
+   94,
+   161,
+   130,
+   173,
+   79,
+   120,
+   41,
+   63
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "COL_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  19,
+  24,
+  31,
+  33,
+  37,
+  40,
+  44,
+  50,
+  52,
+  56,
+  59,
+  62,
+  63
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   17,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   19,
+   "sys- tern",
+   "system",
+   "ocr"
+  ],
+  [
+   45,
+   "Campuis",
+   "Campins",
+   "ocr"
+  ],
+  [
+   51,
+   "reader less",
+   "render less",
+   "ocr"
+  ],
+  [
+   53,
+   "OPEC,\"",
+   "OPEC,",
+   "ocr"
+  ],
+  [
+   54,
+   "Jose'",
+   "Jose",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2e8be8589837aa2b6e4862bf33807f1559864c24",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2361,
+  "words_out": 2359,
+  "retention": 0.9992,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   122,
+   84,
+   179,
+   192,
+   152,
+   254,
+   67,
+   138,
+   112,
+   184,
+   181,
+   70,
+   153,
+   135,
+   88,
+   132,
+   116
+  ],
+  "warnings": []
+ }
+}

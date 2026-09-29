@@ -1,0 +1,217 @@
+{
+ "id": "TZA_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  11,
+  18,
+  22,
+  26,
+  30,
+  36,
+  46,
+  50,
+  59,
+  69,
+  76,
+  82,
+  85,
+  88,
+  90,
+  96,
+  101,
+  108,
+  118,
+  121,
+  126,
+  131,
+  135,
+  142,
+  146,
+  150,
+  154,
+  160,
+  163,
+  168
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "as sure",
+   "assure",
+   "split_word"
+  ],
+  [
+   7,
+   "for all,",
+   "for all.",
+   "ocr"
+  ],
+  [
+   8,
+   "International",
+   "international",
+   "ocr"
+  ],
+  [
+   11,
+   "Inception",
+   "inception",
+   "ocr"
+  ],
+  [
+   23,
+   "8,",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "destruction In two",
+   "destruction in two",
+   "ocr"
+  ],
+  [
+   29,
+   "Innumerable",
+   "innumerable",
+   "ocr"
+  ],
+  [
+   53,
+   "Interest",
+   "interest",
+   "ocr"
+  ],
+  [
+   58,
+   "private capital,",
+   "private capital.",
+   "ocr"
+  ],
+  [
+   72,
+   "peoples,\"Reiterating",
+   "peoples, \"Reiterating",
+   "spacing"
+  ],
+  [
+   92,
+   "Important",
+   "important",
+   "ocr"
+  ],
+  [
+   99,
+   "and Indeed",
+   "and indeed",
+   "ocr"
+  ],
+  [
+   122,
+   "I In his",
+   "I in his",
+   "ocr"
+  ],
+  [
+   132,
+   "brother.",
+   "brother,",
+   "ocr"
+  ],
+  [
+   138,
+   "Indifferent",
+   "indifferent",
+   "ocr"
+  ],
+  [
+   138,
+   "Interests",
+   "interests",
+   "ocr"
+  ],
+  [
+   152,
+   "United Nations,",
+   "United Nations.",
+   "ocr"
+  ],
+  [
+   154,
+   "Twenty-Pour",
+   "Twenty-Four",
+   "ocr"
+  ],
+  [
+   167,
+   "struggle,",
+   "struggle.",
+   "ocr"
+  ],
+  [
+   170,
+   "Nyasaland, To",
+   "Nyasaland. To",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech by Tanganyika, filed under Tanzania.",
+ "unitizer_version": 1,
+ "sha1": "67072808de632b0100ea8987c455bfdb57bd0a55",
+ "layout": "lines",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 42
+  },
+  "words_in": 4891,
+  "words_out": 4888,
+  "retention": 0.9994,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   170,
+   96,
+   112,
+   150,
+   146,
+   180,
+   157,
+   148,
+   190,
+   146,
+   163,
+   261,
+   214,
+   152,
+   78,
+   130,
+   79,
+   151,
+   158,
+   124,
+   233,
+   142,
+   161,
+   138,
+   96,
+   174,
+   123,
+   94,
+   99,
+   164,
+   137,
+   180,
+   142
+  ],
+  "warnings": []
+ }
+}

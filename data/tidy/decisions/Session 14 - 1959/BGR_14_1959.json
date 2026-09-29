@@ -1,0 +1,141 @@
+{
+ "id": "BGR_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  11,
+  14,
+  18,
+  22,
+  29,
+  36,
+  40,
+  48,
+  58,
+  59,
+  67,
+  81,
+  90,
+  93,
+  99,
+  104,
+  108,
+  114,
+  121,
+  128,
+  136,
+  144,
+  149,
+  160,
+  163
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "is' historic",
+   "is historic",
+   "ocr"
+  ],
+  [
+   14,
+   "representation, of",
+   "representation of",
+   "ocr"
+  ],
+  [
+   43,
+   "which ' must",
+   "which must",
+   "ocr"
+  ],
+  [
+   55,
+   "maybe in",
+   "may be in",
+   "spacing"
+  ],
+  [
+   64,
+   "cannot, produce",
+   "cannot produce",
+   "ocr"
+  ],
+  [
+   82,
+   "these, measures",
+   "these measures",
+   "ocr"
+  ],
+  [
+   158,
+   "[A/C.",
+   "",
+   "label"
+  ],
+  [
+   159,
+   "1/818]",
+   "",
+   "label"
+  ],
+  [
+   162,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "031280c334ae1470c90a3fa2a0c11120aeec0fe9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 45
+  },
+  "words_in": 4796,
+  "words_out": 4789,
+  "retention": 0.9985,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   86,
+   164,
+   81,
+   148,
+   117,
+   132,
+   88,
+   165,
+   204,
+   119,
+   208,
+   247,
+   101,
+   229,
+   280,
+   216,
+   126,
+   152,
+   233,
+   125,
+   225,
+   160,
+   203,
+   233,
+   130,
+   153,
+   255,
+   128,
+   81
+  ],
+  "warnings": []
+ }
+}

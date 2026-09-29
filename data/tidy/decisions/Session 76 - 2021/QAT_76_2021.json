@@ -1,0 +1,78 @@
+{
+ "id": "QAT_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  11,
+  14,
+  17,
+  24,
+  26,
+  29,
+  31,
+  33,
+  38,
+  42,
+  48,
+  53,
+  56,
+  58,
+  62,
+  65,
+  68,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   70,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "549bdf11a70f37deba6bd84e57ba61fe02d92d4a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2248,
+  "words_out": 2245,
+  "retention": 0.9987,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   79,
+   150,
+   82,
+   66,
+   86,
+   71,
+   151,
+   74,
+   86,
+   101,
+   68,
+   90,
+   132,
+   165,
+   174,
+   102,
+   90,
+   91,
+   123,
+   105,
+   80,
+   79
+  ],
+  "warnings": []
+ }
+}

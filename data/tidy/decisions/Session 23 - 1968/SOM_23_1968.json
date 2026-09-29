@@ -1,0 +1,109 @@
+{
+ "id": "SOM_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  22,
+  27,
+  35,
+  43,
+  51,
+  58,
+  68,
+  70,
+  74,
+  77,
+  84,
+  90,
+  94,
+  99,
+  105
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   15,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   32,
+   "freedom-loVing",
+   "freedom-loving",
+   "ocr"
+  ],
+  [
+   39,
+   " [259 (1968)]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "only once Chinese",
+   "only one Chinese",
+   "ocr"
+  ],
+  [
+   84,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   90,
+   " [A/7201/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   100,
+   " [2152 (XXI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3463f1cb4af8879d226d8f47d51fc17cb785901",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2913,
+  "words_out": 2882,
+  "retention": 0.9894,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   85,
+   100,
+   142,
+   187,
+   154,
+   200,
+   239,
+   234,
+   240,
+   202,
+   71,
+   108,
+   83,
+   159,
+   199,
+   102,
+   114,
+   94,
+   169
+  ],
+  "warnings": []
+ }
+}

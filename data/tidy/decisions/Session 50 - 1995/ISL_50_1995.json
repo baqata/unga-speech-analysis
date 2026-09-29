@@ -1,0 +1,74 @@
+{
+ "id": "ISL_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  32,
+  42,
+  54,
+  62,
+  70,
+  83,
+  90,
+  99,
+  108,
+  123,
+  140,
+  148,
+  166,
+  176,
+  190,
+  200
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   180,
+   "Icelandic- American",
+   "Icelandic-American",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1464f28eb380535e85f8d997d1cc7ab901ecdd63",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 217,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1857,
+  "words_out": 1856,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   42,
+   86,
+   131,
+   81,
+   103,
+   68,
+   76,
+   111,
+   65,
+   78,
+   73,
+   120,
+   127,
+   71,
+   166,
+   100,
+   116,
+   86,
+   156
+  ],
+  "warnings": []
+ }
+}

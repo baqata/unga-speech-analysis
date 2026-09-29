@@ -1,0 +1,236 @@
+{
+ "id": "IDN_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  42,
+  79,
+  100,
+  118,
+  137,
+  161,
+  179,
+  192,
+  210,
+  229,
+  252,
+  281,
+  301,
+  320,
+  340,
+  357,
+  388,
+  403,
+  428,
+  454,
+  479,
+  506,
+  536,
+  563,
+  573,
+  600
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "con-gratulations",
+   "congratulations",
+   "hyphen"
+  ],
+  [
+   7,
+   "under hi",
+   "under his",
+   "ocr"
+  ],
+  [
+   14,
+   "2smat",
+   "Ismat",
+   "ocr"
+  ],
+  [
+   91,
+   "whathe",
+   "what he",
+   "merged_word"
+  ],
+  [
+   124,
+   "peace keeping",
+   "peace-keeping",
+   "spacing"
+  ],
+  [
+   182,
+   "isresolved",
+   "is resolved",
+   "merged_word"
+  ],
+  [
+   197,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   207,
+   "wilt",
+   "will",
+   "ocr"
+  ],
+  [
+   225,
+   "should 2r to",
+   "shoulder to",
+   "ocr"
+  ],
+  [
+   227,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   228,
+   "homeland .'",
+   "homeland.'",
+   "spacing"
+  ],
+  [
+   267,
+   "/4/J7/6P6] ",
+   "",
+   "label"
+  ],
+  [
+   295,
+   "197%",
+   "1978",
+   "ocr"
+  ],
+  [
+   308,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   315,
+   "it :s",
+   "it is",
+   "ocr"
+  ],
+  [
+   325,
+   "International!",
+   "International",
+   "ocr"
+  ],
+  [
+   326,
+   "ar\\ essential",
+   "an essential",
+   "ocr"
+  ],
+  [
+   405,
+   "Sea.^",
+   "Sea.",
+   "encoding"
+  ],
+  [
+   469,
+   "domestic- oriented",
+   "domestic-oriented",
+   "spacing"
+  ],
+  [
+   540,
+   "non governmental",
+   "non-governmental",
+   "spacing"
+  ],
+  [
+   557,
+   "AH Forms",
+   "All Forms",
+   "ocr"
+  ],
+  [
+   558,
+   "hone",
+   "hope",
+   "ocr"
+  ],
+  [
+   565,
+   "inca-pacity",
+   "incapacity",
+   "hyphen"
+  ],
+  [
+   573,
+   "'hat",
+   "that",
+   "ocr"
+  ],
+  [
+   595,
+   "re-storing",
+   "restoring",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 213 reads Chilean (probably civilian) and unit 393 has lost the word apartheid; left as printed.",
+ "unitizer_version": 1,
+ "sha1": "c19bfcfaf325e11c71bb74a82ddf6c53f0f358e5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 607,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4287,
+  "words_out": 4232,
+  "retention": 0.9872,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   138,
+   150,
+   257,
+   152,
+   129,
+   130,
+   154,
+   132,
+   95,
+   126,
+   126,
+   159,
+   213,
+   137,
+   136,
+   150,
+   111,
+   221,
+   96,
+   198,
+   158,
+   173,
+   181,
+   193,
+   180,
+   75,
+   202,
+   60
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

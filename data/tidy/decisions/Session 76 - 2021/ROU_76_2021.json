@@ -1,0 +1,56 @@
+{
+ "id": "ROU_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  16,
+  19,
+  23,
+  29,
+  33,
+  36,
+  40,
+  45,
+  49
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79a7efbf036b816a1c84c90d6a6b3886ab2eddf6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1084,
+  "words_out": 1083,
+  "retention": 0.9991,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   91,
+   156,
+   81,
+   65,
+   82,
+   99,
+   60,
+   107,
+   75,
+   146,
+   70,
+   51
+  ],
+  "warnings": []
+ }
+}

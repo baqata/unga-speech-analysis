@@ -1,0 +1,52 @@
+{
+ "id": "PER_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  30,
+  47,
+  65,
+  82,
+  93,
+  108,
+  121,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82d3a6229a7e8afcb15cca253091ff745c1ff34a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 1
+  },
+  "words_in": 1187,
+  "words_out": 1186,
+  "retention": 0.9992,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   21,
+   88,
+   126,
+   132,
+   131,
+   121,
+   78,
+   110,
+   105,
+   141,
+   133
+  ],
+  "warnings": []
+ }
+}

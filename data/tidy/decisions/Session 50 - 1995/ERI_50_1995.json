@@ -1,0 +1,49 @@
+{
+ "id": "ERI_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  29,
+  49,
+  65,
+  77,
+  98,
+  105,
+  123,
+  131
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7433c08e62fceeb26afc3c207a7d3557607e72f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1127,
+  "words_out": 1126,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   136,
+   94,
+   172,
+   132,
+   90,
+   171,
+   60,
+   154,
+   62,
+   55
+  ],
+  "warnings": []
+ }
+}

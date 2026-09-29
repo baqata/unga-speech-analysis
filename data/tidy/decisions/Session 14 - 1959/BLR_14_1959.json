@@ -1,0 +1,241 @@
+{
+ "id": "BLR_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  17,
+  24,
+  29,
+  33,
+  39,
+  42,
+  46,
+  49,
+  52,
+  56,
+  62,
+  65,
+  75,
+  82,
+  86,
+  89,
+  95,
+  100,
+  107,
+  113,
+  120,
+  123,
+  131,
+  138,
+  145,
+  154,
+  160,
+  165
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Bandar anaike",
+   "Bandaranaike",
+   "spacing"
+  ],
+  [
+   2,
+   "Bandungprinciples",
+   "Bandung principles",
+   "merged_word"
+  ],
+  [
+   6,
+   "Khrushchevto",
+   "Khrushchev to",
+   "merged_word"
+  ],
+  [
+   7,
+   "^United",
+   "United",
+   "ocr"
+  ],
+  [
+   9,
+   "anew era",
+   "a new era",
+   "spacing"
+  ],
+  [
+   19,
+   "solving, the",
+   "solving the",
+   "ocr"
+  ],
+  [
+   29,
+   "is -unwelcome",
+   "is unwelcome",
+   "ocr"
+  ],
+  [
+   33,
+   "ill the",
+   "in the",
+   "ocr"
+  ],
+  [
+   34,
+   "tie military",
+   "the military",
+   "ocr"
+  ],
+  [
+   37,
+   "per 0601",
+   "per cent",
+   "ocr"
+  ],
+  [
+   58,
+   "hoped-for, results",
+   "hoped-for results",
+   "ocr"
+  ],
+  [
+   83,
+   "Survey of.",
+   "Survey of",
+   "ocr"
+  ],
+  [
+   88,
+   "it a real",
+   "is a real",
+   "ocr"
+  ],
+  [
+   109,
+   "[8Q2nd meeting! ",
+   "",
+   "label"
+  ],
+  [
+   110,
+   "harm-to",
+   "harm to",
+   "ocr"
+  ],
+  [
+   111,
+   "Peopled China",
+   "People's China",
+   "ocr"
+  ],
+  [
+   117,
+   "roads. air-fields",
+   "roads, air-fields",
+   "ocr"
+  ],
+  [
+   119,
+   "end. immediately",
+   "end immediately",
+   "ocr"
+  ],
+  [
+   121,
+   "behind- a",
+   "behind a",
+   "ocr"
+  ],
+  [
+   130,
+   "SSE",
+   "SSR",
+   "ocr"
+  ],
+  [
+   154,
+   "SSE",
+   "SSR",
+   "ocr"
+  ],
+  [
+   159,
+   "SSE",
+   "SSR",
+   "ocr"
+  ],
+  [
+   159,
+   "adopts decision",
+   "adopt a decision",
+   "merged_word"
+  ],
+  [
+   160,
+   "issuer and",
+   "issues and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "87dd02ee703313b09b76cdc56e6ec089293bc6aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 51
+  },
+  "words_in": 4942,
+  "words_out": 4942,
+  "retention": 1.0,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   116,
+   170,
+   87,
+   166,
+   156,
+   132,
+   107,
+   180,
+   132,
+   162,
+   96,
+   93,
+   106,
+   240,
+   79,
+   225,
+   182,
+   97,
+   98,
+   116,
+   165,
+   172,
+   225,
+   209,
+   108,
+   193,
+   164,
+   190,
+   244,
+   256,
+   186,
+   90
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

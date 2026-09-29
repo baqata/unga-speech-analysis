@@ -1,0 +1,125 @@
+{
+ "id": "SLE_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  19,
+  25,
+  32,
+  36,
+  45,
+  48,
+  53,
+  57,
+  61,
+  68,
+  72,
+  80,
+  84,
+  87,
+  91,
+  95,
+  98,
+  102,
+  109,
+  113
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "Mr, President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   7,
+   " [A18001]",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "[resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   " :t",
+   "",
+   "label"
+  ],
+  [
+   92,
+   "Fewer that ten",
+   "Fewer than ten",
+   "ocr"
+  ],
+  [
+   92,
+   " [resolution 2200 A (XXI)]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   " [resolution 2106 A (XX)]",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "rights In our",
+   "rights in our",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bfd36650767dbc8f6a3929d1b326e36e23f7022c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3681,
+  "words_out": 3665,
+  "retention": 0.9957,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   175,
+   128,
+   292,
+   147,
+   203,
+   139,
+   240,
+   135,
+   160,
+   122,
+   169,
+   215,
+   113,
+   274,
+   159,
+   89,
+   116,
+   102,
+   78,
+   153,
+   211,
+   77,
+   168
+  ],
+  "warnings": []
+ }
+}

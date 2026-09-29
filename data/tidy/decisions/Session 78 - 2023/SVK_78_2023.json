@@ -1,0 +1,88 @@
+{
+ "id": "SVK_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  29,
+  36,
+  44,
+  57
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   "days.",
+   "days,",
+   "ocr"
+  ],
+  [
+   24,
+   "now. and",
+   "now, and",
+   "ocr"
+  ],
+  [
+   25,
+   "now. we",
+   "now, we",
+   "ocr"
+  ],
+  [
+   30,
+   "2030. our",
+   "2030, our",
+   "ocr"
+  ],
+  [
+   41,
+   "2030. only",
+   "2030, only",
+   "ocr"
+  ],
+  [
+   44,
+   "ago. we",
+   "ago, we",
+   "ocr"
+  ],
+  [
+   57,
+   "words.",
+   "words,",
+   "ocr"
+  ],
+  [
+   59,
+   "Slovakia.",
+   "Slovakia,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "254b570d73c800d507f9c4563b63b757b0ccfb86",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1066,
+  "words_out": 1066,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   123,
+   115,
+   195,
+   172,
+   106,
+   210,
+   145
+  ],
+  "warnings": []
+ }
+}

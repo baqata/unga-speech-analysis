@@ -1,0 +1,76 @@
+{
+ "id": "FIN_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  20,
+  26,
+  34,
+  46,
+  54,
+  63,
+  67,
+  75,
+  82,
+  90,
+  95,
+  100,
+  105,
+  111,
+  117,
+  121
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "—countries",
+   "— countries",
+   "spacing"
+  ],
+  [
+   82,
+   "—the civilian",
+   "— the civilian",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7cb3801ae16c19b4815ff0c892930248ad27ebfb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2169,
+  "words_out": 2169,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   89,
+   117,
+   117,
+   114,
+   160,
+   175,
+   153,
+   122,
+   67,
+   139,
+   97,
+   178,
+   87,
+   88,
+   100,
+   121,
+   114,
+   70,
+   61
+  ],
+  "warnings": []
+ }
+}

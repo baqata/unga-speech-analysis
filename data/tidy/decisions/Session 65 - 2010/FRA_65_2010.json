@@ -1,0 +1,63 @@
+{
+ "id": "FRA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  38,
+  49,
+  60,
+  73,
+  84,
+  96,
+  107,
+  121,
+  131,
+  138,
+  153,
+  168,
+  179,
+  195,
+  207,
+  221
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b3d12a51bc5f2590b705f3e0a7542487f2bef390",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2086,
+  "words_out": 2081,
+  "retention": 0.9976,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   131,
+   190,
+   96,
+   84,
+   107,
+   90,
+   101,
+   94,
+   127,
+   89,
+   55,
+   123,
+   128,
+   110,
+   131,
+   100,
+   124,
+   201
+  ],
+  "warnings": []
+ }
+}

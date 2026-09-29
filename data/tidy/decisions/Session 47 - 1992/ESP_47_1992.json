@@ -1,0 +1,94 @@
+{
+ "id": "ESP_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  38,
+  54,
+  65,
+  84,
+  98,
+  108,
+  124,
+  145,
+  167,
+  189,
+  201,
+  215,
+  236,
+  249,
+  262,
+  279,
+  293,
+  316,
+  335
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   5,
+   "predecessor. Ambassador",
+   "predecessor, Ambassador",
+   "ocr"
+  ],
+  [
+   50,
+   "Salvador..",
+   "Salvador.",
+   "ocr"
+  ],
+  [
+   106,
+   "(A/47/277),'",
+   "(A/47/277),",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cea4175e191021dc42510d4b89f04bc77bc95a8f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 350,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3900,
+  "words_out": 3899,
+  "retention": 0.9997,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   198,
+   210,
+   177,
+   113,
+   222,
+   158,
+   114,
+   167,
+   226,
+   239,
+   267,
+   141,
+   149,
+   228,
+   150,
+   146,
+   223,
+   153,
+   219,
+   217,
+   182
+  ],
+  "warnings": []
+ }
+}

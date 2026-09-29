@@ -1,0 +1,63 @@
+{
+ "id": "CHN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  30,
+  42,
+  55,
+  65,
+  74,
+  92,
+  115,
+  130,
+  148,
+  168,
+  188,
+  212,
+  221,
+  237,
+  248
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf9aa6c10d363245f09a596b9a4e0caee27d808e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1984,
+  "words_out": 1981,
+  "retention": 0.9985,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   77,
+   154,
+   95,
+   101,
+   76,
+   67,
+   135,
+   178,
+   114,
+   153,
+   117,
+   134,
+   175,
+   60,
+   114,
+   75,
+   156
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "LVA_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  40,
+  49,
+  63,
+  75,
+  91,
+  107,
+  123,
+  148,
+  165
+ ],
+ "cer": [],
+ "fix": [
+  [
+   80,
+   "CÙte díIvoire",
+   "Côte d’Ivoire",
+   "encoding"
+  ],
+  [
+   97,
+   "todayís",
+   "today’s",
+   "encoding"
+  ],
+  [
+   139,
+   "Latviaís",
+   "Latvia’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "838fce3889180ae21da98b74bbd134d8f8a49e6d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1365,
+  "words_out": 1362,
+  "retention": 0.9978,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   122,
+   87,
+   112,
+   69,
+   110,
+   97,
+   121,
+   122,
+   120,
+   180,
+   132,
+   90
+  ],
+  "warnings": []
+ }
+}

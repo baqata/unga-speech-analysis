@@ -1,0 +1,258 @@
+{
+ "id": "AGO_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   66,
+   67,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  9,
+  14,
+  17,
+  21,
+  26,
+  28,
+  31,
+  37,
+  41,
+  43,
+  49,
+  53,
+  58,
+  61
+ ],
+ "cer": [
+  2,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   5,
+   "Kalilur",
+   "Khalilur",
+   "asr_name"
+  ],
+  [
+   6,
+   "Barbouk",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   16,
+   "N'Golo",
+   "Angola",
+   "asr_name"
+  ],
+  [
+   29,
+   "russia and ukraine",
+   "Russia and Ukraine",
+   "asr_name"
+  ],
+  [
+   29,
+   "israeli palestinian",
+   "Israeli Palestinian",
+   "asr_name"
+  ],
+  [
+   29,
+   "middle east",
+   "Middle East",
+   "asr_name"
+  ],
+  [
+   29,
+   "persian gulf",
+   "Persian Gulf",
+   "asr_name"
+  ],
+  [
+   33,
+   "Hermes",
+   "Hormuz",
+   "asr_name"
+  ],
+  [
+   33,
+   "Baba Mandeb",
+   "Bab-el-Mandeb",
+   "asr_name"
+  ],
+  [
+   40,
+   "epithet",
+   "apartheid",
+   "asr_term"
+  ],
+  [
+   40,
+   "new york",
+   "New York",
+   "asr_name"
+  ],
+  [
+   40,
+   "cuba and the cuban",
+   "Cuba and the Cuban",
+   "asr_name"
+  ],
+  [
+   47,
+   "Azulini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   47,
+   "third declaration",
+   "Sirte declaration",
+   "asr_name"
+  ],
+  [
+   60,
+   "microlateralism",
+   "multilateralism",
+   "asr_term"
+  ],
+  [
+   33,
+   "of of",
+   "of",
+   "asr_term"
+  ],
+  [
+   59,
+   "only Only",
+   "only",
+   "asr_term"
+  ],
+  [
+   63,
+   "that that",
+   "that",
+   "asr_term"
+  ],
+  [
+   51,
+   "programs. situation",
+   "programs. Situation",
+   "asr_term"
+  ],
+  [
+   4,
+   "Head",
+   "Heads",
+   "asr_term"
+  ],
+  [
+   12,
+   "we're not",
+   "we note",
+   "asr_term"
+  ],
+  [
+   15,
+   "and to",
+   "end to",
+   "asr_term"
+  ],
+  [
+   20,
+   "Africa's This",
+   "Africa's",
+   "asr_term"
+  ],
+  [
+   25,
+   "Olingolans",
+   "all Angolans",
+   "asr_name"
+  ],
+  [
+   26,
+   "nationality. independence",
+   "national independence",
+   "asr_term"
+  ],
+  [
+   28,
+   "interests. being",
+   "interests. Instability being",
+   "asr_term"
+  ],
+  [
+   30,
+   "outreach",
+   "outrage",
+   "asr_term"
+  ],
+  [
+   33,
+   "Padukla",
+   "particular",
+   "asr_term"
+  ],
+  [
+   52,
+   "good",
+   "geared",
+   "asr_term"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "PGA Khalilur Rahman as spelled in AZE speech; Hormuz, apartheid, Ezulwini consensus and Sirte declaration per Spanish channel; unit 28 lacks the subject of 'being experienced in various regions' (Spanish: 'La inestabilidad'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 33 'of of' -> 'of'; unit 59 'only Only' -> 'only'; unit 63 'that that' -> 'that'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 26 'nationality. independence' -> 'nationality independence'; unit 28 'interests. being' -> 'interests. Being'; unit 51 'programs. situation' -> 'programs. Situation'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 4 'Head' -> 'Heads' (both decodes hear 'Heads' (0.85 / 0.91); UN 'Heads of State and Government'; fixed ceremonial phrase); spot 3 unit 12 'we're not' -> 'we note' (decodes 'we know it' / 'we note' (0.55); ES 'observamos con suma preocupación'; 'we're not with deep concern' does not fit); spot 9 unit 15 'and to' -> 'end to' (decodes 'and to' (0.82 / 0.88) but 'peace and to wars' does not fit; sounds alike; ES 'ponerle fin a la guerra'; UN 'End to Wars'); spot 12 unit 20 'Africa's This' -> 'Africa's' (invented word: both decodes hear 'africa's capacity' with no room between (422.3 / 422.9 s, p 0.99); ES 'la capacidad de África'; does not fit grammatically); spot 15 unit 25 'Olingolans' -> 'all Angolans' (decodes hear 'Olingolans' (0.81 / 0.76), the run-together sound of 'all Angolans'; ES 'entre todos los angoleños'; UN 'among all Angolans'; corrects the existing repair 'Olingolans' -> 'Angolans'); spot 17 unit 26 'nationality. independence' -> 'national independence' (heard 2 'national' 0.86 (heard 1 'nationality' 0.65); 'anniversary of nationality independence' does not fit; ES 'la independencia nacional'; replaces the existing repair's new text); spot 18 unit 28 'interests. being' -> 'interests. Instability being' (2026 exception: both decodes hear 'Instability' clearly (0.96 / 0.95); ES 'La inestabilidad que se respira'; replaces the existing repair 'interests. being' -> 'interests. Being'); spot 19 unit 30 'outreach' -> 'outrage' (decodes 'outreach' 0.76 / 0.75 but 'elicit the strongest international outreach and condemnation' does not fit; sounds alike; ES 'el enfado internacional más intenso'); spot 21 unit 33 'Padukla' -> 'particular' (decodes 'padukla' 0.40 / 'particular' 0.54; 'Padukla' is not a word; ES 'más en concreto'); spot 38 unit 52 'good' -> 'geared' (decodes 'good' 0.38 / 'geared' 0.45; 'democratic and good towards the progress' does not fit; sounds alike; ES 'para que opere en pro del progreso')",
+ "unitizer_version": 1,
+ "sha1": "9ed7a2c2d3f5718d4d2e20c5f2ca5dc3a4a1dbc8",
+ "layout": "single",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2541,
+  "words_out": 2478,
+  "retention": 0.9752,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   30,
+   215,
+   177,
+   124,
+   133,
+   216,
+   86,
+   201,
+   216,
+   171,
+   82,
+   186,
+   161,
+   175,
+   147,
+   158
+  ],
+  "warnings": [
+   "30 fixes"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "CZE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  28,
+  49,
+  67,
+  90,
+  99,
+  115
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bfaca0c55d73661ca3531cda28f5a0fd04ec64f9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 992,
+  "words_out": 992,
+  "retention": 1.0,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   107,
+   123,
+   175,
+   137,
+   186,
+   70,
+   126,
+   68
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "id": "ESP_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  16,
+  18,
+  20,
+  25,
+  30,
+  34,
+  36,
+  38,
+  40,
+  45,
+  50,
+  56,
+  67,
+  72,
+  75,
+  79,
+  82,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ],
+  [
+   60,
+   "impression- that",
+   "impression that",
+   "ocr"
+  ],
+  [
+   74,
+   "environment, Very",
+   "environment. Very",
+   "ocr"
+  ],
+  [
+   78,
+   " [OECD]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   " [resolution 2750 C (XXV)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60e0c26011c45e7285a29d273d1ac222a4986f5b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 2978,
+  "words_out": 2972,
+  "retention": 0.998,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   158,
+   150,
+   104,
+   77,
+   120,
+   200,
+   171,
+   86,
+   90,
+   91,
+   115,
+   140,
+   131,
+   155,
+   274,
+   179,
+   170,
+   156,
+   171,
+   136,
+   98
+  ],
+  "warnings": []
+ }
+}

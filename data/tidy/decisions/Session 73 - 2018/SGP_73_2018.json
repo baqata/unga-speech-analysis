@@ -1,0 +1,86 @@
+{
+ "id": "SGP_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  18,
+  23,
+  34,
+  38,
+  43,
+  50,
+  56,
+  62,
+  72,
+  76,
+  79,
+  83,
+  89,
+  93,
+  98,
+  103,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   92,
+   "South- East",
+   "South-East",
+   "hyphen"
+  ],
+  [
+   111,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0aff210fff97fa7f3fb82e1efa0b3a4ed509b8b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2204,
+  "words_out": 2200,
+  "retention": 0.9982,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   72,
+   136,
+   107,
+   80,
+   142,
+   93,
+   146,
+   120,
+   123,
+   91,
+   133,
+   126,
+   98,
+   64,
+   145,
+   88,
+   97,
+   106,
+   107,
+   126
+  ],
+  "warnings": []
+ }
+}

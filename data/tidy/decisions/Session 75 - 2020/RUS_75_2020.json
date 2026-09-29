@@ -1,0 +1,83 @@
+{
+ "id": "RUS_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  7,
+  10,
+  12,
+  15,
+  18,
+  22,
+  27,
+  29,
+  32,
+  39,
+  43,
+  47,
+  51,
+  55,
+  57,
+  60,
+  64,
+  67,
+  68,
+  74,
+  77
+ ],
+ "cer": [
+  0,
+  77
+ ],
+ "fix": [
+  [
+   48,
+   "anti- coronavirus",
+   "anti-coronavirus",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "34e1caad75909bff1104eb5850d8d94e848e76a9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2342,
+  "words_out": 2341,
+  "retention": 0.9996,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   8,
+   106,
+   78,
+   121,
+   95,
+   130,
+   114,
+   81,
+   114,
+   77,
+   126,
+   218,
+   113,
+   94,
+   143,
+   80,
+   60,
+   84,
+   118,
+   109,
+   77,
+   119,
+   74,
+   2
+  ],
+  "warnings": []
+ }
+}

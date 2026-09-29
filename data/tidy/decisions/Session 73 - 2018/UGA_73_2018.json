@@ -1,0 +1,72 @@
+{
+ "id": "UGA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  16,
+  20,
+  23,
+  27,
+  30,
+  33,
+  39,
+  46,
+  52,
+  58,
+  62,
+  67,
+  73,
+  76,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   34,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "954904200629eb8da87ed6d40dd3c22d25e3de9c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1772,
+  "words_out": 1769,
+  "retention": 0.9983,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   81,
+   108,
+   87,
+   134,
+   87,
+   70,
+   91,
+   87,
+   102,
+   126,
+   127,
+   86,
+   103,
+   80,
+   87,
+   84,
+   80,
+   115,
+   34
+  ],
+  "warnings": []
+ }
+}

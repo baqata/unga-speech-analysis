@@ -1,0 +1,94 @@
+{
+ "id": "PAK_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  14,
+  17,
+  21,
+  25,
+  32,
+  37,
+  41,
+  47,
+  55,
+  61,
+  64,
+  75,
+  77,
+  85,
+  89,
+  93,
+  101
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   27,
+   "8/42 17-29597 ",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   92,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5435861791d3e5006e9feab4d9ee54adb98f37a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2315,
+  "words_out": 2310,
+  "retention": 0.9978,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   96,
+   61,
+   88,
+   75,
+   71,
+   120,
+   119,
+   161,
+   111,
+   120,
+   127,
+   145,
+   110,
+   141,
+   138,
+   65,
+   143,
+   99,
+   83,
+   132,
+   105
+  ],
+  "warnings": []
+ }
+}

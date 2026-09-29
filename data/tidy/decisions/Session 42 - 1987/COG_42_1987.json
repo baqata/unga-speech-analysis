@@ -1,0 +1,183 @@
+{
+ "id": "COG_42_1987",
+ "drop": [
+  [
+   56,
+   56,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  13,
+  17,
+  19,
+  23,
+  29,
+  32,
+  37,
+  40,
+  43,
+  46,
+  52,
+  57,
+  63,
+  66,
+  69,
+  73,
+  77,
+  80,
+  85,
+  88,
+  91
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   5,
+   "Illustrious",
+   "illustrious",
+   "ocr"
+  ],
+  [
+   10,
+   "Ideals",
+   "ideals",
+   "ocr"
+  ],
+  [
+   10,
+   "Influence",
+   "influence",
+   "ocr"
+  ],
+  [
+   11,
+   "Inspired",
+   "inspired",
+   "ocr"
+  ],
+  [
+   16,
+   "Individual",
+   "individual",
+   "ocr"
+  ],
+  [
+   20,
+   "Independence",
+   "independence",
+   "ocr"
+  ],
+  [
+   28,
+   "Interests",
+   "interests",
+   "ocr"
+  ],
+  [
+   34,
+   "Just",
+   "just",
+   "ocr"
+  ],
+  [
+   41,
+   "OAŪ",
+   "OAU",
+   "ocr"
+  ],
+  [
+   41,
+   "Had j",
+   "Hadj",
+   "spacing"
+  ],
+  [
+   46,
+   "moat",
+   "most",
+   "ocr"
+  ],
+  [
+   52,
+   "Independence",
+   "independence",
+   "ocr"
+  ],
+  [
+   54,
+   "(1978), paced",
+   "(1978). Faced",
+   "ocr"
+  ],
+  [
+   55,
+   "CPA",
+   "CFA",
+   "ocr"
+  ],
+  [
+   62,
+   "(A/41/PV. 17> p¿ 17)",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "International",
+   "international",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a556d0aa584c007e1cde1654fe04aa7cc0f3afc2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3154,
+  "words_out": 3144,
+  "retention": 0.9968,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   133,
+   150,
+   123,
+   128,
+   121,
+   66,
+   106,
+   181,
+   93,
+   169,
+   102,
+   81,
+   91,
+   177,
+   193,
+   218,
+   97,
+   115,
+   147,
+   154,
+   122,
+   167,
+   90,
+   74,
+   46
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "MDG_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  12,
+  19,
+  23,
+  27,
+  33,
+  37,
+  42,
+  46,
+  50,
+  55,
+  61,
+  63,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "heath-care",
+   "health-care",
+   "ocr"
+  ],
+  [
+   31,
+   "gripsof",
+   "grips of",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7bb107e4a04f452413291ea40e4bfc1a48eb23ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1747,
+  "words_out": 1744,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   67,
+   113,
+   118,
+   161,
+   91,
+   152,
+   124,
+   103,
+   101,
+   92,
+   106,
+   134,
+   159,
+   75,
+   64,
+   84
+  ],
+  "warnings": []
+ }
+}

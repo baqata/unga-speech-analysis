@@ -1,0 +1,86 @@
+{
+ "id": "MDA_78_2023",
+ "drop": [
+  [
+   1,
+   1,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  17,
+  23,
+  28,
+  35,
+  41,
+  43,
+  47,
+  54,
+  58
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "Ukraine.",
+   "Ukraine,",
+   "ocr"
+  ],
+  [
+   9,
+   "Moldova.",
+   "Moldova,",
+   "ocr"
+  ],
+  [
+   49,
+   "In May.",
+   "In May,",
+   "ocr"
+  ],
+  [
+   50,
+   "100.000",
+   "100,000",
+   "ocr"
+  ],
+  [
+   55,
+   "in mind.",
+   "in mind,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "10d3d112ce2dc0dbfb7a11b35e78e3d5d1a09155",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1042,
+  "words_out": 1035,
+  "retention": 0.9933,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   110,
+   97,
+   75,
+   94,
+   138,
+   116,
+   77,
+   86,
+   122,
+   71,
+   49
+  ],
+  "warnings": []
+ }
+}

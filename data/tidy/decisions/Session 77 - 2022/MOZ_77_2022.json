@@ -1,0 +1,74 @@
+{
+ "id": "MOZ_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  16,
+  19,
+  21,
+  23,
+  26,
+  28,
+  31,
+  36,
+  38,
+  41
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   4,
+   "(COVID-19) .",
+   "(COVID-19).",
+   "spacing"
+  ],
+  [
+   31,
+   "Mogambicana",
+   "Moçambicana",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ce0b833a25d2ecbb42d2dcb1ade4f476d81b3be5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1392,
+  "words_out": 1390,
+  "retention": 0.9986,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   128,
+   96,
+   130,
+   135,
+   78,
+   70,
+   95,
+   66,
+   88,
+   116,
+   150,
+   90,
+   109,
+   39
+  ],
+  "warnings": []
+ }
+}

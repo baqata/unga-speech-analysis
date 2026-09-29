@@ -1,0 +1,102 @@
+{
+ "id": "BEL_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  16,
+  20,
+  26,
+  33,
+  39,
+  44,
+  48,
+  51,
+  57,
+  64,
+  70,
+  72,
+  77,
+  82,
+  87,
+  91,
+  94,
+  101,
+  108,
+  113,
+  120,
+  123
+ ],
+ "cer": [],
+ "fix": [
+  [
+   43,
+   "largo",
+   "large",
+   "ocr"
+  ],
+  [
+   50,
+   "live Powers",
+   "five Powers",
+   "ocr"
+  ],
+  [
+   112,
+   "if- one",
+   "if one",
+   "ocr"
+  ],
+  [
+   113,
+   "lie had",
+   "he had",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "1edebe509024b463cd32c4a512b5c16f827c2d49",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3910,
+  "words_out": 3909,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   155,
+   191,
+   108,
+   109,
+   160,
+   180,
+   192,
+   176,
+   121,
+   113,
+   153,
+   145,
+   191,
+   69,
+   161,
+   216,
+   191,
+   223,
+   115,
+   160,
+   167,
+   129,
+   185,
+   187,
+   112
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "CAN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  28,
+  43,
+  63,
+  79,
+  109,
+  134,
+  153,
+  167,
+  191,
+  211,
+  222,
+  241
+ ],
+ "cer": [],
+ "fix": [
+  [
+   102,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   103,
+   "S/PV.6191)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f2e8d2431aca4d584d5fa963816442982b52e99",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "job_number": 3
+  },
+  "words_in": 1964,
+  "words_out": 1959,
+  "retention": 0.9975,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   97,
+   131,
+   120,
+   148,
+   129,
+   231,
+   204,
+   155,
+   114,
+   192,
+   149,
+   77,
+   150,
+   62
+  ],
+  "warnings": []
+ }
+}

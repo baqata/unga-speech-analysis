@@ -1,0 +1,70 @@
+{
+ "id": "IND_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  15,
+  20,
+  25,
+  29,
+  36,
+  40,
+  43,
+  48,
+  52,
+  59,
+  64,
+  69,
+  73,
+  77,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "disaster- relief",
+   "disaster-relief",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9840db5883f83d94cd64402f4f55788d60210a2a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1724,
+  "words_out": 1723,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   54,
+   110,
+   184,
+   95,
+   68,
+   74,
+   120,
+   68,
+   94,
+   85,
+   61,
+   152,
+   95,
+   101,
+   62,
+   62,
+   133,
+   105
+  ],
+  "warnings": []
+ }
+}

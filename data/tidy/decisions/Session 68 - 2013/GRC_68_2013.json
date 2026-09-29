@@ -1,0 +1,74 @@
+{
+ "id": "GRC_68_2013",
+ "drop": [
+  [
+   12,
+   12,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  26,
+  35,
+  49,
+  66,
+  77,
+  91,
+  101,
+  118,
+  130,
+  142,
+  152,
+  169,
+  176
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "address (see",
+   "address.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 12 is the second half of a see-reference to A/68/PV.8 split across lines.",
+ "unitizer_version": 1,
+ "sha1": "01358c0a0b6363af0fca15d172d5ad1feb530d0e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "language_note": 1
+  },
+  "words_in": 1467,
+  "words_out": 1463,
+  "retention": 0.9973,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   52,
+   125,
+   70,
+   115,
+   137,
+   90,
+   109,
+   76,
+   138,
+   95,
+   95,
+   72,
+   145,
+   65,
+   79
+  ],
+  "warnings": []
+ }
+}

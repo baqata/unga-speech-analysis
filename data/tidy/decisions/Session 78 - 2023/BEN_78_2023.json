@@ -1,0 +1,122 @@
+{
+ "id": "BEN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  11,
+  15,
+  18,
+  27,
+  29,
+  35,
+  42,
+  46,
+  49,
+  54
+ ],
+ "cer": [
+  0,
+  1,
+  8
+ ],
+ "fix": [
+  [
+   1,
+   "remarks.",
+   "remarks,",
+   "ocr"
+  ],
+  [
+   5,
+   "Korosi. whom",
+   "Korosi, whom",
+   "ocr"
+  ],
+  [
+   8,
+   "all. to",
+   "all, to",
+   "ocr"
+  ],
+  [
+   9,
+   "exercise.",
+   "exercise,",
+   "ocr"
+  ],
+  [
+   11,
+   "years.",
+   "years,",
+   "ocr"
+  ],
+  [
+   19,
+   "Africa.",
+   "Africa,",
+   "ocr"
+  ],
+  [
+   25,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   36,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   39,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   40,
+   "non-permanent. in",
+   "non-permanent, in",
+   "ocr"
+  ],
+  [
+   47,
+   "are. inter",
+   "are, inter",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President and read as a quotation.",
+ "unitizer_version": 1,
+ "sha1": "e3e82995a50ce7d0ea7d38537a23f1863e353a2e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1704,
+  "words_out": 1704,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   32,
+   135,
+   118,
+   77,
+   92,
+   175,
+   117,
+   191,
+   229,
+   137,
+   120,
+   215,
+   66
+  ],
+  "warnings": []
+ }
+}

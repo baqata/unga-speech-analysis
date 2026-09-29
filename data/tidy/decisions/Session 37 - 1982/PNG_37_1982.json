@@ -1,0 +1,261 @@
+{
+ "id": "PNG_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  27,
+  56,
+  69,
+  89,
+  112,
+  123,
+  151,
+  163,
+  176,
+  199,
+  233,
+  245,
+  267
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   14,
+   "super Powers",
+   "super-Powers",
+   "spacing"
+  ],
+  [
+   17,
+   " Is ",
+   " is ",
+   "ocr"
+  ],
+  [
+   23,
+   "non industrial",
+   "non-industrial",
+   "spacing"
+  ],
+  [
+   32,
+   "to rums",
+   "forums",
+   "split_word"
+  ],
+  [
+   43,
+   "Non Self",
+   "Non-Self-",
+   "spacing"
+  ],
+  [
+   45,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   78,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   80,
+   "world wide",
+   "world-wide",
+   "spacing"
+  ],
+  [
+   96,
+   "13. ",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "Genera!",
+   "General",
+   "ocr"
+  ],
+  [
+   137,
+   "long term",
+   "long-term",
+   "spacing"
+  ],
+  [
+   145,
+   "spumed",
+   "spurned",
+   "ocr"
+  ],
+  [
+   167,
+   "long standing",
+   "long-standing",
+   "spacing"
+  ],
+  [
+   196,
+   "sea bed",
+   "sea-bed",
+   "spacing"
+  ],
+  [
+   197,
+   "white",
+   "while",
+   "ocr"
+  ],
+  [
+   198,
+   "sea bed",
+   "sea-bed",
+   "spacing"
+  ],
+  [
+   204,
+   "well being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   206,
+   "co operation",
+   "co-operation",
+   "spacing"
+  ],
+  [
+   213,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   215,
+   "for non",
+   "for non-",
+   "spacing"
+  ],
+  [
+   216,
+   "and non",
+   "and non-",
+   "spacing"
+  ],
+  [
+   218,
+   " m the",
+   " in the",
+   "ocr"
+  ],
+  [
+   220,
+   "for non",
+   "for non-",
+   "spacing"
+  ],
+  [
+   225,
+   "trade distorting",
+   "trade-distorting",
+   "spacing"
+  ],
+  [
+   228,
+   "Our.",
+   "Our",
+   "ocr"
+  ],
+  [
+   232,
+   "non industrial",
+   "non-industrial",
+   "spacing"
+  ],
+  [
+   235,
+   " m export",
+   " in export",
+   "ocr"
+  ],
+  [
+   248,
+   "and non",
+   "and non-",
+   "spacing"
+  ],
+  [
+   253,
+   "this\"",
+   "this",
+   "ocr"
+  ],
+  [
+   260,
+   "increase.",
+   "increase",
+   "ocr"
+  ],
+  [
+   265,
+   "a!!",
+   "all",
+   "ocr"
+  ],
+  [
+   269,
+   "Relieves",
+   "believes",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text without line-initial sentence starts forces some mixed-topic paragraphs; the word apartheid is missing in unit 143.",
+ "unitizer_version": 1,
+ "sha1": "d4a4c7ff24e215b52d63ef3dbbc71a0f89b6d4c7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 274,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 2893,
+  "words_out": 2870,
+  "retention": 0.992,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   83,
+   197,
+   298,
+   132,
+   212,
+   234,
+   123,
+   304,
+   121,
+   143,
+   234,
+   336,
+   132,
+   241,
+   80
+  ],
+  "warnings": [
+   "paragraph at unit 199 has 336 words",
+   "33 fixes"
+  ]
+ }
+}

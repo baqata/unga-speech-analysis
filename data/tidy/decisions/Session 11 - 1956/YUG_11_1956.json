@@ -1,0 +1,129 @@
+{
+ "id": "YUG_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  10,
+  13,
+  15,
+  18,
+  22,
+  25,
+  35,
+  40,
+  42,
+  46,
+  50,
+  53,
+  56,
+  62,
+  64,
+  72,
+  76,
+  80,
+  85,
+  91,
+  96,
+  102,
+  105,
+  110,
+  112,
+  113,
+  117,
+  120
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   63,
+   "tbs same",
+   "the same",
+   "ocr"
+  ],
+  [
+   66,
+   "are. primarily",
+   "are primarily",
+   "ocr"
+  ],
+  [
+   68,
+   "unheavals",
+   "upheavals",
+   "ocr"
+  ],
+  [
+   94,
+   "[589th meeting, para. 97.",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "disarmament, Following",
+   "disarmament. Following",
+   "ocr"
+  ],
+  [
+   103,
+   " [DC/92]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e4a7397a5ff1f32d190ca3d8a33b59665bcf8704",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 41
+  },
+  "words_in": 3054,
+  "words_out": 3047,
+  "retention": 0.9977,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   30,
+   69,
+   91,
+   94,
+   66,
+   101,
+   60,
+   108,
+   143,
+   115,
+   76,
+   123,
+   108,
+   88,
+   104,
+   134,
+   91,
+   175,
+   84,
+   88,
+   133,
+   117,
+   116,
+   128,
+   112,
+   127,
+   62,
+   62,
+   91,
+   75,
+   76
+  ],
+  "warnings": []
+ }
+}

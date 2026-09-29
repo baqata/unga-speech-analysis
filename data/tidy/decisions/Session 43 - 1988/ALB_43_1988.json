@@ -1,0 +1,84 @@
+{
+ "id": "ALB_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  14,
+  20,
+  39,
+  46,
+  64,
+  75,
+  88,
+  100,
+  111,
+  121,
+  134,
+  138,
+  144,
+  151,
+  160,
+  170,
+  183,
+  193,
+  203,
+  215
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   164,
+   "Government. and",
+   "Government and",
+   "ocr"
+  ],
+  [
+   211,
+   "Q way",
+   "a way",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 145-150 carry printed lines in scrambled order in the source; kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "1fa4232115f787e67427b64670e2369441e9855c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2960,
+  "words_out": 2960,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   74,
+   145,
+   75,
+   243,
+   65,
+   239,
+   146,
+   167,
+   155,
+   145,
+   110,
+   151,
+   88,
+   169,
+   101,
+   108,
+   112,
+   198,
+   137,
+   105,
+   158,
+   69
+  ],
+  "warnings": []
+ }
+}

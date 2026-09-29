@@ -1,0 +1,63 @@
+{
+ "id": "PHL_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  23,
+  32,
+  45,
+  55,
+  65,
+  91,
+  114,
+  124,
+  134,
+  145,
+  154,
+  163,
+  173,
+  186
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ce0394871f30c99aa5a086ab13c3dd91ce9750f8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1609,
+  "words_out": 1607,
+  "retention": 0.9988,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   32,
+   69,
+   75,
+   79,
+   107,
+   80,
+   79,
+   199,
+   180,
+   72,
+   80,
+   80,
+   71,
+   79,
+   76,
+   112,
+   137
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voces de la Asamblea</title>
+<meta name="description" content="Lo que dicen los países en el Debate General de la ONU desde 1946, frente a los temas del mandato de UNODC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="lockup" data-i="lockup">UNODC · Región Andina y Cono Sur</div>
+      <h1>Voces de la Asamblea</h1>
+      <p class="sub" data-i="sub">Lo que dicen los países en el Debate General de la ONU desde 1946</p>
+    </div>
+    <div class="hdr-r">
+      <div class="badge" id="badge" hidden></div>
+      <div class="seg" role="group" aria-label="Idioma / Language" id="langSeg">
+        <button id="langES" data-lang="es" aria-pressed="true">ES</button><button id="langEN" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabbar" role="tablist" aria-label="Vistas">
+    <button role="tab" id="tabReg" aria-controls="paneReg" aria-selected="true"><span id="icReg"></span><span data-i="tabReg">Regiones y mundo</span></button>
+    <button role="tab" id="tabCty" aria-controls="paneCty" aria-selected="false"><span id="icCty"></span><span data-i="tabCty">País</span></button>
+  </nav>
+
+  <div class="empty" id="boot" role="status">Cargando…</div>
+
+  <section class="controls" aria-label="Filtros" id="controls" hidden>
+    <div class="ctl" id="ctlSlots"><span data-i="compare">Comparar</span>
+      <div class="slots">
+        <div class="slot"><i style="background:var(--s1)"></i><select id="slot0" aria-label="1"></select></div>
+        <div class="slot"><i style="background:var(--s2)"></i><select id="slot1" aria-label="2"></select></div>
+        <div class="slot"><i style="background:var(--s3)"></i><select id="slot2" aria-label="3"></select></div>
+      </div>
+    </div>
+    <label class="ctl" id="ctlCountry" hidden><span data-i="country">País</span><select id="countrySel" class="boxsel"></select></label>
+    <div class="ctl"><span data-i="year">Año</span>
+      <div class="years">
+        <button id="allYears" aria-pressed="true" data-i="all">Todos</button>
+        <input id="year" type="range" min="1946" max="2026" value="2025" aria-label="Año">
+        <output id="yearOut" for="year">–</output>
+      </div>
+    </div>
+  </section>
+
+  <div id="paneReg" role="tabpanel" aria-labelledby="tabReg" hidden>
+    <section class="panel strip" aria-labelledby="stripTitle">
+      <div class="ph"><div><h2 id="stripTitle" data-i="stripTitle">Huella del mandato</h2><p class="hint" id="stripHint"></p></div></div>
+      <div class="lenses" id="lenses"></div>
+    </section>
+
+    <div class="grid">
+      <section class="panel">
+        <div class="ph">
+          <div><h2 data-i="semTitle">Mapa de conversaciones</h2><p class="hint" id="semHint"></p></div>
+          <div class="seg" role="group" id="layerReg"><button data-layer="frag" data-i="layerFrag">Fragmentos</button><button data-layer="speech" data-i="layerSpeech">Discursos</button></div>
+        </div>
+        <div class="mapwrap" id="regMapWrap"><canvas></canvas><button class="reset" hidden data-i="reset">Restablecer vista</button></div>
+        <div class="legend" id="regLegend"></div>
+      </section>
+      <div class="col">
+        <section class="panel">
+          <h2 id="worldTitle"></h2>
+          <p class="hint" id="worldHint"></p>
+          <div id="world"></div>
+          <div class="scale" id="worldScale"></div>
+        </section>
+        <section class="panel">
+          <h2 id="trendTitle"></h2>
+          <p class="hint" data-i="trendHint">Porcentaje del discurso, promedio de 3 años</p>
+          <div id="trend"></div>
+        </section>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <section class="panel">
+        <h2 data-i="wordsTitle">Palabras que los distinguen</h2>
+        <p class="hint" id="wordsHint"></p>
+        <div class="wtabs" id="wordTabs"></div>
+        <div id="words"></div>
+      </section>
+      <section class="panel">
+        <h2 data-i="quotesTitle">Lo que dicen</h2>
+        <p class="hint" data-i="quotesHint">Fragmentos originales, en inglés</p>
+        <div class="quotes" id="quotes"></div>
+      </section>
+    </div>
+  </div>
+
+  <div id="paneCty" role="tabpanel" aria-labelledby="tabCty" hidden>
+    <div class="chead"><h2 id="ctyName"></h2><span id="ctyWhen"></span></div>
+    <section class="panel">
+      <h2 data-i="compTitle">De qué habló</h2>
+      <p class="hint" data-i="compHint">Reparto del discurso por temas</p>
+      <div id="comp"></div>
+    </section>
+    <div class="cgrid">
+      <section class="panel">
+        <div class="ph">
+          <div><h2 data-i="alignTitle">Con quién se alinea</h2><p class="hint" id="alignHint"></p></div>
+          <div class="seg" role="group" id="amodeSeg"><button data-mode="0" data-i="modeAll">Todo el discurso</button><button data-mode="1" data-i="modeU">Solo temas UNODC</button></div>
+        </div>
+        <div id="align"></div>
+      </section>
+      <section class="panel">
+        <div class="ph">
+          <div><h2 data-i="ctyMapTitle">Sus puntos en el mapa</h2><p class="hint" id="ctyMapHint"></p></div>
+          <div class="seg" role="group" id="layerCty"><button data-layer="frag" data-i="layerFrag">Fragmentos</button><button data-layer="speech" data-i="layerSpeech">Discursos</button></div>
+        </div>
+        <div class="mapwrap" id="ctyMapWrap"><canvas></canvas><button class="reset" hidden data-i="reset">Restablecer vista</button></div>
+        <div class="legend" id="ctyLegend"></div>
+      </section>
+    </div>
+    <section class="panel" style="margin-top:16px">
+      <h2 data-i="saidTitle">Lo que dijo</h2>
+      <p class="hint" data-i="quotesHint">Fragmentos originales, en inglés</p>
+      <div class="quotes" id="ctyQuotes"></div>
+    </section>
+  </div>
+
+  <footer data-i="footer"></footer>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+</body>
+</html>

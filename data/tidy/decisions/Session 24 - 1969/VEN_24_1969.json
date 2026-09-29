@@ -1,0 +1,116 @@
+{
+ "id": "VEN_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  17,
+  26,
+  41,
+  53,
+  70,
+  86,
+  99,
+  124,
+  146,
+  170,
+  179,
+  188,
+  205,
+  215,
+  222,
+  239,
+  271,
+  289,
+  296,
+  308
+ ],
+ "cer": [
+  0,
+  11,
+  289
+ ],
+ "fix": [
+  [
+   123,
+   "“aid“",
+   "“aid”",
+   "ocr"
+  ],
+  [
+   145,
+   "sole in",
+   "role in",
+   "ocr"
+  ],
+  [
+   148,
+   " [A/7601/Add.1, para. 84]",
+   "",
+   "label"
+  ],
+  [
+   158,
+   "unacceptable.",
+   "unacceptable",
+   "ocr"
+  ],
+  [
+   218,
+   "by, the",
+   "by the",
+   "ocr"
+  ],
+  [
+   218,
+   "Liberator.",
+   "Liberator,",
+   "ocr"
+  ],
+  [
+   274,
+   "on-the basis",
+   "on the basis",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4a55b2cc0ad72ca460d44ddc674fd07f7bea93a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 318,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2830,
+  "words_out": 2794,
+  "retention": 0.9873,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   98,
+   55,
+   82,
+   122,
+   95,
+   170,
+   142,
+   102,
+   198,
+   201,
+   202,
+   87,
+   80,
+   144,
+   93,
+   58,
+   148,
+   291,
+   170,
+   61,
+   108,
+   87
+  ],
+  "warnings": []
+ }
+}

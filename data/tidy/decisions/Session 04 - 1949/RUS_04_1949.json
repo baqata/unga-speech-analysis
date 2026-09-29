@@ -1,0 +1,102 @@
+{
+ "id": "RUS_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  12,
+  14,
+  18,
+  25,
+  30,
+  37,
+  43,
+  47,
+  50,
+  53,
+  57,
+  62,
+  68,
+  73,
+  82,
+  86,
+  89,
+  91
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   " (223rd meeting)",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "19491.",
+   "1949.",
+   "ocr"
+  ],
+  [
+   48,
+   "As. for",
+   "As for",
+   "ocr"
+  ],
+  [
+   51,
+   "destroy, international",
+   "destroy international",
+   "ocr"
+  ],
+  [
+   53,
+   "States, would",
+   "States would",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person; the proposals quoted in the closing units are the USSR's own draft resolution.",
+ "unitizer_version": 1,
+ "sha1": "24c9702d5c7ddd2f2ff74725bd5aaf032bf10dac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3329,
+  "words_out": 3326,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   58,
+   215,
+   137,
+   109,
+   154,
+   277,
+   128,
+   191,
+   186,
+   206,
+   143,
+   118,
+   125,
+   155,
+   194,
+   188,
+   216,
+   111,
+   172,
+   92,
+   151
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "BDI_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  20,
+  27,
+  36,
+  41,
+  44,
+  53,
+  65,
+  75,
+  80,
+  88,
+  94,
+  98,
+  106,
+  113,
+  119,
+  126,
+  128
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   29,
+   "the Soviet Union.",
+   "the Soviet Union,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5878ae9e7f9716bb8ca21f620fa4287fc765a150",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2756,
+  "words_out": 2719,
+  "retention": 0.9866,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   77,
+   90,
+   144,
+   181,
+   120,
+   152,
+   137,
+   86,
+   176,
+   250,
+   143,
+   95,
+   147,
+   99,
+   62,
+   129,
+   138,
+   153,
+   208,
+   68,
+   64
+  ],
+  "warnings": []
+ }
+}

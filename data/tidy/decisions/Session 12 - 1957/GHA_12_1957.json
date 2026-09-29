@@ -1,0 +1,64 @@
+{
+ "id": "GHA_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  16,
+  19,
+  22,
+  24,
+  26,
+  30,
+  32,
+  36,
+  38
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   11,
+   "United Nations, It is",
+   "United Nations. It is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5b3492e511ea5de6fc57c617aad083e4068ab8df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 1532,
+  "words_out": 1532,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   76,
+   166,
+   204,
+   158,
+   130,
+   87,
+   121,
+   90,
+   133,
+   81,
+   148,
+   96,
+   42
+  ],
+  "warnings": []
+ }
+}

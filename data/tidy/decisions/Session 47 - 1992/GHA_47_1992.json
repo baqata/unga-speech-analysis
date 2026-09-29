@@ -1,0 +1,105 @@
+{
+ "id": "GHA_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  29,
+  44,
+  58,
+  77,
+  97,
+  119,
+  130,
+  145,
+  160,
+  177,
+  192,
+  209,
+  223,
+  241,
+  249,
+  262,
+  281,
+  303,
+  319,
+  328,
+  344
+ ],
+ "cer": [
+  0,
+  20
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   27,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   32,
+   "eternal guest",
+   "eternal quest",
+   "ocr"
+  ],
+  [
+   98,
+   "report.",
+   "report,",
+   "ocr"
+  ],
+  [
+   125,
+   "occupation,-interference",
+   "occupation, interference",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f2e467b2101fdb526864f853232a479f5df5c5b5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 356,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4063,
+  "words_out": 4064,
+  "retention": 1.0002,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   211,
+   110,
+   176,
+   175,
+   245,
+   205,
+   252,
+   115,
+   163,
+   162,
+   193,
+   169,
+   201,
+   164,
+   203,
+   95,
+   147,
+   225,
+   246,
+   172,
+   98,
+   192,
+   145
+  ],
+  "warnings": []
+ }
+}

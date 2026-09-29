@@ -1,0 +1,129 @@
+{
+ "id": "NZL_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   123,
+   123,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  14,
+  18,
+  22,
+  31,
+  38,
+  48,
+  55,
+  57,
+  64,
+  69,
+  74,
+  78,
+  84,
+  90,
+  104,
+  109,
+  115,
+  122
+ ],
+ "cer": [
+  122
+ ],
+ "fix": [
+  [
+   37,
+   "Hamuz",
+   "Hormuz",
+   "asr_name"
+  ],
+  [
+   95,
+   "8251",
+   "80/251",
+   "asr_term"
+  ],
+  [
+   108,
+   "Generalist Emily",
+   "General Assembly",
+   "asr_name"
+  ],
+  [
+   40,
+   "faith. while",
+   "faith while",
+   "asr_term"
+  ],
+  [
+   48,
+   "destruction. the",
+   "destruction. The",
+   "asr_term"
+  ],
+  [
+   114,
+   "difference? coupled",
+   "difference? Coupled",
+   "asr_term"
+  ],
+  [
+   54,
+   "charter",
+   "chart a",
+   "asr_term"
+  ],
+  [
+   60,
+   "members",
+   "Member",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Strait of Hormuz, resolution 80/251 and Asamblea General per Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 40 'faith. while' -> 'faith while'; unit 48 'destruction. the' -> 'destruction. The'; unit 114 'difference? coupled' -> 'difference? Coupled'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 54 'charter' -> 'chart a' (decodes hear 'charter path' (0.75 / 0.91), same sound as 'chart a path'; 'charter path towards disarmament' does not fit); spot 3 unit 60 'members' -> 'Member' (both decodes hear 'Member States'; ES 'los Estados miembros'; 'all members States' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "bc57a5ca19ee6f5d55c579330e69bf7c90b2a8d0",
+ "layout": "single",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2614,
+  "words_out": 2588,
+  "retention": 0.9901,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   64,
+   161,
+   117,
+   89,
+   170,
+   167,
+   219,
+   138,
+   69,
+   224,
+   121,
+   112,
+   102,
+   111,
+   101,
+   242,
+   97,
+   158,
+   124,
+   2
+  ],
+  "warnings": []
+ }
+}

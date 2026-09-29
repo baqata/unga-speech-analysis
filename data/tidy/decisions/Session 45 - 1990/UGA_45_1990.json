@@ -1,0 +1,106 @@
+{
+ "id": "UGA_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  14,
+  18,
+  22,
+  28,
+  30,
+  36,
+  42,
+  47,
+  53,
+  58,
+  64,
+  68,
+  80,
+  85,
+  90,
+  96,
+  101,
+  106,
+  112,
+  119,
+  128
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "In 1967",
+   "In 1987",
+   "ocr"
+  ],
+  [
+   3,
+   "century vas",
+   "century was",
+   "ocr"
+  ],
+  [
+   38,
+   "Ï am",
+   "I am",
+   "encoding"
+  ],
+  [
+   69,
+   "'",
+   "",
+   "encoding"
+  ],
+  [
+   96,
+   "Africa aid the",
+   "Africa and the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa1ddf8edd9e9814b9838b71db52d816feeb4d59",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3197,
+  "words_out": 3196,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   78,
+   107,
+   113,
+   115,
+   92,
+   105,
+   101,
+   68,
+   160,
+   154,
+   105,
+   167,
+   146,
+   131,
+   78,
+   180,
+   158,
+   107,
+   136,
+   181,
+   175,
+   159,
+   111,
+   163,
+   106
+  ],
+  "warnings": []
+ }
+}

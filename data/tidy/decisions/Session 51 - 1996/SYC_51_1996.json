@@ -1,0 +1,71 @@
+{
+ "id": "SYC_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  36,
+  45,
+  61,
+  70,
+  85,
+  116,
+  125,
+  137,
+  156
+ ],
+ "cer": [],
+ "fix": [
+  [
+   94,
+   "(Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "General Assembly, Fifty-first Session, Plenary",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "Meetings, 6th meeting, p. 14)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f8181891855537b84b3aff8351706f6dd81110c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 4,
+   "page_number": 2
+  },
+  "words_in": 1401,
+  "words_out": 1386,
+  "retention": 0.9893,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   101,
+   73,
+   134,
+   79,
+   127,
+   92,
+   123,
+   216,
+   81,
+   109,
+   167,
+   84
+  ],
+  "warnings": []
+ }
+}

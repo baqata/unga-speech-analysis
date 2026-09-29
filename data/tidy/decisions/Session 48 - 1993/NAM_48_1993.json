@@ -1,0 +1,93 @@
+{
+ "id": "NAM_48_1993",
+ "drop": [
+  [
+   94,
+   94,
+   "header_footer"
+  ],
+  [
+   187,
+   187,
+   "header_footer"
+  ],
+  [
+   276,
+   276,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  30,
+  44,
+  66,
+  80,
+  102,
+  118,
+  132,
+  148,
+  163,
+  179,
+  188,
+  212,
+  231,
+  243,
+  253,
+  269,
+  283,
+  307,
+  324,
+  331,
+  342
+ ],
+ "cer": [
+  0,
+  10,
+  30
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f95843da40c86eabf91d96425f4adadc56fa792",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 347,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2926,
+  "words_out": 2905,
+  "retention": 0.9928,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   82,
+   175,
+   99,
+   203,
+   113,
+   168,
+   117,
+   106,
+   133,
+   132,
+   128,
+   75,
+   213,
+   165,
+   102,
+   86,
+   144,
+   102,
+   212,
+   144,
+   65,
+   93,
+   48
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "MEX_48_1993",
+ "drop": [
+  [
+   15,
+   15,
+   "header_footer"
+  ],
+  [
+   103,
+   103,
+   "header_footer"
+  ],
+  [
+   196,
+   196,
+   "header_footer"
+  ],
+  [
+   288,
+   288,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  27,
+  47,
+  58,
+  69,
+  84,
+  101,
+  122,
+  139,
+  161,
+  180,
+  197,
+  206,
+  222,
+  241,
+  250,
+  265,
+  279,
+  296
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3c5fd74a736f66e86dc388aac28ea3659d87452f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2611,
+  "words_out": 2581,
+  "retention": 0.9885,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   81,
+   131,
+   187,
+   92,
+   90,
+   122,
+   124,
+   182,
+   138,
+   187,
+   164,
+   116,
+   88,
+   135,
+   159,
+   87,
+   136,
+   118,
+   125,
+   119
+  ],
+  "warnings": []
+ }
+}

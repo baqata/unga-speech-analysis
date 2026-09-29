@@ -1,0 +1,84 @@
+{
+ "id": "NRU_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   84,
+   84,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  11,
+  17,
+  24,
+  27,
+  38,
+  45,
+  53,
+  59,
+  65,
+  72,
+  75,
+  78,
+  82
+ ],
+ "cer": [
+  2,
+  82
+ ],
+ "fix": [
+  [
+   73,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   74,
+   "circumstances of seeds",
+   "circumstances of SIDS",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c333ad72c317db12a7afd8d70edfd132f73a882",
+ "layout": "single",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1623,
+  "words_out": 1567,
+  "retention": 0.9655,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   104,
+   99,
+   73,
+   106,
+   83,
+   202,
+   114,
+   176,
+   89,
+   125,
+   117,
+   78,
+   68,
+   118,
+   15
+  ],
+  "warnings": []
+ }
+}

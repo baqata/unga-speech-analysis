@@ -1,0 +1,83 @@
+{
+ "id": "GNB_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  25,
+  47,
+  57,
+  68,
+  84,
+  101,
+  122,
+  133,
+  144,
+  167,
+  183,
+  211,
+  219,
+  229,
+  235,
+  247,
+  257,
+  267
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   115,
+   "Yal·",
+   "Yalá",
+   "encoding"
+  ],
+  [
+   179,
+   "Yal·",
+   "Yalá",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae932e1c3c6e95bbf307c7b30527880575e59376",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2164,
+  "words_out": 2162,
+  "retention": 0.9991,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   93,
+   95,
+   168,
+   78,
+   90,
+   132,
+   131,
+   152,
+   78,
+   77,
+   162,
+   145,
+   215,
+   68,
+   80,
+   44,
+   109,
+   81,
+   82,
+   82
+  ],
+  "warnings": []
+ }
+}

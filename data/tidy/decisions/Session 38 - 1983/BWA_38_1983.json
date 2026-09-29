@@ -1,0 +1,114 @@
+{
+ "id": "BWA_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  13,
+  18,
+  24,
+  28,
+  33,
+  36,
+  39,
+  41,
+  47,
+  52,
+  55,
+  58,
+  63,
+  69,
+  71,
+  80,
+  83,
+  88,
+  95,
+  100,
+  103,
+  108,
+  113
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "failure to and solutions",
+   "failure to find solutions",
+   "ocr"
+  ],
+  [
+   10,
+   "(1978) .s He",
+   "(1978). He",
+   "ocr"
+  ],
+  [
+   40,
+   "Lave been",
+   "have been",
+   "ocr"
+  ],
+  [
+   69,
+   "Korea Ks condolences",
+   "Korea its condolences",
+   "ocr"
+  ],
+  [
+   74,
+   "at e caught",
+   "are caught",
+   "ocr"
+  ],
+  [
+   100,
+   "How of",
+   "flow of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech opens with the Secretary-General's report; no greeting to the President in the text.",
+ "unitizer_version": 1,
+ "sha1": "5f11447601402bc78aecabe4df0085dfa5f4fa90",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3256,
+  "words_out": 3251,
+  "retention": 0.9985,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   231,
+   188,
+   154,
+   175,
+   99,
+   133,
+   86,
+   84,
+   79,
+   215,
+   130,
+   80,
+   114,
+   103,
+   201,
+   82,
+   204,
+   91,
+   146,
+   149,
+   124,
+   60,
+   102,
+   177,
+   44
+  ],
+  "warnings": []
+ }
+}

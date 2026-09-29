@@ -1,0 +1,55 @@
+{
+ "id": "CYP_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  41,
+  50,
+  59,
+  72,
+  92,
+  111,
+  121,
+  139,
+  148,
+  163,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d71c5982fa70046368153ee6121fb8c647a362a5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1450,
+  "words_out": 1447,
+  "retention": 0.9979,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   88,
+   145,
+   102,
+   71,
+   68,
+   93,
+   158,
+   159,
+   85,
+   134,
+   74,
+   104,
+   97,
+   69
+  ],
+  "warnings": []
+ }
+}

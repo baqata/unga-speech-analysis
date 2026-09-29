@@ -1,0 +1,90 @@
+{
+ "id": "NPL_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  14,
+  20,
+  26,
+  35,
+  40,
+  44,
+  50,
+  57,
+  62,
+  71,
+  75,
+  83,
+  89,
+  93,
+  96,
+  103,
+  108,
+  114,
+  118
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   43,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   110,
+   "zero- case",
+   "zero-case",
+   "hyphen"
+  ],
+  [
+   115,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82ecae87a9e08076f22ed24bed1e82e00a3c94e2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2478,
+  "words_out": 2474,
+  "retention": 0.9984,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   60,
+   111,
+   142,
+   116,
+   122,
+   129,
+   145,
+   75,
+   142,
+   121,
+   118,
+   216,
+   62,
+   142,
+   118,
+   106,
+   61,
+   158,
+   95,
+   88,
+   76,
+   71
+  ],
+  "warnings": []
+ }
+}

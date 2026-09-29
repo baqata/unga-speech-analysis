@@ -1,0 +1,111 @@
+{
+ "id": "DOM_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  15,
+  19,
+  24,
+  27,
+  30,
+  36,
+  39,
+  41,
+  44,
+  46
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Peres de",
+   "Perez de",
+   "ocr"
+  ],
+  [
+   7,
+   "the Assembly.",
+   "the Assembly,",
+   "ocr"
+  ],
+  [
+   12,
+   "He have seen",
+   "We have seen",
+   "ocr"
+  ],
+  [
+   18,
+   "the moat precious",
+   "the most precious",
+   "ocr"
+  ],
+  [
+   29,
+   "kilom3tres",
+   "kilometres",
+   "ocr"
+  ],
+  [
+   29,
+   "beer, driven",
+   "been driven",
+   "ocr"
+  ],
+  [
+   45,
+   "application or this",
+   "application of this",
+   "ocr"
+  ],
+  [
+   46,
+   "any part, of",
+   "any part of",
+   "ocr"
+  ],
+  [
+   46,
+   "establishment, of",
+   "establishment of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "28ca0cc46dc8eb902ebfff38d513c49482f56a57",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1893,
+  "words_out": 1893,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   144,
+   127,
+   67,
+   167,
+   184,
+   147,
+   129,
+   111,
+   169,
+   119,
+   105,
+   98,
+   238,
+   88
+  ],
+  "warnings": []
+ }
+}

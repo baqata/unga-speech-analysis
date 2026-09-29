@@ -1,0 +1,76 @@
+{
+ "id": "DEU_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  43,
+  55,
+  75,
+  98,
+  110,
+  130,
+  160,
+  182,
+  196,
+  208,
+  225,
+  239,
+  259,
+  278
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "VÈdrine",
+   "Védrine",
+   "encoding"
+  ],
+  [
+   258,
+   "pay..",
+   "pay.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52f8a953b79fd59d5546cf46f60861056c89b2a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 289,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2275,
+  "words_out": 2273,
+  "retention": 0.9991,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   88,
+   98,
+   162,
+   99,
+   149,
+   175,
+   101,
+   150,
+   249,
+   161,
+   107,
+   99,
+   141,
+   109,
+   160,
+   140,
+   85
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "ISR_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  23,
+  30,
+  36,
+  41,
+  49,
+  56,
+  59,
+  64,
+  68,
+  76,
+  78,
+  82,
+  89,
+  99,
+  103,
+  112,
+  114
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "security, Scrupulous",
+   "security. Scrupulous",
+   "ocr"
+  ],
+  [
+   39,
+   " [279th meeting']",
+   "",
+   "label"
+  ],
+  [
+   92,
+   "is a. mere",
+   "is a mere",
+   "ocr"
+  ],
+  [
+   100,
+   " [A/1304]",
+   "",
+   "label"
+  ],
+  [
+   111,
+   "age- old",
+   "age-old",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6df5838bd3feeafbcfa1ec286fc618d6810b872c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 27
+  },
+  "words_in": 2777,
+  "words_out": 2773,
+  "retention": 0.9986,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   94,
+   181,
+   147,
+   175,
+   149,
+   145,
+   163,
+   153,
+   104,
+   123,
+   131,
+   186,
+   102,
+   120,
+   113,
+   191,
+   125,
+   183,
+   111,
+   77
+  ],
+  "warnings": []
+ }
+}

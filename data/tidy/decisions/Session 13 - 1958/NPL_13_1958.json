@@ -1,0 +1,121 @@
+{
+ "id": "NPL_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  17,
+  21,
+  25,
+  31,
+  38,
+  43,
+  49,
+  53,
+  57,
+  61,
+  67,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "believe, that,",
+   "believe that,",
+   "ocr"
+  ],
+  [
+   23,
+   "co-operation, has",
+   "co-operation has",
+   "ocr"
+  ],
+  [
+   37,
+   "Mr.Voroshilov",
+   "Mr. Voroshilov",
+   "spacing"
+  ],
+  [
+   42,
+   "]. however",
+   "], however",
+   "ocr"
+  ],
+  [
+   48,
+   "greatness,",
+   "greatness.",
+   "ocr"
+  ],
+  [
+   55,
+   "Disarmament, Conference",
+   "Disarmament Conference",
+   "ocr"
+  ],
+  [
+   55,
+   "the. most",
+   "the most",
+   "ocr"
+  ],
+  [
+   59,
+   "apart of",
+   "a part of",
+   "spacing"
+  ],
+  [
+   69,
+   "hear future",
+   "near future",
+   "ocr"
+  ],
+  [
+   75,
+   "and exclusive",
+   "an exclusive",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "feb467b2a647296f92397c6c611bae18052911b2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 15
+  },
+  "words_in": 2574,
+  "words_out": 2575,
+  "retention": 1.0004,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   122,
+   123,
+   177,
+   124,
+   141,
+   203,
+   220,
+   256,
+   228,
+   124,
+   143,
+   128,
+   261,
+   246,
+   79
+  ],
+  "warnings": []
+ }
+}

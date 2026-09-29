@@ -1,0 +1,103 @@
+{
+ "id": "MAR_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  9,
+  11,
+  14,
+  19,
+  21,
+  25,
+  27,
+  33,
+  36,
+  40,
+  44,
+  47,
+  50,
+  57,
+  61,
+  63,
+  67,
+  74,
+  83,
+  86,
+  88,
+  92,
+  96,
+  100
+ ],
+ "cer": [
+  0,
+  19
+ ],
+ "fix": [
+  [
+   34,
+   " 14",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ],
+  [
+   94,
+   "will co co-operate",
+   "will to co-operate",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17f660a4066c1c138cb45eac54cbf12df3328410",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 3580,
+  "words_out": 3578,
+  "retention": 0.9994,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   171,
+   155,
+   69,
+   76,
+   113,
+   179,
+   88,
+   187,
+   90,
+   169,
+   95,
+   125,
+   154,
+   145,
+   161,
+   201,
+   131,
+   95,
+   83,
+   194,
+   236,
+   107,
+   102,
+   102,
+   175,
+   140,
+   35
+  ],
+  "warnings": []
+ }
+}

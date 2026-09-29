@@ -1,0 +1,288 @@
+{
+ "id": "MEX_33_1978",
+ "drop": [
+  [
+   9,
+   9,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  8,
+  13,
+  21,
+  25,
+  27,
+  30,
+  32,
+  35,
+  38,
+  40,
+  43,
+  46,
+  50,
+  57,
+  60,
+  63,
+  69,
+  72,
+  76,
+  80,
+  82,
+  87,
+  89,
+  94,
+  97,
+  100,
+  103,
+  109,
+  113,
+  115,
+  118,
+  122,
+  127,
+  129,
+  132,
+  134,
+  137,
+  138,
+  144,
+  149,
+  150,
+  152,
+  156,
+  159,
+  167,
+  170,
+  174,
+  177,
+  181
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "Lidvano",
+   "Lievano",
+   "ocr"
+  ],
+  [
+   10,
+   "in- reality",
+   "in reality",
+   "ocr"
+  ],
+  [
+   13,
+   "should .be",
+   "should be",
+   "ocr"
+  ],
+  [
+   32,
+   "body' some",
+   "body some",
+   "ocr"
+  ],
+  [
+   62,
+   "10",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "tree and",
+   "free and",
+   "ocr"
+  ],
+  [
+   80,
+   "Panama' to",
+   "Panama to",
+   "ocr"
+  ],
+  [
+   84,
+   "interests, of all",
+   "interests of all",
+   "ocr"
+  ],
+  [
+   97,
+   "or h' the right",
+   "or have the right",
+   "ocr"
+  ],
+  [
+   97,
+   "constitute elf as",
+   "constitute itself as",
+   "ocr"
+  ],
+  [
+   122,
+   "11",
+   "",
+   "label"
+  ],
+  [
+   126,
+   "143.",
+   "",
+   "label"
+  ],
+  [
+   134,
+   "13",
+   "",
+   "label"
+  ],
+  [
+   137,
+   "riot only",
+   "not only",
+   "ocr"
+  ],
+  [
+   144,
+   "Use .f Certain",
+   "Use of Certain",
+   "ocr"
+  ],
+  [
+   144,
+   " [A/33/44, annex, sect.",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "H]",
+   "",
+   "label"
+  ],
+  [
+   157,
+   "die cause",
+   "the cause",
+   "ocr"
+  ],
+  [
+   159,
+   "human lights",
+   "human rights",
+   "ocr"
+  ],
+  [
+   161,
+   "be note deprived",
+   "be more deprived",
+   "ocr"
+  ],
+  [
+   169,
+   "their, differences",
+   "their differences",
+   "ocr"
+  ],
+  [
+   175,
+   "look , Questions",
+   "look at questions",
+   "ocr"
+  ],
+  [
+   176,
+   "viii be",
+   "will be",
+   "ocr"
+  ],
+  [
+   180,
+   "163.",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbed19b9b01df60471b7cbe57d7c4920db5a56f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 70
+  },
+  "words_in": 5779,
+  "words_out": 5769,
+  "retention": 0.9983,
+  "n_paragraphs": 52,
+  "paragraph_words": [
+   87,
+   52,
+   80,
+   104,
+   106,
+   83,
+   89,
+   107,
+   62,
+   174,
+   97,
+   77,
+   92,
+   85,
+   77,
+   171,
+   60,
+   90,
+   168,
+   93,
+   134,
+   133,
+   66,
+   241,
+   77,
+   145,
+   89,
+   97,
+   84,
+   134,
+   78,
+   128,
+   87,
+   133,
+   166,
+   88,
+   88,
+   100,
+   171,
+   61,
+   143,
+   198,
+   70,
+   69,
+   118,
+   119,
+   213,
+   128,
+   97,
+   144,
+   151,
+   65
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

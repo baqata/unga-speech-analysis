@@ -1,0 +1,145 @@
+{
+ "id": "CRI_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  7,
+  12,
+  18,
+  21,
+  26,
+  34,
+  40,
+  42,
+  49,
+  50,
+  57,
+  62,
+  66,
+  73,
+  79,
+  81,
+  83,
+  85,
+  89
+ ],
+ "cer": [
+  89
+ ],
+ "fix": [
+  [
+   5,
+   "continental,",
+   "continental",
+   "ocr"
+  ],
+  [
+   14,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   32,
+   "or,",
+   "or",
+   "ocr"
+  ],
+  [
+   34,
+   "recognize,",
+   "recognize",
+   "ocr"
+  ],
+  [
+   35,
+   "peace- loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   41,
+   "which:",
+   "which",
+   "ocr"
+  ],
+  [
+   54,
+   "countries,",
+   "countries.",
+   "ocr"
+  ],
+  [
+   54,
+   "counties",
+   "countries",
+   "ocr"
+  ],
+  [
+   78,
+   "8",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "hear",
+   "bear",
+   "ocr"
+  ],
+  [
+   88,
+   "mankind,",
+   "mankind.",
+   "ocr"
+  ],
+  [
+   89,
+   "native,",
+   "native",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30e9d98a58c7c227d0e93df2d40b49d29e0b00d2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 20
+  },
+  "words_in": 3263,
+  "words_out": 3258,
+  "retention": 0.9985,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   218,
+   75,
+   194,
+   188,
+   93,
+   148,
+   188,
+   232,
+   104,
+   219,
+   84,
+   316,
+   206,
+   124,
+   165,
+   180,
+   107,
+   132,
+   73,
+   111,
+   101
+  ],
+  "warnings": []
+ }
+}

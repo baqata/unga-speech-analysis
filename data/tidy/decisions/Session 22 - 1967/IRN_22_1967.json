@@ -1,0 +1,96 @@
+{
+ "id": "IRN_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  23,
+  26,
+  35,
+  41,
+  44,
+  50,
+  55,
+  62,
+  69,
+  74,
+  78,
+  81,
+  85,
+  88,
+  91,
+  104
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "world peace, Indeed",
+   "world peace. Indeed",
+   "ocr"
+  ],
+  [
+   61,
+   "[See Economic and Social Council resolutions 1152 (XLI) and 1089 (XXXIX),] ",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "Development, The Ministers",
+   "Development. The Ministers",
+   "ocr"
+  ],
+  [
+   79,
+   "seventy- seven",
+   "seventy-seven",
+   "hyphen"
+  ],
+  [
+   105,
+   "social ills,",
+   "social ills.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17c509f102934e9e61689451540edb6f4e5b573f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2248,
+  "words_out": 2203,
+  "retention": 0.98,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   264,
+   132,
+   90,
+   222,
+   169,
+   85,
+   72,
+   96,
+   131,
+   124,
+   80,
+   82,
+   77,
+   105,
+   70,
+   99,
+   192,
+   113
+  ],
+  "warnings": []
+ }
+}

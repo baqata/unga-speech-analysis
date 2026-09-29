@@ -1,0 +1,162 @@
+{
+ "id": "DJI_59_2004",
+ "drop": [
+  [
+   220,
+   220,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  23,
+  43,
+  59,
+  73,
+  87,
+  112,
+  137,
+  151,
+  174,
+  190,
+  221,
+  245,
+  269,
+  288,
+  305,
+  325,
+  342,
+  362,
+  382,
+  391,
+  406
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "Annanís",
+   "Annan’s",
+   "encoding"
+  ],
+  [
+   25,
+   "Nations ó indeed",
+   "Nations — indeed",
+   "encoding"
+  ],
+  [
+   25,
+   "world ó has",
+   "world — has",
+   "encoding"
+  ],
+  [
+   31,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   131,
+   "LDCsí",
+   "LDCs’",
+   "encoding"
+  ],
+  [
+   211,
+   "membersí",
+   "members’",
+   "encoding"
+  ],
+  [
+   214,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   217,
+   "Panelís",
+   "Panel’s",
+   "encoding"
+  ],
+  [
+   239,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   314,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   347,
+   "Israelís",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   348,
+   "Israelís",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   404,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f04794f5cadfcfccc46c9aefd7a381a069716fc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 410,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3188,
+  "words_out": 3181,
+  "retention": 0.9978,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   187,
+   147,
+   120,
+   124,
+   111,
+   193,
+   189,
+   113,
+   198,
+   108,
+   235,
+   188,
+   185,
+   147,
+   133,
+   162,
+   124,
+   151,
+   154,
+   60,
+   120,
+   32
+  ],
+  "warnings": [
+   "procedural drop [220,220] in the middle of the speech"
+  ]
+ }
+}

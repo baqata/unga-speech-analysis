@@ -1,0 +1,53 @@
+{
+ "id": "MDG_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  34,
+  42,
+  56,
+  69,
+  91,
+  105,
+  113,
+  123,
+  136,
+  144
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e388056abb9eb6f37d9bd532f9e6fddf8de57c2e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1179,
+  "words_out": 1178,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   106,
+   87,
+   62,
+   72,
+   121,
+   103,
+   166,
+   106,
+   69,
+   82,
+   103,
+   70,
+   31
+  ],
+  "warnings": []
+ }
+}

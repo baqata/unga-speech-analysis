@@ -1,0 +1,113 @@
+{
+ "id": "COG_37_1982",
+ "drop": [
+  [
+   102,
+   102,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  16,
+  17,
+  21,
+  23,
+  26,
+  32,
+  38,
+  46,
+  49,
+  54,
+  56,
+  62,
+  66,
+  69,
+  73,
+  76,
+  82,
+  86,
+  88,
+  93,
+  98
+ ],
+ "cer": [
+  5
+ ],
+ "fix": [
+  [
+   4,
+   "Cong< peaks",
+   "Congo speaks",
+   "ocr"
+  ],
+  [
+   41,
+   "(hat",
+   "that",
+   "ocr"
+  ],
+  [
+   46,
+   "tom by",
+   "torn by",
+   "ocr"
+  ],
+  [
+   51,
+   "modem",
+   "modern",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4fbabe5ee4b73b156de472033034ef06f3892f7f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 36
+  },
+  "words_in": 2663,
+  "words_out": 2659,
+  "retention": 0.9985,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   68,
+   89,
+   187,
+   121,
+   88,
+   123,
+   55,
+   88,
+   123,
+   145,
+   196,
+   48,
+   138,
+   67,
+   116,
+   144,
+   93,
+   96,
+   87,
+   113,
+   70,
+   75,
+   126,
+   138,
+   65
+  ],
+  "warnings": []
+ }
+}

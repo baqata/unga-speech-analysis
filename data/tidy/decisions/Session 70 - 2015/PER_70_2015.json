@@ -1,0 +1,58 @@
+{
+ "id": "PER_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  5,
+  9,
+  15,
+  24,
+  28,
+  32,
+  37,
+  40,
+  41,
+  47,
+  49
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f73080b3b480b76bf9b4d5beb1cb0b7b5c12798",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1366,
+  "words_out": 1364,
+  "retention": 0.9985,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   33,
+   71,
+   79,
+   119,
+   168,
+   200,
+   79,
+   67,
+   80,
+   79,
+   44,
+   153,
+   67,
+   125
+  ],
+  "warnings": []
+ }
+}

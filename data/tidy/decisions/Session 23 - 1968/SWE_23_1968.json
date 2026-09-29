@@ -1,0 +1,108 @@
+{
+ "id": "SWE_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  17,
+  29,
+  38,
+  55,
+  64,
+  68,
+  79,
+  86,
+  96,
+  100,
+  104,
+  113,
+  123,
+  132,
+  137,
+  145,
+  155,
+  159,
+  172,
+  183,
+  190,
+  207
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "become. convinced",
+   "become convinced",
+   "ocr"
+  ],
+  [
+   50,
+   "bombs “used",
+   "bombs used",
+   "ocr"
+  ],
+  [
+   65,
+   " [A/7201/Add.1,para, 174]",
+   "",
+   "label"
+  ],
+  [
+   66,
+   " [ibid.]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "peaceful: coexistence",
+   "peaceful coexistence",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4a0480912b2bee5cf920d2b3e020ad7cec64cfe0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3601,
+  "words_out": 3563,
+  "retention": 0.9894,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   54,
+   96,
+   112,
+   186,
+   186,
+   245,
+   157,
+   91,
+   143,
+   122,
+   222,
+   114,
+   70,
+   133,
+   123,
+   164,
+   98,
+   122,
+   170,
+   89,
+   224,
+   208,
+   122,
+   238,
+   74
+  ],
+  "warnings": []
+ }
+}

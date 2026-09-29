@@ -1,0 +1,128 @@
+{
+ "id": "CPV_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  55,
+  71,
+  97,
+  119,
+  130,
+  146,
+  160,
+  172,
+  189,
+  214,
+  232,
+  258,
+  284,
+  294,
+  317,
+  356,
+  379,
+  395,
+  430,
+  449,
+  472,
+  502,
+  531,
+  558,
+  592,
+  611,
+  633
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   272,
+   "otherparties",
+   "other parties",
+   "merged_word"
+  ],
+  [
+   279,
+   "t'<at",
+   "that",
+   "ocr"
+  ],
+  [
+   301,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   398,
+   "any ease",
+   "any case",
+   "ocr"
+  ],
+  [
+   420,
+   "sartorially",
+   "sectorially",
+   "ocr"
+  ],
+  [
+   482,
+   "establishnent",
+   "establishment",
+   "ocr"
+  ],
+  [
+   488,
+   "subject- matter",
+   "subject-matter",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "No paragraph numbers; paragraphs set at line-initial sentence starts.",
+ "unitizer_version": 1,
+ "sha1": "4f22c8ba86a0532f451e6b3a784ad6e78ded1c97",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 638,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4478,
+  "words_out": 4476,
+  "retention": 0.9996,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   166,
+   228,
+   118,
+   174,
+   155,
+   74,
+   108,
+   99,
+   87,
+   133,
+   169,
+   129,
+   176,
+   191,
+   61,
+   160,
+   261,
+   160,
+   113,
+   243,
+   128,
+   156,
+   212,
+   207,
+   192,
+   242,
+   137,
+   158,
+   39
+  ],
+  "warnings": []
+ }
+}

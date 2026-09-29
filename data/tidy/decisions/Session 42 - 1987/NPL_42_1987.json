@@ -1,0 +1,101 @@
+{
+ "id": "NPL_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  14,
+  16,
+  20,
+  23,
+  27,
+  30,
+  35,
+  40,
+  44,
+  47,
+  49,
+  51,
+  53,
+  56,
+  62,
+  70,
+  73,
+  77,
+  82,
+  85
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   8,
+   "race r in",
+   "race in",
+   "ocr"
+  ],
+  [
+   56,
+   "(SAARC) .",
+   "(SAARC).",
+   "spacing"
+  ],
+  [
+   80,
+   "Bengal,",
+   "Bengal.",
+   "ocr"
+  ],
+  [
+   83,
+   "been ' greatly",
+   "been greatly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0320d2c66f8f523ece60d4fb824d49f7872c6a59",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2917,
+  "words_out": 2914,
+  "retention": 0.999,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   145,
+   78,
+   84,
+   123,
+   69,
+   122,
+   116,
+   132,
+   118,
+   154,
+   151,
+   123,
+   54,
+   84,
+   99,
+   88,
+   84,
+   188,
+   161,
+   101,
+   212,
+   186,
+   85,
+   157
+  ],
+  "warnings": []
+ }
+}

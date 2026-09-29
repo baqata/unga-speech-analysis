@@ -1,0 +1,80 @@
+{
+ "id": "PER_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  8,
+  12,
+  17,
+  20,
+  26,
+  28,
+  31,
+  35,
+  37,
+  40,
+  44,
+  52,
+  55,
+  64,
+  71
+ ],
+ "cer": [],
+ "fix": [
+  [
+   17,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   36,
+   "small- scale",
+   "small-scale",
+   "spacing"
+  ],
+  [
+   42,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66bd54e7d2b6e2d411088cb03895a35c1a4d940f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1863,
+  "words_out": 1860,
+  "retention": 0.9984,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   87,
+   118,
+   103,
+   118,
+   107,
+   111,
+   119,
+   89,
+   88,
+   81,
+   65,
+   100,
+   93,
+   118,
+   83,
+   164,
+   115,
+   101
+  ],
+  "warnings": []
+ }
+}

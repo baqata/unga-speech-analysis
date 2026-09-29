@@ -1,0 +1,99 @@
+{
+ "id": "TLS_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  13,
+  16,
+  23,
+  28,
+  32,
+  36,
+  43,
+  48,
+  57,
+  61,
+  65,
+  68,
+  74,
+  78,
+  83,
+  87,
+  91,
+  94,
+  100,
+  105
+ ],
+ "cer": [
+  1,
+  105
+ ],
+ "fix": [
+  [
+   60,
+   "the civil commitment",
+   "the Seville Commitment",
+   "asr_term"
+  ],
+  [
+   71,
+   "Minister, Kai Rala Shanana Guzman, the",
+   "Minister, Kay Rala Xanana Gusmão, the",
+   "asr_name"
+  ],
+  [
+   77,
+   "a soaring Palestinian state",
+   "a sovereign Palestinian state",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1adadda902b6ba8c0cc168025df379da51067f2",
+ "layout": "single",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2732,
+  "words_out": 2713,
+  "retention": 0.993,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   116,
+   163,
+   113,
+   133,
+   146,
+   108,
+   117,
+   204,
+   96,
+   169,
+   89,
+   64,
+   77,
+   183,
+   131,
+   145,
+   117,
+   128,
+   68,
+   168,
+   174,
+   4
+  ],
+  "warnings": []
+ }
+}

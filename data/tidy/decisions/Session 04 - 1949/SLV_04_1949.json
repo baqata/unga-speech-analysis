@@ -1,0 +1,110 @@
+{
+ "id": "SLV_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  17,
+  19,
+  24,
+  28,
+  32,
+  37,
+  42,
+  47,
+  50,
+  55,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "As, the",
+   "As the",
+   "ocr"
+  ],
+  [
+   18,
+   "the' Assembly",
+   "the Assembly",
+   "ocr"
+  ],
+  [
+   32,
+   "The. representative",
+   "The representative",
+   "ocr"
+  ],
+  [
+   47,
+   "the. former",
+   "the former",
+   "ocr"
+  ],
+  [
+   50,
+   "constant, intervention",
+   "constant intervention",
+   "ocr"
+  ],
+  [
+   51,
+   "supported,",
+   "supported.",
+   "ocr"
+  ],
+  [
+   52,
+   "119, ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "of. internationalization",
+   "of internationalization",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "b03911c4206c6fa0edb3434ce0a9abc489ec02fe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 2191,
+  "words_out": 2189,
+  "retention": 0.9991,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   93,
+   254,
+   137,
+   144,
+   90,
+   150,
+   260,
+   153,
+   238,
+   141,
+   139,
+   168,
+   123,
+   63,
+   36
+  ],
+  "warnings": []
+ }
+}

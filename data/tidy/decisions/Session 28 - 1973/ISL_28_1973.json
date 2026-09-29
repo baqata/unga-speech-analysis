@@ -1,0 +1,112 @@
+{
+ "id": "ISL_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  16,
+  21,
+  29,
+  32,
+  35,
+  40,
+  44,
+  46,
+  50,
+  53,
+  58,
+  69,
+  79,
+  86,
+  93,
+  97,
+  102,
+  109,
+  112
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   10,
+   " [A/9001/Add.",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "1/",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   24,
+   " [A/9027]",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "sings",
+   "signs",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "996c16f9d35c8db47a0e774f840fc5459363033e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3294,
+  "words_out": 3286,
+  "retention": 0.9976,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   91,
+   86,
+   108,
+   222,
+   155,
+   195,
+   109,
+   75,
+   98,
+   120,
+   76,
+   148,
+   111,
+   173,
+   225,
+   267,
+   228,
+   190,
+   109,
+   116,
+   186,
+   76,
+   122
+  ],
+  "warnings": []
+ }
+}

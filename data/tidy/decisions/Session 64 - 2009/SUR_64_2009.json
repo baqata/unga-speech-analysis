@@ -1,0 +1,54 @@
+{
+ "id": "SUR_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  34,
+  52,
+  73,
+  94,
+  120,
+  134,
+  148
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   101,
+   "(resolutions 56/6 and 53/243, respectively)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26f84815e2c7a7ac8e2d185bf45803fd82f0e5b5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1123,
+  "words_out": 1114,
+  "retention": 0.992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   115,
+   128,
+   125,
+   151,
+   160,
+   186,
+   94,
+   98,
+   57
+  ],
+  "warnings": []
+ }
+}

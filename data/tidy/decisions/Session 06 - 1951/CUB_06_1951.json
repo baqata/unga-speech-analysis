@@ -1,0 +1,84 @@
+{
+ "id": "CUB_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  12,
+  19,
+  23,
+  28,
+  31,
+  34,
+  39,
+  42,
+  44,
+  50,
+  51,
+  56
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   ".to",
+   "to",
+   "ocr"
+  ],
+  [
+   38,
+   "tight",
+   "fight",
+   "ocr"
+  ],
+  [
+   64,
+   "fop",
+   "for",
+   "ocr"
+  ],
+  [
+   30,
+   " [resolution 217 A (III)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "411163341b089792a90f815d146f5c3bb528d1e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2663,
+  "words_out": 2655,
+  "retention": 0.997,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   106,
+   98,
+   221,
+   159,
+   214,
+   114,
+   220,
+   163,
+   187,
+   193,
+   138,
+   85,
+   210,
+   78,
+   214,
+   255
+  ],
+  "warnings": []
+ }
+}

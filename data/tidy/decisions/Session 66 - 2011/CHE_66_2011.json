@@ -1,0 +1,37 @@
+{
+ "id": "CHE_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  55,
+  86,
+  120
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7451d8b0129577e5c53e192e3d117f6511d43a14",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1042,
+  "words_out": 1039,
+  "retention": 0.9971,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   188,
+   249,
+   253,
+   259,
+   90
+  ],
+  "warnings": []
+ }
+}

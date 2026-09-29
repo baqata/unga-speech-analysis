@@ -1,0 +1,112 @@
+{
+ "id": "SWE_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  16,
+  23,
+  29,
+  37,
+  41,
+  46,
+  49,
+  56,
+  60,
+  64,
+  68,
+  73,
+  78,
+  80,
+  86,
+  93,
+  97,
+  103,
+  110,
+  114,
+  120
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "Count Police Bernadotte",
+   "Count Folke Bernadotte",
+   "ocr"
+  ],
+  [
+   8,
+   "199Usí halting",
+   "1990s halting",
+   "ocr"
+  ],
+  [
+   14,
+   "the patties",
+   "the parties",
+   "ocr"
+  ],
+  [
+   14,
+   "Jan Rliasson",
+   "Jan Eliasson",
+   "ocr"
+  ],
+  [
+   26,
+   "Ws condemn",
+   "We condemn",
+   "ocr"
+  ],
+  [
+   121,
+   " (A/40/PV.43, p. 64)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5abf2a6b4de2d4152a3d3de0c6072cb894b6ee23",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2398,
+  "words_out": 2395,
+  "retention": 0.9987,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   63,
+   78,
+   106,
+   128,
+   134,
+   75,
+   113,
+   81,
+   110,
+   60,
+   122,
+   100,
+   65,
+   63,
+   103,
+   111,
+   81,
+   99,
+   136,
+   78,
+   113,
+   126,
+   80,
+   133,
+   37
+  ],
+  "warnings": []
+ }
+}

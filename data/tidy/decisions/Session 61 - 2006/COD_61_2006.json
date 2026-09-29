@@ -1,0 +1,54 @@
+{
+ "id": "COD_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  26,
+  40,
+  54,
+  67,
+  76,
+  86,
+  101,
+  111,
+  123,
+  131
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f2518e52bc2cf9971d36ebc4b9a4ff168ead9ba",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1128,
+  "words_out": 1128,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   109,
+   101,
+   113,
+   111,
+   101,
+   70,
+   77,
+   111,
+   76,
+   88,
+   70,
+   101
+  ],
+  "warnings": []
+ }
+}

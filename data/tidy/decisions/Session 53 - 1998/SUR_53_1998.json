@@ -1,0 +1,56 @@
+{
+ "id": "SUR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  18,
+  31,
+  40,
+  56,
+  64,
+  87,
+  96,
+  115,
+  132,
+  144,
+  151
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "671540a83fdf5fb7cb37b5fb1a60bc7ac2186357",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1353,
+  "words_out": 1352,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   62,
+   87,
+   101,
+   60,
+   126,
+   69,
+   178,
+   80,
+   148,
+   149,
+   89,
+   63,
+   140
+  ],
+  "warnings": []
+ }
+}

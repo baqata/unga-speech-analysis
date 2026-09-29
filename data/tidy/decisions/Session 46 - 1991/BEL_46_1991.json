@@ -1,0 +1,138 @@
+{
+ "id": "BEL_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  11,
+  16,
+  19,
+  24,
+  28,
+  35,
+  41,
+  43,
+  47,
+  51,
+  56,
+  59,
+  62,
+  66,
+  69,
+  76,
+  80,
+  83,
+  89,
+  92,
+  100,
+  107,
+  108,
+  116,
+  120,
+  123,
+  128
+ ],
+ "cer": [
+  0,
+  2,
+  11
+ ],
+ "fix": [
+  [
+   2,
+   "Mr, Javier",
+   "Mr. Javier",
+   "ocr"
+  ],
+  [
+   4,
+   "We art grateful",
+   "We are grateful",
+   "ocr"
+  ],
+  [
+   4,
+   "ten yearn",
+   "ten years",
+   "ocr"
+  ],
+  [
+   5,
+   "recent yearn",
+   "recent years",
+   "ocr"
+  ],
+  [
+   20,
+   "1ife-and -death",
+   "life-and-death",
+   "ocr"
+  ],
+  [
+   61,
+   "the Sights of",
+   "the Rights of",
+   "ocr"
+  ],
+  [
+   93,
+   "He clearly",
+   "We clearly",
+   "ocr"
+  ],
+  [
+   121,
+   "watch ever the",
+   "watch over the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The statement is printed as a quotation: each source paragraph opens with a quotation mark, kept as in the source.",
+ "unitizer_version": 1,
+ "sha1": "a4c10bf56116ad867f8d50bc54da3544126fddef",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3289,
+  "words_out": 3288,
+  "retention": 0.9997,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   87,
+   126,
+   66,
+   114,
+   95,
+   132,
+   114,
+   172,
+   123,
+   64,
+   80,
+   99,
+   93,
+   79,
+   79,
+   106,
+   90,
+   122,
+   86,
+   84,
+   130,
+   95,
+   172,
+   184,
+   122,
+   129,
+   120,
+   71,
+   160,
+   94
+  ],
+  "warnings": []
+ }
+}

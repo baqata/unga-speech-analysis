@@ -1,0 +1,74 @@
+{
+ "id": "HND_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  24,
+  44,
+  71,
+  89,
+  100,
+  118,
+  147,
+  173,
+  184,
+  199,
+  226,
+  241,
+  259,
+  285
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   66,
+   " (resolution 49/137,",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "para. 23)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e8f85b8a62db4cd00789935097a45ccc5c2baa12",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 303,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2423,
+  "words_out": 2417,
+  "retention": 0.9975,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   89,
+   101,
+   148,
+   197,
+   149,
+   85,
+   149,
+   215,
+   219,
+   91,
+   116,
+   209,
+   124,
+   149,
+   215,
+   161
+  ],
+  "warnings": []
+ }
+}

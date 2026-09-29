@@ -1,0 +1,119 @@
+{
+ "id": "TUR_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  27,
+  49,
+  65,
+  81,
+  104,
+  116,
+  132,
+  154,
+  169,
+  182,
+  206,
+  216,
+  226,
+  250,
+  274,
+  289,
+  309,
+  335,
+  358
+ ],
+ "cer": [
+  0,
+  20
+ ],
+ "fix": [
+  [
+   38,
+   "failure:",
+   "failure",
+   "ocr"
+  ],
+  [
+   91,
+   "policy. of",
+   "policy of",
+   "ocr"
+  ],
+  [
+   103,
+   " [see resolution 269 (1969)]",
+   "",
+   "label"
+  ],
+  [
+   171,
+   "[242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   189,
+   "Cyprus-closely",
+   "Cyprus closely",
+   "ocr"
+  ],
+  [
+   201,
+   "Of mind",
+   "of mind",
+   "ocr"
+  ],
+  [
+   241,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   256,
+   " [resolution 2222 (XXI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6967dfeabf6e99d5798b7e995fc2462d3859b89d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 375,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3422,
+  "words_out": 3375,
+  "retention": 0.9863,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   182,
+   65,
+   189,
+   145,
+   152,
+   206,
+   100,
+   153,
+   210,
+   145,
+   115,
+   230,
+   83,
+   92,
+   216,
+   217,
+   143,
+   169,
+   211,
+   192,
+   160
+  ],
+  "warnings": []
+ }
+}

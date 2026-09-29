@@ -1,0 +1,90 @@
+{
+ "id": "KWT_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  34,
+  50,
+  70,
+  98,
+  106,
+  127,
+  151,
+  165,
+  180,
+  194,
+  206,
+  222,
+  241,
+  260,
+  270,
+  288,
+  300,
+  312,
+  331
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   298,
+   "Izetbegovic´",
+   "Izetbegovic",
+   "encoding"
+  ],
+  [
+   149,
+   "(A/50/986,",
+   "",
+   "label"
+  ],
+  [
+   150,
+   "appendix, p. 7)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "75369dc1a6e167ef47183cb4da95701be64d5791",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 346,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2892,
+  "words_out": 2884,
+  "retention": 0.9972,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   114,
+   149,
+   137,
+   162,
+   245,
+   69,
+   172,
+   195,
+   120,
+   132,
+   109,
+   100,
+   134,
+   166,
+   167,
+   95,
+   135,
+   102,
+   99,
+   154,
+   128
+  ],
+  "warnings": []
+ }
+}

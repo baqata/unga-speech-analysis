@@ -1,0 +1,92 @@
+{
+ "id": "ALB_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  27,
+  48,
+  64,
+  78,
+  95,
+  124,
+  142,
+  170,
+  192,
+  205,
+  219,
+  231,
+  238,
+  248,
+  270,
+  283,
+  293,
+  303,
+  312,
+  327
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   206,
+   "Milosevic´",
+   "Milosevic",
+   "encoding"
+  ],
+  [
+   217,
+   "Milosevic´",
+   "Milosevic",
+   "encoding"
+  ],
+  [
+   229,
+   "Milosevic´",
+   "Milosevic",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f348691dd336855baeeb7b77193a0987b8a35c97",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 335,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2755,
+  "words_out": 2755,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   56,
+   161,
+   174,
+   143,
+   120,
+   138,
+   224,
+   141,
+   208,
+   184,
+   115,
+   117,
+   92,
+   60,
+   81,
+   188,
+   112,
+   91,
+   75,
+   71,
+   131,
+   73
+  ],
+  "warnings": []
+ }
+}

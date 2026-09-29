@@ -1,0 +1,82 @@
+{
+ "id": "THA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  13,
+  17,
+  21,
+  25,
+  31,
+  33,
+  35,
+  39,
+  44,
+  48,
+  51,
+  55,
+  58,
+  61,
+  67,
+  72
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "Thailand- Plus-One",
+   "Thailand-Plus-One",
+   "hyphen"
+  ],
+  [
+   54,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e76c45af4878f1a04b1028a63042c7f0f2d10e94",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 1769,
+  "words_out": 1765,
+  "retention": 0.9977,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   30,
+   65,
+   119,
+   90,
+   114,
+   101,
+   65,
+   125,
+   66,
+   100,
+   107,
+   111,
+   83,
+   74,
+   69,
+   95,
+   63,
+   107,
+   115,
+   66
+  ],
+  "warnings": []
+ }
+}

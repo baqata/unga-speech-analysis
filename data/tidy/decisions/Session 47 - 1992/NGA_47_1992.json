@@ -1,0 +1,109 @@
+{
+ "id": "NGA_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  22,
+  30,
+  33,
+  42,
+  49,
+  57,
+  61,
+  65,
+  68,
+  76,
+  80,
+  83
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   2,
+   "predecessor.",
+   "predecessor,",
+   "ocr"
+  ],
+  [
+   24,
+   "Liberia/",
+   "Liberia,",
+   "ocr"
+  ],
+  [
+   41,
+   "He call",
+   "We call",
+   "ocr"
+  ],
+  [
+   44,
+   "He urge",
+   "We urge",
+   "ocr"
+  ],
+  [
+   53,
+   "aware.",
+   "aware,",
+   "ocr"
+  ],
+  [
+   59,
+   "He acknowledge",
+   "We acknowledge",
+   "ocr"
+  ],
+  [
+   87,
+   "He must",
+   "We must",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b999b149e8c1ceb6c1a63b2b4f1068d251689cf7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1829,
+  "words_out": 1829,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   78,
+   137,
+   81,
+   180,
+   160,
+   63,
+   163,
+   148,
+   128,
+   89,
+   97,
+   74,
+   158,
+   87,
+   66,
+   120
+  ],
+  "warnings": []
+ }
+}

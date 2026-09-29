@@ -1,0 +1,145 @@
+{
+ "id": "TCD_32_1977",
+ "drop": [
+  [
+   41,
+   41,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  11,
+  15,
+  17,
+  22,
+  26,
+  31,
+  33,
+  38,
+  40,
+  45,
+  53,
+  61,
+  66,
+  69,
+  73,
+  75,
+  78
+ ],
+ "cer": [
+  75,
+  78
+ ],
+ "fix": [
+  [
+   5,
+   "affairs.\"",
+   "affairs.",
+   "ocr"
+  ],
+  [
+   18,
+   "still, remain to be made clear-the",
+   "still remain to be made clear—the",
+   "ocr"
+  ],
+  [
+   29,
+   "articles\"-to",
+   "articles\"—to",
+   "ocr"
+  ],
+  [
+   29,
+   "words-had",
+   "words—had",
+   "ocr"
+  ],
+  [
+   31,
+   "Ounianga- Kebir",
+   "Ounianga-Kebir",
+   "hyphen"
+  ],
+  [
+   31,
+   "Bardai',",
+   "Bardai,",
+   "ocr"
+  ],
+  [
+   34,
+   "Government, -which",
+   "Government, which",
+   "ocr"
+  ],
+  [
+   48,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ],
+  [
+   58,
+   "Conventions-in",
+   "Conventions—in",
+   "ocr"
+  ],
+  [
+   58,
+   "War-and",
+   "War—and",
+   "ocr"
+  ],
+  [
+   58,
+   "respect, for",
+   "respect for",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8fd878ba8fc05bce69a892151defab0401f0da78",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 2671,
+  "words_out": 2668,
+  "retention": 0.9989,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   128,
+   173,
+   80,
+   132,
+   85,
+   167,
+   86,
+   187,
+   69,
+   138,
+   116,
+   133,
+   217,
+   225,
+   102,
+   144,
+   143,
+   83,
+   123,
+   137
+  ],
+  "warnings": []
+ }
+}

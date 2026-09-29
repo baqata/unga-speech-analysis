@@ -1,0 +1,104 @@
+{
+ "id": "ISL_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  17,
+  25,
+  32,
+  37,
+  46,
+  56,
+  63,
+  69,
+  78,
+  81,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "tense International",
+   "tense international",
+   "ocr"
+  ],
+  [
+   17,
+   "newly Independent",
+   "newly independent",
+   "ocr"
+  ],
+  [
+   23,
+   "Arab- Israeli",
+   "Arab-Israeli",
+   "hyphen"
+  ],
+  [
+   28,
+   "United Nations, Nevertheless,",
+   "United Nations. Nevertheless,",
+   "ocr"
+  ],
+  [
+   52,
+   "has Increased",
+   "has increased",
+   "ocr"
+  ],
+  [
+   58,
+   "1955 y and",
+   "1955 and",
+   "ocr"
+  ],
+  [
+   79,
+   "future, We are",
+   "future. We are",
+   "ocr"
+  ],
+  [
+   85,
+   "fish- stocks",
+   "fish-stocks",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7491adaacff0db97ad175551c2f0fc89af4a6c4c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2047,
+  "words_out": 2025,
+  "retention": 0.9893,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   99,
+   138,
+   97,
+   209,
+   165,
+   141,
+   117,
+   259,
+   161,
+   134,
+   212,
+   97,
+   144,
+   52
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "LIE_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  11,
+  15,
+  20,
+  32,
+  36,
+  41,
+  45,
+  50,
+  57,
+  63,
+  69,
+  73,
+  79,
+  81
+ ],
+ "cer": [
+  81
+ ],
+ "fix": [
+  [
+   44,
+   "UNAT process",
+   "UN80 process",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4c260d21abb5c5ddb428e71dc00b204ee13e680",
+ "layout": "single",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1875,
+  "words_out": 1849,
+  "retention": 0.9861,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   116,
+   133,
+   103,
+   124,
+   193,
+   86,
+   130,
+   80,
+   144,
+   141,
+   128,
+   113,
+   106,
+   191,
+   58,
+   3
+  ],
+  "warnings": []
+ }
+}

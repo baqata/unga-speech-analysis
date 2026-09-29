@@ -1,0 +1,93 @@
+{
+ "id": "OMN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  6,
+  11,
+  17,
+  24,
+  28,
+  30,
+  35,
+  40,
+  43,
+  46,
+  53,
+  56,
+  61,
+  69,
+  73,
+  79,
+  86,
+  91,
+  94,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   29,
+   "any, foreign",
+   "any foreign",
+   "ocr"
+  ],
+  [
+   52,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "336af0acbba7e5c782b9624684919db07ea42f14",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 3121,
+  "words_out": 3119,
+  "retention": 0.9994,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   167,
+   76,
+   186,
+   109,
+   276,
+   114,
+   59,
+   158,
+   188,
+   138,
+   81,
+   179,
+   95,
+   119,
+   187,
+   97,
+   152,
+   186,
+   157,
+   115,
+   223,
+   57
+  ],
+  "warnings": []
+ }
+}

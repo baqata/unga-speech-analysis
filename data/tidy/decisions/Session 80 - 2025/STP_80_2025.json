@@ -1,0 +1,116 @@
+{
+ "id": "STP_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   90,
+   90,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  7,
+  13,
+  18,
+  22,
+  29,
+  32,
+  41,
+  43,
+  49,
+  55,
+  62,
+  65,
+  68,
+  72,
+  76,
+  81,
+  84,
+  87,
+  89
+ ],
+ "cer": [
+  2,
+  7,
+  84,
+  89
+ ],
+ "fix": [
+  [
+   52,
+   "multi- dimensional",
+   "multidimensional",
+   "hyphen"
+  ],
+  [
+   58,
+   "Santo Domingo Principe strongly",
+   "São Tomé and Príncipe strongly",
+   "asr_name"
+  ],
+  [
+   62,
+   "Santo Domingo Principe solemnly",
+   "São Tomé and Príncipe solemnly",
+   "asr_name"
+  ],
+  [
+   63,
+   "Santo Domingo Principe also",
+   "São Tomé and Príncipe also",
+   "asr_name"
+  ],
+  [
+   75,
+   "São Tomé and women",
+   "São Toméan women",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "548414962196b955672499ee524abb058d3182cb",
+ "layout": "single",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2426,
+  "words_out": 2358,
+  "retention": 0.972,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   55,
+   106,
+   155,
+   140,
+   99,
+   191,
+   99,
+   181,
+   70,
+   207,
+   184,
+   165,
+   91,
+   74,
+   98,
+   79,
+   111,
+   78,
+   89,
+   84,
+   2
+  ],
+  "warnings": []
+ }
+}

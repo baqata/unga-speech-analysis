@@ -1,0 +1,116 @@
+{
+ "id": "CMR_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  35,
+  45,
+  54,
+  67,
+  80,
+  94,
+  106,
+  114,
+  123,
+  131,
+  142,
+  152,
+  160,
+  173,
+  188,
+  204,
+  220,
+  231,
+  244,
+  255,
+  262,
+  279,
+  289,
+  296
+ ],
+ "cer": [
+  14
+ ],
+ "fix": [
+  [
+   10,
+   "Africa? and",
+   "Africa and",
+   "ocr"
+  ],
+  [
+   55,
+   "we are tom",
+   "we are torn",
+   "ocr"
+  ],
+  [
+   108,
+   "a8Ks",
+   "asks",
+   "ocr"
+  ],
+  [
+   116,
+   " [resolution 1514 (XV)]",
+   "",
+   "label"
+  ],
+  [
+   249,
+   "countries, This",
+   "countries. This",
+   "ocr"
+  ],
+  [
+   252,
+   "modem civilization",
+   "modern civilization",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1be392834fe4eb3cd8a59afd32c5c7c40d792e55",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 310,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2918,
+  "words_out": 2884,
+  "retention": 0.9883,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   127,
+   199,
+   95,
+   81,
+   129,
+   121,
+   133,
+   96,
+   70,
+   76,
+   68,
+   103,
+   101,
+   78,
+   127,
+   147,
+   146,
+   130,
+   93,
+   118,
+   106,
+   64,
+   176,
+   95,
+   62,
+   143
+  ],
+  "warnings": []
+ }
+}

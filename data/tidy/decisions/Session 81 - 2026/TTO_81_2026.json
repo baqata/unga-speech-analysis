@@ -1,0 +1,162 @@
+{
+ "id": "TTO_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  9,
+  14,
+  19,
+  26,
+  34,
+  38,
+  41,
+  45,
+  51,
+  54,
+  57,
+  59
+ ],
+ "cer": [
+  2,
+  54,
+  59
+ ],
+ "fix": [
+  [
+   4,
+   "Mayor Bock",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   22,
+   "Ovo Berman",
+   "overwhelming",
+   "asr_term"
+  ],
+  [
+   36,
+   "Trina",
+   "Trinidad",
+   "asr_name"
+  ],
+  [
+   37,
+   "farms",
+   "firearms",
+   "asr_term"
+  ],
+  [
+   38,
+   "superintelligent",
+   "superintelligence",
+   "asr_term"
+  ],
+  [
+   38,
+   "Sri Nantabeg",
+   "Trinidad and Tobago",
+   "asr_name"
+  ],
+  [
+   42,
+   "Toronto-Tobago",
+   "Trinidad and Tobago",
+   "asr_name"
+  ],
+  [
+   46,
+   "development countries",
+   "developing countries",
+   "asr_term"
+  ],
+  [
+   57,
+   "Owego's",
+   "Tobago's",
+   "asr_name"
+  ],
+  [
+   58,
+   "united nations",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   9,
+   "states. small",
+   "states. Small",
+   "asr_term"
+  ],
+  [
+   52,
+   "UN. reform",
+   "UN. Reform",
+   "asr_term"
+  ],
+  [
+   58,
+   "cooperation. the",
+   "cooperation. The",
+   "asr_term"
+  ],
+  [
+   4,
+   "presidency. but",
+   "presidency. Permit",
+   "asr_term"
+  ],
+  [
+   52,
+   "listen",
+   "listened",
+   "asr_term"
+  ],
+  [
+   4,
+   "with me",
+   "me",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Names per Spanish channel (Annalena Baerbock, Trinidad y Tobago, armas); unit 54-56 is a tribute to the outgoing Secretary-General. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'presidency. but' -> 'presidency. But'; unit 9 'states. small' -> 'states. Small'; unit 52 'UN. reform' -> 'UN. Reform'; unit 58 'cooperation. the' -> 'cooperation. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 4 'presidency. but' -> 'presidency. Permit', 'with me' -> 'me' (the run's repair re-expressed so that it replaces the earlier capitalisation fix on the same span: 'But with me to extend' does not fit; the decodes are unclear ('But' 0.41 / 0.36, 'with' 0.38 / 0.36) and the UN transcript hears 'Permit me to extend'); spot 26 unit 52 'listen' -> 'listened' (decodes 'listen' only 0.70 / 0.54, the final -ed lost before 'to'; 'today, as we listen to President Trump, the Honorable President shared' is past narrative; UN 'listened')",
+ "unitizer_version": 1,
+ "sha1": "2ca717f3a16f4692bf7a529a4a4e496f8ad10daa",
+ "layout": "single",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1613,
+  "words_out": 1579,
+  "retention": 0.9789,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   71,
+   117,
+   108,
+   124,
+   137,
+   170,
+   133,
+   100,
+   116,
+   153,
+   116,
+   125,
+   86,
+   23
+  ],
+  "warnings": []
+ }
+}

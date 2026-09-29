@@ -1,0 +1,106 @@
+{
+ "id": "QAT_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  49,
+  74,
+  90,
+  103,
+  119,
+  137,
+  156,
+  175,
+  195,
+  209,
+  226,
+  242,
+  257,
+  269,
+  283,
+  294,
+  319,
+  329,
+  339,
+  358,
+  370,
+  386,
+  410
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   197,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   380,
+   "mankind?s",
+   "mankind’s",
+   "encoding"
+  ],
+  [
+   390,
+   "man?s",
+   "man’s",
+   "encoding"
+  ],
+  [
+   391,
+   "today?s",
+   "today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "982f8f07f430d019f1b17f7468f64ee6094457ec",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 425,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3744,
+  "words_out": 3742,
+  "retention": 0.9995,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   86,
+   98,
+   233,
+   209,
+   128,
+   122,
+   160,
+   161,
+   165,
+   174,
+   186,
+   125,
+   148,
+   147,
+   126,
+   107,
+   128,
+   92,
+   227,
+   100,
+   78,
+   151,
+   101,
+   144,
+   212,
+   134
+  ],
+  "warnings": []
+ }
+}

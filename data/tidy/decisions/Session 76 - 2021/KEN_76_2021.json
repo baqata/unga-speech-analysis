@@ -1,0 +1,111 @@
+{
+ "id": "KEN_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  17,
+  21,
+  23,
+  25,
+  28,
+  31,
+  35,
+  37,
+  43,
+  47,
+  51,
+  56,
+  59,
+  63
+ ],
+ "cer": [
+  0,
+  63
+ ],
+ "fix": [
+  [
+   7,
+   "(i) First",
+   "First",
+   "markup"
+  ],
+  [
+   8,
+   "(ii) Second",
+   "Second",
+   "markup"
+  ],
+  [
+   9,
+   "(iii) Third",
+   "Third",
+   "markup"
+  ],
+  [
+   10,
+   "(iv) Fourth",
+   "Fourth",
+   "markup"
+  ],
+  [
+   21,
+   "self- interest",
+   "self-interest",
+   "spacing"
+  ],
+  [
+   27,
+   "2016- 2030",
+   "2016-2030",
+   "spacing"
+  ],
+  [
+   27,
+   "low- carbon",
+   "low-carbon",
+   "spacing"
+  ],
+  [
+   60,
+   "hand-of- friendship",
+   "hand-of-friendship",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b8359a371cde64c21d7a4700f1f3d263498aa8be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1505,
+  "words_out": 1497,
+  "retention": 0.9947,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   63,
+   155,
+   107,
+   68,
+   78,
+   71,
+   69,
+   81,
+   89,
+   85,
+   104,
+   114,
+   68,
+   137,
+   78,
+   121,
+   9
+  ],
+  "warnings": []
+ }
+}

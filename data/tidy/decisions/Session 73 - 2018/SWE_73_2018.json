@@ -1,0 +1,78 @@
+{
+ "id": "SWE_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  14,
+  19,
+  22,
+  29,
+  33,
+  35,
+  39,
+  43,
+  48,
+  57,
+  61,
+  66,
+  74,
+  80,
+  88
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   "besystematically",
+   "be systematically",
+   "merged_word"
+  ],
+  [
+   56,
+   "cost- effective",
+   "cost-effective",
+   "hyphen"
+  ],
+  [
+   90,
+   "well- functioning",
+   "well-functioning",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "47215b15cc5d63dd5d1c3b9c748c27b2701ff233",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1911,
+  "words_out": 1907,
+  "retention": 0.9979,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   177,
+   86,
+   92,
+   110,
+   115,
+   93,
+   85,
+   74,
+   78,
+   127,
+   133,
+   109,
+   98,
+   172,
+   115,
+   143,
+   100
+  ],
+  "warnings": []
+ }
+}

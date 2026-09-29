@@ -1,0 +1,168 @@
+{
+ "id": "MMR_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  14,
+  16,
+  19,
+  22,
+  24,
+  28,
+  32,
+  36,
+  40,
+  44,
+  50,
+  55,
+  60,
+  65,
+  71,
+  75,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   " [A110001 /Add.",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "I, sect.",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "XXI] ",
+   "",
+   "label"
+  ],
+  [
+   29,
+   " [resolution 1378 (XIV)}",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "110 ",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   38,
+   "[A/IOOOllAdd.l, sect.",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "VIII.]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "111 ",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "112. ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "118 ",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "119 ",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "120 ",
+   "",
+   "label"
+  ],
+  [
+   61,
+   " [resolution 3362 (S-VUJ]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "121 ",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "tn t h e",
+   "in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 62 keeps OCR damage (\"cjS\", missing words and full stops) that cannot be repaired without adding letters.",
+ "unitizer_version": 1,
+ "sha1": "af1f41893dda08d42c775e08681af61b46fdee12",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2464,
+  "words_out": 2436,
+  "retention": 0.9886,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   83,
+   190,
+   123,
+   118,
+   75,
+   77,
+   76,
+   102,
+   75,
+   130,
+   104,
+   88,
+   82,
+   115,
+   173,
+   105,
+   203,
+   223,
+   175,
+   76,
+   43
+  ],
+  "warnings": []
+ }
+}

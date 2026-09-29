@@ -1,0 +1,107 @@
+{
+ "id": "SWE_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   97,
+   97,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  11,
+  19,
+  27,
+  36,
+  48,
+  59,
+  68,
+  71,
+  78,
+  81,
+  86,
+  89
+ ],
+ "cer": [],
+ "fix": [
+  [
+   62,
+   "Swiss",
+   "Suez",
+   "asr_name"
+  ],
+  [
+   65,
+   "Bernarott",
+   "Bernadotte",
+   "asr_name"
+  ],
+  [
+   7,
+   "finances. one",
+   "finances. One",
+   "asr_term"
+  ],
+  [
+   80,
+   "rights. of",
+   "rights of",
+   "asr_term"
+  ],
+  [
+   86,
+   "tomorrow. we",
+   "tomorrow. We",
+   "asr_term"
+  ],
+  [
+   83,
+   "There's",
+   "has",
+   "asr_term"
+  ],
+  [
+   77,
+   "Charter of",
+   "Charter and",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish channel confirms crisis de Suez, Bernadotte (first UN mediator Folke Bernadotte) and Carta de las Naciones Unidas y el Derecho Internacional. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 7 'finances. one' -> 'finances. One'; unit 80 'rights. of' -> 'rights of'; unit 86 'tomorrow. we' -> 'tomorrow. We'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 77 'Charter of' -> 'Charter and' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'of' (decodes 1.00 / 1.00, the UN transcript; forced scoring -2.2 vs 'and' -10.9); there is no 'UN Charter of International Law', and the Spanish 'la Carta de las Naciones Unidas y el Derecho Internacional' shows 'and'); spot 5 unit 83 'There's' -> 'has' (both decodes hear 'has' (1.00 / 1.00); 'Africa, ... There's no permanent seat' does not fit; ES 'y no tiene un escaño permanente')",
+ "unitizer_version": 1,
+ "sha1": "51eea930753a0180ea953be6840ce3805e8d6f20",
+ "layout": "single",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1562,
+  "words_out": 1536,
+  "retention": 0.9834,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   201,
+   97,
+   101,
+   116,
+   193,
+   125,
+   145,
+   60,
+   126,
+   58,
+   87,
+   104,
+   123
+  ],
+  "warnings": []
+ }
+}

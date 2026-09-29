@@ -1,0 +1,75 @@
+{
+ "id": "ECU_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   67,
+   67,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  14,
+  18,
+  22,
+  26,
+  30,
+  33,
+  36,
+  43,
+  51,
+  56,
+  62,
+  66
+ ],
+ "cer": [
+  66
+ ],
+ "fix": [
+  [
+   61,
+   "Novoa",
+   "Noboa",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a5d0d6c2bc6df6614c28bcdef7deeb84fa0887a7",
+ "layout": "single",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1847,
+  "words_out": 1812,
+  "retention": 0.9811,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   166,
+   214,
+   197,
+   133,
+   129,
+   118,
+   76,
+   68,
+   150,
+   144,
+   156,
+   163,
+   94,
+   4
+  ],
+  "warnings": []
+ }
+}

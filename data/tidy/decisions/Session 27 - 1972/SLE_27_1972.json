@@ -1,0 +1,301 @@
+{
+ "id": "SLE_27_1972",
+ "drop": [
+  [
+   25,
+   25,
+   "noise"
+  ],
+  [
+   33,
+   33,
+   "noise"
+  ],
+  [
+   38,
+   38,
+   "noise"
+  ],
+  [
+   133,
+   135,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  10,
+  15,
+  23,
+  26,
+  34,
+  39,
+  42,
+  47,
+  50,
+  53,
+  58,
+  61,
+  63,
+  69,
+  76,
+  79,
+  83,
+  88,
+  90,
+  93,
+  99,
+  106,
+  110,
+  112,
+  114,
+  118,
+  122,
+  127,
+  136,
+  141,
+  146,
+  154,
+  163,
+  171,
+  173,
+  176,
+  180,
+  183,
+  187,
+  190,
+  194,
+  199,
+  204,
+  207,
+  212,
+  217,
+  220,
+  226
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   " [OAUJ",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "partier",
+   "parties",
+   "ocr"
+  ],
+  [
+   57,
+   "mot granted",
+   "not granted",
+   "ocr"
+  ],
+  [
+   101,
+   "in. a policy",
+   "in a policy",
+   "ocr"
+  ],
+  [
+   103,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   103,
+   " [A/8701/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "Secretary - General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   110,
+   "world, The",
+   "world. The",
+   "ocr"
+  ],
+  [
+   112,
+   "ddtente",
+   "detente",
+   "ocr"
+  ],
+  [
+   113,
+   "Assembly, They",
+   "Assembly. They",
+   "ocr"
+  ],
+  [
+   118,
+   " [see A/870.1/Add.",
+   "",
+   "label"
+  ],
+  [
+   119,
+   "1, p. 2]",
+   "",
+   "label"
+  ],
+  [
+   129,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   129,
+   "fast that",
+   "fact that",
+   "ocr"
+  ],
+  [
+   129,
+   "Koraa",
+   "Korea",
+   "ocr"
+  ],
+  [
+   142,
+   "institution, be",
+   "institution be",
+   "ocr"
+  ],
+  [
+   144,
+   "in. certain",
+   "in certain",
+   "ocr"
+  ],
+  [
+   169,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   193,
+   "efforts.in",
+   "efforts in",
+   "ocr"
+  ],
+  [
+   215,
+   "worked cut",
+   "worked out",
+   "ocr"
+  ],
+  [
+   216,
+   "reduction Of",
+   "reduction of",
+   "ocr"
+  ],
+  [
+   221,
+   " [A [8820]",
+   "",
+   "label"
+  ],
+  [
+   226,
+   "confidence m the",
+   "confidence in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de35981d08cc6808716b66849cc2e9e7197df88d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {
+   "noise": 6
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 63
+  },
+  "words_in": 6409,
+  "words_out": 6374,
+  "retention": 0.9945,
+  "n_paragraphs": 50,
+  "paragraph_words": [
+   77,
+   167,
+   137,
+   203,
+   73,
+   155,
+   94,
+   167,
+   184,
+   93,
+   146,
+   147,
+   120,
+   98,
+   198,
+   235,
+   135,
+   128,
+   118,
+   93,
+   77,
+   153,
+   126,
+   140,
+   100,
+   104,
+   111,
+   90,
+   139,
+   171,
+   140,
+   155,
+   203,
+   201,
+   171,
+   98,
+   87,
+   126,
+   85,
+   105,
+   112,
+   95,
+   86,
+   101,
+   72,
+   111,
+   92,
+   80,
+   194,
+   81
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

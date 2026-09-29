@@ -1,0 +1,53 @@
+{
+ "id": "TCD_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  55,
+  70,
+  83,
+  94,
+  115,
+  136,
+  151,
+  163,
+  174
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f34a6dd99746cdbc3589b3f40261d88e24d84f64",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1471,
+  "words_out": 1470,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   102,
+   138,
+   182,
+   113,
+   116,
+   86,
+   152,
+   167,
+   124,
+   110,
+   99,
+   81
+  ],
+  "warnings": []
+ }
+}

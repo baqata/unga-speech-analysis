@@ -1,0 +1,102 @@
+{
+ "id": "SLE_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  16,
+  21,
+  24,
+  28,
+  33,
+  37,
+  39,
+  44,
+  49,
+  51,
+  55,
+  61,
+  67,
+  71,
+  75,
+  78,
+  80,
+  87,
+  88,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "title Assembly's",
+   "the Assembly's",
+   "ocr"
+  ],
+  [
+   11,
+   "of .much",
+   "of much",
+   "ocr"
+  ],
+  [
+   28,
+   "giver, the",
+   "given the",
+   "ocr"
+  ],
+  [
+   36,
+   "ever- greater",
+   "ever-greater",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "494e2d51ed583ebe4296200fdef6616c433bbcd4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 2736,
+  "words_out": 2735,
+  "retention": 0.9996,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   121,
+   88,
+   162,
+   93,
+   195,
+   108,
+   122,
+   117,
+   102,
+   70,
+   138,
+   148,
+   71,
+   77,
+   178,
+   156,
+   107,
+   118,
+   99,
+   94,
+   129,
+   80,
+   81,
+   81
+  ],
+  "warnings": []
+ }
+}

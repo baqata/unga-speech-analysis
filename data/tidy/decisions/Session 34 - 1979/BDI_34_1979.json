@@ -1,0 +1,228 @@
+{
+ "id": "BDI_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  12,
+  17,
+  21,
+  27,
+  32,
+  38,
+  44,
+  46,
+  54,
+  57,
+  60,
+  64,
+  66,
+  68,
+  70,
+  72,
+  77,
+  80,
+  82,
+  87,
+  89,
+  92,
+  94,
+  99,
+  106,
+  109,
+  115,
+  118,
+  122,
+  127,
+  131,
+  134,
+  136,
+  138,
+  144,
+  149,
+  153,
+  159,
+  164,
+  168,
+  172,
+  179,
+  183,
+  186
+ ],
+ "cer": [
+  0,
+  4,
+  9,
+  12,
+  17
+ ],
+ "fix": [
+  [
+   17,
+   "Lie'vano",
+   "Lievano",
+   "ocr"
+  ],
+  [
+   21,
+   "12 ",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "[UPRONA]",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "on I July",
+   "on 1 July",
+   "ocr"
+  ],
+  [
+   67,
+   "world Ml of",
+   "world full of",
+   "ocr"
+  ],
+  [
+   88,
+   "world .should",
+   "world should",
+   "ocr"
+  ],
+  [
+   91,
+   "[OAU]",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "home- rand",
+   "homeland",
+   "ocr"
+  ],
+  [
+   105,
+   "[PLO]",
+   "",
+   "label"
+  ],
+  [
+   119,
+   "anew global",
+   "a new global",
+   "spacing"
+  ],
+  [
+   123,
+   "[resolution S-J0I2]",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "[SALT]",
+   "",
+   "label"
+  ],
+  [
+   131,
+   "in die distribution",
+   "in the distribution",
+   "ocr"
+  ],
+  [
+   136,
+   "re-sources",
+   "resources",
+   "hyphen"
+  ],
+  [
+   152,
+   "its - co-operation",
+   "its co-operation",
+   "ocr"
+  ],
+  [
+   174,
+   "non- official",
+   "non-official",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 141 breaks off mid-sentence ('this crisis was'); text appears to be missing before unit 142.",
+ "unitizer_version": 1,
+ "sha1": "81bf27726d25a5cf812adf3024c102e2f5891b9e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 80
+  },
+  "words_in": 5382,
+  "words_out": 5373,
+  "retention": 0.9983,
+  "n_paragraphs": 48,
+  "paragraph_words": [
+   83,
+   64,
+   127,
+   116,
+   140,
+   150,
+   143,
+   121,
+   135,
+   128,
+   61,
+   191,
+   74,
+   109,
+   117,
+   78,
+   86,
+   77,
+   78,
+   98,
+   130,
+   77,
+   179,
+   129,
+   109,
+   62,
+   152,
+   157,
+   114,
+   123,
+   74,
+   100,
+   94,
+   129,
+   98,
+   86,
+   92,
+   115,
+   124,
+   116,
+   152,
+   111,
+   108,
+   94,
+   168,
+   107,
+   67,
+   130
+  ],
+  "warnings": []
+ }
+}

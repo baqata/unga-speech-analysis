@@ -1,0 +1,55 @@
+{
+ "id": "BOL_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  34,
+  57,
+  70,
+  81,
+  92,
+  110,
+  124,
+  143,
+  168,
+  179,
+  193
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6efa27854688a9a6d1de45669fa7c0f0241da42c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1636,
+  "words_out": 1635,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   140,
+   124,
+   167,
+   106,
+   87,
+   83,
+   141,
+   97,
+   159,
+   204,
+   94,
+   111,
+   122
+  ],
+  "warnings": []
+ }
+}

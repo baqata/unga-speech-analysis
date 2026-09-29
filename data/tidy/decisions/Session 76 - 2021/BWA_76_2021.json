@@ -1,0 +1,81 @@
+{
+ "id": "BWA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  14,
+  19,
+  24,
+  31,
+  41,
+  45,
+  52,
+  64,
+  70,
+  75,
+  79,
+  84,
+  91
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- sixth",
+   "seventy-sixth",
+   "spacing"
+  ],
+  [
+   27,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   92,
+   "seventy- sixth",
+   "seventy-sixth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e0639fb873d6f5b3fcc3f47589d26e7c4f565ab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2571,
+  "words_out": 2564,
+  "retention": 0.9973,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   255,
+   167,
+   134,
+   114,
+   143,
+   182,
+   217,
+   91,
+   143,
+   211,
+   191,
+   167,
+   98,
+   136,
+   217,
+   98
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "id": "SYC_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  17,
+  23,
+  27,
+  33,
+  37,
+  42,
+  49,
+  54,
+  59,
+  67,
+  73,
+  83,
+  86,
+  90,
+  97,
+  100,
+  104,
+  108,
+  112,
+  119,
+  122,
+  129,
+  136
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   68,
+   "base ix our",
+   "base in our",
+   "ocr"
+  ],
+  [
+   87,
+   "development/with",
+   "development with",
+   "ocr"
+  ],
+  [
+   111,
+   "EI Salvador",
+   "El Salvador",
+   "ocr"
+  ],
+  [
+   128,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   129,
+   "Albert Reno",
+   "Albert Rene",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "750780bd0001db625b61a79284442c9ad31212a4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 53
+  },
+  "words_in": 3328,
+  "words_out": 3325,
+  "retention": 0.9991,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   62,
+   125,
+   159,
+   127,
+   95,
+   182,
+   99,
+   134,
+   151,
+   121,
+   133,
+   168,
+   138,
+   204,
+   116,
+   128,
+   162,
+   101,
+   100,
+   116,
+   92,
+   120,
+   103,
+   144,
+   137,
+   108
+  ],
+  "warnings": []
+ }
+}

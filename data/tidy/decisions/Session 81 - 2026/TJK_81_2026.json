@@ -1,0 +1,174 @@
+{
+ "id": "TJK_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   111,
+   111,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  8,
+  15,
+  23,
+  30,
+  38,
+  46,
+  58,
+  69,
+  78,
+  88,
+  95,
+  104,
+  110
+ ],
+ "cer": [
+  2,
+  110
+ ],
+ "fix": [
+  [
+   2,
+   "Khalilul Rahman, President",
+   "Khalilur Rahman, President",
+   "asr_name"
+  ],
+  [
+   2,
+   "Khalilul Rahman on",
+   "Khalilur Rahman on",
+   "asr_name"
+  ],
+  [
+   2,
+   "Excellencies,",
+   "Nations General Assembly, Excellencies,",
+   "asr_name"
+  ],
+  [
+   8,
+   "pricelessly",
+   "precisely",
+   "asr_term"
+  ],
+  [
+   8,
+   "2027-2022",
+   "2027-2036",
+   "asr_term"
+  ],
+  [
+   9,
+   "Imam Ali Rahman",
+   "Emomali Rahmon",
+   "asr_name"
+  ],
+  [
+   22,
+   "reforms",
+   "reaffirms",
+   "asr_term"
+  ],
+  [
+   22,
+   "boards",
+   "borders",
+   "asr_term"
+  ],
+  [
+   43,
+   "Imam Ali Rahman",
+   "Emomali Rahmon",
+   "asr_name"
+  ],
+  [
+   70,
+   "All threats",
+   "Old threats",
+   "asr_term"
+  ],
+  [
+   90,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   81,
+   "compromise. and",
+   "compromise and",
+   "asr_term"
+  ],
+  [
+   101,
+   "cooperation. and",
+   "cooperation. And",
+   "asr_term"
+  ],
+  [
+   106,
+   "them. if",
+   "them if",
+   "asr_term"
+  ],
+  [
+   25,
+   "Excellency's",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   100,
+   "build",
+   "built",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish confirms justamente, 2027-2036, reafirma, fronteras de 1967, amenazas de otrora, ONU 80; President Emomali Rahmon and PGA Khalilur Rahman per official sources; 'Nations General Assembly' restored from English audio re-decode. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 81 'compromise. and' -> 'compromise and'; unit 101 'cooperation. and' -> 'cooperation. And'; unit 106 'them. if' -> 'them if'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 25 'Excellency's' -> 'Excellencies' (homophone: 'Excellency's lasting peace' does not fit; an address to the hall as elsewhere; ES 'Excelencias, una paz duradera'; UN 'Excellencies,' (the comma cannot be added by a repair)); spot 18 unit 100 'build' -> 'built' (both decodes hear 'built' (0.62 / 0.71); 'has known conflict and build peace' does not fit; sounds alike)",
+ "unitizer_version": 1,
+ "sha1": "8c0ab5122200c6bd1ea50074f5bad60d0e567266",
+ "layout": "single",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1730,
+  "words_out": 1701,
+  "retention": 0.9832,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   42,
+   77,
+   151,
+   137,
+   75,
+   121,
+   134,
+   210,
+   140,
+   129,
+   140,
+   79,
+   183,
+   77,
+   6
+  ],
+  "warnings": []
+ }
+}

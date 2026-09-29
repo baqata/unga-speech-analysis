@@ -1,0 +1,88 @@
+{
+ "id": "CHN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  14,
+  19,
+  25,
+  33,
+  42,
+  46,
+  49,
+  52,
+  58,
+  62,
+  66,
+  68,
+  74,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "then.",
+   "then,",
+   "ocr"
+  ],
+  [
+   38,
+   "16.000",
+   "16,000",
+   "ocr"
+  ],
+  [
+   38,
+   "2022. which",
+   "2022, which",
+   "ocr"
+  ],
+  [
+   39,
+   "month.",
+   "month,",
+   "ocr"
+  ],
+  [
+   75,
+   "country.",
+   "country,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d153b454b39376d55dee02386fc26ff5d246b6b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1640,
+  "words_out": 1640,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   161,
+   91,
+   135,
+   90,
+   155,
+   131,
+   78,
+   61,
+   97,
+   148,
+   90,
+   91,
+   71,
+   111,
+   74,
+   56
+  ],
+  "warnings": []
+ }
+}

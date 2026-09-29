@@ -1,0 +1,151 @@
+{
+ "id": "MDG_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  13,
+  16,
+  19,
+  21,
+  25,
+  29,
+  33,
+  37,
+  41,
+  45,
+  49,
+  52,
+  59,
+  63,
+  66,
+  70,
+  73,
+  76,
+  79,
+  85,
+  91,
+  95,
+  101,
+  105,
+  108,
+  114,
+  118,
+  122,
+  124,
+  127,
+  128,
+  133,
+  137
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "thirty- fourth",
+   "thirty-fourth",
+   "spacing"
+  ],
+  [
+   9,
+   "desire, to",
+   "desire to",
+   "ocr"
+  ],
+  [
+   34,
+   "clear- cut",
+   "clear-cut",
+   "spacing"
+  ],
+  [
+   50,
+   "well- determined",
+   "well-determined",
+   "spacing"
+  ],
+  [
+   93,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "Geneva,\" we",
+   "Geneva, we",
+   "ocr"
+  ],
+  [
+   97,
+   "arrange merits",
+   "arrangements",
+   "ocr"
+  ],
+  [
+   125,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1f383c0c89010b2209023cc8a0f35cb392577c8a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 63
+  },
+  "words_in": 5465,
+  "words_out": 5455,
+  "retention": 0.9982,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   101,
+   279,
+   137,
+   150,
+   122,
+   115,
+   120,
+   126,
+   128,
+   153,
+   170,
+   124,
+   150,
+   159,
+   225,
+   136,
+   101,
+   137,
+   112,
+   171,
+   138,
+   161,
+   198,
+   177,
+   186,
+   168,
+   114,
+   224,
+   151,
+   187,
+   93,
+   99,
+   143,
+   99,
+   195,
+   206
+  ],
+  "warnings": []
+ }
+}

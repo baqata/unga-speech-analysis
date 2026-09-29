@@ -1,0 +1,136 @@
+{
+ "id": "DOM_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  12,
+  15,
+  19,
+  21,
+  26,
+  29,
+  31,
+  36,
+  41,
+  46,
+  50,
+  52,
+  56,
+  59,
+  62,
+  67,
+  70,
+  75,
+  79,
+  84,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "26 ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "central!",
+   "central",
+   "ocr"
+  ],
+  [
+   17,
+   "Inter- American",
+   "Inter-American",
+   "hyphen"
+  ],
+  [
+   37,
+   " [resolution 3202 (S-VJ)]",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "of_cur- rency",
+   "of currency",
+   "ocr"
+  ],
+  [
+   84,
+   "oil- exporting",
+   "oil-exporting",
+   "hyphen"
+  ],
+  [
+   86,
+   "•at",
+   "at",
+   "markup"
+  ],
+  [
+   87,
+   "devel-oping",
+   "developing",
+   "hyphen"
+  ],
+  [
+   87,
+   "McNa- mara",
+   "McNamara",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "The text ends on a comma after unit 88.",
+ "unitizer_version": 1,
+ "sha1": "51a8ff4360b0900705822473fe582ba1740d93f4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3104,
+  "words_out": 3091,
+  "retention": 0.9958,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   133,
+   94,
+   130,
+   119,
+   98,
+   218,
+   94,
+   95,
+   112,
+   62,
+   190,
+   173,
+   160,
+   126,
+   119,
+   148,
+   104,
+   128,
+   107,
+   115,
+   138,
+   148,
+   131,
+   95,
+   54
+  ],
+  "warnings": []
+ }
+}

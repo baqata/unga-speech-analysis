@@ -1,0 +1,203 @@
+{
+ "id": "NER_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  17,
+  21,
+  24,
+  27,
+  32,
+  34,
+  39,
+  42,
+  44,
+  48,
+  50,
+  55,
+  57,
+  62,
+  65,
+  68,
+  73,
+  79,
+  84,
+  87,
+  89,
+  93,
+  95,
+  101,
+  107,
+  110,
+  115,
+  121,
+  125,
+  131,
+  139,
+  141,
+  148,
+  152,
+  154
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   2,
+   "ha will",
+   "he will",
+   "ocr"
+  ],
+  [
+   5,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   11,
+   "affaire",
+   "affairs",
+   "ocr"
+  ],
+  [
+   16,
+   "Kith",
+   "with",
+   "ocr"
+  ],
+  [
+   26,
+   "together,,",
+   "together,",
+   "ocr"
+  ],
+  [
+   29,
+   "morel",
+   "moral",
+   "ocr"
+  ],
+  [
+   35,
+   "commitment, Above",
+   "commitment. Above",
+   "ocr"
+  ],
+  [
+   35,
+   "upon file apartheid",
+   "upon the apartheid",
+   "ocr"
+  ],
+  [
+   46,
+   "whoso",
+   "whose",
+   "ocr"
+  ],
+  [
+   64,
+   "it end succeed",
+   "it and succeed",
+   "ocr"
+  ],
+  [
+   77,
+   "reunification off",
+   "reunification of",
+   "ocr"
+  ],
+  [
+   81,
+   "guest",
+   "quest",
+   "ocr"
+  ],
+  [
+   117,
+   "Bights",
+   "Rights",
+   "ocr"
+  ],
+  [
+   153,
+   "Bretton Hoods",
+   "Bretton Woods",
+   "ocr"
+  ],
+  [
+   153,
+   "concrete shops",
+   "concrete shape",
+   "ocr"
+  ],
+  [
+   138,
+   "Ш must",
+   "We must",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7e0e8a06b6faf196d46173a0484b3f9575e91161",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4919,
+  "words_out": 4919,
+  "retention": 1.0,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   127,
+   100,
+   158,
+   191,
+   159,
+   192,
+   61,
+   165,
+   92,
+   144,
+   112,
+   82,
+   104,
+   76,
+   165,
+   60,
+   195,
+   82,
+   76,
+   139,
+   149,
+   153,
+   109,
+   84,
+   136,
+   112,
+   165,
+   157,
+   85,
+   164,
+   179,
+   67,
+   90,
+   233,
+   77,
+   196,
+   131,
+   69,
+   83
+  ],
+  "warnings": []
+ }
+}

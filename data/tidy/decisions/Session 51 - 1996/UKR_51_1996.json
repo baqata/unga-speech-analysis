@@ -1,0 +1,94 @@
+{
+ "id": "UKR_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  29,
+  44,
+  68,
+  74,
+  92,
+  115,
+  125,
+  134,
+  147,
+  167,
+  182,
+  197,
+  212,
+  230,
+  246,
+  265,
+  275,
+  292,
+  306,
+  316,
+  330
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "(resolution 50/6, third",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "preambular para.)",
+   "",
+   "label"
+  ],
+  [
+   134,
+   "ln",
+   "In",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a8f69966bfc3ba6e6052583747ccccbd8e3e32f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 338,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2798,
+  "words_out": 2789,
+  "retention": 0.9968,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   68,
+   159,
+   117,
+   216,
+   43,
+   155,
+   191,
+   77,
+   81,
+   118,
+   182,
+   123,
+   114,
+   115,
+   140,
+   139,
+   157,
+   81,
+   138,
+   111,
+   75,
+   123,
+   66
+  ],
+  "warnings": []
+ }
+}

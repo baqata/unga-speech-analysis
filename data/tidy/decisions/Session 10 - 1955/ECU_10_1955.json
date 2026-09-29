@@ -1,0 +1,140 @@
+{
+ "id": "ECU_10_1955",
+ "drop": [
+  [
+   37,
+   37,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  16,
+  17,
+  21,
+  27,
+  31,
+  35,
+  41,
+  46,
+  48,
+  54,
+  57,
+  60,
+  63,
+  68,
+  75,
+  77,
+  81,
+  83,
+  88,
+  91,
+  96,
+  100
+ ],
+ "cer": [
+  0,
+  100
+ ],
+ "fix": [
+  [
+   2,
+   "lie",
+   "he",
+   "ocr"
+  ],
+  [
+   6,
+   " _",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "functioning,",
+   "functioning.",
+   "ocr"
+  ],
+  [
+   38,
+   "desire,",
+   "desire.",
+   "ocr"
+  ],
+  [
+   50,
+   "nail",
+   "hall",
+   "ocr"
+  ],
+  [
+   75,
+   "seven- Power",
+   "seven-Power",
+   "hyphen"
+  ],
+  [
+   92,
+   "for,",
+   "for.",
+   "ocr"
+  ],
+  [
+   95,
+   " [E/CN.12/362/ Rev.1, p, 170]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c598dd4ebd5e9dc1aea8729227fed1aa4f5e2fa5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 28
+  },
+  "words_in": 3910,
+  "words_out": 3894,
+  "retention": 0.9959,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   213,
+   230,
+   95,
+   157,
+   88,
+   139,
+   243,
+   72,
+   136,
+   215,
+   159,
+   100,
+   198,
+   135,
+   103,
+   95,
+   209,
+   231,
+   77,
+   136,
+   94,
+   181,
+   161,
+   215,
+   132,
+   80
+  ],
+  "warnings": []
+ }
+}

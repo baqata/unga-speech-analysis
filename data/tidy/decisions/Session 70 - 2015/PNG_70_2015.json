@@ -1,0 +1,74 @@
+{
+ "id": "PNG_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  13,
+  20,
+  26,
+  31,
+  32,
+  37,
+  41,
+  43,
+  45,
+  48,
+  54,
+  57,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   2,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7154e518a9429c588b8e7c87991893cef0c8554",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1673,
+  "words_out": 1669,
+  "retention": 0.9976,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   122,
+   103,
+   169,
+   136,
+   141,
+   115,
+   28,
+   99,
+   85,
+   80,
+   82,
+   74,
+   172,
+   105,
+   120,
+   38
+  ],
+  "warnings": []
+ }
+}

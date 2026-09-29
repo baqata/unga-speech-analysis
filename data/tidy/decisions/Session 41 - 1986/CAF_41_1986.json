@@ -1,0 +1,89 @@
+{
+ "id": "CAF_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  6,
+  10,
+  12,
+  13,
+  17,
+  22,
+  26,
+  28,
+  30,
+  34,
+  39,
+  43,
+  49,
+  53,
+  56,
+  57,
+  60,
+  64,
+  71
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   18,
+   "work*,",
+   "work,",
+   "ocr"
+  ],
+  [
+   27,
+   "continent*,",
+   "continent,",
+   "ocr"
+  ],
+  [
+   46,
+   "boundaries*,",
+   "boundaries,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c0abfd4fe71cb2b8f1b132a8c7868eab930eafde",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2708,
+  "words_out": 2708,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   154,
+   45,
+   109,
+   65,
+   65,
+   173,
+   140,
+   154,
+   54,
+   89,
+   146,
+   131,
+   138,
+   214,
+   101,
+   141,
+   81,
+   157,
+   141,
+   149,
+   261
+  ],
+  "warnings": []
+ }
+}

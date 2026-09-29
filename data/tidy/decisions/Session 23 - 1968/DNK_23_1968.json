@@ -1,0 +1,80 @@
+{
+ "id": "DNK_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  22,
+  26,
+  32,
+  36,
+  42,
+  51,
+  55,
+  63,
+  68,
+  74,
+  80,
+  87,
+  92,
+  95,
+  97,
+  104,
+  110,
+  115,
+  124,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "countries. have",
+   "countries have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "accdb20772bdd4bd1909be34d616f5761983bf7a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2932,
+  "words_out": 2900,
+  "retention": 0.9891,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   68,
+   183,
+   108,
+   82,
+   142,
+   86,
+   123,
+   191,
+   116,
+   171,
+   130,
+   151,
+   121,
+   135,
+   162,
+   77,
+   34,
+   163,
+   162,
+   88,
+   161,
+   110,
+   136
+  ],
+  "warnings": []
+ }
+}

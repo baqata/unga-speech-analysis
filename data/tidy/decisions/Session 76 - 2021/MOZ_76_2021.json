@@ -1,0 +1,64 @@
+{
+ "id": "MOZ_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  17,
+  21,
+  24,
+  29,
+  31,
+  37,
+  41,
+  43,
+  46,
+  51,
+  55
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "conflict- mediation",
+   "conflict-mediation",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "527a0b2e8b76e62a9b9689de0fc2df451dc795d6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1503,
+  "words_out": 1502,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   112,
+   116,
+   152,
+   94,
+   66,
+   69,
+   98,
+   58,
+   153,
+   68,
+   66,
+   69,
+   147,
+   128,
+   106
+  ],
+  "warnings": []
+ }
+}

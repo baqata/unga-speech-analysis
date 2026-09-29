@@ -1,0 +1,173 @@
+{
+ "id": "BRN_81_2026",
+ "drop": [
+  [
+   88,
+   88,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  15,
+  31,
+  38,
+  43,
+  50,
+  56,
+  66,
+  74,
+  87
+ ],
+ "cer": [
+  0,
+  87
+ ],
+ "fix": [
+  [
+   0,
+   "I now give the floor to His Royal Highness Prince Abdul Mateen ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Minister of Foreign Affairs of Brunei Darussalam ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Hassan al-Bolkiah",
+   "Hassanal Bolkiah",
+   "asr_name"
+  ],
+  [
+   2,
+   "Wizzarim wa-Dawla",
+   "Mu'izzaddin Waddaulah",
+   "asr_name"
+  ],
+  [
+   2,
+   "young Departuan",
+   "Yang Di-Pertuan",
+   "asr_name"
+  ],
+  [
+   2,
+   "Brunad al-Salam",
+   "Brunei Darussalam",
+   "asr_name"
+  ],
+  [
+   3,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   10,
+   "Ibn Adir Salaam",
+   "Brunei Darussalam",
+   "asr_name"
+  ],
+  [
+   22,
+   "legal settlements",
+   "illegal settlements",
+   "asr_term"
+  ],
+  [
+   22,
+   "sector violence",
+   "settler violence",
+   "asr_term"
+  ],
+  [
+   34,
+   "Brunei de Salaam",
+   "Brunei Darussalam",
+   "asr_name"
+  ],
+  [
+   46,
+   "sentiments",
+   "settlement",
+   "asr_term"
+  ],
+  [
+   53,
+   "Bernard",
+   "Brunei Darussalam",
+   "asr_name"
+  ],
+  [
+   53,
+   "UN-AT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   59,
+   "Brunei R.S.A.",
+   "Brunei Darussalam",
+   "asr_name"
+  ],
+  [
+   7,
+   "words. institutions",
+   "words. Institutions",
+   "asr_term"
+  ],
+  [
+   46,
+   "Charter. respect",
+   "Charter. Respect",
+   "asr_term"
+  ],
+  [
+   1,
+   "wa-amutullahi",
+   "wa-rahmatullahi",
+   "asr_term"
+  ],
+  [
+   10,
+   "First, for",
+   "For",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 joins the presiding officer's introduction to the speaker's opening Bismillah, so only the introduction is removed by label; Sultan's official title per Brunei Prime Minister's Office; PGA Khalilur Rahman per un.org; solución pacífica, ONU 80 and Brunei per Spanish channel. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 7 'words. institutions' -> 'words. Institutions'; unit 46 'Charter. respect' -> 'Charter. Respect'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 1 'wa-amutullahi' -> 'wa-rahmatullahi' (fixed greeting 'wa rahmatullahi wa barakatuh'; decodes hear 'warahmatullahi' 0.90 / 0.79; 'wa-amutullahi' is a mishearing; 'wa-barakatu' left as a spelling variant); spot 8 unit 10 'First, for' -> 'For' (invented word: both decodes go from 'exposed.' to 'For' (1.00 / 0.99) with no 'First'; ES 'por ello para Brunei' has none). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 53 'Bernard' -> 'Brunei Darussalam' (three of five re-decodes hear a second element, 'Salam' or 'de la Salaam', at 480.3-480.4 s; the name spans 479.6-480.5 s; the speaker says 'Brunei Darussalam' in units 10, 34, 59, 66 and 86).",
+ "unitizer_version": 1,
+ "sha1": "55d44021e357040589504272336795921eb08983",
+ "layout": "single",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1432,
+  "words_out": 1401,
+  "retention": 0.9784,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   93,
+   233,
+   225,
+   95,
+   61,
+   112,
+   86,
+   160,
+   142,
+   192,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "OMN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  12,
+  16,
+  19,
+  22,
+  30,
+  33,
+  39
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "el- Sheikh",
+   "el-Sheikh",
+   "hyphen"
+  ],
+  [
+   27,
+   "civil- society",
+   "civil-society",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "20870a404947c8886f5593476f8bc5e87992ba53",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1234,
+  "words_out": 1232,
+  "retention": 0.9984,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   134,
+   147,
+   87,
+   138,
+   66,
+   95,
+   215,
+   107,
+   125,
+   118
+  ],
+  "warnings": []
+ }
+}

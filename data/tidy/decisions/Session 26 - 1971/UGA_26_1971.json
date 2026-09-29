@@ -1,0 +1,140 @@
+{
+ "id": "UGA_26_1971",
+ "drop": [
+  [
+   20,
+   20,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  8,
+  9,
+  12,
+  15,
+  19,
+  24,
+  26,
+  31,
+  37,
+  41,
+  46,
+  52,
+  56,
+  59,
+  62,
+  65,
+  68,
+  76,
+  78
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  8,
+  78
+ ],
+ "fix": [
+  [
+   0,
+   "elect' ; to",
+   "elected to",
+   "ocr"
+  ],
+  [
+   13,
+   "of ail nations",
+   "of all nations",
+   "ocr"
+  ],
+  [
+   23,
+   "nation bf",
+   "nation of",
+   "ocr"
+  ],
+  [
+   26,
+   "international' relations",
+   "international relations",
+   "ocr"
+  ],
+  [
+   29,
+   "Member States, That",
+   "Member States. That",
+   "ocr"
+  ],
+  [
+   30,
+   "enunciated,",
+   "enunciated.",
+   "ocr"
+  ],
+  [
+   34,
+   "adopted, by",
+   "adopted by",
+   "ocr"
+  ],
+  [
+   45,
+   "Unite J Kingdom",
+   "United Kingdom",
+   "ocr"
+  ],
+  [
+   49,
+   " [NATO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "86e04f5dbd964aea795874b54a691effc77aea3f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2360,
+  "words_out": 2348,
+  "retention": 0.9949,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   70,
+   36,
+   136,
+   22,
+   69,
+   122,
+   196,
+   133,
+   65,
+   152,
+   204,
+   118,
+   110,
+   152,
+   104,
+   93,
+   115,
+   109,
+   78,
+   173,
+   69,
+   22
+  ],
+  "warnings": []
+ }
+}

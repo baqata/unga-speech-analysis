@@ -1,0 +1,125 @@
+{
+ "id": "ITA_12_1957",
+ "drop": [
+  [
+   44,
+   44,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  19,
+  23,
+  29,
+  36,
+  41,
+  49,
+  52,
+  57,
+  62,
+  66,
+  68,
+  74,
+  81,
+  93,
+  101,
+  109,
+  112,
+  118,
+  125,
+  128,
+  131,
+  137,
+  139,
+  142,
+  146,
+  151,
+  158,
+  163,
+  166,
+  172
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "last year, A new",
+   "last year. A new",
+   "ocr"
+  ],
+  [
+   142,
+   "being; studied",
+   "being studied",
+   "ocr"
+  ],
+  [
+   129,
+   " [A/3594/Add.1].",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd5bc9650ea5d0e8b78b437e09fa54c64b926ec7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 59
+  },
+  "words_in": 5073,
+  "words_out": 5069,
+  "retention": 0.9992,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   100,
+   118,
+   131,
+   75,
+   192,
+   135,
+   263,
+   119,
+   156,
+   86,
+   98,
+   118,
+   110,
+   77,
+   107,
+   119,
+   228,
+   208,
+   233,
+   137,
+   201,
+   264,
+   87,
+   124,
+   212,
+   165,
+   123,
+   198,
+   124,
+   252,
+   136,
+   84,
+   209,
+   80
+  ],
+  "warnings": []
+ }
+}

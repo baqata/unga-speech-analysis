@@ -1,0 +1,86 @@
+{
+ "id": "SGP_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  19,
+  22,
+  30,
+  34,
+  45,
+  52,
+  57,
+  61,
+  69,
+  72,
+  77,
+  81,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "expeditious hit not",
+   "expeditious but not",
+   "ocr"
+  ],
+  [
+   6,
+   "twenty--fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   16,
+   "there} have",
+   "there have",
+   "ocr"
+  ],
+  [
+   88,
+   "then I: follows",
+   "then it follows",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bfc7232756c0552be5fe647acbedacb69d5d2545",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 2405,
+  "words_out": 2405,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   120,
+   122,
+   154,
+   103,
+   245,
+   115,
+   251,
+   154,
+   103,
+   107,
+   203,
+   110,
+   145,
+   86,
+   246,
+   141
+  ],
+  "warnings": []
+ }
+}

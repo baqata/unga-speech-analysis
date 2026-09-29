@@ -1,0 +1,55 @@
+{
+ "id": "CIV_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  30,
+  56,
+  87,
+  102,
+  123,
+  147,
+  165,
+  181,
+  203,
+  217,
+  234,
+  243
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8372a7ec6cf9892081dbb225631133b3e2c05c9a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2035,
+  "words_out": 2032,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   236,
+   202,
+   246,
+   130,
+   186,
+   177,
+   156,
+   131,
+   186,
+   109,
+   129,
+   62,
+   82
+  ],
+  "warnings": []
+ }
+}

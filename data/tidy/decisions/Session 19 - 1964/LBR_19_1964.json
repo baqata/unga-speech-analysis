@@ -1,0 +1,285 @@
+{
+ "id": "LBR_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  11,
+  18,
+  24,
+  32,
+  34,
+  40,
+  44,
+  48,
+  49,
+  51,
+  55,
+  59,
+  63,
+  68,
+  73,
+  76,
+  77,
+  81,
+  85,
+  87,
+  91,
+  95,
+  98,
+  105,
+  110,
+  113,
+  117,
+  120,
+  124,
+  126,
+  129,
+  132,
+  133,
+  136,
+  143
+ ],
+ "cer": [
+  1,
+  6,
+  143
+ ],
+ "fix": [
+  [
+   9,
+   "assist- in",
+   "assist in",
+   "ocr"
+  ],
+  [
+   44,
+   "humanity,",
+   "humanity.",
+   "ocr"
+  ],
+  [
+   45,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   49,
+   "nuclear - explosion",
+   "nuclear explosion",
+   "ocr"
+  ],
+  [
+   53,
+   "State In July",
+   "State in July",
+   "ocr"
+  ],
+  [
+   53,
+   "give Increased",
+   "give increased",
+   "ocr"
+  ],
+  [
+   54,
+   "make It possible",
+   "make it possible",
+   "ocr"
+  ],
+  [
+   56,
+   "are Indispensable",
+   "are indispensable",
+   "ocr"
+  ],
+  [
+   56,
+   "direction In which",
+   "direction in which",
+   "ocr"
+  ],
+  [
+   58,
+   "of Influencing",
+   "of influencing",
+   "ocr"
+  ],
+  [
+   58,
+   "States, The action",
+   "States. The action",
+   "ocr"
+  ],
+  [
+   58,
+   "the Initiative",
+   "the initiative",
+   "ocr"
+  ],
+  [
+   58,
+   "March In Geneva",
+   "March in Geneva",
+   "ocr"
+  ],
+  [
+   59,
+   "seems tome",
+   "seems to me",
+   "merged_word"
+  ],
+  [
+   60,
+   "are In part",
+   "are in part",
+   "ocr"
+  ],
+  [
+   68,
+   "Republic, of",
+   "Republic of",
+   "ocr"
+  ],
+  [
+   72,
+   "is Indirectly",
+   "is indirectly",
+   "ocr"
+  ],
+  [
+   74,
+   "occassions",
+   "occasions",
+   "ocr"
+  ],
+  [
+   75,
+   "majority In that",
+   "majority in that",
+   "ocr"
+  ],
+  [
+   75,
+   "the Individual",
+   "the individual",
+   "ocr"
+  ],
+  [
+   93,
+   "practised In South",
+   "practised in South",
+   "ocr"
+  ],
+  [
+   126,
+   "egress",
+   "express",
+   "ocr"
+  ],
+  [
+   126,
+   " [A/580l/Add.l, p. 6]",
+   "",
+   "label"
+  ],
+  [
+   126,
+   "conflict\",",
+   "conflict\".",
+   "ocr"
+  ],
+  [
+   129,
+   "(XVIII), Those",
+   "(XVIII). Those",
+   "ocr"
+  ],
+  [
+   132,
+   "programmes, My",
+   "programmes. My",
+   "ocr"
+  ],
+  [
+   132,
+   "matter, I believe",
+   "matter. I believe",
+   "ocr"
+  ],
+  [
+   141,
+   "its Ideals",
+   "its ideals",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "87e45854c2bad568cb4798195ca41dcd2d24b957",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 64
+  },
+  "words_in": 4574,
+  "words_out": 4567,
+  "retention": 0.9985,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   158,
+   145,
+   149,
+   139,
+   209,
+   97,
+   135,
+   118,
+   123,
+   92,
+   61,
+   163,
+   147,
+   104,
+   136,
+   163,
+   124,
+   94,
+   62,
+   154,
+   117,
+   139,
+   161,
+   117,
+   158,
+   145,
+   110,
+   125,
+   119,
+   138,
+   58,
+   136,
+   155,
+   66,
+   93,
+   140,
+   17
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

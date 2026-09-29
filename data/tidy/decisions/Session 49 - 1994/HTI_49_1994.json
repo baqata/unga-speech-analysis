@@ -1,0 +1,99 @@
+{
+ "id": "HTI_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  15,
+  22,
+  29,
+  42,
+  51,
+  53,
+  58,
+  63,
+  67,
+  75,
+  84,
+  91,
+  96,
+  104,
+  113,
+  120,
+  129,
+  133,
+  138,
+  140
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   20,
+   "tom asunder",
+   "torn asunder",
+   "ocr"
+  ],
+  [
+   53,
+   "1994,750,000",
+   "1994, 750,000",
+   "spacing"
+  ],
+  [
+   58,
+   "has favor",
+   "has",
+   "ocr"
+  ],
+  [
+   110,
+   "modem State",
+   "modern State",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba0c69efa374fdd643cb1c2235347c9659040656",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2939,
+  "words_out": 2939,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   135,
+   99,
+   141,
+   158,
+   156,
+   117,
+   115,
+   79,
+   116,
+   97,
+   94,
+   139,
+   161,
+   140,
+   130,
+   128,
+   167,
+   118,
+   159,
+   123,
+   94,
+   78,
+   195
+  ],
+  "warnings": []
+ }
+}

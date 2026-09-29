@@ -1,0 +1,74 @@
+{
+ "id": "ZMB_63_2008",
+ "drop": [
+  [
+   198,
+   199,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  22,
+  32,
+  47,
+  61,
+  82,
+  96,
+  107,
+  119,
+  136,
+  151,
+  166,
+  187,
+  200,
+  216,
+  227,
+  239
+ ],
+ "cer": [
+  0,
+  32
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f53da25cdaa287736d16b0edc402021e00d46c99",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 249,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1896,
+  "words_out": 1886,
+  "retention": 0.9947,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   180,
+   72,
+   120,
+   108,
+   156,
+   114,
+   74,
+   81,
+   114,
+   116,
+   125,
+   162,
+   80,
+   124,
+   89,
+   93,
+   78
+  ],
+  "warnings": [
+   "procedural drop [198,199] in the middle of the speech"
+  ]
+ }
+}

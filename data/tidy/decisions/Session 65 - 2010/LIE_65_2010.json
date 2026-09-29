@@ -1,0 +1,51 @@
+{
+ "id": "LIE_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  24,
+  42,
+  63,
+  84,
+  93,
+  110,
+  125,
+  142,
+  156,
+  164
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bdb0950c9733f145f7e083987e8ed3f424236e6e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1475,
+  "words_out": 1475,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   122,
+   72,
+   150,
+   178,
+   175,
+   72,
+   145,
+   141,
+   135,
+   117,
+   65,
+   103
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "JOR_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  15,
+  20,
+  25,
+  27,
+  33,
+  36,
+  38
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "Palestinian- Israeli",
+   "Palestinian-Israeli",
+   "hyphen"
+  ],
+  [
+   25,
+   " (A/34/PV.7para. 22)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "744df69e5c75b681a0fa4e674391052a4f2af34e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1010,
+  "words_out": 1007,
+  "retention": 0.997,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   120,
+   114,
+   62,
+   108,
+   127,
+   101,
+   137,
+   128,
+   81,
+   29
+  ],
+  "warnings": []
+ }
+}

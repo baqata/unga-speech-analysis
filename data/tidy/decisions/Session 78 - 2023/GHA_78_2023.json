@@ -1,0 +1,138 @@
+{
+ "id": "GHA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  14,
+  19,
+  25,
+  30,
+  36,
+  45,
+  50,
+  54,
+  58,
+  65,
+  72,
+  79
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "War. nearly",
+   "War, nearly",
+   "ocr"
+  ],
+  [
+   5,
+   "peace.",
+   "peace,",
+   "ocr"
+  ],
+  [
+   13,
+   "Long- held",
+   "Long-held",
+   "hyphen"
+  ],
+  [
+   13,
+   "and. in",
+   "and, in",
+   "ocr"
+  ],
+  [
+   14,
+   "we. the",
+   "we, the",
+   "ocr"
+  ],
+  [
+   21,
+   "2017. the",
+   "2017, the",
+   "ocr"
+  ],
+  [
+   32,
+   "if. and",
+   "if, and",
+   "ocr"
+  ],
+  [
+   33,
+   "And. at",
+   "And, at",
+   "ocr"
+  ],
+  [
+   41,
+   "can. under",
+   "can, under",
+   "ocr"
+  ],
+  [
+   68,
+   "Yes. those",
+   "Yes, those",
+   "ocr"
+  ],
+  [
+   72,
+   "(SDGs). and",
+   "(SDGs), and",
+   "ocr"
+  ],
+  [
+   74,
+   "met. and",
+   "met, and",
+   "ocr"
+  ],
+  [
+   75,
+   "2023. just",
+   "2023, just",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6cd29beeb1f5cd7f75093c7319395c06b8c6019",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2142,
+  "words_out": 2141,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   67,
+   77,
+   186,
+   185,
+   160,
+   161,
+   146,
+   203,
+   178,
+   98,
+   148,
+   219,
+   143,
+   136,
+   34
+  ],
+  "warnings": []
+ }
+}

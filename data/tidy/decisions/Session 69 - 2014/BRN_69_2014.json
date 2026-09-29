@@ -1,0 +1,58 @@
+{
+ "id": "BRN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  30,
+  43,
+  57,
+  67,
+  88,
+  100,
+  114,
+  133,
+  141,
+  163
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "Damssalam",
+   "Darussalam",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1cd09b1e7596c7e65f714fcf746f3978d319e4d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1360,
+  "words_out": 1358,
+  "retention": 0.9985,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   156,
+   96,
+   89,
+   108,
+   78,
+   150,
+   86,
+   110,
+   150,
+   71,
+   190,
+   74
+  ],
+  "warnings": []
+ }
+}

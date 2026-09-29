@@ -1,0 +1,46 @@
+{
+ "id": "MCO_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  30,
+  46,
+  64,
+  88,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7fee10c89b64b533436d85c82a1d8b34be85b8cf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 1
+  },
+  "words_in": 943,
+  "words_out": 941,
+  "retention": 0.9979,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   72,
+   66,
+   103,
+   134,
+   137,
+   175,
+   141,
+   113
+  ],
+  "warnings": []
+ }
+}

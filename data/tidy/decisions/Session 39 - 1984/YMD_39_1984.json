@@ -1,0 +1,114 @@
+{
+ "id": "YMD_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  16,
+  19,
+  22,
+  25,
+  30,
+  33,
+  36,
+  44,
+  49,
+  53,
+  57,
+  59,
+  64,
+  68,
+  71,
+  76,
+  79
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "thirty ninth",
+   "thirty-ninth",
+   "spacing"
+  ],
+  [
+   4,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   21,
+   "Lebanon.'\"",
+   "Lebanon.",
+   "ocr"
+  ],
+  [
+   42,
+   "peace loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   79,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   81,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   82,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 49 is garbled in the source ('and of and the racist minority').",
+ "unitizer_version": 1,
+ "sha1": "2ab7a846bbb5bc505e2aae6e33bea7255bc49ca2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 2771,
+  "words_out": 2762,
+  "retention": 0.9968,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   195,
+   94,
+   148,
+   133,
+   188,
+   87,
+   111,
+   126,
+   56,
+   137,
+   188,
+   126,
+   144,
+   125,
+   85,
+   156,
+   149,
+   99,
+   118,
+   88,
+   209
+  ],
+  "warnings": []
+ }
+}

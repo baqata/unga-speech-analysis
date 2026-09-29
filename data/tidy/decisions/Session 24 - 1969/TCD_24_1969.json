@@ -1,0 +1,133 @@
+{
+ "id": "TCD_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  35,
+  45,
+  64,
+  86,
+  98,
+  119,
+  135,
+  149,
+  163,
+  174,
+  196,
+  219,
+  230,
+  247,
+  265
+ ],
+ "cer": [
+  0,
+  17,
+  35,
+  45
+ ],
+ "fix": [
+  [
+   1,
+   "Mr, Emilio",
+   "Mr. Emilio",
+   "ocr"
+  ],
+  [
+   57,
+   "Sympathy",
+   "sympathy",
+   "ocr"
+  ],
+  [
+   68,
+   "and ‘the",
+   "and the",
+   "ocr"
+  ],
+  [
+   88,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   97,
+   " [A/7601/Add.1, para, 28.]",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "terror’.",
+   "terror”.",
+   "ocr"
+  ],
+  [
+   141,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   199,
+   "retrogade",
+   "retrograde",
+   "ocr"
+  ],
+  [
+   226,
+   " [Ibid., para. 34.]",
+   "",
+   "label"
+  ],
+  [
+   233,
+   "Spare",
+   "spare",
+   "ocr"
+  ],
+  [
+   264,
+   " [see A/760/Add.1, para. 85]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a6d9ea81f4e76b92ce6eceffd46fc986f848819",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 271,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2507,
+  "words_out": 2460,
+  "retention": 0.9813,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   152,
+   172,
+   104,
+   173,
+   201,
+   106,
+   194,
+   147,
+   123,
+   121,
+   100,
+   202,
+   218,
+   96,
+   155,
+   144,
+   52
+  ],
+  "warnings": []
+ }
+}

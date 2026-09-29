@@ -1,0 +1,119 @@
+{
+ "id": "RWA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   39,
+   39,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  10,
+  14,
+  19,
+  25,
+  32
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Kalura Naman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   4,
+   "First",
+   "81st",
+   "asr_term"
+  ],
+  [
+   5,
+   "Secretary of State.",
+   "Secretary",
+   "asr_term"
+  ],
+  [
+   7,
+   "Karilu Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   7,
+   "first session",
+   "81st session",
+   "asr_term"
+  ],
+  [
+   10,
+   "eight years",
+   "80 years",
+   "asr_term"
+  ],
+  [
+   24,
+   "DLC-sponsored",
+   "DRC-sponsored",
+   "asr_name"
+  ],
+  [
+   29,
+   "Artani",
+   "Al Thani",
+   "asr_name"
+  ],
+  [
+   29,
+   "Fauré Niasimbe",
+   "Faure Gnassingbé",
+   "asr_name"
+  ],
+  [
+   24,
+   "mercenaries. and",
+   "mercenaries. And",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 3 invented text in the pause; 5 'Secretary of State.' is a mis-decode of 'Secretary' continuing in 6 ('General of the United Nations'); 7 Spanish '81o periodo'; 10 'octogesimo aniversario'; Togo President Faure Gnassingbe (AU mediator). Main-agent audit: unit 33 'economic shocks' kept (p 1.00 at every start; the speaker's own words; Spanish 'crisis climáticas'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 24 'mercenaries. and' -> 'mercenaries. And'",
+ "unitizer_version": 1,
+ "sha1": "b6b4d6aea8f2c00deb610ceb4ab268b2ef0e54d2",
+ "layout": "single",
+ "stats": {
+  "n_units": 40,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 741,
+  "words_out": 659,
+  "retention": 0.8893,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   104,
+   71,
+   85,
+   117,
+   171,
+   111
+  ],
+  "warnings": []
+ }
+}

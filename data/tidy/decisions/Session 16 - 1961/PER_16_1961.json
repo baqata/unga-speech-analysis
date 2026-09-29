@@ -1,0 +1,102 @@
+{
+ "id": "PER_16_1961",
+ "drop": [
+  [
+   0,
+   0,
+   "header_footer"
+  ],
+  [
+   16,
+   16,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  5,
+  9,
+  11,
+  13,
+  17,
+  22,
+  25,
+  31,
+  36,
+  37,
+  41,
+  45,
+  49,
+  51,
+  55
+ ],
+ "cer": [
+  2,
+  55
+ ],
+ "fix": [
+  [
+   1,
+   "PRESIDENT PRADO (Peru) (translated from Spanish): ",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "Peruvian,",
+   "Peruvian",
+   "ocr"
+  ],
+  [
+   17,
+   "were'",
+   "were",
+   "ocr"
+  ],
+  [
+   48,
+   "duty. ^",
+   "duty.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 is the printed heading of the address and unit 16 a page-foot document symbol; both are dropped.",
+ "unitizer_version": 1,
+ "sha1": "7194c7fc8bb75460fd70def467f98724fae4f125",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2157,
+  "words_out": 2137,
+  "retention": 0.9907,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   57,
+   82,
+   146,
+   121,
+   136,
+   109,
+   181,
+   95,
+   210,
+   183,
+   63,
+   144,
+   134,
+   114,
+   141,
+   121,
+   100
+  ],
+  "warnings": []
+ }
+}

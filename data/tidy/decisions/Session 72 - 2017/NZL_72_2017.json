@@ -1,0 +1,60 @@
+{
+ "id": "NZL_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  19,
+  26,
+  31,
+  38,
+  42,
+  48,
+  52,
+  57,
+  61,
+  67
+ ],
+ "cer": [],
+ "fix": [
+  [
+   49,
+   "great- ocean",
+   "great-ocean",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21f3aaf65f1ffe1a442265206b15d057d53048d8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1460,
+  "words_out": 1459,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   74,
+   79,
+   107,
+   173,
+   112,
+   112,
+   122,
+   90,
+   92,
+   63,
+   135,
+   96,
+   117,
+   87
+  ],
+  "warnings": []
+ }
+}

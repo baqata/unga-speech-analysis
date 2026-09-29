@@ -1,0 +1,123 @@
+{
+ "id": "MAR_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  15,
+  21,
+  28,
+  30,
+  35,
+  39,
+  41,
+  48,
+  51,
+  56,
+  62,
+  65,
+  68,
+  71,
+  75,
+  79,
+  82,
+  89,
+  92,
+  98,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "gold war",
+   "cold war",
+   "ocr"
+  ],
+  [
+   10,
+   "Hass an",
+   "Hassan",
+   "split_word"
+  ],
+  [
+   33,
+   "declaration if adopted",
+   "declaration it adopted",
+   "ocr"
+  ],
+  [
+   38,
+   ", Since",
+   ". Since",
+   "ocr"
+  ],
+  [
+   44,
+   ", Indeed",
+   ". Indeed",
+   "ocr"
+  ],
+  [
+   66,
+   "Hassan H",
+   "Hassan II",
+   "ocr"
+  ],
+  [
+   97,
+   "attached,",
+   "attached.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4a649ce2e062054d83620db1fd4d2118c8b2eb9e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 37
+  },
+  "words_in": 3026,
+  "words_out": 3025,
+  "retention": 0.9997,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   49,
+   86,
+   113,
+   85,
+   192,
+   158,
+   64,
+   105,
+   151,
+   71,
+   172,
+   86,
+   156,
+   169,
+   101,
+   91,
+   121,
+   174,
+   143,
+   106,
+   138,
+   135,
+   101,
+   125,
+   133
+  ],
+  "warnings": []
+ }
+}

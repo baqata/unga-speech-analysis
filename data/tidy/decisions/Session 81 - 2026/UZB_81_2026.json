@@ -1,0 +1,140 @@
+{
+ "id": "UZB_81_2026",
+ "drop": [
+  [
+   82,
+   82,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  9,
+  16,
+  23,
+  30,
+  43,
+  47,
+  57,
+  64,
+  72,
+  76,
+  81
+ ],
+ "cer": [
+  81
+ ],
+ "fix": [
+  [
+   0,
+   "I now give the floor to Her Excellency Saida Miziri-Yuviviya, ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Head of Administration of the Presidency of Uzbekistan. ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "distinguished mr. president",
+   "Distinguished Mr. President",
+   "asr_term"
+  ],
+  [
+   0,
+   "honorable mr. secretary general",
+   "honorable Mr. Secretary General",
+   "asr_term"
+  ],
+  [
+   0,
+   "president chef cat mercy oil",
+   "President Shavkat Mirziyoyev",
+   "asr_name"
+  ],
+  [
+   14,
+   "UN-AT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   26,
+   "Merzioev",
+   "Mirziyoyev",
+   "asr_name"
+  ],
+  [
+   36,
+   "Experts",
+   "Exports",
+   "asr_term"
+  ],
+  [
+   47,
+   "the RLC",
+   "the Aral Sea",
+   "asr_name"
+  ],
+  [
+   55,
+   "Affostation",
+   "Afforestation",
+   "asr_term"
+  ],
+  [
+   72,
+   "Shafqat",
+   "Shavkat",
+   "asr_name"
+  ],
+  [
+   62,
+   "accountability. technological",
+   "accountability. Technological",
+   "asr_term"
+  ],
+  [
+   59,
+   "unanswered. technology",
+   "unanswered. Does technology",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 opens with the presiding officer's introduction (label); President Shavkat Mirziyoyev and UN80 per Spanish (Mirzi Joyev, ONU-80) and un.org; exportaciones, mar de Aral, forestacion per Spanish. Main-agent audit: unit 39 'nearly 45%' kept as heard (three re-decodes p 0.87-0.99); the Spanish booth has '50%'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 59 'unanswered. technology' -> 'unanswered. Technology'; unit 62 'accountability. technological' -> 'accountability. Technological'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 6 unit 59 'unanswered. technology' -> 'unanswered. Does technology' (2026 exception: both decodes hear 'Does' (0.91 / 0.97); ES '¿La tecnología sirve acaso a la humanidad...?' is the yes/no question; old is the existing repair's old)",
+ "unitizer_version": 1,
+ "sha1": "12afd912bc821ccdbe00121bc93b5b75560f497f",
+ "layout": "single",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1216,
+  "words_out": 1186,
+  "retention": 0.9753,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   87,
+   100,
+   93,
+   85,
+   120,
+   129,
+   77,
+   134,
+   90,
+   98,
+   84,
+   84,
+   5
+  ],
+  "warnings": []
+ }
+}

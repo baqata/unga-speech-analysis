@@ -1,0 +1,45 @@
+{
+ "id": "ESP_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  32,
+  51,
+  65,
+  83,
+  92,
+  112,
+  120
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f19f063d87f04c9d351a4964b878d46dae37f9d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1085,
+  "words_out": 1084,
+  "retention": 0.9991,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   98,
+   154,
+   158,
+   135,
+   142,
+   76,
+   166,
+   69,
+   86
+  ],
+  "warnings": []
+ }
+}

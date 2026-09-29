@@ -1,0 +1,101 @@
+{
+ "id": "QAT_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  12,
+  14,
+  19,
+  24,
+  30,
+  36,
+  38,
+  40,
+  42,
+  48,
+  52,
+  55,
+  61,
+  67,
+  70,
+  75,
+  79
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   8,
+   "reﬂected",
+   "reflected",
+   "encoding"
+  ],
+  [
+   13,
+   "ﬂagrant",
+   "flagrant",
+   "encoding"
+  ],
+  [
+   32,
+   "conﬂict",
+   "conflict",
+   "encoding"
+  ],
+  [
+   43,
+   "conﬂict",
+   "conflict",
+   "encoding"
+  ],
+  [
+   76,
+   "day- to-day",
+   "day-to-day",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "47505fc3e6a5e63955ee6f25eea2010eaf85d6b4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2407,
+  "words_out": 2404,
+  "retention": 0.9988,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   73,
+   46,
+   78,
+   87,
+   92,
+   192,
+   157,
+   175,
+   204,
+   70,
+   89,
+   73,
+   164,
+   135,
+   92,
+   105,
+   184,
+   93,
+   124,
+   90,
+   81
+  ],
+  "warnings": []
+ }
+}

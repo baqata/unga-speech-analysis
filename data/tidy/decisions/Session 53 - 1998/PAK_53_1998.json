@@ -1,0 +1,146 @@
+{
+ "id": "PAK_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  31,
+  53,
+  69,
+  94,
+  116,
+  134,
+  151,
+  178,
+  193,
+  217,
+  241,
+  266,
+  290,
+  307
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "President,I",
+   "President, I",
+   "spacing"
+  ],
+  [
+   10,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   72,
+   "Afghanistan?s",
+   "Afghanistan’s",
+   "encoding"
+  ],
+  [
+   91,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   102,
+   "India?s",
+   "India’s",
+   "encoding"
+  ],
+  [
+   108,
+   "India?s",
+   "India’s",
+   "encoding"
+  ],
+  [
+   128,
+   "Pakistan?s",
+   "Pakistan’s",
+   "encoding"
+  ],
+  [
+   161,
+   "Treaty?s",
+   "Treaty’s",
+   "encoding"
+  ],
+  [
+   169,
+   "Pakistan?s",
+   "Pakistan’s",
+   "encoding"
+  ],
+  [
+   194,
+   "General?s",
+   "General’s",
+   "encoding"
+  ],
+  [
+   197,
+   " (A/53/1, para. 18)",
+   "",
+   "label"
+  ],
+  [
+   200,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   205,
+   "Kashmir?s",
+   "Kashmir’s",
+   "encoding"
+  ],
+  [
+   303,
+   "America?s",
+   "America’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2c20ef48203d915d9c22dcd611357905798d77f2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 316,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2610,
+  "words_out": 2606,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   87,
+   166,
+   188,
+   130,
+   184,
+   182,
+   153,
+   130,
+   229,
+   134,
+   192,
+   201,
+   197,
+   193,
+   156,
+   84
+  ],
+  "warnings": []
+ }
+}

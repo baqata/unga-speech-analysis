@@ -1,0 +1,90 @@
+{
+ "id": "AGO_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  8,
+  10,
+  12,
+  16,
+  18,
+  20,
+  23,
+  25,
+  28
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Gongalves",
+   "Gonçalves",
+   "ocr"
+  ],
+  [
+   0,
+   "Lourengo",
+   "Lourenço",
+   "ocr"
+  ],
+  [
+   7,
+   "Gongalves",
+   "Gonçalves",
+   "ocr"
+  ],
+  [
+   7,
+   "Lourengo",
+   "Lourenço",
+   "ocr"
+  ],
+  [
+   8,
+   "Gongalves",
+   "Gonçalves",
+   "ocr"
+  ],
+  [
+   9,
+   "Lourengo",
+   "Lourenço",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a9c81347b89eeffc91892e1b6547b9d15219048",
+ "layout": "lines",
+ "stats": {
+  "n_units": 31,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1231,
+  "words_out": 1231,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   112,
+   82,
+   105,
+   113,
+   76,
+   86,
+   109,
+   77,
+   69,
+   105,
+   59,
+   128,
+   110
+  ],
+  "warnings": []
+ }
+}

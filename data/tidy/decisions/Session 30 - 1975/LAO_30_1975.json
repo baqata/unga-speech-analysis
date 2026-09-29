@@ -1,0 +1,85 @@
+{
+ "id": "LAO_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  13,
+  16,
+  22,
+  30,
+  33,
+  38,
+  40,
+  43,
+  46,
+  51,
+  54,
+  59,
+  61,
+  65,
+  68,
+  71,
+  74,
+  77
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   58,
+   "Thailand, But",
+   "Thailand. But",
+   "ocr"
+  ],
+  [
+   60,
+   " [see A/10217 and Corr.l, annex]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89623c23940ad42d980dd4f35a23c037526c9eea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2426,
+  "words_out": 2420,
+  "retention": 0.9975,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   161,
+   155,
+   107,
+   139,
+   172,
+   161,
+   92,
+   113,
+   64,
+   93,
+   162,
+   170,
+   98,
+   166,
+   106,
+   95,
+   78,
+   94,
+   71,
+   105,
+   18
+  ],
+  "warnings": []
+ }
+}

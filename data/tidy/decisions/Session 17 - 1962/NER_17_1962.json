@@ -1,0 +1,169 @@
+{
+ "id": "NER_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  14,
+  19,
+  24,
+  29,
+  37,
+  44,
+  48,
+  51,
+  55,
+  58,
+  65,
+  68,
+  69
+ ],
+ "cer": [
+  0,
+  4,
+  11,
+  68
+ ],
+ "fix": [
+  [
+   1,
+   "high-office",
+   "high office",
+   "ocr"
+  ],
+  [
+   9,
+   "anywhere, else",
+   "anywhere else",
+   "ocr"
+  ],
+  [
+   11,
+   "sincerest, desire",
+   "sincerest desire",
+   "ocr"
+  ],
+  [
+   13,
+   "I Cannot",
+   "I cannot",
+   "ocr"
+  ],
+  [
+   19,
+   "those, of",
+   "those of",
+   "ocr"
+  ],
+  [
+   19,
+   "lives, have",
+   "lives have",
+   "ocr"
+  ],
+  [
+   23,
+   "United, Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   23,
+   "its, confidence",
+   "its confidence",
+   "ocr"
+  ],
+  [
+   42,
+   "time;",
+   "time,",
+   "ocr"
+  ],
+  [
+   54,
+   "[A/5201/Add.l, p. 3.]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "co-operation. must",
+   "co-operation must",
+   "ocr"
+  ],
+  [
+   63,
+   "be, built",
+   "be built",
+   "ocr"
+  ],
+  [
+   65,
+   "with if close",
+   "with a close",
+   "ocr"
+  ],
+  [
+   67,
+   "two, Presidents",
+   "two Presidents",
+   "ocr"
+  ],
+  [
+   67,
+   "expert products",
+   "export products",
+   "ocr"
+  ],
+  [
+   68,
+   "mankind, I",
+   "mankind. I",
+   "ocr"
+  ],
+  [
+   69,
+   "the World",
+   "the world",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77a53db3312e732894536b622d91ad80e5d24a39",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 1942,
+  "words_out": 1937,
+  "retention": 0.9974,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   77,
+   94,
+   93,
+   99,
+   166,
+   178,
+   101,
+   171,
+   213,
+   96,
+   60,
+   101,
+   92,
+   139,
+   142,
+   82,
+   33
+  ],
+  "warnings": []
+ }
+}

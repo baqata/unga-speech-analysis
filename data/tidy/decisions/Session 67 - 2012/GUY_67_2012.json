@@ -1,0 +1,75 @@
+{
+ "id": "GUY_67_2012",
+ "drop": [
+  [
+   161,
+   162,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  30,
+  44,
+  57,
+  71,
+  79,
+  100,
+  118,
+  129,
+  139,
+  163,
+  187,
+  201,
+  218,
+  235,
+  248,
+  263,
+  276
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "98091c58d5170cbf0030aa2bc7cf87ea389479d9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 284,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 2387,
+  "words_out": 2378,
+  "retention": 0.9962,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   106,
+   126,
+   108,
+   110,
+   110,
+   60,
+   194,
+   155,
+   90,
+   78,
+   183,
+   212,
+   128,
+   150,
+   149,
+   115,
+   125,
+   105,
+   74
+  ],
+  "warnings": [
+   "procedural drop [161,162] in the middle of the speech"
+  ]
+ }
+}

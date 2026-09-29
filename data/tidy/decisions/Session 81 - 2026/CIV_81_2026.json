@@ -1,0 +1,139 @@
+{
+ "id": "CIV_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   3,
+   3,
+   "noise"
+  ],
+  [
+   57,
+   57,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  5,
+  9,
+  19,
+  24,
+  32,
+  38,
+  42,
+  44,
+  48,
+  52,
+  56
+ ],
+ "cer": [
+  4,
+  5,
+  56
+ ],
+ "fix": [
+  [
+   25,
+   "near and middle east",
+   "Near and Middle East",
+   "asr_name"
+  ],
+  [
+   35,
+   "ECHOAS",
+   "ECOWAS",
+   "asr_name"
+  ],
+  [
+   45,
+   "considering",
+   "considerable",
+   "asr_term"
+  ],
+  [
+   49,
+   "Boutara",
+   "Ouattara",
+   "asr_name"
+  ],
+  [
+   51,
+   "United Nation",
+   "united nation",
+   "asr_term"
+  ],
+  [
+   5,
+   "the the",
+   "the",
+   "asr_term"
+  ],
+  [
+   26,
+   "world. the",
+   "world. The",
+   "asr_term"
+  ],
+  [
+   31,
+   "Charter. and",
+   "Charter and",
+   "asr_term"
+  ],
+  [
+   32,
+   "years. due",
+   "years. Due",
+   "asr_term"
+  ],
+  [
+   38,
+   "security. that",
+   "security. That",
+   "asr_term"
+  ],
+  [
+   54,
+   "division. only",
+   "division. Only",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in French; President Alassane Ouattara as named in unit 3 and the Spanish channel; Spanish 'perspectivas considerables'; unit 50 means a united nation, not the UN. Gap recovery (v2) added a lone 'Thank you.' at 00:39-00:52, over the walk to the podium (the Spanish has the speaker's salutation starting): noise. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 5 'the the' -> 'the'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 26 'world. the' -> 'world. The'; unit 31 'Charter. and' -> 'Charter and'; unit 32 'years. due' -> 'years. Due'; unit 38 'security. that' -> 'security. That'; unit 54 'division. only' -> 'division. Only'",
+ "unitizer_version": 1,
+ "sha1": "019fe7151439b30f7689354bb50cf3df74f4722e",
+ "layout": "single",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1838,
+  "words_out": 1778,
+  "retention": 0.9674,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   95,
+   133,
+   240,
+   158,
+   205,
+   250,
+   212,
+   72,
+   102,
+   130,
+   178,
+   3
+  ],
+  "warnings": []
+ }
+}

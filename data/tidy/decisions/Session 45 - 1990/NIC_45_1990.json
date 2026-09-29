@@ -1,0 +1,74 @@
+{
+ "id": "NIC_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  17,
+  23,
+  35,
+  40,
+  44,
+  50,
+  55,
+  58,
+  64,
+  67,
+  74,
+  78,
+  79,
+  85,
+  88
+ ],
+ "cer": [],
+ "fix": [
+  [
+   43,
+   "apartheid. .",
+   "apartheid.",
+   "ocr"
+  ],
+  [
+   53,
+   "individual ' s",
+   "individual's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "abbcfe5e09fe888d2f0d16fbbcc71194defeb431",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1890,
+  "words_out": 1887,
+  "retention": 0.9984,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   107,
+   121,
+   115,
+   127,
+   146,
+   114,
+   71,
+   66,
+   131,
+   64,
+   112,
+   65,
+   133,
+   97,
+   61,
+   116,
+   157,
+   84
+  ],
+  "warnings": []
+ }
+}

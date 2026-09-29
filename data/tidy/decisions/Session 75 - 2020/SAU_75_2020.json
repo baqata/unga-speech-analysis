@@ -1,0 +1,82 @@
+{
+ "id": "SAU_75_2020",
+ "drop": [
+  [
+   0,
+   0,
+   "heading"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  7,
+  10,
+  17,
+  21,
+  24,
+  28,
+  33,
+  40,
+  42,
+  46,
+  51,
+  54,
+  56,
+  63,
+  65,
+  68,
+  70
+ ],
+ "cer": [
+  1,
+  4,
+  70
+ ],
+ "fix": [
+  [
+   5,
+   "Muhammad- Bande",
+   "Muhammad-Bande",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "addc12d5fad60e5bcea6889aba7b8b17c64beb70",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "heading": 1
+  },
+  "prestrip": {},
+  "words_in": 1762,
+  "words_out": 1751,
+  "retention": 0.9938,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   23,
+   101,
+   70,
+   167,
+   79,
+   139,
+   122,
+   160,
+   152,
+   78,
+   69,
+   83,
+   71,
+   79,
+   134,
+   66,
+   86,
+   62,
+   10
+  ],
+  "warnings": []
+ }
+}

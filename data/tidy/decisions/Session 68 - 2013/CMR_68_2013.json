@@ -1,0 +1,70 @@
+{
+ "id": "CMR_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  34,
+  42,
+  50,
+  77,
+  96,
+  108,
+  123,
+  133,
+  150,
+  170,
+  187,
+  218,
+  228,
+  240,
+  256
+ ],
+ "cer": [
+  0,
+  7,
+  34
+ ],
+ "fix": [
+  [
+   26,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 7-269 are the President's message read out by the delegate; the source marks its paragraphs with opening quotes.",
+ "unitizer_version": 1,
+ "sha1": "6ba6473d69ecf7afb983bf20cec63fd4db2df192",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1997,
+  "words_out": 1995,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   58,
+   196,
+   60,
+   53,
+   213,
+   147,
+   95,
+   107,
+   70,
+   123,
+   143,
+   120,
+   213,
+   78,
+   86,
+   124,
+   109
+  ],
+  "warnings": []
+ }
+}

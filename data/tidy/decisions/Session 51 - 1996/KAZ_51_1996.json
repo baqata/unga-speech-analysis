@@ -1,0 +1,69 @@
+{
+ "id": "KAZ_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  22,
+  31,
+  43,
+  52,
+  68,
+  83,
+  97,
+  115,
+  127,
+  140,
+  154,
+  168,
+  188,
+  201,
+  211,
+  230,
+  243,
+  258
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 38 prints \"increased considerably increased\" (a source duplication); left as printed.",
+ "unitizer_version": 1,
+ "sha1": "e33d38567ec6eb4a3a70e1556ea4e8c36a845211",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2226,
+  "words_out": 2221,
+  "retention": 0.9978,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   36,
+   137,
+   76,
+   101,
+   77,
+   143,
+   134,
+   108,
+   149,
+   97,
+   112,
+   124,
+   105,
+   170,
+   114,
+   85,
+   156,
+   104,
+   126,
+   67
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "id": "CYP_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  16,
+  18,
+  34,
+  40,
+  45,
+  49,
+  56,
+  61,
+  67,
+  72,
+  85,
+  88,
+  95,
+  102,
+  110,
+  118,
+  121,
+  126,
+  130,
+  137,
+  143
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   34,
+   "cf space",
+   "of space",
+   "ocr"
+  ],
+  [
+   40,
+   "ft is",
+   "It is",
+   "ocr"
+  ],
+  [
+   56,
+   "life’ continues",
+   "life continues",
+   "ocr"
+  ],
+  [
+   126,
+   "Secretary-General. in Cyprus",
+   "Secretary-General in Cyprus",
+   "ocr"
+  ],
+  [
+   146,
+   "have.been",
+   "have been",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4485b09415de5980f25b077eee556faf6295791d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3749,
+  "words_out": 3720,
+  "retention": 0.9923,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   149,
+   72,
+   194,
+   71,
+   281,
+   239,
+   140,
+   337,
+   132,
+   149,
+   123,
+   126,
+   173,
+   62,
+   200,
+   128,
+   207,
+   109,
+   95,
+   105,
+   141,
+   121,
+   153,
+   213
+  ],
+  "warnings": [
+   "paragraph at unit 45 has 337 words"
+  ]
+ }
+}

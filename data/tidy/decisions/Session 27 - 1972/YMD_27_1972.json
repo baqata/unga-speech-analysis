@@ -1,0 +1,148 @@
+{
+ "id": "YMD_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  10,
+  15,
+  17,
+  20,
+  26,
+  32,
+  37,
+  41,
+  43,
+  45,
+  50,
+  53,
+  56,
+  61,
+  66,
+  72,
+  75,
+  80,
+  83,
+  85,
+  89,
+  91,
+  93,
+  99,
+  101,
+  105,
+  111,
+  114,
+  117,
+  119
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "10 ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Seaside",
+   "aside",
+   "ocr"
+  ],
+  [
+   52,
+   "TTiat",
+   "That",
+   "ocr"
+  ],
+  [
+   59,
+   "to 'the",
+   "to the",
+   "ocr"
+  ],
+  [
+   72,
+   "Israeli- occupied",
+   "Israeli-occupied",
+   "spacing"
+  ],
+  [
+   81,
+   "1 1",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "seven- point",
+   "seven-point",
+   "spacing"
+  ],
+  [
+   101,
+   "in \"both",
+   "in both",
+   "ocr"
+  ],
+  [
+   110,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "125121de6bc0892373a526eb30089fe22b0ccb39",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 3717,
+  "words_out": 3712,
+  "retention": 0.9987,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   204,
+   78,
+   96,
+   71,
+   98,
+   162,
+   112,
+   148,
+   128,
+   75,
+   101,
+   177,
+   124,
+   100,
+   107,
+   135,
+   132,
+   87,
+   140,
+   147,
+   83,
+   111,
+   82,
+   76,
+   163,
+   67,
+   105,
+   160,
+   86,
+   128,
+   67,
+   162
+  ],
+  "warnings": []
+ }
+}

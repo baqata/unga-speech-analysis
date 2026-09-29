@@ -1,0 +1,168 @@
+{
+ "id": "AZE_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  3,
+  10,
+  17,
+  22,
+  33,
+  41,
+  47,
+  51,
+  59,
+  63,
+  66,
+  75,
+  80,
+  86
+ ],
+ "cer": [
+  1
+ ],
+ "fix": [
+  [
+   21,
+   "anonymization",
+   "normalization",
+   "asr_term"
+  ],
+  [
+   38,
+   "Hamaleev",
+   "Ilham Aliyev",
+   "asr_name"
+  ],
+  [
+   39,
+   "non-alliant movement",
+   "Non-Aligned Movement",
+   "asr_name"
+  ],
+  [
+   57,
+   "Zolution",
+   "resolution",
+   "asr_term"
+  ],
+  [
+   59,
+   "23rd Agenda",
+   "2030 Agenda",
+   "asr_term"
+  ],
+  [
+   64,
+   "climb",
+   "decline",
+   "asr_term"
+  ],
+  [
+   70,
+   "hydrocar power",
+   "hydropower",
+   "asr_term"
+  ],
+  [
+   78,
+   "Sea Trade Board",
+   "Sea Trade Port",
+   "asr_name"
+  ],
+  [
+   78,
+   "Baku-Tbilisi Cars",
+   "Baku-Tbilisi-Kars",
+   "asr_name"
+  ],
+  [
+   85,
+   "Nachchivan",
+   "Nakhchivan",
+   "asr_name"
+  ],
+  [
+   85,
+   "Zanguzur",
+   "Zangezur",
+   "asr_name"
+  ],
+  [
+   56,
+   "Goals goals",
+   "Goals",
+   "asr_term"
+  ],
+  [
+   6,
+   "application on",
+   "application of",
+   "asr_term"
+  ],
+  [
+   21,
+   "initial",
+   "initialed",
+   "asr_term"
+  ],
+  [
+   32,
+   "post-conflict also for post-conflict",
+   "post-conflict",
+   "asr_term"
+  ],
+  [
+   71,
+   "and visit",
+   "envisage",
+   "asr_term"
+  ],
+  [
+   78,
+   "sprit-headed",
+   "spearheaded",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Aliyev, normalization, Agenda 2030, Caspian level decline ('descenso'), hydroelectric, Port and Kars per Spanish channel. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 56 'Goals goals' -> 'Goals'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 6 'application on' -> 'application of' (both decodes hear 'of' (0.71 / 0.69); 'application on universally accepted norms' does not fit; ES 'aplicación ... de las normas'; 'on' alone is not unique in the unit); spot 2 unit 21 'initial' -> 'initialed' (decodes 'already initial' (0.81 / 0.79), the same sound with the final -ed unreleased; 'the already-initial bilateral agreement' does not fit; the Armenia-Azerbaijan agreement was initialed in Washington in August 2025; UN 'already initialed'); spot 6 unit 32 'post-conflict also for post-conflict' -> 'post-conflict' (words doubled at a segment boundary: both decodes hear 'post-conflict reconciliation' once (379.8-380.4 s, p 1.00); ES 'posteriores al conflicto' once); spot 17 unit 71 'and visit' -> 'envisage' (decodes 'and visit' with 'visit' at 0.20 / 0.21; 'Agreements already signed and visit around 6 gigawatts' does not fit; sounds alike; ES 'Los acuerdos ya firmados prevén'); spot 18 unit 78 'sprit-headed' -> 'spearheaded' (decodes 'split-headed' 0.25 / 'sprit-headed' 0.52, not a word; sounds like 'spearheaded'; ES 'impulsados por Azerbaiyán')",
+ "unitizer_version": 1,
+ "sha1": "b7bde9538e0d61540814e02a6e1a6868f5002074",
+ "layout": "single",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2125,
+  "words_out": 2101,
+  "retention": 0.9887,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   58,
+   171,
+   166,
+   110,
+   223,
+   222,
+   130,
+   91,
+   214,
+   96,
+   54,
+   180,
+   119,
+   130,
+   137
+  ],
+  "warnings": []
+ }
+}

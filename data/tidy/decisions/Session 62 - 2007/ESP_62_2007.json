@@ -1,0 +1,51 @@
+{
+ "id": "ESP_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  26,
+  50,
+  69,
+  83,
+  107,
+  122,
+  138,
+  160,
+  171,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d7afdafbf23b27fec2ca76781b88ba0d1ac27698",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1687,
+  "words_out": 1685,
+  "retention": 0.9988,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   66,
+   139,
+   181,
+   147,
+   111,
+   182,
+   115,
+   126,
+   179,
+   83,
+   165,
+   191
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "id": "CHN_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  17,
+  24,
+  31,
+  38,
+  46,
+  50,
+  53,
+  67,
+  71,
+  77,
+  85,
+  89,
+  96,
+  105,
+  108,
+  114,
+  120,
+  125,
+  131,
+  135,
+  141,
+  150,
+  161,
+  166,
+  172,
+  187,
+  197,
+  201,
+  207,
+  214,
+  218,
+  224,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "Kashmir, This",
+   "Kashmir. This",
+   "ocr"
+  ],
+  [
+   63,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   86,
+   "national- democratic",
+   "national-democratic",
+   "hyphen"
+  ],
+  [
+   100,
+   "solutions, For",
+   "solutions. For",
+   "ocr"
+  ],
+  [
+   101,
+   "confronting; the",
+   "confronting the",
+   "ocr"
+  ],
+  [
+   104,
+   "the Ear East",
+   "the Far East",
+   "ocr"
+  ],
+  [
+   122,
+   "Treaty in 1983",
+   "Treaty in 1963",
+   "ocr"
+  ],
+  [
+   126,
+   "non- dissemination",
+   "non-dissemination",
+   "hyphen"
+  ],
+  [
+   193,
+   "not yearly as",
+   "not nearly as",
+   "ocr"
+  ],
+  [
+   198,
+   "régime cart be",
+   "régime can be",
+   "ocr"
+  ],
+  [
+   212,
+   "United\" States",
+   "United States",
+   "ocr"
+  ],
+  [
+   231,
+   "not be force",
+   "not by force",
+   "ocr"
+  ],
+  [
+   232,
+   "Tse-tung’ swords",
+   "Tse-tung’s words",
+   "spacing"
+  ],
+  [
+   241,
+   "to face, the facts",
+   "to face the facts",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9963108aad3c965c72a76b774ce6c8c6d1e535d0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 244,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4608,
+  "words_out": 4563,
+  "retention": 0.9902,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   74,
+   158,
+   93,
+   141,
+   127,
+   119,
+   127,
+   65,
+   77,
+   219,
+   86,
+   79,
+   146,
+   61,
+   100,
+   214,
+   83,
+   103,
+   110,
+   104,
+   93,
+   83,
+   103,
+   191,
+   294,
+   136,
+   117,
+   213,
+   133,
+   70,
+   103,
+   186,
+   93,
+   106,
+   254,
+   102
+  ],
+  "warnings": []
+ }
+}

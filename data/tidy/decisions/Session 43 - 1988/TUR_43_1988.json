@@ -1,0 +1,256 @@
+{
+ "id": "TUR_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  16,
+  27,
+  34,
+  43,
+  56,
+  65,
+  79,
+  90,
+  109,
+  123,
+  126,
+  133,
+  137,
+  139,
+  149,
+  151,
+  160,
+  173,
+  179,
+  189,
+  199,
+  213,
+  221,
+  227,
+  239,
+  254,
+  268,
+  280,
+  288,
+  299
+ ],
+ "cer": [
+  0,
+  7,
+  12
+ ],
+ "fix": [
+  [
+   15,
+   "wor1d",
+   "world",
+   "ocr"
+  ],
+  [
+   17,
+   "Soviet union",
+   "Soviet Union",
+   "ocr"
+  ],
+  [
+   33,
+   "Arm control",
+   "Arms control",
+   "ocr"
+  ],
+  [
+   33,
+   "as wall as",
+   "as well as",
+   "ocr"
+  ],
+  [
+   38,
+   "arms cont.ro1- The",
+   "arms control. The",
+   "ocr"
+  ],
+  [
+   39,
+   "under line",
+   "underline",
+   "split_word"
+  ],
+  [
+   40,
+   "comprehensive way_ In",
+   "comprehensive way In",
+   "ocr"
+  ],
+  [
+   46,
+   "Conference on security",
+   "Conference on Security",
+   "ocr"
+  ],
+  [
+   75,
+   "Republic. we are",
+   "Republic. We are",
+   "ocr"
+  ],
+  [
+   95,
+   "secretary-General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   111,
+   "secretary-General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   117,
+   "our .ability",
+   "our ability",
+   "ocr"
+  ],
+  [
+   117,
+   "the prohibition of an",
+   "the promotion of an",
+   "ocr"
+  ],
+  [
+   130,
+   "1ive with in",
+   "live within",
+   "ocr"
+  ],
+  [
+   131,
+   "peop1e",
+   "people",
+   "ocr"
+  ],
+  [
+   134,
+   "the west Bank",
+   "the West Bank",
+   "ocr"
+  ],
+  [
+   159,
+   "united Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   170,
+   "a founding member of the United nations",
+   "a founding member of the United Nations",
+   "ocr"
+  ],
+  [
+   178,
+   "central America",
+   "Central America",
+   "ocr"
+  ],
+  [
+   180,
+   "secretary-General's",
+   "Secretary-General's",
+   "ocr"
+  ],
+  [
+   195,
+   "consideration of the needs",
+   "consideration the needs",
+   "ocr"
+  ],
+  [
+   204,
+   "collU'll1nity",
+   "community",
+   "ocr"
+  ],
+  [
+   212,
+   "Member states",
+   "Member States",
+   "ocr"
+  ],
+  [
+   231,
+   "early 19808",
+   "early 1980s",
+   "ocr"
+  ],
+  [
+   268,
+   "'fur key has been in the process .of",
+   "Turkey has been in the process of",
+   "ocr"
+  ],
+  [
+   271,
+   "approaches g import",
+   "approaches of import",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Between units 169 and 170 a line is missing (the year of resolution 435 and the start of the next sentence); left as printed.",
+ "unitizer_version": 1,
+ "sha1": "7a3becd7447f93986ee569ba7045f4f48e3ff2b5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 306,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4045,
+  "words_out": 4041,
+  "retention": 0.999,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   75,
+   89,
+   66,
+   176,
+   98,
+   119,
+   156,
+   112,
+   162,
+   123,
+   196,
+   185,
+   57,
+   179,
+   96,
+   57,
+   125,
+   68,
+   105,
+   194,
+   107,
+   153,
+   111,
+   159,
+   95,
+   69,
+   163,
+   175,
+   159,
+   136,
+   83,
+   124,
+   69
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

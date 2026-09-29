@@ -1,0 +1,91 @@
+{
+ "id": "FJI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  30,
+  42,
+  61,
+  70,
+  84,
+  92,
+  102,
+  120,
+  130,
+  142,
+  157,
+  176,
+  192,
+  208,
+  218,
+  226,
+  238,
+  250,
+  258,
+  271
+ ],
+ "cer": [
+  0,
+  271
+ ],
+ "fix": [
+  [
+   13,
+   "f looding",
+   "flooding",
+   "split_word"
+  ],
+  [
+   18,
+   "f loods",
+   "floods",
+   "split_word"
+  ],
+  [
+   241,
+   "aff luent",
+   "affluent",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eab02fe390efcb7b2a09b19a4091868d99f68c1a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 276,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2341,
+  "words_out": 2337,
+  "retention": 0.9983,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   65,
+   193,
+   89,
+   168,
+   73,
+   115,
+   61,
+   94,
+   158,
+   86,
+   105,
+   120,
+   162,
+   131,
+   151,
+   80,
+   66,
+   95,
+   103,
+   66,
+   112,
+   44
+  ],
+  "warnings": []
+ }
+}

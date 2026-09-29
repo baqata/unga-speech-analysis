@@ -1,0 +1,121 @@
+{
+ "id": "NZL_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  18,
+  22,
+  24,
+  27,
+  31,
+  36,
+  41,
+  44,
+  47,
+  50,
+  55,
+  59,
+  64,
+  67,
+  71,
+  73,
+  78,
+  81
+ ],
+ "cer": [],
+ "fix": [
+  [
+   22,
+   "lie",
+   "be",
+   "ocr"
+  ],
+  [
+   43,
+   "upheld",
+   "uphold",
+   "ocr"
+  ],
+  [
+   43,
+   "memlicrs",
+   "members",
+   "ocr"
+  ],
+  [
+   43,
+   "[ A/2404, page xii]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "[T/1057, annex I]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "betterment- —",
+   "betterment —",
+   "ocr"
+  ],
+  [
+   71,
+   "[United Nations International Children’s Emergency Fund]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "crowing",
+   "growing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "056ba60490ed0c956c40ff1093eb65caf230f60b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 22
+  },
+  "words_in": 2764,
+  "words_out": 2749,
+  "retention": 0.9946,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   150,
+   123,
+   113,
+   64,
+   114,
+   86,
+   125,
+   127,
+   131,
+   154,
+   135,
+   95,
+   128,
+   137,
+   162,
+   149,
+   106,
+   109,
+   78,
+   140,
+   83,
+   240
+  ],
+  "warnings": []
+ }
+}

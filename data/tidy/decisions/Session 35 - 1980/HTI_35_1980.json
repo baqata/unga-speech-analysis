@@ -1,0 +1,109 @@
+{
+ "id": "HTI_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  15,
+  19,
+  22,
+  26,
+  30,
+  33,
+  37,
+  41,
+  44,
+  49,
+  52,
+  55,
+  61,
+  63,
+  67,
+  69,
+  72,
+  75,
+  83,
+  85,
+  90,
+  94,
+  98,
+  102,
+  104,
+  107
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   19,
+   "Haiti\" on",
+   "Haiti on",
+   "ocr"
+  ],
+  [
+   51,
+   "con-fronted",
+   "confronted",
+   "hyphen"
+  ],
+  [
+   62,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "621ad16098805c756f2164605c08f63332dad5ae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3299,
+  "words_out": 3298,
+  "retention": 0.9997,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   101,
+   146,
+   216,
+   70,
+   157,
+   133,
+   145,
+   107,
+   76,
+   102,
+   127,
+   104,
+   149,
+   92,
+   103,
+   106,
+   84,
+   100,
+   52,
+   63,
+   68,
+   179,
+   73,
+   129,
+   80,
+   130,
+   107,
+   109,
+   85,
+   105
+  ],
+  "warnings": []
+ }
+}

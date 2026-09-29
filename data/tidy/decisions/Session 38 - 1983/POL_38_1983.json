@@ -1,0 +1,120 @@
+{
+ "id": "POL_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  17,
+  23,
+  28,
+  34,
+  39,
+  45,
+  50,
+  52,
+  58,
+  61,
+  67,
+  71,
+  75,
+  80,
+  84,
+  89,
+  93,
+  96,
+  101,
+  107,
+  111,
+  115,
+  117,
+  120,
+  124,
+  127,
+  132,
+  137,
+  144,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   41,
+   "13.",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "Tightness",
+   "rightness",
+   "ocr"
+  ],
+  [
+   50,
+   "joining m an",
+   "joining in an",
+   "ocr"
+  ],
+  [
+   154,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 133 breaks off mid-sentence and a word is lost at the end of unit 105.",
+ "unitizer_version": 1,
+ "sha1": "b37aa98521d9aea8a3f44e09d574d4b60f07c5e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4072,
+  "words_out": 4069,
+  "retention": 0.9993,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   139,
+   198,
+   155,
+   87,
+   97,
+   71,
+   106,
+   121,
+   105,
+   92,
+   107,
+   109,
+   93,
+   109,
+   107,
+   156,
+   116,
+   123,
+   121,
+   108,
+   102,
+   127,
+   117,
+   149,
+   58,
+   158,
+   145,
+   128,
+   118,
+   144,
+   185,
+   119,
+   199
+  ],
+  "warnings": []
+ }
+}

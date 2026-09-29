@@ -1,0 +1,159 @@
+{
+ "id": "ZAF_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  12,
+  16,
+  19,
+  22,
+  27,
+  29,
+  33,
+  36,
+  39,
+  42,
+  44,
+  48,
+  50,
+  53,
+  58,
+  62,
+  64,
+  70,
+  75,
+  78,
+  84,
+  88,
+  91,
+  93,
+  96,
+  97,
+  99,
+  102,
+  105,
+  107,
+  111,
+  114,
+  118
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   47,
+   "State, When",
+   "State. When",
+   "ocr"
+  ],
+  [
+   55,
+   "oh the",
+   "on the",
+   "ocr"
+  ],
+  [
+   55,
+   "Africa, question",
+   "Africa question",
+   "ocr"
+  ],
+  [
+   70,
+   "Africa”, With",
+   "Africa”. With",
+   "ocr"
+  ],
+  [
+   77,
+   "closed,",
+   "closed.",
+   "ocr"
+  ],
+  [
+   96,
+   "], In",
+   "]. In",
+   "ocr"
+  ],
+  [
+   98,
+   "be. taken-",
+   "be taken",
+   "ocr"
+  ],
+  [
+   100,
+   " [ibid., p. xiv]",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "being,",
+   "being.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The quotation of Mr. Louw's San Francisco statement (units 36-49) is split into paragraphs at sentence ends.",
+ "unitizer_version": 1,
+ "sha1": "2d97be9657a50bb37661ab556a0a25ade761eefc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 42
+  },
+  "words_in": 4571,
+  "words_out": 4562,
+  "retention": 0.998,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   60,
+   161,
+   188,
+   137,
+   119,
+   130,
+   93,
+   199,
+   82,
+   130,
+   126,
+   119,
+   108,
+   107,
+   145,
+   119,
+   131,
+   126,
+   113,
+   61,
+   95,
+   223,
+   134,
+   170,
+   98,
+   89,
+   123,
+   148,
+   66,
+   130,
+   105,
+   110,
+   65,
+   121,
+   142,
+   143,
+   146
+  ],
+  "warnings": []
+ }
+}

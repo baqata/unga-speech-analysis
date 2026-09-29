@@ -1,0 +1,102 @@
+{
+ "id": "ARE_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  8,
+  11,
+  14,
+  19,
+  26,
+  34,
+  37,
+  39,
+  46,
+  49,
+  50,
+  58,
+  61
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   " [item 21]",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "un-founded",
+   "unfounded",
+   "hyphen"
+  ],
+  [
+   42,
+   "facing' the",
+   "facing the",
+   "ocr"
+  ],
+  [
+   47,
+   "con-fronts",
+   "confronts",
+   "hyphen"
+  ],
+  [
+   48,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   60,
+   "How-ever",
+   "However",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f7d393eef283c0d2582a92c1810cf262745723da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1860,
+  "words_out": 1853,
+  "retention": 0.9962,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   51,
+   26,
+   14,
+   155,
+   81,
+   92,
+   201,
+   207,
+   225,
+   86,
+   64,
+   207,
+   78,
+   39,
+   178,
+   104,
+   45
+  ],
+  "warnings": []
+ }
+}

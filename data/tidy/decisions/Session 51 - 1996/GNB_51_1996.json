@@ -1,0 +1,76 @@
+{
+ "id": "GNB_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  28,
+  41,
+  55,
+  74,
+  89,
+  103,
+  120,
+  139,
+  150,
+  165,
+  190,
+  209
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   58,
+   "Joa¯o",
+   "João",
+   "encoding"
+  ],
+  [
+   178,
+   "particular.We",
+   "particular. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b26b11fd80f858731ee299970f3d841c6cf65c5a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1785,
+  "words_out": 1778,
+  "retention": 0.9961,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   115,
+   107,
+   105,
+   110,
+   151,
+   121,
+   122,
+   150,
+   164,
+   83,
+   117,
+   190,
+   143,
+   100
+  ],
+  "warnings": []
+ }
+}

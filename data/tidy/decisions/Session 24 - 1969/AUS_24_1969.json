@@ -1,0 +1,122 @@
+{
+ "id": "AUS_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  37,
+  58,
+  76,
+  93,
+  111,
+  127,
+  148,
+  175,
+  198,
+  218,
+  231,
+  244,
+  270,
+  291,
+  317,
+  341,
+  352,
+  378,
+  393,
+  403,
+  415
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   88,
+   "relationships: among",
+   "relationships among",
+   "ocr"
+  ],
+  [
+   143,
+   "Asia and it",
+   "Asia and its",
+   "ocr"
+  ],
+  [
+   162,
+   "— they",
+   "they",
+   "ocr"
+  ],
+  [
+   390,
+   "an inter",
+   "an inter-",
+   "split_word"
+  ],
+  [
+   397,
+   "Treaty? which",
+   "Treaty which",
+   "ocr"
+  ],
+  [
+   399,
+   "have beer",
+   "have been",
+   "ocr"
+  ],
+  [
+   401,
+   "United Nation:",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   403,
+   "have sot",
+   "have not",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19fac3e5e9b6033c9d5c932e240fb12cf1430866",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 420,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3807,
+  "words_out": 3776,
+  "retention": 0.9919,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   126,
+   212,
+   178,
+   157,
+   165,
+   170,
+   153,
+   192,
+   266,
+   211,
+   188,
+   114,
+   114,
+   230,
+   184,
+   223,
+   205,
+   104,
+   226,
+   128,
+   84,
+   101,
+   45
+  ],
+  "warnings": []
+ }
+}

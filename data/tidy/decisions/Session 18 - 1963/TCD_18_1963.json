@@ -1,0 +1,140 @@
+{
+ "id": "TCD_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  13,
+  19,
+  27,
+  34,
+  42,
+  51,
+  58,
+  62,
+  69,
+  74,
+  79,
+  84,
+  90,
+  97,
+  100,
+  105,
+  110,
+  115,
+  121,
+  126,
+  134,
+  138,
+  146
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "It Is not",
+   "It is not",
+   "ocr"
+  ],
+  [
+   25,
+   "belief s",
+   "beliefs",
+   "split_word"
+  ],
+  [
+   59,
+   " [A/5446 and Add.1-3]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   " [see A/ 5446/Add.1, para. 251]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "no\" one",
+   "no one",
+   "ocr"
+  ],
+  [
+   92,
+   "Aprill963",
+   "April 1963",
+   "ocr"
+  ],
+  [
+   103,
+   "the Statement",
+   "the statement",
+   "ocr"
+  ],
+  [
+   130,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   135,
+   " [S/5501/ Add.1, section IV]",
+   "",
+   "label"
+  ],
+  [
+   137,
+   " [ibid.,]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ddf060402f7246e12801b534efd4d6cd4c8beff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3420,
+  "words_out": 3365,
+  "retention": 0.9839,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   143,
+   56,
+   193,
+   164,
+   141,
+   128,
+   137,
+   176,
+   163,
+   60,
+   124,
+   115,
+   99,
+   98,
+   166,
+   121,
+   61,
+   107,
+   91,
+   87,
+   148,
+   124,
+   197,
+   111,
+   221,
+   134
+  ],
+  "warnings": []
+ }
+}

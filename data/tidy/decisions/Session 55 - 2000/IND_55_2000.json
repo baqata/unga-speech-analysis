@@ -1,0 +1,96 @@
+{
+ "id": "IND_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  36,
+  48,
+  57,
+  67,
+  84,
+  102,
+  116,
+  140,
+  166,
+  183,
+  197,
+  208,
+  226,
+  239,
+  257,
+  276,
+  287,
+  302,
+  311,
+  327,
+  332,
+  341
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   183,
+   "week",
+   "seek",
+   "ocr"
+  ],
+  [
+   249,
+   "assistance(ODA)",
+   "assistance (ODA)",
+   "spacing"
+  ],
+  [
+   250,
+   "Product(GNP)",
+   "Product (GNP)",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b355480c1197fcc9210aec546133e25bc6e51d2d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 344,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2655,
+  "words_out": 2653,
+  "retention": 0.9992,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   141,
+   132,
+   98,
+   68,
+   69,
+   120,
+   142,
+   117,
+   193,
+   215,
+   133,
+   101,
+   95,
+   148,
+   96,
+   140,
+   149,
+   90,
+   106,
+   64,
+   107,
+   35,
+   69,
+   25
+  ],
+  "warnings": []
+ }
+}

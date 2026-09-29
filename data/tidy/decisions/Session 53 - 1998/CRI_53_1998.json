@@ -1,0 +1,183 @@
+{
+ "id": "CRI_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  29,
+  41,
+  63,
+  81,
+  94,
+  108,
+  116,
+  125,
+  147,
+  167,
+  180,
+  188,
+  203,
+  222,
+  240,
+  258,
+  277,
+  295,
+  304,
+  322,
+  341,
+  357,
+  374
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Operttiâs",
+   "Opertti’s",
+   "encoding"
+  ],
+  [
+   54,
+   "speciesâ",
+   "species’",
+   "encoding"
+  ],
+  [
+   70,
+   "Ricaâs",
+   "Rica’s",
+   "encoding"
+  ],
+  [
+   75,
+   "Ricaâs",
+   "Rica’s",
+   "encoding"
+  ],
+  [
+   138,
+   "Courtâs",
+   "Court’s",
+   "encoding"
+  ],
+  [
+   139,
+   "Ricaâs",
+   "Rica’s",
+   "encoding"
+  ],
+  [
+   156,
+   "countryâs",
+   "country’s",
+   "encoding"
+  ],
+  [
+   157,
+   "Mar'a",
+   "María",
+   "encoding"
+  ],
+  [
+   164,
+   "Ricaâs",
+   "Rica’s",
+   "encoding"
+  ],
+  [
+   170,
+   "Ricaâs",
+   "Rica’s",
+   "encoding"
+  ],
+  [
+   228,
+   "Americaâs",
+   "America’s",
+   "encoding"
+  ],
+  [
+   249,
+   "marketâs",
+   "market’s",
+   "encoding"
+  ],
+  [
+   269,
+   "countriesâ",
+   "countries’",
+   "encoding"
+  ],
+  [
+   280,
+   "regionâs",
+   "region’s",
+   "encoding"
+  ],
+  [
+   312,
+   "Echeverr'a",
+   "Echeverría",
+   "encoding"
+  ],
+  [
+   324,
+   "beingâs",
+   "being’s",
+   "encoding"
+  ],
+  [
+   329,
+   "countryâs",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa6719d9adee96184814c38d624ea8cf2e51e76d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 389,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 11,
+   "page_number": 4
+  },
+  "words_in": 3294,
+  "words_out": 3290,
+  "retention": 0.9988,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   167,
+   91,
+   115,
+   183,
+   155,
+   115,
+   114,
+   71,
+   75,
+   181,
+   175,
+   112,
+   68,
+   132,
+   153,
+   152,
+   136,
+   163,
+   142,
+   67,
+   148,
+   169,
+   127,
+   153,
+   126
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "CSK_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  12,
+  17,
+  22,
+  27,
+  30,
+  35,
+  40,
+  44,
+  46,
+  49,
+  52,
+  54,
+  58,
+  60,
+  62,
+  65,
+  72,
+  76,
+  78,
+  81,
+  83,
+  87,
+  90,
+  92,
+  96,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Fascist m",
+   "Fascism",
+   "split_word"
+  ],
+  [
+   24,
+   "We. note",
+   "We note",
+   "ocr"
+  ],
+  [
+   41,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   56,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   68,
+   "con-temporary",
+   "contemporary",
+   "hyphen"
+  ],
+  [
+   75,
+   "Of weapons",
+   "of weapons",
+   "ocr"
+  ],
+  [
+   91,
+   "Action or. the",
+   "Action on the",
+   "ocr"
+  ],
+  [
+   91,
+   " [resolutions 3201 (S-VI) and 3202 (S-Vl)]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "548eaaa5f5d740499730baadb6c3993a9daed66e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3420,
+  "words_out": 3405,
+  "retention": 0.9956,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   93,
+   69,
+   173,
+   176,
+   141,
+   148,
+   88,
+   179,
+   160,
+   130,
+   82,
+   107,
+   117,
+   119,
+   151,
+   82,
+   112,
+   85,
+   160,
+   138,
+   69,
+   86,
+   63,
+   160,
+   70,
+   96,
+   141,
+   89,
+   121
+  ],
+  "warnings": []
+ }
+}

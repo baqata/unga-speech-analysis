@@ -1,0 +1,74 @@
+{
+ "id": "AUT_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  37,
+  56,
+  76,
+  107,
+  133,
+  145,
+  165,
+  177,
+  203,
+  217,
+  231,
+  250,
+  270,
+  287,
+  304
+ ],
+ "cer": [],
+ "fix": [
+  [
+   226,
+   "(Press release",
+   "",
+   "label"
+  ],
+  [
+   227,
+   "SG/SM/6829, 10 December 1998)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79f68dd058ec4ada9551ffd79b1ebf3f82b543e9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 308,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2443,
+  "words_out": 2431,
+  "retention": 0.9951,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   216,
+   99,
+   130,
+   149,
+   247,
+   205,
+   94,
+   156,
+   107,
+   223,
+   97,
+   96,
+   147,
+   146,
+   129,
+   148,
+   42
+  ],
+  "warnings": []
+ }
+}

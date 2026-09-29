@@ -1,0 +1,216 @@
+{
+ "id": "EGY_22_1967",
+ "drop": [
+  [
+   13,
+   13,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  14,
+  18,
+  26,
+  29,
+  36,
+  43,
+  47,
+  49,
+  51,
+  55,
+  61,
+  63,
+  70,
+  74,
+  82,
+  90,
+  97,
+  106,
+  115,
+  117,
+  122,
+  129,
+  136,
+  140,
+  145,
+  149,
+  154,
+  159,
+  161,
+  169,
+  173,
+  177,
+  184,
+  189,
+  193,
+  197,
+  203,
+  209,
+  212,
+  215,
+  219,
+  223,
+  226,
+  231,
+  239,
+  245,
+  249,
+  254,
+  257,
+  262,
+  267
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   89,
+   "like war;",
+   "like war,",
+   "ocr"
+  ],
+  [
+   116,
+   "Arab States, We realize",
+   "Arab States. We realize",
+   "ocr"
+  ],
+  [
+   153,
+   "1947, All this",
+   "1947. All this",
+   "ocr"
+  ],
+  [
+   158,
+   "its International",
+   "its international",
+   "ocr"
+  ],
+  [
+   162,
+   " [2253 (ES-V)]",
+   "",
+   "label"
+  ],
+  [
+   214,
+   "secure Its freedom",
+   "secure its freedom",
+   "ocr"
+  ],
+  [
+   216,
+   "from Its established",
+   "from its established",
+   "ocr"
+  ],
+  [
+   217,
+   "taken place In the",
+   "taken place in the",
+   "ocr"
+  ],
+  [
+   242,
+   "to peace, If",
+   "to peace. If",
+   "ocr"
+  ],
+  [
+   244,
+   "is In fact",
+   "is in fact",
+   "ocr"
+  ],
+  [
+   258,
+   "Arab States, I did",
+   "Arab States. I did",
+   "ocr"
+  ],
+  [
+   264,
+   "lies In the",
+   "lies in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 13 is only a document reference (A/6701/Add.1, para. 49) and was dropped.",
+ "unitizer_version": 1,
+ "sha1": "32ed924b0a1c0341bce6b57ae05aeff902af6004",
+ "layout": "lines",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 6149,
+  "words_out": 6068,
+  "retention": 0.9868,
+  "n_paragraphs": 53,
+  "paragraph_words": [
+   135,
+   144,
+   106,
+   201,
+   70,
+   161,
+   155,
+   76,
+   78,
+   57,
+   98,
+   124,
+   70,
+   139,
+   57,
+   213,
+   141,
+   174,
+   252,
+   182,
+   60,
+   140,
+   117,
+   143,
+   74,
+   102,
+   86,
+   120,
+   98,
+   71,
+   159,
+   79,
+   100,
+   124,
+   122,
+   74,
+   91,
+   95,
+   114,
+   79,
+   73,
+   95,
+   107,
+   69,
+   100,
+   172,
+   118,
+   122,
+   126,
+   91,
+   113,
+   135,
+   66
+  ],
+  "warnings": []
+ }
+}

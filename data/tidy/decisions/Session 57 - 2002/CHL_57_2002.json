@@ -1,0 +1,70 @@
+{
+ "id": "CHL_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  39,
+  53,
+  68,
+  77,
+  103,
+  130,
+  152,
+  174,
+  198,
+  217,
+  238,
+  251,
+  267,
+  296,
+  306
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   234,
+   "ConcepciÛn",
+   "Concepción",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc154437bda78d8eaec9d2d20cd1d31d215fa42f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 329,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2569,
+  "words_out": 2566,
+  "retention": 0.9988,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   109,
+   187,
+   116,
+   133,
+   70,
+   193,
+   209,
+   162,
+   174,
+   192,
+   143,
+   153,
+   106,
+   133,
+   226,
+   83,
+   177
+  ],
+  "warnings": []
+ }
+}

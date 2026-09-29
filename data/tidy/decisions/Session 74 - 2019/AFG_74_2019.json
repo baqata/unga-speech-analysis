@@ -1,0 +1,76 @@
+{
+ "id": "AFG_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  18,
+  20,
+  27,
+  30,
+  36,
+  42,
+  47,
+  51,
+  56,
+  60,
+  65,
+  69,
+  75,
+  80,
+  88
+ ],
+ "cer": [
+  18
+ ],
+ "fix": [
+  [
+   18,
+   "seventy- fourth",
+   "seventy-fourth",
+   "hyphen"
+  ],
+  [
+   20,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5904ace1306d5eeef41298f49c013c61db67de30",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2031,
+  "words_out": 2029,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   233,
+   140,
+   69,
+   161,
+   76,
+   120,
+   111,
+   110,
+   83,
+   98,
+   75,
+   64,
+   136,
+   124,
+   114,
+   167,
+   148
+  ],
+  "warnings": []
+ }
+}

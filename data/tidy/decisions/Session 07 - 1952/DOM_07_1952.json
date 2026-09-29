@@ -1,0 +1,154 @@
+{
+ "id": "DOM_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  9,
+  10,
+  13,
+  15,
+  19,
+  20,
+  22,
+  25,
+  28,
+  31,
+  33,
+  34,
+  38,
+  40
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "49,",
+   "",
+   "label"
+  ],
+  [
+   11,
+   "54..",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "50,",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "58,",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "59,",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "60,",
+   "",
+   "label"
+  ],
+  [
+   9,
+   "Gr eek",
+   "Greek",
+   "spacing"
+  ],
+  [
+   9,
+   "are/",
+   "are,",
+   "ocr"
+  ],
+  [
+   10,
+   "Organization,",
+   "Organization.",
+   "ocr"
+  ],
+  [
+   12,
+   "find,",
+   "find",
+   "ocr"
+  ],
+  [
+   19,
+   "task,",
+   "task.",
+   "ocr"
+  ],
+  [
+   26,
+   "exchange,",
+   "exchange.",
+   "ocr"
+  ],
+  [
+   31,
+   "1",
+   "I",
+   "ocr"
+  ],
+  [
+   31,
+   "session]",
+   "session;",
+   "ocr"
+  ],
+  [
+   38,
+   "Chatter",
+   "Charter",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b919cb35e53b54c135514ec76a0f8d3c2cdc7942",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 2523,
+  "words_out": 2514,
+  "retention": 0.9964,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   194,
+   150,
+   82,
+   135,
+   130,
+   179,
+   82,
+   186,
+   147,
+   174,
+   134,
+   203,
+   152,
+   72,
+   112,
+   117,
+   122,
+   143
+  ],
+  "warnings": []
+ }
+}

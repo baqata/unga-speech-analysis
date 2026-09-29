@@ -1,0 +1,106 @@
+{
+ "id": "MUS_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  21,
+  25,
+  33,
+  37,
+  40,
+  44,
+  48,
+  50,
+  55,
+  57,
+  62,
+  67,
+  73,
+  78,
+  82,
+  84,
+  85,
+  88,
+  90
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "there- fare",
+   "therefore",
+   "ocr"
+  ],
+  [
+   33,
+   "balance- of-payments",
+   "balance-of-payments",
+   "hyphen"
+  ],
+  [
+   56,
+   "1 hope",
+   "I hope",
+   "ocr"
+  ],
+  [
+   65,
+   "1 would",
+   "I would",
+   "ocr"
+  ],
+  [
+   88,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b34bd78a3eb45fb989b396e2c19f397957607159",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2458,
+  "words_out": 2455,
+  "retention": 0.9988,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   104,
+   119,
+   118,
+   139,
+   72,
+   198,
+   112,
+   88,
+   115,
+   115,
+   61,
+   125,
+   67,
+   128,
+   136,
+   117,
+   131,
+   102,
+   73,
+   50,
+   127,
+   62,
+   96
+  ],
+  "warnings": []
+ }
+}

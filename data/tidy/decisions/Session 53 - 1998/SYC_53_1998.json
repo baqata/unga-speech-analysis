@@ -1,0 +1,72 @@
+{
+ "id": "SYC_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  40,
+  62,
+  76,
+  87,
+  99,
+  118,
+  129,
+  142,
+  156,
+  178,
+  198,
+  212
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "eychelles",
+   "Seychelles",
+   "ocr"
+  ],
+  [
+   5,
+   "fiftysecond",
+   "fifty-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8584f9893d94b9f52081330cef4189fb55a21a5e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1911,
+  "words_out": 1911,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   76,
+   86,
+   174,
+   195,
+   119,
+   95,
+   91,
+   171,
+   98,
+   123,
+   129,
+   170,
+   166,
+   124,
+   94
+  ],
+  "warnings": []
+ }
+}

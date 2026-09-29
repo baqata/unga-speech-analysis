@@ -1,0 +1,134 @@
+{
+ "id": "SLV_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  24,
+  49,
+  68,
+  77,
+  90,
+  107,
+  121,
+  134,
+  146,
+  155,
+  175,
+  185,
+  194,
+  202,
+  217,
+  224,
+  237,
+  249,
+  259,
+  272,
+  282,
+  293,
+  300,
+  313,
+  324,
+  334,
+  345,
+  358,
+  374
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   18,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   97,
+   "continue , to",
+   "continue to",
+   "ocr"
+  ],
+  [
+   128,
+   "entitledto",
+   "entitled to",
+   "merged_word"
+  ],
+  [
+   194,
+   " cur ",
+   " our ",
+   "ocr"
+  ],
+  [
+   296,
+   ".abused",
+   "abused",
+   "ocr"
+  ],
+  [
+   330,
+   "made. '",
+   "made.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Dashes are printed as hyphens in units 113, 313 and 338-339 and left as printed; unit 54 reads \"infer of\" (inter alia) as printed.",
+ "unitizer_version": 1,
+ "sha1": "2efad1af8bc2556a224b84e2455ec87cf6fb1b00",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 383,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 1
+  },
+  "words_in": 3900,
+  "words_out": 3896,
+  "retention": 0.999,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   110,
+   138,
+   239,
+   187,
+   87,
+   129,
+   193,
+   145,
+   142,
+   126,
+   97,
+   200,
+   104,
+   86,
+   75,
+   166,
+   74,
+   124,
+   119,
+   106,
+   128,
+   101,
+   103,
+   72,
+   130,
+   120,
+   105,
+   107,
+   130,
+   154,
+   99
+  ],
+  "warnings": []
+ }
+}

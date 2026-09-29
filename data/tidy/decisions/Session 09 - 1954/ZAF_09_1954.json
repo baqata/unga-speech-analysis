@@ -1,0 +1,95 @@
+{
+ "id": "ZAF_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  12,
+  13,
+  17,
+  20,
+  25,
+  28,
+  34,
+  36,
+  41,
+  44,
+  48,
+  52,
+  56,
+  63,
+  69,
+  74,
+  77,
+  85,
+  90,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   67,
+   "social -and",
+   "social and",
+   "spacing"
+  ],
+  [
+   83,
+   "unyielding-attitudes",
+   "unyielding attitudes",
+   "spacing"
+  ],
+  [
+   88,
+   "[AJ2663, p. xiv]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca1ef15ecf56952609ffffbbca62dd98e2212f65",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 3451,
+  "words_out": 3446,
+  "retention": 0.9986,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   67,
+   190,
+   161,
+   78,
+   164,
+   145,
+   151,
+   154,
+   231,
+   150,
+   170,
+   133,
+   203,
+   80,
+   123,
+   175,
+   227,
+   161,
+   96,
+   194,
+   230,
+   101,
+   62
+  ],
+  "warnings": []
+ }
+}

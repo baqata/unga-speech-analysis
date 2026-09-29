@@ -1,0 +1,62 @@
+{
+ "id": "CHE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  18,
+  25,
+  29,
+  35,
+  38,
+  42,
+  45,
+  46,
+  48,
+  52,
+  57
+ ],
+ "cer": [],
+ "fix": [
+  [
+   45,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "581736573c77ee771bdbbd12270a01c3c26f1bb1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1262,
+  "words_out": 1259,
+  "retention": 0.9976,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   119,
+   76,
+   80,
+   68,
+   131,
+   69,
+   99,
+   81,
+   84,
+   61,
+   40,
+   68,
+   94,
+   131,
+   58
+  ],
+  "warnings": []
+ }
+}

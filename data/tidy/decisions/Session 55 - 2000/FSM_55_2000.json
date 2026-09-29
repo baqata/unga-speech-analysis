@@ -1,0 +1,65 @@
+{
+ "id": "FSM_55_2000",
+ "drop": [
+  [
+   213,
+   213,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  26,
+  41,
+  53,
+  91,
+  110,
+  123,
+  143,
+  155,
+  169,
+  189,
+  203,
+  211
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bb875c9b8c7fc665cef5925e0cdd8135e7a608a0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {
+   "heading": 1
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1608,
+  "words_out": 1602,
+  "retention": 0.9963,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   73,
+   112,
+   114,
+   90,
+   298,
+   155,
+   98,
+   152,
+   82,
+   107,
+   139,
+   109,
+   60,
+   13
+  ],
+  "warnings": []
+ }
+}

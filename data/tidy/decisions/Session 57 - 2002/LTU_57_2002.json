@@ -1,0 +1,47 @@
+{
+ "id": "LTU_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  28,
+  37,
+  50,
+  59,
+  71,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9de1cf035067df5d7e70e99e4dfda62a9c828c91",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 766,
+  "words_out": 765,
+  "retention": 0.9987,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   45,
+   84,
+   102,
+   65,
+   94,
+   68,
+   96,
+   130,
+   81
+  ],
+  "warnings": []
+ }
+}

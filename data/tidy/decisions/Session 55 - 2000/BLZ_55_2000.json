@@ -1,0 +1,52 @@
+{
+ "id": "BLZ_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  21,
+  40,
+  64,
+  87,
+  100,
+  115,
+  135,
+  145,
+  167
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9cf7dfb20bfa3cf2fdff002ffc9268e8537e1a65",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "page_number": 2
+  },
+  "words_in": 1572,
+  "words_out": 1571,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   68,
+   99,
+   154,
+   193,
+   205,
+   120,
+   134,
+   171,
+   85,
+   179,
+   163
+  ],
+  "warnings": []
+ }
+}

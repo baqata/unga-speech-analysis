@@ -1,0 +1,214 @@
+{
+ "id": "ITA_13_1958",
+ "drop": [
+  [
+   38,
+   38,
+   "header_footer"
+  ],
+  [
+   60,
+   60,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  7,
+  9,
+  15,
+  18,
+  22,
+  26,
+  32,
+  42,
+  44,
+  46,
+  48,
+  52,
+  54,
+  61,
+  64,
+  71,
+  76,
+  83,
+  87,
+  91,
+  94,
+  96,
+  99,
+  104,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "[resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "hope, However",
+   "hope. However",
+   "ocr"
+  ],
+  [
+   2,
+   "region, We",
+   "region. We",
+   "ocr"
+  ],
+  [
+   18,
+   "anxious. for",
+   "anxious for",
+   "ocr"
+  ],
+  [
+   19,
+   "Witnessed",
+   "witnessed",
+   "ocr"
+  ],
+  [
+   19,
+   "serious 'crisis",
+   "serious crisis",
+   "ocr"
+  ],
+  [
+   20,
+   "o! living",
+   "of living",
+   "ocr"
+  ],
+  [
+   20,
+   "as 'well",
+   "as well",
+   "ocr"
+  ],
+  [
+   42,
+   "statesmen, Italy, which",
+   "statesmen. Italy, which",
+   "ocr"
+  ],
+  [
+   53,
+   "envisaged us a",
+   "envisaged as a",
+   "ocr"
+  ],
+  [
+   53,
+   "statement,",
+   "statement.",
+   "ocr"
+  ],
+  [
+   70,
+   "his. mandate",
+   "his mandate",
+   "ocr"
+  ],
+  [
+   70,
+   "Group In",
+   "Group in",
+   "ocr"
+  ],
+  [
+   70,
+   "areas,",
+   "areas.",
+   "ocr"
+  ],
+  [
+   94,
+   "of . our",
+   "of our",
+   "ocr"
+  ],
+  [
+   97,
+   "Violations",
+   "violations",
+   "ocr"
+  ],
+  [
+   100,
+   "in. the",
+   "in the",
+   "ocr"
+  ],
+  [
+   111,
+   "die provisions",
+   "the provisions",
+   "ocr"
+  ],
+  [
+   112,
+   "of' relations",
+   "of relations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 38 and 60 are stray paragraph numbers ('15.', '22.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "cdeb1ba0c393c5b119f0b152febc600a8e1a4ecb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 3809,
+  "words_out": 3803,
+  "retention": 0.9984,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   56,
+   120,
+   131,
+   90,
+   116,
+   149,
+   186,
+   127,
+   141,
+   237,
+   118,
+   154,
+   86,
+   128,
+   103,
+   230,
+   70,
+   229,
+   202,
+   214,
+   151,
+   129,
+   105,
+   87,
+   81,
+   138,
+   89,
+   136
+  ],
+  "warnings": []
+ }
+}

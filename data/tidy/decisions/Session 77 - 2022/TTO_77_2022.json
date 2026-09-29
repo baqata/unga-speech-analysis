@@ -1,0 +1,74 @@
+{
+ "id": "TTO_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  11,
+  13,
+  15,
+  21,
+  25,
+  29,
+  31,
+  34,
+  40,
+  44,
+  47,
+  52,
+  59,
+  64,
+  67,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "Israel- Palestine",
+   "Israel-Palestine",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a1192d51dd931b061e0457e8668351f5b996504",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1896,
+  "words_out": 1893,
+  "retention": 0.9984,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   58,
+   85,
+   75,
+   95,
+   83,
+   60,
+   153,
+   126,
+   87,
+   80,
+   62,
+   147,
+   73,
+   84,
+   158,
+   97,
+   101,
+   85,
+   155,
+   29
+  ],
+  "warnings": []
+ }
+}

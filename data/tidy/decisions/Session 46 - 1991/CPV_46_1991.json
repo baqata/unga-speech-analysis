@@ -1,0 +1,124 @@
+{
+ "id": "CPV_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  11,
+  14,
+  18,
+  21,
+  25,
+  28,
+  33,
+  35,
+  42,
+  49,
+  54,
+  59,
+  62,
+  66,
+  70,
+  73,
+  81,
+  86,
+  89,
+  93,
+  99,
+  102
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   2,
+   "He wish",
+   "We wish",
+   "ocr"
+  ],
+  [
+   15,
+   "assert, their",
+   "assert their",
+   "ocr"
+  ],
+  [
+   32,
+   "should he condemned",
+   "should be condemned",
+   "ocr"
+  ],
+  [
+   33,
+   "of .these",
+   "of these",
+   "ocr"
+  ],
+  [
+   37,
+   "That is even",
+   "What is even",
+   "ocr"
+  ],
+  [
+   85,
+   "the contest of",
+   "the context of",
+   "ocr"
+  ],
+  [
+   88,
+   "implemented, an envisaged",
+   "implemented, as envisaged",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a28da02b0891aacdfcc57a29dfc621e602345f7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3301,
+  "words_out": 3301,
+  "retention": 1.0,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   120,
+   64,
+   82,
+   90,
+   150,
+   100,
+   133,
+   167,
+   90,
+   132,
+   75,
+   196,
+   171,
+   165,
+   148,
+   119,
+   102,
+   102,
+   71,
+   214,
+   189,
+   78,
+   161,
+   178,
+   129,
+   75
+  ],
+  "warnings": []
+ }
+}

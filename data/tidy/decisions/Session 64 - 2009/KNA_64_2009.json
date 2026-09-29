@@ -1,0 +1,91 @@
+{
+ "id": "KNA_64_2009",
+ "drop": [
+  [
+   292,
+   292,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  21,
+  32,
+  47,
+  66,
+  74,
+  86,
+  101,
+  118,
+  136,
+  146,
+  159,
+  169,
+  184,
+  197,
+  211,
+  222,
+  231,
+  241,
+  257,
+  268,
+  280,
+  309,
+  318,
+  325
+ ],
+ "cer": [
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cdc52b3e6979cf817fdf52e380bf5e7f54579bf1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 340,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2665,
+  "words_out": 2657,
+  "retention": 0.997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   111,
+   53,
+   83,
+   114,
+   167,
+   65,
+   88,
+   115,
+   134,
+   139,
+   80,
+   113,
+   74,
+   107,
+   101,
+   117,
+   91,
+   73,
+   74,
+   106,
+   91,
+   91,
+   213,
+   69,
+   66,
+   122
+  ],
+  "warnings": [
+   "procedural drop [292,292] in the middle of the speech"
+  ]
+ }
+}

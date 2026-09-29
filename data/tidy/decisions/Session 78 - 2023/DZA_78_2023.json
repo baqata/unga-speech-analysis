@@ -1,0 +1,126 @@
+{
+ "id": "DZA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  20,
+  25,
+  31,
+  34,
+  38,
+  44,
+  50,
+  56,
+  64,
+  68,
+  74,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "perspective.",
+   "perspective,",
+   "ocr"
+  ],
+  [
+   14,
+   "us. especially",
+   "us, especially",
+   "ocr"
+  ],
+  [
+   29,
+   "context.",
+   "context,",
+   "ocr"
+  ],
+  [
+   32,
+   "Furthermore.",
+   "Furthermore,",
+   "ocr"
+  ],
+  [
+   34,
+   "solution.",
+   "solution,",
+   "ocr"
+  ],
+  [
+   42,
+   "context.",
+   "context,",
+   "ocr"
+  ],
+  [
+   46,
+   "Mali.",
+   "Mali,",
+   "ocr"
+  ],
+  [
+   56,
+   "context.",
+   "context,",
+   "ocr"
+  ],
+  [
+   61,
+   "Moreover.",
+   "Moreover,",
+   "ocr"
+  ],
+  [
+   70,
+   "UPR. my",
+   "UPR, my",
+   "ocr"
+  ],
+  [
+   75,
+   "all. especially",
+   "all, especially",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60cd1f5ac08863308f17f2a8b8d7507beecbf4c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2213,
+  "words_out": 2213,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   119,
+   76,
+   120,
+   225,
+   154,
+   149,
+   79,
+   127,
+   170,
+   147,
+   158,
+   155,
+   158,
+   112,
+   224,
+   40
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "TTO_63_2008",
+ "drop": [
+  [
+   32,
+   32,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  20,
+  33,
+  52,
+  68,
+  78,
+  95,
+  114,
+  125,
+  140,
+  157,
+  177,
+  200,
+  215,
+  235,
+  248,
+  262,
+  277,
+  285
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "460748e907eed415bac6aac3e26cdd32bca94194",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 300,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2288,
+  "words_out": 2281,
+  "retention": 0.9969,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   157,
+   85,
+   131,
+   127,
+   79,
+   143,
+   137,
+   78,
+   121,
+   115,
+   146,
+   166,
+   107,
+   164,
+   110,
+   98,
+   131,
+   66,
+   120
+  ],
+  "warnings": [
+   "procedural drop [32,32] in the middle of the speech"
+  ]
+ }
+}

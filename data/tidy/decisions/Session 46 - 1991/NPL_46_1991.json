@@ -1,0 +1,105 @@
+{
+ "id": "NPL_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  15,
+  26,
+  30,
+  41,
+  46,
+  49,
+  58,
+  66,
+  70,
+  76,
+  78,
+  83,
+  85,
+  88
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   3,
+   "Peres de Cuellar",
+   "Perez de Cuellar",
+   "ocr"
+  ],
+  [
+   26,
+   "He place",
+   "We place",
+   "ocr"
+  ],
+  [
+   41,
+   "336 (1973)",
+   "338 (1973)",
+   "ocr"
+  ],
+  [
+   51,
+   "mist press",
+   "must press",
+   "ocr"
+  ],
+  [
+   53,
+   "weapons! nuclear",
+   "weapons: nuclear",
+   "ocr"
+  ],
+  [
+   56,
+   "Prance",
+   "France",
+   "ocr"
+  ],
+  [
+   67,
+   "without, sacrificing",
+   "without sacrificing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69e0d27ca648914e8e3b84485f28ffcb1f16db0c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2014,
+  "words_out": 2014,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   106,
+   79,
+   154,
+   223,
+   106,
+   165,
+   107,
+   72,
+   194,
+   168,
+   83,
+   169,
+   75,
+   101,
+   79,
+   78,
+   55
+  ],
+  "warnings": []
+ }
+}

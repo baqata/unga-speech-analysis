@@ -1,0 +1,56 @@
+{
+ "id": "TKM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  15,
+  20,
+  25,
+  28,
+  31,
+  34,
+  37
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2aab3fee25a3ec90e611a94356102793e07246e0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1186,
+  "words_out": 1185,
+  "retention": 0.9992,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   85,
+   144,
+   201,
+   116,
+   175,
+   139,
+   113,
+   69,
+   102,
+   41
+  ],
+  "warnings": []
+ }
+}

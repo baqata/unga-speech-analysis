@@ -1,0 +1,72 @@
+{
+ "id": "CRI_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  20,
+  26,
+  30,
+  39,
+  41,
+  45,
+  50,
+  55,
+  60,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   59,
+   "[A/5481 and Add.1 and Add.1/ Corr.1]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   ", I simply",
+   ". I simply",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27a8a01ff87115078317f440338c4faa0ac92fab",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2403,
+  "words_out": 2384,
+  "retention": 0.9921,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   212,
+   195,
+   189,
+   220,
+   124,
+   286,
+   112,
+   183,
+   135,
+   122,
+   174,
+   194,
+   238
+  ],
+  "warnings": []
+ }
+}

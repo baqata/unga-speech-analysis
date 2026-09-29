@@ -1,0 +1,297 @@
+{
+ "id": "MOZ_30_1975",
+ "drop": [
+  [
+   85,
+   85,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  12,
+  13,
+  15,
+  19,
+  21,
+  25,
+  29,
+  34,
+  37,
+  39,
+  43,
+  50,
+  55,
+  58,
+  63,
+  69,
+  71,
+  73,
+  78,
+  82,
+  83,
+  90,
+  97,
+  101,
+  104,
+  110,
+  114,
+  115,
+  120,
+  123,
+  127,
+  132,
+  135,
+  140,
+  144,
+  149,
+  153,
+  160,
+  165,
+  168,
+  174,
+  177,
+  181,
+  184,
+  188,
+  193,
+  194,
+  196,
+  200,
+  203,
+  207,
+  213
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   2,
+   "Members. a",
+   "Members, a",
+   "ocr"
+  ],
+  [
+   2,
+   "Ibis",
+   "this",
+   "ocr"
+  ],
+  [
+   3,
+   "Bouteflika. the",
+   "Bouteflika, the",
+   "ocr"
+  ],
+  [
+   16,
+   " [FRELIMO]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "wtll",
+   "will",
+   "ocr"
+  ],
+  [
+   69,
+   "ajust",
+   "a just",
+   "merged_word"
+  ],
+  [
+   71,
+   "solidarity 'to",
+   "solidarity to",
+   "ocr"
+  ],
+  [
+   81,
+   "[n invoking",
+   "In invoking",
+   "ocr"
+  ],
+  [
+   83,
+   "30 ",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "nas been",
+   "has been",
+   "ocr"
+  ],
+  [
+   84,
+   "benefiting;",
+   "benefiting",
+   "ocr"
+  ],
+  [
+   87,
+   "expresseu",
+   "expressed",
+   "ocr"
+  ],
+  [
+   90,
+   "question.1",
+   "question.",
+   "ocr"
+  ],
+  [
+   95,
+   "oh Korean",
+   "on Korean",
+   "ocr"
+  ],
+  [
+   114,
+   " [OAJJ]",
+   "",
+   "label"
+  ],
+  [
+   143,
+   "Smith,",
+   "Smith.",
+   "ocr"
+  ],
+  [
+   146,
+   "minor' ity",
+   "minority",
+   "ocr"
+  ],
+  [
+   160,
+   " [.SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   167,
+   " [MPLA ]",
+   "",
+   "label"
+  ],
+  [
+   175,
+   " [FRETILIN]",
+   "",
+   "label"
+  ],
+  [
+   202,
+   "order,",
+   "order.",
+   "ocr"
+  ],
+  [
+   203,
+   "1975,1",
+   "1975,",
+   "ocr"
+  ],
+  [
+   62,
+   " [resolution 3362 (S-Vll)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 84 keeps \"promo e\", which cannot be repaired without adding a letter.",
+ "unitizer_version": 1,
+ "sha1": "97a56767e0c246d32f57d15b2cde70fcd544ebaa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 63
+  },
+  "words_in": 6065,
+  "words_out": 6051,
+  "retention": 0.9977,
+  "n_paragraphs": 56,
+  "paragraph_words": [
+   67,
+   128,
+   75,
+   87,
+   72,
+   62,
+   79,
+   97,
+   95,
+   101,
+   141,
+   63,
+   82,
+   110,
+   193,
+   179,
+   79,
+   219,
+   200,
+   90,
+   67,
+   144,
+   135,
+   89,
+   101,
+   190,
+   75,
+   87,
+   171,
+   161,
+   60,
+   145,
+   87,
+   88,
+   131,
+   83,
+   85,
+   79,
+   87,
+   103,
+   108,
+   148,
+   70,
+   131,
+   63,
+   143,
+   63,
+   95,
+   126,
+   114,
+   71,
+   133,
+   80,
+   108,
+   157,
+   54
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

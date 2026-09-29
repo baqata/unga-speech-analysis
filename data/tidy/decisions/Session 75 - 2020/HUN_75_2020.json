@@ -1,0 +1,64 @@
+{
+ "id": "HUN_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  12,
+  23,
+  34
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   20,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   21,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   22,
+   "- ",
+   "",
+   "markup"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6bfb508ff38f67382025b00e97ee82cc0eddcd49",
+ "layout": "lines",
+ "stats": {
+  "n_units": 36,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 681,
+  "words_out": 677,
+  "retention": 0.9941,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   4,
+   111,
+   128,
+   222,
+   180,
+   32
+  ],
+  "warnings": []
+ }
+}

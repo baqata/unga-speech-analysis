@@ -1,0 +1,82 @@
+{
+ "id": "CHN_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  29,
+  47,
+  64,
+  72,
+  84,
+  104,
+  120,
+  136,
+  148,
+  163,
+  174,
+  194,
+  208,
+  217,
+  231,
+  246,
+  260,
+  277,
+  297
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "parties' to",
+   "parties to",
+   "ocr"
+  ],
+  [
+   201,
+   "'historical",
+   "historical",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b26837da9150d129cdc228dcd5ff1535be3064d0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 307,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3333,
+  "words_out": 3332,
+  "retention": 0.9997,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   163,
+   169,
+   207,
+   193,
+   90,
+   130,
+   219,
+   172,
+   158,
+   129,
+   169,
+   110,
+   186,
+   144,
+   100,
+   147,
+   161,
+   149,
+   186,
+   231,
+   119
+  ],
+  "warnings": []
+ }
+}

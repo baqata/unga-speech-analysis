@@ -1,0 +1,106 @@
+{
+ "id": "COL_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  19,
+  24,
+  30,
+  33,
+  37,
+  43,
+  45,
+  48,
+  54,
+  60,
+  64,
+  70,
+  76,
+  81,
+  86,
+  92,
+  97,
+  102,
+  105,
+  108,
+  114
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "African- Americans",
+   "African-Americans",
+   "hyphen"
+  ],
+  [
+   95,
+   "petrol- fired",
+   "petrol-fired",
+   "hyphen"
+  ],
+  [
+   12,
+   "C02",
+   "CO2",
+   "ocr"
+  ],
+  [
+   13,
+   "C02",
+   "CO2",
+   "ocr"
+  ],
+  [
+   27,
+   "C02",
+   "CO2",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f765e2ae46cb6c032742b2a5146ba53323d189e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2255,
+  "words_out": 2253,
+  "retention": 0.9991,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   64,
+   66,
+   77,
+   76,
+   104,
+   92,
+   67,
+   104,
+   123,
+   73,
+   70,
+   84,
+   110,
+   87,
+   82,
+   93,
+   109,
+   116,
+   90,
+   125,
+   116,
+   93,
+   81,
+   95,
+   56
+  ],
+  "warnings": []
+ }
+}

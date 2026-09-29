@@ -1,0 +1,80 @@
+{
+ "id": "DOM_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  9,
+  11,
+  16,
+  18,
+  21,
+  25,
+  29,
+  32,
+  34,
+  36,
+  40,
+  42,
+  46,
+  47,
+  49,
+  52,
+  55,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "revolution' of",
+   "revolution of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff004ec213aa7a64f1758eb74b98f15481f5190f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2664,
+  "words_out": 2660,
+  "retention": 0.9985,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   61,
+   122,
+   110,
+   145,
+   91,
+   174,
+   139,
+   153,
+   140,
+   142,
+   88,
+   94,
+   112,
+   120,
+   144,
+   166,
+   79,
+   106,
+   123,
+   123,
+   106,
+   122
+  ],
+  "warnings": []
+ }
+}

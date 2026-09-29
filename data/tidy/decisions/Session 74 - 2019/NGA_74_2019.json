@@ -1,0 +1,91 @@
+{
+ "id": "NGA_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  17,
+  21,
+  26,
+  32,
+  36,
+  40,
+  43,
+  45,
+  53,
+  57,
+  61,
+  66,
+  70,
+  76
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   18,
+   "cross- investment",
+   "cross-investment",
+   "hyphen"
+  ],
+  [
+   70,
+   "first- hand",
+   "first-hand",
+   "hyphen"
+  ],
+  [
+   71,
+   "seventy- fifth",
+   "seventy-fifth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43d88f9a7fe0bb0c5a45ed76ea4b2864d9ded319",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1691,
+  "words_out": 1687,
+  "retention": 0.9976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   97,
+   67,
+   96,
+   86,
+   69,
+   93,
+   64,
+   116,
+   69,
+   97,
+   99,
+   61,
+   175,
+   72,
+   83,
+   91,
+   94,
+   124,
+   34
+  ],
+  "warnings": []
+ }
+}

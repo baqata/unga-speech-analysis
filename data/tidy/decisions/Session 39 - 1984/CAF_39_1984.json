@@ -1,0 +1,110 @@
+{
+ "id": "CAF_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  18,
+  24,
+  28,
+  30,
+  34,
+  36,
+  42,
+  49,
+  52,
+  58,
+  64,
+  66,
+  70,
+  75,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   64,
+   " [resolution 3281 (XXIX)]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "117- ",
+   "",
+   "label"
+  ],
+  [
+   43,
+   " 120",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "Mabre",
+   "Habre",
+   "ocr"
+  ],
+  [
+   51,
+   "AH States",
+   "All States",
+   "ocr"
+  ],
+  [
+   68,
+   "out hopes",
+   "our hopes",
+   "ocr"
+  ],
+  [
+   72,
+   "1 should",
+   "I should",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cd5a88ce67b8bdf10b42b5d56acc43ecd5131fc6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2121,
+  "words_out": 2110,
+  "retention": 0.9948,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   137,
+   101,
+   85,
+   143,
+   89,
+   89,
+   76,
+   118,
+   66,
+   128,
+   132,
+   80,
+   116,
+   150,
+   85,
+   174,
+   125,
+   99,
+   117
+  ],
+  "warnings": []
+ }
+}

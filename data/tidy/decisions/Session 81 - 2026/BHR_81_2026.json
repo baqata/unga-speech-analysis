@@ -1,0 +1,180 @@
+{
+ "id": "BHR_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   116,
+   117,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  11,
+  17,
+  25,
+  29,
+  36,
+  41,
+  46,
+  53,
+  57,
+  63,
+  68,
+  74,
+  79,
+  83,
+  93,
+  100,
+  105,
+  109,
+  114
+ ],
+ "cer": [
+  1,
+  114
+ ],
+ "fix": [
+  [
+   1,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   12,
+   "Gulf Corporation Council",
+   "Gulf Cooperation Council",
+   "asr_name"
+  ],
+  [
+   29,
+   "Strait of Harms",
+   "Strait of Hormuz",
+   "asr_name"
+  ],
+  [
+   34,
+   "this trade",
+   "this strait",
+   "asr_term"
+  ],
+  [
+   35,
+   "rite of passage",
+   "right of passage",
+   "asr_term"
+  ],
+  [
+   36,
+   "straits of harm",
+   "straits of Hormuz",
+   "asr_name"
+  ],
+  [
+   37,
+   "Bab el-Mendeb",
+   "Bab el-Mandeb",
+   "asr_name"
+  ],
+  [
+   38,
+   "Bab el-Mendeb",
+   "Bab el-Mandeb",
+   "asr_name"
+  ],
+  [
+   46,
+   "area formula",
+   "Arria-formula",
+   "asr_name"
+  ],
+  [
+   27,
+   "attacks. we",
+   "attacks. We",
+   "asr_term"
+  ],
+  [
+   31,
+   "passage. it",
+   "passage. It",
+   "asr_term"
+  ],
+  [
+   32,
+   "solution that",
+   "solution to conduct that",
+   "asr_term"
+  ],
+  [
+   90,
+   "in a single state",
+   "in a single strait",
+   "asr_term"
+  ],
+  [
+   93,
+   "All these",
+   "Mr. President, all these",
+   "asr_term"
+  ],
+  [
+   88,
+   "to hold a",
+   "to halt a",
+   "slip"
+  ],
+  [
+   88,
+   "power to hold",
+   "power to halt",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "PGA Khalilur Rahman per un.org; Hormuz, estrecho, derecho de tránsito, ARRIA and detener per Spanish channel; 28 January Day of Peaceful Coexistence confirmed by A/RES/79/269 (Spanish channel's '22 de enero' is wrong). Unit 116 'Thank you.' treated as the presiding officer's. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 27 'attacks. we' -> 'attacks. We'; unit 31 'passage. it' -> 'passage. It'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 32 'solution that' -> 'solution to conduct that' (2026 exception: both decodes hear 'to conduct' ('to' 0.64 / 0.62, 'conduct' 0.98 / 0.96); forced scoring 'to conduct that' -19.4 vs ours -22.2; ES 'una solución a una conducta que viola el derecho internacional'); spot 15 unit 88 'to hold a' -> 'to halt a' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): the interpreter said 'hold' (decodes 0.98 / 0.97, the UN transcript; forced scoring 'hold' -0.1 vs 'halt' -3.2), and 'not to hold a technology that no one has the power to hold' does not fit; the Spanish 'El objetivo no es detener una tecnología que nadie va a poder detener' shows 'halt'); spot 16 unit 88 'power to hold' -> 'power to halt' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): as spot 15, said 'hold' (decodes 1.00 / 0.99; forced scoring 'hold' -0.0 vs 'halt' -6.9); the Spanish 'nadie va a poder detener' shows 'halt'); spot 17 unit 90 'in a single state' -> 'in a single strait' (decodes 'straight' 0.65 / 'strait' 0.74; ES 'una norma que se aplica en un único estrecho'; echoes unit 40 'if it does apply to our strait alone, it wouldn't have been a rule'; 'single state' occurs twice in the unit, so 'in a' is needed for uniqueness); spot 18 unit 93 'All these' -> 'Mr. President, all these' (the run's restore, written as a repair of up to four words: 2026 exception, both decodes hear 'Mr. President,' (Mr. 0.85 / 0.91, President 0.99 / 1.00); ES 'Señor presidente, todas estas cuestiones')",
+ "unitizer_version": 1,
+ "sha1": "1e80145b13e998009018c401b64b61b62c3870ed",
+ "layout": "single",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2476,
+  "words_out": 2449,
+  "retention": 0.9891,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   168,
+   64,
+   127,
+   119,
+   132,
+   210,
+   89,
+   173,
+   147,
+   85,
+   86,
+   90,
+   138,
+   110,
+   60,
+   200,
+   101,
+   84,
+   121,
+   113,
+   32
+  ],
+  "warnings": []
+ }
+}

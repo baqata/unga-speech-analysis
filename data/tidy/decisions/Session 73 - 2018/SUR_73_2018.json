@@ -1,0 +1,99 @@
+{
+ "id": "SUR_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  13,
+  17,
+  24,
+  30,
+  40,
+  49,
+  58,
+  65,
+  73,
+  80,
+  92,
+  96,
+  98,
+  102,
+  106
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   7,
+   "thetargets",
+   "the targets",
+   "merged_word"
+  ],
+  [
+   13,
+   "sea- level",
+   "sea-level",
+   "hyphen"
+  ],
+  [
+   24,
+   "commodity- price",
+   "commodity-price",
+   "hyphen"
+  ],
+  [
+   25,
+   "century- old",
+   "century-old",
+   "hyphen"
+  ],
+  [
+   56,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1baf07f5b99b35cc465d367f435d852c65e7e119",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2525,
+  "words_out": 2521,
+  "retention": 0.9984,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   115,
+   54,
+   87,
+   106,
+   86,
+   146,
+   161,
+   200,
+   213,
+   216,
+   145,
+   137,
+   131,
+   219,
+   83,
+   60,
+   110,
+   116,
+   136
+  ],
+  "warnings": []
+ }
+}

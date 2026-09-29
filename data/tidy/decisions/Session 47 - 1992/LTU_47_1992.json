@@ -1,0 +1,58 @@
+{
+ "id": "LTU_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  42,
+  59,
+  77,
+  97,
+  115,
+  136,
+  153,
+  167,
+  177
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   68,
+   "is dangerous.",
+   "is dangerous,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a33230cae88fb069bb24b28dab252388a4a3fa90",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2201,
+  "words_out": 2201,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   81,
+   176,
+   234,
+   199,
+   192,
+   218,
+   201,
+   241,
+   216,
+   161,
+   116,
+   166
+  ],
+  "warnings": []
+ }
+}

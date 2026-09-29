@@ -1,0 +1,57 @@
+{
+ "id": "GNB_80_2025",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   43,
+   43,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  6,
+  12,
+  20,
+  25,
+  29,
+  31,
+  42
+ ],
+ "cer": [
+  3,
+  42
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0373cf564514116c8aa844040bca14d17398a6c0",
+ "layout": "single",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 903,
+  "words_out": 854,
+  "retention": 0.9457,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   80,
+   152,
+   125,
+   148,
+   82,
+   71,
+   192,
+   4
+  ],
+  "warnings": []
+ }
+}

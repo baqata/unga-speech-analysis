@@ -1,0 +1,93 @@
+{
+ "id": "BRN_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  13,
+  18,
+  20,
+  30,
+  37,
+  41,
+  47,
+  52,
+  55,
+  62,
+  69,
+  73,
+  76,
+  82
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "congratulations en your",
+   "congratulations on your",
+   "ocr"
+  ],
+  [
+   3,
+   "ray profound",
+   "my profound",
+   "ocr"
+  ],
+  [
+   52,
+   "bee.2",
+   "been",
+   "ocr"
+  ],
+  [
+   30,
+   "late*",
+   "late,",
+   "ocr"
+  ],
+  [
+   65,
+   "problem*,",
+   "problem,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9fec9c8ae70a312b1f297537963fab0da4035599",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1846,
+  "words_out": 1846,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   100,
+   68,
+   153,
+   144,
+   60,
+   184,
+   128,
+   71,
+   73,
+   115,
+   63,
+   148,
+   125,
+   95,
+   57,
+   84,
+   178
+  ],
+  "warnings": []
+ }
+}

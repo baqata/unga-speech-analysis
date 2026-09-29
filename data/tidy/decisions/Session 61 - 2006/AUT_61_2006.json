@@ -1,0 +1,63 @@
+{
+ "id": "AUT_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  31,
+  44,
+  57,
+  75,
+  86,
+  96,
+  107,
+  116,
+  130,
+  144,
+  167,
+  177,
+  192,
+  203,
+  209
+ ],
+ "cer": [
+  209
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba1386066b77bd9ddcef778a098b0b75cb16b839",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1856,
+  "words_out": 1854,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   135,
+   110,
+   110,
+   109,
+   148,
+   92,
+   77,
+   91,
+   75,
+   130,
+   116,
+   203,
+   82,
+   115,
+   85,
+   49,
+   127
+  ],
+  "warnings": []
+ }
+}

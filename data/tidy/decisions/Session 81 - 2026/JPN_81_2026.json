@@ -1,0 +1,195 @@
+{
+ "id": "JPN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   3,
+   3,
+   "repeat"
+  ],
+  [
+   127,
+   127,
+   "noise"
+  ],
+  [
+   128,
+   128,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  12,
+  17,
+  22,
+  31,
+  36,
+  41,
+  47,
+  52,
+  57,
+  62,
+  65,
+  69,
+  75,
+  80,
+  86,
+  94,
+  100,
+  105,
+  113,
+  119,
+  126
+ ],
+ "cer": [
+  126
+ ],
+ "fix": [
+  [
+   2,
+   " policies.",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "de-esclination",
+   "de-escalation",
+   "asr_term"
+  ],
+  [
+   63,
+   "Justice ,",
+   "Justice,",
+   "spacing"
+  ],
+  [
+   63,
+   "Court ,",
+   "Court,",
+   "spacing"
+  ],
+  [
+   63,
+   "Sea .",
+   "Sea.",
+   "spacing"
+  ],
+  [
+   67,
+   "Bab-El-Mondeb",
+   "Bab-el-Mandeb",
+   "asr_name"
+  ],
+  [
+   69,
+   "President Trump,",
+   "Madam President.",
+   "asr_term"
+  ],
+  [
+   69,
+   "President of the United States of the United States of the United ",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "TCAD",
+   "TICAD",
+   "asr_name"
+  ],
+  [
+   74,
+   "TCAD",
+   "TICAD",
+   "asr_name"
+  ],
+  [
+   91,
+   "ASEC",
+   "AZEC",
+   "asr_name"
+  ],
+  [
+   89,
+   "centers. harnessing",
+   "centers. Harnessing",
+   "asr_term"
+  ],
+  [
+   63,
+   "Sea. established",
+   "Sea. We established",
+   "asr_term"
+  ],
+  [
+   72,
+   "99 Additionally",
+   "99 countries. Additionally",
+   "asr_term"
+  ],
+  [
+   107,
+   "at the advance",
+   "advance reform",
+   "asr_term"
+  ],
+  [
+   120,
+   "roles",
+   "rules",
+   "asr_term"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Opening decoded twice (unit 3 repeat); unit 69 'Trump' invented per audio re-decodes and Spanish 'Señora Presidente'; TICAD and Bab-el-Mandeb per Spanish; AZEC is the Asia Zero Emission Community; words missing in units 63 and 72. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 63 'Sea. established' -> 'Sea. Established'; unit 89 'centers. harnessing' -> 'centers. Harnessing'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 10 unit 63 'Sea. established' -> 'Sea. We established' (2026 exception: both decodes hear 'We' clearly (1.00 / 0.99) before 'established'; ES 'Hemos establecido'; UN 'With this in mind' not heard; old is the existing repair's old; the unit source reads 'Sea . established' and the existing spacing repair makes it 'Sea.', so this old matches the text after the unit's earlier repairs); spot 12 unit 72 '99 Additionally' -> '99 countries. Additionally' (2026 exception: both decodes hear 'countries.' clearly (1.00 / 1.00); ES 'en 99 países'; the full stop is the sentence end lost with the word (if the tool refuses the mark, restore 'countries' as a restore item)); spot 21 unit 107 'at the advance' -> 'advance reform' (covers spots 21 and 22: both decodes and three re-decodes from 1122/1123/1124 s hear 'vigorously advance reform of the United Nations' with no 'at the'; 'reform' heard at 0.88 / 0.99 / 0.93 / 0.90 / 0.90 and confirmed by ES 'es fundamental reformar la organización' (2026 exception)); spot 24 unit 120 'roles' -> 'rules' (both decodes hear 'rules' (0.77 / 0.81); ES 'establecer reglas e instituciones')",
+ "unitizer_version": 1,
+ "sha1": "417fd0eaddfcd8ec19efae342c498e6928778884",
+ "layout": "single",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "presider": 3,
+   "repeat": 1,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2893,
+  "words_out": 2823,
+  "retention": 0.9758,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   141,
+   122,
+   117,
+   176,
+   136,
+   120,
+   148,
+   114,
+   97,
+   122,
+   96,
+   101,
+   155,
+   108,
+   138,
+   190,
+   128,
+   129,
+   186,
+   111,
+   183,
+   5
+  ],
+  "warnings": []
+ }
+}

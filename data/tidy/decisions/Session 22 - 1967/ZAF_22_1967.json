@@ -1,0 +1,126 @@
+{
+ "id": "ZAF_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  20,
+  27,
+  31,
+  38,
+  41,
+  52,
+  59,
+  62,
+  65,
+  70,
+  73,
+  83,
+  90,
+  98
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "Apart from, the",
+   "Apart from the",
+   "ocr"
+  ],
+  [
+   28,
+   "the world, High enough",
+   "the world. High enough",
+   "ocr"
+  ],
+  [
+   37,
+   " [ibid., para. 83]",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "not Jeopardize",
+   "not jeopardize",
+   "ocr"
+  ],
+  [
+   74,
+   "African International community",
+   "African international community",
+   "ocr"
+  ],
+  [
+   74,
+   "peoples.",
+   "peoples,",
+   "ocr"
+  ],
+  [
+   78,
+   "words, In our",
+   "words, in our",
+   "ocr"
+  ],
+  [
+   86,
+   "Terrorism Is",
+   "Terrorism is",
+   "ocr"
+  ],
+  [
+   92,
+   "incontestable In",
+   "incontestable in",
+   "ocr"
+  ],
+  [
+   97,
+   "the Introduction",
+   "the introduction",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f154fe74cd6b5b7c838b30c0cc685074811f38a5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 2302,
+  "words_out": 2275,
+  "retention": 0.9883,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   52,
+   156,
+   129,
+   168,
+   142,
+   88,
+   112,
+   66,
+   243,
+   132,
+   163,
+   63,
+   96,
+   96,
+   199,
+   122,
+   183,
+   65
+  ],
+  "warnings": []
+ }
+}

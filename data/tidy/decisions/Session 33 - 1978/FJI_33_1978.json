@@ -1,0 +1,138 @@
+{
+ "id": "FJI_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  15,
+  22,
+  26,
+  32,
+  38,
+  46,
+  48,
+  59,
+  67,
+  74,
+  78,
+  82,
+  86,
+  89,
+  96,
+  100,
+  103,
+  111,
+  115,
+  119,
+  125,
+  127,
+  128
+ ],
+ "cer": [
+  0,
+  127
+ ],
+ "fix": [
+  [
+   3,
+   "predecessor,- Mr",
+   "predecessor, Mr",
+   "ocr"
+  ],
+  [
+   4,
+   "36 ",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "bicycle tin s-are",
+   "bicycle tires-are",
+   "ocr"
+  ],
+  [
+   82,
+   "1 shall",
+   "I shall",
+   "ocr"
+  ],
+  [
+   82,
+   "the- prospects",
+   "the prospects",
+   "ocr"
+  ],
+  [
+   90,
+   " [resolution S-10/2]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "remaining- portion",
+   "remaining portion",
+   "ocr"
+  ],
+  [
+   120,
+   "SoJth",
+   "South",
+   "ocr"
+  ],
+  [
+   120,
+   "a-treaty",
+   "a treaty",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef0d15517cb1de94d02cb92b406ed6e07dcaf89e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 3403,
+  "words_out": 3400,
+  "retention": 0.9991,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   112,
+   58,
+   199,
+   242,
+   100,
+   102,
+   135,
+   202,
+   67,
+   195,
+   131,
+   178,
+   129,
+   77,
+   144,
+   94,
+   153,
+   136,
+   63,
+   184,
+   108,
+   120,
+   157,
+   64,
+   31,
+   219
+  ],
+  "warnings": []
+ }
+}

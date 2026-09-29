@@ -1,0 +1,53 @@
+{
+ "id": "BEN_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  17,
+  20,
+  25,
+  29,
+  36,
+  40,
+  44,
+  51
+ ],
+ "cer": [
+  0,
+  6,
+  51
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Address delivered by a delegate on behalf of the President of Benin.",
+ "unitizer_version": 1,
+ "sha1": "67660d95d6502edf9945fac181c8963b2e42c3b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1339,
+  "words_out": 1339,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   59,
+   110,
+   128,
+   158,
+   102,
+   101,
+   109,
+   128,
+   115,
+   169,
+   154,
+   6
+  ],
+  "warnings": []
+ }
+}

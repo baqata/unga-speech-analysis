@@ -1,0 +1,140 @@
+{
+ "id": "AGO_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  35,
+  62,
+  81,
+  98,
+  117,
+  133,
+  143,
+  157,
+  178,
+  200,
+  210,
+  230,
+  258,
+  276,
+  289,
+  298,
+  311,
+  327,
+  347,
+  360,
+  385,
+  408,
+  426,
+  444
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   48,
+   "comer",
+   "corner",
+   "ocr"
+  ],
+  [
+   117,
+   "nil know",
+   "all know",
+   "ocr"
+  ],
+  [
+   193,
+   "Ho",
+   "No",
+   "ocr"
+  ],
+  [
+   236,
+   "Angora",
+   "Angola",
+   "ocr"
+  ],
+  [
+   273,
+   " ard ",
+   " and ",
+   "ocr"
+  ],
+  [
+   279,
+   " [ANC]",
+   "",
+   "label"
+  ],
+  [
+   286,
+   "2nd the",
+   "and the",
+   "ocr"
+  ],
+  [
+   289,
+   "21L ",
+   "",
+   "label"
+  ],
+  [
+   295,
+   "trust be",
+   "must be",
+   "ocr"
+  ],
+  [
+   322,
+   "andadmiration",
+   "and admiration",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cfc4b665be63fe01f3fff7a22203e61f9f02109",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 445,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4453,
+  "words_out": 4409,
+  "retention": 0.9901,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   154,
+   176,
+   258,
+   191,
+   174,
+   187,
+   148,
+   104,
+   144,
+   226,
+   219,
+   100,
+   209,
+   285,
+   184,
+   132,
+   79,
+   137,
+   160,
+   191,
+   125,
+   241,
+   223,
+   176,
+   180,
+   6
+  ],
+  "warnings": []
+ }
+}

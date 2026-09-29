@@ -1,0 +1,93 @@
+{
+ "id": "TTO_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  13,
+  18,
+  24,
+  30,
+  35,
+  38,
+  42,
+  48,
+  52,
+  58,
+  63,
+  66,
+  69,
+  74,
+  79,
+  84,
+  85,
+  89
+ ],
+ "cer": [
+  0,
+  1,
+  24,
+  89
+ ],
+ "fix": [
+  [
+   65,
+   "middle- income",
+   "middle-income",
+   "hyphen"
+  ],
+  [
+   67,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   77,
+   "seventy-five- year",
+   "seventy-five-year",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf99796567606e21ac791d42dfa8515a640e39a8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2366,
+  "words_out": 2363,
+  "retention": 0.9987,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   2,
+   132,
+   130,
+   117,
+   140,
+   163,
+   135,
+   90,
+   88,
+   135,
+   149,
+   69,
+   133,
+   141,
+   100,
+   100,
+   114,
+   109,
+   125,
+   84,
+   100,
+   7
+  ],
+  "warnings": []
+ }
+}

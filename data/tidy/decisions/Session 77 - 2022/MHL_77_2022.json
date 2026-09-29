@@ -1,0 +1,90 @@
+{
+ "id": "MHL_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  14,
+  16,
+  20,
+  24,
+  29,
+  32,
+  36,
+  44,
+  48,
+  54,
+  57,
+  61,
+  67,
+  71,
+  76,
+  78,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "nuclear- weapons",
+   "nuclear-weapons",
+   "hyphen"
+  ],
+  [
+   30,
+   "low- lying",
+   "low-lying",
+   "hyphen"
+  ],
+  [
+   67,
+   "all- embracing",
+   "all-embracing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5942cc3b62507bd63fa7d7ce044ee53ea1a8b9a7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2060,
+  "words_out": 2057,
+  "retention": 0.9985,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   24,
+   60,
+   130,
+   158,
+   63,
+   139,
+   67,
+   117,
+   64,
+   128,
+   135,
+   86,
+   109,
+   89,
+   113,
+   140,
+   93,
+   144,
+   59,
+   76,
+   63
+  ],
+  "warnings": []
+ }
+}

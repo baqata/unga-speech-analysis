@@ -1,0 +1,88 @@
+{
+ "id": "ECU_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  18,
+  22,
+  30,
+  35,
+  37,
+  42,
+  48,
+  50,
+  58,
+  63,
+  67,
+  70,
+  72,
+  76,
+  80,
+  88,
+  93,
+  94,
+  98,
+  100,
+  104
+ ],
+ "cer": [],
+ "fix": [
+  [
+   33,
+   "meeting,'",
+   "meeting,",
+   "ocr"
+  ],
+  [
+   65,
+   "mot e to blame",
+   "more to blame",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The address by the President of Ecuador opens directly on the economic crisis, without greetings.",
+ "unitizer_version": 1,
+ "sha1": "ca83f6bed6e1fef6434f2b4255347b3c73d99cf1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 3147,
+  "words_out": 3146,
+  "retention": 0.9997,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   169,
+   156,
+   180,
+   144,
+   183,
+   184,
+   74,
+   147,
+   148,
+   59,
+   172,
+   125,
+   103,
+   102,
+   61,
+   143,
+   98,
+   189,
+   134,
+   68,
+   96,
+   99,
+   131,
+   181
+  ],
+  "warnings": []
+ }
+}

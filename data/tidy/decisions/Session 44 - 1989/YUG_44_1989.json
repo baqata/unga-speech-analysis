@@ -1,0 +1,119 @@
+{
+ "id": "YUG_44_1989",
+ "drop": [
+  [
+   63,
+   63,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  5,
+  10,
+  19,
+  23,
+  25,
+  32,
+  36,
+  39,
+  41,
+  44,
+  46,
+  52,
+  54,
+  59,
+  64,
+  70,
+  72,
+  75,
+  77,
+  79,
+  82,
+  84,
+  88,
+  93,
+  98,
+  102,
+  105
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   16,
+   "\"technological",
+   "technological",
+   "ocr"
+  ],
+  [
+   71,
+   "their (solution",
+   "their solution",
+   "ocr"
+  ],
+  [
+   108,
+   "Genera]",
+   "General",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a36ae61db6223625f6e2da40928ceb5b4e4f312",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3263,
+  "words_out": 3262,
+  "retention": 0.9997,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   52,
+   28,
+   45,
+   35,
+   158,
+   199,
+   104,
+   84,
+   148,
+   122,
+   64,
+   60,
+   125,
+   102,
+   176,
+   64,
+   113,
+   127,
+   190,
+   66,
+   148,
+   69,
+   60,
+   71,
+   86,
+   134,
+   139,
+   141,
+   134,
+   82,
+   136
+  ],
+  "warnings": []
+ }
+}

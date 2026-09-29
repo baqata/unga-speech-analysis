@@ -1,0 +1,82 @@
+{
+ "id": "UKR_67_2012",
+ "drop": [
+  [
+   58,
+   58,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  15,
+  23,
+  33,
+  47,
+  59,
+  85,
+  102,
+  121,
+  131,
+  154,
+  166,
+  174,
+  184,
+  194,
+  219,
+  240,
+  253
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   205,
+   "f lag",
+   "flag",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b8df03d0b282cb26931249189e570cf010b545ed",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 261,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2019,
+  "words_out": 2007,
+  "retention": 0.9941,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   39,
+   81,
+   67,
+   78,
+   117,
+   83,
+   203,
+   135,
+   139,
+   86,
+   148,
+   92,
+   66,
+   78,
+   81,
+   181,
+   169,
+   103,
+   61
+  ],
+  "warnings": [
+   "procedural drop [58,58] in the middle of the speech"
+  ]
+ }
+}

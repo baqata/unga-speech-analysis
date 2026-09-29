@@ -1,0 +1,119 @@
+{
+ "id": "GTM_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  12,
+  13,
+  15,
+  18,
+  21,
+  22,
+  25,
+  29,
+  31,
+  34,
+  38,
+  42,
+  43,
+  48,
+  52,
+  54
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   6,
+   "session..To",
+   "session. To",
+   "ocr"
+  ],
+  [
+   10,
+   "well- founded",
+   "well-founded",
+   "spacing"
+  ],
+  [
+   12,
+   "Assembly .",
+   "Assembly.",
+   "spacing"
+  ],
+  [
+   13,
+   "effective, social",
+   "effective social",
+   "ocr"
+  ],
+  [
+   17,
+   "America; 'particularly,",
+   "America, particularly,",
+   "ocr"
+  ],
+  [
+   34,
+   "report*",
+   "report",
+   "ocr"
+  ],
+  [
+   39,
+   "regard-",
+   "regard",
+   "ocr"
+  ],
+  [
+   54,
+   "brother-hood",
+   "brotherhood",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91044479a680979ef99970aea6a635a2f0db65d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2672,
+  "words_out": 2668,
+  "retention": 0.9985,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   186,
+   137,
+   103,
+   83,
+   101,
+   116,
+   142,
+   120,
+   93,
+   97,
+   147,
+   79,
+   131,
+   231,
+   192,
+   108,
+   206,
+   178,
+   81,
+   137
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "STP_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  14,
+  16,
+  19,
+  24,
+  27,
+  30,
+  37,
+  39
+ ],
+ "cer": [
+  0,
+  39
+ ],
+ "fix": [
+  [
+   0,
+   "Government.",
+   "Government,",
+   "ocr"
+  ],
+  [
+   4,
+   "President.",
+   "President,",
+   "ocr"
+  ],
+  [
+   5,
+   "Korosi. for",
+   "Korosi, for",
+   "ocr"
+  ],
+  [
+   6,
+   "Day. “Unleashing",
+   "Day, “Unleashing",
+   "ocr"
+  ],
+  [
+   9,
+   "community.",
+   "community,",
+   "ocr"
+  ],
+  [
+   11,
+   "we. the",
+   "we, the",
+   "ocr"
+  ],
+  [
+   15,
+   "20. or",
+   "20, or",
+   "ocr"
+  ],
+  [
+   18,
+   "ever- greater",
+   "ever-greater",
+   "hyphen"
+  ],
+  [
+   20,
+   "Yemen.",
+   "Yemen,",
+   "ocr"
+  ],
+  [
+   22,
+   "law. regardless",
+   "law, regardless",
+   "ocr"
+  ],
+  [
+   39,
+   "concluding.",
+   "concluding,",
+   "ocr"
+  ],
+  [
+   40,
+   "Secretary- General.",
+   "Secretary-General,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d593ee69cec767fbd08719c38d06d6f97084d14",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1142,
+  "words_out": 1140,
+  "retention": 0.9982,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   141,
+   149,
+   136,
+   96,
+   78,
+   76,
+   93,
+   75,
+   136,
+   97,
+   63
+  ],
+  "warnings": []
+ }
+}

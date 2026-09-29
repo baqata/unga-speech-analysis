@@ -1,0 +1,84 @@
+{
+ "id": "KAZ_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  30,
+  43,
+  55,
+  76,
+  93,
+  105,
+  126,
+  138,
+  150,
+  160,
+  169,
+  180,
+  191,
+  211,
+  221,
+  238,
+  249,
+  263,
+  271,
+  282
+ ],
+ "cer": [],
+ "fix": [
+  [
+   109,
+   "naÔve",
+   "naïve",
+   "encoding"
+  ],
+  [
+   241,
+   "took",
+   "tool",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ad982e385e70ce35c568df26a31ea0797878dd8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 290,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2313,
+  "words_out": 2307,
+  "retention": 0.9974,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   142,
+   109,
+   121,
+   90,
+   155,
+   124,
+   92,
+   182,
+   112,
+   90,
+   78,
+   68,
+   93,
+   85,
+   141,
+   83,
+   121,
+   89,
+   112,
+   59,
+   90,
+   71
+  ],
+  "warnings": []
+ }
+}

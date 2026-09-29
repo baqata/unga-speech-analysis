@@ -1,0 +1,73 @@
+{
+ "id": "ARM_47_1992",
+ "drop": [
+  [
+   40,
+   40,
+   "header_footer"
+  ],
+  [
+   109,
+   109,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  16,
+  33,
+  48,
+  60,
+  81,
+  90,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "you. Ambassador",
+   "you, Ambassador",
+   "ocr"
+  ],
+  [
+   106,
+   "of ,new",
+   "of new",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14db44d6ab219c553dc8dbfd9eeeaad1653abc32",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1259,
+  "words_out": 1256,
+  "retention": 0.9976,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   61,
+   117,
+   173,
+   153,
+   139,
+   230,
+   104,
+   180,
+   99
+  ],
+  "warnings": []
+ }
+}

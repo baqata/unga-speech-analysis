@@ -1,0 +1,72 @@
+{
+ "id": "MDV_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  19,
+  27,
+  30,
+  33,
+  37,
+  40,
+  45,
+  47,
+  50,
+  59,
+  62,
+  67,
+  69,
+  73,
+  75,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "long- neglected",
+   "long-neglected",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e57e87ca0792c2c96683c79e78aa3d17f56234fb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1695,
+  "words_out": 1694,
+  "retention": 0.9994,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   82,
+   83,
+   87,
+   89,
+   119,
+   101,
+   102,
+   79,
+   66,
+   87,
+   75,
+   92,
+   168,
+   72,
+   82,
+   60,
+   77,
+   61,
+   77,
+   35
+  ],
+  "warnings": []
+ }
+}

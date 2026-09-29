@@ -1,0 +1,156 @@
+{
+ "id": "CAN_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  32,
+  55,
+  73,
+  92,
+  105,
+  125,
+  149,
+  175,
+  197,
+  224,
+  238,
+  251,
+  268,
+  284,
+  299,
+  315,
+  336,
+  347,
+  366,
+  387,
+  404,
+  416
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   "problems, It",
+   "problems. It",
+   "ocr"
+  ],
+  [
+   52,
+   "set cut in",
+   "set out in",
+   "ocr"
+  ],
+  [
+   59,
+   "United-Nations",
+   "United Nations",
+   "hyphen"
+  ],
+  [
+   79,
+   "development, Some",
+   "development. Some",
+   "ocr"
+  ],
+  [
+   178,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   213,
+   "[2454 (XXIII)] ",
+   "",
+   "label"
+  ],
+  [
+   218,
+   "Geneva.that",
+   "Geneva that",
+   "spacing"
+  ],
+  [
+   225,
+   "frontiers, The",
+   "frontiers. The",
+   "ocr"
+  ],
+  [
+   263,
+   " [A/7655]",
+   "",
+   "label"
+  ],
+  [
+   280,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   306,
+   "peace-keening",
+   "peace-keeping",
+   "ocr"
+  ],
+  [
+   396,
+   "improve. the",
+   "improve the",
+   "ocr"
+  ],
+  [
+   419,
+   "marrow concerns",
+   "narrow concerns",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e25e422dade2d653d0850e7a266fa0b5f542ce68",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 430,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3905,
+  "words_out": 3860,
+  "retention": 0.9885,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   103,
+   194,
+   222,
+   164,
+   169,
+   124,
+   180,
+   235,
+   245,
+   194,
+   233,
+   120,
+   115,
+   144,
+   145,
+   131,
+   132,
+   178,
+   111,
+   160,
+   177,
+   136,
+   104,
+   144
+  ],
+  "warnings": []
+ }
+}

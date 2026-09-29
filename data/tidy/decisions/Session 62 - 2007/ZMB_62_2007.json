@@ -1,0 +1,73 @@
+{
+ "id": "ZMB_62_2007",
+ "drop": [
+  [
+   221,
+   222,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  25,
+  34,
+  53,
+  65,
+  78,
+  89,
+  100,
+  110,
+  127,
+  138,
+  153,
+  167,
+  179,
+  193,
+  207,
+  223
+ ],
+ "cer": [
+  0,
+  14,
+  25
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a75410d5fff4ec82d793df7804fc154bebf1ea7e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {},
+  "words_in": 1805,
+  "words_out": 1797,
+  "retention": 0.9956,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   112,
+   89,
+   80,
+   138,
+   88,
+   117,
+   86,
+   84,
+   76,
+   137,
+   74,
+   118,
+   111,
+   96,
+   101,
+   92,
+   109,
+   89
+  ],
+  "warnings": []
+ }
+}

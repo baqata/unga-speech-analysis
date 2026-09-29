@@ -1,0 +1,82 @@
+{
+ "id": "SGP_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  32,
+  42,
+  59,
+  75,
+  97,
+  116,
+  137,
+  150,
+  165,
+  177,
+  189,
+  199,
+  215,
+  229,
+  237
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   147,
+   "(Making Globalisation Work",
+   "",
+   "label"
+  ],
+  [
+   148,
+   "For The Poor, The Independent, 12 December",
+   "",
+   "label"
+  ],
+  [
+   149,
+   "2000)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Removed the record's citation after the quotation at units 147-149.",
+ "unitizer_version": 1,
+ "sha1": "aebb38b4b8afdac8dd217db24da5916e67ef3c61",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1952,
+  "words_out": 1936,
+  "retention": 0.9918,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   99,
+   147,
+   83,
+   130,
+   112,
+   188,
+   136,
+   182,
+   76,
+   128,
+   101,
+   93,
+   84,
+   119,
+   95,
+   74,
+   89
+  ],
+  "warnings": []
+ }
+}

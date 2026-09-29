@@ -1,0 +1,45 @@
+{
+ "id": "QAT_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  28,
+  55,
+  71,
+  81,
+  103,
+  114,
+  138
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "The passage on hydrocarbon wealth and clean energy begins inside unit 150, so it stays in the paragraph on national development.",
+ "unitizer_version": 1,
+ "sha1": "c98284d32c82251cba9e120cb86916ad419d4cf0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1354,
+  "words_out": 1353,
+  "retention": 0.9993,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   147,
+   65,
+   221,
+   131,
+   92,
+   182,
+   86,
+   201,
+   228
+  ],
+  "warnings": []
+ }
+}

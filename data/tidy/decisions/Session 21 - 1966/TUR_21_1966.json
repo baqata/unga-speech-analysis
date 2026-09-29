@@ -1,0 +1,201 @@
+{
+ "id": "TUR_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  16,
+  23,
+  32,
+  39,
+  46,
+  51,
+  58,
+  61,
+  65,
+  70,
+  74,
+  79,
+  86,
+  91,
+  95,
+  102,
+  109,
+  115,
+  121,
+  128,
+  135,
+  141,
+  148,
+  152,
+  162,
+  166,
+  173,
+  176,
+  179,
+  182,
+  186,
+  188
+ ],
+ "cer": [
+  0,
+  4,
+  7,
+  16
+ ],
+ "fix": [
+  [
+   5,
+   "country and mind",
+   "country and mine",
+   "ocr"
+  ],
+  [
+   15,
+   "twenty-first session,",
+   "twenty-first session.",
+   "ocr"
+  ],
+  [
+   17,
+   "Secretary-General !s",
+   "Secretary-General's",
+   "ocr"
+  ],
+  [
+   22,
+   "my self",
+   "myself",
+   "split_word"
+  ],
+  [
+   36,
+   "parties, This being",
+   "parties. This being",
+   "ocr"
+  ],
+  [
+   38,
+   "Mr, Goldberg",
+   "Mr. Goldberg",
+   "ocr"
+  ],
+  [
+   38,
+   "United Stated",
+   "United States",
+   "ocr"
+  ],
+  [
+   60,
+   "It.is",
+   "It is",
+   "ocr"
+  ],
+  [
+   82,
+   "those, countries",
+   "those countries",
+   "ocr"
+  ],
+  [
+   82,
+   "the I cost",
+   "the cost",
+   "ocr"
+  ],
+  [
+   101,
+   "United Nations-Force",
+   "United Nations Force",
+   "ocr"
+  ],
+  [
+   101,
+   "resolution [186 (1964)]",
+   "resolution 186 (1964)",
+   "ocr"
+  ],
+  [
+   124,
+   "govern one carrying",
+   "govern the carrying",
+   "ocr"
+  ],
+  [
+   157,
+   "growth In",
+   "growth in",
+   "ocr"
+  ],
+  [
+   157,
+   "international-aid",
+   "international aid",
+   "ocr"
+  ],
+  [
+   184,
+   "character, We sincerely",
+   "character. We sincerely",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a358470101be2897fb2cac318938da1b9830a456",
+ "layout": "lines",
+ "stats": {
+  "n_units": 195,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 4925,
+  "words_out": 4871,
+  "retention": 0.989,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   142,
+   74,
+   63,
+   179,
+   166,
+   214,
+   178,
+   158,
+   105,
+   183,
+   77,
+   90,
+   116,
+   97,
+   89,
+   161,
+   84,
+   60,
+   229,
+   170,
+   189,
+   193,
+   261,
+   157,
+   162,
+   178,
+   145,
+   184,
+   129,
+   147,
+   67,
+   61,
+   70,
+   110,
+   70,
+   113
+  ],
+  "warnings": []
+ }
+}

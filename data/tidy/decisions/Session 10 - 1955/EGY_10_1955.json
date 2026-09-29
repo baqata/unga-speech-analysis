@@ -1,0 +1,136 @@
+{
+ "id": "EGY_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  14,
+  18,
+  23,
+  26,
+  28,
+  31,
+  32,
+  40,
+  44,
+  46,
+  48,
+  49,
+  52,
+  54,
+  57,
+  58,
+  63,
+  67,
+  70,
+  71,
+  74,
+  78,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "arid",
+   "and",
+   "ocr"
+  ],
+  [
+   29,
+   "p ",
+   "",
+   "label"
+  ],
+  [
+   30,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   31,
+   "before,",
+   "before.",
+   "ocr"
+  ],
+  [
+   46,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   51,
+   " [A/29U, p. xiii]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "arid",
+   "and",
+   "ocr"
+  ],
+  [
+   60,
+   "clone",
+   "done",
+   "ocr"
+  ],
+  [
+   78,
+   "lam",
+   "I am",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b31b4b48f5fe7897961b39c4062f4786a4a54820",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3410,
+  "words_out": 3405,
+  "retention": 0.9985,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   134,
+   135,
+   151,
+   192,
+   160,
+   134,
+   77,
+   200,
+   225,
+   119,
+   130,
+   160,
+   124,
+   112,
+   64,
+   119,
+   65,
+   99,
+   86,
+   183,
+   180,
+   101,
+   78,
+   105,
+   153,
+   93,
+   26
+  ],
+  "warnings": []
+ }
+}

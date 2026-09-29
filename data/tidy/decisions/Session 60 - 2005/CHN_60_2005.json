@@ -1,0 +1,57 @@
+{
+ "id": "CHN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  18,
+  42,
+  71,
+  87,
+  105,
+  129,
+  141,
+  164,
+  181,
+  196,
+  221,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a7176ac5033186ba74b6fb25b3e42fae86106b0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2018,
+  "words_out": 2012,
+  "retention": 0.997,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   59,
+   89,
+   168,
+   203,
+   132,
+   125,
+   179,
+   95,
+   168,
+   125,
+   118,
+   194,
+   230,
+   127
+  ],
+  "warnings": []
+ }
+}

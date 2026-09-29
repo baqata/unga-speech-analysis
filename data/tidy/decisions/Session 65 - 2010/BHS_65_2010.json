@@ -1,0 +1,59 @@
+{
+ "id": "BHS_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  39,
+  53,
+  64,
+  76,
+  99,
+  113,
+  138,
+  155,
+  164,
+  180,
+  194,
+  217,
+  238
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db44d6d1be140620e62fcb455dd09aad1c4f8895",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1933,
+  "words_out": 1929,
+  "retention": 0.9979,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   119,
+   169,
+   110,
+   88,
+   88,
+   169,
+   101,
+   202,
+   128,
+   68,
+   130,
+   97,
+   167,
+   156,
+   137
+  ],
+  "warnings": []
+ }
+}

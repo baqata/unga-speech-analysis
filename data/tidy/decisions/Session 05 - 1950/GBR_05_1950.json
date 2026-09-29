@@ -1,0 +1,127 @@
+{
+ "id": "GBR_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  17,
+  20,
+  24,
+  30,
+  32,
+  35,
+  41,
+  44,
+  51,
+  55,
+  60,
+  67,
+  70,
+  77,
+  84,
+  92,
+  103,
+  109,
+  116,
+  122,
+  132,
+  136,
+  145,
+  151,
+  160
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "8",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "nave shown",
+   "have shown",
+   "ocr"
+  ],
+  [
+   27,
+   "in Korea,",
+   "in Korea.",
+   "ocr"
+  ],
+  [
+   61,
+   "%rise",
+   "arise",
+   "ocr"
+  ],
+  [
+   92,
+   "impossible task;",
+   "impossible task.",
+   "ocr"
+  ],
+  [
+   115,
+   " [A/1376]",
+   "",
+   "label"
+  ],
+  [
+   137,
+   "now-to",
+   "now to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dabce7c219a4dbeda4ab24d41741bd0872e7348f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 41
+  },
+  "words_in": 4075,
+  "words_out": 4075,
+  "retention": 1.0,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   199,
+   139,
+   125,
+   104,
+   103,
+   155,
+   104,
+   136,
+   117,
+   95,
+   167,
+   81,
+   88,
+   220,
+   87,
+   156,
+   174,
+   148,
+   236,
+   155,
+   126,
+   169,
+   172,
+   138,
+   161,
+   160,
+   206,
+   154
+  ],
+  "warnings": []
+ }
+}

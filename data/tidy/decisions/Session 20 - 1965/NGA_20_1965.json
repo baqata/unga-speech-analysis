@@ -1,0 +1,152 @@
+{
+ "id": "NGA_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  21,
+  24,
+  27,
+  32,
+  43,
+  50,
+  55,
+  60,
+  66,
+  75,
+  83,
+  88,
+  92,
+  96,
+  101,
+  103,
+  109,
+  111,
+  120,
+  122,
+  126,
+  132,
+  136,
+  143,
+  147,
+  151
+ ],
+ "cer": [
+  0,
+  9,
+  143
+ ],
+ "fix": [
+  [
+   4,
+   "Permit me also.",
+   "Permit me also,",
+   "ocr"
+  ],
+  [
+   35,
+   "Man are dying.",
+   "Men are dying.",
+   "ocr"
+  ],
+  [
+   46,
+   "in, a message",
+   "in a message",
+   "ocr"
+  ],
+  [
+   49,
+   "reason and. augurs",
+   "reason and augurs",
+   "ocr"
+  ],
+  [
+   89,
+   "is, bound to",
+   "is bound to",
+   "ocr"
+  ],
+  [
+   113,
+   "Nigerian delegation.",
+   "Nigerian delegation,",
+   "ocr"
+  ],
+  [
+   131,
+   "all the time; The General",
+   "all the time. The General",
+   "ocr"
+  ],
+  [
+   156,
+   "great of small",
+   "great or small",
+   "ocr"
+  ],
+  [
+   97,
+   " [see A/5975]",
+   "",
+   "label"
+  ],
+  [
+   131,
+   " [1710 (XVI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f385dc241fc3f18b0cc8155743f4aa5255705e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3639,
+  "words_out": 3604,
+  "retention": 0.9904,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   164,
+   111,
+   97,
+   226,
+   77,
+   97,
+   66,
+   183,
+   173,
+   89,
+   80,
+   148,
+   231,
+   146,
+   73,
+   101,
+   116,
+   77,
+   60,
+   227,
+   67,
+   162,
+   65,
+   46,
+   166,
+   89,
+   131,
+   86,
+   101,
+   149
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "LBY_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  11,
+  15,
+  18,
+  22,
+  28,
+  34,
+  41,
+  43,
+  47,
+  53,
+  58,
+  62,
+  64
+ ],
+ "cer": [],
+ "fix": [
+  [
+   56,
+   "the C African",
+   "the African",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e9d3d77685da3bb175abac71780277e30ac02be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1696,
+  "words_out": 1695,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   79,
+   101,
+   70,
+   127,
+   90,
+   100,
+   140,
+   116,
+   142,
+   61,
+   101,
+   135,
+   122,
+   100,
+   68,
+   143
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "KOR_77_2022",
+ "drop": [
+  [
+   44,
+   44,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  11,
+  20,
+  27,
+  32,
+  37,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed31a10898a2a6f62ac94e2721d23fe2a1c9d919",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1237,
+  "words_out": 1227,
+  "retention": 0.9919,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   70,
+   94,
+   92,
+   76,
+   199,
+   143,
+   155,
+   110,
+   192,
+   96
+  ],
+  "warnings": []
+ }
+}

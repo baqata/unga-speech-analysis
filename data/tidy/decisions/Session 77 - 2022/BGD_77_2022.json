@@ -1,0 +1,90 @@
+{
+ "id": "BGD_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  21,
+  29,
+  42,
+  50,
+  55,
+  63,
+  66,
+  77,
+  81,
+  87,
+  93,
+  101,
+  110,
+  113,
+  123,
+  129,
+  138,
+  147
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   15,
+   "hard- won",
+   "hard-won",
+   "hyphen"
+  ],
+  [
+   80,
+   "much- needed",
+   "much-needed",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b790181426d45c62e785800e37b39f030ee56906",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2584,
+  "words_out": 2578,
+  "retention": 0.9977,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   66,
+   77,
+   76,
+   183,
+   118,
+   215,
+   161,
+   72,
+   141,
+   48,
+   151,
+   108,
+   95,
+   111,
+   149,
+   167,
+   84,
+   159,
+   170,
+   110,
+   109,
+   8
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "CHE_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  33,
+  45,
+  59,
+  68,
+  85,
+  91,
+  108,
+  120,
+  134,
+  145,
+  153,
+  165,
+  180,
+  195,
+  204,
+  214,
+  230,
+  249
+ ],
+ "cer": [],
+ "fix": [
+  [
+   95,
+   "continent.Violations",
+   "continent. Violations",
+   "spacing"
+  ],
+  [
+   179,
+   "ofthe",
+   "of the",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "375da672005dd185801569de46b8b2ac2586f41e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 263,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2
+  },
+  "words_in": 2264,
+  "words_out": 2265,
+  "retention": 1.0004,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   155,
+   139,
+   103,
+   126,
+   81,
+   137,
+   55,
+   151,
+   101,
+   109,
+   86,
+   63,
+   106,
+   134,
+   122,
+   74,
+   88,
+   141,
+   166,
+   128
+  ],
+  "warnings": []
+ }
+}

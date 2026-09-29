@@ -1,0 +1,57 @@
+{
+ "id": "IRQ_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  31,
+  46,
+  66,
+  83,
+  102,
+  113,
+  124,
+  133,
+  149,
+  167,
+  177,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69dc918d6836cd3ca661da4c43f9d2a1751a867f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1701,
+  "words_out": 1699,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   93,
+   153,
+   126,
+   153,
+   135,
+   151,
+   87,
+   80,
+   69,
+   133,
+   145,
+   72,
+   147,
+   155
+  ],
+  "warnings": []
+ }
+}

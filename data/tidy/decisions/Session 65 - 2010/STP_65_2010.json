@@ -1,0 +1,55 @@
+{
+ "id": "STP_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  28,
+  51,
+  72,
+  81,
+  97,
+  111,
+  125,
+  146,
+  156,
+  170,
+  192,
+  205
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cbe2c466af53ed2c8b46de1a86ec95e9fbfff2d1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1725,
+  "words_out": 1724,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   228,
+   175,
+   178,
+   75,
+   122,
+   109,
+   121,
+   192,
+   75,
+   104,
+   171,
+   90,
+   84
+  ],
+  "warnings": []
+ }
+}

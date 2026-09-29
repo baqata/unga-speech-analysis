@@ -1,0 +1,180 @@
+{
+ "id": "ARG_26_1971",
+ "drop": [
+  [
+   103,
+   103,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  18,
+  22,
+  26,
+  31,
+  36,
+  45,
+  50,
+  56,
+  61,
+  65,
+  71,
+  76,
+  81,
+  86,
+  90,
+  98,
+  105,
+  110,
+  115,
+  118,
+  123,
+  126,
+  131,
+  136,
+  138,
+  141,
+  146,
+  149,
+  156,
+  162,
+  167
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   11,
+   "form two",
+   "from two",
+   "ocr"
+  ],
+  [
+   18,
+   "multi plied",
+   "multiplied",
+   "split_word"
+  ],
+  [
+   43,
+   "countries, Since",
+   "countries. Since",
+   "ocr"
+  ],
+  [
+   48,
+   "'he United",
+   "the United",
+   "ocr"
+  ],
+  [
+   48,
+   "/UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   63,
+   "1 ",
+   "",
+   "label"
+  ],
+  [
+   70,
+   "Equality , among",
+   "Equality among",
+   "ocr"
+  ],
+  [
+   70,
+   "that Is to",
+   "that is to",
+   "ocr"
+  ],
+  [
+   71,
+   "o.f",
+   "of",
+   "ocr"
+  ],
+  [
+   94,
+   "2",
+   "",
+   "label"
+  ],
+  [
+   122,
+   "Republic, Thus",
+   "Republic. Thus",
+   "ocr"
+  ],
+  [
+   150,
+   "countries, This",
+   "countries. This",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7bfbb9b220ba80f6b2efa69b8b12fd8336a1843f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 55
+  },
+  "words_in": 4834,
+  "words_out": 4800,
+  "retention": 0.993,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   126,
+   189,
+   213,
+   124,
+   105,
+   123,
+   128,
+   245,
+   156,
+   85,
+   137,
+   118,
+   175,
+   119,
+   126,
+   85,
+   83,
+   197,
+   186,
+   154,
+   201,
+   105,
+   139,
+   79,
+   140,
+   178,
+   72,
+   68,
+   183,
+   89,
+   214,
+   138,
+   170,
+   150
+  ],
+  "warnings": []
+ }
+}

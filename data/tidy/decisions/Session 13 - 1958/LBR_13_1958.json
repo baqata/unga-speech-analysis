@@ -1,0 +1,169 @@
+{
+ "id": "LBR_13_1958",
+ "drop": [
+  [
+   22,
+   22,
+   "header_footer"
+  ],
+  [
+   83,
+   83,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  20,
+  23,
+  28,
+  33,
+  37,
+  44,
+  46,
+  50,
+  53,
+  59,
+  65,
+  68,
+  72,
+  78,
+  82,
+  86,
+  89,
+  93,
+  98,
+  101
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "oi the",
+   "of the",
+   "ocr"
+  ],
+  [
+   50,
+   "It cannot",
+   "it cannot",
+   "ocr"
+  ],
+  [
+   52,
+   "Is on",
+   "is on",
+   "ocr"
+  ],
+  [
+   54,
+   "Justice",
+   "justice",
+   "ocr"
+  ],
+  [
+   63,
+   "Cities",
+   "cities",
+   "ocr"
+  ],
+  [
+   65,
+   "change, the. symbols",
+   "change the symbols",
+   "ocr"
+  ],
+  [
+   72,
+   "out- that",
+   "out that",
+   "ocr"
+  ],
+  [
+   82,
+   "Irreconcilable",
+   "irreconcilable",
+   "ocr"
+  ],
+  [
+   84,
+   "of-the",
+   "of the",
+   "ocr"
+  ],
+  [
+   84,
+   "affairs',",
+   "affairs,",
+   "ocr"
+  ],
+  [
+   84,
+   "it Is",
+   "it is",
+   "ocr"
+  ],
+  [
+   85,
+   "should- be",
+   "should be",
+   "ocr"
+  ],
+  [
+   86,
+   "treatment So",
+   "treatment so",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 22 and 83 are stray paragraph numbers ('84.', '96.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "8f0a41262d25f998c4a37c972375632c0a7bce4b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2869,
+  "words_out": 2868,
+  "retention": 0.9997,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   86,
+   89,
+   111,
+   100,
+   94,
+   143,
+   93,
+   110,
+   185,
+   72,
+   153,
+   101,
+   119,
+   143,
+   101,
+   137,
+   170,
+   153,
+   176,
+   157,
+   107,
+   156,
+   82,
+   30
+  ],
+  "warnings": []
+ }
+}

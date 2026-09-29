@@ -1,0 +1,63 @@
+{
+ "id": "DMA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  29,
+  50,
+  70,
+  82,
+  99,
+  120,
+  142,
+  155,
+  172,
+  191,
+  201,
+  220,
+  234,
+  248,
+  259
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1ef23105419d3ed99f5b35ee84ea83ccb30de2e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2105,
+  "words_out": 2101,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   69,
+   157,
+   147,
+   149,
+   91,
+   138,
+   164,
+   177,
+   102,
+   129,
+   152,
+   88,
+   149,
+   103,
+   113,
+   89,
+   84
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "BRA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  33,
+  50,
+  64,
+  76,
+  90,
+  106,
+  126,
+  136,
+  147,
+  161,
+  177,
+  189,
+  209,
+  218,
+  226,
+  250,
+  260,
+  274
+ ],
+ "cer": [],
+ "fix": [
+  [
+   249,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc52408f95a0128b29246e0a58b1ed0bd4009082",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 287,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2248,
+  "words_out": 2243,
+  "retention": 0.9978,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   103,
+   142,
+   120,
+   109,
+   86,
+   114,
+   132,
+   164,
+   66,
+   95,
+   109,
+   135,
+   87,
+   151,
+   72,
+   58,
+   191,
+   92,
+   119,
+   98
+  ],
+  "warnings": []
+ }
+}

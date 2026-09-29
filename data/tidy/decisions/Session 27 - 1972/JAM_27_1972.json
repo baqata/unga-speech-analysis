@@ -1,0 +1,117 @@
+{
+ "id": "JAM_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  10,
+  14,
+  17,
+  21,
+  24,
+  27,
+  31,
+  34,
+  37,
+  43,
+  46,
+  51,
+  54,
+  57,
+  60,
+  63,
+  66,
+  69,
+  72,
+  79,
+  86,
+  92,
+  95,
+  101,
+  104,
+  109,
+  112
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   9,
+   "and. second",
+   "and, second",
+   "ocr"
+  ],
+  [
+   43,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "perfectly' well",
+   "perfectly well",
+   "ocr"
+  ],
+  [
+   56,
+   "capital- intensive",
+   "capital-intensive",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37a18142b0a36676cf710074c705190565ac37e6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3591,
+  "words_out": 3587,
+  "retention": 0.9989,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   59,
+   139,
+   117,
+   69,
+   136,
+   101,
+   137,
+   102,
+   116,
+   88,
+   86,
+   90,
+   160,
+   97,
+   96,
+   103,
+   165,
+   66,
+   70,
+   129,
+   95,
+   107,
+   180,
+   203,
+   125,
+   91,
+   184,
+   110,
+   132,
+   130,
+   104
+  ],
+  "warnings": []
+ }
+}

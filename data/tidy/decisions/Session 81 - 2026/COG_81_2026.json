@@ -1,0 +1,216 @@
+{
+ "id": "COG_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   109,
+   109,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  7,
+  10,
+  14,
+  23,
+  35,
+  42,
+  49,
+  53,
+  63,
+  70,
+  78,
+  86,
+  91,
+  97,
+  105
+ ],
+ "cer": [
+  2,
+  5
+ ],
+ "fix": [
+  [
+   4,
+   "Sasung-Gesso",
+   "Sassou Nguesso",
+   "asr_name"
+  ],
+  [
+   5,
+   "Halilu Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   17,
+   "Esselwini consensus",
+   "Ezulwini Consensus",
+   "asr_name"
+  ],
+  [
+   52,
+   "resources resources",
+   "resources",
+   "asr_term"
+  ],
+  [
+   64,
+   "Olongo",
+   "Loango",
+   "asr_name"
+  ],
+  [
+   66,
+   "Luongo",
+   "Loango",
+   "asr_name"
+  ],
+  [
+   67,
+   "Luongo",
+   "Loango",
+   "asr_name"
+  ],
+  [
+   67,
+   "Agoré",
+   "Gorée",
+   "asr_name"
+  ],
+  [
+   67,
+   "Ouida",
+   "Ouidah",
+   "asr_name"
+  ],
+  [
+   81,
+   "bare",
+   "bear",
+   "asr_term"
+  ],
+  [
+   97,
+   "your excellence is",
+   "Your Excellencies",
+   "asr_term"
+  ],
+  [
+   101,
+   "in outer space",
+   "and outer space",
+   "asr_term"
+  ],
+  [
+   6,
+   "work. and",
+   "work. And",
+   "asr_term"
+  ],
+  [
+   25,
+   "tradition. our",
+   "tradition our",
+   "asr_term"
+  ],
+  [
+   62,
+   "people. making",
+   "people. Making",
+   "asr_term"
+  ],
+  [
+   75,
+   "developed. our",
+   "developed. Our",
+   "asr_term"
+  ],
+  [
+   92,
+   "Congo. return",
+   "Congo return",
+   "asr_term"
+  ],
+  [
+   100,
+   "Brazzaville. and",
+   "Brazzaville and",
+   "asr_term"
+  ],
+  [
+   7,
+   "this election",
+   "the selection",
+   "asr_term"
+  ],
+  [
+   11,
+   "or force",
+   "of force",
+   "asr_term"
+  ],
+  [
+   13,
+   "dreadful",
+   "rightful",
+   "asr_term"
+  ],
+  [
+   14,
+   "deeper form",
+   "deep reform",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Denis Sassou Nguesso, Khalilur Rahman, Ezulwini, Loango, Goree, Ouidah per Spanish channel and published names; reforma, y del espacio per Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 6 'work. and' -> 'work. And'; unit 25 'tradition. our' -> 'tradition our'; unit 62 'people. making' -> 'people. Making'; unit 75 'developed. our' -> 'developed. Our'; unit 92 'Congo. return' -> 'Congo return'; unit 100 'Brazzaville. and' -> 'Brazzaville and'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 7 'this election' -> 'the selection' (both decodes clearly hear 'selection' 0.99 ('the' 0.65 / 0.48); sounds alike; ES 'el proceso de selección del próximo Secretario General'); spot 5 unit 11 'or force' -> 'of force' (decodes hear 'of' 0.58 / 0.61; 'relationships or force threaten' does not fit; ES 'las relaciones de poder'); spot 6 unit 13 'dreadful' -> 'rightful' (decodes write 'dreadful' 0.81 / 0.87 but 'a multipolar world in which Africa occupies a dreadful place' contradicts the argument for a renewed multilateralism; sounds like 'rightful'; ES 'en el que África debe desempeñar plenamente su papel'); spot 7 unit 14 'deeper form' -> 'deep reform' (replaces the existing repair: both decodes clearly hear 'deep reform' (deep 0.97 / 0.92, reform 1.00); ES 'una reforma profunda')",
+ "unitizer_version": 1,
+ "sha1": "b59a006b22521a2b7d64ed7af95219375d717329",
+ "layout": "single",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2176,
+  "words_out": 2136,
+  "retention": 0.9816,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   95,
+   92,
+   84,
+   104,
+   147,
+   188,
+   126,
+   136,
+   90,
+   166,
+   127,
+   139,
+   176,
+   92,
+   177,
+   123,
+   74
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

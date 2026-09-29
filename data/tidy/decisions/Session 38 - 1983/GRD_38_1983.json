@@ -1,0 +1,130 @@
+{
+ "id": "GRD_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  15,
+  17,
+  20,
+  29,
+  35,
+  39,
+  45,
+  53,
+  57,
+  60,
+  63,
+  72,
+  75,
+  78,
+  83,
+  88,
+  94,
+  102,
+  108,
+  114,
+  117,
+  123,
+  130,
+  136,
+  142,
+  146
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   58,
+   "Big Pine II , a",
+   "Big Pine II, a",
+   "spacing"
+  ],
+  [
+   68,
+   " [33r6f",
+   "",
+   "label"
+  ],
+  [
+   107,
+   "grata..",
+   "grata.",
+   "ocr"
+  ],
+  [
+   113,
+   "POLISARIO.'",
+   "POLISARIO.",
+   "ocr"
+  ],
+  [
+   120,
+   "[OFCD]",
+   "[OECD]",
+   "ocr"
+  ],
+  [
+   126,
+   "the hew financial",
+   "the new financial",
+   "ocr"
+  ],
+  [
+   120,
+   "[OECD]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30ae38d0d87748f702fcd6f21f61829532039a31",
+ "layout": "lines",
+ "stats": {
+  "n_units": 151,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 4171,
+  "words_out": 4168,
+  "retention": 0.9993,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   202,
+   94,
+   105,
+   84,
+   112,
+   190,
+   164,
+   99,
+   103,
+   197,
+   110,
+   106,
+   118,
+   204,
+   123,
+   88,
+   182,
+   120,
+   156,
+   227,
+   176,
+   185,
+   71,
+   161,
+   184,
+   152,
+   142,
+   126,
+   187
+  ],
+  "warnings": []
+ }
+}

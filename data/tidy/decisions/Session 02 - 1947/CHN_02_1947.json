@@ -1,0 +1,74 @@
+{
+ "id": "CHN_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  18,
+  21,
+  25,
+  31,
+  38
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "four comers",
+   "four corners",
+   "ocr"
+  ],
+  [
+   19,
+   "San Francisco, If",
+   "San Francisco. If",
+   "ocr"
+  ],
+  [
+   24,
+   "remains'",
+   "remains",
+   "ocr"
+  ],
+  [
+   25,
+   "Council, Everywhere",
+   "Council. Everywhere",
+   "ocr"
+  ],
+  [
+   25,
+   "progress, China",
+   "progress. China",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b5104e6da256a04a6a845dc42ea494f83773c6dd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1240,
+  "words_out": 1240,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   146,
+   130,
+   86,
+   165,
+   173,
+   98,
+   201,
+   159,
+   82
+  ],
+  "warnings": []
+ }
+}

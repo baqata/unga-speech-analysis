@@ -1,0 +1,145 @@
+{
+ "id": "CHL_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  11,
+  12,
+  14,
+  16,
+  18,
+  22,
+  27,
+  29,
+  32,
+  34,
+  37,
+  40,
+  44,
+  48,
+  53,
+  56,
+  60,
+  70,
+  73,
+  77,
+  85,
+  87,
+  95,
+  100,
+  104,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "security, The decisions",
+   "security. The decisions",
+   "ocr"
+  ],
+  [
+   7,
+   " [A/1377]",
+   "",
+   "label"
+  ],
+  [
+   8,
+   " [A/1376]",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "armed forces,",
+   "armed forces.",
+   "ocr"
+  ],
+  [
+   9,
+   "proposal, Although",
+   "proposal. Although",
+   "ocr"
+  ],
+  [
+   12,
+   "international, control",
+   "international control",
+   "ocr"
+  ],
+  [
+   37,
+   ",_ in abusing",
+   ", in abusing",
+   "ocr"
+  ],
+  [
+   41,
+   "item ! should",
+   "item should",
+   "ocr"
+  ],
+  [
+   42,
+   " [A/1343]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c93fe7a75e44ee061f77e0c03f52005684d33f43",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 43
+  },
+  "words_in": 3829,
+  "words_out": 3825,
+  "retention": 0.999,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   85,
+   126,
+   179,
+   70,
+   87,
+   104,
+   89,
+   98,
+   119,
+   185,
+   141,
+   161,
+   87,
+   89,
+   219,
+   131,
+   123,
+   170,
+   122,
+   111,
+   154,
+   112,
+   203,
+   198,
+   75,
+   111,
+   171,
+   88,
+   137,
+   80
+  ],
+  "warnings": []
+ }
+}

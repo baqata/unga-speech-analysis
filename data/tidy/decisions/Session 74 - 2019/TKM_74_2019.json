@@ -1,0 +1,68 @@
+{
+ "id": "TKM_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  13,
+  18,
+  20,
+  25,
+  28,
+  31,
+  37,
+  43,
+  49,
+  51,
+  57,
+  61
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   28,
+   "twenty- fifth",
+   "twenty-fifth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17714c25ef648cc9be2ed434718d9dff05913d8e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2093,
+  "words_out": 2090,
+  "retention": 0.9986,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   93,
+   196,
+   123,
+   118,
+   131,
+   72,
+   185,
+   153,
+   66,
+   163,
+   131,
+   145,
+   72,
+   196,
+   106,
+   140
+  ],
+  "warnings": []
+ }
+}

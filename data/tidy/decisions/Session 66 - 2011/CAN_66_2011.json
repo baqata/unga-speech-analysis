@@ -1,0 +1,53 @@
+{
+ "id": "CAN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  43,
+  67,
+  86,
+  116,
+  138,
+  155,
+  187,
+  213,
+  234,
+  256,
+  287
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6175b80980ac0c612e7bfacb0ab9cb27e9e0f334",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 299,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2353,
+  "words_out": 2345,
+  "retention": 0.9966,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   178,
+   168,
+   200,
+   141,
+   256,
+   176,
+   118,
+   243,
+   194,
+   158,
+   164,
+   245,
+   104
+  ],
+  "warnings": []
+ }
+}

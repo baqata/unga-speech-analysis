@@ -1,0 +1,148 @@
+{
+ "id": "AUT_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  18,
+  22,
+  26,
+  33,
+  36,
+  46,
+  51,
+  58,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "War. including",
+   "War, including",
+   "ocr"
+  ],
+  [
+   10,
+   "is. lucid",
+   "is, lucid",
+   "ocr"
+  ],
+  [
+   15,
+   "all. we",
+   "all, we",
+   "ocr"
+  ],
+  [
+   17,
+   "2022. when",
+   "2022, when",
+   "ocr"
+  ],
+  [
+   21,
+   "Austria’s ONA",
+   "Austria’s DNA",
+   "ocr"
+  ],
+  [
+   21,
+   "DNA. in",
+   "DNA, in",
+   "ocr"
+  ],
+  [
+   23,
+   "Frankly.",
+   "Frankly,",
+   "ocr"
+  ],
+  [
+   27,
+   "no. it cannot",
+   "no, it cannot",
+   "ocr"
+  ],
+  [
+   38,
+   "War. my",
+   "War, my",
+   "ocr"
+  ],
+  [
+   41,
+   "city.",
+   "city,",
+   "ocr"
+  ],
+  [
+   51,
+   "beginning.",
+   "beginning,",
+   "ocr"
+  ],
+  [
+   54,
+   "at. rather",
+   "at, rather",
+   "ocr"
+  ],
+  [
+   57,
+   "Yes. it",
+   "Yes, it",
+   "ocr"
+  ],
+  [
+   57,
+   "end. it",
+   "end, it",
+   "ocr"
+  ],
+  [
+   62,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   67,
+   "me. that",
+   "me, that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "36381dd05f51d3a88d8264a804c4cdae30114d97",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1476,
+  "words_out": 1476,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   105,
+   121,
+   115,
+   72,
+   97,
+   141,
+   124,
+   80,
+   149,
+   123,
+   121,
+   105,
+   123
+  ],
+  "warnings": []
+ }
+}

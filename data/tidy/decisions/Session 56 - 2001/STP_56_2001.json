@@ -1,0 +1,58 @@
+{
+ "id": "STP_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  33,
+  45,
+  58,
+  71,
+  89,
+  101,
+  117,
+  132,
+  153,
+  165,
+  177,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c97a38f47f6a557d89c7372c3ba3443a65ce5737",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "page_number": 2
+  },
+  "words_in": 1588,
+  "words_out": 1583,
+  "retention": 0.9969,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   135,
+   129,
+   99,
+   106,
+   91,
+   137,
+   106,
+   136,
+   122,
+   163,
+   89,
+   92,
+   122,
+   56
+  ],
+  "warnings": []
+ }
+}

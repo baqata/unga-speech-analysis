@@ -1,0 +1,74 @@
+{
+ "id": "FJI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  13,
+  18,
+  26,
+  36,
+  43,
+  51,
+  58,
+  65,
+  72,
+  78,
+  81,
+  85,
+  90,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- seventh",
+   "seventy-seventh",
+   "hyphen"
+  ],
+  [
+   20,
+   "then- Prince",
+   "then-Prince",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "975ef6152fcde80663a2a41f0ab8f0b18fc5cc7f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1832,
+  "words_out": 1830,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   38,
+   114,
+   94,
+   111,
+   238,
+   193,
+   100,
+   122,
+   127,
+   125,
+   76,
+   76,
+   75,
+   84,
+   94,
+   94,
+   69
+  ],
+  "warnings": []
+ }
+}

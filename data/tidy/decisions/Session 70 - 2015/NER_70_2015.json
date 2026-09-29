@@ -1,0 +1,101 @@
+{
+ "id": "NER_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  10,
+  13,
+  16,
+  17,
+  23,
+  27,
+  29,
+  33,
+  36,
+  40,
+  47,
+  49,
+  52,
+  54,
+  57,
+  62,
+  67,
+  70,
+  74,
+  78,
+  82,
+  88
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   52,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ],
+  [
+   63,
+   "follow- up",
+   "follow-up",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35955131c1cc4201b2b3e8de611ae892cd55254d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 8
+  },
+  "words_in": 2708,
+  "words_out": 2705,
+  "retention": 0.9989,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   78,
+   60,
+   113,
+   111,
+   103,
+   87,
+   53,
+   176,
+   100,
+   87,
+   121,
+   125,
+   135,
+   141,
+   62,
+   97,
+   73,
+   93,
+   86,
+   162,
+   104,
+   138,
+   79,
+   73,
+   188,
+   60
+  ],
+  "warnings": []
+ }
+}

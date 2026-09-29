@@ -1,0 +1,73 @@
+{
+ "id": "MHL_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  18,
+  24,
+  30,
+  33,
+  45,
+  52,
+  64,
+  69,
+  72,
+  74,
+  80,
+  84
+ ],
+ "cer": [
+  0,
+  84
+ ],
+ "fix": [
+  [
+   20,
+   "Multi- Country",
+   "Multi-Country",
+   "spacing"
+  ],
+  [
+   22,
+   "UN- level",
+   "UN-level",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7281e5160e4ca3d3e7e140b20270e4c248310eae",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1915,
+  "words_out": 1913,
+  "retention": 0.999,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   25,
+   92,
+   198,
+   152,
+   151,
+   104,
+   80,
+   257,
+   184,
+   217,
+   92,
+   83,
+   81,
+   124,
+   68,
+   5
+  ],
+  "warnings": []
+ }
+}

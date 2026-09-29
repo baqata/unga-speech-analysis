@@ -1,0 +1,71 @@
+{
+ "id": "CAF_48_1993",
+ "drop": [
+  [
+   96,
+   96,
+   "header_footer"
+  ],
+  [
+   161,
+   161,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  21,
+  25,
+  33,
+  44,
+  53,
+  73,
+  86,
+  99,
+  113,
+  135,
+  148,
+  153
+ ],
+ "cer": [
+  12,
+  21,
+  25,
+  33
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c7d527bc1823292d976afb32049577d8c7e7bc8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 165,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 1421,
+  "words_out": 1407,
+  "retention": 0.9901,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   103,
+   80,
+   27,
+   62,
+   89,
+   87,
+   178,
+   120,
+   106,
+   121,
+   179,
+   115,
+   40,
+   100
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "KEN_27_1972",
+ "drop": [
+  [
+   25,
+   25,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  19,
+  21,
+  26,
+  29,
+  32,
+  34,
+  38,
+  42,
+  45,
+  55,
+  61,
+  67,
+  72,
+  75,
+  79,
+  84,
+  87,
+  96,
+  100,
+  103,
+  112,
+  117,
+  123,
+  128
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "): ",
+   "",
+   "label"
+  ],
+  [
+   33,
+   "\"Die Kenya",
+   "The Kenya",
+   "ocr"
+  ],
+  [
+   35,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "Anglo- Rhodesian",
+   "Anglo-Rhodesian",
+   "spacing"
+  ],
+  [
+   71,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "nation- building",
+   "nation-building",
+   "spacing"
+  ],
+  [
+   105,
+   "success-fully",
+   "successfully",
+   "hyphen"
+  ],
+  [
+   128,
+   "issue: t :at",
+   "issues that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1bf5999f48a475b5d7427123dad3b7c9229441d9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3293,
+  "words_out": 3279,
+  "retention": 0.9957,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   117,
+   109,
+   226,
+   69,
+   111,
+   100,
+   66,
+   73,
+   94,
+   97,
+   79,
+   194,
+   186,
+   172,
+   127,
+   64,
+   118,
+   102,
+   75,
+   203,
+   79,
+   76,
+   200,
+   133,
+   170,
+   133,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "id": "SAU_30_1975",
+ "drop": [
+  [
+   34,
+   34,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  7,
+  9,
+  12,
+  14,
+  20,
+  22,
+  25,
+  28,
+  35,
+  41,
+  43,
+  47,
+  51,
+  54,
+  62,
+  67,
+  74,
+  76,
+  80,
+  82
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   9,
+   "lessons",
+   "lessens",
+   "ocr"
+  ],
+  [
+   21,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "unacceptable,",
+   "unacceptable.",
+   "ocr"
+  ],
+  [
+   53,
+   "extended?",
+   "extended",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e9f0a8065f19215a4aabb3ab7b599d2d280c25f7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2387,
+  "words_out": 2385,
+  "retention": 0.9992,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   147,
+   66,
+   107,
+   129,
+   92,
+   105,
+   129,
+   92,
+   76,
+   130,
+   116,
+   79,
+   97,
+   134,
+   122,
+   165,
+   106,
+   106,
+   122,
+   115,
+   77,
+   73
+  ],
+  "warnings": []
+ }
+}

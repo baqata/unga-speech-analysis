@@ -1,0 +1,51 @@
+{
+ "id": "COM_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  28,
+  46,
+  65,
+  82,
+  97,
+  113,
+  133,
+  146,
+  159
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "145372703576756df73b69a7f95b8f9d2048480a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1368,
+  "words_out": 1367,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   78,
+   151,
+   140,
+   166,
+   144,
+   122,
+   132,
+   150,
+   102,
+   106,
+   76
+  ],
+  "warnings": []
+ }
+}

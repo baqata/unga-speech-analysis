@@ -1,0 +1,88 @@
+{
+ "id": "VAT_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  19,
+  21,
+  26,
+  30,
+  33,
+  36,
+  40,
+  44,
+  48,
+  51,
+  57,
+  60,
+  64,
+  68,
+  71,
+  73,
+  77,
+  83,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "self- interest",
+   "self-interest",
+   "hyphen"
+  ],
+  [
+   52,
+   "70- year",
+   "70-year",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ad3b5657840b7167f548e899391eddac0129c52",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 5
+  },
+  "words_in": 2802,
+  "words_out": 2792,
+  "retention": 0.9964,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   110,
+   121,
+   88,
+   234,
+   71,
+   153,
+   89,
+   80,
+   91,
+   145,
+   115,
+   174,
+   97,
+   186,
+   106,
+   130,
+   117,
+   89,
+   70,
+   121,
+   160,
+   131,
+   114
+  ],
+  "warnings": []
+ }
+}

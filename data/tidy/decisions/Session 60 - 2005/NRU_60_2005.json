@@ -1,0 +1,45 @@
+{
+ "id": "NRU_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  20,
+  29,
+  39,
+  54,
+  69,
+  83,
+  95
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fb4b289d66ddcc22bf99151213f9ed08a970f017",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 810,
+  "words_out": 806,
+  "retention": 0.9951,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   86,
+   81,
+   68,
+   72,
+   124,
+   126,
+   111,
+   113,
+   25
+  ],
+  "warnings": []
+ }
+}

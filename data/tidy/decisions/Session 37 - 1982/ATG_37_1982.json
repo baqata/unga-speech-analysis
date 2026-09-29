@@ -1,0 +1,124 @@
+{
+ "id": "ATG_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  31,
+  40,
+  54,
+  75,
+  93,
+  100,
+  120,
+  140,
+  152,
+  170,
+  179,
+  194,
+  207,
+  229,
+  239,
+  248,
+  268,
+  287,
+  298,
+  314,
+  326,
+  340
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "figures I the",
+   "figures in the",
+   "ocr"
+  ],
+  [
+   40,
+   "spam",
+   "spurn",
+   "ocr"
+  ],
+  [
+   54,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   63,
+   "Therecommendations",
+   "The recommendations",
+   "merged_word"
+  ],
+  [
+   98,
+   "will of s",
+   "will of a",
+   "ocr"
+  ],
+  [
+   247,
+   "power- brokers",
+   "power-brokers",
+   "spacing"
+  ],
+  [
+   249,
+   "Fight",
+   "right",
+   "ocr"
+  ],
+  [
+   345,
+   "long- term",
+   "long-term",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2e370c65e8be45ea4c09c8c3f697c6663284f03",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 348,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3670,
+  "words_out": 3668,
+  "retention": 0.9995,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   81,
+   234,
+   92,
+   165,
+   229,
+   185,
+   76,
+   208,
+   197,
+   139,
+   182,
+   90,
+   157,
+   146,
+   241,
+   98,
+   97,
+   214,
+   207,
+   117,
+   157,
+   135,
+   143,
+   78
+  ],
+  "warnings": []
+ }
+}

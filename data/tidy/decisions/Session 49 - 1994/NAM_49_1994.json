@@ -1,0 +1,102 @@
+{
+ "id": "NAM_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  16,
+  30,
+  46,
+  61,
+  69,
+  79,
+  99,
+  112,
+  137,
+  159,
+  179,
+  192,
+  215,
+  227,
+  240,
+  257,
+  280,
+  298,
+  306,
+  323,
+  347,
+  365,
+  382,
+  389
+ ],
+ "cer": [
+  0,
+  10,
+  61
+ ],
+ "fix": [
+  [
+   73,
+   "community- building",
+   "community-building",
+   "spacing"
+  ],
+  [
+   317,
+   "Uruquay",
+   "Uruguay",
+   "ocr"
+  ],
+  [
+   327,
+   "decision- making",
+   "decision-making",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "154049e6665cc80dd5b475da7eeeb87f629fe03a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 401,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3270,
+  "words_out": 3265,
+  "retention": 0.9985,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   79,
+   43,
+   108,
+   129,
+   129,
+   58,
+   84,
+   151,
+   115,
+   185,
+   172,
+   167,
+   106,
+   198,
+   108,
+   108,
+   130,
+   183,
+   153,
+   73,
+   148,
+   182,
+   139,
+   144,
+   56,
+   117
+  ],
+  "warnings": []
+ }
+}

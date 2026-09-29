@@ -1,0 +1,84 @@
+{
+ "id": "MDV_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  13,
+  18,
+  20,
+  25,
+  28,
+  31,
+  40,
+  43,
+  49,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Rasneed",
+   "Rasheed",
+   "ocr"
+  ],
+  [
+   12,
+   "arras race",
+   "arms race",
+   "ocr"
+  ],
+  [
+   30,
+   "а comprehensive",
+   "a comprehensive",
+   "ocr"
+  ],
+  [
+   42,
+   "(1978) ,",
+   "(1978),",
+   "spacing"
+  ],
+  [
+   51,
+   "Debate as been",
+   "Debate has been",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06ae4e0d62c46da7eb9913cb84f491ba8ecb33f1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1708,
+  "words_out": 1707,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   172,
+   158,
+   135,
+   142,
+   136,
+   154,
+   74,
+   101,
+   153,
+   89,
+   124,
+   146,
+   123
+  ],
+  "warnings": []
+ }
+}

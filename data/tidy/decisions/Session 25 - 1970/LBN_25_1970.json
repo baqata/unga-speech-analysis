@@ -1,0 +1,116 @@
+{
+ "id": "LBN_25_1970",
+ "drop": [
+  [
+   22,
+   22,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  12,
+  14,
+  20,
+  23,
+  28,
+  32,
+  35,
+  40,
+  42,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "twenty--fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   6,
+   "twenty--fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   15,
+   "Twenty--five",
+   "Twenty-five",
+   "hyphen"
+  ],
+  [
+   19,
+   " (1842nd and 1841st meetings)",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "twenty--five",
+   "twenty-five",
+   "hyphen"
+  ],
+  [
+   26,
+   "everything*",
+   "everything",
+   "ocr"
+  ],
+  [
+   31,
+   "twenty--two",
+   "twenty-two",
+   "hyphen"
+  ],
+  [
+   51,
+   "twenty--fifth",
+   "twenty-fifth",
+   "hyphen"
+  ],
+  [
+   53,
+   "twenty--five",
+   "twenty-five",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab4db20b504a1ca8ccd2de8c87de9a3448eee31b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 1659,
+  "words_out": 1654,
+  "retention": 0.997,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   188,
+   154,
+   80,
+   179,
+   71,
+   101,
+   159,
+   108,
+   196,
+   99,
+   208,
+   111
+  ],
+  "warnings": []
+ }
+}

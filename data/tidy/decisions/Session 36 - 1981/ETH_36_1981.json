@@ -1,0 +1,171 @@
+{
+ "id": "ETH_36_1981",
+ "drop": [
+  [
+   88,
+   88,
+   "header_footer"
+  ],
+  [
+   121,
+   121,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  11,
+  15,
+  22,
+  27,
+  34,
+  44,
+  50,
+  53,
+  64,
+  71,
+  79,
+  81,
+  89,
+  93,
+  97,
+  106,
+  108,
+  112,
+  116,
+  119,
+  122,
+  126,
+  131,
+  136,
+  143,
+  150,
+  158,
+  163,
+  166,
+  169,
+  177,
+  186
+ ],
+ "cer": [
+  11
+ ],
+ "fix": [
+  [
+   0,
+   "M: ",
+   "",
+   "label"
+  ],
+  [
+   1,
+   "set up. to",
+   "set up to",
+   "ocr"
+  ],
+  [
+   1,
+   "to fail victim",
+   "to fall victim",
+   "ocr"
+  ],
+  [
+   48,
+   "19814 a",
+   "1981 a",
+   "ocr"
+  ],
+  [
+   70,
+   "legitimate' representative",
+   "legitimate representative",
+   "ocr"
+  ],
+  [
+   79,
+   "occasion: ^",
+   "occasion:",
+   "encoding"
+  ],
+  [
+   124,
+   "J wish",
+   "I wish",
+   "ocr"
+  ],
+  [
+   124,
+   "catastrophe, We",
+   "catastrophe. We",
+   "ocr"
+  ],
+  [
+   167,
+   "Nevertheless,,",
+   "Nevertheless,",
+   "ocr"
+  ],
+  [
+   190,
+   "choice, is",
+   "choice is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fac7f0554ff9f2e42669950a9aab715041b23004",
+ "layout": "lines",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 56
+  },
+  "words_in": 4733,
+  "words_out": 4723,
+  "retention": 0.9979,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   133,
+   100,
+   148,
+   142,
+   100,
+   113,
+   128,
+   198,
+   71,
+   158,
+   200,
+   161,
+   74,
+   217,
+   137,
+   92,
+   171,
+   132,
+   149,
+   189,
+   105,
+   85,
+   121,
+   135,
+   112,
+   117,
+   181,
+   165,
+   136,
+   113,
+   89,
+   248,
+   182,
+   121
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "MNE_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  9,
+  14,
+  17,
+  21,
+  25,
+  28,
+  31,
+  34,
+  40,
+  44,
+  51,
+  56,
+  59,
+  66,
+  70,
+  73
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   28,
+   "Palestinian- Israeli",
+   "Palestinian-Israeli",
+   "hyphen"
+  ],
+  [
+   29,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   42,
+   "UN- Women",
+   "UN-Women",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19487c3be012fb4e73b0c27668f89f48e86ce556",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2089,
+  "words_out": 2085,
+  "retention": 0.9981,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   47,
+   102,
+   110,
+   61,
+   109,
+   80,
+   114,
+   107,
+   73,
+   101,
+   71,
+   180,
+   106,
+   217,
+   130,
+   69,
+   132,
+   112,
+   96,
+   68
+  ],
+  "warnings": []
+ }
+}

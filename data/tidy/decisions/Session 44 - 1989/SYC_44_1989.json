@@ -1,0 +1,96 @@
+{
+ "id": "SYC_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  14,
+  24,
+  30,
+  34,
+  37,
+  46,
+  51,
+  56,
+  62,
+  65,
+  69,
+  73,
+  77,
+  87,
+  90,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   ",We the people of the United Nations ... ,,",
+   "\"We the people of the United Nations ...\",",
+   "ocr"
+  ],
+  [
+   11,
+   "coin tries",
+   "countries",
+   "split_word"
+  ],
+  [
+   34,
+   "lb this end",
+   "To this end",
+   "ocr"
+  ],
+  [
+   73,
+   "eliminated, A world",
+   "eliminated. A world",
+   "ocr"
+  ],
+  [
+   90,
+   "scientists.",
+   "scientists,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "030aa9b4e856ae18a5d63b26f4d51d7b3abc9586",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2234,
+  "words_out": 2232,
+  "retention": 0.9991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   89,
+   143,
+   108,
+   241,
+   174,
+   74,
+   91,
+   164,
+   108,
+   109,
+   95,
+   95,
+   76,
+   103,
+   103,
+   149,
+   104,
+   127,
+   79
+  ],
+  "warnings": []
+ }
+}

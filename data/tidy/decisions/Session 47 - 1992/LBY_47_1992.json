@@ -1,0 +1,129 @@
+{
+ "id": "LBY_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  23,
+  36,
+  49,
+  65,
+  80,
+  91,
+  103,
+  122,
+  133,
+  160,
+  179,
+  193,
+  210,
+  219,
+  235,
+  248,
+  263,
+  281,
+  300,
+  325,
+  337,
+  351,
+  370,
+  377,
+  389,
+  399,
+  408,
+  429,
+  440,
+  451
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   9,
+   "for this",
+   "for his",
+   "ocr"
+  ],
+  [
+   34,
+   "determination.'",
+   "determination.",
+   "ocr"
+  ],
+  [
+   215,
+   "example.",
+   "example,",
+   "ocr"
+  ],
+  [
+   354,
+   "report. An",
+   "report, An",
+   "ocr"
+  ],
+  [
+   388,
+   "violations.*",
+   "violations.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c4c11d1fe36c48a26a2fb0b07b45fa6d18b9c31",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 464,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5228,
+  "words_out": 5225,
+  "retention": 0.9994,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   82,
+   150,
+   143,
+   141,
+   178,
+   159,
+   118,
+   140,
+   207,
+   132,
+   310,
+   194,
+   162,
+   210,
+   102,
+   188,
+   153,
+   170,
+   206,
+   208,
+   294,
+   126,
+   155,
+   205,
+   78,
+   147,
+   108,
+   107,
+   255,
+   112,
+   120,
+   165
+  ],
+  "warnings": []
+ }
+}

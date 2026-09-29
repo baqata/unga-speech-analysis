@@ -1,0 +1,246 @@
+{
+ "id": "VUT_41_1986",
+ "drop": [
+  [
+   208,
+   208,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  8,
+  13,
+  17,
+  22,
+  27,
+  30,
+  32,
+  35,
+  38,
+  42,
+  48,
+  53,
+  58,
+  62,
+  66,
+  70,
+  75,
+  79,
+  82,
+  86,
+  88,
+  90,
+  95,
+  104,
+  109,
+  121,
+  129,
+  131,
+  136,
+  140,
+  144,
+  147,
+  154,
+  158,
+  164,
+  171,
+  177,
+  182,
+  187,
+  196,
+  204
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   13,
+   "Today ,",
+   "Today,",
+   "spacing"
+  ],
+  [
+   61,
+   "occupied*,",
+   "occupied;",
+   "ocr"
+  ],
+  [
+   61,
+   "hone their",
+   "home their",
+   "ocr"
+  ],
+  [
+   75,
+   "High-Lev el",
+   "High-Level",
+   "split_word"
+  ],
+  [
+   86,
+   "occurs? what",
+   "occurs? What",
+   "ocr"
+  ],
+  [
+   122,
+   "countries, why,",
+   "countries; why,",
+   "ocr"
+  ],
+  [
+   142,
+   "Ranak",
+   "Kanak",
+   "ocr"
+  ],
+  [
+   144,
+   "He seek",
+   "We seek",
+   "ocr"
+  ],
+  [
+   153,
+   "For una",
+   "Forum",
+   "ocr"
+  ],
+  [
+   154,
+   "blame* on",
+   "blame; on",
+   "ocr"
+  ],
+  [
+   154,
+   "Zealand>",
+   "Zealand;",
+   "ocr"
+  ],
+  [
+   154,
+   "Fiji ;",
+   "Fiji;",
+   "spacing"
+  ],
+  [
+   158,
+   "been bold",
+   "been told",
+   "ocr"
+  ],
+  [
+   180,
+   "aiaong",
+   "among",
+   "ocr"
+  ],
+  [
+   182,
+   "Prance",
+   "France",
+   "ocr"
+  ],
+  [
+   191,
+   "On roost",
+   "On most",
+   "ocr"
+  ],
+  [
+   195,
+   "we* agree",
+   "we agree",
+   "ocr"
+  ],
+  [
+   204,
+   "R Ours",
+   "Ours",
+   "ocr"
+  ],
+  [
+   209,
+   "generations'",
+   "generations",
+   "ocr"
+  ],
+  [
+   209,
+   "generation. .",
+   "generation.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c084dad96f224efdac7748e116e3ad6288b7ecd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 210,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 4192,
+  "words_out": 4185,
+  "retention": 0.9983,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   86,
+   44,
+   92,
+   113,
+   64,
+   102,
+   92,
+   77,
+   64,
+   63,
+   65,
+   59,
+   87,
+   81,
+   79,
+   85,
+   100,
+   52,
+   92,
+   76,
+   89,
+   134,
+   51,
+   70,
+   99,
+   132,
+   77,
+   190,
+   224,
+   71,
+   98,
+   81,
+   89,
+   67,
+   103,
+   91,
+   75,
+   74,
+   123,
+   144,
+   105,
+   147,
+   150,
+   128
+  ],
+  "warnings": []
+ }
+}

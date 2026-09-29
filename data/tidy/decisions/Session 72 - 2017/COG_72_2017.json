@@ -1,0 +1,66 @@
+{
+ "id": "COG_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  15,
+  20,
+  27,
+  31,
+  35,
+  40,
+  44,
+  50,
+  53,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "High- Level",
+   "High-Level",
+   "hyphen"
+  ],
+  [
+   40,
+   "twenty- second",
+   "twenty-second",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef5dcfd3f7aaf193cb5069ec1ad42da6e7615b8a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1324,
+  "words_out": 1322,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   102,
+   139,
+   99,
+   106,
+   188,
+   81,
+   85,
+   106,
+   110,
+   108,
+   72,
+   90,
+   36
+  ],
+  "warnings": []
+ }
+}

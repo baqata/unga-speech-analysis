@@ -1,0 +1,52 @@
+{
+ "id": "NAM_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  27,
+  46,
+  60,
+  74,
+  95,
+  100,
+  108,
+  119,
+  129
+ ],
+ "cer": [
+  0,
+  129
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d5f132d623791f8a0a3bc58b9e4c262a639dec0e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1010,
+  "words_out": 1006,
+  "retention": 0.996,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   45,
+   65,
+   109,
+   136,
+   96,
+   108,
+   155,
+   42,
+   61,
+   86,
+   76,
+   27
+  ],
+  "warnings": []
+ }
+}

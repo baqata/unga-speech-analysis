@@ -1,0 +1,122 @@
+{
+ "id": "MWI_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  21,
+  26,
+  29,
+  32,
+  39,
+  41,
+  44,
+  49,
+  54,
+  56,
+  60,
+  65,
+  69,
+  74,
+  78,
+  84,
+  90,
+  92,
+  97
+ ],
+ "cer": [
+  0,
+  7,
+  15,
+  21,
+  26,
+  92,
+  97
+ ],
+ "fix": [
+  [
+   3,
+   "experience that, colonized",
+   "experience that colonized",
+   "ocr"
+  ],
+  [
+   27,
+   "A, M. Nyasulu",
+   "A. M. Nyasulu",
+   "ocr"
+  ],
+  [
+   61,
+   "year s has",
+   "years has",
+   "split_word"
+  ],
+  [
+   77,
+   "to be.no other",
+   "to be no other",
+   "ocr"
+  ],
+  [
+   90,
+   "such, occasions",
+   "such occasions",
+   "ocr"
+  ],
+  [
+   94,
+   "hope any pray",
+   "hope and pray",
+   "ocr"
+  ],
+  [
+   96,
+   "country Which is",
+   "country which is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b9e8fc433542f59992a9b4752e53c98ae67c87b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3996,
+  "words_out": 3990,
+  "retention": 0.9985,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   165,
+   177,
+   206,
+   159,
+   134,
+   178,
+   266,
+   119,
+   137,
+   217,
+   165,
+   96,
+   283,
+   251,
+   161,
+   224,
+   207,
+   190,
+   243,
+   123,
+   244,
+   45
+  ],
+  "warnings": []
+ }
+}

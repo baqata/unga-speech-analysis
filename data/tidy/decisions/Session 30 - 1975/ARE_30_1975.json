@@ -1,0 +1,112 @@
+{
+ "id": "ARE_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  18,
+  23,
+  28,
+  30,
+  34,
+  35,
+  40,
+  44,
+  50,
+  55,
+  58,
+  62,
+  66,
+  70,
+  75
+ ],
+ "cer": [
+  0,
+  3,
+  7
+ ],
+ "fix": [
+  [
+   14,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   15,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   24,
+   " [OA U]",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "non- white",
+   "non-white",
+   "hyphen"
+  ],
+  [
+   42,
+   "achieve-ment",
+   "achievement",
+   "hyphen"
+  ],
+  [
+   64,
+   "needs ot development",
+   "needs of development",
+   "ocr"
+  ],
+  [
+   64,
+   "standards ot the",
+   "standards of the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "edf8c9ed266630313f945f66a4642079f87fe615",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2295,
+  "words_out": 2274,
+  "retention": 0.9908,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   100,
+   100,
+   79,
+   199,
+   142,
+   230,
+   83,
+   109,
+   44,
+   99,
+   61,
+   171,
+   135,
+   77,
+   140,
+   160,
+   148,
+   142,
+   55
+  ],
+  "warnings": []
+ }
+}

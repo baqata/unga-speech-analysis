@@ -1,0 +1,81 @@
+{
+ "id": "YMD_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  11,
+  18,
+  24,
+  30,
+  36,
+  43,
+  48,
+  54,
+  56,
+  61,
+  71,
+  80,
+  82
+ ],
+ "cer": [
+  0,
+  82
+ ],
+ "fix": [
+  [
+   0,
+   "security,",
+   "security.",
+   "ocr"
+  ],
+  [
+   35,
+   "consul threat",
+   "constant threat",
+   "ocr"
+  ],
+  [
+   82,
+   "Secretary General",
+   "Secretary-General",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa9fb68e1ce6da675e4e4586f41d268da03acad7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2457,
+  "words_out": 2456,
+  "retention": 0.9996,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   109,
+   95,
+   217,
+   210,
+   159,
+   165,
+   215,
+   221,
+   123,
+   190,
+   98,
+   114,
+   233,
+   211,
+   54,
+   42
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "GTM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   106,
+   106,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  14,
+  18,
+  22,
+  28,
+  34,
+  40,
+  46,
+  50,
+  56,
+  63,
+  72,
+  76,
+  84,
+  91,
+  94,
+  99,
+  105
+ ],
+ "cer": [
+  2,
+  105
+ ],
+ "fix": [
+  [
+   5,
+   "Berapa'a",
+   "Verapaz",
+   "asr_name"
+  ],
+  [
+   98,
+   "Ag Hammarskjöld",
+   "Dag Hammarskjöld",
+   "asr_name"
+  ],
+  [
+   104,
+   "Verapath",
+   "Verapaz",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8e2acb93679413ab4506099d216a2e148b8164bf",
+ "layout": "single",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2505,
+  "words_out": 2458,
+  "retention": 0.9812,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   31,
+   161,
+   128,
+   125,
+   89,
+   144,
+   129,
+   144,
+   113,
+   148,
+   99,
+   178,
+   200,
+   105,
+   185,
+   164,
+   81,
+   153,
+   77,
+   4
+  ],
+  "warnings": []
+ }
+}

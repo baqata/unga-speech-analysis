@@ -1,0 +1,127 @@
+{
+ "id": "TTO_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   97,
+   98,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  9,
+  13,
+  23,
+  31,
+  36,
+  42,
+  47,
+  52,
+  57,
+  64,
+  71,
+  73,
+  80,
+  88,
+  90,
+  96
+ ],
+ "cer": [
+  2,
+  88,
+  96
+ ],
+ "fix": [
+  [
+   49,
+   "Haitian national peace",
+   "Haitian National Police",
+   "asr_name"
+  ],
+  [
+   66,
+   "Srinanda Begum commits",
+   "Trinidad and Tobago commits",
+   "asr_name"
+  ],
+  [
+   70,
+   "Srinanda Begum will",
+   "Trinidad and Tobago will",
+   "asr_name"
+  ],
+  [
+   71,
+   "Our country, Srinanda Begum, the",
+   "Our country, Trinidad and Tobago, the",
+   "asr_name"
+  ],
+  [
+   82,
+   "Srinath Dubego",
+   "Trinidad and Tobago",
+   "asr_name"
+  ],
+  [
+   85,
+   "Srinath Dubego",
+   "Trinidad and Tobago",
+   "asr_name"
+  ],
+  [
+   87,
+   "Srinath Dubego",
+   "Trinidad and Tobago",
+   "asr_name"
+  ],
+  [
+   95,
+   "Srinath Dubego",
+   "Trinidad and Tobago",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 4 says '60th anniversary' of the United Nations and is left as transcribed.",
+ "unitizer_version": 1,
+ "sha1": "9642c719b613cfc7b2a5eb3413b67a5a38cc9f62",
+ "layout": "single",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2071,
+  "words_out": 2020,
+  "retention": 0.9754,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   53,
+   44,
+   62,
+   157,
+   133,
+   79,
+   200,
+   81,
+   161,
+   99,
+   157,
+   200,
+   96,
+   122,
+   175,
+   59,
+   135,
+   7
+  ],
+  "warnings": []
+ }
+}

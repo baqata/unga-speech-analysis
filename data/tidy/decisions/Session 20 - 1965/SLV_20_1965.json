@@ -1,0 +1,99 @@
+{
+ "id": "SLV_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  16,
+  21,
+  24,
+  27,
+  29,
+  35,
+  38,
+  44,
+  52,
+  55,
+  59,
+  62,
+  66,
+  69
+ ],
+ "cer": [
+  0,
+  5,
+  38,
+  69
+ ],
+ "fix": [
+  [
+   1,
+   "with Which we",
+   "with which we",
+   "ocr"
+  ],
+  [
+   17,
+   "equality and sovereignly",
+   "equality and sovereignty",
+   "ocr"
+  ],
+  [
+   17,
+   "no International coexistence",
+   "no international coexistence",
+   "ocr"
+  ],
+  [
+   18,
+   "tradition, We likewise",
+   "tradition. We likewise",
+   "ocr"
+  ],
+  [
+   28,
+   " [resolution 1837 (XVII)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60331f575b016ed7e6039e31f9b0bab512c64cca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2391,
+  "words_out": 2359,
+  "retention": 0.9866,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   190,
+   63,
+   93,
+   129,
+   167,
+   86,
+   198,
+   97,
+   186,
+   97,
+   172,
+   226,
+   93,
+   133,
+   87,
+   112,
+   123,
+   107
+  ],
+  "warnings": []
+ }
+}

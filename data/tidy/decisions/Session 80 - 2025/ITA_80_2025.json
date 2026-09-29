@@ -1,0 +1,88 @@
+{
+ "id": "ITA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   103,
+   103,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  11,
+  19,
+  26,
+  31,
+  38,
+  45,
+  55,
+  60,
+  67,
+  71,
+  75,
+  81,
+  85,
+  96,
+  102
+ ],
+ "cer": [
+  2,
+  102
+ ],
+ "fix": [
+  [
+   58,
+   "Concensus",
+   "Consensus",
+   "asr_name"
+  ],
+  [
+   73,
+   "Maté Plan",
+   "Mattei Plan",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93bb55098bed1eaff4178ef320fefa4c054acfdc",
+ "layout": "single",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2238,
+  "words_out": 2179,
+  "retention": 0.9736,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   10,
+   168,
+   156,
+   146,
+   103,
+   164,
+   128,
+   137,
+   91,
+   166,
+   86,
+   107,
+   174,
+   122,
+   236,
+   183,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,268 @@
+{
+ "id": "TUR_16_1961",
+ "drop": [
+  [
+   24,
+   24,
+   "noise"
+  ],
+  [
+   36,
+   36,
+   "noise"
+  ],
+  [
+   113,
+   113,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  18,
+  25,
+  37,
+  40,
+  43,
+  51,
+  57,
+  63,
+  71,
+  77,
+  83,
+  91,
+  98,
+  105,
+  114
+ ],
+ "cer": [
+  0,
+  114
+ ],
+ "fix": [
+  [
+   0,
+   "): ",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "that..",
+   "that",
+   "ocr"
+  ],
+  [
+   2,
+   "Secretary-General;",
+   "Secretary-General,",
+   "ocr"
+  ],
+  [
+   14,
+   " [A/4800/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "th3",
+   "the",
+   "ocr"
+  ],
+  [
+   38,
+   "hops",
+   "hope",
+   "ocr"
+  ],
+  [
+   39,
+   "utmost,",
+   "utmost",
+   "ocr"
+  ],
+  [
+   40,
+   "good- neighbourly",
+   "good-neighbourly",
+   "ocr"
+  ],
+  [
+   42,
+   "good- neighbourly",
+   "good-neighbourly",
+   "ocr"
+  ],
+  [
+   46,
+   "hp e",
+   "have",
+   "ocr"
+  ],
+  [
+   49,
+   "Freedom",
+   "freedom",
+   "ocr"
+  ],
+  [
+   51,
+   "it the most",
+   "is the most",
+   "ocr"
+  ],
+  [
+   52,
+   "significance, For",
+   "significance. For",
+   "ocr"
+  ],
+  [
+   55,
+   "sincerity ,",
+   "sincerity,",
+   "ocr"
+  ],
+  [
+   66,
+   "My . countrymen",
+   "My countrymen",
+   "ocr"
+  ],
+  [
+   66,
+   "Maternal",
+   "fraternal",
+   "ocr"
+  ],
+  [
+   67,
+   "decent",
+   "Recent",
+   "ocr"
+  ],
+  [
+   69,
+   "Flinch",
+   "French",
+   "ocr"
+  ],
+  [
+   69,
+   "self- determination",
+   "self-determination",
+   "ocr"
+  ],
+  [
+   74,
+   "interference.'",
+   "interference.",
+   "ocr"
+  ],
+  [
+   79,
+   "proclaimed1",
+   "proclaimed",
+   "ocr"
+  ],
+  [
+   80,
+   "■ status",
+   "status",
+   "ocr"
+  ],
+  [
+   84,
+   "4C0",
+   "400",
+   "ocr"
+  ],
+  [
+   87,
+   "' this",
+   "this",
+   "ocr"
+  ],
+  [
+   90,
+   "L distance",
+   "distance",
+   "ocr"
+  ],
+  [
+   108,
+   "eminent,",
+   "eminent",
+   "ocr"
+  ],
+  [
+   109,
+   "'The",
+   "The",
+   "ocr"
+  ],
+  [
+   114,
+   "Mr,",
+   "Mr.",
+   "ocr"
+  ],
+  [
+   114,
+   "th6",
+   "the",
+   "ocr"
+  ],
+  [
+   116,
+   "guidance',",
+   "guidance.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 24, 36 and 113 are stray paragraph numbers.",
+ "unitizer_version": 1,
+ "sha1": "5e9dee90a3342045c86848b9d742e03fdcbc163c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 2904,
+  "words_out": 2887,
+  "retention": 0.9941,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   70,
+   167,
+   215,
+   140,
+   201,
+   99,
+   110,
+   163,
+   193,
+   155,
+   199,
+   176,
+   131,
+   146,
+   209,
+   162,
+   234,
+   117
+  ],
+  "warnings": [
+   "30 fixes"
+  ]
+ }
+}

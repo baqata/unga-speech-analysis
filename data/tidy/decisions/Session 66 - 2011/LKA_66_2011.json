@@ -1,0 +1,56 @@
+{
+ "id": "LKA_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  18,
+  31,
+  47,
+  60,
+  81,
+  103,
+  125,
+  152,
+  175,
+  186,
+  202
+ ],
+ "cer": [
+  0,
+  202
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68242dd2a311805bc5ea8bf06f1a0e0d980fecc8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1670,
+  "words_out": 1669,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   44,
+   99,
+   117,
+   146,
+   105,
+   170,
+   184,
+   173,
+   237,
+   196,
+   73,
+   117,
+   8
+  ],
+  "warnings": []
+ }
+}

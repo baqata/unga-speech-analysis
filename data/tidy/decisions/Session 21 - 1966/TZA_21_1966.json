@@ -1,0 +1,164 @@
+{
+ "id": "TZA_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  15,
+  21,
+  24,
+  29,
+  34,
+  41,
+  48,
+  54,
+  60,
+  63,
+  67,
+  73,
+  77,
+  82,
+  86,
+  88,
+  98,
+  110,
+  116,
+  121,
+  125
+ ],
+ "cer": [],
+ "fix": [
+  [
+   22,
+   "operations, I wish",
+   "operations. I wish",
+   "ocr"
+  ],
+  [
+   31,
+   "session, Is anything",
+   "session. Is anything",
+   "ocr"
+  ],
+  [
+   50,
+   "Convenant",
+   "Covenant",
+   "ocr"
+  ],
+  [
+   80,
+   "member.-, of",
+   "members of",
+   "ocr"
+  ],
+  [
+   81,
+   "councils,",
+   "councils.",
+   "ocr"
+  ],
+  [
+   93,
+   "did not, have",
+   "did not have",
+   "ocr"
+  ],
+  [
+   106,
+   "Secretary- General",
+   "Secretary-General",
+   "split_word"
+  ],
+  [
+   107,
+   "movilize",
+   "mobilize",
+   "ocr"
+  ],
+  [
+   108,
+   "movilization",
+   "mobilization",
+   "ocr"
+  ],
+  [
+   112,
+   "[A/6315, annex C.]",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "ha.d",
+   "had",
+   "ocr"
+  ],
+  [
+   123,
+   "United N mas",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   126,
+   "may he called",
+   "may be called",
+   "ocr"
+  ],
+  [
+   128,
+   "which 't has Initiated",
+   "which it has initiated",
+   "ocr"
+  ],
+  [
+   130,
+   "also he made",
+   "also be made",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "Text stops mid-sentence at the end of the last paragraph (\"Provision must also be made by this General Assembly for the\").",
+ "unitizer_version": 1,
+ "sha1": "065e4de0ca08d84caed934b919b14df946b4240b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3023,
+  "words_out": 2992,
+  "retention": 0.9897,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   202,
+   129,
+   81,
+   107,
+   115,
+   140,
+   138,
+   148,
+   170,
+   112,
+   94,
+   82,
+   142,
+   107,
+   141,
+   96,
+   61,
+   225,
+   210,
+   160,
+   93,
+   84,
+   155
+  ],
+  "warnings": []
+ }
+}

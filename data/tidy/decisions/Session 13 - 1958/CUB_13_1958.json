@@ -1,0 +1,165 @@
+{
+ "id": "CUB_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  10,
+  12,
+  16,
+  23,
+  28,
+  30,
+  34,
+  36,
+  41,
+  46,
+  50,
+  52,
+  58,
+  63,
+  68,
+  70,
+  73,
+  79,
+  84,
+  88,
+  94,
+  98,
+  104,
+  106,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "In the world",
+   "in the world",
+   "ocr"
+  ],
+  [
+   14,
+   "General.",
+   "General",
+   "ocr"
+  ],
+  [
+   31,
+   "fall to do",
+   "fail to do",
+   "ocr"
+  ],
+  [
+   35,
+   "1950",
+   "1959",
+   "ocr"
+  ],
+  [
+   39,
+   "history, In 1957",
+   "history. In 1957",
+   "ocr"
+  ],
+  [
+   43,
+   "Joaquíh",
+   "Joaquín",
+   "ocr"
+  ],
+  [
+   48,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   52,
+   "Secretory-General",
+   "Secretary-General",
+   "ocr"
+  ],
+  [
+   67,
+   "Bum total",
+   "sum total",
+   "ocr"
+  ],
+  [
+   68,
+   "extra- budgetary",
+   "extra-budgetary",
+   "hyphen"
+  ],
+  [
+   80,
+   "(or the",
+   "for the",
+   "ocr"
+  ],
+  [
+   88,
+   "[A/3875 and Add.1]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "Spanish- American",
+   "Spanish-American",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ad243c0cec5a4ec704f502639d0c6e8667095ee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 36
+  },
+  "words_in": 4118,
+  "words_out": 4110,
+  "retention": 0.9981,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   99,
+   49,
+   235,
+   79,
+   154,
+   195,
+   150,
+   76,
+   181,
+   110,
+   165,
+   211,
+   124,
+   206,
+   164,
+   173,
+   160,
+   156,
+   129,
+   184,
+   203,
+   110,
+   177,
+   179,
+   156,
+   83,
+   157,
+   45
+  ],
+  "warnings": []
+ }
+}

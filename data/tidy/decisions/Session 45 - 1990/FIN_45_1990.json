@@ -1,0 +1,96 @@
+{
+ "id": "FIN_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  16,
+  20,
+  26,
+  30,
+  34,
+  38,
+  41,
+  45,
+  50,
+  55,
+  63,
+  68,
+  72,
+  78,
+  81,
+  85
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "is the face",
+   "in the face",
+   "ocr"
+  ],
+  [
+   12,
+   "allying",
+   "applying",
+   "ocr"
+  ],
+  [
+   19,
+   "(CSCE;,",
+   "(CSCE).",
+   "ocr"
+  ],
+  [
+   19,
+   "λ milestone",
+   "A milestone",
+   "ocr"
+  ],
+  [
+   37,
+   "ides",
+   "idea",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad8b9192dcffb56b43bcd23f0212c5ee62543ec4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1909,
+  "words_out": 1909,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   95,
+   61,
+   152,
+   114,
+   109,
+   80,
+   91,
+   103,
+   56,
+   92,
+   78,
+   114,
+   166,
+   107,
+   125,
+   116,
+   76,
+   105,
+   69
+  ],
+  "warnings": []
+ }
+}

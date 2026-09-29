@@ -1,0 +1,186 @@
+{
+ "id": "SEN_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  15,
+  17,
+  20,
+  23,
+  31,
+  35,
+  37,
+  39,
+  42,
+  48,
+  52,
+  55,
+  57,
+  59,
+  62,
+  65,
+  70,
+  73,
+  76,
+  78,
+  79,
+  82,
+  86,
+  89,
+  94,
+  97,
+  99,
+  102,
+  106,
+  108,
+  111,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Mt. Javier",
+   "Mr. Javier",
+   "ocr"
+  ],
+  [
+   31,
+   "Africa. ,",
+   "Africa.",
+   "ocr"
+  ],
+  [
+   33,
+   "and Implementation",
+   "and implementation",
+   "ocr"
+  ],
+  [
+   38,
+   "enterprises,",
+   "enterprises.",
+   "ocr"
+  ],
+  [
+   40,
+   "peasants Instead",
+   "peasants instead",
+   "ocr"
+  ],
+  [
+   63,
+   "Senegal, Whose",
+   "Senegal, whose",
+   "ocr"
+  ],
+  [
+   75,
+   "fraternity..",
+   "fraternity.",
+   "ocr"
+  ],
+  [
+   84,
+   "to 3isarmament",
+   "to disarmament",
+   "ocr"
+  ],
+  [
+   89,
+   "the International community",
+   "the international community",
+   "ocr"
+  ],
+  [
+   97,
+   "Now can we fail",
+   "Nor can we fail",
+   "ocr"
+  ],
+  [
+   101,
+   "future. ,",
+   "future.",
+   "ocr"
+  ],
+  [
+   105,
+   "a Question of",
+   "a question of",
+   "ocr"
+  ],
+  [
+   116,
+   " (A/40/PV.42, p. 15)",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "(OAU) ,",
+   "(OAU),",
+   "spacing"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 78 breaks off after 'both urgent and' and runs into the next sentence; words are missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "e74afe6789e639fd87bf91fb7feba79fe184def7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4337,
+  "words_out": 4331,
+  "retention": 0.9986,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   144,
+   136,
+   103,
+   98,
+   101,
+   126,
+   105,
+   230,
+   168,
+   74,
+   90,
+   93,
+   121,
+   91,
+   87,
+   83,
+   145,
+   132,
+   115,
+   164,
+   104,
+   129,
+   78,
+   115,
+   162,
+   122,
+   104,
+   196,
+   119,
+   79,
+   92,
+   186,
+   76,
+   75,
+   133,
+   155
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "id": "BWA_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  41,
+  45,
+  70,
+  87,
+  102,
+  125,
+  149,
+  188,
+  199,
+  218,
+  232,
+  251,
+  268,
+  302,
+  322,
+  336,
+  369,
+  395,
+  414
+ ],
+ "cer": [
+  0,
+  41
+ ],
+ "fix": [
+  [
+   2,
+   "deCuellar",
+   "de Cuellar",
+   "merged_word"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   "Hammarslqold",
+   "Hammarskjold",
+   "ocr"
+  ],
+  [
+   20,
+   ".a man",
+   "a man",
+   "ocr"
+  ],
+  [
+   24,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   37,
+   "the j purposes",
+   "the purposes",
+   "ocr"
+  ],
+  [
+   83,
+   "short- tern. Interests",
+   "short-term interests",
+   "ocr"
+  ],
+  [
+   91,
+   "export j proceeds",
+   "export proceeds",
+   "ocr"
+  ],
+  [
+   92,
+   "a j worsened",
+   "a worsened",
+   "ocr"
+  ],
+  [
+   93,
+   "developing j countries",
+   "developing countries",
+   "ocr"
+  ],
+  [
+   120,
+   ".economic",
+   "economic",
+   "ocr"
+  ],
+  [
+   133,
+   "chum",
+   "churn",
+   "ocr"
+  ],
+  [
+   180,
+   "eventin",
+   "event in",
+   "merged_word"
+  ],
+  [
+   233,
+   "North- South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   233,
+   ".many",
+   "many",
+   "ocr"
+  ],
+  [
+   237,
+   "spumed",
+   "spurned",
+   "ocr"
+  ],
+  [
+   242,
+   "ipter-Korean",
+   "inter-Korean",
+   "ocr"
+  ],
+  [
+   251,
+   "333. ",
+   "",
+   "label"
+  ],
+  [
+   252,
+   "dear",
+   "clear",
+   "ocr"
+  ],
+  [
+   277,
+   "of it. Ft",
+   "of it. It",
+   "ocr"
+  ],
+  [
+   290,
+   "b the",
+   "by the",
+   "ocr"
+  ],
+  [
+   348,
+   "torch- bearer",
+   "torch-bearer",
+   "spacing"
+  ],
+  [
+   397,
+   "Macks",
+   "blacks",
+   "ocr"
+  ],
+  [
+   397,
+   "rurai",
+   "rural",
+   "ocr"
+  ],
+  [
+   398,
+   "oniy",
+   "only",
+   "ocr"
+  ],
+  [
+   399,
+   "p!an",
+   "plan",
+   "ocr"
+  ],
+  [
+   407,
+   " [LW/7/1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "13278c593a26286e3c30d8b92b0bb05d3864ff30",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 430,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3056,
+  "words_out": 3017,
+  "retention": 0.9872,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   307,
+   32,
+   160,
+   111,
+   103,
+   142,
+   179,
+   280,
+   73,
+   130,
+   101,
+   121,
+   129,
+   248,
+   148,
+   93,
+   248,
+   171,
+   131,
+   110
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

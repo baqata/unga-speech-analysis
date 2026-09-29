@@ -1,0 +1,58 @@
+{
+ "id": "URY_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  12,
+  18,
+  25,
+  28,
+  38,
+  42,
+  44,
+  49,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "beings ,",
+   "beings,",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b91cdd7efdfd90b3756b93c9d457cc3c65d713aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1294,
+  "words_out": 1293,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   36,
+   107,
+   105,
+   103,
+   131,
+   91,
+   181,
+   90,
+   93,
+   108,
+   150,
+   98
+  ],
+  "warnings": []
+ }
+}

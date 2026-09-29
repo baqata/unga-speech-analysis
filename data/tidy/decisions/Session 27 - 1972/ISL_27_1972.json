@@ -1,0 +1,95 @@
+{
+ "id": "ISL_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  15,
+  19,
+  22,
+  25,
+  28,
+  31,
+  35,
+  41,
+  44,
+  50,
+  53,
+  57,
+  65,
+  73,
+  79,
+  83,
+  89,
+  92,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "1972. issued",
+   "1972, issued",
+   "ocr"
+  ],
+  [
+   60,
+   " x",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "nave",
+   "have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "17cb037e24ec3eac8347e12c67411166c9e99e12",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 21
+  },
+  "words_in": 2953,
+  "words_out": 2951,
+  "retention": 0.9993,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   32,
+   102,
+   154,
+   115,
+   99,
+   116,
+   167,
+   132,
+   103,
+   112,
+   199,
+   87,
+   177,
+   130,
+   135,
+   259,
+   157,
+   154,
+   112,
+   121,
+   77,
+   120,
+   91
+  ],
+  "warnings": []
+ }
+}

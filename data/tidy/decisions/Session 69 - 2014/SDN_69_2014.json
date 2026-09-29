@@ -1,0 +1,74 @@
+{
+ "id": "SDN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  39,
+  48,
+  63,
+  74,
+  90,
+  108,
+  118,
+  129,
+  140,
+  159,
+  175,
+  206,
+  226,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   168,
+   "strenghtening",
+   "strengthening",
+   "ocr"
+  ],
+  [
+   220,
+   "effcts",
+   "effects",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7818fca74ae8a95270522b75bf034040c80dbdca",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 255,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2043,
+  "words_out": 2040,
+  "retention": 0.9985,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   103,
+   102,
+   117,
+   71,
+   126,
+   92,
+   135,
+   149,
+   80,
+   82,
+   78,
+   158,
+   126,
+   223,
+   161,
+   155,
+   82
+  ],
+  "warnings": []
+ }
+}

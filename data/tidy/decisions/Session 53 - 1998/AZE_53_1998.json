@@ -1,0 +1,146 @@
+{
+ "id": "AZE_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  33,
+  55,
+  69,
+  95,
+  106,
+  128,
+  147,
+  156,
+  166,
+  191,
+  204,
+  219,
+  232,
+  242,
+  252,
+  274,
+  297,
+  318,
+  335,
+  356
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   81,
+   "leadership?s",
+   "leadership’s",
+   "encoding"
+  ],
+  [
+   106,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   173,
+   "Azerbaijan?s",
+   "Azerbaijan’s",
+   "encoding"
+  ],
+  [
+   198,
+   "Azerbaijan?s",
+   "Azerbaijan’s",
+   "encoding"
+  ],
+  [
+   199,
+   "Armenia?s",
+   "Armenia’s",
+   "encoding"
+  ],
+  [
+   205,
+   "Armenia?s",
+   "Armenia’s",
+   "encoding"
+  ],
+  [
+   210,
+   "Armenia?s",
+   "Armenia’s",
+   "encoding"
+  ],
+  [
+   216,
+   "Armenia?s",
+   "Armenia’s",
+   "encoding"
+  ],
+  [
+   248,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   271,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   283,
+   "refugee?s",
+   "refugee’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac9bab3c19e7d67f3b03784e339ef706e96f4f4d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 368,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3026,
+  "words_out": 3023,
+  "retention": 0.999,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   99,
+   170,
+   177,
+   115,
+   208,
+   92,
+   154,
+   147,
+   76,
+   82,
+   218,
+   108,
+   126,
+   107,
+   83,
+   79,
+   196,
+   189,
+   176,
+   145,
+   166,
+   110
+  ],
+  "warnings": []
+ }
+}

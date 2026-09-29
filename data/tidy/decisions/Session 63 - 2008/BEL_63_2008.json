@@ -1,0 +1,65 @@
+{
+ "id": "BEL_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  23,
+  43,
+  58,
+  73,
+  90,
+  104,
+  123,
+  140,
+  151,
+  171,
+  185,
+  198,
+  212,
+  227,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1ed87d812502c647579394ca5a941886c2b45b4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 242,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 3,
+   "job_number": 3
+  },
+  "words_in": 1961,
+  "words_out": 1954,
+  "retention": 0.9964,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   31,
+   158,
+   168,
+   123,
+   117,
+   136,
+   120,
+   144,
+   134,
+   87,
+   174,
+   106,
+   109,
+   111,
+   111,
+   104,
+   21
+  ],
+  "warnings": []
+ }
+}

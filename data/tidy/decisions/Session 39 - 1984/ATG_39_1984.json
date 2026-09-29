@@ -1,0 +1,86 @@
+{
+ "id": "ATG_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  18,
+  21,
+  29,
+  35,
+  40,
+  45,
+  53,
+  58,
+  65,
+  70,
+  75,
+  79,
+  87,
+  91,
+  96,
+  100,
+  105,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "Treaty1",
+   "Treaty",
+   "ocr"
+  ],
+  [
+   69,
+   "obtained m Antarctica",
+   "obtained in Antarctica",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "53dbfeca06608c075a7aa4c021a6a53b1a0464bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3055,
+  "words_out": 3055,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   89,
+   201,
+   84,
+   134,
+   108,
+   180,
+   118,
+   165,
+   171,
+   189,
+   233,
+   201,
+   142,
+   113,
+   100,
+   189,
+   121,
+   121,
+   144,
+   100,
+   81,
+   71
+  ],
+  "warnings": []
+ }
+}

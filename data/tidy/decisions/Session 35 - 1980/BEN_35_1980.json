@@ -1,0 +1,133 @@
+{
+ "id": "BEN_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  18,
+  21,
+  28,
+  30,
+  33,
+  38,
+  40,
+  48,
+  55,
+  60,
+  61,
+  65,
+  69,
+  73,
+  75,
+  79,
+  81,
+  85,
+  88,
+  92,
+  94,
+  99,
+  102,
+  106,
+  111,
+  118,
+  120,
+  124,
+  127,
+  130,
+  136,
+  140,
+  144
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   29,
+   "aimed al",
+   "aimed at",
+   "ocr"
+  ],
+  [
+   31,
+   "size of me companies",
+   "size of the companies",
+   "ocr"
+  ],
+  [
+   33,
+   "fins' outcome",
+   "final outcome",
+   "ocr"
+  ],
+  [
+   45,
+   "beer, repudiated",
+   "been repudiated",
+   "ocr"
+  ],
+  [
+   92,
+   " [FRETILIN]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bac57d744a11ff017e3fe84d2a842ace339dec17",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 5390,
+  "words_out": 5389,
+  "retention": 0.9998,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   217,
+   116,
+   242,
+   169,
+   206,
+   146,
+   157,
+   152,
+   80,
+   163,
+   151,
+   181,
+   68,
+   127,
+   161,
+   202,
+   64,
+   162,
+   96,
+   159,
+   115,
+   186,
+   60,
+   162,
+   91,
+   199,
+   214,
+   176,
+   154,
+   115,
+   117,
+   173,
+   198,
+   123,
+   202,
+   85
+  ],
+  "warnings": []
+ }
+}

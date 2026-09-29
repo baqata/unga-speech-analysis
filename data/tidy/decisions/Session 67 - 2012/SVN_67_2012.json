@@ -1,0 +1,66 @@
+{
+ "id": "SVN_67_2012",
+ "drop": [
+  [
+   121,
+   121,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  16,
+  26,
+  37,
+  52,
+  63,
+  79,
+  92,
+  104,
+  112,
+  122
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   72,
+   "f lesh",
+   "flesh",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aca496c6427ab85d8a85e9239646da0b134b0634",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1114,
+  "words_out": 1104,
+  "retention": 0.991,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   62,
+   72,
+   87,
+   88,
+   119,
+   97,
+   131,
+   108,
+   89,
+   65,
+   71,
+   115
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "QAT_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  24,
+  46,
+  59,
+  69,
+  89,
+  102,
+  125,
+  137,
+  151,
+  162,
+  176,
+  185,
+  195,
+  208,
+  218,
+  230,
+  240,
+  249,
+  256
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "reconstructionn",
+   "reconstruction",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b9877ee1291567ca27c19c1b770bf64b01c3c467",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2136,
+  "words_out": 2135,
+  "retention": 0.9995,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   71,
+   122,
+   181,
+   111,
+   71,
+   162,
+   107,
+   188,
+   95,
+   114,
+   98,
+   121,
+   65,
+   88,
+   107,
+   90,
+   105,
+   78,
+   72,
+   58,
+   31
+  ],
+  "warnings": []
+ }
+}

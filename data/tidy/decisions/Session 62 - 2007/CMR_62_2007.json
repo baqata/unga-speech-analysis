@@ -1,0 +1,55 @@
+{
+ "id": "CMR_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  33,
+  46,
+  62,
+  79,
+  93,
+  102,
+  123,
+  141,
+  150,
+  168,
+  182,
+  203
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dad9041e87ac2fa09b29c92b6d44d2014fcf68a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1818,
+  "words_out": 1817,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   179,
+   91,
+   105,
+   130,
+   140,
+   116,
+   78,
+   168,
+   145,
+   77,
+   156,
+   116,
+   172,
+   144
+  ],
+  "warnings": []
+ }
+}

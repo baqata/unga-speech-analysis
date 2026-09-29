@@ -1,0 +1,86 @@
+{
+ "id": "COG_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  31,
+  45,
+  54,
+  74,
+  91,
+  108,
+  121,
+  145,
+  167,
+  185,
+  200,
+  212,
+  226,
+  252,
+  266,
+  285,
+  295,
+  313,
+  328,
+  340
+ ],
+ "cer": [
+  45
+ ],
+ "fix": [
+  [
+   254,
+   "Pr'ncipe",
+   "Príncipe",
+   "encoding"
+  ],
+  [
+   263,
+   "Pr'ncipe",
+   "Príncipe",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69ae6fdb638fc8f71e362ba1a83a625c290edf0d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 348,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2712,
+  "words_out": 2711,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   127,
+   103,
+   115,
+   77,
+   165,
+   148,
+   130,
+   97,
+   200,
+   162,
+   142,
+   120,
+   89,
+   102,
+   196,
+   114,
+   141,
+   79,
+   139,
+   112,
+   89,
+   64
+  ],
+  "warnings": []
+ }
+}

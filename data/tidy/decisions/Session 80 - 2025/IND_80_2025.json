@@ -1,0 +1,80 @@
+{
+ "id": "IND_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   114,
+   114,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  6,
+  14,
+  25,
+  38,
+  43,
+  50,
+  55,
+  65,
+  72,
+  80,
+  84,
+  92,
+  103,
+  113
+ ],
+ "cer": [
+  1,
+  113
+ ],
+ "fix": [
+  [
+   48,
+   "Pahalwala, Telangana",
+   "Pahalgam",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e41fd5cd902c4d4a264064c0cf2bd2fbc19f96a",
+ "layout": "single",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1653,
+  "words_out": 1627,
+  "retention": 0.9843,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   14,
+   69,
+   110,
+   140,
+   129,
+   85,
+   107,
+   85,
+   135,
+   118,
+   169,
+   64,
+   120,
+   155,
+   124,
+   3
+  ],
+  "warnings": []
+ }
+}

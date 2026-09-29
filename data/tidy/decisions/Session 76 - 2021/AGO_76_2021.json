@@ -1,0 +1,48 @@
+{
+ "id": "AGO_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  10,
+  16,
+  21,
+  26,
+  30
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "SARS- CoV-2",
+   "SARS-CoV-2",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "acee7416407d0f2aba1d6504d2e51de636cc6326",
+ "layout": "lines",
+ "stats": {
+  "n_units": 32,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1154,
+  "words_out": 1153,
+  "retention": 0.9991,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   87,
+   106,
+   179,
+   176,
+   198,
+   144,
+   156,
+   107
+  ],
+  "warnings": []
+ }
+}

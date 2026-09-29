@@ -1,0 +1,100 @@
+{
+ "id": "BHS_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  17,
+  26,
+  32,
+  40,
+  44,
+  49,
+  54,
+  57,
+  60,
+  63,
+  69,
+  75,
+  79,
+  82,
+  87,
+  92,
+  98,
+  101,
+  106,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "con-fronting",
+   "confronting",
+   "hyphen"
+  ],
+  [
+   90,
+   "pro-mote",
+   "promote",
+   "hyphen"
+  ],
+  [
+   92,
+   "con-fronting",
+   "confronting",
+   "hyphen"
+  ],
+  [
+   110,
+   "areas valid",
+   "are as valid",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa6c80d6bd2d8d6200e0371cf88cb255d7a7fe83",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3120,
+  "words_out": 3121,
+  "retention": 1.0003,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   210,
+   125,
+   199,
+   190,
+   159,
+   164,
+   173,
+   135,
+   110,
+   161,
+   73,
+   98,
+   190,
+   134,
+   95,
+   124,
+   137,
+   102,
+   128,
+   100,
+   165,
+   57,
+   92
+  ],
+  "warnings": []
+ }
+}

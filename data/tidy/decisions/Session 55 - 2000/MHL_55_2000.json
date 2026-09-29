@@ -1,0 +1,91 @@
+{
+ "id": "MHL_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  32,
+  60,
+  73,
+  89,
+  99,
+  114,
+  124,
+  143,
+  154,
+  167,
+  187,
+  210,
+  227
+ ],
+ "cer": [
+  0,
+  227
+ ],
+ "fix": [
+  [
+   8,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   49,
+   "selfdetermination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   97,
+   "nonpermanent",
+   "non-permanent",
+   "hyphen"
+  ],
+  [
+   100,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   141,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26146034da4dd949e953ba0669d4a15404ee17fd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1929,
+  "words_out": 1929,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   107,
+   148,
+   230,
+   105,
+   142,
+   79,
+   134,
+   86,
+   162,
+   84,
+   100,
+   163,
+   191,
+   134,
+   64
+  ],
+  "warnings": []
+ }
+}

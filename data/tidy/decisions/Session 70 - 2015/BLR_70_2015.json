@@ -1,0 +1,72 @@
+{
+ "id": "BLR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  20,
+  31,
+  37,
+  42,
+  46,
+  50,
+  54,
+  58,
+  65,
+  74,
+  81,
+  87,
+  95,
+  98,
+  104,
+  112,
+  117
+ ],
+ "cer": [],
+ "fix": [
+  [
+   66,
+   "deep- rooted",
+   "deep-rooted",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7b2e4360da289094ee1733983261026b9956b3bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2301,
+  "words_out": 2298,
+  "retention": 0.9987,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   121,
+   115,
+   120,
+   150,
+   96,
+   90,
+   114,
+   99,
+   111,
+   78,
+   129,
+   133,
+   129,
+   129,
+   153,
+   61,
+   119,
+   148,
+   123,
+   80
+  ],
+  "warnings": []
+ }
+}

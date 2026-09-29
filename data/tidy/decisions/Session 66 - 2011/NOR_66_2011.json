@@ -1,0 +1,70 @@
+{
+ "id": "NOR_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  30,
+  45,
+  62,
+  77,
+  89,
+  97,
+  118,
+  134,
+  151,
+  165,
+  179,
+  197,
+  207
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   15,
+   ")",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08f468af21f1be431a72418278be01a64d198148",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1656,
+  "words_out": 1652,
+  "retention": 0.9976,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   88,
+   147,
+   126,
+   135,
+   113,
+   98,
+   61,
+   147,
+   120,
+   130,
+   105,
+   94,
+   146,
+   85,
+   57
+  ],
+  "warnings": []
+ }
+}

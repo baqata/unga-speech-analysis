@@ -1,0 +1,73 @@
+{
+ "id": "SYR_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  15,
+  27,
+  43,
+  62,
+  76,
+  92,
+  104,
+  116,
+  128,
+  140,
+  149,
+  161,
+  178,
+  195,
+  210,
+  225
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   187,
+   "(GC(53)/RES/17)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d936fa90f7dd26f5d51515d6d79d1a4a0fb91304",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1923,
+  "words_out": 1922,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   44,
+   61,
+   104,
+   116,
+   155,
+   115,
+   135,
+   99,
+   97,
+   100,
+   87,
+   80,
+   99,
+   137,
+   140,
+   125,
+   126,
+   102
+  ],
+  "warnings": []
+ }
+}

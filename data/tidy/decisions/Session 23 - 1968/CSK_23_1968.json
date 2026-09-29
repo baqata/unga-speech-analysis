@@ -1,0 +1,102 @@
+{
+ "id": "CSK_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  20,
+  29,
+  37,
+  40,
+  46,
+  49,
+  55,
+  58,
+  65,
+  69,
+  72,
+  79,
+  83,
+  88,
+  97,
+  110,
+  114,
+  117,
+  127,
+  133,
+  144,
+  148
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "founding.",
+   "founding",
+   "ocr"
+  ],
+  [
+   13,
+   "therefore. an",
+   "therefore an",
+   "ocr"
+  ],
+  [
+   14,
+   "reg:set",
+   "regret",
+   "ocr"
+  ],
+  [
+   130,
+   " [see resolution 2200A(XXI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "51dacaa012dca3dae103c5151732131daccad574",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3602,
+  "words_out": 3560,
+  "retention": 0.9883,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   112,
+   227,
+   116,
+   221,
+   173,
+   85,
+   148,
+   92,
+   118,
+   66,
+   127,
+   151,
+   159,
+   109,
+   86,
+   148,
+   206,
+   260,
+   88,
+   56,
+   232,
+   143,
+   243,
+   106,
+   88
+  ],
+  "warnings": []
+ }
+}

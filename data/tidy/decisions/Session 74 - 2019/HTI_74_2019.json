@@ -1,0 +1,83 @@
+{
+ "id": "HTI_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  15,
+  18,
+  22,
+  28,
+  33,
+  38,
+  45,
+  48,
+  50,
+  54,
+  60,
+  64,
+  66,
+  67
+ ],
+ "cer": [
+  0,
+  66
+ ],
+ "fix": [
+  [
+   6,
+   "seventy- fifth",
+   "seventy-fifth",
+   "hyphen"
+  ],
+  [
+   10,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   41,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5510a4bc80aabbd1a0cd2fc989dfc26a68edb1ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2044,
+  "words_out": 2041,
+  "retention": 0.9985,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   86,
+   195,
+   158,
+   80,
+   85,
+   93,
+   139,
+   125,
+   114,
+   170,
+   101,
+   108,
+   122,
+   176,
+   142,
+   69,
+   46,
+   32
+  ],
+  "warnings": []
+ }
+}

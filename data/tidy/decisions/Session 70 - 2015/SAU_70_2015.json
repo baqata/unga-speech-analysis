@@ -1,0 +1,45 @@
+{
+ "id": "SAU_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  20,
+  24,
+  28,
+  32,
+  36
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "da807ec11b77181fbf53f60e9a3e5663620f8f54",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1097,
+  "words_out": 1095,
+  "retention": 0.9982,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   169,
+   147,
+   161,
+   173,
+   98,
+   140,
+   74,
+   68,
+   65
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "id": "ARG_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  11,
+  18,
+  23,
+  27,
+  33,
+  36,
+  42,
+  49,
+  52,
+  55,
+  59,
+  64,
+  70,
+  74,
+  80,
+  88,
+  92,
+  94,
+  98,
+  103,
+  107,
+  111,
+  113,
+  117,
+  122,
+  124
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "Mr, President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   70,
+   "are^ hindered",
+   "are hindered",
+   "encoding"
+  ],
+  [
+   111,
+   "sin die",
+   "sine die",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5850260885e1044c66d8367c6762a3145c9ff0b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 51
+  },
+  "words_in": 3243,
+  "words_out": 3240,
+  "retention": 0.9991,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   66,
+   66,
+   141,
+   163,
+   117,
+   108,
+   125,
+   104,
+   138,
+   172,
+   61,
+   97,
+   109,
+   116,
+   123,
+   136,
+   160,
+   143,
+   100,
+   67,
+   97,
+   113,
+   95,
+   121,
+   113,
+   88,
+   107,
+   56,
+   138
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "id": "MDG_28_1973",
+ "drop": [
+  [
+   107,
+   107,
+   "noise"
+  ],
+  [
+   135,
+   135,
+   "noise"
+  ],
+  [
+   137,
+   137,
+   "noise"
+  ],
+  [
+   188,
+   188,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  17,
+  25,
+  27,
+  31,
+  33,
+  37,
+  41,
+  43,
+  50,
+  54,
+  57,
+  61,
+  65,
+  69,
+  72,
+  74,
+  76,
+  80,
+  85,
+  89,
+  99,
+  105,
+  108,
+  114,
+  119,
+  121,
+  124,
+  126,
+  129,
+  131,
+  136,
+  141,
+  144,
+  151,
+  156,
+  159,
+  163,
+  171,
+  174,
+  177,
+  179,
+  181,
+  182,
+  185
+ ],
+ "cer": [
+  182,
+  185
+ ],
+ "fix": [
+  [
+   182,
+   "0 temporal",
+   "O temporal",
+   "ocr"
+  ],
+  [
+   49,
+   "is-without",
+   "is without",
+   "ocr"
+  ],
+  [
+   52,
+   "Rademacber",
+   "Rademacher",
+   "ocr"
+  ],
+  [
+   53,
+   "Madagascar, At",
+   "Madagascar. At",
+   "ocr"
+  ],
+  [
+   64,
+   "world, Thus",
+   "world. Thus",
+   "ocr"
+  ],
+  [
+   72,
+   "truth, It",
+   "truth. It",
+   "ocr"
+  ],
+  [
+   81,
+   "1973,7 but",
+   "1973, but",
+   "ocr"
+  ],
+  [
+   88,
+   "arc achieved",
+   "are achieved",
+   "ocr"
+  ],
+  [
+   88,
+   "illusory,",
+   "illusory.",
+   "ocr"
+  ],
+  [
+   115,
+   "war.8 But",
+   "war. But",
+   "ocr"
+  ],
+  [
+   123,
+   "direct of indirect",
+   "direct or indirect",
+   "ocr"
+  ],
+  [
+   133,
+   "Islands, It",
+   "Islands. It",
+   "ocr"
+  ],
+  [
+   138,
+   "only .legitimate",
+   "only legitimate",
+   "ocr"
+  ],
+  [
+   155,
+   "sense,",
+   "sense.",
+   "ocr"
+  ],
+  [
+   176,
+   "blocs, That",
+   "blocs. That",
+   "ocr"
+  ],
+  [
+   184,
+   "179: ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d997a9d578be0d620be625ebfc0539189cba6a16",
+ "layout": "lines",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {
+   "noise": 4
+  },
+  "prestrip": {
+   "paragraph_number": 76
+  },
+  "words_in": 5832,
+  "words_out": 5827,
+  "retention": 0.9991,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   253,
+   112,
+   159,
+   74,
+   74,
+   92,
+   84,
+   118,
+   146,
+   160,
+   106,
+   101,
+   106,
+   135,
+   136,
+   88,
+   114,
+   81,
+   89,
+   195,
+   217,
+   186,
+   134,
+   62,
+   234,
+   147,
+   74,
+   123,
+   164,
+   115,
+   62,
+   99,
+   184,
+   74,
+   159,
+   120,
+   91,
+   117,
+   143,
+   92,
+   86,
+   79,
+   299,
+   45,
+   120,
+   178
+  ],
+  "warnings": []
+ }
+}

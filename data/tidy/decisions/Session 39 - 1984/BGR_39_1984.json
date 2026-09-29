@@ -1,0 +1,92 @@
+{
+ "id": "BGR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  17,
+  21,
+  26,
+  31,
+  35,
+  39,
+  44,
+  49,
+  55,
+  60,
+  63,
+  67,
+  70,
+  74,
+  78,
+  80,
+  82,
+  85,
+  90
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   45,
+   "weapons m Europe",
+   "weapons in Europe",
+   "ocr"
+  ],
+  [
+   70,
+   "stability md co-operation",
+   "stability and co-operation",
+   "ocr"
+  ],
+  [
+   77,
+   "other intentional forums",
+   "other international forums",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12eba27fabd041da16bef5802032ee52b3a5c9cf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2703,
+  "words_out": 2702,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   233,
+   126,
+   153,
+   98,
+   122,
+   100,
+   138,
+   121,
+   159,
+   169,
+   164,
+   102,
+   72,
+   86,
+   119,
+   110,
+   135,
+   84,
+   76,
+   153,
+   92
+  ],
+  "warnings": []
+ }
+}

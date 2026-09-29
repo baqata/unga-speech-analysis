@@ -1,0 +1,118 @@
+{
+ "id": "TUR_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  22,
+  29,
+  34,
+  48,
+  50,
+  55,
+  61,
+  64,
+  72,
+  77,
+  79,
+  85,
+  89,
+  95,
+  103,
+  106,
+  111,
+  113,
+  115
+ ],
+ "cer": [
+  0,
+  6,
+  113
+ ],
+ "fix": [
+  [
+   29,
+   " [resolution 2131(XX)]",
+   "",
+   "label"
+  ],
+  [
+   44,
+   " [2129(XX)]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "indeed, all too many",
+   "Indeed, all too many",
+   "ocr"
+  ],
+  [
+   52,
+   "available. incidents",
+   "available. Incidents",
+   "ocr"
+  ],
+  [
+   56,
+   " [242(1967)]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   " [2372(XXII)]",
+   "",
+   "label"
+  ],
+  [
+   93,
+   " [resolution 2373(XXII)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4cfdea68ea6e41664bf4d9207ec7b42fc7b6693a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2520,
+  "words_out": 2482,
+  "retention": 0.9849,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   105,
+   67,
+   113,
+   157,
+   133,
+   85,
+   279,
+   69,
+   116,
+   119,
+   93,
+   113,
+   134,
+   55,
+   154,
+   104,
+   105,
+   90,
+   69,
+   82,
+   65,
+   43,
+   132
+  ],
+  "warnings": []
+ }
+}

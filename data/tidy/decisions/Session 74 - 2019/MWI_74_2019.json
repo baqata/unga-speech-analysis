@@ -1,0 +1,74 @@
+{
+ "id": "MWI_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  23,
+  28,
+  36,
+  43,
+  54,
+  62,
+  75,
+  81,
+  85,
+  90,
+  99,
+  107,
+  117,
+  123,
+  129,
+  136,
+  140
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   44,
+   "worst- affected",
+   "worst-affected",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "689f2bfa1b70327ea9b5a922cc4b9979b4f4c352",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2514,
+  "words_out": 2513,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   134,
+   80,
+   165,
+   87,
+   121,
+   107,
+   182,
+   104,
+   230,
+   108,
+   65,
+   86,
+   135,
+   116,
+   116,
+   108,
+   128,
+   121,
+   65,
+   255
+  ],
+  "warnings": []
+ }
+}

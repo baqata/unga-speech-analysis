@@ -1,0 +1,92 @@
+{
+ "id": "TUR_05_1950",
+ "drop": [
+  [
+   36,
+   36,
+   "noise"
+  ],
+  [
+   40,
+   40,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  12,
+  17,
+  19,
+  23,
+  25,
+  30,
+  34,
+  37,
+  41,
+  44,
+  48,
+  53,
+  56,
+  60,
+  62,
+  69
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "extremely Important",
+   "extremely important",
+   "ocr"
+  ],
+  [
+   21,
+   "nigh sense",
+   "high sense",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 36 and 40 are leftover paragraph numbers (56., 57.) that apply does not remove here, so they are dropped.",
+ "unitizer_version": 1,
+ "sha1": "3dc58d167e9adce391d7e40dc7d572624a0af534",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 22
+  },
+  "words_in": 2128,
+  "words_out": 2126,
+  "retention": 0.9991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   125,
+   156,
+   121,
+   115,
+   65,
+   172,
+   112,
+   108,
+   156,
+   94,
+   70,
+   87,
+   106,
+   110,
+   88,
+   139,
+   68,
+   144,
+   90
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "COG_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  9,
+  14,
+  17,
+  20,
+  21,
+  24,
+  30,
+  33,
+  36,
+  38,
+  42,
+  44,
+  45,
+  50,
+  56,
+  59,
+  64,
+  65,
+  68,
+  74,
+  78,
+  82,
+  84,
+  87
+ ],
+ "cer": [
+  0,
+  3,
+  8
+ ],
+ "fix": [
+  [
+   3,
+   "ht accomplished",
+   "he accomplished",
+   "ocr"
+  ],
+  [
+   4,
+   "J Thant",
+   "U Thant",
+   "ocr"
+  ],
+  [
+   11,
+   "lias",
+   "has",
+   "ocr"
+  ],
+  [
+   13,
+   ".the",
+   "the",
+   "ocr"
+  ],
+  [
+   42,
+   ".has",
+   "has",
+   "ocr"
+  ],
+  [
+   45,
+   "which, are",
+   "which are",
+   "ocr"
+  ],
+  [
+   62,
+   "continent,",
+   "continent.",
+   "ocr"
+  ],
+  [
+   68,
+   "*hat",
+   "that",
+   "ocr"
+  ],
+  [
+   82,
+   "order, suffers",
+   "order suffers",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0cc2461d31079579ca6462035138e8c2efe326c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 3653,
+  "words_out": 3647,
+  "retention": 0.9984,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   134,
+   240,
+   45,
+   195,
+   126,
+   103,
+   92,
+   143,
+   196,
+   105,
+   101,
+   139,
+   125,
+   80,
+   66,
+   165,
+   183,
+   108,
+   141,
+   83,
+   182,
+   146,
+   194,
+   143,
+   112,
+   104,
+   196
+  ],
+  "warnings": []
+ }
+}

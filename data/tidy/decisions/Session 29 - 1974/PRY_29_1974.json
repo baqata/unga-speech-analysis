@@ -1,0 +1,200 @@
+{
+ "id": "PRY_29_1974",
+ "drop": [
+  [
+   75,
+   75,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  13,
+  16,
+  20,
+  25,
+  29,
+  32,
+  36,
+  39,
+  45,
+  52,
+  56,
+  60,
+  67,
+  71,
+  78,
+  80,
+  85,
+  91,
+  96,
+  102,
+  106,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "iii this",
+   "in this",
+   "ocr"
+  ],
+  [
+   18,
+   "Jeep disenchantment",
+   "deep disenchantment",
+   "ocr"
+  ],
+  [
+   27,
+   "in-different",
+   "indifferent",
+   "hyphen"
+  ],
+  [
+   29,
+   "those, who",
+   "those who",
+   "ocr"
+  ],
+  [
+   40,
+   "contrary ,",
+   "contrary,",
+   "spacing"
+  ],
+  [
+   48,
+   "dis-armament",
+   "disarmament",
+   "hyphen"
+  ],
+  [
+   55,
+   "because at differences",
+   "because of differences",
+   "ocr"
+  ],
+  [
+   60,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   72,
+   "capita!",
+   "capital",
+   "ocr"
+  ],
+  [
+   77,
+   "Further-more",
+   "Furthermore",
+   "hyphen"
+  ],
+  [
+   84,
+   "re-sources",
+   "resources",
+   "hyphen"
+  ],
+  [
+   90,
+   "in, the",
+   "in the",
+   "ocr"
+  ],
+  [
+   91,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   105,
+   "!74. ",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "177. ",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "seed>",
+   "seed",
+   "ocr"
+  ],
+  [
+   108,
+   "will' be",
+   "will be",
+   "ocr"
+  ],
+  [
+   110,
+   "a, world",
+   "a world",
+   "ocr"
+  ],
+  [
+   110,
+   "well- being",
+   "well-being",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "047e779ae96d7e71202eebf44bf0f508d94b90b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 3345,
+  "words_out": 3339,
+  "retention": 0.9982,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   247,
+   186,
+   72,
+   110,
+   95,
+   97,
+   102,
+   123,
+   79,
+   161,
+   140,
+   143,
+   125,
+   179,
+   145,
+   214,
+   62,
+   225,
+   146,
+   161,
+   145,
+   117,
+   143,
+   122
+  ],
+  "warnings": []
+ }
+}

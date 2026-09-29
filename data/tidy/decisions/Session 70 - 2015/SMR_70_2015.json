@@ -1,0 +1,50 @@
+{
+ "id": "SMR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  17,
+  24,
+  25,
+  30,
+  36,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "675256027107df4fb07b87944c9ef7b34021f6b8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 2
+  },
+  "words_in": 1037,
+  "words_out": 1034,
+  "retention": 0.9971,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   123,
+   82,
+   83,
+   124,
+   122,
+   40,
+   106,
+   146,
+   149,
+   59
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "DJI_48_1993",
+ "drop": [
+  [
+   227,
+   227,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  22,
+  37,
+  50,
+  59,
+  66,
+  77,
+  93,
+  105,
+  124,
+  132,
+  143,
+  162,
+  171,
+  185,
+  201,
+  211,
+  221,
+  230,
+  241,
+  255,
+  263,
+  275
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   53,
+   "existence.The",
+   "existence. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f66979f015dc33a534d7c3e289d94ea2977f9a3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 2392,
+  "words_out": 2384,
+  "retention": 0.9967,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   79,
+   106,
+   133,
+   119,
+   79,
+   57,
+   92,
+   141,
+   106,
+   171,
+   67,
+   100,
+   170,
+   82,
+   130,
+   137,
+   83,
+   81,
+   61,
+   100,
+   105,
+   65,
+   95,
+   25
+  ],
+  "warnings": []
+ }
+}

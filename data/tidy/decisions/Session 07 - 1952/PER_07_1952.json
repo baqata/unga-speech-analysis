@@ -1,0 +1,141 @@
+{
+ "id": "PER_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  15,
+  18,
+  21,
+  25,
+  28,
+  31,
+  39,
+  42,
+  48,
+  55,
+  59,
+  65,
+  70,
+  78,
+  86,
+  89,
+  93
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "hot",
+   "not",
+   "ocr"
+  ],
+  [
+   13,
+   "riot",
+   "not",
+   "ocr"
+  ],
+  [
+   18,
+   "session,",
+   "session",
+   "ocr"
+  ],
+  [
+   19,
+   "function,",
+   "function.",
+   "ocr"
+  ],
+  [
+   23,
+   "Rut",
+   "But",
+   "ocr"
+  ],
+  [
+   48,
+   "she",
+   "the",
+   "ocr"
+  ],
+  [
+   49,
+   "?.",
+   "?",
+   "ocr"
+  ],
+  [
+   52,
+   "is,",
+   "is",
+   "ocr"
+  ],
+  [
+   52,
+   "international-life",
+   "international life",
+   "spacing"
+  ],
+  [
+   68,
+   "hopes,,",
+   "hopes,",
+   "ocr"
+  ],
+  [
+   78,
+   "inevitable",
+   "inevitably",
+   "ocr"
+  ],
+  [
+   79,
+   "lessen",
+   "lesson",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77e0e710f4b55cb7040159fe8077455c4cd9a3e4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 3458,
+  "words_out": 3449,
+  "retention": 0.9974,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   272,
+   192,
+   124,
+   102,
+   205,
+   132,
+   115,
+   115,
+   239,
+   152,
+   163,
+   268,
+   123,
+   193,
+   245,
+   188,
+   238,
+   110,
+   181,
+   92
+  ],
+  "warnings": []
+ }
+}

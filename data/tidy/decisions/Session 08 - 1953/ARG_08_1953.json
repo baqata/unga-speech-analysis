@@ -1,0 +1,105 @@
+{
+ "id": "ARG_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  13,
+  17,
+  22,
+  26,
+  34,
+  38,
+  44,
+  52,
+  59,
+  62,
+  69,
+  71,
+  78,
+  82,
+  85,
+  91,
+  95,
+  102,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "[A/2466 and Add.",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "1]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "Convenant",
+   "Covenant",
+   "ocr"
+  ],
+  [
+   42,
+   "the,",
+   "the",
+   "ocr"
+  ],
+  [
+   54,
+   "lime",
+   "time",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19a3b954c89febe446f343800efcee0fa46630d3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 30
+  },
+  "words_in": 3639,
+  "words_out": 3633,
+  "retention": 0.9984,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   129,
+   69,
+   243,
+   140,
+   228,
+   116,
+   269,
+   149,
+   167,
+   270,
+   213,
+   109,
+   240,
+   75,
+   191,
+   133,
+   116,
+   212,
+   113,
+   239,
+   124,
+   88
+  ],
+  "warnings": []
+ }
+}

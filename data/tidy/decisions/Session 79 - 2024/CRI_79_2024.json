@@ -1,0 +1,51 @@
+{
+ "id": "CRI_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  19,
+  23,
+  27,
+  33,
+  38,
+  40,
+  42,
+  46,
+  53,
+  59
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "28ebf7e088afeff0b56d307f319d181c4e2bef32",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1535,
+  "words_out": 1531,
+  "retention": 0.9974,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   31,
+   128,
+   217,
+   86,
+   84,
+   170,
+   98,
+   87,
+   93,
+   69,
+   204,
+   194,
+   70
+  ],
+  "warnings": []
+ }
+}

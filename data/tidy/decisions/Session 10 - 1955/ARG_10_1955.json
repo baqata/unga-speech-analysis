@@ -1,0 +1,112 @@
+{
+ "id": "ARG_10_1955",
+ "drop": [
+  [
+   40,
+   40,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  12,
+  15,
+  19,
+  22,
+  26,
+  31,
+  35,
+  38,
+  41,
+  44,
+  48,
+  52,
+  55,
+  58,
+  61,
+  64,
+  67,
+  71,
+  74,
+  77,
+  84,
+  88
+ ],
+ "cer": [
+  0,
+  88
+ ],
+ "fix": [
+  [
+   28,
+   "on even",
+   "or even",
+   "ocr"
+  ],
+  [
+   37,
+   "1",
+   "I",
+   "ocr"
+  ],
+  [
+   50,
+   "ever- widening",
+   "ever-widening",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 86 breaks off after a semicolon; text appears to be missing before unit 87.",
+ "unitizer_version": 1,
+ "sha1": "c74704c04e2a75da7b474bd65cf4546907a4014c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 36
+  },
+  "words_in": 3249,
+  "words_out": 3247,
+  "retention": 0.9994,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   62,
+   125,
+   133,
+   155,
+   180,
+   128,
+   122,
+   164,
+   134,
+   194,
+   105,
+   97,
+   113,
+   163,
+   149,
+   97,
+   90,
+   91,
+   64,
+   102,
+   180,
+   104,
+   96,
+   154,
+   177,
+   68
+  ],
+  "warnings": []
+ }
+}

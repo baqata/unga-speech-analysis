@@ -1,0 +1,100 @@
+{
+ "id": "TUV_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  12,
+  16,
+  27,
+  30,
+  33,
+  37,
+  43,
+  47,
+  52,
+  54,
+  59,
+  64,
+  69,
+  71,
+  74,
+  76,
+  82,
+  86,
+  88,
+  94,
+  100,
+  103
+ ],
+ "cer": [
+  4,
+  10,
+  12
+ ],
+ "fix": [
+  [
+   2,
+   "twenty- first century",
+   "twenty-first century",
+   "hyphen"
+  ],
+  [
+   35,
+   "incoastal",
+   "in coastal",
+   "merged_word"
+  ],
+  [
+   39,
+   "twenty- first-century",
+   "twenty-first-century",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c398dbf4c39f46e02cd1b7296cf8ea930dd02477",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2763,
+  "words_out": 2762,
+  "retention": 0.9996,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   132,
+   72,
+   70,
+   47,
+   130,
+   177,
+   133,
+   81,
+   93,
+   112,
+   112,
+   101,
+   116,
+   96,
+   102,
+   117,
+   81,
+   88,
+   93,
+   177,
+   74,
+   80,
+   150,
+   149,
+   60,
+   119
+  ],
+  "warnings": []
+ }
+}

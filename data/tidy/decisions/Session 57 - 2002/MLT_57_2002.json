@@ -1,0 +1,58 @@
+{
+ "id": "MLT_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  40,
+  67,
+  93,
+  116,
+  132,
+  152,
+  173,
+  183,
+  205,
+  234,
+  263,
+  273
+ ],
+ "cer": [
+  0,
+  273
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fa78993264b2f588a72b3389bb659447945d3d65",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 275,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2210,
+  "words_out": 2209,
+  "retention": 0.9995,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   169,
+   146,
+   213,
+   228,
+   189,
+   132,
+   145,
+   167,
+   81,
+   173,
+   234,
+   225,
+   92,
+   15
+  ],
+  "warnings": []
+ }
+}

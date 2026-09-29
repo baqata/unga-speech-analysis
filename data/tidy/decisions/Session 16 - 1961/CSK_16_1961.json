@@ -1,0 +1,346 @@
+{
+ "id": "CSK_16_1961",
+ "drop": [
+  [
+   202,
+   202,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  14,
+  20,
+  22,
+  28,
+  38,
+  41,
+  43,
+  47,
+  50,
+  56,
+  61,
+  66,
+  69,
+  72,
+  76,
+  82,
+  86,
+  90,
+  96,
+  99,
+  104,
+  109,
+  114,
+  117,
+  122,
+  126,
+  134,
+  138,
+  141,
+  147,
+  152,
+  156,
+  161,
+  167,
+  169,
+  173,
+  177,
+  180,
+  185,
+  188,
+  191,
+  198,
+  203,
+  205,
+  210,
+  220,
+  223,
+  232
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "showing . concern",
+   "showing concern",
+   "ocr"
+  ],
+  [
+   6,
+   "affairs. of",
+   "affairs of",
+   "ocr"
+  ],
+  [
+   11,
+   "36.0 ",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "Agreements.!/",
+   "Agreements.",
+   "ocr"
+  ],
+  [
+   31,
+   "policy Of",
+   "policy of",
+   "ocr"
+  ],
+  [
+   47,
+   "revenge- seeking",
+   "revenge-seeking",
+   "hyphen"
+  ],
+  [
+   52,
+   "+.hat:",
+   "that:",
+   "ocr"
+  ],
+  [
+   55,
+   "Attorney- General",
+   "Attorney-General",
+   "hyphen"
+  ],
+  [
+   55,
+   "\" U is",
+   "\" is",
+   "ocr"
+  ],
+  [
+   67,
+   "this- right",
+   "this right",
+   "ocr"
+  ],
+  [
+   73,
+   "pan hurt",
+   "can hurt",
+   "ocr"
+  ],
+  [
+   74,
+   "orate",
+   "create",
+   "ocr"
+  ],
+  [
+   82,
+   " 3/",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "[871st meeting, paragraph 107.]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "the . representatives",
+   "the representatives",
+   "ocr"
+  ],
+  [
+   119,
+   "non- aggression",
+   "non-aggression",
+   "hyphen"
+  ],
+  [
+   122,
+   "Assembly,,",
+   "Assembly,",
+   "ocr"
+  ],
+  [
+   128,
+   "test. '",
+   "test.",
+   "ocr"
+  ],
+  [
+   139,
+   ".the",
+   "the",
+   "ocr"
+  ],
+  [
+   140,
+   "question^",
+   "question",
+   "ocr"
+  ],
+  [
+   142,
+   "the.",
+   "the",
+   "ocr"
+  ],
+  [
+   144,
+   "the^",
+   "the",
+   "ocr"
+  ],
+  [
+   155,
+   "self- government",
+   "self-government",
+   "hyphen"
+  ],
+  [
+   184,
+   "non- aggression",
+   "non-aggression",
+   "hyphen"
+  ],
+  [
+   198,
+   "'demand",
+   "demand",
+   "ocr"
+  ],
+  [
+   209,
+   "of, co-operation",
+   "of co-operation",
+   "ocr"
+  ],
+  [
+   214,
+   " [871st meeting, paragraph 39]",
+   "",
+   "label"
+  ],
+  [
+   215,
+   "so. ostentatiously",
+   "so ostentatiously",
+   "ocr"
+  ],
+  [
+   216,
+   "J lull",
+   "full",
+   "ocr"
+  ],
+  [
+   216,
+   "society*\"",
+   "society\"",
+   "ocr"
+  ],
+  [
+   216,
+   " [Ibid., paragraphs 42 and 43.]",
+   "",
+   "label"
+  ],
+  [
+   219,
+   "[Ibid., paragraph 128.]",
+   "",
+   "label"
+  ],
+  [
+   224,
+   ". country",
+   "country",
+   "ocr"
+  ],
+  [
+   233,
+   "way be",
+   "may be",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a96479d99c0bfc95f9a70072db9a54eaf712752",
+ "layout": "lines",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 90
+  },
+  "words_in": 6753,
+  "words_out": 6717,
+  "retention": 0.9947,
+  "n_paragraphs": 52,
+  "paragraph_words": [
+   137,
+   150,
+   79,
+   110,
+   125,
+   61,
+   165,
+   248,
+   66,
+   75,
+   139,
+   96,
+   178,
+   165,
+   106,
+   68,
+   92,
+   84,
+   163,
+   109,
+   81,
+   109,
+   167,
+   175,
+   133,
+   95,
+   99,
+   181,
+   140,
+   192,
+   119,
+   164,
+   138,
+   170,
+   133,
+   147,
+   95,
+   92,
+   115,
+   104,
+   138,
+   149,
+   91,
+   116,
+   177,
+   162,
+   75,
+   157,
+   248,
+   109,
+   177,
+   53
+  ],
+  "warnings": [
+   "34 fixes"
+  ]
+ }
+}

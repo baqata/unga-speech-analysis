@@ -1,0 +1,79 @@
+{
+ "id": "VEN_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  25,
+  41,
+  58,
+  65,
+  74,
+  88,
+  99,
+  110,
+  125,
+  135,
+  142,
+  153,
+  168,
+  186,
+  196,
+  210,
+  217,
+  226,
+  236
+ ],
+ "cer": [
+  0,
+  217
+ ],
+ "fix": [
+  [
+   78,
+   "Bol'var",
+   "Bolívar",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a6b24edd87b147bde2eb04ef41464522893cbd2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2164,
+  "words_out": 2162,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   65,
+   146,
+   143,
+   157,
+   68,
+   87,
+   126,
+   107,
+   96,
+   131,
+   91,
+   63,
+   90,
+   130,
+   181,
+   83,
+   135,
+   62,
+   81,
+   100,
+   20
+  ],
+  "warnings": []
+ }
+}

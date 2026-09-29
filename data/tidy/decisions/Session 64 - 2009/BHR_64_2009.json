@@ -1,0 +1,57 @@
+{
+ "id": "BHR_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  40,
+  70,
+  81,
+  112,
+  128,
+  153,
+  164,
+  189,
+  213,
+  226,
+  239,
+  262
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c41753941a6979b835f13f5b7090846ed7d01fb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 281,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2179,
+  "words_out": 2175,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   174,
+   127,
+   231,
+   84,
+   249,
+   120,
+   198,
+   81,
+   201,
+   191,
+   95,
+   99,
+   187,
+   138
+  ],
+  "warnings": []
+ }
+}

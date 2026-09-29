@@ -1,0 +1,66 @@
+{
+ "id": "DEU_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  16,
+  24,
+  33,
+  41,
+  51,
+  55,
+  64,
+  70,
+  76,
+  83,
+  88,
+  93,
+  108,
+  112
+ ],
+ "cer": [],
+ "fix": [
+  [
+   77,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7b08180cd43b5117b9745212d47a3c213e155064",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2612,
+  "words_out": 2611,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   77,
+   161,
+   168,
+   173,
+   179,
+   200,
+   236,
+   70,
+   175,
+   116,
+   114,
+   140,
+   120,
+   100,
+   237,
+   105,
+   240
+  ],
+  "warnings": []
+ }
+}

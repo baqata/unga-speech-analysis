@@ -1,0 +1,96 @@
+{
+ "id": "MLT_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  22,
+  29,
+  36,
+  41,
+  48,
+  52,
+  59,
+  63,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "session Which includes",
+   "session which includes",
+   "ocr"
+  ],
+  [
+   11,
+   "interest, of the",
+   "interest of the",
+   "ocr"
+  ],
+  [
+   26,
+   "in- the streets",
+   "in the streets",
+   "hyphen"
+  ],
+  [
+   42,
+   "much than can",
+   "much that can",
+   "ocr"
+  ],
+  [
+   56,
+   "with- greater",
+   "with greater",
+   "hyphen"
+  ],
+  [
+   73,
+   "Malta Was not",
+   "Malta was not",
+   "ocr"
+  ],
+  [
+   75,
+   "voluntary- contribution",
+   "voluntary contribution",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ffff2edfa798061dd90f67a786f73cda110e6731",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 1857,
+  "words_out": 1842,
+  "retention": 0.9919,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   167,
+   148,
+   158,
+   172,
+   158,
+   121,
+   214,
+   98,
+   214,
+   112,
+   153,
+   127
+  ],
+  "warnings": []
+ }
+}

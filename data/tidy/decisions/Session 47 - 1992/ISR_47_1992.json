@@ -1,0 +1,84 @@
+{
+ "id": "ISR_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  17,
+  31,
+  41,
+  54,
+  69,
+  79,
+  95,
+  112,
+  129,
+  139,
+  156,
+  171,
+  194,
+  212,
+  226,
+  239,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   246,
+   " (The Holy Bible. Proverbs 24:3)",
+   "",
+   "label"
+  ],
+  [
+   247,
+   " (The Holy",
+   "",
+   "label"
+  ],
+  [
+   248,
+   "Bible. Proverbs 24:5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c8ab89716c5ee8d46c4e61007d053788140b1ff",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2795,
+  "words_out": 2785,
+  "retention": 0.9964,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   47,
+   144,
+   145,
+   108,
+   162,
+   189,
+   98,
+   175,
+   203,
+   193,
+   112,
+   170,
+   177,
+   207,
+   208,
+   159,
+   141,
+   94,
+   53
+  ],
+  "warnings": []
+ }
+}

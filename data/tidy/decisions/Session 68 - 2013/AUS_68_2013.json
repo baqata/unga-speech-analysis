@@ -1,0 +1,78 @@
+{
+ "id": "AUS_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  37,
+  54,
+  65,
+  91,
+  104,
+  114,
+  131,
+  139,
+  167,
+  179,
+  189,
+  203,
+  210,
+  220
+ ],
+ "cer": [],
+ "fix": [
+  [
+   50,
+   "third",
+   "third-",
+   "hyphen"
+  ],
+  [
+   51,
+   "-largest",
+   "largest",
+   "hyphen"
+  ],
+  [
+   113,
+   " (see A/PV.183)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6cc9611d46477dc5f56a242c51491ad0d8f60eaf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1834,
+  "words_out": 1827,
+  "retention": 0.9962,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   126,
+   84,
+   86,
+   138,
+   86,
+   202,
+   104,
+   83,
+   126,
+   62,
+   235,
+   94,
+   79,
+   103,
+   55,
+   85,
+   79
+  ],
+  "warnings": []
+ }
+}

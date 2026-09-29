@@ -1,0 +1,108 @@
+{
+ "id": "BHS_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  31,
+  52,
+  60,
+  75,
+  91,
+  103,
+  115,
+  125,
+  138,
+  149,
+  159,
+  175,
+  193,
+  214,
+  230,
+  248
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   71,
+   "today?s",
+   "today’s",
+   "encoding"
+  ],
+  [
+   114,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   186,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   194,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   216,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   226,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   233,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9f2b345c236aa14244ef9ab5eca55c36797821c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 258,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2098,
+  "words_out": 2096,
+  "retention": 0.999,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   89,
+   153,
+   164,
+   68,
+   124,
+   148,
+   108,
+   89,
+   81,
+   107,
+   95,
+   82,
+   125,
+   139,
+   164,
+   125,
+   153,
+   82
+  ],
+  "warnings": []
+ }
+}

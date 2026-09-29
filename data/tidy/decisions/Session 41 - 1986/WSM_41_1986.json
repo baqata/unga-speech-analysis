@@ -1,0 +1,117 @@
+{
+ "id": "WSM_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  17,
+  23,
+  32,
+  39,
+  40,
+  44,
+  50,
+  52,
+  55,
+  59,
+  64,
+  67,
+  70,
+  73,
+  79,
+  83
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "Banqladesh",
+   "Bangladesh",
+   "ocr"
+  ],
+  [
+   12,
+   "makinq",
+   "making",
+   "ocr"
+  ],
+  [
+   25,
+   "coMunity",
+   "community",
+   "ocr"
+  ],
+  [
+   31,
+   "eight-poi*.",
+   "eight-point",
+   "ocr"
+  ],
+  [
+   35,
+   "process hae",
+   "process has",
+   "ocr"
+  ],
+  [
+   39,
+   "ther-a are",
+   "there are",
+   "ocr"
+  ],
+  [
+   53,
+   "I.ester",
+   "Lester",
+   "ocr"
+  ],
+  [
+   56,
+   "activity.All of out",
+   "activity. All of our",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "45be5e8dafffb97bda267e132c8ec8bf8bee5c01",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2236,
+  "words_out": 2237,
+  "retention": 1.0004,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   60,
+   46,
+   126,
+   184,
+   106,
+   245,
+   141,
+   54,
+   129,
+   101,
+   65,
+   77,
+   141,
+   169,
+   131,
+   88,
+   92,
+   167,
+   85,
+   30
+  ],
+  "warnings": []
+ }
+}

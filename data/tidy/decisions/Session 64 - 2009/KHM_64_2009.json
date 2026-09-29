@@ -1,0 +1,84 @@
+{
+ "id": "KHM_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  20,
+  32,
+  46,
+  56,
+  68,
+  84,
+  104,
+  114,
+  125,
+  138,
+  147,
+  165,
+  187,
+  200,
+  211,
+  226
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   182,
+   "()",
+   "",
+   "label"
+  ],
+  [
+   185,
+   "(Security Council resolution 1887",
+   "",
+   "label"
+  ],
+  [
+   186,
+   "(2009), first preambular paragraph)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "522514f5f901492927ee3474f685122778fd4e8f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 239,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1856,
+  "words_out": 1844,
+  "retention": 0.9935,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   84,
+   61,
+   92,
+   108,
+   74,
+   86,
+   129,
+   136,
+   77,
+   86,
+   106,
+   75,
+   143,
+   148,
+   108,
+   94,
+   120,
+   117
+  ],
+  "warnings": []
+ }
+}

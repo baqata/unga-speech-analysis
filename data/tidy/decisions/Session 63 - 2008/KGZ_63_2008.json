@@ -1,0 +1,43 @@
+{
+ "id": "KGZ_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  28,
+  45,
+  67,
+  95,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bdfd23602dd79674a7437dc7bed5737ad7296671",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 991,
+  "words_out": 991,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   55,
+   153,
+   136,
+   175,
+   214,
+   168,
+   90
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "BLR_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  32,
+  47,
+  55,
+  69,
+  85,
+  97,
+  106,
+  116,
+  131,
+  149,
+  169,
+  189,
+  204,
+  218,
+  228,
+  245,
+  259,
+  269,
+  290,
+  302,
+  316
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir -",
+   "you, Sir -",
+   "ocr"
+  ],
+  [
+   10,
+   "since .the",
+   "since the",
+   "ocr"
+  ],
+  [
+   70,
+   "interaction.*",
+   "interaction.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9688edbe22c4361f1d5b88f09e494628e45de71a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 327,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3750,
+  "words_out": 3750,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   148,
+   221,
+   185,
+   81,
+   163,
+   188,
+   148,
+   111,
+   105,
+   178,
+   209,
+   224,
+   234,
+   159,
+   150,
+   124,
+   198,
+   155,
+   119,
+   241,
+   135,
+   157,
+   117
+  ],
+  "warnings": []
+ }
+}

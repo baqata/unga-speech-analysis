@@ -1,0 +1,107 @@
+{
+ "id": "YMD_30_1975",
+ "drop": [
+  [
+   9,
+   9,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  15,
+  18,
+  20,
+  23,
+  26,
+  31,
+  35,
+  37,
+  40,
+  44,
+  46,
+  49,
+  52
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   2,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   5,
+   "not- too-distant",
+   "not-too-distant",
+   "hyphen"
+  ],
+  [
+   15,
+   "down-fall",
+   "downfall",
+   "hyphen"
+  ],
+  [
+   28,
+   "Mean-while",
+   "Meanwhile",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7e6beaf0d33f46e241475efeab591072fe5d1ab4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 1813,
+  "words_out": 1800,
+  "retention": 0.9928,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   144,
+   92,
+   118,
+   90,
+   73,
+   152,
+   103,
+   112,
+   124,
+   116,
+   119,
+   64,
+   107,
+   97,
+   68,
+   88,
+   83,
+   50
+  ],
+  "warnings": [
+   "procedural drop [9,9] in the middle of the speech"
+  ]
+ }
+}

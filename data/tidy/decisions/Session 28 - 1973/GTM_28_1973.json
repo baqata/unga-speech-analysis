@@ -1,0 +1,80 @@
+{
+ "id": "GTM_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  11,
+  13,
+  17,
+  19,
+  21,
+  23,
+  27,
+  32,
+  36,
+  38,
+  41,
+  44,
+  46,
+  51,
+  54,
+  56,
+  61,
+  63
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   16,
+   " [A/9191]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "47b1d572243a4a1839a6120f6219f2b8ae11f52d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 2343,
+  "words_out": 2342,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   83,
+   110,
+   163,
+   82,
+   177,
+   92,
+   70,
+   101,
+   117,
+   135,
+   171,
+   74,
+   88,
+   93,
+   71,
+   162,
+   70,
+   72,
+   181,
+   88,
+   142
+  ],
+  "warnings": []
+ }
+}

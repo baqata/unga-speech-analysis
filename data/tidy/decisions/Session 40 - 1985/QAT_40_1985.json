@@ -1,0 +1,151 @@
+{
+ "id": "QAT_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  8,
+  9,
+  11,
+  15,
+  18,
+  22,
+  25,
+  28,
+  29,
+  30,
+  32,
+  34,
+  39,
+  41,
+  45,
+  48,
+  51,
+  56,
+  60,
+  62,
+  66
+ ],
+ "cer": [
+  0,
+  4,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   0,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   3,
+   "It cWes me",
+   "It gives me",
+   "ocr"
+  ],
+  [
+   5,
+   "role of the united Nations",
+   "role of the United Nations",
+   "ocr"
+  ],
+  [
+   9,
+   "with cur readiness",
+   "with our readiness",
+   "ocr"
+  ],
+  [
+   18,
+   "of united Nations decisions",
+   "of United Nations decisions",
+   "ocr"
+  ],
+  [
+   22,
+   "no natter",
+   "no matter",
+   "ocr"
+  ],
+  [
+   24,
+   "the west Bank",
+   "the West Bank",
+   "ocr"
+  ],
+  [
+   45,
+   "major concerns, we sincerely",
+   "major concerns. We sincerely",
+   "ocr"
+  ],
+  [
+   47,
+   "South west Africa",
+   "South West Africa",
+   "ocr"
+  ],
+  [
+   50,
+   "people of south Africa",
+   "people of South Africa",
+   "ocr"
+  ],
+  [
+   51,
+   "the two leaders.",
+   "the two leaders,",
+   "ocr"
+  ],
+  [
+   55,
+   "agree oil just",
+   "agree on just",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9b9334ff8e967e43282cf6bbbcce17f5f02feec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2464,
+  "words_out": 2464,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   156,
+   24,
+   94,
+   44,
+   71,
+   142,
+   105,
+   161,
+   101,
+   109,
+   82,
+   53,
+   66,
+   98,
+   204,
+   100,
+   135,
+   121,
+   109,
+   115,
+   103,
+   82,
+   151,
+   38
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "COM_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  27,
+  38,
+  56,
+  73,
+  87,
+  111,
+  128,
+  162,
+  184,
+  214,
+  232,
+  246,
+  261,
+  277,
+  284
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   261,
+   "2l",
+   "21",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "73555fefe44b75e71831bbfad6f6f3239d10eec7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2454,
+  "words_out": 2451,
+  "retention": 0.9988,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   95,
+   118,
+   86,
+   156,
+   141,
+   115,
+   196,
+   144,
+   272,
+   185,
+   245,
+   150,
+   110,
+   134,
+   124,
+   63,
+   117
+  ],
+  "warnings": []
+ }
+}

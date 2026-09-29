@@ -1,0 +1,241 @@
+{
+ "id": "ESP_16_1961",
+ "drop": [
+  [
+   117,
+   117,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  12,
+  15,
+  20,
+  25,
+  28,
+  34,
+  40,
+  45,
+  51,
+  54,
+  61,
+  65,
+  70,
+  72,
+  79,
+  85,
+  89,
+  98,
+  102,
+  113,
+  125,
+  131,
+  138,
+  147,
+  148,
+  154,
+  159,
+  161,
+  170,
+  173,
+  176,
+  183,
+  189,
+  191,
+  194,
+  198,
+  206,
+  213,
+  219,
+  226,
+  229
+ ],
+ "cer": [
+  0,
+  6,
+  12
+ ],
+ "fix": [
+  [
+   8,
+   "unchanged, He",
+   "unchanged. He",
+   "ocr"
+  ],
+  [
+   30,
+   ".international",
+   "international",
+   "ocr"
+  ],
+  [
+   36,
+   "it Is",
+   "it is",
+   "ocr"
+  ],
+  [
+   42,
+   "part-As",
+   "part. As",
+   "ocr"
+  ],
+  [
+   54,
+   "refuge In",
+   "refuge in",
+   "ocr"
+  ],
+  [
+   66,
+   "it Is",
+   "it is",
+   "ocr"
+  ],
+  [
+   86,
+   "of -the",
+   "of the",
+   "ocr"
+  ],
+  [
+   88,
+   "it Is",
+   "it is",
+   "ocr"
+  ],
+  [
+   104,
+   "always In",
+   "always in",
+   "ocr"
+  ],
+  [
+   119,
+   "praiseworthy-courage",
+   "praiseworthy courage",
+   "ocr"
+  ],
+  [
+   120,
+   "past..",
+   "past.",
+   "ocr"
+  ],
+  [
+   124,
+   "defence,",
+   "defence.",
+   "ocr"
+  ],
+  [
+   129,
+   "communism, Because",
+   "communism. Because",
+   "ocr"
+  ],
+  [
+   156,
+   "ii there",
+   "is there",
+   "ocr"
+  ],
+  [
+   170,
+   "we' see",
+   "we see",
+   "ocr"
+  ],
+  [
+   174,
+   "Menfindez",
+   "Menéndez",
+   "ocr"
+  ],
+  [
+   183,
+   "43, ",
+   "",
+   "label"
+  ],
+  [
+   187,
+   "written In",
+   "written in",
+   "ocr"
+  ],
+  [
+   188,
+   "discrimination,\"",
+   "discrimination.\"",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27811d702df72248db8afea4a5669c2c67d9f516",
+ "layout": "lines",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 35
+  },
+  "words_in": 6657,
+  "words_out": 6642,
+  "retention": 0.9977,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   237,
+   184,
+   146,
+   177,
+   151,
+   92,
+   179,
+   241,
+   170,
+   105,
+   132,
+   204,
+   81,
+   149,
+   62,
+   228,
+   78,
+   137,
+   237,
+   85,
+   250,
+   232,
+   203,
+   252,
+   209,
+   67,
+   101,
+   102,
+   88,
+   225,
+   103,
+   143,
+   232,
+   204,
+   68,
+   82,
+   83,
+   158,
+   227,
+   119,
+   195,
+   75,
+   149
+  ],
+  "warnings": []
+ }
+}

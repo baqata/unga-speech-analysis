@@ -1,0 +1,49 @@
+{
+ "id": "DMA_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  29,
+  49,
+  66,
+  81,
+  102,
+  111,
+  126,
+  143
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "51dbff90cfbb41f736612997d6b6c86c90005b8a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1244,
+  "words_out": 1244,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   114,
+   132,
+   164,
+   137,
+   118,
+   163,
+   81,
+   133,
+   155,
+   47
+  ],
+  "warnings": []
+ }
+}

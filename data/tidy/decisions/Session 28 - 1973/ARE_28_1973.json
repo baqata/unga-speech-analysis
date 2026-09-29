@@ -1,0 +1,103 @@
+{
+ "id": "ARE_28_1973",
+ "drop": [
+  [
+   62,
+   62,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  12,
+  18,
+  29,
+  30,
+  34,
+  43,
+  49,
+  53,
+  59,
+  61,
+  66,
+  71,
+  76,
+  80,
+  88
+ ],
+ "cer": [
+  0,
+  88
+ ],
+ "fix": [
+  [
+   1,
+   "\" of peace",
+   "of peace",
+   "ocr"
+  ],
+  [
+   47,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   58,
+   ",, attained",
+   "attained",
+   "ocr"
+  ],
+  [
+   77,
+   "' changing",
+   "changing",
+   "ocr"
+  ],
+  [
+   76,
+   " [A/9001/Add 1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efcda2d18cc888736fb62afbde750b6b283c9f70",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2446,
+  "words_out": 2439,
+  "retention": 0.9971,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   148,
+   176,
+   184,
+   220,
+   68,
+   97,
+   261,
+   153,
+   121,
+   133,
+   63,
+   117,
+   170,
+   201,
+   106,
+   175,
+   46
+  ],
+  "warnings": []
+ }
+}

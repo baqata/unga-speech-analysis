@@ -1,0 +1,56 @@
+{
+ "id": "DZA_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  44,
+  69,
+  90,
+  110,
+  125,
+  161,
+  202,
+  226,
+  246
+ ],
+ "cer": [],
+ "fix": [
+  [
+   136,
+   "R'o",
+   "Río",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "10e682f5d5a43bc015daa7061bfa38dcb3ca5f22",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 281,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2187,
+  "words_out": 2185,
+  "retention": 0.9991,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   169,
+   156,
+   201,
+   161,
+   155,
+   131,
+   294,
+   297,
+   179,
+   165,
+   277
+  ],
+  "warnings": []
+ }
+}

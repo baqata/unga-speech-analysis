@@ -1,0 +1,62 @@
+{
+ "id": "DNK_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  21,
+  24,
+  32,
+  37,
+  44,
+  49,
+  55,
+  57,
+  59
+ ],
+ "cer": [
+  57
+ ],
+ "fix": [
+  [
+   17,
+   "product on",
+   "production",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "853232d206637addedfc4775ea09b718928769f5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1821,
+  "words_out": 1820,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   205,
+   177,
+   102,
+   178,
+   84,
+   206,
+   105,
+   214,
+   168,
+   187,
+   59,
+   74,
+   61
+  ],
+  "warnings": []
+ }
+}

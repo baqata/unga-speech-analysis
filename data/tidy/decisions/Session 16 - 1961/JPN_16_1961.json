@@ -1,0 +1,275 @@
+{
+ "id": "JPN_16_1961",
+ "drop": [
+  [
+   41,
+   42,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  10,
+  11,
+  16,
+  23,
+  29,
+  34,
+  39,
+  47,
+  52,
+  57,
+  64,
+  68,
+  77,
+  83,
+  87,
+  91,
+  96,
+  100,
+  105,
+  110,
+  116,
+  120,
+  124,
+  127,
+  133,
+  135,
+  137,
+  143
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   8,
+   "self- sacrifice",
+   "self-sacrifice",
+   "hyphen"
+  ],
+  [
+   14,
+   "It has",
+   "it has",
+   "ocr"
+  ],
+  [
+   17,
+   "tile",
+   "the",
+   "ocr"
+  ],
+  [
+   28,
+   "displays- of",
+   "displays of",
+   "ocr"
+  ],
+  [
+   32,
+   ".world",
+   "world",
+   "ocr"
+  ],
+  [
+   36,
+   "four- Power",
+   "four-Power",
+   "hyphen"
+  ],
+  [
+   36,
+   " W",
+   "",
+   "ocr"
+  ],
+  [
+   37,
+   "gestured, There",
+   "gestures. There",
+   "ocr"
+  ],
+  [
+   51,
+   "self-respect,",
+   "self-respect.",
+   "ocr"
+  ],
+  [
+   58,
+   "in~ dispensable",
+   "indispensable",
+   "ocr"
+  ],
+  [
+   60,
+   "Ten- Nation",
+   "Ten-Nation",
+   "hyphen"
+  ],
+  [
+   65,
+   "Is impracticable",
+   "is impracticable",
+   "ocr"
+  ],
+  [
+   66,
+   "connexion/",
+   "connexion",
+   "ocr"
+  ],
+  [
+   67,
+   "the/33",
+   "these",
+   "ocr"
+  ],
+  [
+   68,
+   ",j.*eat",
+   "great",
+   "ocr"
+  ],
+  [
+   75,
+   "Seeing",
+   "seeing",
+   "ocr"
+  ],
+  [
+   75,
+   "Own",
+   "own",
+   "ocr"
+  ],
+  [
+   75,
+   "expression?",
+   "expression",
+   "ocr"
+  ],
+  [
+   78,
+   "self- interest",
+   "self-interest",
+   "hyphen"
+  ],
+  [
+   84,
+   "ah indispensable",
+   "an indispensable",
+   "ocr"
+  ],
+  [
+   85,
+   "International co-operation",
+   "international co-operation",
+   "ocr"
+  ],
+  [
+   99,
+   "cc-operate",
+   "co-operate",
+   "ocr"
+  ],
+  [
+   99,
+   "*with",
+   "with",
+   "ocr"
+  ],
+  [
+   103,
+   "order*",
+   "order",
+   "ocr"
+  ],
+  [
+   104,
+   "aw*",
+   "and",
+   "ocr"
+  ],
+  [
+   107,
+   "Will respond",
+   "will respond",
+   "ocr"
+  ],
+  [
+   122,
+   "among - Members",
+   "among Members",
+   "ocr"
+  ],
+  [
+   128,
+   "the'",
+   "the",
+   "ocr"
+  ],
+  [
+   137,
+   "Members*",
+   "Members",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 41-42 are a footnote printed inside the text and are dropped.",
+ "unitizer_version": 1,
+ "sha1": "e2dab206ec0e865359ffa370be6eade7ae44a15e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3791,
+  "words_out": 3699,
+  "retention": 0.9757,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   140,
+   124,
+   66,
+   126,
+   123,
+   132,
+   149,
+   104,
+   140,
+   112,
+   114,
+   131,
+   154,
+   203,
+   174,
+   90,
+   102,
+   123,
+   117,
+   101,
+   159,
+   162,
+   107,
+   110,
+   78,
+   125,
+   69,
+   97,
+   145,
+   122
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

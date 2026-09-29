@@ -1,0 +1,77 @@
+{
+ "id": "MDG_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  18,
+  23,
+  26,
+  31,
+  35,
+  40,
+  43,
+  47,
+  50,
+  53,
+  58,
+  61,
+  64,
+  67
+ ],
+ "cer": [
+  0,
+  67
+ ],
+ "fix": [
+  [
+   42,
+   "Low- carbon",
+   "Low-carbon",
+   "hyphen"
+  ],
+  [
+   65,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a4f23f73195889bbb34924e3868872e65b4086f3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1855,
+  "words_out": 1853,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   151,
+   117,
+   93,
+   159,
+   155,
+   82,
+   121,
+   115,
+   96,
+   80,
+   78,
+   82,
+   66,
+   97,
+   123,
+   114,
+   59,
+   65
+  ],
+  "warnings": []
+ }
+}

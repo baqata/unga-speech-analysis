@@ -1,0 +1,76 @@
+{
+ "id": "LVA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  11,
+  18,
+  22,
+  27,
+  30,
+  34,
+  41,
+  46,
+  55,
+  59,
+  64,
+  71,
+  75,
+  79,
+  85,
+  91
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   79,
+   "conflict- related",
+   "conflict-related",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1418822d5b4096dad5214bf08b5c40d1bc8c952",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1893,
+  "words_out": 1891,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   53,
+   98,
+   146,
+   82,
+   63,
+   86,
+   105,
+   132,
+   110,
+   134,
+   76,
+   149,
+   138,
+   58,
+   97,
+   118,
+   135,
+   111
+  ],
+  "warnings": []
+ }
+}

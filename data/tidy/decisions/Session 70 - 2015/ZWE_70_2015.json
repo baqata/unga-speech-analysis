@@ -1,0 +1,83 @@
+{
+ "id": "ZWE_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  13,
+  17,
+  21,
+  27,
+  30,
+  36,
+  39,
+  45,
+  49,
+  52,
+  55,
+  57,
+  62,
+  71
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   8,
+   "socio- economic",
+   "socio-economic",
+   "hyphen"
+  ],
+  [
+   14,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   20,
+   "over- dependence",
+   "over-dependence",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ef189bf2d8da49c1dc5761935dfd2a510ac6c63",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1737,
+  "words_out": 1734,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   74,
+   51,
+   122,
+   115,
+   121,
+   94,
+   153,
+   82,
+   116,
+   54,
+   92,
+   97,
+   66,
+   76,
+   71,
+   116,
+   149,
+   85
+  ],
+  "warnings": []
+ }
+}

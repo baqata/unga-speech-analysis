@@ -1,0 +1,86 @@
+{
+ "id": "BHR_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  16,
+  20,
+  23,
+  26,
+  30,
+  35,
+  40,
+  46,
+  49,
+  52,
+  56,
+  61,
+  65,
+  68,
+  72,
+  75,
+  81,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Six,",
+   "Sir,",
+   "ocr"
+  ],
+  [
+   10,
+   "intensifies",
+   "intensified",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fde386b25babb15dc9d50aa4c7011112fdbbaeea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3022,
+  "words_out": 3021,
+  "retention": 0.9997,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   186,
+   112,
+   158,
+   117,
+   174,
+   95,
+   133,
+   148,
+   142,
+   127,
+   187,
+   105,
+   172,
+   145,
+   148,
+   126,
+   116,
+   115,
+   104,
+   166,
+   126,
+   119
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "IRL_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   133,
+   133,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  16,
+  21,
+  25,
+  36,
+  42,
+  49,
+  58,
+  71,
+  79,
+  87,
+  94,
+  102,
+  109,
+  117,
+  123,
+  129,
+  132
+ ],
+ "cer": [
+  2,
+  132
+ ],
+ "fix": [
+  [
+   2,
+   "Accorda",
+   "a chairde",
+   "asr_term"
+  ],
+  [
+   58,
+   "mr. president",
+   "Mr. President",
+   "asr_term"
+  ],
+  [
+   121,
+   "stimied",
+   "stymied",
+   "asr_term"
+  ],
+  [
+   123,
+   "principal",
+   "principled",
+   "asr_term"
+  ],
+  [
+   127,
+   "Gutierrez",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   42,
+   "Russia's legal war",
+   "Russia's illegal war",
+   "asr_term"
+  ],
+  [
+   58,
+   "challenged. international",
+   "challenged. International",
+   "asr_term"
+  ],
+  [
+   40,
+   "question. commitment",
+   "question. That commitment",
+   "asr_term"
+  ],
+  [
+   120,
+   "of around",
+   "around",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 'a chairde' is Irish for 'friends'; unit 123 Spanish 'basado en principios'; Guterres per UN list and Spanish channel. Main-agent audio check: unit 42 'Russia's legal war' -> 'Russia's illegal war'. Whisper hears 'legal' (p 0.97, 3 re-decodes) where 'Russia's illegal' runs together; the Spanish interpreter renders 'la guerra ilegal de Rusia', and 'legal war' contradicts the sentence ('more deadly for civilians'); meaning restored. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 40 'question. commitment' -> 'question. Commitment'; unit 58 'challenged. international' -> 'challenged. International'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 40 'question. commitment' -> 'question. That commitment' (2026 exception: both decodes hear 'That' clearly (0.96 / 0.99); ES 'Por eso' carries the demonstrative; old is the existing repair's old); spot 9 unit 120 'of around' -> 'around' (both decodes clearly lack 'of' ('crises around us', 0.97-1.00); 'crises of around us' is an inserted word; ES 'las crisis que nos circundan')",
+ "unitizer_version": 1,
+ "sha1": "5b332c9ebe2bd02df77a3646652b02d6f75d46d1",
+ "layout": "single",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2327,
+  "words_out": 2287,
+  "retention": 0.9828,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   17,
+   224,
+   69,
+   141,
+   183,
+   90,
+   96,
+   127,
+   267,
+   115,
+   132,
+   121,
+   146,
+   109,
+   132,
+   123,
+   107,
+   83,
+   5
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "YEM_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  18,
+  27,
+  34,
+  41,
+  53,
+  59,
+  65,
+  71,
+  76,
+  82,
+  88,
+  98,
+  106,
+  113,
+  117,
+  123,
+  131,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "we Eire celebrating",
+   "we are celebrating",
+   "ocr"
+  ],
+  [
+   48,
+   "The Iman",
+   "The Imam",
+   "ocr"
+  ],
+  [
+   58,
+   "Imperialistic",
+   "imperialistic",
+   "ocr"
+  ],
+  [
+   70,
+   "Infiltration",
+   "infiltration",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eecdedcf5605fc2d423a054f087999168c66c733",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2596,
+  "words_out": 2565,
+  "retention": 0.9881,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   75,
+   127,
+   141,
+   143,
+   126,
+   152,
+   159,
+   110,
+   100,
+   121,
+   70,
+   117,
+   156,
+   147,
+   111,
+   126,
+   60,
+   132,
+   141,
+   129,
+   122
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "id": "SDN_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  21,
+  28,
+  31,
+  33,
+  38,
+  39,
+  44,
+  51,
+  59,
+  65,
+  69,
+  72,
+  76,
+  79,
+  83,
+  90,
+  93,
+  101,
+  107,
+  120,
+  129,
+  133,
+  141,
+  146
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "v/as",
+   "was",
+   "ocr"
+  ],
+  [
+   47,
+   "ways oi life",
+   "ways of life",
+   "ocr"
+  ],
+  [
+   89,
+   "step or. their",
+   "step on their",
+   "ocr"
+  ],
+  [
+   102,
+   "have light on",
+   "have right on",
+   "ocr"
+  ],
+  [
+   118,
+   "have bean",
+   "have been",
+   "ocr"
+  ],
+  [
+   133,
+   "do. well",
+   "do well",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "979e0cac76be183f71ef7de48b48c7ce1e2c29a6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3705,
+  "words_out": 3705,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   92,
+   186,
+   132,
+   165,
+   138,
+   59,
+   138,
+   72,
+   154,
+   171,
+   107,
+   113,
+   97,
+   91,
+   128,
+   75,
+   172,
+   219,
+   80,
+   237,
+   110,
+   242,
+   163,
+   131,
+   196,
+   138,
+   99
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "UGA_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  22,
+  35,
+  47,
+  61,
+  73,
+  89,
+  111,
+  134,
+  148
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5233c280f25cb7baf7ce460a2d039d955df9b5bc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1293,
+  "words_out": 1290,
+  "retention": 0.9977,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   65,
+   119,
+   107,
+   116,
+   108,
+   101,
+   143,
+   148,
+   190,
+   116,
+   77
+  ],
+  "warnings": []
+ }
+}

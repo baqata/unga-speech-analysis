@@ -1,0 +1,186 @@
+{
+ "id": "DEU_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  14,
+  22,
+  31,
+  41,
+  48,
+  55,
+  58,
+  66,
+  78,
+  80,
+  88,
+  92,
+  97,
+  100,
+  105,
+  114,
+  122,
+  124,
+  132,
+  137,
+  146,
+  153,
+  158,
+  163,
+  169,
+  177,
+  186,
+  194,
+  201,
+  208,
+  213,
+  215,
+  220,
+  225,
+  233,
+  239,
+  248
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   14,
+   "North South problem",
+   "North-South problem",
+   "spacing"
+  ],
+  [
+   19,
+   " [VMF]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "!t has",
+   "It has",
+   "ocr"
+  ],
+  [
+   58,
+   "ail the",
+   "all the",
+   "ocr"
+  ],
+  [
+   167,
+   "Franco German",
+   "Franco-German",
+   "spacing"
+  ],
+  [
+   175,
+   "a rueful order",
+   "a peaceful order",
+   "ocr"
+  ],
+  [
+   198,
+   "German Polish",
+   "German-Polish",
+   "spacing"
+  ],
+  [
+   201,
+   "East West tension",
+   "East-West tension",
+   "spacing"
+  ],
+  [
+   208,
+   "East West relations",
+   "East-West relations",
+   "spacing"
+  ],
+  [
+   212,
+   "East West relations",
+   "East-West relations",
+   "spacing"
+  ],
+  [
+   223,
+   "Euro Arab",
+   "Euro-Arab",
+   "spacing"
+  ],
+  [
+   226,
+   "North South dialogue",
+   "North-South dialogue",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Many compound hyphens are lost in this source (e.g. 'land based', 'medium sized'); only the clearest were restored.",
+ "unitizer_version": 1,
+ "sha1": "c9b958d0befb0213342602d65e713a0c1dc08b3c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 70
+  },
+  "words_in": 5042,
+  "words_out": 5033,
+  "retention": 0.9982,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   76,
+   118,
+   114,
+   126,
+   138,
+   159,
+   172,
+   94,
+   106,
+   72,
+   157,
+   202,
+   88,
+   169,
+   100,
+   110,
+   115,
+   81,
+   146,
+   139,
+   61,
+   147,
+   88,
+   118,
+   128,
+   138,
+   180,
+   98,
+   180,
+   173,
+   111,
+   111,
+   125,
+   120,
+   100,
+   95,
+   135,
+   148,
+   62,
+   158,
+   75
+  ],
+  "warnings": []
+ }
+}

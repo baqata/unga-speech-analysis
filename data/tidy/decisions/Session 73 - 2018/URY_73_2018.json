@@ -1,0 +1,56 @@
+{
+ "id": "URY_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  15,
+  19,
+  24,
+  26,
+  30,
+  36,
+  43,
+  46,
+  55
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c723c85cea08b9b5b65d66ffb9acb7b64cfecd7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1548,
+  "words_out": 1547,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   158,
+   154,
+   74,
+   128,
+   157,
+   74,
+   203,
+   113,
+   132,
+   77,
+   219,
+   58
+  ],
+  "warnings": []
+ }
+}

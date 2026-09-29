@@ -1,0 +1,53 @@
+{
+ "id": "HND_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  29,
+  43,
+  51,
+  65,
+  74,
+  85,
+  96,
+  129,
+  144,
+  153
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d117635af1dca8e9afb45ecc37865ee699f98a8c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1306,
+  "words_out": 1306,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   94,
+   129,
+   124,
+   69,
+   119,
+   81,
+   84,
+   88,
+   191,
+   129,
+   76,
+   122
+  ],
+  "warnings": []
+ }
+}

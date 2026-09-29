@@ -1,0 +1,49 @@
+{
+ "id": "ZWE_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  23,
+  32,
+  55,
+  80,
+  105,
+  131,
+  139,
+  171
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "62c56e5ed8cb400dd5a7673d13737d4a58118de4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1511,
+  "words_out": 1507,
+  "retention": 0.9974,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   66,
+   123,
+   75,
+   198,
+   200,
+   208,
+   209,
+   60,
+   253,
+   115
+  ],
+  "warnings": []
+ }
+}

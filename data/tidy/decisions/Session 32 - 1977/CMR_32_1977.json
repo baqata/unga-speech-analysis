@@ -1,0 +1,134 @@
+{
+ "id": "CMR_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  8,
+  12,
+  13,
+  15,
+  19,
+  21,
+  24,
+  26,
+  29,
+  34,
+  39,
+  40,
+  46,
+  50,
+  52,
+  54,
+  55,
+  57,
+  61,
+  64,
+  67,
+  71,
+  72,
+  73,
+  76,
+  79,
+  84
+ ],
+ "cer": [
+  0,
+  1,
+  4,
+  6,
+  8
+ ],
+ "fix": [
+  [
+   4,
+   "the Law of the.",
+   "the Law of the",
+   "ocr"
+  ],
+  [
+   6,
+   "advance me purposes",
+   "advance the purposes",
+   "ocr"
+  ],
+  [
+   29,
+   "hew to",
+   "how to",
+   "ocr"
+  ],
+  [
+   39,
+   "wilt adopt",
+   "will adopt",
+   "ocr"
+  ],
+  [
+   71,
+   "411 (1977). adopted",
+   "411 (1977), adopted",
+   "ocr"
+  ],
+  [
+   72,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 38 breaks off mid-sentence ('resources to').",
+ "unitizer_version": 1,
+ "sha1": "d0a3abee853ea10f2792b617a19163ffae557562",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3247,
+  "words_out": 3246,
+  "retention": 0.9997,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   61,
+   116,
+   68,
+   51,
+   140,
+   71,
+   76,
+   123,
+   100,
+   132,
+   74,
+   177,
+   159,
+   133,
+   69,
+   186,
+   133,
+   79,
+   70,
+   69,
+   93,
+   130,
+   68,
+   138,
+   130,
+   49,
+   38,
+   144,
+   124,
+   126,
+   119
+  ],
+  "warnings": []
+ }
+}

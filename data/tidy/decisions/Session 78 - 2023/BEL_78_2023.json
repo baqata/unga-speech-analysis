@@ -1,0 +1,206 @@
+{
+ "id": "BEL_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  22,
+  28,
+  35,
+  46,
+  57,
+  59,
+  63,
+  73,
+  78,
+  84,
+  90
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "it. and",
+   "it, and",
+   "ocr"
+  ],
+  [
+   11,
+   "Spain.",
+   "Spain,",
+   "ocr"
+  ],
+  [
+   13,
+   "But. in that regard too. let",
+   "But, in that regard too, let",
+   "ocr"
+  ],
+  [
+   17,
+   "2025. and",
+   "2025, and",
+   "ocr"
+  ],
+  [
+   23,
+   "and. in",
+   "and, in",
+   "ocr"
+  ],
+  [
+   28,
+   "(EU). starting",
+   "(EU), starting",
+   "ocr"
+  ],
+  [
+   29,
+   "But. to",
+   "But, to",
+   "ocr"
+  ],
+  [
+   32,
+   "Namibia.",
+   "Namibia,",
+   "ocr"
+  ],
+  [
+   34,
+   "in. creating",
+   "in, creating",
+   "ocr"
+  ],
+  [
+   36,
+   "Germany.",
+   "Germany,",
+   "ocr"
+  ],
+  [
+   37,
+   "Netherlands.",
+   "Netherlands,",
+   "ocr"
+  ],
+  [
+   38,
+   "Luxembourg.",
+   "Luxembourg,",
+   "ocr"
+  ],
+  [
+   39,
+   "Denmark.",
+   "Denmark,",
+   "ocr"
+  ],
+  [
+   40,
+   "Norway.",
+   "Norway,",
+   "ocr"
+  ],
+  [
+   42,
+   "2030. we",
+   "2030, we",
+   "ocr"
+  ],
+  [
+   58,
+   "why. during",
+   "why, during",
+   "ocr"
+  ],
+  [
+   58,
+   "and. last",
+   "and, last",
+   "ocr"
+  ],
+  [
+   61,
+   "too. as",
+   "too, as",
+   "ocr"
+  ],
+  [
+   61,
+   "all. not",
+   "all, not",
+   "ocr"
+  ],
+  [
+   66,
+   "Faso.",
+   "Faso,",
+   "ocr"
+  ],
+  [
+   71,
+   "it. self-government",
+   "it, self-government",
+   "ocr"
+  ],
+  [
+   72,
+   "law. the",
+   "law, the",
+   "ocr"
+  ],
+  [
+   75,
+   "and. ultimately",
+   "and, ultimately",
+   "ocr"
+  ],
+  [
+   78,
+   "African.",
+   "African,",
+   "ocr"
+  ],
+  [
+   90,
+   "and. when",
+   "and, when",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8cacc9aa77c3845385ffd1a40bbfdeb698bc7845",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1530,
+  "words_out": 1530,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   105,
+   111,
+   98,
+   109,
+   103,
+   126,
+   148,
+   69,
+   136,
+   129,
+   129,
+   88,
+   122,
+   57
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

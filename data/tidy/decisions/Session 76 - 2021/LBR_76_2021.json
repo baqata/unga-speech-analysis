@@ -1,0 +1,85 @@
+{
+ "id": "LBR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  17,
+  22,
+  27,
+  29,
+  32,
+  35,
+  39,
+  41,
+  44,
+  49,
+  52,
+  55,
+  61,
+  69,
+  73
+ ],
+ "cer": [
+  0,
+  7,
+  27,
+  73
+ ],
+ "fix": [
+  [
+   41,
+   "window- dressing",
+   "window-dressing",
+   "spacing"
+  ],
+  [
+   62,
+   "pro-cess",
+   "process",
+   "hyphen"
+  ],
+  [
+   67,
+   "is-sues",
+   "issues",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "04d54393b56a4f95aabe50baf16ecdc4c20b5967",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2036,
+  "words_out": 2035,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   26,
+   157,
+   170,
+   141,
+   168,
+   56,
+   104,
+   104,
+   122,
+   88,
+   76,
+   146,
+   100,
+   94,
+   134,
+   244,
+   102,
+   3
+  ],
+  "warnings": []
+ }
+}

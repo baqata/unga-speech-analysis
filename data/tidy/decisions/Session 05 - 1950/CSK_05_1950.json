@@ -1,0 +1,129 @@
+{
+ "id": "CSK_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  10,
+  14,
+  18,
+  23,
+  26,
+  33,
+  38,
+  42,
+  47,
+  51,
+  53,
+  57,
+  60,
+  63,
+  69,
+  74,
+  76,
+  82,
+  86,
+  90
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   " [A/1376]",
+   "",
+   "label"
+  ],
+  [
+   9,
+   "another war, We know",
+   "another war. We know",
+   "ocr"
+  ],
+  [
+   9,
+   "110 (XI)",
+   "110 (II)",
+   "ocr"
+  ],
+  [
+   12,
+   "to strict account,",
+   "to strict account.",
+   "ocr"
+  ],
+  [
+   22,
+   "United Nations, The Czechoslovak",
+   "United Nations. The Czechoslovak",
+   "ocr"
+  ],
+  [
+   32,
+   "confidence, A great",
+   "confidence. A great",
+   "ocr"
+  ],
+  [
+   61,
+   "its Own desires",
+   "its own desires",
+   "ocr"
+  ],
+  [
+   65,
+   "Chinese State, Now, when",
+   "Chinese State. Now, when",
+   "ocr"
+  ],
+  [
+   88,
+   "must be regarded,",
+   "must be regarded.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9019481d10b46a2c3cb42a087e1cc6e887d5efba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 38
+  },
+  "words_in": 3474,
+  "words_out": 3473,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   187,
+   146,
+   85,
+   194,
+   228,
+   142,
+   178,
+   175,
+   170,
+   145,
+   183,
+   198,
+   83,
+   120,
+   97,
+   84,
+   234,
+   152,
+   107,
+   172,
+   141,
+   156,
+   96
+  ],
+  "warnings": []
+ }
+}

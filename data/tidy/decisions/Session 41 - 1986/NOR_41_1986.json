@@ -1,0 +1,124 @@
+{
+ "id": "NOR_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  17,
+  20,
+  23,
+  26,
+  30,
+  34,
+  42,
+  46,
+  49,
+  52,
+  55,
+  59,
+  61,
+  63,
+  66,
+  70,
+  72,
+  77,
+  80,
+  91,
+  96,
+  101,
+  114,
+  117,
+  120
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "Prom the",
+   "From the",
+   "ocr"
+  ],
+  [
+   66,
+   "commitments . of",
+   "commitments of",
+   "ocr"
+  ],
+  [
+   70,
+   "undertaken-by",
+   "undertaken by",
+   "ocr"
+  ],
+  [
+   71,
+   "suppoit",
+   "support",
+   "ocr"
+  ],
+  [
+   107,
+   "trade aid financial",
+   "trade and financial",
+   "ocr"
+  ],
+  [
+   107,
+   ".link",
+   "link",
+   "ocr"
+  ],
+  [
+   112,
+   "~ t the",
+   "at the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18beba295a2e70c5ef1a8d7fa427696a7550cdc0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2719,
+  "words_out": 2718,
+  "retention": 0.9996,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   65,
+   133,
+   61,
+   94,
+   65,
+   84,
+   73,
+   160,
+   84,
+   92,
+   100,
+   66,
+   87,
+   57,
+   63,
+   90,
+   65,
+   57,
+   112,
+   67,
+   226,
+   156,
+   128,
+   282,
+   102,
+   70,
+   79
+  ],
+  "warnings": []
+ }
+}

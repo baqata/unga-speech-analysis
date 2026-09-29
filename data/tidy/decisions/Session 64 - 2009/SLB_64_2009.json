@@ -1,0 +1,65 @@
+{
+ "id": "SLB_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  38,
+  65,
+  86,
+  114,
+  126,
+  144,
+  162,
+  178,
+  193,
+  218,
+  239,
+  265,
+  288,
+  310,
+  322
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "The closing quotation of Abraham Lincoln is left open at the last unit; the rest of the quotation and any closing words appear to be missing.",
+ "unitizer_version": 1,
+ "sha1": "8b8b748879c45a97aafa4c612368feabd23e905b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 327,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2486,
+  "words_out": 2483,
+  "retention": 0.9988,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   113,
+   170,
+   206,
+   157,
+   212,
+   90,
+   124,
+   147,
+   118,
+   120,
+   196,
+   165,
+   190,
+   173,
+   178,
+   90,
+   34
+  ],
+  "warnings": []
+ }
+}

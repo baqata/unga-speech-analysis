@@ -1,0 +1,79 @@
+{
+ "id": "CRI_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  18,
+  23,
+  30,
+  35,
+  41,
+  47,
+  50,
+  55,
+  59,
+  62,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "facto",
+   "facts",
+   "ocr"
+  ],
+  [
+   54,
+   "investors,",
+   "investors.",
+   "ocr"
+  ],
+  [
+   59,
+   "market- are",
+   "market are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9bdb8f87067883729f8ae71ddc444ed0175c01ec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 14
+  },
+  "words_in": 2221,
+  "words_out": 2219,
+  "retention": 0.9991,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   88,
+   110,
+   190,
+   192,
+   145,
+   197,
+   141,
+   176,
+   173,
+   100,
+   171,
+   146,
+   128,
+   134,
+   128
+  ],
+  "warnings": []
+ }
+}

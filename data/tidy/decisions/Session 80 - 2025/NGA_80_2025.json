@@ -1,0 +1,116 @@
+{
+ "id": "NGA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   123,
+   123,
+   "repeat"
+  ],
+  [
+   136,
+   136,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  10,
+  17,
+  27,
+  35,
+  45,
+  51,
+  57,
+  61,
+  66,
+  72,
+  82,
+  94,
+  103,
+  110,
+  119,
+  127,
+  135
+ ],
+ "cer": [
+  8,
+  135
+ ],
+ "fix": [
+  [
+   7,
+   "Mutinebu",
+   "Tinubu",
+   "asr_name"
+  ],
+  [
+   8,
+   "Committee of Nations",
+   "comity of nations",
+   "asr_term"
+  ],
+  [
+   8,
+   "88th session",
+   "80th session",
+   "asr_term"
+  ],
+  [
+   9,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   42,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f6ae714bbcb51d44ecb6ef972654abf57a4bf1f7",
+ "layout": "single",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {
+   "presider": 3,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 2591,
+  "words_out": 2535,
+  "retention": 0.9784,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   149,
+   64,
+   153,
+   172,
+   91,
+   213,
+   87,
+   99,
+   67,
+   123,
+   100,
+   150,
+   188,
+   126,
+   200,
+   220,
+   187,
+   140,
+   6
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "PHL_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  17,
+  21,
+  23,
+  29,
+  31,
+  33,
+  38,
+  42,
+  50,
+  56,
+  64,
+  70,
+  75
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   "He in the",
+   "We in the",
+   "ocr"
+  ],
+  [
+   41,
+   ".enjoyed",
+   "enjoyed",
+   "ocr"
+  ],
+  [
+   55,
+   "determination..",
+   "determination.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bde086caa1185979ac3b532b8420dc5b8adaf9b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1793,
+  "words_out": 1792,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   120,
+   76,
+   101,
+   89,
+   78,
+   61,
+   90,
+   66,
+   75,
+   117,
+   106,
+   117,
+   151,
+   140,
+   175,
+   121,
+   109
+  ],
+  "warnings": []
+ }
+}

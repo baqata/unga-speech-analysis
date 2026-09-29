@@ -1,0 +1,60 @@
+{
+ "id": "MMR_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  15,
+  19,
+  23,
+  29,
+  33,
+  37,
+  40
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "bad become",
+   "had become",
+   "ocr"
+  ],
+  [
+   35,
+   "give- and- take",
+   "give-and-take",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "bca181347cb906d98c6256c6f55e6d6a21aaaba5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1166,
+  "words_out": 1164,
+  "retention": 0.9983,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   93,
+   104,
+   194,
+   86,
+   133,
+   188,
+   123,
+   135,
+   68,
+   40
+  ],
+  "warnings": []
+ }
+}

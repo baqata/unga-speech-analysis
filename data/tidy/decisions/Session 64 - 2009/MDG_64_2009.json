@@ -1,0 +1,67 @@
+{
+ "id": "MDG_64_2009",
+ "drop": [
+  [
+   34,
+   34,
+   "header_footer"
+  ],
+  [
+   78,
+   78,
+   "header_footer"
+  ],
+  [
+   122,
+   122,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  17,
+  27,
+  38,
+  52,
+  66,
+  85,
+  99,
+  110,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "baa4a963e00068043e71b9a5c2c20d0e188fef9b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1420,
+  "words_out": 1417,
+  "retention": 0.9979,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   194,
+   104,
+   107,
+   158,
+   139,
+   170,
+   137,
+   119,
+   135,
+   154
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "WSM_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  32,
+  48,
+  66,
+  77,
+  88,
+  109,
+  127,
+  141,
+  160,
+  176,
+  186,
+  196,
+  207,
+  223
+ ],
+ "cer": [
+  223
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e8ac35d8c9558a6700603ac450d025586358e605",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1805,
+  "words_out": 1804,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   147,
+   114,
+   123,
+   124,
+   91,
+   83,
+   172,
+   133,
+   99,
+   143,
+   131,
+   72,
+   77,
+   88,
+   111,
+   96
+  ],
+  "warnings": []
+ }
+}

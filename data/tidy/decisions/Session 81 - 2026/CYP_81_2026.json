@@ -1,0 +1,147 @@
+{
+ "id": "CYP_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   121,
+   121,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  16,
+  25,
+  31,
+  41,
+  46,
+  53,
+  62,
+  69,
+  79,
+  86,
+  91,
+  99,
+  105,
+  112,
+  117,
+  120
+ ],
+ "cer": [
+  120
+ ],
+ "fix": [
+  [
+   9,
+   "multilateralists",
+   "multilateralism",
+   "asr_term"
+  ],
+  [
+   15,
+   "united nation",
+   "United Nations",
+   "asr_name"
+  ],
+  [
+   17,
+   "chapter",
+   "Charter",
+   "asr_term"
+  ],
+  [
+   27,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   54,
+   "interwave and",
+   "interwoven",
+   "asr_term"
+  ],
+  [
+   62,
+   "Saibus",
+   "Cyprus",
+   "asr_name"
+  ],
+  [
+   93,
+   "factional",
+   "functional",
+   "asr_term"
+  ],
+  [
+   103,
+   "Turkish-Sypriot",
+   "Turkish Cypriot",
+   "asr_name"
+  ],
+  [
+   84,
+   "itself. itself.",
+   "itself.",
+   "asr_term"
+  ],
+  [
+   97,
+   "parties. and",
+   "parties and",
+   "asr_term"
+  ],
+  [
+   14,
+   "goal",
+   "world",
+   "asr_term"
+  ],
+  [
+   41,
+   "plays",
+   "places",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in English; Spanish channel confirms multilateralismo, carta de la ONU, iniciativa ONU 80, realidades politicas interrelacionadas, presidencia chipriota, turcochipriotas; theme wording as in unit 119. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 84 'itself. itself.' -> 'itself.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 97 'parties. and' -> 'parties and'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 14 'goal' -> 'world' (decodes 'goal' only 0.77 / 0.74; 'As the goal changes, our institutions must ... respond to new realities' does not fit; ES 'Conforme cambia el mundo'); spot 11 unit 41 'plays' -> 'places' ('Africa plays us close to' does not fit; decodes 'plays' 0.17 / 'places' 0.25; sounds alike; ES 'nos aproxima a')",
+ "unitizer_version": 1,
+ "sha1": "8fcc6f39a25176747afa68eb096686554bfa4b40",
+ "layout": "single",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2164,
+  "words_out": 2117,
+  "retention": 0.9783,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   203,
+   134,
+   113,
+   110,
+   115,
+   130,
+   191,
+   166,
+   201,
+   133,
+   97,
+   152,
+   80,
+   98,
+   113,
+   77,
+   4
+  ],
+  "warnings": []
+ }
+}

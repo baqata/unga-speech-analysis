@@ -1,0 +1,53 @@
+{
+ "id": "PER_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  22,
+  39,
+  51,
+  64,
+  85,
+  97,
+  105,
+  131,
+  145,
+  159
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33f47cce6d10f42d1127f7740a0a3a1a709528be",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1416,
+  "words_out": 1415,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   67,
+   113,
+   138,
+   101,
+   113,
+   176,
+   97,
+   73,
+   223,
+   123,
+   119,
+   72
+  ],
+  "warnings": []
+ }
+}

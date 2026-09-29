@@ -1,0 +1,87 @@
+{
+ "id": "COM_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  21,
+  26,
+  30,
+  37,
+  42,
+  47,
+  50,
+  53,
+  61,
+  65,
+  69,
+  72,
+  76,
+  81,
+  90
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   31,
+   "sup-port",
+   "support",
+   "hyphen"
+  ],
+  [
+   33,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   36,
+   "sup-ported",
+   "supported",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "035b987287a3ff18bc3368a0aa0f3ab886f7b1ba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2504,
+  "words_out": 2502,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   181,
+   138,
+   113,
+   193,
+   105,
+   126,
+   174,
+   116,
+   157,
+   66,
+   102,
+   186,
+   95,
+   94,
+   89,
+   136,
+   162,
+   207,
+   62
+  ],
+  "warnings": []
+ }
+}

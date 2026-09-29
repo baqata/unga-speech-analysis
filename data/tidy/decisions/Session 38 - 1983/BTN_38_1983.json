@@ -1,0 +1,92 @@
+{
+ "id": "BTN_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  20,
+  25,
+  31,
+  37,
+  47,
+  52,
+  56,
+  63,
+  67,
+  73,
+  79,
+  85,
+  89,
+  92,
+  97,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "art sing",
+   "arising",
+   "ocr"
+  ],
+  [
+   32,
+   "UNICBF",
+   "UNICEF",
+   "ocr"
+  ],
+  [
+   81,
+   "Bank Live assisted",
+   "Bank have assisted",
+   "ocr"
+  ],
+  [
+   84,
+   "Par:5 Conference",
+   "Paris Conference",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "47663e804289e7cef1d2e00e39b3a01b16baed95",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2267,
+  "words_out": 2266,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   183,
+   153,
+   154,
+   99,
+   155,
+   105,
+   142,
+   106,
+   83,
+   126,
+   98,
+   117,
+   95,
+   150,
+   111,
+   77,
+   97,
+   140,
+   75
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "YEM_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  16,
+  24,
+  30,
+  33,
+  39,
+  44,
+  48,
+  52,
+  58,
+  64,
+  67,
+  72,
+  75,
+  77,
+  83
+ ],
+ "cer": [
+  0,
+  83
+ ],
+ "fix": [
+  [
+   39,
+   "17-29579 25/26 ",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "fifty- fifth",
+   "fifty-fifth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c4137ff8abf30b58d51bc86db6404732db592fdc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1983,
+  "words_out": 1980,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   123,
+   156,
+   88,
+   112,
+   168,
+   130,
+   96,
+   104,
+   85,
+   116,
+   82,
+   120,
+   133,
+   72,
+   118,
+   85,
+   65,
+   88,
+   39
+  ],
+  "warnings": []
+ }
+}

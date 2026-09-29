@@ -1,0 +1,72 @@
+{
+ "id": "VEN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  36,
+  51,
+  61,
+  71,
+  86,
+  97,
+  112,
+  126,
+  141,
+  157,
+  173,
+  196,
+  215,
+  225,
+  242,
+  256,
+  280
+ ],
+ "cer": [],
+ "fix": [
+  [
+   55,
+   " (see ).",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bd72dd18bfe17e4dfe05176c34a059b65186c383",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2562,
+  "words_out": 2558,
+  "retention": 0.9984,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   129,
+   181,
+   128,
+   78,
+   86,
+   131,
+   91,
+   138,
+   137,
+   99,
+   128,
+   129,
+   199,
+   163,
+   84,
+   146,
+   117,
+   218,
+   176
+  ],
+  "warnings": []
+ }
+}

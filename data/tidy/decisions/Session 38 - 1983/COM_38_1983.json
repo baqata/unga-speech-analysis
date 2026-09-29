@@ -1,0 +1,100 @@
+{
+ "id": "COM_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  13,
+  19,
+  23,
+  29,
+  34,
+  39,
+  42,
+  45,
+  51,
+  56,
+  58,
+  61,
+  63,
+  69,
+  74,
+  77,
+  82,
+  87,
+  92,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "138th",
+   "158th",
+   "ocr"
+  ],
+  [
+   20,
+   "August.'",
+   "August.",
+   "ocr"
+  ],
+  [
+   21,
+   "[PLO]",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "[OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e5be096f066deeadbbfec7cd980fe1487b1498c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 2858,
+  "words_out": 2855,
+  "retention": 0.999,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   184,
+   115,
+   83,
+   132,
+   126,
+   126,
+   162,
+   94,
+   72,
+   75,
+   174,
+   138,
+   79,
+   85,
+   70,
+   209,
+   154,
+   104,
+   151,
+   110,
+   158,
+   84,
+   170
+  ],
+  "warnings": []
+ }
+}

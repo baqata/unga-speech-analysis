@@ -1,0 +1,100 @@
+{
+ "id": "ESP_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  32,
+  46,
+  63,
+  80,
+  105,
+  131,
+  147,
+  162,
+  181,
+  191,
+  206,
+  214,
+  235,
+  250,
+  269,
+  291
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "years ó terrorism",
+   "years — terrorism",
+   "encoding"
+  ],
+  [
+   29,
+   "Beslanq",
+   "Beslan",
+   "ocr"
+  ],
+  [
+   58,
+   "Nations ó and",
+   "Nations — and",
+   "encoding"
+  ],
+  [
+   61,
+   "legality ó will",
+   "legality — will",
+   "encoding"
+  ],
+  [
+   188,
+   "support ó the",
+   "support — the",
+   "encoding"
+  ],
+  [
+   238,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b90bf427664cf5940d76ca6fd6a27a5f29aa4a3d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 295,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2412,
+  "words_out": 2410,
+  "retention": 0.9992,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   131,
+   148,
+   114,
+   154,
+   147,
+   206,
+   212,
+   124,
+   114,
+   144,
+   84,
+   123,
+   63,
+   169,
+   102,
+   140,
+   195,
+   40
+  ],
+  "warnings": []
+ }
+}

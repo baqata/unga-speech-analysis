@@ -1,0 +1,76 @@
+{
+ "id": "TLS_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  10,
+  13,
+  16,
+  18,
+  22,
+  28,
+  33,
+  37,
+  45,
+  51,
+  55,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Timor- Leste",
+   "Timor-Leste",
+   "hyphen"
+  ],
+  [
+   13,
+   "low- income",
+   "low-income",
+   "hyphen"
+  ],
+  [
+   38,
+   "crisis- affected",
+   "crisis-affected",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90bc7068538dc313a0ddbf6404e4fe5c718aa3c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1806,
+  "words_out": 1803,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   57,
+   109,
+   117,
+   72,
+   82,
+   82,
+   116,
+   109,
+   143,
+   105,
+   219,
+   142,
+   158,
+   127,
+   165
+  ],
+  "warnings": []
+ }
+}

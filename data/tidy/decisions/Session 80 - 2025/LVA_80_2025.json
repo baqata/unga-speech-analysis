@@ -1,0 +1,74 @@
+{
+ "id": "LVA_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   129,
+   129,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  21,
+  36,
+  51,
+  57,
+  75,
+  79,
+  88,
+  102,
+  114,
+  128
+ ],
+ "cer": [
+  2,
+  128
+ ],
+ "fix": [
+  [
+   124,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0221acd7071a926cf2b0afbf0ea8d6e611f4c5bb",
+ "layout": "single",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1473,
+  "words_out": 1425,
+  "retention": 0.9674,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   31,
+   69,
+   141,
+   142,
+   172,
+   64,
+   189,
+   69,
+   90,
+   171,
+   138,
+   145,
+   4
+  ],
+  "warnings": []
+ }
+}

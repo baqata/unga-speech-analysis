@@ -1,0 +1,106 @@
+{
+ "id": "PHL_48_1993",
+ "drop": [
+  [
+   53,
+   53,
+   "header_footer"
+  ],
+  [
+   144,
+   144,
+   "header_footer"
+  ],
+  [
+   238,
+   238,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  25,
+  36,
+  50,
+  69,
+  81,
+  93,
+  100,
+  107,
+  123,
+  137,
+  158,
+  165,
+  172,
+  182,
+  191,
+  198,
+  215,
+  223,
+  233,
+  239,
+  250,
+  264,
+  274,
+  300,
+  310
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   112,
+   "competition.Global",
+   "competition. Global",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01919e94a19adce906373e8860caa96247d5b794",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 316,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2738,
+  "words_out": 2719,
+  "retention": 0.9931,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   130,
+   92,
+   97,
+   108,
+   153,
+   108,
+   105,
+   64,
+   66,
+   137,
+   117,
+   171,
+   58,
+   63,
+   90,
+   70,
+   61,
+   148,
+   77,
+   79,
+   42,
+   104,
+   118,
+   89,
+   227,
+   88,
+   57
+  ],
+  "warnings": []
+ }
+}

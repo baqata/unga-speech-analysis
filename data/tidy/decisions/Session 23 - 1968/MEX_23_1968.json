@@ -1,0 +1,84 @@
+{
+ "id": "MEX_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  19,
+  23,
+  25,
+  28,
+  31,
+  36,
+  42,
+  47,
+  50,
+  54,
+  60,
+  66,
+  71,
+  77,
+  81,
+  84,
+  87,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "It is true. that",
+   "It is true that",
+   "ocr"
+  ],
+  [
+   50,
+   "arms. race",
+   "arms race",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5589a267e687dc793b6fb18b0b5d879fe9fdc9da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3268,
+  "words_out": 3213,
+  "retention": 0.9832,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   161,
+   261,
+   103,
+   168,
+   81,
+   158,
+   120,
+   165,
+   153,
+   143,
+   150,
+   133,
+   146,
+   241,
+   153,
+   174,
+   141,
+   115,
+   118,
+   195,
+   134
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "HUN_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  19,
+  24,
+  31,
+  39,
+  47,
+  51,
+  55,
+  61,
+  63,
+  74,
+  82,
+  90,
+  98,
+  105,
+  114,
+  120
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "then- draft",
+   "then-draft",
+   "hyphen"
+  ],
+  [
+   43,
+   "year- old",
+   "year-old",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ca72c602b0be7e8955197534bec794909eafc6a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2237,
+  "words_out": 2233,
+  "retention": 0.9982,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   106,
+   84,
+   109,
+   96,
+   167,
+   134,
+   112,
+   71,
+   103,
+   111,
+   60,
+   168,
+   134,
+   123,
+   146,
+   115,
+   149,
+   107,
+   138
+  ],
+  "warnings": []
+ }
+}

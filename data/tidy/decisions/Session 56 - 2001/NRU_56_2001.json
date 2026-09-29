@@ -1,0 +1,63 @@
+{
+ "id": "NRU_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  25,
+  33,
+  50,
+  59,
+  76,
+  86,
+  100,
+  114,
+  126,
+  148,
+  159
+ ],
+ "cer": [
+  0,
+  25
+ ],
+ "fix": [
+  [
+   154,
+   "people- smuggling",
+   "people-smuggling",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "744204d4e5e0251caf382401c826f3578145284f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1347,
+  "words_out": 1345,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   47,
+   143,
+   57,
+   139,
+   70,
+   133,
+   84,
+   103,
+   102,
+   100,
+   193,
+   84,
+   90
+  ],
+  "warnings": []
+ }
+}

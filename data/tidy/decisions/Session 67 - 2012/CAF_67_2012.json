@@ -1,0 +1,69 @@
+{
+ "id": "CAF_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  35,
+  56,
+  77,
+  93,
+  111,
+  121,
+  132,
+  145,
+  156,
+  169,
+  180,
+  199,
+  209,
+  225,
+  234
+ ],
+ "cer": [
+  0,
+  234
+ ],
+ "fix": [
+  [
+   1,
+   "f loor",
+   "floor",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "The word postconflict is split across units 180-181 and cannot be repaired within one unit.",
+ "unitizer_version": 1,
+ "sha1": "fc2b2a3690375597294c10ae66d6c19355150095",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 239,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1917,
+  "words_out": 1908,
+  "retention": 0.9953,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   175,
+   125,
+   181,
+   172,
+   123,
+   135,
+   77,
+   85,
+   102,
+   102,
+   87,
+   87,
+   157,
+   74,
+   122,
+   68,
+   36
+  ],
+  "warnings": []
+ }
+}

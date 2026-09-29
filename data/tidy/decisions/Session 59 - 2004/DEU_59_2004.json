@@ -1,0 +1,70 @@
+{
+ "id": "DEU_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  18,
+  41,
+  56,
+  70,
+  91,
+  107,
+  118,
+  131,
+  140,
+  166,
+  190,
+  203,
+  221,
+  234,
+  252
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   188,
+   "UNFP’s",
+   "UNEP’s",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "24e8d33981d43104547265753a5ae8885b3f3e8d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2078,
+  "words_out": 2077,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   44,
+   88,
+   179,
+   119,
+   103,
+   172,
+   126,
+   94,
+   107,
+   82,
+   221,
+   178,
+   96,
+   135,
+   104,
+   150,
+   79
+  ],
+  "warnings": []
+ }
+}

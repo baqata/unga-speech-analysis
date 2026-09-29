@@ -1,0 +1,110 @@
+{
+ "id": "SLV_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  12,
+  17,
+  23,
+  31,
+  36,
+  39,
+  41,
+  46,
+  53
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   32,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   34,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   37,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   37,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   39,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   41,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   44,
+   "Article A",
+   "Article 4",
+   "ocr"
+  ],
+  [
+   45,
+   "the. delegation",
+   "the delegation",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "56e38f18d6fcb0588df6f669be1fe3914780a8ed",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1729,
+  "words_out": 1727,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   48,
+   165,
+   65,
+   97,
+   158,
+   170,
+   209,
+   143,
+   84,
+   65,
+   206,
+   251,
+   66
+  ],
+  "warnings": []
+ }
+}

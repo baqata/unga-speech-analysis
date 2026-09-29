@@ -1,0 +1,183 @@
+{
+ "id": "BWA_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  14,
+  15,
+  17,
+  18,
+  21,
+  26,
+  29,
+  36,
+  42,
+  47,
+  50,
+  54,
+  59,
+  62,
+  63,
+  68,
+  71,
+  77,
+  82,
+  86,
+  93,
+  101,
+  104,
+  108,
+  111,
+  113,
+  119,
+  122,
+  126,
+  132,
+  137,
+  141,
+  145,
+  154,
+  156,
+  159,
+  162,
+  165,
+  169,
+  175,
+  180,
+  183
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [
+  [
+   45,
+   "'egrets",
+   "regrets",
+   "ocr"
+  ],
+  [
+   59,
+   "\"JNIDO",
+   "UNIDO",
+   "ocr"
+  ],
+  [
+   69,
+   "^re",
+   "are",
+   "ocr"
+  ],
+  [
+   74,
+   "for1977",
+   "for 1977",
+   "spacing"
+  ],
+  [
+   76,
+   "there in even",
+   "there is even",
+   "ocr"
+  ],
+  [
+   92,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   102,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   111,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ],
+  [
+   148,
+   "ali quid",
+   "aliquid",
+   "split_word"
+  ],
+  [
+   174,
+   "bring- a",
+   "bring a",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "72c07f236d1303692a208514a479bbc82b7bc27b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 52
+  },
+  "words_in": 4980,
+  "words_out": 4977,
+  "retention": 0.9994,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   129,
+   71,
+   118,
+   97,
+   40,
+   60,
+   122,
+   110,
+   118,
+   84,
+   123,
+   144,
+   134,
+   82,
+   100,
+   98,
+   139,
+   44,
+   119,
+   131,
+   126,
+   149,
+   109,
+   181,
+   223,
+   61,
+   52,
+   55,
+   72,
+   158,
+   116,
+   73,
+   84,
+   132,
+   88,
+   101,
+   193,
+   50,
+   93,
+   70,
+   97,
+   82,
+   143,
+   229,
+   80,
+   97
+  ],
+  "warnings": []
+ }
+}

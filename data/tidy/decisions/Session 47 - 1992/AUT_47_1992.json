@@ -1,0 +1,98 @@
+{
+ "id": "AUT_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  22,
+  45,
+  68,
+  80,
+  93,
+  104,
+  120,
+  135,
+  150,
+  160,
+  174,
+  190,
+  203,
+  221,
+  241,
+  259,
+  273,
+  283
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "predecessor. Ambassador",
+   "predecessor, Ambassador",
+   "ocr"
+  ],
+  [
+   108,
+   " (A/47/277.",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "para. 43)",
+   "",
+   "label"
+  ],
+  [
+   167,
+   "- proceedings",
+   "proceedings",
+   "ocr"
+  ],
+  [
+   178,
+   "it disintegration",
+   "disintegration",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "287234b07870a1a528a79f64a177f2c3d040ccc8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 291,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3126,
+  "words_out": 3121,
+  "retention": 0.9984,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   50,
+   170,
+   233,
+   232,
+   118,
+   139,
+   126,
+   174,
+   163,
+   167,
+   115,
+   151,
+   185,
+   151,
+   206,
+   220,
+   180,
+   153,
+   100,
+   88
+  ],
+  "warnings": []
+ }
+}

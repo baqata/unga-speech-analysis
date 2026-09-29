@@ -1,0 +1,134 @@
+{
+ "id": "QAT_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  20,
+  24,
+  27,
+  31,
+  32,
+  34,
+  38,
+  41,
+  43,
+  45,
+  50,
+  54,
+  55,
+  57,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "commit-ted",
+   "committed",
+   "hyphen"
+  ],
+  [
+   25,
+   "\" . . .is",
+   "\"...is",
+   "ocr"
+  ],
+  [
+   27,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "recur-rent",
+   "recurrent",
+   "hyphen"
+  ],
+  [
+   38,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   41,
+   "sup-port",
+   "support",
+   "hyphen"
+  ],
+  [
+   47,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "dis-cussing",
+   "discussing",
+   "hyphen"
+  ],
+  [
+   55,
+   "countries\" concerning",
+   "countries concerning",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2788bdb825bc2f6af0f33ab0573779123de3bfe5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2867,
+  "words_out": 2858,
+  "retention": 0.9969,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   200,
+   92,
+   249,
+   159,
+   143,
+   70,
+   156,
+   68,
+   314,
+   83,
+   151,
+   116,
+   85,
+   272,
+   171,
+   103,
+   129,
+   171,
+   126
+  ],
+  "warnings": []
+ }
+}

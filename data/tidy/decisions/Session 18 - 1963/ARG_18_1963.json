@@ -1,0 +1,84 @@
+{
+ "id": "ARG_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  25,
+  29,
+  34,
+  38,
+  46,
+  53,
+  57,
+  64,
+  67,
+  74,
+  79,
+  85,
+  90,
+  97,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   28,
+   "me steady",
+   "the steady",
+   "ocr"
+  ],
+  [
+   28,
+   "m the degree",
+   "in the degree",
+   "ocr"
+  ],
+  [
+   75,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c48cd397d6b61a0ead26df5197be06782199d1ba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2812,
+  "words_out": 2788,
+  "retention": 0.9915,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   138,
+   107,
+   100,
+   190,
+   138,
+   113,
+   103,
+   159,
+   130,
+   109,
+   213,
+   77,
+   194,
+   231,
+   147,
+   93,
+   211,
+   213,
+   122
+  ],
+  "warnings": []
+ }
+}

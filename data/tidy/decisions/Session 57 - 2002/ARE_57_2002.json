@@ -1,0 +1,67 @@
+{
+ "id": "ARE_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  44,
+  67,
+  87,
+  101,
+  127,
+  136,
+  158,
+  171,
+  187,
+  195,
+  206,
+  231,
+  249
+ ],
+ "cer": [
+  0,
+  249
+ ],
+ "fix": [
+  [
+   73,
+   "A1-Nahyan",
+   "Al-Nahyan",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c010b4da11abd8b338ef28c5202dd2308cd371ac",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1952,
+  "words_out": 1952,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   175,
+   156,
+   173,
+   165,
+   112,
+   207,
+   68,
+   166,
+   111,
+   127,
+   67,
+   81,
+   180,
+   121,
+   43
+  ],
+  "warnings": []
+ }
+}

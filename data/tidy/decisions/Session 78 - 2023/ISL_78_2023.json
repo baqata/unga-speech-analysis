@@ -1,0 +1,128 @@
+{
+ "id": "ISL_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  18,
+  24,
+  34,
+  41,
+  45,
+  56,
+  65,
+  71,
+  82,
+  85,
+  95,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "First.",
+   "First,",
+   "ocr"
+  ],
+  [
+   5,
+   "day- to-day",
+   "day-to-day",
+   "hyphen"
+  ],
+  [
+   18,
+   "But. sadly",
+   "But, sadly",
+   "ocr"
+  ],
+  [
+   19,
+   "now. either",
+   "now, either",
+   "ocr"
+  ],
+  [
+   22,
+   "us. the",
+   "us, the",
+   "ocr"
+  ],
+  [
+   33,
+   "us. the",
+   "us, the",
+   "ocr"
+  ],
+  [
+   42,
+   "(BBNJ). under",
+   "(BBNJ), under",
+   "ocr"
+  ],
+  [
+   49,
+   "this month.",
+   "this month,",
+   "ocr"
+  ],
+  [
+   80,
+   "human- made",
+   "human-made",
+   "hyphen"
+  ],
+  [
+   85,
+   "up. with",
+   "up, with",
+   "ocr"
+  ],
+  [
+   94,
+   "and. by",
+   "and, by",
+   "ocr"
+  ],
+  [
+   100,
+   "own. increasingly",
+   "own, increasingly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "beddf9b60ac84ad228452aeef37def00d49496c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2178,
+  "words_out": 2176,
+  "retention": 0.9991,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   163,
+   167,
+   152,
+   133,
+   110,
+   100,
+   165,
+   144,
+   134,
+   228,
+   92,
+   253,
+   247,
+   88
+  ],
+  "warnings": []
+ }
+}

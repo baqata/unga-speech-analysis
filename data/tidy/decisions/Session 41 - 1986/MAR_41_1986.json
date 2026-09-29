@@ -1,0 +1,174 @@
+{
+ "id": "MAR_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  9,
+  11,
+  15,
+  19,
+  21,
+  26,
+  28,
+  30,
+  33,
+  38,
+  40,
+  42,
+  46,
+  51,
+  56,
+  63,
+  66,
+  68,
+  71,
+  77,
+  79,
+  84,
+  87,
+  91,
+  94,
+  97,
+  100,
+  102,
+  105,
+  108,
+  112,
+  113,
+  114,
+  118,
+  121,
+  125
+ ],
+ "cer": [
+  0,
+  3,
+  8
+ ],
+ "fix": [
+  [
+   5,
+   "Organization.*",
+   "Organization.",
+   "ocr"
+  ],
+  [
+   11,
+   "great-attention",
+   "great attention",
+   "ocr"
+  ],
+  [
+   14,
+   "foe its",
+   "for its",
+   "ocr"
+  ],
+  [
+   33,
+   "Middle Bast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   74,
+   "York mi 9",
+   "York on 9",
+   "ocr"
+  ],
+  [
+   74,
+   "Abc'ou",
+   "Abdou",
+   "ocr"
+  ],
+  [
+   74,
+   "cease-t -- re",
+   "cease-fire",
+   "ocr"
+  ],
+  [
+   102,
+   "disarmament*",
+   "disarmament.",
+   "ocr"
+  ],
+  [
+   112,
+   "countries}",
+   "countries;",
+   "ocr"
+  ],
+  [
+   125,
+   "a song nations",
+   "among nations",
+   "ocr"
+  ],
+  [
+   51,
+   "East.Morocco",
+   "East. Morocco",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ada1d6d82a1f46abacb3cbf919529b213b76f63f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4073,
+  "words_out": 4072,
+  "retention": 0.9998,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   88,
+   167,
+   44,
+   88,
+   148,
+   113,
+   96,
+   120,
+   91,
+   77,
+   85,
+   144,
+   102,
+   72,
+   117,
+   112,
+   189,
+   164,
+   102,
+   48,
+   73,
+   199,
+   94,
+   160,
+   83,
+   59,
+   95,
+   79,
+   81,
+   64,
+   89,
+   106,
+   87,
+   81,
+   53,
+   179,
+   125,
+   133,
+   65
+  ],
+  "warnings": []
+ }
+}

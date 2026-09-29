@@ -1,0 +1,213 @@
+{
+ "id": "IDN_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  18,
+  23,
+  30,
+  38,
+  42,
+  49,
+  54,
+  59,
+  62,
+  68,
+  71,
+  77,
+  83,
+  87,
+  93,
+  97,
+  99,
+  105,
+  108,
+  114,
+  120,
+  123,
+  129,
+  132,
+  135,
+  139,
+  146,
+  151,
+  158,
+  164,
+  170,
+  175,
+  177,
+  180
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "hi the first",
+   "in the first",
+   "ocr"
+  ],
+  [
+   21,
+   "[700th meeting, para. 1611.",
+   "",
+   "label"
+  ],
+  [
+   29,
+   "the- crises",
+   "the crises",
+   "ocr"
+  ],
+  [
+   53,
+   "[759th meeting, para. 109.1 ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "[resolution 1239 (XIII)]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "'the",
+   "the",
+   "ocr"
+  ],
+  [
+   86,
+   "t.se",
+   "use",
+   "ocr"
+  ],
+  [
+   88,
+   "al each",
+   "at each",
+   "ocr"
+  ],
+  [
+   92,
+   "have- not",
+   "have-not",
+   "hyphen"
+  ],
+  [
+   95,
+   "Bowers",
+   "Powers",
+   "ocr"
+  ],
+  [
+   117,
+   "Ab a",
+   "As a",
+   "ocr"
+  ],
+  [
+   119,
+   "o!",
+   "of",
+   "ocr"
+  ],
+  [
+   126,
+   "assure,",
+   "assure",
+   "ocr"
+  ],
+  [
+   140,
+   "[760th meeting, para. 381.",
+   "",
+   "label"
+  ],
+  [
+   142,
+   "in-the",
+   "in the",
+   "ocr"
+  ],
+  [
+   170,
+   "under. mine",
+   "undermine",
+   "spacing"
+  ],
+  [
+   171,
+   "only he regarded",
+   "only be regarded",
+   "ocr"
+  ],
+  [
+   175,
+   "[749Ui meeting, para. 281.",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "24964ef833dbfb0802dd51e22cbae7d336928b94",
+ "layout": "lines",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 45
+  },
+  "words_in": 5228,
+  "words_out": 5206,
+  "retention": 0.9958,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   98,
+   132,
+   120,
+   160,
+   114,
+   213,
+   166,
+   90,
+   216,
+   128,
+   142,
+   87,
+   173,
+   58,
+   219,
+   110,
+   138,
+   205,
+   188,
+   84,
+   150,
+   113,
+   173,
+   133,
+   130,
+   114,
+   97,
+   102,
+   129,
+   119,
+   149,
+   215,
+   143,
+   158,
+   173,
+   90,
+   126,
+   51
+  ],
+  "warnings": []
+ }
+}

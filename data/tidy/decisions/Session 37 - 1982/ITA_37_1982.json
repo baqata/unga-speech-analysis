@@ -1,0 +1,149 @@
+{
+ "id": "ITA_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  42,
+  59,
+  77,
+  94,
+  106,
+  123,
+  137,
+  151,
+  165,
+  180,
+  195,
+  205,
+  223,
+  240,
+  255,
+  271,
+  282,
+  291,
+  301,
+  318,
+  334,
+  346,
+  367,
+  375,
+  396,
+  409,
+  417,
+  441,
+  453,
+  466,
+  482,
+  496,
+  510
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   2,
+   "thirty- seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   90,
+   " [IMF]",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "hunger m the",
+   "hunger in the",
+   "ocr"
+  ],
+  [
+   118,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   129,
+   "institution-inaddition",
+   "institution-in addition",
+   "merged_word"
+  ],
+  [
+   311,
+   "Following wing",
+   "Following",
+   "ocr"
+  ],
+  [
+   403,
+   "[(241/], ",
+   "",
+   "label"
+  ],
+  [
+   502,
+   "comer-stone",
+   "corner-stone",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bcfb115085b789cf85b6f024d32b0fc5346f327a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 517,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5183,
+  "words_out": 5122,
+  "retention": 0.9882,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   120,
+   129,
+   183,
+   162,
+   177,
+   171,
+   120,
+   169,
+   133,
+   124,
+   131,
+   154,
+   143,
+   102,
+   178,
+   168,
+   162,
+   158,
+   111,
+   85,
+   109,
+   169,
+   171,
+   123,
+   209,
+   86,
+   204,
+   134,
+   84,
+   229,
+   113,
+   114,
+   167,
+   138,
+   123,
+   69
+  ],
+  "warnings": []
+ }
+}

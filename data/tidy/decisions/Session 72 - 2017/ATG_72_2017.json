@@ -1,0 +1,73 @@
+{
+ "id": "ATG_72_2017",
+ "drop": [
+  [
+   22,
+   22,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  21,
+  25,
+  29,
+  35,
+  39,
+  42,
+  45,
+  52,
+  61,
+  70,
+  77,
+  83,
+  86,
+  92,
+  99
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bf0a4787a30d8bfc821e5c7b6f732d39f2c88cba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2344,
+  "words_out": 2336,
+  "retention": 0.9966,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   143,
+   123,
+   129,
+   97,
+   88,
+   140,
+   138,
+   69,
+   66,
+   80,
+   154,
+   143,
+   168,
+   225,
+   137,
+   91,
+   153,
+   170,
+   22
+  ],
+  "warnings": [
+   "procedural drop [22,22] in the middle of the speech"
+  ]
+ }
+}

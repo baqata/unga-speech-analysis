@@ -1,0 +1,125 @@
+{
+ "id": "USA_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  17,
+  27,
+  32,
+  39,
+  46,
+  52,
+  58,
+  65,
+  70,
+  75,
+  83,
+  91,
+  99,
+  103,
+  108,
+  114,
+  120,
+  130,
+  134,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   " [ 561st meeting]",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "[DC/71, annex 15, p. 24.]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   " [DC/ 71, annex 17]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   " JDC/113, annex 5]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "types of inspection,",
+   "types of inspection.",
+   "ocr"
+  ],
+  [
+   97,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   " [Molotov communication to the German Ambassador.",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "25 November 1940].",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e93f95b3023f6e1e50e3a57a4dc52c844caa71b0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 145,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 36
+  },
+  "words_in": 3298,
+  "words_out": 3265,
+  "retention": 0.99,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   41,
+   118,
+   190,
+   148,
+   62,
+   168,
+   189,
+   139,
+   99,
+   174,
+   158,
+   133,
+   109,
+   176,
+   190,
+   98,
+   111,
+   170,
+   132,
+   278,
+   98,
+   139,
+   145
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "AUT_30_1975",
+ "drop": [
+  [
+   90,
+   91,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  12,
+  16,
+  19,
+  21,
+  25,
+  28,
+  30,
+  34,
+  38,
+  40,
+  44,
+  47,
+  53,
+  60,
+  62,
+  67,
+  71,
+  78,
+  83,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   11,
+   "afar- reaching",
+   "a far-reaching",
+   "spacing"
+  ],
+  [
+   16,
+   "' Without",
+   "Without",
+   "ocr"
+  ],
+  [
+   36,
+   "wel-comes",
+   "welcomes",
+   "hyphen"
+  ],
+  [
+   42,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   " [resolution 3362 (S-Vffj]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "con-vinced",
+   "convinced",
+   "hyphen"
+  ],
+  [
+   85,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   93,
+   " [resolution 3362 (S-Vll)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "42f8d69da5c74c02632a5098f8fe73c881979c75",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3147,
+  "words_out": 3132,
+  "retention": 0.9952,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   148,
+   117,
+   74,
+   177,
+   168,
+   124,
+   89,
+   138,
+   86,
+   79,
+   92,
+   97,
+   64,
+   135,
+   114,
+   208,
+   177,
+   140,
+   135,
+   123,
+   226,
+   153,
+   139,
+   129
+  ],
+  "warnings": []
+ }
+}

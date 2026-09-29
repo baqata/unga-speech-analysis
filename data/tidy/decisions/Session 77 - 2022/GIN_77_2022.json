@@ -1,0 +1,76 @@
+{
+ "id": "GIN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  20,
+  25,
+  29,
+  34,
+  36,
+  41,
+  43,
+  45,
+  50,
+  54,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   43,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   53,
+   "Sail",
+   "Sall",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1455bc8212c55f9152857aeb4be0dd66b85f6afd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1794,
+  "words_out": 1792,
+  "retention": 0.9989,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   117,
+   134,
+   203,
+   97,
+   152,
+   143,
+   108,
+   80,
+   192,
+   92,
+   62,
+   161,
+   108,
+   81,
+   62
+  ],
+  "warnings": []
+ }
+}

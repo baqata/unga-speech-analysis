@@ -1,0 +1,82 @@
+{
+ "id": "NLD_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  19,
+  22,
+  26,
+  34,
+  40,
+  44,
+  48,
+  53,
+  57,
+  66,
+  72,
+  76,
+  79,
+  86,
+  88
+ ],
+ "cer": [],
+ "fix": [
+  [
+   48,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   76,
+   "self- evident",
+   "self-evident",
+   "hyphen"
+  ],
+  [
+   94,
+   "2020- 2022",
+   "2020-2022",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf3af734ea0bbdb147f7617e1c23609865087942",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1828,
+  "words_out": 1822,
+  "retention": 0.9967,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   142,
+   94,
+   71,
+   94,
+   73,
+   67,
+   104,
+   87,
+   77,
+   113,
+   74,
+   90,
+   129,
+   115,
+   96,
+   71,
+   133,
+   73,
+   119
+  ],
+  "warnings": []
+ }
+}

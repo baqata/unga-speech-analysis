@@ -1,0 +1,152 @@
+{
+ "id": "TTO_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  16,
+  24,
+  29,
+  33,
+  36,
+  40,
+  43,
+  47,
+  49,
+  51,
+  54,
+  60,
+  64,
+  68,
+  73,
+  76,
+  80,
+  83,
+  90,
+  93,
+  98,
+  102,
+  107,
+  110,
+  113,
+  117,
+  120,
+  124,
+  129,
+  133,
+  136,
+  138,
+  141,
+  145
+ ],
+ "cer": [
+  0,
+  3,
+  6
+ ],
+ "fix": [
+  [
+   17,
+   "High- interest-rate",
+   "High-interest-rate",
+   "hyphen"
+  ],
+  [
+   51,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   55,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   94,
+   "Agreement.'",
+   "Agreement.",
+   "markup"
+  ],
+  [
+   95,
+   "Trinidad mid Tobago",
+   "Trinidad and Tobago",
+   "ocr"
+  ],
+  [
+   100,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   101,
+   "[PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 140 reads 'convention against in sports'; an italic word (apartheid) is missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "56b6a3af72607cb56541767f196d781cac6389a6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 57
+  },
+  "words_in": 4440,
+  "words_out": 4432,
+  "retention": 0.9982,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   88,
+   126,
+   97,
+   114,
+   182,
+   111,
+   130,
+   100,
+   115,
+   123,
+   98,
+   64,
+   93,
+   104,
+   209,
+   143,
+   153,
+   105,
+   85,
+   126,
+   79,
+   203,
+   76,
+   174,
+   111,
+   137,
+   106,
+   112,
+   106,
+   106,
+   77,
+   178,
+   168,
+   106,
+   95,
+   96,
+   74,
+   62
+  ],
+  "warnings": []
+ }
+}

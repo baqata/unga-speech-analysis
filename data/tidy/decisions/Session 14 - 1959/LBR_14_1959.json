@@ -1,0 +1,74 @@
+{
+ "id": "LBR_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  18,
+  23,
+  25,
+  30,
+  35,
+  39,
+  42,
+  44,
+  48,
+  52,
+  56,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "indisposition Of",
+   "indisposition of",
+   "ocr"
+  ],
+  [
+   24,
+   "world.,",
+   "world.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efcaadc0c77d86240c0d7539b69f7d4ac7d164bd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 1909,
+  "words_out": 1906,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   143,
+   114,
+   96,
+   77,
+   100,
+   135,
+   193,
+   186,
+   130,
+   60,
+   61,
+   125,
+   92,
+   95,
+   107,
+   192
+  ],
+  "warnings": []
+ }
+}

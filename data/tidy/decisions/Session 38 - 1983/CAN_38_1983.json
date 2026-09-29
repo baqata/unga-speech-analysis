@@ -1,0 +1,124 @@
+{
+ "id": "CAN_38_1983",
+ "drop": [
+  [
+   123,
+   123,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  18,
+  24,
+  30,
+  32,
+  37,
+  43,
+  52,
+  56,
+  59,
+  66,
+  71,
+  76,
+  81,
+  88,
+  94,
+  102,
+  108,
+  115,
+  119,
+  124,
+  133,
+  142,
+  148,
+  153,
+  157,
+  160,
+  167,
+  170,
+  173,
+  176,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "Ms authority",
+   "his authority",
+   "ocr"
+  ],
+  [
+   35,
+   "/n camera",
+   "in camera",
+   "ocr"
+  ],
+  [
+   124,
+   "rein forming",
+   "reinforcing",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a33977f83daeebed8cdae7508b23d50e4a2328ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 46
+  },
+  "words_in": 3843,
+  "words_out": 3841,
+  "retention": 0.9995,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   96,
+   128,
+   121,
+   87,
+   138,
+   74,
+   129,
+   69,
+   150,
+   140,
+   89,
+   113,
+   110,
+   92,
+   103,
+   117,
+   112,
+   137,
+   136,
+   163,
+   96,
+   124,
+   133,
+   187,
+   131,
+   100,
+   90,
+   89,
+   107,
+   88,
+   63,
+   80,
+   105,
+   144
+  ],
+  "warnings": []
+ }
+}

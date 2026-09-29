@@ -1,0 +1,139 @@
+{
+ "id": "POL_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  15,
+  22,
+  26,
+  28,
+  32,
+  40,
+  45,
+  48,
+  50,
+  57,
+  60,
+  68,
+  71,
+  76,
+  79,
+  81,
+  85,
+  89,
+  93,
+  97,
+  102,
+  105,
+  108,
+  114
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "beer< struggling",
+   "been struggling",
+   "ocr"
+  ],
+  [
+   7,
+   "<?f the",
+   "of the",
+   "ocr"
+  ],
+  [
+   7,
+   "advanced \"and",
+   "advanced and",
+   "ocr"
+  ],
+  [
+   31,
+   "Republic .of",
+   "Republic of",
+   "ocr"
+  ],
+  [
+   57,
+   " [see A/9330 and Corr.]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "Nov/ that",
+   "Now that",
+   "ocr"
+  ],
+  [
+   97,
+   "create .for",
+   "create for",
+   "ocr"
+  ],
+  [
+   99,
+   "account ' of",
+   "account of",
+   "ocr"
+  ],
+  [
+   113,
+   "have' just",
+   "have just",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b58432118915dd745b1da91684ccf6b9dc4fab51",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 42
+  },
+  "words_in": 3490,
+  "words_out": 3482,
+  "retention": 0.9977,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   93,
+   94,
+   129,
+   121,
+   107,
+   88,
+   68,
+   156,
+   227,
+   199,
+   105,
+   69,
+   172,
+   89,
+   161,
+   113,
+   147,
+   138,
+   103,
+   112,
+   111,
+   103,
+   117,
+   172,
+   125,
+   146,
+   147,
+   70
+  ],
+  "warnings": []
+ }
+}

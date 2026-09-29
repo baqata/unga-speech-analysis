@@ -1,0 +1,61 @@
+{
+ "id": "CPV_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  44,
+  60,
+  76,
+  100,
+  112,
+  126,
+  142,
+  150,
+  166,
+  178,
+  189,
+  201,
+  220
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e57fdb35c2c83ec8cfd193c07b5a511633f7688d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 232,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1756,
+  "words_out": 1754,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   83,
+   99,
+   144,
+   123,
+   132,
+   160,
+   87,
+   108,
+   125,
+   68,
+   107,
+   87,
+   89,
+   89,
+   149,
+   104
+  ],
+  "warnings": []
+ }
+}

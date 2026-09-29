@@ -1,0 +1,59 @@
+{
+ "id": "COL_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  18,
+  21,
+  25,
+  30,
+  37
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "new,",
+   "new",
+   "ocr"
+  ],
+  [
+   22,
+   "eighth,",
+   "eighth",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff0139d0e0e473b617dac25b401b389fb7ce665e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 15
+  },
+  "words_in": 1462,
+  "words_out": 1462,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   134,
+   185,
+   185,
+   195,
+   131,
+   118,
+   174,
+   207,
+   133
+  ],
+  "warnings": []
+ }
+}

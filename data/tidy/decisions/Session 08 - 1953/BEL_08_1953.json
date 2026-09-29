@@ -1,0 +1,109 @@
+{
+ "id": "BEL_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  17,
+  23,
+  28,
+  32,
+  36,
+  41,
+  51,
+  57,
+  59,
+  67,
+  75,
+  81,
+  85,
+  95,
+  101,
+  105,
+  110,
+  118,
+  121
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "corpse",
+   "course",
+   "ocr"
+  ],
+  [
+   16,
+   "future,",
+   "future.",
+   "ocr"
+  ],
+  [
+   39,
+   "Let.",
+   "Let",
+   "ocr"
+  ],
+  [
+   102,
+   "goon",
+   "good",
+   "ocr"
+  ],
+  [
+   113,
+   "conceals^",
+   "conceals",
+   "ocr"
+  ],
+  [
+   122,
+   "hive",
+   "have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8943c9837ca4df9499e470e7c3db0bef15e59684",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 28
+  },
+  "words_in": 3156,
+  "words_out": 3156,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   160,
+   89,
+   137,
+   161,
+   150,
+   131,
+   123,
+   86,
+   194,
+   155,
+   97,
+   176,
+   106,
+   134,
+   116,
+   229,
+   111,
+   140,
+   224,
+   153,
+   92,
+   192
+  ],
+  "warnings": []
+ }
+}

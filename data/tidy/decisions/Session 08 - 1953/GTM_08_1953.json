@@ -1,0 +1,82 @@
+{
+ "id": "GTM_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  7,
+  9,
+  14,
+  17,
+  21,
+  25,
+  28,
+  32,
+  39,
+  46,
+  49,
+  53,
+  58,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "interference,",
+   "interference.",
+   "ocr"
+  ],
+  [
+   11,
+   "nazi- fascist",
+   "nazi-fascist",
+   "hyphen"
+  ],
+  [
+   19,
+   "making-efforts",
+   "making efforts",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "718a037ebc28d1e8a93dc6b0f8180febdebe8458",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2330,
+  "words_out": 2330,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   51,
+   125,
+   109,
+   90,
+   148,
+   142,
+   154,
+   86,
+   140,
+   154,
+   212,
+   193,
+   157,
+   143,
+   181,
+   212,
+   33
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "SLE_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  23,
+  39,
+  58,
+  70,
+  90,
+  105,
+  121,
+  144,
+  162,
+  180,
+  207
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3bb31d5fa2c7d7b07d7b42e6dfdf4df98613a026",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1694,
+  "words_out": 1690,
+  "retention": 0.9976,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   149,
+   44,
+   115,
+   148,
+   101,
+   164,
+   110,
+   111,
+   181,
+   135,
+   130,
+   205,
+   97
+  ],
+  "warnings": []
+ }
+}

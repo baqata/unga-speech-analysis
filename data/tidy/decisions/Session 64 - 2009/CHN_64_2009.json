@@ -1,0 +1,51 @@
+{
+ "id": "CHN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  36,
+  65,
+  78,
+  94,
+  111,
+  130,
+  147,
+  161,
+  180,
+  213
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc58f3b161f5374e62af892ebbb47a46b19c7667",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 217,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1548,
+  "words_out": 1548,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   76,
+   166,
+   227,
+   83,
+   111,
+   121,
+   145,
+   123,
+   101,
+   146,
+   221,
+   28
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "BHS_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  17,
+  19,
+  22,
+  30,
+  35,
+  38,
+  43,
+  46,
+  51,
+  57,
+  64,
+  71,
+  77,
+  85,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   64,
+   "(COP29)must",
+   "(COP29) must",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06850556890d82c511a5a8f10dd95c7cb433948f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1973,
+  "words_out": 1974,
+  "retention": 1.0005,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   38,
+   88,
+   109,
+   110,
+   68,
+   138,
+   172,
+   105,
+   74,
+   83,
+   85,
+   86,
+   158,
+   130,
+   113,
+   110,
+   126,
+   73,
+   108
+  ],
+  "warnings": []
+ }
+}

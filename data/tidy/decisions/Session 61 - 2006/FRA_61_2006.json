@@ -1,0 +1,49 @@
+{
+ "id": "FRA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  26,
+  47,
+  59,
+  73,
+  84,
+  99,
+  114,
+  125
+ ],
+ "cer": [
+  125
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b5ccd90f7ce4d6cc33279534c04a472c826464c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1067,
+  "words_out": 1066,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   115,
+   82,
+   181,
+   89,
+   106,
+   78,
+   125,
+   115,
+   92,
+   83
+  ],
+  "warnings": []
+ }
+}

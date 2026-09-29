@@ -1,0 +1,225 @@
+{
+ "id": "BRB_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   80,
+   80,
+   "noise"
+  ],
+  [
+   228,
+   229,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  10,
+  17,
+  26,
+  34,
+  37,
+  47,
+  59,
+  65,
+  71,
+  81,
+  89,
+  94,
+  97,
+  100,
+  111,
+  121,
+  133,
+  141,
+  144,
+  152,
+  164,
+  171,
+  181,
+  192,
+  201,
+  208,
+  214,
+  221
+ ],
+ "cer": [
+  34,
+  94
+ ],
+ "fix": [
+  [
+   30,
+   "Laming",
+   "Lamming",
+   "asr_name"
+  ],
+  [
+   34,
+   "Birbock",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   97,
+   "Rodriguez Burkett",
+   "Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   98,
+   "Rodriguez Burkett",
+   "Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   122,
+   "Kuram",
+   "Kurum",
+   "asr_name"
+  ],
+  [
+   189,
+   "code noir",
+   "Code Noir",
+   "asr_name"
+  ],
+  [
+   191,
+   "repartory",
+   "reparatory",
+   "asr_term"
+  ],
+  [
+   205,
+   "Hailey",
+   "Haile",
+   "asr_name"
+  ],
+  [
+   216,
+   "Barros",
+   "Barrow",
+   "asr_name"
+  ],
+  [
+   169,
+   "engagement. constructive",
+   "engagement. Constructive",
+   "asr_term"
+  ],
+  [
+   111,
+   "Earth. and",
+   "Earth. And",
+   "asr_term"
+  ],
+  [
+   132,
+   "opportunity. we",
+   "opportunity. We",
+   "asr_term"
+  ],
+  [
+   158,
+   "promised. and",
+   "promised and",
+   "asr_term"
+  ],
+  [
+   207,
+   "war. until",
+   "war. Until",
+   "asr_term"
+  ],
+  [
+   215,
+   "organization. emerging",
+   "organization. Emerging",
+   "asr_term"
+  ],
+  [
+   96,
+   "Mohamed",
+   "Mohammed",
+   "asr_name"
+  ],
+  [
+   117,
+   "play and feel",
+   "playing field",
+   "asr_term"
+  ],
+  [
+   186,
+   "stars",
+   "scars",
+   "asr_term"
+  ],
+  [
+   226,
+   "ensure that",
+   "ensure",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Carolyn Rodrigues-Birkett per PassBlue/Guyana Chronicle; Kurum, Haile Selassie and Barrow per Spanish channel; Lamming as spelled in unit 27. Gap recovery (v4) added two lone 'Thank you.' units, 00:22 before the speech and 11:59 in a pause for applause: noise. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 169 'engagement. constructive' -> 'engagement. Constructive' (said twice; capital restored). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 111 'Earth. and' -> 'Earth. And'; unit 132 'opportunity. we' -> 'opportunity. We'; unit 158 'promised. and' -> 'promised and'; unit 207 'war. until' -> 'war. Until'; unit 215 'organization. emerging' -> 'organization. Emerging'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 9 unit 96 'Mohamed' -> 'Mohammed' (the Deputy Secretary-General's name is Amina J. Mohammed (UN official spelling); both decodes write 'Mohammed'); spot 13 unit 117 'play and feel' -> 'playing field' (both decodes hear 'playing field' (field 0.99); 'a level and fair play and feel' does not fit; sounds alike; ES 'condiciones justas y equitativas'); spot 35 unit 186 'stars' -> 'scars' ('we still carry the stars' does not fit; sounds like 'scars'; ES 'Seguimos viendo las cicatrices de ello'); spot 51 unit 226 'ensure that' -> 'ensure' (invented word: both decodes clearly hear 'ensure the flames' (the 0.98 / 0.96) with no 'that')",
+ "unitizer_version": 1,
+ "sha1": "b5b5d1c721797894280e8eecf898549afbda8f50",
+ "layout": "single",
+ "stats": {
+  "n_units": 230,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 4299,
+  "words_out": 4223,
+  "retention": 0.9823,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   152,
+   116,
+   181,
+   154,
+   71,
+   162,
+   142,
+   121,
+   76,
+   153,
+   184,
+   120,
+   61,
+   88,
+   229,
+   213,
+   178,
+   112,
+   98,
+   131,
+   266,
+   97,
+   183,
+   148,
+   143,
+   183,
+   60,
+   223,
+   178
+  ],
+  "warnings": []
+ }
+}

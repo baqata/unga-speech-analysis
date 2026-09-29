@@ -1,0 +1,49 @@
+{
+ "id": "ECU_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  46,
+  57,
+  77,
+  91,
+  109,
+  120,
+  145,
+  153,
+  175
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "010afa2b58962790cfb78c57257f57e6571db73a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1599,
+  "words_out": 1596,
+  "retention": 0.9981,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   114,
+   157,
+   131,
+   90,
+   156,
+   114,
+   158,
+   94,
+   198,
+   63,
+   174,
+   147
+  ],
+  "warnings": []
+ }
+}

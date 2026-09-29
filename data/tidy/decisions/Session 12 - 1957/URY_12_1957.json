@@ -1,0 +1,85 @@
+{
+ "id": "URY_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  17,
+  23,
+  29,
+  32,
+  37,
+  45,
+  49,
+  54,
+  59,
+  66,
+  70,
+  77,
+  84,
+  89,
+  92,
+  95,
+  101
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   " [1133 (XI)]",
+   "",
+   "label"
+  ],
+  [
+   12,
+   " [1133 (XI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "afee3aaab2ff8ab7dcd1eeccf2c48117f234d4a4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 43
+  },
+  "words_in": 3365,
+  "words_out": 3358,
+  "retention": 0.9979,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   148,
+   229,
+   121,
+   110,
+   178,
+   171,
+   123,
+   206,
+   216,
+   157,
+   173,
+   144,
+   218,
+   112,
+   180,
+   159,
+   180,
+   134,
+   77,
+   234,
+   88
+  ],
+  "warnings": []
+ }
+}

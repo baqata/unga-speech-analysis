@@ -1,0 +1,51 @@
+{
+ "id": "SDN_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  12,
+  14,
+  23,
+  34,
+  40,
+  47,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9a0bcae05da7172490cc6fcd58e260b88142888d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 1432,
+  "words_out": 1432,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   36,
+   78,
+   162,
+   106,
+   115,
+   163,
+   245,
+   201,
+   165,
+   71,
+   90
+  ],
+  "warnings": []
+ }
+}

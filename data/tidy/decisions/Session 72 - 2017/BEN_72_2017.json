@@ -1,0 +1,54 @@
+{
+ "id": "BEN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  18,
+  22,
+  29,
+  35,
+  38,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e94822b93801bbce24218ac9ccebb743f7b6858a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1178,
+  "words_out": 1177,
+  "retention": 0.9992,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   151,
+   86,
+   136,
+   142,
+   171,
+   129,
+   141,
+   87,
+   55,
+   79
+  ],
+  "warnings": []
+ }
+}

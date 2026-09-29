@@ -1,0 +1,114 @@
+{
+ "id": "SWZ_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  19,
+  24,
+  26,
+  31,
+  33,
+  40,
+  45,
+  49,
+  54,
+  58,
+  61,
+  64,
+  69,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "world? s",
+   "world's",
+   "ocr"
+  ],
+  [
+   22,
+   "the resistance rendered",
+   "the assistance rendered",
+   "ocr"
+  ],
+  [
+   23,
+   "the/ benefit",
+   "the benefit",
+   "ocr"
+  ],
+  [
+   25,
+   "know- how",
+   "know-how",
+   "spacing"
+  ],
+  [
+   27,
+   " [FRELIMO]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "neighborliness, .and",
+   "neighborliness, and",
+   "ocr"
+  ],
+  [
+   54,
+   "in-creasing",
+   "increasing",
+   "hyphen"
+  ],
+  [
+   69,
+   " [NATO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85277e58225f39ca80f6349271115ea94fc185a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2140,
+  "words_out": 2136,
+  "retention": 0.9981,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   181,
+   84,
+   119,
+   96,
+   186,
+   47,
+   147,
+   85,
+   147,
+   98,
+   119,
+   132,
+   114,
+   112,
+   94,
+   143,
+   104,
+   128
+  ],
+  "warnings": []
+ }
+}

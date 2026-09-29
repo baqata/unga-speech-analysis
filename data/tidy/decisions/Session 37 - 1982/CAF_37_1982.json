@@ -1,0 +1,109 @@
+{
+ "id": "CAF_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  40,
+  61,
+  81,
+  107,
+  124,
+  143,
+  162,
+  180,
+  194,
+  216,
+  235,
+  258,
+  273,
+  284,
+  299,
+  316,
+  326
+ ],
+ "cer": [
+  11,
+  316
+ ],
+ "fix": [
+  [
+   27,
+   "aid",
+   "and",
+   "ocr"
+  ],
+  [
+   51,
+   "Nation:",
+   "Nations",
+   "ocr"
+  ],
+  [
+   77,
+   "my (delegation",
+   "my delegation",
+   "ocr"
+  ],
+  [
+   143,
+   "33. ",
+   "",
+   "label"
+  ],
+  [
+   162,
+   "36. ",
+   "",
+   "label"
+  ],
+  [
+   180,
+   "North- South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   302,
+   "a§",
+   "as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c1d3bf09ea29da629c7d6d942412e48793a9bf46",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 339,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2404,
+  "words_out": 2401,
+  "retention": 0.9988,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   92,
+   214,
+   151,
+   143,
+   186,
+   127,
+   133,
+   132,
+   124,
+   106,
+   142,
+   126,
+   159,
+   106,
+   74,
+   111,
+   120,
+   65,
+   90
+  ],
+  "warnings": []
+ }
+}

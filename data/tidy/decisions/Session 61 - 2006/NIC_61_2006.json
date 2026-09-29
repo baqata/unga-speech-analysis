@@ -1,0 +1,61 @@
+{
+ "id": "NIC_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  30,
+  44,
+  63,
+  87,
+  112,
+  125,
+  149,
+  175,
+  185,
+  203,
+  215,
+  236,
+  256
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e3388062b21657c389a64907bdc9cc4a3a9f5397",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 267,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2106,
+  "words_out": 2105,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   20,
+   63,
+   144,
+   105,
+   143,
+   197,
+   214,
+   115,
+   199,
+   194,
+   74,
+   142,
+   93,
+   144,
+   161,
+   97
+  ],
+  "warnings": []
+ }
+}

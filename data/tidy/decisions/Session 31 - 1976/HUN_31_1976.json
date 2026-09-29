@@ -1,0 +1,163 @@
+{
+ "id": "HUN_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  18,
+  22,
+  26,
+  32,
+  38,
+  41,
+  47,
+  52,
+  58,
+  63,
+  66,
+  68,
+  73,
+  78,
+  80,
+  87,
+  89,
+  93,
+  96,
+  99,
+  102,
+  107,
+  110,
+  113
+ ],
+ "cer": [
+  0,
+  113
+ ],
+ "fix": [
+  [
+   1,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   6,
+   "and . nations",
+   "and nations",
+   "ocr"
+  ],
+  [
+   13,
+   "ex-change",
+   "exchange",
+   "hyphen"
+  ],
+  [
+   18,
+   "economic, problems",
+   "economic problems",
+   "ocr"
+  ],
+  [
+   21,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   33,
+   "past, few",
+   "past few",
+   "ocr"
+  ],
+  [
+   45,
+   " [Aj31/232]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   " [SALT]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "weapons\" is",
+   "weapons is",
+   "ocr"
+  ],
+  [
+   58,
+   "weapons.'",
+   "weapons.",
+   "ocr"
+  ],
+  [
+   60,
+   " [see resolution 3479(XXX), annex]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   " [resolution 3390 (XXX)]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   " [see A/311197, annex IV]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14278c36aa6d42828b6d0f92ab6eb72cf314d14b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3308,
+  "words_out": 3293,
+  "retention": 0.9955,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   104,
+   164,
+   181,
+   166,
+   137,
+   132,
+   124,
+   86,
+   163,
+   149,
+   160,
+   150,
+   97,
+   56,
+   191,
+   98,
+   48,
+   176,
+   61,
+   105,
+   85,
+   97,
+   84,
+   149,
+   102,
+   87,
+   141
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "BRA_19_1964",
+ "drop": [
+  [
+   80,
+   80,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  18,
+  22,
+  30,
+  36,
+  44,
+  47,
+  53,
+  60,
+  68,
+  79,
+  83,
+  90,
+  93,
+  102,
+  109,
+  114,
+  119,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Nations. and",
+   "Nations and",
+   "ocr"
+  ],
+  [
+   17,
+   "loyally",
+   "loyalty",
+   "ocr"
+  ],
+  [
+   35,
+   "Without if nothing",
+   "Without it nothing",
+   "ocr"
+  ],
+  [
+   43,
+   "Aa we",
+   "As we",
+   "ocr"
+  ],
+  [
+   85,
+   "future’",
+   "future",
+   "ocr"
+  ],
+  [
+   89,
+   "arrangements. conducive",
+   "arrangements conducive",
+   "ocr"
+  ],
+  [
+   91,
+   "since- this",
+   "since this",
+   "ocr"
+  ],
+  [
+   103,
+   "contemplated to.",
+   "contemplated to",
+   "ocr"
+  ],
+  [
+   107,
+   "Peace-keepingoperations'1",
+   "Peace-keeping operations\"",
+   "ocr"
+  ],
+  [
+   111,
+   "operations- falling",
+   "operations falling",
+   "ocr"
+  ],
+  [
+   125,
+   "duly",
+   "duty",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4cf3a707f8745d6a1ccf65a2a64590536bb1084f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3012,
+  "words_out": 2982,
+  "retention": 0.99,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   213,
+   186,
+   99,
+   238,
+   107,
+   220,
+   66,
+   116,
+   182,
+   169,
+   287,
+   61,
+   149,
+   85,
+   254,
+   135,
+   137,
+   91,
+   134,
+   53
+  ],
+  "warnings": []
+ }
+}

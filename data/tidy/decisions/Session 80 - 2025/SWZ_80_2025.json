@@ -1,0 +1,82 @@
+{
+ "id": "SWZ_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   80,
+   80,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  11,
+  19,
+  25,
+  31,
+  38,
+  44,
+  52,
+  61,
+  68,
+  71,
+  74,
+  78
+ ],
+ "cer": [
+  2,
+  78
+ ],
+ "fix": [
+  [
+   42,
+   "theme BETA together",
+   "theme Better Together",
+   "asr_term"
+  ],
+  [
+   53,
+   "eroded physical space",
+   "eroded fiscal space",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "816a5fb5a2c4d92ac1446ee1c707187efa29c10a",
+ "layout": "single",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1687,
+  "words_out": 1634,
+  "retention": 0.9686,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   93,
+   111,
+   211,
+   112,
+   86,
+   130,
+   125,
+   219,
+   175,
+   130,
+   88,
+   73,
+   72,
+   9
+  ],
+  "warnings": []
+ }
+}

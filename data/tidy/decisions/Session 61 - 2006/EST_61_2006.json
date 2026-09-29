@@ -1,0 +1,56 @@
+{
+ "id": "EST_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  32,
+  42,
+  56,
+  71,
+  81,
+  98,
+  120,
+  137,
+  159,
+  174
+ ],
+ "cer": [
+  0,
+  174
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6bd0c33399b60339dbb85fd871d2debad5c00a0c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 182,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1369,
+  "words_out": 1366,
+  "retention": 0.9978,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   71,
+   66,
+   94,
+   80,
+   104,
+   114,
+   68,
+   103,
+   161,
+   136,
+   187,
+   124,
+   58
+  ],
+  "warnings": []
+ }
+}

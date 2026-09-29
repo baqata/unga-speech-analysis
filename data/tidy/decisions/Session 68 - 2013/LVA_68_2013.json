@@ -1,0 +1,54 @@
+{
+ "id": "LVA_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  44,
+  57,
+  61,
+  72,
+  88,
+  101,
+  109,
+  118
+ ],
+ "cer": [],
+ "fix": [
+  [
+   71,
+   "process, .",
+   "process.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56a151a8869e7b67478514eaef3fa9acea6f1bd7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 960,
+  "words_out": 959,
+  "retention": 0.999,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   107,
+   87,
+   140,
+   90,
+   30,
+   85,
+   122,
+   86,
+   69,
+   69,
+   74
+  ],
+  "warnings": []
+ }
+}

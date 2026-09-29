@@ -1,0 +1,84 @@
+{
+ "id": "BOL_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  44,
+  57,
+  71,
+  92,
+  111,
+  121,
+  145,
+  158,
+  178,
+  189,
+  204,
+  227
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   " [resolution 1514 (XV)]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   " [A/7601/Add.1, para. 43.]",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "can. be",
+   "can be",
+   "ocr"
+  ],
+  [
+   129,
+   "productivity, of",
+   "productivity of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "272bdf9feb178a2b8918bf6c3a4b82e54914a153",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 245,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2194,
+  "words_out": 2164,
+  "retention": 0.9863,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   135,
+   110,
+   160,
+   120,
+   122,
+   172,
+   167,
+   85,
+   200,
+   111,
+   188,
+   97,
+   132,
+   193,
+   172
+  ],
+  "warnings": []
+ }
+}

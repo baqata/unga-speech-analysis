@@ -1,0 +1,57 @@
+{
+ "id": "MAR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  14,
+  17,
+  24,
+  28,
+  32,
+  36,
+  41,
+  46,
+  49,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a25100ea4cf499d984ae402145d5425bded3636e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1453,
+  "words_out": 1451,
+  "retention": 0.9986,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   32,
+   135,
+   109,
+   67,
+   98,
+   142,
+   104,
+   92,
+   84,
+   166,
+   153,
+   112,
+   110,
+   47
+  ],
+  "warnings": []
+ }
+}

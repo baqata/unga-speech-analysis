@@ -1,0 +1,160 @@
+{
+ "id": "MEX_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "repeat"
+  ],
+  [
+   71,
+   71,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  6,
+  10,
+  17,
+  29,
+  32,
+  40,
+  49,
+  53,
+  57,
+  61,
+  64,
+  70
+ ],
+ "cer": [
+  2,
+  70
+ ],
+ "fix": [
+  [
+   2,
+   "Excellency",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   3,
+   "Scheinbaum-Pardo",
+   "Sheinbaum Pardo",
+   "asr_name"
+  ],
+  [
+   12,
+   "in poverty",
+   "labour poverty",
+   "interp"
+  ],
+  [
+   17,
+   "Scheinbaum",
+   "Sheinbaum",
+   "asr_name"
+  ],
+  [
+   41,
+   "civility",
+   "stability",
+   "interp"
+  ],
+  [
+   49,
+   "Benustiano",
+   "Venustiano",
+   "asr_name"
+  ],
+  [
+   53,
+   " autorisation.",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   58,
+   "forests",
+   "forums",
+   "asr_term"
+  ],
+  [
+   68,
+   "Scheinbaum",
+   "Sheinbaum",
+   "asr_name"
+  ],
+  [
+   37,
+   "to. the",
+   "to. The",
+   "asr_term"
+  ],
+  [
+   58,
+   "Alliance. our",
+   "Alliance. Our",
+   "asr_term"
+  ],
+  [
+   41,
+   "people's",
+   "peoples",
+   "asr_term"
+  ],
+  [
+   59,
+   "pull",
+   "pool",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Spanish: unit 12 per 'pobreza laboral', unit 41 per 'la estabilidad entre las naciones'; unit 1 is a mistimed copy of the salutation with invented words; Sheinbaum Pardo, Venustiano Carranza, UN80 and 'foros' per the speaker's Spanish; unit 53 'autorisation.' is a decode echo of 'polarisation.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 37 'to. the' -> 'to. The'; unit 58 'Alliance. our' -> 'Alliance. Our'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 11 unit 41 'people's' -> 'peoples' (same sound; decode 1 'peoples,' (0.57); ES 'la autodeterminación de los pueblos y la no intervención'; possessive 'people's non-interference' does not fit); spot 17 unit 59 'pull' -> 'pool' (homophone; both decodes hear 'pool' (0.72 / 0.70); ES 'nos llama a sumar esfuerzos'; 'pull our efforts' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "bbe598b0d6f86a6ddc9c294d07ebd88984cf5a52",
+ "layout": "single",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "presider": 2,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 1802,
+  "words_out": 1770,
+  "retention": 0.9822,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   3,
+   130,
+   139,
+   122,
+   201,
+   87,
+   210,
+   215,
+   126,
+   100,
+   193,
+   95,
+   145,
+   4
+  ],
+  "warnings": []
+ }
+}

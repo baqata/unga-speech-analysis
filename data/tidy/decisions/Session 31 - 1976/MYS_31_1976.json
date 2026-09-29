@@ -1,0 +1,223 @@
+{
+ "id": "MYS_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  12,
+  19,
+  25,
+  29,
+  35,
+  37,
+  40,
+  44,
+  45,
+  47,
+  52,
+  56,
+  62,
+  68,
+  72,
+  74,
+  78,
+  82,
+  88,
+  92,
+  97,
+  102
+ ],
+ "cer": [
+  0,
+  5,
+  10
+ ],
+ "fix": [
+  [
+   2,
+   "from a Country",
+   "from a country",
+   "ocr"
+  ],
+  [
+   16,
+   "where, durable",
+   "where durable",
+   "ocr"
+  ],
+  [
+   42,
+   "1973.1 would",
+   "1973. I would",
+   "ocr"
+  ],
+  [
+   42,
+   " [5 th meeting, para. 174]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "be-tween",
+   "between",
+   "hyphen"
+  ],
+  [
+   52,
+   "through, a mutually",
+   "through a mutually",
+   "ocr"
+  ],
+  [
+   68,
+   "racial, war",
+   "racial war",
+   "ocr"
+  ],
+  [
+   69,
+   "change is the situation",
+   "change in the situation",
+   "ocr"
+  ],
+  [
+   79,
+   "Turkish- Cypriot",
+   "Turkish-Cypriot",
+   "spacing"
+  ],
+  [
+   81,
+   "of .the Secretary-General",
+   "of the Secretary-General",
+   "ocr"
+  ],
+  [
+   81,
+   "inter- communal",
+   "inter-communal",
+   "spacing"
+  ],
+  [
+   82,
+   "into the, second",
+   "into the second",
+   "ocr"
+  ],
+  [
+   83,
+   "Decade to. ensure",
+   "Decade to ensure",
+   "ocr"
+  ],
+  [
+   87,
+   "> Assembly",
+   "Assembly",
+   "ocr"
+  ],
+  [
+   87,
+   " [resolutions 3201 (S-VI) and 3202 (S-VI)J",
+   "",
+   "label"
+  ],
+  [
+   87,
+   " [resolution 3281 (XXIX)]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "endorsement- of",
+   "endorsement of",
+   "ocr"
+  ],
+  [
+   88,
+   "concerning the. restructuring",
+   "concerning the restructuring",
+   "ocr"
+  ],
+  [
+   94,
+   "The-results",
+   "The results",
+   "ocr"
+  ],
+  [
+   96,
+   "pro-motion",
+   "promotion",
+   "hyphen"
+  ],
+  [
+   102,
+   "wherein Jill nations",
+   "wherein all nations",
+   "ocr"
+  ],
+  [
+   103,
+   "in .genuine",
+   "in genuine",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "520287ed8bd0fca7f791312f7ee9ab6389c037a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 30
+  },
+  "words_in": 3376,
+  "words_out": 3360,
+  "retention": 0.9953,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   159,
+   132,
+   77,
+   223,
+   142,
+   185,
+   214,
+   135,
+   97,
+   174,
+   68,
+   107,
+   112,
+   131,
+   192,
+   159,
+   112,
+   64,
+   104,
+   117,
+   159,
+   121,
+   175,
+   154,
+   47
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

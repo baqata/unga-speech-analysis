@@ -1,0 +1,152 @@
+{
+ "id": "LAO_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  13,
+  21,
+  25,
+  30,
+  32,
+  38,
+  42,
+  49,
+  53,
+  57,
+  63,
+  67,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "merged_word"
+  ],
+  [
+   5,
+   "hap been",
+   "has been",
+   "ocr"
+  ],
+  [
+   30,
+   " (resolution 2660 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "planet, It",
+   "planet. It",
+   "ocr"
+  ],
+  [
+   31,
+   "Lac*",
+   "Laos",
+   "ocr"
+  ],
+  [
+   36,
+   ">of",
+   "of",
+   "ocr"
+  ],
+  [
+   50,
+   "tightness",
+   "rightness",
+   "ocr"
+  ],
+  [
+   54,
+   "b y",
+   "by",
+   "split_word"
+  ],
+  [
+   60,
+   "Personally;,",
+   "Personally,",
+   "ocr"
+  ],
+  [
+   60,
+   "ultimate,",
+   "ultimatums.",
+   "ocr"
+  ],
+  [
+   62,
+   "negotiat'ons",
+   "negotiations",
+   "ocr"
+  ],
+  [
+   62,
+   "VistNam",
+   "VietNam",
+   "ocr"
+  ],
+  [
+   62,
+   "are?,",
+   "area,",
+   "ocr"
+  ],
+  [
+   65,
+   "Lacs",
+   "Laos",
+   "ocr"
+  ],
+  [
+   73,
+   "headed",
+   "heeded",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "367e9b88b90e39b3854d200d1d1186a47aaa2e20",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2160,
+  "words_out": 2155,
+  "retention": 0.9977,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   191,
+   99,
+   114,
+   238,
+   139,
+   113,
+   82,
+   127,
+   123,
+   139,
+   139,
+   131,
+   164,
+   135,
+   122,
+   99
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "DZA_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  10,
+  12,
+  20,
+  23,
+  26,
+  32,
+  35,
+  40,
+  45,
+  49,
+  52,
+  55,
+  60,
+  65,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "post- Second",
+   "post-Second",
+   "hyphen"
+  ],
+  [
+   39,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49d2048782081fcb994e4c38e48f461f7d042a42",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2153,
+  "words_out": 2151,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   36,
+   102,
+   98,
+   65,
+   164,
+   100,
+   88,
+   169,
+   64,
+   214,
+   156,
+   135,
+   82,
+   91,
+   122,
+   182,
+   190,
+   93
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "NAM_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  45,
+  72,
+  91,
+  107,
+  128,
+  144,
+  164,
+  177,
+  193
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f61fbde208ed47eaebc99acfafcc21143ef299d2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1573,
+  "words_out": 1567,
+  "retention": 0.9962,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   68,
+   129,
+   150,
+   192,
+   142,
+   113,
+   169,
+   117,
+   147,
+   102,
+   119,
+   119
+  ],
+  "warnings": []
+ }
+}

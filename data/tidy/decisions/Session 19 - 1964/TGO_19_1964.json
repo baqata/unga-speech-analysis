@@ -1,0 +1,73 @@
+{
+ "id": "TGO_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  12,
+  17,
+  23,
+  27,
+  29
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "Assembly,",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   6,
+   "1 believe",
+   "I believe",
+   "ocr"
+  ],
+  [
+   22,
+   "in Conformity",
+   "in conformity",
+   "ocr"
+  ],
+  [
+   27,
+   "vis-&-vis",
+   "vis-à-vis",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e35c1d616a7678a094593ae19729e334c6493e58",
+ "layout": "lines",
+ "stats": {
+  "n_units": 30,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 1054,
+  "words_out": 1054,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   168,
+   118,
+   92,
+   125,
+   168,
+   126,
+   132,
+   55,
+   70
+  ],
+  "warnings": []
+ }
+}

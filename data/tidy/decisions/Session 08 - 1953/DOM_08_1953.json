@@ -1,0 +1,81 @@
+{
+ "id": "DOM_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  15,
+  18,
+  21,
+  24,
+  28,
+  32,
+  35,
+  38,
+  42,
+  46
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "only,",
+   "only",
+   "ocr"
+  ],
+  [
+   2,
+   "of'",
+   "of",
+   "ocr"
+  ],
+  [
+   36,
+   "[A/2415 and Add.1]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "'the",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5854c922672833f13c69c49e150606a69d8edb68",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 27
+  },
+  "words_in": 2339,
+  "words_out": 2330,
+  "retention": 0.9962,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   193,
+   210,
+   101,
+   184,
+   220,
+   101,
+   163,
+   197,
+   138,
+   142,
+   198,
+   161,
+   236,
+   86
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "QAT_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   83,
+   83,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  15,
+  20,
+  22,
+  33,
+  36,
+  40,
+  42,
+  45,
+  56,
+  59,
+  67,
+  71,
+  77
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   3,
+   "Mr. Khalil Rahman",
+   "Mr. Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   4,
+   "Baabock",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   64,
+   "territory. territory.",
+   "territory.",
+   "asr_term"
+  ],
+  [
+   17,
+   "erupt. owing",
+   "erupt owing",
+   "asr_term"
+  ],
+  [
+   40,
+   "image. it's",
+   "image. It's",
+   "asr_term"
+  ],
+  [
+   42,
+   "entirety. a",
+   "entirety. A",
+   "asr_term"
+  ],
+  [
+   22,
+   "effort",
+   "efforts",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "PGA name as in other 2026 speeches; Annalena Baerbock, President of the 80th session. Main-agent audit: unit 64 'territory.' heard once (p 1.00 at every start); the second is a decode repeat. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 17 'erupt. owing' -> 'erupt owing'; unit 40 'image. it's' -> 'image. It's'; unit 42 'entirety. a' -> 'entirety. A'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 22 'effort' -> 'efforts' (both decodes clearly hear 'efforts' (0.95 / 0.94); ES 'mediante esfuerzos diplomáticos')",
+ "unitizer_version": 1,
+ "sha1": "984c682eeda22c8a98aab79629336bde558418f9",
+ "layout": "single",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2215,
+  "words_out": 2163,
+  "retention": 0.9765,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   127,
+   157,
+   229,
+   106,
+   253,
+   90,
+   100,
+   163,
+   123,
+   247,
+   92,
+   180,
+   102,
+   124,
+   70
+  ],
+  "warnings": []
+ }
+}

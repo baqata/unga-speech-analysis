@@ -1,0 +1,98 @@
+{
+ "id": "DNK_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  34,
+  45,
+  63,
+  82,
+  91,
+  106,
+  116,
+  134,
+  156,
+  171,
+  182,
+  200
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   23,
+   "Statesí",
+   "States’",
+   "encoding"
+  ],
+  [
+   55,
+   "Denmarkís",
+   "Denmark’s",
+   "encoding"
+  ],
+  [
+   59,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ],
+  [
+   60,
+   " (see )",
+   "",
+   "label"
+  ],
+  [
+   126,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   168,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7d6a05dd34398ad0b172d201115b559819b5e69e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1640,
+  "words_out": 1635,
+  "retention": 0.997,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   179,
+   90,
+   98,
+   135,
+   139,
+   56,
+   117,
+   82,
+   127,
+   175,
+   118,
+   87,
+   126,
+   106
+  ],
+  "warnings": []
+ }
+}

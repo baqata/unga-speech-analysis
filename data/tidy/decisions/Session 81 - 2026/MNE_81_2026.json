@@ -1,0 +1,200 @@
+{
+ "id": "MNE_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   128,
+   128,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  11,
+  21,
+  26,
+  33,
+  44,
+  55,
+  58,
+  68,
+  78,
+  82,
+  87,
+  95,
+  102,
+  110,
+  116,
+  123,
+  127
+ ],
+ "cer": [
+  2,
+  127
+ ],
+ "fix": [
+  [
+   2,
+   "Rachman",
+   "Rahman",
+   "asr_name"
+  ],
+  [
+   4,
+   "Gutierrez",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   4,
+   "with deeply",
+   "we deeply",
+   "asr_term"
+  ],
+  [
+   112,
+   "montenegro",
+   "Montenegro",
+   "asr_name"
+  ],
+  [
+   112,
+   "adriatic sea",
+   "Adriatic Sea",
+   "asr_name"
+  ],
+  [
+   116,
+   "hole",
+   "hall",
+   "asr_term"
+  ],
+  [
+   119,
+   "hole",
+   "hall",
+   "asr_term"
+  ],
+  [
+   117,
+   "our our",
+   "our",
+   "asr_term"
+  ],
+  [
+   68,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   116,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   126,
+   "Excellences",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   66,
+   "transparent. and",
+   "transparent. And",
+   "asr_term"
+  ],
+  [
+   85,
+   "character. we",
+   "character. We",
+   "asr_term"
+  ],
+  [
+   112,
+   "around. climate",
+   "around. Climate",
+   "asr_term"
+  ],
+  [
+   125,
+   "weight. to",
+   "weight. To",
+   "asr_term"
+  ],
+  [
+   30,
+   "a multi",
+   "the multi",
+   "asr_term"
+  ],
+  [
+   33,
+   "the value",
+   "a value",
+   "asr_term"
+  ],
+  [
+   44,
+   "Balkan",
+   "Balkans",
+   "asr_name"
+  ],
+  [
+   73,
+   "own. supports",
+   "own. Montenegro supports",
+   "asr_name"
+  ],
+  [
+   68,
+   "to this end",
+   "to an end",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Rahman and Guterres per the Spanish channel and the UN speakers list; 'hall' per Spanish 'salón'. Main-agent audit: unit 48 'economic integration' kept as heard (p 0.95 or more at every start; the Spanish interpreter has 'integración europea'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 117 'our our' -> 'our'. Main-agent term check (speech-to-text spelling of the form of address, and misheard words): unit 68 'Excellences' -> 'Excellencies'; unit 116 'Excellences' -> 'Excellencies'; unit 126 'Excellences' -> 'Excellencies'; unit 68 repair of 'to this end' withdrawn (the speaker spoke English and three re-decodes hear 'to this end' at p 0.95-0.99). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 66 'transparent. and' -> 'transparent. And'; unit 73 'own. supports' -> 'own. Supports'; unit 85 'character. we' -> 'character. We'; unit 112 'around. climate' -> 'around. Climate'; unit 125 'weight. to' -> 'weight. To'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 30 'a multi' -> 'the multi' (both decodes clearly hear 'the' (0.95 / 0.96); ES 'el carácter multietnico'); spot 7 unit 33 'the value' -> 'a value' (both decodes clearly hear 'a' (0.96 / 0.95); ES 'es un viaje basado en valores'); spot 9 unit 44 'Balkan' -> 'Balkans' (final s merges with 'Summit' (decodes 'Balkan' 0.89); event name is the EU-Western Balkans Summit; ES 'cumbre Unión Europea-Balcanes Occidentales'); spot 13 unit 73 'own. supports' -> 'own. Montenegro supports' (2026 exception: both decodes clearly hear 'Montenegro' (0.99 / 0.98); ES 'Montenegro apoya la solución de los dos estados'; written over the unit's existing repair 'own. supports' -> 'own. Supports'). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 68 said 'bringing the war to this end' (three re-decodes p 0.95-0.99), which does not fit; the Spanish 'destinados a poner fin a la guerra' shows 'to an end'.",
+ "unitizer_version": 1,
+ "sha1": "3e63639106b8e9f1c1e485ba6e3d0206b4c227e0",
+ "layout": "single",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2484,
+  "words_out": 2443,
+  "retention": 0.9835,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   72,
+   131,
+   134,
+   97,
+   141,
+   199,
+   204,
+   77,
+   219,
+   144,
+   94,
+   89,
+   111,
+   134,
+   176,
+   145,
+   171,
+   100,
+   5
+  ],
+  "warnings": []
+ }
+}

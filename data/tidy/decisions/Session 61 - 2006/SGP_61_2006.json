@@ -1,0 +1,55 @@
+{
+ "id": "SGP_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  18,
+  34,
+  47,
+  68,
+  88,
+  116,
+  143,
+  163,
+  190,
+  214,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5e49ac9dd8442c0b3612b1266c4f8a822a5ec224",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1985,
+  "words_out": 1983,
+  "retention": 0.999,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   23,
+   113,
+   141,
+   113,
+   170,
+   165,
+   202,
+   216,
+   158,
+   234,
+   184,
+   129,
+   135
+  ],
+  "warnings": []
+ }
+}

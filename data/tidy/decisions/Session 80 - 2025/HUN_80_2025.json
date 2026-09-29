@@ -1,0 +1,69 @@
+{
+ "id": "HUN_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  11,
+  21,
+  29,
+  37,
+  43,
+  52,
+  55,
+  64,
+  71,
+  86,
+  96,
+  107,
+  115,
+  124,
+  131,
+  137
+ ],
+ "cer": [
+  137
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a8cf7c12fa5f6fd2194170c8aede864e5f1d29e",
+ "layout": "single",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2062,
+  "words_out": 2044,
+  "retention": 0.9913,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   161,
+   115,
+   109,
+   124,
+   139,
+   128,
+   65,
+   162,
+   104,
+   166,
+   117,
+   123,
+   106,
+   153,
+   144,
+   120,
+   8
+  ],
+  "warnings": []
+ }
+}

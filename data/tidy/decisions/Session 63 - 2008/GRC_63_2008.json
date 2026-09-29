@@ -1,0 +1,60 @@
+{
+ "id": "GRC_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  42,
+  60,
+  84,
+  105,
+  125,
+  150,
+  175,
+  202,
+  222,
+  242
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b5faef304b22fc0417d6c1d132bb50e170795454",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 3,
+   "job_number": 2,
+   "page_number": 2
+  },
+  "words_in": 2026,
+  "words_out": 2021,
+  "retention": 0.9975,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   163,
+   189,
+   148,
+   189,
+   199,
+   164,
+   183,
+   191,
+   213,
+   161,
+   138,
+   83
+  ],
+  "warnings": []
+ }
+}

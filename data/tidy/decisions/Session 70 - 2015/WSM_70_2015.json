@@ -1,0 +1,82 @@
+{
+ "id": "WSM_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  17,
+  22,
+  28,
+  34,
+  37,
+  41,
+  47,
+  53,
+  56,
+  60,
+  67,
+  74,
+  81,
+  86,
+  89,
+  90,
+  96,
+  105
+ ],
+ "cer": [],
+ "fix": [
+  [
+   34,
+   "low- lying",
+   "low-lying",
+   "hyphen"
+  ],
+  [
+   101,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1b91f37ca413b1cd281284fb76e67549be0d8a48",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 2557,
+  "words_out": 2551,
+  "retention": 0.9977,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   119,
+   143,
+   131,
+   82,
+   154,
+   134,
+   144,
+   101,
+   174,
+   128,
+   90,
+   115,
+   85,
+   118,
+   120,
+   106,
+   90,
+   67,
+   209,
+   142,
+   99
+  ],
+  "warnings": []
+ }
+}

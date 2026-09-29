@@ -1,0 +1,90 @@
+{
+ "id": "SDN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   75,
+   75,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  7,
+  17,
+  21,
+  28,
+  37,
+  43,
+  51,
+  54,
+  56,
+  62,
+  66,
+  70,
+  74
+ ],
+ "cer": [
+  2,
+  74
+ ],
+ "fix": [
+  [
+   2,
+   "Annalena Raibok",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   3,
+   "Annalena Raibok",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   23,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9957bf1810bfb00c73f32333264ff63b8c13ac56",
+ "layout": "single",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1886,
+  "words_out": 1830,
+  "retention": 0.9703,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   144,
+   65,
+   189,
+   79,
+   189,
+   181,
+   130,
+   177,
+   83,
+   136,
+   152,
+   125,
+   124,
+   49,
+   7
+  ],
+  "warnings": []
+ }
+}

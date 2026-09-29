@@ -1,0 +1,106 @@
+{
+ "id": "HND_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  14,
+  17,
+  23,
+  29,
+  37,
+  40,
+  44,
+  48,
+  51,
+  57,
+  63,
+  68,
+  71,
+  73,
+  76,
+  80,
+  86,
+  88,
+  91,
+  94,
+  102,
+  106,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "the Independence",
+   "the independence",
+   "ocr"
+  ],
+  [
+   67,
+   " [Swan]",
+   "",
+   "label"
+  ],
+  [
+   95,
+   "Dfaz",
+   "Díaz",
+   "ocr"
+  ],
+  [
+   100,
+   "feature ox",
+   "feature of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9a69d1fc49787d8403f4c54ae88cb5f0d621a597",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3127,
+  "words_out": 3091,
+  "retention": 0.9885,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   132,
+   121,
+   73,
+   87,
+   98,
+   125,
+   142,
+   233,
+   64,
+   79,
+   93,
+   103,
+   148,
+   176,
+   139,
+   91,
+   79,
+   72,
+   99,
+   146,
+   85,
+   63,
+   62,
+   184,
+   117,
+   137,
+   143
+  ],
+  "warnings": []
+ }
+}

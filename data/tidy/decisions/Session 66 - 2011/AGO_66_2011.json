@@ -1,0 +1,54 @@
+{
+ "id": "AGO_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  28,
+  52,
+  71,
+  92,
+  116,
+  141,
+  170,
+  182,
+  196,
+  221
+ ],
+ "cer": [
+  0,
+  17
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "235c21202f6b7cc457a2bbcea55bf1ca4c94b547",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 230,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1760,
+  "words_out": 1759,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   129,
+   84,
+   189,
+   124,
+   162,
+   195,
+   191,
+   221,
+   93,
+   109,
+   194,
+   68
+  ],
+  "warnings": []
+ }
+}

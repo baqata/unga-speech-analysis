@@ -1,0 +1,123 @@
+{
+ "id": "LSO_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  12,
+  18,
+  21,
+  29,
+  37,
+  44,
+  50,
+  56,
+  61,
+  69,
+  76,
+  80,
+  84,
+  89
+ ],
+ "cer": [
+  2,
+  89
+ ],
+ "fix": [
+  [
+   5,
+   "Philemon Nyang",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   13,
+   "South African Development Community",
+   "Southern African Development Community",
+   "asr_name"
+  ],
+  [
+   17,
+   "Committee of Nations",
+   "comity of nations",
+   "asr_term"
+  ],
+  [
+   18,
+   "South African Development Community",
+   "Southern African Development Community",
+   "asr_name"
+  ],
+  [
+   21,
+   "ATF Session",
+   "80th Session",
+   "asr_term"
+  ],
+  [
+   21,
+   "Eight Years and More",
+   "Eighty Years and More",
+   "asr_term"
+  ],
+  [
+   31,
+   "King Luthier III",
+   "King Letsie III",
+   "asr_name"
+  ],
+  [
+   65,
+   "Esulini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   66,
+   "UN8 initiative",
+   "UN80 initiative",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2907c05dd2bdae15a70b8ee46d7bb116c244d345",
+ "layout": "single",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1984,
+  "words_out": 1938,
+  "retention": 0.9768,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   207,
+   104,
+   179,
+   90,
+   177,
+   173,
+   135,
+   97,
+   116,
+   95,
+   143,
+   132,
+   80,
+   89,
+   113,
+   8
+  ],
+  "warnings": []
+ }
+}

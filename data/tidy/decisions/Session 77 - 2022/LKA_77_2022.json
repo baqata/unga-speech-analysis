@@ -1,0 +1,88 @@
+{
+ "id": "LKA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  19,
+  23,
+  30,
+  37,
+  42,
+  47,
+  50,
+  55,
+  60,
+  64,
+  68,
+  71,
+  75,
+  77,
+  80,
+  85,
+  88,
+  94,
+  96,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   62,
+   "low- income",
+   "low-income",
+   "hyphen"
+  ],
+  [
+   79,
+   "partnership- based",
+   "partnership-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89e7d190e7cb1174071143ef43ed5a88c1d217c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2567,
+  "words_out": 2565,
+  "retention": 0.9992,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   134,
+   156,
+   90,
+   96,
+   110,
+   148,
+   144,
+   94,
+   126,
+   67,
+   134,
+   97,
+   108,
+   97,
+   61,
+   74,
+   83,
+   77,
+   119,
+   106,
+   110,
+   80,
+   127,
+   127
+  ],
+  "warnings": []
+ }
+}

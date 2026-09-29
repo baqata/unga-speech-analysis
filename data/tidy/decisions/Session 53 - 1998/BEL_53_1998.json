@@ -1,0 +1,121 @@
+{
+ "id": "BEL_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  30,
+  45,
+  61,
+  71,
+  90,
+  104,
+  117,
+  128,
+  148,
+  168,
+  188,
+  209,
+  230,
+  245,
+  258,
+  264,
+  280,
+  289,
+  303
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "communityâs",
+   "community’s",
+   "encoding"
+  ],
+  [
+   34,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ],
+  [
+   42,
+   "manâs",
+   "man’s",
+   "encoding"
+  ],
+  [
+   45,
+   "Todayâs",
+   "Today’s",
+   "encoding"
+  ],
+  [
+   233,
+   "Childrenâs",
+   "Children’s",
+   "encoding"
+  ],
+  [
+   245,
+   "Governmentâs",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   305,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ],
+  [
+   310,
+   "countryâs",
+   "country’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2694d87ff8d2246cf3bc6682fd2fc73aec2f0c3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 312,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 10,
+   "page_number": 3
+  },
+  "words_in": 2675,
+  "words_out": 2674,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   60,
+   177,
+   115,
+   156,
+   90,
+   172,
+   122,
+   110,
+   84,
+   182,
+   173,
+   160,
+   183,
+   171,
+   135,
+   116,
+   51,
+   142,
+   76,
+   118,
+   81
+  ],
+  "warnings": []
+ }
+}

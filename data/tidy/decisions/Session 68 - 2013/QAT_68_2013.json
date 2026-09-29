@@ -1,0 +1,70 @@
+{
+ "id": "QAT_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  29,
+  54,
+  70,
+  80,
+  95,
+  108,
+  118,
+  144,
+  154,
+  175,
+  184,
+  196,
+  210,
+  221,
+  234,
+  244
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "Jeremi.,",
+   "Jeremić,",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea0656fac579ec88458793cf41658067101fe7b1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2071,
+  "words_out": 2068,
+  "retention": 0.9986,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   88,
+   134,
+   192,
+   137,
+   77,
+   119,
+   95,
+   87,
+   203,
+   81,
+   181,
+   87,
+   101,
+   111,
+   97,
+   106,
+   78,
+   94
+  ],
+  "warnings": []
+ }
+}

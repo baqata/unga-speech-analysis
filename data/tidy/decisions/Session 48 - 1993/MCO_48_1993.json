@@ -1,0 +1,52 @@
+{
+ "id": "MCO_48_1993",
+ "drop": [
+  [
+   88,
+   88,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  23,
+  42,
+  49,
+  64,
+  76,
+  91
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9a9035fc6a175a43b5efd7f745548e2c2df0c762",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 869,
+  "words_out": 863,
+  "retention": 0.9931,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   105,
+   94,
+   165,
+   65,
+   128,
+   111,
+   124,
+   71
+  ],
+  "warnings": []
+ }
+}

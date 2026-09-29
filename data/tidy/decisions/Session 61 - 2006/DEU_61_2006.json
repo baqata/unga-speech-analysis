@@ -1,0 +1,63 @@
+{
+ "id": "DEU_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  28,
+  45,
+  56,
+  76,
+  86,
+  99,
+  111,
+  126,
+  145,
+  160,
+  175,
+  193,
+  216,
+  227,
+  236
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c79cfe5cea2020f7f24b02066949456b7aca40b3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2086,
+  "words_out": 2085,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   57,
+   167,
+   138,
+   85,
+   161,
+   76,
+   110,
+   95,
+   130,
+   160,
+   123,
+   133,
+   133,
+   206,
+   94,
+   75,
+   142
+  ],
+  "warnings": []
+ }
+}

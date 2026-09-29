@@ -1,0 +1,80 @@
+{
+ "id": "ISR_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  31,
+  53,
+  69,
+  85,
+  97,
+  117,
+  129,
+  152,
+  170,
+  182,
+  196,
+  206,
+  224,
+  237,
+  250,
+  266,
+  281,
+  290
+ ],
+ "cer": [],
+ "fix": [
+  [
+   322,
+   "(The Holy",
+   "",
+   "label"
+  ],
+  [
+   323,
+   "Bible, Ecclesiastes 3:3-8)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1e0fc8df6014f6c40ac7e519e538e2dd9b37b59d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 324,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2676,
+  "words_out": 2666,
+  "retention": 0.9963,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   175,
+   75,
+   189,
+   127,
+   138,
+   97,
+   169,
+   96,
+   192,
+   154,
+   98,
+   118,
+   88,
+   149,
+   118,
+   97,
+   113,
+   111,
+   74,
+   288
+  ],
+  "warnings": []
+ }
+}

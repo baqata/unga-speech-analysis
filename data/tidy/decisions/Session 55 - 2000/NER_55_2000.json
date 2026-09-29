@@ -1,0 +1,77 @@
+{
+ "id": "NER_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  42,
+  69,
+  80,
+  95,
+  112,
+  137,
+  149,
+  166,
+  185,
+  205,
+  220,
+  240,
+  251,
+  284,
+  295,
+  304
+ ],
+ "cer": [
+  0,
+  284,
+  295,
+  304
+ ],
+ "fix": [
+  [
+   286,
+   "socalled",
+   "so-called",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4a535c27b47211def1323ae1a62b613f7f90188f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 312,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2432,
+  "words_out": 2432,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   73,
+   120,
+   110,
+   204,
+   82,
+   122,
+   131,
+   206,
+   98,
+   130,
+   145,
+   160,
+   127,
+   155,
+   79,
+   244,
+   98,
+   78,
+   70
+  ],
+  "warnings": []
+ }
+}

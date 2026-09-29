@@ -1,0 +1,171 @@
+{
+ "id": "CAN_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  18,
+  24,
+  29,
+  36,
+  41,
+  43,
+  46,
+  49,
+  52,
+  55,
+  59,
+  62,
+  70,
+  72,
+  77,
+  80,
+  84,
+  92,
+  99,
+  103,
+  107,
+  114,
+  119,
+  123,
+  126,
+  130,
+  136,
+  141,
+  149,
+  154,
+  161
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "lost year's",
+   "last year's",
+   "ocr"
+  ],
+  [
+   3,
+   "Island?,",
+   "Islands,",
+   "ocr"
+  ],
+  [
+   41,
+   "He can",
+   "We can",
+   "ocr"
+  ],
+  [
+   42,
+   "Pew people",
+   "Few people",
+   "ocr"
+  ],
+  [
+   42,
+   "He can and",
+   "We can and",
+   "ocr"
+  ],
+  [
+   47,
+   "at. the earliest",
+   "at the earliest",
+   "ocr"
+  ],
+  [
+   80,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   97,
+   "cheating stronger",
+   "creating stronger",
+   "ocr"
+  ],
+  [
+   101,
+   "the rapacity",
+   "the capacity",
+   "ocr"
+  ],
+  [
+   142,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   146,
+   "He know",
+   "We know",
+   "ocr"
+  ],
+  [
+   157,
+   "\"He the peoples",
+   "\"We the peoples",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3376e90702298c8fe9f297a0c341b5ab32deea01",
+ "layout": "lines",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3767,
+  "words_out": 3767,
+  "retention": 1.0,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   68,
+   59,
+   111,
+   167,
+   127,
+   129,
+   139,
+   145,
+   80,
+   87,
+   77,
+   78,
+   56,
+   70,
+   58,
+   158,
+   59,
+   108,
+   114,
+   79,
+   149,
+   157,
+   114,
+   71,
+   159,
+   94,
+   113,
+   105,
+   111,
+   130,
+   120,
+   141,
+   109,
+   113,
+   112
+  ],
+  "warnings": []
+ }
+}

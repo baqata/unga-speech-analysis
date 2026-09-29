@@ -1,0 +1,324 @@
+{
+ "id": "PAK_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  11,
+  13,
+  16,
+  19,
+  30,
+  36,
+  42,
+  48,
+  53,
+  56,
+  61,
+  64,
+  66,
+  71,
+  74,
+  76,
+  78,
+  82,
+  90,
+  92,
+  98,
+  104,
+  112,
+  117,
+  123,
+  126,
+  127,
+  130,
+  137,
+  140,
+  142,
+  145,
+  150,
+  152,
+  157,
+  164,
+  168,
+  170,
+  173,
+  176,
+  178,
+  184,
+  187,
+  189,
+  193,
+  197,
+  202,
+  205,
+  209,
+  213,
+  216,
+  217,
+  222,
+  231,
+  235,
+  243,
+  248,
+  251,
+  254,
+  265,
+  272,
+  278,
+  284,
+  289,
+  292,
+  294,
+  296,
+  305,
+  309,
+  316,
+  322
+ ],
+ "cer": [
+  0,
+  126
+ ],
+ "fix": [
+  [
+   21,
+   "power, in their",
+   "power in their",
+   "ocr"
+  ],
+  [
+   29,
+   "accident, remains",
+   "accident remains",
+   "ocr"
+  ],
+  [
+   70,
+   "for Implementing",
+   "for implementing",
+   "ocr"
+  ],
+  [
+   78,
+   "deeply Involved",
+   "deeply involved",
+   "ocr"
+  ],
+  [
+   90,
+   " [A/5161 ]",
+   "",
+   "label"
+  ],
+  [
+   92,
+   "Congo, Crisis",
+   "Congo. Crisis",
+   "ocr"
+  ],
+  [
+   103,
+   "neighbours, Independence",
+   "neighbours. Independence",
+   "ocr"
+  ],
+  [
+   110,
+   "disputes, Small",
+   "disputes. Small",
+   "ocr"
+  ],
+  [
+   137,
+   " [ 1133rd meeting]",
+   "",
+   "label"
+  ],
+  [
+   141,
+   "country,",
+   "country.",
+   "ocr"
+  ],
+  [
+   147,
+   "war,",
+   "war.",
+   "ocr"
+  ],
+  [
+   152,
+   "of Infernal",
+   "of infernal",
+   "ocr"
+  ],
+  [
+   165,
+   "the Less developed",
+   "the less developed",
+   "ocr"
+  ],
+  [
+   167,
+   "per cent,",
+   "per cent.",
+   "ocr"
+  ],
+  [
+   175,
+   "the Industrialized",
+   "the industrialized",
+   "ocr"
+  ],
+  [
+   181,
+   "final, shape",
+   "final shape",
+   "ocr"
+  ],
+  [
+   201,
+   "made, In regard",
+   "made in regard",
+   "ocr"
+  ],
+  [
+   214,
+   "allegedly, special",
+   "allegedly special",
+   "ocr"
+  ],
+  [
+   229,
+   "peace- is",
+   "peace is",
+   "ocr"
+  ],
+  [
+   239,
+   "go- slow",
+   "go-slow",
+   "ocr"
+  ],
+  [
+   266,
+   "challenge;",
+   "challenge:",
+   "ocr"
+  ],
+  [
+   274,
+   " [ibid., para. 72]",
+   "",
+   "label"
+  ],
+  [
+   301,
+   "[Ibid., para. 111.]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "The file holds two Pakistani general debate statements: President Ayub Khan's address (units 0-126) and a later delegation statement that begins abruptly at unit 127; unit 8 breaks off mid-sentence.",
+ "unitizer_version": 1,
+ "sha1": "d39f5022072c6202e99d698c7627a5ff47d62a8e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 324,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 93
+  },
+  "words_in": 9136,
+  "words_out": 9108,
+  "retention": 0.9969,
+  "n_paragraphs": 75,
+  "paragraph_words": [
+   75,
+   62,
+   87,
+   97,
+   80,
+   70,
+   76,
+   207,
+   136,
+   129,
+   167,
+   93,
+   112,
+   169,
+   66,
+   89,
+   139,
+   102,
+   81,
+   58,
+   156,
+   169,
+   74,
+   189,
+   126,
+   156,
+   116,
+   167,
+   55,
+   25,
+   62,
+   174,
+   138,
+   145,
+   110,
+   135,
+   121,
+   142,
+   184,
+   169,
+   116,
+   57,
+   127,
+   79,
+   154,
+   119,
+   179,
+   104,
+   85,
+   107,
+   95,
+   104,
+   101,
+   156,
+   71,
+   133,
+   188,
+   93,
+   218,
+   170,
+   83,
+   97,
+   161,
+   171,
+   151,
+   167,
+   175,
+   88,
+   92,
+   103,
+   214,
+   84,
+   166,
+   130,
+   62
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

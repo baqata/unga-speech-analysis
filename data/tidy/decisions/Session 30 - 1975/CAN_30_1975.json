@@ -1,0 +1,161 @@
+{
+ "id": "CAN_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  11,
+  18,
+  22,
+  24,
+  28,
+  31,
+  36,
+  41,
+  47,
+  53,
+  58,
+  64,
+  68,
+  72,
+  76,
+  79,
+  87,
+  95,
+  100,
+  105,
+  110,
+  114,
+  117
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "lo more",
+   "to more",
+   "ocr"
+  ],
+  [
+   4,
+   "membership,",
+   "membership.",
+   "ocr"
+  ],
+  [
+   20,
+   "'",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   69,
+   "Non- Proliferation",
+   "Non-Proliferation",
+   "hyphen"
+  ],
+  [
+   69,
+   "non- proliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   100,
+   " [UNEF]",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "quo\\ it",
+   "quo; it",
+   "ocr"
+  ],
+  [
+   113,
+   "drawn, But",
+   "drawn. But",
+   "ocr"
+  ],
+  [
+   125,
+   "(he force",
+   "the force",
+   "ocr"
+  ],
+  [
+   127,
+   "[Aj100011Add.",
+   "",
+   "label"
+  ],
+  [
+   128,
+   "I, Sect.",
+   "",
+   "label"
+  ],
+  [
+   129,
+   "XXL]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3fa824bf6a5a0d72cf93dfe631dafa3c1455b380",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 3327,
+  "words_out": 3319,
+  "retention": 0.9976,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   91,
+   48,
+   114,
+   171,
+   151,
+   110,
+   114,
+   85,
+   122,
+   112,
+   166,
+   137,
+   107,
+   124,
+   97,
+   88,
+   116,
+   79,
+   136,
+   199,
+   165,
+   155,
+   118,
+   179,
+   98,
+   237
+  ],
+  "warnings": []
+ }
+}

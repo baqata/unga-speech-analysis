@@ -1,0 +1,72 @@
+{
+ "id": "BOL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  8,
+  14,
+  19,
+  22,
+  25,
+  29,
+  33,
+  42,
+  51,
+  56,
+  59,
+  62,
+  65,
+  67,
+  70,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   66,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f221c822a33961a9e0f31ecfe125185e30507696",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2140,
+  "words_out": 2139,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   23,
+   135,
+   75,
+   138,
+   144,
+   139,
+   99,
+   123,
+   133,
+   178,
+   177,
+   96,
+   76,
+   85,
+   62,
+   71,
+   104,
+   198,
+   83
+  ],
+  "warnings": []
+ }
+}

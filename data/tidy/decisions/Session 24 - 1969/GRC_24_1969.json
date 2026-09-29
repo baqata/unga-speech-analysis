@@ -1,0 +1,100 @@
+{
+ "id": "GRC_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  25,
+  47,
+  61,
+  72,
+  83,
+  96,
+  111,
+  135,
+  146,
+  164,
+  189,
+  207,
+  226
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   " [A/7601/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "[",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "]",
+   "",
+   "label"
+  ],
+  [
+   164,
+   "66, ",
+   "",
+   "label"
+  ],
+  [
+   165,
+   "its ‘responsibilities",
+   "its responsibilities",
+   "ocr"
+  ],
+  [
+   201,
+   " [resolution 186 (1964)]",
+   "",
+   "label"
+  ],
+  [
+   219,
+   "any.moment",
+   "any moment",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6ddab3177b2a04e962466433ae8fdde6e59ffa6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2090,
+  "words_out": 2049,
+  "retention": 0.9804,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   119,
+   96,
+   192,
+   121,
+   102,
+   93,
+   121,
+   135,
+   208,
+   87,
+   152,
+   208,
+   168,
+   163,
+   84
+  ],
+  "warnings": []
+ }
+}

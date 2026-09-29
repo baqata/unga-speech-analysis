@@ -1,0 +1,81 @@
+{
+ "id": "MUS_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  5,
+  8,
+  11,
+  13,
+  22,
+  25,
+  29,
+  34,
+  38,
+  45,
+  48,
+  50,
+  53,
+  56,
+  60,
+  66,
+  70
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   57,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   70,
+   " (see A/73/PV.4 et seq.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "722777532add3a4251c0d7a0ca191c4948d9b19a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1953,
+  "words_out": 1948,
+  "retention": 0.9974,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   40,
+   60,
+   62,
+   80,
+   84,
+   74,
+   159,
+   129,
+   120,
+   91,
+   95,
+   130,
+   102,
+   80,
+   126,
+   120,
+   85,
+   129,
+   103,
+   79
+  ],
+  "warnings": []
+ }
+}

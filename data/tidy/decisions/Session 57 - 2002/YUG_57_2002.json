@@ -1,0 +1,60 @@
+{
+ "id": "YUG_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  30,
+  41,
+  50,
+  64,
+  75,
+  88,
+  101,
+  118,
+  141,
+  155
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "─",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "765c0334ce4c409ea2c3c103631b31a5f78d5597",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 173,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1362,
+  "words_out": 1362,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   126,
+   90,
+   92,
+   81,
+   113,
+   78,
+   101,
+   120,
+   121,
+   186,
+   112,
+   142
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "SWE_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  33,
+  51,
+  60,
+  76,
+  88,
+  112,
+  124,
+  133,
+  143,
+  152,
+  162,
+  173,
+  186
+ ],
+ "cer": [],
+ "fix": [
+  [
+   107,
+   "(Human Rights Council resolution 20/8)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49421d99602bd770fac27766fdcdccdd5ee1370d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1622,
+  "words_out": 1617,
+  "retention": 0.9969,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   69,
+   192,
+   154,
+   73,
+   139,
+   108,
+   209,
+   94,
+   78,
+   90,
+   76,
+   81,
+   105,
+   99,
+   50
+  ],
+  "warnings": []
+ }
+}

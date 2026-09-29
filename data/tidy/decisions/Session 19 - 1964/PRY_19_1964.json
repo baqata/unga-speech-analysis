@@ -1,0 +1,162 @@
+{
+ "id": "PRY_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  17,
+  20,
+  25,
+  30,
+  32,
+  35,
+  40,
+  43,
+  46,
+  48,
+  52,
+  55,
+  60,
+  64,
+  66,
+  68,
+  70,
+  78,
+  82,
+  85,
+  87,
+  91,
+  95,
+  99,
+  105,
+  108,
+  111,
+  114,
+  117,
+  119
+ ],
+ "cer": [
+  0,
+  119
+ ],
+ "fix": [
+  [
+   2,
+   "My’ delegation",
+   "My delegation",
+   "ocr"
+  ],
+  [
+   27,
+   "this 5 both",
+   "this both",
+   "ocr"
+  ],
+  [
+   42,
+   "las ting",
+   "lasting",
+   "split_word"
+  ],
+  [
+   56,
+   "agriculturalprimary",
+   "agricultural primary",
+   "merged_word"
+  ],
+  [
+   59,
+   "peoples1",
+   "peoples'",
+   "ocr"
+  ],
+  [
+   78,
+   "specific. mention",
+   "specific mention",
+   "ocr"
+  ],
+  [
+   104,
+   "more, closely",
+   "more closely",
+   "ocr"
+  ],
+  [
+   105,
+   "benefit, of",
+   "benefit of",
+   "ocr"
+  ],
+  [
+   110,
+   "enjoys, the",
+   "enjoys the",
+   "ocr"
+  ],
+  [
+   111,
+   "right? of",
+   "rights of",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 102 breaks off mid-sentence; its continuation appears misplaced inside unit 85.",
+ "unitizer_version": 1,
+ "sha1": "395beb3c536f5e581bd5a8fa9005e3a84ce447c3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 46
+  },
+  "words_in": 4038,
+  "words_out": 4037,
+  "retention": 0.9998,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   146,
+   138,
+   139,
+   124,
+   126,
+   217,
+   137,
+   80,
+   135,
+   85,
+   110,
+   121,
+   106,
+   128,
+   94,
+   117,
+   107,
+   112,
+   84,
+   100,
+   225,
+   159,
+   130,
+   114,
+   99,
+   85,
+   116,
+   195,
+   120,
+   84,
+   58,
+   97,
+   68,
+   81
+  ],
+  "warnings": []
+ }
+}

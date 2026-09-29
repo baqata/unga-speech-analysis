@@ -1,0 +1,182 @@
+{
+ "id": "ESP_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  14,
+  20,
+  26,
+  34,
+  37,
+  43,
+  49,
+  52,
+  55,
+  63,
+  69,
+  72,
+  79,
+  84,
+  89,
+  92,
+  97,
+  103,
+  108,
+  111,
+  117,
+  125,
+  139,
+  142,
+  148,
+  154,
+  161,
+  167,
+  171,
+  176,
+  183,
+  188,
+  192,
+  195,
+  198,
+  202,
+  206
+ ],
+ "cer": [
+  0,
+  5,
+  8,
+  12,
+  14
+ ],
+ "fix": [
+  [
+   11,
+   "Spanish- American",
+   "Spanish-American",
+   "spacing"
+  ],
+  [
+   28,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   32,
+   "peace- loving",
+   "peace-loving",
+   "spacing"
+  ],
+  [
+   33,
+   "[A/5501/Add.l, section XII.]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "Sehwarzenberger",
+   "Schwarzenberger",
+   "ocr"
+  ],
+  [
+   53,
+   "meeting- point",
+   "meeting-point",
+   "spacing"
+  ],
+  [
+   86,
+   "Inhabitants",
+   "inhabitants",
+   "ocr"
+  ],
+  [
+   109,
+   "responsibility,",
+   "responsibility.",
+   "ocr"
+  ],
+  [
+   136,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   136,
+   ", We",
+   ". We",
+   "ocr"
+  ],
+  [
+   200,
+   "Spanish, They",
+   "Spanish. They",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f9f60c91b9802ad7645ab909c51959a4402f530",
+ "layout": "lines",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 6076,
+  "words_out": 6009,
+  "retention": 0.989,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   135,
+   111,
+   189,
+   87,
+   203,
+   199,
+   207,
+   70,
+   163,
+   188,
+   101,
+   109,
+   274,
+   146,
+   127,
+   129,
+   180,
+   128,
+   100,
+   138,
+   159,
+   160,
+   88,
+   130,
+   277,
+   295,
+   84,
+   115,
+   128,
+   195,
+   139,
+   139,
+   174,
+   161,
+   114,
+   135,
+   100,
+   125,
+   139,
+   106,
+   62
+  ],
+  "warnings": []
+ }
+}

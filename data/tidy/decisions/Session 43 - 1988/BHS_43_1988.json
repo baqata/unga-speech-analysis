@@ -1,0 +1,93 @@
+{
+ "id": "BHS_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  10,
+  12,
+  19,
+  22,
+  27,
+  31,
+  34,
+  37,
+  41,
+  45,
+  50,
+  53,
+  57,
+  60,
+  64,
+  67,
+  69,
+  72
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   10,
+   "ate to",
+   "are to",
+   "ocr"
+  ],
+  [
+   37,
+   "Mender States",
+   "Member States",
+   "ocr"
+  ],
+  [
+   55,
+   "(CARIOOM)",
+   "(CARICOM)",
+   "ocr"
+  ],
+  [
+   56,
+   "CARIOOM's",
+   "CARICOM's",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee6b661e1d4d7d1e824782b1dc3e2b5571891015",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2062,
+  "words_out": 2062,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   78,
+   144,
+   62,
+   185,
+   120,
+   112,
+   120,
+   92,
+   95,
+   107,
+   111,
+   73,
+   108,
+   105,
+   97,
+   101,
+   103,
+   76,
+   84,
+   89
+  ],
+  "warnings": []
+ }
+}

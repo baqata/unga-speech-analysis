@@ -1,0 +1,49 @@
+{
+ "id": "TON_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  32,
+  43,
+  69,
+  87,
+  104,
+  117,
+  133,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f17a17d3f26d501c4f5714a4788720d29249bea",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1273,
+  "words_out": 1271,
+  "retention": 0.9984,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   122,
+   133,
+   100,
+   197,
+   132,
+   143,
+   91,
+   119,
+   139,
+   95
+  ],
+  "warnings": []
+ }
+}

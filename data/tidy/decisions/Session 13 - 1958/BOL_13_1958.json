@@ -1,0 +1,118 @@
+{
+ "id": "BOL_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  12,
+  16,
+  20,
+  21,
+  25,
+  29,
+  31,
+  35,
+  38,
+  45,
+  49,
+  53,
+  57,
+  62,
+  65,
+  67,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "'developing",
+   "developing",
+   "ocr"
+  ],
+  [
+   17,
+   "the, result",
+   "the result",
+   "ocr"
+  ],
+  [
+   36,
+   "to. overshadow",
+   "to overshadow",
+   "ocr"
+  ],
+  [
+   45,
+   ".to",
+   "to",
+   "ocr"
+  ],
+  [
+   69,
+   "That Is",
+   "That is",
+   "ocr"
+  ],
+  [
+   69,
+   "by stem",
+   "system",
+   "ocr"
+  ],
+  [
+   69,
+   "Latin- American",
+   "Latin-American",
+   "hyphen"
+  ],
+  [
+   72,
+   "It Is",
+   "It is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "74c39fc5eabfa3c769df7ee5523c8068bf646d17",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2858,
+  "words_out": 2855,
+  "retention": 0.999,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   24,
+   172,
+   246,
+   158,
+   264,
+   78,
+   179,
+   143,
+   107,
+   146,
+   100,
+   127,
+   122,
+   144,
+   120,
+   185,
+   181,
+   75,
+   200,
+   84
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "KIR_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  23,
+  37,
+  51,
+  63,
+  84,
+  96,
+  109,
+  123,
+  131,
+  135,
+  152
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60ca258cc88518c27edc85ee53875dc77b2e6301",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1278,
+  "words_out": 1277,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   99,
+   88,
+   113,
+   110,
+   87,
+   179,
+   87,
+   109,
+   127,
+   71,
+   32,
+   140,
+   35
+  ],
+  "warnings": []
+ }
+}

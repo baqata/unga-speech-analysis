@@ -1,0 +1,126 @@
+{
+ "id": "ROU_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  13,
+  16,
+  20,
+  26,
+  30,
+  32,
+  35,
+  37,
+  42,
+  44,
+  46,
+  47,
+  50,
+  55,
+  58,
+  62,
+  64,
+  67,
+  69,
+  73,
+  76,
+  78,
+  80,
+  82,
+  84,
+  88,
+  94,
+  98,
+  101,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   "Is is precisely",
+   "It is precisely",
+   "ocr"
+  ],
+  [
+   31,
+   " [item 24]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "Romania'",
+   "Romania",
+   "ocr"
+  ],
+  [
+   78,
+   "co-operation\" and",
+   "co-operation and",
+   "ocr"
+  ],
+  [
+   94,
+   "problems bf",
+   "problems of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fc9a0fcb15f556a31219dd86cd099e0e36554010",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 4069,
+  "words_out": 4059,
+  "retention": 0.9975,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   211,
+   160,
+   123,
+   65,
+   150,
+   180,
+   147,
+   120,
+   148,
+   82,
+   134,
+   87,
+   84,
+   65,
+   200,
+   160,
+   140,
+   152,
+   67,
+   94,
+   99,
+   145,
+   135,
+   94,
+   87,
+   78,
+   70,
+   159,
+   207,
+   118,
+   137,
+   91,
+   70
+  ],
+  "warnings": []
+ }
+}

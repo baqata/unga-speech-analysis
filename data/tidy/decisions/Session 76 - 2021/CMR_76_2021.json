@@ -1,0 +1,58 @@
+{
+ "id": "CMR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  12,
+  17,
+  20,
+  24,
+  27,
+  34
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ],
+  [
+   20,
+   "forest- ecosystem",
+   "forest-ecosystem",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "96200abac7c5c279bce97a75505e2130a87d8ab5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1079,
+  "words_out": 1077,
+  "retention": 0.9981,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   233,
+   114,
+   76,
+   123,
+   87,
+   112,
+   66,
+   161,
+   105
+  ],
+  "warnings": []
+ }
+}

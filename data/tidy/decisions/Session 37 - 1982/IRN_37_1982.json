@@ -1,0 +1,227 @@
+{
+ "id": "IRN_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  37,
+  54,
+  70,
+  87,
+  102,
+  118,
+  134,
+  149,
+  161,
+  176,
+  198,
+  207,
+  224,
+  244,
+  262,
+  280,
+  298,
+  322,
+  334,
+  352,
+  363,
+  382,
+  404,
+  422,
+  438,
+  459,
+  483,
+  503,
+  521,
+  533,
+  541,
+  564
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "extend by",
+   "extend my",
+   "ocr"
+  ],
+  [
+   3,
+   "yon,",
+   "you,",
+   "ocr"
+  ],
+  [
+   48,
+   "religion.,",
+   "religion,",
+   "ocr"
+  ],
+  [
+   63,
+   "forthe",
+   "for the",
+   "merged_word"
+  ],
+  [
+   75,
+   "world- devouring",
+   "world-devouring",
+   "spacing"
+  ],
+  [
+   118,
+   "136. ",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   192,
+   "andLebanese",
+   "and Lebanese",
+   "merged_word"
+  ],
+  [
+   218,
+   "198C",
+   "1980",
+   "ocr"
+  ],
+  [
+   268,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   289,
+   "AH these",
+   "All these",
+   "ocr"
+  ],
+  [
+   298,
+   "171 ",
+   "",
+   "label"
+  ],
+  [
+   316,
+   "course 8f",
+   "course of",
+   "ocr"
+  ],
+  [
+   322,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   338,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   355,
+   "ails its",
+   "all its",
+   "ocr"
+  ],
+  [
+   380,
+   "th3",
+   "the",
+   "ocr"
+  ],
+  [
+   385,
+   "cautery",
+   "country",
+   "ocr"
+  ],
+  [
+   535,
+   "'imperialism",
+   "imperialism",
+   "ocr"
+  ],
+  [
+   575,
+   "evil- doing",
+   "evil-doing",
+   "spacing"
+  ],
+  [
+   590,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text jumps mid-sentence at unit 314 (from the Iraq war to military treaties); paragraph at unit 298 spans the gap.",
+ "unitizer_version": 1,
+ "sha1": "6161426aae0e43323c1cec35b5123cc6bd02d1d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 600,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 6162,
+  "words_out": 6156,
+  "retention": 0.999,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   155,
+   216,
+   172,
+   159,
+   172,
+   160,
+   170,
+   146,
+   166,
+   128,
+   155,
+   230,
+   100,
+   180,
+   201,
+   170,
+   196,
+   194,
+   277,
+   127,
+   182,
+   110,
+   192,
+   219,
+   167,
+   180,
+   210,
+   237,
+   174,
+   169,
+   120,
+   82,
+   256,
+   384
+  ],
+  "warnings": [
+   "paragraph at unit 564 has 384 words",
+   "21 fixes"
+  ]
+ }
+}

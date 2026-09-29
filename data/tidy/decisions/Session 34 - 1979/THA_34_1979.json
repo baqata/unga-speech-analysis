@@ -1,0 +1,119 @@
+{
+ "id": "THA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  19,
+  27,
+  33,
+  37,
+  42,
+  47,
+  50,
+  54,
+  57,
+  63,
+  67,
+  75,
+  78,
+  82,
+  89,
+  95,
+  103,
+  110,
+  111
+ ],
+ "cer": [
+  0,
+  110
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   13,
+   " .Vietnamese",
+   " Vietnamese",
+   "ocr"
+  ],
+  [
+   14,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "danger, Any",
+   "danger. Any",
+   "ocr"
+  ],
+  [
+   72,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   74,
+   "Indo- Chinese",
+   "Indo-Chinese",
+   "spacing"
+  ],
+  [
+   93,
+   "fanners",
+   "farmers",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f8dad0464ee13c0f0c4a51ac0fbc0de57eb87f61",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3387,
+  "words_out": 3383,
+  "retention": 0.9988,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   143,
+   113,
+   114,
+   192,
+   246,
+   172,
+   152,
+   148,
+   148,
+   110,
+   160,
+   98,
+   147,
+   171,
+   213,
+   117,
+   97,
+   171,
+   163,
+   153,
+   187,
+   35,
+   133
+  ],
+  "warnings": []
+ }
+}

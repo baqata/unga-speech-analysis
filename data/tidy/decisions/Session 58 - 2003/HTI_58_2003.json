@@ -1,0 +1,70 @@
+{
+ "id": "HTI_58_2003",
+ "drop": [
+  [
+   125,
+   125,
+   "interpretation_note"
+  ],
+  [
+   129,
+   129,
+   "interpretation_note"
+  ],
+  [
+   130,
+   132,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  13,
+  32,
+  54,
+  66,
+  76,
+  91,
+  104,
+  114,
+  140
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "The two-line verse is printed twice, after the Haitian Creole and the French notes; only the first rendering is kept.",
+ "unitizer_version": 1,
+ "sha1": "3cbec0f471f6af49ad52a64036512ba9ab61e551",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {
+   "interpretation_note": 2,
+   "repeat": 3
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1192,
+  "words_out": 1169,
+  "retention": 0.9807,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   34,
+   68,
+   166,
+   184,
+   107,
+   78,
+   122,
+   100,
+   94,
+   157,
+   59
+  ],
+  "warnings": []
+ }
+}

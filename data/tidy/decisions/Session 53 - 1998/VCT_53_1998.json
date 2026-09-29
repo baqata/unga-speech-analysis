@@ -1,0 +1,103 @@
+{
+ "id": "VCT_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  23,
+  38,
+  54,
+  76,
+  99,
+  118,
+  130,
+  146,
+  162,
+  173,
+  186,
+  197,
+  207,
+  229,
+  241,
+  254,
+  275,
+  284,
+  297
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   7,
+   "delegation?s",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   28,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   42,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   214,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   253,
+   "brother?s",
+   "brother’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de4aca0611f0d0d9ecf4296fe13f3428e445b42c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 309,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2571,
+  "words_out": 2569,
+  "retention": 0.9992,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   57,
+   119,
+   110,
+   125,
+   190,
+   187,
+   159,
+   102,
+   138,
+   135,
+   100,
+   105,
+   93,
+   82,
+   184,
+   108,
+   123,
+   176,
+   67,
+   102,
+   107
+  ],
+  "warnings": []
+ }
+}

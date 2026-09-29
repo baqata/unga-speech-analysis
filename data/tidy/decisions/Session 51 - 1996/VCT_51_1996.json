@@ -1,0 +1,72 @@
+{
+ "id": "VCT_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  23,
+  36,
+  54,
+  65,
+  76,
+  93,
+  102,
+  113,
+  130,
+  139
+ ],
+ "cer": [
+  14
+ ],
+ "fix": [
+  [
+   11,
+   "(Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "General Assembly, Fiftieth Session, Plenary Meetings,",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "40th meeting, p. 49)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d9fa2694f0c55707e6f1ce8f7066ff4dd3469c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1321,
+  "words_out": 1305,
+  "retention": 0.9879,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   88,
+   80,
+   96,
+   156,
+   97,
+   90,
+   161,
+   76,
+   97,
+   157,
+   78,
+   129
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "MMR_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  16,
+  20,
+  25,
+  28,
+  33,
+  36,
+  42,
+  45,
+  52,
+  56
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "Trance’s",
+   "France’s",
+   "ocr"
+  ],
+  [
+   46,
+   "malting",
+   "making",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6974ef371c19cecd36fed53510c6c66c30e9e35b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 1497,
+  "words_out": 1497,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   159,
+   205,
+   108,
+   125,
+   90,
+   87,
+   124,
+   131,
+   90,
+   223,
+   79,
+   76
+  ],
+  "warnings": []
+ }
+}

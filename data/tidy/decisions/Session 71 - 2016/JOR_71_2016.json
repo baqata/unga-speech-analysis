@@ -1,0 +1,64 @@
+{
+ "id": "JOR_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  12,
+  16,
+  19,
+  22,
+  30,
+  36,
+  47,
+  55,
+  61,
+  65,
+  69,
+  72
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "(The Holy Koran, II:136)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ab776198098cb922ef545322b113ee53e1dcffa2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1592,
+  "words_out": 1588,
+  "retention": 0.9975,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   39,
+   94,
+   79,
+   118,
+   93,
+   83,
+   90,
+   122,
+   125,
+   193,
+   127,
+   115,
+   81,
+   64,
+   82,
+   83
+  ],
+  "warnings": []
+ }
+}

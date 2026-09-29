@@ -1,0 +1,57 @@
+{
+ "id": "MYS_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  13,
+  17,
+  23,
+  30,
+  32,
+  41,
+  50
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "in OUT judgements",
+   "in our judgements",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bed6bbc3926ebc55d8080ca82bff6e55b359c550",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 9
+  },
+  "words_in": 1527,
+  "words_out": 1527,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   49,
+   201,
+   138,
+   148,
+   161,
+   202,
+   90,
+   231,
+   182,
+   125
+  ],
+  "warnings": []
+ }
+}

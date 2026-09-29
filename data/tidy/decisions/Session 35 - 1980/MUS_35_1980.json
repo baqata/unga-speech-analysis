@@ -1,0 +1,113 @@
+{
+ "id": "MUS_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  13,
+  17,
+  21,
+  24,
+  31,
+  33,
+  36,
+  42,
+  44,
+  49,
+  54,
+  57,
+  61,
+  63,
+  67,
+  72,
+  79,
+  85,
+  89,
+  93,
+  96,
+  102,
+  107
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   16,
+   " [resolution 1514 (XV)]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "fool proof",
+   "foolproof",
+   "split_word"
+  ],
+  [
+   95,
+   " [A/35/29]",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "Strategically;",
+   "Strategically,",
+   "ocr"
+  ],
+  [
+   102,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "031a0984f7e43c9d856f1171e5980632f652848c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3296,
+  "words_out": 3290,
+  "retention": 0.9982,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   145,
+   107,
+   168,
+   127,
+   93,
+   124,
+   202,
+   67,
+   104,
+   194,
+   82,
+   115,
+   143,
+   103,
+   112,
+   58,
+   152,
+   141,
+   139,
+   127,
+   129,
+   110,
+   86,
+   197,
+   201,
+   64
+  ],
+  "warnings": []
+ }
+}

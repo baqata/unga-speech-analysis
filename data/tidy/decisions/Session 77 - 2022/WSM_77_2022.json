@@ -1,0 +1,112 @@
+{
+ "id": "WSM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  11,
+  14,
+  18,
+  21,
+  26,
+  33,
+  39,
+  46,
+  51,
+  54,
+  59,
+  65,
+  70,
+  73,
+  80,
+  83,
+  88,
+  93,
+  99,
+  107,
+  111,
+  114,
+  119,
+  122,
+  126,
+  134,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   100,
+   "hard- fought",
+   "hard-fought",
+   "hyphen"
+  ],
+  [
+   103,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   146,
+   "upegcT",
+   "upega”",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f1e41992732793dbdb54bbc41b34d70d575b737",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3350,
+  "words_out": 3345,
+  "retention": 0.9985,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   80,
+   120,
+   88,
+   119,
+   95,
+   70,
+   107,
+   145,
+   115,
+   91,
+   74,
+   88,
+   86,
+   115,
+   111,
+   126,
+   117,
+   60,
+   134,
+   127,
+   137,
+   152,
+   85,
+   73,
+   82,
+   73,
+   104,
+   209,
+   217,
+   145
+  ],
+  "warnings": []
+ }
+}

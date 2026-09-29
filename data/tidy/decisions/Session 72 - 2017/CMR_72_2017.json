@@ -1,0 +1,64 @@
+{
+ "id": "CMR_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  14,
+  21,
+  24,
+  31,
+  36,
+  42,
+  48,
+  53
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   3,
+   "Тhomson",
+   "Thomson",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee7f8ba2213cb9bf0b903f2032b8b613a35e901b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1212,
+  "words_out": 1211,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   108,
+   105,
+   117,
+   86,
+   139,
+   92,
+   136,
+   99,
+   81,
+   99,
+   99,
+   50
+  ],
+  "warnings": []
+ }
+}

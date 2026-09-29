@@ -1,0 +1,103 @@
+{
+ "id": "MDG_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   162,
+   162,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  14,
+  17,
+  20,
+  30,
+  38,
+  49,
+  55,
+  61,
+  72,
+  76,
+  82,
+  93,
+  98,
+  103,
+  110,
+  116,
+  125,
+  135,
+  148,
+  154,
+  159
+ ],
+ "cer": [
+  2,
+  10,
+  159
+ ],
+ "fix": [
+  [
+   32,
+   "South African Development Community",
+   "Southern African Development Community",
+   "asr_name"
+  ],
+  [
+   49,
+   "South African Development Community",
+   "Southern African Development Community",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40fd12fec87b845e58cbcbf2648478e7184bcf68",
+ "layout": "single",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2924,
+  "words_out": 2873,
+  "retention": 0.9826,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   57,
+   123,
+   87,
+   100,
+   101,
+   191,
+   151,
+   139,
+   160,
+   93,
+   162,
+   95,
+   118,
+   203,
+   100,
+   89,
+   125,
+   134,
+   127,
+   141,
+   157,
+   73,
+   123,
+   24
+  ],
+  "warnings": []
+ }
+}

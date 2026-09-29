@@ -1,0 +1,62 @@
+{
+ "id": "POL_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  27,
+  47,
+  69,
+  78,
+  93,
+  118,
+  138,
+  151,
+  171,
+  189,
+  200,
+  215
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   216,
+   "ñ",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "The source text lost several dashes (units 51, 142, 186-187, 192); left as printed.",
+ "unitizer_version": 1,
+ "sha1": "9ec9b7f86c0f1a5a0a38c53d533255d3d275a474",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 225,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1762,
+  "words_out": 1759,
+  "retention": 0.9983,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   205,
+   149,
+   165,
+   73,
+   125,
+   184,
+   158,
+   111,
+   172,
+   136,
+   80,
+   115,
+   86
+  ],
+  "warnings": []
+ }
+}

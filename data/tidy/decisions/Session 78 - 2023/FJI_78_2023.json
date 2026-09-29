@@ -1,0 +1,98 @@
+{
+ "id": "FJI_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  16,
+  23,
+  29,
+  32,
+  39,
+  44,
+  48,
+  53,
+  61,
+  66,
+  74,
+  82
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "War. peace",
+   "War, peace",
+   "ocr"
+  ],
+  [
+   13,
+   "and. indeed",
+   "and, indeed",
+   "ocr"
+  ],
+  [
+   21,
+   "In that regard.",
+   "In that regard,",
+   "ocr"
+  ],
+  [
+   51,
+   "169. on",
+   "169, on",
+   "ocr"
+  ],
+  [
+   68,
+   "this week.",
+   "this week,",
+   "ocr"
+  ],
+  [
+   71,
+   "plastic pollution.",
+   "plastic pollution,",
+   "ocr"
+  ],
+  [
+   73,
+   "2024. before",
+   "2024, before",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b469afd25b6063f1a5f0520a00104c85b53695d9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1615,
+  "words_out": 1614,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   124,
+   114,
+   62,
+   75,
+   98,
+   59,
+   87,
+   114,
+   63,
+   93,
+   170,
+   113,
+   130,
+   162,
+   150
+  ],
+  "warnings": []
+ }
+}

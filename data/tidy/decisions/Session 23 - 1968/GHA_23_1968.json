@@ -1,0 +1,138 @@
+{
+ "id": "GHA_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  17,
+  23,
+  32,
+  41,
+  47,
+  52,
+  55,
+  62,
+  67,
+  69,
+  72,
+  77,
+  80,
+  85,
+  90,
+  100,
+  107,
+  115,
+  118,
+  122,
+  125,
+  129,
+  136,
+  142,
+  147,
+  150
+ ],
+ "cer": [
+  0,
+  4,
+  8
+ ],
+ "fix": [
+  [
+   8,
+   " [A/7201 and Add.1]",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "The mast disturbing",
+   "The most disturbing",
+   "ocr"
+  ],
+  [
+   39,
+   "rights: It is",
+   "rights. It is",
+   "ocr"
+  ],
+  [
+   55,
+   "of fan Smith",
+   "of Ian Smith",
+   "ocr"
+  ],
+  [
+   67,
+   "rebel lan Smith",
+   "rebel Ian Smith",
+   "ocr"
+  ],
+  [
+   93,
+   "cause cf peace",
+   "cause of peace",
+   "ocr"
+  ],
+  [
+   111,
+   "adoption Jf this",
+   "adoption of this",
+   "ocr"
+  ],
+  [
+   129,
+   "has new reached",
+   "has now reached",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9034bf31bc4382bc1096d111879884132fedfd40",
+ "layout": "lines",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3907,
+  "words_out": 3870,
+  "retention": 0.9905,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   63,
+   101,
+   66,
+   118,
+   152,
+   205,
+   237,
+   127,
+   130,
+   77,
+   166,
+   124,
+   71,
+   82,
+   72,
+   70,
+   93,
+   122,
+   254,
+   155,
+   228,
+   67,
+   110,
+   69,
+   175,
+   184,
+   151,
+   86,
+   70,
+   245
+  ],
+  "warnings": []
+ }
+}

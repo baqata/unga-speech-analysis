@@ -1,0 +1,59 @@
+{
+ "id": "COG_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  29,
+  49,
+  62,
+  81,
+  92,
+  104,
+  110,
+  119,
+  137,
+  151,
+  164,
+  185
+ ],
+ "cer": [
+  0,
+  11,
+  104
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd68ab3b1d4c73d6ff51708cf3d4427282274828",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1624,
+  "words_out": 1622,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   81,
+   150,
+   166,
+   108,
+   161,
+   92,
+   91,
+   47,
+   66,
+   133,
+   111,
+   102,
+   158,
+   156
+  ],
+  "warnings": []
+ }
+}

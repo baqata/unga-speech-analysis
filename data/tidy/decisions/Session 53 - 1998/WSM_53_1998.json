@@ -1,0 +1,105 @@
+{
+ "id": "WSM_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  36,
+  48,
+  66,
+  92,
+  104,
+  124,
+  142,
+  163,
+  180,
+  194,
+  206,
+  228,
+  247,
+  264,
+  280,
+  291
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   63,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   83,
+   "donors?",
+   "donors’",
+   "encoding"
+  ],
+  [
+   110,
+   "Commission?s",
+   "Commission’s",
+   "encoding"
+  ],
+  [
+   118,
+   "Commission?s",
+   "Commission’s",
+   "encoding"
+  ],
+  [
+   225,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   288,
+   "Brazil?s",
+   "Brazil’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8f8d6e90745c4b18bd5077f51f16b776039e369",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 297,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2550,
+  "words_out": 2546,
+  "retention": 0.9984,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   50,
+   141,
+   121,
+   90,
+   146,
+   201,
+   103,
+   180,
+   162,
+   175,
+   138,
+   132,
+   107,
+   190,
+   161,
+   153,
+   143,
+   96,
+   57
+  ],
+  "warnings": []
+ }
+}

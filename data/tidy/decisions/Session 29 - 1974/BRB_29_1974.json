@@ -1,0 +1,114 @@
+{
+ "id": "BRB_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  7,
+  10,
+  13,
+  16,
+  19,
+  22,
+  26,
+  28,
+  32,
+  36,
+  38,
+  41,
+  49,
+  56,
+  62,
+  65,
+  71,
+  74
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   40,
+   "remains tine today",
+   "remains true today",
+   "ocr"
+  ],
+  [
+   43,
+   "energy*",
+   "energy",
+   "ocr"
+  ],
+  [
+   47,
+   "foiling",
+   "falling",
+   "ocr"
+  ],
+  [
+   56,
+   "ad-dressed",
+   "addressed",
+   "hyphen"
+  ],
+  [
+   57,
+   "Pro-gramme",
+   "Programme",
+   "hyphen"
+  ],
+  [
+   58,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37ef255fb377da4e3405e830cc7e642541812821",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2290,
+  "words_out": 2288,
+  "retention": 0.9991,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   117,
+   60,
+   34,
+   68,
+   110,
+   86,
+   126,
+   140,
+   111,
+   107,
+   129,
+   90,
+   79,
+   77,
+   89,
+   134,
+   133,
+   142,
+   101,
+   116,
+   195,
+   44
+  ],
+  "warnings": []
+ }
+}

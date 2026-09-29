@@ -1,0 +1,68 @@
+{
+ "id": "BOL_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  13,
+  22,
+  30,
+  35,
+  44,
+  49,
+  57,
+  65,
+  68,
+  70,
+  71
+ ],
+ "cer": [
+  70
+ ],
+ "fix": [
+  [
+   26,
+   "Twenty- six",
+   "Twenty-six",
+   "hyphen"
+  ],
+  [
+   47,
+   "health- care",
+   "health-care",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a512cb1881598d7d7c1dc3c0d0200c375823f53",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1526,
+  "words_out": 1524,
+  "retention": 0.9987,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   86,
+   142,
+   93,
+   160,
+   79,
+   128,
+   149,
+   86,
+   122,
+   226,
+   94,
+   60,
+   61,
+   38
+  ],
+  "warnings": []
+ }
+}

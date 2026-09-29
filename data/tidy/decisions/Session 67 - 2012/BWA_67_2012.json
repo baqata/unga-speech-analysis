@@ -1,0 +1,84 @@
+{
+ "id": "BWA_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  29,
+  44,
+  58,
+  73,
+  84,
+  98,
+  109,
+  128,
+  141,
+  160,
+  168,
+  180,
+  198,
+  207,
+  225,
+  235,
+  247
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   88,
+   "f lee",
+   "flee",
+   "split_word"
+  ],
+  [
+   107,
+   "no-f ly",
+   "no-fly",
+   "split_word"
+  ],
+  [
+   214,
+   "inf luential",
+   "influential",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e30ee9a85b7c2f6c1436b5564731e27e730aa21d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2110,
+  "words_out": 2104,
+  "retention": 0.9972,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   103,
+   120,
+   120,
+   133,
+   107,
+   85,
+   114,
+   93,
+   150,
+   108,
+   151,
+   71,
+   107,
+   163,
+   69,
+   137,
+   78,
+   98,
+   97
+  ],
+  "warnings": []
+ }
+}

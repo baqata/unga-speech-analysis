@@ -1,0 +1,79 @@
+{
+ "id": "CIV_54_1999",
+ "drop": [
+  [
+   302,
+   306,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  25,
+  46,
+  66,
+  77,
+  93,
+  105,
+  119,
+  131,
+  145,
+  166,
+  183,
+  193,
+  201,
+  220,
+  239,
+  264,
+  285,
+  298,
+  324,
+  339
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Units 302-306 restate units 298-301 in a second translation and are dropped as a repetition.",
+ "unitizer_version": 1,
+ "sha1": "2835ebaf8a377b0ed48fd2344c2cdffa9e32ce6e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 353,
+  "units_dropped": {
+   "repeat": 5
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3034,
+  "words_out": 2991,
+  "retention": 0.9858,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   219,
+   184,
+   173,
+   97,
+   140,
+   109,
+   131,
+   96,
+   124,
+   187,
+   138,
+   83,
+   72,
+   148,
+   152,
+   224,
+   170,
+   118,
+   186,
+   117,
+   123
+  ],
+  "warnings": []
+ }
+}

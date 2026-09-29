@@ -1,0 +1,54 @@
+{
+ "id": "ERI_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  28,
+  40,
+  63,
+  85,
+  108,
+  127,
+  142
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "(S/2005/142, Annex I, para. 33)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a28c6a799401249c44fb88ac1bd7ec22c0ed19fa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1135,
+  "words_out": 1128,
+  "retention": 0.9938,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   105,
+   118,
+   72,
+   156,
+   175,
+   151,
+   158,
+   118,
+   75
+  ],
+  "warnings": []
+ }
+}

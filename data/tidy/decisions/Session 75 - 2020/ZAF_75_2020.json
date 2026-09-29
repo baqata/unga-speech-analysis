@@ -1,0 +1,66 @@
+{
+ "id": "ZAF_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  14,
+  19,
+  27,
+  32,
+  37,
+  40,
+  45,
+  48,
+  53,
+  62,
+  66
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "Nations .",
+   "Nations.",
+   "spacing"
+  ],
+  [
+   43,
+   "Council,and",
+   "Council, and",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "911aed76f913367f696e1525c716f5c9d57af721",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1499,
+  "words_out": 1499,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   140,
+   97,
+   84,
+   139,
+   172,
+   99,
+   128,
+   76,
+   115,
+   61,
+   98,
+   131,
+   97,
+   62
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "id": "DJI_44_1989",
+ "drop": [
+  [
+   76,
+   76,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  8,
+  14,
+  20,
+  23,
+  27,
+  30,
+  33,
+  38,
+  41,
+  45,
+  47,
+  58,
+  63,
+  67,
+  71,
+  77,
+  84,
+  86,
+  89,
+  94,
+  98,
+  102,
+  111,
+  115
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   27,
+   "Some of .these",
+   "Some of these",
+   "ocr"
+  ],
+  [
+   51,
+   "we ere saddened",
+   "we are saddened",
+   "ocr"
+  ],
+  [
+   53,
+   "Shamir*s",
+   "Shamir's",
+   "ocr"
+  ],
+  [
+   57,
+   "it seen*",
+   "it seems",
+   "ocr"
+  ],
+  [
+   62,
+   "ail hostilities",
+   "all hostilities",
+   "ocr"
+  ],
+  [
+   70,
+   "Com it tee",
+   "Committee",
+   "ocr"
+  ],
+  [
+   74,
+   "(SMAPO)",
+   "(SWAPO)",
+   "ocr"
+  ],
+  [
+   79,
+   "laws. will he",
+   "laws. Will he",
+   "ocr"
+  ],
+  [
+   79,
+   "(WO",
+   "(ANC)",
+   "ocr"
+  ],
+  [
+   84,
+   "De Klerk*s",
+   "De Klerk's",
+   "ocr"
+  ],
+  [
+   87,
+   "Pa ton",
+   "Paton",
+   "split_word"
+  ],
+  [
+   108,
+   "resources,,",
+   "resources.",
+   "ocr"
+  ],
+  [
+   114,
+   "that- responded",
+   "that responded",
+   "ocr"
+  ],
+  [
+   116,
+   "off a realistic",
+   "of a realistic",
+   "ocr"
+  ],
+  [
+   112,
+   "goals, unfavourable",
+   "goals. Unfavourable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cd4999479891c7eb42fd67315fcf2ff468dec58e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3163,
+  "words_out": 3159,
+  "retention": 0.9987,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   76,
+   34,
+   67,
+   91,
+   138,
+   144,
+   70,
+   151,
+   65,
+   104,
+   130,
+   113,
+   103,
+   60,
+   268,
+   159,
+   67,
+   76,
+   130,
+   171,
+   62,
+   120,
+   129,
+   101,
+   127,
+   212,
+   110,
+   81
+  ],
+  "warnings": []
+ }
+}

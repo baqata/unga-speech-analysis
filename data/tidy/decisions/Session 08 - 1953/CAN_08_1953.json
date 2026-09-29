@@ -1,0 +1,127 @@
+{
+ "id": "CAN_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  17,
+  23,
+  29,
+  32,
+  43,
+  49,
+  54,
+  59,
+  63,
+  67,
+  70,
+  73,
+  77,
+  83,
+  88,
+  91,
+  97,
+  100,
+  103,
+  108
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "six.",
+   "six",
+   "ocr"
+  ],
+  [
+   23,
+   "[Australia, New Zealand and United States]",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "'untrue",
+   "untrue",
+   "ocr"
+  ],
+  [
+   31,
+   "genuine-",
+   "genuine",
+   "ocr"
+  ],
+  [
+   80,
+   "delegations.",
+   "delegations,",
+   "ocr"
+  ],
+  [
+   83,
+   "[A/2469 and A/2476 and Corr.",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "1]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "on'",
+   "on",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c802066a5c06cf3eeee18913c6821f1487480361",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 33
+  },
+  "words_in": 3349,
+  "words_out": 3330,
+  "retention": 0.9943,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   82,
+   156,
+   100,
+   135,
+   135,
+   194,
+   153,
+   242,
+   235,
+   182,
+   166,
+   103,
+   91,
+   166,
+   125,
+   155,
+   150,
+   135,
+   102,
+   131,
+   147,
+   109,
+   107,
+   29
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "GRD_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  5,
+  10,
+  14,
+  20,
+  24,
+  26,
+  30,
+  35,
+  38,
+  43,
+  48,
+  52,
+  59,
+  65
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   23,
+   "2Pathway",
+   "Pathway",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "36d28123163ccd5d33226896584ed716023c8cc2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1599,
+  "words_out": 1597,
+  "retention": 0.9987,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   96,
+   39,
+   44,
+   110,
+   99,
+   98,
+   110,
+   75,
+   92,
+   118,
+   70,
+   161,
+   83,
+   108,
+   126,
+   126,
+   42
+  ],
+  "warnings": []
+ }
+}

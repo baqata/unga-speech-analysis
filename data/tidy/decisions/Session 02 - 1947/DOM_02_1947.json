@@ -1,0 +1,56 @@
+{
+ "id": "DOM_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  11,
+  15,
+  17,
+  21,
+  24,
+  26,
+  30,
+  32
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "into bang",
+   "into being",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "281594711a88e35e4635e30eb4c60344a96e016c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 34,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1473,
+  "words_out": 1473,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   121,
+   142,
+   110,
+   161,
+   142,
+   70,
+   184,
+   113,
+   102,
+   162,
+   80,
+   86
+  ],
+  "warnings": []
+ }
+}

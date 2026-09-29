@@ -1,0 +1,56 @@
+{
+ "id": "LUX_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   64,
+   64,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  14,
+  24,
+  37,
+  44,
+  48,
+  54,
+  63
+ ],
+ "cer": [
+  63
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "62264ac5881c087888f0807df122831c03d4fbdb",
+ "layout": "single",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1022,
+  "words_out": 972,
+  "retention": 0.9511,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   192,
+   111,
+   152,
+   155,
+   72,
+   94,
+   194,
+   2
+  ],
+  "warnings": []
+ }
+}

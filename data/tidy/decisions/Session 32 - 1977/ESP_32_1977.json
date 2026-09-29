@@ -1,0 +1,221 @@
+{
+ "id": "ESP_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  5,
+  6,
+  9,
+  11,
+  14,
+  16,
+  21,
+  24,
+  27,
+  33,
+  35,
+  38,
+  41,
+  43,
+  45,
+  47,
+  51,
+  54,
+  56,
+  59,
+  62,
+  65,
+  69,
+  75,
+  79,
+  80,
+  83,
+  89,
+  92,
+  96,
+  102,
+  108,
+  109,
+  111,
+  115,
+  117,
+  120,
+  123,
+  126,
+  135,
+  140,
+  142,
+  146
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   9,
+   "Iberia-American",
+   "Ibero-American",
+   "ocr"
+  ],
+  [
+   19,
+   ". . my -country's",
+   "... my country's",
+   "ocr"
+  ],
+  [
+   20,
+   "1LO",
+   "ILO",
+   "ocr"
+  ],
+  [
+   38,
+   "focal- points",
+   "focal-points",
+   "hyphen"
+  ],
+  [
+   49,
+   "bantustans .",
+   "bantustans.",
+   "spacing"
+  ],
+  [
+   56,
+   "1975,the",
+   "1975, the",
+   "spacing"
+  ],
+  [
+   57,
+   "Territory .",
+   "Territory.",
+   "spacing"
+  ],
+  [
+   66,
+   "maintenance, and",
+   "maintenance and",
+   "ocr"
+  ],
+  [
+   90,
+   "a fir and",
+   "a firm and",
+   "ocr"
+  ],
+  [
+   91,
+   "could not. conceive",
+   "could not conceive",
+   "ocr"
+  ],
+  [
+   92,
+   "importance, I refer",
+   "importance. I refer",
+   "ocr"
+  ],
+  [
+   98,
+   "1 should",
+   "I should",
+   "ocr"
+  ],
+  [
+   100,
+   "taking, into",
+   "taking into",
+   "ocr"
+  ],
+  [
+   127,
+   "very, actively",
+   "very actively",
+   "ocr"
+  ],
+  [
+   144,
+   "country, has",
+   "country has",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "642d068648a68c7765dd1cbc53b2634144e3805a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 63
+  },
+  "words_in": 4586,
+  "words_out": 4582,
+  "retention": 0.9991,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   64,
+   50,
+   37,
+   92,
+   73,
+   79,
+   72,
+   85,
+   176,
+   74,
+   77,
+   111,
+   73,
+   97,
+   104,
+   60,
+   125,
+   52,
+   126,
+   82,
+   78,
+   73,
+   121,
+   81,
+   109,
+   134,
+   148,
+   56,
+   87,
+   177,
+   91,
+   111,
+   198,
+   172,
+   41,
+   103,
+   110,
+   71,
+   71,
+   99,
+   63,
+   217,
+   155,
+   90,
+   147,
+   70
+  ],
+  "warnings": []
+ }
+}

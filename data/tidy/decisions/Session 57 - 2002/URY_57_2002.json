@@ -1,0 +1,66 @@
+{
+ "id": "URY_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  39,
+  48,
+  62,
+  75,
+  86,
+  98,
+  108,
+  121,
+  135,
+  152,
+  169,
+  178,
+  190
+ ],
+ "cer": [
+  190
+ ],
+ "fix": [
+  [
+   91,
+   "AsunciÛn",
+   "Asunción",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "42f9e68e1570091ff5a7fa6b2eb5fd9fe4730c8f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 198,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1528,
+  "words_out": 1524,
+  "retention": 0.9974,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   88,
+   218,
+   73,
+   97,
+   90,
+   86,
+   95,
+   78,
+   107,
+   104,
+   134,
+   135,
+   68,
+   88,
+   63
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "LBN_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  22,
+  24,
+  27,
+  32,
+  35,
+  38,
+  42,
+  45,
+  47,
+  50,
+  57,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 19 keeps editing residue printed in the record (\"And f From ... a. And despite\"); no allowed repair removes it.",
+ "unitizer_version": 1,
+ "sha1": "c6dbe32d10661c36a1117550d3d7bb9fe81c514e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1917,
+  "words_out": 1915,
+  "retention": 0.999,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   58,
+   143,
+   70,
+   213,
+   91,
+   153,
+   102,
+   93,
+   92,
+   83,
+   63,
+   76,
+   109,
+   195,
+   172,
+   202
+  ],
+  "warnings": []
+ }
+}

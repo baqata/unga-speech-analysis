@@ -1,0 +1,83 @@
+{
+ "id": "FIN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  20,
+  33,
+  43,
+  54,
+  73,
+  90,
+  106,
+  125,
+  140,
+  149,
+  158,
+  180
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "oneâs",
+   "one’s",
+   "encoding"
+  ],
+  [
+   115,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   142,
+   "Secretary-Generalâs",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   165,
+   "Todayâs",
+   "Today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbfa68cf13b36746c524188364c2e790e7b16c26",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 188,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 1,
+   "page_number": 2
+  },
+  "words_in": 1529,
+  "words_out": 1526,
+  "retention": 0.998,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   68,
+   89,
+   110,
+   80,
+   95,
+   162,
+   125,
+   130,
+   153,
+   117,
+   77,
+   75,
+   172,
+   73
+  ],
+  "warnings": []
+ }
+}

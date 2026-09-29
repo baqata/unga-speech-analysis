@@ -1,0 +1,96 @@
+{
+ "id": "SLE_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  14,
+  16,
+  17,
+  21,
+  25,
+  28,
+  33,
+  35,
+  37,
+  42,
+  45,
+  50,
+  53,
+  57,
+  62,
+  66,
+  71,
+  78,
+  80,
+  84,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "for roe,",
+   "for me,",
+   "ocr"
+  ],
+  [
+   13,
+   "■As",
+   "As",
+   "markup"
+  ],
+  [
+   18,
+   "assuch",
+   "as such",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f9eeba23ecf5c2e93e7a8917cbfc02e25e2d73b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2754,
+  "words_out": 2755,
+  "retention": 1.0004,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   115,
+   143,
+   71,
+   97,
+   77,
+   66,
+   116,
+   131,
+   120,
+   154,
+   53,
+   68,
+   172,
+   92,
+   171,
+   112,
+   143,
+   139,
+   103,
+   126,
+   190,
+   69,
+   128,
+   62,
+   37
+  ],
+  "warnings": []
+ }
+}

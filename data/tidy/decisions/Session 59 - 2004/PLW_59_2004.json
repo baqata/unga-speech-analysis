@@ -1,0 +1,98 @@
+{
+ "id": "PLW_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  41,
+  53,
+  63,
+  85,
+  94,
+  107,
+  123,
+  139,
+  160
+ ],
+ "cer": [],
+ "fix": [
+  [
+   22,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   80,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   89,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   107,
+   "Palauís",
+   "Palau’s",
+   "encoding"
+  ],
+  [
+   133,
+   "Japanís",
+   "Japan’s",
+   "encoding"
+  ],
+  [
+   134,
+   "Japanís",
+   "Japan’s",
+   "encoding"
+  ],
+  [
+   145,
+   "ìhigh-",
+   "“high-",
+   "encoding"
+  ],
+  [
+   162,
+   "communityís",
+   "community’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f84246501394817a424a0bca1d02c5f349c0646",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1348,
+  "words_out": 1347,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   170,
+   156,
+   107,
+   76,
+   169,
+   76,
+   104,
+   126,
+   130,
+   172,
+   61
+  ],
+  "warnings": []
+ }
+}

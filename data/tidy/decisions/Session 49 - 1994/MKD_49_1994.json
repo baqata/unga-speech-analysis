@@ -1,0 +1,80 @@
+{
+ "id": "MKD_49_1994",
+ "drop": [
+  [
+   20,
+   20,
+   "procedural"
+  ],
+  [
+   46,
+   47,
+   "header_footer"
+  ],
+  [
+   144,
+   145,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  21,
+  33,
+  50,
+  59,
+  76,
+  93,
+  108,
+  122,
+  140,
+  151,
+  159,
+  174,
+  185,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "362778db889b2d7b83a439b27978471987c47706",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {
+   "procedural": 1,
+   "header_footer": 4
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1692,
+  "words_out": 1667,
+  "retention": 0.9852,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   40,
+   134,
+   108,
+   121,
+   82,
+   143,
+   144,
+   111,
+   121,
+   147,
+   69,
+   61,
+   130,
+   104,
+   88,
+   64
+  ],
+  "warnings": []
+ }
+}

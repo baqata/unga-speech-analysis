@@ -1,0 +1,140 @@
+{
+ "id": "CZE_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  37,
+  49,
+  61,
+  77,
+  86,
+  106,
+  114,
+  125,
+  144,
+  152,
+  164,
+  176,
+  195,
+  217,
+  234,
+  244,
+  256,
+  266,
+  280,
+  293
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "humankind?s",
+   "humankind’s",
+   "encoding"
+  ],
+  [
+   49,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   51,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   66,
+   "NATO?s",
+   "NATO’s",
+   "encoding"
+  ],
+  [
+   67,
+   "Alliance?s",
+   "Alliance’s",
+   "encoding"
+  ],
+  [
+   198,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   204,
+   "Group?s",
+   "Group’s",
+   "encoding"
+  ],
+  [
+   208,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   237,
+   "Court?s",
+   "Court’s",
+   "encoding"
+  ],
+  [
+   270,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   288,
+   "Republic?s",
+   "Republic’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1c8aa1dfd1a91452bb9b860ec0f8aded9e6505cd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 301,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2501,
+  "words_out": 2498,
+  "retention": 0.9988,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   57,
+   230,
+   97,
+   97,
+   138,
+   77,
+   170,
+   73,
+   95,
+   158,
+   71,
+   95,
+   91,
+   150,
+   183,
+   146,
+   94,
+   99,
+   80,
+   118,
+   108,
+   71
+  ],
+  "warnings": []
+ }
+}

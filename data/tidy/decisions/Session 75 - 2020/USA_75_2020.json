@@ -1,0 +1,57 @@
+{
+ "id": "USA_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  15,
+  20,
+  24,
+  27,
+  32,
+  38,
+  42,
+  46
+ ],
+ "cer": [
+  0,
+  46
+ ],
+ "fix": [
+  [
+   31,
+   "jsEpj ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2cee88e96e2e04251569383aadbd605281ab6a86",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 981,
+  "words_out": 980,
+  "retention": 0.999,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   12,
+   160,
+   111,
+   114,
+   73,
+   70,
+   99,
+   138,
+   77,
+   111,
+   15
+  ],
+  "warnings": []
+ }
+}

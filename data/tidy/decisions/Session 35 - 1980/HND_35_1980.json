@@ -1,0 +1,90 @@
+{
+ "id": "HND_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  19,
+  21,
+  23,
+  26,
+  29,
+  33,
+  36,
+  38,
+  43,
+  46,
+  53,
+  55,
+  57,
+  60,
+  64,
+  68,
+  69,
+  73,
+  77,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "EI Salvador",
+   "El Salvador",
+   "ocr"
+  ],
+  [
+   79,
+   "prepared\" brings",
+   "prepared brings",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "980d1af3f912175067ced8bd77925f1dbd86138a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 2800,
+  "words_out": 2800,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   156,
+   112,
+   122,
+   169,
+   75,
+   82,
+   127,
+   100,
+   117,
+   85,
+   66,
+   134,
+   72,
+   281,
+   90,
+   78,
+   102,
+   105,
+   154,
+   52,
+   131,
+   140,
+   184,
+   66
+  ],
+  "warnings": []
+ }
+}

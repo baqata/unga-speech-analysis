@@ -1,0 +1,208 @@
+{
+ "id": "BRA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   168,
+   168,
+   "presider"
+  ],
+  [
+   169,
+   169,
+   "noise"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  12,
+  20,
+  27,
+  34,
+  43,
+  49,
+  62,
+  71,
+  83,
+  90,
+  96,
+  108,
+  120,
+  132,
+  139,
+  149,
+  154,
+  166
+ ],
+ "cer": [
+  2,
+  166
+ ],
+ "fix": [
+  [
+   2,
+   "Kallilur Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   5,
+   "Guterri",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   42,
+   "Evening",
+   "Threatening",
+   "asr_term"
+  ],
+  [
+   94,
+   "super-aeroneum",
+   "super El Niño",
+   "asr_term"
+  ],
+  [
+   102,
+   "redeforestation",
+   "deforestation",
+   "asr_term"
+  ],
+  [
+   112,
+   "Liu XIV",
+   "Leo XIV",
+   "asr_name"
+  ],
+  [
+   127,
+   "global self",
+   "global south",
+   "asr_term"
+  ],
+  [
+   131,
+   "steamed",
+   "stemmed",
+   "asr_term"
+  ],
+  [
+   149,
+   "Martha Luther King",
+   "Martin Luther King",
+   "asr_name"
+  ],
+  [
+   153,
+   "tempo of peace",
+   "temple of peace",
+   "asr_term"
+  ],
+  [
+   48,
+   "there there",
+   "there",
+   "asr_term"
+  ],
+  [
+   31,
+   "extremism. sovereignty",
+   "extremism sovereignty",
+   "asr_term"
+  ],
+  [
+   92,
+   "denialism. nature",
+   "denialism. Nature",
+   "asr_term"
+  ],
+  [
+   153,
+   "time. men",
+   "time. Men",
+   "asr_term"
+  ],
+  [
+   162,
+   "system. under",
+   "system. Under",
+   "asr_term"
+  ],
+  [
+   7,
+   "Finally, since",
+   "Since",
+   "asr_term"
+  ],
+  [
+   9,
+   "war. credibility",
+   "war. Its credibility",
+   "asr_term"
+  ],
+  [
+   29,
+   "proves",
+   "approves",
+   "asr_term"
+  ],
+  [
+   34,
+   "Isaac",
+   "Yitzhak",
+   "asr_name"
+  ],
+  [
+   80,
+   "terrorism. crime",
+   "terrorism. Organized crime",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in Portuguese; Guterres, amenazar, super El Niño, León XIV, sur global, surgen, Martin Luther King and templo per Spanish channel; PGA Khalilur Rahman per un.org; unit 169 'Amen.' after the presiding officer's thanks is stray hall audio. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 48 'there there' -> 'there'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 9 'war. credibility' -> 'war. Credibility'; unit 31 'extremism. sovereignty' -> 'extremism sovereignty'; unit 80 'terrorism. crime' -> 'terrorism. Crime'; unit 92 'denialism. nature' -> 'denialism. Nature'; unit 153 'time. men' -> 'time. Men'; unit 162 'system. under' -> 'system. Under'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 7 'Finally, since' -> 'Since' (invented word: both decodes go straight from 'assembly' to 'since' (1.00) with no 'Finally'; ES 'desde que subí por primera vez' has none); spot 4 unit 9 'war. credibility' -> 'war. Its credibility' (2026 exception, inside the existing repair: both decodes hear 'Its' 0.96 / 0.97; ES 'su credibilidad jamás ha estado tan baja'); spot 6 unit 29 'proves' -> 'approves' (decodes 'proves' 0.95 / 0.88 but 'It proves a more accurate representation of the world map' does not fit; sounds like 'approves'; ES 'ha aprobado una representación cartográfica más precisa'); spot 7 unit 34 'Isaac' -> 'Yitzhak' (the statesman is Yitzhak Rabin; decode 1 hears 'Izzatki' 0.53 (the sound of Yitzhak), decode 2 'Isaac' only 0.39; ES 'Isaac Rabin' is the Spanish rendering of the same name); spot 15 unit 80 'terrorism. crime' -> 'terrorism. Organized crime' (2026 exception, inside the existing repair: both decodes hear 'Organized' 0.99; ES 'el crimen organizado y la corrupción van de la mano')",
+ "unitizer_version": 1,
+ "sha1": "0b5a5aaaadb91ce5be5d246a01f34ecffde19396",
+ "layout": "single",
+ "stats": {
+  "n_units": 170,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2498,
+  "words_out": 2446,
+  "retention": 0.9792,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   38,
+   128,
+   120,
+   113,
+   81,
+   120,
+   99,
+   164,
+   91,
+   160,
+   85,
+   97,
+   198,
+   201,
+   182,
+   84,
+   136,
+   155,
+   184,
+   10
+  ],
+  "warnings": []
+ }
+}

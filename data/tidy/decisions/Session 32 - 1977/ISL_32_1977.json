@@ -1,0 +1,121 @@
+{
+ "id": "ISL_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  9,
+  11,
+  15,
+  20,
+  23,
+  24,
+  27,
+  31,
+  36,
+  37,
+  42,
+  44,
+  48,
+  52,
+  55,
+  59,
+  63,
+  65,
+  69,
+  75,
+  78,
+  81,
+  84,
+  86,
+  97
+ ],
+ "cer": [
+  3,
+  5,
+  7,
+  9
+ ],
+ "fix": [
+  [
+   6,
+   "Again 1 want",
+   "Again I want",
+   "ocr"
+  ],
+  [
+   8,
+   "and 1 feel",
+   "and I feel",
+   "ocr"
+  ],
+  [
+   36,
+   "is an. essential",
+   "is an essential",
+   "ocr"
+  ],
+  [
+   61,
+   "338(1973)",
+   "338 (1973)",
+   "spacing"
+  ],
+  [
+   98,
+   "in the word,",
+   "in the world,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f03c5a59c17ad90f5e30b957d2758f46d13acb7c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 2781,
+  "words_out": 2782,
+  "retention": 1.0004,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   61,
+   72,
+   65,
+   49,
+   62,
+   140,
+   144,
+   78,
+   55,
+   126,
+   93,
+   138,
+   32,
+   88,
+   79,
+   117,
+   96,
+   103,
+   109,
+   128,
+   65,
+   105,
+   155,
+   80,
+   83,
+   104,
+   62,
+   188,
+   105
+  ],
+  "warnings": []
+ }
+}

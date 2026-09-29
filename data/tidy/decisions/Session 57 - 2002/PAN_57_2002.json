@@ -1,0 +1,49 @@
+{
+ "id": "PAN_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  30,
+  50,
+  60,
+  74,
+  88,
+  106,
+  127,
+  137
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1262c9ccdb68e9ce616356179ca96a052be65136",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1138,
+  "words_out": 1137,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   136,
+   89,
+   149,
+   80,
+   99,
+   106,
+   134,
+   165,
+   82,
+   97
+  ],
+  "warnings": []
+ }
+}

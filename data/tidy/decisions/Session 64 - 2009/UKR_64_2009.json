@@ -1,0 +1,55 @@
+{
+ "id": "UKR_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  18,
+  35,
+  57,
+  72,
+  89,
+  113,
+  127,
+  141,
+  153,
+  167,
+  183
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5eb1dcede0061f8af878e03116ba12c4de03dec5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 191,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1477,
+  "words_out": 1475,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   33,
+   108,
+   140,
+   162,
+   111,
+   118,
+   170,
+   122,
+   115,
+   91,
+   122,
+   126,
+   57
+  ],
+  "warnings": []
+ }
+}

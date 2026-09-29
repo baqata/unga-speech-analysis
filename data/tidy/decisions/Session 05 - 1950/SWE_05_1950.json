@@ -1,0 +1,63 @@
+{
+ "id": "SWE_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  14,
+  21,
+  29,
+  36,
+  39,
+  47,
+  50,
+  54,
+  58,
+  61,
+  63
+ ],
+ "cer": [],
+ "fix": [
+  [
+   9,
+   "that : the",
+   "that the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0be0e05acf29349d1a0b1e9d8061696cc88a9d2d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 14
+  },
+  "words_in": 1936,
+  "words_out": 1935,
+  "retention": 0.9995,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   75,
+   145,
+   144,
+   195,
+   243,
+   211,
+   82,
+   223,
+   117,
+   121,
+   141,
+   65,
+   62,
+   111
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "MDV_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  40,
+  52,
+  64,
+  73,
+  84,
+  103,
+  114,
+  129,
+  138,
+  152,
+  170,
+  184,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "(A/67/1)",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "chlorof luorocarbons",
+   "chlorofluorocarbons",
+   "split_word"
+  ],
+  [
+   96,
+   "hydrochlorof luorocarbons",
+   "hydrochlorofluorocarbons",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "796a9afa66b3c9fc06dd171546895b5576ca3b5d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 217,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1732,
+  "words_out": 1729,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   109,
+   197,
+   95,
+   100,
+   67,
+   82,
+   165,
+   89,
+   123,
+   71,
+   114,
+   141,
+   121,
+   154,
+   101
+  ],
+  "warnings": []
+ }
+}

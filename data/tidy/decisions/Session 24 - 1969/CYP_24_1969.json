@@ -1,0 +1,191 @@
+{
+ "id": "CYP_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  37,
+  53,
+  71,
+  92,
+  99,
+  108,
+  119,
+  135,
+  146,
+  163,
+  178,
+  198,
+  232,
+  238,
+  259,
+  282,
+  289,
+  295,
+  318,
+  331,
+  341,
+  359,
+  384,
+  415,
+  429,
+  445,
+  486,
+  515,
+  531
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "servant, Before",
+   "servant. Before",
+   "ocr"
+  ],
+  [
+   58,
+   "Our awareness",
+   "our awareness",
+   "ocr"
+  ],
+  [
+   60,
+   "Wé know",
+   "We know",
+   "ocr"
+  ],
+  [
+   97,
+   "[A/7601/Add.1], ",
+   "",
+   "label"
+  ],
+  [
+   116,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   134,
+   " [A/7601/Add.1, para. 28]",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "weapons, This",
+   "weapons. This",
+   "ocr"
+  ],
+  [
+   197,
+   " [ibid., paras. 176 toI79]",
+   "",
+   "label"
+  ],
+  [
+   239,
+   "sheres",
+   "spheres",
+   "ocr"
+  ],
+  [
+   260,
+   "id apartheid",
+   "and apartheid",
+   "ocr"
+  ],
+  [
+   392,
+   "great;",
+   "great",
+   "ocr"
+  ],
+  [
+   413,
+   "Statement",
+   "statement",
+   "ocr"
+  ],
+  [
+   453,
+   " [resolution 2200(XXI)]",
+   "",
+   "label"
+  ],
+  [
+   540,
+   "and - in",
+   "and in",
+   "ocr"
+  ],
+  [
+   553,
+   "earth: We",
+   "earth. We",
+   "ocr"
+  ],
+  [
+   555,
+   "and’ our",
+   "and our",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Paragraphs at units 198 and 445 exceed 300 words; no line in them ends a sentence, so they could not be split.",
+ "unitizer_version": 1,
+ "sha1": "37325e3e92a48f24298afe29f187b001da6f5f9b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 560,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4
+  },
+  "words_in": 5404,
+  "words_out": 5359,
+  "retention": 0.9917,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   172,
+   184,
+   156,
+   178,
+   209,
+   66,
+   83,
+   96,
+   153,
+   102,
+   161,
+   133,
+   184,
+   346,
+   69,
+   198,
+   219,
+   62,
+   57,
+   215,
+   124,
+   112,
+   188,
+   236,
+   297,
+   137,
+   142,
+   391,
+   249,
+   156,
+   284
+  ],
+  "warnings": [
+   "paragraph at unit 198 has 346 words",
+   "paragraph at unit 445 has 391 words"
+  ]
+ }
+}

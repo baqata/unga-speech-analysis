@@ -1,0 +1,71 @@
+{
+ "id": "BWA_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  31,
+  44,
+  58,
+  70,
+  81,
+  93,
+  104,
+  113,
+  132,
+  146,
+  155,
+  177,
+  184,
+  194,
+  211,
+  219
+ ],
+ "cer": [
+  0,
+  211
+ ],
+ "fix": [
+  [
+   13,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3db03f2317bb858e8b59fa7d90b68d2ec4ab7301",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 225,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1749,
+  "words_out": 1745,
+  "retention": 0.9977,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   126,
+   117,
+   99,
+   96,
+   90,
+   83,
+   93,
+   75,
+   70,
+   153,
+   125,
+   72,
+   178,
+   52,
+   79,
+   134,
+   57,
+   46
+  ],
+  "warnings": []
+ }
+}

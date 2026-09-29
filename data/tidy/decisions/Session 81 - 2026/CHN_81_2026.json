@@ -1,0 +1,101 @@
+{
+ "id": "CHN_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   56,
+   56,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  15,
+  21,
+  26,
+  30,
+  34,
+  40,
+  46,
+  53
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "show their",
+   "shoulder",
+   "asr_term"
+  ],
+  [
+   25,
+   "pull strength",
+   "pool strength",
+   "asr_term"
+  ],
+  [
+   37,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   40,
+   "Anga",
+   "UNGA",
+   "asr_name"
+  ],
+  [
+   3,
+   "gaps. and",
+   "gaps and",
+   "asr_term"
+  ],
+  [
+   21,
+   "predicament. and",
+   "predicament and",
+   "asr_term"
+  ],
+  [
+   12,
+   "block",
+   "bloc",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Transcript starts mid-sentence after 'Thank you.' (opening lines missing in both channels); Spanish channel confirms 'iniciativa ONU 80', 'la Asamblea General', 'sumar fuerzas' and 'tienen responsabilidades especiales'. Gap recovery (v3) restored the opening sentence ('Mr. President, colleagues, the world is witnessing ... widening development gaps'); truncated_start removed. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 3 'gaps. and' -> 'gaps and'; unit 21 'predicament. and' -> 'predicament and'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 4 unit 12 'block' -> 'bloc' (homophone: the term is 'bloc confrontation'; ES 'la confrontación entre bloques')",
+ "unitizer_version": 1,
+ "sha1": "881f4aeb51ba62cdedcb3e8cd6b1365c13d85dfb",
+ "layout": "single",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1428,
+  "words_out": 1375,
+  "retention": 0.9629,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   122,
+   137,
+   148,
+   105,
+   122,
+   139,
+   196,
+   161,
+   180,
+   65
+  ],
+  "warnings": []
+ }
+}

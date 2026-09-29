@@ -1,0 +1,125 @@
+{
+ "id": "BHR_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  10,
+  14,
+  16,
+  21,
+  23,
+  25,
+  27,
+  29,
+  31,
+  36,
+  40,
+  45,
+  47,
+  52,
+  54,
+  57,
+  58,
+  60,
+  62,
+  64,
+  67,
+  72,
+  74,
+  76,
+  78,
+  83
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "leader ship",
+   "leadership",
+   "split_word"
+  ],
+  [
+   13,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   46,
+   "return'-and",
+   "return and",
+   "ocr"
+  ],
+  [
+   56,
+   "optimistic ~ that",
+   "optimistic - that",
+   "ocr"
+  ],
+  [
+   63,
+   "implemented·",
+   "implemented.",
+   "ocr"
+  ],
+  [
+   66,
+   "-the foreign-debt",
+   "the foreign-debt",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "932cba6c200a5ade547246801a8369802b4d28f7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3570,
+  "words_out": 3570,
+  "retention": 1.0,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   122,
+   96,
+   140,
+   112,
+   151,
+   128,
+   191,
+   79,
+   77,
+   123,
+   92,
+   76,
+   182,
+   127,
+   155,
+   180,
+   170,
+   52,
+   144,
+   64,
+   68,
+   86,
+   70,
+   120,
+   142,
+   114,
+   85,
+   154,
+   144,
+   126
+  ],
+  "warnings": []
+ }
+}

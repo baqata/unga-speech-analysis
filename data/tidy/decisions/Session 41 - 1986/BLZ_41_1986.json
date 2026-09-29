@@ -1,0 +1,118 @@
+{
+ "id": "BLZ_41_1986",
+ "drop": [
+  [
+   107,
+   107,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  7,
+  10,
+  14,
+  18,
+  21,
+  23,
+  27,
+  30,
+  34,
+  37,
+  38,
+  40,
+  43,
+  44,
+  47,
+  53,
+  55,
+  59,
+  64,
+  71,
+  75,
+  79,
+  83,
+  86,
+  93,
+  97,
+  103
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   97,
+   "Tto the",
+   "To the",
+   "ocr"
+  ],
+  [
+   27,
+   "equitable dead",
+   "equitable deal",
+   "ocr"
+  ],
+  [
+   17,
+   "Unite*' Nations",
+   "United Nations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b5705b2da6515fdc5a708672dcdb5843f1ae0aa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 3069,
+  "words_out": 3066,
+  "retention": 0.999,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   74,
+   32,
+   65,
+   65,
+   111,
+   129,
+   117,
+   105,
+   64,
+   104,
+   135,
+   86,
+   98,
+   53,
+   95,
+   115,
+   52,
+   101,
+   168,
+   68,
+   105,
+   166,
+   113,
+   112,
+   79,
+   75,
+   70,
+   97,
+   122,
+   192,
+   98
+  ],
+  "warnings": []
+ }
+}

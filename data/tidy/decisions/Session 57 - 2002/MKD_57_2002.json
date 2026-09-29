@@ -1,0 +1,69 @@
+{
+ "id": "MKD_57_2002",
+ "drop": [
+  [
+   121,
+   133,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  19,
+  33,
+  50,
+  59,
+  70,
+  82,
+  93,
+  112,
+  134,
+  154,
+  165,
+  179,
+  193,
+  203,
+  216
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Units 121-133 print a second, slightly reworded version of the draft-resolution sentence and the paragraph on the struggle against terrorism (units 109-120); only the first occurrence is kept.",
+ "unitizer_version": 1,
+ "sha1": "cc0407366861d6d8757ed5801df85c778cf0412d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {
+   "repeat": 13
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1804,
+  "words_out": 1714,
+  "retention": 0.9501,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   138,
+   104,
+   133,
+   75,
+   77,
+   96,
+   92,
+   147,
+   64,
+   152,
+   88,
+   123,
+   91,
+   82,
+   107,
+   145
+  ],
+  "warnings": []
+ }
+}

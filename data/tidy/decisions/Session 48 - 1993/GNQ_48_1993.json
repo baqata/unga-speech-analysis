@@ -1,0 +1,82 @@
+{
+ "id": "GNQ_48_1993",
+ "drop": [
+  [
+   145,
+   145,
+   "header_footer"
+  ],
+  [
+   227,
+   227,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  31,
+  37,
+  45,
+  57,
+  65,
+  81,
+  97,
+  110,
+  134,
+  143,
+  158,
+  198,
+  213,
+  232,
+  249,
+  257,
+  278,
+  293
+ ],
+ "cer": [
+  0,
+  14,
+  31
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f5ec658b7316731baeb2645a45292d4169e62da",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 305,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2539,
+  "words_out": 2526,
+  "retention": 0.9949,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   124,
+   145,
+   46,
+   71,
+   96,
+   64,
+   129,
+   143,
+   120,
+   201,
+   66,
+   118,
+   289,
+   131,
+   143,
+   134,
+   70,
+   199,
+   132,
+   105
+  ],
+  "warnings": []
+ }
+}

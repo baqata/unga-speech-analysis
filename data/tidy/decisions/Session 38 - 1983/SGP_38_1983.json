@@ -1,0 +1,88 @@
+{
+ "id": "SGP_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  16,
+  21,
+  28,
+  32,
+  39,
+  44,
+  48,
+  56,
+  63,
+  66,
+  70,
+  75,
+  83,
+  90
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "ail be",
+   "all be",
+   "ocr"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   51,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ],
+  [
+   65,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2842f5feb20f1144b5930ef2e2e467b0607e4909",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 1916,
+  "words_out": 1913,
+  "retention": 0.9984,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   67,
+   132,
+   126,
+   102,
+   84,
+   63,
+   129,
+   104,
+   117,
+   158,
+   120,
+   83,
+   121,
+   140,
+   108,
+   174,
+   85
+  ],
+  "warnings": []
+ }
+}

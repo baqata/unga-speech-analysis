@@ -1,0 +1,62 @@
+{
+ "id": "AUT_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  43,
+  54,
+  68,
+  96,
+  113,
+  128,
+  148,
+  167,
+  179,
+  188
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "importanceof",
+   "importance of",
+   "merged_word"
+  ],
+  [
+   90,
+   "lnterreligious",
+   "Interreligious",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6760c0f4c1d495e30d5d8febb876d8295200e3b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1585,
+  "words_out": 1585,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   203,
+   155,
+   91,
+   120,
+   222,
+   139,
+   118,
+   175,
+   153,
+   99,
+   64,
+   46
+  ],
+  "warnings": []
+ }
+}

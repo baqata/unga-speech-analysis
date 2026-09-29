@@ -1,0 +1,164 @@
+{
+ "id": "PAK_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  34,
+  46,
+  54,
+  68,
+  88,
+  109,
+  136,
+  146,
+  160,
+  183,
+  197,
+  209,
+  227,
+  238,
+  256,
+  270,
+  278,
+  293,
+  304,
+  314,
+  332,
+  348,
+  360,
+  374,
+  383,
+  397,
+  409,
+  431,
+  440,
+  460,
+  475,
+  500,
+  510
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "Mr.Emilio",
+   "Mr. Emilio",
+   "spacing"
+  ],
+  [
+   119,
+   "act, rot by",
+   "act, not by",
+   "ocr"
+  ],
+  [
+   168,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   184,
+   " [A/7601/Add.1, para. 29]",
+   "",
+   "label"
+  ],
+  [
+   194,
+   "arms, race",
+   "arms race",
+   "ocr"
+  ],
+  [
+   199,
+   "[resolution. 2373 (XXII)] ",
+   "",
+   "label"
+  ],
+  [
+   293,
+   "situation is South-East",
+   "situation in South-East",
+   "ocr"
+  ],
+  [
+   342,
+   "Masque",
+   "Mosque",
+   "ocr"
+  ],
+  [
+   354,
+   " [resolution 271 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   364,
+   "will: not",
+   "will not",
+   "ocr"
+  ],
+  [
+   369,
+   "Rabat.?",
+   "Rabat.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc4adc3113b165761cd127690acefbd2efb585bd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 520,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4834,
+  "words_out": 4777,
+  "retention": 0.9882,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   115,
+   190,
+   107,
+   76,
+   132,
+   159,
+   206,
+   243,
+   88,
+   136,
+   189,
+   115,
+   106,
+   157,
+   94,
+   170,
+   127,
+   73,
+   147,
+   105,
+   99,
+   184,
+   142,
+   98,
+   131,
+   77,
+   125,
+   123,
+   202,
+   80,
+   199,
+   139,
+   242,
+   95,
+   106
+  ],
+  "warnings": []
+ }
+}

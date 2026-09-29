@@ -1,0 +1,74 @@
+{
+ "id": "BFA_49_1994",
+ "drop": [
+  [
+   13,
+   13,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  14,
+  17,
+  21,
+  26,
+  32,
+  38,
+  43,
+  47,
+  53,
+  62,
+  68,
+  73,
+  81,
+  85,
+  88
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 13 is an editorial Official Records citation, dropped.",
+ "unitizer_version": 1,
+ "sha1": "02a7637ebdaa436ce0fae98487b6ace8aad44a39",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2566,
+  "words_out": 2552,
+  "retention": 0.9945,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   80,
+   86,
+   135,
+   64,
+   81,
+   143,
+   118,
+   177,
+   191,
+   133,
+   105,
+   161,
+   247,
+   207,
+   162,
+   140,
+   108,
+   109,
+   105
+  ],
+  "warnings": []
+ }
+}

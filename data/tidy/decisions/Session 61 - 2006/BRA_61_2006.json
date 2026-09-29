@@ -1,0 +1,59 @@
+{
+ "id": "BRA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  28,
+  42,
+  55,
+  69,
+  89,
+  106,
+  119,
+  136,
+  147,
+  162,
+  178,
+  187,
+  212,
+  226
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b9070b620698681c8e6c6df441b307d50269a009",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1947,
+  "words_out": 1946,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   125,
+   106,
+   123,
+   110,
+   137,
+   155,
+   141,
+   100,
+   137,
+   95,
+   116,
+   126,
+   72,
+   177,
+   106,
+   120
+  ],
+  "warnings": []
+ }
+}

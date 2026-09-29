@@ -1,0 +1,234 @@
+{
+ "id": "GTM_43_1988",
+ "drop": [
+  [
+   83,
+   94,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  5,
+  8,
+  12,
+  19,
+  23,
+  26,
+  29,
+  37,
+  40,
+  42,
+  45,
+  51,
+  54,
+  56,
+  58,
+  60,
+  69,
+  70,
+  73,
+  78,
+  95
+ ],
+ "cer": [
+  0,
+  2,
+  4
+ ],
+ "fix": [
+  [
+   21,
+   "ail third-world",
+   "all third-world",
+   "ocr"
+  ],
+  [
+   25,
+   "the· time",
+   "this time",
+   "ocr"
+  ],
+  [
+   25,
+   "approach, lb this end",
+   "approach. To this end",
+   "ocr"
+  ],
+  [
+   26,
+   "'their",
+   "their",
+   "ocr"
+  ],
+  [
+   34,
+   "misunderstanding.",
+   "misunderstanding,",
+   "ocr"
+  ],
+  [
+   35,
+   "Intolerance",
+   "intolerance",
+   "ocr"
+  ],
+  [
+   37,
+   "citizen In Central",
+   "citizen in Central",
+   "ocr"
+  ],
+  [
+   41,
+   "promises)",
+   "promises;",
+   "ocr"
+  ],
+  [
+   43,
+   "а firm",
+   "a firm",
+   "encoding"
+  ],
+  [
+   46,
+   "actions}",
+   "actions;",
+   "ocr"
+  ],
+  [
+   47,
+   "out own responsibilities",
+   "our own responsibilities",
+   "ocr"
+  ],
+  [
+   47,
+   "resolve f 1 faith",
+   "resolve and faith",
+   "ocr"
+  ],
+  [
+   48,
+   "fu Lure·, above",
+   "future; above",
+   "ocr"
+  ],
+  [
+   53,
+   "X also wish",
+   "I also wish",
+   "ocr"
+  ],
+  [
+   57,
+   "their eight to",
+   "their right to",
+   "ocr"
+  ],
+  [
+   57,
+   "life. .",
+   "life.",
+   "ocr"
+  ],
+  [
+   58,
+   "that, with President",
+   "that: with President",
+   "ocr"
+  ],
+  [
+   59,
+   "this way involve",
+   "this may involve",
+   "ocr"
+  ],
+  [
+   59,
+   "Esquipalas",
+   "Esquipulas",
+   "ocr"
+  ],
+  [
+   62,
+   "de no era tic",
+   "democratic",
+   "split_word"
+  ],
+  [
+   64,
+   "In ray country",
+   "In my country",
+   "ocr"
+  ],
+  [
+   76,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   79,
+   "we ate achieving",
+   "we are achieving",
+   "ocr"
+  ],
+  [
+   82,
+   "Esquipulas 11",
+   "Esquipulas II",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 82 splices an unfinished sentence onto a repeat of unit 59 and is kept as printed; units 83-94 repeat units 60-71 and were dropped.",
+ "unitizer_version": 1,
+ "sha1": "dcc0b0b4d48b583e94b3ebc3b5540d332f53b377",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {
+   "repeat": 12
+  },
+  "prestrip": {},
+  "words_in": 2871,
+  "words_out": 2570,
+  "retention": 0.8952,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   60,
+   55,
+   18,
+   80,
+   103,
+   145,
+   81,
+   137,
+   74,
+   178,
+   106,
+   103,
+   121,
+   237,
+   107,
+   63,
+   98,
+   104,
+   176,
+   69,
+   96,
+   127,
+   164,
+   68
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

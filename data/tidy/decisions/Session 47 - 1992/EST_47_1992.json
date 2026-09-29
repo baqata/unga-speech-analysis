@@ -1,0 +1,62 @@
+{
+ "id": "EST_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  30,
+  46,
+  59,
+  74,
+  83,
+  97,
+  109,
+  131,
+  149
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "free.",
+   "free,",
+   "ocr"
+  ],
+  [
+   56,
+   "desire.*",
+   "desire.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4589d66ef6d3cb138a5cfd8837c009ebe2850a4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1722,
+  "words_out": 1721,
+  "retention": 0.9994,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   133,
+   158,
+   166,
+   139,
+   163,
+   89,
+   146,
+   125,
+   227,
+   186,
+   189
+  ],
+  "warnings": []
+ }
+}

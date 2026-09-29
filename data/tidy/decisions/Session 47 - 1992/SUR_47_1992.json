@@ -1,0 +1,75 @@
+{
+ "id": "SUR_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  18,
+  32,
+  45,
+  60,
+  73,
+  82,
+  95,
+  110,
+  120,
+  137,
+  153,
+  166
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   1,
+   "warmly. Sir,",
+   "warmly, Sir,",
+   "ocr"
+  ],
+  [
+   5,
+   "predecessor. His",
+   "predecessor, His",
+   "ocr"
+  ],
+  [
+   156,
+   "action. Agenda",
+   "action, Agenda",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b0b2c2d945b30c0cf86e942bf1660d913107d7d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1888,
+  "words_out": 1888,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   85,
+   108,
+   144,
+   126,
+   159,
+   136,
+   96,
+   147,
+   162,
+   108,
+   173,
+   166,
+   143,
+   135
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "id": "YEM_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13,
+  15,
+  18,
+  22,
+  26,
+  29,
+  33,
+  37,
+  42,
+  47,
+  49,
+  52,
+  55,
+  59,
+  64,
+  67,
+  72,
+  77,
+  81,
+  87,
+  91,
+  96,
+  101,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "legitimate\"",
+   "legitimate",
+   "ocr"
+  ],
+  [
+   25,
+   "pro-gramme",
+   "programme",
+   "hyphen"
+  ],
+  [
+   35,
+   "Yemen's.support",
+   "Yemen's support",
+   "ocr"
+  ],
+  [
+   57,
+   "pres-sure",
+   "pressure",
+   "hyphen"
+  ],
+  [
+   58,
+   "the fight",
+   "the right",
+   "ocr"
+  ],
+  [
+   69,
+   "United .Nations",
+   "United Nations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "390b96bee7a16d45d8f405eee5972989da6bd193",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3532,
+  "words_out": 3527,
+  "retention": 0.9986,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   162,
+   90,
+   121,
+   111,
+   71,
+   93,
+   138,
+   125,
+   100,
+   150,
+   129,
+   149,
+   123,
+   88,
+   118,
+   152,
+   147,
+   145,
+   72,
+   140,
+   141,
+   90,
+   156,
+   175,
+   171,
+   125,
+   156,
+   89
+  ],
+  "warnings": []
+ }
+}

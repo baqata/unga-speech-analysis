@@ -1,0 +1,76 @@
+{
+ "id": "BWA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  17,
+  22,
+  25,
+  28,
+  30,
+  33,
+  35,
+  40,
+  44,
+  48,
+  50,
+  56,
+  61,
+  68,
+  74,
+  80,
+  84,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "extra- judicial",
+   "extra-judicial",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "213cce472be24116c0525b2868b22297c55abe1b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2520,
+  "words_out": 2513,
+  "retention": 0.9972,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   171,
+   76,
+   203,
+   135,
+   84,
+   173,
+   85,
+   83,
+   63,
+   109,
+   133,
+   95,
+   81,
+   170,
+   138,
+   179,
+   124,
+   111,
+   87,
+   119,
+   94
+  ],
+  "warnings": []
+ }
+}

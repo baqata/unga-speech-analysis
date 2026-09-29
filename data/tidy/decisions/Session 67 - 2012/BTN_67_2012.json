@@ -1,0 +1,56 @@
+{
+ "id": "BTN_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  26,
+  34,
+  58,
+  77,
+  93,
+  106,
+  116,
+  132,
+  149,
+  161
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "f leeting",
+   "fleeting",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0db69a6b422ff0d2a81dec74b6f95ac473bb87d9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1419,
+  "words_out": 1415,
+  "retention": 0.9972,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   142,
+   85,
+   74,
+   219,
+   149,
+   148,
+   106,
+   73,
+   121,
+   137,
+   104,
+   57
+  ],
+  "warnings": []
+ }
+}

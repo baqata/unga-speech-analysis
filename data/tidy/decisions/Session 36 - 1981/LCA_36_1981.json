@@ -1,0 +1,216 @@
+{
+ "id": "LCA_36_1981",
+ "drop": [
+  [
+   32,
+   32,
+   "noise"
+  ],
+  [
+   72,
+   72,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  15,
+  20,
+  26,
+  29,
+  33,
+  37,
+  40,
+  49,
+  53,
+  59,
+  62,
+  68,
+  73,
+  79,
+  82,
+  91,
+  96,
+  105,
+  107,
+  110,
+  120,
+  125,
+  134,
+  140,
+  143,
+  145,
+  151,
+  154,
+  158,
+  162
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   1,
+   "t& the",
+   "to the",
+   "ocr"
+  ],
+  [
+   38,
+   "Sec. retaryGeneral",
+   "SecretaryGeneral",
+   "split_word"
+  ],
+  [
+   49,
+   " [A/36/24, vol. I, para. 222]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "diat one",
+   "that one",
+   "ocr"
+  ],
+  [
+   88,
+   "We \" will",
+   "We will",
+   "ocr"
+  ],
+  [
+   100,
+   "present,a",
+   "present a",
+   "ocr"
+  ],
+  [
+   107,
+   "painted.1 The",
+   "painted. The",
+   "ocr"
+  ],
+  [
+   113,
+   "the^ 19821986",
+   "the 19821986",
+   "ocr"
+  ],
+  [
+   120,
+   "the. country",
+   "the country",
+   "ocr"
+  ],
+  [
+   123,
+   "all .donor",
+   "all donor",
+   "ocr"
+  ],
+  [
+   124,
+   "decision\" 80/30,2 which",
+   "decision 80/30, which",
+   "ocr"
+  ],
+  [
+   134,
+   " [see AI36/333 and Corr.",
+   "",
+   "label"
+  ],
+  [
+   135,
+   "1]",
+   "",
+   "label"
+  ],
+  [
+   143,
+   "(IV).3 That",
+   "(IV). That",
+   "ocr"
+  ],
+  [
+   153,
+   "of 19763 and",
+   "of 1976 and",
+   "ocr"
+  ],
+  [
+   153,
+   "of 19794 are",
+   "of 1979 are",
+   "ocr"
+  ],
+  [
+   162,
+   "still date to",
+   "still dare to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e889f92724ef19d991bcbf40862ced0bc426f0db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 35,
+   "page_number": 1,
+   "page_header": 1
+  },
+  "words_in": 4700,
+  "words_out": 4684,
+  "retention": 0.9966,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   47,
+   173,
+   109,
+   116,
+   157,
+   150,
+   54,
+   127,
+   106,
+   137,
+   143,
+   165,
+   165,
+   69,
+   215,
+   114,
+   143,
+   118,
+   223,
+   165,
+   228,
+   75,
+   137,
+   222,
+   140,
+   237,
+   159,
+   64,
+   114,
+   162,
+   78,
+   140,
+   75,
+   157
+  ],
+  "warnings": []
+ }
+}

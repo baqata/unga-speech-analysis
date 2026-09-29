@@ -1,0 +1,79 @@
+{
+ "id": "MDV_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  16,
+  20,
+  25,
+  29,
+  33,
+  37,
+  42,
+  51,
+  59,
+  65,
+  69,
+  73,
+  79,
+  83
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   57,
+   "conscience- and",
+   "conscience and",
+   "ocr"
+  ],
+  [
+   74,
+   "alack of",
+   "a lack of",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c7fc68761631572a385066eaa6f8464b45e740fa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 3165,
+  "words_out": 3164,
+  "retention": 0.9997,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   133,
+   221,
+   239,
+   77,
+   189,
+   172,
+   132,
+   217,
+   154,
+   204,
+   234,
+   225,
+   217,
+   112,
+   146,
+   202,
+   134,
+   156
+  ],
+  "warnings": []
+ }
+}

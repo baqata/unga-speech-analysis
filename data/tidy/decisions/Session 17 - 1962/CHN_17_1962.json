@@ -1,0 +1,130 @@
+{
+ "id": "CHN_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  13,
+  16,
+  21,
+  24,
+  29,
+  33,
+  38,
+  45,
+  49,
+  57,
+  62,
+  71,
+  77,
+  87,
+  92,
+  99,
+  104,
+  108,
+  114,
+  118,
+  128,
+  132,
+  134,
+  141
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   9,
+   "Viet-Nam. and",
+   "Viet-Nam and",
+   "ocr"
+  ],
+  [
+   18,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   44,
+   "Hemisphere, It",
+   "Hemisphere. It",
+   "ocr"
+  ],
+  [
+   50,
+   "office,",
+   "office.",
+   "ocr"
+  ],
+  [
+   59,
+   "3], It",
+   "3]. It",
+   "ocr"
+  ],
+  [
+   59,
+   " [A/5201/Add,l, p. 3]",
+   "",
+   "label"
+  ],
+  [
+   141,
+   " [A/5201/Add.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44df1fcec7ebe778bd1465d9c1ea304c27779e20",
+ "layout": "lines",
+ "stats": {
+  "n_units": 144,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 39
+  },
+  "words_in": 3272,
+  "words_out": 3264,
+  "retention": 0.9976,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   64,
+   64,
+   79,
+   115,
+   88,
+   133,
+   68,
+   104,
+   71,
+   104,
+   167,
+   103,
+   189,
+   143,
+   197,
+   132,
+   161,
+   83,
+   138,
+   128,
+   112,
+   117,
+   97,
+   193,
+   78,
+   84,
+   168,
+   84
+  ],
+  "warnings": []
+ }
+}

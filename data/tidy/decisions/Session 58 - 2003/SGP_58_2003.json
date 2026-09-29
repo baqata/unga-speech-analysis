@@ -1,0 +1,61 @@
+{
+ "id": "SGP_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  41,
+  56,
+  69,
+  82,
+  96,
+  110,
+  127,
+  145,
+  160,
+  180,
+  198,
+  212,
+  227,
+  242
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e9c433ebed8eee6db7f0bc41b03566fa6f1fb648",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2022,
+  "words_out": 2017,
+  "retention": 0.9975,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   133,
+   214,
+   130,
+   97,
+   105,
+   115,
+   106,
+   139,
+   127,
+   121,
+   167,
+   152,
+   119,
+   112,
+   123,
+   57
+  ],
+  "warnings": []
+ }
+}

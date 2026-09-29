@@ -1,0 +1,105 @@
+{
+ "id": "NOR_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  10,
+  14,
+  18,
+  23,
+  25,
+  29,
+  35,
+  38,
+  47,
+  49,
+  52,
+  57,
+  59,
+  64,
+  69,
+  73,
+  77,
+  82,
+  88,
+  94,
+  98,
+  102,
+  106
+ ],
+ "cer": [
+  0,
+  106
+ ],
+ "fix": [
+  [
+   31,
+   "He must have",
+   "We must have",
+   "ocr"
+  ],
+  [
+   53,
+   "$ 55 billion",
+   "$55 billion",
+   "spacing"
+  ],
+  [
+   80,
+   "He will all",
+   "We will all",
+   "ocr"
+  ],
+  [
+   88,
+   "United Nation as",
+   "United Nations as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4bb958ce97d1037e57cdc65b1a78c65bb980581f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2297,
+  "words_out": 2296,
+  "retention": 0.9996,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   66,
+   120,
+   68,
+   90,
+   70,
+   125,
+   76,
+   59,
+   89,
+   69,
+   155,
+   80,
+   62,
+   121,
+   51,
+   74,
+   79,
+   81,
+   81,
+   65,
+   124,
+   89,
+   148,
+   81,
+   78,
+   95
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "BDI_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  43,
+  53,
+  63,
+  79,
+  94,
+  118,
+  137,
+  162,
+  181,
+  191
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b2560f6410f692fbaf69fb664e5c597f5d659834",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1491,
+  "words_out": 1489,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   93,
+   92,
+   152,
+   83,
+   63,
+   109,
+   104,
+   171,
+   132,
+   187,
+   138,
+   85,
+   80
+  ],
+  "warnings": []
+ }
+}

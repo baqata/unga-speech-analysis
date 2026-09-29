@@ -1,0 +1,84 @@
+{
+ "id": "VNM_76_2021",
+ "drop": [
+  [
+   69,
+   69,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  7,
+  11,
+  17,
+  20,
+  24,
+  27,
+  33,
+  39,
+  48,
+  52,
+  57,
+  63,
+  70,
+  75,
+  78
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   28,
+   "self- reliance",
+   "self-reliance",
+   "spacing"
+  ],
+  [
+   63,
+   "South- East",
+   "South-East",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2c3076509fdf91a784bd6cd14e80e64d0642b5a9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1978,
+  "words_out": 1971,
+  "retention": 0.9965,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   115,
+   85,
+   92,
+   110,
+   67,
+   92,
+   111,
+   140,
+   154,
+   224,
+   77,
+   105,
+   130,
+   212,
+   114,
+   80,
+   63
+  ],
+  "warnings": [
+   "procedural drop [69,69] in the middle of the speech"
+  ]
+ }
+}

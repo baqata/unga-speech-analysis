@@ -1,0 +1,76 @@
+{
+ "id": "BEN_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  26,
+  54,
+  71,
+  83,
+  95,
+  116,
+  129,
+  146,
+  156,
+  171,
+  182,
+  196,
+  213,
+  235,
+  247,
+  256,
+  269,
+  277,
+  294,
+  304
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   124,
+   "kindergaren",
+   "kindergarten",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c489bcfd27d9996bb7dff457ce01a5fbdcca257c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2529,
+  "words_out": 2527,
+  "retention": 0.9992,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   221,
+   215,
+   142,
+   96,
+   84,
+   160,
+   104,
+   130,
+   78,
+   119,
+   92,
+   115,
+   133,
+   191,
+   94,
+   75,
+   111,
+   61,
+   129,
+   81,
+   96
+  ],
+  "warnings": []
+ }
+}

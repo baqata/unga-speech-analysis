@@ -1,0 +1,84 @@
+{
+ "id": "TTO_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  16,
+  19,
+  27,
+  40,
+  53,
+  68,
+  85,
+  98,
+  114,
+  135,
+  147,
+  167,
+  185,
+  202,
+  218,
+  244,
+  256,
+  270,
+  279,
+  289,
+  304
+ ],
+ "cer": [
+  0,
+  11,
+  16
+ ],
+ "fix": [
+  [
+   213,
+   "human- resource",
+   "human-resource",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c1933bc26fb2b3776a0ac4180416ee81ad43c21",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 317,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2540,
+  "words_out": 2533,
+  "retention": 0.9972,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   86,
+   37,
+   24,
+   70,
+   99,
+   108,
+   124,
+   141,
+   112,
+   132,
+   163,
+   91,
+   161,
+   145,
+   128,
+   116,
+   204,
+   97,
+   111,
+   69,
+   86,
+   129,
+   100
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "MCO_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  29,
+  39,
+  55,
+  70,
+  79,
+  88,
+  100,
+  115,
+  127,
+  139,
+  162,
+  185,
+  206,
+  220
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   193,
+   "(resolution S-27/2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d110e2c99ac7cd1f1ee78ebb0f25259824ffeb0e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1851,
+  "words_out": 1846,
+  "retention": 0.9973,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   72,
+   100,
+   63,
+   70,
+   111,
+   115,
+   77,
+   74,
+   105,
+   111,
+   96,
+   104,
+   175,
+   182,
+   145,
+   104,
+   142
+  ],
+  "warnings": []
+ }
+}

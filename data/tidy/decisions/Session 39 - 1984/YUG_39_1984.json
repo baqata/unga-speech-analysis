@@ -1,0 +1,134 @@
+{
+ "id": "YUG_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  14,
+  20,
+  24,
+  31,
+  39,
+  42,
+  46,
+  53,
+  58,
+  64,
+  69,
+  75,
+  79,
+  83,
+  85,
+  90,
+  93,
+  97,
+  99,
+  101,
+  103,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   59,
+   "interfere m any",
+   "interfere in any",
+   "ocr"
+  ],
+  [
+   60,
+   "used m any",
+   "used in any",
+   "ocr"
+  ],
+  [
+   67,
+   "$ 1 trillion",
+   "$1 trillion",
+   "spacing"
+  ],
+  [
+   78,
+   "is bring!\" about",
+   "is bringing about",
+   "ocr"
+  ],
+  [
+   91,
+   "Non Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   98,
+   " [FLO]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "and lraq",
+   "and Iraq",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f771817d4807fc345def42b69d8adda579fe317d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3129,
+  "words_out": 3124,
+  "retention": 0.9984,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   165,
+   87,
+   107,
+   140,
+   79,
+   162,
+   183,
+   97,
+   118,
+   150,
+   135,
+   159,
+   107,
+   188,
+   91,
+   108,
+   90,
+   121,
+   110,
+   64,
+   212,
+   87,
+   62,
+   175,
+   127
+  ],
+  "warnings": []
+ }
+}

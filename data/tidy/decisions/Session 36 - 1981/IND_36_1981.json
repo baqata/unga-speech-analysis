@@ -1,0 +1,253 @@
+{
+ "id": "IND_36_1981",
+ "drop": [
+  [
+   29,
+   29,
+   "header_footer"
+  ],
+  [
+   126,
+   126,
+   "noise"
+  ],
+  [
+   202,
+   202,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  13,
+  20,
+  30,
+  38,
+  45,
+  50,
+  56,
+  60,
+  67,
+  72,
+  82,
+  88,
+  94,
+  100,
+  107,
+  112,
+  115,
+  118,
+  127,
+  130,
+  133,
+  138,
+  146,
+  150,
+  154,
+  161,
+  166,
+  169,
+  176,
+  180,
+  185,
+  190,
+  195,
+  199,
+  203
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   101,
+   " [resolution 2832(XXVI)]",
+   "",
+   "label"
+  ],
+  [
+   166,
+   " [resolution 35/56]",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "Tfe present",
+   "The present",
+   "ocr"
+  ],
+  [
+   24,
+   "itself-.",
+   "itself.",
+   "ocr"
+  ],
+  [
+   27,
+   "and & civilized",
+   "and a civilized",
+   "ocr"
+  ],
+  [
+   36,
+   "realistic and, objective",
+   "realistic and objective",
+   "ocr"
+  ],
+  [
+   44,
+   "based or. freedom",
+   "based on freedom",
+   "ocr"
+  ],
+  [
+   47,
+   "self- confidence",
+   "self-confidence",
+   "hyphen"
+  ],
+  [
+   54,
+   "ringing from",
+   "ranging from",
+   "ocr"
+  ],
+  [
+   66,
+   "itself- helpless",
+   "itself helpless",
+   "ocr"
+  ],
+  [
+   74,
+   "IWenty",
+   "Twenty",
+   "ocr"
+  ],
+  [
+   75,
+   "itself-,",
+   "itself,",
+   "ocr"
+  ],
+  [
+   93,
+   "a)I mankind. peace-loving",
+   "all mankind. Peace-loving",
+   "ocr"
+  ],
+  [
+   109,
+   " [see AI36I116 and Corr.l, annexJ",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "February, The",
+   "February. The",
+   "ocr"
+  ],
+  [
+   111,
+   "SecretaryGeneral's",
+   "Secretary-General's",
+   "hyphen"
+  ],
+  [
+   128,
+   "IsraeKs arrogation to itself- of",
+   "Israel's arrogation to itself of",
+   "ocr"
+  ],
+  [
+   138,
+   "comprehensive, convention",
+   "comprehensive convention",
+   "ocr"
+  ],
+  [
+   201,
+   "himself- provided",
+   "himself provided",
+   "ocr"
+  ],
+  [
+   131,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   137,
+   " [SWAPO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "24056d9465d3113884b8e4ecc285b98f02f74c8b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {
+   "header_footer": 2,
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 40,
+   "page_number": 1
+  },
+  "words_in": 5125,
+  "words_out": 5097,
+  "retention": 0.9945,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   157,
+   157,
+   189,
+   233,
+   145,
+   138,
+   139,
+   135,
+   115,
+   155,
+   105,
+   251,
+   134,
+   159,
+   128,
+   153,
+   149,
+   72,
+   76,
+   259,
+   89,
+   131,
+   139,
+   181,
+   98,
+   95,
+   158,
+   151,
+   68,
+   159,
+   107,
+   113,
+   137,
+   108,
+   109,
+   110,
+   95
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

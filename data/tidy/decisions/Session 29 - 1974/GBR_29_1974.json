@@ -1,0 +1,95 @@
+{
+ "id": "GBR_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  18,
+  24,
+  27,
+  32,
+  37,
+  39,
+  43,
+  48,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   25,
+   "case, Rather",
+   "case. Rather",
+   "ocr"
+  ],
+  [
+   25,
+   "possibilities\",",
+   "possibilities\".",
+   "ocr"
+  ],
+  [
+   29,
+   "broad, web",
+   "broad web",
+   "ocr"
+  ],
+  [
+   40,
+   "a. natural",
+   "a natural",
+   "ocr"
+  ],
+  [
+   45,
+   "the' technology",
+   "the technology",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "The text stops after unit 52, in the middle of the economic section; the rest of the speech seems to be missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "39f42339ac7de5da370d251bcca2d54e05636254",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 18
+  },
+  "words_in": 1490,
+  "words_out": 1489,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   134,
+   101,
+   68,
+   142,
+   87,
+   146,
+   135,
+   157,
+   84,
+   102,
+   171,
+   107,
+   55
+  ],
+  "warnings": []
+ }
+}

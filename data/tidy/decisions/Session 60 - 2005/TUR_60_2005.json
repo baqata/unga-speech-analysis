@@ -1,0 +1,72 @@
+{
+ "id": "TUR_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  29,
+  41,
+  52,
+  64,
+  75,
+  86,
+  97,
+  110,
+  124,
+  136,
+  145,
+  159,
+  176,
+  188,
+  198,
+  209,
+  224
+ ],
+ "cer": [],
+ "fix": [
+  [
+   31,
+   " (see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "65e05119fbf4af570dd877f43e7ac3ab25b22598",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 236,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1852,
+  "words_out": 1844,
+  "retention": 0.9957,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   86,
+   144,
+   96,
+   79,
+   90,
+   79,
+   83,
+   98,
+   102,
+   102,
+   88,
+   66,
+   120,
+   132,
+   98,
+   85,
+   87,
+   123,
+   86
+  ],
+  "warnings": []
+ }
+}

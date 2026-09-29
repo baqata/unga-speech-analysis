@@ -1,0 +1,153 @@
+{
+ "id": "RWA_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  13,
+  15,
+  17,
+  20,
+  22,
+  25,
+  29,
+  35,
+  37,
+  41,
+  43,
+  49,
+  52,
+  54,
+  57,
+  60,
+  63
+ ],
+ "cer": [
+  0,
+  2,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "President Of",
+   "President of",
+   "ocr"
+  ],
+  [
+   1,
+   "thirty -third",
+   "thirty-third",
+   "spacing"
+  ],
+  [
+   10,
+   "struggle',",
+   "struggle,",
+   "ocr"
+  ],
+  [
+   13,
+   "economic, and political",
+   "economic and political",
+   "ocr"
+  ],
+  [
+   20,
+   "that, the",
+   "that the",
+   "ocr"
+  ],
+  [
+   25,
+   "and, to any",
+   "and to any",
+   "ocr"
+  ],
+  [
+   28,
+   "peaceful moans",
+   "peaceful means",
+   "ocr"
+  ],
+  [
+   31,
+   "against: the",
+   "against the",
+   "ocr"
+  ],
+  [
+   37,
+   "intriguer",
+   "intrigues",
+   "ocr"
+  ],
+  [
+   42,
+   "169 ",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "proposals if made",
+   "proposals it made",
+   "ocr"
+  ],
+  [
+   52,
+   "mere than",
+   "more than",
+   "ocr"
+  ],
+  [
+   61,
+   "have Steady made",
+   "have already made",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 3-5 and 8 quote the delegation's statement of the previous year; the quotation marks are unbalanced in the source.",
+ "unitizer_version": 1,
+ "sha1": "ecf496631c6d77063276bbd68d544452ac9d3239",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 41
+  },
+  "words_in": 2062,
+  "words_out": 2060,
+  "retention": 0.999,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   80,
+   117,
+   49,
+   153,
+   85,
+   91,
+   84,
+   69,
+   80,
+   102,
+   145,
+   62,
+   116,
+   69,
+   138,
+   77,
+   116,
+   111,
+   98,
+   123,
+   95
+  ],
+  "warnings": []
+ }
+}

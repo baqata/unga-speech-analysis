@@ -1,0 +1,167 @@
+{
+ "id": "YUG_36_1981",
+ "drop": [
+  [
+   67,
+   67,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  11,
+  18,
+  24,
+  29,
+  32,
+  35,
+  41,
+  47,
+  55,
+  60,
+  68,
+  73,
+  76,
+  78,
+  82,
+  88,
+  94,
+  98,
+  99,
+  102,
+  105,
+  107
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   9,
+   "The , right",
+   "The right",
+   "ocr"
+  ],
+  [
+   23,
+   "in She search",
+   "in the search",
+   "ocr"
+  ],
+  [
+   40,
+   "Hie importance",
+   "The importance",
+   "ocr"
+  ],
+  [
+   58,
+   "as Well as",
+   "as well as",
+   "ocr"
+  ],
+  [
+   65,
+   "States.\"",
+   "States.",
+   "ocr"
+  ],
+  [
+   69,
+   "in the.",
+   "in the",
+   "ocr"
+  ],
+  [
+   71,
+   "for eight fleets",
+   "foreign fleets",
+   "ocr"
+  ],
+  [
+   94,
+   "anywhere m the",
+   "anywhere in the",
+   "ocr"
+  ],
+  [
+   96,
+   "ap plies",
+   "applies",
+   "split_word"
+  ],
+  [
+   96,
+   " [see A/361534, annex II, resolution AHG/Res. 103 (XVIII)]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "Afghanistan \"and",
+   "Afghanistan and",
+   "ocr"
+  ],
+  [
+   107,
+   "part cf the",
+   "part of the",
+   "ocr"
+  ],
+  [
+   108,
+   "joined, together",
+   "joined together",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0b14bc1489987389dcc1e99a352fca7bfb439d75",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 2528,
+  "words_out": 2516,
+  "retention": 0.9953,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   64,
+   50,
+   119,
+   156,
+   144,
+   125,
+   64,
+   63,
+   150,
+   131,
+   105,
+   87,
+   144,
+   77,
+   60,
+   96,
+   97,
+   121,
+   180,
+   124,
+   54,
+   76,
+   72,
+   60,
+   97
+  ],
+  "warnings": []
+ }
+}

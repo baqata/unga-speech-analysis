@@ -1,0 +1,63 @@
+{
+ "id": "SRB_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  17,
+  26,
+  48,
+  68,
+  83,
+  92,
+  108,
+  121,
+  134,
+  149,
+  163,
+  186,
+  201,
+  217,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1ac20c717f2423bd391fd385d2004cea86a48093",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2
+  },
+  "words_in": 1945,
+  "words_out": 1944,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   65,
+   59,
+   71,
+   175,
+   164,
+   111,
+   74,
+   139,
+   102,
+   101,
+   112,
+   107,
+   167,
+   133,
+   135,
+   136,
+   93
+  ],
+  "warnings": []
+ }
+}

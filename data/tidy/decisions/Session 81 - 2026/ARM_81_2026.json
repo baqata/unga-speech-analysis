@@ -1,0 +1,213 @@
+{
+ "id": "ARM_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   63,
+   63,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  15,
+  19,
+  25,
+  31,
+  37,
+  43,
+  49,
+  52,
+  59
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "Trip Development",
+   "TRIP Development",
+   "asr_name"
+  ],
+  [
+   13,
+   "Trip Development",
+   "TRIP Development",
+   "asr_name"
+  ],
+  [
+   17,
+   "Nahchivan",
+   "Nakhchivan",
+   "asr_name"
+  ],
+  [
+   22,
+   "the Nakchevan",
+   "the Nakhchivan",
+   "asr_name"
+  ],
+  [
+   22,
+   "its Nakchevan",
+   "its Nakhchivan",
+   "asr_name"
+  ],
+  [
+   24,
+   "Yerasch",
+   "Yeraskh",
+   "asr_name"
+  ],
+  [
+   27,
+   "Nachivan",
+   "Nakhchivan",
+   "asr_name"
+  ],
+  [
+   32,
+   "civil contract party",
+   "Civil Contract party",
+   "asr_name"
+  ],
+  [
+   51,
+   "with russia",
+   "with Russia",
+   "asr_name"
+  ],
+  [
+   51,
+   "armenia and russia",
+   "Armenia and Russia",
+   "asr_name"
+  ],
+  [
+   51,
+   "armenia-azerbaijan",
+   "Armenia-Azerbaijan",
+   "asr_name"
+  ],
+  [
+   18,
+   "quote. the",
+   "quote. The",
+   "asr_term"
+  ],
+  [
+   24,
+   "destroyed. and",
+   "destroyed. And",
+   "asr_term"
+  ],
+  [
+   45,
+   "coexistence. existence.",
+   "coexistence.",
+   "asr_term"
+  ],
+  [
+   51,
+   "relations. our",
+   "relations. Our",
+   "asr_term"
+  ],
+  [
+   17,
+   "interstate",
+   "intra-state",
+   "asr_term"
+  ],
+  [
+   52,
+   "are",
+   "or",
+   "asr_term"
+  ],
+  [
+   8,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ],
+  [
+   10,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ],
+  [
+   15,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ],
+  [
+   18,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ],
+  [
+   21,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ],
+  [
+   26,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ],
+  [
+   28,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ],
+  [
+   29,
+   "TRIP",
+   "TRIPP",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Meghri and Yeraskh railway sections per Armenpress/ARKA reports of the speech; Civil Contract per Spanish 'Contrato Civil'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 18 'quote. the' -> 'quote. The'; unit 24 'destroyed. and' -> 'destroyed. And'; unit 45 'coexistence. existence.' -> 'coexistence.' (the end of 'coexistence' written again at a segment join; two re-decodes hear it once (p 0.97-0.99)); unit 51 'relations. our' -> 'relations. Our'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 17 'interstate' -> 'intra-state', 'TRIP' -> 'TRIPP', 'TRIP' -> 'TRIPP', 'TRIP' -> 'TRIPP', 'TRIP' -> 'TRIPP', 'TRIP' -> 'TRIPP', 'TRIP' -> 'TRIPP', 'TRIP' -> 'TRIPP', 'TRIP' -> 'TRIPP' (sound-alike inside a quotation: the 8 Aug 2025 joint declaration the speaker quotes reads 'international and intra-state connectivity for the Republic of Armenia' (primeminister.am); the UN transcript hears 'intrastate', ES 'intrastatal'; Whisper's decodes and forced scoring favour 'interstate' (-5.9 vs -8.0) but carry a word-frequency prior. Also, outside the spots: the route's official acronym is TRIPP (Trump Route for International Peace and Prosperity; primeminister.am, state.gov), heard as 'TRIP'); spot 9 unit 52 'are' -> 'or' (both decodes hear 'or' (1.00 / 0.99); 'closer to are farther' does not fit; ES 'tanto los más cercanos como los más lejanos')",
+ "unitizer_version": 1,
+ "sha1": "711194cdfdff8247d53dd9ef67b6c435780f19c5",
+ "layout": "single",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1885,
+  "words_out": 1834,
+  "retention": 0.9729,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   122,
+   205,
+   162,
+   196,
+   209,
+   190,
+   172,
+   178,
+   157,
+   167,
+   76
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "BRB_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  13,
+  17,
+  23,
+  27,
+  30,
+  37,
+  42,
+  47,
+  52,
+  58,
+  63,
+  70,
+  76
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1bad9d7be812e88d2275d2aa848891e1bf0305fd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2243,
+  "words_out": 2241,
+  "retention": 0.9991,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   56,
+   157,
+   132,
+   165,
+   72,
+   131,
+   140,
+   113,
+   125,
+   163,
+   165,
+   116,
+   111,
+   106,
+   173,
+   159,
+   157
+  ],
+  "warnings": []
+ }
+}

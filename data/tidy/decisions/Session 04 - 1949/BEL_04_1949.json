@@ -1,0 +1,108 @@
+{
+ "id": "BEL_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  17,
+  24,
+  29,
+  32,
+  34,
+  38,
+  46,
+  53,
+  58,
+  64,
+  71,
+  81,
+  86,
+  92,
+  94
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   "national.",
+   "national",
+   "ocr"
+  ],
+  [
+   37,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   40,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   73,
+   "most, convinced",
+   "most convinced",
+   "ocr"
+  ],
+  [
+   80,
+   "men. throughout",
+   "men throughout",
+   "ocr"
+  ],
+  [
+   91,
+   "itself,",
+   "itself.",
+   "ocr"
+  ],
+  [
+   81,
+   " (222nd meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "05693e29967cc3479a88de1fe81a35555bcd4f33",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 41
+  },
+  "words_in": 2980,
+  "words_out": 2978,
+  "retention": 0.9993,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   162,
+   93,
+   189,
+   172,
+   154,
+   130,
+   107,
+   88,
+   226,
+   149,
+   146,
+   186,
+   191,
+   271,
+   172,
+   259,
+   124,
+   159
+  ],
+  "warnings": []
+ }
+}

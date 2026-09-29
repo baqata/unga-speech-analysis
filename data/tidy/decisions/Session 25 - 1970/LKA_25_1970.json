@@ -1,0 +1,116 @@
+{
+ "id": "LKA_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  25,
+  30,
+  36,
+  40,
+  44,
+  48,
+  54,
+  57,
+  59,
+  62,
+  70,
+  74,
+  79,
+  85,
+  90,
+  91,
+  98,
+  101,
+  105,
+  109,
+  111,
+  114,
+  124,
+  133
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   41,
+   "Heads or State",
+   "Heads of State",
+   "ocr"
+  ],
+  [
+   79,
+   "Twenty- fifth",
+   "Twenty-fifth",
+   "hyphen"
+  ],
+  [
+   85,
+   " [A 17982, para. 16]",
+   "",
+   "label"
+  ],
+  [
+   129,
+   "believes injustice",
+   "believes in justice",
+   "merged_word"
+  ],
+  [
+   133,
+   "In concision",
+   "In conclusion",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3b49ac612e634d821691126b8f36297f8b9e01e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 4174,
+  "words_out": 4167,
+  "retention": 0.9983,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   213,
+   136,
+   289,
+   172,
+   174,
+   144,
+   113,
+   112,
+   146,
+   139,
+   145,
+   74,
+   122,
+   145,
+   190,
+   150,
+   231,
+   100,
+   187,
+   169,
+   155,
+   133,
+   116,
+   100,
+   237,
+   191,
+   84
+  ],
+  "warnings": []
+ }
+}

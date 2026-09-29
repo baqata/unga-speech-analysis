@@ -1,0 +1,59 @@
+{
+ "id": "ARM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  16,
+  25,
+  28,
+  30,
+  35,
+  40,
+  44,
+  48,
+  57,
+  59,
+  65,
+  68,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c804e5c18cf20d99f67733d96b09fd4ab46b09be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1760,
+  "words_out": 1760,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   40,
+   143,
+   141,
+   207,
+   83,
+   87,
+   76,
+   106,
+   118,
+   103,
+   170,
+   59,
+   152,
+   79,
+   103,
+   93
+  ],
+  "warnings": []
+ }
+}

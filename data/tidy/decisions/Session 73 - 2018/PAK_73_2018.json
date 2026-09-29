@@ -1,0 +1,113 @@
+{
+ "id": "PAK_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  14,
+  28,
+  34,
+  39,
+  43,
+  49,
+  54,
+  60,
+  64,
+  73,
+  78,
+  81,
+  86,
+  93,
+  98,
+  101,
+  106,
+  110,
+  115,
+  120,
+  124,
+  126,
+  129,
+  132,
+  135,
+  141
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   35,
+   "ill- informed",
+   "ill-informed",
+   "hyphen"
+  ],
+  [
+   60,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ],
+  [
+   97,
+   "counter- terrorism",
+   "counter-terrorism",
+   "hyphen"
+  ],
+  [
+   119,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c88e95d134dda48bb48c25c5577541c8d586f5cb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2909,
+  "words_out": 2905,
+  "retention": 0.9986,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   60,
+   89,
+   86,
+   112,
+   166,
+   69,
+   105,
+   115,
+   141,
+   80,
+   105,
+   104,
+   162,
+   109,
+   63,
+   78,
+   120,
+   98,
+   110,
+   99,
+   110,
+   100,
+   117,
+   61,
+   73,
+   101,
+   63,
+   61,
+   82,
+   66
+  ],
+  "warnings": []
+ }
+}

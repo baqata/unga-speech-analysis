@@ -1,0 +1,148 @@
+{
+ "id": "ECU_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  17,
+  23,
+  28,
+  35,
+  41,
+  44,
+  54,
+  59,
+  61
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "«of",
+   "of",
+   "ocr"
+  ],
+  [
+   30,
+   "bad become",
+   "had become",
+   "ocr"
+  ],
+  [
+   46,
+   " (A/AC.",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "18/15)",
+   "",
+   "label"
+  ],
+  [
+   47,
+   " (A/AC.",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "18/30)",
+   "",
+   "label"
+  ],
+  [
+   48,
+   " (A/AC.",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "18/18)",
+   "",
+   "label"
+  ],
+  [
+   49,
+   " (A/AC.",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "18/39)",
+   "",
+   "label"
+  ],
+  [
+   50,
+   " (A/AC.",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "18/24)",
+   "",
+   "label"
+  ],
+  [
+   51,
+   " (A/AC.",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "18/49)",
+   "",
+   "label"
+  ],
+  [
+   52,
+   " (A/AG.",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "18/63)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "7cea1d64df3f99b454f30fddb5c4f4f8b749647e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2030,
+  "words_out": 2015,
+  "retention": 0.9926,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   184,
+   223,
+   194,
+   236,
+   182,
+   208,
+   183,
+   143,
+   145,
+   158,
+   109,
+   50
+  ],
+  "warnings": []
+ }
+}

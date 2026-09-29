@@ -1,0 +1,318 @@
+{
+ "id": "OMN_36_1981",
+ "drop": [
+  [
+   13,
+   13,
+   "noise"
+  ],
+  [
+   17,
+   17,
+   "noise"
+  ],
+  [
+   78,
+   78,
+   "noise"
+  ],
+  [
+   82,
+   82,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  7,
+  10,
+  14,
+  18,
+  20,
+  22,
+  24,
+  26,
+  29,
+  33,
+  35,
+  40,
+  45,
+  50,
+  52,
+  58,
+  60,
+  63,
+  69,
+  72,
+  75,
+  79,
+  86,
+  91,
+  98
+ ],
+ "cer": [
+  0,
+  4,
+  6,
+  98
+ ],
+ "fix": [
+  [
+   0,
+   "President, of",
+   "President of",
+   "ocr"
+  ],
+  [
+   4,
+   "Wechmar;",
+   "Wechmar,",
+   "ocr"
+  ],
+  [
+   7,
+   "question, is",
+   "question is",
+   "ocr"
+  ],
+  [
+   8,
+   "International peace and, security",
+   "international peace and security",
+   "ocr"
+  ],
+  [
+   9,
+   "the , demands",
+   "the demands",
+   "ocr"
+  ],
+  [
+   9,
+   "Arab lights",
+   "Arab rights",
+   "ocr"
+  ],
+  [
+   15,
+   "believed In",
+   "believed in",
+   "ocr"
+  ],
+  [
+   16,
+   "in in form",
+   "in the form",
+   "ocr"
+  ],
+  [
+   18,
+   "wish n repeat",
+   "wish to repeat",
+   "ocr"
+  ],
+  [
+   22,
+   "i.-e outbreak",
+   "the outbreak",
+   "ocr"
+  ],
+  [
+   30,
+   "success In",
+   "success in",
+   "ocr"
+  ],
+  [
+   34,
+   "wish to. involve",
+   "wish to involve",
+   "ocr"
+  ],
+  [
+   42,
+   "problem.'",
+   "problem.",
+   "ocr"
+  ],
+  [
+   56,
+   " [resolution 3516]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "which Is based",
+   "which is based",
+   "ocr"
+  ],
+  [
+   59,
+   "integrity'oT all",
+   "integrity of all",
+   "ocr"
+  ],
+  [
+   62,
+   "peaceful Solution",
+   "peaceful solution",
+   "ocr"
+  ],
+  [
+   69,
+   "number Of",
+   "number of",
+   "ocr"
+  ],
+  [
+   72,
+   "Refugees, Wishes",
+   "refugees, wishes",
+   "ocr"
+  ],
+  [
+   72,
+   "co-cooperation",
+   "co-operation",
+   "ocr"
+  ],
+  [
+   73,
+   "it Is relevant",
+   "it is relevant",
+   "ocr"
+  ],
+  [
+   75,
+   "194; ",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "Development Decide",
+   "Development Decade",
+   "ocr"
+  ],
+  [
+   79,
+   "matter, If adequate measures: are",
+   "matter. If adequate measures are",
+   "ocr"
+  ],
+  [
+   81,
+   "instability In the economies ,of the. developing",
+   "instability in the economies of the developing",
+   "ocr"
+  ],
+  [
+   83,
+   "materials Impose",
+   "materials impose",
+   "ocr"
+  ],
+  [
+   87,
+   "period front 1981",
+   "period from 1981",
+   "ocr"
+  ],
+  [
+   87,
+   "successful, implementation",
+   "successful implementation",
+   "ocr"
+  ],
+  [
+   92,
+   "we an asked",
+   "we are asked",
+   "ocr"
+  ],
+  [
+   92,
+   "arrived, at",
+   "arrived at",
+   "ocr"
+  ],
+  [
+   94,
+   "International convention",
+   "international convention",
+   "ocr"
+  ],
+  [
+   94,
+   "should 'neglect",
+   "should neglect",
+   "ocr"
+  ],
+  [
+   97,
+   "next year;",
+   "next year,",
+   "ocr"
+  ],
+  [
+   98,
+   "to-confirm",
+   "to confirm",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6394e3e99b79023f998ecefc2d164b1685d7ad88",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {
+   "noise": 4
+  },
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2974,
+  "words_out": 2963,
+  "retention": 0.9963,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   98,
+   78,
+   22,
+   92,
+   95,
+   108,
+   77,
+   67,
+   110,
+   73,
+   107,
+   124,
+   129,
+   113,
+   189,
+   184,
+   76,
+   147,
+   62,
+   73,
+   129,
+   64,
+   87,
+   108,
+   133,
+   158,
+   224,
+   36
+  ],
+  "warnings": [
+   "34 fixes"
+  ]
+ }
+}

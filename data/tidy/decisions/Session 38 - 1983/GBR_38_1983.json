@@ -1,0 +1,150 @@
+{
+ "id": "GBR_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  14,
+  18,
+  22,
+  26,
+  28,
+  36,
+  42,
+  46,
+  56,
+  62,
+  65,
+  70,
+  73,
+  78,
+  88,
+  94,
+  99,
+  105,
+  108,
+  114,
+  119,
+  123,
+  130,
+  135,
+  140,
+  146,
+  151,
+  154,
+  156,
+  161,
+  168,
+  173,
+  178,
+  183
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "session'",
+   "session",
+   "ocr"
+  ],
+  [
+   42,
+   "word' 'disarmament''",
+   "word \"disarmament\"",
+   "ocr"
+  ],
+  [
+   47,
+   "the stake: are",
+   "the stakes are",
+   "ocr"
+  ],
+  [
+   52,
+   "common ending",
+   "common ceiling",
+   "ocr"
+  ],
+  [
+   54,
+   "It is dear",
+   "It is clear",
+   "ocr"
+  ],
+  [
+   103,
+   "1982'",
+   "1982",
+   "ocr"
+  ],
+  [
+   172,
+   "appealing comment",
+   "appalling comment",
+   "ocr"
+  ],
+  [
+   180,
+   "nearer hope",
+   "nearer home",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27ea434c49dd711b980335384e5c8d1c8f4b225d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 4133,
+  "words_out": 4133,
+  "retention": 1.0,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   211,
+   116,
+   68,
+   132,
+   117,
+   91,
+   142,
+   78,
+   118,
+   191,
+   150,
+   112,
+   130,
+   106,
+   125,
+   198,
+   156,
+   101,
+   129,
+   96,
+   129,
+   97,
+   64,
+   109,
+   91,
+   67,
+   139,
+   103,
+   92,
+   56,
+   120,
+   183,
+   81,
+   84,
+   95,
+   56
+  ],
+  "warnings": []
+ }
+}

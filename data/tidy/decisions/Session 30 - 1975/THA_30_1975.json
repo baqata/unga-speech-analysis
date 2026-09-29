@@ -1,0 +1,112 @@
+{
+ "id": "THA_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  17,
+  19,
+  22,
+  25,
+  33,
+  41,
+  45,
+  51,
+  54,
+  57,
+  61,
+  66,
+  69,
+  75,
+  79,
+  83,
+  86,
+  90,
+  96,
+  99,
+  103,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   43,
+   "to he",
+   "to be",
+   "ocr"
+  ],
+  [
+   72,
+   "1972,3",
+   "1972,",
+   "ocr"
+  ],
+  [
+   79,
+   "mqjor",
+   "major",
+   "ocr"
+  ],
+  [
+   96,
+   " [AllOOOilAdd.l]",
+   "",
+   "label"
+  ],
+  [
+   100,
+   "1971,4",
+   "1971,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The source text has lost hyphens throughout (\"SouthEast\", \"IndoChina\", \"SecretaryGeneral\", \"bigPower\"); restoring them would add characters, so they are kept as printed.",
+ "unitizer_version": 1,
+ "sha1": "9ab854f7ec1925c762f4d9e825c9383ba2060de0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3324,
+  "words_out": 3314,
+  "retention": 0.997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   121,
+   158,
+   190,
+   132,
+   97,
+   89,
+   118,
+   216,
+   174,
+   132,
+   149,
+   88,
+   81,
+   132,
+   134,
+   102,
+   166,
+   131,
+   111,
+   97,
+   97,
+   108,
+   94,
+   135,
+   172,
+   90
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "SYC_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  16,
+  20,
+  27,
+  30,
+  38,
+  42,
+  50,
+  55,
+  66,
+  71,
+  77
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "gave use a",
+   "gave us a",
+   "ocr"
+  ],
+  [
+   24,
+   "steaks",
+   "stakes",
+   "ocr"
+  ],
+  [
+   26,
+   "they fact",
+   "they act",
+   "ocr"
+  ],
+  [
+   30,
+   "them. i have",
+   "them. I have",
+   "ocr"
+  ],
+  [
+   37,
+   "colombo",
+   "Colombo",
+   "ocr"
+  ],
+  [
+   47,
+   "expert product",
+   "export product",
+   "ocr"
+  ],
+  [
+   51,
+   "guest",
+   "quest",
+   "ocr"
+  ],
+  [
+   72,
+   "expansive",
+   "expensive",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ecc77e4c6b3233825a890d011395d904fbab60d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1875,
+  "words_out": 1875,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   92,
+   133,
+   178,
+   109,
+   151,
+   89,
+   212,
+   99,
+   130,
+   114,
+   222,
+   119,
+   139,
+   88
+  ],
+  "warnings": []
+ }
+}

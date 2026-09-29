@@ -1,0 +1,108 @@
+{
+ "id": "MMR_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  44,
+  60,
+  76,
+  93,
+  108,
+  129,
+  146,
+  166,
+  183,
+  203,
+  219,
+  234,
+  251,
+  264,
+  278,
+  297,
+  312
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "persist. in",
+   "persist in",
+   "ocr"
+  ],
+  [
+   73,
+   "shelling, We",
+   "shelling. We",
+   "ocr"
+  ],
+  [
+   149,
+   " [resolution",
+   "",
+   "label"
+  ],
+  [
+   150,
+   "2373 (XXII)] ",
+   "",
+   "label"
+  ],
+  [
+   156,
+   "arsenals. took",
+   "arsenals, took",
+   "ocr"
+  ],
+  [
+   177,
+   "must be. obvious",
+   "must be obvious",
+   "ocr"
+  ],
+  [
+   318,
+   "”...reflection",
+   "“...reflection",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "83844c183a7485c755b273b05bedec89c5f524ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 332,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2983,
+  "words_out": 2955,
+  "retention": 0.9906,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   152,
+   227,
+   141,
+   144,
+   148,
+   127,
+   192,
+   153,
+   174,
+   153,
+   184,
+   139,
+   137,
+   148,
+   119,
+   127,
+   171,
+   135,
+   184
+  ],
+  "warnings": []
+ }
+}

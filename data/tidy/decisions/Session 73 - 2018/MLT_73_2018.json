@@ -1,0 +1,70 @@
+{
+ "id": "MLT_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  15,
+  22,
+  25,
+  28,
+  32,
+  35,
+  37,
+  42,
+  50,
+  53,
+  56,
+  58,
+  61,
+  67,
+  72,
+  79
+ ],
+ "cer": [],
+ "fix": [
+  [
+   73,
+   "health- care",
+   "health-care",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cdaa15d6ee69ff34e583c6fa8e8b60eac4e4dc7b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1740,
+  "words_out": 1739,
+  "retention": 0.9994,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   92,
+   77,
+   172,
+   144,
+   73,
+   85,
+   128,
+   62,
+   70,
+   93,
+   89,
+   64,
+   81,
+   92,
+   96,
+   100,
+   80,
+   97,
+   44
+  ],
+  "warnings": []
+ }
+}

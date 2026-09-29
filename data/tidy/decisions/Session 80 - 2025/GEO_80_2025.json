@@ -1,0 +1,59 @@
+{
+ "id": "GEO_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  10,
+  16,
+  19,
+  25,
+  33,
+  36,
+  42,
+  48,
+  55,
+  62
+ ],
+ "cer": [
+  62
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "903b06771c85804d38ef152f181a9a205aecab21",
+ "layout": "single",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1439,
+  "words_out": 1420,
+  "retention": 0.9868,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   107,
+   117,
+   142,
+   94,
+   148,
+   198,
+   68,
+   151,
+   103,
+   129,
+   152,
+   11
+  ],
+  "warnings": []
+ }
+}

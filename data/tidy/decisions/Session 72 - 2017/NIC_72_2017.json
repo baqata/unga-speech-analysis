@@ -1,0 +1,79 @@
+{
+ "id": "NIC_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  8,
+  13,
+  19,
+  23,
+  25,
+  33,
+  35,
+  38,
+  45,
+  49,
+  54,
+  57,
+  61
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   6,
+   "Nations.On",
+   "Nations. On",
+   "spacing"
+  ],
+  [
+   18,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   59,
+   "UnitedStates",
+   "United States",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9462982cec4ba2da14e076576a8312cdbb8d0c33",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1926,
+  "words_out": 1927,
+  "retention": 1.0005,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   35,
+   193,
+   134,
+   135,
+   186,
+   95,
+   78,
+   200,
+   85,
+   84,
+   119,
+   98,
+   141,
+   111,
+   186,
+   47
+  ],
+  "warnings": []
+ }
+}

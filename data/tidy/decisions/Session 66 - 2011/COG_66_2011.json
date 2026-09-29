@@ -1,0 +1,57 @@
+{
+ "id": "COG_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  20,
+  30,
+  42,
+  64,
+  81,
+  99,
+  121,
+  147,
+  180,
+  204,
+  217
+ ],
+ "cer": [
+  0,
+  20,
+  204
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de9d50bba246a9ed1f2417e2cc3b056070d71f56",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1795,
+  "words_out": 1793,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   24,
+   119,
+   82,
+   102,
+   167,
+   125,
+   149,
+   154,
+   213,
+   224,
+   184,
+   108,
+   142
+  ],
+  "warnings": []
+ }
+}

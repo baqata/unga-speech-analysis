@@ -1,0 +1,140 @@
+{
+ "id": "HTI_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  18,
+  22,
+  27,
+  32,
+  36,
+  39,
+  44,
+  47,
+  51,
+  54,
+  56,
+  61,
+  63,
+  67,
+  69,
+  76,
+  85,
+  89,
+  96,
+  100,
+  102,
+  105,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Peres",
+   "Perez",
+   "ocr"
+  ],
+  [
+   14,
+   "¡raging",
+   "raging",
+   "encoding"
+  ],
+  [
+   29,
+   "seen to depend",
+   "seem to depend",
+   "ocr"
+  ],
+  [
+   41,
+   "civil were",
+   "civil war",
+   "ocr"
+  ],
+  [
+   51,
+   "guest",
+   "quest",
+   "ocr"
+  ],
+  [
+   56,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   60,
+   "(HATO)",
+   "(NATO)",
+   "ocr"
+  ],
+  [
+   70,
+   "racier",
+   "rather",
+   "ocr"
+  ],
+  [
+   101,
+   "(CASICOM)",
+   "(CARICOM)",
+   "ocr"
+  ],
+  [
+   102,
+   "Council<",
+   "Council.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02a96caee1674c2a7c8399712b6bab7fe3609206",
+ "layout": "lines",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3154,
+  "words_out": 3154,
+  "retention": 1.0,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   167,
+   89,
+   163,
+   73,
+   190,
+   162,
+   132,
+   76,
+   121,
+   80,
+   124,
+   119,
+   68,
+   121,
+   66,
+   98,
+   78,
+   230,
+   202,
+   83,
+   165,
+   93,
+   127,
+   126,
+   77,
+   124
+  ],
+  "warnings": []
+ }
+}

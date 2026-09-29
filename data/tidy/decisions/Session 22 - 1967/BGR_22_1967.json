@@ -1,0 +1,148 @@
+{
+ "id": "BGR_22_1967",
+ "drop": [
+  [
+   168,
+   168,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  10,
+  15,
+  22,
+  32,
+  37,
+  44,
+  49,
+  56,
+  65,
+  72,
+  76,
+  79,
+  86,
+  91,
+  95,
+  99,
+  102,
+  112,
+  121,
+  125,
+  129,
+  137,
+  143,
+  146,
+  150,
+  154,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Peopled Republic",
+   "People's Republic",
+   "ocr"
+  ],
+  [
+   6,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   24,
+   "between States, Both peoples",
+   "between States. Both peoples",
+   "ocr"
+  ],
+  [
+   40,
+   "impose- any",
+   "impose any",
+   "ocr"
+  ],
+  [
+   54,
+   "and distress, Israel aggression",
+   "and distress. Israel aggression",
+   "ocr"
+  ],
+  [
+   66,
+   "a Just political",
+   "a just political",
+   "ocr"
+  ],
+  [
+   100,
+   "Eighteen- Nation",
+   "Eighteen-Nation",
+   "hyphen"
+  ],
+  [
+   152,
+   " (A/6701/ Add.1)",
+   "",
+   "label"
+  ],
+  [
+   162,
+   "important problems, The United",
+   "important problems. The United",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 168 is only the record's document reference for the closing quotation.",
+ "unitizer_version": 1,
+ "sha1": "367bb2e9d58141cff2aa96e1905c5db7c0afe88c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 4263,
+  "words_out": 4217,
+  "retention": 0.9892,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   77,
+   229,
+   145,
+   161,
+   222,
+   129,
+   217,
+   70,
+   165,
+   175,
+   152,
+   92,
+   89,
+   186,
+   144,
+   109,
+   105,
+   57,
+   196,
+   189,
+   113,
+   124,
+   178,
+   181,
+   88,
+   154,
+   152,
+   138,
+   180
+  ],
+  "warnings": []
+ }
+}

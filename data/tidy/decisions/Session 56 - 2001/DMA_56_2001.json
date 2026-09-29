@@ -1,0 +1,51 @@
+{
+ "id": "DMA_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  38,
+  65,
+  95,
+  109,
+  125,
+  156,
+  180,
+  206,
+  224
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "21b7dbd4dfb2faa0d8faa8b7eafde0d907654618",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1852,
+  "words_out": 1850,
+  "retention": 0.9989,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   144,
+   158,
+   198,
+   232,
+   112,
+   128,
+   244,
+   194,
+   202,
+   144,
+   94
+  ],
+  "warnings": []
+ }
+}

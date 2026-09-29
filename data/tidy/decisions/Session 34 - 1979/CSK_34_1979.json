@@ -1,0 +1,151 @@
+{
+ "id": "CSK_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  19,
+  25,
+  29,
+  36,
+  39,
+  42,
+  48,
+  54,
+  56,
+  62,
+  65,
+  71,
+  74,
+  77,
+  80,
+  86,
+  90,
+  92,
+  96,
+  103,
+  106,
+  108,
+  114
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   0,
+   "me1",
+   "me",
+   "ocr"
+  ],
+  [
+   7,
+   "196. ",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "Al-though",
+   "Although",
+   "hyphen"
+  ],
+  [
+   20,
+   "well- defined",
+   "well-defined",
+   "spacing"
+  ],
+  [
+   42,
+   "de-vote",
+   "devote",
+   "hyphen"
+  ],
+  [
+   62,
+   "dis-armament",
+   "disarmament",
+   "hyphen"
+  ],
+  [
+   73,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   99,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   100,
+   "239 ",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "240. ",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "1%7",
+   "1967",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "32b6184ba65241ed6413d80221b0f80a3040d867",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 4153,
+  "words_out": 4146,
+  "retention": 0.9983,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   129,
+   109,
+   233,
+   209,
+   199,
+   158,
+   205,
+   104,
+   189,
+   155,
+   193,
+   176,
+   171,
+   118,
+   219,
+   85,
+   112,
+   87,
+   191,
+   124,
+   80,
+   142,
+   243,
+   129,
+   74,
+   150,
+   162
+  ],
+  "warnings": []
+ }
+}

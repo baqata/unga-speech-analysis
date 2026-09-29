@@ -1,0 +1,102 @@
+{
+ "id": "GAB_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  17,
+  24,
+  33,
+  39,
+  48,
+  50,
+  57,
+  62,
+  68,
+  79,
+  82,
+  90,
+  93,
+  99,
+  104
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "The Process of",
+   "The process of",
+   "ocr"
+  ],
+  [
+   54,
+   "''Observance",
+   "\"Observance",
+   "ocr"
+  ],
+  [
+   58,
+   "the United.",
+   "the United",
+   "ocr"
+  ],
+  [
+   54,
+   " [see A/5937]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   " [A/5975]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   " (item 94)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e2451f8d41ae379dbf57629943b065ac8a21f378",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2529,
+  "words_out": 2499,
+  "retention": 0.9881,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   101,
+   162,
+   180,
+   147,
+   195,
+   191,
+   180,
+   64,
+   153,
+   104,
+   124,
+   157,
+   63,
+   174,
+   59,
+   143,
+   109,
+   193
+  ],
+  "warnings": []
+ }
+}

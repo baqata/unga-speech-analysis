@@ -1,0 +1,118 @@
+{
+ "id": "VNM_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  12,
+  13,
+  17,
+  19,
+  24,
+  26,
+  29,
+  31,
+  32,
+  38,
+  42,
+  47,
+  51,
+  55,
+  62,
+  66,
+  72,
+  73,
+  76,
+  79
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "Second world War",
+   "Second World War",
+   "ocr"
+  ],
+  [
+   13,
+   "urgent*,",
+   "urgent,",
+   "ocr"
+  ],
+  [
+   36,
+   "ncn-ASEAN",
+   "non-ASEAN",
+   "ocr"
+  ],
+  [
+   45,
+   "interests*,",
+   "interests",
+   "ocr"
+  ],
+  [
+   73,
+   "holocaust*,",
+   "holocaust;",
+   "ocr"
+  ],
+  [
+   74,
+   "appeal*.",
+   "appeal:",
+   "ocr"
+  ],
+  [
+   79,
+   "deeds. it",
+   "deeds. It",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "402808023ff0620fd40759bf441b45d3c81af849",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3328,
+  "words_out": 3328,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   101,
+   84,
+   187,
+   59,
+   62,
+   188,
+   196,
+   139,
+   108,
+   101,
+   125,
+   82,
+   244,
+   264,
+   157,
+   130,
+   120,
+   224,
+   212,
+   149,
+   75,
+   123,
+   94,
+   104
+  ],
+  "warnings": []
+ }
+}

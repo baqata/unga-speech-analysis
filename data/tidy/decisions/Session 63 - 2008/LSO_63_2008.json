@@ -1,0 +1,51 @@
+{
+ "id": "LSO_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  24,
+  52,
+  82,
+  97,
+  114,
+  126,
+  144,
+  166,
+  195
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0726f122e08e64fd0a8c3e990da66259c3b3489",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1743,
+  "words_out": 1737,
+  "retention": 0.9966,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   35,
+   153,
+   216,
+   219,
+   125,
+   132,
+   108,
+   154,
+   209,
+   234,
+   152
+  ],
+  "warnings": []
+ }
+}

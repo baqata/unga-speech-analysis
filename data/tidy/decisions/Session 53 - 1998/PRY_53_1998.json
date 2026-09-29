@@ -1,0 +1,104 @@
+{
+ "id": "PRY_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  27,
+  39,
+  55,
+  77,
+  89,
+  108,
+  127,
+  144,
+  155,
+  169,
+  180,
+  188
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   25,
+   "peopleâs",
+   "people’s",
+   "encoding"
+  ],
+  [
+   29,
+   "peopleâs",
+   "people’s",
+   "encoding"
+  ],
+  [
+   41,
+   "peopleâs",
+   "people’s",
+   "encoding"
+  ],
+  [
+   74,
+   "Paraguayâs",
+   "Paraguay’s",
+   "encoding"
+  ],
+  [
+   90,
+   "Assemblyâs",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   111,
+   "yearâs",
+   "year’s",
+   "encoding"
+  ],
+  [
+   183,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c4ad1a8af784171a41ddaaa47165a96583a40817",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 13,
+   "page_number": 1
+  },
+  "words_in": 1715,
+  "words_out": 1714,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   68,
+   34,
+   132,
+   98,
+   130,
+   180,
+   97,
+   154,
+   136,
+   133,
+   91,
+   131,
+   99,
+   70,
+   161
+  ],
+  "warnings": []
+ }
+}

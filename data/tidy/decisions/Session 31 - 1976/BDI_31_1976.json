@@ -1,0 +1,158 @@
+{
+ "id": "BDI_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  4,
+  5,
+  6,
+  8,
+  10,
+  15,
+  18,
+  22,
+  24,
+  27,
+  31,
+  35,
+  38,
+  40,
+  43,
+  45,
+  48,
+  53,
+  59,
+  62,
+  65,
+  69,
+  72,
+  76,
+  81,
+  83,
+  85,
+  89,
+  93,
+  96,
+  101,
+  103
+ ],
+ "cer": [
+  0,
+  1,
+  3,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   35,
+   "the\" Saharan",
+   "the Saharan",
+   "ocr"
+  ],
+  [
+   52,
+   "of die world",
+   "of the world",
+   "ocr"
+  ],
+  [
+   60,
+   "incalculable ..disasters",
+   "incalculable disasters",
+   "ocr"
+  ],
+  [
+   65,
+   "Boumedidne",
+   "Boumediene",
+   "ocr"
+  ],
+  [
+   66,
+   " [resolution 3201 (S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "wUch",
+   "which",
+   "ocr"
+  ],
+  [
+   71,
+   "to nay more",
+   "to pay more",
+   "ocr"
+  ],
+  [
+   82,
+   "in Older to",
+   "in order to",
+   "ocr"
+  ],
+  [
+   89,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "92f9bd4eaf5866237077295c44c6dd0082fde998",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 3605,
+  "words_out": 3601,
+  "retention": 0.9989,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   50,
+   65,
+   71,
+   51,
+   35,
+   85,
+   142,
+   181,
+   104,
+   142,
+   99,
+   78,
+   114,
+   115,
+   55,
+   62,
+   55,
+   67,
+   131,
+   170,
+   184,
+   119,
+   74,
+   127,
+   116,
+   131,
+   85,
+   72,
+   88,
+   181,
+   156,
+   117,
+   149,
+   90,
+   40
+  ],
+  "warnings": []
+ }
+}

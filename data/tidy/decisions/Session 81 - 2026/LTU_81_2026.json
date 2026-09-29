@@ -1,0 +1,119 @@
+{
+ "id": "LTU_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   84,
+   85,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  9,
+  18,
+  24,
+  32,
+  41,
+  49,
+  55,
+  62,
+  69,
+  80,
+  83
+ ],
+ "cer": [
+  83
+ ],
+ "fix": [
+  [
+   12,
+   "employing",
+   "impairing",
+   "asr_term"
+  ],
+  [
+   15,
+   "hold its",
+   "halt its",
+   "asr_term"
+  ],
+  [
+   17,
+   "demanding",
+   "demining",
+   "asr_term"
+  ],
+  [
+   63,
+   "Antonia",
+   "Antonio",
+   "asr_name"
+  ],
+  [
+   68,
+   "rule states",
+   "rules-based",
+   "asr_term"
+  ],
+  [
+   49,
+   "society. disinformation,",
+   "society. Disinformation,",
+   "asr_term"
+  ],
+  [
+   19,
+   "A",
+   "The",
+   "asr_term"
+  ],
+  [
+   51,
+   "farther",
+   "further",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Impeding, halt, demining and rules-based per Spanish; unit 3 opens with a salutation fused to substance, so no cer label. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 49 'society. disinformation,' -> 'society. Disinformation,'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 19 'A' -> 'The' (both decodes hear 'The' clearly (0.98/0.98); the Comprehensive Plan to End the Gaza Conflict is a specific plan; ES 'El plan amplio'); spot 5 unit 51 'farther' -> 'further' (decode 1 hears 'further' (0.46), decode 2 'father'; 'farther' sounds alike but does not fit 'enhanced'; ES 'Este riesgo aumenta'). Random validation of 2026 (validation_2026/VALIDATION.md), minor findings applied: unit 12 'employing' -> 'impairing': the official text reads 'while actively impairing the freedom of navigation', and the heard 'employing' (p 0.91-0.96) is its sound; the earlier 'impeding' was a synonym taken from the Spanish 'obstruyen'.",
+ "unitizer_version": 1,
+ "sha1": "444e6c994fc176401df809ee9d1896ecba20d1c2",
+ "layout": "single",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1472,
+  "words_out": 1420,
+  "retention": 0.9647,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   122,
+   164,
+   103,
+   159,
+   155,
+   104,
+   108,
+   162,
+   115,
+   150,
+   76,
+   2
+  ],
+  "warnings": []
+ }
+}

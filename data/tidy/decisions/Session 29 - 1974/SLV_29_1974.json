@@ -1,0 +1,130 @@
+{
+ "id": "SLV_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  12,
+  15,
+  18,
+  22,
+  28,
+  31,
+  34,
+  36,
+  41,
+  42,
+  46,
+  50,
+  55,
+  57,
+  61,
+  64,
+  67,
+  71
+ ],
+ "cer": [
+  0,
+  3,
+  71
+ ],
+ "fix": [
+  [
+   0,
+   "yoU",
+   "you",
+   "ocr"
+  ],
+  [
+   1,
+   "Assembly .",
+   "Assembly.",
+   "spacing"
+  ],
+  [
+   16,
+   "that ever",
+   "than ever",
+   "ocr"
+  ],
+  [
+   19,
+   "groupings, .was",
+   "groupings, was",
+   "ocr"
+  ],
+  [
+   32,
+   "of the.",
+   "of the",
+   "ocr"
+  ],
+  [
+   41,
+   "enormOus",
+   "enormous",
+   "ocr"
+  ],
+  [
+   57,
+   " [AI9619 and Corr.l]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   " [ibid., para. 22]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "almost Ceased",
+   "almost ceased",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "891e118c1f319f5056334e7989b03fb527a46f76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2411,
+  "words_out": 2398,
+  "retention": 0.9946,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   126,
+   51,
+   143,
+   66,
+   106,
+   202,
+   147,
+   121,
+   103,
+   87,
+   87,
+   129,
+   85,
+   91,
+   130,
+   128,
+   70,
+   108,
+   90,
+   110,
+   150,
+   68
+  ],
+  "warnings": []
+ }
+}

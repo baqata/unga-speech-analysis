@@ -1,0 +1,50 @@
+{
+ "id": "ERI_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  19,
+  27,
+  31,
+  39,
+  44,
+  50
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "self- interest",
+   "self-interest",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3ced92a89e553b4d316229f1bce1d4a845a2b86",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1138,
+  "words_out": 1137,
+  "retention": 0.9991,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   112,
+   145,
+   122,
+   97,
+   133,
+   139,
+   92,
+   138,
+   159
+  ],
+  "warnings": []
+ }
+}

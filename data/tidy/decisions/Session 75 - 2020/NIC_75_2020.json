@@ -1,0 +1,59 @@
+{
+ "id": "NIC_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  12,
+  14,
+  19,
+  21,
+  26,
+  30,
+  32,
+  36,
+  40,
+  45,
+  51
+ ],
+ "cer": [
+  0,
+  3,
+  51
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6eac01d0c1e349d9d574f9d9534c118008e4765f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1432,
+  "words_out": 1432,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   29,
+   41,
+   76,
+   166,
+   72,
+   131,
+   72,
+   171,
+   126,
+   92,
+   111,
+   126,
+   65,
+   148,
+   6
+  ],
+  "warnings": []
+ }
+}

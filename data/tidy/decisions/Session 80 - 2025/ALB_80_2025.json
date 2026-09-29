@@ -1,0 +1,79 @@
+{
+ "id": "ALB_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  12,
+  18,
+  22,
+  27,
+  32,
+  38,
+  42,
+  45,
+  49,
+  51,
+  59,
+  66,
+  71
+ ],
+ "cer": [
+  2,
+  71
+ ],
+ "fix": [
+  [
+   4,
+   "Anna-Lena",
+   "Annalena",
+   "asr_name"
+  ],
+  [
+   37,
+   "Presova",
+   "Presevo",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "673e6b06552e21fbbddab6141c20d480e5978b23",
+ "layout": "single",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1616,
+  "words_out": 1583,
+  "retention": 0.9796,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   139,
+   175,
+   130,
+   85,
+   97,
+   88,
+   150,
+   101,
+   67,
+   91,
+   48,
+   130,
+   169,
+   111,
+   2
+  ],
+  "warnings": []
+ }
+}

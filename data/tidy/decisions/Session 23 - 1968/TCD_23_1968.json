@@ -1,0 +1,68 @@
+{
+ "id": "TCD_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  19,
+  25,
+  32,
+  41,
+  45,
+  50,
+  56,
+  61,
+  66,
+  72,
+  75,
+  82,
+  87,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "Americans end North",
+   "Americans and North",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9378c004e4e3bd58605c4e2386a6f56346625ccb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2205,
+  "words_out": 2168,
+  "retention": 0.9832,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   136,
+   112,
+   173,
+   148,
+   123,
+   176,
+   77,
+   143,
+   167,
+   108,
+   125,
+   119,
+   69,
+   145,
+   164,
+   89,
+   94
+  ],
+  "warnings": []
+ }
+}

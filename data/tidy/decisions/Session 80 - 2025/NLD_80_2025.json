@@ -1,0 +1,65 @@
+{
+ "id": "NLD_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   91,
+   91,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  15,
+  22,
+  34,
+  43,
+  52,
+  58,
+  67,
+  78,
+  83,
+  90
+ ],
+ "cer": [
+  2,
+  90
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7812b201618133564e5603cf3e59dddab24a93bd",
+ "layout": "single",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1583,
+  "words_out": 1531,
+  "retention": 0.9672,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   7,
+   224,
+   145,
+   155,
+   136,
+   194,
+   104,
+   197,
+   157,
+   84,
+   126,
+   2
+  ],
+  "warnings": []
+ }
+}

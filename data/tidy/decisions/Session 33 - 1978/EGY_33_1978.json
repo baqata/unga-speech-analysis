@@ -1,0 +1,255 @@
+{
+ "id": "EGY_33_1978",
+ "drop": [
+  [
+   38,
+   38,
+   "noise"
+  ],
+  [
+   45,
+   45,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  15,
+  24,
+  27,
+  32,
+  37,
+  42,
+  48,
+  51,
+  55,
+  59,
+  64,
+  68,
+  73,
+  80,
+  84,
+  86,
+  89,
+  91,
+  96,
+  102,
+  105,
+  112,
+  122,
+  125,
+  132,
+  135,
+  143,
+  147,
+  154,
+  158,
+  166,
+  172,
+  177,
+  178,
+  179,
+  182,
+  184,
+  194,
+  199
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "S. ",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "a. product",
+   "a product",
+   "ocr"
+  ],
+  [
+   33,
+   "having' embarked",
+   "having embarked",
+   "ocr"
+  ],
+  [
+   59,
+   "matters\" of",
+   "matters of",
+   "ocr"
+  ],
+  [
+   64,
+   " [resolutions 3201 fS-VI), 3202 (S-VI), and 3362 (S-VII)J",
+   "",
+   "label"
+  ],
+  [
+   64,
+   " [resolution 3281 (XXIX)]",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "everyone..",
+   "everyone.",
+   "ocr"
+  ],
+  [
+   68,
+   "it- is",
+   "it is",
+   "ocr"
+  ],
+  [
+   79,
+   "solutions To the",
+   "solutions to the",
+   "ocr"
+  ],
+  [
+   88,
+   "with, the",
+   "with the",
+   "ocr"
+  ],
+  [
+   91,
+   " [resolution 2373 (XXII), annex]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "., Egypt",
+   ". Egypt",
+   "ocr"
+  ],
+  [
+   94,
+   "Treaty—g treaty",
+   "Treaty—a treaty",
+   "ocr"
+  ],
+  [
+   96,
+   "turn to, an",
+   "turn to an",
+   "ocr"
+  ],
+  [
+   104,
+   "complements y",
+   "complementary",
+   "ocr"
+  ],
+  [
+   112,
+   "the .present",
+   "the present",
+   "ocr"
+  ],
+  [
+   131,
+   " [Ibid.]",
+   "",
+   "label"
+  ],
+  [
+   137,
+   "right to exit",
+   "right to exist",
+   "ocr"
+  ],
+  [
+   155,
+   "Carter, I should",
+   "Carter. I should",
+   "ocr"
+  ],
+  [
+   163,
+   "among ail States",
+   "among all States",
+   "ocr"
+  ],
+  [
+   47,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Opening record paragraphs 4-6 are printed line by line.",
+ "unitizer_version": 1,
+ "sha1": "b1684644b566f84137b9d469fa1bcad9ef09deb8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 205,
+  "units_dropped": {
+   "noise": 1,
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 56
+  },
+  "words_in": 5951,
+  "words_out": 5928,
+  "retention": 0.9961,
+  "n_paragraphs": 41,
+  "paragraph_words": [
+   162,
+   87,
+   143,
+   87,
+   107,
+   119,
+   136,
+   186,
+   121,
+   94,
+   86,
+   114,
+   96,
+   144,
+   173,
+   128,
+   97,
+   104,
+   67,
+   166,
+   204,
+   71,
+   172,
+   225,
+   53,
+   150,
+   126,
+   195,
+   113,
+   160,
+   113,
+   262,
+   236,
+   173,
+   132,
+   383,
+   81,
+   208,
+   222,
+   128,
+   104
+  ],
+  "warnings": [
+   "paragraph at unit 178 has 383 words",
+   "21 fixes"
+  ]
+ }
+}

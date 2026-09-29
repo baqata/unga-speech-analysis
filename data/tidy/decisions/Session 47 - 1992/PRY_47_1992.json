@@ -1,0 +1,98 @@
+{
+ "id": "PRY_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  17,
+  28,
+  41,
+  52,
+  68,
+  77,
+  88,
+  97,
+  106,
+  116,
+  128,
+  144,
+  160,
+  174,
+  190,
+  200,
+  209,
+  219
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   63,
+   "to .seek",
+   "to seek",
+   "ocr"
+  ],
+  [
+   119,
+   "their - roots",
+   "their roots",
+   "ocr"
+  ],
+  [
+   162,
+   "exceptions. Governments",
+   "exceptions, Governments",
+   "ocr"
+  ],
+  [
+   195,
+   " (A/44/PV.6. p. 21)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9b28d184670953da6b305800a35a119dfa3881e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2567,
+  "words_out": 2563,
+  "retention": 0.9984,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   106,
+   65,
+   130,
+   140,
+   132,
+   194,
+   100,
+   124,
+   97,
+   100,
+   113,
+   127,
+   195,
+   176,
+   165,
+   175,
+   93,
+   93,
+   113,
+   125
+  ],
+  "warnings": []
+ }
+}

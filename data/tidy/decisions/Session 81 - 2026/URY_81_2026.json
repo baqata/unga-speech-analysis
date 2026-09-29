@@ -1,0 +1,149 @@
+{
+ "id": "URY_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   93,
+   93,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  7,
+  11,
+  14,
+  22,
+  31,
+  42,
+  49,
+  52,
+  59,
+  69,
+  77,
+  84,
+  88,
+  92
+ ],
+ "cer": [
+  92
+ ],
+ "fix": [
+  [
+   87,
+   "multinaturalism",
+   "multilateralism",
+   "asr_term"
+  ],
+  [
+   19,
+   "peaceful some",
+   "peace for some",
+   "asr_term"
+  ],
+  [
+   4,
+   "Head of State,",
+   "Heads of State,",
+   "asr_term"
+  ],
+  [
+   7,
+   "traditions. a",
+   "traditions. A",
+   "asr_term"
+  ],
+  [
+   49,
+   "fear? we",
+   "fear? We",
+   "asr_term"
+  ],
+  [
+   58,
+   "dialogue. when",
+   "dialogue when",
+   "asr_term"
+  ],
+  [
+   65,
+   "us. we",
+   "us. We",
+   "asr_term"
+  ],
+  [
+   74,
+   "isolation. the",
+   "isolation. The",
+   "asr_term"
+  ],
+  [
+   87,
+   "being. humanity",
+   "being. Humanity",
+   "asr_term"
+  ],
+  [
+   91,
+   "happiness. if",
+   "happiness if",
+   "asr_term"
+  ],
+  [
+   5,
+   "And we",
+   "We",
+   "asr_term"
+  ],
+  [
+   19,
+   "there's",
+   "bears",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Bilingual review (r02), speaker's words or evidence: unit 2 'Head of State,' -> 'Heads of State,' (jefes de Estado; the re-timed English also has 'heads') (unit numbers before gap recovery). Gap recovery (v4) added hall chatter heard before the speech ('You can see the text on the inside.', 'It's like a project in the inside.'): noise. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 7 'traditions. a' -> 'traditions. A'; unit 49 'fear? we' -> 'fear? We'; unit 58 'dialogue. when' -> 'dialogue when'; unit 65 'us. we' -> 'us. We'; unit 74 'isolation. the' -> 'isolation. The'; unit 87 'being. humanity' -> 'being. Humanity'; unit 91 'happiness. if' -> 'happiness if'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 5 'And we' -> 'We' (both decodes go 'them.' to 'We,' (0.99 / 0.99) with no 'And'; forced scoring without it -15.3 vs with it -23.4 ('And' -9.2); UN lacks it; the speaker's 'Nosotros, en el sur de América' has no 'y'; invented word in the pause); spot 2 unit 19 'there's' -> 'bears' (decodes split 'there's' 0.73 / 'bears' 0.84; UN 'bears'; forced scoring 'bears' -5.8 vs 'there's' -6.4; 'humanity as a whole there's a responsibility' does not fit; the speaker: 'la humanidad entera tiene una responsabilidad')",
+ "unitizer_version": 1,
+ "sha1": "3b9de8e2f5eeda37f2f592e66d66683be4e94bb0",
+ "layout": "single",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 1935,
+  "words_out": 1872,
+  "retention": 0.9674,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   100,
+   175,
+   57,
+   193,
+   128,
+   144,
+   84,
+   133,
+   228,
+   105,
+   163,
+   175,
+   122,
+   61,
+   4
+  ],
+  "warnings": []
+ }
+}

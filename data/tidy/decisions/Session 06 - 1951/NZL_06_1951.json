@@ -1,0 +1,84 @@
+{
+ "id": "NZL_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  12,
+  19,
+  29,
+  36,
+  44,
+  52,
+  54,
+  61,
+  64,
+  68,
+  72,
+  77,
+  79,
+  86,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Nations,",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   35,
+   " m ",
+   " in ",
+   "ocr"
+  ],
+  [
+   48,
+   "tire",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 3-5 are displaced in the source (they continue the sentence cut off at the end of unit 12); kept in source order.",
+ "unitizer_version": 1,
+ "sha1": "b50efd1019539736c832e6c039cb7db8d0258461",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 2528,
+  "words_out": 2519,
+  "retention": 0.9964,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   43,
+   178,
+   173,
+   146,
+   164,
+   179,
+   192,
+   178,
+   131,
+   191,
+   105,
+   105,
+   133,
+   108,
+   65,
+   175,
+   130,
+   123
+  ],
+  "warnings": []
+ }
+}

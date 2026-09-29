@@ -1,0 +1,96 @@
+{
+ "id": "ETH_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  18,
+  32,
+  34,
+  40,
+  49,
+  55,
+  63,
+  67,
+  73,
+  78,
+  84,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "of. and active participant in.",
+   "of, and active participant in,",
+   "ocr"
+  ],
+  [
+   36,
+   "of Brazil.",
+   "of Brazil,",
+   "ocr"
+  ],
+  [
+   37,
+   "Russia.",
+   "Russia,",
+   "ocr"
+  ],
+  [
+   38,
+   "India.",
+   "India,",
+   "ocr"
+  ],
+  [
+   60,
+   "Dialogue Commission.",
+   "Dialogue Commission,",
+   "ocr"
+  ],
+  [
+   88,
+   "As I conclude.",
+   "As I conclude,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c1a7823e6f00313bd2ee9b010daa5ff35ed8dc23",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1438,
+  "words_out": 1438,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   53,
+   69,
+   84,
+   130,
+   208,
+   45,
+   66,
+   147,
+   91,
+   96,
+   75,
+   93,
+   78,
+   71,
+   74,
+   58
+  ],
+  "warnings": []
+ }
+}

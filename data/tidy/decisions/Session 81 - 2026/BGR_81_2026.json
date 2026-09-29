@@ -1,0 +1,122 @@
+{
+ "id": "BGR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   89,
+   90,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  8,
+  16,
+  23,
+  35,
+  46,
+  52,
+  59,
+  67,
+  75,
+  82,
+  88
+ ],
+ "cer": [
+  2,
+  88
+ ],
+ "fix": [
+  [
+   2,
+   "Khalilou Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   46,
+   "Marine Marine",
+   "Marin Marinov",
+   "asr_name"
+  ],
+  [
+   61,
+   "control, control and",
+   "control and",
+   "asr_term"
+  ],
+  [
+   4,
+   "opportunities. countries.",
+   "opportunities.",
+   "asr_term"
+  ],
+  [
+   2,
+   "distinct",
+   "distinguished",
+   "asr_term"
+  ],
+  [
+   11,
+   "region",
+   "regional",
+   "asr_term"
+  ],
+  [
+   24,
+   "the before",
+   "the Europe before",
+   "asr_term"
+  ],
+  [
+   76,
+   "urgent. and",
+   "urgent. Resilience and",
+   "asr_term"
+  ],
+  [
+   87,
+   "Bulgaria",
+   "And Bulgaria",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "PGA Khalilur Rahman per un.org/en/ga/president/81; Captain Marin Marinov, Bulgarian UNOPS staff killed in Gaza, per BTA and UNOPS. Unit 45 runs from the Black Sea into the Middle East without a sentence break. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 61 'control, control and' -> 'control and'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'opportunities. countries.' -> 'opportunities.' (a word written after a pause; two re-decodes and the Spanish booth have nothing between 'opportunities' and 'This requires'); unit 76 'urgent. and' -> 'urgent. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 2 'distinct' -> 'distinguished' (decodes 'Distinct' 0.58 / 0.58, a clipped 'distinguished'; 'distinct Secretary General' does not fit the form of address; UN 'distinguished Secretary-General'); spot 3 unit 11 'region' -> 'regional' (decodes 'regional' 0.86 / 0.76; 'more equitable region representation' does not fit; ES 'una representación regional más equitativa'); spot 5 unit 24 'the before' -> 'the Europe before' (2026 exception: both decodes hear 'Europe' (0.89 / 0.92); ES 'el futuro de Europa. antes y después de la guerra'; 'as well as the before the war' lacks its noun); spot 11 unit 76 'urgent. and' -> 'urgent. Resilience and' (2026 exception: both decodes hear 'Resilience' at 1.00; ES 'La resiliencia y el equilibrio de los ecosistemas marinos'; replaces the existing repair 'urgent. and' -> 'urgent. And'); spot 14 unit 87 'Bulgaria' -> 'And Bulgaria' (2026 exception: both decodes hear 'and' / 'And' (0.99 / 0.95) before 'Bulgaria'; ES 'Y Bulgaria está lista')",
+ "unitizer_version": 1,
+ "sha1": "7617d006a893155a737cee5f73d33aa325ce0e3f",
+ "layout": "single",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1912,
+  "words_out": 1863,
+  "retention": 0.9744,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   38,
+   108,
+   160,
+   78,
+   257,
+   278,
+   116,
+   198,
+   121,
+   210,
+   156,
+   139,
+   4
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "NER_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  25,
+  50,
+  68,
+  79,
+  97,
+  116,
+  133,
+  141,
+  157,
+  170,
+  181,
+  201,
+  219,
+  228,
+  241,
+  253
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   46,
+   "ben",
+   "been",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f29bd959dbe4b2dce8c330585a9d86d7c00cc18",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 258,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2163,
+  "words_out": 2162,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   32,
+   157,
+   213,
+   133,
+   90,
+   150,
+   155,
+   136,
+   84,
+   138,
+   120,
+   86,
+   171,
+   162,
+   74,
+   114,
+   100,
+   47
+  ],
+  "warnings": []
+ }
+}

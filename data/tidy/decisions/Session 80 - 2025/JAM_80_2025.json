@@ -1,0 +1,67 @@
+{
+ "id": "JAM_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  7,
+  11,
+  20,
+  27,
+  30,
+  33,
+  43,
+  49,
+  56,
+  62
+ ],
+ "cer": [
+  2,
+  62
+ ],
+ "fix": [
+  [
+   16,
+   "other SIDs",
+   "other SIDS",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "caa0aa79a9d82a7368514d464e365ddd82c7cdd4",
+ "layout": "single",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1287,
+  "words_out": 1247,
+  "retention": 0.9689,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   29,
+   91,
+   117,
+   166,
+   132,
+   70,
+   80,
+   184,
+   110,
+   142,
+   119,
+   7
+  ],
+  "warnings": []
+ }
+}

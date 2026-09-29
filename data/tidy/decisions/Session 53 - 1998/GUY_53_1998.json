@@ -1,0 +1,85 @@
+{
+ "id": "GUY_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  25,
+  48,
+  67,
+  77,
+  89,
+  103,
+  119,
+  136,
+  150,
+  162,
+  178,
+  203,
+  216
+ ],
+ "cer": [
+  6
+ ],
+ "fix": [
+  [
+   83,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   92,
+   "oâ-the-wisp",
+   "o’-the-wisp",
+   "encoding"
+  ],
+  [
+   134,
+   "yearâs",
+   "year’s",
+   "encoding"
+  ],
+  [
+   211,
+   "Jaganâs",
+   "Jagan’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c777643397b8be300ca2dd6c2d4c75c8e83da1a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 3,
+   "page_number": 3
+  },
+  "words_in": 1929,
+  "words_out": 1928,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   51,
+   151,
+   198,
+   171,
+   89,
+   101,
+   101,
+   137,
+   150,
+   119,
+   108,
+   141,
+   207,
+   111,
+   93
+  ],
+  "warnings": []
+ }
+}

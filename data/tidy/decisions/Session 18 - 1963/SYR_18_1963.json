@@ -1,0 +1,145 @@
+{
+ "id": "SYR_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  14,
+  18,
+  27,
+  32,
+  38,
+  42,
+  48,
+  50,
+  53,
+  57,
+  60,
+  64,
+  71,
+  77,
+  81,
+  85,
+  96,
+  102,
+  105,
+  107,
+  111,
+  127,
+  132,
+  135,
+  140,
+  149,
+  151,
+  155,
+  163,
+  167
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "1955?",
+   "1955.",
+   "ocr"
+  ],
+  [
+   5,
+   "1961?",
+   "1961.",
+   "ocr"
+  ],
+  [
+   44,
+   "crossed, No scientific",
+   "crossed. No scientific",
+   "ocr"
+  ],
+  [
+   58,
+   " [A/5501/Add.l, sect.",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "IX]",
+   "",
+   "label"
+  ],
+  [
+   142,
+   "Trial and Error, Speaking",
+   "Trial and Error. Speaking",
+   "ocr"
+  ],
+  [
+   158,
+   "[A/5501/ Add.1, sect.",
+   "",
+   "label"
+  ],
+  [
+   159,
+   "V, p. 3.]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f1df9ef89be60d1110a24a60b09e83f9fa12750",
+ "layout": "lines",
+ "stats": {
+  "n_units": 169,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 39
+  },
+  "words_in": 4248,
+  "words_out": 4231,
+  "retention": 0.996,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   59,
+   180,
+   107,
+   116,
+   212,
+   108,
+   139,
+   102,
+   217,
+   76,
+   89,
+   155,
+   60,
+   110,
+   161,
+   109,
+   85,
+   130,
+   219,
+   194,
+   110,
+   66,
+   95,
+   250,
+   109,
+   83,
+   105,
+   218,
+   79,
+   89,
+   231,
+   100,
+   68
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "id": "NAM_51_1996",
+ "drop": [
+  [
+   332,
+   332,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  26,
+  41,
+  63,
+  82,
+  100,
+  116,
+  136,
+  146,
+  167,
+  187,
+  203,
+  212,
+  232,
+  243,
+  266,
+  281,
+  310,
+  325
+ ],
+ "cer": [
+  0,
+  14,
+  26
+ ],
+ "fix": [
+  [
+   52,
+   "(Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "General Assembly, Fiftieth Session, Plenary Meetings,",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "35th meeting, p. 10)",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "(Official Records of the General Assembly, Fifty-First",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "Session, Plenary Meetings, first meeting, p. 4)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c7871bb3fae367355f1b02144189d40878832b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 333,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2610,
+  "words_out": 2581,
+  "retention": 0.9889,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   106,
+   96,
+   108,
+   158,
+   140,
+   138,
+   133,
+   157,
+   75,
+   175,
+   162,
+   114,
+   79,
+   165,
+   91,
+   191,
+   116,
+   222,
+   111,
+   44
+  ],
+  "warnings": []
+ }
+}

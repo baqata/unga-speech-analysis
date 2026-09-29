@@ -1,0 +1,51 @@
+{
+ "id": "MHL_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  34,
+  56,
+  68,
+  87,
+  111,
+  126,
+  143,
+  162
+ ],
+ "cer": [
+  0,
+  19,
+  162
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff0d841fa1a69ed36269050a60d3a7e3469e2d47",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 166,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1247,
+  "words_out": 1246,
+  "retention": 0.9992,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   135,
+   128,
+   162,
+   86,
+   135,
+   196,
+   92,
+   126,
+   159,
+   27
+  ],
+  "warnings": []
+ }
+}

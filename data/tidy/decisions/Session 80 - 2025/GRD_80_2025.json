@@ -1,0 +1,85 @@
+{
+ "id": "GRD_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  16,
+  30,
+  47,
+  54,
+  62,
+  69,
+  73,
+  83,
+  91,
+  98,
+  105,
+  112,
+  120,
+  125,
+  133,
+  142,
+  148,
+  153,
+  162
+ ],
+ "cer": [
+  2,
+  162
+ ],
+ "fix": [
+  [
+   45,
+   "CARICAM",
+   "CARICOM",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b4d0d48eade324310fced07803f8279337a6cc2",
+ "layout": "single",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2702,
+  "words_out": 2646,
+  "retention": 0.9793,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   84,
+   99,
+   139,
+   185,
+   113,
+   170,
+   176,
+   94,
+   154,
+   149,
+   134,
+   171,
+   180,
+   143,
+   73,
+   114,
+   119,
+   119,
+   84,
+   142,
+   4
+  ],
+  "warnings": []
+ }
+}

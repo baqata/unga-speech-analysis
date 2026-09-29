@@ -1,0 +1,99 @@
+{
+ "id": "BOL_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  13,
+  16,
+  21,
+  24,
+  30,
+  32,
+  37,
+  40,
+  44,
+  49,
+  53,
+  57,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Ghana, x also",
+   "Ghana. I also",
+   "ocr"
+  ],
+  [
+   0,
+   "Zambia, I hope",
+   "Zambia. I hope",
+   "ocr"
+  ],
+  [
+   38,
+   "constructive, work",
+   "constructive work",
+   "ocr"
+  ],
+  [
+   48,
+   "support*",
+   "support.",
+   "ocr"
+  ],
+  [
+   50,
+   "been, governed",
+   "been governed",
+   "ocr"
+  ],
+  [
+   52,
+   "source, of",
+   "source of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35a50c3db7029346cfa6a4d5057bac3b025a7ff6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 15
+  },
+  "words_in": 2227,
+  "words_out": 2223,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   67,
+   183,
+   145,
+   103,
+   126,
+   122,
+   196,
+   85,
+   195,
+   122,
+   152,
+   184,
+   138,
+   131,
+   114,
+   160
+  ],
+  "warnings": []
+ }
+}

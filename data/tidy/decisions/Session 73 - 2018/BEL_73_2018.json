@@ -1,0 +1,100 @@
+{
+ "id": "BEL_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  21,
+  27,
+  36,
+  43,
+  50,
+  56,
+  61,
+  68,
+  74,
+  75,
+  78,
+  85,
+  91,
+  98,
+  102,
+  108,
+  116,
+  124,
+  132,
+  139,
+  145
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   " (A/56/ PV.7, p. 2)",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   90,
+   "Africa- Europe",
+   "Africa-Europe",
+   "hyphen"
+  ],
+  [
+   95,
+   "peer- to",
+   "peer-to",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c6a20b29d39b7abd714d9e983a50f3a78b92d9e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2747,
+  "words_out": 2740,
+  "retention": 0.9975,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   108,
+   82,
+   133,
+   99,
+   78,
+   148,
+   154,
+   110,
+   87,
+   106,
+   154,
+   130,
+   29,
+   77,
+   128,
+   109,
+   120,
+   80,
+   88,
+   149,
+   123,
+   181,
+   127,
+   86,
+   54
+  ],
+  "warnings": []
+ }
+}

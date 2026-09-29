@@ -1,0 +1,90 @@
+{
+ "id": "BGR_55_2000",
+ "drop": [
+  [
+   279,
+   285,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  27,
+  45,
+  57,
+  85,
+  112,
+  135,
+  161,
+  172,
+  188,
+  202,
+  209,
+  240,
+  266,
+  294,
+  312,
+  342,
+  355,
+  378,
+  394,
+  420,
+  432
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   286,
+   "enjoyment of those rights on a global scale. ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The record prints two sentences on the indivisibility of human rights twice in succession; the second printing is removed.",
+ "unitizer_version": 1,
+ "sha1": "96935e100ab404bb7629ccf6dd59032ab2af2083",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 439,
+  "units_dropped": {
+   "repeat": 7
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3357,
+  "words_out": 3289,
+  "retention": 0.9797,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   81,
+   132,
+   157,
+   99,
+   213,
+   197,
+   175,
+   196,
+   85,
+   131,
+   114,
+   53,
+   227,
+   195,
+   158,
+   131,
+   220,
+   94,
+   183,
+   111,
+   196,
+   86,
+   55
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "HUN_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  17,
+  25,
+  34,
+  36,
+  43,
+  46,
+  53,
+  58,
+  60,
+  66
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "expeienced",
+   "experienced",
+   "ocr"
+  ],
+  [
+   3,
+   "tradional",
+   "traditional",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "46c40b75e871be60b530e642106205f4176a8a46",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1516,
+  "words_out": 1516,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   117,
+   99,
+   69,
+   141,
+   136,
+   172,
+   60,
+   121,
+   71,
+   160,
+   93,
+   51,
+   149,
+   77
+  ],
+  "warnings": []
+ }
+}

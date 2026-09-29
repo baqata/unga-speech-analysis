@@ -1,0 +1,78 @@
+{
+ "id": "CHN_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  28,
+  39,
+  55,
+  63,
+  74,
+  82,
+  102,
+  114,
+  133,
+  149,
+  166,
+  183,
+  210,
+  228,
+  260,
+  279,
+  292,
+  315,
+  335
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   214,
+   "Assembly.China",
+   "Assembly. China",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "241d78425a286561c2e8e78dd957b9cd51027575",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 344,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2824,
+  "words_out": 2825,
+  "retention": 1.0004,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   75,
+   155,
+   84,
+   114,
+   76,
+   102,
+   69,
+   158,
+   91,
+   149,
+   127,
+   125,
+   124,
+   233,
+   152,
+   243,
+   183,
+   116,
+   207,
+   162,
+   80
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "VNM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  42,
+  57,
+  75,
+  96,
+  123,
+  133,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "(resolution 67/1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b983cb721662e79405f91a442ec66e3347271d82",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1289,
+  "words_out": 1286,
+  "retention": 0.9977,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   67,
+   124,
+   127,
+   119,
+   140,
+   156,
+   201,
+   73,
+   135,
+   144
+  ],
+  "warnings": []
+ }
+}

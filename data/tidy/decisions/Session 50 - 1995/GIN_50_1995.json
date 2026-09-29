@@ -1,0 +1,74 @@
+{
+ "id": "GIN_50_1995",
+ "drop": [
+  [
+   6,
+   6,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  34,
+  49,
+  73,
+  96,
+  121,
+  142,
+  154,
+  178,
+  203,
+  223,
+  242,
+  265,
+  280,
+  300,
+  311,
+  335
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56975cf0f2b707c123e310c84e6e6e64faf3085e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 345,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2796,
+  "words_out": 2787,
+  "retention": 0.9968,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   53,
+   212,
+   125,
+   207,
+   186,
+   207,
+   161,
+   102,
+   191,
+   198,
+   163,
+   169,
+   178,
+   119,
+   158,
+   84,
+   185,
+   89
+  ],
+  "warnings": []
+ }
+}

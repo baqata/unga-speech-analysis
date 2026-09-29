@@ -1,0 +1,101 @@
+{
+ "id": "SAU_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  15,
+  21,
+  29,
+  38,
+  43,
+  47,
+  52,
+  59,
+  64,
+  68,
+  73,
+  77,
+  84,
+  87,
+  91,
+  98,
+  100,
+  105,
+  109,
+  113,
+  121
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   0,
+   "conveying to you.",
+   "conveying to you,",
+   "ocr"
+  ],
+  [
+   6,
+   "great pleasure.",
+   "great pleasure,",
+   "ocr"
+  ],
+  [
+   22,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ],
+  [
+   103,
+   "force in favor",
+   "force in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b622918841163df7d3e7cf2fdad1ca941f37260",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3876,
+  "words_out": 3874,
+  "retention": 0.9995,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   129,
+   60,
+   219,
+   186,
+   220,
+   210,
+   189,
+   122,
+   97,
+   248,
+   188,
+   130,
+   183,
+   188,
+   236,
+   117,
+   169,
+   142,
+   102,
+   165,
+   128,
+   105,
+   211,
+   130
+  ],
+  "warnings": []
+ }
+}

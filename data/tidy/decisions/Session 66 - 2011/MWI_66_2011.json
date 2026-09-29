@@ -1,0 +1,54 @@
+{
+ "id": "MWI_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  46,
+  55,
+  67,
+  83,
+  99,
+  108,
+  118,
+  130,
+  140
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f923b68cc0189e24b3df0ad0e6dd9aa3729a0d0c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1278,
+  "words_out": 1275,
+  "retention": 0.9977,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   120,
+   151,
+   118,
+   72,
+   91,
+   134,
+   132,
+   74,
+   75,
+   101,
+   74,
+   133
+  ],
+  "warnings": []
+ }
+}

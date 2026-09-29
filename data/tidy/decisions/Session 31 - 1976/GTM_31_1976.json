@@ -1,0 +1,67 @@
+{
+ "id": "GTM_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  15,
+  20,
+  25,
+  27,
+  29,
+  35,
+  40,
+  44
+ ],
+ "cer": [
+  15,
+  20,
+  25,
+  44
+ ],
+ "fix": [
+  [
+   27,
+   "meantime,' we",
+   "meantime, we",
+   "ocr"
+  ],
+  [
+   28,
+   "crusade in under",
+   "crusade is under",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26cec77c726e6a5715e2e07eb6069e9b750e4f58",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 1201,
+  "words_out": 1199,
+  "retention": 0.9983,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   124,
+   116,
+   109,
+   129,
+   148,
+   62,
+   81,
+   165,
+   80,
+   66,
+   119
+  ],
+  "warnings": []
+ }
+}

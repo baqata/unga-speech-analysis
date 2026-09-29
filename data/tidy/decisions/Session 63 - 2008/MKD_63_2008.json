@@ -1,0 +1,47 @@
+{
+ "id": "MKD_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  29,
+  49,
+  63,
+  93,
+  114,
+  140,
+  161,
+  174
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa40b8396c40fe955855896b6c83d7a18d38206b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1454,
+  "words_out": 1453,
+  "retention": 0.9993,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   225,
+   153,
+   115,
+   246,
+   165,
+   190,
+   173,
+   108,
+   78
+  ],
+  "warnings": []
+ }
+}

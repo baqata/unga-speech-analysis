@@ -1,0 +1,82 @@
+{
+ "id": "NLD_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  18,
+  26,
+  42,
+  50,
+  64,
+  72,
+  80,
+  99,
+  119,
+  134,
+  152,
+  172,
+  197,
+  213,
+  246,
+  265,
+  284,
+  295
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   207,
+   "(resolution 217 A (III),",
+   "",
+   "label"
+  ],
+  [
+   208,
+   "eighth preambular para.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "48aabac24131b22bb8c7238441f2683478e30232",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 305,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2710,
+  "words_out": 2699,
+  "retention": 0.9959,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   56,
+   99,
+   72,
+   155,
+   81,
+   119,
+   71,
+   62,
+   166,
+   176,
+   146,
+   159,
+   171,
+   219,
+   120,
+   282,
+   166,
+   177,
+   101,
+   101
+  ],
+  "warnings": []
+ }
+}

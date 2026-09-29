@@ -1,0 +1,112 @@
+{
+ "id": "ZMB_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  35,
+  54,
+  65,
+  88,
+  111,
+  130,
+  137,
+  145,
+  168,
+  187,
+  205,
+  218,
+  240,
+  255,
+  276,
+  289,
+  297
+ ],
+ "cer": [
+  0,
+  130,
+  297
+ ],
+ "fix": [
+  [
+   6,
+   "delegation?s",
+   "delegation’s",
+   "encoding"
+  ],
+  [
+   30,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   113,
+   "Africa?s",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   157,
+   "Africa?s",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   190,
+   "Court?s",
+   "Court’s",
+   "encoding"
+  ],
+  [
+   233,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   268,
+   "continent?s",
+   "continent’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cd45ffd6c7c8b170655ff89e8579f1a629927bc9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 302,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2514,
+  "words_out": 2512,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   88,
+   220,
+   157,
+   96,
+   180,
+   201,
+   170,
+   63,
+   63,
+   192,
+   154,
+   158,
+   103,
+   164,
+   116,
+   170,
+   105,
+   71,
+   41
+  ],
+  "warnings": []
+ }
+}

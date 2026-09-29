@@ -1,0 +1,72 @@
+{
+ "id": "SDN_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  29,
+  50,
+  73,
+  95,
+  117,
+  135,
+  145,
+  166,
+  186,
+  201,
+  210,
+  228,
+  241,
+  252,
+  272,
+  285
+ ],
+ "cer": [
+  15
+ ],
+ "fix": [
+  [
+   13,
+   " (The Holy Koran, XLIX:13)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d6c6efd6e4293ffc8ab263339c0f8776ec601e4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 300,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2318,
+  "words_out": 2312,
+  "retention": 0.9974,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   113,
+   167,
+   198,
+   168,
+   161,
+   148,
+   73,
+   171,
+   150,
+   119,
+   71,
+   144,
+   100,
+   95,
+   148,
+   95,
+   119
+  ],
+  "warnings": []
+ }
+}

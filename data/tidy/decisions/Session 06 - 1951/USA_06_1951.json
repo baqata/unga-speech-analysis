@@ -1,0 +1,185 @@
+{
+ "id": "USA_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  18,
+  26,
+  31,
+  38,
+  42,
+  46,
+  53,
+  60,
+  65,
+  70,
+  75,
+  81,
+  88,
+  91,
+  100,
+  107,
+  114,
+  118,
+  122,
+  129,
+  135,
+  140,
+  146,
+  154,
+  164,
+  167,
+  177,
+  180,
+  186,
+  191,
+  197,
+  202
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "tree",
+   "free",
+   "ocr"
+  ],
+  [
+   18,
+   "far",
+   "for",
+   "ocr"
+  ],
+  [
+   32,
+   "tor",
+   "for",
+   "ocr"
+  ],
+  [
+   38,
+   "55; ",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "withheld-from",
+   "withheld from",
+   "ocr"
+  ],
+  [
+   87,
+   ".and",
+   "and",
+   "ocr"
+  ],
+  [
+   88,
+   "part.in",
+   "part in",
+   "ocr"
+  ],
+  [
+   108,
+   "the the",
+   "the",
+   "ocr"
+  ],
+  [
+   113,
+   "just,",
+   "just",
+   "ocr"
+  ],
+  [
+   114,
+   "Union,",
+   "Union",
+   "ocr"
+  ],
+  [
+   126,
+   "Tins",
+   "This",
+   "ocr"
+  ],
+  [
+   128,
+   "ail",
+   "all",
+   "ocr"
+  ],
+  [
+   142,
+   "-control",
+   "control",
+   "ocr"
+  ],
+  [
+   173,
+   "verification?",
+   "verification",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f69b27c74a4108d6699534ff82a48e0d07ab1166",
+ "layout": "lines",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 58
+  },
+  "words_in": 4914,
+  "words_out": 4906,
+  "retention": 0.9984,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   62,
+   115,
+   146,
+   161,
+   138,
+   182,
+   96,
+   71,
+   151,
+   154,
+   150,
+   129,
+   142,
+   110,
+   183,
+   84,
+   167,
+   183,
+   134,
+   106,
+   115,
+   162,
+   167,
+   98,
+   178,
+   179,
+   195,
+   72,
+   221,
+   106,
+   187,
+   124,
+   124,
+   170,
+   144
+  ],
+  "warnings": []
+ }
+}

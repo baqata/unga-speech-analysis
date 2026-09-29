@@ -1,0 +1,74 @@
+{
+ "id": "ECU_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  15,
+  20,
+  23,
+  25,
+  29,
+  35,
+  38,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "Chapter VIII. of",
+   "Chapter VIII of",
+   "ocr"
+  ],
+  [
+   27,
+   "justice, The evil",
+   "justice. The evil",
+   "ocr"
+  ],
+  [
+   30,
+   "which same day",
+   "which some day",
+   "ocr"
+  ],
+  [
+   31,
+   "ass the organ",
+   "as the organ",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e041abfab9e9e72e84dada71e9942ac92916e83",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1611,
+  "words_out": 1611,
+  "retention": 1.0,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   169,
+   173,
+   85,
+   170,
+   131,
+   138,
+   97,
+   217,
+   181,
+   109,
+   99,
+   42
+  ],
+  "warnings": []
+ }
+}

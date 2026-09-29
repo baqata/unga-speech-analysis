@@ -1,0 +1,104 @@
+{
+ "id": "DNK_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  11,
+  19,
+  25,
+  32,
+  36,
+  38,
+  42,
+  48,
+  54,
+  60,
+  67,
+  71,
+  75,
+  85,
+  93
+ ],
+ "cer": [
+  0,
+  93
+ ],
+ "fix": [
+  [
+   36,
+   "hi the",
+   "in the",
+   "ocr"
+  ],
+  [
+   37,
+   "1960, This",
+   "1960. This",
+   "ocr"
+  ],
+  [
+   37,
+   "geek",
+   "seek",
+   "ocr"
+  ],
+  [
+   50,
+   "Peopled Republic",
+   "People's Republic",
+   "ocr"
+  ],
+  [
+   63,
+   " [1240 (XHI)]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   "Assembly!",
+   "Assembly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d02c8e908e67e0dc4304bb96d0698a2e86700fb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 24
+  },
+  "words_in": 2505,
+  "words_out": 2499,
+  "retention": 0.9976,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   36,
+   196,
+   90,
+   209,
+   182,
+   147,
+   102,
+   89,
+   142,
+   149,
+   164,
+   124,
+   138,
+   119,
+   186,
+   189,
+   187,
+   50
+  ],
+  "warnings": []
+ }
+}

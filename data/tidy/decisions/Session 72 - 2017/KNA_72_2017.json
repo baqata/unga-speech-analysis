@@ -1,0 +1,92 @@
+{
+ "id": "KNA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  11,
+  16,
+  18,
+  21,
+  25,
+  31,
+  36,
+  40,
+  45,
+  51,
+  54,
+  57,
+  63,
+  68,
+  72,
+  75,
+  82,
+  89,
+  94,
+  102,
+  107,
+  111,
+  117
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "all- hands-on-deck",
+   "all-hands-on-deck",
+   "hyphen"
+  ],
+  [
+   115,
+   "super- Powers",
+   "super-Powers",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "af7d370b883c88f03df0343f5a5b82c00443a852",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2698,
+  "words_out": 2696,
+  "retention": 0.9993,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   208,
+   61,
+   121,
+   78,
+   81,
+   100,
+   122,
+   89,
+   90,
+   122,
+   136,
+   107,
+   72,
+   83,
+   99,
+   84,
+   71,
+   122,
+   159,
+   105,
+   139,
+   146,
+   72,
+   103,
+   126
+  ],
+  "warnings": []
+ }
+}

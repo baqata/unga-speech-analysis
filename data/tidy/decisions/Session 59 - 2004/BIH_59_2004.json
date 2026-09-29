@@ -1,0 +1,84 @@
+{
+ "id": "BIH_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  22,
+  41,
+  66,
+  79,
+  97,
+  107,
+  123,
+  148,
+  160,
+  175,
+  201,
+  214,
+  235
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "entityís",
+   "entity’s",
+   "encoding"
+  ],
+  [
+   100,
+   "Tribunalís",
+   "Tribunal’s",
+   "encoding"
+  ],
+  [
+   226,
+   "Organizationís",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   236,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf5270a767747c48dd97c8c3acebe52aedce7400",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 247,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1964,
+  "words_out": 1963,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   60,
+   118,
+   147,
+   196,
+   107,
+   146,
+   79,
+   125,
+   202,
+   81,
+   109,
+   211,
+   109,
+   179,
+   94
+  ],
+  "warnings": []
+ }
+}

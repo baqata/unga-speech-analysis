@@ -1,0 +1,108 @@
+{
+ "id": "IRQ_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  20,
+  23,
+  31,
+  34,
+  37,
+  42,
+  48,
+  52,
+  56,
+  59,
+  63,
+  66,
+  69,
+  77,
+  81,
+  87,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "AH those",
+   "All those",
+   "ocr"
+  ],
+  [
+   28,
+   "opened Ore",
+   "opened fire",
+   "ocr"
+  ],
+  [
+   34,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   49,
+   "vita!",
+   "vital",
+   "ocr"
+  ],
+  [
+   63,
+   "modem times",
+   "modern times",
+   "ocr"
+  ],
+  [
+   66,
+   "flagrant - violation",
+   "flagrant violation",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The quoted operative paragraphs of resolution 540 (1983) in units 46-47 lack their opening verbs in the source.",
+ "unitizer_version": 1,
+ "sha1": "57a0cc7ef0484e928d95891c6a5bfabf2937a835",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3300,
+  "words_out": 3297,
+  "retention": 0.9991,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   159,
+   141,
+   159,
+   126,
+   141,
+   234,
+   83,
+   83,
+   140,
+   237,
+   173,
+   203,
+   128,
+   122,
+   143,
+   173,
+   233,
+   170,
+   182,
+   174,
+   93
+  ],
+  "warnings": []
+ }
+}

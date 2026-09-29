@@ -1,0 +1,163 @@
+{
+ "id": "UGA_47_1992",
+ "drop": [
+  [
+   28,
+   28,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  19,
+  33,
+  44,
+  58,
+  67,
+  75,
+  86,
+  96,
+  115,
+  129,
+  138,
+  151,
+  166,
+  173,
+  192,
+  202,
+  210,
+  222,
+  229,
+  244,
+  252,
+  262,
+  274,
+  284,
+  295,
+  308,
+  315,
+  331,
+  339,
+  350,
+  364,
+  374,
+  386,
+  404
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   4,
+   "predecessor. Ambassador",
+   "predecessor, Ambassador",
+   "ocr"
+  ],
+  [
+   18,
+   "support.*",
+   "support.",
+   "ocr"
+  ],
+  [
+   125,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   209,
+   "getting* worse",
+   "getting worse",
+   "ocr"
+  ],
+  [
+   217,
+   "of. the",
+   "of the",
+   "ocr"
+  ],
+  [
+   254,
+   "for. this purpose.*",
+   "for this purpose.",
+   "ocr"
+  ],
+  [
+   330,
+   " (A/47/1, para. 62)",
+   "",
+   "label"
+  ],
+  [
+   374,
+   " (A/47/277)",
+   "",
+   "label"
+  ],
+  [
+   382,
+   "warning of.",
+   "warning of,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b908e5594c0cb548862ecbc8123e326fa8174ef0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 413,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 4531,
+  "words_out": 4519,
+  "retention": 0.9974,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   72,
+   133,
+   147,
+   122,
+   151,
+   104,
+   80,
+   114,
+   115,
+   214,
+   166,
+   104,
+   154,
+   168,
+   67,
+   228,
+   86,
+   91,
+   142,
+   68,
+   176,
+   86,
+   108,
+   137,
+   111,
+   130,
+   145,
+   77,
+   163,
+   91,
+   117,
+   140,
+   108,
+   121,
+   183,
+   100
+  ],
+  "warnings": []
+ }
+}

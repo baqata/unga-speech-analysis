@@ -1,0 +1,76 @@
+{
+ "id": "SGP_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  43,
+  64,
+  73,
+  90,
+  106,
+  126,
+  140,
+  154,
+  167,
+  185,
+  195,
+  206,
+  214,
+  230,
+  239
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   "communityís",
+   "community’s",
+   "encoding"
+  ],
+  [
+   114,
+   "Jamaía",
+   "Jama’a",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95117d7b437cc7dd5195168868d1f6912ffb53fa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1970,
+  "words_out": 1962,
+  "retention": 0.9959,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   89,
+   131,
+   114,
+   169,
+   73,
+   136,
+   132,
+   162,
+   105,
+   107,
+   110,
+   147,
+   83,
+   78,
+   71,
+   119,
+   74,
+   62
+  ],
+  "warnings": []
+ }
+}

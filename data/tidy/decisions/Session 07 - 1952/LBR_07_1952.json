@@ -1,0 +1,70 @@
+{
+ "id": "LBR_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  9,
+  12,
+  14,
+  17,
+  19,
+  21,
+  25
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "divided,",
+   "divided.",
+   "ocr"
+  ],
+  [
+   24,
+   "their-struggle",
+   "their struggle",
+   "spacing"
+  ],
+  [
+   27,
+   "only,",
+   "only",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9fbb78515f78388fdc713cccdb86ed22565614c1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1443,
+  "words_out": 1444,
+  "retention": 1.0007,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   110,
+   152,
+   114,
+   90,
+   108,
+   153,
+   147,
+   79,
+   99,
+   141,
+   251
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "HUN_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  18,
+  24,
+  29,
+  33,
+  38,
+  43,
+  47,
+  50,
+  57
+ ],
+ "cer": [
+  5
+ ],
+ "fix": [
+  [
+   8,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   48,
+   "(ibid., p.2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "591afeb024b31b0d2248392c295d096275ba032d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1271,
+  "words_out": 1266,
+  "retention": 0.9961,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   121,
+   61,
+   155,
+   111,
+   128,
+   85,
+   79,
+   93,
+   93,
+   105,
+   72,
+   119,
+   44
+  ],
+  "warnings": []
+ }
+}

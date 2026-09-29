@@ -1,0 +1,50 @@
+{
+ "id": "THA_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  31,
+  54,
+  77,
+  99,
+  120,
+  132,
+  154,
+  163
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52d8bc60e6386feeb65741e0abbf304c997a1273",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1374,
+  "words_out": 1370,
+  "retention": 0.9971,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   86,
+   152,
+   182,
+   170,
+   148,
+   171,
+   93,
+   161,
+   66,
+   141
+  ],
+  "warnings": []
+ }
+}

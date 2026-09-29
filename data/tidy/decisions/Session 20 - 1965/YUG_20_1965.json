@@ -1,0 +1,88 @@
+{
+ "id": "YUG_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  17,
+  22,
+  32,
+  37,
+  43,
+  47,
+  53,
+  60,
+  68,
+  76,
+  81,
+  88,
+  96,
+  103,
+  109
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "For thin reason",
+   "For this reason",
+   "ocr"
+  ],
+  [
+   72,
+   "that H is in",
+   "that it is in",
+   "ocr"
+  ],
+  [
+   94,
+   "were oven demands",
+   "were even demands",
+   "ocr"
+  ],
+  [
+   69,
+   " [resolution 1514 (XV)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82a869c4edc14b780b33f02d3d3d807f0103a48a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2660,
+  "words_out": 2627,
+  "retention": 0.9876,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   143,
+   95,
+   115,
+   109,
+   209,
+   148,
+   153,
+   112,
+   131,
+   195,
+   171,
+   216,
+   121,
+   179,
+   167,
+   125,
+   120,
+   118
+  ],
+  "warnings": []
+ }
+}

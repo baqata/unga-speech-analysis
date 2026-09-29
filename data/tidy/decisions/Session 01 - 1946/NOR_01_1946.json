@@ -1,0 +1,98 @@
+{
+ "id": "NOR_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  15,
+  18,
+  21,
+  26,
+  29,
+  34,
+  40,
+  47,
+  53,
+  58,
+  64,
+  69,
+  74,
+  79
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "General-Assembly",
+   "General Assembly",
+   "hyphen"
+  ],
+  [
+   15,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   19,
+   "has,",
+   "has",
+   "ocr"
+  ],
+  [
+   30,
+   "vet(j>",
+   "veto",
+   "ocr"
+  ],
+  [
+   36,
+   "-venture",
+   "venture",
+   "ocr"
+  ],
+  [
+   39,
+   "very'",
+   "very",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "be8f7d3922b7621aaf7eb54644364872b1cf12bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2347,
+  "words_out": 2347,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   125,
+   107,
+   127,
+   68,
+   86,
+   119,
+   153,
+   131,
+   130,
+   210,
+   159,
+   155,
+   106,
+   207,
+   124,
+   137,
+   145,
+   58
+  ],
+  "warnings": []
+ }
+}

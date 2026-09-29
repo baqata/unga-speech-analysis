@@ -1,0 +1,55 @@
+{
+ "id": "HUN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  23,
+  35,
+  47,
+  59,
+  71,
+  91,
+  103,
+  113,
+  125,
+  143,
+  158
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cac99788e65e4b6c8f5b681c8e1e818b1524b008",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1384,
+  "words_out": 1381,
+  "retention": 0.9978,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   52,
+   123,
+   88,
+   99,
+   94,
+   88,
+   148,
+   88,
+   79,
+   92,
+   134,
+   130,
+   166
+  ],
+  "warnings": []
+ }
+}

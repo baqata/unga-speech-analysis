@@ -1,0 +1,62 @@
+{
+ "id": "BWA_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  37,
+  51,
+  72,
+  98,
+  107,
+  125,
+  140,
+  149,
+  159,
+  168,
+  178,
+  188,
+  208,
+  227,
+  236
+ ],
+ "cer": [
+  0,
+  227
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c162ed17a164db4b7e07b277b9f29e8635b55905",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 243,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1849,
+  "words_out": 1847,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   160,
+   130,
+   110,
+   168,
+   196,
+   61,
+   135,
+   107,
+   72,
+   68,
+   63,
+   82,
+   78,
+   157,
+   144,
+   59,
+   57
+  ],
+  "warnings": []
+ }
+}

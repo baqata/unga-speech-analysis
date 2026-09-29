@@ -1,0 +1,79 @@
+{
+ "id": "DNK_76_2021",
+ "drop": [
+  [
+   6,
+   6,
+   "noise"
+  ],
+  [
+   19,
+   19,
+   "noise"
+  ],
+  [
+   34,
+   34,
+   "noise"
+  ],
+  [
+   44,
+   44,
+   "noise"
+  ],
+  [
+   55,
+   55,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  7,
+  20,
+  35,
+  45,
+  56,
+  61
+ ],
+ "cer": [
+  0,
+  61
+ ],
+ "fix": [
+  [
+   56,
+   "rule- based",
+   "rule-based",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Asterisk separators between sections dropped.",
+ "unitizer_version": 1,
+ "sha1": "fb084f758bfe956937351fbd6b79741e7cd3d6e4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {
+   "noise": 5
+  },
+  "prestrip": {},
+  "words_in": 844,
+  "words_out": 828,
+  "retention": 0.981,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   4,
+   60,
+   122,
+   239,
+   144,
+   138,
+   119,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "SAU_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  16,
+  19,
+  22,
+  25
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "Nevertheless;",
+   "Nevertheless,",
+   "ocr"
+  ],
+  [
+   20,
+   "Zionists, It",
+   "Zionists. It",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b5a8c3669c6b88cf829f0f112a4c3260f217e32",
+ "layout": "lines",
+ "stats": {
+  "n_units": 27,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 692,
+  "words_out": 692,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   217,
+   100,
+   113,
+   69,
+   73,
+   93,
+   27
+  ],
+  "warnings": []
+ }
+}

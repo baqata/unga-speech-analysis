@@ -1,0 +1,50 @@
+{
+ "id": "SMR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  31,
+  47,
+  67,
+  94,
+  108,
+  127,
+  145,
+  166
+ ],
+ "cer": [
+  0,
+  166
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b135e7fcf4cb78e601eba94c755ec337f1336b06",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1342,
+  "words_out": 1342,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   106,
+   137,
+   126,
+   155,
+   191,
+   120,
+   143,
+   129,
+   169,
+   66
+  ],
+  "warnings": []
+ }
+}

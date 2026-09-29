@@ -1,0 +1,112 @@
+{
+ "id": "CHL_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  23,
+  41,
+  51,
+  69,
+  77,
+  103,
+  122,
+  132,
+  145,
+  170,
+  196,
+  208
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   109,
+   "todayís",
+   "today’s",
+   "encoding"
+  ],
+  [
+   154,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   155,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   163,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   173,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   202,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   206,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   209,
+   "ó",
+   "—",
+   "encoding"
+  ],
+  [
+   216,
+   "todayís",
+   "today’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b0c38191588a450a2e5f4d374ef1f937f14ba51a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1805,
+  "words_out": 1802,
+  "retention": 0.9983,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   26,
+   150,
+   140,
+   90,
+   128,
+   72,
+   210,
+   155,
+   83,
+   102,
+   182,
+   222,
+   112,
+   130
+  ],
+  "warnings": []
+ }
+}

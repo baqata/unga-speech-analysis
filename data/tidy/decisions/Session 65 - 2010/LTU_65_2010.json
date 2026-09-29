@@ -1,0 +1,41 @@
+{
+ "id": "LTU_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  31,
+  42,
+  65,
+  77,
+  88
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "412d349d9873692a1e8f546a670e061f1efdf240",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 768,
+  "words_out": 768,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   111,
+   139,
+   83,
+   198,
+   90,
+   88,
+   59
+  ],
+  "warnings": []
+ }
+}

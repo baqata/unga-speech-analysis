@@ -1,0 +1,187 @@
+{
+ "id": "FRA_41_1986",
+ "drop": [
+  [
+   185,
+   185,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  16,
+  21,
+  25,
+  28,
+  31,
+  35,
+  44,
+  50,
+  56,
+  60,
+  64,
+  68,
+  70,
+  75,
+  79,
+  82,
+  85,
+  87,
+  90,
+  94,
+  98,
+  100,
+  105,
+  114,
+  118,
+  122,
+  125,
+  133,
+  139,
+  142,
+  146,
+  149,
+  151,
+  159,
+  161,
+  165,
+  169,
+  171,
+  177,
+  179,
+  183
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "oFrance",
+   "of France",
+   "spacing"
+  ],
+  [
+   8,
+   "Charter. ^",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   11,
+   "foe the",
+   "for the",
+   "ocr"
+  ],
+  [
+   50,
+   "For sore",
+   "For more",
+   "ocr"
+  ],
+  [
+   91,
+   "part. t",
+   "part.",
+   "ocr"
+  ],
+  [
+   94,
+   "theAmericans",
+   "the Americans",
+   "merged_word"
+  ],
+  [
+   100,
+   "f or ray corn try",
+   "for my country",
+   "ocr"
+  ],
+  [
+   126,
+   "problem.The",
+   "problem. The",
+   "spacing"
+  ],
+  [
+   126,
+   "corn tries",
+   "countries",
+   "ocr"
+  ],
+  [
+   178,
+   "among then.",
+   "among them.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3c2d682af4b1d4ff40cce067af3be5a884c0d32c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 5004,
+  "words_out": 4975,
+  "retention": 0.9942,
+  "n_paragraphs": 45,
+  "paragraph_words": [
+   109,
+   113,
+   108,
+   107,
+   94,
+   76,
+   81,
+   92,
+   122,
+   242,
+   124,
+   138,
+   215,
+   98,
+   123,
+   98,
+   168,
+   78,
+   81,
+   103,
+   80,
+   103,
+   112,
+   104,
+   68,
+   150,
+   220,
+   83,
+   144,
+   91,
+   188,
+   137,
+   93,
+   54,
+   69,
+   60,
+   129,
+   86,
+   115,
+   98,
+   67,
+   121,
+   75,
+   104,
+   54
+  ],
+  "warnings": []
+ }
+}

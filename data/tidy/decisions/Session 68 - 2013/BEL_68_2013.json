@@ -1,0 +1,76 @@
+{
+ "id": "BEL_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  17,
+  24,
+  31,
+  40,
+  51,
+  64,
+  72,
+  84,
+  94,
+  105,
+  112,
+  126,
+  138,
+  152,
+  169,
+  181,
+  195
+ ],
+ "cer": [],
+ "fix": [
+  [
+   183,
+   " (see",
+   "",
+   "label"
+  ],
+  [
+   184,
+   "A/68/PV.5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a9347e762c87bbd66ab9cf456ebf911d5f20becd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1721,
+  "words_out": 1719,
+  "retention": 0.9988,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   73,
+   73,
+   66,
+   61,
+   69,
+   92,
+   97,
+   65,
+   97,
+   94,
+   89,
+   65,
+   120,
+   106,
+   127,
+   127,
+   98,
+   118,
+   82
+  ],
+  "warnings": []
+ }
+}

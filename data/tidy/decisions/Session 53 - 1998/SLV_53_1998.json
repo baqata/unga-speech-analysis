@@ -1,0 +1,91 @@
+{
+ "id": "SLV_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  21,
+  45,
+  67,
+  83,
+  95,
+  117,
+  128,
+  142,
+  156,
+  164,
+  173,
+  180,
+  203
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   28,
+   "Government?s",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   76,
+   "Salvador?s",
+   "Salvador’s",
+   "encoding"
+  ],
+  [
+   81,
+   "nation?s",
+   "nation’s",
+   "encoding"
+  ],
+  [
+   107,
+   "General?s",
+   "General’s",
+   "encoding"
+  ],
+  [
+   206,
+   "world?s",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d6f2515f795f00ff83ee1ed573f3c659c2923d4e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1746,
+  "words_out": 1745,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   57,
+   108,
+   201,
+   158,
+   141,
+   92,
+   170,
+   90,
+   125,
+   108,
+   62,
+   78,
+   59,
+   183,
+   113
+  ],
+  "warnings": []
+ }
+}

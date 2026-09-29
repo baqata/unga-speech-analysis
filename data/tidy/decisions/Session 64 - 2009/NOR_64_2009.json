@@ -1,0 +1,41 @@
+{
+ "id": "NOR_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  37,
+  60,
+  80,
+  97,
+  118
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bec81738ec6bfa3d9b09285367289e1c012de7f0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1070,
+  "words_out": 1069,
+  "retention": 0.9991,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   153,
+   126,
+   182,
+   160,
+   127,
+   154,
+   167
+  ],
+  "warnings": []
+ }
+}

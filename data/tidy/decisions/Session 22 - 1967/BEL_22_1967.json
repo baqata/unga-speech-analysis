@@ -1,0 +1,126 @@
+{
+ "id": "BEL_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  18,
+  24,
+  32,
+  38,
+  45,
+  49,
+  54,
+  61,
+  69,
+  75,
+  78,
+  84,
+  86,
+  92,
+  95,
+  102,
+  108,
+  115,
+  124,
+  128,
+  131,
+  137,
+  142
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "buildup peace",
+   "build up peace",
+   "split_word"
+  ],
+  [
+   27,
+   "the world, The problem",
+   "the world. The problem",
+   "ocr"
+  ],
+  [
+   30,
+   "is In itself",
+   "is in itself",
+   "ocr"
+  ],
+  [
+   77,
+   "General Assembly, Hence",
+   "General Assembly. Hence",
+   "ocr"
+  ],
+  [
+   136,
+   "the International organizations",
+   "the international organizations",
+   "ocr"
+  ],
+  [
+   138,
+   "to he progressively",
+   "to be progressively",
+   "ocr"
+  ],
+  [
+   138,
+   "should he prepared",
+   "should be prepared",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ea45e6d7da08c1d3ae7154b0c87952636413629",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4
+  },
+  "words_in": 3641,
+  "words_out": 3594,
+  "retention": 0.9871,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   193,
+   141,
+   88,
+   94,
+   139,
+   121,
+   134,
+   169,
+   133,
+   102,
+   173,
+   113,
+   96,
+   101,
+   128,
+   77,
+   119,
+   65,
+   170,
+   120,
+   196,
+   225,
+   183,
+   79,
+   154,
+   128,
+   153
+  ],
+  "warnings": []
+ }
+}

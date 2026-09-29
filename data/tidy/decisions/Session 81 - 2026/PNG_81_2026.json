@@ -1,0 +1,281 @@
+{
+ "id": "PNG_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   218,
+   218,
+   "noise"
+  ],
+  [
+   219,
+   219,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  10,
+  15,
+  22,
+  28,
+  35,
+  44,
+  55,
+  64,
+  71,
+  80,
+  90,
+  99,
+  107,
+  122,
+  131,
+  136,
+  149,
+  161,
+  182,
+  189,
+  196,
+  211,
+  216
+ ],
+ "cer": [
+  3,
+  10,
+  15,
+  216
+ ],
+ "fix": [
+  [
+   8,
+   "multilateralism methods",
+   "multilateralism matters",
+   "asr_term"
+  ],
+  [
+   15,
+   "global statement",
+   "global statesman",
+   "asr_term"
+  ],
+  [
+   16,
+   "global statement",
+   "global statesman",
+   "asr_term"
+  ],
+  [
+   18,
+   "Gutierrez",
+   "Guterres",
+   "asr_name"
+  ],
+  [
+   21,
+   "we say one planet",
+   "we share one planet",
+   "asr_term"
+  ],
+  [
+   34,
+   "say the same religion",
+   "share the same religion",
+   "asr_term"
+  ],
+  [
+   44,
+   "fate that is forced is no longer fate",
+   "faith that is forced is no longer faith",
+   "asr_term"
+  ],
+  [
+   48,
+   "along every person",
+   "allowing every person",
+   "asr_term"
+  ],
+  [
+   49,
+   "Through faith",
+   "True faith",
+   "asr_term"
+  ],
+  [
+   110,
+   "environmental distractions",
+   "environmental destruction",
+   "asr_term"
+  ],
+  [
+   122,
+   "decents made",
+   "decisions made",
+   "asr_term"
+  ],
+  [
+   123,
+   "Greenhouse guests",
+   "Greenhouse gases",
+   "asr_term"
+  ],
+  [
+   123,
+   "nestled borders",
+   "national borders",
+   "asr_term"
+  ],
+  [
+   135,
+   "contributed lethal",
+   "contributed little",
+   "asr_term"
+  ],
+  [
+   161,
+   "PNZ",
+   "PNG",
+   "asr_name"
+  ],
+  [
+   182,
+   "we say our humanity",
+   "we share our humanity",
+   "asr_term"
+  ],
+  [
+   182,
+   "we say one earth",
+   "we share one earth",
+   "asr_term"
+  ],
+  [
+   182,
+   "we say something greater",
+   "we share something greater",
+   "asr_term"
+  ],
+  [
+   8,
+   "assembly. for",
+   "assembly. For",
+   "asr_term"
+  ],
+  [
+   20,
+   "Guinea. thank",
+   "Guinea. Thank",
+   "asr_term"
+  ],
+  [
+   27,
+   "believe. the",
+   "believe. The",
+   "asr_term"
+  ],
+  [
+   30,
+   "freedom. and",
+   "freedom. And",
+   "asr_term"
+  ],
+  [
+   182,
+   "religions. we",
+   "religions. We",
+   "asr_term"
+  ],
+  [
+   11,
+   "We eyefully,",
+   "I fully,",
+   "asr_term"
+  ],
+  [
+   25,
+   "From a",
+   "From my",
+   "asr_term"
+  ],
+  [
+   64,
+   "to its",
+   "through its",
+   "asr_term"
+  ],
+  [
+   87,
+   "selected",
+   "selective",
+   "asr_term"
+  ],
+  [
+   101,
+   "industrialists, such",
+   "industrialists, search",
+   "asr_term"
+  ],
+  [
+   101,
+   "nations, such",
+   "nations, search",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Terms per the Spanish channel (importa, estadista, compartimos, la fe impuesta no es fe, verdadera fe, destrucción, gases de efecto invernadero, fronteras nacionales, muy poco); 'I beg your pardon' in unit 146 is the speaker's own self-correction and is kept. Main-agent audit: units 137-138 'Put human welfare out of war. Put humanity out of narrow geopolitical interests.' kept as heard ('out of' at p 0.72-1.00 in every re-decode; Spanish 'por encima de'). Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 45 repair of 'freedom is a choice' withdrawn (the speaker's English, heard at p 1.00: 'I believe freedom is a choice, a God-given right'; 'la libertad de elección' is the Spanish booth's rendering); unit 182 'we say something greater' -> 'we share something greater' (the speaker's 'share' heard as 'say', as in the two sentences that follow, which the batch repaired; here 'say' is unsure (p 0.45-0.51 in three re-decodes); the Spanish booth 'compartimos algo más importante, nuestra humanidad. Compartimos una tierra'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'assembly. for' -> 'assembly. For'; unit 20 'Guinea. thank' -> 'Guinea. Thank'; unit 27 'believe. the' -> 'believe. The'; unit 30 'freedom. and' -> 'freedom. And'; unit 182 'religions. we' -> 'religions. We'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 11 'We eyefully,' -> 'I fully,' ('eyefully' is no word: the audio has 'We', a syllable and 'fully' (decode 1 'we are fully', decode 2 'I fully'; scoring 'We are fully' -5.4, 'I fully' -6.7, 'We, I fully' -7.9, 'We fully' -9.4); 'We are fully ... affirm' does not construe, so 'We' is a restart before 'I fully ... affirm', as the UN transcript and the Spanish booth ('afirmo') read it); spot 8 unit 25 'From a' -> 'From my' (both decodes hear 'From my Christian perspective' (0.80 / 0.78); ES 'Desde mi perspectiva cristiana'); spot 18 unit 64 'to its' -> 'through its' (decodes hear 'to' only at 0.60 / 0.70; 'expressed a principle ... to its First Amendment' does not fit; ES 'a través de la primera enmienda' (interpretation of this English speech)); spot 22 unit 87 'selected' -> 'selective' (same sound; both decodes hear 'selective' (0.54 / 0.58); 'human rights cannot be selected' does not fit; ES 'no pueden ser selectivos'); spot 25 unit 101 'industrialists, such' -> 'industrialists, search', 'nations, such' -> 'nations, search' (both decodes clearly hear 'industrialists, search the world' (0.95-1.00); 'such the world' does not fit; the earlier 'big nations, such the world' in the same unit is not a spot here and is left to the main agent; main agent: the same mishearing earlier in the unit ('big nations, such the world') repaired too, three of four re-decodes hearing 'search' there (0.49 / 0.64 / 0.67) and the sentence repeating itself); spot 51 unit 218 dropped (noise) (lone 'Thank you.' in the applause: decodes and re-decodes at 1390/1392/1394 s end with 'Thank you for listening.' (one hears only 'applause'); ES has a single 'gracias' at 1398.5 s matching 'Thank you for listening')",
+ "unitizer_version": 1,
+ "sha1": "fb0dc60b75390fa19614d71d81a05e6e0d8f5e2c",
+ "layout": "single",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 3259,
+  "words_out": 3199,
+  "retention": 0.9816,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   33,
+   188,
+   130,
+   151,
+   151,
+   128,
+   154,
+   130,
+   104,
+   130,
+   98,
+   180,
+   145,
+   105,
+   155,
+   108,
+   94,
+   128,
+   148,
+   170,
+   167,
+   69,
+   224,
+   102,
+   7
+  ],
+  "warnings": [
+   "29 fixes"
+  ]
+ }
+}

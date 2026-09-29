@@ -1,0 +1,70 @@
+{
+ "id": "MOZ_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  22,
+  38,
+  47,
+  60,
+  79,
+  92,
+  100,
+  112,
+  128,
+  144,
+  150,
+  168,
+  182,
+  192,
+  203
+ ],
+ "cer": [
+  0,
+  17,
+  203
+ ],
+ "fix": [
+  [
+   13,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "56aa9a4c309fdb0df367ad53d7e0ed1d4d5ed622",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1643,
+  "words_out": 1640,
+  "retention": 0.9982,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   127,
+   51,
+   117,
+   73,
+   103,
+   140,
+   99,
+   72,
+   98,
+   126,
+   131,
+   43,
+   139,
+   122,
+   81,
+   84,
+   34
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "URY_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   70,
+   70,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  11,
+  14,
+  17,
+  24,
+  33,
+  37,
+  44,
+  49,
+  53,
+  57,
+  64,
+  69
+ ],
+ "cer": [
+  2,
+  69
+ ],
+ "fix": [
+  [
+   68,
+   "Pepe Mojica",
+   "Pepe Mujica",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e0e0c4a75066967044e39ef2a227a44d25d64e2",
+ "layout": "single",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1696,
+  "words_out": 1647,
+  "retention": 0.9711,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   21,
+   181,
+   100,
+   107,
+   101,
+   195,
+   101,
+   115,
+   199,
+   137,
+   99,
+   133,
+   156,
+   2
+  ],
+  "warnings": []
+ }
+}

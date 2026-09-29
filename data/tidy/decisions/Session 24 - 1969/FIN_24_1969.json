@@ -1,0 +1,126 @@
+{
+ "id": "FIN_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  24,
+  31,
+  44,
+  64,
+  75,
+  84,
+  99,
+  108,
+  122,
+  132,
+  151,
+  161,
+  178,
+  187,
+  200,
+  209,
+  216
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "reversed, The",
+   "reversed. The",
+   "ocr"
+  ],
+  [
+   29,
+   "to nave been",
+   "to have been",
+   "ocr"
+  ],
+  [
+   50,
+   "Outer space",
+   "outer space",
+   "ocr"
+  ],
+  [
+   51,
+   " [resolution",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "van be",
+   "can be",
+   "ocr"
+  ],
+  [
+   103,
+   "China i the",
+   "China in the",
+   "ocr"
+  ],
+  [
+   114,
+   "Charter, We",
+   "Charter. We",
+   "ocr"
+  ],
+  [
+   163,
+   "political. problems",
+   "political problems",
+   "ocr"
+  ],
+  [
+   195,
+   "conflict, We",
+   "conflict. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "911411df72652e23144bab1b01c0b11aa1e7d174",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2026,
+  "words_out": 2003,
+  "retention": 0.9886,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   136,
+   85,
+   63,
+   113,
+   178,
+   91,
+   83,
+   133,
+   85,
+   137,
+   88,
+   177,
+   87,
+   146,
+   75,
+   116,
+   77,
+   69,
+   64
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "GIN_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  57,
+  64,
+  119,
+  133,
+  148,
+  159,
+  165
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "thin world",
+   "third world",
+   "ocr"
+  ],
+  [
+   43,
+   "Western Saham",
+   "Western Sahara",
+   "ocr"
+  ],
+  [
+   59,
+   "Angela",
+   "Angola",
+   "ocr"
+  ],
+  [
+   122,
+   "In sofar",
+   "Insofar",
+   "split_word"
+  ],
+  [
+   180,
+   "so- called",
+   "so-called",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts; opening (greetings turning to substance mid-line), units 64-118 and 165-236 stay long; unit 65 lost the word apartheid.",
+ "unitizer_version": 1,
+ "sha1": "d9f38611302bbeafe6d1a0709b048fbbffffd840",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2521,
+  "words_out": 2519,
+  "retention": 0.9992,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   612,
+   74,
+   602,
+   144,
+   148,
+   108,
+   57,
+   774
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 612 words",
+   "paragraph at unit 64 has 602 words",
+   "paragraph at unit 165 has 774 words"
+  ]
+ }
+}

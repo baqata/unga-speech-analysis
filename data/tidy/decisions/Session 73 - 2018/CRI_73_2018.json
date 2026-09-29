@@ -1,0 +1,72 @@
+{
+ "id": "CRI_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  14,
+  19,
+  25,
+  29,
+  35,
+  40,
+  44,
+  50,
+  57,
+  65,
+  68,
+  74,
+  81,
+  85,
+  91,
+  95,
+  100
+ ],
+ "cer": [],
+ "fix": [
+  [
+   72,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6f50cafd875ddc9cbd52b91462ef33e9c3e790a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2592,
+  "words_out": 2591,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   156,
+   110,
+   115,
+   106,
+   129,
+   71,
+   154,
+   119,
+   94,
+   139,
+   136,
+   151,
+   90,
+   170,
+   151,
+   136,
+   159,
+   112,
+   104,
+   189
+  ],
+  "warnings": []
+ }
+}

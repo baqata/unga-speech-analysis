@@ -1,0 +1,177 @@
+{
+ "id": "DZA_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  14,
+  17,
+  20,
+  25,
+  30,
+  33,
+  37,
+  40,
+  42,
+  48,
+  52,
+  54,
+  58,
+  60,
+  65,
+  69,
+  73,
+  77,
+  79,
+  85,
+  88,
+  92,
+  98,
+  102,
+  106,
+  110,
+  112,
+  116,
+  119,
+  121,
+  123,
+  127,
+  130,
+  135,
+  137,
+  139,
+  141,
+  143,
+  145
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   30,
+   "veto, The",
+   "veto. The",
+   "ocr"
+  ],
+  [
+   42,
+   "153 ",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "thebonds",
+   "the bonds",
+   "merged_word"
+  ],
+  [
+   57,
+   ",n the",
+   "in the",
+   "ocr"
+  ],
+  [
+   58,
+   "159 ",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "ail the",
+   "all the",
+   "ocr"
+  ],
+  [
+   100,
+   " [OA U]",
+   "",
+   "label"
+  ],
+  [
+   122,
+   "unfttrtunateLy",
+   "unfortunately",
+   "ocr"
+  ],
+  [
+   122,
+   "they'",
+   "they",
+   "ocr"
+  ],
+  [
+   127,
+   " [OPEC]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 45 has heavy OCR damage (Cyprus sentence) left unrepaired where the letters do not clearly show the words.",
+ "unitizer_version": 1,
+ "sha1": "9dd239369db1fde70746be48ee5673fde7c2e662",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 5417,
+  "words_out": 5409,
+  "retention": 0.9985,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   147,
+   141,
+   211,
+   89,
+   65,
+   93,
+   160,
+   188,
+   127,
+   120,
+   71,
+   148,
+   208,
+   109,
+   98,
+   257,
+   78,
+   153,
+   121,
+   97,
+   114,
+   81,
+   175,
+   163,
+   107,
+   207,
+   161,
+   136,
+   107,
+   81,
+   140,
+   111,
+   73,
+   85,
+   78,
+   167,
+   244,
+   95,
+   82,
+   89,
+   64,
+   79,
+   89
+  ],
+  "warnings": []
+ }
+}

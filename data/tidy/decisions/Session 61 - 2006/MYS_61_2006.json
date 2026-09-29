@@ -1,0 +1,66 @@
+{
+ "id": "MYS_61_2006",
+ "drop": [
+  [
+   29,
+   30,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  31,
+  51,
+  64,
+  78,
+  103,
+  121,
+  136,
+  151,
+  168,
+  185,
+  196
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d27239894a378cc1eca9bca89b668cdc9787bbb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1767,
+  "words_out": 1759,
+  "retention": 0.9955,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   91,
+   144,
+   174,
+   113,
+   121,
+   208,
+   158,
+   122,
+   131,
+   143,
+   127,
+   77,
+   150
+  ],
+  "warnings": [
+   "procedural drop [29,30] in the middle of the speech"
+  ]
+ }
+}

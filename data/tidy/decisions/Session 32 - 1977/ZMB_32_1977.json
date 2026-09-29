@@ -1,0 +1,230 @@
+{
+ "id": "ZMB_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  31,
+  39,
+  44,
+  48,
+  53,
+  56,
+  58,
+  62,
+  65,
+  69,
+  71,
+  75,
+  77,
+  79,
+  81,
+  84,
+  88,
+  94,
+  97,
+  104,
+  108,
+  112,
+  115,
+  118,
+  123,
+  127,
+  132,
+  135,
+  139,
+  145,
+  147,
+  151,
+  157,
+  163,
+  166,
+  172,
+  175,
+  181,
+  186,
+  190,
+  195,
+  198,
+  201
+ ],
+ "cer": [
+  0,
+  24,
+  31
+ ],
+ "fix": [
+  [
+   0,
+   "1. ",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "2. ",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "me. to",
+   "me to",
+   "ocr"
+  ],
+  [
+   31,
+   "3. ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "Rights. and",
+   "Rights and",
+   "ocr"
+  ],
+  [
+   87,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "pipe- dream",
+   "pipe-dream",
+   "hyphen"
+  ],
+  [
+   109,
+   "on .the",
+   "on the",
+   "ocr"
+  ],
+  [
+   117,
+   "spots, .as",
+   "spots, as",
+   "ocr"
+  ],
+  [
+   119,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   119,
+   "in. the",
+   "in the",
+   "ocr"
+  ],
+  [
+   120,
+   "Africa— that",
+   "Africa—that",
+   "spacing"
+  ],
+  [
+   134,
+   "South- Africa",
+   "South Africa",
+   "ocr"
+  ],
+  [
+   141,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ],
+  [
+   142,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ],
+  [
+   146,
+   "Mozambique .",
+   "Mozambique.",
+   "spacing"
+  ],
+  [
+   151,
+   "take if.",
+   "take if",
+   "ocr"
+  ],
+  [
+   162,
+   "1 can",
+   "I can",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 113 and 138 lack a full stop between sentences in the source.",
+ "unitizer_version": 1,
+ "sha1": "5ad81536097e66d207975c8ef3ae8ac05df71f7b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 56
+  },
+  "words_in": 4794,
+  "words_out": 4784,
+  "retention": 0.9979,
+  "n_paragraphs": 45,
+  "paragraph_words": [
+   203,
+   61,
+   174,
+   129,
+   89,
+   135,
+   121,
+   64,
+   147,
+   86,
+   109,
+   69,
+   120,
+   94,
+   60,
+   72,
+   115,
+   97,
+   112,
+   67,
+   137,
+   104,
+   118,
+   100,
+   62,
+   145,
+   62,
+   134,
+   100,
+   172,
+   133,
+   50,
+   113,
+   123,
+   83,
+   79,
+   189,
+   57,
+   147,
+   109,
+   91,
+   109,
+   59,
+   95,
+   89
+  ],
+  "warnings": []
+ }
+}

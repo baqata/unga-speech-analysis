@@ -1,0 +1,225 @@
+{
+ "id": "CSK_22_1967",
+ "drop": [
+  [
+   55,
+   55,
+   "noise"
+  ],
+  [
+   176,
+   176,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  19,
+  22,
+  26,
+  33,
+  37,
+  46,
+  52,
+  56,
+  62,
+  66,
+  71,
+  80,
+  86,
+  91,
+  96,
+  103,
+  110,
+  117,
+  123,
+  130,
+  133,
+  138,
+  142,
+  146,
+  152,
+  158,
+  162,
+  168,
+  173,
+  181,
+  186
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "time, 1 should",
+   "time, I should",
+   "ocr"
+  ],
+  [
+   16,
+   "policy or peaceful",
+   "policy of peaceful",
+   "ocr"
+  ],
+  [
+   20,
+   "Viel-Namese",
+   "Viet-Namese",
+   "ocr"
+  ],
+  [
+   24,
+   "which It does",
+   "which it does",
+   "ocr"
+  ],
+  [
+   49,
+   "Jeruslaem",
+   "Jerusalem",
+   "ocr"
+  ],
+  [
+   51,
+   " [2253 (ES-V) and 2254 (ES-V)]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "considers It natural",
+   "considers it natural",
+   "ocr"
+  ],
+  [
+   64,
+   "set forth In the",
+   "set forth in the",
+   "ocr"
+  ],
+  [
+   67,
+   "to he normalized",
+   "to be normalized",
+   "ocr"
+  ],
+  [
+   87,
+   "and area being",
+   "and are being",
+   "ocr"
+  ],
+  [
+   93,
+   "peace- loving",
+   "peace-loving",
+   "hyphen"
+  ],
+  [
+   104,
+   "non- dissemination",
+   "non-dissemination",
+   "hyphen"
+  ],
+  [
+   106,
+   "removing ail",
+   "removing all",
+   "ocr"
+  ],
+  [
+   118,
+   "all Stales",
+   "all States",
+   "ocr"
+  ],
+  [
+   118,
+   "would he a",
+   "would be a",
+   "ocr"
+  ],
+  [
+   125,
+   "into effect, There must",
+   "into effect. There must",
+   "ocr"
+  ],
+  [
+   144,
+   "of Imperialism",
+   "of imperialism",
+   "ocr"
+  ],
+  [
+   147,
+   "codification, Even though",
+   "codification. Even though",
+   "ocr"
+  ],
+  [
+   151,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 55 and 176 hold only the record's document references.",
+ "unitizer_version": 1,
+ "sha1": "9af334f96c70bd5f1a68a1220657da19504cbb71",
+ "layout": "lines",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 5053,
+  "words_out": 4985,
+  "retention": 0.9865,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   144,
+   131,
+   113,
+   128,
+   69,
+   113,
+   259,
+   96,
+   233,
+   182,
+   127,
+   107,
+   92,
+   141,
+   191,
+   161,
+   143,
+   142,
+   193,
+   171,
+   187,
+   162,
+   178,
+   95,
+   118,
+   121,
+   71,
+   203,
+   132,
+   75,
+   113,
+   156,
+   201,
+   116,
+   121
+  ],
+  "warnings": []
+ }
+}

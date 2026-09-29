@@ -1,0 +1,51 @@
+{
+ "id": "SWE_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  36,
+  58,
+  79,
+  97,
+  117,
+  130,
+  146,
+  162
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d42f6bfaf511a8a33ccaf7d9d52b7cbb18e9119c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1381,
+  "words_out": 1376,
+  "retention": 0.9964,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   27,
+   69,
+   195,
+   174,
+   152,
+   141,
+   153,
+   88,
+   123,
+   133,
+   121
+  ],
+  "warnings": []
+ }
+}

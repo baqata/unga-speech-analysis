@@ -1,0 +1,65 @@
+{
+ "id": "CAN_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  26,
+  42,
+  52,
+  75,
+  92,
+  113,
+  131,
+  146,
+  166,
+  190,
+  213,
+  228
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   217,
+   "FrÈchette",
+   "Fréchette",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d20be4d143fe222642b0b26260dc21042ca64fb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 1,
+   "page_number": 2
+  },
+  "words_in": 1972,
+  "words_out": 1970,
+  "retention": 0.999,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   35,
+   165,
+   122,
+   85,
+   193,
+   122,
+   157,
+   149,
+   131,
+   153,
+   217,
+   170,
+   112,
+   159
+  ],
+  "warnings": []
+ }
+}

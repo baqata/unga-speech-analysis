@@ -1,0 +1,76 @@
+{
+ "id": "VAT_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  14,
+  17,
+  22,
+  28,
+  32,
+  34,
+  37,
+  39,
+  43,
+  45,
+  49,
+  51,
+  58
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   " (supra, p. 4)",
+   "",
+   "label"
+  ],
+  [
+   19,
+   " (ibid., p. 4)",
+   "",
+   "label"
+  ],
+  [
+   21,
+   " (ibid., p. 5)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "320c661bf498c26cf25e88800c2fcfc7cc2c5216",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1732,
+  "words_out": 1720,
+  "retention": 0.9931,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   153,
+   74,
+   91,
+   148,
+   108,
+   134,
+   75,
+   71,
+   81,
+   79,
+   111,
+   82,
+   176,
+   96,
+   149,
+   92
+  ],
+  "warnings": []
+ }
+}

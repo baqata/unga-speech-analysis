@@ -1,0 +1,196 @@
+{
+ "id": "PER_29_1974",
+ "drop": [
+  [
+   53,
+   53,
+   "header_footer"
+  ],
+  [
+   122,
+   122,
+   "noise"
+  ],
+  [
+   130,
+   130,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  8,
+  14,
+  17,
+  21,
+  26,
+  30,
+  34,
+  41,
+  43,
+  46,
+  48,
+  52,
+  58,
+  60,
+  63,
+  65,
+  68,
+  71,
+  75,
+  79,
+  81,
+  85,
+  88,
+  92,
+  96,
+  99,
+  104,
+  110,
+  114,
+  119,
+  126,
+  131
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "twenty- ninth",
+   "twenty-ninth",
+   "spacing"
+  ],
+  [
+   3,
+   "non- alignment",
+   "non-alignment",
+   "spacing"
+  ],
+  [
+   5,
+   "the' devotion",
+   "the devotion",
+   "ocr"
+  ],
+  [
+   20,
+   "adjacent' to",
+   "adjacent to",
+   "ocr"
+  ],
+  [
+   31,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   35,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   37,
+   "Amflcar",
+   "Amilcar",
+   "ocr"
+  ],
+  [
+   54,
+   "t'.e",
+   "the",
+   "ocr"
+  ],
+  [
+   55,
+   "politico!",
+   "political",
+   "ocr"
+  ],
+  [
+   65,
+   "188- ",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "-\\t the",
+   "at the",
+   "ocr"
+  ],
+  [
+   85,
+   " [AI9601I Add.I]",
+   "",
+   "label"
+  ],
+  [
+   126,
+   "2051 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19d868bb6144b993eaffa6bd0327f6165e64f16d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {
+   "header_footer": 1,
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 4136,
+  "words_out": 4121,
+  "retention": 0.9964,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   67,
+   206,
+   174,
+   85,
+   157,
+   124,
+   112,
+   190,
+   207,
+   67,
+   127,
+   94,
+   134,
+   161,
+   94,
+   110,
+   94,
+   75,
+   124,
+   151,
+   113,
+   90,
+   95,
+   82,
+   105,
+   101,
+   69,
+   89,
+   164,
+   124,
+   123,
+   193,
+   110,
+   110
+  ],
+  "warnings": []
+ }
+}

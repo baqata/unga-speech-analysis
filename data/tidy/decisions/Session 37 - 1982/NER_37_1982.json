@@ -1,0 +1,116 @@
+{
+ "id": "NER_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  35,
+  54,
+  63,
+  82,
+  106,
+  127,
+  146,
+  166,
+  184,
+  198,
+  217,
+  237,
+  249,
+  264,
+  284,
+  300,
+  324,
+  343,
+  363,
+  381,
+  401
+ ],
+ "cer": [
+  16
+ ],
+ "fix": [
+  [
+   72,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   94,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   101,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   163,
+   "cry cut",
+   "cry out",
+   "ocr"
+  ],
+  [
+   176,
+   "A! Quds",
+   "Al Quds",
+   "ocr"
+  ],
+  [
+   336,
+   "thirty- sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   360,
+   "ail",
+   "all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "378590dabaafdf9a5cefb26c1473ba2400aeb356",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 409,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2926,
+  "words_out": 2922,
+  "retention": 0.9986,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   119,
+   132,
+   140,
+   66,
+   138,
+   165,
+   146,
+   133,
+   142,
+   128,
+   108,
+   147,
+   140,
+   76,
+   106,
+   139,
+   114,
+   172,
+   135,
+   145,
+   132,
+   136,
+   63
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "id": "PAN_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  27,
+  34,
+  49,
+  60,
+  76,
+  87,
+  111,
+  131,
+  157,
+  173,
+  189,
+  201,
+  218,
+  231,
+  243,
+  257,
+  272,
+  279,
+  303,
+  312,
+  322
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [
+  [
+   0,
+   "in. speaking",
+   "in speaking",
+   "ocr"
+  ],
+  [
+   4,
+   "been. chosen",
+   "been chosen",
+   "ocr"
+  ],
+  [
+   79,
+   "recovery, Only",
+   "recovery. Only",
+   "ocr"
+  ],
+  [
+   79,
+   "peace, It",
+   "peace. It",
+   "ocr"
+  ],
+  [
+   195,
+   "Strengthens",
+   "strengthens",
+   "ocr"
+  ],
+  [
+   210,
+   "do riot wish",
+   "do not wish",
+   "ocr"
+  ],
+  [
+   257,
+   "103.",
+   "",
+   "label"
+  ],
+  [
+   266,
+   "both .countries",
+   "both countries",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "196d786f797560996e7fcf04aef4783dc567fb8e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 344,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 3111,
+  "words_out": 3082,
+  "retention": 0.9907,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   144,
+   105,
+   66,
+   140,
+   96,
+   147,
+   115,
+   214,
+   176,
+   240,
+   136,
+   146,
+   102,
+   143,
+   108,
+   104,
+   118,
+   141,
+   59,
+   196,
+   84,
+   93,
+   209
+  ],
+  "warnings": []
+ }
+}

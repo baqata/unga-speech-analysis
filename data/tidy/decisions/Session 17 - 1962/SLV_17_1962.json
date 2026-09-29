@@ -1,0 +1,72 @@
+{
+ "id": "SLV_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  8,
+  9,
+  15,
+  17,
+  19,
+  20,
+  21,
+  26,
+  28,
+  33,
+  37,
+  43
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "classes\",",
+   "classes\".",
+   "ocr"
+  ],
+  [
+   35,
+   "direction, The process",
+   "direction. The process",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ee94e5899bff75108fb3aaaaa6b836fdfe7bd6b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1740,
+  "words_out": 1740,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   107,
+   98,
+   69,
+   79,
+   151,
+   111,
+   92,
+   74,
+   75,
+   137,
+   71,
+   140,
+   222,
+   192,
+   122
+  ],
+  "warnings": []
+ }
+}

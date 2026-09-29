@@ -1,0 +1,100 @@
+{
+ "id": "SSD_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  21,
+  27,
+  31,
+  35,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Sudan.",
+   "Sudan,",
+   "ocr"
+  ],
+  [
+   9,
+   "effect.",
+   "effect,",
+   "ocr"
+  ],
+  [
+   12,
+   "rapidly.",
+   "rapidly,",
+   "ocr"
+  ],
+  [
+   16,
+   "February.",
+   "February,",
+   "ocr"
+  ],
+  [
+   22,
+   "change.",
+   "change,",
+   "ocr"
+  ],
+  [
+   24,
+   "use. promote",
+   "use, promote",
+   "ocr"
+  ],
+  [
+   29,
+   "(2021- 2024)",
+   "(2021-2024)",
+   "hyphen"
+  ],
+  [
+   35,
+   "Sudan.",
+   "Sudan,",
+   "ocr"
+  ],
+  [
+   40,
+   "conclusion. South",
+   "conclusion, South",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a06028f560602120b1734c22329ab604e63cff66",
+ "layout": "lines",
+ "stats": {
+  "n_units": 41,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 846,
+  "words_out": 845,
+  "retention": 0.9988,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   46,
+   102,
+   67,
+   129,
+   153,
+   94,
+   118,
+   99,
+   37
+  ],
+  "warnings": []
+ }
+}

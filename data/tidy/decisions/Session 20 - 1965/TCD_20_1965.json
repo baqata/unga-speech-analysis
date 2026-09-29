@@ -1,0 +1,61 @@
+{
+ "id": "TCD_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  14,
+  21,
+  27,
+  32,
+  37,
+  40,
+  46,
+  53,
+  61
+ ],
+ "cer": [
+  1,
+  5
+ ],
+ "fix": [
+  [
+   36,
+   "that. Africa",
+   "that Africa",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4fe2a9b02586fef580f20021fb10014e9bf438bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1297,
+  "words_out": 1276,
+  "retention": 0.9838,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   44,
+   95,
+   89,
+   116,
+   111,
+   99,
+   86,
+   92,
+   82,
+   110,
+   152,
+   173,
+   27
+  ],
+  "warnings": []
+ }
+}

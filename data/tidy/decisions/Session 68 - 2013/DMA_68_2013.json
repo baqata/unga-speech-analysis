@@ -1,0 +1,90 @@
+{
+ "id": "DMA_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  27,
+  44,
+  54,
+  67,
+  81,
+  91,
+  105,
+  116,
+  131,
+  143,
+  155,
+  166,
+  179,
+  198,
+  208,
+  222,
+  242,
+  258,
+  272,
+  288
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ],
+  [
+   134,
+   "foreign",
+   "foreign-",
+   "hyphen"
+  ],
+  [
+   135,
+   "-exchange",
+   "exchange",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "35ea2c7fadd9fd9bc13b8d0f8cf491da668858c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 297,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2350,
+  "words_out": 2340,
+  "retention": 0.9957,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   97,
+   106,
+   135,
+   100,
+   94,
+   104,
+   72,
+   105,
+   86,
+   115,
+   80,
+   94,
+   87,
+   112,
+   130,
+   83,
+   124,
+   169,
+   126,
+   120,
+   130,
+   71
+  ],
+  "warnings": []
+ }
+}

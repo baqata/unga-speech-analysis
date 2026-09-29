@@ -1,0 +1,66 @@
+{
+ "id": "ISL_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  23,
+  35,
+  46,
+  64,
+  77,
+  96,
+  105,
+  118,
+  133,
+  148,
+  164,
+  179,
+  190,
+  201,
+  209
+ ],
+ "cer": [],
+ "fix": [
+  [
+   96,
+   "onflict",
+   "conflict",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e066e2b4f85d04a7bd1bf8942bf37c0c44127354",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1792,
+  "words_out": 1790,
+  "retention": 0.9989,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   83,
+   89,
+   100,
+   85,
+   150,
+   98,
+   155,
+   84,
+   111,
+   121,
+   122,
+   136,
+   119,
+   88,
+   91,
+   64,
+   94
+  ],
+  "warnings": []
+ }
+}

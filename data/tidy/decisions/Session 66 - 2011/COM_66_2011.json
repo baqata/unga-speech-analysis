@@ -1,0 +1,62 @@
+{
+ "id": "COM_66_2011",
+ "drop": [
+  [
+   62,
+   62,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  48,
+  75,
+  102,
+  126,
+  144,
+  164,
+  179,
+  197,
+  217
+ ],
+ "cer": [
+  0,
+  217
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c9d51a3e95d158fadad2a256135a6e7d6a27b096",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1836,
+  "words_out": 1831,
+  "retention": 0.9973,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   126,
+   254,
+   208,
+   223,
+   172,
+   150,
+   166,
+   124,
+   157,
+   158,
+   93
+  ],
+  "warnings": [
+   "procedural drop [62,62] in the middle of the speech"
+  ]
+ }
+}

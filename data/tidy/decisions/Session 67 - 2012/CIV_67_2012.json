@@ -1,0 +1,63 @@
+{
+ "id": "CIV_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  24,
+  38,
+  48,
+  61,
+  79,
+  92,
+  100,
+  123,
+  145,
+  168,
+  184,
+  205,
+  221
+ ],
+ "cer": [
+  0,
+  221
+ ],
+ "fix": [
+  [
+   7,
+   "Mr.Jeremić",
+   "Mr. Jeremić",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "499205af3806bad76a1bf4b90886cface6e8a944",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1917,
+  "words_out": 1916,
+  "retention": 0.9995,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   212,
+   114,
+   89,
+   108,
+   150,
+   107,
+   66,
+   203,
+   187,
+   200,
+   126,
+   172,
+   137,
+   45
+  ],
+  "warnings": []
+ }
+}

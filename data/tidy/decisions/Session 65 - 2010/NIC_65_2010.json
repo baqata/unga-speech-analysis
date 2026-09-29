@@ -1,0 +1,67 @@
+{
+ "id": "NIC_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  30,
+  43,
+  57,
+  66,
+  85,
+  109,
+  128,
+  144,
+  174,
+  193,
+  207,
+  220,
+  238,
+  250,
+  261,
+  269,
+  294
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "57cdaff9cd606aad91b4c446b0c975c0f1b88517",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 310,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2452,
+  "words_out": 2449,
+  "retention": 0.9988,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   40,
+   216,
+   120,
+   113,
+   71,
+   145,
+   182,
+   136,
+   126,
+   224,
+   162,
+   114,
+   113,
+   144,
+   94,
+   86,
+   54,
+   189,
+   120
+  ],
+  "warnings": []
+ }
+}

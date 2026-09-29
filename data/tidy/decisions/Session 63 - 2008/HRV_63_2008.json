@@ -1,0 +1,56 @@
+{
+ "id": "HRV_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  29,
+  49,
+  70,
+  98,
+  125,
+  149,
+  178,
+  204,
+  229,
+  259,
+  283
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1b07953ff380e20fda098e6317bebb4ffdd41323",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 296,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "job_number": 3
+  },
+  "words_in": 2168,
+  "words_out": 2162,
+  "retention": 0.9972,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   49,
+   157,
+   154,
+   171,
+   204,
+   193,
+   187,
+   204,
+   183,
+   176,
+   233,
+   163,
+   88
+  ],
+  "warnings": []
+ }
+}

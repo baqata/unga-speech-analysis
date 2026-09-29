@@ -1,0 +1,110 @@
+{
+ "id": "DOM_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  6,
+  9,
+  13,
+  17,
+  20,
+  22,
+  24,
+  28,
+  32,
+  37,
+  41,
+  47,
+  52,
+  57,
+  58,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "Nations, The",
+   "Nations. The",
+   "ocr"
+  ],
+  [
+   18,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   18,
+   "disputes,",
+   "disputes.",
+   "ocr"
+  ],
+  [
+   25,
+   "nations,",
+   "nations.",
+   "ocr"
+  ],
+  [
+   40,
+   "cur",
+   "our",
+   "ocr"
+  ],
+  [
+   57,
+   "in. order",
+   "in order",
+   "ocr"
+  ],
+  [
+   58,
+   "tire",
+   "the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d402c18092b477271e5f2c8795542c19547972b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2573,
+  "words_out": 2571,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   71,
+   141,
+   78,
+   170,
+   81,
+   190,
+   194,
+   182,
+   87,
+   113,
+   137,
+   133,
+   176,
+   227,
+   135,
+   124,
+   63,
+   149,
+   120
+  ],
+  "warnings": []
+ }
+}

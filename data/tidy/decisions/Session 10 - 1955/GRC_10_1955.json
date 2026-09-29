@@ -1,0 +1,61 @@
+{
+ "id": "GRC_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  15,
+  20,
+  27,
+  34,
+  36,
+  44,
+  53,
+  58,
+  69,
+  76
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "he called",
+   "be called",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66260fa0cd85374ff9603a71b95e42727ea08277",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 18
+  },
+  "words_in": 1809,
+  "words_out": 1809,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   183,
+   116,
+   156,
+   83,
+   106,
+   158,
+   73,
+   119,
+   192,
+   103,
+   139,
+   173,
+   208
+  ],
+  "warnings": []
+ }
+}

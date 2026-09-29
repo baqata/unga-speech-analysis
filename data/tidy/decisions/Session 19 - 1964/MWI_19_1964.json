@@ -1,0 +1,144 @@
+{
+ "id": "MWI_19_1964",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  7,
+  8,
+  10,
+  16,
+  20,
+  25,
+  32,
+  35,
+  37,
+  40,
+  44,
+  51,
+  56,
+  61,
+  68
+ ],
+ "cer": [
+  1,
+  7
+ ],
+ "fix": [
+  [
+   3,
+   "It. is",
+   "It is",
+   "ocr"
+  ],
+  [
+   9,
+   "halve",
+   "have",
+   "ocr"
+  ],
+  [
+   20,
+   "tenet3",
+   "tenets",
+   "ocr"
+  ],
+  [
+   29,
+   "agriculture, Worst",
+   "agriculture. Worst",
+   "ocr"
+  ],
+  [
+   35,
+   "For tins",
+   "For this",
+   "ocr"
+  ],
+  [
+   36,
+   "shall, fight",
+   "shall fight",
+   "ocr"
+  ],
+  [
+   40,
+   "\"new boys \"in",
+   "\"new boys\" in",
+   "spacing"
+  ],
+  [
+   51,
+   "the-burning",
+   "the burning",
+   "ocr"
+  ],
+  [
+   61,
+   "to, fulfil",
+   "to fulfil",
+   "ocr"
+  ],
+  [
+   62,
+   "world, Malawi",
+   "world. Malawi",
+   "ocr"
+  ],
+  [
+   64,
+   "problems Or Africa",
+   "problems of Africa",
+   "ocr"
+  ],
+  [
+   66,
+   "Nor*",
+   "Nor",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6de267257a02aa1b0fa481044ce02e60dd2fcce8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 18
+  },
+  "words_in": 1986,
+  "words_out": 1986,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   201,
+   99,
+   105,
+   168,
+   116,
+   156,
+   127,
+   97,
+   123,
+   65,
+   102,
+   182,
+   129,
+   104,
+   154,
+   58
+  ],
+  "warnings": []
+ }
+}

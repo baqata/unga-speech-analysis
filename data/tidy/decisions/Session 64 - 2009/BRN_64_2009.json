@@ -1,0 +1,43 @@
+{
+ "id": "BRN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  21,
+  33,
+  51,
+  64,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b21cdb468fffecc59eceb06815dff4b8920ff4a1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 866,
+  "words_out": 866,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   64,
+   138,
+   119,
+   158,
+   109,
+   182,
+   96
+  ],
+  "warnings": []
+ }
+}

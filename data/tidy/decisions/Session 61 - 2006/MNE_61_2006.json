@@ -1,0 +1,45 @@
+{
+ "id": "MNE_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  22,
+  35,
+  58,
+  69,
+  85,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d80e583a2ecfe4ace07d392506b33cd4768dd9a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 985,
+  "words_out": 981,
+  "retention": 0.9959,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   31,
+   153,
+   105,
+   193,
+   79,
+   124,
+   142,
+   154
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "id": "CYP_16_1961",
+ "drop": [
+  [
+   14,
+   14,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  16,
+  22,
+  25,
+  32,
+  36,
+  46,
+  51,
+  55,
+  61,
+  68,
+  76,
+  81,
+  88,
+  92,
+  97,
+  105,
+  109,
+  115,
+  117,
+  121,
+  127,
+  132,
+  135,
+  139,
+  145,
+  149,
+  157,
+  161,
+  164,
+  169,
+  172
+ ],
+ "cer": [],
+ "fix": [
+  [
+   36,
+   "by_ underground",
+   "by underground",
+   "ocr"
+  ],
+  [
+   54,
+   "scientific (progress",
+   "scientific progress",
+   "ocr"
+  ],
+  [
+   83,
+   "trust In each",
+   "trust in each",
+   "ocr"
+  ],
+  [
+   100,
+   "Secretive- ness",
+   "Secretiveness",
+   "hyphen"
+  ],
+  [
+   115,
+   " (A/4800/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "freed )m",
+   "freedom",
+   "ocr"
+  ],
+  [
+   148,
+   "of Its influence",
+   "of its influence",
+   "ocr"
+  ],
+  [
+   163,
+   "hag been",
+   "has been",
+   "ocr"
+  ],
+  [
+   50,
+   "1961,",
+   "1961.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a8ea673b0508a774411d3a4d3a26dd2a9d24257",
+ "layout": "lines",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 4669,
+  "words_out": 4644,
+  "retention": 0.9946,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   165,
+   136,
+   160,
+   153,
+   106,
+   182,
+   102,
+   252,
+   117,
+   108,
+   102,
+   128,
+   114,
+   139,
+   167,
+   90,
+   139,
+   183,
+   109,
+   189,
+   89,
+   140,
+   135,
+   162,
+   90,
+   73,
+   192,
+   109,
+   188,
+   102,
+   79,
+   111,
+   129,
+   204
+  ],
+  "warnings": []
+ }
+}

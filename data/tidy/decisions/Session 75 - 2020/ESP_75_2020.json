@@ -1,0 +1,108 @@
+{
+ "id": "ESP_75_2020",
+ "drop": [
+  [
+   119,
+   119,
+   "heading"
+  ],
+  [
+   124,
+   124,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  4,
+  9,
+  19,
+  24,
+  27,
+  31,
+  34,
+  39,
+  42,
+  48,
+  55,
+  62,
+  70,
+  73,
+  76,
+  80,
+  91,
+  98,
+  103,
+  108,
+  111,
+  113,
+  120,
+  132,
+  137,
+  142,
+  146,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   70,
+   "Multilateralism ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 124 repeats unit 123 verbatim and is dropped as a repeat.",
+ "unitizer_version": 1,
+ "sha1": "c3be1006f1708e1e3738b56e8ad77fff6a88cf52",
+ "layout": "lines",
+ "stats": {
+  "n_units": 157,
+  "units_dropped": {
+   "heading": 1,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 3277,
+  "words_out": 3261,
+  "retention": 0.9951,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   18,
+   70,
+   171,
+   108,
+   138,
+   66,
+   96,
+   85,
+   115,
+   85,
+   140,
+   138,
+   158,
+   137,
+   61,
+   79,
+   72,
+   78,
+   182,
+   71,
+   134,
+   63,
+   80,
+   169,
+   184,
+   115,
+   119,
+   100,
+   137,
+   92
+  ],
+  "warnings": []
+ }
+}

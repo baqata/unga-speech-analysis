@@ -1,0 +1,66 @@
+{
+ "id": "DEU_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  14,
+  23,
+  29,
+  34,
+  38,
+  42,
+  47,
+  54,
+  62,
+  65,
+  69,
+  75,
+  81
+ ],
+ "cer": [],
+ "fix": [
+  [
+   65,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e1a830bc0844bbd8526fa6cc838f83547e9c616b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1864,
+  "words_out": 1861,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   104,
+   120,
+   151,
+   123,
+   99,
+   167,
+   119,
+   59,
+   101,
+   108,
+   175,
+   71,
+   124,
+   121,
+   159,
+   60
+  ],
+  "warnings": []
+ }
+}

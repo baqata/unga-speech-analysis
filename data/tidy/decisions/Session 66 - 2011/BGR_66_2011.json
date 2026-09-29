@@ -1,0 +1,65 @@
+{
+ "id": "BGR_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  35,
+  52,
+  67,
+  88,
+  109,
+  121,
+  151,
+  170,
+  186,
+  209,
+  235,
+  266,
+  277,
+  293,
+  314,
+  324
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d55678c2fd900af3af65f8ddcda9ce2385bf0a74",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 338,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2771,
+  "words_out": 2769,
+  "retention": 0.9993,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   142,
+   123,
+   155,
+   125,
+   170,
+   171,
+   115,
+   244,
+   165,
+   138,
+   206,
+   210,
+   237,
+   90,
+   124,
+   166,
+   75,
+   113
+  ],
+  "warnings": []
+ }
+}

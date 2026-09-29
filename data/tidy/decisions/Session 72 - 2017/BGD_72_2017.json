@@ -1,0 +1,74 @@
+{
+ "id": "BGD_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  13,
+  24,
+  33,
+  35,
+  42,
+  49,
+  52,
+  58,
+  66,
+  73,
+  79
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   48,
+   "money- laundering",
+   "money-laundering",
+   "hyphen"
+  ],
+  [
+   61,
+   "whole-of- society",
+   "whole-of-society",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f2ecc9fe57d0f3d8c1db312271a5e01208f0e9df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1696,
+  "words_out": 1693,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   38,
+   160,
+   110,
+   184,
+   149,
+   66,
+   150,
+   136,
+   48,
+   145,
+   157,
+   145,
+   170,
+   35
+  ],
+  "warnings": []
+ }
+}

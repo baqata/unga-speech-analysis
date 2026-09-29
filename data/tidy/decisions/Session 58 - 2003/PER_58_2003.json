@@ -1,0 +1,56 @@
+{
+ "id": "PER_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  33,
+  50,
+  62,
+  75,
+  100,
+  125,
+  147,
+  156
+ ],
+ "cer": [],
+ "fix": [
+  [
+   101,
+   "In·cio",
+   "Inácio",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b45ca9f2c49cbd18fac0e671d4ed95a28164734e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1393,
+  "words_out": 1392,
+  "retention": 0.9993,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   85,
+   92,
+   85,
+   142,
+   101,
+   117,
+   192,
+   196,
+   184,
+   78,
+   120
+  ],
+  "warnings": []
+ }
+}

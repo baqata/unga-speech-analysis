@@ -1,0 +1,122 @@
+{
+ "id": "DMA_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  15,
+  16,
+  19,
+  23,
+  27,
+  29,
+  33,
+  37,
+  42,
+  46,
+  50,
+  58,
+  64,
+  67,
+  70,
+  74,
+  77,
+  83,
+  86,
+  91,
+  95,
+  97,
+  101,
+  104,
+  108,
+  112,
+  116
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "2A October",
+   "24 October",
+   "ocr"
+  ],
+  [
+   13,
+   "ever- expanding",
+   "ever-expanding",
+   "hyphen"
+  ],
+  [
+   17,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   43,
+   "this year.\"",
+   "this year.",
+   "ocr"
+  ],
+  [
+   48,
+   "an. increasing",
+   "an increasing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ec3cd214c73589ccdc0174f55a924c6dc7177430",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3858,
+  "words_out": 3847,
+  "retention": 0.9971,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   145,
+   134,
+   101,
+   153,
+   60,
+   168,
+   122,
+   185,
+   106,
+   123,
+   149,
+   93,
+   150,
+   95,
+   197,
+   151,
+   111,
+   93,
+   142,
+   98,
+   144,
+   78,
+   167,
+   86,
+   90,
+   155,
+   124,
+   136,
+   139,
+   105,
+   47
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "DNK_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  19,
+  25,
+  35,
+  51,
+  60,
+  77,
+  81,
+  85,
+  88,
+  93,
+  96,
+  104
+ ],
+ "cer": [],
+ "fix": [
+  [
+   45,
+   "clean- energy",
+   "clean-energy",
+   "hyphen"
+  ],
+  [
+   53,
+   "much- needed",
+   "much-needed",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0c11906739472c525416cb4ab1560298e9a8b7c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1902,
+  "words_out": 1897,
+  "retention": 0.9974,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   163,
+   180,
+   108,
+   140,
+   203,
+   178,
+   260,
+   115,
+   123,
+   80,
+   68,
+   66,
+   131,
+   82
+  ],
+  "warnings": []
+ }
+}

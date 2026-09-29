@@ -1,0 +1,143 @@
+{
+ "id": "NPL_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  17,
+  24,
+  30,
+  34,
+  42,
+  46,
+  51,
+  60,
+  67,
+  72,
+  77,
+  86,
+  90,
+  93,
+  98,
+  106,
+  112,
+  116,
+  121,
+  124,
+  127,
+  130,
+  134,
+  138,
+  141,
+  147,
+  154,
+  158,
+  162,
+  170
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   9,
+   "hi: capacity",
+   "his capacity",
+   "ocr"
+  ],
+  [
+   24,
+   "pledged cur support",
+   "pledged our support",
+   "ocr"
+  ],
+  [
+   62,
+   "Bat the root",
+   "But the root",
+   "ocr"
+  ],
+  [
+   107,
+   "his Majesty’s",
+   "His Majesty’s",
+   "ocr"
+  ],
+  [
+   109,
+   " [A/7277]",
+   "",
+   "label"
+  ],
+  [
+   143,
+   "as Mozambique.",
+   "as Mozambique,",
+   "ocr"
+  ],
+  [
+   149,
+   "has been, able",
+   "has been able",
+   "ocr"
+  ],
+  [
+   163,
+   "countries: to",
+   "countries to",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d6b255c85d851a4b4341496b60a36985ccffac2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4000,
+  "words_out": 3956,
+  "retention": 0.989,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   214,
+   123,
+   184,
+   142,
+   93,
+   129,
+   76,
+   100,
+   181,
+   126,
+   90,
+   112,
+   234,
+   89,
+   72,
+   102,
+   180,
+   194,
+   112,
+   153,
+   80,
+   60,
+   65,
+   103,
+   105,
+   93,
+   97,
+   180,
+   65,
+   101,
+   174,
+   127
+  ],
+  "warnings": []
+ }
+}

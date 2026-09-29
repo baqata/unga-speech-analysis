@@ -1,0 +1,71 @@
+{
+ "id": "DMA_63_2008",
+ "drop": [
+  [
+   24,
+   25,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  26,
+  37,
+  58,
+  72,
+  87,
+  102,
+  116,
+  139,
+  152,
+  168,
+  179,
+  194,
+  207,
+  222,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa1acad89aacd6489894ade889586c4c688dec73",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 264,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2069,
+  "words_out": 2060,
+  "retention": 0.9957,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   63,
+   117,
+   78,
+   165,
+   115,
+   124,
+   119,
+   120,
+   173,
+   108,
+   130,
+   82,
+   118,
+   93,
+   107,
+   187,
+   161
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "SVN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  21,
+  25,
+  30,
+  37,
+  41,
+  45,
+  51,
+  57,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   56,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   61,
+   "conflict- affected",
+   "conflict-affected",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "162a342914794684467041d5898877f5b9a5d32f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1518,
+  "words_out": 1516,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   142,
+   169,
+   127,
+   103,
+   107,
+   125,
+   74,
+   102,
+   156,
+   149,
+   156,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "MKD_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  16,
+  27,
+  35,
+  48,
+  60,
+  69,
+  79,
+  98,
+  113,
+  132,
+  148,
+  167,
+  175,
+  185,
+  209,
+  220,
+  232,
+  247
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d9103c8fc55b877c38c13b6caca368b1ed71f8d3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2130,
+  "words_out": 2129,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   33,
+   76,
+   77,
+   67,
+   100,
+   99,
+   74,
+   74,
+   147,
+   134,
+   170,
+   120,
+   163,
+   74,
+   98,
+   213,
+   94,
+   90,
+   136,
+   90
+  ],
+  "warnings": []
+ }
+}

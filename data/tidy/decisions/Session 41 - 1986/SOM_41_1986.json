@@ -1,0 +1,119 @@
+{
+ "id": "SOM_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  11,
+  15,
+  20,
+  22,
+  30,
+  34,
+  36,
+  41,
+  43,
+  46,
+  48,
+  51,
+  55,
+  57,
+  60,
+  62,
+  65,
+  68,
+  72,
+  75,
+  78,
+  79,
+  82
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "«y delegation",
+   "my delegation",
+   "ocr"
+  ],
+  [
+   0,
+   "forty-fir st",
+   "forty-first",
+   "split_word"
+  ],
+  [
+   39,
+   "Ho be",
+   "To be",
+   "ocr"
+  ],
+  [
+   39,
+   "cm a basis",
+   "on a basis",
+   "ocr"
+  ],
+  [
+   39,
+   "(PI0)",
+   "(PLO)",
+   "ocr"
+  ],
+  [
+   68,
+   "FavorFable",
+   "favorable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "23ed64e09b274abfef1cfa79dbfe1c51a74083f2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2533,
+  "words_out": 2532,
+  "retention": 0.9996,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   68,
+   37,
+   79,
+   144,
+   127,
+   189,
+   64,
+   182,
+   102,
+   53,
+   136,
+   70,
+   116,
+   86,
+   105,
+   108,
+   72,
+   64,
+   72,
+   60,
+   90,
+   109,
+   96,
+   106,
+   51,
+   93,
+   53
+  ],
+  "warnings": []
+ }
+}

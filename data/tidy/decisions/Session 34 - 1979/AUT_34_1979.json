@@ -1,0 +1,141 @@
+{
+ "id": "AUT_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  12,
+  18,
+  23,
+  29,
+  36,
+  39,
+  44,
+  47,
+  55,
+  59,
+  61,
+  68,
+  69,
+  76,
+  81,
+  83,
+  86,
+  94,
+  96,
+  99,
+  103,
+  108,
+  111,
+  115,
+  120,
+  127,
+  129,
+  133,
+  137,
+  142
+ ],
+ "cer": [
+  0,
+  4,
+  68,
+  81
+ ],
+ "fix": [
+  [
+   12,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   19,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   24,
+   "l am thinking",
+   "I am thinking",
+   "ocr"
+  ],
+  [
+   39,
+   "\"We also",
+   "We also",
+   "ocr"
+  ],
+  [
+   68,
+   "ever- increasing",
+   "ever-increasing",
+   "hyphen"
+  ],
+  [
+   84,
+   "Egyptian- Israeli",
+   "Egyptian-Israeli",
+   "hyphen"
+  ],
+  [
+   133,
+   "non- German",
+   "non-German",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e0f2b76a122120896a0884f21379cdc3e01b2fe2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 3512,
+  "words_out": 3509,
+  "retention": 0.9991,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   98,
+   99,
+   99,
+   133,
+   124,
+   157,
+   116,
+   107,
+   162,
+   62,
+   153,
+   114,
+   62,
+   162,
+   49,
+   120,
+   151,
+   65,
+   112,
+   176,
+   59,
+   65,
+   82,
+   102,
+   64,
+   88,
+   108,
+   183,
+   59,
+   99,
+   62,
+   150,
+   67
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "USA_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  16,
+  23,
+  30,
+  38,
+  47,
+  56,
+  64,
+  68,
+  73,
+  82,
+  88,
+  97,
+  103,
+  111,
+  118,
+  121,
+  125,
+  132,
+  137,
+  144,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "for ‘the",
+   "for the",
+   "ocr"
+  ],
+  [
+   38,
+   "54, ",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "Viet-Nam.“",
+   "Viet-Nam.”",
+   "ocr"
+  ],
+  [
+   50,
+   "right. of",
+   "right of",
+   "ocr"
+  ],
+  [
+   56,
+   "minimum:",
+   "minimum",
+   "ocr"
+  ],
+  [
+   64,
+   "I sneak",
+   "I speak",
+   "ocr"
+  ],
+  [
+   65,
+   "people of: Viet-Nam",
+   "people of Viet-Nam",
+   "ocr"
+  ],
+  [
+   75,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   " [resolution",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "2373 (XXII)] ",
+   "",
+   "label"
+  ],
+  [
+   98,
+   "must, concentrate",
+   "must concentrate",
+   "ocr"
+  ],
+  [
+   106,
+   "hijackers. but",
+   "hijackers. But",
+   "ocr"
+  ],
+  [
+   113,
+   "76, ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Record paragraph 78 is missing between units 120 and 121 (the numbering jumps from 77 to 79).",
+ "unitizer_version": 1,
+ "sha1": "8757e82f2acee8dd4fa6e79d0ff5ca948b43dbf2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3819,
+  "words_out": 3771,
+  "retention": 0.9874,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   125,
+   101,
+   183,
+   172,
+   188,
+   176,
+   207,
+   197,
+   196,
+   120,
+   125,
+   225,
+   143,
+   189,
+   146,
+   134,
+   144,
+   70,
+   106,
+   160,
+   143,
+   185,
+   205,
+   131
+  ],
+  "warnings": []
+ }
+}

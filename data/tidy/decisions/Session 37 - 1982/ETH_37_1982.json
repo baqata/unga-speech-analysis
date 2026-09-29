@@ -1,0 +1,227 @@
+{
+ "id": "ETH_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  31,
+  58,
+  76,
+  136,
+  256,
+  308,
+  366,
+  373,
+  443,
+  495
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   13,
+   "thirty sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   16,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   18,
+   "Thirty seven",
+   "Thirty-seven",
+   "spacing"
+  ],
+  [
+   24,
+   "ever increasing",
+   "ever-increasing",
+   "spacing"
+  ],
+  [
+   33,
+   "lip service",
+   "lip-service",
+   "spacing"
+  ],
+  [
+   58,
+   "Twenty two",
+   "Twenty-two",
+   "spacing"
+  ],
+  [
+   111,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   120,
+   "duty bound",
+   "duty-bound",
+   "spacing"
+  ],
+  [
+   175,
+   "self serving",
+   "self-serving",
+   "spacing"
+  ],
+  [
+   200,
+   "far reaching",
+   "far-reaching",
+   "spacing"
+  ],
+  [
+   217,
+   "good neighbourliness",
+   "good-neighbourliness",
+   "spacing"
+  ],
+  [
+   220,
+   "fbr",
+   "for",
+   "ocr"
+  ],
+  [
+   229,
+   "good neighbourliness",
+   "good-neighbourliness",
+   "spacing"
+  ],
+  [
+   286,
+   "self serving",
+   "self-serving",
+   "spacing"
+  ],
+  [
+   287,
+   "Home of",
+   "Horn of",
+   "ocr"
+  ],
+  [
+   333,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   353,
+   "Theimperatives",
+   "The imperatives",
+   "merged_word"
+  ],
+  [
+   360,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   373,
+   "thomy",
+   "thorny",
+   "ocr"
+  ],
+  [
+   374,
+   "South East",
+   "South-East",
+   "spacing"
+  ],
+  [
+   374,
+   "SouthWest",
+   "South-West",
+   "spacing"
+  ],
+  [
+   390,
+   "Race of",
+   "face of",
+   "ocr"
+  ],
+  [
+   425,
+   "nuclear weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   431,
+   "nuclear weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   441,
+   "andto",
+   "and to",
+   "merged_word"
+  ],
+  [
+   486,
+   "pre in",
+   "are in",
+   "ocr"
+  ],
+  [
+   514,
+   "ever present",
+   "ever-present",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with almost no line-initial sentence starts; paragraphs are long because no clean break exists. The opening paragraph turns from greetings to substance mid-line.",
+ "unitizer_version": 1,
+ "sha1": "4f92db0624795256c5d05efc1fcabc34c6f76fc8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 561,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4074,
+  "words_out": 4056,
+  "retention": 0.9956,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   226,
+   193,
+   127,
+   429,
+   865,
+   386,
+   426,
+   45,
+   507,
+   371,
+   481
+  ],
+  "warnings": [
+   "paragraph at unit 76 has 429 words",
+   "paragraph at unit 136 has 865 words",
+   "paragraph at unit 256 has 386 words",
+   "paragraph at unit 308 has 426 words",
+   "paragraph at unit 373 has 507 words",
+   "paragraph at unit 443 has 371 words",
+   "paragraph at unit 495 has 481 words",
+   "28 fixes"
+  ]
+ }
+}

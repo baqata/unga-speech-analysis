@@ -1,0 +1,131 @@
+{
+ "id": "MMR_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  12,
+  15,
+  22,
+  26,
+  32,
+  34,
+  43,
+  50,
+  54,
+  62,
+  68,
+  72,
+  75,
+  77,
+  80,
+  83,
+  87,
+  90,
+  93,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "delegation .and",
+   "delegation and",
+   "ocr"
+  ],
+  [
+   58,
+   "not So gracefully",
+   "not so gracefully",
+   "ocr"
+  ],
+  [
+   74,
+   "lead Inevitably",
+   "lead inevitably",
+   "ocr"
+  ],
+  [
+   84,
+   "against, the tide",
+   "against the tide",
+   "ocr"
+  ],
+  [
+   84,
+   "the General.",
+   "the General",
+   "ocr"
+  ],
+  [
+   87,
+   "in file Middle East",
+   "in the Middle East",
+   "ocr"
+  ],
+  [
+   89,
+   "once, again",
+   "once again",
+   "ocr"
+  ],
+  [
+   97,
+   "United Nations, can",
+   "United Nations can",
+   "ocr"
+  ],
+  [
+   98,
+   "Organization, can",
+   "Organization can",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fdd2859a10880d9e887979ff91bbcc64d0ac8e6d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 20
+  },
+  "words_in": 3168,
+  "words_out": 3167,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   136,
+   112,
+   110,
+   105,
+   223,
+   144,
+   169,
+   96,
+   235,
+   205,
+   109,
+   181,
+   122,
+   140,
+   77,
+   88,
+   145,
+   125,
+   123,
+   124,
+   120,
+   118,
+   160
+  ],
+  "warnings": []
+ }
+}

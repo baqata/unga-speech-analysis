@@ -1,0 +1,48 @@
+{
+ "id": "URY_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  14
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "the. unanimous",
+   "the unanimous",
+   "ocr"
+  ],
+  [
+   12,
+   "their .differences",
+   "their differences",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7e0d9dd34da897ec0189896ed1c7b928b15b9b96",
+ "layout": "lines",
+ "stats": {
+  "n_units": 16,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 544,
+  "words_out": 544,
+  "retention": 1.0,
+  "n_paragraphs": 5,
+  "paragraph_words": [
+   84,
+   144,
+   119,
+   122,
+   75
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "id": "COG_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  18,
+  22,
+  28,
+  33,
+  37,
+  40,
+  45,
+  50,
+  53,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "ago.",
+   "ago,",
+   "ocr"
+  ],
+  [
+   8,
+   "too. among",
+   "too, among",
+   "ocr"
+  ],
+  [
+   8,
+   "road. rail. port",
+   "road, rail, port",
+   "ocr"
+  ],
+  [
+   9,
+   "point.",
+   "point,",
+   "ocr"
+  ],
+  [
+   18,
+   "why. assuming",
+   "why, assuming",
+   "ocr"
+  ],
+  [
+   43,
+   "say. a",
+   "say, a",
+   "ocr"
+  ],
+  [
+   53,
+   "1945. the",
+   "1945, the",
+   "ocr"
+  ],
+  [
+   56,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   57,
+   "Ezulwini. that",
+   "Ezulwini, that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "061d812db093713082accc3371f8c5bcced7724e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1761,
+  "words_out": 1761,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   159,
+   202,
+   121,
+   93,
+   115,
+   181,
+   86,
+   94,
+   86,
+   182,
+   121,
+   140,
+   114,
+   67
+  ],
+  "warnings": []
+ }
+}

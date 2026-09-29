@@ -1,0 +1,60 @@
+{
+ "id": "ARE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  40,
+  71,
+  89,
+  103,
+  118,
+  139,
+  151,
+  160,
+  169,
+  188,
+  201
+ ],
+ "cer": [],
+ "fix": [
+  [
+   106,
+   "(see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93a8fbb63f2ce09830433ba970eb5e7e9805ff22",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1527,
+  "words_out": 1521,
+  "retention": 0.9961,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   98,
+   191,
+   238,
+   136,
+   103,
+   107,
+   157,
+   87,
+   62,
+   68,
+   145,
+   92,
+   37
+  ],
+  "warnings": []
+ }
+}

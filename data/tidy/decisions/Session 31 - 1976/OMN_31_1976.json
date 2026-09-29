@@ -1,0 +1,162 @@
+{
+ "id": "OMN_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  18,
+  23,
+  25,
+  27,
+  30,
+  34,
+  39,
+  42,
+  46,
+  54,
+  62,
+  66,
+  68,
+  69,
+  75,
+  81
+ ],
+ "cer": [
+  0,
+  5,
+  9
+ ],
+ "fix": [
+  [
+   3,
+   "heart felt",
+   "heartfelt",
+   "split_word"
+  ],
+  [
+   10,
+   "world . will",
+   "world will",
+   "ocr"
+  ],
+  [
+   27,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   29,
+   "affirms, that",
+   "affirms that",
+   "ocr"
+  ],
+  [
+   29,
+   "country- The Sultanate",
+   "country. The Sultanate",
+   "ocr"
+  ],
+  [
+   33,
+   "countries of die region",
+   "countries of the region",
+   "ocr"
+  ],
+  [
+   35,
+   "dose and constructive",
+   "close and constructive",
+   "ocr"
+  ],
+  [
+   39,
+   "we.declare",
+   "we declare",
+   "ocr"
+  ],
+  [
+   39,
+   "pur willingness",
+   "our willingness",
+   "ocr"
+  ],
+  [
+   41,
+   "for.the",
+   "for the",
+   "ocr"
+  ],
+  [
+   45,
+   " [resolution 2832 (XXVI)]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   " [A/31/l/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   57,
+   " [A/31/197, annex II]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   " [resolutions 3201 (S-VI) and 3202 (S-VI)]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   " [resolution 3281 (XXIX)/",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "daedf2227a999140ed3863ccd73b57c193a935d4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2761,
+  "words_out": 2743,
+  "retention": 0.9935,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   202,
+   166,
+   63,
+   192,
+   188,
+   93,
+   106,
+   149,
+   122,
+   134,
+   117,
+   82,
+   186,
+   156,
+   154,
+   99,
+   79,
+   201,
+   155,
+   99
+  ],
+  "warnings": []
+ }
+}

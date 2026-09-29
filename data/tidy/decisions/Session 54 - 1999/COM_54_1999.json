@@ -1,0 +1,87 @@
+{
+ "id": "COM_54_1999",
+ "drop": [
+  [
+   173,
+   173,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  27,
+  43,
+  61,
+  72,
+  81,
+  104,
+  127,
+  146,
+  160,
+  174,
+  198,
+  216,
+  237,
+  252,
+  261,
+  273,
+  287,
+  295,
+  322
+ ],
+ "cer": [
+  0,
+  261
+ ],
+ "fix": [
+  [
+   243,
+   "(A/50/864/Annex II, res. 1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d96f4b60f0ff7e201bba67c0e8b633c68a60e2b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 328,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2800,
+  "words_out": 2788,
+  "retention": 0.9957,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   242,
+   150,
+   158,
+   97,
+   72,
+   184,
+   189,
+   154,
+   106,
+   109,
+   203,
+   146,
+   187,
+   130,
+   76,
+   110,
+   131,
+   70,
+   224,
+   50
+  ],
+  "warnings": [
+   "procedural drop [173,173] in the middle of the speech"
+  ]
+ }
+}

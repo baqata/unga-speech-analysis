@@ -1,0 +1,103 @@
+{
+ "id": "SGP_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  17,
+  21,
+  27,
+  31,
+  41,
+  46,
+  53,
+  57,
+  62,
+  64,
+  70,
+  83,
+  93,
+  98,
+  102
+ ],
+ "cer": [
+  2,
+  5
+ ],
+ "fix": [
+  [
+   46,
+   "(New York, Random House: 3rd edition, 1964, p. 57) ",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "ana die",
+   "and die",
+   "ocr"
+  ],
+  [
+   63,
+   "Kanpuchea",
+   "Kampuchea",
+   "ocr"
+  ],
+  [
+   70,
+   "Kigh-Level",
+   "High-Level",
+   "ocr"
+  ],
+  [
+   74,
+   "the* have",
+   "they have",
+   "ocr"
+  ],
+  [
+   78,
+   "!Mew York",
+   "New York",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cbbfb7845776736aad0fa16c44a98b15d01912d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1919,
+  "words_out": 1910,
+  "retention": 0.9953,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   19,
+   64,
+   68,
+   146,
+   72,
+   90,
+   89,
+   149,
+   116,
+   151,
+   101,
+   84,
+   63,
+   80,
+   220,
+   186,
+   81,
+   85,
+   46
+  ],
+  "warnings": []
+ }
+}

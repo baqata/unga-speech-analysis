@@ -1,0 +1,99 @@
+{
+ "id": "NZL_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  15,
+  19,
+  23,
+  30,
+  38,
+  42,
+  49,
+  54,
+  59,
+  65,
+  70,
+  76,
+  79,
+  84,
+  87,
+  90,
+  94,
+  101,
+  104,
+  109,
+  114,
+  116,
+  121,
+  126
+ ],
+ "cer": [
+  0,
+  126
+ ],
+ "fix": [
+  [
+   4,
+   "tend koutou",
+   "tena koutou",
+   "ocr"
+  ],
+  [
+   63,
+   "sea- level",
+   "sea-level",
+   "spacing"
+  ],
+  [
+   126,
+   "Tend koutou, tend koutou, tend tatou",
+   "Tena koutou, tena koutou, tena tatou",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e7f7d917c6b44d4409f27f4a095f28f76c970e35",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2607,
+  "words_out": 2606,
+  "retention": 0.9996,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   85,
+   104,
+   115,
+   111,
+   142,
+   133,
+   80,
+   183,
+   81,
+   75,
+   134,
+   75,
+   138,
+   83,
+   71,
+   94,
+   67,
+   86,
+   110,
+   89,
+   82,
+   101,
+   93,
+   125,
+   142,
+   7
+  ],
+  "warnings": []
+ }
+}

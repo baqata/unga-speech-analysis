@@ -1,0 +1,124 @@
+{
+ "id": "VCT_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  10,
+  18,
+  23,
+  25,
+  32,
+  36,
+  40,
+  44,
+  49,
+  52,
+  54
+ ],
+ "cer": [
+  0,
+  3,
+  54
+ ],
+ "fix": [
+  [
+   3,
+   "Principality ff",
+   "Principality of",
+   "ocr"
+  ],
+  [
+   3,
+   "Nations, The",
+   "Nations. The",
+   "ocr"
+  ],
+  [
+   3,
+   "member ship",
+   "membership",
+   "ocr"
+  ],
+  [
+   10,
+   "Israel's fight",
+   "Israel's right",
+   "ocr"
+  ],
+  [
+   11,
+   "Vow that",
+   "Now that",
+   "ocr"
+  ],
+  [
+   11,
+   "United Rations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   24,
+   "be celled",
+   "be called",
+   "ocr"
+  ],
+  [
+   30,
+   "19908",
+   "1990s",
+   "ocr"
+  ],
+  [
+   32,
+   "reserve the",
+   "deserve the",
+   "ocr"
+  ],
+  [
+   49,
+   "integrity o£",
+   "integrity of",
+   "encoding"
+  ],
+  [
+   54,
+   "Peres",
+   "Perez",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b2a73b272fa10b5d69ca6c2c78a726483dba7c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1523,
+  "words_out": 1522,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   82,
+   47,
+   175,
+   166,
+   120,
+   64,
+   175,
+   84,
+   144,
+   131,
+   148,
+   79,
+   76,
+   31
+  ],
+  "warnings": []
+ }
+}

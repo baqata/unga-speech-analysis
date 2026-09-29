@@ -1,0 +1,60 @@
+{
+ "id": "SYC_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  21,
+  31,
+  41,
+  51,
+  73,
+  84,
+  94,
+  104,
+  115,
+  130,
+  142,
+  159
+ ],
+ "cer": [],
+ "fix": [
+  [
+   119,
+   "f low",
+   "flow",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "31bac973eda94c46c095ac05ca631f5341167b7a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1458,
+  "words_out": 1456,
+  "retention": 0.9986,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   96,
+   81,
+   80,
+   90,
+   81,
+   171,
+   101,
+   79,
+   75,
+   83,
+   133,
+   105,
+   148,
+   133
+  ],
+  "warnings": []
+ }
+}

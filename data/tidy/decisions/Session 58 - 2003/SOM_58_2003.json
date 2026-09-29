@@ -1,0 +1,55 @@
+{
+ "id": "SOM_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  30,
+  52,
+  65,
+  82,
+  97,
+  119,
+  131,
+  156,
+  169,
+  179,
+  194
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "37fe9ef2be0966113d4901b11be6cd5c81ba1358",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 205,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1654,
+  "words_out": 1652,
+  "retention": 0.9988,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   119,
+   112,
+   165,
+   102,
+   135,
+   128,
+   171,
+   98,
+   198,
+   110,
+   81,
+   131,
+   102
+  ],
+  "warnings": []
+ }
+}

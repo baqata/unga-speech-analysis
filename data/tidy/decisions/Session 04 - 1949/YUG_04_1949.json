@@ -1,0 +1,162 @@
+{
+ "id": "YUG_04_1949",
+ "drop": [
+  [
+   51,
+   51,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  12,
+  14,
+  17,
+  21,
+  24,
+  28,
+  31,
+  34,
+  39,
+  43,
+  52,
+  55,
+  60,
+  64,
+  69,
+  71,
+  74,
+  79
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "some of, those",
+   "some of those",
+   "ocr"
+  ],
+  [
+   8,
+   "it. in",
+   "it in",
+   "ocr"
+  ],
+  [
+   21,
+   "international, relations",
+   "international relations",
+   "ocr"
+  ],
+  [
+   30,
+   "Chapter",
+   "Charter",
+   "ocr"
+  ],
+  [
+   37,
+   "countries;",
+   "countries.",
+   "ocr"
+  ],
+  [
+   40,
+   "the. new",
+   "the new",
+   "ocr"
+  ],
+  [
+   48,
+   "If was",
+   "It was",
+   "ocr"
+  ],
+  [
+   56,
+   "form;",
+   "form",
+   "ocr"
+  ],
+  [
+   58,
+   "inordinate-",
+   "inordinate",
+   "ocr"
+  ],
+  [
+   58,
+   "accordance.",
+   "accordance",
+   "ocr"
+  ],
+  [
+   60,
+   "to ,1",
+   "to 1",
+   "ocr"
+  ],
+  [
+   64,
+   "Furthermore!",
+   "Furthermore,",
+   "ocr"
+  ],
+  [
+   74,
+   " (226th meeting)",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "Mr, Kardelj",
+   "Mr. Kardelj",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "c734d2b1eed29dda8cd0eb0d9e797b6899f9c8a7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 2535,
+  "words_out": 2532,
+  "retention": 0.9988,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   163,
+   216,
+   73,
+   98,
+   117,
+   128,
+   133,
+   110,
+   94,
+   130,
+   95,
+   205,
+   107,
+   117,
+   95,
+   123,
+   89,
+   113,
+   160,
+   166
+  ],
+  "warnings": []
+ }
+}

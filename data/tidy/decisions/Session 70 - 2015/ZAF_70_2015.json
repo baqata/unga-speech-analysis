@@ -1,0 +1,89 @@
+{
+ "id": "ZAF_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  9,
+  14,
+  20,
+  25,
+  27,
+  37,
+  39,
+  42,
+  46,
+  51,
+  54,
+  61,
+  62,
+  66,
+  71,
+  77,
+  81
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   19,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   23,
+   "(UN-Women),and",
+   "(UN-Women), and",
+   "spacing"
+  ],
+  [
+   52,
+   "man- made",
+   "man-made",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c2a9131f7fe94d9ef78a686e97c7d05a1a6c9d3d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2189,
+  "words_out": 2182,
+  "retention": 0.9968,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   66,
+   44,
+   115,
+   138,
+   105,
+   153,
+   61,
+   147,
+   83,
+   97,
+   91,
+   144,
+   103,
+   152,
+   32,
+   117,
+   140,
+   209,
+   100,
+   85
+  ],
+  "warnings": []
+ }
+}

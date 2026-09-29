@@ -1,0 +1,135 @@
+{
+ "id": "LAO_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  7,
+  12,
+  14,
+  16,
+  19,
+  22,
+  24,
+  26,
+  29,
+  31,
+  40,
+  46,
+  49,
+  58,
+  64,
+  72
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   17,
+   "SWAEO",
+   "SWAPO",
+   "ocr"
+  ],
+  [
+   19,
+   "Contador a Group",
+   "Contadora Group",
+   "split_word"
+  ],
+  [
+   24,
+   "free of y foreign",
+   "free of any foreign",
+   "ocr"
+  ],
+  [
+   25,
+   "AS regards",
+   "As regards",
+   "ocr"
+  ],
+  [
+   25,
+   "co-unities",
+   "communities",
+   "ocr"
+  ],
+  [
+   31,
+   "se situation",
+   "The situation",
+   "ocr"
+  ],
+  [
+   36,
+   "by other: to",
+   "by others to",
+   "ocr"
+  ],
+  [
+   51,
+   "Ear from",
+   "Far from",
+   "ocr"
+  ],
+  [
+   66,
+   "UNEDAC",
+   "UNFDAC",
+   "ocr"
+  ],
+  [
+   64,
+   "greatest, scourges",
+   "greatest scourges",
+   "ocr"
+  ],
+  [
+   38,
+   "Khmer-Thai: Given ail that",
+   "Khmer-Thai. Given all that",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 38 has words missing in several places (e.g. 'encroaching on the of the latter', 'withdrawal from rebel forces').",
+ "unitizer_version": 1,
+ "sha1": "95d02a1065f342b9e92fe06324db39725629b15a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2213,
+  "words_out": 2212,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   53,
+   38,
+   144,
+   164,
+   85,
+   117,
+   114,
+   97,
+   70,
+   96,
+   99,
+   48,
+   252,
+   153,
+   101,
+   159,
+   204,
+   178,
+   40
+  ],
+  "warnings": []
+ }
+}

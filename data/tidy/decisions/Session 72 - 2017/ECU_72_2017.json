@@ -1,0 +1,66 @@
+{
+ "id": "ECU_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  18,
+  24,
+  32,
+  38,
+  42,
+  47,
+  54,
+  60,
+  66,
+  72,
+  76,
+  80,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   41,
+   "Step-by- step",
+   "Step-by-step",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "afee47acb52f4114a3ae760dbf30d37acc929973",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1683,
+  "words_out": 1682,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   83,
+   70,
+   82,
+   185,
+   152,
+   110,
+   130,
+   80,
+   85,
+   122,
+   104,
+   105,
+   98,
+   80,
+   64,
+   84,
+   48
+  ],
+  "warnings": []
+ }
+}

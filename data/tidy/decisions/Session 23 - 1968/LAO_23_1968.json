@@ -1,0 +1,91 @@
+{
+ "id": "LAO_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  19,
+  27,
+  33,
+  38,
+  43,
+  53,
+  58,
+  66,
+  76,
+  81,
+  87,
+  92,
+  96
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   27,
+   " [1590th meeting, para, 88]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "settlement cf the",
+   "settlement of the",
+   "ocr"
+  ],
+  [
+   71,
+   "and event here",
+   "and even here",
+   "ocr"
+  ],
+  [
+   84,
+   "bow to tie logic",
+   "bow to the logic",
+   "ocr"
+  ],
+  [
+   94,
+   "science 2nd technology",
+   "science and technology",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f55a2e605685b63451f69a41415d39530072ab20",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2243,
+  "words_out": 2211,
+  "retention": 0.9857,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   111,
+   136,
+   144,
+   116,
+   200,
+   91,
+   130,
+   257,
+   105,
+   214,
+   221,
+   89,
+   151,
+   74,
+   136,
+   36
+  ],
+  "warnings": []
+ }
+}

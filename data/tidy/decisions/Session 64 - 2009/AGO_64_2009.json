@@ -1,0 +1,64 @@
+{
+ "id": "AGO_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  30,
+  53,
+  66,
+  96,
+  115,
+  126,
+  151,
+  181,
+  197,
+  213,
+  241,
+  271,
+  280,
+  291,
+  302
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ab84a7043fffd8858eae428eb7ebcabfb0072d3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 310,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2352,
+  "words_out": 2350,
+  "retention": 0.9991,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   95,
+   136,
+   172,
+   107,
+   217,
+   150,
+   71,
+   175,
+   240,
+   121,
+   122,
+   223,
+   219,
+   65,
+   77,
+   95,
+   65
+  ],
+  "warnings": []
+ }
+}

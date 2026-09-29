@@ -1,0 +1,72 @@
+{
+ "id": "TUR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  43,
+  59,
+  70,
+  91,
+  117,
+  130,
+  147,
+  159,
+  172,
+  189,
+  203,
+  217,
+  240,
+  256
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "planet?s",
+   "planet’s",
+   "encoding"
+  ],
+  [
+   204,
+   "Denktas¸",
+   "Denktaş",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7218890e03d5c2bc1578ff7bcd34d3346a7c10fc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2340,
+  "words_out": 2338,
+  "retention": 0.9991,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   115,
+   218,
+   150,
+   103,
+   181,
+   218,
+   102,
+   134,
+   94,
+   116,
+   135,
+   119,
+   119,
+   191,
+   134,
+   209
+  ],
+  "warnings": []
+ }
+}

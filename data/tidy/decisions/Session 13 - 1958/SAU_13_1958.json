@@ -1,0 +1,273 @@
+{
+ "id": "SAU_13_1958",
+ "drop": [
+  [
+   90,
+   90,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  10,
+  20,
+  27,
+  30,
+  38,
+  45,
+  47,
+  54,
+  61,
+  70,
+  79,
+  85,
+  91,
+  96,
+  102,
+  108,
+  111,
+  115,
+  122,
+  125,
+  128,
+  137,
+  143,
+  153,
+  157,
+  165,
+  171,
+  179,
+  184,
+  192,
+  196,
+  200,
+  204,
+  206,
+  211,
+  217,
+  222,
+  225,
+  230,
+  234,
+  240,
+  247,
+  255,
+  259,
+  264,
+  271
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "any Introduction",
+   "any introduction",
+   "ocr"
+  ],
+  [
+   10,
+   "current International",
+   "current international",
+   "ocr"
+  ],
+  [
+   16,
+   "he. embarked",
+   "he embarked",
+   "ocr"
+  ],
+  [
+   56,
+   "monitory Systems",
+   "monitory systems",
+   "ocr"
+  ],
+  [
+   71,
+   "fresh find very",
+   "fresh and very",
+   "ocr"
+  ],
+  [
+   83,
+   "three- mile",
+   "three-mile",
+   "hyphen"
+  ],
+  [
+   91,
+   "alms",
+   "aims",
+   "ocr"
+  ],
+  [
+   92,
+   "alms",
+   "aims",
+   "ocr"
+  ],
+  [
+   95,
+   " [1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "the-right",
+   "the right",
+   "ocr"
+  ],
+  [
+   120,
+   "Inherent",
+   "inherent",
+   "ocr"
+  ],
+  [
+   121,
+   " [resolution [184 (XIII)].",
+   "",
+   "label"
+  ],
+  [
+   128,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   129,
+   "goes Without",
+   "goes without",
+   "ocr"
+  ],
+  [
+   193,
+   "'around",
+   "around",
+   "ocr"
+  ],
+  [
+   206,
+   "Nations, After",
+   "Nations. After",
+   "ocr"
+  ],
+  [
+   212,
+   "area, On",
+   "area. On",
+   "ocr"
+  ],
+  [
+   226,
+   "is a, healthy",
+   "is a healthy",
+   "ocr"
+  ],
+  [
+   233,
+   "for nil time",
+   "for all time",
+   "ocr"
+  ],
+  [
+   240,
+   "’however",
+   "however",
+   "ocr"
+  ],
+  [
+   247,
+   "have_ left",
+   "have left",
+   "ocr"
+  ],
+  [
+   263,
+   "demobilization Of",
+   "demobilization of",
+   "ocr"
+  ],
+  [
+   275,
+   "frustration,",
+   "frustration.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 90 ('99.') is a stray paragraph number left in the view, dropped as header_footer.",
+ "unitizer_version": 1,
+ "sha1": "30f83c28e6bf98c3f8e5b8aa154f2adad7f118d3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 54
+  },
+  "words_in": 6155,
+  "words_out": 6145,
+  "retention": 0.9984,
+  "n_paragraphs": 48,
+  "paragraph_words": [
+   113,
+   104,
+   208,
+   138,
+   64,
+   149,
+   118,
+   62,
+   122,
+   145,
+   185,
+   208,
+   146,
+   139,
+   145,
+   140,
+   95,
+   78,
+   71,
+   155,
+   62,
+   71,
+   171,
+   170,
+   211,
+   66,
+   124,
+   92,
+   132,
+   67,
+   164,
+   62,
+   119,
+   121,
+   70,
+   107,
+   133,
+   132,
+   97,
+   105,
+   84,
+   147,
+   228,
+   186,
+   84,
+   275,
+   147,
+   133
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

@@ -1,0 +1,289 @@
+{
+ "id": "CYP_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  15,
+  21,
+  27,
+  30,
+  35,
+  42,
+  49,
+  56,
+  60,
+  64,
+  70,
+  82,
+  87,
+  92,
+  100,
+  106,
+  109,
+  118,
+  120,
+  126,
+  130,
+  135,
+  141,
+  145,
+  151,
+  159,
+  164,
+  171,
+  174,
+  177,
+  182
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "hilly",
+   "fully",
+   "ocr"
+  ],
+  [
+   2,
+   "here;",
+   "here",
+   "ocr"
+  ],
+  [
+   3,
+   "President;",
+   "President,",
+   "ocr"
+  ],
+  [
+   8,
+   "\"for",
+   "for",
+   "ocr"
+  ],
+  [
+   11,
+   "in-a",
+   "in a",
+   "ocr"
+  ],
+  [
+   34,
+   ".in",
+   "in",
+   "ocr"
+  ],
+  [
+   42,
+   "along way",
+   "a long way",
+   "split_word"
+  ],
+  [
+   49,
+   "its. impressive",
+   "its impressive",
+   "ocr"
+  ],
+  [
+   61,
+   "War",
+   "war",
+   "ocr"
+  ],
+  [
+   89,
+   "disarmament=agreements",
+   "disarmament agreements",
+   "ocr"
+  ],
+  [
+   100,
+   "the: United",
+   "the United",
+   "ocr"
+  ],
+  [
+   102,
+   "to. the",
+   "to the",
+   "ocr"
+  ],
+  [
+   106,
+   "power:",
+   "power.",
+   "ocr"
+  ],
+  [
+   109,
+   "all exclusively",
+   "an exclusively",
+   "ocr"
+  ],
+  [
+   115,
+   "more i effective",
+   "more effective",
+   "ocr"
+  ],
+  [
+   124,
+   "’Within",
+   "within",
+   "ocr"
+  ],
+  [
+   126,
+   "Kolsen's",
+   "Kelsen's",
+   "ocr"
+  ],
+  [
+   128,
+   "Is the way",
+   "is the way",
+   "ocr"
+  ],
+  [
+   131,
+   "It its",
+   "It is",
+   "ocr"
+  ],
+  [
+   141,
+   "profoundly;",
+   "profoundly",
+   "ocr"
+  ],
+  [
+   142,
+   "inconclusive. yet",
+   "inconclusive. Yet",
+   "ocr"
+  ],
+  [
+   150,
+   "Actually",
+   "actually",
+   "ocr"
+  ],
+  [
+   156,
+   "creating;",
+   "creating",
+   "ocr"
+  ],
+  [
+   159,
+   "co-operation;",
+   "co-operation",
+   "ocr"
+  ],
+  [
+   160,
+   "cooperation-",
+   "cooperation",
+   "ocr"
+  ],
+  [
+   163,
+   "be , considered",
+   "be considered",
+   "ocr"
+  ],
+  [
+   170,
+   "agreement,",
+   "agreement.",
+   "ocr"
+  ],
+  [
+   171,
+   "for ward",
+   "forward",
+   "split_word"
+  ],
+  [
+   171,
+   "Assistance",
+   "assistance",
+   "ocr"
+  ],
+  [
+   174,
+   "99: ",
+   "",
+   "label"
+  ],
+  [
+   182,
+   "generations’",
+   "generations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "33ed58e18a493e69715da0c7fbb28dcd847ad435",
+ "layout": "lines",
+ "stats": {
+  "n_units": 183,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 49
+  },
+  "words_in": 4729,
+  "words_out": 4727,
+  "retention": 0.9996,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   91,
+   83,
+   123,
+   140,
+   146,
+   147,
+   87,
+   106,
+   145,
+   124,
+   108,
+   106,
+   106,
+   142,
+   225,
+   104,
+   135,
+   206,
+   188,
+   110,
+   259,
+   82,
+   164,
+   149,
+   99,
+   165,
+   188,
+   112,
+   202,
+   165,
+   164,
+   115,
+   114,
+   94,
+   33
+  ],
+  "warnings": [
+   "31 fixes"
+  ]
+ }
+}

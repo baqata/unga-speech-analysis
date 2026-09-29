@@ -1,0 +1,55 @@
+{
+ "id": "NAM_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  33,
+  50,
+  60,
+  83,
+  103,
+  120,
+  129,
+  138,
+  150,
+  161,
+  176
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d2eba3b0edf894cfb142045197e758d72cb55803",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1364,
+  "words_out": 1357,
+  "retention": 0.9949,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   115,
+   130,
+   117,
+   76,
+   180,
+   157,
+   119,
+   66,
+   61,
+   91,
+   79,
+   101,
+   65
+  ],
+  "warnings": []
+ }
+}

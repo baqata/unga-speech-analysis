@@ -1,0 +1,96 @@
+{
+ "id": "GTM_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  10,
+  12,
+  13,
+  17,
+  26,
+  32,
+  35,
+  37,
+  39,
+  42,
+  44,
+  47,
+  51,
+  55,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   " [ibid., pp. 70-73]",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "property, of",
+   "property of",
+   "ocr"
+  ],
+  [
+   41,
+   "The' process",
+   "The process",
+   "ocr"
+  ],
+  [
+   42,
+   " [UNCTAD]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "We' observed",
+   "We observed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "214a36fd83063c34cfea0596734b598d80042ce7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2358,
+  "words_out": 2351,
+  "retention": 0.997,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   49,
+   91,
+   241,
+   92,
+   67,
+   153,
+   289,
+   202,
+   167,
+   119,
+   101,
+   120,
+   73,
+   113,
+   132,
+   105,
+   83,
+   154
+  ],
+  "warnings": []
+ }
+}

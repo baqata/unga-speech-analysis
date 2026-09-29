@@ -1,0 +1,69 @@
+{
+ "id": "DMA_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  6,
+  8,
+  15,
+  17,
+  21,
+  25,
+  29,
+  35,
+  38,
+  41,
+  47,
+  50,
+  55,
+  61
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   38,
+   "cons tent",
+   "constant",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f4d2b58c276598737f843ce39dc03363d858695",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1832,
+  "words_out": 1831,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   49,
+   33,
+   106,
+   66,
+   153,
+   106,
+   125,
+   147,
+   103,
+   88,
+   129,
+   84,
+   115,
+   75,
+   142,
+   202,
+   108
+  ],
+  "warnings": []
+ }
+}

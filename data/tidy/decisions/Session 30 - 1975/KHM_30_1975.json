@@ -1,0 +1,139 @@
+{
+ "id": "KHM_30_1975",
+ "drop": [
+  [
+   105,
+   105,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  11,
+  14,
+  16,
+  18,
+  23,
+  25,
+  30,
+  36,
+  38,
+  40,
+  42,
+  46,
+  50,
+  53,
+  56,
+  62,
+  66,
+  73,
+  77,
+  81,
+  84,
+  88,
+  90,
+  93,
+  98,
+  99,
+  102,
+  104
+ ],
+ "cer": [
+  3,
+  98,
+  104
+ ],
+ "fix": [
+  [
+   1,
+   "anti- national",
+   "anti-national",
+   "hyphen"
+  ],
+  [
+   2,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   19,
+   "neo-colonialists,",
+   "neo-colonialists.",
+   "ocr"
+  ],
+  [
+   46,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   49,
+   "of.non- aligned",
+   "of non-aligned",
+   "ocr"
+  ],
+  [
+   78,
+   "imperialism, That",
+   "imperialism. That",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b063e7c621ca6bc21f4fa69ba5b148372a704edb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {
+   "language_note": 1,
+   "paragraph_number": 79
+  },
+  "words_in": 4196,
+  "words_out": 4162,
+  "retention": 0.9919,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   167,
+   208,
+   139,
+   78,
+   149,
+   107,
+   158,
+   78,
+   193,
+   176,
+   102,
+   109,
+   75,
+   134,
+   120,
+   107,
+   96,
+   210,
+   144,
+   205,
+   147,
+   202,
+   108,
+   128,
+   90,
+   108,
+   237,
+   65,
+   126,
+   106,
+   90
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "JOR_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   5,
+   5,
+   "noise"
+  ],
+  [
+   100,
+   100,
+   "noise"
+  ],
+  [
+   152,
+   152,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  6,
+  18,
+  27,
+  35,
+  42,
+  53,
+  62,
+  76,
+  84,
+  94,
+  101,
+  113,
+  123,
+  133,
+  140
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   4,
+   " Mr. President, Mr. Secretary General, All right.",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "turched",
+   "torched",
+   "asr_term"
+  ],
+  [
+   75,
+   "war cry",
+   "war crime",
+   "asr_term"
+  ],
+  [
+   130,
+   "dichotics",
+   "narcotics",
+   "asr_term"
+  ],
+  [
+   135,
+   "Anrua",
+   "UNRWA",
+   "asr_name"
+  ],
+  [
+   107,
+   "where they can,",
+   "where they began,",
+   "asr_term"
+  ],
+  [
+   25,
+   "just Just",
+   "just",
+   "asr_term"
+  ],
+  [
+   4,
+   "President Trump,",
+   "Bismillah ar-Rahman ar-Rahim.",
+   "asr_term"
+  ],
+  [
+   19,
+   "elsewhere. disparity,",
+   "elsewhere. Economic disparity,",
+   "asr_term"
+  ],
+  [
+   118,
+   "ambiguity. here.",
+   "ambiguity.",
+   "asr_term"
+  ],
+  [
+   137,
+   "model. open",
+   "model. Principled, open",
+   "asr_term"
+  ],
+  [
+   147,
+   "enforced. that",
+   "enforced. Destroy that",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 4 invocation per main agent's audio re-decode (Spanish 'En nombre de Dios, el compasivo misericordioso'), its duplicate salutation and walk-up chatter removed; Spanish 'crimen de guerra', 'narcotráfico', 'UNRRA'. Main-agent audio check: unit 107 'resolutions end where they can, on paper' -> 'where they began': re-decodes hear 'where they be can' (p 0.38-0.53 / 0.86-0.91), the syllables of 'began'; Spanish 'terminan donde empiezan, en el papel'. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 25 'just Just' -> 'just'. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 4 'President Trump,' -> 'Bismillah ar-Rahman ar-Rahim.' (kept: the King says the basmala in Arabic at 00:46-00:48, before 'Mr. President' (Arabic re-decodes p 0.76-1.00; an English re-decode 'In the name of Allah, the Most Gracious, the Most Merciful'); 'President Trump' was invented over the walk to the podium). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 19 'elsewhere. disparity,' -> 'elsewhere. Disparity,'; unit 118 'ambiguity. here.' -> 'ambiguity here.'; unit 137 'model. open' -> 'model. Open'; unit 147 'enforced. that' -> 'enforced. That'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 19 'elsewhere. disparity,' -> 'elsewhere. Economic disparity,' (2026 exception: both decodes hear 'Economic' clearly (0.97 / 0.99); ES 'La disparidad económica'; old is the existing repair's old); spot 6 unit 118 'ambiguity. here.' -> 'ambiguity.' (stray word at a segment boundary: both decodes and three re-decodes from 925/926/927 s go 'ambiguity. Any threat' (0.98-1.00) with no 'here'; ES 'no hay ambigüedad alguna. Cualquier amenaza'; old is the existing repair's old); spot 8 unit 137 'model. open' -> 'model. Principled, open' (2026 exception: both decodes hear 'Principled,' clearly (0.91 / 0.93); ES 'un modelo diferente de principios, abierto, firme'; old is the existing repair's old; the comma belongs to the restored word (if the tool refuses it, 'Principled open' without the comma)); spot 10 unit 147 'enforced. that' -> 'enforced. Destroy that' (2026 exception: both decodes hear 'Destroy' clearly (0.99 / 0.99); ES 'Si se destruye esa confianza'; old is the existing repair's old)",
+ "unitizer_version": 1,
+ "sha1": "be47b33a1a4439d6a3db000344f6bedcd09978e1",
+ "layout": "single",
+ "stats": {
+  "n_units": 153,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 4
+  },
+  "prestrip": {},
+  "words_in": 1890,
+  "words_out": 1813,
+  "retention": 0.9593,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   3,
+   161,
+   132,
+   112,
+   110,
+   102,
+   76,
+   167,
+   78,
+   124,
+   80,
+   119,
+   138,
+   138,
+   129,
+   144
+  ],
+  "warnings": []
+ }
+}

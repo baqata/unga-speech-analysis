@@ -1,0 +1,49 @@
+{
+ "id": "AUT_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  31,
+  51,
+  60,
+  69,
+  84,
+  100,
+  114,
+  132,
+  149
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dee588713cb742d6299a6e02ac3f8c61daa37eb5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1304,
+  "words_out": 1299,
+  "retention": 0.9962,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   125,
+   135,
+   156,
+   70,
+   67,
+   107,
+   130,
+   112,
+   156,
+   132,
+   109
+  ],
+  "warnings": []
+ }
+}

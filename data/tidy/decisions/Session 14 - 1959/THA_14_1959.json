@@ -1,0 +1,85 @@
+{
+ "id": "THA_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  20,
+  25,
+  29,
+  35,
+  41,
+  45,
+  51,
+  54,
+  60,
+  65,
+  68,
+  71
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "problems.,",
+   "problems,",
+   "ocr"
+  ],
+  [
+   43,
+   "have Seen",
+   "have seen",
+   "ocr"
+  ],
+  [
+   61,
+   "who. preceded",
+   "who preceded",
+   "ocr"
+  ],
+  [
+   70,
+   "will Require",
+   "will require",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e48120efa2cb4ad3f7be34007cfe99a4bbdc7828",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 16
+  },
+  "words_in": 2598,
+  "words_out": 2594,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   214,
+   175,
+   213,
+   152,
+   149,
+   162,
+   159,
+   189,
+   147,
+   197,
+   85,
+   190,
+   229,
+   114,
+   109,
+   110
+  ],
+  "warnings": []
+ }
+}

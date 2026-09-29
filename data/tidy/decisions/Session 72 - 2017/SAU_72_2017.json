@@ -1,0 +1,46 @@
+{
+ "id": "SAU_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  16,
+  21,
+  28,
+  31,
+  34
+ ],
+ "cer": [
+  0,
+  34
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "220776f14bf73b25c528080be9fb50fa42f69222",
+ "layout": "lines",
+ "stats": {
+  "n_units": 35,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 999,
+  "words_out": 999,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   54,
+   91,
+   88,
+   192,
+   150,
+   166,
+   114,
+   122,
+   22
+  ],
+  "warnings": []
+ }
+}

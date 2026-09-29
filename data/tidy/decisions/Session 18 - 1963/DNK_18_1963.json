@@ -1,0 +1,92 @@
+{
+ "id": "DNK_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  13,
+  21,
+  29,
+  35,
+  49,
+  53,
+  63,
+  72,
+  79,
+  82,
+  90,
+  96,
+  105,
+  112,
+  122,
+  129,
+  135,
+  145,
+  154,
+  160
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "Secretaries- General",
+   "Secretaries-General",
+   "spacing"
+  ],
+  [
+   80,
+   "various.no",
+   "various, no",
+   "ocr"
+  ],
+  [
+   80,
+   "well- intentioned",
+   "well-intentioned",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e74fe764514869b5f3233c1b1e56aefa9bb54076",
+ "layout": "lines",
+ "stats": {
+  "n_units": 164,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 3384,
+  "words_out": 3346,
+  "retention": 0.9888,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   92,
+   150,
+   157,
+   125,
+   84,
+   289,
+   90,
+   146,
+   181,
+   171,
+   70,
+   249,
+   143,
+   128,
+   222,
+   173,
+   138,
+   119,
+   234,
+   180,
+   97,
+   108
+  ],
+  "warnings": []
+ }
+}

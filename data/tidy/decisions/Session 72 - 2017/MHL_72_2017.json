@@ -1,0 +1,94 @@
+{
+ "id": "MHL_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  13,
+  18,
+  24,
+  26,
+  28,
+  33,
+  36,
+  40,
+  42,
+  47,
+  53,
+  59,
+  65,
+  68,
+  75
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   15,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   26,
+   "Nuclear- Ban",
+   "Nuclear-Ban",
+   "hyphen"
+  ],
+  [
+   51,
+   "17-29813 11/28 ",
+   "",
+   "label"
+  ],
+  [
+   52,
+   "itwith",
+   "it with",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d49c504dbf84642b2da62a9a6e985023433d4456",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2093,
+  "words_out": 2089,
+  "retention": 0.9981,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   133,
+   162,
+   81,
+   139,
+   132,
+   84,
+   73,
+   102,
+   66,
+   90,
+   102,
+   134,
+   139,
+   129,
+   157,
+   99,
+   187,
+   80
+  ],
+  "warnings": []
+ }
+}

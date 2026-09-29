@@ -1,0 +1,94 @@
+{
+ "id": "COG_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  15,
+  17,
+  25,
+  29,
+  37,
+  44,
+  46,
+  49,
+  55,
+  59,
+  64,
+  69,
+  73,
+  76,
+  81
+ ],
+ "cer": [],
+ "fix": [
+  [
+   30,
+   "2C megawatts",
+   "20 megawatts",
+   "ocr"
+  ],
+  [
+   42,
+   "most perforce",
+   "must perforce",
+   "ocr"
+  ],
+  [
+   53,
+   "unverving",
+   "unswerving",
+   "ocr"
+  ],
+  [
+   66,
+   "I should lie to",
+   "I should like to",
+   "ocr"
+  ],
+  [
+   78,
+   "have'",
+   "have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d8e170f588e510f04c344c2476f12ae77458d01",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 35
+  },
+  "words_in": 2207,
+  "words_out": 2205,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   160,
+   146,
+   114,
+   142,
+   146,
+   97,
+   208,
+   151,
+   65,
+   92,
+   156,
+   80,
+   112,
+   111,
+   118,
+   98,
+   141,
+   68
+  ],
+  "warnings": []
+ }
+}

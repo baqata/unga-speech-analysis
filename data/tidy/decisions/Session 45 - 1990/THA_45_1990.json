@@ -1,0 +1,94 @@
+{
+ "id": "THA_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  11,
+  13,
+  16,
+  22,
+  34,
+  36,
+  40,
+  47,
+  52,
+  58,
+  61,
+  66,
+  72,
+  75,
+  79
+ ],
+ "cer": [
+  0,
+  75,
+  79
+ ],
+ "fix": [
+  [
+   23,
+   "oviduct",
+   "evident",
+   "ocr"
+  ],
+  [
+   27,
+   "(ASSAM)",
+   "(ASEAN)",
+   "ocr"
+  ],
+  [
+   45,
+   "(SMC)",
+   "(SNC)",
+   "ocr"
+  ],
+  [
+   47,
+   "SMC",
+   "SNC",
+   "ocr"
+  ],
+  [
+   50,
+   "SHC",
+   "SNC",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa55b8dc225f5284a2cbd54654e6f6d92c07eb56",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1693,
+  "words_out": 1693,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   58,
+   180,
+   77,
+   77,
+   107,
+   181,
+   56,
+   97,
+   142,
+   135,
+   143,
+   66,
+   82,
+   122,
+   80,
+   47,
+   43
+  ],
+  "warnings": []
+ }
+}

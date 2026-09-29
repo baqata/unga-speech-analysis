@@ -1,0 +1,181 @@
+{
+ "id": "TUN_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   96,
+   96,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  7,
+  9,
+  13,
+  16,
+  22,
+  30,
+  34,
+  38,
+  42,
+  46,
+  50,
+  52,
+  57,
+  61,
+  68,
+  72,
+  75,
+  79,
+  83,
+  88,
+  93,
+  94
+ ],
+ "cer": [
+  1,
+  2,
+  94
+ ],
+ "fix": [
+  [
+   1,
+   "Cut ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Khalil al-Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   24,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   45,
+   "for most",
+   "foremost",
+   "merged_word"
+  ],
+  [
+   67,
+   "Komeysa",
+   "COMESA",
+   "asr_name"
+  ],
+  [
+   79,
+   "Khay Said",
+   "Kais Saied",
+   "asr_name"
+  ],
+  [
+   45,
+   "Tunisia Tunisia",
+   "Tunisia",
+   "asr_term"
+  ],
+  [
+   50,
+   "preserving the crisis.",
+   "preserving",
+   "asr_term"
+  ],
+  [
+   30,
+   "the the",
+   "the",
+   "asr_term"
+  ],
+  [
+   18,
+   "Charter. particularly",
+   "Charter particularly",
+   "asr_term"
+  ],
+  [
+   5,
+   "crisis",
+   "crises",
+   "asr_term"
+  ],
+  [
+   10,
+   "prompt",
+   "prompts",
+   "asr_term"
+  ],
+  [
+   16,
+   "Confidence",
+   "Restoring confidence",
+   "asr_term"
+  ],
+  [
+   69,
+   "face. does",
+   "face. Equality does",
+   "asr_term"
+  ],
+  [
+   72,
+   "networks. approach",
+   "networks. Such an approach",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish confirms ONU 80 and comeza (COMESA); PGA Khalilur Rahman and President Kais Saied per official sources. Main-agent audit (re-decoding): unit 45 'Tunisia' decoded twice across a segment boundary, re-decodes hear it once; unit 50 'the crisis.' was invented at the end of a 30 s segment: re-decodes hear 'parties preserving Libya's unity, sovereignty, territorial integrity' (Spanish 'que preserve la unidad y soberanía de Libia'), which unit 51 continues. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 30 'the the' -> 'the'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 18 'Charter. particularly' -> 'Charter particularly'; unit 69 'face. does' -> 'face. Does'; unit 72 'networks. approach' -> 'networks. Approach'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 5 'crisis' -> 'crises' (both decodes hear 'crises' (0.58 / 0.87); 'faced ... unprecedented global crisis' lacks an article and fits only as a plural; UN 'crises'); spot 3 unit 10 'prompt' -> 'prompts' (decodes 'prompt' only 0.54 / 0.68, the final -s merging with 'us'; 'This prompt us to ask' does not fit; ES 'esto nos lleva a preguntarnos'); spot 4 unit 16 'Confidence' -> 'Restoring confidence' (2026 exception: both decodes hear 'Restoring' clearly (0.99 / 1.00); ES 'Restaurar la confianza en la organización'); spot 11 unit 69 'face. does' -> 'face. Equality does' (2026 exception: both decodes hear 'Equality' clearly (0.97 / 0.99); ES 'La igualdad no significa'; replaces the existing repair 'face. does' -> 'face. Does'); spot 12 unit 72 'networks. approach' -> 'networks. Such an approach' (2026 exception: both decodes hear 'Such an' clearly (0.99-1.00); ES renders the subject 'Esto exige cooperación, solidaridad'; replaces the existing repair 'networks. approach' -> 'networks. Approach')",
+ "unitizer_version": 1,
+ "sha1": "87d6df0857f1d6a06773e5042fce0592e2088bbe",
+ "layout": "single",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 3166,
+  "words_out": 3129,
+  "retention": 0.9883,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   17,
+   159,
+   97,
+   81,
+   86,
+   197,
+   179,
+   182,
+   170,
+   118,
+   103,
+   160,
+   80,
+   106,
+   109,
+   198,
+   125,
+   179,
+   188,
+   166,
+   166,
+   180,
+   66,
+   17
+  ],
+  "warnings": []
+ }
+}

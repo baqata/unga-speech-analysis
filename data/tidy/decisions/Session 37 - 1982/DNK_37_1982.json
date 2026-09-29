@@ -1,0 +1,119 @@
+{
+ "id": "DNK_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  57,
+  68,
+  90,
+  100,
+  113,
+  126,
+  141,
+  161,
+  172,
+  187,
+  210,
+  229,
+  239,
+  251
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [
+  [
+   1,
+   "Genera Assembly",
+   "General Assembly",
+   "ocr"
+  ],
+  [
+   6,
+   "Seventy-seventh",
+   "thirty-seventh",
+   "ocr"
+  ],
+  [
+   9,
+   "en so",
+   "on so",
+   "ocr"
+  ],
+  [
+   18,
+   "committee, to",
+   "commitment to",
+   "ocr"
+  ],
+  [
+   123,
+   "East- West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   128,
+   "die Charter",
+   "the Charter",
+   "ocr"
+  ],
+  [
+   181,
+   "intermediate- range",
+   "intermediate-range",
+   "spacing"
+  ],
+  [
+   192,
+   "Cower",
+   "lower",
+   "ocr"
+  ],
+  [
+   194,
+   "H73",
+   "1973",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "truncated_end"
+ ],
+ "note": "Text stops after the Lebanon passage of the European Community statement, without a closing.",
+ "unitizer_version": 1,
+ "sha1": "b0570094fd74cce3c7456fc69c27435dd8c1401b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1861,
+  "words_out": 1837,
+  "retention": 0.9871,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   71,
+   118,
+   190,
+   82,
+   153,
+   73,
+   99,
+   80,
+   102,
+   143,
+   80,
+   104,
+   152,
+   135,
+   72,
+   85,
+   98
+  ],
+  "warnings": []
+ }
+}

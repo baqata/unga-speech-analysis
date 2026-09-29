@@ -1,0 +1,54 @@
+{
+ "id": "NGA_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  18,
+  44,
+  62,
+  81,
+  92,
+  119,
+  139,
+  150,
+  160,
+  170
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ff2c851ae1496749ebca31f3052935bf6c239c44",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1527,
+  "words_out": 1525,
+  "retention": 0.9987,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   99,
+   50,
+   202,
+   147,
+   145,
+   80,
+   231,
+   188,
+   91,
+   89,
+   85,
+   118
+  ],
+  "warnings": []
+ }
+}

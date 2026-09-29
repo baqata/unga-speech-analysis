@@ -1,0 +1,217 @@
+{
+ "id": "GHA_28_1973",
+ "drop": [
+  [
+   68,
+   68,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  11,
+  15,
+  20,
+  24,
+  29,
+  35,
+  36,
+  39,
+  43,
+  49,
+  54,
+  62,
+  65,
+  70,
+  76,
+  83,
+  89,
+  97,
+  102,
+  108,
+  116,
+  119,
+  126,
+  128,
+  135,
+  138,
+  144,
+  147,
+  151,
+  154,
+  160,
+  167,
+  173,
+  177,
+  183,
+  190,
+  195,
+  197,
+  208,
+  212,
+  218,
+  224,
+  231
+ ],
+ "cer": [
+  0,
+  2,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   6,
+   "net lacking",
+   "not lacking",
+   "ocr"
+  ],
+  [
+   8,
+   " [A/9001]",
+   "",
+   "label"
+  ],
+  [
+   35,
+   "c f the",
+   "of the",
+   "ocr"
+  ],
+  [
+   36,
+   "ever- widening",
+   "ever-widening",
+   "spacing"
+  ],
+  [
+   59,
+   "19721",
+   "1972",
+   "ocr"
+  ],
+  [
+   65,
+   "high- water",
+   "high-water",
+   "spacing"
+  ],
+  [
+   83,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ],
+  [
+   112,
+   "Tightness",
+   "rightness",
+   "ocr"
+  ],
+  [
+   115,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "what-4he",
+   "what the",
+   "ocr"
+  ],
+  [
+   151,
+   "all- embracing",
+   "all-embracing",
+   "spacing"
+  ],
+  [
+   212,
+   " [A/9141-DC/236]",
+   "",
+   "label"
+  ],
+  [
+   177,
+   " [resolution 2775 D (XXVI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "be588e679a340e1f09305228527bcc5d9f333a54",
+ "layout": "lines",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 61
+  },
+  "words_in": 6164,
+  "words_out": 6139,
+  "retention": 0.9959,
+  "n_paragraphs": 46,
+  "paragraph_words": [
+   83,
+   99,
+   115,
+   127,
+   164,
+   70,
+   128,
+   142,
+   68,
+   120,
+   149,
+   157,
+   143,
+   142,
+   140,
+   84,
+   117,
+   174,
+   171,
+   238,
+   162,
+   130,
+   243,
+   85,
+   133,
+   79,
+   137,
+   78,
+   141,
+   78,
+   132,
+   60,
+   162,
+   119,
+   183,
+   91,
+   197,
+   199,
+   137,
+   80,
+   179,
+   70,
+   168,
+   187,
+   205,
+   73
+  ],
+  "warnings": []
+ }
+}

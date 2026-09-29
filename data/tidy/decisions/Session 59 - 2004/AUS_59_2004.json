@@ -1,0 +1,55 @@
+{
+ "id": "AUS_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  27,
+  48,
+  66,
+  91,
+  109,
+  124,
+  152,
+  167,
+  191,
+  204,
+  222
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59004a32dc72b1148b214fd276e97bb17576e3c6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1874,
+  "words_out": 1868,
+  "retention": 0.9968,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   51,
+   157,
+   188,
+   134,
+   195,
+   142,
+   119,
+   208,
+   116,
+   186,
+   93,
+   137,
+   142
+  ],
+  "warnings": []
+ }
+}

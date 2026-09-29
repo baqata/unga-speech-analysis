@@ -1,0 +1,118 @@
+{
+ "id": "IRQ_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  14,
+  17,
+  21,
+  25,
+  27,
+  30,
+  34,
+  39,
+  42,
+  46,
+  48,
+  53,
+  58,
+  63,
+  68,
+  72,
+  74
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "closely;",
+   "closely,",
+   "ocr"
+  ],
+  [
+   22,
+   "Eighteen- Nation",
+   "Eighteen-Nation",
+   "hyphen"
+  ],
+  [
+   45,
+   "any, collective",
+   "any collective",
+   "ocr"
+  ],
+  [
+   45,
+   "consequences,",
+   "consequences.",
+   "ocr"
+  ],
+  [
+   49,
+   "crountry",
+   "country",
+   "ocr"
+  ],
+  [
+   61,
+   "[A/&763, sect.",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "I.]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "to’ give",
+   "to give",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "42f9a5e90a8470dbd9398c82dae982c308d4fa34",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2075,
+  "words_out": 2063,
+  "retention": 0.9942,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   65,
+   141,
+   138,
+   79,
+   101,
+   85,
+   78,
+   86,
+   100,
+   128,
+   86,
+   128,
+   61,
+   113,
+   121,
+   116,
+   168,
+   145,
+   79,
+   45
+  ],
+  "warnings": []
+ }
+}

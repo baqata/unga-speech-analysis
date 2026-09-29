@@ -1,0 +1,82 @@
+{
+ "id": "NOR_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  20,
+  30,
+  38,
+  48,
+  60,
+  70,
+  78,
+  93,
+  106,
+  114,
+  122,
+  132,
+  150,
+  170,
+  182,
+  195,
+  203,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   " (Official Records of the General Assembly,",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "First Session, Plenary Meetings, 22nd meeting, p. 326",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59e5c2a7e4d7d644d9fc37961fee280ff1af5cb6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 221,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1797,
+  "words_out": 1784,
+  "retention": 0.9928,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   54,
+   94,
+   93,
+   70,
+   72,
+   94,
+   74,
+   56,
+   117,
+   108,
+   62,
+   69,
+   83,
+   147,
+   158,
+   96,
+   116,
+   67,
+   81,
+   73
+  ],
+  "warnings": []
+ }
+}

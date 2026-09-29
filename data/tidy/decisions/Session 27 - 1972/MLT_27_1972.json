@@ -1,0 +1,140 @@
+{
+ "id": "MLT_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  16,
+  22,
+  26,
+  28,
+  31,
+  33,
+  39,
+  42,
+  45,
+  50,
+  55,
+  58,
+  65,
+  68,
+  71,
+  74,
+  76,
+  79,
+  81,
+  87,
+  91,
+  95,
+  99,
+  102,
+  107,
+  111
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   10,
+   "the' world",
+   "the world",
+   "ocr"
+  ],
+  [
+   16,
+   "'And yet",
+   "And yet",
+   "ocr"
+  ],
+  [
+   29,
+   "^during",
+   "during",
+   "ocr"
+  ],
+  [
+   41,
+   "long- suffering",
+   "long-suffering",
+   "spacing"
+  ],
+  [
+   79,
+   " [item 89]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   " [item 92J",
+   "",
+   "label"
+  ],
+  [
+   88,
+   "ever}'",
+   "every",
+   "ocr"
+  ],
+  [
+   106,
+   "tine south",
+   "the south",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cad82df1517ac6b31251e8bc93035c299bbcba4b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 31
+  },
+  "words_in": 3936,
+  "words_out": 3927,
+  "retention": 0.9977,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   152,
+   67,
+   88,
+   248,
+   175,
+   200,
+   87,
+   96,
+   66,
+   212,
+   121,
+   149,
+   130,
+   130,
+   154,
+   168,
+   86,
+   59,
+   94,
+   94,
+   129,
+   57,
+   140,
+   117,
+   154,
+   131,
+   167,
+   209,
+   132,
+   115
+  ],
+  "warnings": []
+ }
+}

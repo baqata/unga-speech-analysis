@@ -1,0 +1,101 @@
+{
+ "id": "PAK_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  14,
+  18,
+  21,
+  29,
+  33,
+  36,
+  50,
+  55,
+  61,
+  65,
+  69,
+  81,
+  85,
+  88,
+  91,
+  97,
+  100,
+  108,
+  114,
+  120,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   26,
+   "contribute folly",
+   "contribute fully",
+   "ocr"
+  ],
+  [
+   44,
+   "which, lead",
+   "which lead",
+   "ocr"
+  ],
+  [
+   65,
+   "47.",
+   "",
+   "label"
+  ],
+  [
+   125,
+   "the; hope",
+   "the hope",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db9044daabc898f8d9e4adb6426742e4e7b283dd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 24
+  },
+  "words_in": 3302,
+  "words_out": 3301,
+  "retention": 0.9997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   88,
+   204,
+   113,
+   97,
+   212,
+   116,
+   74,
+   287,
+   103,
+   194,
+   110,
+   81,
+   261,
+   75,
+   69,
+   79,
+   115,
+   109,
+   206,
+   164,
+   179,
+   102,
+   263
+  ],
+  "warnings": []
+ }
+}

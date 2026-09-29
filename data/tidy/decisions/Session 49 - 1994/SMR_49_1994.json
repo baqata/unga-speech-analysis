@@ -1,0 +1,70 @@
+{
+ "id": "SMR_49_1994",
+ "drop": [
+  [
+   18,
+   18,
+   "header_footer"
+  ],
+  [
+   110,
+   110,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  19,
+  29,
+  43,
+  51,
+  60,
+  73,
+  85,
+  111,
+  119,
+  127,
+  139,
+  155,
+  170
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3ac3e3d0d39dc533b410be5dcd959b1133847301",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 181,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1547,
+  "words_out": 1538,
+  "retention": 0.9942,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   59,
+   87,
+   90,
+   123,
+   74,
+   79,
+   113,
+   100,
+   206,
+   65,
+   73,
+   106,
+   139,
+   124,
+   100
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "BGD_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  8,
+  11,
+  13,
+  16,
+  19,
+  21,
+  24,
+  28,
+  31,
+  39,
+  46,
+  52,
+  54,
+  56,
+  60,
+  65,
+  68,
+  70
+ ],
+ "cer": [
+  0,
+  2,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   2,
+   "wannest",
+   "warmest",
+   "ocr"
+  ],
+  [
+   34,
+   "roofed",
+   "rooted",
+   "ocr"
+  ],
+  [
+   53,
+   "witH",
+   "with",
+   "ocr"
+  ],
+  [
+   53,
+   "by ail",
+   "by all",
+   "ocr"
+  ],
+  [
+   15,
+   " [OPEC]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "38329c50d8c235dc7fa228d4439ec925fe8dfe4d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 2194,
+  "words_out": 2193,
+  "retention": 0.9995,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   52,
+   57,
+   59,
+   51,
+   62,
+   87,
+   109,
+   104,
+   83,
+   125,
+   137,
+   78,
+   158,
+   168,
+   149,
+   69,
+   77,
+   126,
+   167,
+   88,
+   72,
+   115
+  ],
+  "warnings": []
+ }
+}

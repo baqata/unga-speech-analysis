@@ -1,0 +1,47 @@
+{
+ "id": "UZB_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  19,
+  28,
+  40,
+  67,
+  84,
+  96,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c96effc276b7b14988a609e1764aa3e0cbbbf0c4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 136,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1029,
+  "words_out": 1029,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   33,
+   102,
+   64,
+   96,
+   202,
+   131,
+   99,
+   102,
+   200
+  ],
+  "warnings": []
+ }
+}

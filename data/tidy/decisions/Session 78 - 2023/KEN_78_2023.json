@@ -1,0 +1,202 @@
+{
+ "id": "KEN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  14,
+  18,
+  19,
+  22,
+  28,
+  32,
+  40,
+  46,
+  50,
+  54,
+  57,
+  65,
+  68,
+  69,
+  76,
+  79,
+  86,
+  87,
+  92
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "address. our",
+   "address, our",
+   "ocr"
+  ],
+  [
+   10,
+   "dysfunctional. undemocratic. non-inclusive. unrepresentative",
+   "dysfunctional, undemocratic, non-inclusive, unrepresentative",
+   "ocr"
+  ],
+  [
+   14,
+   "A year ago.",
+   "A year ago,",
+   "ocr"
+  ],
+  [
+   15,
+   "(see A/77/ PV.6)",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "and. indeed",
+   "and, indeed",
+   "ocr"
+  ],
+  [
+   23,
+   "For example.",
+   "For example,",
+   "ocr"
+  ],
+  [
+   24,
+   "2022. the",
+   "2022, the",
+   "ocr"
+  ],
+  [
+   25,
+   "(EAC). concluded",
+   "(EAC), concluded",
+   "ocr"
+  ],
+  [
+   26,
+   "day. the",
+   "day, the",
+   "ocr"
+  ],
+  [
+   37,
+   "far. and",
+   "far, and",
+   "ocr"
+  ],
+  [
+   48,
+   "aid. supporting",
+   "aid, supporting",
+   "ocr"
+  ],
+  [
+   55,
+   "yet. at",
+   "yet, at",
+   "ocr"
+  ],
+  [
+   56,
+   "Summit. we",
+   "Summit, we",
+   "ocr"
+  ],
+  [
+   59,
+   "Annually.",
+   "Annually,",
+   "ocr"
+  ],
+  [
+   61,
+   "2023. while",
+   "2023, while",
+   "ocr"
+  ],
+  [
+   75,
+   "10- year",
+   "10-year",
+   "hyphen"
+  ],
+  [
+   81,
+   "ago. which",
+   "ago, which",
+   "ocr"
+  ],
+  [
+   81,
+   "day. and",
+   "day, and",
+   "ocr"
+  ],
+  [
+   82,
+   "wrong then.",
+   "wrong then,",
+   "ocr"
+  ],
+  [
+   86,
+   "tax. in",
+   "tax, in",
+   "ocr"
+  ],
+  [
+   93,
+   "and. finally",
+   "and, finally",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f4e2218357efaaaaf83c1bf22ad9080d5fc304cc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2604,
+  "words_out": 2600,
+  "retention": 0.9985,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   140,
+   80,
+   110,
+   125,
+   137,
+   65,
+   80,
+   101,
+   132,
+   160,
+   119,
+   124,
+   119,
+   83,
+   126,
+   77,
+   75,
+   172,
+   92,
+   190,
+   68,
+   121,
+   104
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

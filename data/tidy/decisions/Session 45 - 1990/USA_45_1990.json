@@ -1,0 +1,104 @@
+{
+ "id": "USA_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  18,
+  23,
+  27,
+  38,
+  43,
+  47,
+  54,
+  58,
+  62,
+  65,
+  71,
+  75,
+  79,
+  84,
+  87,
+  94,
+  97,
+  100,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "choose s life",
+   "choose a life",
+   "ocr"
+  ],
+  [
+   17,
+   "longer he frozen",
+   "longer be frozen",
+   "ocr"
+  ],
+  [
+   62,
+   "thing o£",
+   "thing of",
+   "encoding"
+  ],
+  [
+   69,
+   "world9s",
+   "world's",
+   "encoding"
+  ],
+  [
+   86,
+   "How, in this",
+   "Now, in this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0252dae01f2f3ff53541544acf9dd4607ab7d7da",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2766,
+  "words_out": 2766,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   91,
+   148,
+   151,
+   229,
+   92,
+   104,
+   140,
+   84,
+   116,
+   135,
+   140,
+   64,
+   139,
+   193,
+   122,
+   64,
+   125,
+   69,
+   107,
+   69,
+   91,
+   136,
+   157
+  ],
+  "warnings": []
+ }
+}

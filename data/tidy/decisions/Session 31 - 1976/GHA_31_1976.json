@@ -1,0 +1,173 @@
+{
+ "id": "GHA_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  20,
+  23,
+  26,
+  30,
+  36,
+  40,
+  43,
+  48,
+  53,
+  57,
+  59,
+  64,
+  67,
+  70,
+  73,
+  76,
+  79,
+  83,
+  86,
+  92,
+  98,
+  107,
+  113,
+  119,
+  122,
+  127,
+  130
+ ],
+ "cer": [
+  0,
+  6,
+  9,
+  13
+ ],
+ "fix": [
+  [
+   5,
+   "third- world",
+   "third-world",
+   "spacing"
+  ],
+  [
+   11,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   25,
+   "UNIT A13",
+   "UNITA",
+   "ocr"
+  ],
+  [
+   52,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "demand tor human",
+   "demand for human",
+   "ocr"
+  ],
+  [
+   71,
+   "the.fervent",
+   "the fervent",
+   "ocr"
+  ],
+  [
+   93,
+   "the >very",
+   "the very",
+   "ocr"
+  ],
+  [
+   108,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   115,
+   "through-out",
+   "throughout",
+   "hyphen"
+  ],
+  [
+   116,
+   " [resolution 2626 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   122,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   124,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   128,
+   "self- reliance",
+   "self-reliance",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "29f940087bbc87e28e10b51d60ef6e8e829b59b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 4549,
+  "words_out": 4542,
+  "retention": 0.9985,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   156,
+   101,
+   144,
+   162,
+   91,
+   124,
+   127,
+   158,
+   118,
+   162,
+   269,
+   243,
+   232,
+   92,
+   132,
+   95,
+   118,
+   85,
+   150,
+   113,
+   166,
+   77,
+   159,
+   126,
+   259,
+   152,
+   140,
+   105,
+   211,
+   117,
+   158
+  ],
+  "warnings": []
+ }
+}

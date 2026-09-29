@@ -1,0 +1,47 @@
+{
+ "id": "BRN_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  32,
+  41,
+  58,
+  76,
+  94,
+  105,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a40e7493f84f6ae36c96c4d382b02c317937f5a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1185,
+  "words_out": 1183,
+  "retention": 0.9983,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   172,
+   97,
+   75,
+   154,
+   143,
+   160,
+   102,
+   148,
+   132
+  ],
+  "warnings": []
+ }
+}

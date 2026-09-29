@@ -1,0 +1,136 @@
+{
+ "id": "THA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  16,
+  23,
+  31,
+  37,
+  41,
+  46,
+  52,
+  57,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "ago. with",
+   "ago, with",
+   "ocr"
+  ],
+  [
+   9,
+   "regard.",
+   "regard,",
+   "ocr"
+  ],
+  [
+   10,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   15,
+   "long- lasting",
+   "long-lasting",
+   "hyphen"
+  ],
+  [
+   17,
+   "end. the",
+   "end, the",
+   "ocr"
+  ],
+  [
+   23,
+   "2002.",
+   "2002,",
+   "ocr"
+  ],
+  [
+   32,
+   "Yet. achieving",
+   "Yet, achieving",
+   "ocr"
+  ],
+  [
+   37,
+   "years.",
+   "years,",
+   "ocr"
+  ],
+  [
+   49,
+   "end.",
+   "end,",
+   "ocr"
+  ],
+  [
+   53,
+   "products.",
+   "products,",
+   "ocr"
+  ],
+  [
+   59,
+   "part.",
+   "part,",
+   "ocr"
+  ],
+  [
+   60,
+   "2040. carbon",
+   "2040, carbon",
+   "ocr"
+  ],
+  [
+   60,
+   "2050. and",
+   "2050, and",
+   "ocr"
+  ],
+  [
+   65,
+   "such.",
+   "such,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cfae9cc51c4449498e4e9e8a768023236bae2a9b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1311,
+  "words_out": 1309,
+  "retention": 0.9985,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   30,
+   96,
+   201,
+   127,
+   161,
+   115,
+   65,
+   102,
+   86,
+   76,
+   126,
+   124
+  ],
+  "warnings": []
+ }
+}

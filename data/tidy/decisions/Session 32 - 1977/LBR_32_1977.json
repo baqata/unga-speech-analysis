@@ -1,0 +1,157 @@
+{
+ "id": "LBR_32_1977",
+ "drop": [
+  [
+   48,
+   48,
+   "header_footer"
+  ],
+  [
+   52,
+   52,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  8,
+  11,
+  13,
+  15,
+  19,
+  21,
+  22,
+  25,
+  26,
+  28,
+  32,
+  36,
+  39,
+  42,
+  44,
+  49,
+  53,
+  59,
+  66,
+  70,
+  71,
+  74
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   30,
+   "community, must",
+   "community must",
+   "ocr"
+  ],
+  [
+   33,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ],
+  [
+   36,
+   "385(1976)",
+   "385 (1976)",
+   "spacing"
+  ],
+  [
+   41,
+   "to- bringing",
+   "to bringing",
+   "ocr"
+  ],
+  [
+   45,
+   "no peace'\"",
+   "no peace\"",
+   "ocr"
+  ],
+  [
+   46,
+   "1967 war\";",
+   "1967 war;",
+   "ocr"
+  ],
+  [
+   50,
+   "that \"Conference",
+   "that Conference",
+   "ocr"
+  ],
+  [
+   66,
+   "was' dedicated",
+   "was dedicated",
+   "ocr"
+  ],
+  [
+   68,
+   "trans- regional",
+   "trans-regional",
+   "hyphen"
+  ],
+  [
+   69,
+   "organi7ations",
+   "organizations",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89bb3169179f52cb6e792a7202736e80683ed5b4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 2719,
+  "words_out": 2716,
+  "retention": 0.9989,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   80,
+   30,
+   64,
+   187,
+   135,
+   68,
+   88,
+   155,
+   89,
+   94,
+   89,
+   35,
+   85,
+   86,
+   136,
+   98,
+   105,
+   46,
+   151,
+   101,
+   170,
+   192,
+   174,
+   61,
+   86,
+   111
+  ],
+  "warnings": []
+ }
+}

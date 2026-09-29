@@ -1,0 +1,83 @@
+{
+ "id": "CAN_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  41,
+  62,
+  83,
+  103,
+  115,
+  133,
+  153,
+  174,
+  193,
+  205,
+  221,
+  245,
+  259
+ ],
+ "cer": [],
+ "fix": [
+  [
+   86,
+   "Statesí",
+   "States’",
+   "encoding"
+  ],
+  [
+   139,
+   "Programmeís",
+   "Programme’s",
+   "encoding"
+  ],
+  [
+   191,
+   "countryís",
+   "country’s",
+   "encoding"
+  ],
+  [
+   224,
+   "Generalís",
+   "General’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4921924955654d9a96da9721fc7a6ab527f9f159",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 4,
+   "page_number": 3
+  },
+  "words_in": 2059,
+  "words_out": 2055,
+  "retention": 0.9981,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   174,
+   138,
+   168,
+   175,
+   141,
+   92,
+   132,
+   154,
+   163,
+   155,
+   92,
+   129,
+   178,
+   104,
+   60
+  ],
+  "warnings": []
+ }
+}

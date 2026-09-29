@@ -1,0 +1,68 @@
+{
+ "id": "LBY_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  17,
+  23,
+  28,
+  32,
+  37,
+  46,
+  50,
+  56,
+  63,
+  66
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   38,
+   " [1012 (XI)]",
+   "",
+   "label"
+  ],
+  [
+   58,
+   "Israel ref used",
+   "Israel refused",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f3cb7daa4e8b2374df26517e44d3552d7fe7a692",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1504,
+  "words_out": 1501,
+  "retention": 0.998,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   211,
+   142,
+   76,
+   111,
+   132,
+   110,
+   94,
+   143,
+   90,
+   130,
+   150,
+   79,
+   33
+  ],
+  "warnings": []
+ }
+}

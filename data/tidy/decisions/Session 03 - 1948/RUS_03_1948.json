@@ -1,0 +1,217 @@
+{
+ "id": "RUS_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  14,
+  20,
+  25,
+  27,
+  30,
+  32,
+  38,
+  42,
+  46,
+  53,
+  59,
+  65,
+  71,
+  74,
+  78,
+  85,
+  88,
+  93,
+  99,
+  109,
+  112,
+  116,
+  121,
+  126,
+  132,
+  136,
+  145,
+  150,
+  154,
+  157,
+  160,
+  166,
+  173,
+  177,
+  182,
+  192
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   " (84th meeting)",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "Charter, Even",
+   "Charter. Even",
+   "ocr"
+  ],
+  [
+   40,
+   "Security, Council",
+   "Security Council",
+   "ocr"
+  ],
+  [
+   41,
+   "not. only",
+   "not only",
+   "ocr"
+  ],
+  [
+   41,
+   " (A/C.l/ SC.9/1)",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "well- known",
+   "well-known",
+   "hyphen"
+  ],
+  [
+   85,
+   "weapons - were",
+   "weapons were",
+   "ocr"
+  ],
+  [
+   86,
+   "through out",
+   "throughout",
+   "split_word"
+  ],
+  [
+   109,
+   "military- political",
+   "military-political",
+   "hyphen"
+  ],
+  [
+   124,
+   "other band",
+   "other hand",
+   "ocr"
+  ],
+  [
+   148,
+   "Anglo- American",
+   "Anglo-American",
+   "hyphen"
+  ],
+  [
+   149,
+   "peace- mongers",
+   "peace-mongers",
+   "hyphen"
+  ],
+  [
+   165,
+   "caned",
+   "called",
+   "ocr"
+  ],
+  [
+   170,
+   "1948- 1949",
+   "1948-1949",
+   "hyphen"
+  ],
+  [
+   172,
+   "Five- Year",
+   "Five-Year",
+   "hyphen"
+  ],
+  [
+   176,
+   "lend- lease",
+   "lend-lease",
+   "hyphen"
+  ],
+  [
+   189,
+   "Chin«,",
+   "China,",
+   "ocr"
+  ],
+  [
+   191,
+   "armaments end armed",
+   "armaments and armed",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected",
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person; unit 66 breaks off mid-sentence; the proposed draft resolution, one sentence with its lead-in, stays in one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "9ebc39838bf1e61c78f618085d13a8f57eea0e73",
+ "layout": "lines",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 6888,
+  "words_out": 6873,
+  "retention": 0.9978,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   129,
+   246,
+   311,
+   263,
+   199,
+   129,
+   145,
+   82,
+   280,
+   207,
+   106,
+   263,
+   202,
+   223,
+   233,
+   149,
+   147,
+   217,
+   104,
+   176,
+   112,
+   249,
+   123,
+   112,
+   133,
+   179,
+   172,
+   132,
+   208,
+   170,
+   82,
+   89,
+   141,
+   179,
+   232,
+   153,
+   194,
+   353,
+   49
+  ],
+  "warnings": [
+   "paragraph at unit 182 has 353 words"
+  ]
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "id": "ZMB_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  13,
+  19,
+  24,
+  32,
+  35,
+  38,
+  47,
+  52,
+  58,
+  65,
+  73,
+  79,
+  90,
+  96,
+  100
+ ],
+ "cer": [
+  1,
+  100
+ ],
+ "fix": [
+  [
+   1,
+   "Annalena Birbock",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   4,
+   "Hagaende Hijelema",
+   "Hakainde Hichilema",
+   "asr_name"
+  ],
+  [
+   20,
+   "The UN-AT Initiative",
+   "The UN80 Initiative",
+   "asr_name"
+  ],
+  [
+   29,
+   "Hagahinde Higelema",
+   "Hakainde Hichilema",
+   "asr_name"
+  ],
+  [
+   82,
+   "Hageinde Higelema",
+   "Hakainde Hichilema",
+   "asr_name"
+  ],
+  [
+   83,
+   "the AWASA Program",
+   "the Awaza Program",
+   "asr_name"
+  ],
+  [
+   84,
+   "the AWASA's call",
+   "the Awaza's call",
+   "asr_name"
+  ],
+  [
+   88,
+   "and SEEDs must",
+   "and SIDS must",
+   "asr_term"
+  ],
+  [
+   94,
+   "El Zulwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   94,
+   "CETA",
+   "Sirte",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "The final 'Thank you.' (unit 101) has no presider line around it and is kept with the closing.",
+ "unitizer_version": 1,
+ "sha1": "2102de331e47c44ea941f0a4e273222257464544",
+ "layout": "single",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 2052,
+  "words_out": 2032,
+  "retention": 0.9903,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   80,
+   190,
+   108,
+   118,
+   148,
+   72,
+   83,
+   216,
+   96,
+   93,
+   136,
+   155,
+   123,
+   196,
+   130,
+   79,
+   9
+  ],
+  "warnings": []
+ }
+}

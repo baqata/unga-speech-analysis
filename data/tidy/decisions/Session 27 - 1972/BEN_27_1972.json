@@ -1,0 +1,90 @@
+{
+ "id": "BEN_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  8,
+  14,
+  19,
+  25,
+  28,
+  33,
+  36,
+  41,
+  46,
+  49,
+  51,
+  53,
+  58,
+  63,
+  65,
+  68,
+  71,
+  75
+ ],
+ "cer": [
+  0,
+  7,
+  8
+ ],
+ "fix": [
+  [
+   3,
+   " 13",
+   "",
+   "label"
+  ],
+  [
+   14,
+   "one or our planet",
+   "one of our planet",
+   "ocr"
+  ],
+  [
+   20,
+   "Tightness",
+   "rightness",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e3b22d72b294c11b0f2921b6753e9851e4531f42",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2835,
+  "words_out": 2834,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   300,
+   31,
+   157,
+   253,
+   209,
+   116,
+   197,
+   113,
+   185,
+   190,
+   100,
+   70,
+   96,
+   143,
+   151,
+   78,
+   90,
+   133,
+   187,
+   35
+  ],
+  "warnings": []
+ }
+}

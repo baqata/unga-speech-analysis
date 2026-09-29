@@ -1,0 +1,54 @@
+{
+ "id": "KGZ_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  27,
+  44,
+  59,
+  69,
+  88
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "ourselves us to",
+   "ourselves to",
+   "ocr"
+  ],
+  [
+   65,
+   "Mazarbayev",
+   "Nazarbayev",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b5e9745893964362f98a868ac881a37853e9c31",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 972,
+  "words_out": 970,
+  "retention": 0.9979,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   79,
+   205,
+   162,
+   157,
+   98,
+   202,
+   67
+  ],
+  "warnings": []
+ }
+}

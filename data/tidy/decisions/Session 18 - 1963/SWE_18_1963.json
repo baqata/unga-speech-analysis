@@ -1,0 +1,135 @@
+{
+ "id": "SWE_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  16,
+  20,
+  21,
+  24,
+  27,
+  31,
+  37,
+  42,
+  45,
+  48,
+  53,
+  57,
+  64,
+  68,
+  75,
+  78,
+  81,
+  87,
+  91,
+  94,
+  97,
+  101,
+  106,
+  111,
+  120,
+  126,
+  131,
+  133
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "realism,",
+   "realism.",
+   "ocr"
+  ],
+  [
+   44,
+   "\" learn by doing\"",
+   "\"learn by doing\"",
+   "spacing"
+  ],
+  [
+   63,
+   "by Baying",
+   "by saying",
+   "ocr"
+  ],
+  [
+   63,
+   "disarmament problem,",
+   "disarmament problem.",
+   "ocr"
+  ],
+  [
+   64,
+   "armaments\", The",
+   "armaments\". The",
+   "ocr"
+  ],
+  [
+   128,
+   "South Africa, In other",
+   "South Africa. In other",
+   "ocr"
+  ],
+  [
+   131,
+   "democracy, I am",
+   "democracy. I am",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ffacc35f8cbef6bba6aaaca7e9cd8af59794bca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 139,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 34
+  },
+  "words_in": 3748,
+  "words_out": 3743,
+  "retention": 0.9987,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   117,
+   98,
+   83,
+   102,
+   150,
+   72,
+   63,
+   87,
+   125,
+   159,
+   134,
+   99,
+   84,
+   106,
+   144,
+   243,
+   107,
+   175,
+   68,
+   80,
+   186,
+   80,
+   70,
+   81,
+   113,
+   123,
+   82,
+   232,
+   135,
+   135,
+   74,
+   136
+  ],
+  "warnings": []
+ }
+}

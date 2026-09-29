@@ -1,0 +1,55 @@
+{
+ "id": "MCO_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  41,
+  58,
+  77,
+  89,
+  109,
+  123,
+  148,
+  165,
+  181,
+  207,
+  223
+ ],
+ "cer": [
+  223
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3925f9f60140f290b24ed0e9f2cb834c43cb16ad",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1768,
+  "words_out": 1765,
+  "retention": 0.9983,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   140,
+   208,
+   125,
+   159,
+   90,
+   132,
+   112,
+   188,
+   136,
+   124,
+   197,
+   121,
+   33
+  ],
+  "warnings": []
+ }
+}

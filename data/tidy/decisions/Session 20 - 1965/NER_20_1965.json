@@ -1,0 +1,75 @@
+{
+ "id": "NER_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  14,
+  24,
+  28,
+  34,
+  44,
+  51,
+  54,
+  63,
+  67,
+  76,
+  84,
+  92,
+  100,
+  103
+ ],
+ "cer": [
+  0,
+  24
+ ],
+ "fix": [
+  [
+   21,
+   "attitude simple means",
+   "attitude simply means",
+   "ocr"
+  ],
+  [
+   42,
+   "Bantu, Then",
+   "Bantu. Then",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c344296fb6271261443603218d20b5370997bea8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2748,
+  "words_out": 2721,
+  "retention": 0.9902,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   198,
+   164,
+   195,
+   76,
+   203,
+   275,
+   170,
+   72,
+   247,
+   97,
+   222,
+   205,
+   218,
+   151,
+   97,
+   131
+  ],
+  "warnings": []
+ }
+}

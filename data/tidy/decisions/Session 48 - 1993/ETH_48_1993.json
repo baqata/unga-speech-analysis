@@ -1,0 +1,97 @@
+{
+ "id": "ETH_48_1993",
+ "drop": [
+  [
+   9,
+   9,
+   "header_footer"
+  ],
+  [
+   106,
+   106,
+   "header_footer"
+  ],
+  [
+   193,
+   193,
+   "header_footer"
+  ],
+  [
+   289,
+   289,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  15,
+  25,
+  37,
+  65,
+  75,
+  91,
+  112,
+  137,
+  149,
+  161,
+  170,
+  186,
+  194,
+  207,
+  217,
+  241,
+  252,
+  270,
+  284,
+  300,
+  312
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4f174ce7511586ed8bd9f58bd1498e08545c9003",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 326,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {},
+  "words_in": 2789,
+  "words_out": 2762,
+  "retention": 0.9903,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   29,
+   93,
+   83,
+   107,
+   255,
+   70,
+   152,
+   191,
+   198,
+   106,
+   102,
+   74,
+   138,
+   61,
+   126,
+   77,
+   202,
+   83,
+   144,
+   118,
+   126,
+   110,
+   117
+  ],
+  "warnings": []
+ }
+}

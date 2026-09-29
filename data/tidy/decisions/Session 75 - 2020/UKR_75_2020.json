@@ -1,0 +1,72 @@
+{
+ "id": "UKR_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  16,
+  20,
+  25,
+  30,
+  34,
+  40,
+  44,
+  48,
+  52,
+  56,
+  63,
+  68,
+  71,
+  75
+ ],
+ "cer": [
+  0,
+  2,
+  75
+ ],
+ "fix": [
+  [
+   50,
+   "markets,stock",
+   "markets, stock",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "096bede45447bab6514cc365a4811f0b6eae152e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1712,
+  "words_out": 1713,
+  "retention": 1.0006,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   8,
+   80,
+   83,
+   111,
+   100,
+   156,
+   113,
+   67,
+   96,
+   159,
+   92,
+   109,
+   87,
+   168,
+   89,
+   68,
+   123,
+   4
+  ],
+  "warnings": []
+ }
+}

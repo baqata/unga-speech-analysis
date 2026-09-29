@@ -1,0 +1,94 @@
+{
+ "id": "DNK_64_2009",
+ "drop": [
+  [
+   224,
+   224,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  19,
+  42,
+  56,
+  72,
+  95,
+  115,
+  127,
+  141,
+  155,
+  169,
+  187,
+  200,
+  225
+ ],
+ "cer": [],
+ "fix": [
+  [
+   101,
+   "(see",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "S/PV.6191)",
+   "",
+   "label"
+  ],
+  [
+   110,
+   "People’ s",
+   "People’s",
+   "spacing"
+  ],
+  [
+   201,
+   "women’ s",
+   "women’s",
+   "spacing"
+  ],
+  [
+   222,
+   "Organization’ s",
+   "Organization’s",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c43ae4acc502dc55a74b7f243b23075647ddecf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 239,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1885,
+  "words_out": 1873,
+  "retention": 0.9936,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   158,
+   186,
+   116,
+   122,
+   175,
+   151,
+   104,
+   103,
+   116,
+   119,
+   138,
+   99,
+   183,
+   103
+  ],
+  "warnings": []
+ }
+}

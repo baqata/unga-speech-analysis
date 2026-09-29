@@ -1,0 +1,62 @@
+{
+ "id": "BGR_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  30,
+  40,
+  60,
+  73,
+  96,
+  105,
+  124,
+  134,
+  146,
+  158,
+  172,
+  190,
+  209,
+  219
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d75c0ac55814cf92bf4cfaa968c9269599d5cd88",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 2,
+   "job_number": 2
+  },
+  "words_in": 1730,
+  "words_out": 1728,
+  "retention": 0.9988,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   139,
+   109,
+   84,
+   153,
+   93,
+   169,
+   59,
+   127,
+   73,
+   82,
+   91,
+   122,
+   141,
+   137,
+   82,
+   67
+  ],
+  "warnings": []
+ }
+}

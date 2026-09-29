@@ -1,0 +1,65 @@
+{
+ "id": "OMN_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  15,
+  21,
+  23,
+  26,
+  29,
+  34,
+  37,
+  41,
+  43,
+  44
+ ],
+ "cer": [
+  0,
+  2,
+  43,
+  44
+ ],
+ "fix": [
+  [
+   15,
+   "A1 Said",
+   "Al Said",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a1cecbcb7cb4151b143a7c6e535c9ca8bb3c68e8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1137,
+  "words_out": 1137,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   15,
+   86,
+   82,
+   139,
+   135,
+   116,
+   86,
+   117,
+   103,
+   63,
+   93,
+   50,
+   42,
+   10
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "SEN_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  15,
+  19,
+  23,
+  30,
+  36,
+  40,
+  44,
+  45,
+  48
+ ],
+ "cer": [
+  0,
+  48
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f1baaeb58c1874629e7a1a00e2c722daf23cf791",
+ "layout": "lines",
+ "stats": {
+  "n_units": 49,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1273,
+  "words_out": 1273,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   52,
+   124,
+   100,
+   80,
+   115,
+   97,
+   147,
+   140,
+   119,
+   136,
+   62,
+   91,
+   10
+  ],
+  "warnings": []
+ }
+}

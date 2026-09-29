@@ -1,0 +1,128 @@
+{
+ "id": "QAT_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  5,
+  11,
+  13,
+  15,
+  16,
+  17,
+  20,
+  23,
+  29,
+  30,
+  38,
+  44,
+  48,
+  52,
+  56,
+  64
+ ],
+ "cer": [
+  0,
+  3,
+  4
+ ],
+ "fix": [
+  [
+   7,
+   "terrorism end degradation",
+   "terrorism and degradation",
+   "ocr"
+  ],
+  [
+   11,
+   "Palestine, We strongly",
+   "Palestine. We strongly",
+   "ocr"
+  ],
+  [
+   12,
+   "people's Insistence",
+   "people's insistence",
+   "ocr"
+  ],
+  [
+   16,
+   "o£ Palestine",
+   "of Palestine",
+   "ocr"
+  ],
+  [
+   20,
+   "(FLO)",
+   "(PLO)",
+   "ocr"
+  ],
+  [
+   35,
+   "co unity",
+   "community",
+   "split_word"
+  ],
+  [
+   36,
+   "foe Namibia's",
+   "for Namibia's",
+   "ocr"
+  ],
+  [
+   42,
+   "within ready",
+   "within reach",
+   "ocr"
+  ],
+  [
+   44,
+   "Another Important",
+   "Another important",
+   "ocr"
+  ],
+  [
+   49,
+   "of Innocent people",
+   "of innocent people",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ab47e7481b520fda17c3fec0b584ffb20ff2bf6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1910,
+  "words_out": 1909,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   89,
+   28,
+   35,
+   199,
+   119,
+   72,
+   66,
+   68,
+   70,
+   107,
+   198,
+   40,
+   195,
+   121,
+   66,
+   99,
+   78,
+   167,
+   92
+  ],
+  "warnings": []
+ }
+}

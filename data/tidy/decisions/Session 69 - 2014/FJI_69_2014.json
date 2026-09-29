@@ -1,0 +1,76 @@
+{
+ "id": "FJI_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  24,
+  46,
+  62,
+  75,
+  88,
+  102,
+  115,
+  125,
+  144,
+  161,
+  170,
+  179,
+  188,
+  210,
+  227
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   100,
+   "1",
+   "I",
+   "ocr"
+  ],
+  [
+   159,
+   "Yudhoyno",
+   "Yudhoyono",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5ff22e5a27bd1398c3fb410e2aa34b349707469e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2058,
+  "words_out": 2057,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   63,
+   144,
+   198,
+   147,
+   119,
+   123,
+   133,
+   110,
+   84,
+   187,
+   131,
+   74,
+   78,
+   88,
+   187,
+   133,
+   58
+  ],
+  "warnings": []
+ }
+}

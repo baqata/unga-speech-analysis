@@ -1,0 +1,57 @@
+{
+ "id": "KOR_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  30,
+  50,
+  72,
+  96,
+  117,
+  136,
+  152,
+  167,
+  190,
+  212,
+  238,
+  256
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b410f040f57c993f3058757ce4766bf4b7eb6f08",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2080,
+  "words_out": 2075,
+  "retention": 0.9976,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   74,
+   155,
+   154,
+   171,
+   203,
+   167,
+   141,
+   126,
+   125,
+   157,
+   159,
+   203,
+   137,
+   103
+  ],
+  "warnings": []
+ }
+}

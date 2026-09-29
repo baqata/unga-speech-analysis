@@ -1,0 +1,70 @@
+{
+ "id": "AZE_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  29,
+  59,
+  79,
+  106,
+  129,
+  139,
+  161,
+  173,
+  189
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   71,
+   "(see )",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "(resolutions 822 (1993), 853 (1993) 874",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "(1993) and 884 (1993))",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "67c28277439f1760a2d82638b7795c317735d8f5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 208,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1526,
+  "words_out": 1513,
+  "retention": 0.9915,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   77,
+   132,
+   205,
+   148,
+   201,
+   170,
+   76,
+   160,
+   84,
+   115,
+   145
+  ],
+  "warnings": []
+ }
+}

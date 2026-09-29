@@ -1,0 +1,53 @@
+{
+ "id": "FIN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  20,
+  31,
+  45,
+  59,
+  71,
+  83,
+  98,
+  112,
+  125,
+  137
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd749fbd763c77b7d072a7f5a8121cc6cac1db8e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1158,
+  "words_out": 1157,
+  "retention": 0.9991,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   27,
+   126,
+   83,
+   110,
+   109,
+   97,
+   91,
+   122,
+   112,
+   100,
+   86,
+   94
+  ],
+  "warnings": []
+ }
+}

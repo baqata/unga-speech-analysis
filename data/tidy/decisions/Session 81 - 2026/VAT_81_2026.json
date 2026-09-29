@@ -1,0 +1,224 @@
+{
+ "id": "VAT_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   3,
+   "noise"
+  ],
+  [
+   92,
+   92,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  6,
+  11,
+  14,
+  26,
+  33,
+  39,
+  44,
+  47,
+  52,
+  57,
+  61,
+  65,
+  71,
+  76,
+  79,
+  84,
+  91
+ ],
+ "cer": [
+  4,
+  91
+ ],
+ "fix": [
+  [
+   12,
+   "At the earth",
+   "At the heart",
+   "asr_term"
+  ],
+  [
+   14,
+   "Poblio",
+   "Pope Leo",
+   "asr_name"
+  ],
+  [
+   23,
+   "worse settings",
+   "war settings",
+   "asr_term"
+  ],
+  [
+   52,
+   "Olysee",
+   "Holy See",
+   "asr_name"
+  ],
+  [
+   53,
+   "anger",
+   "hunger",
+   "asr_term"
+  ],
+  [
+   57,
+   "state-eldenedness",
+   "statelessness",
+   "asr_term"
+  ],
+  [
+   58,
+   "fragrant",
+   "flagrant",
+   "asr_term"
+  ],
+  [
+   61,
+   "Syri news is",
+   "See renews its",
+   "asr_name"
+  ],
+  [
+   66,
+   "generally",
+   "generously",
+   "asr_term"
+  ],
+  [
+   67,
+   "protected",
+   "protracted",
+   "asr_term"
+  ],
+  [
+   70,
+   "the Turk",
+   "Ituri",
+   "asr_name"
+  ],
+  [
+   74,
+   "Cabo del Gado",
+   "Cabo Delgado",
+   "asr_name"
+  ],
+  [
+   86,
+   "design",
+   "disarm",
+   "asr_term"
+  ],
+  [
+   58,
+   "rights. in",
+   "rights in",
+   "asr_term"
+  ],
+  [
+   6,
+   "However, this",
+   "this",
+   "asr_term"
+  ],
+  [
+   23,
+   "retracing tracing",
+   "retracing",
+   "asr_term"
+  ],
+  [
+   57,
+   "90",
+   "nine",
+   "asr_term"
+  ],
+  [
+   61,
+   "affected",
+   "affecting",
+   "asr_term"
+  ],
+  [
+   68,
+   "call",
+   "calls",
+   "asr_term"
+  ],
+  [
+   78,
+   "sweeter",
+   "swift",
+   "asr_term"
+  ],
+  [
+   81,
+   "call in calls",
+   "calls",
+   "asr_term"
+  ],
+  [
+   81,
+   "upon that those",
+   "upon those",
+   "asr_term"
+  ],
+  [
+   81,
+   "I us",
+   "as",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 2-3 invented during the walk to the podium; repairs per Spanish (Papa Leon, contextos de guerra, hambre, apatridia, renueva su llamado, generosamente, prolongada, Ituri, Cabo Delgado, rapida, desarmar); unit 57 '90 years' vs Spanish 'nueve anos' left for audio check. Main-agent audit: unit 57 '90 years' kept as heard (three re-decodes '90' p 0.81-0.93); the Spanish booth has 'nueve anos'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 58 'rights. in' -> 'rights in'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 6 'However, this' -> 'this' (invented word: both decodes and a re-decode (probe_kw at 90 / 91.5 s) go 'order, this year's' with no 'However'; ES lacks it; published text (press.vatican.va) 'international order, this year's theme'); spot 5 unit 23 'retracing tracing' -> 'retracing' (repeated word: both decodes hear 'retracing and reconstructing' with nothing between (0.98 / 0.97); ES 'rastreo y reconstrucción'; published 'retracing and reconstructing'); spot 9 unit 57 '90' -> 'nine' (unsure resolved: the audio is not settled: the decodes' '90' (0.92 / 0.71; re-decodes 0.82 to 0.87) is favoured by the numeral token, but spelled out 'ninety' and 'nine' are only 1.1 nats apart; the UN transcript hears 'nine', the Spanish channel 'más de nueve años', the published text (press.vatican.va) 'more than nine years', and the Rohingya crisis dates from 2017); spot 11 unit 61 'affected' -> 'affecting' (decodes 'affected' 0.86 / 0.40, not clear; 'violence affected the most defenseless' does not fit; ES 'que afecta'; published 'indiscriminate violence affecting the most defenseless'); spot 16 unit 68 'call' -> 'calls' (both decodes hear 'calls' (0.99 / 0.95); subject 'The Holy See' needs 'calls'); spot 18 unit 78 'sweeter' -> 'swift' (decodes 'sweeter' 0.50 / 'sweet' 0.40, unclear; ES 'una recuperación rápida'; published 'a swift recovery'; the existing repair 'swifter' is not what the text says; old is the existing repair's old); spot 20 unit 81 'call in calls' -> 'calls' (false start not heard: both decodes go 'and calls upon' (0.83 / 0.98) with nothing before 'calls'; ES 'e insta'; published 'and calls upon'); spot 21 unit 81 'upon that those' -> 'upon those' (invented word: both decodes hear 'upon those' (0.98 / 0.99, 0.91 / 0.94) with no 'that'; ES 'insta a los responsables'); spot 22 unit 81 'I us' -> 'as' (both decodes hear 'so as to avoid' (0.99 / 1.00); 'so I us to avoid' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "bd4b19c3e2168dbc8c2f5533ae191b4d3bcbfec0",
+ "layout": "single",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2297,
+  "words_out": 2216,
+  "retention": 0.9647,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   75,
+   101,
+   67,
+   192,
+   148,
+   157,
+   97,
+   88,
+   154,
+   146,
+   77,
+   122,
+   189,
+   129,
+   120,
+   186,
+   166,
+   2
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

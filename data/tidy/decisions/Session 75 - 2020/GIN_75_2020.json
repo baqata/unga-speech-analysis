@@ -1,0 +1,50 @@
+{
+ "id": "GIN_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  14,
+  16,
+  19,
+  22,
+  27,
+  30
+ ],
+ "cer": [
+  0,
+  2,
+  5,
+  30
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9948486992f08c42fef229aeae89aa5c14494b4e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 31,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 903,
+  "words_out": 903,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   20,
+   90,
+   149,
+   109,
+   95,
+   111,
+   107,
+   136,
+   84,
+   2
+  ],
+  "warnings": []
+ }
+}

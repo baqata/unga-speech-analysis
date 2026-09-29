@@ -1,0 +1,94 @@
+{
+ "id": "KHM_48_1993",
+ "drop": [
+  [
+   69,
+   69,
+   "header_footer"
+  ],
+  [
+   157,
+   157,
+   "header_footer"
+  ],
+  [
+   247,
+   247,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  16,
+  27,
+  46,
+  56,
+  70,
+  82,
+  105,
+  124,
+  149,
+  167,
+  182,
+  202,
+  218,
+  242,
+  251,
+  261,
+  270,
+  282,
+  294
+ ],
+ "cer": [
+  0,
+  8,
+  16,
+  27,
+  46,
+  282
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d3c2780374bbdf7f58275a310bf1713175bda55e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 302,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "language_note": 2
+  },
+  "words_in": 2484,
+  "words_out": 2463,
+  "retention": 0.9915,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   65,
+   71,
+   89,
+   159,
+   87,
+   102,
+   107,
+   188,
+   169,
+   167,
+   144,
+   123,
+   148,
+   138,
+   215,
+   67,
+   83,
+   73,
+   98,
+   100,
+   70
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "NIC_48_1993",
+ "drop": [
+  [
+   12,
+   12,
+   "header_footer"
+  ],
+  [
+   103,
+   103,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  21,
+  36,
+  52,
+  67,
+  79,
+  93,
+  107,
+  120,
+  130,
+  143,
+  158,
+  171,
+  184
+ ],
+ "cer": [
+  0,
+  107
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "648c58218c59e159ff9319e1f8a14e4f5fdd2a1f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 1667,
+  "words_out": 1654,
+  "retention": 0.9922,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   30,
+   130,
+   139,
+   134,
+   131,
+   104,
+   130,
+   110,
+   101,
+   80,
+   106,
+   131,
+   112,
+   117,
+   99
+  ],
+  "warnings": []
+ }
+}

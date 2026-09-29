@@ -1,0 +1,72 @@
+{
+ "id": "BRN_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  15,
+  20,
+  26,
+  30,
+  34,
+  40,
+  43,
+  49
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "а",
+   "a",
+   "encoding"
+  ],
+  [
+   9,
+   "near",
+   "year",
+   "ocr"
+  ],
+  [
+   35,
+   "latest or which",
+   "latest of which",
+   "ocr"
+  ],
+  [
+   41,
+   "а",
+   "a",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "795d823c136fb1f324ad67a23878ec2bb411a418",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1073,
+  "words_out": 1072,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   126,
+   165,
+   102,
+   110,
+   61,
+   99,
+   119,
+   100,
+   100,
+   90
+  ],
+  "warnings": []
+ }
+}

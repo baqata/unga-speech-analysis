@@ -1,0 +1,96 @@
+{
+ "id": "IRL_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  14,
+  17,
+  20,
+  26,
+  32,
+  40,
+  42,
+  46,
+  48,
+  56,
+  58,
+  62,
+  68,
+  75
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Independent",
+   "independent",
+   "ocr"
+  ],
+  [
+   6,
+   "affairs, I warmly",
+   "affairs. I warmly",
+   "ocr"
+  ],
+  [
+   6,
+   "Power s",
+   "Powers",
+   "ocr"
+  ],
+  [
+   15,
+   "eases",
+   "cases",
+   "ocr"
+  ],
+  [
+   22,
+   "acting- in",
+   "acting in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7a5ad856be66fadce28b2bcf99d743594c41639d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 2961,
+  "words_out": 2959,
+  "retention": 0.9993,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   135,
+   199,
+   242,
+   134,
+   109,
+   255,
+   173,
+   240,
+   124,
+   150,
+   119,
+   247,
+   102,
+   112,
+   185,
+   231,
+   202
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "id": "PLW_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   83,
+   84,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  7,
+  11,
+  16,
+  20,
+  28,
+  31,
+  38,
+  45,
+  52,
+  56,
+  64,
+  72,
+  76
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   4,
+   "Ali,",
+   "Alii,",
+   "asr_term"
+  ],
+  [
+   5,
+   "Antonio Gutierrez",
+   "Antonio Guterres",
+   "asr_name"
+  ],
+  [
+   11,
+   "exhilarated",
+   "accelerated",
+   "asr_term"
+  ],
+  [
+   14,
+   "UBBB",
+   "UBPP",
+   "asr_name"
+  ],
+  [
+   19,
+   "EOSIS",
+   "AOSIS",
+   "asr_name"
+  ],
+  [
+   40,
+   "Manabara",
+   "Manubada",
+   "asr_name"
+  ],
+  [
+   82,
+   "Msulam",
+   "Mesulang",
+   "asr_term"
+  ],
+  [
+   26,
+   "SIDS. climate",
+   "SIDS. Climate",
+   "asr_term"
+  ],
+  [
+   61,
+   "conflict. seek",
+   "conflict. Seek",
+   "asr_term"
+  ],
+  [
+   75,
+   "mobilize. even",
+   "mobilize even",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Manubada Call to Action (PRETMM6, PINA/Scoop May 2026; Spanish 'Manubada'); Palau chairs AOSIS 2025-2026 (aosis.org); 'Alii' greeting and 'Mesulang' Palauan thanks as used by President Whipps (forumsec.org remarks); 11 Spanish 'Han acelerado'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 26 'SIDS. climate' -> 'SIDS. Climate'; unit 61 'conflict. seek' -> 'conflict. Seek'; unit 75 'mobilize. even' -> 'mobilize even'",
+ "unitizer_version": 1,
+ "sha1": "829f6308e77f1bfa14fd20ad8459e2c1bf545299",
+ "layout": "single",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1649,
+  "words_out": 1594,
+  "retention": 0.9666,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   74,
+   112,
+   143,
+   110,
+   153,
+   63,
+   133,
+   111,
+   81,
+   135,
+   149,
+   143,
+   80,
+   107
+  ],
+  "warnings": []
+ }
+}

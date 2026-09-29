@@ -1,0 +1,254 @@
+{
+ "id": "SGP_33_1978",
+ "drop": [
+  [
+   11,
+   11,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  10,
+  16,
+  21,
+  26,
+  31,
+  36,
+  43,
+  49,
+  53,
+  57,
+  62,
+  65,
+  69,
+  74,
+  77,
+  83,
+  86,
+  92,
+  98,
+  102,
+  106,
+  109,
+  111,
+  116,
+  120,
+  125,
+  128,
+  135,
+  136,
+  141
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "We ..welcome",
+   "We welcome",
+   "ocr"
+  ],
+  [
+   12,
+   "2",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "Gramsci, and Italian",
+   "Gramsci, an Italian",
+   "ocr"
+  ],
+  [
+   22,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   30,
+   "to\" be",
+   "to be",
+   "ocr"
+  ],
+  [
+   35,
+   "Second World War,",
+   "Second World War.",
+   "ocr"
+  ],
+  [
+   49,
+   "food output,",
+   "food output.",
+   "ocr"
+  ],
+  [
+   56,
+   "energy- intensive",
+   "energy-intensive",
+   "spacing"
+  ],
+  [
+   62,
+   "growth\" simultaneously",
+   "growth simultaneously",
+   "ocr"
+  ],
+  [
+   66,
+   "\"So what? \" he said",
+   "\"So what?\" he said",
+   "ocr"
+  ],
+  [
+   67,
+   "for me? \" Gun technology",
+   "for me?\" Our technology",
+   "ocr"
+  ],
+  [
+   68,
+   "sine and mercury",
+   "zinc and mercury",
+   "ocr"
+  ],
+  [
+   68,
+   "most of us; The",
+   "most of us. The",
+   "ocr"
+  ],
+  [
+   71,
+   "consumer k a",
+   "consumer in a",
+   "ocr"
+  ],
+  [
+   73,
+   "For & start",
+   "For a start",
+   "ocr"
+  ],
+  [
+   87,
+   "one- fifth",
+   "one-fifth",
+   "spacing"
+  ],
+  [
+   91,
+   "the sea, Given",
+   "the sea. Given",
+   "ocr"
+  ],
+  [
+   91,
+   "fanning stage",
+   "farming stage",
+   "ocr"
+  ],
+  [
+   115,
+   "ever- accumulating",
+   "ever-accumulating",
+   "spacing"
+  ],
+  [
+   119,
+   "policies, must",
+   "policies must",
+   "ocr"
+  ],
+  [
+   120,
+   "counter- forces",
+   "counter-forces",
+   "spacing"
+  ],
+  [
+   128,
+   "hut in practice",
+   "but in practice",
+   "ocr"
+  ],
+  [
+   131,
+   "1 take",
+   "I take",
+   "ocr"
+  ],
+  [
+   132,
+   "from u society",
+   "from a society",
+   "ocr"
+  ],
+  [
+   136,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8f4574ba98d6d784c3ed1b9a7f1929425478c609",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 3513,
+  "words_out": 3472,
+  "retention": 0.9883,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   45,
+   190,
+   135,
+   125,
+   167,
+   95,
+   133,
+   168,
+   121,
+   90,
+   108,
+   120,
+   57,
+   161,
+   104,
+   60,
+   117,
+   87,
+   131,
+   123,
+   119,
+   91,
+   93,
+   69,
+   89,
+   118,
+   106,
+   86,
+   143,
+   65,
+   111,
+   45
+  ],
+  "warnings": [
+   "25 fixes"
+  ]
+ }
+}

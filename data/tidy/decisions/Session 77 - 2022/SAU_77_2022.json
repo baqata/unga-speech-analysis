@@ -1,0 +1,70 @@
+{
+ "id": "SAU_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  11,
+  14,
+  16,
+  19,
+  22,
+  25,
+  29,
+  33,
+  38,
+  41,
+  43,
+  48,
+  52,
+  57
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "Russia- Ukraine",
+   "Russia-Ukraine",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c72745f2a5c8ff0be9716c9788345a480a26391",
+ "layout": "lines",
+ "stats": {
+  "n_units": 58,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1843,
+  "words_out": 1842,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   77,
+   95,
+   108,
+   115,
+   126,
+   64,
+   112,
+   115,
+   92,
+   116,
+   95,
+   147,
+   97,
+   92,
+   110,
+   108,
+   139,
+   34
+  ],
+  "warnings": []
+ }
+}

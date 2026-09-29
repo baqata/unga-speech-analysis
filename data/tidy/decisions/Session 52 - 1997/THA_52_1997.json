@@ -1,0 +1,74 @@
+{
+ "id": "THA_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  22,
+  47,
+  64,
+  73,
+  83,
+  93,
+  110,
+  123,
+  135,
+  147,
+  165,
+  175,
+  193,
+  206,
+  215,
+  232,
+  250
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   189,
+   "$l billion",
+   "$1 billion",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "275e93e60aa808347276e7bfbf712ad1b94923d6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2195,
+  "words_out": 2194,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   89,
+   95,
+   210,
+   145,
+   74,
+   74,
+   74,
+   135,
+   101,
+   93,
+   101,
+   135,
+   85,
+   145,
+   112,
+   80,
+   156,
+   149,
+   141
+  ],
+  "warnings": []
+ }
+}

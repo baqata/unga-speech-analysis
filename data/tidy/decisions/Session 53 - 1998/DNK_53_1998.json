@@ -1,0 +1,93 @@
+{
+ "id": "DNK_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  26,
+  52,
+  68,
+  92,
+  102,
+  118,
+  137,
+  157,
+  173,
+  186,
+  197,
+  212,
+  226,
+  249,
+  257,
+  276
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   120,
+   "Indiaâs",
+   "India’s",
+   "encoding"
+  ],
+  [
+   143,
+   "communityâs",
+   "community’s",
+   "encoding"
+  ],
+  [
+   164,
+   "Todayâs",
+   "Today’s",
+   "encoding"
+  ],
+  [
+   286,
+   "Denmarkâs",
+   "Denmark’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ef09cdf726e1fbb228dd2a6cce18673f6e142a9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 294,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 7,
+   "page_number": 3
+  },
+  "words_in": 2380,
+  "words_out": 2380,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   23,
+   78,
+   113,
+   200,
+   141,
+   214,
+   86,
+   122,
+   149,
+   161,
+   133,
+   97,
+   83,
+   108,
+   122,
+   190,
+   72,
+   151,
+   137
+  ],
+  "warnings": []
+ }
+}

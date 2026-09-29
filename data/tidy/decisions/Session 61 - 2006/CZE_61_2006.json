@@ -1,0 +1,69 @@
+{
+ "id": "CZE_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  27,
+  31,
+  40,
+  59,
+  73,
+  86,
+  98,
+  118,
+  130,
+  139,
+  160,
+  173,
+  190,
+  208,
+  217,
+  227
+ ],
+ "cer": [
+  0,
+  8,
+  27
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f86a5be97398b7806526823b897fbeb6a184db43",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 240,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1951,
+  "words_out": 1948,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   62,
+   81,
+   83,
+   30,
+   78,
+   171,
+   117,
+   109,
+   98,
+   161,
+   95,
+   64,
+   159,
+   107,
+   136,
+   135,
+   76,
+   78,
+   108
+  ],
+  "warnings": []
+ }
+}

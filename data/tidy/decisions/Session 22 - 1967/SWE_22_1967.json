@@ -1,0 +1,154 @@
+{
+ "id": "SWE_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  19,
+  29,
+  38,
+  42,
+  49,
+  53,
+  61,
+  67,
+  72,
+  81,
+  89,
+  93,
+  97,
+  101,
+  108,
+  111,
+  116,
+  121,
+  127,
+  136
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Mr, President",
+   "Mr. President",
+   "ocr"
+  ],
+  [
+   39,
+   "armed conflict, Further",
+   "armed conflict. Further",
+   "ocr"
+  ],
+  [
+   44,
+   " [resolutions 233 (1967) and 234 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "problems In southern",
+   "problems in southern",
+   "ocr"
+  ],
+  [
+   50,
+   "developments, There is",
+   "developments. There is",
+   "ocr"
+  ],
+  [
+   56,
+   "peoples, Including",
+   "peoples, including",
+   "ocr"
+  ],
+  [
+   60,
+   "which, If unchecked",
+   "which, if unchecked",
+   "ocr"
+  ],
+  [
+   66,
+   "making them effective, I wish",
+   "making them effective. I wish",
+   "ocr"
+  ],
+  [
+   69,
+   "political horizon, The United",
+   "political horizon. The United",
+   "ocr"
+  ],
+  [
+   74,
+   "North Viet-Nam, In South",
+   "North Viet-Nam. In South",
+   "ocr"
+  ],
+  [
+   109,
+   "to Improve",
+   "to improve",
+   "ocr"
+  ],
+  [
+   110,
+   "available In case",
+   "available in case",
+   "ocr"
+  ],
+  [
+   114,
+   "made progress, The identical",
+   "made progress. The identical",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0305ff8e4a41446e895bf515a05eaf0664dcd8e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 140,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3027,
+  "words_out": 2995,
+  "retention": 0.9894,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   55,
+   121,
+   198,
+   184,
+   191,
+   152,
+   126,
+   108,
+   156,
+   182,
+   125,
+   116,
+   139,
+   66,
+   109,
+   107,
+   161,
+   87,
+   107,
+   97,
+   153,
+   167,
+   88
+  ],
+  "warnings": []
+ }
+}

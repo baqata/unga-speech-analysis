@@ -1,0 +1,57 @@
+{
+ "id": "PRY_12_1957",
+ "drop": [
+  [
+   17,
+   17,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  13,
+  19,
+  22,
+  23,
+  25,
+  30
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "54dafeb9952a60e935dbe907dd73c8e604ae5cac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 32,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 14
+  },
+  "words_in": 1147,
+  "words_out": 1146,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   64,
+   130,
+   121,
+   133,
+   201,
+   165,
+   73,
+   64,
+   97,
+   98
+  ],
+  "warnings": []
+ }
+}

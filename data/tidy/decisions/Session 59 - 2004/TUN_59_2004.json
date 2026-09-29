@@ -1,0 +1,63 @@
+{
+ "id": "TUN_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  16,
+  22,
+  45,
+  59,
+  80,
+  92,
+  114,
+  129,
+  156,
+  172,
+  199,
+  214,
+  224,
+  236
+ ],
+ "cer": [
+  0,
+  12,
+  16
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "78a1ab24fa66cbab2c757609d0f1e37931eb5ba3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1751,
+  "words_out": 1749,
+  "retention": 0.9989,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   90,
+   25,
+   39,
+   153,
+   101,
+   145,
+   83,
+   160,
+   106,
+   183,
+   98,
+   188,
+   113,
+   74,
+   77,
+   114
+  ],
+  "warnings": []
+ }
+}

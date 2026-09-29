@@ -1,0 +1,57 @@
+{
+ "id": "MLT_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  26,
+  43,
+  71,
+  81,
+  105,
+  121,
+  139,
+  162,
+  177,
+  197,
+  221,
+  230,
+  247
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55b8927c070337afe3331dbd77f361db44add876",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 254,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2064,
+  "words_out": 2060,
+  "retention": 0.9981,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   197,
+   137,
+   241,
+   84,
+   195,
+   135,
+   152,
+   170,
+   128,
+   159,
+   206,
+   66,
+   134,
+   56
+  ],
+  "warnings": []
+ }
+}

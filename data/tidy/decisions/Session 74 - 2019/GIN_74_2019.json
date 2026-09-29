@@ -1,0 +1,54 @@
+{
+ "id": "GIN_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  23,
+  25,
+  32,
+  35,
+  36,
+  39
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   "Two- thirds",
+   "Two-thirds",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6b23f1dbd98a462acbc4d5aff4f2faf2c120ba1b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1263,
+  "words_out": 1262,
+  "retention": 0.9992,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   94,
+   115,
+   102,
+   242,
+   85,
+   154,
+   89,
+   67,
+   142,
+   172
+  ],
+  "warnings": []
+ }
+}

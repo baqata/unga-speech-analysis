@@ -1,0 +1,63 @@
+{
+ "id": "BRA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  20,
+  40,
+  63,
+  82,
+  101,
+  111,
+  125,
+  144,
+  165,
+  185,
+  199,
+  224,
+  240,
+  251,
+  260
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f6df1032da90bfd9880c865a33de94dbb79c1f84",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2156,
+  "words_out": 2153,
+  "retention": 0.9986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   30,
+   122,
+   157,
+   168,
+   157,
+   128,
+   74,
+   114,
+   147,
+   153,
+   148,
+   109,
+   210,
+   134,
+   95,
+   72,
+   135
+  ],
+  "warnings": []
+ }
+}

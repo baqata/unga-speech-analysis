@@ -1,0 +1,324 @@
+{
+ "id": "RUS_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  8,
+  11,
+  14,
+  17,
+  20,
+  26,
+  28,
+  29,
+  32,
+  39,
+  41,
+  45,
+  49,
+  52,
+  58,
+  63,
+  67,
+  68,
+  72,
+  76,
+  81,
+  83,
+  85,
+  90,
+  93,
+  97,
+  101,
+  104,
+  105,
+  108,
+  114,
+  122,
+  128,
+  134,
+  138,
+  143,
+  147,
+  150,
+  153,
+  156,
+  159,
+  164,
+  168,
+  173,
+  175,
+  181,
+  183,
+  188,
+  190,
+  193,
+  196,
+  198,
+  200,
+  205,
+  208,
+  210,
+  214,
+  218,
+  222
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "Soviet- American",
+   "Soviet-American",
+   "hyphen"
+  ],
+  [
+   6,
+   "ot great",
+   "of great",
+   "ocr"
+  ],
+  [
+   7,
+   "leading, towards",
+   "leading towards",
+   "ocr"
+  ],
+  [
+   15,
+   "yea.'",
+   "year",
+   "ocr"
+  ],
+  [
+   16,
+   "in one of",
+   "is one of",
+   "ocr"
+  ],
+  [
+   37,
+   "West ,",
+   "West,",
+   "spacing"
+  ],
+  [
+   44,
+   "progressive:",
+   "progressive",
+   "ocr"
+  ],
+  [
+   60,
+   "non- use",
+   "non-use",
+   "hyphen"
+  ],
+  [
+   65,
+   "'here",
+   "there",
+   "ocr"
+  ],
+  [
+   69,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   85,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   109,
+   "knwon",
+   "known",
+   "ocr"
+  ],
+  [
+   119,
+   "jits",
+   "its",
+   "ocr"
+  ],
+  [
+   125,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   125,
+   " [resolution 3236 (XXIX)\\",
+   "",
+   "label"
+  ],
+  [
+   147,
+   "disarm-ament",
+   "disarmament",
+   "hyphen"
+  ],
+  [
+   153,
+   "ana fcr",
+   "and for",
+   "ocr"
+  ],
+  [
+   157,
+   "all- European",
+   "all-European",
+   "hyphen"
+  ],
+  [
+   163,
+   "twenty- seventh",
+   "twenty-seventh",
+   "hyphen"
+  ],
+  [
+   164,
+   "importance..",
+   "importance.",
+   "ocr"
+  ],
+  [
+   168,
+   "arms- race",
+   "arms-race",
+   "hyphen"
+  ],
+  [
+   180,
+   "The • handshake",
+   "The handshake",
+   "ocr"
+  ],
+  [
+   193,
+   " [see A/10243, annex]",
+   "",
+   "label"
+  ],
+  [
+   196,
+   "submitting^",
+   "submitting",
+   "ocr"
+  ],
+  [
+   198,
+   "tests.2",
+   "tests.",
+   "ocr"
+  ],
+  [
+   199,
+   "_ In",
+   "In",
+   "ocr"
+  ],
+  [
+   200,
+   " [item 122]",
+   "",
+   "label"
+  ],
+  [
+   201,
+   " [see AH0241, annex]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "eb5146ee20184f8fb9e14009674c3b135f5fe0f2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 224,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 106
+  },
+  "words_in": 6430,
+  "words_out": 6406,
+  "retention": 0.9963,
+  "n_paragraphs": 62,
+  "paragraph_words": [
+   51,
+   148,
+   105,
+   101,
+   105,
+   106,
+   94,
+   195,
+   89,
+   62,
+   113,
+   139,
+   60,
+   119,
+   97,
+   110,
+   116,
+   146,
+   161,
+   67,
+   139,
+   96,
+   99,
+   79,
+   85,
+   111,
+   92,
+   119,
+   99,
+   71,
+   73,
+   81,
+   137,
+   149,
+   110,
+   128,
+   129,
+   143,
+   100,
+   68,
+   76,
+   109,
+   75,
+   97,
+   124,
+   116,
+   74,
+   120,
+   62,
+   126,
+   106,
+   61,
+   131,
+   63,
+   78,
+   163,
+   107,
+   76,
+   103,
+   124,
+   75,
+   48
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

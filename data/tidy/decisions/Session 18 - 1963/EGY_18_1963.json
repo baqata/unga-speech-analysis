@@ -1,0 +1,77 @@
+{
+ "id": "EGY_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  13,
+  15,
+  19,
+  25,
+  29,
+  31,
+  37,
+  42,
+  48,
+  50,
+  57,
+  60,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   35,
+   "the. immediate",
+   "the immediate",
+   "ocr"
+  ],
+  [
+   40,
+   "rights,",
+   "rights.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Speech by the United Arab Republic, filed under Egypt.",
+ "unitizer_version": 1,
+ "sha1": "bd3cfeb77f1060065a608225636b71245df60a5e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 33
+  },
+  "words_in": 2709,
+  "words_out": 2708,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   68,
+   197,
+   141,
+   116,
+   76,
+   182,
+   210,
+   198,
+   76,
+   257,
+   171,
+   190,
+   114,
+   264,
+   125,
+   174,
+   149
+  ],
+  "warnings": []
+ }
+}

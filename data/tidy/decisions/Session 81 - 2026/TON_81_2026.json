@@ -1,0 +1,170 @@
+{
+ "id": "TON_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   129,
+   129,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  14,
+  20,
+  30,
+  33,
+  40,
+  46,
+  50,
+  55,
+  61,
+  70,
+  74,
+  82,
+  88,
+  97,
+  102,
+  113,
+  126
+ ],
+ "cer": [
+  2,
+  126
+ ],
+ "fix": [
+  [
+   2,
+   "Dubois",
+   "Tupou",
+   "asr_name"
+  ],
+  [
+   19,
+   "iron-developing",
+   "island developing",
+   "asr_term"
+  ],
+  [
+   31,
+   "Yvonne Bucky",
+   "Ivonne Baki",
+   "asr_name"
+  ],
+  [
+   44,
+   "phishing",
+   "fishing",
+   "asr_term"
+  ],
+  [
+   56,
+   "Resiliency",
+   "Resilience",
+   "asr_name"
+  ],
+  [
+   60,
+   "2,026",
+   "2026",
+   "asr_term"
+  ],
+  [
+   60,
+   "Iron Forum",
+   "Islands Forum",
+   "asr_name"
+  ],
+  [
+   78,
+   "BB&J",
+   "BBNJ",
+   "asr_term"
+  ],
+  [
+   114,
+   "boss",
+   "BOSS",
+   "asr_term"
+  ],
+  [
+   64,
+   "Climate action is",
+   "Climate inaction is",
+   "asr_term"
+  ],
+  [
+   77,
+   "risks. has committed",
+   "risks. Tonga has committed",
+   "asr_name"
+  ],
+  [
+   44,
+   "shores. transnational",
+   "shores. Transnational",
+   "asr_term"
+  ],
+  [
+   10,
+   "King",
+   "Under King",
+   "asr_term"
+  ],
+  [
+   37,
+   "then",
+   "them",
+   "asr_term"
+  ],
+  [
+   103,
+   "enough. skills",
+   "enough. Digital skills",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Names per Spanish channel (rey Tupou VI, Ivonne Baki de Ecuador, BBNJ, pesca) and Pacific Resilience Facility; unit 77 lost its subject 'Tonga' at a sentence start. Main-agent audit (re-decoding): unit 64 'action' p 0.48-0.61, Spanish 'La inacción climática no es una opción'; unit 77 re-decodes hear 'Tonga has committed' (p 0.69-0.82 on 'Tong'), so gap_suspected removed. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 44 'shores. transnational' -> 'shores. Transnational'; unit 103 'enough. skills' -> 'enough. Skills'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 10 'King' -> 'Under King' (2026 exception: both decodes hear 'Under' clearly (0.99 / 1.00); ES 'Bajo el rey Jorge Tupou I'); spot 4 unit 37 'then' -> 'them' (decodes 'then' only 0.58 / 0.62; 'Protecting and restoring then builds' does not fit; sounds alike; ES 'Protegerlos y restaurarlos'); spot 13 unit 103 'enough. skills' -> 'enough. Digital skills' (2026 exception: both decodes hear 'Digital' clearly (0.99 / 0.99); ES 'Las competencias digitales'; replaces the existing repair 'enough. skills' -> 'enough. Skills')",
+ "unitizer_version": 1,
+ "sha1": "3c59a5b7f03bcfc9893b20b5d46e71f553246f46",
+ "layout": "single",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2060,
+  "words_out": 2015,
+  "retention": 0.9782,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   29,
+   156,
+   100,
+   180,
+   62,
+   91,
+   103,
+   78,
+   68,
+   173,
+   129,
+   84,
+   152,
+   97,
+   93,
+   71,
+   163,
+   175,
+   11
+  ],
+  "warnings": []
+ }
+}

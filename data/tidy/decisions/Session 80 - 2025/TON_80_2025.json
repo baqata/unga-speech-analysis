@@ -1,0 +1,116 @@
+{
+ "id": "TON_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   79,
+   79,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  13,
+  17,
+  20,
+  27,
+  29,
+  38,
+  44,
+  48,
+  53,
+  57,
+  62,
+  66,
+  71,
+  76
+ ],
+ "cer": [
+  2,
+  76
+ ],
+ "fix": [
+  [
+   2,
+   "Ms. Anneta Baerbock",
+   "Ms. Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   6,
+   "Excellency Firmin Yeng,",
+   "Excellency Philemon Yang,",
+   "asr_name"
+  ],
+  [
+   15,
+   "King Tubbo I",
+   "King Tupou I",
+   "asr_name"
+  ],
+  [
+   21,
+   "the Pro-Pacific Continent",
+   "the Blue Pacific Continent",
+   "asr_name"
+  ],
+  [
+   46,
+   "lost and damaged finance",
+   "loss and damage finance",
+   "asr_term"
+  ],
+  [
+   48,
+   "the Compensatory Surveillance Adopted",
+   "the Compromiso de Sevilla Adopted",
+   "asr_name"
+  ],
+  [
+   67,
+   "non-commutable diseases",
+   "non-communicable diseases",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 'warm Malawi greetings' is left as transcribed; a Tongan greeting is probably meant.",
+ "unitizer_version": 1,
+ "sha1": "2f98475aca6d636cbff2f4fa8e10fbd6befa4316",
+ "layout": "single",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2004,
+  "words_out": 1955,
+  "retention": 0.9755,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   178,
+   121,
+   100,
+   69,
+   153,
+   117,
+   174,
+   163,
+   143,
+   121,
+   128,
+   118,
+   107,
+   131,
+   123,
+   9
+  ],
+  "warnings": []
+ }
+}

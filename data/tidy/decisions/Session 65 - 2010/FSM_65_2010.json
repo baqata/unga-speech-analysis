@@ -1,0 +1,64 @@
+{
+ "id": "FSM_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  20,
+  37,
+  46,
+  57,
+  67,
+  89,
+  113,
+  122,
+  139,
+  159,
+  176,
+  196,
+  201,
+  212,
+  227
+ ],
+ "cer": [
+  0,
+  227
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43469e51d661a34ffb12f234b6047a4da830d91a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 233,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1808,
+  "words_out": 1808,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   57,
+   90,
+   135,
+   63,
+   89,
+   80,
+   173,
+   186,
+   72,
+   122,
+   141,
+   132,
+   158,
+   40,
+   89,
+   135,
+   46
+  ],
+  "warnings": []
+ }
+}

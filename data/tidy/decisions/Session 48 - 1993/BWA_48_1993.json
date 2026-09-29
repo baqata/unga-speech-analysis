@@ -1,0 +1,107 @@
+{
+ "id": "BWA_48_1993",
+ "drop": [
+  [
+   13,
+   13,
+   "header_footer"
+  ],
+  [
+   28,
+   28,
+   "procedural"
+  ],
+  [
+   112,
+   112,
+   "header_footer"
+  ],
+  [
+   210,
+   210,
+   "header_footer"
+  ],
+  [
+   305,
+   305,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  14,
+  18,
+  29,
+  45,
+  55,
+  71,
+  90,
+  113,
+  122,
+  134,
+  154,
+  168,
+  180,
+  202,
+  217,
+  224,
+  232,
+  244,
+  264,
+  276,
+  291,
+  308
+ ],
+ "cer": [
+  0,
+  9,
+  14,
+  18
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8745d2acdaa778caa55fc2941af5cdd9cffc74b6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {
+   "header_footer": 4,
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 2863,
+  "words_out": 2827,
+  "retention": 0.9874,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   75,
+   32,
+   38,
+   88,
+   128,
+   89,
+   135,
+   174,
+   201,
+   81,
+   98,
+   188,
+   119,
+   99,
+   201,
+   131,
+   65,
+   72,
+   110,
+   182,
+   115,
+   128,
+   139,
+   139
+  ],
+  "warnings": []
+ }
+}

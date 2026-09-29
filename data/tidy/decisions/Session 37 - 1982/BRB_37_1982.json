@@ -1,0 +1,145 @@
+{
+ "id": "BRB_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  32,
+  58,
+  80,
+  105,
+  278,
+  291,
+  325
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   9,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   19,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   23,
+   "thirty sixth",
+   "thirty-sixth",
+   "spacing"
+  ],
+  [
+   56,
+   "self defeating",
+   "self-defeating",
+   "spacing"
+  ],
+  [
+   61,
+   "self management",
+   "self-management",
+   "spacing"
+  ],
+  [
+   68,
+   "sub region",
+   "sub-region",
+   "spacing"
+  ],
+  [
+   162,
+   "the. Convention",
+   "the Convention",
+   "ocr"
+  ],
+  [
+   202,
+   "East West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   203,
+   "super Powers",
+   "super-Powers",
+   "spacing"
+  ],
+  [
+   207,
+   "super Powers",
+   "super-Powers",
+   "spacing"
+  ],
+  [
+   229,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   272,
+   "Israeli Egyptian",
+   "Israeli-Egyptian",
+   "spacing"
+  ],
+  [
+   305,
+   "an in the",
+   "and in the",
+   "ocr"
+  ],
+  [
+   307,
+   "somearrogant",
+   "some arrogant",
+   "merged_word"
+  ],
+  [
+   317,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous wrapped text with no line-initial sentence starts between units 105 and 277, so that paragraph is very long.",
+ "unitizer_version": 1,
+ "sha1": "e99906c7852036d74d9d55d8ba672bde0d15e4c9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 353,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3788,
+  "words_out": 3776,
+  "retention": 0.9968,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   213,
+   147,
+   265,
+   227,
+   248,
+   1870,
+   145,
+   360,
+   301
+  ],
+  "warnings": [
+   "paragraph at unit 105 has 1870 words",
+   "paragraph at unit 291 has 360 words"
+  ]
+ }
+}

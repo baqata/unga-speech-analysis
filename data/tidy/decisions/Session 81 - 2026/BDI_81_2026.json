@@ -1,0 +1,195 @@
+{
+ "id": "BDI_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   109,
+   109,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  7,
+  20,
+  29,
+  34,
+  40,
+  46,
+  49,
+  57,
+  62,
+  66,
+  72,
+  76,
+  83,
+  90,
+  95,
+  102,
+  108
+ ],
+ "cer": [
+  2,
+  3,
+  108
+ ],
+ "fix": [
+  [
+   12,
+   "Excellency is",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   22,
+   " to.",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "spirit of ubuntu",
+   "spirit of Ubuntu",
+   "asr_name"
+  ],
+  [
+   28,
+   "the ubuntu with which",
+   "the Ubuntu with which",
+   "asr_name"
+  ],
+  [
+   28,
+   "god created us",
+   "God created us",
+   "asr_name"
+  ],
+  [
+   28,
+   "indeed god",
+   "indeed God",
+   "asr_name"
+  ],
+  [
+   28,
+   "man of ubuntu",
+   "man of Ubuntu",
+   "asr_name"
+  ],
+  [
+   28,
+   "the ubuntu that i see",
+   "the Ubuntu that I see",
+   "asr_name"
+  ],
+  [
+   28,
+   "in me ubuntu",
+   "in me Ubuntu",
+   "asr_name"
+  ],
+  [
+   39,
+   "mr president africa",
+   "Mr President Africa",
+   "asr_name"
+  ],
+  [
+   48,
+   "the united nations charter",
+   "the United Nations Charter",
+   "asr_name"
+  ],
+  [
+   28,
+   "peoples? we",
+   "peoples? We",
+   "asr_term"
+  ],
+  [
+   39,
+   "rights. it",
+   "rights. It",
+   "asr_term"
+  ],
+  [
+   48,
+   "states. we",
+   "states. We",
+   "asr_term"
+  ],
+  [
+   65,
+   "2063. we",
+   "2063. We",
+   "asr_term"
+  ],
+  [
+   78,
+   "homeland. who",
+   "homeland who",
+   "asr_term"
+  ],
+  [
+   81,
+   "youth. the",
+   "youth. The",
+   "asr_term"
+  ],
+  [
+   96,
+   "governance. the",
+   "governance. The",
+   "asr_term"
+  ],
+  [
+   101,
+   "destiny. and",
+   "destiny. And",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Stray 'to.' after unit 22's sentence is speech-to-text debris; capitals restored on God, I, Ubuntu (as in unit 22), Mr President, Africa, United Nations Charter; 'Excelencias' per Spanish channel. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 28 'peoples? we' -> 'peoples? We'; unit 39 'rights. it' -> 'rights. It'; unit 48 'states. we' -> 'states. We'; unit 65 '2063. we' -> '2063. We'; unit 78 'homeland. who' -> 'homeland who'; unit 81 'youth. the' -> 'youth. The'; unit 96 'governance. the' -> 'governance. The'; unit 101 'destiny. and' -> 'destiny. And'",
+ "unitizer_version": 1,
+ "sha1": "b6e7f47b9cb137c06876dab1965470d9f200cea1",
+ "layout": "single",
+ "stats": {
+  "n_units": 110,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2753,
+  "words_out": 2702,
+  "retention": 0.9815,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   85,
+   162,
+   166,
+   260,
+   77,
+   205,
+   122,
+   165,
+   195,
+   132,
+   151,
+   86,
+   64,
+   248,
+   172,
+   110,
+   159,
+   141,
+   2
+  ],
+  "warnings": []
+ }
+}

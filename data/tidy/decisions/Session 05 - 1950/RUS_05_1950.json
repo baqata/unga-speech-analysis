@@ -1,0 +1,142 @@
+{
+ "id": "RUS_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  12,
+  15,
+  21,
+  24,
+  26,
+  27,
+  30,
+  34,
+  35,
+  42,
+  45,
+  49,
+  51,
+  56,
+  59,
+  62,
+  66,
+  69,
+  74,
+  77,
+  80,
+  84,
+  91,
+  92,
+  95,
+  97
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "Charier",
+   "Charter",
+   "ocr"
+  ],
+  [
+   18,
+   "security,”",
+   "security.”",
+   "ocr"
+  ],
+  [
+   73,
+   "and others,",
+   "and others.",
+   "ocr"
+  ],
+  [
+   75,
+   "name, of",
+   "name of",
+   "ocr"
+  ],
+  [
+   85,
+   "have, intensified",
+   "have intensified",
+   "ocr"
+  ],
+  [
+   89,
+   "Europe, has",
+   "Europe has",
+   "ocr"
+  ],
+  [
+   91,
+   " [A/1376]",
+   "",
+   "label"
+  ],
+  [
+   91,
+   "of a, new war",
+   "of a new war",
+   "ocr"
+  ],
+  [
+   91,
+   "“1, The",
+   "“1. The",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "The quoted draft declaration (A/1376) is split at its numbered points 2 and 3.",
+ "unitizer_version": 1,
+ "sha1": "47caddd728f6d01cb86d7ba3def373d0b38eecb9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3928,
+  "words_out": 3924,
+  "retention": 0.999,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   111,
+   82,
+   181,
+   218,
+   114,
+   215,
+   114,
+   102,
+   89,
+   77,
+   144,
+   71,
+   158,
+   107,
+   113,
+   95,
+   184,
+   116,
+   131,
+   156,
+   128,
+   156,
+   88,
+   76,
+   151,
+   167,
+   287,
+   114,
+   120,
+   59
+  ],
+  "warnings": []
+ }
+}

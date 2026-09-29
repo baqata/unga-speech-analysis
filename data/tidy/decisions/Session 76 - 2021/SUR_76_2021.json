@@ -1,0 +1,66 @@
+{
+ "id": "SUR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  14,
+  18,
+  21,
+  28,
+  34,
+  38,
+  43,
+  47,
+  51,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- sixth",
+   "seventy-sixth",
+   "spacing"
+  ],
+  [
+   8,
+   "so- called",
+   "so-called",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3d4e2e70404a6d80ea3ddc96d1f6b588a003f599",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1280,
+  "words_out": 1278,
+  "retention": 0.9984,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   72,
+   103,
+   126,
+   90,
+   81,
+   108,
+   137,
+   85,
+   78,
+   117,
+   109,
+   73,
+   99
+  ],
+  "warnings": []
+ }
+}

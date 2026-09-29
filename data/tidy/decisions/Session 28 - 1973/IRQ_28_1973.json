@@ -1,0 +1,93 @@
+{
+ "id": "IRQ_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  10,
+  13,
+  19,
+  24,
+  27,
+  29,
+  32,
+  34,
+  39,
+  41,
+  47,
+  49,
+  54,
+  59,
+  65,
+  67,
+  75,
+  79,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   30,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   33,
+   "arouses, doubt",
+   "arouses doubt",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee50f75375b43a039fad30ec5b90798f522927df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 3001,
+  "words_out": 2999,
+  "retention": 0.9993,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   106,
+   156,
+   81,
+   146,
+   251,
+   128,
+   181,
+   78,
+   129,
+   77,
+   197,
+   57,
+   180,
+   71,
+   148,
+   170,
+   172,
+   69,
+   233,
+   155,
+   108,
+   106
+  ],
+  "warnings": []
+ }
+}

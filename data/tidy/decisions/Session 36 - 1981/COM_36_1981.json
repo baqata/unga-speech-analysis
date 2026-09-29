@@ -1,0 +1,236 @@
+{
+ "id": "COM_36_1981",
+ "drop": [
+  [
+   24,
+   24,
+   "noise"
+  ],
+  [
+   45,
+   45,
+   "noise"
+  ],
+  [
+   67,
+   67,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  12,
+  14,
+  21,
+  25,
+  29,
+  31,
+  34,
+  38,
+  40,
+  43,
+  46,
+  50,
+  53,
+  58,
+  61,
+  64,
+  66,
+  71,
+  73,
+  76
+ ],
+ "cer": [
+  0,
+  6,
+  10
+ ],
+ "fix": [
+  [
+   47,
+   " [General Assembly resolution 2832 (XXVI)]",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "the. Government",
+   "the Government",
+   "ocr"
+  ],
+  [
+   5,
+   "Comoros. .",
+   "Comoros.",
+   "ocr"
+  ],
+  [
+   7,
+   "work, '.",
+   "work.",
+   "ocr"
+  ],
+  [
+   8,
+   "vou Wecimuu;",
+   "von Wechmar,",
+   "ocr"
+  ],
+  [
+   12,
+   "dally",
+   "daily",
+   "ocr"
+  ],
+  [
+   13,
+   "terras",
+   "terms",
+   "ocr"
+  ],
+  [
+   13,
+   "ate written",
+   "are written",
+   "ocr"
+  ],
+  [
+   20,
+   "we aw capable",
+   "we are capable",
+   "ocr"
+  ],
+  [
+   28,
+   "Arabian Bind.",
+   "Arabian Fund.",
+   "ocr"
+  ],
+  [
+   29,
+   "provide U.",
+   "provide it.",
+   "ocr"
+  ],
+  [
+   35,
+   "cur meager",
+   "our meager",
+   "ocr"
+  ],
+  [
+   35,
+   "suppliers. '",
+   "suppliers.",
+   "ocr"
+  ],
+  [
+   36,
+   "greet Powers",
+   "great Powers",
+   "ocr"
+  ],
+  [
+   38,
+   "dial is to",
+   "that is to",
+   "ocr"
+  ],
+  [
+   47,
+   "place. '",
+   "place.",
+   "ocr"
+  ],
+  [
+   58,
+   "Tho great",
+   "The great",
+   "ocr"
+  ],
+  [
+   58,
+   "policy. '",
+   "policy.",
+   "ocr"
+  ],
+  [
+   65,
+   "Uiat",
+   "that",
+   "ocr"
+  ],
+  [
+   65,
+   "QAU",
+   "OAU",
+   "ocr"
+  ],
+  [
+   66,
+   "' Before",
+   "Before",
+   "ocr"
+  ],
+  [
+   72,
+   "has. been",
+   "has been",
+   "ocr"
+  ],
+  [
+   72,
+   "of .November",
+   "of November",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14f72b34b4968fc3af3e097d9557471bb5a38b99",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2427,
+  "words_out": 2412,
+  "retention": 0.9938,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   122,
+   107,
+   67,
+   60,
+   144,
+   116,
+   109,
+   101,
+   100,
+   117,
+   82,
+   69,
+   74,
+   195,
+   107,
+   84,
+   118,
+   97,
+   107,
+   135,
+   75,
+   137,
+   89
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

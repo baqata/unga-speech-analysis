@@ -1,0 +1,94 @@
+{
+ "id": "BGD_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  15,
+  21,
+  29,
+  34,
+  43,
+  48,
+  59,
+  67,
+  73,
+  77,
+  80,
+  87,
+  91,
+  94,
+  101,
+  104,
+  111,
+  116,
+  121
+ ],
+ "cer": [
+  0,
+  11,
+  121
+ ],
+ "fix": [
+  [
+   13,
+   "long- cherished",
+   "long-cherished",
+   "spacing"
+  ],
+  [
+   42,
+   "well- timed",
+   "well-timed",
+   "spacing"
+  ],
+  [
+   43,
+   "human- made",
+   "human-made",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "efa9cc4315d8b32aac592cb8f2cd779ad39f9d73",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2426,
+  "words_out": 2421,
+  "retention": 0.9979,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   89,
+   127,
+   88,
+   181,
+   150,
+   108,
+   160,
+   100,
+   175,
+   162,
+   101,
+   100,
+   64,
+   150,
+   69,
+   58,
+   113,
+   66,
+   116,
+   148,
+   82,
+   14
+  ],
+  "warnings": []
+ }
+}

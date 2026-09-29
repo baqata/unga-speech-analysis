@@ -1,0 +1,128 @@
+{
+ "id": "HUN_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  13,
+  17,
+  22,
+  24,
+  30,
+  32,
+  35,
+  44,
+  48,
+  49,
+  52,
+  56,
+  60,
+  62,
+  65,
+  70,
+  73,
+  79,
+  83,
+  86,
+  92,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "ideological-mi 1itary",
+   "ideological-military",
+   "ocr"
+  ],
+  [
+   34,
+   "half -million",
+   "half-million",
+   "spacing"
+  ],
+  [
+   43,
+   "ha3",
+   "has",
+   "ocr"
+  ],
+  [
+   45,
+   "Co operation",
+   "Co-operation",
+   "hyphen"
+  ],
+  [
+   63,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   76,
+   "In our view.",
+   "In our view,",
+   "ocr"
+  ],
+  [
+   83,
+   "principled and",
+   "principles and",
+   "ocr"
+  ],
+  [
+   94,
+   "and store secure",
+   "and more secure",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f5c6ca0a6d7aa0980735a492481e1652854f750b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2764,
+  "words_out": 2761,
+  "retention": 0.9989,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   114,
+   106,
+   100,
+   93,
+   79,
+   115,
+   62,
+   133,
+   65,
+   122,
+   159,
+   163,
+   77,
+   101,
+   75,
+   135,
+   75,
+   102,
+   77,
+   97,
+   122,
+   114,
+   123,
+   152,
+   86,
+   114
+  ],
+  "warnings": []
+ }
+}

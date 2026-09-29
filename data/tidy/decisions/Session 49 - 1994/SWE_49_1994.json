@@ -1,0 +1,100 @@
+{
+ "id": "SWE_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  27,
+  51,
+  59,
+  72,
+  83,
+  95,
+  104,
+  114,
+  131,
+  140,
+  148,
+  156,
+  174,
+  190,
+  201,
+  215,
+  224,
+  242,
+  258,
+  263,
+  271,
+  284,
+  291
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   " (Official Records of the",
+   "",
+   "label"
+  ],
+  [
+   41,
+   "General Assembly, Forty-ninth Session, Plenary",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "Meetings, 14th meeting, p. 10)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c772e9bba45dcd4488cf6506369cbcee4fd584d6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2335,
+  "words_out": 2320,
+  "retention": 0.9936,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   29,
+   73,
+   131,
+   172,
+   64,
+   100,
+   91,
+   92,
+   82,
+   71,
+   130,
+   60,
+   61,
+   68,
+   139,
+   122,
+   80,
+   99,
+   71,
+   142,
+   113,
+   37,
+   71,
+   111,
+   57,
+   54
+  ],
+  "warnings": []
+ }
+}

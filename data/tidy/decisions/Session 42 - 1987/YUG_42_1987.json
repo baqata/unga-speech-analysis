@@ -1,0 +1,140 @@
+{
+ "id": "YUG_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  18,
+  21,
+  24,
+  27,
+  30,
+  33,
+  36,
+  39,
+  42,
+  50,
+  54,
+  58,
+  62,
+  64,
+  66,
+  69,
+  73,
+  79,
+  83,
+  85,
+  89,
+  91,
+  93,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "I have pleasure.",
+   "I have pleasure,",
+   "ocr"
+  ],
+  [
+   1,
+   "ľ assure",
+   "I assure",
+   "ocr"
+  ],
+  [
+   7,
+   "genuine, prospects",
+   "genuine prospects",
+   "ocr"
+  ],
+  [
+   11,
+   "of International relations provides an Impetus",
+   "of international relations provides an impetus",
+   "ocr"
+  ],
+  [
+   13,
+   "world la on",
+   "world is on",
+   "ocr"
+  ],
+  [
+   17,
+   "re-channelling International",
+   "re-channelling international",
+   "ocr"
+  ],
+  [
+   29,
+   "with the Interests",
+   "with the interests",
+   "ocr"
+  ],
+  [
+   29,
+   "of the International community",
+   "of the international community",
+   "ocr"
+  ],
+  [
+   47,
+   "possible!",
+   "possible",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "unit 38 breaks off after 'contribute to that'",
+ "unitizer_version": 1,
+ "sha1": "7410ca1b50d4091a7ab0cb93bb2cd72b6fd74b55",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3037,
+  "words_out": 3037,
+  "retention": 1.0,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   119,
+   156,
+   71,
+   104,
+   66,
+   126,
+   87,
+   108,
+   96,
+   113,
+   132,
+   95,
+   159,
+   85,
+   108,
+   148,
+   65,
+   109,
+   89,
+   127,
+   134,
+   97,
+   69,
+   127,
+   101,
+   118,
+   133,
+   95
+  ],
+  "warnings": []
+ }
+}

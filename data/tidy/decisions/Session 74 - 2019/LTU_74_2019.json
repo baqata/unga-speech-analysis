@@ -1,0 +1,64 @@
+{
+ "id": "LTU_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  19,
+  25,
+  29,
+  36,
+  41,
+  46,
+  52,
+  57,
+  60,
+  66,
+  68,
+  72,
+  77
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "650- kilometre- long",
+   "650-kilometre-long",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f9d82c387b7fa94ca290b0f692cb208319580937",
+ "layout": "lines",
+ "stats": {
+  "n_units": 81,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1582,
+  "words_out": 1580,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   114,
+   107,
+   116,
+   132,
+   75,
+   103,
+   64,
+   68,
+   97,
+   124,
+   78,
+   113,
+   70,
+   127,
+   103,
+   89
+  ],
+  "warnings": []
+ }
+}

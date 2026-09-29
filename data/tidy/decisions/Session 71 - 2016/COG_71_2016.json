@@ -1,0 +1,50 @@
+{
+ "id": "COG_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  11,
+  16,
+  22,
+  27,
+  31
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "conduciveto",
+   "conducive to",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b886e085b1f39aa8d4ff1cd40d07f5888ca9c9a8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 38,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1122,
+  "words_out": 1123,
+  "retention": 1.0009,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   178,
+   57,
+   90,
+   132,
+   161,
+   188,
+   107,
+   210
+  ],
+  "warnings": []
+ }
+}

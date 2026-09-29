@@ -1,0 +1,54 @@
+{
+ "id": "BRN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  13,
+  15,
+  19,
+  25,
+  30,
+  36,
+  42,
+  46,
+  55
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "383a51c69a76250b9627fb4502bbb44adad66112",
+ "layout": "lines",
+ "stats": {
+  "n_units": 57,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1413,
+  "words_out": 1410,
+  "retention": 0.9979,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   135,
+   121,
+   101,
+   57,
+   99,
+   125,
+   146,
+   131,
+   180,
+   114,
+   152,
+   49
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "BOL_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  33,
+  53,
+  72,
+  90,
+  108,
+  121,
+  136,
+  157,
+  173,
+  187,
+  208,
+  227,
+  259,
+  275,
+  284,
+  302,
+  323,
+  340
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   335,
+   "problems.If",
+   "problems. If",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "914d9df8c1004a769b1207cfa7cafabf1e2dc285",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 358,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2901,
+  "words_out": 2896,
+  "retention": 0.9983,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   133,
+   127,
+   158,
+   133,
+   148,
+   139,
+   112,
+   126,
+   173,
+   122,
+   110,
+   171,
+   153,
+   263,
+   149,
+   74,
+   145,
+   169,
+   133,
+   158
+  ],
+  "warnings": []
+ }
+}

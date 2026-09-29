@@ -1,0 +1,119 @@
+{
+ "id": "BFA_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  13,
+  17,
+  20,
+  25,
+  29,
+  31,
+  37,
+  40,
+  42,
+  45,
+  51,
+  57,
+  60,
+  62,
+  65,
+  69,
+  75
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   6,
+   "(A/43/FV.7, p. 64)",
+   "",
+   "label"
+  ],
+  [
+   0,
+   "Burkina Paso",
+   "Burkina Faso",
+   "ocr"
+  ],
+  [
+   38,
+   "Burkina Paso",
+   "Burkina Faso",
+   "ocr"
+  ],
+  [
+   65,
+   "Burkina Paso",
+   "Burkina Faso",
+   "ocr"
+  ],
+  [
+   7,
+   "Burkina Peso",
+   "Burkina Faso",
+   "ocr"
+  ],
+  [
+   7,
+   "X have",
+   "I have",
+   "ocr"
+  ],
+  [
+   5,
+   "long|.",
+   "long.",
+   "ocr"
+  ],
+  [
+   58,
+   "meeting*",
+   "meeting;",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef196e2c331f8a26f51fa46ca08db0ba71b957e5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2316,
+  "words_out": 2312,
+  "retention": 0.9983,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   47,
+   97,
+   123,
+   197,
+   145,
+   80,
+   156,
+   106,
+   69,
+   157,
+   69,
+   66,
+   81,
+   109,
+   150,
+   121,
+   71,
+   93,
+   119,
+   183,
+   73
+  ],
+  "warnings": []
+ }
+}

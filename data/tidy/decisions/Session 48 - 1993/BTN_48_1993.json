@@ -1,0 +1,82 @@
+{
+ "id": "BTN_48_1993",
+ "drop": [
+  [
+   23,
+   23,
+   "header_footer"
+  ],
+  [
+   117,
+   117,
+   "header_footer"
+  ],
+  [
+   199,
+   199,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  11,
+  17,
+  24,
+  40,
+  51,
+  59,
+  79,
+  95,
+  102,
+  120,
+  128,
+  140,
+  158,
+  170,
+  196
+ ],
+ "cer": [
+  0,
+  5,
+  11,
+  17
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d945815c5e4329569cbf9a1892a260fbcf3f753",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 1816,
+  "words_out": 1795,
+  "retention": 0.9884,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   40,
+   58,
+   51,
+   56,
+   154,
+   89,
+   66,
+   162,
+   140,
+   60,
+   156,
+   67,
+   101,
+   161,
+   99,
+   197,
+   138
+  ],
+  "warnings": []
+ }
+}

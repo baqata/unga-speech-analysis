@@ -1,0 +1,55 @@
+{
+ "id": "WSM_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  31,
+  40,
+  55,
+  66,
+  79,
+  98,
+  110,
+  122,
+  144,
+  163
+ ],
+ "cer": [
+  0,
+  31,
+  163
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6943b06a924b619f875c06de135e5695f5f3ce7a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1328,
+  "words_out": 1327,
+  "retention": 0.9992,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   44,
+   193,
+   78,
+   117,
+   86,
+   98,
+   150,
+   101,
+   95,
+   162,
+   144,
+   59
+  ],
+  "warnings": []
+ }
+}

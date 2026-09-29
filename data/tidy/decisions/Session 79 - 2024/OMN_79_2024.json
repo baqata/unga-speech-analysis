@@ -1,0 +1,44 @@
+{
+ "id": "OMN_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  10,
+  11,
+  16,
+  20,
+  25
+ ],
+ "cer": [
+  0,
+  25
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "100ef1ab8f0beb0005910616d272ab1d1f8f95c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 26,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 840,
+  "words_out": 838,
+  "retention": 0.9976,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   63,
+   117,
+   184,
+   69,
+   154,
+   91,
+   151,
+   9
+  ],
+  "warnings": []
+ }
+}

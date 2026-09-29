@@ -1,0 +1,47 @@
+{
+ "id": "CHE_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  19,
+  23,
+  27,
+  31,
+  37,
+  41,
+  46,
+  51
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e8f9eb06ebd693318f073195c026b6aa34e1a60f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1145,
+  "words_out": 1143,
+  "retention": 0.9983,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   131,
+   68,
+   151,
+   105,
+   71,
+   72,
+   99,
+   62,
+   117,
+   98,
+   169
+  ],
+  "warnings": []
+ }
+}

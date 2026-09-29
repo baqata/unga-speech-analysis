@@ -1,0 +1,56 @@
+{
+ "id": "COL_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  15,
+  19,
+  23,
+  28,
+  32,
+  36,
+  43,
+  46
+ ],
+ "cer": [],
+ "fix": [
+  [
+   10,
+   "General Assembly,",
+   "General Assembly.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "7b6fb2b7d1a42e06efef0ec380b17142be4c9285",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1795,
+  "words_out": 1795,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   217,
+   172,
+   136,
+   116,
+   158,
+   117,
+   165,
+   159,
+   184,
+   173,
+   198
+  ],
+  "warnings": []
+ }
+}

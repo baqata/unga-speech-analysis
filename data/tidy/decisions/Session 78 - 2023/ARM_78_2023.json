@@ -1,0 +1,188 @@
+{
+ "id": "ARM_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  6,
+  10,
+  17,
+  24,
+  28,
+  33,
+  36,
+  38,
+  41,
+  47,
+  49,
+  52,
+  55,
+  57,
+  60,
+  63,
+  68,
+  71,
+  75
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "all. let",
+   "all, let",
+   "ocr"
+  ],
+  [
+   3,
+   "law. human",
+   "law, human",
+   "ocr"
+  ],
+  [
+   5,
+   "law. representing",
+   "law, representing",
+   "ocr"
+  ],
+  [
+   8,
+   "ago. from",
+   "ago, from",
+   "ocr"
+  ],
+  [
+   12,
+   "war. and",
+   "war, and",
+   "ocr"
+  ],
+  [
+   13,
+   "Indeed.",
+   "Indeed,",
+   "ocr"
+  ],
+  [
+   14,
+   "120.000",
+   "120,000",
+   "ocr"
+  ],
+  [
+   20,
+   "today.",
+   "today,",
+   "ocr"
+  ],
+  [
+   25,
+   "2022.",
+   "2022,",
+   "ocr"
+  ],
+  [
+   27,
+   "aid. through",
+   "aid, through",
+   "ocr"
+  ],
+  [
+   34,
+   "(see S/PV.9397). the",
+   "(see S/PV.9397), the",
+   "ocr"
+  ],
+  [
+   36,
+   "ago. the",
+   "ago, the",
+   "ocr"
+  ],
+  [
+   44,
+   "Nderitu. stressed",
+   "Nderitu, stressed",
+   "ocr"
+  ],
+  [
+   51,
+   "law. including",
+   "law, including",
+   "ocr"
+  ],
+  [
+   56,
+   "war. to",
+   "war, to",
+   "ocr"
+  ],
+  [
+   58,
+   "Furthermore. excluding",
+   "Furthermore, excluding",
+   "ocr"
+  ],
+  [
+   63,
+   "Likewise.",
+   "Likewise,",
+   "ocr"
+  ],
+  [
+   65,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   71,
+   "challenges.",
+   "challenges,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52528f74535a3c038d804f9e39c77b51c24be51c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2211,
+  "words_out": 2207,
+  "retention": 0.9982,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   21,
+   61,
+   128,
+   135,
+   142,
+   129,
+   99,
+   111,
+   114,
+   64,
+   78,
+   166,
+   85,
+   117,
+   133,
+   103,
+   120,
+   113,
+   91,
+   97,
+   72,
+   28
+  ],
+  "warnings": []
+ }
+}

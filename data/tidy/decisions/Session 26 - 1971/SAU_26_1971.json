@@ -1,0 +1,118 @@
+{
+ "id": "SAU_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  10,
+  14,
+  18,
+  21,
+  27,
+  31,
+  34,
+  36,
+  38,
+  40,
+  42,
+  45,
+  50,
+  53,
+  55,
+  59,
+  62,
+  66,
+  72,
+  77
+ ],
+ "cer": [
+  0,
+  8,
+  10
+ ],
+ "fix": [
+  [
+   0,
+   "1. ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "th- 'international",
+   "the international",
+   "ocr"
+  ],
+  [
+   11,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   20,
+   "whenever then is",
+   "whenever there is",
+   "ocr"
+  ],
+  [
+   20,
+   "lip- service",
+   "lip-service",
+   "hyphen"
+  ],
+  [
+   37,
+   "self- defense",
+   "self-defense",
+   "hyphen"
+  ],
+  [
+   46,
+   "have even pieced",
+   "have even placed",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b4bd2f42298c8057f8398041cf9f81e71d97cd2b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2220,
+  "words_out": 2216,
+  "retention": 0.9982,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   158,
+   64,
+   169,
+   92,
+   88,
+   125,
+   77,
+   70,
+   74,
+   82,
+   77,
+   111,
+   64,
+   87,
+   114,
+   81,
+   103,
+   81,
+   136,
+   181,
+   143,
+   39
+  ],
+  "warnings": []
+ }
+}

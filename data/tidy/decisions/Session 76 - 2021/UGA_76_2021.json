@@ -1,0 +1,101 @@
+{
+ "id": "UGA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  14,
+  18,
+  24,
+  29,
+  34,
+  42,
+  48,
+  54,
+  63,
+  68,
+  73,
+  78,
+  84,
+  87,
+  93,
+  99,
+  102,
+  108,
+  113,
+  119,
+  126
+ ],
+ "cer": [
+  0,
+  126
+ ],
+ "fix": [
+  [
+   70,
+   "Plan 111",
+   "Plan III",
+   "ocr"
+  ],
+  [
+   70,
+   "public- private",
+   "public-private",
+   "spacing"
+  ],
+  [
+   70,
+   "Wild life",
+   "Wildlife",
+   "split_word"
+  ],
+  [
+   83,
+   "HI V/AIDS",
+   "HIV/AIDS",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d03b0c2b406ffe6e01280217b1b6a25f7bf3a247",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2967,
+  "words_out": 2964,
+  "retention": 0.999,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   21,
+   110,
+   146,
+   74,
+   149,
+   108,
+   146,
+   165,
+   128,
+   112,
+   173,
+   223,
+   262,
+   104,
+   154,
+   115,
+   85,
+   95,
+   106,
+   69,
+   157,
+   114,
+   142,
+   6
+  ],
+  "warnings": []
+ }
+}

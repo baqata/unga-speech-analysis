@@ -1,0 +1,60 @@
+{
+ "id": "GHA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  14,
+  22,
+  28,
+  33,
+  40,
+  45,
+  49,
+  53,
+  55,
+  60
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ae34467319c3fc0ab0cc39f13eadacb1be49e84e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1575,
+  "words_out": 1574,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   124,
+   84,
+   139,
+   103,
+   152,
+   127,
+   112,
+   153,
+   89,
+   74,
+   102,
+   87,
+   124,
+   104
+  ],
+  "warnings": []
+ }
+}

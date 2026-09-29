@@ -1,0 +1,102 @@
+{
+ "id": "PAK_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  13,
+  30,
+  41,
+  53,
+  70,
+  93,
+  107,
+  115,
+  128,
+  147,
+  166,
+  180,
+  196,
+  207,
+  224,
+  243,
+  261,
+  272,
+  283,
+  296,
+  322
+ ],
+ "cer": [
+  10,
+  30
+ ],
+ "fix": [
+  [
+   9,
+   "(The Holy Koran, II:148)",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "(The Holy Koran,",
+   "",
+   "label"
+  ],
+  [
+   146,
+   "II:136)",
+   "",
+   "label"
+  ],
+  [
+   139,
+   "Isma¯ ı¯l",
+   "Ismail",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9387cef8f86c0610d5764fb2467e6a797d71b185",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 339,
+  "units_dropped": {},
+  "prestrip": {
+   "language_note": 4,
+   "page_number": 4
+  },
+  "words_in": 2759,
+  "words_out": 2744,
+  "retention": 0.9946,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   43,
+   24,
+   127,
+   89,
+   111,
+   140,
+   205,
+   115,
+   67,
+   103,
+   118,
+   135,
+   127,
+   144,
+   95,
+   137,
+   167,
+   158,
+   89,
+   78,
+   102,
+   222,
+   148
+  ],
+  "warnings": []
+ }
+}

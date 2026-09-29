@@ -1,0 +1,60 @@
+{
+ "id": "CYP_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  35,
+  46,
+  64,
+  77,
+  95,
+  116,
+  139,
+  164,
+  184,
+  197
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   71,
+   "(Press Release SC/7444)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4ebdd98af88fe9864a761d29380c0fb3de7713c5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1574,
+  "words_out": 1570,
+  "retention": 0.9975,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   100,
+   150,
+   90,
+   134,
+   88,
+   148,
+   169,
+   177,
+   175,
+   161,
+   102,
+   76
+  ],
+  "warnings": []
+ }
+}

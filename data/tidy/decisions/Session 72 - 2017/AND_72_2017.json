@@ -1,0 +1,88 @@
+{
+ "id": "AND_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  16,
+  20,
+  24,
+  27,
+  33,
+  37,
+  40,
+  44,
+  49,
+  54,
+  58,
+  60,
+  65,
+  67,
+  75,
+  77,
+  79,
+  81,
+  85,
+  86
+ ],
+ "cer": [
+  85
+ ],
+ "fix": [
+  [
+   66,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   74,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93b8568dcd1837b3036f8fdf6019d1e53c7f0ef9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2588,
+  "words_out": 2586,
+  "retention": 0.9992,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   151,
+   105,
+   78,
+   95,
+   69,
+   141,
+   73,
+   144,
+   115,
+   67,
+   141,
+   166,
+   119,
+   182,
+   98,
+   119,
+   77,
+   178,
+   100,
+   85,
+   79,
+   120,
+   41,
+   43
+  ],
+  "warnings": []
+ }
+}

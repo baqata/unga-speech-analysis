@@ -1,0 +1,88 @@
+{
+ "id": "DOM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  14,
+  17,
+  19,
+  26,
+  30,
+  36,
+  39,
+  42,
+  45,
+  50,
+  55,
+  57,
+  60,
+  63,
+  66,
+  69,
+  72,
+  74
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   59,
+   "money- laundering and",
+   "money-laundering and",
+   "hyphen"
+  ],
+  [
+   59,
+   "money- laundering,",
+   "money-laundering,",
+   "hyphen"
+  ],
+  [
+   70,
+   "cost- effective",
+   "cost-effective",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e1ddba81078f2fb12e38d90ad74910de10db30d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2153,
+  "words_out": 2150,
+  "retention": 0.9986,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   79,
+   178,
+   105,
+   82,
+   63,
+   172,
+   134,
+   133,
+   76,
+   95,
+   77,
+   134,
+   125,
+   59,
+   117,
+   91,
+   80,
+   86,
+   79,
+   85,
+   100
+  ],
+  "warnings": []
+ }
+}

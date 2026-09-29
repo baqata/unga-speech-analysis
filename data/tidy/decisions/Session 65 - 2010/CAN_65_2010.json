@@ -1,0 +1,62 @@
+{
+ "id": "CAN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  30,
+  43,
+  69,
+  93,
+  116,
+  142,
+  161,
+  178,
+  196,
+  212,
+  223
+ ],
+ "cer": [
+  223
+ ],
+ "fix": [
+  [
+   72,
+   "Africa,thereby",
+   "Africa, thereby",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d022032719fe120f15036f8ecdcbc6d02f37cecc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 225,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1833,
+  "words_out": 1833,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   133,
+   112,
+   101,
+   210,
+   179,
+   173,
+   193,
+   161,
+   157,
+   165,
+   134,
+   98,
+   17
+  ],
+  "warnings": []
+ }
+}

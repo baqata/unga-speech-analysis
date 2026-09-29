@@ -1,0 +1,72 @@
+{
+ "id": "IRL_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  24,
+  32,
+  38,
+  44,
+  54,
+  60,
+  67,
+  75,
+  79,
+  88,
+  98,
+  102,
+  106,
+  112,
+  118,
+  125
+ ],
+ "cer": [],
+ "fix": [
+  [
+   110,
+   "twenty- sixth",
+   "twenty-sixth",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "533dcafd2dadb1ed3c86c7d9df5a2d1c3333a9ba",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2498,
+  "words_out": 2495,
+  "retention": 0.9988,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   129,
+   150,
+   171,
+   162,
+   152,
+   109,
+   168,
+   121,
+   153,
+   144,
+   68,
+   142,
+   207,
+   79,
+   52,
+   139,
+   122,
+   96,
+   131
+  ],
+  "warnings": []
+ }
+}

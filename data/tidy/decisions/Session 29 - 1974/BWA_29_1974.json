@@ -1,0 +1,167 @@
+{
+ "id": "BWA_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  6,
+  7,
+  13,
+  15,
+  18,
+  23,
+  26,
+  31,
+  37,
+  43,
+  46,
+  53,
+  55,
+  61,
+  64,
+  70,
+  75,
+  81,
+  89,
+  94,
+  100,
+  105,
+  110,
+  117,
+  119,
+  124,
+  127,
+  130,
+  135,
+  141,
+  148,
+  153,
+  158
+ ],
+ "cer": [
+  0,
+  4,
+  5,
+  6,
+  7
+ ],
+ "fix": [
+  [
+   4,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   13,
+   " [FRELIMO]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   " [OA U]",
+   "",
+   "label"
+  ],
+  [
+   38,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   40,
+   "em-battled",
+   "embattled",
+   "hyphen"
+  ],
+  [
+   125,
+   "referendum s.",
+   "referendums.",
+   "spacing"
+  ],
+  [
+   127,
+   "onJSouthern",
+   "on Southern",
+   "ocr"
+  ],
+  [
+   133,
+   "avail-able",
+   "available",
+   "hyphen"
+  ],
+  [
+   147,
+   "Territory.1",
+   "Territory.",
+   "ocr"
+  ],
+  [
+   153,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "969dc9c2d7bc0ded761badc640026c9a4b5fbb30",
+ "layout": "lines",
+ "stats": {
+  "n_units": 167,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 43
+  },
+  "words_in": 3853,
+  "words_out": 3848,
+  "retention": 0.9987,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   95,
+   30,
+   23,
+   43,
+   145,
+   51,
+   93,
+   124,
+   105,
+   85,
+   113,
+   98,
+   94,
+   142,
+   83,
+   109,
+   169,
+   149,
+   76,
+   134,
+   121,
+   118,
+   114,
+   126,
+   100,
+   140,
+   83,
+   109,
+   114,
+   59,
+   112,
+   161,
+   166,
+   106,
+   115,
+   143
+  ],
+  "warnings": []
+ }
+}

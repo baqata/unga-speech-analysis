@@ -1,0 +1,109 @@
+{
+ "id": "PER_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  16,
+  19,
+  22,
+  28,
+  33,
+  38,
+  42,
+  45,
+  47,
+  51,
+  56,
+  63,
+  68,
+  73,
+  83,
+  87,
+  92,
+  96,
+  99
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "object,",
+   "object.",
+   "ocr"
+  ],
+  [
+   35,
+   "[377 (U] ",
+   "",
+   "label"
+  ],
+  [
+   56,
+   "77, ",
+   "",
+   "label"
+  ],
+  [
+   63,
+   "78, ",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "Francisco,",
+   "Francisco.",
+   "ocr"
+  ],
+  [
+   14,
+   " [377 A (V)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e59b5ab64ab94a64871b2fc9e85dce9cfead6b60",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 3232,
+  "words_out": 3220,
+  "retention": 0.9963,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   125,
+   209,
+   126,
+   129,
+   73,
+   182,
+   155,
+   142,
+   101,
+   127,
+   167,
+   106,
+   118,
+   217,
+   150,
+   155,
+   236,
+   151,
+   161,
+   146,
+   122,
+   122
+  ],
+  "warnings": []
+ }
+}

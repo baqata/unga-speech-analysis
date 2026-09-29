@@ -1,0 +1,59 @@
+{
+ "id": "JOR_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  12,
+  15,
+  18,
+  23,
+  28,
+  32,
+  36,
+  39,
+  42
+ ],
+ "cer": [
+  0,
+  42
+ ],
+ "fix": [
+  [
+   34,
+   "water- poorest",
+   "water-poorest",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f21800ea903a7f5096ee73172e17a69dcb771bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 903,
+  "words_out": 902,
+  "retention": 0.9989,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   15,
+   174,
+   76,
+   76,
+   84,
+   69,
+   81,
+   100,
+   65,
+   93,
+   67,
+   2
+  ],
+  "warnings": []
+ }
+}

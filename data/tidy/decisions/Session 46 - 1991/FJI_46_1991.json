@@ -1,0 +1,116 @@
+{
+ "id": "FJI_46_1991",
+ "drop": [
+  [
+   79,
+   79,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  9,
+  15,
+  20,
+  25,
+  30,
+  35,
+  37,
+  40,
+  46,
+  50,
+  53,
+  64,
+  66,
+  71,
+  75,
+  84,
+  93,
+  99,
+  105,
+  109,
+  115,
+  121
+ ],
+ "cer": [
+  0,
+  4,
+  9
+ ],
+ "fix": [
+  [
+   37,
+   "He are",
+   "We are",
+   "ocr"
+  ],
+  [
+   70,
+   "He urge",
+   "We urge",
+   "ocr"
+  ],
+  [
+   70,
+   "June 1992,",
+   "June 1992.",
+   "ocr"
+  ],
+  [
+   75,
+   "He must",
+   "We must",
+   "ocr"
+  ],
+  [
+   94,
+   "Ho change",
+   "No change",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d4078bd6d19189e62c05b322da95cef179143e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 3016,
+  "words_out": 3011,
+  "retention": 0.9983,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   100,
+   114,
+   164,
+   126,
+   121,
+   108,
+   96,
+   80,
+   120,
+   157,
+   120,
+   141,
+   213,
+   116,
+   116,
+   109,
+   192,
+   152,
+   106,
+   106,
+   111,
+   132,
+   122,
+   89
+  ],
+  "warnings": []
+ }
+}

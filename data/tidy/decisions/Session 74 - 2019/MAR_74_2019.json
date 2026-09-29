@@ -1,0 +1,70 @@
+{
+ "id": "MAR_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  15,
+  20,
+  22,
+  27,
+  29,
+  33,
+  35,
+  40,
+  48,
+  52,
+  58,
+  61,
+  64,
+  66,
+  68
+ ],
+ "cer": [],
+ "fix": [
+  [
+   27,
+   "Mohammed Vi’s",
+   "Mohammed VI’s",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5c024bcfe8cf04c84746c0b029fa3d5db6618491",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2168,
+  "words_out": 2166,
+  "retention": 0.9991,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   135,
+   99,
+   119,
+   88,
+   73,
+   85,
+   152,
+   71,
+   124,
+   66,
+   142,
+   212,
+   121,
+   134,
+   96,
+   71,
+   80,
+   60,
+   238
+  ],
+  "warnings": []
+ }
+}

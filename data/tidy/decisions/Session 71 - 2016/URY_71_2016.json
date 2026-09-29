@@ -1,0 +1,71 @@
+{
+ "id": "URY_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  14,
+  19,
+  25,
+  31,
+  37,
+  43,
+  51,
+  53,
+  55,
+  58
+ ],
+ "cer": [
+  0,
+  58
+ ],
+ "fix": [
+  [
+   3,
+   " (see A/70/ PV.16)",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "lenghthy",
+   "lengthy",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f44d54380cc6e2808fa0d23cd997c4d5f2a6123d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1640,
+  "words_out": 1637,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   91,
+   73,
+   134,
+   131,
+   121,
+   194,
+   172,
+   121,
+   155,
+   181,
+   67,
+   65,
+   61,
+   71
+  ],
+  "warnings": []
+ }
+}

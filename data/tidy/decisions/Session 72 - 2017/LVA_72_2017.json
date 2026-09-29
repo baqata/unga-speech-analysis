@@ -1,0 +1,74 @@
+{
+ "id": "LVA_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  17,
+  23,
+  28,
+  32,
+  34,
+  41,
+  46,
+  54,
+  59,
+  64,
+  71,
+  77,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   68,
+   "far- reaching",
+   "far-reaching",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "44cb5795dee7115e54ab1b6be86619228f53177f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1722,
+  "words_out": 1720,
+  "retention": 0.9988,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   57,
+   123,
+   121,
+   81,
+   80,
+   73,
+   65,
+   61,
+   115,
+   115,
+   208,
+   69,
+   128,
+   113,
+   116,
+   118,
+   77
+  ],
+  "warnings": []
+ }
+}

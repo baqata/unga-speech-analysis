@@ -1,0 +1,91 @@
+{
+ "id": "FRA_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  17,
+  24,
+  38,
+  54,
+  67,
+  80,
+  92,
+  114,
+  136,
+  143,
+  162,
+  177,
+  196,
+  202,
+  218,
+  240,
+  254,
+  267,
+  285,
+  296
+ ],
+ "cer": [
+  0,
+  17
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   62,
+   "year.",
+   "year,",
+   "ocr"
+  ],
+  [
+   131,
+   "others. United",
+   "others, United",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c2c4e36d1dd635d2e7d0177d6077c53b24cf0a5f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 313,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3589,
+  "words_out": 3589,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   41,
+   139,
+   82,
+   148,
+   179,
+   163,
+   157,
+   136,
+   246,
+   237,
+   79,
+   209,
+   170,
+   215,
+   73,
+   191,
+   237,
+   175,
+   149,
+   220,
+   133,
+   210
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "ARE_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  11,
+  15,
+  19,
+  24,
+  29,
+  32,
+  34,
+  39,
+  41,
+  44,
+  49,
+  54,
+  59,
+  63,
+  66,
+  69,
+  71,
+  75
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Iin",
+   "In",
+   "ocr"
+  ],
+  [
+   23,
+   "Thathasled",
+   "That has led",
+   "merged_word"
+  ],
+  [
+   71,
+   "TTo",
+   "To",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "435955b69e03a5d85b0cbedfc74d8cfbe975fd82",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2079,
+  "words_out": 2081,
+  "retention": 1.001,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   65,
+   80,
+   67,
+   97,
+   87,
+   92,
+   88,
+   167,
+   113,
+   73,
+   130,
+   86,
+   80,
+   88,
+   128,
+   116,
+   85,
+   75,
+   120,
+   64,
+   131,
+   49
+  ],
+  "warnings": []
+ }
+}

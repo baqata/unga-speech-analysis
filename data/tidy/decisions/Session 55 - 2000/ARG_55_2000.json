@@ -1,0 +1,102 @@
+{
+ "id": "ARG_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  23,
+  43,
+  67,
+  78,
+  93,
+  109,
+  120,
+  141,
+  162,
+  183,
+  195,
+  211,
+  233,
+  247,
+  270,
+  293,
+  307,
+  322,
+  333,
+  348,
+  370,
+  386
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   54,
+   "Asuncin",
+   "Asunción",
+   "encoding"
+  ],
+  [
+   155,
+   "SecretaryGeneral",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   236,
+   "consensusbuilding",
+   "consensus-building",
+   "hyphen"
+  ],
+  [
+   264,
+   "nonpermanent",
+   "non-permanent",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f0308cb82d54d5242fd9b24e6972f23fc062165",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 398,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3018,
+  "words_out": 3018,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   100,
+   86,
+   145,
+   181,
+   78,
+   112,
+   119,
+   85,
+   153,
+   168,
+   160,
+   97,
+   121,
+   158,
+   111,
+   188,
+   170,
+   100,
+   112,
+   89,
+   112,
+   167,
+   122,
+   84
+  ],
+  "warnings": []
+ }
+}

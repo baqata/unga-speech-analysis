@@ -1,0 +1,119 @@
+{
+ "id": "THA_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  13,
+  21,
+  26,
+  29,
+  33,
+  38,
+  41,
+  47,
+  52,
+  56,
+  63,
+  67,
+  71,
+  75,
+  86,
+  91,
+  96,
+  99,
+  103,
+  110,
+  116,
+  122,
+  126
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   13,
+   "Independence; of",
+   "independence of",
+   "ocr"
+  ],
+  [
+   39,
+   "Roh Tae Wco",
+   "Roh Tae Woo",
+   "ocr"
+  ],
+  [
+   85,
+   "public- awareness",
+   "public awareness",
+   "ocr"
+  ],
+  [
+   97,
+   "lethal-, insidious",
+   "lethal: insidious",
+   "ocr"
+  ],
+  [
+   116,
+   "inter eats",
+   "interests",
+   "split_word"
+  ],
+  [
+   119,
+   "as well, These",
+   "as well. These",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f60aa1ea08fa85f24972a888c69d1f0aeb99261b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2665,
+  "words_out": 2664,
+  "retention": 0.9996,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   83,
+   65,
+   81,
+   91,
+   139,
+   69,
+   70,
+   119,
+   110,
+   68,
+   112,
+   103,
+   93,
+   132,
+   65,
+   97,
+   87,
+   174,
+   79,
+   102,
+   80,
+   74,
+   88,
+   105,
+   147,
+   77,
+   154
+  ],
+  "warnings": []
+ }
+}

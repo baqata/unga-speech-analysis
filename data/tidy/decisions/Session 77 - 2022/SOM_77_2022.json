@@ -1,0 +1,72 @@
+{
+ "id": "SOM_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  15,
+  18,
+  21,
+  26,
+  28,
+  31,
+  34,
+  40,
+  44,
+  47,
+  52,
+  55,
+  59,
+  61,
+  65,
+  70
+ ],
+ "cer": [],
+ "fix": [
+  [
+   33,
+   "job- creating",
+   "job-creating",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ca5ddf1aedcc478d3d57df6a7adecb3100d14773",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2138,
+  "words_out": 2137,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   98,
+   67,
+   134,
+   99,
+   75,
+   115,
+   125,
+   73,
+   80,
+   85,
+   101,
+   96,
+   108,
+   159,
+   73,
+   137,
+   69,
+   149,
+   176,
+   118
+  ],
+  "warnings": []
+ }
+}

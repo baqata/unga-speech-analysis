@@ -1,0 +1,84 @@
+{
+ "id": "IDN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  19,
+  28,
+  31,
+  40,
+  47,
+  54,
+  61,
+  69,
+  74,
+  76,
+  85,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "seventy- second",
+   "seventy-second",
+   "hyphen"
+  ],
+  [
+   38,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   72,
+   "first- ever",
+   "first-ever",
+   "hyphen"
+  ],
+  [
+   73,
+   "follow- up",
+   "follow-up",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1102e05abc449354a0c6c9aca79743b57bb6cee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1750,
+  "words_out": 1746,
+  "retention": 0.9977,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   97,
+   61,
+   95,
+   87,
+   146,
+   85,
+   164,
+   101,
+   93,
+   120,
+   109,
+   118,
+   68,
+   139,
+   143,
+   120
+  ],
+  "warnings": []
+ }
+}

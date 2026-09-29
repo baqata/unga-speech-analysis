@@ -1,0 +1,93 @@
+{
+ "id": "LSO_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  15,
+  19,
+  23,
+  31,
+  36,
+  42,
+  47,
+  51,
+  60,
+  63,
+  67,
+  71,
+  81,
+  85,
+  88,
+  93
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   22,
+   " (Proceedings of the United Nations Conference on International Organization,",
+   "",
+   "label"
+  ],
+  [
+   22,
+   " final plenary session, San Francisco, 1945)",
+   "",
+   "label"
+  ],
+  [
+   27,
+   " (ibid.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dece8232eba6c4e295803eb40e4b6c5f401de2c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2056,
+  "words_out": 2038,
+  "retention": 0.9912,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   96,
+   76,
+   113,
+   99,
+   112,
+   158,
+   100,
+   165,
+   126,
+   62,
+   182,
+   89,
+   94,
+   66,
+   175,
+   77,
+   74,
+   89,
+   85
+  ],
+  "warnings": []
+ }
+}

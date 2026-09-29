@@ -1,0 +1,85 @@
+{
+ "id": "URY_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  21,
+  33,
+  41,
+  45,
+  52,
+  61,
+  68,
+  73,
+  79,
+  85,
+  95,
+  101,
+  105
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   62,
+   "peace”’.",
+   "peace”.",
+   "ocr"
+  ],
+  [
+   63,
+   " [General Assembly resolution 2373(XXII)]",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "unarmed”’.",
+   "unarmed”.",
+   "ocr"
+  ],
+  [
+   91,
+   " [General Assembly resolution 217(III)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 31 is the record's parenthetical English rendering of the French quotation from Corneille; kept as parenthetical text under the rules.",
+ "unitizer_version": 1,
+ "sha1": "1547cd45ecd9d4bf6093ad1ea18a51625ac70fe0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2118,
+  "words_out": 2086,
+  "retention": 0.9849,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   66,
+   90,
+   180,
+   201,
+   162,
+   77,
+   180,
+   122,
+   231,
+   82,
+   92,
+   128,
+   198,
+   94,
+   126,
+   57
+  ],
+  "warnings": []
+ }
+}

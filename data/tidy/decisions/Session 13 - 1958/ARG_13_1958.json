@@ -1,0 +1,136 @@
+{
+ "id": "ARG_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  13,
+  17,
+  21,
+  23,
+  26,
+  30,
+  34,
+  37,
+  42,
+  46,
+  51,
+  56,
+  58,
+  62,
+  67,
+  72,
+  74,
+  78,
+  83,
+  84,
+  88,
+  93,
+  97,
+  101,
+  103,
+  108,
+  113,
+  114,
+  119,
+  123
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "solidly- based",
+   "solidly-based",
+   "hyphen"
+  ],
+  [
+   12,
+   "stage,",
+   "stage.",
+   "ocr"
+  ],
+  [
+   22,
+   "lie based",
+   "be based",
+   "ocr"
+  ],
+  [
+   43,
+   "beer,",
+   "been",
+   "ocr"
+  ],
+  [
+   95,
+   "tills",
+   "this",
+   "ocr"
+  ],
+  [
+   112,
+   "the. allotment",
+   "the allotment",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 9 breaks off after 'chaotic and unpredictable', words appear to be missing.",
+ "unitizer_version": 1,
+ "sha1": "cd29c8c42c8d79dca999626a671ea1be06b391a6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 43
+  },
+  "words_in": 4246,
+  "words_out": 4244,
+  "retention": 0.9995,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   25,
+   123,
+   107,
+   187,
+   82,
+   125,
+   92,
+   95,
+   114,
+   137,
+   89,
+   169,
+   127,
+   152,
+   118,
+   84,
+   142,
+   136,
+   149,
+   75,
+   135,
+   143,
+   78,
+   91,
+   182,
+   79,
+   132,
+   101,
+   136,
+   258,
+   43,
+   225,
+   185,
+   128
+  ],
+  "warnings": []
+ }
+}

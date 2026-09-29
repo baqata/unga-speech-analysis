@@ -1,0 +1,84 @@
+{
+ "id": "VNM_65_2010",
+ "drop": [
+  [
+   38,
+   38,
+   "header_footer"
+  ],
+  [
+   84,
+   84,
+   "header_footer"
+  ],
+  [
+   132,
+   132,
+   "header_footer"
+  ],
+  [
+   178,
+   178,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  22,
+  33,
+  45,
+  54,
+  65,
+  72,
+  85,
+  96,
+  109,
+  119,
+  136,
+  152,
+  163,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Written statement layout with running headers (A/65/397) dropped; the in-text salutations \"Mr. President,\" open the paragraphs they introduce.",
+ "unitizer_version": 1,
+ "sha1": "3583c9f8578f7280b6645eef7c67ee5c4da7ba0e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 1970,
+  "words_out": 1966,
+  "retention": 0.998,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   90,
+   127,
+   126,
+   127,
+   101,
+   118,
+   72,
+   135,
+   124,
+   159,
+   101,
+   186,
+   155,
+   113,
+   168,
+   64
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "MLI_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  20,
+  23,
+  28,
+  30,
+  33,
+  36,
+  41,
+  45,
+  51,
+  57,
+  60,
+  62,
+  66,
+  71,
+  76,
+  81,
+  84,
+  88,
+  91,
+  96,
+  98,
+  103,
+  108,
+  122,
+  133,
+  135,
+  139,
+  141,
+  148
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   27,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   95,
+   "melting- pot",
+   "melting-pot",
+   "hyphen"
+  ],
+  [
+   6,
+   "PROT/ NV",
+   "PROT/NV",
+   "spacing"
+  ],
+  [
+   47,
+   "2022- 2024",
+   "2022-2024",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1247c0fb085c7b157168f7ce154ba7df6d46106a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 4433,
+  "words_out": 4427,
+  "retention": 0.9986,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   157,
+   167,
+   202,
+   108,
+   118,
+   104,
+   99,
+   177,
+   134,
+   126,
+   195,
+   175,
+   83,
+   86,
+   131,
+   164,
+   199,
+   139,
+   89,
+   126,
+   91,
+   147,
+   71,
+   162,
+   145,
+   260,
+   196,
+   112,
+   81,
+   72,
+   195,
+   116
+  ],
+  "warnings": []
+ }
+}

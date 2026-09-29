@@ -1,0 +1,56 @@
+{
+ "id": "TKM_52_1997",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  20,
+  35,
+  51,
+  75,
+  95,
+  108,
+  130,
+  152,
+  168,
+  189
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Apostrophes are missing in the source (\"Ukraine s\", \"Secretary-General s\"); left as is because a repair cannot add punctuation.",
+ "unitizer_version": 1,
+ "sha1": "5debe5b604654a4a5294241b1fe6156d659fe580",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1684,
+  "words_out": 1683,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   57,
+   29,
+   74,
+   123,
+   138,
+   189,
+   166,
+   109,
+   190,
+   179,
+   132,
+   188,
+   109
+  ],
+  "warnings": []
+ }
+}

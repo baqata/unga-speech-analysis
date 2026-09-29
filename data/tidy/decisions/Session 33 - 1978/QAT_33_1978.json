@@ -1,0 +1,141 @@
+{
+ "id": "QAT_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  12,
+  14,
+  16,
+  19,
+  23,
+  27,
+  32,
+  33,
+  35,
+  37,
+  41,
+  44,
+  46,
+  48,
+  53,
+  55,
+  59,
+  61,
+  65,
+  67,
+  70
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   2,
+   "the .General",
+   "the General",
+   "ocr"
+  ],
+  [
+   7,
+   "a. better",
+   "a better",
+   "ocr"
+  ],
+  [
+   11,
+   "extent? \"",
+   "extent?\"",
+   "ocr"
+  ],
+  [
+   28,
+   "was convinced for",
+   "was convened for",
+   "ocr"
+  ],
+  [
+   32,
+   " [resolution S-10/2J",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "developing - countries",
+   "developing countries",
+   "ocr"
+  ],
+  [
+   46,
+   "and1 deliberations",
+   "and deliberations",
+   "ocr"
+  ],
+  [
+   53,
+   "the . gloomiest",
+   "the gloomiest",
+   "ocr"
+  ],
+  [
+   67,
+   " [see Aj33/206, annex I, para. 65J",
+   "",
+   "label"
+  ],
+  [
+   69,
+   " [ibid., annex III, resolution on the Middle East, para. 21]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6187e6a65f093352e5fe29e7155f91b1409da328",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 3031,
+  "words_out": 3007,
+  "retention": 0.9921,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   105,
+   126,
+   73,
+   115,
+   83,
+   65,
+   80,
+   170,
+   140,
+   118,
+   77,
+   69,
+   76,
+   160,
+   131,
+   139,
+   93,
+   133,
+   128,
+   205,
+   190,
+   151,
+   86,
+   160,
+   134
+  ],
+  "warnings": []
+ }
+}

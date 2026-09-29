@@ -1,0 +1,78 @@
+{
+ "id": "MCO_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  30,
+  39,
+  57,
+  75,
+  88,
+  98,
+  111,
+  123,
+  135,
+  147,
+  162,
+  174,
+  183
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "Organizationís",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   108,
+   "Monacoís",
+   "Monaco’s",
+   "encoding"
+  ],
+  [
+   139,
+   "Childrenís",
+   "Children’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40c58de2b98567b9d4f9205e5b81d6216a45feaf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1503,
+  "words_out": 1503,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   104,
+   143,
+   62,
+   140,
+   144,
+   91,
+   84,
+   95,
+   97,
+   94,
+   98,
+   126,
+   94,
+   82,
+   49
+  ],
+  "warnings": []
+ }
+}

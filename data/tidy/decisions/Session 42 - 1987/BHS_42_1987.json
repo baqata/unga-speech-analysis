@@ -1,0 +1,92 @@
+{
+ "id": "BHS_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  18,
+  22,
+  27,
+  32,
+  35,
+  39,
+  44,
+  48,
+  54,
+  58,
+  63,
+  68,
+  71,
+  75,
+  79,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "Problems",
+   "problems",
+   "ocr"
+  ],
+  [
+   23,
+   "side?",
+   "side;",
+   "ocr"
+  ],
+  [
+   48,
+   "aid so",
+   "did so",
+   "ocr"
+  ],
+  [
+   76,
+   "year, ICDAIT",
+   "year. ICDAIT",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "99d3620caf2604ccc50f81dc44f683b59a96e02d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2611,
+  "words_out": 2611,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   91,
+   99,
+   75,
+   197,
+   141,
+   143,
+   121,
+   92,
+   144,
+   171,
+   107,
+   122,
+   115,
+   143,
+   143,
+   139,
+   172,
+   108,
+   149,
+   139
+  ],
+  "warnings": []
+ }
+}

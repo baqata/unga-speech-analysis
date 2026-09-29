@@ -1,0 +1,88 @@
+{
+ "id": "JPN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  26,
+  37,
+  48,
+  62,
+  73,
+  86,
+  94,
+  107,
+  119,
+  130,
+  143,
+  153,
+  164,
+  176,
+  186,
+  196,
+  205,
+  226,
+  245,
+  260,
+  280,
+  295,
+  306
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   " (see )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The passage on United Nations reform begins inside unit 268, so it stays in the paragraph on Afghanistan.",
+ "unitizer_version": 1,
+ "sha1": "c91e908ae57e5979d834823968a8b9238ff3ea2b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 314,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2413,
+  "words_out": 2403,
+  "retention": 0.9959,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   60,
+   69,
+   64,
+   90,
+   83,
+   117,
+   79,
+   98,
+   63,
+   105,
+   101,
+   88,
+   101,
+   84,
+   78,
+   94,
+   78,
+   69,
+   67,
+   148,
+   131,
+   105,
+   158,
+   120,
+   87,
+   66
+  ],
+  "warnings": []
+ }
+}

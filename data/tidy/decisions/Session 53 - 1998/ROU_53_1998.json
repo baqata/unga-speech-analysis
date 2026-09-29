@@ -1,0 +1,101 @@
+{
+ "id": "ROU_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  23,
+  45,
+  62,
+  73,
+  88,
+  100,
+  109,
+  126,
+  137,
+  149,
+  158,
+  178,
+  189,
+  211,
+  231,
+  248,
+  267
+ ],
+ "cer": [
+  0,
+  7
+ ],
+ "fix": [
+  [
+   131,
+   "Children?s",
+   "Children’s",
+   "encoding"
+  ],
+  [
+   181,
+   "Sant?Egidio",
+   "Sant’Egidio",
+   "encoding"
+  ],
+  [
+   186,
+   "Romania?s",
+   "Romania’s",
+   "encoding"
+  ],
+  [
+   197,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ],
+  [
+   217,
+   "Romania?s",
+   "Romania’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "813d8a192e371c0bbf480da9c947f43deb804443",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 274,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2234,
+  "words_out": 2232,
+  "retention": 0.9991,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   51,
+   48,
+   96,
+   160,
+   148,
+   87,
+   133,
+   112,
+   75,
+   130,
+   83,
+   91,
+   72,
+   169,
+   92,
+   180,
+   159,
+   139,
+   149,
+   58
+  ],
+  "warnings": []
+ }
+}

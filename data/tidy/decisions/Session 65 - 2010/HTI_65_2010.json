@@ -1,0 +1,55 @@
+{
+ "id": "HTI_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  38,
+  55,
+  65,
+  81,
+  95,
+  110,
+  131,
+  149,
+  159,
+  172,
+  188,
+  199
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03367541504c34d6c49ef4482c32a6fd852ca2ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1647,
+  "words_out": 1644,
+  "retention": 0.9982,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   136,
+   164,
+   127,
+   76,
+   132,
+   118,
+   109,
+   164,
+   156,
+   84,
+   89,
+   132,
+   80,
+   77
+  ],
+  "warnings": []
+ }
+}

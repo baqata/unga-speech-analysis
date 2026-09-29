@@ -1,0 +1,92 @@
+{
+ "id": "CMR_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  15,
+  18,
+  20,
+  26,
+  34,
+  40,
+  43,
+  47,
+  49,
+  51,
+  56,
+  57,
+  60,
+  69,
+  73,
+  78,
+  83,
+  86,
+  89
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Sit",
+   "Sir",
+   "ocr"
+  ],
+  [
+   11,
+   "ate gradually",
+   "are gradually",
+   "ocr"
+  ],
+  [
+   63,
+   "fat from",
+   "far from",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5752498c92781f3ab0bfec52eddc2d9e422197b3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2488,
+  "words_out": 2488,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   167,
+   143,
+   126,
+   90,
+   93,
+   75,
+   171,
+   200,
+   76,
+   138,
+   78,
+   65,
+   105,
+   149,
+   81,
+   64,
+   205,
+   89,
+   73,
+   107,
+   108,
+   73,
+   12
+  ],
+  "warnings": []
+ }
+}

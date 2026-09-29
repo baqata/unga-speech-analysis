@@ -1,0 +1,88 @@
+{
+ "id": "SLB_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  25,
+  43,
+  57,
+  66,
+  76,
+  86,
+  95,
+  108,
+  124,
+  144,
+  157,
+  178,
+  188,
+  197,
+  206,
+  223,
+  239,
+  258,
+  264,
+  279,
+  286,
+  301
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   202,
+   "(resolution 66/288, annex)",
+   "",
+   "label"
+  ],
+  [
+   272,
+   "f lights",
+   "flights",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "526de9944f853b0fbbb83810ce07aaa55f467de2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 307,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2441,
+  "words_out": 2433,
+  "retention": 0.9967,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   67,
+   130,
+   144,
+   117,
+   72,
+   79,
+   70,
+   74,
+   99,
+   125,
+   161,
+   96,
+   169,
+   86,
+   77,
+   60,
+   133,
+   135,
+   155,
+   48,
+   113,
+   58,
+   119,
+   46
+  ],
+  "warnings": []
+ }
+}

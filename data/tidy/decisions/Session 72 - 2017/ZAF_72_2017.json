@@ -1,0 +1,109 @@
+{
+ "id": "ZAF_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  19,
+  25,
+  28,
+  33,
+  39,
+  41,
+  47,
+  51,
+  55,
+  60,
+  67,
+  74
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   4,
+   "seventy- first",
+   "seventy-first",
+   "hyphen"
+  ],
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   47,
+   "nuclear- weapon-ban",
+   "nuclear-weapon-ban",
+   "hyphen"
+  ],
+  [
+   53,
+   "long- awaited",
+   "long-awaited",
+   "hyphen"
+  ],
+  [
+   71,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   6,
+   "congratulateMr.",
+   "congratulate Mr.",
+   "merged_word"
+  ],
+  [
+   7,
+   "successsful",
+   "successful",
+   "ocr"
+  ],
+  [
+   13,
+   "South.While",
+   "South. While",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "80a800188c4050e59dd5a45574016e4debcf6ee0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1822,
+  "words_out": 1819,
+  "retention": 0.9984,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   62,
+   79,
+   132,
+   154,
+   145,
+   60,
+   129,
+   163,
+   80,
+   144,
+   102,
+   75,
+   100,
+   157,
+   186,
+   51
+  ],
+  "warnings": []
+ }
+}

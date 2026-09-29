@@ -1,0 +1,47 @@
+{
+ "id": "SVN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  33,
+  50,
+  66,
+  84,
+  96,
+  107,
+  130
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61490647ef5e2749330677f7cfe8e4736be53f6e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1118,
+  "words_out": 1117,
+  "retention": 0.9991,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   75,
+   162,
+   135,
+   142,
+   147,
+   100,
+   94,
+   172,
+   90
+  ],
+  "warnings": []
+ }
+}

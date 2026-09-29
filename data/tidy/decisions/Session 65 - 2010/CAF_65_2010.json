@@ -1,0 +1,58 @@
+{
+ "id": "CAF_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  42,
+  67,
+  82,
+  101,
+  120,
+  139,
+  152,
+  164,
+  176,
+  195,
+  204,
+  215
+ ],
+ "cer": [
+  0,
+  215
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a73423235ae1a6329b8e9e001c32b8806ae09f31",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1702,
+  "words_out": 1700,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   121,
+   217,
+   193,
+   115,
+   149,
+   157,
+   142,
+   89,
+   95,
+   92,
+   147,
+   72,
+   79,
+   32
+  ],
+  "warnings": []
+ }
+}

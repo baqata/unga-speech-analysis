@@ -1,0 +1,147 @@
+{
+ "id": "AUS_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  19,
+  21,
+  25,
+  32,
+  35,
+  40,
+  49,
+  52,
+  58,
+  61,
+  66,
+  72,
+  78,
+  83,
+  86,
+  90,
+  93,
+  95,
+  101,
+  103,
+  108,
+  112,
+  115,
+  121
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   " [UNCURK]",
+   "",
+   "label"
+  ],
+  [
+   34,
+   "t he",
+   "the",
+   "spacing"
+  ],
+  [
+   69,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "self- government",
+   "self-government",
+   "spacing"
+  ],
+  [
+   83,
+   "countries .",
+   "countries.",
+   "spacing"
+  ],
+  [
+   93,
+   " [IMF]",
+   "",
+   "label"
+  ],
+  [
+   98,
+   " [see A/9330 and Corr.",
+   "",
+   "label"
+  ],
+  [
+   99,
+   "1, p. 99]",
+   "",
+   "label"
+  ],
+  [
+   101,
+   "poorly , off",
+   "poorly off",
+   "ocr"
+  ],
+  [
+   112,
+   "nuclear- weapons",
+   "nuclear-weapons",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7252b49a588eb5abeda0e462020a3a5954f51710",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 44
+  },
+  "words_in": 3910,
+  "words_out": 3888,
+  "retention": 0.9944,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   151,
+   85,
+   187,
+   162,
+   80,
+   116,
+   208,
+   98,
+   166,
+   176,
+   78,
+   184,
+   112,
+   133,
+   138,
+   171,
+   145,
+   100,
+   115,
+   114,
+   77,
+   189,
+   123,
+   144,
+   138,
+   131,
+   208,
+   159
+  ],
+  "warnings": []
+ }
+}

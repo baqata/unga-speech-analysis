@@ -1,0 +1,62 @@
+{
+ "id": "SVN_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  15,
+  23,
+  30,
+  38,
+  46,
+  55,
+  58,
+  63,
+  67,
+  73,
+  80,
+  90
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   "side-by side-in",
+   "side-by-side in",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "24e9e347b88d93fdb27ae0d163d25517b339c238",
+ "layout": "lines",
+ "stats": {
+  "n_units": 91,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1744,
+  "words_out": 1741,
+  "retention": 0.9983,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   68,
+   88,
+   145,
+   157,
+   131,
+   159,
+   163,
+   122,
+   77,
+   85,
+   66,
+   114,
+   137,
+   194,
+   35
+  ],
+  "warnings": []
+ }
+}

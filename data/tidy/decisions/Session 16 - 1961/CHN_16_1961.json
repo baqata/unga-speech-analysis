@@ -1,0 +1,219 @@
+{
+ "id": "CHN_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  18,
+  24,
+  30,
+  34,
+  38,
+  43,
+  51,
+  56,
+  63,
+  71,
+  74,
+  79,
+  86,
+  91,
+  97,
+  104,
+  112,
+  119,
+  127,
+  133,
+  138,
+  143,
+  150,
+  158,
+  163,
+  171
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "in-a",
+   "in a",
+   "ocr"
+  ],
+  [
+   15,
+   "ill- founded",
+   "ill-founded",
+   "hyphen"
+  ],
+  [
+   36,
+   "Korea.&",
+   "Korea.",
+   "ocr"
+  ],
+  [
+   38,
+   "to* function",
+   "to function",
+   "ocr"
+  ],
+  [
+   42,
+   ".the",
+   "the",
+   "ocr"
+  ],
+  [
+   51,
+   "the-first",
+   "the first",
+   "ocr"
+  ],
+  [
+   51,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   63,
+   "``On",
+   "\"On",
+   "ocr"
+  ],
+  [
+   70,
+   "road:",
+   "road",
+   "ocr"
+  ],
+  [
+   82,
+   "to>* reflect",
+   "to reflect",
+   "ocr"
+  ],
+  [
+   82,
+   "negotiators.'",
+   "negotiators.",
+   "ocr"
+  ],
+  [
+   84,
+   "dear by",
+   "clear by",
+   "ocr"
+  ],
+  [
+   86,
+   " [1013th meeting)",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "and' Estonia",
+   "and Estonia",
+   "ocr"
+  ],
+  [
+   106,
+   "gabbled",
+   "gobbled",
+   "ocr"
+  ],
+  [
+   108,
+   "What, it",
+   "What it",
+   "ocr"
+  ],
+  [
+   115,
+   "o££",
+   "off",
+   "ocr"
+  ],
+  [
+   118,
+   "Germany.'",
+   "Germany.",
+   "ocr"
+  ],
+  [
+   135,
+   "Dr, Sun's",
+   "Dr. Sun's",
+   "ocr"
+  ],
+  [
+   163,
+   "reform. programme",
+   "reform programme",
+   "ocr"
+  ],
+  [
+   149,
+   "Communism,",
+   "Communism.",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing between units 32 and 33 (a page break).",
+ "unitizer_version": 1,
+ "sha1": "95c381c0859bf684e4808f9d2c64380d433d5633",
+ "layout": "lines",
+ "stats": {
+  "n_units": 180,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 36
+  },
+  "words_in": 3783,
+  "words_out": 3778,
+  "retention": 0.9987,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   115,
+   142,
+   154,
+   136,
+   92,
+   104,
+   127,
+   96,
+   195,
+   132,
+   139,
+   164,
+   72,
+   101,
+   146,
+   95,
+   94,
+   105,
+   223,
+   128,
+   190,
+   121,
+   136,
+   74,
+   146,
+   125,
+   83,
+   126,
+   217
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

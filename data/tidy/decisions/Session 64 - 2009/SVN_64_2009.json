@@ -1,0 +1,53 @@
+{
+ "id": "SVN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  52,
+  71,
+  86,
+  111,
+  135,
+  154,
+  180,
+  195,
+  213
+ ],
+ "cer": [
+  13
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6c6630a9c89bc0cb0cbe2f0a95db1b4786c4282e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 222,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1774,
+  "words_out": 1773,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   116,
+   92,
+   210,
+   151,
+   115,
+   189,
+   200,
+   155,
+   194,
+   129,
+   143,
+   79
+  ],
+  "warnings": []
+ }
+}

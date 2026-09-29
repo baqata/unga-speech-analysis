@@ -1,0 +1,75 @@
+{
+ "id": "SRB_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  8,
+  11,
+  21,
+  25,
+  29,
+  33,
+  35,
+  37,
+  40,
+  44,
+  48,
+  55,
+  62,
+  66
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   57,
+   "video- game",
+   "video-game",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3a8fb4a7f1e88ee590f93cf382f8dbb1b7845b5b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1727,
+  "words_out": 1722,
+  "retention": 0.9971,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   104,
+   47,
+   84,
+   85,
+   222,
+   78,
+   108,
+   104,
+   85,
+   69,
+   135,
+   75,
+   106,
+   96,
+   224,
+   71,
+   29
+  ],
+  "warnings": []
+ }
+}

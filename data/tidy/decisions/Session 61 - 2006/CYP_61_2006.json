@@ -1,0 +1,57 @@
+{
+ "id": "CYP_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  44,
+  57,
+  67,
+  83,
+  98,
+  122,
+  140,
+  152,
+  179,
+  203,
+  213,
+  226
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4885ae4191d59e6a2ff6c829e823903c48c9f159",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 243,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1932,
+  "words_out": 1927,
+  "retention": 0.9974,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   148,
+   191,
+   94,
+   74,
+   122,
+   122,
+   188,
+   140,
+   97,
+   225,
+   190,
+   86,
+   99,
+   151
+  ],
+  "warnings": []
+ }
+}

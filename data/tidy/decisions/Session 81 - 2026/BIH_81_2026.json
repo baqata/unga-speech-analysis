@@ -1,0 +1,135 @@
+{
+ "id": "BIH_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   72,
+   72,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  10,
+  16,
+  23,
+  33,
+  39,
+  44,
+  48,
+  56,
+  63
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   39,
+   "Bosnia-Dezugovina",
+   "Bosnia-Herzegovina",
+   "asr_name"
+  ],
+  [
+   56,
+   "Decegovina",
+   "Herzegovina",
+   "asr_name"
+  ],
+  [
+   61,
+   "cessation",
+   "secession",
+   "asr_term"
+  ],
+  [
+   62,
+   "Datum",
+   "Dayton",
+   "asr_name"
+  ],
+  [
+   31,
+   "cooperation, cooperation,",
+   "cooperation,",
+   "asr_term"
+  ],
+  [
+   32,
+   "solidarity, solidarity,",
+   "solidarity,",
+   "asr_term"
+  ],
+  [
+   33,
+   "freedoms, freedoms,",
+   "freedoms,",
+   "asr_term"
+  ],
+  [
+   2,
+   "81. session",
+   "81st session",
+   "asr_term"
+  ],
+  [
+   9,
+   "they",
+   "there",
+   "asr_term"
+  ],
+  [
+   9,
+   "though",
+   "those",
+   "asr_term"
+  ],
+  [
+   21,
+   "crisis",
+   "crises",
+   "asr_term"
+  ],
+  [
+   57,
+   "Bosnia and",
+   "Bosnia and Herzegovina and",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Secession and Dayton per Spanish channel ('secesión', 'Dayton'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 31 'cooperation, cooperation,' -> 'cooperation,'; unit 32 'solidarity, solidarity,' -> 'solidarity,'; unit 33 'freedoms, freedoms,' -> 'freedoms,'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 2 '81. session' -> '81st session' (the ordinal 'eighty-first' written as '81.'). Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 9 'they' -> 'there' (decodes hear 'they' only at 0.52 / 0.47; 'they are still though seeking' does not fit; ES 'sigue habiendo gente que' = there are still people); spot 2 unit 9 'though' -> 'those' ('though' does not fit the sentence and sounds like 'those'; ES 'sigue habiendo gente que intenta' confirms; decode window does not reach the word); spot 3 unit 21 'crisis' -> 'crises' (decodes 'crisis' only 0.82 / 0.61; verb 'are' and 'interconnected' need the plural; ES 'Las crisis globales mayores están ... relacionadas' plural); spot 12 unit 57 'Bosnia and' -> 'Bosnia and Herzegovina and' (2026 exception: both decodes and three re-decodes (probe 714-716 s) hear 'Bosnia and Herzegovina and the region' (and 0.63-0.78, Herzegovina/Dercegovina 0.48-0.80, low only from the name's spelling); ES 'seguridad de Bosnia y Herzegovina y toda la región')",
+ "unitizer_version": 1,
+ "sha1": "f287cc7cc284ef8070db0810a6202b4828f27ad7",
+ "layout": "single",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1550,
+  "words_out": 1500,
+  "retention": 0.9677,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   42,
+   143,
+   107,
+   156,
+   208,
+   184,
+   64,
+   76,
+   170,
+   210,
+   140
+  ],
+  "warnings": []
+ }
+}

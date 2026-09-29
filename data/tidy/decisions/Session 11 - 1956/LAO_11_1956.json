@@ -1,0 +1,93 @@
+{
+ "id": "LAO_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  14,
+  19,
+  24,
+  26,
+  32,
+  33,
+  38,
+  40,
+  41,
+  46,
+  49,
+  55,
+  58,
+  61,
+  64,
+  67,
+  70,
+  74
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   33,
+   "respect. for",
+   "respect for",
+   "ocr"
+  ],
+  [
+   64,
+   "beet!",
+   "been",
+   "ocr"
+  ],
+  [
+   64,
+   " [1004 (ES-II), 1006 (ES-II), and 1007 (ES-II)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1531739ee42e10c9194d79c96bdf08669209e2a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 23
+  },
+  "words_in": 2476,
+  "words_out": 2468,
+  "retention": 0.9968,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   84,
+   107,
+   122,
+   93,
+   182,
+   140,
+   81,
+   147,
+   61,
+   137,
+   85,
+   83,
+   153,
+   110,
+   173,
+   85,
+   114,
+   96,
+   113,
+   80,
+   136,
+   86
+  ],
+  "warnings": []
+ }
+}

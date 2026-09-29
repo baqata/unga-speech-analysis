@@ -1,0 +1,91 @@
+{
+ "id": "NPL_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  7,
+  10,
+  16,
+  19,
+  23,
+  30,
+  33,
+  38,
+  44,
+  46,
+  47,
+  50,
+  58,
+  62,
+  68,
+  73,
+  77,
+  81,
+  86,
+  90,
+  93
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   24,
+   "good- neighbourly",
+   "good-neighbourly",
+   "hyphen"
+  ],
+  [
+   46,
+   "forward- looking",
+   "forward-looking",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f56131f984564b4600520a6d295f9e0c31c8377",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 2145,
+  "words_out": 2138,
+  "retention": 0.9967,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   29,
+   128,
+   51,
+   89,
+   123,
+   68,
+   137,
+   136,
+   67,
+   97,
+   118,
+   61,
+   34,
+   62,
+   115,
+   104,
+   122,
+   105,
+   66,
+   136,
+   101,
+   76,
+   89,
+   24
+  ],
+  "warnings": []
+ }
+}

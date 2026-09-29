@@ -1,0 +1,71 @@
+{
+ "id": "IND_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  15,
+  20,
+  27,
+  33,
+  39,
+  48,
+  52,
+  57,
+  62,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "can.",
+   "can",
+   "ocr"
+  ],
+  [
+   38,
+   " [286th meeting, paras. 93-96]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "907e11de5ce05abe70581ee25b304834e1559e9a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 10
+  },
+  "words_in": 2082,
+  "words_out": 2076,
+  "retention": 0.9971,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   31,
+   115,
+   169,
+   237,
+   129,
+   195,
+   140,
+   158,
+   204,
+   108,
+   137,
+   166,
+   92,
+   195
+  ],
+  "warnings": []
+ }
+}

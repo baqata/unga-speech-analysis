@@ -1,0 +1,72 @@
+{
+ "id": "FJI_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  17,
+  22,
+  26,
+  32,
+  39,
+  45,
+  50,
+  55,
+  59,
+  62,
+  67,
+  77,
+  86,
+  93,
+  100
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   88,
+   "net- zero",
+   "net-zero",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "899119e682c6e8e794c3a6f0506c2041a43e99c5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2195,
+  "words_out": 2194,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   28,
+   125,
+   127,
+   129,
+   125,
+   107,
+   164,
+   156,
+   137,
+   106,
+   116,
+   115,
+   78,
+   108,
+   154,
+   155,
+   106,
+   121,
+   37
+  ],
+  "warnings": []
+ }
+}

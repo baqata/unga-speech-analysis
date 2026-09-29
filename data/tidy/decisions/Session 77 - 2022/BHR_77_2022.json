@@ -1,0 +1,105 @@
+{
+ "id": "BHR_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  7,
+  10,
+  11,
+  13,
+  17,
+  19,
+  20,
+  23,
+  25,
+  26,
+  30,
+  32,
+  35,
+  36,
+  38,
+  40,
+  43
+ ],
+ "cer": [
+  0,
+  43
+ ],
+ "fix": [
+  [
+   11,
+   "A1 Khalifa",
+   "Al Khalifa",
+   "ocr"
+  ],
+  [
+   13,
+   "A1 Ula",
+   "Al Ula",
+   "ocr"
+  ],
+  [
+   25,
+   "Isa A1",
+   "Isa Al",
+   "ocr"
+  ],
+  [
+   25,
+   "Hamad A1",
+   "Hamad Al",
+   "ocr"
+  ],
+  [
+   11,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ],
+  [
+   17,
+   "Palestinian- Israeli",
+   "Palestinian-Israeli",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ee09709eef65ead631eee546d6db2ed9fdee51d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2289,
+  "words_out": 2287,
+  "retention": 0.9991,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   135,
+   171,
+   89,
+   121,
+   67,
+   103,
+   143,
+   116,
+   89,
+   101,
+   107,
+   100,
+   141,
+   139,
+   148,
+   96,
+   109,
+   103,
+   145,
+   64
+  ],
+  "warnings": []
+ }
+}

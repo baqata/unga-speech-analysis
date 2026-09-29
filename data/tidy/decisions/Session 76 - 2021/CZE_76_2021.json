@@ -1,0 +1,86 @@
+{
+ "id": "CZE_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  19,
+  29,
+  33,
+  37,
+  44,
+  48,
+  54,
+  58,
+  65,
+  72,
+  74,
+  76
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "spacing"
+  ],
+  [
+   64,
+   "Turing",
+   "Turning",
+   "ocr"
+  ],
+  [
+   74,
+   "rules- based",
+   "rules-based",
+   "spacing"
+  ],
+  [
+   75,
+   "Indo- Pacific",
+   "Indo-Pacific",
+   "spacing"
+  ],
+  [
+   79,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "22f08a877a982ebfb3ba00701cb50fe449cf5bf4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1636,
+  "words_out": 1630,
+  "retention": 0.9963,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   131,
+   135,
+   76,
+   174,
+   73,
+   72,
+   110,
+   78,
+   154,
+   77,
+   195,
+   149,
+   48,
+   66,
+   92
+  ],
+  "warnings": []
+ }
+}

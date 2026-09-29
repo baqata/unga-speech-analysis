@@ -1,0 +1,73 @@
+{
+ "id": "SLB_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  31,
+  43,
+  50,
+  68,
+  82,
+  92,
+  110,
+  118,
+  127,
+  137,
+  145
+ ],
+ "cer": [
+  0,
+  145
+ ],
+ "fix": [
+  [
+   4,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   77,
+   "conventions.",
+   "conventions,",
+   "ocr"
+  ],
+  [
+   103,
+   "planning.",
+   "planning,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b614b8dddfaede6dbfa2fd807e96645dacb18d8c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1611,
+  "words_out": 1611,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   123,
+   200,
+   141,
+   80,
+   200,
+   143,
+   105,
+   182,
+   88,
+   84,
+   104,
+   86,
+   75
+  ],
+  "warnings": []
+ }
+}

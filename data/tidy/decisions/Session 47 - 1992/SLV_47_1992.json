@@ -1,0 +1,99 @@
+{
+ "id": "SLV_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  32,
+  42,
+  49,
+  61,
+  69,
+  80,
+  87,
+  96,
+  102,
+  113,
+  127,
+  141,
+  153,
+  169,
+  185,
+  199,
+  212,
+  225,
+  235,
+  249
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [
+  [
+   3,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   10,
+   "predecessor.",
+   "predecessor,",
+   "ocr"
+  ],
+  [
+   96,
+   "it-´",
+   "its",
+   "ocr"
+  ],
+  [
+   140,
+   " (A/47/277, para. 82)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "156ca8062dea320f4ea9a74f7faccba11dd746ed",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 258,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 1
+  },
+  "words_in": 3037,
+  "words_out": 3034,
+  "retention": 0.999,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   151,
+   198,
+   111,
+   76,
+   157,
+   87,
+   132,
+   73,
+   100,
+   72,
+   129,
+   156,
+   158,
+   143,
+   209,
+   192,
+   173,
+   160,
+   160,
+   115,
+   167,
+   115
+  ],
+  "warnings": []
+ }
+}

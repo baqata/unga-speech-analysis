@@ -1,0 +1,125 @@
+{
+ "id": "GHA_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  19,
+  22,
+  27,
+  31,
+  35,
+  41,
+  47,
+  52,
+  58,
+  64,
+  68,
+  72,
+  77,
+  81,
+  86,
+  87,
+  91,
+  97,
+  102,
+  105,
+  110,
+  115,
+  121,
+  127,
+  132
+ ],
+ "cer": [
+  0,
+  132
+ ],
+ "fix": [
+  [
+   62,
+   "solution, Furthermore",
+   "solution. Furthermore",
+   "ocr"
+  ],
+  [
+   74,
+   "government. of",
+   "government of",
+   "ocr"
+  ],
+  [
+   83,
+   "in. all",
+   "in all",
+   "ocr"
+  ],
+  [
+   86,
+   "have- nots \"",
+   "have-nots\"",
+   "hyphen"
+  ],
+  [
+   115,
+   "so me times",
+   "sometimes",
+   "split_word"
+  ],
+  [
+   129,
+   " [1991 A and B (XVIII)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d23f6996cc7262952f49388e75decf85e16e1afa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3608,
+  "words_out": 3599,
+  "retention": 0.9975,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   149,
+   134,
+   139,
+   141,
+   133,
+   121,
+   122,
+   82,
+   138,
+   164,
+   141,
+   171,
+   169,
+   81,
+   94,
+   130,
+   113,
+   141,
+   68,
+   109,
+   113,
+   161,
+   112,
+   107,
+   127,
+   119,
+   121,
+   102,
+   97
+  ],
+  "warnings": []
+ }
+}

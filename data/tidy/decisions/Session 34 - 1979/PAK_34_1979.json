@@ -1,0 +1,200 @@
+{
+ "id": "PAK_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  17,
+  21,
+  28,
+  34,
+  39,
+  43,
+  47,
+  53,
+  60,
+  62,
+  68,
+  76,
+  81,
+  87,
+  91,
+  95,
+  100,
+  104,
+  108,
+  112,
+  117,
+  123,
+  129,
+  131,
+  139,
+  143,
+  151,
+  153,
+  160,
+  166,
+  169,
+  173,
+  177,
+  179,
+  185,
+  187,
+  191
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   38,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "spacing"
+  ],
+  [
+   42,
+   "relations,",
+   "relations.",
+   "ocr"
+  ],
+  [
+   46,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   103,
+   "dis-armament",
+   "disarmament",
+   "hyphen"
+  ],
+  [
+   104,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   107,
+   "high- priority",
+   "high-priority",
+   "spacing"
+  ],
+  [
+   109,
+   "test- Dan",
+   "test-ban",
+   "ocr"
+  ],
+  [
+   116,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   117,
+   "ever- present",
+   "ever-present",
+   "spacing"
+  ],
+  [
+   140,
+   "oil, Nuclear",
+   "oil. Nuclear",
+   "ocr"
+  ],
+  [
+   144,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "spacing"
+  ],
+  [
+   147,
+   "weapon- free",
+   "weapon-free",
+   "spacing"
+  ],
+  [
+   150,
+   "non- proliferation",
+   "non-proliferation",
+   "spacing"
+  ],
+  [
+   186,
+   "all-its",
+   "all its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "43b0dbc0b1ef7131a403426e4be9975107862aa8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 193,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 56
+  },
+  "words_in": 4942,
+  "words_out": 4930,
+  "retention": 0.9976,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   126,
+   97,
+   100,
+   86,
+   180,
+   133,
+   142,
+   53,
+   86,
+   133,
+   135,
+   62,
+   126,
+   185,
+   123,
+   130,
+   122,
+   123,
+   119,
+   92,
+   122,
+   137,
+   127,
+   168,
+   130,
+   70,
+   210,
+   123,
+   172,
+   82,
+   105,
+   180,
+   169,
+   117,
+   122,
+   66,
+   163,
+   73,
+   172,
+   69
+  ],
+  "warnings": []
+ }
+}

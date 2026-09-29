@@ -1,0 +1,100 @@
+{
+ "id": "CAF_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  11,
+  16,
+  21,
+  30,
+  38,
+  41,
+  47,
+  54,
+  57,
+  61,
+  64,
+  70,
+  78,
+  81,
+  83,
+  84,
+  92,
+  94,
+  99,
+  101,
+  106
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "the ether",
+   "the other",
+   "ocr"
+  ],
+  [
+   57,
+   "those-, who",
+   "those who",
+   "ocr"
+  ],
+  [
+   76,
+   "so fa?",
+   "so far",
+   "ocr"
+  ],
+  [
+   83,
+   "seventy- seven",
+   "seventy-seven",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fb22b5821ce41b5064e39151a3bc53ca79516fdc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2951,
+  "words_out": 2942,
+  "retention": 0.997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   227,
+   83,
+   129,
+   97,
+   174,
+   162,
+   76,
+   114,
+   201,
+   116,
+   140,
+   88,
+   129,
+   138,
+   128,
+   106,
+   100,
+   277,
+   60,
+   158,
+   84,
+   105,
+   50
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "id": "MAR_29_1974",
+ "drop": [
+  [
+   14,
+   22,
+   "other_speaker"
+  ],
+  [
+   99,
+   99,
+   "noise"
+  ],
+  [
+   106,
+   106,
+   "noise"
+  ],
+  [
+   109,
+   109,
+   "noise"
+  ],
+  [
+   133,
+   133,
+   "noise"
+  ],
+  [
+   178,
+   178,
+   "noise"
+  ],
+  [
+   189,
+   189,
+   "noise"
+  ],
+  [
+   192,
+   192,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  10,
+  23,
+  29,
+  33,
+  36,
+  39,
+  43,
+  47,
+  50,
+  57,
+  59,
+  60,
+  61,
+  65,
+  69,
+  74,
+  76,
+  80,
+  85,
+  88,
+  94,
+  100,
+  103,
+  110,
+  113,
+  121,
+  125,
+  134,
+  141,
+  144,
+  150,
+  155,
+  160,
+  163,
+  165,
+  167,
+  172,
+  179,
+  181,
+  186,
+  190,
+  193,
+  195,
+  198,
+  200,
+  204,
+  207
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   13,
+   "security . It",
+   "security. It",
+   "spacing"
+  ],
+  [
+   51,
+   "anxiety .",
+   "anxiety.",
+   "spacing"
+  ],
+  [
+   58,
+   "guarantee, the",
+   "guarantee the",
+   "ocr"
+  ],
+  [
+   59,
+   "security .",
+   "security.",
+   "spacing"
+  ],
+  [
+   60,
+   "could hot",
+   "could not",
+   "ocr"
+  ],
+  [
+   60,
+   "Cyprus—'Morocco",
+   "Cyprus—Morocco",
+   "ocr"
+  ],
+  [
+   60,
+   "lasting' peace",
+   "lasting peace",
+   "ocr"
+  ],
+  [
+   67,
+   "play ,",
+   "play,",
+   "spacing"
+  ],
+  [
+   92,
+   "was, committed",
+   "was committed",
+   "ocr"
+  ],
+  [
+   100,
+   "problem, Meanwhile",
+   "problem. Meanwhile",
+   "ocr"
+  ],
+  [
+   100,
+   "independence, Our",
+   "independence. Our",
+   "ocr"
+  ],
+  [
+   100,
+   "atone",
+   "alone",
+   "ocr"
+  ],
+  [
+   103,
+   "facts, The first",
+   "facts. The first",
+   "ocr"
+  ],
+  [
+   103,
+   "Peoples, This",
+   "Peoples. This",
+   "ocr"
+  ],
+  [
+   104,
+   "reads;",
+   "reads:",
+   "ocr"
+  ],
+  [
+   107,
+   "Territories, But",
+   "Territories. But",
+   "ocr"
+  ],
+  [
+   108,
+   "part an end",
+   "put an end",
+   "ocr"
+  ],
+  [
+   113,
+   "189. ",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "190. ",
+   "",
+   "label"
+  ],
+  [
+   123,
+   "as 1 have",
+   "as I have",
+   "ocr"
+  ],
+  [
+   129,
+   "Secondly,,",
+   "Secondly,",
+   "ocr"
+  ],
+  [
+   131,
+   "tot like United",
+   "that the United",
+   "ocr"
+  ],
+  [
+   131,
+   "Justification",
+   "justification",
+   "ocr"
+  ],
+  [
+   132,
+   "place In a",
+   "place in a",
+   "ocr"
+  ],
+  [
+   132,
+   "democracy ,",
+   "democracy,",
+   "spacing"
+  ],
+  [
+   151,
+   "intentions*",
+   "intentions.",
+   "ocr"
+  ],
+  [
+   160,
+   "were\" admitted",
+   "were admitted",
+   "ocr"
+  ],
+  [
+   170,
+   "reality ,",
+   "reality,",
+   "spacing"
+  ],
+  [
+   177,
+   "into . consideration",
+   "into consideration",
+   "ocr"
+  ],
+  [
+   177,
+   "general ' rule",
+   "general rule",
+   "ocr"
+  ],
+  [
+   183,
+   "on, a point",
+   "on a point",
+   "ocr"
+  ],
+  [
+   191,
+   "ate harbingers",
+   "are harbingers",
+   "ocr"
+  ],
+  [
+   196,
+   "the \"Spanish",
+   "the Spanish",
+   "ocr"
+  ],
+  [
+   208,
+   "Ma EI Ainine",
+   "Ma El Ainine",
+   "ocr"
+  ],
+  [
+   32,
+   " [PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 14-22 belong to the speech of Dahomey and were dropped; unit 13 breaks off ('It behooves us.') and part of the Moroccan text before the Middle East section seems to be missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "7a0072cea439550497b4ecc2e4bf209e4b362e3d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 211,
+  "units_dropped": {
+   "other_speaker": 9,
+   "noise": 7
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 53
+  },
+  "words_in": 6085,
+  "words_out": 5704,
+  "retention": 0.9374,
+  "n_paragraphs": 49,
+  "paragraph_words": [
+   179,
+   80,
+   122,
+   83,
+   117,
+   73,
+   64,
+   86,
+   126,
+   99,
+   125,
+   92,
+   81,
+   65,
+   64,
+   106,
+   109,
+   66,
+   131,
+   118,
+   162,
+   159,
+   127,
+   93,
+   230,
+   82,
+   113,
+   132,
+   247,
+   201,
+   97,
+   88,
+   174,
+   160,
+   100,
+   76,
+   67,
+   121,
+   166,
+   72,
+   185,
+   117,
+   97,
+   73,
+   102,
+   77,
+   156,
+   111,
+   133
+  ],
+  "warnings": [
+   "35 fixes"
+  ]
+ }
+}

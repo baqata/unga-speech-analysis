@@ -1,0 +1,42 @@
+{
+ "id": "ERI_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  14,
+  18,
+  24,
+  28
+ ],
+ "cer": [
+  0,
+  28
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President of Eritrea.",
+ "unitizer_version": 1,
+ "sha1": "14b8473b396241e496b8fbb73ffee127208e1967",
+ "layout": "lines",
+ "stats": {
+  "n_units": 29,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 540,
+  "words_out": 540,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   20,
+   143,
+   74,
+   96,
+   129,
+   75,
+   3
+  ],
+  "warnings": []
+ }
+}

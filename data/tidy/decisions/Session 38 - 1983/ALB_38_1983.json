@@ -1,0 +1,128 @@
+{
+ "id": "ALB_38_1983",
+ "drop": [
+  [
+   26,
+   26,
+   "header_footer"
+  ],
+  [
+   120,
+   120,
+   "header_footer"
+  ],
+  [
+   127,
+   127,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  13,
+  18,
+  22,
+  27,
+  31,
+  36,
+  40,
+  42,
+  48,
+  52,
+  59,
+  61,
+  65,
+  70,
+  74,
+  77,
+  81,
+  86,
+  89,
+  92,
+  94,
+  99,
+  100,
+  106,
+  114,
+  121,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "economic Held",
+   "economic field",
+   "ocr"
+  ],
+  [
+   73,
+   "Th3re",
+   "There",
+   "ocr"
+  ],
+  [
+   105,
+   "stem opposition",
+   "stern opposition",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e4195fd782d0f27b703c882bc5bdc459bbf28cc1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3614,
+  "words_out": 3611,
+  "retention": 0.9992,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   47,
+   79,
+   64,
+   133,
+   162,
+   137,
+   107,
+   147,
+   145,
+   131,
+   58,
+   218,
+   122,
+   143,
+   73,
+   77,
+   167,
+   124,
+   77,
+   99,
+   153,
+   131,
+   60,
+   73,
+   160,
+   44,
+   165,
+   175,
+   151,
+   152,
+   37
+  ],
+  "warnings": []
+ }
+}

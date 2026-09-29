@@ -1,0 +1,164 @@
+{
+ "id": "VNM_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   73,
+   74,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  9,
+  17,
+  22,
+  27,
+  31,
+  34,
+  38,
+  43,
+  48,
+  51,
+  54,
+  60,
+  66,
+  72
+ ],
+ "cer": [
+  2,
+  72
+ ],
+ "fix": [
+  [
+   11,
+   "history vietnam",
+   "history Vietnam",
+   "asr_name"
+  ],
+  [
+   11,
+   "corporation",
+   "cooperation",
+   "asr_term"
+  ],
+  [
+   11,
+   "u n",
+   "UN",
+   "merged_word"
+  ],
+  [
+   11,
+   "the term",
+   "the time",
+   "asr_term"
+  ],
+  [
+   26,
+   "rise",
+   "right",
+   "asr_term"
+  ],
+  [
+   32,
+   "insunctions",
+   "sanctions",
+   "asr_term"
+  ],
+  [
+   37,
+   "SEVIA",
+   "Sevilla",
+   "asr_name"
+  ],
+  [
+   56,
+   "Đôi Mới",
+   "Đổi Mới",
+   "asr_name"
+  ],
+  [
+   58,
+   "severance",
+   "self-reliance",
+   "asr_term"
+  ],
+  [
+   8,
+   "relations. instability",
+   "relations. Instability",
+   "asr_term"
+  ],
+  [
+   11,
+   "inevitable. from",
+   "inevitable. From",
+   "asr_term"
+  ],
+  [
+   52,
+   "challenges. for",
+   "challenges. For",
+   "asr_term"
+  ],
+  [
+   11,
+   "transformation an",
+   "transformation a",
+   "asr_term"
+  ],
+  [
+   53,
+   "enhance an",
+   "enhancing",
+   "asr_term"
+  ],
+  [
+   63,
+   "an united",
+   "a united",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 greeting put back by the main agent (Spanish silent 00:31-00:59); cooperacion, nuestro tiempo, derecho a la autodeterminacion, sanciones and Compromiso de Sevilla per Spanish; Doi Moi spelled as the Vietnamese renovation policy. Main-agent audit: unit 58 'self-reliance' (three re-decodes 'severance' p 0.80-0.85, which does not fit; Spanish 'independencia y autonomia'; the Vietnamese formula of independence and self-reliance). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 8 'relations. instability' -> 'relations. Instability'; unit 11 'inevitable. from' -> 'inevitable. From'; unit 52 'challenges. for' -> 'challenges. For'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 11 'transformation an' -> 'transformation a' (both decodes hear 'a' (0.87 / 0.82) before 'UN' ('a new end'); 'an UN' does not fit; ES 'una ONU'; 'transformation' added only because 'an' alone is not unique); spot 14 unit 53 'enhance an' -> 'enhancing' (same sounds (decodes 'enhance an', 'an' 0.67 / 0.66, not clear); 'with a view to enhance an effectiveness' does not fit, 'with a view to enhancing effectiveness' does; ES 'sean más eficaces'); spot 17 unit 63 'an united' -> 'a united' (both decodes hear 'a' (0.60 / 0.55), not 'an'; 'an united' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "185883b674ba5b9eb9df1cca4f993e0dce004e14",
+ "layout": "single",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1809,
+  "words_out": 1730,
+  "retention": 0.9563,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   5,
+   163,
+   243,
+   91,
+   114,
+   86,
+   70,
+   99,
+   99,
+   131,
+   88,
+   108,
+   175,
+   148,
+   106,
+   4
+  ],
+  "warnings": []
+ }
+}

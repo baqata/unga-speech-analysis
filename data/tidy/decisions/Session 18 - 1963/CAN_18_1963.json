@@ -1,0 +1,152 @@
+{
+ "id": "CAN_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  11,
+  20,
+  29,
+  32,
+  38,
+  41,
+  46,
+  48,
+  50,
+  57,
+  62,
+  68,
+  77,
+  83,
+  91,
+  97,
+  106,
+  110,
+  115,
+  123,
+  131,
+  140,
+  149,
+  154,
+  169,
+  173
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   30,
+   ", It",
+   ". It",
+   "ocr"
+  ],
+  [
+   49,
+   ", In case",
+   ". In case",
+   "ocr"
+  ],
+  [
+   52,
+   ", We would",
+   ". We would",
+   "ocr"
+  ],
+  [
+   62,
+   "and- balanced",
+   "and balanced",
+   "hyphen"
+  ],
+  [
+   63,
+   "member ship",
+   "membership",
+   "split_word"
+  ],
+  [
+   123,
+   "87 ",
+   "",
+   "label"
+  ],
+  [
+   136,
+   "Sol",
+   "So I",
+   "merged_word"
+  ],
+  [
+   145,
+   ", Even",
+   ". Even",
+   "ocr"
+  ],
+  [
+   145,
+   ", But",
+   ". But",
+   "ocr"
+  ],
+  [
+   149,
+   ", I cannot",
+   ". I cannot",
+   "ocr"
+  ],
+  [
+   170,
+   ", That",
+   ". That",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3925934b810902c1765305ebfd838d31924ad00",
+ "layout": "lines",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 4438,
+  "words_out": 4436,
+  "retention": 0.9995,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   71,
+   249,
+   149,
+   193,
+   115,
+   135,
+   136,
+   143,
+   100,
+   76,
+   241,
+   151,
+   144,
+   245,
+   113,
+   179,
+   161,
+   206,
+   98,
+   161,
+   218,
+   185,
+   215,
+   237,
+   147,
+   220,
+   84,
+   64
+  ],
+  "warnings": []
+ }
+}

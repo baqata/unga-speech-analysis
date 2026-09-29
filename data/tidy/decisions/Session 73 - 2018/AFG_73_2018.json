@@ -1,0 +1,93 @@
+{
+ "id": "AFG_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  11,
+  17,
+  23,
+  28,
+  31,
+  32,
+  39,
+  43,
+  48,
+  52,
+  54,
+  58,
+  60
+ ],
+ "cer": [
+  0,
+  31
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   1,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   21,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   50,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   53,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "236cd99c67e2f38c58dc67cdbab6aa008d668f4c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1931,
+  "words_out": 1926,
+  "retention": 0.9974,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   66,
+   131,
+   85,
+   155,
+   125,
+   122,
+   130,
+   133,
+   47,
+   190,
+   112,
+   107,
+   128,
+   77,
+   105,
+   96,
+   117
+  ],
+  "warnings": []
+ }
+}

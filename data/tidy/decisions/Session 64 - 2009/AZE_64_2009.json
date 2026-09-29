@@ -1,0 +1,55 @@
+{
+ "id": "AZE_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  35,
+  59,
+  86,
+  105,
+  119,
+  139,
+  155,
+  173,
+  190,
+  200,
+  227
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e8ddaf5a9741d8ce1ce701e76cde560e7173b991",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 241,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1806,
+  "words_out": 1805,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   88,
+   181,
+   173,
+   197,
+   157,
+   117,
+   153,
+   112,
+   121,
+   117,
+   67,
+   209,
+   113
+  ],
+  "warnings": []
+ }
+}

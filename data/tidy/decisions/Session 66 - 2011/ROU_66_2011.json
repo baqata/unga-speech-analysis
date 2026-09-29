@@ -1,0 +1,66 @@
+{
+ "id": "ROU_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  16,
+  32,
+  43,
+  59,
+  69,
+  82,
+  95,
+  119,
+  135,
+  155,
+  176,
+  192,
+  213
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   219,
+   "(See )",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "54b2b0ef93171c6f80cb05bd2f0ee15c6574783a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 226,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 1723,
+  "words_out": 1716,
+  "retention": 0.9959,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   44,
+   82,
+   115,
+   71,
+   114,
+   75,
+   97,
+   101,
+   187,
+   107,
+   159,
+   164,
+   122,
+   163,
+   115
+  ],
+  "warnings": []
+ }
+}

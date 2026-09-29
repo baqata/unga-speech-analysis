@@ -1,0 +1,49 @@
+{
+ "id": "MDA_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  19,
+  33,
+  52,
+  64,
+  75,
+  93,
+  111,
+  129,
+  142
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f8f1ad6d3af7839e8c067e6d35e21183362321d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1131,
+  "words_out": 1123,
+  "retention": 0.9929,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   84,
+   60,
+   105,
+   147,
+   85,
+   83,
+   141,
+   138,
+   137,
+   97,
+   46
+  ],
+  "warnings": []
+ }
+}

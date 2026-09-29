@@ -1,0 +1,62 @@
+{
+ "id": "NIC_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   43,
+   43,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  9,
+  13,
+  16,
+  20,
+  23,
+  27,
+  32,
+  37,
+  41
+ ],
+ "cer": [
+  41
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ce343d7fd917e4737d6bd4ae9063f80144428f28",
+ "layout": "single",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1431,
+  "words_out": 1404,
+  "retention": 0.9811,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   191,
+   187,
+   168,
+   167,
+   101,
+   75,
+   129,
+   123,
+   144,
+   112,
+   7
+  ],
+  "warnings": []
+ }
+}

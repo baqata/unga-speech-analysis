@@ -1,0 +1,63 @@
+{
+ "id": "FSM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  35,
+  51,
+  65,
+  77,
+  88,
+  98,
+  108,
+  121,
+  136,
+  155,
+  169
+ ],
+ "cer": [
+  0,
+  169
+ ],
+ "fix": [
+  [
+   44,
+   "hydrof luorocarbons",
+   "hydrofluorocarbons",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d12078a68439e10a0e751f36fac3a62590de6b13",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1376,
+  "words_out": 1373,
+  "retention": 0.9978,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   61,
+   80,
+   145,
+   118,
+   123,
+   99,
+   85,
+   67,
+   78,
+   98,
+   108,
+   158,
+   114,
+   39
+  ],
+  "warnings": []
+ }
+}

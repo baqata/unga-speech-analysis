@@ -1,0 +1,86 @@
+{
+ "id": "JAM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  23,
+  34,
+  44,
+  53,
+  65,
+  83,
+  99,
+  109,
+  122,
+  142,
+  151,
+  163,
+  188,
+  200,
+  208,
+  225,
+  241,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   93,
+   "inf lows",
+   "inflows",
+   "split_word"
+  ],
+  [
+   107,
+   "ref lective",
+   "reflective",
+   "split_word"
+  ],
+  [
+   113,
+   "f lows",
+   "flows",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fb550b55a5981aed5db6efa871f933fe625bc7db",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2124,
+  "words_out": 2119,
+  "retention": 0.9976,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   89,
+   97,
+   96,
+   76,
+   82,
+   97,
+   157,
+   121,
+   83,
+   105,
+   173,
+   70,
+   86,
+   202,
+   100,
+   64,
+   128,
+   119,
+   110,
+   64
+  ],
+  "warnings": []
+ }
+}

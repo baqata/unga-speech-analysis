@@ -1,0 +1,71 @@
+{
+ "id": "TON_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  16,
+  21,
+  24,
+  30,
+  32,
+  37,
+  40,
+  43
+ ],
+ "cer": [
+  0,
+  43
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   16,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   37,
+   "public- private",
+   "public-private",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a97f3b63ab3c4cf9a8046f773555205451a76e1e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1259,
+  "words_out": 1256,
+  "retention": 0.9976,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   126,
+   80,
+   77,
+   217,
+   113,
+   79,
+   128,
+   64,
+   148,
+   119,
+   79,
+   26
+  ],
+  "warnings": []
+ }
+}

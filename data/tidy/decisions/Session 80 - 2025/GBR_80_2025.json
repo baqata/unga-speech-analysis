@@ -1,0 +1,81 @@
+{
+ "id": "GBR_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   86,
+   87,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  7,
+  16,
+  21,
+  27,
+  34,
+  41,
+  52,
+  65,
+  73,
+  78,
+  85
+ ],
+ "cer": [
+  1,
+  2,
+  85
+ ],
+ "fix": [
+  [
+   30,
+   "al-Fasha",
+   "al-Fasher",
+   "asr_name"
+  ],
+  [
+   32,
+   "al-Fasha",
+   "al-Fasher",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cb9055c25544b502368e963b924c82e5be85b80b",
+ "layout": "single",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1757,
+  "words_out": 1692,
+  "retention": 0.963,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   9,
+   147,
+   192,
+   135,
+   141,
+   119,
+   163,
+   182,
+   173,
+   126,
+   171,
+   129,
+   5
+  ],
+  "warnings": []
+ }
+}

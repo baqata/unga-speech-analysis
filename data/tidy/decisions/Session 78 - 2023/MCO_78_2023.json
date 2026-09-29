@@ -1,0 +1,138 @@
+{
+ "id": "MCO_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  15,
+  17,
+  22,
+  28,
+  33,
+  39,
+  43,
+  48,
+  58,
+  64,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "1993.1 took",
+   "1993, I took",
+   "ocr"
+  ],
+  [
+   9,
+   "III. decided",
+   "III, decided",
+   "ocr"
+  ],
+  [
+   11,
+   "sea. as",
+   "sea, as",
+   "ocr"
+  ],
+  [
+   13,
+   "and. subsequently",
+   "and, subsequently",
+   "ocr"
+  ],
+  [
+   15,
+   "that respect.",
+   "that respect,",
+   "ocr"
+  ],
+  [
+   22,
+   "Furthermore. I",
+   "Furthermore, I",
+   "ocr"
+  ],
+  [
+   30,
+   "ago. we",
+   "ago, we",
+   "ocr"
+  ],
+  [
+   35,
+   "In that context.",
+   "In that context,",
+   "ocr"
+  ],
+  [
+   39,
+   "a century.",
+   "a century,",
+   "ocr"
+  ],
+  [
+   41,
+   "2024. and",
+   "2024, and",
+   "ocr"
+  ],
+  [
+   49,
+   "law. to",
+   "law, to",
+   "ocr"
+  ],
+  [
+   56,
+   "pandemic. I",
+   "pandemic, I",
+   "ocr"
+  ],
+  [
+   69,
+   "In that regard.",
+   "In that regard,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4681e590f131f173fb84271dd85a49b8a4b69475",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1842,
+  "words_out": 1843,
+  "retention": 1.0005,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   57,
+   81,
+   123,
+   172,
+   71,
+   133,
+   120,
+   162,
+   118,
+   113,
+   140,
+   213,
+   130,
+   116,
+   94
+  ],
+  "warnings": []
+ }
+}

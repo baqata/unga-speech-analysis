@@ -1,0 +1,112 @@
+{
+ "id": "THA_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  13,
+  18,
+  21,
+  25,
+  30,
+  38,
+  44,
+  47,
+  52,
+  60,
+  66,
+  71,
+  78,
+  83,
+  92,
+  98,
+  103
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "should We think",
+   "should we think",
+   "ocr"
+  ],
+  [
+   22,
+   "language, There",
+   "language. There",
+   "ocr"
+  ],
+  [
+   24,
+   "for bur",
+   "for our",
+   "ocr"
+  ],
+  [
+   42,
+   "clearly Show",
+   "clearly show",
+   "ocr"
+  ],
+  [
+   54,
+   "vivendi!",
+   "vivendi",
+   "ocr"
+  ],
+  [
+   67,
+   "duties,",
+   "duties.",
+   "ocr"
+  ],
+  [
+   84,
+   "maybe envisaged",
+   "may be envisaged",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1addff5559b4c54caea2eb1018a2b884f8254a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2953,
+  "words_out": 2954,
+  "retention": 1.0003,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   70,
+   113,
+   229,
+   83,
+   159,
+   120,
+   123,
+   280,
+   179,
+   75,
+   119,
+   227,
+   118,
+   139,
+   194,
+   127,
+   220,
+   141,
+   164,
+   74
+  ],
+  "warnings": []
+ }
+}

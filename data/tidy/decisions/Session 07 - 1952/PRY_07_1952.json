@@ -1,0 +1,88 @@
+{
+ "id": "PRY_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  20,
+  23,
+  26,
+  32,
+  37,
+  42,
+  44,
+  47
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "Would",
+   "would",
+   "ocr"
+  ],
+  [
+   12,
+   ". .",
+   ".",
+   "ocr"
+  ],
+  [
+   19,
+   "present,",
+   "present.",
+   "ocr"
+  ],
+  [
+   24,
+   "War",
+   "war",
+   "ocr"
+  ],
+  [
+   33,
+   "and,",
+   "and",
+   "ocr"
+  ],
+  [
+   40,
+   "if",
+   "it",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "baa134ba3cb6981a643992bc443ced05291ec3e8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 1679,
+  "words_out": 1672,
+  "retention": 0.9958,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   135,
+   72,
+   188,
+   237,
+   121,
+   177,
+   211,
+   189,
+   114,
+   93,
+   107,
+   28
+  ],
+  "warnings": []
+ }
+}

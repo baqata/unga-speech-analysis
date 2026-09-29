@@ -1,0 +1,90 @@
+{
+ "id": "YUG_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  34,
+  54,
+  65,
+  85,
+  92,
+  113,
+  124,
+  140,
+  150,
+  176,
+  193,
+  207,
+  223,
+  237,
+  259,
+  280
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   164,
+   "net directed",
+   "not directed",
+   "ocr"
+  ],
+  [
+   194,
+   "gain before",
+   "again before",
+   "ocr"
+  ],
+  [
+   286,
+   "organizations-we",
+   "organizations—we",
+   "ocr"
+  ],
+  [
+   290,
+   "small“",
+   "small”",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "07687fcca57b235782eaa902e75083223ad3a704",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 295,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2540,
+  "words_out": 2510,
+  "retention": 0.9882,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   72,
+   90,
+   123,
+   167,
+   98,
+   159,
+   59,
+   191,
+   103,
+   134,
+   86,
+   223,
+   135,
+   121,
+   129,
+   114,
+   179,
+   190,
+   137
+  ],
+  "warnings": []
+ }
+}

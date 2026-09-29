@@ -1,0 +1,78 @@
+{
+ "id": "BIH_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  16,
+  18,
+  22,
+  25,
+  31,
+  36,
+  41,
+  44,
+  46,
+  55,
+  63,
+  66,
+  68,
+  73,
+  76,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ],
+  [
+   67,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e112622164a6b6c4984f5bea171bdd95699bba77",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1890,
+  "words_out": 1888,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   115,
+   160,
+   67,
+   82,
+   92,
+   130,
+   131,
+   110,
+   75,
+   84,
+   181,
+   169,
+   67,
+   71,
+   121,
+   68,
+   106,
+   59
+  ],
+  "warnings": []
+ }
+}

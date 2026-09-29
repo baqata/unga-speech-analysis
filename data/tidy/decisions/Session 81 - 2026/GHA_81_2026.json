@@ -1,0 +1,292 @@
+{
+ "id": "GHA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   173,
+   173,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  7,
+  13,
+  19,
+  27,
+  34,
+  42,
+  45,
+  51,
+  54,
+  60,
+  68,
+  74,
+  84,
+  90,
+  99,
+  102,
+  109,
+  118,
+  121,
+  130,
+  135,
+  140,
+  143,
+  147,
+  151,
+  164,
+  171
+ ],
+ "cer": [
+  3,
+  171
+ ],
+ "fix": [
+  [
+   7,
+   "Land Term",
+   "Anthem",
+   "asr_term"
+  ],
+  [
+   8,
+   "course",
+   "cause",
+   "asr_term"
+  ],
+  [
+   9,
+   "four beers",
+   "forebears",
+   "asr_term"
+  ],
+  [
+   10,
+   "item",
+   "anthem",
+   "asr_term"
+  ],
+  [
+   11,
+   "Hale Selassie",
+   "Haile Selassie",
+   "asr_name"
+  ],
+  [
+   15,
+   "ropes",
+   "robes",
+   "asr_term"
+  ],
+  [
+   16,
+   "Damango",
+   "Damongo",
+   "asr_name"
+  ],
+  [
+   17,
+   "Mahamo of Bolle",
+   "Mahama of Bole",
+   "asr_name"
+  ],
+  [
+   18,
+   "four mothers",
+   "foremothers",
+   "asr_term"
+  ],
+  [
+   18,
+   "four fathers",
+   "forefathers",
+   "asr_term"
+  ],
+  [
+   20,
+   "Gwan",
+   "Guang",
+   "asr_name"
+  ],
+  [
+   21,
+   "Tri and Gan",
+   "Twi and Ga",
+   "asr_name"
+  ],
+  [
+   26,
+   "creates a kingship",
+   "creates a kinship",
+   "asr_term"
+  ],
+  [
+   26,
+   "which kingship",
+   "which kinship",
+   "asr_term"
+  ],
+  [
+   79,
+   "expectation",
+   "exploitation",
+   "asr_term"
+  ],
+  [
+   91,
+   "on MP",
+   "an MP",
+   "asr_term"
+  ],
+  [
+   92,
+   "veal",
+   "veil",
+   "asr_term"
+  ],
+  [
+   115,
+   "Parencial",
+   "Torrential",
+   "asr_term"
+  ],
+  [
+   117,
+   "feather in-debt",
+   "further indebt",
+   "asr_term"
+  ],
+  [
+   139,
+   "national research",
+   "national reset",
+   "asr_term"
+  ],
+  [
+   146,
+   "medium freedom",
+   "media freedom",
+   "asr_term"
+  ],
+  [
+   164,
+   "Osirajifu",
+   "Osagyefo",
+   "asr_name"
+  ],
+  [
+   164,
+   "Kwame Kuma",
+   "Kwame Nkrumah",
+   "asr_name"
+  ],
+  [
+   159,
+   "belongs. belongs.",
+   "belongs.",
+   "asr_term"
+  ],
+  [
+   94,
+   "world. collective",
+   "world. Collective",
+   "asr_term"
+  ],
+  [
+   108,
+   "uniform. respect",
+   "uniform. Respect",
+   "asr_term"
+  ],
+  [
+   135,
+   "lives. economic",
+   "lives. Economic",
+   "asr_term"
+  ],
+  [
+   142,
+   "coverage. alongside",
+   "coverage. Alongside",
+   "asr_term"
+  ],
+  [
+   77,
+   "parallel",
+   "unparalleled",
+   "asr_term"
+  ],
+  [
+   96,
+   "trigger",
+   "triggered",
+   "asr_term"
+  ],
+  [
+   77,
+   "and unparalleled",
+   "unparalleled",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Fixes per Spanish (himno nacional, causa, ancestros, familia, sin parangón, explotación, torrenciales, reseteo) and published sources (Damongo, Bole, Guang, Twi, Ga, Osagyefo Kwame Nkrumah). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 159 'belongs. belongs.' -> 'belongs.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 94 'world. collective' -> 'world. Collective'; unit 108 'uniform. respect' -> 'uniform. Respect'; unit 135 'lives. economic' -> 'lives. Economic'; unit 142 'coverage. alongside' -> 'coverage. Alongside'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 21 unit 77 'parallel' -> 'unparalleled', 'and unparalleled' -> 'unparalleled' (the run's repair 'and parallel' -> 'unparalleled', written over the existing fix 'parallel' -> 'unparalleled' (keeps it, then removes the 'and'): the decodes hear 'and' at 696.5 s and 'parallel' at 696.6 s (0.81-0.91), the run-together sound of 'unparalleled'; ours has 'and unparalleled' before a second 'and'; ES 'una vitalidad cultural sin parangón'; UN 'lands, unparalleled'); spot 24 unit 96 'trigger' -> 'triggered' (both decodes hear 'triggered' (0.47 / 0.79); present tense 'acts ... that trigger this conflict' does not fit; sounds alike; ES 'que han desencadenado este conflicto')",
+ "unitizer_version": 1,
+ "sha1": "be2ea42c801913c8b74dcfb6f0c7cede11ae0edd",
+ "layout": "single",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3274,
+  "words_out": 3217,
+  "retention": 0.9826,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   102,
+   164,
+   137,
+   83,
+   108,
+   86,
+   84,
+   98,
+   97,
+   131,
+   126,
+   96,
+   128,
+   87,
+   183,
+   63,
+   134,
+   164,
+   58,
+   147,
+   113,
+   182,
+   123,
+   79,
+   108,
+   143,
+   171,
+   22
+  ],
+  "warnings": [
+   "31 fixes"
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "ARG_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  15,
+  21,
+  27,
+  31,
+  36,
+  40,
+  43,
+  47,
+  49,
+  53,
+  57,
+  62,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   50,
+   "Office of Counter- Terrorism",
+   "Office of Counter-Terrorism",
+   "spacing"
+  ],
+  [
+   50,
+   "Global Counter- Terrorism",
+   "Global Counter-Terrorism",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d04929007712d1c42410bb604e8afd79e44309d5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1955,
+  "words_out": 1953,
+  "retention": 0.999,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   107,
+   89,
+   102,
+   117,
+   167,
+   176,
+   90,
+   100,
+   69,
+   97,
+   114,
+   106,
+   140,
+   130,
+   136,
+   101,
+   112
+  ],
+  "warnings": []
+ }
+}

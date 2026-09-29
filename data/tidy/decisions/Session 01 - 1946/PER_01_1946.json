@@ -1,0 +1,62 @@
+{
+ "id": "PER_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  13,
+  17,
+  18,
+  20,
+  22,
+  27,
+  30,
+  34,
+  37,
+  38,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "in,",
+   "in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d66908bc194b74c5106891bd38bab4c65317a26e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 44,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2054,
+  "words_out": 2054,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   198,
+   122,
+   119,
+   137,
+   191,
+   112,
+   124,
+   103,
+   185,
+   198,
+   170,
+   113,
+   94,
+   80,
+   108
+  ],
+  "warnings": []
+ }
+}

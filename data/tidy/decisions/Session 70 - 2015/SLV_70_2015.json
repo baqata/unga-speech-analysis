@@ -1,0 +1,68 @@
+{
+ "id": "SLV_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  11,
+  16,
+  19,
+  23,
+  25,
+  27,
+  29,
+  32,
+  36,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   "supportsrelevant",
+   "supports relevant",
+   "merged_word"
+  ],
+  [
+   41,
+   "E1 Salvador",
+   "El Salvador",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09ce9799ff5da1275cd3a7317a6cadae388742ea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 3
+  },
+  "words_in": 1334,
+  "words_out": 1331,
+  "retention": 0.9978,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   47,
+   98,
+   124,
+   136,
+   135,
+   134,
+   103,
+   82,
+   76,
+   99,
+   111,
+   137,
+   49
+  ],
+  "warnings": []
+ }
+}

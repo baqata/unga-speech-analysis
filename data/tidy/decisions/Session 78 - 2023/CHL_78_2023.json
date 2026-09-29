@@ -1,0 +1,156 @@
+{
+ "id": "CHL_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  16,
+  21,
+  28,
+  30,
+  34,
+  40,
+  43,
+  51,
+  58,
+  66,
+  78,
+  90,
+  93,
+  97,
+  103,
+  110,
+  116
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "1973. an",
+   "1973, an",
+   "ocr"
+  ],
+  [
+   3,
+   "Moneda. and",
+   "Moneda, and",
+   "ocr"
+  ],
+  [
+   11,
+   "head-on. confronting",
+   "head-on, confronting",
+   "ocr"
+  ],
+  [
+   22,
+   "see. there",
+   "see, there",
+   "ocr"
+  ],
+  [
+   39,
+   "us. as",
+   "us, as",
+   "ocr"
+  ],
+  [
+   50,
+   "row. and",
+   "row, and",
+   "ocr"
+  ],
+  [
+   51,
+   "time.",
+   "time,",
+   "ocr"
+  ],
+  [
+   54,
+   "see. for",
+   "see, for",
+   "ocr"
+  ],
+  [
+   57,
+   "why. from",
+   "why, from",
+   "ocr"
+  ],
+  [
+   79,
+   "now. we",
+   "now, we",
+   "ocr"
+  ],
+  [
+   86,
+   "Argentina.",
+   "Argentina,",
+   "ocr"
+  ],
+  [
+   99,
+   "ago. a",
+   "ago, a",
+   "ocr"
+  ],
+  [
+   102,
+   "development. with",
+   "development, with",
+   "ocr"
+  ],
+  [
+   105,
+   "is. for",
+   "is, for",
+   "ocr"
+  ],
+  [
+   106,
+   "proudly.",
+   "proudly,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "26a4f1d020f5b68790a1ca319c3a92b3e1440939",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2852,
+  "words_out": 2852,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   104,
+   120,
+   199,
+   146,
+   166,
+   76,
+   109,
+   217,
+   81,
+   199,
+   119,
+   156,
+   216,
+   134,
+   81,
+   113,
+   188,
+   161,
+   141,
+   126
+  ],
+  "warnings": []
+ }
+}

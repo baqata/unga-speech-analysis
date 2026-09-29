@@ -1,0 +1,247 @@
+{
+ "id": "VEN_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  13,
+  14,
+  18,
+  22,
+  27,
+  31,
+  33,
+  38,
+  40,
+  42,
+  46,
+  50,
+  53,
+  59,
+  64,
+  65,
+  70,
+  75,
+  78,
+  81,
+  85,
+  90,
+  94,
+  97,
+  101,
+  104,
+  106,
+  110,
+  118,
+  122,
+  123,
+  125,
+  129,
+  134,
+  137,
+  145
+ ],
+ "cer": [
+  0,
+  13
+ ],
+ "fix": [
+  [
+   3,
+   "Panama M a",
+   "Panama is a",
+   "ocr"
+  ],
+  [
+   6,
+   "Simdn Bolivar",
+   "Simon Bolivar",
+   "ocr"
+  ],
+  [
+   11,
+   "Organization' 1 is",
+   "Organization is",
+   "markup"
+  ],
+  [
+   23,
+   "peace 3s not",
+   "peace is not",
+   "ocr"
+  ],
+  [
+   27,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   36,
+   "Self- determination",
+   "Self-determination",
+   "hyphen"
+  ],
+  [
+   38,
+   "it hay been",
+   "it has been",
+   "ocr"
+  ],
+  [
+   47,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   53,
+   "sub- region",
+   "sub-region",
+   "hyphen"
+  ],
+  [
+   55,
+   "East- West",
+   "East-West",
+   "hyphen"
+  ],
+  [
+   70,
+   "the\" degradation",
+   "the degradation",
+   "markup"
+  ],
+  [
+   71,
+   "15. ",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "in reiterating",
+   "In reiterating",
+   "ocr"
+  ],
+  [
+   74,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   81,
+   "Held of",
+   "field of",
+   "ocr"
+  ],
+  [
+   101,
+   "May 1981.7 We",
+   "May 1981. We",
+   "markup"
+  ],
+  [
+   110,
+   "Cam- pins",
+   "Campins",
+   "hyphen"
+  ],
+  [
+   123,
+   "sub- regional",
+   "sub-regional",
+   "hyphen"
+  ],
+  [
+   123,
+   "River f ate Basin",
+   "River Plate Basin",
+   "ocr"
+  ],
+  [
+   123,
+   "San Jos6",
+   "San Jose",
+   "ocr"
+  ],
+  [
+   133,
+   "Agreement/ whereby",
+   "Agreement, whereby",
+   "ocr"
+  ],
+  [
+   143,
+   "great- Power",
+   "great-Power",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 66 and 68 lack an italic word (apartheid): 'Special Committee against in which' and the quotation opening '\"is an inhuman system'.",
+ "unitizer_version": 1,
+ "sha1": "9fcb48bfd28c74a794f170ab8ee1cf0817ab2899",
+ "layout": "lines",
+ "stats": {
+  "n_units": 147,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 68
+  },
+  "words_in": 5030,
+  "words_out": 5017,
+  "retention": 0.9974,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   107,
+   124,
+   147,
+   111,
+   32,
+   93,
+   136,
+   121,
+   116,
+   78,
+   122,
+   92,
+   112,
+   145,
+   116,
+   142,
+   157,
+   164,
+   57,
+   166,
+   203,
+   118,
+   92,
+   133,
+   145,
+   96,
+   99,
+   114,
+   127,
+   86,
+   120,
+   216,
+   196,
+   64,
+   107,
+   121,
+   156,
+   171,
+   189,
+   126
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

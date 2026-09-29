@@ -1,0 +1,118 @@
+{
+ "id": "SYR_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  9,
+  12,
+  14,
+  16,
+  19,
+  22,
+  29,
+  35,
+  43,
+  50,
+  53,
+  55,
+  57,
+  67,
+  71,
+  79,
+  85,
+  91,
+  96,
+  99,
+  105,
+  109,
+  113,
+  118,
+  120
+ ],
+ "cer": [
+  0,
+  4,
+  5
+ ],
+ "fix": [
+  [
+   29,
+   "united States",
+   "United States",
+   "ocr"
+  ],
+  [
+   29,
+   ";ite",
+   "cite",
+   "ocr"
+  ],
+  [
+   66,
+   "th ens elves",
+   "themselves",
+   "ocr"
+  ],
+  [
+   96,
+   "Uhited",
+   "United",
+   "ocr"
+  ],
+  [
+   112,
+   "soviet union",
+   "Soviet Union",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "49670ba17a46d7367ef56dcb80b15f02763808b8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3434,
+  "words_out": 3432,
+  "retention": 0.9994,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   124,
+   31,
+   87,
+   98,
+   116,
+   77,
+   133,
+   94,
+   83,
+   193,
+   163,
+   223,
+   186,
+   61,
+   97,
+   116,
+   185,
+   59,
+   235,
+   128,
+   182,
+   58,
+   117,
+   144,
+   90,
+   110,
+   100,
+   93,
+   49
+  ],
+  "warnings": []
+ }
+}

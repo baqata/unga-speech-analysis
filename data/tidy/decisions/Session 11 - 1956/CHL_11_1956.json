@@ -1,0 +1,140 @@
+{
+ "id": "CHL_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  11,
+  15,
+  19,
+  23,
+  27,
+  33,
+  37,
+  41,
+  48,
+  52,
+  56,
+  60,
+  65,
+  68,
+  72,
+  76,
+  77,
+  83,
+  86,
+  90,
+  93,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "mere",
+   "more",
+   "ocr"
+  ],
+  [
+   36,
+   "dearer",
+   "clearer",
+   "ocr"
+  ],
+  [
+   41,
+   "sovereignly",
+   "sovereignty",
+   "ocr"
+  ],
+  [
+   43,
+   "muon",
+   "much",
+   "ocr"
+  ],
+  [
+   44,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   49,
+   "y ears",
+   "years",
+   "split_word"
+  ],
+  [
+   55,
+   "„",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "bodies*",
+   "bodies",
+   "ocr"
+  ],
+  [
+   76,
+   "be come",
+   "become",
+   "split_word"
+  ],
+  [
+   87,
+   "rued",
+   "need",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a6f4474d71894d71691e57a248efdb4e636c34df",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3711,
+  "words_out": 3707,
+  "retention": 0.9989,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   140,
+   73,
+   170,
+   216,
+   159,
+   180,
+   112,
+   185,
+   169,
+   154,
+   203,
+   112,
+   118,
+   124,
+   114,
+   124,
+   189,
+   210,
+   90,
+   212,
+   131,
+   137,
+   104,
+   206,
+   75
+  ],
+  "warnings": []
+ }
+}

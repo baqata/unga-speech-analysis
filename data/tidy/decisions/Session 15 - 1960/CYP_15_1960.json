@@ -1,0 +1,108 @@
+{
+ "id": "CYP_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  16,
+  21,
+  31,
+  33,
+  36,
+  40,
+  43,
+  45,
+  49,
+  52,
+  55,
+  56,
+  69,
+  80,
+  83,
+  91,
+  95
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   35,
+   "whet all",
+   "when all",
+   "ocr"
+  ],
+  [
+   35,
+   "Governments, It is",
+   "Governments. It is",
+   "ocr"
+  ],
+  [
+   35,
+   "a unify",
+   "a unity",
+   "ocr"
+  ],
+  [
+   48,
+   "die service",
+   "the service",
+   "ocr"
+  ],
+  [
+   62,
+   "ask;",
+   "ask:",
+   "ocr"
+  ],
+  [
+   36,
+   " [1474 (ES-IV)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "63c30aec030169efda1a7701331b606622f13037",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2201,
+  "words_out": 2194,
+  "retention": 0.9968,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   102,
+   50,
+   77,
+   120,
+   136,
+   177,
+   81,
+   110,
+   83,
+   89,
+   87,
+   86,
+   82,
+   131,
+   44,
+   207,
+   169,
+   61,
+   86,
+   64,
+   152
+  ],
+  "warnings": []
+ }
+}

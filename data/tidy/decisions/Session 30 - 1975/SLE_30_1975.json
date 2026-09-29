@@ -1,0 +1,125 @@
+{
+ "id": "SLE_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  18,
+  25,
+  28,
+  30,
+  36,
+  39,
+  41,
+  43,
+  49,
+  56,
+  61,
+  66,
+  71,
+  73,
+  81,
+  86,
+  91,
+  98,
+  102,
+  106,
+  109,
+  113
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   4,
+   "to i assist",
+   "to assist",
+   "ocr"
+  ],
+  [
+   15,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   24,
+   "Jiving",
+   "living",
+   "ocr"
+  ],
+  [
+   39,
+   "1975,4",
+   "1975,",
+   "ocr"
+  ],
+  [
+   48,
+   "States,",
+   "States.",
+   "ocr"
+  ],
+  [
+   56,
+   "Cyprus, Since",
+   "Cyprus. Since",
+   "ocr"
+  ],
+  [
+   108,
+   "in-creasing",
+   "increasing",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 80-85 keep letters lost at the right margin (\"wit\", \"the would\", \"measure\", \"genera\", \"so fa\", \"are no\"); they cannot be repaired without adding letters.",
+ "unitizer_version": 1,
+ "sha1": "687966a901eaf0f02a3fd25198491d35beb86e10",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 3412,
+  "words_out": 3410,
+  "retention": 0.9994,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   124,
+   98,
+   122,
+   156,
+   247,
+   126,
+   83,
+   197,
+   100,
+   129,
+   110,
+   140,
+   216,
+   141,
+   118,
+   102,
+   66,
+   158,
+   143,
+   114,
+   191,
+   125,
+   130,
+   79,
+   117,
+   78
+  ],
+  "warnings": []
+ }
+}

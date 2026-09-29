@@ -1,0 +1,133 @@
+{
+ "id": "ECU_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  15,
+  20,
+  26,
+  30,
+  37,
+  43,
+  46,
+  51,
+  56,
+  63,
+  70,
+  73,
+  77,
+  85,
+  90,
+  94,
+  100,
+  104,
+  113,
+  119,
+  123,
+  128,
+  132,
+  137,
+  147,
+  151,
+  157,
+  162,
+  167,
+  171
+ ],
+ "cer": [
+  0,
+  171
+ ],
+ "fix": [
+  [
+   7,
+   "genuine, promise",
+   "genuine promise",
+   "ocr"
+  ],
+  [
+   89,
+   "this, aim",
+   "this aim",
+   "ocr"
+  ],
+  [
+   101,
+   "because' we",
+   "because we",
+   "ocr"
+  ],
+  [
+   111,
+   "Council of the General",
+   "Council or the General",
+   "ocr"
+  ],
+  [
+   138,
+   "on- the",
+   "on the",
+   "ocr"
+  ],
+  [
+   163,
+   "Convenants",
+   "Covenants",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5594dd8d5849ce863a4afcba7838b66cc938acb2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4
+  },
+  "words_in": 4690,
+  "words_out": 4641,
+  "retention": 0.9896,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   59,
+   96,
+   151,
+   107,
+   164,
+   100,
+   187,
+   150,
+   87,
+   116,
+   139,
+   106,
+   137,
+   129,
+   100,
+   232,
+   167,
+   92,
+   198,
+   184,
+   220,
+   184,
+   170,
+   121,
+   158,
+   102,
+   214,
+   157,
+   183,
+   138,
+   102,
+   95,
+   96
+  ],
+  "warnings": []
+ }
+}

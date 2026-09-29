@@ -1,0 +1,74 @@
+{
+ "id": "VEN_03_1948",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  21,
+  27,
+  33,
+  36,
+  42,
+  47,
+  53,
+  60,
+  62,
+  65,
+  69,
+  75,
+  83
+ ],
+ "cer": [],
+ "fix": [
+  [
+   40,
+   "the’ same",
+   "the same",
+   "ocr"
+  ],
+  [
+   60,
+   "stock- breeding",
+   "stock-breeding",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "f8488534e0e634c5b8ec21cca8b6c88aed6f3bc4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2626,
+  "words_out": 2625,
+  "retention": 0.9996,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   173,
+   70,
+   239,
+   218,
+   145,
+   207,
+   56,
+   211,
+   160,
+   252,
+   189,
+   102,
+   68,
+   97,
+   169,
+   172,
+   97
+  ],
+  "warnings": []
+ }
+}

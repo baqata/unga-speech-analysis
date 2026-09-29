@@ -1,0 +1,67 @@
+{
+ "id": "KOR_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  27,
+  42,
+  54,
+  68,
+  77,
+  89,
+  107,
+  120,
+  132,
+  143,
+  160,
+  171,
+  182,
+  199,
+  217,
+  231,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bdd60b3d1b876c569b777eb619f78da56f341730",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2029,
+  "words_out": 2022,
+  "retention": 0.9966,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   67,
+   156,
+   127,
+   91,
+   100,
+   70,
+   90,
+   134,
+   95,
+   105,
+   87,
+   122,
+   78,
+   77,
+   132,
+   126,
+   97,
+   137,
+   131
+  ],
+  "warnings": []
+ }
+}

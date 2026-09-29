@@ -1,0 +1,163 @@
+{
+ "id": "KHM_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  11,
+  13,
+  15,
+  20,
+  27,
+  28,
+  29,
+  31,
+  35,
+  39,
+  42,
+  48,
+  53,
+  58,
+  60,
+  64,
+  66,
+  69,
+  75,
+  78,
+  81,
+  85,
+  87,
+  90,
+  92,
+  96,
+  98,
+  103,
+  109,
+  111,
+  114
+ ],
+ "cer": [
+  103,
+  109,
+  111
+ ],
+ "fix": [
+  [
+   4,
+   "the-person",
+   "the person",
+   "ocr"
+  ],
+  [
+   45,
+   "Viet-Nam, Quite",
+   "Viet-Nam. Quite",
+   "ocr"
+  ],
+  [
+   64,
+   "Buddha Is",
+   "Buddha is",
+   "ocr"
+  ],
+  [
+   64,
+   "respected,",
+   "respected.",
+   "ocr"
+  ],
+  [
+   66,
+   "rostrum;",
+   "rostrum:",
+   "ocr"
+  ],
+  [
+   70,
+   "Interest",
+   "interest",
+   "ocr"
+  ],
+  [
+   75,
+   "ted by",
+   "fed by",
+   "ocr"
+  ],
+  [
+   88,
+   "Federal .",
+   "Federal",
+   "ocr"
+  ],
+  [
+   93,
+   "dc Gaulle",
+   "de Gaulle",
+   "ocr"
+  ],
+  [
+   99,
+   "on, the",
+   "on the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "180aa3d5e25dd7d6557db1da7ef44fad8d28a911",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 41
+  },
+  "words_in": 4201,
+  "words_out": 4201,
+  "retention": 1.0,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   139,
+   72,
+   265,
+   92,
+   87,
+   90,
+   162,
+   168,
+   85,
+   85,
+   91,
+   141,
+   172,
+   72,
+   171,
+   183,
+   152,
+   82,
+   140,
+   158,
+   145,
+   170,
+   77,
+   104,
+   111,
+   66,
+   143,
+   89,
+   91,
+   67,
+   197,
+   108,
+   88,
+   81,
+   57
+  ],
+  "warnings": []
+ }
+}

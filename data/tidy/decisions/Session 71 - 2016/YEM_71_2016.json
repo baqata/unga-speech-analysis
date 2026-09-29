@@ -1,0 +1,105 @@
+{
+ "id": "YEM_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  12,
+  14,
+  17,
+  20,
+  24,
+  29,
+  34,
+  40,
+  45,
+  48,
+  53,
+  57,
+  62,
+  67,
+  71,
+  74,
+  79,
+  85,
+  90,
+  96,
+  97
+ ],
+ "cer": [
+  0,
+  96
+ ],
+ "fix": [
+  [
+   34,
+   "missles",
+   "missiles",
+   "ocr"
+  ],
+  [
+   44,
+   "militas",
+   "militias",
+   "ocr"
+  ],
+  [
+   31,
+   "Yeminis",
+   "Yemenis",
+   "ocr"
+  ],
+  [
+   50,
+   "Yemini",
+   "Yemeni",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b37de13ada2746b657fa5aed2bc1a382d794f284",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2597,
+  "words_out": 2597,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   102,
+   69,
+   71,
+   68,
+   72,
+   101,
+   90,
+   96,
+   74,
+   105,
+   154,
+   111,
+   81,
+   168,
+   112,
+   134,
+   126,
+   126,
+   123,
+   159,
+   138,
+   107,
+   155,
+   26,
+   29
+  ],
+  "warnings": []
+ }
+}

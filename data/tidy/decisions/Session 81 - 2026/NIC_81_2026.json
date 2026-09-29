@@ -1,0 +1,52 @@
+{
+ "id": "NIC_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   16,
+   16,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  9,
+  12,
+  14,
+  15
+ ],
+ "cer": [
+  15
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Delivered in Spanish; the English interpretation was checked against the speaker's words and needs no repair.",
+ "unitizer_version": 1,
+ "sha1": "0ef3918ad896dd46c7c811abc368783ff641a428",
+ "layout": "single",
+ "stats": {
+  "n_units": 17,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 604,
+  "words_out": 575,
+  "retention": 0.952,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   152,
+   173,
+   149,
+   63,
+   34,
+   4
+  ],
+  "warnings": []
+ }
+}

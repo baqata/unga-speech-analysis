@@ -1,0 +1,66 @@
+{
+ "id": "BLR_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  16,
+  29,
+  48,
+  75,
+  95,
+  114,
+  126,
+  149,
+  163,
+  181,
+  202,
+  221,
+  240
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "(Matthew, 5:9)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "92dfd7c4145c4eddfaddf5daea2bd3f5613da265",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2049,
+  "words_out": 2043,
+  "retention": 0.9971,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   25,
+   99,
+   89,
+   151,
+   221,
+   152,
+   162,
+   107,
+   201,
+   123,
+   143,
+   168,
+   162,
+   167,
+   73
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "STP_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  10,
+  12,
+  14,
+  19,
+  22,
+  25,
+  30,
+  34,
+  39,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   23,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   24,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   37,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "691f49a7bc7d06121e3778503b73d5c1f5dcd933",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 1530,
+  "words_out": 1526,
+  "retention": 0.9974,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   85,
+   76,
+   81,
+   84,
+   90,
+   84,
+   190,
+   157,
+   87,
+   148,
+   128,
+   133,
+   88,
+   95
+  ],
+  "warnings": []
+ }
+}

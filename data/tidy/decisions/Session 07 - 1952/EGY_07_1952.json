@@ -1,0 +1,69 @@
+{
+ "id": "EGY_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  17,
+  22,
+  27,
+  36,
+  42
+ ],
+ "cer": [],
+ "fix": [
+  [
+   16,
+   "achieved,”",
+   "achieved.”",
+   "ocr"
+  ],
+  [
+   33,
+   "At",
+   "A",
+   "ocr"
+  ],
+  [
+   39,
+   "Nations,",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   42,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "70316dc71b0b896b37d264fec842779e26e17df4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 14
+  },
+  "words_in": 1205,
+  "words_out": 1204,
+  "retention": 0.9992,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   164,
+   89,
+   167,
+   114,
+   128,
+   200,
+   208,
+   134
+  ],
+  "warnings": []
+ }
+}

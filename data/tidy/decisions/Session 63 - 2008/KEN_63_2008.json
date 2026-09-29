@@ -1,0 +1,47 @@
+{
+ "id": "KEN_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  18,
+  47,
+  75,
+  92,
+  120,
+  143,
+  161
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "18c12238c892b1fcd49820ff5e596fc541263da4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1360,
+  "words_out": 1357,
+  "retention": 0.9978,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   18,
+   116,
+   232,
+   215,
+   134,
+   226,
+   182,
+   123,
+   111
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "id": "HTI_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   141,
+   141,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  9,
+  18,
+  23,
+  28,
+  36,
+  40,
+  48,
+  52,
+  57,
+  65,
+  75,
+  86,
+  96,
+  104,
+  113,
+  118,
+  123,
+  127,
+  139
+ ],
+ "cer": [
+  3,
+  9,
+  139
+ ],
+ "fix": [
+  [
+   16,
+   "dominican republic",
+   "Dominican Republic",
+   "asr_name"
+  ],
+  [
+   16,
+   "haitian crisis",
+   "Haitian crisis",
+   "asr_name"
+  ],
+  [
+   16,
+   "i express",
+   "I express",
+   "asr_term"
+  ],
+  [
+   16,
+   "integrated office in haiti",
+   "Integrated Office in Haiti",
+   "asr_name"
+  ],
+  [
+   47,
+   "underfoot. underfoot.",
+   "underfoot.",
+   "asr_term"
+  ],
+  [
+   16,
+   "capacity. also",
+   "capacity. Also",
+   "asr_term"
+  ],
+  [
+   22,
+   "it. he",
+   "it. He",
+   "asr_term"
+  ],
+  [
+   50,
+   "dignity. the",
+   "dignity. The",
+   "asr_term"
+  ],
+  [
+   54,
+   "themselves. because",
+   "themselves. Because",
+   "asr_term"
+  ],
+  [
+   74,
+   "security. it",
+   "security. It",
+   "asr_term"
+  ],
+  [
+   107,
+   "women. because",
+   "women. Because",
+   "asr_term"
+  ],
+  [
+   116,
+   "ballot. this",
+   "ballot. This",
+   "asr_term"
+  ],
+  [
+   121,
+   "box. because",
+   "box. Because",
+   "asr_term"
+  ],
+  [
+   128,
+   "violence. we",
+   "violence. We",
+   "asr_term"
+  ],
+  [
+   134,
+   "dependency. our",
+   "dependency. Our",
+   "asr_term"
+  ],
+  [
+   22,
+   "then",
+   "than",
+   "asr_term"
+  ],
+  [
+   35,
+   "International",
+   "Our international",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 0 thanks the previous speaker (Bahamas); capitals restored in unit 16 (BINUH, Spanish 'la VINU'). Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 47 'underfoot. underfoot.' -> 'underfoot.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 16 'capacity. also' -> 'capacity. Also'; unit 22 'it. he' -> 'it. He'; unit 50 'dignity. the' -> 'dignity. The'; unit 54 'themselves. because' -> 'themselves. Because'; unit 74 'security. it' -> 'security. It'; unit 107 'women. because' -> 'women. Because'; unit 116 'ballot. this' -> 'ballot. This'; unit 121 'box. because' -> 'box. Because'; unit 128 'violence. we' -> 'violence. We'; unit 134 'dependency. our' -> 'dependency. Our'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 22 'then' -> 'than' (both decodes hear 'than' (0.85 / 0.98); 'no more then cut down' does not fit the comparison); spot 5 unit 35 'International' -> 'Our international' (2026 exception: both decodes hear 'Our' clearly (0.98 / 0.99); ES 'Nuestra arquitectura financiera internacional')",
+ "unitizer_version": 1,
+ "sha1": "631371dc14d3b8a298b3bce6813b8bc8f520d430",
+ "layout": "single",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 3132,
+  "words_out": 3063,
+  "retention": 0.978,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   19,
+   153,
+   283,
+   231,
+   112,
+   141,
+   87,
+   147,
+   101,
+   125,
+   170,
+   232,
+   149,
+   177,
+   148,
+   216,
+   186,
+   96,
+   71,
+   204,
+   15
+  ],
+  "warnings": []
+ }
+}

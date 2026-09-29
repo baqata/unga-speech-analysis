@@ -1,0 +1,68 @@
+{
+ "id": "BGR_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  11,
+  14,
+  18,
+  21,
+  24,
+  26,
+  32,
+  35,
+  37,
+  43,
+  47,
+  50,
+  53,
+  58
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   55,
+   "gender- based",
+   "gender-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "351b94885043973cdc8446e7603a825805e47e6d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1698,
+  "words_out": 1697,
+  "retention": 0.9994,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   60,
+   93,
+   140,
+   110,
+   121,
+   102,
+   89,
+   63,
+   178,
+   87,
+   73,
+   125,
+   111,
+   64,
+   107,
+   139,
+   35
+  ],
+  "warnings": []
+ }
+}

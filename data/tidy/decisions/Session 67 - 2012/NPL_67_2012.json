@@ -1,0 +1,104 @@
+{
+ "id": "NPL_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  31,
+  51,
+  66,
+  80,
+  92,
+  105,
+  128,
+  141,
+  157,
+  174,
+  187,
+  198,
+  211,
+  221,
+  235,
+  252,
+  270,
+  282,
+  296,
+  309,
+  332
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   88,
+   "f lagship",
+   "flagship",
+   "split_word"
+  ],
+  [
+   106,
+   "unf linching",
+   "unflinching",
+   "split_word"
+  ],
+  [
+   153,
+   "(resolution 66/288, annex)",
+   "",
+   "label"
+  ],
+  [
+   214,
+   "aff luence",
+   "affluence",
+   "split_word"
+  ],
+  [
+   256,
+   "brief ly",
+   "briefly",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "323de7ac92edc33bfb04121e263d68647ae16857",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 337,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2636,
+  "words_out": 2626,
+  "retention": 0.9962,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   90,
+   149,
+   137,
+   122,
+   104,
+   88,
+   101,
+   181,
+   100,
+   119,
+   133,
+   107,
+   88,
+   113,
+   84,
+   99,
+   124,
+   147,
+   100,
+   121,
+   96,
+   178,
+   45
+  ],
+  "warnings": []
+ }
+}

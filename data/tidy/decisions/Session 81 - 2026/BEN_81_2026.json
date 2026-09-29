@@ -1,0 +1,130 @@
+{
+ "id": "BEN_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   128,
+   129,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  4,
+  10,
+  17,
+  25,
+  30,
+  37,
+  47,
+  56,
+  63,
+  73,
+  81,
+  90,
+  96,
+  100,
+  109,
+  117
+ ],
+ "cer": [
+  1,
+  4
+ ],
+ "fix": [
+  [
+   1,
+   "You ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Binnies",
+   "Beninese",
+   "asr_name"
+  ],
+  [
+   44,
+   "Izalwini consensus",
+   "Ezulwini Consensus",
+   "asr_name"
+  ],
+  [
+   44,
+   "set declaration",
+   "Sirte Declaration",
+   "asr_name"
+  ],
+  [
+   65,
+   "development countries",
+   "developing countries",
+   "asr_term"
+  ],
+  [
+   15,
+   "independence. but",
+   "independence. But",
+   "asr_term"
+  ],
+  [
+   72,
+   "development. because",
+   "development. Because",
+   "asr_term"
+  ],
+  [
+   99,
+   "scattered. this",
+   "scattered. This",
+   "asr_term"
+  ],
+  [
+   121,
+   "before. it",
+   "before. It",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 1 'You' invented over the walk to the podium; Beninese, Ezulwini, Sirte, paises en desarrollo per Spanish channel. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 15 'independence. but' -> 'independence. But'; unit 72 'development. because' -> 'development. Because'; unit 99 'scattered. this' -> 'scattered. This'; unit 121 'before. it' -> 'before. It'",
+ "unitizer_version": 1,
+ "sha1": "a1144b3b5088e645465346f38e3f4d0cf503be4c",
+ "layout": "single",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2272,
+  "words_out": 2239,
+  "retention": 0.9855,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   88,
+   116,
+   121,
+   161,
+   91,
+   110,
+   132,
+   116,
+   123,
+   173,
+   137,
+   151,
+   119,
+   161,
+   182,
+   98,
+   160
+  ],
+  "warnings": []
+ }
+}

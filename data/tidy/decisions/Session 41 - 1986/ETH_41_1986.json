@@ -1,0 +1,116 @@
+{
+ "id": "ETH_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  8,
+  11,
+  15,
+  16,
+  18,
+  20,
+  22,
+  25,
+  31,
+  34,
+  36,
+  37,
+  40,
+  43,
+  45,
+  48,
+  52,
+  56,
+  62,
+  65,
+  70,
+  75,
+  81,
+  86
+ ],
+ "cer": [
+  0,
+  2,
+  3
+ ],
+ "fix": [
+  [
+   2,
+   "hear felt",
+   "heartfelt",
+   "split_word"
+  ],
+  [
+   3,
+   "Ptfrez",
+   "Perez",
+   "ocr"
+  ],
+  [
+   72,
+   "efforts*",
+   "efforts.",
+   "ocr"
+  ],
+  [
+   75,
+   "phase* We",
+   "phase. We",
+   "ocr"
+  ],
+  [
+   65,
+   "bei soon",
+   "be soon",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d18845bcd7881b779ed00741fd765aa1d2295f5c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2935,
+  "words_out": 2934,
+  "retention": 0.9997,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   48,
+   33,
+   84,
+   98,
+   80,
+   131,
+   65,
+   59,
+   58,
+   97,
+   92,
+   184,
+   98,
+   60,
+   62,
+   78,
+   111,
+   109,
+   140,
+   65,
+   101,
+   166,
+   85,
+   134,
+   132,
+   213,
+   126,
+   225
+  ],
+  "warnings": []
+ }
+}

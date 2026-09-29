@@ -1,0 +1,86 @@
+{
+ "id": "AGO_47_1992",
+ "drop": [
+  [
+   49,
+   49,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  13,
+  19,
+  28,
+  34,
+  46,
+  54,
+  68,
+  75,
+  84,
+  91,
+  107,
+  124,
+  141,
+  156,
+  175,
+  181,
+  202
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "you. Sir,",
+   "you, Sir,",
+   "ocr"
+  ],
+  [
+   156,
+   "accomplis.",
+   "accomplis,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9e7ddbaa095313471708a59541838c8a27d87d7a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "page_number": 7
+  },
+  "words_in": 2286,
+  "words_out": 2284,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   130,
+   68,
+   98,
+   73,
+   130,
+   87,
+   148,
+   72,
+   103,
+   70,
+   173,
+   170,
+   183,
+   159,
+   198,
+   64,
+   215,
+   143
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "id": "RWA_37_1982",
+ "drop": [
+  [
+   40,
+   40,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  29,
+  41,
+  56,
+  68,
+  95,
+  111,
+  129,
+  150,
+  163,
+  185,
+  205,
+  227,
+  244,
+  259,
+  277,
+  288,
+  312,
+  327,
+  352,
+  375,
+  397,
+  413,
+  425,
+  448,
+  469
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   90,
+   "(rescheduling",
+   "rescheduling",
+   "ocr"
+  ],
+  [
+   127,
+   "would al",
+   "would al-",
+   "split_word"
+  ],
+  [
+   134,
+   "sub regional",
+   "sub-regional",
+   "spacing"
+  ],
+  [
+   217,
+   "tension;",
+   "tension,",
+   "ocr"
+  ],
+  [
+   248,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   300,
+   "de- stabilization",
+   "destabilization",
+   "split_word"
+  ],
+  [
+   322,
+   " tom ",
+   " torn ",
+   "ocr"
+  ],
+  [
+   323,
+   "taskof",
+   "task of",
+   "merged_word"
+  ],
+  [
+   360,
+   "Mood",
+   "blood",
+   "ocr"
+  ],
+  [
+   407,
+   "the some",
+   "the same",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Dashes are printed as hyphens throughout (e.g. units 235-236, 288-293) and left as printed.",
+ "unitizer_version": 1,
+ "sha1": "1a5c80908b49d491cfa0cc540bd27c04e583ab32",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 485,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 4807,
+  "words_out": 4803,
+  "retention": 0.9992,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   305,
+   115,
+   137,
+   112,
+   272,
+   148,
+   164,
+   203,
+   141,
+   238,
+   196,
+   224,
+   162,
+   161,
+   171,
+   118,
+   214,
+   156,
+   249,
+   237,
+   223,
+   169,
+   116,
+   209,
+   207,
+   156
+  ],
+  "warnings": []
+ }
+}

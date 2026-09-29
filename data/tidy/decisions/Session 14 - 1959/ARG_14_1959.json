@@ -1,0 +1,114 @@
+{
+ "id": "ARG_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  17,
+  23,
+  26,
+  34,
+  37,
+  41,
+  44,
+  52,
+  56,
+  62,
+  66,
+  73,
+  79,
+  83,
+  87
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Assembly-,",
+   "Assembly,",
+   "ocr"
+  ],
+  [
+   13,
+   "maybe",
+   "may be",
+   "spacing"
+  ],
+  [
+   13,
+   "an such",
+   "as such",
+   "ocr"
+  ],
+  [
+   16,
+   "clear- thinking",
+   "clear-thinking",
+   "hyphen"
+  ],
+  [
+   63,
+   "Organization, But",
+   "Organization. But",
+   "ocr"
+  ],
+  [
+   74,
+   "Pan- America",
+   "Pan-America",
+   "hyphen"
+  ],
+  [
+   82,
+   "above, all",
+   "above all",
+   "ocr"
+  ],
+  [
+   83,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "74b4cbe49a651574f3fcc43508f47ceb48e7fcea",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2812,
+  "words_out": 2803,
+  "retention": 0.9968,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   183,
+   152,
+   190,
+   170,
+   129,
+   245,
+   118,
+   102,
+   86,
+   210,
+   105,
+   182,
+   158,
+   206,
+   185,
+   128,
+   119,
+   135
+  ],
+  "warnings": []
+ }
+}

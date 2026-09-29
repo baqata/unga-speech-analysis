@@ -1,0 +1,72 @@
+{
+ "id": "LIE_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  18,
+  30,
+  44,
+  55,
+  69,
+  81,
+  91,
+  103,
+  116,
+  129,
+  137,
+  152,
+  175
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   101,
+   "(resolution",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "65/283, thirteenth preambular paragraph)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c07e7434be36c7fffd36e047e728e4782d409ec4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 186,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1499,
+  "words_out": 1494,
+  "retention": 0.9967,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   52,
+   99,
+   93,
+   120,
+   92,
+   114,
+   98,
+   83,
+   80,
+   117,
+   103,
+   62,
+   109,
+   178,
+   94
+  ],
+  "warnings": []
+ }
+}

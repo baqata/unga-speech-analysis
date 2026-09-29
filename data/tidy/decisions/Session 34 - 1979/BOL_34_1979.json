@@ -1,0 +1,162 @@
+{
+ "id": "BOL_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  16,
+  20,
+  23,
+  26,
+  29,
+  34,
+  39,
+  40,
+  46,
+  49,
+  53,
+  58,
+  62,
+  68,
+  71,
+  75,
+  81,
+  86,
+  90,
+  91,
+  94,
+  96,
+  98,
+  102,
+  107,
+  112,
+  114,
+  120
+ ],
+ "cer": [
+  0,
+  2,
+  8
+ ],
+ "fix": [
+  [
+   9,
+   "Mr, Kurt",
+   "Mr. Kurt",
+   "ocr"
+  ],
+  [
+   13,
+   "ray country",
+   "my country",
+   "ocr"
+  ],
+  [
+   36,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   39,
+   "Torrijos- Carter",
+   "Torrijos-Carter",
+   "hyphen"
+  ],
+  [
+   51,
+   "ac-cumulated",
+   "accumulated",
+   "hyphen"
+  ],
+  [
+   65,
+   "tin- producing",
+   "tin-producing",
+   "hyphen"
+  ],
+  [
+   83,
+   "[OAS]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   93,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   95,
+   "names exits",
+   "names exists",
+   "ocr"
+  ],
+  [
+   96,
+   "self- government",
+   "self-government",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9040e72b7d4158c2f8614259a395713916d82bd4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 3424,
+  "words_out": 3418,
+  "retention": 0.9982,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   74,
+   182,
+   153,
+   72,
+   139,
+   107,
+   72,
+   117,
+   86,
+   183,
+   73,
+   111,
+   106,
+   125,
+   120,
+   64,
+   136,
+   81,
+   106,
+   120,
+   182,
+   110,
+   57,
+   80,
+   69,
+   82,
+   71,
+   122,
+   122,
+   59,
+   194,
+   43
+  ],
+  "warnings": []
+ }
+}

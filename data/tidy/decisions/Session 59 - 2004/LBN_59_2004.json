@@ -1,0 +1,92 @@
+{
+ "id": "LBN_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  27,
+  38,
+  49,
+  66,
+  75,
+  85,
+  98,
+  116,
+  131,
+  140,
+  155
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "Lebanonís",
+   "Lebanon’s",
+   "encoding"
+  ],
+  [
+   25,
+   "Organizationís",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   33,
+   "ìLebanonizationî",
+   "“Lebanonization”",
+   "encoding"
+  ],
+  [
+   35,
+   "ìLebanonizationî",
+   "“Lebanonization”",
+   "encoding"
+  ],
+  [
+   44,
+   "Shebaía",
+   "Sheba’a",
+   "encoding"
+  ],
+  [
+   54,
+   "Lebanonís",
+   "Lebanon’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dbc8e933637d52a8e584a8b3f68c09447d2e79ab",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1324,
+  "words_out": 1323,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   127,
+   72,
+   90,
+   88,
+   144,
+   64,
+   81,
+   107,
+   152,
+   117,
+   63,
+   125,
+   93
+  ],
+  "warnings": []
+ }
+}

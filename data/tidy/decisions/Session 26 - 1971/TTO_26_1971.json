@@ -1,0 +1,112 @@
+{
+ "id": "TTO_26_1971",
+ "drop": [
+  [
+   56,
+   56,
+   "noise"
+  ],
+  [
+   63,
+   63,
+   "noise"
+  ],
+  [
+   86,
+   86,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  10,
+  11,
+  18,
+  24,
+  30,
+  35,
+  38,
+  42,
+  47,
+  50,
+  52,
+  57,
+  64,
+  67,
+  72,
+  76,
+  87
+ ],
+ "cer": [
+  0,
+  3,
+  10
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   14,
+   "mu.! be",
+   "must be",
+   "ocr"
+  ],
+  [
+   47,
+   " [UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   68,
+   " [CARIFTA]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbcd26cf3e7e7205ab28434f783290af8d87515d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 93,
+  "units_dropped": {
+   "noise": 3
+  },
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 2071,
+  "words_out": 2062,
+  "retention": 0.9957,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   86,
+   157,
+   52,
+   176,
+   132,
+   153,
+   92,
+   64,
+   102,
+   87,
+   87,
+   85,
+   61,
+   131,
+   87,
+   135,
+   105,
+   212,
+   58
+  ],
+  "warnings": []
+ }
+}

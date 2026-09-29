@@ -1,0 +1,66 @@
+{
+ "id": "DOM_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  22,
+  34,
+  47,
+  58,
+  76,
+  88,
+  111,
+  122,
+  149,
+  173,
+  186,
+  207,
+  218,
+  230
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   121,
+   "adignified",
+   "a dignified",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "06f1ca7be90626e55e813480f1b29182feae3253",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 244,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2067,
+  "words_out": 2063,
+  "retention": 0.9981,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   50,
+   146,
+   96,
+   107,
+   102,
+   151,
+   103,
+   177,
+   97,
+   214,
+   211,
+   103,
+   198,
+   96,
+   103,
+   109
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "id": "MYS_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  13,
+  18,
+  21,
+  25,
+  30,
+  36,
+  40,
+  44,
+  48,
+  54,
+  63,
+  70,
+  77,
+  81,
+  83,
+  86,
+  88,
+  90,
+  95,
+  100,
+  104,
+  108,
+  114,
+  119,
+  123,
+  126
+ ],
+ "cer": [
+  0,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   6,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   39,
+   " .become",
+   " become",
+   "ocr"
+  ],
+  [
+   52,
+   "oUr",
+   "our",
+   "ocr"
+  ],
+  [
+   81,
+   "197110",
+   "1971",
+   "ocr"
+  ],
+  [
+   84,
+   "the/ possess",
+   "they possess",
+   "ocr"
+  ],
+  [
+   87,
+   ".he countries",
+   "the countries",
+   "ocr"
+  ],
+  [
+   90,
+   "^contribute",
+   "contribute",
+   "ocr"
+  ],
+  [
+   91,
+   "if Charter",
+   "Charter",
+   "ocr"
+  ],
+  [
+   97,
+   "vital Step",
+   "vital step",
+   "ocr"
+  ],
+  [
+   123,
+   " [item 129]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fff04914ed7aa315abdc5d36bd0dcab125e6f6b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3367,
+  "words_out": 3354,
+  "retention": 0.9961,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   119,
+   72,
+   89,
+   75,
+   108,
+   93,
+   98,
+   96,
+   129,
+   146,
+   91,
+   103,
+   120,
+   180,
+   168,
+   240,
+   99,
+   106,
+   70,
+   78,
+   84,
+   158,
+   110,
+   112,
+   95,
+   127,
+   110,
+   116,
+   81,
+   81
+  ],
+  "warnings": []
+ }
+}

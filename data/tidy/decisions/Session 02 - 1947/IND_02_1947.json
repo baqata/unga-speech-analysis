@@ -1,0 +1,80 @@
+{
+ "id": "IND_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  14,
+  18,
+  21,
+  28,
+  32,
+  35,
+  41,
+  45,
+  48,
+  51,
+  56,
+  58,
+  64,
+  67
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "is tendon",
+   "is tension",
+   "ocr"
+  ],
+  [
+   3,
+   "towards same new",
+   "towards some new",
+   "ocr"
+  ],
+  [
+   33,
+   "arc ignored",
+   "are ignored",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "00288bb2e8dc29143aa4b4db7dfc346072273fdf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2058,
+  "words_out": 2058,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   94,
+   104,
+   152,
+   61,
+   137,
+   98,
+   180,
+   103,
+   97,
+   141,
+   146,
+   98,
+   88,
+   156,
+   70,
+   164,
+   117,
+   52
+  ],
+  "warnings": []
+ }
+}

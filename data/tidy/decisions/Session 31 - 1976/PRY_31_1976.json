@@ -1,0 +1,81 @@
+{
+ "id": "PRY_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  18,
+  22,
+  27,
+  31,
+  32,
+  33,
+  37,
+  43,
+  48,
+  52,
+  57
+ ],
+ "cer": [
+  0,
+  32
+ ],
+ "fix": [
+  [
+   2,
+   "Mr.Waldheim",
+   "Mr. Waldheim",
+   "spacing"
+  ],
+  [
+   6,
+   "reason^, and",
+   "reason, and",
+   "ocr"
+  ],
+  [
+   17,
+   "justify cur confidence",
+   "justify our confidence",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b79ca05c6d2780e94ef633c9e773f7b6ebc6270e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 21
+  },
+  "words_in": 2129,
+  "words_out": 2129,
+  "retention": 1.0,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   208,
+   132,
+   138,
+   181,
+   154,
+   122,
+   184,
+   143,
+   42,
+   38,
+   121,
+   143,
+   184,
+   91,
+   161,
+   87
+  ],
+  "warnings": []
+ }
+}

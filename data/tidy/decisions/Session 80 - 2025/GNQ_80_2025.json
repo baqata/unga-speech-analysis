@@ -1,0 +1,61 @@
+{
+ "id": "GNQ_80_2025",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   67,
+   68,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  5,
+  16,
+  21,
+  31,
+  37,
+  48,
+  55,
+  61,
+  66
+ ],
+ "cer": [
+  3,
+  66
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c4618f3ddf08c939208de6b962e29a1a9900ba05",
+ "layout": "single",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {
+   "presider": 5
+  },
+  "prestrip": {},
+  "words_in": 1226,
+  "words_out": 1146,
+  "retention": 0.9347,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   95,
+   150,
+   100,
+   207,
+   71,
+   154,
+   159,
+   120,
+   87,
+   3
+  ],
+  "warnings": []
+ }
+}

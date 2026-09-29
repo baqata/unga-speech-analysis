@@ -1,0 +1,108 @@
+{
+ "id": "BOL_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  42,
+  55,
+  69,
+  81,
+  103,
+  111,
+  122,
+  130,
+  144,
+  164,
+  179,
+  202,
+  226,
+  242
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   59,
+   "forexample",
+   "for example",
+   "merged_word"
+  ],
+  [
+   169,
+   "59 ",
+   "",
+   "label"
+  ],
+  [
+   197,
+   "thatsituation",
+   "that situation",
+   "merged_word"
+  ],
+  [
+   202,
+   "1 said",
+   "I said",
+   "ocr"
+  ],
+  [
+   203,
+   "wortd",
+   "world",
+   "ocr"
+  ],
+  [
+   224,
+   "ties within",
+   "lies within",
+   "ocr"
+  ],
+  [
+   252,
+   "the word",
+   "the world",
+   "ocr"
+  ],
+  [
+   253,
+   "the word",
+   "the world",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e2456ba9f98ca3ac8edebc5ef44b16400077125",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2600,
+  "words_out": 2568,
+  "retention": 0.9877,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   190,
+   222,
+   121,
+   140,
+   122,
+   228,
+   82,
+   112,
+   77,
+   135,
+   198,
+   136,
+   238,
+   247,
+   155,
+   165
+  ],
+  "warnings": []
+ }
+}

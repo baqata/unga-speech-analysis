@@ -1,0 +1,72 @@
+{
+ "id": "IDN_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  18,
+  23,
+  32,
+  37,
+  44,
+  52,
+  64,
+  71,
+  77,
+  84
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "longest- standing",
+   "longest-standing",
+   "hyphen"
+  ],
+  [
+   36,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   49,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2be8cc915c5fd63e2817bdb041c109f00c7f901f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1471,
+  "words_out": 1468,
+  "retention": 0.998,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   153,
+   116,
+   61,
+   93,
+   139,
+   82,
+   88,
+   138,
+   174,
+   79,
+   105,
+   132,
+   108
+  ],
+  "warnings": []
+ }
+}

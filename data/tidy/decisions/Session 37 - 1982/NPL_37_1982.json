@@ -1,0 +1,136 @@
+{
+ "id": "NPL_37_1982",
+ "drop": [
+  [
+   6,
+   6,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  7,
+  15,
+  20,
+  25,
+  28,
+  34,
+  37,
+  41,
+  45,
+  48,
+  55,
+  59,
+  63,
+  65,
+  68,
+  76,
+  85,
+  88,
+  91,
+  93,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "President Ot",
+   "President of",
+   "ocr"
+  ],
+  [
+   8,
+   "Hie ",
+   "The ",
+   "ocr"
+  ],
+  [
+   36,
+   "'tote",
+   "note",
+   "ocr"
+  ],
+  [
+   54,
+   " [resolution 35/56, annex]",
+   "",
+   "label"
+  ],
+  [
+   69,
+   "intervention.*,",
+   "intervention,",
+   "ocr"
+  ],
+  [
+   69,
+   "csin",
+   "can",
+   "ocr"
+  ],
+  [
+   78,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   79,
+   "respect.",
+   "respect,",
+   "ocr"
+  ],
+  [
+   99,
+   "ha;",
+   "has",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01808122ea03e22de976aed794e62e40f319a620",
+ "layout": "lines",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2495,
+  "words_out": 2484,
+  "retention": 0.9956,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   182,
+   98,
+   92,
+   105,
+   88,
+   134,
+   96,
+   101,
+   63,
+   62,
+   162,
+   73,
+   90,
+   78,
+   81,
+   210,
+   247,
+   82,
+   67,
+   54,
+   237,
+   82
+  ],
+  "warnings": []
+ }
+}

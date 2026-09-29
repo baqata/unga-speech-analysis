@@ -1,0 +1,120 @@
+{
+ "id": "SDN_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  28,
+  45,
+  58,
+  76,
+  89,
+  108,
+  122,
+  130,
+  144,
+  156,
+  169,
+  195,
+  211,
+  230,
+  242,
+  251,
+  273,
+  286,
+  298
+ ],
+ "cer": [
+  122
+ ],
+ "fix": [
+  [
+   6,
+   " (The Holy Koran,",
+   "",
+   "label"
+  ],
+  [
+   7,
+   "XVI:125)",
+   "",
+   "label"
+  ],
+  [
+   17,
+   "Peopleís",
+   "People’s",
+   "encoding"
+  ],
+  [
+   48,
+   "Sudanís",
+   "Sudan’s",
+   "encoding"
+  ],
+  [
+   67,
+   "Governmentís",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   175,
+   "Africaís",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   220,
+   "Sudanís",
+   "Sudan’s",
+   "encoding"
+  ],
+  [
+   288,
+   "humanityís",
+   "humanity’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7b5979d6bbe00024ea12164eb2b4c4d5e51857ac",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 303,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2391,
+  "words_out": 2384,
+  "retention": 0.9971,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   110,
+   110,
+   143,
+   98,
+   143,
+   101,
+   153,
+   98,
+   67,
+   108,
+   96,
+   110,
+   200,
+   137,
+   146,
+   80,
+   63,
+   171,
+   105,
+   103,
+   42
+  ],
+  "warnings": []
+ }
+}

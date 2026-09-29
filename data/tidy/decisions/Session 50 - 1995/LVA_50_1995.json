@@ -1,0 +1,84 @@
+{
+ "id": "LVA_50_1995",
+ "drop": [
+  [
+   20,
+   20,
+   "header_footer"
+  ],
+  [
+   113,
+   113,
+   "header_footer"
+  ],
+  [
+   207,
+   207,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  11,
+  26,
+  37,
+  54,
+  67,
+  79,
+  96,
+  111,
+  129,
+  139,
+  152,
+  164,
+  179,
+  190,
+  205,
+  226
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6382dd7e37fadee8e309ff841d998c158ca3af9b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1913,
+  "words_out": 1896,
+  "retention": 0.9911,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   28,
+   60,
+   117,
+   103,
+   139,
+   109,
+   96,
+   137,
+   118,
+   121,
+   79,
+   98,
+   113,
+   124,
+   83,
+   108,
+   164,
+   99
+  ],
+  "warnings": []
+ }
+}

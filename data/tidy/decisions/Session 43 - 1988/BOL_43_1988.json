@@ -1,0 +1,119 @@
+{
+ "id": "BOL_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  10,
+  14,
+  21,
+  28,
+  34,
+  37,
+  43,
+  48,
+  50,
+  52,
+  55,
+  58,
+  61,
+  66,
+  72,
+  77,
+  80,
+  83,
+  87,
+  92,
+  96,
+  100,
+  103,
+  105,
+  108,
+  111
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   14,
+   "debt- Early",
+   "debt. Early",
+   "ocr"
+  ],
+  [
+   28,
+   "roost",
+   "most",
+   "ocr"
+  ],
+  [
+   30,
+   "multi faceted",
+   "multifaceted",
+   "spacing"
+  ],
+  [
+   51,
+   "'Ttorrijos-Carter",
+   "Torrijos-Carter",
+   "ocr"
+  ],
+  [
+   109,
+   "o£",
+   "of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1be5a4c3b62e573566a2b1900db79bbb2c7230e9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3738,
+  "words_out": 3737,
+  "retention": 0.9997,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   63,
+   81,
+   148,
+   116,
+   124,
+   185,
+   221,
+   137,
+   112,
+   181,
+   191,
+   79,
+   104,
+   69,
+   106,
+   85,
+   153,
+   174,
+   155,
+   116,
+   117,
+   127,
+   112,
+   162,
+   106,
+   121,
+   109,
+   86,
+   140,
+   57
+  ],
+  "warnings": []
+ }
+}

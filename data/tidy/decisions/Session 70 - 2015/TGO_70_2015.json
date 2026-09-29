@@ -1,0 +1,70 @@
+{
+ "id": "TGO_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  5,
+  13,
+  16,
+  19,
+  23,
+  30,
+  33,
+  37,
+  46,
+  50,
+  53,
+  59,
+  65
+ ],
+ "cer": [
+  0,
+  1,
+  4
+ ],
+ "fix": [
+  [
+   15,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ce7a7860bcfb972d0b6cad548cdab216e4318f6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 1969,
+  "words_out": 1965,
+  "retention": 0.998,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   27,
+   76,
+   37,
+   173,
+   107,
+   104,
+   145,
+   140,
+   122,
+   130,
+   262,
+   142,
+   87,
+   138,
+   219,
+   56
+  ],
+  "warnings": []
+ }
+}

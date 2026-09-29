@@ -1,0 +1,47 @@
+{
+ "id": "MLI_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  30,
+  49,
+  65,
+  93,
+  113,
+  121,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5adf99bae569cbe4c2cc4b3a1363764aa69cc133",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1154,
+  "words_out": 1150,
+  "retention": 0.9965,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   128,
+   98,
+   145,
+   117,
+   221,
+   146,
+   50,
+   135,
+   110
+  ],
+  "warnings": []
+ }
+}

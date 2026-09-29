@@ -1,0 +1,68 @@
+{
+ "id": "NAM_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  12,
+  19,
+  27,
+  29,
+  34,
+  38,
+  45,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "much- needed",
+   "much-needed",
+   "spacing"
+  ],
+  [
+   30,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   32,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "554cbc773b1100785a2fa4348e7c342e6d856fda",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1324,
+  "words_out": 1321,
+  "retention": 0.9977,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   96,
+   174,
+   162,
+   204,
+   65,
+   121,
+   130,
+   178,
+   172,
+   19
+  ],
+  "warnings": []
+ }
+}

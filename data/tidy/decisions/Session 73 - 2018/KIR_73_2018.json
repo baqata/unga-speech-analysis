@@ -1,0 +1,80 @@
+{
+ "id": "KIR_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  13,
+  18,
+  21,
+  27,
+  30,
+  33,
+  36,
+  43,
+  47,
+  54,
+  58,
+  62,
+  65,
+  70
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   36,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   39,
+   "profit- making",
+   "profit-making",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59b7bef9e816503e299276a0a2acf07e3893fbd3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2134,
+  "words_out": 2130,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   154,
+   150,
+   104,
+   115,
+   100,
+   176,
+   80,
+   123,
+   80,
+   211,
+   135,
+   155,
+   153,
+   134,
+   90,
+   144,
+   26
+  ],
+  "warnings": []
+ }
+}

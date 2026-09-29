@@ -1,0 +1,141 @@
+{
+ "id": "CHE_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   83,
+   83,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  10,
+  16,
+  23,
+  32,
+  41,
+  47,
+  54,
+  65,
+  74
+ ],
+ "cer": [
+  3
+ ],
+ "fix": [
+  [
+   31,
+   "switzerland",
+   "Switzerland",
+   "asr_name"
+  ],
+  [
+   31,
+   "un charter",
+   "UN Charter",
+   "asr_name"
+  ],
+  [
+   31,
+   "un's",
+   "UN's",
+   "asr_name"
+  ],
+  [
+   68,
+   "multinaturalism",
+   "multilateralism",
+   "asr_term"
+  ],
+  [
+   82,
+   "on behalf of the assembly Thank you.",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "economy. trust",
+   "economy. Trust",
+   "asr_term"
+  ],
+  [
+   68,
+   "multilateralism. but",
+   "multilateralism. But",
+   "asr_term"
+  ],
+  [
+   73,
+   "serve? because",
+   "serve? Because",
+   "asr_term"
+  ],
+  [
+   78,
+   "open. rather",
+   "open rather",
+   "asr_term"
+  ],
+  [
+   82,
+   "trust. perhaps",
+   "trust. Perhaps",
+   "asr_term"
+  ],
+  [
+   13,
+   "this the",
+   "this are",
+   "asr_term"
+  ],
+  [
+   46,
+   "host states",
+   "host state",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Transcript starts mid-sentence: the salutation and opening lines about Switzerland's mountains are missing (present in the Spanish channel); presiding officer's thanks removed from the end of unit 78. Gap recovery (v2-v3) restored the opening Whisper had skipped behind a 'Thank you.' stretched over 30-60 s: the salutation (courtesy) and 'Switzerland is a country of mountains...' to 'what divides us' (matches the Spanish 'Suiza es un país de montañas...'); the stretched 'Thank you.' is noise (no thanks in the Spanish); truncated_start removed. The presider's closing line is now its own unit (dropped); its first words and a 'Thank you.' heard in the pause stay glued to the last sentence (label). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 31 'economy. trust' -> 'economy. Trust'; unit 68 'multilateralism. but' -> 'multilateralism. But'; unit 73 'serve? because' -> 'serve? Because'; unit 78 'open. rather' -> 'open rather'; unit 82 'trust. perhaps' -> 'trust. Perhaps'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 13 'this the' -> 'this are' (both decodes clearly hear 'this are transformations' (are 0.98 / 0.99); ours leaves the sentence without a verb; ES 'Se añade a ello una transformación'); spot 3 unit 46 'host states' -> 'host state' (Switzerland is one host state; 'as the host states' does not fit; ES 'en tanto que estado anfitrión'; decodes write 'states' (0.98 / 0.95) where the final s runs into 'to')",
+ "unitizer_version": 1,
+ "sha1": "0ea3f3eee6d2f9dd90909c81b1ca55c3d4616147",
+ "layout": "single",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1648,
+  "words_out": 1598,
+  "retention": 0.9697,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   19,
+   99,
+   163,
+   111,
+   207,
+   126,
+   109,
+   98,
+   211,
+   238,
+   217
+  ],
+  "warnings": []
+ }
+}

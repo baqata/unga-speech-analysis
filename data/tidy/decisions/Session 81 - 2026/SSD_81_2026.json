@@ -1,0 +1,313 @@
+{
+ "id": "SSD_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   1,
+   "noise"
+  ],
+  [
+   185,
+   185,
+   "noise"
+  ],
+  [
+   186,
+   186,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  8,
+  14,
+  18,
+  25,
+  34,
+  44,
+  50,
+  58,
+  67,
+  73,
+  80,
+  86,
+  92,
+  100,
+  106,
+  113,
+  117,
+  124,
+  132,
+  140,
+  148,
+  155,
+  163,
+  169,
+  175,
+  182
+ ],
+ "cer": [
+  2,
+  182
+ ],
+ "fix": [
+  [
+   2,
+   "Kier",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   21,
+   "Garandimabur",
+   "Garang de Mabior",
+   "asr_name"
+  ],
+  [
+   24,
+   " discrimination.",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "EGAD",
+   "IGAD",
+   "asr_name"
+  ],
+  [
+   31,
+   "and miracle",
+   "ecumenical",
+   "asr_term"
+  ],
+  [
+   34,
+   "Zalva Kiir Mayadi",
+   "Salva Kiir Mayardit",
+   "asr_name"
+  ],
+  [
+   35,
+   "Diktor",
+   "Doctor",
+   "asr_term"
+  ],
+  [
+   35,
+   "Garandimabur",
+   "Garang de Mabior",
+   "asr_name"
+  ],
+  [
+   35,
+   "Keir",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   37,
+   "Keir",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   42,
+   "Revoltaized",
+   "Revitalized",
+   "asr_term"
+  ],
+  [
+   44,
+   "Keir",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   47,
+   "Keir",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   53,
+   "drives from",
+   "derives from",
+   "asr_term"
+  ],
+  [
+   56,
+   "Zalva",
+   "Salva",
+   "asr_name"
+  ],
+  [
+   68,
+   "Keir's",
+   "Kiir's",
+   "asr_name"
+  ],
+  [
+   73,
+   "Kier",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   89,
+   "Keir's",
+   "Kiir's",
+   "asr_name"
+  ],
+  [
+   103,
+   "Keir",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   104,
+   "arbor land",
+   "arable land",
+   "asr_term"
+  ],
+  [
+   117,
+   "Keir's",
+   "Kiir's",
+   "asr_name"
+  ],
+  [
+   118,
+   "authorized",
+   "revitalized",
+   "asr_term"
+  ],
+  [
+   154,
+   "a BA",
+   "Abyei",
+   "asr_name"
+  ],
+  [
+   158,
+   "re-informs",
+   "reaffirms",
+   "asr_term"
+  ],
+  [
+   165,
+   "Salva Kiermayade",
+   "Salva Kiir Mayardit",
+   "asr_name"
+  ],
+  [
+   166,
+   "Kier's",
+   "Kiir's",
+   "asr_name"
+  ],
+  [
+   169,
+   "Garong",
+   "Garang",
+   "asr_name"
+  ],
+  [
+   172,
+   "Keir",
+   "Kiir",
+   "asr_name"
+  ],
+  [
+   179,
+   "Salva Ki-Maiadid",
+   "Salva Kiir Mayardit",
+   "asr_name"
+  ],
+  [
+   42,
+   "anticipated. economic",
+   "anticipated. Economic",
+   "asr_term"
+  ],
+  [
+   145,
+   "home. where",
+   "home. Where",
+   "asr_term"
+  ],
+  [
+   165,
+   "self-determination. the",
+   "self-determination. The",
+   "asr_term"
+  ],
+  [
+   174,
+   "challenges. a",
+   "challenges. A",
+   "asr_term"
+  ],
+  [
+   176,
+   "governance. and",
+   "governance. And",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "President Salva Kiir Mayardit (main agent, official name); Dr. John Garang de Mabior, IGAD, Abyei per Spanish and published sources; peregrinaje ecumenico, revitalizado, tierras agricolas, reafirma per Spanish; stray 'discrimination.' at the end of unit 24 has no Spanish counterpart. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 42 'anticipated. economic' -> 'anticipated. Economic'; unit 145 'home. where' -> 'home. Where'; unit 165 'self-determination. the' -> 'self-determination. The'; unit 174 'challenges. a' -> 'challenges. A'; unit 176 'governance. and' -> 'governance. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 33 unit 135 earlier repair of 'Academians' undone (the audio contradicts the earlier repair 'Academics': both decodes hear 'Academians' (0.97 / 0.96), as does the UN transcript; forced scoring 'Academians' -3.2 vs 'Academics' -9.8 and 'Academicians' -10.3; a different ending, not a same-sound rendering; the word fits the sentence (a regional form of 'academics'); back to 'Academians')",
+ "unitizer_version": 1,
+ "sha1": "157a2d5610a69f1ade6f6209f7b24115223e3210",
+ "layout": "single",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2890,
+  "words_out": 2862,
+  "retention": 0.9903,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   126,
+   136,
+   93,
+   121,
+   148,
+   169,
+   104,
+   150,
+   65,
+   111,
+   67,
+   92,
+   104,
+   74,
+   91,
+   81,
+   66,
+   81,
+   105,
+   90,
+   86,
+   113,
+   91,
+   196,
+   131,
+   140,
+   31
+  ],
+  "warnings": [
+   "34 fixes"
+  ]
+ }
+}

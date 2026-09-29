@@ -1,0 +1,168 @@
+{
+ "id": "GRD_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   1,
+   3,
+   "noise"
+  ],
+  [
+   104,
+   104,
+   "noise"
+  ],
+  [
+   105,
+   106,
+   "presider"
+  ]
+ ],
+ "para": [
+  4,
+  6,
+  12,
+  18,
+  23,
+  30,
+  41,
+  45,
+  51,
+  57,
+  63,
+  69,
+  75,
+  79,
+  85,
+  95
+ ],
+ "cer": [
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Deacon Mitchell",
+   "Dickon Mitchell",
+   "asr_name"
+  ],
+  [
+   5,
+   "Burbock",
+   "Baerbock",
+   "asr_name"
+  ],
+  [
+   10,
+   "sermon",
+   "summon",
+   "asr_term"
+  ],
+  [
+   24,
+   "Karakam",
+   "CARICOM",
+   "asr_name"
+  ],
+  [
+   24,
+   "Rodrigue Bacchette",
+   "Rodrigues Birkett",
+   "asr_name"
+  ],
+  [
+   28,
+   "Rodriguez-Burquette",
+   "Rodrigues Birkett",
+   "asr_name"
+  ],
+  [
+   53,
+   "bill",
+   "build",
+   "asr_term"
+  ],
+  [
+   64,
+   "accessed",
+   "assessed",
+   "asr_term"
+  ],
+  [
+   101,
+   "united nation that delivers",
+   "United Nations that delivers",
+   "asr_term"
+  ],
+  [
+   101,
+   "united nation that protects",
+   "United Nations that protects",
+   "asr_term"
+  ],
+  [
+   53,
+   "emergency build, before",
+   "emergency, build before",
+   "asr_term"
+  ],
+  [
+   6,
+   "Caribbean. he",
+   "Caribbean. He",
+   "asr_term"
+  ],
+  [
+   36,
+   "partnership. and",
+   "partnership. And",
+   "asr_term"
+  ],
+  [
+   33,
+   "removing trust",
+   "renewing trust",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 1-3 invented over the walk to the podium; Prime Minister Dickon Mitchell and candidate Carolyn Rodrigues Birkett per Spanish channel and un.org; renovar, construir, evaluar per Spanish. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 53 'emergency build, before' -> 'emergency, build before' (after the batch's 'bill' -> 'build': the speaker's parallel 'prepare before the emergency, build before the damage is done'; the Spanish booth 'prepararnos antes de la emergencia, construir antes de que se hayan causado los daños'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 6 'Caribbean. he' -> 'Caribbean. He'; unit 36 'partnership. and' -> 'partnership. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 14 unit 33 'removing trust' -> 'renewing trust' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'Removing' (decodes 1.00 / 1.00, the UN transcript; forced scoring -0.1 vs 'Renewing' -12.0), which contradicts the rest of the sentence; the Spanish 'Renovar la confianza significa demostrar' shows 'renewing'); spot 26 unit 104 dropped (noise) (lone 'Thank you.' after the speech: a probe (1026 / 1028 s) hears 'I thank you, Mr. President.' ending 1032.8 s and nothing until the presider at 1039.1 s; the Spanish probe has a single 'Muchas gracias, presidente.')",
+ "unitizer_version": 1,
+ "sha1": "b9d5ad86435cbe3486b1d43cf63c8f18e64dba26",
+ "layout": "single",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 4
+  },
+  "prestrip": {},
+  "words_in": 1874,
+  "words_out": 1820,
+  "retention": 0.9712,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   65,
+   134,
+   141,
+   135,
+   190,
+   173,
+   76,
+   86,
+   91,
+   91,
+   118,
+   94,
+   73,
+   76,
+   151,
+   126
+  ],
+  "warnings": []
+ }
+}

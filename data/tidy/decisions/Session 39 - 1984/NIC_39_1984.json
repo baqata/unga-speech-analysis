@@ -1,0 +1,112 @@
+{
+ "id": "NIC_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  15,
+  19,
+  22,
+  25,
+  28,
+  30,
+  33,
+  35,
+  39,
+  44,
+  49,
+  54,
+  57,
+  62,
+  68,
+  73,
+  79,
+  83,
+  87,
+  89,
+  93,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "Scmoza",
+   "Somoza",
+   "ocr"
+  ],
+  [
+   16,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   17,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "Iraq— and",
+   "Iraq—and",
+   "spacing"
+  ],
+  [
+   33,
+   " [CIA]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "202271c8e9bd75b9ddbdcf7327e40ee83a2d7583",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 2894,
+  "words_out": 2890,
+  "retention": 0.9986,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   53,
+   126,
+   118,
+   84,
+   187,
+   167,
+   112,
+   83,
+   97,
+   71,
+   144,
+   151,
+   145,
+   159,
+   111,
+   78,
+   105,
+   134,
+   96,
+   97,
+   119,
+   71,
+   95,
+   83,
+   173,
+   31
+  ],
+  "warnings": []
+ }
+}

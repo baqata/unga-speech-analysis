@@ -1,0 +1,87 @@
+{
+ "id": "BHS_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  9,
+  13,
+  17,
+  21,
+  24,
+  29,
+  34,
+  35,
+  40,
+  43,
+  48,
+  53,
+  58,
+  62
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   13,
+   "dramatic charges",
+   "dramatic changes",
+   "ocr"
+  ],
+  [
+   18,
+   "cost.",
+   "cost,",
+   "ocr"
+  ],
+  [
+   25,
+   "from now trade",
+   "from new trade",
+   "ocr"
+  ],
+  [
+   62,
+   "the 1ines",
+   "the lines",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "89ec3b61374db4c90b8e571525d503406d60b1b2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1916,
+  "words_out": 1916,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   84,
+   139,
+   80,
+   143,
+   93,
+   79,
+   101,
+   134,
+   143,
+   57,
+   153,
+   65,
+   137,
+   111,
+   151,
+   103,
+   143
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "id": "LBY_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   126,
+   126,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  9,
+  17,
+  21,
+  26,
+  35,
+  40,
+  49,
+  59,
+  65,
+  77,
+  84,
+  94,
+  99,
+  105,
+  115,
+  119,
+  125
+ ],
+ "cer": [
+  3,
+  125
+ ],
+ "fix": [
+  [
+   3,
+   "Halil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   21,
+   "naval",
+   "neighbor",
+   "asr_term"
+  ],
+  [
+   74,
+   "vision",
+   "division",
+   "asr_term"
+  ],
+  [
+   77,
+   "and and",
+   "and",
+   "asr_term"
+  ],
+  [
+   108,
+   "the the",
+   "the",
+   "asr_term"
+  ],
+  [
+   123,
+   "decisions. unified",
+   "decisions unified",
+   "asr_term"
+  ],
+  [
+   11,
+   "oppression",
+   "repression",
+   "asr_term"
+  ],
+  [
+   36,
+   "transition,",
+   "transition, investment,",
+   "asr_term"
+  ],
+  [
+   101,
+   "non-conflicts,",
+   "conflicts,",
+   "asr_term"
+  ],
+  [
+   116,
+   "The",
+   "We",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Khalilur Rahman is the PGA of the 81st session (UN); unit 74 per Spanish 'división'; unit 2 is a lone 'Thank you.' in the walk to the podium. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 77 'and and' -> 'and'; unit 108 'the the' -> 'the'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 123 'decisions. unified' -> 'decisions unified'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 11 'oppression' -> 'repression' (both decodes hear 'repression' clearly (1.00/1.00); sounds alike; the ES channel at this spot is garbled and cannot help); spot 4 unit 36 'transition,' -> 'transition, investment,' (2026 exception: both decodes hear 'investment,' clearly (1.00/1.00); ES 'la transición energética, la inversión y la seguridad compartida'); spot 14 unit 101 'non-conflicts,' -> 'conflicts,' (a false start by the interpreter: the decodes hear only a weak 'no' (0.39 / 0.24) before 'conflicts', which forced scoring confirms as a syllable ('no conflicts' -20.8, 'conflicts' -23.3, 'new conflicts' -23.7); 'prevent no conflicts' has no sense, the UN transcript omits it and ES reads 'anticipar conflictos'; removed as a stumble, as with IRQ 1); spot 18 unit 116 'The' -> 'We' (both decodes hear 'We Libyans' clearly (0.99/0.99); fits the call on Libyans' own responsibility; ES at this spot does not cover it)",
+ "unitizer_version": 1,
+ "sha1": "0aa50fa234d7ad195b9885724d8e115cd40ff7e9",
+ "layout": "single",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2539,
+  "words_out": 2478,
+  "retention": 0.976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   14,
+   138,
+   210,
+   90,
+   131,
+   175,
+   124,
+   75,
+   196,
+   135,
+   207,
+   153,
+   171,
+   78,
+   101,
+   222,
+   108,
+   138,
+   12
+  ],
+  "warnings": []
+ }
+}

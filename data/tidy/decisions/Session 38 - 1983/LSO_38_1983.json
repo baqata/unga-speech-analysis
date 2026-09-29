@@ -1,0 +1,167 @@
+{
+ "id": "LSO_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  16,
+  19,
+  24,
+  30,
+  36,
+  40,
+  45,
+  47,
+  50,
+  54,
+  55,
+  61,
+  68,
+  71,
+  72,
+  77,
+  78,
+  81,
+  86,
+  91,
+  95,
+  100,
+  106,
+  108,
+  110,
+  117
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   1,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ],
+  [
+   16,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   16,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   37,
+   "balance- of-payments",
+   "balance-of-payments",
+   "hyphen"
+  ],
+  [
+   46,
+   "export credit's;",
+   "export credits;",
+   "ocr"
+  ],
+  [
+   57,
+   "syndrome .",
+   "syndrome.",
+   "spacing"
+  ],
+  [
+   60,
+   "carte balance",
+   "carte blanche",
+   "ocr"
+  ],
+  [
+   79,
+   "Refugees' and",
+   "Refugees and",
+   "ocr"
+  ],
+  [
+   85,
+   "cross- border",
+   "cross-border",
+   "hyphen"
+  ],
+  [
+   95,
+   "homelands .",
+   "homelands.",
+   "spacing"
+  ],
+  [
+   103,
+   "of Acc legislation",
+   "of legislation",
+   "ocr"
+  ],
+  [
+   105,
+   "of Mack opinion",
+   "of black opinion",
+   "ocr"
+  ],
+  [
+   54,
+   "[OA U]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a252c73130bc7bebc3592f006cab9db95969ae58",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3356,
+  "words_out": 3346,
+  "retention": 0.997,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   182,
+   201,
+   69,
+   92,
+   125,
+   166,
+   155,
+   166,
+   126,
+   75,
+   84,
+   71,
+   43,
+   143,
+   127,
+   97,
+   86,
+   133,
+   57,
+   103,
+   151,
+   157,
+   121,
+   122,
+   141,
+   73,
+   106,
+   168,
+   6
+  ],
+  "warnings": []
+ }
+}

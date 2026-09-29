@@ -1,0 +1,60 @@
+{
+ "id": "SGP_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  35,
+  55,
+  71,
+  88,
+  111,
+  126,
+  139,
+  157,
+  170,
+  189
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   180,
+   " (A/53/PV.6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "61110fd4477a67a8c58fc7d911356565a05ab282",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 206,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1729,
+  "words_out": 1726,
+  "retention": 0.9983,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   96,
+   189,
+   181,
+   139,
+   142,
+   191,
+   137,
+   110,
+   126,
+   106,
+   158,
+   151
+  ],
+  "warnings": []
+ }
+}

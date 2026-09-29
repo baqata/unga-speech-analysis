@@ -1,0 +1,58 @@
+{
+ "id": "BOL_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  32,
+  52,
+  64,
+  77,
+  104,
+  125,
+  138,
+  156,
+  172
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   91,
+   "vis-‡-vis",
+   "vis-à-vis",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "46533a4ee9acd5f5add3be6d87e002fe161c7fb9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1537,
+  "words_out": 1537,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   121,
+   152,
+   165,
+   103,
+   101,
+   223,
+   175,
+   107,
+   149,
+   140,
+   101
+  ],
+  "warnings": []
+ }
+}

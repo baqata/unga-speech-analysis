@@ -1,0 +1,70 @@
+{
+ "id": "ECU_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  17,
+  23,
+  30,
+  34,
+  43,
+  48,
+  54,
+  58,
+  63,
+  68,
+  71,
+  75,
+  81,
+  88,
+  97,
+  103
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "1 say it",
+   "I say it",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d54baf5e35d8628c049b8aa95865028f7fba09b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2193,
+  "words_out": 2193,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   165,
+   95,
+   69,
+   135,
+   138,
+   77,
+   191,
+   89,
+   109,
+   75,
+   107,
+   122,
+   77,
+   122,
+   105,
+   176,
+   125,
+   88,
+   128
+  ],
+  "warnings": []
+ }
+}

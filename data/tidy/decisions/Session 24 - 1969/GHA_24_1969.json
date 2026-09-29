@@ -1,0 +1,114 @@
+{
+ "id": "GHA_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  25,
+  42,
+  50,
+  82,
+  89,
+  98,
+  120,
+  136,
+  152,
+  172,
+  180,
+  190,
+  204,
+  219,
+  228,
+  236,
+  251,
+  282,
+  298,
+  320,
+  348,
+  364,
+  380,
+  404,
+  418
+ ],
+ "cer": [
+  0,
+  12,
+  418
+ ],
+ "fix": [
+  [
+   13,
+   "you toe accept",
+   "you to accept",
+   "ocr"
+  ],
+  [
+   39,
+   "ostantation",
+   "ostentation",
+   "ocr"
+  ],
+  [
+   50,
+   "In Acora",
+   "In Accra",
+   "ocr"
+  ],
+  [
+   163,
+   "for cur economic",
+   "for our economic",
+   "ocr"
+  ],
+  [
+   331,
+   "strenous",
+   "strenuous",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "59c9209858b32b9577b1b7c20d0c117991319a7d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 422,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3884,
+  "words_out": 3850,
+  "retention": 0.9912,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   117,
+   119,
+   156,
+   67,
+   292,
+   72,
+   78,
+   198,
+   148,
+   139,
+   180,
+   69,
+   100,
+   135,
+   140,
+   76,
+   75,
+   135,
+   279,
+   160,
+   204,
+   239,
+   151,
+   136,
+   210,
+   137,
+   38
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "IDN_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  17,
+  32,
+  46,
+  73,
+  89,
+  95,
+  107,
+  123,
+  136,
+  152,
+  163
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f5aade3c066a6c98881b84c1f821959ff951483",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1357,
+  "words_out": 1355,
+  "retention": 0.9985,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   54,
+   74,
+   126,
+   108,
+   191,
+   122,
+   40,
+   87,
+   120,
+   91,
+   120,
+   91,
+   131
+  ],
+  "warnings": []
+ }
+}

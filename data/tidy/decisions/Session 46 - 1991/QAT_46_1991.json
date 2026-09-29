@@ -1,0 +1,88 @@
+{
+ "id": "QAT_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  9,
+  11,
+  14,
+  19,
+  23,
+  27,
+  29,
+  31,
+  33,
+  35,
+  44,
+  46,
+  50,
+  53
+ ],
+ "cer": [
+  0,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   21,
+   "friendly nations.",
+   "friendly nations,",
+   "ocr"
+  ],
+  [
+   24,
+   "We command the",
+   "We commend the",
+   "ocr"
+  ],
+  [
+   25,
+   "He look",
+   "We look",
+   "ocr"
+  ],
+  [
+   32,
+   "order it intended",
+   "order is intended",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "83225ff4fd421f8345d73f81b5782ba9fa2331a8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1690,
+  "words_out": 1690,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   144,
+   106,
+   55,
+   77,
+   95,
+   162,
+   114,
+   101,
+   84,
+   86,
+   84,
+   77,
+   196,
+   70,
+   118,
+   47,
+   74
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "VEN_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  11,
+  12,
+  15,
+  18,
+  22,
+  25,
+  26,
+  29,
+  30,
+  34,
+  38
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "modem",
+   "modern",
+   "ocr"
+  ],
+  [
+   15,
+   "more, highly",
+   "more highly",
+   "ocr"
+  ],
+  [
+   25,
+   "newly- developed",
+   "newly-developed",
+   "hyphen"
+  ],
+  [
+   27,
+   "tax. agreements",
+   "tax agreements",
+   "ocr"
+  ],
+  [
+   37,
+   "establishment i of",
+   "establishment of",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c98ea874ef0ad43fd082adefbbe4b0ac1fed8ac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 17
+  },
+  "words_in": 1627,
+  "words_out": 1623,
+  "retention": 0.9975,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   97,
+   102,
+   117,
+   113,
+   63,
+   146,
+   101,
+   153,
+   97,
+   81,
+   161,
+   61,
+   124,
+   172,
+   35
+  ],
+  "warnings": []
+ }
+}

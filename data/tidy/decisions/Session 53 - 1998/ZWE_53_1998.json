@@ -1,0 +1,112 @@
+{
+ "id": "ZWE_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  19,
+  38,
+  53,
+  61,
+  80,
+  101,
+  111,
+  130,
+  147,
+  168,
+  189,
+  203,
+  212,
+  223,
+  238,
+  252,
+  263,
+  280,
+  303,
+  332
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   25,
+   "Organizationâs",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   134,
+   "UNITAâs",
+   "UNITA’s",
+   "encoding"
+  ],
+  [
+   201,
+   "Africaâs",
+   "Africa’s",
+   "encoding"
+  ],
+  [
+   258,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ],
+  [
+   266,
+   "Governmentâs",
+   "Government’s",
+   "encoding"
+  ],
+  [
+   316,
+   "worldâs",
+   "world’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14a687b9fbb5585ec6727e817d384f4768a00b19",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 335,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 2,
+   "page_number": 4
+  },
+  "words_in": 2816,
+  "words_out": 2815,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   64,
+   92,
+   156,
+   129,
+   75,
+   171,
+   160,
+   85,
+   168,
+   138,
+   170,
+   176,
+   122,
+   75,
+   94,
+   120,
+   116,
+   93,
+   147,
+   184,
+   259,
+   21
+  ],
+  "warnings": []
+ }
+}

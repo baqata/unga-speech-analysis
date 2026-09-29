@@ -1,0 +1,90 @@
+{
+ "id": "TJK_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  9,
+  14,
+  17,
+  20,
+  23,
+  26,
+  30,
+  32,
+  35,
+  39,
+  41,
+  46,
+  52,
+  57,
+  61,
+  64
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   39,
+   "High- level",
+   "High-level",
+   "hyphen"
+  ],
+  [
+   47,
+   "dioxode",
+   "dioxide",
+   "ocr"
+  ],
+  [
+   58,
+   "recommmendations",
+   "recommendations",
+   "ocr"
+  ],
+  [
+   66,
+   "think- tank",
+   "think-tank",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e316dd225bd9aa1fe6c05f5d31c67cf86d1c7b70",
+ "layout": "lines",
+ "stats": {
+  "n_units": 67,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1869,
+  "words_out": 1867,
+  "retention": 0.9989,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   73,
+   95,
+   95,
+   142,
+   89,
+   92,
+   95,
+   67,
+   87,
+   71,
+   68,
+   112,
+   59,
+   140,
+   133,
+   99,
+   99,
+   87,
+   164
+  ],
+  "warnings": []
+ }
+}

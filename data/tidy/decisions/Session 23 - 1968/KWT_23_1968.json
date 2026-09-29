@@ -1,0 +1,121 @@
+{
+ "id": "KWT_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  16,
+  20,
+  24,
+  27,
+  29,
+  34,
+  38,
+  42,
+  47,
+  50,
+  55,
+  58,
+  64,
+  70,
+  74,
+  79,
+  94,
+  99,
+  105,
+  111,
+  118,
+  122,
+  128,
+  135,
+  138,
+  143,
+  148,
+  154,
+  157
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   76,
+   "rights. it has",
+   "rights. It has",
+   "ocr"
+  ],
+  [
+   79,
+   "Middle Fast",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   85,
+   "by same of",
+   "by some of",
+   "ocr"
+  ],
+  [
+   138,
+   "United Nations, I should",
+   "United Nations. I should",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ea85a830a0726d9a679243a96ba3c0b998aedd6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4464,
+  "words_out": 4423,
+  "retention": 0.9908,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   112,
+   71,
+   112,
+   82,
+   139,
+   122,
+   98,
+   70,
+   124,
+   187,
+   108,
+   159,
+   100,
+   147,
+   108,
+   169,
+   193,
+   147,
+   173,
+   473,
+   73,
+   163,
+   138,
+   198,
+   102,
+   133,
+   148,
+   65,
+   107,
+   92,
+   139,
+   82,
+   89
+  ],
+  "warnings": [
+   "paragraph at unit 79 has 473 words"
+  ]
+ }
+}

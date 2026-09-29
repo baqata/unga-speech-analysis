@@ -1,0 +1,82 @@
+{
+ "id": "FSM_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  28,
+  55,
+  72,
+  88,
+  98,
+  117,
+  131,
+  149,
+  159,
+  175,
+  188,
+  202,
+  223,
+  241,
+  252,
+  276,
+  294,
+  306
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   102,
+   "communiquÈ",
+   "communiqué",
+   "encoding"
+  ],
+  [
+   239,
+   "NiÒo",
+   "Niño",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed84b3152af50ec438206790db38732c3afb3d3e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 317,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2571,
+  "words_out": 2571,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   158,
+   76,
+   212,
+   123,
+   134,
+   78,
+   146,
+   121,
+   140,
+   84,
+   136,
+   104,
+   119,
+   170,
+   157,
+   79,
+   190,
+   145,
+   97,
+   102
+  ],
+  "warnings": []
+ }
+}

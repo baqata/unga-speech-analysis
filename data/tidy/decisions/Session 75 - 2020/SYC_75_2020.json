@@ -1,0 +1,75 @@
+{
+ "id": "SYC_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  18,
+  22,
+  27,
+  29,
+  33,
+  36,
+  42,
+  46,
+  50,
+  52
+ ],
+ "cer": [
+  0,
+  52
+ ],
+ "fix": [
+  [
+   11,
+   "destruction,minimising",
+   "destruction, minimising",
+   "spacing"
+  ],
+  [
+   21,
+   "alarming.The",
+   "alarming. The",
+   "spacing"
+  ],
+  [
+   38,
+   "behind.The",
+   "behind. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "548e10ef35266fbfe3a53087f406471fbc3915c7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1537,
+  "words_out": 1540,
+  "retention": 1.002,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   31,
+   136,
+   138,
+   118,
+   137,
+   176,
+   77,
+   94,
+   98,
+   201,
+   126,
+   143,
+   61,
+   4
+  ],
+  "warnings": []
+ }
+}

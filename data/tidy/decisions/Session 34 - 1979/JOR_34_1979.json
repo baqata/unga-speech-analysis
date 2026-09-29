@@ -1,0 +1,157 @@
+{
+ "id": "JOR_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  16,
+  23,
+  31,
+  35,
+  40,
+  48,
+  54,
+  59,
+  65,
+  70,
+  77,
+  80,
+  83,
+  85,
+  91,
+  95,
+  98,
+  105,
+  110,
+  119,
+  128,
+  132,
+  134,
+  137,
+  141,
+  145,
+  149,
+  153,
+  156
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   7,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   44,
+   "anew basis",
+   "a new basis",
+   "split_word"
+  ],
+  [
+   54,
+   "1.7. ",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "to Force them",
+   "to force them",
+   "ocr"
+  ],
+  [
+   86,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   90,
+   "re- emphasized",
+   "re-emphasized",
+   "spacing"
+  ],
+  [
+   95,
+   "31 ",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "32 ",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   133,
+   "by alt political",
+   "by all political",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef4ab7242a8c3588c43e611584b89cc8108b46c0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 54
+  },
+  "words_in": 4626,
+  "words_out": 4618,
+  "retention": 0.9983,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   134,
+   104,
+   153,
+   146,
+   175,
+   169,
+   146,
+   143,
+   215,
+   162,
+   165,
+   98,
+   168,
+   209,
+   70,
+   131,
+   71,
+   178,
+   103,
+   134,
+   120,
+   105,
+   231,
+   184,
+   130,
+   132,
+   97,
+   116,
+   109,
+   136,
+   144,
+   116,
+   124
+  ],
+  "warnings": []
+ }
+}

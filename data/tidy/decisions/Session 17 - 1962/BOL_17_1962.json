@@ -1,0 +1,126 @@
+{
+ "id": "BOL_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  18,
+  22,
+  24,
+  29,
+  34,
+  37,
+  39,
+  44,
+  47,
+  52,
+  56,
+  59,
+  65,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "and. justify",
+   "and justify",
+   "ocr"
+  ],
+  [
+   20,
+   "whatsoever,",
+   "whatsoever.",
+   "ocr"
+  ],
+  [
+   24,
+   "It Is",
+   "It is",
+   "ocr"
+  ],
+  [
+   25,
+   "non-intervention,",
+   "non-intervention.",
+   "ocr"
+  ],
+  [
+   30,
+   "Is not",
+   "is not",
+   "ocr"
+  ],
+  [
+   42,
+   "ill-housed,",
+   "ill-housed.",
+   "ocr"
+  ],
+  [
+   46,
+   "171, ",
+   "",
+   "label"
+  ],
+  [
+   55,
+   "side lay side",
+   "side by side",
+   "ocr"
+  ],
+  [
+   55,
+   "lightly",
+   "rightly",
+   "ocr"
+  ],
+  [
+   64,
+   "riot",
+   "not",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f35960fec6bf974316fc5bb4444282da7c303b38",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 2374,
+  "words_out": 2372,
+  "retention": 0.9992,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   67,
+   145,
+   137,
+   183,
+   123,
+   77,
+   157,
+   134,
+   152,
+   61,
+   150,
+   133,
+   151,
+   165,
+   98,
+   190,
+   214,
+   35
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "id": "UKR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  25,
+  35,
+  57,
+  69,
+  85,
+  107,
+  125,
+  139,
+  152,
+  164,
+  186,
+  205,
+  221,
+  230,
+  247,
+  274,
+  297,
+  316,
+  334,
+  347,
+  372,
+  393
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   8,
+   "Ukraine?s",
+   "Ukraine’s",
+   "encoding"
+  ],
+  [
+   46,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   96,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   131,
+   "Ukraine?s",
+   "Ukraine’s",
+   "encoding"
+  ],
+  [
+   173,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   191,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   199,
+   "minorities?",
+   "minorities’",
+   "encoding"
+  ],
+  [
+   215,
+   "Ukraine?s",
+   "Ukraine’s",
+   "encoding"
+  ],
+  [
+   241,
+   "planet?s",
+   "planet’s",
+   "encoding"
+  ],
+  [
+   282,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   293,
+   "Ukraine?s",
+   "Ukraine’s",
+   "encoding"
+  ],
+  [
+   297,
+   "Ukraine?s",
+   "Ukraine’s",
+   "encoding"
+  ],
+  [
+   311,
+   "BSEC?s",
+   "BSEC’s",
+   "encoding"
+  ],
+  [
+   359,
+   "Court?s",
+   "Court’s",
+   "encoding"
+  ],
+  [
+   374,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f58e2270c581b65dc7b10b885d123627c0d398d5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 408,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3289,
+  "words_out": 3284,
+  "retention": 0.9985,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   41,
+   170,
+   78,
+   172,
+   94,
+   123,
+   191,
+   151,
+   118,
+   112,
+   95,
+   179,
+   148,
+   135,
+   72,
+   139,
+   210,
+   169,
+   147,
+   148,
+   101,
+   199,
+   170,
+   122
+  ],
+  "warnings": []
+ }
+}

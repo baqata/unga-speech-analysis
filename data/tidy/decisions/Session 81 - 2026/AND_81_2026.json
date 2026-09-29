@@ -1,0 +1,143 @@
+{
+ "id": "AND_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   51,
+   51,
+   "noise"
+  ],
+  [
+   88,
+   88,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  8,
+  11,
+  16,
+  20,
+  25,
+  36,
+  43,
+  47,
+  55,
+  63,
+  67,
+  72,
+  75,
+  79
+ ],
+ "cer": [
+  8,
+  72
+ ],
+ "fix": [
+  [
+   4,
+   "Antony Fiteri-Rose",
+   "Antoni Fiter i Rossell",
+   "asr_name"
+  ],
+  [
+   4,
+   "Andorian",
+   "Andorran",
+   "asr_name"
+  ],
+  [
+   30,
+   "SGD's",
+   "SG's",
+   "asr_term"
+  ],
+  [
+   78,
+   "franco-iranian",
+   "Franco-Iranian",
+   "asr_name"
+  ],
+  [
+   78,
+   "marjan satrapi",
+   "Marjane Satrapi",
+   "asr_name"
+  ],
+  [
+   78,
+   "andorra",
+   "Andorra",
+   "asr_name"
+  ],
+  [
+   28,
+   "humanity. that",
+   "humanity that",
+   "asr_term"
+  ],
+  [
+   78,
+   "indispensable. not",
+   "indispensable. Not",
+   "asr_term"
+  ],
+  [
+   30,
+   "Inclusions",
+   "Conclusions",
+   "asr_term"
+  ],
+  [
+   70,
+   "and emphasized",
+   "like to emphasize",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Author of the Manual Digest (1748) is Antoni Fiter i Rossell (Wikipedia); Marjane Satrapi per Spanish channel 'Satrapi'; SG's per Spanish 'informes del secretario general'. Gap recovery (v4) added two lone 'Thank you.' units: 00:25, between the presider's invitation and the speech (the Spanish has 'Gracias', the presider's or the walk to the podium), and 09:42, in a pause mid-speech (no thanks in the Spanish): both noise. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 28 'humanity. that' -> 'humanity that'; unit 78 'indispensable. not' -> 'indispensable. Not'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 30 'Inclusions' -> 'Conclusions' (decodes hear 'The conclusions' (low, 0.19 / 0.32); 'Inclusions of the last SG's report' does not fit; sounds alike; ES 'las conclusiones de los últimos informes'); spot 12 unit 70 'and emphasized' -> 'like to emphasize' (both decodes hear 'like to emphasize' (0.89-0.98); 'I would and emphasized' does not fit; UN 'like to emphasize')",
+ "unitizer_version": 1,
+ "sha1": "f2b9fc7c14e0d8a27a954416cccb8de57df90419",
+ "layout": "single",
+ "stats": {
+  "n_units": 89,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 2243,
+  "words_out": 2188,
+  "retention": 0.9755,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   202,
+   81,
+   159,
+   91,
+   193,
+   190,
+   125,
+   95,
+   130,
+   131,
+   98,
+   157,
+   99,
+   228,
+   209
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "BLR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  33,
+  53,
+  62,
+  80,
+  93,
+  105,
+  118,
+  130,
+  145,
+  171,
+  188,
+  209,
+  219,
+  239,
+  251,
+  273,
+  281,
+  293,
+  311
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   125,
+   "Yugoslavia?s",
+   "Yugoslavia’s",
+   "encoding"
+  ],
+  [
+   140,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   142,
+   " (A/53/1, para. 229)",
+   "",
+   "label"
+  ],
+  [
+   180,
+   "NATO?s",
+   "NATO’s",
+   "encoding"
+  ],
+  [
+   190,
+   "Earth?s",
+   "Earth’s",
+   "encoding"
+  ],
+  [
+   237,
+   " (NPT/Conf.1995/32, Part I, Decision",
+   "",
+   "label"
+  ],
+  [
+   238,
+   "2, para. 6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8cb262a59927740a47ab8b112e96d9b247f5f782",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2538,
+  "words_out": 2523,
+  "retention": 0.9941,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   114,
+   152,
+   138,
+   83,
+   162,
+   114,
+   99,
+   101,
+   99,
+   120,
+   205,
+   132,
+   170,
+   85,
+   145,
+   96,
+   181,
+   63,
+   82,
+   147,
+   35
+  ],
+  "warnings": []
+ }
+}

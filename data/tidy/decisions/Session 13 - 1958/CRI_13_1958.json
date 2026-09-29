@@ -1,0 +1,84 @@
+{
+ "id": "CRI_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  21,
+  24,
+  28,
+  35,
+  43
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "session;",
+   "session,",
+   "ocr"
+  ],
+  [
+   5,
+   "membership.",
+   "membership",
+   "ocr"
+  ],
+  [
+   23,
+   "civilization,",
+   "civilization.",
+   "ocr"
+  ],
+  [
+   28,
+   "continent, Costa",
+   "continent. Costa",
+   "ocr"
+  ],
+  [
+   34,
+   "finding»some",
+   "finding some",
+   "ocr"
+  ],
+  [
+   35,
+   ".assistance",
+   "assistance",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ed6084642dcdc08b165790c877d4580000735fb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 47,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 13
+  },
+  "words_in": 1327,
+  "words_out": 1325,
+  "retention": 0.9985,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   76,
+   197,
+   158,
+   139,
+   100,
+   103,
+   230,
+   220,
+   102
+  ],
+  "warnings": []
+ }
+}

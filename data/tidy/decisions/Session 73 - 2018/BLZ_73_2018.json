@@ -1,0 +1,82 @@
+{
+ "id": "BLZ_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  16,
+  20,
+  25,
+  29,
+  34,
+  36,
+  40,
+  44,
+  48,
+  52,
+  57,
+  59,
+  64,
+  69,
+  74,
+  81,
+  84,
+  86
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   46,
+   "thevulnerability",
+   "the vulnerability",
+   "merged_word"
+  ],
+  [
+   35,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd16dc59f8816726b0c8c4765a40226b3bf26b13",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2308,
+  "words_out": 2308,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   88,
+   171,
+   104,
+   130,
+   128,
+   77,
+   102,
+   98,
+   96,
+   85,
+   121,
+   142,
+   128,
+   87,
+   140,
+   91,
+   112,
+   137,
+   90,
+   70,
+   111
+  ],
+  "warnings": []
+ }
+}

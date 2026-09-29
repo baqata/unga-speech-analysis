@@ -1,0 +1,91 @@
+{
+ "id": "GNQ_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  28,
+  34,
+  56,
+  76,
+  103,
+  131,
+  156,
+  177,
+  198,
+  213,
+  241,
+  269
+ ],
+ "cer": [
+  0,
+  28
+ ],
+ "fix": [
+  [
+   58,
+   "Ions and",
+   "long and",
+   "ocr"
+  ],
+  [
+   126,
+   "cooup ,",
+   "coup,",
+   "ocr"
+  ],
+  [
+   143,
+   "or the basis",
+   "on the basis",
+   "ocr"
+  ],
+  [
+   232,
+   "29.",
+   "",
+   "label"
+  ],
+  [
+   249,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   249,
+   "- This",
+   ". This",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Paragraph numbers misread at units 6 and 28; unit 203 has lost words before \"express\".",
+ "unitizer_version": 1,
+ "sha1": "19dbd30ccdf10188110e8ad265aa6891e217f04a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2836,
+  "words_out": 2803,
+  "retention": 0.9884,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   290,
+   66,
+   219,
+   204,
+   280,
+   286,
+   246,
+   227,
+   198,
+   148,
+   281,
+   277,
+   81
+  ],
+  "warnings": []
+ }
+}

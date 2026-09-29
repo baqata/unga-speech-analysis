@@ -1,0 +1,107 @@
+{
+ "id": "MDA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   128,
+   129,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  17,
+  25,
+  40,
+  58,
+  73,
+  86,
+  99,
+  111,
+  113,
+  127
+ ],
+ "cer": [
+  127
+ ],
+ "fix": [
+  [
+   2,
+   "I request protocol to escort His Excellency and invite him ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "to address the Assembly. 지는 eldest butcher ",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "desinformation",
+   "disinformation",
+   "asr_term"
+  ],
+  [
+   11,
+   "when When",
+   "when",
+   "asr_term"
+  ],
+  [
+   85,
+   "us. we",
+   "us. We",
+   "asr_term"
+  ],
+  [
+   7,
+   "us. authorities",
+   "us. Soviet authorities",
+   "asr_term"
+  ],
+  [
+   125,
+   "live",
+   "leave",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 2 begins with the presider's escort request and invented second-pass text, removed by label. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 11 'when When' -> 'when'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 7 'us. authorities' -> 'us. Authorities'; unit 85 'us. we' -> 'us. We'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 7 'us. authorities' -> 'us. Soviet authorities' (2026 exception: both decodes hear 'Soviet' clearly (0.98/0.99); ES 'Las autoridades soviéticas deportaban'; written over the existing capital repair); spot 10 unit 125 'live' -> 'leave' (decodes 'live' weak (0.48/0.67); 'live' and 'leave' sound alike; ES 'un país que no deban abandonar nuestros hijos para buscar oportunidades'; 'need to live in search of opportunity' does not fit)",
+ "unitizer_version": 1,
+ "sha1": "d23cd16d93d0b32e94ad21f49f26459eba38c1a1",
+ "layout": "single",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1700,
+  "words_out": 1634,
+  "retention": 0.9612,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   98,
+   142,
+   91,
+   175,
+   233,
+   181,
+   189,
+   114,
+   159,
+   54,
+   196,
+   2
+  ],
+  "warnings": []
+ }
+}

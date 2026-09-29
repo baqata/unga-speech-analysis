@@ -1,0 +1,69 @@
+{
+ "id": "AFG_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  21,
+  49,
+  68,
+  97,
+  116,
+  136,
+  159,
+  171,
+  201,
+  211,
+  242
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   38,
+   "(The Holy Koran,",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "XVII:70)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bc641238c925916a6a4b48c3ee26f4690f099e1a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 260,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2070,
+  "words_out": 2062,
+  "retention": 0.9961,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   59,
+   102,
+   217,
+   149,
+   243,
+   146,
+   161,
+   175,
+   93,
+   232,
+   90,
+   245,
+   150
+  ],
+  "warnings": []
+ }
+}

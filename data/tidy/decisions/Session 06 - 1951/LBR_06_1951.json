@@ -1,0 +1,78 @@
+{
+ "id": "LBR_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  11,
+  13,
+  15,
+  25,
+  29,
+  38,
+  40,
+  42,
+  43,
+  47,
+  49,
+  53
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "S. ",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "used.",
+   "used",
+   "ocr"
+  ],
+  [
+   53,
+   "French.",
+   "French",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "086d3bed843b6f5c3144b76b232500373ea0ef77",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 15
+  },
+  "words_in": 1959,
+  "words_out": 1958,
+  "retention": 0.9995,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   130,
+   90,
+   82,
+   94,
+   105,
+   158,
+   229,
+   137,
+   190,
+   87,
+   83,
+   81,
+   134,
+   91,
+   183,
+   84
+  ],
+  "warnings": []
+ }
+}

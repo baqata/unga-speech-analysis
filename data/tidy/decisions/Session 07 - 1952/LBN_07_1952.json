@@ -1,0 +1,187 @@
+{
+ "id": "LBN_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  16,
+  21,
+  23,
+  26,
+  31,
+  36,
+  41,
+  46,
+  49,
+  53,
+  59,
+  66,
+  74,
+  78,
+  80,
+  85,
+  88,
+  98,
+  106,
+  110,
+  115,
+  120,
+  128,
+  133,
+  142
+ ],
+ "cer": [],
+ "fix": [
+  [
+   46,
+   "37,",
+   "",
+   "label"
+  ],
+  [
+   49,
+   "38,",
+   "",
+   "label"
+  ],
+  [
+   121,
+   "[392 meeting]",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "fear;",
+   "fear,",
+   "ocr"
+  ],
+  [
+   7,
+   "welfare,",
+   "welfare.",
+   "ocr"
+  ],
+  [
+   43,
+   "hill",
+   "full",
+   "ocr"
+  ],
+  [
+   44,
+   "what,",
+   "what",
+   "ocr"
+  ],
+  [
+   75,
+   "day,",
+   "day.",
+   "ocr"
+  ],
+  [
+   87,
+   "discussed,",
+   "discussed",
+   "ocr"
+  ],
+  [
+   87,
+   "examined,",
+   "examined.",
+   "ocr"
+  ],
+  [
+   103,
+   "aggression,",
+   "aggression.",
+   "ocr"
+  ],
+  [
+   105,
+   "tom",
+   "torn",
+   "ocr"
+  ],
+  [
+   105,
+   "depend,",
+   "depend.",
+   "ocr"
+  ],
+  [
+   113,
+   "Charter,",
+   "Charter",
+   "ocr"
+  ],
+  [
+   119,
+   "hot",
+   "not",
+   "ocr"
+  ],
+  [
+   128,
+   "calf",
+   "call",
+   "ocr"
+  ],
+  [
+   135,
+   "$140;",
+   "$140,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7ac9fca10f22c5a8697768e8e0b225a97a493402",
+ "layout": "lines",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 34
+  },
+  "words_in": 4249,
+  "words_out": 4237,
+  "retention": 0.9972,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   128,
+   151,
+   194,
+   135,
+   118,
+   156,
+   146,
+   182,
+   175,
+   194,
+   89,
+   115,
+   132,
+   194,
+   252,
+   131,
+   80,
+   142,
+   77,
+   222,
+   272,
+   103,
+   155,
+   123,
+   133,
+   137,
+   185,
+   116
+  ],
+  "warnings": []
+ }
+}

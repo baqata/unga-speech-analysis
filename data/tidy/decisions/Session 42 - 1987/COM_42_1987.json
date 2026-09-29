@@ -1,0 +1,107 @@
+{
+ "id": "COM_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  16,
+  19,
+  22,
+  24,
+  29,
+  32,
+  37,
+  41,
+  46,
+  51,
+  54,
+  56,
+  60,
+  65,
+  70,
+  73,
+  75,
+  79,
+  83,
+  87
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   22,
+   "Mr,",
+   "Mr.",
+   "ocr"
+  ],
+  [
+   23,
+   "19B4",
+   "1984",
+   "ocr"
+  ],
+  [
+   25,
+   "undertaken. these",
+   "undertaken. These",
+   "ocr"
+  ],
+  [
+   58,
+   "In that",
+   "in that",
+   "ocr"
+  ],
+  [
+   77,
+   "01 this",
+   "on this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "72e2bc28a2abc09357d87a97b3f0d27badfbc56a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2719,
+  "words_out": 2719,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   97,
+   114,
+   87,
+   129,
+   84,
+   111,
+   164,
+   176,
+   72,
+   123,
+   132,
+   192,
+   132,
+   101,
+   54,
+   98,
+   136,
+   125,
+   99,
+   83,
+   142,
+   109,
+   140,
+   19
+  ],
+  "warnings": []
+ }
+}

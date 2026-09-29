@@ -1,0 +1,157 @@
+{
+ "id": "NER_40_1985",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  7,
+  9,
+  15,
+  17,
+  20,
+  22,
+  24,
+  27,
+  29,
+  36,
+  42,
+  45,
+  48,
+  52,
+  53,
+  55,
+  57,
+  59,
+  61,
+  68,
+  71,
+  74,
+  78,
+  82,
+  87,
+  89,
+  93,
+  96,
+  99,
+  103
+ ],
+ "cer": [
+  0,
+  2,
+  6,
+  7
+ ],
+ "fix": [
+  [
+   0,
+   "Just a few, days ago",
+   "Just a few days ago",
+   "ocr"
+  ],
+  [
+   0,
+   "earthquakes, we can still see",
+   "earthquakes. We can still see",
+   "ocr"
+  ],
+  [
+   2,
+   "at this session.",
+   "at this session,",
+   "ocr"
+  ],
+  [
+   9,
+   "the united Nations.",
+   "the United Nations.",
+   "ocr"
+  ],
+  [
+   11,
+   "the united Nations?",
+   "the United Nations?",
+   "ocr"
+  ],
+  [
+   23,
+   "front-line States:,",
+   "front-line States:",
+   "ocr"
+  ],
+  [
+   35,
+   "independence of of the people",
+   "independence of the people",
+   "ocr"
+  ],
+  [
+   56,
+   "non-aligned states.",
+   "non-aligned status.",
+   "ocr"
+  ],
+  [
+   63,
+   "in arras expenditures",
+   "in arms expenditures",
+   "ocr"
+  ],
+  [
+   98,
+   "Second world War",
+   "Second World War",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4b9b3ec5730d1de8245f35494f1b88783cfac4fa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3119,
+  "words_out": 3118,
+  "retention": 0.9997,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   53,
+   114,
+   42,
+   70,
+   114,
+   110,
+   87,
+   68,
+   82,
+   65,
+   74,
+   175,
+   200,
+   68,
+   106,
+   98,
+   72,
+   64,
+   49,
+   50,
+   64,
+   183,
+   90,
+   82,
+   72,
+   167,
+   184,
+   68,
+   110,
+   101,
+   81,
+   127,
+   28
+  ],
+  "warnings": []
+ }
+}

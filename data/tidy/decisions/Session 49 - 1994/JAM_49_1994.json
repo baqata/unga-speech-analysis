@@ -1,0 +1,92 @@
+{
+ "id": "JAM_49_1994",
+ "drop": [
+  [
+   54,
+   54,
+   "header_footer"
+  ],
+  [
+   155,
+   155,
+   "header_footer"
+  ],
+  [
+   251,
+   251,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  25,
+  39,
+  55,
+  74,
+  94,
+  122,
+  143,
+  159,
+  176,
+  199,
+  213,
+  234,
+  245,
+  267,
+  282,
+  300,
+  315
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   257,
+   "actual wand",
+   "actual and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba6d0c0ba833654475ed76231acdd0b3b4be531b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 323,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2619,
+  "words_out": 2603,
+  "retention": 0.9939,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   98,
+   110,
+   112,
+   110,
+   145,
+   158,
+   224,
+   152,
+   130,
+   153,
+   184,
+   118,
+   172,
+   84,
+   183,
+   123,
+   147,
+   125,
+   75
+  ],
+  "warnings": []
+ }
+}

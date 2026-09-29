@@ -1,0 +1,152 @@
+{
+ "id": "AUT_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  9,
+  12,
+  15,
+  18,
+  23,
+  28,
+  33,
+  39,
+  44,
+  46,
+  50,
+  53,
+  61,
+  63,
+  67,
+  70,
+  75,
+  78,
+  84,
+  87,
+  92,
+  95,
+  103,
+  106,
+  111,
+  115,
+  117,
+  121,
+  124,
+  128,
+  132
+ ],
+ "cer": [
+  0,
+  2,
+  6,
+  8
+ ],
+ "fix": [
+  [
+   58,
+   " [9th meetingJ",
+   "",
+   "label"
+  ],
+  [
+   89,
+   " [see A/36/1, sect.",
+   "",
+   "label"
+  ],
+  [
+   90,
+   "V]",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "Countries.1",
+   "Countries.",
+   "ocr"
+  ],
+  [
+   50,
+   "1 am",
+   "I am",
+   "ocr"
+  ],
+  [
+   67,
+   "what 1, as",
+   "what I, as",
+   "ocr"
+  ],
+  [
+   85,
+   "Rill",
+   "Full",
+   "ocr"
+  ],
+  [
+   41,
+   "fall implementation",
+   "full implementation",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5f10ff1930083620f8213aa76e089bf423b8f263",
+ "layout": "lines",
+ "stats": {
+  "n_units": 135,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 45
+  },
+  "words_in": 3365,
+  "words_out": 3358,
+  "retention": 0.9979,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   62,
+   89,
+   48,
+   40,
+   88,
+   93,
+   75,
+   88,
+   159,
+   77,
+   122,
+   101,
+   70,
+   125,
+   91,
+   211,
+   61,
+   89,
+   70,
+   160,
+   59,
+   99,
+   72,
+   114,
+   69,
+   183,
+   114,
+   143,
+   97,
+   51,
+   74,
+   69,
+   142,
+   102,
+   51
+  ],
+  "warnings": []
+ }
+}

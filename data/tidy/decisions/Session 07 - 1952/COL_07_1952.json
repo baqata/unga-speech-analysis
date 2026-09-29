@@ -1,0 +1,133 @@
+{
+ "id": "COL_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  8,
+  9,
+  11,
+  18,
+  22,
+  24,
+  28,
+  34,
+  41,
+  45,
+  47,
+  53,
+  56,
+  61,
+  67,
+  70,
+  74,
+  77,
+  83
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   4,
+   ".debate",
+   "debate",
+   "ocr"
+  ],
+  [
+   8,
+   "\"force",
+   "force",
+   "ocr"
+  ],
+  [
+   9,
+   "war,",
+   "war.",
+   "ocr"
+  ],
+  [
+   24,
+   "measures,",
+   "measures.",
+   "ocr"
+  ],
+  [
+   30,
+   "Nations,",
+   "Nations.",
+   "ocr"
+  ],
+  [
+   33,
+   "co-operating,",
+   "co-operating.",
+   "ocr"
+  ],
+  [
+   55,
+   "adhere,",
+   "adhere.",
+   "ocr"
+  ],
+  [
+   57,
+   "result!",
+   "result",
+   "ocr"
+  ],
+  [
+   57,
+   "need;",
+   "need",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a5aee100d66dcd7370ad5e69020eea36c9bcd1a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 3517,
+  "words_out": 3515,
+  "retention": 0.9994,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   50,
+   65,
+   46,
+   153,
+   128,
+   309,
+   131,
+   146,
+   174,
+   85,
+   141,
+   289,
+   185,
+   142,
+   74,
+   234,
+   172,
+   161,
+   229,
+   109,
+   138,
+   127,
+   177,
+   50
+  ],
+  "warnings": []
+ }
+}

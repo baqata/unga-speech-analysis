@@ -1,0 +1,251 @@
+{
+ "id": "NPL_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  6,
+  9,
+  12,
+  16,
+  20,
+  24,
+  30,
+  38,
+  43,
+  47,
+  52,
+  58,
+  62,
+  67,
+  75,
+  81,
+  87,
+  92,
+  97,
+  101,
+  106,
+  110,
+  117,
+  120,
+  126,
+  130,
+  134,
+  139,
+  143,
+  148,
+  154,
+  157,
+  160,
+  163,
+  170,
+  174,
+  182,
+  188,
+  193,
+  196,
+  201
+ ],
+ "cer": [
+  0,
+  2,
+  5,
+  6,
+  16,
+  20,
+  24,
+  62
+ ],
+ "fix": [
+  [
+   14,
+   "T would",
+   "I would",
+   "ocr"
+  ],
+  [
+   41,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   42,
+   "human problem, Viet-Nam",
+   "human problem. Viet-Nam",
+   "ocr"
+  ],
+  [
+   50,
+   "apolitical",
+   "a political",
+   "merged_word"
+  ],
+  [
+   55,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   65,
+   "affair s",
+   "affairs",
+   "split_word"
+  ],
+  [
+   77,
+   "the people's Republic",
+   "the People's Republic",
+   "ocr"
+  ],
+  [
+   98,
+   "haB been",
+   "has been",
+   "ocr"
+  ],
+  [
+   99,
+   "Treaty, In the",
+   "Treaty. In the",
+   "ocr"
+  ],
+  [
+   104,
+   "Eighteen- Nation",
+   "Eighteen-Nation",
+   "hyphen"
+  ],
+  [
+   118,
+   "[A/6352], We",
+   "[A/6352]. We",
+   "ocr"
+  ],
+  [
+   145,
+   " [resolution 2054 (XX)]",
+   "",
+   "label"
+  ],
+  [
+   147,
+   "Organization,",
+   "Organization.",
+   "ocr"
+  ],
+  [
+   149,
+   "Organization, In spite",
+   "Organization. In spite",
+   "ocr"
+  ],
+  [
+   149,
+   "been mads",
+   "been made",
+   "ocr"
+  ],
+  [
+   155,
+   "to to the",
+   "to the",
+   "ocr"
+  ],
+  [
+   189,
+   "goods, Nepal's",
+   "goods. Nepal's",
+   "ocr"
+  ],
+  [
+   191,
+   "more Industrialized",
+   "more industrialized",
+   "ocr"
+  ],
+  [
+   200,
+   "entailing In its",
+   "entailing in its",
+   "ocr"
+  ],
+  [
+   202,
+   "believes In peaceful",
+   "believes in peaceful",
+   "ocr"
+  ],
+  [
+   204,
+   "on International",
+   "on international",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01a20994c81924c7a2215731b2703f86eea83298",
+ "layout": "lines",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4702,
+  "words_out": 4642,
+  "retention": 0.9872,
+  "n_paragraphs": 44,
+  "paragraph_words": [
+   45,
+   82,
+   25,
+   66,
+   85,
+   90,
+   67,
+   102,
+   124,
+   113,
+   107,
+   83,
+   115,
+   75,
+   79,
+   94,
+   142,
+   145,
+   83,
+   93,
+   78,
+   126,
+   103,
+   68,
+   168,
+   80,
+   109,
+   104,
+   103,
+   121,
+   81,
+   118,
+   170,
+   79,
+   96,
+   89,
+   162,
+   79,
+   183,
+   152,
+   202,
+   84,
+   137,
+   135
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

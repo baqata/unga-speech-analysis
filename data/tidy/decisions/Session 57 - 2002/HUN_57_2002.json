@@ -1,0 +1,55 @@
+{
+ "id": "HUN_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  23,
+  40,
+  53,
+  65,
+  78,
+  96,
+  111,
+  130,
+  155,
+  171,
+  185
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "388f76afc3d8f7d36abeca00b4f195e1b449ba70",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1546,
+  "words_out": 1545,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   76,
+   106,
+   119,
+   97,
+   91,
+   113,
+   135,
+   112,
+   135,
+   195,
+   135,
+   108,
+   123
+  ],
+  "warnings": []
+ }
+}

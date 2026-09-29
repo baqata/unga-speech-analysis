@@ -1,0 +1,244 @@
+{
+ "id": "KAZ_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   104,
+   106,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  6,
+  10,
+  15,
+  19,
+  20,
+  34,
+  41,
+  46,
+  51,
+  56,
+  60,
+  64,
+  70,
+  73,
+  84,
+  93,
+  103
+ ],
+ "cer": [
+  1,
+  103
+ ],
+ "fix": [
+  [
+   2,
+   "pupils",
+   "purposes",
+   "asr_term"
+  ],
+  [
+   9,
+   "cruelty",
+   "Kurultai",
+   "asr_name"
+  ],
+  [
+   10,
+   "slight",
+   "slide",
+   "asr_term"
+  ],
+  [
+   16,
+   "feel",
+   "fulfil",
+   "asr_term"
+  ],
+  [
+   17,
+   "UN-AT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   19,
+   "chapter",
+   "Charter",
+   "asr_term"
+  ],
+  [
+   20,
+   " rate.",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "the Semi-Palatinsk nuclear",
+   "the Semipalatinsk nuclear",
+   "asr_name"
+  ],
+  [
+   26,
+   "the Semi-Palatinsk Treaty",
+   "the Semipalatinsk Treaty",
+   "asr_name"
+  ],
+  [
+   27,
+   "re-announcing",
+   "renouncing",
+   "asr_term"
+  ],
+  [
+   29,
+   "new start",
+   "New START",
+   "asr_name"
+  ],
+  [
+   29,
+   "NPTU",
+   "NPT",
+   "asr_name"
+  ],
+  [
+   39,
+   "treat",
+   "threaten",
+   "asr_term"
+  ],
+  [
+   45,
+   "unhidrat",
+   "unhindered",
+   "asr_term"
+  ],
+  [
+   47,
+   "committed the contribute",
+   "committed to contribute",
+   "asr_term"
+  ],
+  [
+   48,
+   "Yundov",
+   "UNDOF",
+   "asr_name"
+  ],
+  [
+   50,
+   "UN-brokeried",
+   "UN-brokered",
+   "asr_term"
+  ],
+  [
+   52,
+   "be itself",
+   "by itself",
+   "asr_term"
+  ],
+  [
+   62,
+   "Stokayev's",
+   "Tokayev's",
+   "asr_name"
+  ],
+  [
+   68,
+   "Sirdarya",
+   "Syrdarya",
+   "asr_name"
+  ],
+  [
+   92,
+   "UNESCO",
+   "UN ESCAP",
+   "asr_name"
+  ],
+  [
+   100,
+   "Through",
+   "True",
+   "asr_term"
+  ],
+  [
+   99,
+   "multilateralism. in",
+   "multilateralism in",
+   "asr_term"
+  ],
+  [
+   9,
+   "historically",
+   "historic high",
+   "asr_term"
+  ],
+  [
+   24,
+   "on nuclear",
+   "nuclear",
+   "asr_term"
+  ],
+  [
+   78,
+   "mountains,",
+   "mountainous",
+   "asr_term"
+  ],
+  [
+   102,
+   "coordination",
+   "confrontation",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Kurultai is the new unicameral parliament (Spanish 'Curitá'; 2026 Kazakh legislative election, Wikipedia); UN80, UNDOF, Charter, CIC/CESPAP and other repairs per Spanish; unit 20 ' rate.' is a decode echo; unit 104 'I thank you.' dropped with the presider lines as it follows the speaker's own closing. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 102 repair of 'coordination' withdrawn (three re-decodes hear 'cooperation over coordination' (p 0.98-0.99), against the common phrase, so the audio holds it; 'el enfrentamiento' is the Spanish booth's rendering). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 99 'multilateralism. in' -> 'multilateralism in'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 5 unit 9 'historically' -> 'historic high' (same sound ('historic-ally' / 'historic high'); 'including historically 34% of women' does not fit; ES 'incluido un máximo histórico de mujeres, un 34%'; decodes write 'historically' (0.94 / 0.95), the commoner word for the same sounds); spot 8 unit 24 'on nuclear' -> 'nuclear' (both decodes lack 'on' ('Kazakhstan, nuclear disarmament', 0.66-1.00); 'For Kazakhstan, on nuclear disarmament ... is not' breaks the sentence; ES 'Para mi país el desarme nuclear'; inserted word); spot 23 unit 63 earlier repair of 'hundreds or thousands' undone (unsure resolved: the audio contradicts the earlier repair 'hundreds of thousands': two decodes and three re-decodes hear 'or' (0.84-0.89) against the strong prior for 'hundreds of thousands', as does the UN transcript; forced scoring 'or' -0.7 vs 'of' -3.1; the Spanish 'cientos de miles' renders a speech not delivered in Spanish; back to 'hundreds or thousands'); spot 26 unit 78 'mountains,' -> 'mountainous' (same sound; 'floods in the mountains, regions of Nepal and China' does not fit; ES 'en las regiones montañosas de Nepal y China'; decodes write 'mountains,' (0.98 / 0.97)). Slips corrected under the second 2026 exception (INSTRUCTIONS.md, user decision 2026-09-29): unit 102 said 'choose cooperation over coordination' (three re-decodes p 0.98-0.99), which does not fit; the Spanish 'la cooperación en lugar del enfrentamiento' shows 'confrontation'.",
+ "unitizer_version": 1,
+ "sha1": "378e93b233a26ba8e13070833455be3fb636392c",
+ "layout": "single",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 2068,
+  "words_out": 2037,
+  "retention": 0.985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   39,
+   83,
+   78,
+   92,
+   88,
+   87,
+   226,
+   132,
+   113,
+   104,
+   96,
+   78,
+   83,
+   166,
+   84,
+   167,
+   186,
+   131,
+   4
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

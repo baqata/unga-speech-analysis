@@ -1,0 +1,67 @@
+{
+ "id": "GRD_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  27,
+  37,
+  50,
+  69,
+  89,
+  101,
+  116,
+  126,
+  144,
+  153,
+  164,
+  187,
+  198
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   120,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0d399dab1114c67b715532a8609e12d6cf4d367f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 211,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1623,
+  "words_out": 1620,
+  "retention": 0.9982,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   87,
+   111,
+   77,
+   100,
+   142,
+   153,
+   98,
+   109,
+   79,
+   139,
+   79,
+   76,
+   186,
+   84,
+   100
+  ],
+  "warnings": []
+ }
+}

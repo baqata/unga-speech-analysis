@@ -1,0 +1,73 @@
+{
+ "id": "GRC_54_1999",
+ "drop": [
+  [
+   307,
+   319,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  19,
+  36,
+  52,
+  67,
+  82,
+  101,
+  119,
+  138,
+  157,
+  175,
+  184,
+  207,
+  231,
+  248,
+  268,
+  286,
+  320
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Units 307-319 are a second translation of units 294-306 (history, bus ride, Chinese proverb); dropped as a repeat.",
+ "unitizer_version": 1,
+ "sha1": "5e77b7975d164a59e31706650b1478e9105560db",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 332,
+  "units_dropped": {
+   "repeat": 13
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2879,
+  "words_out": 2754,
+  "retention": 0.9566,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   161,
+   159,
+   141,
+   128,
+   122,
+   158,
+   165,
+   166,
+   169,
+   168,
+   72,
+   197,
+   207,
+   148,
+   149,
+   135,
+   208,
+   101
+  ],
+  "warnings": []
+ }
+}

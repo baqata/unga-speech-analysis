@@ -1,0 +1,170 @@
+{
+ "id": "KHM_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  12,
+  19,
+  23,
+  28,
+  33,
+  35,
+  41,
+  43,
+  52,
+  58,
+  65,
+  68,
+  72,
+  79,
+  81,
+  86,
+  88,
+  91,
+  95,
+  97,
+  105,
+  111,
+  116,
+  119,
+  123,
+  124,
+  126,
+  132,
+  137,
+  142,
+  148,
+  152,
+  158,
+  165,
+  169,
+  174,
+  176,
+  182
+ ],
+ "cer": [
+  0,
+  3,
+  65
+ ],
+ "fix": [
+  [
+   2,
+   "Mr, Amerasinghe's",
+   "Mr. Amerasinghe's",
+   "ocr"
+  ],
+  [
+   29,
+   "years,, the",
+   "years, the",
+   "ocr"
+  ],
+  [
+   34,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   50,
+   "off the map,",
+   "off the map.",
+   "ocr"
+  ],
+  [
+   64,
+   "in. national",
+   "in national",
+   "ocr"
+  ],
+  [
+   86,
+   "Kim II Sung",
+   "Kim Il Sung",
+   "ocr"
+  ],
+  [
+   89,
+   "problem, It is",
+   "problem. It is",
+   "ocr"
+  ],
+  [
+   103,
+   " [FRETILIN]",
+   "",
+   "label"
+  ],
+  [
+   145,
+   "super-jacent",
+   "superjacent",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6704b6adc40737bc6e5aec75685f36a556712ffc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 57
+  },
+  "words_in": 6027,
+  "words_out": 6025,
+  "retention": 0.9997,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   101,
+   51,
+   135,
+   127,
+   166,
+   194,
+   179,
+   206,
+   92,
+   178,
+   83,
+   174,
+   229,
+   127,
+   75,
+   133,
+   185,
+   101,
+   192,
+   89,
+   97,
+   181,
+   67,
+   195,
+   177,
+   180,
+   92,
+   88,
+   105,
+   109,
+   217,
+   158,
+   140,
+   161,
+   162,
+   172,
+   170,
+   128,
+   202,
+   128,
+   182,
+   97
+  ],
+  "warnings": []
+ }
+}

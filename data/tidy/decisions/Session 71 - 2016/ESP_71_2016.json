@@ -1,0 +1,86 @@
+{
+ "id": "ESP_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  11,
+  15,
+  19,
+  24,
+  28,
+  30,
+  34,
+  41,
+  44,
+  48,
+  51,
+  53,
+  56,
+  61,
+  64,
+  69,
+  71,
+  73,
+  77,
+  81
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "amon",
+   "among",
+   "ocr"
+  ],
+  [
+   67,
+   "capabilitities",
+   "capabilities",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "19d6205ee7285526a11eae65b9c3b026169eb3ac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2316,
+  "words_out": 2316,
+  "retention": 1.0,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   58,
+   221,
+   71,
+   99,
+   78,
+   159,
+   112,
+   86,
+   206,
+   159,
+   95,
+   98,
+   74,
+   72,
+   60,
+   100,
+   100,
+   121,
+   60,
+   64,
+   65,
+   67,
+   91
+  ],
+  "warnings": []
+ }
+}

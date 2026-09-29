@@ -1,0 +1,137 @@
+{
+ "id": "GHA_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  9,
+  12,
+  16,
+  18,
+  19,
+  24,
+  30,
+  36,
+  42,
+  45,
+  48,
+  52,
+  57,
+  65,
+  70,
+  74,
+  79,
+  81,
+  83,
+  87,
+  90,
+  98,
+  103,
+  107,
+  111,
+  114,
+  119
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   16,
+   "Ad Hос",
+   "Ad Hoc",
+   "encoding"
+  ],
+  [
+   20,
+   "I it how",
+   "But how",
+   "ocr"
+  ],
+  [
+   22,
+   "1ш commodity",
+   "low commodity",
+   "encoding"
+  ],
+  [
+   31,
+   "(IMF) ,",
+   "(IMF),",
+   "spacing"
+  ],
+  [
+   80,
+   "creed, Ghana",
+   "creed. Ghana",
+   "ocr"
+  ],
+  [
+   87,
+   "development.\"",
+   "development.",
+   "ocr"
+  ],
+  [
+   101,
+   "underline the peace",
+   "undermine the peace",
+   "ocr"
+  ],
+  [
+   118,
+   "prе-occupations",
+   "pre-occupations",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0311d127624e969694f81546a9183f98fd9a3054",
+ "layout": "lines",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3115,
+  "words_out": 3113,
+  "retention": 0.9994,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   68,
+   29,
+   140,
+   89,
+   95,
+   72,
+   44,
+   122,
+   183,
+   152,
+   135,
+   95,
+   94,
+   92,
+   116,
+   140,
+   103,
+   97,
+   138,
+   105,
+   56,
+   105,
+   83,
+   185,
+   103,
+   96,
+   121,
+   64,
+   137,
+   54
+  ],
+  "warnings": []
+ }
+}

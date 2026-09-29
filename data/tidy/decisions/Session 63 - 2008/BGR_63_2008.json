@@ -1,0 +1,62 @@
+{
+ "id": "BGR_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  21,
+  36,
+  46,
+  57,
+  74,
+  92,
+  108,
+  126,
+  143,
+  155,
+  170
+ ],
+ "cer": [
+  14
+ ],
+ "fix": [
+  [
+   13,
+   " (5th meeting)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a47b648566dd00390e3225ae87e7a0f93fd0d1a7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 187,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1380,
+  "words_out": 1377,
+  "retention": 0.9978,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   102,
+   58,
+   112,
+   76,
+   74,
+   127,
+   145,
+   112,
+   127,
+   128,
+   83,
+   106,
+   127
+  ],
+  "warnings": []
+ }
+}

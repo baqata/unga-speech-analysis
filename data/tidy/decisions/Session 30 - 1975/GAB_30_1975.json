@@ -1,0 +1,99 @@
+{
+ "id": "GAB_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  11,
+  13,
+  16,
+  21,
+  24,
+  28,
+  32,
+  36,
+  39,
+  43,
+  48,
+  52,
+  55,
+  58,
+  63
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   5,
+   "humanity/",
+   "humanity,",
+   "ocr"
+  ],
+  [
+   7,
+   "1 should",
+   "I should",
+   "ocr"
+  ],
+  [
+   27,
+   "a 11 the",
+   "all the",
+   "ocr"
+  ],
+  [
+   59,
+   "weGabon",
+   "we Gabon",
+   "merged_word"
+  ],
+  [
+   66,
+   "rot through",
+   "not through",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 58-59: two source lines are transposed, so the sentence on raw-material producer groups reads out of order.",
+ "unitizer_version": 1,
+ "sha1": "f4fef67c53361ad4c0313fcd5ea385cd019a40bd",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 1947,
+  "words_out": 1947,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   201,
+   101,
+   133,
+   72,
+   81,
+   83,
+   62,
+   148,
+   70,
+   80,
+   100,
+   82,
+   122,
+   107,
+   97,
+   79,
+   183,
+   146
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "CRI_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  13,
+  15,
+  17,
+  21,
+  24,
+  29,
+  33,
+  36,
+  41,
+  45,
+  50,
+  52,
+  54,
+  60,
+  65,
+  71,
+  74,
+  76,
+  80
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Will",
+   "will",
+   "ocr"
+  ],
+  [
+   15,
+   "people; In",
+   "people. In",
+   "ocr"
+  ],
+  [
+   17,
+   "In particular On the",
+   "in particular on the",
+   "ocr"
+  ],
+  [
+   19,
+   "plan's",
+   "man's",
+   "ocr"
+  ],
+  [
+   25,
+   "power, 'As",
+   "power. As",
+   "ocr"
+  ],
+  [
+   31,
+   "\"the face",
+   "the face",
+   "ocr"
+  ],
+  [
+   40,
+   "pet in motion",
+   "set in motion",
+   "ocr"
+  ],
+  [
+   46,
+   " [item 36]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   " [item 37]",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "Which",
+   "which",
+   "ocr"
+  ],
+  [
+   58,
+   "nullity",
+   "nullify",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "52828151d6113e1e39928af842f0b5b467dc6bb0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 25
+  },
+  "words_in": 2894,
+  "words_out": 2889,
+  "retention": 0.9983,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   141,
+   208,
+   111,
+   132,
+   145,
+   79,
+   154,
+   101,
+   132,
+   209,
+   133,
+   232,
+   106,
+   77,
+   193,
+   148,
+   168,
+   103,
+   75,
+   137,
+   105
+  ],
+  "warnings": []
+ }
+}

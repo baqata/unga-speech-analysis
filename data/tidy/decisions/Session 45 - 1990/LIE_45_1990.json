@@ -1,0 +1,72 @@
+{
+ "id": "LIE_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  10,
+  13,
+  16,
+  21,
+  23,
+  25,
+  30,
+  34,
+  37,
+  40
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "Nest November",
+   "Next November",
+   "ocr"
+  ],
+  [
+   35,
+   "Sights",
+   "Rights",
+   "ocr"
+  ],
+  [
+   40,
+   "and 1 should",
+   "and I should",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "73ba4cd8d2840da89598e3123bc75dab21075b56",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1294,
+  "words_out": 1294,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   118,
+   97,
+   124,
+   91,
+   86,
+   151,
+   80,
+   82,
+   140,
+   64,
+   103,
+   84,
+   74
+  ],
+  "warnings": []
+ }
+}

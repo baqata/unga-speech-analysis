@@ -1,0 +1,41 @@
+{
+ "id": "GNB_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  18,
+  22,
+  30,
+  41
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f040f32147369d8cf06204f68ec08ffefc70376a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 865,
+  "words_out": 863,
+  "retention": 0.9977,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   81,
+   145,
+   168,
+   97,
+   144,
+   169,
+   59
+  ],
+  "warnings": []
+ }
+}

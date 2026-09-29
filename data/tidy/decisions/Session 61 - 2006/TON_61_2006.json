@@ -1,0 +1,59 @@
+{
+ "id": "TON_61_2006",
+ "drop": [
+  [
+   28,
+   29,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  30,
+  50,
+  64,
+  86,
+  111,
+  122,
+  146,
+  160
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "716a4916908b79f54d7dcb48dab1683a632a77e5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 177,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1292,
+  "words_out": 1279,
+  "retention": 0.9899,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   114,
+   103,
+   143,
+   96,
+   166,
+   172,
+   87,
+   159,
+   109,
+   130
+  ],
+  "warnings": [
+   "procedural drop [28,29] in the middle of the speech"
+  ]
+ }
+}

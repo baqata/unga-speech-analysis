@@ -1,0 +1,143 @@
+{
+ "id": "NOR_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  3,
+  8,
+  10,
+  12,
+  15,
+  18,
+  22,
+  26,
+  30,
+  33,
+  39,
+  44,
+  48,
+  50,
+  52,
+  55,
+  58,
+  63,
+  67,
+  70,
+  73,
+  77,
+  80,
+  83,
+  87,
+  90,
+  95,
+  97,
+  99,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   14,
+   "[A/4132/Add. l, p. 1.]",
+   "",
+   "label"
+  ],
+  [
+   4,
+   "overnight, and",
+   "overnight and",
+   "ocr"
+  ],
+  [
+   42,
+   "representatives hers",
+   "representatives here",
+   "ocr"
+  ],
+  [
+   45,
+   "international Community",
+   "international community",
+   "ocr"
+  ],
+  [
+   73,
+   "Middle East Is",
+   "Middle East is",
+   "ocr"
+  ],
+  [
+   84,
+   " [resolution 1307 (XQI)]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   "1960.'",
+   "1960.",
+   "ocr"
+  ],
+  [
+   100,
+   "We are, ready",
+   "We are ready",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "708a7be2e2c4a7264b4e81fdc4b5b3055cb5a930",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 42
+  },
+  "words_in": 3315,
+  "words_out": 3305,
+  "retention": 0.997,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   39,
+   70,
+   135,
+   72,
+   65,
+   113,
+   105,
+   93,
+   89,
+   138,
+   136,
+   131,
+   134,
+   113,
+   67,
+   87,
+   105,
+   88,
+   139,
+   125,
+   112,
+   87,
+   91,
+   87,
+   84,
+   140,
+   116,
+   161,
+   66,
+   75,
+   78,
+   164
+  ],
+  "warnings": []
+ }
+}

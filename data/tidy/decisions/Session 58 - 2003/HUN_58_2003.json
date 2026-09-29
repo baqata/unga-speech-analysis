@@ -1,0 +1,47 @@
+{
+ "id": "HUN_58_2003",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  34,
+  56,
+  78,
+  95,
+  110,
+  130,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8bf826f2c4017779677bf22e2a4507f1bc0ddb7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 159,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1227,
+  "words_out": 1225,
+  "retention": 0.9984,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   163,
+   115,
+   166,
+   170,
+   132,
+   116,
+   145,
+   161,
+   57
+  ],
+  "warnings": []
+ }
+}

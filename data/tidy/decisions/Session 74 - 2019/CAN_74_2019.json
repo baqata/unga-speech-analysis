@@ -1,0 +1,116 @@
+{
+ "id": "CAN_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  15,
+  22,
+  27,
+  33,
+  39,
+  46,
+  54,
+  61,
+  69,
+  71,
+  81,
+  86,
+  95,
+  103,
+  108,
+  117,
+  121,
+  130,
+  135,
+  147,
+  152
+ ],
+ "cer": [],
+ "fix": [
+  [
+   25,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   37,
+   "developing- country",
+   "developing-country",
+   "hyphen"
+  ],
+  [
+   41,
+   "Macky Sail",
+   "Macky Sall",
+   "ocr"
+  ],
+  [
+   120,
+   "conflict- affected",
+   "conflict-affected",
+   "hyphen"
+  ],
+  [
+   120,
+   "ambassador- level",
+   "ambassador-level",
+   "hyphen"
+  ],
+  [
+   47,
+   " (see A/74/ PV.3)",
+   "",
+   "label"
+  ],
+  [
+   49,
+   " (ibid.)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1486ccabc6a80a5fa9ce1862e331842e98aff7ac",
+ "layout": "lines",
+ "stats": {
+  "n_units": 158,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 4
+  },
+  "words_in": 3355,
+  "words_out": 3345,
+  "retention": 0.997,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   139,
+   95,
+   153,
+   149,
+   132,
+   209,
+   122,
+   155,
+   142,
+   157,
+   75,
+   195,
+   123,
+   216,
+   160,
+   133,
+   182,
+   120,
+   193,
+   115,
+   185,
+   90,
+   105
+  ],
+  "warnings": []
+ }
+}

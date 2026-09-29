@@ -1,0 +1,89 @@
+{
+ "id": "BOL_48_1993",
+ "drop": [
+  [
+   112,
+   112,
+   "header_footer"
+  ],
+  [
+   204,
+   204,
+   "header_footer"
+  ],
+  [
+   302,
+   302,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  20,
+  37,
+  56,
+  64,
+  72,
+  85,
+  92,
+  106,
+  123,
+  149,
+  158,
+  171,
+  186,
+  217,
+  227,
+  242,
+  258,
+  268,
+  277,
+  305
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a2ac75db6edaa7bf3e79ccffb61b2837a8892f2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2929,
+  "words_out": 2909,
+  "retention": 0.9932,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   72,
+   87,
+   142,
+   175,
+   80,
+   75,
+   118,
+   74,
+   127,
+   152,
+   241,
+   70,
+   120,
+   140,
+   289,
+   96,
+   142,
+   163,
+   88,
+   88,
+   276,
+   94
+  ],
+  "warnings": []
+ }
+}

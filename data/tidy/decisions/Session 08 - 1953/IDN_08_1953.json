@@ -1,0 +1,92 @@
+{
+ "id": "IDN_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  15,
+  18,
+  23,
+  28,
+  33,
+  35,
+  43,
+  48,
+  55,
+  63,
+  68,
+  72,
+  82,
+  87,
+  92,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "net",
+   "not",
+   "ocr"
+  ],
+  [
+   17,
+   "1",
+   "I",
+   "ocr"
+  ],
+  [
+   31,
+   "tins",
+   "this",
+   "ocr"
+  ],
+  [
+   78,
+   "snare",
+   "share",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7d6b4eb17d2e9dfd7d8caa2ca7ed785e9188c5e1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3197,
+  "words_out": 3197,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   95,
+   200,
+   183,
+   119,
+   144,
+   138,
+   149,
+   107,
+   255,
+   210,
+   183,
+   256,
+   155,
+   131,
+   232,
+   175,
+   164,
+   84,
+   217
+  ],
+  "warnings": []
+ }
+}

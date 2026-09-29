@@ -1,0 +1,116 @@
+{
+ "id": "THA_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  39,
+  62,
+  82,
+  99,
+  111,
+  144,
+  157,
+  174,
+  198,
+  215,
+  236,
+  264,
+  288,
+  315,
+  342,
+  362,
+  377,
+  392,
+  409,
+  433
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   37,
+   "face which",
+   "fact which",
+   "ocr"
+  ],
+  [
+   140,
+   "de-esculate",
+   "de-escalate",
+   "ocr"
+  ],
+  [
+   171,
+   " [242 (1967)]",
+   "",
+   "label"
+  ],
+  [
+   301,
+   "[resolution 449 (V)] ",
+   "",
+   "label"
+  ],
+  [
+   315,
+   "Jan Smith",
+   "Ian Smith",
+   "ocr"
+  ],
+  [
+   329,
+   "adapted-in",
+   "adapted in",
+   "ocr"
+  ],
+  [
+   387,
+   "well-being, Further",
+   "well-being. Further",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01a13fad5f82ddaf93b73a7e51c3f3e72380b9d1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 460,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 4099,
+  "words_out": 4062,
+  "retention": 0.991,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   166,
+   176,
+   203,
+   186,
+   145,
+   102,
+   304,
+   117,
+   146,
+   198,
+   145,
+   172,
+   248,
+   210,
+   240,
+   247,
+   168,
+   142,
+   134,
+   151,
+   221,
+   241
+  ],
+  "warnings": []
+ }
+}

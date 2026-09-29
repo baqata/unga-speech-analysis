@@ -1,0 +1,54 @@
+{
+ "id": "STP_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  26,
+  41,
+  57,
+  72,
+  90,
+  105,
+  121,
+  133,
+  149,
+  164
+ ],
+ "cer": [
+  13
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "574f4b851e8dbad792fdc8b1d67be11e2f0578c8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1369,
+  "words_out": 1368,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   105,
+   113,
+   107,
+   127,
+   113,
+   137,
+   117,
+   139,
+   107,
+   134,
+   115,
+   54
+  ],
+  "warnings": []
+ }
+}

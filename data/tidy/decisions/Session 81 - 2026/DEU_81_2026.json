@@ -1,0 +1,141 @@
+{
+ "id": "DEU_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   104,
+   104,
+   "presider"
+  ],
+  [
+   105,
+   108,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  8,
+  16,
+  21,
+  29,
+  38,
+  43,
+  55,
+  58,
+  71,
+  75,
+  88,
+  95,
+  103
+ ],
+ "cer": [
+  103
+ ],
+ "fix": [
+  [
+   70,
+   "Corporation",
+   "Cooperation",
+   "asr_term"
+  ],
+  [
+   87,
+   "routes",
+   "rules",
+   "asr_term"
+  ],
+  [
+   6,
+   "question. engineers",
+   "question. Engineers",
+   "asr_term"
+  ],
+  [
+   17,
+   "patents. that",
+   "patents. That",
+   "asr_term"
+  ],
+  [
+   20,
+   "this. when",
+   "this when",
+   "asr_term"
+  ],
+  [
+   87,
+   "rules. and",
+   "rules. And",
+   "asr_term"
+  ],
+  [
+   94,
+   "world. the",
+   "world. The",
+   "asr_term"
+  ],
+  [
+   98,
+   "responsibility. and",
+   "responsibility. And",
+   "asr_term"
+  ],
+  [
+   8,
+   "On",
+   "In",
+   "asr_term"
+  ],
+  [
+   40,
+   "function in the",
+   "functioning",
+   "asr_term"
+  ],
+  [
+   100,
+   "pull",
+   "pool",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Interpreted speech; Spanish channel confirms La cooperacion (unit 70) and estas reglas (unit 87); stray words after the presider's thanks dropped as noise. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 6 'question. engineers' -> 'question. Engineers'; unit 17 'patents. that' -> 'patents. That'; unit 20 'this. when' -> 'this when'; unit 87 'rules. and' -> 'rules. And'; unit 94 'world. the' -> 'world. The'; unit 98 'responsibility. and' -> 'responsibility. And'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 8 'On' -> 'In' (both decodes hear 'In' (0.56); 'On the wrong hands' does not fit, 'In the wrong hands' is the phrase; ES 'Si cae entre las' (manos equivocadas)); spot 5 unit 40 'function in the' -> 'functioning' (decodes 'function in the UN' / 'function in UN' ('the' 0.54 / absent) is the sound of 'functioning UN'; 'we need a function in the UN that plays an active role in resolving conflicts' does not fit; the speech calls for a functioning UN); spot 9 unit 100 'pull' -> 'pool' (near-homophone; both decodes hear 'pool' (0.50); 'pull our strength' does not fit, 'pool our strength' does, in a passage on cooperation)",
+ "unitizer_version": 1,
+ "sha1": "c988660b1125dd54a051d43fbfde4945998cf62d",
+ "layout": "single",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 4
+  },
+  "prestrip": {},
+  "words_in": 1743,
+  "words_out": 1701,
+  "retention": 0.9759,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   119,
+   126,
+   125,
+   157,
+   134,
+   88,
+   186,
+   64,
+   206,
+   67,
+   165,
+   140,
+   121,
+   3
+  ],
+  "warnings": []
+ }
+}

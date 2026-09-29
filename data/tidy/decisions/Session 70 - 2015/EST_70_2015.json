@@ -1,0 +1,67 @@
+{
+ "id": "EST_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  22,
+  24,
+  29,
+  39,
+  42,
+  47,
+  58,
+  64,
+  69,
+  75,
+  83,
+  90,
+  97
+ ],
+ "cer": [],
+ "fix": [
+  [
+   63,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ce13002ac6624b242d52df649df74f64e55d2d3c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 4
+  },
+  "words_in": 1952,
+  "words_out": 1949,
+  "retention": 0.9985,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   91,
+   136,
+   161,
+   60,
+   89,
+   183,
+   58,
+   124,
+   190,
+   130,
+   88,
+   130,
+   137,
+   170,
+   134,
+   68
+  ],
+  "warnings": []
+ }
+}

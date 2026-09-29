@@ -1,0 +1,92 @@
+{
+ "id": "PLW_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  8,
+  9,
+  10,
+  11,
+  14,
+  16,
+  17,
+  21,
+  23,
+  25,
+  27,
+  31,
+  36,
+  42,
+  45,
+  51,
+  53,
+  56,
+  57,
+  60
+ ],
+ "cer": [
+  0,
+  1,
+  9,
+  56
+ ],
+ "fix": [
+  [
+   11,
+   "post- 2015",
+   "post-2015",
+   "hyphen"
+  ],
+  [
+   24,
+   "down-to- earth",
+   "down-to-earth",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0001d6655cc7b8f7dbf2e16884bba915026bf470",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 4
+  },
+  "words_in": 1822,
+  "words_out": 1818,
+  "retention": 0.9978,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   31,
+   52,
+   101,
+   61,
+   62,
+   60,
+   72,
+   77,
+   68,
+   110,
+   90,
+   86,
+   52,
+   114,
+   84,
+   150,
+   77,
+   140,
+   63,
+   87,
+   44,
+   71,
+   66
+  ],
+  "warnings": []
+ }
+}

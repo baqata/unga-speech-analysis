@@ -1,0 +1,79 @@
+{
+ "id": "GRD_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  31,
+  45,
+  56,
+  76,
+  88,
+  107,
+  124,
+  146,
+  158,
+  173,
+  189,
+  207,
+  223
+ ],
+ "cer": [
+  19
+ ],
+ "fix": [
+  [
+   109,
+   " (see and PV.10)",
+   "",
+   "label"
+  ],
+  [
+   115,
+   " (see and",
+   "",
+   "label"
+  ],
+  [
+   116,
+   "PV.18)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ff7aa617e03b3238286285d2b21ec04ef20e062",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 227,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 2
+  },
+  "words_in": 1798,
+  "words_out": 1791,
+  "retention": 0.9961,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   154,
+   96,
+   94,
+   88,
+   162,
+   97,
+   130,
+   122,
+   179,
+   96,
+   131,
+   122,
+   137,
+   143,
+   40
+  ],
+  "warnings": []
+ }
+}

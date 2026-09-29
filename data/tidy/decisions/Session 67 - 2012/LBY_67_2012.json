@@ -1,0 +1,120 @@
+{
+ "id": "LBY_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  29,
+  49,
+  61,
+  76,
+  90,
+  110,
+  126,
+  145,
+  161,
+  170,
+  179,
+  196,
+  205,
+  219,
+  231,
+  246,
+  256,
+  271,
+  283,
+  298,
+  310,
+  323,
+  331
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ],
+  [
+   85,
+   "(A/67/PV.6, p.11)",
+   "",
+   "label"
+  ],
+  [
+   161,
+   "f lagrantly",
+   "flagrantly",
+   "split_word"
+  ],
+  [
+   168,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ],
+  [
+   299,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ],
+  [
+   301,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ],
+  [
+   323,
+   "affi nity",
+   "affinity",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc407e8ddb9bc63736e815d2311a454733d29c0c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 337,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2762,
+  "words_out": 2753,
+  "retention": 0.9967,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   75,
+   170,
+   173,
+   100,
+   138,
+   118,
+   174,
+   125,
+   148,
+   109,
+   67,
+   65,
+   152,
+   73,
+   103,
+   101,
+   117,
+   84,
+   111,
+   105,
+   130,
+   95,
+   95,
+   77,
+   48
+  ],
+  "warnings": []
+ }
+}

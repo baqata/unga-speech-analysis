@@ -1,0 +1,64 @@
+{
+ "id": "DMA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  32,
+  54,
+  75,
+  90,
+  115,
+  130,
+  149,
+  172,
+  185,
+  197,
+  210,
+  223,
+  234,
+  246,
+  261
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "401a5677c77890f0dec64402455887735c1af85f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 284,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 3
+  },
+  "words_in": 2180,
+  "words_out": 2178,
+  "retention": 0.9991,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   61,
+   165,
+   161,
+   160,
+   115,
+   183,
+   117,
+   149,
+   193,
+   99,
+   95,
+   104,
+   101,
+   90,
+   90,
+   124,
+   171
+  ],
+  "warnings": []
+ }
+}

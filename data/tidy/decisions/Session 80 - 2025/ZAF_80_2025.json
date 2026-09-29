@@ -1,0 +1,90 @@
+{
+ "id": "ZAF_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   108,
+   108,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  8,
+  12,
+  23,
+  32,
+  42,
+  45,
+  51,
+  56,
+  63,
+  69,
+  75,
+  82,
+  89,
+  99,
+  102,
+  107
+ ],
+ "cer": [
+  2,
+  107
+ ],
+ "fix": [
+  [
+   37,
+   "economic cohesion",
+   "economic coercion",
+   "asr_term"
+  ],
+  [
+   66,
+   "fermine",
+   "famine",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 3 'Eight years ago' is left as transcribed; 'Eighty years ago' is probably meant.",
+ "unitizer_version": 1,
+ "sha1": "e4d3b17e0faaf1a9df5ad7497fe8dc1f08eb68e9",
+ "layout": "single",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2291,
+  "words_out": 2241,
+  "retention": 0.9782,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   25,
+   107,
+   100,
+   250,
+   178,
+   201,
+   73,
+   104,
+   98,
+   202,
+   136,
+   131,
+   121,
+   160,
+   157,
+   79,
+   116,
+   3
+  ],
+  "warnings": []
+ }
+}

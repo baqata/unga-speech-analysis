@@ -1,0 +1,141 @@
+{
+ "id": "TCD_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   140,
+   140,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  8,
+  13,
+  16,
+  22,
+  29,
+  33,
+  36,
+  39,
+  47,
+  52,
+  59,
+  65,
+  71,
+  85,
+  91,
+  98,
+  106,
+  110,
+  117,
+  121,
+  124,
+  131,
+  139
+ ],
+ "cer": [
+  2,
+  4,
+  139
+ ],
+ "fix": [
+  [
+   2,
+   "Marshal Mahmoud Idris Deby-Idnon,",
+   "Marshal Mahamat Idriss Deby Itno,",
+   "asr_name"
+  ],
+  [
+   6,
+   "Ambassador Philippine Yang",
+   "Ambassador Philemon Yang",
+   "asr_name"
+  ],
+  [
+   35,
+   "the civil commitment is",
+   "the Seville Commitment is",
+   "asr_term"
+  ],
+  [
+   37,
+   "the civil commitment,",
+   "the Seville Commitment,",
+   "asr_term"
+  ],
+  [
+   37,
+   "OASA",
+   "Awaza",
+   "asr_name"
+  ],
+  [
+   59,
+   "the Ezzelwini consensus",
+   "the Ezulwini consensus",
+   "asr_name"
+  ],
+  [
+   122,
+   "Excellency Fousta Arkange Touadéra",
+   "Excellency Faustin-Archange Touadéra",
+   "asr_name"
+  ],
+  [
+   138,
+   "of Idris Ebi-Idno,",
+   "of Idriss Deby Itno,",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "The Prime Minister reads the President's message (units 4-138); his own preface (units 2-3) and closing attribution (unit 138) are kept.",
+ "unitizer_version": 1,
+ "sha1": "f0a8894ecb95e2e714566feca82dfe5d0da1a50c",
+ "layout": "single",
+ "stats": {
+  "n_units": 141,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3565,
+  "words_out": 3506,
+  "retention": 0.9835,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   100,
+   220,
+   133,
+   164,
+   143,
+   145,
+   119,
+   90,
+   148,
+   159,
+   152,
+   176,
+   112,
+   176,
+   195,
+   131,
+   152,
+   204,
+   106,
+   179,
+   166,
+   91,
+   155,
+   83,
+   7
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "ERI_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  44,
+  65,
+  84,
+  106,
+  123,
+  136,
+  144,
+  158,
+  184,
+  201,
+  218
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b9f15f462a172e4b1cbc34a745bba20d1a6ee2aa",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 229,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1886,
+  "words_out": 1884,
+  "retention": 0.9989,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   144,
+   204,
+   182,
+   154,
+   175,
+   152,
+   104,
+   61,
+   115,
+   219,
+   144,
+   135,
+   95
+  ],
+  "warnings": []
+ }
+}

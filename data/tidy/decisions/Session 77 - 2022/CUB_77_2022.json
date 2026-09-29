@@ -1,0 +1,80 @@
+{
+ "id": "CUB_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  19,
+  22,
+  26,
+  30,
+  33,
+  38,
+  41,
+  44,
+  48,
+  51,
+  54,
+  60,
+  63,
+  68,
+  74
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "fifth- generation",
+   "fifth-generation",
+   "hyphen"
+  ],
+  [
+   54,
+   "civil- military",
+   "civil-military",
+   "hyphen"
+  ],
+  [
+   58,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf1002fcbc4261847f0c67dbbab516a1cf38d069",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1949,
+  "words_out": 1944,
+  "retention": 0.9974,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   150,
+   98,
+   65,
+   94,
+   113,
+   110,
+   69,
+   83,
+   137,
+   107,
+   93,
+   86,
+   96,
+   161,
+   104,
+   125,
+   133,
+   120
+  ],
+  "warnings": []
+ }
+}

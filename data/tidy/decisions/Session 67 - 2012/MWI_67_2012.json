@@ -1,0 +1,76 @@
+{
+ "id": "MWI_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  17,
+  32,
+  40,
+  62,
+  74,
+  82,
+  93,
+  103,
+  113,
+  127,
+  145,
+  155,
+  166,
+  176,
+  184,
+  198
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   64,
+   "gra-ssroots",
+   "grassroots",
+   "ocr"
+  ],
+  [
+   178,
+   "f looding",
+   "flooding",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dbc8066b260f79dfd0c2459998d00de98d540b08",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1808,
+  "words_out": 1807,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   39,
+   118,
+   129,
+   70,
+   219,
+   100,
+   63,
+   92,
+   84,
+   83,
+   112,
+   140,
+   99,
+   87,
+   79,
+   65,
+   117,
+   111
+  ],
+  "warnings": []
+ }
+}

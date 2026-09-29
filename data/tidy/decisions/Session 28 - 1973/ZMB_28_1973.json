@@ -1,0 +1,294 @@
+{
+ "id": "ZMB_28_1973",
+ "drop": [
+  [
+   16,
+   16,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  8,
+  11,
+  17,
+  26,
+  29,
+  35,
+  42,
+  49,
+  56,
+  59,
+  63,
+  70,
+  77,
+  82,
+  85,
+  90,
+  95,
+  98,
+  100,
+  103,
+  107,
+  109,
+  112,
+  117,
+  119,
+  123,
+  130,
+  137,
+  141,
+  143,
+  149,
+  151,
+  153,
+  154,
+  156,
+  159,
+  163,
+  171,
+  174,
+  177,
+  182,
+  187,
+  195
+ ],
+ "cer": [
+  0,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   4,
+   "task. I",
+   "task.",
+   "ocr"
+  ],
+  [
+   10,
+   "Assembly. -",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   12,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   15,
+   "important .decisions",
+   "important decisions",
+   "ocr"
+  ],
+  [
+   18,
+   "interference 'in",
+   "interference in",
+   "ocr"
+  ],
+  [
+   26,
+   "aimed as creating",
+   "aimed at creating",
+   "ocr"
+  ],
+  [
+   33,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   35,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   48,
+   " [resolution 2734 (XXV)J",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "of -the",
+   "of the",
+   "ocr"
+  ],
+  [
+   72,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   81,
+   ". They are fine",
+   "They are fine",
+   "ocr"
+  ],
+  [
+   83,
+   "collective, punishments",
+   "collective punishments",
+   "ocr"
+  ],
+  [
+   85,
+   ", f the",
+   " of the",
+   "ocr"
+  ],
+  [
+   86,
+   "be, no",
+   "be no",
+   "ocr"
+  ],
+  [
+   99,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   113,
+   "We - are",
+   "We are",
+   "ocr"
+  ],
+  [
+   117,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   123,
+   "representatives ,of",
+   "representatives of",
+   "ocr"
+  ],
+  [
+   125,
+   "cleat",
+   "clear",
+   "ocr"
+  ],
+  [
+   126,
+   "apartheid-.and",
+   "apartheid and",
+   "ocr"
+  ],
+  [
+   131,
+   "- diagnosed.",
+   "diagnosed.",
+   "ocr"
+  ],
+  [
+   149,
+   "Itherefore",
+   "therefore",
+   "ocr"
+  ],
+  [
+   153,
+   "non- aligned",
+   "non-aligned",
+   "spacing"
+  ],
+  [
+   157,
+   " [resolution 2750(XXV)J",
+   "",
+   "label"
+  ],
+  [
+   171,
+   "decided. by",
+   "decided by",
+   "ocr"
+  ],
+  [
+   187,
+   "more-broadly- based",
+   "more-broadly-based",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a57b37421b00ac7d797b73244d349fa1f7bb79d0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 60
+  },
+  "words_in": 5425,
+  "words_out": 5404,
+  "retention": 0.9961,
+  "n_paragraphs": 45,
+  "paragraph_words": [
+   92,
+   144,
+   82,
+   157,
+   178,
+   110,
+   114,
+   149,
+   189,
+   118,
+   84,
+   87,
+   184,
+   182,
+   112,
+   84,
+   126,
+   93,
+   105,
+   64,
+   104,
+   102,
+   61,
+   102,
+   87,
+   91,
+   76,
+   208,
+   139,
+   103,
+   109,
+   185,
+   85,
+   91,
+   79,
+   94,
+   126,
+   107,
+   151,
+   135,
+   106,
+   97,
+   178,
+   198,
+   136
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

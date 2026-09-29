@@ -1,0 +1,80 @@
+{
+ "id": "PER_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  17,
+  21,
+  28,
+  34,
+  39,
+  41,
+  44,
+  47,
+  48,
+  55,
+  59,
+  62,
+  65,
+  68
+ ],
+ "cer": [],
+ "fix": [
+  [
+   12,
+   "over- bearing",
+   "over-bearing",
+   "hyphen"
+  ],
+  [
+   55,
+   "Iris report",
+   "his report",
+   "ocr"
+  ],
+  [
+   58,
+   "effects, We",
+   "effects. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cfc4f49113865433ddce8fe52a72f8188de50af",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2631,
+  "words_out": 2630,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   139,
+   150,
+   160,
+   116,
+   134,
+   243,
+   174,
+   190,
+   75,
+   146,
+   117,
+   97,
+   247,
+   211,
+   129,
+   111,
+   102,
+   89
+  ],
+  "warnings": []
+ }
+}

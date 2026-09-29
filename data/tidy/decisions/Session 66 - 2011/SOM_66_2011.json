@@ -1,0 +1,97 @@
+{
+ "id": "SOM_66_2011",
+ "drop": [
+  [
+   288,
+   289,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  24,
+  35,
+  48,
+  58,
+  67,
+  84,
+  94,
+  109,
+  125,
+  142,
+  150,
+  161,
+  170,
+  187,
+  195,
+  210,
+  223,
+  241,
+  250,
+  259,
+  277,
+  290,
+  304,
+  317,
+  325,
+  340,
+  352
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "41ad61b99e643719c0bed4954b2055fdb2b85312",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 360,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2914,
+  "words_out": 2906,
+  "retention": 0.9973,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   73,
+   135,
+   84,
+   105,
+   76,
+   73,
+   139,
+   80,
+   100,
+   126,
+   139,
+   71,
+   90,
+   76,
+   138,
+   57,
+   131,
+   105,
+   141,
+   71,
+   72,
+   143,
+   81,
+   127,
+   107,
+   74,
+   134,
+   87,
+   71
+  ],
+  "warnings": [
+   "procedural drop [288,289] in the middle of the speech"
+  ]
+ }
+}

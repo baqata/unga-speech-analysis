@@ -1,0 +1,91 @@
+{
+ "id": "MMR_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  18,
+  26,
+  31,
+  36,
+  42,
+  44,
+  50,
+  54,
+  57,
+  65,
+  68,
+  72,
+  76,
+  85,
+  89,
+  95,
+  108,
+  111
+ ],
+ "cer": [
+  111
+ ],
+ "fix": [
+  [
+   18,
+   "inter- national",
+   "inter-national",
+   "hyphen"
+  ],
+  [
+   18,
+   "tins",
+   "this",
+   "ocr"
+  ],
+  [
+   111,
+   "well- deserved",
+   "well-deserved",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a6a11ca6a81d8f32dc879e3144bf2fea3fa3511d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 23
+  },
+  "words_in": 2914,
+  "words_out": 2909,
+  "retention": 0.9983,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   160,
+   114,
+   208,
+   201,
+   96,
+   160,
+   132,
+   72,
+   206,
+   171,
+   74,
+   174,
+   83,
+   133,
+   94,
+   207,
+   94,
+   147,
+   268,
+   73,
+   42
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "IRQ_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  30,
+  50,
+  76,
+  100,
+  115,
+  134,
+  160,
+  184,
+  198,
+  216,
+  231,
+  253
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77acad11c14b3271a333952da3bf24e73347b14a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 259,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2009,
+  "words_out": 2009,
+  "retention": 1.0,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   74,
+   172,
+   162,
+   187,
+   185,
+   118,
+   148,
+   202,
+   179,
+   114,
+   138,
+   123,
+   162,
+   45
+  ],
+  "warnings": []
+ }
+}

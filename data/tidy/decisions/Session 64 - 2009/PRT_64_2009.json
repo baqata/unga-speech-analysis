@@ -1,0 +1,59 @@
+{
+ "id": "PRT_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  26,
+  53,
+  65,
+  81,
+  100,
+  113,
+  131,
+  161,
+  189,
+  212,
+  236,
+  261,
+  273
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8d1230a59e1e3e3494a0998159164a5c224a3c5c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 289,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2259,
+  "words_out": 2256,
+  "retention": 0.9987,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   45,
+   144,
+   219,
+   92,
+   139,
+   164,
+   112,
+   135,
+   214,
+   235,
+   152,
+   194,
+   194,
+   82,
+   135
+  ],
+  "warnings": []
+ }
+}

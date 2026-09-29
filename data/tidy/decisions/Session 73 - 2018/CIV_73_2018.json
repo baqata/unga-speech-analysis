@@ -1,0 +1,63 @@
+{
+ "id": "CIV_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  9,
+  11,
+  14,
+  18,
+  22,
+  25,
+  29,
+  31,
+  35,
+  38,
+  41
+ ],
+ "cer": [
+  0,
+  22
+ ],
+ "fix": [
+  [
+   22,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1a53f4e862253e984270863538d38bad11c4874b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1402,
+  "words_out": 1401,
+  "retention": 0.9993,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   105,
+   90,
+   105,
+   74,
+   114,
+   117,
+   155,
+   82,
+   122,
+   72,
+   127,
+   95,
+   92,
+   51
+  ],
+  "warnings": []
+ }
+}

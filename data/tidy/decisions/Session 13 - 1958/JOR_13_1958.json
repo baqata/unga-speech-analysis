@@ -1,0 +1,253 @@
+{
+ "id": "JOR_13_1958",
+ "drop": [
+  [
+   146,
+   146,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  15,
+  20,
+  26,
+  34,
+  37,
+  41,
+  46,
+  49,
+  55,
+  58,
+  68,
+  71,
+  79,
+  84,
+  87,
+  93,
+  97,
+  100,
+  104,
+  107,
+  111,
+  115,
+  121,
+  126,
+  130,
+  133,
+  135,
+  137,
+  139,
+  141,
+  147,
+  152,
+  158,
+  162,
+  164,
+  171,
+  178,
+  187,
+  193
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   25,
+   "Government,",
+   "Government.",
+   "ocr"
+  ],
+  [
+   27,
+   "[resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "]. my",
+   "], my",
+   "ocr"
+  ],
+  [
+   34,
+   "of. a",
+   "of a",
+   "ocr"
+  ],
+  [
+   45,
+   "complaint,",
+   "complaint.",
+   "ocr"
+  ],
+  [
+   69,
+   ":to",
+   "to",
+   "ocr"
+  ],
+  [
+   93,
+   "understanding. 'The",
+   "understanding. The",
+   "ocr"
+  ],
+  [
+   99,
+   "Jordan,\"",
+   "Jordan.\"",
+   "ocr"
+  ],
+  [
+   104,
+   "sovereignly",
+   "sovereignty",
+   "ocr"
+  ],
+  [
+   135,
+   "Goyernment",
+   "Government",
+   "ocr"
+  ],
+  [
+   137,
+   "Jordan, The",
+   "Jordan. The",
+   "ocr"
+  ],
+  [
+   140,
+   "learn Also",
+   "learn also",
+   "ocr"
+  ],
+  [
+   142,
+   "report.",
+   "report:",
+   "ocr"
+  ],
+  [
+   165,
+   "well | received",
+   "well received",
+   "ocr"
+  ],
+  [
+   167,
+   "The j great",
+   "The great",
+   "ocr"
+  ],
+  [
+   167,
+   "Assembly ] recognized",
+   "Assembly recognized",
+   "ocr"
+  ],
+  [
+   170,
+   "'which",
+   "which",
+   "ocr"
+  ],
+  [
+   170,
+   "Jordan,",
+   "Jordan.",
+   "ocr"
+  ],
+  [
+   177,
+   "deer friend",
+   "dear friend",
+   "ocr"
+  ],
+  [
+   180,
+   "pro- imperialistic",
+   "pro-imperialistic",
+   "hyphen"
+  ],
+  [
+   184,
+   "delegates, represent",
+   "delegates represent",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 146 is a stray paragraph number ('106.') the tool missed.",
+ "unitizer_version": 1,
+ "sha1": "15dd517c9aac5ba55b4b851f35761ede601845a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 59
+  },
+  "words_in": 5982,
+  "words_out": 5973,
+  "retention": 0.9985,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   118,
+   151,
+   129,
+   85,
+   116,
+   166,
+   190,
+   142,
+   189,
+   128,
+   130,
+   148,
+   135,
+   183,
+   100,
+   138,
+   156,
+   94,
+   123,
+   119,
+   138,
+   150,
+   93,
+   128,
+   171,
+   246,
+   158,
+   223,
+   118,
+   137,
+   68,
+   108,
+   110,
+   110,
+   174,
+   184,
+   114,
+   92,
+   165,
+   152,
+   216,
+   125,
+   53
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

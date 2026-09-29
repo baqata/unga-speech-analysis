@@ -1,0 +1,97 @@
+{
+ "id": "ISL_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  17,
+  23,
+  35,
+  36,
+  42,
+  45,
+  53,
+  60,
+  65,
+  69,
+  77,
+  83,
+  86,
+  94,
+  99,
+  104,
+  111,
+  115,
+  118,
+  122,
+  126
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   117,
+   "3",
+   "",
+   "label"
+  ],
+  [
+   123,
+   "4 ",
+   "",
+   "label"
+  ],
+  [
+   123,
+   "resources.The",
+   "resources. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66a5d259c17eb5827c5b7b9e5e86857ec9a0f896",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3560,
+  "words_out": 3560,
+  "retention": 1.0,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   86,
+   135,
+   188,
+   142,
+   216,
+   67,
+   127,
+   95,
+   283,
+   125,
+   150,
+   118,
+   170,
+   191,
+   101,
+   201,
+   112,
+   126,
+   214,
+   216,
+   109,
+   128,
+   167,
+   93
+  ],
+  "warnings": []
+ }
+}

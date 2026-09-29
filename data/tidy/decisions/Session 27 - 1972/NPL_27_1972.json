@@ -1,0 +1,130 @@
+{
+ "id": "NPL_27_1972",
+ "drop": [
+  [
+   17,
+   17,
+   "noise"
+  ],
+  [
+   21,
+   21,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  14,
+  22,
+  26,
+  36,
+  43,
+  47,
+  51,
+  59,
+  62,
+  69,
+  76,
+  82,
+  85,
+  90,
+  93,
+  101,
+  105,
+  110,
+  115,
+  121
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "will* lead",
+   "will lead",
+   "ocr"
+  ],
+  [
+   47,
+   "Dis-armament",
+   "Disarmament",
+   "hyphen"
+  ],
+  [
+   69,
+   "now i developed",
+   "now developed",
+   "ocr"
+  ],
+  [
+   70,
+   "regime, I after",
+   "regime, after",
+   "ocr"
+  ],
+  [
+   87,
+   "ever- widening",
+   "ever-widening",
+   "spacing"
+  ],
+  [
+   113,
+   "o! ;_and-locked",
+   "of Land-locked",
+   "ocr"
+  ],
+  [
+   122,
+   " [Al8701/Add.l, p. 2]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d5811df9fd5903a7031d0b1fcf6e67683b7ad4a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {
+   "noise": 2
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 29
+  },
+  "words_in": 3220,
+  "words_out": 3203,
+  "retention": 0.9947,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   199,
+   202,
+   183,
+   90,
+   196,
+   160,
+   99,
+   90,
+   217,
+   74,
+   211,
+   178,
+   145,
+   103,
+   116,
+   112,
+   223,
+   74,
+   88,
+   116,
+   153,
+   174
+  ],
+  "warnings": []
+ }
+}

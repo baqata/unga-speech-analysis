@@ -1,0 +1,90 @@
+{
+ "id": "MLI_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  13,
+  16,
+  19,
+  22,
+  27,
+  34,
+  41,
+  42,
+  45,
+  48,
+  52,
+  58,
+  61,
+  65,
+  70,
+  73,
+  78
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   6,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   42,
+   "money- laundering",
+   "money-laundering",
+   "hyphen"
+  ],
+  [
+   78,
+   "theGovernment",
+   "the Government",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "03792e9bde5d49472ad5bb574931925f4a972770",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2239,
+  "words_out": 2238,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   123,
+   64,
+   49,
+   123,
+   64,
+   79,
+   114,
+   138,
+   216,
+   114,
+   69,
+   106,
+   84,
+   134,
+   131,
+   69,
+   142,
+   144,
+   70,
+   137,
+   68
+  ],
+  "warnings": []
+ }
+}

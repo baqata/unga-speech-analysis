@@ -1,0 +1,186 @@
+{
+ "id": "ARG_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   160,
+   160,
+   "noise"
+  ],
+  [
+   161,
+   161,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  13,
+  21,
+  31,
+  43,
+  49,
+  56,
+  68,
+  73,
+  78,
+  83,
+  88,
+  95,
+  101,
+  110,
+  120,
+  125,
+  132,
+  140,
+  146,
+  153,
+  156
+ ],
+ "cer": [
+  156
+ ],
+ "fix": [
+  [
+   71,
+   "Iranian Revolution Regard",
+   "Iranian Revolutionary Guard",
+   "asr_name"
+  ],
+  [
+   92,
+   "Burgess",
+   "Borges",
+   "asr_name"
+  ],
+  [
+   13,
+   "spirit i fully",
+   "spirit I fully",
+   "asr_term"
+  ],
+  [
+   15,
+   "a cast of",
+   "a caste of",
+   "interp"
+  ],
+  [
+   37,
+   "notes of protest",
+   "notes of discouragement",
+   "interp"
+  ],
+  [
+   80,
+   "unavoidable deaths",
+   "avoidable deaths",
+   "interp"
+  ],
+  [
+   92,
+   "employment rate",
+   "unemployment rate",
+   "interp"
+  ],
+  [
+   93,
+   "bringing an end to",
+   "expanding",
+   "interp"
+  ],
+  [
+   95,
+   "Where we may see",
+   "Where many see",
+   "interp"
+  ],
+  [
+   96,
+   "can double",
+   "can multiply",
+   "interp"
+  ],
+  [
+   107,
+   "side of the market",
+   "size of the market",
+   "interp"
+  ],
+  [
+   142,
+   "potential international power",
+   "potential into national power",
+   "interp"
+  ],
+  [
+   33,
+   "whatsoever. whatsoever.",
+   "whatsoever.",
+   "asr_term"
+  ],
+  [
+   55,
+   "mandate. we're",
+   "mandate. We're",
+   "asr_term"
+  ],
+  [
+   92,
+   "90%. that",
+   "90%. That",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Bilingual review (r02), speaker's words or evidence: unit 14 'a cast of' -> 'a caste of' (casta); unit 36 'notes of protest' -> 'notes of discouragement' (notas de desaliento); unit 79 'unavoidable deaths' -> 'avoidable deaths' (muertes evitables); unit 91 'employment rate' -> 'unemployment rate' (tasa de desempleo); unit 92 'bringing an end to' -> 'expanding' (terminó ampliando); unit 94 'Where we may see' -> 'Where many see' (donde muchos ven); unit 95 'can double' -> 'can multiply' (puede multiplicar); unit 106 'side of the market' -> 'size of the market' (tamaño del mercado); unit 141 'potential international power' -> 'potential into national power' (en poder nacional) (unit numbers before gap recovery). Gap recovery (v2) restored the opening Whisper had skipped behind a 'Thank you.' stretched over 00:22-00:40: the salutation and 'Today I address you for the third time as President of all Argentines' ('hoy me dirijo ante ustedes por tercera vez, como Presidente de todos los argentinos'); one unit mixing courtesy with content, so it opens the first paragraph unlabelled. The stretched 'Thank you.' is noise (no thanks in the Spanish). Gap recovery also added the closing 'Thank you.' (the Spanish has 'Gracias'); it stays in the closing courtesy paragraph. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 33 'whatsoever. whatsoever.' -> 'whatsoever.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 55 'mandate. we're' -> 'mandate. We're'; unit 92 '90%. that' -> '90%. That'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 18 unit 160 dropped (noise) ('damn it' / 'dammit' is style; unit 160 'Thank you.' is invented in the applause (first pass 1221.5-1222.4 s): fresh EN decodes from 1216, 1218 and 1219.5 s end on 'damn it.', and the speaker's Spanish ends on 'carajo' with no 'gracias')",
+ "unitizer_version": 1,
+ "sha1": "f90c422f2ab3d7e5b46f2d451e5cf03c8b19350a",
+ "layout": "single",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 2
+  },
+  "prestrip": {},
+  "words_in": 3078,
+  "words_out": 3023,
+  "retention": 0.9821,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   168,
+   199,
+   230,
+   181,
+   162,
+   106,
+   104,
+   118,
+   137,
+   198,
+   113,
+   205,
+   84,
+   188,
+   140,
+   137,
+   109,
+   109,
+   86,
+   163,
+   58,
+   28
+  ],
+  "warnings": []
+ }
+}

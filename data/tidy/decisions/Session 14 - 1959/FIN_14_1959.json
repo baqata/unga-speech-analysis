@@ -1,0 +1,84 @@
+{
+ "id": "FIN_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  20,
+  22,
+  25,
+  28,
+  37,
+  44
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   " (1,236 (XII) and 1301 (XIII))",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "can foe achieved",
+   "can be achieved",
+   "ocr"
+  ],
+  [
+   30,
+   "lived. for",
+   "lived for",
+   "ocr"
+  ],
+  [
+   30,
+   "improvement;.",
+   "improvement.",
+   "ocr"
+  ],
+  [
+   42,
+   "[A/4132/ Add.1, p, X.] ",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "[Ibid]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b6369af32dc8705d9af58bd44c8c71358fc1c5be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 12
+  },
+  "words_in": 1367,
+  "words_out": 1357,
+  "retention": 0.9927,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   160,
+   218,
+   139,
+   176,
+   75,
+   81,
+   153,
+   181,
+   158,
+   16
+  ],
+  "warnings": []
+ }
+}

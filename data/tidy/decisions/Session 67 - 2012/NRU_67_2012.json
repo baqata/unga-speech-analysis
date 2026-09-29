@@ -1,0 +1,82 @@
+{
+ "id": "NRU_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  22,
+  34,
+  51,
+  61,
+  78,
+  89,
+  105,
+  120,
+  143,
+  153,
+  163,
+  174,
+  185,
+  200,
+  210,
+  228
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   49,
+   "option.That",
+   "option. That",
+   "spacing"
+  ],
+  [
+   159,
+   "f low",
+   "flow",
+   "split_word"
+  ],
+  [
+   206,
+   "sustainabIe",
+   "sustainable",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d56c7f9bce80db301c2d4c9da2c1c516f5c5e395",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1954,
+  "words_out": 1954,
+  "retention": 1.0,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   55,
+   119,
+   106,
+   156,
+   83,
+   147,
+   96,
+   118,
+   121,
+   184,
+   72,
+   70,
+   97,
+   93,
+   134,
+   80,
+   148,
+   75
+  ],
+  "warnings": []
+ }
+}

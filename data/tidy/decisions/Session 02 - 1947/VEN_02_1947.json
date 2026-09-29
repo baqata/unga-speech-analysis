@@ -1,0 +1,56 @@
+{
+ "id": "VEN_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  13,
+  16,
+  23,
+  29,
+  34,
+  39,
+  41
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "non-self- governing",
+   "non-self-governing",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 25 begins mid-sentence ('Assembly and of the efforts...'); the preceding text is missing, so it stays in the paragraph starting at unit 23.",
+ "unitizer_version": 1,
+ "sha1": "11f55046de2c36bd13a6c887a6447d6f2d86ccee",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1835,
+  "words_out": 1834,
+  "retention": 0.9995,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   132,
+   170,
+   77,
+   198,
+   154,
+   230,
+   303,
+   134,
+   175,
+   114,
+   147
+  ],
+  "warnings": []
+ }
+}

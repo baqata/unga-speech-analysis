@@ -1,0 +1,208 @@
+{
+ "id": "GTM_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  9,
+  13,
+  16,
+  20,
+  30,
+  36,
+  45,
+  54,
+  60,
+  63,
+  68,
+  73,
+  78,
+  80,
+  85,
+  87,
+  91,
+  96,
+  98,
+  101,
+  106,
+  110,
+  114,
+  118,
+  127,
+  131,
+  138,
+  145,
+  150,
+  156,
+  162,
+  167,
+  173,
+  175,
+  179,
+  185,
+  189,
+  192,
+  196,
+  199
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "Organization Which",
+   "Organization which",
+   "ocr"
+  ],
+  [
+   27,
+   "troth South",
+   "both South",
+   "ocr"
+  ],
+  [
+   77,
+   "Viet-CongNational",
+   "Viet-Cong National",
+   "merged_word"
+  ],
+  [
+   77,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   95,
+   "Charter,",
+   "Charter.",
+   "ocr"
+  ],
+  [
+   97,
+   "since rest",
+   "sincerest",
+   "split_word"
+  ],
+  [
+   99,
+   "world, We hope",
+   "world. We hope",
+   "ocr"
+  ],
+  [
+   157,
+   "Council If,",
+   "Council if,",
+   "ocr"
+  ],
+  [
+   160,
+   "to It in",
+   "to it in",
+   "ocr"
+  ],
+  [
+   170,
+   "their Implementation",
+   "their implementation",
+   "ocr"
+  ],
+  [
+   172,
+   "regard Is",
+   "regard is",
+   "ocr"
+  ],
+  [
+   172,
+   "may be,",
+   "may be.",
+   "ocr"
+  ],
+  [
+   174,
+   "as a group,",
+   "as a group.",
+   "ocr"
+  ],
+  [
+   181,
+   "r wish",
+   "I wish",
+   "ocr"
+  ],
+  [
+   184,
+   "technical,",
+   "technical.",
+   "ocr"
+  ],
+  [
+   187,
+   "should he the",
+   "should be the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "13c45d91b6c1ff20c856f72498cd0feb18dc58f0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 201,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5670,
+  "words_out": 5617,
+  "retention": 0.9907,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   71,
+   108,
+   120,
+   72,
+   69,
+   145,
+   307,
+   163,
+   204,
+   243,
+   165,
+   69,
+   139,
+   112,
+   203,
+   88,
+   113,
+   77,
+   126,
+   79,
+   85,
+   117,
+   141,
+   136,
+   102,
+   135,
+   211,
+   102,
+   107,
+   300,
+   141,
+   172,
+   165,
+   140,
+   153,
+   79,
+   65,
+   166,
+   68,
+   79,
+   138,
+   82,
+   60
+  ],
+  "warnings": []
+ }
+}

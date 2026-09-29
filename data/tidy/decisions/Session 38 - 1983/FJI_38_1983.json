@@ -1,0 +1,96 @@
+{
+ "id": "FJI_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  18,
+  23,
+  26,
+  32,
+  36,
+  40,
+  45,
+  50,
+  55,
+  57,
+  61,
+  65,
+  69,
+  72,
+  76,
+  79,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "A11 these",
+   "All these",
+   "ocr"
+  ],
+  [
+   6,
+   "efforts with be made",
+   "efforts will be made",
+   "ocr"
+  ],
+  [
+   22,
+   "peace by attained",
+   "peace be attained",
+   "ocr"
+  ],
+  [
+   34,
+   "Lom6",
+   "Lomé",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ef8844fe866540b1907ceba624ea681f806f2204",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2334,
+  "words_out": 2334,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   103,
+   135,
+   111,
+   115,
+   79,
+   88,
+   125,
+   108,
+   99,
+   135,
+   122,
+   122,
+   68,
+   87,
+   91,
+   122,
+   113,
+   98,
+   134,
+   94,
+   185
+  ],
+  "warnings": []
+ }
+}

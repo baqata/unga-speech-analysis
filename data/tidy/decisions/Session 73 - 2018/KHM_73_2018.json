@@ -1,0 +1,74 @@
+{
+ "id": "KHM_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  14,
+  18,
+  23,
+  25,
+  29,
+  33,
+  38,
+  43,
+  52,
+  56,
+  59
+ ],
+ "cer": [],
+ "fix": [
+  [
+   27,
+   "to- State",
+   "to-State",
+   "hyphen"
+  ],
+  [
+   42,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   58,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "364e02369bf1588c7e62e96f341cc24867dee14b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 61,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1394,
+  "words_out": 1391,
+  "retention": 0.9978,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   64,
+   101,
+   131,
+   91,
+   126,
+   124,
+   59,
+   82,
+   106,
+   81,
+   95,
+   153,
+   66,
+   75,
+   37
+  ],
+  "warnings": []
+ }
+}

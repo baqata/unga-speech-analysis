@@ -1,0 +1,90 @@
+{
+ "id": "NER_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  31,
+  43,
+  61,
+  71,
+  84,
+  101,
+  111,
+  129,
+  144,
+  163,
+  185,
+  200,
+  214,
+  227,
+  240,
+  257,
+  278,
+  289,
+  311,
+  320
+ ],
+ "cer": [],
+ "fix": [
+  [
+   3,
+   "(The Holy Bible, Isaiah 2:4)",
+   "",
+   "label"
+  ],
+  [
+   212,
+   "(The Holy",
+   "",
+   "label"
+  ],
+  [
+   213,
+   "Koran, CIX: 2-6)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0f10121292616d67897b8df8ebeec3466145cbce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 330,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 4
+  },
+  "words_in": 2739,
+  "words_out": 2724,
+  "retention": 0.9945,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   126,
+   127,
+   112,
+   155,
+   103,
+   90,
+   144,
+   83,
+   151,
+   115,
+   158,
+   193,
+   112,
+   113,
+   112,
+   105,
+   136,
+   167,
+   88,
+   180,
+   74,
+   80
+  ],
+  "warnings": []
+ }
+}

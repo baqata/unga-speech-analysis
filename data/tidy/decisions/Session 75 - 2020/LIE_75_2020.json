@@ -1,0 +1,65 @@
+{
+ "id": "LIE_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  14,
+  19,
+  27,
+  33,
+  39,
+  46,
+  52,
+  62,
+  73,
+  82,
+  90,
+  97
+ ],
+ "cer": [
+  0,
+  97
+ ],
+ "fix": [
+  [
+   4,
+   "cosponsors.The",
+   "cosponsors. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e3f97eefe75d7de8866476e33c5fc772cba7418",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2058,
+  "words_out": 2059,
+  "retention": 1.0005,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   2,
+   141,
+   119,
+   127,
+   168,
+   169,
+   147,
+   141,
+   146,
+   208,
+   204,
+   175,
+   135,
+   175,
+   2
+  ],
+  "warnings": []
+ }
+}

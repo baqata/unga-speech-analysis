@@ -1,0 +1,52 @@
+{
+ "id": "GAB_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  39,
+  57,
+  73,
+  85,
+  94,
+  107
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "ad the",
+   "and the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd2c081133fdcb1de39a08d38fdd224d3cb95fdf",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 891,
+  "words_out": 889,
+  "retention": 0.9978,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   137,
+   165,
+   142,
+   126,
+   84,
+   77,
+   102,
+   56
+  ],
+  "warnings": []
+ }
+}

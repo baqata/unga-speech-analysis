@@ -1,0 +1,121 @@
+{
+ "id": "GRC_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  13,
+  16,
+  19,
+  23,
+  28,
+  33,
+  35,
+  36,
+  39,
+  42,
+  48,
+  52,
+  54,
+  57,
+  60,
+  66,
+  68,
+  72,
+  77,
+  82,
+  86,
+  89,
+  92
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   22,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   30,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "colleagues Who",
+   "colleagues who",
+   "ocr"
+  ],
+  [
+   48,
+   "world,,",
+   "world,",
+   "ocr"
+  ],
+  [
+   81,
+   "people 1 have",
+   "people I have",
+   "ocr"
+  ],
+  [
+   89,
+   "that We have",
+   "that we have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cc38232beabfc4d5ed63b9e698abdd46f410d11f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 3242,
+  "words_out": 3240,
+  "retention": 0.9994,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   100,
+   172,
+   101,
+   150,
+   112,
+   85,
+   127,
+   162,
+   95,
+   53,
+   72,
+   125,
+   99,
+   178,
+   132,
+   68,
+   141,
+   137,
+   161,
+   83,
+   181,
+   194,
+   158,
+   65,
+   116,
+   86,
+   87
+  ],
+  "warnings": []
+ }
+}

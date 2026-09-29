@@ -1,0 +1,95 @@
+{
+ "id": "LAO_15_1960",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  13,
+  17,
+  23,
+  26,
+  32,
+  40,
+  44,
+  51,
+  59,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "from International",
+   "from international",
+   "ocr"
+  ],
+  [
+   9,
+   "and Under-armed",
+   "and under-armed",
+   "ocr"
+  ],
+  [
+   51,
+   "ideals, ft would",
+   "ideals. It would",
+   "ocr"
+  ],
+  [
+   52,
+   "more than apolitical",
+   "more than a political",
+   "ocr"
+  ],
+  [
+   57,
+   "great Powders",
+   "great Powers",
+   "ocr"
+  ],
+  [
+   70,
+   "same words, have",
+   "same words have",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "847612277c1878be06a07df830ac1da01f343015",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 14
+  },
+  "words_in": 2150,
+  "words_out": 2151,
+  "retention": 1.0005,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   163,
+   105,
+   123,
+   96,
+   136,
+   155,
+   99,
+   174,
+   215,
+   137,
+   225,
+   179,
+   153,
+   191
+  ],
+  "warnings": []
+ }
+}

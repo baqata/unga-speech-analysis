@@ -1,0 +1,128 @@
+{
+ "id": "NOR_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  16,
+  23,
+  27,
+  30,
+  37,
+  42,
+  46,
+  53,
+  58,
+  63,
+  66,
+  69,
+  71,
+  75,
+  82,
+  89,
+  92,
+  97,
+  101
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   8,
+   "North- South",
+   "North-South",
+   "spacing"
+  ],
+  [
+   18,
+   "32/174, We",
+   "32/174. We",
+   "ocr"
+  ],
+  [
+   24,
+   "text11",
+   "text",
+   "ocr"
+  ],
+  [
+   37,
+   "troop- contributing",
+   "troop-contributing",
+   "spacing"
+  ],
+  [
+   39,
+   "troop- contributing",
+   "troop-contributing",
+   "spacing"
+  ],
+  [
+   65,
+   "sub- theme",
+   "sub-theme",
+   "spacing"
+  ],
+  [
+   74,
+   "procurements,",
+   "procurements.",
+   "ocr"
+  ],
+  [
+   82,
+   "question, Is",
+   "question. Is",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a383ce26c616a290ed8cc33dccda880288da02be",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 2599,
+  "words_out": 2593,
+  "retention": 0.9977,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   103,
+   164,
+   146,
+   158,
+   127,
+   93,
+   164,
+   136,
+   78,
+   135,
+   157,
+   127,
+   72,
+   89,
+   73,
+   91,
+   140,
+   144,
+   125,
+   152,
+   90,
+   29
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "YEM_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  4,
+  5,
+  8,
+  15,
+  18,
+  22,
+  26,
+  29,
+  31,
+  34,
+  37,
+  41,
+  45,
+  48,
+  51,
+  55,
+  56,
+  58,
+  60,
+  64,
+  69,
+  75,
+  77,
+  79,
+  81
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  4,
+  5,
+  15
+ ],
+ "fix": [
+  [
+   4,
+   "deserve.,",
+   "deserves",
+   "ocr"
+  ],
+  [
+   12,
+   "immediate, end",
+   "immediate end",
+   "ocr"
+  ],
+  [
+   14,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   20,
+   "She world",
+   "the world",
+   "ocr"
+  ],
+  [
+   55,
+   "Al-Hamtli. confirmed",
+   "Al-Hamtli, confirmed",
+   "ocr"
+  ],
+  [
+   58,
+   "con form",
+   "conform",
+   "split_word"
+  ],
+  [
+   58,
+   "Into",
+   "into",
+   "ocr"
+  ],
+  [
+   59,
+   "Interests",
+   "interests",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Real-word misreadings left as printed: unit 34 'agar', unit 49 'anus race' (unit 49 also lacks a verb: 'We that'), unit 57 'oil the Law' and 'tinder', unit 68 'mil', unit 72 'live-year', unit 75 'shake of', unit 76 'lack', unit 80 'aid'.",
+ "unitizer_version": 1,
+ "sha1": "88d5f186d14bac5e12ca23f4efdfd970cc2d2abb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 84,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3125,
+  "words_out": 3123,
+  "retention": 0.9994,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   83,
+   65,
+   73,
+   38,
+   102,
+   229,
+   133,
+   127,
+   130,
+   98,
+   83,
+   136,
+   84,
+   176,
+   97,
+   154,
+   148,
+   160,
+   104,
+   65,
+   70,
+   171,
+   123,
+   130,
+   92,
+   79,
+   76,
+   97
+  ],
+  "warnings": []
+ }
+}

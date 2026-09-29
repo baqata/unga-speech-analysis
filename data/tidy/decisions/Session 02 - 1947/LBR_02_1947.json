@@ -1,0 +1,56 @@
+{
+ "id": "LBR_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  13,
+  15,
+  17,
+  19
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Liberia,",
+   "Liberia.",
+   "ocr"
+  ],
+  [
+   11,
+   "the-world",
+   "the world",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "09bb68f333e18158d0282e13dcb81998345ed905",
+ "layout": "lines",
+ "stats": {
+  "n_units": 21,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 821,
+  "words_out": 822,
+  "retention": 1.0012,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   43,
+   169,
+   138,
+   135,
+   70,
+   87,
+   71,
+   109
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "CMR_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  18,
+  21,
+  25,
+  34,
+  40,
+  47,
+  56,
+  62
+ ],
+ "cer": [
+  0,
+  62
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9233b8a336072e5956b48d83cf73b0c1509131ca",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1274,
+  "words_out": 1274,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   121,
+   133,
+   67,
+   107,
+   67,
+   162,
+   90,
+   130,
+   227,
+   164,
+   6
+  ],
+  "warnings": []
+ }
+}

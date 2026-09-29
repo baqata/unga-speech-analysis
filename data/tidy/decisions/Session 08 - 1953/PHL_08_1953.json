@@ -1,0 +1,76 @@
+{
+ "id": "PHL_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  22,
+  28,
+  32,
+  37,
+  40,
+  47,
+  52,
+  56,
+  59,
+  65,
+  72,
+  76,
+  81
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "fight",
+   "light",
+   "ocr"
+  ],
+  [
+   31,
+   "fights",
+   "rights",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b6a2744449f5eca1dcd60a6303d53b9ca36eef0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2009,
+  "words_out": 2009,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   71,
+   120,
+   136,
+   188,
+   155,
+   100,
+   110,
+   124,
+   115,
+   129,
+   113,
+   80,
+   137,
+   124,
+   67,
+   131,
+   109
+  ],
+  "warnings": []
+ }
+}

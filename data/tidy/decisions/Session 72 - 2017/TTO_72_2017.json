@@ -1,0 +1,89 @@
+{
+ "id": "TTO_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  15,
+  18,
+  23,
+  26,
+  30,
+  33,
+  36,
+  39,
+  41,
+  45,
+  48,
+  53,
+  57,
+  60,
+  62,
+  64,
+  68
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   5,
+   "seventy- first",
+   "seventy-first",
+   "hyphen"
+  ],
+  [
+   25,
+   "public- transportation",
+   "public-transportation",
+   "hyphen"
+  ],
+  [
+   32,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a1015da82aed186b34b32df40d868751f13e2c76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2116,
+  "words_out": 2113,
+  "retention": 0.9986,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   125,
+   67,
+   84,
+   103,
+   73,
+   165,
+   86,
+   88,
+   103,
+   99,
+   115,
+   69,
+   87,
+   81,
+   100,
+   112,
+   92,
+   74,
+   76,
+   198,
+   116
+  ],
+  "warnings": []
+ }
+}

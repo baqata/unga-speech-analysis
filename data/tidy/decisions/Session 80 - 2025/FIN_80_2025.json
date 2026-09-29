@@ -1,0 +1,86 @@
+{
+ "id": "FIN_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  13,
+  21,
+  27,
+  39,
+  45,
+  58,
+  63,
+  71,
+  81,
+  87,
+  97,
+  104,
+  111,
+  117,
+  125,
+  130,
+  139,
+  145,
+  150,
+  155
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   140,
+   "UNAT initiative",
+   "UN80 initiative",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7c44dcebbbd66eca0a8808974703f8ac4317b041",
+ "layout": "single",
+ "stats": {
+  "n_units": 161,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2423,
+  "words_out": 2392,
+  "retention": 0.9872,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   6,
+   118,
+   161,
+   113,
+   156,
+   99,
+   169,
+   91,
+   143,
+   106,
+   106,
+   181,
+   80,
+   109,
+   102,
+   85,
+   59,
+   157,
+   95,
+   85,
+   82,
+   89
+  ],
+  "warnings": []
+ }
+}

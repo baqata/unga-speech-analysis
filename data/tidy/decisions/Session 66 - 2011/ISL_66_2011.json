@@ -1,0 +1,59 @@
+{
+ "id": "ISL_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  18,
+  26,
+  38,
+  49,
+  62,
+  76,
+  87,
+  102,
+  116,
+  132,
+  142,
+  151,
+  163
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c55f83ab322aade4258f47208f0cbe7c27b3f77a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1478,
+  "words_out": 1477,
+  "retention": 0.9993,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   38,
+   102,
+   68,
+   115,
+   100,
+   106,
+   126,
+   106,
+   119,
+   117,
+   143,
+   80,
+   91,
+   102,
+   64
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "OMN_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  16,
+  22,
+  26,
+  29,
+  32
+ ],
+ "cer": [
+  0,
+  32
+ ],
+ "fix": [
+  [
+   0,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   9,
+   "God. we",
+   "God, we",
+   "ocr"
+  ],
+  [
+   11,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ],
+  [
+   14,
+   "Russian- Ukrainian",
+   "Russian-Ukrainian",
+   "hyphen"
+  ],
+  [
+   15,
+   "one. as",
+   "one, as",
+   "ocr"
+  ],
+  [
+   15,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ],
+  [
+   31,
+   "law. without",
+   "law, without",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8445e29f8752e9fa7d88574cdff0eaa535d33e47",
+ "layout": "lines",
+ "stats": {
+  "n_units": 33,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1056,
+  "words_out": 1053,
+  "retention": 0.9972,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   144,
+   140,
+   199,
+   92,
+   126,
+   145,
+   108,
+   84,
+   15
+  ],
+  "warnings": []
+ }
+}

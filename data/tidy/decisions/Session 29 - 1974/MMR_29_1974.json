@@ -1,0 +1,108 @@
+{
+ "id": "MMR_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  19,
+  22,
+  26,
+  28,
+  31,
+  33,
+  38,
+  43,
+  45,
+  48,
+  52,
+  54,
+  57,
+  62,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "mo.e",
+   "more",
+   "ocr"
+  ],
+  [
+   44,
+   "Twenty),1",
+   "Twenty),",
+   "ocr"
+  ],
+  [
+   45,
+   "meeting .of",
+   "meeting of",
+   "ocr"
+  ],
+  [
+   61,
+   " [resolution 3201 (SVI)]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   " [resolution 3202 (SVI)]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   "the*",
+   "the",
+   "ocr"
+  ],
+  [
+   66,
+   "weak .developing",
+   "weak developing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d658625eaa645a558dba6b6221b0e7254d1a4721",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 2051,
+  "words_out": 2045,
+  "retention": 0.9971,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   168,
+   191,
+   151,
+   86,
+   78,
+   86,
+   96,
+   71,
+   122,
+   111,
+   88,
+   124,
+   142,
+   72,
+   82,
+   154,
+   98,
+   125
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "id": "LUX_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  20,
+  27,
+  32,
+  38,
+  44,
+  48,
+  55,
+  65,
+  71,
+  76,
+  80,
+  86,
+  89,
+  93,
+  99,
+  106,
+  117,
+  120,
+  124,
+  128,
+  134,
+  138,
+  142,
+  145,
+  147,
+  150
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   22,
+   "Viet—Nam",
+   "Viet-Nam",
+   "ocr"
+  ],
+  [
+   45,
+   "détente, We remain",
+   "détente. We remain",
+   "ocr"
+  ],
+  [
+   87,
+   "we ate so proud",
+   "we are so proud",
+   "ocr"
+  ],
+  [
+   140,
+   "law or relativity",
+   "law of relativity",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ed93771a1a2da8ef19c012c8cc3d1410d9168ef1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3667,
+  "words_out": 3618,
+  "retention": 0.9866,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   131,
+   79,
+   218,
+   135,
+   104,
+   133,
+   147,
+   100,
+   138,
+   206,
+   131,
+   98,
+   97,
+   135,
+   75,
+   86,
+   166,
+   149,
+   146,
+   110,
+   71,
+   168,
+   144,
+   148,
+   133,
+   88,
+   123,
+   109,
+   50
+  ],
+  "warnings": []
+ }
+}

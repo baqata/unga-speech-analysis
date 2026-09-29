@@ -1,0 +1,251 @@
+{
+ "id": "GIN_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  13,
+  20,
+  25,
+  29,
+  31,
+  33,
+  35,
+  37,
+  40,
+  42,
+  44,
+  50,
+  54,
+  56,
+  59,
+  61,
+  63,
+  66,
+  67,
+  70,
+  73,
+  75,
+  77,
+  80,
+  83,
+  89,
+  92,
+  96,
+  100,
+  104,
+  107,
+  108,
+  113,
+  116,
+  121,
+  126
+ ],
+ "cer": [
+  20,
+  25
+ ],
+ "fix": [
+  [
+   5,
+   "weSnention",
+   "we mention",
+   "ocr"
+  ],
+  [
+   22,
+   "twenty- eighth",
+   "twenty-eighth",
+   "spacing"
+  ],
+  [
+   23,
+   "Mr, Kurt",
+   "Mr. Kurt",
+   "ocr"
+  ],
+  [
+   29,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   31,
+   " [PAIGC]",
+   "",
+   "label"
+  ],
+  [
+   31,
+   "inde-pendence",
+   "independence",
+   "hyphen"
+  ],
+  [
+   42,
+   " [FRELIMO]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "fully.",
+   "fully",
+   "ocr"
+  ],
+  [
+   48,
+   "Satisfied",
+   "satisfied",
+   "ocr"
+  ],
+  [
+   48,
+   "as least",
+   "at least",
+   "ocr"
+  ],
+  [
+   55,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   60,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "a, situation",
+   "a situation",
+   "ocr"
+  ],
+  [
+   61,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   62,
+   " [MPLA ]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "\" e spirit",
+   "the spirit",
+   "ocr"
+  ],
+  [
+   62,
+   " [NATO]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "wishes-",
+   "wishes",
+   "ocr"
+  ],
+  [
+   66,
+   "|4 this",
+   "In this",
+   "ocr"
+  ],
+  [
+   71,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   76,
+   "security ,",
+   "security,",
+   "spacing"
+  ],
+  [
+   104,
+   "consequences, In",
+   "consequences. In",
+   "ocr"
+  ],
+  [
+   110,
+   "need it not",
+   "need is not",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ba044c4eea7396aaf10d2c192107213767d3f6d4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 56
+  },
+  "words_in": 4854,
+  "words_out": 4840,
+  "retention": 0.9971,
+  "n_paragraphs": 40,
+  "paragraph_words": [
+   113,
+   93,
+   102,
+   103,
+   193,
+   175,
+   75,
+   115,
+   91,
+   120,
+   65,
+   139,
+   117,
+   136,
+   141,
+   110,
+   87,
+   159,
+   105,
+   107,
+   160,
+   150,
+   90,
+   134,
+   157,
+   109,
+   100,
+   74,
+   199,
+   136,
+   169,
+   111,
+   121,
+   144,
+   58,
+   102,
+   74,
+   128,
+   118,
+   160
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

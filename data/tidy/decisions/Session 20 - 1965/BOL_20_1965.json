@@ -1,0 +1,113 @@
+{
+ "id": "BOL_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  14,
+  18,
+  22,
+  27,
+  31,
+  33,
+  36,
+  38,
+  42,
+  46,
+  50,
+  52,
+  59,
+  63,
+  68,
+  72,
+  76,
+  79,
+  84,
+  87,
+  89,
+  93,
+  104
+ ],
+ "cer": [
+  0,
+  9,
+  14,
+  31
+ ],
+ "fix": [
+  [
+   21,
+   "sought, to discharge",
+   "sought to discharge",
+   "ocr"
+  ],
+  [
+   43,
+   "planned, 'world-wide",
+   "planned, world-wide",
+   "ocr"
+  ],
+  [
+   53,
+   "under-developed, region",
+   "under-developed region",
+   "ocr"
+  ],
+  [
+   53,
+   "hospitals and. schools",
+   "hospitals and schools",
+   "ocr"
+  ],
+  [
+   63,
+   "Africa snail no",
+   "Africa shall no",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "27cbd9d7658190a00ea51390caf7a08a950d646e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3493,
+  "words_out": 3469,
+  "retention": 0.9931,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   188,
+   146,
+   109,
+   89,
+   175,
+   141,
+   55,
+   101,
+   119,
+   152,
+   156,
+   230,
+   91,
+   265,
+   130,
+   252,
+   159,
+   124,
+   122,
+   141,
+   83,
+   132,
+   86,
+   117,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": "MLT_26_1971",
+ "drop": [
+  [
+   13,
+   13,
+   "presider"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  14,
+  18,
+  22,
+  28,
+  36,
+  39,
+  43,
+  47,
+  52,
+  55,
+  58,
+  62,
+  67,
+  70,
+  73,
+  77,
+  81,
+  88,
+  91,
+  95,
+  98
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   3,
+   "OUL1",
+   "our",
+   "ocr"
+  ],
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   8,
+   " [resolution 2626 (XXV)J",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "to , redouble",
+   "to redouble",
+   "ocr"
+  ],
+  [
+   14,
+   " [UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   27,
+   "that'",
+   "that",
+   "ocr"
+  ],
+  [
+   29,
+   "Tarring",
+   "Jarring",
+   "ocr"
+  ],
+  [
+   41,
+   "privileged- minority",
+   "privileged minority",
+   "ocr"
+  ],
+  [
+   49,
+   "indefinitely, These",
+   "indefinitely. These",
+   "ocr"
+  ],
+  [
+   60,
+   "''non-armament",
+   "\"non-armament",
+   "ocr"
+  ],
+  [
+   61,
+   "they .were",
+   "they were",
+   "ocr"
+  ],
+  [
+   61,
+   "draft, convention",
+   "draft convention",
+   "ocr"
+  ],
+  [
+   73,
+   "terms-of",
+   "terms of",
+   "ocr"
+  ],
+  [
+   75,
+   " [see A18421, p. 105]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   " [ resolution 2734 (XXV)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e8c79c6760e25147951a1293ddc3dfec86db319e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 3114,
+  "words_out": 3089,
+  "retention": 0.992,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   128,
+   106,
+   145,
+   102,
+   169,
+   110,
+   214,
+   188,
+   82,
+   107,
+   97,
+   116,
+   64,
+   80,
+   126,
+   118,
+   75,
+   104,
+   166,
+   121,
+   142,
+   153,
+   149,
+   81,
+   146
+  ],
+  "warnings": [
+   "presider drop [13,13] in the middle of the speech"
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "TGO_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  30,
+  40,
+  54,
+  73,
+  93,
+  116,
+  143,
+  162,
+  180,
+  204,
+  219
+ ],
+ "cer": [
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d7bcfbcc28e89d396113399ad5375738d61f1e67",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 234,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1885,
+  "words_out": 1884,
+  "retention": 0.9995,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   89,
+   143,
+   84,
+   113,
+   156,
+   165,
+   189,
+   210,
+   161,
+   144,
+   195,
+   115,
+   120
+  ],
+  "warnings": []
+ }
+}

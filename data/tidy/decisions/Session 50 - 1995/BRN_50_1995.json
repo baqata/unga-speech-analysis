@@ -1,0 +1,71 @@
+{
+ "id": "BRN_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  33,
+  51,
+  64,
+  80,
+  96,
+  111,
+  119,
+  139,
+  153
+ ],
+ "cer": [
+  0,
+  25
+ ],
+ "fix": [
+  [
+   42,
+   "(Official Records of the General",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "Assembly, First Session, Plenary Meetings, 34th",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "meeting, p. 682)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "384fb63f576e5a019e0ca7d3bdc354afbb301b58",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 162,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1452,
+  "words_out": 1437,
+  "retention": 0.9897,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   213,
+   72,
+   141,
+   124,
+   141,
+   149,
+   132,
+   71,
+   185,
+   127,
+   82
+  ],
+  "warnings": []
+ }
+}

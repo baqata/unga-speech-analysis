@@ -1,0 +1,52 @@
+{
+ "id": "EU_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  14,
+  20,
+  25,
+  29,
+  37,
+  40,
+  44,
+  51
+ ],
+ "cer": [],
+ "fix": [
+  [
+   0,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2abb491781e3b66946e9a65c6e97fac58e084faf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 52,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1150,
+  "words_out": 1147,
+  "retention": 0.9974,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   184,
+   136,
+   119,
+   120,
+   89,
+   152,
+   93,
+   62,
+   150,
+   42
+  ],
+  "warnings": []
+ }
+}

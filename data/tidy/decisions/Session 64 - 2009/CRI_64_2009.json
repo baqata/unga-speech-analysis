@@ -1,0 +1,59 @@
+{
+ "id": "CRI_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  42,
+  61,
+  74,
+  90,
+  113,
+  140,
+  155,
+  177,
+  195,
+  207,
+  220,
+  239,
+  254
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8ff02cc0389e7f779849d3b3408582ad24351b63",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 276,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2319,
+  "words_out": 2317,
+  "retention": 0.9991,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   138,
+   230,
+   166,
+   115,
+   132,
+   185,
+   224,
+   134,
+   202,
+   138,
+   109,
+   95,
+   156,
+   112,
+   181
+  ],
+  "warnings": []
+ }
+}

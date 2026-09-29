@@ -1,0 +1,106 @@
+{
+ "id": "COM_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  13,
+  18,
+  21,
+  23,
+  29,
+  33,
+  37,
+  40,
+  42,
+  46,
+  49,
+  54,
+  59,
+  64,
+  69,
+  74,
+  78
+ ],
+ "cer": [
+  0,
+  2,
+  8
+ ],
+ "fix": [
+  [
+   16,
+   "as shows by",
+   "as shown by",
+   "ocr"
+  ],
+  [
+   41,
+   "in 1936",
+   "in 1986",
+   "ocr"
+  ],
+  [
+   48,
+   "He also",
+   "We also",
+   "ocr"
+  ],
+  [
+   74,
+   "wry statement",
+   "my statement",
+   "ocr"
+  ],
+  [
+   74,
+   "without, referring.",
+   "without referring,",
+   "ocr"
+  ],
+  [
+   75,
+   "If only",
+   "if only",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "161e83c578762ad9dd10a2f24a65e46065c0a438",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2452,
+  "words_out": 2452,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   87,
+   166,
+   152,
+   145,
+   111,
+   81,
+   146,
+   124,
+   99,
+   118,
+   85,
+   150,
+   90,
+   166,
+   121,
+   101,
+   143,
+   155,
+   110,
+   102
+  ],
+  "warnings": []
+ }
+}

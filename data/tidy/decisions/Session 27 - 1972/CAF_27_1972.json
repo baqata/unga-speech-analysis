@@ -1,0 +1,91 @@
+{
+ "id": "CAF_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  5,
+  6,
+  8,
+  11,
+  18,
+  24,
+  29,
+  33,
+  38,
+  43,
+  49,
+  55,
+  59,
+  64,
+  68,
+  72
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  5,
+  6
+ ],
+ "fix": [
+  [
+   20,
+   "whir!",
+   "which",
+   "ocr"
+  ],
+  [
+   62,
+   "a .full-fledged",
+   "a full-fledged",
+   "ocr"
+  ],
+  [
+   65,
+   "therefore hops",
+   "therefore hope",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "261c779e3fc1d11415b3b8101bb2815fcc62671e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 42
+  },
+  "words_in": 2646,
+  "words_out": 2644,
+  "retention": 0.9992,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   64,
+   64,
+   49,
+   74,
+   63,
+   178,
+   164,
+   186,
+   174,
+   143,
+   218,
+   100,
+   144,
+   174,
+   142,
+   227,
+   145,
+   185,
+   150
+  ],
+  "warnings": []
+ }
+}

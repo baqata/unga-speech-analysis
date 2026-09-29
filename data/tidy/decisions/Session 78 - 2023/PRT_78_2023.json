@@ -1,0 +1,132 @@
+{
+ "id": "PRT_78_2023",
+ "drop": [
+  [
+   5,
+   5,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  6,
+  13,
+  17,
+  23,
+  26,
+  34,
+  38,
+  40,
+  43,
+  49
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "Korosi. whose",
+   "Korosi, whose",
+   "ocr"
+  ],
+  [
+   1,
+   "Guterres.",
+   "Guterres,",
+   "ocr"
+  ],
+  [
+   4,
+   "2025. which",
+   "2025, which",
+   "ocr"
+  ],
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   7,
+   "who. despite",
+   "who, despite",
+   "ocr"
+  ],
+  [
+   22,
+   "it. and",
+   "it, and",
+   "ocr"
+  ],
+  [
+   27,
+   "Goals. thereby",
+   "Goals, thereby",
+   "ocr"
+  ],
+  [
+   44,
+   "law. on",
+   "law, on",
+   "ocr"
+  ],
+  [
+   47,
+   "it. multilateralism",
+   "it, multilateralism",
+   "ocr"
+  ],
+  [
+   50,
+   "now. it",
+   "now, it",
+   "ocr"
+  ],
+  [
+   50,
+   "war. and not",
+   "war, and not",
+   "ocr"
+  ],
+  [
+   50,
+   "for. or a reduction in. such",
+   "for, or a reduction in, such",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "397e0d649be1f0491f49efb73aa2d5016bee3d76",
+ "layout": "lines",
+ "stats": {
+  "n_units": 54,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {},
+  "words_in": 1149,
+  "words_out": 1140,
+  "retention": 0.9922,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   39,
+   129,
+   150,
+   75,
+   89,
+   77,
+   121,
+   72,
+   106,
+   76,
+   76,
+   130
+  ],
+  "warnings": []
+ }
+}

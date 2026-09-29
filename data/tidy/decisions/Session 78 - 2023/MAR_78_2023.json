@@ -1,0 +1,208 @@
+{
+ "id": "MAR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  13,
+  23,
+  27,
+  30,
+  32,
+  39,
+  45,
+  49,
+  55,
+  61,
+  65,
+  68,
+  75,
+  80,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Sir. on",
+   "Sir, on",
+   "ocr"
+  ],
+  [
+   3,
+   "Korosi. during",
+   "Korosi, during",
+   "ocr"
+  ],
+  [
+   4,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   5,
+   "In that context.",
+   "In that context,",
+   "ocr"
+  ],
+  [
+   8,
+   "3.000",
+   "3,000",
+   "ocr"
+  ],
+  [
+   8,
+   "5.700",
+   "5,700",
+   "ocr"
+  ],
+  [
+   15,
+   "well- studied",
+   "well-studied",
+   "hyphen"
+  ],
+  [
+   15,
+   "studied. integrated",
+   "studied, integrated",
+   "ocr"
+  ],
+  [
+   29,
+   "VI. to launch structural workshops. foremost",
+   "VI, to launch structural workshops, foremost",
+   "ocr"
+  ],
+  [
+   35,
+   "2022. when",
+   "2022, when",
+   "ocr"
+  ],
+  [
+   42,
+   "77/318. on",
+   "77/318, on",
+   "ocr"
+  ],
+  [
+   51,
+   "Mistura. to",
+   "Mistura, to",
+   "ocr"
+  ],
+  [
+   55,
+   "Dakhla. thus",
+   "Dakhla, thus",
+   "ocr"
+  ],
+  [
+   58,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   59,
+   "Mistura. personally",
+   "Mistura, personally",
+   "ocr"
+  ],
+  [
+   59,
+   "Dakhla. in",
+   "Dakhla, in",
+   "ocr"
+  ],
+  [
+   60,
+   "VI. as",
+   "VI, as",
+   "ocr"
+  ],
+  [
+   60,
+   "2022. when",
+   "2022, when",
+   "ocr"
+  ],
+  [
+   62,
+   "host country.",
+   "host country,",
+   "ocr"
+  ],
+  [
+   68,
+   "Mohammed’s directives.",
+   "Mohammed’s directives,",
+   "ocr"
+  ],
+  [
+   71,
+   "In that context.",
+   "In that context,",
+   "ocr"
+  ],
+  [
+   73,
+   "laws.",
+   "laws,",
+   "ocr"
+  ],
+  [
+   77,
+   "In that regard.",
+   "In that regard,",
+   "ocr"
+  ],
+  [
+   82,
+   "In conclusion.",
+   "In conclusion,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9640f30cc5f779ddc8a2f03fff246fcf44c0a586",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2261,
+  "words_out": 2255,
+  "retention": 0.9973,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   113,
+   183,
+   233,
+   142,
+   127,
+   61,
+   135,
+   129,
+   88,
+   130,
+   192,
+   139,
+   72,
+   164,
+   142,
+   87,
+   118
+  ],
+  "warnings": [
+   "24 fixes"
+  ]
+ }
+}

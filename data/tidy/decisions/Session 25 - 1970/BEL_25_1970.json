@@ -1,0 +1,133 @@
+{
+ "id": "BEL_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  15,
+  19,
+  24,
+  32,
+  40,
+  45,
+  48,
+  52,
+  56,
+  60,
+  62,
+  66,
+  69,
+  72,
+  76,
+  78,
+  84,
+  89,
+  94,
+  99,
+  104,
+  109,
+  114,
+  116,
+  118,
+  123,
+  127,
+  129,
+  133,
+  136,
+  138,
+  141,
+  146
+ ],
+ "cer": [
+  141,
+  146
+ ],
+ "fix": [
+  [
+   6,
+   "quarter- century",
+   "quarter-century",
+   "hyphen"
+  ],
+  [
+   9,
+   "may others",
+   "many others",
+   "ocr"
+  ],
+  [
+   9,
+   "\"of the Charter",
+   "of the Charter",
+   "ocr"
+  ],
+  [
+   123,
+   "co-operation, The",
+   "co-operation. The",
+   "ocr"
+  ],
+  [
+   128,
+   "market- economy",
+   "market-economy",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "90fc583a91866eb5a505bdc0e69e6aa20bbd377e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 148,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 4230,
+  "words_out": 4226,
+  "retention": 0.9991,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   144,
+   190,
+   65,
+   121,
+   136,
+   135,
+   133,
+   123,
+   83,
+   133,
+   121,
+   146,
+   78,
+   124,
+   136,
+   113,
+   143,
+   109,
+   124,
+   72,
+   151,
+   128,
+   131,
+   128,
+   162,
+   64,
+   92,
+   158,
+   112,
+   73,
+   95,
+   129,
+   89,
+   114,
+   118,
+   53
+  ],
+  "warnings": []
+ }
+}

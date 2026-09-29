@@ -1,0 +1,80 @@
+{
+ "id": "LUX_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  12,
+  15,
+  21,
+  26,
+  30,
+  42,
+  50,
+  54,
+  60,
+  66,
+  70,
+  76,
+  83,
+  86,
+  90,
+  96,
+  100
+ ],
+ "cer": [],
+ "fix": [
+  [
+   14,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   56,
+   "two- State",
+   "two-State",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55386b3e47e50bfe6acc09ebe4b20fdabf71e025",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 6
+  },
+  "words_in": 2407,
+  "words_out": 2401,
+  "retention": 0.9975,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   136,
+   127,
+   136,
+   96,
+   112,
+   109,
+   126,
+   132,
+   157,
+   119,
+   144,
+   113,
+   87,
+   115,
+   176,
+   108,
+   103,
+   119,
+   107,
+   79
+  ],
+  "warnings": []
+ }
+}

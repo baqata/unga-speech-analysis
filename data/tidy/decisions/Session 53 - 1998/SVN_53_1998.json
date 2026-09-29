@@ -1,0 +1,90 @@
+{
+ "id": "SVN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  21,
+  39,
+  50,
+  61,
+  72,
+  92,
+  105,
+  118,
+  129,
+  145,
+  164,
+  180,
+  199
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   24,
+   "General?s",
+   "General’s",
+   "encoding"
+  ],
+  [
+   115,
+   "Slovenia?s",
+   "Slovenia’s",
+   "encoding"
+  ],
+  [
+   129,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   194,
+   " [A/53/138]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "14f0759fcda5f103a6f7c242936ecbfccab10ef4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 205,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1743,
+  "words_out": 1738,
+  "retention": 0.9971,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   79,
+   106,
+   156,
+   86,
+   95,
+   107,
+   155,
+   115,
+   106,
+   94,
+   136,
+   160,
+   140,
+   153,
+   50
+  ],
+  "warnings": []
+ }
+}

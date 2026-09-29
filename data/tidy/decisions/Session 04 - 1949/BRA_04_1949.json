@@ -1,0 +1,90 @@
+{
+ "id": "BRA_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  11,
+  16,
+  23,
+  26,
+  30,
+  34,
+  40,
+  44,
+  47,
+  50,
+  53,
+  58,
+  60
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "New York, Its",
+   "New York. Its",
+   "ocr"
+  ],
+  [
+   2,
+   "it. was",
+   "it was",
+   "ocr"
+  ],
+  [
+   33,
+   "Security;",
+   "Security",
+   "ocr"
+  ],
+  [
+   48,
+   "In the, economic",
+   "In the economic",
+   "ocr"
+  ],
+  [
+   57,
+   "duly",
+   "duty",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "8a1522dcd4081aa965c800025a71458919afc02a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 19
+  },
+  "words_in": 2035,
+  "words_out": 2035,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   199,
+   120,
+   145,
+   211,
+   108,
+   175,
+   124,
+   186,
+   124,
+   84,
+   79,
+   103,
+   164,
+   87,
+   126
+  ],
+  "warnings": []
+ }
+}

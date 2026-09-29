@@ -1,0 +1,90 @@
+{
+ "id": "TCD_22_1967",
+ "drop": [
+  [
+   14,
+   14,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  5,
+  7,
+  15,
+  22,
+  26,
+  30,
+  37,
+  43,
+  46,
+  49,
+  56
+ ],
+ "cer": [
+  0,
+  1,
+  5
+ ],
+ "fix": [
+  [
+   9,
+   " [Ibid., para. 7.]",
+   "",
+   "label"
+  ],
+  [
+   21,
+   " [A/6701/ Add.1, para. 151.]",
+   "",
+   "label"
+  ],
+  [
+   36,
+   " [Ibid,, para. 150.]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "unit 14 is a bare reference unit, dropped",
+ "unitizer_version": 1,
+ "sha1": "2d86115283a03d365a70b69e0dc7806e6ed385a8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 1441,
+  "words_out": 1408,
+  "retention": 0.9771,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   26,
+   91,
+   56,
+   161,
+   147,
+   131,
+   111,
+   147,
+   121,
+   104,
+   83,
+   79,
+   151
+  ],
+  "warnings": []
+ }
+}

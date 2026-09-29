@@ -1,0 +1,107 @@
+{
+ "id": "ARG_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  27,
+  41,
+  50,
+  62,
+  86,
+  105,
+  117,
+  132,
+  149,
+  158,
+  166,
+  183,
+  196,
+  208,
+  216,
+  228,
+  235,
+  257
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   102,
+   "countryâs",
+   "country’s",
+   "encoding"
+  ],
+  [
+   136,
+   "communityâs",
+   "community’s",
+   "encoding"
+  ],
+  [
+   146,
+   "communityâs",
+   "community’s",
+   "encoding"
+  ],
+  [
+   158,
+   "Argentinaâs",
+   "Argentina’s",
+   "encoding"
+  ],
+  [
+   202,
+   "todayâs",
+   "today’s",
+   "encoding"
+  ],
+  [
+   208,
+   "Argentinaâs",
+   "Argentina’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c8b09c22fa74cb2cfe670f8b47172619f7f0c5f0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 268,
+  "units_dropped": {},
+  "prestrip": {
+   "encoding": 4,
+   "page_number": 3
+  },
+  "words_in": 2206,
+  "words_out": 2203,
+  "retention": 0.9986,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   73,
+   156,
+   114,
+   75,
+   103,
+   195,
+   149,
+   98,
+   126,
+   132,
+   68,
+   67,
+   138,
+   111,
+   99,
+   71,
+   98,
+   54,
+   195,
+   81
+  ],
+  "warnings": []
+ }
+}

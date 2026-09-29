@@ -1,0 +1,106 @@
+{
+ "id": "CAF_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  14,
+  18,
+  21,
+  23,
+  26,
+  30,
+  32,
+  34,
+  41,
+  46,
+  50,
+  53,
+  54,
+  58,
+  61,
+  64,
+  66,
+  68,
+  71,
+  75,
+  80,
+  83,
+  89,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Andr6",
+   "André",
+   "ocr"
+  ],
+  [
+   42,
+   "We ail",
+   "We all",
+   "ocr"
+  ],
+  [
+   68,
+   "Industrialized!",
+   "Industrialized",
+   "ocr"
+  ],
+  [
+   52,
+   "1972,9 which",
+   "1972, which",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b167ae79fa0871a4c969135e3b252a117f5ff073",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 2892,
+  "words_out": 2891,
+  "retention": 0.9997,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   170,
+   215,
+   103,
+   173,
+   64,
+   119,
+   171,
+   67,
+   89,
+   182,
+   117,
+   63,
+   84,
+   37,
+   106,
+   111,
+   87,
+   61,
+   108,
+   74,
+   98,
+   137,
+   65,
+   162,
+   76,
+   152
+  ],
+  "warnings": []
+ }
+}

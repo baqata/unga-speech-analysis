@@ -1,0 +1,82 @@
+{
+ "id": "LBN_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  12,
+  15,
+  21,
+  25,
+  27,
+  34,
+  39,
+  44,
+  50,
+  52
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "winch",
+   "which",
+   "ocr"
+  ],
+  [
+   30,
+   "application,",
+   "application",
+   "ocr"
+  ],
+  [
+   40,
+   "and-",
+   "and",
+   "ocr"
+  ],
+  [
+   48,
+   "j",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "ah",
+   "all",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cfc33396db6999ec7cfb6e47a5f57d592eeded79",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1781,
+  "words_out": 1780,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   125,
+   142,
+   157,
+   95,
+   119,
+   184,
+   95,
+   166,
+   174,
+   171,
+   142,
+   109,
+   101
+  ],
+  "warnings": []
+ }
+}

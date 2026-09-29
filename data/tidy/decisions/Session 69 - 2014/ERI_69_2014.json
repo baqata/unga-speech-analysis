@@ -1,0 +1,41 @@
+{
+ "id": "ERI_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  27,
+  50,
+  71,
+  87,
+  111
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2cfefaaccbeb8e9a2f05042915e0b1344d534f54",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1061,
+  "words_out": 1057,
+  "retention": 0.9962,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   71,
+   155,
+   186,
+   181,
+   129,
+   200,
+   135
+  ],
+  "warnings": []
+ }
+}

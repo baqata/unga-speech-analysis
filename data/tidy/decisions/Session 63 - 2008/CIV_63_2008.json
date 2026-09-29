@@ -1,0 +1,55 @@
+{
+ "id": "CIV_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  37,
+  48,
+  66,
+  76,
+  90,
+  103,
+  120,
+  141,
+  164,
+  177
+ ],
+ "cer": [
+  0,
+  15,
+  37
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "024b1f1fc0c95e48fe0343ce2781125c4a859ef6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1577,
+  "words_out": 1573,
+  "retention": 0.9975,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   122,
+   181,
+   91,
+   134,
+   85,
+   112,
+   109,
+   128,
+   154,
+   171,
+   110,
+   176
+  ],
+  "warnings": []
+ }
+}

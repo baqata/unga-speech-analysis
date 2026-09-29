@@ -1,0 +1,147 @@
+{
+ "id": "PAK_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  10,
+  13,
+  18,
+  22,
+  27,
+  33,
+  39,
+  46,
+  49,
+  54,
+  58,
+  62,
+  65,
+  71,
+  75,
+  81,
+  84,
+  88,
+  90,
+  95,
+  98,
+  105,
+  108,
+  111,
+  113,
+  117,
+  122,
+  127,
+  132
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   25,
+   "presence;",
+   "presence",
+   "ocr"
+  ],
+  [
+   46,
+   "good- neighbourly",
+   "good-neighbourly",
+   "hyphen"
+  ],
+  [
+   59,
+   "conference or the",
+   "conference on the",
+   "ocr"
+  ],
+  [
+   61,
+   "confluence",
+   "confidence",
+   "ocr"
+  ],
+  [
+   62,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   70,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   112,
+   "Zia-ul- Haq",
+   "Zia-ul-Haq",
+   "hyphen"
+  ],
+  [
+   117,
+   "Conference on.",
+   "Conference on",
+   "ocr"
+  ],
+  [
+   136,
+   "self- annihilation",
+   "self-annihilation",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a36378aa238f159ce0a5e4fc8b277631c009eecf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 48
+  },
+  "words_in": 4095,
+  "words_out": 4090,
+  "retention": 0.9988,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   218,
+   61,
+   130,
+   147,
+   136,
+   143,
+   144,
+   140,
+   160,
+   97,
+   136,
+   130,
+   142,
+   98,
+   204,
+   148,
+   128,
+   110,
+   131,
+   58,
+   106,
+   106,
+   145,
+   88,
+   114,
+   107,
+   130,
+   215,
+   152,
+   144,
+   122
+  ],
+  "warnings": []
+ }
+}

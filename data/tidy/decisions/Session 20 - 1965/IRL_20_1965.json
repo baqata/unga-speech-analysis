@@ -1,0 +1,131 @@
+{
+ "id": "IRL_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  13,
+  20,
+  23,
+  29,
+  33,
+  40,
+  46,
+  51,
+  53,
+  58,
+  64,
+  70,
+  76,
+  83,
+  88,
+  94,
+  99,
+  105
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   1,
+   "Presidency, These",
+   "Presidency. These",
+   "ocr"
+  ],
+  [
+   30,
+   "its, own",
+   "its own",
+   "ocr"
+  ],
+  [
+   32,
+   "they-would",
+   "they would",
+   "ocr"
+  ],
+  [
+   52,
+   "recrimination, My",
+   "recrimination. My",
+   "ocr"
+  ],
+  [
+   93,
+   "abstains, And,",
+   "abstains. And,",
+   "ocr"
+  ],
+  [
+   105,
+   "150, ",
+   "",
+   "label"
+  ],
+  [
+   108,
+   "would he so",
+   "would be so",
+   "ocr"
+  ],
+  [
+   24,
+   " [A/5966/ Rev.2]",
+   "",
+   "label"
+  ],
+  [
+   77,
+   " [resolution 377 (V)]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   " [see A/5966/Rev.2]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e250b5ac8ceee69af6a665e74aad636640cd0951",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 3423,
+  "words_out": 3393,
+  "retention": 0.9912,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   205,
+   116,
+   289,
+   84,
+   141,
+   190,
+   223,
+   220,
+   149,
+   100,
+   145,
+   124,
+   176,
+   173,
+   214,
+   154,
+   257,
+   137,
+   157,
+   139
+  ],
+  "warnings": []
+ }
+}

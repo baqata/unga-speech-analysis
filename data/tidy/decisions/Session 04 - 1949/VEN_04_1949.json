@@ -1,0 +1,80 @@
+{
+ "id": "VEN_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  13,
+  17,
+  20,
+  24,
+  29,
+  32,
+  36,
+  41,
+  44,
+  49
+ ],
+ "cer": [],
+ "fix": [
+  [
+   11,
+   "agreement \"had",
+   "agreement had",
+   "ocr"
+  ],
+  [
+   18,
+   " (220th meeting)",
+   "",
+   "label"
+  ],
+  [
+   32,
+   "of „ the",
+   "of the",
+   "ocr"
+  ],
+  [
+   51,
+   "justify;",
+   "justify",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "7318d9d0065391bb3ad713bcd97cafb297348f0f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 13
+  },
+  "words_in": 1873,
+  "words_out": 1870,
+  "retention": 0.9984,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   209,
+   98,
+   149,
+   146,
+   97,
+   126,
+   209,
+   92,
+   173,
+   182,
+   119,
+   145,
+   125
+  ],
+  "warnings": []
+ }
+}

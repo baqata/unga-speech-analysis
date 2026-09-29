@@ -1,0 +1,138 @@
+{
+ "id": "EGY_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   25,
+   25,
+   "noise"
+  ],
+  [
+   101,
+   101,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  9,
+  13,
+  17,
+  21,
+  30,
+  34,
+  38,
+  45,
+  54,
+  56,
+  61,
+  70,
+  77,
+  82,
+  86,
+  97
+ ],
+ "cer": [
+  2,
+  97
+ ],
+ "fix": [
+  [
+   60,
+   "Esulwini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   60,
+   "Third",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   82,
+   "must must",
+   "must",
+   "asr_term"
+  ],
+  [
+   4,
+   "system. restoring",
+   "system. Restoring",
+   "asr_term"
+  ],
+  [
+   2,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   2,
+   "Khalil al-Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   19,
+   "ceasefire and",
+   "ceasefire in",
+   "asr_term"
+  ],
+  [
+   51,
+   "others. resources",
+   "others. Shared resources",
+   "asr_term"
+  ],
+  [
+   61,
+   "economy. countries",
+   "economy. Developing countries",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Interpreted speech; Spanish channel confirms Consenso de Ezulwini (Zuluine) y Declaracion de Sirte (Cirte). Gap recovery (v4) added a lone 'Thank you.' at 05:38, in a pause mid-speech (no thanks in the Spanish): noise. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 82 'must must' -> 'must'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 4 'system. restoring' -> 'system. Restoring'; unit 51 'others. resources' -> 'others. Resources'; unit 61 'economy. countries' -> 'economy. Countries'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 1 unit 2 'Khalil Rahman' -> 'Khalilur Rahman' (the President of the 81st session is Khalilur Rahman (same repair in other 2026 speeches); decodes 'Khalil Rahman' 0.86 / 0.87 miss the unstressed syllable; ES 'señor Kaleiru Rahman'); spot 2 unit 2 'Khalil al-Rahman' -> 'Khalilur Rahman' (same person (Khalilur Rahman, PGA 81); decode 2 hears 'Khalilur' 0.70, decode 1 'Khalil al -Rahman' ('al' 0.47); ES 'Kalilu Rahman'); spot 3 unit 19 'ceasefire and' -> 'ceasefire in' (decodes 'and' only 0.75 / 0.89; 'Securing the ceasefire and the Gaza Strip' does not fit, 'the ceasefire in the Gaza Strip' does; sounds alike; ES 'Lograr el alto el fuego en la franja de Gaza'); spot 7 unit 51 'others. resources' -> 'others. Shared resources' (2026 exception, inside the existing repair: both decodes hear 'Shared' 1.00; ES 'Los recursos conjuntos no pueden ser manejados de forma unilateral'); spot 10 unit 61 'economy. countries' -> 'economy. Developing countries' (2026 exception, inside the existing repair: both decodes hear 'Developing' 1.00; ES paraphrases without it, but a published report of the speech (EgyptToday, 'Egypt's key messages at UNGA 81', seen in a search summary; full page returned 403) says 'developing countries are expected to accelerate development, create jobs')",
+ "unitizer_version": 1,
+ "sha1": "2e9b321f6de54e12bc2615af8c098e81b525b001",
+ "layout": "single",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {
+   "presider": 3,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2573,
+  "words_out": 2520,
+  "retention": 0.9794,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   94,
+   119,
+   133,
+   92,
+   157,
+   212,
+   67,
+   121,
+   180,
+   203,
+   74,
+   128,
+   179,
+   222,
+   112,
+   101,
+   208,
+   118
+  ],
+  "warnings": []
+ }
+}

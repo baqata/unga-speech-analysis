@@ -1,0 +1,54 @@
+{
+ "id": "YUG_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  18,
+  29,
+  51,
+  62,
+  84
+ ],
+ "cer": [],
+ "fix": [
+  [
+   37,
+   "ìStandards",
+   "“Standards",
+   "encoding"
+  ],
+  [
+   37,
+   "Statusî",
+   "Status”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5d98442511fa6a0b5ee7f10202251e9178c426a8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 726,
+  "words_out": 726,
+  "retention": 1.0,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   64,
+   79,
+   84,
+   172,
+   89,
+   170,
+   68
+  ],
+  "warnings": []
+ }
+}

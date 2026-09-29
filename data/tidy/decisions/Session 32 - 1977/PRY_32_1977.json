@@ -1,0 +1,116 @@
+{
+ "id": "PRY_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  8,
+  11,
+  14,
+  18,
+  20,
+  24,
+  28,
+  31,
+  35,
+  41,
+  45,
+  48,
+  51
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "and 1 wish",
+   "and I wish",
+   "ocr"
+  ],
+  [
+   1,
+   "250. ",
+   "",
+   "label"
+  ],
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   2,
+   "Waldneim",
+   "Waldheim",
+   "ocr"
+  ],
+  [
+   10,
+   "brighter pi object",
+   "brighter prospect",
+   "ocr"
+  ],
+  [
+   14,
+   "Nevertheless.",
+   "Nevertheless,",
+   "ocr"
+  ],
+  [
+   26,
+   "armaments— and",
+   "armaments—and",
+   "spacing"
+  ],
+  [
+   27,
+   "triumph of failure",
+   "triumph or failure",
+   "ocr"
+  ],
+  [
+   42,
+   "off',",
+   "off\",",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "715a673db4c60042f5dee7cb3fd253f176173c24",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 1722,
+  "words_out": 1718,
+  "retention": 0.9977,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   141,
+   118,
+   94,
+   103,
+   97,
+   132,
+   80,
+   112,
+   116,
+   96,
+   175,
+   155,
+   103,
+   85,
+   54,
+   57
+  ],
+  "warnings": []
+ }
+}

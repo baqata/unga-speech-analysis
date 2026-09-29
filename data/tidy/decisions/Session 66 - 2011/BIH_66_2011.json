@@ -1,0 +1,62 @@
+{
+ "id": "BIH_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  40,
+  59,
+  87,
+  103,
+  125,
+  155,
+  184,
+  209,
+  240,
+  272,
+  284
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   66,
+   "building. so",
+   "building, so",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3cf977760a7c2a30872590d177d54ec33dc32c03",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 292,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2213,
+  "words_out": 2210,
+  "retention": 0.9986,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   169,
+   137,
+   137,
+   186,
+   117,
+   175,
+   229,
+   218,
+   189,
+   251,
+   243,
+   92,
+   67
+  ],
+  "warnings": []
+ }
+}

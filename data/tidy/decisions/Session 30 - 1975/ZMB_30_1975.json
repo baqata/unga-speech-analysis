@@ -1,0 +1,253 @@
+{
+ "id": "ZMB_30_1975",
+ "drop": [
+  [
+   0,
+   0,
+   "noise"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  8,
+  12,
+  15,
+  18,
+  23,
+  26,
+  30,
+  32,
+  36,
+  41,
+  50,
+  56,
+  64,
+  70,
+  74,
+  78,
+  85,
+  89,
+  93,
+  96,
+  101,
+  104,
+  107,
+  110,
+  115,
+  118,
+  124,
+  129,
+  134,
+  139,
+  146,
+  150,
+  154,
+  160,
+  165,
+  167,
+  173,
+  178,
+  180,
+  185,
+  190
+ ],
+ "cer": [
+  1,
+  5
+ ],
+ "fix": [
+  [
+   14,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   17,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   20,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ],
+  [
+   44,
+   "AH these",
+   "All these",
+   "ocr"
+  ],
+  [
+   51,
+   "victories, We",
+   "victories. We",
+   "ocr"
+  ],
+  [
+   54,
+   "reconciliation- It",
+   "reconciliation. It",
+   "ocr"
+  ],
+  [
+   61,
+   "It is. therefore",
+   "It is, therefore",
+   "ocr"
+  ],
+  [
+   63,
+   "North- South",
+   "North-South",
+   "hyphen"
+  ],
+  [
+   68,
+   "is. for",
+   "is, for",
+   "ocr"
+  ],
+  [
+   71,
+   "ot the",
+   "of the",
+   "ocr"
+  ],
+  [
+   74,
+   "not-resolved",
+   "not resolved",
+   "ocr"
+  ],
+  [
+   87,
+   "dis-quieting",
+   "disquieting",
+   "hyphen"
+  ],
+  [
+   108,
+   "United.Nations",
+   "United Nations",
+   "ocr"
+  ],
+  [
+   133,
+   "Africa.1",
+   "Africa.",
+   "ocr"
+  ],
+  [
+   142,
+   "post-poned",
+   "postponed",
+   "hyphen"
+  ],
+  [
+   146,
+   "nol be",
+   "not be",
+   "ocr"
+  ],
+  [
+   151,
+   "movemenl",
+   "movement",
+   "ocr"
+  ],
+  [
+   170,
+   "inNamibia",
+   "in Namibia",
+   "merged_word"
+  ],
+  [
+   171,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   172,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   187,
+   "country, There",
+   "country. There",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 49 lacks a full stop between two sentences (\"Cyprus The arms race\"), which cannot be restored without adding a mark.",
+ "unitizer_version": 1,
+ "sha1": "15a8905b4fbeff1a8462940028f4ea8eb990ebf9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 49
+  },
+  "words_in": 4863,
+  "words_out": 4860,
+  "retention": 0.9994,
+  "n_paragraphs": 43,
+  "paragraph_words": [
+   131,
+   84,
+   94,
+   77,
+   74,
+   152,
+   85,
+   131,
+   98,
+   131,
+   134,
+   165,
+   199,
+   160,
+   160,
+   77,
+   95,
+   176,
+   80,
+   96,
+   81,
+   162,
+   83,
+   90,
+   75,
+   85,
+   76,
+   161,
+   134,
+   84,
+   118,
+   116,
+   93,
+   72,
+   164,
+   108,
+   97,
+   117,
+   152,
+   65,
+   122,
+   109,
+   97
+  ],
+  "warnings": [
+   "21 fixes"
+  ]
+ }
+}

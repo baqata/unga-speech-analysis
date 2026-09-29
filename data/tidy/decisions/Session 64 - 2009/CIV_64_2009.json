@@ -1,0 +1,53 @@
+{
+ "id": "CIV_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  34,
+  49,
+  63,
+  79,
+  100,
+  121,
+  143,
+  165,
+  190,
+  207
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "55bcb9c06f96ac85ad63c07e0a494500d15c2eab",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 220,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1856,
+  "words_out": 1855,
+  "retention": 0.9995,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   96,
+   186,
+   117,
+   126,
+   115,
+   178,
+   171,
+   175,
+   189,
+   232,
+   155,
+   115
+  ],
+  "warnings": []
+ }
+}

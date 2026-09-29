@@ -1,0 +1,76 @@
+{
+ "id": "PRT_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  13,
+  17,
+  21,
+  27,
+  33,
+  36,
+  38,
+  41,
+  43,
+  48,
+  52,
+  54
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "capacity- building",
+   "capacity-building",
+   "hyphen"
+  ],
+  [
+   17,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   55,
+   "long- lasting",
+   "long-lasting",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f78c12ea67617ba6193313ae9f1c3fa8b2c6ec98",
+ "layout": "lines",
+ "stats": {
+  "n_units": 56,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1606,
+  "words_out": 1601,
+  "retention": 0.9969,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   64,
+   93,
+   185,
+   105,
+   99,
+   191,
+   170,
+   105,
+   69,
+   97,
+   91,
+   93,
+   109,
+   62,
+   68
+  ],
+  "warnings": []
+ }
+}

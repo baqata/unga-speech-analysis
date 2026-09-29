@@ -1,0 +1,59 @@
+{
+ "id": "NRU_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  30,
+  40,
+  68,
+  91,
+  107,
+  122,
+  140,
+  156,
+  172,
+  191,
+  211,
+  236,
+  249
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c1243a85b4ad038836284732cb06348e8cc5244e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 269,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 2128,
+  "words_out": 2123,
+  "retention": 0.9977,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   62,
+   168,
+   83,
+   237,
+   190,
+   124,
+   110,
+   138,
+   131,
+   137,
+   142,
+   145,
+   199,
+   86,
+   171
+  ],
+  "warnings": []
+ }
+}

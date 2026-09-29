@@ -1,0 +1,64 @@
+{
+ "id": "MDA_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  27,
+  44,
+  62,
+  75,
+  96,
+  118,
+  132,
+  159,
+  177,
+  192,
+  203,
+  212
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   71,
+   "Tiraspol.We",
+   "Tiraspol. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b445c1090019bd900e51fb72ccd74d97ce0b46ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 223,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1911,
+  "words_out": 1909,
+  "retention": 0.999,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   78,
+   165,
+   142,
+   158,
+   111,
+   179,
+   173,
+   110,
+   245,
+   146,
+   130,
+   99,
+   79,
+   94
+  ],
+  "warnings": []
+ }
+}

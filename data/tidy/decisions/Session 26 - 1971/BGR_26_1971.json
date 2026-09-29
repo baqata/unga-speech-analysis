@@ -1,0 +1,177 @@
+{
+ "id": "BGR_26_1971",
+ "drop": [
+  [
+   110,
+   110,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  21,
+  26,
+  31,
+  37,
+  43,
+  51,
+  59,
+  68,
+  74,
+  81,
+  85,
+  90,
+  96,
+  102,
+  106,
+  109,
+  114,
+  117,
+  122,
+  125,
+  130,
+  137,
+  139
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   ".-",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "moaning",
+   "morning",
+   "ocr"
+  ],
+  [
+   15,
+   "years.It",
+   "years. It",
+   "spacing"
+  ],
+  [
+   25,
+   "' ",
+   "",
+   "label"
+  ],
+  [
+   39,
+   "(1946th meeting]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "Mr, Riad",
+   "Mr. Riad",
+   "ocr"
+  ],
+  [
+   60,
+   "an i final",
+   "and final",
+   "ocr"
+  ],
+  [
+   65,
+   "assistance, They",
+   "assistance. They",
+   "ocr"
+  ],
+  [
+   71,
+   "[AI8457-DCI234, annex A]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "tests, One",
+   "tests. One",
+   "ocr"
+  ],
+  [
+   79,
+   "Non-Proliferation, of",
+   "Non-Proliferation of",
+   "ocr"
+  ],
+  [
+   111,
+   "Balkans, In",
+   "Balkans. In",
+   "ocr"
+  ],
+  [
+   135,
+   "pointed'",
+   "pointed",
+   "ocr"
+  ],
+  [
+   138,
+   "tr ensure",
+   "to ensure",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "02df9bcad0bc6c26559d3a0d6cd777488d207783",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 44
+  },
+  "words_in": 4077,
+  "words_out": 4047,
+  "retention": 0.9926,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   164,
+   133,
+   157,
+   226,
+   168,
+   164,
+   166,
+   127,
+   168,
+   248,
+   231,
+   175,
+   213,
+   90,
+   136,
+   162,
+   218,
+   135,
+   82,
+   121,
+   75,
+   120,
+   90,
+   109,
+   176,
+   78,
+   115
+  ],
+  "warnings": []
+ }
+}

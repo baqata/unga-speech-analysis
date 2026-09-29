@@ -1,0 +1,134 @@
+{
+ "id": "BWA_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  39,
+  47,
+  69,
+  81,
+  106,
+  117,
+  133,
+  145,
+  160,
+  178,
+  200,
+  222,
+  244,
+  257,
+  280,
+  303,
+  326,
+  342,
+  362,
+  390,
+  416
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   12,
+   "within 2 week",
+   "within a week",
+   "ocr"
+  ],
+  [
+   41,
+   "session, Botswana",
+   "session. Botswana",
+   "ocr"
+  ],
+  [
+   57,
+   "success,",
+   "success.",
+   "ocr"
+  ],
+  [
+   83,
+   "have along and",
+   "have a long and",
+   "merged_word"
+  ],
+  [
+   88,
+   "both ‘Rhodesian",
+   "both Rhodesian",
+   "ocr"
+  ],
+  [
+   139,
+   "neglect, We",
+   "neglect. We",
+   "ocr"
+  ],
+  [
+   156,
+   "and. because",
+   "and because",
+   "ocr"
+  ],
+  [
+   201,
+   "apartheid, Although",
+   "apartheid. Although",
+   "ocr"
+  ],
+  [
+   207,
+   "in please for",
+   "in pleas for",
+   "ocr"
+  ],
+  [
+   412,
+   "Africa and.",
+   "Africa and",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0fca4fcf8420baddd576a9cb9a74cc8fad1946d8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 432,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3879,
+  "words_out": 3845,
+  "retention": 0.9912,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   107,
+   240,
+   71,
+   194,
+   112,
+   223,
+   99,
+   139,
+   119,
+   138,
+   174,
+   195,
+   191,
+   182,
+   110,
+   196,
+   181,
+   207,
+   161,
+   177,
+   248,
+   238,
+   143
+  ],
+  "warnings": []
+ }
+}

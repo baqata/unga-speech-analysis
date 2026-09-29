@@ -1,0 +1,123 @@
+{
+ "id": "BRA_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  13,
+  18,
+  24,
+  26,
+  30,
+  34,
+  41,
+  43,
+  51,
+  54,
+  58,
+  62,
+  66,
+  69,
+  72,
+  75,
+  77,
+  83,
+  89,
+  94,
+  99,
+  103,
+  107,
+  112
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   0,
+   "President.of",
+   "President of",
+   "ocr"
+  ],
+  [
+   17,
+   "twenty- five",
+   "twenty-five",
+   "hyphen"
+  ],
+  [
+   32,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   92,
+   "co- chairmanship",
+   "co-chairmanship",
+   "hyphen"
+  ],
+  [
+   99,
+   "[see AI7922]",
+   "",
+   "label"
+  ],
+  [
+   110,
+   "real-ism",
+   "realism",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8a1ac5926909376b89396078e121341c807fe29d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 116,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 3992,
+  "words_out": 3989,
+  "retention": 0.9992,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   134,
+   74,
+   100,
+   182,
+   139,
+   199,
+   84,
+   148,
+   103,
+   123,
+   100,
+   257,
+   134,
+   112,
+   98,
+   137,
+   98,
+   159,
+   159,
+   108,
+   160,
+   229,
+   169,
+   167,
+   226,
+   131,
+   137,
+   122
+  ],
+  "warnings": []
+ }
+}

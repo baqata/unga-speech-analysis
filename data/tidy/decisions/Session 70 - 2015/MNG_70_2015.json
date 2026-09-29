@@ -1,0 +1,100 @@
+{
+ "id": "MNG_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  16,
+  21,
+  25,
+  33,
+  45,
+  56,
+  67,
+  74,
+  78,
+  80,
+  86,
+  89,
+  95,
+  102,
+  106,
+  115,
+  119,
+  125,
+  130,
+  133,
+  141,
+  147,
+  152,
+  155,
+  159,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   91,
+   "ofall",
+   "of all",
+   "merged_word"
+  ],
+  [
+   106,
+   "nuclear- weapon-free",
+   "nuclear-weapon-free",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4d0d2d4e595d7f3486572664e2336eb6e003dc15",
+ "layout": "lines",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 8
+  },
+  "words_in": 2997,
+  "words_out": 2995,
+  "retention": 0.9993,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   25,
+   95,
+   142,
+   80,
+   84,
+   129,
+   153,
+   159,
+   189,
+   103,
+   72,
+   53,
+   110,
+   91,
+   103,
+   75,
+   61,
+   147,
+   67,
+   80,
+   90,
+   86,
+   130,
+   117,
+   125,
+   63,
+   93,
+   181,
+   92
+  ],
+  "warnings": []
+ }
+}

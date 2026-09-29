@@ -1,0 +1,49 @@
+{
+ "id": "MAR_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  39,
+  53,
+  71,
+  101,
+  121,
+  139,
+  151,
+  178
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dd766df1573783fc6276389afc15a6283d11d006",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 194,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1459,
+  "words_out": 1457,
+  "retention": 0.9986,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   111,
+   188,
+   100,
+   132,
+   218,
+   155,
+   137,
+   95,
+   202,
+   119
+  ],
+  "warnings": []
+ }
+}

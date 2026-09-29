@@ -1,0 +1,97 @@
+{
+ "id": "AFG_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  18,
+  39,
+  61,
+  93,
+  103,
+  118,
+  129,
+  147,
+  175,
+  185,
+  213,
+  223,
+  233,
+  257,
+  283,
+  298,
+  319,
+  345,
+  358
+ ],
+ "cer": [
+  9,
+  345
+ ],
+ "fix": [
+  [
+   49,
+   "scorchedearth",
+   "scorched-earth",
+   "hyphen"
+  ],
+  [
+   63,
+   "socalled",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   203,
+   "fouryear",
+   "four-year",
+   "hyphen"
+  ],
+  [
+   361,
+   "noninterference",
+   "non-interference",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "294df008d848bc80663d9bf48ae8de5ed474995a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 374,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2869,
+  "words_out": 2869,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   69,
+   67,
+   173,
+   188,
+   248,
+   77,
+   112,
+   89,
+   136,
+   203,
+   74,
+   227,
+   82,
+   74,
+   176,
+   175,
+   111,
+   169,
+   199,
+   92,
+   128
+  ],
+  "warnings": []
+ }
+}

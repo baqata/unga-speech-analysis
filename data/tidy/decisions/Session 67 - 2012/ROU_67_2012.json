@@ -1,0 +1,62 @@
+{
+ "id": "ROU_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  19,
+  37,
+  48,
+  69,
+  92,
+  108,
+  121,
+  132,
+  141,
+  149,
+  158,
+  171,
+  189,
+  203
+ ],
+ "cer": [],
+ "fix": [
+  [
+   131,
+   "f lag",
+   "flag",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f3bf8452530957fc8b8fcd01baf4eafa9b29b6e9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 214,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1773,
+  "words_out": 1772,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   158,
+   147,
+   97,
+   185,
+   197,
+   126,
+   88,
+   95,
+   72,
+   69,
+   66,
+   99,
+   155,
+   126,
+   92
+  ],
+  "warnings": []
+ }
+}

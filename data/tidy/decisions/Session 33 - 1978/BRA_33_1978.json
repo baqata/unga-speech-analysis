@@ -1,0 +1,86 @@
+{
+ "id": "BRA_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  6,
+  10,
+  16,
+  20,
+  23,
+  28,
+  32,
+  34,
+  37,
+  39,
+  43,
+  46,
+  48,
+  53,
+  56,
+  59,
+  62
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "1974,1 underlined",
+   "1974, I underlined",
+   "ocr"
+  ],
+  [
+   42,
+   " [resolution S-10/2]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "g-owing",
+   "growing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "78a5dde732b7ac06b37d38e1a8f6763af9d3b40d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2304,
+  "words_out": 2303,
+  "retention": 0.9996,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   200,
+   66,
+   156,
+   133,
+   95,
+   63,
+   181,
+   131,
+   114,
+   128,
+   85,
+   92,
+   111,
+   137,
+   141,
+   96,
+   116,
+   81,
+   177
+  ],
+  "warnings": []
+ }
+}

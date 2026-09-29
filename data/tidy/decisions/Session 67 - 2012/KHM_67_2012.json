@@ -1,0 +1,64 @@
+{
+ "id": "KHM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  31,
+  65,
+  76,
+  87,
+  98,
+  113,
+  134,
+  155,
+  176,
+  197
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   72,
+   "f loods",
+   "floods",
+   "split_word"
+  ],
+  [
+   76,
+   "inf licted",
+   "inflicted",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa56f19553028aeac385b9093b5a8b2e1c489a69",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1620,
+  "words_out": 1617,
+  "retention": 0.9981,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   70,
+   170,
+   271,
+   81,
+   84,
+   84,
+   119,
+   178,
+   171,
+   159,
+   175,
+   55
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "ARG_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  15,
+  20,
+  24,
+  27,
+  32,
+  36,
+  39,
+  47,
+  51,
+  54,
+  58,
+  62,
+  64,
+  72,
+  76,
+  79,
+  82,
+  87,
+  95,
+  104,
+  110
+ ],
+ "cer": [
+  5
+ ],
+ "fix": [
+  [
+   7,
+   "Ms action",
+   "his action",
+   "ocr"
+  ],
+  [
+   10,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   16,
+   "tim-3",
+   "time",
+   "ocr"
+  ],
+  [
+   19,
+   "the-United",
+   "the United",
+   "ocr"
+  ],
+  [
+   25,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   33,
+   "Bach",
+   "Each",
+   "ocr"
+  ],
+  [
+   38,
+   "warmly • welcome",
+   "warmly welcome",
+   "markup"
+  ],
+  [
+   46,
+   "ap.d",
+   "and",
+   "ocr"
+  ],
+  [
+   110,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   7,
+   "clear,",
+   "clear.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0ebf641a30dba4df8f7f449ddc0b288077fbf3f3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 113,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 3495,
+  "words_out": 3492,
+  "retention": 0.9991,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   162,
+   110,
+   198,
+   148,
+   114,
+   105,
+   166,
+   118,
+   133,
+   192,
+   151,
+   97,
+   94,
+   105,
+   86,
+   180,
+   113,
+   144,
+   133,
+   206,
+   242,
+   224,
+   147,
+   124
+  ],
+  "warnings": []
+ }
+}

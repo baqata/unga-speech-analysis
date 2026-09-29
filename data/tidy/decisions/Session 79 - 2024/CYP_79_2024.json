@@ -1,0 +1,65 @@
+{
+ "id": "CYP_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  16,
+  19,
+  26,
+  40,
+  46,
+  55,
+  59,
+  67,
+  77,
+  82,
+  87,
+  94,
+  103,
+  107,
+  113
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6cdacfd408892fafa65f7c4b8b7cc4ab4bbc9e72",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2528,
+  "words_out": 2527,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   37,
+   251,
+   202,
+   78,
+   173,
+   202,
+   159,
+   125,
+   104,
+   236,
+   185,
+   127,
+   84,
+   139,
+   104,
+   85,
+   130,
+   106
+  ],
+  "warnings": []
+ }
+}

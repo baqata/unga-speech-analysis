@@ -1,0 +1,112 @@
+{
+ "id": "MMR_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  11,
+  18,
+  20,
+  24,
+  28,
+  35,
+  43,
+  49,
+  57,
+  64,
+  72,
+  77,
+  85
+ ],
+ "cer": [
+  5,
+  10
+ ],
+ "fix": [
+  [
+   17,
+   "fives of all",
+   "lives of all",
+   "ocr"
+  ],
+  [
+   18,
+   "fight of this",
+   "light of this",
+   "ocr"
+  ],
+  [
+   27,
+   "Suez: Canal",
+   "Suez Canal",
+   "ocr"
+  ],
+  [
+   27,
+   "this; Western",
+   "this Western",
+   "ocr"
+  ],
+  [
+   38,
+   "never, preventive",
+   "never preventive",
+   "ocr"
+  ],
+  [
+   40,
+   "Middle 1 East",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   40,
+   "Europe I situation",
+   "Europe situation",
+   "ocr"
+  ],
+  [
+   41,
+   "Union B in",
+   "Union in",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fd62e3719200f069f635ae0aa794983c8298749f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 17
+  },
+  "words_in": 2254,
+  "words_out": 2251,
+  "retention": 0.9987,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   125,
+   128,
+   40,
+   161,
+   77,
+   124,
+   108,
+   197,
+   145,
+   184,
+   193,
+   160,
+   208,
+   125,
+   217,
+   59
+  ],
+  "warnings": []
+ }
+}

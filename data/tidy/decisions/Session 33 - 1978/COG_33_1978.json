@@ -1,0 +1,154 @@
+{
+ "id": "COG_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  10,
+  13,
+  16,
+  23,
+  24,
+  28,
+  33,
+  35,
+  38,
+  41,
+  44,
+  46,
+  48,
+  50,
+  56,
+  62,
+  68,
+  72,
+  77,
+  82,
+  90,
+  99,
+  100,
+  101,
+  108,
+  113,
+  117,
+  121,
+  126,
+  129,
+  136,
+  140,
+  145,
+  148
+ ],
+ "cer": [
+  41,
+  99
+ ],
+ "fix": [
+  [
+   1,
+   "based ◦n",
+   "based on",
+   "encoding"
+  ],
+  [
+   82,
+   " [resolution 2145 (XXI)]",
+   "",
+   "label"
+  ],
+  [
+   88,
+   " [resolution S-9[2J",
+   "",
+   "label"
+  ],
+  [
+   100,
+   "1 would say",
+   "I would say",
+   "ocr"
+  ],
+  [
+   101,
+   "SL ",
+   "",
+   "label"
+  ],
+  [
+   114,
+   "these are no small",
+   "there are no small",
+   "ocr"
+  ],
+  [
+   124,
+   "in tills direction",
+   "in this direction",
+   "ocr"
+  ],
+  [
+   140,
+   "6$. ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5aaec4d2c566a03ccef5d780f714f11e2567aceb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 150,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 68,
+   "page_header": 1
+  },
+  "words_in": 4030,
+  "words_out": 4023,
+  "retention": 0.9983,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   89,
+   117,
+   87,
+   76,
+   97,
+   117,
+   91,
+   75,
+   90,
+   63,
+   185,
+   104,
+   78,
+   143,
+   101,
+   81,
+   143,
+   127,
+   156,
+   113,
+   82,
+   130,
+   165,
+   176,
+   55,
+   56,
+   115,
+   111,
+   79,
+   123,
+   113,
+   67,
+   192,
+   142,
+   137,
+   100,
+   47
+  ],
+  "warnings": []
+ }
+}

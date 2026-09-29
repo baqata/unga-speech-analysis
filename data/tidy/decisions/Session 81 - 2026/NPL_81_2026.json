@@ -1,0 +1,296 @@
+{
+ "id": "NPL_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   27,
+   27,
+   "noise"
+  ],
+  [
+   92,
+   92,
+   "repeat"
+  ],
+  [
+   117,
+   118,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  9,
+  22,
+  31,
+  39,
+  46,
+  56,
+  62,
+  73,
+  83,
+  93,
+  98,
+  102,
+  104,
+  107,
+  115
+ ],
+ "cer": [
+  115
+ ],
+ "fix": [
+  [
+   3,
+   "President Trump, ",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "people's worries",
+   "people whose bodies",
+   "asr_term"
+  ],
+  [
+   7,
+   "Bhotekasi-Trishuli",
+   "Bhotekoshi-Trishuli",
+   "asr_name"
+  ],
+  [
+   16,
+   "ice-brock",
+   "ice-rock",
+   "asr_term"
+  ],
+  [
+   30,
+   "Gorakh earthquake",
+   "Gorkha earthquake",
+   "asr_name"
+  ],
+  [
+   46,
+   "Excellence is",
+   "Excellencies",
+   "asr_term"
+  ],
+  [
+   46,
+   "Hindukurth",
+   "Hindu Kush",
+   "asr_name"
+  ],
+  [
+   56,
+   "for at least developed",
+   "for a least developed",
+   "asr_term"
+  ],
+  [
+   56,
+   "paying a global role",
+   "playing a global role",
+   "asr_term"
+  ],
+  [
+   83,
+   "this march",
+   "this March",
+   "asr_term"
+  ],
+  [
+   85,
+   "no between",
+   "no bitumen",
+   "asr_term"
+  ],
+  [
+   89,
+   "arrive one time",
+   "arrive on time",
+   "asr_term"
+  ],
+  [
+   90,
+   "amniacens cross-border",
+   "ammunitions cross borders",
+   "asr_term"
+  ],
+  [
+   91,
+   "a prison in Nepal",
+   "a peasant in Nepal",
+   "asr_term"
+  ],
+  [
+   96,
+   "by the worst",
+   "by the wars",
+   "asr_term"
+  ],
+  [
+   103,
+   "with a future",
+   "whether the future",
+   "asr_term"
+  ],
+  [
+   40,
+   "are here",
+   "are not here",
+   "asr_term"
+  ],
+  [
+   115,
+   "Pasipati Nathle",
+   "Pashupatinathle",
+   "asr_name"
+  ],
+  [
+   115,
+   "Biswako Kalyan Garun,",
+   "bishwako kalyan garun,",
+   "asr_term"
+  ],
+  [
+   115,
+   "Your wish will",
+   "yo bishwa Buddhale",
+   "asr_term"
+  ],
+  [
+   115,
+   "be the best",
+   "dekhaeko batoma hidna",
+   "asr_term"
+  ],
+  [
+   115,
+   "of the Buddha.",
+   "sakos.",
+   "asr_term"
+  ],
+  [
+   116,
+   "Thank you.",
+   "Dherai dherai dhanyabad. Namaste.",
+   "asr_term"
+  ],
+  [
+   55,
+   "information. information.",
+   "information.",
+   "asr_term"
+  ],
+  [
+   12,
+   "it. scientists",
+   "it. Scientists",
+   "asr_term"
+  ],
+  [
+   103,
+   "outcomes. climate",
+   "outcomes. Climate",
+   "asr_term"
+  ],
+  [
+   41,
+   "share",
+   "shared",
+   "asr_term"
+  ],
+  [
+   50,
+   "the Himalayas",
+   "a Himalayan",
+   "asr_name"
+  ],
+  [
+   60,
+   "shall will",
+   "shall",
+   "asr_term"
+  ],
+  [
+   103,
+   "walk",
+   "work",
+   "asr_term"
+  ],
+  [
+   103,
+   "about it is about",
+   "about",
+   "asr_term"
+  ],
+  [
+   103,
+   "generation",
+   "generations",
+   "asr_term"
+  ],
+  [
+   103,
+   "Sagar Mata to see side events",
+   "Sagarmatha to Sea side event",
+   "asr_name"
+  ],
+  [
+   107,
+   "flood signals",
+   "floods signal",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Invented 'President Trump,' removed; Bhote Koshi-Trishuli flood of August 2026 (Wikipedia, 2026 Nepal-Tibet floods); 2015 Gorkha earthquake; Hindu Kush Himalaya; 'Sagarmata al Mar' side event per the Spanish; unit 40 lacks the 'not' the Spanish has ('no estamos aquí para hacer del cambio climático otro campo de batalla') and is left as heard; the Nepali blessing in unit 115 is left as transcribed. Main-agent audit: unit 40 'We are not here to turn climate change into another geopolitical battlefield' (re-decodes hear 'not', p 0.94-0.99, at every start; Spanish 'no estamos aquí para hacer del cambio climático otro campo de batalla'). Main-agent greeting sweep: the closing blessing is in Nepali; re-decodes in Nepali, Hindi and English hear 'Bhagawan Pashupatinathle bishwako kalyan garun, yo bishwa Buddhale dekhaeko batoma hidna sakos. Dherai dherai dhanyabad. Namaste.' (Spanish: 'que el senor Pashupatina bendiga al mundo y que este mundo ande el camino iluminado por Buda, muchas gracias'); the English 'Your wish will be the best of the Buddha.' and 'Thank you.' were speech-to-text translations of the Nepali. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 55 'information. information.' -> 'information.'. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 12 'it. scientists' -> 'it. Scientists'; unit 103 'outcomes. climate' -> 'outcomes. Climate'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 17 unit 41 'share' -> 'shared' ('shared' before 'responsibility' loses its d; decodes 'share' 0.98 / 0.97; 'recommit to share ... solidarity' does not fit; ES 'la responsabilidad compartida'; published text (Kathmandu Post full transcript, 25 Sep 2026) 'recommit to shared responsibility and solidarity'); spot 20 unit 50 'the Himalayas' -> 'a Himalayan' (decodes hear 'establish Himalaya climate' (0.65 / 0.66) with no 'the' and no plural; published text (Kathmandu Post full transcript, 25 Sep 2026) 'we propose that we establish a Himalayan Climate Resilience Mechanism'; ES 'un mecanismo de resiliencia climática para el Himalaya'); spot 25 unit 60 'shall will' -> 'shall' (both decodes clearly hear 'shall do more' without 'will' (0.99-1.00); doubled modal is an invention; ES 'haremos más'; published text (Kathmandu Post full transcript, 25 Sep 2026) 'we shall do more'); spot 31 unit 103 'walk' -> 'work' (both decodes hear 'work together' (0.81); published text (Kathmandu Post full transcript, 25 Sep 2026) 'we can work together towards just outcomes'); spot 32 unit 103 'about it is about' -> 'about' (repeat: decodes and three re-decodes at 708/710/712 s hear 'who has a voice. It is about the future' with a single 'it is about' (0.97-1.00)); spot 33 unit 103 'generation' -> 'generations' (decodes hear 'generations' (0.65 / 0.62); published text (Kathmandu Post full transcript, 25 Sep 2026) 'generations yet unborn'; ES 'las generaciones'); spot 34 unit 103 'Sagar Mata to see side events' -> 'Sagarmatha to Sea side event' (words sit in the existing repair 'Sagar Mata to see side events' -> 'Sagarmatha to Sea side events'; decodes hear 'Seaside event' (0.86 / 0.79); published text (Kathmandu Post full transcript, 25 Sep 2026) 'Sagarmatha to the Sea side-event'; ES 'el evento paralelo'); spot 35 unit 107 'flood signals' -> 'floods signal' (decode 1 hears 'floods signal' (0.39 / 0.70), same sounds; published text (Kathmandu Post full transcript, 25 Sep 2026) 'The Nepal floods signal a future')",
+ "unitizer_version": 1,
+ "sha1": "e7be3294f716d3ec6a0630244dfb9f721a05c202",
+ "layout": "single",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 2,
+   "repeat": 1
+  },
+  "prestrip": {},
+  "words_in": 1818,
+  "words_out": 1756,
+  "retention": 0.9659,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   167,
+   164,
+   125,
+   114,
+   108,
+   113,
+   99,
+   131,
+   126,
+   139,
+   84,
+   80,
+   106,
+   86,
+   98,
+   16
+  ],
+  "warnings": [
+   "34 fixes"
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "CRI_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  11,
+  17,
+  24,
+  29,
+  33,
+  36,
+  42,
+  45,
+  49,
+  53,
+  57,
+  63,
+  69
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "world, God",
+   "world. God",
+   "ocr"
+  ],
+  [
+   63,
+   "[Latin American Centre for Training in Agricultural Statistics]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   "[Higher School of Public Administration of Central America]",
+   "",
+   "label"
+  ],
+  [
+   65,
+   "[Institute of Housing and Town Planning]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "162b700b062bdd9fd380febd14311272706865b8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 29
+  },
+  "words_in": 2223,
+  "words_out": 2201,
+  "retention": 0.9901,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   112,
+   178,
+   96,
+   179,
+   192,
+   165,
+   119,
+   168,
+   92,
+   125,
+   96,
+   103,
+   125,
+   158,
+   221,
+   72
+  ],
+  "warnings": []
+ }
+}

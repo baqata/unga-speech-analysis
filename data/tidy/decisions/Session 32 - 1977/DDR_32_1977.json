@@ -1,0 +1,212 @@
+{
+ "id": "DDR_32_1977",
+ "drop": [
+  [
+   4,
+   4,
+   "header_footer"
+  ],
+  [
+   9,
+   9,
+   "header_footer"
+  ],
+  [
+   16,
+   16,
+   "header_footer"
+  ],
+  [
+   20,
+   20,
+   "header_footer"
+  ],
+  [
+   32,
+   32,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  10,
+  17,
+  21,
+  26,
+  33,
+  37,
+  44,
+  45,
+  53,
+  60,
+  63,
+  67,
+  70,
+  78,
+  80,
+  85,
+  87,
+  91,
+  93,
+  100,
+  108,
+  112,
+  120,
+  123,
+  127,
+  132,
+  137,
+  142,
+  150,
+  153,
+  158,
+  161,
+  164,
+  169
+ ],
+ "cer": [
+  0,
+  3,
+  44
+ ],
+ "fix": [
+  [
+   3,
+   "44. ",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "protection ,",
+   "protection,",
+   "spacing"
+  ],
+  [
+   19,
+   "48. ",
+   "",
+   "label"
+  ],
+  [
+   26,
+   "50 ",
+   "",
+   "label"
+  ],
+  [
+   34,
+   " /see A/32/242]",
+   "",
+   "label"
+  ],
+  [
+   37,
+   "52 ",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "53 ",
+   "",
+   "label"
+  ],
+  [
+   42,
+   "Viet Nam..",
+   "Viet Nam.",
+   "ocr"
+  ],
+  [
+   48,
+   "Republics s the",
+   "Republics is the",
+   "ocr"
+  ],
+  [
+   79,
+   "10",
+   "",
+   "label"
+  ],
+  [
+   85,
+   "nuclear Held",
+   "nuclear field",
+   "ocr"
+  ],
+  [
+   105,
+   "Soviet .",
+   "Soviet",
+   "ocr"
+  ],
+  [
+   149,
+   "neo- colonialist",
+   "neo-colonialist",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Surviving paragraph numbers removed (standalone ones dropped, leading ones by label); footnote marker in unit 79 and document symbol in unit 34 removed.",
+ "unitizer_version": 1,
+ "sha1": "5fc683e16b23b5edc2cfb66e3519f9dcce964887",
+ "layout": "lines",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {
+   "header_footer": 5
+  },
+  "prestrip": {
+   "paragraph_number": 40
+  },
+  "words_in": 3864,
+  "words_out": 3849,
+  "retention": 0.9961,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   65,
+   35,
+   71,
+   157,
+   77,
+   105,
+   146,
+   82,
+   169,
+   32,
+   148,
+   167,
+   54,
+   87,
+   92,
+   126,
+   70,
+   101,
+   74,
+   58,
+   70,
+   150,
+   231,
+   86,
+   150,
+   94,
+   57,
+   61,
+   107,
+   129,
+   202,
+   60,
+   122,
+   107,
+   80,
+   166,
+   61
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "MCO_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  34,
+  47,
+  62,
+  76,
+  93,
+  111,
+  135,
+  148,
+  165,
+  181,
+  194
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   51,
+   "clichÈs",
+   "clichés",
+   "encoding"
+  ],
+  [
+   54,
+   "SocietÈ",
+   "Societé",
+   "encoding"
+  ],
+  [
+   117,
+   "`opaque'",
+   "‘opaque'",
+   "ocr"
+  ],
+  [
+   129,
+   "`soft'",
+   "‘soft'",
+   "ocr"
+  ],
+  [
+   216,
+   "`One",
+   "‘One",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "643c96693a5f70855a8db74fc8323da6fab863b2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 219,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1810,
+  "words_out": 1806,
+  "retention": 0.9978,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   124,
+   153,
+   102,
+   137,
+   114,
+   147,
+   148,
+   196,
+   105,
+   140,
+   130,
+   98,
+   212
+  ],
+  "warnings": []
+ }
+}

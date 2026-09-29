@@ -1,0 +1,56 @@
+{
+ "id": "MDA_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  20,
+  26,
+  32,
+  35,
+  42,
+  50,
+  57,
+  73,
+  77
+ ],
+ "cer": [],
+ "fix": [
+  [
+   58,
+   "citizen- oriented",
+   "citizen-oriented",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac470c58b36d279fc55177e8cd36c39fb4fdeafe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1483,
+  "words_out": 1482,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   63,
+   191,
+   182,
+   120,
+   135,
+   68,
+   154,
+   119,
+   131,
+   185,
+   65,
+   69
+  ],
+  "warnings": []
+ }
+}

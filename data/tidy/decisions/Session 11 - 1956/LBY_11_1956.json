@@ -1,0 +1,85 @@
+{
+ "id": "LBY_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  5,
+  6,
+  8,
+  11,
+  12,
+  15,
+  17,
+  20
+ ],
+ "cer": [
+  0,
+  1,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   4,
+   "add wishes",
+   "and wishes",
+   "ocr"
+  ],
+  [
+   7,
+   "It halts",
+   "It hails",
+   "ocr"
+  ],
+  [
+   9,
+   "Palestine and.",
+   "Palestine and",
+   "ocr"
+  ],
+  [
+   15,
+   "My, delegation",
+   "My delegation",
+   "ocr"
+  ],
+  [
+   20,
+   "which, inspired",
+   "which inspired",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7bbae441122ff873ab22b3f0c16becfc2c848745",
+ "layout": "lines",
+ "stats": {
+  "n_units": 21,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 10
+  },
+  "words_in": 1071,
+  "words_out": 1069,
+  "retention": 0.9981,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   48,
+   90,
+   44,
+   96,
+   72,
+   200,
+   97,
+   151,
+   95,
+   116,
+   60
+  ],
+  "warnings": []
+ }
+}

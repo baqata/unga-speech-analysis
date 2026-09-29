@@ -1,0 +1,98 @@
+{
+ "id": "ECU_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  19,
+  22,
+  25,
+  28,
+  30,
+  34,
+  38,
+  43,
+  44,
+  53,
+  55,
+  59,
+  61,
+  63,
+  67,
+  73,
+  75
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   25,
+   "voices m favour",
+   "voices in favour",
+   "ocr"
+  ],
+  [
+   26,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   33,
+   "non- democratic",
+   "non-democratic",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60a165948fa2acae665c9856f1f901550d7cd8a4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 78,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2637,
+  "words_out": 2634,
+  "retention": 0.9989,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   134,
+   106,
+   96,
+   94,
+   154,
+   180,
+   177,
+   118,
+   77,
+   196,
+   89,
+   116,
+   89,
+   215,
+   67,
+   108,
+   59,
+   82,
+   114,
+   164,
+   114,
+   85
+  ],
+  "warnings": []
+ }
+}

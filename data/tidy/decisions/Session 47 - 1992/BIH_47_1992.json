@@ -1,0 +1,52 @@
+{
+ "id": "BIH_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  37,
+  50,
+  65,
+  87,
+  112,
+  134,
+  149
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   43,
+   "guest for",
+   "quest for",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82408f12c8bd44bf5b2691afe74f80af994d04e3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1629,
+  "words_out": 1629,
+  "retention": 1.0,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   123,
+   251,
+   129,
+   120,
+   201,
+   268,
+   227,
+   162,
+   148
+  ],
+  "warnings": []
+ }
+}

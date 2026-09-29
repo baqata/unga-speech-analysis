@@ -1,0 +1,105 @@
+{
+ "id": "GTM_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  17,
+  21,
+  27,
+  32,
+  40,
+  43,
+  47,
+  52,
+  58,
+  62,
+  66,
+  68,
+  71,
+  77,
+  84,
+  89,
+  94,
+  96,
+  100,
+  103,
+  105
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "should dike",
+   "should like",
+   "ocr"
+  ],
+  [
+   10,
+   "Non-Self- Governing",
+   "Non-Self-Governing",
+   "spacing"
+  ],
+  [
+   45,
+   "In slating",
+   "In stating",
+   "ocr"
+  ],
+  [
+   49,
+   "been-owing",
+   "been owing",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "91f3d8294b51b86a63b0df3b9100fc09ea4106bf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 3,
+   "paragraph_number": 46
+  },
+  "words_in": 3938,
+  "words_out": 3934,
+  "retention": 0.999,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   100,
+   108,
+   196,
+   198,
+   147,
+   155,
+   207,
+   228,
+   139,
+   135,
+   227,
+   250,
+   159,
+   149,
+   128,
+   206,
+   238,
+   235,
+   120,
+   107,
+   96,
+   106,
+   79,
+   102,
+   119
+  ],
+  "warnings": []
+ }
+}

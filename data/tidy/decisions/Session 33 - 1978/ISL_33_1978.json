@@ -1,0 +1,103 @@
+{
+ "id": "ISL_33_1978",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  16,
+  18,
+  21,
+  25,
+  28,
+  31,
+  34,
+  42,
+  46,
+  52,
+  63,
+  70,
+  75,
+  80,
+  85,
+  88,
+  94
+ ],
+ "cer": [
+  0,
+  94
+ ],
+ "fix": [
+  [
+   6,
+   "political slow",
+   "political show",
+   "ocr"
+  ],
+  [
+   26,
+   "spite bf",
+   "spite of",
+   "ocr"
+  ],
+  [
+   31,
+   "229 ",
+   "",
+   "label"
+  ],
+  [
+   57,
+   "rise to anew age",
+   "rise to a new age",
+   "spacing"
+  ],
+  [
+   66,
+   "ar6",
+   "are",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d3535526417eee331e78ca4496fb4850e1649b4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2305,
+  "words_out": 2305,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   55,
+   78,
+   127,
+   100,
+   55,
+   110,
+   106,
+   64,
+   79,
+   103,
+   205,
+   129,
+   125,
+   202,
+   161,
+   151,
+   135,
+   95,
+   81,
+   111,
+   33
+  ],
+  "warnings": []
+ }
+}

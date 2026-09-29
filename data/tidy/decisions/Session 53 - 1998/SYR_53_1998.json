@@ -1,0 +1,104 @@
+{
+ "id": "SYR_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  27,
+  46,
+  61,
+  86,
+  107,
+  122,
+  136,
+  147,
+  161,
+  173,
+  194,
+  215,
+  227,
+  235,
+  250,
+  260,
+  270
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   31,
+   "Israel?s",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   126,
+   "Israel?s",
+   "Israel’s",
+   "encoding"
+  ],
+  [
+   217,
+   "people?s",
+   "people’s",
+   "encoding"
+  ],
+  [
+   223,
+   "Cuba?s",
+   "Cuba’s",
+   "encoding"
+  ],
+  [
+   250,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   251,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b0129006866c10c5a65f75b2e351d258fa528bb5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 286,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2378,
+  "words_out": 2371,
+  "retention": 0.9971,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   108,
+   108,
+   165,
+   131,
+   203,
+   174,
+   116,
+   129,
+   94,
+   132,
+   116,
+   170,
+   174,
+   89,
+   61,
+   120,
+   80,
+   78,
+   123
+  ],
+  "warnings": []
+ }
+}

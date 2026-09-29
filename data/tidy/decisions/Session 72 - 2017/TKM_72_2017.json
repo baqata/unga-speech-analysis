@@ -1,0 +1,70 @@
+{
+ "id": "TKM_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  15,
+  18,
+  24,
+  26,
+  28,
+  32,
+  36,
+  38
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "Counter- Terrorism",
+   "Counter-Terrorism",
+   "hyphen"
+  ],
+  [
+   24,
+   "cooperation.Currently",
+   "cooperation. Currently",
+   "spacing"
+  ],
+  [
+   27,
+   " (A/71/878, annex)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0dae02fd4e31367fe51000ef8beebd854d0ee0c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1343,
+  "words_out": 1341,
+  "retention": 0.9985,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   83,
+   84,
+   86,
+   116,
+   118,
+   178,
+   137,
+   121,
+   164,
+   107,
+   95,
+   52
+  ],
+  "warnings": []
+ }
+}

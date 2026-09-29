@@ -1,0 +1,181 @@
+{
+ "id": "IDN_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  7,
+  13,
+  16,
+  21,
+  25,
+  28,
+  33,
+  36,
+  38,
+  40,
+  45,
+  50,
+  54,
+  58,
+  62,
+  67,
+  71,
+  76,
+  83,
+  93,
+  96,
+  101,
+  105,
+  111,
+  114,
+  118,
+  121
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "express he deep",
+   "express the deep",
+   "ocr"
+  ],
+  [
+   9,
+   "economy„",
+   "economy.",
+   "ocr"
+  ],
+  [
+   13,
+   "wide: in",
+   "wider in",
+   "ocr"
+  ],
+  [
+   20,
+   "Consequently. the",
+   "Consequently, the",
+   "ocr"
+  ],
+  [
+   22,
+   "Production of",
+   "production of",
+   "ocr"
+  ],
+  [
+   26,
+   "598 ,(1987)",
+   "598 (1987)",
+   "ocr"
+  ],
+  [
+   27,
+   "win finally",
+   "will finally",
+   "ocr"
+  ],
+  [
+   29,
+   "(SWAEO)",
+   "(SWAPO)",
+   "ocr"
+  ],
+  [
+   30,
+   "43 5 (1978)",
+   "435 (1978)",
+   "ocr"
+  ],
+  [
+   42,
+   "intifidah",
+   "intifadah",
+   "ocr"
+  ],
+  [
+   49,
+   "(PI0)",
+   "(PLO)",
+   "ocr"
+  ],
+  [
+   82,
+   "regress ion",
+   "regression",
+   "split_word"
+  ],
+  [
+   74,
+   "parties* shared",
+   "parties' shared",
+   "ocr"
+  ],
+  [
+   102,
+   "shaded responsibility",
+   "shared responsibility",
+   "ocr"
+  ],
+  [
+   123,
+   "this month.",
+   "this month:",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 24 breaks off mid-sentence ('should then') before the Iran-Iraq passage; text appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "ba1ba42ae05faf54151235c4a4315a732632f0f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 126,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3873,
+  "words_out": 3871,
+  "retention": 0.9995,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   145,
+   41,
+   69,
+   212,
+   85,
+   148,
+   125,
+   69,
+   171,
+   88,
+   63,
+   70,
+   206,
+   165,
+   118,
+   148,
+   104,
+   194,
+   112,
+   161,
+   187,
+   223,
+   94,
+   146,
+   132,
+   138,
+   101,
+   137,
+   65,
+   154
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "OMN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  11,
+  14,
+  17,
+  21,
+  24,
+  27,
+  29,
+  33,
+  37,
+  39
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   25,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e54b23a4e5117aac168aaf8183f2a9a3d467560",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1304,
+  "words_out": 1303,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   83,
+   72,
+   159,
+   97,
+   133,
+   98,
+   117,
+   113,
+   65,
+   97,
+   134,
+   54,
+   81
+  ],
+  "warnings": []
+ }
+}

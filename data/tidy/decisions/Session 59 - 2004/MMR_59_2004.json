@@ -1,0 +1,77 @@
+{
+ "id": "MMR_59_2004",
+ "drop": [
+  [
+   201,
+   201,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  27,
+  51,
+  62,
+  77,
+  88,
+  105,
+  118,
+  130,
+  141,
+  152,
+  173,
+  186,
+  202,
+  211,
+  225,
+  237,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6fce11f0fa272423698635c3f3d9b8141b2e13e9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 265,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2036,
+  "words_out": 2026,
+  "retention": 0.9951,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   92,
+   121,
+   182,
+   66,
+   118,
+   86,
+   132,
+   92,
+   90,
+   79,
+   78,
+   164,
+   99,
+   112,
+   69,
+   116,
+   93,
+   123,
+   114
+  ],
+  "warnings": [
+   "procedural drop [201,201] in the middle of the speech"
+  ]
+ }
+}

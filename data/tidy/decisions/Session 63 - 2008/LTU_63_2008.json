@@ -1,0 +1,47 @@
+{
+ "id": "LTU_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  24,
+  39,
+  65,
+  90,
+  109,
+  135,
+  160
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fbc9d2f2fb80a1dfc1ca522c8f0708ab5cb1c18e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1418,
+  "words_out": 1417,
+  "retention": 0.9993,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   26,
+   160,
+   133,
+   214,
+   198,
+   157,
+   200,
+   197,
+   132
+  ],
+  "warnings": []
+ }
+}

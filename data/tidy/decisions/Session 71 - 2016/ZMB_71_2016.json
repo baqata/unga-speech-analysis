@@ -1,0 +1,81 @@
+{
+ "id": "ZMB_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  11,
+  14,
+  17,
+  20,
+  25,
+  30,
+  34,
+  38,
+  41,
+  44,
+  48,
+  53,
+  57,
+  60,
+  68,
+  72,
+  76,
+  82
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   73,
+   "Zmbia",
+   "Zambia",
+   "ocr"
+  ],
+  [
+   40,
+   "Change .",
+   "Change.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95d23aa3286535f5af08ae234c364ecab3e96c06",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2006,
+  "words_out": 2005,
+  "retention": 0.9995,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   99,
+   130,
+   99,
+   62,
+   86,
+   117,
+   102,
+   118,
+   90,
+   68,
+   86,
+   63,
+   123,
+   131,
+   88,
+   148,
+   105,
+   103,
+   149,
+   38
+  ],
+  "warnings": []
+ }
+}

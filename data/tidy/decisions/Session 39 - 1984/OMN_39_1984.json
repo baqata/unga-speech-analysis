@@ -1,0 +1,94 @@
+{
+ "id": "OMN_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  15,
+  21,
+  25,
+  29,
+  33,
+  36,
+  39,
+  43,
+  47,
+  51,
+  55,
+  59,
+  63,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   10,
+   "It significant",
+   "The significant",
+   "ocr"
+  ],
+  [
+   17,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   45,
+   "South- East",
+   "South-East",
+   "hyphen"
+  ],
+  [
+   59,
+   "survival cr. this",
+   "survival on this",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "607201dfa81bba0e61a109e531b7d1b123bd1685",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 2126,
+  "words_out": 2123,
+  "retention": 0.9986,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   140,
+   128,
+   192,
+   175,
+   159,
+   107,
+   124,
+   94,
+   65,
+   109,
+   122,
+   108,
+   142,
+   84,
+   125,
+   89,
+   160
+  ],
+  "warnings": []
+ }
+}

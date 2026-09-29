@@ -1,0 +1,123 @@
+{
+ "id": "ITA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  11,
+  16,
+  20,
+  24,
+  28,
+  30,
+  34,
+  37,
+  41,
+  46,
+  49,
+  52,
+  55,
+  59,
+  64,
+  73,
+  78,
+  83
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   1,
+   "con-firmed",
+   "confirmed",
+   "hyphen"
+  ],
+  [
+   2,
+   "Lie'vano",
+   "Lievano",
+   "ocr"
+  ],
+  [
+   2,
+   "Mr. Salmi's",
+   "Mr. Salim's",
+   "ocr"
+  ],
+  [
+   6,
+   "107 ",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "Secretary- General's",
+   "Secretary-General's",
+   "spacing"
+  ],
+  [
+   47,
+   "frilly achieved",
+   "fully achieved",
+   "ocr"
+  ],
+  [
+   53,
+   "on I August",
+   "on 1 August",
+   "ocr"
+  ],
+  [
+   55,
+   "disarm-ament",
+   "disarmament",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a39bd69e9e56a9d5ac40e2998cd806f0e12e4121",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 47
+  },
+  "words_in": 3254,
+  "words_out": 3252,
+  "retention": 0.9994,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   177,
+   64,
+   91,
+   127,
+   179,
+   148,
+   172,
+   131,
+   63,
+   166,
+   137,
+   131,
+   191,
+   179,
+   95,
+   142,
+   159,
+   188,
+   233,
+   167,
+   173,
+   139
+  ],
+  "warnings": []
+ }
+}

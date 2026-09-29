@@ -1,0 +1,157 @@
+{
+ "id": "BGR_31_1976",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  3,
+  10,
+  19,
+  21,
+  25,
+  29,
+  33,
+  36,
+  40,
+  46,
+  52,
+  54,
+  59,
+  69,
+  78,
+  82,
+  84,
+  88,
+  91,
+  98,
+  102,
+  106,
+  109,
+  111,
+  115,
+  117,
+  119,
+  124
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   0,
+   "whole hearted",
+   "wholehearted",
+   "split_word"
+  ],
+  [
+   0,
+   "as Resident of",
+   "as President of",
+   "ocr"
+  ],
+  [
+   11,
+   "There ate quite",
+   "There are quite",
+   "ocr"
+  ],
+  [
+   19,
+   "the 'consistent",
+   "the consistent",
+   "ocr"
+  ],
+  [
+   24,
+   "their- power",
+   "their power",
+   "ocr"
+  ],
+  [
+   50,
+   " [AI31/232J",
+   "",
+   "label"
+  ],
+  [
+   58,
+   " [A/31/243]",
+   "",
+   "label"
+  ],
+  [
+   70,
+   "of die process",
+   "of the process",
+   "ocr"
+  ],
+  [
+   77,
+   "at then- Conference",
+   "at their Conference",
+   "ocr"
+  ],
+  [
+   103,
+   "rights of the.",
+   "rights of the",
+   "ocr"
+  ],
+  [
+   113,
+   " [resolution 3390 (XXX)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c541abe9748e53da8a9ef46d6c11eef7d8ffc654",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 39
+  },
+  "words_in": 3421,
+  "words_out": 3415,
+  "retention": 0.9982,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   50,
+   29,
+   197,
+   219,
+   72,
+   125,
+   75,
+   109,
+   93,
+   79,
+   129,
+   166,
+   67,
+   179,
+   217,
+   157,
+   149,
+   79,
+   96,
+   133,
+   185,
+   114,
+   115,
+   74,
+   52,
+   99,
+   52,
+   78,
+   145,
+   81
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "IND_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  14,
+  20,
+  30,
+  34,
+  39,
+  46,
+  52,
+  58,
+  65,
+  80,
+  90,
+  96,
+  102,
+  109,
+  119,
+  123,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2182f630d53e37e89de2c01d68508f4d10857155",
+ "layout": "lines",
+ "stats": {
+  "n_units": 129,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 2
+  },
+  "words_in": 2380,
+  "words_out": 2379,
+  "retention": 0.9996,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   157,
+   85,
+   75,
+   135,
+   198,
+   89,
+   67,
+   100,
+   124,
+   154,
+   154,
+   218,
+   135,
+   87,
+   106,
+   167,
+   145,
+   70,
+   76,
+   37
+  ],
+  "warnings": []
+ }
+}

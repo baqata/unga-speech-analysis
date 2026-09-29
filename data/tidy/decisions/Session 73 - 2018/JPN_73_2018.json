@@ -1,0 +1,82 @@
+{
+ "id": "JPN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  18,
+  30,
+  35,
+  45,
+  47,
+  52,
+  59,
+  67,
+  71,
+  81
+ ],
+ "cer": [],
+ "fix": [
+  [
+   30,
+   "long- standing",
+   "long-standing",
+   "hyphen"
+  ],
+  [
+   32,
+   "twenty- second",
+   "twenty-second",
+   "hyphen"
+  ],
+  [
+   35,
+   " (see A/72/ PV.8)",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "high- school",
+   "high-school",
+   "hyphen"
+  ],
+  [
+   85,
+   "first- century",
+   "first-century",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "009b2cc772299d6afe54840fc74d9f8f73fe51bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2038,
+  "words_out": 2031,
+  "retention": 0.9966,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   220,
+   101,
+   92,
+   263,
+   119,
+   234,
+   56,
+   202,
+   151,
+   177,
+   81,
+   196,
+   139
+  ],
+  "warnings": []
+ }
+}

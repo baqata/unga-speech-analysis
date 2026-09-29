@@ -1,0 +1,207 @@
+{
+ "id": "BGR_21_1966",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  12,
+  19,
+  23,
+  29,
+  36,
+  43,
+  48,
+  53,
+  59,
+  68,
+  74,
+  77,
+  80,
+  84,
+  91,
+  98,
+  102,
+  106,
+  110,
+  113,
+  119,
+  123,
+  129,
+  139,
+  144,
+  153,
+  160,
+  164
+ ],
+ "cer": [
+  0,
+  164
+ ],
+ "fix": [
+  [
+   10,
+   "United Nations, Failure",
+   "United Nations. Failure",
+   "ocr"
+  ],
+  [
+   67,
+   "93], We",
+   "93]. We",
+   "ocr"
+  ],
+  [
+   67,
+   "[item 93]",
+   "",
+   "label"
+  ],
+  [
+   75,
+   "98], We",
+   "98]. We",
+   "ocr"
+  ],
+  [
+   75,
+   "[item 98]",
+   "",
+   "label"
+  ],
+  [
+   76,
+   "step, The adoption",
+   "step. The adoption",
+   "ocr"
+  ],
+  [
+   78,
+   "Geneva, This year",
+   "Geneva. This year",
+   "ocr"
+  ],
+  [
+   94,
+   "[agenda item 97]",
+   "",
+   "label"
+  ],
+  [
+   100,
+   "Mr, Thiam",
+   "Mr. Thiam",
+   "ocr"
+  ],
+  [
+   112,
+   "respect,",
+   "respect.",
+   "ocr"
+  ],
+  [
+   118,
+   "them,",
+   "them.",
+   "ocr"
+  ],
+  [
+   135,
+   "exception, That is why",
+   "exception. That is why",
+   "ocr"
+  ],
+  [
+   137,
+   "Charter, One of",
+   "Charter. One of",
+   "ocr"
+  ],
+  [
+   138,
+   "Africa, Our delegation",
+   "Africa. Our delegation",
+   "ocr"
+  ],
+  [
+   141,
+   "organizetions",
+   "organizations",
+   "ocr"
+  ],
+  [
+   154,
+   "problems 1 have",
+   "problems I have",
+   "ocr"
+  ],
+  [
+   163,
+   "[agenda item 96]",
+   "",
+   "label"
+  ],
+  [
+   163,
+   "[agenda item 92]",
+   "",
+   "label"
+  ],
+  [
+   163,
+   "the. item",
+   "the item",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "72acb164e4a9e64cd3ac03ef340219a1b51d5594",
+ "layout": "lines",
+ "stats": {
+  "n_units": 168,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 4171,
+  "words_out": 4104,
+  "retention": 0.9839,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   53,
+   66,
+   166,
+   171,
+   86,
+   164,
+   152,
+   119,
+   105,
+   148,
+   120,
+   261,
+   192,
+   129,
+   107,
+   109,
+   143,
+   154,
+   108,
+   99,
+   100,
+   62,
+   125,
+   131,
+   116,
+   234,
+   104,
+   206,
+   168,
+   129,
+   77
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "TLS_63_2008",
+ "drop": [
+  [
+   140,
+   141,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  24,
+  50,
+  61,
+  77,
+  87,
+  107,
+  126,
+  142,
+  163,
+  176,
+  187,
+  202,
+  217
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "656a58379313f6c0226930916f40df9043f95df1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 239,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "language_note": 1,
+   "job_number": 2
+  },
+  "words_in": 1921,
+  "words_out": 1912,
+  "retention": 0.9953,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   81,
+   102,
+   204,
+   104,
+   134,
+   86,
+   158,
+   144,
+   105,
+   173,
+   110,
+   104,
+   114,
+   122,
+   171
+  ],
+  "warnings": [
+   "procedural drop [140,141] in the middle of the speech"
+  ]
+ }
+}

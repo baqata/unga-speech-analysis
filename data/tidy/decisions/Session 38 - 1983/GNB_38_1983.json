@@ -1,0 +1,114 @@
+{
+ "id": "GNB_38_1983",
+ "drop": [
+  [
+   1,
+   1,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  9,
+  12,
+  14,
+  18,
+  20,
+  22,
+  24,
+  28,
+  31,
+  36,
+  38,
+  42,
+  46,
+  49,
+  54,
+  56,
+  60,
+  63,
+  67,
+  71,
+  76,
+  78,
+  83
+ ],
+ "cer": [
+  0,
+  6,
+  12
+ ],
+ "fix": [
+  [
+   7,
+   " [,4/33/V]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "Western Sahara .",
+   "Western Sahara.",
+   "spacing"
+  ],
+  [
+   66,
+   "ail hostilities",
+   "all hostilities",
+   "ocr"
+  ],
+  [
+   84,
+   "reflected m the",
+   "reflected in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b29ce1583a43b1bbf3aaf33c8c5885da7388d7f8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 55
+  },
+  "words_in": 3673,
+  "words_out": 3670,
+  "retention": 0.9992,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   240,
+   173,
+   143,
+   83,
+   114,
+   110,
+   106,
+   99,
+   120,
+   159,
+   216,
+   50,
+   157,
+   138,
+   148,
+   194,
+   75,
+   249,
+   138,
+   136,
+   146,
+   173,
+   92,
+   195,
+   216
+  ],
+  "warnings": []
+ }
+}

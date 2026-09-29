@@ -1,0 +1,125 @@
+{
+ "id": "LUX_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  22,
+  43,
+  63,
+  78,
+  87,
+  107,
+  122,
+  139,
+  161,
+  170,
+  180,
+  192,
+  214,
+  230,
+  253,
+  262,
+  277,
+  290,
+  307,
+  319,
+  331
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   57,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   61,
+   "Council?s",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   190,
+   "Organization?s",
+   "Organization’s",
+   "encoding"
+  ],
+  [
+   193,
+   "community?s",
+   "community’s",
+   "encoding"
+  ],
+  [
+   232,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   239,
+   "year?s",
+   "year’s",
+   "encoding"
+  ],
+  [
+   262,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   336,
+   "Luxembourg?s",
+   "Luxembourg’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f08ce6cd17b6d8db9617c2c4bbdf03137783c0d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 337,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2786,
+  "words_out": 2782,
+  "retention": 0.9986,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   72,
+   98,
+   188,
+   165,
+   125,
+   70,
+   166,
+   127,
+   145,
+   196,
+   78,
+   85,
+   100,
+   160,
+   118,
+   181,
+   73,
+   124,
+   105,
+   140,
+   103,
+   109,
+   54
+  ],
+  "warnings": []
+ }
+}

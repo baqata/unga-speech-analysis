@@ -1,0 +1,76 @@
+{
+ "id": "KHM_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  16,
+  20,
+  24,
+  29,
+  36,
+  41,
+  45,
+  49,
+  55,
+  61,
+  69,
+  76,
+  81,
+  86,
+  90,
+  95
+ ],
+ "cer": [],
+ "fix": [
+  [
+   18,
+   "destabilize s States",
+   "destabilize States",
+   "ocr"
+  ],
+  [
+   61,
+   "10/34 16-29817 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "51013a7a88f00322a5265d3863cf1a19b7bdd2a3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1997,
+  "words_out": 1994,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   122,
+   80,
+   124,
+   97,
+   74,
+   130,
+   93,
+   86,
+   106,
+   115,
+   131,
+   92,
+   177,
+   130,
+   120,
+   78,
+   102,
+   115,
+   22
+  ],
+  "warnings": []
+ }
+}

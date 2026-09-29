@@ -1,0 +1,79 @@
+{
+ "id": "KHM_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  21,
+  24,
+  29,
+  35,
+  41,
+  45,
+  47
+ ],
+ "cer": [
+  0,
+  47
+ ],
+ "fix": [
+  [
+   8,
+   "COVID- 19",
+   "COVID-19",
+   "spacing"
+  ],
+  [
+   20,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   21,
+   "rules- based",
+   "rules-based",
+   "spacing"
+  ],
+  [
+   28,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   37,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c53b8f55bd8ad418bbe81e352f5afd948d8d18c6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 48,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1023,
+  "words_out": 1018,
+  "retention": 0.9951,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   82,
+   186,
+   148,
+   65,
+   139,
+   109,
+   122,
+   102,
+   58,
+   7
+  ],
+  "warnings": []
+ }
+}

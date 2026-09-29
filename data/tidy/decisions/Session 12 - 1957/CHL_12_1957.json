@@ -1,0 +1,65 @@
+{
+ "id": "CHL_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  11,
+  13,
+  19,
+  23,
+  30,
+  33,
+  43,
+  46,
+  50,
+  53,
+  55
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   52,
+   " [UNICEF]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6a0d6c169a9f66387faae45c10d66dbdc106fdf0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 16
+  },
+  "words_in": 1666,
+  "words_out": 1664,
+  "retention": 0.9988,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   91,
+   94,
+   138,
+   70,
+   138,
+   124,
+   126,
+   160,
+   191,
+   72,
+   135,
+   86,
+   70,
+   169
+  ],
+  "warnings": []
+ }
+}

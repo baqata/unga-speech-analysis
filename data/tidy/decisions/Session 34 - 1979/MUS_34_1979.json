@@ -1,0 +1,91 @@
+{
+ "id": "MUS_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  17,
+  21,
+  23,
+  27,
+  34,
+  40,
+  47,
+  51,
+  54,
+  58,
+  63,
+  71
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   8,
+   "com-munity",
+   "community",
+   "hyphen"
+  ],
+  [
+   26,
+   "Ail steps",
+   "All steps",
+   "ocr"
+  ],
+  [
+   38,
+   "year1 certain",
+   "year certain",
+   "ocr"
+  ],
+  [
+   49,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   62,
+   "Inter-national",
+   "International",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7301767d754e79f6bfa173ee1838f2c7b8193185",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 1892,
+  "words_out": 1891,
+  "retention": 0.9995,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   161,
+   94,
+   142,
+   92,
+   87,
+   87,
+   216,
+   187,
+   166,
+   98,
+   71,
+   105,
+   156,
+   130,
+   99
+  ],
+  "warnings": []
+ }
+}

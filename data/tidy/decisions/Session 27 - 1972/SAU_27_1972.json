@@ -1,0 +1,83 @@
+{
+ "id": "SAU_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  15,
+  22,
+  24,
+  27,
+  30,
+  33,
+  37,
+  41,
+  44,
+  48,
+  52,
+  56,
+  58
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   42,
+   " [see A/8791/Add.l]",
+   "",
+   "label"
+  ],
+  [
+   43,
+   " [item 92]",
+   "",
+   "label"
+  ],
+  [
+   46,
+   "very -slow",
+   "very slow",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "98a433344e3cc41e97d0b6a9b3ce7067d38bed30",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 28
+  },
+  "words_in": 2014,
+  "words_out": 2010,
+  "retention": 0.998,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   137,
+   75,
+   141,
+   145,
+   175,
+   93,
+   73,
+   68,
+   87,
+   179,
+   144,
+   94,
+   103,
+   133,
+   86,
+   100,
+   177
+  ],
+  "warnings": []
+ }
+}

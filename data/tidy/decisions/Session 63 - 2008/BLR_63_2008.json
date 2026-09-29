@@ -1,0 +1,47 @@
+{
+ "id": "BLR_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  43,
+  68,
+  88,
+  108,
+  128,
+  151,
+  165,
+  186
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4e5c8cdf033eb921ffaa1812a8e29d8ac29427a4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1593,
+  "words_out": 1592,
+  "retention": 0.9994,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   162,
+   167,
+   201,
+   152,
+   160,
+   164,
+   193,
+   112,
+   157,
+   124
+  ],
+  "warnings": []
+ }
+}

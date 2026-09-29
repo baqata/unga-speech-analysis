@@ -1,0 +1,94 @@
+{
+ "id": "SOM_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  9,
+  13,
+  17,
+  23,
+  30,
+  35,
+  39,
+  42,
+  45,
+  49,
+  52,
+  58,
+  61,
+  65,
+  69,
+  73,
+  76,
+  79,
+  84,
+  88,
+  93
+ ],
+ "cer": [
+  7
+ ],
+ "fix": [
+  [
+   55,
+   "public- private",
+   "public-private",
+   "hyphen"
+  ],
+  [
+   60,
+   "much- needed",
+   "much-needed",
+   "hyphen"
+  ],
+  [
+   71,
+   "livestock- based",
+   "livestock-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30a50bc4f742f6d7094d4f7afa604f238740a683",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2847,
+  "words_out": 2844,
+  "retention": 0.9989,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   101,
+   153,
+   66,
+   141,
+   130,
+   112,
+   188,
+   102,
+   106,
+   106,
+   110,
+   118,
+   87,
+   180,
+   108,
+   127,
+   103,
+   146,
+   92,
+   116,
+   146,
+   132,
+   87,
+   87
+  ],
+  "warnings": []
+ }
+}

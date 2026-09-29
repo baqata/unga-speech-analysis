@@ -1,0 +1,65 @@
+{
+ "id": "MLI_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  30,
+  55,
+  81,
+  105,
+  121,
+  139,
+  150,
+  164,
+  175,
+  205,
+  218,
+  231,
+  243,
+  254,
+  270,
+  280,
+  294
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9733237fb1e1e387b882f1cdaac81f88b84dba81",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 300,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2361,
+  "words_out": 2359,
+  "retention": 0.9992,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   241,
+   200,
+   199,
+   180,
+   119,
+   144,
+   76,
+   115,
+   96,
+   232,
+   97,
+   113,
+   91,
+   97,
+   129,
+   70,
+   111,
+   49
+  ],
+  "warnings": []
+ }
+}

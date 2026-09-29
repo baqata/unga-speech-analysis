@@ -1,0 +1,72 @@
+{
+ "id": "THA_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  12,
+  16,
+  19,
+  24,
+  26,
+  28,
+  31,
+  34,
+  39,
+  43,
+  45,
+  48,
+  51,
+  54,
+  60,
+  62
+ ],
+ "cer": [
+  62
+ ],
+ "fix": [
+  [
+   24,
+   "26/30 16-29503 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c3f63b24a8b35adaafd83e5fb5fe4dbb33a4386",
+ "layout": "lines",
+ "stats": {
+  "n_units": 65,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1630,
+  "words_out": 1628,
+  "retention": 0.9988,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   78,
+   67,
+   117,
+   111,
+   73,
+   117,
+   61,
+   67,
+   79,
+   106,
+   108,
+   107,
+   63,
+   93,
+   68,
+   68,
+   118,
+   62,
+   65
+  ],
+  "warnings": []
+ }
+}

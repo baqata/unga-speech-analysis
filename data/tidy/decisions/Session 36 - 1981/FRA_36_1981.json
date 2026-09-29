@@ -1,0 +1,240 @@
+{
+ "id": "FRA_36_1981",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  12,
+  16,
+  21,
+  31,
+  34,
+  39,
+  41,
+  45,
+  49,
+  56,
+  60,
+  64,
+  69,
+  78,
+  85,
+  93,
+  100,
+  103,
+  111,
+  116,
+  129,
+  134,
+  139,
+  143,
+  148,
+  152,
+  158,
+  165,
+  171,
+  177,
+  184
+ ],
+ "cer": [
+  0,
+  2,
+  5
+ ],
+ "fix": [
+  [
+   24,
+   "^defend",
+   "defend",
+   "encoding"
+  ],
+  [
+   24,
+   "we . believe",
+   "we believe",
+   "ocr"
+  ],
+  [
+   36,
+   "be fore",
+   "before",
+   "spacing"
+  ],
+  [
+   40,
+   "tribute 19*, them",
+   "tribute to them",
+   "ocr"
+  ],
+  [
+   40,
+   "express sing",
+   "expressing",
+   "spacing"
+  ],
+  [
+   52,
+   "wilt be",
+   "will be",
+   "ocr"
+  ],
+  [
+   52,
+   "fry an",
+   "by an",
+   "ocr"
+  ],
+  [
+   56,
+   "undertakings .of",
+   "undertakings of",
+   "ocr"
+  ],
+  [
+   60,
+   "suffering!.",
+   "suffering!",
+   "ocr"
+  ],
+  [
+   96,
+   "1 will not",
+   "I will not",
+   "ocr"
+  ],
+  [
+   96,
+   "so cities",
+   "societies",
+   "spacing"
+  ],
+  [
+   96,
+   "tel ling",
+   "telling",
+   "spacing"
+  ],
+  [
+   102,
+   "spoken ? a",
+   "spoken of a",
+   "ocr"
+  ],
+  [
+   118,
+   "sufficed Allow",
+   "suffice Allow",
+   "ocr"
+  ],
+  [
+   120,
+   "Without 'it",
+   "Without it",
+   "ocr"
+  ],
+  [
+   123,
+   "with out order",
+   "without order",
+   "spacing"
+  ],
+  [
+   131,
+   "enoughs France",
+   "enough France",
+   "ocr"
+  ],
+  [
+   147,
+   "can .be",
+   "can be",
+   "ocr"
+  ],
+  [
+   166,
+   "en tails",
+   "entails",
+   "spacing"
+  ],
+  [
+   173,
+   "monitor ing",
+   "monitoring",
+   "spacing"
+  ],
+  [
+   177,
+   "do 1 forget",
+   "do I forget",
+   "ocr"
+  ],
+  [
+   154,
+   " [ASEAN]",
+   "",
+   "label"
+  ],
+  [
+   155,
+   " [OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "65102937bfadae9e49a52ecca92914ecbbe8dde7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 189,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 51
+  },
+  "words_in": 4668,
+  "words_out": 4658,
+  "retention": 0.9979,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   52,
+   65,
+   112,
+   82,
+   129,
+   150,
+   96,
+   159,
+   83,
+   124,
+   125,
+   190,
+   114,
+   163,
+   129,
+   206,
+   223,
+   144,
+   184,
+   103,
+   128,
+   178,
+   238,
+   90,
+   85,
+   101,
+   144,
+   106,
+   160,
+   176,
+   144,
+   189,
+   166,
+   120
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

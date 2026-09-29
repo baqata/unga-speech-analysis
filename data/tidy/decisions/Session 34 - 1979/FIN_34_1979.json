@@ -1,0 +1,134 @@
+{
+ "id": "FIN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  19,
+  25,
+  29,
+  37,
+  44,
+  53,
+  57,
+  61,
+  65,
+  75,
+  78,
+  89,
+  92,
+  96,
+  100,
+  105,
+  111,
+  117,
+  122
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "Re-public",
+   "Republic",
+   "hyphen"
+  ],
+  [
+   24,
+   "be-wilderment",
+   "bewilderment",
+   "hyphen"
+  ],
+  [
+   28,
+   "There-fore",
+   "Therefore",
+   "hyphen"
+  ],
+  [
+   52,
+   "arms- limitation",
+   "arms-limitation",
+   "spacing"
+  ],
+  [
+   56,
+   "follow- up",
+   "follow-up",
+   "spacing"
+  ],
+  [
+   61,
+   "Non- Aligned",
+   "Non-Aligned",
+   "spacing"
+  ],
+  [
+   80,
+   "troop- contributing",
+   "troop-contributing",
+   "spacing"
+  ],
+  [
+   86,
+   "aimed violence",
+   "armed violence",
+   "ocr"
+  ],
+  [
+   95,
+   "239- ",
+   "",
+   "label"
+  ],
+  [
+   104,
+   "forgiving",
+   "for giving",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "038f26631efe1ae0be160012da288a543689c220",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3037,
+  "words_out": 3032,
+  "retention": 0.9984,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   97,
+   163,
+   107,
+   141,
+   100,
+   159,
+   149,
+   178,
+   124,
+   103,
+   97,
+   191,
+   97,
+   250,
+   100,
+   138,
+   106,
+   192,
+   164,
+   152,
+   140,
+   84
+  ],
+  "warnings": []
+ }
+}

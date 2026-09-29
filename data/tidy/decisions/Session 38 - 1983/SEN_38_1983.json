@@ -1,0 +1,158 @@
+{
+ "id": "SEN_38_1983",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  12,
+  15,
+  17,
+  21,
+  24,
+  26,
+  29,
+  34,
+  37,
+  41,
+  47,
+  52,
+  57,
+  60,
+  64,
+  68,
+  75,
+  82,
+  85,
+  91,
+  95,
+  100,
+  103,
+  106,
+  110,
+  113,
+  117,
+  120
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   5,
+   "thirty- seventh",
+   "thirty-seventh",
+   "hyphen"
+  ],
+  [
+   5,
+   "1982.1 wish",
+   "1982. I wish",
+   "ocr"
+  ],
+  [
+   5,
+   "E983.",
+   "1983.",
+   "ocr"
+  ],
+  [
+   11,
+   "01. ",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   29,
+   "2H. ",
+   "",
+   "label"
+  ],
+  [
+   70,
+   "228.",
+   "",
+   "label"
+  ],
+  [
+   80,
+   "year.'\"",
+   "year.",
+   "markup"
+  ],
+  [
+   86,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   111,
+   "day- to-day",
+   "day-to-day",
+   "hyphen"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 20 breaks off after 'United Nations Year'; the name of the proposed year is missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "2d8019bc0b732c80dbbbb1b36113627df8594d60",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 55
+  },
+  "words_in": 3879,
+  "words_out": 3872,
+  "retention": 0.9982,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   72,
+   99,
+   81,
+   123,
+   116,
+   63,
+   105,
+   93,
+   98,
+   83,
+   154,
+   81,
+   100,
+   199,
+   163,
+   146,
+   102,
+   125,
+   129,
+   131,
+   182,
+   171,
+   178,
+   135,
+   142,
+   94,
+   102,
+   141,
+   121,
+   139,
+   104,
+   100
+  ],
+  "warnings": []
+ }
+}

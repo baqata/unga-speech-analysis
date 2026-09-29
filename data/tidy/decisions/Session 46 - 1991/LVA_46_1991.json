@@ -1,0 +1,79 @@
+{
+ "id": "LVA_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  12,
+  16,
+  20,
+  23,
+  29,
+  33,
+  37,
+  40,
+  42
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   14,
+   "onwards.",
+   "onwards",
+   "ocr"
+  ],
+  [
+   15,
+   "East West, relations",
+   "East-West relations",
+   "ocr"
+  ],
+  [
+   25,
+   "riot only",
+   "not only",
+   "ocr"
+  ],
+  [
+   26,
+   "the Soviet.",
+   "the Soviet",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b5889683a894f9f0fd46a0e4a9d1ac65d801c999",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1238,
+  "words_out": 1237,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   92,
+   92,
+   115,
+   71,
+   82,
+   90,
+   65,
+   131,
+   130,
+   124,
+   106,
+   52,
+   87
+  ],
+  "warnings": []
+ }
+}

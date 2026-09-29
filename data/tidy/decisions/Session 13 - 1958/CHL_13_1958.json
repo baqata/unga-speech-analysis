@@ -1,0 +1,106 @@
+{
+ "id": "CHL_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  6,
+  7,
+  10,
+  13,
+  16,
+  19,
+  23,
+  28,
+  33,
+  35,
+  38,
+  41,
+  46,
+  48
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "countries, I refer",
+   "countries. I refer",
+   "ocr"
+  ],
+  [
+   6,
+   "ideology, We",
+   "ideology. We",
+   "ocr"
+  ],
+  [
+   7,
+   "bend",
+   "bond",
+   "ocr"
+  ],
+  [
+   14,
+   "inter- American",
+   "inter-American",
+   "hyphen"
+  ],
+  [
+   16,
+   "from, the",
+   "from the",
+   "ocr"
+  ],
+  [
+   32,
+   "tire Charter",
+   "the Charter",
+   "ocr"
+  ],
+  [
+   49,
+   "me rely",
+   "merely",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ad920f4a606b4fe7bb60e314cb09b38a3f4195fa",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2045,
+  "words_out": 2040,
+  "retention": 0.9976,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   31,
+   170,
+   91,
+   64,
+   119,
+   119,
+   112,
+   124,
+   152,
+   156,
+   201,
+   81,
+   82,
+   113,
+   201,
+   90,
+   134
+  ],
+  "warnings": []
+ }
+}

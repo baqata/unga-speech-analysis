@@ -1,0 +1,74 @@
+{
+ "id": "BGD_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  24,
+  33,
+  46,
+  62,
+  73,
+  82,
+  105,
+  124,
+  141,
+  155,
+  172,
+  193,
+  203,
+  227,
+  239,
+  254,
+  263
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "85424c36665d35b51d77d06b659dad0a0da28642",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 278,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 2210,
+  "words_out": 2204,
+  "retention": 0.9973,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   60,
+   132,
+   67,
+   87,
+   139,
+   79,
+   60,
+   197,
+   148,
+   140,
+   107,
+   141,
+   174,
+   72,
+   188,
+   102,
+   120,
+   68,
+   123
+  ],
+  "warnings": []
+ }
+}

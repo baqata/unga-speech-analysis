@@ -1,0 +1,73 @@
+{
+ "id": "FIN_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  15,
+  19,
+  25,
+  30,
+  36,
+  41,
+  47,
+  56,
+  62,
+  67
+ ],
+ "cer": [
+  0,
+  67
+ ],
+ "fix": [
+  [
+   12,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   43,
+   "long- lasting",
+   "long-lasting",
+   "hyphen"
+  ],
+  [
+   52,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c81ab593db675fe5dc06450b715bc6f91590b962",
+ "layout": "lines",
+ "stats": {
+  "n_units": 71,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1208,
+  "words_out": 1205,
+  "retention": 0.9975,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   27,
+   119,
+   72,
+   88,
+   118,
+   75,
+   97,
+   87,
+   108,
+   156,
+   84,
+   95,
+   79
+  ],
+  "warnings": []
+ }
+}

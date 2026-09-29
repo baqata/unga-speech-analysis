@@ -1,0 +1,73 @@
+{
+ "id": "SUR_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  19,
+  29,
+  38,
+  47,
+  58,
+  68,
+  77,
+  92,
+  102,
+  111,
+  122,
+  133,
+  144,
+  153,
+  174,
+  181,
+  192
+ ],
+ "cer": [
+  0,
+  12
+ ],
+ "fix": [
+  [
+   13,
+   "Jeremi.,",
+   "Jeremić,",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "448071dee48cc9a300be69d23929a2206b2e1f45",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1498,
+  "words_out": 1497,
+  "retention": 0.9993,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   94,
+   53,
+   75,
+   61,
+   65,
+   86,
+   78,
+   69,
+   123,
+   74,
+   67,
+   79,
+   80,
+   74,
+   66,
+   157,
+   54,
+   81,
+   61
+  ],
+  "warnings": []
+ }
+}

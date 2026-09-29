@@ -1,0 +1,129 @@
+{
+ "id": "ARG_30_1975",
+ "drop": [
+  [
+   16,
+   16,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  7,
+  14,
+  17,
+  23,
+  31,
+  35,
+  38,
+  42,
+  48,
+  54,
+  59,
+  65,
+  69,
+  74,
+  78,
+  81,
+  85,
+  89,
+  92,
+  97,
+  101
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   4,
+   "Abdel- aziz",
+   "Abdelaziz",
+   "hyphen"
+  ],
+  [
+   4,
+   "Non- Aligned",
+   "Non-Aligned",
+   "hyphen"
+  ],
+  [
+   45,
+   "non- alignment",
+   "non-alignment",
+   "hyphen"
+  ],
+  [
+   46,
+   "third- world",
+   "third-world",
+   "hyphen"
+  ],
+  [
+   48,
+   "political , economic",
+   "political, economic",
+   "spacing"
+  ],
+  [
+   67,
+   " [AII0217 and Corr.l]",
+   "",
+   "label"
+  ],
+  [
+   40,
+   "the-shortening",
+   "the shortening",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "62e399fcc59d54d1863c14e0d4d92e52f2eeb5c7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 104,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3147,
+  "words_out": 3132,
+  "retention": 0.9952,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   145,
+   91,
+   153,
+   74,
+   156,
+   184,
+   103,
+   87,
+   138,
+   192,
+   176,
+   157,
+   151,
+   140,
+   146,
+   143,
+   98,
+   120,
+   161,
+   97,
+   147,
+   135,
+   138
+  ],
+  "warnings": [
+   "procedural drop [16,16] in the middle of the speech"
+  ]
+ }
+}

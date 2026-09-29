@@ -1,0 +1,49 @@
+{
+ "id": "EST_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  28,
+  48,
+  69,
+  83,
+  97,
+  108,
+  129,
+  152
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1665a4c5da2d0d899518056deea2ec1d1bcdf45d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1344,
+  "words_out": 1343,
+  "retention": 0.9993,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   58,
+   157,
+   152,
+   151,
+   100,
+   104,
+   89,
+   174,
+   190,
+   168
+  ],
+  "warnings": []
+ }
+}

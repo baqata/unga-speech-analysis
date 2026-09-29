@@ -1,0 +1,129 @@
+{
+ "id": "MLI_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  8,
+  10,
+  16,
+  19,
+  26,
+  33,
+  37,
+  39,
+  42,
+  44,
+  53,
+  56,
+  61,
+  65,
+  68,
+  74,
+  81,
+  86,
+  89,
+  92,
+  97,
+  102,
+  105,
+  112,
+  117,
+  121
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "International cooperation",
+   "international cooperation",
+   "ocr"
+  ],
+  [
+   8,
+   "Government;",
+   "Government",
+   "ocr"
+  ],
+  [
+   11,
+   "widely- held",
+   "widely-held",
+   "spacing"
+  ],
+  [
+   18,
+   "in. case",
+   "in case",
+   "ocr"
+  ],
+  [
+   32,
+   "genera]",
+   "general",
+   "ocr"
+  ],
+  [
+   48,
+   ", Angola",
+   ". Angola",
+   "ocr"
+  ],
+  [
+   81,
+   ", Recent",
+   ". Recent",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dcc80e89ebd3486a4b63c7dae42ab91b7604d846",
+ "layout": "lines",
+ "stats": {
+  "n_units": 124,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 31
+  },
+  "words_in": 4126,
+  "words_out": 4124,
+  "retention": 0.9995,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   74,
+   142,
+   73,
+   133,
+   83,
+   273,
+   246,
+   157,
+   146,
+   72,
+   94,
+   261,
+   106,
+   177,
+   139,
+   112,
+   165,
+   197,
+   230,
+   92,
+   101,
+   146,
+   126,
+   125,
+   261,
+   145,
+   131,
+   117
+  ],
+  "warnings": []
+ }
+}

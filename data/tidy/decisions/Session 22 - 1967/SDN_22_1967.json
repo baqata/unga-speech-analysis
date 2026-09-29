@@ -1,0 +1,102 @@
+{
+ "id": "SDN_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  12,
+  21,
+  29,
+  35,
+  42,
+  46,
+  53,
+  58,
+  63,
+  68,
+  72,
+  75,
+  79,
+  87,
+  91,
+  95,
+  102,
+  110,
+  118,
+  121,
+  124,
+  128
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   2,
+   "2.",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "erosion of ,the",
+   "erosion of the",
+   "ocr"
+  ],
+  [
+   30,
+   "United Nations, The Israeli",
+   "United Nations. The Israeli",
+   "ocr"
+  ],
+  [
+   84,
+   "In all that.",
+   "In all that",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a923fabc3ef5a4fdb43833ccc28965a21ba6a6a2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 4
+  },
+  "words_in": 3116,
+  "words_out": 3085,
+  "retention": 0.9901,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   121,
+   201,
+   187,
+   204,
+   140,
+   163,
+   133,
+   152,
+   109,
+   114,
+   161,
+   105,
+   66,
+   96,
+   169,
+   76,
+   134,
+   147,
+   186,
+   112,
+   64,
+   74,
+   96,
+   75
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "NOR_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  17,
+  29,
+  32,
+  37,
+  46,
+  52,
+  57,
+  63,
+  68,
+  75,
+  85,
+  94,
+  99,
+  108,
+  112,
+  116
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "rules- based",
+   "rules-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "10e94034513d39ad454148163e2e0a2c722b27b6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1869,
+  "words_out": 1868,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   120,
+   77,
+   97,
+   118,
+   61,
+   63,
+   112,
+   98,
+   68,
+   102,
+   80,
+   128,
+   143,
+   110,
+   88,
+   97,
+   67,
+   65,
+   174
+  ],
+  "warnings": []
+ }
+}

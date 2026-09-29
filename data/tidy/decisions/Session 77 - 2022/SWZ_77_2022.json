@@ -1,0 +1,66 @@
+{
+ "id": "SWZ_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  10,
+  15,
+  24,
+  28,
+  32,
+  40,
+  43,
+  47,
+  50,
+  52,
+  55,
+  60,
+  65,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "human- made",
+   "human-made",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9c2883d03fdf55418e3ba7d1dc37ce2935bde476",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1775,
+  "words_out": 1774,
+  "retention": 0.9994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   47,
+   195,
+   107,
+   192,
+   115,
+   151,
+   201,
+   96,
+   86,
+   67,
+   60,
+   64,
+   126,
+   111,
+   72,
+   84
+  ],
+  "warnings": []
+ }
+}

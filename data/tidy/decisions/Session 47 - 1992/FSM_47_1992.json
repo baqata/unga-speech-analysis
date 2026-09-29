@@ -1,0 +1,90 @@
+{
+ "id": "FSM_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  20,
+  31,
+  50,
+  64,
+  77,
+  92,
+  104,
+  119,
+  138,
+  153,
+  164,
+  177,
+  199,
+  209,
+  227,
+  246,
+  261,
+  270,
+  287
+ ],
+ "cer": [
+  0,
+  8,
+  20
+ ],
+ "fix": [
+  [
+   133,
+   "conflict. Agenda",
+   "conflict, Agenda",
+   "ocr"
+  ],
+  [
+   168,
+   "addition. Pacific",
+   "addition, Pacific",
+   "ocr"
+  ],
+  [
+   215,
+   "Plutonium",
+   "plutonium",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "890cc659c3a28a03c4ccc0e99a774bda0100cf8c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 293,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3236,
+  "words_out": 3236,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   97,
+   133,
+   127,
+   201,
+   163,
+   144,
+   157,
+   137,
+   157,
+   209,
+   169,
+   122,
+   140,
+   239,
+   108,
+   185,
+   205,
+   172,
+   102,
+   194,
+   75
+  ],
+  "warnings": []
+ }
+}

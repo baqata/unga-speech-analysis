@@ -1,0 +1,87 @@
+{
+ "id": "VUT_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  19,
+  25,
+  31,
+  34,
+  38,
+  42,
+  49,
+  56,
+  62,
+  64,
+  73,
+  77,
+  80,
+  88,
+  89,
+  100,
+  107,
+  110
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   53,
+   "South- South",
+   "South-South",
+   "hyphen"
+  ],
+  [
+   54,
+   "1 would like",
+   "I would like",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93144c568fec09c1792557cc322c92d6a81d34d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 117,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_header": 8
+  },
+  "words_in": 2673,
+  "words_out": 2669,
+  "retention": 0.9985,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   98,
+   83,
+   100,
+   109,
+   125,
+   134,
+   75,
+   136,
+   111,
+   134,
+   188,
+   117,
+   54,
+   172,
+   116,
+   96,
+   186,
+   44,
+   208,
+   195,
+   82,
+   106
+  ],
+  "warnings": []
+ }
+}

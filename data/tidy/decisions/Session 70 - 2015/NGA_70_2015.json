@@ -1,0 +1,71 @@
+{
+ "id": "NGA_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  15,
+  18,
+  22,
+  24,
+  30,
+  35,
+  42,
+  47,
+  49,
+  54,
+  57,
+  62,
+  66,
+  69,
+  71
+ ],
+ "cer": [
+  0,
+  54
+ ],
+ "fix": [
+  [
+   13,
+   "broad- ranging",
+   "broad-ranging",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bfc8082a2898d68824f3433c59fedd2b90262de8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1750,
+  "words_out": 1747,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   96,
+   174,
+   99,
+   77,
+   114,
+   61,
+   110,
+   107,
+   139,
+   94,
+   63,
+   121,
+   73,
+   113,
+   82,
+   77,
+   76,
+   71
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "id": "USA_30_1975",
+ "drop": [
+  [
+   159,
+   159,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  20,
+  25,
+  31,
+  38,
+  41,
+  45,
+  50,
+  57,
+  61,
+  68,
+  75,
+  80,
+  85,
+  88,
+  91,
+  95,
+  101,
+  110,
+  114,
+  117,
+  124,
+  130,
+  135,
+  140,
+  144,
+  147,
+  150,
+  155,
+  161,
+  166,
+  169,
+  175,
+  178,
+  183,
+  190,
+  195,
+  200,
+  209,
+  215,
+  221,
+  225,
+  232,
+  236,
+  237,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "' his",
+   "his",
+   "ocr"
+  ],
+  [
+   2,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   15,
+   "DigitiZed by Dag HammarSkjoid Library",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "deliberaLet",
+   "delibera Let",
+   "spacing"
+  ],
+  [
+   28,
+   "security, A world",
+   "security. A world",
+   "ocr"
+  ],
+  [
+   40,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   82,
+   "agreement1",
+   "agreement",
+   "ocr"
+  ],
+  [
+   113,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   133,
+   "(t )",
+   "(c)",
+   "ocr"
+  ],
+  [
+   134,
+   "(id)",
+   "(d)",
+   "ocr"
+  ],
+  [
+   156,
+   "leader:",
+   "leaders",
+   "ocr"
+  ],
+  [
+   172,
+   "amis control",
+   "arms control",
+   "ocr"
+  ],
+  [
+   174,
+   "a. verifiable",
+   "a verifiable",
+   "ocr"
+  ],
+  [
+   175,
+   " [A/10027, annex II, documents CCDI47I and CCD/472]",
+   "",
+   "label"
+  ],
+  [
+   178,
+   "substantia]",
+   "substantial",
+   "ocr"
+  ],
+  [
+   184,
+   "minuter",
+   "minutes",
+   "ocr"
+  ],
+  [
+   193,
+   " [IAEA ]",
+   "",
+   "label"
+  ],
+  [
+   236,
+   "recently.4 In",
+   "recently. In",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Text is missing at four points: unit 15, where a library watermark (removed) replaced the end of one sentence and the start of the next (\"delibera\" remains); unit 118 (\"among and security\"); units 158-160, around a library watermark line (dropped), where unit 160 resumes with \"war.\"; and unit 204 (\"can achieve gives us ground\"). Units 158 and 160 are kept in one paragraph. Units 119 (\"here is\") and 201 (\".. i are\") keep lost letters.",
+ "unitizer_version": 1,
+ "sha1": "5e5e6af8435973576f6140cda3c1647baeb7e53a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 83
+  },
+  "words_in": 5336,
+  "words_out": 5302,
+  "retention": 0.9936,
+  "n_paragraphs": 49,
+  "paragraph_words": [
+   86,
+   115,
+   144,
+   104,
+   138,
+   87,
+   103,
+   86,
+   83,
+   97,
+   114,
+   79,
+   131,
+   146,
+   75,
+   67,
+   69,
+   63,
+   68,
+   138,
+   160,
+   133,
+   61,
+   124,
+   141,
+   171,
+   108,
+   93,
+   89,
+   84,
+   129,
+   90,
+   99,
+   82,
+   113,
+   67,
+   93,
+   134,
+   130,
+   123,
+   231,
+   101,
+   129,
+   78,
+   118,
+   95,
+   99,
+   95,
+   139
+  ],
+  "warnings": []
+ }
+}

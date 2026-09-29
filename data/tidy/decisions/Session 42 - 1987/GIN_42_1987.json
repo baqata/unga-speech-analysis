@@ -1,0 +1,141 @@
+{
+ "id": "GIN_42_1987",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  7,
+  12,
+  15,
+  19,
+  25,
+  27,
+  30,
+  31,
+  34,
+  38,
+  41,
+  47,
+  53,
+  56,
+  60,
+  64,
+  66
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "should like, to",
+   "should like to",
+   "ocr"
+  ],
+  [
+   2,
+   "Assembly,",
+   "Assembly.",
+   "ocr"
+  ],
+  [
+   11,
+   "mote just",
+   "more just",
+   "ocr"
+  ],
+  [
+   13,
+   "eights, is",
+   "rights. Is",
+   "ocr"
+  ],
+  [
+   24,
+   "Chapter Vii",
+   "Chapter VII",
+   "ocr"
+  ],
+  [
+   29,
+   "o£",
+   "of",
+   "ocr"
+  ],
+  [
+   30,
+   "Question, in",
+   "question. In",
+   "ocr"
+  ],
+  [
+   47,
+   "coat of",
+   "cost of",
+   "ocr"
+  ],
+  [
+   47,
+   "sane year",
+   "same year",
+   "ocr"
+  ],
+  [
+   51,
+   "long terra",
+   "long term",
+   "ocr"
+  ],
+  [
+   61,
+   "achievements.",
+   "achievements,",
+   "ocr"
+  ],
+  [
+   62,
+   "Immense",
+   "immense",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3653baae5531ad600e1fe6bc8b2f9ace6a7c9be0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 69,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2378,
+  "words_out": 2378,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   141,
+   84,
+   91,
+   137,
+   132,
+   150,
+   181,
+   93,
+   102,
+   86,
+   120,
+   141,
+   126,
+   139,
+   172,
+   79,
+   129,
+   100,
+   69,
+   106
+  ],
+  "warnings": []
+ }
+}

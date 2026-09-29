@@ -1,0 +1,116 @@
+{
+ "id": "ZWE_49_1994",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  12,
+  21,
+  40,
+  53,
+  62,
+  80,
+  94,
+  108,
+  118,
+  131,
+  148,
+  177,
+  197,
+  226,
+  253,
+  279,
+  292,
+  306,
+  320,
+  333,
+  344,
+  357
+ ],
+ "cer": [
+  0,
+  7,
+  12
+ ],
+ "fix": [
+  [
+   282,
+   "poverty- eradication",
+   "poverty-eradication",
+   "spacing"
+  ],
+  [
+   288,
+   "attention.Employment",
+   "attention. Employment",
+   "spacing"
+  ],
+  [
+   312,
+   "$l.4",
+   "$1.4",
+   "ocr"
+  ],
+  [
+   316,
+   "debt- servicing",
+   "debt-servicing",
+   "spacing"
+  ],
+  [
+   356,
+   "reunification or North",
+   "reunification of North",
+   "ocr"
+  ],
+  [
+   358,
+   "coveted -is",
+   "coveted - is",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e58fa0c954e4905c7791b32b1897559533c5cbae",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 372,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 3127,
+  "words_out": 3124,
+  "retention": 0.999,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   57,
+   41,
+   74,
+   159,
+   114,
+   72,
+   134,
+   126,
+   122,
+   88,
+   106,
+   138,
+   228,
+   180,
+   254,
+   221,
+   223,
+   100,
+   124,
+   118,
+   102,
+   91,
+   113,
+   139
+  ],
+  "warnings": []
+ }
+}

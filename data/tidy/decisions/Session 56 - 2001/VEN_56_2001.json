@@ -1,0 +1,76 @@
+{
+ "id": "VEN_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  30,
+  46,
+  55,
+  67,
+  75,
+  93,
+  106,
+  123,
+  144,
+  154,
+  170,
+  184,
+  198,
+  215,
+  229,
+  246
+ ],
+ "cer": [],
+ "fix": [
+  [
+   249,
+   "(The Holy",
+   "",
+   "label"
+  ],
+  [
+   250,
+   "Bible, Ecclesiastes 3:1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Removed the record's citation after the quotation at units 249-250.",
+ "unitizer_version": 1,
+ "sha1": "3b92c85e453839816e6152b5fb69be72caca22ab",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2297,
+  "words_out": 2291,
+  "retention": 0.9974,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   146,
+   111,
+   149,
+   79,
+   100,
+   74,
+   166,
+   125,
+   162,
+   183,
+   99,
+   133,
+   117,
+   118,
+   146,
+   130,
+   159,
+   94
+  ],
+  "warnings": []
+ }
+}

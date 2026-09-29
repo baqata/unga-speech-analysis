@@ -1,0 +1,135 @@
+{
+ "id": "CAF_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   101,
+   102,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  19,
+  32,
+  45,
+  51,
+  59,
+  67,
+  82,
+  85,
+  94
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   13,
+   "First",
+   "Forced",
+   "asr_term"
+  ],
+  [
+   40,
+   "Jamena",
+   "N'Djamena",
+   "asr_name"
+  ],
+  [
+   44,
+   "CAAR",
+   "CAR",
+   "asr_name"
+  ],
+  [
+   60,
+   "Birau",
+   "Birao",
+   "asr_name"
+  ],
+  [
+   61,
+   "Birau",
+   "Birao",
+   "asr_name"
+  ],
+  [
+   74,
+   "Eslawini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   74,
+   "CERT",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   48,
+   "Turkey. that",
+   "Turkey. That",
+   "asr_term"
+  ],
+  [
+   97,
+   "act. saving",
+   "act. Saving",
+   "asr_term"
+  ],
+  [
+   36,
+   "lasting. a",
+   "lasting. Only a",
+   "asr_term"
+  ],
+  [
+   66,
+   "cannot",
+   "and not",
+   "asr_term"
+  ],
+  [
+   76,
+   "Next,",
+   "Transformation next",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Delivered in French; Spanish channel confirms migracion forzosa, N'Djamena, Zulwini/Sirte; Birao is the CAR town near the Sudan border. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 36 'lasting. a' -> 'lasting. A'; unit 48 'Turkey. that' -> 'Turkey. That'; unit 97 'act. saving' -> 'act. Saving'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 2 unit 36 'lasting. a' -> 'lasting. Only a' (2026 exception, inside the existing repair: both decodes hear 'Only' 1.00; ES 'Solo una paz negociada'); spot 8 unit 66 'cannot' -> 'and not' (both decodes clearly hear 'and not be based' (and 1.00, not 1.00); sounds like 'cannot'; ES 'y no en un calendario arbitrario'; negation kept); spot 10 unit 76 'Next,' -> 'Transformation next' (2026 exception: both decodes hear 'Transformation' 0.98 before 'requires'; ES 'La transformación pasa después por operaciones de paz')",
+ "unitizer_version": 1,
+ "sha1": "43c74365e8804a8bb1e763c0cdd2f4effa3ce66c",
+ "layout": "single",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1618,
+  "words_out": 1569,
+  "retention": 0.9697,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   46,
+   224,
+   190,
+   231,
+   130,
+   123,
+   191,
+   202,
+   52,
+   110,
+   70
+  ],
+  "warnings": []
+ }
+}

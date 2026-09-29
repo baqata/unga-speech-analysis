@@ -1,0 +1,74 @@
+{
+ "id": "CHL_63_2008",
+ "drop": [
+  [
+   0,
+   4,
+   "presider"
+  ],
+  [
+   5,
+   5,
+   "procedural"
+  ]
+ ],
+ "para": [
+  6,
+  18,
+  32,
+  52,
+  68,
+  78,
+  98,
+  114,
+  126,
+  144,
+  159,
+  172,
+  182,
+  196,
+  223,
+  240
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "968b4fdd093f1d88e6fbb626364936d52079fd64",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {
+   "presider": 5,
+   "procedural": 1
+  },
+  "prestrip": {
+   "language_note": 1,
+   "job_number": 3
+  },
+  "words_in": 2090,
+  "words_out": 2048,
+  "retention": 0.9799,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   87,
+   103,
+   176,
+   124,
+   83,
+   152,
+   129,
+   109,
+   146,
+   128,
+   105,
+   93,
+   120,
+   224,
+   134,
+   135
+  ],
+  "warnings": []
+ }
+}

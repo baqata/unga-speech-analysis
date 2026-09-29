@@ -1,0 +1,55 @@
+{
+ "id": "BHR_79_2024",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  14,
+  18,
+  21,
+  28,
+  32,
+  38,
+  43,
+  53,
+  58,
+  63
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d8e92f441fbce18e91fc4d041d7ec45796aec366",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1626,
+  "words_out": 1622,
+  "retention": 0.9975,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   91,
+   110,
+   135,
+   101,
+   65,
+   158,
+   82,
+   140,
+   129,
+   205,
+   147,
+   152,
+   107
+  ],
+  "warnings": []
+ }
+}

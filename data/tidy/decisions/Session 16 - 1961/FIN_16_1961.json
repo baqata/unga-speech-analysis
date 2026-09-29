@@ -1,0 +1,95 @@
+{
+ "id": "FIN_16_1961",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  16,
+  22,
+  27,
+  31,
+  38,
+  47,
+  52
+ ],
+ "cer": [
+  0,
+  47,
+  52
+ ],
+ "fix": [
+  [
+   0,
+   "\"bout",
+   "about",
+   "ocr"
+  ],
+  [
+   18,
+   "solutions ,",
+   "solutions,",
+   "ocr"
+  ],
+  [
+   19,
+   "independent-minted",
+   "independent-minded",
+   "ocr"
+  ],
+  [
+   20,
+   ".conciliation",
+   "conciliation",
+   "ocr"
+  ],
+  [
+   29,
+   "sis we",
+   "as we",
+   "ocr"
+  ],
+  [
+   30,
+   "side. '",
+   "side.",
+   "ocr"
+  ],
+  [
+   50,
+   "Outstanding",
+   "outstanding",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d3bc743f31c9015605fd17b7f131414367ab6df6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 13,
+   "page_number": 2
+  },
+  "words_in": 1151,
+  "words_out": 1149,
+  "retention": 0.9983,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   45,
+   157,
+   130,
+   153,
+   92,
+   132,
+   152,
+   190,
+   61,
+   37
+  ],
+  "warnings": []
+ }
+}

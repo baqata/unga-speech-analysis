@@ -1,0 +1,116 @@
+{
+ "id": "BLR_43_1988",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  11,
+  17,
+  22,
+  31,
+  40,
+  45,
+  47,
+  50,
+  54,
+  62,
+  66,
+  74,
+  77,
+  80,
+  84,
+  87,
+  90,
+  96,
+  99,
+  108,
+  114,
+  118,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "г policy",
+   "a policy",
+   "encoding"
+  ],
+  [
+   65,
+   "disarmament}",
+   "disarmament;",
+   "ocr"
+  ],
+  [
+   65,
+   "weapons}",
+   "weapons;",
+   "ocr"
+  ],
+  [
+   74,
+   "forces ι to",
+   "forces to",
+   "ocr"
+  ],
+  [
+   86,
+   "interference}",
+   "interference;",
+   "ocr"
+  ],
+  [
+   123,
+   "prosperity. ·",
+   "prosperity.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "918c8dade54b8a139384d3c170a4d999a043a998",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3680,
+  "words_out": 3675,
+  "retention": 0.9986,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   72,
+   154,
+   152,
+   115,
+   126,
+   186,
+   133,
+   107,
+   97,
+   74,
+   112,
+   151,
+   205,
+   211,
+   134,
+   172,
+   97,
+   108,
+   82,
+   209,
+   195,
+   226,
+   200,
+   91,
+   151,
+   115
+  ],
+  "warnings": []
+ }
+}

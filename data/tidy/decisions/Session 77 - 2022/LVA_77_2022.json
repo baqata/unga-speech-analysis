@@ -1,0 +1,58 @@
+{
+ "id": "LVA_77_2022",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  16,
+  24,
+  34,
+  43,
+  55,
+  65,
+  69
+ ],
+ "cer": [],
+ "fix": [
+  [
+   24,
+   "self- defence",
+   "self-defence",
+   "hyphen"
+  ],
+  [
+   61,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d8bc0f6152336c58d576c54b6c30828a6e74b67e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1319,
+  "words_out": 1316,
+  "retention": 0.9977,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   49,
+   108,
+   88,
+   93,
+   203,
+   159,
+   211,
+   208,
+   95,
+   102
+  ],
+  "warnings": []
+ }
+}

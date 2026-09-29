@@ -1,0 +1,134 @@
+{
+ "id": "BGD_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  14,
+  19,
+  21,
+  24,
+  26,
+  30,
+  34,
+  38,
+  43,
+  48,
+  55,
+  61,
+  67,
+  73,
+  76,
+  79,
+  83,
+  86
+ ],
+ "cer": [
+  0,
+  4,
+  9
+ ],
+ "fix": [
+  [
+   7,
+   "Alimed",
+   "Ahmed",
+   "ocr"
+  ],
+  [
+   17,
+   "Middle Last",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   18,
+   "and- establishing",
+   "and establishing",
+   "hyphen"
+  ],
+  [
+   43,
+   "altitudes",
+   "attitudes",
+   "ocr"
+  ],
+  [
+   48,
+   "I0.V ",
+   "",
+   "label"
+  ],
+  [
+   48,
+   "Slates",
+   "States",
+   "ocr"
+  ],
+  [
+   51,
+   "Charier",
+   "Charter",
+   "ocr"
+  ],
+  [
+   76,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   78,
+   "lo meeting",
+   "to meeting",
+   "ocr"
+  ],
+  [
+   81,
+   "Fourleenthly",
+   "Fourteenthly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ccfbbb14591c83d0c51ce8267fecdfe7a9ab2ca3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 88,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2522,
+  "words_out": 2519,
+  "retention": 0.9988,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   122,
+   112,
+   91,
+   149,
+   90,
+   106,
+   58,
+   106,
+   99,
+   70,
+   115,
+   142,
+   197,
+   149,
+   193,
+   141,
+   132,
+   178,
+   126,
+   85,
+   58
+  ],
+  "warnings": []
+ }
+}

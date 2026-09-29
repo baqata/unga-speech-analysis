@@ -1,0 +1,90 @@
+{
+ "id": "MNG_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  16,
+  21,
+  25,
+  32,
+  39,
+  45,
+  49,
+  54,
+  61,
+  67,
+  71,
+  80,
+  83,
+  92,
+  95
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   7,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   51,
+   "medium- term",
+   "medium-term",
+   "hyphen"
+  ],
+  [
+   88,
+   "least- developed",
+   "least-developed",
+   "hyphen"
+  ],
+  [
+   90,
+   "first- ever",
+   "first-ever",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "aa6623177abfe507cf045bd5d5ce774062310dec",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2590,
+  "words_out": 2586,
+  "retention": 0.9985,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   43,
+   84,
+   146,
+   141,
+   200,
+   107,
+   166,
+   172,
+   163,
+   94,
+   126,
+   144,
+   157,
+   112,
+   237,
+   119,
+   218,
+   105,
+   52
+  ],
+  "warnings": []
+ }
+}

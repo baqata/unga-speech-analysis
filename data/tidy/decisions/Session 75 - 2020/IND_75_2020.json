@@ -1,0 +1,67 @@
+{
+ "id": "IND_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  12,
+  22,
+  35,
+  44,
+  54,
+  59,
+  68,
+  81,
+  89,
+  94
+ ],
+ "cer": [
+  0,
+  94
+ ],
+ "fix": [
+  [
+   73,
+   "jsIpj",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "task.But",
+   "task. But",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "76fc2782e7673f762c7d1aea1a599b2b782cd763",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1636,
+  "words_out": 1637,
+  "retention": 1.0006,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   6,
+   65,
+   131,
+   201,
+   226,
+   142,
+   178,
+   100,
+   154,
+   211,
+   121,
+   100,
+   2
+  ],
+  "warnings": []
+ }
+}

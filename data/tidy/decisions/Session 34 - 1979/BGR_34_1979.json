@@ -1,0 +1,147 @@
+{
+ "id": "BGR_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  16,
+  21,
+  25,
+  28,
+  30,
+  35,
+  38,
+  41,
+  44,
+  48,
+  50,
+  53,
+  58,
+  60,
+  63,
+  66,
+  71,
+  74,
+  78,
+  80,
+  86,
+  93,
+  96,
+  100,
+  106
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   8,
+   "has\" proved",
+   "has proved",
+   "ocr"
+  ],
+  [
+   11,
+   "[SALT]",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "out of all mankind",
+   "but of all mankind",
+   "ocr"
+  ],
+  [
+   20,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   30,
+   "4 Signed at Helsinki on 1 August 1975 ",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "in. international",
+   "in international",
+   "ocr"
+  ],
+  [
+   61,
+   "task of, strengthening",
+   "task of strengthening",
+   "ocr"
+  ],
+  [
+   77,
+   "which as any",
+   "which has any",
+   "ocr"
+  ],
+  [
+   84,
+   "neo- colonialist",
+   "neo-colonialist",
+   "hyphen"
+  ],
+  [
+   99,
+   "to die noble",
+   "to the noble",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82ed45f7e3607303bd6679fce08f1d275cd25d67",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 45
+  },
+  "words_in": 3630,
+  "words_out": 3618,
+  "retention": 0.9967,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   169,
+   64,
+   251,
+   132,
+   113,
+   155,
+   66,
+   141,
+   106,
+   151,
+   104,
+   106,
+   84,
+   147,
+   163,
+   72,
+   94,
+   77,
+   164,
+   129,
+   123,
+   68,
+   173,
+   202,
+   118,
+   157,
+   198,
+   91
+  ],
+  "warnings": []
+ }
+}

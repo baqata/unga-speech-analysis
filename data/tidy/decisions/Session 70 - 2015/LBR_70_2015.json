@@ -1,0 +1,68 @@
+{
+ "id": "LBR_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  16,
+  23,
+  26,
+  32,
+  36,
+  39
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   18,
+   "well- being",
+   "well-being",
+   "hyphen"
+  ],
+  [
+   23,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   38,
+   "post- Ebola",
+   "post-Ebola",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c235bbf11c135fdda3297fe02ee2d5e58d4c7d2c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 43,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 2
+  },
+  "words_in": 1036,
+  "words_out": 1031,
+  "retention": 0.9952,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   62,
+   134,
+   106,
+   92,
+   120,
+   81,
+   134,
+   129,
+   81,
+   92
+  ],
+  "warnings": []
+ }
+}

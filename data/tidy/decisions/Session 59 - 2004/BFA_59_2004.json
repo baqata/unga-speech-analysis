@@ -1,0 +1,68 @@
+{
+ "id": "BFA_59_2004",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  30,
+  45,
+  65,
+  83,
+  106,
+  115,
+  132,
+  140
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "CÙte díIvoire",
+   "Côte d’Ivoire",
+   "encoding"
+  ],
+  [
+   36,
+   "CÙte díIvoire",
+   "Côte d’Ivoire",
+   "encoding"
+  ],
+  [
+   42,
+   "Fasoís",
+   "Faso’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac55b9ec4e8bebe485891144ad64fa5d521bac62",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 146,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1114,
+  "words_out": 1112,
+  "retention": 0.9982,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   95,
+   134,
+   116,
+   148,
+   136,
+   166,
+   79,
+   144,
+   57,
+   37
+  ],
+  "warnings": []
+ }
+}

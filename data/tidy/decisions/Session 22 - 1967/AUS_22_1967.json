@@ -1,0 +1,172 @@
+{
+ "id": "AUS_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  15,
+  19,
+  27,
+  34,
+  40,
+  47,
+  54,
+  62,
+  68,
+  72,
+  77,
+  82,
+  87,
+  101,
+  112,
+  121,
+  127,
+  133,
+  141,
+  147,
+  150,
+  158,
+  165,
+  174,
+  182,
+  187,
+  195,
+  200,
+  214,
+  218,
+  223,
+  227,
+  231,
+  237,
+  243,
+  246,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "*he United",
+   "the United",
+   "ocr"
+  ],
+  [
+   63,
+   "maybe forgetting",
+   "may be forgetting",
+   "merged_word"
+  ],
+  [
+   79,
+   "at Issue",
+   "at issue",
+   "ocr"
+  ],
+  [
+   110,
+   "Surety those",
+   "Surely those",
+   "ocr"
+  ],
+  [
+   132,
+   "think It should",
+   "think it should",
+   "ocr"
+  ],
+  [
+   180,
+   "how It would",
+   "how it would",
+   "ocr"
+  ],
+  [
+   197,
+   "China, No one",
+   "China. No one",
+   "ocr"
+  ],
+  [
+   198,
+   "Red Guards, That",
+   "Red Guards. That",
+   "ocr"
+  ],
+  [
+   173,
+   "that’ a political",
+   "that a political",
+   "ocr"
+  ],
+  [
+   60,
+   "and fact that issue",
+   "and face that issue",
+   "ocr"
+  ],
+  [
+   205,
+   " [A/6701/ Add.1]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2db21291482ea9fac704d15f7e09c2c01b314084",
+ "layout": "lines",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5881,
+  "words_out": 5833,
+  "retention": 0.9918,
+  "n_paragraphs": 39,
+  "paragraph_words": [
+   90,
+   211,
+   105,
+   186,
+   160,
+   191,
+   123,
+   105,
+   269,
+   144,
+   109,
+   123,
+   92,
+   135,
+   256,
+   187,
+   229,
+   171,
+   129,
+   185,
+   133,
+   68,
+   174,
+   166,
+   225,
+   197,
+   88,
+   185,
+   155,
+   288,
+   141,
+   94,
+   115,
+   86,
+   195,
+   144,
+   62,
+   75,
+   42
+  ],
+  "warnings": []
+ }
+}

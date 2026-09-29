@@ -1,0 +1,140 @@
+{
+ "id": "SDN_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  12,
+  16,
+  18,
+  21,
+  28,
+  31,
+  33,
+  36,
+  41,
+  43,
+  48,
+  51,
+  57,
+  60,
+  65,
+  71,
+  77,
+  81,
+  85,
+  89,
+  94,
+  97,
+  99,
+  103
+ ],
+ "cer": [
+  0,
+  5,
+  9
+ ],
+ "fix": [
+  [
+   3,
+   "the. world",
+   "the world",
+   "ocr"
+  ],
+  [
+   7,
+   "Secretary - General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   23,
+   "1947-the",
+   "1947—the",
+   "ocr"
+  ],
+  [
+   63,
+   "Assembly-of",
+   "Assembly—of",
+   "ocr"
+  ],
+  [
+   63,
+   "member-convenes",
+   "member—convenes",
+   "ocr"
+  ],
+  [
+   70,
+   "we^ are",
+   "we are",
+   "ocr"
+  ],
+  [
+   72,
+   "vita' issue",
+   "vital issue",
+   "ocr"
+  ],
+  [
+   73,
+   "violated-and",
+   "violated—and",
+   "ocr"
+  ],
+  [
+   84,
+   "the -present",
+   "the present",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ea57240805a0ac43ca76aa5908025c6d4d7f1d14",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3517,
+  "words_out": 3515,
+  "retention": 0.9994,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   151,
+   138,
+   136,
+   129,
+   83,
+   135,
+   199,
+   117,
+   71,
+   94,
+   160,
+   95,
+   139,
+   144,
+   196,
+   90,
+   133,
+   203,
+   176,
+   132,
+   134,
+   157,
+   174,
+   71,
+   73,
+   115,
+   70
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "MWI_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  15,
+  18,
+  22,
+  27,
+  31,
+  35,
+  40,
+  45,
+  50,
+  55,
+  59,
+  63,
+  70,
+  74,
+  77
+ ],
+ "cer": [
+  0,
+  7,
+  77
+ ],
+ "fix": [
+  [
+   19,
+   ".These",
+   "These",
+   "ocr"
+  ],
+  [
+   56,
+   "hijacked and: diverted",
+   "hijacked and diverted",
+   "ocr"
+  ],
+  [
+   70,
+   "express by Government",
+   "express my Government",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7f612537a612d6dda00b4c3877938518eebea98e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 79,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 1957,
+  "words_out": 1933,
+  "retention": 0.9877,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   159,
+   140,
+   93,
+   110,
+   85,
+   89,
+   134,
+   119,
+   95,
+   146,
+   93,
+   134,
+   129,
+   223,
+   71,
+   64,
+   49
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "UGA_65_2010",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  28,
+  41,
+  58,
+  67,
+  94
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6f63b0c199776c1706f655fbffd73150699da87b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 106,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 832,
+  "words_out": 831,
+  "retention": 0.9988,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   84,
+   134,
+   91,
+   127,
+   78,
+   211,
+   106
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "HRV_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  8,
+  13,
+  23,
+  29,
+  34,
+  40,
+  48,
+  54,
+  61,
+  67,
+  70,
+  75,
+  86,
+  95,
+  102,
+  108,
+  114
+ ],
+ "cer": [
+  2,
+  114
+ ],
+ "fix": [
+  [
+   61,
+   "SOP meetings",
+   "COP meetings",
+   "asr_name"
+  ],
+  [
+   61,
+   "SOP28",
+   "COP28",
+   "asr_name"
+  ],
+  [
+   69,
+   "BBNG",
+   "BBNJ",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "83348769fd2df1ad58376445e172e1453f81e4f8",
+ "layout": "single",
+ "stats": {
+  "n_units": 115,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1801,
+  "words_out": 1770,
+  "retention": 0.9828,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   7,
+   108,
+   69,
+   127,
+   83,
+   126,
+   88,
+   148,
+   115,
+   143,
+   97,
+   62,
+   77,
+   146,
+   83,
+   80,
+   81,
+   128,
+   2
+  ],
+  "warnings": []
+ }
+}

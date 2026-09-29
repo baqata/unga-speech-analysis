@@ -1,0 +1,119 @@
+{
+ "id": "COM_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  17,
+  23,
+  27,
+  29,
+  32,
+  37,
+  40,
+  44,
+  48,
+  52,
+  54,
+  58,
+  63,
+  69,
+  71,
+  73,
+  79,
+  86,
+  90,
+  94
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   5,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   18,
+   "Agreement,8",
+   "Agreement,",
+   "ocr"
+  ],
+  [
+   28,
+   "thirty- eighth",
+   "thirty-eighth",
+   "hyphen"
+  ],
+  [
+   45,
+   " m favour",
+   " in favour",
+   "ocr"
+  ],
+  [
+   51,
+   "from'",
+   "from",
+   "ocr"
+  ],
+  [
+   64,
+   "continued fail in",
+   "continued fall in",
+   "ocr"
+  ],
+  [
+   98,
+   "spirit .he",
+   "spirit the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d4ef3951626827b9777321fb50cf05aecf6e1a11",
+ "layout": "lines",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 32
+  },
+  "words_in": 3030,
+  "words_out": 3028,
+  "retention": 0.9993,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   123,
+   118,
+   232,
+   183,
+   114,
+   114,
+   110,
+   162,
+   101,
+   116,
+   104,
+   92,
+   73,
+   108,
+   149,
+   233,
+   105,
+   90,
+   125,
+   181,
+   113,
+   127,
+   155
+  ],
+  "warnings": []
+ }
+}

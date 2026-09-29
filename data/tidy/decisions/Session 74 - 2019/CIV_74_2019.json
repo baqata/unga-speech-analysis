@@ -1,0 +1,60 @@
+{
+ "id": "CIV_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  16,
+  20,
+  26,
+  29,
+  35,
+  37,
+  42,
+  46,
+  48
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   47,
+   "four- year",
+   "four-year",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cda08cc8bff0233f93ef67bb1c4d02218d3777b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1578,
+  "words_out": 1577,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   131,
+   117,
+   101,
+   156,
+   167,
+   145,
+   119,
+   138,
+   74,
+   152,
+   100,
+   89,
+   88
+  ],
+  "warnings": []
+ }
+}

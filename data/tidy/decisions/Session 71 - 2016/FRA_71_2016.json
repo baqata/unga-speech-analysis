@@ -1,0 +1,68 @@
+{
+ "id": "FRA_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  17,
+  20,
+  27,
+  33,
+  41,
+  43,
+  48,
+  54,
+  65,
+  73,
+  80,
+  86,
+  95,
+  105,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   84,
+   "accords.We",
+   "accords. We",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "77f747df0a46318a1106149dedc88a1f95b7f48b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2235,
+  "words_out": 2236,
+  "retention": 1.0004,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   128,
+   160,
+   59,
+   66,
+   108,
+   124,
+   134,
+   67,
+   78,
+   104,
+   129,
+   140,
+   139,
+   127,
+   188,
+   247,
+   170,
+   68
+  ],
+  "warnings": []
+ }
+}

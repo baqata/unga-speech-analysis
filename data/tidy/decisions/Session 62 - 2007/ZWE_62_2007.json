@@ -1,0 +1,74 @@
+{
+ "id": "ZWE_62_2007",
+ "drop": [
+  [
+   165,
+   165,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  22,
+  33,
+  42,
+  54,
+  72,
+  88,
+  109,
+  140,
+  151,
+  166,
+  179,
+  192,
+  203,
+  214,
+  236
+ ],
+ "cer": [
+  0,
+  11
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "dc8a28311b35caa777da9c8f43f83cd4692a4ab0",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 246,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "encoding": 12
+  },
+  "words_in": 2052,
+  "words_out": 2046,
+  "retention": 0.9971,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   91,
+   87,
+   88,
+   77,
+   97,
+   139,
+   116,
+   171,
+   281,
+   97,
+   115,
+   114,
+   129,
+   87,
+   103,
+   168,
+   86
+  ],
+  "warnings": [
+   "procedural drop [165,165] in the middle of the speech"
+  ]
+ }
+}

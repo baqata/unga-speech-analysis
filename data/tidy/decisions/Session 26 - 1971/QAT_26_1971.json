@@ -1,0 +1,172 @@
+{
+ "id": "QAT_26_1971",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  7,
+  10,
+  15,
+  20,
+  22,
+  27,
+  32,
+  35,
+  41,
+  45,
+  51,
+  56,
+  58,
+  63,
+  67,
+  75,
+  77,
+  81,
+  84,
+  88,
+  91
+ ],
+ "cer": [
+  0,
+  3,
+  4,
+  7
+ ],
+ "fix": [
+  [
+   12,
+   " [A/8401/Add.lJ",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "UThant",
+   "U Thant",
+   "spacing"
+  ],
+  [
+   16,
+   "fin ling",
+   "finding",
+   "ocr"
+  ],
+  [
+   19,
+   "Pro gramme",
+   "Programme",
+   "split_word"
+  ],
+  [
+   21,
+   " [A/8421]",
+   "",
+   "label"
+  ],
+  [
+   21,
+   "Geneva, Because",
+   "Geneva. Because",
+   "ocr"
+  ],
+  [
+   38,
+   "which as the vocation",
+   "which has the vocation",
+   "ocr"
+  ],
+  [
+   38,
+   "justice- loving",
+   "justice-loving",
+   "hyphen"
+  ],
+  [
+   48,
+   "oF",
+   "of",
+   "ocr"
+  ],
+  [
+   50,
+   "and . security",
+   "and security",
+   "ocr"
+  ],
+  [
+   55,
+   "(i969)",
+   "(1969)",
+   "ocr"
+  ],
+  [
+   68,
+   "w&",
+   "we",
+   "ocr"
+  ],
+  [
+   77,
+   " [1946th meeting, para. Ill)",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "cf maintaining",
+   "of maintaining",
+   "ocr"
+  ],
+  [
+   88,
+   "a J its",
+   "all its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "194f36c26704e9028fc4b0ffa81612d73a55aec2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 3486,
+  "words_out": 3470,
+  "retention": 0.9954,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   164,
+   54,
+   197,
+   99,
+   149,
+   155,
+   116,
+   172,
+   141,
+   156,
+   188,
+   154,
+   238,
+   182,
+   93,
+   138,
+   121,
+   207,
+   77,
+   153,
+   149,
+   158,
+   106,
+   103
+  ],
+  "warnings": []
+ }
+}

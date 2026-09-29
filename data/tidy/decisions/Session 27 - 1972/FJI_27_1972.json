@@ -1,0 +1,187 @@
+{
+ "id": "FJI_27_1972",
+ "drop": [
+  [
+   0,
+   108,
+   "other_speaker"
+  ]
+ ],
+ "para": [
+  109,
+  115,
+  118,
+  122,
+  125,
+  131,
+  134,
+  139,
+  144,
+  148,
+  153,
+  160,
+  165,
+  171,
+  174,
+  178,
+  181,
+  183,
+  187,
+  190,
+  194,
+  202,
+  211,
+  213,
+  217,
+  224,
+  229,
+  235
+ ],
+ "cer": [
+  109
+ ],
+ "fix": [
+  [
+   109,
+   "Sir Edward CAKOBAU (Fiji): ",
+   "",
+   "label"
+  ],
+  [
+   127,
+   "its \"wisdom",
+   "its wisdom",
+   "ocr"
+  ],
+  [
+   131,
+   "Organization, We",
+   "Organization. We",
+   "ocr"
+  ],
+  [
+   131,
+   "pan at times",
+   "can at times",
+   "ocr"
+  ],
+  [
+   138,
+   "ex-pressed",
+   "expressed",
+   "hyphen"
+  ],
+  [
+   157,
+   "108: ",
+   "",
+   "label"
+  ],
+  [
+   184,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   186,
+   "archipelago' which",
+   "archipelago which",
+   "ocr"
+  ],
+  [
+   190,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   190,
+   "which 1 have",
+   "which I have",
+   "ocr"
+  ],
+  [
+   197,
+   "sub-scribed",
+   "subscribed",
+   "hyphen"
+  ],
+  [
+   210,
+   "wherever if may",
+   "wherever it may",
+   "ocr"
+  ],
+  [
+   217,
+   "[2042nd and 2045th meetings, respectively], ",
+   "",
+   "label"
+  ],
+  [
+   236,
+   "expired the surface",
+   "explored the surface",
+   "ocr"
+  ],
+  [
+   142,
+   " [A/8791 and Add.l]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 0-108 are the Irish Foreign Minister's statement printed ahead of Fiji's in the source; dropped as other_speaker.",
+ "unitizer_version": 1,
+ "sha1": "192f8be8516426232ff1eb0b37bd83dbf317892d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 237,
+  "units_dropped": {
+   "other_speaker": 109
+  },
+  "prestrip": {
+   "meeting_ref": 4,
+   "paragraph_number": 71
+  },
+  "words_in": 6738,
+  "words_out": 3383,
+  "retention": 0.5021,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   171,
+   74,
+   66,
+   89,
+   109,
+   115,
+   147,
+   80,
+   93,
+   161,
+   136,
+   157,
+   207,
+   67,
+   102,
+   60,
+   105,
+   126,
+   122,
+   121,
+   219,
+   178,
+   90,
+   86,
+   148,
+   129,
+   132,
+   93
+  ],
+  "warnings": [
+   "retention 0.50 < 0.85"
+  ]
+ }
+}

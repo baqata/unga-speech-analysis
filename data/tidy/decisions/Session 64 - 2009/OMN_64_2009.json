@@ -1,0 +1,41 @@
+{
+ "id": "OMN_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  27,
+  53,
+  80,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "500dafa6818270fb77b249ac68c3414a573c96be",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 832,
+  "words_out": 831,
+  "retention": 0.9988,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   131,
+   70,
+   219,
+   210,
+   149,
+   52
+  ],
+  "warnings": []
+ }
+}

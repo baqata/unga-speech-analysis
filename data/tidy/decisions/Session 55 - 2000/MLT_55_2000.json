@@ -1,0 +1,63 @@
+{
+ "id": "MLT_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  14,
+  29,
+  43,
+  62,
+  77,
+  94,
+  117,
+  131,
+  147,
+  171,
+  183,
+  198,
+  208,
+  233,
+  243,
+  255
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cdfdc4819c1e6fc65794fa7297c298d8dc7db241",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 266,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2131,
+  "words_out": 2127,
+  "retention": 0.9981,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   107,
+   130,
+   122,
+   142,
+   106,
+   137,
+   190,
+   115,
+   125,
+   183,
+   89,
+   133,
+   82,
+   196,
+   83,
+   90,
+   97
+  ],
+  "warnings": []
+ }
+}

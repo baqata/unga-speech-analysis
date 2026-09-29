@@ -1,0 +1,94 @@
+{
+ "id": "GIN_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  11,
+  13,
+  17,
+  20,
+  22,
+  25,
+  28,
+  32,
+  36,
+  39,
+  43,
+  49,
+  53,
+  55,
+  58,
+  64
+ ],
+ "cer": [
+  0,
+  4,
+  6
+ ],
+ "fix": [
+  [
+   7,
+   "Lithuania.",
+   "Lithuania,",
+   "ocr"
+  ],
+  [
+   9,
+   "onto e new",
+   "onto a new",
+   "ocr"
+  ],
+  [
+   34,
+   "Guineas Government",
+   "Guinean Government",
+   "ocr"
+  ],
+  [
+   60,
+   "500.000",
+   "500,000",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "4da72440d163e55a92ad52806a4e49c52f1e987d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1921,
+  "words_out": 1921,
+  "retention": 1.0,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   135,
+   70,
+   62,
+   81,
+   67,
+   84,
+   79,
+   88,
+   88,
+   99,
+   124,
+   112,
+   59,
+   95,
+   169,
+   100,
+   70,
+   96,
+   163,
+   80
+  ],
+  "warnings": []
+ }
+}

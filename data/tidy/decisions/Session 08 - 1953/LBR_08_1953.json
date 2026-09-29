@@ -1,0 +1,104 @@
+{
+ "id": "LBR_08_1953",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  11,
+  13,
+  16,
+  21,
+  27,
+  32,
+  36,
+  41,
+  49,
+  52,
+  67,
+  73
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "devoid:",
+   "devoid",
+   "ocr"
+  ],
+  [
+   8,
+   "and'",
+   "and",
+   "ocr"
+  ],
+  [
+   13,
+   "[Food and Agriculture Organization of the United Nations]",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "[World Health Organization]",
+   "",
+   "label"
+  ],
+  [
+   13,
+   "[United Nations Educational, Scientific and Cultural Organization]",
+   "",
+   "label"
+  ],
+  [
+   20,
+   "individual's,",
+   "individuals,",
+   "ocr"
+  ],
+  [
+   50,
+   "[North Atlantic Treaty Organization]",
+   "",
+   "label"
+  ],
+  [
+   60,
+   "reckoning.",
+   "reckoning,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b1fa8ba069b0018aaff04257b851913f8b9f94b7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 16
+  },
+  "words_in": 2169,
+  "words_out": 2147,
+  "retention": 0.9899,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   156,
+   126,
+   121,
+   102,
+   187,
+   204,
+   156,
+   122,
+   120,
+   184,
+   109,
+   228,
+   202,
+   130
+  ],
+  "warnings": []
+ }
+}

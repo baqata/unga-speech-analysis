@@ -1,0 +1,100 @@
+{
+ "id": "GIN_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   62,
+   62,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  6,
+  10,
+  16,
+  21,
+  30,
+  41,
+  47,
+  51,
+  55,
+  61
+ ],
+ "cer": [
+  1,
+  61
+ ],
+ "fix": [
+  [
+   2,
+   "Mamadi Dumbuya",
+   "Mamadi Doumbouya",
+   "asr_name"
+  ],
+  [
+   4,
+   "Philemon Young",
+   "Philemon Yang",
+   "asr_name"
+  ],
+  [
+   41,
+   "Laboul summit",
+   "La Baule summit",
+   "asr_name"
+  ],
+  [
+   46,
+   "Dumbuya",
+   "Doumbouya",
+   "asr_name"
+  ],
+  [
+   49,
+   "General Dumbuya",
+   "General Doumbouya",
+   "asr_name"
+  ],
+  [
+   53,
+   "President Dumbuya",
+   "President Doumbouya",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e3947b8bda1b2a5e0274ecb7a1c209a166c9837e",
+ "layout": "single",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1259,
+  "words_out": 1223,
+  "retention": 0.9714,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   133,
+   91,
+   125,
+   87,
+   163,
+   184,
+   125,
+   93,
+   79,
+   136,
+   7
+  ],
+  "warnings": []
+ }
+}

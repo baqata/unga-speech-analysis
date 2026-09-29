@@ -1,0 +1,114 @@
+{
+ "id": "SOM_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  11,
+  18,
+  26,
+  30,
+  36,
+  45,
+  53,
+  57,
+  61,
+  66,
+  69,
+  76,
+  81,
+  86,
+  91,
+  97,
+  101,
+  110,
+  115,
+  122,
+  127,
+  134,
+  137
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   17,
+   "Charter, It is to",
+   "Charter. It is to",
+   "ocr"
+  ],
+  [
+   52,
+   "refugee situation, It is",
+   "refugee situation. It is",
+   "ocr"
+  ],
+  [
+   85,
+   "what Can the",
+   "what can the",
+   "ocr"
+  ],
+  [
+   85,
+   "apartheid; to carry",
+   "apartheid, to carry",
+   "ocr"
+  ],
+  [
+   112,
+   "at. that time",
+   "at that time",
+   "ocr"
+  ],
+  [
+   125,
+   "in 1960, National",
+   "in 1960. National",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "48ed3a4073ad008fd2bdc87ced66f501b0904547",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3220,
+  "words_out": 3192,
+  "retention": 0.9913,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   69,
+   178,
+   147,
+   191,
+   78,
+   152,
+   242,
+   179,
+   103,
+   108,
+   130,
+   75,
+   114,
+   100,
+   162,
+   148,
+   186,
+   71,
+   129,
+   152,
+   125,
+   87,
+   112,
+   69,
+   85
+  ],
+  "warnings": []
+ }
+}

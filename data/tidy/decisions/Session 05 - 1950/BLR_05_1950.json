@@ -1,0 +1,131 @@
+{
+ "id": "BLR_05_1950",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  8,
+  15,
+  19,
+  22,
+  26,
+  28,
+  34,
+  37,
+  41,
+  45,
+  51,
+  54,
+  58,
+  62,
+  69,
+  72,
+  74,
+  77,
+  82,
+  89,
+  94,
+  100,
+  102,
+  103
+ ],
+ "cer": [],
+ "fix": [
+  [
+   17,
+   "in The world",
+   "in the world",
+   "ocr"
+  ],
+  [
+   37,
+   "America, Mr. Acheson",
+   "America. Mr. Acheson",
+   "ocr"
+  ],
+  [
+   58,
+   "a. speech",
+   "a speech",
+   "ocr"
+  ],
+  [
+   63,
+   "to the, attention",
+   "to the attention",
+   "ocr"
+  ],
+  [
+   73,
+   "thus_ to",
+   "thus to",
+   "ocr"
+  ],
+  [
+   78,
+   " [110 (II)]",
+   "",
+   "label"
+  ],
+  [
+   103,
+   " [A/1376]",
+   "",
+   "label"
+  ],
+  [
+   106,
+   "and Shall make",
+   "and shall make",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39541813dc25ca824c26102f55fcc4a4d0545244",
+ "layout": "lines",
+ "stats": {
+  "n_units": 107,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 6,
+   "paragraph_number": 35
+  },
+  "words_in": 3478,
+  "words_out": 3475,
+  "retention": 0.9991,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   83,
+   210,
+   87,
+   247,
+   158,
+   121,
+   93,
+   86,
+   171,
+   73,
+   156,
+   137,
+   207,
+   94,
+   119,
+   123,
+   172,
+   93,
+   91,
+   100,
+   142,
+   197,
+   113,
+   86,
+   59,
+   44,
+   213
+  ],
+  "warnings": []
+ }
+}

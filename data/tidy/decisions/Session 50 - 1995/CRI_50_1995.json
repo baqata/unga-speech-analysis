@@ -1,0 +1,106 @@
+{
+ "id": "CRI_50_1995",
+ "drop": [
+  [
+   6,
+   6,
+   "header_footer"
+  ],
+  [
+   102,
+   102,
+   "header_footer"
+  ],
+  [
+   199,
+   199,
+   "header_footer"
+  ],
+  [
+   295,
+   295,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  27,
+  40,
+  58,
+  79,
+  92,
+  116,
+  131,
+  143,
+  155,
+  168,
+  183,
+  195,
+  204,
+  215,
+  234,
+  250,
+  269,
+  289
+ ],
+ "cer": [
+  0,
+  14
+ ],
+ "fix": [
+  [
+   296,
+   "(Official Records of the General Assembly,",
+   "",
+   "label"
+  ],
+  [
+   297,
+   "Fiftieth Session, Plenary Meetings, 20th meeting, p. 6).",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7e2a474bf98b0bd4b9c13fccdee14a295fd25fe4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 298,
+  "units_dropped": {
+   "header_footer": 4
+  },
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 2595,
+  "words_out": 2559,
+  "retention": 0.9861,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   115,
+   112,
+   114,
+   164,
+   206,
+   119,
+   198,
+   121,
+   98,
+   107,
+   101,
+   136,
+   88,
+   69,
+   96,
+   155,
+   149,
+   172,
+   183,
+   56
+  ],
+  "warnings": []
+ }
+}

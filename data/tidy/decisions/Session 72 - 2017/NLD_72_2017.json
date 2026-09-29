@@ -1,0 +1,86 @@
+{
+ "id": "NLD_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  18,
+  29,
+  36,
+  41,
+  46,
+  56,
+  63,
+  71,
+  76,
+  86,
+  91,
+  94,
+  99,
+  105,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   6,
+   "long- term",
+   "long-term",
+   "hyphen"
+  ],
+  [
+   16,
+   "again.Franklin",
+   "again. Franklin",
+   "spacing"
+  ],
+  [
+   55,
+   "17-29395 15/29 ",
+   "",
+   "label"
+  ],
+  [
+   109,
+   "self- operating",
+   "self-operating",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c1ab15e943eb5e5259887c07a17e80654a15fde7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 119,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2022,
+  "words_out": 2019,
+  "retention": 0.9985,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   131,
+   108,
+   108,
+   153,
+   144,
+   60,
+   81,
+   171,
+   123,
+   105,
+   80,
+   136,
+   83,
+   63,
+   110,
+   125,
+   113,
+   125
+  ],
+  "warnings": []
+ }
+}

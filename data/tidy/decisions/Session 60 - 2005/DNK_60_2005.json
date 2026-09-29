@@ -1,0 +1,57 @@
+{
+ "id": "DNK_60_2005",
+ "drop": [
+  [
+   147,
+   147,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  22,
+  47,
+  71,
+  86,
+  105,
+  127,
+  148,
+  170,
+  181
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "997934d77b720583e2fe251a8bf9a26b489bc83b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1545,
+  "words_out": 1526,
+  "retention": 0.9877,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   163,
+   187,
+   182,
+   121,
+   154,
+   168,
+   153,
+   181,
+   94,
+   123
+  ],
+  "warnings": [
+   "procedural drop [147,147] in the middle of the speech"
+  ]
+ }
+}

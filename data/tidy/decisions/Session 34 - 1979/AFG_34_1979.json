@@ -1,0 +1,135 @@
+{
+ "id": "AFG_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  19,
+  24,
+  28,
+  32,
+  35,
+  39,
+  43,
+  46,
+  51,
+  54,
+  57,
+  61,
+  65,
+  68,
+  72,
+  76,
+  80,
+  84,
+  86,
+  89,
+  91,
+  94,
+  98,
+  100,
+  104,
+  108
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   12,
+   "feudal fords",
+   "feudal lords",
+   "ocr"
+  ],
+  [
+   37,
+   "friend-ship",
+   "friendship",
+   "hyphen"
+  ],
+  [
+   59,
+   "Sadat- Begin",
+   "Sadat-Begin",
+   "hyphen"
+  ],
+  [
+   63,
+   "nuclear- weapon",
+   "nuclear-weapon",
+   "hyphen"
+  ],
+  [
+   63,
+   "Non- Proliferation",
+   "Non-Proliferation",
+   "hyphen"
+  ],
+  [
+   76,
+   "man-oeuvres",
+   "manoeuvres",
+   "hyphen"
+  ],
+  [
+   82,
+   "[OAU]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2d103346c3c062a1eda050c89f1cd6a3f767e265",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 57
+  },
+  "words_in": 3978,
+  "words_out": 3974,
+  "retention": 0.999,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   225,
+   124,
+   162,
+   132,
+   128,
+   141,
+   125,
+   170,
+   66,
+   144,
+   139,
+   86,
+   150,
+   77,
+   139,
+   185,
+   134,
+   98,
+   145,
+   118,
+   157,
+   138,
+   92,
+   98,
+   69,
+   144,
+   139,
+   66,
+   139,
+   92,
+   152
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "TUV_63_2008",
+ "drop": [
+  [
+   242,
+   243,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  12,
+  23,
+  44,
+  59,
+  76,
+  94,
+  106,
+  122,
+  138,
+  150,
+  164,
+  178,
+  195,
+  206,
+  218,
+  233,
+  244
+ ],
+ "cer": [
+  12
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d62f83c00deffd64f00ac75247ea09f6872a41b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1920,
+  "words_out": 1906,
+  "retention": 0.9927,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   95,
+   79,
+   170,
+   108,
+   136,
+   137,
+   92,
+   115,
+   129,
+   87,
+   111,
+   115,
+   129,
+   87,
+   83,
+   102,
+   62,
+   69
+  ],
+  "warnings": []
+ }
+}

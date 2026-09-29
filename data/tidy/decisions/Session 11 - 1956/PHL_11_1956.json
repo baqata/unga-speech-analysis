@@ -1,0 +1,88 @@
+{
+ "id": "PHL_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  15,
+  20,
+  22,
+  24,
+  30,
+  33,
+  36,
+  39,
+  42,
+  46,
+  57,
+  63,
+  66,
+  72,
+  74,
+  77,
+  82
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   21,
+   "Egyptian- Israel",
+   "Egyptian-Israel",
+   "spacing"
+  ],
+  [
+   29,
+   "session,",
+   "session.",
+   "ocr"
+  ],
+  [
+   84,
+   "to hear its",
+   "to bear its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a7cf1d0b1c81f2a97b6ba24fa6943a88b5836519",
+ "layout": "lines",
+ "stats": {
+  "n_units": 85,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 22
+  },
+  "words_in": 2453,
+  "words_out": 2449,
+  "retention": 0.9984,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   136,
+   73,
+   176,
+   146,
+   82,
+   75,
+   153,
+   72,
+   127,
+   101,
+   112,
+   175,
+   275,
+   156,
+   100,
+   144,
+   68,
+   89,
+   124,
+   65
+  ],
+  "warnings": []
+ }
+}

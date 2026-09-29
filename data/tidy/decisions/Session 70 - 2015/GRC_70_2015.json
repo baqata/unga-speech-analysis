@@ -1,0 +1,72 @@
+{
+ "id": "GRC_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  12,
+  15,
+  17,
+  20,
+  24,
+  29,
+  33,
+  36,
+  41,
+  48,
+  50,
+  51,
+  57,
+  59,
+  62,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   43,
+   "Syrian- led",
+   "Syrian-led",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e452d22f0f48e48600e5e0c55454b0438b54cb10",
+ "layout": "lines",
+ "stats": {
+  "n_units": 72,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1706,
+  "words_out": 1705,
+  "retention": 0.9994,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   68,
+   82,
+   104,
+   95,
+   86,
+   74,
+   101,
+   116,
+   86,
+   74,
+   103,
+   155,
+   63,
+   18,
+   136,
+   80,
+   72,
+   77,
+   115
+  ],
+  "warnings": []
+ }
+}

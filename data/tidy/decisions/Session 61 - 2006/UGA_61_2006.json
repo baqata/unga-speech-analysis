@@ -1,0 +1,57 @@
+{
+ "id": "UGA_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  34,
+  49,
+  60,
+  77,
+  90,
+  104,
+  115,
+  133,
+  145,
+  162,
+  177,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "562121453fe3261c747a2847efc57fa05e4d2159",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 203,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1584,
+  "words_out": 1581,
+  "retention": 0.9981,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   130,
+   139,
+   126,
+   79,
+   143,
+   109,
+   108,
+   76,
+   132,
+   88,
+   132,
+   101,
+   105,
+   113
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "GBR_48_1993",
+ "drop": [
+  [
+   44,
+   44,
+   "header_footer"
+  ],
+  [
+   140,
+   140,
+   "header_footer"
+  ],
+  [
+   235,
+   235,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  17,
+  26,
+  32,
+  45,
+  67,
+  81,
+  94,
+  104,
+  122,
+  141,
+  156,
+  169,
+  190,
+  207,
+  216,
+  229,
+  244,
+  266,
+  279,
+  290,
+  298,
+  310
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b62731a9ac5b1c668cbdd1f9ab8167afa31448e6",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 327,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2976,
+  "words_out": 2956,
+  "retention": 0.9933,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   44,
+   117,
+   77,
+   61,
+   115,
+   213,
+   143,
+   123,
+   104,
+   165,
+   161,
+   121,
+   109,
+   180,
+   142,
+   80,
+   124,
+   127,
+   202,
+   126,
+   89,
+   72,
+   102,
+   159
+  ],
+  "warnings": []
+ }
+}

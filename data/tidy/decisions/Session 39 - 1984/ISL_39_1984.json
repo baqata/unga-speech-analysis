@@ -1,0 +1,82 @@
+{
+ "id": "ISL_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  13,
+  16,
+  19,
+  24,
+  29,
+  35,
+  40,
+  42,
+  46,
+  55,
+  57,
+  62,
+  66,
+  68
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "modem world",
+   "modern world",
+   "ocr"
+  ],
+  [
+   49,
+   "Ail attempts",
+   "All attempts",
+   "ocr"
+  ],
+  [
+   74,
+   "comer-stone",
+   "corner-stone",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d11973bcb99a8e019e40bbb76e82e2cb558f2047",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 1952,
+  "words_out": 1951,
+  "retention": 0.9995,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   74,
+   119,
+   122,
+   96,
+   95,
+   123,
+   162,
+   147,
+   94,
+   70,
+   138,
+   211,
+   89,
+   120,
+   98,
+   63,
+   130
+  ],
+  "warnings": []
+ }
+}

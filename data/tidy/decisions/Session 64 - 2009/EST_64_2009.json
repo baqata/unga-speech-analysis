@@ -1,0 +1,53 @@
+{
+ "id": "EST_64_2009",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  27,
+  42,
+  51,
+  67,
+  83,
+  103,
+  120,
+  133,
+  145,
+  158,
+  167
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d55361c79d3b27d0c5f23c0fea1c434f6a6f1f9b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 174,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 1
+  },
+  "words_in": 1322,
+  "words_out": 1318,
+  "retention": 0.997,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   135,
+   93,
+   105,
+   71,
+   121,
+   124,
+   129,
+   117,
+   98,
+   92,
+   97,
+   71,
+   65
+  ],
+  "warnings": []
+ }
+}

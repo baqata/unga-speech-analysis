@@ -1,0 +1,66 @@
+{
+ "id": "IDN_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  27,
+  37,
+  56,
+  69,
+  82,
+  97,
+  113,
+  125,
+  141,
+  155,
+  173,
+  185,
+  198
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "sixth-fifth",
+   "sixty-fifth",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d3588fc39848dba16bf4c0b03fcb0e48c69bfdcc",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1617,
+  "words_out": 1616,
+  "retention": 0.9994,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   73,
+   140,
+   73,
+   139,
+   111,
+   105,
+   112,
+   112,
+   96,
+   127,
+   95,
+   129,
+   94,
+   96,
+   114
+  ],
+  "warnings": []
+ }
+}

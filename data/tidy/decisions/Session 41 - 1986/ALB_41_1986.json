@@ -1,0 +1,116 @@
+{
+ "id": "ALB_41_1986",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  12,
+  14,
+  17,
+  20,
+  25,
+  30,
+  35,
+  39,
+  44,
+  48,
+  49,
+  60,
+  63,
+  65,
+  67,
+  70,
+  76,
+  79,
+  81,
+  91,
+  95,
+  97,
+  101
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "AlLanian",
+   "Albanian",
+   "ocr"
+  ],
+  [
+   3,
+   "domination.*",
+   "domination.",
+   "ocr"
+  ],
+  [
+   25,
+   "countries.Like",
+   "countries. Like",
+   "spacing"
+  ],
+  [
+   38,
+   "Raraiz",
+   "Ramiz",
+   "ocr"
+  ],
+  [
+   95,
+   "«.hose",
+   "those",
+   "ocr"
+  ],
+  [
+   101,
+   "me. Sir",
+   "me, Sir",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "74d3db2b0999d5ee2fa54281fdeba6b7458da7db",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2947,
+  "words_out": 2948,
+  "retention": 1.0003,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   33,
+   183,
+   95,
+   55,
+   123,
+   124,
+   98,
+   145,
+   136,
+   122,
+   117,
+   113,
+   62,
+   255,
+   121,
+   76,
+   67,
+   114,
+   145,
+   134,
+   52,
+   237,
+   107,
+   62,
+   138,
+   34
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "id": "ISR_25_1970",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  13,
+  19,
+  25,
+  31,
+  34,
+  39,
+  43,
+  54,
+  58,
+  71,
+  75,
+  83,
+  86,
+  95,
+  103,
+  106,
+  115,
+  126,
+  136,
+  141,
+  148,
+  156,
+  163,
+  176,
+  183,
+  186,
+  197,
+  202,
+  207,
+  215,
+  220,
+  231,
+  235,
+  244,
+  249,
+  255,
+  261,
+  271,
+  274,
+  279,
+  283,
+  287,
+  290,
+  296,
+  302,
+  306,
+  312,
+  320,
+  325
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   3,
+   "henPresidency",
+   "her Presidency",
+   "ocr"
+  ],
+  [
+   43,
+   "only W be",
+   "only to be",
+   "ocr"
+  ],
+  [
+   106,
+   "pro visions",
+   "provisions",
+   "split_word"
+  ],
+  [
+   111,
+   "(installations at their present sites and positions 4 '",
+   "",
+   "label"
+  ],
+  [
+   111,
+   "'' the maintenance of existing",
+   "",
+   "label"
+  ],
+  [
+   195,
+   "El A1",
+   "El Al",
+   "ocr"
+  ],
+  [
+   217,
+   " ind the",
+   " and the",
+   "ocr"
+  ],
+  [
+   234,
+   "El A1",
+   "El Al",
+   "ocr"
+  ],
+  [
+   250,
+   "and ! in",
+   "and in",
+   "ocr"
+  ],
+  [
+   250,
+   "accumulated ! in",
+   "accumulated in",
+   "ocr"
+  ],
+  [
+   260,
+   "ones hostility",
+   "once hostility",
+   "ocr"
+  ],
+  [
+   264,
+   "Kan tarah",
+   "Kantarah",
+   "split_word"
+  ],
+  [
+   279,
+   "greater that that",
+   "greater than that",
+   "ocr"
+  ],
+  [
+   308,
+   "thew longing",
+   "their longing",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3c2e64de60a9cece3648c9a0d5552b4bda07ff8a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 328,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 55
+  },
+  "words_in": 7733,
+  "words_out": 7718,
+  "retention": 0.9981,
+  "n_paragraphs": 51,
+  "paragraph_words": [
+   83,
+   159,
+   137,
+   155,
+   124,
+   78,
+   141,
+   91,
+   244,
+   95,
+   244,
+   81,
+   169,
+   69,
+   230,
+   203,
+   112,
+   267,
+   235,
+   214,
+   93,
+   184,
+   223,
+   129,
+   292,
+   178,
+   87,
+   216,
+   94,
+   119,
+   173,
+   102,
+   170,
+   89,
+   254,
+   156,
+   179,
+   146,
+   197,
+   108,
+   134,
+   110,
+   85,
+   71,
+   152,
+   172,
+   109,
+   177,
+   206,
+   126,
+   56
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,245 @@
+<meta charset="utf-8">
+<title>Resumen del mandato</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#F3F6F9; --panel:#FFFFFF; --ink:#0E2233; --ink-2:#3F5263; --muted:#6A7B8B; --line:#D9E2EA; --line-2:#EDF2F6;
+  --un:#009EDB; --un-text:#0077B8; --un-deep:#004987; --wash:#E3EDF6; --tick:#B9C6D1; --world:#0E2233;
+  --sans:"Roboto", "Helvetica Neue", Arial, sans-serif; --cond:"Roboto Condensed", "Arial Narrow", "Roboto", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A131B; --panel:#101B25; --ink:#E7EEF4; --ink-2:#B8C5D1; --muted:#8497A8; --line:#223340; --line-2:#182631;
+    --un:#009EDB; --un-text:#4FBDEA; --un-deep:#7FD0F5; --wash:#16303F; --tick:#34495A; --world:#E7EEF4; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A131B; --panel:#101B25; --ink:#E7EEF4; --ink-2:#B8C5D1; --muted:#8497A8; --line:#223340; --line-2:#182631;
+  --un:#009EDB; --un-text:#4FBDEA; --un-deep:#7FD0F5; --wash:#16303F; --tick:#34495A; --world:#E7EEF4; color-scheme: dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font:14px/1.45 var(--sans); padding-inline:16px; padding-block:0 48px}
+.wrap{max-width:1180px; margin:0 auto}
+header{padding-block:24px 12px; border-bottom:3px solid var(--un); display:flex; flex-wrap:wrap; gap:14px 28px; align-items:flex-end; justify-content:space-between}
+.eyebrow{font:600 12px/1 var(--cond); letter-spacing:.09em; text-transform:uppercase; color:var(--un-text)}
+h1{font:700 30px/1.1 var(--cond); margin:6px 0 0}
+.ctrls{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+.ctrls select, .seg button{font:500 13px var(--sans); color:var(--ink); background:var(--panel); border:1px solid var(--line); border-radius:4px; height:34px; padding:0 8px; cursor:pointer}
+.seg{display:inline-flex}
+.seg button{border-radius:0}
+.seg button:first-child{border-radius:4px 0 0 4px} .seg button:last-child{border-radius:0 4px 4px 0; border-left:0}
+.seg button[aria-pressed="true"]{background:var(--wash); color:var(--un-text); font-weight:700}
+select:focus-visible, button:focus-visible{outline:2px solid var(--un); outline-offset:2px}
+section.opt{margin-top:30px}
+.opt > h2{font:700 13px/1 var(--cond); letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:0 0 10px; display:flex; gap:10px; align-items:baseline}
+.opt > h2 b{color:var(--ink); font-size:15px; letter-spacing:.02em; text-transform:none}
+.stage{background:var(--panel); border:1px solid var(--line); border-radius:4px; padding:22px 24px}
+svg.ic{width:1em; height:1em; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; flex:none}
+
+/* A */
+.a{display:grid; grid-template-columns:auto minmax(0,1fr); gap:6px 22px; align-items:start}
+.a .big-ic{font-size:64px; color:var(--un); grid-row:span 2; margin-top:4px}
+.a .lede{font:400 26px/1.25 var(--cond); margin:0; max-width:40ch; text-wrap:balance}
+.a .lede strong{font-weight:700; color:var(--un-text)}
+.a .lede em{font-style:normal; font-weight:700}
+.a .lede span{color:var(--muted)}
+#strip{grid-column:2; margin-top:12px}
+#strip svg{width:100%; height:auto; display:block; overflow:visible}
+
+/* B */
+.b{display:grid; grid-template-columns:minmax(0,300px) minmax(0,1fr); gap:24px; align-items:start}
+.b .head{display:flex; flex-direction:column; gap:8px}
+.b .head .ic-row{display:flex; align-items:center; gap:10px; color:var(--un); font-size:34px}
+.b .head .ic-row span{font:700 15px var(--cond); color:var(--ink-2); letter-spacing:.02em}
+.b .head .num{font:700 56px/1 var(--cond); font-variant-numeric:tabular-nums; color:var(--un-text)}
+.b .head p{margin:0; color:var(--ink-2); max-width:34ch}
+#bars svg{width:100%; height:auto; display:block}
+
+/* C */
+.c{display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:0}
+.lens{appearance:none; background:transparent; border:0; border-right:1px solid var(--line-2); padding:6px 14px 12px; text-align:left; cursor:pointer; color:var(--ink); display:flex; flex-direction:column; gap:6px; font:inherit; border-bottom:3px solid transparent}
+.lens:last-child{border-right:0}
+.lens[aria-pressed="true"]{border-bottom-color:var(--un)}
+.lens .ic{font-size:30px; color:var(--un)}
+.lens .nm{font:600 13px/1.2 var(--cond); color:var(--ink-2); min-height:2.4em}
+.lens .rt{font:700 26px/1 var(--cond); font-variant-numeric:tabular-nums}
+.lens .rt small{font:500 12px var(--sans); color:var(--muted); margin-left:4px}
+.lens svg.db{width:100%; height:22px; display:block}
+.lens .vals{font-size:11.5px; color:var(--muted); font-variant-numeric:tabular-nums}
+.lens:hover .nm{color:var(--ink)}
+
+.icons{display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px 18px}
+.icons div{display:flex; align-items:center; gap:10px; font:500 13px/1.25 var(--cond); color:var(--ink-2)}
+.icons svg{font-size:30px; color:var(--un)}
+.note{color:var(--muted); font-size:12.5px; margin-top:10px}
+.tip{position:fixed; pointer-events:none; background:var(--ink); color:var(--panel); font-size:12.5px; padding:5px 8px; border-radius:3px; opacity:0; z-index:9}
+@media (max-width:860px){ .b{grid-template-columns:minmax(0,1fr)} .c{grid-template-columns:repeat(3,minmax(0,1fr))} .lens{border-bottom:1px solid var(--line-2)} }
+@media (max-width:520px){ .a{grid-template-columns:minmax(0,1fr)} .a .big-ic{grid-row:auto; font-size:44px} #strip{grid-column:1} .a .lede{font-size:21px} .c{grid-template-columns:repeat(2,minmax(0,1fr))} }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">Voces de la Asamblea · Opciones de diseño</div>
+      <h1>Tres formas de abrir con ROCOL</h1>
+    </div>
+    <div class="ctrls">
+      <select id="lensSel" aria-label="Tema"></select>
+      <div class="seg" role="group" aria-label="Periodo">
+        <button id="pAll" aria-pressed="false">1946–2025</button>
+        <button id="p2025" aria-pressed="true">2025</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="opt">
+    <h2>A <b>Una frase y dónde queda ROCOL entre todos los países</b></h2>
+    <div class="stage a">
+      <div class="big-ic" id="aIcon"></div>
+      <p class="lede" id="aLede"></p>
+      <div id="strip"></div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <h2>B <b>Quién lo dice dentro de ROCOL</b></h2>
+    <div class="stage b">
+      <div class="head">
+        <div class="ic-row" id="bIcon"></div>
+        <div class="num" id="bNum"></div>
+        <p id="bText"></p>
+      </div>
+      <div id="bars"></div>
+    </div>
+  </section>
+
+  <section class="opt">
+    <h2>C <b>Huella del mandato: todos los temas de un vistazo</b></h2>
+    <div class="stage"><div class="c" id="lenses"></div>
+      <p class="note">Cada tema muestra cuántas veces más (o menos) que el mundo habla ROCOL de él. Al hacer clic, el tema se aplica al resto del tablero.</p>
+    </div>
+  </section>
+
+  <section class="opt">
+    <h2>Iconos <b>Propuesta para los temas finales (Tabler Icons, licencia MIT)</b></h2>
+    <div class="stage"><div class="icons" id="iconset"></div></div>
+  </section>
+</div>
+<div class="tip" id="tip"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script id="data" type="application/json">/*DATA*/</script>
+<script id="icons" type="application/json">/*ICONS*/</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('data').textContent);
+const IC = JSON.parse(document.getElementById('icons').textContent);
+const icon = (n, cls = 'ic') => `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true">${IC[n] || ''}</svg>`;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const nf = new Intl.NumberFormat('es', {minimumFractionDigits: 1, maximumFractionDigits: 1});
+const pct = v => v == null ? '—' : nf.format(v * 100) + ' %';
+const LENSES = [{name: 'Todo UNODC', icon: 'world', T: D.mandate.map((_, j) => j)}].concat(D.mandate.map((m, j) => ({name: m, T: [j],
+  icon: ['pill', 'shield-exclamation', 'crosshair', 'gavel', 'scale'][j]})));
+const SC = D.speeches.map(s => s[0]), SY = D.speeches.map(s => s[1]), ST = D.speeches.map(s => s[2]);
+const MC = D.speeches.map((_, i) => D.mc[i] || null);
+const ROC = new Set(D.rocol);
+const st = {lens: 1, year: 2025};
+const inP = y => st.year == null || y === st.year;
+const share = (i, T) => { const m = MC[i]; if (!m || !ST[i]) return 0; let n = 0; for (const j of T) n += m[j]; return n / ST[i]; };
+const mean = (pred, T) => { let a = 0, n = 0; for (let i = 0; i < SC.length; i++) if (ST[i] && pred(i)) { a += share(i, T); n++; } return n ? a / n : null; };
+const byCountry = T => D.countries.map((c, k) => ({k, name: c.name, v: mean(i => SC[i] === k && inP(SY[i]), T)})).filter(d => d.v != null);
+const tip = document.getElementById('tip');
+const showTip = (e, html) => { tip.innerHTML = html; tip.style.left = (e.clientX + 12) + 'px'; tip.style.top = (e.clientY + 12) + 'px'; tip.style.opacity = 1; };
+const hideTip = () => tip.style.opacity = 0;
+
+const sel = document.getElementById('lensSel');
+LENSES.forEach((l, j) => sel.append(new Option(l.name, j)));
+sel.addEventListener('change', () => { st.lens = +sel.value; draw(); });
+const pAll = document.getElementById('pAll'), p25 = document.getElementById('p2025');
+pAll.onclick = () => { st.year = null; draw(); }; p25.onclick = () => { st.year = 2025; draw(); };
+
+function drawA(L, r, w, list) {
+  document.getElementById('aIcon').innerHTML = icon(L.icon);
+  const when = st.year ? `En ${st.year}` : 'Desde 1946';
+  const verb = st.year ? 'dedicó' : 'ha dedicado';
+  const ratio = r / w;
+  const rel = ratio >= 1.15 ? `${nf.format(ratio)} veces lo que el mundo` : ratio <= 0.87 ? `${ratio < 0.5 ? 'menos de la mitad' : 'menos'} que el mundo` : 'lo mismo que el mundo';
+  document.getElementById('aLede').innerHTML = `${when}, ROCOL ${verb} <strong>${pct(r)}</strong> de su discurso a <em>${L.name.toLowerCase()}</em>: ${rel}. <span>Mundo: ${pct(w)}.</span>`;
+  const W = 900, H = 96, M = {l: 8, r: 8};
+  const x = d3.scaleLinear().domain([0, d3.max(list, d => d.v) || 0.01]).range([M.l, W - M.r]).nice();
+  const el = d3.select('#strip').html('').append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Posición de cada país');
+  el.append('line').attr('x1', M.l).attr('x2', W - M.r).attr('y1', 52).attr('y2', 52).attr('stroke', css('--line'));
+  el.append('g').selectAll('line').data(list.filter(d => !ROC.has(d.k))).join('line')
+    .attr('x1', d => x(d.v)).attr('x2', d => x(d.v)).attr('y1', 42).attr('y2', 62).attr('stroke', css('--tick')).attr('stroke-width', 1.5)
+    .on('mousemove', (e, d) => showTip(e, `${d.name}: ${pct(d.v)}`)).on('mouseleave', hideTip);
+  el.append('g').selectAll('line').data(list.filter(d => ROC.has(d.k))).join('line')
+    .attr('x1', d => x(d.v)).attr('x2', d => x(d.v)).attr('y1', 36).attr('y2', 68).attr('stroke', css('--un')).attr('stroke-width', 2.5)
+    .on('mousemove', (e, d) => showTip(e, `<b>${d.name}</b>: ${pct(d.v)}`)).on('mouseleave', hideTip);
+  const mk = [{lab: 'Mundo', v: w, y: 84, col: css('--world')}, {lab: 'ROCOL', v: r, y: 18, col: css('--un-text')}];
+  el.append('g').selectAll('g').data(mk).join('g').each(function (d) {
+    const g = d3.select(this), X = x(d.v);
+    g.append('line').attr('x1', X).attr('x2', X).attr('y1', d.y < 52 ? d.y + 7 : 58).attr('y2', d.y < 52 ? 46 : d.y - 9).attr('stroke', d.col).attr('stroke-width', 1).attr('stroke-dasharray', d.lab === 'Mundo' ? '2 2' : null);
+    g.append('text').attr('x', X).attr('y', d.y).attr('text-anchor', X > W - 90 ? 'end' : X < 90 ? 'start' : 'middle').attr('dy', '0.35em')
+      .attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').attr('font-weight', 700).attr('font-size', 14).attr('fill', d.col).text(`${d.lab} ${pct(d.v)}`);
+  });
+  el.append('text').attr('x', M.l).attr('y', H - 2).attr('font-size', 11).attr('fill', css('--muted')).text('0 %');
+  el.append('text').attr('x', W - M.r).attr('y', H - 2).attr('text-anchor', 'end').attr('font-size', 11).attr('fill', css('--muted')).text(pct(x.domain()[1]));
+}
+
+function drawB(L, r, w, list) {
+  document.getElementById('bIcon').innerHTML = icon(L.icon) + `<span>${L.name}</span>`;
+  document.getElementById('bNum').textContent = pct(r);
+  document.getElementById('bText').innerHTML = `del discurso de ROCOL ${st.year ? 'en ' + st.year : 'desde 1946'}. El promedio mundial es ${pct(w)}.`;
+  const rows = list.filter(d => ROC.has(d.k)).sort((a, b) => b.v - a.v);
+  const W = 620, rh = 30, H = rows.length * rh + 26, M = {l: 90, r: 58};
+  const x = d3.scaleLinear().domain([0, Math.max(w, d3.max(rows, d => d.v) || 0) * 1.05]).range([M.l, W - M.r]);
+  const el = d3.select('#bars').html('').append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Países de ROCOL');
+  const g = el.selectAll('g').data(rows).join('g').attr('transform', (d, i) => `translate(0,${i * rh + 4})`);
+  g.append('text').attr('x', M.l - 10).attr('y', rh / 2 - 2).attr('dy', '0.35em').attr('text-anchor', 'end').attr('font-size', 13).attr('fill', css('--ink-2')).text(d => d.name);
+  g.append('rect').attr('x', M.l).attr('y', 6).attr('height', rh - 16).attr('width', d => Math.max(0, x(d.v) - M.l)).attr('rx', 2).attr('fill', css('--un'));
+  g.append('text').attr('x', d => x(d.v) + 6).attr('y', rh / 2 - 2).attr('dy', '0.35em').attr('font-size', 12).attr('font-weight', 600).attr('fill', css('--ink')).text(d => pct(d.v));
+  const X = x(w);
+  el.append('line').attr('x1', X).attr('x2', X).attr('y1', 0).attr('y2', H - 16).attr('stroke', css('--world')).attr('stroke-dasharray', '3 3');
+  el.append('text').attr('x', X).attr('y', H - 3).attr('text-anchor', 'middle').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', css('--ink')).text(`Mundo ${pct(w)}`);
+}
+
+function drawC() {
+  const box = document.getElementById('lenses');
+  box.innerHTML = LENSES.map((L, j) => {
+    const r = mean(i => ROC.has(SC[i]) && inP(SY[i]), L.T), w = mean(i => inP(SY[i]), L.T);
+    const ratio = w ? r / w : null, mx = Math.max(r || 0, w || 0) * 1.15 || 1;
+    const xr = 4 + 92 * (r || 0) / mx, xw = 4 + 92 * (w || 0) / mx;
+    return `<button class="lens" data-j="${j}" aria-pressed="${j === st.lens}">
+      <span class="ic">${icon(L.icon)}</span><span class="nm">${L.name}</span>
+      <span class="rt">${ratio == null ? '—' : nf.format(ratio) + '×'}<small>el mundo</small></span>
+      <svg class="db" viewBox="0 0 100 22" preserveAspectRatio="none" aria-hidden="true">
+        <line x1="4" x2="96" y1="11" y2="11" stroke="${css('--line')}" stroke-width="1" vector-effect="non-scaling-stroke"/>
+        <line x1="${xw}" x2="${xr}" y1="11" y2="11" stroke="${css('--un')}" stroke-width="2" vector-effect="non-scaling-stroke"/>
+        <line x1="${xw}" x2="${xw}" y1="4" y2="18" stroke="${css('--world')}" stroke-width="2" vector-effect="non-scaling-stroke"/>
+        <rect x="${xr - 1.6}" y="6" width="3.2" height="10" rx="1.6" fill="${css('--un')}"/>
+      </svg>
+      <span class="vals">ROCOL ${pct(r)} · Mundo ${pct(w)}</span></button>`;
+  }).join('');
+  box.querySelectorAll('.lens').forEach(b => b.onclick = () => { st.lens = +b.dataset.j; sel.value = st.lens; draw(); });
+}
+
+const FINAL = [['pill', 'Drogas y narcotráfico'], ['heart-handshake', 'Prevención y tratamiento'], ['plant-2', 'Desarrollo alternativo'],
+  ['affiliate', 'Crimen organizado transnacional'], ['coins', 'Corrupción y delitos económicos'], ['shield-exclamation', 'Terrorismo'],
+  ['users-group', 'Trata de personas y tráfico de migrantes'], ['trees', 'Delitos ambientales'], ['gavel', 'Justicia penal'], ['peace', 'Paz (referencia)']];
+document.getElementById('iconset').innerHTML = FINAL.map(([n, t]) => `<div>${icon(n)}${t}</div>`).join('');
+
+function draw() {
+  sel.value = st.lens; pAll.setAttribute('aria-pressed', st.year == null); p25.setAttribute('aria-pressed', st.year === 2025);
+  const L = LENSES[st.lens];
+  const r = mean(i => ROC.has(SC[i]) && inP(SY[i]), L.T), w = mean(i => inP(SY[i]), L.T);
+  const list = byCountry(L.T);
+  drawA(L, r, w, list); drawB(L, r, w, list); drawC();
+}
+draw();
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+new MutationObserver(draw).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+})();
+</script>

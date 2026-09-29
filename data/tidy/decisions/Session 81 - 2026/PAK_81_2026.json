@@ -1,0 +1,245 @@
+{
+ "id": "PAK_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   120,
+   120,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  9,
+  15,
+  23,
+  28,
+  36,
+  43,
+  52,
+  60,
+  67,
+  71,
+  77,
+  85,
+  89,
+  95,
+  99,
+  108,
+  119
+ ],
+ "cer": [
+  2,
+  5,
+  119
+ ],
+ "fix": [
+  [
+   5,
+   "August Assembly",
+   "august Assembly",
+   "asr_term"
+  ],
+  [
+   6,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   7,
+   "Our Excellency",
+   "Her Excellency",
+   "asr_term"
+  ],
+  [
+   7,
+   "Annalina",
+   "Annalena",
+   "asr_name"
+  ],
+  [
+   12,
+   "Kaidiazim Muhammad Ali Jannah",
+   "Quaid-e-Azam Muhammad Ali Jinnah",
+   "asr_name"
+  ],
+  [
+   15,
+   "engulfed gulf",
+   "engulfed Gulf",
+   "asr_name"
+  ],
+  [
+   17,
+   "state of Hormuz",
+   "Strait of Hormuz",
+   "asr_name"
+  ],
+  [
+   21,
+   "Shahid Asim Munir",
+   "Syed Asim Munir",
+   "asr_name"
+  ],
+  [
+   22,
+   "comment the efforts",
+   "commend the efforts",
+   "asr_term"
+  ],
+  [
+   22,
+   "Hesak Dar",
+   "Ishaq Dar",
+   "asr_name"
+  ],
+  [
+   25,
+   "state of Hormus",
+   "Strait of Hormuz",
+   "asr_name"
+  ],
+  [
+   25,
+   "Babal Mandab",
+   "Bab al-Mandab",
+   "asr_name"
+  ],
+  [
+   30,
+   "Hermann Cherefan",
+   "Haramain Sharifain",
+   "asr_name"
+  ],
+  [
+   37,
+   "United National Charter",
+   "United Nations Charter",
+   "asr_name"
+  ],
+  [
+   37,
+   "with Persian and",
+   "with precision and",
+   "asr_term"
+  ],
+  [
+   51,
+   "juggler wing",
+   "jugular vein",
+   "asr_term"
+  ],
+  [
+   55,
+   "are legitimate to stand",
+   "Our legitimate stance",
+   "asr_term"
+  ],
+  [
+   66,
+   "Vafa Akilah",
+   "Wafa Akila",
+   "asr_name"
+  ],
+  [
+   68,
+   "Al-Quds Al-Charif",
+   "Al-Quds Al-Sharif",
+   "asr_name"
+  ],
+  [
+   77,
+   "Fitnal Khawarij",
+   "Fitna al-Khawarij",
+   "asr_name"
+  ],
+  [
+   77,
+   "Fitnal Hindustan",
+   "Fitna al-Hindustan",
+   "asr_name"
+  ],
+  [
+   46,
+   "illegal status",
+   "legal status",
+   "asr_term"
+  ],
+  [
+   15,
+   "East. precious",
+   "East. Precious",
+   "asr_term"
+  ],
+  [
+   85,
+   "worrying. as",
+   "worrying as",
+   "asr_term"
+  ],
+  [
+   103,
+   "consequences. and,",
+   "consequences. And,",
+   "asr_term"
+  ],
+  [
+   23,
+   "The President,",
+   "Regrettably Mr. President,",
+   "asr_term"
+  ],
+  [
+   95,
+   "long",
+   "long-term",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Opening Quranic verse kept as the speaker's own ceremonial opening; Khalilur Rahman and Annalena Baerbock (PGAs of the 81st and 80th sessions); Field Marshal Syed Asim Munir and Deputy Prime Minister Ishaq Dar (Government of Pakistan); Jinnah, Hormuz, Bab al-Mandab, Haramain Sharifain, 'precisión', 'vena yugular', 'Nuestra postura legítima' and 'Wafa' per the Spanish. Main-agent audit: unit 46 'attempts to alter the legal status of Jammu and Kashmir' (re-decodes hear 'illegal' at p 0.69-0.87 only; Spanish 'el estatus legal'; the sentence goes on 'and other illegal measures'). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 15 'East. precious' -> 'East. Precious'; unit 85 'worrying. as' -> 'worrying as'; unit 103 'consequences. and,' -> 'consequences. And,'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 7 unit 23 'The President,' -> 'Regrettably Mr. President,' (2026 exception: words sit in the existing repair 'The President,' -> 'Mr. President,'; 'Regrettably' heard in both decodes (0.86 / 0.83) and in three re-decodes at 309/310/312 s (0.82, 'Regretably' twice); ES 'Lamentablemente, señor presidente'; no comma added); spot 19 unit 95 'long' -> 'long-term' (2026 exception: both decodes clearly hear 'long -term' (0.95/0.92, 0.96/0.96); ES 'financiación asequible a largo plazo')",
+ "unitizer_version": 1,
+ "sha1": "ee0b3995b05fcb4fd7e754f3f07c4d14f9469fa9",
+ "layout": "single",
+ "stats": {
+  "n_units": 121,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2106,
+  "words_out": 2058,
+  "retention": 0.9772,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   20,
+   102,
+   109,
+   134,
+   69,
+   142,
+   156,
+   168,
+   134,
+   152,
+   82,
+   100,
+   133,
+   83,
+   132,
+   82,
+   139,
+   117,
+   4
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

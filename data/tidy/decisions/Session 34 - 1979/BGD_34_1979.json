@@ -1,0 +1,122 @@
+{
+ "id": "BGD_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  12,
+  17,
+  19,
+  25,
+  29,
+  37,
+  43,
+  45,
+  51,
+  56,
+  59,
+  65,
+  68,
+  71,
+  78,
+  81,
+  83,
+  86,
+  89,
+  92,
+  100,
+  103,
+  106,
+  111,
+  116,
+  123,
+  128,
+  132,
+  136,
+  138
+ ],
+ "cer": [
+  0,
+  2,
+  9
+ ],
+ "fix": [
+  [
+   49,
+   "in-adequately",
+   "inadequately",
+   "hyphen"
+  ],
+  [
+   77,
+   "Treaty - on",
+   "Treaty on",
+   "ocr"
+  ],
+  [
+   93,
+   "poverty,- disease",
+   "poverty, disease",
+   "ocr"
+  ],
+  [
+   101,
+   "14.9percent",
+   "14.9 per cent",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a52ce6f97ade3fe4bf5b4aeb50cee3d21e23c3e3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 58
+  },
+  "words_in": 4556,
+  "words_out": 4557,
+  "retention": 1.0002,
+  "n_paragraphs": 33,
+  "paragraph_words": [
+   90,
+   197,
+   112,
+   123,
+   95,
+   204,
+   119,
+   202,
+   152,
+   77,
+   189,
+   136,
+   93,
+   158,
+   99,
+   142,
+   172,
+   113,
+   90,
+   85,
+   80,
+   141,
+   240,
+   97,
+   142,
+   185,
+   149,
+   252,
+   176,
+   125,
+   139,
+   90,
+   93
+  ],
+  "warnings": []
+ }
+}

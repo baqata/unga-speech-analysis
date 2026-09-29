@@ -1,0 +1,68 @@
+{
+ "id": "GUY_62_2007",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  31,
+  42,
+  56,
+  73,
+  87,
+  101,
+  120,
+  136,
+  145,
+  156,
+  172,
+  187,
+  202,
+  212,
+  225
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   131,
+   "(All are involved)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The verse quotation at units 126-131 stays inside its paragraph; the poem-title source note is removed.",
+ "unitizer_version": 1,
+ "sha1": "f51814ce7608b9938bffa6200727701d0a84fb92",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 231,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1798,
+  "words_out": 1792,
+  "retention": 0.9967,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   50,
+   221,
+   72,
+   100,
+   126,
+   112,
+   107,
+   159,
+   105,
+   59,
+   80,
+   130,
+   126,
+   120,
+   79,
+   104,
+   42
+  ],
+  "warnings": []
+ }
+}

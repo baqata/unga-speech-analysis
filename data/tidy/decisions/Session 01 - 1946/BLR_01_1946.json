@@ -1,0 +1,86 @@
+{
+ "id": "BLR_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  13,
+  16,
+  24,
+  28,
+  32,
+  36,
+  39,
+  44,
+  51,
+  57,
+  61,
+  64,
+  67,
+  74,
+  79,
+  85,
+  91,
+  96,
+  99
+ ],
+ "cer": [],
+ "fix": [
+  [
+   59,
+   "war'",
+   "war",
+   "ocr"
+  ],
+  [
+   66,
+   "nations,",
+   "nations.",
+   "ocr"
+  ],
+  [
+   92,
+   "to-do",
+   "to do",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "07ecc5ada5a2c368308fbef00138ccf4b37dca84",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3055,
+  "words_out": 3056,
+  "retention": 1.0003,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   206,
+   89,
+   133,
+   201,
+   93,
+   141,
+   129,
+   132,
+   114,
+   176,
+   171,
+   131,
+   127,
+   174,
+   197,
+   166,
+   141,
+   192,
+   169,
+   66,
+   108
+  ],
+  "warnings": []
+ }
+}

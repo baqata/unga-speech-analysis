@@ -1,0 +1,100 @@
+{
+ "id": "ETH_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  14,
+  18,
+  25,
+  30,
+  35,
+  38,
+  41,
+  47,
+  52,
+  59,
+  63,
+  64,
+  70,
+  73,
+  75,
+  79,
+  85,
+  93,
+  94,
+  95,
+  100
+ ],
+ "cer": [],
+ "fix": [
+  [
+   54,
+   "to five",
+   "to live",
+   "ocr"
+  ],
+  [
+   59,
+   "may dead",
+   "may lead",
+   "ocr"
+  ],
+  [
+   63,
+   "session, I would",
+   "session. I would",
+   "ocr"
+  ],
+  [
+   70,
+   "Nations, In",
+   "Nations. In",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "00e0f1d9f61e6f04bfd8eba60be1f081de867c42",
+ "layout": "lines",
+ "stats": {
+  "n_units": 101,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3671,
+  "words_out": 3664,
+  "retention": 0.9981,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   87,
+   132,
+   237,
+   137,
+   197,
+   240,
+   159,
+   139,
+   167,
+   201,
+   173,
+   258,
+   117,
+   75,
+   173,
+   152,
+   89,
+   184,
+   174,
+   282,
+   74,
+   89,
+   80,
+   48
+  ],
+  "warnings": []
+ }
+}

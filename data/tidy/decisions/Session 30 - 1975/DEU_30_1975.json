@@ -1,0 +1,182 @@
+{
+ "id": "DEU_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  5,
+  8,
+  14,
+  18,
+  22,
+  24,
+  30,
+  34,
+  38,
+  41,
+  48,
+  53,
+  57,
+  60,
+  64,
+  69,
+  71,
+  77,
+  82,
+  87,
+  94,
+  103,
+  108,
+  113,
+  118,
+  124,
+  129,
+  133,
+  137,
+  145,
+  150,
+  157,
+  164,
+  170
+ ],
+ "cer": [
+  2
+ ],
+ "fix": [
+  [
+   3,
+   "challenge, Please",
+   "challenge. Please",
+   "ocr"
+  ],
+  [
+   36,
+   "extra-ordinary",
+   "extraordinary",
+   "hyphen"
+  ],
+  [
+   70,
+   "and 1 wish",
+   "and I wish",
+   "ocr"
+  ],
+  [
+   84,
+   " [resolution 217 A (III)]",
+   "",
+   "label"
+  ],
+  [
+   84,
+   " [see resolution 2200 A (XXI)]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "subject,",
+   "subject.",
+   "ocr"
+  ],
+  [
+   97,
+   "as Well",
+   "as well",
+   "ocr"
+  ],
+  [
+   104,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   115,
+   "Helsinki, However",
+   "Helsinki. However",
+   "ocr"
+  ],
+  [
+   118,
+   "non- proliferation",
+   "non-proliferation",
+   "hyphen"
+  ],
+  [
+   160,
+   "J11.",
+   "",
+   "label"
+  ],
+  [
+   173,
+   " [££C]",
+   "",
+   "label"
+  ],
+  [
+   177,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b182d204742b507a2cd91c5a4dff47f85e68ccf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 179,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 44,
+   "page_number": 1
+  },
+  "words_in": 4373,
+  "words_out": 4359,
+  "retention": 0.9968,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   44,
+   120,
+   94,
+   106,
+   136,
+   76,
+   98,
+   168,
+   129,
+   82,
+   122,
+   144,
+   103,
+   67,
+   82,
+   106,
+   94,
+   73,
+   133,
+   127,
+   127,
+   158,
+   258,
+   121,
+   133,
+   127,
+   130,
+   123,
+   104,
+   80,
+   146,
+   138,
+   134,
+   134,
+   118,
+   224
+  ],
+  "warnings": []
+ }
+}

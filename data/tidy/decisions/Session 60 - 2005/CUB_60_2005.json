@@ -1,0 +1,39 @@
+{
+ "id": "CUB_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  37,
+  53,
+  63,
+  82
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6da125043c1c0a5e38a67fe8e278fbaf16469311",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 99,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 801,
+  "words_out": 797,
+  "retention": 0.995,
+  "n_paragraphs": 6,
+  "paragraph_words": [
+   182,
+   127,
+   122,
+   82,
+   151,
+   133
+  ],
+  "warnings": []
+ }
+}

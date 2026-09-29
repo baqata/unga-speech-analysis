@@ -1,0 +1,77 @@
+{
+ "id": "ITA_48_1993",
+ "drop": [
+  [
+   70,
+   70,
+   "header_footer"
+  ],
+  [
+   161,
+   161,
+   "header_footer"
+  ],
+  [
+   254,
+   254,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  27,
+  46,
+  63,
+  78,
+  105,
+  124,
+  139,
+  149,
+  171,
+  185,
+  205,
+  217,
+  237,
+  251
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "68d1ba096836c0809d46ce02d64156850bade2a8",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 272,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2342,
+  "words_out": 2323,
+  "retention": 0.9919,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   80,
+   149,
+   171,
+   143,
+   114,
+   234,
+   151,
+   126,
+   93,
+   172,
+   129,
+   171,
+   106,
+   176,
+   123,
+   185
+  ],
+  "warnings": []
+ }
+}

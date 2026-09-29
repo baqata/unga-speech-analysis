@@ -1,0 +1,53 @@
+{
+ "id": "TUN_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  43,
+  65,
+  78,
+  98,
+  116,
+  130,
+  145,
+  165,
+  185,
+  204
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e792e23ed66329d6ffef67ad716f4553471711a3",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 213,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1610,
+  "words_out": 1609,
+  "retention": 0.9994,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   164,
+   170,
+   170,
+   93,
+   156,
+   131,
+   103,
+   118,
+   150,
+   149,
+   132,
+   73
+  ],
+  "warnings": []
+ }
+}

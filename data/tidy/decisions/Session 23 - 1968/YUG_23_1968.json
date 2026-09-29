@@ -1,0 +1,117 @@
+{
+ "id": "YUG_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  16,
+  22,
+  30,
+  35,
+  41,
+  45,
+  50,
+  54,
+  62,
+  66,
+  72,
+  76,
+  81,
+  87,
+  90,
+  96,
+  103,
+  114
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   10,
+   " [A/7201/Add.1]",
+   "",
+   "label"
+  ],
+  [
+   25,
+   "a Crisis",
+   "a crisis",
+   "ocr"
+  ],
+  [
+   29,
+   "of. international",
+   "of international",
+   "ocr"
+  ],
+  [
+   40,
+   "States. it",
+   "States. It",
+   "ocr"
+  ],
+  [
+   53,
+   "well-known. an",
+   "well-known. An",
+   "ocr"
+  ],
+  [
+   56,
+   " [242(1967)]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   " [resolution 2373(XXII)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9d76e06e6f5fb1cf424fcfaf38b3e8886696eb36",
+ "layout": "lines",
+ "stats": {
+  "n_units": 118,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1
+  },
+  "words_in": 2746,
+  "words_out": 2714,
+  "retention": 0.9883,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   73,
+   65,
+   74,
+   191,
+   187,
+   170,
+   135,
+   146,
+   90,
+   108,
+   93,
+   198,
+   75,
+   139,
+   80,
+   146,
+   147,
+   81,
+   127,
+   131,
+   175,
+   83
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "UZB_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  15,
+  28,
+  41,
+  56,
+  65,
+  71,
+  80,
+  91,
+  99,
+  109,
+  121
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   14,
+   " (A/47/277)",
+   "",
+   "label"
+  ],
+  [
+   71,
+   "region. Central Asia",
+   "region, Central Asia",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "08c4dd492b4ba018ec0eaa1bfcbaef6ac8ec9843",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1444,
+  "words_out": 1443,
+  "retention": 0.9993,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   17,
+   131,
+   140,
+   139,
+   168,
+   98,
+   69,
+   108,
+   124,
+   86,
+   105,
+   124,
+   134
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "CAF_61_2006",
+ "drop": [
+  [
+   66,
+   67,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  20,
+  33,
+  51,
+  76,
+  90,
+  110,
+  124,
+  134,
+  148,
+  159,
+  174,
+  192,
+  202,
+  213
+ ],
+ "cer": [
+  33,
+  213
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8c343589e6850871a9b7210458be2de2381a6f44",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 215,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1649,
+  "words_out": 1638,
+  "retention": 0.9933,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   155,
+   94,
+   158,
+   163,
+   100,
+   159,
+   99,
+   72,
+   104,
+   103,
+   124,
+   137,
+   77,
+   80,
+   13
+  ],
+  "warnings": [
+   "procedural drop [66,67] in the middle of the speech"
+  ]
+ }
+}

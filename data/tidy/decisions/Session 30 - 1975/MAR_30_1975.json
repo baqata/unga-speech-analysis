@@ -1,0 +1,275 @@
+{
+ "id": "MAR_30_1975",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  13,
+  17,
+  20,
+  23,
+  26,
+  27,
+  32,
+  34,
+  38,
+  41,
+  44,
+  49,
+  52,
+  56,
+  61,
+  65,
+  69,
+  75,
+  77,
+  80,
+  82,
+  86,
+  90,
+  92,
+  100,
+  103,
+  106,
+  108,
+  111,
+  116,
+  117,
+  122,
+  126
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "Bouteflika. to",
+   "Bouteflika, to",
+   "ocr"
+  ],
+  [
+   10,
+   "1 would",
+   "I would",
+   "ocr"
+  ],
+  [
+   10,
+   "South-Bast",
+   "South-East",
+   "ocr"
+  ],
+  [
+   13,
+   "cm Security",
+   "on Security",
+   "ocr"
+  ],
+  [
+   15,
+   "rights, of",
+   "rights of",
+   "ocr"
+  ],
+  [
+   29,
+   "populations,",
+   "populations.",
+   "ocr"
+  ],
+  [
+   35,
+   "Sinai,",
+   "Sinai.",
+   "ocr"
+  ],
+  [
+   48,
+   "tn Lebanon",
+   "in Lebanon",
+   "ocr"
+  ],
+  [
+   51,
+   "inter- communal",
+   "inter-communal",
+   "hyphen"
+  ],
+  [
+   52,
+   "non- participating",
+   "non-participating",
+   "hyphen"
+  ],
+  [
+   54,
+   "Stales",
+   "States",
+   "ocr"
+  ],
+  [
+   65,
+   "Territories,",
+   "Territories.",
+   "ocr"
+  ],
+  [
+   66,
+   " [OAU\\",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "May 1 recall",
+   "May I recall",
+   "ocr"
+  ],
+  [
+   68,
+   "policy. Morocco",
+   "policy, Morocco",
+   "ocr"
+  ],
+  [
+   70,
+   "principles, of",
+   "principles of",
+   "ocr"
+  ],
+  [
+   79,
+   "All0217 and Corr.l, annex, para. 43.]",
+   "",
+   "label"
+  ],
+  [
+   103,
+   "ot its",
+   "of its",
+   "ocr"
+  ],
+  [
+   105,
+   "interest, These",
+   "interest. These",
+   "ocr"
+  ],
+  [
+   105,
+   "we- did",
+   "we did",
+   "ocr"
+  ],
+  [
+   107,
+   "the Impression",
+   "the impression",
+   "ocr"
+  ],
+  [
+   108,
+   "Sahara, It",
+   "Sahara. It",
+   "ocr"
+  ],
+  [
+   109,
+   " [AII0023, chap.",
+   "",
+   "label"
+  ],
+  [
+   110,
+   "XIII, annex]",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "of. decolonization",
+   "of decolonization",
+   "ocr"
+  ],
+  [
+   114,
+   "Inter-national",
+   "International",
+   "hyphen"
+  ],
+  [
+   116,
+   "unity, Nothing",
+   "unity. Nothing",
+   "ocr"
+  ],
+  [
+   41,
+   " [PLO]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 48 keeps OCR damage (\"ave\", \"y Israel\") and unit 63 keeps \"tum\"; they cannot be repaired without adding letters.",
+ "unitizer_version": 1,
+ "sha1": "2115f18133be51bb85fdf5c60368f6ec0a934f1c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 130,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 62
+  },
+  "words_in": 4431,
+  "words_out": 4414,
+  "retention": 0.9962,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   130,
+   88,
+   80,
+   114,
+   148,
+   109,
+   151,
+   129,
+   68,
+   177,
+   60,
+   165,
+   82,
+   164,
+   127,
+   67,
+   164,
+   129,
+   152,
+   141,
+   155,
+   98,
+   101,
+   66,
+   96,
+   151,
+   78,
+   189,
+   104,
+   164,
+   89,
+   80,
+   176,
+   101,
+   125,
+   112,
+   84
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

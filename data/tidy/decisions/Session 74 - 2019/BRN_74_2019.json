@@ -1,0 +1,54 @@
+{
+ "id": "BRN_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  18,
+  24,
+  29,
+  34,
+  39,
+  45
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   47,
+   "UnitedNations",
+   "United Nations",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "07e5ee0c1527057b32f0ca9b94f81f4fc020174b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1131,
+  "words_out": 1130,
+  "retention": 0.9991,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   116,
+   89,
+   117,
+   119,
+   125,
+   88,
+   112,
+   86,
+   126,
+   152
+  ],
+  "warnings": []
+ }
+}

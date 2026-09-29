@@ -1,0 +1,115 @@
+{
+ "id": "KHM_75_2020",
+ "drop": [
+  [
+   9,
+   9,
+   "heading"
+  ],
+  [
+   20,
+   20,
+   "heading"
+  ],
+  [
+   28,
+   28,
+   "heading"
+  ],
+  [
+   39,
+   39,
+   "heading"
+  ],
+  [
+   50,
+   50,
+   "heading"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  13,
+  16,
+  21,
+  24,
+  29,
+  32,
+  40,
+  46,
+  51,
+  54,
+  58,
+  60,
+  65
+ ],
+ "cer": [
+  0,
+  65
+ ],
+ "fix": [
+  [
+   0,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   1,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   2,
+   "- ",
+   "",
+   "markup"
+  ],
+  [
+   54,
+   "vu”.A",
+   "vu”. A",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "57a3a3887d78f4910e192496fe8ef5764be565f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 66,
+  "units_dropped": {
+   "heading": 5
+  },
+  "prestrip": {},
+  "words_in": 1619,
+  "words_out": 1590,
+  "retention": 0.9821,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   17,
+   149,
+   99,
+   71,
+   100,
+   106,
+   55,
+   113,
+   83,
+   146,
+   122,
+   136,
+   67,
+   130,
+   100,
+   94,
+   2
+  ],
+  "warnings": []
+ }
+}

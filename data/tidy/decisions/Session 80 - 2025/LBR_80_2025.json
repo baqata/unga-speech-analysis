@@ -1,0 +1,80 @@
+{
+ "id": "LBR_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   68,
+   69,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  5,
+  8,
+  14,
+  22,
+  27,
+  30,
+  38,
+  42,
+  48,
+  54,
+  62,
+  67
+ ],
+ "cer": [
+  5,
+  67
+ ],
+ "fix": [
+  [
+   35,
+   "Laws and Damage",
+   "Loss and Damage",
+   "asr_term"
+  ],
+  [
+   55,
+   "the path for the future",
+   "the Pact for the Future",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f50b483b65dd80282275f2e98140e8bf0c5d8276",
+ "layout": "single",
+ "stats": {
+  "n_units": 70,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1453,
+  "words_out": 1403,
+  "retention": 0.9656,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   78,
+   66,
+   164,
+   177,
+   123,
+   80,
+   122,
+   97,
+   141,
+   142,
+   126,
+   85,
+   2
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "id": "KIR_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   59,
+   59,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  10,
+  14,
+  20,
+  25,
+  31,
+  33,
+  37,
+  41,
+  47,
+  53,
+  57
+ ],
+ "cer": [
+  2,
+  57
+ ],
+ "fix": [
+  [
+   6,
+   "LDS",
+   "LDCs",
+   "asr_term"
+  ],
+  [
+   21,
+   "CIDs",
+   "SIDS",
+   "asr_term"
+  ],
+  [
+   22,
+   "other CIDs",
+   "other SIDS",
+   "asr_term"
+  ],
+  [
+   22,
+   "Agenda for CIDs",
+   "Agenda for SIDS",
+   "asr_term"
+  ],
+  [
+   22,
+   "ABES",
+   "ABAS",
+   "asr_term"
+  ],
+  [
+   28,
+   "loss and damage front",
+   "loss and damage fund",
+   "asr_term"
+  ],
+  [
+   50,
+   "DOA Program",
+   "Doha Program",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2aa26f779f411719477a99d3500f0439cd3cb506",
+ "layout": "single",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 1430,
+  "words_out": 1367,
+  "retention": 0.9559,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   81,
+   163,
+   120,
+   109,
+   87,
+   132,
+   64,
+   139,
+   100,
+   104,
+   133,
+   97,
+   38
+  ],
+  "warnings": []
+ }
+}

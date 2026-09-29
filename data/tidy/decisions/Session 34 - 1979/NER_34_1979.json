@@ -1,0 +1,137 @@
+{
+ "id": "NER_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  18,
+  21,
+  25,
+  27,
+  29,
+  33,
+  35,
+  39,
+  47,
+  51,
+  53,
+  56,
+  62,
+  66,
+  69,
+  73,
+  77,
+  82,
+  84,
+  87,
+  90,
+  92,
+  93,
+  95
+ ],
+ "cer": [
+  0,
+  25,
+  90,
+  93
+ ],
+ "fix": [
+  [
+   3,
+   "the ' 'front line''",
+   "the \"front line\"",
+   "ocr"
+  ],
+  [
+   21,
+   "loathe- some",
+   "loathsome",
+   "ocr"
+  ],
+  [
+   26,
+   "Niger,",
+   "Niger.",
+   "ocr"
+  ],
+  [
+   50,
+   "It that not",
+   "Is that not",
+   "ocr"
+  ],
+  [
+   58,
+   "us,\"",
+   "us.\"",
+   "ocr"
+  ],
+  [
+   69,
+   "ill- adapted",
+   "ill-adapted",
+   "spacing"
+  ],
+  [
+   84,
+   "dis-quieting",
+   "disquieting",
+   "hyphen"
+  ],
+  [
+   93,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0e8c8decb241b8c37aa8851a880b295e894b2ba6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3177,
+  "words_out": 3169,
+  "retention": 0.9975,
+  "n_paragraphs": 28,
+  "paragraph_words": [
+   154,
+   126,
+   108,
+   176,
+   69,
+   157,
+   93,
+   88,
+   120,
+   126,
+   132,
+   197,
+   129,
+   77,
+   100,
+   167,
+   102,
+   130,
+   109,
+   135,
+   162,
+   55,
+   53,
+   142,
+   55,
+   84,
+   58,
+   65
+  ],
+  "warnings": []
+ }
+}

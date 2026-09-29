@@ -1,0 +1,152 @@
+{
+ "id": "SWE_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  14,
+  19,
+  24,
+  28,
+  32,
+  39,
+  45,
+  52,
+  58,
+  60,
+  64,
+  68,
+  81,
+  84,
+  87,
+  95,
+  98,
+  103,
+  106,
+  110,
+  113,
+  116,
+  121
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "they,",
+   "they",
+   "ocr"
+  ],
+  [
+   22,
+   "open,",
+   "open.",
+   "ocr"
+  ],
+  [
+   27,
+   "principles,",
+   "principles.",
+   "ocr"
+  ],
+  [
+   38,
+   "more:",
+   "more",
+   "ocr"
+  ],
+  [
+   46,
+   "Security.",
+   "Security",
+   "ocr"
+  ],
+  [
+   51,
+   "it,",
+   "it",
+   "ocr"
+  ],
+  [
+   52,
+   "the,",
+   "the",
+   "ocr"
+  ],
+  [
+   53,
+   "that;",
+   "that",
+   "ocr"
+  ],
+  [
+   58,
+   "used,",
+   "used.",
+   "ocr"
+  ],
+  [
+   68,
+   "recognized,",
+   "recognized",
+   "ocr"
+  ],
+  [
+   91,
+   "_",
+   "",
+   "ocr"
+  ],
+  [
+   101,
+   "justice",
+   "Justice",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5a2c689df89d546ffded3d704830e7009b3ccd16",
+ "layout": "lines",
+ "stats": {
+  "n_units": 125,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 37
+  },
+  "words_in": 3503,
+  "words_out": 3501,
+  "retention": 0.9994,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   173,
+   81,
+   134,
+   135,
+   198,
+   92,
+   96,
+   129,
+   125,
+   156,
+   227,
+   74,
+   154,
+   125,
+   285,
+   83,
+   105,
+   179,
+   68,
+   165,
+   119,
+   93,
+   72,
+   117,
+   160,
+   156
+  ],
+  "warnings": []
+ }
+}

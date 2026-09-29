@@ -1,0 +1,196 @@
+{
+ "id": "LCA_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   99,
+   99,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  12,
+  20,
+  25,
+  30,
+  32,
+  42,
+  46,
+  52,
+  56,
+  60,
+  65,
+  74,
+  82,
+  91,
+  98
+ ],
+ "cer": [
+  2,
+  98
+ ],
+ "fix": [
+  [
+   9,
+   "Death",
+   "Debt",
+   "asr_term"
+  ],
+  [
+   17,
+   "combat",
+   "compact",
+   "asr_term"
+  ],
+  [
+   22,
+   "boughs",
+   "bouts",
+   "asr_term"
+  ],
+  [
+   22,
+   "sargasm",
+   "sargassum",
+   "asr_term"
+  ],
+  [
+   23,
+   "liquor",
+   "little",
+   "asr_term"
+  ],
+  [
+   30,
+   "amends",
+   "laments",
+   "asr_term"
+  ],
+  [
+   31,
+   "Resolution 326",
+   "Resolution 3236",
+   "asr_term"
+  ],
+  [
+   49,
+   "pullment and non-pullment",
+   "permanent and non-permanent",
+   "asr_term"
+  ],
+  [
+   51,
+   "St. Lusa",
+   "St. Lucia",
+   "asr_name"
+  ],
+  [
+   52,
+   "stirling",
+   "sterling",
+   "asr_term"
+  ],
+  [
+   54,
+   "Caroline Rodriguez-Bouquet",
+   "Carolyn Rodrigues-Birkett",
+   "asr_name"
+  ],
+  [
+   56,
+   "shattled",
+   "chattel",
+   "asr_term"
+  ],
+  [
+   57,
+   "Indian Americans",
+   "in the Americas",
+   "asr_term"
+  ],
+  [
+   59,
+   "Judical",
+   "Judicial",
+   "asr_term"
+  ],
+  [
+   70,
+   "digital roles",
+   "digital rules",
+   "asr_term"
+  ],
+  [
+   91,
+   "Solution believes",
+   "St. Lucia believes",
+   "asr_name"
+  ],
+  [
+   96,
+   "Sir Alfred Lewis",
+   "Sir Arthur Lewis",
+   "asr_name"
+  ],
+  [
+   97,
+   "Julian Alfred",
+   "Julien Alfred",
+   "asr_name"
+  ],
+  [
+   11,
+   "form. and",
+   "form. And",
+   "asr_term"
+  ],
+  [
+   39,
+   "state. to",
+   "state. To",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Carolyn Rodrigues-Birkett per PassBlue and Guyana Chronicle (Guyana's SG candidate); Sir Arthur Lewis and Julien Alfred are Saint Lucia's Nobel economist and Olympic sprinter; resolution 3236, 'permanent', 'laments', 'in the Americas' per Spanish. Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 11 'form. and' -> 'form. And'; unit 39 'state. to' -> 'state. To'",
+ "unitizer_version": 1,
+ "sha1": "0baed79dc020d2f7959ffd44a40d8893a7c78c61",
+ "layout": "single",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2014,
+  "words_out": 1948,
+  "retention": 0.9672,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   8,
+   155,
+   140,
+   149,
+   69,
+   72,
+   213,
+   105,
+   145,
+   97,
+   131,
+   75,
+   157,
+   129,
+   151,
+   149,
+   3
+  ],
+  "warnings": []
+ }
+}

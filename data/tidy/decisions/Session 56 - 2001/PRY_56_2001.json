@@ -1,0 +1,57 @@
+{
+ "id": "PRY_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  22,
+  37,
+  50,
+  65,
+  83,
+  105,
+  127,
+  141,
+  167,
+  177,
+  195,
+  215,
+  226
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "Unit 49 lost its closing full stop in the source; left as printed.",
+ "unitizer_version": 1,
+ "sha1": "64b7ece5534156ab0806b031e71b7c6988c1d656",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 1922,
+  "words_out": 1921,
+  "retention": 0.9995,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   192,
+   128,
+   101,
+   127,
+   125,
+   180,
+   169,
+   106,
+   210,
+   81,
+   141,
+   172,
+   89,
+   100
+  ],
+  "warnings": []
+ }
+}

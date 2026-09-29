@@ -1,0 +1,62 @@
+{
+ "id": "TCD_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  35,
+  45,
+  57,
+  68,
+  78,
+  96,
+  109,
+  122,
+  134,
+  147,
+  163,
+  174,
+  183
+ ],
+ "cer": [],
+ "fix": [
+  [
+   28,
+   "persistant",
+   "persistent",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "535924494f0c44538a3ff1e7ddc0dc66743f0f89",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1515,
+  "words_out": 1513,
+  "retention": 0.9987,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   189,
+   71,
+   75,
+   103,
+   87,
+   81,
+   142,
+   110,
+   99,
+   89,
+   116,
+   128,
+   84,
+   70,
+   69
+  ],
+  "warnings": []
+ }
+}

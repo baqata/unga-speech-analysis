@@ -1,0 +1,63 @@
+{
+ "id": "NOR_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  9,
+  18,
+  23,
+  33,
+  37,
+  43,
+  53,
+  67,
+  75,
+  80,
+  88,
+  98,
+  105,
+  122
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "faf523897bbab3b0b7937fca2e277071bd3fbe84",
+ "layout": "single",
+ "stats": {
+  "n_units": 132,
+  "units_dropped": {
+   "presider": 1
+  },
+  "prestrip": {},
+  "words_in": 1832,
+  "words_out": 1814,
+  "retention": 0.9902,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   168,
+   143,
+   72,
+   99,
+   63,
+   101,
+   104,
+   198,
+   96,
+   88,
+   129,
+   137,
+   74,
+   196,
+   146
+  ],
+  "warnings": []
+ }
+}

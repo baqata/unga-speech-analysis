@@ -1,0 +1,100 @@
+{
+ "id": "PHL_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  5,
+  9,
+  14,
+  20,
+  23,
+  28,
+  33,
+  40,
+  46,
+  51,
+  56,
+  62,
+  67,
+  70,
+  73,
+  79,
+  84,
+  87,
+  91
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   5,
+   "the' world",
+   "the world",
+   "ocr"
+  ],
+  [
+   9,
+   "after- math",
+   "aftermath",
+   "hyphen"
+  ],
+  [
+   52,
+   "mind -such",
+   "mind such",
+   "ocr"
+  ],
+  [
+   83,
+   "should he applied",
+   "should be applied",
+   "ocr"
+  ],
+  [
+   90,
+   "anti its",
+   "and its",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0051e8e17ac9a449af2e7f040c9f8b85ba8e6b74",
+ "layout": "lines",
+ "stats": {
+  "n_units": 94,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2740,
+  "words_out": 2739,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   21,
+   98,
+   108,
+   149,
+   114,
+   104,
+   164,
+   160,
+   174,
+   184,
+   163,
+   183,
+   141,
+   90,
+   169,
+   69,
+   159,
+   185,
+   92,
+   141,
+   71
+  ],
+  "warnings": []
+ }
+}

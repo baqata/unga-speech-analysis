@@ -1,0 +1,71 @@
+{
+ "id": "LAO_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  15,
+  25,
+  39,
+  60,
+  74,
+  82,
+  87,
+  97,
+  105,
+  115,
+  126,
+  146,
+  161,
+  170,
+  180,
+  193
+ ],
+ "cer": [
+  0,
+  9
+ ],
+ "fix": [
+  [
+   6,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c402401f2da775ddab85c8e13482e321682fac44",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 204,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1568,
+  "words_out": 1567,
+  "retention": 0.9994,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   72,
+   45,
+   67,
+   109,
+   144,
+   115,
+   66,
+   44,
+   77,
+   65,
+   72,
+   82,
+   174,
+   109,
+   72,
+   77,
+   103,
+   74
+  ],
+  "warnings": []
+ }
+}

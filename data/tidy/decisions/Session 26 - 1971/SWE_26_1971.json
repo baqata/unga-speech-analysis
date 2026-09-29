@@ -1,0 +1,254 @@
+{
+ "id": "SWE_26_1971",
+ "drop": [
+  [
+   26,
+   26,
+   "header_footer"
+  ],
+  [
+   28,
+   30,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  15,
+  20,
+  25,
+  37,
+  42,
+  51,
+  55,
+  59,
+  63,
+  67,
+  72,
+  80,
+  88,
+  92,
+  95,
+  98,
+  104,
+  109
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   0,
+   "1 ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "2 ",
+   "",
+   "label"
+  ],
+  [
+   5,
+   "3 ",
+   "",
+   "label"
+  ],
+  [
+   8,
+   "of .the",
+   "of the",
+   "ocr"
+  ],
+  [
+   16,
+   " [A/84Q1/Add.l, para. 104]",
+   "",
+   "label"
+  ],
+  [
+   16,
+   "better; possibilities",
+   "better possibilities",
+   "ocr"
+  ],
+  [
+   17,
+   "a Consequence",
+   "a consequence",
+   "ocr"
+  ],
+  [
+   19,
+   "it is? a",
+   "it is a",
+   "ocr"
+  ],
+  [
+   25,
+   "way. »",
+   "way.",
+   "ocr"
+  ],
+  [
+   33,
+   "vita! importance",
+   "vital importance",
+   "ocr"
+  ],
+  [
+   33,
+   "between.",
+   "between",
+   "ocr"
+  ],
+  [
+   48,
+   "scale, Sweden",
+   "scale. Sweden",
+   "ocr"
+  ],
+  [
+   52,
+   "basis '/or the",
+   "basis for the",
+   "ocr"
+  ],
+  [
+   53,
+   "ever- widening",
+   "ever-widening",
+   "hyphen"
+  ],
+  [
+   56,
+   "world, The far-reaching",
+   "world. The far-reaching",
+   "ocr"
+  ],
+  [
+   57,
+   "^ redistribution",
+   "redistribution",
+   "ocr"
+  ],
+  [
+   58,
+   "accenting",
+   "accepting",
+   "ocr"
+  ],
+  [
+   58,
+   "change con these",
+   "change can these",
+   "ocr"
+  ],
+  [
+   59,
+   " resolution 2626 (XXV)]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "again,",
+   "again.",
+   "ocr"
+  ],
+  [
+   85,
+   " fA/8401/AddJ, para. 177]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "and i wish",
+   "and I wish",
+   "ocr"
+  ],
+  [
+   95,
+   "In \"southern",
+   "In southern",
+   "ocr"
+  ],
+  [
+   105,
+   "comprehensive 'disarmament",
+   "comprehensive disarmament",
+   "ocr"
+  ],
+  [
+   105,
+   "in 1970s",
+   "in 1970",
+   "ocr"
+  ],
+  [
+   105,
+   "tills program",
+   "this program",
+   "ocr"
+  ],
+  [
+   105,
+   "complete disarmament,",
+   "complete disarmament.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "82107058639bd923a77fc8bb4a90c90f4dd35a7a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 114,
+  "units_dropped": {
+   "header_footer": 1,
+   "noise": 3
+  },
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 2488,
+  "words_out": 2437,
+  "retention": 0.9795,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   80,
+   53,
+   117,
+   116,
+   132,
+   110,
+   164,
+   103,
+   178,
+   75,
+   87,
+   99,
+   99,
+   119,
+   178,
+   143,
+   123,
+   93,
+   69,
+   95,
+   129,
+   75
+  ],
+  "warnings": [
+   "27 fixes"
+  ]
+ }
+}

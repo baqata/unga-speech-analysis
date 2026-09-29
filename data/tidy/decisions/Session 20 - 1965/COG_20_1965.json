@@ -1,0 +1,149 @@
+{
+ "id": "COG_20_1965",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  17,
+  23,
+  28,
+  33,
+  39,
+  46,
+  57,
+  65,
+  74,
+  79,
+  84,
+  87,
+  90,
+  97,
+  101,
+  106,
+  112,
+  118
+ ],
+ "cer": [
+  0,
+  6
+ ],
+ "fix": [
+  [
+   4,
+   "Quaison- Sackey",
+   "Quaison-Sackey",
+   "hyphen"
+  ],
+  [
+   16,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   19,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   24,
+   "divine miss.",
+   "divine mission.",
+   "ocr"
+  ],
+  [
+   25,
+   "I. But all",
+   "But all",
+   "ocr"
+  ],
+  [
+   25,
+   "colonialism and- neo-colonialism",
+   "colonialism and neo-colonialism",
+   "ocr"
+  ],
+  [
+   53,
+   "that a’ permanent",
+   "that a permanent",
+   "ocr"
+  ],
+  [
+   54,
+   "anti- Chinese",
+   "anti-Chinese",
+   "hyphen"
+  ],
+  [
+   64,
+   "down fall",
+   "downfall",
+   "split_word"
+  ],
+  [
+   67,
+   "escalation of, this",
+   "escalation of this",
+   "ocr"
+  ],
+  [
+   76,
+   "Viet- Nam",
+   "Viet-Nam",
+   "hyphen"
+  ],
+  [
+   107,
+   "rights, Cannot",
+   "rights, cannot",
+   "ocr"
+  ],
+  [
+   119,
+   "the United Nation develop",
+   "the United Nations develop",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1d1a28ae28ccbadacdcd6eef2f63e63f46297ea3",
+ "layout": "lines",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3224,
+  "words_out": 3189,
+  "retention": 0.9891,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   179,
+   98,
+   219,
+   156,
+   222,
+   105,
+   179,
+   116,
+   308,
+   160,
+   260,
+   106,
+   119,
+   83,
+   63,
+   173,
+   102,
+   131,
+   188,
+   173,
+   49
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "id": "GHA_39_1984",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  10,
+  13,
+  18,
+  24,
+  29,
+  34,
+  40,
+  43,
+  47,
+  50,
+  54,
+  57,
+  64,
+  69,
+  77,
+  82,
+  84,
+  90,
+  93,
+  94,
+  95,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "thirty- ninth",
+   "thirty-ninth",
+   "hyphen"
+  ],
+  [
+   10,
+   "Non- Aggression",
+   "Non-Aggression",
+   "hyphen"
+  ],
+  [
+   13,
+   "three- chamber",
+   "three-chamber",
+   "hyphen"
+  ],
+  [
+   36,
+   "Turkish- Cypriot",
+   "Turkish-Cypriot",
+   "hyphen"
+  ],
+  [
+   53,
+   "reasons Shat we",
+   "reasons that we",
+   "ocr"
+  ],
+  [
+   54,
+   "Geneva, l well as",
+   "Geneva, as well as",
+   "ocr"
+  ],
+  [
+   64,
+   "market- economy",
+   "market-economy",
+   "hyphen"
+  ],
+  [
+   73,
+   "longer- term",
+   "longer-term",
+   "hyphen"
+  ],
+  [
+   80,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "3f4a55e015a488541331f5ede4fa914f2c60382b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 33
+  },
+  "words_in": 3169,
+  "words_out": 3162,
+  "retention": 0.9978,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   165,
+   127,
+   143,
+   155,
+   195,
+   158,
+   132,
+   163,
+   82,
+   145,
+   81,
+   115,
+   147,
+   130,
+   126,
+   196,
+   126,
+   57,
+   212,
+   56,
+   83,
+   76,
+   131,
+   161
+  ],
+  "warnings": []
+ }
+}

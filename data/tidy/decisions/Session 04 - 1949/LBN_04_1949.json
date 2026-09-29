@@ -1,0 +1,131 @@
+{
+ "id": "LBN_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  6,
+  9,
+  14,
+  17,
+  22,
+  27,
+  33,
+  37,
+  45,
+  48,
+  53,
+  56,
+  64,
+  72,
+  76,
+  82,
+  87,
+  94,
+  99,
+  103,
+  111,
+  119,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   13,
+   "great-blessing",
+   "great blessing",
+   "spacing"
+  ],
+  [
+   15,
+   "question;",
+   "question,",
+   "ocr"
+  ],
+  [
+   27,
+   "of .the",
+   "of the",
+   "ocr"
+  ],
+  [
+   41,
+   "If was",
+   "It was",
+   "ocr"
+  ],
+  [
+   62,
+   "abide. by",
+   "abide by",
+   "ocr"
+  ],
+  [
+   89,
+   "many, quarters",
+   "many quarters",
+   "ocr"
+  ],
+  [
+   90,
+   "Arab.States",
+   "Arab States",
+   "ocr"
+  ],
+  [
+   126,
+   "tire two",
+   "the two",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected",
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person; unit 47 visibly lacks words after 'jurisdiction of'.",
+ "unitizer_version": 1,
+ "sha1": "6444cc122b3d62b4d4ac0316bfdcdf79e5a7eccf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 30
+  },
+  "words_in": 3613,
+  "words_out": 3613,
+  "retention": 1.0,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   40,
+   123,
+   88,
+   137,
+   94,
+   167,
+   169,
+   178,
+   115,
+   255,
+   82,
+   177,
+   95,
+   191,
+   251,
+   140,
+   248,
+   138,
+   200,
+   85,
+   119,
+   176,
+   136,
+   113,
+   96
+  ],
+  "warnings": []
+ }
+}

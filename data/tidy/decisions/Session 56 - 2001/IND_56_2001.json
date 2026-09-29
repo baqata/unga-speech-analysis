@@ -1,0 +1,51 @@
+{
+ "id": "IND_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  18,
+  41,
+  59,
+  73,
+  87,
+  99,
+  111,
+  124,
+  145
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9acc09114eb8bae44b153e583b8e3b00b76f3618",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 163,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1211,
+  "words_out": 1209,
+  "retention": 0.9983,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   43,
+   92,
+   163,
+   133,
+   100,
+   118,
+   86,
+   82,
+   98,
+   153,
+   141
+  ],
+  "warnings": []
+ }
+}

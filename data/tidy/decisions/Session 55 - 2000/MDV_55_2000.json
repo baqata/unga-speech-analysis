@@ -1,0 +1,80 @@
+{
+ "id": "MDV_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  20,
+  29,
+  39,
+  51,
+  62,
+  78,
+  96,
+  119,
+  136,
+  145,
+  168,
+  181,
+  196,
+  216,
+  234,
+  263
+ ],
+ "cer": [
+  0,
+  7,
+  263
+ ],
+ "fix": [
+  [
+   10,
+   "fiftyfourth",
+   "fifty-fourth",
+   "hyphen"
+  ],
+  [
+   202,
+   "NonProliferation",
+   "Non-Proliferation",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71711590ec948c00bb1d9bf632e56abb5976563c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 267,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2122,
+  "words_out": 2119,
+  "retention": 0.9986,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   53,
+   108,
+   79,
+   71,
+   98,
+   99,
+   134,
+   145,
+   176,
+   130,
+   75,
+   170,
+   109,
+   114,
+   158,
+   148,
+   223,
+   29
+  ],
+  "warnings": []
+ }
+}

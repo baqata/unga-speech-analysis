@@ -1,0 +1,72 @@
+{
+ "id": "FSM_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  25,
+  41,
+  57,
+  64,
+  79,
+  97,
+  117,
+  137,
+  156,
+  171,
+  196,
+  209,
+  224,
+  244,
+  264,
+  281,
+  296
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   69,
+   "zero- yield",
+   "zero-yield",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9b03ce2328ffd23f211dfc9e78ac9801de15d343",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 306,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2491,
+  "words_out": 2485,
+  "retention": 0.9976,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   185,
+   131,
+   138,
+   59,
+   120,
+   134,
+   174,
+   146,
+   163,
+   134,
+   200,
+   93,
+   130,
+   153,
+   166,
+   134,
+   137,
+   88
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "NAM_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  14,
+  19,
+  25,
+  28,
+  34,
+  40,
+  47,
+  50,
+  54,
+  59,
+  62,
+  64,
+  72,
+  78,
+  81,
+  87,
+  94,
+  97,
+  103,
+  105
+ ],
+ "cer": [
+  0,
+  40,
+  47,
+  54
+ ],
+ "fix": [
+  [
+   0,
+   "it gives",
+   "It gives",
+   "ocr"
+  ],
+  [
+   4,
+   "We truly deserves",
+   "He truly deserves",
+   "ocr"
+  ],
+  [
+   45,
+   "contest",
+   "context",
+   "ocr"
+  ],
+  [
+   45,
+   "his deputy.",
+   "his deputy,",
+   "ocr"
+  ],
+  [
+   54,
+   "Mon-Aligned",
+   "Non-Aligned",
+   "ocr"
+  ],
+  [
+   56,
+   "435 (1976)",
+   "435 (1978)",
+   "ocr"
+  ],
+  [
+   77,
+   "SENAMO",
+   "RENAMO",
+   "ocr"
+  ],
+  [
+   107,
+   "а с1лаг",
+   "a clear",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1c8d81277f731b3e9b86f5030e59cf5b253f08ff",
+ "layout": "lines",
+ "stats": {
+  "n_units": 108,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3194,
+  "words_out": 3194,
+  "retention": 1.0,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   189,
+   130,
+   128,
+   148,
+   81,
+   179,
+   185,
+   217,
+   80,
+   195,
+   178,
+   92,
+   99,
+   220,
+   174,
+   102,
+   126,
+   96,
+   122,
+   146,
+   71,
+   236
+  ],
+  "warnings": []
+ }
+}

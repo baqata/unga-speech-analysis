@@ -1,0 +1,64 @@
+{
+ "id": "BEL_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  26,
+  49,
+  66,
+  86,
+  108,
+  127,
+  150,
+  160,
+  179
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   91,
+   "Councilís",
+   "Council’s",
+   "encoding"
+  ],
+  [
+   117,
+   "ó",
+   "—",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "493859bfe7248fa26a75a0ee3b248b1741f62a23",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1543,
+  "words_out": 1539,
+  "retention": 0.9974,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   66,
+   135,
+   186,
+   136,
+   152,
+   167,
+   152,
+   177,
+   73,
+   155,
+   140
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "SYR_81_2026",
+ "drop": [
+  [
+   0,
+   2,
+   "presider"
+  ],
+  [
+   54,
+   54,
+   "noise"
+  ],
+  [
+   94,
+   94,
+   "presider"
+  ]
+ ],
+ "para": [
+  3,
+  4,
+  18,
+  19,
+  24,
+  39,
+  47,
+  55,
+  65,
+  71,
+  77,
+  86,
+  88,
+  93
+ ],
+ "cer": [
+  3,
+  18,
+  93
+ ],
+ "fix": [
+  [
+   3,
+   " it.",
+   "",
+   "label"
+  ],
+  [
+   18,
+   "Khalil Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   48,
+   "Keptagon",
+   "Captagon",
+   "asr_term"
+  ],
+  [
+   20,
+   "recall",
+   "recalled",
+   "asr_term"
+  ],
+  [
+   76,
+   "abide by this",
+   "by this",
+   "asr_term"
+  ],
+  [
+   87,
+   "momentum those",
+   "momentum with those",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Khalilur Rahman is the President of the 81st session (Spanish Khalilu Rahman); Captagon is the trafficked drug; stray 'it.' and a pause 'Thank you.' removed. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 3 unit 20 'recall' -> 'recalled' (both decodes hear 'recalled' (0.49 / 0.51); past narrative 'A year ago ... and stressed'; sounds alike); spot 7 unit 76 'abide by this' -> 'by this' (doubled word: both decodes hear 'and by this' with no room ('and' 487.8 s, 'by' 487.9 s); ES 'que acaten el derecho internacional y esa resolución' with one verb); spot 10 unit 87 'momentum those' -> 'momentum with those' (2026 exception: both decodes hear 'with' clearly (1.00 / 0.99); ES 'Hemos generado el impulso con quienes nos han apoyado')",
+ "unitizer_version": 1,
+ "sha1": "7188c6d28abe5062553b81d76b05fc8b024a83cb",
+ "layout": "single",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {
+   "presider": 4,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 1114,
+  "words_out": 1047,
+  "retention": 0.9399,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   9,
+   115,
+   37,
+   69,
+   116,
+   122,
+   63,
+   84,
+   62,
+   68,
+   118,
+   80,
+   93,
+   11
+  ],
+  "warnings": []
+ }
+}

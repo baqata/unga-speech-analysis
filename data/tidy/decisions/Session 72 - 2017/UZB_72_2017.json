@@ -1,0 +1,90 @@
+{
+ "id": "UZB_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  9,
+  14,
+  18,
+  21,
+  25,
+  33,
+  39,
+  46,
+  49,
+  53,
+  57,
+  61,
+  70,
+  77,
+  81,
+  90,
+  93
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   20,
+   "law- enforcement",
+   "law-enforcement",
+   "hyphen"
+  ],
+  [
+   42,
+   "good- neighbourliness",
+   "good-neighbourliness",
+   "hyphen"
+  ],
+  [
+   50,
+   "high- level",
+   "high-level",
+   "hyphen"
+  ],
+  [
+   77,
+   "self- realization",
+   "self-realization",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "951d7f8b5aca777bc98b3680162111426bfca67a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1990,
+  "words_out": 1986,
+  "retention": 0.998,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   20,
+   152,
+   96,
+   85,
+   64,
+   68,
+   126,
+   101,
+   113,
+   75,
+   120,
+   108,
+   90,
+   185,
+   131,
+   145,
+   176,
+   67,
+   64
+  ],
+  "warnings": []
+ }
+}

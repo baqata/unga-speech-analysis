@@ -1,0 +1,47 @@
+{
+ "id": "NER_61_2006",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  45,
+  69,
+  80,
+  106,
+  128,
+  152,
+  163
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0c69c54dfe10182c876c8df01dc695c573b4e053",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 173,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1334,
+  "words_out": 1332,
+  "retention": 0.9985,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   182,
+   161,
+   189,
+   76,
+   213,
+   161,
+   183,
+   88,
+   79
+  ],
+  "warnings": []
+ }
+}

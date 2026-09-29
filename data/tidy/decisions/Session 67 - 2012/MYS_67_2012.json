@@ -1,0 +1,84 @@
+{
+ "id": "MYS_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  20,
+  30,
+  43,
+  55,
+  66,
+  75,
+  85,
+  98,
+  113,
+  126,
+  146,
+  160,
+  175,
+  193,
+  210,
+  224,
+  242
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   70,
+   "(SG/SM/14522)",
+   "",
+   "label"
+  ],
+  [
+   140,
+   "inf luential",
+   "influential",
+   "split_word"
+  ],
+  [
+   150,
+   "(resolution 67/1)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "29301e56bba03f84b6550eb53983fe0e73201bdb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 251,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2100,
+  "words_out": 2095,
+  "retention": 0.9976,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   81,
+   68,
+   77,
+   106,
+   108,
+   85,
+   77,
+   74,
+   103,
+   133,
+   112,
+   183,
+   112,
+   134,
+   146,
+   149,
+   131,
+   141,
+   75
+  ],
+  "warnings": []
+ }
+}

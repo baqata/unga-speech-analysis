@@ -1,0 +1,276 @@
+{
+ "id": "POL_26_1971",
+ "drop": [
+  [
+   2,
+   2,
+   "noise"
+  ],
+  [
+   8,
+   9,
+   "noise"
+  ],
+  [
+   106,
+   106,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  4,
+  10,
+  13,
+  15,
+  18,
+  23,
+  26,
+  29,
+  33,
+  39,
+  42,
+  45,
+  51,
+  53,
+  58,
+  64,
+  67,
+  70,
+  76,
+  82,
+  87,
+  91,
+  99,
+  104,
+  107,
+  110,
+  115,
+  121,
+  123,
+  127,
+  134,
+  141,
+  142,
+  146,
+  151,
+  154,
+  159,
+  162,
+  165,
+  168
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   5,
+   "the port of",
+   "the report of",
+   "ocr"
+  ],
+  [
+   10,
+   "has; not",
+   "has not",
+   "ocr"
+  ],
+  [
+   17,
+   "goi",
+   "goal",
+   "ocr"
+  ],
+  [
+   19,
+   "ail sectors",
+   "all sectors",
+   "ocr"
+  ],
+  [
+   43,
+   "Berlin.5 As",
+   "Berlin. As",
+   "ocr"
+  ],
+  [
+   46,
+   "117. ",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "law, Relations",
+   "law. Relations",
+   "ocr"
+  ],
+  [
+   50,
+   " [A/84011Add.l, para, 106J",
+   "",
+   "label"
+  ],
+  [
+   67,
+   " [AI8457-DC/234, annex A]",
+   "",
+   "label"
+  ],
+  [
+   82,
+   "between- the",
+   "between the",
+   "ocr"
+  ],
+  [
+   84,
+   " [A/8328J",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "\"expensive",
+   "expensive",
+   "ocr"
+  ],
+  [
+   100,
+   "V „s",
+   "has",
+   "ocr"
+  ],
+  [
+   121,
+   "relation's",
+   "relations",
+   "ocr"
+  ],
+  [
+   140,
+   ",we",
+   "we",
+   "ocr"
+  ],
+  [
+   141,
+   "Hie",
+   "The",
+   "ocr"
+  ],
+  [
+   150,
+   "forms ox",
+   "forms of",
+   "ocr"
+  ],
+  [
+   150,
+   "technology .in",
+   "technology in",
+   "ocr"
+  ],
+  [
+   160,
+   "In>",
+   "In",
+   "ocr"
+  ],
+  [
+   162,
+   "i n detail",
+   "in detail",
+   "split_word"
+  ],
+  [
+   168,
+   "156, ",
+   "",
+   "label"
+  ],
+  [
+   168,
+   "roe",
+   "me",
+   "ocr"
+  ],
+  [
+   170,
+   "heJped",
+   "helped",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Source lines are displaced: unit 32 ('recognition by all European States...') completes the sentence cut at unit 46 ('The basic condition ... on our continent is the'), and unit 47 ('establishment of relations with them...') completes unit 45 ('the universal recognition of the two sovereign German States and the'). Units are kept in place: unit 32 at the end of the paragraph from unit 29, units 45-50 in one paragraph. Units 8-9 are a split document reference and were dropped.",
+ "unitizer_version": 1,
+ "sha1": "9b90cb4f0385298f210b12aede4f1a84cbe6df04",
+ "layout": "lines",
+ "stats": {
+  "n_units": 171,
+  "units_dropped": {
+   "noise": 4
+  },
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 47
+  },
+  "words_in": 5420,
+  "words_out": 5365,
+  "retention": 0.9899,
+  "n_paragraphs": 42,
+  "paragraph_words": [
+   70,
+   42,
+   101,
+   162,
+   83,
+   106,
+   154,
+   158,
+   109,
+   113,
+   208,
+   114,
+   125,
+   171,
+   88,
+   113,
+   162,
+   84,
+   87,
+   161,
+   147,
+   139,
+   141,
+   249,
+   141,
+   73,
+   122,
+   141,
+   215,
+   70,
+   128,
+   203,
+   150,
+   116,
+   103,
+   148,
+   99,
+   182,
+   83,
+   106,
+   92,
+   106
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

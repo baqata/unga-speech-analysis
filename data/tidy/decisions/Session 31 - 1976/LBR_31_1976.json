@@ -1,0 +1,222 @@
+{
+ "id": "LBR_31_1976",
+ "drop": [
+  [
+   28,
+   28,
+   "header_footer"
+  ],
+  [
+   57,
+   57,
+   "noise"
+  ],
+  [
+   77,
+   77,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  3,
+  6,
+  7,
+  13,
+  16,
+  19,
+  23,
+  27,
+  31,
+  36,
+  38,
+  40,
+  44,
+  51,
+  55,
+  61,
+  66,
+  68,
+  70,
+  74,
+  78,
+  81,
+  86,
+  89,
+  91
+ ],
+ "cer": [
+  0,
+  2,
+  3,
+  6,
+  16
+ ],
+ "fix": [
+  [
+   3,
+   "Waldlieim",
+   "Waldheim",
+   "ocr"
+  ],
+  [
+   3,
+   " [A/31/l[Add.l]",
+   "",
+   "label"
+  ],
+  [
+   19,
+   "sister 'African",
+   "sister African",
+   "ocr"
+  ],
+  [
+   19,
+   "member-ship",
+   "membership",
+   "hyphen"
+  ],
+  [
+   24,
+   "ustance",
+   "distance",
+   "ocr"
+  ],
+  [
+   25,
+   "recognize (hat",
+   "recognize that",
+   "ocr"
+  ],
+  [
+   27,
+   "far- sighted",
+   "far-sighted",
+   "spacing"
+  ],
+  [
+   45,
+   " fSWAPOJ",
+   "",
+   "label"
+  ],
+  [
+   53,
+   "our-selves",
+   "ourselves",
+   "hyphen"
+  ],
+  [
+   54,
+   "that tit rebel",
+   "that the rebel",
+   "ocr"
+  ],
+  [
+   64,
+   "the great. Powers",
+   "the great Powers",
+   "ocr"
+  ],
+  [
+   68,
+   " [UNCTADJ",
+   "",
+   "label"
+  ],
+  [
+   70,
+   " 126",
+   "",
+   "label"
+  ],
+  [
+   80,
+   " [resolution 2373 (XXII), annexJ",
+   "",
+   "label"
+  ],
+  [
+   83,
+   "regret-table",
+   "regrettable",
+   "hyphen"
+  ],
+  [
+   85,
+   " [see A/31/197, annex I, para. 139]",
+   "",
+   "label"
+  ],
+  [
+   85,
+   "1978,",
+   "1978.",
+   "ocr"
+  ],
+  [
+   86,
+   " [ibid., annex IV, resolution 11]",
+   "",
+   "label"
+  ],
+  [
+   89,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "98539cbe4eede098f321684f33debb0f6ff584bc",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {
+   "header_footer": 1,
+   "noise": 2
+  },
+  "prestrip": {
+   "paragraph_number": 47,
+   "page_header": 1
+  },
+  "words_in": 3271,
+  "words_out": 3223,
+  "retention": 0.9853,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   124,
+   52,
+   74,
+   57,
+   187,
+   70,
+   99,
+   161,
+   163,
+   167,
+   158,
+   79,
+   128,
+   129,
+   187,
+   181,
+   152,
+   161,
+   62,
+   96,
+   101,
+   91,
+   116,
+   152,
+   96,
+   55,
+   125
+  ],
+  "warnings": []
+ }
+}

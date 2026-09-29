@@ -1,0 +1,117 @@
+{
+ "id": "URY_10_1955",
+ "drop": [
+  [
+   23,
+   23,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  6,
+  12,
+  14,
+  18,
+  20,
+  24,
+  28,
+  30,
+  33,
+  36,
+  38,
+  39,
+  43,
+  48,
+  54,
+  57,
+  60,
+  64
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "accented",
+   "accepted",
+   "ocr"
+  ],
+  [
+   11,
+   "promotion f",
+   "promotion of",
+   "ocr"
+  ],
+  [
+   19,
+   "salary,",
+   "salary.",
+   "ocr"
+  ],
+  [
+   30,
+   "Which",
+   "which",
+   "ocr"
+  ],
+  [
+   34,
+   "stability’",
+   "stability",
+   "ocr"
+  ],
+  [
+   48,
+   "ail",
+   "all",
+   "ocr"
+  ],
+  [
+   53,
+   "opportunity'",
+   "opportunity",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cbfd979fcf8088a0421214e46d5efbb0851eea18",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 2197,
+  "words_out": 2188,
+  "retention": 0.9959,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   133,
+   143,
+   131,
+   124,
+   112,
+   62,
+   87,
+   69,
+   111,
+   171,
+   94,
+   59,
+   176,
+   164,
+   135,
+   151,
+   82,
+   88,
+   96
+  ],
+  "warnings": []
+ }
+}

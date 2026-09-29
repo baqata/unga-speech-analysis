@@ -1,0 +1,67 @@
+{
+ "id": "EST_68_2013",
+ "drop": [
+  [
+   42,
+   46,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  14,
+  22,
+  36,
+  61,
+  71,
+  81,
+  93,
+  100,
+  107,
+  122,
+  135,
+  144,
+  158,
+  170,
+  187,
+  196
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "Units 42-46 are the verbatim record's corrections notice inserted mid-sentence.",
+ "unitizer_version": 1,
+ "sha1": "b4585942304f1d276398f4f746d3386001e75492",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 200,
+  "units_dropped": {
+   "header_footer": 5
+  },
+  "prestrip": {},
+  "words_in": 1610,
+  "words_out": 1532,
+  "retention": 0.9516,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   94,
+   61,
+   117,
+   159,
+   74,
+   90,
+   96,
+   54,
+   62,
+   119,
+   96,
+   75,
+   95,
+   92,
+   142,
+   71,
+   35
+  ],
+  "warnings": []
+ }
+}

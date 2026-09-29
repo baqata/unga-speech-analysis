@@ -1,0 +1,76 @@
+{
+ "id": "POL_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  16,
+  28,
+  37,
+  51,
+  72,
+  92,
+  109,
+  127,
+  146,
+  158,
+  167,
+  182,
+  195,
+  207,
+  215,
+  239
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   34,
+   "ref lection",
+   "reflection",
+   "split_word"
+  ],
+  [
+   189,
+   "f lagrant",
+   "flagrant",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2547e465d9a35fc2eeceabfe48b393a9447102e9",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 252,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2114,
+  "words_out": 2112,
+  "retention": 0.9991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   26,
+   94,
+   100,
+   74,
+   128,
+   168,
+   169,
+   152,
+   158,
+   164,
+   92,
+   74,
+   120,
+   110,
+   105,
+   63,
+   200,
+   115
+  ],
+  "warnings": []
+ }
+}

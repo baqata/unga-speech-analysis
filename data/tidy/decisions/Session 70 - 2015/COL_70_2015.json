@@ -1,0 +1,60 @@
+{
+ "id": "COL_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  10,
+  15,
+  20,
+  28,
+  31,
+  37,
+  42,
+  50,
+  53
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   29,
+   "post- conflict",
+   "post-conflict",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1593fc460e13c427cabffa785b6bee27928455f0",
+ "layout": "lines",
+ "stats": {
+  "n_units": 59,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1550,
+  "words_out": 1544,
+  "retention": 0.9961,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   76,
+   95,
+   67,
+   129,
+   163,
+   234,
+   85,
+   126,
+   154,
+   172,
+   118,
+   125
+  ],
+  "warnings": []
+ }
+}

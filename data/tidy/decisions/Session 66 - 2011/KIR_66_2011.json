@@ -1,0 +1,54 @@
+{
+ "id": "KIR_66_2011",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  24,
+  38,
+  50,
+  63,
+  73,
+  91,
+  108,
+  118,
+  133,
+  150
+ ],
+ "cer": [
+  0,
+  150
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2a9dcfe67d5fb8549098c31f63b8d4d4056346b5",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1233,
+  "words_out": 1231,
+  "retention": 0.9984,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   41,
+   132,
+   108,
+   105,
+   111,
+   84,
+   152,
+   142,
+   80,
+   121,
+   143,
+   12
+  ],
+  "warnings": []
+ }
+}

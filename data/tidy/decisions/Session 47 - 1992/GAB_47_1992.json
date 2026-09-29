@@ -1,0 +1,96 @@
+{
+ "id": "GAB_47_1992",
+ "drop": [
+  [
+   60,
+   62,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  20,
+  41,
+  65,
+  82,
+  99,
+  109,
+  128,
+  137,
+  158,
+  178,
+  200,
+  215,
+  232,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "first. Sir,",
+   "first, Sir,",
+   "ocr"
+  ],
+  [
+   79,
+   "with-respect",
+   "with respect",
+   "ocr"
+  ],
+  [
+   132,
+   " (A/46/1, p. 12. VIII)",
+   "",
+   "label"
+  ],
+  [
+   152,
+   "(UNCIAD)",
+   "(UNCTAD)",
+   "ocr"
+  ],
+  [
+   240,
+   "Sio",
+   "Rio",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "05ec188c4f93d6b2283d233ed56e9a1fcd5c99eb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {
+   "repeat": 3
+  },
+  "prestrip": {},
+  "words_in": 2756,
+  "words_out": 2714,
+  "retention": 0.9848,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   206,
+   225,
+   225,
+   192,
+   183,
+   117,
+   185,
+   97,
+   212,
+   225,
+   240,
+   165,
+   185,
+   152,
+   105
+  ],
+  "warnings": []
+ }
+}

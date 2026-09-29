@@ -1,0 +1,157 @@
+{
+ "id": "NLD_07_1952",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  15,
+  22,
+  27,
+  30,
+  35,
+  40,
+  46,
+  51,
+  54,
+  56,
+  62,
+  65,
+  67,
+  70,
+  73,
+  78,
+  82,
+  86,
+  88,
+  93,
+  101,
+  106,
+  112,
+  115,
+  120,
+  123,
+  126,
+  128
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "167,",
+   "",
+   "label"
+  ],
+  [
+   24,
+   "situation,",
+   "situation.",
+   "ocr"
+  ],
+  [
+   31,
+   "first-of",
+   "first of",
+   "spacing"
+  ],
+  [
+   36,
+   "communist,",
+   "communist",
+   "ocr"
+  ],
+  [
+   38,
+   "vital,",
+   "vital",
+   "ocr"
+  ],
+  [
+   61,
+   "nobody,",
+   "nobody",
+   "ocr"
+  ],
+  [
+   65,
+   "or,",
+   "or",
+   "ocr"
+  ],
+  [
+   69,
+   "fulfilment,",
+   "fulfilment",
+   "ocr"
+  ],
+  [
+   85,
+   "themselves,",
+   "themselves.",
+   "ocr"
+  ],
+  [
+   103,
+   "Council,",
+   "Council.",
+   "ocr"
+  ],
+  [
+   136,
+   "United.",
+   "United",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "The source misorders one passage: the sentence begun in unit 119 continues after 'Main Committees.' inside unit 102; the text is kept in source order.",
+ "unitizer_version": 1,
+ "sha1": "4e8a7cea93a19ae2964ee70e1f458e8278efc62e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 137,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 31
+  },
+  "words_in": 3682,
+  "words_out": 3676,
+  "retention": 0.9984,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   246,
+   138,
+   224,
+   194,
+   118,
+   166,
+   121,
+   138,
+   113,
+   96,
+   78,
+   153,
+   82,
+   105,
+   93,
+   90,
+   123,
+   74,
+   91,
+   74,
+   78,
+   149,
+   203,
+   123,
+   85,
+   158,
+   63,
+   83,
+   73,
+   144
+  ],
+  "warnings": []
+ }
+}

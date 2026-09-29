@@ -1,0 +1,88 @@
+{
+ "id": "DOM_10_1955",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  9,
+  14,
+  16,
+  20,
+  27,
+  32,
+  38,
+  44,
+  50,
+  55,
+  61,
+  66,
+  70,
+  72,
+  77,
+  80
+ ],
+ "cer": [],
+ "fix": [
+  [
+   13,
+   "purpose,",
+   "purpose.",
+   "ocr"
+  ],
+  [
+   22,
+   "L",
+   "I",
+   "ocr"
+  ],
+  [
+   24,
+   "dose",
+   "close",
+   "ocr"
+  ],
+  [
+   43,
+   "non-intervention,",
+   "non-intervention.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "40469cfce8752b3457a12f0aca3536cdc39a9f1d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 24
+  },
+  "words_in": 2804,
+  "words_out": 2803,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   171,
+   220,
+   161,
+   96,
+   173,
+   152,
+   148,
+   145,
+   228,
+   198,
+   137,
+   189,
+   162,
+   123,
+   100,
+   193,
+   141,
+   66
+  ],
+  "warnings": []
+ }
+}

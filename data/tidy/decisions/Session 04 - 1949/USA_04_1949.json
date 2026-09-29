@@ -1,0 +1,128 @@
+{
+ "id": "USA_04_1949",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  14,
+  21,
+  27,
+  35,
+  43,
+  46,
+  48,
+  53,
+  57,
+  61,
+  67,
+  73,
+  77,
+  84,
+  88,
+  92,
+  95,
+  100,
+  105,
+  110
+ ],
+ "cer": [],
+ "fix": [
+  [
+   4,
+   "were-deeply",
+   "were deeply",
+   "spacing"
+  ],
+  [
+   31,
+   "in, that",
+   "in that",
+   "ocr"
+  ],
+  [
+   35,
+   "by, the",
+   "by the",
+   "ocr"
+  ],
+  [
+   50,
+   "work \"out",
+   "work out",
+   "ocr"
+  ],
+  [
+   57,
+   "affecting, the",
+   "affecting the",
+   "ocr"
+  ],
+  [
+   66,
+   "good,",
+   "good.",
+   "ocr"
+  ],
+  [
+   72,
+   "interest,",
+   "interest.",
+   "ocr"
+  ],
+  [
+   76,
+   "file United",
+   "the United",
+   "ocr"
+  ],
+  [
+   105,
+   "dear",
+   "clear",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "third_person_summary"
+ ],
+ "note": "Summary record in the third person.",
+ "unitizer_version": 1,
+ "sha1": "e9663205bf61de4441286d4f19c41e567cc9185f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 112,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 42
+  },
+  "words_in": 3065,
+  "words_out": 3064,
+  "retention": 0.9997,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   193,
+   173,
+   163,
+   199,
+   201,
+   198,
+   70,
+   66,
+   159,
+   136,
+   134,
+   169,
+   127,
+   68,
+   174,
+   119,
+   83,
+   145,
+   158,
+   104,
+   135,
+   90
+  ],
+  "warnings": []
+ }
+}

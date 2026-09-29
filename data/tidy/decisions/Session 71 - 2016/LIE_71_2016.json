@@ -1,0 +1,56 @@
+{
+ "id": "LIE_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  14,
+  19,
+  26,
+  30,
+  35,
+  41,
+  50,
+  56,
+  61,
+  71
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "homes.The",
+   "homes. The",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5913da0d752bd68514f7288e48e909b8d3e01967",
+ "layout": "lines",
+ "stats": {
+  "n_units": 75,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1330,
+  "words_out": 1331,
+  "retention": 1.0008,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   79,
+   91,
+   156,
+   119,
+   91,
+   75,
+   158,
+   130,
+   117,
+   101,
+   158,
+   56
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "TKM_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  30,
+  38,
+  54,
+  71,
+  90,
+  102,
+  122,
+  135,
+  146,
+  163,
+  178,
+  191,
+  206,
+  218,
+  246,
+  256,
+  266,
+  283,
+  306,
+  318
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   36,
+   "safeguardingthe",
+   "safeguarding the",
+   "merged_word"
+  ],
+  [
+   131,
+   "Tajikstan",
+   "Tajikistan",
+   "ocr"
+  ],
+  [
+   134,
+   "thetransition",
+   "the transition",
+   "merged_word"
+  ],
+  [
+   169,
+   "processes.In",
+   "processes. In",
+   "spacing"
+  ],
+  [
+   298,
+   "andstateless",
+   "and stateless",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "69f1804867e56a4a0f1cb19b5c057dfdd385396b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 322,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2426,
+  "words_out": 2425,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   90,
+   147,
+   62,
+   114,
+   128,
+   149,
+   84,
+   162,
+   95,
+   81,
+   131,
+   115,
+   104,
+   115,
+   98,
+   192,
+   82,
+   65,
+   126,
+   171,
+   86,
+   28
+  ],
+  "warnings": []
+ }
+}

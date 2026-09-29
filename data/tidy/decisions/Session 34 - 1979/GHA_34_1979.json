@@ -1,0 +1,181 @@
+{
+ "id": "GHA_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  9,
+  15,
+  18,
+  23,
+  25,
+  28,
+  30,
+  35,
+  40,
+  43,
+  47,
+  49,
+  53,
+  58,
+  61,
+  67,
+  68,
+  74,
+  77,
+  80,
+  84,
+  88,
+  92,
+  97,
+  103,
+  108,
+  110,
+  114,
+  117,
+  120
+ ],
+ "cer": [
+  0,
+  6,
+  9,
+  15
+ ],
+ "fix": [
+  [
+   37,
+   " [SWAPO]",
+   "",
+   "label"
+  ],
+  [
+   44,
+   "well- known",
+   "well-known",
+   "spacing"
+  ],
+  [
+   46,
+   " [OAU]",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "ringing",
+   "bringing",
+   "ocr"
+  ],
+  [
+   52,
+   "oil- producing",
+   "oil-producing",
+   "spacing"
+  ],
+  [
+   54,
+   " [OPEC]",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   61,
+   " [PLO]",
+   "",
+   "label"
+  ],
+  [
+   70,
+   "growing\" interdependence",
+   "growing interdependence",
+   "ocr"
+  ],
+  [
+   79,
+   "debt- servicing",
+   "debt-servicing",
+   "spacing"
+  ],
+  [
+   85,
+   "well- being",
+   "well-being",
+   "spacing"
+  ],
+  [
+   98,
+   "foreign- exchange",
+   "foreign-exchange",
+   "spacing"
+  ],
+  [
+   111,
+   "com-missions",
+   "commissions",
+   "hyphen"
+  ],
+  [
+   120,
+   "40 ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0740b2648d2b435e69f6f212e1e424bd7e01c1e6",
+ "layout": "lines",
+ "stats": {
+  "n_units": 127,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 38
+  },
+  "words_in": 4312,
+  "words_out": 4301,
+  "retention": 0.9974,
+  "n_paragraphs": 32,
+  "paragraph_words": [
+   235,
+   97,
+   189,
+   65,
+   181,
+   122,
+   103,
+   101,
+   169,
+   193,
+   146,
+   101,
+   100,
+   151,
+   202,
+   90,
+   198,
+   77,
+   174,
+   80,
+   104,
+   122,
+   153,
+   104,
+   145,
+   173,
+   147,
+   84,
+   131,
+   78,
+   128,
+   158
+  ],
+  "warnings": []
+ }
+}

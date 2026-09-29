@@ -1,0 +1,83 @@
+{
+ "id": "IRQ_59_2004",
+ "drop": [
+  [
+   33,
+   33,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  20,
+  34,
+  49,
+  58,
+  69,
+  85,
+  96,
+  106,
+  120,
+  134,
+  154,
+  168,
+  185,
+  208,
+  222,
+  238,
+  250,
+  264,
+  276,
+  285
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0359bbe2ceef939617e46aacd5891f8ac2584e54",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 302,
+  "units_dropped": {
+   "procedural": 1
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2461,
+  "words_out": 2455,
+  "retention": 0.9976,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   23,
+   137,
+   113,
+   119,
+   78,
+   92,
+   131,
+   98,
+   75,
+   110,
+   108,
+   158,
+   123,
+   131,
+   193,
+   112,
+   123,
+   101,
+   108,
+   92,
+   76,
+   154
+  ],
+  "warnings": [
+   "procedural drop [33,33] in the middle of the speech"
+  ]
+ }
+}

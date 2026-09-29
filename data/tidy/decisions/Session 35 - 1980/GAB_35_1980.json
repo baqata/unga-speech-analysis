@@ -1,0 +1,92 @@
+{
+ "id": "GAB_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  14,
+  17,
+  21,
+  25,
+  28,
+  34,
+  37,
+  43,
+  48,
+  51,
+  55,
+  58,
+  61,
+  63
+ ],
+ "cer": [
+  0,
+  7,
+  12
+ ],
+ "fix": [
+  [
+   17,
+   "really s to",
+   "really is to",
+   "ocr"
+  ],
+  [
+   17,
+   "confuted",
+   "confined",
+   "ocr"
+  ],
+  [
+   37,
+   "mode?",
+   "model",
+   "ocr"
+  ],
+  [
+   51,
+   " [OPEC]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "13e0f921ef6cec618deaa06c7212061b70692f57",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2634,
+  "words_out": 2633,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   190,
+   50,
+   226,
+   52,
+   131,
+   175,
+   142,
+   187,
+   264,
+   108,
+   228,
+   154,
+   114,
+   196,
+   61,
+   136,
+   160,
+   59
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "GBR_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  7,
+  16,
+  17,
+  23,
+  30,
+  38,
+  50,
+  56,
+  64,
+  72,
+  78,
+  86,
+  91,
+  94,
+  99,
+  101
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   24,
+   "East- West",
+   "East-West",
+   "spacing"
+  ],
+  [
+   28,
+   "counter- force",
+   "counter-force",
+   "spacing"
+  ],
+  [
+   80,
+   "&s",
+   "as",
+   "ocr"
+  ],
+  [
+   81,
+   " [A/9191]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "bbd771f7cdee911dfa95256a50df3b35a00e3509",
+ "layout": "lines",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 13
+  },
+  "words_in": 2970,
+  "words_out": 2965,
+  "retention": 0.9983,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   26,
+   173,
+   224,
+   46,
+   152,
+   179,
+   210,
+   281,
+   218,
+   203,
+   200,
+   149,
+   151,
+   154,
+   93,
+   193,
+   79,
+   234
+  ],
+  "warnings": []
+ }
+}

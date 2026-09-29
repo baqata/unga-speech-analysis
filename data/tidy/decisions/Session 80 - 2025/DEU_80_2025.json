@@ -1,0 +1,92 @@
+{
+ "id": "DEU_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   104,
+   104,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  2,
+  8,
+  18,
+  25,
+  32,
+  40,
+  42,
+  48,
+  58,
+  66,
+  72,
+  78,
+  88,
+  95,
+  103
+ ],
+ "cer": [
+  1,
+  103
+ ],
+ "fix": [
+  [
+   56,
+   "Dipno",
+   "Dnipro",
+   "asr_name"
+  ],
+  [
+   70,
+   "ANMISS",
+   "UNMISS",
+   "asr_name"
+  ],
+  [
+   93,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fdac1d3b44a52f9694f1b755c87b576cc0e75a25",
+ "layout": "single",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 1628,
+  "words_out": 1601,
+  "retention": 0.9834,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   18,
+   79,
+   155,
+   84,
+   95,
+   112,
+   121,
+   116,
+   148,
+   110,
+   112,
+   116,
+   125,
+   86,
+   122,
+   2
+  ],
+  "warnings": []
+ }
+}

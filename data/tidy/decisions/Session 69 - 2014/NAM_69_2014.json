@@ -1,0 +1,50 @@
+{
+ "id": "NAM_69_2014",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  32,
+  45,
+  57,
+  72,
+  89,
+  114,
+  127,
+  135,
+  145
+ ],
+ "cer": [
+  0,
+  135
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f36dc8691b869554c4905900e88487b3f6b3ba9d",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 149,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1150,
+  "words_out": 1147,
+  "retention": 0.9974,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   51,
+   205,
+   107,
+   102,
+   108,
+   125,
+   182,
+   94,
+   58,
+   89,
+   26
+  ],
+  "warnings": []
+ }
+}

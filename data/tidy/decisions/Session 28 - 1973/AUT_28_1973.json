@@ -1,0 +1,99 @@
+{
+ "id": "AUT_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  13,
+  19,
+  26,
+  30,
+  34,
+  43,
+  48,
+  54,
+  58,
+  61,
+  66,
+  70,
+  75,
+  80,
+  85,
+  92
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "\"detente \"",
+   "\"detente\"",
+   "spacing"
+  ],
+  [
+   18,
+   "atomic- age",
+   "atomic-age",
+   "spacing"
+  ],
+  [
+   84,
+   "I960",
+   "1960",
+   "ocr"
+  ],
+  [
+   50,
+   "(XXV)\\ These",
+   "(XXV). These",
+   "ocr"
+  ],
+  [
+   50,
+   " [resolution 2625 (XXV)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ace9510a758b72320e1718d1163566477430739c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 2583,
+  "words_out": 2578,
+  "retention": 0.9981,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   74,
+   70,
+   110,
+   205,
+   208,
+   110,
+   119,
+   169,
+   164,
+   147,
+   76,
+   99,
+   138,
+   107,
+   126,
+   117,
+   139,
+   234,
+   166
+  ],
+  "warnings": []
+ }
+}

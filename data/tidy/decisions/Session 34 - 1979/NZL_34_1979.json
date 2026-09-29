@@ -1,0 +1,132 @@
+{
+ "id": "NZL_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  9,
+  17,
+  25,
+  31,
+  35,
+  42,
+  47,
+  57,
+  65,
+  77,
+  86,
+  88,
+  92,
+  98,
+  102,
+  109,
+  119,
+  122,
+  124,
+  130,
+  139,
+  145,
+  151,
+  162,
+  169,
+  175,
+  181,
+  187,
+  189
+ ],
+ "cer": [
+  0,
+  2,
+  189
+ ],
+ "fix": [
+  [
+   10,
+   "trouble- centres",
+   "trouble-centres",
+   "spacing"
+  ],
+  [
+   11,
+   "how-ever",
+   "however",
+   "hyphen"
+  ],
+  [
+   32,
+   "succeeded, the conflict",
+   "succeeded. The conflict",
+   "ocr"
+  ],
+  [
+   110,
+   "UNC- TAD",
+   "UNCTAD",
+   "spacing"
+  ],
+  [
+   131,
+   "oil- based",
+   "oil-based",
+   "spacing"
+  ],
+  [
+   155,
+   "majority or the",
+   "majority of the",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 29 breaks off after 'the stability of the' and resumes mid-argument, so a line appears to be missing.",
+ "unitizer_version": 1,
+ "sha1": "94f34cd91004d42cc65bec6518b4145cad5b47d7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 190,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 3680,
+  "words_out": 3677,
+  "retention": 0.9992,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   55,
+   158,
+   164,
+   89,
+   139,
+   90,
+   126,
+   80,
+   158,
+   116,
+   143,
+   145,
+   66,
+   116,
+   115,
+   81,
+   97,
+   221,
+   81,
+   78,
+   145,
+   157,
+   106,
+   136,
+   230,
+   130,
+   108,
+   144,
+   141,
+   52,
+   10
+  ],
+  "warnings": []
+ }
+}

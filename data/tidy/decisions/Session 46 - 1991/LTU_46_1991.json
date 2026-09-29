@@ -1,0 +1,114 @@
+{
+ "id": "LTU_46_1991",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  6,
+  10,
+  13,
+  17,
+  20,
+  23,
+  27,
+  31,
+  33,
+  38,
+  40,
+  43,
+  47,
+  54,
+  61,
+  65,
+  70,
+  73,
+  81,
+  88,
+  90,
+  93
+ ],
+ "cer": [
+  0,
+  2,
+  93
+ ],
+ "fix": [
+  [
+   0,
+   "Samii Shihabi",
+   "Samir Shihabi",
+   "ocr"
+  ],
+  [
+   1,
+   "Peres de Cuellar",
+   "Perez de Cuellar",
+   "ocr"
+  ],
+  [
+   30,
+   "history hooks",
+   "history books",
+   "ocr"
+  ],
+  [
+   64,
+   "He look",
+   "We look",
+   "ocr"
+  ],
+  [
+   92,
+   " (A/46/py.l, pp. 82-83)",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "He eagerly",
+   "We eagerly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "625981e8c401c04b41662640259786b4a6b7cb1e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 95,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2385,
+  "words_out": 2382,
+  "retention": 0.9987,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   84,
+   92,
+   88,
+   81,
+   99,
+   103,
+   58,
+   87,
+   93,
+   64,
+   81,
+   75,
+   102,
+   100,
+   136,
+   169,
+   111,
+   159,
+   105,
+   150,
+   136,
+   64,
+   73,
+   72
+  ],
+  "warnings": []
+ }
+}

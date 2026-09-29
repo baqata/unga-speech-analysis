@@ -1,0 +1,106 @@
+{
+ "id": "OMN_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  6,
+  10,
+  14,
+  18,
+  21,
+  26,
+  29,
+  33,
+  37,
+  39,
+  44,
+  48,
+  52,
+  57,
+  61,
+  63,
+  64,
+  67,
+  69,
+  75,
+  80,
+  85,
+  91,
+  96
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   65,
+   "Qabcos",
+   "Qaboos",
+   "ocr"
+  ],
+  [
+   60,
+   "Esuipulas",
+   "Esquipulas",
+   "ocr"
+  ],
+  [
+   35,
+   "people? and",
+   "people; and",
+   "ocr"
+  ],
+  [
+   75,
+   "them? the two",
+   "them; the two",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d2b44d645bbdf0090dce32de9a93752b1b1a0111",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3599,
+  "words_out": 3599,
+  "retention": 1.0,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   84,
+   66,
+   84,
+   150,
+   119,
+   161,
+   162,
+   203,
+   141,
+   118,
+   94,
+   120,
+   181,
+   132,
+   143,
+   147,
+   138,
+   80,
+   78,
+   104,
+   71,
+   154,
+   136,
+   197,
+   201,
+   244,
+   91
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "COG_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  31,
+  43,
+  57,
+  71,
+  82,
+  96,
+  112,
+  122,
+  134,
+  142,
+  161,
+  178,
+  186,
+  204,
+  224,
+  241
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   10,
+   "predecessor. Ambassador",
+   "predecessor, Ambassador",
+   "ocr"
+  ],
+  [
+   19,
+   "tension. States",
+   "tension, States",
+   "ocr"
+  ],
+  [
+   154,
+   "partners\"-",
+   "partners\".",
+   "ocr"
+  ],
+  [
+   182,
+   "scepticism. Member",
+   "scepticism, Member",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 129 begins mid-sentence ('message of the President'); text appears to be missing before it.",
+ "unitizer_version": 1,
+ "sha1": "d7420852fb689ef193b9ea211fd0451ad5b4b130",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 256,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2841,
+  "words_out": 2838,
+  "retention": 0.9989,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   198,
+   148,
+   143,
+   169,
+   155,
+   121,
+   143,
+   159,
+   109,
+   117,
+   86,
+   192,
+   197,
+   94,
+   214,
+   227,
+   200,
+   166
+  ],
+  "warnings": []
+ }
+}

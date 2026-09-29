@@ -1,0 +1,54 @@
+{
+ "id": "AUS_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  32,
+  55,
+  80,
+  106,
+  131,
+  149,
+  159,
+  183,
+  201,
+  221,
+  243
+ ],
+ "cer": [],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fdd99bb1c1ec1b19ecedee526e314981890e4c55",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 258,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_number": 2
+  },
+  "words_in": 1933,
+  "words_out": 1929,
+  "retention": 0.9979,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   127,
+   113,
+   169,
+   174,
+   188,
+   182,
+   136,
+   74,
+   190,
+   128,
+   140,
+   176,
+   132
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "NAM_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  10,
+  14,
+  21,
+  24,
+  34,
+  41,
+  48,
+  52,
+  56,
+  59
+ ],
+ "cer": [
+  0,
+  3,
+  59
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a835163c37e16b3f1747b0134f61eba3f9eb04b1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1399,
+  "words_out": 1399,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   34,
+   106,
+   78,
+   82,
+   136,
+   90,
+   205,
+   203,
+   173,
+   93,
+   97,
+   99,
+   3
+  ],
+  "warnings": []
+ }
+}

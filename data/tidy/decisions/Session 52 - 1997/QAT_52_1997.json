@@ -1,0 +1,81 @@
+{
+ "id": "QAT_52_1997",
+ "drop": [
+  [
+   336,
+   339,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  30,
+  41,
+  54,
+  64,
+  86,
+  98,
+  120,
+  148,
+  158,
+  183,
+  196,
+  204,
+  230,
+  245,
+  264,
+  279,
+  300,
+  311,
+  324,
+  333
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de6bf7e959faa6ea5fca102f0a980e3feac77ccd",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 340,
+  "units_dropped": {
+   "procedural": 4
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2878,
+  "words_out": 2853,
+  "retention": 0.9913,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   122,
+   127,
+   100,
+   117,
+   86,
+   193,
+   93,
+   188,
+   228,
+   84,
+   205,
+   112,
+   71,
+   206,
+   131,
+   179,
+   135,
+   168,
+   93,
+   106,
+   77,
+   32
+  ],
+  "warnings": []
+ }
+}

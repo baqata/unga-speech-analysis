@@ -1,0 +1,184 @@
+{
+ "id": "CSK_18_1963",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  10,
+  16,
+  23,
+  28,
+  37,
+  43,
+  46,
+  54,
+  63,
+  72,
+  80,
+  83,
+  88,
+  92,
+  103,
+  111,
+  121,
+  128,
+  132,
+  140,
+  145,
+  154,
+  159,
+  166,
+  172,
+  180,
+  188,
+  191,
+  197,
+  203,
+  211,
+  221,
+  226,
+  231
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "dis armament",
+   "disarmament",
+   "split_word"
+  ],
+  [
+   26,
+   " [A/5488, annex I, document ENDC/100/Rev.1]",
+   "",
+   "label"
+  ],
+  [
+   47,
+   "Wars aw",
+   "Warsaw",
+   "split_word"
+  ],
+  [
+   78,
+   " [22-25 May 1963]",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "Eighteen- Nation",
+   "Eighteen-Nation",
+   "spacing"
+  ],
+  [
+   106,
+   "present- day",
+   "present-day",
+   "spacing"
+  ],
+  [
+   139,
+   "well- known",
+   "well-known",
+   "spacing"
+  ],
+  [
+   141,
+   "freedom- loving",
+   "freedom-loving",
+   "spacing"
+  ],
+  [
+   142,
+   "rights,",
+   "rights.",
+   "ocr"
+  ],
+  [
+   150,
+   ", The",
+   ". The",
+   "ocr"
+  ],
+  [
+   160,
+   ", It also",
+   ". It also",
+   "ocr"
+  ],
+  [
+   189,
+   ", These",
+   ". These",
+   "ocr"
+  ],
+  [
+   197,
+   "121.",
+   "",
+   "label"
+  ],
+  [
+   225,
+   ", Over",
+   ". Over",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "39f9a218c432246c1546c04234b1fcbe8f9d96c2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 235,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2
+  },
+  "words_in": 5552,
+  "words_out": 5459,
+  "retention": 0.9832,
+  "n_paragraphs": 36,
+  "paragraph_words": [
+   111,
+   164,
+   155,
+   131,
+   122,
+   203,
+   126,
+   81,
+   174,
+   167,
+   189,
+   212,
+   85,
+   153,
+   102,
+   177,
+   204,
+   192,
+   145,
+   179,
+   168,
+   166,
+   222,
+   166,
+   163,
+   117,
+   172,
+   159,
+   101,
+   100,
+   163,
+   149,
+   194,
+   161,
+   106,
+   80
+  ],
+  "warnings": []
+ }
+}

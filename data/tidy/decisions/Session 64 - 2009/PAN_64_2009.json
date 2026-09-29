@@ -1,0 +1,65 @@
+{
+ "id": "PAN_64_2009",
+ "drop": [
+  [
+   207,
+   208,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  22,
+  42,
+  63,
+  83,
+  108,
+  132,
+  155,
+  167,
+  187,
+  209,
+  240
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d1a0eb844064b69730e7d0c536529ea731abf026",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "job_number": 3
+  },
+  "words_in": 2049,
+  "words_out": 2041,
+  "retention": 0.9961,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   72,
+   92,
+   168,
+   166,
+   172,
+   197,
+   175,
+   192,
+   99,
+   162,
+   151,
+   243,
+   152
+  ],
+  "warnings": [
+   "procedural drop [207,208] in the middle of the speech"
+  ]
+ }
+}

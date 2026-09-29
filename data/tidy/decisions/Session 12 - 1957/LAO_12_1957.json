@@ -1,0 +1,80 @@
+{
+ "id": "LAO_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  8,
+  12,
+  15,
+  22,
+  30,
+  35,
+  40,
+  46,
+  52,
+  55,
+  60
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "Hammarskjold, We know",
+   "Hammarskjold. We know",
+   "ocr"
+  ],
+  [
+   7,
+   "its spoken nan having",
+   "its spokesman having",
+   "ocr"
+  ],
+  [
+   10,
+   "the roar future",
+   "the near future",
+   "ocr"
+  ],
+  [
+   60,
+   "independence, Passive",
+   "independence. Passive",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7bbca396bb619bc97cd5bf909450ec00bc5f1a72",
+ "layout": "lines",
+ "stats": {
+  "n_units": 63,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1772,
+  "words_out": 1771,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   191,
+   79,
+   104,
+   75,
+   119,
+   201,
+   148,
+   142,
+   185,
+   186,
+   87,
+   155,
+   99
+  ],
+  "warnings": []
+ }
+}

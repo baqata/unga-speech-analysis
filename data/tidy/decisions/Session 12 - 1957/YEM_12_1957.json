@@ -1,0 +1,81 @@
+{
+ "id": "YEM_12_1957",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  7,
+  12,
+  16,
+  19,
+  24,
+  29,
+  35,
+  37,
+  41,
+  44,
+  50,
+  53,
+  57,
+  60,
+  64,
+  67,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   4,
+   "all of ,us",
+   "all of us",
+   "ocr"
+  ],
+  [
+   59,
+   "part of France, It is time",
+   "part of France. It is time",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "901e1a1e90e70bf61d7dd4617ef87bc7a6bb5016",
+ "layout": "lines",
+ "stats": {
+  "n_units": 73,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 26
+  },
+  "words_in": 2217,
+  "words_out": 2217,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   99,
+   165,
+   178,
+   122,
+   77,
+   201,
+   148,
+   128,
+   93,
+   87,
+   102,
+   152,
+   109,
+   82,
+   124,
+   93,
+   96,
+   94,
+   67
+  ],
+  "warnings": []
+ }
+}

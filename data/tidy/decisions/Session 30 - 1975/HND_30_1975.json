@@ -1,0 +1,137 @@
+{
+ "id": "HND_30_1975",
+ "drop": [
+  [
+   77,
+   77,
+   "presider"
+  ],
+  [
+   78,
+   82,
+   "other_speaker"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  11,
+  15,
+  17,
+  22,
+  25,
+  31,
+  34,
+  36,
+  40,
+  42,
+  44,
+  46,
+  49,
+  51,
+  58,
+  65,
+  68,
+  75
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "167- ",
+   "",
+   "label"
+  ],
+  [
+   4,
+   " [A//000/]",
+   "",
+   "label"
+  ],
+  [
+   10,
+   "JSconomic",
+   "Economic",
+   "ocr"
+  ],
+  [
+   12,
+   "reconstruction,'",
+   "reconstruction,",
+   "ocr"
+  ],
+  [
+   29,
+   "■ of he",
+   "of the",
+   "ocr"
+  ],
+  [
+   57,
+   ".it",
+   "it",
+   "ocr"
+  ],
+  [
+   66,
+   "it-enough",
+   "it enough",
+   "ocr"
+  ],
+  [
+   76,
+   " [resolution 3362 (S-Vllj]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a130c97121e32ebb81b548e66250adae537db314",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {
+   "presider": 1,
+   "other_speaker": 5
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "language_note": 2,
+   "paragraph_number": 31
+  },
+  "words_in": 2504,
+  "words_out": 2286,
+  "retention": 0.9129,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   105,
+   46,
+   128,
+   86,
+   60,
+   145,
+   83,
+   147,
+   82,
+   105,
+   163,
+   68,
+   74,
+   87,
+   94,
+   64,
+   181,
+   217,
+   95,
+   155,
+   101
+  ],
+  "warnings": []
+ }
+}

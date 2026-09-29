@@ -1,0 +1,76 @@
+{
+ "id": "SGP_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  10,
+  14,
+  22,
+  25,
+  30,
+  37,
+  42,
+  49,
+  53,
+  60,
+  65,
+  71,
+  76,
+  83,
+  87,
+  91,
+  96,
+  99
+ ],
+ "cer": [
+  0,
+  5,
+  10
+ ],
+ "fix": [
+  [
+   33,
+   "the: twenty-second",
+   "the twenty-second",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8751a0d2425887308808671edd2139ab00f2c56c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 109,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2131,
+  "words_out": 2109,
+  "retention": 0.9897,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   90,
+   88,
+   63,
+   181,
+   78,
+   149,
+   142,
+   102,
+   112,
+   77,
+   140,
+   88,
+   112,
+   100,
+   142,
+   73,
+   70,
+   98,
+   45,
+   159
+  ],
+  "warnings": []
+ }
+}

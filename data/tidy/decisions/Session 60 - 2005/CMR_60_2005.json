@@ -1,0 +1,47 @@
+{
+ "id": "CMR_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  16,
+  46,
+  66,
+  83,
+  94,
+  118,
+  136,
+  157
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cd5569b06bb0f54eb7542bf521a2ad7d2a7c06d2",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 175,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1376,
+  "words_out": 1367,
+  "retention": 0.9935,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   123,
+   244,
+   161,
+   120,
+   81,
+   189,
+   140,
+   163,
+   146
+  ],
+  "warnings": []
+ }
+}

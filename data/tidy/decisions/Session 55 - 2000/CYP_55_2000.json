@@ -1,0 +1,68 @@
+{
+ "id": "CYP_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  37,
+  55,
+  72,
+  85,
+  104,
+  117,
+  146,
+  159,
+  181,
+  201,
+  216,
+  231,
+  250,
+  270
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   119,
+   "(1978)of",
+   "(1978) of",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de1b81312dfbb3fc386f11b816c3d1f01fcee6e1",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 275,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2187,
+  "words_out": 2183,
+  "retention": 0.9982,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   87,
+   187,
+   131,
+   127,
+   110,
+   153,
+   101,
+   219,
+   113,
+   176,
+   171,
+   113,
+   139,
+   153,
+   159,
+   44
+  ],
+  "warnings": []
+ }
+}

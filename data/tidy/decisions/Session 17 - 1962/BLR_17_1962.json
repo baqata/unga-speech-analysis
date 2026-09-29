@@ -1,0 +1,305 @@
+{
+ "id": "BLR_17_1962",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  2,
+  9,
+  14,
+  19,
+  25,
+  29,
+  35,
+  39,
+  42,
+  46,
+  51,
+  56,
+  60,
+  66,
+  68,
+  73,
+  79,
+  82,
+  90,
+  98,
+  100,
+  102,
+  105,
+  110,
+  113,
+  120,
+  127,
+  129,
+  133,
+  135,
+  137,
+  141,
+  149,
+  153,
+  161,
+  168,
+  175,
+  179,
+  180,
+  184,
+  190,
+  196,
+  198,
+  201,
+  206,
+  210,
+  214,
+  217,
+  221,
+  225
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "facing;",
+   "facing",
+   "ocr"
+  ],
+  [
+   22,
+   "though ,the",
+   "though the",
+   "ocr"
+  ],
+  [
+   25,
+   "vituperation-",
+   "vituperation",
+   "ocr"
+  ],
+  [
+   25,
+   "[1125th meeting.]",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "United Stated",
+   "United States",
+   "ocr"
+  ],
+  [
+   31,
+   "ban mask",
+   "can mask",
+   "ocr"
+  ],
+  [
+   34,
+   "dear",
+   "clear",
+   "ocr"
+  ],
+  [
+   40,
+   "Cuba, And",
+   "Cuba. And",
+   "ocr"
+  ],
+  [
+   42,
+   "Castro, The",
+   "Castro. The",
+   "ocr"
+  ],
+  [
+   54,
+   "Viet-Nam’",
+   "Viet-Nam",
+   "ocr"
+  ],
+  [
+   55,
+   "tile",
+   "the",
+   "ocr"
+  ],
+  [
+   56,
+   "that or",
+   "that of",
+   "ocr"
+  ],
+  [
+   80,
+   "el inter",
+   "of inter",
+   "ocr"
+  ],
+  [
+   94,
+   "military- industrial",
+   "military-industrial",
+   "hyphen"
+  ],
+  [
+   102,
+   "United-States",
+   "United States",
+   "ocr"
+  ],
+  [
+   119,
+   "inadequate",
+   "in adequate",
+   "split_word"
+  ],
+  [
+   128,
+   "indirect",
+   "in direct",
+   "split_word"
+  ],
+  [
+   133,
+   "[A-/5233]",
+   "",
+   "label"
+  ],
+  [
+   165,
+   "regime.in",
+   "regime in",
+   "ocr"
+  ],
+  [
+   167,
+   "l962.’",
+   "1962.",
+   "ocr"
+  ],
+  [
+   177,
+   "prestige;",
+   "prestige",
+   "ocr"
+  ],
+  [
+   180,
+   "(XV)], That",
+   "(XV)]. That",
+   "ocr"
+  ],
+  [
+   201,
+   "650- million",
+   "650-million",
+   "hyphen"
+  ],
+  [
+   201,
+   "tire",
+   "the",
+   "ocr"
+  ],
+  [
+   201,
+   "Nations, The",
+   "Nations. The",
+   "ocr"
+  ],
+  [
+   208,
+   "dearly",
+   "clearly",
+   "ocr"
+  ],
+  [
+   213,
+   "Stated.",
+   "States.",
+   "ocr"
+  ],
+  [
+   222,
+   "dearly",
+   "clearly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e375c2235a52c76dfc134c678ce1189d6aecbe8d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 228,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 7,
+   "paragraph_number": 69
+  },
+  "words_in": 7259,
+  "words_out": 7249,
+  "retention": 0.9986,
+  "n_paragraphs": 52,
+  "paragraph_words": [
+   32,
+   65,
+   197,
+   158,
+   228,
+   181,
+   134,
+   220,
+   110,
+   174,
+   139,
+   152,
+   179,
+   101,
+   194,
+   89,
+   189,
+   166,
+   108,
+   184,
+   171,
+   107,
+   143,
+   80,
+   181,
+   122,
+   165,
+   161,
+   84,
+   151,
+   78,
+   106,
+   96,
+   201,
+   111,
+   217,
+   207,
+   173,
+   156,
+   65,
+   126,
+   159,
+   156,
+   74,
+   116,
+   188,
+   102,
+   143,
+   64,
+   132,
+   143,
+   71
+  ],
+  "warnings": [
+   "28 fixes"
+  ]
+ }
+}

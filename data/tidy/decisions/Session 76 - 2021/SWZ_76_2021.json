@@ -1,0 +1,93 @@
+{
+ "id": "SWZ_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  15,
+  20,
+  27,
+  34,
+  42,
+  49,
+  53,
+  56,
+  60,
+  64,
+  68,
+  73,
+  78,
+  83,
+  90,
+  91,
+  96,
+  102
+ ],
+ "cer": [
+  0,
+  102
+ ],
+ "fix": [
+  [
+   9,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   9,
+   "re- election",
+   "re-election",
+   "spacing"
+  ],
+  [
+   36,
+   "bounce- back",
+   "bounce-back",
+   "spacing"
+  ],
+  [
+   62,
+   "95-95- 95",
+   "95-95-95",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "474c586bbe9c73a69467c213f801dd938e9a7d46",
+ "layout": "lines",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2367,
+  "words_out": 2363,
+  "retention": 0.9983,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   98,
+   117,
+   96,
+   201,
+   129,
+   158,
+   178,
+   74,
+   72,
+   140,
+   113,
+   101,
+   115,
+   87,
+   122,
+   163,
+   87,
+   133,
+   169,
+   10
+  ],
+  "warnings": []
+ }
+}

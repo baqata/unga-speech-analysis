@@ -1,0 +1,61 @@
+{
+ "id": "VAT_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  23,
+  36,
+  48,
+  60,
+  74,
+  83,
+  92,
+  104,
+  115,
+  125,
+  143,
+  156,
+  171,
+  184
+ ],
+ "cer": [
+  184
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a79cbb971027c4dd64793eabb3bdbee94e05bccb",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 192,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 1
+  },
+  "words_in": 1527,
+  "words_out": 1523,
+  "retention": 0.9974,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   69,
+   111,
+   98,
+   83,
+   101,
+   107,
+   71,
+   80,
+   99,
+   91,
+   84,
+   150,
+   108,
+   109,
+   95,
+   67
+  ],
+  "warnings": []
+ }
+}

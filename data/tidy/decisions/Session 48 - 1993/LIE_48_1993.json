@@ -1,0 +1,79 @@
+{
+ "id": "LIE_48_1993",
+ "drop": [
+  [
+   61,
+   61,
+   "header_footer"
+  ],
+  [
+   159,
+   159,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  10,
+  15,
+  26,
+  35,
+  50,
+  66,
+  81,
+  89,
+  100,
+  110,
+  126,
+  144,
+  156,
+  177,
+  188,
+  201,
+  221,
+  233
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "84e00086230f9db9b301fd6dc56d5ae885960b8f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 238,
+  "units_dropped": {
+   "header_footer": 2
+  },
+  "prestrip": {},
+  "words_in": 2165,
+  "words_out": 2150,
+  "retention": 0.9931,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   90,
+   38,
+   100,
+   73,
+   137,
+   138,
+   132,
+   70,
+   96,
+   86,
+   158,
+   158,
+   112,
+   186,
+   107,
+   115,
+   196,
+   110,
+   48
+  ],
+  "warnings": []
+ }
+}

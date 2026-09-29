@@ -1,0 +1,51 @@
+{
+ "id": "SUR_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  18,
+  34,
+  50,
+  65,
+  88,
+  99,
+  120,
+  139,
+  154,
+  166
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8b8ee3a246435152ca51a82fc93363616832f4ae",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 176,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1315,
+  "words_out": 1309,
+  "retention": 0.9954,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   144,
+   122,
+   116,
+   111,
+   167,
+   90,
+   145,
+   141,
+   114,
+   87,
+   72
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "RWA_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  12,
+  17,
+  21,
+  24,
+  27,
+  34,
+  41
+ ],
+ "cer": [],
+ "fix": [
+  [
+   19,
+   "forward- looking",
+   "forward-looking",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "30ab8b13910824a01fb53fd2f3522250b7caa31f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 42,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 825,
+  "words_out": 824,
+  "retention": 0.9988,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   118,
+   114,
+   94,
+   74,
+   61,
+   74,
+   108,
+   143,
+   38
+  ],
+  "warnings": []
+ }
+}

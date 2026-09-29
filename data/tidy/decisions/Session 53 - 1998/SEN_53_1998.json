@@ -1,0 +1,130 @@
+{
+ "id": "SEN_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  13,
+  20,
+  33,
+  50,
+  59,
+  79,
+  98,
+  114,
+  128,
+  154,
+  169,
+  194,
+  210,
+  217,
+  239,
+  254,
+  270,
+  282,
+  307,
+  335,
+  344,
+  364,
+  384,
+  403
+ ],
+ "cer": [
+  0,
+  13,
+  210
+ ],
+ "fix": [
+  [
+   96,
+   "Peoples?",
+   "Peoples’",
+   "encoding"
+  ],
+  [
+   101,
+   "(A/51/950) ",
+   "",
+   "label"
+  ],
+  [
+   112,
+   " (resolution 50/6,",
+   "",
+   "label"
+  ],
+  [
+   113,
+   "para. 14)",
+   "",
+   "label"
+  ],
+  [
+   184,
+   "Senegal?s",
+   "Senegal’s",
+   "encoding"
+  ],
+  [
+   211,
+   "Matre",
+   "Maître",
+   "encoding"
+  ],
+  [
+   230,
+   "Secretary-General?s",
+   "Secretary-General’s",
+   "encoding"
+  ],
+  [
+   337,
+   "Assembly?s",
+   "Assembly’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "547c2c5273a485153bfcb33af077dfd8d93a3ced",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 415,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 4
+  },
+  "words_in": 3456,
+  "words_out": 3447,
+  "retention": 0.9974,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   109,
+   55,
+   103,
+   133,
+   83,
+   190,
+   164,
+   112,
+   105,
+   215,
+   141,
+   190,
+   135,
+   59,
+   184,
+   134,
+   133,
+   95,
+   199,
+   234,
+   72,
+   173,
+   155,
+   164,
+   110
+  ],
+  "warnings": []
+ }
+}

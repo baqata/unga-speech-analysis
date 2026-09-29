@@ -1,0 +1,63 @@
+{
+ "id": "DMA_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  31,
+  48,
+  60,
+  72,
+  94,
+  122,
+  139,
+  162,
+  173,
+  193,
+  206,
+  226,
+  245,
+  260,
+  276
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c0f36fc0ad083a7b7dd9eba08f78afe50abd4046",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 287,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2124,
+  "words_out": 2116,
+  "retention": 0.9962,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   84,
+   144,
+   123,
+   97,
+   86,
+   146,
+   198,
+   147,
+   175,
+   84,
+   157,
+   97,
+   131,
+   141,
+   121,
+   113,
+   72
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "CRI_24_1969",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  32,
+  45,
+  64,
+  78,
+  100,
+  112,
+  125,
+  143,
+  157,
+  182,
+  204,
+  225,
+  245,
+  257,
+  266,
+  273,
+  282,
+  297,
+  330,
+  339,
+  359,
+  371,
+  395
+ ],
+ "cer": [
+  0,
+  17,
+  32,
+  45,
+  64
+ ],
+ "fix": [
+  [
+   53,
+   "Short,",
+   "short,",
+   "ocr"
+  ],
+  [
+   93,
+   "this ‘should",
+   "this should",
+   "ocr"
+  ],
+  [
+   209,
+   "way Of life",
+   "way of life",
+   "ocr"
+  ],
+  [
+   358,
+   "to he precise",
+   "to be precise",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "71e1e623bd5b68770aafbc4b499432d281f83721",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 403,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3789,
+  "words_out": 3764,
+  "retention": 0.9934,
+  "n_paragraphs": 25,
+  "paragraph_words": [
+   157,
+   139,
+   132,
+   187,
+   127,
+   209,
+   120,
+   108,
+   166,
+   134,
+   230,
+   207,
+   196,
+   185,
+   117,
+   70,
+   59,
+   83,
+   137,
+   309,
+   79,
+   195,
+   113,
+   232,
+   73
+  ],
+  "warnings": []
+ }
+}

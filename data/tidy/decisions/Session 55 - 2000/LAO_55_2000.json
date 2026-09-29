@@ -1,0 +1,63 @@
+{
+ "id": "LAO_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  13,
+  27,
+  48,
+  65,
+  86,
+  106,
+  127,
+  135,
+  149,
+  174,
+  193
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   138,
+   "Jong 11",
+   "Jong Il",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "22e9622a047239b08c3a1f6662f0bca3d2a5f314",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 207,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1590,
+  "words_out": 1587,
+  "retention": 0.9981,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   60,
+   33,
+   108,
+   161,
+   140,
+   159,
+   156,
+   159,
+   61,
+   103,
+   186,
+   150,
+   111
+  ],
+  "warnings": []
+ }
+}

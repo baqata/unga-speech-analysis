@@ -1,0 +1,64 @@
+{
+ "id": "ZMB_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  28,
+  40,
+  53,
+  72,
+  81,
+  94,
+  103,
+  115,
+  134,
+  150,
+  163,
+  174,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   44,
+   "them.That",
+   "them. That",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2e34eafa244eeeb83ab34d1e47b1a79aecf630e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1592,
+  "words_out": 1592,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   115,
+   110,
+   102,
+   95,
+   156,
+   85,
+   97,
+   73,
+   97,
+   148,
+   126,
+   97,
+   98,
+   122,
+   71
+  ],
+  "warnings": []
+ }
+}

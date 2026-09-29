@@ -1,0 +1,55 @@
+{
+ "id": "ERI_63_2008",
+ "drop": [],
+ "para": [
+  0,
+  11,
+  26,
+  39,
+  62,
+  84,
+  99,
+  112,
+  132,
+  142,
+  154,
+  172,
+  192
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "fad593c8419e34063c68addc3b06d83bf022ad9f",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 202,
+  "units_dropped": {},
+  "prestrip": {
+   "job_number": 2
+  },
+  "words_in": 1566,
+  "words_out": 1566,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   83,
+   114,
+   95,
+   175,
+   170,
+   112,
+   102,
+   159,
+   77,
+   96,
+   143,
+   158,
+   82
+  ],
+  "warnings": []
+ }
+}

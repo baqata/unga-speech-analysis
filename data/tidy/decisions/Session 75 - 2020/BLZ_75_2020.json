@@ -1,0 +1,104 @@
+{
+ "id": "BLZ_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  17,
+  20,
+  26,
+  30,
+  36,
+  41,
+  46,
+  52,
+  56,
+  62,
+  65,
+  69,
+  75,
+  80,
+  86,
+  92,
+  99,
+  103,
+  109,
+  114,
+  123,
+  125
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   96,
+   "~ liquidity",
+   "liquidity",
+   "markup"
+  ],
+  [
+   96,
+   "SIDS ~ efficient",
+   "SIDS efficient",
+   "markup"
+  ],
+  [
+   97,
+   "~ innovative",
+   "innovative",
+   "markup"
+  ],
+  [
+   98,
+   "~ Increased",
+   "Increased",
+   "markup"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "28d09a1a643500c1939980f7628f2cf18bbe7b05",
+ "layout": "lines",
+ "stats": {
+  "n_units": 131,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2983,
+  "words_out": 2979,
+  "retention": 0.9987,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   66,
+   70,
+   110,
+   87,
+   135,
+   146,
+   116,
+   127,
+   121,
+   151,
+   102,
+   91,
+   144,
+   70,
+   93,
+   163,
+   68,
+   136,
+   135,
+   154,
+   105,
+   165,
+   65,
+   224,
+   31,
+   104
+  ],
+  "warnings": []
+ }
+}

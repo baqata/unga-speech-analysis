@@ -1,0 +1,119 @@
+{
+ "id": "ZMB_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   110,
+   110,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  6,
+  15,
+  24,
+  31,
+  35,
+  40,
+  46,
+  55,
+  60,
+  64,
+  69,
+  73,
+  80,
+  84,
+  91,
+  94,
+  102,
+  108
+ ],
+ "cer": [
+  2,
+  3,
+  108
+ ],
+ "fix": [
+  [
+   97,
+   "Ezulini",
+   "Ezulwini",
+   "asr_name"
+  ],
+  [
+   97,
+   "CERTE",
+   "Sirte",
+   "asr_name"
+  ],
+  [
+   99,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   100,
+   "protected",
+   "protracted",
+   "asr_term"
+  ],
+  [
+   103,
+   "development. development.",
+   "development.",
+   "asr_term"
+  ],
+  [
+   80,
+   "inviting",
+   "investing in",
+   "slip"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 24 and 102 are section titles the speaker read aloud and are kept; continental, Al invertir en, Sirte, iniciativa ONU80 per Spanish; Ezulwini Consensus as in the African Union position. Main-agent doubles check (the audio re-decoded at each doubled word; Whisper had repeated the words at a segment boundary unless noted): unit 103 'development. development.' -> 'development.'. Main-agent check of the batch's word repairs (the audio re-decoded at each repaired word, read with the Spanish): unit 79 repair of 'continued' withdrawn (the speaker's English, heard at p 0.99-1.00 in three re-decodes: 'our global and continued commitments'; 'continental' is the Spanish booth's rendering). Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 8 unit 80 'inviting' -> 'investing in' (slip rule (INSTRUCTIONS.md, second 2026 exception; user decision 2026-09-29): said 'inviting' (decodes and two re-decodes 1.00, the UN transcript; forced scoring -3.9 vs 'investing in' -18.7); 'By inviting our people ... we are investing in Zambia's future' does not fit, and the Spanish 'Al invertir en nuestros ciudadanos' shows 'investing in')",
+ "unitizer_version": 1,
+ "sha1": "f2d0cc91fe202c03b6accb624183187b24325a65",
+ "layout": "single",
+ "stats": {
+  "n_units": 111,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 2278,
+  "words_out": 2242,
+  "retention": 0.9842,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   19,
+   82,
+   144,
+   121,
+   176,
+   104,
+   119,
+   108,
+   166,
+   61,
+   97,
+   115,
+   145,
+   170,
+   80,
+   134,
+   89,
+   170,
+   132,
+   10
+  ],
+  "warnings": []
+ }
+}

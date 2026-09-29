@@ -1,0 +1,125 @@
+{
+ "id": "SRB_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   119,
+   119,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  4,
+  12,
+  17,
+  22,
+  27,
+  32,
+  40,
+  45,
+  51,
+  54,
+  58,
+  66,
+  69,
+  75,
+  80,
+  86,
+  94,
+  99,
+  106,
+  111,
+  113
+ ],
+ "cer": [],
+ "fix": [
+  [
+   20,
+   "roadstorm",
+   "rostrum",
+   "asr_term"
+  ],
+  [
+   52,
+   "Jacenovac",
+   "Jasenovac",
+   "asr_name"
+  ],
+  [
+   55,
+   "Metokhia",
+   "Metohija",
+   "asr_name"
+  ],
+  [
+   59,
+   "Metohia",
+   "Metohija",
+   "asr_name"
+  ],
+  [
+   90,
+   "glocing",
+   "glossing",
+   "asr_term"
+  ],
+  [
+   110,
+   "simple. the",
+   "simple. The",
+   "asr_term"
+  ],
+  [
+   57,
+   "do we",
+   "do you",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Jasenovac concentration camp; 'Kosovo and Metohija' is the official Serbian name (Constitution of Serbia). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 110 'simple. the' -> 'simple. The'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 11 unit 57 'do we' -> 'do you' (both decodes hear 'do you also say' ('you' 0.69 / 0.70); 'When we ask them, do we also say' does not fit; ES 'Cuando les preguntamos, ¿tambien le dicen eso a Ucrania')",
+ "unitizer_version": 1,
+ "sha1": "eced66b97138c80427b9386926e16c47fe9fcd51",
+ "layout": "single",
+ "stats": {
+  "n_units": 120,
+  "units_dropped": {
+   "presider": 3
+  },
+  "prestrip": {},
+  "words_in": 3127,
+  "words_out": 3079,
+  "retention": 0.9846,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   74,
+   181,
+   108,
+   229,
+   117,
+   149,
+   169,
+   101,
+   102,
+   111,
+   157,
+   198,
+   73,
+   157,
+   176,
+   171,
+   162,
+   135,
+   151,
+   148,
+   101,
+   109
+  ],
+  "warnings": []
+ }
+}

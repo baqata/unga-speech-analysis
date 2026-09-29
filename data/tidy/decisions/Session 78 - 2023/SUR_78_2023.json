@@ -1,0 +1,140 @@
+{
+ "id": "SUR_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  12,
+  19,
+  22,
+  27,
+  33,
+  35,
+  39,
+  47,
+  55,
+  61,
+  66,
+  73
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   9,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   15,
+   "for. and commitment to. international",
+   "for, and commitment to, international",
+   "ocr"
+  ],
+  [
+   19,
+   "law. the",
+   "law, the",
+   "ocr"
+  ],
+  [
+   26,
+   "However. I",
+   "However, I",
+   "ocr"
+  ],
+  [
+   28,
+   "Cuba.",
+   "Cuba,",
+   "ocr"
+  ],
+  [
+   30,
+   "visit.",
+   "visit,",
+   "ocr"
+  ],
+  [
+   35,
+   "political. humanitarian",
+   "political, humanitarian",
+   "ocr"
+  ],
+  [
+   45,
+   "world.",
+   "world,",
+   "ocr"
+  ],
+  [
+   48,
+   "Yes. it",
+   "Yes, it",
+   "ocr"
+  ],
+  [
+   51,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   55,
+   "country.",
+   "country,",
+   "ocr"
+  ],
+  [
+   58,
+   "years.",
+   "years,",
+   "ocr"
+  ],
+  [
+   66,
+   "pride.",
+   "pride,",
+   "ocr"
+  ],
+  [
+   68,
+   "own. albeit",
+   "own, albeit",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8673e0002e6e2a8e58de9884e726edebf99fc906",
+ "layout": "lines",
+ "stats": {
+  "n_units": 77,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1597,
+  "words_out": 1596,
+  "retention": 0.9994,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   44,
+   150,
+   135,
+   71,
+   139,
+   94,
+   63,
+   88,
+   197,
+   173,
+   112,
+   105,
+   116,
+   109
+  ],
+  "warnings": []
+ }
+}

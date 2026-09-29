@@ -1,0 +1,72 @@
+{
+ "id": "CUB_02_1947",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  10,
+  15,
+  24,
+  32,
+  34,
+  36,
+  39,
+  44
+ ],
+ "cer": [
+  34
+ ],
+ "fix": [
+  [
+   30,
+   "interests?",
+   "interests",
+   "ocr"
+  ],
+  [
+   37,
+   "of mother armed",
+   "of another armed",
+   "ocr"
+  ],
+  [
+   41,
+   "tot preserve",
+   "to preserve",
+   "ocr"
+  ],
+  [
+   42,
+   "abolish hale",
+   "abolish hate",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "db0b5eae5deb583e4a52ee1a3339b438a5581353",
+ "layout": "lines",
+ "stats": {
+  "n_units": 45,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1077,
+  "words_out": 1077,
+  "retention": 1.0,
+  "n_paragraphs": 10,
+  "paragraph_words": [
+   115,
+   125,
+   143,
+   164,
+   200,
+   64,
+   60,
+   64,
+   119,
+   23
+  ],
+  "warnings": []
+ }
+}

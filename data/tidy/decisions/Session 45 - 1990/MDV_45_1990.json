@@ -1,0 +1,88 @@
+{
+ "id": "MDV_45_1990",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  12,
+  17,
+  20,
+  27,
+  34,
+  35,
+  42,
+  46,
+  52,
+  59,
+  63,
+  68,
+  73,
+  76,
+  81,
+  84,
+  89,
+  92,
+  102
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   19,
+   "at Mali",
+   "at Male",
+   "ocr"
+  ],
+  [
+   65,
+   "I960",
+   "1960",
+   "ocr"
+  ],
+  [
+   75,
+   "mobilized. .",
+   "mobilized.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93225345873b068f15baa0affa088bea7811c04d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 105,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2818,
+  "words_out": 2817,
+  "retention": 0.9996,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   222,
+   89,
+   163,
+   107,
+   204,
+   174,
+   44,
+   154,
+   117,
+   185,
+   158,
+   85,
+   158,
+   159,
+   97,
+   171,
+   116,
+   100,
+   68,
+   161,
+   85
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "MDG_68_2013",
+ "drop": [],
+ "para": [
+  0,
+  17,
+  22,
+  32,
+  49,
+  59,
+  71,
+  88,
+  98,
+  116,
+  131,
+  138,
+  146
+ ],
+ "cer": [
+  17
+ ],
+ "fix": [
+  [
+   27,
+   "Jeremi.",
+   "Jeremić",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b963c1da9fc937ef59a16b75b80a09fa2677aa9a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 155,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1262,
+  "words_out": 1261,
+  "retention": 0.9992,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   139,
+   39,
+   72,
+   143,
+   85,
+   96,
+   128,
+   83,
+   141,
+   116,
+   67,
+   73,
+   79
+  ],
+  "warnings": []
+ }
+}

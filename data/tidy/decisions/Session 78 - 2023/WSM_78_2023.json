@@ -1,0 +1,151 @@
+{
+ "id": "WSM_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  10,
+  13,
+  18,
+  22,
+  26,
+  29,
+  33,
+  40,
+  43,
+  46,
+  49,
+  54,
+  58,
+  61,
+  66,
+  71
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   0,
+   "you.",
+   "you,",
+   "ocr"
+  ],
+  [
+   8,
+   "Africa.",
+   "Africa,",
+   "ocr"
+  ],
+  [
+   9,
+   "Greece. north-eastern",
+   "Greece, north-eastern",
+   "ocr"
+  ],
+  [
+   10,
+   "Lahaina.",
+   "Lahaina,",
+   "ocr"
+  ],
+  [
+   13,
+   "far. and",
+   "far, and",
+   "ocr"
+  ],
+  [
+   22,
+   "one. causing",
+   "one, causing",
+   "ocr"
+  ],
+  [
+   24,
+   "Nature.",
+   "Nature,",
+   "ocr"
+  ],
+  [
+   26,
+   "us. and",
+   "us, and",
+   "ocr"
+  ],
+  [
+   35,
+   "level.",
+   "level,",
+   "ocr"
+  ],
+  [
+   41,
+   "NCDs. and",
+   "NCDs, and",
+   "ocr"
+  ],
+  [
+   52,
+   "(MVI). therefore",
+   "(MVI), therefore",
+   "ocr"
+  ],
+  [
+   57,
+   "2021-2025. which",
+   "2021-2025, which",
+   "ocr"
+  ],
+  [
+   66,
+   "law. and",
+   "law, and",
+   "ocr"
+  ],
+  [
+   67,
+   "now. more",
+   "now, more",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d21a1afe910ba942e2cb1881b9d28ebd98fbf623",
+ "layout": "lines",
+ "stats": {
+  "n_units": 74,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1852,
+  "words_out": 1852,
+  "retention": 1.0,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   116,
+   90,
+   72,
+   53,
+   130,
+   85,
+   105,
+   105,
+   131,
+   106,
+   116,
+   75,
+   81,
+   109,
+   109,
+   87,
+   97,
+   95,
+   90
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,238 @@
+{
+ "id": "EGY_43_1988",
+ "drop": [
+  [
+   40,
+   40,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  9,
+  17,
+  28,
+  34,
+  43,
+  53,
+  66,
+  78,
+  92,
+  105,
+  110,
+  113,
+  119,
+  131,
+  141,
+  148,
+  158,
+  168,
+  172,
+  180,
+  185,
+  191,
+  199,
+  202,
+  208,
+  219,
+  225,
+  238,
+  245
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   32,
+   "of \"their existence",
+   "of their existence",
+   "ocr"
+  ],
+  [
+   55,
+   "includin9",
+   "including",
+   "ocr"
+  ],
+  [
+   68,
+   "the united States",
+   "the United States",
+   "ocr"
+  ],
+  [
+   68,
+   "Secretary of state",
+   "Secretary of State",
+   "ocr"
+  ],
+  [
+   72,
+   "security Council",
+   "Security Council",
+   "ocr"
+  ],
+  [
+   109,
+   "security Council",
+   "Security Council",
+   "ocr"
+  ],
+  [
+   111,
+   "It's appreciation",
+   "Its appreciation",
+   "ocr"
+  ],
+  [
+   111,
+   "to 1ive",
+   "to live",
+   "ocr"
+  ],
+  [
+   116,
+   "we appeal",
+   "We appeal",
+   "ocr"
+  ],
+  [
+   119,
+   "The Situation",
+   "The situation",
+   "ocr"
+  ],
+  [
+   120,
+   "its secretary-General",
+   "its Secretary-General",
+   "ocr"
+  ],
+  [
+   133,
+   "difficulties: Positive",
+   "difficulties. Positive",
+   "ocr"
+  ],
+  [
+   135,
+   "South west Africa",
+   "South West Africa",
+   "ocr"
+  ],
+  [
+   142,
+   "of western Sahara",
+   "of Western Sahara",
+   "ocr"
+  ],
+  [
+   150,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   156,
+   "des ire",
+   "desire",
+   "split_word"
+  ],
+  [
+   165,
+   "united Nations on",
+   "United Nations on",
+   "ocr"
+  ],
+  [
+   176,
+   "problem..",
+   "problem.",
+   "ocr"
+  ],
+  [
+   176,
+   "par ties",
+   "parties",
+   "split_word"
+  ],
+  [
+   178,
+   "par ties",
+   "parties",
+   "split_word"
+  ],
+  [
+   203,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   236,
+   "the united Nations",
+   "the United Nations",
+   "ocr"
+  ],
+  [
+   250,
+   "- Politically",
+   "- politically",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Units 17-22 are printed lines in scrambled order and are kept as printed; unit 45-46 ('in implementation of the / prime responsibility') appears to lack a line.",
+ "unitizer_version": 1,
+ "sha1": "9d83ac4ee73e57197374336b1ab0670ef01d6653",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 3375,
+  "words_out": 3371,
+  "retention": 0.9988,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   126,
+   99,
+   141,
+   66,
+   91,
+   108,
+   145,
+   147,
+   167,
+   152,
+   87,
+   98,
+   97,
+   155,
+   123,
+   90,
+   165,
+   130,
+   95,
+   98,
+   117,
+   83,
+   97,
+   98,
+   62,
+   120,
+   72,
+   150,
+   88,
+   104
+  ],
+  "warnings": [
+   "23 fixes"
+  ]
+ }
+}

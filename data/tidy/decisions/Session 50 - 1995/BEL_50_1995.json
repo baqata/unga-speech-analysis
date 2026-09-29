@@ -1,0 +1,82 @@
+{
+ "id": "BEL_50_1995",
+ "drop": [],
+ "para": [
+  0,
+  32,
+  45,
+  61,
+  71,
+  83,
+  100,
+  108,
+  128,
+  139,
+  150,
+  167,
+  187,
+  195,
+  206,
+  218,
+  228,
+  243
+ ],
+ "cer": [],
+ "fix": [
+  [
+   21,
+   "(Official Records of the General Assembly, First",
+   "",
+   "label"
+  ],
+  [
+   22,
+   "Session, Part One, Plenary Meetings, 2nd meeting,",
+   "",
+   "label"
+  ],
+  [
+   23,
+   "p. 48)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "356e819c2937c27774c47a9a12e4144b63210ed7",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 257,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 2122,
+  "words_out": 2103,
+  "retention": 0.991,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   265,
+   113,
+   140,
+   82,
+   101,
+   151,
+   67,
+   170,
+   92,
+   84,
+   133,
+   140,
+   67,
+   107,
+   83,
+   86,
+   108,
+   114
+  ],
+  "warnings": []
+ }
+}

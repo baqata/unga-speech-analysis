@@ -1,0 +1,76 @@
+{
+ "id": "LSO_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  20,
+  26,
+  31,
+  37,
+  41,
+  45,
+  54,
+  58,
+  65,
+  74,
+  80,
+  87,
+  93
+ ],
+ "cer": [],
+ "fix": [
+  [
+   29,
+   "will. regard",
+   "will regard",
+   "ocr"
+  ],
+  [
+   34,
+   "deteriorating Situation",
+   "deteriorating situation",
+   "ocr"
+  ],
+  [
+   81,
+   "have Become",
+   "have become",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "966d126c127514de931b43f9ffc4d3aa6f642393",
+ "layout": "lines",
+ "stats": {
+  "n_units": 96,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2225,
+  "words_out": 2207,
+  "retention": 0.9919,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   107,
+   162,
+   165,
+   242,
+   105,
+   123,
+   126,
+   95,
+   157,
+   90,
+   138,
+   198,
+   109,
+   126,
+   195,
+   69
+  ],
+  "warnings": []
+ }
+}

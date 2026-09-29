@@ -1,0 +1,66 @@
+{
+ "id": "NOR_51_1996",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  33,
+  51,
+  64,
+  71,
+  83,
+  107,
+  118,
+  128,
+  139,
+  150,
+  161,
+  172,
+  185,
+  194
+ ],
+ "cer": [],
+ "fix": [
+  [
+   137,
+   "Cairo,Copenhagen",
+   "Cairo, Copenhagen",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "95e8af404ae49c6172161cb4a6c265b3f49ac498",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 199,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1689,
+  "words_out": 1690,
+  "retention": 1.0006,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   129,
+   149,
+   148,
+   109,
+   64,
+   100,
+   217,
+   94,
+   89,
+   95,
+   89,
+   89,
+   92,
+   106,
+   72,
+   48
+  ],
+  "warnings": []
+ }
+}

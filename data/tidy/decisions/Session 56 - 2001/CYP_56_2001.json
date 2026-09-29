@@ -1,0 +1,62 @@
+{
+ "id": "CYP_56_2001",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  22,
+  41,
+  62,
+  77,
+  101,
+  111,
+  130,
+  148,
+  165,
+  178,
+  194
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   163,
+   "l0",
+   "10",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c57ef4c7ee9ebec0b3f870b92bdee5fd3d1d140c",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1687,
+  "words_out": 1686,
+  "retention": 0.9994,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   44,
+   121,
+   142,
+   165,
+   118,
+   193,
+   77,
+   149,
+   137,
+   139,
+   116,
+   137,
+   148
+  ],
+  "warnings": []
+ }
+}

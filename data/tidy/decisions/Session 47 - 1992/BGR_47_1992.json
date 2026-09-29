@@ -1,0 +1,88 @@
+{
+ "id": "BGR_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  15,
+  30,
+  44,
+  56,
+  69,
+  83,
+  96,
+  115,
+  132,
+  155,
+  173,
+  189,
+  201,
+  209,
+  227,
+  234,
+  247
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "uananimous",
+   "unanimous",
+   "ocr"
+  ],
+  [
+   106,
+   "acguire",
+   "acquire",
+   "ocr"
+  ],
+  [
+   133,
+   "on Bosnia",
+   "or Bosnia",
+   "ocr"
+  ],
+  [
+   226,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "12f0c19e05e2f33f34d1b1a6066028d4c1737655",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2826,
+  "words_out": 2825,
+  "retention": 0.9996,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   161,
+   167,
+   166,
+   129,
+   135,
+   146,
+   142,
+   204,
+   203,
+   255,
+   207,
+   187,
+   130,
+   84,
+   201,
+   76,
+   148,
+   84
+  ],
+  "warnings": []
+ }
+}

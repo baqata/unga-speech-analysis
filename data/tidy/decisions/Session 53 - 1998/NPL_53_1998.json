@@ -1,0 +1,85 @@
+{
+ "id": "NPL_53_1998",
+ "drop": [],
+ "para": [
+  0,
+  12,
+  29,
+  43,
+  64,
+  83,
+  108,
+  127,
+  146,
+  162,
+  171,
+  194,
+  210,
+  226,
+  235
+ ],
+ "cer": [
+  12,
+  162
+ ],
+ "fix": [
+  [
+   10,
+   "Nepal?s",
+   "Nepal’s",
+   "encoding"
+  ],
+  [
+   15,
+   "country?s",
+   "country’s",
+   "encoding"
+  ],
+  [
+   146,
+   "world?s",
+   "world’s",
+   "encoding"
+  ],
+  [
+   170,
+   "Nepal?s",
+   "Nepal’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "335b4c35b3bc1a390a60d74f94d9ffdc98dd9aca",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 248,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2095,
+  "words_out": 2090,
+  "retention": 0.9976,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   96,
+   149,
+   118,
+   179,
+   174,
+   201,
+   163,
+   147,
+   148,
+   80,
+   197,
+   131,
+   123,
+   75,
+   109
+  ],
+  "warnings": []
+ }
+}

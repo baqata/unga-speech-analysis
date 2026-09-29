@@ -1,0 +1,143 @@
+{
+ "id": "TUN_34_1979",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  15,
+  17,
+  20,
+  25,
+  28,
+  32,
+  35,
+  38,
+  42,
+  45,
+  46,
+  50,
+  52,
+  56,
+  61,
+  62,
+  66,
+  68,
+  70,
+  72,
+  77,
+  81,
+  87,
+  91,
+  96
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   6,
+   "out-expression",
+   "our expression",
+   "ocr"
+  ],
+  [
+   41,
+   "its people,",
+   "its people.",
+   "ocr"
+  ],
+  [
+   51,
+   "L40, ",
+   "",
+   "label"
+  ],
+  [
+   51,
+   "needs, The real",
+   "needs. The real",
+   "ocr"
+  ],
+  [
+   51,
+   "a(l the",
+   "all the",
+   "ocr"
+  ],
+  [
+   51,
+   "concerned. especially",
+   "concerned, especially",
+   "ocr"
+  ],
+  [
+   52,
+   "141, ",
+   "",
+   "label"
+  ],
+  [
+   61,
+   "satisfaction, However",
+   "satisfaction. However",
+   "ocr"
+  ],
+  [
+   88,
+   "relations, The Tunisian",
+   "relations. The Tunisian",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0a1f28525f5a643713ca55632425a2ef9f23e6f9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 44
+  },
+  "words_in": 3694,
+  "words_out": 3693,
+  "retention": 0.9997,
+  "n_paragraphs": 29,
+  "paragraph_words": [
+   187,
+   73,
+   190,
+   125,
+   99,
+   117,
+   112,
+   177,
+   160,
+   124,
+   102,
+   138,
+   123,
+   76,
+   91,
+   143,
+   129,
+   130,
+   77,
+   102,
+   114,
+   143,
+   81,
+   189,
+   193,
+   164,
+   141,
+   171,
+   22
+  ],
+  "warnings": []
+ }
+}

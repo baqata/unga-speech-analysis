@@ -1,0 +1,170 @@
+{
+ "id": "LBN_22_1967",
+ "drop": [
+  [
+   129,
+   129,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  11,
+  20,
+  33,
+  36,
+  44,
+  54,
+  59,
+  76,
+  92,
+  100,
+  107,
+  118,
+  123,
+  131,
+  137,
+  146,
+  150,
+  155,
+  159,
+  162,
+  168,
+  174,
+  183,
+  187,
+  193,
+  198
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   15,
+   " (item 94)",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "delegation support, the",
+   "delegation supports the",
+   "ocr"
+  ],
+  [
+   94,
+   "Member States, As the",
+   "Member States. As the",
+   "ocr"
+  ],
+  [
+   106,
+   "regional Interests",
+   "regional interests",
+   "ocr"
+  ],
+  [
+   121,
+   "in 1948, But the",
+   "in 1948. But the",
+   "ocr"
+  ],
+  [
+   134,
+   "after 5 June, In view",
+   "after 5 June. In view",
+   "ocr"
+  ],
+  [
+   148,
+   "army Invaded",
+   "army invaded",
+   "ocr"
+  ],
+  [
+   148,
+   "areas In the",
+   "areas in the",
+   "ocr"
+  ],
+  [
+   160,
+   "twenty years, Israeli armed",
+   "twenty years. Israeli armed",
+   "ocr"
+  ],
+  [
+   182,
+   "12 September 1967, The report",
+   "12 September 1967. The report",
+   "ocr"
+  ],
+  [
+   185,
+   "in ,the Gaza",
+   "in the Gaza",
+   "ocr"
+  ],
+  [
+   188,
+   "Middle East, Israel is",
+   "Middle East. Israel is",
+   "ocr"
+  ],
+  [
+   199,
+   "element In the",
+   "element in the",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 129 is only the source reference of the quotation (A/6701/Add.1, para. 43) and was dropped.",
+ "unitizer_version": 1,
+ "sha1": "7d74869a71c2ba84d32bc9f66f912daba6af413f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 212,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 3
+  },
+  "words_in": 3705,
+  "words_out": 3654,
+  "retention": 0.9862,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   217,
+   181,
+   170,
+   66,
+   99,
+   215,
+   99,
+   240,
+   215,
+   219,
+   93,
+   206,
+   102,
+   209,
+   123,
+   124,
+   59,
+   81,
+   92,
+   66,
+   95,
+   125,
+   180,
+   81,
+   78,
+   68,
+   151
+  ],
+  "warnings": []
+ }
+}

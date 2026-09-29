@@ -1,0 +1,186 @@
+{
+ "id": "LSO_30_1975",
+ "drop": [
+  [
+   25,
+   25,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  6,
+  9,
+  14,
+  18,
+  21,
+  26,
+  31,
+  33,
+  40,
+  45,
+  47,
+  49,
+  54,
+  58,
+  63,
+  69,
+  71,
+  76,
+  80,
+  84,
+  87,
+  91,
+  95,
+  99,
+  102,
+  105,
+  111,
+  116,
+  123,
+  128,
+  130,
+  135
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   4,
+   "twenty- ninth",
+   "twenty-ninth",
+   "hyphen"
+  ],
+  [
+   56,
+   "stepping- stone",
+   "stepping-stone",
+   "hyphen"
+  ],
+  [
+   56,
+   "self- reliance",
+   "self-reliance",
+   "hyphen"
+  ],
+  [
+   59,
+   "in -terms",
+   "in terms",
+   "ocr"
+  ],
+  [
+   67,
+   "cogni-. zance",
+   "cognizance",
+   "ocr"
+  ],
+  [
+   74,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   75,
+   "over-whelming",
+   "overwhelming",
+   "hyphen"
+  ],
+  [
+   88,
+   " [FRELIMO]",
+   "",
+   "label"
+  ],
+  [
+   94,
+   "policies,",
+   "policies.",
+   "ocr"
+  ],
+  [
+   99,
+   "inter-national",
+   "international",
+   "hyphen"
+  ],
+  [
+   112,
+   "so- called",
+   "so-called",
+   "hyphen"
+  ],
+  [
+   131,
+   "mini- States",
+   "mini-States",
+   "hyphen"
+  ],
+  [
+   42,
+   " [resolutions 3201 (S-Vl) and 3202 (S-VI)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1e0735a76a33d4f06b1b0812d1c49d0acc72ca6f",
+ "layout": "lines",
+ "stats": {
+  "n_units": 138,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 35
+  },
+  "words_in": 3976,
+  "words_out": 3956,
+  "retention": 0.995,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   121,
+   65,
+   94,
+   104,
+   119,
+   86,
+   147,
+   159,
+   119,
+   182,
+   128,
+   73,
+   80,
+   111,
+   110,
+   175,
+   139,
+   73,
+   159,
+   83,
+   95,
+   66,
+   101,
+   103,
+   109,
+   97,
+   87,
+   166,
+   159,
+   183,
+   150,
+   71,
+   141,
+   101
+  ],
+  "warnings": []
+ }
+}

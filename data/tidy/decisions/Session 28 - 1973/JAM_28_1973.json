@@ -1,0 +1,216 @@
+{
+ "id": "JAM_28_1973",
+ "drop": [
+  [
+   11,
+   11,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  10,
+  12,
+  18,
+  22,
+  25,
+  30,
+  35,
+  40,
+  43,
+  49,
+  51,
+  55,
+  58,
+  63,
+  67,
+  73,
+  75,
+  82,
+  88,
+  95,
+  100,
+  107,
+  113,
+  121,
+  124,
+  127,
+  130,
+  138,
+  143,
+  147,
+  154,
+  164,
+  168,
+  172,
+  180
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   25,
+   "questions, Do",
+   "questions: Do",
+   "ocr"
+  ],
+  [
+   30,
+   "created , in",
+   "created in",
+   "ocr"
+  ],
+  [
+   34,
+   "science ,when",
+   "science, when",
+   "ocr"
+  ],
+  [
+   41,
+   "whether \"and-based",
+   "whether land-based",
+   "ocr"
+  ],
+  [
+   53,
+   " [A/9001/Add.",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "1, p. 3]",
+   "",
+   "label"
+  ],
+  [
+   54,
+   " [ibid.]",
+   "",
+   "label"
+  ],
+  [
+   63,
+   " [A/L.",
+   "",
+   "label"
+  ],
+  [
+   64,
+   "701/Rev. /]",
+   "",
+   "label"
+  ],
+  [
+   74,
+   ":he",
+   "the",
+   "ocr"
+  ],
+  [
+   79,
+   "ir.",
+   "in",
+   "ocr"
+  ],
+  [
+   80,
+   "It is- surely",
+   "It is surely",
+   "ocr"
+  ],
+  [
+   99,
+   "hew",
+   "new",
+   "ocr"
+  ],
+  [
+   100,
+   "nations.31 was",
+   "nations. I was",
+   "ocr"
+  ],
+  [
+   116,
+   "a t least",
+   "at least",
+   "split_word"
+  ],
+  [
+   127,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ],
+  [
+   149,
+   "^ as",
+   "as",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a6de667fdb1ebb1b402946076c3369e195636ff2",
+ "layout": "lines",
+ "stats": {
+  "n_units": 185,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 49
+  },
+  "words_in": 5485,
+  "words_out": 5470,
+  "retention": 0.9973,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   112,
+   256,
+   44,
+   186,
+   112,
+   84,
+   186,
+   147,
+   133,
+   121,
+   210,
+   147,
+   151,
+   86,
+   141,
+   79,
+   167,
+   151,
+   196,
+   157,
+   193,
+   135,
+   238,
+   148,
+   180,
+   104,
+   70,
+   60,
+   282,
+   132,
+   126,
+   207,
+   241,
+   166,
+   75,
+   157,
+   90
+  ],
+  "warnings": []
+ }
+}

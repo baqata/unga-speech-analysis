@@ -1,0 +1,99 @@
+{
+ "id": "YUG_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  4,
+  14,
+  19,
+  27,
+  33,
+  40,
+  48,
+  52,
+  55,
+  59,
+  68,
+  74,
+  79,
+  86,
+  89,
+  93,
+  99,
+  103,
+  107,
+  110,
+  116
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   1,
+   "General Assembly, The Yugoslav",
+   "General Assembly. The Yugoslav",
+   "ocr"
+  ],
+  [
+   31,
+   "with ail the",
+   "with all the",
+   "ocr"
+  ],
+  [
+   71,
+   "could he reached",
+   "could be reached",
+   "ocr"
+  ],
+  [
+   78,
+   "the Independence",
+   "the independence",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a3f2294b0643c346aadf0bd0a7b14dd73301a571",
+ "layout": "lines",
+ "stats": {
+  "n_units": 122,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2840,
+  "words_out": 2806,
+  "retention": 0.988,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   89,
+   35,
+   155,
+   116,
+   172,
+   139,
+   176,
+   178,
+   97,
+   75,
+   143,
+   173,
+   146,
+   140,
+   195,
+   73,
+   89,
+   102,
+   91,
+   90,
+   87,
+   141,
+   104
+  ],
+  "warnings": []
+ }
+}

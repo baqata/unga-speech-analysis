@@ -1,0 +1,81 @@
+{
+ "id": "BGR_48_1993",
+ "drop": [
+  [
+   56,
+   56,
+   "header_footer"
+  ],
+  [
+   150,
+   150,
+   "header_footer"
+  ],
+  [
+   245,
+   245,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  8,
+  22,
+  35,
+  46,
+  63,
+  74,
+  92,
+  117,
+  124,
+  146,
+  162,
+  176,
+  189,
+  197,
+  211,
+  230,
+  246
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "919f078a7a5787549b6a83c347638e13338ce09b",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 253,
+  "units_dropped": {
+   "header_footer": 3
+  },
+  "prestrip": {},
+  "words_in": 2130,
+  "words_out": 2108,
+  "retention": 0.9897,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   66,
+   127,
+   117,
+   91,
+   145,
+   98,
+   150,
+   222,
+   61,
+   174,
+   120,
+   113,
+   108,
+   66,
+   121,
+   151,
+   124,
+   54
+  ],
+  "warnings": []
+ }
+}

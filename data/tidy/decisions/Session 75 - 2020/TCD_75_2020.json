@@ -1,0 +1,83 @@
+{
+ "id": "TCD_75_2020",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  5,
+  8,
+  13,
+  18,
+  22,
+  27,
+  32,
+  38,
+  40,
+  45,
+  51,
+  56,
+  62,
+  66,
+  71,
+  74,
+  77,
+  81
+ ],
+ "cer": [
+  0,
+  4,
+  5,
+  81
+ ],
+ "fix": [
+  [
+   8,
+   "Director- General",
+   "Director-General",
+   "hyphen"
+  ],
+  [
+   44,
+   "post- COVID-19",
+   "post-COVID-19",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President of Chad.",
+ "unitizer_version": 1,
+ "sha1": "9987a429e27a9820b42d52e6b536c29dce466990",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2321,
+  "words_out": 2319,
+  "retention": 0.9991,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   19,
+   42,
+   124,
+   153,
+   142,
+   199,
+   107,
+   180,
+   159,
+   104,
+   134,
+   139,
+   194,
+   163,
+   86,
+   80,
+   118,
+   89,
+   75,
+   12
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "ISR_36_1981",
+ "drop": [
+  [
+   38,
+   38,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  10,
+  13,
+  17,
+  21,
+  27,
+  32,
+  39,
+  42,
+  47,
+  52,
+  58,
+  65,
+  69,
+  74,
+  80,
+  82,
+  87,
+  94,
+  97
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "1 must",
+   "I must",
+   "ocr"
+  ],
+  [
+   49,
+   "program, Our",
+   "program. Our",
+   "ocr"
+  ],
+  [
+   91,
+   "leaders, There",
+   "leaders. There",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6e917799f33fedfc6701beefc1eb344a33e7d99c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 100,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 27
+  },
+  "words_in": 2752,
+  "words_out": 2751,
+  "retention": 0.9996,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   49,
+   113,
+   122,
+   107,
+   137,
+   112,
+   157,
+   107,
+   163,
+   81,
+   148,
+   164,
+   184,
+   164,
+   142,
+   160,
+   139,
+   68,
+   71,
+   185,
+   68,
+   110
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "id": "MLT_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  11,
+  15,
+  20,
+  26,
+  31,
+  36,
+  40,
+  44,
+  49,
+  53,
+  57,
+  60,
+  63,
+  66,
+  72,
+  75,
+  79,
+  85,
+  89,
+  92,
+  95,
+  99,
+  103,
+  106,
+  108,
+  111,
+  117,
+  125,
+  130,
+  135,
+  140
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "BoUteflika",
+   "Bouteflika",
+   "ocr"
+  ],
+  [
+   7,
+   "short- term",
+   "short-term",
+   "spacing"
+  ],
+  [
+   7,
+   "long- term",
+   "long-term",
+   "spacing"
+  ],
+  [
+   8,
+   " [Al9601lAdd.i, sect.",
+   "",
+   "label"
+  ],
+  [
+   9,
+   "I] ",
+   "",
+   "label"
+  ],
+  [
+   12,
+   "can*",
+   "can",
+   "ocr"
+  ],
+  [
+   13,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   14,
+   " [Ibid., sect. II.]",
+   "",
+   "label"
+  ],
+  [
+   15,
+   "all\".5",
+   "all\".",
+   "ocr"
+  ],
+  [
+   30,
+   "confidence- building",
+   "confidence-building",
+   "spacing"
+  ],
+  [
+   49,
+   "She situation",
+   "the situation",
+   "ocr"
+  ],
+  [
+   59,
+   "test year",
+   "last year",
+   "ocr"
+  ],
+  [
+   99,
+   "i tany",
+   "many",
+   "ocr"
+  ],
+  [
+   100,
+   "othei\"",
+   "other",
+   "ocr"
+  ],
+  [
+   102,
+   " [AIC.IIL.700]",
+   "",
+   "label"
+  ],
+  [
+   127,
+   "grateful,",
+   "grateful",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "The text breaks off at the end of unit 141 ('peace and co-operation with all'); the closing words seem to be missing from the source.",
+ "unitizer_version": 1,
+ "sha1": "a1ec2eed313c59c650de9d88cda913f0879ba4de",
+ "layout": "lines",
+ "stats": {
+  "n_units": 142,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 36
+  },
+  "words_in": 4737,
+  "words_out": 4716,
+  "retention": 0.9956,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   161,
+   164,
+   66,
+   186,
+   142,
+   203,
+   107,
+   194,
+   160,
+   121,
+   219,
+   174,
+   123,
+   114,
+   83,
+   99,
+   133,
+   77,
+   113,
+   123,
+   111,
+   102,
+   100,
+   114,
+   174,
+   137,
+   90,
+   138,
+   218,
+   173,
+   178,
+   140,
+   192,
+   87
+  ],
+  "warnings": []
+ }
+}

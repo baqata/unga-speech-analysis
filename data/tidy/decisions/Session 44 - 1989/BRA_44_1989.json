@@ -1,0 +1,135 @@
+{
+ "id": "BRA_44_1989",
+ "drop": [
+  [
+   53,
+   57,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  3,
+  17,
+  21,
+  25,
+  40,
+  44,
+  58,
+  62,
+  66,
+  73,
+  76,
+  79,
+  83,
+  88,
+  93,
+  97,
+  104,
+  106,
+  112,
+  122,
+  128,
+  133,
+  137,
+  140,
+  144,
+  152,
+  157,
+  160,
+  165,
+  172,
+  176,
+  179
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   122,
+   "yea,",
+   "year,",
+   "ocr"
+  ],
+  [
+   136,
+   "dish money",
+   "disharmony",
+   "ocr"
+  ],
+  [
+   167,
+   "Pernando Peszoa",
+   "Fernando Pessoa",
+   "ocr"
+  ],
+  [
+   169,
+   "Prom",
+   "From",
+   "ocr"
+  ],
+  [
+   104,
+   "wi11",
+   "will",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Units 53-57 repeat units 41-47 in a second translation and are dropped.",
+ "unitizer_version": 1,
+ "sha1": "170ae115a5690d7d77c6f88eb75b64216ec538fe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 184,
+  "units_dropped": {
+   "repeat": 5
+  },
+  "prestrip": {},
+  "words_in": 4220,
+  "words_out": 4061,
+  "retention": 0.9623,
+  "n_paragraphs": 34,
+  "paragraph_words": [
+   35,
+   79,
+   139,
+   92,
+   69,
+   223,
+   131,
+   122,
+   111,
+   126,
+   101,
+   82,
+   90,
+   115,
+   112,
+   79,
+   145,
+   165,
+   77,
+   274,
+   150,
+   167,
+   107,
+   115,
+   68,
+   76,
+   144,
+   115,
+   88,
+   105,
+   283,
+   101,
+   101,
+   74
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "BIH_55_2000",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  27,
+  48,
+  72,
+  108,
+  138,
+  170,
+  182,
+  200,
+  222,
+  241,
+  277,
+  303
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "896dd8a2cdca067e9268034362ff26ddd66d8bce",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 315,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2511,
+  "words_out": 2507,
+  "retention": 0.9984,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   50,
+   148,
+   177,
+   204,
+   303,
+   245,
+   270,
+   91,
+   138,
+   161,
+   131,
+   290,
+   198,
+   101
+  ],
+  "warnings": []
+ }
+}

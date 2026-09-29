@@ -1,0 +1,68 @@
+{
+ "id": "GNQ_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  10,
+  13,
+  15,
+  18,
+  21
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "war. the",
+   "war, the",
+   "ocr"
+  ],
+  [
+   6,
+   "mercenary ism. climate",
+   "mercenaryism, climate",
+   "ocr"
+  ],
+  [
+   18,
+   "Before concluding.",
+   "Before concluding,",
+   "ocr"
+  ],
+  [
+   20,
+   "end. we",
+   "end, we",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Statement delivered on behalf of the President of Equatorial Guinea.",
+ "unitizer_version": 1,
+ "sha1": "647362f3c2e161c8deb802fa8749f65a2eb1a273",
+ "layout": "lines",
+ "stats": {
+  "n_units": 26,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 796,
+  "words_out": 795,
+  "retention": 0.9987,
+  "n_paragraphs": 8,
+  "paragraph_words": [
+   127,
+   138,
+   117,
+   56,
+   80,
+   100,
+   63,
+   114
+  ],
+  "warnings": []
+ }
+}

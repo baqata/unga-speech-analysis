@@ -1,0 +1,50 @@
+{
+ "id": "SYC_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  17,
+  24,
+  27,
+  29,
+  38,
+  43
+ ],
+ "cer": [],
+ "fix": [
+  [
+   36,
+   "ocean- based",
+   "ocean-based",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0eb15fc592f9de46d208c4d3a1438681b4cef67",
+ "layout": "lines",
+ "stats": {
+  "n_units": 51,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1215,
+  "words_out": 1214,
+  "retention": 0.9992,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   147,
+   170,
+   136,
+   171,
+   70,
+   62,
+   171,
+   133,
+   154
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "BLZ_74_2019",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  7,
+  11,
+  16,
+  22,
+  31,
+  40,
+  43,
+  49,
+  59,
+  68,
+  71,
+  78,
+  86,
+  89,
+  96,
+  101,
+  106,
+  113,
+  116,
+  121,
+  125,
+  130
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- fourth",
+   "seventy-fourth",
+   "hyphen"
+  ],
+  [
+   29,
+   "net- zero",
+   "net-zero",
+   "hyphen"
+  ],
+  [
+   45,
+   "climate- smart",
+   "climate-smart",
+   "hyphen"
+  ],
+  [
+   92,
+   "adult s.",
+   "adults.",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "cf5511d20822b867d4991de8a95f66e763f1920b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 134,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 3295,
+  "words_out": 3291,
+  "retention": 0.9988,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   57,
+   140,
+   169,
+   114,
+   118,
+   192,
+   118,
+   83,
+   131,
+   210,
+   175,
+   79,
+   137,
+   182,
+   95,
+   139,
+   145,
+   161,
+   188,
+   75,
+   127,
+   154,
+   202,
+   100
+  ],
+  "warnings": []
+ }
+}

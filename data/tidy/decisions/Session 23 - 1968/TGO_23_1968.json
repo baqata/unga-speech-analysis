@@ -1,0 +1,80 @@
+{
+ "id": "TGO_23_1968",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  14,
+  22,
+  30,
+  36,
+  41,
+  45,
+  52,
+  59,
+  65,
+  71
+ ],
+ "cer": [
+  0,
+  5,
+  8
+ ],
+ "fix": [
+  [
+   27,
+   " [AHE/Res.",
+   "",
+   "label"
+  ],
+  [
+   28,
+   "54(v)] ",
+   "",
+   "label"
+  ],
+  [
+   45,
+   " [resolution 2373 (XXII)]",
+   "",
+   "label"
+  ],
+  [
+   67,
+   " [A/7405, para. 15]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e309fbd217802c1d8c556d4ee7647c6d26ce21c1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1581,
+  "words_out": 1552,
+  "retention": 0.9817,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   105,
+   83,
+   119,
+   138,
+   148,
+   107,
+   89,
+   92,
+   148,
+   176,
+   138,
+   132,
+   77
+  ],
+  "warnings": []
+ }
+}

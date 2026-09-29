@@ -1,0 +1,160 @@
+{
+ "id": "CHN_33_1978",
+ "drop": [
+  [
+   128,
+   128,
+   "noise"
+  ],
+  [
+   150,
+   150,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  2,
+  5,
+  14,
+  20,
+  24,
+  31,
+  36,
+  42,
+  48,
+  57,
+  62,
+  65,
+  71,
+  79,
+  85,
+  91,
+  98,
+  108,
+  117,
+  121,
+  129,
+  135,
+  138,
+  143,
+  146,
+  151,
+  157,
+  160,
+  165,
+  169
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   23,
+   "aggressive cid adventurous",
+   "aggressive and adventurous",
+   "ocr"
+  ],
+  [
+   37,
+   "comb t the",
+   "combat the",
+   "split_word"
+  ],
+  [
+   60,
+   " [see A/33/206, annex I, para. 10]",
+   "",
+   "label"
+  ],
+  [
+   79,
+   "236 ",
+   "",
+   "label"
+  ],
+  [
+   82,
+   "are h ding for",
+   "are heading for",
+   "split_word"
+  ],
+  [
+   82,
+   "last-aitch",
+   "last-ditch",
+   "ocr"
+  ],
+  [
+   85,
+   "and Azama in",
+   "and Azania in",
+   "ocr"
+  ],
+  [
+   96,
+   " resolution 3390 (XXX)]",
+   "",
+   "label"
+  ],
+  [
+   156,
+   "see mo growth",
+   "see the growth",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 128 is a stray letter; unit 150 is a leftover paragraph number.",
+ "unitizer_version": 1,
+ "sha1": "ff998292b90beaafd885c8e3085cf215d52ab42a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 172,
+  "units_dropped": {
+   "noise": 1,
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 4291,
+  "words_out": 4270,
+  "retention": 0.9951,
+  "n_paragraphs": 31,
+  "paragraph_words": [
+   64,
+   69,
+   196,
+   167,
+   120,
+   161,
+   89,
+   152,
+   125,
+   229,
+   192,
+   95,
+   127,
+   224,
+   134,
+   135,
+   156,
+   166,
+   204,
+   110,
+   183,
+   138,
+   97,
+   198,
+   77,
+   150,
+   148,
+   76,
+   126,
+   94,
+   68
+  ],
+  "warnings": []
+ }
+}

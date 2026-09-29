@@ -1,0 +1,74 @@
+{
+ "id": "BEL_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  22,
+  36,
+  52,
+  59,
+  80,
+  96,
+  104,
+  122,
+  137,
+  145,
+  160,
+  181,
+  197,
+  212,
+  232
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   1,
+   "warmly. Sir,",
+   "warmly, Sir,",
+   "ocr"
+  ],
+  [
+   79,
+   "arsenals.*",
+   "arsenals.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "753830d9896bf1cc7cd45195dbf2adb1f04eb7f4",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 244,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2599,
+  "words_out": 2599,
+  "retention": 1.0,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   36,
+   188,
+   152,
+   157,
+   71,
+   230,
+   162,
+   76,
+   201,
+   147,
+   93,
+   163,
+   242,
+   164,
+   170,
+   210,
+   137
+  ],
+  "warnings": []
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "id": "AUT_22_1967",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  17,
+  25,
+  30,
+  34,
+  37,
+  43,
+  49,
+  53,
+  59,
+  65,
+  69,
+  76,
+  80,
+  85,
+  91,
+  98,
+  102,
+  106,
+  109,
+  112,
+  115,
+  121,
+  123,
+  128,
+  132,
+  136,
+  147,
+  154,
+  159,
+  166,
+  169,
+  177,
+  180,
+  184,
+  188,
+  196
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   63,
+   "world, The Organization",
+   "world. The Organization",
+   "ocr"
+  ],
+  [
+   68,
+   "Organization, We hope",
+   "Organization. We hope",
+   "ocr"
+  ],
+  [
+   72,
+   "apartheid.",
+   "apartheid,",
+   "ocr"
+  ],
+  [
+   107,
+   "the Implementation",
+   "the implementation",
+   "ocr"
+  ],
+  [
+   110,
+   "Assembly, Convinced",
+   "Assembly. Convinced",
+   "ocr"
+  ],
+  [
+   153,
+   "It objective",
+   "Its objective",
+   "ocr"
+  ],
+  [
+   173,
+   "to Justify",
+   "to justify",
+   "ocr"
+  ],
+  [
+   178,
+   "Its Secretariat",
+   "its Secretariat",
+   "ocr"
+  ],
+  [
+   178,
+   "Is actually",
+   "is actually",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2f73f11362bcc876f6f1fe49e14fd65f1cce4d6d",
+ "layout": "lines",
+ "stats": {
+  "n_units": 197,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 5121,
+  "words_out": 5060,
+  "retention": 0.9881,
+  "n_paragraphs": 38,
+  "paragraph_words": [
+   220,
+   228,
+   169,
+   118,
+   88,
+   92,
+   118,
+   163,
+   124,
+   136,
+   170,
+   104,
+   161,
+   79,
+   90,
+   140,
+   167,
+   125,
+   104,
+   107,
+   159,
+   87,
+   178,
+   74,
+   129,
+   101,
+   81,
+   248,
+   136,
+   114,
+   204,
+   137,
+   230,
+   75,
+   121,
+   107,
+   138,
+   38
+  ],
+  "warnings": []
+ }
+}

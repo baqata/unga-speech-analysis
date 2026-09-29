@@ -1,0 +1,68 @@
+{
+ "id": "CRI_76_2021",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  11,
+  17,
+  22,
+  27,
+  33,
+  35,
+  41,
+  43,
+  46,
+  51,
+  55,
+  59,
+  62,
+  65,
+  71,
+  75
+ ],
+ "cer": [],
+ "fix": [
+  [
+   8,
+   "lower- middle-income",
+   "lower-middle-income",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a831240fc4d891c2ea929c9c87e8e3c48259f1eb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 82,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2110,
+  "words_out": 2109,
+  "retention": 0.9995,
+  "n_paragraphs": 18,
+  "paragraph_words": [
+   113,
+   93,
+   123,
+   169,
+   104,
+   164,
+   100,
+   108,
+   108,
+   133,
+   152,
+   80,
+   104,
+   74,
+   130,
+   149,
+   65,
+   140
+  ],
+  "warnings": []
+ }
+}

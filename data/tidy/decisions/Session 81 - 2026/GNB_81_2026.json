@@ -1,0 +1,84 @@
+{
+ "id": "GNB_81_2026",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ],
+  [
+   44,
+   45,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  7,
+  10,
+  13,
+  22,
+  28,
+  34,
+  36,
+  42
+ ],
+ "cer": [
+  2,
+  42
+ ],
+ "fix": [
+  [
+   2,
+   "Works ",
+   "",
+   "label"
+  ],
+  [
+   3,
+   "Kalilur Rahman",
+   "Khalilur Rahman",
+   "asr_name"
+  ],
+  [
+   5,
+   "Annalena Barbok",
+   "Annalena Baerbock",
+   "asr_name"
+  ],
+  [
+   28,
+   "Guy Debissau",
+   "Guinea-Bissau",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "Stray 'Works' from the pause removed; PGA and predecessor names per UN; Guinea-Bissau per Spanish 'Guinea Bissau'.",
+ "unitizer_version": 1,
+ "sha1": "50dd004b4d6fce0179906545d0f2de00e6b9f28d",
+ "layout": "single",
+ "stats": {
+  "n_units": 46,
+  "units_dropped": {
+   "presider": 4
+  },
+  "prestrip": {},
+  "words_in": 1108,
+  "words_out": 1054,
+  "retention": 0.9513,
+  "n_paragraphs": 9,
+  "paragraph_words": [
+   150,
+   91,
+   80,
+   255,
+   167,
+   117,
+   49,
+   136,
+   9
+  ],
+  "warnings": []
+ }
+}

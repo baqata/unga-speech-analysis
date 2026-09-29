@@ -1,0 +1,92 @@
+{
+ "id": "GMB_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  23,
+  63,
+  124,
+  168,
+  195,
+  288,
+  299,
+  312,
+  337,
+  409
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   170,
+   "self- determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   219,
+   "Secretary- General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   284,
+   "negotiationsóthe",
+   "negotiations—the",
+   "encoding"
+  ],
+  [
+   393,
+   "about tum",
+   "about turn",
+   "ocr"
+  ],
+  [
+   413,
+   "co- operation",
+   "co-operation",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts; greetings turn to substance mid-line at unit 18, and several paragraphs (23, 63, 124, 195, 337) stay long.",
+ "unitizer_version": 1,
+ "sha1": "e38798612e7a474d23031badf22e5fb82ba89d60",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 414,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4133,
+  "words_out": 4129,
+  "retention": 0.999,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   244,
+   396,
+   602,
+   442,
+   268,
+   899,
+   120,
+   123,
+   253,
+   728,
+   54
+  ],
+  "warnings": [
+   "paragraph at unit 23 has 396 words",
+   "paragraph at unit 63 has 602 words",
+   "paragraph at unit 124 has 442 words",
+   "paragraph at unit 195 has 899 words",
+   "paragraph at unit 337 has 728 words"
+  ]
+ }
+}

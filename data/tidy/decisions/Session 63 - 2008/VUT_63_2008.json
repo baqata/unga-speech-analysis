@@ -1,0 +1,93 @@
+{
+ "id": "VUT_63_2008",
+ "drop": [
+  [
+   282,
+   283,
+   "procedural"
+  ]
+ ],
+ "para": [
+  0,
+  15,
+  33,
+  46,
+  60,
+  72,
+  84,
+  101,
+  117,
+  127,
+  145,
+  154,
+  181,
+  191,
+  202,
+  218,
+  241,
+  260,
+  270,
+  284
+ ],
+ "cer": [
+  0,
+  15,
+  270
+ ],
+ "fix": [
+  [
+   249,
+   " (The Holy",
+   "",
+   "label"
+  ],
+  [
+   250,
+   "Bible, Micah, 4:3)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6d591ba4d305434c022f42053f4278e97760cb1e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 293,
+  "units_dropped": {
+   "procedural": 2
+  },
+  "prestrip": {
+   "see_ref": 1,
+   "job_number": 4
+  },
+  "words_in": 2317,
+  "words_out": 2302,
+  "retention": 0.9935,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   125,
+   149,
+   110,
+   118,
+   82,
+   98,
+   143,
+   135,
+   83,
+   132,
+   72,
+   225,
+   73,
+   84,
+   123,
+   175,
+   136,
+   79,
+   86,
+   74
+  ],
+  "warnings": []
+ }
+}

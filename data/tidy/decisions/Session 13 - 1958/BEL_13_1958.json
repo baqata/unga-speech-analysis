@@ -1,0 +1,145 @@
+{
+ "id": "BEL_13_1958",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  18,
+  25,
+  30,
+  37,
+  41,
+  44,
+  48,
+  52,
+  56,
+  62,
+  69,
+  76,
+  82,
+  89,
+  95,
+  101,
+  105,
+  110,
+  117,
+  124
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   37,
+   "the'",
+   "the",
+   "ocr"
+  ],
+  [
+   66,
+   ".the",
+   "the",
+   "ocr"
+  ],
+  [
+   68,
+   "dictated-",
+   "dictated",
+   "ocr"
+  ],
+  [
+   75,
+   "scope,",
+   "scope.",
+   "ocr"
+  ],
+  [
+   77,
+   "if wishes",
+   "it wishes",
+   "ocr"
+  ],
+  [
+   85,
+   "investments,",
+   "investments.",
+   "ocr"
+  ],
+  [
+   107,
+   "apolitical",
+   "a political",
+   "spacing"
+  ],
+  [
+   109,
+   "dome",
+   "come",
+   "ocr"
+  ],
+  [
+   110,
+   "ie attempting",
+   "is attempting",
+   "ocr"
+  ],
+  [
+   127,
+   "the'",
+   "the",
+   "ocr"
+  ],
+  [
+   70,
+   "[resolution 1237 (ES-III)]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "085f71dc56c304938559bbc367baed4b29e23d78",
+ "layout": "lines",
+ "stats": {
+  "n_units": 128,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 3437,
+  "words_out": 3434,
+  "retention": 0.9991,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   143,
+   153,
+   115,
+   147,
+   251,
+   104,
+   185,
+   121,
+   83,
+   147,
+   73,
+   116,
+   217,
+   172,
+   124,
+   129,
+   138,
+   142,
+   112,
+   151,
+   121,
+   194,
+   170,
+   126
+  ],
+  "warnings": []
+ }
+}

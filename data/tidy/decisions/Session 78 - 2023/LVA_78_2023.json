@@ -1,0 +1,92 @@
+{
+ "id": "LVA_78_2023",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  8,
+  23,
+  37,
+  50,
+  60,
+  76,
+  83,
+  92,
+  99
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "all. I",
+   "all, I",
+   "ocr"
+  ],
+  [
+   8,
+   "2014. the",
+   "2014, the",
+   "ocr"
+  ],
+  [
+   37,
+   "war. the",
+   "war, the",
+   "ocr"
+  ],
+  [
+   46,
+   "law. as",
+   "law, as",
+   "ocr"
+  ],
+  [
+   60,
+   "sector. Russia",
+   "sector, Russia",
+   "ocr"
+  ],
+  [
+   77,
+   "ago. reaffirmed",
+   "ago, reaffirmed",
+   "ocr"
+  ],
+  [
+   83,
+   "of solidarity.",
+   "of solidarity,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a0f5c184d32d21bcfe9c3c212a2db0c6285e92cf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1644,
+  "words_out": 1644,
+  "retention": 1.0,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   35,
+   163,
+   203,
+   176,
+   188,
+   161,
+   211,
+   125,
+   175,
+   142,
+   65
+  ],
+  "warnings": []
+ }
+}

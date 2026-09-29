@@ -1,0 +1,127 @@
+{
+ "id": "LBY_29_1974",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  11,
+  16,
+  20,
+  24,
+  28,
+  34,
+  38,
+  41,
+  44,
+  52,
+  61,
+  67,
+  74,
+  75,
+  83,
+  92,
+  95,
+  104,
+  107,
+  111,
+  115,
+  120,
+  125,
+  132
+ ],
+ "cer": [
+  4,
+  11
+ ],
+ "fix": [
+  [
+   0,
+   "re-presents",
+   "represents",
+   "hyphen"
+  ],
+  [
+   10,
+   "re-deeming",
+   "redeeming",
+   "hyphen"
+  ],
+  [
+   17,
+   "ac-companied",
+   "accompanied",
+   "hyphen"
+  ],
+  [
+   35,
+   "Guinea- Bissau",
+   "Guinea-Bissau",
+   "spacing"
+  ],
+  [
+   37,
+   "Cabrai",
+   "Cabral",
+   "ocr"
+  ],
+  [
+   88,
+   "so- called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   101,
+   "inter-national",
+   "international",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5657711bb7fa73d7ed454d8ff0b1aff77aff712b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 143,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 27
+  },
+  "words_in": 3521,
+  "words_out": 3516,
+  "retention": 0.9986,
+  "n_paragraphs": 27,
+  "paragraph_words": [
+   83,
+   82,
+   123,
+   174,
+   145,
+   81,
+   80,
+   140,
+   110,
+   110,
+   61,
+   210,
+   210,
+   172,
+   208,
+   64,
+   132,
+   185,
+   77,
+   189,
+   83,
+   85,
+   80,
+   157,
+   125,
+   113,
+   237
+  ],
+  "warnings": []
+ }
+}

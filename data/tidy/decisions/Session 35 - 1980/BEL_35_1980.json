@@ -1,0 +1,79 @@
+{
+ "id": "BEL_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  7,
+  12,
+  20,
+  29,
+  32,
+  36,
+  44,
+  50,
+  53,
+  57,
+  65,
+  67,
+  71,
+  75,
+  79,
+  83,
+  89,
+  95,
+  98
+ ],
+ "cer": [
+  0,
+  5
+ ],
+ "fix": [
+  [
+   73,
+   "report10",
+   "report",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f9e6f0362e6ebd80bb9a82c1d0bd8bbc597e8097",
+ "layout": "lines",
+ "stats": {
+  "n_units": 102,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 29
+  },
+  "words_in": 2821,
+  "words_out": 2821,
+  "retention": 1.0,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   205,
+   140,
+   109,
+   206,
+   246,
+   94,
+   75,
+   181,
+   130,
+   97,
+   140,
+   205,
+   143,
+   71,
+   81,
+   74,
+   116,
+   133,
+   121,
+   110,
+   144
+  ],
+  "warnings": []
+ }
+}

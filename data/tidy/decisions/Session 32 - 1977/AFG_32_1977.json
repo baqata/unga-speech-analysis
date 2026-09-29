@@ -1,0 +1,94 @@
+{
+ "id": "AFG_32_1977",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  9,
+  13,
+  20,
+  24,
+  29,
+  34,
+  36,
+  39,
+  42,
+  45,
+  49,
+  52,
+  56
+ ],
+ "cer": [
+  0,
+  3,
+  5
+ ],
+ "fix": [
+  [
+   28,
+   "I .propose",
+   "I propose",
+   "ocr"
+  ],
+  [
+   7,
+   "non- aligned",
+   "non-aligned",
+   "hyphen"
+  ],
+  [
+   13,
+   "un- implemented",
+   "unimplemented",
+   "hyphen"
+  ],
+  [
+   39,
+   "self- determination",
+   "self-determination",
+   "hyphen"
+  ],
+  [
+   48,
+   "inflationary- cum",
+   "inflationary-cum",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "9e69706533aee6a6f4a843ad8d4646e60f96d667",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 20
+  },
+  "words_in": 1941,
+  "words_out": 1937,
+  "retention": 0.9979,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   95,
+   77,
+   114,
+   144,
+   210,
+   126,
+   165,
+   113,
+   71,
+   97,
+   114,
+   119,
+   134,
+   88,
+   128,
+   142
+  ],
+  "warnings": []
+ }
+}

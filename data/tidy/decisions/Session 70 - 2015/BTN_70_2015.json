@@ -1,0 +1,68 @@
+{
+ "id": "BTN_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  9,
+  11,
+  13,
+  19,
+  21,
+  28,
+  33,
+  41,
+  44,
+  47,
+  52,
+  58,
+  69,
+  71
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   62,
+   "twenty- first",
+   "twenty-first",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "839b98af6399d70fb40d3eca01d10fda43bd1ef4",
+ "layout": "lines",
+ "stats": {
+  "n_units": 76,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1756,
+  "words_out": 1753,
+  "retention": 0.9983,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   116,
+   73,
+   106,
+   113,
+   82,
+   75,
+   106,
+   102,
+   160,
+   64,
+   80,
+   136,
+   170,
+   201,
+   57,
+   112
+  ],
+  "warnings": []
+ }
+}

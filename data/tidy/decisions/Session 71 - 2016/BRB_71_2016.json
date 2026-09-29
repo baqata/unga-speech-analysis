@@ -1,0 +1,56 @@
+{
+ "id": "BRB_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  16,
+  23,
+  29,
+  32,
+  38,
+  41,
+  45,
+  52,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   40,
+   "strategyto",
+   "strategy to",
+   "merged_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "01188eba62327d2f6a205e4abe51c124d84efe96",
+ "layout": "lines",
+ "stats": {
+  "n_units": 64,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1358,
+  "words_out": 1354,
+  "retention": 0.9971,
+  "n_paragraphs": 11,
+  "paragraph_words": [
+   202,
+   139,
+   152,
+   94,
+   67,
+   114,
+   65,
+   82,
+   179,
+   115,
+   145
+  ],
+  "warnings": []
+ }
+}

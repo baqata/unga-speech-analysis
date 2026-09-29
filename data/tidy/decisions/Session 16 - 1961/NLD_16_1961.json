@@ -1,0 +1,150 @@
+{
+ "id": "NLD_16_1961",
+ "drop": [
+  [
+   25,
+   25,
+   "header_footer"
+  ],
+  [
+   49,
+   49,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  17,
+  20,
+  23,
+  27,
+  30,
+  40,
+  45,
+  50,
+  53,
+  59
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "many-years",
+   "many years",
+   "ocr"
+  ],
+  [
+   3,
+   " [A/4800/ Add.l]",
+   "",
+   "label"
+  ],
+  [
+   6,
+   "Work",
+   "work",
+   "ocr"
+  ],
+  [
+   9,
+   "\" announced",
+   "announced",
+   "ocr"
+  ],
+  [
+   24,
+   "Earliest",
+   "earliest",
+   "ocr"
+  ],
+  [
+   28,
+   "1 declared",
+   "I declared",
+   "ocr"
+  ],
+  [
+   28,
+   "actions „ aimed",
+   "actions aimed",
+   "ocr"
+  ],
+  [
+   28,
+   "self-1 determination",
+   "self-determination",
+   "ocr"
+  ],
+  [
+   42,
+   "1G. ",
+   "",
+   "label"
+  ],
+  [
+   43,
+   "we Netherlands",
+   "the Netherlands",
+   "ocr"
+  ],
+  [
+   44,
+   "continue?",
+   "continue",
+   "ocr"
+  ],
+  [
+   52,
+   "the eon",
+   "thereon",
+   "ocr"
+  ],
+  [
+   57,
+   "2&vn ",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 25 is a document symbol from the page foot and is dropped.",
+ "unitizer_version": 1,
+ "sha1": "01ecdf4c823da6092dc12212009f5922be9113a1",
+ "layout": "lines",
+ "stats": {
+  "n_units": 62,
+  "units_dropped": {
+   "header_footer": 1,
+   "noise": 1
+  },
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 25,
+   "page_number": 1
+  },
+  "words_in": 2086,
+  "words_out": 2073,
+  "retention": 0.9938,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   116,
+   220,
+   171,
+   116,
+   108,
+   140,
+   198,
+   286,
+   225,
+   118,
+   105,
+   184,
+   86
+  ],
+  "warnings": []
+ }
+}

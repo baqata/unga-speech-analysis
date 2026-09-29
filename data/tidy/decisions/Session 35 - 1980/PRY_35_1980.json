@@ -1,0 +1,66 @@
+{
+ "id": "PRY_35_1980",
+ "drop": [],
+ "para": [
+  0,
+  1,
+  4,
+  7,
+  14,
+  17,
+  20,
+  26,
+  32,
+  35,
+  37,
+  38
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   34,
+   "C6rdova",
+   "Cordova",
+   "ocr"
+  ],
+  [
+   37,
+   "well- known",
+   "well-known",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "c95aaf30fb119492c59e277658d4939db19b560e",
+ "layout": "lines",
+ "stats": {
+  "n_units": 40,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 18
+  },
+  "words_in": 1483,
+  "words_out": 1482,
+  "retention": 0.9993,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   29,
+   135,
+   94,
+   241,
+   109,
+   128,
+   170,
+   210,
+   134,
+   125,
+   41,
+   66
+  ],
+  "warnings": []
+ }
+}

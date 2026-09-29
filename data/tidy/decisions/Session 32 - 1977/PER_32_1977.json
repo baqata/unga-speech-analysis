@@ -1,0 +1,113 @@
+{
+ "id": "PER_32_1977",
+ "drop": [
+  [
+   22,
+   22,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  1,
+  3,
+  5,
+  7,
+  11,
+  13,
+  16,
+  18,
+  21,
+  25,
+  28,
+  31,
+  34,
+  37,
+  39,
+  42,
+  45,
+  47
+ ],
+ "cer": [
+  0,
+  1
+ ],
+ "fix": [
+  [
+   0,
+   "for me. as",
+   "for me, as",
+   "ocr"
+  ],
+  [
+   1,
+   "Waldehim",
+   "Waldheim",
+   "ocr"
+  ],
+  [
+   18,
+   "to Jake",
+   "to take",
+   "ocr"
+  ],
+  [
+   19,
+   "been acts to",
+   "been able to",
+   "ocr"
+  ],
+  [
+   41,
+   "increase he participation",
+   "increase the participation",
+   "ocr"
+  ],
+  [
+   47,
+   "to. perform",
+   "to perform",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2adade2d14ea649112bbcdf7088e49f46a090a5a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 50,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "paragraph_number": 23
+  },
+  "words_in": 2032,
+  "words_out": 2031,
+  "retention": 0.9995,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   80,
+   92,
+   103,
+   68,
+   112,
+   80,
+   112,
+   146,
+   169,
+   124,
+   75,
+   115,
+   85,
+   113,
+   91,
+   138,
+   124,
+   91,
+   113
+  ],
+  "warnings": []
+ }
+}

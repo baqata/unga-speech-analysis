@@ -1,0 +1,66 @@
+{
+ "id": "COG_19_1964",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  8,
+  12,
+  14,
+  21,
+  25,
+  27,
+  29,
+  34,
+  37,
+  40,
+  44,
+  47,
+  52
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   50,
+   "road1,",
+   "road,",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "de6c42428d00dfd51c6bf4e532d0ea7ee854bf21",
+ "layout": "lines",
+ "stats": {
+  "n_units": 53,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 26
+  },
+  "words_in": 1969,
+  "words_out": 1969,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   201,
+   151,
+   130,
+   126,
+   195,
+   188,
+   139,
+   94,
+   106,
+   79,
+   108,
+   124,
+   155,
+   150,
+   23
+  ],
+  "warnings": []
+ }
+}

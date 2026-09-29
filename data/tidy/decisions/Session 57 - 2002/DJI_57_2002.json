@@ -1,0 +1,92 @@
+{
+ "id": "DJI_57_2002",
+ "drop": [],
+ "para": [
+  0,
+  9,
+  29,
+  52,
+  69,
+  88,
+  100,
+  118,
+  135,
+  155,
+  180,
+  195,
+  208,
+  224,
+  243,
+  258
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   61,
+   "(SG/SM/8376, para. 7)",
+   "",
+   "label"
+  ],
+  [
+   86,
+   "(The Independent,",
+   "",
+   "label"
+  ],
+  [
+   87,
+   "11 September 2002)",
+   "",
+   "label"
+  ],
+  [
+   96,
+   "(Press release",
+   "",
+   "label"
+  ],
+  [
+   97,
+   "SG/SM/8376)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "2b0be177e39f5c170b580b854d61546df1c18760",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 270,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2015,
+  "words_out": 2003,
+  "retention": 0.994,
+  "n_paragraphs": 16,
+  "paragraph_words": [
+   68,
+   133,
+   165,
+   112,
+   154,
+   68,
+   144,
+   135,
+   157,
+   173,
+   113,
+   95,
+   125,
+   148,
+   117,
+   96
+  ],
+  "warnings": []
+ }
+}

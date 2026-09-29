@@ -1,0 +1,60 @@
+{
+ "id": "STP_71_2016",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  5,
+  8,
+  11,
+  14,
+  16,
+  19,
+  23,
+  25,
+  28,
+  33,
+  37
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   16,
+   "Assmebly",
+   "Assembly",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "ac5ade21b46f556d041251fb3d2af28dcf8b0721",
+ "layout": "lines",
+ "stats": {
+  "n_units": 39,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1266,
+  "words_out": 1266,
+  "retention": 1.0,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   130,
+   117,
+   72,
+   114,
+   83,
+   78,
+   86,
+   121,
+   135,
+   89,
+   95,
+   70,
+   76
+  ],
+  "warnings": []
+ }
+}

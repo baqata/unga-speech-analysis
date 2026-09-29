@@ -1,0 +1,68 @@
+{
+ "id": "MDV_70_2015",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  12,
+  15,
+  18,
+  22,
+  26,
+  32,
+  39,
+  42,
+  45,
+  48,
+  54,
+  58,
+  67,
+  72,
+  76
+ ],
+ "cer": [],
+ "fix": [
+  [
+   28,
+   "1.5°C .",
+   "1.5°C.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "7af5cee9fda23efef8ff8220bc7df97f8e3aff48",
+ "layout": "lines",
+ "stats": {
+  "n_units": 80,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 4
+  },
+  "words_in": 1537,
+  "words_out": 1534,
+  "retention": 0.998,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   105,
+   115,
+   67,
+   107,
+   63,
+   108,
+   66,
+   133,
+   86,
+   56,
+   63,
+   111,
+   90,
+   113,
+   91,
+   96,
+   64
+  ],
+  "warnings": []
+ }
+}

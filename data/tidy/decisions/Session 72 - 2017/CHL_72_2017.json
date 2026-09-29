@@ -1,0 +1,94 @@
+{
+ "id": "CHL_72_2017",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  8,
+  11,
+  19,
+  22,
+  26,
+  33,
+  41,
+  47,
+  51,
+  54,
+  56,
+  60,
+  64,
+  67,
+  69,
+  73,
+  75,
+  80,
+  84,
+  90,
+  94
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   61,
+   "North- East",
+   "North-East",
+   "hyphen"
+  ],
+  [
+   81,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ],
+  [
+   82,
+   "Secretary- General",
+   "Secretary-General",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "1033fed373a9452d3e6af94a82c36e844b6ca338",
+ "layout": "lines",
+ "stats": {
+  "n_units": 98,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2553,
+  "words_out": 2550,
+  "retention": 0.9988,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   68,
+   89,
+   117,
+   88,
+   134,
+   89,
+   94,
+   169,
+   159,
+   144,
+   78,
+   114,
+   60,
+   94,
+   153,
+   96,
+   72,
+   103,
+   60,
+   128,
+   114,
+   120,
+   95,
+   112
+  ],
+  "warnings": []
+ }
+}

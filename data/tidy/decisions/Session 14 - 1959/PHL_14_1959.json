@@ -1,0 +1,127 @@
+{
+ "id": "PHL_14_1959",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  10,
+  12,
+  16,
+  19,
+  23,
+  26,
+  30,
+  32,
+  34,
+  39,
+  43,
+  48,
+  51,
+  53,
+  55,
+  61,
+  65
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "to' deter",
+   "to deter",
+   "ocr"
+  ],
+  [
+   11,
+   "first) announced",
+   "first announced",
+   "ocr"
+  ],
+  [
+   22,
+   "For his would",
+   "For this would",
+   "ocr"
+  ],
+  [
+   26,
+   "observe-the",
+   "observe the",
+   "ocr"
+  ],
+  [
+   38,
+   "men- women",
+   "men, women",
+   "ocr"
+  ],
+  [
+   58,
+   " [resolution 1313 C (XIII)]",
+   "",
+   "label"
+  ],
+  [
+   59,
+   "Bights of the Child",
+   "Rights of the Child",
+   "ocr"
+  ],
+  [
+   59,
+   " [agenda item 64]",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "We are, ready",
+   "We are ready",
+   "ocr"
+  ]
+ ],
+ "flags": [
+  "gap_suspected"
+ ],
+ "note": "Unit 7 starts lowercase ('love is a better counsellor than fear.'); the start of that sentence appears lost after unit 6, so units 6-9 are kept as one paragraph.",
+ "unitizer_version": 1,
+ "sha1": "a39fe41285e6a396d54637e77d25123ec25de6fb",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 5,
+   "paragraph_number": 33
+  },
+  "words_in": 2169,
+  "words_out": 2157,
+  "retention": 0.9945,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   122,
+   111,
+   133,
+   84,
+   94,
+   81,
+   128,
+   76,
+   126,
+   73,
+   69,
+   158,
+   75,
+   173,
+   123,
+   82,
+   74,
+   160,
+   106,
+   109
+  ],
+  "warnings": []
+ }
+}

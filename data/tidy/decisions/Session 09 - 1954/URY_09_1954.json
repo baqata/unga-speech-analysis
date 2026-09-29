@@ -1,0 +1,83 @@
+{
+ "id": "URY_09_1954",
+ "drop": [],
+ "para": [
+  0,
+  7,
+  10,
+  11,
+  12,
+  15,
+  16,
+  18,
+  21,
+  23,
+  25,
+  28,
+  29,
+  31,
+  34,
+  37,
+  40,
+  41,
+  49,
+  51,
+  53
+ ],
+ "cer": [],
+ "fix": [
+  [
+   15,
+   "that, two",
+   "that two",
+   "ocr"
+  ],
+  [
+   40,
+   "[55]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "d48e89efdf85083ea9191c52a0e426f43c68c1e7",
+ "layout": "lines",
+ "stats": {
+  "n_units": 55,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 32
+  },
+  "words_in": 2302,
+  "words_out": 2292,
+  "retention": 0.9957,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   157,
+   200,
+   93,
+   79,
+   125,
+   96,
+   82,
+   80,
+   89,
+   86,
+   140,
+   83,
+   116,
+   110,
+   118,
+   88,
+   105,
+   210,
+   92,
+   89,
+   54
+  ],
+  "warnings": []
+ }
+}

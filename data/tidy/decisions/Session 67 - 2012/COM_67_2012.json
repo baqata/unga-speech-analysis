@@ -1,0 +1,76 @@
+{
+ "id": "COM_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  21,
+  38,
+  47,
+  57,
+  75,
+  85,
+  109,
+  121,
+  132,
+  146,
+  159,
+  178,
+  188,
+  203
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   8,
+   "task.I",
+   "task. I",
+   "spacing"
+  ],
+  [
+   101,
+   "corruption.This",
+   "corruption. This",
+   "spacing"
+  ],
+  [
+   194,
+   "f limsy",
+   "flimsy",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "93e13e9b5a6e4e9816c833a8f2383791edccdf07",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 216,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1820,
+  "words_out": 1820,
+  "retention": 1.0,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   168,
+   151,
+   82,
+   96,
+   141,
+   74,
+   207,
+   78,
+   90,
+   125,
+   108,
+   156,
+   82,
+   142,
+   120
+  ],
+  "warnings": []
+ }
+}

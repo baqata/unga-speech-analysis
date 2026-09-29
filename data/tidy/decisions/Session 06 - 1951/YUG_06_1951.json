@@ -1,0 +1,261 @@
+{
+ "id": "YUG_06_1951",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  8,
+  15,
+  20,
+  24,
+  31,
+  33,
+  34,
+  39,
+  41,
+  45,
+  48,
+  55,
+  58,
+  60,
+  64,
+  69,
+  71,
+  73,
+  77,
+  84,
+  89,
+  92,
+  97,
+  101,
+  111,
+  114,
+  117,
+  122,
+  126,
+  128,
+  131,
+  135,
+  138,
+  142,
+  150
+ ],
+ "cer": [],
+ "fix": [
+  [
+   2,
+   "Indulge",
+   "indulge",
+   "ocr"
+  ],
+  [
+   3,
+   "Words",
+   "words",
+   "ocr"
+  ],
+  [
+   7,
+   "policy,",
+   "policy.",
+   "ocr"
+  ],
+  [
+   18,
+   "vet",
+   "yet",
+   "ocr"
+  ],
+  [
+   33,
+   "tics",
+   "ties",
+   "ocr"
+  ],
+  [
+   40,
+   "USSR,",
+   "USSR",
+   "ocr"
+  ],
+  [
+   53,
+   "Oft",
+   "On",
+   "ocr"
+  ],
+  [
+   55,
+   "War,",
+   "War.",
+   "ocr"
+  ],
+  [
+   56,
+   " , ",
+   " ",
+   "ocr"
+  ],
+  [
+   56,
+   "Order",
+   "order",
+   "ocr"
+  ],
+  [
+   57,
+   "relations,",
+   "relations.",
+   "ocr"
+  ],
+  [
+   67,
+   "peace,",
+   "peace.",
+   "ocr"
+  ],
+  [
+   67,
+   "With",
+   "with",
+   "ocr"
+  ],
+  [
+   68,
+   "Character",
+   "character",
+   "ocr"
+  ],
+  [
+   68,
+   " In ",
+   " in ",
+   "ocr"
+  ],
+  [
+   69,
+   "View",
+   "view",
+   "ocr"
+  ],
+  [
+   70,
+   "Wish",
+   "wish",
+   "ocr"
+  ],
+  [
+   71,
+   "Hostile",
+   "hostile",
+   "ocr"
+  ],
+  [
+   71,
+   " „ ",
+   " ",
+   "ocr"
+  ],
+  [
+   79,
+   "Technical",
+   "technical",
+   "ocr"
+  ],
+  [
+   117,
+   "The.",
+   "The",
+   "ocr"
+  ],
+  [
+   118,
+   "Free",
+   "free",
+   "ocr"
+  ],
+  [
+   121,
+   "Will",
+   "will",
+   "ocr"
+  ],
+  [
+   121,
+   "Which",
+   "which",
+   "ocr"
+  ],
+  [
+   127,
+   "delegation,",
+   "delegation",
+   "ocr"
+  ],
+  [
+   143,
+   "aspect,",
+   "aspect",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "f0641f7469ffe779225637dee3895225f8ff29b9",
+ "layout": "lines",
+ "stats": {
+  "n_units": 152,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 42
+  },
+  "words_in": 5455,
+  "words_out": 5452,
+  "retention": 0.9995,
+  "n_paragraphs": 37,
+  "paragraph_words": [
+   150,
+   177,
+   160,
+   136,
+   114,
+   218,
+   87,
+   240,
+   131,
+   157,
+   126,
+   109,
+   214,
+   133,
+   88,
+   143,
+   192,
+   178,
+   89,
+   107,
+   212,
+   179,
+   128,
+   120,
+   134,
+   238,
+   68,
+   71,
+   219,
+   249,
+   103,
+   129,
+   121,
+   106,
+   113,
+   225,
+   88
+  ],
+  "warnings": [
+   "26 fixes"
+  ]
+ }
+}

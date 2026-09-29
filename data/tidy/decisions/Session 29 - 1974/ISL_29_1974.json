@@ -1,0 +1,178 @@
+{
+ "id": "ISL_29_1974",
+ "drop": [
+  [
+   32,
+   32,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  3,
+  8,
+  13,
+  15,
+  19,
+  24,
+  29,
+  36,
+  40,
+  42,
+  45,
+  48,
+  52,
+  56,
+  59,
+  62,
+  64,
+  68,
+  74,
+  79,
+  83
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   11,
+   "wilL",
+   "will",
+   "ocr"
+  ],
+  [
+   20,
+   "establishment Of",
+   "establishment of",
+   "ocr"
+  ],
+  [
+   23,
+   "early^ end",
+   "early end",
+   "ocr"
+  ],
+  [
+   24,
+   "the .General",
+   "the General",
+   "ocr"
+  ],
+  [
+   44,
+   "gap Which",
+   "gap which",
+   "ocr"
+  ],
+  [
+   44,
+   "countries, This",
+   "countries. This",
+   "ocr"
+  ],
+  [
+   45,
+   " [see resolution 3202 (S-Vl), sect; X]",
+   "",
+   "label"
+  ],
+  [
+   50,
+   "price, This",
+   "price. This",
+   "ocr"
+  ],
+  [
+   51,
+   "is. the",
+   "is the",
+   "ocr"
+  ],
+  [
+   51,
+   "has.never",
+   "has never",
+   "ocr"
+  ],
+  [
+   53,
+   "energy. be",
+   "energy be",
+   "ocr"
+  ],
+  [
+   56,
+   "country ,",
+   "country,",
+   "spacing"
+  ],
+  [
+   69,
+   "the, near",
+   "the near",
+   "ocr"
+  ],
+  [
+   76,
+   "we ail",
+   "we all",
+   "ocr"
+  ],
+  [
+   76,
+   "the. benefit",
+   "the benefit",
+   "ocr"
+  ],
+  [
+   81,
+   "of. human",
+   "of human",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "e19392139b282085510f4325ccc3f001cb796e45",
+ "layout": "lines",
+ "stats": {
+  "n_units": 87,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 2453,
+  "words_out": 2446,
+  "retention": 0.9971,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   115,
+   97,
+   121,
+   71,
+   72,
+   154,
+   99,
+   124,
+   94,
+   83,
+   88,
+   83,
+   127,
+   84,
+   103,
+   103,
+   117,
+   166,
+   181,
+   152,
+   95,
+   117
+  ],
+  "warnings": []
+ }
+}

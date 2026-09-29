@@ -1,0 +1,181 @@
+{
+ "id": "LBN_12_1957",
+ "drop": [
+  [
+   172,
+   172,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  5,
+  12,
+  15,
+  22,
+  27,
+  29,
+  34,
+  39,
+  43,
+  46,
+  62,
+  65,
+  70,
+  77,
+  78,
+  79,
+  84,
+  89,
+  98,
+  108,
+  111,
+  115,
+  119,
+  123,
+  126,
+  132,
+  137,
+  140,
+  147,
+  153,
+  163,
+  167,
+  169,
+  173,
+  175,
+  179,
+  183,
+  186,
+  191,
+  195,
+  199,
+  204,
+  205,
+  206,
+  218,
+  224,
+  230,
+  233,
+  241,
+  245,
+  248
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   63,
+   " f680th meeting]",
+   "",
+   "label"
+  ],
+  [
+   105,
+   "his -ideas",
+   "his ideas",
+   "ocr"
+  ],
+  [
+   105,
+   "lays himself mere open",
+   "lays himself more open",
+   "ocr"
+  ],
+  [
+   139,
+   "in \"he struggle",
+   "in the struggle",
+   "ocr"
+  ],
+  [
+   151,
+   "with ,11 friendly",
+   "with all friendly",
+   "ocr"
+  ],
+  [
+   190,
+   "the ref ore",
+   "therefore",
+   "split_word"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "99f80b8f7f01036e3affec5546e53a57a72a1f27",
+ "layout": "lines",
+ "stats": {
+  "n_units": 255,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {
+   "meeting_ref": 11,
+   "paragraph_number": 66
+  },
+  "words_in": 7607,
+  "words_out": 7602,
+  "retention": 0.9993,
+  "n_paragraphs": 52,
+  "paragraph_words": [
+   131,
+   195,
+   125,
+   160,
+   160,
+   99,
+   133,
+   89,
+   130,
+   101,
+   241,
+   203,
+   97,
+   185,
+   218,
+   394,
+   143,
+   132,
+   196,
+   182,
+   118,
+   157,
+   140,
+   143,
+   76,
+   149,
+   172,
+   81,
+   183,
+   200,
+   278,
+   110,
+   68,
+   86,
+   87,
+   119,
+   73,
+   95,
+   225,
+   141,
+   122,
+   110,
+   97,
+   79,
+   247,
+   126,
+   158,
+   61,
+   186,
+   94,
+   160,
+   147
+  ],
+  "warnings": [
+   "paragraph at unit 78 has 394 words"
+  ]
+ }
+}

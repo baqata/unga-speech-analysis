@@ -1,0 +1,104 @@
+{
+ "id": "CSK_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  15,
+  20,
+  23,
+  27,
+  32,
+  37,
+  42,
+  46,
+  50,
+  53,
+  60,
+  66,
+  69,
+  74,
+  78,
+  82,
+  85,
+  87
+ ],
+ "cer": [],
+ "fix": [
+  [
+   48,
+   "Nation's",
+   "Nations",
+   "ocr"
+  ],
+  [
+   49,
+   "resolution .2936",
+   "resolution 2936",
+   "ocr"
+  ],
+  [
+   49,
+   "twenty- seventh",
+   "twenty-seventh",
+   "spacing"
+  ],
+  [
+   65,
+   "do, not",
+   "do not",
+   "ocr"
+  ],
+  [
+   76,
+   "\\7ill",
+   "will",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a205e75539fecf8069038022433e37d63028af1a",
+ "layout": "lines",
+ "stats": {
+  "n_units": 90,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 2,
+   "paragraph_number": 31,
+   "page_number": 1
+  },
+  "words_in": 3095,
+  "words_out": 3086,
+  "retention": 0.9971,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   120,
+   101,
+   83,
+   147,
+   135,
+   172,
+   128,
+   180,
+   152,
+   185,
+   101,
+   172,
+   136,
+   176,
+   141,
+   109,
+   209,
+   188,
+   133,
+   152,
+   91,
+   75
+  ],
+  "warnings": []
+ }
+}

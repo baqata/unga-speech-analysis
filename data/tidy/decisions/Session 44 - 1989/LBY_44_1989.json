@@ -1,0 +1,233 @@
+{
+ "id": "LBY_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  6,
+  8,
+  11,
+  15,
+  18,
+  22,
+  28,
+  35,
+  41,
+  45,
+  48,
+  51,
+  54,
+  68,
+  74,
+  79,
+  81,
+  86,
+  89,
+  94,
+  99,
+  103,
+  107,
+  112,
+  117,
+  120,
+  124,
+  132,
+  135,
+  137,
+  141,
+  145,
+  151
+ ],
+ "cer": [
+  0,
+  4
+ ],
+ "fix": [
+  [
+   3,
+   "rids experience",
+   "rich experience",
+   "ocr"
+  ],
+  [
+   5,
+   "Pere2",
+   "Perez",
+   "ocr"
+  ],
+  [
+   7,
+   "mankinds",
+   "mankind",
+   "ocr"
+  ],
+  [
+   10,
+   "problems „..\"",
+   "problems ...\"",
+   "ocr"
+  ],
+  [
+   9,
+   "Non—Aligned",
+   "Non-Aligned",
+   "encoding"
+  ],
+  [
+   13,
+   "Is constantly",
+   "is constantly",
+   "ocr"
+  ],
+  [
+   19,
+   "194 5.",
+   "1945.",
+   "spacing"
+  ],
+  [
+   35,
+   "an examples",
+   "an example",
+   "ocr"
+  ],
+  [
+   55,
+   "peoples* progress",
+   "peoples' progress",
+   "ocr"
+  ],
+  [
+   59,
+   "(The Holy Koran, XVII.-70) ",
+   "",
+   "label"
+  ],
+  [
+   67,
+   "(The Holy Koran, XLIX:13)",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "servitude.1\"",
+   "servitude?\"",
+   "ocr"
+  ],
+  [
+   73,
+   "Ibn A1 Khattab",
+   "Ibn Al Khattab",
+   "ocr"
+  ],
+  [
+   84,
+   "tc an end",
+   "to an end",
+   "ocr"
+  ],
+  [
+   87,
+   "who ack them",
+   "who back them",
+   "ocr"
+  ],
+  [
+   90,
+   "one-.",
+   "one.",
+   "ocr"
+  ],
+  [
+   102,
+   "his. assistants",
+   "his assistants",
+   "ocr"
+  ],
+  [
+   98,
+   "5S8",
+   "598",
+   "ocr"
+  ],
+  [
+   113,
+   "th is issue",
+   "this issue",
+   "split_word"
+  ],
+  [
+   117,
+   "principle or: establishing",
+   "principle of establishing",
+   "ocr"
+  ],
+  [
+   120,
+   "the the Mediterranean",
+   "the Mediterranean",
+   "ocr"
+  ],
+  [
+   145,
+   "related issues",
+   "related issue",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "890cdf25e88bf8b9cefe16ea8cd65e810769cebf",
+ "layout": "lines",
+ "stats": {
+  "n_units": 154,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 4232,
+  "words_out": 4221,
+  "retention": 0.9974,
+  "n_paragraphs": 35,
+  "paragraph_words": [
+   90,
+   88,
+   119,
+   107,
+   79,
+   87,
+   62,
+   178,
+   193,
+   116,
+   132,
+   69,
+   129,
+   122,
+   233,
+   134,
+   102,
+   63,
+   109,
+   131,
+   114,
+   186,
+   173,
+   143,
+   148,
+   128,
+   70,
+   125,
+   230,
+   71,
+   87,
+   107,
+   81,
+   147,
+   68
+  ],
+  "warnings": [
+   "22 fixes"
+  ]
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "PAN_11_1956",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  7,
+  10,
+  12,
+  14,
+  20,
+  22,
+  25,
+  26,
+  28,
+  32,
+  34,
+  37,
+  40,
+  43,
+  47,
+  50,
+  54,
+  56,
+  60,
+  62,
+  65
+ ],
+ "cer": [],
+ "fix": [
+  [
+   7,
+   "3. ",
+   "",
+   "label"
+  ],
+  [
+   54,
+   "occupy diem",
+   "occupy them",
+   "ocr"
+  ],
+  [
+   57,
+   "Nations; will",
+   "Nations will",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "315a63fb5c5ea7e129f1a834a163bfc119c1f5c8",
+ "layout": "lines",
+ "stats": {
+  "n_units": 68,
+  "units_dropped": {},
+  "prestrip": {
+   "meeting_ref": 1,
+   "paragraph_number": 29
+  },
+  "words_in": 2527,
+  "words_out": 2524,
+  "retention": 0.9988,
+  "n_paragraphs": 23,
+  "paragraph_words": [
+   118,
+   93,
+   98,
+   94,
+   90,
+   135,
+   68,
+   108,
+   76,
+   121,
+   177,
+   80,
+   168,
+   108,
+   107,
+   168,
+   71,
+   119,
+   94,
+   121,
+   75,
+   127,
+   108
+  ],
+  "warnings": []
+ }
+}

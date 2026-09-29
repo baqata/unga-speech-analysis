@@ -1,0 +1,258 @@
+{
+ "id": "MOZ_37_1982",
+ "drop": [],
+ "para": [
+  0,
+  34,
+  48,
+  63,
+  74,
+  128,
+  186,
+  242,
+  255,
+  353,
+  374,
+  408
+ ],
+ "cer": [],
+ "fix": [
+  [
+   1,
+   "thirty seventh",
+   "thirty-seventh",
+   "spacing"
+  ],
+  [
+   23,
+   "Secretary General",
+   "Secretary-General",
+   "spacing"
+  ],
+  [
+   43,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   47,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   50,
+   "county;",
+   "country;",
+   "ocr"
+  ],
+  [
+   75,
+   "racist,",
+   "racist",
+   "ocr"
+  ],
+  [
+   80,
+   "front line",
+   "front-line",
+   "spacing"
+  ],
+  [
+   81,
+   "heir",
+   "their",
+   "ocr"
+  ],
+  [
+   119,
+   "anti social",
+   "anti-social",
+   "spacing"
+  ],
+  [
+   120,
+   "so called",
+   "so-called",
+   "spacing"
+  ],
+  [
+   126,
+   "a aiming",
+   "are aiming",
+   "ocr"
+  ],
+  [
+   148,
+   "struggle gains",
+   "struggle against",
+   "ocr"
+  ],
+  [
+   168,
+   "liberation.",
+   "liberation",
+   "ocr"
+  ],
+  [
+   181,
+   "divert ns",
+   "divert us",
+   "ocr"
+  ],
+  [
+   191,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   215,
+   "pre condition",
+   "pre-condition",
+   "spacing"
+  ],
+  [
+   244,
+   "ever increasing",
+   "ever-increasing",
+   "spacing"
+  ],
+  [
+   257,
+   "anti colonialist",
+   "anti-colonialist",
+   "spacing"
+  ],
+  [
+   258,
+   "anti imperialist",
+   "anti-imperialist",
+   "spacing"
+  ],
+  [
+   275,
+   "blown up",
+   "blown-up",
+   "spacing"
+  ],
+  [
+   292,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   298,
+   "geo strategic",
+   "geo-strategic",
+   "spacing"
+  ],
+  [
+   312,
+   "self determination",
+   "self-determination",
+   "spacing"
+  ],
+  [
+   314,
+   "Revclucionaria",
+   "Revolucionaria",
+   "ocr"
+  ],
+  [
+   323,
+   "geo political",
+   "geo-political",
+   "spacing"
+  ],
+  [
+   335,
+   "socio economic",
+   "socio-economic",
+   "spacing"
+  ],
+  [
+   342,
+   "tum",
+   "turn",
+   "ocr"
+  ],
+  [
+   355,
+   "short term and long term",
+   "short-term and long-term",
+   "spacing"
+  ],
+  [
+   375,
+   "Sea,'",
+   "Sea,",
+   "ocr"
+  ],
+  [
+   378,
+   "States. true",
+   "States. True",
+   "ocr"
+  ],
+  [
+   385,
+   "socio economic",
+   "socio-economic",
+   "spacing"
+  ],
+  [
+   392,
+   "Final",
+   "final",
+   "ocr"
+  ],
+  [
+   393,
+   "neo colonialism",
+   "neo-colonialism",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Continuous text with few line-initial sentence starts forces long paragraphs; lines are out of order at units 264-265 and 216-218.",
+ "unitizer_version": 1,
+ "sha1": "e187df358d740b3c880fe898f43040df57272dab",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 435,
+  "units_dropped": {},
+  "prestrip": {
+   "page_header": 1
+  },
+  "words_in": 4556,
+  "words_out": 4534,
+  "retention": 0.9952,
+  "n_paragraphs": 12,
+  "paragraph_words": [
+   354,
+   145,
+   156,
+   121,
+   552,
+   591,
+   607,
+   131,
+   1036,
+   209,
+   354,
+   278
+  ],
+  "warnings": [
+   "paragraph at unit 0 has 354 words",
+   "paragraph at unit 74 has 552 words",
+   "paragraph at unit 128 has 591 words",
+   "paragraph at unit 186 has 607 words",
+   "paragraph at unit 255 has 1036 words",
+   "paragraph at unit 374 has 354 words",
+   "33 fixes"
+  ]
+ }
+}

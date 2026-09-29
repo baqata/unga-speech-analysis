@@ -1,0 +1,161 @@
+{
+ "id": "SGP_81_2026",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   154,
+   154,
+   "noise"
+  ],
+  [
+   155,
+   155,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  9,
+  18,
+  23,
+  28,
+  37,
+  46,
+  50,
+  61,
+  70,
+  79,
+  88,
+  98,
+  103,
+  110,
+  117,
+  125,
+  129,
+  134,
+  137,
+  147
+ ],
+ "cer": [
+  134
+ ],
+ "fix": [
+  [
+   28,
+   "Anglos",
+   "UNCLOS",
+   "asr_name"
+  ],
+  [
+   33,
+   "unclose",
+   "UNCLOS",
+   "asr_name"
+  ],
+  [
+   60,
+   "Rina",
+   "Rena",
+   "asr_name"
+  ],
+  [
+   126,
+   "UNAT",
+   "UN80",
+   "asr_name"
+  ],
+  [
+   144,
+   "Rina",
+   "Rena",
+   "asr_name"
+  ],
+  [
+   1,
+   "Africa. we're",
+   "Africa. We're",
+   "asr_term"
+  ],
+  [
+   48,
+   "6.8%. and,",
+   "6.8% and,",
+   "asr_term"
+  ],
+  [
+   75,
+   "destruction. or",
+   "destruction or",
+   "asr_term"
+  ],
+  [
+   82,
+   "rules. traffic",
+   "rules. Traffic",
+   "asr_term"
+  ],
+  [
+   113,
+   "play. in",
+   "play in",
+   "asr_term"
+  ],
+  [
+   121,
+   "States. and",
+   "States and",
+   "asr_term"
+  ],
+  [
+   107,
+   "So, if",
+   "If",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "Spanish channel has Convemar for UNCLOS and ONU80 for UN80; Ambassador Rena Lee presided over the BBNJ negotiations and is Singapore's ICJ candidate (Singapore MFA). Main-agent sentence-break check (a full stop at a speech-to-text segment join, before a lowercase word: the capital restored where a new sentence begins, the stop removed where it split one): unit 1 'Africa. we're' -> 'Africa. We're'; unit 48 '6.8%. and,' -> '6.8% and,'; unit 75 'destruction. or' -> 'destruction or'; unit 82 'rules. traffic' -> 'rules. Traffic'; unit 113 'play. in' -> 'play in'; unit 121 'States. and' -> 'States and'. Cross-check with the UN machine transcript (XCHECK.md), repairs decided against the audio: spot 10 unit 107 'So, if' -> 'If' (both decodes go 'zero.' (1.00 / 0.98) straight to 'If' (1.00 / 0.99) with no 'So' in the pause; UN lacks it; ES 'si vemos' has no connective; invented word in the pause)",
+ "unitizer_version": 1,
+ "sha1": "27a91ea7b33ae9452ba2fa3fb7d66b6824107c91",
+ "layout": "single",
+ "stats": {
+  "n_units": 156,
+  "units_dropped": {
+   "presider": 2,
+   "noise": 1
+  },
+  "prestrip": {},
+  "words_in": 2625,
+  "words_out": 2596,
+  "retention": 0.989,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   174,
+   139,
+   62,
+   75,
+   123,
+   187,
+   80,
+   165,
+   193,
+   137,
+   151,
+   153,
+   89,
+   134,
+   120,
+   136,
+   64,
+   81,
+   61,
+   155,
+   117
+  ],
+  "warnings": []
+ }
+}

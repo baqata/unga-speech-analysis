@@ -1,0 +1,72 @@
+{
+ "id": "DJI_73_2018",
+ "drop": [],
+ "para": [
+  0,
+  5,
+  8,
+  13,
+  18,
+  22,
+  24,
+  28,
+  34,
+  38,
+  41,
+  45,
+  49,
+  53,
+  56
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   0,
+   "seventy- third",
+   "seventy-third",
+   "hyphen"
+  ],
+  [
+   22,
+   "well- conducted",
+   "well-conducted",
+   "hyphen"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "5dc1a982c9ade4655eee7ae111e9553e437bb158",
+ "layout": "lines",
+ "stats": {
+  "n_units": 60,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1
+  },
+  "words_in": 1449,
+  "words_out": 1447,
+  "retention": 0.9986,
+  "n_paragraphs": 15,
+  "paragraph_words": [
+   88,
+   89,
+   93,
+   91,
+   130,
+   80,
+   94,
+   144,
+   92,
+   83,
+   104,
+   64,
+   124,
+   79,
+   92
+  ],
+  "warnings": []
+ }
+}

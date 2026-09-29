@@ -1,0 +1,68 @@
+{
+ "id": "KOR_67_2012",
+ "drop": [],
+ "para": [
+  0,
+  6,
+  24,
+  34,
+  48,
+  67,
+  79,
+  106,
+  125,
+  134,
+  152,
+  164,
+  190,
+  199
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   27,
+   "(resolution 66/288, annex)",
+   "",
+   "label"
+  ],
+  [
+   180,
+   "(S/PRST/2012/13)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "472c06c91aa36875e4d4ce9949091081702919ee",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 209,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 1646,
+  "words_out": 1642,
+  "retention": 0.9976,
+  "n_paragraphs": 14,
+  "paragraph_words": [
+   45,
+   133,
+   77,
+   119,
+   138,
+   94,
+   203,
+   166,
+   66,
+   137,
+   88,
+   207,
+   83,
+   86
+  ],
+  "warnings": []
+ }
+}

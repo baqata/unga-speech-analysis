@@ -1,0 +1,77 @@
+{
+ "id": "MNG_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  3,
+  8,
+  10,
+  16,
+  20,
+  27,
+  33,
+  36,
+  43,
+  51,
+  57,
+  60,
+  67,
+  72,
+  75,
+  80
+ ],
+ "cer": [
+  2,
+  80
+ ],
+ "fix": [
+  [
+   69,
+   "UNAD",
+   "UN80",
+   "asr_name"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "66c5782bc4de765649deaf5129f5e1cb8692c04e",
+ "layout": "single",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2485,
+  "words_out": 2457,
+  "retention": 0.9887,
+  "n_paragraphs": 17,
+  "paragraph_words": [
+   56,
+   150,
+   89,
+   191,
+   141,
+   180,
+   189,
+   66,
+   224,
+   188,
+   220,
+   95,
+   203,
+   116,
+   103,
+   209,
+   37
+  ],
+  "warnings": []
+ }
+}

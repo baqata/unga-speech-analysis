@@ -1,0 +1,150 @@
+{
+ "id": "NOR_19_1964",
+ "drop": [
+  [
+   83,
+   83,
+   "noise"
+  ]
+ ],
+ "para": [
+  0,
+  4,
+  8,
+  10,
+  12,
+  15,
+  22,
+  24,
+  27,
+  34,
+  38,
+  44,
+  46,
+  49,
+  55,
+  62,
+  63,
+  66,
+  73,
+  76,
+  84,
+  89,
+  94,
+  96,
+  100,
+  102,
+  106,
+  112,
+  116,
+  119
+ ],
+ "cer": [],
+ "fix": [
+  [
+   39,
+   "because 1 realize",
+   "because I realize",
+   "ocr"
+  ],
+  [
+   46,
+   "balance, is",
+   "balance is",
+   "ocr"
+  ],
+  [
+   54,
+   "gruelling, situation",
+   "gruelling situation",
+   "ocr"
+  ],
+  [
+   54,
+   "arrested,",
+   "arrested.",
+   "ocr"
+  ],
+  [
+   82,
+   "non- dissemination",
+   "non-dissemination",
+   "hyphen"
+  ],
+  [
+   96,
+   "39, ",
+   "",
+   "label"
+  ],
+  [
+   102,
+   "41, ",
+   "",
+   "label"
+  ],
+  [
+   118,
+   "negotiated,",
+   "negotiated.",
+   "ocr"
+  ],
+  [
+   120,
+   "operations, We",
+   "operations. We",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "8dd5bb2cb19b5341ee73ba8a257f646aab3fe9f5",
+ "layout": "lines",
+ "stats": {
+  "n_units": 123,
+  "units_dropped": {
+   "noise": 1
+  },
+  "prestrip": {
+   "paragraph_number": 31
+  },
+  "words_in": 3109,
+  "words_out": 3105,
+  "retention": 0.9987,
+  "n_paragraphs": 30,
+  "paragraph_words": [
+   75,
+   88,
+   68,
+   65,
+   97,
+   185,
+   77,
+   94,
+   165,
+   115,
+   141,
+   86,
+   78,
+   84,
+   128,
+   78,
+   58,
+   141,
+   74,
+   115,
+   102,
+   135,
+   66,
+   106,
+   78,
+   148,
+   188,
+   86,
+   68,
+   116
+  ],
+  "warnings": []
+ }
+}

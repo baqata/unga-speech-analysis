@@ -1,0 +1,115 @@
+{
+ "id": "POL_47_1992",
+ "drop": [],
+ "para": [
+  0,
+  8,
+  16,
+  32,
+  48,
+  61,
+  71,
+  81,
+  91,
+  103,
+  118,
+  125,
+  138,
+  151,
+  164,
+  178,
+  188,
+  196,
+  205,
+  212,
+  226,
+  241
+ ],
+ "cer": [
+  0,
+  8
+ ],
+ "fix": [
+  [
+   31,
+   "form the",
+   "from the",
+   "ocr"
+  ],
+  [
+   31,
+   "relationship.*",
+   "relationship.",
+   "ocr"
+  ],
+  [
+   33,
+   " (A/47/277)",
+   "",
+   "label"
+  ],
+  [
+   45,
+   "famine- stricken",
+   "famine-stricken",
+   "ocr"
+  ],
+  [
+   80,
+   "conseguences",
+   "consequences",
+   "ocr"
+  ],
+  [
+   93,
+   "time/",
+   "time,",
+   "ocr"
+  ],
+  [
+   219,
+   " (A/47/277)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b22075279d864f26eb6475bf2c6c1af26cf1cb8a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 244,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2599,
+  "words_out": 2596,
+  "retention": 0.9988,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   77,
+   77,
+   181,
+   158,
+   139,
+   115,
+   104,
+   111,
+   128,
+   158,
+   78,
+   144,
+   125,
+   139,
+   141,
+   100,
+   96,
+   100,
+   77,
+   141,
+   180,
+   27
+  ],
+  "warnings": []
+ }
+}

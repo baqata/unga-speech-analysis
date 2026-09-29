@@ -1,0 +1,88 @@
+{
+ "id": "NLD_68_2013",
+ "drop": [
+  [
+   197,
+   197,
+   "header_footer"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  26,
+  43,
+  55,
+  64,
+  75,
+  87,
+  101,
+  109,
+  115,
+  132,
+  150,
+  171,
+  187,
+  198,
+  209,
+  223,
+  231,
+  239,
+  264
+ ],
+ "cer": [],
+ "fix": [
+  [
+   52,
+   " (A/68/PV.5)",
+   "",
+   "label"
+  ],
+  [
+   196,
+   "mankind” (see",
+   "mankind”.",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "Unit 197 is the second half of a see-reference to A/PV.180 split across lines.",
+ "unitizer_version": 1,
+ "sha1": "1d31e3e484bdc8191c2c881706aaa561e3811f37",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 277,
+  "units_dropped": {
+   "header_footer": 1
+  },
+  "prestrip": {},
+  "words_in": 2245,
+  "words_out": 2237,
+  "retention": 0.9964,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   135,
+   86,
+   139,
+   99,
+   73,
+   92,
+   88,
+   122,
+   65,
+   39,
+   154,
+   141,
+   164,
+   120,
+   86,
+   82,
+   109,
+   69,
+   64,
+   195,
+   115
+  ],
+  "warnings": []
+ }
+}

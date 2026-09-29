@@ -1,0 +1,137 @@
+{
+ "id": "SLB_44_1989",
+ "drop": [],
+ "para": [
+  0,
+  3,
+  6,
+  11,
+  14,
+  16,
+  19,
+  23,
+  26,
+  30,
+  33,
+  37,
+  41,
+  47,
+  52,
+  55,
+  58,
+  62,
+  65,
+  68,
+  79,
+  82,
+  88,
+  90
+ ],
+ "cer": [
+  0,
+  3
+ ],
+ "fix": [
+  [
+   43,
+   "happy as, we are",
+   "happy as we are",
+   "ocr"
+  ],
+  [
+   44,
+   "of Prance",
+   "of France",
+   "ocr"
+  ],
+  [
+   46,
+   "of Prance",
+   "of France",
+   "ocr"
+  ],
+  [
+   64,
+   "and Prance",
+   "and France",
+   "ocr"
+  ],
+  [
+   51,
+   "(A/44/463, para. 19)",
+   "",
+   "label"
+  ],
+  [
+   66,
+   "commodity exports.",
+   "commodity exports,",
+   "ocr"
+  ],
+  [
+   71,
+   "comprehension. we in",
+   "comprehension. We in",
+   "ocr"
+  ],
+  [
+   83,
+   "Pacific?",
+   "Pacific.",
+   "ocr"
+  ],
+  [
+   85,
+   "transcend .d national",
+   "transcend national",
+   "ocr"
+  ],
+  [
+   87,
+   "environment. lent.",
+   "environment.",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0239b3afa867ae06f5af63cd1c4735b901910e9b",
+ "layout": "lines",
+ "stats": {
+  "n_units": 92,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 2342,
+  "words_out": 2337,
+  "retention": 0.9979,
+  "n_paragraphs": 24,
+  "paragraph_words": [
+   66,
+   66,
+   113,
+   74,
+   85,
+   84,
+   93,
+   65,
+   138,
+   63,
+   97,
+   96,
+   168,
+   134,
+   61,
+   90,
+   91,
+   80,
+   64,
+   282,
+   92,
+   96,
+   90,
+   49
+  ],
+  "warnings": []
+ }
+}

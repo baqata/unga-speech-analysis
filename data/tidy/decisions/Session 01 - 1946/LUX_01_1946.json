@@ -1,0 +1,46 @@
+{
+ "id": "LUX_01_1946",
+ "drop": [],
+ "para": [
+  0,
+  4,
+  9,
+  17,
+  22,
+  26,
+  30
+ ],
+ "cer": [],
+ "fix": [
+  [
+   26,
+   "century- old",
+   "century-old",
+   "spacing"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "60a662ec783cb4b0b20ee1973eb98f416dff040c",
+ "layout": "lines",
+ "stats": {
+  "n_units": 36,
+  "units_dropped": {},
+  "prestrip": {},
+  "words_in": 888,
+  "words_out": 887,
+  "retention": 0.9989,
+  "n_paragraphs": 7,
+  "paragraph_words": [
+   132,
+   120,
+   162,
+   119,
+   83,
+   109,
+   162
+  ],
+  "warnings": []
+ }
+}

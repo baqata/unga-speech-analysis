@@ -1,0 +1,95 @@
+{
+ "id": "CUB_80_2025",
+ "drop": [
+  [
+   0,
+   0,
+   "presider"
+  ],
+  [
+   102,
+   102,
+   "presider"
+  ]
+ ],
+ "para": [
+  1,
+  5,
+  13,
+  16,
+  20,
+  22,
+  29,
+  33,
+  40,
+  44,
+  52,
+  53,
+  56,
+  59,
+  66,
+  70,
+  74,
+  82,
+  92,
+  97,
+  100
+ ],
+ "cer": [
+  100
+ ],
+ "fix": [
+  [
+   52,
+   "ìAll",
+   "“All",
+   "encoding"
+  ],
+  [
+   52,
+   "government.î",
+   "government.”",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "99d121ca7d98382a3cebe8dbf36f687a88628937",
+ "layout": "single",
+ "stats": {
+  "n_units": 103,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2735,
+  "words_out": 2708,
+  "retention": 0.9901,
+  "n_paragraphs": 21,
+  "paragraph_words": [
+   167,
+   106,
+   112,
+   109,
+   83,
+   195,
+   89,
+   129,
+   99,
+   210,
+   106,
+   157,
+   116,
+   212,
+   109,
+   183,
+   188,
+   187,
+   60,
+   85,
+   6
+  ],
+  "warnings": []
+ }
+}

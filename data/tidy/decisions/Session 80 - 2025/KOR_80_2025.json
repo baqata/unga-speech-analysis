@@ -1,0 +1,95 @@
+{
+ "id": "KOR_80_2025",
+ "drop": [
+  [
+   0,
+   1,
+   "presider"
+  ]
+ ],
+ "para": [
+  2,
+  6,
+  12,
+  16,
+  22,
+  24,
+  32,
+  35,
+  39,
+  44,
+  49,
+  53,
+  57,
+  63,
+  68,
+  76,
+  82,
+  86,
+  92,
+  96
+ ],
+ "cer": [
+  2,
+  96
+ ],
+ "fix": [
+  [
+   3,
+   "18th Session",
+   "80th Session",
+   "asr_term"
+  ],
+  [
+   5,
+   "18th Session",
+   "80th Session",
+   "asr_term"
+  ],
+  [
+   6,
+   "18th anniversary",
+   "80th anniversary",
+   "asr_term"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "79736ef118db84df6f4c73feab61b50e2a1f0893",
+ "layout": "single",
+ "stats": {
+  "n_units": 97,
+  "units_dropped": {
+   "presider": 2
+  },
+  "prestrip": {},
+  "words_in": 2407,
+  "words_out": 2376,
+  "retention": 0.9871,
+  "n_paragraphs": 20,
+  "paragraph_words": [
+   89,
+   167,
+   110,
+   158,
+   78,
+   182,
+   95,
+   106,
+   138,
+   105,
+   114,
+   111,
+   142,
+   102,
+   174,
+   153,
+   111,
+   101,
+   133,
+   7
+  ],
+  "warnings": []
+ }
+}

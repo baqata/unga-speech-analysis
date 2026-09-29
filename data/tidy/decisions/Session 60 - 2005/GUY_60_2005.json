@@ -1,0 +1,87 @@
+{
+ "id": "GUY_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  33,
+  43,
+  58,
+  67,
+  80,
+  93,
+  105,
+  117,
+  132,
+  145,
+  163,
+  178,
+  192,
+  211,
+  226,
+  236,
+  248
+ ],
+ "cer": [
+  10
+ ],
+ "fix": [
+  [
+   100,
+   " (p. 113)",
+   "",
+   "label"
+  ],
+  [
+   254,
+   " (2005 Human",
+   "",
+   "label"
+  ],
+  [
+   255,
+   "Development Report, p. 2)",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "a2e4bcb11ae4c07ce2eaea7aa73b848507f7ad6e",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 262,
+  "units_dropped": {},
+  "prestrip": {
+   "see_ref": 1,
+   "page_number": 2
+  },
+  "words_in": 2117,
+  "words_out": 2105,
+  "retention": 0.9943,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   77,
+   193,
+   75,
+   120,
+   75,
+   108,
+   102,
+   106,
+   97,
+   112,
+   102,
+   146,
+   124,
+   118,
+   157,
+   119,
+   72,
+   99,
+   103
+  ],
+  "warnings": []
+ }
+}

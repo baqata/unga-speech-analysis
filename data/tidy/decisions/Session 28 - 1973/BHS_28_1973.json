@@ -1,0 +1,118 @@
+{
+ "id": "BHS_28_1973",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  13,
+  16,
+  20,
+  24,
+  28,
+  33,
+  34,
+  37,
+  38,
+  41,
+  46,
+  52,
+  53,
+  56,
+  61,
+  63,
+  67,
+  70,
+  72,
+  74,
+  77,
+  79,
+  83,
+  85
+ ],
+ "cer": [],
+ "fix": [
+  [
+   5,
+   "NOWKNOW",
+   "NOW KNOW",
+   "spacing"
+  ],
+  [
+   12,
+   ".. . the",
+   "... the",
+   "spacing"
+  ],
+  [
+   33,
+   "fact'",
+   "fact",
+   "ocr"
+  ],
+  [
+   44,
+   "Middle .East",
+   "Middle East",
+   "ocr"
+  ],
+  [
+   50,
+   "our-archipelago",
+   "our archipelago",
+   "ocr"
+  ],
+  [
+   56,
+   "was. divided",
+   "was divided",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "6ac1306c17aa52f236c3fe0367be80c60937d663",
+ "layout": "lines",
+ "stats": {
+  "n_units": 86,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 28
+  },
+  "words_in": 3347,
+  "words_out": 3348,
+  "retention": 1.0003,
+  "n_paragraphs": 26,
+  "paragraph_words": [
+   105,
+   286,
+   87,
+   110,
+   133,
+   142,
+   98,
+   80,
+   106,
+   99,
+   109,
+   130,
+   247,
+   65,
+   60,
+   175,
+   96,
+   169,
+   136,
+   122,
+   86,
+   81,
+   87,
+   181,
+   329,
+   29
+  ],
+  "warnings": [
+   "paragraph at unit 83 has 329 words"
+  ]
+ }
+}

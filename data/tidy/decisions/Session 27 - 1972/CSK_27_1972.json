@@ -1,0 +1,99 @@
+{
+ "id": "CSK_27_1972",
+ "drop": [],
+ "para": [
+  0,
+  2,
+  4,
+  7,
+  10,
+  15,
+  18,
+  24,
+  29,
+  35,
+  41,
+  44,
+  47,
+  52,
+  57,
+  59,
+  61,
+  64,
+  70,
+  74,
+  76,
+  80
+ ],
+ "cer": [
+  0,
+  2
+ ],
+ "fix": [
+  [
+   22,
+   "sincerely -believe",
+   "sincerely believe",
+   "ocr"
+  ],
+  [
+   59,
+   "], This",
+   "]. This",
+   "ocr"
+  ],
+  [
+   72,
+   " [A/8723/Rev.l, chap.",
+   "",
+   "label"
+  ],
+  [
+   73,
+   "VII]",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "0242545c1d31b532a239fcd3299565c8f369cdfe",
+ "layout": "lines",
+ "stats": {
+  "n_units": 83,
+  "units_dropped": {},
+  "prestrip": {
+   "paragraph_number": 34
+  },
+  "words_in": 2856,
+  "words_out": 2846,
+  "retention": 0.9965,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   69,
+   87,
+   61,
+   186,
+   198,
+   126,
+   150,
+   92,
+   252,
+   206,
+   102,
+   115,
+   151,
+   130,
+   68,
+   125,
+   92,
+   170,
+   155,
+   75,
+   126,
+   110
+  ],
+  "warnings": []
+ }
+}

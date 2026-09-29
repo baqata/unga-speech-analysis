@@ -1,0 +1,75 @@
+{
+ "id": "VUT_54_1999",
+ "drop": [],
+ "para": [
+  0,
+  10,
+  19,
+  31,
+  47,
+  56,
+  72,
+  80,
+  88,
+  99,
+  113,
+  124,
+  136,
+  144,
+  152,
+  165,
+  181,
+  192,
+  209
+ ],
+ "cer": [
+  0,
+  10
+ ],
+ "fix": [
+  [
+   77,
+   "can he resurrected",
+   "can be resurrected",
+   "ocr"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "252d51d08793fe305bb2049b26d0456657127118",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 218,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1829,
+  "words_out": 1827,
+  "retention": 0.9989,
+  "n_paragraphs": 19,
+  "paragraph_words": [
+   78,
+   71,
+   94,
+   126,
+   76,
+   136,
+   65,
+   64,
+   102,
+   103,
+   95,
+   106,
+   64,
+   65,
+   110,
+   134,
+   100,
+   163,
+   75
+  ],
+  "warnings": []
+ }
+}

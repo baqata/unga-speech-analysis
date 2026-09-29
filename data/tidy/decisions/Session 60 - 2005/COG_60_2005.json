@@ -1,0 +1,80 @@
+{
+ "id": "COG_60_2005",
+ "drop": [],
+ "para": [
+  0,
+  20,
+  34,
+  53,
+  71,
+  84,
+  104,
+  124,
+  146,
+  158,
+  165,
+  176,
+  190
+ ],
+ "cer": [
+  0
+ ],
+ "fix": [
+  [
+   6,
+   "Hammarskjld",
+   "Hammarskjöld",
+   "encoding"
+  ],
+  [
+   43,
+   "worldís",
+   "world’s",
+   "encoding"
+  ],
+  [
+   79,
+   "Republicís",
+   "Republic’s",
+   "encoding"
+  ],
+  [
+   156,
+   "committeeís",
+   "committee’s",
+   "encoding"
+  ]
+ ],
+ "flags": [],
+ "note": "",
+ "unitizer_version": 1,
+ "sha1": "b85599ab41baec27d0ae6f50fe29ecbb0912fa57",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 196,
+  "units_dropped": {},
+  "prestrip": {
+   "page_number": 2
+  },
+  "words_in": 1523,
+  "words_out": 1521,
+  "retention": 0.9987,
+  "n_paragraphs": 13,
+  "paragraph_words": [
+   150,
+   113,
+   141,
+   139,
+   104,
+   167,
+   152,
+   176,
+   96,
+   55,
+   76,
+   101,
+   51
+  ],
+  "warnings": []
+ }
+}

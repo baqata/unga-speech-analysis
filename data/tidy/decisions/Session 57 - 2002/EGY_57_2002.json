@@ -1,0 +1,89 @@
+{
+ "id": "EGY_57_2002",
+ "drop": [
+  [
+   260,
+   260,
+   "repeat"
+  ]
+ ],
+ "para": [
+  0,
+  16,
+  40,
+  58,
+  81,
+  95,
+  109,
+  118,
+  133,
+  144,
+  161,
+  179,
+  199,
+  218,
+  232,
+  251,
+  261,
+  273,
+  289,
+  304,
+  325,
+  348
+ ],
+ "cer": [
+  0,
+  16
+ ],
+ "fix": [
+  [
+   259,
+   "their",
+   "",
+   "label"
+  ]
+ ],
+ "flags": [],
+ "note": "The stray duplicate fragment 'their implementation.' after 'implementing them.' is removed.",
+ "unitizer_version": 1,
+ "sha1": "7be467269422316025245dacf93f9678c1b82f4a",
+ "layout": "wrapped",
+ "stats": {
+  "n_units": 367,
+  "units_dropped": {
+   "repeat": 1
+  },
+  "prestrip": {
+   "page_number": 3
+  },
+  "words_in": 2944,
+  "words_out": 2941,
+  "retention": 0.999,
+  "n_paragraphs": 22,
+  "paragraph_words": [
+   116,
+   198,
+   172,
+   191,
+   118,
+   110,
+   72,
+   128,
+   85,
+   130,
+   141,
+   172,
+   154,
+   120,
+   139,
+   73,
+   91,
+   119,
+   118,
+   170,
+   172,
+   152
+  ],
+  "warnings": []
+ }
+}
