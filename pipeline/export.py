@@ -321,7 +321,8 @@ def place(x_new: np.ndarray, x_map: np.ndarray, xy_map: np.ndarray, k: int = MAP
     """Positions on an existing map for new unit vectors: the mean position of their k nearest mapped points by
     cosine, weighted as UMAP weighs a point's neighbours, which is where UMAP's own transform starts. Checked on
     the map of 2026-09-29: a mapped fragment put back this way lands a median 0.7% of the map's diagonal from its
-    place, and 2.5% land where no mapped fragment is near."""
+    place, and 2.2% land where no mapped fragment is near. UMAP's transform would then adjust each point a
+    little; that step is skipped, so only the saved coordinates are needed and the result repeats exactly."""
     from umap.umap_ import smooth_knn_dist
 
     k = min(k, len(x_map))
@@ -658,7 +659,6 @@ def load_inputs(placeholder: bool = False) -> dict:
     (iso3, year) order. Refuses stale caches."""
     codebook = load_lenses()
     f_emb, f_keys, f_man = calibrate.load_embeddings("fragments")
-    s_emb, s_keys, _ = calibrate.load_embeddings("speeches")
     h = f_man["input_hash"]
     speeches = pd.read_parquet(config.SPEECHES, columns=["speech_id", "iso3", "year", "speaker_name", "speaker_post"])
     speeches = speeches.sort_values(["iso3", "year"], kind="stable").reset_index(drop=True)
@@ -674,12 +674,11 @@ def load_inputs(placeholder: bool = False) -> dict:
     tp = pd.read_parquet(TOPICS).set_index("frag_id")["topic"]
     general = tp.reindex(fid).fillna(-1).to_numpy(np.int64)
     frow = pd.Series(np.arange(len(f_keys)), index=f_keys["frag_id"].to_numpy()).loc[fid].to_numpy()
-    srow = pd.Series(np.arange(len(s_keys)), index=s_keys["speech_id"].to_numpy()).loc[speeches["speech_id"]].to_numpy()
     x, vocab = load_terms(fid, h)
     passes = lens_passes()
     return {
         "speeches": speeches, "frags": frags[["frag_id", "speech_id", "text"]], "P": p, "general": general,
-        "femb": np.asarray(f_emb[frow]), "semb": np.asarray(s_emb[srow]),
+        "femb": np.asarray(f_emb[frow]),
         "fxy": load_layout("fragments", fid, h), "sxy": load_layout("speeches", speeches["speech_id"].to_numpy(), h),
         "X": x, "vocab": vocab, "countries": country_table(sorted(speeches["iso3"].unique())),
         "groups": group_table(), "lenses": codebook["lenses"], "topics": topic_names(placeholder, info),
@@ -755,8 +754,14 @@ def build(inp: dict) -> tuple[dict, dict]:
     anchors = label_anchors(qf, topic, T, 50)   # the regions are the same on both layers
     files["map_labels.json"] = dumps({"fragments": anchors, "speeches": anchors})
 
-    # Speaker and most representative passage of each speech
-    femb, semb = inp["femb"], unit_rows(np.asarray(inp["semb"], dtype=np.float32))
+    # Each speech as the mean of its fragments' vectors (docs/PLAN.md, section 4): its most representative passage
+    # is the fragment closest to that mean, and it measures the alignment below
+    femb = inp["femb"]
+    per_speech = sparse.csr_matrix((np.ones(F, dtype=np.float32), (s_of, np.arange(F))), shape=(S, F)).tocsc()
+    semb = np.zeros((S, femb.shape[1]), dtype=np.float32)
+    for a in range(0, F, 65536):
+        semb += per_speech[:, a:a + 65536] @ np.asarray(femb[a:a + 65536], dtype=np.float32)
+    semb = unit_rows(semb)
     sims = np.empty(F, dtype=np.float32)
     for a in range(0, F, 65536):
         sims[a:a + 65536] = np.einsum("ij,ij->i", np.asarray(femb[a:a + 65536], dtype=np.float32),
@@ -784,7 +789,7 @@ def build(inp: dict) -> tuple[dict, dict]:
                 [int(lens_of[r]), round(float(prob), 2), window(texts[r], patterns[lens_of[r]])])
         files[f"excerpts/{name}.json"] = dumps(out)
 
-    # Alignment per year and over all years (whole speeches; UNODC-lens passages)
+    # Alignment per year and over all years (all fragments; UNODC-lens fragments)
     urows = np.flatnonzero(u_about.any(axis=1))
     one = sparse.csr_matrix((np.ones(len(urows), dtype=np.float32), (s_of[urows], np.arange(len(urows)))),
                             shape=(S, len(urows)))

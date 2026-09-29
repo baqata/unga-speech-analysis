@@ -2,20 +2,20 @@
 
 ## Purpose
 
-This is the checked sample of the lens calibration (`docs/calibration.md`). Three labellers read every fragment independently. A resolver then decides the lenses on which they differ. The dashboard's automatic measure is judged against the result, so each label must follow the codebook exactly and come from reading the text.
+This is the checked sample of the lens calibration (`docs/calibration.md`). One labeller, the core labeller, reads every fragment. A second labeller then labels a check set of about 600 of them independently, and a resolver decides the lenses on which the two differ. The dashboard's automatic measure is judged against the result, so each label must follow the codebook exactly and come from reading the text.
 
 ## Read first, in full
 
-1. `data/lenses/codebook.md` (version 1.1): the rules, the examples and the output format (section 9).
+1. `data/lenses/codebook.md` (version 1.2): the rules, the examples and the output format (section 9).
 2. `data/lenses/lenses.yaml`: the definitions, include and exclude lists and era vocabulary.
 
-If the two differ, follow the codebook and say so in the record's `note`.
+If the two differ, follow the codebook and say so in the record's `note`. Where the codebook itself says that it refines the YAML (as 4.10 does for disarmament), follow it without a note.
 
 ## Rules for every agent
 
 - **Decide by reading.** Decide each fragment by reading it in full. Scripts may read files, count, check and write your records. They must never choose a label, whether by keyword rules, similarity scores or any other automatic means.
 - **Stay blind.** Use only your input file, the codebook and the lens file. Do not open:
-  - `data/gold/sample.parquet`, `data/gold/manifest.json`, the other labellers' folders or `data/interim/`;
+  - `data/gold/sample.parquet`, `data/gold/manifest.json`, the other labellers' folders, `data/gold/pilot-v1.1/` or `data/interim/`;
   - the corpus, the speeches or any other source;
   - any web search.
 
@@ -24,8 +24,15 @@ If the two differ, follow the codebook and say so in the record's `note`.
 
 ## Labellers
 
-- **Input:** `data/gold/batches/<batch>.jsonl`, one fragment per line: `{"frag_id", "year", "text"}`.
-- **Output:** `data/gold/labels/<labeller>/<batch>.jsonl`.
+Both labellers follow the same rules. Only their files differ.
+
+| Labeller | Input | Output |
+| --- | --- | --- |
+| `core` | `data/gold/batches/<batch>.jsonl` | `data/gold/labels/core/<batch>.jsonl` |
+| `check` | `data/gold/check/<batch>.jsonl` | `data/gold/labels/check/<batch>.jsonl` |
+
+- **Input:** one fragment per line: `{"frag_id", "year", "text"}`.
+- **Output:**
   - One record per input line, in the same order.
   - Each record has exactly the fields of codebook section 9.
   - `lenses` is `[]` when no lens applies. This is the most common answer.
@@ -40,8 +47,8 @@ If the two differ, follow the codebook and say so in the record's `note`.
 ## Resolver
 
 - **Input:** `data/gold/resolve/<file>.jsonl`, one fragment per line: `{"frag_id", "year", "text", "lenses", "records"}`.
-  - `lenses` names the lenses on which the three labellers did not all agree.
-  - `records` holds their three records.
+  - `lenses` names the lenses on which the two labellers differ.
+  - `records` holds their two records, in no particular order.
 - **Decide** each named lens yourself by the codebook, reading the fragment in full.
   - The labellers' notes are arguments, not votes; the rules decide.
   - Record `substantive`, `list` or `none` for each named lens.

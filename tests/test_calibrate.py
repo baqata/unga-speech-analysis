@@ -1,5 +1,5 @@
 """Tests for pipeline.calibrate on synthetic data (no model): score arithmetic, the sample
-design, agreement, record checks and a small end-to-end run."""
+design, the check set and agreement, record checks and a small end-to-end run."""
 import json
 
 import numpy as np
@@ -69,10 +69,11 @@ def test_solve_lambda_hits_the_target_with_capped_rates():
         cal.solve_lambda(base, planned, 10)  # the random part alone is larger
 
 
-def test_fleiss_kappa():
-    assert cal.fleiss_kappa(np.array([0, 3, 0, 3, 3])) == pytest.approx(1.0)
-    # Hand-computed: votes 3,0,2,1 -> P_i = 1, 1, 1/3, 1/3; p = 0.5 -> kappa = 1/3.
-    assert cal.fleiss_kappa(np.array([3, 0, 2, 1])) == pytest.approx(1 / 3)
+def test_cohen_kappa():
+    assert cal.cohen_kappa([1, 1, 0, 0], [1, 1, 0, 0]) == 1.0
+    # Hand-computed: agreement 3/4, chance agreement 1/2 -> kappa = 1/2.
+    assert cal.cohen_kappa([1, 1, 0, 0], [1, 1, 1, 0]) == 0.5
+    assert cal.cohen_kappa([1, 1], [1, 1]) is None  # no variation: kappa is undefined
 
 
 def test_check_record_expands_the_umbrella_and_flags_problems():
@@ -98,8 +99,8 @@ def paths(tmp_path, monkeypatch):
     monkeypatch.setattr(cal, "LENS_VECTORS", tmp_path / "emb" / "lenses.npz")
     monkeypatch.setattr(cal, "SCORES", tmp_path / "lens_scores.parquet")
     monkeypatch.setattr(cal, "PROBS", tmp_path / "lens_probs.parquet")
-    for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "RESOLVE", "RESOLVED", "FINAL", "FIT",
-                 "CLASSIFIERS", "RESULTS", "GOLD"):
+    for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "CHECK", "CHECKSET", "AGREEMENT", "RESOLVE",
+                 "RESOLVED", "FINAL", "FIT", "CLASSIFIERS", "RESULTS", "GOLD"):
         rel = getattr(cal, name).relative_to(config.GOLD) if name != "GOLD" else None
         monkeypatch.setattr(cal, name, tmp_path / "gold" / rel if rel else tmp_path / "gold")
     FakeEncoder.calls, FakeEncoder.interrupt_after = [], None
@@ -198,22 +199,25 @@ def test_end_to_end(paths, monkeypatch):
     with pytest.raises(cal.CalibrationError):
         cal.draw_sample()
 
-    # Three fake labellers read the batches and write their records. The first never errs, so
-    # every error of the others is a disagreement that the resolver sees.
+    # The core labeller reads every batch and never errs; the check labeller reads the check set and
+    # errs on 3% of lenses, so every disagreement is its error and the resolver sees it.
     truth_by_gid = truth.loc[sample.set_index("gid").frag_id]
     truth_by_gid.index = sample.gid
-    for k, lab in enumerate(cal.LABELLERS):
-        rng = np.random.default_rng(10 + k)
-        for path in sorted(cal.BATCHES.glob("b*.jsonl")):
-            recs = [fake_label(r["text"], r["frag_id"], truth_by_gid.loc[r["frag_id"]], rng,
-                               flip=0.03 if k else 0.0)
-                    for r in cal.read_jsonl(path)]
-            cal.write_jsonl(cal.LABELS / lab / path.name, recs)
-    assert cal.check_file("labels", "l2/b001") == []
-    first = cal.read_jsonl(cal.LABELS / "l2" / "b001.jsonl")
-    cal.write_jsonl(cal.LABELS / "l2" / "b001.jsonl", first[1:] + [dict(first[0], confidence=5)])
-    assert len(cal.check_file("labels", "l2/b001")) == 2  # order and confidence
-    cal.write_jsonl(cal.LABELS / "l2" / "b001.jsonl", first)
+    rng = np.random.default_rng(10)
+    for path in sorted(cal.BATCHES.glob("b*.jsonl")):
+        cal.write_jsonl(cal.LABELS / cal.CORE / path.name, [
+            fake_label(r["text"], r["frag_id"], truth_by_gid.loc[r["frag_id"]], rng, flip=0.0)
+            for r in cal.read_jsonl(path)])
+    assert cal.check_file("labels", "core/b001") == []
+    first = cal.read_jsonl(cal.LABELS / "core" / "b001.jsonl")
+    cal.write_jsonl(cal.LABELS / "core" / "b001.jsonl", first[1:] + [dict(first[0], confidence=5)])
+    assert len(cal.check_file("labels", "core/b001")) == 2  # order and confidence
+    cal.write_jsonl(cal.LABELS / "core" / "b001.jsonl", first)
+    cal.draw_checkset()
+    for path in sorted(cal.CHECK.glob("*.jsonl")):
+        cal.write_jsonl(cal.LABELS / cal.CHECKER / path.name, [
+            fake_label(r["text"], r["frag_id"], truth_by_gid.loc[r["frag_id"]], rng, flip=0.03)
+            for r in cal.read_jsonl(path)])
     summary = cal.collect()
     assert summary["to_resolve"] > 0
     assert all(v["kappa"] > 0.5 for v in summary["agreement"].values())
@@ -250,3 +254,76 @@ def test_end_to_end(paths, monkeypatch):
     # "About" a lens at p >= 0.5 recovers the synthetic truth on the whole corpus.
     about = probs.set_index("frag_id")["p_peace"] >= cal.THRESHOLD
     assert (about == truth["peace"]).mean() > 0.9
+
+
+# ---------------------------------------------------------------------------
+# Check set, agreement and resolution
+# ---------------------------------------------------------------------------
+
+CORE_LENS = {"g1": "drugs", "g2": "drugs", "g3": "drugs", "g5": "peace", "g6": "peace"}  # every other fragment: none
+SCORE = {"drugs": [.9, .8, .7, .85, .1, .2, .81, .3], "peace": [.85, .1, .1, .1, .9, .7, .1, .1]}
+
+
+def record(gid, lens=None):
+    return {"frag_id": gid, "lenses": [lens] if lens else [], "mention_type": {lens: "substantive"} if lens else {},
+            "confidence": 3, "note": ""}
+
+
+@pytest.fixture
+def gold(tmp_path, monkeypatch):
+    """Eight sampled fragments in two batches, labelled by the core labeller."""
+    for name, rel in {"GOLD": ".", "SAMPLE": "sample.parquet", "BATCHES": "batches", "LABELS": "labels",
+                      "CHECK": "check", "CHECKSET": "checkset.json", "AGREEMENT": "agreement.json",
+                      "RESOLVE": "resolve", "RESOLVED": "resolved", "FINAL": "labels_final.parquet",
+                      "SCORES": "scores.parquet"}.items():
+        monkeypatch.setattr(cal, name, tmp_path / rel)
+    monkeypatch.setattr(cal, "CHECK_PER_GROUP", 2)
+    gids = [f"g{i}" for i in range(1, 9)]
+    pd.DataFrame({"gid": gids, "frag_id": [f"f{i}" for i in range(1, 9)], "speech_id": [f"s{i}" for i in range(1, 9)],
+                  "year": 1990, "period": 2, "split": "train", "pi": 0.5,
+                  "batch": ["b001"] * 4 + ["b002"] * 4}).to_parquet(tmp_path / "sample.parquet")
+    pd.DataFrame({"frag_id": [f"f{i}" for i in range(1, 9)],
+                  **{f"s_{lens}": SCORE.get(lens, [0.0] * 8) for lens in IDS}}).to_parquet(tmp_path / "scores.parquet")
+    for batch, part in (("b001", gids[:4]), ("b002", gids[4:])):
+        cal.write_jsonl(tmp_path / "batches" / f"{batch}.jsonl", [{"frag_id": g, "year": 1990, "text": f"text {g}"}
+                                                                  for g in part])
+        cal.write_jsonl(tmp_path / "labels" / "core" / f"{batch}.jsonl", [record(g, CORE_LENS.get(g)) for g in part])
+    return tmp_path
+
+
+def test_check_set_draws_core_positives_and_near_misses(gold):
+    cs = cal.draw_checkset()
+    drugs, peace = cs["lenses"]["drugs"], cs["lenses"]["peace"]
+    assert len(drugs["positives"]) == 2 and set(drugs["positives"]) <= {"g1", "g2", "g3"}
+    assert drugs["near_misses"] == ["g4", "g7"]  # negatives scored at least the positives' median, 0.8
+    assert (drugs["positives_available"], drugs["near_misses_available"]) == (3, 2)
+    assert peace["positives"] == ["g5", "g6"] and peace["near_misses"] == ["g1"]
+    written = [r["frag_id"] for p in sorted((gold / "check").glob("*.jsonl")) for r in cal.read_jsonl(p)]
+    assert sorted(written) == sorted(set(drugs["positives"] + drugs["near_misses"] + peace["positives"] + ["g1"]))
+    with pytest.raises(cal.CalibrationError):
+        cal.draw_checkset()  # drawn once
+
+
+def test_disagreements_go_to_the_resolver_and_its_decision_is_final(gold):
+    cal.draw_checkset()
+    src = sorted((gold / "check").glob("*.jsonl"))
+    for p in src:  # the check labeller agrees, except that it reads g4 as about drugs
+        cal.write_jsonl(gold / "labels" / "check" / p.name,
+                        [record(r["frag_id"], "drugs" if r["frag_id"] == "g4" else CORE_LENS.get(r["frag_id"]))
+                         for r in cal.read_jsonl(p)])
+    assert cal.check_file("labels", f"check/{src[0].stem}") == []
+    assert cal.check_file("labels", "l1/b001")[0].startswith("unknown labeller")
+    summary = cal.collect()
+    assert summary["to_resolve"] == 1
+    assert summary["agreement"]["drugs"] == {"kappa": 0.5, "checked": 4, "positives_confirmed": 1.0,
+                                             "near_misses_confirmed": 0.5}
+    assert summary["agreement"]["peace"]["kappa"] == 1.0 and "drugs" in summary["below_bar"]
+    queued = cal.read_jsonl(gold / "resolve" / "r001.jsonl")
+    assert [(r["frag_id"], r["lenses"], len(r["records"])) for r in queued] == [("g4", ["drugs"], 2)]
+    with pytest.raises(cal.CalibrationError):
+        cal.final_labels()  # the queue is not resolved yet
+    cal.write_jsonl(gold / "resolved" / "r001.jsonl", [{"frag_id": "g4", "decisions": {"drugs": "substantive"},
+                                                        "note": ""}])
+    final = cal.final_labels().set_index("gid")
+    assert final["drugs"].tolist() == [True, True, True, True, False, False, False, False]
+    assert final["peace"].tolist() == [False, False, False, False, True, True, False, False]

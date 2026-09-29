@@ -31,7 +31,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **2026, provisional:**
   - It covers every country that has spoken so far (2026-09-26 18:12, r575).
   - It follows the corpus file structure but is stored apart, as provisional data (2026-09-26 18:12, r575).
-  - It is labelled "2026 (en curso)" in the year selector (proposed r591; confirmed 2026-09-26 18:33, r683).
+  - It appears in the year selector as "2026", like any other year, with no label or note (2026-09-29 21:56, s4 r2316).
   - The text comes from the English interpretation audio, transcribed locally, which is the method the dataset authors used for 2025 (downloads approved 2026-09-26 18:21, r615; proposed r605).
   - English stays the core text. The Spanish channel is used only to confirm doubtful passages (2026-09-28 04:57, r7020).
   - Status on 2026-09-29: the debate has closed; 194 statements are transcribed, checked against the Spanish channel and tidied. The UN library files the Dominican Republic's audio under the code DR, not DO, which is why it was missing until 2026-09-29 (retry approved 06:58, s2 r15722). Australia's library files stop at 6:18, so both of its channels were cut from the UN Web TV recording of the meeting (approved 2026-09-29 08:19, s2 r17501).
@@ -107,7 +107,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **One global map, fitted once on all the data.** Year and selection only change the highlighting; the layout never changes (2026-09-26 18:02, r476).
 - **One geography for both layers, kept across updates.** The map is fitted once on the fragments and saved. Each speech, and each new year's fragments, are placed among the fragments they most resemble, so nothing already on the map moves; a new edition of the map is a deliberate refit (2026-09-29 17:31, s4 r503; the method was left to the main agent, 18:49, s4 r670). Method: section 4, Map.
 - **Two layers**, with a "Fragments / Speeches" toggle. Fragments is the default (2026-09-26 18:28, r659; details proposed r679, confirmed 2026-09-26 18:33, r683).
-- **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit. Hovering shows its topic composition and its most representative passage: the fragment closest to the whole-speech vector (r679; confirmed r683).
+- **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit. Hovering shows its topic composition and its most representative passage: the fragment closest to the mean of its fragments' vectors (r679, confirmed r683; mean (2026-09-29 21:56, s4 r2316)).
 - **Region labels:** topic names written from example fragments, in Spanish and English (proposed r591 and r679; confirmed 2026-09-26 18:33, r683), each where its fragments concentrate; both layers show the same labels.
 - **Points drawn:** the final map shows every fragment (r565; confirmed r683). The mockups show a sample.
 
@@ -141,23 +141,23 @@ It answers "where does Colombia align in a given year" (2026-09-26 18:21, r615).
   - A tidied copy of the corpus is kept apart from the original (2026-09-26 19:04, r961).
   - Every speech is cleaned under the same rules, with no deviations (2026-09-26 23:11, r2061).
   - Only text that is not the speaker's is dropped. Repairs are minimal and validated, and the text is never regenerated (project memory).
-  - The tidy copy feeds both the fragment and the whole-speech embeddings. No embedding starts before it is complete (proposed r1902; accepted 2026-09-26 23:11, r2061).
+  - The tidy copy feeds the embeddings. No embedding starts before it is complete (proposed r1902; accepted 2026-09-26 23:11, r2061).
   - Status on 2026-09-29 02:25: the tidy copy is complete for all 11,334 speeches (1946–2026). Every year re-applies with the current tool with no errors, and the full-corpus checks pass.
   - Later on 2026-09-29: 2024 was tidied again from the official records (193 statements, where the corpus had 192), and the Dominican Republic's 2026 speech was added, for 11,336 speeches in all. At 13:57 the 2026 cross-check and validation (section 2) were applied, the 2026 audit was clean and the full-corpus test passed.
 - **Fragments** of about 150 words, built paragraph first (2026-09-26 18:28, r659; proposed r633):
   - the paragraphs are the tidy copy's, set by reading. Rebuilding them from the source layout, and packing transcripts by sentence, remain only as a fallback for a speech without a current tidy copy;
   - pieces under 60 words are merged, and pieces over 260 are split at a sentence;
   - a piece stays over 260 words only when no cut between sentences keeps every piece within 60 to 260 words. This is almost always because one sentence runs over 200 words. The one exception is a 1972 speech by Guatemala, whose paragraph has three sentences of 42, 190 and 57 words (2026-09-29 01:17, s2 r9207).
-- **Embeddings:** Harrier-OSS-v1-0.6B (`microsoft/harrier-oss-v1-0.6b`) for both fragments and whole speeches. Every speech fits in its 32,768-token window (2026-09-26 18:28, r659; confirmed r683).
-- **Uses of each embedding** (r679; confirmed 2026-09-26 18:33, r683):
-  - Whole-speech vectors: the Speeches layer and the country alignment. Fragment averages serve as a cross-check.
-  - Fragments: composition, lens scores, distinctive words and excerpts.
+- **Embeddings:** Harrier-OSS-v1-0.6B (`microsoft/harrier-oss-v1-0.6b`) for the fragments (2026-09-26 18:28, r659; confirmed r683). Each fragment is embedded as a document, with no instruction, as the model's authors specify for documents; only the lens descriptions, which draw the calibration sample, are embedded as queries with an instruction (`data/lenses/lenses.yaml`).
+- **Uses of the embeddings:**
+  - Fragments: composition, lens scores, distinctive words, excerpts and the map (r679; confirmed 2026-09-26 18:33, r683).
+  - Speeches, each as the mean of its non-ceremonial fragments' vectors: its place on the map, the passage shown on hover (the fragment closest to that mean) and the country alignment, overall and on UNODC topics (2026-09-29 21:56, s4 r2316). Whole-speech embeddings are not used. On the 387 speeches of 2024 and 2026, the fragment closest to the whole-speech vector was the speech's first or last in 92% of cases and from the openings-and-closings group in 39%, against 56% and 4% for the mean (35% and 6% of all fragments). A speech's 5 most similar speeches of the same year shared its subregion in 51% (2024) and 54% (2026) of cases with whole-speech vectors, and 53% and 58% with the mean; chance is 12%.
 - **Map** (2026-09-29 18:49, s4 r670; the user asked that settings be judged by experience and checked, not searched by grid):
   - UMAP of the full 1,024-dimension fragment vectors by cosine, with no reduction before it, fitted once with seed 0 and saved.
   - 50 neighbours: at UMAP's default of 15, a quarter of a fragment's nearest fragments are its own country's in other years, so the map would group countries' repetitions rather than subjects; at 50 it is a sixth, and more neighbours barely lower it (measured on 215,090 fragments).
   - Minimum distance 0: each group packed tightly with clear space between groups, as the user asked (2026-09-29 16:30, s2 r24828).
-  - Placement of new fragments: the mean position of their 50 nearest mapped fragments by cosine, weighted as UMAP weighs neighbours. Putting mapped fragments back this way lands them a median 0.7% of the map's diagonal from their place, and 2.2% land where no fragment is near (final map of 2026-09-29, 246,738 fragments, fitted in 9 minutes).
-  - Placement of speeches: the same, applied to the mean of the speech's fragment vectors (2026-09-29 20:44). The whole-speech vector, tried first, crowded each year's speeches into one spot: on the 387 speeches of 2024 and 2026 it spread them over 0.57 and 0.48 of the fragments' extent on the two axes, against 0.78 and 0.66 for the mean of their fragments. With the mean, the 1986 speeches sit by apartheid, Central America, disarmament and the Middle East, as that year's debate did. The whole-speech vector still picks the representative passage and measures alignment.
+  - Placement of new fragments: the mean position of their 50 nearest mapped fragments by cosine, weighted as UMAP weighs neighbours. A UMAP map has no formula for a new point: UMAP's own transform starts it at this same weighted mean and then adjusts it a little. The adjustment is skipped, so only the saved coordinates are needed and the result repeats exactly. Putting mapped fragments back this way lands them a median 0.7% of the map's diagonal from their place, and 2.2% land where no fragment is near (final map of 2026-09-29, 246,738 fragments, fitted in 9 minutes).
+  - Placement of speeches: the same, applied to the mean of the speech's fragment vectors (2026-09-29 20:44). The whole-speech vector, tried first, crowded each year's speeches into one spot: on the 387 speeches of 2024 and 2026 it spread them over 0.57 and 0.48 of the fragments' extent on the two axes, against 0.78 and 0.66 for the mean of their fragments. With the mean, the 1986 speeches sit by apartheid, Central America, disarmament and the Middle East, as that year's debate did.
 - **Lenses:** the nine ROCOL lenses plus peace as a reference, as listed in section 3.2 (proposed r443; accepted 2026-09-26 18:02, r476).
 - **Scoring** ("mandate component") (2026-09-26 18:02, r476; method replaced 2026-09-29 05:02, s2 r13904):
   - Each fragment gets a probability per lens from a classifier trained on about 20,000 fragments that agents labelled blind, and validated on about 5,000 more. A fragment can count for more than one lens.
@@ -169,7 +169,8 @@ It answers "where does Colombia align in a given year" (2026-09-26 18:21, r615).
   - Group figures give each country equal weight: a group's value is the mean of its members' values, and over several years each country's mean over the years it spoke counts once. Speech length and the number of speeches do not weigh (confirmed 2026-09-29 01:17, s2 r9207).
 - **Composition** (2026-09-26 18:28, r659; proposed r633):
   - Each fragment counts once: under the UNODC lens with the highest probability, when that probability is at least 0.5; otherwise under one of about 20 general topics from clustering (2026-09-29 05:02, s2 r13904). The same 0.5 threshold picks the excerpts shown for a lens.
-  - General topics: k-means with 20 groups on the full vectors of the fragments about no lens (10 restarts, the best kept), named by reading. Every such fragment takes its nearest topic, the same main-topic simplification as the bars; a group that reads as a grab-bag is named "Otros temas". The centres are kept, so a new fragment takes the nearest existing topic (2026-09-29 17:48, s4 r643; 18:49, s4 r670). On 215,090 fragments, 14 of the 20 groups came back almost unchanged when k-means was rerun from another start; the broad ones shift at their edges.
+  - General topics: k-means with 20 groups on the full vectors of the fragments about no lens (10 restarts, the best kept), named by reading. Every such fragment takes its nearest topic, the same main-topic simplification as the bars; a group that reads as a grab-bag is named "Otros temas". The centres are kept, so a new fragment takes the nearest existing topic (2026-09-29 17:48, s4 r643; 18:49, s4 r670). On 215,090 fragments, 14 of the 20 groups came back almost unchanged when k-means was rerun from another start; the broad ones shift at their edges. The run is seeded, so it repeats exactly; another start ends in another, almost equally good split because many fragments sit between subjects (54% are within 0.02 of a second centre). Kept as designed (2026-09-29 21:56, s4 r2316).
+  - Speech openings and closings: fragments made only of greetings, congratulations and thanks are left out as ceremonial (12,082 of 258,820). Openings and closings that mix courtesy with substance stay; if the final fit gathers them in one group, it gets a plain name such as "Apertura y cierre" (2026-09-29 21:56, s4 r2316).
   - Validation: agents estimate the composition of about 60 whole speeches blind, and the results are compared (r679; confirmed r683).
 - **Text processing:** stopword removal applies only to word counts. Embeddings take the full clean text (stated in r443; not contested).
 
@@ -182,13 +183,16 @@ The user left the calibration method to the main agent, asking for the most tech
    - 2,500 are drawn at random, 500 from each of five periods (1946–1969, 1970–1989, 1990–2009, 2010–2024, 2025–2026).
    - The rest are split equally over the 10 lenses and the five periods. Within each group, most are drawn where the lens is most likely, by similarity to its description in UNODC's own words (`data/lenses/lenses.yaml`), and some lower down, to catch what the classifier would otherwise miss. This is the only use of that similarity.
    - Each fragment's chance of being drawn is recorded, so every figure is weighted back to the whole corpus.
-3. **Labelling.** Three agents read each fragment separately. They see only the text and the year, never the country, the speaker or any score. For each lens they record "about it", "only listed" or "not at all", following the codebook, and quote the deciding sentence. When the three disagree, a fourth agent decides by the codebook. Scripts only check the format; no label is chosen by a script. The agents run five at a time, and their agreement is reported.
+3. **Labelling** (2026-09-29 21:56, s4 r2316).
+   - One agent (Opus, medium effort) reads each fragment: 167 batches of about 150, ten agents at a time. It sees only the text and the year, never the country, the speaker or any score. For each lens it records "about it", "only listed" or "not at all", following the codebook (version 1.2, which tightened peace, lists and generic crime after the pilot's 17 disagreements), and notes the deciding rule when a case is close. Scripts only check the format; no label is chosen by a script.
+   - A check follows. For each lens, 30 fragments the labeller marked as about it and 30 near-misses it marked as not, about 600 in all, are labelled again, blind, by an agent at maximum effort. A third agent at maximum effort decides where the two differ.
+   - A lens whose agreement (kappa) falls below 0.8 is brought to the user before the classifiers are fitted.
 4. **Training and validation sets.** One speech in five is drawn at random, and its sampled fragments, about 5,000, form the validation set. The other fragments, about 20,000, train and tune the classifiers. The validation set is labelled first, never used for tuning, and gives every accuracy figure (2026-09-29 16:30, s2 r24828).
 5. **Classifier.** One classifier per lens, a logistic regression on the fragment embedding, gives each fragment a probability for that lens. Its settings are tuned by cross-validation within the training set.
 6. **Shares.** A speech's share on a lens is the mean of its fragments' probabilities (graded shares). A fragment counts as "about" a lens at a probability of 0.5 or more; this is used for the excerpts and the composition bars.
 7. **Pass bar.** A lens gets a trend line and a map only if, on the validation set, precision and recall at 0.5 are both at least 0.70, overall and in each period with at least 20 checked examples of that lens. A lens that falls short is brought to the user; no fallback method is tried.
 8. **Frozen before results.** The descriptions, the sample, the method and the classifiers are fixed before any trend is computed. The known-event checks of section 6 are run afterwards, as a test, never for tuning.
-9. **Published.** The methods note gives, for each lens and period, precision, recall, agreement between agents and the number of checked examples.
+9. **Published.** The methods note gives, for each lens and period, precision, recall and the number of checked examples, and for each lens the agreement between the labeller and the check.
 
 ## 5. Hosting and delivery
 
@@ -220,6 +224,7 @@ The user left the calibration method to the main agent, asking for the most tech
 ## 7. Deferred to version 2
 
 - The framing axis: how drugs are framed, from security to health (2026-09-26 18:02, r476).
+- Comparing a selection's words with its own past (open point 9, 2026-09-29 21:56, s4 r2316).
 - Sentence-level scores: about 1.2 million sentences, the same text and about 37 million tokens as the fragments, so about 8 hours or more of embedding. To be evaluated later (user, 2026-09-29 03:55).
 
 ## 8. Superseded decisions
@@ -242,36 +247,27 @@ The user left the calibration method to the main agent, asking for the most tech
 | Yes/no fragment shares (r591) | Graded shares: the mean probability (2026-09-29 04:14, s2 r13835) |
 | One UMAP per layer, the fragments' through a 64-dimension PCA (r476, r679) | One map fitted on the full fragment vectors; speeches and later fragments placed on it (2026-09-29 18:49, s4 r670) |
 | Speeches placed on the map by their whole-text vector (2026-09-29 18:49) | Placed by the mean of their fragments' vectors, which spreads each year's speeches by subject (2026-09-29 20:44) |
+| Whole-speech vectors for the hover passage and the country alignment (r679, r683) | The mean of the speech's fragment vectors for its place, its hover passage and the alignment; whole-speech embeddings dropped (2026-09-29 21:56, s4 r2316) |
+| Three labellers read every fragment, a fourth decides disagreements, five agents at a time (s2 r13904) | One labeller, ten at a time, with a check of about 600 fragments at maximum effort and a resolver; codebook 1.2 (2026-09-29 21:56, s4 r2316) |
+| "2026 (en curso)" in the year selector (proposed r591; confirmed r683) | "2026", like any other year, with no label or note (2026-09-29 21:56, s4 r2316) |
 | Composition by the widest margin over calibrated cut-offs (r659) | The lens with the highest probability, at 0.5 or more (2026-09-29 05:02, s2 r13904) |
 | 2024 texts from the corpus v14 (r92) | The official verbatim records A/79/PV.7–17 (2026-09-29 05:51, s2 r14183) |
 | 2026 added when the dataset authors publish it (proposed r81) | Provisional 2026 now (2026-09-26 18:02, r476; 18:12, r575) |
 
 ## 9. Open points
 
-These are not settled. The mockup's handling is noted where it had to choose. Points 4, 7 and 10 were settled on 2026-09-29 (s2 r9207) and are listed after the open ones.
+None. On 2026-09-29 the user settled points 4, 7 and 10 (s2 r9207) and approved the mockup's handling of the others (2026-09-29 21:56, s4 r2316).
 
-1. **Summary sentence under the strip.** The proposal was option C "with A's sentence under it" (r565); the user answered only "C" (r575). The mockup shows the strip without the sentence.
-2. **Distinctive words on the Country tab.** They were in the proposal the user accepted (r633, r659) but are missing from the confirmed plan (r679, r683). The mockup follows the confirmed plan and leaves them out.
-3. **Label of the no-field-office group.** The confirmed label is "Covered from Headquarters" (r659, r683). A later internal note, never put to the user, suggested a factual label such as "Sin oficina de terreno de UNODC". The mockup uses the confirmed label.
-5. **Strip details:**
-   - the default lens, and whether the strip keeps option C's "all UNODC topics" tile (shown in r565, never discussed);
-   - how the strip shows two or three selections at once.
-
-   The mockup keeps the tile, opens on it, shows the ratio for the first selection, and shows a dot for every selection.
-6. **Country tab details:**
-   - the default country;
-   - what "all years" shows;
-   - how similarity is expressed to non-technical readers.
-
-   The mockup opens on Colombia (the user's own example), adds up all years, and shows similarity as a percentile within the year, as `docs/data-contract.md` proposes.
-8. **Visual treatment of provisional 2026.** Beyond the selector label, nothing is agreed, for example on the trend. The mockup predates the 2026 texts, which were tidied on 2026-09-28.
-9. **Word comparison with the selection's own past.** It was suggested for version 2 (r565). The user answered only for the MVP (r575).
-
-Settled on 2026-09-29:
-
-- **4. Alternative development:** measured like every lens, and shown with a trend line only if it passes the calibration bar; otherwise through excerpts only (section 4.1, step 6).
-- **7. Group weighting:** each country weighs the same, over fragment shares (section 4, Metric); `docs/data-contract.md` now says so.
-- **10. Nauru's new name:** filed under NRO for all years and named Naoero, with "Nauru (2000–2025)" on hover (section 2).
+1. **Summary sentence under the strip:** none; the strip stands alone.
+2. **Distinctive words on the Country tab:** left out, as in the confirmed plan (r679, r683); selecting a country on the Regions tab shows them.
+3. **Label of the no-field-office group:** "Covered from Headquarters" ("Cubiertos desde la Sede"), as confirmed (r659, r683).
+4. **Alternative development:** measured like every lens, and shown with a trend line only if it passes the calibration bar; otherwise through excerpts only (section 4.1, step 6).
+5. **Strip:** it keeps the "all UNODC topics" tile and opens on it, shows the ratio for the first selection, and a dot for every selection.
+6. **Country tab:** it opens on Colombia, "all years" adds the years up, and similarity is shown as a percentile within the year, as `docs/data-contract.md` proposes.
+7. **Group weighting:** each country weighs the same, over fragment shares (section 4, Metric); `docs/data-contract.md` says so.
+8. **2026:** shown as "2026", like any other year, with no label or note (section 2).
+9. **Word comparison with the selection's own past:** version 2 (section 7).
+10. **Nauru's new name:** filed under NRO for all years and named Naoero, with "Nauru (2000–2025)" on hover (section 2).
 
 ## Design files
 

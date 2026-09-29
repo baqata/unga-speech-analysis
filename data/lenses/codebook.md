@@ -1,6 +1,7 @@
 # UNODC lens codebook: labelling guide for speech fragments
 
-Version 1.1 (September 2026; adds the boundary rules and examples of section 5 after review).
+Version 1.2 (September 2026). Version 1.1 added the boundary rules and examples of section 5 after review;
+1.2 tightens `peace` (4.10), series and lists (3.2) and generic crime (5.2, section 6) after the pilot labelling.
 Companion to `data/lenses/lenses.yaml`, which holds the
 machine-readable definitions, include and exclude lists, era vocabulary and anchor
 passages. Where this guide and the YAML differ, report the difference; do not resolve it
@@ -72,6 +73,19 @@ claims a link between them is `substantive` (above).
 
 - Yes: "The new threats we face, from terrorism and drug trafficking to pandemics, know no borders." (`drugs` list, `terrorism` list)
 
+A series can also be one of commitments, demands or means, written as verb phrases: "to fight against
+poverty, violence, terror and crime"; "it must release the political prisoners, abstain from
+sponsoring terrorism and respect the freedom of the press"; "they used every means, from alliances with
+organized crime to support from terrorist networks". An item of a series is `list` unless the
+fragment develops that item with a fact, actor, cause, effect, place or measure of its own. A subject
+shared by the whole series, such as the State to which all the demands are addressed, develops no
+single item. A meeting, conference or special session named in a list of meetings is `list` for its
+topic.
+
+A series can run across sentences. A sentence that makes a claim about its own item ("Nor have we
+advanced on disarmament: the conference has not held a substantive session for years") develops it,
+and the item is `substantive`.
+
 If a lens is both listed and developed in a full sentence elsewhere in the fragment, record
 `substantive`.
 
@@ -79,7 +93,7 @@ If a lens is both listed and developed in a full sentence elsewhere in the fragm
 
 - The topic appears only inside a modifier, a name or a date: "the Vienna meeting on drugs, which I attended, showed the value of multilateralism"; "the peace agreement includes a programme of crop substitution" gives `alternative_development` and `drugs`, not `peace`. Exception: nouns that name an actor or asset by its crime count as a mention of that crime, because the crime is what the noun refers to: "drug cartels", "drug traffickers", "drug-trafficking organizations", "drug lords", "drug money", "terrorist groups", "human traffickers", "people smugglers", "poachers". "Cartels" alone counts for `drugs` only when the fragment identifies them as drug cartels.
 - The topic appears only in a subordinate clause that adds no claim about it: "... prisons full of small-scale offenders ..." inside a sentence about drug policy does not add `criminal_justice`.
-- The topic appears only in a relative or participial clause that identifies an actor or adds a means, while the main clause makes a claim about something else: "the ivory is smuggled out by the same networks that traffic arms and drugs" (no `drugs`); "the terrorist groups that finance themselves with cocaine are weaker than ever" (no `drugs`); "..., buying the silence of officials" (no `corruption` from that clause alone). A topic counts when it is the subject, the main verb or the object of the main verb of a clause of its own.
+- The topic appears only in a relative or participial clause that identifies an actor or adds a means, while the main clause makes a claim about something else: "the ivory is smuggled out by the same networks that traffic arms and drugs" (no `drugs`); "the terrorist groups that finance themselves with cocaine are weaker than ever" (no `drugs`); "..., buying the silence of officials" (no `corruption` from that clause alone). A topic counts when it is the subject, the main verb or the object of the main verb of a clause of its own. A relative clause that carries the point of the sentence, such as a consequence or a risk ("we oppose a hasty withdrawal of the mission, which would let the militias return to the villages"), is a clause of its own.
 - Metaphor, invective or ceremony: "corruption of values", "a gang of criminals" said of a government, "peace-loving nations", "held hostage by the veto".
 - Pronouns or allusions whose referent is not identifiable inside the fragment ("this scourge", "that plague"). Fragments are labelled on their own text only; do not look at neighbouring fragments. Mention the unresolved referent in `note`.
 
@@ -504,7 +518,14 @@ N2 (2000s)
 
 ### 4.10 `peace` (Peace and security, reference lens)
 
-- Label war and armed conflict, ceasefires, conflict prevention and mediation, peace processes and agreements (including the demobilization and reintegration of combatants), peacekeeping and peacebuilding, collective security and the Security Council's role, and disarmament framed as serving peace.
+- Label `peace` for a sentence about a concrete matter of peace and security:
+  - a specific war, armed conflict, occupation, aggression or dispute between States or armed parties, named or identifiable in the fragment; the parties, the place or the act are enough ("arms keep reaching the invading forces", "the shelling of our border towns", "our dispute with our neighbour over the river");
+  - relations between rival Powers or blocs discussed as tension, détente or the danger of war (the cold war, the arms race);
+  - ceasefires, conflict prevention and mediation, peace processes and agreements (including the demobilization and reintegration of combatants), peacekeeping and peacebuilding;
+  - disarmament and arms control, however framed: a sentence on what disarmament would do for development is `peace` (this refines the YAML's "framed in terms of peace and security");
+  - the Security Council's action on a situation, its reform, its working methods or the veto, and the sanctions or embargoes it decides.
+- General invocations carry no label: peace as an aspiration or a value ("lasting peace", "the cause of peace", "a world of peace"), conflict or war among the world's ills with no referent ("conflict remains the enemy of development"), and "the maintenance of international peace and security" as the purpose of the Organization or a general duty of its Members. In an enumeration they are `list` (3.2).
+- Apartheid, racism and colonialism are not `peace` by themselves. Add `peace` when a sentence is about armed struggle, military attacks or aggression, military occupation, or Security Council measures connected with them. Calls on States to isolate or boycott a regime are not Security Council measures.
 - The release of hostages or detainees demanded as part of a ceasefire or end of a war, when their taking is not described as terrorism, is `peace` only (section 5.2).
 - Ceremonial uses ("peace-loving", congratulations, "a world of peace and prosperity"), peaceful uses of nuclear energy, social peace in a domestic economic sense: not this lens.
 - Crime or violence without armed conflict, including "war on drugs" or "war on crime": not this lens.
@@ -522,6 +543,13 @@ P2 (1990s)
 
 ```json
 {"frag_id": "ex-peace-p2", "lenses": ["peace"], "mention_type": {"peace": "substantive"}, "confidence": 3, "note": ""}
+```
+
+P4 (1970s)
+> The resources swallowed by the arms race could transform the prospects of the developing world. Even a tenth of military budgets, released by genuine disarmament, would finance the programmes of this Development Decade.
+
+```json
+{"frag_id": "ex-peace-p4", "lenses": ["peace"], "mention_type": {"peace": "substantive"}, "confidence": 3, "note": "Disarmament is peace however framed, including by its benefits for development (4.10)."}
 ```
 
 P3 (2010s)
@@ -543,6 +571,20 @@ N2 (2000s)
 
 ```json
 {"frag_id": "ex-peace-n2", "lenses": ["criminal_justice"], "mention_type": {"criminal_justice": "substantive"}, "confidence": 3, "note": "'War zone' is a metaphor for urban crime."}
+```
+
+N3 (2010s)
+> We believe that lasting peace can only rest on development and justice. Our foreign policy is guided by the cause of peace, friendship among nations and respect for international law.
+
+```json
+{"frag_id": "ex-peace-n3", "lenses": [], "mention_type": {}, "confidence": 3, "note": "Peace invoked as an aspiration and a value, with no war, process or measure (4.10)."}
+```
+
+N4 (1970s)
+> The Assembly must intensify the campaign against apartheid. We call on all States to break off trade and cultural relations with the racist regime until the majority of the people enjoy their rights.
+
+```json
+{"frag_id": "ex-peace-n4", "lenses": [], "mention_type": {}, "confidence": 3, "note": "Apartheid and a call to isolate the regime, with no armed struggle, occupation or Security Council measure (4.10)."}
 ```
 
 ## 5. Co-labelling and boundary rules
@@ -622,6 +664,13 @@ alone appears in over 60 speeches), so it does not signal the demand side by its
 | Violence against women or girls with a criminal-justice element: femicide or other criminal offences, police, prosecution, courts, protection orders, impunity, crime prevention programmes | `criminal_justice` |
 | Violence against women named only as a gender-equality or human-rights goal | no lens |
 | Conflict-related sexual violence | `peace`; add `criminal_justice` only if its prosecution by national authorities is discussed |
+
+**Generic crime.** "Crime", "crimes", "criminal activities" or "criminality" with no type or group
+named give no crime lens, in an enumeration or in a full sentence: "criminal and terrorist activities
+threaten the whole region" gives `terrorism` only, and "violence, terror and crime" gives `terrorism`
+`list` only. Label `organized_crime` when the fragment names organized or transnational crime, or
+criminal groups, gangs, cartels, mafias or networks; a specific lens when it names a specific crime;
+`criminal_justice` when it discusses crime prevention, crime rates, policing, courts or prisons.
 
 **Terrorist labels.** Apply the single rule in 4.6 in every era: terrorist acts or groups
 described as such, or a discussion of what counts as terrorism (including an explicit rebuttal of
@@ -739,6 +788,8 @@ B13 (2012)
 | "terrorist methods", "terrorize" said of criminal groups | `organized_crime`, not `terrorism`, unless the acts are called terrorism |
 | "drug abuse and illicit trafficking", "the scourge of drug abuse", "reduce supply and demand" | `drugs`, not `prevention_treatment` |
 | "eliminate all forms of violence against women" as a gender-equality goal | no lens without a criminal-justice element |
+| "crime", "crimes", "criminal activities" with no type or group named | generic crime: no crime lens (5.2) |
+| "lasting peace", "the cause of peace", "the maintenance of international peace and security" as a purpose | general invocation: no label, or `list` in an enumeration (4.10) |
 | "international crime", "gangs", "extortion" before about 1990 | usually aggression, apartheid or political invective, not `organized_crime` |
 | "territorial integrity", "integrity" in general | not `corruption` |
 | "returnees" (refugees), "servitude" (colonial or political), "value chains" (trade), "bombing" (aerial war before 1990) | not the crime lenses |
@@ -774,7 +825,8 @@ the spelling.
 | narcotraffic, narco-trafficking, narcotics traffic, microtrafficking | drug trafficking (retail dealing for micro-) | `drugs` |
 | stupefacients, psychoactive substances, drug consumption | narcotic drugs, drug use | `drugs` / `prevention_treatment` |
 | illicit crops, substitution of crops | drug crops, crop substitution | `drugs` / `alternative_development` |
-| organized delinquency, delinquency (from "delincuencia") | crime, organized crime (not juvenile delinquency) | `organized_crime` / `criminal_justice` |
+| organized delinquency (from "delincuencia organizada") | organized crime | `organized_crime` |
+| delinquency (from "delincuencia") | crime in general (not juvenile delinquency) | generic crime (5.2); `criminal_justice` when crime prevention or citizen security is discussed |
 | sicarios, hired assassins, extortion rackets | organized crime | `organized_crime` |
 | trata, trafficking of persons, traffic in persons | trafficking in persons | `trafficking_smuggling` |
 | traffic of migrants, illicit traffic of migrants | migrant smuggling | `trafficking_smuggling` |
@@ -820,4 +872,5 @@ Checklist before returning a record:
 2. `mention_type` has exactly the same ids as `lenses`.
 3. If `prevention_treatment` or `alternative_development` is present, `drugs` is present with an equal or stronger mention type (`expand_labels` in `pipeline/lenses.py` applies this).
 4. No lens was assigned from a metaphor, a formula, a name, or a referent outside the fragment.
+5. Every `peace` rests on a concrete matter of peace and security (4.10), and every crime lens on a named crime or criminal group or, for `criminal_justice`, on the justice system, crime prevention or crime rates (5.2).
 5. Whenever `confidence` is below 3, `note` says why.

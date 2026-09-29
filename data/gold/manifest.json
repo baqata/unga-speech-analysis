@@ -56,5 +56,14 @@
     "b032",
     "b033"
   ],
-  "batches": 167
+  "batches": 167,
+  "revisions": [
+    {
+      "at": "2026-09-29T22:10:43+00:00",
+      "protocol_sha256": "e47e23926904d09a811318e00383184cf85f365489203415037643e87d8207cf",
+      "codebook_sha256": "7cde251af0a925cca5d92d02454df94e24a4c435cf4be0d1456f5db2a1c54a4f",
+      "lenses_sha256": "acac1d6aad3fbd18e65d18bd2e233cd510165380cc6710692550776c723776dd",
+      "note": "Codebook 1.2 and one core labeller with a targeted check (user, 2026-09-29 21:56 UTC). Sample, sets and batches unchanged; the pilot labels under 1.1 moved to data/gold/pilot-v1.1/."
+    }
+  ]
 }

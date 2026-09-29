@@ -123,13 +123,11 @@ def synthetic_inputs():
     fr = pd.DataFrame({"frag_id": np.arange(len(rows)), "speech_id": [r[0] for r in rows],
                        "text": [KINDS[r[1]][0] for r in rows]})
     femb = ex.unit_rows(rng.normal(size=(len(rows), 8)))
-    s_of = [list(SPEECHES).index(r[0]) for r in rows]
-    semb = ex.unit_rows(np.array([femb[np.array(s_of) == s].mean(axis=0) for s in range(len(sp))]))
     vec = CountVectorizer(analyzer=ex.terms_of)
     x = vec.fit_transform(fr["text"]).tocsr()
     return {
         "speeches": sp, "frags": fr, "P": np.array([KINDS[r[1]][1] for r in rows], dtype=np.float32),
-        "general": np.array([KINDS[r[1]][2] for r in rows]), "femb": femb.astype(np.float16), "semb": semb,
+        "general": np.array([KINDS[r[1]][2] for r in rows]), "femb": femb.astype(np.float16),
         "fxy": rng.normal(size=(len(rows), 2)), "sxy": rng.normal(size=(len(sp), 2)),
         "X": x, "vocab": vec.get_feature_names_out().tolist(),
         "countries": [{"iso3": c, "es": c, "en": c, "map_id": None, "map_extra": [], "point": None, "hist": []}
@@ -189,6 +187,11 @@ def test_build_writes_the_contract(tmp_path, monkeypatch):
     speeches = load("speeches.json")
     assert speeches["ARG"]["2025"][0] == "" and speeches["COL"]["2025"][0] == "C. Name"
     assert speeches["ARG"]["2024"][0] == "A. Name, President" and speeches["FRA"]["2025"][1]
+    femb, fr = inp["femb"].astype(np.float32), inp["frags"]
+    for sid, iso3, year in inp["speeches"][["speech_id", "iso3", "year"]].itertuples(index=False):
+        rows = np.flatnonzero(fr["speech_id"].to_numpy() == sid)  # the passage is the fragment nearest the mean
+        best = rows[np.argmax(femb[rows] @ femb[rows].mean(axis=0))]
+        assert speeches[iso3][str(year)][1] == ex.clip(fr["text"][best], ex.REP_CHARS)
 
     al = load("alignment/2025.json")
     assert set(al) == {"ARG", "COL", "FRA"} and len(al["ARG"]["overall"]["top"]) == 2

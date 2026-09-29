@@ -63,7 +63,7 @@ One point per fragment or speech, 10 bytes each, stored one column after another
 ### `speeches.json` (lazy, with the Speeches layer or the Country tab)
 
 - Shape: `{ "<iso3>": { "<year>": ["<speaker, post>", "<passage>"] } }`.
-- The passage is the most representative one: the start of the fragment nearest the whole-speech vector, cut at 160 characters. A fragment point's hover shows its country, year and topic, not its text.
+- The passage is the most representative one: the start of the fragment nearest the mean of the speech's fragment vectors, cut at 160 characters. A fragment point's hover shows its country, year and topic, not its text.
 - The site publishes short passages only (this file and the excerpts), never whole speeches: the corpus itself is cited, not committed (`docs/PLAN.md`, section 5).
 
 ### `composition.json` (loaded with the Country tab)
@@ -73,14 +73,14 @@ One point per fragment or speech, 10 bytes each, stored one column after another
 
 ### `alignment/<year>.json` (lazy, per year)
 
-`{ "<iso3>": { overall: {...}, unodc: {...} \| null } }`, and `alignment/all.json` for all years, where each country is the mean of its speech vectors.
+`{ "<iso3>": { overall: {...}, unodc: {...} \| null } }`, and `alignment/all.json` for all years, where each country is the mean of its speech vectors. A speech's vector is the mean of its fragments' vectors; whole-speech embeddings are not used.
 
 Each of `overall` and `unodc` holds:
 - `top`: `[[iso3, pct, raw], ...]`, the five most similar countries;
 - `groups`: `[[slug, pct, raw], ...]`, every group with at least one other member that year.
 
 What the two measures use:
-- `overall` uses whole-speech vectors.
+- `overall` uses the mean vector of all the speech's fragments.
 - `unodc` uses the mean vector of the speech's fragments about a UNODC lens (peace, the reference, left out). It is `null` when the speech has none.
 - A group's vector is the centroid of its members' vectors, the country itself left out, each member weighing the same.
 - `pct` is the percentile within the period: among all country pairs for `top`, among all country-group values for `groups`, so that it reads as "more aligned than N% of pairs". `raw` is the cosine, kept for QA.

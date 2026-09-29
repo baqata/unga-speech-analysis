@@ -4,10 +4,12 @@ Commands (from the repo root), in order:
     uv run python -m pipeline.calibrate lens-vectors   # embed each lens's definition (query) and anchors
     uv run python -m pipeline.calibrate scores         # sampling score of every fragment
     uv run python -m pipeline.calibrate sample         # draw the labelled sample, write the labelling batches
-    uv run python -m pipeline.calibrate check labels l1/b001   # an agent checks its own output file
+    uv run python -m pipeline.calibrate check labels core/b001   # an agent checks its own output file
+    uv run python -m pipeline.calibrate checkset       # draw the check set from the core labels
+    uv run python -m pipeline.calibrate check labels check/c001
+    uv run python -m pipeline.calibrate collect        # agreement of the two labellers; resolver queue
     uv run python -m pipeline.calibrate check resolved r001
-    uv run python -m pipeline.calibrate collect        # check the labellers' records; agreement; resolver queue
-    uv run python -m pipeline.calibrate final          # final labels (unanimous or resolved)
+    uv run python -m pipeline.calibrate final          # final labels (core, or resolved)
     uv run python -m pipeline.calibrate fit            # one classifier per lens on the training set
     uv run python -m pipeline.calibrate test           # pass bar and share check on the validation set
     uv run python -m pipeline.calibrate predict        # probability of every fragment on every lens
@@ -40,7 +42,9 @@ BIN_EDGES = np.array([1 / 100, 1 / 50, 1 / 25, 2 / 25, 4 / 25, 8 / 25])
 PER_BIN = 25  # 6 bins x 25 = 150 draws where each lens is most likely, per period
 LOWER_PER_STRATUM = 30  # key-term fragments outside the top 8/25, per lens and period
 BATCH_SIZE = 150
-LABELLERS = ("l1", "l2", "l3")
+CORE, CHECKER = "core", "check"  # the core labeller and the check labeller (docs/calibration.md, section 4)
+CHECK_PER_GROUP = 30  # per lens: fragments the core labeller marked positive, and near-misses
+KAPPA_BAR = 0.8  # a lens below it goes back to the user
 PENALTIES = (0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0)
 FOLDS = 5
 THRESHOLD = 0.5
@@ -55,6 +59,9 @@ SAMPLE = GOLD / "sample.parquet"
 MANIFEST = GOLD / "manifest.json"
 BATCHES = GOLD / "batches"
 LABELS = GOLD / "labels"
+CHECK = GOLD / "check"
+CHECKSET = GOLD / "checkset.json"
+AGREEMENT = GOLD / "agreement.json"
 RESOLVE = GOLD / "resolve"
 RESOLVED = GOLD / "resolved"
 FINAL = GOLD / "labels_final.parquet"
@@ -384,39 +391,53 @@ def check_record(rec: dict, ids: list[str], codebook) -> tuple[dict, list[str]]:
     return expand_labels(clean, codebook), problems
 
 
-def read_labeller(labeller: str, sample: pd.DataFrame, ids: list[str], codebook) -> dict:
-    """{gid: expanded mention types} for one labeller; raises on missing or invalid records."""
-    out, problems = {}, []
-    for batch, rows in sample.groupby("batch"):
-        path = LABELS / labeller / f"{batch}.jsonl"
+def input_dir(labeller: str) -> Path:
+    """Where a labeller's input files are: the sample's batches for the core labeller, the check set's for the
+    check labeller."""
+    if labeller not in (CORE, CHECKER):
+        raise CalibrationError(f"unknown labeller {labeller!r}; the labellers are {CORE} and {CHECKER}")
+    return CHECK if labeller == CHECKER else BATCHES
+
+
+def read_labeller(labeller: str, ids: list[str], codebook) -> tuple[dict, dict]:
+    """({gid: expanded mention types}, {gid: record}) for one labeller over all its input files; raises on
+    missing or invalid records."""
+    out, raw, problems = {}, {}, []
+    inputs = sorted(input_dir(labeller).glob("*.jsonl"))
+    if not inputs:
+        raise CalibrationError(f"no input files for labeller {labeller}")
+    for src in inputs:
+        path = LABELS / labeller / src.name
         if not path.exists():
-            problems.append(f"{labeller}/{batch}: missing")
+            problems.append(f"{labeller}/{src.stem}: missing")
             continue
-        expected = set(rows["gid"])
+        expected = {r["frag_id"] for r in read_jsonl(src)}
         seen = set()
         for rec in read_jsonl(path):
             gid = rec.get("frag_id")
             if gid not in expected or gid in seen:
-                problems.append(f"{labeller}/{batch}: unexpected or repeated id {gid!r}")
+                problems.append(f"{labeller}/{src.stem}: unexpected or repeated id {gid!r}")
                 continue
             seen.add(gid)
             types, bad = check_record(rec, ids, codebook)
-            problems += [f"{labeller}/{batch}/{gid}: {p}" for p in bad]
-            out[gid] = types
+            problems += [f"{labeller}/{src.stem}/{gid}: {p}" for p in bad]
+            out[gid], raw[gid] = types, rec
         if expected - seen:
-            problems.append(f"{labeller}/{batch}: {len(expected - seen)} id(s) without a record")
+            problems.append(f"{labeller}/{src.stem}: {len(expected - seen)} id(s) without a record")
     if problems:
         raise CalibrationError("\n".join(problems[:50]) + (f"\n... {len(problems) - 50} more"
                                                            if len(problems) > 50 else ""))
-    return out
+    return out, raw
 
 
 def check_file(kind: str, name: str) -> list[str]:
-    """Problems in one output file: a labeller's batch ("labels", "l1/b001") or a resolver's
-    file ("resolved", "r001"). Records must follow their input file, one per line, in order."""
+    """Problems in one output file: a labeller's batch ("labels", "core/b001" or "check/c001") or a
+    resolver's file ("resolved", "r001"). Records must follow their input file, one per line, in order."""
     if kind == "labels":
         labeller, batch = name.split("/")
-        src, out = BATCHES / f"{batch}.jsonl", LABELS / labeller / f"{batch}.jsonl"
+        if labeller not in (CORE, CHECKER):
+            return [f"unknown labeller {labeller!r}; the labellers are {CORE} and {CHECKER}"]
+        src, out = input_dir(labeller) / f"{batch}.jsonl", LABELS / labeller / f"{batch}.jsonl"
     else:
         src, out = RESOLVE / f"{name}.jsonl", RESOLVED / f"{name}.jsonl"
     if not out.exists():
@@ -445,58 +466,119 @@ def check_file(kind: str, name: str) -> list[str]:
     return problems
 
 
-def fleiss_kappa(votes: np.ndarray) -> float:
-    """Fleiss' kappa for binary votes: votes[i] = number of raters (of 3) saying positive."""
-    n = 3
-    counts = np.column_stack([votes, n - votes]).astype(float)
-    p_i = (counts * (counts - 1)).sum(axis=1) / (n * (n - 1))
-    p_j = counts.sum(axis=0) / (len(votes) * n)
-    p_e = (p_j ** 2).sum()
-    return float((p_i.mean() - p_e) / (1 - p_e)) if p_e < 1 else float("nan")
+def cohen_kappa(a, b) -> float | None:
+    """Cohen's kappa of two raters' binary labels; None when chance agreement is total."""
+    a, b = np.asarray(a, dtype=bool), np.asarray(b, dtype=bool)
+    pe = a.mean() * b.mean() + (1 - a.mean()) * (1 - b.mean())
+    return float(((a == b).mean() - pe) / (1 - pe)) if pe < 1 else None
+
+
+def draw_checkset(force: bool = False) -> dict:
+    """The check set (docs/calibration.md, section 4): for each lens, 30 fragments the core labeller marked
+    positive and 30 near-misses, fragments it marked negative whose score is at least the median score of its
+    positives; each group drawn at random, or taken whole when smaller. Written in random order to files of up
+    to 150 fragments."""
+    if (LABELS / CHECKER).exists() and any((LABELS / CHECKER).glob("*.jsonl")):
+        raise CalibrationError("check labels exist; the check set cannot be redrawn.")
+    if CHECKSET.exists() and not force:
+        raise CalibrationError(f"{CHECKSET} exists; the check set is drawn once (use --force to redraw before "
+                               "any check label is written).")
+    codebook = load_lenses()
+    ids = lens_ids(codebook)
+    core, _ = read_labeller(CORE, ids, codebook)
+    sample = pd.read_parquet(SAMPLE).sort_values("gid").reset_index(drop=True)
+    missing = set(sample["gid"]) - set(core)
+    if missing:
+        raise CalibrationError(f"{len(missing)} sampled fragment(s) have no core label")
+    scores = pd.read_parquet(SCORES).set_index("frag_id").loc[sample["frag_id"]]
+    gids = sample["gid"].to_numpy()
+    rng = np.random.default_rng(SEED + 3)
+    lenses, chosen = {}, set()
+    for lens in ids:
+        y = np.array([core[g].get(lens) == "substantive" for g in gids], dtype=bool)
+        s = scores[f"s_{lens}"].to_numpy()
+        near = ~y & (s >= np.median(s[y])) if y.any() else np.zeros(len(y), dtype=bool)
+        groups = {}
+        for name, mask in (("positives", y), ("near_misses", near)):
+            pool = gids[mask]
+            pick = pool if len(pool) <= CHECK_PER_GROUP else rng.choice(pool, CHECK_PER_GROUP, replace=False)
+            groups[name] = sorted(str(g) for g in pick)
+            groups[f"{name}_available"] = int(len(pool))
+        lenses[lens] = groups
+        chosen.update(groups["positives"] + groups["near_misses"])
+    text = {r["frag_id"]: r for p in sorted(BATCHES.glob("*.jsonl")) for r in read_jsonl(p)}
+    order = [str(g) for g in rng.permutation(sorted(chosen))]
+    if CHECK.exists():
+        for old in CHECK.glob("*.jsonl"):
+            old.unlink()
+    files = {}
+    for i, part in enumerate(np.array_split(np.arange(len(order)), int(np.ceil(len(order) / BATCH_SIZE))), 1):
+        write_jsonl(CHECK / f"c{i:03d}.jsonl", [{"frag_id": order[k], "year": text[order[k]]["year"],
+                                                  "text": text[order[k]]["text"]} for k in part])
+        files[f"c{i:03d}"] = len(part)
+    out = {"drawn_at": now(), "seed": SEED + 3, "per_group": CHECK_PER_GROUP, "fragments": len(order),
+           "files": files, "lenses": lenses}
+    write_json(CHECKSET, out)
+    return out
 
 
 def collect() -> dict:
-    """Check the three labellers' records, report agreement and write the resolver queue."""
+    """Agreement of the two labellers on the check set (docs/calibration.md, section 4), and the resolver queue:
+    every pair (fragment, lens) of the check set on which they differ about `substantive`."""
     codebook = load_lenses()
     ids = lens_ids(codebook)
-    sample = pd.read_parquet(SAMPLE)
-    records = {lab: read_labeller(lab, sample, ids, codebook) for lab in LABELLERS}
-    raw = {lab: {r["frag_id"]: r for b in sorted((LABELS / lab).glob("b*.jsonl")) for r in read_jsonl(b)}
-           for lab in LABELLERS}
-    gids = sample["gid"].tolist()
-    agreement, queue = {}, {}
+    if not CHECKSET.exists():
+        raise CalibrationError("No check set; run `python -m pipeline.calibrate checkset`.")
+    cs = json.loads(CHECKSET.read_text())
+    core, core_raw = read_labeller(CORE, ids, codebook)
+    check, check_raw = read_labeller(CHECKER, ids, codebook)
+    agreement = {}
     for lens in ids:
-        votes = np.array([sum(records[lab][g].get(lens) == "substantive" for lab in LABELLERS)
-                          for g in gids])
-        agreement[lens] = {"kappa": round(fleiss_kappa(votes), 3),
-                           "unanimous": round(float(np.isin(votes, (0, 3)).mean()), 3),
-                           "positive_votes": int(votes.sum())}
-        for g, v in zip(gids, votes):
-            if v in (1, 2):
-                queue.setdefault(g, []).append(lens)
-    text = {}
-    for path in sorted(BATCHES.glob("b*.jsonl")):
-        text.update({r["frag_id"]: r for r in read_jsonl(path)})
-    rows = [{"frag_id": g, "year": text[g]["year"], "text": text[g]["text"], "lenses": queue[g],
-             "records": [raw[lab][g] for lab in LABELLERS]} for g in gids if g in queue]
+        pos, near = cs["lenses"][lens]["positives"], cs["lenses"][lens]["near_misses"]
+        a = np.array([core[g].get(lens) == "substantive" for g in pos + near], dtype=bool)
+        b = np.array([check[g].get(lens) == "substantive" for g in pos + near], dtype=bool)
+        k = cohen_kappa(a, b) if len(a) else None
+        agreement[lens] = {"kappa": None if k is None else round(k, 3), "checked": len(a),
+                           "positives_confirmed": round(float(b[:len(pos)].mean()), 3) if pos else None,
+                           "near_misses_confirmed": round(float(1 - b[len(pos):].mean()), 3) if near else None}
+    queue = {}
+    for g in sorted(check):
+        diff = [lens for lens in ids
+                if (core[g].get(lens) == "substantive") != (check[g].get(lens) == "substantive")]
+        if diff:
+            queue[g] = diff
+    text = {r["frag_id"]: r for p in sorted(CHECK.glob("*.jsonl")) for r in read_jsonl(p)}
+    rng = np.random.default_rng(SEED + 4)  # the resolver is not told which record is which
+    rows = []
+    for g, lenses in queue.items():
+        records = [core_raw[g], check_raw[g]]
+        if rng.random() < 0.5:
+            records.reverse()
+        rows.append({"frag_id": g, "year": text[g]["year"], "text": text[g]["text"], "lenses": lenses,
+                     "records": records})
     if RESOLVE.exists():
         for old in RESOLVE.glob("r*.jsonl"):
             old.unlink()
     n_files = int(np.ceil(len(rows) / BATCH_SIZE)) if rows else 0
     for i, part in enumerate(np.array_split(np.arange(len(rows)), n_files) if n_files else [], 1):
         write_jsonl(RESOLVE / f"r{i:03d}.jsonl", [rows[k] for k in part])
-    summary = {"checked_at": now(), "fragments": len(gids), "to_resolve": len(rows),
-               "resolve_files": n_files, "agreement": agreement}
-    write_json(GOLD / "agreement.json", summary)
+    summary = {"checked_at": now(), "check_fragments": len(check), "to_resolve": len(rows),
+               "resolve_files": n_files, "kappa_bar": KAPPA_BAR,
+               "below_bar": [lens for lens, v in agreement.items() if v["kappa"] is None or v["kappa"] < KAPPA_BAR],
+               "agreement": agreement}
+    write_json(AGREEMENT, summary)
     return summary
 
 
 def final_labels() -> pd.DataFrame:
-    """Final label per fragment and lens: unanimous, or the resolver's decision."""
+    """Final label per fragment and lens: the core label, or the resolver's decision where the two labellers
+    differed (docs/calibration.md, section 4)."""
     codebook = load_lenses()
     ids = lens_ids(codebook)
+    if not AGREEMENT.exists():
+        raise CalibrationError("No agreement report; run the check and `python -m pipeline.calibrate collect`.")
     sample = pd.read_parquet(SAMPLE)
-    records = {lab: read_labeller(lab, sample, ids, codebook) for lab in LABELLERS}
+    core, _ = read_labeller(CORE, ids, codebook)
     queue = {r["frag_id"]: r["lenses"] for p in sorted(RESOLVE.glob("r*.jsonl")) for r in read_jsonl(p)}
     resolved, problems = {}, []
     for path in sorted(RESOLVED.glob("r*.jsonl")) if RESOLVED.exists() else []:
@@ -517,14 +599,12 @@ def final_labels() -> pd.DataFrame:
         raise CalibrationError("\n".join(problems[:50]))
     rows = []
     for g in sample["gid"]:
-        types = {}
-        for lens in ids:
-            votes = [records[lab][g].get(lens) == "substantive" for lab in LABELLERS]
-            if lens in queue.get(g, []):
-                if resolved[g][lens] != "none":
-                    types[lens] = resolved[g][lens]
-            elif all(votes):
-                types[lens] = "substantive"
+        types = dict(core[g])
+        for lens in queue.get(g, []):
+            if resolved[g][lens] == "none":
+                types.pop(lens, None)
+            else:
+                types[lens] = resolved[g][lens]
         types = expand_labels(types, codebook)
         rows.append({"gid": g, **{lens: types.get(lens) == "substantive" for lens in ids}})
     final = sample[["gid", "frag_id", "speech_id", "year", "period", "split", "pi"]].merge(pd.DataFrame(rows),
@@ -720,8 +800,10 @@ def main(argv: list[str] | None = None) -> int:
     p_sample.add_argument("--force", action="store_true", help="redraw (only before any label exists)")
     p_check = sub.add_parser("check", help="check one labeller or resolver output file")
     p_check.add_argument("kind", choices=["labels", "resolved"])
-    p_check.add_argument("name", help='"l1/b01" for labels, "r01" for resolved')
-    sub.add_parser("collect", help="check the labellers' records, agreement, resolver queue")
+    p_check.add_argument("name", help='"core/b001" or "check/c001" for labels, "r001" for resolved')
+    p_cs = sub.add_parser("checkset", help="draw the check set from the core labels")
+    p_cs.add_argument("--force", action="store_true", help="redraw (only before any check label exists)")
+    sub.add_parser("collect", help="agreement of the two labellers on the check set, resolver queue")
     sub.add_parser("final", help="final labels")
     sub.add_parser("fit", help="one classifier per lens on the training set")
     sub.add_parser("test", help="pass bar and share check on the validation set")
@@ -740,6 +822,9 @@ def main(argv: list[str] | None = None) -> int:
             problems = check_file(args.kind, args.name)
             print("\n".join(problems) if problems else f"OK: {args.kind} {args.name}")
             return 1 if problems else 0
+        elif args.command == "checkset":
+            out = draw_checkset(force=args.force)
+            print(json.dumps({k: out[k] for k in ("fragments", "files")}, indent=2))
         elif args.command == "collect":
             print(json.dumps(collect(), indent=2))
         elif args.command == "final":

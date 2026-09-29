@@ -1,6 +1,6 @@
 # Lens calibration protocol
 
-This protocol implements `docs/PLAN.md`, section 4.1: the single method the user approved on 2026-09-29 (05:02 UTC), with its numbers and formulas fixed before any fragment is labelled. On 2026-09-29 (16:30 UTC) the user enlarged the sample to about 20,000 fragments to train and tune the classifiers and about 5,000 more to validate them; every part of the design was scaled by 2.5. The labelling rules are `data/lenses/codebook.md` (version 1.1) and the lens descriptions are `data/lenses/lenses.yaml`. The code is `pipeline/calibrate.py`; the sample, the labels and the results are in `data/gold/`.
+This protocol implements `docs/PLAN.md`, section 4.1: the single method the user approved on 2026-09-29 (05:02 UTC), with its numbers and formulas fixed before any fragment is labelled. On 2026-09-29 (16:30 UTC) the user enlarged the sample to about 20,000 fragments to train and tune the classifiers and about 5,000 more to validate them; every part of the design was scaled by 2.5. On 2026-09-29 (21:56 UTC) the user replaced the three labellers and their resolver with one labeller and a targeted check (section 4). The labelling rules are `data/lenses/codebook.md` (version 1.2) and the lens descriptions are `data/lenses/lenses.yaml`. The code is `pipeline/calibrate.py`; the sample, the labels and the results are in `data/gold/`.
 
 ## 1. Population and periods
 
@@ -13,7 +13,7 @@ This protocol implements `docs/PLAN.md`, section 4.1: the single method the user
 - **Items.** Each fragment, embedded as a document without a prompt. Sentences are not embedded separately (user decision, 2026-09-29 03:47 UTC: too much overhead).
 - **Lens vectors.** q_L, the embedding of `query_instruction + definition_en` (a query), and a_L1 … a_Lk, the embeddings of the lens's anchor passages (documents without a prompt).
 - **Score.** s_L(f) = (z(cos(f, q_L)) + z(max_j cos(f, a_Lj))) / 2, where z standardizes over U.
-- **Use.** s_L only decides where the sample is drawn (section 3). It plays no part in the classifiers or the shares.
+- **Use.** s_L decides where the sample is drawn (section 3) and which negatives enter the check set (section 4). It plays no part in the classifiers or the shares.
 
 ## 3. Sample
 
@@ -35,10 +35,17 @@ The sample file records, for every sampled fragment, π(f), π_R(f), π_S(f), it
 
 - **Training and validation sets.** A second seeded uniform, drawn per speech, puts one speech in five into the validation set: all the sampled fragments of those speeches, about 5,000. The other fragments, about 20,000, form the training set. Splitting by speech keeps fragments of one speech from appearing on both sides.
 - **Order.** The validation batches come first, so that the validation set is complete even if the labelling of the training set stops early. Any run of consecutive training batches is itself a random part of the training set.
-- **Labellers.** Three agents label every sampled fragment independently, following the codebook and returning its section 9 records. Each sees only an opaque id, the year and the text. They do not see the country, the speaker, the part, the set, any score or the other labellers' records. Batches of 150 fragments mix all parts in a random order; agents run five at a time.
-- **Resolver.** A fourth agent decides every pair (fragment, lens) on which the three labellers do not all agree about `substantive`. It sees the text, the year, the codebook and the three records, and nothing else.
-- **Final label.** The unanimous label or the resolver's decision.
-- **Agreement.** For each lens, Fleiss' kappa of the three labellers on the positive class, and the share of unanimous fragments, unweighted.
+- **Core labeller.** One agent (Opus, medium effort) labels every sampled fragment, following the codebook and returning its section 9 records. It sees only an opaque id, the year and the text: not the country, the speaker, the part, the set or any score. Batches of 150 fragments mix all parts in a random order; the agents run ten at a time (user, 2026-09-29 21:56 UTC).
+- **Check set.** Once every batch is labelled, the check set is drawn. For each lens L:
+  - 30 of the fragments the core labeller marked positive for L;
+  - 30 near-misses: fragments it marked negative whose score s_L is at least the median s_L of its positives for L.
+
+  Each group is drawn at random with seed 20260929 + 3, and taken whole when it has 30 fragments or fewer. The union, about 600 fragments, is written in random order to batches of up to 150 (`data/gold/check/`).
+- **Check labeller.** One agent at maximum effort (Opus, max) labels the check set blind, under the same rules and with the same view as the core labeller. It does not know how the fragments were chosen.
+- **Resolver.** Another agent at maximum effort decides every pair (fragment, lens) of the check set on which the two labellers differ about `substantive`. It sees the text, the year, the codebook and the two records, unattributed, and nothing else.
+- **Final label.** The core label, or the resolver's decision where the two labellers differed.
+- **Agreement.** For each lens, Cohen's kappa of the two labellers on the positive class over the lens's checked fragments, the share of the core positives the check confirms and the share of near-misses it confirms. A lens with kappa below 0.8, the usual bar for reliable coding in content analysis (Krippendorff), is brought to the user with its disagreements before the classifiers are fitted.
+- **Pilot.** Three labellers labelled b001 and b002 under codebook 1.1. Their 17 disagreements led to codebook 1.2 and to this design. Those labels are kept in `data/gold/pilot-v1.1/` and are not used; b001 and b002 are labelled again under 1.2 like every other batch.
 
 ## 5. Classifiers and probabilities
 
@@ -62,7 +69,7 @@ The sample file records, for every sampled fragment, π(f), π_R(f), π_S(f), it
 
 ## 7. Freeze and publication
 
-- Before any label is read, `data/gold/manifest.json` records:
+- Before any label is read, `data/gold/manifest.json` records the following. Its `revisions` list records the hashes of every later version of these files, each before any label under it is written:
   - the hashes of this file, `codebook.md` and `lenses.yaml`;
   - the seeds, λ, the expected and drawn sample sizes, and the size of each set.
 - The validation set is used once, by `test`, after the classifiers are fitted.
@@ -71,6 +78,6 @@ The sample file records, for every sampled fragment, π(f), π_R(f), π_S(f), it
 - The methods note gives, for each lens and period:
   - precision and recall with their intervals;
   - the number of positive validation fragments;
-  - kappa and the share of unanimous fragments;
+  - the agreement of section 4;
   - the share check;
   - the outcome: pass or short.
