@@ -240,13 +240,16 @@ def test_codebook_examples_are_valid(codebook):
         assert expand_labels(ex["mention_type"], codebook) == ex["mention_type"], ex["frag_id"]
 
 
-def test_codebook_has_three_positive_and_two_negative_examples_per_lens():
+def test_codebook_has_positive_and_negative_examples_per_lens():
+    # Three positive and two negative examples per lens; peace has four of each, since codebook 1.2 added
+    # examples for the rules of 4.10 (disarmament however framed, aspirations, apartheid).
     examples = codebook_examples()
     for lens_id in EXPECTED_IDS:
+        n_pos, n_neg = (4, 4) if lens_id == "peace" else (3, 2)
         pos = [e for e in examples if re.fullmatch(rf"ex-{lens_id}-p\d", e["frag_id"])]
         neg = [e for e in examples if re.fullmatch(rf"ex-{lens_id}-n\d", e["frag_id"])]
-        assert len(pos) == 3 and all(lens_id in e["lenses"] for e in pos), lens_id
-        assert len(neg) == 2 and all(lens_id not in e["lenses"] for e in neg), lens_id
+        assert len(pos) == n_pos and all(lens_id in e["lenses"] for e in pos), lens_id
+        assert len(neg) == n_neg and all(lens_id not in e["lenses"] for e in neg), lens_id
 
 
 def test_boundary_examples_have_notes():
