@@ -4,7 +4,7 @@
 # Usage: scripts/run_embeddings.sh [PART] [extra options for "run", e.g. --device cpu]
 #
 # With PART (e.g. stable), it embeds the parts fragments.PART and speeches.PART,
-# whose inputs must first be frozen with `python -m pipeline.embed snapshot`.
+# whose inputs must first be frozen with `uv run python -m pipeline.embed snapshot`.
 #
 # Safe to re-run: completed shards are skipped, so it resumes after a crash,
 # sleep or Ctrl-C. Keeps the Mac awake (caffeinate -dimsu) while it runs.

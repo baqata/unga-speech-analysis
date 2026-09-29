@@ -10,6 +10,7 @@ data/interim/
 __pycache__/
 *.pyc
 .pytest_cache/
+.ruff_cache/
 .DS_Store
 node_modules/
 # Tidy corpus copy (derived text) and working files
