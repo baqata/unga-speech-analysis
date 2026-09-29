@@ -1,11 +1,15 @@
-"""Embed fragments and whole speeches with Harrier-OSS-v1-0.6B, resumably.
+"""Embed fragments with Harrier-OSS-v1-0.6B, resumably.
 
 Commands (from the repo root):
-    uv run python -m pipeline.embed run {fragments|speeches} [--limit N] [--device auto|mps|cpu] [--token-budget T]
-    uv run python -m pipeline.embed finalize {fragments|speeches}
+    uv run python -m pipeline.embed run fragments [--limit N] [--device auto|mps|cpu] [--token-budget T]
+    uv run python -m pipeline.embed finalize fragments
     uv run python -m pipeline.embed status
-    uv run python -m pipeline.embed snapshot {fragments|speeches}.<part> (--years Y ... | --exclude-years Y ...)
-    uv run python -m pipeline.embed assemble {fragments|speeches} --parts <part> ...
+    uv run python -m pipeline.embed snapshot fragments.<part> (--years Y ... | --exclude-years Y ...)
+    uv run python -m pipeline.embed assemble fragments --parts <part> ...
+
+A kind is the base kind "fragments" or one of its parts, "fragments.<part>" (see Parts).
+A speech's vector is the mean of its non-ceremonial fragments' vectors; pipeline.export
+computes it.
 
 How a run works:
 1. A plan is written once per kind to EMB_DIR/<kind>/plan.parquet (+ plan.json).
@@ -20,14 +24,14 @@ How a run works:
 3. finalize assembles EMB_DIR/<kind>.f16.npy (N x 1024, float16, L2-normalised),
    EMB_DIR/<kind>_keys.parquet (row-aligned keys) and EMB_DIR/<kind>_manifest.json.
 
-Parts: a part (kind "<base>.<part>", e.g. fragments.stable) embeds a frozen
-snapshot of some years of the base input (EMB_DIR/<kind>/input.parquet, written
+Parts: a part (kind "fragments.<part>", e.g. fragments.stable) embeds a frozen
+snapshot of some years of the fragments (EMB_DIR/<kind>/input.parquet, written
 by `snapshot`), so years still under revision can be embedded later. run and
-finalize work on a part exactly as on a base kind. `assemble` joins finalized
-parts into the base kind's final files, aligned with the live input: rows match
-on (speech_id, seq) for fragments or speech_id for speeches, never on frag_id,
-which prepare renumbers. It refuses if a live row is missing, found in two
-parts, or has a text that differs from the one embedded.
+finalize work on a part exactly as on fragments. `assemble` joins finalized
+parts into the final files of fragments, aligned with the live input: rows match
+on (speech_id, seq), never on frag_id, which prepare renumbers. It refuses if a
+live row is missing, found in two parts, or has a text that differs from the one
+embedded.
 
 Documents are embedded WITHOUT any prompt. Queries (not embedded here) need
 "Instruct: <task>\nQuery: <text>".
@@ -57,7 +61,7 @@ os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
 DIM = 1024
-MAX_SEQ_LENGTH = 32768          # model context; the longest speech has ~26k tokens
+MAX_SEQ_LENGTH = 32768          # model context; longer items are truncated
 DEFAULT_TOKEN_BUDGET = 16384    # max_len x batch_size per forward pass
 ALONE_TOKENS = 8192             # items this long always run one at a time
 MAX_BATCH_ITEMS = 256
@@ -68,13 +72,11 @@ NORM_TOLERANCE = 1e-2           # float16 storage keeps norms within ~1e-3 of 1
 
 KINDS = {
     "fragments": {"keys": ["frag_id", "speech_id", "seq"], "id": "frag_id",
-                  "order": ["speech_id", "seq"], "text": "text"},
-    "speeches": {"keys": ["speech_id"], "id": "speech_id",
-                 "order": ["speech_id"], "text": "text_clean"},
+                  "order": ["speech_id", "seq"]},
 }
 
 
-PART_RE = re.compile(r"^(fragments|speeches)\.([a-z0-9_]+)$")
+PART_RE = re.compile(r"^fragments\.([a-z0-9_]+)$")
 
 
 def base_kind(kind: str) -> str:
@@ -100,7 +102,7 @@ class EmbedError(Exception):
 def input_path(kind: str) -> Path:
     if is_part(kind):
         return kind_dir(kind) / "input.parquet"  # the part's frozen snapshot
-    return config.FRAGMENTS if kind == "fragments" else config.SPEECHES
+    return config.FRAGMENTS
 
 
 def kind_dir(kind: str) -> Path:
@@ -178,8 +180,7 @@ def load_input(kind: str) -> pd.DataFrame:
     path = input_path(kind)
     if not path.exists():
         raise EmbedError(f"Input not found: {rel(path)} (written by the corpus-preparation step).")
-    df = pd.read_parquet(path, columns=spec["keys"] + [spec["text"], "n_tokens"])
-    df = df.rename(columns={spec["text"]: "text"})
+    df = pd.read_parquet(path, columns=spec["keys"] + ["text", "n_tokens"])
     for cols in {tuple([spec["id"]]), tuple(spec["order"])}:
         dup = df.duplicated(list(cols))
         if dup.any():
@@ -613,27 +614,27 @@ def write_final(paths: dict[str, Path], emb: np.ndarray, keys: pd.DataFrame, man
 
 
 def snapshot(kind: str, years=None, exclude_years=None) -> pd.DataFrame:
-    """Freeze the rows of some years of the base input as the input of part <kind>.
+    """Freeze the rows of some years of the fragments as the input of part <kind>.
 
     Writing the same snapshot again is a no-op. A different snapshot is refused
     once the part has a plan: delete the part's folder to start it over.
     """
     if not PART_RE.match(kind):
-        raise EmbedError(f"{kind!r} is not a part; name it fragments.<part> or speeches.<part>.")
+        raise EmbedError(f"{kind!r} is not a part; name it fragments.<part>.")
     if (years is None) == (exclude_years is None):
         raise EmbedError("Give either years or exclude_years.")
     spec = spec_of(kind)
     src = input_path(base_kind(kind))
     if not src.exists():
         raise EmbedError(f"Input not found: {rel(src)} (written by the corpus-preparation step).")
-    df = pd.read_parquet(src, columns=spec["keys"] + [spec["text"], "n_tokens", "year"])
+    df = pd.read_parquet(src, columns=spec["keys"] + ["text", "n_tokens", "year"])
     keep = df["year"].isin(years) if years is not None else ~df["year"].isin(exclude_years)
     df = df[keep].sort_values(spec["order"], kind="stable").reset_index(drop=True)
     if df.empty:
         raise EmbedError(f"No row of {rel(src)} falls in {kind}.")
     out = input_path(kind)
     if out.exists():
-        if content_hash(load_input(kind), kind) == content_hash(df.rename(columns={spec["text"]: "text"}), kind):
+        if content_hash(load_input(kind), kind) == content_hash(df, kind):
             return df
         if read_plan(kind) is not None:
             raise EmbedError(f"{kind} was planned on a different snapshot; to start the part over, "
@@ -806,7 +807,7 @@ def one_or_list(values):
 def kind_arg(value: str) -> str:
     if value in KINDS or PART_RE.match(value):
         return value
-    raise argparse.ArgumentTypeError(f"expected fragments, speeches or <fragments|speeches>.<part>, got {value!r}")
+    raise argparse.ArgumentTypeError(f"expected fragments or fragments.<part>, got {value!r}")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -822,7 +823,7 @@ def main(argv: list[str] | None = None) -> int:
     p_fin = sub.add_parser("finalize", help="assemble shards into the final matrix, keys and manifest")
     p_fin.add_argument("kind", type=kind_arg)
     p_snap = sub.add_parser("snapshot", help="freeze some years of the input as the input of a part")
-    p_snap.add_argument("kind", type=kind_arg, help="<fragments|speeches>.<part>")
+    p_snap.add_argument("kind", type=kind_arg, help="fragments.<part>")
     years = p_snap.add_mutually_exclusive_group(required=True)
     years.add_argument("--years", type=int, nargs="+")
     years.add_argument("--exclude-years", type=int, nargs="+")

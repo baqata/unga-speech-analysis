@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Embed fragments, then whole speeches, finalizing each, with Harrier-OSS-v1-0.6B.
+# Embed the fragments with Harrier-OSS-v1-0.6B, then finalize them.
 #
 # Usage: scripts/run_embeddings.sh [PART] [extra options for "run", e.g. --device cpu]
 #
-# With PART (e.g. stable), it embeds the parts fragments.PART and speeches.PART,
-# whose inputs must first be frozen with `uv run python -m pipeline.embed snapshot`.
+# With PART (e.g. stable), it embeds the part fragments.PART, whose input must
+# first be frozen with `uv run python -m pipeline.embed snapshot`.
 #
 # Safe to re-run: completed shards are skipped, so it resumes after a crash,
 # sleep or Ctrl-C. Keeps the Mac awake (caffeinate -dimsu) while it runs.
@@ -32,10 +32,8 @@ if [[ $# -gt 0 && "$1" != -* ]]; then
 fi
 
 steps() {
-  for kind in "fragments$PART" "speeches$PART"; do
-    uv run python -m pipeline.embed run "$kind" "$@"
-    uv run python -m pipeline.embed finalize "$kind"
-  done
+  uv run python -m pipeline.embed run "fragments$PART" "$@"
+  uv run python -m pipeline.embed finalize "fragments$PART"
   uv run python -m pipeline.embed status
 }
 
