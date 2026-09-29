@@ -16,3 +16,6 @@ node_modules/
 data/tidy/TXT/
 data/tidy/work/
 .claude/launch.json
+# graphify: generated graph, and hook settings with absolute local paths
+graphify-out/
+.claude/settings.json
