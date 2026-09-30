@@ -1,0 +1,25 @@
+# Names of the general topics (docs/PLAN.md, section 4.1), given by reading the words and the example passages of
+# each topic in data/interim/export/topic_examples.md (edition 2026-09-30T05:56:31Z, 2026-09-30 00:58 local).
+# `pipeline.export site` uses these names only while centres_sha256 matches the current edition's centres.
+centres_sha256: aa682e035af5e0df9378050b83a6f168cb3eae735187a7a3205966581d834e74
+topics:
+  - {cluster: 0, id: un_ideals, es: "Ideales de la ONU", en: "The UN's ideals"}
+  - {cluster: 1, id: multilateralism_reform, es: "Multilateralismo y reforma", en: "Multilateralism and reform"}
+  - {cluster: 2, id: development_goals, es: "Objetivos de desarrollo", en: "Development goals"}
+  - {cluster: 3, id: trade_economic_order, es: "Comercio y orden económico", en: "Trade and the economic order"}
+  - {cluster: 4, id: cold_war_ideologies, es: "Guerra fría e ideologías", en: "Cold War and ideologies"}
+  - {cluster: 5, id: development_aid, es: "Ayuda al desarrollo", en: "Development aid"}
+  - {cluster: 6, id: charter_membership, es: "Carta y membresía de la ONU", en: "UN Charter and membership"}
+  - {cluster: 7, id: present_challenges, es: "Retos del mundo actual", en: "Today's global challenges"}
+  - {cluster: 8, id: latin_america, es: "Asuntos de América Latina", en: "Latin American affairs"}
+  - {cluster: 9, id: regional_relations, es: "Relaciones regionales", en: "Regional relations"}
+  - {cluster: 10, id: climate_change, es: "Cambio climático", en: "Climate change"}
+  - {cluster: 11, id: human_rights, es: "Derechos humanos", en: "Human rights"}
+  - {cluster: 12, id: decolonization, es: "Descolonización", en: "Decolonization"}
+  - {cluster: 13, id: debt_crises, es: "Deuda y crisis económicas", en: "Debt and economic crises"}
+  - {cluster: 14, id: democracy_elections, es: "Democracia y elecciones", en: "Democracy and elections"}
+  - {cluster: 15, id: greetings_protocol, es: "Saludos y protocolo", en: "Greetings and protocol"}
+  - {cluster: 16, id: apartheid_racism, es: "Apartheid y racismo", en: "Apartheid and racism"}
+  - {cluster: 17, id: environment, es: "Medio ambiente", en: "Environment"}
+  - {cluster: 18, id: covid_health, es: "COVID-19 y salud", en: "COVID-19 and health"}
+  - {cluster: 19, id: law_of_the_sea, es: "Derecho del mar", en: "Law of the sea"}

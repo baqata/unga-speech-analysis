@@ -213,7 +213,11 @@ function drawStrip() {
 // ---------------- semantic maps ----------------
 const coarse = matchMedia('(pointer: coarse)').matches;
 const qtCache = {};
-const quadtree = sp => qtCache[sp] ??= (() => { const P = sp ? PS : PF; return d3.quadtree().x(i => P.x[i]).y(i => P.y[i]).addAll(d3.range(P.n)); })();
+const quadtree = sp => {   // the points of the chosen years only: the other years' outline does not answer a hover
+  const k = state.y0 + '|' + state.y1, P = sp ? PS : PF;
+  if (qtCache[sp]?.k !== k) qtCache[sp] = {k, t: d3.quadtree().x(i => P.x[i]).y(i => P.y[i]).addAll(d3.range(P.n).filter(i => inP(P.yr[i])))};
+  return qtCache[sp].t;
+};
 function SemMap(wrap, layersOf) {
   const cv = wrap.querySelector('canvas'), ctx = cv.getContext('2d'), rb = wrap.querySelector('.reset'), PAD = 18;
   let tf = d3.zoomIdentity, cw = 0, ch = 0, groups = null, key = '';
@@ -535,7 +539,7 @@ function update() {
   document.querySelector('.years').dataset.all = isAll();
   const f = y => (y - Y0) / (Y1 - Y0), fill = document.querySelector('.yrange .fill');
   fill.style.left = `calc(7px + (100% - 14px) * ${f(state.y0)})`; fill.style.width = `calc((100% - 14px) * ${f(state.y1) - f(state.y0)})`;
-  $('yearOut').textContent = isAll() ? '–' : per();
+  $('yearOut').textContent = per();
   computeSlots(); drawLegends();
   if (state.tab === 'reg') { drawStrip(); regMap.draw(); drawWorld(); drawTrend(); drawWords(); drawQuotes(); }
   else { drawCountry(); ctyMap.draw(); }
