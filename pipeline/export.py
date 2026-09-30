@@ -578,32 +578,35 @@ def window(text: str, weight: dict | None = None, n: int = EXCERPT_CHARS) -> str
 def topic_weights(x: sparse.csr_matrix, members: list, vocab: list, is_bigram: np.ndarray,
                   within: list | None = None) -> list[dict]:
     """For each topic (members: the rows of its fragments in x), the weight of each term in the passages shown for
-    it: the term's Fightin' Words z-score in the topic's fragments against all the other fragments, or against the
-    other fragments of `within` (for a sub-lens, its parent lens's fragments, so that an alternative development
-    passage is picked for what sets it apart from drugs at large), where it is at least KEY_MIN_Z. A passage is
-    then chosen for the words that set its topic apart, not for a list of key terms."""
+    it: the term's Fightin' Words z-score in the topic's fragments against all the other fragments, where it is at
+    least KEY_MIN_Z. For a sub-lens, plus its z-score against the rest of its parent lens's fragments (within: the
+    rows of those fragments), so that an alternative development passage favours what sets it apart from drugs at
+    large while its drug words still count. A passage is then chosen for the words that set its topic apart, not
+    for a list of key terms."""
     def counts(sets):
         r = np.concatenate([np.full(len(m), i, dtype=np.int64) for i, m in enumerate(sets)])
         ind = sparse.csr_matrix((np.ones(len(r)), (r, np.concatenate(sets))), shape=(len(sets), x.shape[0]))
         return (ind @ x).toarray()
 
+    def z_over(yi, yj):   # the part of the z-scores at or above the bar
+        ni = np.array([yi[~is_bigram].sum(), yi[is_bigram].sum()])[kind]
+        nj = np.array([yj[~is_bigram].sum(), yj[is_bigram].sum()])[kind]
+        with np.errstate(divide="ignore", invalid="ignore"):
+            z = fightin_words(yi, ni, yj, nj, alpha)
+        return np.where(z >= KEY_MIN_Z, z, 0.0)
+
     tot = np.asarray(x.sum(axis=0)).ravel().astype(np.float64)
     alpha = prior(tot, is_bigram)
     kind = is_bigram.astype(int)
     y = counts(members)
-    rest = tot[None, :] - y
     subs = [i for i, w in enumerate(within or []) if w is not None]
-    if subs:
-        rest[subs] = counts([within[i] for i in subs]) - y[subs]
+    parent = dict(zip(subs, counts([within[i] for i in subs]))) if subs else {}
     words = np.asarray(vocab, dtype=object)
     out = []
-    with np.errstate(divide="ignore", invalid="ignore"):
-        for yi, yj in zip(y, rest):
-            ni = np.array([yi[~is_bigram].sum(), yi[is_bigram].sum()])[kind]
-            nj = np.array([yj[~is_bigram].sum(), yj[is_bigram].sum()])[kind]
-            z = fightin_words(yi, ni, yj, nj, alpha)
-            k = np.flatnonzero(z >= KEY_MIN_Z)
-            out.append(dict(zip(words[k].tolist(), z[k].tolist())))
+    for i, yi in enumerate(y):
+        w = z_over(yi, tot - yi) + (z_over(yi, parent[i] - yi) if i in parent else 0.0)
+        k = np.flatnonzero(w > 0)
+        out.append(dict(zip(words[k].tolist(), w[k].tolist())))
     return out
 
 

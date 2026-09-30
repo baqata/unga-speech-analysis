@@ -109,8 +109,8 @@ def test_topic_weights_favour_the_words_that_set_a_topic_apart():
     w = ex.topic_weights(x, [ad, trade, np.array([], dtype=int)], vocab, big)
     assert {"coca", "crops", "farmers"} <= set(w[0]) and not {"trade", "markets"} & set(w[0])
     assert all(v >= ex.KEY_MIN_Z for v in w[0].values()) and w[2] == {}  # a topic with no fragment weighs nothing
-    sub = ex.topic_weights(x, [ad], vocab, big, [drugs])[0]  # a sub-lens against the rest of its parent's text
-    assert {"crops", "farmers"} <= set(sub) and "coca" not in sub
+    sub = ex.topic_weights(x, [ad], vocab, big, [drugs])[0]  # a sub-lens: also against the rest of its parent's text
+    assert sub["crops"] > w[0]["crops"] and sub["coca"] == w[0]["coca"]  # what sets it apart counts twice
 
 
 def test_excerpts_are_the_most_probable_fragments_of_each_speech():
