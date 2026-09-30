@@ -32,6 +32,7 @@
   <nav class="tabbar" role="tablist" aria-label="Vistas">
     <button role="tab" id="tabReg" aria-controls="paneReg" aria-selected="true"><span id="icReg"></span><span data-i="tabReg">Regiones y mundo</span></button>
     <button role="tab" id="tabCty" aria-controls="paneCty" aria-selected="false"><span id="icCty"></span><span data-i="tabCty">País</span></button>
+    <button role="tab" id="tabAnx" aria-controls="paneAnx" aria-selected="false"><span id="icAnx"></span><span data-i="tabAnx">Anexo técnico</span></button>
   </nav>
 
   <div class="empty" id="boot" role="status">Cargando…</div>
@@ -81,7 +82,7 @@
         </section>
         <section class="panel">
           <h2 id="trendTitle"></h2>
-          <p class="hint" data-i="trendHint">Porcentaje del discurso, promedio de 3 años</p>
+          <p class="hint" id="trendHint"></p>
           <div id="trend"></div>
         </section>
       </div>
@@ -132,6 +133,8 @@
       <div class="quotes" id="ctyQuotes"></div>
     </section>
   </div>
+
+  <div id="paneAnx" role="tabpanel" aria-labelledby="tabAnx" hidden><div id="annex"></div></div>
 
   <footer data-i="footer"></footer>
 </div>

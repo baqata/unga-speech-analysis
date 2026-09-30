@@ -55,6 +55,8 @@ FIRST_YEAR, LAST_YEAR = 1946, 2026
 PROVISIONAL = [2026]
 PLACEHOLDER_ABOUT = 0.5     # "about" a lens in a placeholder build (never published); real builds use each lens's
                             # threshold (docs/calibration.md, section 5)
+HIDDEN = ("prevention_treatment",)   # fitted but not shown: too few examples to measure it; its fragments still count
+                                     # within drugs through the umbrella rule (user, 2026-09-30)
 SEED = 0
 N_TOPICS = 14               # general topics: the largest number whose topics reproduce on split halves (PLAN 4)
 KMEANS_INIT = 10            # k-means restarts; the best one is kept
@@ -374,25 +376,31 @@ def load_layout(kind: str, ids, input_hash: str) -> np.ndarray:
         return z["xy"][pos.loc[ids].to_numpy()]
 
 
+def shown_ids(codebook) -> list[str]:
+    """The lenses the site shows: every fitted lens but HIDDEN."""
+    return [i for i in calibrate.fitted_ids(codebook) if i not in HIDDEN]
+
+
 def lens_probabilities(frag_ids, input_hash: str, placeholder: bool, codebook) -> tuple[np.ndarray, str, np.ndarray]:
-    """p of every fragment on every measured lens, in codebook order, where it comes from, and each lens's threshold.
+    """p of every fragment on every shown lens, in codebook order, where it comes from, and each lens's threshold.
     The placeholder maps each sampling score s to 1 / (1 + exp(-3 (s - 2))), about 2% of fragments at 0.5 or more,
     with the umbrella rule."""
-    ids = calibrate.fitted_ids(codebook)
+    fitted, ids = calibrate.fitted_ids(codebook), shown_ids(codebook)
     path, prefix = (calibrate.SCORES, "s_") if placeholder else (calibrate.PROBS, "p_")
     side = check_fresh(path, input_hash)
-    if not placeholder and set(side.get("thresholds", {})) != set(ids):
+    if not placeholder and set(side.get("thresholds", {})) != set(fitted):
         raise ExportError(f"{embed.rel(path)} has no threshold for every measured lens; run `calibrate predict`.")
-    table = pd.read_parquet(path, columns=["frag_id"] + [prefix + i for i in ids]).set_index("frag_id")
+    table = pd.read_parquet(path, columns=["frag_id"] + [prefix + i for i in fitted]).set_index("frag_id")
     missing = pd.Index(frag_ids).difference(table.index)
     if len(missing):
         raise ExportError(f"{len(missing)} fragments have no value in {embed.rel(path)}.")
     p = table.loc[frag_ids].to_numpy(np.float64)
     if placeholder:
-        p = expand_scores({i: 1 / (1 + np.exp(-3 * (p[:, k] - 2))) for k, i in enumerate(ids)}, codebook)
+        p = expand_scores({i: 1 / (1 + np.exp(-3 * (p[:, k] - 2))) for k, i in enumerate(fitted)}, codebook)
         return (np.column_stack([p[i] for i in ids]).astype(np.float32), "placeholder",
                 np.full(len(ids), PLACEHOLDER_ABOUT, dtype=np.float32))
-    return p.astype(np.float32), calibrate.sha256(path), np.array([side["thresholds"][i] for i in ids], dtype=np.float32)
+    return (p[:, [fitted.index(i) for i in ids]].astype(np.float32), calibrate.sha256(path),
+            np.array([side["thresholds"][i] for i in ids], dtype=np.float32))
 
 
 def make_topics(placeholder: bool = False, refit: bool = False) -> dict:
@@ -850,15 +858,52 @@ def lens_passes() -> dict:
     return {k: bool(v["pass"]) for k, v in json.loads(calibrate.RESULTS.read_text())["lenses"].items()}
 
 
+def method_facts(codebook, n_all: int, n_ceremonial: int) -> dict | None:
+    """What the technical annex states: how many fragments were read, and for every fitted lens the positive
+    examples it learned from, the weighted out-of-fold precision and recall of the final fit (the classifiers the
+    site uses), its threshold, the one-shot test on the validation set and the readers' agreement. None before the
+    final fit."""
+    if not (calibrate.FIT.exists() and calibrate.FINAL.exists()):
+        return None
+    fit = json.loads(calibrate.FIT.read_text())
+    test = json.loads(calibrate.RESULTS.read_text())["lenses"] if calibrate.RESULTS.exists() else {}
+    agree = json.loads(calibrate.AGREEMENT.read_text()) if calibrate.AGREEMENT.exists() else {}
+    labels = pd.read_parquet(calibrate.FINAL)
+    labels = labels[labels["split"].isin(fit["sets"])]
+    def r3(v):
+        return None if v is None else round(float(v), 3)
+
+    lenses = []
+    for lens in codebook["lenses"]:
+        i = lens["id"]
+        if i not in fit["lenses"]:
+            continue
+        f, t = fit["lenses"][i], test.get(i, {}).get("overall", {})
+        lenses.append({"id": i, "es": lens["name_es"], "en": lens["name_en"], "icon": lens.get("icon"),
+                       "parent": lens.get("parent"), "shown": i not in HIDDEN,
+                       "pass": test[i]["pass"] if i in test else None, "examples": int(labels[i].sum()),
+                       "precision": r3(f["oof"]["precision"]), "recall": r3(f["oof"]["recall"]),
+                       "threshold": r3(f["threshold"]),
+                       "test": {"precision": r3(t.get("precision")), "recall": r3(t.get("recall")),
+                                "positives": t.get("positives")} if t else None,
+                       "kappa": agree.get("agreement", {}).get(i, {}).get("kappa")})
+    return {"fragments_all": n_all, "ceremonial": n_ceremonial, "labelled": len(labels),
+            "reference": [{"es": lens["name_es"], "en": lens["name_en"]} for lens in codebook["lenses"]
+                          if lens["reference"]],
+            "sets": {s: int((labels["split"] == s).sum()) for s in fit["sets"]},
+            "read_twice": agree.get("check_fragments"), "folds": calibrate.FOLDS, "bar": calibrate.PASS_BAR,
+            "lenses": lenses}
+
+
 def passage_scorer(codebook):
-    """p of passages on every measured lens, in codebook order, by the classifiers that made the fragments'
+    """p of passages on every shown lens, in codebook order, by the classifiers that made the fragments'
     probabilities (their embeddings are kept in WINDOWS)."""
     side = read_side(calibrate.PROBS)
     clf = calibrate.load_classifiers()
     if calibrate.sha256(calibrate.CLASSIFIERS) != side.get("classifiers_sha256"):
         raise ExportError(f"The classifiers changed after {embed.rel(calibrate.PROBS)} was made; run `calibrate predict`.")
     ids = list(clf["info"]["lenses"])
-    cols = [ids.index(i) for i in calibrate.fitted_ids(codebook)]
+    cols = [ids.index(i) for i in shown_ids(codebook)]
     return lambda passages: calibrate.probabilities(window_vectors(passages), clf, codebook)[:, cols]
 
 
@@ -871,7 +916,7 @@ def prepare_windows() -> dict:
                                                        "is_ceremonial"])
     frags = frags[~frags["is_ceremonial"]].sort_values(["iso3", "year", "seq"], kind="stable").reset_index(drop=True)
     p, _, thr = lens_probabilities(frags["frag_id"].to_numpy(), f_man["input_hash"], False, codebook)
-    lenses = [lens for lens in codebook["lenses"] if lens["id"] in calibrate.fitted_ids(codebook)]
+    lenses = [lens for lens in codebook["lenses"] if lens["id"] in shown_ids(codebook)]
     picks, _ = excerpt_sets(p, p >= thr, lenses, pd.factorize(frags["speech_id"])[0])
     texts = frags["text"].tolist()
     todo = set()
@@ -894,6 +939,7 @@ def load_inputs(placeholder: bool = False) -> dict:
     speeches = speeches.sort_values(["iso3", "year"], kind="stable").reset_index(drop=True)
     frags = pd.read_parquet(config.FRAGMENTS, columns=["frag_id", "speech_id", "iso3", "year", "seq", "text",
                                                        "is_ceremonial"])
+    n_all, n_ceremonial = len(frags), int(frags["is_ceremonial"].sum())
     frags = frags[~frags["is_ceremonial"]].sort_values(["iso3", "year", "seq"], kind="stable").reset_index(drop=True)
     fid = frags["frag_id"].to_numpy()
     p, source, thr = lens_probabilities(fid, h, placeholder, codebook)
@@ -912,8 +958,9 @@ def load_inputs(placeholder: bool = False) -> dict:
         "fxy": load_layout("fragments", fid, h), "sxy": load_layout("speeches", speeches["speech_id"].to_numpy(), h),
         "X": x, "vocab": vocab, "countries": country_table(sorted(speeches["iso3"].unique())),
         "groups": group_table(), "topics": topic_names(placeholder, info), "passes": passes, "thresholds": thr,
-        "lenses": [lens for lens in codebook["lenses"] if lens["id"] in calibrate.fitted_ids(codebook)],
+        "lenses": [lens for lens in codebook["lenses"] if lens["id"] in shown_ids(codebook)],
         "score": None if placeholder else passage_scorer(codebook),
+        "method": None if placeholder else method_facts(codebook, n_all, n_ceremonial),
         "build": {"date": now()[:10], "corpus": "UNGDC v14 + provisional 2026", "model": config.MODEL_ID,
                   "placeholder": placeholder, "probabilities": source},
     }
@@ -1104,6 +1151,7 @@ def build(inp: dict) -> tuple[dict, dict]:
         },
         "keyness": {"top": KEY_TOP, "min_tokens": KEY_MIN_TOKENS, "min_count": KEY_MIN_COUNT,
                     "min_spread": KEY_MIN_SPREAD, "min_z": KEY_MIN_Z},
+        "method": inp.get("method"),
     }
     files["meta.json"] = dumps(meta)
     summary = {"speeches": S, "fragments": F, "countries": C, "topics": T, "about_share": round(float(any_about.mean()), 4),

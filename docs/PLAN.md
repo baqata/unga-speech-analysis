@@ -45,9 +45,10 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 
 ### 3.1 Layout
 
-- **Two tabs.** The dashboard opens on "Regiones y mundo" (2026-09-26 18:28, r659; proposed r633).
+- **Three tabs.** The dashboard opens on "Regiones y mundo" (2026-09-26 18:28, r659; proposed r633).
   - **Regiones y mundo:** the lens strip, the semantic map with its toggle, the world map, the trend, the distinctive-word bars and the excerpts (confirmed 2026-09-26 18:33, r683; proposed r679).
   - **País:** see section 3.9.
+  - **Anexo técnico:** how the site was made, in plain words and without tool names: the speeches, the fragments, the fingerprint of meaning, the labelled sample, one model per topic, the settings chosen by cross-validation, the general topics and the map; then, for each topic, its examples and how often its model is right and finds what it should, in the cross-validation of the final fit, with the one-shot test, the thresholds and the readers' agreement under "more figures"; how the site uses the models; and the limits (2026-09-30 17:07, s4 r17922). Deep links `#anexo` and `#annex`.
 - **Look:**
   - No logo, and no UN or UNODC emblem (2026-09-26 18:02, r476).
   - UN palette and Roboto, following the branding guideline in the repository (2026-09-26 17:22, r2).
@@ -74,6 +75,8 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 | Criminal justice | `gavel` |
 
 Peace, first shown as a reference lens, is no longer measured or shown: it covered about half of what the speeches say, too broad to set beside the mandate topics, and its passages join the general topics (user, 2026-09-30).
+
+Prevention and treatment is measured but not shown anywhere (card, trend, maps, passages, words): with 41 examples its model is not reliable, and its fragments still count within drugs through the umbrella rule and in "all UNODC topics" (2026-09-30 17:07, s4 r17922; decision 2 of the error brief). The six topics short of the pass bar in the one-shot test keep their card, with an "Aprox." badge (section 3.7).
 
 ### 3.3 Selections and defaults
 
@@ -110,7 +113,7 @@ Peace, first shown as a reference lens, is no longer measured or shown: it cover
 - **Two layers**, with a "Fragments / Speeches" toggle. Fragments is the default (2026-09-26 18:28, r659; details proposed r679, confirmed 2026-09-26 18:33, r683).
 - **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit (r679, confirmed r683; mean (2026-09-29 21:56, s4 r2316)). Hovering shows its topic composition and a passage: from its fragment about a UNODC topic with the highest probability, on that topic; in a speech with none, from the fragment closest to the mean of its fragments' vectors, its first and last left out (2026-09-30 04:20).
 - **Fragments layer:** hovering shows the country, the year, the fragment's topic and a passage of it on that topic (2026-09-30 04:20).
-- **Highlighting:** light grey for every point of the period (one year, a range or all years), dark grey for the selections' points, and each selection's colour for its points about the chosen topic, all UNODC topics or one; a speech counts when any of its fragments is about it. Points outside the selections are never tinted by topic (2026-09-30 04:37). The country tab, which has no topic choice, colours the country's points about any UNODC topic. A topic without a reliable measure (`pass: false`) is not tinted: its selections keep their colour on every point (2026-09-30 15:45). With a year chosen, the other years stay as a faint outline (2026-09-30 04:20), which does not answer a hover (QA of the first real build, 2026-09-30 06:20).
+- **Highlighting:** light grey for every point of the period (one year, a range or all years), dark grey for the selections' points, and each selection's colour for its points about the chosen topic, all UNODC topics or one; a speech counts when any of its fragments is about it. Points outside the selections are never tinted by topic (2026-09-30 04:37). The country tab, which has no topic choice, colours the country's points about any UNODC topic. Topics marked approximate are tinted like the others (2026-09-30 17:07, s4 r17922). With a year chosen, the other years stay as a faint outline (2026-09-30 04:20), which does not answer a hover (QA of the first real build, 2026-09-30 06:20).
 - **Region labels:** topic names written from example fragments, in Spanish and English (proposed r591 and r679; confirmed 2026-09-26 18:33, r683), each where its fragments concentrate; both layers show the same labels.
 - **Points drawn:** the final map shows every fragment (r565; confirmed r683). The mockups show a sample.
 
@@ -118,6 +121,7 @@ Peace, first shown as a reference lens, is no longer measured or shown: it cover
 
 - **World map:** a world map of attention to the selected lens and period (2026-09-26 17:31, r92).
 - **Trend line:** averaged over 3 years (proposed r591; confirmed 2026-09-26 18:33, r683).
+- **Topics short of the pass bar** in the one-shot test (organized crime, corruption, criminal justice, trafficking, environmental crime and alternative development) keep their trend line, world map, map colour and words, with an "Aprox." badge on their card and a "Medición aproximada: ver anexo técnico" link beside the world map and the trend, because their mean probability follows the labelled share (2026-09-30 17:07, s4 r17922; decision 1, option B of the error brief). This departs from `docs/calibration.md`, section 6, which stays as frozen; the technical annex states it.
 
 ### 3.8 Distinctive words and excerpts
 
@@ -196,9 +200,9 @@ The user left the calibration method to the main agent, asking for the most tech
 4. **Training and validation sets.** One speech in five is drawn at random, and its sampled fragments, about 5,000, form the validation set. The other fragments, about 20,000, train and tune the classifiers. The validation set is labelled first, never used for tuning, and gives every accuracy figure (2026-09-29 16:30, s2 r24828).
 5. **Classifier.** One classifier per lens, a support vector machine with an RBF kernel on the fragment embedding, gives each fragment a probability for that lens (user, 2026-09-30, after a comparison on the final labels: mean average precision 0.746 against 0.717 for logistic regression). Its settings are tuned by cross-validation within the training set. After the validation test, the classifiers that measure the corpus are fitted again, by the same procedure, on the training and validation sets together (user, 2026-09-30).
 6. **Shares.** A speech's share on a lens is the mean of its fragments' probabilities (graded shares). A fragment counts as "about" a lens when its probability reaches that lens's threshold, the probability with the best F1 in the cross-validation (user, 2026-09-30); this is used for the excerpts and the composition bars.
-7. **Pass bar.** A lens gets a trend line and a map only if, on the validation set, precision and recall at the lens's threshold are both at least 0.70, overall and in each period with at least 20 checked examples of that lens. A lens that falls short is brought to the user; no fallback method is tried.
+7. **Pass bar.** A lens passes if, on the validation set, precision and recall at the lens's threshold are both at least 0.70, overall and in each period with at least 20 checked examples of that lens. A lens that falls short is brought to the user; no fallback method is tried. The user chose to show the short lenses with an "approximate" badge and to hide prevention and treatment (2026-09-30 17:07, s4 r17922; sections 3.2 and 3.7).
 8. **Frozen before results.** The descriptions, the sample, the method and the classifiers are fixed before any trend is computed. The known-event checks of section 6 are run afterwards, as a test, never for tuning.
-9. **Published.** The methods note gives, for each lens and period, precision, recall and the number of checked examples, and for each lens the agreement between the labeller and the check.
+9. **Published.** The methods note gives, for each lens and period, precision, recall and the number of checked examples, and for each lens the agreement between the labeller and the check. The site's technical annex gives the plain-language version: per lens, the cross-validated precision and recall of the final fit (the classifiers the site uses), and under "more figures" the one-shot test, the threshold and the agreement (2026-09-30 17:07, s4 r17922).
 
 ## 5. Hosting and delivery
 
@@ -232,6 +236,9 @@ The user left the calibration method to the main agent, asking for the most tech
 - The framing axis: how drugs are framed, from security to health (2026-09-26 18:02, r476).
 - Comparing a selection's words with its own past (open point 9, 2026-09-29 21:56, s4 r2316).
 - Sentence-level scores: about 1.2 million sentences, the same text and about 37 million tokens as the fragments, so about 8 hours or more of embedding. To be evaluated later (user, 2026-09-29 03:55).
+- A reading round, "net and read": every fragment with at least a 2% probability of any topic but terrorism (11,781, of which 2,142 already labelled; a 5% net leaves 5,683 to read), read by the same labeller under the same codebook, marking the sentence that carries each topic, with a checked sample. Trends would become shares of confirmed passages and prevention and treatment could return. The user likes the rule and deferred it (2026-09-30 17:09, s4 r17956; proposed 17:03, s4 r17918).
+- A targeted labelling round (decision 3 of the error brief): about 300 fragments per topic among those its classifier ranks highest, prevention and treatment and alternative development first, then a refit; it needs a manifest revision (deferred 2026-09-30 17:10, s4 r17973).
+- Fine-tuning the embedding model: not now, since the rare topics have about 40 examples and most errors are reading judgements; if ever, LoRA on one shared model, after a larger labelled set (advice of 2026-09-30 17:03, s4 r17918, on the user's question of 16:59, s4 r17836).
 
 ## 8. Superseded decisions
 
@@ -258,6 +265,9 @@ The user left the calibration method to the main agent, asking for the most tech
 | Passages that start at a sentence with a key term of the lens (overnight build, 2026-09-30) | The part of the fragment most about its topic by the words that set the topic apart, with a minimum and a maximum length (2026-09-30 04:24) |
 | Speeches or fragments about the chosen lens tinted on the semantic map (mockup) | Only the rest of the points and the selections (2026-09-30 04:37) |
 | Only the rest of the points and the selections, each in one colour (2026-09-30 04:37) | Within the selections, the points about the chosen topic in colour and the others in dark grey (2026-09-30 15:45) |
+| A lens short of the pass bar gets passages only: no figure on its card, no trend, no world map, no map colour, no words (`docs/calibration.md`, section 6; 2026-09-30 15:45 for the map colour) | Shown everywhere with an "Aprox." badge linking to the technical annex (2026-09-30 17:07, s4 r17922) |
+| Prevention and treatment measured and shown like every lens (r575) | Not shown; its fragments count within drugs (2026-09-30 17:07, s4 r17922) |
+| Two tabs (r659) | Three: a technical annex added (2026-09-30 17:07, s4 r17922) |
 | One year or all years (r92) | Also a range of years (2026-09-30 04:20) |
 | Three labellers read every fragment, a fourth decides disagreements, five agents at a time (s2 r13904) | One labeller, ten at a time, with a check of about 600 fragments at maximum effort and a resolver; codebook 1.2 (2026-09-29 21:56, s4 r2316) |
 | A check of about 600 fragments only (2026-09-29 21:56) | Also a second reading of the doubtful validation labels and of the fragments codebook 1.3 may change, about 1,800 (2026-09-30 00:30) |
@@ -279,7 +289,7 @@ None. On 2026-09-29 the user settled points 4, 7 and 10 (s2 r9207) and approved 
 1. **Summary sentence under the strip:** none; the strip stands alone.
 2. **Distinctive words on the Country tab:** left out, as in the confirmed plan (r679, r683); selecting a country on the Regions tab shows them.
 3. **Label of the no-field-office group:** "Covered from Headquarters" ("Cubiertos desde la Sede"), as confirmed (r659, r683).
-4. **Alternative development:** measured like every lens, and shown with a trend line only if it passes the calibration bar; otherwise through excerpts only (section 4.1, step 6).
+4. **Alternative development:** measured like every lens; short of the bar in the one-shot test (11 validation positives), it is shown with the "Aprox." badge (2026-09-30 17:07, s4 r17922; section 3.7).
 5. **Strip:** it keeps the "all UNODC topics" tile and opens on it, shows the ratio for the first selection, and a dot for every selection.
 6. **Country tab:** it opens on Colombia, "all years" adds the years up, and similarity is shown as a percentile within the year, as `docs/data-contract.md` proposes.
 7. **Group weighting:** each country weighs the same, over fragment shares (section 4, Metric); `docs/data-contract.md` says so.

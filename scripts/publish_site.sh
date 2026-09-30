@@ -5,7 +5,7 @@
 # Usage: scripts/publish_site.sh [--preliminary]
 #
 # It refuses a placeholder build (docs/data-contract.md, meta.build). With --preliminary, the published copy asks
-# search engines not to index it, while the lenses await the validation test.
+# search engines not to index it, and the site shows "Versión preliminar".
 set -euo pipefail
 cd "$(dirname "$0")/.."
 REPO="baqata/unga-speech-analysis"

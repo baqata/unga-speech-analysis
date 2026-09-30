@@ -315,3 +315,52 @@ def test_build_refuses_fragments_without_a_topic():
     inp["general"] = np.where(inp["general"] == 1, -1, inp["general"])
     with pytest.raises(ex.ExportError):
         ex.build(inp)
+
+
+CODEBOOK = {"lenses": [  # drugs and its two sub-lenses, one hidden
+    {"id": "drugs", "name_es": "Drogas", "name_en": "Drugs", "reference": False},
+    {"id": "prevention_treatment", "name_es": "Prevención", "name_en": "Prevention", "reference": False,
+     "parent": "drugs"},
+    {"id": "alternative_development", "name_es": "DA", "name_en": "AD", "reference": False, "parent": "drugs"},
+    {"id": "peace", "name_es": "Paz", "name_en": "Peace", "reference": True},
+]}
+
+
+def test_a_hidden_lens_is_left_out_of_the_probabilities(tmp_path, monkeypatch):
+    probs = tmp_path / "lens_probs.parquet"
+    pd.DataFrame({"frag_id": [1, 2], "p_drugs": [0.9, 0.1], "p_prevention_treatment": [0.9, 0.0],
+                  "p_alternative_development": [0.2, 0.1]}).to_parquet(probs)
+    thresholds = {"drugs": 0.3, "prevention_treatment": 0.01, "alternative_development": 0.2}
+    probs.with_suffix(".json").write_text(json.dumps({"input_hash": "h", "thresholds": thresholds}))
+    monkeypatch.setattr(calibrate, "PROBS", probs)
+    assert ex.shown_ids(CODEBOOK) == ["drugs", "alternative_development"]
+    p, _, thr = ex.lens_probabilities(np.array([2, 1]), "h", False, CODEBOOK)
+    assert np.allclose(p, [[0.1, 0.1], [0.9, 0.2]]) and np.allclose(thr, [0.3, 0.2])
+
+
+def test_method_facts_give_the_final_fit_and_the_test_per_lens(tmp_path, monkeypatch):
+    fit = {"sets": ["train", "validation"], "lenses": {
+        i: {"threshold": 0.25, "oof": {"precision": 0.91, "recall": 0.72}}
+        for i in ("drugs", "prevention_treatment", "alternative_development")}}
+    results = {"lenses": {"drugs": {"pass": True, "overall": {"precision": 0.96, "recall": 0.85, "positives": 2}},
+                          "alternative_development": {"pass": False, "overall": {"precision": 0.8, "recall": 0.5,
+                                                                                   "positives": 1}}}}
+    agreement = {"check_fragments": 7, "agreement": {"drugs": {"kappa": 0.79}}}
+    for name, data in (("FIT", fit), ("RESULTS", results), ("AGREEMENT", agreement)):
+        path = tmp_path / f"{name.lower()}.json"
+        path.write_text(json.dumps(data))
+        monkeypatch.setattr(calibrate, name, path)
+    final = tmp_path / "labels_final.parquet"
+    pd.DataFrame({"split": ["train", "train", "validation", "other"], "drugs": [1, 0, 1, 1],
+                  "prevention_treatment": [0, 0, 1, 0], "alternative_development": [1, 0, 0, 0],
+                  "peace": [0, 1, 0, 0]}).to_parquet(final)
+    monkeypatch.setattr(calibrate, "FINAL", final)
+    facts = ex.method_facts(CODEBOOK, 10, 2)
+    assert facts["labelled"] == 3 and facts["sets"] == {"train": 2, "validation": 1} and facts["read_twice"] == 7
+    assert facts["reference"] == [{"es": "Paz", "en": "Peace"}]
+    lenses = {lens["id"]: lens for lens in facts["lenses"]}
+    assert list(lenses) == ["drugs", "prevention_treatment", "alternative_development"]  # peace has no model
+    assert lenses["drugs"]["examples"] == 2 and lenses["drugs"]["pass"] is True and lenses["drugs"]["kappa"] == 0.79
+    assert lenses["prevention_treatment"]["shown"] is False and lenses["prevention_treatment"]["test"] is None
+    assert lenses["alternative_development"]["test"] == {"precision": 0.8, "recall": 0.5, "positives": 1}
+    assert lenses["alternative_development"]["precision"] == 0.91 and lenses["alternative_development"]["pass"] is False
