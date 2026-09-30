@@ -14,7 +14,8 @@ function want(p) {   // a lazy data file: fetched once, on first use; the view r
   let e = store.get(p);
   if (!e) {
     store.set(p, e = {value: null, failed: false});
-    getJSON('data/' + p).then(v => { e.value = v; update(); tipAgain?.(); }, err => { e.failed = true; console.error(err); update(); });
+    getJSON('data/' + p).then(v => { e.value = v; update(); tipAgain?.(); cardAgain?.(); },
+      err => { e.failed = true; console.error(err); update(); cardAgain?.(); });
   }
   return e.value;
 }
@@ -109,6 +110,40 @@ function showTip(e, html) {
 }
 const hideTip = () => { tip.style.opacity = 0; tipAgain = null; };
 addEventListener('scroll', hideTip, {passive: true});
+
+// ---------------- fragment card ----------------
+// A fragment about a UNODC topic, opened from the map: its whole text, its speaker, and for each topic it is about
+// the model's hit rate at its probability, or "read" where the reader placed it there (docs/data-contract.md, cards)
+const card = $('card');
+let cardAgain = null;   // redraws the open card when its file arrives or the language changes
+function openCard(i) {   // i: a fragment point
+  hideTip();
+  const c = PF.c[i], y = Y0 + PF.yr[i], f = `cards/${M.countries[c].iso3}.json`;
+  cardAgain = () => {
+    const d = want(f), e = d?.frags[i - CSTART[c]], who = d?.who[y];
+    let body = `<div class="empty">${waitMsg(f)}</div>`;
+    if (e) {
+      const [ls, a, read, x] = e, first = state.tab === 'reg' && ls.includes(state.lens) ? state.lens : ls[0];
+      const rows = [first, ...ls.filter(l => l !== first)].map(l => {   // the chosen topic first, as in the quotes
+        const n = a?.[ls.indexOf(l)];
+        const val = read.includes(l) ? `<span class="v rd">${esc(t('cardRead'))}</span>`
+          : n != null ? `<span class="bt"><b style="width:${10 * n}%"></b></span><span class="v">${esc(t('cardOf', {n}))}</span>` : '';
+        return `<li><span class="ln">${icon(LENSES[l].icon)}<span>${esc(LENSES[l][lang])}${approx(l) ? ` <small class="apx">${esc(t('apx'))}</small>` : ''}</span></span>${val}</li>`;
+      }).join('');
+      const hit = a != null && ls.some(l => !read.includes(l));
+      body = `<div class="chead"><span>${esc(t('cardTopics'))}</span>${hit ? `<span>${esc(t('cardHit'))}</span>` : ''}</div><ul class="crows">${rows}</ul>`
+        + (hit ? `<p class="note">${esc(t('cardHitNote'))}</p>` : '') + (read.length ? `<p class="note">${esc(t('cardReadNote'))}</p>` : '')
+        + `<p class="ctext">“${esc(x)}” <small>EN</small></p>`;
+    }
+    card.innerHTML = `<div class="cin"><button class="x" type="button" aria-label="${esc(t('close'))}">×</button>
+      <h2 id="cardTitle">${esc(cname(c, y))} · ${y}</h2>${who ? `<p class="who">${esc(who)}</p>` : ''}${body}</div>`;
+  };
+  cardAgain();
+  if (!card.open) card.showModal();
+}
+card.addEventListener('close', () => { cardAgain = null; });
+// the close button, or a click beside the card; the second click of a double click leaves it open
+card.addEventListener('click', e => { if (e.detail < 2 && (e.target === card || e.target.closest('.x'))) card.close(); });
 
 // ---------------- aggregates (each country weighs the same) ----------------
 let CM = {};
@@ -312,9 +347,9 @@ function SemMap(wrap, layersOf) {
   const zoom = d3.zoom().scaleExtent([1, 24]).on('zoom', e => { tf = e.transform; hideTip(); this.draw(); });
   if (!coarse) d3.select(cv).call(zoom);
   const inBox = (mx, my) => insetBox && mx >= insetBox[0] && mx <= insetBox[2] && my >= insetBox[1] && my <= insetBox[3];
-  cv.addEventListener('click', e => {   // a click on the corner map centres the view there
+  cv.addEventListener('click', e => {   // a click on the corner map centres the view there; on a point, opens its card
     const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
-    if (!inBox(mx, my)) return;
+    if (!inBox(mx, my)) { const i = pick(e), f = i == null ? null : opens(i); if (f != null) openCard(f); return; }
     const x = clamp01((mx - insetBox[0] - IP) / (insetBox[2] - insetBox[0] - 2 * IP)), y = clamp01((my - insetBox[1] - IP) / (insetBox[3] - insetBox[1] - 2 * IP));
     d3.select(cv).call(zoom.translateTo, PAD + x * (cw - 2 * PAD), PAD + y * (ch - 2 * PAD));
   });
@@ -328,27 +363,35 @@ function SemMap(wrap, layersOf) {
     if (groups && topKey !== key) { topTree = d3.quadtree().x(i => P.x[i]).y(i => P.y[i]).addAll(groups.slice(2).flat()); topKey = key; }
     return topTree?.find(dx, dy, rad) ?? quadtree(state.layer === 'speech').find(dx, dy, rad);   // the highlighted points first: they are drawn on top
   };
+  // the fragment a point opens: a fragment about a UNODC topic, or a speech's most probable one (its hover passage)
+  const opens = i => {
+    if (state.layer !== 'speech') return PF.m[i] ? i : null;
+    const k = want('speeches.json')?.[M.countries[PS.c[i]].iso3]?.[Y0 + PS.yr[i]]?.[3];
+    return k >= 0 ? CSTART[PS.c[i]] + k : null;
+  };
   const hover = e => {
-    const i = pick(e); if (i == null) return hideTip();
+    const i = pick(e); if (i == null) { cv.style.cursor = ''; return hideTip(); }
+    const open = opens(i) != null, more = open && e.pointerType === 'mouse' ? `<span class="more">${esc(t('cardHint'))}</span>` : '';
+    cv.style.cursor = open ? 'pointer' : '';
     if (state.layer === 'speech') {
       const c = PS.c[i], y = Y0 + PS.yr[i], iso = M.countries[c].iso3;
       const comp = want('composition.json'), sp = want('speeches.json');
       const parts = comp ? (comp[iso]?.[y] || []).slice(0, 3).map(([k, v]) => `${esc(topicName(k))} ${pct(v)}`).join(' · ') : waitMsg('composition.json');
       const [, rep, rl] = sp?.[iso]?.[y] || [];
       const on = rep && rl >= 0 ? `<span class="ql">${icon(LENSES[rl].icon)}${esc(LENSES[rl][lang])}</span>` : '';
-      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br>${parts}${rep ? `<q>${on}“${esc(rep)}”</q>` : ''}`);
+      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br>${parts}${rep ? `<q>${on}“${esc(rep)}”</q>` : ''}${more}`);
     } else {
       const c = PF.c[i], y = Y0 + PF.yr[i], m = PF.m[i], ls = [];
       for (let j = 0; j < NL; j++) if (m & (1 << j)) ls.push(LENSES[j][lang]);
       const f = `snips/${M.countries[c].iso3}.json`, sn = want(f), txt = sn?.[i - CSTART[c]];
       showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br><span class="tl">${esc(ls.length ? ls.slice(0, 2).join(' · ') : topicName(PF.t[i]))}</span>`
-        + (txt ? `<q>“${esc(txt)}”</q>` : `<q>${waitMsg(f)}</q>`));
+        + (txt ? `<q>“${esc(txt)}”</q>` : `<q>${waitMsg(f)}</q>`) + more);
     }
     tipAgain = () => hover(e);
   };
   cv.addEventListener('pointermove', e => { if (e.pointerType === 'mouse') hover(e); });
   cv.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse') hover(e); });
-  cv.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') hideTip(); });
+  cv.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') { hideTip(); cv.style.cursor = ''; } });
   new ResizeObserver(() => { this.resize(); this.draw(); }).observe(wrap);
   this.resize();
 }
@@ -600,7 +643,7 @@ function drawAnnex() {
     .map(([k, v]) => `<li><span class="st st-${k}">${esc(t('st_' + k))}</span><span>${tb('st_' + k + 'D', v)}</span></li>`).join('');
   const th = (k, cls = '') => `<th scope="col"${cls && ` class="${cls}"`}>${esc(t(k))}</th>`;
   const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);
-  const use = [tb('use1'), tb('use2'), top ? esc(t('use3', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : '']
+  const use = [tb('use1'), tb('use2'), top ? esc(t('use3', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : '', tb('use4')]
     .filter(Boolean).map(x => `<li>${x}</li>`).join('');
   box.innerHTML = `<section class="panel"><h2>${esc(t('anxTitle'))}</h2><p class="hint">${esc(t('anxIntro'))}</p><ol class="steps">${steps}</ol></section>
   <section class="panel" id="anxAcc"><h2>${esc(t('accTitle'))}</h2><p class="hint">${tb('accHint', {labelled: n(A.labelled)})}</p>
@@ -629,7 +672,7 @@ function applyLang() {
   const badge = $('badge'), dev = M.build.placeholder, prelim = !dev && (prelimCopy || LENSES.some(l => l.pass == null));
   badge.hidden = !dev && !prelim; badge.textContent = t(dev ? 'devBadge' : 'prelimBadge');
   badge.title = prelim ? t('prelimTip') : ''; badge.classList.toggle('dev', dev);
-  fillSelects(); update();
+  fillSelects(); update(); cardAgain?.();
 }
 
 // ---------------- update ----------------
@@ -641,6 +684,7 @@ function update() {
   fill.style.left = `calc(7px + (100% - 14px) * ${f(state.y0)})`; fill.style.width = `calc((100% - 14px) * ${f(state.y1) - f(state.y0)})`;
   $('yearOut').textContent = per();
   computeSlots(); drawLegends();
+  if (state.layer === 'speech') want('speeches.json');   // its entries say which card a speech point opens
   if (state.tab === 'reg') { drawStrip(); regMap.draw(); drawWorld(); drawTrend(); drawWords(); drawQuotes(); }
   else if (state.tab === 'cty') { drawCountry(); ctyMap.draw(); }
   else drawAnnex();
