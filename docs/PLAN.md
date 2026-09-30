@@ -271,6 +271,6 @@ None. On 2026-09-29 the user settled points 4, 7 and 10 (s2 r9207) and approved 
 
 ## Design files
 
-- Mockup: https://claude.ai/artifact/BswNTFYGfpVwGZAG7arsZQ (private). Local copies are `docs/design/mockup-v1.html` (the 2026-09-26 template) and `docs/design/mockup-v2.html` (this plan).
+- Mockup: https://claude.ai/artifact/BswNTFYGfpVwGZAG7arsZQ (private). Local copies are `docs/design/mockup-v1.html` (the 2026-09-26 template) and `docs/design/mockup-v2.html` (this plan; local only and untracked since 2026-09-29, as 98% of its 9.7 MB is embedded data; the tracked version stays in the git history).
 - Summary-strip options: https://claude.ai/artifact/99tqJ7xyp1DgSRiEsArM3t (local copy `docs/design/summary-options.html`).
 - Icons: `docs/design/tabler-icons-subset.json`.

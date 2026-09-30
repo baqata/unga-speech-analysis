@@ -13,6 +13,8 @@ __pycache__/
 .ruff_cache/
 .DS_Store
 node_modules/
+# Design prototype with 9.7 MB of embedded data (local copy only; see docs/PLAN.md)
+docs/design/mockup-v2.html
 # Tidy corpus copy (derived text) and working files
 data/tidy/TXT/
 data/tidy/work/
