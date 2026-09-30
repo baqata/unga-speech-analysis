@@ -36,6 +36,7 @@ import pycountry
 import yaml
 from scipy import sparse
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, CountVectorizer
+from sklearn.isotonic import IsotonicRegression
 
 from pipeline import calibrate, config, embed, segment
 from pipeline.lenses import expand_scores, load_lenses
@@ -668,6 +669,11 @@ def excerpt_sets(p: np.ndarray, about: np.ndarray, lenses: list) -> tuple[list, 
     return sets + [("all", rows, u_best[rows])], u_best
 
 
+def about_order(p: np.ndarray, about: np.ndarray, first: int) -> list[int]:
+    """The lenses a fragment is about (its row of p and of about): `first`, then the others, most probable first."""
+    return [first, *(int(i) for i in np.argsort(-p, kind="stable") if about[i] and i != first)]
+
+
 def excerpt_pick(s: np.ndarray, p: np.ndarray) -> np.ndarray:
     """Positions of the excerpts kept: up to EXCERPTS per speech s, highest p first."""
     cand = pd.DataFrame({"s": s, "p": p, "i": np.arange(len(s))})
@@ -805,6 +811,26 @@ def method_facts(codebook, n_all: int, n_ceremonial: int) -> dict | None:
             "min_period": calibrate.MIN_PERIOD_POSITIVES, "lenses": lenses}
 
 
+def hit_inputs(fid, ids) -> dict | None:
+    """What the cards need beyond the probabilities (docs/data-contract.md, cards), None before `calibrate fit`. For
+    each lens, its hit rate as the probability rises: a weighted isotonic fit of the labels on the labelled fragments'
+    out-of-fold probabilities, kept as the points (x, y) that np.interp follows. For the fragments of `fid`, in that
+    order, the labelled ones' out-of-fold probabilities (NaN for the others) and labels (-1 for the others)."""
+    if not (calibrate.OOF.exists() and calibrate.FINAL.exists()):
+        return None
+    labels = pd.read_parquet(calibrate.FINAL, columns=["frag_id", "pi", *ids])
+    lab = labels.merge(pd.read_parquet(calibrate.OOF, columns=["frag_id", *(f"p_{k}" for k in ids)]), on="frag_id",
+                       validate="1:1")
+    if len(lab) != len(labels):
+        raise ExportError(f"{embed.rel(calibrate.OOF)} does not cover the labels; run `calibrate fit`.")
+    w = 1 / lab["pi"].to_numpy()
+    fits = [IsotonicRegression(y_min=0, y_max=1, out_of_bounds="clip").fit(lab[f"p_{k}"], lab[k], sample_weight=w)
+            for k in ids]
+    at = lab.set_index("frag_id").reindex(fid)
+    return {"curves": [(f.X_thresholds_, f.y_thresholds_) for f in fits],
+            "oof": at[[f"p_{k}" for k in ids]].to_numpy(np.float64), "read": at[list(ids)].fillna(-1).to_numpy(np.int8)}
+
+
 def load_inputs(placeholder: bool = False) -> dict:
     """Everything `build` needs, aligned: fragments (non-ceremonial) in (iso3, year, seq) order, speeches in
     (iso3, year) order. Refuses stale caches."""
@@ -836,6 +862,7 @@ def load_inputs(placeholder: bool = False) -> dict:
         "groups": group_table(), "topics": topic_names(placeholder, info), "passes": passes, "thresholds": thr,
         "lenses": [lens for lens in codebook["lenses"] if not lens["reference"]],
         "method": None if placeholder else method_facts(codebook, n_all, n_ceremonial),
+        "hits": None if placeholder else hit_inputs(fid, calibrate.fitted_ids(codebook)),
         "build": {"date": now()[:10], "corpus": "UNGDC v14 + provisional 2026", "model": config.MODEL_ID,
                   "placeholder": placeholder, "probabilities": source},
     }
@@ -939,12 +966,34 @@ def build(inp: dict) -> tuple[dict, dict]:
         out = {}
         for j in excerpt_pick(s_of[rows], prob):
             r, k, s = rows[j], int(ks[j]), s_of[rows[j]]
-            also = [int(i) for i in np.argsort(-p[r], kind="stable") if u_about[r, i] and i != k]
             out.setdefault(codes[sc[s]], {}).setdefault(str(FIRST_YEAR + sy[s]), []).append(
-                [[k, *also], round(float(prob[j]), 4), " ".join(texts[r].split())])
+                [about_order(p[r], u_about[r], k), round(float(prob[j]), 4), " ".join(texts[r].split())])
             if name == "all" and prob[j] > top.get(s, (-1,))[0]:
                 top[s] = (prob[j], r)
         files[f"excerpts/{name}.json"] = dumps(out)
+
+    # A card for every fragment about a UNODC lens, opened from the map: its whole text, the UNODC lenses it is about
+    # (its main one first, then the others, most probable first), the hit rate at its probability on each, and the
+    # lenses the reader placed it under when it is a labelled fragment; with each year's speaker. A fragment is found
+    # by its place among its country's fragment points
+    who = [", ".join(v.strip() for v in (name, post) if isinstance(v, str) and v.strip())
+           for name, post in zip(sp["speaker_name"], sp["speaker_post"])]
+    cstart = np.searchsorted(f_country, np.arange(C))   # fragments are in country order
+    hits = inp.get("hits")
+    if hits is not None:
+        # a labelled fragment's out-of-fold probability: the final classifiers learned its label and only repeat it
+        p_hit = np.where(hits["read"][:, :1] >= 0, hits["oof"], p)
+        tenths = np.column_stack([np.floor(10 * np.interp(p_hit[:, k], *hits["curves"][k]) + 0.5) for k in range(L)])
+    cards = {}
+    for r in np.flatnonzero(u_about.any(axis=1)):
+        ls, c, s = about_order(p[r], u_about[r], int(u_best[r])), f_country[r], s_of[r]
+        card = cards.setdefault(codes[c], {"who": {}, "frags": {}})
+        card["who"][str(FIRST_YEAR + sy[s])] = who[s]
+        card["frags"][str(r - cstart[c])] = [
+            ls, None if hits is None else [int(tenths[r, k]) for k in ls],
+            [] if hits is None else [k for k in ls if hits["read"][r, k] == 1], " ".join(texts[r].split())]
+    for code, card in cards.items():
+        files[f"cards/{code}.json"] = dumps(card)
 
     # Each speech as the mean of its fragments' vectors (docs/PLAN.md, section 4), which measures the alignment below.
     # Its passage on hover: of its most probable excerpt across the UNODC lenses, on that excerpt's lens; without
@@ -964,14 +1013,14 @@ def build(inp: dict) -> tuple[dict, dict]:
     rep = pd.Series(np.where(~edge | (n_s[s_of] < 3), sims, -np.inf)).groupby(s_of).idxmax()
     speeches = {}
     for s, row in enumerate(sp.itertuples(index=False)):
-        who = ", ".join(v.strip() for v in (row.speaker_name, row.speaker_post) if isinstance(v, str) and v.strip())
         if s in top:
             r = top[s][1]
-            entry = [who, window(texts[r], weights[u_best[r]], REP_CHARS), int(u_best[r])]
+            entry = [who[s], window(texts[r], weights[u_best[r]], REP_CHARS), int(u_best[r]),
+                     int(r - cstart[f_country[r]])]
         elif s in rep.index:
-            entry = [who, window(texts[rep[s]], weights[topic[rep[s]]], REP_CHARS), -1]
+            entry = [who[s], window(texts[rep[s]], weights[topic[rep[s]]], REP_CHARS), -1, -1]
         else:
-            entry = [who, "", -1]
+            entry = [who[s], "", -1, -1]
         speeches.setdefault(row.iso3, {})[str(row.year)] = entry
     files["speeches.json"] = dumps(speeches)
 

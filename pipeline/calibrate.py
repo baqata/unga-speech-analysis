@@ -79,7 +79,7 @@ FINAL = GOLD / "labels_final.parquet"
 FIT = GOLD / "fit.json"
 CLASSIFIERS = GOLD / "classifiers.npz"
 PROBS = config.INTERIM / "lens_probs.parquet"
-OOF = config.INTERIM / "lens_oof.parquet"  # out-of-fold probabilities of the fit (error analysis)
+OOF = config.INTERIM / "lens_oof.parquet"  # out-of-fold probabilities of the fit (error analysis, the site's hit rates)
 PROTOCOL = config.ROOT / "docs" / "calibration.md"
 CODEBOOK = config.LENSES / "codebook.md"
 

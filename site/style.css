@@ -156,13 +156,35 @@ select{font:500 13px var(--sans); color:var(--ink); background:transparent; bord
 .brow span{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:var(--ink)}
 .brow b{display:block; height:12px; border-radius:0 3px 3px 0; min-width:2px}
 
+/* fragment card (opened from the map) */
+.tip .more{display:block; margin-top:4px; font-weight:600; opacity:.85}
+body:has(.card[open]){overflow:hidden}
+.card{width:min(620px, calc(100vw - 32px)); max-height:min(84vh, 760px); padding:0; border:1px solid var(--line); border-radius:6px; background:var(--panel); color:var(--ink); box-shadow:0 16px 48px rgba(10,19,27,.28); overflow:auto; overscroll-behavior:contain}
+.card::backdrop{background:rgba(10,19,27,.45)}
+.card .cin{padding:16px 18px 18px}
+.card h2{font:700 19px/1.2 var(--cond); margin:0 36px 2px 0; text-wrap:balance}
+.card .who{color:var(--muted); font-size:12.5px; margin:0}
+.card .x{position:sticky; top:0; float:right; margin:-6px -8px 0 0; width:32px; height:32px; border:0; border-radius:4px; background:var(--panel); color:var(--ink-2); font:400 22px/1 var(--sans); cursor:pointer}
+.card .x:hover{background:var(--line-2)}
+.card .chead{display:flex; justify-content:space-between; gap:12px; margin-top:14px; padding-bottom:5px; border-bottom:1px solid var(--line-2); font:600 11px/1.2 var(--cond); letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.crows{list-style:none; margin:8px 0 0; padding:0; display:flex; flex-direction:column; gap:8px}
+.crows li{display:grid; grid-template-columns:minmax(0,1fr) 72px 4.8em; align-items:center; gap:10px}
+.crows .ln{display:flex; align-items:center; gap:6px; font:600 13.5px/1.25 var(--cond); color:var(--un-text); min-width:0}
+.crows .ln svg.ic{font-size:16px}
+.crows .bt{height:6px; border-radius:3px; background:var(--track); overflow:hidden}
+.crows .bt b{display:block; height:100%; border-radius:3px; background:var(--un)}
+.crows .v{grid-column:3; font:600 12.5px/1.2 var(--cond); color:var(--ink-2); text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums}
+.crows .v.rd{grid-column:2 / 4}
+.card .note{color:var(--muted); font-size:12px; line-height:1.4; margin:8px 0 0}
+.card .ctext{margin:14px 0 0; padding-left:12px; border-left:3px solid var(--un); font-size:14px; line-height:1.55}
+.card .ctext small, .quote .meta small{font:600 10px var(--cond); letter-spacing:.08em; color:var(--muted); border:1px solid var(--line); border-radius:2px; padding:1px 4px; white-space:nowrap}
+
 /* quotes */
 .quotes{display:flex; flex-direction:column; gap:12px}
 .quote{border-left:3px solid var(--c); padding:2px 0 2px 12px}
 .quote .meta{font:600 12.5px var(--cond); letter-spacing:.02em; color:var(--ink-2); display:flex; flex-wrap:wrap; gap:4px 8px; align-items:center}
 .quote .meta .ln{display:inline-flex; align-items:center; gap:4px; color:var(--un-text)}
 .quote .meta .ln svg.ic{font-size:14px}
-.quote .meta small{font:600 10px var(--cond); letter-spacing:.08em; color:var(--muted); border:1px solid var(--line); border-radius:2px; padding:1px 4px}
 .quote p{margin:4px 0 0; font-size:13.5px; line-height:1.5; max-width:72ch}
 
 /* country tab */
@@ -210,7 +232,7 @@ footer{color:var(--muted); font-size:12px; margin-top:22px; border-top:1px solid
 
 /* site additions */
 #boot{padding:40px 0; font-size:14px}
-.lens .apx{font:600 9.5px/1 var(--cond); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); border:1px solid var(--line); border-radius:2px; padding:2px 3px; vertical-align:1px; white-space:nowrap}
+.lens .apx, .card .apx{font:600 9.5px/1 var(--cond); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); border:1px solid var(--line); border-radius:2px; padding:2px 3px; vertical-align:1px; white-space:nowrap}
 .apx-link{all:unset; cursor:pointer; color:var(--un-text); text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:3px; margin-left:4px}
 .apx-link:hover{text-decoration-color:var(--un-text)}
 .apx-link:focus-visible{outline:2px solid var(--un); outline-offset:2px}

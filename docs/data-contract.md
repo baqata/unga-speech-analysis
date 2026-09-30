@@ -68,14 +68,24 @@ One point per fragment or speech, 10 bytes each, stored one column after another
 
 ### `speeches.json` (lazy, with the Speeches layer or the Country tab)
 
-- Shape: `{ "<iso3>": { "<year>": ["<speaker, post>", "<passage>", l] } }`.
+- Shape: `{ "<iso3>": { "<year>": ["<speaker, post>", "<passage>", l, k] } }`.
 - The passage shown on hover, of 110 to 220 characters (see Passages): of the speech's most probable excerpt across the UNODC lenses (`excerpts/all.json`), on its lens `l`; in a speech with no such fragment, from the fragment nearest the mean of the speech's fragment vectors, leaving out its first and last fragments (often greetings) when it has three or more, on that fragment's topic, with `l` = -1.
-- The site publishes short passages (this file and the fragment passages) and whole fragments (the excerpts), never whole speeches: the corpus itself is cited, not committed (`docs/PLAN.md`, section 5).
+- `k` is that excerpt's place among the country's fragment points, which opens its card (`cards/<iso3>.json`); -1 when `l` is -1.
+- The site publishes short passages (this file and the fragment passages) and whole fragments (the excerpts and the cards), never whole speeches: the corpus itself is cited, not committed (`docs/PLAN.md`, section 5).
 
 ### `snips/<iso3>.json` (lazy, on hover over a fragment point)
 
 - One passage per fragment point of the country, in point order (a country's points are consecutive in `map_frag.bin`).
 - The passage is on the fragment's topic (its composition assignment), of 90 to 180 characters (see Passages).
+
+### `cards/<iso3>.json` (lazy, on a click on a map point)
+
+- Shape: `{ "who": { "<year>": "<speaker, post>" }, "frags": { "<k>": [ls, a, r, "text"] } }`, one file per country with a fragment about a UNODC lens. `k` is the fragment's place among the country's fragment points in `map_frag.bin`.
+- Every fragment about a UNODC lens has a card, whole, with its spaces collapsed (user, 2026-09-30 20:46).
+- `ls` lists the UNODC lenses it is about, its main lens first, as in `excerpts/all.json`. The site puts the chosen lens first when one is chosen.
+- `a` gives, for each lens of `ls`, the lens's **hit rate** at the fragment's probability, in tenths (0 to 10, shown as "n of 10"): of the fragments with such a probability, the share about the lens. It is a weighted isotonic regression (increasing) of the labels on the labelled fragments' out-of-fold probabilities (`docs/calibration.md`, section 5), with the weights w, read at the fragment's probability; a labelled fragment is read at its own out-of-fold probability, since the final classifiers learned its label. `null` in a build without the final fit (placeholder).
+- `r` lists the lenses of `ls` under which the reader placed the fragment, when it is a labelled fragment; the site shows "read" for them instead of a hit rate. Empty otherwise.
+- Raw probabilities are not shown: each lens has its own scale and threshold, so they cannot be compared across lenses (user, 2026-09-30 20:46).
 
 ### `composition.json` (loaded with the Country tab)
 

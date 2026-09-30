@@ -205,7 +205,9 @@ def test_build_writes_the_contract(tmp_path, monkeypatch):
     load = lambda name: json.loads(files[name])  # noqa: E731
     assert {"meta.json", "shares.bin", "frags.bin", "map_frag.bin", "map_speech.bin", "map_labels.json",
             "speeches.json", "composition.json", "alignment/2025.json", "alignment/all.json", "excerpts/all.json",
-            "keyness/all.json", "snips/ARG.json", "snips/COL.json", "snips/FRA.json"} <= set(files)
+            "keyness/all.json", "snips/ARG.json", "snips/COL.json", "snips/FRA.json", "cards/ARG.json",
+            "cards/COL.json"} <= set(files)
+    assert "cards/FRA.json" not in files  # no fragment about a UNODC lens
     assert {f"excerpts/{lens['id']}.json" for lens in LENSES} | {f"keyness/{lens['id']}.json" for lens in LENSES} \
         <= set(files)
 
@@ -247,7 +249,7 @@ def test_build_writes_the_contract(tmp_path, monkeypatch):
     femb, fr = inp["femb"].astype(np.float32), inp["frags"]
     for sid, iso3, year in inp["speeches"][["speech_id", "iso3", "year"]].itertuples(index=False):
         rows = np.flatnonzero(fr["speech_id"].to_numpy() == sid)
-        _, passage, lens = speeches[iso3][str(year)]
+        _, passage, lens, _ = speeches[iso3][str(year)]
         u = inp["P"][rows][:, :2].max(axis=1)  # drugs and alternative development; peace is the reference
         if (u >= 0.5).any():  # the fragment about a UNODC lens with the highest probability (short: shown whole)
             r = rows[np.argmax(u)]
@@ -257,6 +259,12 @@ def test_build_writes_the_contract(tmp_path, monkeypatch):
             best = inner[np.argmax(femb[inner] @ femb[rows].mean(axis=0))]
             assert lens == -1 and passage == fr["text"][best]
     assert [speeches["ARG"]["2025"][2], speeches["COL"]["2025"][2], speeches["FRA"]["2025"][2]] == [1, 0, -1]
+    col = load("cards/COL.json")  # the speech's hover passage opens its excerpt's card, by its place among the points
+    col_rows, k = np.flatnonzero(fr["speech_id"].str.startswith("COL")), speeches["COL"]["2025"][3]
+    assert k == 0 and col["frags"][str(k)][3] == fr["text"][col_rows[k]]
+    assert speeches["FRA"]["2025"][2:] == [-1, -1] and col["who"] == {"2025": "C. Name", "2026": "D. Name, Minister"}
+    arg = load("cards/ARG.json")["frags"]  # every fragment about a UNODC lens, its main lens first
+    assert sorted(arg, key=int) == ["0", "3"] and arg["3"] == [[1, 0], None, [], fr["text"][3]]  # no fit: no hit rate
     snips = load("snips/ARG.json")  # one passage per fragment point of the country, in point order
     assert len(snips) == 5 and snips[0] == fr["text"][0] and snips[3].startswith("Crop substitution")
 
@@ -292,6 +300,36 @@ def test_an_excerpt_is_its_whole_fragment():
     inp["frags"] = inp["frags"].assign(text=texts)
     drugs = json.loads(ex.build(inp)[0]["excerpts/drugs.json"])["COL"]["2025"]
     assert drugs[0][1:] == [0.9, " ".join(texts[col].split())]   # the fragment's probability; its spaces collapsed
+
+
+def test_a_card_gives_the_hit_rate_on_each_lens_and_what_the_reader_said():
+    inp = synthetic_inputs()
+    F, L = len(inp["frags"]), len(LENSES)
+    read, oof = np.full((F, L), -1, dtype=np.int8), np.full((F, L), np.nan)
+    col = np.flatnonzero(inp["frags"]["speech_id"] == "COL_80_2025")  # drug, drug, ad, peace
+    read[col[1]], oof[col[1]] = [1, 0, 0], [0.3, 0.1, 0.1]  # labelled: about drugs, out of fold at 0.3
+    curve = (np.array([0.0, 0.5, 1.0]), np.array([0.0, 0.2, 1.0]))
+    inp["hits"] = {"curves": [curve] * L, "oof": oof, "read": read}
+    cards = json.loads(ex.build(inp)[0]["cards/COL.json"])["frags"]  # COL_80_2025 is COL's first speech
+    assert cards["0"][:3] == [[0], [8], []]  # p 0.9 on the curve: 0.84, 8 of 10
+    assert cards["1"][:3] == [[0], [1], [0]]  # labelled: its out-of-fold 0.3 gives 0.12; the reader said drugs
+    assert cards["2"][:3] == [[1, 0], [7, 7], []]  # p 0.8 on both: 0.68; the main lens first, a sub-lens on a tie
+    assert "3" not in cards  # peace is no UNODC lens
+
+
+def test_hit_rates_follow_the_weighted_labels(tmp_path, monkeypatch):
+    final, oof = tmp_path / "labels_final.parquet", tmp_path / "lens_oof.parquet"
+    pd.DataFrame({"frag_id": [1, 2, 3, 4], "pi": [1, 1, 0.5, 1], "drugs": [0, 1, 0, 1]}).to_parquet(final)
+    pd.DataFrame({"frag_id": [1, 2, 3, 4], "p_drugs": [0.1, 0.2, 0.3, 0.4]}).to_parquet(oof)
+    monkeypatch.setattr(calibrate, "FINAL", final)
+    monkeypatch.setattr(calibrate, "OOF", oof)
+    h = ex.hit_inputs(np.array([4, 99]), ["drugs"])
+    # fragment 3 weighs twice (drawn with half the chance): 2 and 3 pool to (1 + 0) / 3
+    assert np.interp(0.25, *h["curves"][0]) == pytest.approx(1 / 3) and np.interp(0.4, *h["curves"][0]) == 1
+    assert h["read"].tolist() == [[1], [-1]] and h["oof"][0, 0] == pytest.approx(0.4) and np.isnan(h["oof"][1, 0])
+    pd.DataFrame({"frag_id": [1, 2, 3], "p_drugs": [0.1, 0.2, 0.3]}).to_parquet(oof)
+    with pytest.raises(ex.ExportError):  # labels the fit did not see
+        ex.hit_inputs(np.array([4]), ["drugs"])
 
 
 def test_build_refuses_fragments_without_a_topic():
