@@ -48,7 +48,7 @@ const LENSES = M.lenses, NL = LENSES.length, ALL = NL, NC = M.countries.length;
 const TOPICS = M.topics;
 const SH = new Float32Array(SHB), FRG = new Uint16Array(FRB);
 const shareOf = (c, y, L) => SH[(c * NY + y) * (NL + 1) + L];
-const approx = L => L !== ALL && LENSES[L].pass === false;   // short of the pass bar in the one-shot test: shown with a badge
+const approx = L => L !== ALL && LENSES[L].pass === false;   // short of the pass bar: shown with a badge
 const lensName = L => L === ALL ? t('allUNODC') : LENSES[L][lang];
 const lensIcon = L => L === ALL ? 'world' : LENSES[L].icon;
 const lensFile = L => L === ALL ? 'all' : LENSES[L].id;
@@ -541,8 +541,7 @@ function drawAnnex() {
   const A = M.method, box = $('annex');
   if (!A) return box.innerHTML = `<div class="empty">${esc(t('anxNone'))}</div>`;   // a build without the final fit
   const nf = new Intl.NumberFormat(lang), n = v => v == null ? '–' : nf.format(v);
-  const nf2 = new Intl.NumberFormat(lang, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-  const pc = v => v == null ? '–' : Math.round(v * 100) + (lang === 'es' ? ' %' : '%');
+  const pc = v => v == null ? '–' : Math.round(v * 100) + (lang === 'es' ? '\u00a0%' : '%');
   // a text whose values are set in bold
   const tb = (k, v = {}) => esc(I18N[lang][k] ?? k).replace(/\{(\w+)\}/g, (_, x) => v[x] == null ? '' : `<b>${esc(v[x])}</b>`);
   const lf = type => new Intl.ListFormat(lang, {type});
@@ -560,29 +559,20 @@ function drawAnnex() {
   const bar = v => `<td class="pr"><span class="pv">${pc(v)}</span><span class="pb" aria-hidden="true"><b style="width:${(100 * Math.min(1, v ?? 0)).toFixed(1)}%"></b><i style="left:${100 * A.bar}%"></i></span></td>`;
   const chip = l => `<span class="st st-${st(l)}">${esc(t('st_' + st(l)))}</span>`;   // on phones, under the name
   const rows = A.lenses.map(l => `<tr class="${st(l)}"><th scope="row"><span class="tn">${icon(l.icon)}${esc(l[lang])}</span>${chip(l)}</th>
-    <td class="num">${n(l.examples)}</td>${bar(l.precision)}${bar(l.recall)}<td>${chip(l)}</td></tr>`).join('');
+    <td class="num">${n(l.examples)}</td><td class="num">${pc(l.precision)}</td><td class="num">${pc(l.recall)}</td>${bar(l.f1)}<td>${chip(l)}</td></tr>`).join('');
   const hidden = A.lenses.filter(l => !l.shown), par = hidden[0] && A.lenses.find(l => l.id === hidden[0].parent);
   const states = [['ok', {bar: pc(A.bar)}], ['apx', {}], ...(hidden.length ? [['off', {p: par ? par[lang] : ''}]] : [])]
     .map(([k, v]) => `<li><span class="st st-${k}">${esc(t('st_' + k))}</span><span>${tb('st_' + k + 'D', v)}</span></li>`).join('');
-  const more = A.lenses.map(l => `<tr class="${st(l)}"><th scope="row">${esc(l[lang])}</th><td class="num">${pct(l.threshold)}</td>
-    <td class="num">${l.kappa == null ? '–' : nf2.format(l.kappa)}</td><td class="num">${n(l.test?.positives)}</td>
-    <td class="num">${pc(l.test?.precision)}</td><td class="num">${pc(l.test?.recall)}</td></tr>`).join('');
   const th = (k, cls = '') => `<th scope="col"${cls && ` class="${cls}"`}>${esc(t(k))}</th>`;
   const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);
   const use = [tb('use1'), tb('use2'), top ? esc(t('use3', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : '']
     .filter(Boolean).map(x => `<li>${x}</li>`).join('');
   box.innerHTML = `<section class="panel"><h2>${esc(t('anxTitle'))}</h2><p class="hint">${esc(t('anxIntro'))}</p><ol class="steps">${steps}</ol></section>
   <section class="panel" id="anxAcc"><h2>${esc(t('accTitle'))}</h2><p class="hint">${tb('accHint', {labelled: n(A.labelled)})}</p>
-    <dl class="defs">${[['accEx', 'accExD'], ['accPrecT', 'accPrec'], ['accRecT', 'accRec']].map(([a, b]) => `<div><dt>${esc(t(a))}</dt><dd>${esc(t(b))}</dd></div>`).join('')}</dl>
-    <div class="tscroll"><table class="acc main"><thead><tr>${th('accTopic')}${th('accEx', 'num')}${th('accPrecT')}${th('accRecT')}${th('accSite')}</tr></thead><tbody>${rows}</tbody></table></div>
-    <p class="note">${tb('accBarNote', {bar: pc(A.bar)})}</p>
+    <dl class="defs">${[['accEx', 'accExD'], ['accPrecT', 'accPrec'], ['accRecT', 'accRec'], ['accF1T', 'accF1']].map(([a, b]) => `<div><dt>${esc(t(a))}</dt><dd>${esc(t(b))}</dd></div>`).join('')}</dl>
+    <div class="tscroll"><table class="acc main"><thead><tr>${th('accTopic')}${th('accEx', 'num')}${th('accPrecT', 'num')}${th('accRecT', 'num')}${th('accF1T')}${th('accSite')}</tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="note">${tb('accBarNote', {bar: pc(A.bar), min: A.min_period})}</p>
     <ul class="states">${states}</ul>
-    <details class="more"><summary>${esc(t('moreT'))}</summary>
-      <p>${tb('testD', {train: n(A.sets.train), validation: n(A.sets.validation)})}</p>
-      <div class="tscroll"><table class="acc"><thead><tr><th scope="col" rowspan="2">${esc(t('accTopic'))}</th><th scope="col" rowspan="2" class="num">${esc(t('colThr'))}</th>
-        <th scope="col" rowspan="2" class="num">${esc(t('colKappa'))}</th><th scope="colgroup" colspan="3" class="grp">${esc(t('colTest'))}</th></tr>
-        <tr>${th('accEx', 'num')}${th('accPrecT', 'num')}${th('accRecT', 'num')}</tr></thead><tbody>${more}</tbody></table></div>
-      <p class="note">${esc(t('moreNote'))}</p></details>
   </section>
   <div class="bottom"><section class="panel"><h2>${esc(t('useT'))}</h2><ul class="plain">${use}</ul></section>
     <section class="panel"><h2>${esc(t('limT'))}</h2><ul class="plain">${['lim1', 'lim2', 'lim3', 'lim4'].map(k => `<li>${esc(t(k))}</li>`).join('')}</ul></section></div>`;
@@ -598,8 +588,8 @@ function applyLang() {
   yFrom.setAttribute('aria-label', t('yearFrom')); yTo.setAttribute('aria-label', t('yearTo'));
   document.querySelector('.tabbar').setAttribute('aria-label', t('views'));
   $('controls').setAttribute('aria-label', t('filters'));
-  // a development build; or a build whose lenses have not all been through the validation test (pass: null), or a
-  // preliminary publication (scripts/publish_site.sh --preliminary asks search engines not to index it)
+  // a development build; or a build whose lenses have no pass-bar result (pass: null), or a preliminary
+  // publication (scripts/publish_site.sh --preliminary asks search engines not to index it)
   const prelimCopy = !!document.querySelector('meta[name="robots"][content~="noindex"]');
   const badge = $('badge'), dev = M.build.placeholder, prelim = !dev && (prelimCopy || LENSES.some(l => l.pass == null));
   badge.hidden = !dev && !prelim; badge.textContent = t(dev ? 'devBadge' : 'prelimBadge');

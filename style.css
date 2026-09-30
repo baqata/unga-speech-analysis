@@ -233,7 +233,6 @@ table.acc{border-collapse:collapse; width:100%; font-size:13px}
 table.acc th, table.acc td{padding:7px 12px 7px 0; text-align:left; border-bottom:1px solid var(--line-2); vertical-align:middle}
 table.acc tr > :last-child{padding-right:0}
 table.acc thead th{font:600 11px/1.2 var(--cond); letter-spacing:.07em; text-transform:uppercase; color:var(--muted); border-bottom-color:var(--line); vertical-align:bottom}
-table.acc thead th.grp{text-align:center; border-bottom:1px solid var(--line)}
 table.acc .num{text-align:right; font-variant-numeric:tabular-nums}
 table.acc tbody th{font-weight:500; color:var(--ink)}
 table.acc .tn{display:inline-flex; align-items:center; gap:8px}
@@ -254,10 +253,8 @@ table.main th .st{display:none}
 .states li{display:flex; gap:12px; align-items:baseline}
 .states .st{flex:none; min-width:8.2em; text-align:center}
 .note{font-size:12px; color:var(--muted); margin:8px 0 0}
-details.more{margin-top:16px; border-top:1px solid var(--line-2); padding-top:12px}
-details.more summary{cursor:pointer; font:700 14.5px var(--cond); color:var(--un-text)}
-details.more > p{font-size:13px; line-height:1.5; color:var(--ink-2); margin:8px 0}
 ul.plain{margin:8px 0 0; padding-left:18px; display:grid; gap:7px; font-size:13.5px; line-height:1.5; color:var(--ink-2)}
 @media (max-width:720px){ .defs{grid-template-columns:minmax(0,1fr)} td.pr{min-width:0} td.pr .pb{display:none} td.pr .pv{width:auto} .states li{flex-direction:column; gap:3px}
   table.main th:last-child, table.main td:last-child{display:none} table.main th .st{display:table; margin:5px 0 0 26px}
-  table.acc th, table.acc td{padding-right:6px} table.acc tr > :last-child{padding-right:0} table.acc thead th{font-size:10px; letter-spacing:.04em} details.more table.acc{font-size:12px} }
+  table.main tr > :nth-last-child(2){padding-right:0}
+  table.acc th, table.acc td{padding-right:6px} table.acc tr > :last-child{padding-right:0} table.acc thead th{font-size:10px; letter-spacing:.04em} }
