@@ -195,7 +195,6 @@ select{font:500 13px var(--sans); color:var(--ink); background:transparent; bord
 .grow .tk i{position:absolute; top:-4px; width:10px; height:10px; margin-left:-5px; border-radius:50%; background:var(--s1)}
 .grow.own .tk i{background:var(--panel); border:2px solid var(--s1)}
 .grow .v{font:600 12px var(--cond); text-align:right; color:var(--ink-2); font-variant-numeric:tabular-nums}
-.axisnote{font-size:11.5px; color:var(--muted); margin-top:8px}
 #ctyMapWrap{height:460px}
 
 footer{color:var(--muted); font-size:12px; margin-top:22px; border-top:1px solid var(--line); padding-top:10px}
