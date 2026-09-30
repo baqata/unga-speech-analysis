@@ -315,25 +315,30 @@ function computeSlots() {
   const cSize = new Float64Array(NC).fill(Infinity);
   for (const a of active()) { const n = a.o.members.size; for (const c of a.o.members) if (n < cSize[c]) { cSize[c] = n; cSlot[c] = a.s; } }
 }
+// A selection's points about topic L (a speech: if any of its fragments is); every point when L is not measured
+const onTopic = (P, L) => { if (!measured(L)) return () => true; const b = L === ALL ? 0xffff : 1 << L; return i => (P.m[i] & b) !== 0; };
+// Back to front: the other years (a faint outline, with a year or range chosen), the period in light grey, the
+// selections' points in dark grey, and in each selection's colour its points about the chosen topic
 const regMap = new SemMap($('regMapWrap'), sp => {
-  const P = sp ? PS : PF;
+  const P = sp ? PS : PF, on = onTopic(P, state.lens);
   const alpha = isAll() ? (sp ? 0.8 : 0.55) : 1, bump = isAll() ? 0 : (sp ? 0.6 : 0.3);
-  // the selections over the rest; with a year chosen, the other years stay as a faint outline of the map
-  const layers = [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
-  return {layers, key: [state.y0, state.y1, state.slots.join(','), css('--dot')].join('|'),
-    layerOf: i => { if (!inP(P.yr[i])) return 0; const s = cSlot[P.c[i]]; return s >= 0 ? 4 - s : 1; }};
+  const layers = [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--dot-sel'), alpha, bump}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
+  return {layers, key: [state.y0, state.y1, state.slots.join(','), state.lens, css('--dot'), css('--dot-sel')].join('|'),
+    layerOf: i => { if (!inP(P.yr[i])) return 0; const s = cSlot[P.c[i]]; return s < 0 ? 1 : on(i) ? 5 - s : 2; }};
 });
-const ctyMap = new SemMap($('ctyMapWrap'), sp => {
-  const P = sp ? PS : PF, c = state.country;
-  return {layers: [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--s1'), bump: sp ? 2 : 1.9, round: true, ring: css('--panel')}],
-    key: [c, state.y0, state.y1, css('--dot')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] === c ? 2 : 1};
+const ctyMap = new SemMap($('ctyMapWrap'), sp => {   // the country tab has no topic choice: all UNODC topics
+  const P = sp ? PS : PF, c = state.country, on = onTopic(P, ALL), dot = {bump: sp ? 2 : 1.9, round: true, ring: css('--panel')};
+  return {layers: [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--dot-sel'), ...dot}, {col: css('--s1'), ...dot}],
+    key: [c, state.y0, state.y1, css('--dot'), css('--dot-sel')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] !== c ? 1 : on(i) ? 3 : 2};
 });
 function drawLegends() {
-  const items = active().map(({s, o}) => `<span><i style="background:var(--s${s + 1})"></i>${esc(optShort(o))}</span>`);
-  items.push(`<span><i style="background:var(--dot)"></i>${t('rest')}</span>`);
-  $('regLegend').innerHTML = items.join('');
+  const other = t(state.layer === 'speech' ? 'otherSpeech' : 'otherFrag');   // the selection's points not about the topic
+  const sw = (col, txt) => `<span><i style="background:${col}"></i>${esc(txt)}</span>`, lead = L => `<span class="lt">${esc(lensName(L))}:</span>`;
+  const sel = active().map(({s, o}) => sw(`var(--s${s + 1})`, optShort(o)));
+  const topic = sel.length && measured(state.lens) ? [lead(state.lens), ...sel, sw('var(--dot-sel)', other)] : sel;
+  $('regLegend').innerHTML = [...topic, sw('var(--dot)', t('rest'))].join('');
   state.slots.forEach((v, s) => { const o = OPT.get(v); $('slot' + s).title = o?.g ? [...o.members].map(c => cname(c)).sort((a, b) => a.localeCompare(b, lang)).join(', ') : ''; });   // a group's members on hover
-  $('ctyLegend').innerHTML = `<span><i style="background:var(--s1)"></i>${esc(cname(state.country))}</span><span><i style="background:var(--dot)"></i>${t('rest')}</span>`;
+  $('ctyLegend').innerHTML = [lead(ALL), sw('var(--s1)', cname(state.country)), sw('var(--dot-sel)', other), sw('var(--dot)', t('rest'))].join('');
   document.querySelectorAll('[data-layer]').forEach(b => b.setAttribute('aria-pressed', b.dataset.layer === state.layer));
   $('semHint').textContent = t(state.layer === 'speech' ? 'semHintSpeech' : 'semHintFrag');
 }

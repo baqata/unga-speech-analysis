@@ -3,7 +3,7 @@
   --bg:#F3F6F9; --panel:#FFFFFF; --ink:#0E2233; --ink-2:#3F5263; --muted:#6A7B8B; --line:#D9E2EA; --line-2:#EDF2F6;
   --un:#009EDB; --un-text:#0077B8; --chip:#E3EDF6;
   --s1:#0077B8; --s2:#CF3F0B; --s3:#9A58AF; --world:#6A7B8B;
-  --dot:#CAD4DC;
+  --dot:#CAD4DC; --dot-sel:#7B8B99;
   --q0:#E3EDF6; --q1:#B9DAEE; --q2:#6CBDE6; --q3:#1E90C8; --q4:#004987; --nodata:#EEF1F4; --land-line:#FFFFFF;
   --comp-u:#009EDB; --comp-u2:#80CDEF; --comp-g1:#8FA1B1; --comp-g2:#B7C4CF; --comp-o:#E1E8EE; --track:#E6ECF1;
   --sans:"Roboto", "Helvetica Neue", Arial, sans-serif; --cond:"Roboto Condensed", "Arial Narrow", "Roboto", sans-serif;
@@ -14,7 +14,7 @@
     --bg:#0A131B; --panel:#101B25; --ink:#E7EEF4; --ink-2:#B8C5D1; --muted:#8497A8; --line:#223340; --line-2:#182631;
     --un:#009EDB; --un-text:#4FBDEA; --chip:#16303F;
     --s1:#009EDB; --s2:#E0701C; --s3:#A868BE; --world:#9AAABA;
-    --dot:#263744;
+    --dot:#263744; --dot-sel:#6E8193;
     --q0:#17303F; --q1:#1B4D6B; --q2:#0B77AB; --q3:#33B3E6; --q4:#A9DEF6; --nodata:#16222C; --land-line:#101B25;
     --comp-u:#009EDB; --comp-u2:#0B6A99; --comp-g1:#5C6F80; --comp-g2:#3D4F5E; --comp-o:#243442; --track:#1E2D39;
     color-scheme: dark;
@@ -24,7 +24,7 @@
   --bg:#0A131B; --panel:#101B25; --ink:#E7EEF4; --ink-2:#B8C5D1; --muted:#8497A8; --line:#223340; --line-2:#182631;
   --un:#009EDB; --un-text:#4FBDEA; --chip:#16303F;
   --s1:#009EDB; --s2:#E0701C; --s3:#A868BE; --world:#9AAABA;
-  --dot:#263744;
+  --dot:#263744; --dot-sel:#6E8193;
   --q0:#17303F; --q1:#1B4D6B; --q2:#0B77AB; --q3:#33B3E6; --q4:#A9DEF6; --nodata:#16222C; --land-line:#101B25;
   --comp-u:#009EDB; --comp-u2:#0B6A99; --comp-g1:#5C6F80; --comp-g2:#3D4F5E; --comp-o:#243442; --track:#1E2D39;
   color-scheme: dark;
@@ -132,6 +132,7 @@ select{font:500 13px var(--sans); color:var(--ink); background:transparent; bord
 .legend{display:flex; flex-wrap:wrap; gap:6px 14px; font-size:12.5px; color:var(--ink-2); margin-top:8px}
 .legend span{display:inline-flex; align-items:center; gap:6px}
 .legend i{width:9px; height:9px; border-radius:50%; flex:none}
+.legend .lt{font-weight:600; color:var(--ink)}
 #world svg, #trend svg{display:block; width:100%; height:auto}
 .scale{display:flex; align-items:center; font-size:11.5px; color:var(--muted); margin-top:6px; flex-wrap:wrap; gap:4px 0}
 .scale i{width:34px; height:9px; margin-right:2px}
