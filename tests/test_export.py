@@ -81,26 +81,41 @@ def test_quantize_puts_speeches_in_the_fragments_frame():
     assert q.tolist() == [[32768, 32768], [65535, 0]]  # the middle of the frame; outside it, clipped to the edge
 
 
-def test_window_starts_at_the_sentence_with_a_key_term_and_fits():
-    pattern = calibrate.term_pattern(["drug trafficking"])
-    text = "We thank the President. Our region suffers from drug trafficking. It fuels violence. " + "More words. " * 30
-    out = ex.window(text, pattern, n=80)
-    assert out.startswith("Our region suffers from drug trafficking.") and len(out) <= 80
-    long = "In a sentence that goes on " + "and on " * 40 + "about drug trafficking at its end."
-    cut = ex.window(long, pattern, n=100)
-    assert "drug trafficking" in cut and cut.startswith("… ") and len(cut) <= 100
-    assert ex.window("No key term here. Second sentence.", pattern, n=20) == "No key term here."
-    short = ex.window("We agree. This sentence is long enough to pass the limit of the passage by far.", None, n=40)
-    assert short == "We agree. This sentence is long …"  # a short sentence alone is followed by the next one's start
+def test_window_shows_where_the_fragment_is_most_about_the_topic():
+    w = {"coca": 5.0, "farmers": 3.0, "coca farmers": 4.0}  # no fixed key term: whatever weighs for the topic
+    text = ("Thank you, Mr. President. We congratulate you on your election. Our farmers who grow coca need legal "
+            "markets and roads, and coca farmers ask for credit. " + "We also discuss many other matters. " * 6)
+    out = ex.window(text, w, n=120)
+    assert out.startswith("Our farmers who grow coca") and 60 <= len(out) <= 120  # not the greeting before it
+    start = ex.window(text, {}, n=120)  # nothing weighs: the start, with more than the greeting
+    assert start == "Thank you, Mr. President. We congratulate you on your election."
+    long = "In a sentence that goes on " + "and on, " * 30 + "our coca farmers need roads, at its very end."
+    cut = ex.window(long, w, n=100)
+    assert cut.startswith("… ") and "coca farmers" in cut and 50 <= len(cut) <= 100  # a clause of a long sentence
+    tail = "A sentence that is long enough to fill the passage well. " * 3 + "Coca farmers thank you."
+    assert ex.window(tail, w, n=100).endswith("Coca farmers thank you.")  # a short last sentence comes with context
+    assert all(50 <= len(ex.window(t, w, n=100)) <= 100 for t in (text, long, tail))
+    assert ex.window("Short fragment.", w, n=100) == "Short fragment."
     assert ex.clip("one two three four", 12) == "one two …"
 
 
-def test_excerpts_prefer_fragments_that_name_the_lens():
-    s, p = np.array([0, 0, 0, 1, 1]), np.array([.9, .6, .7, .9, .8])
-    keyed = np.array([False, True, True, False, False])
-    assert ex.excerpt_pick(s, p, keyed).tolist() == [2, 1, 3, 4]  # speech 1 names the lens nowhere: all kept
-    drugs = ex.lens_pattern(LENSES[0], LENSES)
-    assert drugs.search("Crop substitution gives farmers a legal income.")  # the sub-lens's terms count for drugs
+def test_topic_weights_favour_the_words_that_set_a_topic_apart():
+    texts = ["coca crops and farmers"] * 100 + ["coca trafficking and cartels"] * 100 + ["trade rules and markets"] * 100
+    vec = CountVectorizer(analyzer=ex.terms_of)  # enough text for the prior
+    x = vec.fit_transform(texts).tocsr()
+    vocab = vec.get_feature_names_out().tolist()
+    big = np.array([" " in v for v in vocab])
+    ad, drugs, trade = np.arange(100), np.arange(200), np.arange(200, 300)
+    w = ex.topic_weights(x, [ad, trade, np.array([], dtype=int)], vocab, big)
+    assert {"coca", "crops", "farmers"} <= set(w[0]) and not {"trade", "markets"} & set(w[0])
+    assert all(v >= ex.KEY_MIN_Z for v in w[0].values()) and w[2] == {}  # a topic with no fragment weighs nothing
+    sub = ex.topic_weights(x, [ad], vocab, big, [drugs])[0]  # a sub-lens against the rest of its parent's text
+    assert {"crops", "farmers"} <= set(sub) and "coca" not in sub
+
+
+def test_excerpts_are_the_most_probable_fragments_of_each_speech():
+    s, p = np.array([0, 0, 0, 0, 1, 1]), np.array([.9, .6, .7, .8, .9, .95])
+    assert ex.excerpt_pick(s, p).tolist() == [0, 3, 2, 5, 4]
 
 
 LENSES = [
@@ -159,7 +174,7 @@ def test_build_writes_the_contract(tmp_path, monkeypatch):
     load = lambda name: json.loads(files[name])  # noqa: E731
     assert {"meta.json", "shares.bin", "frags.bin", "map_frag.bin", "map_speech.bin", "map_labels.json",
             "speeches.json", "composition.json", "alignment/2025.json", "alignment/all.json", "excerpts/all.json",
-            "keyness/all.json"} <= set(files)
+            "keyness/all.json", "snips/ARG.json", "snips/COL.json", "snips/FRA.json"} <= set(files)
     assert {f"excerpts/{lens['id']}.json" for lens in LENSES} | {f"keyness/{lens['id']}.json" for lens in LENSES} \
         <= set(files)
 
@@ -199,9 +214,19 @@ def test_build_writes_the_contract(tmp_path, monkeypatch):
     assert speeches["ARG"]["2024"][0] == "A. Name, President" and speeches["FRA"]["2025"][1]
     femb, fr = inp["femb"].astype(np.float32), inp["frags"]
     for sid, iso3, year in inp["speeches"][["speech_id", "iso3", "year"]].itertuples(index=False):
-        rows = np.flatnonzero(fr["speech_id"].to_numpy() == sid)  # the passage is the fragment nearest the mean
-        best = rows[np.argmax(femb[rows] @ femb[rows].mean(axis=0))]
-        assert speeches[iso3][str(year)][1] == ex.clip(fr["text"][best], ex.REP_CHARS)
+        rows = np.flatnonzero(fr["speech_id"].to_numpy() == sid)
+        _, passage, lens = speeches[iso3][str(year)]
+        u = inp["P"][rows][:, :2].max(axis=1)  # drugs and alternative development; peace is the reference
+        if (u >= 0.5).any():  # the fragment about a UNODC lens with the highest probability (short: shown whole)
+            r = rows[np.argmax(u)]
+            assert passage == fr["text"][r]
+        else:  # the fragment nearest the mean, outside the first and last of a speech of three or more
+            inner = rows[1:-1] if len(rows) >= 3 else rows
+            best = inner[np.argmax(femb[inner] @ femb[rows].mean(axis=0))]
+            assert lens == -1 and passage == fr["text"][best]
+    assert [speeches["ARG"]["2025"][2], speeches["COL"]["2025"][2], speeches["FRA"]["2025"][2]] == [1, 0, -1]
+    snips = load("snips/ARG.json")  # one passage per fragment point of the country, in point order
+    assert len(snips) == 5 and snips[0] == fr["text"][0] and snips[3].startswith("Crop substitution")
 
     al = load("alignment/2025.json")
     assert set(al) == {"ARG", "COL", "FRA"} and len(al["ARG"]["overall"]["top"]) == 2

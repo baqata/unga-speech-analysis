@@ -19,6 +19,7 @@ the site must show it. Placeholder data is never published. Every cache records 
 embeddings, and `site` refuses a stale one.
 """
 import argparse
+import bisect
 import gzip
 import hashlib
 import json
@@ -36,7 +37,7 @@ import yaml
 from scipy import sparse
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, CountVectorizer
 
-from pipeline import calibrate, config, embed
+from pipeline import calibrate, config, embed, segment
 from pipeline.lenses import expand_scores, load_lenses
 
 OUT = config.INTERIM / "export"
@@ -63,8 +64,9 @@ KEY_MIN_COUNT = 3           # times a term must occur in the selection
 KEY_MIN_Z = 1.96
 PRIOR_SIZE = 1000.0         # alpha_0 of the informative Dirichlet prior
 EXCERPTS = 3                # per speech and lens
-EXCERPT_CHARS = 260
-REP_CHARS = 160
+EXCERPT_CHARS = 300         # longest passage; every passage has at least half as many characters (window)
+REP_CHARS = 220             # a speech's passage on hover
+SNIP_CHARS = 180            # a fragment's passage on hover (snips/<iso3>.json)
 START_BUDGET = 8_000_000    # gzip bytes of the files loaded at start
 TOTAL_BUDGET = 400_000_000
 START_FILES = ("meta.json", "shares.bin", "frags.bin", "map_frag.bin", "map_speech.bin", "map_labels.json")
@@ -116,7 +118,7 @@ albanian greek cypriot maltese irish scottish dutch belgian swiss austrian swedi
 portuguese australian haitian jamaican guatemalan salvadoran honduran nicaraguan panamanian dominican caribbean soviet
 yugoslav czechoslovak""".split())
 WORD = re.compile(r"[^\W\d_](?:[^\W\d_]|['\-])*[^\W\d_]|[.,;:!?()\[\]\"“”—–]")
-SENTENCE = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"'(“])")
+CLAUSE = re.compile(r"[,;:]\s+")
 
 
 class ExportError(Exception):
@@ -150,19 +152,26 @@ def check_fresh(path, input_hash: str) -> dict:
 # Words
 # ---------------------------------------------------------------------------
 
-def terms_of(text: str, names: frozenset = frozenset(), stop: frozenset = STOP) -> list[str]:
-    """Single words, then two-word phrases of adjacent kept words in the same clause."""
+def term_ends(text: str, names: frozenset = frozenset(), stop: frozenset = STOP) -> list[tuple[str, int]]:
+    """Single words, then two-word phrases of adjacent kept words in the same clause, each with the offset in text
+    where it ends."""
     out, prev = [], None
-    for tok in WORD.findall(text.lower().replace("’", "'")):
+    for m in WORD.finditer(text.lower().replace("’", "'")):
+        tok = m.group()
         if tok.endswith("'s"):
             tok = tok[:-2]
         word = tok if len(tok) > 2 and tok[0].isalpha() and tok not in stop and tok not in names else None
         if word:
-            out.append(word)
+            out.append((word, m.end()))
             if prev and not (prev in NAME_WORDS_KEPT and word in NAME_WORDS_KEPT):  # not "democratic republic"
-                out.append(f"{prev} {word}")
+                out.append((f"{prev} {word}", m.end()))
         prev = word
     return out
+
+
+def terms_of(text: str, names: frozenset = frozenset(), stop: frozenset = STOP) -> list[str]:
+    """Single words, then two-word phrases of adjacent kept words in the same clause."""
+    return [t for t, _ in term_ends(text, names, stop)]
 
 
 def name_words(codes) -> frozenset:
@@ -524,40 +533,83 @@ def clip(text: str, n: int) -> str:
     return (cut[:cut.rfind(" ")] if " " in cut else cut).rstrip(",;:") + " …"
 
 
-def window(text: str, pattern, n: int = EXCERPT_CHARS) -> str:
-    """A short passage of a fragment: the first sentence with a key term of the lens and the sentences after it
-    that fit in n characters, cut near the term when the sentence is longer; the fragment's start without one.
-    A sentence under half of n is followed by the start of the next one, so that the passage says something."""
-    sents = SENTENCE.split(" ".join(str(text).split()))
-    k = next((i for i, s in enumerate(sents) if pattern is not None and pattern.search(s)), 0)
-    out = sents[k]
-    for nxt in sents[k + 1:]:
-        if len(out) + 1 + len(nxt) > n:
-            if len(out) < n // 2:
-                out += " " + nxt
-            break
-        out += " " + nxt
-    if len(out) <= n:
-        return out
-    m = pattern.search(out) if pattern is not None else None
-    start = out.find(" ", max(0, m.start() - n // 2)) + 1 if m and m.end() > n - 2 else 0
-    return ("… " + clip(out[start:], n - 2)) if start else clip(out, n)
+def window(text: str, weight: dict | None = None, n: int = EXCERPT_CHARS) -> str:
+    """The passage of a fragment shown for a topic, from n // 2 to n characters, where the fragment is most about
+    that topic. A candidate starts at a sentence, or at a clause of a sentence longer than n (after "… "), and runs
+    to the last sentence end within n characters, or is cut at a word before n when no sentence ends between n // 2
+    and n. A start with less than n // 2 characters left is not taken, so a passage is never a greeting alone. The
+    candidate whose terms weigh most in `weight` (term: weight, from topic_weights) is kept; on a tie, the one that
+    starts nearest those terms (the latest), and the first when no term weighs."""
+    t = " ".join(str(text).split())
+    if len(t) <= n:
+        return t
+    spans = [(a + (t[a] == " "), b) for a, b in segment.sentence_spans(t)]
+    starts, ends = [a for a, _ in spans], [b for _, b in spans]
+    cands = []
+    for a, e in zip(starts, ends):
+        cands.append((a, False))
+        if e - a > n:
+            cands += [(c.end(), True) for c in CLAUSE.finditer(t, a, e)]
+    pos, cum = [0], [0.0]   # where each term ends, and the running sum of the weights
+    for term, end in term_ends(t) if weight else []:
+        pos.append(end)
+        cum.append(cum[-1] + weight.get(term, 0.0))
+    best = None
+    for a, mid in cands:
+        room = n - 2 if mid else n
+        if len(t) - a < n // 2:
+            continue
+        j = bisect.bisect_right(ends, a + room) - 1
+        if j >= 0 and ends[j] - a >= n // 2:
+            b, cut = ends[j], False
+        elif len(t) - a <= room:
+            b, cut = len(t), False
+        else:
+            b = t.rfind(" ", a, a + room - 1)
+            b, cut = (b if b > a else a + room - 2), True
+        score = cum[bisect.bisect_right(pos, b) - 1] - cum[bisect.bisect_right(pos, a) - 1]
+        if best is None or score > best[0] or 0 < score == best[0]:
+            best = (score, a, b, cut, mid)
+    _, a, b, cut, mid = best
+    out = t[a:b].rstrip(",;: ") + " …" if cut else t[a:b]
+    return "… " + out if mid else out
 
 
-def lens_pattern(lens: dict, lenses: list | None = None):
-    """The lens's key terms and the phrases of its English name, with those of its sub-lenses (the umbrella rule),
-    to find the sentence an excerpt starts at."""
-    terms = []
-    for x in [lens] + [c for c in lenses or [] if c.get("parent") == lens["id"]]:
-        terms += list(x.get("era_terms", [])) + [p.strip() for p in re.split(r"&| and ", x["name_en"]) if p.strip()]
-    return calibrate.term_pattern(terms)
+def topic_weights(x: sparse.csr_matrix, members: list, vocab: list, is_bigram: np.ndarray,
+                  within: list | None = None) -> list[dict]:
+    """For each topic (members: the rows of its fragments in x), the weight of each term in the passages shown for
+    it: the term's Fightin' Words z-score in the topic's fragments against all the other fragments, or against the
+    other fragments of `within` (for a sub-lens, its parent lens's fragments, so that an alternative development
+    passage is picked for what sets it apart from drugs at large), where it is at least KEY_MIN_Z. A passage is
+    then chosen for the words that set its topic apart, not for a list of key terms."""
+    def counts(sets):
+        r = np.concatenate([np.full(len(m), i, dtype=np.int64) for i, m in enumerate(sets)])
+        ind = sparse.csr_matrix((np.ones(len(r)), (r, np.concatenate(sets))), shape=(len(sets), x.shape[0]))
+        return (ind @ x).toarray()
+
+    tot = np.asarray(x.sum(axis=0)).ravel().astype(np.float64)
+    alpha = prior(tot, is_bigram)
+    kind = is_bigram.astype(int)
+    y = counts(members)
+    rest = tot[None, :] - y
+    subs = [i for i, w in enumerate(within or []) if w is not None]
+    if subs:
+        rest[subs] = counts([within[i] for i in subs]) - y[subs]
+    words = np.asarray(vocab, dtype=object)
+    out = []
+    with np.errstate(divide="ignore", invalid="ignore"):
+        for yi, yj in zip(y, rest):
+            ni = np.array([yi[~is_bigram].sum(), yi[is_bigram].sum()])[kind]
+            nj = np.array([yj[~is_bigram].sum(), yj[is_bigram].sum()])[kind]
+            z = fightin_words(yi, ni, yj, nj, alpha)
+            k = np.flatnonzero(z >= KEY_MIN_Z)
+            out.append(dict(zip(words[k].tolist(), z[k].tolist())))
+    return out
 
 
-def excerpt_pick(s: np.ndarray, p: np.ndarray, keyed: np.ndarray) -> np.ndarray:
-    """Positions of the excerpts kept, up to EXCERPTS per speech s, highest p first: among the fragments with a
-    sentence that names the lens (keyed) when the speech has any, since the passage of the others is their start."""
-    cand = pd.DataFrame({"s": s, "k": keyed, "p": p, "i": np.arange(len(s))})
-    cand = cand[cand["k"] == cand.groupby("s")["k"].transform("max")]
+def excerpt_pick(s: np.ndarray, p: np.ndarray) -> np.ndarray:
+    """Positions of the excerpts kept: up to EXCERPTS per speech s, highest p first."""
+    cand = pd.DataFrame({"s": s, "p": p, "i": np.arange(len(s))})
     return cand.sort_values(["s", "p", "i"], ascending=[True, False, True]).groupby("s").head(EXCERPTS)["i"].to_numpy()
 
 
@@ -767,8 +819,28 @@ def build(inp: dict) -> tuple[dict, dict]:
     anchors = label_anchors(qf, topic, T, 50)   # the regions are the same on both layers
     files["map_labels.json"] = dumps({"fragments": anchors, "speeches": anchors})
 
-    # Each speech as the mean of its fragments' vectors (docs/PLAN.md, section 4): its most representative passage
-    # is the fragment closest to that mean, and it measures the alignment below
+    # The passages shown for a topic come from where a fragment is most about it (window): the lenses weigh the
+    # terms of the fragments about them (a sub-lens against the rest of its parent's), the general topics those of
+    # their fragments. A passage of every fragment for the map's hover, one file per country in point order, on the
+    # fragment's topic
+    x, vocab = inp["X"], inp["vocab"]
+    is_bigram = np.array([" " in w for w in vocab], dtype=bool)
+    at = {lens["id"]: k for k, lens in enumerate(lenses)}
+    parent_rows = [np.flatnonzero(about[:, k] | about[:, at[lens["parent"]]]) if lens.get("parent") else None
+                   for k, lens in enumerate(lenses)]
+    weights = topic_weights(x, [np.flatnonzero(about[:, k]) for k in range(L)]
+                            + [np.flatnonzero(topic == t) for t in range(L, T)], vocab, is_bigram,
+                            parent_rows + [None] * (T - L))
+    f_country = sc[s_of]
+    for c in range(C):
+        rows = np.flatnonzero(f_country == c)
+        if len(rows):
+            files[f"snips/{codes[c]}.json"] = dumps([window(texts[r], weights[topic[r]], SNIP_CHARS) for r in rows])
+
+    # Each speech as the mean of its fragments' vectors (docs/PLAN.md, section 4), which measures the alignment below.
+    # Its passage on hover: the fragment about a UNODC lens with the highest probability, on that lens; without one,
+    # the fragment closest to that mean outside the speech's first and last (often greetings), in a speech of three
+    # or more, on its topic
     femb = inp["femb"]
     per_speech = sparse.csr_matrix((np.ones(F, dtype=np.float32), (s_of, np.arange(F))), shape=(S, F)).tocsc()
     semb = np.zeros((S, femb.shape[1]), dtype=np.float32)
@@ -779,27 +851,36 @@ def build(inp: dict) -> tuple[dict, dict]:
     for a in range(0, F, 65536):
         sims[a:a + 65536] = np.einsum("ij,ij->i", np.asarray(femb[a:a + 65536], dtype=np.float32),
                                       semb[s_of[a:a + 65536]])
-    rep = pd.Series(sims).groupby(s_of).idxmax()
+    edge = np.r_[True, s_of[1:] != s_of[:-1]] | np.r_[s_of[1:] != s_of[:-1], True]   # fragments are in speech order
+    rep = pd.Series(np.where(~edge | (n_s[s_of] < 3), sims, -np.inf)).groupby(s_of).idxmax()
+    u_about = about & unodc
+    u_best = np.where(u_about & (p == np.where(unodc, p, -1).max(axis=1, keepdims=True)), 1 + child, 0).argmax(axis=1)
+    u_rows = np.flatnonzero(u_about.any(axis=1))
+    u_top = (pd.DataFrame({"s": s_of[u_rows], "p": u_max[u_rows], "r": u_rows})
+             .sort_values(["s", "p", "r"], ascending=[True, False, True]).groupby("s").head(1).set_index("s")["r"])
     speeches = {}
     for s, row in enumerate(sp.itertuples(index=False)):
         who = ", ".join(v.strip() for v in (row.speaker_name, row.speaker_post) if isinstance(v, str) and v.strip())
-        speeches.setdefault(row.iso3, {})[str(row.year)] = [who, clip(texts[rep[s]], REP_CHARS) if s in rep.index else ""]
+        if s in u_top.index:
+            r = u_top[s]
+            entry = [who, window(texts[r], weights[u_best[r]], REP_CHARS), int(u_best[r])]
+        elif s in rep.index:
+            entry = [who, window(texts[rep[s]], weights[topic[rep[s]]], REP_CHARS), -1]
+        else:
+            entry = [who, "", -1]
+        speeches.setdefault(row.iso3, {})[str(row.year)] = entry
     files["speeches.json"] = dumps(speeches)
 
     # Excerpts per lens, and across the UNODC lenses
-    patterns = [lens_pattern(lens, lenses) for lens in lenses]
-    u_about = about & unodc
-    u_best = np.where(u_about & (p == np.where(unodc, p, -1).max(axis=1, keepdims=True)), 1 + child, 0).argmax(axis=1)
     sets = [(lens["id"], about[:, k], p[:, k], np.full(F, k)) for k, lens in enumerate(lenses)]
     sets.append(("all", u_about.any(axis=1), np.where(unodc, p, -1).max(axis=1), u_best))
     for name, mask, score, lens_of in sets:
         rows = np.flatnonzero(mask)
-        keyed = np.array([bool(patterns[lens_of[r]].search(texts[r])) for r in rows], dtype=bool)
         out = {}
-        for r in rows[excerpt_pick(s_of[rows], score[rows], keyed)]:
+        for r in rows[excerpt_pick(s_of[rows], score[rows])]:
             s, prob = s_of[r], score[r]
             out.setdefault(codes[sc[s]], {}).setdefault(str(FIRST_YEAR + sy[s]), []).append(
-                [int(lens_of[r]), round(float(prob), 2), window(texts[r], patterns[lens_of[r]])])
+                [int(lens_of[r]), round(float(prob), 2), window(texts[r], weights[lens_of[r]])])
         files[f"excerpts/{name}.json"] = dumps(out)
 
     # Alignment per year and over all years (all fragments; UNODC-lens fragments)
@@ -822,8 +903,6 @@ def build(inp: dict) -> tuple[dict, dict]:
                                                        present, codes, gmem, slugs))
 
     # Distinctive words per lens, and across the UNODC lenses
-    x, vocab = inp["X"], inp["vocab"]
-    is_bigram = np.array([" " in w for w in vocab], dtype=bool)
     selections = [(g["slug"], g["members"]) for g in groups] + [(code, [c]) for c, code in enumerate(codes)]
     periods = [("all", np.ones(S, dtype=bool))] + [(str(FIRST_YEAR + y), sy == y) for y in range(Y)]
     for name, mask, _, _ in sets:

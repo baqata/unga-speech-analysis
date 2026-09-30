@@ -107,7 +107,9 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **One global map, fitted once on all the data.** Year and selection only change the highlighting; the layout never changes (2026-09-26 18:02, r476).
 - **One geography for both layers, kept across updates.** The map is fitted once on the fragments and saved. Each speech, and each new year's fragments, are placed among the fragments they most resemble, so nothing already on the map moves; a new edition of the map is a deliberate refit (2026-09-29 17:31, s4 r503; the method was left to the main agent, 18:49, s4 r670). Method: section 4, Map.
 - **Two layers**, with a "Fragments / Speeches" toggle. Fragments is the default (2026-09-26 18:28, r659; details proposed r679, confirmed 2026-09-26 18:33, r683).
-- **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit. Hovering shows its topic composition and its most representative passage: the fragment closest to the mean of its fragments' vectors (r679, confirmed r683; mean (2026-09-29 21:56, s4 r2316)).
+- **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit (r679, confirmed r683; mean (2026-09-29 21:56, s4 r2316)). Hovering shows its topic composition and a passage: from its fragment about a UNODC topic with the highest probability, on that topic; in a speech with none, from the fragment closest to the mean of its fragments' vectors, its first and last left out (2026-09-30 04:20).
+- **Fragments layer:** hovering shows the country, the year, the fragment's topic and a passage of it on that topic (2026-09-30 04:20).
+- **Highlighting:** the map shows only the rest of the points and where the selections (up to three) fall; no topic is highlighted (2026-09-30 04:37). With a year chosen, the other years stay as a faint outline (2026-09-30 04:20).
 - **Region labels:** topic names written from example fragments, in Spanish and English (proposed r591 and r679; confirmed 2026-09-26 18:33, r683), each where its fragments concentrate; both layers show the same labels.
 - **Points drawn:** the final map shows every fragment (r565; confirmed r683). The mockups show a sample.
 
@@ -121,7 +123,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **Word bars:** ranked bars of z-scores for single words and two-word phrases. No word cloud (2026-09-26 18:02, r476).
   - The method is Fightin' Words log-odds with an informative Dirichlet prior (Monroe et al. 2008) (proposed r565).
   - Each selection is compared with the rest of the world, on the same lens and period (2026-09-26 18:12, r575).
-- **Excerpts:** short passages in the original English (2026-09-26 17:31, r92; proposed r591).
+- **Excerpts:** short passages in the original English (2026-09-26 17:31, r92; proposed r591): the fragments most probably about the topic, each shown where it is most about that topic, judged by the words that set the topic apart rather than by a list of key terms, between a minimum and a maximum length so that a passage is never a greeting alone (2026-09-30 04:24). Rules: `docs/data-contract.md`, Passages.
 
 ### 3.9 Country tab ("País")
 
@@ -151,7 +153,7 @@ It answers "where does Colombia align in a given year" (2026-09-26 18:21, r615).
 - **Embeddings:** Harrier-OSS-v1-0.6B (`microsoft/harrier-oss-v1-0.6b`) for the fragments (2026-09-26 18:28, r659; confirmed r683). Each fragment is embedded as a document, with no instruction, as the model's authors specify for documents; only the lens descriptions, which draw the calibration sample, are embedded as queries with an instruction (`data/lenses/lenses.yaml`).
 - **Uses of the embeddings:**
   - Fragments: composition, lens scores, distinctive words, excerpts and the map (r679; confirmed 2026-09-26 18:33, r683).
-  - Speeches, each as the mean of its non-ceremonial fragments' vectors: its place on the map, the passage shown on hover (the fragment closest to that mean) and the country alignment, overall and on UNODC topics (2026-09-29 21:56, s4 r2316). On the 387 speeches of 2024 and 2026, the fragment closest to the mean was the speech's first or last in 56% of cases and from the openings-and-closings group in 4% (35% and 6% of all fragments). A speech's 5 most similar speeches of the same year shared its subregion in 53% (2024) and 58% (2026) of cases; chance is 12%.
+  - Speeches, each as the mean of its non-ceremonial fragments' vectors: its place on the map, the passage shown on hover when the speech has no fragment about a UNODC topic (the fragment closest to that mean, its first and last left out, section 3.6) and the country alignment, overall and on UNODC topics (2026-09-29 21:56, s4 r2316). On the 387 speeches of 2024 and 2026, the fragment closest to the mean was the speech's first or last in 56% of cases and from the openings-and-closings group in 4% (35% and 6% of all fragments). A speech's 5 most similar speeches of the same year shared its subregion in 53% (2024) and 58% (2026) of cases; chance is 12%.
 - **Map** (2026-09-29 18:49, s4 r670; the user asked that settings be judged by experience and checked, not searched by grid):
   - UMAP of the full 1,024-dimension fragment vectors by cosine, with no reduction before it, fitted once with seed 0 and saved.
   - 50 neighbours: at UMAP's default of 15, a quarter of a fragment's nearest fragments are its own country's in other years, so the map would group countries' repetitions rather than subjects; at 50 it is a sixth, and more neighbours barely lower it (measured on 215,090 fragments).
@@ -250,6 +252,9 @@ The user left the calibration method to the main agent, asking for the most tech
 | One UMAP per layer, the fragments' through a 64-dimension PCA (r476, r679) | One map fitted on the full fragment vectors; speeches and later fragments placed on it (2026-09-29 18:49, s4 r670) |
 | Speeches placed on the map by their whole-text vector (2026-09-29 18:49) | Placed by the mean of their fragments' vectors, which spreads each year's speeches by subject (2026-09-29 20:44) |
 | Whole-speech vectors for the hover passage and the country alignment (r679, r683) | The mean of the speech's fragment vectors for its place, its hover passage and the alignment; whole-speech embeddings dropped (2026-09-29 21:56, s4 r2316) |
+| A speech's hover passage from the fragment closest to its mean (2026-09-29 21:56) | From its fragment most about a UNODC topic, else the one closest to the mean outside its first and last; fragments get a passage on hover too (2026-09-30 04:20) |
+| Passages that start at a sentence with a key term of the lens (overnight build, 2026-09-30) | The part of the fragment most about its topic by the words that set the topic apart, with a minimum and a maximum length (2026-09-30 04:24) |
+| Speeches or fragments about the chosen lens tinted on the semantic map (mockup) | Only the rest of the points and the selections (2026-09-30 04:37) |
 | Three labellers read every fragment, a fourth decides disagreements, five agents at a time (s2 r13904) | One labeller, ten at a time, with a check of about 600 fragments at maximum effort and a resolver; codebook 1.2 (2026-09-29 21:56, s4 r2316) |
 | A check of about 600 fragments only (2026-09-29 21:56) | Also a second reading of the doubtful validation labels and of the fragments codebook 1.3 may change, about 1,800 (2026-09-30 00:30) |
 | Codebook 1.3 for the check and the resolver (2026-09-30 00:30) | Codebook 1.4, aligned with UNODC's official definitions; the fragments it may change read again or resolved, and a review of 250 more (2026-09-30 01:58, 02:48) |

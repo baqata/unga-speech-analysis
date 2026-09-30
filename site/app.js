@@ -12,7 +12,7 @@ function want(p) {   // a lazy data file: fetched once, on first use; the view r
   let e = store.get(p);
   if (!e) {
     store.set(p, e = {value: null, failed: false});
-    getJSON('data/' + p).then(v => { e.value = v; update(); }, err => { e.failed = true; console.error(err); update(); });
+    getJSON('data/' + p).then(v => { e.value = v; update(); tipAgain?.(); }, err => { e.failed = true; console.error(err); update(); });
   }
   return e.value;
 }
@@ -46,7 +46,6 @@ const LENSES = M.lenses, NL = LENSES.length, ALL = NL, NC = M.countries.length;
 const TOPICS = M.topics;
 const SH = new Float32Array(SHB), FRG = new Uint16Array(FRB);
 const shareOf = (c, y, L) => SH[(c * NY + y) * (NL + 1) + L];
-const UBITS = LENSES.reduce((m, l, i) => l.reference ? m : m | (1 << i), 0);
 const measured = L => L === ALL || LENSES[L].pass !== false;   // a lens short of the pass bar: passages only
 const lensName = L => L === ALL ? t('allUNODC') : LENSES[L][lang];
 const lensIcon = L => L === ALL ? 'world' : LENSES[L].icon;
@@ -62,16 +61,13 @@ function points(buf, spec) {   // one column after another, as meta.binaries lis
   return P;
 }
 const PF = points(MFB, M.binaries['map_frag.bin']), PS = points(MSB, M.binaries['map_speech.bin']);
+const CSTART = new Int32Array(M.countries.length);   // fragment points are in country order
+for (let i = PF.n - 1; i >= 0; i--) CSTART[PF.c[i]] = i;
 const ISO = Object.fromEntries(M.countries.map((c, i) => [c.iso3, i]));
 const cname = (c, y, bare) => {
   const C = M.countries[c], h = y != null && C.hist.find(r => y >= r.from && y <= r.to);
   return h ? h[lang] + (bare ? '' : ` (${h.from}–${h.to})`) : C[lang];
 };
-// Speeches with more of a lens: the top fifth of all speeches on that lens
-const TINT = Array.from({length: NL + 1}, (_, L) => {
-  const v = []; for (let i = 0; i < PS.n; i++) { const x = shareOf(PS.c[i], PS.yr[i], L); if (!Number.isNaN(x)) v.push(x); }
-  return v.length ? d3.quantileSorted(v.sort((a, b) => a - b), 0.8) : Infinity;
-});
 
 // ---------------- selections ----------------
 const OPT = new Map();
@@ -95,6 +91,7 @@ function applyHash() {
 
 // ---------------- tooltip ----------------
 const tip = $('tip');
+let tipAgain = null;   // redraws the open tooltip when a file it waits for arrives
 function showTip(e, html) {
   tip.innerHTML = html; tip.style.opacity = 1;
   const r = tip.getBoundingClientRect(), W = innerWidth, H = innerHeight;
@@ -103,7 +100,7 @@ function showTip(e, html) {
   if (y + r.height > H - 8) y = Math.max(8, e.clientY - r.height - 14);
   tip.style.transform = `translate(${x}px,${y}px)`;
 }
-const hideTip = () => { tip.style.opacity = 0; };
+const hideTip = () => { tip.style.opacity = 0; tipAgain = null; };
 addEventListener('scroll', hideTip, {passive: true});
 
 // ---------------- aggregates (each country weighs the same) ----------------
@@ -266,13 +263,17 @@ function SemMap(wrap, layersOf) {
       const c = PS.c[i], y = Y0 + PS.yr[i], iso = M.countries[c].iso3;
       const comp = want('composition.json'), sp = want('speeches.json');
       const parts = comp ? (comp[iso]?.[y] || []).slice(0, 3).map(([k, v]) => `${esc(topicName(k))} ${pct(v)}`).join(' · ') : waitMsg('composition.json');
-      const rep = sp?.[iso]?.[y]?.[1];
-      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br>${parts}${rep ? `<q>“${esc(rep)}”</q>` : ''}`);
+      const [, rep, rl] = sp?.[iso]?.[y] || [];
+      const on = rep && rl >= 0 ? `<span class="ql">${icon(LENSES[rl].icon)}${esc(LENSES[rl][lang])}</span>` : '';
+      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br>${parts}${rep ? `<q>${on}“${esc(rep)}”</q>` : ''}`);
     } else {
       const c = PF.c[i], y = Y0 + PF.yr[i], m = PF.m[i], ls = [];
       for (let j = 0; j < NL; j++) if (m & (1 << j)) ls.push(LENSES[j][lang]);
-      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br>${esc(ls.length ? ls.slice(0, 2).join(' · ') : topicName(PF.t[i]))}`);
+      const f = `snips/${M.countries[c].iso3}.json`, sn = want(f), txt = sn?.[i - CSTART[c]];
+      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br><span class="tl">${esc(ls.length ? ls.slice(0, 2).join(' · ') : topicName(PF.t[i]))}</span>`
+        + (txt ? `<q>“${esc(txt)}”</q>` : `<q>${waitMsg(f)}</q>`));
     }
+    tipAgain = () => hover(e);
   };
   cv.addEventListener('pointermove', e => { if (e.pointerType === 'mouse') hover(e); });
   cv.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse') hover(e); });
@@ -288,21 +289,20 @@ function computeSlots() {
   for (const a of active()) { const n = a.o.members.size; for (const c of a.o.members) if (n < cSize[c]) { cSize[c] = n; cSlot[c] = a.s; } }
 }
 const regMap = new SemMap($('regMapWrap'), sp => {
-  const P = sp ? PS : PF, L = state.lens, bits = L === ALL ? UBITS : (1 << L), thr = TINT[L];
-  const tint = !measured(L) ? (() => false) : sp ? (i => shareOf(P.c[i], P.yr[i], L) >= thr) : (i => (P.m[i] & bits) !== 0);
+  const P = sp ? PS : PF;
   const alpha = state.year ? 1 : (sp ? 0.8 : 0.55), bump = state.year ? (sp ? 0.6 : 0.3) : 0;
-  const layers = [{col: css('--dot')}, {col: css('--dot-theme')}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
-  return {layers, key: [L, state.year, state.slots.join(','), css('--dot')].join('|'),
-    layerOf: i => { const s = inP(P.yr[i]) ? cSlot[P.c[i]] : -1; return s >= 0 ? 4 - s : (tint(i) ? 1 : 0); }};
+  // the selections over the rest; with a year chosen, the other years stay as a faint outline of the map
+  const layers = [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
+  return {layers, key: [state.year, state.slots.join(','), css('--dot')].join('|'),
+    layerOf: i => { if (!inP(P.yr[i])) return 0; const s = cSlot[P.c[i]]; return s >= 0 ? 4 - s : 1; }};
 });
 const ctyMap = new SemMap($('ctyMapWrap'), sp => {
   const P = sp ? PS : PF, c = state.country;
-  return {layers: [{col: css('--dot')}, {col: css('--s1'), bump: sp ? 2 : 1.9, round: true, ring: css('--panel')}],
-    key: [c, state.year, css('--dot')].join('|'), layerOf: i => P.c[i] === c && inP(P.yr[i]) ? 1 : 0};
+  return {layers: [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--s1'), bump: sp ? 2 : 1.9, round: true, ring: css('--panel')}],
+    key: [c, state.year, css('--dot')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] === c ? 2 : 1};
 });
 function drawLegends() {
   const items = active().map(({s, o}) => `<span><i style="background:var(--s${s + 1})"></i>${esc(optShort(o))}</span>`);
-  if (measured(state.lens)) items.push(`<span><i style="background:var(--dot-theme)"></i>${esc(state.layer !== 'speech' ? lensName(state.lens) : state.lens === ALL ? t('lensSpeechAll') : t('lensSpeech', {l: inSentence(lensName(state.lens))}))}</span>`);
   items.push(`<span><i style="background:var(--dot)"></i>${t('rest')}</span>`);
   $('regLegend').innerHTML = items.join('');
   $('ctyLegend').innerHTML = `<span><i style="background:var(--s1)"></i>${esc(cname(state.country))}</span><span><i style="background:var(--dot)"></i>${t('rest')}</span>`;

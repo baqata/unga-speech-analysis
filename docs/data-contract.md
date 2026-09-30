@@ -17,6 +17,11 @@ This contract sits between the pipeline export (`pipeline/export.py`, which writ
     - otherwise it goes to its general topic;
     - composition parts sum to 1 per speech.
 - **Group values** give each country the same weight: a group's value for a year is the mean of its members' shares that year, and for a period it is the mean, over members, of each member's mean over the years it spoke. The value for "world" does the same over all countries. Speech length and the number of speeches never weigh.
+- **Passages** (the excerpts and the map's hover) show the part of a fragment most about the topic they illustrate, not a set key term:
+  - each term weighs its Fightin' Words z-score (as for the word bars) in the topic's fragments against all the other fragments, where it is at least 1.96: the fragments about a lens, or those of a general topic. A sub-lens is set against the rest of its parent lens's fragments, so that an alternative development passage shows what sets it apart from drugs at large;
+  - a candidate passage starts at a sentence, or at a clause of a sentence too long to show whole (then after "… "), and runs to the last sentence end that fits, or is cut at a word (then ends with " …");
+  - it has at least half its maximum length, so it is never a greeting alone; a fragment shorter than the maximum is shown whole;
+  - the candidate whose terms weigh most is shown; on a tie, the one that starts nearest those terms; when no term weighs, the first.
 - **Missing values** are `null`. A missing value means there is no speech or the text is too little to measure. Missing is never shown as 0.
 - **Binaries** are little-endian typed arrays. Each binary's layout is described in `meta.binaries`.
 - **Text** fields hold original English and are never translated. Every UI string lives in `site/i18n/{es,en}.json`, not here.
@@ -62,9 +67,14 @@ One point per fragment or speech, 10 bytes each, stored one column after another
 
 ### `speeches.json` (lazy, with the Speeches layer or the Country tab)
 
-- Shape: `{ "<iso3>": { "<year>": ["<speaker, post>", "<passage>"] } }`.
-- The passage is the most representative one: the start of the fragment nearest the mean of the speech's fragment vectors, cut at 160 characters. A fragment point's hover shows its country, year and topic, not its text.
-- The site publishes short passages only (this file and the excerpts), never whole speeches: the corpus itself is cited, not committed (`docs/PLAN.md`, section 5).
+- Shape: `{ "<iso3>": { "<year>": ["<speaker, post>", "<passage>", l] } }`.
+- The passage shown on hover, of 110 to 220 characters (see Passages): from the speech's fragment about a UNODC lens with the highest probability, on that lens, with `l` that lens; in a speech with no such fragment, from the fragment nearest the mean of the speech's fragment vectors, leaving out its first and last fragments (often greetings) when it has three or more, on that fragment's topic, with `l` = -1.
+- The site publishes short passages only (this file, the fragment passages and the excerpts), never whole speeches: the corpus itself is cited, not committed (`docs/PLAN.md`, section 5).
+
+### `snips/<iso3>.json` (lazy, on hover over a fragment point)
+
+- One passage per fragment point of the country, in point order (a country's points are consecutive in `map_frag.bin`).
+- The passage is on the fragment's topic (its composition assignment), of 90 to 180 characters (see Passages).
 
 ### `composition.json` (loaded with the Country tab)
 
@@ -88,8 +98,8 @@ What the two measures use:
 ### `excerpts/<lens>.json` (lazy, per lens)
 
 - Shape: `{ "<iso3>": { "<year>": [[l, p, "passage"], ...] } }`, one file per lens and `excerpts/all.json` across the UNODC lenses (peace left out), where `l` is the lens with the highest probability.
-- Holds up to 3 fragments per country-year about that lens, highest probability `p` first, taken among the fragments with a sentence that names the lens when the speech has any.
-- The passage starts at the fragment's first sentence with a key term of the lens or of its sub-lenses (`data/lenses/lenses.yaml`, or a phrase of the lens name) and adds the next sentences that fit in 260 characters; without such a sentence it is the fragment's start. A sentence shorter than 130 characters is followed by the start of the next one.
+- Holds up to 3 fragments per country-year about that lens, highest probability `p` first.
+- Each passage is on its lens, of 150 to 300 characters (see Passages).
 - Group and period excerpts are picked on the client from the members' candidates by probability. To keep variety, there is at most one per country.
 
 ### `keyness/<lens|all>.json` (lazy)
