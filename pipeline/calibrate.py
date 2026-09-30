@@ -12,6 +12,7 @@ Commands (from the repo root), in order:
     uv run python -m pipeline.calibrate final          # final labels (core, or resolved)
     uv run python -m pipeline.calibrate fit            # one classifier per lens on the training set
     uv run python -m pipeline.calibrate test           # pass bar and share check on the validation set
+    uv run python -m pipeline.calibrate fit --final    # the classifiers again, on the training and validation sets
     uv run python -m pipeline.calibrate predict        # probability of every fragment on every lens
 
 Scores need the finalized fragment embeddings (pipeline.embed). The labels are
@@ -20,6 +21,7 @@ written by agents into data/gold/labels/<labeller>/<batch>.jsonl and data/gold/r
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -27,8 +29,11 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from joblib import Parallel, delayed
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import average_precision_score
 from sklearn.model_selection import StratifiedGroupKFold
+from sklearn.svm import SVC
 
 from pipeline import config, embed
 from pipeline.lenses import LENSES_YAML, expand_labels, expand_scores, load_lenses
@@ -48,9 +53,10 @@ LOW_CONFIDENCE = 2  # validation fragments the core labeller marked at or below 
 REVIEW_PER_LENS = 25  # review of codebook 1.4: per lens, half core positives and half near-misses
 REVIEW_FILES = 10  # with the reread of codebook 1.4; one check labeller each, five at a time (user, 2026-09-30 02:48 UTC)
 KAPPA_BAR = 0.8  # a lens below it goes back to the user
-PENALTIES = (0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0)
+PENALTIES = (0.3, 1.0, 3.0, 10.0)  # C of the RBF support vector machine (user, 2026-09-30, after the comparison)
 FOLDS = 5
-THRESHOLD = 0.5
+JOBS = max(1, (os.cpu_count() or 2) - 2)  # fits run in parallel
+SVM_CACHE_MB = 300
 PASS_BAR = 0.70
 MIN_PERIOD_POSITIVES = 20
 BOOTSTRAP = 2000
@@ -76,6 +82,8 @@ FIT = GOLD / "fit.json"
 CLASSIFIERS = GOLD / "classifiers.npz"
 RESULTS = GOLD / "results.json"
 PROBS = config.INTERIM / "lens_probs.parquet"
+OOF = config.INTERIM / "lens_oof.parquet"  # out-of-fold probabilities of the last fit (error analysis)
+VALIDATION = config.INTERIM / "lens_validation.parquet"  # the test's probabilities (error analysis)
 PROTOCOL = config.ROOT / "docs" / "calibration.md"
 CODEBOOK = config.LENSES / "codebook.md"
 
@@ -772,95 +780,168 @@ def fragment_vectors(frag_ids) -> np.ndarray:
     return np.asarray(emb[row.to_numpy().astype(np.int64)], dtype=np.float32)
 
 
-def log_loss_sum(y: np.ndarray, p: np.ndarray) -> float:
-    p = np.clip(p, 1e-12, 1 - 1e-12)
-    return float(-(y * np.log(p) + (1 - y) * np.log(1 - p)).sum())
+def fitted_ids(codebook=None) -> list[str]:
+    """The lenses with a classifier: all but the reference lens, which is labelled but not measured (docs/calibration.md,
+    section 5)."""
+    return [lens["id"] for lens in (codebook or load_lenses())["lenses"] if not lens["reference"]]
 
 
-def fit_lens(x: np.ndarray, y: np.ndarray, w: np.ndarray, groups: np.ndarray, seed: int) -> dict:
-    """One lens (docs/calibration.md, section 5): the penalty by five-fold cross-validated log-loss, with
-    the folds split by speech, the classifier on the whole training set, and a weighted Platt calibration of
-    its out-of-fold scores."""
-    splits = list(StratifiedGroupKFold(FOLDS, shuffle=True, random_state=seed).split(x, y, groups))
+def svm(c: float) -> SVC:
+    return SVC(C=c, kernel="rbf", gamma="scale", cache_size=SVM_CACHE_MB)
 
-    def model(c):
-        return LogisticRegression(C=c, max_iter=5000)
 
-    oof = {c: np.empty(len(y)) for c in PENALTIES}
-    for c in PENALTIES:
-        for tr, va in splits:
-            oof[c][va] = model(c).fit(x[tr], y[tr]).decision_function(x[va])
-    c = min(PENALTIES, key=lambda c: log_loss_sum(y, 1 / (1 + np.exp(-oof[c]))))
-    platt = LogisticRegression(C=np.inf, max_iter=5000).fit(oof[c][:, None], y, sample_weight=w)
-    final = model(c).fit(x, y)
-    return {"C": c, "coef": final.coef_[0], "intercept": float(final.intercept_[0]),
-            "a": float(platt.coef_[0, 0]), "b": float(platt.intercept_[0])}
+def fold_scores(x: np.ndarray, y: np.ndarray, tr: np.ndarray, va: np.ndarray, c: float) -> np.ndarray:
+    return svm(c).fit(x[tr], y[tr]).decision_function(x[va])
+
+
+def final_svm(x: np.ndarray, y: np.ndarray, c: float) -> tuple:
+    m = svm(c).fit(x, y)
+    return m.support_, m.dual_coef_[0].copy(), float(m.intercept_[0]), float(m._gamma)
+
+
+def best_threshold(p: np.ndarray, y: np.ndarray, w: np.ndarray) -> float:
+    """The probability from which a fragment is about the lens: the one with the highest weighted F1."""
+    order = np.argsort(-p, kind="stable")
+    ps, ys, ws = p[order], y[order].astype(bool), w[order]
+    tp, fp = np.cumsum(ws * ys), np.cumsum(ws * ~ys)
+    f1 = 2 * tp / (tp + fp + tp[-1])
+    last = np.r_[ps[1:] != ps[:-1], True]  # a threshold takes every fragment tied at it
+    return float(ps[np.argmax(np.where(last, f1, -1.0))])
+
+
+def fit(final: bool = False) -> dict:
+    """One classifier per lens (docs/calibration.md, section 5), on the training set, or with `final` on the training
+    and validation sets together once the test has run (section 7). For each lens, C by five-fold cross-validated
+    weighted average precision with the folds split by speech, a weighted Platt calibration of the out-of-fold scores,
+    and the threshold with the best weighted F1 of the calibrated out-of-fold probabilities, after the umbrella rule."""
+    codebook = load_lenses()
+    every, ids = lens_ids(codebook), fitted_ids(codebook)
+    sets = ["train", "validation"] if final else ["train"]
+    if final and not RESULTS.exists():
+        raise CalibrationError("Run `test` before fitting on the validation set.")
+    labels = pd.read_parquet(FINAL)
+    dev = labels[labels["split"].isin(sets)].reset_index(drop=True)
+    x = fragment_vectors(dev["frag_id"].to_numpy())
+    mean, std = x.mean(axis=0), x.std(axis=0)
+    std[std == 0] = 1.0
+    xs = ((x - mean) / std).astype(np.float32)
+    w = 1 / dev["pi"].to_numpy()
+    y = {lens: dev[lens].to_numpy().astype(int) for lens in ids}
+    for lens in ids:
+        if min(y[lens].sum(), len(dev) - y[lens].sum()) < FOLDS:
+            raise CalibrationError(f"{lens}: {int(y[lens].sum())} positive fragment(s); at least {FOLDS} of each "
+                                   "class are needed")
+    # each lens's folds are seeded by its place among all the lenses, as before the reference lens was left out
+    speech = dev["speech_id"].to_numpy()
+    splits = {lens: list(StratifiedGroupKFold(FOLDS, shuffle=True, random_state=SEED + 10 + every.index(lens))
+                         .split(xs, y[lens], speech)) for lens in ids}
+    tasks = sorted(((lens, c, tr, va) for lens in ids for c in PENALTIES for tr, va in splits[lens]),
+                   key=lambda t: -int(y[t[0]].sum()))  # the slowest fits first
+    scores = Parallel(n_jobs=JOBS)(delayed(fold_scores)(xs, y[lens], tr, va, c) for lens, c, tr, va in tasks)
+    oof = {(lens, c): np.empty(len(dev)) for lens in ids for c in PENALTIES}
+    for (lens, c, _, va), sc in zip(tasks, scores):
+        oof[lens, c][va] = sc
+    ap = {lens: {c: float(average_precision_score(y[lens], oof[lens, c], sample_weight=w)) for c in PENALTIES}
+          for lens in ids}
+    chosen = {lens: max(PENALTIES, key=ap[lens].get) for lens in ids}
+    platt, raw = {}, {}
+    for lens in ids:
+        sc = oof[lens, chosen[lens]]
+        m = LogisticRegression(C=np.inf, max_iter=5000).fit(sc[:, None], y[lens], sample_weight=w)
+        platt[lens] = (float(m.coef_[0, 0]), float(m.intercept_[0]))
+        raw[lens] = 1 / (1 + np.exp(-(platt[lens][0] * sc + platt[lens][1])))
+    p = expand_scores(raw, codebook)
+    thr = {lens: best_threshold(p[lens], y[lens], w) for lens in ids}
+    fits = dict(zip(ids, Parallel(n_jobs=JOBS)(delayed(final_svm)(xs, y[lens], chosen[lens]) for lens in ids)))
+    gammas = {fits[lens][3] for lens in ids}
+    if len(gammas) != 1:
+        raise CalibrationError("The lenses were fitted with different kernel widths.")
+    info = {"method": "svm_rbf", "lenses": ids, "sets": sets, "lenses_sha256": sha256(LENSES_YAML),
+            "fitted_at": now(), "fragments": len(dev),
+            "fragments_hash": embed.content_hash(embed.load_input("fragments"), "fragments")}
+    frag = dev["frag_id"].to_numpy()
+    CLASSIFIERS.parent.mkdir(parents=True, exist_ok=True)
+    tmp = CLASSIFIERS.with_name(CLASSIFIERS.name + ".tmp")
+    with open(tmp, "wb") as f:
+        np.savez(f, mean=mean, std=std, gamma=np.array(gammas.pop()),
+                 intercept=np.array([fits[k][2] for k in ids]), a=np.array([platt[k][0] for k in ids]),
+                 b=np.array([platt[k][1] for k in ids]), threshold=np.array([thr[k] for k in ids]),
+                 C=np.array([chosen[k] for k in ids]), info=np.asarray(json.dumps(info)),
+                 **{f"sv_{k}": frag[fits[k][0]] for k in ids}, **{f"dual_{k}": fits[k][1] for k in ids})
+    tmp.replace(CLASSIFIERS)
+    table = pd.DataFrame({"frag_id": frag, "split": dev["split"].to_numpy(),
+                          **{f"p_{k}": p[k].astype(np.float32) for k in ids}})
+    table.to_parquet(OOF, index=False)
+    out = {**info, "lenses": {k: {"C": chosen[k], "ap": ap[k][chosen[k]], "ap_by_C": {str(c): v for c, v in ap[k].items()},
+                                  "platt": list(platt[k]), "threshold": thr[k], "support": int(len(fits[k][0])),
+                                  "oof": rates(p[k] >= thr[k], y[k].astype(bool), w)}
+                              for k in ids}}
+    write_json(FIT, out)
+    return out
 
 
 def load_classifiers() -> dict:
+    """The fitted classifiers, with their support vectors taken from the fragments' embeddings."""
     if not CLASSIFIERS.exists():
         raise CalibrationError("No classifiers; run `uv run python -m pipeline.calibrate fit`.")
     with np.load(CLASSIFIERS, allow_pickle=False) as z:
         clf = {k: z[k] for k in z.files}
     clf["info"] = json.loads(str(clf["info"]))
+    if clf["info"].get("method") != "svm_rbf":
+        raise CalibrationError("The classifiers file predates the support vector machines; run `fit`.")
     if clf["info"]["lenses_sha256"] != sha256(LENSES_YAML):
         raise CalibrationError("lenses.yaml changed since the classifiers were fitted.")
+    if clf["info"]["fragments_hash"] != embed.content_hash(embed.load_input("fragments"), "fragments"):
+        raise CalibrationError("The fragments changed since the classifiers were fitted; run `fit` again.")
+    ids = clf["info"]["lenses"]
+    sv = [np.asarray(clf[f"sv_{k}"]) for k in ids]
+    union, inv = np.unique(np.concatenate(sv), return_inverse=True)
+    vec = ((fragment_vectors(union) - clf["mean"]) / clf["std"]).astype(np.float32)
+    dual = np.zeros((len(union), len(ids)), dtype=np.float32)
+    at = 0
+    for j, k in enumerate(ids):
+        dual[inv[at:at + len(sv[j])], j] = clf[f"dual_{k}"]
+        at += len(sv[j])
+    clf.update(sv_vectors=vec, sv_sq=(vec.astype(np.float64) ** 2).sum(axis=1).astype(np.float32), dual=dual)
     return clf
 
 
+def svm_scores(x: np.ndarray, clf: dict, chunk: int = 2048) -> np.ndarray:
+    """Decision score of every lens for raw embeddings: the RBF kernel against the support vectors, in blocks."""
+    xs = ((x - clf["mean"]) / clf["std"]).astype(np.float32)
+    sv, sq, g = clf["sv_vectors"], clf["sv_sq"], np.float32(clf["gamma"])
+    out = np.empty((len(xs), clf["dual"].shape[1]))
+    for a in range(0, len(xs), chunk):
+        xb = xs[a:a + chunk]
+        d2 = (xb.astype(np.float64) ** 2).sum(axis=1).astype(np.float32)[:, None] + sq[None, :] - 2 * (xb @ sv.T)
+        out[a:a + chunk] = np.exp(-g * np.maximum(d2, 0)) @ clf["dual"] + clf["intercept"]
+    return out
+
+
 def probabilities(x: np.ndarray, clf: dict, codebook) -> np.ndarray:
-    """p per lens for raw embeddings: classifier score, weighted Platt calibration, umbrella rule."""
+    """p per fitted lens for raw embeddings: classifier score, weighted Platt calibration, umbrella rule."""
     ids = list(clf["info"]["lenses"])
-    score = ((x - clf["mean"]) / clf["std"]) @ clf["coef"].T + clf["intercept"]
-    p = 1 / (1 + np.exp(-(clf["a"] * score + clf["b"])))
+    p = 1 / (1 + np.exp(-(clf["a"] * svm_scores(x, clf) + clf["b"])))
     p = expand_scores({lens: p[:, i] for i, lens in enumerate(ids)}, codebook)
     return np.column_stack([p[lens] for lens in ids])
 
 
-def fit() -> dict:
-    """One classifier per lens on the training set (docs/calibration.md, section 5)."""
-    codebook = load_lenses()
-    ids = lens_ids(codebook)
-    final = pd.read_parquet(FINAL)
-    dev = final[final["split"] == "train"].reset_index(drop=True)
-    x = fragment_vectors(dev["frag_id"].to_numpy())
-    mean, std = x.mean(axis=0), x.std(axis=0)
-    std[std == 0] = 1.0
-    xs = (x - mean) / std
-    w = 1 / dev["pi"].to_numpy()
-    fits = {}
-    for i, lens in enumerate(ids):
-        y = dev[lens].to_numpy().astype(int)
-        if min(y.sum(), len(y) - y.sum()) < FOLDS:
-            raise CalibrationError(f"{lens}: {int(y.sum())} positive fragment(s) in the training set; "
-                                   f"at least {FOLDS} of each class are needed")
-        fits[lens] = fit_lens(xs, y, w, dev["speech_id"].to_numpy(), SEED + 10 + i)
-    info = {"lenses": ids, "lenses_sha256": sha256(LENSES_YAML), "fitted_at": now(),
-            "train_fragments": len(dev), "fragments_hash": embed.content_hash(
-                embed.load_input("fragments"), "fragments")}
-    CLASSIFIERS.parent.mkdir(parents=True, exist_ok=True)
-    tmp = CLASSIFIERS.with_name(CLASSIFIERS.name + ".tmp")
-    with open(tmp, "wb") as f:
-        np.savez(f, mean=mean, std=std, coef=np.stack([fits[k]["coef"] for k in ids]),
-                 intercept=np.array([fits[k]["intercept"] for k in ids]),
-                 a=np.array([fits[k]["a"] for k in ids]), b=np.array([fits[k]["b"] for k in ids]),
-                 C=np.array([fits[k]["C"] for k in ids]), info=np.asarray(json.dumps(info)))
-    tmp.replace(CLASSIFIERS)
-    p = probabilities(x, load_classifiers(), codebook)
-    out = {**info, "lenses": {lens: {"C": fits[lens]["C"], "platt": [fits[lens]["a"], fits[lens]["b"]],
-                                     "train": rates(p[:, i] >= THRESHOLD, dev[lens].to_numpy(), w)}
-                              for i, lens in enumerate(ids)}}
-    write_json(FIT, out)
-    return out
-
-
 def test() -> dict:
-    """Pass bar and share check on the validation set (docs/calibration.md, section 6)."""
+    """Pass bar and share check on the validation set (docs/calibration.md, section 6), with each lens's confusion
+    matrix. The validation set is used once: the classifiers must be those fitted on the training set, and a second
+    run is refused unless the classifiers are the same."""
     codebook = load_lenses()
-    ids = lens_ids(codebook)
+    clf = load_classifiers()
+    if clf["info"]["sets"] != ["train"]:
+        raise CalibrationError("These classifiers were fitted with the validation set; the test needs those of `fit`.")
+    used = sha256(CLASSIFIERS)
+    if RESULTS.exists() and json.loads(RESULTS.read_text()).get("classifiers_sha256") != used:
+        raise CalibrationError(f"The validation set was already used, by other classifiers ({embed.rel(RESULTS)}).")
+    ids = list(clf["info"]["lenses"])
+    thr = dict(zip(ids, clf["threshold"].tolist()))
     final = pd.read_parquet(FINAL)
     tst = final[final["split"] == "validation"].reset_index(drop=True)
-    p = probabilities(fragment_vectors(tst["frag_id"].to_numpy()), load_classifiers(), codebook)
+    p = probabilities(fragment_vectors(tst["frag_id"].to_numpy()), clf, codebook)
     w = 1 / tst["pi"].to_numpy()
     period = tst["period"].to_numpy()
     speech = pd.factorize(tst["speech_id"])[0]
@@ -885,10 +966,15 @@ def test() -> dict:
     def passes(r):
         return r["precision"] >= PASS_BAR and r["recall"] >= PASS_BAR
 
+    def confusion(d, y):
+        cells = {"tp": d & y, "fp": d & ~y, "fn": ~d & y, "tn": ~d & ~y}
+        return {**{k: int(v.sum()) for k, v in cells.items()},
+                "weighted": {k: float(w[v].sum()) for k, v in cells.items()}}
+
     results = {}
     for i, lens in enumerate(ids):
-        y = tst[lens].to_numpy()
-        d = p[:, i] >= THRESHOLD
+        y = tst[lens].to_numpy().astype(bool)
+        d = p[:, i] >= thr[lens]
         overall = summary(d, y, np.ones(len(tst), dtype=bool))
         periods = {f"{a}-{b}": summary(d, y, period == k)
                    for k, (a, b) in enumerate(PERIODS) if (period == k).any()}
@@ -896,31 +982,37 @@ def test() -> dict:
         shares = {f"{a}-{b}": {"mean_probability": float((w * p[:, i])[period == k].sum() / w[period == k].sum()),
                                "labelled_share": float((w * y)[period == k].sum() / w[period == k].sum())}
                   for k, (a, b) in enumerate(PERIODS) if (period == k).any()}
-        results[lens] = {"overall": overall, "periods": periods, "checked_periods": checked,
-                         "shares": shares,
+        results[lens] = {"threshold": thr[lens], "overall": overall, "confusion": confusion(d, y),
+                         "average_precision": float(average_precision_score(y, p[:, i], sample_weight=w)),
+                         "periods": periods, "checked_periods": checked, "shares": shares,
                          "pass": bool(passes(overall) and all(passes(periods[k]) for k in checked))}
-    out = {"tested_at": now(), "threshold": THRESHOLD, "validation_fragments": len(tst), "lenses": results}
+    pd.DataFrame({"frag_id": tst["frag_id"].to_numpy(), **{f"p_{k}": p[:, i].astype(np.float32)
+                                                          for i, k in enumerate(ids)}}).to_parquet(VALIDATION, index=False)
+    out = {"tested_at": now(), "classifiers_sha256": used, "validation_fragments": len(tst), "lenses": results}
     write_json(RESULTS, out)
     return out
 
 
 def predict(chunk: int = 65536) -> pd.DataFrame:
-    """The probability of every fragment on every lens, for the shares and the excerpts."""
+    """The probability of every fragment on every fitted lens, for the shares and the excerpts, and the thresholds."""
     codebook = load_lenses()
     clf = load_classifiers()
     emb, keys, man = load_embeddings("fragments")
     p = np.vstack([probabilities(np.asarray(emb[i:i + chunk], dtype=np.float32), clf, codebook)
                    for i in range(0, len(keys), chunk)])
+    ids = clf["info"]["lenses"]
     out = pd.DataFrame({"frag_id": keys["frag_id"].to_numpy()})
-    for i, lens in enumerate(clf["info"]["lenses"]):
+    for i, lens in enumerate(ids):
         out[f"p_{lens}"] = p[:, i].astype(np.float32)
     out = out.sort_values("frag_id").reset_index(drop=True)
     tmp = PROBS.with_name(PROBS.name + ".tmp")
     out.to_parquet(tmp, index=False)
     tmp.replace(PROBS)
-    # which fragments (frag_id is renumbered when the corpus is rebuilt) and which classifiers
+    # which fragments (frag_id is renumbered when the corpus is rebuilt), which classifiers, and each lens's threshold
     write_json(PROBS.with_suffix(".json"), {"input_hash": man.get("input_hash"),
-                                            "classifiers_sha256": sha256(CLASSIFIERS), "made_at": now()})
+                                            "classifiers_sha256": sha256(CLASSIFIERS), "sets": clf["info"]["sets"],
+                                            "thresholds": dict(zip(ids, clf["threshold"].tolist())),
+                                            "made_at": now()})
     return out
 
 
@@ -945,7 +1037,8 @@ def main(argv: list[str] | None = None) -> int:
     p_rev.add_argument("--force", action="store_true", help="redraw (only before any review label exists)")
     sub.add_parser("collect", help="agreement of the two labellers on the check set, resolver queue")
     sub.add_parser("final", help="final labels")
-    sub.add_parser("fit", help="one classifier per lens on the training set")
+    p_fit = sub.add_parser("fit", help="one classifier per lens on the training set")
+    p_fit.add_argument("--final", action="store_true", help="on the training and validation sets, after `test`")
     sub.add_parser("test", help="pass bar and share check on the validation set")
     sub.add_parser("predict", help="probability of every fragment on every lens")
     args = parser.parse_args(argv)
@@ -975,10 +1068,10 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{len(final):,} fragments -> {embed.rel(FINAL)}")
             print(json.dumps(changes(final), indent=2))
         elif args.command == "fit":
-            out = fit()
+            out = fit(final=args.final)
             for lens, r in out["lenses"].items():
-                print(f"{lens:<24} C {r['C']:<6} train P {r['train']['precision']:.2f} "
-                      f"R {r['train']['recall']:.2f}")
+                print(f"{lens:<24} C {r['C']:<5} AP {r['ap']:.3f} threshold {r['threshold']:.2f} "
+                      f"out-of-fold P {r['oof']['precision']:.2f} R {r['oof']['recall']:.2f}")
         elif args.command == "predict":
             out = predict()
             print(f"{len(out):,} fragments -> {embed.rel(PROBS)}")
@@ -986,8 +1079,10 @@ def main(argv: list[str] | None = None) -> int:
             out = test()
             for lens, r in out["lenses"].items():
                 o = r["overall"]
-                print(f"{lens:<24} P {o['precision']:.2f} R {o['recall']:.2f} "
-                      f"n+ {o['positives']:>4} {'PASS' if r['pass'] else 'short'}")
+                cm = r["confusion"]
+                print(f"{lens:<24} P {o['precision']:.2f} R {o['recall']:.2f} n+ {o['positives']:>4} "
+                      f"TP {cm['tp']:>4} FP {cm['fp']:>4} FN {cm['fn']:>4} TN {cm['tn']:>5} "
+                      f"{'PASS' if r['pass'] else 'short'}")
     except (CalibrationError, embed.EmbedError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1

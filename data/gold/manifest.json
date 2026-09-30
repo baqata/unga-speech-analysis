@@ -78,6 +78,13 @@
       "codebook_sha256": "9ea5af30423217188a034ed87258aa4579b153ebfd12a3a06cdfb0a571a37e5a",
       "lenses_sha256": "6abee3a13d61c35571cba747a46cd5ad33df302c20609d6060a3dbadfd85eb60",
       "note": "Codebook 1.4 and lenses.yaml aligned with UNODC's official definitions and scope, for the review files and the resolver; 1,299 fragments the changed rules may change listed in data/gold/reread14.json: the 1,039 outside the check files are read again under 1.4 with a review of 250 more, and the listed lenses of the 260 in the check files go to the resolver (user, 2026-09-30 01:58 and 02:48 UTC). Core labels unchanged, under 1.2; check labels c001-c015 unchanged, under 1.3; sample, sets and batches unchanged. The lens vectors and lens scores were made with the previous lenses.yaml (acac1d6a..., in git history), whose anchors are unchanged; they only drew the sample and define the near-misses, and are not remade."
+    },
+    {
+      "at": "2026-09-30T14:40:42+00:00",
+      "protocol_sha256": "1ccbc2ac819e3728c1acf73688d49debd75541130eb1ea6c047a55605b248410",
+      "codebook_sha256": "9ea5af30423217188a034ed87258aa4579b153ebfd12a3a06cdfb0a571a37e5a",
+      "lenses_sha256": "6abee3a13d61c35571cba747a46cd5ad33df302c20609d6060a3dbadfd85eb60",
+      "note": "Sections 5 to 7 after the comparison of methods on the final labels (training set only): an RBF support vector machine with C by cross-validated weighted average precision, a threshold per lens at the best weighted F1 of the out-of-fold probabilities, a confusion matrix per lens in the test, and a final fit on the training and validation sets after the test (user, 2026-09-30 about 14:30 UTC). The reference lens peace is no longer fitted (left to the main agent by the user). Labels, sample and sets unchanged; no label was written under this revision."
     }
   ]
 }

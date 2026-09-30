@@ -72,7 +72,8 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 | Trafficking in persons and migrant smuggling | `users-group` |
 | Environmental crime | `trees` |
 | Criminal justice | `gavel` |
-| Peace (reference) | `peace` |
+
+Peace, first shown as a reference lens, is no longer measured or shown: it covered about half of what the speeches say, too broad to set beside the mandate topics, and its passages join the general topics (user, 2026-09-30).
 
 ### 3.3 Selections and defaults
 
@@ -124,7 +125,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
   - The method is Fightin' Words log-odds with an informative Dirichlet prior (Monroe et al. 2008) (proposed r565).
   - Each selection is compared with the rest of the world, on the same lens and period (2026-09-26 18:12, r575).
   - A word must be used by at least two of the selection's speeches, and for a group by two of its members, when it has that many: in the first real build a sixth of a group's words came from one member alone (QA of the first real build, 2026-09-30 06:39).
-- **Excerpts:** short passages in the original English (2026-09-26 17:31, r92; proposed r591): the fragments most probably about the topic, each shown where it is most about that topic, judged by the words that set the topic apart rather than by a list of key terms, between a minimum and a maximum length so that a passage is never a greeting alone (2026-09-30 04:24). Rules: `docs/data-contract.md`, Passages.
+- **Excerpts:** short passages in the original English (2026-09-26 17:31, r92; proposed r591): the three most probable passages about the topic among the selection's speeches in the period, from any of its members, even all from one country (user, 2026-09-30). Each shows the part of its fragment that the topic's own classifier rates most probable, between a minimum and a maximum length so that a passage is never a greeting alone (user, 2026-09-30; the choice by the words that set the topic apart, of 2026-09-30 04:24, showed the topic in 72% of passages, the classifier in about 89%). Rules: `docs/data-contract.md`, Passages.
 
 ### 3.9 Country tab ("País")
 
@@ -161,7 +162,7 @@ It answers "where does Colombia align in a given year" (2026-09-26 18:21, r615).
   - Minimum distance 0: each group packed tightly with clear space between groups, as the user asked (2026-09-29 16:30, s2 r24828).
   - Placement of new fragments: the mean position of their 50 nearest mapped fragments by cosine, weighted as UMAP weighs neighbours. A UMAP map has no formula for a new point: UMAP's own transform starts it at this same weighted mean and then adjusts it a little. The adjustment is skipped, so only the saved coordinates are needed and the result repeats exactly. Putting mapped fragments back this way lands them a median 0.7% of the map's diagonal from their place, and 2.2% land where no fragment is near (final map of 2026-09-29, 246,738 fragments, fitted in 9 minutes).
   - Placement of speeches: the same, applied to the mean of the speech's fragment vectors (2026-09-29 20:44). This spreads each year's speeches by subject: the 387 speeches of 2024 and 2026 spread over 0.78 and 0.66 of the fragments' extent on the two axes, and the 1986 speeches sit by apartheid, Central America, disarmament and the Middle East, as that year's debate did.
-- **Lenses:** the nine ROCOL lenses plus peace as a reference, as listed in section 3.2 (proposed r443; accepted 2026-09-26 18:02, r476).
+- **Lenses:** the nine ROCOL lenses, as listed in section 3.2 (proposed r443; accepted 2026-09-26 18:02, r476). Peace, labelled as a reference, is no longer measured or shown (user, 2026-09-30).
 - **Scoring** ("mandate component") (2026-09-26 18:02, r476; method replaced 2026-09-29 05:02, s2 r13904):
   - Each fragment gets a probability per lens from a classifier trained on about 20,000 fragments that agents labelled blind, and validated on about 5,000 more. A fragment can count for more than one lens.
   - Similarity to UNODC's own wording, including older phrasing, is used only to draw the labelled sample.
@@ -171,7 +172,7 @@ It answers "where does Colombia align in a given year" (2026-09-26 18:21, r615).
   - Ceremonial fragments (greetings, thanks) are left out of the percentages.
   - Group figures give each country equal weight: a group's value is the mean of its members' values, and over several years each country's mean over the years it spoke counts once. Speech length and the number of speeches do not weigh (confirmed 2026-09-29 01:17, s2 r9207).
 - **Composition** (2026-09-26 18:28, r659; proposed r633):
-  - Each fragment counts once: under the UNODC lens with the highest probability, when that probability is at least 0.5; otherwise under one of about 20 general topics from clustering (2026-09-29 05:02, s2 r13904). The same 0.5 threshold picks the excerpts shown for a lens.
+  - Each fragment counts once: under the UNODC lens with the highest probability, when that probability reaches the lens's threshold (section 4.1, step 6); otherwise under one of the general topics from clustering (2026-09-29 05:02, s2 r13904). The same threshold picks the excerpts shown for a lens.
   - General topics: k-means with 20 groups on the full vectors of the fragments about no lens (10 restarts, the best kept), named by reading. Every such fragment takes its nearest topic, the same main-topic simplification as the bars; a group that reads as a grab-bag is named "Otros temas". The centres are kept, so a new fragment takes the nearest existing topic (2026-09-29 17:48, s4 r643; 18:49, s4 r670). On 215,090 fragments, 14 of the 20 groups came back almost unchanged when k-means was rerun from another start; the broad ones shift at their edges. The run is seeded, so it repeats exactly; another start ends in another, almost equally good split because many fragments sit between subjects (54% are within 0.02 of a second centre). Kept as designed (2026-09-29 21:56, s4 r2316).
   - Speech openings and closings: fragments made only of greetings, congratulations and thanks are left out as ceremonial (12,082 of 258,820). Openings and closings that mix courtesy with substance stay; if the final fit gathers them in one group, it gets a plain name such as "Apertura y cierre" (2026-09-29 21:56, s4 r2316).
   - Validation: agents estimate the composition of about 60 whole speeches blind, and the results are compared (r679; confirmed r683).
@@ -193,9 +194,9 @@ The user left the calibration method to the main agent, asking for the most tech
    - After the check, every lens rule was checked against UNODC's official definitions and scope, and codebook 1.4 aligns them: the acts defined in the counter-terrorism treaties count by their kind, State support for terrorists is terrorism, the illicit arms trade is organized crime whoever receives the weapons, crime in general and the conduct of police and detention are criminal justice, and fisheries and minerals crime follow UNODC's definitions. Each lens has three positive and two negative examples. Check agents read again, under 1.4, the 1,039 fragments outside the check whose label the new rules may change, and 250 more drawn elsewhere to see what else 1.4 changes, ten agents in two rounds of five; for the 260 such fragments already checked, the deciding agent settles the lenses concerned under 1.4. If more than about one in ten of the 250 change, the user decides between labelling the whole sample again and reading its positives again (2026-09-30 02:48).
    - A lens whose agreement (kappa) falls below 0.8 is brought to the user before the classifiers are fitted.
 4. **Training and validation sets.** One speech in five is drawn at random, and its sampled fragments, about 5,000, form the validation set. The other fragments, about 20,000, train and tune the classifiers. The validation set is labelled first, never used for tuning, and gives every accuracy figure (2026-09-29 16:30, s2 r24828).
-5. **Classifier.** One classifier per lens, a logistic regression on the fragment embedding, gives each fragment a probability for that lens. Its settings are tuned by cross-validation within the training set.
-6. **Shares.** A speech's share on a lens is the mean of its fragments' probabilities (graded shares). A fragment counts as "about" a lens at a probability of 0.5 or more; this is used for the excerpts and the composition bars.
-7. **Pass bar.** A lens gets a trend line and a map only if, on the validation set, precision and recall at 0.5 are both at least 0.70, overall and in each period with at least 20 checked examples of that lens. A lens that falls short is brought to the user; no fallback method is tried.
+5. **Classifier.** One classifier per lens, a support vector machine with an RBF kernel on the fragment embedding, gives each fragment a probability for that lens (user, 2026-09-30, after a comparison on the final labels: mean average precision 0.746 against 0.717 for logistic regression). Its settings are tuned by cross-validation within the training set. After the validation test, the classifiers that measure the corpus are fitted again, by the same procedure, on the training and validation sets together (user, 2026-09-30).
+6. **Shares.** A speech's share on a lens is the mean of its fragments' probabilities (graded shares). A fragment counts as "about" a lens when its probability reaches that lens's threshold, the probability with the best F1 in the cross-validation (user, 2026-09-30); this is used for the excerpts and the composition bars.
+7. **Pass bar.** A lens gets a trend line and a map only if, on the validation set, precision and recall at the lens's threshold are both at least 0.70, overall and in each period with at least 20 checked examples of that lens. A lens that falls short is brought to the user; no fallback method is tried.
 8. **Frozen before results.** The descriptions, the sample, the method and the classifiers are fixed before any trend is computed. The known-event checks of section 6 are run afterwards, as a test, never for tuning.
 9. **Published.** The methods note gives, for each lens and period, precision, recall and the number of checked examples, and for each lens the agreement between the labeller and the check.
 
@@ -262,6 +263,10 @@ The user left the calibration method to the main agent, asking for the most tech
 | Codebook 1.3 for the check and the resolver (2026-09-30 00:30) | Codebook 1.4, aligned with UNODC's official definitions; the fragments it may change read again or resolved, and a review of 250 more (2026-09-30 01:58, 02:48) |
 | "2026 (en curso)" in the year selector (proposed r591; confirmed r683) | "2026", like any other year, with no label or note (2026-09-29 21:56, s4 r2316) |
 | Composition by the widest margin over calibrated cut-offs (r659) | The lens with the highest probability, at 0.5 or more (2026-09-29 05:02, s2 r13904) |
+| One threshold, 0.5, for every lens (s2 r13904) | Each lens's own threshold, at its best F1 in the cross-validation (2026-09-30) |
+| Logistic regression per lens (s2 r13904) | RBF support vector machine per lens, fitted again on both labelled sets after the validation test (2026-09-30) |
+| Peace as a reference lens (r476) | Peace not measured or shown; its passages join the general topics (2026-09-30) |
+| Excerpts from the most recent speeches, one per country, each where its words weigh most for the topic (2026-09-30 04:24) | The three most probable of the selection in the period, from any member, each where the topic's classifier rates it highest (2026-09-30) |
 | 2024 texts from the corpus v14 (r92) | The official verbatim records A/79/PV.7–17 (2026-09-29 05:51, s2 r14183) |
 | 2026 added when the dataset authors publish it (proposed r81) | Provisional 2026 now (2026-09-26 18:02, r476; 18:12, r575) |
 

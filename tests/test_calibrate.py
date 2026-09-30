@@ -99,6 +99,8 @@ def paths(tmp_path, monkeypatch):
     monkeypatch.setattr(cal, "LENS_VECTORS", tmp_path / "emb" / "lenses.npz")
     monkeypatch.setattr(cal, "SCORES", tmp_path / "lens_scores.parquet")
     monkeypatch.setattr(cal, "PROBS", tmp_path / "lens_probs.parquet")
+    monkeypatch.setattr(cal, "OOF", tmp_path / "lens_oof.parquet")
+    monkeypatch.setattr(cal, "VALIDATION", tmp_path / "lens_validation.parquet")
     for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "CHECK", "CHECKSET", "REREAD", "REVIEW", "REREAD14",
                  "CHANGES", "AGREEMENT", "RESOLVE", "RESOLVED", "FINAL", "FIT", "CLASSIFIERS", "RESULTS", "GOLD"):
         rel = getattr(cal, name).relative_to(config.GOLD) if name != "GOLD" else None
@@ -163,6 +165,26 @@ def synthetic_corpus(n=6000, dim=32, seed=4):
         scores[f"s_{x}"] = rng.normal(size=n) + 2.0 * truth[x]
         vectors[:, i] += 4.0 * truth[x].to_numpy()
     return frags, scores, truth, vectors
+
+
+def test_svm_scores_match_scikit_learn():
+    from sklearn.svm import SVC
+    rng = np.random.default_rng(3)
+    x = rng.normal(size=(300, 8)).astype(np.float32)
+    y = (x[:, 0] + 0.5 * rng.normal(size=300) > 0.8).astype(int)
+    m = SVC(C=1.0, kernel="rbf", gamma="scale").fit(x, y)
+    clf = {"mean": np.zeros(8), "std": np.ones(8), "sv_vectors": x[m.support_],
+           "sv_sq": (x[m.support_].astype(np.float64) ** 2).sum(axis=1).astype(np.float32),
+           "gamma": np.array(m._gamma), "dual": m.dual_coef_.T.astype(np.float32), "intercept": m.intercept_}
+    new = rng.normal(size=(50, 8)).astype(np.float32)
+    assert np.allclose(cal.svm_scores(new, clf, chunk=16)[:, 0], m.decision_function(new), atol=1e-4)
+
+
+def test_best_threshold_maximises_weighted_f1():
+    p = np.array([0.9, 0.8, 0.7, 0.6, 0.3, 0.2])
+    y = np.array([1, 1, 0, 1, 0, 0])
+    assert cal.best_threshold(p, y, np.ones(6)) == 0.6  # F1 6/7 at 0.6 against 4/5 at 0.8
+    assert cal.best_threshold(p, y, np.array([1, 1, 5, 1, 1, 1])) == 0.8  # a heavy negative at 0.7
 
 
 def fake_label(rec_text, gid, truth_row, rng, flip=0.03):
@@ -232,28 +254,43 @@ def test_end_to_end(paths, monkeypatch):
     final = cal.final_labels()
     assert (final.set_index("gid")[IDS] == truth_by_gid[IDS]).all().all()
 
+    with pytest.raises(cal.CalibrationError):
+        cal.fit(final=True)  # the validation set joins only after the test
     fitted = cal.fit()
-    assert all(fitted["lenses"][x]["C"] in cal.PENALTIES for x in IDS)
+    ids = cal.fitted_ids()
+    assert "peace" not in ids and list(fitted["lenses"]) == ids  # the reference lens is labelled, not fitted
+    assert all(fitted["lenses"][x]["C"] in cal.PENALTIES and 0 < fitted["lenses"][x]["threshold"] < 1 for x in ids)
     results = cal.test()
-    for x in IDS:
+    n_val = results["validation_fragments"]
+    for x in ids:
         r = results["lenses"][x]["overall"]
         assert r["precision"] > 0.7 and r["recall"] > 0.7, x
         assert 0 <= r["precision_ci"][0] <= r["precision_ci"][1] <= 1
         assert results["lenses"][x]["pass"]
+        cm = results["lenses"][x]["confusion"]
+        assert cm["tp"] + cm["fp"] + cm["fn"] + cm["tn"] == n_val and cm["tp"] + cm["fn"] == r["positives"]
     # Weighted Platt brings the probabilities back to corpus level: the weighted mean probability
     # of each period is close to the weighted share of positive labels.
-    for x in ("peace", "drugs"):
+    for x in ("terrorism", "drugs"):
         for period in results["lenses"][x]["shares"].values():
             assert abs(period["mean_probability"] - period["labelled_share"]) < 0.08
+    assert cal.test()["lenses"].keys() == results["lenses"].keys()  # the same classifiers may run it again
 
     probs = cal.predict()
     assert len(probs) == len(frags) and probs.frag_id.is_monotonic_increasing
-    cols = [f"p_{x}" for x in IDS]
+    cols = [f"p_{x}" for x in ids]
+    assert probs.columns.tolist() == ["frag_id"] + cols
     assert ((probs[cols] >= 0) & (probs[cols] <= 1)).all().all()
     assert (probs.p_drugs >= probs[["p_prevention_treatment", "p_alternative_development"]].max(axis=1)).all()
-    # "About" a lens at p >= 0.5 recovers the synthetic truth on the whole corpus.
-    about = probs.set_index("frag_id")["p_peace"] >= cal.THRESHOLD
-    assert (about == truth["peace"]).mean() > 0.9
+    # "About" a lens at its own threshold recovers the synthetic truth on the whole corpus.
+    thresholds = json.loads(cal.PROBS.with_suffix(".json").read_text())["thresholds"]
+    about = probs.set_index("frag_id")["p_terrorism"] >= thresholds["terrorism"]
+    assert (about == truth["terrorism"]).mean() > 0.95
+
+    # After the test, the classifiers are fitted again with the validation set, which the test then refuses.
+    assert cal.fit(final=True)["sets"] == ["train", "validation"]
+    with pytest.raises(cal.CalibrationError):
+        cal.test()
 
 
 # ---------------------------------------------------------------------------

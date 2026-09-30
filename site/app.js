@@ -253,19 +253,23 @@ function SemMap(wrap, layersOf) {
     const placed = [], labels = (sp ? LABELS.speeches : LABELS.fragments).slice().sort((a, b) => (b.t < NL) - (a.t < NL) || b.n - a.n);
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
     const ink2 = css('--ink-2'), bg = css('--panel'), unt = css('--un-text');
-    for (const lb of labels) {
-      let X = sx(lb.x), Y = sy(1 - lb.y);
-      if (X < 0 || X > cw || Y < 0 || Y > ch) continue;
+    const small = cw < 520;
+    for (const lb of labels) {   // each name at its first place that covers no name already written
       const label = topicName(lb.t), lensT = lb.t < NL;
-      ctx.font = `${lensT ? 700 : 600} ${lensT ? 12.5 : 11.5}px "Roboto Condensed", "Arial Narrow", sans-serif`;
-      const w = ctx.measureText(label).width + 8, h = lensT ? 17 : 15;
+      ctx.font = `${lensT ? 700 : 600} ${(lensT ? 12.5 : 11.5) - (small ? 1 : 0)}px "Roboto Condensed", "Arial Narrow", sans-serif`;
+      const w = ctx.measureText(label).width + 8, h = (lensT ? 17 : 15) - (small ? 1 : 0);
       if (w > cw - 4) continue;
-      X = Math.min(Math.max(X, w / 2 + 2), cw - w / 2 - 2); Y = Math.min(Math.max(Y, h / 2 + 2), ch - h / 2 - 2);
-      const box = [X - w / 2, Y - h / 2, X + w / 2, Y + h / 2];
-      if (placed.some(b => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) continue;
-      placed.push(box);
-      ctx.lineWidth = 3.5; ctx.strokeStyle = bg; ctx.strokeText(label, X, Y);
-      ctx.fillStyle = lensT ? unt : ink2; ctx.fillText(label, X, Y);
+      for (const [ax, ay] of [[lb.x, lb.y], ...(lb.alt || [])]) {
+        let X = sx(ax), Y = sy(1 - ay);
+        if (X < 0 || X > cw || Y < 0 || Y > ch) continue;
+        X = Math.min(Math.max(X, w / 2 + 2), cw - w / 2 - 2); Y = Math.min(Math.max(Y, h / 2 + 2), ch - h / 2 - 2);
+        const box = [X - w / 2, Y - h / 2, X + w / 2, Y + h / 2];
+        if (placed.some(b => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) continue;
+        placed.push(box);
+        ctx.lineWidth = 3.5; ctx.strokeStyle = bg; ctx.strokeText(label, X, Y);
+        ctx.fillStyle = lensT ? unt : ink2; ctx.fillText(label, X, Y);
+        break;
+      }
     }
     rb.hidden = tf.k === 1 && tf.x === 0 && tf.y === 0;
   };
@@ -447,13 +451,13 @@ function drawWords() {
 
 // ---------------- excerpts ----------------
 const quoteHTML = (q, colVar) => `<div class="quote" style="--c:${colVar}"><div class="meta">${esc(cname(q.c, q.y))} · ${q.y}<span class="ln">${icon(lensIcon(q.l))}${esc(LENSES[q.l][lang])}</span><small>EN</small></div><p>“${esc(q.x)}”</p></div>`;
-function candidates(data, members) {   // the members' excerpts in the period, most recent year first, then by probability
+function candidates(data, members) {   // the members' excerpts in the period, most probable first, then most recent
   const out = [];
   for (const c of members) {
     const byYear = data[M.countries[c].iso3]; if (!byYear) continue;
     for (const y of yearsInP()) for (const [l, p, x] of byYear[y] || []) out.push({c, y, l, p, x});
   }
-  return out.sort((a, b) => b.y - a.y || b.p - a.p);
+  return out.sort((a, b) => b.p - a.p || b.y - a.y);
 }
 function drawQuotes() {
   const box = $('quotes'), act = active();
@@ -461,10 +465,10 @@ function drawQuotes() {
   const file = `excerpts/${lensFile(state.lens)}.json`, data = want(file);
   if (!data) return box.innerHTML = `<div class="empty">${waitMsg(file)}</div>`;
   const pools = act.map(({s, o}) => candidates(data, o.members).map(q => ({...q, slot: s})));
-  const out = [], used = new Set();
+  const out = [], used = new Set(), key = q => `${q.c}|${q.y}|${q.x}`;   // each selection's most probable, in turns
   for (let round = 0; out.length < 3 && round < 3; round++) for (const pool of pools) {
     if (out.length >= 3) break;
-    const q = pool.find(x => !used.has(x.c)); if (q) { used.add(q.c); out.push(q); }
+    const q = pool.find(x => !used.has(key(x))); if (q) { used.add(key(q)); out.push(q); }
   }
   box.innerHTML = out.length ? out.map(q => quoteHTML(q, `var(--s${q.slot + 1})`)).join('') : `<div class="empty">${t('noQuotes')}</div>`;
 }

@@ -1,6 +1,6 @@
 # Lens calibration protocol
 
-This protocol implements `docs/PLAN.md`, section 4.1: the single method the user approved on 2026-09-29 (05:02 UTC), with its numbers and formulas fixed before any fragment is labelled. On 2026-09-29 (16:30 UTC) the user enlarged the sample to about 20,000 fragments to train and tune the classifiers and about 5,000 more to validate them; every part of the design was scaled by 2.5. On 2026-09-29 (21:56 UTC) the user replaced the three labellers and their resolver with one labeller and a targeted check (section 4). After the core labelling, the user settled four kinds of case, added to the codebook as version 1.3, and added a second reading of the doubtful validation labels (2026-09-29 22:57 UTC and 2026-09-30 about 00:30 UTC; section 4). The labelling rules are `data/lenses/codebook.md` (version 1.2 for the core labeller, 1.3 for the check labeller and the resolver) and the lens descriptions are `data/lenses/lenses.yaml`. The code is `pipeline/calibrate.py`; the sample, the labels and the results are in `data/gold/`.
+This protocol implements `docs/PLAN.md`, section 4.1: the single method the user approved on 2026-09-29 (05:02 UTC), with its numbers and formulas fixed before any fragment is labelled. On 2026-09-29 (16:30 UTC) the user enlarged the sample to about 20,000 fragments to train and tune the classifiers and about 5,000 more to validate them; every part of the design was scaled by 2.5. On 2026-09-29 (21:56 UTC) the user replaced the three labellers and their resolver with one labeller and a targeted check (section 4). After the core labelling, the user settled four kinds of case, added to the codebook as version 1.3, and added a second reading of the doubtful validation labels (2026-09-29 22:57 UTC and 2026-09-30 about 00:30 UTC; section 4). After a comparison of methods on the final labels (training set only), the user chose a support vector machine with an RBF kernel, a threshold per lens and a final fit on both sets after the test, and left to the main agent whether to keep measuring the reference lens, which it no longer does (2026-09-30 about 14:30 UTC; sections 5 to 7). The labelling rules are `data/lenses/codebook.md` (version 1.2 for the core labeller, 1.3 for the check labeller and the resolver) and the lens descriptions are `data/lenses/lenses.yaml`. The code is `pipeline/calibrate.py`; the sample, the labels and the results are in `data/gold/`.
 
 ## 1. Population and periods
 
@@ -59,17 +59,20 @@ The sample file records, for every sampled fragment, π(f), π_R(f), π_S(f), it
 
 - **Weights.** Each sampled fragment carries w = 1/π(f) (Horvitz–Thompson), so that estimates describe U.
 - **Features.** The fragment's embedding, standardized with the mean and standard deviation of the training set.
-- **Classifier.** One per lens: a logistic regression (scikit-learn, L2 penalty) trained on the training set without weights, so that every fragment drawn near a lens counts fully. The penalty C is chosen from {0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1} by five-fold cross-validated log-loss on the training set, with the folds split by speech. All tuning uses the training set only.
-- **Probabilities for the corpus.** The sample is enriched near each lens, so the classifier's own probabilities are too high for the corpus as a whole. Its score is therefore turned into a probability by a weighted logistic calibration (Platt scaling with the weights w), fitted on the five-fold out-of-fold scores of the training set. This brings the probabilities back to corpus level, which the shares need, while the classifier still learns from every drawn fragment.
+- **Lenses measured.** Every lens but the reference lens `peace`, which stays in the labels but is not fitted: it covered about two fifths of all the text, and its fragments are better described by the general topics of the composition (2026-09-30).
+- **Classifier.** One per lens: a support vector machine with an RBF kernel (scikit-learn SVC, kernel width "scale") trained on the training set without weights, so that every fragment drawn near a lens counts fully. The penalty C is chosen from {0.3, 1, 3, 10} by five-fold cross-validated average precision, weighted with w, on the training set, with the folds split by speech. All tuning uses the training set only.
+  - The method replaced the logistic regression of the first version of this protocol. On the out-of-fold scores of the training set, seven models were compared (logistic regressions with L1 and L2 penalties, with and without weights; linear and RBF support vector machines), the validation set untouched. The RBF machine had the highest mean average precision, 0.746 against 0.717 for the logistic regression as this protocol chose its penalty, and led by the same margin on the core labels (user, 2026-09-30).
+- **Probabilities for the corpus.** The sample is enriched near each lens, and the machine gives a score, not a probability. Its score is therefore turned into a probability by a weighted logistic calibration (Platt scaling with the weights w), fitted on the five-fold out-of-fold scores of the training set at the chosen C. This brings the probabilities to corpus level, which the shares need, while the classifier still learns from every drawn fragment.
 - **Umbrella.** The probability for `drugs` is raised to the largest of its own and those of `prevention_treatment` and `alternative_development`: a fragment is at least as likely to be about drugs as about either sub-lens.
-- **Decision.** A fragment is "about" a lens when p_L(f) ≥ 0.5. This is used for the excerpts, the composition bars and the pass bar.
+- **Decision.** A fragment is "about" a lens when p_L(f) ≥ t_L. The threshold t_L is the probability with the highest weighted F1 over the calibrated out-of-fold probabilities of the training set, after the umbrella rule (user, 2026-09-30). The decision is used for the excerpts, the composition bars and the pass bar.
 - **Shares.** A speech's share on a lens is the mean of p_L over its non-ceremonial fragments. Group figures follow `docs/PLAN.md`, section 4.
 
 ## 6. Pass bar
 
-- **Precision and recall.** For the decision d(f) and the label y(f), over the validation set:
+- **Precision and recall.** For the decision d(f) = [p_L(f) ≥ t_L] and the label y(f), over the validation set:
   - TP = Σ w·d·y, FP = Σ w·d·(1 − y), FN = Σ w·(1 − d)·y;
   - P = TP / (TP + FP), R = TP / (TP + FN).
+- **Confusion matrix.** For each lens, the numbers of true and false positives and negatives on the validation set, as counts and weighted with w.
 - **Intervals.** 95% intervals come from 2,000 bootstrap resamples of the validation set's speeches, since it was drawn by speech.
 - **Pass.** A lens passes when P ≥ 0.70 and R ≥ 0.70 overall, and the same holds in every period in which the validation set has at least 20 fragments positive for that lens.
 - **Share check.** For each lens and period, the weighted mean probability on the validation set is reported beside the weighted share of positive labels. It is reported, not used as a gate.
@@ -81,6 +84,7 @@ The sample file records, for every sampled fragment, π(f), π_R(f), π_S(f), it
   - the hashes of this file, `codebook.md` and `lenses.yaml`;
   - the seeds, λ, the expected and drawn sample sizes, and the size of each set.
 - The validation set is used once, by `test`, after the classifiers are fitted.
+- After the test, the classifiers that measure the corpus are fitted again by the same procedure on the training and validation sets together (C, calibration and threshold by five-fold cross-validation over both), so that they use every label. The test's results describe that procedure and choose nothing (user, 2026-09-30).
 - The classifiers are fixed before any trend is computed.
 - The known-event checks of `docs/PLAN.md`, section 6, are run afterwards, as a test and never for tuning.
 - The methods note gives, for each lens and period:
