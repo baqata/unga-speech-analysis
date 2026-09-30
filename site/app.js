@@ -4,7 +4,9 @@
 const $ = id => document.getElementById(id);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
-const fetchOk = async p => { const r = await fetch(p); if (!r.ok) throw new Error(`${p}: ${r.status}`); return r; };
+// every file revalidated on each load: a browser must not mix the files of two builds (GitHub Pages lets it keep
+// them ten minutes without asking)
+const fetchOk = async p => { const r = await fetch(p, {cache: 'no-cache'}); if (!r.ok) throw new Error(`${p}: ${r.status}`); return r; };
 const getJSON = async p => (await fetchOk(p)).json();
 const getBin = async p => (await fetchOk(p)).arrayBuffer();
 const store = new Map();
