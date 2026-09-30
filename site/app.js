@@ -39,7 +39,8 @@ let lang = 'es';   // Spanish for everyone at start (docs/PLAN.md, section 3.5)
 const t = (k, v = {}) => (I18N[lang][k] ?? k).replace(/\{(\w+)\}/g, (_, x) => v[x] ?? '');
 let nf1;
 const setFormats = () => { nf1 = new Intl.NumberFormat(lang, {minimumFractionDigits: 1, maximumFractionDigits: 1}); };
-const pct = v => v == null || !isFinite(v) ? '–' : (v > 0 && v < 0.0005 ? '<' + nf1.format(0.1) : nf1.format(v * 100)) + (lang === 'es' ? ' %' : '%');
+const TINY = 0.0005;   // a share under it reads "<0,1 %", too little to compare with the world's
+const pct = v => v == null || !isFinite(v) ? '–' : (v > 0 && v < TINY ? '<' + nf1.format(0.1) : nf1.format(v * 100)) + (lang === 'es' ? ' %' : '%');
 const ratioTxt = r => r == null || !isFinite(r) ? '–' : nf1.format(r) + '×';
 
 // ---------------- data ----------------
@@ -177,7 +178,7 @@ Object.entries(TABS).forEach(([k, [b]]) => {
 $('icReg').innerHTML = icon('world'); $('icCty').innerHTML = icon('map-pin'); $('icAnx').innerHTML = icon('file-text');
 const toAnnex = () => { setTab('anx'); $('anxAcc').scrollIntoView({block: 'start'}); };   // from an "approximate" note
 // The note on a topic short of the pass bar: a link to the annex's table
-const apxNote = L => approx(L) ? ` <button class="apx-link" type="button">${esc(t('apxLink'))}</button>` : '';
+const apxNote = L => approx(L) ? ` <button class="apx-link" type="button">${esc(t('apxTip'))}</button>` : '';
 const wireApx = el => el.querySelectorAll('.apx-link').forEach(b => { b.onclick = toAnnex; });
 
 // ---------------- lens strip ----------------
@@ -199,7 +200,7 @@ function drawStrip() {
     const head = `<span class="ic-row">${icon(lensIcon(L))}<span class="nm">${esc(lensName(L))}${approx(L) ? ` <small class="apx">${esc(t('apx'))}</small>` : ''}</span></span>`;
     const cm = cmOf(L), w = worldOf(cm);
     const vals = act.map(a => ({s: a.s, v: meanOf(cm, a.o.members), lab: optShort(a.o)}));
-    const r = s1 && vals[0].v != null && w ? vals[0].v / w : null;
+    const r = s1 && vals[0].v >= TINY && w ? vals[0].v / w : null;
     const mx = Math.max(w || 0, ...vals.map(x => x.v || 0)) * 1.15 || 1;
     // every selection's value, a dot of its colour when there are several (the ratio is the first selection's)
     const parts = vals.map(x => ({s: x.s, txt: `${x.lab} ${pct(x.v)}`})).concat([{s: -1, txt: `${t('world')} ${pct(w)}`}]);
@@ -223,14 +224,26 @@ function drawStrip() {
 // ---------------- semantic maps ----------------
 const coarse = matchMedia('(pointer: coarse)').matches;
 const qtCache = {};
-const quadtree = sp => {   // the points of the chosen years only: the other years' outline does not answer a hover
+const quadtree = sp => {   // the points of the chosen years, the only ones drawn
   const k = state.y0 + '|' + state.y1, P = sp ? PS : PF;
   if (qtCache[sp]?.k !== k) qtCache[sp] = {k, t: d3.quadtree().x(i => P.x[i]).y(i => P.y[i]).addAll(d3.range(P.n).filter(i => inP(P.yr[i])))};
   return qtCache[sp].t;
 };
 function SemMap(wrap, layersOf) {
-  const cv = wrap.querySelector('canvas'), ctx = cv.getContext('2d'), rb = wrap.querySelector('.reset'), PAD = 18;
-  let tf = d3.zoomIdentity, cw = 0, ch = 0, groups = null, key = '';
+  const cv = wrap.querySelector('canvas'), ctx = cv.getContext('2d'), rb = wrap.querySelector('.reset'), PAD = 18, IP = 4;
+  let tf = d3.zoomIdentity, cw = 0, ch = 0, groups = null, key = '', inset = null, insetKey = '', insetBox = null;
+  const clamp01 = v => Math.min(1, Math.max(0, v));
+  const overview = (P, layers, iw, ih) => {   // the corner map: every layer's points, a pixel each, drawn once per state
+    const dpr = devicePixelRatio || 1, oc = document.createElement('canvas'), o = oc.getContext('2d');
+    oc.width = iw * dpr; oc.height = ih * dpr; o.setTransform(dpr, 0, 0, dpr, 0, 0);
+    o.globalAlpha = 0.94; o.fillStyle = css('--panel'); o.fillRect(0, 0, iw, ih);
+    layers.forEach((ly, l) => {
+      o.globalAlpha = ly.alpha ?? 1; o.fillStyle = ly.col; o.beginPath();
+      for (const i of groups[l]) o.rect(IP + P.x[i] * (iw - 2 * IP) - 0.4, IP + P.y[i] * (ih - 2 * IP) - 0.4, 0.8, 0.8);
+      o.fill();
+    });
+    return oc;
+  };
   const sx = x => tf.applyX(PAD + x * (cw - 2 * PAD)), sy = y => tf.applyY(PAD + y * (ch - 2 * PAD));
   this.resize = () => { const r = wrap.getBoundingClientRect(), dpr = devicePixelRatio || 1; cw = r.width; ch = r.height; cv.width = Math.max(1, cw * dpr); cv.height = Math.max(1, ch * dpr); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); };
   this.invalidate = () => { groups = null; };
@@ -262,16 +275,19 @@ function SemMap(wrap, layersOf) {
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
     const ink2 = css('--ink-2'), bg = css('--panel'), unt = css('--un-text');
     const small = cw < 520;
-    for (const lb of labels) {   // each name at its first place that covers no name already written
+    // each name at its first place that covers no name already written; a UNODC topic's name, when all its places
+    // are covered, moves a line or more up or down from its first one (a sub-topic shares its parent's region)
+    for (const lb of labels) {
       const label = topicName(lb.t), lensT = lb.t < NL;
       ctx.font = `${lensT ? 700 : 600} ${(lensT ? 12.5 : 11.5) - (small ? 1 : 0)}px "Roboto Condensed", "Arial Narrow", sans-serif`;
       const w = ctx.measureText(label).width + 8, h = (lensT ? 17 : 15) - (small ? 1 : 0);
       if (w > cw - 4) continue;
-      for (const [ax, ay] of [[lb.x, lb.y], ...(lb.alt || [])]) {
-        let X = sx(ax), Y = sy(1 - ay);
+      const spots = [[lb.x, lb.y, 0], ...(lb.alt || []).map(([x, y]) => [x, y, 0]), ...(lensT ? [1, -1, 2, -2, 3, -3].map(n => [lb.x, lb.y, n]) : [])];
+      for (const [ax, ay, lines] of spots) {
+        let X = sx(ax), Y = sy(1 - ay) + lines * h;
         if (X < 0 || X > cw || Y < 0 || Y > ch) continue;
         X = Math.min(Math.max(X, w / 2 + 2), cw - w / 2 - 2); Y = Math.min(Math.max(Y, h / 2 + 2), ch - h / 2 - 2);
-        const box = [X - w / 2, Y - h / 2, X + w / 2, Y + h / 2];
+        const box = [X - w / 2 + 1, Y - h / 2 + 1, X + w / 2 - 1, Y + h / 2 - 1];   // names may touch, never overlap
         if (placed.some(b => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) continue;
         placed.push(box);
         ctx.lineWidth = 3.5; ctx.strokeStyle = bg; ctx.strokeText(label, X, Y);
@@ -279,14 +295,34 @@ function SemMap(wrap, layersOf) {
         break;
       }
     }
+    insetBox = null;
+    if (tf.k >= 2) {   // zoomed in: the whole map in a corner, the part in view outlined
+      const iw = Math.round(Math.min(170, Math.max(110, cw * 0.26))), ih = Math.round(iw * ch / cw), ix = 8, iy = ch - ih - 8;
+      const ik = [k, iw, ih, ...spec.layers.map(ly => ly.col)].join('|');
+      if (insetKey !== ik) { inset = overview(P, spec.layers, iw, ih); insetKey = ik; }
+      ctx.drawImage(inset, ix, iy, iw, ih);
+      ctx.lineWidth = 1; ctx.strokeStyle = css('--line'); ctx.strokeRect(ix + 0.5, iy + 0.5, iw - 1, ih - 1);
+      const fx = X => ix + IP + clamp01((tf.invertX(X) - PAD) / (cw - 2 * PAD)) * (iw - 2 * IP);
+      const fy = Y => iy + IP + clamp01((tf.invertY(Y) - PAD) / (ch - 2 * PAD)) * (ih - 2 * IP);
+      ctx.lineWidth = 1.5; ctx.strokeStyle = css('--ink'); ctx.strokeRect(fx(0), fy(0), fx(cw) - fx(0), fy(ch) - fy(0));
+      insetBox = [ix, iy, ix + iw, iy + ih];
+    }
     rb.hidden = tf.k === 1 && tf.x === 0 && tf.y === 0;
   };
-  const zoom = d3.zoom().scaleExtent([1, 14]).on('zoom', e => { tf = e.transform; hideTip(); this.draw(); });
+  const zoom = d3.zoom().scaleExtent([1, 24]).on('zoom', e => { tf = e.transform; hideTip(); this.draw(); });
   if (!coarse) d3.select(cv).call(zoom);
+  const inBox = (mx, my) => insetBox && mx >= insetBox[0] && mx <= insetBox[2] && my >= insetBox[1] && my <= insetBox[3];
+  cv.addEventListener('click', e => {   // a click on the corner map centres the view there
+    const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+    if (!inBox(mx, my)) return;
+    const x = clamp01((mx - insetBox[0] - IP) / (insetBox[2] - insetBox[0] - 2 * IP)), y = clamp01((my - insetBox[1] - IP) / (insetBox[3] - insetBox[1] - 2 * IP));
+    d3.select(cv).call(zoom.translateTo, PAD + x * (cw - 2 * PAD), PAD + y * (ch - 2 * PAD));
+  });
   rb.addEventListener('click', () => { d3.select(cv).call(zoom.transform, d3.zoomIdentity); tf = d3.zoomIdentity; this.draw(); });
   let topKey = '', topTree = null;
   const pick = e => {
     const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+    if (inBox(mx, my)) return null;   // the corner map hides the points beneath it
     const dx = (tf.invertX(mx) - PAD) / (cw - 2 * PAD), dy = (tf.invertY(my) - PAD) / (ch - 2 * PAD), rad = (coarse ? 14 : 8) / (tf.k * (cw - 2 * PAD));
     const P = state.layer === 'speech' ? PS : PF;
     if (groups && topKey !== key) { topTree = d3.quadtree().x(i => P.x[i]).y(i => P.y[i]).addAll(groups.slice(2).flat()); topKey = key; }
@@ -325,19 +361,19 @@ function computeSlots() {
 }
 // A selection's points about topic L (a speech: if any of its fragments is)
 const onTopic = (P, L) => { const b = L === ALL ? 0xffff : 1 << L; return i => (P.m[i] & b) !== 0; };
-// Back to front: the other years (a faint outline, with a year or range chosen), the period in light grey, the
-// selections' points in dark grey, and in each selection's colour its points about the chosen topic
+// Only the period's points, back to front: the rest of the world in light grey, the selections' points in dark
+// grey, and in each selection's colour its points about the chosen topic
 const regMap = new SemMap($('regMapWrap'), sp => {
   const P = sp ? PS : PF, on = onTopic(P, state.lens);
   const alpha = isAll() ? (sp ? 0.8 : 0.55) : 1, bump = isAll() ? 0 : (sp ? 0.6 : 0.3);
-  const layers = [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--dot-sel'), alpha, bump}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
+  const layers = [{col: css('--dot')}, {col: css('--dot-sel'), alpha, bump}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
   return {layers, key: [state.y0, state.y1, state.slots.join(','), state.lens, css('--dot'), css('--dot-sel')].join('|'),
-    layerOf: i => { if (!inP(P.yr[i])) return 0; const s = cSlot[P.c[i]]; return s < 0 ? 1 : on(i) ? 5 - s : 2; }};
+    layerOf: i => { if (!inP(P.yr[i])) return -1; const s = cSlot[P.c[i]]; return s < 0 ? 0 : on(i) ? 4 - s : 1; }};
 });
 const ctyMap = new SemMap($('ctyMapWrap'), sp => {   // the country tab has no topic choice: all UNODC topics
   const P = sp ? PS : PF, c = state.country, on = onTopic(P, ALL), dot = {bump: sp ? 2 : 1.9, round: true, ring: css('--panel')};
-  return {layers: [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--dot-sel'), ...dot}, {col: css('--s1'), ...dot}],
-    key: [c, state.y0, state.y1, css('--dot'), css('--dot-sel')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] !== c ? 1 : on(i) ? 3 : 2};
+  return {layers: [{col: css('--dot')}, {col: css('--dot-sel'), ...dot}, {col: css('--s1'), ...dot}],
+    key: [c, state.y0, state.y1, css('--dot'), css('--dot-sel')].join('|'), layerOf: i => !inP(P.yr[i]) ? -1 : P.c[i] !== c ? 0 : on(i) ? 2 : 1};
 });
 function drawLegends() {
   const other = t(state.layer === 'speech' ? 'otherSpeech' : 'otherFrag');   // the selection's points not about the topic
@@ -366,12 +402,11 @@ const wpaths = wsvg.append('g').selectAll('path').data(feats).join('path').attr(
 const wdots = wsvg.append('g').selectAll('circle').data(dots).join('circle')
   .attr('cx', d => proj([d.p[1], d.p[0]])[0]).attr('cy', d => proj([d.p[1], d.p[0]])[1]).attr('r', 2.6);
 const wsel = wsvg.append('g');
+const STEPS = [0.01, 0.05, 0.1, 0.2];   // the world map's classes, the same for every topic: under 1 %, 1–5, 5–10, 10–20, 20 % or more
 function drawWorld() {
   const L = state.lens, cm = cmOf(L);
-  const vals = cm.filter(v => v != null && v > 0);
-  const qs = vals.length ? d3.scaleQuantile().domain(vals).range([1, 2, 3, 4]).quantiles() : [];
   const cols = ['--q0', '--q1', '--q2', '--q3', '--q4'].map(css), nod = css('--nodata'), line = css('--land-line');
-  const colOf = v => v == null ? nod : v === 0 ? cols[0] : cols[1 + d3.bisectRight(qs, v)];
+  const colOf = v => v == null ? nod : cols[d3.bisectRight(STEPS, v)];
   wpaths.attr('fill', f => { const c = cOfFeat(f); return colOf(c != null ? cm[c] : null); }).attr('stroke', line).attr('stroke-width', 0.4);
   const inSel = d => cSlot[d.c] >= 0;   // states too small to draw: a ring in their selection's colour
   wdots.attr('fill', d => colOf(cm[d.c])).attr('stroke', d => inSel(d) ? slotCol(cSlot[d.c]) : line)
@@ -389,7 +424,9 @@ function drawWorld() {
   wsvg.attr('aria-label', title); $('worldTitle').textContent = title;
   $('worldHint').innerHTML = esc(single() != null ? t('yearN', {y: single()}) : t('avg', {per: per()})) + apxNote(L); wireApx($('worldHint'));
   const sels = active().map(({s, o}) => `<span><i class="ol" style="border-color:var(--s${s + 1})"></i><em>${esc(optShort(o))}</em></span>`).join('');
-  $('worldScale').innerHTML = cols.map(c => `<i style="background:${c}"></i>`).join('') + `<em>${t('lessMore')}</em><i style="background:${nod}"></i><em>${t('noSpeech')}</em>`
+  const tick = v => Math.round(v * 100) + (lang === 'es' ? '\u00a0%' : '%');   // at the joins of the 34-pixel steps
+  $('worldScale').innerHTML = `<span class="ramp">${cols.map(c => `<i style="background:${c}"></i>`).join('')}${STEPS.map((v, k) => `<b style="left:${36 * k + 35}px">${tick(v)}</b>`).join('')}</span>`
+    + `<i style="background:${nod}"></i><em>${t('noSpeech')}</em>`
     + (sels && `<span class="sels">${sels}</span>`);   // the selections' outlines on a line of their own
 }
 
@@ -399,9 +436,8 @@ const tsvg = d3.select('#trend').append('svg').attr('viewBox', `0 0 ${TW} ${TH}`
 const tx = d3.scaleLinear().domain([Y0, Y1]).range([TM.l, TW - TM.r]), ty = d3.scaleLinear().range([TH - TM.b, TM.t]);
 const gGrid = tsvg.append('g'), gAx = tsvg.append('g'), gLines = tsvg.append('g'), gMark = tsvg.append('g'), gHover = tsvg.append('g');
 let series = [];
-function seriesFor(members, L) {   // equal-weight mean per year, then a centred 3-year average
-  const raw = d3.range(NY).map(y => { let a = 0, k = 0; for (let c = 0; c < NC; c++) { if (members && !members.has(c)) continue; const v = shareOf(c, y, L); if (!Number.isNaN(v)) { a += v; k++; } } return k ? a / k : null; });
-  return raw.map((v, k) => { if (v == null) return null; const w = [raw[k - 1], v, raw[k + 1]].filter(x => x != null); return d3.mean(w); });
+function seriesFor(members, L) {   // each year's equal-weight mean, the value a card shows for that year
+  return d3.range(NY).map(y => { let a = 0, k = 0; for (let c = 0; c < NC; c++) { if (members && !members.has(c)) continue; const v = shareOf(c, y, L); if (!Number.isNaN(v)) { a += v; k++; } } return k ? a / k : null; });
 }
 function drawTrend() {
   const L = state.lens, title = L === ALL ? t('trendTitleAll') : t('trendTitle', {l: lensName(L)});
@@ -555,13 +591,12 @@ function drawAnnex() {
     ['s6', {folds: A.folds, rest: A.folds - 1}],
     ['s7', {general: TOPICS.filter(x => x.kind === 'general').length}],
   ].map(([k, v], i) => `<li><span class="n">${i + 1}</span><div><h3>${esc(t(k + 't'))}</h3><p>${tb(k, v)}</p></div></li>`).join('');
-  const st = l => !l.shown ? 'off' : l.pass === false ? 'apx' : 'ok';
+  const st = l => l.pass === false ? 'apx' : 'ok';
   const bar = v => `<td class="pr"><span class="pv">${pc(v)}</span><span class="pb" aria-hidden="true"><b style="width:${(100 * Math.min(1, v ?? 0)).toFixed(1)}%"></b><i style="left:${100 * A.bar}%"></i></span></td>`;
   const chip = l => `<span class="st st-${st(l)}">${esc(t('st_' + st(l)))}</span>`;   // on phones, under the name
   const rows = A.lenses.map(l => `<tr class="${st(l)}"><th scope="row"><span class="tn">${icon(l.icon)}${esc(l[lang])}</span>${chip(l)}</th>
     <td class="num">${n(l.examples)}</td><td class="num">${pc(l.precision)}</td><td class="num">${pc(l.recall)}</td>${bar(l.f1)}<td>${chip(l)}</td></tr>`).join('');
-  const hidden = A.lenses.filter(l => !l.shown), par = hidden[0] && A.lenses.find(l => l.id === hidden[0].parent);
-  const states = [['ok', {bar: pc(A.bar)}], ['apx', {}], ...(hidden.length ? [['off', {p: par ? par[lang] : ''}]] : [])]
+  const states = [['ok', {bar: pc(A.bar)}], ['apx', {}]]
     .map(([k, v]) => `<li><span class="st st-${k}">${esc(t('st_' + k))}</span><span>${tb('st_' + k + 'D', v)}</span></li>`).join('');
   const th = (k, cls = '') => `<th scope="col"${cls && ` class="${cls}"`}>${esc(t(k))}</th>`;
   const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);

@@ -20,7 +20,7 @@ This contract sits between the pipeline export (`pipeline/export.py`, which writ
 - **Passages** (the excerpts and the map's hover) show the part of a fragment most about the topic they illustrate, not a set key term:
   - a candidate passage starts at a sentence, or at a clause of a sentence too long to show whole (then after "… "), and runs to the last sentence end that fits, or is cut at a word (then ends with " …");
   - it has at least half its maximum length, so it is never a greeting alone; a fragment shorter than the maximum is shown whole;
-  - an excerpt shows the candidate that its lens's own classifier rates most probable, each candidate embedded as a fragment is (user, 2026-09-30); a speech's hover passage is the shorter candidate within its excerpt's passage whose terms weigh most;
+  - an excerpt shows the candidate that its lens's own classifier rates most probable, each candidate embedded as a fragment is, and only when that probability reaches the lens's threshold (user, 2026-09-30; 19:24); a speech's hover passage is the shorter candidate within its most probable excerpt's passage whose terms weigh most;
   - the map's fragment passages, and the excerpts of a build without classifiers (placeholder), show the candidate whose terms weigh most; on a tie, the one that starts nearest those terms; when no term weighs, the first;
   - each term weighs its Fightin' Words z-score (as for the word bars) in the topic's fragments against all the other fragments, where it is at least 1.96: the fragments about a lens, or those of a general topic. A sub-lens adds its z-scores against the rest of its parent lens's fragments, so that an alternative development passage favours what sets it apart from drugs at large while its drug words still count.
 - **Missing values** are `null`. A missing value means there is no speech or the text is too little to measure. Missing is never shown as 0.
@@ -37,11 +37,11 @@ This contract sits between the pipeline export (`pipeline/export.py`, which writ
 | `years` | `{first: 1946, last: 2026, provisional: [2026]}`. "All years" means `first` to `last`, the provisional year included. The site shows the provisional year like any other, with no label (`docs/PLAN.md`, section 2). |
 | `countries` | `[{iso3, es, en, map_id, map_extra: [...], point: [lat, lon] \| null, hist: [{from, to, es, en}]}]`, in iso3 order. `map_id` is the world-atlas numeric id, or `null` when the country has no polygon (a small state, which has a `point`, or CSK, DDR, YUG, YMD, EU). `map_extra` names further world-atlas features drawn with the country (for example Kosovo with Serbia). `hist` holds the historical names shown on hover. |
 | `groups` | `[{id, slug, type: "office"\|"nofield"\|"bloc"\|"region", es, en, short_es, short_en, members: [c...]}]`. `slug` drives deep links (`#rocol`, `#ropan`). ROCOL comes first and is the default selection; the other multi-country offices follow, then the countries with no field office, then blocs and regions. |
-| `lenses` | `[{id, icon, es, en, reference: bool, pass: bool \| null}]`, in strip order: the lenses shown. `peace`, the former reference lens, is no longer measured or listed, and `prevention_treatment` is measured but not listed (`export.HIDDEN`; its fragments count within drugs through the umbrella rule) (user, 2026-09-30); `reference` stays in the shape. `pass` is the calibration pass bar (`docs/calibration.md`, section 6; `data/gold/fit.json`); a lens with `pass: false` is shown everywhere with an "approximate" badge that links to the technical annex (user, 2026-09-30 17:07). `null` means no pass-bar result yet; while any lens has none, and on a preliminary publication (`scripts/publish_site.sh --preliminary`), the site shows a small "preliminary" badge. |
+| `lenses` | `[{id, icon, es, en, reference: bool, pass: bool \| null}]`, in strip order: the lenses shown. `peace`, the former reference lens, is no longer measured or listed (user, 2026-09-30); `reference` stays in the shape. `pass` is the calibration pass bar (`docs/calibration.md`, section 6; `data/gold/fit.json`); a lens with `pass: false` is shown everywhere with an "approximate" badge that links to the technical annex (user, 2026-09-30 17:07). `null` means no pass-bar result yet; while any lens has none, and on a preliminary publication (`scripts/publish_site.sh --preliminary`), the site shows a small "preliminary" badge. |
 | `topics` | `[{id, es, en, kind: "lens"\|"general"}]` |
 | `binaries` | The name, dtype and shape (or columns and count) of each `.bin` file below. |
 | `keyness` | `{top, min_tokens, min_count, min_spread, min_z}`, the word-bar settings. |
-| `method` | What the technical annex states, or `null` in a build without classifiers (placeholder): `{fragments_all, ceremonial, labelled, reference: [{es, en}], read_twice, folds, bar, min_period, lenses}`. `labelled` counts the labelled fragments; `read_twice` the fragments of the check files (`data/gold/agreement.json`, `check_fragments`); `bar` is the pass bar on F1 and `min_period` the positives a period needs to be judged. `lenses` lists every fitted lens, hidden ones included: `{id, es, en, icon, parent, shown, pass, examples, precision, recall, f1}`. `examples` counts its positive labels; `precision`, `recall` and `f1` are weighted and out of fold, over all periods (`data/gold/fit.json`, `overall`). |
+| `method` | What the technical annex states, or `null` in a build without classifiers (placeholder): `{fragments_all, ceremonial, labelled, reference: [{es, en}], read_twice, folds, bar, min_period, lenses}`. `labelled` counts the labelled fragments; `read_twice` the fragments of the check files (`data/gold/agreement.json`, `check_fragments`); `bar` is the pass bar on F1 and `min_period` the positives a period needs to be judged. `lenses` lists every fitted lens: `{id, es, en, icon, parent, pass, examples, precision, recall, f1}`. `examples` counts its positive labels; `precision`, `recall` and `f1` are weighted and out of fold, over all periods (`data/gold/fit.json`, `overall`). |
 
 ### `shares.bin` (loaded at start)
 
@@ -65,12 +65,12 @@ One point per fragment or speech, 10 bytes each, stored one column after another
 
 - Fragment points are in country, year and speech order. Speech points are in country and year order.
 - Both files share one frame: each speech is placed on the fragments' map from the mean of its fragments' vectors, so a position means the same on both layers.
-- `map_labels.json` holds `{fragments: [{t, x, y, n, alt}], speeches: [...]}`: where each topic's name is written (the mean of its fragments around the cell where the topic is both dense and dominant, its smoothed count squared over that of all fragments, `x` and `y` from 0 to 1 like the quantized positions), `alt`, up to two further places `[x, y]` a sixth of the map apart, best first, where the name goes when its first place would cover a name already written, and `n`, its number of fragments, for label priority (UNODC topics first, then the largest). Both layers carry the same list.
+- `map_labels.json` holds `{fragments: [{t, x, y, n, alt}], speeches: [...]}`: where each topic's name is written (the mean of its fragments around the cell where the topic is both dense and dominant, its smoothed count squared over that of all fragments, `x` and `y` from 0 to 1 like the quantized positions; a lens's fragments are those about it, so a sub-lens is named too, and a general topic's those in it), `alt`, up to two further places `[x, y]` a sixth of the map apart, best first, where the name goes when its first place would cover a name already written, and `n`, its number of fragments, for label priority (UNODC topics first, then the largest). Both layers carry the same list.
 
 ### `speeches.json` (lazy, with the Speeches layer or the Country tab)
 
 - Shape: `{ "<iso3>": { "<year>": ["<speaker, post>", "<passage>", l] } }`.
-- The passage shown on hover, of 110 to 220 characters (see Passages): from the speech's fragment about a UNODC lens with the highest probability, on that lens, with `l` that lens; in a speech with no such fragment, from the fragment nearest the mean of the speech's fragment vectors, leaving out its first and last fragments (often greetings) when it has three or more, on that fragment's topic, with `l` = -1.
+- The passage shown on hover, of 110 to 220 characters (see Passages): within the speech's most probable excerpt across the UNODC lenses (`excerpts/all.json`), with `l` its lens; in a speech with no such fragment, from the fragment nearest the mean of the speech's fragment vectors, leaving out its first and last fragments (often greetings) when it has three or more, on that fragment's topic, with `l` = -1.
 - The site publishes short passages only (this file, the fragment passages and the excerpts), never whole speeches: the corpus itself is cited, not committed (`docs/PLAN.md`, section 5).
 
 ### `snips/<iso3>.json` (lazy, on hover over a fragment point)
@@ -99,10 +99,11 @@ What the two measures use:
 
 ### `excerpts/<lens>.json` (lazy, per lens)
 
-- Shape: `{ "<iso3>": { "<year>": [[l, p, "passage"], ...] } }`, one file per lens and `excerpts/all.json` across the UNODC lenses, where `l` is the lens with the highest probability.
-- Holds up to 3 fragments per country-year about that lens, highest probability `p` first.
+- Shape: `{ "<iso3>": { "<year>": [[l, p, "passage"], ...] } }`, one file per lens and `excerpts/all.json` across the UNODC lenses, where `l` is the fragment's main lens: of the lenses it is about, the most probable.
+- Every fragment about the lens is a candidate. `p` is the probability, on lens `l` and to 4 decimals, of the passage shown: the passage's own, or the fragment's when the fragment is shown whole. A passage under its lens's threshold is left out (user, 2026-09-30 19:24).
+- Holds up to 3 passages per country-year, highest `p` first.
 - Each passage is on its lens, of 150 to 300 characters (see Passages).
-- The client shows the three most probable passages of the selection in the period, from any of its members and years (user, 2026-09-30); with several selections, each selection's most probable in turns.
+- The client shows the three most probable passages of the selection in the period, from any of its members and years, the most recent first on a tie (user, 2026-09-30); with several selections, each selection's most probable in turns.
 
 ### `keyness/<lens|all>.json` (lazy)
 

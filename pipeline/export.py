@@ -55,7 +55,6 @@ FIRST_YEAR, LAST_YEAR = 1946, 2026
 PROVISIONAL = [2026]
 PLACEHOLDER_ABOUT = 0.5     # "about" a lens in a placeholder build (never published); real builds use each lens's
                             # threshold (docs/calibration.md, section 5)
-HIDDEN = ("prevention_treatment",)   # fitted but not shown: too few examples to measure it; its fragments still count
                                      # within drugs through the umbrella rule (user, 2026-09-30)
 SEED = 0
 N_TOPICS = 14               # general topics: the largest number whose topics reproduce on split halves (PLAN 4)
@@ -376,31 +375,25 @@ def load_layout(kind: str, ids, input_hash: str) -> np.ndarray:
         return z["xy"][pos.loc[ids].to_numpy()]
 
 
-def shown_ids(codebook) -> list[str]:
-    """The lenses the site shows: every fitted lens but HIDDEN."""
-    return [i for i in calibrate.fitted_ids(codebook) if i not in HIDDEN]
-
-
 def lens_probabilities(frag_ids, input_hash: str, placeholder: bool, codebook) -> tuple[np.ndarray, str, np.ndarray]:
-    """p of every fragment on every shown lens, in codebook order, where it comes from, and each lens's threshold.
+    """p of every fragment on every fitted lens, in codebook order, where it comes from, and each lens's threshold.
     The placeholder maps each sampling score s to 1 / (1 + exp(-3 (s - 2))), about 2% of fragments at 0.5 or more,
     with the umbrella rule."""
-    fitted, ids = calibrate.fitted_ids(codebook), shown_ids(codebook)
+    ids = calibrate.fitted_ids(codebook)
     path, prefix = (calibrate.SCORES, "s_") if placeholder else (calibrate.PROBS, "p_")
     side = check_fresh(path, input_hash)
-    if not placeholder and set(side.get("thresholds", {})) != set(fitted):
+    if not placeholder and set(side.get("thresholds", {})) != set(ids):
         raise ExportError(f"{embed.rel(path)} has no threshold for every measured lens; run `calibrate predict`.")
-    table = pd.read_parquet(path, columns=["frag_id"] + [prefix + i for i in fitted]).set_index("frag_id")
+    table = pd.read_parquet(path, columns=["frag_id"] + [prefix + i for i in ids]).set_index("frag_id")
     missing = pd.Index(frag_ids).difference(table.index)
     if len(missing):
         raise ExportError(f"{len(missing)} fragments have no value in {embed.rel(path)}.")
     p = table.loc[frag_ids].to_numpy(np.float64)
     if placeholder:
-        p = expand_scores({i: 1 / (1 + np.exp(-3 * (p[:, k] - 2))) for k, i in enumerate(fitted)}, codebook)
+        p = expand_scores({i: 1 / (1 + np.exp(-3 * (p[:, k] - 2))) for k, i in enumerate(ids)}, codebook)
         return (np.column_stack([p[i] for i in ids]).astype(np.float32), "placeholder",
                 np.full(len(ids), PLACEHOLDER_ABOUT, dtype=np.float32))
-    return (p[:, [fitted.index(i) for i in ids]].astype(np.float32), calibrate.sha256(path),
-            np.array([side["thresholds"][i] for i in ids], dtype=np.float32))
+    return (p.astype(np.float32), calibrate.sha256(path), np.array([side["thresholds"][i] for i in ids], dtype=np.float32))
 
 
 def make_topics(placeholder: bool = False, refit: bool = False) -> dict:
@@ -530,11 +523,11 @@ def read_map(buf: bytes, n: int) -> dict:
     return out
 
 
-def label_anchors(q: np.ndarray, topic: np.ndarray, n_topics: int, min_points: int, grid: int = 48,
-                  spots: int = 3) -> list[dict]:
-    """Where to write each topic's name on a map: up to `spots` places, best first, each the mean of the topic's
-    points around a cell where the topic is both dense and dominant (its smoothed count squared over that of all
-    points), a sixth of the map apart, so that a name another one covers can move to its next place (`alt`)."""
+def label_anchors(q: np.ndarray, members: list, grid: int = 48, spots: int = 3) -> list[dict]:
+    """Where to write each topic's name on a map (members: a mask of its points per topic; a topic with none gets no
+    name): up to `spots` places, best first, each the mean of the topic's points around a cell where the topic is
+    both dense and dominant (its smoothed count squared over that of all points), a sixth of the map apart, so that a
+    name another one covers can move to its next place (`alt`)."""
     xy = q.astype(np.float64) / 65535
     cells = np.minimum((xy * grid).astype(int), grid - 1)
 
@@ -545,9 +538,8 @@ def label_anchors(q: np.ndarray, topic: np.ndarray, n_topics: int, min_points: i
 
     everyone, apart = smooth(cells), grid // 6
     out = []
-    for t in range(n_topics):
-        own = topic == t
-        if own.sum() < min_points:
+    for t, own in enumerate(members):
+        if not own.any():
             continue
         score = smooth(cells[own]) ** 2 / np.maximum(everyone, 1)
         top, places = score.max(), []
@@ -633,15 +625,18 @@ def window(text: str, weight: dict | None = None, n: int = EXCERPT_CHARS) -> str
 
 
 def model_windows(pairs, texts: list, score, n: int = EXCERPT_CHARS) -> dict:
-    """For each (fragment row, lens index), the fragment's collapsed text and the candidate passage that the lens's
-    own classifier rates highest (None when the text fits in n). score(passages) gives each passage's probability on
-    every lens."""
+    """For each (fragment row, lens index), the fragment's collapsed text, the candidate passage that the lens's
+    own classifier rates highest and that passage's probability on the lens (both None when the text fits in n).
+    score(passages) gives each passage's probability on every lens."""
     cands = {(r, k): candidate_windows(texts[r], n) for r, k in set(pairs)}
-    todo = sorted({passage(t, *c) for t, cs in cands.values() if len(cs) > 1 for c in cs})
+    todo = sorted({passage(t, *c) for t, cs in cands.values() for c in cs})
     p = score(todo) if todo else None
     at = {x: i for i, x in enumerate(todo)}
-    return {(r, k): (t, max(cs, key=lambda c: p[at[passage(t, *c)], k]) if len(cs) > 1 else cs[0] if cs else None)
-            for (r, k), (t, cs) in cands.items()}
+    out = {}
+    for (r, k), (t, cs) in cands.items():
+        best = max(cs, key=lambda c: p[at[passage(t, *c)], k]) if cs else None
+        out[r, k] = (t, best, float(p[at[passage(t, *best)], k]) if cs else None)
+    return out
 
 
 def inside(t: str, span, weight: dict | None, n: int) -> str:
@@ -730,20 +725,17 @@ def topic_weights(x: sparse.csr_matrix, members: list, vocab: list, is_bigram: n
     return out
 
 
-def excerpt_sets(p: np.ndarray, about: np.ndarray, lenses: list, s_of: np.ndarray) -> tuple[list, np.ndarray]:
-    """The excerpts of each lens and of all UNODC lenses: (name, rows, score, lens of each row) with up to EXCERPTS
-    rows per speech, and each fragment's main UNODC lens (for `all`)."""
+def excerpt_sets(p: np.ndarray, about: np.ndarray, lenses: list) -> tuple[list, np.ndarray]:
+    """The candidate excerpts of each lens and of all UNODC lenses, (name, rows, lens of each row): every fragment
+    about the lens, and for `all` every fragment about a UNODC lens, on its main one (of the lenses it is about, the
+    most probable, a sub-lens on a tie). Also each fragment's main UNODC lens."""
     unodc = np.array([not lens["reference"] for lens in lenses])
     child = np.array([bool(lens.get("parent")) for lens in lenses])
     u_about = about & unodc
-    u_best = np.where(u_about & (p == np.where(unodc, p, -1).max(axis=1, keepdims=True)), 1 + child, 0).argmax(axis=1)
-    sets = [(lens["id"], about[:, k], p[:, k], np.full(len(p), k)) for k, lens in enumerate(lenses)]
-    sets.append(("all", u_about.any(axis=1), np.where(unodc, p, -1).max(axis=1), u_best))
-    out = []
-    for name, mask, score, lens_of in sets:
-        rows = np.flatnonzero(mask)
-        out.append((name, rows[excerpt_pick(s_of[rows], score[rows])], score, lens_of))
-    return out, u_best
+    u_best = np.where(u_about & (p == np.where(u_about, p, -1).max(axis=1, keepdims=True)), 1 + child, 0).argmax(axis=1)
+    sets = [(lens["id"], np.flatnonzero(about[:, k]), np.full(int(about[:, k].sum()), k)) for k, lens in enumerate(lenses)]
+    rows = np.flatnonzero(u_about.any(axis=1))
+    return sets + [("all", rows, u_best[rows])], u_best
 
 
 def excerpt_pick(s: np.ndarray, p: np.ndarray) -> np.ndarray:
@@ -874,7 +866,7 @@ def method_facts(codebook, n_all: int, n_ceremonial: int) -> dict | None:
             continue
         f = fit["lenses"][i]
         lenses.append({"id": i, "es": lens["name_es"], "en": lens["name_en"], "icon": lens.get("icon"),
-                       "parent": lens.get("parent"), "shown": i not in HIDDEN, "pass": f["pass"],
+                       "parent": lens.get("parent"), "pass": f["pass"],
                        "examples": int(labels[i].sum()), **{m: f["overall"][m] for m in ("precision", "recall", "f1")}})
     return {"fragments_all": n_all, "ceremonial": n_ceremonial, "labelled": len(labels),
             "reference": [{"es": lens["name_es"], "en": lens["name_en"]} for lens in codebook["lenses"]
@@ -884,14 +876,14 @@ def method_facts(codebook, n_all: int, n_ceremonial: int) -> dict | None:
 
 
 def passage_scorer(codebook):
-    """p of passages on every shown lens, in codebook order, by the classifiers that made the fragments'
+    """p of passages on every fitted lens, in codebook order, by the classifiers that made the fragments'
     probabilities (their embeddings are kept in WINDOWS)."""
     side = read_side(calibrate.PROBS)
     clf = calibrate.load_classifiers()
     if calibrate.sha256(calibrate.CLASSIFIERS) != side.get("classifiers_sha256"):
         raise ExportError(f"The classifiers changed after {embed.rel(calibrate.PROBS)} was made; run `calibrate predict`.")
     ids = list(clf["info"]["lenses"])
-    cols = [ids.index(i) for i in shown_ids(codebook)]
+    cols = [ids.index(i) for i in calibrate.fitted_ids(codebook)]
     return lambda passages: calibrate.probabilities(window_vectors(passages), clf, codebook)[:, cols]
 
 
@@ -900,21 +892,17 @@ def prepare_windows() -> dict:
     finds them cached. It needs only the fragments and their probabilities, not the topics."""
     codebook = load_lenses()
     _, _, f_man = calibrate.load_embeddings("fragments")
-    frags = pd.read_parquet(config.FRAGMENTS, columns=["frag_id", "speech_id", "iso3", "year", "seq", "text",
-                                                       "is_ceremonial"])
+    frags = pd.read_parquet(config.FRAGMENTS, columns=["frag_id", "iso3", "year", "seq", "text", "is_ceremonial"])
     frags = frags[~frags["is_ceremonial"]].sort_values(["iso3", "year", "seq"], kind="stable").reset_index(drop=True)
     p, _, thr = lens_probabilities(frags["frag_id"].to_numpy(), f_man["input_hash"], False, codebook)
-    lenses = [lens for lens in codebook["lenses"] if lens["id"] in shown_ids(codebook)]
-    picks, _ = excerpt_sets(p, p >= thr, lenses, pd.factorize(frags["speech_id"])[0])
+    sets, _ = excerpt_sets(p, p >= thr, [lens for lens in codebook["lenses"] if not lens["reference"]])
     texts = frags["text"].tolist()
     todo = set()
-    for _, rows, _, _ in picks:
-        for r in rows:
-            t, cs = candidate_windows(texts[r])
-            if len(cs) > 1:
-                todo.update(passage(t, *c) for c in cs)
+    for r in np.unique(np.concatenate([rows for _, rows, _ in sets])):
+        t, cs = candidate_windows(texts[r])
+        todo.update(passage(t, *c) for c in cs)
     window_vectors(sorted(todo))
-    return {"excerpts": int(sum(len(rows) for _, rows, _, _ in picks)), "passages": len(todo), "made_at": now()}
+    return {"candidates": int(sum(len(rows) for _, rows, _ in sets)), "passages": len(todo), "made_at": now()}
 
 
 def load_inputs(placeholder: bool = False) -> dict:
@@ -946,7 +934,7 @@ def load_inputs(placeholder: bool = False) -> dict:
         "fxy": load_layout("fragments", fid, h), "sxy": load_layout("speeches", speeches["speech_id"].to_numpy(), h),
         "X": x, "vocab": vocab, "countries": country_table(sorted(speeches["iso3"].unique())),
         "groups": group_table(), "topics": topic_names(placeholder, info), "passes": passes, "thresholds": thr,
-        "lenses": [lens for lens in codebook["lenses"] if lens["id"] in shown_ids(codebook)],
+        "lenses": [lens for lens in codebook["lenses"] if not lens["reference"]],
         "score": None if placeholder else passage_scorer(codebook),
         "method": None if placeholder else method_facts(codebook, n_all, n_ceremonial),
         "build": {"date": now()[:10], "corpus": "UNGDC v14 + provisional 2026", "model": config.MODEL_ID,
@@ -987,7 +975,8 @@ def build(inp: dict) -> tuple[dict, dict]:
     shares[sc, sy] = share
     counts = np.zeros((C, Y), dtype="<u2")
     counts[sc, sy] = np.minimum(n_s, 65535)
-    best = np.where(about & (p == p.max(axis=1, keepdims=True)), 1 + child, 0)  # ties go to a sub-lens (umbrella)
+    # of the lenses a fragment is about, the most probable; ties go to a sub-lens (umbrella)
+    best = np.where(about & (p == np.where(about, p, -1).max(axis=1, keepdims=True)), 1 + child, 0)
     any_about = about.any(axis=1)
     general = np.asarray(inp["general"])
     n_general = len(inp["topics"])
@@ -1017,7 +1006,9 @@ def build(inp: dict) -> tuple[dict, dict]:
     qf, qs = quantize(inp["fxy"], lo, hi), quantize(inp["sxy"], lo, hi)
     files["map_frag.bin"] = map_columns(x=qf[:, 0], y=qf[:, 1], c=sc[s_of], lensmask=bits, yr=sy[s_of], topic=topic)
     files["map_speech.bin"] = map_columns(x=qs[:, 0], y=qs[:, 1], c=sc, lensmask=s_bits, yr=sy, topic=s_topic)
-    anchors = label_anchors(qf, topic, T, 50)   # the regions are the same on both layers
+    # a lens is named where the fragments about it gather, so a sub-lens, seldom a fragment's main topic, is named
+    # too; a general topic where its fragments gather. The regions are the same on both layers
+    anchors = label_anchors(qf, [*about.T, *(topic == t for t in range(L, T))])
     files["map_labels.json"] = dumps({"fragments": anchors, "speeches": anchors})
 
     # The passages shown for a topic come from where a fragment is most about it (window): the lenses weigh the
@@ -1038,30 +1029,38 @@ def build(inp: dict) -> tuple[dict, dict]:
         if len(rows):
             files[f"snips/{codes[c]}.json"] = dumps([window(texts[r], weights[topic[r]], SNIP_CHARS) for r in rows])
 
-    # Excerpts per lens, and across the UNODC lenses: up to three fragments per speech, the most probable first. Each
-    # shows the passage its lens's own classifier rates highest (model_windows), or, in a build without classifiers
-    # (placeholder, tests), the one whose words weigh most on the lens (window)
+    # Excerpts per lens, and across the UNODC lenses. Every fragment about the lens is a candidate, shown by the
+    # passage its lens's own classifier rates highest (model_windows), or whole when short, with that passage's
+    # probability; a passage under the lens's threshold is not shown. Up to three per speech, the most probable, which
+    # the site orders by that probability. In a build without classifiers (placeholder, tests), the passage whose
+    # words weigh most on the lens (window), with the fragment's probability
     u_about = about & unodc
-    picks, u_best = excerpt_sets(p, about, lenses, s_of)
-    chosen = (model_windows([(r, int(lens_of[r])) for _, rows, _, lens_of in picks for r in rows], texts, inp["score"])
+    sets, u_best = excerpt_sets(p, about, lenses)
+    chosen = (model_windows([(r, int(k)) for _, rows, ks in sets for r, k in zip(rows, ks)], texts, inp["score"])
               if inp.get("score") else None)
-    for name, rows, score, lens_of in picks:
+    thr = np.asarray(inp["thresholds"], dtype=np.float64)
+    top = {}   # each speech's most probable passage across the UNODC lenses, (probability, row, span), for its hover
+    for name, rows, ks in sets:
+        shown, prob, spans = [], np.empty(len(rows)), []
+        for j, (r, k) in enumerate(zip(rows, ks)):
+            t, span, q = chosen[r, k] if chosen else (None, None, None)
+            shown.append((passage(t, *span) if span else t) if chosen else window(texts[r], weights[k]))
+            prob[j] = p[r, k] if q is None else q
+            spans.append(span)
+        ok = np.flatnonzero(prob >= thr[ks])
         out = {}
-        for r in rows:
-            s, k = s_of[r], int(lens_of[r])
-            if chosen:
-                t, span = chosen[r, k]
-                shown = passage(t, *span) if span else t
-            else:
-                shown = window(texts[r], weights[k])
+        for j in ok[excerpt_pick(s_of[rows[ok]], prob[ok])]:
+            r, k, s = rows[j], int(ks[j]), s_of[rows[j]]
             out.setdefault(codes[sc[s]], {}).setdefault(str(FIRST_YEAR + sy[s]), []).append(
-                [k, round(float(score[r]), 2), shown])
+                [k, round(float(prob[j]), 4), shown[j]])
+            if name == "all" and prob[j] > top.get(s, (-1,))[0]:
+                top[s] = (prob[j], r, spans[j])
         files[f"excerpts/{name}.json"] = dumps(out)
 
     # Each speech as the mean of its fragments' vectors (docs/PLAN.md, section 4), which measures the alignment below.
-    # Its passage on hover: the fragment about a UNODC lens with the highest probability, on that lens, within the
-    # passage its excerpt shows; without one, the fragment closest to that mean outside the speech's first and last
-    # (often greetings), in a speech of three or more, on its topic
+    # Its passage on hover: within its most probable excerpt across the UNODC lenses, on that excerpt's lens; without
+    # one, the fragment closest to that mean outside the speech's first and last (often greetings), in a speech of
+    # three or more, on its topic
     femb = inp["femb"]
     per_speech = sparse.csr_matrix((np.ones(F, dtype=np.float32), (s_of, np.arange(F))), shape=(S, F)).tocsc()
     semb = np.zeros((S, femb.shape[1]), dtype=np.float32)
@@ -1074,16 +1073,14 @@ def build(inp: dict) -> tuple[dict, dict]:
                                       semb[s_of[a:a + 65536]])
     edge = np.r_[True, s_of[1:] != s_of[:-1]] | np.r_[s_of[1:] != s_of[:-1], True]   # fragments are in speech order
     rep = pd.Series(np.where(~edge | (n_s[s_of] < 3), sims, -np.inf)).groupby(s_of).idxmax()
-    u_rows = np.flatnonzero(u_about.any(axis=1))
-    u_top = (pd.DataFrame({"s": s_of[u_rows], "p": u_max[u_rows], "r": u_rows})
-             .sort_values(["s", "p", "r"], ascending=[True, False, True]).groupby("s").head(1).set_index("s")["r"])
     speeches = {}
     for s, row in enumerate(sp.itertuples(index=False)):
         who = ", ".join(v.strip() for v in (row.speaker_name, row.speaker_post) if isinstance(v, str) and v.strip())
-        if s in u_top.index:
-            r = u_top[s]
-            entry = [who, inside(*chosen[r, u_best[r]], weights[u_best[r]], REP_CHARS) if chosen else
-                     window(texts[r], weights[u_best[r]], REP_CHARS), int(u_best[r])]
+        if s in top:
+            _, r, span = top[s]
+            k = int(u_best[r])
+            entry = [who, inside(chosen[r, k][0], span, weights[k], REP_CHARS) if chosen else
+                     window(texts[r], weights[k], REP_CHARS), k]
         elif s in rep.index:
             entry = [who, window(texts[rep[s]], weights[topic[rep[s]]], REP_CHARS), -1]
         else:

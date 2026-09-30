@@ -60,6 +60,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **It replaces the hero-number cards.** The user rejected those cards as generic and asked for something more visual, with icons (2026-09-26 18:02, r476).
 - **Option C was chosen:** every lens with its icon, showing how much the selection over- or under-indexes against the world (2026-09-26 18:12, r575; options page r565).
 - **It also works as the topic selector** for the rest of the tab (proposed r565 and r591; confirmed 2026-09-26 18:33, r683).
+- **No ratio for a share under 0.05%**, which reads "<0,1 %": at that level the ratio to the world is noise (after the user's question on ROCOL, 2026 and alternative development, 2026-09-30 19:11, s4 r21187).
 - **Icons:** Tabler Icons (MIT licence), approved (2026-09-26 18:12, r575):
 
 | Lens | Icon |
@@ -76,7 +77,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 
 Peace, first shown as a reference lens, is no longer measured or shown: it covered about half of what the speeches say, too broad to set beside the mandate topics, and its passages join the general topics (user, 2026-09-30).
 
-Prevention and treatment is measured but not shown anywhere (card, trend, maps, passages, words): with 41 examples its model is not reliable, and its fragments still count within drugs through the umbrella rule and in "all UNODC topics" (2026-09-30 17:07, s4 r17922). The topics short of the pass bar keep their card, with an "Aprox." badge (section 3.7).
+Prevention and treatment, the topic with the fewest examples, is shown like the other topics short of the pass bar, with the "Aprox." badge; its fragments also count within drugs through the umbrella rule and in "all UNODC topics" (user, 2026-09-30 19:11, s4 r21187). The topics short of the pass bar keep their card, with an "Aprox." badge (section 3.7).
 
 ### 3.3 Selections and defaults
 
@@ -111,16 +112,17 @@ Prevention and treatment is measured but not shown anywhere (card, trend, maps, 
 - **One global map, fitted once on all the data.** Year and selection only change the highlighting; the layout never changes (2026-09-26 18:02, r476).
 - **One geography for both layers, kept across updates.** The map is fitted once on the fragments and saved. Each speech, and each new year's fragments, are placed among the fragments they most resemble, so nothing already on the map moves; a new edition of the map is a deliberate refit (2026-09-29 17:31, s4 r503; the method was left to the main agent, 18:49, s4 r670). Method: section 4, Map.
 - **Two layers**, with a "Fragments / Speeches" toggle. Fragments is the default (2026-09-26 18:28, r659; details proposed r679, confirmed 2026-09-26 18:33, r683).
-- **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit (r679, confirmed r683; mean (2026-09-29 21:56, s4 r2316)). Hovering shows its topic composition and a passage: from its fragment about a UNODC topic with the highest probability, on that topic; in a speech with none, from the fragment closest to the mean of its fragments' vectors, its first and last left out (2026-09-30 04:20).
+- **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit (r679, confirmed r683; mean (2026-09-29 21:56, s4 r2316)). Hovering shows its topic composition and a passage: within its most probable excerpt about a UNODC topic (section 3.8; 2026-09-30 19:24, s4 r21744); in a speech with none, from the fragment closest to the mean of its fragments' vectors, its first and last left out (2026-09-30 04:20).
 - **Fragments layer:** hovering shows the country, the year, the fragment's topic and a passage of it on that topic (2026-09-30 04:20).
-- **Highlighting:** light grey for every point of the period (one year, a range or all years), dark grey for the selections' points, and each selection's colour for its points about the chosen topic, all UNODC topics or one; a speech counts when any of its fragments is about it. Points outside the selections are never tinted by topic (2026-09-30 04:37). The country tab, which has no topic choice, colours the country's points about any UNODC topic. Topics marked approximate are tinted like the others (2026-09-30 17:07, s4 r17922). With a year chosen, the other years stay as a faint outline (2026-09-30 04:20), which does not answer a hover (QA of the first real build, 2026-09-30 06:20).
-- **Region labels:** topic names written from example fragments, in Spanish and English (proposed r591 and r679; confirmed 2026-09-26 18:33, r683), each where its fragments concentrate; both layers show the same labels.
+- **Highlighting:** light grey for every point of the period (one year, a range or all years), dark grey for the selections' points, and each selection's colour for its points about the chosen topic, all UNODC topics or one; a speech counts when any of its fragments is about it. Points outside the selections are never tinted by topic (2026-09-30 04:37). The country tab, which has no topic choice, colours the country's points about any UNODC topic. Topics marked approximate are tinted like the others (2026-09-30 17:07, s4 r17922). Only the period's points are drawn, the rest of the world included (user, 2026-09-30 19:05, s4 r20943).
+- **Region labels:** topic names written from example fragments, in Spanish and English (proposed r591 and r679; confirmed 2026-09-26 18:33, r683), each where its fragments concentrate; both layers show the same labels. Every UNODC topic is named where the fragments about it gather, so alternative development and prevention and treatment, which sit inside the drugs region, are named too, a line above or below when names would overlap (user, 2026-09-30 19:11, s4 r21187).
+- **Zoom:** up to 24 times on a computer. Past twice, the whole map appears in a corner with the part in view outlined, and a click on it centres the view there (user, 2026-09-30 19:26, s4 r21772).
 - **Points drawn:** the final map shows every fragment (r565; confirmed r683). The mockups show a sample.
 
 ### 3.7 World map and trend
 
-- **World map:** a world map of attention to the selected lens and period (2026-09-26 17:31, r92).
-- **Trend line:** averaged over 3 years (proposed r591; confirmed 2026-09-26 18:33, r683).
+- **World map:** a world map of attention to the selected lens and period (2026-09-26 17:31, r92), in five classes that are the same for every topic: under 1%, 1–5%, 5–10%, 10–20% and 20% or more (user, 2026-09-30 19:24, s4 r21744).
+- **Trend line:** each year's value, the one a card shows for that year, drawn as a smooth curve through the points (user, 2026-09-30 19:28, s4 r21834).
 - **Topics short of the pass bar** (section 4.1, step 7) keep their trend line, world map, map colour and words, with an "Aprox." badge on their card and a "Medición aproximada: ver anexo técnico" link beside the world map and the trend, because their mean probability follows the labelled share (2026-09-30 17:07, s4 r17922). The technical annex explains the badge.
 
 ### 3.8 Distinctive words and excerpts
@@ -129,7 +131,7 @@ Prevention and treatment is measured but not shown anywhere (card, trend, maps, 
   - The method is Fightin' Words log-odds with an informative Dirichlet prior (Monroe et al. 2008) (proposed r565).
   - Each selection is compared with the rest of the world, on the same lens and period (2026-09-26 18:12, r575).
   - A word must be used by at least two of the selection's speeches, and for a group by two of its members, when it has that many: in the first real build a sixth of a group's words came from one member alone (QA of the first real build, 2026-09-30 06:39).
-- **Excerpts:** short passages in the original English (2026-09-26 17:31, r92; proposed r591): the three most probable passages about the topic among the selection's speeches in the period, from any of its members, even all from one country (user, 2026-09-30). Each shows the part of its fragment that the topic's own classifier rates most probable, between a minimum and a maximum length so that a passage is never a greeting alone (user, 2026-09-30; the choice by the words that set the topic apart, of 2026-09-30 04:24, showed the topic in 72% of passages, the classifier in about 89%). Rules: `docs/data-contract.md`, Passages.
+- **Excerpts:** short passages in the original English (2026-09-26 17:31, r92; proposed r591). Every fragment about the topic is a candidate and shows the part that the topic's own classifier rates most probable, between a minimum and a maximum length so that a passage is never a greeting alone (user, 2026-09-30; the choice by the words that set the topic apart, of 2026-09-30 04:24, showed the topic in 72% of passages, the classifier in about 89%). A passage is shown only when its own probability reaches the topic's threshold, and each speech offers its three most probable (user, 2026-09-30 19:24, s4 r21744; before, 3% to 25% of the passages shown per topic fell under it). The site shows the three most probable of the selection in the period, from any of its members, even all from one country, the most recent first on a tie, and with several selections each one's best in turns (user, 2026-09-30; 18:59, s4 r20770). Rules: `docs/data-contract.md`, Passages.
 
 ### 3.9 Country tab ("País")
 
@@ -200,7 +202,7 @@ The user left the calibration method to the main agent, asking for the most tech
 4. **Audited fifth.** One speech in five is drawn at random (2026-09-29 16:30, s2 r24828). Its sampled fragments, about 5,000, are labelled first, and those the labeller was unsure of are read a second time (step 3), which measures how often a doubtful label changes.
 5. **Classifier.** One classifier per lens, a support vector machine with an RBF kernel on the fragment embedding, gives each fragment a probability for that lens (user, 2026-09-30, after a comparison on the final labels: mean average precision 0.746 against 0.717 for logistic regression). Its settings, its calibration and its threshold come from five-fold cross-validation over all the labelled fragments, with the folds split by speech, and the classifier that measures the corpus is fitted on all of them (user, 2026-09-30 17:57, s4 r18894).
 6. **Shares.** A speech's share on a lens is the mean of its fragments' probabilities (graded shares). A fragment counts as "about" a lens when its probability reaches that lens's threshold, the probability with the best F1 in the cross-validation (user, 2026-09-30); this is used for the excerpts and the composition bars.
-7. **Pass bar.** A lens passes if the F1 of its out-of-fold decisions at its threshold is at least 0.70, over all periods together and in each period with at least 20 labelled examples of that lens; precision and recall weigh the same, and the threshold maximizes F1 (user, 2026-09-30 18:20, s4 r19488). A lens that falls short is brought to the user; no fallback method is tried. The user chose to show the short lenses with an "approximate" badge and to hide prevention and treatment (2026-09-30 17:07, s4 r17922; sections 3.2 and 3.7).
+7. **Pass bar.** A lens passes if the F1 of its out-of-fold decisions at its threshold is at least 0.70, over all periods together and in each period with at least 20 labelled examples of that lens; precision and recall weigh the same, and the threshold maximizes F1 (user, 2026-09-30 18:20, s4 r19488). A lens that falls short is brought to the user; no fallback method is tried. The user chose to show the short lenses with an "approximate" badge (2026-09-30 17:07, s4 r17922), prevention and treatment included (19:11, s4 r21187; sections 3.2 and 3.7).
 8. **Frozen before results.** The descriptions, the sample, the method and the classifiers are fixed before any trend is computed. The known-event checks of section 6 are run afterwards, as a test, never for tuning.
 9. **Published.** The methods note gives, for each lens and period, precision, recall, F1 and the number of labelled positives, and for each lens the agreement between the labeller and the check. The site's technical annex gives the plain-language version: per lens, the cross-validated precision, recall and F1 of the classifiers the site uses (2026-09-30 17:07, s4 r17922; 18:33, s4 r19860; 18:39, s4 r20072).
 
@@ -235,7 +237,7 @@ The user left the calibration method to the main agent, asking for the most tech
 
 Next, to be implemented (user, 2026-09-30 17:57, s4 r18894):
 
-- A reading round, "net and read": every fragment with at least a 2% probability of any topic but terrorism (11,781, of which 2,142 already labelled; a 5% net leaves 5,683 to read), read by the same labeller under the same codebook, marking the sentence that carries each topic, with a checked sample. Trends would become shares of confirmed passages and prevention and treatment could return. The user likes the rule (proposed 2026-09-30 17:03, s4 r17918; 17:09, s4 r17956).
+- A reading round, "net and read": every fragment with at least a 2% probability of any topic but terrorism (11,781, of which 2,142 already labelled; a 5% net leaves 5,683 to read), read by the same labeller under the same codebook, marking the sentence that carries each topic, with a checked sample. Trends would become shares of confirmed passages. The user likes the rule (proposed 2026-09-30 17:03, s4 r17918; 17:09, s4 r17956).
 - A targeted labelling round: about 300 fragments per topic among those its classifier ranks highest, prevention and treatment and alternative development first, then a refit; it needs a manifest revision (2026-09-30 17:10, s4 r17973).
 
 Version 2:
@@ -272,6 +274,9 @@ Version 2:
 | Only the rest of the points and the selections, each in one colour (2026-09-30 04:37) | Within the selections, the points about the chosen topic in colour and the others in dark grey (2026-09-30 15:45) |
 | A lens short of the pass bar gets passages only: no figure on its card, no trend, no world map, no map colour, no words (`docs/calibration.md`, section 6; 2026-09-30 15:45 for the map colour) | Shown everywhere with an "Aprox." badge linking to the technical annex (2026-09-30 17:07, s4 r17922) |
 | Prevention and treatment measured and shown like every lens (r575) | Not shown; its fragments count within drugs (2026-09-30 17:07, s4 r17922) |
+| Prevention and treatment not shown (2026-09-30 17:07, s4 r17922) | Shown with the "Aprox." badge (2026-09-30 19:11, s4 r21187) |
+| Trend averaged over 3 years (proposed r591; confirmed r683) | Each year's value, drawn as a smooth curve (2026-09-30 19:28, s4 r21834) |
+| With a year chosen, the other years as a faint outline on the maps (2026-09-30 04:20) | Only the period's points (2026-09-30 19:05, s4 r20943) |
 | Two tabs (r659) | Three: a technical annex added (2026-09-30 17:07, s4 r17922) |
 | One year or all years (r92) | Also a range of years (2026-09-30 04:20) |
 | Three labellers read every fragment, a fourth decides disagreements, five agents at a time (s2 r13904) | One labeller, ten at a time, with a check of about 600 fragments at maximum effort and a resolver; codebook 1.2 (2026-09-29 21:56, s4 r2316) |
@@ -285,6 +290,8 @@ Version 2:
 | Peace as a reference lens (r476) | Peace not measured or shown; its passages join the general topics (2026-09-30) |
 | 20 general topics (s4 r643) | 14, the largest number whose topics reproduce on split halves (2026-09-30) |
 | Excerpts from the most recent speeches, one per country, each where its words weigh most for the topic (2026-09-30 04:24) | The three most probable of the selection in the period, from any member, each where the topic's classifier rates it highest (2026-09-30) |
+| Up to three excerpts per speech, its most probable fragments, ordered by the fragment's probability (2026-09-30) | Every fragment about the topic a candidate; a passage shown only when its own probability reaches the threshold; the three most probable per speech, ordered by that probability (2026-09-30 18:59, s4 r20770; 19:24, s4 r21744) |
+| A speech's hover passage from its fragment most about a UNODC topic (2026-09-30 04:20) | Within its most probable excerpt (2026-09-30 19:24, s4 r21744) |
 | 2024 texts from the corpus v14 (r92) | The official verbatim records A/79/PV.7–17 (2026-09-29 05:51, s2 r14183) |
 | 2026 added when the dataset authors publish it (proposed r81) | Provisional 2026 now (2026-09-26 18:02, r476; 18:12, r575) |
 

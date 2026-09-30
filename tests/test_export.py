@@ -99,7 +99,8 @@ def test_label_anchors_go_where_a_topic_dominates():
     crowd = rng.normal([0.5, 0.5], 0.01, size=(3300, 2))   # more of topic 0, among many more of topic 1
     q = np.rint(np.clip(np.vstack([alone, crowd]), 0, 1) * 65535).astype(np.uint16)
     topic = np.r_[np.zeros(500, dtype=int), np.ones(3000, dtype=int)]
-    a = {x["t"]: x for x in ex.label_anchors(q, topic, 2, 50)}
+    a = {x["t"]: x for x in ex.label_anchors(q, [topic == 0, topic == 1, topic == 2])}
+    assert 2 not in a   # a topic with no point gets no name
     assert abs(a[0]["x"] - 0.2) < 0.02 and abs(a[0]["y"] - 0.2) < 0.02 and a[0]["n"] == 500
     assert abs(a[1]["x"] - 0.5) < 0.02 and a[1]["alt"] == []
 
@@ -139,10 +140,10 @@ def test_model_windows_show_the_passage_the_lens_rates_highest():
         return np.array([[0.0, float("Coca" in x)] for x in passages])
 
     chosen = ex.model_windows([(0, 1), (1, 1)], [text, "Short fragment."], score, n=120)
-    t, span = chosen[0, 1]
+    t, span, prob = chosen[0, 1]
     shown = ex.passage(t, *span)
-    assert shown.startswith("Coca growers") and 60 <= len(shown) <= 120
-    assert chosen[1, 1] == ("Short fragment.", None)  # a fragment that fits is shown whole
+    assert shown.startswith("Coca growers") and 60 <= len(shown) <= 120 and prob == 1.0
+    assert chosen[1, 1] == ("Short fragment.", None, None)  # a fragment that fits is shown whole
     assert len(asked) == 1 and "Short fragment." not in asked[0]  # one call, for the candidates only
     hover = ex.inside(t, span, {"coca": 1.0}, 80)  # the shorter passage lies within the chosen one
     assert hover.startswith("Coca growers") and len(hover) <= 80
@@ -310,6 +311,19 @@ def test_build_uses_the_classifiers_for_passages_when_it_has_them():
     assert with_model == json.loads(ex.build(synthetic_inputs())[0]["excerpts/all.json"])  # short fragments: whole
 
 
+def test_a_passage_under_its_lens_threshold_is_not_shown():
+    inp = synthetic_inputs()
+    texts = inp["frags"]["text"].tolist()
+    col = np.flatnonzero(inp["frags"]["speech_id"] == "COL_80_2025")   # two fragments about drugs (p 0.9), made long
+    texts[col[0]] = "Coca growers need roads and legal markets to leave the illicit crops behind for good. " * 4
+    texts[col[1]] = "We thank the President for his election and wish him every success in his work. " * 4
+    inp["frags"] = inp["frags"].assign(text=texts)
+    inp["score"] = lambda passages: np.array([[0.9 if "Coca" in x else 0.1, 0.0, 0.0] for x in passages])
+    drugs = json.loads(ex.build(inp)[0]["excerpts/drugs.json"])["COL"]["2025"]
+    assert [x[:12] for _, _, x in drugs] == ["Coca growers", "Crop substit"]   # most probable first; 0.1 < 0.5 left out
+    assert [p for _, p, _ in drugs] == [0.9, 0.8]
+
+
 def test_build_refuses_fragments_without_a_topic():
     inp = synthetic_inputs()
     inp["general"] = np.where(inp["general"] == 1, -1, inp["general"])
@@ -317,7 +331,7 @@ def test_build_refuses_fragments_without_a_topic():
         ex.build(inp)
 
 
-CODEBOOK = {"lenses": [  # drugs and its two sub-lenses, one hidden
+CODEBOOK = {"lenses": [  # drugs, its two sub-lenses and the reference lens
     {"id": "drugs", "name_es": "Drogas", "name_en": "Drugs", "reference": False},
     {"id": "prevention_treatment", "name_es": "Prevención", "name_en": "Prevention", "reference": False,
      "parent": "drugs"},
@@ -326,16 +340,15 @@ CODEBOOK = {"lenses": [  # drugs and its two sub-lenses, one hidden
 ]}
 
 
-def test_a_hidden_lens_is_left_out_of_the_probabilities(tmp_path, monkeypatch):
+def test_the_probabilities_give_every_fitted_lens_in_codebook_order(tmp_path, monkeypatch):
     probs = tmp_path / "lens_probs.parquet"
-    pd.DataFrame({"frag_id": [1, 2], "p_drugs": [0.9, 0.1], "p_prevention_treatment": [0.9, 0.0],
-                  "p_alternative_development": [0.2, 0.1]}).to_parquet(probs)
+    pd.DataFrame({"frag_id": [1, 2], "p_alternative_development": [0.2, 0.1], "p_drugs": [0.9, 0.1],
+                  "p_prevention_treatment": [0.9, 0.0]}).to_parquet(probs)
     thresholds = {"drugs": 0.3, "prevention_treatment": 0.01, "alternative_development": 0.2}
     probs.with_suffix(".json").write_text(json.dumps({"input_hash": "h", "thresholds": thresholds}))
     monkeypatch.setattr(calibrate, "PROBS", probs)
-    assert ex.shown_ids(CODEBOOK) == ["drugs", "alternative_development"]
     p, _, thr = ex.lens_probabilities(np.array([2, 1]), "h", False, CODEBOOK)
-    assert np.allclose(p, [[0.1, 0.1], [0.9, 0.2]]) and np.allclose(thr, [0.3, 0.2])
+    assert np.allclose(p, [[0.1, 0.0, 0.1], [0.9, 0.9, 0.2]]) and np.allclose(thr, [0.3, 0.01, 0.2])
 
 
 def test_method_facts_give_the_cross_validation_per_lens(tmp_path, monkeypatch):
@@ -363,4 +376,4 @@ def test_method_facts_give_the_cross_validation_per_lens(tmp_path, monkeypatch):
     drugs = lenses["drugs"]
     assert drugs["examples"] == 2 and drugs["pass"] is False
     assert (drugs["precision"], drugs["recall"], drugs["f1"]) == (0.92, 0.89, 0.9048)
-    assert lenses["prevention_treatment"]["shown"] is False and lenses["alternative_development"]["pass"] is True
+    assert lenses["alternative_development"]["pass"] is True
