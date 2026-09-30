@@ -372,6 +372,17 @@ def test_review_reads_more_fragments_outside_the_check_files(gold, monkeypatch):
         cal.draw_review(force=True)  # review labels exist
 
 
+def test_review_fills_its_size_from_the_other_lenses_when_a_lens_runs_short(gold, monkeypatch):
+    # One fragment per lens would make ten; only drugs and peace have fragments left, so the rest of their positives
+    # and near-misses fill the review.
+    monkeypatch.setattr(cal, "CHECK_PER_GROUP", 1)
+    monkeypatch.setattr(cal, "REVIEW_PER_LENS", 1)
+    read = cal.checked(cal.draw_checkset())
+    rv = cal.draw_review()
+    assert rv["frag_ids"] == sorted({f"g{i}" for i in range(1, 8)} - read)  # g8 is neither a positive nor a near-miss
+    assert rv["fill"] and set(rv["fill"]) <= set(rv["frag_ids"])
+
+
 def test_reread14_joins_the_review_outside_the_check_files_and_goes_to_the_resolver_inside(gold, monkeypatch):
     # Codebook 1.4 may change three fragments: g1, read in the check files before 1.4 (peace's only near-miss), and
     # g8 and a drugs positive left outside them. The two outside are read again in the review files and are not drawn

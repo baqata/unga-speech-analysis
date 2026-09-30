@@ -559,7 +559,8 @@ def reread14() -> dict:
 def draw_review(force: bool = False) -> dict:
     """The review of codebook 1.4 (docs/calibration.md, section 4): for each lens, REVIEW_PER_LENS fragments outside
     the check files, half that the core labeller marked positive and half near-misses (as in the check set), drawn at
-    random, each fragment once; when one group is short it is taken whole and the other fills the lens's share. They
+    random, each fragment once; when one group is short it is taken whole and the other fills the lens's share, and
+    what the lenses cannot fill is drawn among the positives and near-misses left over from all lenses. They
     are written in random order to REVIEW_FILES more check files and read like the second reading: outside the
     agreement, every disagreement to the resolver. The fragments of REREAD14 outside the check files join them; those
     fragments are not drawn for the review, which measures what codebook 1.4 changes elsewhere."""
@@ -586,13 +587,14 @@ def draw_review(force: bool = False) -> dict:
         raise CalibrationError(f"{len(affected - set(gids))} fragment(s) of {REREAD14.name} are not sampled")
     reread = sorted(affected - read)
     rng = np.random.default_rng(SEED + 5)
-    lenses, chosen = {}, set()
+    lenses, chosen, spare = {}, set(), set()
     for lens in ids:
         y = np.array([core[g].get(lens) == "substantive" for g in gids], dtype=bool)
         s = scores[f"s_{lens}"].to_numpy()
         near = ~y & (s >= np.median(s[y])) if y.any() else np.zeros(len(y), dtype=bool)
         free = ~np.isin(gids, sorted(read | affected | chosen))
         pools = {"positives": gids[y & free], "near_misses": gids[near & free]}
+        spare.update(str(g) for pool in pools.values() for g in pool)
         want = {"positives": -(-REVIEW_PER_LENS // 2), "near_misses": REVIEW_PER_LENS // 2}
         want = {"positives": want["positives"] + max(0, want["near_misses"] - len(pools["near_misses"])),
                 "near_misses": want["near_misses"] + max(0, want["positives"] - len(pools["positives"]))}
@@ -603,6 +605,9 @@ def draw_review(force: bool = False) -> dict:
             groups[f"{name}_available"] = int(len(pool))
         lenses[lens] = groups
         chosen.update(groups["positives"] + groups["near_misses"])
+    spare, short = sorted(spare - chosen), REVIEW_PER_LENS * len(ids) - len(chosen)
+    fill = sorted(str(g) for g in rng.choice(spare, min(short, len(spare)), replace=False)) if short > 0 else []
+    chosen.update(fill)
     text = {r["frag_id"]: r for p in sorted(BATCHES.glob("*.jsonl")) for r in read_jsonl(p)}
     order = [str(g) for g in rng.permutation(sorted(chosen | set(reread)))]
     files = {}
@@ -611,7 +616,7 @@ def draw_review(force: bool = False) -> dict:
                                                   "text": text[order[k]]["text"]} for k in part])
         files[f"c{i:03d}"] = len(part)
     out = {"drawn_at": now(), "seed": SEED + 5, "per_lens": REVIEW_PER_LENS, "fragments": len(order),
-           "files": files, "lenses": lenses, "frag_ids": sorted(chosen), "reread": reread,
+           "files": files, "lenses": lenses, "fill": fill, "frag_ids": sorted(chosen), "reread": reread,
            "reread_in_check_files": len(affected & read)}
     write_json(REVIEW, out)
     return out
