@@ -4,7 +4,9 @@
 const $ = id => document.getElementById(id);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
-const fetchOk = async p => { const r = await fetch(p); if (!r.ok) throw new Error(`${p}: ${r.status}`); return r; };
+// every file revalidated on each load: a browser must not mix the files of two builds (GitHub Pages lets it keep
+// them ten minutes without asking)
+const fetchOk = async p => { const r = await fetch(p, {cache: 'no-cache'}); if (!r.ok) throw new Error(`${p}: ${r.status}`); return r; };
 const getJSON = async p => (await fetchOk(p)).json();
 const getBin = async p => (await fetchOk(p)).arrayBuffer();
 const store = new Map();
@@ -46,7 +48,7 @@ const LENSES = M.lenses, NL = LENSES.length, ALL = NL, NC = M.countries.length;
 const TOPICS = M.topics;
 const SH = new Float32Array(SHB), FRG = new Uint16Array(FRB);
 const shareOf = (c, y, L) => SH[(c * NY + y) * (NL + 1) + L];
-const measured = L => L === ALL || LENSES[L].pass !== false;   // a lens short of the pass bar: passages only
+const approx = L => L !== ALL && LENSES[L].pass === false;   // short of the pass bar in the one-shot test: shown with a badge
 const lensName = L => L === ALL ? t('allUNODC') : LENSES[L][lang];
 const lensIcon = L => L === ALL ? 'world' : LENSES[L].icon;
 const lensFile = L => L === ALL ? 'all' : LENSES[L].id;
@@ -89,6 +91,7 @@ const yearsInP = () => d3.range(state.y0, state.y1 + 1);
 function applyHash() {
   const h = decodeURIComponent(location.hash.slice(1)).toLowerCase();
   if (h && OPT.has('g:' + h)) { state.slots = ['g:' + h, '', '']; state.tab = 'reg'; return true; }
+  if (h === 'anexo' || h === 'annex') { state.tab = 'anx'; return true; }
   return false;
 }
 
@@ -157,19 +160,25 @@ $('allYears').addEventListener('click', () => { state.y0 = yFrom.value = Y0; sta
 document.querySelectorAll('[data-layer]').forEach(b => b.addEventListener('click', () => { state.layer = b.dataset.layer; update(); }));
 document.querySelectorAll('#amodeSeg button').forEach(b => b.addEventListener('click', () => { state.amode = +b.dataset.mode; update(); }));
 document.querySelectorAll('#langSeg button').forEach(b => b.addEventListener('click', () => { if (lang !== b.dataset.lang) { lang = b.dataset.lang; applyLang(); } }));
+const TABS = {reg: ['tabReg', 'paneReg'], cty: ['tabCty', 'paneCty'], anx: ['tabAnx', 'paneAnx']};
 function setTab(tab) {
   state.tab = tab;
-  $('tabReg').setAttribute('aria-selected', tab === 'reg'); $('tabCty').setAttribute('aria-selected', tab === 'cty');
-  $('paneReg').hidden = tab !== 'reg'; $('paneCty').hidden = tab !== 'cty';
-  $('ctlSlots').hidden = tab !== 'reg'; $('ctlCountry').hidden = tab !== 'cty';
+  for (const [k, [b, p]] of Object.entries(TABS)) { $(b).setAttribute('aria-selected', k === tab); $(p).hidden = k !== tab; }
+  $('ctlSlots').hidden = tab !== 'reg'; $('ctlCountry').hidden = tab !== 'cty'; $('controls').hidden = tab === 'anx';
   hideTip(); update();
 }
-$('tabReg').addEventListener('click', () => setTab('reg'));
-$('tabCty').addEventListener('click', () => setTab('cty'));
-[$('tabReg'), $('tabCty')].forEach(b => b.addEventListener('keydown', e => {
-  if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { const n = state.tab === 'reg' ? 'cty' : 'reg'; setTab(n); $(n === 'reg' ? 'tabReg' : 'tabCty').focus(); }
-}));
-$('icReg').innerHTML = icon('world'); $('icCty').innerHTML = icon('map-pin');
+Object.entries(TABS).forEach(([k, [b]]) => {
+  $(b).addEventListener('click', () => setTab(k));
+  $(b).addEventListener('keydown', e => {
+    const d = {ArrowRight: 1, ArrowLeft: -1}[e.key], ks = Object.keys(TABS);
+    if (d) { const n = ks[(ks.indexOf(state.tab) + d + ks.length) % ks.length]; setTab(n); $(TABS[n][0]).focus(); }
+  });
+});
+$('icReg').innerHTML = icon('world'); $('icCty').innerHTML = icon('map-pin'); $('icAnx').innerHTML = icon('file-text');
+const toAnnex = () => { setTab('anx'); $('anxAcc').scrollIntoView({block: 'start'}); };   // from an "approximate" note
+// The note on a topic short of the pass bar: a link to the annex's table
+const apxNote = L => approx(L) ? ` <button class="apx-link" type="button">${esc(t('apxLink'))}</button>` : '';
+const wireApx = el => el.querySelectorAll('.apx-link').forEach(b => { b.onclick = toAnnex; });
 
 // ---------------- lens strip ----------------
 function dumbbell(vals, w, mx) {
@@ -187,8 +196,7 @@ function drawStrip() {
   const order = [ALL, ...d3.range(NL)];
   $('lenses').innerHTML = order.map(L => {
     const cls = 'lens' + (L === ALL ? ' all' : '') + (L !== ALL && LENSES[L].reference ? ' ref' : '');
-    const head = `<span class="ic-row">${icon(lensIcon(L))}<span class="nm">${esc(lensName(L))}</span></span>`;
-    if (!measured(L)) return `<button class="${cls}" data-l="${L}" aria-pressed="${state.lens === L}" aria-label="${esc(lensName(L))}: ${esc(t('notMeasured'))}">${head}<span class="rt">–</span><span class="na">${esc(t('notMeasured'))}</span></button>`;
+    const head = `<span class="ic-row">${icon(lensIcon(L))}<span class="nm">${esc(lensName(L))}${approx(L) ? ` <small class="apx">${esc(t('apx'))}</small>` : ''}</span></span>`;
     const cm = cmOf(L), w = worldOf(cm);
     const vals = act.map(a => ({s: a.s, v: meanOf(cm, a.o.members), lab: optShort(a.o)}));
     const r = s1 && vals[0].v != null && w ? vals[0].v / w : null;
@@ -196,7 +204,7 @@ function drawStrip() {
     // every selection's value, a dot of its colour when there are several (the ratio is the first selection's)
     const parts = vals.map(x => ({s: x.s, txt: `${x.lab} ${pct(x.v)}`})).concat([{s: -1, txt: `${t('world')} ${pct(w)}`}]);
     const sw = s => s >= 0 && vals.length > 1 ? `<i class="sw" style="background:var(--s${s + 1})"></i>` : '';
-    return `<button class="${cls}" data-l="${L}" aria-pressed="${state.lens === L}" aria-label="${esc(lensName(L))}: ${r != null ? esc(ratioTxt(r) + ' ' + t('timesWorld')) + '. ' : ''}${esc(parts.map(x => x.txt).join(' · '))}">
+    return `<button class="${cls}" data-l="${L}" aria-pressed="${state.lens === L}" aria-label="${esc(lensName(L))}${approx(L) ? ` (${esc(t('apxTip'))})` : ''}: ${r != null ? esc(ratioTxt(r) + ' ' + t('timesWorld')) + '. ' : ''}${esc(parts.map(x => x.txt).join(' · '))}">
       ${head}<span class="rt">${ratioTxt(r)}<small>${r != null ? t('timesWorld') : ''}</small></span>
       ${dumbbell(vals, w, mx)}<span class="vals">${parts.map(x => `<span>${sw(x.s)}${esc(x.txt)}</span>`).join(' · ')}</span></button>`;
   }).join('');
@@ -204,9 +212,9 @@ function drawStrip() {
     const L = +b.dataset.l;
     b.onclick = () => { state.lens = L; update(); };
     b.onmousemove = e => {
-      if (!measured(L)) return showTip(e, `<b>${esc(lensName(L))}</b><br>${esc(t('notMeasured'))}`);
       const cm = cmOf(L);
-      showTip(e, `<b>${esc(lensName(L))}</b><br>` + active().map(a => `${esc(optShort(a.o))}: ${pct(meanOf(cm, a.o.members))}`).concat([`${t('world')}: ${pct(worldOf(cm))}`]).join('<br>'));
+      showTip(e, `<b>${esc(lensName(L))}</b><br>` + active().map(a => `${esc(optShort(a.o))}: ${pct(meanOf(cm, a.o.members))}`).concat([`${t('world')}: ${pct(worldOf(cm))}`]).join('<br>')
+        + (approx(L) ? `<br><span class="tl">${esc(t('apxTip'))}</span>` : ''));
     };
     b.onmouseleave = hideTip;
   });
@@ -253,19 +261,23 @@ function SemMap(wrap, layersOf) {
     const placed = [], labels = (sp ? LABELS.speeches : LABELS.fragments).slice().sort((a, b) => (b.t < NL) - (a.t < NL) || b.n - a.n);
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
     const ink2 = css('--ink-2'), bg = css('--panel'), unt = css('--un-text');
-    for (const lb of labels) {
-      let X = sx(lb.x), Y = sy(1 - lb.y);
-      if (X < 0 || X > cw || Y < 0 || Y > ch) continue;
+    const small = cw < 520;
+    for (const lb of labels) {   // each name at its first place that covers no name already written
       const label = topicName(lb.t), lensT = lb.t < NL;
-      ctx.font = `${lensT ? 700 : 600} ${lensT ? 12.5 : 11.5}px "Roboto Condensed", "Arial Narrow", sans-serif`;
-      const w = ctx.measureText(label).width + 8, h = lensT ? 17 : 15;
+      ctx.font = `${lensT ? 700 : 600} ${(lensT ? 12.5 : 11.5) - (small ? 1 : 0)}px "Roboto Condensed", "Arial Narrow", sans-serif`;
+      const w = ctx.measureText(label).width + 8, h = (lensT ? 17 : 15) - (small ? 1 : 0);
       if (w > cw - 4) continue;
-      X = Math.min(Math.max(X, w / 2 + 2), cw - w / 2 - 2); Y = Math.min(Math.max(Y, h / 2 + 2), ch - h / 2 - 2);
-      const box = [X - w / 2, Y - h / 2, X + w / 2, Y + h / 2];
-      if (placed.some(b => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) continue;
-      placed.push(box);
-      ctx.lineWidth = 3.5; ctx.strokeStyle = bg; ctx.strokeText(label, X, Y);
-      ctx.fillStyle = lensT ? unt : ink2; ctx.fillText(label, X, Y);
+      for (const [ax, ay] of [[lb.x, lb.y], ...(lb.alt || [])]) {
+        let X = sx(ax), Y = sy(1 - ay);
+        if (X < 0 || X > cw || Y < 0 || Y > ch) continue;
+        X = Math.min(Math.max(X, w / 2 + 2), cw - w / 2 - 2); Y = Math.min(Math.max(Y, h / 2 + 2), ch - h / 2 - 2);
+        const box = [X - w / 2, Y - h / 2, X + w / 2, Y + h / 2];
+        if (placed.some(b => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) continue;
+        placed.push(box);
+        ctx.lineWidth = 3.5; ctx.strokeStyle = bg; ctx.strokeText(label, X, Y);
+        ctx.fillStyle = lensT ? unt : ink2; ctx.fillText(label, X, Y);
+        break;
+      }
     }
     rb.hidden = tf.k === 1 && tf.x === 0 && tf.y === 0;
   };
@@ -311,25 +323,30 @@ function computeSlots() {
   const cSize = new Float64Array(NC).fill(Infinity);
   for (const a of active()) { const n = a.o.members.size; for (const c of a.o.members) if (n < cSize[c]) { cSize[c] = n; cSlot[c] = a.s; } }
 }
+// A selection's points about topic L (a speech: if any of its fragments is)
+const onTopic = (P, L) => { const b = L === ALL ? 0xffff : 1 << L; return i => (P.m[i] & b) !== 0; };
+// Back to front: the other years (a faint outline, with a year or range chosen), the period in light grey, the
+// selections' points in dark grey, and in each selection's colour its points about the chosen topic
 const regMap = new SemMap($('regMapWrap'), sp => {
-  const P = sp ? PS : PF;
+  const P = sp ? PS : PF, on = onTopic(P, state.lens);
   const alpha = isAll() ? (sp ? 0.8 : 0.55) : 1, bump = isAll() ? 0 : (sp ? 0.6 : 0.3);
-  // the selections over the rest; with a year chosen, the other years stay as a faint outline of the map
-  const layers = [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
-  return {layers, key: [state.y0, state.y1, state.slots.join(','), css('--dot')].join('|'),
-    layerOf: i => { if (!inP(P.yr[i])) return 0; const s = cSlot[P.c[i]]; return s >= 0 ? 4 - s : 1; }};
+  const layers = [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--dot-sel'), alpha, bump}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
+  return {layers, key: [state.y0, state.y1, state.slots.join(','), state.lens, css('--dot'), css('--dot-sel')].join('|'),
+    layerOf: i => { if (!inP(P.yr[i])) return 0; const s = cSlot[P.c[i]]; return s < 0 ? 1 : on(i) ? 5 - s : 2; }};
 });
-const ctyMap = new SemMap($('ctyMapWrap'), sp => {
-  const P = sp ? PS : PF, c = state.country;
-  return {layers: [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--s1'), bump: sp ? 2 : 1.9, round: true, ring: css('--panel')}],
-    key: [c, state.y0, state.y1, css('--dot')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] === c ? 2 : 1};
+const ctyMap = new SemMap($('ctyMapWrap'), sp => {   // the country tab has no topic choice: all UNODC topics
+  const P = sp ? PS : PF, c = state.country, on = onTopic(P, ALL), dot = {bump: sp ? 2 : 1.9, round: true, ring: css('--panel')};
+  return {layers: [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--dot-sel'), ...dot}, {col: css('--s1'), ...dot}],
+    key: [c, state.y0, state.y1, css('--dot'), css('--dot-sel')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] !== c ? 1 : on(i) ? 3 : 2};
 });
 function drawLegends() {
-  const items = active().map(({s, o}) => `<span><i style="background:var(--s${s + 1})"></i>${esc(optShort(o))}</span>`);
-  items.push(`<span><i style="background:var(--dot)"></i>${t('rest')}</span>`);
-  $('regLegend').innerHTML = items.join('');
+  const other = t(state.layer === 'speech' ? 'otherSpeech' : 'otherFrag');   // the selection's points not about the topic
+  const sw = (col, txt) => `<span><i style="background:${col}"></i>${esc(txt)}</span>`, lead = L => `<span class="lt">${esc(lensName(L))}:</span>`;
+  const sel = active().map(({s, o}) => sw(`var(--s${s + 1})`, optShort(o)));
+  const topic = sel.length ? [lead(state.lens), ...sel, sw('var(--dot-sel)', other)] : sel;
+  $('regLegend').innerHTML = [...topic, sw('var(--dot)', t('rest'))].join('');
   state.slots.forEach((v, s) => { const o = OPT.get(v); $('slot' + s).title = o?.g ? [...o.members].map(c => cname(c)).sort((a, b) => a.localeCompare(b, lang)).join(', ') : ''; });   // a group's members on hover
-  $('ctyLegend').innerHTML = `<span><i style="background:var(--s1)"></i>${esc(cname(state.country))}</span><span><i style="background:var(--dot)"></i>${t('rest')}</span>`;
+  $('ctyLegend').innerHTML = [lead(ALL), sw('var(--s1)', cname(state.country)), sw('var(--dot-sel)', other), sw('var(--dot)', t('rest'))].join('');
   document.querySelectorAll('[data-layer]').forEach(b => b.setAttribute('aria-pressed', b.dataset.layer === state.layer));
   $('semHint').textContent = t(state.layer === 'speech' ? 'semHintSpeech' : 'semHintFrag');
 }
@@ -349,9 +366,8 @@ const wpaths = wsvg.append('g').selectAll('path').data(feats).join('path').attr(
 const wdots = wsvg.append('g').selectAll('circle').data(dots).join('circle')
   .attr('cx', d => proj([d.p[1], d.p[0]])[0]).attr('cy', d => proj([d.p[1], d.p[0]])[1]).attr('r', 2.6);
 const wsel = wsvg.append('g');
-const wmsg = wsvg.append('text').attr('x', WW / 2).attr('y', WH / 2).attr('text-anchor', 'middle').attr('font-size', 13);
 function drawWorld() {
-  const L = state.lens, ok = measured(L), cm = ok ? cmOf(L) : new Array(NC).fill(null);
+  const L = state.lens, cm = cmOf(L);
   const vals = cm.filter(v => v != null && v > 0);
   const qs = vals.length ? d3.scaleQuantile().domain(vals).range([1, 2, 3, 4]).quantiles() : [];
   const cols = ['--q0', '--q1', '--q2', '--q3', '--q4'].map(css), nod = css('--nodata'), line = css('--land-line');
@@ -366,13 +382,12 @@ function drawWorld() {
   outl.sort((a, b) => b.n - a.n);
   wsel.selectAll('path').data(outl).join('path').attr('d', d => gpath(d.f)).attr('fill', 'none')
     .attr('stroke', d => slotCol(d.s)).attr('stroke-width', 1.6).attr('stroke-linejoin', 'round').attr('pointer-events', 'none');
-  const tipOf = (e, c) => c == null ? hideTip() : showTip(e, `<b>${esc(cname(c, single()))}</b><br>${ok ? (cm[c] == null ? t('noSpeech') : pct(cm[c])) : esc(t('notMeasured'))}`);
+  const tipOf = (e, c) => c == null ? hideTip() : showTip(e, `<b>${esc(cname(c, single()))}</b><br>${cm[c] == null ? t('noSpeech') : pct(cm[c])}`);
   wpaths.on('mousemove', (e, f) => tipOf(e, cOfFeat(f))).on('mouseleave', hideTip);
   wdots.on('mousemove', (e, d) => tipOf(e, d.c)).on('mouseleave', hideTip);
-  wmsg.text(ok ? '' : t('notMeasured')).attr('fill', css('--ink-2'));
   const title = L === ALL ? t('worldTitleAll') : t('worldTitle', {l: inSentence(lensName(L))});
   wsvg.attr('aria-label', title); $('worldTitle').textContent = title;
-  $('worldHint').textContent = single() != null ? t('yearN', {y: single()}) : t('avg', {per: per()});
+  $('worldHint').innerHTML = esc(single() != null ? t('yearN', {y: single()}) : t('avg', {per: per()})) + apxNote(L); wireApx($('worldHint'));
   const sels = active().map(({s, o}) => `<span><i class="ol" style="border-color:var(--s${s + 1})"></i><em>${esc(optShort(o))}</em></span>`).join('');
   $('worldScale').innerHTML = cols.map(c => `<i style="background:${c}"></i>`).join('') + `<em>${t('lessMore')}</em><i style="background:${nod}"></i><em>${t('noSpeech')}</em>`
     + (sels && `<span class="sels">${sels}</span>`);   // the selections' outlines on a line of their own
@@ -391,10 +406,10 @@ function seriesFor(members, L) {   // equal-weight mean per year, then a centred
 function drawTrend() {
   const L = state.lens, title = L === ALL ? t('trendTitleAll') : t('trendTitle', {l: lensName(L)});
   $('trendTitle').textContent = title; tsvg.attr('aria-label', title);
+  $('trendHint').innerHTML = esc(t('trendHint')) + apxNote(L); wireApx($('trendHint'));
   TW = Math.max(300, Math.round($('trend').clientWidth || 640)); TM.r = TW < 480 ? 80 : 96;
   tsvg.attr('viewBox', `0 0 ${TW} ${TH}`); tx.range([TM.l, TW - TM.r]);
   gGrid.selectAll('*').remove(); gAx.selectAll('*').remove(); gLines.selectAll('*').remove(); gMark.selectAll('*').remove();
-  if (!measured(L)) { series = []; gAx.append('text').attr('x', TW / 2).attr('y', TH / 2).attr('text-anchor', 'middle').attr('font-size', 13).attr('fill', css('--ink-2')).text(t('notMeasured')); return; }
   series = active().map(({s, o}) => ({name: optShort(o), col: slotCol(s), v: seriesFor(o.members, L)}));
   series.push({name: t('world'), col: css('--world'), v: seriesFor(null, L), dash: '4 3'});
   const mx = d3.max(series, s => d3.max(s.v)) || 0.01;
@@ -432,7 +447,6 @@ function drawWords() {
   $('wordTabs').querySelectorAll('button').forEach(b => b.onclick = () => { state.wordSlot = +b.dataset.s; drawWords(); });
   const box = $('words'), a = act.find(x => x.s === state.wordSlot);
   if (!a) return box.innerHTML = `<div class="empty">${t('pickSel')}</div>`;
-  if (!measured(state.lens)) return box.innerHTML = `<div class="empty">${t('notMeasured')}</div>`;
   const file = `keyness/${lensFile(state.lens)}.json`, data = want(file);
   if (!data) return box.innerHTML = `<div class="empty">${waitMsg(file)}</div>`;
   if (periodKey() == null) return box.innerHTML = `<div class="empty">${t('rangeNA')}</div>`;
@@ -447,13 +461,13 @@ function drawWords() {
 
 // ---------------- excerpts ----------------
 const quoteHTML = (q, colVar) => `<div class="quote" style="--c:${colVar}"><div class="meta">${esc(cname(q.c, q.y))} · ${q.y}<span class="ln">${icon(lensIcon(q.l))}${esc(LENSES[q.l][lang])}</span><small>EN</small></div><p>“${esc(q.x)}”</p></div>`;
-function candidates(data, members) {   // the members' excerpts in the period, most recent year first, then by probability
+function candidates(data, members) {   // the members' excerpts in the period, most probable first, then most recent
   const out = [];
   for (const c of members) {
     const byYear = data[M.countries[c].iso3]; if (!byYear) continue;
     for (const y of yearsInP()) for (const [l, p, x] of byYear[y] || []) out.push({c, y, l, p, x});
   }
-  return out.sort((a, b) => b.y - a.y || b.p - a.p);
+  return out.sort((a, b) => b.p - a.p || b.y - a.y);
 }
 function drawQuotes() {
   const box = $('quotes'), act = active();
@@ -461,10 +475,10 @@ function drawQuotes() {
   const file = `excerpts/${lensFile(state.lens)}.json`, data = want(file);
   if (!data) return box.innerHTML = `<div class="empty">${waitMsg(file)}</div>`;
   const pools = act.map(({s, o}) => candidates(data, o.members).map(q => ({...q, slot: s})));
-  const out = [], used = new Set();
+  const out = [], used = new Set(), key = q => `${q.c}|${q.y}|${q.x}`;   // each selection's most probable, in turns
   for (let round = 0; out.length < 3 && round < 3; round++) for (const pool of pools) {
     if (out.length >= 3) break;
-    const q = pool.find(x => !used.has(x.c)); if (q) { used.add(q.c); out.push(q); }
+    const q = pool.find(x => !used.has(key(x))); if (q) { used.add(key(q)); out.push(q); }
   }
   box.innerHTML = out.length ? out.map(q => quoteHTML(q, `var(--s${q.slot + 1})`)).join('') : `<div class="empty">${t('noQuotes')}</div>`;
 }
@@ -522,6 +536,58 @@ function drawCountry() {
   }
 }
 
+// ---------------- technical annex (meta.method) ----------------
+function drawAnnex() {
+  const A = M.method, box = $('annex');
+  if (!A) return box.innerHTML = `<div class="empty">${esc(t('anxNone'))}</div>`;   // a build without the final fit
+  const nf = new Intl.NumberFormat(lang), n = v => v == null ? '–' : nf.format(v);
+  const nf2 = new Intl.NumberFormat(lang, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  const pc = v => v == null ? '–' : Math.round(v * 100) + (lang === 'es' ? ' %' : '%');
+  // a text whose values are set in bold
+  const tb = (k, v = {}) => esc(I18N[lang][k] ?? k).replace(/\{(\w+)\}/g, (_, x) => v[x] == null ? '' : `<b>${esc(v[x])}</b>`);
+  const lf = type => new Intl.ListFormat(lang, {type});
+  const steps = [
+    ['s1', {speeches: n(M.build.n_speeches), first: Y0, last: Y1, countries: n(NC)}],
+    ['s2', {all: n(A.fragments_all), ceremonial: n(A.ceremonial), fragments: n(M.build.n_fragments)}],
+    ['s3', {}],
+    ['s4', {labelled: n(A.labelled), read: A.lenses.length + A.reference.length, unodc: A.lenses.length,
+            ref: lf('conjunction').format(A.reference.map(r => inSentence(r[lang]))), checked: n(A.read_twice)}],
+    ['s5', {models: A.lenses.length}],
+    ['s6', {folds: A.folds, rest: A.folds - 1}],
+    ['s7', {general: TOPICS.filter(x => x.kind === 'general').length}],
+  ].map(([k, v], i) => `<li><span class="n">${i + 1}</span><div><h3>${esc(t(k + 't'))}</h3><p>${tb(k, v)}</p></div></li>`).join('');
+  const st = l => !l.shown ? 'off' : l.pass === false ? 'apx' : 'ok';
+  const bar = v => `<td class="pr"><span class="pv">${pc(v)}</span><span class="pb" aria-hidden="true"><b style="width:${(100 * Math.min(1, v ?? 0)).toFixed(1)}%"></b><i style="left:${100 * A.bar}%"></i></span></td>`;
+  const chip = l => `<span class="st st-${st(l)}">${esc(t('st_' + st(l)))}</span>`;   // on phones, under the name
+  const rows = A.lenses.map(l => `<tr class="${st(l)}"><th scope="row"><span class="tn">${icon(l.icon)}${esc(l[lang])}</span>${chip(l)}</th>
+    <td class="num">${n(l.examples)}</td>${bar(l.precision)}${bar(l.recall)}<td>${chip(l)}</td></tr>`).join('');
+  const hidden = A.lenses.filter(l => !l.shown), par = hidden[0] && A.lenses.find(l => l.id === hidden[0].parent);
+  const states = [['ok', {bar: pc(A.bar)}], ['apx', {}], ...(hidden.length ? [['off', {p: par ? par[lang] : ''}]] : [])]
+    .map(([k, v]) => `<li><span class="st st-${k}">${esc(t('st_' + k))}</span><span>${tb('st_' + k + 'D', v)}</span></li>`).join('');
+  const more = A.lenses.map(l => `<tr class="${st(l)}"><th scope="row">${esc(l[lang])}</th><td class="num">${pct(l.threshold)}</td>
+    <td class="num">${l.kappa == null ? '–' : nf2.format(l.kappa)}</td><td class="num">${n(l.test?.positives)}</td>
+    <td class="num">${pc(l.test?.precision)}</td><td class="num">${pc(l.test?.recall)}</td></tr>`).join('');
+  const th = (k, cls = '') => `<th scope="col"${cls && ` class="${cls}"`}>${esc(t(k))}</th>`;
+  const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);
+  const use = [tb('use1'), tb('use2'), top ? esc(t('use3', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : '']
+    .filter(Boolean).map(x => `<li>${x}</li>`).join('');
+  box.innerHTML = `<section class="panel"><h2>${esc(t('anxTitle'))}</h2><p class="hint">${esc(t('anxIntro'))}</p><ol class="steps">${steps}</ol></section>
+  <section class="panel" id="anxAcc"><h2>${esc(t('accTitle'))}</h2><p class="hint">${tb('accHint', {labelled: n(A.labelled)})}</p>
+    <dl class="defs">${[['accEx', 'accExD'], ['accPrecT', 'accPrec'], ['accRecT', 'accRec']].map(([a, b]) => `<div><dt>${esc(t(a))}</dt><dd>${esc(t(b))}</dd></div>`).join('')}</dl>
+    <div class="tscroll"><table class="acc main"><thead><tr>${th('accTopic')}${th('accEx', 'num')}${th('accPrecT')}${th('accRecT')}${th('accSite')}</tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="note">${tb('accBarNote', {bar: pc(A.bar)})}</p>
+    <ul class="states">${states}</ul>
+    <details class="more"><summary>${esc(t('moreT'))}</summary>
+      <p>${tb('testD', {train: n(A.sets.train), validation: n(A.sets.validation)})}</p>
+      <div class="tscroll"><table class="acc"><thead><tr><th scope="col" rowspan="2">${esc(t('accTopic'))}</th><th scope="col" rowspan="2" class="num">${esc(t('colThr'))}</th>
+        <th scope="col" rowspan="2" class="num">${esc(t('colKappa'))}</th><th scope="colgroup" colspan="3" class="grp">${esc(t('colTest'))}</th></tr>
+        <tr>${th('accEx', 'num')}${th('accPrecT', 'num')}${th('accRecT', 'num')}</tr></thead><tbody>${more}</tbody></table></div>
+      <p class="note">${esc(t('moreNote'))}</p></details>
+  </section>
+  <div class="bottom"><section class="panel"><h2>${esc(t('useT'))}</h2><ul class="plain">${use}</ul></section>
+    <section class="panel"><h2>${esc(t('limT'))}</h2><ul class="plain">${['lim1', 'lim2', 'lim3', 'lim4'].map(k => `<li>${esc(t(k))}</li>`).join('')}</ul></section></div>`;
+}
+
 // ---------------- language ----------------
 function applyLang() {
   document.documentElement.lang = lang; setFormats();
@@ -532,8 +598,10 @@ function applyLang() {
   yFrom.setAttribute('aria-label', t('yearFrom')); yTo.setAttribute('aria-label', t('yearTo'));
   document.querySelector('.tabbar').setAttribute('aria-label', t('views'));
   $('controls').setAttribute('aria-label', t('filters'));
-  // a development build, or a build whose lenses have not all been through the validation test (pass: null)
-  const badge = $('badge'), dev = M.build.placeholder, prelim = !dev && LENSES.some(l => l.pass == null);
+  // a development build; or a build whose lenses have not all been through the validation test (pass: null), or a
+  // preliminary publication (scripts/publish_site.sh --preliminary asks search engines not to index it)
+  const prelimCopy = !!document.querySelector('meta[name="robots"][content~="noindex"]');
+  const badge = $('badge'), dev = M.build.placeholder, prelim = !dev && (prelimCopy || LENSES.some(l => l.pass == null));
   badge.hidden = !dev && !prelim; badge.textContent = t(dev ? 'devBadge' : 'prelimBadge');
   badge.title = prelim ? t('prelimTip') : ''; badge.classList.toggle('dev', dev);
   fillSelects(); update();
@@ -549,9 +617,10 @@ function update() {
   $('yearOut').textContent = per();
   computeSlots(); drawLegends();
   if (state.tab === 'reg') { drawStrip(); regMap.draw(); drawWorld(); drawTrend(); drawWords(); drawQuotes(); }
-  else { drawCountry(); ctyMap.draw(); }
+  else if (state.tab === 'cty') { drawCountry(); ctyMap.draw(); }
+  else drawAnnex();
 }
-addEventListener('hashchange', () => { if (applyHash()) { fillSelects(); setTab('reg'); } });
+addEventListener('hashchange', () => { if (applyHash()) { fillSelects(); setTab(state.tab); } });
 applyHash();
 $('boot').remove(); $('controls').hidden = false;
 setFormats(); applyLang(); setTab(state.tab);
