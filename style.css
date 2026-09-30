@@ -114,6 +114,7 @@ select{font:500 13px var(--sans); color:var(--ink); background:transparent; bord
 .lens .rt small{font:500 11.5px var(--sans); color:var(--muted); margin-left:4px}
 .lens .vals{font-size:11.5px; line-height:1.3; color:var(--muted); font-variant-numeric:tabular-nums}
 .lens .vals span{white-space:nowrap}
+.lens .vals .sw{display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:4px; vertical-align:1px}
 .lens.all{grid-row:span 2; border-left:0; justify-content:center; gap:8px; padding:10px 16px 12px 4px}
 .lens.all .ic-row svg.ic{font-size:34px}
 .lens.all .nm{font-size:16px; color:var(--ink); min-height:0}
