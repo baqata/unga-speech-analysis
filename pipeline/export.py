@@ -135,7 +135,7 @@ def read_side(path) -> dict:
     """The provenance record written beside a cache (same name, .json)."""
     side = path.with_suffix(".json")
     if not path.exists() or not side.exists():
-        raise ExportError(f"{embed.rel(path)} is missing; make it first (see `python -m pipeline.export --help`).")
+        raise ExportError(f"{embed.rel(path)} is missing; make it first (see `uv run python -m pipeline.export --help`).")
     return json.loads(side.read_text(encoding="utf-8"))
 
 
@@ -669,7 +669,7 @@ def load_inputs(placeholder: bool = False) -> dict:
     info = check_fresh(TOPICS, h)
     if info["probabilities"] != source:
         raise ExportError(f"The topics were made from {info['probabilities']} probabilities, not the current "
-                          f"{source}; run `python -m pipeline.export topics{' --placeholder' if placeholder else ''}`.")
+                          f"{source}; run `uv run python -m pipeline.export topics{' --placeholder' if placeholder else ''}`.")
     tp = pd.read_parquet(TOPICS).set_index("frag_id")["topic"]
     general = tp.reindex(fid).fillna(-1).to_numpy(np.int64)
     frow = pd.Series(np.arange(len(f_keys)), index=f_keys["frag_id"].to_numpy()).loc[fid].to_numpy()
@@ -885,7 +885,7 @@ def site(placeholder: bool = False) -> dict:
 # ---------------------------------------------------------------------------
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="python -m pipeline.export", description=__doc__.split("\n")[0])
+    parser = argparse.ArgumentParser(prog="uv run python -m pipeline.export", description=__doc__.split("\n")[0])
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("terms", help="word and two-word counts of every fragment")
     p_layout = sub.add_parser("layout", help="the map: fragments fitted once, new ones and speeches placed on it")

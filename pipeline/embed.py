@@ -811,7 +811,7 @@ def kind_arg(value: str) -> str:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="python -m pipeline.embed", description=__doc__.split("\n")[0])
+    parser = argparse.ArgumentParser(prog="uv run python -m pipeline.embed", description=__doc__.split("\n")[0])
     sub = parser.add_subparsers(dest="command", required=True)
     p_run = sub.add_parser("run", help="embed pending shards (resumable)")
     p_run.add_argument("kind", type=kind_arg)

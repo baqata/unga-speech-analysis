@@ -161,7 +161,7 @@ def make_lens_vectors(encoder_factory=embed.HarrierEncoder, device: str = "auto"
 
 def read_lens_vectors() -> tuple[np.ndarray, np.ndarray, np.ndarray, dict]:
     if not LENS_VECTORS.exists():
-        raise CalibrationError("No lens vectors; run `python -m pipeline.calibrate lens-vectors`.")
+        raise CalibrationError("No lens vectors; run `uv run python -m pipeline.calibrate lens-vectors`.")
     with np.load(LENS_VECTORS, allow_pickle=False) as z:
         q, a, owner, info = z["q"], z["anchors"], z["owner"], json.loads(str(z["info"]))
     if info["lenses_sha256"] != sha256(LENSES_YAML):
@@ -321,7 +321,7 @@ def draw_sample(force: bool = False) -> pd.DataFrame:
                                                        "is_ceremonial"])
     frags = frags[~frags["is_ceremonial"]].sort_values("frag_id").reset_index(drop=True)
     if not SCORES.exists():
-        raise CalibrationError("No scores; run `python -m pipeline.calibrate scores`.")
+        raise CalibrationError("No scores; run `uv run python -m pipeline.calibrate scores`.")
     scores = pd.read_parquet(SCORES)
     probs, lam = inclusion_probabilities(frags, scores, codebook)
 
@@ -528,7 +528,7 @@ def collect() -> dict:
     codebook = load_lenses()
     ids = lens_ids(codebook)
     if not CHECKSET.exists():
-        raise CalibrationError("No check set; run `python -m pipeline.calibrate checkset`.")
+        raise CalibrationError("No check set; run `uv run python -m pipeline.calibrate checkset`.")
     cs = json.loads(CHECKSET.read_text())
     core, core_raw = read_labeller(CORE, ids, codebook)
     check, check_raw = read_labeller(CHECKER, ids, codebook)
@@ -576,7 +576,7 @@ def final_labels() -> pd.DataFrame:
     codebook = load_lenses()
     ids = lens_ids(codebook)
     if not AGREEMENT.exists():
-        raise CalibrationError("No agreement report; run the check and `python -m pipeline.calibrate collect`.")
+        raise CalibrationError("No agreement report; run the check and `uv run python -m pipeline.calibrate collect`.")
     sample = pd.read_parquet(SAMPLE)
     core, _ = read_labeller(CORE, ids, codebook)
     queue = {r["frag_id"]: r["lenses"] for p in sorted(RESOLVE.glob("r*.jsonl")) for r in read_jsonl(p)}
@@ -661,7 +661,7 @@ def fit_lens(x: np.ndarray, y: np.ndarray, w: np.ndarray, groups: np.ndarray, se
 
 def load_classifiers() -> dict:
     if not CLASSIFIERS.exists():
-        raise CalibrationError("No classifiers; run `python -m pipeline.calibrate fit`.")
+        raise CalibrationError("No classifiers; run `uv run python -m pipeline.calibrate fit`.")
     with np.load(CLASSIFIERS, allow_pickle=False) as z:
         clf = {k: z[k] for k in z.files}
     clf["info"] = json.loads(str(clf["info"]))
@@ -791,7 +791,7 @@ def predict(chunk: int = 65536) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="python -m pipeline.calibrate", description=__doc__.split("\n")[0])
+    parser = argparse.ArgumentParser(prog="uv run python -m pipeline.calibrate", description=__doc__.split("\n")[0])
     sub = parser.add_subparsers(dest="command", required=True)
     p_vec = sub.add_parser("lens-vectors", help="embed the lens definitions and anchors")
     p_vec.add_argument("--device", choices=["auto", "mps", "cpu"], default="auto")
