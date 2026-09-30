@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-09-30T04:32:20+00:00",
+  "check_fragments": 3529,
+  "to_resolve": 840,
+  "second_reading": 1788,
+  "second_reading_to_resolve": 444,
+  "review": 250,
+  "review_to_resolve": 32,
+  "reread14": 1039,
+  "reread14_to_resolve": 251,
+  "reread14_in_check_files": 260,
+  "reread14_pairs_forced": 280,
+  "resolve_files": 6,
+  "kappa_bar": 0.8,
+  "below_bar": [
+    "drugs"
+  ],
+  "agreement": {
+    "drugs": {
+      "kappa": 0.789,
+      "checked": 43,
+      "positives_confirmed": 0.9,
+      "near_misses_confirmed": 0.923
+    },
+    "prevention_treatment": {
+      "kappa": 0.867,
+      "checked": 60,
+      "positives_confirmed": 0.867,
+      "near_misses_confirmed": 1.0
+    },
+    "alternative_development": {
+      "kappa": 0.925,
+      "checked": 39,
+      "positives_confirmed": 1.0,
+      "near_misses_confirmed": 0.889
+    },
+    "organized_crime": {
+      "kappa": 0.8,
+      "checked": 60,
+      "positives_confirmed": 0.833,
+      "near_misses_confirmed": 0.967
+    },
+    "corruption": {
+      "kappa": 0.9,
+      "checked": 60,
+      "positives_confirmed": 0.967,
+      "near_misses_confirmed": 0.933
+    },
+    "terrorism": {
+      "kappa": 0.867,
+      "checked": 60,
+      "positives_confirmed": 0.967,
+      "near_misses_confirmed": 0.9
+    },
+    "trafficking_smuggling": {
+      "kappa": 0.8,
+      "checked": 60,
+      "positives_confirmed": 0.867,
+      "near_misses_confirmed": 0.933
+    },
+    "environmental_crime": {
+      "kappa": 0.927,
+      "checked": 55,
+      "positives_confirmed": 0.933,
+      "near_misses_confirmed": 1.0
+    },
+    "criminal_justice": {
+      "kappa": 0.967,
+      "checked": 60,
+      "positives_confirmed": 1.0,
+      "near_misses_confirmed": 0.967
+    },
+    "peace": {
+      "kappa": 0.867,
+      "checked": 60,
+      "positives_confirmed": 1.0,
+      "near_misses_confirmed": 0.867
+    }
+  }
+}
