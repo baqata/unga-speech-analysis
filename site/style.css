@@ -68,8 +68,17 @@ select{font:500 13px var(--sans); color:var(--ink); background:transparent; bord
 .years{display:flex; align-items:center; gap:10px; background:var(--panel); border:1px solid var(--line); border-radius:4px; height:34px; padding:0 10px 0 4px}
 .years button{font:600 12px var(--cond); letter-spacing:.04em; border:0; border-radius:3px; padding:5px 9px; cursor:pointer; background:transparent; color:var(--ink-2)}
 .years button[aria-pressed="true"]{background:var(--chip); color:var(--un-text)}
-.years input{width:220px; accent-color:var(--un)}
-.years[data-all="true"] input{opacity:.45}
+/* two handles on one track: from all years the first move picks one year, then either handle sets the range */
+.yrange{position:relative; flex:0 0 220px; height:24px}
+.yrange::before{content:""; position:absolute; left:7px; right:7px; top:11px; height:3px; border-radius:2px; background:var(--line-2)}
+.yrange .fill{position:absolute; top:11px; height:3px; border-radius:2px; background:var(--un)}
+.yrange input{position:absolute; inset:0; width:100%; height:24px; margin:0; background:transparent; pointer-events:none; -webkit-appearance:none; appearance:none}
+.yrange input::-webkit-slider-runnable-track{height:24px; background:transparent}
+.yrange input::-webkit-slider-thumb{-webkit-appearance:none; pointer-events:auto; width:14px; height:14px; margin-top:5px; border-radius:50%; background:var(--un); border:2px solid var(--panel); box-shadow:0 0 0 1px var(--un); cursor:pointer}
+.yrange input::-moz-range-track{background:transparent}
+.yrange input::-moz-range-thumb{pointer-events:auto; width:10px; height:10px; border-radius:50%; background:var(--un); border:2px solid var(--panel); box-shadow:0 0 0 1px var(--un); cursor:pointer}
+.yrange input:focus-visible::-webkit-slider-thumb{outline:2px solid var(--un); outline-offset:2px}
+.years[data-all="true"] .yrange{opacity:.45}
 .years output{font:700 15px var(--cond); min-width:40px; font-variant-numeric:tabular-nums; display:inline-flex; align-items:center; gap:6px; white-space:nowrap}
 
 /* panels */
@@ -192,7 +201,7 @@ footer{color:var(--muted); font-size:12px; margin-top:22px; border-top:1px solid
 @media (max-width:1100px){ .lens .nm{min-height:3.6em} .lens.all .nm{min-height:0} .lenses{grid-template-columns:repeat(5,minmax(0,1fr))} .lens.all{grid-row:auto; grid-column:1 / -1; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:flex-start; gap:6px 18px; padding:8px 12px 10px; border-bottom-width:3px} .lens.all .db{flex:1 1 160px} .lens:nth-child(n+2){border-top:1px solid var(--line-2)} .lens:nth-child(2), .lens:nth-child(7){border-left:0} }
 @media (max-width:980px){ .grid,.bottom,.cgrid{grid-template-columns:minmax(0,1fr)} .mapwrap{height:460px} }
 @media (max-width:720px){ .lenses{grid-template-columns:repeat(2,minmax(0,1fr))} .lens:nth-child(2n){border-left:0} .lens:nth-child(2n+1){border-left:1px solid var(--line-2)} .lens.all{border-left:0} .acols,.wcols{grid-template-columns:minmax(0,1fr)} }
-@media (max-width:520px){ h1{font-size:27px} .years input{width:110px; flex:1 1 auto} .years{width:100%} .boxsel{min-width:0; width:100%; max-width:none} .ctl{width:100%} .slot{flex:1 1 100%} .slot select{max-width:none; flex:1 1 auto} .mapwrap{height:360px} #ctyMapWrap{height:340px} .lens .rt{font-size:21px} .lens.all .rt{font-size:28px} .chead h2{font-size:25px} .tabbar button{font-size:15px; padding-inline:8px} }
+@media (max-width:520px){ h1{font-size:27px} .yrange{flex:1 1 auto} .years{width:100%} .boxsel{min-width:0; width:100%; max-width:none} .ctl{width:100%} .slot{flex:1 1 100%} .slot select{max-width:none; flex:1 1 auto} .mapwrap{height:360px} #ctyMapWrap{height:340px} .lens .rt{font-size:21px} .lens.all .rt{font-size:28px} .chead h2{font-size:25px} .tabbar button{font-size:15px; padding-inline:8px} }
 @media (prefers-reduced-motion: reduce){ .tip{transition:none} }
 
 /* site additions */

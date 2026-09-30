@@ -75,13 +75,16 @@ M.groups.forEach(g => OPT.set('g:' + g.slug, {v: 'g:' + g.slug, g, key: g.slug, 
 M.countries.forEach((c, i) => OPT.set('c:' + c.iso3, {v: 'c:' + c.iso3, c: i, key: c.iso3, members: new Set([i])}));
 const optLabel = o => o.g ? (o.g.type === 'office' ? `${o.g.short_es} · ${o.g[lang]}` : o.g[lang]) : cname(o.c);
 const optShort = o => o.g ? o.g['short_' + lang] : cname(o.c);
-const state = {tab: 'reg', slots: ['g:rocol', '', ''], lens: ALL, year: null, layer: 'frag', country: ISO.COL ?? 0, amode: 0, wordSlot: 0};
+const state = {tab: 'reg', slots: ['g:rocol', '', ''], lens: ALL, y0: Y0, y1: Y1, layer: 'frag', country: ISO.COL ?? 0, amode: 0, wordSlot: 0};
 const active = () => state.slots.map((v, s) => ({s, v, o: OPT.get(v)})).filter(x => x.o);
 const slotCol = s => css('--s' + (s + 1));
-const inP = yi => state.year == null || yi === state.year - Y0;
-const per = () => state.year == null ? `${Y0}–${Y1}` : String(state.year);
-const periodKey = () => state.year == null ? 'all' : String(state.year);
-const yearsInP = () => state.year == null ? d3.range(Y0, Y1 + 1) : [state.year];
+// the period: one year, a range of years, or all years (y0 to y1, inclusive)
+const isAll = () => state.y0 === Y0 && state.y1 === Y1;
+const single = () => state.y0 === state.y1 ? state.y0 : null;
+const inP = yi => yi >= state.y0 - Y0 && yi <= state.y1 - Y0;
+const per = () => single() != null ? String(state.y0) : `${state.y0}–${state.y1}`;
+const periodKey = () => isAll() ? 'all' : single() != null ? String(state.y0) : null;   // word bars and alignment: one year or all
+const yearsInP = () => d3.range(state.y0, state.y1 + 1);
 
 function applyHash() {
   const h = decodeURIComponent(location.hash.slice(1)).toLowerCase();
@@ -136,10 +139,21 @@ function fillSelects() {
 }
 ['slot0', 'slot1', 'slot2'].forEach((id, s) => $(id).addEventListener('change', e => { state.slots[s] = e.target.value; update(); }));
 $('countrySel').addEventListener('change', e => { state.country = +e.target.value; update(); });
-const yearEl = $('year');
-yearEl.min = Y0; yearEl.max = Y1; yearEl.value = Y1;
-yearEl.addEventListener('input', () => { state.year = +yearEl.value; update(); });
-$('allYears').addEventListener('click', () => { state.year = null; update(); });
+const yFrom = $('yearFrom'), yTo = $('yearTo');
+let linked = null;   // from all years, the first move of a handle picks one year: the other handle follows it
+[yFrom, yTo].forEach(el => {
+  el.min = Y0; el.max = Y1;
+  el.addEventListener('pointerdown', () => { if (isAll()) linked = el; });
+  el.addEventListener('input', () => {
+    if (isAll() && !linked) linked = el;
+    if (linked === el) (el === yFrom ? yTo : yFrom).value = el.value;
+    const a = +yFrom.value, b = +yTo.value;
+    state.y0 = Math.min(a, b); state.y1 = Math.max(a, b); update();
+  });
+  el.addEventListener('change', () => { linked = null; });
+});
+yFrom.value = Y0; yTo.value = Y1;
+$('allYears').addEventListener('click', () => { state.y0 = yFrom.value = Y0; state.y1 = yTo.value = Y1; update(); });
 document.querySelectorAll('[data-layer]').forEach(b => b.addEventListener('click', () => { state.layer = b.dataset.layer; update(); }));
 document.querySelectorAll('#amodeSeg button').forEach(b => b.addEventListener('click', () => { state.amode = +b.dataset.mode; update(); }));
 document.querySelectorAll('#langSeg button').forEach(b => b.addEventListener('click', () => { if (lang !== b.dataset.lang) { lang = b.dataset.lang; applyLang(); } }));
@@ -290,16 +304,16 @@ function computeSlots() {
 }
 const regMap = new SemMap($('regMapWrap'), sp => {
   const P = sp ? PS : PF;
-  const alpha = state.year ? 1 : (sp ? 0.8 : 0.55), bump = state.year ? (sp ? 0.6 : 0.3) : 0;
+  const alpha = isAll() ? (sp ? 0.8 : 0.55) : 1, bump = isAll() ? 0 : (sp ? 0.6 : 0.3);
   // the selections over the rest; with a year chosen, the other years stay as a faint outline of the map
   const layers = [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, ...[2, 1, 0].map(s => ({col: slotCol(s), alpha, bump}))];
-  return {layers, key: [state.year, state.slots.join(','), css('--dot')].join('|'),
+  return {layers, key: [state.y0, state.y1, state.slots.join(','), css('--dot')].join('|'),
     layerOf: i => { if (!inP(P.yr[i])) return 0; const s = cSlot[P.c[i]]; return s >= 0 ? 4 - s : 1; }};
 });
 const ctyMap = new SemMap($('ctyMapWrap'), sp => {
   const P = sp ? PS : PF, c = state.country;
   return {layers: [{col: css('--dot'), alpha: 0.3}, {col: css('--dot')}, {col: css('--s1'), bump: sp ? 2 : 1.9, round: true, ring: css('--panel')}],
-    key: [c, state.year, css('--dot')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] === c ? 2 : 1};
+    key: [c, state.y0, state.y1, css('--dot')].join('|'), layerOf: i => !inP(P.yr[i]) ? 0 : P.c[i] === c ? 2 : 1};
 });
 function drawLegends() {
   const items = active().map(({s, o}) => `<span><i style="background:var(--s${s + 1})"></i>${esc(optShort(o))}</span>`);
@@ -342,13 +356,13 @@ function drawWorld() {
   outl.sort((a, b) => b.n - a.n);
   wsel.selectAll('path').data(outl).join('path').attr('d', d => gpath(d.f)).attr('fill', 'none')
     .attr('stroke', d => slotCol(d.s)).attr('stroke-width', 1.6).attr('stroke-linejoin', 'round').attr('pointer-events', 'none');
-  const tipOf = (e, c) => c == null ? hideTip() : showTip(e, `<b>${esc(cname(c, state.year))}</b><br>${ok ? (cm[c] == null ? t('noSpeech') : pct(cm[c])) : esc(t('notMeasured'))}`);
+  const tipOf = (e, c) => c == null ? hideTip() : showTip(e, `<b>${esc(cname(c, single()))}</b><br>${ok ? (cm[c] == null ? t('noSpeech') : pct(cm[c])) : esc(t('notMeasured'))}`);
   wpaths.on('mousemove', (e, f) => tipOf(e, cOfFeat(f))).on('mouseleave', hideTip);
   wdots.on('mousemove', (e, d) => tipOf(e, d.c)).on('mouseleave', hideTip);
   wmsg.text(ok ? '' : t('notMeasured')).attr('fill', css('--ink-2'));
   const title = L === ALL ? t('worldTitleAll') : t('worldTitle', {l: inSentence(lensName(L))});
   wsvg.attr('aria-label', title); $('worldTitle').textContent = title;
-  $('worldHint').textContent = state.year ? t('yearN', {y: state.year}) : t('avg', {per: per()});
+  $('worldHint').textContent = single() != null ? t('yearN', {y: single()}) : t('avg', {per: per()});
   const sels = active().map(({s, o}) => `<span><i class="ol" style="border-color:var(--s${s + 1})"></i><em>${esc(optShort(o))}</em></span>`).join('');
   $('worldScale').innerHTML = cols.map(c => `<i style="background:${c}"></i>`).join('') + `<em>${t('lessMore')}</em><i style="background:${nod}"></i><em>${t('noSpeech')}</em>`
     + (sels && `<span class="sels">${sels}</span>`);   // the selections' outlines on a line of their own
@@ -386,7 +400,8 @@ function drawTrend() {
   const over = ends.length ? ends[ends.length - 1].y - (TH - TM.b) : 0;
   if (over > 0) ends.forEach(e => e.y -= over);
   gLines.selectAll('text').data(ends).join('text').attr('x', TW - TM.r + 6).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', d => d.s.col).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => d.s.name.length > 15 ? d.s.name.slice(0, 14) + '…' : d.s.name);
-  if (state.year) gMark.append('line').attr('x1', tx(state.year)).attr('x2', tx(state.year)).attr('y1', TM.t).attr('y2', TH - TM.b).attr('stroke', css('--ink')).attr('stroke-width', 1).attr('stroke-dasharray', '2 3');
+  if (!isAll() && single() == null) gGrid.append('rect').attr('x', tx(state.y0)).attr('width', tx(state.y1) - tx(state.y0)).attr('y', TM.t).attr('height', TH - TM.b - TM.t).attr('fill', css('--ink')).attr('opacity', 0.06);
+  if (single() != null) gMark.append('line').attr('x1', tx(single())).attr('x2', tx(single())).attr('y1', TM.t).attr('y2', TH - TM.b).attr('stroke', css('--ink')).attr('stroke-width', 1).attr('stroke-dasharray', '2 3');
 }
 tsvg.on('mousemove', e => {
   const [mx] = d3.pointer(e), y = Math.round(tx.invert(mx)); if (!series.length || y < Y0 || y > Y1) { gHover.selectAll('*').remove(); return hideTip(); }
@@ -409,6 +424,7 @@ function drawWords() {
   if (!measured(state.lens)) return box.innerHTML = `<div class="empty">${t('notMeasured')}</div>`;
   const file = `keyness/${lensFile(state.lens)}.json`, data = want(file);
   if (!data) return box.innerHTML = `<div class="empty">${waitMsg(file)}</div>`;
+  if (periodKey() == null) return box.innerHTML = `<div class="empty">${t('rangeNA')}</div>`;
   const e = data[a.o.key]?.[periodKey()];
   if (!e) return box.innerHTML = `<div class="empty">${t('fewText')}</div>`;
   const uni = e.words.slice(0, 8), bi = e.bigrams.slice(0, 8);
@@ -445,11 +461,12 @@ function drawQuotes() {
 // ---------------- country tab ----------------
 function drawCountry() {
   const c = state.country, iso = M.countries[c].iso3, ys = yearsInP().filter(y => FRG[c * NY + y - Y0] > 0);
-  $('ctyName').textContent = cname(c, state.year);
-  const sp = want('speeches.json'), who = state.year != null ? sp?.[iso]?.[state.year]?.[0] : '';
-  $('ctyWhen').textContent = state.year == null ? t('allYears', {per: per()}) : t('speechOf', {y: state.year}) + (who ? ` · ${who}` : '');
+  const one = single();
+  $('ctyName').textContent = cname(c, one);
+  const sp = want('speeches.json'), who = one != null ? sp?.[iso]?.[one]?.[0] : '';
+  $('ctyWhen').textContent = isAll() ? t('allYears', {per: per()}) : one != null ? t('speechOf', {y: one}) + (who ? ` · ${who}` : '') : t('speechesOf', {per: per()});
   document.querySelectorAll('#amodeSeg button').forEach(b => b.setAttribute('aria-pressed', +b.dataset.mode === state.amode));
-  const empty = !ys.length ? t('noCtySpeech', {c: cname(c), y: state.year}) : null;
+  const empty = !ys.length ? t('noCtySpeech', {c: cname(c), y: per()}) : null;
   // composition: the mean of its speeches' parts, each speech weighing the same
   const comp = want('composition.json');
   if (empty || !comp) $('comp').innerHTML = `<div class="empty">${empty || waitMsg('composition.json')}</div>`;
@@ -466,14 +483,14 @@ function drawCountry() {
     $('comp').querySelectorAll('.compbar i').forEach(el => { el.onmousemove = e => showTip(e, `<b>${esc(+el.dataset.k < 0 ? t('others') : topicName(+el.dataset.k))}</b><br>${pct(+el.dataset.n)}`); el.onmouseleave = hideTip; });
   }
   // alignment
-  $('alignHint').textContent = state.year == null ? t('alignHintAll') : t('alignHintY', {y: state.year});
-  const alFile = `alignment/${periodKey()}.json`, al = empty ? null : want(alFile);
-  if (empty || !al) $('align').innerHTML = `<div class="empty">${empty || waitMsg(alFile)}</div>`;
+  $('alignHint').textContent = isAll() ? t('alignHintAll') : one != null ? t('alignHintY', {y: one}) : '';
+  const alFile = `alignment/${periodKey()}.json`, al = empty || periodKey() == null ? null : want(alFile);
+  if (empty || !al) $('align').innerHTML = `<div class="empty">${empty || (periodKey() == null ? t('rangeNA') : waitMsg(alFile))}</div>`;
   else {
     const rec = al[iso]?.[state.amode ? 'unodc' : 'overall'];
     if (!rec || !rec.top.length) $('align').innerHTML = `<div class="empty">${t('noU')}</div>`;
     else {
-      const rows = rec.top.map(([k, p], i) => `<div class="arow"><span class="rk">${i + 1}</span><button data-c="${ISO[k]}">${esc(cname(ISO[k], state.year, true))}</button><span class="bt"><b style="width:${p}%"></b></span><span class="v">${p}</span></div>`).join('');
+      const rows = rec.top.map(([k, p], i) => `<div class="arow"><span class="rk">${i + 1}</span><button data-c="${ISO[k]}">${esc(cname(ISO[k], one, true))}</button><span class="bt"><b style="width:${p}%"></b></span><span class="v">${p}</span></div>`).join('');
       const bySlug = new Map(M.groups.map(g => [g.slug, g]));
       const grows = rec.groups.map(([slug, p]) => ({g: bySlug.get(slug), p})).filter(x => x.g).sort((a, b) => b.p - a.p)
         .map(x => `<div class="grow${x.g.members.includes(c) ? ' own' : ''}" data-g="${x.g.slug}" data-p="${x.p}"><span>${esc(optShort(OPT.get('g:' + x.g.slug)))}</span><span class="tk"><i style="left:${x.p}%"></i></span><span class="v">${x.p}</span></div>`).join('');
@@ -501,7 +518,7 @@ function applyLang() {
   document.querySelectorAll('[data-i]').forEach(el => { el.textContent = t(el.dataset.i); });
   $('langES').setAttribute('aria-pressed', lang === 'es'); $('langEN').setAttribute('aria-pressed', lang === 'en');
   $('langSeg').setAttribute('aria-label', t('langLabel'));
-  yearEl.setAttribute('aria-label', t('year'));
+  yFrom.setAttribute('aria-label', t('yearFrom')); yTo.setAttribute('aria-label', t('yearTo'));
   document.querySelector('.tabbar').setAttribute('aria-label', t('views'));
   $('controls').setAttribute('aria-label', t('filters'));
   // a development build, or a build whose lenses have not all been through the validation test (pass: null)
@@ -514,10 +531,11 @@ function applyLang() {
 // ---------------- update ----------------
 function update() {
   CM = {};
-  $('allYears').setAttribute('aria-pressed', state.year == null);
-  document.querySelector('.years').dataset.all = state.year == null;
-  if (state.year != null) yearEl.value = state.year;
-  $('yearOut').textContent = state.year == null ? '–' : state.year;
+  $('allYears').setAttribute('aria-pressed', isAll());
+  document.querySelector('.years').dataset.all = isAll();
+  const f = y => (y - Y0) / (Y1 - Y0), fill = document.querySelector('.yrange .fill');
+  fill.style.left = `calc(7px + (100% - 14px) * ${f(state.y0)})`; fill.style.width = `calc((100% - 14px) * ${f(state.y1) - f(state.y0)})`;
+  $('yearOut').textContent = isAll() ? '–' : per();
   computeSlots(); drawLegends();
   if (state.tab === 'reg') { drawStrip(); regMap.draw(); drawWorld(); drawTrend(); drawWords(); drawQuotes(); }
   else { drawCountry(); ctyMap.draw(); }

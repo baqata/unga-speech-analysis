@@ -79,7 +79,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **Up to three selections** compared side by side, each with a fixed colour (2026-09-26 17:31, r92; proposed r81).
 - **Default:** ROCOL only. The other two slots start empty (2026-09-26 18:02, r476).
 - **Overlaps are allowed**, for example ROCOL and Colombia together. The user asked about this in r92; r443 answered that a country in two selections takes the colour of the more specific selection, and the user did not object.
-- **Year:** all years by default, with an option to pick a single year (2026-09-26 17:31, r92).
+- **Year:** all years by default, with an option to pick a single year (2026-09-26 17:31, r92) or a range of years (2026-09-30 04:20). One slider with two handles: from all years, the first move picks one year, and either handle then widens or narrows the period. The word bars and the alignment are computed for one year or for all years; for a partial range they say so.
 - **Unselected points** stay in the background, in grey (2026-09-26 17:31, r92).
 
 ### 3.4 Groups
@@ -255,6 +255,7 @@ The user left the calibration method to the main agent, asking for the most tech
 | A speech's hover passage from the fragment closest to its mean (2026-09-29 21:56) | From its fragment most about a UNODC topic, else the one closest to the mean outside its first and last; fragments get a passage on hover too (2026-09-30 04:20) |
 | Passages that start at a sentence with a key term of the lens (overnight build, 2026-09-30) | The part of the fragment most about its topic by the words that set the topic apart, with a minimum and a maximum length (2026-09-30 04:24) |
 | Speeches or fragments about the chosen lens tinted on the semantic map (mockup) | Only the rest of the points and the selections (2026-09-30 04:37) |
+| One year or all years (r92) | Also a range of years (2026-09-30 04:20) |
 | Three labellers read every fragment, a fourth decides disagreements, five agents at a time (s2 r13904) | One labeller, ten at a time, with a check of about 600 fragments at maximum effort and a resolver; codebook 1.2 (2026-09-29 21:56, s4 r2316) |
 | A check of about 600 fragments only (2026-09-29 21:56) | Also a second reading of the doubtful validation labels and of the fragments codebook 1.3 may change, about 1,800 (2026-09-30 00:30) |
 | Codebook 1.3 for the check and the resolver (2026-09-30 00:30) | Codebook 1.4, aligned with UNODC's official definitions; the fragments it may change read again or resolved, and a review of 250 more (2026-09-30 01:58, 02:48) |

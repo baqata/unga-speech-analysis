@@ -48,8 +48,11 @@
     <div class="ctl"><span data-i="year">Año</span>
       <div class="years">
         <button id="allYears" aria-pressed="true" data-i="all">Todos</button>
-        <input id="year" type="range" min="1946" max="2026" value="2025" aria-label="Año">
-        <output id="yearOut" for="year">–</output>
+        <div class="yrange"><i class="fill"></i>
+          <input id="yearFrom" type="range" min="1946" max="2026" value="1946" aria-label="Desde">
+          <input id="yearTo" type="range" min="1946" max="2026" value="2026" aria-label="Hasta">
+        </div>
+        <output id="yearOut" for="yearFrom yearTo">–</output>
       </div>
     </div>
   </section>
