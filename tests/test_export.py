@@ -338,29 +338,29 @@ def test_a_hidden_lens_is_left_out_of_the_probabilities(tmp_path, monkeypatch):
     assert np.allclose(p, [[0.1, 0.1], [0.9, 0.2]]) and np.allclose(thr, [0.3, 0.2])
 
 
-def test_method_facts_give_the_final_fit_and_the_test_per_lens(tmp_path, monkeypatch):
-    fit = {"sets": ["train", "validation"], "lenses": {
-        i: {"threshold": 0.25, "oof": {"precision": 0.91, "recall": 0.72}}
-        for i in ("drugs", "prevention_treatment", "alternative_development")}}
-    results = {"lenses": {"drugs": {"pass": True, "overall": {"precision": 0.96, "recall": 0.85, "positives": 2}},
-                          "alternative_development": {"pass": False, "overall": {"precision": 0.8, "recall": 0.5,
-                                                                                   "positives": 1}}}}
-    agreement = {"check_fragments": 7, "agreement": {"drugs": {"kappa": 0.79}}}
-    for name, data in (("FIT", fit), ("RESULTS", results), ("AGREEMENT", agreement)):
+def test_method_facts_give_the_cross_validation_per_lens(tmp_path, monkeypatch):
+    def overall(pr, rc):
+        return {"precision": pr, "recall": rc, "f1": round(2 * pr * rc / (pr + rc), 4)}
+
+    fit = {"lenses": {"drugs": {"pass": False, "overall": overall(0.92, 0.89)},
+                      "prevention_treatment": {"pass": False, "overall": overall(0.5, 0.46)},
+                      "alternative_development": {"pass": True, "overall": overall(0.8, 0.75)}}}
+    agreement = {"check_fragments": 7}
+    for name, data in (("FIT", fit), ("AGREEMENT", agreement)):
         path = tmp_path / f"{name.lower()}.json"
         path.write_text(json.dumps(data))
         monkeypatch.setattr(calibrate, name, path)
     final = tmp_path / "labels_final.parquet"
-    pd.DataFrame({"split": ["train", "train", "validation", "other"], "drugs": [1, 0, 1, 1],
-                  "prevention_treatment": [0, 0, 1, 0], "alternative_development": [1, 0, 0, 0],
-                  "peace": [0, 1, 0, 0]}).to_parquet(final)
+    pd.DataFrame({"drugs": [1, 0, 1], "prevention_treatment": [0, 0, 1], "alternative_development": [1, 0, 0],
+                  "peace": [0, 1, 0]}).to_parquet(final)
     monkeypatch.setattr(calibrate, "FINAL", final)
+    assert ex.lens_passes() == {"drugs": False, "prevention_treatment": False, "alternative_development": True}
     facts = ex.method_facts(CODEBOOK, 10, 2)
-    assert facts["labelled"] == 3 and facts["sets"] == {"train": 2, "validation": 1} and facts["read_twice"] == 7
+    assert facts["labelled"] == 3 and facts["read_twice"] == 7 and facts["min_period"] == calibrate.MIN_PERIOD_POSITIVES
     assert facts["reference"] == [{"es": "Paz", "en": "Peace"}]
     lenses = {lens["id"]: lens for lens in facts["lenses"]}
     assert list(lenses) == ["drugs", "prevention_treatment", "alternative_development"]  # peace has no model
-    assert lenses["drugs"]["examples"] == 2 and lenses["drugs"]["pass"] is True and lenses["drugs"]["kappa"] == 0.79
-    assert lenses["prevention_treatment"]["shown"] is False and lenses["prevention_treatment"]["test"] is None
-    assert lenses["alternative_development"]["test"] == {"precision": 0.8, "recall": 0.5, "positives": 1}
-    assert lenses["alternative_development"]["precision"] == 0.91 and lenses["alternative_development"]["pass"] is False
+    drugs = lenses["drugs"]
+    assert drugs["examples"] == 2 and drugs["pass"] is False
+    assert (drugs["precision"], drugs["recall"], drugs["f1"]) == (0.92, 0.89, 0.9048)
+    assert lenses["prevention_treatment"]["shown"] is False and lenses["alternative_development"]["pass"] is True

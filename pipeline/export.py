@@ -138,7 +138,7 @@ def now() -> str:
 
 
 def dumps(data) -> bytes:
-    return json.dumps(data, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    return json.dumps(data, ensure_ascii=False, separators=(",", ":"), allow_nan=False).encode("utf-8")
 
 
 def read_side(path) -> dict:
@@ -852,47 +852,35 @@ def group_table() -> list[dict]:
 
 
 def lens_passes() -> dict:
-    """Pass-bar result per lens (docs/calibration.md, section 6), empty before `calibrate test`."""
-    if not calibrate.RESULTS.exists():
+    """Pass-bar result per fitted lens (docs/calibration.md, section 6), empty before `calibrate fit`."""
+    if not calibrate.FIT.exists():
         return {}
-    return {k: bool(v["pass"]) for k, v in json.loads(calibrate.RESULTS.read_text())["lenses"].items()}
+    return {k: bool(v["pass"]) for k, v in json.loads(calibrate.FIT.read_text())["lenses"].items()}
 
 
 def method_facts(codebook, n_all: int, n_ceremonial: int) -> dict | None:
     """What the technical annex states: how many fragments were read, and for every fitted lens the positive
-    examples it learned from, the weighted out-of-fold precision and recall of the final fit (the classifiers the
-    site uses), its threshold, the one-shot test on the validation set and the readers' agreement. None before the
-    final fit."""
+    examples it learned from and its weighted out-of-fold precision, recall and F1. None before `calibrate fit`."""
     if not (calibrate.FIT.exists() and calibrate.FINAL.exists()):
         return None
     fit = json.loads(calibrate.FIT.read_text())
-    test = json.loads(calibrate.RESULTS.read_text())["lenses"] if calibrate.RESULTS.exists() else {}
     agree = json.loads(calibrate.AGREEMENT.read_text()) if calibrate.AGREEMENT.exists() else {}
     labels = pd.read_parquet(calibrate.FINAL)
-    labels = labels[labels["split"].isin(fit["sets"])]
-    def r3(v):
-        return None if v is None else round(float(v), 3)
 
     lenses = []
     for lens in codebook["lenses"]:
         i = lens["id"]
         if i not in fit["lenses"]:
             continue
-        f, t = fit["lenses"][i], test.get(i, {}).get("overall", {})
+        f = fit["lenses"][i]
         lenses.append({"id": i, "es": lens["name_es"], "en": lens["name_en"], "icon": lens.get("icon"),
-                       "parent": lens.get("parent"), "shown": i not in HIDDEN,
-                       "pass": test[i]["pass"] if i in test else None, "examples": int(labels[i].sum()),
-                       "precision": r3(f["oof"]["precision"]), "recall": r3(f["oof"]["recall"]),
-                       "threshold": r3(f["threshold"]),
-                       "test": {"precision": r3(t.get("precision")), "recall": r3(t.get("recall")),
-                                "positives": t.get("positives")} if t else None,
-                       "kappa": agree.get("agreement", {}).get(i, {}).get("kappa")})
+                       "parent": lens.get("parent"), "shown": i not in HIDDEN, "pass": f["pass"],
+                       "examples": int(labels[i].sum()), **{m: f["overall"][m] for m in ("precision", "recall", "f1")}})
     return {"fragments_all": n_all, "ceremonial": n_ceremonial, "labelled": len(labels),
             "reference": [{"es": lens["name_es"], "en": lens["name_en"]} for lens in codebook["lenses"]
                           if lens["reference"]],
-            "sets": {s: int((labels["split"] == s).sum()) for s in fit["sets"]},
             "read_twice": agree.get("check_fragments"), "folds": calibrate.FOLDS, "bar": calibrate.PASS_BAR,
-            "lenses": lenses}
+            "min_period": calibrate.MIN_PERIOD_POSITIVES, "lenses": lenses}
 
 
 def passage_scorer(codebook):

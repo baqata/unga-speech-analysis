@@ -10,9 +10,7 @@ Commands (from the repo root), in order:
     uv run python -m pipeline.calibrate collect        # agreement of the two labellers; resolver queue
     uv run python -m pipeline.calibrate check resolved r001
     uv run python -m pipeline.calibrate final          # final labels (core, or resolved)
-    uv run python -m pipeline.calibrate fit            # one classifier per lens on the training set
-    uv run python -m pipeline.calibrate test           # pass bar and share check on the validation set
-    uv run python -m pipeline.calibrate fit --final    # the classifiers again, on the training and validation sets
+    uv run python -m pipeline.calibrate fit            # one classifier per lens, and the pass bar, by cross-validation
     uv run python -m pipeline.calibrate predict        # probability of every fragment on every lens
 
 Scores need the finalized fragment embeddings (pipeline.embed). The labels are
@@ -40,16 +38,16 @@ from pipeline.lenses import LENSES_YAML, expand_labels, expand_scores, load_lens
 
 PERIODS = [(1946, 1969), (1970, 1989), (1990, 2009), (2010, 2024), (2025, 2026)]
 SEED = 20260929
-TARGET_SIZE = 25000  # about 20,000 to train and tune, about 5,000 to validate (user, 2026-09-29 16:30 UTC)
+TARGET_SIZE = 25000  # user, 2026-09-29 16:30 UTC
 RANDOM_PER_PERIOD = 500
-VALIDATION_SHARE = 0.2  # of the speeches: all their sampled fragments form the validation set
+AUDIT_SHARE = 0.2  # of the speeches: their sampled fragments are labelled first and their doubtful labels read twice
 BIN_EDGES = np.array([1 / 100, 1 / 50, 1 / 25, 2 / 25, 4 / 25, 8 / 25])
 PER_BIN = 25  # 6 bins x 25 = 150 draws where each lens is most likely, per period
 LOWER_PER_STRATUM = 30  # key-term fragments outside the top 8/25, per lens and period
 BATCH_SIZE = 150
 CORE, CHECKER = "core", "check"  # the core labeller and the check labeller (docs/calibration.md, section 4)
 CHECK_PER_GROUP = 30  # per lens: fragments the core labeller marked positive, and near-misses
-LOW_CONFIDENCE = 2  # validation fragments the core labeller marked at or below it are read a second time
+LOW_CONFIDENCE = 2  # audited fragments the core labeller marked at or below it are read a second time
 REVIEW_PER_LENS = 25  # review of codebook 1.4: per lens, half core positives and half near-misses
 REVIEW_FILES = 10  # with the reread of codebook 1.4; one check labeller each, five at a time (user, 2026-09-30 02:48 UTC)
 KAPPA_BAR = 0.8  # a lens below it goes back to the user
@@ -57,7 +55,7 @@ PENALTIES = (0.3, 1.0, 3.0, 10.0)  # C of the RBF support vector machine (user, 
 FOLDS = 5
 JOBS = max(1, (os.cpu_count() or 2) - 2)  # fits run in parallel
 SVM_CACHE_MB = 300
-PASS_BAR = 0.70
+PASS_BAR = 0.70  # weighted F1 of the out-of-fold decisions, overall and per period (user, 2026-09-30)
 MIN_PERIOD_POSITIVES = 20
 BOOTSTRAP = 2000
 
@@ -80,10 +78,8 @@ RESOLVED = GOLD / "resolved"
 FINAL = GOLD / "labels_final.parquet"
 FIT = GOLD / "fit.json"
 CLASSIFIERS = GOLD / "classifiers.npz"
-RESULTS = GOLD / "results.json"
 PROBS = config.INTERIM / "lens_probs.parquet"
-OOF = config.INTERIM / "lens_oof.parquet"  # out-of-fold probabilities of the last fit (error analysis)
-VALIDATION = config.INTERIM / "lens_validation.parquet"  # the test's probabilities (error analysis)
+OOF = config.INTERIM / "lens_oof.parquet"  # out-of-fold probabilities of the fit (error analysis)
 PROTOCOL = config.ROOT / "docs" / "calibration.md"
 CODEBOOK = config.LENSES / "codebook.md"
 
@@ -324,8 +320,8 @@ def inclusion_probabilities(frags: pd.DataFrame, scores: pd.DataFrame, codebook)
 
 
 def draw_sample(force: bool = False) -> pd.DataFrame:
-    """Draw the sample, split it by speech into a training and a validation set, and write the labelling
-    batches: the validation set first, so that it is complete even if the training set is cut short."""
+    """Draw the sample, mark the audited fifth of its speeches, and write the labelling batches: the audited fifth
+    first, so that it is complete even if the labelling stops early."""
     if SAMPLE.exists() and not force:
         raise CalibrationError(f"{SAMPLE} exists; the sample is drawn once (use --force to redraw "
                                "before any label is written).")
@@ -345,14 +341,14 @@ def draw_sample(force: bool = False) -> pd.DataFrame:
     sample = probs[chosen].reset_index(drop=True)
     sample["speech_id"] = frags.set_index("frag_id").loc[sample["frag_id"], "speech_id"].to_numpy()
     speeches = np.unique(sample["speech_id"])
-    held = speeches[np.random.default_rng(SEED + 1).random(len(speeches)) < VALIDATION_SHARE]
-    sample["split"] = np.where(sample["speech_id"].isin(held), "validation", "train")
+    audited = speeches[np.random.default_rng(SEED + 1).random(len(speeches)) < AUDIT_SHARE]
+    sample["audit"] = sample["speech_id"].isin(audited)
     rng = np.random.default_rng(SEED + 2)
     sample["gid"] = [f"g{i + 1:05d}" for i in rng.permutation(len(sample))]
     sample["batch"] = ""
     order, b = [], 0
-    for split in ("validation", "train"):
-        rows = rng.permutation(np.flatnonzero(sample["split"].to_numpy() == split))
+    for audit in (True, False):
+        rows = rng.permutation(np.flatnonzero(sample["audit"].to_numpy() == audit))
         for part in np.array_split(rows, int(np.ceil(len(rows) / BATCH_SIZE))):
             b += 1
             sample.loc[part, "batch"] = f"b{b:03d}"
@@ -373,8 +369,8 @@ def draw_sample(force: bool = False) -> pd.DataFrame:
         "seed": SEED, "lambda": lam, "population": len(probs),
         "expected_size": float(probs["pi"].sum()), "drawn": len(sample),
         "per_period": {f"{a}-{b}": int((sample["period"] == i).sum()) for i, (a, b) in enumerate(PERIODS)},
-        "splits": sample["split"].value_counts().to_dict(), "validation_speeches": len(held),
-        "validation_batches": sorted(sample.loc[sample["split"] == "validation", "batch"].unique().tolist()),
+        "audit_fragments": int(sample["audit"].sum()), "audit_speeches": len(audited),
+        "audit_batches": sorted(sample.loc[sample["audit"], "batch"].unique().tolist()),
         "batches": n_batches,
     })
     return sample
@@ -492,7 +488,7 @@ def draw_checkset(force: bool = False) -> dict:
     """The check set (docs/calibration.md, section 4): for each lens, 30 fragments the core labeller marked
     positive and 30 near-misses, fragments it marked negative whose score is at least the median score of its
     positives; each group drawn at random among the fragments not listed in REREAD, or taken whole when smaller.
-    The second reading adds every validation fragment the core labeller marked at confidence 2 or less, every
+    The second reading adds every audited fragment the core labeller marked at confidence 2 or less, every
     fragment at confidence 1 and every fragment listed in REREAD. Both are written together in random order to
     files of up to 150 fragments."""
     if (LABELS / CHECKER).exists() and any((LABELS / CHECKER).glob("*.jsonl")):
@@ -528,8 +524,8 @@ def draw_checkset(force: bool = False) -> dict:
         lenses[lens] = groups
         chosen.update(groups["positives"] + groups["near_misses"])
     confidence = {str(g): core_raw[g]["confidence"] for g in gids}
-    validation = set(sample.loc[sample["split"] == "validation", "gid"])
-    second = {"validation_low_confidence": sorted(g for g in validation if confidence[g] <= LOW_CONFIDENCE),
+    audited = set(sample.loc[sample["audit"], "gid"])
+    second = {"audit_low_confidence": sorted(g for g in audited if confidence[g] <= LOW_CONFIDENCE),
               "confidence_1": sorted(g for g, c in confidence.items() if c == 1),
               "reread": sorted(reread)}
     second_all = set().union(*second.values())
@@ -725,7 +721,7 @@ def final_labels() -> pd.DataFrame:
                 types[lens] = resolved[g][lens]
         types = expand_labels(types, codebook)
         rows.append({"gid": g, **{lens: types.get(lens) == "substantive" for lens in ids}})
-    final = sample[["gid", "frag_id", "speech_id", "year", "period", "split", "pi"]].merge(pd.DataFrame(rows),
+    final = sample[["gid", "frag_id", "speech_id", "year", "period", "audit", "pi"]].merge(pd.DataFrame(rows),
                                                                                           on="gid")
     final.to_parquet(FINAL, index=False)
     return final
@@ -733,13 +729,13 @@ def final_labels() -> pd.DataFrame:
 
 def changes(final: pd.DataFrame) -> dict:
     """How often the final label differs from the core label on some lens (docs/calibration.md, section 4): over the
-    doubtful validation fragments of the second reading, all of them and those outside the reread lists (whose rules
+    doubtful audited fragments of the second reading, all of them and those outside the reread lists (whose rules
     changed), over the review of codebook 1.4 and over REREAD14; with the pairs (fragment, lens) added and removed."""
     codebook = load_lenses()
     ids = lens_ids(codebook)
     core, core_raw = read_labeller(CORE, ids, codebook)
     rows = final.set_index("gid")
-    doubtful = {g for g in rows.index[rows["split"] == "validation"] if core_raw[g]["confidence"] <= LOW_CONFIDENCE}
+    doubtful = {g for g in rows.index[rows["audit"]] if core_raw[g]["confidence"] <= LOW_CONFIDENCE}
     rereads = set(json.loads(REREAD.read_text())["fragments"]) if REREAD.exists() else set()
     rereads |= set(reread14())
     rv = json.loads(REVIEW.read_text()) if REVIEW.exists() else {}
@@ -760,7 +756,7 @@ def changes(final: pd.DataFrame) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Classifiers, test and probabilities
+# Classifiers, evaluation and probabilities
 # ---------------------------------------------------------------------------
 
 def rates(d: np.ndarray, y: np.ndarray, w: np.ndarray) -> dict:
@@ -809,18 +805,61 @@ def best_threshold(p: np.ndarray, y: np.ndarray, w: np.ndarray) -> float:
     return float(ps[np.argmax(np.where(last, f1, -1.0))])
 
 
-def fit(final: bool = False) -> dict:
-    """One classifier per lens (docs/calibration.md, section 5), on the training set, or with `final` on the training
-    and validation sets together once the test has run (section 7). For each lens, C by five-fold cross-validated
-    weighted average precision with the folds split by speech, a weighted Platt calibration of the out-of-fold scores,
-    and the threshold with the best weighted F1 of the calibrated out-of-fold probabilities, after the umbrella rule."""
+def evaluate(dev: pd.DataFrame, p: dict, thr: dict) -> dict:
+    """The pass bar and the share check (docs/calibration.md, section 6) on the out-of-fold probabilities p of the
+    labelled fragments dev: per lens, weighted precision, recall and F1 overall and per period, with 95% intervals for
+    precision and recall from a bootstrap that resamples speeches, since the folds are split by speech; the confusion
+    matrix; and per period the weighted mean probability beside the weighted share of positive labels."""
+    w = 1 / dev["pi"].to_numpy()
+    period = dev["period"].to_numpy()
+    speech = pd.factorize(dev["speech_id"])[0]
+    rng = np.random.default_rng(SEED + 6)
+
+    def summary(d, y, mask):
+        idx = np.flatnonzero(mask)
+        est = rates(d[idx], y[idx], w[idx])
+        units, members = np.unique(speech[idx], return_inverse=True)
+        wi, di, yi = w[idx], d[idx], y[idx]
+        sums = np.zeros((len(units), 3))  # per speech: weighted TP, FP, FN
+        np.add.at(sums, members, np.column_stack([wi * di * yi, wi * di * ~yi, wi * ~di * yi]))
+        tp, fp, fn = np.array([np.bincount(rng.integers(0, len(units), len(units)), minlength=len(units)) @ sums
+                               for _ in range(BOOTSTRAP)]).T
+        with np.errstate(divide="ignore", invalid="ignore"):
+            lo, hi = np.nanpercentile(np.column_stack([tp / (tp + fp), tp / (tp + fn)]), [2.5, 97.5], axis=0)
+        return {**est, "precision_ci": [float(lo[0]), float(hi[0])], "recall_ci": [float(lo[1]), float(hi[1])],
+                "positives": int(yi.sum())}
+
+    def passes(r):
+        return r["f1"] >= PASS_BAR
+
+    def confusion(d, y):
+        cells = {"tp": d & y, "fp": d & ~y, "fn": ~d & y, "tn": ~d & ~y}
+        return {**{k: int(v.sum()) for k, v in cells.items()},
+                "weighted": {k: float(w[v].sum()) for k, v in cells.items()}}
+
+    out = {}
+    for lens in thr:
+        y, d = dev[lens].to_numpy().astype(bool), p[lens] >= thr[lens]
+        overall = summary(d, y, np.ones(len(dev), dtype=bool))
+        periods = {f"{a}-{b}": summary(d, y, period == k) for k, (a, b) in enumerate(PERIODS) if (period == k).any()}
+        checked = sorted(k for k, v in periods.items() if v["positives"] >= MIN_PERIOD_POSITIVES)
+        shares = {f"{a}-{b}": {"mean_probability": float((w * p[lens])[period == k].sum() / w[period == k].sum()),
+                               "labelled_share": float((w * y)[period == k].sum() / w[period == k].sum())}
+                  for k, (a, b) in enumerate(PERIODS) if (period == k).any()}
+        out[lens] = {"overall": overall, "confusion": confusion(d, y), "periods": periods, "checked_periods": checked,
+                     "shares": shares, "pass": bool(passes(overall) and all(passes(periods[k]) for k in checked))}
+    return out
+
+
+def fit() -> dict:
+    """One classifier per lens (docs/calibration.md, section 5) on every labelled fragment, and its evaluation
+    (section 6). For each lens, C by five-fold cross-validated weighted average precision with the folds split by
+    speech, a weighted Platt calibration of the out-of-fold scores, and the threshold with the best weighted F1 of the
+    calibrated out-of-fold probabilities, after the umbrella rule; the pass bar and the share check on those same
+    out-of-fold probabilities."""
     codebook = load_lenses()
     every, ids = lens_ids(codebook), fitted_ids(codebook)
-    sets = ["train", "validation"] if final else ["train"]
-    if final and not RESULTS.exists():
-        raise CalibrationError("Run `test` before fitting on the validation set.")
-    labels = pd.read_parquet(FINAL)
-    dev = labels[labels["split"].isin(sets)].reset_index(drop=True)
+    dev = pd.read_parquet(FINAL)
     x = fragment_vectors(dev["frag_id"].to_numpy())
     mean, std = x.mean(axis=0), x.std(axis=0)
     std[std == 0] = 1.0
@@ -831,7 +870,7 @@ def fit(final: bool = False) -> dict:
         if min(y[lens].sum(), len(dev) - y[lens].sum()) < FOLDS:
             raise CalibrationError(f"{lens}: {int(y[lens].sum())} positive fragment(s); at least {FOLDS} of each "
                                    "class are needed")
-    # each lens's folds are seeded by its place among all the lenses, as before the reference lens was left out
+    # each lens's folds are seeded by its place among all the lenses, the reference lens included
     speech = dev["speech_id"].to_numpy()
     splits = {lens: list(StratifiedGroupKFold(FOLDS, shuffle=True, random_state=SEED + 10 + every.index(lens))
                          .split(xs, y[lens], speech)) for lens in ids}
@@ -856,7 +895,7 @@ def fit(final: bool = False) -> dict:
     gammas = {fits[lens][3] for lens in ids}
     if len(gammas) != 1:
         raise CalibrationError("The lenses were fitted with different kernel widths.")
-    info = {"method": "svm_rbf", "lenses": ids, "sets": sets, "lenses_sha256": sha256(LENSES_YAML),
+    info = {"method": "svm_rbf", "lenses": ids, "lenses_sha256": sha256(LENSES_YAML),
             "fitted_at": now(), "fragments": len(dev),
             "fragments_hash": embed.content_hash(embed.load_input("fragments"), "fragments")}
     frag = dev["frag_id"].to_numpy()
@@ -869,12 +908,10 @@ def fit(final: bool = False) -> dict:
                  C=np.array([chosen[k] for k in ids]), info=np.asarray(json.dumps(info)),
                  **{f"sv_{k}": frag[fits[k][0]] for k in ids}, **{f"dual_{k}": fits[k][1] for k in ids})
     tmp.replace(CLASSIFIERS)
-    table = pd.DataFrame({"frag_id": frag, "split": dev["split"].to_numpy(),
-                          **{f"p_{k}": p[k].astype(np.float32) for k in ids}})
-    table.to_parquet(OOF, index=False)
+    pd.DataFrame({"frag_id": frag, **{f"p_{k}": p[k].astype(np.float32) for k in ids}}).to_parquet(OOF, index=False)
+    ev = evaluate(dev, p, thr)
     out = {**info, "lenses": {k: {"C": chosen[k], "ap": ap[k][chosen[k]], "ap_by_C": {str(c): v for c, v in ap[k].items()},
-                                  "platt": list(platt[k]), "threshold": thr[k], "support": int(len(fits[k][0])),
-                                  "oof": rates(p[k] >= thr[k], y[k].astype(bool), w)}
+                                  "platt": list(platt[k]), "threshold": thr[k], "support": int(len(fits[k][0])), **ev[k]}
                               for k in ids}}
     write_json(FIT, out)
     return out
@@ -926,73 +963,6 @@ def probabilities(x: np.ndarray, clf: dict, codebook) -> np.ndarray:
     return np.column_stack([p[lens] for lens in ids])
 
 
-def test() -> dict:
-    """Pass bar and share check on the validation set (docs/calibration.md, section 6), with each lens's confusion
-    matrix. The validation set is used once: the classifiers must be those fitted on the training set, and a second
-    run is refused unless the classifiers are the same."""
-    codebook = load_lenses()
-    clf = load_classifiers()
-    if clf["info"]["sets"] != ["train"]:
-        raise CalibrationError("These classifiers were fitted with the validation set; the test needs those of `fit`.")
-    used = sha256(CLASSIFIERS)
-    if RESULTS.exists() and json.loads(RESULTS.read_text()).get("classifiers_sha256") != used:
-        raise CalibrationError(f"The validation set was already used, by other classifiers ({embed.rel(RESULTS)}).")
-    ids = list(clf["info"]["lenses"])
-    thr = dict(zip(ids, clf["threshold"].tolist()))
-    final = pd.read_parquet(FINAL)
-    tst = final[final["split"] == "validation"].reset_index(drop=True)
-    p = probabilities(fragment_vectors(tst["frag_id"].to_numpy()), clf, codebook)
-    w = 1 / tst["pi"].to_numpy()
-    period = tst["period"].to_numpy()
-    speech = pd.factorize(tst["speech_id"])[0]
-    rng = np.random.default_rng(SEED + 3)
-
-    def summary(d_l, y, mask):
-        """Weighted precision and recall on the masked fragments, with 95% intervals from a bootstrap that
-        resamples speeches, since the validation set was drawn by speech."""
-        idx = np.flatnonzero(mask)
-        est = rates(d_l[idx], y[idx], w[idx])
-        units, members = np.unique(speech[idx], return_inverse=True)
-        rows_of = np.split(idx[np.argsort(members, kind="stable")], np.cumsum(np.bincount(members))[:-1])
-        draws = []
-        for _ in range(BOOTSTRAP):
-            b = np.concatenate([rows_of[k] for k in rng.integers(0, len(units), len(units))])
-            r = rates(d_l[b], y[b], w[b])
-            draws.append((r["precision"], r["recall"]))
-        lo, hi = np.nanpercentile(np.array(draws), [2.5, 97.5], axis=0)
-        return {**est, "precision_ci": [float(lo[0]), float(hi[0])],
-                "recall_ci": [float(lo[1]), float(hi[1])], "positives": int(y[idx].sum())}
-
-    def passes(r):
-        return r["precision"] >= PASS_BAR and r["recall"] >= PASS_BAR
-
-    def confusion(d, y):
-        cells = {"tp": d & y, "fp": d & ~y, "fn": ~d & y, "tn": ~d & ~y}
-        return {**{k: int(v.sum()) for k, v in cells.items()},
-                "weighted": {k: float(w[v].sum()) for k, v in cells.items()}}
-
-    results = {}
-    for i, lens in enumerate(ids):
-        y = tst[lens].to_numpy().astype(bool)
-        d = p[:, i] >= thr[lens]
-        overall = summary(d, y, np.ones(len(tst), dtype=bool))
-        periods = {f"{a}-{b}": summary(d, y, period == k)
-                   for k, (a, b) in enumerate(PERIODS) if (period == k).any()}
-        checked = sorted(k for k, v in periods.items() if v["positives"] >= MIN_PERIOD_POSITIVES)
-        shares = {f"{a}-{b}": {"mean_probability": float((w * p[:, i])[period == k].sum() / w[period == k].sum()),
-                               "labelled_share": float((w * y)[period == k].sum() / w[period == k].sum())}
-                  for k, (a, b) in enumerate(PERIODS) if (period == k).any()}
-        results[lens] = {"threshold": thr[lens], "overall": overall, "confusion": confusion(d, y),
-                         "average_precision": float(average_precision_score(y, p[:, i], sample_weight=w)),
-                         "periods": periods, "checked_periods": checked, "shares": shares,
-                         "pass": bool(passes(overall) and all(passes(periods[k]) for k in checked))}
-    pd.DataFrame({"frag_id": tst["frag_id"].to_numpy(), **{f"p_{k}": p[:, i].astype(np.float32)
-                                                          for i, k in enumerate(ids)}}).to_parquet(VALIDATION, index=False)
-    out = {"tested_at": now(), "classifiers_sha256": used, "validation_fragments": len(tst), "lenses": results}
-    write_json(RESULTS, out)
-    return out
-
-
 def predict(chunk: int = 65536) -> pd.DataFrame:
     """The probability of every fragment on every fitted lens, for the shares and the excerpts, and the thresholds."""
     codebook = load_lenses()
@@ -1010,7 +980,7 @@ def predict(chunk: int = 65536) -> pd.DataFrame:
     tmp.replace(PROBS)
     # which fragments (frag_id is renumbered when the corpus is rebuilt), which classifiers, and each lens's threshold
     write_json(PROBS.with_suffix(".json"), {"input_hash": man.get("input_hash"),
-                                            "classifiers_sha256": sha256(CLASSIFIERS), "sets": clf["info"]["sets"],
+                                            "classifiers_sha256": sha256(CLASSIFIERS),
                                             "thresholds": dict(zip(ids, clf["threshold"].tolist())),
                                             "made_at": now()})
     return out
@@ -1037,9 +1007,7 @@ def main(argv: list[str] | None = None) -> int:
     p_rev.add_argument("--force", action="store_true", help="redraw (only before any review label exists)")
     sub.add_parser("collect", help="agreement of the two labellers on the check set, resolver queue")
     sub.add_parser("final", help="final labels")
-    p_fit = sub.add_parser("fit", help="one classifier per lens on the training set")
-    p_fit.add_argument("--final", action="store_true", help="on the training and validation sets, after `test`")
-    sub.add_parser("test", help="pass bar and share check on the validation set")
+    sub.add_parser("fit", help="one classifier per lens, and the pass bar, by cross-validation over every label")
     sub.add_parser("predict", help="probability of every fragment on every lens")
     args = parser.parse_args(argv)
     try:
@@ -1068,21 +1036,15 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{len(final):,} fragments -> {embed.rel(FINAL)}")
             print(json.dumps(changes(final), indent=2))
         elif args.command == "fit":
-            out = fit(final=args.final)
-            for lens, r in out["lenses"].items():
-                print(f"{lens:<24} C {r['C']:<5} AP {r['ap']:.3f} threshold {r['threshold']:.2f} "
-                      f"out-of-fold P {r['oof']['precision']:.2f} R {r['oof']['recall']:.2f}")
-        elif args.command == "predict":
-            out = predict()
-            print(f"{len(out):,} fragments -> {embed.rel(PROBS)}")
-        else:
-            out = test()
+            out = fit()
             for lens, r in out["lenses"].items():
                 o = r["overall"]
-                cm = r["confusion"]
-                print(f"{lens:<24} P {o['precision']:.2f} R {o['recall']:.2f} n+ {o['positives']:>4} "
-                      f"TP {cm['tp']:>4} FP {cm['fp']:>4} FN {cm['fn']:>4} TN {cm['tn']:>5} "
+                print(f"{lens:<24} C {r['C']:<5} AP {r['ap']:.3f} threshold {r['threshold']:.2f} "
+                      f"P {o['precision']:.2f} R {o['recall']:.2f} F1 {o['f1']:.2f} n+ {o['positives']:>4} "
                       f"{'PASS' if r['pass'] else 'short'}")
+        else:
+            out = predict()
+            print(f"{len(out):,} fragments -> {embed.rel(PROBS)}")
     except (CalibrationError, embed.EmbedError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1

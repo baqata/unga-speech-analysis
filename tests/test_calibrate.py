@@ -100,9 +100,8 @@ def paths(tmp_path, monkeypatch):
     monkeypatch.setattr(cal, "SCORES", tmp_path / "lens_scores.parquet")
     monkeypatch.setattr(cal, "PROBS", tmp_path / "lens_probs.parquet")
     monkeypatch.setattr(cal, "OOF", tmp_path / "lens_oof.parquet")
-    monkeypatch.setattr(cal, "VALIDATION", tmp_path / "lens_validation.parquet")
     for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "CHECK", "CHECKSET", "REREAD", "REVIEW", "REREAD14",
-                 "CHANGES", "AGREEMENT", "RESOLVE", "RESOLVED", "FINAL", "FIT", "CLASSIFIERS", "RESULTS", "GOLD"):
+                 "CHANGES", "AGREEMENT", "RESOLVE", "RESOLVED", "FINAL", "FIT", "CLASSIFIERS", "GOLD"):
         rel = getattr(cal, name).relative_to(config.GOLD) if name != "GOLD" else None
         monkeypatch.setattr(cal, name, tmp_path / "gold" / rel if rel else tmp_path / "gold")
     FakeEncoder.calls, FakeEncoder.interrupt_after = [], None
@@ -211,12 +210,13 @@ def test_end_to_end(paths, monkeypatch):
     assert manifest["expected_size"] == pytest.approx(1500, abs=1e-3)
     assert abs(len(sample) - 1500) < 4 * np.sqrt(1500)
     assert not frags.set_index("frag_id").loc[sample.frag_id, "is_ceremonial"].any()
-    assert sample.gid.is_unique and set(sample.split) == {"train", "validation"}
-    # The validation set is whole speeches, about a fifth of the sample, in the first batches.
-    assert not set(sample.speech_id[sample.split == "train"]) & set(sample.speech_id[sample.split == "validation"])
-    assert abs((sample.split == "validation").mean() - cal.VALIDATION_SHARE) < 0.06
-    assert sample.groupby("batch").split.nunique().max() == 1
-    assert sample.loc[sample.split == "validation", "batch"].max() < sample.loc[sample.split == "train", "batch"].min()
+    assert sample.gid.is_unique and sample.audit.any() and not sample.audit.all()
+    # The audited fifth is whole speeches, about a fifth of the sample, in the first batches.
+    assert not set(sample.speech_id[sample.audit]) & set(sample.speech_id[~sample.audit])
+    assert abs(sample.audit.mean() - cal.AUDIT_SHARE) < 0.06
+    assert manifest["audit_fragments"] == sample.audit.sum()
+    assert sample.groupby("batch").audit.nunique().max() == 1
+    assert sample.loc[sample.audit, "batch"].max() < sample.loc[~sample.audit, "batch"].min()
     assert (sample.pi > 0).all() and (sample.pi <= 1).all()
     with pytest.raises(cal.CalibrationError):
         cal.draw_sample()
@@ -254,27 +254,27 @@ def test_end_to_end(paths, monkeypatch):
     final = cal.final_labels()
     assert (final.set_index("gid")[IDS] == truth_by_gid[IDS]).all().all()
 
-    with pytest.raises(cal.CalibrationError):
-        cal.fit(final=True)  # the validation set joins only after the test
     fitted = cal.fit()
     ids = cal.fitted_ids()
     assert "peace" not in ids and list(fitted["lenses"]) == ids  # the reference lens is labelled, not fitted
-    assert all(fitted["lenses"][x]["C"] in cal.PENALTIES and 0 < fitted["lenses"][x]["threshold"] < 1 for x in ids)
-    results = cal.test()
-    n_val = results["validation_fragments"]
+    assert fitted["fragments"] == len(final)  # every labelled fragment
     for x in ids:
-        r = results["lenses"][x]["overall"]
-        assert r["precision"] > 0.7 and r["recall"] > 0.7, x
+        f = fitted["lenses"][x]
+        assert f["C"] in cal.PENALTIES and 0 < f["threshold"] < 1
+        # The pass bar on the out-of-fold probabilities, with intervals and a confusion matrix over every label.
+        r = f["overall"]
+        assert r["precision"] > 0.7 and r["recall"] > 0.7 and r["f1"] > cal.PASS_BAR, x
         assert 0 <= r["precision_ci"][0] <= r["precision_ci"][1] <= 1
-        assert results["lenses"][x]["pass"]
-        cm = results["lenses"][x]["confusion"]
-        assert cm["tp"] + cm["fp"] + cm["fn"] + cm["tn"] == n_val and cm["tp"] + cm["fn"] == r["positives"]
+        assert f["pass"] and set(f["checked_periods"]) <= set(f["periods"])
+        cm = f["confusion"]
+        assert cm["tp"] + cm["fp"] + cm["fn"] + cm["tn"] == len(final) and cm["tp"] + cm["fn"] == r["positives"]
+    oof = pd.read_parquet(cal.OOF)
+    assert oof.columns.tolist() == ["frag_id"] + [f"p_{x}" for x in ids] and len(oof) == len(final)
     # Weighted Platt brings the probabilities back to corpus level: the weighted mean probability
     # of each period is close to the weighted share of positive labels.
     for x in ("terrorism", "drugs"):
-        for period in results["lenses"][x]["shares"].values():
+        for period in fitted["lenses"][x]["shares"].values():
             assert abs(period["mean_probability"] - period["labelled_share"]) < 0.08
-    assert cal.test()["lenses"].keys() == results["lenses"].keys()  # the same classifiers may run it again
 
     probs = cal.predict()
     assert len(probs) == len(frags) and probs.frag_id.is_monotonic_increasing
@@ -286,11 +286,6 @@ def test_end_to_end(paths, monkeypatch):
     thresholds = json.loads(cal.PROBS.with_suffix(".json").read_text())["thresholds"]
     about = probs.set_index("frag_id")["p_terrorism"] >= thresholds["terrorism"]
     assert (about == truth["terrorism"]).mean() > 0.95
-
-    # After the test, the classifiers are fitted again with the validation set, which the test then refuses.
-    assert cal.fit(final=True)["sets"] == ["train", "validation"]
-    with pytest.raises(cal.CalibrationError):
-        cal.test()
 
 
 # ---------------------------------------------------------------------------
@@ -319,7 +314,7 @@ def gold(tmp_path, monkeypatch):
     monkeypatch.setattr(cal, "CHECK_PER_GROUP", 2)
     gids = [f"g{i}" for i in range(1, 9)]
     pd.DataFrame({"gid": gids, "frag_id": [f"f{i}" for i in range(1, 9)], "speech_id": [f"s{i}" for i in range(1, 9)],
-                  "year": 1990, "period": 2, "split": "train", "pi": 0.5,
+                  "year": 1990, "period": 2, "audit": False, "pi": 0.5,
                   "batch": ["b001"] * 4 + ["b002"] * 4}).to_parquet(tmp_path / "sample.parquet")
     pd.DataFrame({"frag_id": [f"f{i}" for i in range(1, 9)],
                   **{f"s_{lens}": SCORE.get(lens, [0.0] * 8) for lens in IDS}}).to_parquet(tmp_path / "scores.parquet")
@@ -344,10 +339,10 @@ def test_check_set_draws_core_positives_and_near_misses(gold):
 
 
 def test_second_reading_joins_the_check_files_but_not_the_agreement(gold):
-    # g2 and g8 are validation fragments; the core labeller was unsure of g8 (2) and of g6 (1, training);
+    # g2 and g8 are audited fragments; the core labeller was unsure of g8 (2) and of g6 (1, not audited);
     # g1 is listed for a second reading after a codebook revision, so it cannot enter the check set.
     sample = pd.read_parquet(gold / "sample.parquet")
-    sample.loc[sample.gid.isin(["g2", "g8"]), "split"] = "validation"
+    sample.loc[sample.gid.isin(["g2", "g8"]), "audit"] = True
     sample.to_parquet(gold / "sample.parquet")
     unsure = {"g8": 2, "g6": 1}
     for batch in ("b001", "b002"):
@@ -360,7 +355,7 @@ def test_second_reading_joins_the_check_files_but_not_the_agreement(gold):
     assert drugs["near_misses"] == ["g4", "g7"] and peace["near_misses"] == []  # g1 was peace's only near-miss
     second = cs["second_reading"]
     assert second["fragments"] == ["g1", "g6", "g8"] and second["also_in_check_set"] == 1
-    assert (second["validation_low_confidence"], second["confidence_1"], second["reread"]) == (1, 1, 1)
+    assert (second["audit_low_confidence"], second["confidence_1"], second["reread"]) == (1, 1, 1)
     written = [r["frag_id"] for p in sorted((gold / "check").glob("*.jsonl")) for r in cal.read_jsonl(p)]
     assert sorted(written) == [f"g{i}" for i in range(1, 9)]
     # The check labeller agrees, except that it reads g8 as about peace: g8 is queued, the agreement is unchanged.
