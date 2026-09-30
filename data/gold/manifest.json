@@ -71,6 +71,13 @@
       "codebook_sha256": "056fe062abcdd029898e871b4bf1aba4538010f84447a5614070e3090edbb99b",
       "lenses_sha256": "acac1d6aad3fbd18e65d18bd2e233cd510165380cc6710692550776c723776dd",
       "note": "Codebook 1.3 for the check labeller and the resolver, and a second reading of the doubtful validation labels, the confidence-1 labels and the 251 fragments listed in data/gold/reread.json (user, 2026-09-29 22:57 UTC and 2026-09-30 about 00:30 UTC). Core labels unchanged, under 1.2; sample, sets and batches unchanged."
+    },
+    {
+      "at": "2026-09-30T03:17:53+00:00",
+      "protocol_sha256": "5d877db814fcb4b0f79c19c46bece5b17ef3549a26040ccdde861dd07c24e37c",
+      "codebook_sha256": "9ea5af30423217188a034ed87258aa4579b153ebfd12a3a06cdfb0a571a37e5a",
+      "lenses_sha256": "6abee3a13d61c35571cba747a46cd5ad33df302c20609d6060a3dbadfd85eb60",
+      "note": "Codebook 1.4 and lenses.yaml aligned with UNODC's official definitions and scope, for the review files and the resolver; 1,299 fragments the changed rules may change listed in data/gold/reread14.json: the 1,039 outside the check files are read again under 1.4 with a review of 250 more, and the listed lenses of the 260 in the check files go to the resolver (user, 2026-09-30 01:58 and 02:48 UTC). Core labels unchanged, under 1.2; check labels c001-c015 unchanged, under 1.3; sample, sets and batches unchanged. The lens vectors and lens scores were made with the previous lenses.yaml (acac1d6a..., in git history), whose anchors are unchanged; they only drew the sample and define the near-misses, and are not remade."
     }
   ]
 }

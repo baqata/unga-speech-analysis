@@ -99,8 +99,8 @@ def paths(tmp_path, monkeypatch):
     monkeypatch.setattr(cal, "LENS_VECTORS", tmp_path / "emb" / "lenses.npz")
     monkeypatch.setattr(cal, "SCORES", tmp_path / "lens_scores.parquet")
     monkeypatch.setattr(cal, "PROBS", tmp_path / "lens_probs.parquet")
-    for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "CHECK", "CHECKSET", "REREAD", "AGREEMENT", "RESOLVE",
-                 "RESOLVED", "FINAL", "FIT", "CLASSIFIERS", "RESULTS", "GOLD"):
+    for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "CHECK", "CHECKSET", "REREAD", "REVIEW", "REREAD14",
+                 "CHANGES", "AGREEMENT", "RESOLVE", "RESOLVED", "FINAL", "FIT", "CLASSIFIERS", "RESULTS", "GOLD"):
         rel = getattr(cal, name).relative_to(config.GOLD) if name != "GOLD" else None
         monkeypatch.setattr(cal, name, tmp_path / "gold" / rel if rel else tmp_path / "gold")
     FakeEncoder.calls, FakeEncoder.interrupt_after = [], None
@@ -274,6 +274,7 @@ def gold(tmp_path, monkeypatch):
     """Eight sampled fragments in two batches, labelled by the core labeller."""
     for name, rel in {"GOLD": ".", "SAMPLE": "sample.parquet", "BATCHES": "batches", "LABELS": "labels",
                       "CHECK": "check", "CHECKSET": "checkset.json", "REREAD": "reread.json",
+                      "REVIEW": "review.json", "REREAD14": "reread14.json", "CHANGES": "changes.json",
                       "AGREEMENT": "agreement.json",
                       "RESOLVE": "resolve", "RESOLVED": "resolved", "FINAL": "labels_final.parquet",
                       "SCORES": "scores.parquet"}.items():
@@ -334,6 +335,80 @@ def test_second_reading_joins_the_check_files_but_not_the_agreement(gold):
     assert summary["agreement"]["drugs"]["kappa"] == 1.0
     assert (summary["to_resolve"], summary["second_reading"], summary["second_reading_to_resolve"]) == (1, 3, 1)
     assert [r["frag_id"] for r in cal.read_jsonl(gold / "resolve" / "r001.jsonl")] == ["g8"]
+
+
+def test_review_reads_more_fragments_outside_the_check_files(gold, monkeypatch):
+    # One positive and one near-miss per lens in the check set leave one drugs positive, one drugs near-miss and one
+    # peace positive for the review; peace's only near-miss (g1) is already read, so a positive takes its place.
+    monkeypatch.setattr(cal, "CHECK_PER_GROUP", 1)
+    monkeypatch.setattr(cal, "REVIEW_PER_LENS", 2)
+    monkeypatch.setattr(cal, "REVIEW_FILES", 2)
+    with pytest.raises(cal.CalibrationError):
+        cal.draw_review()  # needs the check set
+    cs = cal.draw_checkset()
+    read = {g for v in cs["lenses"].values() for g in v["positives"] + v["near_misses"]}
+    rv = cal.draw_review()
+    drugs, peace = rv["lenses"]["drugs"], rv["lenses"]["peace"]
+    assert len(drugs["positives"]) == 1 and set(drugs["positives"]) <= {"g1", "g2", "g3"} - read
+    assert drugs["near_misses"] == sorted({"g4", "g7"} - read)
+    assert peace["positives"] == sorted({"g5", "g6"} - read) and peace["near_misses_available"] == 0
+    assert rv["files"] == {"c002": 2, "c003": 1} and not set(rv["frag_ids"]) & read
+    written = [r["frag_id"] for p in ("c002", "c003") for r in cal.read_jsonl(gold / "check" / f"{p}.jsonl")]
+    assert sorted(written) == rv["frag_ids"]
+    with pytest.raises(cal.CalibrationError):
+        cal.draw_review()  # drawn once
+    assert cal.draw_review(force=True)["frag_ids"] == rv["frag_ids"]
+    # The check labeller agrees everywhere except on the review's peace positive: it is queued, and the agreement,
+    # which counts the check set only, is unchanged.
+    odd = peace["positives"][0]
+    for p in sorted((gold / "check").glob("*.jsonl")):
+        cal.write_jsonl(gold / "labels" / "check" / p.name,
+                        [record(r["frag_id"], None if r["frag_id"] == odd else CORE_LENS.get(r["frag_id"]))
+                         for r in cal.read_jsonl(p)])
+    summary = cal.collect()
+    assert summary["agreement"]["peace"]["kappa"] == 1.0 and summary["agreement"]["drugs"]["kappa"] == 1.0
+    assert (summary["to_resolve"], summary["review"], summary["review_to_resolve"]) == (1, 3, 1)
+    with pytest.raises(cal.CalibrationError):
+        cal.draw_review(force=True)  # review labels exist
+
+
+def test_reread14_joins_the_review_outside_the_check_files_and_goes_to_the_resolver_inside(gold, monkeypatch):
+    # Codebook 1.4 may change three fragments: g1, read in the check files before 1.4 (peace's only near-miss), and
+    # g8 and a drugs positive left outside them. The two outside are read again in the review files and are not drawn
+    # for the review; g1's listed lens goes to the resolver although both labellers left it out.
+    monkeypatch.setattr(cal, "CHECK_PER_GROUP", 1)
+    monkeypatch.setattr(cal, "REVIEW_PER_LENS", 2)
+    monkeypatch.setattr(cal, "REVIEW_FILES", 2)
+    cs = cal.draw_checkset()
+    read = cal.checked(cs)
+    extra = sorted({"g2", "g3"} - read)[0]
+    (gold / "reread14.json").write_text(json.dumps({"fragments": {
+        "g1": {"lenses": ["terrorism"], "reasons": ["treaty_acts"]},
+        "g8": {"lenses": ["criminal_justice"], "reasons": ["ordinary_crime"]},
+        extra: {"lenses": ["drugs"], "reasons": ["coca_traditional"]}}}))
+    rv = cal.draw_review()
+    assert "g1" in read and rv["reread"] == sorted(["g8", extra]) and rv["reread_in_check_files"] == 1
+    assert not set(rv["frag_ids"]) & ({"g1", "g8", extra} | read)
+    assert extra not in rv["lenses"]["drugs"]["positives"]
+    written = [r["frag_id"] for p in rv["files"] for r in cal.read_jsonl(gold / "check" / f"{p}.jsonl")]
+    assert sorted(written) == sorted(rv["frag_ids"] + rv["reread"])
+    for p in sorted((gold / "check").glob("*.jsonl")):  # the check labeller agrees everywhere
+        cal.write_jsonl(gold / "labels" / "check" / p.name,
+                        [record(r["frag_id"], CORE_LENS.get(r["frag_id"])) for r in cal.read_jsonl(p)])
+    summary = cal.collect()
+    assert (summary["to_resolve"], summary["reread14"], summary["reread14_to_resolve"]) == (1, 2, 0)
+    assert (summary["reread14_in_check_files"], summary["reread14_pairs_forced"]) == (1, 1)
+    assert summary["agreement"]["peace"]["kappa"] == 1.0
+    queued = cal.read_jsonl(gold / "resolve" / "r001.jsonl")
+    assert [(r["frag_id"], r["lenses"]) for r in queued] == [("g1", ["terrorism"])]
+    cal.write_jsonl(gold / "resolved" / "r001.jsonl", [{"frag_id": "g1", "decisions": {"terrorism": "substantive"},
+                                                        "note": ""}])
+    final = cal.final_labels()
+    assert final.set_index("gid")["terrorism"].tolist() == [True] + [False] * 7
+    ch = cal.changes(final)
+    assert ch["reread14"] == {"fragments": 3, "changed": 1, "share": 0.333, "pairs_added": 1, "pairs_removed": 0}
+    assert ch["review"]["fragments"] == len(rv["frag_ids"]) and ch["review"]["changed"] == 0
+    assert ch["second_reading_doubtful"]["fragments"] == 0 and json.loads((gold / "changes.json").read_text())
 
 
 def test_disagreements_go_to_the_resolver_and_its_decision_is_final(gold):

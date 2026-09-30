@@ -35,19 +35,19 @@ lenses:
     definition_en: >-
       The world drug problem as addressed by the three international drug control
       conventions: the illicit cultivation, production, manufacture, trafficking and
-      sale of narcotic drugs, psychotropic substances and their precursors, and the
-      policies to counter them. It covers supply reduction and law enforcement,
+      sale of narcotic drugs, psychotropic substances and their precursors, their abuse
+      and its health and social consequences, and the policies to counter them. It covers supply reduction and law enforcement,
       international drug control cooperation under the principle of common and shared
       responsibility, drug-related violence and drug policy debates. It is the umbrella
       lens: any fragment labelled prevention_treatment or alternative_development also
       carries it.
     include:
       - Illicit cultivation, production, manufacture, trafficking and sale of narcotic drugs and psychotropic substances (opium, heroin, coca, cocaine, cannabis, methamphetamine, fentanyl, new psychoactive substances).
-      - Drug control treaties and bodies (1961, 1971 and 1988 conventions, Commission on Narcotic Drugs, INCB, UNFDAC, UNDCP, UNODC) and the special sessions on drugs (1990, 1998, 2016).
+      - Drug control treaties and bodies (1961, 1971 and 1988 conventions, Commission on Narcotic Drugs, INCB, UNFDAC, UNDCP, and UNODC when its drug work is meant) and the special sessions on drugs (1990, 1998, 2016).
       - Supply reduction - interdiction, seizures, eradication, border, port and maritime control, control of precursor chemicals, dismantling of trafficking organizations.
       - Drug-related violence and the threat that drug trafficking poses to governance, sovereignty and security, when drugs are the subject.
       - Common and shared responsibility of producer, transit and consumer countries; international cooperation against drugs.
-      - Drug policy debates - the war on drugs, proportionality and human rights in drug policy, decriminalization, legal regulation of cannabis, the status of the coca leaf.
+      - Drug policy debates - the war on drugs, proportionality and human rights in drug policy, decriminalization, legal regulation of cannabis, the traditional uses of the coca leaf and its status under the conventions.
       - '"Drug abuse", addiction or consumption named only as the problem or scourge; the doublet "drug abuse and illicit trafficking" and the bodies and events named after it (UNFDAC, the 1987 International Conference, the International Day against Drug Abuse and Illicit Trafficking); the "balanced approach" formula pairing supply reduction and demand reduction; calls on consumer countries to reduce demand as burden sharing. None of these adds prevention_treatment by itself.'
       - Every fragment labelled prevention_treatment or alternative_development (umbrella rule).
     exclude:
@@ -56,6 +56,7 @@ lenses:
       - Alcohol and tobacco control when illicit drugs are not discussed.
       - Smuggling of goods other than drugs (organized_crime) and commodity or oil "cartels" (economic, not criminal).
       - Metaphors such as "the opium of the people" or "addiction to oil".
+      - UNODC's work on crime, corruption or terrorism (the lens of that work).
     era_terms:
       - traffic in opium
       - narcotic drugs
@@ -158,13 +159,14 @@ lenses:
       - Treatment, rehabilitation, aftercare and social reintegration of people who use drugs ("drug addicts", "drug-dependent persons", "people with drug use disorders").
       - Demand reduction as a named policy or programme with content (what is done, for whom or how), including the 1998 Declaration on the Guiding Principles of Drug Demand Reduction.
       - Public health responses to drug use - HIV and hepatitis among people who inject drugs, overdose prevention, harm reduction, opioid substitution therapy, links with mental health.
-      - Alternatives to conviction or punishment for people who use drugs, when framed as health or social responses.
+      - Drug courts, and treatment, education, rehabilitation, aftercare or social reintegration offered to people who use drugs as an alternative to conviction or punishment (1988 Convention, art. 3(4)).
       - Access to controlled medicines for medical and scientific purposes (pain relief, morphine) together with the prevention of their diversion.
     exclude:
       - '"Drug abuse", addiction or consumption named only as the problem or scourge, with no response described (drugs only).'
       - The doublet "drug abuse and illicit trafficking" and the names built on it - UNFDAC, the 1987 International Conference, the International Day (drugs only).
       - The "balanced approach" formula ("supply reduction and demand reduction", "reducing supply and reducing demand") and calls by producer or transit countries on consumer countries to reduce demand (drugs only).
       - Supply-side measures only - seizures, eradication, interdiction (drugs only).
+      - Non-custodial or proportionate sentencing for drug offences with no treatment or other health or social measure (drugs only; add criminal_justice if the justice system itself is discussed).
       - Health, HIV/AIDS or mental health fragments that do not mention drug use.
       - Alcohol or tobacco alone; label only when grouped with drug abuse as substance abuse (confidence 2).
       - Youth policy, education or sport in general without drug use.
@@ -246,17 +248,21 @@ lenses:
       specifically designed rural development measures (General Assembly resolution S-20/4,
       1998). It covers crop substitution, sustainable legal livelihoods, value chains and market
       access for farmers who grow or are vulnerable to growing illicit crops, and the balance
-      between development and eradication in drug crop areas.
+      between development and eradication in drug crop areas. Since the 2016 special session it
+      also covers development alternatives for other communities affected by illicit
+      drug-related activities, rural or urban.
     include:
       - Crop substitution, crop replacement or income substitution of coca bush, opium poppy or cannabis with legal crops or livelihoods.
       - Integrated or integral rural development in illicit crop areas - infrastructure, land titles, cooperatives, credit, technical assistance, value chains.
       - Market access and trade preferences for alternative development products, and donor funding for alternative development.
       - The balance and sequencing between forced eradication and development; voluntary substitution agreements with growers.
       - The 1998 Action Plan on the Eradication of Illicit Drug Crops and on Alternative Development, the 2013 UN Guiding Principles on Alternative Development, development-oriented drug policy.
-      - Coca-leaf growers' livelihoods and traditional uses when discussed together with illicit crop policy.
+      - Coca-leaf growers' livelihoods when development alternatives are discussed.
+      - Development alternatives for other communities affected by illicit drug-related activities, rural or urban (General Assembly resolution S-30/1, 2016, paras. 7(d), 7(j) and 7(k)).
     exclude:
       - Eradication, aerial spraying or interdiction with no development alternative (drugs only).
-      - General rural development, agrarian reform or food security with no link to illicit crops.
+      - General rural development, agrarian reform or food security with no link to illicit crops or other illicit drug-related activities.
+      - The traditional uses of the coca leaf and its status under the conventions, with no development alternative discussed (drugs only).
       - '"Alternative development" in the economic-ideology sense (alternative development models or strategies for the South, new international economic order); rare in the corpus but a lexical false positive.'
     era_terms:
       - crop substitution
@@ -335,24 +341,26 @@ lenses:
       Transnational Organized Crime (Palermo Convention) and its Protocols: structured criminal
       groups and networks that commit serious crimes, often across borders, for financial or
       other material benefit. It covers criminal organizations, cartels and gangs, illicit
-      trafficking in firearms, maritime crime and piracy, cybercrime and organized fraud,
+      trafficking in firearms, small arms and ammunition, maritime crime and piracy, cybercrime
+      (including online child sexual abuse material) and organized fraud,
       kidnapping and extortion, trafficking in cultural property and counterfeit goods, and
       international cooperation against them such as extradition and mutual legal assistance.
     include:
       - Organized crime, transnational crime, criminal organizations, networks, syndicates, mafias, and gangs or cartels treated as criminal organizations (their power, violence, territorial control, finances, diversification).
-      - The Palermo Convention (UNTOC), its Protocols and review mechanism; extradition, mutual legal assistance and law enforcement cooperation against crime.
-      - Illicit manufacturing of and trafficking in firearms, their parts and ammunition as crime (Firearms Protocol, diversion to criminals).
+      - The Palermo Convention (UNTOC), its review mechanism and the Firearms Protocol; extradition, mutual legal assistance and law enforcement cooperation against organized crime. The Protocols named only as part of the Convention add no other lens; a sentence about the Trafficking in Persons Protocol or the Migrant Smuggling Protocol is trafficking_smuggling.
+      - Illicit manufacturing of and trafficking in firearms, small arms and light weapons, their parts and ammunition (illicit trade, transfers, flows, smuggling or proliferation), whoever receives them, criminals or armed groups (Firearms Protocol, art. 3(e)); add peace when a sentence treats the armed conflict or disarmament.
       - Maritime crime - modern piracy and armed robbery at sea, maritime smuggling.
       - Cybercrime, ransomware, online fraud and scam operations; the UN Convention against Cybercrime.
+      - Online child sexual abuse or exploitation material and the online grooming of children (Convention against Cybercrime, arts. 14 and 15); add trafficking_smuggling only if the trafficking of children is discussed.
       - Kidnapping for ransom, extortion, fraud and scams committed by criminal groups; fuel theft, counterfeiting and falsified medicines, trafficking in cultural property, smuggling of goods.
       - Criminal groups that use "terrorist methods" or terrorize communities (add terrorism only when the fragment calls the acts terrorism).
       - The crime-terrorism and crime-drugs nexus when the fragment frames it as organized crime.
     exclude:
       - Drug trafficking, human trafficking or wildlife trafficking not framed in broader organized crime terms (label only drugs, trafficking_smuggling or environmental_crime).
-      - Fraud, extortion or embezzlement by public officials (corruption).
+      - Fraud, extortion or embezzlement by public officials, and fraud, tax crimes or corporate crimes by individuals or companies (corruption).
       - Homicide or kidnapping rates as crime statistics, unless the perpetrators are discussed as criminal groups (criminal_justice).
       - '"Air piracy" (aircraft hijacking) - terrorism; piracy of intellectual property or software unless framed as organized crime.'
-      - Small arms and light weapons discussed only as a disarmament or armed conflict issue (peace).
+      - Arms control, disarmament, the arms race and arms transfers between States, with no illicit trade (peace).
       - Invective such as "criminal regime", "gang of criminals" or "international banditry" applied to governments or States.
       - Cybersecurity between States and cyber warfare.
       - War crimes, genocide and crimes against humanity (outside all crime lenses; peace when tied to a conflict).
@@ -371,6 +379,7 @@ lenses:
       - extradition
       - mutual legal assistance
       - illicit trafficking in firearms
+      - illicit trade in small arms and light weapons
       - Firearms Protocol
       - piracy and armed robbery at sea
       - maritime crime
@@ -442,7 +451,8 @@ lenses:
       influence, nepotism, illicit enrichment and fraud by officials, in the public and private
       sectors. It covers the United Nations Convention against Corruption (prevention,
       criminalization and law enforcement, international cooperation and asset recovery), money
-      laundering and illicit financial flows, and the recovery and return of stolen assets.
+      laundering and illicit financial flows, economic and financial crime such as fraud, tax
+      evasion and corporate crime, and the recovery and return of stolen assets.
     include:
       - Corruption in the public or private sector - bribery, embezzlement, misappropriation of public funds, extortion or fraud by officials, trading in influence, nepotism, illicit enrichment, kleptocracy, grand corruption, state capture.
       - Criminals bribing, buying, infiltrating or capturing police, officials or institutions, when that is the main claim of a clause (add the crime lens too).
@@ -450,12 +460,13 @@ lenses:
       - Anti-corruption bodies, asset declarations, procurement integrity, whistle-blower protection, and transparency or accountability measures explicitly aimed at corruption.
       - Asset recovery and the return of stolen assets or "funds of illicit origin"; non-conviction-based forfeiture ("extinción de dominio").
       - Money laundering, financial intelligence units, beneficial ownership, anti-money-laundering standards, when laundering, its channels or the measures against it are the subject or main claim of a sentence or independent clause.
-      - Illicit financial flows, including tax evasion and trade misinvoicing when framed as illicit flows.
+      - Illicit financial flows as defined for SDG indicator 16.4.1 - flows from crime and corruption, tax evasion and illegal commercial practices such as trade misinvoicing, and cross-border aggressive tax avoidance by multinational enterprises (profit shifting, transfer mispricing, treaty shopping).
+      - Economic and financial crime by individuals or companies - financial, corporate, identity or document fraud, tax evasion and other tax crimes, corporate crimes (Doha Declaration, A/RES/70/174, annex, para. 8(f)).
       - Bribery by transnational corporations or foreign Powers and "administrative corruption" of former regimes (the usual framing before the 1990s).
     exclude:
       - Moral or metaphorical uses - "corruption of values", "corrupting influence" of consumerism or media, "moral decay".
       - Good governance, transparency or accountability rhetoric with no reference to corruption or economic crime.
-      - Tax cooperation, debt, capital flight or tax havens discussed purely as fiscal or economic policy, without an illicit or criminal framing.
+      - Tax rates, tax cooperation, debt or capital flight discussed as fiscal or economic policy, with no illicit, criminal or avoidance framing.
       - Electoral fraud or "rigged elections" as a political dispute without bribery or misuse of public funds.
       - Financing of terrorism alone (terrorism), unless anti-money-laundering systems are discussed in general.
       - Fraud, scams or extortion committed by criminal groups (organized_crime).
@@ -489,6 +500,9 @@ lenses:
       - beneficial ownership
       - illicit financial flows
       - trade misinvoicing
+      - tax evasion
+      - aggressive tax avoidance (cross-border, by multinational enterprises)
+      - economic and financial crime
       - grand corruption
       - state capture
       - special session against corruption
@@ -547,27 +561,34 @@ lenses:
       Terrorism as a crime and a threat to be prevented and countered: acts of terrorist violence
       against civilians, terrorist groups, and the legal and criminal justice responses built on
       the universal legal instruments against terrorism and the United Nations Global
-      Counter-Terrorism Strategy. It covers aircraft hijacking and hostage-taking, the financing of
-      terrorism, foreign terrorist fighters, violent extremism conducive to terrorism, support to
-      victims, and the links between terrorism and organized crime.
+      Counter-Terrorism Strategy. It covers the acts defined in those instruments, such as aircraft
+      hijacking, hostage-taking and attacks on diplomats, State support for terrorists, the
+      financing of terrorism, foreign terrorist fighters, violent extremism conducive to terrorism,
+      support to victims, and the links between terrorism and organized crime.
     include:
       - Terrorist acts (bombings, attacks on civilians, suicide attacks, assassinations described as terrorism) and terrorist groups or organizations, in every era and whoever is accused (e.g. "terrorists" sent across a border).
-      - Aircraft hijacking ("air piracy", unlawful seizure of aircraft) and attacks on diplomats.
-      - Hostage-taking as a criminal act against civilians, travellers or diplomats outside the conduct of a war, hostages held by a group the fragment calls terrorist, and the International Convention against the Taking of Hostages (all eras).
+      - The acts defined in the universal instruments against terrorism, by their kind and whatever the words used - aircraft hijacking ("air piracy", unlawful seizure of aircraft), sabotage or violence on board aircraft and at international airports, civil aircraft used as weapons, the seizure of ships and attacks on maritime navigation or fixed platforms, murder, kidnapping or violent attacks on internationally protected persons (diplomats and officials entitled to special protection, and Heads of State or Government or foreign ministers while abroad) or on their premises, residence or transport, and the unlawful taking or use of nuclear material.
+      - A sentence about the taking or holding of hostages outside a war between States, whoever the victims (civilians, travellers, diplomats) and whoever the takers (individuals, groups, armed groups in a civil war or another armed conflict); hostages held by a group the fragment calls terrorist; the International Convention against the Taking of Hostages (all eras). Add peace if a sentence treats the armed conflict.
+      - Acts and groups that the Security Council has called terrorist (the closed list in codebook 4.6), when the fragment discusses the act, the group or the handling of the act.
+      - Accusations that a State organizes, instigates, finances, arms, trains, harbours or tolerates terrorists or terrorist activities, and a State's explicit denial of such an accusation (Security Council resolution 1373, para. 2(a)); add peace when the accusation is described as a pretext for an armed attack.
+      - Security Council resolution 1540 and the risk that terrorists or other non-State actors acquire, traffic in or use nuclear, chemical or biological weapons or material.
       - Kidnappings or attacks by insurgents or armed groups that the speaker calls terrorism (add peace if a sentence treats the armed conflict or a peace process).
       - The universal instruments against terrorism, the 1994 Declaration on Measures to Eliminate International Terrorism, the draft comprehensive convention, Security Council resolution 1373 and sanctions regimes, the Global Counter-Terrorism Strategy.
-      - Financing of terrorism, foreign terrorist fighters, radicalization, preventing and countering violent extremism conducive to terrorism, terrorist use of the Internet, nuclear terrorism.
+      - Financing of terrorism, foreign terrorist fighters, radicalization to violence or into terrorist groups, preventing and countering violent extremism conducive to terrorism, terrorist use of the Internet, nuclear terrorism.
       - Victims of terrorism; human rights and the rule of law in counter-terrorism.
       - The debate on what counts as terrorism, in every era - its definition and causes, its distinction from national liberation struggles, "State terrorism" discussed as a form of terrorism, and explicit rebuttals of the label ("they are not terrorists but patriots").
       - Narco-terrorism and sentences about terrorists' drug financing (also drugs), and the terrorism-organized crime nexus (also organized_crime when discussed).
     exclude:
       - War, armed conflict, military aggression, occupation, insurgency or civil war not characterized as terrorism (peace).
-      - Release of hostages, detainees or prisoners demanded as part of a ceasefire, exchange or end of a war, when the fragment does not call their taking terrorism (peace).
+      - Release of hostages, detainees or prisoners demanded only as a term of a ceasefire, exchange or end of a war, with no sentence about the taking itself, and hostages in a war between States (peace).
+      - Acts of a State's armed or security forces (downing or forcing down a civil aircraft, seizing or boarding a ship), acts in a war between States, and disputes between States over diplomatic law (peace if the conflict is discussed).
+      - A State's designation on a national list of State sponsors of terrorism and demands to remove it or lift the measures attached, unless terrorism itself is discussed.
+      - Radicalization in a political or social sense, with no violence.
       - Criminal groups using "terrorist methods" or terrorizing communities, when the acts are not called terrorism (organized_crime).
       - '"Terror", "terrorist" or "terrorism" used only as an epithet for a State''s army, government, occupation or war ("State terrorism" for military operations, "acts of terrorism" by colonial or occupation forces, "terrorist regime"), with no terrorist act or the concept itself discussed (peace if the conflict is discussed); also "economic terrorism", "media terrorism".'
       - Cold War "balance of terror", "nuclear terror" in the deterrence sense, and "terror" of war in general (peace).
       - Metaphors such as "held hostage by debt" or "hostage to the veto".
-      - Non-proliferation of weapons of mass destruction unless acquisition by terrorists is discussed.
+      - Non-proliferation of weapons of mass destruction between States (peace), unless acquisition or use by terrorists or other non-State actors, or resolution 1540, is discussed.
     era_terms:
       - terrorism
       - international terrorism
@@ -575,10 +596,11 @@ lenses:
       - hijacking
       - air piracy
       - unlawful seizure of aircraft
-      - taking of hostages (outside a war, or by a group called terrorist)
-      - hostage-taking (outside a war, or by a group called terrorist)
+      - taking of hostages (outside a war between States, or by a group called terrorist)
+      - hostage-taking (outside a war between States, or by a group called terrorist)
       - International Convention against the Taking of Hostages
       - attacks on diplomats
+      - internationally protected persons
       - national liberation struggle (definition debate)
       - State terrorism (only as a form of terrorism in the definition debate; otherwise an epithet)
       - narco-terrorism
@@ -590,7 +612,8 @@ lenses:
       - Counter-Terrorism Committee
       - Global Counter-Terrorism Strategy
       - violent extremism
-      - radicalization
+      - radicalization (to violence)
+      - resolution 1540
       - foreign terrorist fighters
       - returning foreign terrorist fighters
       - terrorist use of the Internet
@@ -647,17 +670,21 @@ lenses:
     reference: false
     definition_en: >-
       Trafficking in persons, meaning the recruitment, transport, transfer, harbouring or receipt
-      of people by force, fraud, coercion or deception for the purpose of exploitation, and the
-      smuggling of migrants, meaning the procurement, for financial or other material gain, of
-      the irregular entry of a person into a country. It covers sexual exploitation, forced
-      labour, servitude, slavery-like practices and the sale of children when framed as
-      trafficking, the protection of victims and smuggled migrants, and the prosecution of
-      traffickers and smuggling networks.
+      of people by the threat or use of force or other coercion, abduction, fraud, deception, the
+      abuse of power or of a position of vulnerability, or payments to a person having control
+      over the victim, for the purpose of exploitation (for children no such means is needed),
+      and the smuggling of migrants, meaning the procurement, for financial or other material
+      gain, of the irregular entry of a person into a country. It covers sexual exploitation,
+      forced labour, servitude, slavery-like practices, the removal of organs and the sale of
+      children when framed as trafficking, the protection of victims and smuggled migrants, and
+      the prosecution of traffickers and smugglers.
     include:
       - Trafficking in persons, human trafficking, trafficking in human beings, "traffic in women and children" and "white slave traffic" (older wording) for sexual exploitation, forced labour, servitude, forced marriage, organ removal or forced criminality.
-      - Sale of children, child prostitution and child trafficking.
+      - Child trafficking; the sale of children, child prostitution, child sexual abuse material and the exploitation of the prostitution of others when framed as trafficking (persons recruited, moved, sold, bought or held for exploitation).
+      - The abduction, sale or holding of women and girls for sexual slavery, sexual exploitation or forced marriage, including by armed groups in war (add peace for the conflict).
+      - A sentence about the Trafficking in Persons Protocol or the Migrant Smuggling Protocol itself; the Protocols named only as part of the Convention do not count.
       - The 1949 Convention on the traffic in persons, the Trafficking in Persons Protocol, the Global Plan of Action against trafficking, identification and protection of victims.
-      - Smuggling of migrants, people smugglers, smuggling networks and routes, deaths and abuse of migrants at the hands of smugglers, the Migrant Smuggling Protocol.
+      - Smuggling of migrants by networks or individuals, people smugglers, smuggling networks and routes, deaths and abuse of migrants at the hands of smugglers, the Migrant Smuggling Protocol.
       - Modern slavery, debt bondage and forced labour when framed as present-day exploitation of victims.
     exclude:
       - Migration, refugees, asylum, remittances and border policy without trafficking or smuggling.
@@ -665,13 +692,15 @@ lenses:
       - Forced labour as a State or colonial policy (1950s-1960s debates) or prison labour, unless framed as trafficking.
       - Recruitment of child soldiers, unless described as trafficking.
       - Trafficking in drugs, arms or wildlife (their own lenses).
+      - The trade in human organs alone; "organ trafficking" counts only when persons are trafficked for the removal of their organs.
+      - Online child sexual abuse material and grooming with no trafficking of children (organized_crime).
     era_terms:
       - white slave traffic
       - traffic in women and children
       - traffic in persons
-      - exploitation of the prostitution of others
-      - sale of children
-      - child prostitution
+      - exploitation of the prostitution of others (framed as trafficking)
+      - sale of children (framed as trafficking)
+      - child prostitution (framed as trafficking)
       - sex tourism
       - trafficking in women
       - trafficking in human beings
@@ -682,7 +711,7 @@ lenses:
       - debt bondage
       - contemporary forms of slavery
       - modern slavery
-      - organ trafficking
+      - trafficking in persons for the removal of organs
       - smuggling of migrants
       - illicit traffic of migrants
       - migrant smuggling
@@ -743,14 +772,14 @@ lenses:
       Crimes that affect the environment: serious and often organized crime targeting natural
       resources and ecosystems, namely wildlife crime, forest crime, crimes in the fisheries
       sector, minerals crime and waste crime. It covers poaching and trafficking of protected
-      species, illegal logging and timber trafficking, illegal, unreported and unregulated
-      fishing, illegal mining, and the illegal traffic in and dumping of toxic and hazardous
-      wastes.
+      species, illegal logging and timber trafficking, illegal fishing and the crimes along the
+      fisheries value chain, illegal mining and the illicit trade in minerals, including conflict
+      diamonds, and the illegal traffic in and dumping of toxic and hazardous wastes.
     include:
       - Wildlife crime - poaching, illicit trafficking in wildlife and wildlife products (ivory, rhino horn, pangolins), enforcement of CITES.
       - Forest crime - illegal logging, timber trafficking, illegal deforestation and land grabbing by criminal actors.
-      - Crimes in the fisheries sector - illegal, unreported and unregulated (IUU) fishing, fraud and forced labour at sea linked to fishing.
-      - Minerals crime - illegal mining, illicit gold and mercury, trafficking of minerals.
+      - Crimes in the fisheries sector - illegal fishing presented as crime (criminal groups, prosecution, criminal penalties) and the crimes along the fisheries value chain (falsified catch or licence documents, corruption, money laundering, tax or customs fraud, trafficking in persons or forced labour on fishing vessels; add the lens of that crime).
+      - Minerals crime - illegal mining, illicit gold and mercury, trafficking of minerals, and conflict diamonds, gold or other minerals mined or traded illicitly by armed groups (add peace when a sentence is about the war they finance).
       - Waste crime - illegal traffic in toxic and hazardous wastes and illegal trade in chemicals and ozone-depleting substances. The export or dumping of toxic, hazardous, industrial or nuclear wastes into developing countries by companies, traders or unnamed actors (the "dumping ground" debate from 1988) counts even without the word "illegal", following the General Assembly's own wording, "illegal traffic in toxic and dangerous products and wastes".
       - Domestic criminalization of environmental harm (environmental offences in the penal code, prosecution of environmental crimes).
     exclude:
@@ -760,7 +789,7 @@ lenses:
       - Pollution or environmental damage discussed as policy, liability or an inter-State dispute rather than as illegal activity by criminals or companies.
       - Ecocide or environmental harm proposed as an international crime (Rome Statute, International Criminal Court) - international criminal justice, outside the UNODC lenses; peace only when tied to an armed conflict.
       - Environmental damage caused by armed forces in war (peace).
-      - Conflict minerals or diamonds discussed only as financing of war (peace); add environmental_crime only if the illicit extraction or trade itself is discussed as crime (confidence 2).
+      - Illegal, unreported and unregulated (IUU) fishing named only as a threat to fish stocks, livelihoods or sovereignty (fisheries management, led by FAO).
     era_terms:
       - dumping of toxic wastes
       - illegal traffic in toxic and dangerous products and wastes
@@ -776,8 +805,10 @@ lenses:
       - illegal logging
       - timber trafficking
       - forest crime
-      - illegal, unreported and unregulated fishing
-      - IUU fishing
+      - conflict diamonds
+      - Kimberley Process
+      - illegal, unreported and unregulated fishing (only when treated as crime)
+      - IUU fishing (only when treated as crime)
       - fisheries crime
       - illegal mining
       - illegal gold mining
@@ -837,31 +868,38 @@ lenses:
     icon: gavel
     reference: false
     definition_en: >-
-      Crime prevention and criminal justice: preventing crime and violence and building fair,
-      effective, humane and accountable criminal justice systems, as promoted by the Commission on
-      Crime Prevention and Criminal Justice and the United Nations Crime Congresses. It covers
-      police, prosecution, courts, defence and prisons, access to justice and legal aid, prison
-      reform and the treatment of offenders, juvenile justice, victims and witnesses, violence
-      against women and children as crime, and citizen security.
+      Crime prevention and criminal justice: preventing and controlling crime in general and
+      violence, and building fair, effective, humane and accountable criminal justice systems, as
+      promoted by the Commission on Crime Prevention and Criminal Justice and the United Nations
+      Crime Congresses. It covers police and their conduct, prosecution, courts, defence, prisons
+      and other places of detention, access to justice and legal aid, prison reform and the
+      treatment of offenders and detainees, international cooperation in criminal matters,
+      juvenile justice, victims and witnesses, violence against women and children as crime, and
+      citizen security.
     include:
+      - Crime in general, with no type named ("crime is rising", "the fight against crime", "delinquency") - its prevention, control, rates and effects (A/RES/46/152, annex, para. 16); substantive when a sentence is about it, list in an enumeration.
       - Crime prevention policies, urban crime and violence, citizen or public security, crime statistics such as homicide or kidnapping rates (add organized_crime only if the perpetrators are discussed as criminal groups).
       - Criminal justice institutions (police, prosecutors, courts, public defenders, prisons), justice sector reform, penal codes and criminal procedure, judicial backlogs and impunity for ordinary crime.
       - Prison conditions, overcrowding, pre-trial detention, alternatives to imprisonment, rehabilitation and reintegration of offenders; the Nelson Mandela Rules, Bangkok Rules and Tokyo Rules.
       - Juvenile justice and children in contact with the law; access to justice and legal aid; victims and witnesses; SDG target 16.3.
-      - Violence against women and children, femicide and gender-based violence, only when the fragment names a criminal-justice element - femicide or other criminal offences, police, prosecution, courts, protection orders, impunity, or crime prevention programmes.
+      - International cooperation in criminal matters in general (extradition, mutual legal assistance, transfer of sentenced persons or proceedings, police cooperation) when no single crime is named (Kyoto Declaration, A/RES/76/181, annex, para. 62).
+      - Police and detention whoever the victims - use of force by police, or by security forces exercising police powers, against demonstrators or in arrests; arbitrary arrest; torture or ill-treatment in custody and deaths in detention; conditions of detention, including those of political prisoners (Code of Conduct for Law Enforcement Officials; Nelson Mandela Rules).
+      - Violence against women and children, femicide and gender-based violence, only when the fragment names a criminal-justice element - femicide or other criminal offences, police, prosecution, courts, protection orders, impunity, crime prevention programmes, victim support services (shelters, hotlines, legal, medical or psychological assistance), or prevention and awareness campaigns against this violence (A/RES/65/228).
       - The UN Crime Congresses (since 1955), the Commission on Crime Prevention and Criminal Justice, UN standards and norms; the death penalty discussed as criminal justice policy (confidence 2).
     exclude:
       - Generic "rule of law", "justice" and "international law" rhetoric without reference to crime or criminal justice institutions.
       - International criminal justice for atrocity crimes (International Criminal Court, ad hoc tribunals, universal jurisdiction) and transitional justice - outside the UNODC mandate; label peace only when tied to a conflict or peace process.
-      - Political prisoners, prisoners of war, and repression by security forces framed as human rights violations rather than crime prevention.
+      - Prisoners of war, demands to release political prisoners, and repression by armed forces in war or occupation (peace if the conflict is discussed).
+      - '"Crime" or "crimes" said of aggression, apartheid, colonialism, genocide, war crimes or other atrocities, or of a government or an army ("the crimes of the occupier").'
       - Violence against women named only as a gender-equality or human-rights goal ("eliminate all forms of violence against women"), with no criminal-justice element (no lens).
-      - Conflict-related sexual violence (peace), unless its prosecution by national authorities is discussed.
+      - Conflict-related sexual violence (peace; also trafficking_smuggling when persons are abducted, sold or held for sexual slavery or forced marriage), unless its prosecution by national authorities is discussed.
       - Social or economic justice ("international economic justice").
       - Metaphors such as "police action" or "policeman of the world".
       - Enforcement against one specific crime covered by another lens (prosecuting traffickers, arresting terrorists) - label that lens only, unless justice institutions or crime prevention are discussed in general.
     era_terms:
       - prevention of crime and the treatment of offenders
       - social defence
+      - delinquency (crime in general)
       - juvenile delinquency
       - Standard Minimum Rules for the Treatment of Prisoners
       - Crime Congress
@@ -873,6 +911,7 @@ lenses:
       - judicial reform
       - police reform
       - pre-trial detention
+      - conditions of detention
       - prison overcrowding
       - alternatives to imprisonment
       - rehabilitation of offenders
@@ -887,6 +926,7 @@ lenses:
       - Bangkok Rules
       - Doha Declaration
       - Kyoto Declaration
+      - cooperation in criminal matters
     anchors:
       - >-
         Rising crime in our growing cities, especially juvenile delinquency and crimes against
@@ -940,12 +980,12 @@ lenses:
       collective security and the role of the Security Council, and disarmament framed as a
       condition for peace.
     include:
-      - War and armed conflict (inter-State and internal), aggression, occupation, ceasefires and hostilities, including the release of hostages, detainees or prisoners demanded as part of a ceasefire or end of a war.
-      - Conflict-related sexual violence (add criminal_justice only if its prosecution by national authorities is discussed).
+      - War and armed conflict (inter-State and internal), aggression, occupation, ceasefires and hostilities, including the release of hostages, detainees or prisoners demanded only as a term of a ceasefire, exchange or end of a war with no sentence about the taking itself, and hostages in a war between States.
+      - Conflict-related sexual violence (add trafficking_smuggling when persons are abducted, sold or held for sexual slavery or forced marriage, and criminal_justice only if its prosecution by national authorities is discussed).
       - Conflict prevention, preventive diplomacy, mediation, negotiated settlements, peace processes and peace agreements, including the reintegration of former combatants.
       - UN peacekeeping and peacebuilding, the Peacebuilding Commission, sustaining peace, women, peace and security, protection of civilians.
       - Collective security and the Security Council's role in maintaining international peace and security.
-      - Disarmament and arms control framed in terms of peace and security, including the nuclear threat.
+      - Disarmament and arms control framed in terms of peace and security, including the nuclear threat; the illicit trade in small arms and light weapons also gives organized_crime.
     exclude:
       - Ceremonial or formulaic uses - "peace-loving", greetings, "a world of peace and prosperity" as aspiration.
       - Peaceful uses of nuclear energy or outer space; "peaceful purposes".

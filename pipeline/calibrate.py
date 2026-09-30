@@ -45,6 +45,8 @@ BATCH_SIZE = 150
 CORE, CHECKER = "core", "check"  # the core labeller and the check labeller (docs/calibration.md, section 4)
 CHECK_PER_GROUP = 30  # per lens: fragments the core labeller marked positive, and near-misses
 LOW_CONFIDENCE = 2  # validation fragments the core labeller marked at or below it are read a second time
+REVIEW_PER_LENS = 25  # review of codebook 1.4: per lens, half core positives and half near-misses
+REVIEW_FILES = 10  # with the reread of codebook 1.4; one check labeller each, five at a time (user, 2026-09-30 02:48 UTC)
 KAPPA_BAR = 0.8  # a lens below it goes back to the user
 PENALTIES = (0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0)
 FOLDS = 5
@@ -63,6 +65,9 @@ LABELS = GOLD / "labels"
 CHECK = GOLD / "check"
 CHECKSET = GOLD / "checkset.json"
 REREAD = GOLD / "reread.json"  # fragments a codebook revision may change: read again, kept out of the check set
+REVIEW = GOLD / "review.json"  # fragments outside the check files, read under codebook 1.4 to see what it changes
+REREAD14 = GOLD / "reread14.json"  # fragments codebook 1.4 may change: read again in the review files, or resolved
+CHANGES = GOLD / "changes.json"  # how often the final label differs from the core label
 AGREEMENT = GOLD / "agreement.json"
 RESOLVE = GOLD / "resolve"
 RESOLVED = GOLD / "resolved"
@@ -538,10 +543,84 @@ def draw_checkset(force: bool = False) -> dict:
     return out
 
 
+def checked(cs: dict) -> set[str]:
+    """The fragments of the check files drawn with the check set: the check set and the second reading."""
+    return set(cs["second_reading"]["fragments"]).union(
+        *(v["positives"] + v["near_misses"] for v in cs["lenses"].values()))
+
+
+def reread14() -> dict:
+    """{gid: lenses} of the fragments codebook 1.4 may change (REREAD14), or {} before the list exists."""
+    if not REREAD14.exists():
+        return {}
+    return {g: v["lenses"] for g, v in json.loads(REREAD14.read_text())["fragments"].items()}
+
+
+def draw_review(force: bool = False) -> dict:
+    """The review of codebook 1.4 (docs/calibration.md, section 4): for each lens, REVIEW_PER_LENS fragments outside
+    the check files, half that the core labeller marked positive and half near-misses (as in the check set), drawn at
+    random, each fragment once; when one group is short it is taken whole and the other fills the lens's share. They
+    are written in random order to REVIEW_FILES more check files and read like the second reading: outside the
+    agreement, every disagreement to the resolver. The fragments of REREAD14 outside the check files join them; those
+    fragments are not drawn for the review, which measures what codebook 1.4 changes elsewhere."""
+    if not CHECKSET.exists():
+        raise CalibrationError("No check set; run `uv run python -m pipeline.calibrate checkset`.")
+    cs = json.loads(CHECKSET.read_text())
+    if REVIEW.exists():
+        old = json.loads(REVIEW.read_text())
+        if any((LABELS / CHECKER / f"{name}.jsonl").exists() for name in old["files"]):
+            raise CalibrationError("review labels exist; the review cannot be redrawn.")
+        if not force:
+            raise CalibrationError(f"{REVIEW} exists; the review is drawn once (use --force to redraw before any "
+                                   "review label is written).")
+        for name in old["files"]:
+            (CHECK / f"{name}.jsonl").unlink(missing_ok=True)
+    codebook = load_lenses()
+    ids = lens_ids(codebook)
+    core, _ = read_labeller(CORE, ids, codebook)
+    sample = pd.read_parquet(SAMPLE).sort_values("gid").reset_index(drop=True)
+    scores = pd.read_parquet(SCORES).set_index("frag_id").loc[sample["frag_id"]]
+    gids = sample["gid"].to_numpy()
+    read, affected = checked(cs), set(reread14())
+    if affected - set(gids):
+        raise CalibrationError(f"{len(affected - set(gids))} fragment(s) of {REREAD14.name} are not sampled")
+    reread = sorted(affected - read)
+    rng = np.random.default_rng(SEED + 5)
+    lenses, chosen = {}, set()
+    for lens in ids:
+        y = np.array([core[g].get(lens) == "substantive" for g in gids], dtype=bool)
+        s = scores[f"s_{lens}"].to_numpy()
+        near = ~y & (s >= np.median(s[y])) if y.any() else np.zeros(len(y), dtype=bool)
+        free = ~np.isin(gids, sorted(read | affected | chosen))
+        pools = {"positives": gids[y & free], "near_misses": gids[near & free]}
+        want = {"positives": -(-REVIEW_PER_LENS // 2), "near_misses": REVIEW_PER_LENS // 2}
+        want = {"positives": want["positives"] + max(0, want["near_misses"] - len(pools["near_misses"])),
+                "near_misses": want["near_misses"] + max(0, want["positives"] - len(pools["positives"]))}
+        groups = {}
+        for name, pool in pools.items():
+            pick = pool if len(pool) <= want[name] else rng.choice(pool, want[name], replace=False)
+            groups[name] = sorted(str(g) for g in pick)
+            groups[f"{name}_available"] = int(len(pool))
+        lenses[lens] = groups
+        chosen.update(groups["positives"] + groups["near_misses"])
+    text = {r["frag_id"]: r for p in sorted(BATCHES.glob("*.jsonl")) for r in read_jsonl(p)}
+    order = [str(g) for g in rng.permutation(sorted(chosen | set(reread)))]
+    files = {}
+    for i, part in enumerate(np.array_split(np.arange(len(order)), REVIEW_FILES), len(cs["files"]) + 1):
+        write_jsonl(CHECK / f"c{i:03d}.jsonl", [{"frag_id": order[k], "year": text[order[k]]["year"],
+                                                  "text": text[order[k]]["text"]} for k in part])
+        files[f"c{i:03d}"] = len(part)
+    out = {"drawn_at": now(), "seed": SEED + 5, "per_lens": REVIEW_PER_LENS, "fragments": len(order),
+           "files": files, "lenses": lenses, "frag_ids": sorted(chosen), "reread": reread,
+           "reread_in_check_files": len(affected & read)}
+    write_json(REVIEW, out)
+    return out
+
+
 def collect() -> dict:
     """Agreement of the two labellers on the check set (docs/calibration.md, section 4), and the resolver queue:
-    every pair (fragment, lens) of the check set or the second reading on which they differ about
-    `substantive`."""
+    every pair (fragment, lens) of the check set, the second reading or the review on which they differ about
+    `substantive`, and every pair that REREAD14 lists for a fragment of the check files, read before codebook 1.4."""
     codebook = load_lenses()
     ids = lens_ids(codebook)
     if not CHECKSET.exists():
@@ -558,10 +637,12 @@ def collect() -> dict:
         agreement[lens] = {"kappa": None if k is None else round(k, 3), "checked": len(a),
                            "positives_confirmed": round(float(b[:len(pos)].mean()), 3) if pos else None,
                            "near_misses_confirmed": round(float(1 - b[len(pos):].mean()), 3) if near else None}
+    read = checked(cs)
+    forced = {g: lenses for g, lenses in reread14().items() if g in read}
     queue = {}
     for g in sorted(check):
-        diff = [lens for lens in ids
-                if (core[g].get(lens) == "substantive") != (check[g].get(lens) == "substantive")]
+        diff = [lens for lens in ids if lens in forced.get(g, [])
+                or (core[g].get(lens) == "substantive") != (check[g].get(lens) == "substantive")]
         if diff:
             queue[g] = diff
     text = {r["frag_id"]: r for p in sorted(CHECK.glob("*.jsonl")) for r in read_jsonl(p)}
@@ -580,8 +661,13 @@ def collect() -> dict:
     for i, part in enumerate(np.array_split(np.arange(len(rows)), n_files) if n_files else [], 1):
         write_jsonl(RESOLVE / f"r{i:03d}.jsonl", [rows[k] for k in part])
     second = set(cs.get("second_reading", {}).get("fragments", []))
+    rv = json.loads(REVIEW.read_text()) if REVIEW.exists() else {}
+    review, reread = set(rv.get("frag_ids", [])), set(rv.get("reread", []))
     summary = {"checked_at": now(), "check_fragments": len(check), "to_resolve": len(rows),
                "second_reading": len(second), "second_reading_to_resolve": len(second & set(queue)),
+               "review": len(review), "review_to_resolve": len(review & set(queue)),
+               "reread14": len(reread), "reread14_to_resolve": len(reread & set(queue)),
+               "reread14_in_check_files": len(forced), "reread14_pairs_forced": sum(map(len, forced.values())),
                "resolve_files": n_files, "kappa_bar": KAPPA_BAR,
                "below_bar": [lens for lens, v in agreement.items() if v["kappa"] is None or v["kappa"] < KAPPA_BAR],
                "agreement": agreement}
@@ -630,6 +716,34 @@ def final_labels() -> pd.DataFrame:
                                                                                           on="gid")
     final.to_parquet(FINAL, index=False)
     return final
+
+
+def changes(final: pd.DataFrame) -> dict:
+    """How often the final label differs from the core label on some lens (docs/calibration.md, section 4): over the
+    doubtful validation fragments of the second reading, all of them and those outside the reread lists (whose rules
+    changed), over the review of codebook 1.4 and over REREAD14; with the pairs (fragment, lens) added and removed."""
+    codebook = load_lenses()
+    ids = lens_ids(codebook)
+    core, core_raw = read_labeller(CORE, ids, codebook)
+    rows = final.set_index("gid")
+    doubtful = {g for g in rows.index[rows["split"] == "validation"] if core_raw[g]["confidence"] <= LOW_CONFIDENCE}
+    rereads = set(json.loads(REREAD.read_text())["fragments"]) if REREAD.exists() else set()
+    rereads |= set(reread14())
+    rv = json.loads(REVIEW.read_text()) if REVIEW.exists() else {}
+    groups = {"second_reading_doubtful": doubtful, "second_reading_doubtful_outside_rereads": doubtful - rereads,
+              "review": set(rv.get("frag_ids", [])), "reread14": set(reread14())}
+    out = {"made_at": now()}
+    for name, gids in groups.items():
+        added = removed = changed = 0
+        for g in gids:
+            a = sum(bool(rows.at[g, lens]) and core[g].get(lens) != "substantive" for lens in ids)
+            r = sum(not rows.at[g, lens] and core[g].get(lens) == "substantive" for lens in ids)
+            added, removed, changed = added + a, removed + r, changed + bool(a or r)
+        out[name] = {"fragments": len(gids), "changed": changed,
+                     "share": round(changed / len(gids), 3) if gids else None,
+                     "pairs_added": int(added), "pairs_removed": int(removed)}
+    write_json(CHANGES, out)
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -822,6 +936,8 @@ def main(argv: list[str] | None = None) -> int:
     p_check.add_argument("name", help='"core/b001" or "check/c001" for labels, "r001" for resolved')
     p_cs = sub.add_parser("checkset", help="draw the check set from the core labels")
     p_cs.add_argument("--force", action="store_true", help="redraw (only before any check label exists)")
+    p_rev = sub.add_parser("review", help="draw the review of codebook 1.4 and the reread outside the check files")
+    p_rev.add_argument("--force", action="store_true", help="redraw (only before any review label exists)")
     sub.add_parser("collect", help="agreement of the two labellers on the check set, resolver queue")
     sub.add_parser("final", help="final labels")
     sub.add_parser("fit", help="one classifier per lens on the training set")
@@ -844,11 +960,15 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "checkset":
             out = draw_checkset(force=args.force)
             print(json.dumps({k: out[k] for k in ("fragments", "files")}, indent=2))
+        elif args.command == "review":
+            out = draw_review(force=args.force)
+            print(json.dumps({k: out[k] for k in ("fragments", "files")}, indent=2))
         elif args.command == "collect":
             print(json.dumps(collect(), indent=2))
         elif args.command == "final":
             final = final_labels()
             print(f"{len(final):,} fragments -> {embed.rel(FINAL)}")
+            print(json.dumps(changes(final), indent=2))
         elif args.command == "fit":
             out = fit()
             for lens, r in out["lenses"].items():

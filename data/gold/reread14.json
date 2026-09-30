@@ -1,0 +1,10574 @@
+{
+  "codebook": "1.4",
+  "made_at": "2026-09-30T03:11:41+00:00",
+  "note": "Fragments whose label the rules changed in codebook 1.4 may change, with the lenses concerned. Found by searching the sample texts, for each changed rule, for its key words and keeping the fragments whose label the rule could change (a lens the rule adds that neither labeller gave, or a lens it removes that a labeller gave): the illicit trade in firearms and small arms; State support for terrorists and its denial; hostages, kidnapping and abduction; crime in general, criminality and delinquency, with war crimes, atrocities and named crimes set aside; police conduct, torture, political prisoners and conditions of detention; the acts of the counter-terrorism treaties (aircraft, airports, ships, maritime navigation, diplomats, embassies and nuclear material, with words of attack or seizure); acts the Security Council called terrorist, named without the word terror; IUU fishing; conflict diamonds and minerals; sexual slavery, forced marriage and the abduction of women and girls; victim support and campaigns against violence against women; tax avoidance and economic crime; extradition and cooperation in criminal matters; resolution 1540 and non-State actors; radicalization without violence; the Palermo Protocols by name; exploitation not framed as trafficking; online child sexual abuse; traditional uses of the coca leaf; and alternative development. The search only finds candidates; every label is decided by reading. Fragments outside the check files are read again under 1.4 in the review files; for fragments in the check files, the listed lenses go to the resolver (docs/calibration.md, section 4).",
+  "reasons": {
+    "coca_traditional": 5,
+    "conflict_minerals": 17,
+    "council_named_acts": 6,
+    "crsv_trafficking": 6,
+    "csam": 9,
+    "economic_crime": 16,
+    "exploitation_no_trafficking": 8,
+    "extradition_mla": 59,
+    "hostage_civil_war": 114,
+    "iuu_fishing": 18,
+    "ordinary_crime": 375,
+    "police_detention": 176,
+    "protocols_by_name": 2,
+    "radicalization_bare": 3,
+    "res1540": 4,
+    "salw_to_oc": 206,
+    "state_sponsor": 66,
+    "tax_avoidance": 8,
+    "treaty_acts": 266,
+    "urban_ad": 2,
+    "vaw_measures": 19
+  },
+  "fragments": {
+    "g00010": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g00018": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00024": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g00039": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00054": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00060": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g00068": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention"
+      ]
+    },
+    "g00077": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00117": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00169": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00179": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g00182": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00202": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00223": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g00226": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00288": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00292": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00312": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00330": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00361": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g00367": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00372": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00374": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00390": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00395": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00427": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00474": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00503": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "treaty_acts",
+        "vaw_measures"
+      ]
+    },
+    "g00508": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00513": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g00517": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g00540": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00557": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00601": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g00615": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00656": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g00662": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "ordinary_crime"
+      ]
+    },
+    "g00695": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00749": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00761": {
+      "lenses": [
+        "organized_crime",
+        "terrorism"
+      ],
+      "reasons": [
+        "res1540",
+        "salw_to_oc"
+      ]
+    },
+    "g00766": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00796": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00797": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00811": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00812": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g00865": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00888": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00891": {
+      "lenses": [
+        "organized_crime",
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals",
+        "salw_to_oc"
+      ]
+    },
+    "g00898": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g00916": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00928": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g00929": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g00948": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g00999": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01006": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g01017": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01023": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01029": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01063": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g01083": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g01177": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g01194": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01255": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01258": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g01272": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01293": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01317": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g01321": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g01354": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g01411": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g01430": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01464": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g01475": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g01481": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g01508": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g01551": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01557": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01566": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g01593": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01597": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g01613": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g01615": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g01653": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g01663": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g01669": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01670": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01694": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g01705": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g01736": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01740": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g01752": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g01789": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01810": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01828": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g01849": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g01886": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g01975": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g01994": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02041": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g02047": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g02083": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02090": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g02101": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g02104": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "treaty_acts",
+        "vaw_measures"
+      ]
+    },
+    "g02115": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02121": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02138": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g02211": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g02212": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g02234": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g02235": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02254": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g02305": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02379": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02397": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02406": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g02442": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g02452": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g02537": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g02548": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02552": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g02567": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g02570": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "crsv_trafficking"
+      ]
+    },
+    "g02618": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g02629": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02660": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "csam"
+      ]
+    },
+    "g02669": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g02737": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02756": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02761": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02763": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "res1540"
+      ]
+    },
+    "g02811": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g02813": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02815": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02841": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02910": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g02937": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g02961": {
+      "lenses": [
+        "alternative_development"
+      ],
+      "reasons": [
+        "coca_traditional"
+      ]
+    },
+    "g02974": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g02989": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03007": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g03044": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "council_named_acts"
+      ]
+    },
+    "g03068": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03088": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g03128": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03130": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g03150": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g03162": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03168": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g03179": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03213": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03214": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03294": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g03334": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g03376": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g03383": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g03435": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "police_detention"
+      ]
+    },
+    "g03452": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g03489": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03527": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03535": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03539": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03605": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g03611": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g03622": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g03729": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03744": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03748": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g03755": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g03769": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03793": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g03809": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03811": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g03829": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla",
+        "police_detention"
+      ]
+    },
+    "g03830": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g03850": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03866": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03883": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g03884": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g03905": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03931": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g03941": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03944": {
+      "lenses": [
+        "terrorism",
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "crsv_trafficking",
+        "treaty_acts"
+      ]
+    },
+    "g03955": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g03986": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g04023": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04028": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04044": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g04062": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g04114": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04165": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g04173": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "ordinary_crime"
+      ]
+    },
+    "g04189": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04259": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g04326": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g04388": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g04389": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g04394": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g04401": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04404": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04427": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04440": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g04441": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04458": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g04505": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04554": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04575": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g04618": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04625": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04635": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g04647": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04653": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g04675": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g04711": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "salw_to_oc",
+        "vaw_measures"
+      ]
+    },
+    "g04760": {
+      "lenses": [
+        "organized_crime",
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "csam",
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g04763": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g04765": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g04777": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04781": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g04870": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04888": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04927": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g04929": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g04947": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g04962": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g04973": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g04978": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05005": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05026": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g05040": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05051": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05076": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g05088": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g05091": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g05099": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05132": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g05144": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g05146": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05170": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g05177": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g05207": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g05211": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g05227": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g05246": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g05272": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05274": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05296": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05327": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g05330": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05376": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05444": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05453": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05456": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05465": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g05519": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05545": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05551": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05560": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05562": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g05565": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g05585": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05630": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g05746": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05748": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g05752": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05794": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g05858": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g05898": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g05900": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g05922": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g05935": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g05953": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g05957": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06008": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06020": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g06079": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06083": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06176": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g06180": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g06182": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06193": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06235": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06238": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g06249": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g06251": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06256": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g06277": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g06282": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06295": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g06300": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06314": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06331": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06361": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06362": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06372": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g06403": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention"
+      ]
+    },
+    "g06415": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06440": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g06452": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06504": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g06511": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g06541": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g06549": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06579": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g06595": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g06613": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06616": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g06619": {
+      "lenses": [
+        "corruption",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "economic_crime",
+        "ordinary_crime"
+      ]
+    },
+    "g06631": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g06634": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06641": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g06644": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla",
+        "salw_to_oc"
+      ]
+    },
+    "g06648": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g06662": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06735": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g06771": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06782": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06822": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "csam"
+      ]
+    },
+    "g06835": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g06836": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06878": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06901": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g06910": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g06917": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "radicalization_bare"
+      ]
+    },
+    "g06923": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g06938": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g06970": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g07009": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g07017": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g07038": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g07048": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g07069": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07101": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07108": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07163": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07174": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g07244": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g07254": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g07256": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g07278": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g07307": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07309": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "treaty_acts",
+        "vaw_measures"
+      ]
+    },
+    "g07318": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g07324": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g07335": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention"
+      ]
+    },
+    "g07358": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g07430": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g07435": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g07476": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07477": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g07511": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07518": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "ordinary_crime"
+      ]
+    },
+    "g07551": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g07559": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g07594": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g07598": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "crsv_trafficking"
+      ]
+    },
+    "g07603": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07612": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07624": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g07634": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g07698": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "police_detention"
+      ]
+    },
+    "g07718": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g07723": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g07746": {
+      "lenses": [
+        "alternative_development",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla",
+        "urban_ad"
+      ]
+    },
+    "g07790": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g07791": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g07792": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07802": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07843": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g07894": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g07963": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07975": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g07979": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g08002": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08014": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08036": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08046": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g08091": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08124": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08131": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g08133": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08171": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08183": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g08185": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g08231": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g08264": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g08269": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08296": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08301": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "council_named_acts"
+      ]
+    },
+    "g08310": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08311": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "police_detention"
+      ]
+    },
+    "g08312": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g08320": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g08321": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g08337": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g08343": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08356": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g08366": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08390": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g08398": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08414": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g08440": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g08445": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08451": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g08469": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08526": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08583": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g08653": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g08665": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08684": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "res1540"
+      ]
+    },
+    "g08689": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08734": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08762": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08764": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08795": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08797": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g08831": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g08887": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08890": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g08897": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g08912": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g08944": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor",
+        "treaty_acts"
+      ]
+    },
+    "g08960": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g08965": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "ordinary_crime"
+      ]
+    },
+    "g09026": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g09054": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09064": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09072": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09099": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09117": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09132": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09163": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09204": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09210": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g09219": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g09220": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09240": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09324": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09337": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09345": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09353": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09363": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09366": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09387": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09389": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09393": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09412": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09416": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09430": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g09432": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09435": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09437": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g09472": {
+      "lenses": [
+        "organized_crime",
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "csam",
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g09477": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g09491": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09498": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g09504": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09526": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g09527": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09567": {
+      "lenses": [
+        "organized_crime",
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "csam",
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g09571": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g09573": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09632": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09652": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g09670": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09677": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g09693": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla",
+        "ordinary_crime"
+      ]
+    },
+    "g09704": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09714": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09751": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "treaty_acts",
+        "vaw_measures"
+      ]
+    },
+    "g09772": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g09773": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09780": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09799": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g09828": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09852": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g09864": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09902": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09905": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g09932": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g09944": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g09986": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10014": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10036": {
+      "lenses": [
+        "organized_crime",
+        "terrorism"
+      ],
+      "reasons": [
+        "salw_to_oc",
+        "treaty_acts"
+      ]
+    },
+    "g10042": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10044": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g10111": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10119": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g10132": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10151": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10162": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10204": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g10240": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10277": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g10279": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10293": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10305": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "radicalization_bare"
+      ]
+    },
+    "g10327": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g10338": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10376": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10443": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g10458": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g10462": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10483": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10484": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10540": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g10541": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10556": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g10573": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10574": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g10622": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10679": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10694": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10697": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "council_named_acts"
+      ]
+    },
+    "g10745": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10752": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10779": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g10804": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10833": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10862": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10886": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g10893": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g10927": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10944": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g10979": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g10980": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g10984": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11050": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11081": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g11100": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11104": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g11141": {
+      "lenses": [
+        "organized_crime",
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g11153": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g11166": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "council_named_acts"
+      ]
+    },
+    "g11176": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g11182": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11183": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g11197": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11264": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g11277": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g11292": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g11293": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11320": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g11366": {
+      "lenses": [
+        "trafficking_smuggling",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "crsv_trafficking",
+        "vaw_measures"
+      ]
+    },
+    "g11380": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g11387": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g11390": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11398": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g11399": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11431": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11448": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11476": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11536": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g11573": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g11584": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g11593": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g11594": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g11600": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g11627": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11630": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g11652": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g11659": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11711": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g11733": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11776": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g11810": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11822": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g11824": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g11828": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g11832": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11851": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g11854": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g11855": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g11917": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g11920": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g11984": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g12003": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12008": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12019": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12039": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g12066": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g12075": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12079": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g12108": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g12140": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g12151": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12156": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12176": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g12178": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12181": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g12182": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12204": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12222": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12292": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12317": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12318": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12335": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12342": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12359": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12374": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g12380": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g12396": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12417": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g12438": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g12449": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12465": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g12485": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12527": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12544": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12547": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12562": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12568": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12591": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12611": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g12614": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g12623": {
+      "lenses": [
+        "alternative_development"
+      ],
+      "reasons": [
+        "coca_traditional"
+      ]
+    },
+    "g12697": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12702": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12712": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12724": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12753": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "csam"
+      ]
+    },
+    "g12769": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12790": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g12807": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g12816": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12817": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g12825": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g12830": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g12852": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12880": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g12926": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12946": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g12983": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g13000": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13018": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13052": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g13054": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g13072": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g13084": {
+      "lenses": [
+        "terrorism",
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "crsv_trafficking",
+        "treaty_acts"
+      ]
+    },
+    "g13085": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13094": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g13107": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13127": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13140": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g13155": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13159": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13170": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g13188": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g13211": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13215": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13269": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "ordinary_crime"
+      ]
+    },
+    "g13273": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g13306": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13317": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13327": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g13335": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g13342": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g13351": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13389": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13406": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13409": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13411": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g13431": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13435": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13459": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13466": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13494": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g13510": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g13525": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g13537": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13552": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13560": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13564": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g13597": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13599": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13616": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g13625": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g13678": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g13735": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13745": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13751": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13776": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13799": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g13801": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13809": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g13814": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "ordinary_crime"
+      ]
+    },
+    "g13817": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g13839": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g13928": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g13958": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g14006": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14020": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14023": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g14024": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14033": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14038": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14039": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14061": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14068": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g14126": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14164": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g14166": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g14168": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g14172": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14191": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14218": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g14253": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14272": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g14289": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14342": {
+      "lenses": [
+        "environmental_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "conflict_minerals",
+        "ordinary_crime"
+      ]
+    },
+    "g14360": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14397": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "csam",
+        "salw_to_oc"
+      ]
+    },
+    "g14410": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g14416": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "council_named_acts"
+      ]
+    },
+    "g14418": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14429": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14510": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14514": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14547": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14583": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14590": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14631": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14639": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g14704": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14758": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14803": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g14804": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g14810": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14821": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g14839": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14855": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g14873": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention"
+      ]
+    },
+    "g14879": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14892": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g14907": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14955": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14973": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g14978": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g14985": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15006": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g15018": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g15062": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15126": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g15145": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15153": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15159": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15160": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g15191": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g15213": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15222": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g15228": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g15250": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g15258": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15294": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g15307": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15312": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g15333": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g15349": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15361": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g15363": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g15373": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15378": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g15379": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15407": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g15421": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15432": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g15434": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15439": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g15482": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g15497": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15502": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15510": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15527": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15588": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15590": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g15626": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g15634": {
+      "lenses": [
+        "corruption",
+        "terrorism"
+      ],
+      "reasons": [
+        "economic_crime",
+        "state_sponsor"
+      ]
+    },
+    "g15665": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g15671": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15706": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g15708": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g15729": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g15734": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g15736": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15738": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g15785": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g15790": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g15795": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15798": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g15888": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15892": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15916": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g15927": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g15981": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g15991": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g16049": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g16073": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16093": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g16103": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16115": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16118": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g16119": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16121": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16129": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16140": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g16154": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g16168": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g16180": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g16218": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g16219": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16223": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16237": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16265": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16266": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16286": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16311": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16332": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g16348": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g16364": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16388": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla",
+        "ordinary_crime"
+      ]
+    },
+    "g16398": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g16407": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g16413": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16436": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16448": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16480": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g16495": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16516": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16527": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g16529": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16531": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16551": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16553": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16559": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16564": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16577": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16609": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16611": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16625": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16638": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g16640": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16686": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16706": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16718": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g16723": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16724": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g16733": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16792": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16806": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g16831": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g16837": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g16855": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g16942": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16965": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g16970": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g16975": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g16984": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g17004": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g17009": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g17011": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g17012": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17020": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17025": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17054": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17115": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17128": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17134": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g17158": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g17170": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17176": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17177": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17200": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17211": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17219": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention"
+      ]
+    },
+    "g17236": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17260": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g17268": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17282": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17325": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17345": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17357": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17358": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g17359": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17369": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g17384": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17387": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17394": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17403": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17483": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17499": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17508": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17535": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g17539": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17546": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17579": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17583": {
+      "lenses": [
+        "alternative_development"
+      ],
+      "reasons": [
+        "coca_traditional"
+      ]
+    },
+    "g17584": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17589": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17594": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17615": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g17647": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17669": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17688": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17711": {
+      "lenses": [
+        "organized_crime",
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals",
+        "salw_to_oc"
+      ]
+    },
+    "g17721": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17744": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17751": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g17835": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g17883": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17885": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g17921": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18001": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18022": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18051": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18061": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18087": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18106": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18131": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g18146": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18173": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18199": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18200": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18225": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g18233": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18234": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18266": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18268": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18304": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18316": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18318": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla",
+        "ordinary_crime"
+      ]
+    },
+    "g18321": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18338": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18353": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g18377": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18390": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g18416": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g18459": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18473": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18480": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18491": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g18500": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g18512": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18521": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18580": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g18609": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18618": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18622": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18658": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g18663": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18668": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g18670": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g18688": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g18689": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18716": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18719": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18747": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18758": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18760": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g18789": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention"
+      ]
+    },
+    "g18791": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18820": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18824": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g18834": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g18836": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18845": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18865": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18866": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18944": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18960": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g18965": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g18973": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g18982": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g18990": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g18991": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g18992": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19024": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19072": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g19088": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19124": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19135": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19174": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g19193": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g19246": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19253": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g19267": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "res1540"
+      ]
+    },
+    "g19269": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19289": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19291": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19304": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g19346": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19357": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19375": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19412": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g19447": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19459": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19464": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19504": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19512": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19515": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g19520": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19527": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g19532": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19541": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19559": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g19569": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19578": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g19580": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19604": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g19616": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g19619": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g19635": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19657": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19663": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19672": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g19674": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19720": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19740": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g19743": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19747": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19755": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19784": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19787": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g19814": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "crsv_trafficking"
+      ]
+    },
+    "g19864": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "iuu_fishing"
+      ]
+    },
+    "g19886": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19887": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g19916": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g19923": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19924": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g19935": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19940": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19945": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g19955": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19964": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g19991": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g20002": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20020": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g20022": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g20060": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g20079": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g20118": {
+      "lenses": [
+        "corruption",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "economic_crime",
+        "police_detention"
+      ]
+    },
+    "g20122": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g20134": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20142": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g20160": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20199": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g20246": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g20305": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g20314": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g20360": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g20373": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g20378": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g20380": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g20387": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g20400": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g20419": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g20424": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g20444": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g20472": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g20502": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "radicalization_bare"
+      ]
+    },
+    "g20517": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g20523": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20526": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g20529": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20531": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g20533": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g20540": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g20546": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20559": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g20565": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20582": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g20584": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g20601": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g20621": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "csam"
+      ]
+    },
+    "g20676": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g20690": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "ordinary_crime",
+        "police_detention"
+      ]
+    },
+    "g20702": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g20703": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g20810": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g20875": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g20877": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g20897": {
+      "lenses": [
+        "organized_crime",
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "csam",
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g20899": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "council_named_acts"
+      ]
+    },
+    "g20961": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g21012": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g21019": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21031": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21046": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g21084": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21089": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21096": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21111": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g21128": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21143": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21159": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21164": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21165": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g21173": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g21186": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g21193": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g21217": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21247": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g21256": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21259": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g21283": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21301": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g21310": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21321": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g21386": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g21447": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21450": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21451": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21492": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21497": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21507": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g21522": {
+      "lenses": [
+        "alternative_development"
+      ],
+      "reasons": [
+        "urban_ad"
+      ]
+    },
+    "g21542": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21578": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g21588": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g21596": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g21604": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21649": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "exploitation_no_trafficking"
+      ]
+    },
+    "g21660": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g21687": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "treaty_acts"
+      ]
+    },
+    "g21720": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g21722": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21756": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21796": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21806": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21815": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g21832": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g21840": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21844": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21855": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g21863": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g21880": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21889": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "protocols_by_name"
+      ]
+    },
+    "g21893": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g21898": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g21953": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g21958": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g22011": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22044": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22110": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g22118": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22131": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g22151": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g22160": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g22167": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22172": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22176": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g22185": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g22202": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "treaty_acts"
+      ]
+    },
+    "g22207": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22237": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22255": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22263": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22280": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22289": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22294": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22308": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22310": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22358": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g22416": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "hostage_civil_war",
+        "police_detention"
+      ]
+    },
+    "g22422": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g22438": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g22451": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g22458": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g22463": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22480": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22481": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22502": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "vaw_measures"
+      ]
+    },
+    "g22504": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22595": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22601": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22622": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g22645": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22656": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22685": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g22699": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22729": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22734": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g22749": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22750": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g22753": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22760": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g22762": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g22774": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22777": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22795": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22826": {
+      "lenses": [
+        "organized_crime",
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals",
+        "salw_to_oc"
+      ]
+    },
+    "g22873": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g22889": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "police_detention"
+      ]
+    },
+    "g22895": {
+      "lenses": [
+        "alternative_development"
+      ],
+      "reasons": [
+        "coca_traditional"
+      ]
+    },
+    "g22995": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g22997": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23001": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g23030": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23032": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23041": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23068": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23096": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23097": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g23144": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23157": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g23175": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g23212": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23262": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g23270": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23273": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23288": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g23301": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23305": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23308": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23311": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23322": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g23325": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g23340": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23357": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23397": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23404": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23406": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23422": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "tax_avoidance"
+      ]
+    },
+    "g23427": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g23438": {
+      "lenses": [
+        "organized_crime",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime",
+        "salw_to_oc"
+      ]
+    },
+    "g23508": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23510": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23549": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g23578": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23579": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g23583": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23594": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23597": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23601": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g23626": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23632": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23654": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23660": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23667": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g23668": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23670": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23701": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g23734": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23803": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23823": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g23828": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23843": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g23844": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23849": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23850": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23855": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g23859": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23867": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23868": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g23926": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g23949": {
+      "lenses": [
+        "trafficking_smuggling"
+      ],
+      "reasons": [
+        "protocols_by_name"
+      ]
+    },
+    "g23997": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g24005": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g24057": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24065": {
+      "lenses": [
+        "environmental_crime"
+      ],
+      "reasons": [
+        "conflict_minerals"
+      ]
+    },
+    "g24087": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24088": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g24143": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g24144": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g24164": {
+      "lenses": [
+        "terrorism",
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention",
+        "treaty_acts"
+      ]
+    },
+    "g24167": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g24173": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g24250": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g24281": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24293": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24325": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g24359": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24375": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g24427": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24443": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24454": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g24463": {
+      "lenses": [
+        "corruption"
+      ],
+      "reasons": [
+        "economic_crime"
+      ]
+    },
+    "g24500": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24501": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "state_sponsor"
+      ]
+    },
+    "g24512": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24543": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g24582": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24589": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24623": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g24625": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g24643": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24657": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "extradition_mla"
+      ]
+    },
+    "g24688": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24693": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "police_detention"
+      ]
+    },
+    "g24694": {
+      "lenses": [
+        "organized_crime"
+      ],
+      "reasons": [
+        "salw_to_oc"
+      ]
+    },
+    "g24710": {
+      "lenses": [
+        "alternative_development"
+      ],
+      "reasons": [
+        "coca_traditional"
+      ]
+    },
+    "g24719": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "hostage_civil_war"
+      ]
+    },
+    "g24768": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    },
+    "g24800": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24818": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24826": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24868": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24881": {
+      "lenses": [
+        "terrorism"
+      ],
+      "reasons": [
+        "treaty_acts"
+      ]
+    },
+    "g24894": {
+      "lenses": [
+        "criminal_justice"
+      ],
+      "reasons": [
+        "ordinary_crime"
+      ]
+    }
+  }
+}

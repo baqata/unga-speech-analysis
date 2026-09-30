@@ -85,6 +85,37 @@ International Trade in Endangered Species; Standard Minimum Rules for the Treatm
 (1955, revised 2015 as the Nelson Mandela Rules); Bangkok Rules (2010); Kyoto Declaration of the
 Fourteenth Crime Congress (2021); An Agenda for Peace (1992).
 
+## Sources for codebook 1.4
+
+Read on 29 September 2026 to check every lens rule against UNODC's official definitions and scope.
+Security Council resolutions were read in the official documents.un.org texts; the other sources in the
+United Nations documents system or on unodc.org and sherloc.unodc.org. No copies are kept in the repository.
+
+| Source | Provision | Rule (codebook section) |
+|---|---|---|
+| Secretary-General's bulletin ST/SGB/2004/6 | section 2.1 | UNODC counts for `drugs` only for its drug work (4.1) |
+| 1988 Convention | art. 14(2) ("traditional licit uses") | traditional coca uses are `drugs` only (4.1, 4.3) |
+| 1988 Convention | art. 3(4) | treatment as an alternative to conviction or punishment (5.1) |
+| A/RES/S-30/1 (2016) | annex, paras. 7(d), 7(j), 7(k) | alternative development for other communities, rural or urban (4.3) |
+| Firearms Protocol, A/RES/55/255 | annex, arts. 3(e) and 4(2) | illicit arms trade is `organized_crime` whoever the recipient; transfers between States are not (4.4) |
+| Convention against Cybercrime, A/RES/79/243 | annex, arts. 14 and 15 | online child sexual abuse material and grooming (4.4) |
+| Interpretative notes, A/55/383/Add.1; A/RES/71/322 | para. 64; organ removal versus trade in organs | exploitation counts only when framed as trafficking (4.7) |
+| Doha Declaration, A/RES/70/174 | annex, para. 8(f) | fraud, tax and corporate crimes are economic crime (4.5) |
+| SDG indicator 16.4.1 metadata (custodians UNODC and UNCTAD) | section 2.a | cross-border aggressive tax avoidance within illicit financial flows (4.5) |
+| UNODC, Education for Justice, Counter-Terrorism Module 4 | treaty-based crimes of terrorism | treaty acts count by their kind (4.6) |
+| International Convention against the Taking of Hostages | arts. 1, 12 and 13 | hostage-taking outside a war between States (4.6, 5.2) |
+| Security Council resolution 1373 (2001); Global Counter-Terrorism Strategy, A/RES/60/288 | para. 2(a); annex, section II, para. 1 | State support for terrorists and its denial (4.6) |
+| Security Council resolutions 731, 1044, 1189, 1368, 1438, 1440, 1450, 1465, 1516, 1530, 1595, 1611 and 2249 | operative or preambular text naming each act terrorist | closed list of acts the Council called terrorist (4.6) |
+| Plan of Action to Prevent Violent Extremism, A/70/674; Security Council resolution 2178 (2014) | paras. 5 and 32 | radicalization to violence only (4.6) |
+| Security Council resolution 1540 (2004) | preamble | non-State actors and weapons of mass destruction (4.6) |
+| A/RES/46/152 | annex, para. 16 | crime in general is `criminal_justice` (4.9, 5.2) |
+| Kyoto Declaration, A/RES/76/181 | annex, para. 62 | cooperation in criminal matters in general (4.9) |
+| Code of Conduct for Law Enforcement Officials, A/RES/34/169; Nelson Mandela Rules, A/RES/70/175 | whole texts | police conduct and detention whoever the victims (4.9) |
+| Updated Model Strategies on violence against women, A/RES/65/228 | annex, paras. 19(a)-(b) and 22(a) | victim support services and prevention campaigns (4.9) |
+| Secretary-General's report on conflict-related sexual violence, S/2024/292; Security Council resolution 2331 (2016) | para. 3; op. 2 | abduction or sale for sexual slavery or forced marriage is trafficking (4.7) |
+| A/RES/76/185; A/RES/55/56 | op. 1; title | minerals crime, including conflict diamonds (4.8) |
+| UNODC Approach to Crimes in the Fisheries Sector; Combating Crimes in the Fisheries Sector (2023); A/RES/64/72 | pp. 2-4; introduction; para. 61 | fisheries crime versus IUU fishing (4.8) |
+
 ## Corpus vocabulary check
 
 The era terms were checked against the General Debate corpus (files mentioning each term, by
