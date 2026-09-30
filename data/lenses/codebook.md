@@ -1,7 +1,10 @@
 # UNODC lens codebook: labelling guide for speech fragments
 
-Version 1.2 (September 2026). Version 1.1 added the boundary rules and examples of section 5 after review;
-1.2 tightens `peace` (4.10), series and lists (3.2) and generic crime (5.2, section 6) after the pilot labelling.
+Version 1.3 (September 2026). Version 1.1 added the boundary rules and examples of section 5 after review;
+1.2 tightens `peace` (4.10), series and lists (3.2) and generic crime (5.2, section 6) after the pilot labelling;
+1.3 settles, after the core labelling, accusations and designations of States as sponsors of terrorism, acts
+and groups that the Security Council has called terrorist, and extremism without violence (4.6), and Security
+Council action on criminal violence (4.10).
 Companion to `data/lenses/lenses.yaml`, which holds the
 machine-readable definitions, include and exclude lists, era vocabulary and anchor
 passages. Where this guide and the YAML differ, report the difference; do not resolve it
@@ -101,7 +104,8 @@ If a lens is both listed and developed in a full sentence elsewhere in the fragm
 
 Label what the fragment talks about, not whether the speaker supports or opposes a policy. A
 fragment that criticizes the war on drugs, denies corruption allegations or rejects a
-counter-terrorism resolution still carries the lens.
+counter-terrorism resolution still carries the lens. The exception is an accusation that a State sponsors
+terrorism, its designation as a sponsor and its denial, which follow 4.6.
 
 ### 3.4 Umbrella rule for drugs
 
@@ -127,7 +131,7 @@ Use `note` (one short sentence) whenever confidence is below 3 or a boundary rul
 
 ## 4. Per-lens decision rules and examples
 
-Each lens lists its key decision rules, then three positive and two negative examples. Negative
+Each lens lists its key decision rules, then at least three positive and two negative examples. Negative
 examples are near misses: fragments a careless coder might label with that lens. Expected outputs
 follow the format in section 9. Boundary cases between lenses have their own examples in section 5.3.
 
@@ -351,6 +355,9 @@ N2 (2010s)
 - One rule for "terrorist" labels in every era. Label `terrorism` when (a) the fragment describes terrorist acts or groups as such, whoever is accused, including a neighbour sending "terrorists" across a border ("we arrested 47 terrorists who had infiltrated our territory"); or (b) it discusses what counts as terrorism: its definition or causes, its distinction from national liberation struggles, "State terrorism" as a form of terrorism, or an explicit rebuttal of the label ("they are not terrorists, as the occupier claims, but patriots").
 - Do not label `terrorism` when "terror", "terrorist" or "terrorism" is only an epithet for a State's army, government, occupation or war ("acts of terrorism" by colonial or occupation forces against a population, "State terrorism" for military operations, "terrorist regime"), and neither a terrorist act nor the concept is discussed. Label `peace` if the conflict is discussed.
 - War, invasion, occupation or insurgency not described as terrorism: `peace`.
+- Acts and groups that the Security Council has itself called terrorist count as described as such under (a), even when the fragment does not use the word, if the fragment discusses the act, the group or the handling of the act (an investigation, a trial, sanctions against the group). The list is closed: Al-Qaida, ISIL (Da'esh) and the other groups on the Security Council's ISIL (Da'esh) and Al-Qaida sanctions list, such as Boko Haram and the Al-Nusrah Front; Al-Shabaab; the attacks of 11 September 2001; the bombings of Pan Am flight 103 over Lockerbie and of UTA flight 772; and the bombing of the AMIA building in Buenos Aires in 1994. A name or date used only to mark time ("since 11 September", "the world after 9/11") does not count. Any other act or group counts only when the fragment itself calls it terrorist, however it is described elsewhere; do not rely on your own view of whether an attack was terrorism.
+- Accusations that a State sponsors or supports terrorism, its designation on a list of State sponsors of terrorism, demands to remove it from such a list or to lift the measures attached, and the State's denial of the accusation are about sanctions and relations between States. They give `terrorism` only when the fragment also discusses terrorism itself: terrorist acts, groups, victims or perpetrators, cooperation against terrorism, or its definition. The rebuttal in (b) concerns whether a struggle or a group is terrorist, not whether a State sponsors terrorism. An accusation called a pretext for an armed attack gives `peace` for the attack (4.10).
+- "Extremism" or "extremists" without "violent" counts as violent extremism only when the fragment ties it to violence against people: extremist attacks or killings, extremists as perpetrators of violence, or extremism named as one threat together with such violence. As an ideology, a political position, a social ill or an insult, with no violence, it gives no `terrorism`.
 - "Balance of terror", "nuclear terror" in the deterrence sense, "economic terrorism", "media terrorism": not this lens.
 - The formula "terrorism is a threat to international peace and security" does not add `peace`.
 
@@ -375,6 +382,13 @@ P3 (1980s)
 {"frag_id": "ex-terrorism-p3", "lenses": ["terrorism"], "mention_type": {"terrorism": "substantive"}, "confidence": 3, "note": "Debate on the definition of terrorism."}
 ```
 
+P4 (1990s)
+> The families of the victims of the bombing of Pan Am flight 103 over Lockerbie still await the full truth. We call on all States to cooperate with the investigation so that those responsible are brought to justice.
+
+```json
+{"frag_id": "ex-terrorism-p4", "lenses": ["terrorism"], "mention_type": {"terrorism": "substantive"}, "confidence": 3, "note": "An act that the Security Council called terrorist, and its investigation (4.6)."}
+```
+
 N1 (2020s)
 > The bombardment of cities and the displacement of hundreds of thousands of civilians during the invasion must be condemned. The aggressor must withdraw its troops and respect the sovereignty of its neighbour.
 
@@ -387,6 +401,20 @@ N2 (1960s)
 
 ```json
 {"frag_id": "ex-terrorism-n2", "lenses": ["peace"], "mention_type": {"peace": "substantive"}, "confidence": 3, "note": "Deterrence sense of 'terror'."}
+```
+
+N3 (2010s)
+> For decades my country has been kept on the list of States that sponsor terrorism, a unilateral measure that only serves to justify the blockade. We demand our immediate removal from that list and the lifting of all the sanctions imposed on our people.
+
+```json
+{"frag_id": "ex-terrorism-n3", "lenses": [], "mention_type": {}, "confidence": 3, "note": "Designation as a State sponsor of terrorism and a demand to lift it, with no terrorism discussed (4.6)."}
+```
+
+N4 (2000s)
+> Extremism and intolerance are eroding the values that hold our societies together. We must promote dialogue among cultures and religions and teach our young people respect for others.
+
+```json
+{"frag_id": "ex-terrorism-n4", "lenses": [], "mention_type": {}, "confidence": 3, "note": "Extremism as a social ill, with no violence against people (4.6)."}
 ```
 
 ### 4.7 `trafficking_smuggling` (Human trafficking & smuggling)
@@ -523,12 +551,12 @@ N2 (2000s)
   - relations between rival Powers or blocs discussed as tension, détente or the danger of war (the cold war, the arms race);
   - ceasefires, conflict prevention and mediation, peace processes and agreements (including the demobilization and reintegration of combatants), peacekeeping and peacebuilding;
   - disarmament and arms control, however framed: a sentence on what disarmament would do for development is `peace` (this refines the YAML's "framed in terms of peace and security");
-  - the Security Council's action on a situation, its reform, its working methods or the veto, and the sanctions or embargoes it decides.
+  - the Security Council's action on a situation, its reform, its working methods or the veto, and the sanctions or embargoes it decides. Council action is `peace` even when the situation is gang or criminal violence without armed conflict, and so is a force or mission that the Council authorizes for it (the Multinational Security Support mission and the Gang Suppression Force in Haiti); the gangs also give `organized_crime` when the fragment develops them.
 - General invocations carry no label: peace as an aspiration or a value ("lasting peace", "the cause of peace", "a world of peace"), conflict or war among the world's ills with no referent ("conflict remains the enemy of development"), and "the maintenance of international peace and security" as the purpose of the Organization or a general duty of its Members. In an enumeration they are `list` (3.2).
 - Apartheid, racism and colonialism are not `peace` by themselves. Add `peace` when a sentence is about armed struggle, military attacks or aggression, military occupation, or Security Council measures connected with them. Calls on States to isolate or boycott a regime are not Security Council measures.
 - The release of hostages or detainees demanded as part of a ceasefire or end of a war, when their taking is not described as terrorism, is `peace` only (section 5.2).
 - Ceremonial uses ("peace-loving", congratulations, "a world of peace and prosperity"), peaceful uses of nuclear energy, social peace in a domestic economic sense: not this lens.
-- Crime or violence without armed conflict, including "war on drugs" or "war on crime": not this lens.
+- Crime or violence without armed conflict, including "war on drugs" or "war on crime": not this lens, except Security Council action on it (above).
 - Do not add `peace` for the formula "X threatens international peace and security" inside a sentence about another lens.
 
 P1 (1960s)
@@ -557,6 +585,13 @@ P3 (2010s)
 
 ```json
 {"frag_id": "ex-peace-p3", "lenses": ["peace"], "mention_type": {"peace": "list"}, "confidence": 3, "note": "One pillar in an enumeration."}
+```
+
+P5 (2020s)
+> The gangs that control most of our capital kill, kidnap and extort with impunity. We thank the Security Council for authorizing the Gang Suppression Force, and we call on Member States to provide it with troops and funding.
+
+```json
+{"frag_id": "ex-peace-p5", "lenses": ["organized_crime", "peace"], "mention_type": {"organized_crime": "substantive", "peace": "substantive"}, "confidence": 3, "note": "Security Council action on gang violence is peace (4.10); the gangs are organized_crime."}
 ```
 
 N1 (1980s)
@@ -786,6 +821,9 @@ B13 (2012)
 | "hostage to", "held hostage by" | metaphor |
 | "release of all hostages" in a ceasefire demand | `peace`, not `terrorism`, unless the taking is called terrorism |
 | "terrorist methods", "terrorize" said of criminal groups | `organized_crime`, not `terrorism`, unless the acts are called terrorism |
+| "State sponsor of terrorism", removal from a list of State sponsors of terrorism, denial of the accusation | sanctions or relations between States: `terrorism` only if terrorism itself is discussed (4.6) |
+| "since 11 September", "the world after 9/11" | a date or period: no `terrorism` (4.6) |
+| "extremism", "extremists" as an ideology, a political position or an insult | no `terrorism` without violence against people (4.6) |
 | "drug abuse and illicit trafficking", "the scourge of drug abuse", "reduce supply and demand" | `drugs`, not `prevention_treatment` |
 | "eliminate all forms of violence against women" as a gender-equality goal | no lens without a criminal-justice element |
 | "crime", "crimes", "criminal activities" with no type or group named | generic crime: no crime lens (5.2) |

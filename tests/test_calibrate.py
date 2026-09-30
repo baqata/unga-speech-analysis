@@ -99,7 +99,7 @@ def paths(tmp_path, monkeypatch):
     monkeypatch.setattr(cal, "LENS_VECTORS", tmp_path / "emb" / "lenses.npz")
     monkeypatch.setattr(cal, "SCORES", tmp_path / "lens_scores.parquet")
     monkeypatch.setattr(cal, "PROBS", tmp_path / "lens_probs.parquet")
-    for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "CHECK", "CHECKSET", "AGREEMENT", "RESOLVE",
+    for name in ("SAMPLE", "MANIFEST", "BATCHES", "LABELS", "CHECK", "CHECKSET", "REREAD", "AGREEMENT", "RESOLVE",
                  "RESOLVED", "FINAL", "FIT", "CLASSIFIERS", "RESULTS", "GOLD"):
         rel = getattr(cal, name).relative_to(config.GOLD) if name != "GOLD" else None
         monkeypatch.setattr(cal, name, tmp_path / "gold" / rel if rel else tmp_path / "gold")
@@ -273,7 +273,8 @@ def record(gid, lens=None):
 def gold(tmp_path, monkeypatch):
     """Eight sampled fragments in two batches, labelled by the core labeller."""
     for name, rel in {"GOLD": ".", "SAMPLE": "sample.parquet", "BATCHES": "batches", "LABELS": "labels",
-                      "CHECK": "check", "CHECKSET": "checkset.json", "AGREEMENT": "agreement.json",
+                      "CHECK": "check", "CHECKSET": "checkset.json", "REREAD": "reread.json",
+                      "AGREEMENT": "agreement.json",
                       "RESOLVE": "resolve", "RESOLVED": "resolved", "FINAL": "labels_final.parquet",
                       "SCORES": "scores.parquet"}.items():
         monkeypatch.setattr(cal, name, tmp_path / rel)
@@ -302,6 +303,37 @@ def test_check_set_draws_core_positives_and_near_misses(gold):
     assert sorted(written) == sorted(set(drugs["positives"] + drugs["near_misses"] + peace["positives"] + ["g1"]))
     with pytest.raises(cal.CalibrationError):
         cal.draw_checkset()  # drawn once
+
+
+def test_second_reading_joins_the_check_files_but_not_the_agreement(gold):
+    # g2 and g8 are validation fragments; the core labeller was unsure of g8 (2) and of g6 (1, training);
+    # g1 is listed for a second reading after a codebook revision, so it cannot enter the check set.
+    sample = pd.read_parquet(gold / "sample.parquet")
+    sample.loc[sample.gid.isin(["g2", "g8"]), "split"] = "validation"
+    sample.to_parquet(gold / "sample.parquet")
+    unsure = {"g8": 2, "g6": 1}
+    for batch in ("b001", "b002"):
+        path = gold / "labels" / "core" / f"{batch}.jsonl"
+        cal.write_jsonl(path, [dict(r, confidence=unsure.get(r["frag_id"], 3)) for r in cal.read_jsonl(path)])
+    (gold / "reread.json").write_text(json.dumps({"fragments": {"g1": ["named_act_or_group"]}}))
+    cs = cal.draw_checkset()
+    drugs, peace = cs["lenses"]["drugs"], cs["lenses"]["peace"]
+    assert drugs["positives"] == ["g2", "g3"] and drugs["positives_available"] == 2  # g1 is kept out
+    assert drugs["near_misses"] == ["g4", "g7"] and peace["near_misses"] == []  # g1 was peace's only near-miss
+    second = cs["second_reading"]
+    assert second["fragments"] == ["g1", "g6", "g8"] and second["also_in_check_set"] == 1
+    assert (second["validation_low_confidence"], second["confidence_1"], second["reread"]) == (1, 1, 1)
+    written = [r["frag_id"] for p in sorted((gold / "check").glob("*.jsonl")) for r in cal.read_jsonl(p)]
+    assert sorted(written) == [f"g{i}" for i in range(1, 9)]
+    # The check labeller agrees, except that it reads g8 as about peace: g8 is queued, the agreement is unchanged.
+    for p in sorted((gold / "check").glob("*.jsonl")):
+        cal.write_jsonl(gold / "labels" / "check" / p.name,
+                        [record(r["frag_id"], "peace" if r["frag_id"] == "g8" else CORE_LENS.get(r["frag_id"]))
+                         for r in cal.read_jsonl(p)])
+    summary = cal.collect()
+    assert summary["agreement"]["drugs"]["kappa"] == 1.0
+    assert (summary["to_resolve"], summary["second_reading"], summary["second_reading_to_resolve"]) == (1, 3, 1)
+    assert [r["frag_id"] for r in cal.read_jsonl(gold / "resolve" / "r001.jsonl")] == ["g8"]
 
 
 def test_disagreements_go_to_the_resolver_and_its_decision_is_final(gold):

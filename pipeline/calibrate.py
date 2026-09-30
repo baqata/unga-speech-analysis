@@ -44,6 +44,7 @@ LOWER_PER_STRATUM = 30  # key-term fragments outside the top 8/25, per lens and 
 BATCH_SIZE = 150
 CORE, CHECKER = "core", "check"  # the core labeller and the check labeller (docs/calibration.md, section 4)
 CHECK_PER_GROUP = 30  # per lens: fragments the core labeller marked positive, and near-misses
+LOW_CONFIDENCE = 2  # validation fragments the core labeller marked at or below it are read a second time
 KAPPA_BAR = 0.8  # a lens below it goes back to the user
 PENALTIES = (0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0)
 FOLDS = 5
@@ -61,6 +62,7 @@ BATCHES = GOLD / "batches"
 LABELS = GOLD / "labels"
 CHECK = GOLD / "check"
 CHECKSET = GOLD / "checkset.json"
+REREAD = GOLD / "reread.json"  # fragments a codebook revision may change: read again, kept out of the check set
 AGREEMENT = GOLD / "agreement.json"
 RESOLVE = GOLD / "resolve"
 RESOLVED = GOLD / "resolved"
@@ -476,8 +478,10 @@ def cohen_kappa(a, b) -> float | None:
 def draw_checkset(force: bool = False) -> dict:
     """The check set (docs/calibration.md, section 4): for each lens, 30 fragments the core labeller marked
     positive and 30 near-misses, fragments it marked negative whose score is at least the median score of its
-    positives; each group drawn at random, or taken whole when smaller. Written in random order to files of up
-    to 150 fragments."""
+    positives; each group drawn at random among the fragments not listed in REREAD, or taken whole when smaller.
+    The second reading adds every validation fragment the core labeller marked at confidence 2 or less, every
+    fragment at confidence 1 and every fragment listed in REREAD. Both are written together in random order to
+    files of up to 150 fragments."""
     if (LABELS / CHECKER).exists() and any((LABELS / CHECKER).glob("*.jsonl")):
         raise CalibrationError("check labels exist; the check set cannot be redrawn.")
     if CHECKSET.exists() and not force:
@@ -485,13 +489,17 @@ def draw_checkset(force: bool = False) -> dict:
                                "any check label is written).")
     codebook = load_lenses()
     ids = lens_ids(codebook)
-    core, _ = read_labeller(CORE, ids, codebook)
+    core, core_raw = read_labeller(CORE, ids, codebook)
     sample = pd.read_parquet(SAMPLE).sort_values("gid").reset_index(drop=True)
     missing = set(sample["gid"]) - set(core)
     if missing:
         raise CalibrationError(f"{len(missing)} sampled fragment(s) have no core label")
+    reread = set(json.loads(REREAD.read_text())["fragments"]) if REREAD.exists() else set()
+    if reread - set(sample["gid"]):
+        raise CalibrationError(f"{len(reread - set(sample['gid']))} fragment(s) of {REREAD.name} are not sampled")
     scores = pd.read_parquet(SCORES).set_index("frag_id").loc[sample["frag_id"]]
     gids = sample["gid"].to_numpy()
+    drawable = ~np.isin(gids, sorted(reread))
     rng = np.random.default_rng(SEED + 3)
     lenses, chosen = {}, set()
     for lens in ids:
@@ -500,14 +508,20 @@ def draw_checkset(force: bool = False) -> dict:
         near = ~y & (s >= np.median(s[y])) if y.any() else np.zeros(len(y), dtype=bool)
         groups = {}
         for name, mask in (("positives", y), ("near_misses", near)):
-            pool = gids[mask]
+            pool = gids[mask & drawable]
             pick = pool if len(pool) <= CHECK_PER_GROUP else rng.choice(pool, CHECK_PER_GROUP, replace=False)
             groups[name] = sorted(str(g) for g in pick)
             groups[f"{name}_available"] = int(len(pool))
         lenses[lens] = groups
         chosen.update(groups["positives"] + groups["near_misses"])
+    confidence = {str(g): core_raw[g]["confidence"] for g in gids}
+    validation = set(sample.loc[sample["split"] == "validation", "gid"])
+    second = {"validation_low_confidence": sorted(g for g in validation if confidence[g] <= LOW_CONFIDENCE),
+              "confidence_1": sorted(g for g, c in confidence.items() if c == 1),
+              "reread": sorted(reread)}
+    second_all = set().union(*second.values())
     text = {r["frag_id"]: r for p in sorted(BATCHES.glob("*.jsonl")) for r in read_jsonl(p)}
-    order = [str(g) for g in rng.permutation(sorted(chosen))]
+    order = [str(g) for g in rng.permutation(sorted(chosen | second_all))]
     if CHECK.exists():
         for old in CHECK.glob("*.jsonl"):
             old.unlink()
@@ -517,14 +531,17 @@ def draw_checkset(force: bool = False) -> dict:
                                                   "text": text[order[k]]["text"]} for k in part])
         files[f"c{i:03d}"] = len(part)
     out = {"drawn_at": now(), "seed": SEED + 3, "per_group": CHECK_PER_GROUP, "fragments": len(order),
-           "files": files, "lenses": lenses}
+           "files": files, "lenses": lenses,
+           "second_reading": {**{k: len(v) for k, v in second.items()}, "also_in_check_set": len(second_all & chosen),
+                              "fragments": sorted(second_all)}}
     write_json(CHECKSET, out)
     return out
 
 
 def collect() -> dict:
     """Agreement of the two labellers on the check set (docs/calibration.md, section 4), and the resolver queue:
-    every pair (fragment, lens) of the check set on which they differ about `substantive`."""
+    every pair (fragment, lens) of the check set or the second reading on which they differ about
+    `substantive`."""
     codebook = load_lenses()
     ids = lens_ids(codebook)
     if not CHECKSET.exists():
@@ -562,7 +579,9 @@ def collect() -> dict:
     n_files = int(np.ceil(len(rows) / BATCH_SIZE)) if rows else 0
     for i, part in enumerate(np.array_split(np.arange(len(rows)), n_files) if n_files else [], 1):
         write_jsonl(RESOLVE / f"r{i:03d}.jsonl", [rows[k] for k in part])
+    second = set(cs.get("second_reading", {}).get("fragments", []))
     summary = {"checked_at": now(), "check_fragments": len(check), "to_resolve": len(rows),
+               "second_reading": len(second), "second_reading_to_resolve": len(second & set(queue)),
                "resolve_files": n_files, "kappa_bar": KAPPA_BAR,
                "below_bar": [lens for lens, v in agreement.items() if v["kappa"] is None or v["kappa"] < KAPPA_BAR],
                "agreement": agreement}

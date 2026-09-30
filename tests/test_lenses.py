@@ -241,11 +241,13 @@ def test_codebook_examples_are_valid(codebook):
 
 
 def test_codebook_has_positive_and_negative_examples_per_lens():
-    # Three positive and two negative examples per lens; peace has four of each, since codebook 1.2 added
-    # examples for the rules of 4.10 (disarmament however framed, aspirations, apartheid).
+    # Three positive and two negative examples per lens. Codebook 1.2 added examples for the rules of 4.10
+    # (disarmament however framed, aspirations, apartheid) and 1.3 for Council action on gang violence (4.10),
+    # acts the Council called terrorist, sponsor designations and extremism without violence (4.6).
     examples = codebook_examples()
+    extra = {"peace": (5, 4), "terrorism": (4, 4)}
     for lens_id in EXPECTED_IDS:
-        n_pos, n_neg = (4, 4) if lens_id == "peace" else (3, 2)
+        n_pos, n_neg = extra.get(lens_id, (3, 2))
         pos = [e for e in examples if re.fullmatch(rf"ex-{lens_id}-p\d", e["frag_id"])]
         neg = [e for e in examples if re.fullmatch(rf"ex-{lens_id}-n\d", e["frag_id"])]
         assert len(pos) == n_pos and all(lens_id in e["lenses"] for e in pos), lens_id

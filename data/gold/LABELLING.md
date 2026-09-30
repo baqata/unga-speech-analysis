@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This is the checked sample of the lens calibration (`docs/calibration.md`). One labeller, the core labeller, reads every fragment. A second labeller then labels a check set of about 600 of them independently, and a resolver decides the lenses on which the two differ. The dashboard's automatic measure is judged against the result, so each label must follow the codebook exactly and come from reading the text.
+This is the checked sample of the lens calibration (`docs/calibration.md`). One labeller, the core labeller, reads every fragment. A second labeller then labels independently a check set of about 600 of them and a second reading of about 1,800 more, and a resolver decides the lenses on which the two differ. The dashboard's automatic measure is judged against the result, so each label must follow the codebook exactly and come from reading the text.
 
 ## Read first, in full
 
-1. `data/lenses/codebook.md` (version 1.2): the rules, the examples and the output format (section 9).
+1. `data/lenses/codebook.md` (version 1.3): the rules, the examples and the output format (section 9).
 2. `data/lenses/lenses.yaml`: the definitions, include and exclude lists and era vocabulary.
 
 If the two differ, follow the codebook and say so in the record's `note`. Where the codebook itself says that it refines the YAML (as 4.10 does for disarmament), follow it without a note.
@@ -15,7 +15,7 @@ If the two differ, follow the codebook and say so in the record's `note`. Where 
 
 - **Decide by reading.** Decide each fragment by reading it in full. Scripts may read files, count, check and write your records. They must never choose a label, whether by keyword rules, similarity scores or any other automatic means.
 - **Stay blind.** Use only your input file, the codebook and the lens file. Do not open:
-  - `data/gold/sample.parquet`, `data/gold/manifest.json`, the other labellers' folders, `data/gold/pilot-v1.1/` or `data/interim/`;
+  - `data/gold/sample.parquet`, `data/gold/manifest.json`, `data/gold/checkset.json`, `data/gold/reread.json`, the other labellers' folders, `data/gold/pilot-v1.1/` or `data/interim/`;
   - the corpus, the speeches or any other source;
   - any web search.
 

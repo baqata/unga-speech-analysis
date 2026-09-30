@@ -1,0 +1,770 @@
+{
+ "codebook": "1.3",
+ "made_at": "2026-09-30T00:54:10+00:00",
+ "note": "Fragments whose label the rules added in codebook 1.3 (4.6, 4.10) may change. Found by searching the sample texts for State-sponsor designations and accusations, Haiti with gangs or Security Council action, named terrorist groups and attacks without the word terror, and 'extremism' without violent extremism, terror or radicalization; plus fragments named in the reviews of the core labels (single departures from the codebook, and the cases that bound the new rules). Read again under 1.3 and kept out of the check set (docs/calibration.md, section 4).",
+ "reasons": {
+  "council_gang_violence": 68,
+  "extremism": 89,
+  "named_act_or_group": 52,
+  "review": 5,
+  "rule_scope": 2,
+  "sponsor_designation": 37
+ },
+ "fragments": {
+  "g00015": [
+   "named_act_or_group"
+  ],
+  "g00423": [
+   "named_act_or_group"
+  ],
+  "g00439": [
+   "named_act_or_group"
+  ],
+  "g00536": [
+   "council_gang_violence"
+  ],
+  "g00554": [
+   "council_gang_violence"
+  ],
+  "g00759": [
+   "named_act_or_group"
+  ],
+  "g00783": [
+   "extremism"
+  ],
+  "g00825": [
+   "council_gang_violence"
+  ],
+  "g00873": [
+   "council_gang_violence"
+  ],
+  "g01160": [
+   "extremism"
+  ],
+  "g01164": [
+   "extremism"
+  ],
+  "g01175": [
+   "council_gang_violence"
+  ],
+  "g01191": [
+   "named_act_or_group"
+  ],
+  "g01193": [
+   "review"
+  ],
+  "g01261": [
+   "named_act_or_group"
+  ],
+  "g01313": [
+   "extremism"
+  ],
+  "g01355": [
+   "named_act_or_group"
+  ],
+  "g01597": [
+   "sponsor_designation"
+  ],
+  "g01644": [
+   "review"
+  ],
+  "g01705": [
+   "sponsor_designation"
+  ],
+  "g01800": [
+   "named_act_or_group"
+  ],
+  "g01895": [
+   "named_act_or_group"
+  ],
+  "g02047": [
+   "rule_scope"
+  ],
+  "g02079": [
+   "council_gang_violence"
+  ],
+  "g02131": [
+   "extremism"
+  ],
+  "g02266": [
+   "extremism"
+  ],
+  "g02274": [
+   "council_gang_violence"
+  ],
+  "g02452": [
+   "extremism"
+  ],
+  "g02485": [
+   "named_act_or_group"
+  ],
+  "g02600": [
+   "extremism"
+  ],
+  "g02614": [
+   "extremism"
+  ],
+  "g02864": [
+   "council_gang_violence"
+  ],
+  "g02906": [
+   "council_gang_violence"
+  ],
+  "g02945": [
+   "named_act_or_group"
+  ],
+  "g03070": [
+   "council_gang_violence"
+  ],
+  "g03083": [
+   "extremism"
+  ],
+  "g03201": [
+   "extremism"
+  ],
+  "g03439": [
+   "council_gang_violence"
+  ],
+  "g03493": [
+   "sponsor_designation"
+  ],
+  "g03530": [
+   "council_gang_violence"
+  ],
+  "g03734": [
+   "council_gang_violence"
+  ],
+  "g03850": [
+   "extremism"
+  ],
+  "g03903": [
+   "extremism"
+  ],
+  "g03969": [
+   "council_gang_violence"
+  ],
+  "g04031": [
+   "extremism"
+  ],
+  "g04059": [
+   "extremism"
+  ],
+  "g04080": [
+   "sponsor_designation"
+  ],
+  "g04281": [
+   "named_act_or_group"
+  ],
+  "g04416": [
+   "extremism"
+  ],
+  "g04449": [
+   "extremism"
+  ],
+  "g04489": [
+   "extremism"
+  ],
+  "g04498": [
+   "named_act_or_group"
+  ],
+  "g04705": [
+   "extremism"
+  ],
+  "g04723": [
+   "named_act_or_group"
+  ],
+  "g04759": [
+   "named_act_or_group"
+  ],
+  "g04806": [
+   "extremism"
+  ],
+  "g04947": [
+   "council_gang_violence"
+  ],
+  "g05069": [
+   "sponsor_designation"
+  ],
+  "g05091": [
+   "sponsor_designation"
+  ],
+  "g05132": [
+   "sponsor_designation"
+  ],
+  "g05226": [
+   "council_gang_violence"
+  ],
+  "g05327": [
+   "sponsor_designation"
+  ],
+  "g05374": [
+   "council_gang_violence"
+  ],
+  "g05636": [
+   "extremism"
+  ],
+  "g05644": [
+   "extremism"
+  ],
+  "g05748": [
+   "council_gang_violence"
+  ],
+  "g05957": [
+   "council_gang_violence"
+  ],
+  "g06128": [
+   "extremism",
+   "named_act_or_group"
+  ],
+  "g06135": [
+   "extremism"
+  ],
+  "g06630": [
+   "extremism"
+  ],
+  "g06706": [
+   "extremism"
+  ],
+  "g06716": [
+   "extremism"
+  ],
+  "g06842": [
+   "extremism"
+  ],
+  "g07019": [
+   "council_gang_violence"
+  ],
+  "g07025": [
+   "extremism"
+  ],
+  "g07155": [
+   "sponsor_designation"
+  ],
+  "g07250": [
+   "named_act_or_group"
+  ],
+  "g07344": [
+   "named_act_or_group"
+  ],
+  "g07358": [
+   "sponsor_designation"
+  ],
+  "g07606": [
+   "named_act_or_group"
+  ],
+  "g07710": [
+   "extremism"
+  ],
+  "g08142": [
+   "sponsor_designation"
+  ],
+  "g08320": [
+   "sponsor_designation"
+  ],
+  "g08356": [
+   "sponsor_designation"
+  ],
+  "g08393": [
+   "council_gang_violence"
+  ],
+  "g08614": [
+   "extremism"
+  ],
+  "g08795": [
+   "council_gang_violence"
+  ],
+  "g08811": [
+   "named_act_or_group"
+  ],
+  "g08905": [
+   "council_gang_violence"
+  ],
+  "g08916": [
+   "extremism"
+  ],
+  "g09026": [
+   "council_gang_violence"
+  ],
+  "g09179": [
+   "named_act_or_group"
+  ],
+  "g09184": [
+   "extremism"
+  ],
+  "g09337": [
+   "named_act_or_group"
+  ],
+  "g09458": [
+   "council_gang_violence"
+  ],
+  "g09536": [
+   "council_gang_violence"
+  ],
+  "g09799": [
+   "sponsor_designation"
+  ],
+  "g09809": [
+   "extremism"
+  ],
+  "g09884": [
+   "named_act_or_group"
+  ],
+  "g10111": [
+   "council_gang_violence"
+  ],
+  "g10119": [
+   "sponsor_designation"
+  ],
+  "g10143": [
+   "extremism"
+  ],
+  "g10305": [
+   "named_act_or_group"
+  ],
+  "g10549": [
+   "council_gang_violence"
+  ],
+  "g10690": [
+   "named_act_or_group"
+  ],
+  "g10883": [
+   "extremism"
+  ],
+  "g10944": [
+   "council_gang_violence"
+  ],
+  "g11016": [
+   "named_act_or_group"
+  ],
+  "g11055": [
+   "council_gang_violence"
+  ],
+  "g11084": [
+   "sponsor_designation"
+  ],
+  "g11176": [
+   "named_act_or_group"
+  ],
+  "g11191": [
+   "extremism"
+  ],
+  "g11236": [
+   "council_gang_violence"
+  ],
+  "g11304": [
+   "council_gang_violence"
+  ],
+  "g11306": [
+   "extremism"
+  ],
+  "g11352": [
+   "council_gang_violence"
+  ],
+  "g11458": [
+   "council_gang_violence"
+  ],
+  "g11482": [
+   "named_act_or_group"
+  ],
+  "g11627": [
+   "named_act_or_group"
+  ],
+  "g11962": [
+   "extremism"
+  ],
+  "g11984": [
+   "sponsor_designation"
+  ],
+  "g12057": [
+   "council_gang_violence"
+  ],
+  "g12200": [
+   "council_gang_violence"
+  ],
+  "g12207": [
+   "council_gang_violence"
+  ],
+  "g12308": [
+   "extremism"
+  ],
+  "g12433": [
+   "extremism"
+  ],
+  "g12568": [
+   "extremism"
+  ],
+  "g12803": [
+   "council_gang_violence"
+  ],
+  "g12889": [
+   "extremism"
+  ],
+  "g12917": [
+   "council_gang_violence"
+  ],
+  "g13131": [
+   "extremism"
+  ],
+  "g13396": [
+   "named_act_or_group"
+  ],
+  "g13451": [
+   "council_gang_violence"
+  ],
+  "g13460": [
+   "council_gang_violence"
+  ],
+  "g13497": [
+   "extremism"
+  ],
+  "g13806": [
+   "council_gang_violence",
+   "sponsor_designation"
+  ],
+  "g13936": [
+   "council_gang_violence"
+  ],
+  "g13958": [
+   "sponsor_designation"
+  ],
+  "g14003": [
+   "named_act_or_group"
+  ],
+  "g14023": [
+   "sponsor_designation"
+  ],
+  "g14342": [
+   "rule_scope"
+  ],
+  "g14374": [
+   "named_act_or_group"
+  ],
+  "g14480": [
+   "extremism"
+  ],
+  "g14566": [
+   "named_act_or_group"
+  ],
+  "g14756": [
+   "council_gang_violence"
+  ],
+  "g14766": [
+   "council_gang_violence"
+  ],
+  "g14852": [
+   "council_gang_violence"
+  ],
+  "g14978": [
+   "extremism"
+  ],
+  "g15088": [
+   "extremism"
+  ],
+  "g15129": [
+   "named_act_or_group"
+  ],
+  "g15278": [
+   "extremism"
+  ],
+  "g15302": [
+   "extremism"
+  ],
+  "g15409": [
+   "named_act_or_group"
+  ],
+  "g15458": [
+   "extremism"
+  ],
+  "g15462": [
+   "council_gang_violence"
+  ],
+  "g15553": [
+   "sponsor_designation"
+  ],
+  "g15581": [
+   "council_gang_violence"
+  ],
+  "g15583": [
+   "named_act_or_group"
+  ],
+  "g15593": [
+   "extremism"
+  ],
+  "g16020": [
+   "extremism"
+  ],
+  "g16055": [
+   "named_act_or_group"
+  ],
+  "g16081": [
+   "extremism"
+  ],
+  "g16113": [
+   "extremism"
+  ],
+  "g16209": [
+   "extremism"
+  ],
+  "g16252": [
+   "sponsor_designation"
+  ],
+  "g16378": [
+   "named_act_or_group"
+  ],
+  "g16559": [
+   "extremism"
+  ],
+  "g16756": [
+   "council_gang_violence"
+  ],
+  "g16831": [
+   "sponsor_designation"
+  ],
+  "g16842": [
+   "extremism"
+  ],
+  "g16945": [
+   "extremism"
+  ],
+  "g17196": [
+   "council_gang_violence"
+  ],
+  "g17260": [
+   "sponsor_designation"
+  ],
+  "g17385": [
+   "extremism"
+  ],
+  "g17490": [
+   "council_gang_violence"
+  ],
+  "g17656": [
+   "named_act_or_group"
+  ],
+  "g17688": [
+   "named_act_or_group"
+  ],
+  "g17701": [
+   "council_gang_violence"
+  ],
+  "g17776": [
+   "sponsor_designation"
+  ],
+  "g17821": [
+   "sponsor_designation"
+  ],
+  "g18138": [
+   "council_gang_violence"
+  ],
+  "g18144": [
+   "extremism"
+  ],
+  "g18185": [
+   "extremism"
+  ],
+  "g18413": [
+   "extremism"
+  ],
+  "g18583": [
+   "extremism"
+  ],
+  "g18609": [
+   "named_act_or_group"
+  ],
+  "g18716": [
+   "council_gang_violence"
+  ],
+  "g18991": [
+   "sponsor_designation"
+  ],
+  "g19072": [
+   "sponsor_designation"
+  ],
+  "g19271": [
+   "extremism"
+  ],
+  "g19281": [
+   "council_gang_violence"
+  ],
+  "g19341": [
+   "named_act_or_group"
+  ],
+  "g19527": [
+   "council_gang_violence"
+  ],
+  "g19663": [
+   "sponsor_designation"
+  ],
+  "g19769": [
+   "named_act_or_group"
+  ],
+  "g19896": [
+   "council_gang_violence"
+  ],
+  "g19965": [
+   "council_gang_violence"
+  ],
+  "g19966": [
+   "council_gang_violence"
+  ],
+  "g20120": [
+   "review"
+  ],
+  "g20222": [
+   "extremism"
+  ],
+  "g20236": [
+   "extremism"
+  ],
+  "g20478": [
+   "extremism"
+  ],
+  "g20483": [
+   "sponsor_designation"
+  ],
+  "g20811": [
+   "council_gang_violence"
+  ],
+  "g20895": [
+   "extremism"
+  ],
+  "g20921": [
+   "extremism"
+  ],
+  "g21019": [
+   "extremism"
+  ],
+  "g21193": [
+   "named_act_or_group"
+  ],
+  "g21495": [
+   "council_gang_violence"
+  ],
+  "g21568": [
+   "named_act_or_group"
+  ],
+  "g21593": [
+   "council_gang_violence"
+  ],
+  "g21855": [
+   "sponsor_designation"
+  ],
+  "g22268": [
+   "extremism"
+  ],
+  "g22291": [
+   "extremism"
+  ],
+  "g22402": [
+   "extremism"
+  ],
+  "g22405": [
+   "extremism"
+  ],
+  "g22458": [
+   "council_gang_violence"
+  ],
+  "g22460": [
+   "extremism"
+  ],
+  "g22508": [
+   "review"
+  ],
+  "g22611": [
+   "council_gang_violence"
+  ],
+  "g22716": [
+   "sponsor_designation"
+  ],
+  "g22889": [
+   "named_act_or_group"
+  ],
+  "g22991": [
+   "extremism"
+  ],
+  "g23001": [
+   "council_gang_violence"
+  ],
+  "g23124": [
+   "extremism"
+  ],
+  "g23174": [
+   "sponsor_designation"
+  ],
+  "g23262": [
+   "sponsor_designation"
+  ],
+  "g23300": [
+   "extremism"
+  ],
+  "g23301": [
+   "extremism"
+  ],
+  "g23327": [
+   "named_act_or_group"
+  ],
+  "g23357": [
+   "extremism"
+  ],
+  "g23396": [
+   "extremism"
+  ],
+  "g23484": [
+   "named_act_or_group"
+  ],
+  "g23499": [
+   "extremism"
+  ],
+  "g23530": [
+   "named_act_or_group"
+  ],
+  "g23628": [
+   "extremism"
+  ],
+  "g23685": [
+   "council_gang_violence"
+  ],
+  "g23701": [
+   "sponsor_designation"
+  ],
+  "g23713": [
+   "council_gang_violence"
+  ],
+  "g23715": [
+   "council_gang_violence"
+  ],
+  "g23722": [
+   "extremism"
+  ],
+  "g23755": [
+   "named_act_or_group"
+  ],
+  "g23781": [
+   "named_act_or_group"
+  ],
+  "g23783": [
+   "extremism"
+  ],
+  "g23882": [
+   "review"
+  ],
+  "g23919": [
+   "named_act_or_group"
+  ],
+  "g24144": [
+   "sponsor_designation"
+  ],
+  "g24414": [
+   "extremism"
+  ],
+  "g24547": [
+   "extremism"
+  ],
+  "g24729": [
+   "extremism"
+  ],
+  "g24789": [
+   "sponsor_designation"
+  ]
+ }
+}
