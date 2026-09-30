@@ -129,27 +129,6 @@ def test_window_shows_where_the_fragment_is_most_about_the_topic():
     assert ex.clip("one two three four", 12) == "one two …"
 
 
-def test_model_windows_show_the_passage_the_lens_rates_highest():
-    text = ("We thank the President for his election and wish him every success in his work. " * 2
-            + "Coca growers need roads and legal markets, and alternative development gives them both. "
-            + "We also discuss the reform of the Council at some length today. " * 3)
-    asked = []
-
-    def score(passages):  # lens 1 rates the passages about coca; lens 0 rates nothing
-        asked.append(list(passages))
-        return np.array([[0.0, float("Coca" in x)] for x in passages])
-
-    chosen = ex.model_windows([(0, 1), (1, 1)], [text, "Short fragment."], score, n=120)
-    t, span, prob = chosen[0, 1]
-    shown = ex.passage(t, *span)
-    assert shown.startswith("Coca growers") and 60 <= len(shown) <= 120 and prob == 1.0
-    assert chosen[1, 1] == ("Short fragment.", None, None)  # a fragment that fits is shown whole
-    assert len(asked) == 1 and "Short fragment." not in asked[0]  # one call, for the candidates only
-    hover = ex.inside(t, span, {"coca": 1.0}, 80)  # the shorter passage lies within the chosen one
-    assert hover.startswith("Coca growers") and len(hover) <= 80
-    assert ex.inside("Short fragment.", None, {}, 80) == "Short fragment."
-
-
 def test_topic_weights_favour_the_words_that_set_a_topic_apart():
     texts = ["coca crops and farmers"] * 100 + ["coca trafficking and cartels"] * 100 + ["trade rules and markets"] * 100
     vec = CountVectorizer(analyzer=ex.terms_of)  # enough text for the prior
@@ -304,24 +283,14 @@ def test_each_lens_has_its_own_threshold():
     assert drugs and all(t.startswith("Drug") for c in drugs.values() for y in c.values() for _, _, t in y)
 
 
-def test_build_uses_the_classifiers_for_passages_when_it_has_them():
-    inp = synthetic_inputs()
-    inp["score"] = lambda passages: np.zeros((len(passages), len(LENSES)))
-    with_model = json.loads(ex.build(inp)[0]["excerpts/all.json"])
-    assert with_model == json.loads(ex.build(synthetic_inputs())[0]["excerpts/all.json"])  # short fragments: whole
-
-
-def test_a_passage_under_its_lens_threshold_is_not_shown():
+def test_an_excerpt_is_its_whole_fragment():
     inp = synthetic_inputs()
     texts = inp["frags"]["text"].tolist()
-    col = np.flatnonzero(inp["frags"]["speech_id"] == "COL_80_2025")   # two fragments about drugs (p 0.9), made long
-    texts[col[0]] = "Coca growers need roads and legal markets to leave the illicit crops behind for good. " * 4
-    texts[col[1]] = "We thank the President for his election and wish him every success in his work. " * 4
+    col = np.flatnonzero(inp["frags"]["speech_id"] == "COL_80_2025")[0]   # about drugs (p 0.9), made long
+    texts[col] = "Coca growers need roads and legal markets to leave the illicit crops behind for good.  " * 6
     inp["frags"] = inp["frags"].assign(text=texts)
-    inp["score"] = lambda passages: np.array([[0.9 if "Coca" in x else 0.1, 0.0, 0.0] for x in passages])
     drugs = json.loads(ex.build(inp)[0]["excerpts/drugs.json"])["COL"]["2025"]
-    assert [x[:12] for _, _, x in drugs] == ["Coca growers", "Crop substit"]   # most probable first; 0.1 < 0.5 left out
-    assert [p for _, p, _ in drugs] == [0.9, 0.8]
+    assert drugs[0][1:] == [0.9, " ".join(texts[col].split())]   # the fragment's probability; its spaces collapsed
 
 
 def test_build_refuses_fragments_without_a_topic():

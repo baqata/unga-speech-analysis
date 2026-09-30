@@ -9,9 +9,7 @@ Commands (from the repo root), in order:
     uv run python -m pipeline.export topics              # general topics: k-means over the fragments about no lens,
                                                          # fitted once; later runs put fragments in the nearest
                                                          # saved topic (--refit: a new edition, named again)
-    uv run python -m pipeline.export windows             # optional: embed the excerpts' candidate passages now
-                                                         # (cached), so that `site` runs faster
-    uv run python -m pipeline.export site                # write site/data/ and check the size budget
+    uv run python -m pipeline.export site               # write site/data/ and check the size budget
 
 `topics` writes data/interim/export/topic_examples.md. The main agent names each topic by reading its words and
 examples and records the names in data/lenses/topics.yaml, with the centres_sha256 of the edition they name,
@@ -47,7 +45,6 @@ TERMS = OUT / "terms.npz"
 LAYOUTS = {"fragments": OUT / "layout_fragments.npz", "speeches": OUT / "layout_speeches.npz"}
 TOPICS = OUT / "topics.parquet"
 TOPIC_CENTRES = OUT / "topic_centres.npy"
-WINDOWS = OUT / "window_vectors.npz"   # embeddings of candidate passages, by text, kept across exports
 TOPIC_EXAMPLES = OUT / "topic_examples.md"
 TOPIC_NAMES = config.LENSES / "topics.yaml"
 
@@ -70,8 +67,7 @@ KEY_MIN_SPREAD = 2          # speeches (for a group, members) that must use a te
 KEY_MIN_Z = 1.96
 PRIOR_SIZE = 1000.0         # alpha_0 of the informative Dirichlet prior
 EXCERPTS = 3                # per speech and lens
-EXCERPT_CHARS = 300         # longest passage; every passage has at least half as many characters (window)
-REP_CHARS = 220             # a speech's passage on hover
+REP_CHARS = 220            # a speech's passage on hover
 SNIP_CHARS = 180            # a fragment's passage on hover (snips/<iso3>.json)
 START_BUDGET = 8_000_000    # gzip bytes of the files loaded at start
 TOTAL_BUDGET = 400_000_000
@@ -565,7 +561,7 @@ def clip(text: str, n: int) -> str:
     return (cut[:cut.rfind(" ")] if " " in cut else cut).rstrip(",;:") + " …"
 
 
-def candidate_windows(text: str, n: int = EXCERPT_CHARS) -> tuple[str, list[tuple[int, int, bool, bool]]]:
+def candidate_windows(text: str, n: int) -> tuple[str, list[tuple[int, int, bool, bool]]]:
     """A fragment's text with its spaces collapsed, and its candidate passages as (start, end, cut, mid): each starts
     at a sentence, or at a clause of a sentence longer than n (shown after "… "), and runs to the last sentence end
     within n characters, or is cut at a word before n when no sentence ends between n // 2 and n. A start with less
@@ -617,77 +613,11 @@ def by_words(t: str, cands: list, weight: dict | None) -> int:
     return best
 
 
-def window(text: str, weight: dict | None = None, n: int = EXCERPT_CHARS) -> str:
-    """The passage of a fragment shown for a topic, from n // 2 to n characters, where the fragment is most about
-    that topic by its words (by_words)."""
+def window(text: str, weight: dict | None, n: int) -> str:
+    """A fragment's passage on hover, from n // 2 to n characters, where the fragment is most about its topic by
+    its words (by_words)."""
     t, cands = candidate_windows(text, n)
     return passage(t, *cands[by_words(t, cands, weight)]) if cands else t
-
-
-def model_windows(pairs, texts: list, score, n: int = EXCERPT_CHARS) -> dict:
-    """For each (fragment row, lens index), the fragment's collapsed text, the candidate passage that the lens's
-    own classifier rates highest and that passage's probability on the lens (both None when the text fits in n).
-    score(passages) gives each passage's probability on every lens."""
-    cands = {(r, k): candidate_windows(texts[r], n) for r, k in set(pairs)}
-    todo = sorted({passage(t, *c) for t, cs in cands.values() for c in cs})
-    p = score(todo) if todo else None
-    at = {x: i for i, x in enumerate(todo)}
-    out = {}
-    for (r, k), (t, cs) in cands.items():
-        best = max(cs, key=lambda c: p[at[passage(t, *c)], k]) if cs else None
-        out[r, k] = (t, best, float(p[at[passage(t, *best)], k]) if cs else None)
-    return out
-
-
-def inside(t: str, span, weight: dict | None, n: int) -> str:
-    """A shorter passage (n characters at most) within a chosen one: the candidate of that length inside the span
-    whose words weigh most (by_words), or any candidate when none fits inside."""
-    if span is None and len(t) <= n:
-        return t
-    cands = candidate_windows(t, n)[1]
-    within = [c for c in cands if span is None or span[0] <= c[0] and c[1] <= span[1]]
-    return passage(t, *(within or cands)[by_words(t, within or cands, weight)])
-
-
-def window_vectors(passages: list[str], batch: int = 128, save_every: int = 4096) -> np.ndarray:
-    """Embeddings of passages, as documents without a prompt, as the fragments were embedded. They are kept in a
-    cache by text (WINDOWS), so an export embeds only the passages it has not met before."""
-    key = np.array([hashlib.sha1(x.encode("utf-8")).digest() for x in passages], dtype="S20")
-    model = {"model_id": config.MODEL_ID, "model_revision": embed.resolve_snapshot()[1]}
-    keys, vecs = np.zeros(0, dtype="S20"), np.zeros((0, embed.DIM), dtype=np.float16)
-    side = WINDOWS.with_suffix(".json")
-    if WINDOWS.exists() and side.exists() and json.loads(side.read_text(encoding="utf-8")).get("model") == model:
-        with np.load(WINDOWS) as z:
-            keys, vecs = z["keys"], z["emb"]
-    known = pd.Series(np.arange(len(keys)), index=keys)
-    missing = sorted({x for x, k in zip(passages, key) if k not in known.index}, key=len)
-    if missing:
-        enc = embed.HarrierEncoder(embed.resolve_device("auto"))
-        new_k, new_v = [], []
-
-        def save():
-            nonlocal keys, vecs, new_k, new_v
-            if new_k:
-                keys = np.concatenate([keys, np.array(new_k, dtype="S20")])
-                vecs = np.concatenate([vecs, np.vstack(new_v).astype(np.float16)])
-                new_k, new_v = [], []
-            OUT.mkdir(parents=True, exist_ok=True)
-            tmp = WINDOWS.with_name(WINDOWS.name + ".tmp.npz")
-            np.savez(tmp, keys=keys, emb=vecs)
-            tmp.replace(WINDOWS)
-            calibrate.write_json(WINDOWS.with_suffix(".json"), {"model": model, "passages": len(keys),
-                                                                "made_at": now()})
-
-        for i in range(0, len(missing), batch):
-            part = missing[i:i + batch]
-            new_v.append(embed.encode_checked(enc, part))
-            new_k += [hashlib.sha1(x.encode("utf-8")).digest() for x in part]
-            if (i // batch + 1) % (save_every // batch) == 0:
-                save()
-                print(f"passages embedded: {min(i + batch, len(missing)):,} of {len(missing):,}", flush=True)
-        save()
-        known = pd.Series(np.arange(len(keys)), index=keys)
-    return vecs[known.loc[key].to_numpy()].astype(np.float32)
 
 
 def topic_weights(x: sparse.csr_matrix, members: list, vocab: list, is_bigram: np.ndarray,
@@ -875,36 +805,6 @@ def method_facts(codebook, n_all: int, n_ceremonial: int) -> dict | None:
             "min_period": calibrate.MIN_PERIOD_POSITIVES, "lenses": lenses}
 
 
-def passage_scorer(codebook):
-    """p of passages on every fitted lens, in codebook order, by the classifiers that made the fragments'
-    probabilities (their embeddings are kept in WINDOWS)."""
-    side = read_side(calibrate.PROBS)
-    clf = calibrate.load_classifiers()
-    if calibrate.sha256(calibrate.CLASSIFIERS) != side.get("classifiers_sha256"):
-        raise ExportError(f"The classifiers changed after {embed.rel(calibrate.PROBS)} was made; run `calibrate predict`.")
-    ids = list(clf["info"]["lenses"])
-    cols = [ids.index(i) for i in calibrate.fitted_ids(codebook)]
-    return lambda passages: calibrate.probabilities(window_vectors(passages), clf, codebook)[:, cols]
-
-
-def prepare_windows() -> dict:
-    """Embed now the candidate passages of every excerpt the next `site` shows (window_vectors), so that `site`
-    finds them cached. It needs only the fragments and their probabilities, not the topics."""
-    codebook = load_lenses()
-    _, _, f_man = calibrate.load_embeddings("fragments")
-    frags = pd.read_parquet(config.FRAGMENTS, columns=["frag_id", "iso3", "year", "seq", "text", "is_ceremonial"])
-    frags = frags[~frags["is_ceremonial"]].sort_values(["iso3", "year", "seq"], kind="stable").reset_index(drop=True)
-    p, _, thr = lens_probabilities(frags["frag_id"].to_numpy(), f_man["input_hash"], False, codebook)
-    sets, _ = excerpt_sets(p, p >= thr, [lens for lens in codebook["lenses"] if not lens["reference"]])
-    texts = frags["text"].tolist()
-    todo = set()
-    for r in np.unique(np.concatenate([rows for _, rows, _ in sets])):
-        t, cs = candidate_windows(texts[r])
-        todo.update(passage(t, *c) for c in cs)
-    window_vectors(sorted(todo))
-    return {"candidates": int(sum(len(rows) for _, rows, _ in sets)), "passages": len(todo), "made_at": now()}
-
-
 def load_inputs(placeholder: bool = False) -> dict:
     """Everything `build` needs, aligned: fragments (non-ceremonial) in (iso3, year, seq) order, speeches in
     (iso3, year) order. Refuses stale caches."""
@@ -935,7 +835,6 @@ def load_inputs(placeholder: bool = False) -> dict:
         "X": x, "vocab": vocab, "countries": country_table(sorted(speeches["iso3"].unique())),
         "groups": group_table(), "topics": topic_names(placeholder, info), "passes": passes, "thresholds": thr,
         "lenses": [lens for lens in codebook["lenses"] if not lens["reference"]],
-        "score": None if placeholder else passage_scorer(codebook),
         "method": None if placeholder else method_facts(codebook, n_all, n_ceremonial),
         "build": {"date": now()[:10], "corpus": "UNGDC v14 + provisional 2026", "model": config.MODEL_ID,
                   "placeholder": placeholder, "probabilities": source},
@@ -1011,9 +910,9 @@ def build(inp: dict) -> tuple[dict, dict]:
     anchors = label_anchors(qf, [*about.T, *(topic == t for t in range(L, T))])
     files["map_labels.json"] = dumps({"fragments": anchors, "speeches": anchors})
 
-    # The passages shown for a topic come from where a fragment is most about it (window): the lenses weigh the
-    # terms of the fragments about them (a sub-lens against the rest of its parent's), the general topics those of
-    # their fragments. A passage of every fragment for the map's hover, one file per country in point order, on the
+    # The hover passages come from where a fragment is most about its topic (window): the lenses weigh the terms of
+    # the fragments about them (a sub-lens against the rest of its parent's), the general topics those of their
+    # fragments. A passage of every fragment for the map's hover, one file per country in point order, on the
     # fragment's topic
     x, vocab = inp["X"], inp["vocab"]
     is_bigram = np.array([" " in w for w in vocab], dtype=bool)
@@ -1029,38 +928,26 @@ def build(inp: dict) -> tuple[dict, dict]:
         if len(rows):
             files[f"snips/{codes[c]}.json"] = dumps([window(texts[r], weights[topic[r]], SNIP_CHARS) for r in rows])
 
-    # Excerpts per lens, and across the UNODC lenses. Every fragment about the lens is a candidate, shown by the
-    # passage its lens's own classifier rates highest (model_windows), or whole when short, with that passage's
-    # probability; a passage under the lens's threshold is not shown. Up to three per speech, the most probable, which
-    # the site orders by that probability. In a build without classifiers (placeholder, tests), the passage whose
-    # words weigh most on the lens (window), with the fragment's probability
+    # Excerpts per lens, and across the UNODC lenses: every fragment about the lens, whole, with its probability on
+    # the lens. Up to three per speech, the most probable, which the site orders by that probability
     u_about = about & unodc
     sets, u_best = excerpt_sets(p, about, lenses)
-    chosen = (model_windows([(r, int(k)) for _, rows, ks in sets for r, k in zip(rows, ks)], texts, inp["score"])
-              if inp.get("score") else None)
-    thr = np.asarray(inp["thresholds"], dtype=np.float64)
-    top = {}   # each speech's most probable passage across the UNODC lenses, (probability, row, span), for its hover
+    top = {}   # each speech's most probable excerpt across the UNODC lenses, (probability, row), for its hover
     for name, rows, ks in sets:
-        shown, prob, spans = [], np.empty(len(rows)), []
-        for j, (r, k) in enumerate(zip(rows, ks)):
-            t, span, q = chosen[r, k] if chosen else (None, None, None)
-            shown.append((passage(t, *span) if span else t) if chosen else window(texts[r], weights[k]))
-            prob[j] = p[r, k] if q is None else q
-            spans.append(span)
-        ok = np.flatnonzero(prob >= thr[ks])
+        prob = p[rows, ks]
         out = {}
-        for j in ok[excerpt_pick(s_of[rows[ok]], prob[ok])]:
+        for j in excerpt_pick(s_of[rows], prob):
             r, k, s = rows[j], int(ks[j]), s_of[rows[j]]
             out.setdefault(codes[sc[s]], {}).setdefault(str(FIRST_YEAR + sy[s]), []).append(
-                [k, round(float(prob[j]), 4), shown[j]])
+                [k, round(float(prob[j]), 4), " ".join(texts[r].split())])
             if name == "all" and prob[j] > top.get(s, (-1,))[0]:
-                top[s] = (prob[j], r, spans[j])
+                top[s] = (prob[j], r)
         files[f"excerpts/{name}.json"] = dumps(out)
 
     # Each speech as the mean of its fragments' vectors (docs/PLAN.md, section 4), which measures the alignment below.
-    # Its passage on hover: within its most probable excerpt across the UNODC lenses, on that excerpt's lens; without
-    # one, the fragment closest to that mean outside the speech's first and last (often greetings), in a speech of
-    # three or more, on its topic
+    # Its passage on hover: of its most probable excerpt across the UNODC lenses, on that excerpt's lens; without
+    # one, of the fragment closest to that mean outside the speech's first and last (often greetings), in a speech
+    # of three or more, on its topic
     femb = inp["femb"]
     per_speech = sparse.csr_matrix((np.ones(F, dtype=np.float32), (s_of, np.arange(F))), shape=(S, F)).tocsc()
     semb = np.zeros((S, femb.shape[1]), dtype=np.float32)
@@ -1077,10 +964,8 @@ def build(inp: dict) -> tuple[dict, dict]:
     for s, row in enumerate(sp.itertuples(index=False)):
         who = ", ".join(v.strip() for v in (row.speaker_name, row.speaker_post) if isinstance(v, str) and v.strip())
         if s in top:
-            _, r, span = top[s]
-            k = int(u_best[r])
-            entry = [who, inside(chosen[r, k][0], span, weights[k], REP_CHARS) if chosen else
-                     window(texts[r], weights[k], REP_CHARS), k]
+            r = top[s][1]
+            entry = [who, window(texts[r], weights[u_best[r]], REP_CHARS), int(u_best[r])]
         elif s in rep.index:
             entry = [who, window(texts[rep[s]], weights[topic[rep[s]]], REP_CHARS), -1]
         else:
@@ -1195,7 +1080,6 @@ def main(argv: list[str] | None = None) -> int:
     p_topics = sub.add_parser("topics", help="general topics over the fragments about no lens")
     p_topics.add_argument("--placeholder", action="store_true", help="sampling scores in place of probabilities")
     p_topics.add_argument("--refit", action="store_true", help="fit a new edition of the topics (to be named again)")
-    sub.add_parser("windows", help="embed the candidate passages of the next site's excerpts (cached; optional)")
     p_site = sub.add_parser("site", help="write site/data/")
     p_site.add_argument("--placeholder", action="store_true", help="sampling scores in place of probabilities")
     args = parser.parse_args(argv)
@@ -1206,8 +1090,6 @@ def main(argv: list[str] | None = None) -> int:
             out = make_layout(args.kind, args.refit)
         elif args.command == "topics":
             out = make_topics(args.placeholder, args.refit)
-        elif args.command == "windows":
-            out = prepare_windows()
         else:
             out = site(args.placeholder)
         print(json.dumps(out, indent=2, ensure_ascii=False))
