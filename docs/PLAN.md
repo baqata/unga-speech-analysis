@@ -109,7 +109,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **Two layers**, with a "Fragments / Speeches" toggle. Fragments is the default (2026-09-26 18:28, r659; details proposed r679, confirmed 2026-09-26 18:33, r683).
 - **Speeches layer:** each dot is one speech, placed on the fragments' map where its fragments, taken together, sit (r679, confirmed r683; mean (2026-09-29 21:56, s4 r2316)). Hovering shows its topic composition and a passage: from its fragment about a UNODC topic with the highest probability, on that topic; in a speech with none, from the fragment closest to the mean of its fragments' vectors, its first and last left out (2026-09-30 04:20).
 - **Fragments layer:** hovering shows the country, the year, the fragment's topic and a passage of it on that topic (2026-09-30 04:20).
-- **Highlighting:** the map shows only the rest of the points and where the selections (up to three) fall; no topic is highlighted (2026-09-30 04:37). With a year chosen, the other years stay as a faint outline (2026-09-30 04:20).
+- **Highlighting:** the map shows only the rest of the points and where the selections (up to three) fall; no topic is highlighted (2026-09-30 04:37). With a year chosen, the other years stay as a faint outline (2026-09-30 04:20), which does not answer a hover (QA of the first real build, 2026-09-30 06:20).
 - **Region labels:** topic names written from example fragments, in Spanish and English (proposed r591 and r679; confirmed 2026-09-26 18:33, r683), each where its fragments concentrate; both layers show the same labels.
 - **Points drawn:** the final map shows every fragment (r565; confirmed r683). The mockups show a sample.
 
@@ -123,6 +123,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **Word bars:** ranked bars of z-scores for single words and two-word phrases. No word cloud (2026-09-26 18:02, r476).
   - The method is Fightin' Words log-odds with an informative Dirichlet prior (Monroe et al. 2008) (proposed r565).
   - Each selection is compared with the rest of the world, on the same lens and period (2026-09-26 18:12, r575).
+  - A word must be used by at least two of the selection's speeches, and for a group by two of its members, when it has that many: in the first real build a sixth of a group's words came from one member alone (QA of the first real build, 2026-09-30 06:39).
 - **Excerpts:** short passages in the original English (2026-09-26 17:31, r92; proposed r591): the fragments most probably about the topic, each shown where it is most about that topic, judged by the words that set the topic apart rather than by a list of key terms, between a minimum and a maximum length so that a passage is never a greeting alone (2026-09-30 04:24). Rules: `docs/data-contract.md`, Passages.
 
 ### 3.9 Country tab ("País")

@@ -39,7 +39,7 @@ This contract sits between the pipeline export (`pipeline/export.py`, which writ
 | `lenses` | `[{id, icon, es, en, reference: bool, pass: bool \| null}]`, in strip order. `peace` has `reference: true`. `pass` is the calibration pass bar (`docs/calibration.md`, section 6); a lens with `pass: false` gets no trend line and no map. `null` means not yet tested; while any lens is untested, the site shows a small "preliminary" badge. |
 | `topics` | `[{id, es, en, kind: "lens"\|"general"}]` |
 | `binaries` | The name, dtype and shape (or columns and count) of each `.bin` file below. |
-| `keyness` | `{top, min_tokens, min_count, min_z}`, the word-bar settings. |
+| `keyness` | `{top, min_tokens, min_count, min_spread, min_z}`, the word-bar settings. |
 
 ### `shares.bin` (loaded at start)
 
@@ -106,7 +106,7 @@ What the two measures use:
 
 - Shape: `{ "<group slug|iso3>": { "all": {...}, "<year>": {...} } }`.
 - `keyness/all.json` covers the fragments about any UNODC lens (peace left out); the other files one lens each. The period `all` covers every year.
-- Each entry holds `{ words: [[term, z, count], ...], bigrams: [[term, z, count], ...] }`: up to 12 terms each by Fightin' Words z-score (log-odds with an informative Dirichlet prior, prior size 1,000, from the lens's own text over all years), selection against the rest of the world, same lens and period. A term needs a count of at least 3 in the selection and z of at least 1.96. The selection's text is pooled over its members.
+- Each entry holds `{ words: [[term, z, count], ...], bigrams: [[term, z, count], ...] }`: up to 12 terms each by Fightin' Words z-score (log-odds with an informative Dirichlet prior, prior size 1,000, from the lens's own text over all years), selection against the rest of the world, same lens and period. A term needs a count of at least 3 in the selection and z of at least 1.96. The selection's text is pooled over its members. A term must also be used in at least 2 of the selection's speeches, and for a group by at least 2 of its members, when the selection has that many with text on the lens in the period: a word of one speech or one member is not the selection's.
 - Terms are single words and two-word phrases of adjacent words in the same clause, after removing stopwords, UN boilerplate and country names and demonyms (`pipeline/export.py`).
 - An entry is omitted when the selection has fewer than 200 single words on the lens in the period, or when no term passes. The UI then shows a short "not enough text" state.
 

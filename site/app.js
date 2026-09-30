@@ -183,7 +183,7 @@ function dumbbell(vals, w, mx) {
 }
 function drawStrip() {
   const act = active(), s1 = act[0];
-  $('stripHint').textContent = s1 ? t('stripHint', {sel: optShort(s1.o), per: per()}) : t('stripHintNone', {per: per()});
+  $('stripHint').textContent = s1 ? t('stripHint', {sel: new Intl.ListFormat(lang, {type: 'conjunction'}).format(act.map(a => optShort(a.o))), per: per()}) : t('stripHintNone', {per: per()});
   const order = [ALL, ...d3.range(NL)];
   $('lenses').innerHTML = order.map(L => {
     const cls = 'lens' + (L === ALL ? ' all' : '') + (L !== ALL && LENSES[L].reference ? ' ref' : '');
@@ -193,10 +193,12 @@ function drawStrip() {
     const vals = act.map(a => ({s: a.s, v: meanOf(cm, a.o.members), lab: optShort(a.o)}));
     const r = s1 && vals[0].v != null && w ? vals[0].v / w : null;
     const mx = Math.max(w || 0, ...vals.map(x => x.v || 0)) * 1.15 || 1;
-    const parts = (s1 ? [`${vals[0].lab} ${pct(vals[0].v)}`] : []).concat([`${t('world')} ${pct(w)}`]);
-    return `<button class="${cls}" data-l="${L}" aria-pressed="${state.lens === L}" aria-label="${esc(lensName(L))}: ${r != null ? esc(ratioTxt(r) + ' ' + t('timesWorld')) + '. ' : ''}${esc(parts.join(' · '))}">
+    // every selection's value, a dot of its colour when there are several (the ratio is the first selection's)
+    const parts = vals.map(x => ({s: x.s, txt: `${x.lab} ${pct(x.v)}`})).concat([{s: -1, txt: `${t('world')} ${pct(w)}`}]);
+    const sw = s => s >= 0 && vals.length > 1 ? `<i class="sw" style="background:var(--s${s + 1})"></i>` : '';
+    return `<button class="${cls}" data-l="${L}" aria-pressed="${state.lens === L}" aria-label="${esc(lensName(L))}: ${r != null ? esc(ratioTxt(r) + ' ' + t('timesWorld')) + '. ' : ''}${esc(parts.map(x => x.txt).join(' · '))}">
       ${head}<span class="rt">${ratioTxt(r)}<small>${r != null ? t('timesWorld') : ''}</small></span>
-      ${dumbbell(vals, w, mx)}<span class="vals">${parts.map(x => `<span>${esc(x)}</span>`).join(' · ')}</span></button>`;
+      ${dumbbell(vals, w, mx)}<span class="vals">${parts.map(x => `<span>${sw(x.s)}${esc(x.txt)}</span>`).join(' · ')}</span></button>`;
   }).join('');
   $('lenses').querySelectorAll('.lens').forEach(b => {
     const L = +b.dataset.l;
@@ -270,10 +272,13 @@ function SemMap(wrap, layersOf) {
   const zoom = d3.zoom().scaleExtent([1, 14]).on('zoom', e => { tf = e.transform; hideTip(); this.draw(); });
   if (!coarse) d3.select(cv).call(zoom);
   rb.addEventListener('click', () => { d3.select(cv).call(zoom.transform, d3.zoomIdentity); tf = d3.zoomIdentity; this.draw(); });
+  let topKey = '', topTree = null;
   const pick = e => {
     const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
     const dx = (tf.invertX(mx) - PAD) / (cw - 2 * PAD), dy = (tf.invertY(my) - PAD) / (ch - 2 * PAD), rad = (coarse ? 14 : 8) / (tf.k * (cw - 2 * PAD));
-    return quadtree(state.layer === 'speech').find(dx, dy, rad);
+    const P = state.layer === 'speech' ? PS : PF;
+    if (groups && topKey !== key) { topTree = d3.quadtree().x(i => P.x[i]).y(i => P.y[i]).addAll(groups.slice(2).flat()); topKey = key; }
+    return topTree?.find(dx, dy, rad) ?? quadtree(state.layer === 'speech').find(dx, dy, rad);   // the highlighted points first: they are drawn on top
   };
   const hover = e => {
     const i = pick(e); if (i == null) return hideTip();
@@ -323,6 +328,7 @@ function drawLegends() {
   const items = active().map(({s, o}) => `<span><i style="background:var(--s${s + 1})"></i>${esc(optShort(o))}</span>`);
   items.push(`<span><i style="background:var(--dot)"></i>${t('rest')}</span>`);
   $('regLegend').innerHTML = items.join('');
+  state.slots.forEach((v, s) => { const o = OPT.get(v); $('slot' + s).title = o?.g ? [...o.members].map(c => cname(c)).sort((a, b) => a.localeCompare(b, lang)).join(', ') : ''; });   // a group's members on hover
   $('ctyLegend').innerHTML = `<span><i style="background:var(--s1)"></i>${esc(cname(state.country))}</span><span><i style="background:var(--dot)"></i>${t('rest')}</span>`;
   document.querySelectorAll('[data-layer]').forEach(b => b.setAttribute('aria-pressed', b.dataset.layer === state.layer));
   $('semHint').textContent = t(state.layer === 'speech' ? 'semHintSpeech' : 'semHintFrag');
@@ -395,7 +401,8 @@ function drawTrend() {
   ty.domain([0, mx * 1.08]).nice(4);
   const muted = css('--muted');
   gGrid.selectAll('line').data(ty.ticks(4)).join('line').attr('x1', TM.l).attr('x2', TW - TM.r).attr('y1', d => ty(d)).attr('y2', d => ty(d)).attr('stroke', css('--line-2'));
-  gAx.selectAll('text.y').data(ty.ticks(4)).join('text').attr('class', 'y').attr('x', TM.l - 6).attr('y', d => ty(d)).attr('dy', '0.32em').attr('text-anchor', 'end').attr('fill', muted).attr('font-size', 11).text(d => d3.format(d < 0.01 && d > 0 ? '.1~%' : '.0%')(d));
+  const yt = ty.ticks(4), yf = new Intl.NumberFormat(lang, {style: 'percent', maximumFractionDigits: yt[1] - yt[0] < 0.01 ? 1 : 0});   // decimals when the step is under 1%
+  gAx.selectAll('text.y').data(yt).join('text').attr('class', 'y').attr('x', TM.l - 6).attr('y', d => ty(d)).attr('dy', '0.32em').attr('text-anchor', 'end').attr('fill', muted).attr('font-size', 11).text(d => yf.format(d));
   gAx.selectAll('text.x').data(TW - TM.r - TM.l > 330 ? [1950, 1970, 1990, 2010, Y1] : [1950, 1990, Y1]).join('text').attr('class', 'x').attr('x', d => tx(d)).attr('y', TH - 6).attr('text-anchor', d => d === Y1 ? 'end' : 'middle').attr('fill', muted).attr('font-size', 11).text(d => d);
   const line = d3.line().defined(d => d != null).x((d, k) => tx(Y0 + k)).y(d => ty(d)).curve(d3.curveMonotoneX);
   gLines.selectAll('path').data(series).join('path').attr('fill', 'none').attr('stroke', d => d.col).attr('stroke-width', d => d.dash ? 1.6 : 2).attr('stroke-dasharray', d => d.dash || null).attr('d', d => line(d.v));
@@ -546,7 +553,7 @@ function update() {
 }
 addEventListener('hashchange', () => { if (applyHash()) { fillSelects(); setTab('reg'); } });
 applyHash();
-$('boot').hidden = true; $('controls').hidden = false;
+$('boot').remove(); $('controls').hidden = false;
 setFormats(); applyLang(); setTab(state.tab);
 const redraw = () => { regMap.invalidate(); ctyMap.invalidate(); update(); };
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redraw);

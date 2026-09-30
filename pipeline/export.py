@@ -61,6 +61,7 @@ MIN_DF = 5                  # fragments that must use a term for it to enter the
 KEY_TOP = 12                # terms per list in the word bars
 KEY_MIN_TOKENS = 200        # single words a selection needs on a lens and period to get word bars
 KEY_MIN_COUNT = 3           # times a term must occur in the selection
+KEY_MIN_SPREAD = 2          # speeches (for a group, members) that must use a term, when the selection has as many
 KEY_MIN_Z = 1.96
 PRIOR_SIZE = 1000.0         # alpha_0 of the informative Dirichlet prior
 EXCERPTS = 3                # per speech and lens
@@ -99,6 +100,7 @@ BLOCS = {"ALC": ("ALC", "LAC"), "UE": ("UE-27", "EU-27"), "BRICS": ("BRICS", "BR
 # Word counts (docs/PLAN.md, section 4, Text processing): stopwords, UN boilerplate and country names are dropped.
 STOP = set(ENGLISH_STOP_WORDS) | set("""mr president general assembly united nations nation session delegation also
 would must shall may us one two new year years today world country countries international people peoples great like
+ago week weeks month months days yesterday tomorrow hand
 wish made make many every well within without since upon therefore however thus way ms madam secretary
 secretary-general excellency excellencies distinguished organization member members state states government
 governments let said say says we're i'm don't can't won't isn't aren't doesn't didn't we've we'll i've they're
@@ -234,7 +236,9 @@ def keyness(xs: sparse.csr_matrix, speech_c: np.ndarray, n_countries: int, perio
             is_bigram: np.ndarray) -> dict:
     """Word bars of one lens. xs: term counts of the lens's text per speech. For each selection (key, country
     indexes) and period (key, speech mask) with enough text: the top words and two-word phrases by z-score
-    against the rest of the world on the same lens and period, as [term, z, count]."""
+    against the rest of the world on the same lens and period, as [term, z, count]. A term used in one speech, or by
+    one member of a group, is that speech's or member's rather than the selection's, unless the selection has no more
+    on the lens in the period."""
     alpha = prior(np.asarray(xs.sum(axis=0)).ravel().astype(np.float64), is_bigram)
     r = [i for i, (_, members) in enumerate(selections) for _ in members]
     c = [m for _, members in selections for m in members]
@@ -247,15 +251,24 @@ def keyness(xs: sparse.csr_matrix, speech_c: np.ndarray, n_countries: int, perio
         xp = xs[rows]
         tot = np.asarray(xp.sum(axis=0)).ravel().astype(np.float64)
         n_all = np.array([tot[~is_bigram].sum(), tot[is_bigram].sum()])
-        y = (ind[:, speech_c[rows]] @ xp).tocsr()
-        for i, (skey, _) in enumerate(selections):
+        sel = ind[:, speech_c[rows]]
+        y = (sel @ xp).tocsr()
+        used = (xp > 0).astype(np.float64)
+        own = sparse.csr_matrix((np.ones(len(rows)), (speech_c[rows], np.arange(len(rows)))),
+                                shape=(n_countries, len(rows)))
+        by_speech = (sel @ used).tocsr()                                    # the selection's speeches using a term
+        by_member = (ind @ ((own @ used) > 0).astype(np.float64)).tocsr()   # its members using it
+        has = (np.diff(xp.indptr) > 0).astype(np.float64)                   # speeches with text on the lens
+        n_speech, n_member = sel @ has, ind @ ((own @ has) > 0).astype(np.float64)
+        for i, (skey, members) in enumerate(selections):
             idx = y.indices[y.indptr[i]:y.indptr[i + 1]]
             cnt = y.data[y.indptr[i]:y.indptr[i + 1]].astype(np.float64)
             big = is_bigram[idx]
             n = np.array([cnt[~big].sum(), cnt[big].sum()])
             if n[0] < KEY_MIN_TOKENS or n_all[0] - n[0] < KEY_MIN_TOKENS:
                 continue
-            keep = cnt >= KEY_MIN_COUNT
+            spread, avail = (by_member, n_member) if len(members) > 1 else (by_speech, n_speech)
+            keep = (cnt >= KEY_MIN_COUNT) & (spread[i, idx].toarray().ravel() >= min(KEY_MIN_SPREAD, avail[i]))
             idx, cnt, big = idx[keep], cnt[keep], big[keep]
             ni = n[big.astype(int)]
             z = fightin_words(cnt, ni, tot[idx] - cnt, n_all[big.astype(int)] - ni, alpha[idx])
@@ -931,7 +944,8 @@ def build(inp: dict) -> tuple[dict, dict]:
             "map_frag.bin": {"columns": [[n, np.dtype(t).name] for n, t in MAP_COLUMNS], "count": F},
             "map_speech.bin": {"columns": [[n, np.dtype(t).name] for n, t in MAP_COLUMNS], "count": S},
         },
-        "keyness": {"top": KEY_TOP, "min_tokens": KEY_MIN_TOKENS, "min_count": KEY_MIN_COUNT, "min_z": KEY_MIN_Z},
+        "keyness": {"top": KEY_TOP, "min_tokens": KEY_MIN_TOKENS, "min_count": KEY_MIN_COUNT,
+                    "min_spread": KEY_MIN_SPREAD, "min_z": KEY_MIN_Z},
     }
     files["meta.json"] = dumps(meta)
     summary = {"speeches": S, "fragments": F, "countries": C, "topics": T, "about_share": round(float(any_about.mean()), 4),

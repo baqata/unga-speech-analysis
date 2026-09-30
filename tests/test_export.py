@@ -48,6 +48,24 @@ def test_keyness_ranks_overused_terms_and_skips_thin_selections(monkeypatch):
                for lst in p.values() for _, z, n in lst)
 
 
+def test_keyness_needs_two_speeches_or_members_when_there_are_two(monkeypatch):
+    monkeypatch.setattr(ex, "KEY_MIN_TOKENS", 20)
+    monkeypatch.setattr(ex, "PRIOR_SIZE", 10.0)
+    vocab = ["coca", "leaf", "peace", "trade"]
+    is_bigram = np.zeros(4, bool)
+    # speeches 0 and 1 are country 0's, 2 country 1's, 3 the rest of the world's; only speech 0 says "leaf"
+    xs = sparse.csr_matrix(np.array([[20, 10, 5, 5], [20, 0, 5, 5], [20, 0, 5, 5], [1, 0, 60, 60]], dtype=float))
+    selections = [("g", [0, 1]), ("A", [0])]
+    periods = [("all", np.ones(4, bool)), ("y", np.array([True, False, False, True]))]
+    words = lambda out, s, p: [w for w, *_ in out[s][p]["words"]]
+    out = ex.keyness(xs, np.array([0, 0, 1, 2]), 3, periods, selections, vocab, is_bigram)
+    assert words(out, "A", "all") == ["coca"] and words(out, "g", "all") == ["coca"]
+    assert "leaf" in words(out, "A", "y") and "leaf" in words(out, "g", "y")  # one speech, one member: all there is
+    monkeypatch.setattr(ex, "KEY_MIN_SPREAD", 1)
+    out = ex.keyness(xs, np.array([0, 0, 1, 2]), 3, periods, selections, vocab, is_bigram)
+    assert "leaf" in words(out, "A", "all") and "leaf" in words(out, "g", "all")
+
+
 def test_align_leaves_the_country_out_of_its_group():
     v = ex.unit_rows(np.array([[1, 0, 0], [0.9, 0.1, 0], [0, 1, 0], [0, 0.9, 0.1]], dtype=float))
     res = ex.align(v, np.array([0, 1, 2, 3]), [np.array([0, 1]), np.array([2, 3]), np.array([0])])
