@@ -56,7 +56,7 @@ PROVISIONAL = [2026]
 PLACEHOLDER_ABOUT = 0.5     # "about" a lens in a placeholder build (never published); real builds use each lens's
                             # threshold (docs/calibration.md, section 5)
 SEED = 0
-N_TOPICS = 20
+N_TOPICS = 14               # general topics: the largest number whose topics reproduce on split halves (PLAN 4)
 KMEANS_INIT = 10            # k-means restarts; the best one is kept
 MAP_NEIGHBORS = 50          # at 15 (UMAP's default) a quarter of a fragment's nearest fragments are its own
                             # country's in other years; at 50 a sixth, and more neighbours barely lower it
@@ -396,7 +396,7 @@ def lens_probabilities(frag_ids, input_hash: str, placeholder: bool, codebook) -
 
 
 def make_topics(placeholder: bool = False, refit: bool = False) -> dict:
-    """About 20 general topics over the fragments about no lens (docs/PLAN.md, section 4, Composition): k-means,
+    """N_TOPICS general topics over the fragments about no lens (docs/PLAN.md, section 4, Composition): k-means,
     largest first, fitted once and its centres saved; later runs put each such fragment in the nearest saved centre,
     so a new year joins the named topics, unless `refit` asks for a new edition. Placeholder runs fit afresh and
     keep nothing. Writes the examples the main agent reads to name them."""
