@@ -496,12 +496,12 @@ function drawWords() {
 }
 
 // ---------------- excerpts ----------------
-const quoteHTML = (q, colVar) => `<div class="quote" style="--c:${colVar}"><div class="meta">${esc(cname(q.c, q.y))} · ${q.y}<span class="ln">${icon(lensIcon(q.l))}${esc(LENSES[q.l][lang])}</span><small>EN</small></div><p>“${esc(q.x)}”</p></div>`;
+const quoteHTML = (q, colVar) => `<div class="quote" style="--c:${colVar}"><div class="meta">${esc(cname(q.c, q.y))} · ${q.y}${q.ls.map(l => `<span class="ln">${icon(lensIcon(l))}${esc(LENSES[l][lang])}</span>`).join('')}<small>EN</small></div><p>“${esc(q.x)}”</p></div>`;
 function candidates(data, members) {   // the members' excerpts in the period, most probable first, then most recent
   const out = [];
   for (const c of members) {
     const byYear = data[M.countries[c].iso3]; if (!byYear) continue;
-    for (const y of yearsInP()) for (const [l, p, x] of byYear[y] || []) out.push({c, y, l, p, x});
+    for (const y of yearsInP()) for (const [ls, p, x] of byYear[y] || []) out.push({c, y, l: ls[0], ls, p, x});
   }
   return out.sort((a, b) => b.p - a.p || b.y - a.y);
 }

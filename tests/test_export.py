@@ -238,7 +238,8 @@ def test_build_writes_the_contract(tmp_path, monkeypatch):
     assert [round(p, 2) for _, p, _ in drugs["COL"]["2025"]] == [0.9, 0.9, 0.8]
     assert drugs["COL"]["2025"][0][2].startswith("Drug trafficking")
     assert "FRA" not in load("excerpts/all.json") and "FRA" in load("excerpts/peace.json")
-    assert load("excerpts/all.json")["ARG"]["2025"][0][0] == 1
+    assert load("excerpts/all.json")["ARG"]["2025"][0][0] == [1, 0]  # its main lens, then the other it is about
+    assert [ls for ls, _, _ in drugs["COL"]["2025"]] == [[0], [0], [0, 1]]  # the file's lens first
 
     speeches = load("speeches.json")
     assert speeches["ARG"]["2025"][0] == "" and speeches["COL"]["2025"][0] == "C. Name"

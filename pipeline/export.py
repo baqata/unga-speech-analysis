@@ -929,7 +929,8 @@ def build(inp: dict) -> tuple[dict, dict]:
             files[f"snips/{codes[c]}.json"] = dumps([window(texts[r], weights[topic[r]], SNIP_CHARS) for r in rows])
 
     # Excerpts per lens, and across the UNODC lenses: every fragment about the lens, whole, with its probability on
-    # the lens. Up to three per speech, the most probable, which the site orders by that probability
+    # the lens and every UNODC lens it is about (that lens first, then the others, most probable first). Up to three
+    # per speech, the most probable, which the site orders by that probability
     u_about = about & unodc
     sets, u_best = excerpt_sets(p, about, lenses)
     top = {}   # each speech's most probable excerpt across the UNODC lenses, (probability, row), for its hover
@@ -938,8 +939,9 @@ def build(inp: dict) -> tuple[dict, dict]:
         out = {}
         for j in excerpt_pick(s_of[rows], prob):
             r, k, s = rows[j], int(ks[j]), s_of[rows[j]]
+            also = [int(i) for i in np.argsort(-p[r], kind="stable") if u_about[r, i] and i != k]
             out.setdefault(codes[sc[s]], {}).setdefault(str(FIRST_YEAR + sy[s]), []).append(
-                [k, round(float(prob[j]), 4), " ".join(texts[r].split())])
+                [[k, *also], round(float(prob[j]), 4), " ".join(texts[r].split())])
             if name == "all" and prob[j] > top.get(s, (-1,))[0]:
                 top[s] = (prob[j], r)
         files[f"excerpts/{name}.json"] = dumps(out)

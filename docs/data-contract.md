@@ -98,8 +98,9 @@ What the two measures use:
 
 ### `excerpts/<lens>.json` (lazy, per lens)
 
-- Shape: `{ "<iso3>": { "<year>": [[l, p, "text"], ...] } }`, one file per lens and `excerpts/all.json` across the UNODC lenses, where `l` is the fragment's main lens: of the lenses it is about, the most probable.
-- Every fragment about the lens, shown whole with its spaces collapsed, however long (user, 2026-09-30 20:09). `p` is its probability on lens `l`, to 4 decimals.
+- Shape: `{ "<iso3>": { "<year>": [[ls, p, "text"], ...] } }`, one file per lens and `excerpts/all.json` across the UNODC lenses.
+- `ls` lists every UNODC lens the fragment is about: first the file's lens, or in `excerpts/all.json` the fragment's main lens (of the lenses it is about, the most probable, a sub-lens on a tie), then the others, most probable first. The site tags the quote with each (user, 2026-09-30 20:34).
+- Every fragment about the lens, shown whole with its spaces collapsed, however long (user, 2026-09-30 20:09). `p` is its probability on the first lens of `ls`, to 4 decimals.
 - Holds up to 3 fragments per country-year, highest `p` first.
 - The client shows the three most probable fragments of the selection in the period, from any of its members and years, the most recent first on a tie (user, 2026-09-30); with several selections, each selection's most probable in turns.
 
