@@ -3,6 +3,8 @@
   "lockup": "UNODC · Andean Region and Southern Cone",
   "sub": "What countries say in the UN General Debate since 1946",
   "devBadge": "Development data · do not publish",
+  "prelimBadge": "Preliminary version",
+  "prelimTip": "Figures may change: the final validation of the topics is pending.",
   "langLabel": "Language",
   "views": "Views",
   "filters": "Filters",
@@ -16,7 +18,6 @@
   "gOff": "UNODC offices",
   "gBloc": "Blocs and regions",
   "gCty": "Countries",
-  "provisional": "in progress",
   "loading": "Loading…",
   "loadError": "The data could not be loaded. Please try again later.",
   "stripTitle": "Mandate footprint",
@@ -56,7 +57,7 @@
   "noQuotes": "No passages on this topic for this selection and period.",
   "pickSel": "Choose a selection.",
   "compTitle": "What it talked about",
-  "compHint": "How the speech splits across topics",
+  "compHint": "How the speech splits across topics; UNODC topics in blue",
   "others": "Others",
   "alignTitle": "Who it aligns with",
   "modeAll": "Whole speech",
@@ -74,5 +75,5 @@
   "mapHintFrag": "Its fragments, on the global map.",
   "mapHintSpeech": "Its speech, on the global map of speeches.",
   "mapHintSpeechAll": "Its speeches, on the global map of speeches.",
-  "footer": "Source: UN General Debate Corpus (Jankin, Baturo and Dasandi 2025; Baturo, Dasandi and Mikhaylov 2017). 2026: provisional data."
+  "footer": "Source: UN General Debate Corpus (Jankin, Baturo and Dasandi 2025; Baturo, Dasandi and Mikhaylov 2017)."
 }

@@ -3,6 +3,8 @@
   "lockup": "UNODC · Región Andina y Cono Sur",
   "sub": "Lo que dicen los países en el Debate General de la ONU desde 1946",
   "devBadge": "Datos de desarrollo · no publicar",
+  "prelimBadge": "Versión preliminar",
+  "prelimTip": "Las cifras pueden cambiar: la validación final de los temas está pendiente.",
   "langLabel": "Idioma",
   "views": "Vistas",
   "filters": "Filtros",
@@ -16,7 +18,6 @@
   "gOff": "Oficinas de UNODC",
   "gBloc": "Bloques y regiones",
   "gCty": "Países",
-  "provisional": "en curso",
   "loading": "Cargando…",
   "loadError": "No se pudieron cargar los datos. Vuelve a intentarlo más tarde.",
   "stripTitle": "Huella del mandato",
@@ -56,7 +57,7 @@
   "noQuotes": "No hay fragmentos sobre este tema para la selección y el periodo.",
   "pickSel": "Elige una selección.",
   "compTitle": "De qué habló",
-  "compHint": "Reparto del discurso por temas",
+  "compHint": "Reparto del discurso por temas; en azul, los temas UNODC",
   "others": "Otros",
   "alignTitle": "Con quién se alinea",
   "modeAll": "Todo el discurso",
@@ -74,5 +75,5 @@
   "mapHintFrag": "Sus fragmentos, sobre el mapa global.",
   "mapHintSpeech": "Su discurso, sobre el mapa global de discursos.",
   "mapHintSpeechAll": "Sus discursos, sobre el mapa global de discursos.",
-  "footer": "Fuente: UN General Debate Corpus (Jankin, Baturo y Dasandi 2025; Baturo, Dasandi y Mikhaylov 2017). 2026: datos provisionales."
+  "footer": "Fuente: UN General Debate Corpus (Jankin, Baturo y Dasandi 2025; Baturo, Dasandi y Mikhaylov 2017)."
 }

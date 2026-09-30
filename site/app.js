@@ -41,7 +41,7 @@ const pct = v => v == null || !isFinite(v) ? '–' : (v > 0 && v < 0.0005 ? '<' 
 const ratioTxt = r => r == null || !isFinite(r) ? '–' : nf1.format(r) + '×';
 
 // ---------------- data ----------------
-const Y0 = M.years.first, Y1 = M.years.last, NY = Y1 - Y0 + 1, PROV = new Set(M.years.provisional);
+const Y0 = M.years.first, Y1 = M.years.last, NY = Y1 - Y0 + 1;   // 2026 shows like any other year, with no label (docs/PLAN.md, section 2)
 const LENSES = M.lenses, NL = LENSES.length, ALL = NL, NC = M.countries.length;
 const TOPICS = M.topics;
 const SH = new Float32Array(SHB), FRG = new Uint16Array(FRB);
@@ -267,7 +267,7 @@ function SemMap(wrap, layersOf) {
       const comp = want('composition.json'), sp = want('speeches.json');
       const parts = comp ? (comp[iso]?.[y] || []).slice(0, 3).map(([k, v]) => `${esc(topicName(k))} ${pct(v)}`).join(' · ') : waitMsg('composition.json');
       const rep = sp?.[iso]?.[y]?.[1];
-      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b>${PROV.has(y) ? `<span class="pv">${t('provisional')}</span>` : ''}<br>${parts}${rep ? `<q>“${esc(rep)}”</q>` : ''}`);
+      showTip(e, `<b>${esc(cname(c, y))} · ${y}</b><br>${parts}${rep ? `<q>“${esc(rep)}”</q>` : ''}`);
     } else {
       const c = PF.c[i], y = Y0 + PF.yr[i], m = PF.m[i], ls = [];
       for (let j = 0; j < NL; j++) if (m & (1 << j)) ls.push(LENSES[j][lang]);
@@ -392,7 +392,7 @@ tsvg.on('mousemove', e => {
   const [mx] = d3.pointer(e), y = Math.round(tx.invert(mx)); if (!series.length || y < Y0 || y > Y1) { gHover.selectAll('*').remove(); return hideTip(); }
   gHover.selectAll('line').data([y]).join('line').attr('x1', tx(y)).attr('x2', tx(y)).attr('y1', TM.t).attr('y2', TH - TM.b).attr('stroke', css('--muted')).attr('stroke-width', 1);
   gHover.selectAll('circle').data(series.filter(s => s.v[y - Y0] != null)).join('circle').attr('cx', tx(y)).attr('cy', s => ty(s.v[y - Y0])).attr('r', 4).attr('fill', s => s.col).attr('stroke', css('--panel')).attr('stroke-width', 2);
-  showTip(e, `<b>${y}</b>${PROV.has(y) ? `<span class="pv">${t('provisional')}</span>` : ''}<br>` + series.map(s => `<i class="sw" style="background:${s.col}"></i>${esc(s.name)}: ${s.v[y - Y0] == null ? esc(t('noSpeech')) : pct(s.v[y - Y0])}`).join('<br>'));
+  showTip(e, `<b>${y}</b><br>` + series.map(s => `<i class="sw" style="background:${s.col}"></i>${esc(s.name)}: ${s.v[y - Y0] == null ? esc(t('noSpeech')) : pct(s.v[y - Y0])}`).join('<br>'));
 }).on('mouseleave', () => { gHover.selectAll('*').remove(); hideTip(); });
 let trendW = 0;
 new ResizeObserver(() => { const w = $('trend').clientWidth; if (w && w !== trendW && state.tab === 'reg') { trendW = w; drawTrend(); } }).observe($('trend'));
@@ -419,7 +419,7 @@ function drawWords() {
 }
 
 // ---------------- excerpts ----------------
-const quoteHTML = (q, colVar) => `<div class="quote" style="--c:${colVar}"><div class="meta">${esc(cname(q.c, q.y))} · ${q.y}${PROV.has(q.y) ? ` <span class="prov">${t('provisional')}</span>` : ''}<span class="ln">${icon(lensIcon(q.l))}${esc(LENSES[q.l][lang])}</span><small>EN</small></div><p>“${esc(q.x)}”</p></div>`;
+const quoteHTML = (q, colVar) => `<div class="quote" style="--c:${colVar}"><div class="meta">${esc(cname(q.c, q.y))} · ${q.y}<span class="ln">${icon(lensIcon(q.l))}${esc(LENSES[q.l][lang])}</span><small>EN</small></div><p>“${esc(q.x)}”</p></div>`;
 function candidates(data, members) {   // the members' excerpts in the period, most recent year first, then by probability
   const out = [];
   for (const c of members) {
@@ -457,11 +457,12 @@ function drawCountry() {
     const agg = new Map();
     for (const y of ys) for (const [k, v] of comp[iso]?.[y] || []) agg.set(k, (agg.get(k) || 0) + v / ys.length);
     const items = [...agg].sort((a, b) => b[1] - a[1]), top = items.slice(0, 5), rest = 1 - d3.sum(top, x => x[1]);
-    let g = 0;
-    const segs = top.map(([k, n]) => ({k, n, col: k < NL ? 'var(--comp-u)' : (g++ % 2 ? 'var(--comp-g2)' : 'var(--comp-g1)')}));
+    // blue for UNODC topics, grey for the others; neighbours of one family alternate two shades
+    let g = 0, u = 0;
+    const segs = top.map(([k, n]) => ({k, n, col: k < NL ? (u++ % 2 ? 'var(--comp-u2)' : 'var(--comp-u)') : (g++ % 2 ? 'var(--comp-g2)' : 'var(--comp-g1)')}));
     if (rest > 0.0005) segs.push({k: -1, n: rest, col: 'var(--comp-o)'});
     $('comp').innerHTML = `<div class="compbar" role="img" aria-label="${esc(t('compTitle'))}">${segs.map(x => `<i style="flex:${x.n} 1 0;background:${x.col}" data-k="${x.k}" data-n="${x.n}"></i>`).join('')}</div>
-      <ul class="clegend">${segs.map(x => `<li>${x.k >= 0 && x.k < NL ? icon(LENSES[x.k].icon) : `<i class="sw" style="background:${x.col}"></i>`}<span>${esc(x.k < 0 ? t('others') : topicName(x.k))}</span><b>${pct(x.n)}</b></li>`).join('')}</ul>`;
+      <ul class="clegend">${segs.map(x => `<li><i class="sw" style="background:${x.col}"></i>${x.k >= 0 && x.k < NL ? icon(LENSES[x.k].icon) : ''}<span>${esc(x.k < 0 ? t('others') : topicName(x.k))}</span><b>${pct(x.n)}</b></li>`).join('')}</ul>`;
     $('comp').querySelectorAll('.compbar i').forEach(el => { el.onmousemove = e => showTip(e, `<b>${esc(+el.dataset.k < 0 ? t('others') : topicName(+el.dataset.k))}</b><br>${pct(+el.dataset.n)}`); el.onmouseleave = hideTip; });
   }
   // alignment
@@ -503,7 +504,10 @@ function applyLang() {
   yearEl.setAttribute('aria-label', t('year'));
   document.querySelector('.tabbar').setAttribute('aria-label', t('views'));
   $('controls').setAttribute('aria-label', t('filters'));
-  const badge = $('badge'); badge.hidden = !M.build.placeholder; badge.textContent = t('devBadge'); badge.classList.add('dev');
+  // a development build, or a build whose lenses have not all been through the validation test (pass: null)
+  const badge = $('badge'), dev = M.build.placeholder, prelim = !dev && LENSES.some(l => l.pass == null);
+  badge.hidden = !dev && !prelim; badge.textContent = t(dev ? 'devBadge' : 'prelimBadge');
+  badge.title = prelim ? t('prelimTip') : ''; badge.classList.toggle('dev', dev);
   fillSelects(); update();
 }
 
@@ -513,7 +517,7 @@ function update() {
   $('allYears').setAttribute('aria-pressed', state.year == null);
   document.querySelector('.years').dataset.all = state.year == null;
   if (state.year != null) yearEl.value = state.year;
-  $('yearOut').innerHTML = state.year == null ? '–' : state.year + (PROV.has(state.year) ? ` <span class="prov">${t('provisional')}</span>` : '');
+  $('yearOut').textContent = state.year == null ? '–' : state.year;
   computeSlots(); drawLegends();
   if (state.tab === 'reg') { drawStrip(); regMap.draw(); drawWorld(); drawTrend(); drawWords(); drawQuotes(); }
   else { drawCountry(); ctyMap.draw(); }

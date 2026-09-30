@@ -90,7 +90,17 @@ def test_window_starts_at_the_sentence_with_a_key_term_and_fits():
     cut = ex.window(long, pattern, n=100)
     assert "drug trafficking" in cut and cut.startswith("… ") and len(cut) <= 100
     assert ex.window("No key term here. Second sentence.", pattern, n=20) == "No key term here."
+    short = ex.window("We agree. This sentence is long enough to pass the limit of the passage by far.", None, n=40)
+    assert short == "We agree. This sentence is long …"  # a short sentence alone is followed by the next one's start
     assert ex.clip("one two three four", 12) == "one two …"
+
+
+def test_excerpts_prefer_fragments_that_name_the_lens():
+    s, p = np.array([0, 0, 0, 1, 1]), np.array([.9, .6, .7, .9, .8])
+    keyed = np.array([False, True, True, False, False])
+    assert ex.excerpt_pick(s, p, keyed).tolist() == [2, 1, 3, 4]  # speech 1 names the lens nowhere: all kept
+    drugs = ex.lens_pattern(LENSES[0], LENSES)
+    assert drugs.search("Crop substitution gives farmers a legal income.")  # the sub-lens's terms count for drugs
 
 
 LENSES = [

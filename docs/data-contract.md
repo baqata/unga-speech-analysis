@@ -28,10 +28,10 @@ This contract sits between the pipeline export (`pipeline/export.py`, which writ
 | Key | What it holds |
 | --- | --- |
 | `build` | `{date, corpus: "UNGDC v14 + provisional 2026", model: "microsoft/harrier-oss-v1-0.6b", placeholder: bool, probabilities, n_speeches, n_fragments}`. `n_fragments` counts the measured (non-ceremonial) fragments. `placeholder: true` marks a development build whose probabilities stand in for the calibrated ones; the site shows a banner and such a build is never published. |
-| `years` | `{first: 1946, last: 2026, provisional: [2026]}`. "All years" means `first` to `last`, the provisional year included. |
+| `years` | `{first: 1946, last: 2026, provisional: [2026]}`. "All years" means `first` to `last`, the provisional year included. The site shows the provisional year like any other, with no label (`docs/PLAN.md`, section 2). |
 | `countries` | `[{iso3, es, en, map_id, map_extra: [...], point: [lat, lon] \| null, hist: [{from, to, es, en}]}]`, in iso3 order. `map_id` is the world-atlas numeric id, or `null` when the country has no polygon (a small state, which has a `point`, or CSK, DDR, YUG, YMD, EU). `map_extra` names further world-atlas features drawn with the country (for example Kosovo with Serbia). `hist` holds the historical names shown on hover. |
 | `groups` | `[{id, slug, type: "office"\|"nofield"\|"bloc"\|"region", es, en, short_es, short_en, members: [c...]}]`. `slug` drives deep links (`#rocol`, `#ropan`). ROCOL comes first and is the default selection; the other multi-country offices follow, then the countries with no field office, then blocs and regions. |
-| `lenses` | `[{id, icon, es, en, reference: bool, pass: bool \| null}]`, in strip order. `peace` has `reference: true`. `pass` is the calibration pass bar (`docs/calibration.md`, section 6); a lens with `pass: false` gets no trend line and no map. `null` means not yet tested. |
+| `lenses` | `[{id, icon, es, en, reference: bool, pass: bool \| null}]`, in strip order. `peace` has `reference: true`. `pass` is the calibration pass bar (`docs/calibration.md`, section 6); a lens with `pass: false` gets no trend line and no map. `null` means not yet tested; while any lens is untested, the site shows a small "preliminary" badge. |
 | `topics` | `[{id, es, en, kind: "lens"\|"general"}]` |
 | `binaries` | The name, dtype and shape (or columns and count) of each `.bin` file below. |
 | `keyness` | `{top, min_tokens, min_count, min_z}`, the word-bar settings. |
@@ -88,8 +88,8 @@ What the two measures use:
 ### `excerpts/<lens>.json` (lazy, per lens)
 
 - Shape: `{ "<iso3>": { "<year>": [[l, p, "passage"], ...] } }`, one file per lens and `excerpts/all.json` across the UNODC lenses (peace left out), where `l` is the lens with the highest probability.
-- Holds up to 3 fragments per country-year about that lens, highest probability `p` first.
-- The passage starts at the fragment's first sentence with a key term of the lens (`data/lenses/lenses.yaml`, or a phrase of the lens name) and adds the next sentences that fit in 260 characters; without such a sentence it is the fragment's start.
+- Holds up to 3 fragments per country-year about that lens, highest probability `p` first, taken among the fragments with a sentence that names the lens when the speech has any.
+- The passage starts at the fragment's first sentence with a key term of the lens or of its sub-lenses (`data/lenses/lenses.yaml`, or a phrase of the lens name) and adds the next sentences that fit in 260 characters; without such a sentence it is the fragment's start. A sentence shorter than 130 characters is followed by the start of the next one.
 - Group and period excerpts are picked on the client from the members' candidates by probability. To keep variety, there is at most one per country.
 
 ### `keyness/<lens|all>.json` (lazy)

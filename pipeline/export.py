@@ -526,12 +526,15 @@ def clip(text: str, n: int) -> str:
 
 def window(text: str, pattern, n: int = EXCERPT_CHARS) -> str:
     """A short passage of a fragment: the first sentence with a key term of the lens and the sentences after it
-    that fit in n characters, cut near the term when the sentence is longer; the fragment's start without one."""
+    that fit in n characters, cut near the term when the sentence is longer; the fragment's start without one.
+    A sentence under half of n is followed by the start of the next one, so that the passage says something."""
     sents = SENTENCE.split(" ".join(str(text).split()))
     k = next((i for i, s in enumerate(sents) if pattern is not None and pattern.search(s)), 0)
     out = sents[k]
     for nxt in sents[k + 1:]:
         if len(out) + 1 + len(nxt) > n:
+            if len(out) < n // 2:
+                out += " " + nxt
             break
         out += " " + nxt
     if len(out) <= n:
@@ -541,10 +544,21 @@ def window(text: str, pattern, n: int = EXCERPT_CHARS) -> str:
     return ("… " + clip(out[start:], n - 2)) if start else clip(out, n)
 
 
-def lens_pattern(lens: dict):
-    """The lens's key terms and the phrases of its English name, to find the sentence an excerpt starts at."""
-    phrases = [p.strip() for p in re.split(r"&| and ", lens["name_en"]) if p.strip()]
-    return calibrate.term_pattern(list(lens.get("era_terms", [])) + phrases)
+def lens_pattern(lens: dict, lenses: list | None = None):
+    """The lens's key terms and the phrases of its English name, with those of its sub-lenses (the umbrella rule),
+    to find the sentence an excerpt starts at."""
+    terms = []
+    for x in [lens] + [c for c in lenses or [] if c.get("parent") == lens["id"]]:
+        terms += list(x.get("era_terms", [])) + [p.strip() for p in re.split(r"&| and ", x["name_en"]) if p.strip()]
+    return calibrate.term_pattern(terms)
+
+
+def excerpt_pick(s: np.ndarray, p: np.ndarray, keyed: np.ndarray) -> np.ndarray:
+    """Positions of the excerpts kept, up to EXCERPTS per speech s, highest p first: among the fragments with a
+    sentence that names the lens (keyed) when the speech has any, since the passage of the others is their start."""
+    cand = pd.DataFrame({"s": s, "k": keyed, "p": p, "i": np.arange(len(s))})
+    cand = cand[cand["k"] == cand.groupby("s")["k"].transform("max")]
+    return cand.sort_values(["s", "p", "i"], ascending=[True, False, True]).groupby("s").head(EXCERPTS)["i"].to_numpy()
 
 
 # ---------------------------------------------------------------------------
@@ -773,17 +787,17 @@ def build(inp: dict) -> tuple[dict, dict]:
     files["speeches.json"] = dumps(speeches)
 
     # Excerpts per lens, and across the UNODC lenses
-    patterns = [lens_pattern(lens) for lens in lenses]
+    patterns = [lens_pattern(lens, lenses) for lens in lenses]
     u_about = about & unodc
     u_best = np.where(u_about & (p == np.where(unodc, p, -1).max(axis=1, keepdims=True)), 1 + child, 0).argmax(axis=1)
     sets = [(lens["id"], about[:, k], p[:, k], np.full(F, k)) for k, lens in enumerate(lenses)]
     sets.append(("all", u_about.any(axis=1), np.where(unodc, p, -1).max(axis=1), u_best))
     for name, mask, score, lens_of in sets:
         rows = np.flatnonzero(mask)
-        pick = (pd.DataFrame({"s": s_of[rows], "p": score[rows], "r": rows})
-                .sort_values(["s", "p", "r"], ascending=[True, False, True]).groupby("s").head(EXCERPTS))
+        keyed = np.array([bool(patterns[lens_of[r]].search(texts[r])) for r in rows], dtype=bool)
         out = {}
-        for s, prob, r in pick.itertuples(index=False):
+        for r in rows[excerpt_pick(s_of[rows], score[rows], keyed)]:
+            s, prob = s_of[r], score[r]
             out.setdefault(codes[sc[s]], {}).setdefault(str(FIRST_YEAR + sy[s]), []).append(
                 [int(lens_of[r]), round(float(prob), 2), window(texts[r], patterns[lens_of[r]])])
         files[f"excerpts/{name}.json"] = dumps(out)
