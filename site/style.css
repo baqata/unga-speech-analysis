@@ -175,7 +175,6 @@ body:has(.card[open]){overflow:hidden}
 .crows .bt b{display:block; height:100%; border-radius:3px; background:var(--un)}
 .crows .v{grid-column:3; font:600 12.5px/1.2 var(--cond); color:var(--ink-2); text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums}
 .crows .v.rd{grid-column:2 / 4}
-.card .note{color:var(--muted); font-size:12px; line-height:1.4; margin:8px 0 0}
 .card .ctext{margin:14px 0 0; padding-left:12px; border-left:3px solid var(--un); font-size:14px; line-height:1.55}
 .card .ctext small, .quote .meta small{font:600 10px var(--cond); letter-spacing:.08em; color:var(--muted); border:1px solid var(--line); border-radius:2px; padding:1px 4px; white-space:nowrap}
 

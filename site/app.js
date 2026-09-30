@@ -113,7 +113,8 @@ addEventListener('scroll', hideTip, {passive: true});
 
 // ---------------- fragment card ----------------
 // A fragment about a UNODC topic, opened from the map: its whole text, its speaker, and for each topic it is about
-// the model's hit rate at its probability, or "read" where the reader placed it there (docs/data-contract.md, cards)
+// its confidence (the model's hit rate at its probability), or "read" where the reader placed it there
+// (docs/data-contract.md, cards); the column's name links to the annex, which explains both
 const card = $('card');
 let cardAgain = null;   // redraws the open card when its file arrives or the language changes
 function openCard(i) {   // i: a fragment point
@@ -130,9 +131,8 @@ function openCard(i) {   // i: a fragment point
           : n != null ? `<span class="bt"><b style="width:${10 * n}%"></b></span><span class="v">${esc(t('cardOf', {n}))}</span>` : '';
         return `<li><span class="ln">${icon(LENSES[l].icon)}<span>${esc(LENSES[l][lang])}${approx(l) ? ` <small class="apx">${esc(t('apx'))}</small>` : ''}</span></span>${val}</li>`;
       }).join('');
-      const hit = a != null && ls.some(l => !read.includes(l));
-      body = `<div class="chead"><span>${esc(t('cardTopics'))}</span>${hit ? `<span>${esc(t('cardHit'))}</span>` : ''}</div><ul class="crows">${rows}</ul>`
-        + (hit ? `<p class="note">${esc(t('cardHitNote'))}</p>` : '') + (read.length ? `<p class="note">${esc(t('cardReadNote'))}</p>` : '')
+      const conf = a != null ? `<button class="apx-link" type="button" title="${esc(t('cardConfTip'))}" aria-label="${esc(t('cardConfTip'))}">${esc(t('cardConf'))}</button>` : '';
+      body = `<div class="chead"><span>${esc(t('cardTopics'))}</span>${conf}</div><ul class="crows">${rows}</ul>`
         + `<p class="ctext">“${esc(x)}” <small>EN</small></p>`;
     }
     card.innerHTML = `<div class="cin"><button class="x" type="button" aria-label="${esc(t('close'))}">×</button>
@@ -143,7 +143,10 @@ function openCard(i) {   // i: a fragment point
 }
 card.addEventListener('close', () => { cardAgain = null; });
 // the close button, or a click beside the card; the second click of a double click leaves it open
-card.addEventListener('click', e => { if (e.detail < 2 && (e.target === card || e.target.closest('.x'))) card.close(); });
+card.addEventListener('click', e => {
+  if (e.target.closest('.apx-link')) { card.close(); toAnnex('anxUse'); }
+  else if (e.detail < 2 && (e.target === card || e.target.closest('.x'))) card.close();
+});
 
 // ---------------- aggregates (each country weighs the same) ----------------
 let CM = {};
@@ -211,10 +214,10 @@ Object.entries(TABS).forEach(([k, [b]]) => {
   });
 });
 $('icReg').innerHTML = icon('world'); $('icCty').innerHTML = icon('map-pin'); $('icAnx').innerHTML = icon('file-text');
-const toAnnex = () => { setTab('anx'); $('anxAcc').scrollIntoView({block: 'start'}); };   // from an "approximate" note
+const toAnnex = (to = 'anxAcc') => { setTab('anx'); $(to).scrollIntoView({block: 'start'}); };
 // The note on a topic short of the pass bar: a link to the annex's table
 const apxNote = L => approx(L) ? ` <button class="apx-link" type="button">${esc(t('apxTip'))}</button>` : '';
-const wireApx = el => el.querySelectorAll('.apx-link').forEach(b => { b.onclick = toAnnex; });
+const wireApx = el => el.querySelectorAll('.apx-link').forEach(b => { b.onclick = () => toAnnex(); });
 
 // ---------------- lens strip ----------------
 function dumbbell(vals, w, mx) {
@@ -652,7 +655,7 @@ function drawAnnex() {
     <p class="note">${tb('accBarNote', {bar: pc(A.bar), min: A.min_period})}</p>
     <ul class="states">${states}</ul>
   </section>
-  <div class="bottom"><section class="panel"><h2>${esc(t('useT'))}</h2><ul class="plain">${use}</ul></section>
+  <div class="bottom"><section class="panel" id="anxUse"><h2>${esc(t('useT'))}</h2><ul class="plain">${use}</ul></section>
     <section class="panel"><h2>${esc(t('limT'))}</h2><ul class="plain">${['lim1', 'lim2', 'lim3', 'lim4'].map(k => `<li>${esc(t(k))}</li>`).join('')}</ul></section></div>`;
 }
 
