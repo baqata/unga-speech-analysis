@@ -628,7 +628,9 @@ function drawAnnex() {
   const tb = (k, v = {}) => esc(I18N[lang][k] ?? k).replace(/\{(\w+)\}/g, (_, x) => v[x] == null ? '' : `<b>${esc(v[x])}</b>`);
   const lf = type => new Intl.ListFormat(lang, {type});
   const steps = [
-    ['s1', {speeches: n(M.build.n_speeches), first: Y0, last: Y1, countries: n(NC)}],
+    // who spoke, as the country table files them: the observers are the Holy See, Palestine and the European Union;
+    // the former States, Czechoslovakia, East Germany, South Yemen and Yugoslavia
+    ['s1', {speeches: n(M.build.n_speeches), first: Y0, last: Y1, members: 193, observers: 3, former: 4}],
     ['s2', {all: n(A.fragments_all), ceremonial: n(A.ceremonial), fragments: n(M.build.n_fragments)}],
     ['s3', {}],
     ['s4', {labelled: n(A.labelled), read: A.lenses.length + A.reference.length, unodc: A.lenses.length,
