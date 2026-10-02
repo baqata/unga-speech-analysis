@@ -29,14 +29,14 @@ try {
     getBin('data/shares.bin'), getBin('data/frags.bin'), getBin('data/map_frag.bin'), getBin('data/map_speech.bin'),
     getJSON('data/map_labels.json')]);
 } catch (e) {
-  $('boot').textContent = (await texts.catch(() => null))?.es.loadError ?? 'No se pudieron cargar los datos.';
+  $('boot').textContent = (await texts.catch(() => null))?.en.loadError ?? 'The data could not be loaded.';
   console.error(e);
   return;
 }
 const icon = (n, cls = 'ic') => `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true">${IC[n] || ''}</svg>`;
 
 // ---------------- text ----------------
-let lang = 'es';   // Spanish for everyone at start (docs/PLAN.md, section 3.5)
+let lang = 'en';   // English for everyone at start (docs/PLAN.md, section 3.5)
 const t = (k, v = {}) => (I18N[lang][k] ?? k).replace(/\{(\w+)\}/g, (_, x) => v[x] ?? '');
 let nf1;
 const setFormats = () => { nf1 = new Intl.NumberFormat(lang, {minimumFractionDigits: 1, maximumFractionDigits: 1}); };
@@ -79,7 +79,7 @@ M.groups.forEach(g => OPT.set('g:' + g.slug, {v: 'g:' + g.slug, g, key: g.slug, 
 M.countries.forEach((c, i) => OPT.set('c:' + c.iso3, {v: 'c:' + c.iso3, c: i, key: c.iso3, members: new Set([i])}));
 const optLabel = o => o.g ? (o.g.type === 'office' ? `${o.g.short_es} · ${o.g[lang]}` : o.g[lang]) : cname(o.c);
 const optShort = o => o.g ? o.g['short_' + lang] : cname(o.c);
-const state = {tab: 'reg', slots: ['g:rocol', '', ''], lens: ALL, y0: Y0, y1: Y1, layer: 'frag', country: ISO.COL ?? 0, amode: 0, wordSlot: 0};
+const state = {tab: 'reg', slots: ['', '', ''], lens: ALL, y0: Y0, y1: Y1, layer: 'frag', country: ISO.COL ?? 0, amode: 0, wordSlot: 0};
 const active = () => state.slots.map((v, s) => ({s, v, o: OPT.get(v)})).filter(x => x.o);
 const slotCol = s => css('--s' + (s + 1));
 // the period: one year, a range of years, or all years (y0 to y1, inclusive)
@@ -243,9 +243,12 @@ function drawStrip() {
     // every selection's value, a dot of its colour when there are several (the ratio is the first selection's)
     const parts = vals.map(x => ({s: x.s, txt: `${x.lab} ${pct(x.v)}`})).concat([{s: -1, txt: `${t('world')} ${pct(w)}`}]);
     const sw = s => s >= 0 && vals.length > 1 ? `<i class="sw" style="background:var(--s${s + 1})"></i>` : '';
+    // with no selection the tile is the world's share alone: nothing to compare it with
+    const body = s1 ? `<span class="rt">${ratioTxt(r)}<small>${r != null ? t('timesWorld') : ''}</small></span>
+      ${dumbbell(vals, w, mx)}<span class="vals">${parts.map(x => `<span>${sw(x.s)}${esc(x.txt)}</span>`).join(' · ')}</span>`
+      : `<span class="rt">${pct(w)}<small>${esc(t('world'))}</small></span>`;
     return `<button class="${cls}" data-l="${L}" aria-pressed="${state.lens === L}" aria-label="${esc(lensName(L))}${approx(L) ? ` (${esc(t('apxTip'))})` : ''}: ${r != null ? esc(ratioTxt(r) + ' ' + t('timesWorld')) + '. ' : ''}${esc(parts.map(x => x.txt).join(' · '))}">
-      ${head}<span class="rt">${ratioTxt(r)}<small>${r != null ? t('timesWorld') : ''}</small></span>
-      ${dumbbell(vals, w, mx)}<span class="vals">${parts.map(x => `<span>${sw(x.s)}${esc(x.txt)}</span>`).join(' · ')}</span></button>`;
+      ${head}${body}</button>`;
   }).join('');
   $('lenses').querySelectorAll('.lens').forEach(b => {
     const L = +b.dataset.l;
@@ -426,7 +429,7 @@ function drawLegends() {
   const sw = (col, txt) => `<span><i style="background:${col}"></i>${esc(txt)}</span>`, lead = L => `<span class="lt">${esc(lensName(L))}:</span>`;
   const sel = active().map(({s, o}) => sw(`var(--s${s + 1})`, optShort(o)));
   const topic = sel.length ? [lead(state.lens), ...sel, sw('var(--dot-sel)', other)] : sel;
-  $('regLegend').innerHTML = [...topic, sw('var(--dot)', t('rest'))].join('');
+  $('regLegend').innerHTML = [...topic, sw('var(--dot)', t(sel.length ? 'rest' : 'world'))].join('');
   state.slots.forEach((v, s) => { const o = OPT.get(v); $('slot' + s).title = o?.g ? [...o.members].map(c => cname(c)).sort((a, b) => a.localeCompare(b, lang)).join(', ') : ''; });   // a group's members on hover
   $('ctyLegend').innerHTML = [lead(ALL), sw('var(--s1)', cname(state.country)), sw('var(--dot-sel)', other), sw('var(--dot)', t('rest'))].join('');
   document.querySelectorAll('[data-layer]').forEach(b => b.setAttribute('aria-pressed', b.dataset.layer === state.layer));
@@ -560,16 +563,16 @@ function candidates(data, members) {   // the members' excerpts in the period, m
 }
 function drawQuotes() {
   const box = $('quotes'), act = active();
-  if (!act.length) return box.innerHTML = `<div class="empty">${t('pickSel')}</div>`;
   const file = `excerpts/${lensFile(state.lens)}.json`, data = want(file);
   if (!data) return box.innerHTML = `<div class="empty">${waitMsg(file)}</div>`;
-  const pools = act.map(({s, o}) => candidates(data, o.members).map(q => ({...q, slot: s})));
+  // with no selection, the world's most probable, in the world's colour
+  const pools = act.length ? act.map(({s, o}) => candidates(data, o.members).map(q => ({...q, slot: s}))) : [candidates(data, d3.range(NC))];
   const out = [], used = new Set(), key = q => `${q.c}|${q.y}|${q.x}`;   // each selection's most probable, in turns
   for (let round = 0; out.length < 3 && round < 3; round++) for (const pool of pools) {
     if (out.length >= 3) break;
     const q = pool.find(x => !used.has(key(x))); if (q) { used.add(key(q)); out.push(q); }
   }
-  box.innerHTML = out.length ? out.map(q => quoteHTML(q, `var(--s${q.slot + 1})`)).join('') : `<div class="empty">${t('noQuotes')}</div>`;
+  box.innerHTML = out.length ? out.map(q => quoteHTML(q, q.slot == null ? 'var(--world)' : `var(--s${q.slot + 1})`)).join('') : `<div class="empty">${t('noQuotes')}</div>`;
 }
 
 // ---------------- country tab ----------------
