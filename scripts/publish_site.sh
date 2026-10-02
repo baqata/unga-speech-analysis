@@ -2,16 +2,16 @@
 # Publish the built site (site/ with site/data/) to GitHub Pages: one new commit on the gh-pages branch of
 # baqata/unga-speech-analysis (docs/PLAN.md, section 5). Only the site's files are pushed, never the code.
 #
-# Usage: scripts/publish_site.sh [--preliminary]
+# Usage: scripts/publish_site.sh [--noindex]
 #
-# It refuses a placeholder build (docs/data-contract.md, meta.build). With --preliminary, the published copy asks
-# search engines not to index it, and the site shows "Versión preliminar".
+# It refuses a placeholder build (docs/data-contract.md, meta.build). With --noindex, the published copy asks
+# search engines not to index it; the site looks the same either way.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 REPO="baqata/unga-speech-analysis"
 BRANCH="gh-pages"
 noindex=0
-[[ "${1:-}" == "--preliminary" ]] && noindex=1
+[[ "${1:-}" == "--noindex" ]] && noindex=1
 
 [[ -f site/data/meta.json ]] || { echo "No site/data; run: uv run python -m pipeline.export site" >&2; exit 1; }
 build=$(uv run python -c "import json; b = json.load(open('site/data/meta.json'))['build']; print('placeholder' if b['placeholder'] else b['date'] + ' ' + b['probabilities'][:12])")
@@ -34,6 +34,6 @@ if (( noindex )); then
 fi
 find "$work/pages" -name .DS_Store -delete
 git -C "$work/pages" add -A
-git -C "$work/pages" commit --quiet -m "Publish site: build $build$( (( noindex )) && echo ' (preliminary)')"
+git -C "$work/pages" commit --quiet -m "Publish site: build $build$( (( noindex )) && echo ' (noindex)')"
 git -C "$work/pages" push --quiet origin "$BRANCH"
 echo "Published build $build to https://github.com/$REPO/tree/$BRANCH"

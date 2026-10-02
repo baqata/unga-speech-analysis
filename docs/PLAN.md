@@ -52,6 +52,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 - **Look:**
   - No logo, and no UN or UNODC emblem (2026-09-26 18:02, r476).
   - The header carries the title and its subtitle only, with no office line: the page is not presented as one office's tool (user, 2026-10-02 02:10).
+  - The published page does not say "Versión preliminar": the user takes it as a first version. That badge shows only while a topic has no pass-bar result. The published copy still asks search engines not to index it, `scripts/publish_site.sh --noindex` (user, 2026-10-02 03:25).
   - UN palette and Roboto, following the branding guideline in the repository (2026-09-26 17:22, r2).
   - Selection colours #0077B8, #CF3F0B and #9A58AF. In dark mode they are #009EDB, #E0701C and #A868BE. These come from the mockup and are recorded in the project memory.
   - Light and dark mode, and works on a phone (proposed r591; confirmed 2026-09-26 18:33, r683).
