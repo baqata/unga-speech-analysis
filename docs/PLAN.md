@@ -61,7 +61,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
 
 - **It replaces the hero-number cards.** The user rejected those cards as generic and asked for something more visual, with icons (2026-09-26 18:02, r476).
 - **Option C was chosen:** every lens with its icon, showing how much the selection over- or under-indexes against the world (2026-09-26 18:12, r575; options page r565).
-- **The line under its title says what the percentages are**, once: the average share of a speech about each topic ("porcentaje promedio de un discurso sobre cada tema"), after the selection and the period (user, 2026-10-02 19:30, who asked "6% of what?").
+- **The line under its title says what the percentages are**, once: the share of the speeches' content about each topic ("porcentaje del contenido de los discursos sobre cada tema"), after the selection and the period; the trend's line says the same, by year (user, 2026-10-02 19:30, who asked "6% of what?", and 19:40, who asked for the plural: a single speech raised the question of whose).
 - **It also works as the topic selector** for the rest of the tab (proposed r565 and r591; confirmed 2026-09-26 18:33, r683).
 - **No ratio for a share under 0.05%**, which reads "<0,1 %": at that level the ratio to the world is noise (after the user's question on ROCOL, 2026 and alternative development, 2026-09-30 19:11, s4 r21187).
 - **Icons:** Tabler Icons (MIT licence), approved (2026-09-26 18:12, r575):
