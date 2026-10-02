@@ -671,10 +671,8 @@ function applyLang() {
   yFrom.setAttribute('aria-label', t('yearFrom')); yTo.setAttribute('aria-label', t('yearTo'));
   document.querySelector('.tabbar').setAttribute('aria-label', t('views'));
   $('controls').setAttribute('aria-label', t('filters'));
-  // a development build; or a build whose lenses have no pass-bar result (pass: null), or a preliminary
-  // publication (scripts/publish_site.sh --preliminary asks search engines not to index it)
-  const prelimCopy = !!document.querySelector('meta[name="robots"][content~="noindex"]');
-  const badge = $('badge'), dev = M.build.placeholder, prelim = !dev && (prelimCopy || LENSES.some(l => l.pass == null));
+  // a development build, or a build whose lenses have no pass-bar result (pass: null)
+  const badge = $('badge'), dev = M.build.placeholder, prelim = !dev && LENSES.some(l => l.pass == null);
   badge.hidden = !dev && !prelim; badge.textContent = t(dev ? 'devBadge' : 'prelimBadge');
   badge.title = prelim ? t('prelimTip') : ''; badge.classList.toggle('dev', dev);
   fillSelects(); update(); cardAgain?.();
