@@ -144,7 +144,7 @@ function openCard(i) {   // i: a fragment point
 card.addEventListener('close', () => { cardAgain = null; });
 // the close button, or a click beside the card; the second click of a double click leaves it open
 card.addEventListener('click', e => {
-  if (e.target.closest('.apx-link')) { card.close(); toAnnex('anxUse'); }
+  if (e.target.closest('.apx-link')) { card.close(); toAnnex(); }
   else if (e.detail < 2 && (e.target === card || e.target.closest('.x'))) card.close();
 });
 
@@ -214,7 +214,7 @@ Object.entries(TABS).forEach(([k, [b]]) => {
   });
 });
 $('icReg').innerHTML = icon('world'); $('icCty').innerHTML = icon('map-pin'); $('icAnx').innerHTML = icon('file-text');
-const toAnnex = (to = 'anxAcc') => { setTab('anx'); $(to).scrollIntoView({block: 'start'}); };
+const toAnnex = () => { setTab('anx'); $('anxAcc').scrollIntoView({block: 'start'}); };   // its table and what confidence means
 // The note on a topic short of the pass bar: a link to the annex's table
 const apxNote = L => approx(L) ? ` <button class="apx-link" type="button">${esc(t('apxTip'))}</button>` : '';
 const wireApx = el => el.querySelectorAll('.apx-link').forEach(b => { b.onclick = () => toAnnex(); });
@@ -627,6 +627,7 @@ function drawAnnex() {
   // a text whose values are set in bold
   const tb = (k, v = {}) => esc(I18N[lang][k] ?? k).replace(/\{(\w+)\}/g, (_, x) => v[x] == null ? '' : `<b>${esc(v[x])}</b>`);
   const lf = type => new Intl.ListFormat(lang, {type});
+  const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);
   const steps = [
     // who spoke, as the country table files them: the observers are the Holy See, Palestine and the European Union;
     // the former States, Czechoslovakia, East Germany, South Yemen and Yugoslavia
@@ -638,7 +639,9 @@ function drawAnnex() {
     ['s5', {models: A.lenses.length}],
     ['s6', {folds: A.folds, rest: A.folds - 1}],
     ['s7', {general: TOPICS.filter(x => x.kind === 'general').length}],
-  ].map(([k, v], i) => `<li><span class="n">${i + 1}</span><div><h3>${esc(t(k + 't'))}</h3><p>${tb(k, v)}</p></div></li>`).join('');
+    // what the figures and the views use; a topic's sub-topics count under it too
+    ['s8', {}, top ? ' ' + esc(t('s8sub', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : ''],
+  ].map(([k, v, more = ''], i) => `<li><span class="n">${i + 1}</span><div><h3>${esc(t(k + 't'))}</h3><p>${tb(k, v)}${more}</p></div></li>`).join('');
   const st = l => l.pass === false ? 'apx' : 'ok';
   const bar = v => `<td class="pr"><span class="pv">${pc(v)}</span><span class="pb" aria-hidden="true"><b style="width:${(100 * Math.min(1, v ?? 0)).toFixed(1)}%"></b><i style="left:${100 * A.bar}%"></i></span></td>`;
   const chip = l => `<span class="st st-${st(l)}">${esc(t('st_' + st(l)))}</span>`;   // on phones, under the name
@@ -647,18 +650,14 @@ function drawAnnex() {
   const states = [['ok', {bar: pc(A.bar)}], ['apx', {}]]
     .map(([k, v]) => `<li><span class="st st-${k}">${esc(t('st_' + k))}</span><span>${tb('st_' + k + 'D', v)}</span></li>`).join('');
   const th = (k, cls = '') => `<th scope="col"${cls && ` class="${cls}"`}>${esc(t(k))}</th>`;
-  const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);
-  const use = [tb('use1'), tb('use2'), top ? esc(t('use3', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : '', tb('use4')]
-    .filter(Boolean).map(x => `<li>${x}</li>`).join('');
   box.innerHTML = `<section class="panel"><h2>${esc(t('anxTitle'))}</h2><p class="hint">${esc(t('anxIntro'))}</p><ol class="steps">${steps}</ol></section>
   <section class="panel" id="anxAcc"><h2>${esc(t('accTitle'))}</h2><p class="hint">${tb('accHint', {labelled: n(A.labelled)})}</p>
-    <dl class="defs">${[['accEx', 'accExD'], ['accPrecT', 'accPrec'], ['accRecT', 'accRec'], ['accF1T', 'accF1']].map(([a, b]) => `<div><dt>${esc(t(a))}</dt><dd>${esc(t(b))}</dd></div>`).join('')}</dl>
+    <dl class="defs">${[['accEx', 'accExD'], ['accPrecT', 'accPrec'], ['accRecT', 'accRec'], ['accF1T', 'accF1'], ['cardConf', 'accConf']].map(([a, b]) => `<div><dt>${esc(t(a))}</dt><dd>${esc(t(b))}</dd></div>`).join('')}</dl>
     <div class="tscroll"><table class="acc main"><thead><tr>${th('accTopic')}${th('accEx', 'num')}${th('accPrecT', 'num')}${th('accRecT', 'num')}${th('accF1T')}${th('accSite')}</tr></thead><tbody>${rows}</tbody></table></div>
     <p class="note">${tb('accBarNote', {bar: pc(A.bar), min: A.min_period})}</p>
     <ul class="states">${states}</ul>
-  </section>
-  <div class="bottom"><section class="panel" id="anxUse"><h2>${esc(t('useT'))}</h2><ul class="plain">${use}</ul></section>
-    <section class="panel"><h2>${esc(t('limT'))}</h2><ul class="plain">${['lim1', 'lim2', 'lim3', 'lim4'].map(k => `<li>${esc(t(k))}</li>`).join('')}</ul></section></div>`;
+    <p class="note">${esc(t('accLim'))}</p>
+  </section>`;
 }
 
 // ---------------- language ----------------
