@@ -460,12 +460,13 @@ function drawWorld() {
   const inSel = d => cSlot[d.c] >= 0;   // states too small to draw: a ring in their selection's colour
   wdots.attr('fill', d => colOf(cm[d.c])).attr('stroke', d => inSel(d) ? slotCol(cSlot[d.c]) : line)
     .attr('stroke-width', d => inSel(d) ? 1.8 : 0.6).attr('r', d => inSel(d) ? 3.4 : 2.6);
-  // Each member country outlined in its selection's colour, the largest selection first
+  // Each member country outlined in its selection's colour, the largest selection first, over a wider line in the
+  // colour of the borders: an outline has to show on a country filled as dark as itself
   const outl = [];
   active().forEach(({s, o}) => feats.forEach(f => { if (o.members.has(cOfFeat(f))) outl.push({f, s, n: o.members.size}); }));
   outl.sort((a, b) => b.n - a.n);
-  wsel.selectAll('path').data(outl).join('path').attr('d', d => gpath(d.f)).attr('fill', 'none')
-    .attr('stroke', d => slotCol(d.s)).attr('stroke-width', 1.6).attr('stroke-linejoin', 'round').attr('pointer-events', 'none');
+  wsel.selectAll('path').data(outl.map(d => ({...d, halo: true})).concat(outl)).join('path').attr('d', d => gpath(d.f)).attr('fill', 'none')
+    .attr('stroke', d => d.halo ? line : slotCol(d.s)).attr('stroke-width', d => d.halo ? 3.4 : 1.6).attr('stroke-linejoin', 'round').attr('pointer-events', 'none');
   const tipOf = (e, c) => c == null ? hideTip() : showTip(e, `<b>${esc(cname(c, single()))}</b><br>${cm[c] == null ? t('noSpeech') : pct(cm[c])}`);
   wpaths.on('mousemove', (e, f) => tipOf(e, cOfFeat(f))).on('mouseleave', hideTip);
   wdots.on('mousemove', (e, d) => tipOf(e, d.c)).on('mouseleave', hideTip);
@@ -480,7 +481,7 @@ function drawWorld() {
 }
 
 // ---------------- trend ----------------
-let TW = 640; const TH = 250, TM = {t: 12, r: 104, b: 24, l: 40};
+let TW = 640; const TH = 250, TM = {t: 12, r: 115, b: 24, l: 40};
 const tsvg = d3.select('#trend').append('svg').attr('viewBox', `0 0 ${TW} ${TH}`).attr('role', 'img');
 const tx = d3.scaleLinear().domain([Y0, Y1]).range([TM.l, TW - TM.r]), ty = d3.scaleLinear().range([TH - TM.b, TM.t]);
 const gGrid = tsvg.append('g'), gAx = tsvg.append('g'), gLines = tsvg.append('g'), gMark = tsvg.append('g'), gHover = tsvg.append('g');
@@ -499,7 +500,7 @@ function drawTrend() {
   const L = state.lens, title = L === ALL ? t('trendTitleAll') : t('trendTitle', {l: lensName(L)});
   $('trendTitle').textContent = title; tsvg.attr('aria-label', title);
   $('trendHint').innerHTML = esc(t('trendHint')) + apxNote(L); wireApx($('trendHint'));
-  TW = Math.max(300, Math.round($('trend').clientWidth || 640)); TM.r = TW < 480 ? 80 : 104;
+  TW = Math.max(300, Math.round($('trend').clientWidth || 640)); TM.r = TW < 480 ? 91 : 115;
   tsvg.attr('viewBox', `0 0 ${TW} ${TH}`); tx.range([TM.l, TW - TM.r]);
   gGrid.selectAll('*').remove(); gAx.selectAll('*').remove(); gLines.selectAll('*').remove(); gMark.selectAll('*').remove();
   series = active().map(({s, o}) => ({name: optShort(o), col: slotCol(s), v: seriesFor(o.members, L)}));
@@ -517,7 +518,9 @@ function drawTrend() {
   for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 15) ends[k].y = ends[k - 1].y + 15;
   const over = ends.length ? ends[ends.length - 1].y - (TH - TM.b) : 0;
   if (over > 0) ends.forEach(e => e.y -= over);
-  gLines.selectAll('text').data(ends).join('text').attr('x', TW - TM.r + 6).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', d => d.s.col).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => fitName(d.s.name, TM.r - 8));
+  // a selection's name in ink beside a dot of its colour: a light colour cannot carry the letters
+  gLines.selectAll('circle').data(ends).join('circle').attr('cx', TW - TM.r + 10).attr('cy', d => d.y).attr('r', 3.5).attr('fill', d => d.s.col);
+  gLines.selectAll('text').data(ends).join('text').attr('x', TW - TM.r + 17).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', d => d.s.dash ? d.s.col : css('--ink-2')).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => fitName(d.s.name, TM.r - 19));
   if (!isAll() && single() == null) gGrid.append('rect').attr('x', tx(state.y0)).attr('width', tx(state.y1) - tx(state.y0)).attr('y', TM.t).attr('height', TH - TM.b - TM.t).attr('fill', css('--ink')).attr('opacity', 0.06);
   if (single() != null) gMark.append('line').attr('x1', tx(single())).attr('x2', tx(single())).attr('y1', TM.t).attr('y2', TH - TM.b).attr('stroke', css('--ink')).attr('stroke-width', 1).attr('stroke-dasharray', '2 3');
 }
