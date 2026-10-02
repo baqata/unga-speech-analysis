@@ -84,7 +84,7 @@ Prevention and treatment, the topic with the fewest examples, is shown like the 
 ### 3.3 Selections and defaults
 
 - **Up to three selections** compared side by side, each with a fixed colour (2026-09-26 17:31, r92; proposed r81).
-- **Default:** ROCOL only. The other two slots start empty (2026-09-26 18:02, r476).
+- **Default:** no selection; the three slots start empty and the page shows the world, since the site is meant as a global tool (user, 2026-10-02 19:15). With no selection, the strip shows the world's share on each tile, with no ratio and no comparison bar, the map legend reads "World", and the excerpts are the world's three most probable; the distinctive words ask for a selection, since they are measured against the rest of the world. The ratios apply once a selection is made.
 - **Overlaps are allowed**, for example ROCOL and Colombia together. The user asked about this in r92; r443 answered that a country in two selections takes the colour of the more specific selection, and the user did not object.
 - **Year:** all years by default, with an option to pick a single year (2026-09-26 17:31, r92) or a range of years (2026-09-30 04:20). One slider with two handles: from all years, the first move picks one year, and either handle then widens or narrows the period. The word bars and the alignment are computed for one year or for all years; for a partial range they say so.
 - **Unselected points** stay in the background, in grey (2026-09-26 17:31, r92).
@@ -105,8 +105,8 @@ Prevention and treatment, the topic with the fewest examples, is shown like the 
 
 ### 3.5 Language
 
-- **Spanish and English interface**, with an ES/EN switch (2026-09-26 18:12, r575).
-- **Spanish is the starting language for everyone** (2026-09-29 01:17, s2 r9207).
+- **English and Spanish interface**, with an EN/ES switch (2026-09-26 18:12, r575).
+- **English is the starting language for everyone**, with Spanish as the option, since the site is meant as a global tool (user, 2026-10-02 19:15).
 - Speech text stays in English (section 2).
 
 ### 3.6 Semantic map
@@ -262,6 +262,8 @@ Version 2:
 | Three pre-filled selections (mockup v1) | ROCOL only (2026-09-26 18:02, r476) |
 | Spanish by default for everyone (r92) | Starting language follows the browser (2026-09-26 18:28, r659) |
 | Starting language follows the browser (r659) | Spanish for everyone (2026-09-29 01:17, s2 r9207) |
+| Spanish for everyone (2026-09-29 01:17, s2 r9207) | English for everyone, Spanish as the option (user, 2026-10-02 19:15) |
+| ROCOL selected at start (2026-09-26 18:02, r476) | No selection at start: the page opens on the world (user, 2026-10-02 19:15) |
 | Dotted 2024–2025 segment on the trend (proposed r443) | No visible caveat (2026-09-26 18:02, r476) |
 | Sentences scored as well as fragments (method of s2 r9207) | Whole fragments only (2026-09-29 03:47, s2 r13474) |
 | Lens scores by similarity to UNODC's wording, with three description variants, a cut-off where precision equals recall and a fallback classifier (s2 r9207) | One logistic regression per lens; similarity only draws the sample (2026-09-29 05:02, s2 r13904) |
@@ -310,7 +312,7 @@ None. On 2026-09-29 the user settled points 4, 7 and 10 (s2 r9207) and approved 
 2. **Distinctive words on the Country tab:** left out, as in the confirmed plan (r679, r683); selecting a country on the Regions tab shows them.
 3. **Label of the no-field-office group:** "No field office in this grouping" ("Sin oficina de campo en esta agrupación"); see section 3.4 (user, 2026-10-02 18:14).
 4. **Alternative development:** measured like every lens, with 44 labelled examples; the pass bar decides whether it carries the "Aprox." badge (section 3.7).
-5. **Strip:** it keeps the "all UNODC topics" tile and opens on it, shows the ratio for the first selection, and a dot for every selection.
+5. **Strip:** it keeps the "all UNODC topics" tile and opens on it, shows the ratio for the first selection, and a dot for every selection; with no selection, the world's share alone (section 3.3).
 6. **Country tab:** it opens on Colombia, "all years" adds the years up, and similarity is shown as a percentile within the year, as `docs/data-contract.md` proposes.
 7. **Group weighting:** each country weighs the same, over fragment shares (section 4, Metric); `docs/data-contract.md` says so.
 8. **2026:** shown as "2026", like any other year, with no label or note (section 2).
