@@ -477,11 +477,18 @@ function drawWorld() {
 }
 
 // ---------------- trend ----------------
-let TW = 640; const TH = 250, TM = {t: 12, r: 96, b: 24, l: 40};
+let TW = 640; const TH = 250, TM = {t: 12, r: 104, b: 24, l: 40};
 const tsvg = d3.select('#trend').append('svg').attr('viewBox', `0 0 ${TW} ${TH}`).attr('role', 'img');
 const tx = d3.scaleLinear().domain([Y0, Y1]).range([TM.l, TW - TM.r]), ty = d3.scaleLinear().range([TH - TM.b, TM.t]);
 const gGrid = tsvg.append('g'), gAx = tsvg.append('g'), gLines = tsvg.append('g'), gMark = tsvg.append('g'), gHover = tsvg.append('g');
 let series = [];
+const nameCtx = document.createElement('canvas').getContext('2d');
+function fitName(s, w) {   // a line's name, cut to the width of the right margin
+  nameCtx.font = '600 11.5px "Roboto Condensed", "Arial Narrow", sans-serif';
+  if (nameCtx.measureText(s).width <= w) return s;
+  while (s.length > 1 && nameCtx.measureText(s.trimEnd() + '…').width > w) s = s.slice(0, -1);
+  return s.trimEnd() + '…';
+}
 function seriesFor(members, L) {   // each year's equal-weight mean, the value a card shows for that year
   return d3.range(NY).map(y => { let a = 0, k = 0; for (let c = 0; c < NC; c++) { if (members && !members.has(c)) continue; const v = shareOf(c, y, L); if (!Number.isNaN(v)) { a += v; k++; } } return k ? a / k : null; });
 }
@@ -489,7 +496,7 @@ function drawTrend() {
   const L = state.lens, title = L === ALL ? t('trendTitleAll') : t('trendTitle', {l: lensName(L)});
   $('trendTitle').textContent = title; tsvg.attr('aria-label', title);
   $('trendHint').innerHTML = esc(t('trendHint')) + apxNote(L); wireApx($('trendHint'));
-  TW = Math.max(300, Math.round($('trend').clientWidth || 640)); TM.r = TW < 480 ? 80 : 96;
+  TW = Math.max(300, Math.round($('trend').clientWidth || 640)); TM.r = TW < 480 ? 80 : 104;
   tsvg.attr('viewBox', `0 0 ${TW} ${TH}`); tx.range([TM.l, TW - TM.r]);
   gGrid.selectAll('*').remove(); gAx.selectAll('*').remove(); gLines.selectAll('*').remove(); gMark.selectAll('*').remove();
   series = active().map(({s, o}) => ({name: optShort(o), col: slotCol(s), v: seriesFor(o.members, L)}));
@@ -507,7 +514,7 @@ function drawTrend() {
   for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 15) ends[k].y = ends[k - 1].y + 15;
   const over = ends.length ? ends[ends.length - 1].y - (TH - TM.b) : 0;
   if (over > 0) ends.forEach(e => e.y -= over);
-  gLines.selectAll('text').data(ends).join('text').attr('x', TW - TM.r + 6).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', d => d.s.col).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => d.s.name.length > 15 ? d.s.name.slice(0, 14) + '…' : d.s.name);
+  gLines.selectAll('text').data(ends).join('text').attr('x', TW - TM.r + 6).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', d => d.s.col).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => fitName(d.s.name, TM.r - 8));
   if (!isAll() && single() == null) gGrid.append('rect').attr('x', tx(state.y0)).attr('width', tx(state.y1) - tx(state.y0)).attr('y', TM.t).attr('height', TH - TM.b - TM.t).attr('fill', css('--ink')).attr('opacity', 0.06);
   if (single() != null) gMark.append('line').attr('x1', tx(single())).attr('x2', tx(single())).attr('y1', TM.t).attr('y2', TH - TM.b).attr('stroke', css('--ink')).attr('stroke-width', 1).attr('stroke-dasharray', '2 3');
 }
@@ -698,5 +705,5 @@ setFormats(); applyLang(); setTab(state.tab);
 const redraw = () => { regMap.invalidate(); ctyMap.invalidate(); update(); };
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redraw);
 new MutationObserver(redraw).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
-document.fonts?.ready.then(() => { regMap.draw(); ctyMap.draw(); });
+document.fonts?.ready.then(() => { regMap.draw(); ctyMap.draw(); if (state.tab === 'reg') drawTrend(); });   // names are cut by their width in the font
 })();

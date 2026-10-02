@@ -94,8 +94,8 @@ OFFICES = {
     "POUKR": ("Ucrania y Moldavia", "Ukraine and Moldova"),
 }
 HOST_ONLY = {"HQ", "BRULO", "NYLO"}  # host offices, not coverage (docs/PLAN.md, section 3.4)
-NOFIELD = {"id": "SEDE", "slug": "sede", "type": "nofield", "es": "Cubiertos desde la Sede",
-           "en": "Covered from Headquarters", "short_es": "Sede", "short_en": "HQ"}
+NOFIELD = {"id": "SEDE", "slug": "sede", "type": "nofield", "es": "Sin oficina de campo en esta agrupación",
+           "en": "No field office in this grouping", "short_es": "Sin oficina de campo", "short_en": "No field office"}
 BLOCS = {"ALC": ("ALC", "LAC"), "UE": ("UE-27", "EU-27"), "BRICS": ("BRICS", "BRICS"), "G7": ("G7", "G7"),
          "AFR": ("África", "Africa"), "ASP": ("Asia-Pacífico", "Asia-Pacific")}  # short names; long ones in groups.csv
 

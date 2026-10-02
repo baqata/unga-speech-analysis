@@ -211,7 +211,7 @@ body:has(.card[open]){overflow:hidden}
 .arow .bt{position:relative; height:8px; background:var(--track); border-radius:4px}
 .arow .bt b{position:absolute; left:0; top:0; bottom:0; border-radius:4px; background:var(--s1)}
 .arow .v{font:700 13px var(--cond); text-align:right; font-variant-numeric:tabular-nums}
-.grow{display:grid; grid-template-columns:minmax(0,6.5em) minmax(0,1fr) 2.2em; align-items:center; gap:8px; font-size:12.5px; min-height:20px}
+.grow{display:grid; grid-template-columns:minmax(0,10em) minmax(0,1fr) 2.2em; align-items:center; gap:8px; font-size:12.5px; min-height:20px}
 .grow > span:first-child{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:var(--ink-2)}
 .grow.own > span:first-child{color:var(--ink); font-weight:700}
 .grow .tk{position:relative; height:2px; background:var(--line)}

@@ -96,7 +96,7 @@ Prevention and treatment, the topic with the fewest examples, is shown like the 
 - **UNODC field offices** (2026-09-26 18:28, r659; proposed r633):
   - Every office that covers more than one country is a group.
   - A single-country office appears as that country.
-  - Countries with no field office form a group labelled "Covered from Headquarters".
+  - Countries with no field office form a group labelled "No field office in this grouping" ("Sin oficina de campo en esta agrupación"), in short "No field office" ("Sin oficina de campo"); it does not say that Headquarters covers them (user, 2026-10-02 18:14). "Oficina de campo" is the wording of the office's own site.
 - **Office list.** This is research output (`data/meta/unodc_offices.csv`), not a user decision:
   - Multi-country offices: ROCOL, ROPAN, ROSEN, ROSAF, ROEA, ROMENA, OGCCR, ROCA, ROSA, ROSEAP, ROSEE and POUKR.
   - Single-country offices: Brazil, Mexico and Nigeria.
@@ -281,6 +281,7 @@ Version 2:
 | Trend averaged over 3 years (proposed r591; confirmed r683) | Each year's value, drawn as a smooth curve (2026-09-30 19:28, s4 r21834) |
 | With a year chosen, the other years as a faint outline on the maps (2026-09-30 04:20) | Only the period's points (2026-09-30 19:05, s4 r20943) |
 | Two tabs (r659) | Three: a technical annex added (2026-09-30 17:07, s4 r17922) |
+| The no-field-office group labelled "Covered from Headquarters" ("Cubiertos desde la Sede"), in short "HQ" ("Sede") (r659, r683) | "No field office in this grouping" ("Sin oficina de campo en esta agrupación"), in short "No field office" ("Sin oficina de campo") (user, 2026-10-02 18:14) |
 | The annex ends with two panels, "How the site uses the models" and "Limits" (2026-09-30 17:07, s4 r17922) | No such panels: their content, shortened, sits in the steps, the definitions and a small note under the table (user, 2026-10-02 17:59) |
 | One year or all years (r92) | Also a range of years (2026-09-30 04:20) |
 | Three labellers read every fragment, a fourth decides disagreements, five agents at a time (s2 r13904) | One labeller, ten at a time, with a check of about 600 fragments at maximum effort and a resolver; codebook 1.2 (2026-09-29 21:56, s4 r2316) |
@@ -307,7 +308,7 @@ None. On 2026-09-29 the user settled points 4, 7 and 10 (s2 r9207) and approved 
 
 1. **Summary sentence under the strip:** none; the strip stands alone.
 2. **Distinctive words on the Country tab:** left out, as in the confirmed plan (r679, r683); selecting a country on the Regions tab shows them.
-3. **Label of the no-field-office group:** "Covered from Headquarters" ("Cubiertos desde la Sede"), as confirmed (r659, r683).
+3. **Label of the no-field-office group:** "No field office in this grouping" ("Sin oficina de campo en esta agrupación"); see section 3.4 (user, 2026-10-02 18:14).
 4. **Alternative development:** measured like every lens, with 44 labelled examples; the pass bar decides whether it carries the "Aprox." badge (section 3.7).
 5. **Strip:** it keeps the "all UNODC topics" tile and opens on it, shows the ratio for the first selection, and a dot for every selection.
 6. **Country tab:** it opens on Colombia, "all years" adds the years up, and similarity is shown as a percentile within the year, as `docs/data-contract.md` proposes.
