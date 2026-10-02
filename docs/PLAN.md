@@ -54,7 +54,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
   - The header carries the title and its subtitle only, with no office line: the page is not presented as one office's tool (user, 2026-10-02 02:10).
   - The published page does not say "Versión preliminar": the user takes it as a first version. That badge shows only while a topic has no pass-bar result. The published copy still asks search engines not to index it, `scripts/publish_site.sh --noindex` (user, 2026-10-02 03:25).
   - UN palette and Roboto, following the branding guideline in the repository (2026-09-26 17:22, r2).
-  - Selection colours #0077B8, #CF3F0B and #9A58AF. In dark mode they are #009EDB, #E0701C and #A868BE. These come from the mockup and are recorded in the project memory.
+  - Selection colours #004987, #F58220 and #FFC800, the United Nations dark blue, orange and yellow. In dark mode they are #009EDB, #F58220 and #FFC800. They replace the mockup's blue, orange and purple (#0077B8, #CF3F0B and #9A58AF), which the user could not tell apart on the page (user, 2026-10-02 16:15). The three are far apart in lightness, so two rules go with them: a selection's name is written in ink beside a dot of its colour, never in the colour itself, and its outline on the world map sits over a wider line in the colour of the borders, to show on a country filled as dark as the outline.
   - Light and dark mode, and works on a phone (proposed r591; confirmed 2026-09-26 18:33, r683).
 
 ### 3.2 Opening lens strip ("Huella del mandato")
