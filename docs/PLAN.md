@@ -51,6 +51,7 @@ A public, static, communication-first dashboard for the UNODC ROCOL Análisis, M
   - **Anexo técnico:** how the site was made, in plain words and without tool names: the speeches, the fragments, the fingerprint of meaning, the labelled sample, one model per topic, the settings chosen by cross-validation, the general topics and the map; then, for each topic, its examples and, from the cross-validation, its precision, its recall ("sensibilidad") and their F1, which decides its badge, under those usual names, each explained in plain words (user, 2026-09-30 18:56, s4 r20659); how the site uses the models; and the limits (2026-09-30 17:07, s4 r17922; 17:57, s4 r18894). Thresholds, the readers' agreement and the figures by period stay in the methods note, not on the site (user, 2026-09-30 18:33, s4 r19860; 18:39, s4 r20072). Deep links `#anexo` and `#annex`.
 - **Look:**
   - No logo, and no UN or UNODC emblem (2026-09-26 18:02, r476).
+  - The header carries the title and its subtitle only, with no office line: the page is not presented as one office's tool (user, 2026-10-02 02:10).
   - UN palette and Roboto, following the branding guideline in the repository (2026-09-26 17:22, r2).
   - Selection colours #0077B8, #CF3F0B and #9A58AF. In dark mode they are #009EDB, #E0701C and #A868BE. These come from the mockup and are recorded in the project memory.
   - Light and dark mode, and works on a phone (proposed r591; confirmed 2026-09-26 18:33, r683).
