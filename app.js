@@ -144,7 +144,7 @@ function openCard(i) {   // i: a fragment point
 card.addEventListener('close', () => { cardAgain = null; });
 // the close button, or a click beside the card; the second click of a double click leaves it open
 card.addEventListener('click', e => {
-  if (e.target.closest('.apx-link')) { card.close(); toAnnex('anxUse'); }
+  if (e.target.closest('.apx-link')) { card.close(); toAnnex(); }
   else if (e.detail < 2 && (e.target === card || e.target.closest('.x'))) card.close();
 });
 
@@ -214,7 +214,7 @@ Object.entries(TABS).forEach(([k, [b]]) => {
   });
 });
 $('icReg').innerHTML = icon('world'); $('icCty').innerHTML = icon('map-pin'); $('icAnx').innerHTML = icon('file-text');
-const toAnnex = (to = 'anxAcc') => { setTab('anx'); $(to).scrollIntoView({block: 'start'}); };
+const toAnnex = () => { setTab('anx'); $('anxAcc').scrollIntoView({block: 'start'}); };   // its table and what confidence means
 // The note on a topic short of the pass bar: a link to the annex's table
 const apxNote = L => approx(L) ? ` <button class="apx-link" type="button">${esc(t('apxTip'))}</button>` : '';
 const wireApx = el => el.querySelectorAll('.apx-link').forEach(b => { b.onclick = () => toAnnex(); });
@@ -477,11 +477,18 @@ function drawWorld() {
 }
 
 // ---------------- trend ----------------
-let TW = 640; const TH = 250, TM = {t: 12, r: 96, b: 24, l: 40};
+let TW = 640; const TH = 250, TM = {t: 12, r: 104, b: 24, l: 40};
 const tsvg = d3.select('#trend').append('svg').attr('viewBox', `0 0 ${TW} ${TH}`).attr('role', 'img');
 const tx = d3.scaleLinear().domain([Y0, Y1]).range([TM.l, TW - TM.r]), ty = d3.scaleLinear().range([TH - TM.b, TM.t]);
 const gGrid = tsvg.append('g'), gAx = tsvg.append('g'), gLines = tsvg.append('g'), gMark = tsvg.append('g'), gHover = tsvg.append('g');
 let series = [];
+const nameCtx = document.createElement('canvas').getContext('2d');
+function fitName(s, w) {   // a line's name, cut to the width of the right margin
+  nameCtx.font = '600 11.5px "Roboto Condensed", "Arial Narrow", sans-serif';
+  if (nameCtx.measureText(s).width <= w) return s;
+  while (s.length > 1 && nameCtx.measureText(s.trimEnd() + '…').width > w) s = s.slice(0, -1);
+  return s.trimEnd() + '…';
+}
 function seriesFor(members, L) {   // each year's equal-weight mean, the value a card shows for that year
   return d3.range(NY).map(y => { let a = 0, k = 0; for (let c = 0; c < NC; c++) { if (members && !members.has(c)) continue; const v = shareOf(c, y, L); if (!Number.isNaN(v)) { a += v; k++; } } return k ? a / k : null; });
 }
@@ -489,7 +496,7 @@ function drawTrend() {
   const L = state.lens, title = L === ALL ? t('trendTitleAll') : t('trendTitle', {l: lensName(L)});
   $('trendTitle').textContent = title; tsvg.attr('aria-label', title);
   $('trendHint').innerHTML = esc(t('trendHint')) + apxNote(L); wireApx($('trendHint'));
-  TW = Math.max(300, Math.round($('trend').clientWidth || 640)); TM.r = TW < 480 ? 80 : 96;
+  TW = Math.max(300, Math.round($('trend').clientWidth || 640)); TM.r = TW < 480 ? 80 : 104;
   tsvg.attr('viewBox', `0 0 ${TW} ${TH}`); tx.range([TM.l, TW - TM.r]);
   gGrid.selectAll('*').remove(); gAx.selectAll('*').remove(); gLines.selectAll('*').remove(); gMark.selectAll('*').remove();
   series = active().map(({s, o}) => ({name: optShort(o), col: slotCol(s), v: seriesFor(o.members, L)}));
@@ -507,7 +514,7 @@ function drawTrend() {
   for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 15) ends[k].y = ends[k - 1].y + 15;
   const over = ends.length ? ends[ends.length - 1].y - (TH - TM.b) : 0;
   if (over > 0) ends.forEach(e => e.y -= over);
-  gLines.selectAll('text').data(ends).join('text').attr('x', TW - TM.r + 6).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', d => d.s.col).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => d.s.name.length > 15 ? d.s.name.slice(0, 14) + '…' : d.s.name);
+  gLines.selectAll('text').data(ends).join('text').attr('x', TW - TM.r + 6).attr('y', d => d.y).attr('dy', '0.32em').attr('font-size', 11.5).attr('font-weight', 600).attr('fill', d => d.s.col).attr('font-family', 'Roboto Condensed, Arial Narrow, sans-serif').text(d => fitName(d.s.name, TM.r - 8));
   if (!isAll() && single() == null) gGrid.append('rect').attr('x', tx(state.y0)).attr('width', tx(state.y1) - tx(state.y0)).attr('y', TM.t).attr('height', TH - TM.b - TM.t).attr('fill', css('--ink')).attr('opacity', 0.06);
   if (single() != null) gMark.append('line').attr('x1', tx(single())).attr('x2', tx(single())).attr('y1', TM.t).attr('y2', TH - TM.b).attr('stroke', css('--ink')).attr('stroke-width', 1).attr('stroke-dasharray', '2 3');
 }
@@ -627,6 +634,7 @@ function drawAnnex() {
   // a text whose values are set in bold
   const tb = (k, v = {}) => esc(I18N[lang][k] ?? k).replace(/\{(\w+)\}/g, (_, x) => v[x] == null ? '' : `<b>${esc(v[x])}</b>`);
   const lf = type => new Intl.ListFormat(lang, {type});
+  const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);
   const steps = [
     // who spoke, as the country table files them: the observers are the Holy See, Palestine and the European Union;
     // the former States, Czechoslovakia, East Germany, South Yemen and Yugoslavia
@@ -638,7 +646,9 @@ function drawAnnex() {
     ['s5', {models: A.lenses.length}],
     ['s6', {folds: A.folds, rest: A.folds - 1}],
     ['s7', {general: TOPICS.filter(x => x.kind === 'general').length}],
-  ].map(([k, v], i) => `<li><span class="n">${i + 1}</span><div><h3>${esc(t(k + 't'))}</h3><p>${tb(k, v)}</p></div></li>`).join('');
+    // what the figures and the views use; a topic's sub-topics count under it too
+    ['s8', {}, top ? ' ' + esc(t('s8sub', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : ''],
+  ].map(([k, v, more = ''], i) => `<li><span class="n">${i + 1}</span><div><h3>${esc(t(k + 't'))}</h3><p>${tb(k, v)}${more}</p></div></li>`).join('');
   const st = l => l.pass === false ? 'apx' : 'ok';
   const bar = v => `<td class="pr"><span class="pv">${pc(v)}</span><span class="pb" aria-hidden="true"><b style="width:${(100 * Math.min(1, v ?? 0)).toFixed(1)}%"></b><i style="left:${100 * A.bar}%"></i></span></td>`;
   const chip = l => `<span class="st st-${st(l)}">${esc(t('st_' + st(l)))}</span>`;   // on phones, under the name
@@ -647,18 +657,14 @@ function drawAnnex() {
   const states = [['ok', {bar: pc(A.bar)}], ['apx', {}]]
     .map(([k, v]) => `<li><span class="st st-${k}">${esc(t('st_' + k))}</span><span>${tb('st_' + k + 'D', v)}</span></li>`).join('');
   const th = (k, cls = '') => `<th scope="col"${cls && ` class="${cls}"`}>${esc(t(k))}</th>`;
-  const subs = A.lenses.filter(l => l.parent), top = subs.length && A.lenses.find(l => l.id === subs[0].parent);
-  const use = [tb('use1'), tb('use2'), top ? esc(t('use3', {subs: lf('disjunction').format(subs.map(l => inSentence(l[lang]))), p: inSentence(top[lang])})) : '', tb('use4')]
-    .filter(Boolean).map(x => `<li>${x}</li>`).join('');
   box.innerHTML = `<section class="panel"><h2>${esc(t('anxTitle'))}</h2><p class="hint">${esc(t('anxIntro'))}</p><ol class="steps">${steps}</ol></section>
   <section class="panel" id="anxAcc"><h2>${esc(t('accTitle'))}</h2><p class="hint">${tb('accHint', {labelled: n(A.labelled)})}</p>
-    <dl class="defs">${[['accEx', 'accExD'], ['accPrecT', 'accPrec'], ['accRecT', 'accRec'], ['accF1T', 'accF1']].map(([a, b]) => `<div><dt>${esc(t(a))}</dt><dd>${esc(t(b))}</dd></div>`).join('')}</dl>
+    <dl class="defs">${[['accEx', 'accExD'], ['accPrecT', 'accPrec'], ['accRecT', 'accRec'], ['accF1T', 'accF1'], ['cardConf', 'accConf']].map(([a, b]) => `<div><dt>${esc(t(a))}</dt><dd>${esc(t(b))}</dd></div>`).join('')}</dl>
     <div class="tscroll"><table class="acc main"><thead><tr>${th('accTopic')}${th('accEx', 'num')}${th('accPrecT', 'num')}${th('accRecT', 'num')}${th('accF1T')}${th('accSite')}</tr></thead><tbody>${rows}</tbody></table></div>
     <p class="note">${tb('accBarNote', {bar: pc(A.bar), min: A.min_period})}</p>
     <ul class="states">${states}</ul>
-  </section>
-  <div class="bottom"><section class="panel" id="anxUse"><h2>${esc(t('useT'))}</h2><ul class="plain">${use}</ul></section>
-    <section class="panel"><h2>${esc(t('limT'))}</h2><ul class="plain">${['lim1', 'lim2', 'lim3', 'lim4'].map(k => `<li>${esc(t(k))}</li>`).join('')}</ul></section></div>`;
+    <p class="note">${esc(t('accLim'))}</p>
+  </section>`;
 }
 
 // ---------------- language ----------------
@@ -699,5 +705,5 @@ setFormats(); applyLang(); setTab(state.tab);
 const redraw = () => { regMap.invalidate(); ctyMap.invalidate(); update(); };
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redraw);
 new MutationObserver(redraw).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
-document.fonts?.ready.then(() => { regMap.draw(); ctyMap.draw(); });
+document.fonts?.ready.then(() => { regMap.draw(); ctyMap.draw(); if (state.tab === 'reg') drawTrend(); });   // names are cut by their width in the font
 })();
